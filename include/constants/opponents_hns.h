@@ -625,7 +625,7 @@
 #define TRAINER_WESSEL_HNS                            615
 #define TRAINER_SKYLAR_HNS                            616
 
-#define TRAINERS_COUNT_HNS                       618
-#define MAX_TRAINERS_COUNT_HNS                   864
+#define TRAINERS_COUNT_HNS                       1473
+#define MAX_TRAINERS_COUNT_HNS                   1480
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_HNS_H

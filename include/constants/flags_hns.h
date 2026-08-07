@@ -1208,9 +1208,9 @@
 // Trainer flags
 #define TRAINER_FLAGS_START                          0x500
 #define FLAG_TRAINER_FLAG_START                      TRAINER_FLAGS_START
-#define TRAINER_FLAGS_END                            0x85F
+#define TRAINER_FLAGS_END                            0xAC7
 // System flags
-#define SYS_FLAGS                                   0x860
+#define SYS_FLAGS                                   0xAC8
 
 #define FLAG_SYS_SAFARI_MODE                        (SYS_FLAGS + 0x0)
 #define FLAG_SYS_BUG_CONTEST_MODE                   (SYS_FLAGS + 0x1)
