@@ -381,8 +381,64 @@ void RunOnLoadMapScript(void)
     MapHeaderRunScriptType(MAP_SCRIPT_ON_LOAD);
 }
 
+#if IS_HNS
+static void SkipHoennIntroOnce(void)
+{
+    static const u16 sHiddenObjects[] = {
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE,
+        FLAG_HIDE_LITTLEROOT_TOWN_BIRCH,
+        FLAG_HIDE_LITTLEROOT_TOWN_RIVAL,
+        FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE,
+        FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG,
+        FLAG_HIDE_OLDALE_TOWN_RIVAL,
+        FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1,
+        FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY,
+        FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN,
+        FLAG_SET_WALL_CLOCK,
+    };
+    u32 i;
+
+    if (FlagGet(FLAG_UNUSED_3))
+        return;
+    FlagSet(FLAG_UNUSED_3);
+
+    for (i = 0; i < ARRAY_COUNT(sHiddenObjects); i++)
+        FlagSet(sHiddenObjects[i]);
+
+    VarSet(VAR_LITTLEROOT_INTRO_STATE, 7);   // Umzug, Uhr und Nachbarbesuch erledigt
+    VarSet(VAR_LITTLEROOT_TOWN_STATE, 4);    // Turboschuhe erhalten
+    VarSet(VAR_LITTLEROOT_RIVAL_STATE, 4);   // Pokedex erhalten
+    VarSet(VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 2);
+    VarSet(VAR_LITTLEROOT_HOUSES_STATE_MAY, 2);
+    VarSet(VAR_BIRCH_LAB_STATE, 5);
+    VarSet(VAR_ROUTE101_STATE, 3);
+    VarSet(VAR_OLDALE_RIVAL_STATE, 2);
+    VarSet(VAR_OLDALE_TOWN_STATE, 1);
+}
+#endif
+
 void RunOnTransitionMapScript(void)
 {
+#if IS_HNS
+    // Hoenn wird per Schiff betreten, nicht ueber die Umzugsszene. Damit auch
+    // bestehende Spielstaende ohne diese Sequenz auskommen, wird ihr Endzustand
+    // beim ersten Kartenwechsel einmalig hergestellt.
+    SkipHoennIntroOnce();
+#endif
     MapHeaderRunScriptType(MAP_SCRIPT_ON_TRANSITION);
 }
 
