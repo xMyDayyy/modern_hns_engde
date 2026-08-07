@@ -63,6 +63,9 @@ extern const u8 EventScript_ResetAllMapFlagsHnS[];
 
 static void ClearFrontierRecord(void);
 static void WarpToTruck(void);
+#if IS_HNS
+static void SkipHoennIntro(void);
+#endif
 static void ResetMiniGamesRecords(void);
 static void ResetItemFlags(void);
 static void ResetDexNav(void);
@@ -301,8 +304,53 @@ void NewGameInitData(void)
 #if IS_HNS
     StringCopy(gSaveBlock2Ptr->rivalName, gText_ExpandedPlaceholder_Silver);
     InitMomSavings();
+    SkipHoennIntro();
 #endif
 }
+
+#if IS_HNS
+// Hoenn wird nicht über die Umzugsszene betreten, sondern per Schiff.
+// Deshalb gilt dessen Anfangssequenz von vornherein als erledigt:
+// Kulissenfiguren werden ausgeblendet, die Zustandsvariablen vorgesetzt.
+static void SkipHoennIntro(void)
+{
+    static const u16 sHiddenObjects[] = {
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN,
+        FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM,
+        FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE,
+        FLAG_HIDE_LITTLEROOT_TOWN_BIRCH,
+        FLAG_HIDE_LITTLEROOT_TOWN_RIVAL,
+        FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE,
+        FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG,
+        FLAG_HIDE_OLDALE_TOWN_RIVAL,
+    };
+    u32 i;
+
+    for (i = 0; i < ARRAY_COUNT(sHiddenObjects); i++)
+        FlagSet(sHiddenObjects[i]);
+
+    VarSet(VAR_LITTLEROOT_INTRO_STATE, 3);
+    VarSet(VAR_LITTLEROOT_TOWN_STATE, 3);
+    VarSet(VAR_LITTLEROOT_RIVAL_STATE, 3);
+    VarSet(VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 5);
+    VarSet(VAR_LITTLEROOT_HOUSES_STATE_MAY, 5);
+    VarSet(VAR_BIRCH_LAB_STATE, 5);
+    VarSet(VAR_ROUTE101_STATE, 3);
+    VarSet(VAR_OLDALE_RIVAL_STATE, 2);
+    VarSet(VAR_OLDALE_TOWN_STATE, 1);
+}
+#endif // IS_HNS
 
 static void ResetMiniGamesRecords(void)
 {
