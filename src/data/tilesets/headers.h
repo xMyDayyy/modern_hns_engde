@@ -281,7 +281,7 @@ const struct Tileset gTileset_Lab_Frlg =
     .callback = NULL,
 };
 
-#if !IS_FRLG && !IS_HNS
+#if !IS_FRLG
 
 const struct Tileset gTileset_Petalburg =
 {
@@ -1540,7 +1540,9 @@ const struct Tileset gTileset_HallOfFame =
     .callback = NULL,
 };
 
-#elif IS_HNS
+#endif // !IS_FRLG
+
+#if IS_HNS
 
 
 // HnS tilesets
