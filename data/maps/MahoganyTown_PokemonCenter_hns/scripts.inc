@@ -22,7 +22,7 @@ MahoganyTown_PokemonCenter_Text_PokefanM:
 #if GERMAN
 	.string "Wie? Team Rocket ist wieder da?\p"
 	.string "Ich sah einige Männer in\n"
-	.string "Schwarz am {COLOR RED}See des Zorns{COLOR DARK_GRAY}…$"
+	.string "Schwarz am See des Zorns…$"
 #else
     .string "What's this? TEAM ROCKET has come\n"
     .string "back?\p"

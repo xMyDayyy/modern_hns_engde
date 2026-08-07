@@ -248,7 +248,7 @@ NewBarkTown_Text_Wooper:
 
 NewBarkTown_Text_FatManState2:
 #if GERMAN
-	.string "Wow, dein {COLOR RED}PokéCom{COLOR DARK_GRAY} ist beeindruckend!$"
+	.string "Wow, dein PokéCom ist beeindruckend!$"
 #else
 	.string "Wow, your POKéGEAR is impressive!\n"
 	.string "Did your mom get it for you?$"
@@ -303,7 +303,7 @@ NewBarkTown_Text_LassState4:
 
 NewBarkTown_Text_LassState5:
 #if GERMAN
-	.string "Mit dem {COLOR RED}PokéCom{COLOR DARK_GRAY} kannst du jederzeit\n"
+	.string "Mit dem PokéCom kannst du jederzeit\n"
 	.string "deine Mutter anrufen und ihr erzählen,\l"
 	.string "wie es dir so geht!$"
 #else

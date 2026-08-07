@@ -34,7 +34,7 @@ CianwoodCity_Text_PharmacistGivePotion:
 	.string "Wo drückt denn der Schuh?\p"
 	.string "… … …\p"
 	.string "Ach so, dann geht es hier also um das\n"
-	.string "Pokémon vom {COLOR RED}Leuchtturm{COLOR DARK_GRAY}! Na klar!\p"
+	.string "Pokémon vom Leuchtturm! Na klar!\p"
 	.string "Diese Medizin sollte genau das sein,\n"
 	.string "was du brauchst. Hier, nimm!$"
 #else
@@ -49,7 +49,7 @@ CianwoodCity_Text_PharmacistGivePotion:
 
 CianwoodCity_Text_ReceivedSecretpotion:
 #if GERMAN
-	.string "{PLAYER} hat den {COLOR RED}Geheimtrank{COLOR DARK_GRAY}\n"
+	.string "{PLAYER} hat den Geheimtrank\n"
 	.string "erhalten!$"
 #else
 	.string "{PLAYER} received SECRET POTION.$"
@@ -57,7 +57,7 @@ CianwoodCity_Text_ReceivedSecretpotion:
 
 CianwoodCity_Text_PharmacistDescribePotion:
 #if GERMAN
-	.string "Mein {COLOR RED}Geheimtrank{COLOR DARK_GRAY} ist etwas zu\n"
+	.string "Mein Geheimtrank ist etwas zu\n"
 	.string "stark, deshalb gebe ich ihn nur\l"
 	.string "im Notfall.$"
 #else

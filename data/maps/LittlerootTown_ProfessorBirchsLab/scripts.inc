@@ -826,7 +826,7 @@ LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 	.string "Geschichte als Trainer.\p"
 	.string "Hier, das hilft mir bei meinen For-\n"
 	.string "schungen. Aber ich denke, du kannst\l"
-	.string "den {COLOR RED}Pokédex{COLOR DARK_GRAY} auch gebrauchen.$"
+	.string "den Pokédex auch gebrauchen.$"
 #else
 	.string "PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\p"
 	.string "I heard you beat {RIVAL} on\n"
@@ -842,14 +842,14 @@ LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
 #if GERMAN
-	.string "{PLAYER} erhält den {COLOR RED}Pokédex{COLOR DARK_GRAY}!$"
+	.string "{PLAYER} erhält den Pokédex!$"
 #else
 	.string "{PLAYER} received the POKéDEX!$"
 #endif
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 #if GERMAN
-	.string "Prof. Birk: Der {COLOR RED}Pokédex{COLOR DARK_GRAY} ist ein hoch\n"
+	.string "Prof. Birk: Der Pokédex ist ein hoch\n"
 	.string "entwickeltes, technisches Gerät, das\l"
 	.string "automatisch jedes Pokémon, das du\l"
 	.string "siehst oder fängst, registriert.\p"
@@ -857,7 +857,7 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "Haus. \p"
 	.string "Immer, wenn mein Kind ein seltenes\n"
 	.string "Pokémon fängt, kommt es und\l"
-	.string "zeigt mir den Eintrag im {COLOR RED}Pokédex{COLOR DARK_GRAY},\l"
+	.string "zeigt mir den Eintrag im Pokédex,\l"
 	.string "während ich draußen forsche.$"
 #else
 	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
@@ -887,7 +887,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 #if GERMAN
 	.string "Maike: Oh, wow, {PLAYER}{KUN}!\n"
-	.string "Jetzt hast du auch einen {COLOR RED}Pokédex{COLOR DARK_GRAY}!\p"
+	.string "Jetzt hast du auch einen Pokédex!\p"
 	.string "Das ist ja toll! Genau wie ich!\n"
 	.string "Ich habe hier etwas für dich!$"
 #else
@@ -935,7 +935,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
 #if GERMAN
 	.string "Brix: Ach…\n"
-	.string "Du hast auch einen {COLOR RED}Pokédex{COLOR DARK_GRAY}.\p"
+	.string "Du hast auch einen Pokédex.\p"
 	.string "Na, dann.\n"
 	.string "Ich gebe dir dies.$"
 #else
@@ -1051,7 +1051,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
 #if GERMAN
 	.string "Maike: Hihihi!\p"
 	.string "Ich finde es total cool, dass mein\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} auch verbessert wird!\p"
+	.string "Pokédex auch verbessert wird!\p"
 	.string "Dank dir, {PLAYER}{KUN}! Denn du hast\n"
 	.string "so viele Pokémon gefangen!$"
 #else
@@ -1087,7 +1087,7 @@ LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone:
 
 LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
 #if GERMAN
-	.string "Der {COLOR RED}Pokédex{COLOR DARK_GRAY} von {PLAYER} wurde mit dem\n"
+	.string "Der Pokédex von {PLAYER} wurde mit dem\n"
 	.string "Nationalen Modus ausgerüstet.$"
 #else
 	.string "{PLAYER}'s POKéDEX was upgraded\n"
@@ -1143,13 +1143,13 @@ LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
 #if GERMAN
 	.string "Prof. Birk: Oh, {PLAYER}{KUN}!\n"
 	.string "Lass mich einen Blick auf deinen\l"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} werfen.\p"
+	.string "Pokédex werfen.\p"
 	.string "… … … … …\n"
 	.string "…\l"
 	.string "… … … … …\l"
 	.string "…\p"
 	.string "Ja, es besteht kein Zweifel.\p"
-	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} der Hoenn-Region ist\n"
+	.string "Dein Pokédex der Hoenn-Region ist\n"
 	.string "vollständig!\p"
 	.string "Das ist mehr als beeindruckend.\p"
 	.string "Ich habe ein Geschenk für dich.\p"
@@ -1277,7 +1277,7 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 #if GERMAN
 	.string "Prof. Birk: Vergiss nicht! Dein\n"
-	.string "Hoenn-{COLOR RED}Pokédex{COLOR DARK_GRAY} ist vollständig.\p"
+	.string "Hoenn-Pokédex ist vollständig.\p"
 	.string "Die Straße namens Pokémon findet\n"
 	.string "niemals ein Ende.\p"
 	.string "Irgendwo gibt es hohes Gras, das auf\n"
@@ -1318,7 +1318,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
 	.string "Wirst du weiter in Kämpfen antreten\n"
 	.string "und deine Fähigkeiten verbessern?\p"
 	.string "Oder versuchst du, den Nationalen\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} vollständig zu bekommen?\p"
+	.string "Pokédex vollständig zu bekommen?\p"
 	.string "Ich werde hier bleiben und dem Prof\n"
 	.string "helfen.$"
 #else
@@ -1345,7 +1345,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
 LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
 #if GERMAN
 	.string "Maike: Oh, hi {PLAYER}{KUN}!\n"
-	.string "Hast du schon die {COLOR RED}Kampfzone{COLOR DARK_GRAY}\l"
+	.string "Hast du schon die Kampfzone\l"
 	.string "besucht?$"
 #else
 	.string "MAY: Oh, hi, {PLAYER}{KUN}!\n"
@@ -1356,7 +1356,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
 LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
 #if GERMAN
 	.string "Brix: Hey, {PLAYER}!\n"
-	.string "Hast du schon die {COLOR RED}Kampfzone{COLOR DARK_GRAY}\l"
+	.string "Hast du schon die Kampfzone\l"
 	.string "besucht?$"
 #else
 	.string "BRENDAN: Hey, {PLAYER}!\n"

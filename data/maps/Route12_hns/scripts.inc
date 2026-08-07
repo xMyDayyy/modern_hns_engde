@@ -150,7 +150,7 @@ Route12_Text_FisherBarneyAfterBattle:
 	.string "Wichtigste in unserem Leben.\p"
 	.string "Wenn dem nicht so wäre, hätten die\n"
 	.string "Leute nicht so einen Aufstand\l"
-	.string "gemacht, als das {COLOR RED}Kraftwerk{COLOR DARK_GRAY} ausfiel.$"
+	.string "gemacht, als das Kraftwerk ausfiel.$"
 #else
 	.string "I think electricity is the most\n"
 	.string "important thing in our daily\l"

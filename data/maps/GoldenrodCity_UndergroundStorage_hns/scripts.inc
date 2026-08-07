@@ -147,7 +147,7 @@ RadioTowerBasement_Text_DirectorIntro:
 	.string "bloß los?\p"
 	.string "Was? Dort wimmelt es nur so vor Team\n"
 	.string "Rocket-Mitgliedern? Na gut! Hier, nimm\l"
-	.string "diesen {COLOR RED}Türöffner{COLOR DARK_GRAY}!$"
+	.string "diesen Türöffner!$"
 #else
     .string "DIRECTOR: Who? What? You came to\n"
     .string "rescue me?\p"

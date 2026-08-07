@@ -308,7 +308,7 @@ MossdeepCity_Text_WantKingsRockStevenGaveMe:
 	.string "Ich habe das von Troy bekommen, weiß\n"
 	.string "aber nicht, was ich damit machen soll.\n"
 	.string "\p"
-	.string "Ich glaube, es heißt {COLOR RED}King-Stein{COLOR DARK_GRAY}.\n"
+	.string "Ich glaube, es heißt King-Stein.\n"
 	.string "Möchtest du das haben?$"
 #else
 	.string "I got this from STEVEN, but I don't\n"

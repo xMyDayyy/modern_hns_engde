@@ -339,7 +339,7 @@ BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
 #if GERMAN
-	.string "{PLAYER} steckt den {COLOR RED}Trainerpass{COLOR DARK_GRAY}\n"
+	.string "{PLAYER} steckt den Trainerpass\n"
 	.string "zum Kampfzonenpass.$"
 #else
 	.string "{PLAYER} placed the TRAINER CARD\n"

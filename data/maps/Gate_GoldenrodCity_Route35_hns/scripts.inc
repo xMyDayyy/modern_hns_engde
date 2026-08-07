@@ -80,7 +80,7 @@ Route35GoldenrodGate_Text_RandyAskFavor:
 	.string "Entschuldige, Kleiner!\n"
 	.string "Kannst du mir einen Gefallen tun?\p"
 	.string "Kannst du dieses Pokémon\n"
-	.string "meinem Freund auf {COLOR RED}Route 31{COLOR DARK_GRAY} bringen?\p"
+	.string "meinem Freund auf Route 31 bringen?\p"
 	.string "Du wirst ihn sofort erkennen!$"
 #else
 	.string "Excuse me, kid! Can you do a guy\n"
@@ -118,7 +118,7 @@ Route35GoldenrodGate_Text_RandyWeirdTree:
 	.string "Vergiss nicht, es an die\n"
 	.string "erste Stelle im Team zu tun,\n"
 	.string "sobald du meinen Freund triffst!\p"
-	.string "{COLOR RED}Route 31{COLOR DARK_GRAY}!\p"
+	.string "Route 31!\p"
 	.string "Stimmt! Ein\n"
 	.string "merkwürdiger Baum hat die Straße\n"
 	.string "blockiert.\p"
@@ -176,7 +176,7 @@ Route35GoldenrodGate_Text_PokefanF_TreeBlocking:
 	.string "winden, wenn man ihn anspricht.\p"
 	.string "Es heißt außerdem, dass er rasend\l"
 	.string "wurde, als ihn jemand mit Wasser aus\l"
-	.string "seiner {COLOR RED}Schiggykanne{COLOR DARK_GRAY} begossen hat.$"
+	.string "seiner Schiggykanne begossen hat.$"
 #else
 	.string "A strange tree is blocking the road.\p"
 	.string "It wriggles around if you talk to it.\p"
@@ -197,7 +197,7 @@ Route35GoldenrodGate_Text_Fisher:
 #if GERMAN
 	.string "Ich frage mich, wie viele Arten\p"
 	.string "von Pokémon es wohl geben mag.\p"
-	.string "Vor drei Jahren hat {COLOR RED}Prof. Eich{COLOR DARK_GRAY}\p"
+	.string "Vor drei Jahren hat Prof. Eich\p"
 	.string "verlautbart, dass\n"
 	.string "es 150 verschiedene Arten geben soll.$"
 #else

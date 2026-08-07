@@ -194,7 +194,7 @@ Route29_Text_OldManExplanation:
 	.string "Wirf dann einen Ball aus deinem\n"
 	.string "Beutel! Jeder Ball reicht.\p"
 	.string "Wenn du mehr lernen willst,\n"
-	.string "geh zur Akademie in {COLOR RED}Viola City{COLOR DARK_GRAY}!\p"
+	.string "geh zur Akademie in Viola City!\p"
 	.string "Die Schüler dort wissen viel\n"
 	.string "über Pokémon.$"
 #else
@@ -213,10 +213,10 @@ Route29_Text_OldManDeclined:
 	.string "Oh… Na gut.\p"
 	.string "Untersuche jede Route, um\n"
 	.string "verschiedene Pokémon zu finden.\p"
-	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} zeigt dir auch,\n"
+	.string "Dein Pokédex zeigt dir auch,\n"
 	.string "wo sie leben!\p"
 	.string "Wenn du mehr lernen willst,\n"
-	.string "geh zur Akademie in {COLOR RED}Viola City{COLOR DARK_GRAY}!\p"
+	.string "geh zur Akademie in Viola City!\p"
 	.string "Die Schüler wissen viel über\n"
 	.string "Pokémon.$"
 #else
@@ -248,7 +248,7 @@ Route29_Text_Lass:
 	.string "Siehst du die Stufen hier?\p"
 	.string "Es erfordert zwar etwas Mut, sie\n"
 	.string "herunterzuspringen, aber so kannst\l"
-	.string "du auf dem Weg nach {COLOR RED}Neuborkia{COLOR DARK_GRAY} das\l"
+	.string "du auf dem Weg nach Neuborkia das\l"
 	.string "hohe Gras umgehen.$"
 #else
 	.string "See those ledges?\n"
@@ -313,7 +313,7 @@ Route29_Text_TuscanyNope:
 Route29_Text_TuscanyGivesGift:
 #if GERMAN
 	.string "Ja! Da wir uns zum ersten Mal sehen,\p"
-	.string "schenke ich dir einen {COLOR RED}Seidenschal{COLOR DARK_GRAY}.$"
+	.string "schenke ich dir einen Seidenschal.$"
 #else
 	.string "Yes! By way of introduction,\n"
 	.string "please accept this gift, a SILK\l"

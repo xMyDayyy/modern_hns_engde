@@ -36,7 +36,7 @@ PokemonTower_3F_Text_HopeDefeat::
 
 PokemonTower_3F_Text_HopePostBattle::
 #if GERMAN
-	.string "Das {COLOR RED}Silph Scope{COLOR DARK_GRAY} kann Geister\n"
+	.string "Das Silph Scope kann Geister\n"
 	.string "identifizieren!$"
 #else
 	.string "The ghosts can be identified by\n"

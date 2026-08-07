@@ -289,7 +289,7 @@ Route103_EventScript_Isabelle::
 Route103_Text_MayRoute103Pokemon:
 #if GERMAN
 	.string "Maike: Mal seh’n… Das Pokémon von\n"
-	.string "{COLOR RED}Route 10{COLOR DARK_GRAY}3 besitzt…$"
+	.string "Route 103 besitzt…$"
 #else
 	.string "MAY: Let's see… The POKéMON found\n"
 	.string "on ROUTE 103 include…$"
@@ -350,7 +350,7 @@ Route103_Text_MayTimeToHeadBack:
 Route103_Text_BrendanRoute103Pokemon:
 #if GERMAN
 	.string "Brix: So… Dieses und dieses leben an\n"
-	.string "der {COLOR RED}Route 10{COLOR DARK_GRAY}3…$"
+	.string "der Route 103…$"
 #else
 	.string "BRENDAN: Okay, so it's this one and\n"
 	.string "that one that live on ROUTE 103…$"

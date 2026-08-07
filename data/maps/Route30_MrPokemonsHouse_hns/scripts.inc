@@ -150,7 +150,7 @@ MrPokemonHouse_Movement_MrPokemon_Leave:
 MrPokemonHouse_Text_Intro1:
 #if GERMAN
 	.string "Hallo! Du musst {PLAYER} sein.\p"
-	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY} sagte,\n"
+	.string "Prof. Lind sagte,\n"
 	.string "dass du vorbeikommen würdest.$"
 #else
 	.string "Hello, hello! You must be\n"
@@ -170,7 +170,7 @@ MrPokemonHouse_Text_Intro2:
 
 MrPokemonHouse_Text_GotEgg:
 #if GERMAN
-	.string "{PLAYER} erhält {COLOR RED}Rätsel-Ei{COLOR DARK_GRAY}.$"
+	.string "{PLAYER} erhält Rätsel-Ei.$"
 #else
 	.string "{PLAYER} received MYSTERY EGG.$"
 #endif
@@ -181,10 +181,10 @@ MrPokemonHouse_Text_Intro3:
 	.string "das eine Pokémon-Pension leitet.\p"
 	.string "Sie gaben mir das Ei.\p"
 	.string "Ich war derart fasziniert,\n"
-	.string "dass ich {COLOR RED}Prof. Lind{COLOR DARK_GRAY} eine\l"
+	.string "dass ich Prof. Lind eine\l"
 	.string "E-Mail schrieb.\p"
 	.string "Was die Entwicklung von Pokémon\n"
-	.string "betrifft, ist {COLOR RED}Prof. Lind{COLOR DARK_GRAY}\l"
+	.string "betrifft, ist Prof. Lind\l"
 	.string "wirklich genial.$"
 #else
 	.string "I know a couple who run a\n"
@@ -199,7 +199,7 @@ MrPokemonHouse_Text_Intro3:
 
 MrPokemonHouse_Text_Intro4:
 #if GERMAN
-	.string "Sogar {COLOR RED}Prof. Eich{COLOR DARK_GRAY} schätzt ihn sehr.$"
+	.string "Sogar Prof. Eich schätzt ihn sehr.$"
 #else
 	.string "Even PROF.OAK here recognizes\n"
 	.string "that.$"
@@ -208,7 +208,7 @@ MrPokemonHouse_Text_Intro4:
 MrPokemonHouse_Text_Intro5:
 #if GERMAN
 	.string "Ich gehe davon aus,\n"
-	.string "dass {COLOR RED}Prof. Lind{COLOR DARK_GRAY} mehr über\l"
+	.string "dass Prof. Lind mehr über\l"
 	.string "das Ei weiß.$"
 #else
 	.string "If my assumption is correct,\n"
@@ -246,19 +246,19 @@ MrPokemonHouse_Text_AlwaysNewDiscoveries:
 MrPokemonHouse_Text_OakIntro:
 #if GERMAN
 	.string "Eich: Aha! Du bist also {PLAYER}!\p"
-	.string "Mein Name ist {COLOR RED}Prof. Eich{COLOR DARK_GRAY}!\p"
+	.string "Mein Name ist Prof. Eich!\p"
 	.string "Ich bin von Beruf Pokémon-Forscher.\p"
 	.string "Ich besuche gerade\n"
-	.string "meinen alten Freund {COLOR RED}Mr. Pokémon{COLOR DARK_GRAY}.\p"
+	.string "meinen alten Freund Mr. Pokémon.\p"
 	.string "Ich hörte, du sollst etwas für\n"
-	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY} besorgen,\l"
+	.string "Prof. Lind besorgen,\l"
 	.string "also habe ich gewartet.\p"
 	.string "Oh! Was ist das? Ein seltenes Pokémon!\p"
 	.string "Mal sehen…\p"
 	.string "Hm, ich verstehe!\p"
-	.string "Ich weiß, warum {COLOR RED}Prof. Lind{COLOR DARK_GRAY} dir ein\n"
+	.string "Ich weiß, warum Prof. Lind dir ein\n"
 	.string "Pokémon für die Besorgung gab.\p"
-	.string "Für Forscher wie {COLOR RED}Prof. Lind{COLOR DARK_GRAY} und\n"
+	.string "Für Forscher wie Prof. Lind und\n"
 	.string "mich sind Pokémon unsere Freunde.\p"
 	.string "Er erkannte, dass du deine Pokémon\n"
 	.string "liebevoll und umsichtig umsorgst.\p"
@@ -266,7 +266,7 @@ MrPokemonHouse_Text_OakIntro:
 	.string "Du scheinst zuverlässig zu sein.\p"
 	.string "Möchtest du mir auch helfen?\p"
 	.string "Dies ist die neueste Version des\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}. Er erfasst automatisch Daten\l"
+	.string "Pokédex. Er erfasst automatisch Daten\l"
 	.string "über Pokémon,\l"
 	.string "die man gefangen oder gesehen hat!\p"
 	.string "Er ist eine Art Hi-Tech-Lexikon!$"
@@ -300,7 +300,7 @@ MrPokemonHouse_Text_OakIntro:
 
 MrPokemonHouse_Text_GetDex:
 #if GERMAN
-	.string "{PLAYER} erhält {COLOR RED}Pokédex{COLOR DARK_GRAY}!$"
+	.string "{PLAYER} erhält Pokédex!$"
 #else
 	.string "{PLAYER} received POKéDEX!$"
 #endif
@@ -308,10 +308,10 @@ MrPokemonHouse_Text_GetDex:
 MrPokemonHouse_Text_OakParting:
 #if GERMAN
 	.string "Triff viele verschiedene Pokémon\n"
-	.string "und vervollständige den {COLOR RED}Pokédex{COLOR DARK_GRAY}!\p"
+	.string "und vervollständige den Pokédex!\p"
 	.string "Aber ich bin schon zu lange\n"
 	.string "geblieben.\p"
-	.string "Ich muss nach {COLOR RED}Dukatia City{COLOR DARK_GRAY}\n"
+	.string "Ich muss nach Dukatia City\n"
 	.string "zu meiner gewohnten Radiosendung.\p"
 	.string "{PLAYER}, ich zähle auf dich!$"
 #else

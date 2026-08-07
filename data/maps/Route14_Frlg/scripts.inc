@@ -58,7 +58,7 @@ Route14_Text_MitchPostBattle::
 
 Route14_Text_BeckIntro::
 #if GERMAN
-	.string "In {COLOR RED}Prismania City{COLOR DARK_GRAY} kann man TMs\n"
+	.string "In Prismania City kann man TMs\n"
 	.string "kaufen.\p"
 	.string "VMs besitzen allerdings nur wenige\n"
 	.string "Personen.$"

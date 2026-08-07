@@ -30,9 +30,9 @@ FortreeCity_PokemonCenter_1F_EventScript_Boy::
 FortreeCity_PokemonCenter_1F_Text_GoToSafariZone:
 #if GERMAN
 	.string "Na, Kindchen, arbeitest du an einem\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
+	.string "Pokédex?\p"
 	.string "Hmm… Ich an deiner Stelle würde mal\n"
-	.string "die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} auf der {COLOR RED}Route 12{COLOR DARK_GRAY}1\l"
+	.string "die Safari-Zone auf der Route 121\l"
 	.string "besuchen.$"
 #else
 	.string "Listen, kid, are you working\n"

@@ -1627,13 +1627,13 @@ MatchCall_PersonalizedText11::
 #if GERMAN
 	.string "Ich bin’s, {STR_VAR_1}!\n"
 	.string "Hör dir das mal an!\p"
-	.string "Ich liebe die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}, aber ich\n"
+	.string "Ich liebe die Safari-Zone, aber ich\n"
 	.string "verlaufe mich dort immer. Immer!!!\p"
 	.string "Und das hohe Gras dort!\n"
 	.string "Und das Gelände ist sooo groß!\p"
 	.string "Hach, nachdem ich bei dir gejammert\n"
 	.string "habe, geht’s mir gleich viel besser.\p"
-	.string "Ich werde jetzt zur {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\n"
+	.string "Ich werde jetzt zur Safari-Zone\n"
 	.string "gehen. Man sieht sich!$"
 #else
 	.string "It's {STR_VAR_1}!\n"
@@ -3008,7 +3008,7 @@ MatchCall_PersonalizedText63::
 #if GERMAN
 	.string "Ahoi!\n"
 	.string "Ich bin’s, {STR_VAR_1}.\l"
-	.string "Ich bin gerade auf der {COLOR RED}Route 10{COLOR DARK_GRAY}8.\l"
+	.string "Ich bin gerade auf der Route 108.\l"
 	.string "Also da, wo ich immer bin.\p"
 	.string "Heute habe ich eine hinreißende\n"
 	.string "Schwimmerin gesehen!\p"
@@ -3017,7 +3017,7 @@ MatchCall_PersonalizedText63::
 	.string "Sie hat mich daraufhin richtig fies\n"
 	.string "angesehen.\p"
 	.string "Das waren die Neuigkeiten von\n"
-	.string "{COLOR RED}Route 10{COLOR DARK_GRAY}8. Bis bald mal.$"
+	.string "Route 108. Bis bald mal.$"
 #else
 	.string "Ahoy there!\n"
 	.string "It's me, {STR_VAR_1}!\l"
@@ -5048,7 +5048,7 @@ MatchCall_Text_Drake::
 	.string "Ich glaube, da gibt es eine\n"
 	.string "Einrichtung, wo Trainer ihre\l"
 	.string "Fähigkeiten unter Beweis stellen\l"
-	.string "können. Die {COLOR RED}Kampfzone{COLOR DARK_GRAY}.\p"
+	.string "können. Die Kampfzone.\p"
 	.string "Trotzdem: Wenn man sein Können\n"
 	.string "wirklich beweisen will, dann gibt\l"
 	.string "es nur die Pokémon Liga!\p"
@@ -5239,7 +5239,7 @@ MatchCall_Text_May4::
 MatchCall_Text_May5::
 #if GERMAN
 	.string "Maike: {PLAYER}{KUN}, wie geht es dir?\p"
-	.string "Ich bin gerade auf der {COLOR RED}Route 11{COLOR DARK_GRAY}1.\p"
+	.string "Ich bin gerade auf der Route 111.\p"
 	.string "Ich werde jetzt eine Rast einlegen.\n"
 	.string "Hier gibt es eine nette alte Dame,\l"
 	.string "bei der man sich ausruhen kann.\p"
@@ -5274,7 +5274,7 @@ MatchCall_Text_May6::
 MatchCall_Text_May7::
 #if GERMAN
 	.string "Maike: {PLAYER}{KUN}! Juhuu!\n"
-	.string "Ich bin jetzt auf der {COLOR RED}Route 11{COLOR DARK_GRAY}9.\p"
+	.string "Ich bin jetzt auf der Route 119.\p"
 	.string "Hier gibt es einen breiten Fluss.\n"
 	.string "Und es regnet sehr oft.\p"
 	.string "Ich bin schon ganz durchnässt.$"
@@ -5388,7 +5388,7 @@ MatchCall_Text_May13::
 #if GERMAN
 	.string "Maike: Hi {PLAYER}{KUN}!\p"
 	.string "Wie läuft’s?\n"
-	.string "Füllst du deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
+	.string "Füllst du deinen Pokédex?\p"
 	.string "Ich habe ein Gerücht gehört. Es\n"
 	.string "soll irgendwo da draußen uralte\l"
 	.string "Pokémon geben. Drei Stück!\p"
@@ -5522,7 +5522,7 @@ MatchCall_Text_Brendan4::
 MatchCall_Text_Brendan5::
 #if GERMAN
 	.string "Brix: {PLAYER}, wie geht’s?\p"
-	.string "Ich bin gerade auf der {COLOR RED}Route 11{COLOR DARK_GRAY}1.\p"
+	.string "Ich bin gerade auf der Route 111.\p"
 	.string "Ich werde jetzt eine Rast einlegen.\n"
 	.string "Hier gibt es eine nette alte Dame,\l"
 	.string "bei der man sich ausruhen kann.\p"
@@ -5557,7 +5557,7 @@ MatchCall_Text_Brendan6::
 MatchCall_Text_Brendan7::
 #if GERMAN
 	.string "Brix: Wer ist da? Oh, {PLAYER}?\n"
-	.string "Ich bin jetzt auf der {COLOR RED}Route 11{COLOR DARK_GRAY}9.\p"
+	.string "Ich bin jetzt auf der Route 119.\p"
 	.string "Hier gibt es einen breiten Fluss.\n"
 	.string "Und es regnet sehr oft.\p"
 	.string "Ich bin bis auf die Knochen nass.$"
@@ -5671,7 +5671,7 @@ MatchCall_Text_Brendan13::
 #if GERMAN
 	.string "Brix: {PLAYER}!\p"
 	.string "Wie läuft’s?\n"
-	.string "Füllst du deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
+	.string "Füllst du deinen Pokédex?\p"
 	.string "Ich habe ein Gerücht gehört. Es\n"
 	.string "soll irgendwo da draußen ur-uralte\l"
 	.string "Pokémon geben. Drei Stück!\p"
@@ -6264,7 +6264,7 @@ MatchCall_Text_BirchRegisterCall:
 	.string "Trainer/Ruf erweitert.\p"
 	.string "Nun, dann sollte ich mich bei dir\n"
 	.string "auch registrieren!\p"
-	.string "So kann ich nämlich deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
+	.string "So kann ich nämlich deinen Pokédex\n"
 	.string "im Auge behalten, auch wenn du\l"
 	.string "durch die Gegend reist.\p"
 	.string "… … … … …\n"
@@ -6292,7 +6292,7 @@ MatchCall_Text_RegisteredBirch:
 
 MatchCall_Text_UnusedProfBirch:
 #if GERMAN
-	.string "Prof. Birk: Wenn man sowohl den {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
+	.string "Prof. Birk: Wenn man sowohl den Pokédex\n"
 	.string "als auch den PokéNav besitzt, macht die\l"
 	.string "Erforschung der Pokémon noch mehr\l"
 	.string "Spaß, nicht wahr?$"

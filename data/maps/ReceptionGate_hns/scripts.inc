@@ -122,7 +122,7 @@ VictoryRoadGate_Text_EightBadges:
 
 VictoryRoadGate_Text_LeftBlackBelt:
 #if GERMAN
-	.string "Dieser Weg führt zum {COLOR RED}Silberberg{COLOR DARK_GRAY}.\p"
+	.string "Dieser Weg führt zum Silberberg.\p"
 	.string "Dir werden be-\n"
 	.string "ängstigend starke Pokémon begegnen.$"
 #else

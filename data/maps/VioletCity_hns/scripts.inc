@@ -445,7 +445,7 @@ VioletCity_Text_HereTeacherIAm:
 VioletCity_Text_Lass:
 #if GERMAN
 	.string "Man sagt, dass im\n"
-	.string "{COLOR RED}Knofensa-Turm{COLOR DARK_GRAY} Geister umgehen.\p"
+	.string "Knofensa-Turm Geister umgehen.\p"
 	.string "Pokémon-Attacken des Typs Normal\n"
 	.string "zeigen bei Geistern keine Wirkung.$"
 #else
@@ -520,7 +520,7 @@ VioletCity_Text_GymSign:
 
 VioletCity_Text_SproutTowerSign:
 #if GERMAN
-	.string "{COLOR RED}Knofensa-Turm{COLOR DARK_GRAY}\p"
+	.string "Knofensa-Turm\p"
 	.string "Erlebe den Weg der Pokémon$"
 #else
 	.string "SPROUT TOWER\p"
@@ -589,8 +589,8 @@ VioletCity_Text_Kimono_Girl1:
 VioletCity_Text_Kimono_Girl2:
 #if GERMAN
 	.string "Ich verstehe…\p"
-	.string "Es ging von {COLOR RED}Mr. Pokémon{COLOR DARK_GRAY}\n"
-	.string "zu {COLOR RED}Prof. Lind{COLOR DARK_GRAY}, dann zu dir.\p"
+	.string "Es ging von Mr. Pokémon\n"
+	.string "zu Prof. Lind, dann zu dir.\p"
 	.string "Jetzt kapiere ich es…$"
 #else
 .string "I see...\p"

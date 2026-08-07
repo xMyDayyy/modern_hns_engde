@@ -1104,7 +1104,7 @@ Route104_Text_DontNeedThisTakeIt:
 	.string "junge Bäume.\p"
 	.string "Das macht mich so glücklich, dass ich\n"
 	.string "ganz viele gekauft habe. Dieses\l"
-	.string "{COLOR RED}Schlohkraut{COLOR DARK_GRAY} brauche ich nicht, das\l"
+	.string "Schlohkraut brauche ich nicht, das\l"
 	.string "schenke ich dir.$"
 #else
 	.string "This FLOWER SHOP started selling\n"
@@ -1213,7 +1213,7 @@ Route104_Text_RegisteredMay:
 Route104_Text_MayHowsYourPokedex:
 #if GERMAN
 	.string "Maike: Und, {PLAYER}{KUN}?\n"
-	.string "Wie geht es mit deinem {COLOR RED}Pokédex{COLOR DARK_GRAY} voran?$"
+	.string "Wie geht es mit deinem Pokédex voran?$"
 #else
 	.string "MAY: Oh, by the way, {PLAYER}{KUN},\n"
 	.string "how's your POKéDEX coming along?$"
@@ -1322,7 +1322,7 @@ Route104_Text_RegisteredBrendan:
 Route104_Text_BrendanHowsYourPokedex:
 #if GERMAN
 	.string "Brix: {PLAYER}, wie sieht es mit\n"
-	.string "deinem {COLOR RED}Pokédex{COLOR DARK_GRAY} aus?$"
+	.string "deinem Pokédex aus?$"
 #else
 	.string "BRENDAN: {PLAYER}, how's your POKéDEX?\n"
 	.string "Have you filled in any pages yet?$"

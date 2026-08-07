@@ -68,7 +68,7 @@ MauvilleCity_House2_Text_TradeHarborMailForCoinCase:
 MauvilleCity_House2_Text_IllTradeYouCoinCase:
 #if GERMAN
 	.string "Oh, ich bin so glücklich!\n"
-	.string "Okay, ich gebe dir diesen {COLOR RED}Münzkorb{COLOR DARK_GRAY}!$"
+	.string "Okay, ich gebe dir diesen Münzkorb!$"
 #else
 	.string "Oh, I'm so happy!\n"
 	.string "Okay, I'll trade you a COIN CASE!$"

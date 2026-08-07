@@ -31,7 +31,7 @@ RocketHideout_B3F_Text_Grunt1Defeat::
 
 RocketHideout_B3F_Text_Grunt1PostBattle::
 #if GERMAN
-	.string "Das {COLOR RED}Silph Scope{COLOR DARK_GRAY}? Das Gerät, das\n"
+	.string "Das Silph Scope? Das Gerät, das\n"
 	.string "der Boss geraubt hat?\p"
 	.string "Das ist hier irgendwo...$"
 #else
@@ -61,7 +61,7 @@ RocketHideout_B3F_Text_Grunt2Defeat::
 RocketHideout_B3F_Text_Grunt2PostBattle::
 #if GERMAN
 	.string "Geh ruhig weiter!\p"
-	.string "Du benötigst den {COLOR RED}Liftöffner{COLOR DARK_GRAY} und\n"
+	.string "Du benötigst den Liftöffner und\n"
 	.string "der fehlt dir!$"
 #else
 	.string "Go ahead and go!\p"

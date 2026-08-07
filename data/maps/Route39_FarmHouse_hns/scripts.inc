@@ -157,7 +157,7 @@ Route39FarmHouse_Text_WouldYouLikeAnother:
 Route39_Text_GotMilk:
 #if GERMAN
 	.string "{PLAYER} erhielt\n"
-	.string "{COLOR RED}Kuhmuh-Milch{COLOR DARK_GRAY}.$"
+	.string "Kuhmuh-Milch.$"
 #else
 	.string "{PLAYER} got MOOMOO MILK.$"
 #endif
@@ -186,7 +186,7 @@ Route39_Text_FarmerFInTrouble:
 Route39_Text_FarmerFHealedMiltank:
 #if GERMAN
 	.string "Dir haben wir zu verdanken, dass unser\n"
-	.string "{COLOR RED}Miltank{COLOR DARK_GRAY} wieder leckere Milch gibt!\p"
+	.string "Miltank wieder leckere Milch gibt!\p"
 	.string "Hier, das ist für deine Mühen!$"
 #else
 	.string "You fixed our MILTANK, hon.\n"

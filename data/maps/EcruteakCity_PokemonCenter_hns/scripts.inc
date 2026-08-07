@@ -98,7 +98,7 @@ EcruteakCity_PokemonCenter_Movement_BillBot:
 
 EcruteakCity_PokemonCenter1F_Text_Bill1:
 #if GERMAN
-	.string "Hi, ich bin {COLOR RED}Bill{COLOR DARK_GRAY}. Und wer bist du?\p"
+	.string "Hi, ich bin Bill. Und wer bist du?\p"
 	.string "Hmm, {PLAYER}?\n"
 	.string "Du bist gerade zum richtigen Zeitpunkt\l"
 	.string "gekommen.$"
@@ -120,7 +120,7 @@ EcruteakCity_PokemonCenter1F_Text_Bill2:
 	.string "habe, läuft mein PC in allen\l"
 	.string "Pokécenter in Johto und Kanto.\p"
 	.string "Ich muss schnell zurück nach\n"
-	.string "{COLOR RED}Dukatia City{COLOR DARK_GRAY} und meine Leute sehen.\l"
+	.string "Dukatia City und meine Leute sehen.\l"
 	.string "Du kannst aber jederzeit vorbeikommen!\n"
 	.string "\p"
 	.string "Tschüss!$"
@@ -159,7 +159,7 @@ EcruteakCity_PokemonCenter1F_Text_PokefanM_Mobile:
 	.string "Es gibt offensichtlich einen\p"
 	.string "Ort, an dem sich Trainer treffen.\p"
 	.string "Wo, fragst du?\p"
-	.string "Kurz nach {COLOR RED}Oliviana City{COLOR DARK_GRAY}.$"
+	.string "Kurz nach Oliviana City.$"
 #else
 	.string "You must be hoping to battle more\n"
 	.string "people, right?\p"
@@ -181,7 +181,7 @@ EcruteakCity_PokemonCenter1F_Text_CooltrainerF:
 
 EcruteakCity_PokemonCenter1F_Text_GymGuide:
 #if GERMAN
-	.string "Hm, der {COLOR RED}See des Zorns{COLOR DARK_GRAY}… das plötzliche\n"
+	.string "Hm, der See des Zorns… das plötzliche\n"
 	.string "Erscheinen des roten Garados…\l"
 	.string "Da ist doch irgendwas im Busch!\n"
 	.string "$"

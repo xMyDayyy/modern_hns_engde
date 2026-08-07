@@ -73,8 +73,8 @@ FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons::
 	.string "Angeln ist meine Leidenschaft!\n"
 	.string "Es ist ein Gedicht.\p"
 	.string "Mit einer Angel fängst du nur\n"
-	.string "{COLOR RED}Karpador{COLOR DARK_GRAY}!\p"
-	.string "Aber mit der {COLOR RED}Profiangel{COLOR DARK_GRAY} kannst\n"
+	.string "Karpador!\p"
+	.string "Aber mit der Profiangel kannst\n"
 	.string "du bessere Pokémon fangen.$"
 #else
 	.string "Fishing is a way of life!\n"

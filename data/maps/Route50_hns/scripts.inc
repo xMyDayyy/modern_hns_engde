@@ -150,7 +150,7 @@ Route50_Text_FinleyBefore:
 	.string "Freuden des Lebens, neue Menschen\l"
 	.string "kennenzulernen.\p"
 	.string "Eines Tages hoffe ich, Champ\n"
-	.string "{COLOR RED}Siegfried{COLOR DARK_GRAY} zu begegnen.\p"
+	.string "Siegfried zu begegnen.\p"
 	.string "Er ist ein legendärer Drachen-\n"
 	.string "Bändiger, ganz wie ich.\l"
 	.string "Wer ich bin?\p"
@@ -198,7 +198,7 @@ Route50_Text_FinleyDefeat:
 Route50_Text_FinleyAfter:
 #if GERMAN
 	.string "Vielleicht bist du sogar stark genug,\n"
-	.string "um {COLOR RED}Siegfried{COLOR DARK_GRAY} zu schlagen…$"
+	.string "um Siegfried zu schlagen…$"
 #else
 	.string "Perhaps you are even strong enough\n"
 	.string "to beat LANCE...$"

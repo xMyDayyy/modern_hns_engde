@@ -72,7 +72,7 @@ PalletTown_Lab_EventScript_PC::
 
 PalletTown_Lab_Text_OakLabDexCheck:
 #if GERMAN
-	.string "Wie kommst du mit dem {COLOR RED}Pokédex{COLOR DARK_GRAY} voran?$"
+	.string "Wie kommst du mit dem Pokédex voran?$"
 #else
 	.string "How is your POKéDEX coming?$"
 #endif
@@ -111,16 +111,16 @@ PalletTown_Lab_Text_OakOpenMtSilver:
 	.string "war also richtig.\p"
 	.string "Weißt du was, {PLAYER}?\n"
 	.string "Ich treffe Vorkehrungen, damit\l"
-	.string "du zum {COLOR RED}Silberberg{COLOR DARK_GRAY} kannst.\p"
-	.string "Der {COLOR RED}Silberberg{COLOR DARK_GRAY} ist ein riesiger\n"
+	.string "du zum Silberberg kannst.\p"
+	.string "Der Silberberg ist ein riesiger\n"
 	.string "Berg voller wilder Pokémon.\p"
 	.string "Er ist für normale Trainer zu\n"
 	.string "gefährlich und daher gesperrt.\p"
 	.string "Doch für dich machen wir eine\n"
 	.string "Ausnahme, {PLAYER}.\p"
-	.string "Geh zum {COLOR RED}Indigo Plateau{COLOR DARK_GRAY}.\n"
+	.string "Geh zum Indigo Plateau.\n"
 	.string "Von dort erreichst du den\l"
-	.string "{COLOR RED}Silberberg{COLOR DARK_GRAY}.$"
+	.string "Silberberg.$"
 #else
 	.string "OAK: Wow! That's excellent!\p"
 	.string "You collected the BADGES of GYMS\n"
@@ -147,7 +147,7 @@ PalletTown_Lab_Text_OakOpenIndigoPlateau:
 	.string "16 orden hast wird die Liga\l"
 	.string "bereit sein dich erneut\l"
 	.string "antreten zu lassen.\p"
-	.string "Sei gewarnt, {COLOR RED}Siegfried{COLOR DARK_GRAY} und\n"
+	.string "Sei gewarnt, Siegfried und\n"
 	.string "seine Top-Vier werden dich\l"
 	.string "mit voller Härte angehen.\p"
 	.string "Viel Glück, {PLAYER}!$"
@@ -217,7 +217,7 @@ PalletTown_Lab_Text_OaksAssistant1:
 
 PalletTown_Lab_Text_OaksAssistant2:
 #if GERMAN
-	.string "Dank deiner Arbeit am {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
+	.string "Dank deiner Arbeit am Pokédex\n"
 	.string "macht die Forschung des Profs\l"
 	.string "große Fortschritte.$"
 #else
@@ -229,7 +229,7 @@ PalletTown_Lab_Text_OaksAssistant2:
 PalletTown_Lab_Text_OaksAssistant3:
 #if GERMAN
 	.string "Sag es niemandem weiter, aber\n"
-	.string "Pokémon Talk von {COLOR RED}Prof. Eich{COLOR DARK_GRAY} ist\l"
+	.string "Pokémon Talk von Prof. Eich ist\l"
 	.string "keine Live-Sendung.$"
 #else
 	.string "Don't tell anyone, but PROF.OAK'S\n"

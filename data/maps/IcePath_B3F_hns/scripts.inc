@@ -156,7 +156,7 @@ IcePath_B3F_Text_SwinubBerry:
 	.string "Willst du Quiekel eine Beere geben?$"
 IcePath_B3F_Text_SwinubAteBerry:
 #if GERMAN
-	.string "{COLOR RED}Quiekel{COLOR DARK_GRAY} hat die Aspear-Beere genossen!$"
+	.string "Quiekel hat die Aspear-Beere genossen!$"
 #else
 	.string "SWINUB enjoyed the ASPEAR BERRY!$"
 #endif
@@ -173,7 +173,7 @@ IcePath_B3F_Text_DelibirdBerry:
 	.string "Willst du Botogel eine Beere geben?$"
 IcePath_B3F_Text_DelibirdAteBerry:
 #if GERMAN
-	.string "{COLOR RED}Botogel{COLOR DARK_GRAY} hat die Aspear-Beere genossen!$"
+	.string "Botogel hat die Aspear-Beere genossen!$"
 #else
 	.string "DELIBIRD enjoyed the ASPEAR BERRY!$"
 #endif

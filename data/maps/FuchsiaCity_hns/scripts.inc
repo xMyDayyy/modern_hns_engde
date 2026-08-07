@@ -31,14 +31,14 @@ FuchsiaCity_Text_Baoba:
 	.string "Aufseher Baoba: {PLAYER}!\p"
 	.string "Ich bin Aufseher Baoba.\p"
 	.string "Etwas Schreckliches ist passiert!\n"
-	.string "Meine alte {COLOR RED}Safari-Zone{COLOR DARK_GRAY} in Fuchsania\l"
+	.string "Meine alte Safari-Zone in Fuchsania\l"
 	.string "City wurde aufgekauft und wieder\l"
 	.string "eröffnet!\p"
 	.string "Und anscheinend gibt es neue,\n"
 	.string "exotische Pokémon!\p"
 	.string "Das schadet meinem Geschäft!\p"
 	.string "{PLAYER}, du musst in die neue\n"
-	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY} gehen und ein Pokémon\l"
+	.string "Safari-Zone gehen und ein Pokémon\l"
 	.string "fangen, um es mir zu zeigen.\p"
 	.string "Ich muss über diese “exotischen”\n"
 	.string "Pokémon Bescheid wissen.\p"
@@ -143,7 +143,7 @@ FuchsiaCity_Text_PokefanM:
 
 FuchsiaCity_Text_Teacher:
 #if GERMAN
-	.string "Schade, dass die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\p"
+	.string "Schade, dass die Safari-Zone\p"
 	.string "geschlossen ist…\n"
 	.string "Das ist schließlich Fuchsanias\l"
 	.string "Hauptattraktion.$"
@@ -186,7 +186,7 @@ FuchsiaCity_Text_SafariZoneOfficeSign:
 
 FuchsiaCity_Text_SafariZone:
 #if GERMAN
-	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY} Neuer Eigentümer\n"
+	.string "Safari-Zone Neuer Eigentümer\n"
 	.string "Devon Corp.$"
 #else
 	.string "SAFARI ZONE\n"
@@ -197,7 +197,7 @@ FuchsiaCity_Text_SafariZone:
 FuchsiaCity_Text_SafariZoneClosedSign:
 #if GERMAN
 	.string "Der Aufseher ist auf Reisen.\p"
-	.string "Deshalb ist die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\n"
+	.string "Deshalb ist die Safari-Zone\n"
 	.string "geschlossen.$"
 #else
 	.string "The WARDEN is traveling abroad.\p"

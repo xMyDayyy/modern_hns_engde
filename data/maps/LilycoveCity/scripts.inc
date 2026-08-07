@@ -475,7 +475,7 @@ LilycoveCity_Text_MayDefeat:
 #if GERMAN
 	.string "… … … … … … … …\p"
 	.string "Ich kann mich noch gut an unseren\n"
-	.string "Kampf auf der {COLOR RED}Route 10{COLOR DARK_GRAY}3 erinnern,\l"
+	.string "Kampf auf der Route 103 erinnern,\l"
 	.string "{PLAYER}{KUN}.\p"
 	.string "Dieser Kampf hat dir enorm geholfen,\n"
 	.string "stärker zu werden, oder?$"
@@ -492,7 +492,7 @@ LilycoveCity_Text_MayGoingBackToLittleroot:
 	.string "Maike: Ich überlege, ob ich bald nach\n"
 	.string "Wurzelheim zurückgehe.\p"
 	.string "Ich habe eine anständige Gruppe von\n"
-	.string "Pokémon gefangen und mein {COLOR RED}Pokédex{COLOR DARK_GRAY}\p"
+	.string "Pokémon gefangen und mein Pokédex\p"
 	.string "sieht immer besser aus. Ich gehe nach\n"
 	.string "Hause und zeige das meinem Papa.$"
 #else
@@ -509,7 +509,7 @@ LilycoveCity_Text_MayYouGoingToCollectBadges:
 	.string "Alle Orden der Arenen sammeln und die\n"
 	.string "Pokémon Liga herausfordern?\p"
 	.string "Nun, während du deine Orden sammelst,\n"
-	.string "werde ich weiter an meinem {COLOR RED}Pokédex{COLOR DARK_GRAY}\l"
+	.string "werde ich weiter an meinem Pokédex\l"
 	.string "arbeiten. Ich werde ihn eher\l"
 	.string "vollständig haben als du, wetten?\p"
 	.string "Bis dann!$"
@@ -529,10 +529,10 @@ LilycoveCity_Text_MayYouGoingToPokemonLeague:
 	.string "machen? \p"
 	.string "Wirst du die Pokémon Liga heraus-\n"
 	.string "fordern?\p"
-	.string "Oder wirst du deinen {COLOR RED}Pokédex{COLOR DARK_GRAY} vervoll-\n"
+	.string "Oder wirst du deinen Pokédex vervoll-\n"
 	.string "ständigen?\p"
 	.string "Ich habe gegen dich verloren, aber den\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} werde ich eher vollständig\l"
+	.string "Pokédex werde ich eher vollständig\l"
 	.string "haben als du!\p"
 	.string "Man sieht sich!$"
 #else
@@ -550,11 +550,11 @@ LilycoveCity_Text_MayYouGoingToBattleFrontier:
 #if GERMAN
 	.string "Und, {PLAYER}{KUN}, was wirst du\n"
 	.string "machen? \p"
-	.string "Wirst du zur {COLOR RED}Kampfzone{COLOR DARK_GRAY} gehen?\p"
-	.string "Oder wirst du deinen {COLOR RED}Pokédex{COLOR DARK_GRAY} vervoll-\n"
+	.string "Wirst du zur Kampfzone gehen?\p"
+	.string "Oder wirst du deinen Pokédex vervoll-\n"
 	.string "ständigen?\p"
 	.string "Ich habe gegen dich verloren, aber den\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} werde ich eher vollständig\l"
+	.string "Pokédex werde ich eher vollständig\l"
 	.string "haben als du!\p"
 	.string "Man sieht sich!$"
 #else
@@ -633,7 +633,7 @@ LilycoveCity_Text_BrendanGoingBackToLittleroot:
 	.string "\p"
 	.string "Weißt du, ich helfe meinem Vater bei\n"
 	.string "dem\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}. Es geht ganz anständig voran\l"
+	.string "Pokédex. Es geht ganz anständig voran\l"
 	.string "und ich sollte ihm das mal zeigen.$"
 #else
 	.string "BRENDAN: I…\n"
@@ -681,16 +681,16 @@ LilycoveCity_Text_BrendanYouGoingToPokemonLeague:
 LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 #if GERMAN
 	.string "Und, {PLAYER}, was machst du nun?\p"
-	.string "Wirst du zur {COLOR RED}Kampfzone{COLOR DARK_GRAY} gehen?\p"
-	.string "Oder wirst du deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
+	.string "Wirst du zur Kampfzone gehen?\p"
+	.string "Oder wirst du deinen Pokédex\n"
 	.string "vervollständigen?\p"
 	.string "Da du so stark geworden bist, solltest\n"
-	.string "du zur {COLOR RED}Kampfzone{COLOR DARK_GRAY} gehen.\p"
+	.string "du zur Kampfzone gehen.\p"
 	.string "Häh, wenn ich meine Pokémon besser\n"
 	.string "trainiere, sollte ich eigentlich\n"
 	.string "stärker\l"
 	.string "werden als du…\p"
-	.string "Vielleicht sollte ich zur {COLOR RED}Kampfzone{COLOR DARK_GRAY}\n"
+	.string "Vielleicht sollte ich zur Kampfzone\n"
 	.string "gehen.\p"
 	.string "Wie dem auch sei… Bleib am Ball!$"
 #else
@@ -1150,7 +1150,7 @@ LilycoveCity_Text_HeardTowerCalledSkyPillar:
 LilycoveCity_Text_SawTallTowerOnRoute131:
 #if GERMAN
 	.string "Ich habe einen großen Turm in der Nähe\n"
-	.string "der {COLOR RED}Route 13{COLOR DARK_GRAY}1 gesehen.\p"
+	.string "der Route 131 gesehen.\p"
 	.string "Ist das der…$"
 #else
 	.string "I saw this tall tower somewhere\n"

@@ -429,7 +429,7 @@ SlateportCity_PokemonFanClub_Text_ExplainBlueScarf:
 
 SlateportCity_PokemonFanClub_Text_ExplainPinkScarf:
 #if GERMAN
-	.string "Lass ein Pokémon einen {COLOR RED}Rosa Schal{COLOR DARK_GRAY}\n"
+	.string "Lass ein Pokémon einen Rosa Schal\n"
 	.string "tragen.\p"
 	.string "Dadurch wird die Anmut deines\n"
 	.string "Pokémon unübersehbar!$"

@@ -113,8 +113,8 @@ Route26_Text_CooltrainermGavenBeaten:
 Route26_Text_CooltrainermGavenAfter:
 #if GERMAN
 	.string "Um zur Pokémon Liga zu gelangen,\n"
-	.string "musst du die {COLOR RED}Siegesstraße{COLOR DARK_GRAY} passieren.\p"
-	.string "Die {COLOR RED}Siegesstraße{COLOR DARK_GRAY} ist schwierig.\p"
+	.string "musst du die Siegesstraße passieren.\p"
+	.string "Die Siegesstraße ist schwierig.\p"
 	.string "Eigentlich geht niemand dorthin!$"
 #else
     .string "To get to POKéMON LEAGUE, you have\n"
@@ -126,8 +126,8 @@ Route26_Text_CooltrainermGavenAfter:
 Route26_Text_GavenRegister:
 #if GERMAN
 	.string "Um zur Pokémon Liga zu kommen,\n"
-	.string "musst du durch die {COLOR RED}Siegesstraße{COLOR DARK_GRAY}.\p"
-	.string "Aber die {COLOR RED}Siegesstraße{COLOR DARK_GRAY} hat es in\n"
+	.string "musst du durch die Siegesstraße.\p"
+	.string "Aber die Siegesstraße hat es in\n"
 	.string "sich.\p"
 	.string "Fast niemand wagt sich dorthin!$"
 #else
@@ -156,8 +156,8 @@ Route26_Text_GavenRematchDefeat:
 Route26_Text_GavenPostRematch:
 #if GERMAN
 	.string "Um zur Pokémon Liga zu kommen,\n"
-	.string "musst du durch die {COLOR RED}Siegesstraße{COLOR DARK_GRAY}.\p"
-	.string "Aber die {COLOR RED}Siegesstraße{COLOR DARK_GRAY} hat es in\n"
+	.string "musst du durch die Siegesstraße.\p"
+	.string "Aber die Siegesstraße hat es in\n"
 	.string "sich.\p"
 	.string "Fast niemand wagt sich dorthin!$"
 #else

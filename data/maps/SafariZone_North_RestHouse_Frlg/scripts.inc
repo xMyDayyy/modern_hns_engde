@@ -29,7 +29,7 @@ SafariZone_East_Text_KeepAnyItemFoundOnSafari::
 
 SafariZone_East_Text_PrizeInDeepestPartOfSafariZone::
 #if GERMAN
-	.string "Gehe in die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}! Du kannst\n"
+	.string "Gehe in die Safari-Zone! Du kannst\n"
 	.string "dort einen Preis gewinnen!$"
 #else
 	.string "Go to the deepest part of the\n"

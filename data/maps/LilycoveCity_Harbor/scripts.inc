@@ -598,7 +598,7 @@ LilycoveCity_Harbor_Text_SlateportItIs:
 
 LilycoveCity_Harbor_Text_BattleFrontierItIs:
 #if GERMAN
-	.string "Zur {COLOR RED}Kampfzone{COLOR DARK_GRAY}, einverstanden?$"
+	.string "Zur Kampfzone, einverstanden?$"
 #else
 	.string "BATTLE FRONTIER it is, then!$"
 #endif

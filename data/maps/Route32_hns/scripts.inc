@@ -375,12 +375,12 @@ Route32_Text_CooltrainerM_AideIsWaiting:
 
 Route32_Text_CooltrainerM_SproutTower:
 #if GERMAN
-	.string "Warst du im {COLOR RED}Knofensa-Turm{COLOR DARK_GRAY}?\p"
-	.string "Wenn du jemals nach {COLOR RED}Viola City{COLOR DARK_GRAY}\n"
+	.string "Warst du im Knofensa-Turm?\p"
+	.string "Wenn du jemals nach Viola City\n"
 	.string "kommst, erwartet man von dir,\l"
 	.string "dass du dort trainierst.\p"
 	.string "Das ist ein Muss für alle Trainer.\p"
-	.string "Geh zum {COLOR RED}Knofensa-Turm{COLOR DARK_GRAY}!$"
+	.string "Geh zum Knofensa-Turm!$"
 #else
 	.string "Have you gone to SPROUT TOWER?\n"
 	.string "If you ever visit VIOLET CITY,\p"
@@ -408,11 +408,11 @@ Route32_Text_CooltrainerM_HaveThisSeed:
 #if GERMAN
 	.string "Du hast einige gute Pokémon dabei.\n"
 	.string "Sie sind bestimmt deshalb so gut, weil du\l"
-	.string "sie in {COLOR RED}Viola City{COLOR DARK_GRAY} so hart trainiert hast.\p"
+	.string "sie in Viola City so hart trainiert hast.\p"
 	.string "Die Pokémon-Arena war sicher ganz\n"
 	.string "besonders gutes Training für sie.\p"
 	.string "Hier, das ist für dich. Als kleines\n"
-	.string "Andenken an {COLOR RED}Viola City{COLOR DARK_GRAY}.\p"
+	.string "Andenken an Viola City.\p"
 	.string "Wenn du das einem Pokémon gibst,\n"
 	.string "soll angeblich die Stärke all seiner\l"
 	.string "Attacken vom Typ Pflanze steigen.$"
@@ -429,7 +429,7 @@ Route32_Text_CooltrainerM_HaveThisSeed:
 
 Route32_Text_CooltrainerM_Experiences:
 #if GERMAN
-	.string "Deine Erfahrungen aus {COLOR RED}Viola City{COLOR DARK_GRAY} werden\n"
+	.string "Deine Erfahrungen aus Viola City werden\n"
 	.string "dir auf deiner Reise sehr nützlich sein.$"
 #else
 	.string "Your experiences in VIOLET CITY\n"
@@ -736,7 +736,7 @@ Route32_Text_LizPostRematch:
 Route32_Text_BirdKeeperPeter_Seen:
 #if GERMAN
 	.string "Wow! Dieser Orden…\p"
-	.string "Er ist aus {COLOR RED}Viola City{COLOR DARK_GRAY}!\n"
+	.string "Er ist aus Viola City!\n"
 	.string "Du hast Falk besiegt?$"
 #else
 	.string "That BADGE! It's from VIOLET CITY!\n"
@@ -754,7 +754,7 @@ Route32_Text_BirdKeeperPeter_Beaten:
 Route32_Text_BirdKeeperPeter_After:
 #if GERMAN
 	.string "Ich sollte in der Pokémon-Arena von\n"
-	.string "{COLOR RED}Viola City{COLOR DARK_GRAY} weiter trainieren.$"
+	.string "Viola City weiter trainieren.$"
 #else
 	.string "I should train again at the\n"
 	.string "GYM in VIOLET CITY.$"
@@ -803,7 +803,7 @@ Route32_Text_MeetFrieda:
 
 Route32_Text_FriedaGivesGift:
 #if GERMAN
-	.string "Hier, {COLOR RED}Giftstich{COLOR DARK_GRAY} ist für dich!$"
+	.string "Hier, Giftstich ist für dich!$"
 #else
 	.string "Here's a POISON BARB for you!$"
 #endif

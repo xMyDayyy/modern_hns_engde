@@ -270,7 +270,7 @@ SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword::
 	.string "Passwörter für das Lager\l"
 	.string "von Team Rocket.\l"
 	.string "Das Passwort, das ich kenne, lautet\l"
-	.string "“{COLOR RED}Makuhita{COLOR DARK_GRAY} Atihu kam”.\p"
+	.string "“Makuhita Atihu kam”.\p"
 	.string "Vorbei.\n"
 	.string "Nichts für ungut!$"
 #else

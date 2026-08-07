@@ -99,7 +99,7 @@ CeladonDeptStore5_Text_Falkner:
 	.string "Ich besorge Items für meine\n"
 	.string "Flug-Pokémon.\p"
 	.string "Wenn du mich noch einmal herausfordern\n"
-	.string "willst, bin ich im Dojo in {COLOR RED}Saffronia{COLOR DARK_GRAY}\l"
+	.string "willst, bin ich im Dojo in Saffronia\l"
 	.string "City.$"
 #else
 	.string "{PLAYER}. I didn't expect to see\n"

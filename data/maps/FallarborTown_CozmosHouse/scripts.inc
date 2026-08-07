@@ -153,7 +153,7 @@ FallarborTown_CozmosHouse_Text_MayIHaveMeteorite:
 FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls:
 #if GERMAN
 	.string "Prof. Kosmo ist unterwegs zu\n"
-	.string "Meteorfälle an der {COLOR RED}Route 11{COLOR DARK_GRAY}4. Einige\l"
+	.string "Meteorfälle an der Route 114. Einige\l"
 	.string "Leute von Team Magma begleiten ihn.$"
 #else
 	.string "PROF. COZMO went off to METEOR FALLS\n"

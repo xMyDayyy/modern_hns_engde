@@ -11,7 +11,7 @@ Route2_ViridianForest_SouthEntrance_EventScript_Woman2::
 
 Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze::
 #if GERMAN
-	.string "Du gehst in den {COLOR RED}Vertania-Wald{COLOR DARK_GRAY}?\n"
+	.string "Du gehst in den Vertania-Wald?\n"
 	.string "Sei auf der Hut, dort verläuft man\l"
 	.string "sich leicht!$"
 #else

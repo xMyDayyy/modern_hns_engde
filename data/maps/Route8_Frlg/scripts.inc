@@ -127,7 +127,7 @@ Route8_Text_LeslieDefeat::
 Route8_Text_LesliePostBattle::
 #if GERMAN
 	.string "Wir sitzen hier fest, weil\n"
-	.string "{COLOR RED}Saffronia City{COLOR DARK_GRAY} abgeriegelt wird.$"
+	.string "Saffronia City abgeriegelt wird.$"
 #else
 	.string "I was planning on getting some\n"
 	.string "fresh air for a change, but…\p"
@@ -179,7 +179,7 @@ Route8_Text_MeganDefeat::
 
 Route8_Text_MeganPostBattle::
 #if GERMAN
-	.string "Der Wachtposten von {COLOR RED}Saffronia{COLOR DARK_GRAY}\n"
+	.string "Der Wachtposten von Saffronia\n"
 	.string "City ist so gemein!\p"
 	.string "Er lässt uns nicht in die Stadt!$"
 #else

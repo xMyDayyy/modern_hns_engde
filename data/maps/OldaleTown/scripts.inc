@@ -380,7 +380,7 @@ OldaleTown_Text_ThisIsAPokemonMart:
 
 OldaleTown_Text_PotionExplanation:
 #if GERMAN
-	.string "Ein {COLOR RED}Trank{COLOR DARK_GRAY} kann zu jeder Zeit\n"
+	.string "Ein Trank kann zu jeder Zeit\n"
 	.string "eingesetzt\n"
 	.string "werden, daher ist er in manchen\l"
 	.string "Situationen wertvoller als ein\n"

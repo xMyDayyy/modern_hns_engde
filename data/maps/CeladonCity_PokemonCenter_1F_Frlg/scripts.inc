@@ -28,7 +28,7 @@ CeladonCity_PokemonCenter_1F_EventScript_Youngster::
 
 CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons::
 #if GERMAN
-	.string "Die {COLOR RED}Pokéflöte{COLOR DARK_GRAY} weckt Pokémon mit\n"
+	.string "Die Pokéflöte weckt Pokémon mit\n"
 	.string "einem Ton, den nur Pokémon\l"
 	.string "hören können!$"
 #else
@@ -40,7 +40,7 @@ CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons::
 
 CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia::
 #if GERMAN
-	.string "Ich bin von {COLOR RED}Fuchsania City{COLOR DARK_GRAY} aus\n"
+	.string "Ich bin von Fuchsania City aus\n"
 	.string "den Radweg hinaufgefahren!$"
 #else
 	.string "I rode here from FUCHSIA.\p"

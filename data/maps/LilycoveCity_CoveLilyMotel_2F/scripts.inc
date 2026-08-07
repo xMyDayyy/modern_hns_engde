@@ -70,7 +70,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
 #if GERMAN
 	.string "Ich bin der Game Designer.\p"
 	.string "Oh, wirklich?\n"
-	.string "Du arbeitest an einem {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
+	.string "Du arbeitest an einem Pokédex?\p"
 	.string "Es ist schwer, ihn zu\n"
 	.string "vervollständigen,\n"
 	.string "aber du darfst nicht aufgeben.\p"
@@ -90,7 +90,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
 #if GERMAN
 	.string "Wow! Das ist beeindruckend!\n"
 	.string "Wirklich äußerst beeindruckend!\p"
-	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} ist absolut vollständig!\n"
+	.string "Dein Pokédex ist absolut vollständig!\n"
 	.string "Du musst die Pokémon wirklich lieben!\n"
 	.string "\p"
 	.string "Ich bin echt beeindruckt!\p"

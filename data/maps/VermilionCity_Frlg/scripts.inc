@@ -403,7 +403,7 @@ VermilionCity_Text_DoYouHaveATicket::
 
 VermilionCity_Text_FlashedSSTicket::
 #if GERMAN
-	.string "{FONT_NORMAL}{PLAYER} zeigt das {COLOR RED}Bootsticket{COLOR DARK_GRAY}!\p"
+	.string "{FONT_NORMAL}{PLAYER} zeigt das Bootsticket!\p"
 	.string "{FONT_MALE}Großartig!\n"
 	.string "Willkommen auf der M.S. Anne!$"
 #else
@@ -414,7 +414,7 @@ VermilionCity_Text_FlashedSSTicket::
 
 VermilionCity_Text_DontHaveNeededSSTicket::
 #if GERMAN
-	.string "{FONT_NORMAL}{PLAYER} hat kein {COLOR RED}Bootsticket{COLOR DARK_GRAY}!\p"
+	.string "{FONT_NORMAL}{PLAYER} hat kein Bootsticket!\p"
 	.string "{FONT_MALE}Tut mir Leid!\p"
 	.string "Du brauchst ein Ticket, um an Bord\n"
 	.string "gehen zu können.$"
@@ -434,7 +434,7 @@ VermilionCity_Text_TheShipSetSail::
 
 VermilionCity_Text_BoardSeagallopTriPass::
 #if GERMAN
-	.string "Ah, du hast den {COLOR RED}Tri-Pass{COLOR DARK_GRAY}.\p"
+	.string "Ah, du hast den Tri-Pass.\p"
 	.string "Möchtest du an Bord der\n"
 	.string "Seesprint-Fähre?$"
 #else
@@ -456,7 +456,7 @@ VermilionCity_Text_Seagallop7Departing::
 
 VermilionCity_Text_BoardSeagallopRainbowPass::
 #if GERMAN
-	.string "Ah, du hast den {COLOR RED}Bunt-Pass{COLOR DARK_GRAY}.\p"
+	.string "Ah, du hast den Bunt-Pass.\p"
 	.string "Möchtest du an Bord der\n"
 	.string "Seesprint-Fähre?$"
 #else
@@ -483,7 +483,7 @@ VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland::
 	.string "Oh! Das ist das Auroraticket!\n"
 	.string "Das ist selten.\p"
 	.string "Wir bringen dich gerne zur\n"
-	.string "{COLOR RED}Entstehungsinsel{COLOR DARK_GRAY}.$"
+	.string "Entstehungsinsel.$"
 #else
 	.string "Oh! That's an AURORATICKET!\n"
 	.string "Now that is rare.\p"
@@ -534,11 +534,11 @@ VermilionCity_Text_Route2AideHasPackageForYou::
 	.string "Assistenten.\p"
 	.string "Hast du bereits einen anderen\n"
 	.string "Assistenten getroffen?\p"
-	.string "Er hatte ein Paket von {COLOR RED}Prof. Eich{COLOR DARK_GRAY}\n"
+	.string "Er hatte ein Paket von Prof. Eich\n"
 	.string "für dich, {PLAYER}.\p"
 	.string "Er sagte, er sucht dich bei\n"
-	.string "{COLOR RED}Route 2{COLOR DARK_GRAY}, {PLAYER}.\p"
-	.string "Wenn du bei {COLOR RED}Route 2{COLOR DARK_GRAY} bist, \n"
+	.string "Route 2, {PLAYER}.\p"
+	.string "Wenn du bei Route 2 bist, \n"
 	.string "halte nach ihm Ausschau.$"
 #else
 	.string "Oh, hello, {PLAYER}!\n"

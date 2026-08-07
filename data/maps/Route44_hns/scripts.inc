@@ -385,7 +385,7 @@ Route44_Text_CooltrainermAllenAfter:
 	.string "Wow, hast du viele Orden! Kein Wunder,\n"
 	.string "dass du so stark bist.\p"
 	.string "Möchte wissen, ob Jens, der Arenaleiter\n"
-	.string "von {COLOR RED}Teak City{COLOR DARK_GRAY}, noch immer trainiert? Der\l"
+	.string "von Teak City, noch immer trainiert? Der\l"
 	.string "hat mich wirklich plattgemacht.$"
 #else
     .string "Wow. You have a lot of BADGES.\p"

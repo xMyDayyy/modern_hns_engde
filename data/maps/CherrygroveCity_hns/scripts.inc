@@ -331,7 +331,7 @@ CherrygroveCity_Text_GuideGentMart:
 
 CherrygroveCity_Text_GuideGentRoute30:
 #if GERMAN
-	.string "{COLOR RED}Route 30{COLOR DARK_GRAY} liegt hier entlang.\p"
+	.string "Route 30 liegt hier entlang.\p"
 	.string "Dort kämpfen Trainer mit ihren\n"
 	.string "geschätzten Pokémon.$"
 #else
@@ -431,7 +431,7 @@ CherrygroveCity_Text_RivalAfter:
 
 CherrygroveCity_Text_RivalID:
 #if GERMAN
-	.string "Gib mir das! Das ist der {COLOR RED}Trainerpass{COLOR DARK_GRAY},\n"
+	.string "Gib mir das! Das ist der Trainerpass,\n"
 	.string "den ich verloren habe! Er gehört mir!\p"
 	.string "Hmpf… jetzt hast du meinen Namen\n"
 	.string "gesehen, oder?$"
@@ -481,7 +481,7 @@ CherrygroveCity_Text_MysticWaterGuyBefore:
 #if GERMAN
 	.string "Das Pokémon, das ich mir neulich\n"
 	.string "geangelt habe, hatte ein Item dabei!\p"
-	.string "Es hieß {COLOR RED}Zauberwasser{COLOR DARK_GRAY} oder so…\n"
+	.string "Es hieß Zauberwasser oder so…\n"
 	.string "Aber da ich nur am Angeln von Pokémon\l"
 	.string "interessiert bin, kannst du es haben.$"
 #else

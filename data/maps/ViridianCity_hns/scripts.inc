@@ -32,7 +32,7 @@ ViridianCity_Text_OakCall:
 #if GERMAN
 	.string "Eich: Ah, {PLAYER}!\p"
 	.string "Komm und besuche mich\n"
-	.string "im Labor in {COLOR RED}Alabastia{COLOR DARK_GRAY},\l"
+	.string "im Labor in Alabastia,\l"
 	.string "wenn du Zeit hast.$"
 #else
 	.string "OAK: Ah, {PLAYER}!\p"
@@ -137,7 +137,7 @@ ViridianCity_Text_GrampsNearGym:
 	.string "Bis vor Kurzem gab es in dieser\n"
 	.string "Pokémon-Arena keinen Leiter…\p"
 	.string "Aber jetzt hat ein junger Mann aus\n"
-	.string "{COLOR RED}Alabastia{COLOR DARK_GRAY} den Posten übernommen.\p"
+	.string "Alabastia den Posten übernommen.\p"
 	.string "Aber er ist gerade nicht da…$"
 #else
 	.string "This GYM didn't have a LEADER\n"
@@ -171,7 +171,7 @@ ViridianCity_Text_DreamEaterFisher:
 #if GERMAN
 	.string "Gähn! Ich bin in der Sonne eingenickt!\n"
 	.string "Ich hatte einen ganz seltsamen Traum,\l"
-	.string "in dem {COLOR RED}Traumato{COLOR DARK_GRAY} meine Träume frisst!\l"
+	.string "in dem Traumato meine Träume frisst!\l"
 	.string "…Nanu? Wo kommt denn diese TM her?\p"
 	.string "Schauder…\n"
 	.string "Das gefällt mir nicht!\l"
@@ -200,7 +200,7 @@ ViridianCity_Text_DreamEaterFisher_GotDreamEater:
 ViridianCity_Text_Youngster:
 #if GERMAN
 	.string "Ich habe gehört, dass über den ganzen\n"
-	.string "{COLOR RED}Vertania-Wald{COLOR DARK_GRAY} viele unsichtbare Items\l"
+	.string "Vertania-Wald viele unsichtbare Items\l"
 	.string "verstreut liegen!$"
 #else
 	.string "I heard that there are many items\n"

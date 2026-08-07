@@ -550,7 +550,7 @@ GoldenrodUnderground_Text_SilverWin:
 GoldenrodUnderground_Text_SilverAfter:
 #if GERMAN
 	.string "…Ich verstehe nicht…\p"
-	.string "Stimmt es, was {COLOR RED}Siegfried{COLOR DARK_GRAY} sagte?\p"
+	.string "Stimmt es, was Siegfried sagte?\p"
 	.string "Dass ich Pokémon nicht richtig\n"
 	.string "behandle?\p"
 	.string "Liebe…\p"
@@ -582,7 +582,7 @@ GoldenrodUnderground_Text_SilverLoss:
 #if GERMAN
 	.string "Jetzt kennst du meine wahre Macht!\p"
 	.string "Mit ihr werde ich Team Rocket schlagen!\n"
-	.string "Ja, und diesen {COLOR RED}Siegfried{COLOR DARK_GRAY} werde ich auch\l"
+	.string "Ja, und diesen Siegfried werde ich auch\l"
 	.string "vollends in die Knie zwingen!$"
 #else
     .string "Humph. This is my real power, wimp.\p"

@@ -117,7 +117,7 @@ Route31_EventScript_ItemAntidote::
 
 Route31_Text_CooltrainerM:
 #if GERMAN
-	.string "Hm, die {COLOR RED}Dunkelhöhle{COLOR DARK_GRAY}…\n"
+	.string "Hm, die Dunkelhöhle…\n"
 	.string "Wenn ein Pokémon mithilfe einer Attacke\l"
 	.string "da drinnen für Licht sorgen könnte,\l"
 	.string "würde ich sie erforschen gehen.$"
@@ -201,7 +201,7 @@ Route31_Text_HandOverMailMon:
 Route31_Text_ReadingMail:
 #if GERMAN
 	.string "Mal sehen…\p"
-	.string "…die {COLOR RED}Dunkelhöhle{COLOR DARK_GRAY}\n"
+	.string "…die Dunkelhöhle\n"
 	.string "führt zu einem anderen Weg…\p"
 	.string "Gut zu wissen.\p"
 	.string "Danke, dass du mir\n"
@@ -283,11 +283,11 @@ Route31_Text_CantTakeLastMon:
 
 Route31_Text_Youngster:
 #if GERMAN
-	.string "Ich habe in der {COLOR RED}Dunkelhöhle{COLOR DARK_GRAY} ein\n"
+	.string "Ich habe in der Dunkelhöhle ein\n"
 	.string "tolles Pokémon gefangen!\p"
 	.string "Ich werde es trainieren, um später\n"
 	.string "damit gegen Falk, den Arenaleiter\l"
-	.string "von {COLOR RED}Viola City{COLOR DARK_GRAY} anzutreten!$"
+	.string "von Viola City anzutreten!$"
 #else
 	.string "I found a good POKéMON in DARK\n"
 	.string "CAVE.\p"

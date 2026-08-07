@@ -611,7 +611,7 @@ Route25_BillsHouse_Text_GrandpaIntro:
 #if GERMAN
 	.string "Hm?\n"
 	.string "Bist du hier, um meinen Enkel zu sehen?\p"
-	.string "Sein Name ist {COLOR RED}Bill{COLOR DARK_GRAY}, und er macht in Johto\n"
+	.string "Sein Name ist Bill, und er macht in Johto\n"
 	.string "beruflich… irgendwas mit Computern.\p"
 	.string "Deshalb hüte ich hier das Haus für ihn.$"
 #else
@@ -624,7 +624,7 @@ Route25_BillsHouse_Text_GrandpaIntro:
 
 Route25_BillsHouse_Text_GrampsMeowth:
 #if GERMAN
-	.string "Mein Enkel {COLOR RED}Bill{COLOR DARK_GRAY} erzählte mir\n"
+	.string "Mein Enkel Bill erzählte mir\n"
 	.string "von einem Pokémon mit scharfen\l"
 	.string "Krallen, einer Münze auf dem\p"
 	.string "Kopf und dem Ruf,\n"
@@ -638,7 +638,7 @@ Route25_BillsHouse_Text_GrampsMeowth:
 
 Route25_BillsHouse_Text_GrampsZigzagoon:
 #if GERMAN
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} erwähnte ein Pokémon,\n"
+	.string "Bill erwähnte ein Pokémon,\n"
 	.string "das im Zickzack umherläuft.\p"
 	.string "Es soll ein echter kleiner\n"
 	.string "Sammler sein.$"
@@ -665,7 +665,7 @@ Route25_BillsHouse_Text_GrampsPonyta:
 
 Route25_BillsHouse_Text_GrampsFarfetchd:
 #if GERMAN
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} erzählte mir von einem\n"
+	.string "Bill erzählte mir von einem\n"
 	.string "Pokémon, das immer eine\l"
 	.string "Lauchstange mit sich trägt.\p"
 	.string "Schon ein seltsames Wesen.$"
@@ -692,7 +692,7 @@ Route25_BillsHouse_Text_GrampsSlowpoke:
 Route25_BillsHouse_Text_TeleporterUnlocked:
 #if GERMAN
 	.string "Ach, noch etwas!\p"
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} hat eine Notiz hinter-\n"
+	.string "Bill hat eine Notiz hinter-\n"
 	.string "lassen. Falls ich jemanden\l"
 	.string "finde, der Pokémon wirklich\p"
 	.string "schätzt, soll ich ihn seine\n"

@@ -317,7 +317,7 @@ Route34_Text_PokefanBrandon_After:
 Route34_Text_Sign_IlexForest:
 #if GERMAN
 	.string "Direkt hinter dem Tor liegt\n"
-	.string "der {COLOR RED}Steineichenwald{COLOR DARK_GRAY}.$"
+	.string "der Steineichenwald.$"
 #else
 	.string "ILEX FOREST\n"
 	.string "THROUGH THE GATE$"

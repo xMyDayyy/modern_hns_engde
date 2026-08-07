@@ -95,7 +95,7 @@ RockTunnel_1F_Text_OliverDefeat::
 RockTunnel_1F_Text_OliverPostBattle::
 #if GERMAN
 	.string "Diesen Umweg muss ich nur wegen\n"
-	.string "des auf {COLOR RED}Route 12{COLOR DARK_GRAY} schlafenden\l"
+	.string "des auf Route 12 schlafenden\l"
 	.string "Pokémon machen.$"
 #else
 	.string "That sleeping POKéMON on ROUTE 12\n"

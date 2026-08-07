@@ -88,14 +88,14 @@ Text_SnorlaxReturnedToMountains::
 
 Text_WantToUsePokeFlute::
 #if GERMAN
-	.string "Die {COLOR RED}Pokéflöte{COLOR DARK_GRAY} spielen?$"
+	.string "Die Pokéflöte spielen?$"
 #else
 	.string "Want to use the POKé FLUTE?$"
 #endif
 
 Text_PlayedPokeFlute::
 #if GERMAN
-	.string "{PLAYER} spielt die {COLOR RED}Pokéflöte{COLOR DARK_GRAY}.$"
+	.string "{PLAYER} spielt die Pokéflöte.$"
 #else
 	.string "{PLAYER} played the POKé FLUTE.$"
 #endif

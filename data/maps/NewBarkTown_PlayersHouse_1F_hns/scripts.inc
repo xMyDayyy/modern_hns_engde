@@ -349,11 +349,11 @@ NewBarkTown_PlayersHouse_1F_MovementFaceLeft:
 NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou:
 #if GERMAN
 	.string "Oh, {PLAYER}…! Unser Nachbar,\n"
-	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY}, sucht nach dir.\p"
+	.string "Prof. Lind, sucht nach dir.\p"
 	.string "Er will, dass du ihm bei etwas\n"
 	.string "hilfst.\p"
 	.string "Oh! Fast vergessen! Dein\n"
-	.string "{COLOR RED}PokéCom{COLOR DARK_GRAY} kam fertig aus der Werkstatt.\p"
+	.string "PokéCom kam fertig aus der Werkstatt.\p"
 	.string "Hier, nimm ihn!$"
 #else
 	.string "Oh, {PLAYER}…! Our neighbor,\n"
@@ -367,7 +367,7 @@ NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou:
 
 NewBarkTown_PlayersHouse_1F_Text_ObtainedPokeGear:
 #if GERMAN
-	.string "{PLAYER} erhielt das {COLOR RED}PokéCom{COLOR DARK_GRAY}.$"
+	.string "{PLAYER} erhielt das PokéCom.$"
 #else
 	.string "{PLAYER} obtained the POKéGEAR.$"
 #endif
@@ -415,7 +415,7 @@ NewBarkTown_PlayersHouse_1F_Text_ExplainRunningShoes:
 
 NewBarkTown_PlayersHouse_1F_Text_MomHurryUpElmIsWaiting:
 #if GERMAN
-	.string "Mama: {COLOR RED}Prof. Lind{COLOR DARK_GRAY} wartet auf dich.\p"
+	.string "Mama: Prof. Lind wartet auf dich.\p"
 	.string "Beeil dich, Liebling!$"
 #else
 	.string "MOM: PROF.ELM is waiting for you.\p"

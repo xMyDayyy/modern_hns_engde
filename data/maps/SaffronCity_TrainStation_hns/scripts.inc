@@ -304,7 +304,7 @@ SaffronMagnetTrainStation_Text_OfficerTrainHasntComeIn:
 SaffronMagnetTrainStation_Text_OfficerComingAboard:
 #if GERMAN
 	.string "Abfahrt nach\n"
-	.string "{COLOR RED}Dukatia City{COLOR DARK_GRAY} in wenigen Minuten.\p"
+	.string "Dukatia City in wenigen Minuten.\p"
 	.string "Steigst du auch ein?$"
 #else
     .string "We'll soon depart for GOLDENROD.\p"
@@ -314,7 +314,7 @@ SaffronMagnetTrainStation_Text_OfficerComingAboard:
 SaffronMagnetTrainStation_Text_OfficerRightThisWay:
 #if GERMAN
 	.string "Darf ich bitte\n"
-	.string "deinen {COLOR RED}Fahrschein{COLOR DARK_GRAY} sehen?\p"
+	.string "deinen Fahrschein sehen?\p"
 	.string "Danke sehr. Hier lang, bitte.$"
 #else
     .string "May I see your rail PASS, please?\p"
@@ -324,7 +324,7 @@ SaffronMagnetTrainStation_Text_OfficerRightThisWay:
 SaffronMagnetTrainStation_Text_OfficerNoRailPass:
 #if GERMAN
 	.string "Es tut mir Leid,\n"
-	.string "aber du hast keinen {COLOR RED}Fahrschein{COLOR DARK_GRAY}.$"
+	.string "aber du hast keinen Fahrschein.$"
 #else
     .string "Sorry. You don't have a rail PASS.$"
 #endif
@@ -399,7 +399,7 @@ SaffronMagnetTrainStation_Text_Teacher:
 
 SaffronMagnetTrainStation_Text_Lass:
 #if GERMAN
-	.string "Hi! Hast du einen {COLOR RED}Fahrschein{COLOR DARK_GRAY}?\p"
+	.string "Hi! Hast du einen Fahrschein?\p"
 	.string "Ich habe einen!\p"
 	.string "Jeder in Saffronia City hat einen, um\n"
 	.string "damit den Magnetzug benutzen\l"

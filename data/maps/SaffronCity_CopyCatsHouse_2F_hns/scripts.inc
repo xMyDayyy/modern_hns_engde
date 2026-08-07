@@ -239,11 +239,11 @@ Copycat_Text_Male_2:
 	.string "Du bist traurig, weil du deine Poképuppe\l"
 	.string "von Piepi verloren hast, stimmt’s?\p"
 	.string "{PLAYER}: Gibst du mir einen\n"
-	.string "{COLOR RED}Fahrschein{COLOR DARK_GRAY}, wenn ich sie finde?\p"
+	.string "Fahrschein, wenn ich sie finde?\p"
 	.string "{PLAYER}: In Ordnung, dann werde\n"
 	.string "ich sie für dich suchen gehen!\p"
 	.string "Du hast sie wahrscheinlich auf dem\n"
-	.string "Weg nach {COLOR RED}Orania City{COLOR DARK_GRAY} verloren, oder?$"
+	.string "Weg nach Orania City verloren, oder?$"
 #else
 	.string "{PLAYER}: Hi! I heard that you\n"
 	.string "lost your favorite POKé DOLL.\p"
@@ -271,7 +271,7 @@ Copycat_Text_Worried:
 Copycat_Text_GiveDoll:
 #if GERMAN
 	.string "Nachahmerin: Jaa!\n"
-	.string "Das ist meine {COLOR RED}Piepi{COLOR DARK_GRAY}-Puppe!\p"
+	.string "Das ist meine Piepi-Puppe!\p"
 	.string "Siehst du die Naht am rechten\n"
 	.string "Bein? Das ist der Beweis!$"
 #else
@@ -284,7 +284,7 @@ Copycat_Text_GiveDoll:
 Copycat_Text_GivePass:
 #if GERMAN
 	.string "Also gut. Hier ist\n"
-	.string "der {COLOR RED}Fahrschein{COLOR DARK_GRAY} für den Magnetzug! Wie\l"
+	.string "der Fahrschein für den Magnetzug! Wie\l"
 	.string "versprochen.$"
 #else
 	.string "OK. Here's the MAGNET TRAIN PASS\n"
@@ -294,7 +294,7 @@ Copycat_Text_GivePass:
 Copycat_Text_ExplainPass:
 #if GERMAN
 	.string "Nachahmerin: Das\n"
-	.string "ist der {COLOR RED}Fahrschein{COLOR DARK_GRAY} für den Magnetzug.\p"
+	.string "ist der Fahrschein für den Magnetzug.\p"
 	.string "Der Mann von der Eisenbahn gab mir\n"
 	.string "das, als sie unser altes\l"
 	.string "Haus niederrissen, um den\p"
@@ -310,7 +310,7 @@ Copycat_Text_ExplainPass:
 Copycat_Text_Male_3:
 #if GERMAN
 	.string "{PLAYER}: Hallo! Vielen Dank für\n"
-	.string "den {COLOR RED}Fahrschein{COLOR DARK_GRAY} noch mal!\p"
+	.string "den Fahrschein noch mal!\p"
 	.string "{PLAYER}: Oh Mann…\p"
 	.string "{PLAYER}: Macht es dir wirklich\n"
 	.string "so viel Spaß, mich nachzuahmen?$"

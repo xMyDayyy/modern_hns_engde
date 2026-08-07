@@ -39,7 +39,7 @@ Route21_Text_SwimmermSethBeaten:
 
 Route21_Text_SwimmermSethAfterBattle:
 #if GERMAN
-	.string "Beim Vulkan auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} habe\n"
+	.string "Beim Vulkan auf der Zinnoberinsel habe\n"
 	.string "ich diesen arroganten Typ getroffen…$"
 #else
 	.string "This arrogant guy was at CINNABAR's\n"

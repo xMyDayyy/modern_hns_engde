@@ -39,7 +39,7 @@ ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger::
 #if GERMAN
 	.string "Stimmt das?\p"
 	.string "Das Einkaufszentrum in\n"
-	.string "{COLOR RED}Prismania City{COLOR DARK_GRAY} ist sehr viel\l"
+	.string "Prismania City ist sehr viel\l"
 	.string "größer als dieses Geschäft?$"
 #else
 	.string "Is it true?\p"

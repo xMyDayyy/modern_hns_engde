@@ -299,7 +299,7 @@ RustboroCity_PokemonSchool_Text_ExplainFreeze:
 RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
 #if GERMAN
 	.string "Schüler, die nicht aufpassen, bekommen\n"
-	.string "meine {COLOR RED}Flinkklaue{COLOR DARK_GRAY} zu spüren.\p"
+	.string "meine Flinkklaue zu spüren.\p"
 	.string "Wie du dieses Item einsetzt, zeigt,\n"
 	.string "ob du ein guter Schüler bist oder\l"
 	.string "nicht.$"

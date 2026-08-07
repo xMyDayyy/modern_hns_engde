@@ -57,7 +57,7 @@ OlivineCity_Text_GaveGoodRod:
 #if GERMAN
 	.string "Fische gibt’s nicht nur im Meer,\n"
 	.string "sondern überall, wo Wasser ist.\p"
-	.string "Übrigens zeigt dein {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
+	.string "Übrigens zeigt dein Pokédex\n"
 	.string "die Fischgruppen der Pokémon.\p"
 	.string "An verschiedenen Orten gibt es\n"
 	.string "ähnliche Fischarten.$"

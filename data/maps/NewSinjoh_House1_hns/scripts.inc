@@ -38,7 +38,7 @@ NewSinjoh_House1_Text_Looking4Celebi:
 #if GERMAN
 	.string "Hey, Trainer!\p"
 	.string "Du kommst den ganzen Weg aus\n"
-	.string "{COLOR RED}Neuborkia{COLOR DARK_GRAY}?\p"
+	.string "Neuborkia?\p"
 	.string "Ich habe eine Bitte an jemanden,\n"
 	.string "der so weit herumgekommen ist\l"
 	.string "wie du.\p"
@@ -74,13 +74,13 @@ NewSinjoh_House1_Text_NicePokemonButNotCelebi:
 NewSinjoh_House1_OffersWooper:
 #if GERMAN
 	.string "Das ist es! Ein echtes,\n"
-	.string "lebendiges {COLOR RED}Celebi{COLOR DARK_GRAY}!!\p"
+	.string "lebendiges Celebi!!\p"
 	.string "Vielen Dank, dass du es den ganzen\n"
 	.string "Weg in den Norden gebracht hast.\p"
 	.string "Hier, meine Freundin hat auf ihrer\n"
 	.string "Reise in eine ferne Region ein paar\l"
 	.string "zu viele von denen gefangen…\p"
-	.string "Bitte nimm dieses besondere {COLOR RED}Felino{COLOR DARK_GRAY}\n"
+	.string "Bitte nimm dieses besondere Felino\n"
 	.string "als Dank, {PLAYER}.$"
 #else
     .string "That's it! That's a real living CELEBI!!\p"

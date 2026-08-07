@@ -83,7 +83,7 @@ Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000::
 
 Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender::
 #if GERMAN
-	.string "Ich habe gehört, dass in {COLOR RED}Lavandia{COLOR DARK_GRAY}\n"
+	.string "Ich habe gehört, dass in Lavandia\n"
 	.string "böse Geister spuken!$"
 #else
 	.string "I heard that ghosts haunt\n"
@@ -95,12 +95,12 @@ Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons::
 	.string "Oh… {PLAYER}!\n"
 	.string "Ich habe schon nach dir gesucht!\p"
 	.string "Ich bin es, der allzeit präsente\n"
-	.string "Assistent von {COLOR RED}Prof. Eich{COLOR DARK_GRAY}.\p"
+	.string "Assistent von Prof. Eich.\p"
 	.string "Falls du bereits 20 Pokémon\n"
-	.string "in deinem {COLOR RED}Pokédex{COLOR DARK_GRAY} hast, soll\l"
-	.string "ich dir von {COLOR RED}Prof. Eich{COLOR DARK_GRAY} eine\l"
+	.string "in deinem Pokédex hast, soll\l"
+	.string "ich dir von Prof. Eich eine\l"
 	.string "Belohnung geben.\l"
-	.string "Er gab mir diesen {COLOR RED}Ewigstein{COLOR DARK_GRAY}.\p"
+	.string "Er gab mir diesen Ewigstein.\p"
 	.string "Also, {PLAYER}, ich frage dich!\p"
 	.string "Hast du mindestens 20 verschiedene\n"
 	.string "Pokémon in deinem Besitz?$"
@@ -144,12 +144,12 @@ Route10_PokemonCenter_1F_Text_ReceivedEverstoneFromAide::
 Route10_PokemonCenter_1F_Text_ExplainEverstone::
 #if GERMAN
 	.string "Durch die Entwicklung der\n"
-	.string "Pokémon wird der {COLOR RED}Pokédex{COLOR DARK_GRAY}\l"
+	.string "Pokémon wird der Pokédex\l"
 	.string "erweitert.\l"
 	.string "Aber manchmal soll sich ein\l"
 	.string "Pokémon nicht entwickeln.\p"
 	.string "In diesem Fall kannst du ihm den\n"
-	.string "{COLOR RED}Ewigstein{COLOR DARK_GRAY} geben.\p"
+	.string "Ewigstein geben.\p"
 	.string "Der Professor hat gesagt, dass\n"
 	.string "er die Entwicklung aufhält.$"
 #else

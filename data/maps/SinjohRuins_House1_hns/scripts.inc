@@ -152,7 +152,7 @@ SinjohRuins_Lab_Text_StevenIntroCutscene2:
 	.string "Norden?\p"
 	.string "…………\p"
 	.string "Verstehe, die Kimono-Girls von\n"
-	.string "{COLOR RED}Neu-Sinjoh{COLOR DARK_GRAY} haben dich geschickt,\l"
+	.string "Neu-Sinjoh haben dich geschickt,\l"
 	.string "um unsere Untersuchung zu\l"
 	.string "unterstützen.\p"
 	.string "Dann bringe ich dich mal auf den\n"
@@ -1158,7 +1158,7 @@ SinjohRuins_Lab_EventScript_NoOp::
 
 SinjohRuins_Lab_Text_PlayFlute:
 #if GERMAN
-	.string "Die {COLOR RED}Azurflöte{COLOR DARK_GRAY} reagiert.\n"
+	.string "Die Azurflöte reagiert.\n"
 	.string "Willst du auf ihr spielen?$"
 #else
 	.string "The AZURE FLUTE is reacting.\n"

@@ -119,7 +119,7 @@ AquaHideout_1F_Text_BossIsOnRoute122:
 	.string "schaffen?\p"
 	.string "Unser Boss ist nicht hier! Er ist auf\n"
 	.string "dem Weg nach Pyroberg auf der\l"
-	.string "{COLOR RED}Route 12{COLOR DARK_GRAY}2!\p"
+	.string "Route 122!\p"
 	.string "… …\n"
 	.string "Warum er dorthin ist?\p"
 	.string "Uahahaha! Du glaubst doch nicht im\n"

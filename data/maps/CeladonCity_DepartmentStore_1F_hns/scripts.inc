@@ -33,7 +33,7 @@ CeladonDeptStore_Text_1FReceptionist:
 CeladonDeptStore_Text_1FGentleman:
 #if GERMAN
 	.string "Dieses Kaufhaus gehört zur selben\n"
-	.string "Kette wie das in {COLOR RED}Dukatia City{COLOR DARK_GRAY}.\p"
+	.string "Kette wie das in Dukatia City.\p"
 	.string "Beide wurden gleichzeitig renoviert.$"
 #else
     .string "This DEPT.STORE is part of the same\n"

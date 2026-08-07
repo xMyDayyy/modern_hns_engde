@@ -274,7 +274,7 @@ BlackthornGym_Text_ClairText_GoToDragonsDen:
 	.string "Ich weiß. Stelle dich der Drachen-\n"
 	.string "Trainer-Herausforderung.\p"
 	.string "Hinter dieser Arena liegt die\n"
-	.string "{COLOR RED}Drachenhöhle{COLOR DARK_GRAY}.\p"
+	.string "Drachenhöhle.\p"
 	.string "In deren Mitte ist ein Schrein.\n"
 	.string "Gehe dorthin.\p"
 	.string "Falls du dich dort beweisen kannst,\n"
@@ -330,7 +330,7 @@ BlackthornGym_Text_ClairText_League:
 	.string "Gehst du nicht zur Pokémon\n"
 	.string "Liga?\p"
 	.string "Kennst du den Weg nicht?\p"
-	.string "Gehe von hier nach {COLOR RED}Neuborkia{COLOR DARK_GRAY}.\p"
+	.string "Gehe von hier nach Neuborkia.\p"
 	.string "Surfe dann nach Osten. Der Weg\n"
 	.string "wird dann sehr beschwerlich.\p"
 	.string "Wage es nicht, in der Pokémon\n"
@@ -466,7 +466,7 @@ BlackthornGym_Text_CooltrainermPaulBeatenText:
 
 BlackthornGym_Text_CooltrainermPaulAfterBattleText:
 #if GERMAN
-	.string "{COLOR RED}Siegfried{COLOR DARK_GRAY} sagte dir, dass\n"
+	.string "Siegfried sagte dir, dass\n"
 	.string "er dich noch einmal sehen will?\p"
 	.string "Das kann nicht sein!$"
 #else
@@ -555,7 +555,7 @@ BlackthornGym_Text_GuideText:
 	.string "Es war eine lange Reise, aber\n"
 	.string "bald sind wir da! Zähle auf mich!\p"
 	.string "Während Sandra zum Drachenmeister\n"
-	.string "{COLOR RED}Siegfried{COLOR DARK_GRAY} aufsieht, hat sie es doch\l"
+	.string "Siegfried aufsieht, hat sie es doch\l"
 	.string "geschafft, ihre eigene Identität\l"
 	.string "zu entwickeln, mit Drachen aus\l"
 	.string "dem Wasser.\p"
@@ -587,7 +587,7 @@ BlackthornGym_Text_GuideGotoDragonsDen:
 	.string "Du warst super gegen Sandra!\p"
 	.string "Sie ist leider keine gute\n"
 	.string "Verliererin.\p"
-	.string "Schätze, du musst zur {COLOR RED}Drachenhöhle{COLOR DARK_GRAY},\n"
+	.string "Schätze, du musst zur Drachenhöhle,\n"
 	.string "wenn du den Orden bekommen willst!$"
 #else
 	.string "You were great to beat CLAIR!\p"

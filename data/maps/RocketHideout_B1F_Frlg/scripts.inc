@@ -129,7 +129,7 @@ RocketHideout_B1F_Text_Grunt3Defeat::
 
 RocketHideout_B1F_Text_Grunt3PostBattle::
 #if GERMAN
-	.string "{COLOR RED}Silph Scope{COLOR DARK_GRAY}?\n"
+	.string "Silph Scope?\n"
 	.string "Ich weiß nicht, wovon du redest!$"
 #else
 	.string "SILPH SCOPE? Humph!\n"

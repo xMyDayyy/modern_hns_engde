@@ -59,7 +59,7 @@ FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone::
 	.string "Flegmon hält zur Zeit eine\n"
 	.string "Werbekampagne.\p"
 	.string "Erreiche die abgelegenste\n"
-	.string "Stelle in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY}.\p"
+	.string "Stelle in der Safari-Zone.\p"
 	.string "Wenn du das schaffst, erhältst\n"
 	.string "du einen praktischen Preis!$"
 #else

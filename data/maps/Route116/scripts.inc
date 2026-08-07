@@ -459,7 +459,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 
 Route116_Text_NewBallAvailableAtMart:
 #if GERMAN
-	.string "Unser neuer {COLOR RED}Pokéball{COLOR DARK_GRAY} wird im Pkmn-\n"
+	.string "Unser neuer Pokéball wird im Pkmn-\n"
 	.string "Markt in Metarost City erhältlich\n"
 	.string "sein. \p"
 	.string "Bitte, probiere ihn aus!\n"

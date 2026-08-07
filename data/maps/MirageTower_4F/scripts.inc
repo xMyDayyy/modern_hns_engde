@@ -61,10 +61,10 @@ MirageTower_4F_EventScript_CollapseMirageTower::
 
 MirageTower_4F_Text_TakeRootFossil:
 #if GERMAN
-	.string "Du hast das {COLOR RED}Wurzelfossil{COLOR DARK_GRAY} gefunden.\p"
+	.string "Du hast das Wurzelfossil gefunden.\p"
 	.string "Wenn du dieses Fossil nimmst,\n"
 	.string "wird der Boden drum herum einfallen…\p"
-	.string "Willst du das {COLOR RED}Wurzelfossil{COLOR DARK_GRAY} nehmen?$"
+	.string "Willst du das Wurzelfossil nehmen?$"
 #else
 	.string "You found the ROOT FOSSIL.\p"
 	.string "If this FOSSIL is taken, the ground\n"
@@ -82,10 +82,10 @@ MirageTower_4F_Text_LeftRootFossilAlone:
 
 MirageTower_4F_Text_TakeClawFossil:
 #if GERMAN
-	.string "Du hast das {COLOR RED}Klauenfossil{COLOR DARK_GRAY} gefunden.\p"
+	.string "Du hast das Klauenfossil gefunden.\p"
 	.string "Wenn du dieses Fossil nimmst,\n"
 	.string "wird der Boden drum herum einfallen…\p"
-	.string "Willst du das {COLOR RED}Klauenfossil{COLOR DARK_GRAY} nehmen?$"
+	.string "Willst du das Klauenfossil nehmen?$"
 #else
 	.string "You found the CLAW FOSSIL.\p"
 	.string "If this FOSSIL is taken, the ground\n"

@@ -50,7 +50,7 @@ Route16_House_Text_FoundMySecretRetreat::
 Route16_House_Text_ReceivedHM02FromGirl::
 #if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "{COLOR RED}VM02{COLOR DARK_GRAY}!$"
+	.string "VM02!$"
 #else
 	.string "{PLAYER} received HM02\n"
 	.string "from the girl.$"
@@ -58,7 +58,7 @@ Route16_House_Text_ReceivedHM02FromGirl::
 
 Route16_House_Text_ExplainHM02::
 #if GERMAN
-	.string "{COLOR RED}VM02{COLOR DARK_GRAY} ist Fliegen. Damit kannst du\n"
+	.string "VM02 ist Fliegen. Damit kannst du\n"
 	.string "in jede Stadt zurückfliegen.\p"
 	.string "Sie wird dir von Nutzen sein!$"
 #else

@@ -363,7 +363,7 @@ PokemonLeague_ChampionsRoom_Text_BattleIntro:
 	.string "wer von uns der Stärkere ist.\p"
 	.string "Als mächtigster Trainer und\n"
 	.string "als Champion der Pokémon-Liga…\p"
-	.string "ich, {COLOR RED}Siegfried{COLOR DARK_GRAY}, der Drachenmeister,\n"
+	.string "ich, Siegfried, der Drachenmeister,\n"
 	.string "nehme deine Herausforderung an!$"
 #else
     .string "LANCE: I've been waiting for you.\p"
@@ -418,7 +418,7 @@ PokemonLeague_ChampionsRoom_Text_BattleAfter:
 PokemonLeague_ChampionsRoom_Text_MaryOhNoOak:
 #if GERMAN
 	.string "Margit: Oh nein! Es ist vorbei!\p"
-	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}, wärst du nicht so langsam…$"
+	.string "Prof. Eich, wärst du nicht so langsam…$"
 #else
     .string "MARY: Oh, no! It's all over!\p"
     .string "PROF.OAK, if you weren't so slow…$"
@@ -426,7 +426,7 @@ PokemonLeague_ChampionsRoom_Text_MaryOhNoOak:
 
 PokemonLeague_ChampionsRoom_Text_OakCongratulations:
 #if GERMAN
-	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Ah, {PLAYER}!\p"
+	.string "Prof. Eich: Ah, {PLAYER}!\p"
 	.string "Es ist lange her.\p"
 	.string "Du wirkst sehr beeindruckend.\p"
 	.string "Dein Sieg in der Johto-Liga\n"
@@ -455,9 +455,9 @@ PokemonLeague_ChampionsRoom_Text_OakCongratulations:
 
 PokemonLeague_ChampionsRoom_Text_RematchOakCongratulations:
 #if GERMAN
-	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Ah, {PLAYER}!\p"
+	.string "Prof. Eich: Ah, {PLAYER}!\p"
 	.string "Ich habe deinen Weg verfolgt,\n"
-	.string "seit {COLOR RED}Prof. Lind{COLOR DARK_GRAY} dich losschickte.\p"
+	.string "seit Prof. Lind dich losschickte.\p"
 	.string "Du bist noch beeindruckender\n"
 	.string "geworden.\p"
 	.string "Johto und nun auch Kanto zu\n"

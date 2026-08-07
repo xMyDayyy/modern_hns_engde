@@ -200,7 +200,7 @@ VermilionCity_PokemonFanClub_Text_ChairmansStory::
 #if GERMAN
 	.string "Sehr schön!\n"
 	.string "Dann höre mir zu!\p"
-	.string "Am liebsten mag ich {COLOR RED}Gallopa{COLOR DARK_GRAY}!\p"
+	.string "Am liebsten mag ich Gallopa!\p"
 	.string "Es ist... süß... schön... klug...\n"
 	.string "und... aufregend!\l"
 	.string "Stimmst du mir zu?\l"
@@ -233,7 +233,7 @@ VermilionCity_PokemonFanClub_Text_ChairmansStory::
 VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
 #if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "einen {COLOR RED}Rad-Coupon{COLOR DARK_GRAY}!$"
+	.string "einen Rad-Coupon!$"
 #else
 	.string "{PLAYER} received a BIKE VOUCHER\n"
 	.string "from the CHAIRMAN.$"
@@ -241,12 +241,12 @@ VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
 
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
 #if GERMAN
-	.string "Zeige den {COLOR RED}Rad-Coupon{COLOR DARK_GRAY} im\n"
-	.string "Fahrradladen von {COLOR RED}Azuria City{COLOR DARK_GRAY}.\p"
-	.string "Du erhältst dafür ein {COLOR RED}Fahrrad{COLOR DARK_GRAY}!\p"
+	.string "Zeige den Rad-Coupon im\n"
+	.string "Fahrradladen von Azuria City.\p"
+	.string "Du erhältst dafür ein Fahrrad!\p"
 	.string "Sorge dich nicht um mich, ich kann\n"
-	.string "mit meinem {COLOR RED}Ibitak{COLOR DARK_GRAY} Fliegen!\p"
-	.string "Ich brauche also kein {COLOR RED}Fahrrad{COLOR DARK_GRAY}!\p"
+	.string "mit meinem Ibitak Fliegen!\p"
+	.string "Ich brauche also kein Fahrrad!\p"
 	.string "Ich hoffe, du fährst gerne Rad!$"
 #else
 	.string "Take that BIKE VOUCHER to the\n"

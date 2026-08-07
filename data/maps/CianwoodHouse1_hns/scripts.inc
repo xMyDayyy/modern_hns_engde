@@ -62,16 +62,16 @@ CianwoodCity_Text_OldManIntro:
 
 CianwoodCity_Text_BellTowerStory:
 #if GERMAN
-	.string "Kennst du den {COLOR RED}Glockenturm{COLOR DARK_GRAY} in {COLOR RED}Teak City{COLOR DARK_GRAY}?\p"
+	.string "Kennst du den Glockenturm in Teak City?\p"
 	.string "An seiner Spitze gibt es ein Artefakt,\n"
-	.string "das man die {COLOR RED}Klarglocke{COLOR DARK_GRAY} nennt.\p"
+	.string "das man die Klarglocke nennt.\p"
 	.string "Aber egal, wie stark der Wind auch sein\n"
 	.string "mag, der dort weht, sie gibt nie auch\l"
 	.string "nur einen Laut von sich.\p"
 	.string "Es gibt allerdings eine Möglichkeit,\n"
 	.string "sie zum Klingen zu bringen.\p"
 	.string "Soll ich dir sagen, wie das geht?\p"
-	.string "Indem du dir eine weitere {COLOR RED}Klarglocke{COLOR DARK_GRAY}\n"
+	.string "Indem du dir eine weitere Klarglocke\n"
 	.string "besorgst, die mit der an der Spitze\l"
 	.string "des Turms identisch ist!\p"
 	.string "Auch ich habe vor langer Zeit einmal\n"
@@ -96,16 +96,16 @@ CianwoodCity_Text_BellTowerStory:
 CianwoodCity_Text_WhirlIslandsStory:
 #if GERMAN
 	.string "Sag, kennst du den Wasserfall tief\n"
-	.string "unter den {COLOR RED}Strudelinseln{COLOR DARK_GRAY}?\p"
+	.string "unter den Strudelinseln?\p"
 	.string "An seinem Grund gibt es ein Artefakt,\n"
-	.string "das man die {COLOR RED}Gischtglocke{COLOR DARK_GRAY} nennt.\p"
+	.string "das man die Gischtglocke nennt.\p"
 	.string "Aber egal, wie stark die See dort auch\n"
 	.string "wütet, sie gibt nie auch nur einen Laut\l"
 	.string "von sich.\p"
 	.string "Es gibt allerdings eine Möglichkeit,\n"
 	.string "sie zum Klingen zu bringen.\p"
 	.string "Soll ich dir sagen, wie das geht?\p"
-	.string "Indem du dir eine weitere {COLOR RED}Gischtglocke{COLOR DARK_GRAY}\n"
+	.string "Indem du dir eine weitere Gischtglocke\n"
 	.string "besorgst, die mit der am Grund des\l"
 	.string "Wasserfalls identisch ist!\p"
 	.string "Auch ich habe vor langer Zeit einmal\n"
@@ -129,14 +129,14 @@ CianwoodCity_Text_WhirlIslandsStory:
 CianwoodCity_Text_ClearBellReaction:
 #if GERMAN
 	.string "Oh! Soll das etwa heißen, dass du\n"
-	.string "die {COLOR RED}Klarglocke{COLOR DARK_GRAY} gefunden hast?\p"
+	.string "die Klarglocke gefunden hast?\p"
 	.string "Du hast geschafft, was mir nie\n"
 	.string "vergönnt war…\p"
 	.string "Ich verstehe. Du kannst…\p"
 	.string "… … …\n"
 	.string "Du kannst ihn wohl hören…\p"
-	.string "Du kannst den Klang der {COLOR RED}Klarglocke{COLOR DARK_GRAY}\n"
-	.string "hören, den der Wind vom {COLOR RED}Glockenturm{COLOR DARK_GRAY}\l"
+	.string "Du kannst den Klang der Klarglocke\n"
+	.string "hören, den der Wind vom Glockenturm\l"
 	.string "herabweht…$"
 #else
 	.string "Oh! You've managed to get a\n"
@@ -154,15 +154,15 @@ CianwoodCity_Text_ClearBellReaction:
 CianwoodCity_Text_TidalBellReaction:
 #if GERMAN
 	.string "Oh! Soll das etwa heißen, dass du\n"
-	.string "die {COLOR RED}Gischtglocke{COLOR DARK_GRAY} gefunden hast?\p"
+	.string "die Gischtglocke gefunden hast?\p"
 	.string "Du hast geschafft, was mir nie\n"
 	.string "vergönnt war…\p"
 	.string "Ich verstehe. Du kannst…\p"
 	.string "… … …\n"
 	.string "Du kannst ihn wohl hören…\p"
-	.string "Du kannst den Klang der {COLOR RED}Gischtglocke{COLOR DARK_GRAY}\n"
+	.string "Du kannst den Klang der Gischtglocke\n"
 	.string "hören, den die Meeresbrise aus den\l"
-	.string "Tiefen der {COLOR RED}Strudelinseln{COLOR DARK_GRAY} heraufbläst…$"
+	.string "Tiefen der Strudelinseln heraufbläst…$"
 #else
 	.string "Oh! You've managed to get a\n"
 	.string "Tidal Bell?\p"

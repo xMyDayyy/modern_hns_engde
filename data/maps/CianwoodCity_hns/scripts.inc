@@ -161,7 +161,7 @@ CianwoodCity_Text_Youngster:
 #if GERMAN
 	.string "Wenn eins deiner Pokémon die Attacke\n"
 	.string "Fliegen gelernt hat, gelangst du auch\l"
-	.string "im Handumdrehen bis nach {COLOR RED}Oliviana City{COLOR DARK_GRAY}!$"
+	.string "im Handumdrehen bis nach Oliviana City!$"
 #else
 	.string "If you use FLY, you can get back\n"
 	.string "to OLIVINE instantly.$"
@@ -463,7 +463,7 @@ CianwoodCity_Text_Safari:
 CianwoodCity_Text_Engineer:
 #if GERMAN
 	.string "Hier sind aktuell Bauarbeiten.\n"
-	.string "Wir gestalten die neue {COLOR RED}Safari-Zone{COLOR DARK_GRAY},\l"
+	.string "Wir gestalten die neue Safari-Zone,\l"
 	.string "du musst noch warten.$"
 #else
 	.string "This path is under construction.\n"

@@ -48,7 +48,7 @@ SafariZone_SecretHouse_Text_CongratsYouveWon::
 SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant::
 #if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "{COLOR RED}VM03{COLOR DARK_GRAY}!$"
+	.string "VM03!$"
 #else
 	.string "{PLAYER} received HM03\n"
 	.string "from the attendant!$"
@@ -56,7 +56,7 @@ SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant::
 
 SafariZone_SecretHouse_Text_ExplainSurf::
 #if GERMAN
-	.string "{COLOR RED}VM03{COLOR DARK_GRAY} ist Surfer!\p"
+	.string "VM03 ist Surfer!\p"
 	.string "Lernt ein Pokémon diese Technik,\n"
 	.string "dann kann es dich über das Wasser\l"
 	.string "transportieren!\p"

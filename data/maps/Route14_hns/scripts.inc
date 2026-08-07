@@ -501,7 +501,7 @@ Route14_Text_PidgeottoBerry:
 	.string "Dem Tauboga eine Beere geben?$"
 Route14_Text_PidgeottoAteBerry:
 #if GERMAN
-	.string "{COLOR RED}Tauboga{COLOR DARK_GRAY} mag die Beere!$"
+	.string "Tauboga mag die Beere!$"
 #else
 	.string "PIDGEOTTO enjoyed the QUALOT BERRY!$"
 #endif

@@ -332,7 +332,7 @@ EcruteakCity_Text_UnusedMissingDaughter:
 	.string "Oh nein. Oh nein…\p"
 	.string "Meine Tochter ist verschwunden.\p"
 	.string "Nein… Sie kann doch nicht in den\n"
-	.string "{COLOR RED}Turmruine{COLOR DARK_GRAY} gegangen sein!$"
+	.string "Turmruine gegangen sein!$"
 #else
 	.string "Oh, no. Oh, no…\p"
 	.string "My daughter is missing.\p"
@@ -404,8 +404,8 @@ EcruteakCity_Text_Lass2_ReleasedBeasts:
 EcruteakCity_Text_Fisher:
 #if GERMAN
 	.string "Es kursiert ein Gerücht\n"
-	.string "über den {COLOR RED}Leuchtturm{COLOR DARK_GRAY} in\l"
-	.string "{COLOR RED}Oliviana City{COLOR DARK_GRAY}.\p"
+	.string "über den Leuchtturm in\l"
+	.string "Oliviana City.\p"
 	.string "Das Pokémon, das als Leuchtfeuer\n"
 	.string "dient, wurde krank.\p"
 	.string "Sieht so aus, als wären sie\n"
@@ -420,8 +420,8 @@ EcruteakCity_Text_Fisher:
 
 EcruteakCity_Text_Fisher_JasmineReturned:
 #if GERMAN
-	.string "Das Pokémon im {COLOR RED}Leuchtturm{COLOR DARK_GRAY}\n"
-	.string "von {COLOR RED}Oliviana City{COLOR DARK_GRAY} wurde\l"
+	.string "Das Pokémon im Leuchtturm\n"
+	.string "von Oliviana City wurde\l"
 	.string "geheilt.\p"
 	.string "Jetzt können die Schiffe\n"
 	.string "wieder gefahrlos nachts in See\l"
@@ -436,7 +436,7 @@ EcruteakCity_Text_Fisher_JasmineReturned:
 EcruteakCity_Text_Youngster:
 #if GERMAN
 	.string "Ich hörte, dass Pokémon am\n"
-	.string "{COLOR RED}See des Zorns{COLOR DARK_GRAY} Unruhe stiften.\p"
+	.string "See des Zorns Unruhe stiften.\p"
 	.string "Das würde ich gerne sehen.$"
 #else
 	.string "I hear POKéMON are rampaging at the\n"
@@ -474,7 +474,7 @@ EcruteakCity_Text_SageGym:
 #if GERMAN
 	.string "Arenaleiter Jens ist gerade\n"
 	.string "nicht hier. Du kannst ihn vielleicht\l"
-	.string "an der {COLOR RED}Turmruine{COLOR DARK_GRAY} finden.$"
+	.string "an der Turmruine finden.$"
 #else
 	.string "Gym Leader MORTY is not here right\n"
 	.string "now. You may find him at the\l"

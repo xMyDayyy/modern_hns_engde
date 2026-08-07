@@ -11,7 +11,7 @@ FortreeCity_House3_EventScript_SchoolKidM::
 
 FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
 #if GERMAN
-	.string "Da wir gerade vom {COLOR RED}Pokédex{COLOR DARK_GRAY} reden… Ich\n"
+	.string "Da wir gerade vom Pokédex reden… Ich\n"
 	.string "erinnere mich…\p"
 	.string "Ich habe diesen Trainer, Troy,\n"
 	.string "getroffen, als ich seltene Steine\l"
@@ -39,7 +39,7 @@ FortreeCity_House3_Text_OhYouHavePokedex:
 #if GERMAN
 	.string "Was ist das da? Was hast du da?\p"
 	.string "… … … … … …\p"
-	.string "Oh, das ist also ein {COLOR RED}Pokédex{COLOR DARK_GRAY}?\n"
+	.string "Oh, das ist also ein Pokédex?\n"
 	.string "Der ist aber wirklich klasse!$"
 #else
 	.string "What's that thing you have there?\p"

@@ -189,7 +189,7 @@ SSAnne_2F_Corridor_Text_RivalIntro::
 	.string "treffen!\p"
 	.string "{PLAYER}, hat man dich tatsächlich\n"
 	.string "eingeladen?\p"
-	.string "Wie kommst du mit deinem {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
+	.string "Wie kommst du mit deinem Pokédex\n"
 	.string "voran?\p"
 	.string "Ich habe bereits 40 verschiedene\n"
 	.string "Pokémon gefangen!\p"

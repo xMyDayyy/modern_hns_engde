@@ -8,7 +8,7 @@ RocketHideout_B2F_EventScript_Grunt::
 
 RocketHideout_B2F_Text_GruntIntro::
 #if GERMAN
-	.string "Der Boss sagt, das {COLOR RED}Silph Scope{COLOR DARK_GRAY}\n"
+	.string "Der Boss sagt, das Silph Scope\n"
 	.string "macht Geister sichtbar!$"
 #else
 	.string "BOSS said you can see ghosts with\n"

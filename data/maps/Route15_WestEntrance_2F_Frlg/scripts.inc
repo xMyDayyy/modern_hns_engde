@@ -99,10 +99,10 @@ Route15_WestEntrance_2F_Text_ReceivedItemFromAide::
 
 Route15_WestEntrance_2F_Text_ExplainExpShare::
 #if GERMAN
-	.string "Der {COLOR RED}EP-Teiler{COLOR DARK_GRAY} kann einem\n"
+	.string "Der EP-Teiler kann einem\n"
 	.string "Pokémon zum Tragen gegeben\l"
 	.string "werden.\l"
-	.string "Mit dem {COLOR RED}EP-Teiler{COLOR DARK_GRAY} bekommt das\l"
+	.string "Mit dem EP-Teiler bekommt das\l"
 	.string "Pokémon, das ihn trägt, nach einem\l"
 	.string "Kampf E.-Punkte, ohne gekämpft\l"
 	.string "zu haben.$"

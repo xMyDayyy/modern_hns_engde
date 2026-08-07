@@ -64,7 +64,7 @@ SafariZoneGate_EventScript_SlowpokeLady::
 
 SafariZone_Text_ForeignFeeling:
 #if GERMAN
-	.string "Das ist also die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}…\p"
+	.string "Das ist also die Safari-Zone…\p"
 	.string "Es ist echt seltsam… seit ich hier bin,\n"
 	.string "komme ich mir wie auf einem Jahrmarkt in\l"
 	.string "einem fremden Land vor - weit, weit weg…$"
@@ -92,7 +92,7 @@ SafariZone_Text_Kangaskhan:
 
 SafariZone_Text_JigglypuffTrainer:
 #if GERMAN
-	.string "Junge, Junge, hier in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\n"
+	.string "Junge, Junge, hier in der Safari-Zone\n"
 	.string "wird’s einem echt nicht langweilig!\p"
 	.string "Ich laufe hier wie besessen nur noch\n"
 	.string "irgendwelchen Pokémon hinterher!\p"
@@ -109,7 +109,7 @@ SafariZone_Text_FirstCatch:
 #if GERMAN
 	.string "Die Entscheidung ist gefallen! Mein\n"
 	.string "allererstes Pokémon fange ich mir in der\l"
-	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY}!$"
+	.string "Safari-Zone!$"
 #else
 	.string "I have always wanted to catch my first\n"
 	.string "POKéMON at the SAFARI ZONE.$"
@@ -146,7 +146,7 @@ SafariZone_Text_CustomSystem:
 
 SafariZone_Text_Sign:
 #if GERMAN
-	.string "Willkommen in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY}!\p"
+	.string "Willkommen in der Safari-Zone!\p"
 	.string "Folge dem ungebändigten Ruf der Wildnis\n"
 	.string "mit maximalem Komfort!$"
 #else

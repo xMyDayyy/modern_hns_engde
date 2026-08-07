@@ -171,7 +171,7 @@ RocketHideout_B4F_Text_GiovanniPostBattle::
 RocketHideout_B4F_Text_Grunt2Intro::
 #if GERMAN
 	.string "Du warst es, der unsere Pläne am\n"
-	.string "{COLOR RED}Mondberg{COLOR DARK_GRAY} zunichte gemacht hat!$"
+	.string "Mondberg zunichte gemacht hat!$"
 #else
 	.string "I know you!\n"
 	.string "You ruined our plans at MT. MOON!$"
@@ -221,7 +221,7 @@ RocketHideout_B4F_Text_Grunt3PostBattle::
 
 RocketHideout_B4F_Text_Grunt1Intro::
 #if GERMAN
-	.string "Ich werde dir den {COLOR RED}Liftöffner{COLOR DARK_GRAY}\n"
+	.string "Ich werde dir den Liftöffner\n"
 	.string "niemals geben!$"
 #else
 	.string "The elevator doesn't work?\n"
@@ -238,7 +238,7 @@ RocketHideout_B4F_Text_Grunt1Defeat::
 RocketHideout_B4F_Text_Grunt1PostBattle::
 #if GERMAN
 	.string "Mist!\n"
-	.string "Ich habe den {COLOR RED}Liftöffner{COLOR DARK_GRAY} verloren!$"
+	.string "Ich habe den Liftöffner verloren!$"
 #else
 	.string "Oh, no!\n"
 	.string "I dropped the LIFT KEY!$"

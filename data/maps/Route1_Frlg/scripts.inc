@@ -41,7 +41,7 @@ Route1_Text_WorkAtPokeMartTakeSample::
 	.string "Wir verkaufen viele praktische\n"
 	.string "Dinge!\p"
 	.string "Du findest unseren Laden in\n"
-	.string "{COLOR RED}Vertania City{COLOR DARK_GRAY}.\p"
+	.string "Vertania City.\p"
 	.string "Am besten gebe ich dir ein\n"
 	.string "Werbegeschenk! Hier, bitte!$"
 #else
@@ -65,7 +65,7 @@ Route1_Text_ComeSeeUsIfYouNeedPokeBalls::
 
 Route1_Text_PutPotionAway::
 #if GERMAN
-	.string "{PLAYER} steckt den {COLOR RED}Trank{COLOR DARK_GRAY} in die\n"
+	.string "{PLAYER} steckt den Trank in die\n"
 	.string "Item-Tasche des Beutels.$"
 #else
 	.string "{PLAYER} put the POTION away in\n"
@@ -78,7 +78,7 @@ Route1_Text_CanJumpFromLedges::
 	.string "Du kannst nicht hinaufklettern,\n"
 	.string "dafür aber herunterspringen!\p"
 	.string "So kommst du viel schneller nach\n"
-	.string "{COLOR RED}Alabastia{COLOR DARK_GRAY} zurück.$"
+	.string "Alabastia zurück.$"
 #else
 	.string "See those ledges along the road?\p"
 	.string "It's a bit scary, but you can jump\n"

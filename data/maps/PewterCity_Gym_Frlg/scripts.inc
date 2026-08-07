@@ -193,7 +193,7 @@ PewterCity_Gym_Text_BrockPostBattle::
 	.string "Du scheinst ein sehr begabter\n"
 	.string "Pokémon Trainer zu sein!\p"
 	.string "Gehe in die Pokémon-Arena von\n"
-	.string "{COLOR RED}Azuria City{COLOR DARK_GRAY} und teste dort dein\l"
+	.string "Azuria City und teste dort dein\l"
 	.string "Können!$"
 #else
 	.string "There are all kinds of TRAINERS in\n"

@@ -120,7 +120,7 @@ Route10_PowerPlantEntrance_Text_Officer1AThiefBrokeIn:
 Route10_PowerPlantEntrance_Text_Officer1CeruleanShadyCharacter:
 #if GERMAN
 	.string "Wir haben Neuigkeiten\n"
-	.string "aus {COLOR RED}Azuria City{COLOR DARK_GRAY}!\p"
+	.string "aus Azuria City!\p"
 	.string "Es heißt, dort treibe sich eine\n"
 	.string "verdächtige Gestalt herum!$"
 #else

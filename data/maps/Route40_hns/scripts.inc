@@ -36,7 +36,7 @@ Route40_Text_SwimmermSimonBeaten:
 
 Route40_Text_SwimmermSimonAfter:
 #if GERMAN
-	.string "{COLOR RED}Anemonia City{COLOR DARK_GRAY} ist ziemlich\n"
+	.string "Anemonia City ist ziemlich\n"
 	.string "weit weg von hier.$"
 #else
 	.string "CIANWOOD CITY is a good\n"
@@ -81,7 +81,7 @@ Route40_EventScript_Elaine::
 
 Route40_Text_SwimmerfElaineSeen:
 #if GERMAN
-	.string "Gehst du nach {COLOR RED}Anemonia City{COLOR DARK_GRAY}?\p"
+	.string "Gehst du nach Anemonia City?\p"
 	.string "Wie wäre es vorher mit einem kleinen\n"
 	.string "Kampftraining?$"
 #else
@@ -150,7 +150,7 @@ Route40_EventScript_Woman1::
 Route40_Text_Lass1:
 #if GERMAN
 	.string "Du kannst es zwar nicht von hier\n"
-	.string "sehen, aber {COLOR RED}Anemonia{COLOR DARK_GRAY}-\l"
+	.string "sehen, aber Anemonia-\l"
 	.string "City liegt jenseits des Meeres.$"
 #else
 	.string "Although you can't see it from here,\n"
@@ -168,7 +168,7 @@ Route40_EventScript_Woman2::
 Route40_Text_Lass2:
 #if GERMAN
 	.string "Ich reiste mit dem Schiff nach\n"
-	.string "{COLOR RED}Oliviana City{COLOR DARK_GRAY}, um die\l"
+	.string "Oliviana City, um die\l"
 	.string "Sehenswürdigkeiten und die\l"
 	.string "Atmosphäre zu genießen.\p"
 	.string "Da es eine Hafenstadt ist, unter-\n"

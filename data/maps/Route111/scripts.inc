@@ -889,7 +889,7 @@ Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 	.string "Und mein Onkel in Malvenfroh City hat\n"
 	.string "mir extra noch gesagt, ich soll\l"
 	.string "Zertrümmerer mitnehmen, wenn ich\p"
-	.string "zur {COLOR RED}Route 11{COLOR DARK_GRAY}1 gehe.\n"
+	.string "zur Route 111 gehe.\n"
 	.string "Mein Onkel? Der lebt gegenüber vom\l"
 	.string "Fahrradladen in Malvenfroh City.$"
 #else

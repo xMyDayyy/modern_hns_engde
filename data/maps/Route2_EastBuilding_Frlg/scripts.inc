@@ -44,7 +44,7 @@ Route2_EastBuilding_Text_GiveHM05IfSeen10Mons::
 	.string "Ich bin Prof. Eichs Assistent!\p"
 	.string "Wenn du mindestens 10 verschiedene\n"
 	.string "Pokémon gefangen hast, habe ich\l"
-	.string "ein Geschenk für dich: {COLOR RED}VM05{COLOR DARK_GRAY}\p"
+	.string "ein Geschenk für dich: VM05\p"
 	.string "Also, {PLAYER}, hast du 10\n"
 	.string "unterschiedliche Pokémon gefangen?$"
 #else
@@ -76,7 +76,7 @@ Route2_EastBuilding_Text_GreatHereYouGo::
 Route2_EastBuilding_Text_ReceivedHM05FromAide::
 #if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "{COLOR RED}VM05{COLOR DARK_GRAY}!$"
+	.string "VM05!$"
 #else
 	.string "{PLAYER} received HM05\n"
 	.string "from the AIDE.$"
@@ -84,7 +84,7 @@ Route2_EastBuilding_Text_ReceivedHM05FromAide::
 
 Route2_EastBuilding_Text_ExplainHM05::
 #if GERMAN
-	.string "Die {COLOR RED}VM05{COLOR DARK_GRAY} enthält die versteckte\n"
+	.string "Die VM05 enthält die versteckte\n"
 	.string "Attacke Blitz.\p"
 	.string "Blitz erhellt selbst die dunkelsten\n"
 	.string "Höhlen und Verliese.$"
@@ -99,7 +99,7 @@ Route2_EastBuilding_Text_CanGetThroughRockTunnel::
 #if GERMAN
 	.string "Sobald eines deiner Pokémon Blitz\n"
 	.string "erlernt hat, kannst du dich in den\l"
-	.string "{COLOR RED}Felstunnel{COLOR DARK_GRAY} wagen!$"
+	.string "Felstunnel wagen!$"
 #else
 	.string "Once a POKéMON learns FLASH, you\n"
 	.string "can get through ROCK TUNNEL.$"

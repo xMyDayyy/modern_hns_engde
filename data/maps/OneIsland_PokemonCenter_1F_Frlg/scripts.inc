@@ -572,7 +572,7 @@ OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio::
 
 OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut::
 #if GERMAN
-	.string "Celio: {COLOR RED}Bill{COLOR DARK_GRAY}!\n"
+	.string "Celio: Bill!\n"
 	.string "Ich kann nicht glauben, dass du\l"
 	.string "hierher kommst!$"
 #else
@@ -707,7 +707,7 @@ OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer::
 OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill::
 #if GERMAN
 	.string "{PLAYER} nahm den Meteoriten\n"
-	.string "von {COLOR RED}Bill{COLOR DARK_GRAY}.$"
+	.string "von Bill.$"
 #else
 	.string "{PLAYER} accepted the METEORITE\n"
 	.string "from BILL.$"
@@ -796,7 +796,7 @@ OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore::
 OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost::
 #if GERMAN
 	.string "Es tut mir Leid, dass ich so viel\n"
-	.string "Zeit von {COLOR RED}Bill{COLOR DARK_GRAY} beanspruche!\p"
+	.string "Zeit von Bill beanspruche!\p"
 	.string "Entschuldige bitte auch, dass ich\n"
 	.string "so ein schlechter Gastgeber bin!$"
 #else
@@ -841,7 +841,7 @@ OneIsland_PokemonCenter_1F_Text_CelioJobWentQuick::
 #if GERMAN
 	.string "Celio: Das haben wir unglaublich\n"
 	.string "schnell erledigen können.\p"
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} ist so wunderbar…$"
+	.string "Bill ist so wunderbar…$"
 #else
 	.string "CELIO: The job went incredibly\n"
 	.string "quick.\p"
@@ -981,7 +981,7 @@ OneIsland_PokemonCenter_1F_Text_TryingToFindGem::
 	.string "Am Ende habe ich weder beim\l"
 	.string "Edelstein noch beim Forschen\l"
 	.string "Fortschritte gemacht…\p"
-	.string "Wenn ich mich auf {COLOR RED}Bill{COLOR DARK_GRAY} verlassen\n"
+	.string "Wenn ich mich auf Bill verlassen\n"
 	.string "würde, wäre mein Fortschritt\l"
 	.string "gewiss.\l"
 	.string "Aber dieses Mal möchte ich es\l"
@@ -1068,8 +1068,8 @@ OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands::
 
 OneIsland_PokemonCenter_1F_Text_ReturnedTriPassForRainbowPass::
 #if GERMAN
-	.string "{PLAYER} gab den {COLOR RED}Tri-Pass{COLOR DARK_GRAY} zurück\n"
-	.string "und erhält den {COLOR RED}Bunt-Pass{COLOR DARK_GRAY}!$"
+	.string "{PLAYER} gab den Tri-Pass zurück\n"
+	.string "und erhält den Bunt-Pass!$"
 #else
 	.string "{PLAYER} returned the TRI-PASS and\n"
 	.string "received the RAINBOW PASS.$"
@@ -1200,7 +1200,7 @@ OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra::
 #if GERMAN
 	.string "{PLAYER}, was sind deine Lieblings-\n"
 	.string "Pokémon?\p"
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} ist ein Pokémaniac, also mag\n"
+	.string "Bill ist ein Pokémaniac, also mag\n"
 	.string "er alle Pokémon.\p"
 	.string "Es scheint, dass Abra sein erstes\n"
 	.string "Pokémon war!$"
@@ -1216,10 +1216,10 @@ OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra::
 OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod::
 #if GERMAN
 	.string "Apropos, {PLAYER}, du bist doch\n"
-	.string "aus {COLOR RED}Alabastia{COLOR DARK_GRAY}, oder?\p"
+	.string "aus Alabastia, oder?\p"
 	.string "Ich hörte, das ist eine ruhige,\n"
 	.string "angenehme Stadt.\p"
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} kommt aus {COLOR RED}Dukatia City{COLOR DARK_GRAY},\n"
+	.string "Bill kommt aus Dukatia City,\n"
 	.string "wo seine Familie noch lebt.\p"
 	.string "Das ist eine eher geschäftige,\n"
 	.string "lebhafte Stadt.\p"
@@ -1240,7 +1240,7 @@ OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk::
 #if GERMAN
 	.string "{PLAYER}, gibt es etwas, das du\n"
 	.string "nicht leiden kannst?\p"
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} kann offensichtlich\n"
+	.string "Bill kann offensichtlich\n"
 	.string "Milch nicht leiden!$"
 #else
 	.string "{PLAYER}, is there anything that\n"
@@ -1253,7 +1253,7 @@ OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt::
 #if GERMAN
 	.string "Oh, du bist fremd hier!\n"
 	.string "Hallo! Wo kommst du her?\p"
-	.string "… {COLOR RED}Alabastia{COLOR DARK_GRAY}?\n"
+	.string "… Alabastia?\n"
 	.string "Das kenne ich nicht!$"
 #else
 	.string "Oh, you're a stranger here!\n"
@@ -1344,7 +1344,7 @@ OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn::
 
 OneIsland_PokemonCenter_1F_Text_ObtainedTriPass::
 #if GERMAN
-	.string "{COLOR RED}Tri-Pass{COLOR DARK_GRAY} erhalten!$"
+	.string "Tri-Pass erhalten!$"
 #else
 	.string "Obtained the TRI-PASS!$"
 #endif

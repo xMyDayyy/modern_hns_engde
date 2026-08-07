@@ -43,7 +43,7 @@ FuchsiaCity_PokemonCenter_EventScript_JanineClone::
 FuchsiaCity_PokemonCenter1F_Text_CooltrainerM:
 #if GERMAN
 	.string "He! Du hast einen völlig neuen Dex!\p"
-	.string "Hat {COLOR RED}Prof. Eich{COLOR DARK_GRAY} dir den gegeben?$"
+	.string "Hat Prof. Eich dir den gegeben?$"
 #else
 	.string "Hey! You have a brand new kind of\n"
 	.string "POKéDEX.\p"

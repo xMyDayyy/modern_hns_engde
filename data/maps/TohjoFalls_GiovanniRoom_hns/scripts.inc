@@ -225,7 +225,7 @@ TohjoFalls_GiovanniRoom_Text_GiovanniIntro:
 	.string "vor drei Jahren vor mir stand…\p"
 	.string "Du hast die gleichen Augen…\p"
 	.string "…\p"
-	.string "Ich bin auf dem Weg nach {COLOR RED}Dukatia City{COLOR DARK_GRAY},\n"
+	.string "Ich bin auf dem Weg nach Dukatia City,\n"
 	.string "um meinem Team beizutreten.\l"
 	.string "Willst du mir im Weg stehen?$"
 #else

@@ -97,7 +97,7 @@ SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
 #if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "{COLOR RED}VM01{COLOR DARK_GRAY}.$"
+	.string "VM01.$"
 #else
 	.string "{PLAYER} obtained HM01\n"
 	.string "from the CAPTAIN!$"
@@ -108,7 +108,7 @@ SSAnne_CaptainsOffice_Text_ExplainCut::
 	.string "Wenn du den Zerschneider einsetzt,\n"
 	.string "kannst du kleine Bäume fällen.\p"
 	.string "Probiere es doch bei den Bäumen\n"
-	.string "um {COLOR RED}Orania City{COLOR DARK_GRAY} aus!$"
+	.string "um Orania City aus!$"
 #else
 	.string "Using CUT, you can chop down\n"
 	.string "small trees.\p"
@@ -124,7 +124,7 @@ SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
 	.string "Jetzt kann die M.S. Anne in See\n"
 	.string "stechen!\p"
 	.string "Auf Wiedersehen! Bis zum nächsten\n"
-	.string "Besuch in {COLOR RED}Orania City{COLOR DARK_GRAY}!$"
+	.string "Besuch in Orania City!$"
 #else
 	.string "CAPTAIN: …Whew!\p"
 	.string "Now that I'm not sick anymore,\n"

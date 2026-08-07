@@ -568,7 +568,7 @@ Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_2:
 	.string "bekannte Pokémon, die denen aus\l"
 	.string "Kanto ähneln…\l"
 	.string "dann komm zurück und zeig mir\l"
-	.string "deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}!\p"
+	.string "deinen Pokédex!\p"
 	.string "Ich warte hier geduldig auf\n"
 	.string "Neuigkeiten von dir!$"
 #else
@@ -759,14 +759,14 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_11:
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_12:
 #if GERMAN
-	.string "{COLOR RED}Akala{COLOR DARK_GRAY}$"
+	.string "Akala$"
 #else
 	.string "Akala Isle$"
 #endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_13:
 #if GERMAN
-	.string "{COLOR RED}Ula-Ula{COLOR DARK_GRAY}$"
+	.string "Ula-Ula$"
 #else
 	.string "Ula'ula Isle$"
 #endif
@@ -783,7 +783,7 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_15:
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_16:
 #if GERMAN
-	.string "Zeig mir mal deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.$"
+	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.$"
 #else
 	.string "Let me take a look at your Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.$"
 #endif
@@ -878,10 +878,10 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_23:
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Mele-Mele\l"
 	.string "gefunden.\p"
-	.string "Auf Mele-Mele soll es {COLOR RED}4 {COLOR DARK_GRAY}Alola-\n"
+	.string "Auf Mele-Mele soll es 4 Alola-\n"
 	.string "Formen zu entdecken geben…\p"
-	.string "{COLOR RED}Rattfratz{COLOR DARK_GRAY}, {COLOR RED}Rattikarl{COLOR DARK_GRAY}, {COLOR RED}Mauzi{COLOR DARK_GRAY} und\n"
-	.string "{COLOR RED}Snobilikat{COLOR DARK_GRAY}.\p"
+	.string "Rattfratz, Rattikarl, Mauzi und\n"
+	.string "Snobilikat.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
 #else
@@ -889,9 +889,9 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_23:
 	.string "It seems you haven't quite found all of\n"
 	.string "the Alolan variants on Melemele Isle\l"
 	.string "just yet.\p"
-	.string "I've heard Melemele Isle has {COLOR RED}4 {COLOR DARK_GRAY}Alolan\n"
+	.string "I've heard Melemele Isle has 4 Alolan\n"
 	.string "variants for you to find…\p"
-	.string "{COLOR RED}Rattata{COLOR DARK_GRAY}, {COLOR RED}Raticate{COLOR DARK_GRAY}, {COLOR RED}Meowth{COLOR DARK_GRAY}, and {COLOR RED}Persian{COLOR DARK_GRAY}.\p"
+	.string "Rattata, Raticate, Meowth, and Persian.\p"
 	.string "Keep on searching and come back when\n"
 	.string "you've caught them all!$"
 #endif
@@ -899,7 +899,7 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_23:
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_24:
 #if GERMAN
 	.string "Du hast alle Alola-Formen gefunden,\n"
-	.string "die auf {COLOR RED}Akala{COLOR DARK_GRAY} leben!$"
+	.string "die auf Akala leben!$"
 #else
 	.string "You found all the Alolan variants living\n"
 	.string "on Akala Isle!$"
@@ -939,7 +939,7 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_25:
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_26:
 #if GERMAN
 	.string "Wie es scheint, hast du bereits\n"
-	.string "alle Alola-Formen auf {COLOR RED}Akala{COLOR DARK_GRAY}\l"
+	.string "alle Alola-Formen auf Akala\l"
 	.string "gefunden!\p"
 	.string "Großartige Arbeit!\p"
 	.string "Erkunde weiter die anderen Inseln\n"
@@ -958,9 +958,9 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_27:
 	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Akala gefunden.\p"
-	.string "Auf Akala soll es {COLOR RED}3 {COLOR DARK_GRAY}Alola-Formen\n"
+	.string "Auf Akala soll es 3 Alola-Formen\n"
 	.string "zu entdecken geben…\p"
-	.string "{COLOR RED}Knogga{COLOR DARK_GRAY}, {COLOR RED}Digda{COLOR DARK_GRAY} und {COLOR RED}Digdri{COLOR DARK_GRAY}.\p"
+	.string "Knogga, Digda und Digdri.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
 #else
@@ -968,9 +968,9 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_27:
 	.string "It seems you haven't quite found all of\n"
 	.string "the Alolan variants on Akala Isle\l"
 	.string "just yet.\p"
-	.string "I've heard Akala Isle has {COLOR RED}3 {COLOR DARK_GRAY}Alolan\n"
+	.string "I've heard Akala Isle has 3 Alolan\n"
 	.string "variants for you to find…\p"
-	.string "{COLOR RED}Marowak{COLOR DARK_GRAY}, {COLOR RED}Diglett{COLOR DARK_GRAY}, and {COLOR RED}Dugtrio{COLOR DARK_GRAY}.\p"
+	.string "Marowak, Diglett, and Dugtrio.\p"
 	.string "Keep on searching and come back when\n"
 	.string "you've caught them all!$"
 #endif
@@ -978,7 +978,7 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_27:
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_28:
 #if GERMAN
 	.string "Du hast alle Alola-Formen gefunden,\n"
-	.string "die auf {COLOR RED}Ula-Ula{COLOR DARK_GRAY} leben!$"
+	.string "die auf Ula-Ula leben!$"
 #else
 	.string "You found all the Alolan variants living\n"
 	.string "on Ula'ula Isle!$"
@@ -987,7 +987,7 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_28:
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_29:
 #if GERMAN
 	.string "Wie es scheint, hast du bereits\n"
-	.string "alle Alola-Formen auf {COLOR RED}Ula-Ula{COLOR DARK_GRAY}\l"
+	.string "alle Alola-Formen auf Ula-Ula\l"
 	.string "gefunden!\p"
 	.string "Großartige Arbeit!\p"
 	.string "Erkunde weiter die anderen Inseln\n"
@@ -1006,10 +1006,10 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_30:
 	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Ula-Ula gefunden.\p"
-	.string "Auf Ula-Ula soll es {COLOR RED}6 {COLOR DARK_GRAY}Alola-\n"
+	.string "Auf Ula-Ula soll es 6 Alola-\n"
 	.string "Formen zu entdecken geben…\p"
-	.string "{COLOR RED}Vulpix{COLOR DARK_GRAY}, {COLOR RED}Vulnona{COLOR DARK_GRAY}, {COLOR RED}Sandan{COLOR DARK_GRAY}, {COLOR RED}Sandamer{COLOR DARK_GRAY},\n"
-	.string "{COLOR RED}Sleima{COLOR DARK_GRAY} und {COLOR RED}Sleimok{COLOR DARK_GRAY}.\p"
+	.string "Vulpix, Vulnona, Sandan, Sandamer,\n"
+	.string "Sleima und Sleimok.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
 #else
@@ -1017,10 +1017,10 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_30:
 	.string "It seems you haven't quite found all of\n"
 	.string "the Alolan variants on Ula'ula Isle\l"
 	.string "just yet.\p"
-	.string "I've heard Ula'ula Isle has {COLOR RED}6 {COLOR DARK_GRAY}Alolan\n"
+	.string "I've heard Ula'ula Isle has 6 Alolan\n"
 	.string "variants for you to find…\p"
-	.string "{COLOR RED}Vulpix{COLOR DARK_GRAY}, {COLOR RED}Ninetales{COLOR DARK_GRAY}, {COLOR RED}Sandshrew{COLOR DARK_GRAY}, {COLOR RED}Sandslash{COLOR DARK_GRAY},\n"
-	.string "{COLOR RED}Grimer{COLOR DARK_GRAY}, and {COLOR RED}Muk{COLOR DARK_GRAY}.\p"
+	.string "Vulpix, Ninetales, Sandshrew, Sandslash,\n"
+	.string "Grimer, and Muk.\p"
 	.string "Keep on searching and come back when\n"
 	.string "you've caught them all!$"
 #endif
@@ -1056,10 +1056,10 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_33:
 	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Poni gefunden.\p"
-	.string "Auf Poni soll es {COLOR RED}5 {COLOR DARK_GRAY}Alola-Formen\n"
+	.string "Auf Poni soll es 5 Alola-Formen\n"
 	.string "zu entdecken geben…\p"
-	.string "{COLOR RED}Raichu{COLOR DARK_GRAY}, {COLOR RED}Kleinstein{COLOR DARK_GRAY}, {COLOR RED}Georok{COLOR DARK_GRAY},\n"
-	.string "{COLOR RED}Geowaz{COLOR DARK_GRAY} und {COLOR RED}Kokowei{COLOR DARK_GRAY}.\p"
+	.string "Raichu, Kleinstein, Georok,\n"
+	.string "Geowaz und Kokowei.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
 #else
@@ -1067,10 +1067,10 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_33:
 	.string "It seems you haven't quite found all of\n"
 	.string "the Alolan variants on Poni Isle\l"
 	.string "just yet.\p"
-	.string "I've heard Poni Isle has {COLOR RED}5 {COLOR DARK_GRAY}Alolan\n"
+	.string "I've heard Poni Isle has 5 Alolan\n"
 	.string "variants for you to find…\p"
-	.string "{COLOR RED}Raichu{COLOR DARK_GRAY}, {COLOR RED}Geodude{COLOR DARK_GRAY}, {COLOR RED}Graveler{COLOR DARK_GRAY}, {COLOR RED}Golem{COLOR DARK_GRAY},\n"
-	.string "and {COLOR RED}Exeggutor{COLOR DARK_GRAY}.\p"
+	.string "Raichu, Geodude, Graveler, Golem,\n"
+	.string "and Exeggutor.\p"
 	.string "Keep on searching and come back when\n"
 	.string "you've caught them all!$"
 #endif

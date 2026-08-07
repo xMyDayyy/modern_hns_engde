@@ -92,7 +92,7 @@ CeladonCity_DepartmentStore_2F_Text_FloorSign::
 CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes::
 #if GERMAN
 	.string "Es gibt einen Kunden namens\n"
-	.string "{COLOR RED}Siegfried{COLOR DARK_GRAY}, der gelegentlich\l"
+	.string "Siegfried, der gelegentlich\l"
 	.string "vorbeikommt.\l"
 	.string "Er kauft stets Umhänge.\p"
 	.string "Ich frage mich, ob er\n"

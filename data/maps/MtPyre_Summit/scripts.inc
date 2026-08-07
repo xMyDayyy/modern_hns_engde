@@ -586,7 +586,7 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "Oh, nein…\n"
 	.string "Das darf nicht sein…\p"
 	.string "Nicht nur die blaue, sondern auch die\n"
-	.string "{COLOR RED}Rote Kugel{COLOR DARK_GRAY} wurde gestohlen…\p"
+	.string "Rote Kugel wurde gestohlen…\p"
 	.string "Die beiden Kugeln dürfen niemals\n"
 	.string "voneinander getrennt werden.\l"
 	.string "Sie gehören zusammen.\p"

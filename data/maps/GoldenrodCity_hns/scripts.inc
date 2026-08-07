@@ -426,7 +426,7 @@ GoldenrodCity_Text_CooltrainerF2:
 
 GoldenrodCity_Text_CooltrainerF2_GotCard:
 #if GERMAN
-	.string "Oh, dein {COLOR RED}PokéCom{COLOR DARK_GRAY} ist auch ein\n"
+	.string "Oh, dein PokéCom ist auch ein\n"
 	.string "Radio!$"
 #else
 	.string "Oh, your POKéGEAR already works\n"

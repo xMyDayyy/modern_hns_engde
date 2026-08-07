@@ -24,7 +24,7 @@ OlivineCity_Cafe_Text_Jasmine:
 	.string "vor mir saß, viel gegessen…\p"
 	.string "Wenn du wieder kämpfen willst,\n"
 	.string "besuche mich bitte im Kampf-Dojo\l"
-	.string "in {COLOR RED}Saffronia City{COLOR DARK_GRAY}.$"
+	.string "in Saffronia City.$"
 #else
 	.string "Oh... Hello, {PLAYER}.\p"
 	.string "These dishes in front of me are\n"

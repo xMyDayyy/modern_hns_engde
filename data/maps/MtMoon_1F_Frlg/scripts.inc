@@ -203,7 +203,7 @@ MtMoon_1F_Text_KentPostBattle::
 
 MtMoon_1F_Text_RobbyIntro::
 #if GERMAN
-	.string "Du erreichst {COLOR RED}Azuria City{COLOR DARK_GRAY}, wenn du\n"
+	.string "Du erreichst Azuria City, wenn du\n"
 	.string "es durch diese Höhle schaffst!$"
 #else
 	.string "You need to go through this cave\n"
@@ -241,7 +241,7 @@ MtMoon_1F_Text_BrockHelpsExcavateFossils::
 	.string "Hallo! Ich grabe Fossilien hier am\n"
 	.string "Mondberg aus.\p"
 	.string "Manchmal hilft mir Rocko, der\n"
-	.string "Arenaleiter von {COLOR RED}Marmoria City{COLOR DARK_GRAY}.$"
+	.string "Arenaleiter von Marmoria City.$"
 #else
 	.string "Hi, I'm excavating for fossils here\n"
 	.string "under MT. MOON.\p"

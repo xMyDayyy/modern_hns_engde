@@ -144,7 +144,7 @@ CinnabarIsland_Text_Blue:
 	.string "Wenn ich einen starken Gegner sehe,\n"
 	.string "möchte ich kämpfen.\p"
 	.string "Willst du gegen mich antreten, komm\n"
-	.string "zur {COLOR RED}Vertania{COLOR DARK_GRAY}-City Arena.\p"
+	.string "zur Vertania-City Arena.\p"
 	.string "Dann kämpfen wir.$"
 #else
 	.string "Who are you?\p"

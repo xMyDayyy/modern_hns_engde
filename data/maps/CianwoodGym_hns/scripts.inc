@@ -93,7 +93,7 @@ CianwoodGym_Text_ChuckGotoDojo:
 	.string "Wahahaha {PLAYER}!\n"
 	.string "Ich bin mitten im Training!\p"
 	.string "Wenn du erneut kämpfen willst,\n"
-	.string "komm zum Kampf-Dojo in {COLOR RED}Saffronia City{COLOR DARK_GRAY}!$"
+	.string "komm zum Kampf-Dojo in Saffronia City!$"
 #else
 	.string "WAHAHAHA {PLAYER}!\n"
 	.string "I'm in the middle of my training!\p"

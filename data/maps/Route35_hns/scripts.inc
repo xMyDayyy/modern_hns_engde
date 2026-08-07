@@ -217,7 +217,7 @@ Route35_Text_BirdKeeperBryanAfter:
 	.string "Initiative her bist,\l"
 	.string "wirkt Kurts Turboball wahre Wunder!\p"
 	.string "Sobald ich eine weiße Aprikoko finde,\n"
-	.string "bringe ich sie zu {COLOR RED}Kurt{COLOR DARK_GRAY}. Er macht\l"
+	.string "bringe ich sie zu Kurt. Er macht\l"
 	.string "daraus einen maßgefertigten Pokéball.$"
 #else
 	.string "Some POKéMON flee right away.\p"
@@ -272,7 +272,7 @@ Route35_Text_BugCatcherArnieBeaten:
 Route35_Text_BugCatcherArnieAfter:
 #if GERMAN
 	.string "Mit meinem Bluzuk habe ich das\n"
-	.string "Käferturnier im {COLOR RED}Nationalpark{COLOR DARK_GRAY} gewonnen.$"
+	.string "Käferturnier im Nationalpark gewonnen.$"
 #else
 	.string "My VENONAT won me the Bug-Catching\n"
 	.string "Contest at the NATIONAL PARK.$"
@@ -281,7 +281,7 @@ Route35_Text_BugCatcherArnieAfter:
 Route35_Text_ArnieRegister:
 #if GERMAN
 	.string "Mit meinem Bluzuk habe ich das\n"
-	.string "Käferturnier im {COLOR RED}Nationalpark{COLOR DARK_GRAY} gewonnen.$"
+	.string "Käferturnier im Nationalpark gewonnen.$"
 #else
 	.string "My VENONAT won me the Bug-Catching\n"
 	.string "Contest at the NATIONAL PARK.$"
@@ -307,7 +307,7 @@ Route35_Text_ArnieRematchDefeat:
 Route35_Text_ArniePostRematch:
 #if GERMAN
 	.string "Mit meinem Bluzuk habe ich das\n"
-	.string "Käferturnier im {COLOR RED}Nationalpark{COLOR DARK_GRAY} gewonnen.$"
+	.string "Käferturnier im Nationalpark gewonnen.$"
 #else
 	.string "My VENONAT won me the Bug-Catching\n"
 	.string "Contest at the NATIONAL PARK.$"

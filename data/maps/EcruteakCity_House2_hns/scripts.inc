@@ -37,7 +37,7 @@ Ecruteak_Text_ItemfinderExplanation:
 	.string "Den exakten Fundort musst du aber\n"
 	.string "selbst herausfinden.\p"
 	.string "Ich hörte auch,\n"
-	.string "dass in der {COLOR RED}Turmruine{COLOR DARK_GRAY} von Teak\l"
+	.string "dass in der Turmruine von Teak\l"
 	.string "City Items zu finden wären.$"
 #else
 	.string "There are many items lying about\n"

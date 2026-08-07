@@ -99,7 +99,7 @@ VioletCity_PokemonCenter_Text_BookshelfWoman::
 VioletCity_PokeCenter_Text_ElmsAideFavor:
 #if GERMAN
 	.string "{PLAYER}, lange nicht gesehen.\p"
-	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY} hat mich gebeten,\n"
+	.string "Prof. Lind hat mich gebeten,\n"
 	.string "nach dir zu suchen.\p"
 	.string "Er hat noch eine Bitte an dich.\p"
 	.string "Nimm bitte das Pokémon-Ei!$"
@@ -113,7 +113,7 @@ VioletCity_PokeCenter_Text_ElmsAideFavor:
 VioletCity_PokeCenter_Text_ElmsAideNoRoom:
 #if GERMAN
 	.string "{PLAYER}, lange nicht gesehen.\p"
-	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY} hat mich gebeten,\n"
+	.string "Prof. Lind hat mich gebeten,\n"
 	.string "nach dir zu suchen.\p"
 	.string "Er hat noch eine Bitte an dich.\p"
 	.string "Nimm bitte das Pokémon-Ei!\p"
@@ -140,7 +140,7 @@ VioletCity_PokeCenter_Text_ElmsAideGiveEgg:
 	.string "befinden, um zu schlüpfen.\p"
 	.string "Du bist die einzige Person,\n"
 	.string "auf die wir uns verlassen können.\p"
-	.string "Bitte ruf {COLOR RED}Prof. Lind{COLOR DARK_GRAY} an,\n"
+	.string "Bitte ruf Prof. Lind an,\n"
 	.string "wenn das Ei so weit ist!$"
 #else
 	.string "We discovered that a POKéMON won't\n"
@@ -175,7 +175,7 @@ VioletCity_PokeCenter_Text_ElmsAideFullParty:
 
 VioletCity_PokeCenter_Text_ElmsAideRefuse:
 #if GERMAN
-	.string "A-Aber… {COLOR RED}Prof. Lind{COLOR DARK_GRAY} hat\n"
+	.string "A-Aber… Prof. Lind hat\n"
 	.string "nach dir gefragt…$"
 #else
 	.string "B-but… PROF.ELM asked for you…$"
@@ -210,7 +210,7 @@ VioletCity_PokeCenter_Text_MobileAdapter:
 
 VioletCity_PokeCenter_Text_GameboyKid:
 #if GERMAN
-	.string "Ein Kerl namens {COLOR RED}Bill{COLOR DARK_GRAY} hat das\n"
+	.string "Ein Kerl namens Bill hat das\n"
 	.string "PC-Pokémon-Lagerungssystem\l"
 	.string "erfunden.$"
 #else

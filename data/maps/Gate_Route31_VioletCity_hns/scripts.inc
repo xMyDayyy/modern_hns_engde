@@ -20,7 +20,7 @@ Gate_Route31_VioletCity_EventScript_CooltrainerF::
 Gate_Route31_VioletCity_Text_Policeman:
 #if GERMAN
 	.string "Hallöchen! Warst du im\n"
-	.string "{COLOR RED}Knofensa-Turm{COLOR DARK_GRAY}?$"
+	.string "Knofensa-Turm?$"
 #else
 	.string "Hi there! Did you visit\n"
 	.string "SPROUT TOWER?$"

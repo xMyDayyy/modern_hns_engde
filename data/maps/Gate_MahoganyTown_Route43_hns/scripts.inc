@@ -14,7 +14,7 @@ Route43MahoganyGate_Text_Officer:
 #if GERMAN
 	.string "Hier kamen nur Wanderer vorbei,\n"
 	.string "die auf dem Weg zum\l"
-	.string "{COLOR RED}See des Zorns{COLOR DARK_GRAY} waren.$"
+	.string "See des Zorns waren.$"
 #else
     .string "Only people headed up to LAKE OF\n"
     .string "RAGE have been through here lately.$"
@@ -23,7 +23,7 @@ Route43MahoganyGate_Text_Officer:
 Route43MahoganyGate_Text_Officer_RocketsCleared:
 #if GERMAN
 	.string "In letzter Zeit geht niemand\n"
-	.string "mehr zum {COLOR RED}See des Zorns{COLOR DARK_GRAY}.$"
+	.string "mehr zum See des Zorns.$"
 #else
     .string "Nobody goes up to LAKE OF RAGE\n"
     .string "these days.$"

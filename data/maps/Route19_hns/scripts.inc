@@ -95,7 +95,7 @@ Route19_Text_SwimmermHaroldAfterBattle:
 Route19_Text_SwimmermTuckerSeen:
 #if GERMAN
 	.string "Röchel, röchel… Nur… noch… ein… kleines\n"
-	.string "Stück… bis… {COLOR RED}Fuchsania City{COLOR DARK_GRAY}…$"
+	.string "Stück… bis… Fuchsania City…$"
 #else
 	.string "Pant, pant… Just… a little…\p"
 	.string "farther… to… FUCHSIA…$"
@@ -111,7 +111,7 @@ Route19_Text_SwimmermTuckerBeaten:
 Route19_Text_SwimmermTuckerAfterBattle:
 #if GERMAN
 	.string "Ich… hab meiner Freundin gesagt…\n"
-	.string "ich schwimme… bis nach {COLOR RED}Fuchsania City{COLOR DARK_GRAY}.\l"
+	.string "ich schwimme… bis nach Fuchsania City.\l"
 	.string "Wirklich… großartige… Idee…$"
 #else
 	.string "I… asked my girlfriend to swim to\n"
@@ -136,7 +136,7 @@ Route19_Text_SwimmerfDawnBeaten:
 
 Route19_Text_SwimmerfDawnAfterBattle:
 #if GERMAN
-	.string "Von {COLOR RED}Fuchsania City{COLOR DARK_GRAY} bis zu den See-\n"
+	.string "Von Fuchsania City bis zu den See-\n"
 	.string "schauminseln schwimmt sich’s doch im Nu!\l"
 	.string "Jetzt stell dich mal nicht so an!$"
 #else
@@ -178,8 +178,8 @@ Route19_Text_Fisher1:
 #if GERMAN
 	.string "Hier kommst du nicht weiter, weil hier\n"
 	.string "gerade Planierarbeiten im Gange sind.\l"
-	.string "Um zur {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} zu gelangen, musst\l"
-	.string "du den Umweg über {COLOR RED}Alabastia{COLOR DARK_GRAY} machen.$"
+	.string "Um zur Zinnoberinsel zu gelangen, musst\l"
+	.string "du den Umweg über Alabastia machen.$"
 #else
 	.string "Sorry. This road is closed for\n"
 	.string "construction.\p"

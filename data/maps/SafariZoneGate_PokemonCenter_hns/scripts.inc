@@ -65,7 +65,7 @@ SafariZoneGate_PokemonCenter_Text_SafariSong:
 	.string "Dieses Lied habe ich selbst\n"
 	.string "geschrieben!\p"
 	.string "Singe es doch auf deinen Streifzügen\n"
-	.string "durch die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} vor dich hin!$"
+	.string "durch die Safari-Zone vor dich hin!$"
 #else
 	.string "Safari, safari, it is so much fun.\n"
 	.string "Safari, safari, so interesting, huh!\p"

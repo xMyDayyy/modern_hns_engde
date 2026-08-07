@@ -86,7 +86,7 @@ ViridianCity_Mart_EventScript_Youngster::
 ViridianCity_Mart_Text_YouCameFromPallet::
 #if GERMAN
 	.string "Heh!\n"
-	.string "Kommst du aus {COLOR RED}Alabastia{COLOR DARK_GRAY}?$"
+	.string "Kommst du aus Alabastia?$"
 #else
 	.string "Hey!\n"
 	.string "You came from PALLET TOWN?$"
@@ -94,7 +94,7 @@ ViridianCity_Mart_Text_YouCameFromPallet::
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
 #if GERMAN
-	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY} schickt dich, oder?\p"
+	.string "Prof. Eich schickt dich, oder?\p"
 	.string "Seine Bestellung ist angekommen!\n"
 	.string "Holst du das Paket für ihn ab?$"
 #else
@@ -114,7 +114,7 @@ ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
 #if GERMAN
-	.string "O.K.! Grüße {COLOR RED}Prof. Eich{COLOR DARK_GRAY} von mir!$"
+	.string "O.K.! Grüße Prof. Eich von mir!$"
 #else
 	.string "Okay, thanks! Please say hi to\n"
 	.string "PROF. OAK for me, too.$"

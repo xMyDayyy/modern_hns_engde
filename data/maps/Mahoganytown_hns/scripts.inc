@@ -270,7 +270,7 @@ MahoganyTown_Text_RageCandyBarMerchantTryOne:
 	.string "Hey, du! Komm doch mal eben her!\p"
 	.string "Wenn du schon mal in Mahagonia City\n"
 	.string "bist, solltest du unbedingt\l"
-	.string "einen {COLOR RED}Wutkeks{COLOR DARK_GRAY} kaufen!\p"
+	.string "einen Wutkeks kaufen!\p"
 	.string "Ich hätte einen für 300 $ für\n"
 	.string "dich im Angebot. Na, was sagst du?$"
 #else
@@ -326,7 +326,7 @@ MahoganyTown_Text_Gramps:
 MahoganyTown_Text_GrampsClearedRocketHideout:
 #if GERMAN
 	.string "Die Karpador sind zum\n"
-	.string "{COLOR RED}See des Zorns{COLOR DARK_GRAY} zurückgekehrt.\p"
+	.string "See des Zorns zurückgekehrt.\p"
 	.string "Das sind gute Neuigkeiten\n"
 	.string "für die Angler.$"
 #else
@@ -343,7 +343,7 @@ MahoganyTown_Text_Fisher:
 	.string "Zeit nehmen, um etwas\p"
 	.string "die Gegend zu besichtigen.\p"
 	.string "Geh nach Norden und sieh dir den\n"
-	.string "{COLOR RED}See des Zorns{COLOR DARK_GRAY} an.$"
+	.string "See des Zorns an.$"
 #else
     .string "Since you came this far, take the\n"
     .string "time to do some sightseeing.\p"
@@ -428,16 +428,16 @@ ElmPhoneRadioTowerRocketTakeoverText:
 
 ElmPhoneRoute39LegendaryText:
 #if GERMAN
-	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY}: Wow!\n"
+	.string "Prof. Lind: Wow!\n"
 	.string "{PLAYER}, hast du das gesehen?!\p"
 	.string "Ein riesiges Pokémon flog über\n"
-	.string "{COLOR RED}Teak City{COLOR DARK_GRAY} hinweg!\p"
+	.string "Teak City hinweg!\p"
 	.string "Ich konnte es sogar von meinem\n"
 	.string "Labor aus sehen!\p"
 	.string "War es eines der legendären\n"
 	.string "Pokémon??\p"
 	.string "Es flog nach Westen,\n"
-	.string "Richtung {COLOR RED}Route 39{COLOR DARK_GRAY}.\p"
+	.string "Richtung Route 39.\p"
 	.string "{PLAYER}!\n"
 	.string "Das könnte eine seltene Chance\l"
 	.string "zur Verfolgung sein!$"

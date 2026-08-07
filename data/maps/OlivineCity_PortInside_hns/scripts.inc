@@ -66,7 +66,7 @@ OlivineCity_PortInside_Text_Nationaldex1:
 	.string "Also irgendwie… wirkst du so langsam\n"
 	.string "wirklich wie ein echter Champ!\p"
 	.string "Und als Champ solltest du auch einen\n"
-	.string "angemessenen {COLOR RED}Pokédex{COLOR DARK_GRAY}\l"
+	.string "angemessenen Pokédex\l"
 	.string "besitzen!\p"
 	.string "Gib ihn mir doch bitte mal eben!\n"
 	.string "Ich rüste ihn für dich mit dem\l"
@@ -88,7 +88,7 @@ OlivineCity_PortInside_Text_Nationaldex2:
 OlivineCity_PortInside_Text_Nationaldex3:
 #if GERMAN
 	.string "Eich: Ich weiß, es ist nicht leicht,\n"
-	.string "den Nationalen {COLOR RED}Pokédex{COLOR DARK_GRAY} zu\l"
+	.string "den Nationalen Pokédex zu\l"
 	.string "vervollständigen, aber ich hoffe,\l"
 	.string "du versuchst es trotzdem!$"
 #else
@@ -315,7 +315,7 @@ OlivinePort_Text_WhereSail:
 OlivinePort_Text_AskBoard:
 #if GERMAN
 	.string "Willkommen auf dem\n"
-	.string "Schnellboot {COLOR RED}M.S. Aqua{COLOR DARK_GRAY}.\p"
+	.string "Schnellboot M.S. Aqua.\p"
 	.string "Trittst du heute deine Reise an?$"
 #else
     .string "Welcome to FAST SHIP S.S.AQUA.\p"
@@ -325,7 +325,7 @@ OlivinePort_Text_AskBoard:
 OlivinePort_Text_AskTicket:
 #if GERMAN
 	.string "Zeige mir bitte dein\p"
-	.string "{COLOR RED}Bootsticket{COLOR DARK_GRAY}.$"
+	.string "Bootsticket.$"
 #else
     .string "May I see your S.S.TICKET?$"
 #endif
@@ -339,7 +339,7 @@ OlivinePort_Text_ComeAgain:
 
 OlivinePort_Text_FlashTicket:
 #if GERMAN
-	.string "{PLAYER} zeigt das {COLOR RED}Bootsticket{COLOR DARK_GRAY}.\p"
+	.string "{PLAYER} zeigt das Bootsticket.\p"
 	.string "In Ordnung. Danke schön!$"
 #else
     .string "{PLAYER} flashed the S.S.TICKET.\p"
@@ -348,7 +348,7 @@ OlivinePort_Text_FlashTicket:
 
 OlivinePort_Text_NoTicket:
 #if GERMAN
-	.string "{PLAYER} sucht das {COLOR RED}Bootsticket{COLOR DARK_GRAY}…\p"
+	.string "{PLAYER} sucht das Bootsticket…\p"
 	.string "…Kein Ticket!\p"
 	.string "Tut mir Leid! Du darfst nur\p"
 	.string "mit Ticket an Bord.$"
@@ -385,7 +385,7 @@ OlivinePort_Text_FishingGuru2:
 
 OlivinePort_Text_Youngster:
 #if GERMAN
-	.string "{COLOR RED}M.S. Aqua{COLOR DARK_GRAY} benutzt Spezialdüsen,\n"
+	.string "M.S. Aqua benutzt Spezialdüsen,\n"
 	.string "um über die Wellen zu gleiten!$"
 #else
     .string "S.S.AQUA uses jets to skim\n"

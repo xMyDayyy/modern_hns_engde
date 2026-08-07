@@ -277,7 +277,7 @@ KurtsHouse_Text_KurtMakingBallsMustWait:
 	.string "Aber ich gehe jetzt zu ihnen und\n"
 	.string "erteile ihnen eine Lektion!\p"
 	.string "Haltet durch, Flegmon!\n"
-	.string "Der alte {COLOR RED}Kurt{COLOR DARK_GRAY} eilt euch zur Rettung!$"
+	.string "Der alte Kurt eilt euch zur Rettung!$"
 #else
 	.string "Hm? Who are you?\p"
 	.string "{PLAYER}, eh? You want me to make\n"
@@ -503,7 +503,7 @@ KurtsHouse_Text_GranddaughterFun:
 KurtsHouse_Text_GranddaughterSound:
 #if GERMAN
 	.string "Kam dieses Geräusch aus dem\n"
-	.string "{COLOR RED}Steineichenwald{COLOR DARK_GRAY}????$"
+	.string "Steineichenwald????$"
 #else
 	.string "Did that sound come from\n"
 	.string "ILEX FOREST????$"
@@ -511,7 +511,7 @@ KurtsHouse_Text_GranddaughterSound:
 
 KurtsHouse_Text_Forest:
 #if GERMAN
-	.string "Warst du schon im {COLOR RED}Steineichenwald{COLOR DARK_GRAY}?\n"
+	.string "Warst du schon im Steineichenwald?\n"
 	.string "Es hört sich gruselig an.$"
 #else
 	.string "Did you check ILEX FOREST yet?\n"

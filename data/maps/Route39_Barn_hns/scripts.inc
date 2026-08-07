@@ -181,8 +181,8 @@ Route39_Text_MoomooHappyMoo:
 
 Route39_Text_BarnGaveBerry:
 #if GERMAN
-	.string "{PLAYER} gibt {COLOR RED}Miltank{COLOR DARK_GRAY} eine\n"
-	.string "{COLOR RED}Sinelbeere{COLOR DARK_GRAY}!$"
+	.string "{PLAYER} gibt Miltank eine\n"
+	.string "Sinelbeere!$"
 #else
 	.string "{PLAYER} gave an ORAN BERRY to\n"
 	.string "MILTANK.$"
@@ -206,7 +206,7 @@ Route39_Text_BarnQuiteHealthy:
 
 Route39_Text_BarnTotallyHealthy:
 #if GERMAN
-	.string "{COLOR RED}Miltank{COLOR DARK_GRAY} ist wieder voll bei Kräften!$"
+	.string "Miltank ist wieder voll bei Kräften!$"
 #else
 	.string "MILTANK became totally\n"
 	.string "healthy!$"

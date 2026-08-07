@@ -250,7 +250,7 @@ SSAqua_1F_Movement_GrandpaLeave:
 SSAqua_1F_Text_Sailor1_ToVermilion:
 #if GERMAN
 	.string "Die M.S. Aqua ist auf dem Weg nach\n"
-	.string "{COLOR RED}Orania City{COLOR DARK_GRAY}.\p"
+	.string "Orania City.\p"
 	.string "Wenn wir dort in den Hafen einlaufen,\n"
 	.string "machen wir eine Durchsage.$"
 #else
@@ -263,7 +263,7 @@ SSAqua_1F_Text_Sailor1_ToVermilion:
 SSAqua_1F_Text_Sailor1_ToOlivine:
 #if GERMAN
 	.string "Die M.S. Aqua ist auf dem Weg nach\n"
-	.string "{COLOR RED}Oliviana City{COLOR DARK_GRAY}.\p"
+	.string "Oliviana City.\p"
 	.string "Wenn wir dort in den Hafen einlaufen,\n"
 	.string "machen wir eine Durchsage.$"
 #else
@@ -313,7 +313,7 @@ SSAqua_1F_Text_Grandpa:
 
 SSAqua_1F_Text_Sailor1_InOlivine:
 #if GERMAN
-	.string "Die M.S. Aqua hat nun in {COLOR RED}Oliviana City{COLOR DARK_GRAY}\n"
+	.string "Die M.S. Aqua hat nun in Oliviana City\n"
 	.string "angelegt!$"
 #else
     .string "FAST SHIP S.S.AQUA has arrived in\n"
@@ -322,7 +322,7 @@ SSAqua_1F_Text_Sailor1_InOlivine:
 
 SSAqua_1F_Text_Sailor1_InVermilion:
 #if GERMAN
-	.string "Die M.S. Aqua hat nun in {COLOR RED}Orania City{COLOR DARK_GRAY}\n"
+	.string "Die M.S. Aqua hat nun in Orania City\n"
 	.string "angelegt!$"
 #else
     .string "FAST SHIP S.S.AQUA has arrived in\n"
@@ -332,7 +332,7 @@ SSAqua_1F_Text_Sailor1_InVermilion:
 
 SSAqua_1F_Text_SailorDoorArrived:
 #if GERMAN
-	.string "Wir sind in {COLOR RED}Orania City{COLOR DARK_GRAY} angekommen.\n"
+	.string "Wir sind in Orania City angekommen.\n"
 	.string "Gehst du von Bord?$"
 #else
     .string "We have arrived in VERMILION CITY.\n"

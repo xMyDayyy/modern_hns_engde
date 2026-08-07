@@ -138,7 +138,7 @@ Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
 	.string "Ich bin mehr als zufrieden!\p"
 	.string "Du hast deine Fertigkeiten bewiesen.\n"
 	.string "Zum Dank schenke ich dir etwas.\p"
-	.string "Es sind sechs Flaschen {COLOR RED}Sprudel{COLOR DARK_GRAY}!$"
+	.string "Es sind sechs Flaschen Sprudel!$"
 #else
 	.string "You're scorching hot!\n"
 	.string "Those battles blazed!\l"

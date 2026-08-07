@@ -7,7 +7,7 @@ DiglettsCave_NorthEntrance_EventScript_Hiker::
 
 DiglettsCave_NorthEntrance_RockTunnelPitchBlack::
 #if GERMAN
-	.string "Im {COLOR RED}Felstunnel{COLOR DARK_GRAY} ist es stockdunkel\n"
+	.string "Im Felstunnel ist es stockdunkel\n"
 	.string "und furchtbar gruselig!\p"
 	.string "Wenn nur ein Pokémon mit einem\n"
 	.string "Blitz für Licht sorgen könnte...$"

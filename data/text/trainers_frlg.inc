@@ -1,7 +1,7 @@
 Route3_Text_ColtonRematchIntro::
 #if GERMAN
 	.string "Heh! Ich kenne dich aus dem\n"
-	.string "{COLOR RED}Vertania-Wald{COLOR DARK_GRAY}!$"
+	.string "Vertania-Wald!$"
 #else
 	.string "Hey!\n"
 	.string "I saw you in VIRIDIAN FOREST!$"
@@ -74,7 +74,7 @@ Route3_Text_RobinRematchIntro::
 Route4_Text_CrissyRematchIntro::
 #if GERMAN
 	.string "Ich fange immer Pilz-Pokémon\n"
-	.string "am {COLOR RED}Mondberg{COLOR DARK_GRAY}.$"
+	.string "am Mondberg.$"
 #else
 	.string "I always catch mushroom POKéMON\n"
 	.string "on MT. MOON.$"
@@ -280,8 +280,8 @@ Route9_Text_ChrisRematchIntro::
 
 Route9_Text_DrewRematchIntro::
 #if GERMAN
-	.string "Ich gehe über den {COLOR RED}Felstunnel{COLOR DARK_GRAY}\n"
-	.string "nach {COLOR RED}Lavandia{COLOR DARK_GRAY}…\l"
+	.string "Ich gehe über den Felstunnel\n"
+	.string "nach Lavandia…\l"
 	.string "Aber auf meinem Weg dorthin\l"
 	.string "halten mich alle, denen ich\l"
 	.string "begegne, auf…$"
@@ -1316,7 +1316,7 @@ Route20_Text_NoraRematchIntro::
 
 Route20_Text_MissyRematchIntro::
 #if GERMAN
-	.string "Ich bin von der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY}\n"
+	.string "Ich bin von der Zinnoberinsel\n"
 	.string "herübergeschwommen!$"
 #else
 	.string "I swam here from CINNABAR ISLAND.\n"
@@ -1325,7 +1325,7 @@ Route20_Text_MissyRematchIntro::
 
 Route20_Text_MelissaRematchIntro::
 #if GERMAN
-	.string "Auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} befindet\n"
+	.string "Auf der Zinnoberinsel befindet\n"
 	.string "sich ein Pokémon-Labor.$"
 #else
 	.string "CINNABAR, in the west, has a LAB\n"
@@ -1437,7 +1437,7 @@ Route25_Text_JoeyRematchIntro::
 
 Route25_Text_DanRematchIntro::
 #if GERMAN
-	.string "Ich habe in {COLOR RED}Orania City{COLOR DARK_GRAY} mit\n"
+	.string "Ich habe in Orania City mit\n"
 	.string "meinem Papa auf der M.S. Anne eine\l"
 	.string "Party besucht!$"
 #else
@@ -1491,7 +1491,7 @@ Route25_Text_HaleyRematchIntro::
 
 Route25_Text_FranklinRematchIntro::
 #if GERMAN
-	.string "Ich habe auf dem {COLOR RED}Mondberg{COLOR DARK_GRAY}\n"
+	.string "Ich habe auf dem Mondberg\n"
 	.string "trainiert und immer noch Benzin\l"
 	.string "im Tank!$"
 #else
@@ -1511,7 +1511,7 @@ Route25_Text_NobRematchIntro::
 
 Route25_Text_WayneRematchIntro::
 #if GERMAN
-	.string "Du möchtest wieder zu {COLOR RED}Bill{COLOR DARK_GRAY}?\n"
+	.string "Du möchtest wieder zu Bill?\n"
 	.string "Aber erst wird gekämpft!$"
 #else
 	.string "You're going to see BILL again?\n"

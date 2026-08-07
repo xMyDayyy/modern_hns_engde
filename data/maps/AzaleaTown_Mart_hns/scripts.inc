@@ -24,7 +24,7 @@ AzaleaMart_Text_CooltrainerM:
 	.string "Ich habe gehört, mehr werden\n"
 	.string "verfügbar, wenn man sich weitere\l"
 	.string "Arena-Orden verdient!\p"
-	.string "Ich wünschte, {COLOR RED}Kurt{COLOR DARK_GRAY} würde mir ein\n"
+	.string "Ich wünschte, Kurt würde mir ein\n"
 	.string "paar seiner Bälle anfertigen.$"
 #else
 	.string "Are you able to buy a GREAT BALL?\n"

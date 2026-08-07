@@ -13,7 +13,7 @@ Route3_Text_TunnelFromCeruleanTiring::
 #if GERMAN
 	.string "Puh! Ich muss eine Pause machen!\p"
 	.string "Der Weg durch den Tunnel aus\n"
-	.string "{COLOR RED}Azuria City{COLOR DARK_GRAY} ist sehr beschwerlich!$"
+	.string "Azuria City ist sehr beschwerlich!$"
 #else
 	.string "Whew… I better take a rest…\n"
 	.string "Groan…\p"
@@ -24,7 +24,7 @@ Route3_Text_TunnelFromCeruleanTiring::
 Route3_Text_ColtonIntro::
 #if GERMAN
 	.string "Heh! Ich kenne dich aus dem\n"
-	.string "{COLOR RED}Vertania{COLOR DARK_GRAY}-wald!$"
+	.string "Vertania-wald!$"
 #else
 	.string "Hey!\n"
 	.string "I saw you in VIRIDIAN FOREST!$"
@@ -225,7 +225,7 @@ Route3_Text_RobinDefeat::
 
 Route3_Text_RobinPostBattle::
 #if GERMAN
-	.string "Die {COLOR RED}Route 4{COLOR DARK_GRAY} liegt am Fuße des\n"
+	.string "Die Route 4 liegt am Fuße des\n"
 	.string "Mondberges.$"
 #else
 	.string "ROUTE 4 is at the foot of\n"

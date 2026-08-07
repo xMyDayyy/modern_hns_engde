@@ -132,7 +132,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad:
 #if GERMAN
 	.string "{STR_VAR_2} cm!\n"
 	.string "Meine Güte, ist das aber groß!\p"
-	.string "Das wird sogar größer als das {COLOR RED}Loturzel{COLOR DARK_GRAY}\n"
+	.string "Das wird sogar größer als das Loturzel\n"
 	.string "sein, das mein Bruder gesehen hat!\p"
 	.string "Danke, dass du es mir gezeigt hast.\n"
 	.string "Hier, ein kleines Dankeschön!$"
@@ -240,7 +240,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot:
 	.string "{STR_VAR_2} cm!\n"
 	.string "Wow, das ist aber groß!\p"
 	.string "Das ist bestimmt größer als das\n"
-	.string "{COLOR RED}Samurzel{COLOR DARK_GRAY}, das mein Bruder gesehen\l"
+	.string "Samurzel, das mein Bruder gesehen\l"
 	.string "hat.\p"
 	.string "Danke, dass ich es anschauen durfte.\n"
 	.string "Hier, ein kleines Dankeschön!$"

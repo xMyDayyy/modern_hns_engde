@@ -19,7 +19,7 @@ Route11_EastEntrance_1F_Text_ManInLavenderRatesNames::
 	.string "Je mehr Pokémon man fängt, desto\n"
 	.string "schwieriger wird es, ihnen allen\l"
 	.string "Spitznamen zu geben!\p"
-	.string "In {COLOR RED}Lavandia{COLOR DARK_GRAY} lebt ein Mann, der\n"
+	.string "In Lavandia lebt ein Mann, der\n"
 	.string "Spitznamen von Pokémon bewertet.\p"
 	.string "Er nimmt auch Namensänderungen\n"
 	.string "vor!$"
@@ -36,10 +36,10 @@ Route11_EastEntrance_1F_Text_ManInLavenderRatesNames::
 
 Route11_EastEntrance_1F_Text_RockTunnelToReachLavender::
 #if GERMAN
-	.string "Falls du nach {COLOR RED}Lavandia{COLOR DARK_GRAY} möchtest,\n"
-	.string "empfehle ich dir den {COLOR RED}Felstunnel{COLOR DARK_GRAY}.\p"
-	.string "Du kannst den {COLOR RED}Felstunnel{COLOR DARK_GRAY} von\n"
-	.string "{COLOR RED}Azuria City{COLOR DARK_GRAY} aus erreichen.$"
+	.string "Falls du nach Lavandia möchtest,\n"
+	.string "empfehle ich dir den Felstunnel.\p"
+	.string "Du kannst den Felstunnel von\n"
+	.string "Azuria City aus erreichen.$"
 #else
 	.string "If you're aiming to reach LAVENDER\n"
 	.string "TOWN, take ROCK TUNNEL.\p"

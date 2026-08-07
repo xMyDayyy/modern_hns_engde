@@ -155,7 +155,7 @@ NewSinjoh_MilkMan_Text_WouldYouLikeAnother:
 
 NewSinjoh_Text_GotMilk:
 #if GERMAN
-	.string "{PLAYER} erhält {COLOR RED}Kuhmuh-Milch{COLOR DARK_GRAY}!$"
+	.string "{PLAYER} erhält Kuhmuh-Milch!$"
 #else
 	.string "{PLAYER} got MOOMOO MILK.$"
 #endif

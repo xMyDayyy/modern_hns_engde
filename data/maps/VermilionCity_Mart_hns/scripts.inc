@@ -22,7 +22,7 @@ VermilionMart_Text_SuperNerd:
 VermilionMart_Text_Beauty:
 #if GERMAN
 	.string "Ich habe vor, in\n"
-	.string "{COLOR RED}Saffronia City{COLOR DARK_GRAY} einkaufen zu gehen.$"
+	.string "Saffronia City einkaufen zu gehen.$"
 #else
 	.string "I'm thinking about going shopping\n"
 	.string "in SAFFRON.$"

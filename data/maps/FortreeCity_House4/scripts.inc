@@ -94,10 +94,10 @@ FortreeCity_House4_Text_AskedWingullToRunErrand:
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 #if GERMAN
-	.string "Gut! Komm zurück, {COLOR RED}Wingull{COLOR DARK_GRAY}!\p"
+	.string "Gut! Komm zurück, Wingull!\p"
 	.string "Huch! Was ist das?\n"
 	.string "Was trägt es denn da?\p"
-	.string "Ein {COLOR RED}Mentalkraut{COLOR DARK_GRAY}?\n"
+	.string "Ein Mentalkraut?\n"
 	.string "Das muss es irgendwo gefunden haben.\p"
 	.string "Aber, ich bin kein Trainer, daher\n"
 	.string "kannst du es haben.$"

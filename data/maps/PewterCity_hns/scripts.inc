@@ -70,7 +70,7 @@ PewterCity_Text_CooltrainerF:
 
 PewterCity_Text_BugCatcher:
 #if GERMAN
-	.string "Nachts spielen Piepi beim {COLOR RED}Mondberg{COLOR DARK_GRAY}.\n"
+	.string "Nachts spielen Piepi beim Mondberg.\n"
 	.string "Aber scheinbar nicht in jeder Nacht!$"
 #else
 	.string "At night, CLEFAIRY come out to play at\n"
@@ -167,7 +167,7 @@ PewterCity_Text_MtMoonGiftShopSign:
 #if GERMAN
 	.string "Hier ist eine Nachricht…\p"
 	.string "Souvenirladen am\n"
-	.string "{COLOR RED}Mondberg{COLOR DARK_GRAY} Jetzt geöffnet!$"
+	.string "Mondberg Jetzt geöffnet!$"
 #else
 	.string "There's a notice here…\p"
 	.string "MT.MOON GIFT SHOP NOW OPEN!$"

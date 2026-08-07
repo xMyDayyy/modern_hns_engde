@@ -168,7 +168,7 @@ PokemonLeague_LancesRoom_Text_Intro::
 #if GERMAN
 	.string "Ich habe bereits von dir gehört,\n"
 	.string "{PLAYER}!\p"
-	.string "Ich bin {COLOR RED}Siegfried{COLOR DARK_GRAY}, Drachen-\n"
+	.string "Ich bin Siegfried, Drachen-\n"
 	.string "Trainer und Oberhaupt der\l"
 	.string "Top Vier!\l"
 	.string "Wusstest du, dass Drachen mystische\l"
@@ -202,7 +202,7 @@ PokemonLeague_LancesRoom_Text_RematchIntro::
 	.string "Ah!\n"
 	.string "Du bist also zurückgekehrt,\l"
 	.string "{PLAYER}!\p"
-	.string "Ich bin {COLOR RED}Siegfried{COLOR DARK_GRAY}, Drachen-\n"
+	.string "Ich bin Siegfried, Drachen-\n"
 	.string "Trainer und Oberhaupt der\l"
 	.string "Top Vier!\p"
 	.string "Wusstest du, dass Drachen mystische\n"

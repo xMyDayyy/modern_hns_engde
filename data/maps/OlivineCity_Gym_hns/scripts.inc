@@ -172,7 +172,7 @@ OlivineCity_Gym_EventScript_MoveRight4::
 
 OlivineCity_Gym_Text_Lass:
 #if GERMAN
-	.string "Hehe! Du hast mir im {COLOR RED}Leuchtturm{COLOR DARK_GRAY} bereits\n"
+	.string "Hehe! Du hast mir im Leuchtturm bereits\n"
 	.string "bewiesen, wie stark du wirklich bist.\p"
 	.string "Aber du wirst all deine Kraft brauchen,\n"
 	.string "um im Kampf gegen Jasmin zu bestehen!\p"
@@ -190,7 +190,7 @@ OlivineCity_Gym_Text_Lass2:
 	.string "Das war unbeschreiblich…\p"
 	.string "So stark wie du bist, solltest du\n"
 	.string "unbedingt weiterkämpfen!\p"
-	.string "Warst du schon in {COLOR RED}Mahagonia City{COLOR DARK_GRAY}?$"
+	.string "Warst du schon in Mahagonia City?$"
 #else
 	.string "You are amazing...\n"
 	.string "You should aim even higher, since\l"
@@ -269,7 +269,7 @@ OlivineCity_Gym_Text_GymGuideWinText:
 OlivineCity_Gym_Text_GymGuidePreText:
 #if GERMAN
 	.string "Wo Jasmin, die Arenaleiterin, ist?\p"
-	.string "Dem Pokémon im {COLOR RED}Leuchtturm{COLOR DARK_GRAY} scheint\n"
+	.string "Dem Pokémon im Leuchtturm scheint\n"
 	.string "es nicht sehr gut zu gehen, und sie\l"
 	.string "sieht dort gerade nach dem Rechten.\p"
 	.string "Ein wirklich starker Trainer muss neben\n"
@@ -339,7 +339,7 @@ OlivineCity_Gym_EventScript_Jasmine_Defeated::
 OlivineCity_Gym_Text_JasmineSteelTypeIntro:
 #if GERMAN
 	.string "…Danke für deine Hilfe am\n"
-	.string "{COLOR RED}Leuchtturm{COLOR DARK_GRAY}…\p"
+	.string "Leuchtturm…\p"
 	.string "Aber das hier ist anders.\n"
 	.string "Darf ich mich vorstellen?\p"
 	.string "Ich bin Jasmin, Arenaleiterin.\p"

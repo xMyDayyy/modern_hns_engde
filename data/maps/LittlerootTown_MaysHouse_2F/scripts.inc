@@ -435,7 +435,7 @@ RivalsHouse_2F_Text_ItsRivalsPokeBall:
 RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
 #if GERMAN
 	.string "Maike: {PLAYER}{KUN}!\p"
-	.string "Ich prüfe gerade meinen {COLOR RED}Pokédex{COLOR DARK_GRAY}.\p"
+	.string "Ich prüfe gerade meinen Pokédex.\p"
 	.string "Es gibt eine Menge Pokémon, die ich\n"
 	.string "gesehen, aber nicht gefangen habe.\p"
 	.string "Und es gibt viele, von denen ich\n"
@@ -470,11 +470,11 @@ RivalsHouse_2F_Text_MayWhereShouldIGoNext:
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
 #if GERMAN
 	.string "Brix: Hey, {PLAYER}!\p"
-	.string "Ich prüfe gerade meinen {COLOR RED}Pokédex{COLOR DARK_GRAY}.\p"
+	.string "Ich prüfe gerade meinen Pokédex.\p"
 	.string "Es gibt noch viele Pokémon, die ich\n"
 	.string "fangen muss, aber er sieht schon sehr\l"
 	.string "gut aus.\p"
-	.string "Immer wenn ich den {COLOR RED}Pokédex{COLOR DARK_GRAY} betrachte,\n"
+	.string "Immer wenn ich den Pokédex betrachte,\n"
 	.string "bekomme ich Lust zu reisen.$"
 #else
 	.string "BRENDAN: Hey, it's {PLAYER}.\p"

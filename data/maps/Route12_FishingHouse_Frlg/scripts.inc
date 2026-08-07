@@ -139,11 +139,11 @@ Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe::
 	.string "zu landen!\p"
 	.string "Ich habe eine Bitte:\p"
 	.string "Fängst du mit dieser Angel\n"
-	.string "ein großes {COLOR RED}Karpador{COLOR DARK_GRAY}, möchte\l"
+	.string "ein großes Karpador, möchte\l"
 	.string "ich es sehen.\p"
 	.string "Meine Liebe zum Angeln steht\n"
 	.string "meiner Liebe für große\l"
-	.string "{COLOR RED}Karpador{COLOR DARK_GRAY} in nichts nach!$"
+	.string "Karpador in nichts nach!$"
 #else
 	.string "Fishing is a way of life!\n"
 	.string "It is like the finest poetry.\p"

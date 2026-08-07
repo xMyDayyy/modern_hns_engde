@@ -76,7 +76,7 @@ EverGrandeCity_PokemonCenter_1F_Movement_ScottExit:
 EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad:
 #if GERMAN
 	.string "Die Pokémon Liga triffst du kurz\n"
-	.string "hinter der {COLOR RED}Siegesstraße{COLOR DARK_GRAY}.\p"
+	.string "hinter der Siegesstraße.\p"
 	.string "Wenn du schon so weit gekommen bist,\n"
 	.string "musst du einfach weitergehen.$"
 #else
@@ -88,7 +88,7 @@ EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad:
 
 EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon:
 #if GERMAN
-	.string "Die lange und qualvolle {COLOR RED}Siegesstraße{COLOR DARK_GRAY}…\p"
+	.string "Die lange und qualvolle Siegesstraße…\p"
 	.string "Es ist fast so, als würde man sein\n"
 	.string "ganzes Leben noch einmal leben…\p"
 	.string "Glaube an deine Pokémon und gib\n"

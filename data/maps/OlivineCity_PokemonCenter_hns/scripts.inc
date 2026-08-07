@@ -40,7 +40,7 @@ OlivineCity_Text_PokecenterFisher:
 
 OlivineCity_Text_PokecenterTeacher:
 #if GERMAN
-	.string "In {COLOR RED}Anemonia City{COLOR DARK_GRAY} auf der anderen\n"
+	.string "In Anemonia City auf der anderen\n"
 	.string "Seite des Ozeans soll es jemanden\l"
 	.string "geben, der immer mit seinen\l"
 	.string "seltenen Pokémon angibt.$"

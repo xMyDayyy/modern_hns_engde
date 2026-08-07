@@ -51,7 +51,7 @@ ViridianCity_PokemonCenter_Text_1FCooltrainerM_BlueReturned:
 ViridianCity_PokemonCenter_Text_1FCooltrainerF:
 #if GERMAN
 	.string "Offensichtlich wurde die Pokémon-Arena\n"
-	.string "auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} zerstört.\p"
+	.string "auf der Zinnoberinsel zerstört.\p"
 	.string "Ich frage mich, was wohl aus Pyro,\n"
 	.string "dem Arenaleiter, geworden ist.$"
 #else

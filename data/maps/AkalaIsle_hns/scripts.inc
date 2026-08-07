@@ -492,14 +492,14 @@ Alola_Akala_Totem_sign_Text_0:
 
 Alola_Akala_Totem_sign_Text_1:
 #if GERMAN
-	.string "{COLOR RED}Mele-Mele{COLOR DARK_GRAY}$"
+	.string "Mele-Mele$"
 #else
 	.string "Melemele Isle$"
 #endif
 
 Alola_Akala_Totem_sign_Text_2:
 #if GERMAN
-	.string "{COLOR RED}Ula-Ula{COLOR DARK_GRAY}$"
+	.string "Ula-Ula$"
 #else
 	.string "Ula'ula Isle$"
 #endif
@@ -640,7 +640,7 @@ Alola_Akala_TrainerBattleSwimmerWater_Text_1:
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_2:
 #if GERMAN
-	.string "{COLOR RED}Ula-Ula{COLOR DARK_GRAY} hat die schönsten Strände!\n"
+	.string "Ula-Ula hat die schönsten Strände!\n"
 	.string "Glaub niemandem, der etwas\l"
 	.string "anderes behauptet!$"
 #else

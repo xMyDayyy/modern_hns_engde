@@ -63,7 +63,7 @@ Text_DoubleEdgeTeach::
 #if GERMAN
 	.string "Du kannst stolz auf dich sein, weil\n"
 	.string "du dich so wacker auf der\l"
-	.string "{COLOR RED}Siegesstraße{COLOR DARK_GRAY} geschlagen hast.\p"
+	.string "Siegesstraße geschlagen hast.\p"
 	.string "Als Anerkennung deiner Leistung\n"
 	.string "möchte ich einem deiner Pokémon\l"
 	.string "Risikotackle beibringen.\p"

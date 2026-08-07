@@ -59,7 +59,7 @@ Celadon_Text_EusineLeaves:
 	.string "{PLAYER}, hast du gehört?\p"
 	.string "Es gibt frische Gerüchte über ein\n"
 	.string "regenbogenfarbenes Pokémon,\l"
-	.string "das im {COLOR RED}Glockenturm{COLOR DARK_GRAY} erscheint.\p"
+	.string "das im Glockenturm erscheint.\p"
 	.string "Ich habe gerade meine Party heilen\n"
 	.string "lassen, jetzt mache ich mich auf nach\l"
 	.string "Teak-City. Wir sehen uns, {PLAYER}!$"

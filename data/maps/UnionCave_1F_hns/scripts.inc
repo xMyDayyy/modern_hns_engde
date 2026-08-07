@@ -72,7 +72,7 @@ UnionCave_1F_EventScript_Item_Awakening::
 
 UnionCave_1F_Text_HikerRussellSeen:
 #if GERMAN
-	.string "Du bist auf dem Weg nach {COLOR RED}Azalea City{COLOR DARK_GRAY},\n"
+	.string "Du bist auf dem Weg nach Azalea City,\n"
 	.string "richtig? Wollen wir mal sehen,\l"
 	.string "ob du es bis dorthin schaffst!$"
 #else

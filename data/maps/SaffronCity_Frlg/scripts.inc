@@ -366,10 +366,10 @@ SaffronCity_Text_HowCanClubNotRecognizeLance::
 	.string "Dieser Fanclub…\n"
 	.string "Niemand hier weiß Bescheid!\p"
 	.string "Wie konnten sie die Genialität\n"
-	.string "von {COLOR RED}Siegfried{COLOR DARK_GRAY} übersehen?\p"
+	.string "von Siegfried übersehen?\p"
 	.string "Er verkörpert Gerechtigkeit!\n"
 	.string "Er ist cool und leidenschaftlich!\l"
-	.string "{COLOR RED}Siegfried{COLOR DARK_GRAY} ist der Größte!$"
+	.string "Siegfried ist der Größte!$"
 #else
 	.string "This FAN CLUB…\n"
 	.string "No one here has a clue!\p"

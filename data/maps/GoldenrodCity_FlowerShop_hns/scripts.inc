@@ -114,7 +114,7 @@ GoldenrodCity_FlowerShop_Text_Floria:
 GoldenrodCity_FlowerShop_Text_Owner1:
 #if GERMAN
 	.string "Anscheinend gibt es einen seltsamen\n"
-	.string "Baum auf {COLOR RED}Route 36{COLOR DARK_GRAY}.\p"
+	.string "Baum auf Route 36.\p"
 	.string "Er soll tanzen, wenn man ihn gießt…\p"
 	.string "Natürlich nicht!\p"
 	.string "Dies ist ein Blumenladen, wir\n"
@@ -141,13 +141,13 @@ GoldenrodCity_FlowerShop_Text_Owner1:
 GoldenrodCity_FlowerShop_Text_Owner2:
 #if GERMAN
 	.string "Anscheinend gibt es einen seltsamen\n"
-	.string "Baum auf {COLOR RED}Route 36{COLOR DARK_GRAY}.\p"
+	.string "Baum auf Route 36.\p"
 	.string "Er soll tanzen, wenn man ihn gießt…\p"
 	.string "Oh, das ist ein Basisorden von\n"
 	.string "der Dukatia-Arena!\p"
 	.string "Hast du Bianka besiegt?!\p"
 	.string "Dann ist alles in Ordnung.\p"
-	.string "Ich leihe dir diese {COLOR RED}Schiggykanne{COLOR DARK_GRAY}.\p"
+	.string "Ich leihe dir diese Schiggykanne.\p"
 	.string "…\p"
 	.string "Ach, egal. Behalte sie!$"
 #else
@@ -169,7 +169,7 @@ GoldenrodCity_FlowerShop_Text_Owner2:
 GoldenrodCity_FlowerShop_Text_Owner3:
 #if GERMAN
 	.string "Dieser merkwürdige Baum soll sich auf\n"
-	.string "{COLOR RED}Route 36{COLOR DARK_GRAY} befinden.\p"
+	.string "Route 36 befinden.\p"
 	.string "Sei vorsichtig, hörst du?$"
 #else
 .string "The odd tree is on ROUTE 36.\n"

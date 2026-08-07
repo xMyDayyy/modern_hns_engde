@@ -756,7 +756,7 @@ MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "forderung nennen.\p"
 	.string "Der Eingang zu neu Malvenfroh\n"
 	.string "ist eine kurze Surf-Strecke von\l"
-	.string "{COLOR RED}Route 11{COLOR DARK_GRAY}0 entfernt.\p"
+	.string "Route 110 entfernt.\p"
 	.string "Das ist alles. Du kannst mir\n"
 	.string "vertrauen! Wahahahahahaha!$"
 #else

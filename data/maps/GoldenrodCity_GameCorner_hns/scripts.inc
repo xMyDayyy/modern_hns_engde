@@ -677,7 +677,7 @@ GoldenrodCity_GameCorner_Text_PokefanM1:
 	.string "Ich liebe diesen neuen Automaten.\p"
 	.string "Er stellt eine\n"
 	.string "größere Herausforderung dar als jene\l"
-	.string "in {COLOR RED}Prismania City{COLOR DARK_GRAY}.$"
+	.string "in Prismania City.$"
 #else
     .string "I just love this new slot machine.\p"
     .string "It's more of a challenge than the\n"

@@ -98,7 +98,7 @@ RockTunnel_B1F_Text_DudleyPostBattle::
 
 RockTunnel_B1F_Text_CooperIntro::
 #if GERMAN
-	.string "Du besitzt einen {COLOR RED}Pokédex{COLOR DARK_GRAY}? Cool!\n"
+	.string "Du besitzt einen Pokédex? Cool!\n"
 	.string "Ich möchte auch einen haben!$"
 #else
 	.string "You have a POKéDEX?\n"
@@ -115,7 +115,7 @@ RockTunnel_B1F_Text_CooperDefeat::
 
 RockTunnel_B1F_Text_CooperPostBattle::
 #if GERMAN
-	.string "Gibst du mir den {COLOR RED}Pokédex{COLOR DARK_GRAY}, wenn er\n"
+	.string "Gibst du mir den Pokédex, wenn er\n"
 	.string "fertig ist?$"
 #else
 	.string "When you finish your POKéDEX,\n"

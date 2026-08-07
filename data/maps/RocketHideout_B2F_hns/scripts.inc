@@ -764,7 +764,7 @@ RocketHideout_B2F_Text_LanceWhirlpool:
 	.string "über wildes Wasser zu kommen.\p"
 	.string "Aber merke dir: Außerhalb des Kampfes\p"
 	.string "kannst du es nur mit dem Orden\n"
-	.string "der Arena von {COLOR RED}Mahagonia City{COLOR DARK_GRAY}\l"
+	.string "der Arena von Mahagonia City\l"
 	.string "nutzen.$"
 #else
     .string "That's WHIRLPOOL. Teach it to a\n"

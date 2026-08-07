@@ -217,7 +217,7 @@ SproutTower_Text_SageLi_Seen:
 #if GERMAN
 	.string "Sehr gut. Du hast dich\n"
 	.string "wacker geschlagen!\p"
-	.string "Hier im {COLOR RED}Knofensa{COLOR DARK_GRAY}-Turm erarbeiten sich\n"
+	.string "Hier im Knofensa-Turm erarbeiten sich\n"
 	.string "Pokémon und Menschen eine strahlende\l"
 	.string "gemeinsame Zukunft oder suchen im\l"
 	.string "Training Bestätigung.\p"
@@ -262,7 +262,7 @@ SproutTower_Text_SageLi_FlashExplain:
 	.string "dunkelsten Orte.\p"
 	.string "Um es außerhalb des Kampfes\n"
 	.string "zu nutzen, brauchst du den\l"
-	.string "Orden aus der {COLOR RED}Viola City{COLOR DARK_GRAY} Arena.$"
+	.string "Orden aus der Viola City Arena.$"
 #else
 	.string "FLASH illuminates even the\n"
 	.string "darkest of all places.\p"

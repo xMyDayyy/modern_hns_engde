@@ -151,7 +151,7 @@ IndigoPlateau_PokemonCenter_1F_Text_LancesCousinGymLeaderFarAway::
 #if GERMAN
 	.string "Vielleicht liegt eine Mitgliedschaft\n"
 	.string "bei den Top Vier in den Genen.\p"
-	.string "Ich habe gehört, dass {COLOR RED}Siegfried{COLOR DARK_GRAY}\n"
+	.string "Ich habe gehört, dass Siegfried\n"
 	.string "einen Cousin hat, der irgendwo\l"
 	.string "weit weg Arenaleiter ist.$"
 #else

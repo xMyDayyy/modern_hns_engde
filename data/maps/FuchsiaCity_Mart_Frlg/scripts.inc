@@ -34,7 +34,7 @@ FuchsiaCity_Mart_Items::
 FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants::
 #if GERMAN
 	.string "Du hast einen Wimpel aus der\n"
-	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY}?\p"
+	.string "Safari-Zone?\p"
 	.string "Kein Programmheft oder einen\n"
 	.string "Kalender?$"
 #else

@@ -80,7 +80,7 @@ Route2_Text_RobRematchDefeat:
 Route2_Text_RobPostRematch:
 #if GERMAN
 	.string "Ich habe jedes Käfer-Pokémon in\n"
-	.string "{COLOR RED}Vertania City{COLOR DARK_GRAY} gefangen.\p"
+	.string "Vertania City gefangen.\p"
 	.string "Gibt es irgendwo einen noch\n"
 	.string "besseren Wald?$"
 #else

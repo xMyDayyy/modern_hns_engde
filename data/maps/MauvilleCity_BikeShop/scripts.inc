@@ -266,14 +266,14 @@ MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
 
 MauvilleCity_BikeShop_Text_ChoseMachBike:
 #if GERMAN
-	.string "{PLAYER} wählt das {COLOR RED}Eilrad{COLOR DARK_GRAY}.$"
+	.string "{PLAYER} wählt das Eilrad.$"
 #else
 	.string "{PLAYER} chose the MACH BIKE.$"
 #endif
 
 MauvilleCity_BikeShop_Text_ChoseAcroBike:
 #if GERMAN
-	.string "{PLAYER} wählt das {COLOR RED}Kunstrad{COLOR DARK_GRAY}.$"
+	.string "{PLAYER} wählt das Kunstrad.$"
 #else
 	.string "{PLAYER} chose the ACRO BIKE.$"
 #endif
@@ -307,8 +307,8 @@ MauvilleCity_BikeShop_Text_IllSwitchBikes:
 
 MauvilleCity_BikeShop_Text_ExchangedMachForAcro:
 #if GERMAN
-	.string "{PLAYER} bekommt für das {COLOR RED}Eilrad{COLOR DARK_GRAY} ein\n"
-	.string "{COLOR RED}Kunstrad{COLOR DARK_GRAY}.$"
+	.string "{PLAYER} bekommt für das Eilrad ein\n"
+	.string "Kunstrad.$"
 #else
 	.string "{PLAYER} got the MACH BIKE exchanged\n"
 	.string "for an ACRO BIKE.$"
@@ -316,8 +316,8 @@ MauvilleCity_BikeShop_Text_ExchangedMachForAcro:
 
 MauvilleCity_BikeShop_Text_ExchangedAcroForMach:
 #if GERMAN
-	.string "{PLAYER} bekommt für das {COLOR RED}Kunstrad{COLOR DARK_GRAY} ein\n"
-	.string "{COLOR RED}Eilrad{COLOR DARK_GRAY}.$"
+	.string "{PLAYER} bekommt für das Kunstrad ein\n"
+	.string "Eilrad.$"
 #else
 	.string "{PLAYER} got the ACRO BIKE exchanged\n"
 	.string "for a MACH BIKE.$"

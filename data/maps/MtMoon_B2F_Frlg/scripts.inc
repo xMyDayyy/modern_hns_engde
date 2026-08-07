@@ -172,7 +172,7 @@ MtMoon_B2F_Text_ThenThisFossilIsMine::
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
 #if GERMAN
-	.string "Auf der fernen {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY}\n"
+	.string "Auf der fernen Zinnoberinsel\n"
 	.string "gibt es ein Pokémon-Labor.\p"
 	.string "Dort versucht man, aus fossilem\n"
 	.string "Gen-Material Pokémon zu\l"
@@ -294,14 +294,14 @@ MtMoon_B2F_Text_Grunt4PostBattle::
 
 MtMoon_B2F_Text_YouWantDomeFossil::
 #if GERMAN
-	.string "Möchtest du das {COLOR RED}Domfossil{COLOR DARK_GRAY}?$"
+	.string "Möchtest du das Domfossil?$"
 #else
 	.string "Do you want the DOME FOSSIL?$"
 #endif
 
 MtMoon_B2F_Text_YouWantHelixFossil::
 #if GERMAN
-	.string "Möchtest du das {COLOR RED}Helixfossil{COLOR DARK_GRAY}?$"
+	.string "Möchtest du das Helixfossil?$"
 #else
 	.string "Do you want the HELIX FOSSIL?$"
 #endif

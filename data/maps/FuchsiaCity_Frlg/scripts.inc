@@ -152,7 +152,7 @@ FuchsiaCity_Text_DidYouTrySafariGame::
 
 FuchsiaCity_Text_SafariZoneZooInFront::
 #if GERMAN
-	.string "Vor dem Eingang zur {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\n"
+	.string "Vor dem Eingang zur Safari-Zone\n"
 	.string "befindet sich ein Zoo.\p"
 	.string "Das Safari-Spiel ist ideal, um\n"
 	.string "Pokémon zu fangen.$"

@@ -97,7 +97,7 @@ CeruleanCity_BikeShop_Text_SorryYouCantAffordIt::
 CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo::
 #if GERMAN
 	.string "Oh, das ist ein...\p"
-	.string "... {COLOR RED}Rad-Coupon{COLOR DARK_GRAY}!\p"
+	.string "... Rad-Coupon!\p"
 	.string "O.K.!\n"
 	.string "Es gehört dir!$"
 #else
@@ -109,7 +109,7 @@ CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo::
 
 CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle::
 #if GERMAN
-	.string "{PLAYER} tauscht den {COLOR RED}Rad-Coupon{COLOR DARK_GRAY}\n"
+	.string "{PLAYER} tauscht den Rad-Coupon\n"
 	.string "gegen das Fahrrad.$"
 #else
 	.string "{PLAYER} exchanged the\n"

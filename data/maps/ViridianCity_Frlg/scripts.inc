@@ -309,8 +309,8 @@ ViridianCity_Text_GrandpaHasntHadCoffeeYet::
 ViridianCity_Text_GoShoppingInPewterOccasionally::
 #if GERMAN
 	.string "Wenn ich zum Einkaufen nach\n"
-	.string "{COLOR RED}Marmoria City{COLOR DARK_GRAY} möchte, muss ich\l"
-	.string "immer durch den {COLOR RED}Vertania-Wald{COLOR DARK_GRAY}\l"
+	.string "Marmoria City möchte, muss ich\l"
+	.string "immer durch den Vertania-Wald\l"
 	.string "gehen.$"
 #else
 	.string "I go shopping in PEWTER CITY\n"
@@ -337,10 +337,10 @@ ViridianCity_Text_ShowYouHowToCatchMons::
 	.string "Hmm?\l"
 	.string "Was ist das für eine rote Box?\p"
 	.string "Ah, du arbeitest an einem\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}.\p"
+	.string "Pokédex.\p"
 	.string "Dann will ich dir einen Ratschlag\n"
 	.string "geben.\p"
-	.string "Der {COLOR RED}Pokédex{COLOR DARK_GRAY} wird mit jedem neu\n"
+	.string "Der Pokédex wird mit jedem neu\n"
 	.string "gefangenen Pokémon aktualisiert.\p"
 	.string "… du weißt nicht, wie man\n"
 	.string "Pokémon fängt?\p"
@@ -396,7 +396,7 @@ ViridianCity_Text_WeakenMonsFirstToCatch::
 	.string "Aber er war zu stark. Jetzt habe\l"
 	.string "ich Kopfschmerzen…\p"
 	.string "Vervollständigst du zufällig einen\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
+	.string "Pokédex?\p"
 	.string "Konzentriere dich zunächst darauf,\n"
 	.string "das Pokémon zu schwächen, ehe\l"
 	.string "du es fangen möchtest.$"

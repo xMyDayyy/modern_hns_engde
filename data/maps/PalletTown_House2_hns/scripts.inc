@@ -58,7 +58,7 @@ PalletTown_House2_EventScript_DaisyGrooming::
 PalletTown_House2_Text_Hello:
 #if GERMAN
 	.string "Sarah: Hi! Mein kleiner Bruder\n"
-	.string "ist Arenaleiter in {COLOR RED}Vertania City{COLOR DARK_GRAY}.\p"
+	.string "ist Arenaleiter in Vertania City.\p"
 	.string "Aber er verlässt die Stadt so oft,\n"
 	.string "dass er den Trainern damit das\l"
 	.string "Leben schwer macht.$"

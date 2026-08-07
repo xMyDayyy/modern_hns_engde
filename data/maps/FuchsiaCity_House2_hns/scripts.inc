@@ -18,7 +18,7 @@ FuchsiaCity_House2_EventScript_Photo::
 FuchsiaCity_House2_Text_WardensGranddaughter1:
 #if GERMAN
 	.string "Mein Opa ist der Leiter der\n"
-	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY}.\p"
+	.string "Safari-Zone.\p"
 	.string "Zumindest war er das…\p"
 	.string "Er beschloss, Urlaub zu machen\n"
 	.string "und reiste ganz allein ins Ausland.\p"
@@ -37,7 +37,7 @@ FuchsiaCity_House2_Text_WardensGranddaughter1:
 FuchsiaCity_House2_Text_WardensGranddaughter2:
 #if GERMAN
 	.string "Viele Leute waren enttäuscht,\n"
-	.string "dass die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} schloss,\l"
+	.string "dass die Safari-Zone schloss,\l"
 	.string "aber Opa ist so stur…$"
 #else
 	.string "Many people were disappointed that\n"

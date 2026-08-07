@@ -22,7 +22,7 @@ CliffEdgeGate_Text_IntroOpen:
 	.string "Hey, du! Höre mir mal kurz zu!\p"
 	.string "Hier hinten gibt es einen\n"
 	.string "sehr, sehr spannenden Ort!\l"
-	.string "Die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}!\p"
+	.string "Die Safari-Zone!\p"
 	.string "Da soll es seltene Pokémon in\n"
 	.string "Hülle und Fülle geben…\l"
 	.string "Ein regelrechtes Paradies für Trainer!\l"
@@ -43,11 +43,11 @@ CliffEdgeGate_Text_IntroOpen:
 CliffEdgeGate_Text_Expectations:
 #if GERMAN
 	.string "Es freut uns ja, dass alle so hohe \n"
-	.string "Erwartungen an die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} haben…\l"
+	.string "Erwartungen an die Safari-Zone haben…\l"
 	.string "aber die Dame am Empfang tönt ein\l"
 	.string "bisschen zu laut durch die Gegend!\p"
 	.string "Setze doch einfach ein gesundes Maß\n"
-	.string "an Erwartungen in die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}, ja?$"
+	.string "an Erwartungen in die Safari-Zone, ja?$"
 #else
 	.string "I appreciate that everybody is looking\n"
 	.string "forward to it.\p"

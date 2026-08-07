@@ -379,7 +379,7 @@ EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
 	.string "Aber, dass du dann sogar Champ\n"
 	.string "geworden bist!\p"
 	.string "Oh, ja!\p"
-	.string "Was ist aus deinem {COLOR RED}Pokédex{COLOR DARK_GRAY} geworden?\n"
+	.string "Was ist aus deinem Pokédex geworden?\n"
 	.string "Lass mich mal sehen…$"
 #else
 	.string "PROF. BIRCH: See?\n"

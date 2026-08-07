@@ -141,7 +141,7 @@ MatchCall_HNS_Wade_FoundItem::
 	.string "gefunden.\p"
 	.string "Wenn du willst, teile ich mit dir.\p"
 	.string "Ich warte auf\n"
-	.string "{COLOR RED}Route 31{COLOR DARK_GRAY}.$"
+	.string "Route 31.$"
 #else
 	.string "{PLAYER}, howdy!\p"
 	.string "I found all kinds of\n"
@@ -282,7 +282,7 @@ MatchCall_HNS_Liz_General3::
 	.string "Hi, {PLAYER}!\n"
 	.string "Hör mal, hör mal!\p"
 	.string "Denkst du nicht auch, dass Falk,\n"
-	.string "der Arenaleiter von {COLOR RED}Viola City{COLOR DARK_GRAY}, cool\l"
+	.string "der Arenaleiter von Viola City, cool\l"
 	.string "und schön ist?\p"
 	.string "Aber, man sagt, dass sein Vater, der\n"
 	.string "im Freien trainiert, noch cooler und\l"
@@ -430,7 +430,7 @@ MatchCall_HNS_Todd_General3::
 	.string "Jetzt besiegen wir\n"
 	.string "{STR_VAR_3} mühelos.\p"
 	.string "Ich sollte die\n"
-	.string "{COLOR RED}Rosalia{COLOR DARK_GRAY}-Arena fordern.$"
+	.string "Rosalia-Arena fordern.$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "What's up?\p"
@@ -696,7 +696,7 @@ MatchCall_HNS_Alan_FoundItem::
 	.string "Hehehe, ich fand etwas Schönes!\p"
 	.string "Es gehört dir!\p"
 	.string "Wieso kommst du nicht zu\n"
-	.string "{COLOR RED}Route 36{COLOR DARK_GRAY} und holst es ab?$"
+	.string "Route 36 und holst es ab?$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's ALAN!\p"
@@ -783,7 +783,7 @@ MatchCall_HNS_Dana_FoundItem::
 	.string "Wie versprochen, gehört es dir!\n"
 	.string "Ich bin sicher, es gefällt dir.\p"
 	.string "Komm es dir holen! Ich warte\n"
-	.string "auf {COLOR RED}Route 38{COLOR DARK_GRAY}!$"
+	.string "auf Route 38!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's DANA!\p"
@@ -815,7 +815,7 @@ MatchCall_HNS_Chad_General1::
 	.string "Hier ist Lutz!\p"
 	.string "Wie geht’s deinen Pokémon\n"
 	.string "so?\p"
-	.string "Du kennst {COLOR RED}Prof. Eich{COLOR DARK_GRAY}, also\n"
+	.string "Du kennst Prof. Eich, also\n"
 	.string "geht’s deinen Pokémon\l"
 	.string "natürlich gut!\p"
 	.string "Meinen Pokémon geht’s auch\n"
@@ -849,7 +849,7 @@ MatchCall_HNS_Chad_General2::
 	.string "Beobachtungen.\p"
 	.string "Ich wünschte, ich könnte\n"
 	.string "bald ein Pokémon-Forscher\l"
-	.string "wie {COLOR RED}Prof. Eich{COLOR DARK_GRAY} werden.$"
+	.string "wie Prof. Eich werden.$"
 #else
 	.string "Hello, {PLAYER}!\n"
 	.string "It's CHAD!\p"
@@ -868,7 +868,7 @@ MatchCall_HNS_Chad_General3::
 	.string "Hallo, {PLAYER}!\n"
 	.string "Hier ist Lutz!\p"
 	.string "Ich lerne fleißig, damit\n"
-	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY} mich zu seinem\l"
+	.string "Prof. Eich mich zu seinem\l"
 	.string "Assistenten macht!$"
 #else
 	.string "Hello, {PLAYER}!\n"
@@ -956,7 +956,7 @@ MatchCall_HNS_Derek_FoundItem::
 	.string "Hier ist Söncke!\p"
 	.string "Ich möchte, dass du dieses Nugget\n"
 	.string "bekommst.\p"
-	.string "Ich bin auf {COLOR RED}Route 39{COLOR DARK_GRAY}.\n"
+	.string "Ich bin auf Route 39.\n"
 	.string "Komm es dir holen!$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -1042,7 +1042,7 @@ MatchCall_HNS_Tully_FoundItem::
 	.string "Ich fand etwas Kleines am Ufer.\p"
 	.string "Wie versprochen, es gehört dir.\p"
 	.string "Ich warte auf\n"
-	.string "{COLOR RED}Route 42{COLOR DARK_GRAY}.$"
+	.string "Route 42.$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's TULLY!\p"
@@ -1123,9 +1123,9 @@ MatchCall_HNS_Brent_General3::
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Taro!\p"
 	.string "Wusstest du…?\p"
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} kommt ursprünglich aus {COLOR RED}Dukatia{COLOR DARK_GRAY}\n"
+	.string "Bill kommt ursprünglich aus Dukatia\n"
 	.string "City.\p"
-	.string "Offenbar ist {COLOR RED}Bill{COLOR DARK_GRAY} kein wirklich\n"
+	.string "Offenbar ist Bill kein wirklich\n"
 	.string "guter Kämpfer.$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -1353,7 +1353,7 @@ MatchCall_HNS_Wilton_FoundItem::
 	.string "Ich habe beim Angeln ein Item\n"
 	.string "gefunden.\p"
 	.string "Komm es dir holen auf\n"
-	.string "{COLOR RED}Route 44{COLOR DARK_GRAY}.$"
+	.string "Route 44.$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's WILTON!\p"
@@ -1707,7 +1707,7 @@ MatchCall_HNS_Beverly_FoundItem::
 	.string "Wenn du möchtest, gebe ich dir\n"
 	.string "einen dafür, dass du mir geholfen\l"
 	.string "hast.\p"
-	.string "Ich bin im {COLOR RED}Nationalpark{COLOR DARK_GRAY}.\n"
+	.string "Ich bin im Nationalpark.\n"
 	.string "Komm bitte vorbei, wenn\l"
 	.string "du kannst.$"
 #else
@@ -1984,7 +1984,7 @@ MatchCall_HNS_Jose_FoundItem::
 	.string "Mein Porenta hatte etwas Schönes\n"
 	.string "im Schnabel.\p"
 	.string "Wie versprochen, gehört es dir.\p"
-	.string "Hol mich auf {COLOR RED}Route 27{COLOR DARK_GRAY}\n"
+	.string "Hol mich auf Route 27\n"
 	.string "ein, und ich lass es\l"
 	.string "dich haben.$"
 #else
@@ -2223,7 +2223,7 @@ MatchCall_HNS_Trevor_Battle::
 	.string "Hi, {PLAYER}!\n"
 	.string "Hier ist Reinhold.\p"
 	.string "Meine Freunde sind bereit zum\n"
-	.string "Kampf! Schau vorbei auf {COLOR RED}Route 14{COLOR DARK_GRAY}!$"
+	.string "Kampf! Schau vorbei auf Route 14!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's TREVOR.\p"
@@ -2260,7 +2260,7 @@ MatchCall_HNS_Kyle_Battle::
 	.string "Hier ist Alain.\p"
 	.string "Ich hab ein paar starke\n"
 	.string "neue Pokémon geangelt!\p"
-	.string "Komm zu {COLOR RED}Route 12{COLOR DARK_GRAY} für\n"
+	.string "Komm zu Route 12 für\n"
 	.string "einen Kampf!$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -2312,7 +2312,7 @@ MatchCall_HNS_Carter_Battle::
 	.string "Hier ist Ernst.\p"
 	.string "Ich hab neue Starter zum\n"
 	.string "Vorzeigen! Komm zu\l"
-	.string "{COLOR RED}Route 14{COLOR DARK_GRAY}!$"
+	.string "Route 14!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "CARTER here.\p"
@@ -2350,7 +2350,7 @@ MatchCall_HNS_Hillary_Battle::
 	.string "Hier ist Sylvia.\p"
 	.string "Meine Pokémon haben die\n"
 	.string "nächste Stufe erreicht!\p"
-	.string "Komm uns auf {COLOR RED}Route 15{COLOR DARK_GRAY} testen!$"
+	.string "Komm uns auf Route 15 testen!$"
 #else
 	.string "Hello, {PLAYER}.\n"
 	.string "It's HILLARY.\p"
@@ -2364,7 +2364,7 @@ MatchCall_HNS_Rob_General1::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Götz!\p"
-	.string "Der {COLOR RED}Vertania-Wald{COLOR DARK_GRAY} ist voller\n"
+	.string "Der Vertania-Wald ist voller\n"
 	.string "cooler Käfer!$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -2377,7 +2377,7 @@ MatchCall_HNS_Rob_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\p"
 	.string "Ich hab einen Käfer-Arena-\n"
-	.string "leiter im {COLOR RED}Vertania-Wald{COLOR DARK_GRAY} gesehen!$"
+	.string "leiter im Vertania-Wald gesehen!$"
 #else
 	.string "Hey, {PLAYER}!\p"
 	.string "I saw a BUG TYPE GYM\n"
@@ -2389,7 +2389,7 @@ MatchCall_HNS_Rob_Battle::
 	.string "Hier ist Götz!\p"
 	.string "Mein Käfer-Team ist stärker\n"
 	.string "als je zuvor!\p"
-	.string "Komm zu {COLOR RED}Route 2{COLOR DARK_GRAY} für einen\n"
+	.string "Komm zu Route 2 für einen\n"
 	.string "Rückkampf!$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -2437,7 +2437,7 @@ MatchCall_HNS_Nicole_Battle::
 	.string "Hier ist Elke!\p"
 	.string "Meine Wasser-Pokémon wollen\n"
 	.string "unbedingt kämpfen!\p"
-	.string "Komm zu {COLOR RED}Route 20{COLOR DARK_GRAY}!$"
+	.string "Komm zu Route 20!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's NICOLE!\p"
@@ -2484,7 +2484,7 @@ MatchCall_HNS_Billy_Battle::
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Sandro.\p"
 	.string "Ich hab neue Tricks gelernt!\n"
-	.string "Komm zu {COLOR RED}Route 15{COLOR DARK_GRAY}!$"
+	.string "Komm zu Route 15!$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's BILLY.\p"
@@ -2510,7 +2510,7 @@ MatchCall_HNS_Kenny_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\p"
 	.string "Hier ist Hilmar.\n"
-	.string "Ich war im {COLOR RED}Marmoria{COLOR DARK_GRAY}-Museum!\p"
+	.string "Ich war im Marmoria-Museum!\p"
 	.string "Wusstest du, dass ganz Kanto\n"
 	.string "einst unter Wasser stand?$"
 #else
@@ -2527,7 +2527,7 @@ MatchCall_HNS_Kenny_Battle::
 	.string "Hier ist Hilmar.\p"
 	.string "Ich hab hart in den Bergen\n"
 	.string "trainiert!\p"
-	.string "Komm zu {COLOR RED}Route 13{COLOR DARK_GRAY} für\n"
+	.string "Komm zu Route 13 für\n"
 	.string "einen Kampf!$"
 #else
 	.string "Hey there, {PLAYER}!\n"

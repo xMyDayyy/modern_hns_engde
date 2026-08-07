@@ -929,7 +929,7 @@ MtChimney_Text_Bushaa:
 
 MtChimney_Text_LavaCookiesJust200:
 #if GERMAN
-	.string "Lavakekse sind die {COLOR RED}Spezialität{COLOR DARK_GRAY} am\n"
+	.string "Lavakekse sind die Spezialität am\n"
 	.string "Schlotberg.\p"
 	.string "Nimm einen. Er kostet nur ¥200.$"
 #else
@@ -976,7 +976,7 @@ MtChimney_Text_MetoriteFittedOnMachine:
 
 MtChimney_Text_RemoveTheMeteorite:
 #if GERMAN
-	.string "Ein {COLOR RED}Meteorit{COLOR DARK_GRAY} steckt in dieser\n"
+	.string "Ein Meteorit steckt in dieser\n"
 	.string "mysteriösen Vorrichtung…\p"
 	.string "Willst du den Meteoriten nehmen?$"
 #else

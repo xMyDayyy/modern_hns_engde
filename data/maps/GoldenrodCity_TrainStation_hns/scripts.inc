@@ -309,7 +309,7 @@ GoldenrodMagnetTrainStation_Text_OfficerTrainHasntComeIn:
 
 GoldenrodMagnetTrainStation_Text_OfficerRightThisWay:
 #if GERMAN
-	.string "Darf ich deinen {COLOR RED}Fahrschein{COLOR DARK_GRAY} sehen?\p"
+	.string "Darf ich deinen Fahrschein sehen?\p"
 	.string "O.K. Bitte hier entlang.$"
 #else
     .string "May I see your rail PASS, please?\p"
@@ -319,7 +319,7 @@ GoldenrodMagnetTrainStation_Text_OfficerRightThisWay:
 GoldenrodMagnetTrainStation_Text_OfficerNoRailPass:
 #if GERMAN
 	.string "Verzeihung, aber\n"
-	.string "du hast keinen {COLOR RED}Fahrschein{COLOR DARK_GRAY}.$"
+	.string "du hast keinen Fahrschein.$"
 #else
     .string "Sorry. You don't have a rail PASS.$"
 #endif
@@ -341,7 +341,7 @@ GoldenrodMagnetTrainStation_Text_GentlemanPresident:
 
 GoldenrodCity_TrainStation_Text_Boy:
 #if GERMAN
-	.string "Du hast einen {COLOR RED}Fahrschein{COLOR DARK_GRAY} für den\n"
+	.string "Du hast einen Fahrschein für den\n"
 	.string "Magnetzug, oder?$"
 #else
 	.string "You brought the MAGNET TRAIN PASS,\n"

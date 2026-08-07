@@ -25,7 +25,7 @@ CeruleanCity_EventScript_Guard::
 
 CeruleanCity_Text_ThisIsCeruleanCave::
 #if GERMAN
-	.string "Dies ist die {COLOR RED}Azuria-Höhle{COLOR DARK_GRAY}.\p"
+	.string "Dies ist die Azuria-Höhle.\p"
 	.string "Unglaublich starke Pokémon\n"
 	.string "leben hier.\p"
 	.string "Es braucht einen wirklich\n"
@@ -50,8 +50,8 @@ CeruleanCity_Text_ThisIsCeruleanCave::
 
 CeruleanCity_Text_CooltrainerM1:
 #if GERMAN
-	.string "Das Kanto-{COLOR RED}Kraftwerk{COLOR DARK_GRAY}? Es befindet sich\n"
-	.string "am Ende von {COLOR RED}Route 9{COLOR DARK_GRAY}, der Straße\l"
+	.string "Das Kanto-Kraftwerk? Es befindet sich\n"
+	.string "am Ende von Route 9, der Straße\l"
 	.string "östlich von hier. Angeblich haben die\l"
 	.string "da mit irgendeinem Defekt zu kämpfen…$"
 #else

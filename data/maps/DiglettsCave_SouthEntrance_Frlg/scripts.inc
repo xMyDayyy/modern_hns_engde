@@ -9,7 +9,7 @@ DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel::
 #if GERMAN
 	.string "Das ist cool!\n"
 	.string "Digda hat einen Tunnel gegraben!\p"
-	.string "Er führt direkt nach {COLOR RED}Vertania{COLOR DARK_GRAY}\n"
+	.string "Er führt direkt nach Vertania\n"
 	.string "City!$"
 #else
 	.string "Well, isn't this a surprise!\n"

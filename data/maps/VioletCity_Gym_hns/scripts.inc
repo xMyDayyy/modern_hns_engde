@@ -140,7 +140,7 @@ VioletGym_Text_Falkner_AfterFight:
 	.string "Falk: Du wirst von nun an in den Arenen\n"
 	.string "vieler Städte zum Kampf antreten.\p"
 	.string "Als Nächstes… ja, als Nächstes nimmst\n"
-	.string "du dir am besten {COLOR RED}Azalea City{COLOR DARK_GRAY} vor!\p"
+	.string "du dir am besten Azalea City vor!\p"
 	.string "Ich werde noch härter trainieren, um\n"
 	.string "der größte Vogelfänger aller Zeiten\l"
 	.string "zu werden!$"

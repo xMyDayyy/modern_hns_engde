@@ -271,7 +271,7 @@ LakeOfRage_Text_LanceForcedToEvolve:
 LakeOfRage_Text_LanceIntro1:
 #if GERMAN
 	.string "Bist du wegen der Gerüchte hier?\p"
-	.string "Du bist {PLAYER}? Ich bin {COLOR RED}Siegfried{COLOR DARK_GRAY},\p"
+	.string "Du bist {PLAYER}? Ich bin Siegfried,\p"
 	.string "ein Trainer wie du.$"
 #else
     .string "Did you come here because of\n"
@@ -316,7 +316,7 @@ LakeOfRage_Text_LanceRadioSignal:
 	.string "die Karpador im See zwingen,\n"
 	.string "sich zu entwickeln.\p"
 	.string "Die Ursache ist das mysteriöse\n"
-	.string "Radiosignal aus {COLOR RED}Mahagonia City{COLOR DARK_GRAY}.\p"
+	.string "Radiosignal aus Mahagonia City.\p"
 	.string "Ich werde auf dich warten,\n"
 	.string "{PLAYER}.$"
 #else
@@ -583,7 +583,7 @@ LakeOfRage_Text_WesleyGivesGift:
 
 LakeOfRage_Text_WesleyGaveGift:
 #if GERMAN
-	.string "Mitko: {COLOR RED}Schwarzgurt{COLOR DARK_GRAY} erhöht die\n"
+	.string "Mitko: Schwarzgurt erhöht die\n"
 	.string "Kraft von Kampf-Attacken.$"
 #else
     .string "WESLEY: BLACK BELT beefs up the\n"

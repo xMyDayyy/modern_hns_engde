@@ -107,7 +107,7 @@ gText_Oak_YourePlayer::
 #if GERMAN
 	.string "Ah, okay!\p"
 	.string "Jetzt habe ich es! Du heißt {PLAYER}{KUN}\n"
-	.string "und bist gerade nach {COLOR RED}Neuborkia{COLOR DARK_GRAY}\l"
+	.string "und bist gerade nach Neuborkia\l"
 	.string "gezogen, schöner Ort.\p"
 	.string "$"
 #else

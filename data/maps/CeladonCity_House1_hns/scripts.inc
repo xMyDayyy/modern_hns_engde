@@ -110,7 +110,7 @@ CeladonCity_House1_Text_Fisher3MunchMunch:
 CeladonCity_House1_Text_Fisher3GoldenrodIsBest:
 #if GERMAN
 	.string "Das Essen hier ist gut, aber\n"
-	.string "in {COLOR RED}Dukatia City{COLOR DARK_GRAY} gibt es das beste\l"
+	.string "in Dukatia City gibt es das beste\l"
 	.string "Essen überhaupt.$"
 #else
 	.string "The food is good here, but\n"

@@ -376,7 +376,7 @@ RivalsHouse_1F_Text_TooBusyToNoticeVisit:
 RivalsHouse_1F_Text_WentOutToRoute103:
 #if GERMAN
 	.string "Oh, {RIVAL} ist vor kurzem zur\n"
-	.string "{COLOR RED}Route 10{COLOR DARK_GRAY}3 aufgebrochen.\p"
+	.string "Route 103 aufgebrochen.\p"
 	.string "Wie der Vater, so das Kind.\n"
 	.string "{RIVAL} hält es keine fünf\l"
 	.string "Minuten im Haus aus.$"

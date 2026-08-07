@@ -86,7 +86,7 @@ GoldenrodCity_BikeShop_Text_ClerkAgreed:
 #if GERMAN
 	.string "Ja? Großartig!\p"
 	.string "Gib mir bitte Namen und Nummer.\p"
-	.string "Dann leihe ich dir ein {COLOR RED}Fahrrad{COLOR DARK_GRAY}.$"
+	.string "Dann leihe ich dir ein Fahrrad.$"
 #else
     .string "Really? Great!\p"
     .string "Give me your name and phone number,\n"

@@ -443,7 +443,7 @@ SlateportCity_Harbor_Text_LilycoveItIs:
 
 SlateportCity_Harbor_Text_BattleFrontierItIs:
 #if GERMAN
-	.string "Zur {COLOR RED}Kampfzone{COLOR DARK_GRAY}?$"
+	.string "Zur Kampfzone?$"
 #else
 	.string "BATTLE FRONTIER it is, then!$"
 #endif
@@ -702,7 +702,7 @@ SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
 SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
 #if GERMAN
 	.string "Kapt. Brigg: Du möchtest den\n"
-	.string "{COLOR RED}Abysszahn{COLOR DARK_GRAY} dafür haben?$"
+	.string "Abysszahn dafür haben?$"
 #else
 	.string "CAPT. STERN: So you'll trade it for\n"
 	.string "my DEEPSEATOOTH?$"
@@ -711,7 +711,7 @@ SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
 SlateportCity_Harbor_Text_TradeForDeepSeaScale:
 #if GERMAN
 	.string "Kapt. Brigg: Du möchtest die\n"
-	.string "{COLOR RED}Abyssplatte{COLOR DARK_GRAY} dafür haben?$"
+	.string "Abyssplatte dafür haben?$"
 #else
 	.string "CAPT. STERN: So you'll trade it for\n"
 	.string "my DEEPSEASCALE?$"
@@ -726,7 +726,7 @@ SlateportCity_Harbor_Text_WhichOneDoYouWant:
 
 SlateportCity_Harbor_Text_HandedScannerToStern:
 #if GERMAN
-	.string "{PLAYER} gibt Kapt. Brigg den {COLOR RED}Scanner{COLOR DARK_GRAY}.$"
+	.string "{PLAYER} gibt Kapt. Brigg den Scanner.$"
 #else
 	.string "{PLAYER} handed the SCANNER to\n"
 	.string "CAPT. STERN.$"

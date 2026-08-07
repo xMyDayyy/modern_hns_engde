@@ -130,7 +130,7 @@ PokemonTower_2F_Text_RivalDefeat::
 
 PokemonTower_2F_Text_RivalPostBattle::
 #if GERMAN
-	.string "Wie macht sich dein {COLOR RED}Pokédex{COLOR DARK_GRAY},\n"
+	.string "Wie macht sich dein Pokédex,\n"
 	.string "Nervensäge? Ich habe kürzlich ein\l"
 	.string "Tragosso gefangen!\p"
 	.string "Allerdings habe ich noch kein\n"
@@ -156,7 +156,7 @@ PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
 #if GERMAN
 	.string "Selbst wir können die eigenwilligen\n"
 	.string "Geister nicht identifizieren!\p"
-	.string "Man benötigt das {COLOR RED}Silph Scope{COLOR DARK_GRAY}, um\n"
+	.string "Man benötigt das Silph Scope, um\n"
 	.string "sie zu erkennen!$"
 #else
 	.string "Even we could not identify the\n"

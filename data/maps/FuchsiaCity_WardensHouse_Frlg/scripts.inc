@@ -90,7 +90,7 @@ FuchsiaCity_WardensHouse_Text_HeOhayHeHaHoo::
 FuchsiaCity_WardensHouse_Text_GaveGoldTeethToWarden::
 #if GERMAN
 	.string "{PLAYER} gibt dem Wärter die\n"
-	.string "{COLOR RED}Goldzähne{COLOR DARK_GRAY}!$"
+	.string "Goldzähne!$"
 #else
 	.string "{PLAYER} gave the GOLD TEETH\n"
 	.string "to the WARDEN.$"
@@ -142,7 +142,7 @@ FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething::
 FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
 #if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "{COLOR RED}VM04{COLOR DARK_GRAY}!$"
+	.string "VM04!$"
 #else
 	.string "{PLAYER} received HM04\n"
 	.string "from the WARDEN.$"
@@ -150,12 +150,12 @@ FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
 
 FuchsiaCity_WardensHouse_Text_ExplainStrength::
 #if GERMAN
-	.string "Wärter: {COLOR RED}VM04{COLOR DARK_GRAY} ist Stärke!\p"
+	.string "Wärter: VM04 ist Stärke!\p"
 	.string "Damit lernen Pokémon, Felsen zu\n"
 	.string "verschieben, auch wenn sie nicht\l"
 	.string "kämpfen!\p"
 	.string "Hast du bereits das Geheime Haus\n"
-	.string "in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY} gefunden?$"
+	.string "in der Safari-Zone gefunden?$"
 #else
 	.string "WARDEN: Inside HM04 you'll find\n"
 	.string "STRENGTH.\p"

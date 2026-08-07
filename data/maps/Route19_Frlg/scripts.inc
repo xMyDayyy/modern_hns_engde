@@ -174,7 +174,7 @@ Route19_Text_AnyaDefeat::
 
 Route19_Text_AnyaPostBattle::
 #if GERMAN
-	.string "Bis zu den {COLOR RED}Seeschauminseln{COLOR DARK_GRAY} ist es\n"
+	.string "Bis zu den Seeschauminseln ist es\n"
 	.string "noch ein weiter Weg!$"
 #else
 	.string "It's still a long way to go to\n"
@@ -202,7 +202,7 @@ Route19_Text_AliceDefeat::
 Route19_Text_AlicePostBattle::
 #if GERMAN
 	.string "Mein Freund wollte zu den\n"
-	.string "{COLOR RED}Seeschauminseln{COLOR DARK_GRAY} schwimmen.$"
+	.string "Seeschauminseln schwimmen.$"
 #else
 	.string "My boyfriend wanted to swim to\n"
 	.string "SEAFOAM ISLANDS.$"

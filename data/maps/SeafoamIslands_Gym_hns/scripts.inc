@@ -85,7 +85,7 @@ SeafoamIslands_Gym_Text_TM:
 	.string "Nimm auch das hier. Diese TM\n"
 	.string "enthält die mächtige Hitzekoller.\p"
 	.string "Ich hoffe, dein nächster Gegner\n"
-	.string "hat {COLOR RED}Feuerheiler{COLOR DARK_GRAY} dabei! Waaah!$"
+	.string "hat Feuerheiler dabei! Waaah!$"
 #else
 	.string "Take this too. This TM contains\n"
 	.string "the awesome OVERHEAT.\p"
@@ -128,7 +128,7 @@ SeafoamIslands_Gym_Text_ReceivedVolcanoBadge:
 SeafoamIslands_Gym_Text_BlaineAfterBattle:
 #if GERMAN
 	.string "Pyro: Diesmal habe ich verloren. Aber\n"
-	.string "wenn die Arena auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY}\l"
+	.string "wenn die Arena auf der Zinnoberinsel\l"
 	.string "wieder steht, wird der Sieg mein sein!\p"
 	.string "Lass uns irgendwann mal wieder kämpfen!$"
 #else

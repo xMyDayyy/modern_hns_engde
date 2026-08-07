@@ -457,7 +457,7 @@ AzaleaTown_Text_GrampsAfter:
 
 AzaleaTown_Text_Teacher:
 #if GERMAN
-	.string "Bist du auch hier, um {COLOR RED}Kurt{COLOR DARK_GRAY} zu bitten,\n"
+	.string "Bist du auch hier, um Kurt zu bitten,\n"
 	.string "Pokébälle für dich anzufertigen?\l"
 	.string "Eine Menge Leute wollen das!$"
 #else
@@ -469,7 +469,7 @@ AzaleaTown_Text_Teacher:
 AzaleaTown_Text_Youngster:
 #if GERMAN
 	.string "Hinter Azalea City gelangst du in\n"
-	.string "den sogenannten {COLOR RED}Steineichenwald{COLOR DARK_GRAY}.\p"
+	.string "den sogenannten Steineichenwald.\p"
 	.string "Allerdings machen es diese dürren Bäume\n"
 	.string "unmöglich, dort durchzukommen.\p"
 	.string "Nur die Pokémon des Köhlers könnten\n"
@@ -493,7 +493,7 @@ AzaleaTown_Text_Slowpoke1:
 
 AzaleaTown_Text_Kurt1:
 #if GERMAN
-	.string "Der {COLOR RED}Steineichenwald{COLOR DARK_GRAY} ist gruselig!\p"
+	.string "Der Steineichenwald ist gruselig!\p"
 	.string "Was passiert da?$"
 #else
 	.string "ILEX FOREST is restless!\p"
@@ -502,14 +502,14 @@ AzaleaTown_Text_Kurt1:
 
 AzaleaTown_Text_Kurt2:
 #if GERMAN
-	.string "{PLAYER}, hier ist dein {COLOR RED}GS-Ball{COLOR DARK_GRAY}!$"
+	.string "{PLAYER}, hier ist dein GS-Ball!$"
 #else
 	.string "{PLAYER}, here's your GS BALL back!$"
 #endif
 
 AzaleaTown_Text_Kurt3:
 #if GERMAN
-	.string "Könntest du den {COLOR RED}Steineichenwald{COLOR DARK_GRAY}\n"
+	.string "Könntest du den Steineichenwald\n"
 	.string "erkunden und herausfinden,\l"
 	.string "was dort vor sich geht?$"
 #else

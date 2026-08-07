@@ -78,7 +78,7 @@ MtSilver_PokemonCenter_EventScript_Meara_WarpToSinjoh::
 MtSilver_PokemonCenter_Text_Meara1:
 #if GERMAN
 	.string "Ich bin eine Forscherin aus dem\n"
-	.string "Museum von {COLOR RED}Marmoria City{COLOR DARK_GRAY}.\p"
+	.string "Museum von Marmoria City.\p"
 	.string "In dieser Gegend wurden ungewöhnlich\n"
 	.string "viele Artefakte entdeckt, also bin\l"
 	.string "ich hier, um Nachforschungen\l"

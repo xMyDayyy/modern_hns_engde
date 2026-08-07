@@ -961,7 +961,7 @@ gFameCheckerFlavorTextOriginLocation_Brock2::
 
 gFameCheckerFlavorTextOriginLocation_Brock3::
 #if GERMAN
-	.string "{COLOR RED}Route 4{COLOR DARK_GRAY}$"
+	.string "Route 4$"
 #else
 	.string "ROUTE 4$"
 #endif
@@ -1325,14 +1325,14 @@ gFameCheckerFlavorTextOriginLocation_Agatha0::
 
 gFameCheckerFlavorTextOriginLocation_Agatha1::
 #if GERMAN
-	.string "{COLOR RED}Indigo Plateau{COLOR DARK_GRAY}$"
+	.string "Indigo Plateau$"
 #else
 	.string "INDIGO PLATEAU$"
 #endif
 
 gFameCheckerFlavorTextOriginLocation_Agatha2::
 #if GERMAN
-	.string "{COLOR RED}Indigo Plateau{COLOR DARK_GRAY}$"
+	.string "Indigo Plateau$"
 #else
 	.string "INDIGO PLATEAU$"
 #endif
@@ -1388,14 +1388,14 @@ gFameCheckerFlavorTextOriginLocation_Lance3::
 
 gFameCheckerFlavorTextOriginLocation_Lance4::
 #if GERMAN
-	.string "{COLOR RED}Indigo Plateau{COLOR DARK_GRAY}$"
+	.string "Indigo Plateau$"
 #else
 	.string "INDIGO PLATEAU$"
 #endif
 
 gFameCheckerFlavorTextOriginLocation_Lance5::
 #if GERMAN
-	.string "{COLOR RED}Indigo Plateau{COLOR DARK_GRAY}$"
+	.string "Indigo Plateau$"
 #else
 	.string "INDIGO PLATEAU$"
 #endif
@@ -2032,14 +2032,14 @@ gFameCheckerFlavorTextOriginObjectName_Agatha5::
 
 gFameCheckerFlavorTextOriginObjectName_Lance0::
 #if GERMAN
-	.string "{COLOR RED}Lance{COLOR DARK_GRAY}$"
+	.string "Lance$"
 #else
 	.string "LANCE$"
 #endif
 
 gFameCheckerFlavorTextOriginObjectName_Lance1::
 #if GERMAN
-	.string "{COLOR RED}Lance{COLOR DARK_GRAY}$"
+	.string "Lance$"
 #else
 	.string "LANCE$"
 #endif
@@ -2198,7 +2198,7 @@ PokemonJournal_Text_SpecialFeatureBrock::
 #if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiter\n"
-	.string "Rocko aus {COLOR RED}Marmoria City{COLOR DARK_GRAY}!\p"
+	.string "Rocko aus Marmoria City!\p"
 	.string "Rocko lacht selten, aber er kann\n"
 	.string "nicht aufhören, wenn er\l"
 	.string "angefangen hat.$"
@@ -2214,7 +2214,7 @@ PokemonJournal_Text_SpecialFeatureMisty::
 #if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiterin\n"
-	.string "Misty aus {COLOR RED}Azuria City{COLOR DARK_GRAY}!\p"
+	.string "Misty aus Azuria City!\p"
 	.string "Misty vergöttert angeblich\n"
 	.string "Lorelei von den Top Vier.$"
 #else
@@ -2229,7 +2229,7 @@ PokemonJournal_Text_SpecialFeatureLtSurge::
 #if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiter\n"
-	.string "Major Bob aus {COLOR RED}Orania City{COLOR DARK_GRAY}!\p"
+	.string "Major Bob aus Orania City!\p"
 	.string "Major Bob war angeblich Pilot\n"
 	.string "in seiner Heimat Amerika.\p"
 	.string "Sein Flugzeug ist mittels der\n"
@@ -2249,10 +2249,10 @@ PokemonJournal_Text_SpecialFeatureErika::
 #if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiterin\n"
-	.string "Erika aus {COLOR RED}Prismania City{COLOR DARK_GRAY}!\p"
+	.string "Erika aus Prismania City!\p"
 	.string "Man sagt, dass man bei einer\n"
 	.string "Stippvisite in der Arena von\l"
-	.string "{COLOR RED}Prismania City{COLOR DARK_GRAY}, Erika bei\l"
+	.string "Prismania City, Erika bei\l"
 	.string "einem Nickerchen beobachten kann.$"
 #else
 	.string "POKéMON JOURNAL\p"
@@ -2267,7 +2267,7 @@ PokemonJournal_Text_SpecialFeatureKoga::
 #if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiter\n"
-	.string "Koga aus {COLOR RED}Fuchsania City{COLOR DARK_GRAY}!\p"
+	.string "Koga aus Fuchsania City!\p"
 	.string "Man sagt, dass Koga fundiertes\n"
 	.string "Wissen auf dem Gebiet der\l"
 	.string "Medizin besitzt.\l"
@@ -2287,7 +2287,7 @@ PokemonJournal_Text_SpecialFeatureSabrina::
 #if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiterin\n"
-	.string "Sabrina aus {COLOR RED}Saffronia City{COLOR DARK_GRAY}!\p"
+	.string "Sabrina aus Saffronia City!\p"
 	.string "Man sagt, dass Sabrina mit\n"
 	.string "ihren Pokémon im Kampf\l"
 	.string "wortlos kommunizieren kann.$"
@@ -2304,7 +2304,7 @@ PokemonJournal_Text_SpecialFeatureBlaine::
 #if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiter\n"
-	.string "Pyro von der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY}!\p"
+	.string "Pyro von der Zinnoberinsel!\p"
 	.string "Pyro nimmt seine Sonnenbrille\n"
 	.string "angeblich nur ab, wenn er sich\l"
 	.string "neue Quizfragen ausdenkt.$"
@@ -2359,7 +2359,7 @@ PokemonJournal_Text_SpecialFeatureAgatha::
 	.string "Sonderreportage: Agathe von den\n"
 	.string "Top Vier!\p"
 	.string "In ihrer Jugend war Agathe eine\n"
-	.string "Rivalin von {COLOR RED}Prof. Eich{COLOR DARK_GRAY} und hat\l"
+	.string "Rivalin von Prof. Eich und hat\l"
 	.string "mit ihm um die Vorherrschaft\l"
 	.string "als Trainer gekämpft.$"
 #else
@@ -2374,10 +2374,10 @@ PokemonJournal_Text_SpecialFeatureAgatha::
 PokemonJournal_Text_SpecialFeatureLance::
 #if GERMAN
 	.string "Pokémon Journal\p"
-	.string "Sonderreportage: {COLOR RED}Siegfried{COLOR DARK_GRAY} von\n"
+	.string "Sonderreportage: Siegfried von\n"
 	.string "den Top Vier!\p"
 	.string "Man sagt, dass der Großvater von\n"
-	.string "{COLOR RED}Siegfried{COLOR DARK_GRAY} der Älteste in einem\l"
+	.string "Siegfried der Älteste in einem\l"
 	.string "berühmten Drachenklan ist.$"
 #else
 	.string "POKéMON JOURNAL\p"
@@ -2391,9 +2391,9 @@ PokemonJournal_Text_SpecialFeatureLance::
 PokemonJournal_Text_SpecialFeatureProfOak::
 #if GERMAN
 	.string "Pokémon Journal\p"
-	.string "Sonderreportage: {COLOR RED}Prof. Eich{COLOR DARK_GRAY}, der\n"
+	.string "Sonderreportage: Prof. Eich, der\n"
 	.string "Pokémon-Forscher!\p"
-	.string "Berichten zufolge lebt {COLOR RED}Prof. Eich{COLOR DARK_GRAY}\n"
+	.string "Berichten zufolge lebt Prof. Eich\n"
 	.string "mit seinen Enkeln Sarah und\l"
 	.string "{RIVAL} zusammen.$"
 #else
@@ -2412,7 +2412,7 @@ PokemonJournal_Text_SpecialFeatureDaisyOak::
 	.string "Wettkampf-Sonderbericht!\p"
 	.string "Der Frühlingsmeister im\n"
 	.string "Pokémon-Wettkampf ist\l"
-	.string "Sarah Eich aus {COLOR RED}Alabastia{COLOR DARK_GRAY}!$"
+	.string "Sarah Eich aus Alabastia!$"
 #else
 	.string "This is a POKéMON JOURNAL from\n"
 	.string "years ago…\p"
@@ -2432,7 +2432,7 @@ PokemonJournal_Text_SpecialFeatureMrFuji::
 	.string "Mr. Fuji hat unsere Interview-\l"
 	.string "anfragen zurückgewiesen.\p"
 	.string "Er ist ein freundlicher Mann, der\n"
-	.string "in {COLOR RED}Lavandia{COLOR DARK_GRAY} verehrt und respektiert\l"
+	.string "in Lavandia verehrt und respektiert\l"
 	.string "wird.$"
 #else
 	.string "POKéMON JOURNAL\p"

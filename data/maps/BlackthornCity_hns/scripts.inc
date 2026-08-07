@@ -47,7 +47,7 @@ BlackthornCity_Text_BaobaCall:
 	.string "Aufseher Baoba: {PLAYER}!\p"
 	.string "Hier ist Aufseher Baoba.\p"
 	.string "Ich rufe dich an, um dir\n"
-	.string "mitzuteilen, dass die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\l"
+	.string "mitzuteilen, dass die Safari-Zone\l"
 	.string "vergrößert wurde!\p"
 	.string "Bitte komm vorbei!$"
 #else
@@ -228,7 +228,7 @@ BlackthornCity_Text_ClairIsIn:
 BlackthornCity_Text_ClairIsBeaten:
 #if GERMAN
 	.string "Du hast Sandra besiegt? Unglaublich!\p"
-	.string "Außer {COLOR RED}Siegfried{COLOR DARK_GRAY} ist es noch niemandem\n"
+	.string "Außer Siegfried ist es noch niemandem\n"
 	.string "gelungen, gegen sie zu gewinnen!$"
 #else
 	.string "You defeated CLAIR?\p"
@@ -308,7 +308,7 @@ BlackthornCity_SantosGivesGiftText:
 BlackthornCity_SantosGaveGiftText:
 #if GERMAN
 	.string "Samson: …\p"
-	.string "{COLOR RED}Bannsticker{COLOR DARK_GRAY}…\p"
+	.string "Bannsticker…\p"
 	.string "Geist-Attacken werden verstärkt…\p"
 	.string "Es wird dich gruseln…$"
 #else
@@ -338,7 +338,7 @@ BlackthornCity_SantosNopeText:
 
 BlackthornCooltrainerF2Text:
 #if GERMAN
-	.string "Wow, du bist über den {COLOR RED}Eispfad{COLOR DARK_GRAY} gekommen!\n"
+	.string "Wow, du bist über den Eispfad gekommen!\n"
 	.string "Dann musst du ein extrem talentierter\l"
 	.string "Trainer sein!$"
 #else

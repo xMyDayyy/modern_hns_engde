@@ -135,7 +135,7 @@ UnionCave_B1F_Text_PokemaniacCalvinAfter:
 	.string "Ich sollte vielleicht langsam meine\n"
 	.string "Forschungsergebnisse veröffentlichen!\p"
 	.string "Dann werde ich vielleicht genauso\n"
-	.string "berühmt wie {COLOR RED}Prof. Lind{COLOR DARK_GRAY}!$"
+	.string "berühmt wie Prof. Lind!$"
 #else
 	.string "I should compile and announce my\n"
 	.string "study findings.\p"

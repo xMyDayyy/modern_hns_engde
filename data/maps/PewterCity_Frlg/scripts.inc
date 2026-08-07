@@ -897,7 +897,7 @@ PewterCity_Text_ClefairyCameFromMoon::
 	.string "Gerüchten zufolge sollen die\n"
 	.string "Piepi vom Mond stammen!\p"
 	.string "Nachdem der Mondstein auf den\n"
-	.string "{COLOR RED}Mondberg{COLOR DARK_GRAY} fiel, sind sie erstmals\l"
+	.string "Mondberg fiel, sind sie erstmals\l"
 	.string "aufgetaucht!$"
 #else
 	.string "CLEFAIRY came from the moon.\n"
@@ -931,7 +931,7 @@ PewterCity_Text_DidYouCheckOutMuseum::
 
 PewterCity_Text_WerentThoseFossilsAmazing::
 #if GERMAN
-	.string "Waren die Fossilien vom {COLOR RED}Mondberg{COLOR DARK_GRAY}\n"
+	.string "Waren die Fossilien vom Mondberg\n"
 	.string "nicht einmalig?$"
 #else
 	.string "Weren't those fossils from MT. MOON\n"
@@ -1069,7 +1069,7 @@ PewterCity_Text_AskedToDeliverThis::
 #if GERMAN
 	.string "Ich bin froh, dass ich dich\n"
 	.string "erwische. Ich bin der\l"
-	.string "Assistent von {COLOR RED}Prof. Eich{COLOR DARK_GRAY}.\p"
+	.string "Assistent von Prof. Eich.\p"
 	.string "Ich wurde gebeten, dir das hier zu\n"
 	.string "bringen, also nimm es bitte.$"
 #else

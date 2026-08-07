@@ -405,7 +405,7 @@ VermilionCity_Text_SnorlaxSleeping:
 
 VermilionCity_Text_RadioNearSnorlax:
 #if GERMAN
-	.string "Der {COLOR RED}PokéCom{COLOR DARK_GRAY} wird\n"
+	.string "Der PokéCom wird\n"
 	.string "in der Nähe des schlafenden Relaxos\l"
 	.string "platziert…\p"
 	.string "…\p"

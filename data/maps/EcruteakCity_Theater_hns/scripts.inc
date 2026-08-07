@@ -1131,15 +1131,15 @@ EcruteakCity_Theater_Text_ZukiSeen:
 #if GERMAN
 	.string "Guten Tag! Ich darf mich vorstellen…\n"
 	.string "Ich bin Tamao, eines der Kimono-Girls.\p"
-	.string "Wir hatten bereits in {COLOR RED}Viola City{COLOR DARK_GRAY} das\n"
+	.string "Wir hatten bereits in Viola City das\n"
 	.string "Vergnügen, nicht wahr?\p"
 	.string "Nur jemand, der über ein aufrichtiges\n"
 	.string "Herz und ein Händchen im Umgang mit\l"
 	.string "Pokémon verfügt, kann Ho-Oh rufen.\p"
 	.string "Die richtige Person lässt sich daran\n"
-	.string "erkennen, dass sie das {COLOR RED}Rätsel-Ei{COLOR DARK_GRAY} bei\l"
+	.string "erkennen, dass sie das Rätsel-Ei bei\l"
 	.string "sich trägt, wenn sie hier auftaucht.\p"
-	.string "Ich habe {COLOR RED}Mr. Pokémon{COLOR DARK_GRAY} bereits im Vorfeld\n"
+	.string "Ich habe Mr. Pokémon bereits im Vorfeld\n"
 	.string "aufgetragen, es dem Richtigen zu geben.\p"
 	.string "Und genau dieses Ei ist Euch über\n"
 	.string "Professor Lind in die Hände gefallen!\p"
@@ -1193,12 +1193,12 @@ EcruteakCity_Theater_Text_ZukiNo:
 EcruteakCity_Theater_Text_NaokoSeen:
 #if GERMAN
 	.string "Du bist sehr stark. Du hast\n"
-	.string "mir im {COLOR RED}Steineichenwald{COLOR DARK_GRAY} geholfen.\p"
+	.string "mir im Steineichenwald geholfen.\p"
 	.string "Ich heiße Edith. Ich habe keine\n"
 	.string "so gute Orientierung.\p"
 	.string "Ich sah, wie du Team Rocket\n"
-	.string "besiegt hast, als {COLOR RED}Kurt{COLOR DARK_GRAY} am\n"
-	.string "{COLOR RED}Flegmon-Brunnen{COLOR DARK_GRAY} in Not war.\p"
+	.string "besiegt hast, als Kurt am\n"
+	.string "Flegmon-Brunnen in Not war.\p"
 	.string "Lass mich dich und deine\n"
 	.string "Pokémon herausfordern!$"
 #else
@@ -1242,7 +1242,7 @@ EcruteakCity_Theater_Text_SayoSeen:
 	.string "vom Eis gestoßen.\p"
 	.string "Ich laufe in Sandalen.\n"
 	.string "Ich bin Keiko, das Kimono-Girl!\p"
-	.string "Ich hörte zu in der {COLOR RED}Drachenhöhle{COLOR DARK_GRAY},\n"
+	.string "Ich hörte zu in der Drachenhöhle,\n"
 	.string "als du den Test des Ältesten\n"
 	.string "bestanden hast.\p"
 	.string "Lass mich dich und deine\n"
@@ -1262,7 +1262,7 @@ EcruteakCity_Theater_Text_KuniSeen:
 #if GERMAN
 	.string "Ich bin die Letzte.\p"
 	.string "Du warst zuverlässig im\n"
-	.string "{COLOR RED}Dukatia{COLOR DARK_GRAY}-Tunnel.\p"
+	.string "Dukatia-Tunnel.\p"
 	.string "Ich tanze auch unterirdisch…\n"
 	.string "Hussa!\p"
 	.string "Ich sah, wie du Rocket am\n"
@@ -1299,7 +1299,7 @@ EcruteakCity_Theater_Text_GirlHooh:
 #if GERMAN
 	.string "Hört mir alle zu!\p"
 	.string "Der Schatten eines riesigen Pokémon ist\n"
-	.string "über dem {COLOR RED}Glockenturm{COLOR DARK_GRAY} erschienen!\p"
+	.string "über dem Glockenturm erschienen!\p"
 	.string "Könnte das etwa…$"
 #else
 	.string "Big sisters! I just saw the\n"
@@ -1312,7 +1312,7 @@ EcruteakCity_Theater_Text_GirlLugia:
 #if GERMAN
 	.string "Hört mir alle zu!\p"
 	.string "Der Umriss eines riesigen Pokémon wurde\n"
-	.string "bei den {COLOR RED}Strudelinseln{COLOR DARK_GRAY} gesichtet!\p"
+	.string "bei den Strudelinseln gesichtet!\p"
 	.string "Das wird doch nicht etwa…$"
 #else
 	.string "Big sisters! I just saw the\n"
@@ -1325,7 +1325,7 @@ EcruteakCity_Theater_Text_ZukiHooh:
 #if GERMAN
 	.string "Tamao: Nun denn, {PLAYER}!\n"
 	.string "Wir eilen schon einmal vor Euch\l"
-	.string "zum {COLOR RED}Glockenturm{COLOR DARK_GRAY}!$"
+	.string "zum Glockenturm!$"
 #else
 	.string "ZUKI: {PLAYER}!\n"
 	.string "We'll be at the TIN TOWER.\n"
@@ -1336,7 +1336,7 @@ EcruteakCity_Theater_Text_ZukiLugia:
 #if GERMAN
 	.string "Tamao: Nun denn, {PLAYER}!\n"
 	.string "Wir eilen schon einmal vor Euch\l"
-	.string "zu den {COLOR RED}Strudelinseln{COLOR DARK_GRAY}!$"
+	.string "zu den Strudelinseln!$"
 #else
 	.string "ZUKI: {PLAYER}!\n"
 	.string "We'll be at the WHIRL ISLANDS.\l"
@@ -1358,7 +1358,7 @@ EcruteakCity_Theater_Text_ZukiAfterAll:
 	.string "Wir schätzen es, dass du unsere\n"
 	.string "Hoffnungen erfüllt hast, {PLAYER}!\p"
 	.string "Wenn du daraus etwas gelernt hast,\n"
-	.string "dank {COLOR RED}Mr. Pokémon{COLOR DARK_GRAY} und {COLOR RED}Prof. Lind{COLOR DARK_GRAY}..$"
+	.string "dank Mr. Pokémon und Prof. Lind..$"
 #else
 	.string "Thank you for your help the\n"
 	.string "other day.\p"

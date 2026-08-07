@@ -2,7 +2,7 @@ gBirchDexRatingText_AreYouCurious::
 #if GERMAN
 	.string "Prof. Birk: Ah, {PLAYER}{KUN}!\p"
 	.string "Möchtest du mir deine Fortschritte\n"
-	.string "mit dem {COLOR RED}Pokédex{COLOR DARK_GRAY} zeigen?$"
+	.string "mit dem Pokédex zeigen?$"
 #else
 	.string "PROF. BIRCH: Ah, {PLAYER}{KUN}!\p"
 	.string "Are you curious about how your\n"
@@ -65,7 +65,7 @@ gBirchDexRatingText_LessThan40::
 #if GERMAN
 	.string "Nun, er könnte mehr Einträge\n"
 	.string "enthalten, aber es sieht schon\l"
-	.string "eher nach einem {COLOR RED}Pokédex{COLOR DARK_GRAY} aus.$"
+	.string "eher nach einem Pokédex aus.$"
 #else
 	.string "Well, it could use more quantity,\n"
 	.string "but this is looking more like\l"
@@ -103,7 +103,7 @@ gBirchDexRatingText_LessThan70::
 
 gBirchDexRatingText_LessThan80::
 #if GERMAN
-	.string "Der {COLOR RED}Pokédex{COLOR DARK_GRAY} wird einfach\n"
+	.string "Der Pokédex wird einfach\n"
 	.string "fantastisch.\l"
 	.string "Das habe ich im Gefühl…$"
 #else
@@ -125,7 +125,7 @@ gBirchDexRatingText_LessThan90::
 gBirchDexRatingText_LessThan100::
 #if GERMAN
 	.string "Warst du schon mal in der\n"
-	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY}?\p"
+	.string "Safari-Zone?\p"
 	.string "Ich habe gehört, es gibt Pokémon,\n"
 	.string "die man nur dort finden kann.$"
 #else
@@ -139,7 +139,7 @@ gBirchDexRatingText_LessThan110::
 	.string "Du hast die 100er-Marke\n"
 	.string "überschritten!\p"
 	.string "Das ist ein beeindruckender\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}!$"
+	.string "Pokédex!$"
 #else
 	.string "You've finally reached\n"
 	.string "the 100-kind mark.\p"
@@ -202,7 +202,7 @@ gBirchDexRatingText_LessThan160::
 
 gBirchDexRatingText_LessThan170::
 #if GERMAN
-	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} liefert einen\n"
+	.string "Dein Pokédex liefert einen\n"
 	.string "erstaunlich guten Einblick in die\l"
 	.string "Pokémon der Hoenn-Region!$"
 #else
@@ -224,7 +224,7 @@ gBirchDexRatingText_LessThan180::
 
 gBirchDexRatingText_LessThan190::
 #if GERMAN
-	.string "Mit diesem {COLOR RED}Pokédex{COLOR DARK_GRAY}, der schon so\n"
+	.string "Mit diesem Pokédex, der schon so\n"
 	.string "weit gediehen ist, bist du ein\l"
 	.string "echter Profi.$"
 #else
@@ -235,7 +235,7 @@ gBirchDexRatingText_LessThan190::
 gBirchDexRatingText_LessThan200::
 #if GERMAN
 	.string "Du bist sehr nahe dran, den\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} zu vervollständigen.\l"
+	.string "Pokédex zu vervollständigen.\l"
 	.string "Das fühle ich einfach.$"
 #else
 	.string "You're very close to completing\n"
@@ -246,7 +246,7 @@ gBirchDexRatingText_LessThan200::
 gBirchDexRatingText_DexCompleted::
 #if GERMAN
 	.string "Herzlichen Glückwunsch!\n"
-	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} ist vollständig!$"
+	.string "Dein Pokédex ist vollständig!$"
 #else
 	.string "Congratulations!\n"
 	.string "Your POKéDEX is complete!$"
@@ -269,8 +269,8 @@ gBirchDexRatingText_OnANationwideBasis::
 
 PokedexRating_Text_HowIsPokedexComingAlong::
 #if GERMAN
-	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Ich freue mich, dich\n"
-	.string "zu sehen! Was macht dein {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
+	.string "Prof. Eich: Ich freue mich, dich\n"
+	.string "zu sehen! Was macht dein Pokédex?\p"
 	.string "Zeig ihn mir!$"
 #else
 	.string "OAK: Good to see you!\n"
@@ -280,7 +280,7 @@ PokedexRating_Text_HowIsPokedexComingAlong::
 
 PokedexRating_Text_SeenXOwnedY::
 #if GERMAN
-	.string "In deinem {COLOR RED}Pokédex{COLOR DARK_GRAY} steht:\p"
+	.string "In deinem Pokédex steht:\p"
 	.string "Gesehen: {STR_VAR_1} Pokémon\n"
 	.string "  Besitz: {STR_VAR_2} Pokémon\p"
 	.string "Prof. Eichs Bewertung:$"
@@ -340,7 +340,7 @@ PokedexRating_Text_LessThan40::
 
 PokedexRating_Text_LessThan50::
 #if GERMAN
-	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} macht gute Fortschritte!\p"
+	.string "Dein Pokédex macht gute Fortschritte!\p"
 	.string "Ich habe einem meiner Assistenten ein\n"
 	.string "Münzamulett gegeben. Hol es dir!$"
 #else
@@ -447,7 +447,7 @@ PokedexRating_Text_LessThan150::
 
 PokedexRating_Text_Complete::
 #if GERMAN
-	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} ist komplett fertig\n"
+	.string "Dein Pokédex ist komplett fertig\n"
 	.string "gestellt! Herzlichen Glückwunsch!$"
 #else
 	.string "Your POKéDEX is entirely complete!\n"
@@ -456,7 +456,7 @@ PokedexRating_Text_Complete::
 
 PokedexRating_Text_NationalDexSeenXOwnedY::
 #if GERMAN
-	.string "In deinem Nationalen {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
+	.string "In deinem Nationalen Pokédex\n"
 	.string "steht:\p"
 	.string "Gesehen: {STR_VAR_1} Pokémon\n"
 	.string "Besitz: {STR_VAR_2} Pokémon.$"
@@ -469,7 +469,7 @@ PokedexRating_Text_NationalDexSeenXOwnedY::
 PokedexRating_Text_LookForwardToFilledNationalDex::
 #if GERMAN
 	.string "Ich bin gespannt, ob du den\n"
-	.string "Nationalen {COLOR RED}Pokédex{COLOR DARK_GRAY} füllen kannst.$"
+	.string "Nationalen Pokédex füllen kannst.$"
 #else
 	.string "I'll be looking forward to seeing\n"
 	.string "you fill the NATIONAL POKéDEX!$"
@@ -478,7 +478,7 @@ PokedexRating_Text_LookForwardToFilledNationalDex::
 PokedexRating_Text_YouveCompletedDex::
 #if GERMAN
 	.string "Endlich…\p"
-	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} ist komplett!\p"
+	.string "Dein Pokédex ist komplett!\p"
 	.string "Das ist traumhaft!\n"
 	.string "Wirklich fantastisch!$"
 #else
@@ -506,7 +506,7 @@ PokedexRating_Text_ThankYouMadeDreamReality::
 PokedexRating_Text_LoveSeeingYourPokedex::
 #if GERMAN
 	.string "Eich: Ah, willkommen!\p"
-	.string "Wie ist es um deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
+	.string "Wie ist es um deinen Pokédex\n"
 	.string "bestellt?\p"
 	.string "Wow!\p"
 	.string "Ich weiß es natürlich, aber ich\n"
@@ -526,9 +526,9 @@ PokedexRating_Text_LoveSeeingYourPokedex::
 
 gElmDexRatingText_AreYouCurious::
 #if GERMAN
-	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY}: Ah, {PLAYER}{KUN}!\p"
+	.string "Prof. Lind: Ah, {PLAYER}{KUN}!\p"
 	.string "Möchtest du mir deine Fortschritte\n"
-	.string "mit dem {COLOR RED}Pokédex{COLOR DARK_GRAY} zeigen?$"
+	.string "mit dem Pokédex zeigen?$"
 #else
 	.string "PROF. ELM: Ah, {PLAYER}{KUN}!\p"
 	.string "Are you curious about how your\n"
@@ -537,9 +537,9 @@ gElmDexRatingText_AreYouCurious::
 
 gElmDexRatingText_AreYouCuriousNational::
 #if GERMAN
-	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY}: Ah, {PLAYER}{KUN}!\p"
+	.string "Prof. Lind: Ah, {PLAYER}{KUN}!\p"
 	.string "Möchtest du mir deine Fortschritte\n"
-	.string "mit dem nationalen {COLOR RED}Pokédex{COLOR DARK_GRAY} zeigen?$"
+	.string "mit dem nationalen Pokédex zeigen?$"
 #else
 	.string "PROF. ELM: Ah, {PLAYER}{KUN}!\p"
 	.string "Are you curious about how your\n"
@@ -596,7 +596,7 @@ gJohtoDexRatingText_LessThan65::
 
 gJohtoDexRatingText_LessThan80::
 #if GERMAN
-	.string "Der {COLOR RED}Pokédex{COLOR DARK_GRAY} wird einfach\n"
+	.string "Der Pokédex wird einfach\n"
 	.string "fantastisch.\l"
 	.string "Das habe ich im Gefühl…$"
 #else
@@ -621,7 +621,7 @@ gJohtoDexRatingText_LessThan110::
 	.string "Du hast die 100er-Marke\n"
 	.string "überschritten!\p"
 	.string "Das ist ein beeindruckender\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}!$"
+	.string "Pokédex!$"
 #else
 	.string "Excellent! You seem to be good at\n"
 	.string "collecting things!$"
@@ -694,7 +694,7 @@ gJohtoDexRatingText_LessThan200::
 gJohtoDexRatingText_LessThan215::
 #if GERMAN
 	.string "Die 200-Marke ist erreicht! Dein\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} entwickelt sich ja prächtig!$"
+	.string "Pokédex entwickelt sich ja prächtig!$"
 #else
 	.string "Wow! You've reached 200!\n"
 	.string "Your POKéDEX is looking great!$"
@@ -747,7 +747,7 @@ gJohtoDexRatingText_LessThan275::
 
 gJohtoDexRatingText_LessThanMaxDex::
 #if GERMAN
-	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} ist glatter Wahnsinn! Du\n"
+	.string "Dein Pokédex ist glatter Wahnsinn! Du\n"
 	.string "wirst noch ein echter Profi!$"
 #else
 	.string "Your POKéDEX is amazing!\n"
@@ -757,7 +757,7 @@ gJohtoDexRatingText_LessThanMaxDex::
 gJohtoDexRatingText_Complete::
 #if GERMAN
 	.string "Oh!\n"
-	.string "Der Johto-{COLOR RED}Pokédex{COLOR DARK_GRAY} ist ja vollständig!\p"
+	.string "Der Johto-Pokédex ist ja vollständig!\p"
 	.string "Und das nur dank dir, {PLAYER}!!!\n"
 	.string "Das ist wirklich eine außergewöhnliche\l"
 	.string "Leistung!$"
@@ -868,7 +868,7 @@ gNationalDexRatingText_LessThanMaxDex::
 
 gNationalDexRatingText_Complete::
 #if GERMAN
-	.string "Ausgezeichnet! Der Nationale {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
+	.string "Ausgezeichnet! Der Nationale Pokédex\n"
 	.string "ist ja vollständig!\p"
 	.string "Ich habe mich nicht in dir getäuscht,\n"
 	.string "als wir uns zum ersten Mal getroffen\l"

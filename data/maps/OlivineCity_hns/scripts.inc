@@ -41,11 +41,11 @@ OlivineCity_Text_Baoba:
 	.string "Entschuldige, dass ich dich habe\n"
 	.string "warten lassen!\p"
 	.string "Sie ist endlich eröffnet, die\n"
-	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY}! Du weißt, wo?\p"
+	.string "Safari-Zone! Du weißt, wo?\p"
 	.string "Du kennst doch das in den Fels\n"
-	.string "gehauene Tor in {COLOR RED}Anemonia City{COLOR DARK_GRAY}, oder?\p"
+	.string "gehauene Tor in Anemonia City, oder?\p"
 	.string "Wenn du dort durchgehst, erreichst\n"
-	.string "du sie nach einer Weile, die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}!\p"
+	.string "du sie nach einer Weile, die Safari-Zone!\p"
 	.string "Nun, es liegt nicht gerade auf dem Weg,\n"
 	.string "aber schau unbedingt einmal vorbei!$"
 #else
@@ -183,12 +183,12 @@ OlivineCity_Text_SilverEncounter:
 	.string "Apropos Verlierer: Die Arenaleiterin\n"
 	.string "dieser Stadt ist gerade außer Haus.\p"
 	.string "Sie kümmert sich wohl gerade um ein\n"
-	.string "krankes Pokémon im {COLOR RED}Leuchtturm{COLOR DARK_GRAY}.\p"
+	.string "krankes Pokémon im Leuchtturm.\p"
 	.string "…Hmpf! So ein Unfug!\p"
 	.string "Ein Pokémon, das zu schwach zum\n"
 	.string "Kämpfen ist, ist wertlos!\p"
 	.string "Warum trainierst du nicht etwas im\n"
-	.string "{COLOR RED}Leuchtturm{COLOR DARK_GRAY}?\p"
+	.string "Leuchtturm?\p"
 	.string "Wer weiß, vielleicht wird aus dir ja\n"
 	.string "doch noch ein annehmbarer Trainer?$"
 #else
@@ -361,7 +361,7 @@ OlivineCity_Text_Sailor1:
 
 OlivineCity_Text_YoungsterPokegear:
 #if GERMAN
-	.string "Dieses Ding da ist doch ein {COLOR RED}PokéCom{COLOR DARK_GRAY}!\n"
+	.string "Dieses Ding da ist doch ein PokéCom!\n"
 	.string "Wow, das ist ja sooo cool!$"
 #else
 	.string "That thing you have--\n"
@@ -371,7 +371,7 @@ OlivineCity_Text_YoungsterPokegear:
 
 OlivineCity_Text_YoungsterPokedex:
 #if GERMAN
-	.string "Wow, du hast einen {COLOR RED}Pokédex{COLOR DARK_GRAY}!\n"
+	.string "Wow, du hast einen Pokédex!\n"
 	.string "Das ist echt cool!$"
 #else
 	.string "Wow, you have a POKéDEX!\p"

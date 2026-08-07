@@ -91,7 +91,7 @@ GoldenrodCity_RadioTower_4F4_Text_Proton_Seen:
 #if GERMAN
 	.string "Lance: Halt!\p"
 	.string "…Ach? Dich kenne ich doch aus\n"
-	.string "dem {COLOR RED}Flegmon-Brunnen{COLOR DARK_GRAY}? Dort hast du\l"
+	.string "dem Flegmon-Brunnen? Dort hast du\l"
 	.string "unsere Pläne schon einmal vereitelt…\p"
 	.string "Ah, verstehe… du legst es wohl darauf\n"
 	.string "an, unseren Zorn zu provozieren?\p"
@@ -173,7 +173,7 @@ GoldenrodCity_RadioTower_4F4_Text_DJMaryPinkBow:
 GoldenrodCity_RadioTower_4F4_Text_DJMaryAfter:
 #if GERMAN
 	.string "Margit: Und hör dir den Pokémon-Talk\n"
-	.string "mit {COLOR RED}Prof. Eich{COLOR DARK_GRAY} und mir im Radio an, ja?$"
+	.string "mit Prof. Eich und mir im Radio an, ja?$"
 #else
 	.string "MARY: Please tune into me on PROF.\n"
 	.string "OAK'S POKéMON TALK show!$"

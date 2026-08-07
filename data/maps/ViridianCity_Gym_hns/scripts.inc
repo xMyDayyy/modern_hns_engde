@@ -61,7 +61,7 @@ ViridianCity_Gym_EventScript_BlueAtDojo::
 ViridianCity_Gym_Text_LeaderBlue_Before:
 #if GERMAN
 	.string "Blau: Hey! Da bist du ja!\p"
-	.string "Auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} hatte ich ein\n"
+	.string "Auf der Zinnoberinsel hatte ich ein\n"
 	.string "bisschen Bammel, aber inzwischen\l"
 	.string "habe ich extrem Lust darauf gekriegt,\l"
 	.string "gegen dich zu kämpfen!\p"

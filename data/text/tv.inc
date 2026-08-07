@@ -2571,7 +2571,7 @@ gTVTodaysRivalTrainerText07::
 	.string "momentan in der Gegend\n"
 	.string "von {STR_VAR_3}.\p"
 	.string "{STR_VAR_1} hat bis jetzt {STR_VAR_2} Pokémon\n"
-	.string "im {COLOR RED}Pokédex{COLOR DARK_GRAY} verzeichnet.$"
+	.string "im Pokédex verzeichnet.$"
 #else
 	.string "Today's rival TRAINER is {STR_VAR_1},\n"
 	.string "who's around {STR_VAR_3} now.\p"
@@ -2585,7 +2585,7 @@ gTVTodaysRivalTrainerText08::
 	.string "Trainer {STR_VAR_1}. Er befindet sich\l"
 	.string "momentan in einer Geheimbasis.\p"
 	.string "{STR_VAR_1} hat bis jetzt {STR_VAR_2} Pokémon\n"
-	.string "im {COLOR RED}Pokédex{COLOR DARK_GRAY} verzeichnet.$"
+	.string "im Pokédex verzeichnet.$"
 #else
 	.string "Today's rival TRAINER is {STR_VAR_1},\n"
 	.string "who's in a SECRET BASE now.\p"
@@ -2598,7 +2598,7 @@ gTVTodaysRivalTrainerText09::
 	.string "Unser heutiger Rivale ist\n"
 	.string "Trainer {STR_VAR_1}. \p"
 	.string "{STR_VAR_1} hat bis jetzt {STR_VAR_2} Pokémon\n"
-	.string "im {COLOR RED}Pokédex{COLOR DARK_GRAY} verzeichnet.$"
+	.string "im Pokédex verzeichnet.$"
 #else
 	.string "Today's rival TRAINER is {STR_VAR_1}.\p"
 	.string "So far, {STR_VAR_1} has registered\n"
@@ -2611,7 +2611,7 @@ gTVTodaysRivalTrainerText10::
 	.string "Trainer {STR_VAR_1}. Er befindet sich\l"
 	.string "gerade auf einer Fähre.\p"
 	.string "{STR_VAR_1} hat bis jetzt {STR_VAR_2} Pokémon\n"
-	.string "im {COLOR RED}Pokédex{COLOR DARK_GRAY} verzeichnet.$"
+	.string "im Pokédex verzeichnet.$"
 #else
 	.string "Today's rival TRAINER is {STR_VAR_1},\n"
 	.string "who's on a ferry now.\p"
@@ -2642,7 +2642,7 @@ gTVTodaysRivalTrainerText02::
 gTVTodaysRivalTrainerText03::
 #if GERMAN
 	.string "Unser Rivale hat bis jetzt noch kein\n"
-	.string "einziges Symbol der {COLOR RED}Kampfzone{COLOR DARK_GRAY}\l"
+	.string "einziges Symbol der Kampfzone\l"
 	.string "erhalten.$"
 #else
 	.string "Our rival hasn't obtained a single\n"
@@ -2652,7 +2652,7 @@ gTVTodaysRivalTrainerText03::
 gTVTodaysRivalTrainerText04::
 #if GERMAN
 	.string "Schauen wir uns mal an, wie viele\n"
-	.string "Symbole der {COLOR RED}Kampfzone{COLOR DARK_GRAY} unser\l"
+	.string "Symbole der Kampfzone unser\l"
 	.string "Rivale bereits besitzt.\p"
 	.string "Goldene Symbole: {STR_VAR_1}!\n"
 	.string "Silberne Symbole: {STR_VAR_2}!$"
@@ -2666,7 +2666,7 @@ gTVTodaysRivalTrainerText04::
 gTVTodaysRivalTrainerText05::
 #if GERMAN
 	.string "Unser Rivale hat sich {STR_VAR_1} Gewinn-\n"
-	.string "punkte in der {COLOR RED}Kampfzone{COLOR DARK_GRAY} erkämpft.$"
+	.string "punkte in der Kampfzone erkämpft.$"
 #else
 	.string "Our rival has collected {STR_VAR_1} Battle\n"
 	.string "Point(s) at the BATTLE FRONTIER.$"
@@ -4110,7 +4110,7 @@ gTVPokemonNewsBattleFrontierText00::
 	.string "Hallo! Es ist wieder Zeit für die\n"
 	.string "Pokémon Nachrichten!\p"
 	.string "Wir haben unglaubliche Nachrichten von\n"
-	.string "der {COLOR RED}Kampfzone{COLOR DARK_GRAY}.$"
+	.string "der Kampfzone.$"
 #else
 	.string "Greetings!\n"
 	.string "It's time for POKéMON NEWS.\p"
@@ -5171,11 +5171,11 @@ gTVSafariFanClubText00::
 	.string "Safari-Fanclub!\p"
 	.string "Reporter: Also gut, Freunde!\n"
 	.string "Ihr werft Pokébälle, nicht wahr?\p"
-	.string "Ich stehe hier in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY}, die\n"
+	.string "Ich stehe hier in der Safari-Zone, die\n"
 	.string "vor fantastischer Pokémon nur so\l"
 	.string "strotzt.\p"
 	.string "Wir sollten uns mal mit einem\n"
-	.string "Tutor der {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\l"
+	.string "Tutor der Safari-Zone\l"
 	.string "unterhalten!\p"
 	.string "Hallo, mein Freund. Wie machen sich die\n"
 	.string "Trainer, die ihr Glück hier versuchen?$"
@@ -5303,7 +5303,7 @@ gTVSafariFanClubText09::
 	.string "Reporter: Kann das stimmen?\p"
 	.string "Das klingt, als ob unser Freund\n"
 	.string "{STR_VAR_1} noch ein paar Übungs-\l"
-	.string "stunden in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY} braucht.\p"
+	.string "stunden in der Safari-Zone braucht.\p"
 	.string "Tutor: Ich hoffe, dieser\n"
 	.string "Trainer wird regelmäßig kommen, damit\l"
 	.string "er irgendwann den Bogen raus hat.$"
@@ -5320,7 +5320,7 @@ gTVSafariFanClubText10::
 	.string "Reporter: Ein wahres Wort! Man muss\n"
 	.string "sich den Herausforderungen stellen!\p"
 	.string "Also, meine lieben Zuschauer, besucht\n"
-	.string "die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} und stellt euch dieser\l"
+	.string "die Safari-Zone und stellt euch dieser\l"
 	.string "Herausforderung!\p"
 	.string "Bis zum nächsten Mal! Tschüss!$"
 #else

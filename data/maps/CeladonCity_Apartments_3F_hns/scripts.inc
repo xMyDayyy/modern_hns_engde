@@ -29,7 +29,7 @@ GameFreak_Text_GameDesigner:
 #if GERMAN
 	.string "Ist das richtig?\p"
 	.string "Ich bin der Spieldesigner!\p"
-	.string "Deinen {COLOR RED}Pokédex{COLOR DARK_GRAY} zu füllen ist schwer,\n"
+	.string "Deinen Pokédex zu füllen ist schwer,\n"
 	.string "aber gib nicht auf!$"
 #else
 	.string "Is that right?\p"
@@ -41,7 +41,7 @@ GameFreak_Text_GameDesigner:
 GameFreak_Text_GameDesignerCompletedPokedex:
 #if GERMAN
 	.string "Wow! Hervorragend! Du hast\n"
-	.string "deinen {COLOR RED}Pokédex{COLOR DARK_GRAY} vervollständigt!\p"
+	.string "deinen Pokédex vervollständigt!\p"
 	.string "Herzlichen Glückwunsch!$"
 #else
 	.string "Wow! Excellent! You completed\n"
@@ -61,7 +61,7 @@ GameFreak_Text_GraphicArtist:
 GameFreak_Text_GraphicArtistPrintDiploma:
 #if GERMAN
 	.string "Ich bin der Grafikdesigner.\p"
-	.string "Oh, du hast deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
+	.string "Oh, du hast deinen Pokédex\n"
 	.string "vervollständigt?\p"
 	.string "Willst du, dass ich dein Diplom\n"
 	.string "ausdrucke?$"

@@ -928,7 +928,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
 #if GERMAN
 	.string "Robopuppe 1 Quiz.\p"
 	.string "Eines dieser Pokémon kann man nicht\n"
-	.string "auf der {COLOR RED}Route 11{COLOR DARK_GRAY}0 finden. Welches?$"
+	.string "auf der Route 110 finden. Welches?$"
 #else
 	.string "MECHADOLL 1 QUIZ.\p"
 	.string "One of these POKéMON is not found\n"

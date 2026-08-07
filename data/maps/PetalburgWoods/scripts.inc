@@ -420,7 +420,7 @@ PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "Dank dir konnte er mir diese\n"
 	.string "wichtigen Papiere nicht rauben.\p"
 	.string "Ich weiß! Ich gebe dir diesen\n"
-	.string "{COLOR RED}Superball{COLOR DARK_GRAY} als Dankeschön!$"
+	.string "Superball als Dankeschön!$"
 #else
 	.string "Whew…\n"
 	.string "That was awfully close!\p"

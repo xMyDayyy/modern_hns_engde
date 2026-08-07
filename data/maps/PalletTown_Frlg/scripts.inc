@@ -459,7 +459,7 @@ PalletTown_Text_OakDontGoOut::
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
 #if GERMAN
-	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Draußen ist es\n"
+	.string "Prof. Eich: Draußen ist es\n"
 	.string "gefährlich! Wilde Pokémon leben im\l"
 	.string "hohen Gras!\p"
 	.string "Du brauchst eigene Pokémon, um\n"
@@ -534,7 +534,7 @@ PalletTown_Text_OakLetMeSeePokedex::
 	.string "Eich: Ah, {PLAYER}!\n"
 	.string "Du bist also zurück?\p"
 	.string "Wie ist es denn um deinen\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} bestellt?\p"
+	.string "Pokédex bestellt?\p"
 	.string "Darf ich ihn sehen?\p"
 	.string "Aha…$"
 #else

@@ -29,7 +29,7 @@ PacifidlogTown_PokemonCenter_1F_EventScript_OldMan::
 
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
 #if GERMAN
-	.string "Welche Farbe hat dein {COLOR RED}Trainerpass{COLOR DARK_GRAY}?\n"
+	.string "Welche Farbe hat dein Trainerpass?\n"
 	.string "Meiner ist kupferrot.$"
 #else
 	.string "What color is your TRAINER CARD?\n"

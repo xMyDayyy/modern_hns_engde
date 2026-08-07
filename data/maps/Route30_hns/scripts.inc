@@ -242,7 +242,7 @@ Route30_Text_BugCatcherDonAfter:
 
 Route30_Text_YoungsterDirectionsToMrPokemon:
 #if GERMAN
-	.string "Das Haus von {COLOR RED}Mr. Pokémon{COLOR DARK_GRAY}\n"
+	.string "Das Haus von Mr. Pokémon\n"
 	.string "ist gleich da vorne!$"
 #else
 	.string "MR. POKéMON's house?\n"
@@ -281,7 +281,7 @@ Route30_Text_Sign:
 
 Route30_Text_MrPokemonsHouseDirectionsSign:
 #if GERMAN
-	.string "Das Haus von {COLOR RED}Mr. Pokémon{COLOR DARK_GRAY}?\n"
+	.string "Das Haus von Mr. Pokémon?\n"
 	.string "Immer geradeaus!$"
 #else
 	.string "MR. POKéMON'S HOUSE\n"
@@ -290,7 +290,7 @@ Route30_Text_MrPokemonsHouseDirectionsSign:
 
 Route30_Text_MrPokemonsHouseSign:
 #if GERMAN
-	.string "Das Haus von {COLOR RED}Mr. Pokémon{COLOR DARK_GRAY}$"
+	.string "Das Haus von Mr. Pokémon$"
 #else
 	.string "MR. POKéMON'S HOUSE$"
 #endif

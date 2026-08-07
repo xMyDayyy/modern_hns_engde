@@ -160,7 +160,7 @@ Route16_Text_HideoDefeat::
 Route16_Text_HideoPostBattle::
 #if GERMAN
 	.string "Man kann über eine Küstenstraße\n"
-	.string "von {COLOR RED}Orania City{COLOR DARK_GRAY} nach {COLOR RED}Fuchsania{COLOR DARK_GRAY}\l"
+	.string "von Orania City nach Fuchsania\l"
 	.string "City gelangen.$"
 #else
 	.string "We'll always be hanging around here\n"

@@ -235,7 +235,7 @@ Route36_Movement_SudoWoodo:
 Route36_Text_UseSquirtbottle:
 #if GERMAN
 	.string "Das ist ein merkwürdiger Baum.\n"
-	.string "Möchtest du die {COLOR RED}Schiggykanne{COLOR DARK_GRAY} benutzen?$"
+	.string "Möchtest du die Schiggykanne benutzen?$"
 #else
 	.string "Use SQUIRTBOTTLE?$"
 #endif
@@ -243,7 +243,7 @@ Route36_Text_UseSquirtbottle:
 Route36_Text_UsedSquirtbottle:
 #if GERMAN
 	.string "{PLAYER} setzt die\n"
-	.string "{COLOR RED}Schiggykanne{COLOR DARK_GRAY} ein!$"
+	.string "Schiggykanne ein!$"
 #else
 	.string "{PLAYER} used the SQUIRTBOTTLE.$"
 #endif
@@ -251,7 +251,7 @@ Route36_Text_UsedSquirtbottle:
 Route36_Text_SudowoodoAttacked:
 #if GERMAN
 	.string "Der merkwürdige Baum krümmt sich unter\n"
-	.string "dem Wasser aus der {COLOR RED}Schiggykanne{COLOR DARK_GRAY}!\p"
+	.string "dem Wasser aus der Schiggykanne!\p"
 	.string "Er greift dich an!$"
 #else
 	.string "The weird tree doesn't like the\n"
@@ -311,7 +311,7 @@ Route36_Text_OddTree:
 Route36_Text_Lass1:
 #if GERMAN
 	.string "Ein merkwürdiger Baum blockiert die\n"
-	.string "Straße nach {COLOR RED}Dukatia City{COLOR DARK_GRAY}.\p"
+	.string "Straße nach Dukatia City.\p"
 	.string "Wegen dieses Baumes kann ich\n"
 	.string "nicht einkaufen gehen.\p"
 	.string "Man sollte etwas dagegen tun.$"

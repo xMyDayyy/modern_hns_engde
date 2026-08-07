@@ -28,7 +28,7 @@ MossdeepCity_House3_EventScript_DeclineSuperRod::
 MossdeepCity_House3_Text_YouWantSuperRod:
 #if GERMAN
 	.string "Hey, du da! Trainer!\n"
-	.string "Eine {COLOR RED}Superangel{COLOR DARK_GRAY} ist wirklich super!\p"
+	.string "Eine Superangel ist wirklich super!\p"
 	.string "Man kann sagen, was man will, aber mit\n"
 	.string "diesem Baby kann man Pokémon vom\l"
 	.string "Meeresboden weg fangen!\p"
@@ -46,7 +46,7 @@ MossdeepCity_House3_Text_YouWantSuperRod:
 MossdeepCity_House3_Text_SuperRodIsSuper:
 #if GERMAN
 	.string "Sicher, sicher!\n"
-	.string "Schließlich ist eine {COLOR RED}Superangel{COLOR DARK_GRAY} super!$"
+	.string "Schließlich ist eine Superangel super!$"
 #else
 	.string "You bet, you bet!\n"
 	.string "After all, a SUPER ROD is really super!$"

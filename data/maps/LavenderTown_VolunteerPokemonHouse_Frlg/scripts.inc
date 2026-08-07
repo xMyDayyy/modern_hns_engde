@@ -149,7 +149,7 @@ LavenderTown_VolunteerPokemonHouse_Text_Psyduck::
 LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis::
 #if GERMAN
 	.string "Mr. Fuji: {PLAYER}!\p"
-	.string "Du kannst deinen {COLOR RED}Pokédex{COLOR DARK_GRAY} nicht\n"
+	.string "Du kannst deinen Pokédex nicht\n"
 	.string "vollenden, wenn du deinen Pokémon\l"
 	.string "nicht genügend Liebe und Respekt\l"
 	.string "entgegenbringst.\p"
@@ -168,7 +168,7 @@ LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis::
 LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
 #if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "eine {COLOR RED}Pokéflöte{COLOR DARK_GRAY}!$"
+	.string "eine Pokéflöte!$"
 #else
 	.string "{PLAYER} received a POKé FLUTE\n"
 	.string "from MR. FUJI.$"
@@ -177,7 +177,7 @@ LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
 LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute::
 #if GERMAN
 	.string "Schlafende Pokémon wachen auf,\n"
-	.string "wenn sie das Spiel der {COLOR RED}Pokéflöte{COLOR DARK_GRAY}\l"
+	.string "wenn sie das Spiel der Pokéflöte\l"
 	.string "hören!\p"
 	.string "Du kannst damit alle schlafenden\n"
 	.string "Pokémon wecken!$"

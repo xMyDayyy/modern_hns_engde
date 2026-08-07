@@ -206,8 +206,8 @@ Route25_Text_Eusine1:
 	.string "keine Chance…\p"
 	.string "… … …\n"
 	.string "Aber keine Sorge, das ist schon gut so.\p"
-	.string "Schon seit wir uns in der {COLOR RED}Turmruine{COLOR DARK_GRAY} von\n"
-	.string "{COLOR RED}Teak City{COLOR DARK_GRAY} zum ersten Mal gesehen\l"
+	.string "Schon seit wir uns in der Turmruine von\n"
+	.string "Teak City zum ersten Mal gesehen\l"
 	.string "haben, wusste ich tief in mir drin, dass\l"
 	.string "Suicune dich auserwählen würde.$"
 #else
@@ -437,10 +437,10 @@ Route25_Text_MistyDate:
 	.string "Wenn du alle acht davon besitzt,\n"
 	.string "musst du ja so einiges drauf haben!\p"
 	.string "Klasse!\n"
-	.string "Komm mal in die Arena von {COLOR RED}Azuria City{COLOR DARK_GRAY}!\l"
+	.string "Komm mal in die Arena von Azuria City!\l"
 	.string "Ich will nämlich gegen dich kämpfen!\p"
 	.string "Ich bin Misty, die Arenaleiterin von\n"
-	.string "{COLOR RED}Azuria City{COLOR DARK_GRAY}!$"
+	.string "Azuria City!$"
 #else
 	.string "MISTY: Aww! Why did you have to\n"
 	.string "show up and bug us now?\p"

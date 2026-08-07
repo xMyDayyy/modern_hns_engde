@@ -219,7 +219,7 @@ MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:
 #if GERMAN
-	.string "{PLAYER} hat {COLOR RED}Tanhel{COLOR DARK_GRAY} erhalten.$"
+	.string "{PLAYER} hat Tanhel erhalten.$"
 #else
 	.string "{PLAYER} obtained a BELDUM.$"
 #endif

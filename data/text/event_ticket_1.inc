@@ -18,7 +18,7 @@ EventTicket_Text_ThatPass:
 #if GERMAN
 	.string "Die Fähre nach Graphitport City ist…\p"
 	.string "Oh!\n"
-	.string "Der {COLOR RED}Fahrschein{COLOR DARK_GRAY}…$"
+	.string "Der Fahrschein…$"
 #else
 	.string "The ferry to SLATEPORT is…\p"
 	.string "Oh?\n"
@@ -27,10 +27,10 @@ EventTicket_Text_ThatPass:
 
 EventTicket_Text_ShowEonTicket:
 #if GERMAN
-	.string "Aye, Maat, hast du den alten {COLOR RED}Fahrschein{COLOR DARK_GRAY}\n"
+	.string "Aye, Maat, hast du den alten Fahrschein\n"
 	.string "mitgebracht?\p"
 	.string "Ich sage dir, du bist auf dem Weg zu\n"
-	.string "einer briefmarkengroßen {COLOR RED}Insel im Süden{COLOR DARK_GRAY}.\p"
+	.string "einer briefmarkengroßen Insel im Süden.\p"
 	.string "Niemand kann sagen, was uns dort er-\n"
 	.string "warten wird, aye. Und das erschüttert\l"
 	.string "meine alten Knochen!\p"

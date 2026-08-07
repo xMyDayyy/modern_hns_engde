@@ -114,7 +114,7 @@ Gate_Route43_Rocket_Text_KickOut:
 Gate_Route43_Rocket_Text_MakingABundle:
 #if GERMAN
 	.string "Hehehe, seitdem das Gerücht kursiert,\n"
-	.string "dass am {COLOR RED}See des Zorns{COLOR DARK_GRAY} irgendwas ganz\l"
+	.string "dass am See des Zorns irgendwas ganz\l"
 	.string "Merkwürdiges im Busch sein soll,\l"
 	.string "strömen die Leute hier in Massen durch!$"
 #else

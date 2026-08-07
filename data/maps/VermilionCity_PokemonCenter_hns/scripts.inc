@@ -39,7 +39,7 @@ VermilionCity_PokemonCenter1F_Text_FishingGuru:
 
 VermilionCity_PokemonCenter1F_Text_FishingGuru_FoughtSnorlax:
 #if GERMAN
-	.string "Vor {COLOR RED}Digdas Höhle{COLOR DARK_GRAY} lag ein\n"
+	.string "Vor Digdas Höhle lag ein\n"
 	.string "schlafendes Pokémon.\p"
 	.string "Aber jetzt scheint\n"
 	.string "es verschwunden zu sein.$"

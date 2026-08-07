@@ -25,7 +25,7 @@ Route9_PokemonCenter_Text_Engineer1:
 
 Route9_PokemonCenter_Text_Engineer2:
 #if GERMAN
-	.string "Das {COLOR RED}Kraftwerk{COLOR DARK_GRAY} ist sehr abgelegen,\n"
+	.string "Das Kraftwerk ist sehr abgelegen,\n"
 	.string "darum reise ich weit für die Arbeit.$"
 #else
 	.string "The POWER PLANT is very remote, so\n"

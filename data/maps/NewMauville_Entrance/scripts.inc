@@ -55,14 +55,14 @@ NewMauville_Entrance_Text_DoorIsLocked:
 
 NewMauville_Entrance_Text_UseBasementKey:
 #if GERMAN
-	.string "Den {COLOR RED}Kelleröffner{COLOR DARK_GRAY} benutzen?$"
+	.string "Den Kelleröffner benutzen?$"
 #else
 	.string "Use the BASEMENT KEY?$"
 #endif
 
 NewMauville_Entrance_Text_UsedBasementKey:
 #if GERMAN
-	.string "{PLAYER} benutzt den {COLOR RED}Kelleröffner{COLOR DARK_GRAY}.\p"
+	.string "{PLAYER} benutzt den Kelleröffner.\p"
 	.string "Die Tür öffnet sich.$"
 #else
 	.string "{PLAYER} used the BASEMENT KEY.\p"

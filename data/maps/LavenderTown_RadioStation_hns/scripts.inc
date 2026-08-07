@@ -93,7 +93,7 @@ LavenderTown_RadioStation_Text_SuperNerd1:
 LavenderTown_RadioStation_Text_Gentleman:
 #if GERMAN
 	.string "Oh nein! Das ist gar nicht gut!\p"
-	.string "Ohne den Strom aus dem {COLOR RED}Kraftwerk{COLOR DARK_GRAY}\n"
+	.string "Ohne den Strom aus dem Kraftwerk\n"
 	.string "können wir nicht auf Sendung gehen!\p"
 	.string "Wenn wir nicht senden können, waren\n"
 	.string "all meine Bemühungen, diesen Sender\l"
@@ -112,7 +112,7 @@ LavenderTown_RadioStation_Text_Gentleman:
 LavenderTown_RadioStation_Text_Gentleman_ReturnedMachinePart:
 #if GERMAN
 	.string "Oh! Du bist also dieser {PLAYER},\n"
-	.string "der das Problem mit dem {COLOR RED}Kraftwerk{COLOR DARK_GRAY}\l"
+	.string "der das Problem mit dem Kraftwerk\l"
 	.string "gelöst hat!\p"
 	.string "Dank dir konnte ich meinen Job behalten.\n"
 	.string "Du hast mir das Leben gerettet!\p"
@@ -131,7 +131,7 @@ LavenderTown_RadioStation_Text_Gentleman_ReturnedMachinePart:
 LavendertownRadioStation_Text_Upgraded_Radio:
 #if GERMAN
 	.string "{PLAYER} erhielt das\n"
-	.string "Radio-{COLOR RED}Up-Grade{COLOR DARK_GRAY}!$"
+	.string "Radio-Up-Grade!$"
 #else
 	.string "{PLAYER} obtained the\n"
 	.string "RADIO UPGRADE!$"
@@ -153,7 +153,7 @@ LavenderTown_RadioStation_Text_SuperNerd2:
 	.string "Hallihallo! Ich bin der Starredakteur\n"
 	.string "unseres Musikprogramms!\p"
 	.string "…Oh, tut mir leid, aber mit deinem\n"
-	.string "{COLOR RED}PokéCom{COLOR DARK_GRAY} kannst du meine Sendung\l"
+	.string "PokéCom kannst du meine Sendung\l"
 	.string "nicht empfangen!\p"
 	.string "Du wirst vorher erst dein Radio mit\n"
 	.string "einem Zusatzset aufrüsten müssen!$"

@@ -27,7 +27,7 @@ CianwoodHouse2_EventScript_Twin::
 
 CianwoodCity_Text_LugiaHouseTeacher:
 #if GERMAN
-	.string "Bist du von {COLOR RED}Oliviana City{COLOR DARK_GRAY} hergekommen?\n"
+	.string "Bist du von Oliviana City hergekommen?\n"
 	.string "Dann hast du bestimmt diese vier Inseln\l"
 	.string "auf dem Weg gesehen, oder?\l"
 	.string "Man erzählt sich, dass dort ein\l"
@@ -43,7 +43,7 @@ CianwoodCity_Text_LugiaHouseTeacher:
 CianwoodCity_Text_LugiaHouseLass:
 #if GERMAN
 	.string "Ich habe gehört, dass man es nur sehen\n"
-	.string "kann, wenn man einen {COLOR RED}Silberflügel{COLOR DARK_GRAY} hat.\p"
+	.string "kann, wenn man einen Silberflügel hat.\p"
 	.string "Er muss bestimmt denselben Geruch wie\n"
 	.string "diese Kreatur ausströmen.$"
 #else

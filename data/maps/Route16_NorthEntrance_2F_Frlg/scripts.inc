@@ -97,7 +97,7 @@ Route16_NorthEntrance_2F_Text_GiveAmuletCoinIfCaught40::
 	.string "Assistent!\p"
 	.string "Wenn du mindestens 40 verschiedene\n"
 	.string "Pokémon gefangen hast, habe ich\l"
-	.string "ein Geschenk für dich: {COLOR RED}Münzamulett{COLOR DARK_GRAY}\p"
+	.string "ein Geschenk für dich: Münzamulett\p"
 	.string "Also, {PLAYER}, hast du 40\n"
 	.string "unterschiedliche Pokémon gefangen?$"
 #else
@@ -137,7 +137,7 @@ Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide::
 
 Route16_NorthEntrance_2F_Text_ExplainAmuletCoin::
 #if GERMAN
-	.string "Ein {COLOR RED}Münzamulett{COLOR DARK_GRAY} kann von\n"
+	.string "Ein Münzamulett kann von\n"
 	.string "einem Pokémon getragen werden.\p"
 	.string "Nimmt das Pokémon an einem\n"
 	.string "siegreichen Kampf teil, verdoppelt\l"

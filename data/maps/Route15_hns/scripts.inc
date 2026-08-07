@@ -210,7 +210,7 @@ Route15_Text_SchoolboyTommyAfterBattle:
 Route15_Text_SchoolboyJohnnySeen:
 #if GERMAN
 	.string "Meine Sozialkundeklasse und ich machen\n"
-	.string "einen Ausflug zum Radioturm in {COLOR RED}Lavandia{COLOR DARK_GRAY}!$"
+	.string "einen Ausflug zum Radioturm in Lavandia!$"
 #else
 	.string "We're on a field trip to LAVENDER\n"
 	.string "RADIO TOWER for social studies.$"

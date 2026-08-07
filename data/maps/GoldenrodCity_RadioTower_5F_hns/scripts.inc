@@ -173,7 +173,7 @@ GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter:
 	.string "Es liegt ganz am Ende des\n"
 	.string "Untergrunds.\p"
 	.string "Ich bin nett und gebe dir den\n"
-	.string "{COLOR RED}Kelleröffner{COLOR DARK_GRAY} für das\l"
+	.string "Kelleröffner für das\l"
 	.string "Untergrund-Lager.\p"
 	.string "Aber ich bezweifle, dass du\n"
 	.string "so weit kommst.$"
@@ -195,7 +195,7 @@ GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter2:
 	.string "Es liegt ganz am Ende des\n"
 	.string "Untergrunds.\p"
 	.string "Ich bin nett und gebe dir den\n"
-	.string "{COLOR RED}Kelleröffner{COLOR DARK_GRAY} für das\l"
+	.string "Kelleröffner für das\l"
 	.string "Untergrund-Lager.\p"
 	.string "Aber ich bezweifle, dass du\n"
 	.string "so weit kommst.$"
@@ -419,7 +419,7 @@ GoldenrodCity_RadioTower_5F_Movement_Leave2:
 GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Seen:
 #if GERMAN
 	.string "Erinnerst du dich an mich aus dem\n"
-	.string "Versteck in {COLOR RED}Mahagonia City{COLOR DARK_GRAY}?\p"
+	.string "Versteck in Mahagonia City?\p"
 	.string "Mein Boss hat mich ausgeschimpft,\n"
 	.string "aber ich bin stärker!\p"
 	.string "Damals verlor ich…\n"
@@ -569,7 +569,7 @@ GoldenrodCity_RadioTower_5F_Text_DirectorClearWingExplanation2:
 	.string "Pokémon in Dukatia City.\p"
 	.string "Vielleicht…\p"
 	.string "Hat sie etwas mit dem Zinnturm\n"
-	.string "in {COLOR RED}Teak City{COLOR DARK_GRAY} zu tun…\p"
+	.string "in Teak City zu tun…\p"
 	.string "Ich gehe nun in mein Büro.$"
 #else
 	.string "There used to be a tower right here\n"
@@ -597,7 +597,7 @@ GoldenrodCity_RadioTower_5F_Text_DirectorTidalWingExplanation:
 	.string "Dukatia City.\p"
 	.string "Vielleicht…\p"
 	.string "Hat sie etwas mit den\n"
-	.string "{COLOR RED}Strudelinseln{COLOR DARK_GRAY} bei {COLOR RED}Anemonia City{COLOR DARK_GRAY} zu tun…\p"
+	.string "Strudelinseln bei Anemonia City zu tun…\p"
 	.string "Ich gehe nun in mein Büro.$"
 #else
 	.string "There used to be a tower right here\n"
@@ -627,7 +627,7 @@ GoldenrodCity_RadioTower_5F_Text_DirectorTidalWingExplanation2:
 	.string "Dukatia City.\p"
 	.string "Vielleicht…\p"
 	.string "Hat sie etwas mit den\n"
-	.string "{COLOR RED}Strudelinseln{COLOR DARK_GRAY} bei {COLOR RED}Anemonia City{COLOR DARK_GRAY} zu tun…\p"
+	.string "Strudelinseln bei Anemonia City zu tun…\p"
 	.string "Ich gehe nun in mein Büro.$"
 #else
 	.string "There used to be a tower right here\n"
@@ -710,7 +710,7 @@ GoldenrodCity_RadioTower_5F_Text_DirectorWest:
 	.string "vorbeifliegen sehen? Die ganze Stadt\p"
 	.string "redet darüber!\p"
 	.string "Es scheint nach Westen zu fliegen,\n"
-	.string "in Richtung {COLOR RED}Route 39{COLOR DARK_GRAY}.$"
+	.string "in Richtung Route 39.$"
 #else
 	.string "DIRECTOR: Hello, {PLAYER}!\p"
 	.string "Did you see the large winged POKéMON\n"

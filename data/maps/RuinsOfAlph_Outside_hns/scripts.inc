@@ -92,7 +92,7 @@ RuinsOfAlph_Outside_EventScript_Sign3::
 RuinsOfAlph_Outside_Text_Scientist:
 #if GERMAN
 	.string "Hm?\n"
-	.string "Oh, ist das etwa ein {COLOR RED}Pokédex{COLOR DARK_GRAY}?\l"
+	.string "Oh, ist das etwa ein Pokédex?\l"
 	.string "Dürfte ich da mal einen Blick reinwerfen?\p"
 	.string "Ist ja ein Ding. \n"
 	.string "So viele unterschiedliche Pokémon…\p"
@@ -103,7 +103,7 @@ RuinsOfAlph_Outside_Text_Scientist:
 	.string "Falls diese Zeichen tatsächlich Pokémon\n"
 	.string "sind, dann gibt es noch viel mehr davon.\p"
 	.string "Ich weiß!\n"
-	.string "Lass mich deinen {COLOR RED}Pokédex{COLOR DARK_GRAY} erweitern.\l"
+	.string "Lass mich deinen Pokédex erweitern.\l"
 	.string "Mir nach!$"
 #else
 	.string "Hm? That's a POKéDEX, isn't it?\n"

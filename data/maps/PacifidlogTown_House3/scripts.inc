@@ -103,7 +103,7 @@ PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
 
 PacifidlogTown_House3_Text_IsThatAPokedex:
 #if GERMAN
-	.string "Ist das ein {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
+	.string "Ist das ein Pokédex?\p"
 	.string "Hast du schon viele verschiedene\n"
 	.string "Pokémon getroffen?\p"
 	.string "Ich wollte, ich wäre wie du.$"

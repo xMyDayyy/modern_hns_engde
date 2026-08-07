@@ -207,7 +207,7 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 	.string "man sagt, er sei der beste Trainer in\l"
 	.string "der Hoenn-Region.\p"
 	.string "Okay! Schau auf deinem\n"
-	.string "{COLOR RED}Trainerpass{COLOR DARK_GRAY} nach.\p"
+	.string "Trainerpass nach.\p"
 	.string "Wenn du alle Orden erhalten hast,\n"
 	.string "kannst du die Pokémon Liga\l"
 	.string "herausfordern!$"

@@ -309,7 +309,7 @@ TwoIsland_Text_BringingItemsFromDistantLands::
 
 TwoIsland_Text_FellowMovedFromCeladonCity::
 #if GERMAN
-	.string "Dieser Mann dort ist von {COLOR RED}Prismania{COLOR DARK_GRAY}\n"
+	.string "Dieser Mann dort ist von Prismania\n"
 	.string "City hergezogen.\p"
 	.string "Er hat mit seinem kleinen Bruder\n"
 	.string "einen Laden aufgemacht.\p"

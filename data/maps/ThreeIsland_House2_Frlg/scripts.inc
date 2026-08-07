@@ -34,7 +34,7 @@ ThreeIsland_House2_Text_CantMakeThisSpoonBend::
 ThreeIsland_House2_Text_IAdmireSabrina::
 #if GERMAN
 	.string "Kennst du ein Mädchen, das in\n"
-	.string "{COLOR RED}Saffronia City{COLOR DARK_GRAY}\l"
+	.string "Saffronia City\l"
 	.string "Arenaleiterin ist?\l"
 	.string "Sie setzt Pokémon der Element-\l"
 	.string "klasse Psycho ein, nicht wahr?\p"

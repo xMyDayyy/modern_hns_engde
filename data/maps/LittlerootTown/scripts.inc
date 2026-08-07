@@ -1141,7 +1141,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "dass du etwas Besonderes bist. Aber\l"
 	.string "das hätte selbst ich nicht erwartet.\p"
 	.string "Ach ja. Du hast doch noch den\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}, den ich dir gegeben habe?\p"
+	.string "Pokédex, den ich dir gegeben habe?\p"
 	.string "Ich will dir etwas zeigen.\n"
 	.string "Lass uns in mein Labor gehen.$"
 #else

@@ -102,7 +102,7 @@ FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
 	.string "das\l"
 	.string "Lagerungs-System benutzt.\p"
 	.string "Wenn du magst, besuche mich doch mal.\n"
-	.string "Ich wohne an der {COLOR RED}Route 11{COLOR DARK_GRAY}4.$"
+	.string "Ich wohne an der Route 114.$"
 #else
 	.string "Oh, hello.\n"
 	.string "You are?\p"

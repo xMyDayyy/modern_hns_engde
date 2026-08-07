@@ -42,7 +42,7 @@ CeladonCity_GameCorner_Text_BigSmileForPhoto::
 CeladonCity_GameCorner_Text_PrintIsReadyCheckTrainerCard::
 #if GERMAN
 	.string "Dein Pokémon-Aufdruck ist fertig!\n"
-	.string "Sieh auf deinen {COLOR RED}Trainerpass{COLOR DARK_GRAY}!$"
+	.string "Sieh auf deinen Trainerpass!$"
 #else
 	.string "Your POKéMON print is ready!\n"
 	.string "Check your TRAINER CARD.$"
@@ -165,7 +165,7 @@ FourIsland_House2_Text_WowHoFHighest::
 FourIsland_House2_Text_HoFStickerApplied::
 #if GERMAN
 	.string "Der Sticker der Ruhmeshalle\n"
-	.string "ist auf deinem {COLOR RED}Trainerpass{COLOR DARK_GRAY}.$"
+	.string "ist auf deinem Trainerpass.$"
 #else
 	.string "The HALL OF FAME STICKER was\n"
 	.string "applied to the TRAINER CARD.$"
@@ -253,7 +253,7 @@ FourIsland_House2_Text_WowEggsHighest::
 FourIsland_House2_Text_EggStickerApplied::
 #if GERMAN
 	.string "Der Eier-Sticker ist auf\n"
-	.string "deinem {COLOR RED}Trainerpass{COLOR DARK_GRAY}.$"
+	.string "deinem Trainerpass.$"
 #else
 	.string "The EGG STICKER was applied\n"
 	.string "to the TRAINER CARD.$"
@@ -341,7 +341,7 @@ FourIsland_House2_Text_WowLinkWinsHighest::
 FourIsland_House2_Text_VictoryStickerApplied::
 #if GERMAN
 	.string "Der Siegessticker ist auf\n"
-	.string "dem {COLOR RED}Trainerpass{COLOR DARK_GRAY}.$"
+	.string "dem Trainerpass.$"
 #else
 	.string "The VICTORY STICKER was applied\n"
 	.string "to the TRAINER CARD.$"

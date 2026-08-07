@@ -8,7 +8,7 @@ UndergroundPath_EastEntrance_EventScript_Woman::
 UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore::
 #if GERMAN
 	.string "Das große Einkaufszentrum in\n"
-	.string "{COLOR RED}Prismania City{COLOR DARK_GRAY} hat eine riesige\l"
+	.string "Prismania City hat eine riesige\l"
 	.string "Auswahl!$"
 #else
 	.string "The DEPARTMENT STORE in CELADON\n"

@@ -37,7 +37,7 @@ Route2_House_Text_Fisher:
 
 Route2_House_Text_Fisher_GotNugget:
 #if GERMAN
-	.string "Das ist ein {COLOR RED}Nugget{COLOR DARK_GRAY}.\n"
+	.string "Das ist ein Nugget.\n"
 	.string "Ich kann dir keine weisen Ratschläge\l"
 	.string "mitgeben, das hier muss ausreichen!$"
 #else

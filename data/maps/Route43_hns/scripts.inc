@@ -254,7 +254,7 @@ Route43_Text_CamperSpencerBeaten:
 
 Route43_Text_CamperSpencerAfter:
 #if GERMAN
-	.string "Was geht da vor sich am {COLOR RED}See des Zorns{COLOR DARK_GRAY}?\n"
+	.string "Was geht da vor sich am See des Zorns?\n"
 	.string "Wir wollten eigentlich dort zelten.$"
 #else
     .string "What is going on at LAKE OF RAGE?\p"
@@ -263,7 +263,7 @@ Route43_Text_CamperSpencerAfter:
 
 Route43_Text_PicnickerTiffanySeen:
 #if GERMAN
-	.string "Gehst du auch zum {COLOR RED}See des Zorns{COLOR DARK_GRAY}? Lust\n"
+	.string "Gehst du auch zum See des Zorns? Lust\n"
 	.string "auf ein kleines Spielchen?$"
 #else
     .string "Are you going to LAKE OF RAGE too?\p"
@@ -297,7 +297,7 @@ Route43_Text_TiffanyRegister:
 
 Route43_Text_TiffanyRematchIntro:
 #if GERMAN
-	.string "Gehst du auch zum {COLOR RED}See des Zorns{COLOR DARK_GRAY}? Lust\n"
+	.string "Gehst du auch zum See des Zorns? Lust\n"
 	.string "auf ein kleines Spielchen?$"
 #else
     .string "Are you going to LAKE OF RAGE too?\p"
@@ -323,7 +323,7 @@ Route43_Text_TiffanyPostRematch:
 Route43_Sign1:
 #if GERMAN
 	.string "Route 43\p"
-	.string "{COLOR RED}See des Zorns{COLOR DARK_GRAY} - {COLOR RED}Mahagonia{COLOR DARK_GRAY}$"
+	.string "See des Zorns - Mahagonia$"
 #else
     .string "ROUTE 43\p"
     .string "LAKE OF RAGE - MAHOGANY TOWN$"

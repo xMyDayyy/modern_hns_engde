@@ -24,7 +24,7 @@ DragonsDen_Text_Clair:
 	.string "{PLAYER}… du bist also hier.\p"
 	.string "Wenn du denkst, dass du mit mir\n"
 	.string "mithalten kannst, komm zum\l"
-	.string "Kampf-Dojo in {COLOR RED}Saffronia City{COLOR DARK_GRAY}.$"
+	.string "Kampf-Dojo in Saffronia City.$"
 #else
     .string "{PLAYER}… So you're here.\p"
 	.string "If you think you can keep up,\n"
@@ -175,7 +175,7 @@ DragonsDen_Cavern_Text_ClairWhatsTheMatter:
 	.string "noch einmal herausfordern.\p"
 	.string "Geh zur Pokémon-Liga.\p"
 	.string "Weißt du, wie du dorthin kommst?\p"
-	.string "Von hier aus nach {COLOR RED}Neuborkia{COLOR DARK_GRAY}.\p"
+	.string "Von hier aus nach Neuborkia.\p"
 	.string "Dann nach Osten surfen zur\n"
 	.string "Pokémon-Liga.\p"
 	.string "Der Weg dorthin ist sehr hart.\p"
@@ -362,7 +362,7 @@ DragonsDen_Cavern_Text_TwinsLeaandPia1Beaten:
 DragonsDen_Cavern_Text_TwinsLeaandPia1After:
 #if GERMAN
 	.string "Jana: Es kam mir vor, als würde ich gegen\n"
-	.string "{COLOR RED}Siegfried{COLOR DARK_GRAY} kämpfen.$"
+	.string "Siegfried kämpfen.$"
 #else
     .string "It was like having to battle\n"
     .string "LANCE.$"

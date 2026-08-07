@@ -9,7 +9,7 @@ SafronMart_EventScript_CooltrainerF::
 	end
 SaffronMart_Text_CooltrainerM:
 #if GERMAN
-	.string "In {COLOR RED}Lavandia{COLOR DARK_GRAY} ist ein großer Radioturm.$"
+	.string "In Lavandia ist ein großer Radioturm.$"
 #else
 	.string "There's a big RADIO TOWER in\n"
 	.string "LAVENDER.$"

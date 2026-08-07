@@ -244,7 +244,7 @@ RadioTower1F_Text_QuizQuestion2:
 RadioTower1F_Text_QuizQuestion3:
 #if GERMAN
 	.string "Volltreffer! Frage 3:\p"
-	.string "Benutzt {COLOR RED}Kurt{COLOR DARK_GRAY}, der Pokéball-\n"
+	.string "Benutzt Kurt, der Pokéball-\n"
 	.string "Erbauer, Aprikoko als Zutaten?$"
 #else
     .string "Bull's-eye!\n"
@@ -258,7 +258,7 @@ RadioTower1F_Text_QuizQuestion4:
 	.string "Bis hierher gut!\n"
 	.string "Frage 4:\p"
 	.string "Ist Falk der Leiter von\n"
-	.string "{COLOR RED}Viola City{COLOR DARK_GRAY}, der Vogel-Pokémon nutzt?$"
+	.string "Viola City, der Vogel-Pokémon nutzt?$"
 #else
     .string "So far so good!\n"
     .string "Question 4:\p"
@@ -292,7 +292,7 @@ RadioTower1F_Text_QuizWin:
 
 RadioTower1F_Text_PokegearRadio:
 #if GERMAN
-	.string "{PLAYER}s {COLOR RED}PokéCom{COLOR DARK_GRAY}\n"
+	.string "{PLAYER}s PokéCom\n"
 	.string "kann jetzt Radio empfangen!$"
 #else
     .string "{PLAYER}'s POKéGEAR can now double as\n"

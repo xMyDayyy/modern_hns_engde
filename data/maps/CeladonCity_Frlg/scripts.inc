@@ -105,7 +105,7 @@ CeladonCity_EventScript_GameCornerSign::
 CeladonCity_Text_GotMyKoffingInCinnabar::
 #if GERMAN
 	.string "Ich habe Smogon auf der\n"
-	.string "{COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} gefangen!\p"
+	.string "Zinnoberinsel gefangen!\p"
 	.string "Es ist nett, doch wenn man es\n"
 	.string "ärgert, atmet es Gift aus!$"
 #else
@@ -343,7 +343,7 @@ Text_SoftboiledTaught::
 CeladonCity_Text_SomeoneStoleSilphScope::
 #if GERMAN
 	.string "Oh, was soll ich tun…\p"
-	.string "Jemand hat unser {COLOR RED}Silph Scope{COLOR DARK_GRAY}\n"
+	.string "Jemand hat unser Silph Scope\n"
 	.string "gestohlen.\p"
 	.string "Der Dieb kam aus dieser Richtung.\n"
 	.string "Da bin ich mir sicher.\p"

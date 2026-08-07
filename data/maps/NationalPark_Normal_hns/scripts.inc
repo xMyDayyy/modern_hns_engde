@@ -70,7 +70,7 @@ NationalPark_Normal_Text_Lass:
 #if GERMAN
 	.string "Sieh dir meine Tasche an!\p"
 	.string "Ich habe meine Lieblinge aus dem\p"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} gedruckt\n"
+	.string "Pokédex gedruckt\n"
 	.string "und auf meine Tasche geklebt.$"
 #else
 	.string "Look! Check out my bag!\p"

@@ -28,7 +28,7 @@ PewterCity_Mart_Text_SuperNerd:
 	.string "komischen, alten Mann, der Karpador\l"
 	.string "verkaufte.\p"
 	.string "Er sagte immer, die Karpador im\n"
-	.string "{COLOR RED}See des Zorns{COLOR DARK_GRAY} seien außergewöhnlich.$"
+	.string "See des Zorns seien außergewöhnlich.$"
 #else
 	.string "There once was a weird old man who sold\n"
 	.string "MAGIKARP.\p"

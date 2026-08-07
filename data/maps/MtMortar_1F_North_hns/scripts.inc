@@ -98,7 +98,7 @@ MountMortar2_Text_SupernerdMarkusBeaten:
 
 MountMortar2_Text_SupernerdMarkusAfter:
 #if GERMAN
-	.string "Ich wollte den {COLOR RED}Silberberg{COLOR DARK_GRAY}\n"
+	.string "Ich wollte den Silberberg\n"
 	.string "erkunden, aber wurde von\l"
 	.string "meinem Partner getrennt…\p"
 	.string "Bist du einem Trainer begegnet,\n"

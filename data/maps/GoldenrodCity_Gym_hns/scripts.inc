@@ -389,7 +389,7 @@ GoldenrodCity_Gym_Text_GymGuide:
 	.string "Einige Pokémon hier haben zudem\n"
 	.string "den neu entdeckten Typ Fee.\p"
 	.string "Brauchst du ein Kampf- oder\n"
-	.string "Gift-Pokémon, sieh auf {COLOR RED}Route 34{COLOR DARK_GRAY} nach.$"
+	.string "Gift-Pokémon, sieh auf Route 34 nach.$"
 #else
     .string "Yo! CHAMP in making!\p"
     .string "This GYM is home to WHITNEY, the\n"

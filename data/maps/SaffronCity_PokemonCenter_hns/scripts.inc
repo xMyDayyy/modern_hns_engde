@@ -42,9 +42,9 @@ SaffronCity_PokemonCenter1F_Text_Teacher:
 
 SaffronCity_PokemonCenter1F_Text_Fisher:
 #if GERMAN
-	.string "Ich bin gerade durch den {COLOR RED}Felstunnel{COLOR DARK_GRAY}\n"
+	.string "Ich bin gerade durch den Felstunnel\n"
 	.string "gekommen. In der Umgebung vom\l"
-	.string "{COLOR RED}Kraftwerk{COLOR DARK_GRAY} war irgendetwas im Gange…$"
+	.string "Kraftwerk war irgendetwas im Gange…$"
 #else
 	.string "I just happened to come through\n"
 	.string "ROCK TUNNEL.\p"
@@ -57,7 +57,7 @@ SaffronCity_PokemonCenter1F_Text_Fisher_ReturnedPart:
 	.string "Die Höhlen stürzen leicht ein.\p"
 	.string "In letzter Zeit sind einige Höhlen\n"
 	.string "verschwunden. Wie\l"
-	.string "die Höhle vor {COLOR RED}Azuria City{COLOR DARK_GRAY}.\p"
+	.string "die Höhle vor Azuria City.\p"
 	.string "Für einen Profi-\n"
 	.string "Wanderer ist das Grundwissen.$"
 #else

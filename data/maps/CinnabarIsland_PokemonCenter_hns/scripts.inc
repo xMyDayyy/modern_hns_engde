@@ -18,7 +18,7 @@ CinnabarIsland_PokemonCenter1F_Text_CooltrainerF:
 #if GERMAN
 	.string "Der Arenaleiter der Zinnoberinsel\n"
 	.string "Pyro lebt angeblich alleine auf den\l"
-	.string "{COLOR RED}Seeschauminseln{COLOR DARK_GRAY} in einer Höhle…$"
+	.string "Seeschauminseln in einer Höhle…$"
 #else
 	.string "CINNABAR GYM's BLAINE apparently\n"
 	.string "lives alone in the SEAFOAM ISLANDS\l"

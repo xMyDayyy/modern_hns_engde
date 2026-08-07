@@ -150,24 +150,24 @@ Route39_Text_BaobaIntro::
 #if GERMAN
 	.string "Baoba: …Sehe ich richtig?\n"
 	.string "Dieses Ding, das du da bei dir trägst,\l"
-	.string "ist doch ein {COLOR RED}Pokédex{COLOR DARK_GRAY}, oder?\p"
+	.string "ist doch ein Pokédex, oder?\p"
 	.string "Ach ja, da werden Erinnerungen wach!\p"
 	.string "Mein Name ist Baoba!\p"
 	.string "Bis vor Kurzem habe ich noch die Safari\n"
-	.string "in {COLOR RED}Fuchsania City{COLOR DARK_GRAY} geleitet. Aber es\l"
+	.string "in Fuchsania City geleitet. Aber es\l"
 	.string "tauchten immer neue Parks auf und \l"
-	.string "irgendwann blieb meine {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\l"
+	.string "irgendwann blieb meine Safari-Zone\l"
 	.string "hinter der Konkurrenz zurück.\p"
 	.string "Also ergriff ich die Initiative!\n"
 	.string "Ich eignete mir im Ausland einige\l"
 	.string "neue Kniffe an und entschied mich,\l"
-	.string "in {COLOR RED}Anemonia City{COLOR DARK_GRAY} eine neue Safari\l"
+	.string "in Anemonia City eine neue Safari\l"
 	.string "zu eröffnen!\p"
 	.string "Dass wir zwei uns hier kennenlernen,\n"
 	.string "ist bestimmt Schicksal!\p"
 	.string "Wenn das mal kein guter Grund dafür ist,\n"
 	.string "Telefonnummern auszutauschen, was?\p"
-	.string "Wenn die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} eröffnet wird,\n"
+	.string "Wenn die Safari-Zone eröffnet wird,\n"
 	.string "bist du der Erste, der davon erfährt!$"
 #else
 	.string "How strange...\p"
@@ -196,7 +196,7 @@ Route39_Text_BaobaIntro::
 Route39_Text_Registered:
 #if GERMAN
 	.string "{PLAYER} hat Baobas Nummer\n"
-	.string "im {COLOR RED}PokéCom{COLOR DARK_GRAY} registriert!$"
+	.string "im PokéCom registriert!$"
 #else
 	.string "{PLAYER} registered BAOBA\n"
 	.string "in the POKéGEAR!$"
@@ -206,7 +206,7 @@ Route39_Text_Registered:
 Route39_Text_WillCall:
 #if GERMAN
 	.string "Baoba: Ich gebe dir demnächst\n"
-	.string "auf dem {COLOR RED}PokéCom{COLOR DARK_GRAY} Bescheid!$"
+	.string "auf dem PokéCom Bescheid!$"
 #else
 	.string "BAOBA: I'll let you know\n"
 	.string "on the POKéGEAR soon!$"
@@ -292,7 +292,7 @@ Route39_EventScript_Eugene::
 
 Route39_Text_SailorEugeneSeen:
 #if GERMAN
-	.string "Ich war lange nicht in {COLOR RED}Oliviana City{COLOR DARK_GRAY}.\n"
+	.string "Ich war lange nicht in Oliviana City.\n"
 	.string "Wie steht es mit dem Pokémon-Kampf?$"
 #else
 	.string "I just got back to OLIVINE.\p"
@@ -540,7 +540,7 @@ Route39_Text_DerekRegister:
 
 Route39_Text_DerekHasItem:
 #if GERMAN
-	.string "Hey! Ich habe mein {COLOR RED}Pikachu{COLOR DARK_GRAY}\n"
+	.string "Hey! Ich habe mein Pikachu\n"
 	.string "herumgezeigt und dabei etwas\l"
 	.string "gefunden.\p"
 	.string "Hier, du kannst es haben!$"
@@ -552,7 +552,7 @@ Route39_Text_DerekHasItem:
 
 Route39_Text_DerekGaveItem:
 #if GERMAN
-	.string "{COLOR RED}Pikachu{COLOR DARK_GRAY} ist einfach das Beste!\n"
+	.string "Pikachu ist einfach das Beste!\n"
 	.string "Findest du nicht auch?$"
 #else
 	.string "PIKACHU is it!\n"

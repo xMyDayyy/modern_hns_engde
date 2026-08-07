@@ -145,7 +145,7 @@ PokemonFanClub_Text_Chairman_Gift:
 
 PokemonFanClub_Text_Chairman_Candy:
 #if GERMAN
-	.string "Dieses {COLOR RED}Sonderbonbon{COLOR DARK_GRAY} macht\n"
+	.string "Dieses Sonderbonbon macht\n"
 	.string "schlaffe Pokémon fit!\p"
 	.string "Aber meine Pokémon sollen lieber\n"
 	.string "durch Kämpfe stark werden.\p"
@@ -224,10 +224,10 @@ PokemonFanClub_Text_ClefairyGuy_ReturnDoll:
 	.string "Ach so, jetzt verstehe ich.\n"
 	.string "Das Mädchen, das diese Puppe\l"
 	.string "verloren hat, ist traurig…\p"
-	.string "Gut. Bringst du die {COLOR RED}Piepi{COLOR DARK_GRAY}-Puppe\n"
+	.string "Gut. Bringst du die Piepi-Puppe\n"
 	.string "zu der armen Kleinen zurück?\p"
 	.string "Ich freunde mich eines Tages\n"
-	.string "mit einem echten {COLOR RED}Piepi{COLOR DARK_GRAY} an.\l"
+	.string "mit einem echten Piepi an.\l"
 	.string "Keine Sorge!$"
 #else
 	.string "Oh, I see now. The girl who lost\n"
@@ -240,7 +240,7 @@ PokemonFanClub_Text_ClefairyGuy_ReturnDoll:
 
 PokemonFanClub_Text_ClefairyGuy_GoingToGetOne:
 #if GERMAN
-	.string "Irgendwann finde ich ein echtes {COLOR RED}Piepi{COLOR DARK_GRAY}\n"
+	.string "Irgendwann finde ich ein echtes Piepi\n"
 	.string "als Freund! Du wirst schon sehen!$"
 #else
 	.string "You watch. I'm going to get a\n"

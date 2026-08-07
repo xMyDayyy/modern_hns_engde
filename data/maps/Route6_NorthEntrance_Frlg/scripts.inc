@@ -112,7 +112,7 @@ Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards::
 	.string "Gluck, gluck…\l"
 	.string "……\l"
 	.string "Schluck…\l"
-	.string "Falls du nach {COLOR RED}Saffronia City{COLOR DARK_GRAY}\l"
+	.string "Falls du nach Saffronia City\l"
 	.string "möchtest…\l"
 	.string "……\l"
 	.string "Dann darfst du passieren.\p"

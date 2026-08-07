@@ -57,7 +57,7 @@ Route20_Text_BarryPostBattle::
 
 Route20_Text_ShirleyIntro::
 #if GERMAN
-	.string "Die {COLOR RED}Seeschauminseln{COLOR DARK_GRAY} sind ein\n"
+	.string "Die Seeschauminseln sind ein\n"
 	.string "stiller Zufluchtsort!$"
 #else
 	.string "SEAFOAM is a quiet getaway.\n"
@@ -120,7 +120,7 @@ Route20_Text_IreneDefeat::
 
 Route20_Text_IrenePostBattle::
 #if GERMAN
-	.string "Die {COLOR RED}Seeschauminseln{COLOR DARK_GRAY} waren einmal\n"
+	.string "Die Seeschauminseln waren einmal\n"
 	.string "Eine große Insel!$"
 #else
 	.string "SEAFOAM used to be a single island\n"
@@ -228,7 +228,7 @@ Route20_Text_NoraPostBattle::
 
 Route20_Text_MissyIntro::
 #if GERMAN
-	.string "Ich bin von der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY}\n"
+	.string "Ich bin von der Zinnoberinsel\n"
 	.string "herübergeschwommen!$"
 #else
 	.string "I swam here from CINNABAR ISLAND.\n"
@@ -244,7 +244,7 @@ Route20_Text_MissyDefeat::
 
 Route20_Text_MissyPostBattle::
 #if GERMAN
-	.string "Auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} haben\n"
+	.string "Auf der Zinnoberinsel haben\n"
 	.string "Pokémon eine verlassene Villa\l"
 	.string "besiedelt!$"
 #else
@@ -256,7 +256,7 @@ Route20_Text_MissyPostBattle::
 
 Route20_Text_MelissaIntro::
 #if GERMAN
-	.string "Auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} befindet\n"
+	.string "Auf der Zinnoberinsel befindet\n"
 	.string "sich ein Pokémon-Labor.$"
 #else
 	.string "CINNABAR, in the west, has a LAB\n"
@@ -274,7 +274,7 @@ Route20_Text_MelissaDefeat::
 
 Route20_Text_MelissaPostBattle::
 #if GERMAN
-	.string "Die {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} ist ein\n"
+	.string "Die Zinnoberinsel ist ein\n"
 	.string "vulkanisches Eiland!$"
 #else
 	.string "CINNABAR is a volcanic island.\p"
@@ -294,7 +294,7 @@ Route20_Text_MistyTrainsHere::
 	.string "Starke Trainer und Wasser-\n"
 	.string "Pokémon sind hier weit verbreitet.\p"
 	.string "Man sagt, dass Misty aus der\n"
-	.string "Arena von {COLOR RED}Azuria City{COLOR DARK_GRAY}\l"
+	.string "Arena von Azuria City\l"
 	.string "hier häufig trainiert.$"
 #else
 	.string "Strong TRAINERS and WATER POKéMON\n"

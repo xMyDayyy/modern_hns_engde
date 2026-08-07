@@ -158,7 +158,7 @@ Route49_Text_KimonoGirl:
 	.string "Du…\p"
 	.string "Du musst {PLAYER} sein, richtig?\n"
 	.string "Ich habe von meinen Cousinen in\l"
-	.string "{COLOR RED}Teak City{COLOR DARK_GRAY} alles über dich und\l"
+	.string "Teak City alles über dich und\l"
 	.string "deine Taten gehört.\p"
 	.string "Meine Schwestern möchten dich\n"
 	.string "treffen.\p"

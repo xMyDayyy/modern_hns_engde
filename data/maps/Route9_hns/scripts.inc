@@ -48,7 +48,7 @@ Route9_EventScript_Item_Flash_Cannon::
 Route9_Text_CamperDeanSeen:
 #if GERMAN
 	.string "Ich bin hier, um den\n"
-	.string "{COLOR RED}Felstunnel{COLOR DARK_GRAY} zu erforschen.$"
+	.string "Felstunnel zu erforschen.$"
 #else
 	.string "I came to explore ROCK TUNNEL.$"
 #endif
@@ -63,7 +63,7 @@ Route9_Text_CamperDeanBeaten:
 Route9_Text_CamperDeanAfter:
 #if GERMAN
 	.string "Mein Pokémon-Team wurde verletzt,\n"
-	.string "bevor ich den {COLOR RED}Felstunnel{COLOR DARK_GRAY} erreicht habe.\l"
+	.string "bevor ich den Felstunnel erreicht habe.\l"
 	.string "Jetzt aber schnell ins Pokémon-Center.$"
 #else
 	.string "My POKéMON were hurt before even\n"
@@ -152,9 +152,9 @@ Route9_Text_PicnickerEdnaAfter:
 
 Route9_Text_HikerTimSeen:
 #if GERMAN
-	.string "Sie wird beim {COLOR RED}Silberberg{COLOR DARK_GRAY} sein,\n"
+	.string "Sie wird beim Silberberg sein,\n"
 	.string "wenn sie kommt…\p"
-	.string "{COLOR RED}Silberberg{COLOR DARK_GRAY} ist in Johto, richtig?$"
+	.string "Silberberg ist in Johto, richtig?$"
 #else
 	.string "She'll be coming 'round MT.SILVER\n"
 	.string "when she comes…\p"
@@ -196,7 +196,7 @@ Route9_Text_HikerSidneyBeaten:
 Route9_Text_HikerSidneyAfter:
 #if GERMAN
 	.string "Jenseits dieses Flüssleins\n"
-	.string "liegt ein gigantisches {COLOR RED}Kraftwerk{COLOR DARK_GRAY}!$"
+	.string "liegt ein gigantisches Kraftwerk!$"
 #else
 	.string "The POWER PLANT is across a small\n"
 	.string "river.$"

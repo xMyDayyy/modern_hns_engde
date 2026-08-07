@@ -36,7 +36,7 @@ SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll:
 	.string "Hallo! Du bist nach langer Zeit der\n"
 	.string "erste Gast, den ich begrüße.\p"
 	.string "Du hast mir den Tag gerettet, daher\n"
-	.string "möchte ich dir diese {COLOR RED}Wailmer{COLOR DARK_GRAY}-Puppe\l"
+	.string "möchte ich dir diese Wailmer-Puppe\l"
 	.string "schenken.$"
 #else
 	.string "Hello! You're our first guest in\n"

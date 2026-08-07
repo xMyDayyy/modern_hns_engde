@@ -466,7 +466,7 @@ SilphCo_7F_Text_RivalIntro::
 	.string "würdest hier vorbeikommen!\p"
 	.string "Ich schätze, das Team Rocket hat\n"
 	.string "dir ganz schön zugesetzt!\p"
-	.string "Ich hab dich in {COLOR RED}Saffronia City{COLOR DARK_GRAY}\n"
+	.string "Ich hab dich in Saffronia City\n"
 	.string "gesehen und mich gefragt, ob du\l"
 	.string "seitdem besser geworden bist!$"
 #else
@@ -493,7 +493,7 @@ SilphCo_7F_Text_RivalPostBattle::
 #if GERMAN
 	.string "Also, {PLAYER}!\n"
 	.string "Ich ziehe dann weiter!\p"
-	.string "Wenn ich in den {COLOR RED}Pokédex{COLOR DARK_GRAY} sehe,\n"
+	.string "Wenn ich in den Pokédex sehe,\n"
 	.string "erkenne ich, wie stark die Pokémon\l"
 	.string "sind und wie sie sich entwickeln!\p"
 	.string "Ich werde zur Pokémon Liga gehen.\n"

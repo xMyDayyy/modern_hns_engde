@@ -721,7 +721,7 @@ IlexForest_Text_CharcoalMasterOutro:
 #if GERMAN
 	.string "Das ist die VM Zerschneider!\n"
 	.string "Besitzt du den Orden aus der Arena von\l"
-	.string "{COLOR RED}Azalea City{COLOR DARK_GRAY}, kann ein Pokémon deiner\l"
+	.string "Azalea City, kann ein Pokémon deiner\l"
 	.string "Wahl damit kleinere Bäume fällen!\p"
 	.string "Aaaber!\p"
 	.string "Hat ein Pokémon diese VM einmal\n"
@@ -873,7 +873,7 @@ IlexForest_Text_Kimono_Girl2:
 #if GERMAN
 	.string "Was sagt Ihr da? Ihr wollt mich\n"
 	.string "schon einmal gesehen haben?\l"
-	.string "In {COLOR RED}Viola City{COLOR DARK_GRAY}?\l"
+	.string "In Viola City?\l"
 	.string "Gewiss täuscht Ihr Euch!\p"
 	.string "Aber wärt Ihr unter Umständen\n"
 	.string "so freundlich, meiner Wenigkeit den\l"

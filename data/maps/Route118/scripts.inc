@@ -298,7 +298,7 @@ Route118_Text_IdenticalMindsTakeThis:
 #if GERMAN
 	.string "Hmm!\n"
 	.string "Da sind wir ja der gleichen Meinung!\p"
-	.string "Hmm! Ich schenke dir diese {COLOR RED}Profiangel{COLOR DARK_GRAY}!$"
+	.string "Hmm! Ich schenke dir diese Profiangel!$"
 #else
 	.string "Hmm!\n"
 	.string "We're of identical minds!\p"

@@ -349,21 +349,21 @@ Alola_Poni_Totem_sign_Text_0:
 
 Alola_Poni_Totem_sign_Text_1:
 #if GERMAN
-	.string "{COLOR RED}Mele-Mele{COLOR DARK_GRAY}$"
+	.string "Mele-Mele$"
 #else
 	.string "Melemele Isle$"
 #endif
 
 Alola_Poni_Totem_sign_Text_2:
 #if GERMAN
-	.string "{COLOR RED}Akala{COLOR DARK_GRAY}$"
+	.string "Akala$"
 #else
 	.string "Akala Isle$"
 #endif
 
 Alola_Poni_Totem_sign_Text_3:
 #if GERMAN
-	.string "{COLOR RED}Ula-Ula{COLOR DARK_GRAY}$"
+	.string "Ula-Ula$"
 #else
 	.string "Ula'ula Isle$"
 #endif

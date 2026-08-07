@@ -233,7 +233,7 @@ FuchsiaCity_SafariZoneEntrance_Movement_ReturnToTable:
 FuchsiaCity_SafariZoneEntrance_Text_StevenWelcome:
 #if GERMAN
 	.string "Ich heiße Troy. Meine Familie\n"
-	.string "hat kürzlich diese {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\l"
+	.string "hat kürzlich diese Safari-Zone\l"
 	.string "gekauft und viele Verbesserungen\l"
 	.string "vorgenommen.\p"
 	.string "Hier findest du sehr exotische\n"
@@ -377,7 +377,7 @@ FuchsiaCity_SafariZoneEntrance_Text_UpgradeGuyDeclined:
 
 FuchsiaCity_SafariZoneEntrance_Text_UpgradeGuyAccepted:
 #if GERMAN
-	.string "Genieße die Premium-{COLOR RED}Safari-Zone{COLOR DARK_GRAY}!$"
+	.string "Genieße die Premium-Safari-Zone!$"
 #else
 	.string "Enjoy the premium SAFARI ZONE\n"
 	.string "experience!$"
@@ -473,7 +473,7 @@ FuchsiaCity_SafariZoneEntrance_Text_MaxLevel:
 #if GERMAN
 	.string "Hallo {PLAYER}, danke, dass du\n"
 	.string "weiterhin Premium-Mitglied der\l"
-	.string "Fuchsania City {COLOR RED}Safari-Zone{COLOR DARK_GRAY} bist.$"
+	.string "Fuchsania City Safari-Zone bist.$"
 #else
 	.string "Hello {PLAYER}, thank you for\n"
 	.string "continuing to be a premium member\l"

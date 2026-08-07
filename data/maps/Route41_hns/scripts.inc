@@ -67,8 +67,8 @@ Route41_Text_SwimmermGeorgeBeaten:
 
 Route41_Text_SwimmermGeorgeAfter:
 #if GERMAN
-	.string "{COLOR RED}Anemonia City{COLOR DARK_GRAY} ist noch so weit weg. Aber\n"
-	.string "der Rückweg nach {COLOR RED}Oliviana City{COLOR DARK_GRAY} ist auch\l"
+	.string "Anemonia City ist noch so weit weg. Aber\n"
+	.string "der Rückweg nach Oliviana City ist auch\l"
 	.string "nicht viel kürzer… was soll ich tun?$"
 #else
 	.string "It's so far to CIANWOOD.\p"
@@ -155,7 +155,7 @@ Route41_EventScript_Mathew::
 Route41_Text_SwimmermMathewSeen:
 #if GERMAN
 	.string "Versuchst du auch, die Geheimnisse\n"
-	.string "der {COLOR RED}Strudelinseln{COLOR DARK_GRAY} zu ergründen?$"
+	.string "der Strudelinseln zu ergründen?$"
 #else
 	.string "Are you seeking the secrets\n"
 	.string "of WHIRL ISLANDS?$"
@@ -171,7 +171,7 @@ Route41_Text_SwimmermMathewBeaten:
 
 Route41_Text_SwimmermMathewAfter:
 #if GERMAN
-	.string "Ein Geheimnis über die {COLOR RED}Strudelinseln{COLOR DARK_GRAY}…\n"
+	.string "Ein Geheimnis über die Strudelinseln…\n"
 	.string "drinnen ist es Stockfinster!$"
 #else
 	.string "A secret about WHIRL ISLANDS…\p"
@@ -186,7 +186,7 @@ Route41_EventScript_Kaylee::
 Route41_Text_SwimmerfKayleeSeen:
 #if GERMAN
 	.string "Meine Freunde und ich sind unterwegs zu\n"
-	.string "den {COLOR RED}Strudelinseln{COLOR DARK_GRAY}, auf Erkundungstour.$"
+	.string "den Strudelinseln, auf Erkundungstour.$"
 #else
 	.string "I'm on my way to WHIRL ISLANDS.\p"
 	.string "I'm going exploring with friends.$"
@@ -201,7 +201,7 @@ Route41_Text_SwimmerfKayleeBeaten:
 
 Route41_Text_SwimmerfKayleeAfter:
 #if GERMAN
-	.string "Tief im Inneren der {COLOR RED}Strudelinseln{COLOR DARK_GRAY}\n"
+	.string "Tief im Inneren der Strudelinseln\n"
 	.string "soll ein riesiges Pokémon hausen.\l"
 	.string "Was für ein Pokémon das wohl ist?$"
 #else
@@ -301,7 +301,7 @@ Route41_Text_SwimmerfKaraBeaten:
 Route41_Text_SwimmerfKaraAfter:
 #if GERMAN
 	.string "Ich habe tief aus dem Inneren der\n"
-	.string "{COLOR RED}Strudelinseln{COLOR DARK_GRAY} ein Brüllen gehört.$"
+	.string "Strudelinseln ein Brüllen gehört.$"
 #else
 	.string "I heard roars from deep inside\n"
 	.string "the ISLANDS.$"
@@ -316,7 +316,7 @@ Route41_Text_SwimmerfWendySeen:
 #if GERMAN
 	.string "Wenn es Nacht wird, sammeln sich\n"
 	.string "Schwärme von Sterndu\l"
-	.string "nahe der Küste von {COLOR RED}Oliviana City{COLOR DARK_GRAY}.$"
+	.string "nahe der Küste von Oliviana City.$"
 #else
 	.string "At night, STARYU gather near\n"
 	.string "the water's surface.$"

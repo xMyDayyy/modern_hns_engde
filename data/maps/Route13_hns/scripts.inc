@@ -245,7 +245,7 @@ Route13_Text_BirdKeeperBretAfterBattle:
 
 Route13_Text_HikerKennySeen:
 #if GERMAN
-	.string "Ich sollte zum {COLOR RED}Felstunnel{COLOR DARK_GRAY} gehen\n"
+	.string "Ich sollte zum Felstunnel gehen\n"
 	.string "und mir ein Onix fangen.$"
 #else
 	.string "I should go to ROCK TUNNEL to get\n"

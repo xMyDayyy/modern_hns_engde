@@ -12,7 +12,7 @@ VermilionCity_House1_Text_FishingDude:
 	.string "Ich bin der Senior-Angler, der ältere\n"
 	.string "der beiden Anglerbrüder.\p"
 	.string "Hast du schon mal was von diesem\n"
-	.string "Profi-Angler am {COLOR RED}See des Zorns{COLOR DARK_GRAY} gehört?\p"
+	.string "Profi-Angler am See des Zorns gehört?\p"
 	.string "Sein Traum ist es, einmal das größte\n"
 	.string "Karpador der Welt zu entdecken.\p"
 	.string "Wenn’s dir nichts ausmacht, dann zeige\n"

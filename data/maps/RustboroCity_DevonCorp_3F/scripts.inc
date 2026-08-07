@@ -323,7 +323,7 @@ RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
 	.string "Erfahrungspunkte.\p"
 	.string "Auch wenn es gar nicht am Kampf\n"
 	.string "teilnimmt.\p"
-	.string "Ich würde sagen, der {COLOR RED}EP-Teiler{COLOR DARK_GRAY} ist\n"
+	.string "Ich würde sagen, der EP-Teiler ist\n"
 	.string "sehr\n"
 	.string "nützlich, um schwache Pokémon aufzu-\l"
 	.string "ziehen.$"

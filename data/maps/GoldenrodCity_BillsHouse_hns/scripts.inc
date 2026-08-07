@@ -105,7 +105,7 @@ BillHouse_Text_ReceivedEevee:
 
 BillHouse_Text_EeveeMayEvolve:
 #if GERMAN
-	.string "Bill: {COLOR RED}Prof. Lind{COLOR DARK_GRAY} sagt, Evoli kann\n"
+	.string "Bill: Prof. Lind sagt, Evoli kann\n"
 	.string "sich in neue, unbekannte\l"
 	.string "Arten entwickeln.$"
 #else
@@ -143,9 +143,9 @@ BillHouse_Text_PopWontWork:
 BillHouse_Text_MomBeforeEcruteak:
 #if GERMAN
 	.string "Oh, du sammelst Pokémon?\p"
-	.string "Mein Sohn {COLOR RED}Bill{COLOR DARK_GRAY} ist ein Experte.\p"
+	.string "Mein Sohn Bill ist ein Experte.\p"
 	.string "Er wurde gerade in das Pokémon-Center\n"
-	.string "von {COLOR RED}Teak City{COLOR DARK_GRAY} gerufen.\p"
+	.string "von Teak City gerufen.\p"
 	.string "Mein Mann ging in die Spielhalle,\p"
 	.string "ohne vorher anzurufen…$"
 #else
@@ -160,7 +160,7 @@ BillHouse_Text_MomBeforeEcruteak:
 BillHouse_Text_MomAfterEcruteak:
 #if GERMAN
 	.string "Mein Mann war als Maniac bekannt.\p"
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} muss nach seinem Vater kommen.$"
+	.string "Bill muss nach seinem Vater kommen.$"
 #else
     .string "My husband was once known as a\n"
     .string "POKéMANIAC.\p"
@@ -210,7 +210,7 @@ BillHouse_Text_SisterPhoneFull:
 
 BillHouse_Text_SisterStorageSystem:
 #if GERMAN
-	.string "Mein großer Bruder {COLOR RED}Bill{COLOR DARK_GRAY}\n"
+	.string "Mein großer Bruder Bill\n"
 	.string "hat das PC-Pokémon-Lagerungssystem\l"
 	.string "erfunden.$"
 #else

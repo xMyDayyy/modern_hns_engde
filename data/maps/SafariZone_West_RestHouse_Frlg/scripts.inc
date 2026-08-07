@@ -15,8 +15,8 @@ SafariZone_West_RestHouse_EventScript_CooltrainerF::
 
 SafariZone_West_Text_KogaPatrolsSafariEverySoOften::
 #if GERMAN
-	.string "Die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} ist riesig, nicht?\p"
-	.string "Der Arenaleiter von {COLOR RED}Fuchsania{COLOR DARK_GRAY}\n"
+	.string "Die Safari-Zone ist riesig, nicht?\p"
+	.string "Der Arenaleiter von Fuchsania\n"
 	.string "City, Koga, hält hier gelegentlich\l"
 	.string "Wache.\p"
 	.string "Dank ihm können wir hier in\n"

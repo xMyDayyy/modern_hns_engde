@@ -433,7 +433,7 @@ DragonsDen_Shrine_Text_MustIInformLance:
 	.string "Schatten und rücke mit dem\l"
 	.string "Drachenorden heraus!\p"
 	.string "Wenn du dich weigerst… sehe ich mich\n"
-	.string "gezwungen, {COLOR RED}Siegfried{COLOR DARK_GRAY} davon zu\l"
+	.string "gezwungen, Siegfried davon zu\l"
 	.string "erzählen!$"
 #else
     .string "CLAIR!\p"
@@ -536,7 +536,7 @@ DragonsDen_Shrine_Text_Elder2:
 #if GERMAN
 	.string "Es ist schon lange her, seit jemand die\n"
 	.string "Anerkennung unseres Meisters erhielt.\l"
-	.string "Der letzte vor dir war {COLOR RED}Siegfried{COLOR DARK_GRAY}!$"
+	.string "Der letzte vor dir war Siegfried!$"
 #else
     .string "It's been quite some time since a\n"
     .string "trainer has gained our MASTER's\l"
@@ -546,7 +546,7 @@ DragonsDen_Shrine_Text_Elder2:
 
 DragonsDen_Shrine_Text_Elder3:
 #if GERMAN
-	.string "Kennst du {COLOR RED}Siegfried{COLOR DARK_GRAY}?\p"
+	.string "Kennst du Siegfried?\p"
 	.string "Er ist das genaue Ebenbild unseres\n"
 	.string "Meisters in seinen jungen Jahren. Sie\l"
 	.string "sind aus demselben Holz geschnitzt.$"
@@ -599,7 +599,7 @@ DragonsDen_Shrine_Text_TakeThisDratini:
 	.string "Hm… Schön, dass du hier bist.\p"
 	.string "Du kommst zur richtigen Zeit.\p"
 	.string "Ich habe etwas für dich.\p"
-	.string "Nimm dieses {COLOR RED}Dratini{COLOR DARK_GRAY} als\n"
+	.string "Nimm dieses Dratini als\n"
 	.string "Zeichen meiner Wertschätzung.$"
 #else
     .string "Hm… Good to see you here.\p"

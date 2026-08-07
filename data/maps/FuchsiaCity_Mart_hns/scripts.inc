@@ -12,7 +12,7 @@ FuchsiaCity_Mart_EventScript_Woman::
 FuchsiaMart_Text_Fisher:
 #if GERMAN
 	.string "Ich wollte einen Geschenkartikel\n"
-	.string "in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\l"
+	.string "in der Safari-Zone\l"
 	.string "kaufen, aber sie ist geschlossen…$"
 #else
 	.string "The old SAFARI ZONE had way better\n"
@@ -23,7 +23,7 @@ FuchsiaMart_Text_CooltrainerF:
 #if GERMAN
 	.string "In dieser Stadt lebt\n"
 	.string "auch die Enkelin des Wärters der\l"
-	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY}.$"
+	.string "Safari-Zone.$"
 #else
 	.string "The old SAFARI ZONE WARDEN's \n"
 	.string "granddaughter lives in town.$"

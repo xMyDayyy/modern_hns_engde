@@ -19,7 +19,7 @@ ViridianMart_Text_Lass:
 
 ViridianMart_Text_CooltrainerM:
 #if GERMAN
-	.string "Warst du schon auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY}?\p"
+	.string "Warst du schon auf der Zinnoberinsel?\p"
 	.string "Sie liegt tief im Süden.$"
 #else
 	.string "Have you been to CINNABAR?\p"

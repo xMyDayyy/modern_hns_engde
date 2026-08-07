@@ -19,7 +19,7 @@ OlivineCity_EventScript_PunisherBoy::
 
 OlivineCity_Text_PunishmentBro:
 #if GERMAN
-	.string "Auf dem Weg nach {COLOR RED}Anemonia City{COLOR DARK_GRAY}\n"
+	.string "Auf dem Weg nach Anemonia City\n"
 	.string "gibt es vier unbewohnte Inseln.\p"
 	.string "Ungezogene Kinder werden zur\n"
 	.string "Bestrafung dorthin geschickt!$"

@@ -299,7 +299,7 @@ Route25_SeaCottage_Text_ImBillHelpMeOutPal::
 #if GERMAN
 	.string "Hallo! Ich bin ein Pokémon!\n"
 	.string "Spaß beiseite, ich bin keines!\p"
-	.string "Nenn mich einfach {COLOR RED}Bill{COLOR DARK_GRAY}! Ich bin ein\n"
+	.string "Nenn mich einfach Bill! Ich bin ein\n"
 	.string "waschechter Pokémaniac!\p"
 	.string "Glaubst du mir nicht?\p"
 	.string "Mir ist ein Experiment missglückt!\n"
@@ -325,7 +325,7 @@ Route25_SeaCottage_Text_ImBillHelpMeOutLady::
 #if GERMAN
 	.string "Hallo! Ich bin ein Pokémon!\n"
 	.string "Spaß beiseite, ich bin keines!\p"
-	.string "Nenn mich einfach {COLOR RED}Bill{COLOR DARK_GRAY}! Ich bin ein\n"
+	.string "Nenn mich einfach Bill! Ich bin ein\n"
 	.string "waschechter Pokémaniac!\p"
 	.string "Glaubst du mir nicht?\p"
 	.string "Mir ist ein Experiment missglückt!\n"
@@ -438,7 +438,7 @@ Route25_SeaCottage_Text_ThanksLadyTakeThis::
 Route25_SeaCottage_Text_ReceivedSSTicketFromBill::
 #if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "ein {COLOR RED}Bootsticket{COLOR DARK_GRAY}!$"
+	.string "ein Bootsticket!$"
 #else
 	.string "{PLAYER} received an S.S. TICKET\n"
 	.string "from BILL.$"
@@ -454,7 +454,7 @@ Route25_SeaCottage_Text_YouveGotTooMuchStuff::
 
 Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
 #if GERMAN
-	.string "In {COLOR RED}Orania City{COLOR DARK_GRAY} ankert ein großes\n"
+	.string "In Orania City ankert ein großes\n"
 	.string "Kreuzfahrtschiff, die M.S. Anne!\p"
 	.string "An Bord befinden sich nur Trainer!\p"
 	.string "Sie haben mich zu einer Party\n"

@@ -2817,7 +2817,7 @@ Route110_Text_KalebPostBattle:
 
 Route111_Text_DrewIntro:
 #if GERMAN
-	.string "Das {COLOR RED}Wüstenglas{COLOR DARK_GRAY} steht dir gut. Aber\n"
+	.string "Das Wüstenglas steht dir gut. Aber\n"
 	.string "ich bin sicher, mir steht es besser!\p"
 	.string "Wir entscheiden das besser in einem\n"
 	.string "Kampf!$"
@@ -2830,7 +2830,7 @@ Route111_Text_DrewIntro:
 
 Route111_Text_DrewDefeat:
 #if GERMAN
-	.string "Das {COLOR RED}Wüstenglas{COLOR DARK_GRAY} hat meine Sicht\n"
+	.string "Das Wüstenglas hat meine Sicht\n"
 	.string "eingeschränkt.$"
 #else
 	.string "I couldn't see what was happening at\n"
@@ -2839,7 +2839,7 @@ Route111_Text_DrewDefeat:
 
 Route111_Text_DrewPostBattle:
 #if GERMAN
-	.string "Mit dem {COLOR RED}Wüstenglas{COLOR DARK_GRAY} kann man durch\n"
+	.string "Mit dem Wüstenglas kann man durch\n"
 	.string "Sandstürme laufen.\l"
 	.string "Das macht mich richtig glücklich.$"
 #else
@@ -2881,7 +2881,7 @@ Route111_Text_HeidiPostBattle:
 
 Route111_Text_BeauIntro:
 #if GERMAN
-	.string "Mit diesem {COLOR RED}Wüstenglas{COLOR DARK_GRAY} fühle ich mich\n"
+	.string "Mit diesem Wüstenglas fühle ich mich\n"
 	.string "wie ein Superheld. Im Moment kann\l"
 	.string "mich einfach niemand besiegen!$"
 #else
@@ -3264,7 +3264,7 @@ Route111_Text_CeliaPostBattle:
 #if GERMAN
 	.string "In einem Sandsturm wie diesem, finde ich\n"
 	.string "einfach keinen Platz für ein Picknick.\l"
-	.string "Selbst mit {COLOR RED}Wüstenglas{COLOR DARK_GRAY} nicht…$"
+	.string "Selbst mit Wüstenglas nicht…$"
 #else
 	.string "In a sandstorm like this, I can't set\n"
 	.string "the places for a picnic even with my\l"
@@ -7361,7 +7361,7 @@ Route121_Text_JessicaDefeat:
 
 Route121_Text_JessicaPostBattle:
 #if GERMAN
-	.string "Vielleicht werde ich in die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\n"
+	.string "Vielleicht werde ich in die Safari-Zone\n"
 	.string "gehen und mehr Pokémon fangen!$"
 #else
 	.string "Maybe I'll go catch more POKéMON at\n"
@@ -7397,7 +7397,7 @@ Route121_Text_JessicaRematchDefeat:
 
 Route121_Text_JessicaPostRematch:
 #if GERMAN
-	.string "Vielleicht werde ich in die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\n"
+	.string "Vielleicht werde ich in die Safari-Zone\n"
 	.string "gehen und mehr Pokémon fangen!$"
 #else
 	.string "Maybe I'll go catch more POKéMON at\n"
@@ -9561,7 +9561,7 @@ Route128_Text_KatelynRematchDefeat:
 Route128_Text_KatelynPostRematch:
 #if GERMAN
 	.string "Du solltest ernsthaft darüber nach-\n"
-	.string "denken, die {COLOR RED}Siegesstraße{COLOR DARK_GRAY} zu betreten.$"
+	.string "denken, die Siegesstraße zu betreten.$"
 #else
 	.string "You should give serious thought to\n"
 	.string "challenges on VICTORY ROAD.$"

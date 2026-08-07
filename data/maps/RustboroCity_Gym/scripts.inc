@@ -156,7 +156,7 @@ RustboroCity_Gym_Text_GymGuidePostVictory:
 	.string "Hui! Was für ein atemberaubender Sieg!\n"
 	.string "Meine Zurufe müssen gewirkt haben!\p"
 	.string "Großartig!\n"
-	.string "Schau mal auf deinen {COLOR RED}Trainerpass{COLOR DARK_GRAY}.\p"
+	.string "Schau mal auf deinen Trainerpass.\p"
 	.string "Der Steinorden, den du gerade bekommen\n"
 	.string "hast, müsste dort schon vermerkt sein.\n"
 	.string "\p"

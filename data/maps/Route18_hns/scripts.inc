@@ -62,7 +62,7 @@ Route18_Text_BirdKeeperBorisAfterBattle:
 Route18_Text_BirdKeeperBobSeen:
 #if GERMAN
 	.string "Der Radweg ist eine Abkürzung\n"
-	.string "nach {COLOR RED}Prismania City{COLOR DARK_GRAY}.$"
+	.string "nach Prismania City.$"
 #else
 	.string "CYCLING ROAD is a quick shortcut\n"
 	.string "to CELADON.$"

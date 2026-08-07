@@ -180,7 +180,7 @@ VermilionPort_Movement_BoatLeave:
 
 VermilionPort_Text_SailorCantSail:
 #if GERMAN
-	.string "Im {COLOR RED}Kraftwerk{COLOR DARK_GRAY} gab es einen Einbruch,\n"
+	.string "Im Kraftwerk gab es einen Einbruch,\n"
 	.string "deshalb können wir nicht auslaufen,\l"
 	.string "bis der Dieb gefunden ist.$"
 #else
@@ -231,7 +231,7 @@ VermilionPort_Text_WhereSail:
 VermilionPort_Text_AskBoard:
 #if GERMAN
 	.string "Willkommen auf \n"
-	.string "dem Schnellboot {COLOR RED}M.S. Aqua{COLOR DARK_GRAY}.\p"
+	.string "dem Schnellboot M.S. Aqua.\p"
 	.string "Trittst du heute deine Reise an?$"
 #else
     .string "Welcome to FAST SHIP S.S.AQUA.\p"
@@ -240,7 +240,7 @@ VermilionPort_Text_AskBoard:
 
 VermilionPort_Text_AskTicket:
 #if GERMAN
-	.string "Zeige mir bitte dein {COLOR RED}Bootsticket{COLOR DARK_GRAY}!$"
+	.string "Zeige mir bitte dein Bootsticket!$"
 #else
     .string "May I see your S.S.TICKET?$"
 #endif
@@ -254,7 +254,7 @@ VermilionPort_Text_ComeAgain:
 
 VermilionPort_Text_FlashTicket:
 #if GERMAN
-	.string "Zeige mir bitte dein {COLOR RED}Bootsticket{COLOR DARK_GRAY}!$"
+	.string "Zeige mir bitte dein Bootsticket!$"
 #else
     .string "{PLAYER} flashed the S.S.TICKET.\p"
     .string "That's it. Thank you!$"
@@ -262,7 +262,7 @@ VermilionPort_Text_FlashTicket:
 
 VermilionPort_Text_NoTicket:
 #if GERMAN
-	.string "{PLAYER} sucht das {COLOR RED}Bootsticket{COLOR DARK_GRAY}…\p"
+	.string "{PLAYER} sucht das Bootsticket…\p"
 	.string "…Kein Ticket!\p"
 	.string "Tut mir Leid! Du darfst nur\p"
 	.string "mit Ticket an Bord.$"

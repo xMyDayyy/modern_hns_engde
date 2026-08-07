@@ -398,7 +398,7 @@ Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
 
 Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
 #if GERMAN
-	.string "{PLAYER} erhält {COLOR RED}Formeo{COLOR DARK_GRAY}!$"
+	.string "{PLAYER} erhält Formeo!$"
 #else
 	.string "{PLAYER} received CASTFORM!$"
 #endif

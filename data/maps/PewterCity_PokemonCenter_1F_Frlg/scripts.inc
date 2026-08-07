@@ -48,7 +48,7 @@ PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
 #if GERMAN
 	.string "Was!?\p"
 	.string "Das Team Rocket befindet sich auf\n"
-	.string "dem {COLOR RED}Mondberg{COLOR DARK_GRAY}? Das muss ich sofort\l"
+	.string "dem Mondberg? Das muss ich sofort\l"
 	.string "melden!\p"
 	.string "Verschwinde!$"
 #else

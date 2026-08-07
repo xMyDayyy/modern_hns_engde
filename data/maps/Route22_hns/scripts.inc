@@ -14,7 +14,7 @@ Route22_EventScript_Sign::
 Route22_Text_VictoryRoadEntranceSign:
 #if GERMAN
 	.string "Pokémon Liga\n"
-	.string "Eingang {COLOR RED}Siegesstraße{COLOR DARK_GRAY}\n"
+	.string "Eingang Siegesstraße\n"
 	.string "$"
 #else
 	.string "POKéMON LEAGUE\p"

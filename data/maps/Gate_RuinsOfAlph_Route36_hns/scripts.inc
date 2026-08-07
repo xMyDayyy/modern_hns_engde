@@ -27,7 +27,7 @@ Gate_RuinsOfAlph_Route36_EventScript_Youngster::
 
 Gate_RuinsOfAlph_Route36_Text_Officer:
 #if GERMAN
-	.string "In den {COLOR RED}Alph-Ruinen{COLOR DARK_GRAY} wird dir Geschichte\n"
+	.string "In den Alph-Ruinen wird dir Geschichte\n"
 	.string "zum Anfassen und Bestaunen geboten.\p"
 	.string "Du darfst gerne auch mal versuchen, die\n"
 	.string "Steintafeln zu bewegen!$"

@@ -58,7 +58,7 @@ PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
 	.string "Mutter: Richtig. Irgendwann gehen\n"
 	.string "alle Kinder fort, um ein Abenteuer\l"
 	.string "zu erleben!\p"
-	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY} von nebenan hat nach\n"
+	.string "Prof. Eich von nebenan hat nach\n"
 	.string "dir gefragt.$"
 #else
 	.string "MOM: …Right.\n"
@@ -73,7 +73,7 @@ PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
 	.string "Mutter: … genau!\n"
 	.string "Jedes Mädchen träumt vom Reisen.\l"
 	.string "Das sieht man im Fernsehen.\p"
-	.string "Oh, ja, {COLOR RED}Prof. Eich{COLOR DARK_GRAY} von nebenan\n"
+	.string "Oh, ja, Prof. Eich von nebenan\n"
 	.string "hat nach dir gesucht!$"
 #else
 	.string "MOM: …Right.\n"

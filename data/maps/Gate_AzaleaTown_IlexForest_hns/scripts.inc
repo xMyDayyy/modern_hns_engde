@@ -20,7 +20,7 @@ Gate_AzaleaTown_IlexForest_EventScript_Granny::
 Gate_AzaleaTown_IlexForest_Text_Officer:
 #if GERMAN
 	.string "Pass auf, dass du dich nicht verläufst!\n"
-	.string "Der {COLOR RED}Steineichenwald{COLOR DARK_GRAY} ist sehr groß!$"
+	.string "Der Steineichenwald ist sehr groß!$"
 #else
 	.string "ILEX FOREST is big.\n"
 	.string "Be careful!\n"
@@ -30,7 +30,7 @@ Gate_AzaleaTown_IlexForest_Text_Officer:
 Gate_AzaleaTown_IlexForest_Text_Granny:
 #if GERMAN
 	.string "Es heißt, ein Schutzpatron wache über\n"
-	.string "den {COLOR RED}Steineichenwald{COLOR DARK_GRAY}…\l"
+	.string "den Steineichenwald…\l"
 	.string "Mach also besser keine Dummheiten!$"
 #else
 	.string "The ILEX FOREST is watched\n"

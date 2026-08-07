@@ -163,8 +163,8 @@ Route24_Text_RocketAfter:
 #if GERMAN
 	.string "Okay, alles klar!\n"
 	.string "Ich verrate dir meine secret Geheimnis!\p"
-	.string "I have die {COLOR RED}Spule{COLOR DARK_GRAY} in die Arena\n"
-	.string "von {COLOR RED}Azuria City{COLOR DARK_GRAY} versteckt. Yes, I have!\p"
+	.string "I have die Spule in die Arena\n"
+	.string "von Azuria City versteckt. Yes, I have!\p"
 	.string "Wenn du neben die Schwimmreifen\n"
 	.string "checkst, find you sie bestimmt! You will!\p"
 	.string "Aaaaber! However!\n"

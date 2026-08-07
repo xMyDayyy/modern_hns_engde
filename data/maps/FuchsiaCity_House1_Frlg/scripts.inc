@@ -19,7 +19,7 @@ FuchsiaCity_House1_EventScript_LittleBoy::
 
 FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
 #if GERMAN
-	.string "Der Wärter der {COLOR RED}Safari-Zone{COLOR DARK_GRAY} ist\n"
+	.string "Der Wärter der Safari-Zone ist\n"
 	.string "sehr alt! Aber er ist noch immer im\l"
 	.string "Dienst!\p"
 	.string "Allerdings trägt er ein Gebiss!$"
@@ -31,7 +31,7 @@ FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
 
 FuchsiaCity_House1_Text_BillIsMyGrandson::
 #if GERMAN
-	.string "Hast du schon {COLOR RED}Bill{COLOR DARK_GRAY} getroffen?\p"
+	.string "Hast du schon Bill getroffen?\p"
 	.string "Er ist mein Enkel!\p"
 	.string "Schon als kleines Kind hat er gerne\n"
 	.string "alles Mögliche gesammelt!$"
@@ -45,7 +45,7 @@ FuchsiaCity_House1_Text_BillIsMyGrandson::
 
 FuchsiaCity_House1_Text_BillFilesHisOwnMonData::
 #if GERMAN
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} sammelt auf seinem PC Daten\n"
+	.string "Bill sammelt auf seinem PC Daten\n"
 	.string "über Pokémon!\p"
 	.string "Hat er sie dir gezeigt?$"
 #else

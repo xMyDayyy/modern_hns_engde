@@ -97,7 +97,7 @@ Route20_Text_Headlocker:
 	.string "Manchmal trägt es auch einen\n"
 	.string "seltenen Entwicklungsstein.\p"
 	.string "Doppelt selten also!\p"
-	.string "Ich muss meinen {COLOR RED}Pokédex{COLOR DARK_GRAY} füllen,\n"
+	.string "Ich muss meinen Pokédex füllen,\n"
 	.string "darum angle ich hier schon Stunden!$"
 #else
 	.string "There's a rare POKéMON on this\n"

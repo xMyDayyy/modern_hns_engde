@@ -8,7 +8,7 @@ Gate_SaffronCity_Route8_EventScript_Guard::
 
 Route8_Text_SaffronGateOfficer:
 #if GERMAN
-	.string "Warst du schon in {COLOR RED}Lavandia{COLOR DARK_GRAY}?\n"
+	.string "Warst du schon in Lavandia?\n"
 	.string "Da gibt es einen großen Radioturm!$"
 #else
 	.string "Have you been to LAVENDER TOWN?\p"

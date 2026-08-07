@@ -419,7 +419,7 @@ CinnabarIsland_Text_HeyIfItIsntPlayer::
 
 CinnabarIsland_Text_ComeWithMeToOneIsland::
 #if GERMAN
-	.string "Ich bin es, {COLOR RED}Bill{COLOR DARK_GRAY}.\n"
+	.string "Ich bin es, Bill.\n"
 	.string "Lange nicht gesehen!\p"
 	.string "Ich hoffe, du benutzt noch mein\n"
 	.string "PC-System.\p"
@@ -497,9 +497,9 @@ CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
 	.string "Gegenwart genossen zu haben.\p"
 	.string "Ich bin sicher, er würde dich gerne\n"
 	.string "erneut willkommen heißen.\p"
-	.string "Wenn du den {COLOR RED}Tri-Pass{COLOR DARK_GRAY} hast, kannst\n"
+	.string "Wenn du den Tri-Pass hast, kannst\n"
 	.string "du jederzeit mit der Fähre von\l"
-	.string "{COLOR RED}Orania City{COLOR DARK_GRAY} zu ihm fahren.\p"
+	.string "Orania City zu ihm fahren.\p"
 	.string "Danke für die Begleitung!$"
 #else
 	.string "Hey, wasn't that a long cruise?\p"

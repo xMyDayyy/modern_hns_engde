@@ -115,7 +115,7 @@ SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem::
 SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere::
 #if GERMAN
 	.string "{RIVAL}: Heh {PLAYER}!\n"
-	.string "Wie ist es um deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}\l"
+	.string "Wie ist es um deinen Pokédex\l"
 	.string "bestellt?\l"
 	.string "Es scheint unmöglich zu sein, alle\l"
 	.string "Pokémon zu finden, wenn man\l"

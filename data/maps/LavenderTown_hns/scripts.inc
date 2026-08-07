@@ -69,7 +69,7 @@ LavenderTown_Text_Gramps:
 LavenderTown_Text_Youngster:
 #if GERMAN
 	.string "Um schlafende Pokémon zu wecken, ist\n"
-	.string "eine {COLOR RED}Pokéflöte{COLOR DARK_GRAY} immer noch am besten!\l"
+	.string "eine Pokéflöte immer noch am besten!\l"
 	.string "Jeder Trainer sollte das wissen!$"
 #else
 	.string "You need a POKé FLUTE to wake\n"

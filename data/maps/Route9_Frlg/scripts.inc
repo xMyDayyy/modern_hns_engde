@@ -57,8 +57,8 @@ Route9_Text_ChrisPostBattle::
 
 Route9_Text_DrewIntro::
 #if GERMAN
-	.string "Ich gehe durch den {COLOR RED}Felstunnel{COLOR DARK_GRAY}\n"
-	.string "nach {COLOR RED}Lavandia{COLOR DARK_GRAY}...$"
+	.string "Ich gehe durch den Felstunnel\n"
+	.string "nach Lavandia...$"
 #else
 	.string "I'm taking the ROCK TUNNEL to\n"
 	.string "go to LAVENDER…$"
@@ -73,7 +73,7 @@ Route9_Text_DrewDefeat::
 
 Route9_Text_DrewPostBattle::
 #if GERMAN
-	.string "Möchtest du auch den {COLOR RED}Felstunnel{COLOR DARK_GRAY}\n"
+	.string "Möchtest du auch den Felstunnel\n"
 	.string "benutzen?$"
 #else
 	.string "Are you off to ROCK TUNNEL, too?$"

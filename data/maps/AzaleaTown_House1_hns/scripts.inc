@@ -103,7 +103,7 @@ CharcoalKiln_Text_Boss3:
 #if GERMAN
 	.string "Die Flegmon sind zurück…\p"
 	.string "Aber mein Lehrling ist noch nicht\n"
-	.string "aus dem {COLOR RED}Steineichenwald{COLOR DARK_GRAY} zurück.\p"
+	.string "aus dem Steineichenwald zurück.\p"
 	.string "Wo steckt dieser faule Kerl nur?$"
 #else
 	.string "The SLOWPOKE have returned…\p"
@@ -115,7 +115,7 @@ CharcoalKiln_Text_Boss3:
 CharcoalKiln_Text_Boss4:
 #if GERMAN
 	.string "Du hast Team Rocket vertrieben und bist\n"
-	.string "alleine in den {COLOR RED}Steineichenwald{COLOR DARK_GRAY} gegangen.\l"
+	.string "alleine in den Steineichenwald gegangen.\l"
 	.string "Du hast Mumm! Das gefällt mir!\p"
 	.string "Was sagst du, würdest du nicht gerne\n"
 	.string "bei mir in die Lehre gehen?$"
@@ -147,7 +147,7 @@ CharcoalKiln_Text_Apprentice3:
 #if GERMAN
 	.string "E-Entschuldige, ich habe vergessen\n"
 	.string "mich zu bedanken.\p"
-	.string "Das hier ist {COLOR RED}Holzkohle{COLOR DARK_GRAY}, sie verstärkt\n"
+	.string "Das hier ist Holzkohle, sie verstärkt\n"
 	.string "Feuer-Attacken. Gib sie einem\l"
 	.string "Pokémon.$"
 #else

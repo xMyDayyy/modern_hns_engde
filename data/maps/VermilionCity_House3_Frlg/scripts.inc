@@ -26,7 +26,7 @@ VermilionCity_House3_EventScript_Letter::
 VermilionCity_House3_Text_PidgeyFlyLetterToSaffron::
 #if GERMAN
 	.string "Ich lasse Taubsi einen Brief nach\n"
-	.string "{COLOR RED}Saffronia City{COLOR DARK_GRAY} im Norden bringen!$"
+	.string "Saffronia City im Norden bringen!$"
 #else
 	.string "I'm getting my PIDGEY to fly a\n"
 	.string "letter to SAFFRON in the north.$"

@@ -383,7 +383,7 @@ TwoIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy::
 
 TwoIsland_JoyfulGameCorner_Text_OhThisIsFromBill::
 #if GERMAN
-	.string "Oh, das ist von {COLOR RED}Bill{COLOR DARK_GRAY}!\n"
+	.string "Oh, das ist von Bill!\n"
 	.string "Richte ihm meinen Dank aus!\p"
 	.string "Du warst einfach fantastisch!\n"
 	.string "Das ist für dich!$"

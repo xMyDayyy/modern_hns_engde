@@ -26,7 +26,7 @@ Route30_BerryHouse_Text_MonEatBerries:
 	.string "sie Beeren fressen.\p"
 	.string "Sie fressen sogar Beeren, die sie\n"
 	.string "im Kampf tragen.\p"
-	.string "Aus Beeren macht {COLOR RED}Kurt{COLOR DARK_GRAY} in {COLOR RED}Azalea{COLOR DARK_GRAY}\n"
+	.string "Aus Beeren macht Kurt in Azalea\n"
 	.string "City außerdem Bälle.\p"
 	.string "Hier, ich teile mit dir!$"
 #else

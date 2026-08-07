@@ -360,7 +360,7 @@ BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
 	.string "Scott: Du trainierst doch nicht nur\n"
 	.string "für Kämpfe, oder?\p"
 	.string "Ich meine mich zu erinnern, dass du\n"
-	.string "auch an deinem {COLOR RED}Pokédex{COLOR DARK_GRAY} arbeitest?\p"
+	.string "auch an deinem Pokédex arbeitest?\p"
 	.string "Soll ich dir was verraten?\p"
 	.string "Auch hier in der Kampfzone wirst\n"
 	.string "du auf wilde Pokémon treffen…\l"

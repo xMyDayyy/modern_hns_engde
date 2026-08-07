@@ -164,7 +164,7 @@ Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou::
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
 #if GERMAN
 	.string "Das Team Rocket terrorisiert die\n"
-	.string "Einwohner von {COLOR RED}Azuria City{COLOR DARK_GRAY}!\p"
+	.string "Einwohner von Azuria City!\p"
 	.string "Kein Tag vergeht ohne Meldungen\n"
 	.string "über Team Rockets Schandtaten!$"
 #else

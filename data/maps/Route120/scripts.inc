@@ -416,7 +416,7 @@ Route120_Text_StevenShowMeYourPower:
 
 Route120_Text_StevenUsedDevonScope:
 #if GERMAN
-	.string "Troy setzt das {COLOR RED}Devon-Scope{COLOR DARK_GRAY} ein.\p"
+	.string "Troy setzt das Devon-Scope ein.\p"
 	.string "Ein unsichtbares Pokémon wird\n"
 	.string "sichtbar!\p"
 	.string "Das erschreckte Pokémon greift an!$"
@@ -436,7 +436,7 @@ Route120_Text_StevenGiveDevonScope:
 	.string "gewachsen, seit wir uns das erste Mal\n"
 	.string "in\l"
 	.string "Faustauhaven getroffen haben.\p"
-	.string "Ich möchte dir dieses {COLOR RED}Devon-Scope{COLOR DARK_GRAY}\n"
+	.string "Ich möchte dir dieses Devon-Scope\n"
 	.string "geben.\p"
 	.string "Wer weiß, es gibt bestimmt noch andere\n"
 	.string "verborgene Pokémon.$"
@@ -477,7 +477,7 @@ Kecleon_Text_WantToUseDevonScope:
 #if GERMAN
 	.string "Etwas Unsichtbares blockiert den Weg.\n"
 	.string "\p"
-	.string "Willst du das {COLOR RED}Devon-Scope{COLOR DARK_GRAY} einsetzen?$"
+	.string "Willst du das Devon-Scope einsetzen?$"
 #else
 	.string "Something unseeable is in the way.\p"
 	.string "Want to use the DEVON SCOPE?$"
@@ -485,7 +485,7 @@ Kecleon_Text_WantToUseDevonScope:
 
 Kecleon_Text_UseDevonScopeMonAttacked:
 #if GERMAN
-	.string "{PLAYER} setzt {COLOR RED}Devon-Scope{COLOR DARK_GRAY} ein.\p"
+	.string "{PLAYER} setzt Devon-Scope ein.\p"
 	.string "Ein unsichtbares Pokémon wird\n"
 	.string "sichtbar!\p"
 	.string "Das erschreckte Pokémon greift an!$"

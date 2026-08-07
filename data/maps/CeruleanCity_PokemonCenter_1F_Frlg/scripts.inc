@@ -36,7 +36,7 @@ CeruleanCity_PokemonCenter_1F_EventScript_Lass::
 
 CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons::
 #if GERMAN
-	.string "Dieser {COLOR RED}Bill{COLOR DARK_GRAY}!\p"
+	.string "Dieser Bill!\p"
 	.string "Ich hörte, für seltene Pokémon\n"
 	.string "würde er alles tun!$"
 #else
@@ -49,11 +49,11 @@ CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons::
 
 CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac::
 #if GERMAN
-	.string "Hat man dir schon von {COLOR RED}Bill{COLOR DARK_GRAY}\n"
+	.string "Hat man dir schon von Bill\n"
 	.string "erzählt?\p"
 	.string "Jeder nennt ihn den Pokémaniac!\p"
 	.string "Aber ich glaube, die Leute sind\n"
-	.string "bloß neidisch auf {COLOR RED}Bill{COLOR DARK_GRAY}.\p"
+	.string "bloß neidisch auf Bill.\p"
 	.string "Wer würde denn nicht mit seinen\n"
 	.string "Pokémon prahlen?$"
 #else
@@ -67,7 +67,7 @@ CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac::
 
 CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons::
 #if GERMAN
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} besitzt viele Pokémon!\p"
+	.string "Bill besitzt viele Pokémon!\p"
 	.string "Er hat einige sehr seltene in\n"
 	.string "seiner Sammlung!$"
 #else

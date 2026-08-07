@@ -78,7 +78,7 @@ Route17_Text_IsaiahPostBattle::
 
 Route17_Text_VirgilIntro::
 #if GERMAN
-	.string "Willst du nach {COLOR RED}Fuchsania City{COLOR DARK_GRAY}?$"
+	.string "Willst du nach Fuchsania City?$"
 #else
 	.string "You heading to FUCHSIA?$"
 #endif
@@ -140,7 +140,7 @@ Route17_Text_NikolasDefeat::
 Route17_Text_NikolasPostBattle::
 #if GERMAN
 	.string "Ich habe Voltobal im verlassenen\n"
-	.string "{COLOR RED}Kraftwerk{COLOR DARK_GRAY} gefangen.$"
+	.string "Kraftwerk gefangen.$"
 #else
 	.string "I got my VOLTORB at the abandoned\n"
 	.string "POWER PLANT.$"

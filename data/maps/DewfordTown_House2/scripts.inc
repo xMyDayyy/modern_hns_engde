@@ -29,7 +29,7 @@ DewfordTown_House2_EventScript_Boy::
 DewfordTown_House2_Text_WantYouToHaveSilkScarf:
 #if GERMAN
 	.string "Wirf dein Auge mal hierauf!\p"
-	.string "Das ist ein {COLOR RED}Seidenschal{COLOR DARK_GRAY}. Das ist\n"
+	.string "Das ist ein Seidenschal. Das ist\n"
 	.string "der letzte Schrei in der Mode. Yeah!\p"
 	.string "Oh, deine Augen blitzen.\n"
 	.string "Du magst meinen Stil, nicht wahr?\p"

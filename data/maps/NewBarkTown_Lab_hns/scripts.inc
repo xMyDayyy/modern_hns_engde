@@ -96,7 +96,7 @@ NewBarkTown_Lab_Text_ElmAideIsWaiting:
 	.string "{PLAYER}!\p"
 	.string "Was machst du hier?\p"
 	.string "Mein Assistent wartet noch auf dich\n"
-	.string "in {COLOR RED}Viola City{COLOR DARK_GRAY}!$"
+	.string "in Viola City!$"
 #else
 	.string "{PLAYER}!\p"
 	.string "What are you doing here?\p"
@@ -734,7 +734,7 @@ NewBarkTown_Lab_Text_ElmGotAnEmail:
 NewBarkTown_Lab_Text_ElmMissionFromMrPokemon:
 #if GERMAN
 	.string "Lind: Hör mir zu! Ich habe da einen\n"
-	.string "Bekannten namens {COLOR RED}Mr. Pokémon{COLOR DARK_GRAY}.\p"
+	.string "Bekannten namens Mr. Pokémon.\p"
 	.string "Er ist immer gleich völlig aus dem\n"
 	.string "Häuschen, wenn er meint, einen\l"
 	.string "besonders seltenen Fund gemacht\l"
@@ -856,8 +856,8 @@ NewBarkTown_Lab_Text_Nickname:
 
 NewBarkTown_Lab_Text_ElmDirections1:
 #if GERMAN
-	.string "{COLOR RED}Mr. Pokémon{COLOR DARK_GRAY} wohnt etwas\n"
-	.string "hinter {COLOR RED}Rosalia City{COLOR DARK_GRAY},\l"
+	.string "Mr. Pokémon wohnt etwas\n"
+	.string "hinter Rosalia City,\l"
 	.string "der nächsten Stadt.\p"
 	.string "Du kannst es kaum verfehlen.\n"
 	.string "Aber sicher ist sicher.\p"
@@ -912,7 +912,7 @@ NewBarkTown_Lab_Text_GotElmsNumber:
 
 NewBarkTown_Lab_Text_ElmDescribesMrPokemon:
 #if GERMAN
-	.string "{COLOR RED}Mr. Pokémon{COLOR DARK_GRAY} sammelt\n"
+	.string "Mr. Pokémon sammelt\n"
 	.string "seltene Antiquitäten.\p"
 	.string "Schade, dass sie nur selten\n"
 	.string "und nicht besonders nützlich sind.$"
@@ -926,7 +926,7 @@ NewBarkTown_Lab_Text_ElmDescribesMrPokemon:
 NewBarkTown_Lab_Text_ElmPokeBall:
 #if GERMAN
 	.string "Enthält ein Pokémon, das\n"
-	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY} gefangen hat.$"
+	.string "Prof. Lind gefangen hat.$"
 #else
 	.string "It contains a POKéMON caught\n"
 	.string "by PROF.ELM.$"
@@ -949,8 +949,8 @@ NewBarkTown_Lab_Text_ElmAfterTheft1:
 
 NewBarkTown_Lab_Text_ElmAfterTheft2:
 #if GERMAN
-	.string "{PLAYER} übergab das {COLOR RED}Rätsel-Ei{COLOR DARK_GRAY}\n"
-	.string "an {COLOR RED}Prof. Lind{COLOR DARK_GRAY}.$"
+	.string "{PLAYER} übergab das Rätsel-Ei\n"
+	.string "an Prof. Lind.$"
 #else
 	.string "{PLAYER} handed the MYSTERY EGG\n"
 	.string "to PROF.ELM.$"
@@ -968,7 +968,7 @@ NewBarkTown_Lab_Text_ElmAfterTheft4:
 	.string "Aber… Ist es ein Pokémon-Ei?\p"
 	.string "Wenn ja, ist es eine große Entdeckung!\p"
 	.string "Lind: Was?!?\p"
-	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY} gab dir einen {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
+	.string "Prof. Eich gab dir einen Pokédex?\p"
 	.string "{PLAYER}, stimmt das?\n"
 	.string "Unglaublich!\p"
 	.string "Er erkennt das Potential von\n"
@@ -978,7 +978,7 @@ NewBarkTown_Lab_Text_ElmAfterTheft4:
 	.string "Du kommst gut mit Pokémon klar.\p"
 	.string "Versuche die Arenaleiter\n"
 	.string "herauszufordern.\p"
-	.string "Die nächste Arena ist in {COLOR RED}Viola City{COLOR DARK_GRAY}.\p"
+	.string "Die nächste Arena ist in Viola City.\p"
 	.string "…{PLAYER}. Der Weg zum Sieg\n"
 	.string "wird lang sein.\p"
 	.string "Bevor du gehst, sprich besser mit\n"
@@ -1101,10 +1101,10 @@ NewBarkTown_Lab_Text_ElmGiveEverstone1:
 
 NewBarkTown_Lab_Text_ElmGiveEverstone2:
 #if GERMAN
-	.string "Das ist ein {COLOR RED}Ewigstein{COLOR DARK_GRAY}.\p"
+	.string "Das ist ein Ewigstein.\p"
 	.string "Manche Pokémon entwickeln sich\n"
 	.string "bei bestimmten Leveln.\p"
-	.string "Ein Pokémon mit {COLOR RED}Ewigstein{COLOR DARK_GRAY}\n"
+	.string "Ein Pokémon mit Ewigstein\n"
 	.string "entwickelt sich nicht.\p"
 	.string "Gib ihn einem Pokémon, das\n"
 	.string "du nicht entwickeln willst.$"
@@ -1160,9 +1160,9 @@ NewBarkTown_Lab_Text_ElmGiveMasterBall1:
 
 NewBarkTown_Lab_Text_ElmGiveMasterBall2:
 #if GERMAN
-	.string "Das ist ein {COLOR RED}Meisterball{COLOR DARK_GRAY}!\p"
+	.string "Das ist ein Meisterball!\p"
 	.string "Egal, mit welchem Pokémon du es auch zu\n"
-	.string "tun hast, mit diesem wertvollen {COLOR RED}Pokéball{COLOR DARK_GRAY}\l"
+	.string "tun hast, mit diesem wertvollen Pokéball\l"
 	.string "gelingt es dir garantiert, es zu fangen!\p"
 	.string "Meisterbälle werden angeblich exklusiv\n"
 	.string "für herausragende Leistungen im Feld\l"
@@ -1184,7 +1184,7 @@ NewBarkTown_Lab_Text_KimonoGirls:
 #if GERMAN
 	.string "Die Kimono-Girls sagten, sie\n"
 	.string "würden im Tanztheater von\l"
-	.string "{COLOR RED}Teak City{COLOR DARK_GRAY} auf dich warten!\p"
+	.string "Teak City auf dich warten!\p"
 	.string "Ich weiß, dass du jede Menge\n"
 	.string "durchgemacht hast, seit ich dir\l"
 	.string "dieses Ei anvertraut habe, aber\l"
@@ -1200,7 +1200,7 @@ NewBarkTown_Lab_Text_KimonoGirls:
 
 NewBarkTown_Lab_Text_KimonoWaiting:
 #if GERMAN
-	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY}: Die Kimono-Girls\n"
+	.string "Prof. Lind: Die Kimono-Girls\n"
 	.string "warten im Teak-City Tanztheater.$"
 #else
 	.string "PROF.ELM: The KIMONO\n"
@@ -1226,8 +1226,8 @@ NewBarkTown_Lab_Text_League:
 	.string "Mach dich nun also auf den Weg\n"
 	.string "zum Indigo-Plateau!\p"
 	.string "Weißt du, wo das ist?\p"
-	.string "Nimm von hier aus {COLOR RED}Route 27{COLOR DARK_GRAY}, bis du\n"
-	.string "auf {COLOR RED}Route 26{COLOR DARK_GRAY} gelangst. Du musst\l"
+	.string "Nimm von hier aus Route 27, bis du\n"
+	.string "auf Route 26 gelangst. Du musst\l"
 	.string "immer geradeaus in Richtung Norden!$"
 #else
 	.string "PROF.ELM: Hahaha...\n"
@@ -1255,7 +1255,7 @@ NewBarkTown_Lab_Text_ElmGiveTicket1:
 	.string "Ich habe dich schon erwartet!\p"
 	.string "Ich habe dich heute zu mir gerufen, weil\n"
 	.string "ich dir etwas geben möchte.\p"
-	.string "Hier! Das ist ein {COLOR RED}Bootsticket{COLOR DARK_GRAY}.\p"
+	.string "Hier! Das ist ein Bootsticket.\p"
 	.string "Damit kannst du auch in Kanto auf\n"
 	.string "Pokémon-Jagd gehen!$"
 #else
@@ -1271,7 +1271,7 @@ NewBarkTown_Lab_Text_ElmGiveTicket2:
 #if GERMAN
 	.string "Lind: Das Schnellboot, für das dieses\n"
 	.string "Ticket gültig ist, legt im Hafen von\l"
-	.string "{COLOR RED}Oliviana City{COLOR DARK_GRAY} ab.\p"
+	.string "Oliviana City ab.\p"
 	.string "Aber das weißt du ja wahrscheinlich\n"
 	.string "besser als ich, {PLAYER}…\p"
 	.string "Du und dein Pokémon-Team, ihr seid\n"
@@ -1292,7 +1292,7 @@ NewBarkTown_Lab_Text_ElmGiveTicket2:
 NewBarkTown_Lab_Text_LabMonEgg:
 #if GERMAN
 	.string "Es ist das Pokémon-Ei, das\n"
-	.string "von {COLOR RED}Prof. Lind{COLOR DARK_GRAY} erforscht wird.$"
+	.string "von Prof. Lind erforscht wird.$"
 #else
 	.string "It's the POKéMON EGG being\n"
 	.string "studied by PROF.ELM.$"
@@ -1358,7 +1358,7 @@ NewBarkTown_Lab_Text_AideGiveBalls:
 #if GERMAN
 	.string "{PLAYER}!\p"
 	.string "Benutze diese für deine\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}-Mission!$"
+	.string "Pokédex-Mission!$"
 #else
 	.string "{PLAYER}!\p"
 	.string "Use these on your POKéDEX\n"
@@ -1367,7 +1367,7 @@ NewBarkTown_Lab_Text_AideGiveBalls:
 
 NewBarkTown_Lab_Text_AideExplainBalls:
 #if GERMAN
-	.string "Um deinen {COLOR RED}Pokédex{COLOR DARK_GRAY} zu füllen,\n"
+	.string "Um deinen Pokédex zu füllen,\n"
 	.string "musst du Pokémon fangen.\p"
 	.string "Wirf Pokébälle auf wilde Pokémon!$"
 #else
@@ -1381,7 +1381,7 @@ NewBarkTown_Lab_Text_Officer1:
 #if GERMAN
 	.string "Ich hörte, hier wurde ein\n"
 	.string "Pokémon gestohlen…\p"
-	.string "Ich wollte Infos von {COLOR RED}Prof. Lind{COLOR DARK_GRAY}.\p"
+	.string "Ich wollte Infos von Prof. Lind.\p"
 	.string "Offenbar war es ein junger\n"
 	.string "Mann mit langen, roten Haaren…\p"
 	.string "Was?\p"
@@ -1428,7 +1428,7 @@ NewBarkTown_Lab_Text_OfficerNo:
 NewBarkTown_Lab_Text_Elm_CallMe:
 #if GERMAN
 	.string "Ah, {PLAYER}!\p"
-	.string "Wie läuft’s mit dem {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
+	.string "Wie läuft’s mit dem Pokédex?\p"
 	.string "Ich bin gerade beschäftigt, aber\n"
 	.string "ruf mich mal an, dann kann ich\l"
 	.string "deinen Fortschritt prüfen!$"

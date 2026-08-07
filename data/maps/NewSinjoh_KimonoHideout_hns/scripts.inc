@@ -149,7 +149,7 @@ NewSinjoh_KimonoHideout_Text_PlayerMeetsShizuko:
 NewSinjoh_KimonoHideout_Text_PlayerMeetsYouko:
 #if GERMAN
 	.string "Youko: Begib dich zu den Sinjoh-\n"
-	.string "Ruinen, nördlich von {COLOR RED}Route 50{COLOR DARK_GRAY}.\p"
+	.string "Ruinen, nördlich von Route 50.\p"
 	.string "Triff dich mit den Forschern dort\n"
 	.string "und untersuche die Ereignisse, die\l"
 	.string "sie hergeführt haben.\p"

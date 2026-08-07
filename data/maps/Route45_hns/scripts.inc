@@ -123,7 +123,7 @@ Route45_Text_HikerErikBeaten:
 
 Route45_Text_HikerErikAfter:
 #if GERMAN
-	.string "Ich gehe zum {COLOR RED}Eispfad{COLOR DARK_GRAY} bei {COLOR RED}Ebenholz City{COLOR DARK_GRAY},\n"
+	.string "Ich gehe zum Eispfad bei Ebenholz City,\n"
 	.string "um noch etwas mehr zu trainieren.$"
 #else
     .string "I'll head back to BLACKTHORN's\n"
@@ -455,14 +455,14 @@ Route45_Text_CamperQuentinSeen:
 
 Route45_Text_CamperQuentinBeaten:
 #if GERMAN
-	.string "Ich war stark aufm {COLOR RED}Trainerberg{COLOR DARK_GRAY}…$"
+	.string "Ich war stark aufm Trainerberg…$"
 #else
     .string "I was tough at the TRAINER HILL…$"
 #endif
 
 Route45_Text_CamperQuentinAfter:
 #if GERMAN
-	.string "Warst du schon im {COLOR RED}Trainerberg{COLOR DARK_GRAY}?\p"
+	.string "Warst du schon im Trainerberg?\p"
 	.string "Dort verliere ich nie, aber…$"
 #else
     .string "Have you been to the TRAINER HILL?\p"

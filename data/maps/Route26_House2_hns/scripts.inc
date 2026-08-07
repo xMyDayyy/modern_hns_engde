@@ -54,13 +54,13 @@ DayOfWeekSiblingsHouse_Text_Pokedex2:
 
 DayOfWeekSiblingsHouse_Text_Pokedex3:
 #if GERMAN
-	.string "Montag, Monja {COLOR RED}Route 40{COLOR DARK_GRAY}\p"
-	.string "Dienstag, Dietlinde {COLOR RED}Route 29{COLOR DARK_GRAY}\p"
-	.string "Mittwoch, Mitko {COLOR RED}See des Zorns{COLOR DARK_GRAY}\p"
-	.string "Donnerstag, Donatus {COLOR RED}Route 36{COLOR DARK_GRAY}\p"
-	.string "Freitag, Frieda {COLOR RED}Route 32{COLOR DARK_GRAY}\p"
-	.string "Samstag, Samson {COLOR RED}Ebenholz City{COLOR DARK_GRAY}\p"
-	.string "Sonntag, Sonnfried {COLOR RED}Route 37{COLOR DARK_GRAY}$"
+	.string "Montag, Monja Route 40\p"
+	.string "Dienstag, Dietlinde Route 29\p"
+	.string "Mittwoch, Mitko See des Zorns\p"
+	.string "Donnerstag, Donatus Route 36\p"
+	.string "Freitag, Frieda Route 32\p"
+	.string "Samstag, Samson Ebenholz City\p"
+	.string "Sonntag, Sonnfried Route 37$"
 #else
     .string "Monday, MONICA\n"
     .string "ROUTE 40\p"

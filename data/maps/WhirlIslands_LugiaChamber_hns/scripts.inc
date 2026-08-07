@@ -609,7 +609,7 @@ WhirlIslands_LugiaChamber_Text_Kimono_Opening::
 	.string "mit Lugia in Kontakt treten werden.\p"
 	.string "Wenn sich hier der Klang des Tanzes,\n"
 	.string "den wir täglich proben, mit dem\l"
-	.string "Eurer {COLOR RED}Gischtglocke{COLOR DARK_GRAY} überlagert, wird\l"
+	.string "Eurer Gischtglocke überlagert, wird\l"
 	.string "Lugia aus seinem Schlaf tief am Grund\p"
 	.string "des Wasserfalls erwachen und sich\n"
 	.string "von uns erblicken lassen!$"
@@ -633,7 +633,7 @@ WhirlIslands_LugiaChamber_Text_Kimono_Closing1::
 	.string "doch alle scheiterten sie kläglich…\p"
 	.string "{PLAYER}, Ihr hattet endlich Erfolg\n"
 	.string "damit, weil Euer Herz mit\l"
-	.string "der {COLOR RED}Gischtglocke{COLOR DARK_GRAY} in Einklang stand…$"
+	.string "der Gischtglocke in Einklang stand…$"
 #else
 	.string "That is indeed LUGIA...\n"
 	.string "The guardian of these islands from\l"

@@ -118,7 +118,7 @@ Route38_Text_BirdKeeperTobyBeaten:
 
 Route38_Text_BirdKeeperTobyAfter:
 #if GERMAN
-	.string "Ich habe vor, in {COLOR RED}Anemonia City{COLOR DARK_GRAY}\n"
+	.string "Ich habe vor, in Anemonia City\n"
 	.string "zu trainieren und meinen Pokémon\l"
 	.string "das Fliegen beizubringen.$"
 #else

@@ -40,7 +40,7 @@ Route25_Text_JoeyPostBattle::
 
 Route25_Text_DanIntro::
 #if GERMAN
-	.string "Ich habe in {COLOR RED}Orania City{COLOR DARK_GRAY} mit\n"
+	.string "Ich habe in Orania City mit\n"
 	.string "meinem Papa auf der M.s. Anne eine\l"
 	.string "Party besucht!$"
 #else
@@ -161,7 +161,7 @@ Route25_Text_HaleyDefeat::
 
 Route25_Text_HaleyPostBattle::
 #if GERMAN
-	.string "Du warst auf dem {COLOR RED}Mondberg{COLOR DARK_GRAY}?\n"
+	.string "Du warst auf dem Mondberg?\n"
 	.string "Hast du ein Piepi gefunden?$"
 #else
 	.string "You came from MT. MOON?\n"
@@ -170,7 +170,7 @@ Route25_Text_HaleyPostBattle::
 
 Route25_Text_FranklinIntro::
 #if GERMAN
-	.string "Ich komme gerade vom {COLOR RED}Mondberg{COLOR DARK_GRAY} und\n"
+	.string "Ich komme gerade vom Mondberg und\n"
 	.string "bin topfit!$"
 #else
 	.string "I just got down from MT. MOON,\n"
@@ -223,7 +223,7 @@ Route25_Text_NobPostBattle::
 
 Route25_Text_WayneIntro::
 #if GERMAN
-	.string "Du möchtest zu {COLOR RED}Bill{COLOR DARK_GRAY}?\n"
+	.string "Du möchtest zu Bill?\n"
 	.string "Aber erst wird gekämpft!$"
 #else
 	.string "You're going to see BILL?\n"
@@ -240,7 +240,7 @@ Route25_Text_WayneDefeat::
 Route25_Text_WaynePostBattle::
 #if GERMAN
 	.string "Der Pfad dort unten ist eine\n"
-	.string "Abkürzung nach {COLOR RED}Azuria City{COLOR DARK_GRAY}.$"
+	.string "Abkürzung nach Azuria City.$"
 #else
 	.string "The trail below is a shortcut to\n"
 	.string "CERULEAN CITY.$"
@@ -269,7 +269,7 @@ Route25_Text_MistyHighHopesAboutThisPlace::
 Route25_Text_AreYouHereAlone::
 #if GERMAN
 	.string "Hallo! Bist du alleine hier?\p"
-	.string "Wenn du am Kap von {COLOR RED}Azuria City{COLOR DARK_GRAY}\n"
+	.string "Wenn du am Kap von Azuria City\n"
 	.string "bist, solltest du jemanden dabei\l"
 	.string "haben.$"
 #else

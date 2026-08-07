@@ -159,8 +159,8 @@ SSAqua_B1F_Text_PicnickerDebraBeaten:
 
 SSAqua_B1F_Text_PicnickerDebraAfter:
 #if GERMAN
-	.string "{COLOR RED}Saffronia City{COLOR DARK_GRAY}…\n"
-	.string "{COLOR RED}Prismania City{COLOR DARK_GRAY}…\l"
+	.string "Saffronia City…\n"
+	.string "Prismania City…\l"
 	.string "Ich habe gehört, in der Kanto-Region\l"
 	.string "gibt es auch viele große Städte.$"
 #else
@@ -222,8 +222,8 @@ SSAqua_B1F_Text_SailorGarrettBeaten:
 
 SSAqua_B1F_Text_SailorGarrettAfter:
 #if GERMAN
-	.string "Auf dem Weg von {COLOR RED}Orania City{COLOR DARK_GRAY} nach\n"
-	.string "{COLOR RED}Oliviana City{COLOR DARK_GRAY} wechseln die Passagiere.$"
+	.string "Auf dem Weg von Orania City nach\n"
+	.string "Oliviana City wechseln die Passagiere.$"
 #else
 	.string "We get different passengers\n"
 	.string "from VERMILION CITY to\p"
@@ -255,7 +255,7 @@ SSAqua_B1F_Text_FisherJonahBeaten:
 SSAqua_B1F_Text_FisherJonahAfter:
 #if GERMAN
 	.string "Ich werde am Kai von\n"
-	.string "{COLOR RED}Orania City{COLOR DARK_GRAY} angeln.$"
+	.string "Orania City angeln.$"
 #else
 	.string "I plan to fish off\n"
 	.string "VERMILION's pier.$"
@@ -358,7 +358,7 @@ SSAqua_B1F_Text_TeacherShirleyBeaten:
 SSAqua_B1F_Text_TeacherShirleyAfter:
 #if GERMAN
 	.string "Wir machen einen Ausflug zu den\n"
-	.string "Ruinen bei {COLOR RED}Viola City{COLOR DARK_GRAY}.$"
+	.string "Ruinen bei Viola City.$"
 #else
 	.string "We're on a field trip to the\n"
 	.string "RUINS outside VIOLET.$"
@@ -371,7 +371,7 @@ SSAqua_B1F_EventScript_Nate::
 
 SSAqua_B1F_Text_SchoolboyNateSeen:
 #if GERMAN
-	.string "Warst du schon mal in den {COLOR RED}Alph-Ruinen{COLOR DARK_GRAY}?$"
+	.string "Warst du schon mal in den Alph-Ruinen?$"
 #else
 	.string "Do you know the RUINS OF ALPH?$"
 #endif
@@ -399,7 +399,7 @@ SSAqua_B1F_EventScript_Ricky::
 
 SSAqua_B1F_Text_SchoolboyRickySeen:
 #if GERMAN
-	.string "In den {COLOR RED}Alph-Ruinen{COLOR DARK_GRAY} gibt es\n"
+	.string "In den Alph-Ruinen gibt es\n"
 	.string "mysteriöse Steinplatten.$"
 #else
 	.string "There are some odd stone panels\n"

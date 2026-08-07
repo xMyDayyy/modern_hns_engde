@@ -43,7 +43,7 @@ SSAqua_RoomSW_Text_BeautyCassieAfterBattle:
 SSAqua_RoomSW_Text_GuitaristClydeSeen:
 #if GERMAN
 	.string "Ich werde meine Lieder beim\n"
-	.string "Radiosender in {COLOR RED}Dukatia City{COLOR DARK_GRAY} vorspielen.$"
+	.string "Radiosender in Dukatia City vorspielen.$"
 #else
     .string "I'm going to audition my songs\n"
     .string "at GOLDENROD's RADIO STATION.$"
@@ -61,7 +61,7 @@ SSAqua_RoomSW_Text_GuitaristClydeAfterBattleMobile:
 	.string "Ich wollte mein\n"
 	.string "Debut im Duellturm geben…\p"
 	.string "Ich sollte nach\n"
-	.string "{COLOR RED}Orania City{COLOR DARK_GRAY} zurückgehen und härter\l"
+	.string "Orania City zurückgehen und härter\l"
 	.string "trainieren…$"
 #else
     .string "I was going to make my debut at\n"

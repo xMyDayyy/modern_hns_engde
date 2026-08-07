@@ -57,7 +57,7 @@ SSAnne_B1F_Room4_Text_DuncanDefeat::
 SSAnne_B1F_Room4_Text_DuncanPostBattle::
 #if GERMAN
 	.string "Hast du schon den Profi-angler in\n"
-	.string "{COLOR RED}Orania City{COLOR DARK_GRAY} besucht?$"
+	.string "Orania City besucht?$"
 #else
 	.string "Did you see the FISHING GURU in\n"
 	.string "VERMILION CITY?$"

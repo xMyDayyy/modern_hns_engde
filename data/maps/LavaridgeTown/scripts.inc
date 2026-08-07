@@ -298,9 +298,9 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 #if GERMAN
-	.string "Maike: Mit diesem {COLOR RED}Wüstenglas{COLOR DARK_GRAY} wirst du\n"
+	.string "Maike: Mit diesem Wüstenglas wirst du\n"
 	.string "keine Probleme haben, durch die Wüste\l"
-	.string "in der Nähe von {COLOR RED}Route 11{COLOR DARK_GRAY}1 zu gehen.\p"
+	.string "in der Nähe von Route 111 zu gehen.\p"
 	.string "Aber, wow, {PLAYER}{KUN}…\n"
 	.string "In Arenen antreten…\p"
 	.string "Du strengst dich bestimmt sehr an,\l"
@@ -344,7 +344,7 @@ LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 #if GERMAN
 	.string "Brix: Nimm das mit, wenn du in die\n"
-	.string "Wüste in der Nähe von {COLOR RED}Route 11{COLOR DARK_GRAY}1\n"
+	.string "Wüste in der Nähe von Route 111\n"
 	.string "willst. \p"
 	.string "Da sollten sich einige Pokémon fangen\n"
 	.string "lassen, die Wüstenbewohner sind. Schau\l"

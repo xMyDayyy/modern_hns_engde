@@ -113,9 +113,9 @@ SixIsland_WaterPath_House1_Text_ItsXInchesDeserveReward::
 SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne::
 #if GERMAN
 	.string "Ich möchte ein noch größeres\n"
-	.string "{COLOR RED}Skaraborn{COLOR DARK_GRAY} sehen.\p"
+	.string "Skaraborn sehen.\p"
 	.string "Oh, wie ich sie verehre, die\n"
-	.string "großen {COLOR RED}Skaraborn{COLOR DARK_GRAY}.$"
+	.string "großen Skaraborn.$"
 #else
 	.string "I want to see a much, much bigger\n"
 	.string "HERACROSS than that one.\p"

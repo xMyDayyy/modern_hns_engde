@@ -76,13 +76,13 @@ Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou:
 
 Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
 #if GERMAN
-	.string "Wir benutzen dieses {COLOR RED}Machoband{COLOR DARK_GRAY}, um die\n"
+	.string "Wir benutzen dieses Machoband, um die\n"
 	.string "Pokémon im Training noch mehr\l"
 	.string "zu stärken.\p"
 	.string "Da du unsere gesamte Familie besiegt\n"
 	.string "hast, brauchst du es vielleicht gar\l"
 	.string "nicht. Aber wir möchten dir dieses\l"
-	.string "{COLOR RED}Machoband{COLOR DARK_GRAY} trotzdem gerne schenken.$"
+	.string "Machoband trotzdem gerne schenken.$"
 #else
 	.string "We use this MACHO BRACE to more\n"
 	.string "effectively strengthen our POKéMON\l"

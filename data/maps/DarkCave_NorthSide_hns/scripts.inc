@@ -35,7 +35,7 @@ DarkCave2_EventScript_BlackGlassesGot::
 DarkCave2_Text_Nerd:
 #if GERMAN
 	.string "Huch! Hast du mich aber erschreckt!\p"
-	.string "Mit meinem {COLOR RED}Schattenglas{COLOR DARK_GRAY} auf der Nase\n"
+	.string "Mit meinem Schattenglas auf der Nase\n"
 	.string "bist du mir gar nicht aufgefallen!\p"
 	.string "Was ich hier mache?\p"
 	.string "Ach, das willst du nicht wissen! Hier, ich\n"

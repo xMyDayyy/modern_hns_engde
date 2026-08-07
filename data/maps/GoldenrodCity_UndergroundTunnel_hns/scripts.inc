@@ -574,8 +574,8 @@ GoldenrodUnderground_Text_PokemaniacDonaldAfterBattle:
 
 GoldenrodUnderground_Text_PokemaniacDonaldAfterBattleOld:
 #if GERMAN
-	.string "Sammelst du für den {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
-	.string "Tipp: Der Wanderer auf {COLOR RED}Route 33{COLOR DARK_GRAY},\n"
+	.string "Sammelst du für den Pokédex?\p"
+	.string "Tipp: Der Wanderer auf Route 33,\n"
 	.string "Tom, ist nett.\p"
 	.string "Er ruft dich, wenn er seltene\n"
 	.string "Pokémon sieht.$"
@@ -604,7 +604,7 @@ GoldenrodUnderground_Text_DoorIsOpen:
 
 GoldenrodUnderground_Text_KeyOpenedDoor:
 #if GERMAN
-	.string "{COLOR RED}Kelleröffner{COLOR DARK_GRAY} entriegelt die Tür.$"
+	.string "Kelleröffner entriegelt die Tür.$"
 #else
     .string "The BASEMENT KEY opened the door.$"
 #endif

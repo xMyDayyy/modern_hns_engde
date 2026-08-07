@@ -44,7 +44,7 @@ AzaleaPokecenter_Text_Gentleman:
 
 AzaleaPokecenter_Text_UnusedPCExplanation:
 #if GERMAN
-	.string "Dieser {COLOR RED}Bill{COLOR DARK_GRAY} hat\n"
+	.string "Dieser Bill hat\n"
 	.string "das Pokémon-Lagerungssystem für PC\n"
 	.string "entwickelt.\p"
 	.string "Auf Bills PC können\n"
@@ -60,7 +60,7 @@ AzaleaPokecenter_Text_UnusedPCExplanation:
 AzaleaPokecenter_Text_FishingGuru:
 #if GERMAN
 	.string "Das Pokémon-Lagerungssystem, das\n"
-	.string "{COLOR RED}Bill{COLOR DARK_GRAY} erfunden hat, erlaubt es dir, bis zu\l"
+	.string "Bill erfunden hat, erlaubt es dir, bis zu\l"
 	.string "30 Pokémon in einer Box zu lagern!$"
 #else
 	.string "BILL's PC can store up to 30\n"

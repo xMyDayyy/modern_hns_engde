@@ -38,7 +38,7 @@ SaffronCity_Text_Baoba:
 	.string "Du weißt noch, wo sie ist,\n"
 	.string "oder?\p"
 	.string "Direkt westlich von\n"
-	.string "{COLOR RED}Anemonia City{COLOR DARK_GRAY}!\l"
+	.string "Anemonia City!\l"
 	.string "Bis bald!$"
 #else
 	.string "WARDEN BAOBA: {PLAYER}!\p"
@@ -216,7 +216,7 @@ SaffronCity_Text_Fisher:
 #if GERMAN
 	.string "Mampf… Mampf…\p"
 	.string "Wie ich höre,\n"
-	.string "braut sich da etwas im {COLOR RED}Kraftwerk{COLOR DARK_GRAY}\l"
+	.string "braut sich da etwas im Kraftwerk\l"
 	.string "zusammen.\p"
 	.string "Mampf… Mampf…$"
 #else
@@ -230,7 +230,7 @@ SaffronCity_Text_Fisher_ReturnedPart:
 #if GERMAN
 	.string "Mampf… Mampf…\p"
 	.string "Wie ich höre,\n"
-	.string "braute sich da etwas im {COLOR RED}Kraftwerk{COLOR DARK_GRAY}\l"
+	.string "braute sich da etwas im Kraftwerk\l"
 	.string "zusammen.\p"
 	.string "Mampf… Mampf… Aah, ich bin satt!$"
 #else
@@ -251,7 +251,7 @@ SaffronCity_Text_Youngster1:
 
 SaffronCity_Text_Youngster2:
 #if GERMAN
-	.string "In {COLOR RED}Vertania City{COLOR DARK_GRAY} gibt es ein Trainer-\n"
+	.string "In Vertania City gibt es ein Trainer-\n"
 	.string "Haus, wo sich Pokémon-Trainer\l"
 	.string "aus der ganzen Welt treffen.$"
 #else

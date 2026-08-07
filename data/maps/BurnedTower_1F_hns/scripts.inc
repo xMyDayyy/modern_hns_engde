@@ -110,7 +110,7 @@ BurnedTower_1FEusineText:
 BurnedTower_1FMortyText:
 #if GERMAN
 	.string "Jens: Der Arenaleiter von\n"
-	.string "{COLOR RED}Teak City{COLOR DARK_GRAY} muss die sogenannten\l"
+	.string "Teak City muss die sogenannten\l"
 	.string "legendären Pokémon\p"
 	.string "Suicune, Entei und Raikou studieren.\p"
 	.string "Eusin ist gekommen, also habe\n"

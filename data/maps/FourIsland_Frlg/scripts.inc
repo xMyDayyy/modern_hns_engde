@@ -215,7 +215,7 @@ FourIsland_Text_RivalAlreadyGotEggBeSmellingYa::
 	.string "Heh, ich glaube, du weißt nichts\l"
 	.string "über Pokémon-Eier.\p"
 	.string "Du wirst nie deinen Nationalen\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} vervollständigen.\p"
+	.string "Pokédex vervollständigen.\p"
 	.string "Apropos, ich sah jemanden auf\n"
 	.string "dieser Insel, den wir beide kennen.\p"
 	.string "Warum siehst du dich nicht um, wenn\n"

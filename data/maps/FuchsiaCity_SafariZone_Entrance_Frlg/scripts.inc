@@ -207,7 +207,7 @@ FuchsiaCity_SafariZone_Entrance_EventScript_ExplainSafariZone::
 
 FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone::
 #if GERMAN
-	.string "Willkommen in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY}!$"
+	.string "Willkommen in der Safari-Zone!$"
 #else
 	.string "Welcome to the SAFARI ZONE!$"
 #endif
@@ -321,7 +321,7 @@ FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone::
 
 FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
 #if GERMAN
-	.string "Die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} besteht aus vier\n"
+	.string "Die Safari-Zone besteht aus vier\n"
 	.string "Abschnitten.\p"
 	.string "In jedem Abschnitt findet man\n"
 	.string "verschiedene Pokémon. Versuche,\l"

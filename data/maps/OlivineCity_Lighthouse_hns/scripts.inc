@@ -53,7 +53,7 @@ OlivineLighthouse_Text_1FSailor:
 OlivineLighthouse_Text_1FPokefanF:
 #if GERMAN
 	.string "Früher haben Pokémon nachts die\n"
-	.string "Gewässer um {COLOR RED}Oliviana City{COLOR DARK_GRAY} erhellt.\p"
+	.string "Gewässer um Oliviana City erhellt.\p"
 	.string "Der Leuchtturm wurde errichtet,\n"
 	.string "um diese Pokémon zu ehren.$"
 #else
@@ -251,7 +251,7 @@ OlivineLighthouse_Text_SailorTerrellBeaten:
 
 OlivineLighthouse_Text_SailorTerrellAfter:
 #if GERMAN
-	.string "Jedes Mal, wenn ich nach {COLOR RED}Oliviana City{COLOR DARK_GRAY}\n"
+	.string "Jedes Mal, wenn ich nach Oliviana City\n"
 	.string "komme, gehe ich in die Pokémon-Arena.\p"
 	.string "Aber dass der Pokémon-Typ der Arena-\n"
 	.string "leiterin sich geändert hat, war mir neu.$"
@@ -324,7 +324,7 @@ OlivineLighthouse_Text_SailorKentBeaten:
 OlivineLighthouse_Text_SailorKentAfter:
 #if GERMAN
 	.string "Apropos krank: Mir ist zu Ohren\n"
-	.string "gekommen, dass es in {COLOR RED}Anemonia City{COLOR DARK_GRAY}\l"
+	.string "gekommen, dass es in Anemonia City\l"
 	.string "eine gute Apotheke geben soll.$"
 #else
 	.string "Speaking of sick, I've heard there's\n"
@@ -426,7 +426,7 @@ OlivineLighthouse_Text_BirdKeeperDenisBeaten:
 OlivineLighthouse_Text_BirdKeeperDenisAfter:
 #if GERMAN
 	.string "Meine Pokémon lernten Fliegen in\n"
-	.string "{COLOR RED}Anemonia City{COLOR DARK_GRAY}.\p"
+	.string "Anemonia City.\p"
 	.string "Da ich ein Verlierer bin, werde ich\n"
 	.string "über das Meer fliegen…$"
 #else
@@ -486,7 +486,7 @@ OlivineLighthouse_Text_JasmineCianwoodPharmacy:
 	.string "Aber dann…\n"
 	.string "wurde es plötzlich sehr krank.\l"
 	.string "Seitdem ringt es nur noch nach Luft…\p"
-	.string "In {COLOR RED}Anemonia City{COLOR DARK_GRAY}, auf der anderen\n"
+	.string "In Anemonia City, auf der anderen\n"
 	.string "Seite des Ozeans, soll es einen\l"
 	.string "wundertätigen Apotheker geben, aber…\p"
 	.string "…ich kann Amphi nicht einfach\n"
@@ -518,7 +518,7 @@ OlivineLighthouse_Text_JasmineGetMedicine:
 
 OlivineLighthouse_Text_JasmineGetMedicine2:
 #if GERMAN
-	.string "In {COLOR RED}Anemonia City{COLOR DARK_GRAY} gibt es eine tolle\n"
+	.string "In Anemonia City gibt es eine tolle\n"
 	.string "Apotheke…\p"
 	.string "Aber das ist über das Meer…\n"
 	.string "Und Amphy kann ich nicht allein\n"
@@ -610,7 +610,7 @@ OlivineLighthouse_EventScript_JasmineRefuse::
 OlivineLighthouse_Text_PlayerHandedSecretpotion:
 #if GERMAN
 	.string "{PLAYER} übergab Jasmin den\n"
-	.string "{COLOR RED}Geheimtrank{COLOR DARK_GRAY}.$"
+	.string "Geheimtrank.$"
 #else
 	.string "{PLAYER} handed the SECRET POTION to\n"
 	.string "JASMINE.$"

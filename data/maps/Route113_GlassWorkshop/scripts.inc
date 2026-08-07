@@ -314,9 +314,9 @@ Route113_GlassWorkshop_Text_GoCollectAshWithThis:
 
 Route113_GlassWorkshop_Text_ExplainSootSack:
 #if GERMAN
-	.string "Nimm diese {COLOR RED}Aschetasche{COLOR DARK_GRAY} und lauf durch\n"
+	.string "Nimm diese Aschetasche und lauf durch\n"
 	.string "die Asche. Schnauf, keuch…\p"
-	.string "Damit füllst du die {COLOR RED}Aschetasche{COLOR DARK_GRAY} mit\n"
+	.string "Damit füllst du die Aschetasche mit\n"
 	.string "Asche. Schnauf, keuch…\p"
 	.string "Und wenn du meinst, du hast genug ge-\n"
 	.string "sammelt, komm zu mir. Schnauf, keuch…$"

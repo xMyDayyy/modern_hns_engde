@@ -1268,7 +1268,7 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "System ausgerüstet.\p"
 	.string "Dann werde ich dich in mein Pokénav-\n"
 	.string "Verzeichnis eintragen.\p"
-	.string "So kann ich deinen {COLOR RED}Pokédex{COLOR DARK_GRAY} beurteilen,\n"
+	.string "So kann ich deinen Pokédex beurteilen,\n"
 	.string "auch wenn du weit weg bist.\p"
 	.string "… … … … …\n"
 	.string "…$"

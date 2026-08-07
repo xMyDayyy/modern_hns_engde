@@ -42,7 +42,7 @@ FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon::
 
 FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
 #if GERMAN
-	.string "Westlich von {COLOR RED}Vertania City{COLOR DARK_GRAY} liegt\n"
+	.string "Westlich von Vertania City liegt\n"
 	.string "ein Pfad.\p"
 	.string "Er führt zum Hauptquartier der\n"
 	.string "Pokémon Liga, der höchsten Instanz\l"
@@ -57,7 +57,7 @@ FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
 FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex::
 #if GERMAN
 	.string "Du studierst die Pokémon?\n"
-	.string "Dann gehe in die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}.\p"
+	.string "Dann gehe in die Safari-Zone.\p"
 	.string "Dort gibt es viele seltene Pokémon.$"
 #else
 	.string "If you're working on a POKéDEX,\n"

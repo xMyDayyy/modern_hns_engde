@@ -75,7 +75,7 @@ Route6_Text_KeigoDefeat::
 
 Route6_Text_KeigoPostBattle::
 #if GERMAN
-	.string "Ich gehe in den {COLOR RED}Vertania{COLOR DARK_GRAY}-wald\n"
+	.string "Ich gehe in den Vertania-wald\n"
 	.string "zurück. Dort gibt es mehr Käfer!$"
 #else
 	.string "I like bugs, so I'm going back to\n"

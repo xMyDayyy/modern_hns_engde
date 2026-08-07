@@ -87,7 +87,7 @@ CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex::
 	.string "Gefällt dir das Spiel?\p"
 	.string "Ich habe das Spiel gestaltet!\p"
 	.string "Auch wenn es sehr mühsam ist, den\n"
-	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} zu erstellen: Gib nicht\l"
+	.string "Pokédex zu erstellen: Gib nicht\l"
 	.string "auf!\p"
 	.string "Zeige ihn mir, wenn er komplett ist!$"
 #else
@@ -101,7 +101,7 @@ CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex::
 CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations::
 #if GERMAN
 	.string "Wow! Fantastisch!\n"
-	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} ist vollständig!\l"
+	.string "Dein Pokédex ist vollständig!\l"
 	.string "Herzlichen Glückwunsch!\l"
 	.string "…$"
 #else

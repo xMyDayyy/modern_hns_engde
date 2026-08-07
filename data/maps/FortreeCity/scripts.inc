@@ -92,7 +92,7 @@ FortreeCity_Text_SawGiganticPokemonInSky:
 	.string "Niemand glaubt mir. Aber ich habe\n"
 	.string "wirklich ein riesiges Pokémon am\l"
 	.string "Himmel gesehen!\p"
-	.string "Als es Richtung {COLOR RED}Route 13{COLOR DARK_GRAY}1 flog, schien\n"
+	.string "Als es Richtung Route 131 flog, schien\n"
 	.string "es sich zu winden.\p"
 	.string "Schnüffel…\n"
 	.string "Äh… Du, uh… riechst angesengt.\p"
@@ -111,7 +111,7 @@ FortreeCity_Text_SomethingBlockingGym:
 #if GERMAN
 	.string "Ich wollte zur Pokémon Arena, aber\n"
 	.string "irgendetwas blockiert den Weg.\p"
-	.string "Und das, nachdem ich auf der {COLOR RED}Route 12{COLOR DARK_GRAY}0\n"
+	.string "Und das, nachdem ich auf der Route 120\n"
 	.string "so fleißig trainiert habe…$"
 #else
 	.string "I want to go to the POKéMON GYM,\n"
@@ -193,7 +193,7 @@ FortreeCity_Text_UnseeableUseDevonScope:
 #if GERMAN
 	.string "Etwas Unsichtbares blockiert den Weg.\n"
 	.string "\p"
-	.string "Willst du das {COLOR RED}Devon-Scope{COLOR DARK_GRAY} einsetzen?$"
+	.string "Willst du das Devon-Scope einsetzen?$"
 #else
 	.string "Something unseeable is in the way.\p"
 	.string "Want to use the DEVON SCOPE?$"
@@ -201,7 +201,7 @@ FortreeCity_Text_UnseeableUseDevonScope:
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
 #if GERMAN
-	.string "{PLAYER} setzt das {COLOR RED}Devon-Scope{COLOR DARK_GRAY} ein.\p"
+	.string "{PLAYER} setzt das Devon-Scope ein.\p"
 	.string "Ein unsichtbares Pokémon ist sichtbar\n"
 	.string "geworden!\p"
 	.string "Das erschrockene Pokémon flieht!$"
