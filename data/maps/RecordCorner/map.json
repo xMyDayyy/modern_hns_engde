@@ -1,7 +1,7 @@
 {
   "id": "MAP_RECORD_CORNER",
   "name": "RecordCorner",
-  "game_version": "emerald",
+  "game_version": "hns",
   "layout": "LAYOUT_RECORD_CORNER",
   "music": "MUS_EVER_GRANDE",
   "region_map_section": "MAPSEC_DYNAMIC",

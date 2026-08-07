@@ -1,7 +1,7 @@
 {
   "id": "MAP_SLATEPORT_CITY",
   "name": "SlateportCity",
-  "game_version": "emerald",
+  "game_version": "hns",
   "layout": "LAYOUT_SLATEPORT_CITY",
   "music": "MUS_SLATEPORT",
   "region_map_section": "MAPSEC_SLATEPORT_CITY",

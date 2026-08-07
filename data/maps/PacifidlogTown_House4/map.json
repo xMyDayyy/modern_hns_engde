@@ -1,7 +1,7 @@
 {
   "id": "MAP_PACIFIDLOG_TOWN_HOUSE4",
   "name": "PacifidlogTown_House4",
-  "game_version": "emerald",
+  "game_version": "hns",
   "layout": "LAYOUT_PACIFIDLOG_TOWN_HOUSE2",
   "music": "MUS_LILYCOVE",
   "region_map_section": "MAPSEC_PACIFIDLOG_TOWN",

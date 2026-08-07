@@ -10,7 +10,8 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/PetalburgCity/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgCity/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SLATEPORT_CITY",
@@ -21,7 +22,8 @@
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/SlateportCity/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAUVILLE_CITY",
@@ -32,7 +34,8 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/MauvilleCity/border.bin",
       "blockdata_filepath": "data/layouts/MauvilleCity/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY",
@@ -43,7 +46,8 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/RustboroCity/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FORTREE_CITY",
@@ -54,7 +58,8 @@
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/FortreeCity/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY",
@@ -65,7 +70,8 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/LilycoveCity/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MOSSDEEP_CITY",
@@ -76,7 +82,8 @@
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/MossdeepCity/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY",
@@ -87,7 +94,8 @@
       "secondary_tileset": "gTileset_Sootopolis",
       "border_filepath": "data/layouts/SootopolisCity/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY",
@@ -98,7 +106,8 @@
       "secondary_tileset": "gTileset_EverGrande",
       "border_filepath": "data/layouts/EverGrandeCity/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LITTLEROOT_TOWN",
@@ -109,7 +118,8 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/LittlerootTown/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_OLDALE_TOWN",
@@ -120,7 +130,8 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/OldaleTown/border.bin",
       "blockdata_filepath": "data/layouts/OldaleTown/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_DEWFORD_TOWN",
@@ -131,7 +142,8 @@
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/DewfordTown/border.bin",
       "blockdata_filepath": "data/layouts/DewfordTown/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LAVARIDGE_TOWN",
@@ -142,7 +154,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/LavaridgeTown/border.bin",
       "blockdata_filepath": "data/layouts/LavaridgeTown/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FALLARBOR_TOWN",
@@ -153,7 +166,8 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/FallarborTown/border.bin",
       "blockdata_filepath": "data/layouts/FallarborTown/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_VERDANTURF_TOWN",
@@ -164,7 +178,8 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/VerdanturfTown/border.bin",
       "blockdata_filepath": "data/layouts/VerdanturfTown/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_PACIFIDLOG_TOWN",
@@ -175,7 +190,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/PacifidlogTown/border.bin",
       "blockdata_filepath": "data/layouts/PacifidlogTown/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE101",
@@ -186,7 +202,8 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route101/border.bin",
       "blockdata_filepath": "data/layouts/Route101/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE102",
@@ -197,7 +214,8 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route102/border.bin",
       "blockdata_filepath": "data/layouts/Route102/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE103",
@@ -208,7 +226,8 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route103/border.bin",
       "blockdata_filepath": "data/layouts/Route103/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE104",
@@ -219,7 +238,8 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route104/border.bin",
       "blockdata_filepath": "data/layouts/Route104/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE105",
@@ -230,7 +250,8 @@
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/Route105/border.bin",
       "blockdata_filepath": "data/layouts/Route105/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE106",
@@ -241,7 +262,8 @@
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/Route106/border.bin",
       "blockdata_filepath": "data/layouts/Route106/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE107",
@@ -252,7 +274,8 @@
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/Route107/border.bin",
       "blockdata_filepath": "data/layouts/Route107/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE108",
@@ -263,7 +286,8 @@
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/Route108/border.bin",
       "blockdata_filepath": "data/layouts/Route108/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE109",
@@ -274,7 +298,8 @@
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/Route109/border.bin",
       "blockdata_filepath": "data/layouts/Route109/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110",
@@ -285,7 +310,8 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route110/border.bin",
       "blockdata_filepath": "data/layouts/Route110/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE111",
@@ -296,7 +322,8 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route111/border.bin",
       "blockdata_filepath": "data/layouts/Route111/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE112",
@@ -307,7 +334,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/Route112/border.bin",
       "blockdata_filepath": "data/layouts/Route112/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE113",
@@ -318,7 +346,8 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route113/border.bin",
       "blockdata_filepath": "data/layouts/Route113/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE114",
@@ -329,7 +358,8 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route114/border.bin",
       "blockdata_filepath": "data/layouts/Route114/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE115",
@@ -340,7 +370,8 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route115/border.bin",
       "blockdata_filepath": "data/layouts/Route115/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE116",
@@ -351,7 +382,8 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route116/border.bin",
       "blockdata_filepath": "data/layouts/Route116/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE117",
@@ -362,7 +394,8 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route117/border.bin",
       "blockdata_filepath": "data/layouts/Route117/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE118",
@@ -373,7 +406,8 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route118/border.bin",
       "blockdata_filepath": "data/layouts/Route118/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE119",
@@ -384,7 +418,8 @@
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/Route119/border.bin",
       "blockdata_filepath": "data/layouts/Route119/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE120",
@@ -395,7 +430,8 @@
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/Route120/border.bin",
       "blockdata_filepath": "data/layouts/Route120/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE121",
@@ -406,7 +442,8 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/Route121/border.bin",
       "blockdata_filepath": "data/layouts/Route121/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE122",
@@ -417,7 +454,8 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/Route122/border.bin",
       "blockdata_filepath": "data/layouts/Route122/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE123",
@@ -428,7 +466,8 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/Route123/border.bin",
       "blockdata_filepath": "data/layouts/Route123/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE124",
@@ -439,7 +478,8 @@
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route124/border.bin",
       "blockdata_filepath": "data/layouts/Route124/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE125",
@@ -450,7 +490,8 @@
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route125/border.bin",
       "blockdata_filepath": "data/layouts/Route125/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE126",
@@ -461,7 +502,8 @@
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route126/border.bin",
       "blockdata_filepath": "data/layouts/Route126/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE127",
@@ -472,7 +514,8 @@
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route127/border.bin",
       "blockdata_filepath": "data/layouts/Route127/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE128",
@@ -483,7 +526,8 @@
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route128/border.bin",
       "blockdata_filepath": "data/layouts/Route128/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE129",
@@ -494,7 +538,8 @@
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route129/border.bin",
       "blockdata_filepath": "data/layouts/Route129/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE130_MIRAGE_ISLAND",
@@ -505,7 +550,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/Route130_MirageIsland/border.bin",
       "blockdata_filepath": "data/layouts/Route130_MirageIsland/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE131",
@@ -516,7 +562,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route131/border.bin",
       "blockdata_filepath": "data/layouts/Route131/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE132",
@@ -527,7 +574,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route132/border.bin",
       "blockdata_filepath": "data/layouts/Route132/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE133",
@@ -538,7 +586,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route133/border.bin",
       "blockdata_filepath": "data/layouts/Route133/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE134",
@@ -549,7 +598,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route134/border.bin",
       "blockdata_filepath": "data/layouts/Route134/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_ROUTE126",
@@ -560,7 +610,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route126/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route126/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_ROUTE127",
@@ -571,7 +622,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route127/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route127/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_ROUTE128",
@@ -582,7 +634,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route128/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route128/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
@@ -593,7 +646,8 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F",
@@ -604,7 +658,8 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/LittlerootTown_BrendansHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LITTLEROOT_TOWN_MAYS_HOUSE_1F",
@@ -615,7 +670,8 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/LittlerootTown_MaysHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LITTLEROOT_TOWN_MAYS_HOUSE_2F",
@@ -626,7 +682,8 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
@@ -637,7 +694,8 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLab/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLab/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_HOUSE1",
@@ -648,7 +706,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/House1/border.bin",
       "blockdata_filepath": "data/layouts/House1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_HOUSE2",
@@ -659,7 +718,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/House2/border.bin",
       "blockdata_filepath": "data/layouts/House2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_POKEMON_CENTER_1F",
@@ -670,7 +730,8 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonCenter_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_POKEMON_CENTER_2F",
@@ -681,7 +742,8 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/PokemonCenter_2F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonCenter_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MART",
@@ -692,7 +754,8 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/Mart/border.bin",
       "blockdata_filepath": "data/layouts/Mart/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_HOUSE3",
@@ -703,7 +766,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/House3/border.bin",
       "blockdata_filepath": "data/layouts/House3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_DEWFORD_TOWN_GYM",
@@ -714,7 +778,8 @@
       "secondary_tileset": "gTileset_DewfordGym",
       "border_filepath": "data/layouts/DewfordTown_Gym/border.bin",
       "blockdata_filepath": "data/layouts/DewfordTown_Gym/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_DEWFORD_TOWN_HALL",
@@ -725,7 +790,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/DewfordTown_Hall/border.bin",
       "blockdata_filepath": "data/layouts/DewfordTown_Hall/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_HOUSE4",
@@ -736,7 +802,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/House4/border.bin",
       "blockdata_filepath": "data/layouts/House4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LAVARIDGE_TOWN_HERB_SHOP",
@@ -747,7 +814,8 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/LavaridgeTown_HerbShop/border.bin",
       "blockdata_filepath": "data/layouts/LavaridgeTown_HerbShop/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LAVARIDGE_TOWN_GYM_1F",
@@ -758,7 +826,8 @@
       "secondary_tileset": "gTileset_LavaridgeGym",
       "border_filepath": "data/layouts/LavaridgeTown_Gym_1F/border.bin",
       "blockdata_filepath": "data/layouts/LavaridgeTown_Gym_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LAVARIDGE_TOWN_GYM_B1F",
@@ -769,7 +838,8 @@
       "secondary_tileset": "gTileset_LavaridgeGym",
       "border_filepath": "data/layouts/LavaridgeTown_Gym_B1F/border.bin",
       "blockdata_filepath": "data/layouts/LavaridgeTown_Gym_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
@@ -780,7 +850,8 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FALLARBOR_TOWN_LEFTOVER_RSCONTEST_LOBBY",
@@ -791,7 +862,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/FallarborTown_LeftoverRSContestLobby/border.bin",
       "blockdata_filepath": "data/layouts/FallarborTown_LeftoverRSContestLobby/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FALLARBOR_TOWN_LEFTOVER_RSCONTEST_HALL",
@@ -802,7 +874,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/FallarborTown_LeftoverRSContestHall/border.bin",
       "blockdata_filepath": "data/layouts/FallarborTown_LeftoverRSContestHall/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_HOUSE2",
@@ -813,7 +886,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/LilycoveCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_House2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_ROOM1",
@@ -824,7 +898,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/UnusedContestRoom1/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestRoom1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_VERDANTURF_TOWN_WANDAS_HOUSE",
@@ -835,7 +910,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/VerdanturfTown_WandasHouse/border.bin",
       "blockdata_filepath": "data/layouts/VerdanturfTown_WandasHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_PACIFIDLOG_TOWN_HOUSE1",
@@ -846,7 +922,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/PacifidlogTown_House1/border.bin",
       "blockdata_filepath": "data/layouts/PacifidlogTown_House1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_PACIFIDLOG_TOWN_HOUSE2",
@@ -857,7 +934,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/PacifidlogTown_House2/border.bin",
       "blockdata_filepath": "data/layouts/PacifidlogTown_House2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_PETALBURG_CITY_GYM",
@@ -868,7 +946,8 @@
       "secondary_tileset": "gTileset_PetalburgGym",
       "border_filepath": "data/layouts/PetalburgCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgCity_Gym/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_HOUSE_WITH_BED",
@@ -879,7 +958,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/HouseWithBed/border.bin",
       "blockdata_filepath": "data/layouts/HouseWithBed/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SLATEPORT_CITY_STERNS_SHIPYARD_1F",
@@ -890,7 +970,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/SlateportCity_SternsShipyard_1F/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_SternsShipyard_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SLATEPORT_CITY_STERNS_SHIPYARD_2F",
@@ -901,7 +982,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/SlateportCity_SternsShipyard_2F/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_SternsShipyard_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_ROOM2",
@@ -912,7 +994,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/UnusedContestRoom2/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestRoom2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_ROOM3",
@@ -923,7 +1006,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/UnusedContestRoom3/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestRoom3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SLATEPORT_CITY_POKEMON_FAN_CLUB",
@@ -934,7 +1018,8 @@
       "secondary_tileset": "gTileset_PokemonFanClub",
       "border_filepath": "data/layouts/SlateportCity_PokemonFanClub/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_PokemonFanClub/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SLATEPORT_CITY_OCEANIC_MUSEUM_1F",
@@ -945,7 +1030,8 @@
       "secondary_tileset": "gTileset_OceanicMuseum",
       "border_filepath": "data/layouts/SlateportCity_OceanicMuseum_1F/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_OceanicMuseum_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SLATEPORT_CITY_OCEANIC_MUSEUM_2F",
@@ -956,7 +1042,8 @@
       "secondary_tileset": "gTileset_OceanicMuseum",
       "border_filepath": "data/layouts/SlateportCity_OceanicMuseum_2F/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_OceanicMuseum_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_HARBOR",
@@ -967,7 +1054,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/Harbor/border.bin",
       "blockdata_filepath": "data/layouts/Harbor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAUVILLE_CITY_GYM",
@@ -978,7 +1066,8 @@
       "secondary_tileset": "gTileset_MauvilleGym",
       "border_filepath": "data/layouts/MauvilleCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/MauvilleCity_Gym/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAUVILLE_CITY_BIKE_SHOP",
@@ -989,7 +1078,8 @@
       "secondary_tileset": "gTileset_BikeShop",
       "border_filepath": "data/layouts/MauvilleCity_BikeShop/border.bin",
       "blockdata_filepath": "data/layouts/MauvilleCity_BikeShop/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAUVILLE_CITY_GAME_CORNER",
@@ -1000,7 +1090,8 @@
       "secondary_tileset": "gTileset_MauvilleGameCorner",
       "border_filepath": "data/layouts/MauvilleCity_GameCorner/border.bin",
       "blockdata_filepath": "data/layouts/MauvilleCity_GameCorner/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_DEVON_CORP_1F",
@@ -1011,7 +1102,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/RustboroCity_DevonCorp_1F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_DevonCorp_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_DEVON_CORP_2F",
@@ -1022,7 +1114,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/RustboroCity_DevonCorp_2F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_DevonCorp_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_GYM",
@@ -1033,7 +1126,8 @@
       "secondary_tileset": "gTileset_RustboroGym",
       "border_filepath": "data/layouts/RustboroCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_Gym/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_POKEMON_SCHOOL",
@@ -1044,7 +1138,8 @@
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/RustboroCity_PokemonSchool/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_PokemonSchool/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_HOUSE",
@@ -1055,7 +1150,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/RustboroCity_House/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_House/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_HOUSE1",
@@ -1066,7 +1162,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/RustboroCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_House1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_CUTTERS_HOUSE",
@@ -1077,7 +1174,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/RustboroCity_CuttersHouse/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_CuttersHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FORTREE_CITY_HOUSE1",
@@ -1088,7 +1186,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/FortreeCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity_House1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FORTREE_CITY_GYM",
@@ -1099,7 +1198,8 @@
       "secondary_tileset": "gTileset_FortreeGym",
       "border_filepath": "data/layouts/FortreeCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity_Gym/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FORTREE_CITY_HOUSE2",
@@ -1110,7 +1210,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/FortreeCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity_House2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE104_MR_BRINEYS_HOUSE",
@@ -1121,7 +1222,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Route104_MrBrineysHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route104_MrBrineysHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F",
@@ -1132,7 +1234,8 @@
       "secondary_tileset": "gTileset_LilycoveMuseum",
       "border_filepath": "data/layouts/LilycoveCity_LilycoveMuseum_1F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_LilycoveMuseum_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_LILYCOVE_MUSEUM_2F",
@@ -1143,7 +1246,8 @@
       "secondary_tileset": "gTileset_LilycoveMuseum",
       "border_filepath": "data/layouts/LilycoveCity_LilycoveMuseum_2F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_LilycoveMuseum_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_CONTEST_LOBBY",
@@ -1154,7 +1258,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/LilycoveCity_ContestLobby/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_ContestLobby/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_CONTEST_HALL",
@@ -1165,7 +1270,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/LilycoveCity_ContestHall/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_ContestHall/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_POKEMON_TRAINER_FAN_CLUB",
@@ -1176,7 +1282,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/LilycoveCity_PokemonTrainerFanClub/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_PokemonTrainerFanClub/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MOSSDEEP_CITY_GYM",
@@ -1187,7 +1294,8 @@
       "secondary_tileset": "gTileset_MossdeepGym",
       "border_filepath": "data/layouts/MossdeepCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity_Gym/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_GYM_1F",
@@ -1198,7 +1306,8 @@
       "secondary_tileset": "gTileset_SootopolisGym",
       "border_filepath": "data/layouts/SootopolisCity_Gym_1F/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_Gym_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_GYM_B1F",
@@ -1209,7 +1318,8 @@
       "secondary_tileset": "gTileset_SootopolisGym",
       "border_filepath": "data/layouts/SootopolisCity_Gym_B1F/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_Gym_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_SIDNEYS_ROOM",
@@ -1220,7 +1330,8 @@
       "secondary_tileset": "gTileset_EliteFour",
       "border_filepath": "data/layouts/EverGrandeCity_SidneysRoom/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_SidneysRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_PHOEBES_ROOM",
@@ -1231,7 +1342,8 @@
       "secondary_tileset": "gTileset_EliteFour",
       "border_filepath": "data/layouts/EverGrandeCity_PhoebesRoom/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_PhoebesRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_GLACIAS_ROOM",
@@ -1242,7 +1354,8 @@
       "secondary_tileset": "gTileset_EliteFour",
       "border_filepath": "data/layouts/EverGrandeCity_GlaciasRoom/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_GlaciasRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_DRAKES_ROOM",
@@ -1253,7 +1366,8 @@
       "secondary_tileset": "gTileset_EliteFour",
       "border_filepath": "data/layouts/EverGrandeCity_DrakesRoom/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_DrakesRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
@@ -1264,7 +1378,8 @@
       "secondary_tileset": "gTileset_EliteFour",
       "border_filepath": "data/layouts/EverGrandeCity_ChampionsRoom/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_ChampionsRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_SHORT_HALL",
@@ -1275,7 +1390,8 @@
       "secondary_tileset": "gTileset_EliteFour",
       "border_filepath": "data/layouts/EverGrandeCity_ShortHall/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_ShortHall/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE104_PRETTY_PETAL_FLOWER_SHOP",
@@ -1286,7 +1402,8 @@
       "secondary_tileset": "gTileset_PrettyPetalFlowerShop",
       "border_filepath": "data/layouts/Route104_PrettyPetalFlowerShop/border.bin",
       "blockdata_filepath": "data/layouts/Route104_PrettyPetalFlowerShop/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CABLE_CAR_STATION",
@@ -1297,7 +1414,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/CableCarStation/border.bin",
       "blockdata_filepath": "data/layouts/CableCarStation/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE114_FOSSIL_MANIACS_HOUSE",
@@ -1308,7 +1426,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Route114_FossilManiacsHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route114_FossilManiacsHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE114_FOSSIL_MANIACS_TUNNEL",
@@ -1319,7 +1438,8 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route114_FossilManiacsTunnel/border.bin",
       "blockdata_filepath": "data/layouts/Route114_FossilManiacsTunnel/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE114_LANETTES_HOUSE",
@@ -1330,7 +1450,8 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/Route114_LanettesHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route114_LanettesHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE116_TUNNELERS_REST_HOUSE",
@@ -1341,7 +1462,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Route116_TunnelersRestHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route116_TunnelersRestHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE117_POKEMON_DAY_CARE",
@@ -1352,7 +1474,8 @@
       "secondary_tileset": "gTileset_PokemonDayCare",
       "border_filepath": "data/layouts/Route117_PokemonDayCare/border.bin",
       "blockdata_filepath": "data/layouts/Route117_PokemonDayCare/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE121_SAFARI_ZONE_ENTRANCE",
@@ -1363,7 +1486,8 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/Route121_SafariZoneEntrance/border.bin",
       "blockdata_filepath": "data/layouts/Route121_SafariZoneEntrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_METEOR_FALLS_1F_1R",
@@ -1374,7 +1498,8 @@
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/MeteorFalls_1F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_1F_1R/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_METEOR_FALLS_1F_2R",
@@ -1385,7 +1510,8 @@
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/MeteorFalls_1F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_1F_2R/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_METEOR_FALLS_B1F_1R",
@@ -1396,7 +1522,8 @@
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/MeteorFalls_B1F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_B1F_1R/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_METEOR_FALLS_B1F_2R",
@@ -1407,7 +1534,8 @@
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/MeteorFalls_B1F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_B1F_2R/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTURF_TUNNEL",
@@ -1418,7 +1546,8 @@
       "secondary_tileset": "gTileset_RusturfTunnel",
       "border_filepath": "data/layouts/RusturfTunnel/border.bin",
       "blockdata_filepath": "data/layouts/RusturfTunnel/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_SOOTOPOLIS_CITY",
@@ -1429,7 +1558,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_SootopolisCity/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_SootopolisCity/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_DESERT_RUINS",
@@ -1440,7 +1570,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/DesertRuins/border.bin",
       "blockdata_filepath": "data/layouts/DesertRuins/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_GRANITE_CAVE_1F",
@@ -1451,7 +1582,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/GraniteCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_GRANITE_CAVE_B1F",
@@ -1462,7 +1594,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/GraniteCave_B1F/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_GRANITE_CAVE_B2F",
@@ -1473,7 +1606,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/GraniteCave_B2F/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_B2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_PETALBURG_WOODS",
@@ -1484,7 +1618,8 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/PetalburgWoods/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgWoods/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MT_CHIMNEY",
@@ -1495,7 +1630,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MtChimney/border.bin",
       "blockdata_filepath": "data/layouts/MtChimney/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MT_PYRE_1F",
@@ -1506,7 +1642,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_1F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MT_PYRE_2F",
@@ -1517,7 +1654,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_2F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MT_PYRE_3F",
@@ -1528,7 +1666,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_3F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_3F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MT_PYRE_4F",
@@ -1539,7 +1678,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_4F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_4F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MT_PYRE_5F",
@@ -1550,7 +1690,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_5F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_5F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MT_PYRE_6F",
@@ -1561,7 +1702,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_6F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_6F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_AQUA_HIDEOUT_1F",
@@ -1572,7 +1714,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_1F/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_AQUA_HIDEOUT_B1F",
@@ -1583,7 +1726,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_AQUA_HIDEOUT_B2F",
@@ -1594,7 +1738,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_B2F/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_B2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_SEAFLOOR_CAVERN",
@@ -1605,7 +1750,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_SeafloorCavern/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_SeafloorCavern/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ENTRANCE",
@@ -1616,7 +1762,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Entrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ROOM1",
@@ -1627,7 +1774,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room1/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ROOM2",
@@ -1638,7 +1786,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room2/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ROOM3",
@@ -1649,7 +1798,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room3/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ROOM4",
@@ -1660,7 +1810,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room4/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ROOM5",
@@ -1671,7 +1822,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room5/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room5/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ROOM6",
@@ -1682,7 +1834,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SeafloorCavern_Room6/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room6/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ROOM7",
@@ -1693,7 +1846,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SeafloorCavern_Room7/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room7/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ROOM8",
@@ -1704,7 +1858,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room8/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room8/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ROOM9",
@@ -1715,7 +1870,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room9/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room9/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CAVE_OF_ORIGIN_ENTRANCE",
@@ -1726,7 +1882,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_Entrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CAVE_OF_ORIGIN_1F",
@@ -1737,7 +1894,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_1F/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP1",
@@ -1748,7 +1906,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap1/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP2",
@@ -1759,7 +1918,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap2/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP3",
@@ -1770,7 +1930,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap3/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CAVE_OF_ORIGIN_B1F",
@@ -1781,7 +1942,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_B1F/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_VICTORY_ROAD_1F",
@@ -1792,7 +1954,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/VictoryRoad_1F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoad_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
@@ -1803,7 +1966,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_LowTideEntranceRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideEntranceRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
@@ -1814,7 +1978,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_LowTideInnerRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideInnerRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
@@ -1825,7 +1990,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_LowTideStairsRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideStairsRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
@@ -1836,7 +2002,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_LowTideLowerRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideLowerRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
@@ -1847,7 +2014,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_HighTideEntranceRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_HighTideEntranceRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
@@ -1858,7 +2026,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_HighTideInnerRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_HighTideInnerRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE1",
@@ -1869,7 +2038,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave1/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE2",
@@ -1880,7 +2050,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave2/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE3",
@@ -1891,7 +2062,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave3/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE4",
@@ -1902,7 +2074,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave4/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE5",
@@ -1913,7 +2086,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave5/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave5/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE6",
@@ -1924,7 +2098,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave6/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave6/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE7",
@@ -1935,7 +2110,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave7/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave7/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE8",
@@ -1946,7 +2122,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave8/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave8/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE9",
@@ -1957,7 +2134,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave9/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave9/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE10",
@@ -1968,7 +2146,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave10/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave10/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE11",
@@ -1979,7 +2158,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave11/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave11/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE12",
@@ -1990,7 +2170,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave12/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave12/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE13",
@@ -2001,7 +2182,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave13/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave13/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CAVE14",
@@ -2012,7 +2194,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave14/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave14/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_NEW_MAUVILLE_ENTRANCE",
@@ -2023,7 +2206,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/NewMauville_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/NewMauville_Entrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_NEW_MAUVILLE_INSIDE",
@@ -2034,7 +2218,8 @@
       "secondary_tileset": "gTileset_BikeShop",
       "border_filepath": "data/layouts/NewMauville_Inside/border.bin",
       "blockdata_filepath": "data/layouts/NewMauville_Inside/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_DECK",
@@ -2045,7 +2230,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AbandonedShip_Deck/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Deck/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_CORRIDORS_1F",
@@ -2056,7 +2242,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Corridors_1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Corridors_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_ROOMS_1F",
@@ -2067,7 +2254,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Rooms_1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Rooms_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_CORRIDORS_B1F",
@@ -2078,7 +2266,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Corridors_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Corridors_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_ROOMS_B1F",
@@ -2089,7 +2278,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Rooms_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Rooms_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_ROOMS2_B1F",
@@ -2100,7 +2290,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Rooms2_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Rooms2_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_UNDERWATER1",
@@ -2111,7 +2302,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Underwater1/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Underwater1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_ROOM_B1F",
@@ -2122,7 +2314,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Room_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Room_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_ROOMS2_1F",
@@ -2133,7 +2326,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Rooms2_1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Rooms2_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_CAPTAINS_OFFICE",
@@ -2144,7 +2338,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AbandonedShip_CaptainsOffice/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_CaptainsOffice/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_UNDERWATER2",
@@ -2155,7 +2350,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Underwater2/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Underwater2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_RED_CAVE1",
@@ -2166,7 +2362,8 @@
       "secondary_tileset": "gTileset_SecretBaseRedCave",
       "border_filepath": "data/layouts/SecretBase_RedCave1/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_RedCave1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_BROWN_CAVE1",
@@ -2177,7 +2374,8 @@
       "secondary_tileset": "gTileset_SecretBaseBrownCave",
       "border_filepath": "data/layouts/SecretBase_BrownCave1/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_BrownCave1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_BLUE_CAVE1",
@@ -2188,7 +2386,8 @@
       "secondary_tileset": "gTileset_SecretBaseBlueCave",
       "border_filepath": "data/layouts/SecretBase_BlueCave1/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_BlueCave1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_YELLOW_CAVE1",
@@ -2199,7 +2398,8 @@
       "secondary_tileset": "gTileset_SecretBaseYellowCave",
       "border_filepath": "data/layouts/SecretBase_YellowCave1/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_YellowCave1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_TREE1",
@@ -2210,7 +2410,8 @@
       "secondary_tileset": "gTileset_SecretBaseTree",
       "border_filepath": "data/layouts/SecretBase_Tree1/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_Tree1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_SHRUB1",
@@ -2221,7 +2422,8 @@
       "secondary_tileset": "gTileset_SecretBaseShrub",
       "border_filepath": "data/layouts/SecretBase_Shrub1/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_Shrub1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_RED_CAVE2",
@@ -2232,7 +2434,8 @@
       "secondary_tileset": "gTileset_SecretBaseRedCave",
       "border_filepath": "data/layouts/SecretBase_RedCave2/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_RedCave2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_BROWN_CAVE2",
@@ -2243,7 +2446,8 @@
       "secondary_tileset": "gTileset_SecretBaseBrownCave",
       "border_filepath": "data/layouts/SecretBase_BrownCave2/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_BrownCave2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_BLUE_CAVE2",
@@ -2254,7 +2458,8 @@
       "secondary_tileset": "gTileset_SecretBaseBlueCave",
       "border_filepath": "data/layouts/SecretBase_BlueCave2/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_BlueCave2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_YELLOW_CAVE2",
@@ -2265,7 +2470,8 @@
       "secondary_tileset": "gTileset_SecretBaseYellowCave",
       "border_filepath": "data/layouts/SecretBase_YellowCave2/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_YellowCave2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_TREE2",
@@ -2276,7 +2482,8 @@
       "secondary_tileset": "gTileset_SecretBaseTree",
       "border_filepath": "data/layouts/SecretBase_Tree2/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_Tree2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_SHRUB2",
@@ -2287,7 +2494,8 @@
       "secondary_tileset": "gTileset_SecretBaseShrub",
       "border_filepath": "data/layouts/SecretBase_Shrub2/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_Shrub2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_RED_CAVE3",
@@ -2298,7 +2506,8 @@
       "secondary_tileset": "gTileset_SecretBaseRedCave",
       "border_filepath": "data/layouts/SecretBase_RedCave3/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_RedCave3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_BROWN_CAVE3",
@@ -2309,7 +2518,8 @@
       "secondary_tileset": "gTileset_SecretBaseBrownCave",
       "border_filepath": "data/layouts/SecretBase_BrownCave3/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_BrownCave3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_BLUE_CAVE3",
@@ -2320,7 +2530,8 @@
       "secondary_tileset": "gTileset_SecretBaseBlueCave",
       "border_filepath": "data/layouts/SecretBase_BlueCave3/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_BlueCave3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_YELLOW_CAVE3",
@@ -2331,7 +2542,8 @@
       "secondary_tileset": "gTileset_SecretBaseYellowCave",
       "border_filepath": "data/layouts/SecretBase_YellowCave3/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_YellowCave3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_TREE3",
@@ -2342,7 +2554,8 @@
       "secondary_tileset": "gTileset_SecretBaseTree",
       "border_filepath": "data/layouts/SecretBase_Tree3/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_Tree3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_SHRUB3",
@@ -2353,7 +2566,8 @@
       "secondary_tileset": "gTileset_SecretBaseShrub",
       "border_filepath": "data/layouts/SecretBase_Shrub3/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_Shrub3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_RED_CAVE4",
@@ -2364,7 +2578,8 @@
       "secondary_tileset": "gTileset_SecretBaseRedCave",
       "border_filepath": "data/layouts/SecretBase_RedCave4/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_RedCave4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_BROWN_CAVE4",
@@ -2375,7 +2590,8 @@
       "secondary_tileset": "gTileset_SecretBaseBrownCave",
       "border_filepath": "data/layouts/SecretBase_BrownCave4/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_BrownCave4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_BLUE_CAVE4",
@@ -2386,7 +2602,8 @@
       "secondary_tileset": "gTileset_SecretBaseBlueCave",
       "border_filepath": "data/layouts/SecretBase_BlueCave4/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_BlueCave4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_YELLOW_CAVE4",
@@ -2397,7 +2614,8 @@
       "secondary_tileset": "gTileset_SecretBaseYellowCave",
       "border_filepath": "data/layouts/SecretBase_YellowCave4/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_YellowCave4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_TREE4",
@@ -2408,7 +2626,8 @@
       "secondary_tileset": "gTileset_SecretBaseTree",
       "border_filepath": "data/layouts/SecretBase_Tree4/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_Tree4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SECRET_BASE_SHRUB4",
@@ -2419,7 +2638,8 @@
       "secondary_tileset": "gTileset_SecretBaseShrub",
       "border_filepath": "data/layouts/SecretBase_Shrub4/border.bin",
       "blockdata_filepath": "data/layouts/SecretBase_Shrub4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_COLOSSEUM_2P",
@@ -2430,7 +2650,8 @@
       "secondary_tileset": "gTileset_CableClub",
       "border_filepath": "data/layouts/BattleColosseum_2P/border.bin",
       "blockdata_filepath": "data/layouts/BattleColosseum_2P/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_TRADE_CENTER",
@@ -2441,7 +2662,8 @@
       "secondary_tileset": "gTileset_CableClub",
       "border_filepath": "data/layouts/TradeCenter/border.bin",
       "blockdata_filepath": "data/layouts/TradeCenter/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_TRADE_CENTER_HNS",
@@ -2453,7 +2675,7 @@
       "border_filepath": "data/layouts/TradeCenter_hns/border.bin",
       "blockdata_filepath": "data/layouts/TradeCenter_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_COLOSSEUM_2P_HNS",
@@ -2465,7 +2687,7 @@
       "border_filepath": "data/layouts/BattleColosseum_2P_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleColosseum_2P_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_RECORD_CORNER",
@@ -2476,7 +2698,8 @@
       "secondary_tileset": "gTileset_CableClub",
       "border_filepath": "data/layouts/RecordCorner/border.bin",
       "blockdata_filepath": "data/layouts/RecordCorner/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_COLOSSEUM_4P",
@@ -2487,7 +2710,8 @@
       "secondary_tileset": "gTileset_CableClub",
       "border_filepath": "data/layouts/BattleColosseum_4P/border.bin",
       "blockdata_filepath": "data/layouts/BattleColosseum_4P/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL",
@@ -2498,7 +2722,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHall/border.bin",
       "blockdata_filepath": "data/layouts/ContestHall/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL1",
@@ -2509,7 +2734,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/UnusedContestHall1/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL2",
@@ -2520,7 +2746,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/UnusedContestHall2/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL3",
@@ -2531,7 +2758,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/UnusedContestHall3/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL4",
@@ -2542,7 +2770,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/UnusedContestHall4/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL5",
@@ -2553,7 +2782,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/UnusedContestHall5/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall5/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL6",
@@ -2564,7 +2794,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/UnusedContestHall6/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall6/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_BEAUTY",
@@ -2575,7 +2806,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHallBeauty/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallBeauty/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_TOUGH",
@@ -2586,7 +2818,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHallTough/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallTough/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_COOL",
@@ -2597,7 +2830,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHallCool/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallCool/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_SMART",
@@ -2608,7 +2842,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHallSmart/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallSmart/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_CUTE",
@@ -2619,7 +2854,8 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHallCute/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallCute/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_INSIDE_OF_TRUCK",
@@ -2630,7 +2866,8 @@
       "secondary_tileset": "gTileset_InsideOfTruck",
       "border_filepath": "data/layouts/InsideOfTruck/border.bin",
       "blockdata_filepath": "data/layouts/InsideOfTruck/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SAFARI_ZONE_NORTHWEST",
@@ -2641,7 +2878,8 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Northwest/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Northwest/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SAFARI_ZONE_NORTH",
@@ -2652,7 +2890,8 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_North/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_North/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SAFARI_ZONE_SOUTHWEST",
@@ -2663,7 +2902,8 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Southwest/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Southwest/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SAFARI_ZONE_SOUTH",
@@ -2674,7 +2914,8 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_South/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_South/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_OUTDOOR_AREA",
@@ -2685,7 +2926,8 @@
       "secondary_tileset": "0",
       "border_filepath": "data/layouts/UnusedOutdoorArea/border.bin",
       "blockdata_filepath": "data/layouts/UnusedOutdoorArea/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE109_SEASHORE_HOUSE",
@@ -2696,7 +2938,8 @@
       "secondary_tileset": "gTileset_SeashoreHouse",
       "border_filepath": "data/layouts/Route109_SeashoreHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route109_SeashoreHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_ENTRANCE",
@@ -2707,7 +2950,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Route110_TrickHouseEntrance/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHouseEntrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_END",
@@ -2718,7 +2962,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Route110_TrickHouseEnd/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHouseEnd/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_CORRIDOR",
@@ -2729,7 +2974,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Route110_TrickHouseCorridor/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHouseCorridor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE1",
@@ -2740,7 +2986,8 @@
       "secondary_tileset": "gTileset_TrickHousePuzzle",
       "border_filepath": "data/layouts/Route110_TrickHousePuzzle1/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHousePuzzle1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE2",
@@ -2751,7 +2998,8 @@
       "secondary_tileset": "gTileset_TrickHousePuzzle",
       "border_filepath": "data/layouts/Route110_TrickHousePuzzle2/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHousePuzzle2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE3",
@@ -2762,7 +3010,8 @@
       "secondary_tileset": "gTileset_TrickHousePuzzle",
       "border_filepath": "data/layouts/Route110_TrickHousePuzzle3/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHousePuzzle3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE4",
@@ -2773,7 +3022,8 @@
       "secondary_tileset": "gTileset_TrickHousePuzzle",
       "border_filepath": "data/layouts/Route110_TrickHousePuzzle4/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHousePuzzle4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE5",
@@ -2784,7 +3034,8 @@
       "secondary_tileset": "gTileset_TrickHousePuzzle",
       "border_filepath": "data/layouts/Route110_TrickHousePuzzle5/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHousePuzzle5/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE6",
@@ -2795,7 +3046,8 @@
       "secondary_tileset": "gTileset_TrickHousePuzzle",
       "border_filepath": "data/layouts/Route110_TrickHousePuzzle6/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHousePuzzle6/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE7",
@@ -2806,7 +3058,8 @@
       "secondary_tileset": "gTileset_TrickHousePuzzle",
       "border_filepath": "data/layouts/Route110_TrickHousePuzzle7/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHousePuzzle7/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE8",
@@ -2817,7 +3070,8 @@
       "secondary_tileset": "gTileset_TrickHousePuzzle",
       "border_filepath": "data/layouts/Route110_TrickHousePuzzle8/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHousePuzzle8/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FORTREE_CITY_DECORATION_SHOP",
@@ -2828,7 +3082,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/FortreeCity_DecorationShop/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity_DecorationShop/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE110_SEASIDE_CYCLING_ROAD_ENTRANCE",
@@ -2839,7 +3094,8 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/Route110_SeasideCyclingRoadEntrance/border.bin",
       "blockdata_filepath": "data/layouts/Route110_SeasideCyclingRoadEntrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_1F",
@@ -2850,7 +3106,8 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/LilycoveCity_DepartmentStore_1F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_DepartmentStore_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_2F",
@@ -2861,7 +3118,8 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/LilycoveCity_DepartmentStore_2F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_DepartmentStore_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_3F",
@@ -2872,7 +3130,8 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/LilycoveCity_DepartmentStore_3F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_DepartmentStore_3F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_4F",
@@ -2883,7 +3142,8 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/LilycoveCity_DepartmentStore_4F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_DepartmentStore_4F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_5F",
@@ -2894,7 +3154,8 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/LilycoveCity_DepartmentStore_5F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_DepartmentStore_5F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP",
@@ -2905,7 +3166,8 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/LilycoveCity_DepartmentStoreRooftop/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_DepartmentStoreRooftop/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE130",
@@ -2916,7 +3178,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/Route130/border.bin",
       "blockdata_filepath": "data/layouts/Route130/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY",
@@ -2927,7 +3190,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerLobby/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_OUTSIDE_WEST",
@@ -2938,7 +3202,8 @@
       "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
       "border_filepath": "data/layouts/BattleFrontier_OutsideWest/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_OutsideWest/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_ELEVATOR",
@@ -2949,7 +3214,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleElevator/border.bin",
       "blockdata_filepath": "data/layouts/BattleElevator/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_CORRIDOR",
@@ -2960,7 +3226,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerCorridor/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerCorridor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM",
@@ -2971,7 +3238,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerBattleRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_DEVON_CORP_3F",
@@ -2982,7 +3250,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/RustboroCity_DevonCorp_3F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_DevonCorp_3F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
@@ -2993,7 +3262,8 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/EverGrandeCity_PokemonLeague_1F/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_PokemonLeague_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE119_WEATHER_INSTITUTE_1F",
@@ -3004,7 +3274,8 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/Route119_WeatherInstitute_1F/border.bin",
       "blockdata_filepath": "data/layouts/Route119_WeatherInstitute_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE119_WEATHER_INSTITUTE_2F",
@@ -3015,7 +3286,8 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/Route119_WeatherInstitute_2F/border.bin",
       "blockdata_filepath": "data/layouts/Route119_WeatherInstitute_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR",
@@ -3026,7 +3298,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/LilycoveCity_DepartmentStoreElevator/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_DepartmentStoreElevator/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_ROUTE124",
@@ -3037,7 +3310,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route124/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route124/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_1F",
@@ -3048,7 +3322,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MossdeepCity_SpaceCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity_SpaceCenter_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_2F",
@@ -3059,7 +3334,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MossdeepCity_SpaceCenter_2F/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity_SpaceCenter_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SS_TIDAL_CORRIDOR",
@@ -3070,7 +3346,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/SSTidalCorridor/border.bin",
       "blockdata_filepath": "data/layouts/SSTidalCorridor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SS_TIDAL_LOWER_DECK",
@@ -3081,7 +3358,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/SSTidalLowerDeck/border.bin",
       "blockdata_filepath": "data/layouts/SSTidalLowerDeck/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SS_TIDAL_ROOMS",
@@ -3092,7 +3370,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/SSTidalRooms/border.bin",
       "blockdata_filepath": "data/layouts/SSTidalRooms/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ISLAND_CAVE",
@@ -3103,7 +3382,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/IslandCave/border.bin",
       "blockdata_filepath": "data/layouts/IslandCave/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ANCIENT_TOMB",
@@ -3114,7 +3394,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/AncientTomb/border.bin",
       "blockdata_filepath": "data/layouts/AncientTomb/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_ROUTE134",
@@ -3125,7 +3406,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route134/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route134/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_SEALED_CHAMBER",
@@ -3136,7 +3418,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_SealedChamber/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_SealedChamber/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEALED_CHAMBER_OUTER_ROOM",
@@ -3147,7 +3430,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SealedChamber_OuterRoom/border.bin",
       "blockdata_filepath": "data/layouts/SealedChamber_OuterRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_VICTORY_ROAD_B1F",
@@ -3158,7 +3442,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/VictoryRoad_B1F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoad_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_VICTORY_ROAD_B2F",
@@ -3169,7 +3454,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/VictoryRoad_B2F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoad_B2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE104_PROTOTYPE",
@@ -3180,7 +3466,8 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route104_Prototype/border.bin",
       "blockdata_filepath": "data/layouts/Route104_Prototype/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_GRANITE_CAVE_STEVENS_ROOM",
@@ -3191,7 +3478,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/GraniteCave_StevensRoom/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_StevensRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
@@ -3202,7 +3490,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_HiddenFloorCorridors/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_HiddenFloorCorridors/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOUTHERN_ISLAND_EXTERIOR",
@@ -3213,7 +3502,8 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/SouthernIsland_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/SouthernIsland_Exterior/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOUTHERN_ISLAND_INTERIOR",
@@ -3224,7 +3514,8 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/SouthernIsland_Interior/border.bin",
       "blockdata_filepath": "data/layouts/SouthernIsland_Interior/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_JAGGED_PASS",
@@ -3235,7 +3526,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/JaggedPass/border.bin",
       "blockdata_filepath": "data/layouts/JaggedPass/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FIERY_PATH",
@@ -3246,7 +3538,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/FieryPath/border.bin",
       "blockdata_filepath": "data/layouts/FieryPath/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_FLAT2_1F",
@@ -3257,7 +3550,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/RustboroCity_Flat2_1F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_Flat2_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_FLAT2_2F",
@@ -3268,7 +3562,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/RustboroCity_Flat2_2F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_Flat2_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_FLAT2_3F",
@@ -3279,7 +3574,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/RustboroCity_Flat2_3F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_Flat2_3F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_LOTAD_AND_SEEDOT_HOUSE",
@@ -3290,7 +3586,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/SootopolisCity_LotadAndSeedotHouse/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_LotadAndSeedotHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_HALL_OF_FAME",
@@ -3301,7 +3598,8 @@
       "secondary_tileset": "gTileset_CableClub",
       "border_filepath": "data/layouts/EverGrandeCity_HallOfFame/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_HallOfFame/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_COVE_LILY_MOTEL_1F",
@@ -3312,7 +3610,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/LilycoveCity_CoveLilyMotel_1F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_CoveLilyMotel_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_COVE_LILY_MOTEL_2F",
@@ -3323,7 +3622,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/LilycoveCity_CoveLilyMotel_2F/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_CoveLilyMotel_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE",
@@ -3334,7 +3634,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Route124_DivingTreasureHuntersHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route124_DivingTreasureHuntersHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MT_PYRE_EXTERIOR",
@@ -3345,7 +3646,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_Exterior/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MT_PYRE_SUMMIT",
@@ -3356,7 +3658,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_Summit/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_Summit/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEALED_CHAMBER_INNER_ROOM",
@@ -3367,7 +3670,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SealedChamber_InnerRoom/border.bin",
       "blockdata_filepath": "data/layouts/SealedChamber_InnerRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MOSSDEEP_CITY_GAME_CORNER_1F",
@@ -3378,7 +3682,8 @@
       "secondary_tileset": "gTileset_MossdeepGameCorner",
       "border_filepath": "data/layouts/MossdeepCity_GameCorner_1F/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity_GameCorner_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MOSSDEEP_CITY_GAME_CORNER_B1F",
@@ -3389,7 +3694,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/MossdeepCity_GameCorner_B1F/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity_GameCorner_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_HOUSE1",
@@ -3400,7 +3706,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/SootopolisCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_House1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_HOUSE2",
@@ -3411,7 +3718,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/SootopolisCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_House2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_HOUSE3",
@@ -3422,7 +3730,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/SootopolisCity_House3/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_House3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_HIDDEN_FLOOR_ROOMS",
@@ -3433,7 +3742,8 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_HiddenFloorRooms/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_HiddenFloorRooms/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SCORCHED_SLAB",
@@ -3444,7 +3754,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ScorchedSlab/border.bin",
       "blockdata_filepath": "data/layouts/ScorchedSlab/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_CAVE_OF_ORIGIN_UNUSED_B4F_LAVA",
@@ -3455,7 +3766,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_Unused_B4F_Lava/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_Unused_B4F_Lava/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_FLAT1_1F",
@@ -3466,7 +3778,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/RustboroCity_Flat1_1F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_Flat1_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_RUSTBORO_CITY_FLAT1_2F",
@@ -3477,7 +3790,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/RustboroCity_Flat1_2F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_Flat1_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_HALL4",
@@ -3488,7 +3802,8 @@
       "secondary_tileset": "gTileset_EliteFour",
       "border_filepath": "data/layouts/EverGrandeCity_Hall4/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_Hall4/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_AQUA_HIDEOUT_UNUSED_RUBY_MAP1",
@@ -3499,7 +3814,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_UnusedRubyMap1/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_UnusedRubyMap1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_AQUA_HIDEOUT_UNUSED_RUBY_MAP2",
@@ -3510,7 +3826,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_UnusedRubyMap2/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_UnusedRubyMap2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_AQUA_HIDEOUT_UNUSED_RUBY_MAP3",
@@ -3521,7 +3838,8 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_UnusedRubyMap3/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_UnusedRubyMap3/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE131_SKY_PILLAR",
@@ -3532,7 +3850,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route131_SkyPillar/border.bin",
       "blockdata_filepath": "data/layouts/Route131_SkyPillar/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_ENTRANCE",
@@ -3543,7 +3862,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SkyPillar_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Entrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_OUTSIDE",
@@ -3554,7 +3874,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_Outside/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Outside/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_1F",
@@ -3565,7 +3886,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_1F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_2F",
@@ -3576,7 +3898,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_2F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_3F",
@@ -3587,7 +3910,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_3F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_3F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_4F",
@@ -3598,7 +3922,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_4F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_4F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SEAFLOOR_CAVERN_ROOM9_LAVA",
@@ -3609,7 +3934,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room9_Lava/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room9_Lava/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MOSSDEEP_CITY_STEVENS_HOUSE",
@@ -3620,7 +3946,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/MossdeepCity_StevensHouse/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity_StevensHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
@@ -3631,7 +3958,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_LowTideIceRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideIceRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SAFARI_ZONE_REST_HOUSE",
@@ -3642,7 +3970,8 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/SafariZone_RestHouse/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_RestHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_5F",
@@ -3653,7 +3982,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_5F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_5F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_TOP",
@@ -3664,7 +3994,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_Top/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Top/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_LOBBY",
@@ -3675,7 +4006,8 @@
       "secondary_tileset": "gTileset_BattleDome",
       "border_filepath": "data/layouts/BattleFrontier_BattleDomeLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleDomeLobby/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_CORRIDOR",
@@ -3686,7 +4018,8 @@
       "secondary_tileset": "gTileset_BattleDome",
       "border_filepath": "data/layouts/BattleFrontier_BattleDomeCorridor/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleDomeCorridor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_PRE_BATTLE_ROOM",
@@ -3697,7 +4030,8 @@
       "secondary_tileset": "gTileset_BattleDome",
       "border_filepath": "data/layouts/BattleFrontier_BattleDomePreBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleDomePreBattleRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_BATTLE_ROOM",
@@ -3708,7 +4042,8 @@
       "secondary_tileset": "gTileset_BattleDome",
       "border_filepath": "data/layouts/BattleFrontier_BattleDomeBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleDomeBattleRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAGMA_HIDEOUT_1F",
@@ -3719,7 +4054,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_1F/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAGMA_HIDEOUT_2F_1R",
@@ -3730,7 +4066,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_2F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_2F_1R/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAGMA_HIDEOUT_2F_2R",
@@ -3741,7 +4078,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_2F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_2F_2R/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAGMA_HIDEOUT_3F_1R",
@@ -3752,7 +4090,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_3F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_3F_1R/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAGMA_HIDEOUT_3F_2R",
@@ -3763,7 +4102,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_3F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_3F_2R/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAGMA_HIDEOUT_4F",
@@ -3774,7 +4114,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_4F/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_4F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PALACE_LOBBY",
@@ -3785,7 +4126,8 @@
       "secondary_tileset": "gTileset_BattlePalace",
       "border_filepath": "data/layouts/BattleFrontier_BattlePalaceLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePalaceLobby/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PALACE_CORRIDOR",
@@ -3796,7 +4138,8 @@
       "secondary_tileset": "gTileset_BattlePalace",
       "border_filepath": "data/layouts/BattleFrontier_BattlePalaceCorridor/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePalaceCorridor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM",
@@ -3807,7 +4150,8 @@
       "secondary_tileset": "gTileset_BattlePalace",
       "border_filepath": "data/layouts/BattleFrontier_BattlePalaceBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePalaceBattleRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_OUTSIDE_EAST",
@@ -3818,7 +4162,8 @@
       "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
       "border_filepath": "data/layouts/BattleFrontier_OutsideEast/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_OutsideEast/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY",
@@ -3829,7 +4174,8 @@
       "secondary_tileset": "gTileset_BattleFactory",
       "border_filepath": "data/layouts/BattleFrontier_BattleFactoryLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleFactoryLobby/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_FACTORY_PRE_BATTLE_ROOM",
@@ -3840,7 +4186,8 @@
       "secondary_tileset": "gTileset_BattleFactory",
       "border_filepath": "data/layouts/BattleFrontier_BattleFactoryPreBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleFactoryPreBattleRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_FACTORY_BATTLE_ROOM",
@@ -3851,7 +4198,8 @@
       "secondary_tileset": "gTileset_BattleFactory",
       "border_filepath": "data/layouts/BattleFrontier_BattleFactoryBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleFactoryBattleRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY",
@@ -3862,7 +4210,8 @@
       "secondary_tileset": "gTileset_BattlePike",
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeLobby/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_CORRIDOR",
@@ -3873,7 +4222,8 @@
       "secondary_tileset": "gTileset_BattlePike",
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeCorridor/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeCorridor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_THREE_PATH_ROOM",
@@ -3884,7 +4234,8 @@
       "secondary_tileset": "gTileset_BattlePike",
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeThreePathRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeThreePathRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL",
@@ -3895,7 +4246,8 @@
       "secondary_tileset": "gTileset_BattlePike",
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeRoomNormal/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeRoomNormal/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_FINAL",
@@ -3906,7 +4258,8 @@
       "secondary_tileset": "gTileset_BattlePike",
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeRoomFinal/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeRoomFinal/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_ARENA_LOBBY",
@@ -3917,7 +4270,8 @@
       "secondary_tileset": "gTileset_BattleArena",
       "border_filepath": "data/layouts/BattleFrontier_BattleArenaLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleArenaLobby/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_ARENA_CORRIDOR",
@@ -3928,7 +4282,8 @@
       "secondary_tileset": "gTileset_BattleArena",
       "border_filepath": "data/layouts/BattleFrontier_BattleArenaCorridor/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleArenaCorridor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM",
@@ -3939,7 +4294,8 @@
       "secondary_tileset": "gTileset_BattleArena",
       "border_filepath": "data/layouts/BattleFrontier_BattleArenaBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleArenaBattleRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_LEGENDS_BATTLE",
@@ -3950,7 +4306,8 @@
       "secondary_tileset": "gTileset_Sootopolis",
       "border_filepath": "data/layouts/SootopolisCity_LegendsBattle/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_LegendsBattle/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_WILD_MONS",
@@ -3961,7 +4318,8 @@
       "secondary_tileset": "gTileset_BattlePike",
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeRoomWildMons/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeRoomWildMons/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_UNUSED",
@@ -3972,7 +4330,8 @@
       "secondary_tileset": "gTileset_BattlePike",
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeRoomUnused/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeRoomUnused/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PYRAMID_LOBBY",
@@ -3983,7 +4342,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattleFrontier_BattlePyramidLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePyramidLobby/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PYRAMID_FLOOR",
@@ -3994,7 +4354,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattleFrontier_BattlePyramidFloor/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePyramidFloor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE01",
@@ -4005,7 +4366,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare01/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare01/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE02",
@@ -4016,7 +4378,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare02/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare02/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE03",
@@ -4027,7 +4390,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare03/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare03/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE04",
@@ -4038,7 +4402,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare04/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare04/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE05",
@@ -4049,7 +4414,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare05/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare05/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE06",
@@ -4060,7 +4426,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare06/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare06/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE07",
@@ -4071,7 +4438,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare07/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare07/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE08",
@@ -4082,7 +4450,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare08/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare08/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE09",
@@ -4093,7 +4462,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare09/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare09/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE10",
@@ -4104,7 +4474,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare10/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare10/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE11",
@@ -4115,7 +4486,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare11/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare11/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE12",
@@ -4126,7 +4498,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare12/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare12/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE13",
@@ -4137,7 +4510,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare13/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare13/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE14",
@@ -4148,7 +4522,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare14/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare14/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE15",
@@ -4159,7 +4534,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare15/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare15/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE16",
@@ -4170,7 +4546,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattlePyramidSquare16/border.bin",
       "blockdata_filepath": "data/layouts/BattlePyramidSquare16/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PYRAMID_TOP",
@@ -4181,7 +4558,8 @@
       "secondary_tileset": "gTileset_BattlePyramid",
       "border_filepath": "data/layouts/BattleFrontier_BattlePyramidTop/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePyramidTop/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAGMA_HIDEOUT_3F_3R",
@@ -4192,7 +4570,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_3F_3R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_3F_3R/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MAGMA_HIDEOUT_2F_3R",
@@ -4203,7 +4582,8 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_2F_3R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_2F_3R/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MIRAGE_TOWER_1F",
@@ -4214,7 +4594,8 @@
       "secondary_tileset": "gTileset_MirageTower",
       "border_filepath": "data/layouts/MirageTower_1F/border.bin",
       "blockdata_filepath": "data/layouts/MirageTower_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MIRAGE_TOWER_2F",
@@ -4225,7 +4606,8 @@
       "secondary_tileset": "gTileset_MirageTower",
       "border_filepath": "data/layouts/MirageTower_2F/border.bin",
       "blockdata_filepath": "data/layouts/MirageTower_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MIRAGE_TOWER_3F",
@@ -4236,7 +4618,8 @@
       "secondary_tileset": "gTileset_MirageTower",
       "border_filepath": "data/layouts/MirageTower_3F/border.bin",
       "blockdata_filepath": "data/layouts/MirageTower_3F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_TENT_LOBBY",
@@ -4247,7 +4630,8 @@
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/BattleTentLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleTentLobby/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_TENT_CORRIDOR",
@@ -4258,7 +4642,8 @@
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/BattleTentCorridor/border.bin",
       "blockdata_filepath": "data/layouts/BattleTentCorridor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_TENT_BATTLE_ROOM",
@@ -4269,7 +4654,8 @@
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/BattleTentBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleTentBattleRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM",
@@ -4280,7 +4666,8 @@
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/VerdanturfTown_BattleTentBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/VerdanturfTown_BattleTentBattleRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_TENT_LOBBY_HNS",
@@ -4292,7 +4679,7 @@
       "border_filepath": "data/layouts/BattleTentLobby_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleTentLobby_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_TENT_CORRIDOR_HNS",
@@ -4304,7 +4691,7 @@
       "border_filepath": "data/layouts/BattleTentCorridor_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleTentCorridor_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_TENT_BATTLE_ROOM_HNS",
@@ -4316,7 +4703,7 @@
       "border_filepath": "data/layouts/BattleTentBattleRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleTentBattleRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM_HNS",
@@ -4328,7 +4715,7 @@
       "border_filepath": "data/layouts/VerdanturfTown_BattleTentBattleRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/VerdanturfTown_BattleTentBattleRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_MIRAGE_TOWER_4F",
@@ -4339,7 +4726,8 @@
       "secondary_tileset": "gTileset_MirageTower",
       "border_filepath": "data/layouts/MirageTower_4F/border.bin",
       "blockdata_filepath": "data/layouts/MirageTower_4F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_DESERT_UNDERPASS",
@@ -4350,7 +4738,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/DesertUnderpass/border.bin",
       "blockdata_filepath": "data/layouts/DesertUnderpass/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_PARTNER_ROOM",
@@ -4361,7 +4750,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerMultiPartnerRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerMultiPartnerRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR",
@@ -4372,7 +4762,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerMultiCorridor/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerMultiCorridor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ROUTE111_NO_MIRAGE_TOWER",
@@ -4383,7 +4774,8 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route111_NoMirageTower/border.bin",
       "blockdata_filepath": "data/layouts/Route111_NoMirageTower/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNION_ROOM",
@@ -4394,7 +4786,8 @@
       "secondary_tileset": "gTileset_UnionRoom",
       "border_filepath": "data/layouts/UnionRoom/border.bin",
       "blockdata_filepath": "data/layouts/UnionRoom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SAFARI_ZONE_NORTHEAST",
@@ -4405,7 +4798,8 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Northeast/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Northeast/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SAFARI_ZONE_SOUTHEAST",
@@ -4416,7 +4810,8 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Southeast/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Southeast/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_RANKING_HALL",
@@ -4427,7 +4822,8 @@
       "secondary_tileset": "gTileset_BattleFrontierRankingHall",
       "border_filepath": "data/layouts/BattleFrontier_RankingHall/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_RankingHall/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_LOUNGE1",
@@ -4438,7 +4834,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_Lounge1/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_Lounge1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_EXCHANGE_SERVICE_CORNER",
@@ -4449,7 +4846,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_ExchangeServiceCorner/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ExchangeServiceCorner/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_RECEPTION_GATE",
@@ -4460,7 +4858,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_ReceptionGate/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ReceptionGate/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ARTISAN_CAVE_B1F",
@@ -4471,7 +4870,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ArtisanCave_B1F/border.bin",
       "blockdata_filepath": "data/layouts/ArtisanCave_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ARTISAN_CAVE_1F",
@@ -4482,7 +4882,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ArtisanCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/ArtisanCave_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FARAWAY_ISLAND_ENTRANCE",
@@ -4493,7 +4894,8 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/FarawayIsland_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/FarawayIsland_Entrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_FARAWAY_ISLAND_INTERIOR",
@@ -4504,7 +4906,8 @@
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/FarawayIsland_Interior/border.bin",
       "blockdata_filepath": "data/layouts/FarawayIsland_Interior/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BIRTH_ISLAND_EXTERIOR",
@@ -4515,7 +4918,8 @@
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/BirthIsland_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/BirthIsland_Exterior/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ISLAND_HARBOR",
@@ -4526,7 +4930,8 @@
       "secondary_tileset": "gTileset_IslandHarbor",
       "border_filepath": "data/layouts/IslandHarbor/border.bin",
       "blockdata_filepath": "data/layouts/IslandHarbor/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_MARINE_CAVE",
@@ -4537,7 +4942,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_MarineCave/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_MarineCave/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MARINE_CAVE_ENTRANCE",
@@ -4548,7 +4954,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/MarineCave_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/MarineCave_Entrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_TERRA_CAVE_ENTRANCE",
@@ -4559,7 +4966,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/TerraCave_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/TerraCave_Entrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_TERRA_CAVE_END",
@@ -4570,7 +4978,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/TerraCave_End/border.bin",
       "blockdata_filepath": "data/layouts/TerraCave_End/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_ROUTE105",
@@ -4581,7 +4990,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route105/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route105/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_ROUTE125",
@@ -4592,7 +5002,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route125/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route125/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_UNDERWATER_ROUTE129",
@@ -4603,7 +5014,8 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route129/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route129/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_MARINE_CAVE_END",
@@ -4614,7 +5026,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/MarineCave_End/border.bin",
       "blockdata_filepath": "data/layouts/MarineCave_End/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_ENTRANCE",
@@ -4625,7 +5038,8 @@
       "secondary_tileset": "gTileset_TrainerHill",
       "border_filepath": "data/layouts/TrainerHill_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_Entrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_1F",
@@ -4636,7 +5050,8 @@
       "secondary_tileset": "gTileset_TrainerHill",
       "border_filepath": "data/layouts/TrainerHill_1F/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_2F",
@@ -4647,7 +5062,8 @@
       "secondary_tileset": "gTileset_TrainerHill",
       "border_filepath": "data/layouts/TrainerHill_2F/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_2F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_3F",
@@ -4658,7 +5074,8 @@
       "secondary_tileset": "gTileset_TrainerHill",
       "border_filepath": "data/layouts/TrainerHill_3F/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_3F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_4F",
@@ -4669,7 +5086,8 @@
       "secondary_tileset": "gTileset_TrainerHill",
       "border_filepath": "data/layouts/TrainerHill_4F/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_4F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_ROOF",
@@ -4680,7 +5098,8 @@
       "secondary_tileset": "gTileset_TrainerHill",
       "border_filepath": "data/layouts/TrainerHill_Roof/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_Roof/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_ALTERING_CAVE",
@@ -4691,7 +5110,8 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/AlteringCave/border.bin",
       "blockdata_filepath": "data/layouts/AlteringCave/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_NAVEL_ROCK_EXTERIOR",
@@ -4702,7 +5122,8 @@
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/NavelRock_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Exterior/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_NAVEL_ROCK_ENTRANCE",
@@ -4713,7 +5134,8 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Entrance/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_NAVEL_ROCK_TOP",
@@ -4724,7 +5146,8 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_Top/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Top/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_NAVEL_ROCK_BOTTOM",
@@ -4735,7 +5158,8 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_Bottom/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Bottom/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_NAVEL_ROCK_LADDER_ROOM1",
@@ -4746,7 +5170,8 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_LadderRoom1/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_LadderRoom1/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_NAVEL_ROCK_LADDER_ROOM2",
@@ -4757,7 +5182,8 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_LadderRoom2/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_LadderRoom2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_NAVEL_ROCK_B1F",
@@ -4768,7 +5194,8 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_B1F/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_NAVEL_ROCK_FORK",
@@ -4779,7 +5206,8 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_Fork/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Fork/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_LOUNGE2",
@@ -4790,7 +5218,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_Lounge2/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_Lounge2/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_SCOTTS_HOUSE",
@@ -4801,7 +5230,8 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_ScottsHouse/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ScottsHouse/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_METEOR_FALLS_STEVENS_CAVE",
@@ -4812,7 +5242,8 @@
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/MeteorFalls_StevensCave/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_StevensCave/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB_WITH_TABLE",
@@ -4823,7 +5254,8 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLabWithTable/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLabWithTable/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_1F_CLEAN",
@@ -4834,7 +5266,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_1F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_1F_Clean/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_2F_CLEAN",
@@ -4845,7 +5278,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_2F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_2F_Clean/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_3F_CLEAN",
@@ -4856,7 +5290,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_3F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_3F_Clean/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_4F_CLEAN",
@@ -4867,7 +5302,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_4F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_4F_Clean/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_5F_CLEAN",
@@ -4878,7 +5314,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_5F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_5F_Clean/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SKY_PILLAR_TOP_CLEAN",
@@ -4889,7 +5326,8 @@
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_Top_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Top_Clean/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F",
@@ -4900,7 +5338,8 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F",
@@ -4911,7 +5350,8 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_B1F/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_B1F/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F_STAIRS_UNBLOCKED",
@@ -4922,7 +5362,8 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin",
-      "layout_version": "emerald"
+      "layout_version": "hns",
+      "game_version": "hns"
     },
     {
       "id": "LAYOUT_PALLET_TOWN_PLAYERS_HOUSE_1F_FRLG",
@@ -9774,7 +10215,7 @@
       "border_filepath": "data/layouts/UnionRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/UnionRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_AZALEA_TOWN_HNS",
@@ -13542,7 +13983,7 @@
       "border_filepath": "data/layouts/TrainerHill_Entrance_hns/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_Entrance_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_1F_HNS",
@@ -13554,7 +13995,7 @@
       "border_filepath": "data/layouts/TrainerHill_1F_hns/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_1F_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_2F_HNS",
@@ -13566,7 +14007,7 @@
       "border_filepath": "data/layouts/TrainerHill_2F_hns/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_2F_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_3F_HNS",
@@ -13578,7 +14019,7 @@
       "border_filepath": "data/layouts/TrainerHill_3F_hns/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_3F_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_4F_HNS",
@@ -13590,7 +14031,7 @@
       "border_filepath": "data/layouts/TrainerHill_4F_hns/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_4F_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_TRAINER_HILL_ROOF_HNS",
@@ -13602,7 +14043,7 @@
       "border_filepath": "data/layouts/TrainerHill_Roof_hns/border.bin",
       "blockdata_filepath": "data/layouts/TrainerHill_Roof_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_TREES_HNS",
@@ -14814,7 +15255,7 @@
       "border_filepath": "data/layouts/SouthernIsland_Exterior_hns/border.bin",
       "blockdata_filepath": "data/layouts/SouthernIsland_Exterior_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_SOUTHERN_ISLAND_INTERIOR_HNS",
@@ -14826,7 +15267,7 @@
       "border_filepath": "data/layouts/SouthernIsland_Interior_hns/border.bin",
       "blockdata_filepath": "data/layouts/SouthernIsland_Interior_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_FARAWAY_ISLAND_ENTRANCE_HNS",
@@ -14838,7 +15279,7 @@
       "border_filepath": "data/layouts/FarawayIsland_Entrance_hns/border.bin",
       "blockdata_filepath": "data/layouts/FarawayIsland_Entrance_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_FARAWAY_ISLAND_INTERIOR_HNS",
@@ -14850,7 +15291,7 @@
       "border_filepath": "data/layouts/FarawayIsland_Interior_hns/border.bin",
       "blockdata_filepath": "data/layouts/FarawayIsland_Interior_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BIRTH_ISLAND_EXTERIOR_HNS",
@@ -14862,7 +15303,7 @@
       "border_filepath": "data/layouts/BirthIsland_Exterior_hns/border.bin",
       "blockdata_filepath": "data/layouts/BirthIsland_Exterior_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_ISLAND_HARBOR_HNS",
@@ -14874,7 +15315,7 @@
       "border_filepath": "data/layouts/IslandHarbor_hns/border.bin",
       "blockdata_filepath": "data/layouts/IslandHarbor_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_OUTSIDE_WEST_HNS",
@@ -14886,7 +15327,7 @@
       "border_filepath": "data/layouts/BattleFrontier_OutsideWest_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_OutsideWest_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY_HNS",
@@ -14898,7 +15339,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerLobby_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerLobby_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_CORRIDOR_HNS",
@@ -14910,7 +15351,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerCorridor_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerCorridor_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM_HNS",
@@ -14922,7 +15363,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerBattleRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerBattleRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_OUTSIDE_EAST_HNS",
@@ -14934,7 +15375,7 @@
       "border_filepath": "data/layouts/BattleFrontier_OutsideEast_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_OutsideEast_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_PARTNER_ROOM_HNS",
@@ -14946,7 +15387,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerMultiPartnerRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerMultiPartnerRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR_HNS",
@@ -14958,7 +15399,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerMultiCorridor_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerMultiCorridor_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_LOBBY_HNS",
@@ -14970,7 +15411,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleDomeLobby_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleDomeLobby_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_CORRIDOR_HNS",
@@ -14982,7 +15423,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleDomeCorridor_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleDomeCorridor_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_PRE_BATTLE_ROOM_HNS",
@@ -14994,7 +15435,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleDomePreBattleRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleDomePreBattleRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_DOME_BATTLE_ROOM_HNS",
@@ -15006,7 +15447,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleDomeBattleRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleDomeBattleRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PALACE_LOBBY_HNS",
@@ -15018,7 +15459,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePalaceLobby_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePalaceLobby_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PALACE_CORRIDOR_HNS",
@@ -15030,7 +15471,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePalaceCorridor_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePalaceCorridor_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM_HNS",
@@ -15042,7 +15483,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePalaceBattleRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePalaceBattleRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PYRAMID_LOBBY_HNS",
@@ -15054,7 +15495,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePyramidLobby_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePyramidLobby_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PYRAMID_FLOOR_HNS",
@@ -15066,7 +15507,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePyramidFloor_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePyramidFloor_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_PYRAMID_SQUARE01_HNS",
@@ -15254,7 +15695,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePyramidTop_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePyramidTop_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_ARENA_LOBBY_HNS",
@@ -15266,7 +15707,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleArenaLobby_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleArenaLobby_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_ARENA_CORRIDOR_HNS",
@@ -15278,7 +15719,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleArenaCorridor_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleArenaCorridor_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM_HNS",
@@ -15290,7 +15731,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleArenaBattleRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleArenaBattleRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY_HNS",
@@ -15302,7 +15743,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleFactoryLobby_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleFactoryLobby_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_FACTORY_PRE_BATTLE_ROOM_HNS",
@@ -15314,7 +15755,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleFactoryPreBattleRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleFactoryPreBattleRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_FACTORY_BATTLE_ROOM_HNS",
@@ -15326,7 +15767,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattleFactoryBattleRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleFactoryBattleRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY_HNS",
@@ -15338,7 +15779,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeLobby_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeLobby_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_CORRIDOR_HNS",
@@ -15350,7 +15791,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeCorridor_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeCorridor_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_THREE_PATH_ROOM_HNS",
@@ -15362,7 +15803,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeThreePathRoom_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeThreePathRoom_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL_HNS",
@@ -15374,7 +15815,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeRoomNormal_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeRoomNormal_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_FINAL_HNS",
@@ -15386,7 +15827,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeRoomFinal_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeRoomFinal_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_WILD_MONS_HNS",
@@ -15398,7 +15839,7 @@
       "border_filepath": "data/layouts/BattleFrontier_BattlePikeRoomWildMons_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePikeRoomWildMons_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_RANKING_HALL_HNS",
@@ -15410,7 +15851,7 @@
       "border_filepath": "data/layouts/BattleFrontier_RankingHall_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_RankingHall_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_LOUNGE1_HNS",
@@ -15422,7 +15863,7 @@
       "border_filepath": "data/layouts/BattleFrontier_Lounge1_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_Lounge1_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_EXCHANGE_SERVICE_CORNER_HNS",
@@ -15434,7 +15875,7 @@
       "border_filepath": "data/layouts/BattleFrontier_ExchangeServiceCorner_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ExchangeServiceCorner_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_LOUNGE2_HNS",
@@ -15446,7 +15887,7 @@
       "border_filepath": "data/layouts/BattleFrontier_Lounge2_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_Lounge2_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_SCOTTS_HOUSE_HNS",
@@ -15458,7 +15899,7 @@
       "border_filepath": "data/layouts/BattleFrontier_ScottsHouse_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ScottsHouse_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_FRONTIER_RECEPTION_GATE_HNS",
@@ -15470,7 +15911,7 @@
       "border_filepath": "data/layouts/BattleFrontier_ReceptionGate_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ReceptionGate_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_BATTLE_ELEVATOR_HNS",
@@ -15482,7 +15923,7 @@
       "border_filepath": "data/layouts/BattleElevator_hns/border.bin",
       "blockdata_filepath": "data/layouts/BattleElevator_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_POKEMON_CENTER_1F_HNS",
@@ -15494,7 +15935,7 @@
       "border_filepath": "data/layouts/PokemonCenter_1F_hns/border.bin",
       "blockdata_filepath": "data/layouts/PokemonCenter_1F_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_POKEMON_CENTER_2F_HNS",
@@ -15506,7 +15947,7 @@
       "border_filepath": "data/layouts/PokemonCenter_2F_hns/border.bin",
       "blockdata_filepath": "data/layouts/PokemonCenter_2F_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_MART_HNS",
@@ -15518,7 +15959,7 @@
       "border_filepath": "data/layouts/Mart_hns/border.bin",
       "blockdata_filepath": "data/layouts/Mart_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_HNS",
@@ -15530,7 +15971,7 @@
       "border_filepath": "data/layouts/ContestHall_hns/border.bin",
       "blockdata_filepath": "data/layouts/ContestHall_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_BEAUTY_HNS",
@@ -15542,7 +15983,7 @@
       "border_filepath": "data/layouts/ContestHallBeauty_hns/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallBeauty_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_COOL_HNS",
@@ -15554,7 +15995,7 @@
       "border_filepath": "data/layouts/ContestHallCool_hns/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallCool_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_CUTE_HNS",
@@ -15566,7 +16007,7 @@
       "border_filepath": "data/layouts/ContestHallCute_hns/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallCute_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_SMART_HNS",
@@ -15578,7 +16019,7 @@
       "border_filepath": "data/layouts/ContestHallSmart_hns/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallSmart_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_CONTEST_HALL_TOUGH_HNS",
@@ -15590,7 +16031,7 @@
       "border_filepath": "data/layouts/ContestHallTough_hns/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallTough_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_CONTEST_HALL_HNS",
@@ -15602,7 +16043,7 @@
       "border_filepath": "data/layouts/LilycoveCity_ContestHall_hns/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_ContestHall_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_LILYCOVE_CITY_CONTEST_LOBBY_HNS",
@@ -15614,7 +16055,7 @@
       "border_filepath": "data/layouts/LilycoveCity_ContestLobby_hns/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_ContestLobby_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL1_HNS",
@@ -15626,7 +16067,7 @@
       "border_filepath": "data/layouts/UnusedContestHall1_hns/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall1_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL2_HNS",
@@ -15638,7 +16079,7 @@
       "border_filepath": "data/layouts/UnusedContestHall2_hns/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall2_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL3_HNS",
@@ -15650,7 +16091,7 @@
       "border_filepath": "data/layouts/UnusedContestHall3_hns/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall3_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL4_HNS",
@@ -15662,7 +16103,7 @@
       "border_filepath": "data/layouts/UnusedContestHall4_hns/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall4_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL5_HNS",
@@ -15674,7 +16115,7 @@
       "border_filepath": "data/layouts/UnusedContestHall5_hns/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall5_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL6_HNS",
@@ -15686,7 +16127,7 @@
       "border_filepath": "data/layouts/UnusedContestHall6_hns/border.bin",
       "blockdata_filepath": "data/layouts/UnusedContestHall6_hns/map.bin",
       "game_version": "hns",
-      "layout_version": "emerald"
+      "layout_version": "hns"
     },
     {
       "id": "LAYOUT_PONI_ISLE_HNS",
