@@ -2303,7 +2303,22 @@ u8 *GetMapName(u8 *dest, mapsec_u16_t regionMapId, u16 padLength)
     }
     else if (regionMapId < MAPSEC_NONE)
     {
-        str = StringCopy(dest, GetActiveRegionMapEntries()[regionMapId].name);
+        const u8 *name;
+
+        // Die HnS-Tabelle endet vor den Hoenn-Kennungen. Ein Zugriff darueber
+        // hinaus laege ausserhalb des Feldes, deshalb dort die vollstaendige
+        // Tabelle verwenden.
+#if IS_HNS
+        if (GetActiveRegionMapEntries() == sRegionMapEntries_Johto
+         && regionMapId >= ARRAY_COUNT(sRegionMapEntries_Johto))
+            name = gRegionMapEntries[regionMapId].name;
+        else
+#endif
+            name = GetActiveRegionMapEntries()[regionMapId].name;
+
+        if (name == NULL)
+            return StringFill(dest, CHAR_SPACE, padLength ? padLength : 18);
+        str = StringCopy(dest, name);
     }
     else
     {
