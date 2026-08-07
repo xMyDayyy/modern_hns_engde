@@ -534,7 +534,6 @@
     "SeafoamIslands_1F_hns",
     "SeafoamIslands_Gym_hns",
     "SeafoamIslands_B1F_hns",
-    "SeafoamIslands_SecretCave_hns",
     "MtSilver_Outside_hns",
     "MtSilver_1F_ItemRoom_hns",
     "MtSilver_1F_WaterfallRoom_hns",
@@ -553,8 +552,7 @@
     "RuinsOfAlph_WordsRoom1_hns",
     "RuinsOfAlph_WordsRoom2_hns",
     "RuinsOfAlph_WordsRoom3_hns",
-    "RuinsOfAlph_WordsRoom4_hns",
-    "Route19_Cave_hns"
+    "RuinsOfAlph_WordsRoom4_hns"
   ],
   "gMapGrouop_OutdoorAlola_Hns": [
     "PoniIsle_hns",

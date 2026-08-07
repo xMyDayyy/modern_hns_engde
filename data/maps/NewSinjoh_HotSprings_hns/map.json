@@ -107,7 +107,7 @@
     },
     {
       "local_id": "LOCALID_HOTSPRINGS_NOBLE_ARCANINE",
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_ARCANINE_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_ARCANINE",
       "x": 16,
       "y": 8,
       "elevation": 0,
@@ -199,7 +199,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE",
       "x": 38,
       "y": 33,
       "elevation": 0,
@@ -212,7 +212,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE",
       "x": 2,
       "y": 21,
       "elevation": 0,
@@ -225,7 +225,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE",
       "x": 50,
       "y": 19,
       "elevation": 0,

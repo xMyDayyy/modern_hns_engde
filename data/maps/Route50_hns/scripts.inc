@@ -329,9 +329,9 @@ Route50_EventScript_ActivateElectrode::
     clearflag FLAG_HIDE_ROUTE50_NOBLE_ELECTRODE
     applymovement2 LOCALID_ROUTE50_NOBLE_ELECTRODE, Route50_Movement_ElectrodeEntrance1
     delay 10
-    playmoncry SPECIES_ELECTRODE_HISUI, CRY_MODE_NORMAL
+    playmoncry SPECIES_ELECTRODE, CRY_MODE_NORMAL
     waitmoncry
-    playmoncry SPECIES_ELECTRODE_HISUI, CRY_MODE_NORMAL
+    playmoncry SPECIES_ELECTRODE, CRY_MODE_NORMAL
     waitmoncry
     waitmovement 0
     applymovement2 LOCALID_ROUTE50_NOBLE_ELECTRODE, Route50_Movement_ElectrodeEntrance2
@@ -380,9 +380,9 @@ Route50_Movement_ElectrodeEntrance3:
 Route50_EventScript_Electrode::
 	lock
 	faceplayer
-	playmoncry SPECIES_ELECTRODE_HISUI, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER
 	waitmoncry
-	setwildbossbattle species=SPECIES_ELECTRODE_HISUI, level=80, item=ITEM_SCOPE_LENS, move1_1=MOVE_STONE_AXE, move1_2=MOVE_CROSS_POISON, move1_3=MOVE_LUNGE move1_4=MOVE_FOCUS_ENERGY
+	setwildbossbattle species=SPECIES_ELECTRODE, level=80, item=ITEM_SCOPE_LENS, move1_1=MOVE_STONE_AXE, move1_2=MOVE_CROSS_POISON, move1_3=MOVE_LUNGE move1_4=MOVE_FOCUS_ENERGY
 	settotemboost B_POSITION_OPPONENT_LEFT, 1, 2, 0, 0, 2, 0
 	setflag FLAG_NO_WILD_CATCHING
 	setflag FLAG_NO_WILD_RUNNING
@@ -391,7 +391,7 @@ Route50_EventScript_Electrode::
     dowildbattle
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, Route50_EventScript_ElectrodeRan
-    bufferspeciesname STR_VAR_1, SPECIES_ELECTRODE_HISUI
+    bufferspeciesname STR_VAR_1, SPECIES_ELECTRODE
     msgbox SinjohRuins_Lab_Text_DropedItem, MSGBOX_DEFAULT
     giveitem ITEM_ZAP_PLATE
     addvar VAR_PLATECOUNTER, 1

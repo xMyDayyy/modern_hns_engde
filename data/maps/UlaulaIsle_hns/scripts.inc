@@ -71,7 +71,7 @@ Alola_Ulaula_Phant_outside_16:
 Alola_Ulaula_Phant_outside_22:
 	applymovement Phant_Outside, Alola_Ulaula_Phant_outside_Movement_6
 	waitmovement 0
-	playmoncry SPECIES_NOIVERN, 0
+	playmoncry SPECIES_CROBAT, 0
 	applymovement Phant_Noivern_Outside, Alola_Ulaula_Phant_outside_Movement_5
 	waitmovement 0
 	removeobject Phant_Noivern_Outside
@@ -120,7 +120,7 @@ Alola_Ulaula_Phant_outside_18:
 Alola_Ulaula_Phant_outside_21:
 	applymovement Phant_Outside, Alola_Ulaula_Phant_outside_Movement_4
 	waitmovement 0
-	playmoncry SPECIES_NOIVERN, 0
+	playmoncry SPECIES_CROBAT, 0
 	applymovement Phant_Noivern_Outside, Alola_Ulaula_Phant_outside_Movement_5
 	waitmovement 0
 	removeobject Phant_Noivern_Outside

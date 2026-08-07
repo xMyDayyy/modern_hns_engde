@@ -352,7 +352,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_VOLTORB_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_VOLTORB",
       "x": 37,
       "y": 34,
       "elevation": 6,
@@ -365,7 +365,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_VOLTORB_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_VOLTORB",
       "x": 40,
       "y": 2,
       "elevation": 6,
@@ -392,7 +392,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE50_NOBLE_ELECTRODE",
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_ELECTRODE_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_ELECTRODE",
       "x": 14,
       "y": 31,
       "elevation": 0,

@@ -4,9 +4,9 @@ SinjohRuins_RegiceRoom_hns_MapScripts::
 SinjohRuins_RegiceRoom_EventScript_Regice::
 	lock
 	faceplayer
-	playmoncry SPECIES_REGICE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_PALKIA, CRY_MODE_ENCOUNTER
 	waitmoncry
-	seteventmon SPECIES_REGICE, 80
+	seteventmon SPECIES_PALKIA, 80
 	special BattleSetup_StartLegendaryBattle
 	waitstate
 	specialvar VAR_RESULT, GetBattleOutcome

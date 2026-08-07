@@ -5,10 +5,10 @@ UlaUla_Cave_2_hns_MapScripts::
 Alola_Ulaula_BattleMuk::
 	lock
 	faceplayer
-	playmoncry SPECIES_MUK_ALOLA, 0
+	playmoncry SPECIES_MUK, 0
 	msgbox Alola_Ulaula_BattleMuk_Text_0, MSGBOX_AUTOCLOSE
 	waitmoncry
-	setwildbattle SPECIES_MUK_ALOLA, 45
+	setwildbattle SPECIES_MUK, 45
 	dowildbattle
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT

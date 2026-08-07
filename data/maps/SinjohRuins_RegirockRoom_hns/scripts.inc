@@ -4,9 +4,9 @@ SinjohRuins_RegirockRoom_hns_MapScripts::
 SinjohRuins_RegirockRoom_EventScript_Regirock::
 	lock
 	faceplayer
-	playmoncry SPECIES_REGIROCK, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_DIALGA, CRY_MODE_ENCOUNTER
 	waitmoncry
-	seteventmon SPECIES_REGIROCK, 80
+	seteventmon SPECIES_DIALGA, 80
 	special BattleSetup_StartLegendaryBattle
 	waitstate
 	specialvar VAR_RESULT, GetBattleOutcome

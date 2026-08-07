@@ -6,10 +6,10 @@ Alola_Poni_BattleExeggutor::
 	lock
 	faceplayer
 	setflag FLAG_BATTLED_EXEGGUTOR
-	playmoncry SPECIES_EXEGGUTOR_ALOLA, 0
+	playmoncry SPECIES_EXEGGUTOR, 0
 	msgbox Alola_Poni_BattleExeggutor_Text_0, MSGBOX_AUTOCLOSE
 	waitmoncry
-	setwildbattle SPECIES_EXEGGUTOR_ALOLA, 45
+	setwildbattle SPECIES_EXEGGUTOR, 45
 	dowildbattle
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
@@ -206,10 +206,10 @@ Alola_Poni_TapuFini_Flyover_2:
 Alola_Poni_BattleVsTapuFini::
 	lock
 	faceplayer
-	playmoncry SPECIES_TAPU_FINI, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
 	msgbox Alola_Poni_BattleVsTapuFini_Text_0
 	waitmoncry
-	seteventmon SPECIES_TAPU_FINI, 60
+	seteventmon SPECIES_MEW, 60
 	special BattleSetup_StartLegendaryBattle
 	waitstate
 	specialvar VAR_RESULT, GetBattleOutcome

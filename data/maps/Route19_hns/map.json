@@ -260,19 +260,6 @@
       "flag": "FLAG_DEFEATED_CINNABAR_ISLAND_GYM"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SAGE_HNS",
-      "x": 15,
-      "y": 55,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "LakeOfRageLowTide_EventScript_Sage",
-      "flag": "FLAG_BADGE16_GET"
-    },
-    {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 8,
       "y": 27,
@@ -286,15 +273,7 @@
       "flag": "FLAG_ITEM_ROUTE19_TM_BRINE"
     }
   ],
-  "warp_events": [
-    {
-      "x": 15,
-      "y": 54,
-      "elevation": 0,
-      "dest_map": "MAP_ROUTE19_CAVE_HNS",
-      "dest_warp_id": "0"
-    }
-  ],
+  "warp_events": [],
   "coord_events": [],
   "bg_events": [
     {

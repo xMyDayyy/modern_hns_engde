@@ -295,7 +295,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_ARCANINE_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_ARCANINE",
       "x": 43,
       "y": 37,
       "elevation": 0,
@@ -308,7 +308,7 @@
       "flag": "FLAG_DAY_POKEMON"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE",
       "x": 40,
       "y": 56,
       "elevation": 0,
@@ -321,7 +321,7 @@
       "flag": "FLAG_DAY_POKEMON"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_GROWLITHE",
       "x": 38,
       "y": 60,
       "elevation": 0,

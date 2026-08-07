@@ -5,10 +5,10 @@ Alola_Poni_BattleGolem::
 	lock
 	faceplayer
 	setflag FLAG_BATTLED_GOLEM
-	playmoncry SPECIES_GOLEM_ALOLA, 0
+	playmoncry SPECIES_GOLEM, 0
 	msgbox Alola_Poni_BattleGolem_Text_0, MSGBOX_AUTOCLOSE
 	waitmoncry
-	setwildbattle SPECIES_GOLEM_ALOLA, 45
+	setwildbattle SPECIES_GOLEM, 45
 	dowildbattle
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT

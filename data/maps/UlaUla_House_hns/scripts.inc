@@ -38,7 +38,7 @@ Alola_Ulaula_House_Phant_27:
 	compare VAR_TEMP_1, 8
 	goto_if_eq Alola_Ulaula_House_Phant_34
 Alola_Ulaula_House_Phant_32:
-	giveegg SPECIES_NOIBAT
+	giveegg SPECIES_ZUBAT
 	playfanfare MUS_HG_OBTAIN_EGG
 	msgbox Alola_Ulaula_House_Phant_Text_4
 	waitfanfare
@@ -110,7 +110,7 @@ Alola_Ulaula_House_Phant_34:
 Alola_Ulaula_House_Noivern::
 	lock
 	faceplayer
-	playmoncry SPECIES_NOIVERN, 0
+	playmoncry SPECIES_CROBAT, 0
 	msgbox Alola_Ulaula_House_Noivern_Text_0, MSGBOX_AUTOCLOSE
 	waitmoncry
 	release
@@ -120,7 +120,7 @@ Alola_Ulaula_House_Noivern::
 Alola_Ulaula_House_Typholosion::
 	lock
 	faceplayer
-	playmoncry SPECIES_TYPHLOSION_HISUI, 0
+	playmoncry SPECIES_TYPHLOSION, 0
 	msgbox Alola_Ulaula_House_Typholosion_Text_0
 	waitmoncry
 	release

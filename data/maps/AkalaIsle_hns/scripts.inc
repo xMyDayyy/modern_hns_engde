@@ -285,10 +285,10 @@ Alola_Akala_TapuLele_Flyover_2:
 Alola_Akala_BattleVsTapuLele::
 	lock
 	faceplayer
-	playmoncry SPECIES_TAPU_LELE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
 	msgbox Alola_Akala_BattleVsTapuLele_Text_0
 	waitmoncry
-	seteventmon SPECIES_TAPU_LELE, 60
+	seteventmon SPECIES_MEW, 60
 	special BattleSetup_StartLegendaryBattle
 	waitstate
 	specialvar VAR_RESULT, GetBattleOutcome

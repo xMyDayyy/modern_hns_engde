@@ -12225,18 +12225,6 @@
       "layout_version": "hns"
     },
     {
-      "id": "LAYOUT_ROUTE19_CAVE_HNS",
-      "name": "Route19_Cave_hns_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_Johto_NorthEast_Hns",
-      "secondary_tileset": "gTileset_Cave_Default_Hns",
-      "border_filepath": "data/layouts/Route19_Cave_hns/border.bin",
-      "blockdata_filepath": "data/layouts/Route19_Cave_hns/map.bin",
-      "game_version": "hns",
-      "layout_version": "hns"
-    },
-    {
       "id": "LAYOUT_ROUTE21_HNS",
       "name": "Route21_hns_Layout",
       "width": 24,
@@ -13181,18 +13169,6 @@
       "secondary_tileset": "gTileset_BlackthornGym_Hns",
       "border_filepath": "data/layouts/SeafoamIslands_Gym_hns/border.bin",
       "blockdata_filepath": "data/layouts/SeafoamIslands_Gym_hns/map.bin",
-      "game_version": "hns",
-      "layout_version": "hns"
-    },
-    {
-      "id": "LAYOUT_SEAFOAM_ISLANDS_SECRET_CAVE_HNS",
-      "name": "SeafoamIslands_SecretCave_hns_Layout",
-      "width": 35,
-      "height": 28,
-      "primary_tileset": "gTileset_Johto_Building_Hns",
-      "secondary_tileset": "gTileset_BlackthornGym_Hns",
-      "border_filepath": "data/layouts/SeafoamIslands_SecretCave_hns/border.bin",
-      "blockdata_filepath": "data/layouts/SeafoamIslands_SecretCave_hns/map.bin",
       "game_version": "hns",
       "layout_version": "hns"
     },

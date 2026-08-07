@@ -108,7 +108,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL",
       "x": 50,
       "y": 48,
       "elevation": 0,
@@ -160,7 +160,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL",
       "x": 39,
       "y": 42,
       "elevation": 0,
@@ -173,7 +173,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL",
       "x": 24,
       "y": 38,
       "elevation": 0,
@@ -290,7 +290,7 @@
       "flag": "FLAG_TEMP_1"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL",
       "x": 19,
       "y": 21,
       "elevation": 0,
@@ -303,7 +303,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL",
       "x": 27,
       "y": 32,
       "elevation": 0,
@@ -316,7 +316,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL",
       "x": 46,
       "y": 32,
       "elevation": 0,
@@ -329,7 +329,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL",
       "x": 52,
       "y": 21,
       "elevation": 0,
@@ -342,7 +342,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_SNEASEL",
       "x": 38,
       "y": 25,
       "elevation": 0,

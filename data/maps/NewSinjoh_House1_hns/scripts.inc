@@ -25,9 +25,9 @@ NewSinjoh_House1_EventScript_GiveWooperPaldea::
     applymovement LOCALID_NEWSINJOH_HOUSE1_ELIZABETH, Common_Movement_ExclamationMark
 	delay 60
     msgbox NewSinjoh_House1_OffersWooper MSGBOX_DEFAULT
-    setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_WOOPER_PALDEA
-    bufferspeciesname STR_VAR_1, SPECIES_WOOPER_PALDEA
-    givemon SPECIES_WOOPER_PALDEA, 5
+    setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_WOOPER
+    bufferspeciesname STR_VAR_1, SPECIES_WOOPER
+    givemon SPECIES_WOOPER, 5
 	call Common_EventScript_GiftMon
 	setflag FLAG_NEWSINJOH_HOUSE1_ELIZABETH_GAVEWOOPER
 	closemessage

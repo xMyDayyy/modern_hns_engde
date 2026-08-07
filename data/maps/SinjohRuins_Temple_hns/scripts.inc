@@ -24,7 +24,7 @@ SinjohRuins_Temple_EventScript_RegiceScanner::
 	lock
 	goto_if_set FLAG_BROUGHT_REGICE, SinjohRuins_Temple_EventScript_ScannerAlreadyDone
 	msgbox SinjohRuins_Temple_Text_Mon, MSGBOX_AUTOCLOSE
-	checkspecies SPECIES_REGICE
+	checkspecies SPECIES_PALKIA
 	goto_if_eq VAR_RESULT, FALSE, SinjohRuins_Lab_EventScript_NoOp
 	setflag FLAG_BROUGHT_REGICE
     goto_if_eq VAR_RESULT, TRUE, SinjohRuins_Temple_EventScript_SeenPokemon
@@ -35,7 +35,7 @@ SinjohRuins_Temple_EventScript_RegirockScanner::
 	lock
 	goto_if_set FLAG_BROUGHT_REGIROCK, SinjohRuins_Temple_EventScript_ScannerAlreadyDone
 	msgbox SinjohRuins_Temple_Text_Mon, MSGBOX_AUTOCLOSE
-	checkspecies SPECIES_REGIROCK
+	checkspecies SPECIES_DIALGA
 	goto_if_eq VAR_RESULT, FALSE, SinjohRuins_Lab_EventScript_NoOp
 	setflag FLAG_BROUGHT_REGIROCK
     goto_if_eq VAR_RESULT, TRUE, SinjohRuins_Temple_EventScript_SeenPokemon
@@ -46,7 +46,7 @@ SinjohRuins_Temple_EventScript_RegisteelScanner::
 	lock
 	goto_if_set FLAG_BROUGHT_REGISTEEL, SinjohRuins_Temple_EventScript_ScannerAlreadyDone
 	msgbox SinjohRuins_Temple_Text_Mon, MSGBOX_AUTOCLOSE
-	checkspecies SPECIES_REGISTEEL
+	checkspecies SPECIES_GIRATINA
 	goto_if_eq VAR_RESULT, FALSE, SinjohRuins_Lab_EventScript_NoOp
 	setflag FLAG_BROUGHT_REGISTEEL
     goto_if_eq VAR_RESULT, TRUE, SinjohRuins_Temple_EventScript_SeenPokemon
@@ -57,7 +57,7 @@ SinjohRuins_Temple_EventScript_RegielekiScanner::
 	lock
 	goto_if_set FLAG_BROUGHT_REGIELEKI, SinjohRuins_Temple_EventScript_ScannerAlreadyDone
 	msgbox SinjohRuins_Temple_Text_Mon, MSGBOX_AUTOCLOSE
-	checkspecies SPECIES_REGIELEKI
+	checkspecies SPECIES_REGIGIGAS
 	goto_if_eq VAR_RESULT, FALSE, SinjohRuins_Lab_EventScript_NoOp
 	setflag FLAG_BROUGHT_REGIELEKI
     goto_if_eq VAR_RESULT, TRUE, SinjohRuins_Temple_EventScript_SeenPokemon
@@ -68,7 +68,7 @@ SinjohRuins_Temple_EventScript_RegidragoScanner::
 	lock
 	goto_if_set FLAG_BROUGHT_REGIDRAGO, SinjohRuins_Temple_EventScript_ScannerAlreadyDone
 	msgbox SinjohRuins_Temple_Text_Mon, MSGBOX_AUTOCLOSE
-	checkspecies SPECIES_REGIDRAGO
+	checkspecies SPECIES_REGIGIGAS
 	goto_if_eq VAR_RESULT, FALSE, SinjohRuins_Lab_EventScript_NoOp
 	setflag FLAG_BROUGHT_REGIDRAGO
     goto_if_eq VAR_RESULT, TRUE, SinjohRuins_Temple_EventScript_SeenPokemon

@@ -4,9 +4,9 @@ SinjohRuins_RegisteelRoom_hns_MapScripts::
 SinjohRuins_RegisteelRoom_EventScript_Registeel::
 	lock
 	faceplayer
-	playmoncry SPECIES_REGISTEEL, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_GIRATINA, CRY_MODE_ENCOUNTER
 	waitmoncry
-	seteventmon SPECIES_REGISTEEL, 80
+	seteventmon SPECIES_GIRATINA, 80
 	special BattleSetup_StartLegendaryBattle
 	waitstate
 	specialvar VAR_RESULT, GetBattleOutcome
