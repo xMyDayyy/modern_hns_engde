@@ -1187,6 +1187,7 @@ static const struct MenuAction MultichoiceList_OlivineHarbor[] =
     {gText_BirthIsland},
     {gText_FarawayIsland},
     {gText_BattleFrontier},
+    {gText_HoennRegion},
     {gText_Exit},
 };
 static const struct MenuAction MultichoiceList_VermilionHarbor[] =
@@ -1196,6 +1197,7 @@ static const struct MenuAction MultichoiceList_VermilionHarbor[] =
     {gText_BirthIsland},
     {gText_FarawayIsland},
     {gText_BattleFrontier},
+    {gText_HoennRegion},
     {gText_Exit},
 };
 

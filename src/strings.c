@@ -2347,6 +2347,11 @@ const u8 gText_FarawayIsland[] = _("Ferneiland");
 const u8 gText_FarawayIsland[] = _("FARAWAY ISLAND");
 #endif
 #if GERMAN
+const u8 gText_HoennRegion[] = _("Hoenn");
+#else
+const u8 gText_HoennRegion[] = _("HOENN");
+#endif
+#if GERMAN
 const u8 gText_NavelRock[] = _("Nabelfels");
 #else
 const u8 gText_NavelRock[] = _("NAVEL ROCK");

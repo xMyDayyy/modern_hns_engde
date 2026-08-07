@@ -95,7 +95,7 @@ LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor::
 	applymovement LOCALID_RIVALS_HOUSE_1F_MOM, LittlerootTown_BrendansHouse_1F_Movement_RivalMomApproach
 	waitmovement 0
 	special GetRivalSonDaughterString
-	msgbox RivalsHouse_1F_Text_OhYoureTheNewNeighbor, MSGBOX_DEFAULT
+	msgbox BrendansHouse_1F_Text_ChampionVisit, MSGBOX_DEFAULT
 	setflag FLAG_MET_RIVAL_MOM
 	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 2
 	releaseall
@@ -624,4 +624,29 @@ PlayersHouse_1F_Text_StillUnknownPokemon:
 #else
 	.string "MOM: Well, isn't that something!\n"
 	.string "There are still unknown POKéMON.$"
+#endif
+
+BrendansHouse_1F_Text_ChampionVisit:
+#if GERMAN
+	.string "Oh! Besuch?\p"
+	.string "… … … … … … … … …\n"
+	.string "… … … … … … … … …\p"
+	.string "Du bist {PLAYER}{KUN} aus Johto!\p"
+	.string "Mein Mann hat gestern noch von dir\n"
+	.string "gesprochen. Er verfolgt die Liga\l"
+	.string "im Radio, jeden Abend.\p"
+	.string "Setz dich doch. Ach, du willst sicher\n"
+	.string "weiter - ihr Trainer habt es ja immer\l"
+	.string "eilig.$"
+#else
+	.string "Oh! A visitor?\p"
+	.string "… … … … … … … … …\n"
+	.string "… … … … … … … … …\p"
+	.string "You're {PLAYER}{KUN} from JOHTO!\p"
+	.string "My husband was talking about you\n"
+	.string "just yesterday. He follows the\l"
+	.string "LEAGUE on the radio every evening.\p"
+	.string "Do sit down. Oh, you'll want to be\n"
+	.string "off - you TRAINERS are always in\l"
+	.string "a hurry.$"
 #endif

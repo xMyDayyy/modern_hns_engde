@@ -474,6 +474,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route104_EventScript_Rival",
       "flag": "FLAG_HIDE_ROUTE_104_RIVAL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
+      "x": 17,
+      "y": 50,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "0",
+      "flag": "FLAG_HIDE_ROUTE104_HOENN_BIRCH",
+      "local_id": "LOCALID_HOENN_BIRCH"
     }
   ],
   "warp_events": [
@@ -543,6 +557,24 @@
       "var": "VAR_ROUTE104_STATE",
       "var_value": "1",
       "script": "Route104_EventScript_RivalTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 52,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "1",
+      "script": "Route104_EventScript_HoennArrival"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 52,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "1",
+      "script": "Route104_EventScript_HoennArrival"
     }
   ],
   "bg_events": [

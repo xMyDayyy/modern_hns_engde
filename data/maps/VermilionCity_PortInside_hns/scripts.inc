@@ -57,7 +57,8 @@ VermilionPort_EventScript_Sailor_AfterKanto::
 	case 2, VermilionPort_EventScript_ChoseBirthIsland
 	case 3, VermilionPort_EventScript_ChoseFarawayIsland
 	case 4, VermilionPort_EventScript_ChoseBattleFrontier
-	case 5, VermilionPort_EventScript_Sailor_Refused
+	case 5, Common_EventScript_SailToHoenn
+	case 6, VermilionPort_EventScript_Sailor_Refused
 	case MULTI_B_PRESSED, VermilionPort_EventScript_Sailor_Refused
 	release
 	end
