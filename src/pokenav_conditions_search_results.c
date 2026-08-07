@@ -22,7 +22,11 @@ enum
     CONDITION_SEARCH_FUNC_SELECT_MON,
 };
 
+#if GERMAN
 static const u8 gText_NumberIndex[] = _("Nr. {DYNAMIC 0}");
+#else
+static const u8 gText_NumberIndex[] = _("No. {DYNAMIC 0}");
+#endif
 
 struct Pokenav_SearchResults
 {

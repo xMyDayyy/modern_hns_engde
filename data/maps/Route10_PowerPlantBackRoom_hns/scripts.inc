@@ -59,6 +59,7 @@ Route10_PowerPlantBackRoom_EventScript_Engineer::
 	end
 
 Route10_PowerPlantBackRoom_Text_ManagerWhoWouldRuinMyGenerator:
+#if GERMAN
 	.string "Direktor: Ich, ich\n"
 	.string "werde ihm nie verzeihen!\p"
 	.string "Wer wagt es,\n"
@@ -66,37 +67,82 @@ Route10_PowerPlantBackRoom_Text_ManagerWhoWouldRuinMyGenerator:
 	.string "Ich habe so lange daran gearbeitet!\p"
 	.string "Wenn ich den erwische, dann\n"
 	.string "lernt er meine Blitzkanone kennen!$"
+#else
+	.string "MANAGER: I, I, I'm ready to blast\n"
+	.string "someone!\p"
+	.string "Who would dare ruin my\n"
+	.string "generator?\p"
+	.string "I spent so much time on it!\p"
+	.string "If I catch him, he's going to\n"
+	.string "get a taste of my ZAP CANNON!$"
+#endif
 
 Route10_PowerPlantBackRoom_Text_ManagerIWontForgiveCulprit:
+#if GERMAN
 	.string "Direktor: Das kann\n"
 	.string "ich ihm nicht verzeihen!\p"
 	.string "Der Schurke kann weinen und sich\p"
 	.string "entschuldigen, ich\n"
 	.string "werde ihn trotzdem bestrafen!\p"
 	.string "Uahahaha!$"
+#else
+	.string "MANAGER: I won't forgive him!\p"
+	.string "The culprit can cry and\n"
+	.string "apologize,\p"
+	.string "but I'll still hammer him!\p"
+	.string "Gahahahah!$"
+#endif
 
 Route10_PowerPlantBackRoom_Text_ManagerThatsThePart:
+#if GERMAN
 	.string "Manager: Ah! Ja!\p"
 	.string "Das ist das fehlende Teil von\n"
 	.string "meinem geliebten Generator!\p"
 	.string "Du hast es gefunden?$"
+#else
+	.string "MANAGER: Ah! Yeah!\p"
+	.string "That's the missing PART from my\n"
+	.string "beloved generator! You found it?$"
+#endif
 
 Route10_PowerPlantBackRoom_Text_ManagerTakeThisTM:
+#if GERMAN
 	.string "Direktor: Oh, ich bin dir ja so dankbar!\n"
 	.string "Erlaube mir, mich mit dieser TM etwas\l"
 	.string "erkenntlich zu zeigen!$"
+#else
+	.string "Wahah! Thanks!\p"
+	.string "Here! Take this TM as a reward!$"
+#endif
 
 Route10_PowerPlantBackRoom_Text_ManagerTM07IsZapCannon:
+#if GERMAN
 	.string "Direktor: TM25\n"
 	.string "enthält Donner. Eine sehr\p"
 	.string "starke Attacke! Sie ist nicht sehr\n"
 	.string "präzise, aber du kannst jemanden\l"
 	.string "damit ordentlich schmoren!$"
+#else
+	.string "MANAGER: That TM is THUNDER.\p"
+	.string "It's a powerful technique!\p"
+	.string "It's not what anyone would\n"
+	.string "consider accurate, but it packs a\l"
+	.string "wallop!$"
+#endif
 
 Route10_PowerPlantBackRoom_Text_ManagerMyBelovedGenerator:
+#if GERMAN
 	.string "Direktor: Mein geliebter Generator!\p"
 	.string "Produziere weiter viel Energie!$"
+#else
+	.string "MANAGER: My beloved generator!\p"
+	.string "Keep pumping the electricity out!$"
+#endif
 
 Route10_PowerPlantBackRoom_Text_Engineer:
+#if GERMAN
 	.string "Die Tür ist ohne Strom gefährlich.$"
+#else
+	.string "This door is unsafe without power.$"
+#endif
 

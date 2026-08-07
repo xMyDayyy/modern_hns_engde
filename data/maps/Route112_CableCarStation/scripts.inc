@@ -85,12 +85,25 @@ Route112_CableCarStation_Movement_ExitCableCar:
 	step_end
 
 Route112_CableCarStation_Text_CableCarReadyGetOn:
+#if GERMAN
 	.string "Die Seilbahn fährt gleich hinauf.\n"
 	.string "Möchtest du mit?$"
+#else
+	.string "The CABLE CAR is ready to go up.\n"
+	.string "Would you like to be on it?$"
+#endif
 
 Route112_CableCarStation_Text_StepThisWay:
+#if GERMAN
 	.string "Bitte hier entlang.$"
+#else
+	.string "Please step this way.$"
+#endif
 
 Route112_CableCarStation_Text_RideAnotherTime:
+#if GERMAN
 	.string "Dann fahre bitte später mit uns.$"
+#else
+	.string "Please ride with us another time.$"
+#endif
 

@@ -309,6 +309,7 @@ VermilionCity_Movement_EusineLeave:
 	step_end
 
 VermilionCity_Text_Eusine:
+#if GERMAN
 	.string "Eusin: Um ein Haar hätte es geklappt!\p"
 	.string "Ich dachte, ich könnte Suicune\n"
 	.string "überraschen, wenn ich ihm hier\l"
@@ -321,77 +322,165 @@ VermilionCity_Text_Eusine:
 	.string "Suicune erscheint vor allem an Orten,\n"
 	.string "wo es Wasser gibt!\l"
 	.string "Das würde demnach bedeuten, dass…$"
+#else
+	.string "EUSINE: That was so close!\n"
+	.string "I though I could corner it by\l"
+	.string "ambushing it here.\p"
+	.string "But running on the water is beyond\n"
+	.string "me.\p"
+	.string "Still, I am starting to see\n"
+	.string "a pattern.\p"
+	.string "SUICUNE prefers water!\p"
+	.string "That means...$"
+#endif
 
 VermilionCity_Text_Eusine2:
+#if GERMAN
 	.string "Tut mir leid, {PLAYER}!\n"
 	.string "Ich muss sofort weiter!$"
+#else
+	.string "Sorry {PLAYER}, I've got to go!$"
+#endif
 
 VermilionCity_Text_Teacher:
+#if GERMAN
 	.string "Der Hafen von Orania City\n"
 	.string "ist Kantos Tor zum Meer.\p"
 	.string "Hier legen Luxusdampfer\n"
 	.string "aus aller Welt an!$"
+#else
+	.string "VERMILION PORT is KANTO's seaside\n"
+	.string "gateway.\p"
+	.string "Luxury liners from around the\n"
+	.string "world dock here.$"
+#endif
 
 VermilionCity_Text_MachopOwner:
+#if GERMAN
 	.string "Ich lasse mein Pokémon Land für ein\n"
 	.string "Bauwerk ebnen, aber ich habe nicht\l"
 	.string "genügend Geld für das gesamte Projekt.$"
+#else
+	.string "My POKéMON is preparing the land\n"
+	.string "for construction.\p"
+	.string "But I have no money to start the\n"
+	.string "project…$"
+#endif
 
 VermilionCity_Text_Machop1:
+#if GERMAN
 	.string "Machollo: Ma, machollo!$"
+#else
+	.string "MACHOP: Guooh gogogoh!$"
+#endif
 
 VermilionCity_Text_Machop2:
+#if GERMAN
 	.string "Ein Machollo\n"
 	.string "brüllt laut, während es auf den Boden\l"
 	.string "stampft.$"
+#else
+	.string "A MACHOP is growling while\n"
+	.string "stomping the ground flat.$"
+#endif
 
 VermilionCity_Text_SuperNerd:
+#if GERMAN
 	.string "Es gibt acht Arenen in Kanto.\n"
 	.string "Siehst du das große Gebäude da drüben?\p"
 	.string "Das ist die Pokémon-Arena von Orania\n"
 	.string "Citys Arenaleiter Major Bob.$"
+#else
+	.string "There are eight GYMS in KANTO.\p"
+	.string "That big building is VERMILION's\n"
+	.string "POKéMON GYM.$"
+#endif
 
 VermilionCity_Text_SnorlaxSleeping:
+#if GERMAN
 	.string "Relaxo schläft friedlich…$"
+#else
+	.string "SNORLAX is snoring peacefully…$"
+#endif
 
 VermilionCity_Text_RadioNearSnorlax:
-	.string "Der PokéCom wird\n"
+#if GERMAN
+	.string "Der {COLOR RED}PokéCom{COLOR DARK_GRAY} wird\n"
 	.string "in der Nähe des schlafenden Relaxos\l"
 	.string "platziert…\p"
 	.string "…\p"
 	.string "Relaxo ist aufgewacht!$"
+#else
+	.string "The RADIO was placed near the\n"
+	.string "sleeping SNORLAX…\p"
+	.string "…\p"
+	.string "SNORLAX woke up!$"
+#endif
 
 VermilionCity_Text_BadgeGuy_Trainer:
+#if GERMAN
 	.string "In Kanto gibt es einen ganzen Haufen\n"
 	.string "sehr starker und talentierter Trainer.\p"
 	.string "Die Arenaleiter sind besonders harte\n"
 	.string "Brocken! Das wird nicht leicht für dich!$"
+#else
+	.string "Skilled trainers gather in KANTO.\p"
+	.string "GYM LEADERS are especially strong.\p"
+	.string "They won't be easy to defeat.$"
+#endif
 
 VermilionCity_Text_BadgeGuy_SomeBadges:
+#if GERMAN
 	.string "Oh, wie ich sehe, sammelst du jetzt auch\n"
 	.string "die Orden der Arenaleiter von Kanto!\p"
 	.string "Hier wimmelt es geradezu von starken\n"
 	.string "Trainern, habe ich nicht recht?$"
+#else
+	.string "You've started to collect KANTO\n"
+	.string "GYM BADGES?\p"
+	.string "Don't you agree that the trainers\n"
+	.string "here are tough?$"
+#endif
 
 VermilionCity_Text_BadgeGuy_MostBadges:
+#if GERMAN
 	.string "Endspurt! Bald hast du auch alle der\n"
 	.string "acht Arenen von Kanto gemeistert!\p"
 	.string "Lass mich wissen, wenn du alle acht\n"
 	.string "Orden hast!$"
+#else
+	.string "I guess you'll be finished with\n"
+	.string "your conquest of KANTO GYMS soon.\p"
+	.string "Let me know if you get all eight\n"
+	.string "BADGES.$"
+#endif
 
 VermilionCity_Text_BadgeGuy_AllBadges:
+#if GERMAN
 	.string "Gratuliere! Du hast dir alle Orden der\n"
 	.string "Pokémon-Arenen in Kanto erkämpft!\p"
 	.string "Für deine Anstrengungen bekommst\n"
 	.string "du jetzt eine Belohnung von mir!$"
+#else
+	.string "Congratulations!\p"
+	.string "You got all the KANTO GYM BADGES.\p"
+	.string "I've got a reward for your efforts.$"
+#endif
 
 VermilionCity_Text_BadgeGuy_BattleEdge:
+#if GERMAN
 	.string "Es ist vorteilhaft, wenn du\n"
 	.string "Pokémon verschie-\l"
 	.string "dener Elemente kämpfen lässt.\p"
 	.string "Ich bin sicher,\n"
 	.string "dass die Orden der Arenen in Kanto dir\l"
 	.string "helfen werden.$"
+#else
+	.string "Having a variety of POKéMON types\n"
+	.string "should give you an edge in battle.\p"
+	.string "I'm sure the KANTO GYM BADGES will\n"
+	.string "help you.$"
+#endif
 
 VermilionCity_EventScript_CitySign::
 	msgbox VermilionCity_Text_Sign, MSGBOX_SIGN
@@ -407,23 +496,49 @@ VermilionCity_EventScript_DiglettsCaveSign::
 	end
 
 VermilionCity_Text_Sign:
+#if GERMAN
 	.string "Orania City\n"
 	.string "Die abendrote Hafenstadt$"
+#else
+	.string "VERMILION CITY\p"
+	.string "The Port of Exquisite Sunsets$"
+#endif
 
 VermilionCity_Text_GymSign:
+#if GERMAN
 	.string "Pokémon-Arena von Orania City\n"
 	.string "Leiter: Major Bob\l"
 	.string "Ein Blitz am Himmel des Militärs$"
+#else
+	.string "VERMILION CITY\n"
+	.string "POKéMON GYM\p"
+	.string "LEADER: LT.SURGE\p"
+	.string "The Lightning American$"
+#endif
 
 VermilionCity_Text_FanClubSign:
+#if GERMAN
 	.string "Pokémon Fan Club\n"
 	.string "Alle Pokémon-Fans sind willkommen!$"
+#else
+	.string "POKéMON FAN CLUB\p"
+	.string "All POKéMON Fans Welcome!$"
+#endif
 
 VermilionCity_Text_DiglettsCaveSign:
+#if GERMAN
 	.string "Digdas Höhle$"
+#else
+	.string "DIGLETT'S CAVE$"
+#endif
 
 VermilionCity_Text_PortSign:
+#if GERMAN
 	.string "Eingang zum Hafen von Orania City$"
+#else
+	.string "VERMILION PORT\n"
+	.string "ENTRANCE$"
+#endif
 
 VermilionCity_EventScript_TriggerStevenLeft::
 	lock
@@ -505,6 +620,7 @@ VermilionCity_Movement_StevenWalkToPlayer:
 	step_end
 
 VermilionCity_Text_StevenIntro:
+#if GERMAN
 	.string "Hallo!\n"
 	.string "Mein Name ist Troy.\p"
 	.string "Der Champion aus der Hoenn-region.\p"
@@ -530,9 +646,40 @@ VermilionCity_Text_StevenIntro:
 	.string "gesichtet, das wie ein Jet durch\l"
 	.string "den Himmel fliegt…\l"
 	.string "Welche Farbe hatte es nochmal?$"
+#else
+	.string "Hi!\n"
+	.string "My name is Steven.\l"
+	.string "The Champion from the HOENN region.\p"
+	.string "Have we met...before?\p"
+	.string "That's not possible. \n"
+	.string "All the trainers I have battled\l"
+	.string "seem to have the same look, anyway.\p"
+	.string "Especially the ones who gave me\n"
+	.string "tough battles.\p"
+	.string "I'm in KANTO for business.\n"
+	.string "Recently many HOENN POKéMON have\l"
+	.string "migrated to this region.\l"
+	.string "This influx risks disrupting the\l"
+	.string "natural ecosystem here.\p"
+	.string "So with the help of my company,\n"
+	.string "I'm creating a special habitat\l"
+	.string "to attract and contain the most\l"
+	.string "invasive species.\p"
+	.string "Make sure you keep an eye out\n"
+	.string "and catch any HOENN POKéMON you see.\p"
+	.string "Some trainers have even reported\n"
+	.string "one that soars through the sky like\l"
+	.string "a jet... What color was it again?$"
+#endif
 
 VermilionCity_Text_StevenOutro:
+#if GERMAN
 	.string "Ah, stimmt.\p"
 	.string "Ich muss weiter.\n"
 	.string "Vielleicht kreuzen sich unsere\l"
 	.string "Wege nochmal.$"
+#else
+	.string "Ah, that's right.\p"
+	.string "I must go.\n"
+	.string "May our journeys cross again.$"
+#endif

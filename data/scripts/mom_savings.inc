@@ -26,6 +26,7 @@ EventScript_MomGiftCall_Decoration::
 	end
 
 Mom_Text_GiftCall_Item:
+#if GERMAN
 	.string "Mama: Hallo, {PLAYER}!\n"
 	.string "Wie geht es dir?\p"
 	.string "Ich habe heute beim Einkaufen ein\n"
@@ -34,8 +35,16 @@ Mom_Text_GiftCall_Item:
 	.string "Ich habe es auf deinen PC übertragen.\n"
 	.string "Du wirst es sicher brauchen können!\p"
 	.string "Mach’s gut!$"
+#else
+	.string "MOM: Hi, sweetie!\p"
+	.string "I bought something nice\n"
+	.string "for you with your savings!\p"
+	.string "I sent it to your PC.\n"
+	.string "Take care!$"
+#endif
 
 Mom_Text_GiftCall_Berry:
+#if GERMAN
 	.string "Mama: Hallo, {PLAYER}!\n"
 	.string "Wie geht es dir?\p"
 	.string "Ich habe heute beim Einkaufen leckere\n"
@@ -44,8 +53,16 @@ Mom_Text_GiftCall_Berry:
 	.string "Ich habe sie auf deinen PC übertragen.\n"
 	.string "Du wirst sie sicher brauchen können!\p"
 	.string "Mach’s gut!$"
+#else
+	.string "MOM: Hi, sweetie!\p"
+	.string "I found some nice BERRIES\n"
+	.string "at the store for you!\p"
+	.string "I sent them to your PC.\n"
+	.string "Take care!$"
+#endif
 
 Mom_Text_GiftCall_Decoration:
+#if GERMAN
 	.string "Mama: Hallo, {PLAYER}!\n"
 	.string "Wie geht es dir?\p"
 	.string "Ich habe heute beim Einkaufen eine\n"
@@ -54,3 +71,10 @@ Mom_Text_GiftCall_Decoration:
 	.string "Sieh dir die Dekorationen an, wenn du\n"
 	.string "wieder zu Hause bist!\p"
 	.string "Mach’s gut!$"
+#else
+	.string "MOM: Hi, sweetie!\p"
+	.string "I bought a cute POKé DOLL\n"
+	.string "for your room!\p"
+	.string "Check your DECORATIONS when you\n"
+	.string "come home. Take care!$"
+#endif

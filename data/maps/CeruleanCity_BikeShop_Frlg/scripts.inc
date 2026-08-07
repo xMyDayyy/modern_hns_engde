@@ -73,49 +73,107 @@ CeruleanCity_BikeShop_EventScript_Bicycle::
 	end
 
 CeruleanCity_BikeShop_Text_WelcomeToBikeShop::
+#if GERMAN
 	.string "Hallo!\n"
 	.string "Willkommen im Fahrradladen!\p"
 	.string "Wir haben garantiert das richtige\n"
 	.string "Fahrrad für dich!$"
+#else
+	.string "Hi!\n"
+	.string "Welcome to our BIKE SHOP.\p"
+	.string "Have we got just the BIKE for\n"
+	.string "you!$"
+#endif
 
 CeruleanCity_BikeShop_Text_SorryYouCantAffordIt::
+#if GERMAN
 	.string "Es tut mir Leid, du kannst es dir\n"
 	.string "nicht leisten!$"
+#else
+	.string "Sorry!\n"
+	.string "You can't afford it!$"
+#endif
 
 CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo::
+#if GERMAN
 	.string "Oh, das ist ein...\p"
-	.string "... Rad-Coupon!\p"
+	.string "... {COLOR RED}Rad-Coupon{COLOR DARK_GRAY}!\p"
 	.string "O.K.!\n"
 	.string "Es gehört dir!$"
+#else
+	.string "Oh, that's…\p"
+	.string "A BIKE VOUCHER!\p"
+	.string "Okay!\n"
+	.string "Here you go!$"
+#endif
 
 CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle::
-	.string "{PLAYER} tauscht den Rad-Coupon\n"
+#if GERMAN
+	.string "{PLAYER} tauscht den {COLOR RED}Rad-Coupon{COLOR DARK_GRAY}\n"
 	.string "gegen das Fahrrad.$"
+#else
+	.string "{PLAYER} exchanged the\n"
+	.string "BIKE VOUCHER for a BICYCLE.$"
+#endif
 
 CeruleanCity_BikeShop_Text_ThankYouComeAgain::
+#if GERMAN
 	.string "Besuch uns doch wieder!$"
+#else
+	.string "Thank you!\n"
+	.string "Come back again sometime!$"
+#endif
 
 CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle::
+#if GERMAN
 	.string "Wie gefällt dir dein neues Fahrrad?\p"
 	.string "Du kannst damit auf dem Radweg und\n"
 	.string "in Höhlen fahren!$"
+#else
+	.string "How do you like your new BICYCLE?\n"
+	.string "Do you like how it rides?\p"
+	.string "You can take it out on CYCLING\n"
+	.string "ROAD and even into caves!$"
+#endif
 
 CeruleanCity_BikeShop_Text_MakeRoomForBicycle::
+#if GERMAN
 	.string "Du kannst es momentan nicht\n"
 	.string "mitnehmen!$"
+#else
+	.string "You better make room for your\n"
+	.string "BICYCLE!$"
+#endif
 
 CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe::
+#if GERMAN
 	.string "Ich möchte ein Hollandrad kaufen!\p"
 	.string "Ein Mountainbike hat keinen\n"
 	.string "Gepäckträger!$"
+#else
+	.string "A plain city bike is good enough\n"
+	.string "for me.\p"
+	.string "After all, you can't put a shopping\n"
+	.string "basket on a mountain bike.$"
+#endif
 
 CeruleanCity_BikeShop_Text_BikesCoolButExpensive::
+#if GERMAN
 	.string "Die Fahrräder sind ziemlich cool,\n"
 	.string "aber unheimlich teuer!$"
+#else
+	.string "These bikes are cool, but they're\n"
+	.string "way expensive!$"
+#endif
 
 CeruleanCity_BikeShop_Text_WowYourBikeIsCool::
+#if GERMAN
 	.string "Wow!\n"
 	.string "Du hast ein cooles Fahrrad!$"
+#else
+	.string "Wow.\n"
+	.string "Your BIKE is really cool!$"
+#endif
 
 @ Unused
 CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
@@ -124,5 +182,9 @@ CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
 	.string "おりたたみ　じてんしゃ！$"
 
 CeruleanCity_BikeShop_Text_ShinyNewBicycle::
+#if GERMAN
 	.string "Ein brandneues Fahrrad!$"
+#else
+	.string "A shiny new BICYCLE!$"
+#endif
 

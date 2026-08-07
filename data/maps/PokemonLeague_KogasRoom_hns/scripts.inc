@@ -52,6 +52,7 @@ PokemonLeague_KogasRoom_EventScript_KogaDefeated::
 	end
 
 PokemonLeague_KogasRoom_Text_RematchBefore:
+#if GERMAN
 	.string "Koga: Fwahahahaha!\p"
 	.string "Du bist zurück, mutiger\n"
 	.string "Herausforderer.\p"
@@ -63,8 +64,19 @@ PokemonLeague_KogasRoom_Text_RematchBefore:
 	.string "Sei bereit!\p"
 	.string "Fwahahahaha!\p"
 	.string "Zeige mir, wie sehr du gewachsen bist!$"
+#else
+    .string "KOGA: Fwahahahaha!\p"
+    .string "You return, brave challenger.\p"
+    .string "My ninja skills have sharpened.\p"
+    .string "New sinister traps await you.\p"
+    .string "Poison, sleep, and more...\n"
+    .string "Be ready!\p"
+    .string "Fwahahahaha!\p"
+    .string "Show me how you've grown!$"
+#endif
 
 PokemonLeague_KogasRoom_Text_Before:
+#if GERMAN
 	.string "Fwahahahaha!\p"
 	.string "Ich bin Koga von der Top Vier.\p"
 	.string "Ich lebe in den Schatten, ein Ninja!\p"
@@ -76,11 +88,30 @@ PokemonLeague_KogasRoom_Text_Before:
 	.string "Fwahahahaha!\p"
 	.string "Pokémon dreht sich nicht nur um rohe\n"
 	.string "Kraft… das wirst du bald sehen!$"
+#else
+    .string "Fwahahahaha!\p"
+    .string "I am KOGA of the ELITE FOUR.\p"
+    .string "I live in shadows, a ninja!\p"
+    .string "My intricate style will confound\n"
+    .string "and destroy you!\p"
+    .string "Confusion, sleep, poison…\p"
+    .string "Prepare to be the victim of my\n"
+    .string "sinister technique!\p"
+    .string "Fwahahahaha!\p"
+    .string "POKéMON is not merely about brute\n"
+    .string "force--you shall see soon enough!$"
+#endif
 
 PokemonLeague_KogasRoom_Text_Beaten:
+#if GERMAN
 	.string "Ah! Du hast dich als würdig erwiesen!$"
+#else
+    .string "Ah!\n"
+    .string "You have proven your worth!$"
+#endif
 
 PokemonLeague_KogasRoom_Text_Defeat:
+#if GERMAN
 	.string "Ich habe alles eingesetzt, was ich\n"
 	.string "hatte.\p"
 	.string "Doch meine Bemühungen scheiterten. Ich\n"
@@ -88,3 +119,11 @@ PokemonLeague_KogasRoom_Text_Defeat:
 	.string "schärfen.\p"
 	.string "Geh in den nächsten Raum und prüfe\n"
 	.string "deine Fertigkeiten!$"
+#else
+    .string "I subjected you to everything I\n"
+    .string "could muster.\p"
+    .string "But my efforts failed. I must hone\n"
+    .string "my skills.\p"
+    .string "Go on to the next room, and put\n"
+    .string "your abilities to test!$"
+#endif

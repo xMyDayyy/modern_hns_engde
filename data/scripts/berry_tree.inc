@@ -63,19 +63,37 @@ BerryTree_EventScript_ItemUseWailmerPail::
 	end
 
 BerryTree_Text_Hns_NotRipe:
+#if GERMAN
 	.string "Ein Strauß Beeren!\n"
 	.string "Diese Beeren sind noch nicht reif.$"
+#else
+	.string "It's a BERRY tree!\n"
+	.string "These BERRIES aren't ripe yet.$"
+#endif
 
 BerryTree_Text_Hns_Picked:
+#if GERMAN
 	.string "{PLAYER} pflückt die {STR_VAR_2} {STR_VAR_1}.$"
+#else
+	.string "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}.$"
+#endif
 
 BerryTree_Text_Hns_BagFull:
+#if GERMAN
 	.string "Die Beerentasche des Beutels ist voll.\p"
 	.string "Die {STR_VAR_1} können nicht\n"
 	.string "mitgenommen werden.$"
+#else
+	.string "The BAG's BERRIES POCKET is full.\p"
+	.string "The {STR_VAR_1} couldn't be taken.$"
+#endif
 
 BerryTree_Text_Hns_Sprouted:
+#if GERMAN
 	.string "Die Beeren sprießen plötzlich!$"
+#else
+	.string "The berry tree suddenly sprouted!$"
+#endif
 
 #else
 
@@ -338,15 +356,29 @@ BerryTree_EventScript_PlantBerry::
 	return
 
 BerryTree_Text_ItsSoftLoamySoil:
+#if GERMAN
 	.string "Das ist weicher Lehmboden.$"
+#else
+	.string "It's soft, loamy soil.$"
+#endif
 
 BerryTree_Text_WantToPlant:
+#if GERMAN
 	.string "Das ist weicher Lehmboden.\n"
 	.string "Möchtest du eine Beere pflanzen?$"
+#else
+	.string "It's soft, loamy soil.\n"
+	.string "Want to plant a BERRY?$"
+#endif
 
 BerryTree_Text_PlantedOneBerry:
+#if GERMAN
 	.string "{PLAYER} pflanzt eine\n"
 	.string "{STR_VAR_1} in den Lehmboden.$"
+#else
+	.string "{PLAYER} planted one {STR_VAR_1} in\n"
+	.string "the soft, loamy soil.$"
+#endif
 
 BerryTree_Text_BerryGrowthStage1:
 .if OW_BERRY_SIX_STAGES == TRUE
@@ -373,12 +405,20 @@ BerryTree_Text_BerryGrowthStage3:
 .endif
 
 BerryTree_Text_BerryGrowthStageTrunk:
+#if GERMAN
 	.string "Der {STR_VAR_1}-Stamm\n"
 	.string "wird dicker!$"
+#else
+	.string "The {STR_VAR_1}'s trunk is getting bigger!$"
+#endif
 
 BerryTree_Text_BerryGrowthStageBudding:
+#if GERMAN
 	.string "Der {STR_VAR_1}-Baum\n"
 	.string "hat Knospen!$"
+#else
+	.string "The {STR_VAR_1} tree has buds!$"
+#endif
 
 BerryTree_Text_BerryGrowthStage4:
 .if OW_BERRY_SIX_STAGES == TRUE
@@ -390,45 +430,97 @@ BerryTree_Text_BerryGrowthStage4:
 .endif
 
 BerryTree_Text_CareAdverbGreat:
+#if GERMAN
 	.string "wunderschön$"
+#else
+	.string "very beautifully$"
+#endif
 
 BerryTree_Text_CareAdverbPoor:
+#if GERMAN
 	.string "zierlich$"
+#else
+	.string "cutely$"
+#endif
 
 BerryTree_Text_CareAdverbGood:
+#if GERMAN
 	.string "hübsch$"
+#else
+	.string "prettily$"
+#endif
 
 BerryTree_Text_WantToPick:
+#if GERMAN
 	.string "{STR_VAR_2} {STR_VAR_1}!\p"
 	.string "Möchtest du die {STR_VAR_1}\n"
 	.string "pflücken?$"
+#else
+	.string "You found {STR_VAR_2} {STR_VAR_1}!\p"
+	.string "Do you want to pick the\n"
+	.string "{STR_VAR_1}?$"
+#endif
 
 BerryTree_Text_PickedTheBerry:
+#if GERMAN
 	.string "{PLAYER} pflückt die {STR_VAR_2} {STR_VAR_1}.$"
+#else
+	.string "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}.$"
+#endif
 
 BerryTree_Text_PutAwayBerry:
+#if GERMAN
 	.string "{PLAYER} packt die {STR_VAR_1}\n"
 	.string "in die Beerentasche des Beutels.\p"
 	.string "Der Boden ist wieder weich und lehmig.$"
+#else
+	.string "{PLAYER} put away the {STR_VAR_1}\n"
+	.string "in the BAG's BERRIES POCKET.\p"
+	.string "The soil returned to its soft and\n"
+	.string "loamy state.$"
+#endif
 
 BerryTree_Text_BerryPocketFull:
+#if GERMAN
 	.string "Die Beerentasche des Beutels ist voll.\p"
 	.string "Die {STR_VAR_1} können nicht\n"
 	.string "mitgenommen werden.$"
+#else
+	.string "The BAG's BERRIES POCKET is full.\p"
+	.string "The {STR_VAR_1} couldn't be taken.$"
+#endif
 
 BerryTree_Text_BerryLeftUnpicked:
+#if GERMAN
 	.string "{PLAYER} pflückt keine\n"
 	.string "{STR_VAR_1}.$"
+#else
+	.string "{PLAYER} left the {STR_VAR_1}\n"
+	.string "unpicked.$"
+#endif
 
 BerryTree_Text_WantToWater:
+#if GERMAN
 	.string "Möchtest du die {STR_VAR_1} mit der\n"
 	.string "Wailmerkanne gießen?$"
+#else
+	.string "Want to water the {STR_VAR_1} with the\n"
+	.string "WAILMER PAIL?$"
+#endif
 
 BerryTree_Text_WateredTheBerry:
+#if GERMAN
 	.string "{PLAYER} gießt die {STR_VAR_1}.$"
+#else
+	.string "{PLAYER} watered the {STR_VAR_1}.$"
+#endif
 
 BerryTree_Text_PlantIsDelighted:
+#if GERMAN
 	.string "Die Pflanze scheint sich zu freuen.$"
+#else
+	.string "The plant seems to be delighted.$"
+#endif
 
 BerryTree_Text_ExclamationPoint:
 	.string "!$"
@@ -468,29 +560,59 @@ BerryTree_EventScript_PickBerry_Mutation::
 	end
 
 BerryTree_Text_WantToPick_Mutation:
+#if GERMAN
 	.string "Du findest {STR_VAR_2} {STR_VAR_1}\n"
 	.string "und 1 {STR_VAR_3}!\p"
 	.string "Möchtest du sie pflücken?$"
+#else
+	.string "You found {STR_VAR_2} {STR_VAR_1}\n"
+	.string "and 1 {STR_VAR_3}!\p"
+	.string "Do you want to pick them?$"
+#endif
 
 BerryTree_Text_BerryLeftUnpicked_Mutation:
+#if GERMAN
 	.string "{PLAYER} lässt {STR_VAR_1}\n"
 	.string "und die {STR_VAR_3} zurück.$"
+#else
+	.string "{PLAYER} left the {STR_VAR_1}\n"
+	.string "and the {STR_VAR_3} unpicked.$"
+#endif
 
 BerryTree_Text_BerryPocketFull_Mutation:
+#if GERMAN
 	.string "Die Beeren-Tasche ist voll.\p"
 	.string "Die {STR_VAR_1} und die\n"
 	.string "{STR_VAR_3} bleiben zurück.$"
+#else
+	.string "The BAG's BERRIES POCKET is full.\p"
+	.string "The {STR_VAR_1} and the\n"
+	.string "{STR_VAR_3} couldn't be taken.$"
+#endif
 
 BerryTree_Text_PickedTheBerry_Mutation:
+#if GERMAN
 	.string "{PLAYER} pflückt {STR_VAR_2} {STR_VAR_1}\n"
 	.string "und die {STR_VAR_3}.$"
+#else
+	.string "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}\n"
+	.string "and the {STR_VAR_3}.$"
+#endif
 
 BerryTree_Text_PutAwayBerry_Mutation:
+#if GERMAN
 	.string "{PLAYER} verstaut die {STR_VAR_1}\n"
 	.string "und die {STR_VAR_3} in der\l"
 	.string "Beerentasche.\p"
 	.string "Der Boden ist wieder weich\n"
 	.string "und lehmig.$"
+#else
+	.string "{PLAYER} put away the {STR_VAR_1}\n"
+	.string "and the {STR_VAR_3} in the BAG's\l"
+	.string "BERRIES POCKET.\p"
+	.string "The soil returned to its soft and\n"
+	.string "loamy state.$"
+#endif
 .endif
 
 .if OW_BERRY_MULCH_USAGE == TRUE
@@ -502,12 +624,22 @@ BerryTree_EventScript_UseMulch::
 	return
 
 BerryTree_Text_WantToMulch:
+#if GERMAN
 	.string "Es ist lehmiger Boden.\n"
 	.string "Dünger verwenden?$"
+#else
+	.string "It's soft, loamy soil.\n"
+	.string "Put down some fertilizer?$"
+#endif
 
 BerryTree_Text_ScatteredMulch:
+#if GERMAN
 	.string "{PLAYER} verstreut die {STR_VAR_1}\n"
 	.string "auf dem weichen Boden.$"
+#else
+	.string "{PLAYER} scattered the {STR_VAR_1}\n"
+	.string "on the soft, loamy soil.$"
+#endif
 .endif
 
 .if OW_BERRY_WEEDS == TRUE
@@ -529,11 +661,20 @@ BerryTree_EventScript_PullOutWeed::
 	return
 
 BerryTree_Text_WeedIsGrowing:
+#if GERMAN
 	.string "Unkraut wächst hier.\n"
 	.string "Möchtest du es herausziehen?$"
+#else
+	.string "A weed is growing here.\n"
+	.string "Do you want to pull it out?$"
+#endif
 
 BerryTree_Text_PulledOutTheWeed:
+#if GERMAN
 	.string "{PLAYER} zieht das Unkraut heraus!$"
+#else
+	.string "{PLAYER} pulled out the weed!$"
+#endif
 .endif
 
 .if OW_BERRY_PESTS == TRUE
@@ -550,7 +691,11 @@ BerryTree_EventScript_EncounterPests::
 	return
 
 BerryTree_Text_APokemonAppeared:
+#if GERMAN
 	.string "Ein Pokémon erscheint!$"
+#else
+	.string "A Pokémon appeared!$"
+#endif
 .endif
 
 #endif

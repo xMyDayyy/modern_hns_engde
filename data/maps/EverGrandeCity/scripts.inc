@@ -24,14 +24,29 @@ EverGrandeCity_EventScript_SetVisitedEverGrande::
 	end
 
 EverGrandeCity_Text_EnteringVictoryRoad:
+#if GERMAN
 	.string "Sie betreten die Siegesstraße$"
+#else
+	.string "ENTERING VICTORY ROAD$"
+#endif
 
 EverGrandeCity_Text_EnteringPokemonLeague:
+#if GERMAN
 	.string "Sie erreichen den Eingang zur\n"
 	.string "Pokémon Liga$"
+#else
+	.string "ENTERING POKéMON LEAGUE\n"
+	.string "CENTER GATE$"
+#endif
 
 EverGrandeCity_Text_CitySign:
+#if GERMAN
 	.string "Prachtpolis City\p"
 	.string "“Das Paradies der Blumen, des Meeres\n"
 	.string "und der Pokémon.”$"
+#else
+	.string "EVER GRANDE CITY\p"
+	.string "“The paradise of flowers, the sea,\n"
+	.string "and POKéMON.”$"
+#endif
 

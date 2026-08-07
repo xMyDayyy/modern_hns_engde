@@ -24,28 +24,58 @@ LavenderTown_PokemonCenter_EventScript_YoungsterReturnedMachinePart::
 	end
 
 LavenderTown_PokemonCenter1F_Text_Gentleman:
-	.string "Wenn du den Felstunnel im Norden\n"
+#if GERMAN
+	.string "Wenn du den {COLOR RED}Felstunnel{COLOR DARK_GRAY} im Norden\n"
 	.string "von Lavandia durchquerst, gelangst\l"
-	.string "du zum Kraftwerk.$"
+	.string "du zum {COLOR RED}Kraftwerk{COLOR DARK_GRAY}.$"
+#else
+	.string "To the north of LAVENDER is ROCK\n"
+	.string "TUNNEL. Go through it to get to\l"
+	.string "the POWER PLANT.$"
+#endif
 
 LavenderTown_PokemonCenter1F_Text_Teacher:
+#if GERMAN
 	.string "Es gibt eine Musiksendung im Radio,\n"
-	.string "die Melodien auf der Pokéflöte\l"
+	.string "die Melodien auf der {COLOR RED}Pokéflöte{COLOR DARK_GRAY}\l"
 	.string "sendet.\p"
 	.string "Ach ja? Ah, dein Radio braucht ein\n"
 	.string "Zusatzset, damit du das empfangen\l"
 	.string "kannst.\p"
 	.string "Vielleicht kann dir der Radioturm\n"
 	.string "hier in der Stadt eines besorgen?$"
+#else
+	.string "There's a radio program that plays\n"
+	.string "POKé FLUTE music.\p"
+	.string "Oh? Ah, your radio needs a RADIO\n"
+	.string "UPGRADE to tune into it.\p"
+	.string "Maybe the RADIO STATION here\n"
+	.string "in town can provide you one?$"
+#endif
 
 LavenderTown_PokemonCenter1F_Text_Youngster:
-	.string "Wenn das Kraftwerk ausfällt, läuft\n"
+#if GERMAN
+	.string "Wenn das {COLOR RED}Kraftwerk{COLOR DARK_GRAY} ausfällt, läuft\n"
 	.string "auch der Magnetzug nicht mehr.\p"
 	.string "Die Radiosender können dann auch\n"
 	.string "nicht mehr auf Sendung gehen.$"
+#else
+	.string "If the POWER PLANT isn't running,\n"
+	.string "the MAGNET TRAIN won't run either…\p"
+	.string "It also means the RADIO STATION\n"
+	.string "can't broadcast…$"
+#endif
 
 LavenderTown_PokemonCenter1F_Text_Youngster_ReturnedMachinePart:
+#if GERMAN
 	.string "Der Intendant des Radiosenders war\n"
 	.string "hocherfreut. Er sagte, sie seien wieder\l"
-	.string "auf Sendung, weil das Kraftwerk\l"
+	.string "auf Sendung, weil das {COLOR RED}Kraftwerk{COLOR DARK_GRAY}\l"
 	.string "wieder einwandfrei arbeite.$"
+#else
+	.string "The DIRECTOR of the RADIO STATION\n"
+	.string "sure was happy.\p"
+	.string "He said they're back on the air\n"
+	.string "because the POWER PLANT is running\l"
+	.string "smoothly again.$"
+#endif

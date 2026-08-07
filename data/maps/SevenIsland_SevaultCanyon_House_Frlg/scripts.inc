@@ -81,24 +81,53 @@ SevenIsland_SevaultCanyon_House_EventScript_Chansey::
 	end
 
 SevenIsland_SevaultCanyon_House_Text_ChanseyDanceJoinIn::
+#if GERMAN
 	.string "Tanze, tanze!\n"
 	.string "Chaneira tanze!\p"
 	.string "Mach auch mit!\n"
 	.string "Tanze, tanze!$"
+#else
+	.string "Dance, dance!\n"
+	.string "CHANSEY Dance!\p"
+	.string "You join in, too!\n"
+	.string "Dance, dance!$"
+#endif
 
 SevenIsland_SevaultCanyon_House_Text_WouldYouLikeToDance::
+#if GERMAN
 	.string "Möchtest du tanzen?$"
+#else
+	.string "Would you like to dance?$"
+#endif
 
 SevenIsland_SevaultCanyon_House_Text_ComeOnDance::
+#if GERMAN
 	.string "Komm schon, tanze!$"
+#else
+	.string "Come on, dance!$"
+#endif
 
 SevenIsland_SevaultCanyon_House_Text_DancedChanseyDance::
+#if GERMAN
 	.string "{PLAYER} tanzt den Chaneira-Tanz!$"
+#else
+	.string "{PLAYER} danced the CHANSEY Dance!$"
+#endif
 
 SevenIsland_SevaultCanyon_House_Text_YoureAllChipperNow::
+#if GERMAN
 	.string "Ahahahaha!\p"
 	.string "Jetzt geht es dir gut!\n"
 	.string "Hast du ein Glück!$"
+#else
+	.string "Ahahahaha!\p"
+	.string "There, you're all chipper now!\n"
+	.string "Lucky!$"
+#endif
 
 SevenIsland_SevaultCanyon_House_Text_Chansey::
+#if GERMAN
 	.string "Chaneira: Eira, Eira!$"
+#else
+	.string "CHANSEY: Chansi! Chansi!$"
+#endif

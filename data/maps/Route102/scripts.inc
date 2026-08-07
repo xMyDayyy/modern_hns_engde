@@ -74,35 +74,77 @@ Route102_EventScript_Allen::
 	end
 
 Route102_Text_WatchMeCatchPokemon:
+#if GERMAN
 	.string "Heiko: {PLAYER}…\n"
 	.string "Pokémon verstecken sich in hohem Gras\l"
 	.string "wie diesem hier, oder?\p"
 	.string "Bitte bleib hier und schau, ob ich sie\n"
 	.string "auch richtig fange.\p"
 	.string "… Whoa!$"
+#else
+	.string "WALLY: {PLAYER}…\n"
+	.string "POKéMON hide in tall grass like this,\l"
+	.string "don't they?\p"
+	.string "Please watch me and see if I can\n"
+	.string "catch one properly.\p"
+	.string "…Whoa!$"
+#endif
 
 Route102_Text_WallyIDidIt:
+#if GERMAN
 	.string "Heiko: Ich habe es geschafft… Es\n"
 	.string "gehört mir… Mein Pokémon!!!$"
+#else
+	.string "WALLY: I did it… It's my…\n"
+	.string "My POKéMON!$"
+#endif
 
 Route102_Text_LetsGoBack:
+#if GERMAN
 	.string "{PLAYER}, danke schön!\n"
 	.string "Lass uns zurück zur Arena gehen!$"
+#else
+	.string "{PLAYER}, thank you!\n"
+	.string "Let's go back to the GYM!$"
+#endif
 
 Route102_Text_ImNotVeryTall:
+#if GERMAN
 	.string "Ich… bin nicht groß, ich versinke im\n"
 	.string "hohen Gras.\p"
 	.string "Das Gras erreicht meine Nase und…\n"
 	.string "Hahahaha…\p"
 	.string "Haaatschiiii!$"
+#else
+	.string "I'm…not very tall, so I sink right\n"
+	.string "into tall grass.\p"
+	.string "The grass goes up my nose and…\n"
+	.string "Fwafwafwafwafwa…\p"
+	.string "Fwatchoo!$"
+#endif
 
 Route102_Text_CatchWholeBunchOfPokemon:
+#if GERMAN
 	.string "Ich werde jede Menge Pokémon fangen!$"
+#else
+	.string "I'm going to catch a whole bunch of\n"
+	.string "POKéMON!$"
+#endif
 
 Route102_Text_RouteSignOldale:
+#if GERMAN
 	.string "Route 102\n"
 	.string "{RIGHT_ARROW} Rosaltstadt$"
+#else
+	.string "ROUTE 102\n"
+	.string "{RIGHT_ARROW} OLDALE TOWN$"
+#endif
 
 Route102_Text_RouteSignPetalburg:
+#if GERMAN
 	.string "Route 102\n"
 	.string "{LEFT_ARROW} Blütenburg City$"
+#else
+	.string "ROUTE 102\n"
+	.string "{LEFT_ARROW} PETALBURG CITY$"
+#endif

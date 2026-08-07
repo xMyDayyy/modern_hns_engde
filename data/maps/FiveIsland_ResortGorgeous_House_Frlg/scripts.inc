@@ -141,26 +141,49 @@ FiveIsland_ResortGorgeous_House_EventScript_Butler::
 	end
 
 FiveIsland_ResortGorgeous_House_Text_PleaseHearMyWish::
+#if GERMAN
 	.string "Kea: Oh?\n"
 	.string "Kenne ich dich von irgendwo?\p"
 	.string "Aber das macht nichts!\p"
 	.string "Ich langweile mich so.\n"
 	.string "Hör bitte meinen Wunsch!$"
+#else
+	.string "SELPHY: Oh?\n"
+	.string "Do I know you from somewhere?\p"
+	.string "Oh, but that doesn't matter.\p"
+	.string "I am exquisitely bored.\n"
+	.string "Please, hear my wish.$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease::
+#if GERMAN
 	.string "Ich möchte ein Pokémon sehen.\n"
 	.string "Ein bezauberndes {STR_VAR_1}!\p"
 	.string "Ich möchte es sofort und hier.\n"
 	.string "Bitte, erfülle mir diesen Traum!$"
+#else
+	.string "I wish to see a POKéMON.\n"
+	.string "A darling {STR_VAR_1}.\p"
+	.string "I want to see one right away.\n"
+	.string "Please, make my wish come true.$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting::
+#if GERMAN
 	.string "Kea:Oh, ich bin dessen so müde!\n"
 	.string "Ich bin müde, auf dich zu warten!\p"
 	.string "Ich verzeihe dir dieses Mal,\n"
 	.string "aber bitte enttäusche mich\l"
 	.string "beim nächsten Mal nicht mehr!$"
+#else
+	.string "SELPHY: Oh, I'm tired of this.\n"
+	.string "I'm tired of waiting for you.\p"
+	.string "I'll forgive you this time, but\n"
+	.string "please don't fail me next time.$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou::
+#if GERMAN
 	.string "Kea: Oh, hallo!\p"
 	.string "Oh, wie grandios! Das muss das\n"
 	.string "{STR_VAR_1} sein, das du für mich\l"
@@ -177,39 +200,96 @@ FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou::
 	.string "Oh, ich verstehe!\p"
 	.string "Sebastian!\n"
 	.string "Du wirst hier dringend gebraucht!$"
+#else
+	.string "SELPHY: Oh, hello, there.\p"
+	.string "Oh, my gracious. That must be the\n"
+	.string "{STR_VAR_1} you caught for me.\p"
+	.string "Giggle…\n"
+	.string "I see a resemblance to you.\p"
+	.string "Thank you so kindly.\p"
+	.string "… …  … …  … …\n"
+	.string "Is something the matter?\p"
+	.string "You may leave.\p"
+	.string "… …  … …  … …\n"
+	.string "Oh, fine. I understand now.\p"
+	.string "SEBASTIAN!\n"
+	.string "I need you here this instant!$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady::
+#if GERMAN
 	.string "Butler: Sie haben gerufen?$"
+#else
+	.string "Butler: Yes, my lady.$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation::
+#if GERMAN
 	.string "Kea: Besorgen sie dieser\n"
 	.string "Person ein Zeichen meiner\l"
 	.string "Wertschätzung!$"
+#else
+	.string "SELPHY: See to it that this person\n"
+	.string "is given a token of appreciation.$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid::
+#if GERMAN
 	.string "Butler: Wie Sie wünschen!$"
+#else
+	.string "Butler: I shall do as you bid,\n"
+	.string "my lady.$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks::
+#if GERMAN
 	.string "Butler: Vielen Dank, dass sie\n"
 	.string "Lady Kea zufrieden stellten!\p"
 	.string "Nehmen sie das als kleines\n"
 	.string "Dankeschön…$"
+#else
+	.string "Butler: I sincerely thank you for\n"
+	.string "pleasing Lady SELPHY.\p"
+	.string "Please accept this as her thanks…$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull::
+#if GERMAN
 	.string "Butler: Es scheint, ihr Beutel\n"
 	.string "ist bedauerlicherweise voll!$"
+#else
+	.string "Butler: Your BAG appears to be\n"
+	.string "unfortunately full.$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing::
+#if GERMAN
 	.string "Oh…\n"
 	.string "Wie schade!$"
+#else
+	.string "Oh…\n"
+	.string "How disappointing.$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck::
+#if GERMAN
 	.string "Kea: Viel Glück!$"
+#else
+	.string "SELPHY: I wish you the best of\n"
+	.string "luck.$"
+#endif
 
 FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun::
+#if GERMAN
 	.string "Butler: Das Lächeln von Lady\n"
 	.string "Kea ist so strahlend wie\l"
 	.string "die Sonne.\l"
 	.string "Bitte, ich flehe sie an, stimmen\l"
 	.string "sie Lady Kea glücklich!$"
+#else
+	.string "Butler: The smile of Lady SELPHY\n"
+	.string "has the brilliance of the sun.\p"
+	.string "Please, I beg you to bring joy\n"
+	.string "to Lady SELPHY.$"
+#endif
 

@@ -16,6 +16,7 @@ BellchimeTrail_EventScript_Morty::
 	end
 
 BellchimeTrail_Text_Morty:
+#if GERMAN
 	.string "Jens: Das Legendäre Pokémon\n"
 	.string "hat mich nicht auserwählt…\p"
 	.string "Aber deshalb muss ich ja nicht\n"
@@ -24,6 +25,16 @@ BellchimeTrail_Text_Morty:
 	.string "sich ein neues Ziel vor mir auftut.\p"
 	.string "Was sagst du? Wollen wir nicht ab\n"
 	.string "und zu gemeinsam trainieren?$"
+#else
+	.string "MORTY: The legendary POKéMON\n"
+	.string "did not choose me...\p"
+	.string "But that does not mean that I\n"
+	.string "have lost out on my future.\p"
+	.string "I will continue my training until I\n"
+	.string "I discover a new future for me.\p"
+	.string "If you seek another battle, find\n"
+	.string "me at the FIGHTING DOJO.$"
+#endif
 
 EcruteakBellchimeTrail_EventScript_Item_BigMushroom::
 	finditem ITEM_BIG_MUSHROOM

@@ -12,14 +12,30 @@ Gate_SaffronCity_Route6_EventScript_Guard2::
 	end
 
 Route6_Text_SaffronGuardWelcome:
-	.string "Willkommen in Saffronia City,\n"
+#if GERMAN
+	.string "Willkommen in {COLOR RED}Saffronia City{COLOR DARK_GRAY},\n"
 	.string "der Heimat des Magnetzugs!\p"
 	.string "…Das sage ich sonst immer, aber\n"
 	.string "der Magnetzug fährt gerade nicht.\p"
 	.string "Die Stromzufuhr ist unterbrochen,\n"
-	.string "weil es im Kraftwerk einen\l"
+	.string "weil es im {COLOR RED}Kraftwerk{COLOR DARK_GRAY} einen\l"
 	.string "Unfall gab.$"
+#else
+	.string "Welcome to SAFFRON CITY, home of\n"
+	.string "the MAGNET TRAIN!\p"
+	.string "…That's what I'd normally say,\n"
+	.string "but the MAGNET TRAIN isn't\l"
+	.string "running now.\p"
+	.string "It's not getting any electricity\n"
+	.string "because there's something wrong\l"
+	.string "with the POWER PLANT.$"
+#endif
 
 Route6_Text_SaffronGuardMagnetTrain:
+#if GERMAN
 	.string "Der Magnetzug ist und bleibt das\n"
-	.string "Aushängeschild von Saffronia City!$"
+	.string "Aushängeschild von {COLOR RED}Saffronia City{COLOR DARK_GRAY}!$"
+#else
+	.string "The MAGNET TRAIN is the most\n"
+	.string "famous thing about SAFFRON.$"
+#endif

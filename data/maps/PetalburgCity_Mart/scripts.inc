@@ -63,20 +63,41 @@ PetalburgCity_Mart_EventScript_Man::
 	end
 
 PetalburgCity_Mart_Text_WeakWillGrowStronger:
+#if GERMAN
 	.string "Auch wenn ein Pokémon jetzt noch\n"
 	.string "schwach ist - es wird ständig stärker.\n"
 	.string "\p"
 	.string "Das Schlüsselwort heißt Liebe!\n"
 	.string "Liebe für deine Pokémon!$"
+#else
+	.string "Even if a POKéMON is weak now,\n"
+	.string "it will grow stronger.\p"
+	.string "The most important thing is love!\n"
+	.string "Love for your POKéMON!$"
+#endif
 
 PetalburgCity_Mart_Text_RepelIsUseful:
+#if GERMAN
 	.string "Setzt du Schutz ein?\n"
 	.string "Das hält Pokémon fern und ist sehr\l"
 	.string "nützlich, wenn du es eilig hast.$"
+#else
+	.string "Do you use REPEL?\n"
+	.string "It keeps POKéMON away, so it's\l"
+	.string "useful when you're in a hurry.$"
+#endif
 
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou:
+#if GERMAN
 	.string "Hast du etwas Gegengift dabei?\p"
 	.string "Ein vergiftetes Pokémon verliert\n"
 	.string "ständig KP, bis es kampfunfähig wird.\l"
 	.string "Halte deshalb stets Gegengift bereit!$"
+#else
+	.string "Do you have any ANTIDOTES with\n"
+	.string "you?\p"
+	.string "If you walk around with a poisoned\n"
+	.string "POKéMON, it will lose HP until it faints.\l"
+	.string "Take some ANTIDOTES with you.$"
+#endif
 

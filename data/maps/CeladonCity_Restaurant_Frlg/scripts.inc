@@ -40,39 +40,84 @@ CeladonCity_Restaurant_EventScript_FatMan::
 	end
 
 CeladonCity_Restaurant_Text_TakingBreakRightNow::
+#if GERMAN
 	.string "Hallo!\p"
 	.string "Wir machen gerade eine Pause.$"
+#else
+	.string "Hi!\p"
+	.string "Sorry, but we're taking a break\n"
+	.string "right now.$"
+#endif
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore::
+#if GERMAN
 	.string "Meine Pokémon sind ziemlich\n"
 	.string "schwach, deshalb gehe ich oft zur\l"
 	.string "Drogerie.$"
+#else
+	.string "My POKéMON are weak, so I often\n"
+	.string "have to go to the DRUGSTORE.$"
+#endif
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
+#if GERMAN
 	.string "Pst! Unter der Spielhalle\n"
 	.string "befindet sich ein Keller!$"
+#else
+	.string "Psst! There's a basement under the\n"
+	.string "GAME CORNER, I hear.$"
+#endif
 
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
+#if GERMAN
 	.string "Mampf...\p"
 	.string "Der Mann dort drüben am Tisch hat\n"
 	.string "Haus und Hof verzockt.$"
+#else
+	.string "Munch…\p"
+	.string "The man at that table lost it all\n"
+	.string "at the slots.$"
+#endif
 
 CeladonCity_Restaurant_Text_TakeThisImBusted::
+#if GERMAN
 	.string "Ja, lach mich ruhig aus!\p"
 	.string "Ich bin pleite!\p"
 	.string "Jetzt ist Schluss damit! Ich werde\n"
 	.string "niemals wieder zocken!\p"
 	.string "Hier, das kann ich jetzt nicht mehr\n"
 	.string "gebrauchen!$"
+#else
+	.string "Go ahead! Laugh!\n"
+	.string "I'm flat-out busted!\p"
+	.string "No more slots for me!\n"
+	.string "I'm going straight!\p"
+	.string "Here!\n"
+	.string "I won't be needing this anymore!$"
+#endif
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "einen Münzkorb!$"
+#else
+	.string "{PLAYER} received a COIN CASE\n"
+	.string "from the man.$"
+#endif
 
 CeladonCity_Restaurant_Text_MakeRoomForThis::
+#if GERMAN
 	.string "Du solltest etwas Platz schaffen!$"
+#else
+	.string "Make room for this!$"
+#endif
 
 CeladonCity_Restaurant_Text_ThoughtIdWinItBack::
+#if GERMAN
 	.string "Ich dachte immer, ich könnte den\n"
 	.string "Jackpot knacken!$"
+#else
+	.string "I always thought I was going to\n"
+	.string "win it back…$"
+#endif
 

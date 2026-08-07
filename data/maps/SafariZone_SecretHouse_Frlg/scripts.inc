@@ -25,6 +25,7 @@ SafariZone_SecretHouse_EventScript_ExplainSurf::
 	end
 
 SafariZone_SecretHouse_Text_CongratsYouveWon::
+#if GERMAN
 	.string "Ah! Endlich!\p"
 	.string "Du bist der Erste, der das\n"
 	.string "Geheime Haus gefunden hat!\p"
@@ -32,13 +33,30 @@ SafariZone_SecretHouse_Text_CongratsYouveWon::
 	.string "den großen Preis jemals gewinnen!\p"
 	.string "Glückwunsch!\n"
 	.string "Du hast gewonnen!$"
+#else
+	.string "Ah! Finally!\p"
+	.string "You're the first person to reach\n"
+	.string "the SECRET HOUSE!\p"
+	.string "Although I made a campaign\n"
+	.string "for our grand opening,\p"
+	.string "I was getting worried that no one\n"
+	.string "would win our campaign prize.\p"
+	.string "Congratulations!\n"
+	.string "You have won!$"
+#endif
 
 SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "VM03!$"
+	.string "{COLOR RED}VM03{COLOR DARK_GRAY}!$"
+#else
+	.string "{PLAYER} received HM03\n"
+	.string "from the attendant!$"
+#endif
 
 SafariZone_SecretHouse_Text_ExplainSurf::
-	.string "VM03 ist Surfer!\p"
+#if GERMAN
+	.string "{COLOR RED}VM03{COLOR DARK_GRAY} ist Surfer!\p"
 	.string "Lernt ein Pokémon diese Technik,\n"
 	.string "dann kann es dich über das Wasser\l"
 	.string "transportieren!\p"
@@ -47,8 +65,22 @@ SafariZone_SecretHouse_Text_ExplainSurf::
 	.string "möchtest!\p"
 	.string "Ist das nicht irre?\n"
 	.string "Du bist ein Glückspilz!$"
+#else
+	.string "HM03 is SURF.\p"
+	.string "POKéMON will be able to ferry you\n"
+	.string "across water using it.\p"
+	.string "And, this HM isn't disposable, so\n"
+	.string "you can use it over and over.\p"
+	.string "You're super lucky for winning this\n"
+	.string "fabulous prize!$"
+#endif
 
 SafariZone_SecretHouse_Text_DontHaveRoomForPrize::
+#if GERMAN
 	.string "Oh! Du kannst keine weiteren Items\n"
 	.string "tragen!$"
+#else
+	.string "You don't have room for this\n"
+	.string "fabulous prize!$"
+#endif
 

@@ -89,5 +89,9 @@ RocketHideout_Elevator_EventScript_NeedKey::
 	end
 
 RocketHideout_Elevator_Text_AppearsToNeedAKey::
+#if GERMAN
 	.string "Hier braucht man einen Öffner!$"
+#else
+	.string "It appears to need a key.$"
+#endif
 

@@ -484,93 +484,200 @@ BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter:
 	step_end
 
 BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward:
+#if GERMAN
 	.string "Referee: Trainer {PLAYER}!\n"
 	.string "Bitte tritt vor!$"
+#else
+	.string "REFEREE: TRAINER {PLAYER}!\n"
+	.string "Step forward, please!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward:
+#if GERMAN
 	.string "Referee: Trainer {STR_VAR_1}!\n"
 	.string "Bitte tritt vor!$"
+#else
+	.string "REFEREE: TRAINER {STR_VAR_1}!\n"
+	.string "Step forward, please!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin:
+#if GERMAN
 	.string "Referee: K.O.-Teamturnier!\n"
 	.string "Lasst es beginnen!$"
+#else
+	.string "REFEREE: Set KO Tourney!\n"
+	.string "Begin!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer:
+#if GERMAN
 	.string "Referee: Der Sieger heißt {PLAYER}!$"
+#else
+	.string "REFEREE: The winner is {PLAYER}!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent:
+#if GERMAN
 	.string "Referee: Der Sieger heißt\n"
 	.string "{STR_VAR_1}!$"
+#else
+	.string "REFEREE: The winner is {STR_VAR_1}!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
+#if GERMAN
 	.string "Deine Pokémon werden wieder topfit!$"
+#else
+	.string "Your POKéMON will be restored to\n"
+	.string "full health.$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent:
+#if GERMAN
 	.string "Dein zweiter Gegner erwartet dich!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "Next up, your second opponent!\n"
+	.string "Are you ready to move on?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent:
+#if GERMAN
 	.string "Dein dritter Gegner wartet auf dich!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "Next up, your third opponent!\n"
+	.string "Are you ready to move on?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent:
+#if GERMAN
 	.string "Dein vierter Gegner wartet schon!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "Next up, your fourth opponent!\n"
+	.string "Are you ready to move on?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor5thOpponent:
+#if GERMAN
 	.string "Dein fünfter Gegner erwartet dich\n"
 	.string "schon! Bist du bereit?$"
+#else
+	.string "Next up, your fifth opponent!\n"
+	.string "Are you ready to move on?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor6thOpponent:
+#if GERMAN
 	.string "Dein sechster Gegner wartet schon!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "Next up, your sixth opponent!\n"
+	.string "Are you ready to move on?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent:
+#if GERMAN
 	.string "Dein siebter und letzter Gegner\n"
 	.string "wartet! Bist du bereit?$"
+#else
+	.string "Next up, your seventh opponent!\n"
+	.string "Are you ready to move on?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown:
+#if GERMAN
 	.string "Möchtest du das Spiel speichern und\n"
 	.string "beenden?$"
+#else
+	.string "Would you like to save the game and\n"
+	.string "shut down now?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge:
+#if GERMAN
 	.string "Möchtest du dich aus dem K.O.-\n"
 	.string "Teamturnier zurückziehen?$"
+#else
+	.string "Would you like to retire from your\n"
+	.string "Set KO Tourney challenge?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
+#if GERMAN
 	.string "Ich speichere deine Daten. Bitte hab\n"
 	.string "einen Moment Geduld.$"
+#else
+	.string "I am saving your game data.\n"
+	.string "Please wait.$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
+#if GERMAN
 	.string "Möchtest du deinen letzten Kampf\n"
 	.string "im Kampfzonenpass eintragen lassen?$"
+#else
+	.string "Would you like to record your last\n"
+	.string "battle on your FRONTIER PASS?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
+#if GERMAN
 	.string "Verehrter Herausforderer!\p"
 	.string "Deine Fähigkeiten sind einfach\n"
 	.string "atemberaubend!\p"
 	.string "Wir möchten dir nun unseren\n"
 	.string "Ringmeister vorstellen!$"
+#else
+	.string "My dear challenger!\p"
+	.string "Your skill level is truly astounding!\p"
+	.string "We now would like you to face our\n"
+	.string "leader, the ARENA TYCOON!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon:
+#if GERMAN
 	.string "Ein Kampf gegen den Ringmeister!!!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "A battle with the ARENA TYCOON!\n"
+	.string "Are you prepared?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta:
+#if GERMAN
 	.string "Referee: Der Ringmeister!!!\n"
 	.string "Macht Platz für Greta!$"
+#else
+	.string "REFEREE: The ARENA TYCOON!\n"
+	.string "Make way for GRETA!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger:
+#if GERMAN
 	.string "Greta: Hey!\n"
 	.string "Wie geht’s?\p"
 	.string "Warte mal… Bist du mein\n"
 	.string "Herausforderer?$"
+#else
+	.string "GRETA: Hey!\n"
+	.string "Howdy!\p"
+	.string "…Wait, are you the challenger?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight:
+#if GERMAN
 	.string "Wirklich? Hm…\n"
 	.string "Hmhm…$"
+#else
+	.string "Is that right? Hmm…\n"
+	.string "Hmhm…$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
+#if GERMAN
 	.string "Wie soll ich sagen…\n"
 	.string "Ich bin mal direkt: Du machst einen\l"
 	.string "ziemlich schwachen Eindruck!\p"
@@ -578,57 +685,128 @@ BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
 	.string "antreten? Hmmm…\p"
 	.string "Okay, na gut!\n"
 	.string "Wir können es ja langsam angehen.$"
+#else
+	.string "I don't know how to say it, but…\n"
+	.string "To put it bluntly, you look pretty weak.\l"
+	.string "Are you sure you're up for me?\p"
+	.string "Hmm…\p"
+	.string "Well, all right!\n"
+	.string "We'll take things easy to start with!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle:
+#if GERMAN
 	.string "Okay! Dann entfache in mir die\n"
 	.string "Leidenschaft für den Kampf!$"
+#else
+	.string "Okay! Let's see you ignite my passion\n"
+	.string "for battle!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll:
+#if GERMAN
 	.string "Greta: Uh, warte mal!!!\n"
 	.string "Du bist doch ganz schön stark!\p"
 	.string "Ich mag dich!\n"
 	.string "Zeig mir mal deinen Kampfzonenpass.$"
+#else
+	.string "GRETA: Ow, wait a second!\n"
+	.string "You are tough after all!\p"
+	.string "I like you!\n"
+	.string "Let's see your FRONTIER PASS.$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol:
+#if GERMAN
 	.string "Das Grobsymbol wurde dem Kampf-\n"
 	.string "zonenpass hinzugefügt!$"
+#else
+	.string "The Guts Symbol was embossed on\n"
+	.string "the FRONTIER PASS!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime:
+#if GERMAN
 	.string "Hmm…\p"
 	.string "Nächstes Mal haben wir noch mehr Spaß!\n"
 	.string "Ich freue mich schon darauf!$"
+#else
+	.string "Hmm…\p"
+	.string "It's going to be fun the next time!\n"
+	.string "I'm looking forward to it!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain:
+#if GERMAN
 	.string "Greta: Hey! Wie geht’s?\n"
 	.string "Du hast es doch bis hierher geschafft!\n"
 	.string "\p"
 	.string "Ich habe mir schon Sorgen gemacht!\n"
 	.string "Ich hatte mich doch so darauf gefreut,\l"
 	.string "dich wiederzusehen!$"
+#else
+	.string "GRETA: Hey! Howdy!\n"
+	.string "You finally won your way up to me!\p"
+	.string "I was getting worried waiting for you!\n"
+	.string "I was really looking forward to seeing\l"
+	.string "you again!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady:
+#if GERMAN
 	.string "……… Bist du so weit?$"
+#else
+	.string "… … …\n"
+	.string "So, are you ready?$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort:
+#if GERMAN
 	.string "Halbherzigkeit kann ich nicht\n"
 	.string "erlauben! Mach dich auf was gefasst!!!$"
+#else
+	.string "I won't allow a halfhearted effort!\n"
+	.string "Be ready for a thrashing!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted:
+#if GERMAN
 	.string "Komm schon, Referee!\n"
 	.string "Lass uns endlich anfangen!$"
+#else
+	.string "Come on, REFEREE!\n"
+	.string "Let's get this started!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway:
+#if GERMAN
 	.string "Greta: Aaargh! Hinweggefegt!\n"
 	.string "Zeig mir deinen Kampfzonenpass.$"
+#else
+	.string "GRETA: Gaaah! Blown away!\n"
+	.string "Let's see your FRONTIER PASS!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine:
+#if GERMAN
 	.string "Das Grobsymbol erscheint in einem\n"
 	.string "goldenen Glanz!$"
+#else
+	.string "The Guts Symbol took on\n"
+	.string "a golden shine!$"
+#endif
 
 BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose:
+#if GERMAN
 	.string "Aaargh!\n"
 	.string "Das macht mich echt stinkwütend!\p"
 	.string "Sollten wir wieder gegeneinander\n"
 	.string "kämpfen, werde ich mit Sicherheit\l"
 	.string "gewinnen!\p"
 	.string "Vergiss das nicht! Mach’s gut!$"
+#else
+	.string "Arrrgh!\n"
+	.string "This is so infuriating!\p"
+	.string "If we ever battle again, I won't lose!\n"
+	.string "Don't you forget it! Bye-bye!$"
+#endif

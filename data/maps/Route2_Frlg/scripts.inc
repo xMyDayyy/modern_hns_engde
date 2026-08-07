@@ -10,9 +10,18 @@ Route2_EventScript_DiglettsCaveSign::
 	end
 
 Route2_Text_RouteSign::
+#if GERMAN
 	.string "Route 2\n"
 	.string "Vertania City - Marmoria City$"
+#else
+	.string "ROUTE 2\n"
+	.string "VIRIDIAN CITY - PEWTER CITY$"
+#endif
 
 Route2_Text_DiglettsCave::
+#if GERMAN
 	.string "Digdas Höhle$"
+#else
+	.string "DIGLETT'S CAVE$"
+#endif
 

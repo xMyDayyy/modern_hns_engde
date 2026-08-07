@@ -40,23 +40,48 @@ MossdeepCity_House4_EventScript_Skitty::
 	end
 
 MossdeepCity_House4_Text_BrotherLikesToFindBases:
+#if GERMAN
 	.string "Mein kleiner Bruder liebt es, die\n"
 	.string "Geheimbasen der anderen zu finden.$"
+#else
+	.string "My little brother says he likes to go\n"
+	.string "find people's SECRET BASES.$"
+#endif
 
 MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle:
+#if GERMAN
 	.string "Mein kleiner Bruder sagt, er liebt es,\n"
 	.string "die Geheimbasen der anderen zu finden\l"
 	.string "und Kämpfe mit Pokémon auszutragen.$"
+#else
+	.string "My little brother says he likes to\n"
+	.string "visit people's SECRET BASES and have\l"
+	.string "POKéMON battles.$"
+#endif
 
 MossdeepCity_House4_Text_YouMadeSecretBaseNearX:
+#if GERMAN
 	.string "Hast du dir eine Geheimbasis in\n"
 	.string "{STR_VAR_1} eingerichtet?$"
+#else
+	.string "Was it you who made a SECRET BASE\n"
+	.string "near {STR_VAR_1}?$"
+#endif
 
 MossdeepCity_House4_Text_MakeSecretBase:
+#if GERMAN
 	.string "Solltest du dir irgendwo eine Geheim-\n"
 	.string "basis einrichten, werde ich sie sicher\l"
 	.string "finden.$"
+#else
+	.string "You should make a SECRET BASE\n"
+	.string "somewhere. I'll go find it!$"
+#endif
 
 MossdeepCity_House4_Text_Skitty:
+#if GERMAN
 	.string "Eneco: Miayaan?$"
+#else
+	.string "SKITTY: Miyaan?$"
+#endif
 

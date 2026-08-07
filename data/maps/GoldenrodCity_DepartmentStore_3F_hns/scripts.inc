@@ -27,16 +27,29 @@ GoldenrodDeptStore3_EventScript_Rocker::
 	end
 
 GoldenrodDeptStore_Text_3FSuperNerd:
+#if GERMAN
 	.string "I-ich bin so ungeduldig, dass i-ich in\n"
 	.string "einem Pokémon-Kampf i-immer gleich\l"
 	.string "X-Tempo einsetze. I-ich erhöhe damit\l"
 	.string "die Initiative meines Pokémon!$"
+#else
+    .string "I, I, I'm really impatient!\p"
+    .string "I use X SPEED in battle to speed up\n"
+    .string "my POKéMON.$"
+#endif
 
 GoldenrodDeptStore_Text_3FRocker:
+#if GERMAN
 	.string "Hey! Setzt du im Kampf öfter auch mal\n"
 	.string "X-Spezial ein?\p"
 	.string "Das ist einfach toll! Es verstärkt den\n"
 	.string "Spezial-Angriff deines Pokémon!$"
+#else
+    .string "Hey! When you battle, do you use X\n"
+    .string "SPECIAL?\p"
+    .string "It's awesome. It really jacks up\n"
+    .string "SPECIAL ATTACK!$"
+#endif
 
 GoldenrodDeptStore3_EventScript_Clerk::
 	lock
@@ -60,5 +73,10 @@ GoldenrodDeptStore3_Pokemart:
 	pokemartlistend
 
 GoldenrodDeptStore_Text_3FDirectory:
+#if GERMAN
 	.string "Für Siegeshungrige\p"
 	.string "2S Kampfkollektion$"
+#else
+    .string "For Victory Seekers\p"
+    .string "3F BATTLE COLLECTION$"
+#endif

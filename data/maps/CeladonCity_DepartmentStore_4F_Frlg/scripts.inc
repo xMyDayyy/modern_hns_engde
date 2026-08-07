@@ -36,19 +36,41 @@ CeladonCity_DepartmentStore_4F_Items::
 	end
 
 CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent::
+#if GERMAN
 	.string "Ich kaufe ein Geschenk für meine\n"
 	.string "Freundin.\p"
 	.string "Sie freut sich bestimmt über eine\n"
 	.string "Poképuppe!$"
+#else
+	.string "I'm getting a present for my\n"
+	.string "girlfriend.\p"
+	.string "I guess a POKé DOLL will be it.\n"
+	.string "It's the popular thing.$"
+#endif
 
 CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll::
+#if GERMAN
 	.string "Ich habe einen Tipp bekommen!\p"
 	.string "Du kannst vor wilden Pokémon\n"
 	.string "fliehen, wenn du sie mit einer\l"
 	.string "PokéPuppe ablenkst!$"
+#else
+	.string "I heard something useful.\p"
+	.string "If a wild POKéMON appears, you can\n"
+	.string "distract it with a POKé DOLL.\p"
+	.string "You can run away while the wild\n"
+	.string "POKéMON is distracted.$"
+#endif
 
 CeladonCity_DepartmentStore_4F_Text_FloorSign::
+#if GERMAN
 	.string "Lass ein Geschenk für dich sprechen!\n"
 	.string "3S: Geschenkartikel\p"
 	.string "Entwicklungs-Spezial!\n"
 	.string "Steine jetzt im Angebot!$"
+#else
+	.string "Express yourself with gifts!\n"
+	.string "4F: WISE MAN GIFTS\p"
+	.string "Evolution Special!\n"
+	.string "Element STONES on sale now!$"
+#endif

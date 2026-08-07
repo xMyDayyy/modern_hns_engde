@@ -256,25 +256,93 @@ static const u32 sBirchSpeechShadowGfx[] = INCBIN_U32("graphics/birch_speech/sha
 static const u32 sBirchSpeechBgMap[] = INCBIN_U32("graphics/birch_speech/map.bin.smolTM");
 static const u16 sBirchSpeechBgGradientPal[] = INCBIN_U16("graphics/birch_speech/bg2.gbapal");
 
+#if GERMAN
 static const u8 gText_SaveFileCorrupted[]       = _("Der Spielstand ist beschädigt. Der\nvorherige Spielstand wird geladen.");
+#else
+static const u8 gText_SaveFileCorrupted[] = _("The save file is corrupted. The\nprevious save file will be loaded.");
+#endif
+#if GERMAN
 static const u8 gText_SaveFileErased[]          = _("Der Spielstand wurde gelöscht.");
+#else
+static const u8 gText_SaveFileErased[] = _("The save file has been erased\ndue to corruption or damage.");
+#endif
+#if GERMAN
 static const u8 gJPText_No1MSubCircuit[]        = _("1Mサブきばんが ささっていません！");
+#else
+static const u8 gJPText_No1MSubCircuit[] = _("1Mサブきばんが ささっていません！");
+#endif
+#if GERMAN
 static const u8 gText_BatteryRunDry[]           = _("Interne Batterie ist verbraucht.\nSpiel kann fortgesetzt werden.\pAber zeitbasierende Spiel-Events\nwerden nicht mehr initiiert.");
+#else
+static const u8 gText_BatteryRunDry[] = _("The internal battery has run dry.\nThe game can be played.\pHowever, clock-based events will\nno longer occur.");
+#endif
 
+#if GERMAN
 static const u8 gText_MainMenuNewGame[]         = _("Neues Spiel");
+#else
+static const u8 gText_MainMenuNewGame[] = _("NEW GAME");
+#endif
+#if GERMAN
 static const u8 gText_MainMenuContinue[]        = _("Weiter");
+#else
+static const u8 gText_MainMenuContinue[] = _("CONTINUE");
+#endif
+#if GERMAN
 static const u8 gText_MainMenuOption[]          = _("Optionen");
+#else
+static const u8 gText_MainMenuOption[] = _("OPTION");
+#endif
+#if GERMAN
 static const u8 gText_MainMenuMysteryGift[]     = _("Geheimgeschehen");
+#else
+static const u8 gText_MainMenuMysteryGift[] = _("MYSTERY GIFT");
+#endif
+#if GERMAN
 static const u8 gText_MainMenuMysteryGift2[]    = _("Geheimgeschehen");
+#else
+static const u8 gText_MainMenuMysteryGift2[] = _("MYSTERY GIFT");
+#endif
+#if GERMAN
 static const u8 gText_MainMenuMysteryEvents[]   = _("Geheimgeschehen");
+#else
+static const u8 gText_MainMenuMysteryEvents[] = _("MYSTERY EVENTS");
+#endif
+#if GERMAN
 static const u8 gText_WirelessNotConnected[]    = _("Der Drahtlose GBA-Adapter ist\nnicht angeschlossen.");
+#else
+static const u8 gText_WirelessNotConnected[] = _("The Wireless Adapter is not\nconnected.");
+#endif
+#if GERMAN
 static const u8 gText_MysteryGiftCantUse[]      = _("Drahtloser Adapter angeschlossen;\nGeheimgeschehen unmöglich.");
+#else
+static const u8 gText_MysteryGiftCantUse[] = _("MYSTERY GIFT can't be used while\nthe Wireless Adapter is attached.");
+#endif
+#if GERMAN
 static const u8 gText_MysteryEventsCantUse[]    = _("Drahtloser Adapter angeschlossen;\nGeheimgeschehen unmöglich.");
+#else
+static const u8 gText_MysteryEventsCantUse[] = _("MYSTERY EVENTS can't be used while\nthe Wireless Adapter is attached.");
+#endif
 
+#if GERMAN
 static const u8 gText_ContinueMenuPlayer[]      = _("Spieler");
+#else
+static const u8 gText_ContinueMenuPlayer[] = _("PLAYER");
+#endif
+#if GERMAN
 static const u8 gText_ContinueMenuTime[]        = _("Spielzeit");
+#else
+static const u8 gText_ContinueMenuTime[] = _("TIME");
+#endif
+#if GERMAN
 static const u8 gText_ContinueMenuPokedex[]     = _("Pokédex");
+#else
+static const u8 gText_ContinueMenuPokedex[] = _("POKéDEX");
+#endif
+#if GERMAN
 static const u8 gText_ContinueMenuBadges[]      = _("Orden");
+#else
+static const u8 gText_ContinueMenuBadges[] = _("BADGES");
+#endif
 
 #define MENU_LEFT 2
 #define MENU_TOP_WIN0 1

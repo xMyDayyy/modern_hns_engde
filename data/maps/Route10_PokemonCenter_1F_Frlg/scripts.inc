@@ -61,50 +61,105 @@ Route10_PokemonCenter_1F_EventScript_GetAideRequestInfo::
 	return
 
 Route10_PokemonCenter_1F_Text_EveryTypeStrongerThanOthers::
+#if GERMAN
 	.string "Ihr Element macht manche Pokémon\n"
 	.string "anderen gegenüber stärker bzw.\l"
 	.string "schwächer!$"
+#else
+	.string "The types of POKéMON match up\n"
+	.string "differently with each other.\p"
+	.string "Every type is stronger than some\n"
+	.string "types and weaker than others.$"
+#endif
 
 Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000::
+#if GERMAN
 	.string "Ich habe für ein nutzloses Nugget\n"
 	.string "5000¥ bekommen!$"
+#else
+	.string "A NUGGET is totally useless.\n"
+	.string "So I sold it for ¥5000.$"
+#endif
 
 Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender::
-	.string "Ich habe gehört, dass in Lavandia\n"
+#if GERMAN
+	.string "Ich habe gehört, dass in {COLOR RED}Lavandia{COLOR DARK_GRAY}\n"
 	.string "böse Geister spuken!$"
+#else
+	.string "I heard that ghosts haunt\n"
+	.string "LAVENDER TOWN.$"
+#endif
 
 Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons::
+#if GERMAN
 	.string "Oh… {PLAYER}!\n"
 	.string "Ich habe schon nach dir gesucht!\p"
 	.string "Ich bin es, der allzeit präsente\n"
-	.string "Assistent von Prof. Eich.\p"
+	.string "Assistent von {COLOR RED}Prof. Eich{COLOR DARK_GRAY}.\p"
 	.string "Falls du bereits 20 Pokémon\n"
-	.string "in deinem Pokédex hast, soll\l"
-	.string "ich dir von Prof. Eich eine\l"
+	.string "in deinem {COLOR RED}Pokédex{COLOR DARK_GRAY} hast, soll\l"
+	.string "ich dir von {COLOR RED}Prof. Eich{COLOR DARK_GRAY} eine\l"
 	.string "Belohnung geben.\l"
-	.string "Er gab mir diesen Ewigstein.\p"
+	.string "Er gab mir diesen {COLOR RED}Ewigstein{COLOR DARK_GRAY}.\p"
 	.string "Also, {PLAYER}, ich frage dich!\p"
 	.string "Hast du mindestens 20 verschiedene\n"
 	.string "Pokémon in deinem Besitz?$"
+#else
+	.string "Oh… {PLAYER}!\n"
+	.string "I've been looking for you!\p"
+	.string "It's me, one of the ever-present\n"
+	.string "AIDES to PROF. OAK.\p"
+	.string "If your POKéDEX has complete data\n"
+	.string "on twenty species, I'm supposed to\l"
+	.string "give you a reward from PROF. OAK.\p"
+	.string "He entrusted me with this\n"
+	.string "EVERSTONE.\p"
+	.string "So, {PLAYER}, let me ask you.\p"
+	.string "Have you gathered data on at least\n"
+	.string "twenty kinds of POKéMON?$"
+#endif
 
 Route10_PokemonCenter_1F_Text_GreatHereYouGo::
+#if GERMAN
 	.string "Super! Du hast {STR_VAR_3} verschiedene\n"
 	.string "Pokémon gefangen!\p"
 	.string "Einfach klasse! Hier, das hast du\n"
 	.string "dir redlich verdient!$"
+#else
+	.string "Great! You have caught or owned\n"
+	.string "{STR_VAR_3} kinds of POKéMON!\p"
+	.string "Congratulations!\n"
+	.string "Here you go!$"
+#endif
 
 Route10_PokemonCenter_1F_Text_ReceivedEverstoneFromAide::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "Ewigstein!$"
+#else
+	.string "{PLAYER} received the EVERSTONE\n"
+	.string "from the AIDE.$"
+#endif
 
 Route10_PokemonCenter_1F_Text_ExplainEverstone::
+#if GERMAN
 	.string "Durch die Entwicklung der\n"
-	.string "Pokémon wird der Pokédex\l"
+	.string "Pokémon wird der {COLOR RED}Pokédex{COLOR DARK_GRAY}\l"
 	.string "erweitert.\l"
 	.string "Aber manchmal soll sich ein\l"
 	.string "Pokémon nicht entwickeln.\p"
 	.string "In diesem Fall kannst du ihm den\n"
-	.string "Ewigstein geben.\p"
+	.string "{COLOR RED}Ewigstein{COLOR DARK_GRAY} geben.\p"
 	.string "Der Professor hat gesagt, dass\n"
 	.string "er die Entwicklung aufhält.$"
+#else
+	.string "Making POKéMON evolve certainly\n"
+	.string "can add to the POKéDEX.\p"
+	.string "However, at times, you may not\n"
+	.string "want a certain POKéMON to evolve.\p"
+	.string "In that case, give the EVERSTONE\n"
+	.string "to that POKéMON.\p"
+	.string "It will prevent evolution according\n"
+	.string "to the PROFESSOR.$"
+#endif
 

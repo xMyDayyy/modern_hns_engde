@@ -32,13 +32,25 @@ FuchsiaCity_Mart_Items::
 	end
 
 FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants::
+#if GERMAN
 	.string "Du hast einen Wimpel aus der\n"
-	.string "Safari-Zone?\p"
+	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY}?\p"
 	.string "Kein Programmheft oder einen\n"
 	.string "Kalender?$"
+#else
+	.string "Don't they have any pennants\n"
+	.string "promoting the SAFARI ZONE?\p"
+	.string "How about some paper lanterns?\n"
+	.string "Aren't there even any calendars?$"
+#endif
 
 FuchsiaCity_Mart_Text_DidYouTryXSpeed::
+#if GERMAN
 	.string "Hast du schon einmal X-Tempo\n"
 	.string "ausprobiert? Dein Pokémon wird\l"
 	.string "dadurch im Kampf schneller!$"
+#else
+	.string "Did you try X SPEED?\n"
+	.string "It speeds up a POKéMON in battle.$"
+#endif
 

@@ -245,20 +245,40 @@ RocketHideout_B1F_Movement_GruntWalkLeft:
 	step_end
 
 RocketHideout_B1F_Text_CameraGrunt1Seen:
+#if GERMAN
 	.string "He da! Ein Eindringling! Alarm!$"
+#else
+    .string "Hey!\n"
+    .string "Intruder alert!$"
+#endif
 
 RocketHideout_B1F_Text_CameraGrunt1Beaten:
+#if GERMAN
 	.string "Mist… ich hab versagt…$"
+#else
+    .string "Dang… I failed…$"
+#endif
 
 RocketHideout_B1F_Text_CameraGrunt2Seen:
+#if GERMAN
 	.string "Als Nächster bin ich dran! Es gibt kein\n"
 	.string "Entkommen!$"
+#else
+    .string "It's my turn! There's no escape!$"
+#endif
 
 RocketHideout_B1F_Text_CameraGrunt2Beaten:
+#if GERMAN
 	.string "Die Pokémon-Statuen sind unsere Augen\n"
 	.string "und Ohren!\p"
 	.string "Solange du nicht den geheimen Schalter\n"
 	.string "betätigst, wirst du uns nicht los!$"
+#else
+    .string "Surveillance cams are in the\n"
+    .string "POKéMON statues.\p"
+    .string "We'll keep appearing until you\n"
+    .string "trip a secret switch.$"
+#endif
 
 RocketHideout_B1F_EventScript_TrainerJed::
 	trainerbattle_single TRAINER_JED_HNS, RocketHideout_B1F_Text_ScientistJedSeen, RocketHideout_B1F_Text_ScientistJedBeaten
@@ -266,33 +286,67 @@ RocketHideout_B1F_EventScript_TrainerJed::
 	end
 
 RocketHideout_B1F_Text_ScientistJedSeen:
+#if GERMAN
 	.string "Dies war einmal ein Ninjaversteck.\p"
 	.string "Es gibt hier viele Fallen, um\n"
 	.string "Eindringlinge wie dich zu verwirren.$"
+#else
+    .string "This was once a ninja hideout.\p"
+    .string "There are traps to confound\n"
+    .string "intruders like you.$"
+#endif
 
 RocketHideout_B1F_Text_ScientistJedBeaten:
+#if GERMAN
 	.string "Ah… jetzt verstehe ich…$"
+#else
+    .string "I get it…$"
+#endif
 
 RocketHideout_B1F_Text_ScientistJedAfter:
+#if GERMAN
 	.string "Na gut. Ich verrate dir ein Geheim-\n"
 	.string "nis über unser Versteck.\p"
 	.string "Dieses Ding auf dem Boden dort\n"
 	.string "vor dir ist ein Warp-Feld.\p"
 	.string "Wenn du darauf trittst, wirst du\n"
 	.string "zurück zum Eingang teleportiert.$"
+#else
+    .string "All right. I'll divulge a secret\n"
+    .string "about our hideout.\p"
+    .string "That thing on the floor up ahead\n"
+    .string "is a warp panel.\p"
+    .string "If you step on it, you'll be\n"
+    .string "warped back to the entrance.$"
+#endif
 
 RocketHideout_B1F_Text_GruntM16Seen:
+#if GERMAN
 	.string "Heheh. Fühlst du dich glücklich,\n"
 	.string "du Loser?$"
+#else
+    .string "Heheh. Feeling lucky, punk?$"
+#endif
 
 RocketHideout_B1F_Text_GruntM16Beaten:
+#if GERMAN
 	.string "Kawumm!$"
+#else
+    .string "Kaboom!$"
+#endif
 
 RocketHideout_B1F_Text_GruntM16After:
+#if GERMAN
 	.string "Ich weiß auch nicht, wo die Fallen\n"
 	.string "platziert sind.\p"
 	.string "Du musst einfach Mut fassen und\n"
 	.string "weitergehen.$"
+#else
+    .string "I don't even know where the traps\n"
+    .string "are planted.\p"
+    .string "You'll just have to collect your\n"
+    .string "courage and walk.$"
+#endif
 
 RocketHideout_B1F_EventScript_Rocket16::
 	trainerbattle_single TRAINER_GRUNT_13_HNS, RocketHideout_B1F_Text_GruntM16Seen, RocketHideout_B1F_Text_GruntM16Beaten
@@ -316,7 +370,11 @@ RocketHideout_B1F_EventScript_Persian::
 	end
 
 RocketHideout_B1F_Text_SecurityCameraStatue:
+#if GERMAN
 	.string "Eine Snobilikat-Statue…$"
+#else
+    .string "It's a PERSIAN statue…$"
+#endif
 
 RocketHideout_B1F_EventScript_DummyPanel::
 	msgbox RocketHideout_B1F_Text_NothingThere, MSGBOX_SIGN
@@ -359,13 +417,25 @@ RocketHideout_B1F_EventScript_TurnOffSwitch::
 	end
 
 RocketHideout_B1F_Text_NothingThere:
+#if GERMAN
 	.string "Ein seltsames Panel…\n"
 	.string "Hier ist nichts.$"
+#else
+	.string "A strange panel... Nothing here.$"
+#endif
 
 RocketHideout_B1F_Text_SecretSwitch:
+#if GERMAN
 	.string "Ein geheimer Schalter!\n"
 	.string "Besser drücken.$"
+#else
+    .string "A secret switch! Better press it.$"
+#endif
 
 RocketHideout_B1F_Text_SwitchOff:
+#if GERMAN
 	.string "Der Schalter ist\n"
 	.string "ausgeschaltet.$"
+#else
+    .string "The switch is turned off.$"
+#endif

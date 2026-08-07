@@ -288,63 +288,126 @@ GoldenrodCity_EventScript_Beauty::
 	end
 
 GoldenrodCity_Text_Beauty:
+#if GERMAN
 	.string "Das ist die Dukatia City Arena!\p"
 	.string "Unsere Leiterin Bianka ist gerade\n"
 	.string "nicht da. Sie könnte im Radioturm\l"
 	.string "sein.$"
+#else
+	.string "This is the GOLDENROD GYM!\p"
+	.string "Our leader WHITNEY is not here\n"
+	.string "right now. She might be at the\l"
+	.string "RADIO TOWER.$"
+#endif
 
 GoldenrodCity_Text_Woman:
+#if GERMAN
 	.string "Ich habe früher in Biankas Arena\n"
 	.string "trainiert, aber ihr ständiges Weinen\l"
 	.string "macht mir Kopfschmerzen.$"
+#else
+	.string "I used to train in WHITNEY's GYM,\n"
+	.string "but all her crying gave me a\l"
+	.string "headache.$"
+#endif
 
 GoldenrodCity_Text_HikerDay:
+#if GERMAN
 	.string "Als ich in die Spielhalle ging,\n"
 	.string "war es Nacht… Wie lange war ich\l"
 	.string "dort drin?!$"
+#else
+	.string "When I went into the GAME CORNER\n"
+	.string "it was night time... How long was I\l"
+	.string "in there?!$"
+#endif
 
 GoldenrodCity_Text_HikerNight:
+#if GERMAN
 	.string "Als ich in die Spielhalle ging,\n"
 	.string "war es Tag… Wie lange war ich\l"
 	.string "dort drin?!$"
+#else
+	.string "When I went into the GAME CORNER\n"
+	.string "it was day time... How long was I\l"
+	.string "in there?!$"
+#endif
 
 GoldenrodCity_Text_Snubbull:
+#if GERMAN
 	.string "Snubbull: Snuuubuuuull!$"
+#else
+	.string "SNUBBULL: SNUUUBUUUULL!$"
+#endif
 
 GoldenrodCity_Text_MrMime:
 	.string "............................$"
 
 GoldenrodCity_Text_ElmName:
+#if GERMAN
 	.string "Lind$"
+#else
+	.string "PROF.ELM$"
+#endif
 
 GoldenrodCity_Text_ElmCall:
+#if GERMAN
 	.string "Lind: Hallo, {PLAYER}?\n"
 	.string "Ist das Ei schon geschlüpft?\p"
 	.string "Falls das passiert, vergiss nicht,\n"
 	.string "es zum Labor zu bringen.\p"
 	.string "Ich muss es untersuchen!$"
+#else
+	.string "PROF.ELM: Hello, {PLAYER}?\n"
+	.string "Has that EGG hatched yet?\p"
+	.string "Once it hatches, don't forget to\n"
+	.string "bring it by the lab! I need to\l"
+	.string "see it!$"
+#endif
 
 GoldenrodCity_Text_PokefanM:
+#if GERMAN
 	.string "Dieser hochmoderne Radiosender wurde\n"
 	.string "aus einem alten einsturzgefährdeten\l"
 	.string "Turm gebaut, der hier einmal stand.$"
+#else
+	.string "They built the new RADIO TOWER\n"
+	.string "to replace the old creaky one.$"
+#endif
 
 GoldenrodCity_Text_Youngster1:
+#if GERMAN
 	.string "Hier soll es irgendwo einen neuen\n"
 	.string "Fahrradladen geben. Aber wo bloß?\p"
 	.string "Ich finde ihn einfach nicht…$"
+#else
+	.string "I know there's a new BIKE SHOP,\n"
+	.string "but I can't find it anywhere.$"
+#endif
 
 GoldenrodCity_Text_CooltrainerF1:
+#if GERMAN
 	.string "Hat sich dieser Mann in Schwarz etwa\n"
 	.string "als Mitglied von Team Rocket verkleidet?\l"
 	.string "Was ist das denn für ein Widerling?$"
+#else
+	.string "Is that man in black dressed up\n"
+	.string "like a TEAM ROCKET member?\p"
+	.string "How silly!$"
+#endif
 
 GoldenrodCity_Text_CooltrainerF1_Cleared:
+#if GERMAN
 	.string "Dann gehörte dieser Mann in Schwarz\n"
 	.string "also wirklich zu Team Rocket?\l"
 	.string "Ich kann es immer noch nicht glauben!$"
+#else
+	.string "Was that man in black really part\n"
+	.string "of TEAM ROCKET? I can't believe it!$"
+#endif
 
 GoldenrodCity_Text_CooltrainerF2:
+#if GERMAN
 	.string "Der Radioturm in\n"
 	.string "Dukatia City ist ein Wahrzeichen.\p"
 	.string "Zurzeit läuft ge-\n"
@@ -353,126 +416,287 @@ GoldenrodCity_Text_CooltrainerF2:
 	.string "Com modifizieren, so dass er auch als\n"
 	.string "Radio\p"
 	.string "verwendet werden kann.$"
+#else
+	.string "The RADIO TOWER in GOLDENROD CITY\n"
+	.string "is quite the landmark.\p"
+	.string "They're running a campaign now.\p"
+	.string "They'll give you a shiny new\n"
+	.string "RADIO if you can pass their quiz.$"
+#endif
 
 GoldenrodCity_Text_CooltrainerF2_GotCard:
-	.string "Oh, dein PokéCom ist auch ein\n"
+#if GERMAN
+	.string "Oh, dein {COLOR RED}PokéCom{COLOR DARK_GRAY} ist auch ein\n"
 	.string "Radio!$"
+#else
+	.string "Oh, your POKéGEAR already works\n"
+	.string "as a radio!$"
+#endif
 
 GoldenrodCity_Text_Youngster2:
+#if GERMAN
 	.string "E-he-he-he…\p"
 	.string "Ich habe Ärger bekommen,\n"
 	.string "weil ich im Keller des\l"
 	.string "Kaufhauses gespielt habe.$"
+#else
+	.string "E-he-he-he…\p"
+	.string "I got in trouble for playing in\n"
+	.string "the DEPT.STORE basement.$"
+#endif
 
 GoldenrodCity_Text_Lass:
+#if GERMAN
 	.string "Der Mann in diesem Haus\n"
 	.string "bewertet deine Pokémon-Namen.\p"
 	.string "Er kann deine Pokémon auch umbenennen.$"
+#else
+	.string "That man inside rates your\n"
+	.string "POKéMON nicknames.\p"
+	.string "He can even rename them.$"
+#endif
 
 GoldenrodCity_Text_Gramps:
+#if GERMAN
 	.string "Wow! Das ist eine große Stadt. Ich\p"
 	.string "finde mich noch gar nicht zurecht.$"
+#else
+	.string "Whew! This town is so big,\n"
+	.string "I can't find anything at all.$"
+#endif
 
 GoldenrodCity_Text_RocketScout1:
+#if GERMAN
 	.string "Das ist also der Radioturm…$"
+#else
+	.string "So this is the RADIO TOWER…$"
+#endif
 
 GoldenrodCity_Text_RocketScout2:
+#if GERMAN
 	.string "Was willst du, Nervensäge? Hau ab!$"
+#else
+	.string "What do you want, pest?\n"
+	.string "Scram already!$"
+#endif
 
 GoldenrodCity_Text_Rocket1:
+#if GERMAN
 	.string "Aus dem Weg! Verschwinde!$"
+#else
+	.string "Stay out of the way!\n"
+	.string "Beat it, kid!$"
+#endif
 
 GoldenrodCity_Text_Rocket2:
+#if GERMAN
 	.string "Wir haben den Radioturm besetzt, um…\p"
 	.string "Moment mal! Das geht ein Kind wie dich\n"
 	.string "doch gar nichts an!$"
+#else
+	.string "Take over the RADIO TOWER…\p"
+	.string "What? It's none of your business!$"
+#endif
 
 GoldenrodCity_Text_Rocket3:
+#if GERMAN
 	.string "Pokémon? Sie sind nicht mehr als\p"
 	.string "Werkzeuge zum Geldscheffeln!$"
+#else
+	.string "POKéMON? They're just tools\n"
+	.string "we use to make money!$"
+#endif
 
 GoldenrodCity_Text_Rocket4:
+#if GERMAN
 	.string "Bald geht unser Traum in Erfüllung…\n"
 	.string "Es war ein steiniger Weg bis hierher…$"
+#else
+	.string "Our dream will soon come true…\p"
+	.string "It was a long, hard struggle…$"
+#endif
 
 GoldenrodCity_Text_Rocket5:
+#if GERMAN
 	.string "Ich glaube, ich sehe nicht recht!\n"
 	.string "Was hat denn ein Kind hier verloren?\l"
 	.string "Los, verzieh dich gefälligst!$"
+#else
+	.string "Hey, brat! You don't belong here!\n"
+	.string "Get lost already!$"
+#endif
 
 GoldenrodCity_Text_Rocket6:
+#if GERMAN
 	.string "Komm und werde\n"
 	.string "Zeuge der Macht von Team Rocket!$"
+#else
+	.string "Come and taste the terror of\n"
+	.string "TEAM ROCKET!$"
+#endif
 
 GoldenrodCity_Text_StationSign:
+#if GERMAN
 	.string "Dukatia City Bahnhof$"
+#else
+	.string "GOLDENROD CITY STATION$"
+#endif
 
 GoldenrodCity_Text_RadioTowerSign:
+#if GERMAN
 	.string "Dukatia City Radioturm$"
+#else
+	.string "GOLDENROD CITY RADIO TOWER$"
+#endif
 
 GoldenrodCity_Text_DeptStoreSign:
+#if GERMAN
 	.string "Große Auswahl an Pokémon-Artikeln!\p"
 	.string "Dukatia City Kaufhaus$"
+#else
+	.string "Full Selection of POKéMON Goods!\p"
+	.string "GOLDENROD CITY DEPT.STORE$"
+#endif
 
 GoldenrodCity_Text_GymSign:
+#if GERMAN
 	.string "Pokémon-Arena von Dukatia City\n"
 	.string "Leiterin: Bianka\l"
 	.string "Ein Mädchen so scharf wie Sprengstoff!$"
+#else
+	.string "GOLDENROD CITY POKéMON GYM\n"
+	.string "LEADER: WHITNEY\p"
+	.string "The Incredibly Pretty Girl!$"
+#endif
 
 GoldenrodCity_Text_CitySign:
+#if GERMAN
 	.string "Dukatia City\p"
 	.string "Die festliche\n"
 	.string "Stadt mit opulentem Charme$"
+#else
+	.string "GOLDENROD CITY\p"
+	.string "The Festive City of Opulent Charm$"
+#endif
 
 GoldenrodCity_Text_BikeShopSign:
+#if GERMAN
 	.string "Die Welt ist ein Radweg! Fahrradladen$"
+#else
+	.string "The World is a Cycle Path!\n"
+	.string "BIKE SHOP$"
+#endif
 
 GoldenrodCity_Text_GameCornerSign:
+#if GERMAN
 	.string "Dein Spielplatz!\p"
 	.string "Dukatia City Spielhalle$"
+#else
+	.string "Your Playground!\p"
+	.string "GOLDENROD CITY GAME CORNER$"
+#endif
 
 GoldenrodCity_Text_NameRaterSign:
+#if GERMAN
 	.string "Namenbewerter\p"
 	.string "Hier erhältst du eine ehrliche\n"
 	.string "Einschätzung deiner Spitznamen.$"
+#else
+	.string "NAME RATER\p"
+	.string "Get Your POKéMON Nicknames Rated$"
+#endif
 
 GoldenrodCity_Text_UndergroundNorthSign:
+#if GERMAN
 	.string "Untergrundeingang$"
+#else
+	.string "UNDERGROUND ENTRANCE$"
+#endif
 
 GoldenrodCity_Text_UndergroundSouthSign:
+#if GERMAN
 	.string "Untergrundeingang$"
+#else
+	.string "UNDERGROUND ENTRANCE$"
+#endif
 
 
 GoldenrodCity_Text_FlowerShopSign:
+#if GERMAN
 	.string "Blühender Blumenladen$"
+#else
+	.string "Blooming Beautiful FLOWER SHOP$"
+#endif
 
 GoldenrodCity_Text_MoveTutorAsk:
+#if GERMAN
 	.string "Ich kann deinen Pokémon ein paar\n"
 	.string "erstaunliche Attacken beibringen!\p"
 	.string "Soll ich eine lehren?$"
+#else
+	.string "I can teach your POKéMON some\n"
+	.string "amazing moves!\p"
+	.string "Should I teach one?$"
+#endif
 
 GoldenrodCity_Text_MoveTutorCost:
+#if GERMAN
 	.string "A-aber…$"
+#else
+	.string "It'll cost you 1000 coins.\n"
+	.string "Okay?$"
+#endif
 
 GoldenrodCity_Text_MoveTutorDecline:
+#if GERMAN
 	.string "Ohhh… Aber diese Attacken sind\n"
 	.string "doch richtig gut!$"
+#else
+	.string "Aww… But these moves are great!$"
+#endif
 
 GoldenrodCity_Text_MoveTutorWhich:
+#if GERMAN
 	.string "A-aber…$"
+#else
+	.string "Wahahah! You won't regret it!\p"
+	.string "Which move should I teach?$"
+#endif
 
 GoldenrodCity_Text_MoveTutorNoCash:
+#if GERMAN
 	.string "Hm, Mist. Ich muss\n"
 	.string "noch Geld von zu Hause holen…$"
+#else
+	.string "Too bad. Guess I'll need to\n"
+	.string "get some cash from home…$"
+#endif
 
 GoldenrodCity_Text_MoveTutorUnderstand:
+#if GERMAN
 	.string "A-aber…$"
+#else
+	.string "If you understand this move,\n"
+	.string "you've made it as a trainer.$"
+#endif
 
 GoldenrodCity_Text_MoveTutorFarewell:
+#if GERMAN
 	.string "Wahahah! Mach’s gut, Wicht!$"
+#else
+	.string "Wahahah! Farewell, kid!$"
+#endif
 
 GoldenrodCity_Text_MoveTutorBut:
+#if GERMAN
 	.string "A-aber…$"
+#else
+	.string "B-but…$"
+#endif
 
 GoldenrodCity_Text_MoveTutorNotEnoughCoins:
+#if GERMAN
 	.string "…Du hast nicht genügend Münzen dabei…$"
+#else
+	.string "…You don't have enough coins…$"
+#endif

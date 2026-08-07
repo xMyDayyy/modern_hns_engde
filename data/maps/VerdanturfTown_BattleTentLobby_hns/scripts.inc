@@ -329,6 +329,7 @@ VerdanturfTown_BattleTentLobby_hns_EventScript_ExitRules::
 	end
 
 VerdanturfTown_BattleTentLobby_hns_Text_MonsReluctantToUseDislikedMoves:
+#if GERMAN
 	.string "Wenn es eine bestimmte Attacke nicht\n"
 	.string "mag, wird das Pokémon sie nur\l"
 	.string "zurückhaltend einsetzen.\p"
@@ -342,8 +343,21 @@ VerdanturfTown_BattleTentLobby_hns_Text_MonsReluctantToUseDislikedMoves:
 	.string "\p"
 	.string "einer ungeliebten Attacke eventuell\n"
 	.string "versagen.$"
+#else
+	.string "If it doesn't like a certain move,\n"
+	.string "a POKéMON will be reluctant to use it.\p"
+	.string "It doesn't matter how strong it is,\n"
+	.string "either.\p"
+	.string "For example, a POKéMON with a GENTLE\n"
+	.string "nature probably won't enjoy hurting\l"
+	.string "its opponents.\p"
+	.string "If it can't seem to live up to its\n"
+	.string "potential, it's probably failing at\l"
+	.string "using a disliked move against its will.$"
+#endif
 
 VerdanturfTown_BattleTentLobby_hns_Text_GentleMonsScaryIfAngry:
+#if GERMAN
 	.string "Meine große Schwester ist eigentlich\n"
 	.string "sehr sanftmütig!\p"
 	.string "Aber wenn sie so richtig wütend wird,\n"
@@ -351,31 +365,63 @@ VerdanturfTown_BattleTentLobby_hns_Text_GentleMonsScaryIfAngry:
 	.string "Ich wette, ein sanftmütiges Pokémon\n"
 	.string "ist auch Furcht erregend, wenn es\l"
 	.string "wütend ist.$"
+#else
+	.string "My big sister is gentle usually.\n"
+	.string "But when she gets angry,\l"
+	.string "she's really, really scary!\p"
+	.string "I bet a gentle POKéMON will be scary\n"
+	.string "if it gets angry!$"
+#endif
 
 VerdanturfTown_BattleTentLobby_hns_Text_AttractionRunsDeep:
+#if GERMAN
 	.string "Meine Gefühle für Pokémon…\n"
 	.string "sind sehr, sehr tief…\p"
 	.string "Oh, hallo! Du hast das jetzt nicht\n"
 	.string "gehört, nicht wahr? Na, egal.\p"
 	.string "Möchtest du diese TM für deine\n"
 	.string "Pokémon haben?$"
+#else
+	.string "My feelings toward my POKéMON…\n"
+	.string "The attraction runs deep…\p"
+	.string "Oh, hi, you didn't see that, did you?\n"
+	.string "Well, it doesn't matter.\p"
+	.string "How would you like this TM for\n"
+	.string "your POKéMON?$"
+#endif
 
 VerdanturfTown_BattleTentLobby_hns_Text_AttractionMutual:
+#if GERMAN
 	.string "Meine Gefühle für Pokémon…\n"
 	.string "sind genauso wie die Gefühle der\p"
 	.string "Pokémon für mich…\n"
 	.string "Sie kämpfen genauso, wie ich es\l"
 	.string "möchte!$"
+#else
+	.string "My feelings toward my POKéMON…\n"
+	.string "I'm sure the attraction is mutual!\p"
+	.string "They battle exactly the way I want\n"
+	.string "them to!$"
+#endif
 
 VerdanturfTown_BattleTentLobby_hns_Text_TaughtWhatKindsOfMoves:
+#if GERMAN
 	.string "Welche Attacken hast du deinen\n"
 	.string "Pokémon beigebracht?\p"
 	.string "Ich denke, es wäre für dich von\n"
 	.string "Vorteil,\n"
 	.string "wenn sie sich selber heilen und\l"
 	.string "schützen könnten.$"
+#else
+	.string "What kind of moves have you taught\n"
+	.string "your POKéMON?\p"
+	.string "I think you would give yourself\n"
+	.string "an advantage if they knew how to\l"
+	.string "heal or protect themselves.$"
+#endif
 
 VerdanturfTown_BattleTentLobby_hns_Text_ScottCanMeetToughTrainers:
+#if GERMAN
 	.string "Scott: Hallo {PLAYER}{KUN}!\n"
 	.string "Ich hoffte, dich hier zu treffen.\p"
 	.string "In einem Kampfcamp triffst du auf\n"
@@ -387,9 +433,25 @@ VerdanturfTown_BattleTentLobby_hns_Text_ScottCanMeetToughTrainers:
 	.string "{PLAYER}{KUN}, ich erwarte von dir,\n"
 	.string "dass du\l"
 	.string "dein Bestes gibst!$"
+#else
+	.string "SCOTT: Hey there, {PLAYER}{KUN}!\n"
+	.string "I thought I might see you here.\p"
+	.string "A BATTLE TENT's a place where\n"
+	.string "you can meet tough TRAINERS.\p"
+	.string "It doesn't matter what the rules are,\n"
+	.string "or how battles are waged, either.\p"
+	.string "{PLAYER}{KUN}, I expect you to do\n"
+	.string "the best you can!$"
+#endif
 
 VerdanturfTown_BattleTentLobby_hns_Text_ScottVisitRegularly:
+#if GERMAN
 	.string "Scott: Ich komme regelmäßig hierher,\n"
 	.string "in\n"
 	.string "der Hoffnung, starke Trainer in Aktion\l"
 	.string "und in jeder Situation zu erleben.$"
+#else
+	.string "SCOTT: I visit here regularly in hopes\n"
+	.string "of seeing tough TRAINERS in action\l"
+	.string "in whatever the situation.$"
+#endif

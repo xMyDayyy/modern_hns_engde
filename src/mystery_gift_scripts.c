@@ -3,7 +3,11 @@
 #include "mystery_gift_server.h"
 #include "mystery_gift.h"
 
+#if GERMAN
 static const u8 sText_CanceledReadingCard[] = _("Lesevorgang\nabgebrochen.");
+#else
+static const u8 sText_CanceledReadingCard[] = _("Canceled reading\nthe Card.");
+#endif
 
 
 //==================

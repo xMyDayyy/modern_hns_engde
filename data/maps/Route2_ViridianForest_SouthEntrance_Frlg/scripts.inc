@@ -10,13 +10,25 @@ Route2_ViridianForest_SouthEntrance_EventScript_Woman2::
 	end
 
 Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze::
-	.string "Du gehst in den Vertania-Wald?\n"
+#if GERMAN
+	.string "Du gehst in den {COLOR RED}Vertania-Wald{COLOR DARK_GRAY}?\n"
 	.string "Sei auf der Hut, dort verläuft man\l"
 	.string "sich leicht!$"
+#else
+	.string "Are you going to VIRIDIAN FOREST?\n"
+	.string "It's a natural maze in there.\l"
+	.string "Be careful you don't get lost.$"
+#endif
 
 Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite::
+#if GERMAN
 	.string "Hast du schon ein Rattfratz\n"
 	.string "gefangen?\p"
 	.string "Es ist klein, aber sein Biss ist\n"
 	.string "heftig!$"
+#else
+	.string "RATTATA may be small, but don't\n"
+	.string "underestimate its wicked bite.\p"
+	.string "Have you caught one already?$"
+#endif
 

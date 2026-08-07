@@ -37,17 +37,34 @@ MtMortar_2F_EventScript_Nerd::
 	end
 
 MtMortar_2F_Text_SupernerdHughSeen::
+#if GERMAN
 	.string "Yo! Urban!$"
+#else
+	.string "Yo! MARKUS!$"
+#endif
 
 MtMortar_2F_Text_SupernerdHughBeaten:
+#if GERMAN
 	.string "Sorry, mein Fehler.\n"
 	.string "Ich hab dich mit jemandem\l"
 	.string "verwechselt.$"
+#else
+	.string "Sorry, my mistake.\n"
+	.string "I misjudged you.$"
+#endif
 
 MtMortar_2F_Text_SupernerdHughAfter:
+#if GERMAN
 	.string "Ich untersuche den\n"
 	.string "Kesselberg, aber mein\l"
 	.string "Kumpel ist verschwunden.\p"
 	.string "Hast du einen Trainer\n"
 	.string "gesehen, dessen Flegmon\l"
 	.string "Stärke einsetzen kann?$"
+#else
+	.string "I'm investigating MT.MORTAR,\n"
+	.string "but my pal's gone AWOL.\p"
+	.string "Have you seen a trainer who\n"
+	.string "has a SLOWPOKE that can use\l"
+	.string "STRENGTH?$"
+#endif

@@ -99,116 +99,248 @@ Route38_EventScript_Item_LaxIncense::
 	end
 
 Route38_Text_BirdKeeperTobySeen:
+#if GERMAN
 	.string "Fliegt hoch hinaus, meine\n"
 	.string "herrlichen Vogel-Pokémon!$"
+#else
+	.string "Fly high into the sky,\n"
+	.string "my beloved bird POKéMON!$"
+#endif
 
 Route38_Text_BirdKeeperTobyBeaten:
+#if GERMAN
 	.string "Ich wünschte, ich könnte mich\n"
 	.string "selbst in die Lüfte erheben.$"
+#else
+	.string "I feel like just flying\n"
+	.string "away now.$"
+#endif
 
 Route38_Text_BirdKeeperTobyAfter:
-	.string "Ich habe vor, in Anemonia City\n"
+#if GERMAN
+	.string "Ich habe vor, in {COLOR RED}Anemonia City{COLOR DARK_GRAY}\n"
 	.string "zu trainieren und meinen Pokémon\l"
 	.string "das Fliegen beizubringen.$"
+#else
+	.string "I plan to train in CIANWOOD CITY\n"
+	.string "to teach my POKéMON how to FLY.$"
+#endif
 
 Route38_Text_SchoolboyChad1Seen:
+#if GERMAN
 	.string "Jetzt probiere ich gleich mal etwas aus,\n"
 	.string "das ich heute gelernt habe.$"
+#else
+	.string "Let me try something\n"
+	.string "I learned today.$"
+#endif
 
 Route38_Text_SchoolboyChad1Beaten:
+#if GERMAN
 	.string "Ich fürchte, ich habe noch nicht\n"
 	.string "genug gelernt.$"
+#else
+	.string "I didn't study enough,\n"
+	.string "I guess.$"
+#endif
 
 Route38_Text_SchoolboyChadAfter:
+#if GERMAN
 	.string "Bei so vielen Klassenarbeiten bleibt\n"
 	.string "mir nicht viel Zeit für Pokémon.\p"
 	.string "Wenn ich also mal Zeit zum Spielen habe,\n"
 	.string "bin ich mit voller Konzentration dabei.$"
+#else
+	.string "I have to take so many\n"
+	.string "tests, I don't have much\l"
+	.string "time for POKéMON.\p"
+	.string "So when I do get to play,\n"
+	.string "I really concentrate.$"
+#endif
 
 Route38_Text_ChadRegister:
+#if GERMAN
     .string "Ich muss so viele Prüfungen\n"
     .string "schreiben, dass ich kaum Zeit\l"
     .string "für Pokémon habe.\p"
     .string "Darum konzentriere ich mich\n"
     .string "voll und ganz, wenn ich einmal\l"
     .string "spielen kann.$"
+#else
+	.string "I have to take so many\n"
+	.string "tests, I don't have much\l"
+	.string "time for POKéMON.\p"
+	.string "So when I do get to play,\n"
+	.string "I really concentrate.$"
+#endif
 
 Route38_Text_ChadRematchIntro:
+#if GERMAN
 	.string "Jetzt probiere ich gleich mal etwas aus,\n"
 	.string "das ich heute gelernt habe.$"
+#else
+	.string "Let me try something\n"
+	.string "I learned today.$"
+#endif
 
 Route38_Text_ChadRematchDefeat:
+#if GERMAN
 	.string "Ich fürchte, ich habe noch nicht genug\n"
 	.string "gelernt.$"
+#else
+	.string "I didn't study enough,\n"
+	.string "I guess.$"
+#endif
 
 Route38_Text_ChadPostRematch:
+#if GERMAN
     .string "Ich muss so viele Prüfungen\n"
     .string "schreiben, dass ich kaum Zeit\l"
     .string "für Pokémon habe.\p"
     .string "Darum konzentriere ich mich\n"
     .string "voll und ganz, wenn ich einmal\l"
     .string "spielen kann.$"
+#else
+	.string "I have to take so many\n"
+	.string "tests, I don't have much\l"
+	.string "time for POKéMON.\p"
+	.string "So when I do get to play,\n"
+	.string "I really concentrate.$"
+#endif
 
 Route38_Text_LassDana1Seen:
+#if GERMAN
 	.string "Du scheinst gut mit\n"
 	.string "Pokémon umgehen zu können.\p"
 	.string "Wenn ja, gibst du mir\n"
 	.string "ein paar Tipps?$"
+#else
+	.string "You seem to be good at\n"
+	.string "POKéMON.\p"
+	.string "If you are, how about\n"
+	.string "giving me some advice?$"
+#endif
 
 Route38_Text_LassDana1Beaten:
+#if GERMAN
 	.string "Ich verstehe. So kämpfst du also.$"
+#else
+	.string "I see. So you can battle\n"
+	.string "that way.$"
+#endif
 
 Route38_Text_LassDanaAfter:
+#if GERMAN
 	.string "Ich will dir auch etwas verraten!\p"
 	.string "Die Milch von der Kuhmuh-Farm ist\n"
 	.string "berühmt für ihren Geschmack!$"
+#else
+	.string "I know something good!\p"
+	.string "MOOMOO FARM's milk is\n"
+	.string "famous for its flavor.$"
+#endif
 
 Route38_Text_BeautyValerieSeen:
+#if GERMAN
 	.string "Hallöchen!\n"
 	.string "Du bist doch bestimmt so nett\p"
 	.string "und lässt mich mal sehen, welche\n"
 	.string "Pokémon du dabeihast, oder?$"
+#else
+	.string "Hi! Aren't you a cute\n"
+	.string "trainer!\p"
+	.string "May I see your POKéMON?$"
+#endif
 
 Route38_Text_BeautyValerieBeaten:
+#if GERMAN
 	.string "Ich bin froh, dass ich\n"
 	.string "dein Pokémon-Team sehen durfte!$"
+#else
+	.string "I'm glad I got to see\n"
+	.string "your POKéMON!$"
+#endif
 
 Route38_Text_BeautyValerieAfter:
+#if GERMAN
 	.string "Wann immer ich Pokémon sehe, fühle ich\n"
 	.string "mich so… entspannt.\l"
 	.string "Da wird mir gleich ganz warm ums Herz.$"
+#else
+	.string "When I see POKéMON, it\n"
+	.string "seems to soothe my nerves.$"
+#endif
 
 Route38_Text_SailorHarrySeen:
+#if GERMAN
 	.string "Ich habe die ganze Welt bereist.\n"
 	.string "Deswegen kenne ich alle Pokémon-Arten!$"
+#else
+	.string "I've been overseas, so I\n"
+	.string "know about all sorts of\l"
+	.string "POKéMON!$"
+#endif
 
 Route38_Text_SailorHarryBeaten:
+#if GERMAN
 	.string "Deine Fähigkeiten\n"
 	.string "sind Weltklasse!$"
+#else
+	.string "Your skill is world class!$"
+#endif
 
 Route38_Text_SailorHarryAfter:
+#if GERMAN
 	.string "Alle möglichen Menschen in\n"
 	.string "allen möglichen Ländern leben glücklich\l"
 	.string "zusammen mit den Pokémon.$"
+#else
+	.string "All kinds of people around\n"
+	.string "the world live happily with\l"
+	.string "POKéMON.$"
+#endif
 
 Route38_Text_BeautyOliviaSeen:
+#if GERMAN
 	.string "Meine Pokémon und Ich\n"
 	.string "sind wunderschön, nicht wahr?$"
+#else
+	.string "Don't you think my POKéMON\n"
+	.string "and I are beautiful?$"
+#endif
 
 Route38_Text_BeautyOliviaBeaten:
+#if GERMAN
 	.string "Wir trinken täglich Kuhmuh-Milch.$"
+#else
+	.string "We drink MOOMOO MILK every\n"
+	.string "day.$"
+#endif
 
 Route38_Text_BeautyOliviaAfter:
+#if GERMAN
 	.string "Kuhmuh-Milch ist gut für\n"
 	.string "Schönheit und Gesundheit.\p"
 	.string "Doch leider wird sie nur\n"
 	.string "flaschenweise verkauft.$"
+#else
+	.string "MOOMOO MILK is good for\n"
+	.string "beauty and health,\p"
+	.string "but inconveniently, they\n"
+	.string "only sell one bottle at a time.$"
+#endif
 
 Route38_Text_Sign:
+#if GERMAN
 	.string "Route 38\p"
 	.string "Oliviana City - Teak City$"
+#else
+	.string "ROUTE 38\p"
+	.string "OLIVINE CITY - ECRUTEAK CITY$"
+#endif
 
 Route38_Text_TrainerTips:
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Wenn du die Entwicklung eines Pokémon\n"
 	.string "stoppen willst, musst du den B-Knopf\l"
@@ -216,41 +348,96 @@ Route38_Text_TrainerTips:
 	.string "will.\p"
 	.string "Das Pokémon entwickelt sich dann nicht.\n"
 	.string "Das nennt man Entwicklungsstopp.$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "If a POKéMON is trying to\n"
+	.string "evolve, you can stop it.\p"
+	.string "Press the B Button during\n"
+	.string "evolution to cancel it.\p"
+	.string "That startles the POKéMON\n"
+	.string "and stops its evolution.$"
+#endif
 
 
 Route38_Text_WaterSign:
+#if GERMAN
 	.string "Schwimmen und Angeln verboten.\p"
 	.string "Wasser nur für Landwirtschaft.\p"
 	.string "Bürgermeister von Teak City$"
+#else
+	.string "NO SWIMMING OR FISHING.\n"
+	.string "WATER FOR FARMING ONLY.\p"
+	.string "-ECRUTEAK COUNCIL$"
+#endif
 
 Route38_Text_DanaRegister:
+#if GERMAN
     .string "Ich kenne etwas wirklich Gutes!\p"
     .string "Die Milch der Muhmuh-Farm ist\n"
     .string "für ihren Geschmack berühmt.$"
+#else
+	.string "I know something good!\p"
+	.string "MOOMOO FARM's milk is\n"
+	.string "famous for its flavor.$"
+#endif
 
 Route38_Text_DanaRematchIntro:
+#if GERMAN
     .string "Du scheinst dich gut mit\n"
     .string "Pokémon auszukennen.\p"
     .string "Wenn das so ist, könntest du\n"
     .string "mir vielleicht ein paar Tipps geben?$"
+#else
+	.string "You seem to be good at\n"
+	.string "POKéMON.\p"
+	.string "If you are, how about\n"
+	.string "giving me some advice?$"
+#endif
 
 Route38_Text_DanaRematchDefeat:
+#if GERMAN
 	.string "Ich verstehe. So kämpfst du also.$"
+#else
+	.string "I see. So you can battle\n"
+	.string "that way.$"
+#endif
 
 Route38_Text_DanaPostRematch:
+#if GERMAN
     .string "Ich kenne etwas wirklich Gutes!\p"
     .string "Die Milch der Muhmuh-Farm ist\n"
     .string "für ihren Geschmack berühmt.$"
+#else
+	.string "I know something good!\p"
+	.string "MOOMOO FARM's milk is\n"
+	.string "famous for its flavor.$"
+#endif
 
 Route38_Text_DanaHasItem:
+#if GERMAN
     .string "Hey! Ich habe etwas\n"
     .string "Interessantes gefunden!\p"
     .string "Hier, du kannst es haben!$"
+#else
+	.string "Hey! I found something\n"
+	.string "interesting!\p"
+	.string "Here, you can have it!$"
+#endif
 
 Route38_Text_DanaGaveItem:
+#if GERMAN
     .string "Ich sage dir Bescheid, wenn ich\n"
     .string "noch etwas finde!$"
+#else
+	.string "I'll let you know if I find\n"
+	.string "anything else!$"
+#endif
 
 Route38_Text_DanaNoRoom:
+#if GERMAN
     .string "Hm, dein Beutel ist voll.\p"
     .string "Komm wieder, wenn du Platz hast.$"
+#else
+	.string "Hmm, your BAG is full.\p"
+	.string "Come back when you have room.$"
+#endif

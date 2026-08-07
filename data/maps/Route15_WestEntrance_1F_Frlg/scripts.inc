@@ -6,7 +6,13 @@ Route15_WestEntrance_1F_EventScript_Guard::
 	end
 
 Route15_WestEntrance_1F_Text_OaksAideCameByHere::
-	.string "Arbeitest du an einem Pokédex?\p"
+#if GERMAN
+	.string "Arbeitest du an einem {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
 	.string "Prof. Eichs Assistent ist\n"
 	.string "kürzlich hier vorbeigekommen!$"
+#else
+	.string "Are you the kid who's working on\n"
+	.string "a POKéDEX?\p"
+	.string "PROF. OAK's AIDE came by here.$"
+#endif
 

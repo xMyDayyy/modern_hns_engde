@@ -67,37 +67,70 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_MetScott::
 	end
 
 LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
+#if GERMAN
 	.string "Ich bin der Game Designer.\p"
 	.string "Oh, wirklich?\n"
-	.string "Du arbeitest an einem Pokédex?\p"
+	.string "Du arbeitest an einem {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
 	.string "Es ist schwer, ihn zu\n"
 	.string "vervollständigen,\n"
 	.string "aber du darfst nicht aufgeben.\p"
 	.string "Sobald du ihn vervollständigt hast,\n"
 	.string "komm mich wieder besuchen.$"
+#else
+	.string "I'm the GAME DESIGNER.\p"
+	.string "Oh, is that right?\n"
+	.string "You're working on a POKéDEX?\p"
+	.string "It's tough trying to complete it,\n"
+	.string "but don't give up.\p"
+	.string "If you do complete it, please come\n"
+	.string "show me.$"
+#endif
 
 LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
+#if GERMAN
 	.string "Wow! Das ist beeindruckend!\n"
 	.string "Wirklich äußerst beeindruckend!\p"
-	.string "Dein Pokédex ist absolut vollständig!\n"
+	.string "Dein {COLOR RED}Pokédex{COLOR DARK_GRAY} ist absolut vollständig!\n"
 	.string "Du musst die Pokémon wirklich lieben!\n"
 	.string "\p"
 	.string "Ich bin echt beeindruckt!\p"
 	.string "Ich möchte dir als Zeichen meiner\n"
 	.string "Aner- kennung gerne etwas schenken!$"
+#else
+	.string "Wow! That's awesome!\n"
+	.string "Yep, it's totally awesome!\p"
+	.string "This POKéDEX is completely filled!\n"
+	.string "You really must love POKéMON!\p"
+	.string "I'm so impressed!\p"
+	.string "Let me give you something in\n"
+	.string "recognition of your feat!$"
+#endif
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
+#if GERMAN
 	.string "Ich? Sprichst du mit mir?\n"
 	.string "Ich bin der Programmierer.\p"
 	.string "Ich frage mich, wie die Einarmigen\n"
 	.string "Banditen hier wohl so sind.$"
+#else
+	.string "Me? You're talking to me?\n"
+	.string "I'm the PROGRAMMER.\p"
+	.string "I wonder what the SLOTS are\n"
+	.string "like here.$"
+#endif
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
+#if GERMAN
 	.string "Ich bin der Graphic Artist! Sind die\n"
 	.string "Pokémon in der Region von Hoenn\l"
 	.string "nicht interessant?$"
+#else
+	.string "I'm the GRAPHIC ARTIST! Aren't the\n"
+	.string "POKéMON of HOENN interesting?$"
+#endif
 
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
+#if GERMAN
 	.string "Die Mädchen mit den Schwimmreifen\n"
 	.string "sind total niedlich, meinst du nicht?\l"
 	.string "Ein Kampf gegen so niedliche Mädchen…\n"
@@ -107,18 +140,39 @@ LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
 	.string "süß!?!\n"
 	.string "Ein 2-gegen-2-Kampf mit Zwillingen…\p"
 	.string "Huuh, einfach unglaublicher Spaß!$"
+#else
+	.string "The girl TUBERS, they're cute, hey?\n"
+	.string "To battle against a cute TUBER…\p"
+	.string "Whoop, it's so awesome!\p"
+	.string "And the TWINS! Aren't they cute?\n"
+	.string "A 2-on-2 battle with TWINS…\p"
+	.string "Whoop, it's unbearably fun!$"
+#endif
 
 LilycoveCity_CoveLilyMotel_2F_Text_SeaBreezeTicklesHeart:
+#if GERMAN
 	.string "Die frische Seebrise berührt mein\n"
 	.string "Herz. Es ist einfach wundervoll hier.$"
+#else
+	.string "The sea breeze tickles my heart.\n"
+	.string "It feels wonderful here!$"
+#endif
 
 LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy:
+#if GERMAN
 	.string "Du kannst nie vorhersagen, wann und wo\n"
 	.string "die Leute dich herausfordern.\p"
 	.string "Daher gehe ich niemals ohne meinen\n"
 	.string "Game Boy Advance aus dem Haus.$"
+#else
+	.string "You never know when and where\n"
+	.string "people will challenge you.\p"
+	.string "That's why I never leave home without\n"
+	.string "my GAME BOY ADVANCE.$"
+#endif
 
 LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
+#if GERMAN
 	.string "Scott: … … … …\n"
 	.string "…\l"
 	.string "… … … … …\l"
@@ -138,12 +192,35 @@ LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
 	.string "Ich hoffe du genießt die Arenen,\n"
 	.string "Wettbewerbe, Kampfcamps und all\l"
 	.string "die wunderbaren Dinge, {PLAYER}{KUN}!$"
+#else
+	.string "SCOTT: … … … … …\n"
+	.string "… … … … … Zzz…\p"
+	.string "… … … … … Huh?!\n"
+	.string "Oh, sorry, sorry! I was snoozing!\p"
+	.string "I came to check out this POKéMON\n"
+	.string "CONTEST thing.\p"
+	.string "I have to admit, it does look quite\n"
+	.string "entertaining, but…\p"
+	.string "Consider me a purist--I prefer\n"
+	.string "battles and tough TRAINERS.\p"
+	.string "But that's just me.\p"
+	.string "{PLAYER}{KUN}, I hope you'll enjoy everything\n"
+	.string "like the GYMS, CONTESTS, BATTLE TENT,\l"
+	.string "the whole works!$"
+#endif
 
 LilycoveCity_CoveLilyMotel_2F_Text_ContestsDoTakeStrategy:
+#if GERMAN
 	.string "Scott: Ich denke schon, dass es auf\n"
 	.string "Strategie ankommt, um einen Wettbewerb\l"
 	.string "zu gewinnen.\p"
 	.string "Sich eine Strategie auszudenken ist\n"
 	.string "nur ein Weg, ein guter Trainer zu\l"
 	.string "werden…$"
+#else
+	.string "SCOTT: I think it does take strategy\n"
+	.string "to win a CONTEST.\p"
+	.string "Devising CONTEST strategies is one way\n"
+	.string "of becoming a better TRAINER, I'd say.$"
+#endif
 

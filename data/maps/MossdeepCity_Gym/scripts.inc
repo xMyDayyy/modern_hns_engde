@@ -370,6 +370,7 @@ MossdeepCity_Gym_EventScript_RedFloorSwitch::
 	end
 
 MossdeepCity_Gym_Text_GymGuideAdvice:
+#if GERMAN
 	.string "Na, wie sieht es aus, auf dem Weg zum\n"
 	.string "Champ, {PLAYER}?\p"
 	.string "Die Arenaleiter hier setzen Psycho-\n"
@@ -382,188 +383,407 @@ MossdeepCity_Gym_Text_GymGuideAdvice:
 	.string "Wenn du gewinnen willst, musst du ihnen\n"
 	.string "beweisen, wie sehr du mit deinen\l"
 	.string "Pokémon verbunden bist! Und nun los!$"
+#else
+	.string "Yo, how's it going, CHAMPION-bound\n"
+	.string "{PLAYER}?\p"
+	.string "The GYM LEADERS here use\n"
+	.string "PSYCHIC-type POKéMON.\p"
+	.string "If you go up against them with\n"
+	.string "FIGHTING- or POISON-type POKéMON,\l"
+	.string "they'll inflict horrible damage!\p"
+	.string "Plus, they'll come at you with\n"
+	.string "outstanding combination attacks.\p"
+	.string "If you want to win, you'll need to show\n"
+	.string "them how tight you are with your\l"
+	.string "POKéMON. Go for it!$"
+#endif
 
 MossdeepCity_Gym_Text_GymGuidePostVictory:
+#if GERMAN
 	.string "Wow, du bist erstaunlich!\n"
 	.string "Du bist ein großartiger Trainer!$"
+#else
+	.string "Wow, you're astounding!\n"
+	.string "You're one great TRAINER!$"
+#endif
 
 MossdeepCity_Gym_Text_PrestonIntro:
+#if GERMAN
 	.string "Kämpfe hängen von der Stärke deines\n"
 	.string "Geistes ab! Die mit schwachem Geist\l"
 	.string "werden niemals gewinnen.$"
+#else
+	.string "Battles hinge on the strength of your\n"
+	.string "spirit! The weak-spirited will never win!$"
+#endif
 
 MossdeepCity_Gym_Text_PrestonDefeat:
+#if GERMAN
 	.string "Ich habe verloren! Ich muss meinen\n"
 	.string "Geist stärken!$"
+#else
+	.string "I lost!\n"
+	.string "I must temper my spirit again!$"
+#endif
 
 MossdeepCity_Gym_Text_PrestonPostBattle:
+#if GERMAN
 	.string "Eine nichtssagende Niederlage.\n"
 	.string "Das war doch nur eine Warnung an dich.$"
+#else
+	.string "The indecisive lose.\n"
+	.string "That's my warning to you.$"
+#endif
 
 MossdeepCity_Gym_Text_VirgilIntro:
+#if GERMAN
 	.string "Zeig mir, ob du Talent hast.$"
+#else
+	.string "Let me see your talent!$"
+#endif
 
 MossdeepCity_Gym_Text_VirgilDefeat:
+#if GERMAN
 	.string "Du besitzt offensichtlich Talent.$"
+#else
+	.string "You possess spectacular talent!$"
+#endif
 
 MossdeepCity_Gym_Text_VirgilPostBattle:
+#if GERMAN
 	.string "Wenn es überhaupt Wunderkinder gibt,\n"
 	.string "dann sind es unsere Arenaleiter.\p"
 	.string "Aber du scheinst doch talentierter\n"
 	.string "als sie zu sein…$"
+#else
+	.string "If there are prodigies in the world,\n"
+	.string "then our GYM LEADERS are them!\p"
+	.string "However, you may be even more talented\n"
+	.string "than them…$"
+#endif
 
 MossdeepCity_Gym_Text_BlakeIntro:
+#if GERMAN
 	.string "Hihihihi… Achtung! Ich lasse meinen\n"
 	.string "Pokéball durch Telekinese schweben!\p"
 	.string "Wuhuuuuuuuhuiii! … … … … … … …\p"
 	.string "Äh, manchmal fehlt es mir etwas an\n"
 	.string "Balance…$"
+#else
+	.string "Fufufufu… Watch me levitate a POKé\n"
+	.string "BALL telekinetically!\p"
+	.string "Wrooooooooaaaar!\n"
+	.string "… … … … … … …\p"
+	.string "Sometimes, I'm out of sync…$"
+#endif
 
 MossdeepCity_Gym_Text_BlakeDefeat:
+#if GERMAN
 	.string "Meine Pokémon kämpften nicht\n"
 	.string "synchron!$"
+#else
+	.string "My POKéMON battling skills are out\n"
+	.string "of sync, too!$"
+#endif
 
 MossdeepCity_Gym_Text_BlakePostBattle:
+#if GERMAN
 	.string "Ein Pokéball ist doch etwas zu schwer,\n"
 	.string "um ihn schweben zu lassen!\l"
 	.string "Aber ein Staubknäuel…\p"
 	.string "Wuhuuuuuuuhu! … … … … … … …\p"
 	.string "Das ist kein Trick!\n"
 	.string "Da ist kein Luftstrom! Ehrlich!$"
+#else
+	.string "A POKé BALL was too heavy to lift\n"
+	.string "psychically. But this dust bunny…\p"
+	.string "Whoooooooooooooooh!\n"
+	.string "… … … … … …\p"
+	.string "No, I'm not cheating!\n"
+	.string "I didn't blow on it! Honestly!$"
+#endif
 
 MossdeepCity_Gym_Text_HannahIntro:
+#if GERMAN
 	.string "Solltest du gegen mich verlieren,\n"
 	.string "darfst du dir das nicht so zu Herzen\l"
 	.string "nehmen.\p"
 	.string "Du bist nicht zu schwach - ich bin nur\n"
 	.string "zu stark für dich!$"
+#else
+	.string "When you lose to me, don't be too hard\n"
+	.string "on yourself.\p"
+	.string "It's not that you're weak--I'm just\n"
+	.string "too strong!$"
+#endif
 
 MossdeepCity_Gym_Text_HannahDefeat:
+#if GERMAN
 	.string "Du bist nur zu stark für mich!$"
+#else
+	.string "You're just too strong!$"
+#endif
 
 MossdeepCity_Gym_Text_HannahPostBattle:
+#if GERMAN
 	.string "Ich lasse mich von dieser Niederlage\n"
 	.string "nicht herunterziehen. Ich werde härter\l"
 	.string "trainieren.\p"
 	.string "Positives Denken - das ist meine\n"
 	.string "Stärke!$"
+#else
+	.string "I'm not going to get down on myself for\n"
+	.string "losing. I just need to train harder.\p"
+	.string "Positive thinking--that's my strong\n"
+	.string "point!$"
+#endif
 
 MossdeepCity_Gym_Text_SamanthaIntro:
+#if GERMAN
 	.string "Ich kann sie sehen…\n"
 	.string "Ich sehe deine Zukunft…\p"
 	.string "Wenn du mich besiegen kannst, sage ich\n"
 	.string "dir deine Zukunft voraus.$"
+#else
+	.string "I see it…\n"
+	.string "I see your future…\p"
+	.string "If you can beat me, I will tell you\n"
+	.string "your future!$"
+#endif
 
 MossdeepCity_Gym_Text_SamanthaDefeat:
+#if GERMAN
 	.string "Ich ergebe mich!$"
+#else
+	.string "I surrender!$"
+#endif
 
 MossdeepCity_Gym_Text_SamanthaPostBattle:
+#if GERMAN
 	.string "Du wirst einen irrsinnigen Kampf gegen\n"
 	.string "unsere Arenaleiter führen…\p"
 	.string "Der Ausgang dieses Kampfes…\n"
 	.string "Meine Lippen sind versiegelt.$"
+#else
+	.string "You will wage a terrifically intense\n"
+	.string "battle with our GYM LEADERS…\p"
+	.string "The result…\n"
+	.string "You won't hear it from me!$"
+#endif
 
 MossdeepCity_Gym_Text_MauraIntro:
+#if GERMAN
 	.string "Die Straßen, die du gewandert bist…\n"
 	.string "Das, was du erfahren hast…\p"
 	.string "Leg mir alles, was du gelernt hast,\n"
 	.string "zu Füßen.$"
+#else
+	.string "The roads you have traveled…\n"
+	.string "What you have experienced…\p"
+	.string "Come at me with everything you've\n"
+	.string "learned!$"
+#endif
 
 MossdeepCity_Gym_Text_MauraDefeat:
+#if GERMAN
 	.string "Du wandelst auf dem Pfad der Größe!$"
+#else
+	.string "You've traveled a path of greatness!$"
+#endif
 
 MossdeepCity_Gym_Text_MauraPostBattle:
+#if GERMAN
 	.string "Eine glänzende Zukunft erwartet die,\n"
 	.string "die fleißig sind.\p"
 	.string "Die, die dem Müßiggang frönen,\n"
 	.string "erwartet am Ende des Weges nur die\n"
 	.string "Verzweiflung. \p"
 	.string "Man erntet das, was man sät.$"
+#else
+	.string "A bright future awaits those who have\n"
+	.string "worked diligently.\p"
+	.string "For those who lazed idly, there is\n"
+	.string "only despair at the end.\p"
+	.string "What goes around comes around…$"
+#endif
 
 MossdeepCity_Gym_Text_SylviaIntro:
+#if GERMAN
 	.string "Auch wenn ich dabei mein Leben aufs\n"
 	.string "Spiel setze - ich werde den Kampf\l"
 	.string "gewinnen!$"
+#else
+	.string "Even at the risk of life, I will win\n"
+	.string "this battle!$"
+#endif
 
 MossdeepCity_Gym_Text_SylviaDefeat:
+#if GERMAN
 	.string "Was du da machst…\n"
 	.string "Das macht mir Angst…$"
+#else
+	.string "What you do…\n"
+	.string "It horrifies me…$"
+#endif
 
 MossdeepCity_Gym_Text_SylviaPostBattle:
+#if GERMAN
 	.string "Wie konntest du es wagen, mich zu\n"
 	.string "besiegen…\p"
 	.string "Es ist nicht meine Schuld, wenn dir\n"
 	.string "bald etwas Schreckliches passiert…$"
+#else
+	.string "How dare you beat me…\p"
+	.string "It won't be my fault if something\n"
+	.string "horrible befalls you…$"
+#endif
 
 MossdeepCity_Gym_Text_NateIntro:
+#if GERMAN
 	.string "Hohoho.\p"
 	.string "Du lässt mir keine andere Wahl. Ich\n"
 	.string "werde dir zeigen, wie zäh Psycho-\l"
 	.string "Pokémon sind.$"
+#else
+	.string "Hohoho.\p"
+	.string "You need me to show you how tenacious\n"
+	.string "the PSYCHIC type can be.$"
+#endif
 
 MossdeepCity_Gym_Text_NateDefeat:
+#if GERMAN
 	.string "Oh! Meine Güte!\n"
 	.string "Dein Kampfstil ist einfach\l"
 	.string "fantastisch!$"
+#else
+	.string "Oh! My, my!\n"
+	.string "Your battle style is fantastic!$"
+#endif
 
 MossdeepCity_Gym_Text_NatePostBattle:
+#if GERMAN
 	.string "Ich… lasse mich durch eine Niederlage\n"
 	.string "nicht aus der Ruhe bringen.$"
+#else
+	.string "I… I don't let defeat rattle m-me,\n"
+	.string "however b-badly.$"
+#endif
 
 MossdeepCity_Gym_Text_KathleenIntro:
+#if GERMAN
 	.string "Ich werde dir eine wunderbar\n"
 	.string "schreckliche und gruselige Zeit\l"
 	.string "bereiten.$"
+#else
+	.string "Let me show you a perfectly awful,\n"
+	.string "horrifying time!$"
+#endif
 
 MossdeepCity_Gym_Text_KathleenDefeat:
+#if GERMAN
 	.string "NnnneeeeeiiiinnnnN!$"
+#else
+	.string "N-nooooo!$"
+#endif
 
 MossdeepCity_Gym_Text_KathleenPostBattle:
+#if GERMAN
 	.string "Deine Dynamik ist mit Sicherheit\n"
 	.string "ansteckend! Geh schnell weg!$"
+#else
+	.string "Your vitality is contagious!\n"
+	.string "Get away from me quickly!$"
+#endif
 
 MossdeepCity_Gym_Text_CliffordIntro:
+#if GERMAN
 	.string "Ich mag meine beste Zeit gesehen\n"
 	.string "haben, aber ich lasse mich von dir\n"
 	.string "nicht\l"
 	.string "bevormunden.$"
+#else
+	.string "I may be past my prime, but I suggest\n"
+	.string "you not patronize me.$"
+#endif
 
 MossdeepCity_Gym_Text_CliffordDefeat:
+#if GERMAN
 	.string "Ah, deine jugendliche Energie strömt\n"
 	.string "nur so aus dir heraus.$"
+#else
+	.string "Ah, you overflow with the power\n"
+	.string "of youth!$"
+#endif
 
 MossdeepCity_Gym_Text_CliffordPostBattle:
+#if GERMAN
 	.string "Gegen deine jugendliche Energie habe\n"
 	.string "ich keine Chance.$"
+#else
+	.string "It seems that I could not overcome\n"
+	.string "your youthful energy.$"
+#endif
 
 MossdeepCity_Gym_Text_MaceyIntro:
+#if GERMAN
 	.string "Du wirst den Weg nicht zu Ende gehen!\n"
 	.string "Nicht, wenn ich mich dir in den Weg\l"
 	.string "stellen kann.$"
+#else
+	.string "You're not getting through to the end!\n"
+	.string "Not if I can help it!$"
+#endif
 
 MossdeepCity_Gym_Text_MaceyDefeat:
+#if GERMAN
 	.string "Wie kann man nur so stark sein wie du?\n"
 	.string "Lächerlich!$"
+#else
+	.string "How could you be so ludicrously\n"
+	.string "strong?$"
+#endif
 
 MossdeepCity_Gym_Text_MaceyPostBattle:
+#if GERMAN
 	.string "Hmpf! Du magst ja stark sein, aber mit\n"
 	.string "Psycho-Pokémon kommst du nicht\l"
 	.string "zurecht!\p"
 	.string "Du hast einen recht brutalen\n"
 	.string "Kampfstil.$"
+#else
+	.string "Humph! You may be strong, but you're\n"
+	.string "not suitable for the PSYCHIC type!\p"
+	.string "The way you battle is somehow brutal!$"
+#endif
 
 MossdeepCity_Gym_Text_NicholasIntro:
+#if GERMAN
 	.string "Wroooaaar! Schmeck die Superkraft\n"
 	.string "meines Pokémon!$"
+#else
+	.string "Wroooar! Have a taste of my super\n"
+	.string "POKéMON hard-battling power!$"
+#endif
 
 MossdeepCity_Gym_Text_NicholasDefeat:
+#if GERMAN
 	.string "Oh! Das war’s dann wohl.$"
+#else
+	.string "Oh!\n"
+	.string "Done in!$"
+#endif
 
 MossdeepCity_Gym_Text_NicholasPostBattle:
+#if GERMAN
 	.string "Gut! Ich glaube, ich sollte eine un-\n"
 	.string "schlagbare Pokémon-Kraft entwickeln.$"
+#else
+	.string "All right! I think I'll develop a special\n"
+	.string "invincible POKéMON power next.$"
+#endif
 
 MossdeepCity_Gym_Text_TateAndLizaIntro:
+#if GERMAN
 	.string "Ben: Hähähä… Bist du überrascht?\p"
 	.string "Svenja: Hihihi… Bist du überrascht?\p"
 	.string "Ben: Dass es hier 2 Arenaleiter gibt?\n"
@@ -577,27 +797,62 @@ MossdeepCity_Gym_Text_TateAndLizaIntro:
 	.string "Svenja: Gedankenübertragung!\p"
 	.string "Ben: Diese doppelte Stärke…\n"
 	.string "Svenja: Kannst du sie besiegen?$"
+#else
+	.string "TATE: Hehehe… Were you surprised?\p"
+	.string "LIZA: Fufufu… Were you surprised?\p"
+	.string "TATE: That there are two GYM LEADERS?\n"
+	.string "LIZA: That there are two GYM LEADERS?\p"
+	.string "TATE: We're twins!\n"
+	.string "LIZA: We're twins!\p"
+	.string "TATE: We don't need to talk because…\n"
+	.string "LIZA: We can each determine what…\p"
+	.string "TATE: The other is thinking…\n"
+	.string "LIZA: All in our minds!\p"
+	.string "TATE: This combination of ours…\n"
+	.string "LIZA: Can you beat it?$"
+#endif
 
 MossdeepCity_Gym_Text_TateAndLizaDefeat:
+#if GERMAN
 	.string "Ben: Was?!? Unsere Kombination…\n"
 	.string "Svenja: Wurde auseinander gerissen!\p"
 	.string "Ben: So sieht’s aus. Du hast gewonnen.\n"
 	.string "Svenja: Daher überreichen wir dir\l"
 	.string "dies.$"
+#else
+	.string "TATE: What?! Our combination…\n"
+	.string "LIZA: Was shattered!\p"
+	.string "TATE: It can't be helped. You've won…\n"
+	.string "LIZA: So, in recognition, take this.$"
+#endif
 
 MossdeepCity_Gym_Text_ReceivedMindBadge:
+#if GERMAN
 	.string "{PLAYER} erhält den Mentalorden von\n"
 	.string "Svenja und Ben.$"
+#else
+	.string "{PLAYER} received the MIND BADGE\n"
+	.string "from TATE and LIZA.$"
+#endif
 
 MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
+#if GERMAN
 	.string "Ben: Der Mentalorden erhöht den SP.\n"
 	.string "ANG. und die SP. Ver. von Pokémon.\p"
 	.string "Svenja: Und du kannst damit die VM\n"
 	.string "Taucher außerhalb eines Kampfes\l"
 	.string "einsetzen.\p"
 	.string "Ben: Dies ist ebenfalls für dich.$"
+#else
+	.string "TATE: The MIND BADGE enhances the\n"
+	.string "SP. ATK and SP. DEF of POKéMON.\p"
+	.string "LIZA: It also lets you use the HM move\n"
+	.string "DIVE outside of battle.\p"
+	.string "TATE: You should also take this, too.$"
+#endif
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
+#if GERMAN
 	.string "Ben: TM04 enthält…\n"
 	.string "Svenja: Gedankengut!\p"
 	.string "Ben: Dies erhöht den SP. ANG. und…\n"
@@ -605,20 +860,43 @@ MossdeepCity_Gym_Text_ExplainCalmMind:
 	.string "Ben: Eine Attacke, die perfekt…\n"
 	.string "Svenja: Für Psycho-Pokémon ist!\p"
 	.string "… … … … … …$"
+#else
+	.string "TATE: That TM04 contains…\n"
+	.string "LIZA: CALM MIND!\p"
+	.string "TATE: It raises SP. ATK and…\n"
+	.string "LIZA: It raises SP. DEF!\p"
+	.string "TATE: It's a move that's perfect…\n"
+	.string "LIZA: For PSYCHIC POKéMON!\p"
+	.string "… … … … … …$"
+#endif
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:
+#if GERMAN
 	.string "Arenaleiter Ben und Svenja wurden im\n"
 	.string "Pokénav-Verzeichnis eingetragen.$"
+#else
+	.string "Registered GYM LEADERS TATE & LIZA\n"
+	.string "in the POKéNAV.$"
+#endif
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle:
+#if GERMAN
 	.string "Ben: Es scheint, als sei das Band\n"
 	.string "zwischen dir und deinen Pokémon viel\l"
 	.string "stärker als zwischen uns Zwillingen.\p"
 	.string "Svenja: Und du wirst noch stärker\n"
 	.string "werden! Wir haben gegen dich gekämpft,\l"
 	.string "daher können wir das vorhersagen.$"
+#else
+	.string "TATE: Looks like the bond between you\n"
+	.string "and your POKéMON is far stronger than\l"
+	.string "the bond that we share as twins.\p"
+	.string "LIZA: You will become even stronger!\n"
+	.string "We've battled you, so we know.$"
+#endif
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
+#if GERMAN
 	.string "Ben: Hähähä… Bist du überrascht?\p"
 	.string "Svenja: Dass es hier 2 Arenaleiter\n"
 	.string "gibt?\p"
@@ -628,16 +906,36 @@ MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
 	.string "Svenja: Wenn du uns herausfordern\n"
 	.string "willst, dann musst du mehr Pokémon\l"
 	.string "haben.$"
+#else
+	.string "TATE: Hehehe… Were you surprised?\p"
+	.string "LIZA: That there are two GYM LEADERS?\p"
+	.string "TATE: Oops, you have only one…\n"
+	.string "LIZA: POKéMON that can battle.\p"
+	.string "TATE: We can't battle that way!\p"
+	.string "LIZA: If you want to challenge us,\n"
+	.string "bring some more POKéMON.$"
+#endif
 
 MossdeepCity_Gym_Text_GymStatue:
+#if GERMAN
 	.string "Pokémon Arena von Moosbach City$"
+#else
+	.string "MOSSDEEP CITY POKéMON GYM$"
+#endif
 
 MossdeepCity_Gym_Text_GymStatueCertified:
+#if GERMAN
 	.string "Pokémon Arena von Moosbach City\p"
 	.string "Svenja und Bens anerkannte Trainer:\n"
 	.string "{PLAYER}$"
+#else
+	.string "MOSSDEEP CITY POKéMON GYM\p"
+	.string "LIZA AND TATE'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
+#endif
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch:
+#if GERMAN
 	.string "Ben: Pokémon…\n"
 	.string "Svenja: Pokémon…\p"
 	.string "Ben: Die Zusammensetzung des Teams…\n"
@@ -648,19 +946,44 @@ MossdeepCity_Gym_Text_TateAndLizaPreRematch:
 	.string "Svenja: Kämpfe nur zusammen mit Ben!\p"
 	.string "Ben: Diese Kombination…\n"
 	.string "Svenja: Wirst du immer wieder sehen!$"
+#else
+	.string "TATE: POKéMON…\n"
+	.string "LIZA: POKéMON…\p"
+	.string "TATE: By changing the party's mix…\n"
+	.string "LIZA: The battle style changes.\p"
+	.string "TATE: But me…\n"
+	.string "LIZA: But me…\p"
+	.string "TATE: I'll always be with LIZA!\n"
+	.string "LIZA: I'll always be with TATE!\p"
+	.string "TATE: Our combination…\n"
+	.string "LIZA: We'll show you again and again!$"
+#endif
 
 MossdeepCity_Gym_Text_TateAndLizaRematchDefeat:
+#if GERMAN
 	.string "Ben: Du und deine Pokémon…\n"
 	.string "Svenja: Seid wie Geschwister! $"
+#else
+	.string "TATE: You and your POKéMON…\n"
+	.string "LIZA: It's as if you were siblings!$"
+#endif
 
 MossdeepCity_Gym_Text_TateAndLizaPostRematch:
+#if GERMAN
 	.string "Ben: Du magst uns besiegen, aber wir\n"
 	.string "werden nicht am Boden liegen bleiben!\n"
 	.string "\p"
 	.string "Svenja: Denn wir beide werden immer\n"
 	.string "füreinander da sein!$"
+#else
+	.string "TATE: You can knock us down,\n"
+	.string "but we'll never stay down!\p"
+	.string "LIZA: Because the two of us,\n"
+	.string "we always support each other!$"
+#endif
 
 MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
+#if GERMAN
 	.string "Ben: Du bist zurückgekommen…\n"
 	.string "Svenja: Du bist zurückgekommen…\p"
 	.string "Ben: Um erneut gegen uns anzutreten.\n"
@@ -673,3 +996,15 @@ MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
 	.string "dabei! \p"
 	.string "Ben: Du musst mindestens zwei…\n"
 	.string "Svenja: Pokémon haben.$"
+#else
+	.string "TATE: You're back again…\n"
+	.string "LIZA: You're back again…\p"
+	.string "TATE: To give us a rematch.\n"
+	.string "LIZA: To give us a rematch.\p"
+	.string "TATE: But…\n"
+	.string "LIZA: For our match…\p"
+	.string "TATE: You brought just one POKéMON!\n"
+	.string "LIZA: You brought just one POKéMON!\p"
+	.string "TATE: We need you to bring at least…\n"
+	.string "LIZA: Two POKéMON when you come back.$"
+#endif

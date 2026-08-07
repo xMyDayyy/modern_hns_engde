@@ -34,15 +34,27 @@ Route49_EventScript_SkylarAfter::
 	end
 
 Route49_Text_SkylarDefeat:
+#if GERMAN
 	.string "Na gut, du kannst die Tafel haben.$"
+#else
+	.string "OKAY, you can have the PLATE.$"
+#endif
 
 Route49_Text_SkylarAfter:
+#if GERMAN
 	.string "So cool die Tafel auch ist -\n"
 	.string "du hast sie dir ehrlich verdient.\p"
 	.string "Dann kaufe ich mir eben etwas im\n"
 	.string "Souvenirladen.$"
+#else
+	.string "As cool as that PLATE is,\n"
+	.string "you earned it fair and square.\p"
+	.string "I'll just buy something at the gift\n"
+	.string "shop instead.$"
+#endif
 
 Route49_Text_SkylarBeforeBattle:
+#if GERMAN
 	.string "Was?\p"
 	.string "Du willst die Tafel haben?\n"
 	.string "Sie ist ein Artefakt voll uralter\l"
@@ -52,8 +64,19 @@ Route49_Text_SkylarBeforeBattle:
 	.string "Also gut.\p"
 	.string "Du musst schon gegen mich kämpfen,\n"
 	.string "wenn du sie willst.$"
+#else
+	.string "What?\p"
+	.string "You want the PLATE?\n"
+	.string "It's an artifact imbued with an\l"
+	.string "ancient power with a connection\l"
+	.string "to the legendary POKéMON?!\p"
+	.string "Well now I'm definitely keeping it.\p"
+	.string "Fine.\p"
+	.string "You'll just have to battle me for it.$"
+#endif
 
 Route49_Text_SkylarBefore:
+#if GERMAN
 	.string "Als ich die Piste runtergebrettert\n"
 	.string "bin, sind meine Skier an etwas\l"
 	.string "hängen geblieben.\p"
@@ -61,16 +84,29 @@ Route49_Text_SkylarBefore:
 	.string "Tafel.\p"
 	.string "Ich glaube, ich behalte sie als\n"
 	.string "Andenken!$"
+#else
+	.string "When I was hitting the slopes, my\n"
+	.string "skis snagged on something.\p"
+	.string "It was this strange SKY-blue PLATE.\p"
+	.string "I think I'll hold onto it as a\n"
+	.string "souvenir!$"
+#endif
 
 Route49_EventScript_SkierM::
 	msgbox Route49_Text_SkierM, MSGBOX_NPC
 	end
 
 Route49_Text_SkierM::
+#if GERMAN
 	.string "Hey, pass auf mein Board auf!\p"
 	.string "Was? Du willst kämpfen?\n"
 	.string "Kommt nicht infrage, diese Pisten\l"
 	.string "sind viel zu heftig!$"
+#else
+	.string "Hey, watch out for my board!\p"
+	.string "What? You want to battle?\n"
+	.string "No way, these slopes are too wicked!$"
+#endif
 
 Route49_EventScripts_KimonoGirl::
     delay 10
@@ -118,15 +154,26 @@ Route49_KimonoGitl_Movement2:
 	step_end
 
 Route49_Text_KimonoGirl:
+#if GERMAN
 	.string "Du…\p"
 	.string "Du musst {PLAYER} sein, richtig?\n"
 	.string "Ich habe von meinen Cousinen in\l"
-	.string "Teak City alles über dich und\l"
+	.string "{COLOR RED}Teak City{COLOR DARK_GRAY} alles über dich und\l"
 	.string "deine Taten gehört.\p"
 	.string "Meine Schwestern möchten dich\n"
 	.string "treffen.\p"
 	.string "Wenn du Zeit findest, suche uns\n"
 	.string "bitte im Dorf weiter vorne auf.$"
+#else
+    .string "You....\p"
+	.string "You must be {PLAYER}, correct?\n"
+    .string "I've heard all about you and\l"
+	.string "your deeds from my cousins\l"
+	.string "in Ecruteak City.\p"
+	.string "My sisters wish to meet with you.\l"
+	.string "If you find the time, please\n"
+	.string "seek us out in the town up ahead.$"
+#endif
 
 Route49_EventScript_Item_StarDust::
     finditem ITEM_STARDUST
@@ -141,8 +188,13 @@ Route49_EventScript_Sign::
     end
 
 Route49_Text_Sign:
+#if GERMAN
 	.string "Das Schild ist verblasst.\n"
 	.string "Route 49$"
+#else
+    .string "The sign is faded.\n"
+    .string "ROUTE 49$"
+#endif
 
 Route49_EventScript_ActivateOverqwil::
     lock

@@ -14,6 +14,7 @@ BattleFrontier_Lounge8_EventScript_NinjaBoy::
 	end
 
 BattleFrontier_Lounge8_Text_WhatATrainerNeeds:
+#if GERMAN
 	.string "Was braucht ein Trainer?\p"
 	.string "Kenntnis… Strategie…\l"
 	.string "Ein glückliches Los…\l"
@@ -26,15 +27,38 @@ BattleFrontier_Lounge8_Text_WhatATrainerNeeds:
 	.string "sein!\p"
 	.string "Was? Pokémon?!?\n"
 	.string "Was ist das denn? Kann man das essen?$"
+#else
+	.string "What a TRAINER needs…\p"
+	.string "Knowledge…\n"
+	.string "Strategy…\l"
+	.string "Luck…\l"
+	.string "Guts…\l"
+	.string "Spirit…\l"
+	.string "Bravery…\l"
+	.string "And ability…\p"
+	.string "Well, I'm all set in every way!\n"
+	.string "I'll be unstoppable at every building!\p"
+	.string "Huh? POKéMON?\n"
+	.string "What's that?$"
+#endif
 
 BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains:
+#if GERMAN
 	.string "Hast du schon mal was über die\n"
 	.string "Kampfkoryphäen gehört?\p"
 	.string "So nennt Scott die sieben Trainer,\n"
 	.string "die die sieben Einrichtungen der\l"
 	.string "Kampfzone leiten.$"
+#else
+	.string "Do you know about the FRONTIER\n"
+	.string "BRAINS?\p"
+	.string "That's what SCOTT calls the seven\n"
+	.string "special TRAINERS that run the seven\l"
+	.string "facilities in the BATTLE FRONTIER.$"
+#endif
 
 BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling:
+#if GERMAN
 	.string "Im Duellturm hat mir ein älteres\n"
 	.string "Mädchen gesagt, dass ich sehr viel\l"
 	.string "Talent für’s Kämpfen habe!\p"
@@ -45,4 +69,13 @@ BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling:
 	.string "Ob man auch für etwas Talent haben\n"
 	.string "kann, obwohl man was anderes lieber\l"
 	.string "mag?$"
+#else
+	.string "At the BATTLE TOWER, an older girl\n"
+	.string "told me that I have a lot of talent\l"
+	.string "for battling!\p"
+	.string "I like POKéMON CONTESTS more!\p"
+	.string "But I'm no good at CONTESTS!\p"
+	.string "I guess having talent and liking\n"
+	.string "something aren't the same.$"
+#endif
 

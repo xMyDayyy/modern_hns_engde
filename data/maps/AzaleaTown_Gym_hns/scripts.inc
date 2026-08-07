@@ -659,15 +659,26 @@ AzaleaTown_Gym_EventScript_Statue2::
 	end
 
 AzaleaTown_Gym_Text_GymStatue:
+#if GERMAN
 	.string "Azalea City Pokémon-Arena$"
+#else
+	.string "AZALEA POKéMON GYM$"
+#endif
 
 AzaleaTown_Gym_Text_GymStatueCertified:
+#if GERMAN
 	.string "Pokémon-Arena von Azalea City\p"
 	.string "Leiter: Kai\n"
 	.string "Anerkannte Trainer:\p"
 	.string "{PLAYER}$"
+#else
+	.string "AZALEA TOWN POKéMON GYM\p"
+	.string "BUGSY'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
+#endif
 
 AzaleaTown_Gym_Text_BugsyIntro:
+#if GERMAN
 	.string "Kai: Mein Name ist Kai! Wenn es um\n"
 	.string "Pokémon geht, macht mir keiner was vor!\p"
 	.string "Irgendwann werde ich mal ein berühmter\n"
@@ -675,20 +686,46 @@ AzaleaTown_Gym_Text_BugsyIntro:
 	.string "Käfer-Pokémon!\p"
 	.string "Lass mich dir eine Kostprobe meiner\n"
 	.string "Forschungsergebnisse geben!$"
+#else
+	.string "I'm BUGSY!\p"
+	.string "I never lose when it comes\n"
+	.string "to bug POKéMON.\p"
+	.string "My research is going to make me the\n"
+	.string "authority on bug POKéMON!\p"
+	.string "For example, did you know\n"
+	.string "that the move CUT is\l"
+	.string "actually a BUG-type move?\p"
+	.string "Let me demonstrate all I've\n"
+	.string "learned from my studies.$"
+#endif
 
 AzaleaTown_Gym_Text_BugsyBeaten:
+#if GERMAN
 	.string "Kai: Wow, das war unglaublich! Du weißt\n"
 	.string "wirklich gut über Pokémon Bescheid!\p"
 	.string "Mannomann… Wie’s aussieht, habe ich\n"
 	.string "noch sehr viel zu lernen!\p"
 	.string "Aber gut, jetzt erst mal weiter im Text!\n"
 	.string "Hier hast du deinen Orden!$"
+#else
+	.string "Whoa, amazing! You're an\n"
+	.string "expert on POKéMON!\p"
+	.string "My research isn't complete\n"
+	.string "yet.\p"
+	.string "OK, you win. Take this\n"
+	.string "BADGE.$"
+#endif
 
 AzaleaTown_Gym_Text_ReceivedHiveBadge:
+#if GERMAN
 	.string "{PLAYER} erhält den\n"
 	.string "Insektorden!$"
+#else
+	.string "{PLAYER} received HIVEBADGE.$"
+#endif
 
 AzaleaTown_Gym_Text_HiveBadgeSpeech:
+#if GERMAN
 	.string "Kai: Weißt du schon, welche Vorzüge du\n"
 	.string "mit dem Insektorden genießt?\p"
 	.string "Mit ihm gehorchen dir alle Pokémon bis\n"
@@ -698,15 +735,36 @@ AzaleaTown_Gym_Text_HiveBadgeSpeech:
 	.string "nun möglich, diese jetzt auch außerhalb\l"
 	.string "von Kämpfen zum Einsatz zu bringen!\p"
 	.string "Oh, und das hier sollst du auch haben!$"
+#else
+	.string "Do you know the benefits\n"
+	.string "of HIVEBADGE?\p"
+	.string "If you have it, POKéMON up\n"
+	.string "to L30 will obey you,\l"
+	.string "even traded ones.\p"
+	.string "POKéMON that know CUT will be able\n"
+	.string "to use it outside of battle too.\p"
+	.string "Here, I also want you to\n"
+	.string "have this.$"
+#endif
 
 AzaleaTown_Gym_Text_FuryCutterSpeech:
+#if GERMAN
 	.string "Kai: Die TM89 enthält Kehrtwende!\p"
 	.string "Setzt ein Pokémon diese Attacke im\n"
 	.string "Kampf ein, wird es mit einem anderen\l"
 	.string "aus deinem Team ausgetauscht!\p"
 	.string "Ist das nicht toll?$"
+#else
+	.string "TM89 contains U-TURN.\p"
+	.string "U-TURN lets you do damage and\n"
+	.string "switch your POKéMON in the same\l"
+	.string "turn!\p"
+	.string "Isn't that great?\n"
+	.string "I discovered it!$"
+#endif
 
 AzaleaTown_Gym_Text_BugsyAdvice:
+#if GERMAN
 	.string "Kai: Käfer-Pokémon sind ein weites\n"
 	.string "Feld. Es gibt noch jede Menge zu\l"
 	.string "erforschen.\p"
@@ -714,91 +772,194 @@ AzaleaTown_Gym_Text_BugsyAdvice:
 	.string "Pokémon gibt, den du besonders gerne\l"
 	.string "magst, solltest du ihn gründlichst\l"
 	.string "studieren!$"
+#else
+	.string "Bug POKéMON are deep. There are\n"
+	.string "many mysteries to be explored.\p"
+	.string "Study your favorites thoroughly.$"
+#endif
 
 AzaleaTown_Gym_Text_BugsyRematch:
+#if GERMAN
 	.string "Wow, du bist Johto-Champion!\p"
 	.string "Du hast außerordentliche Fähigkeiten!\p"
 	.string "Ich war beschäftigt mit Studien.\p"
 	.string "Lass mich dir meine Entdeckungen\n"
 	.string "zeigen.\p"
 	.string "Bist du bereit zu kämpfen?$"
+#else
+	.string "Wow, you're the JOHTO CHAMPION now!\p"
+	.string "Your skills are truly impressive!\p"
+	.string "I've been busy with my research.\p"
+	.string "I'm ready to show you my new\n"
+	.string "findings.\p"
+	.string "Want to have a rematch with me?$"
+#endif
 
 AzaleaTown_Gym_Text_BugsyRematchDefeat:
+#if GERMAN
 	.string "Wow, du bist ein Experte.\n"
 	.string "Meine Studien gehen wohl weiter…$"
+#else
+	.string "Wow, you must be an expert trainer.\n"
+	.string "My research must not be complete...$"
+#endif
 
 AzaleaTown_Gym_Text_BugCatcherBennySeen:
+#if GERMAN
 	.string "Käfer-Pokémon entwickeln sich\n"
 	.string "sehr früh. Das heißt, dass sie auch\l"
 	.string "schnell stärker werden.$"
+#else
+	.string "Bug POKéMON evolve young. So they\n"
+	.string "get stronger that much faster.$"
+#endif
 
 AzaleaTown_Gym_Text_BugCatcherBennyBeaten:
+#if GERMAN
 	.string "Weit entwickelte Pokémon allein sind\n"
 	.string "wohl nicht genug!$"
+#else
+	.string "Just evolving isn't enough!$"
+#endif
 
 AzaleaTown_Gym_Text_BugCatcherBennyAfter:
+#if GERMAN
 	.string "Pokémon werden stärker,\n"
 	.string "wenn sie sich entwickeln. Wirklich!$"
+#else
+	.string "POKéMON become stronger\n"
+	.string "if they evolve. Really!$"
+#endif
 
 AzaleaTown_Gym_Text_BugCatcherAlSeen:
+#if GERMAN
 	.string "Käfer-Pokémon sind cool und tough!\n"
 	.string "Ich beweise es dir!$"
+#else
+	.string "Bug POKéMON are cool and tough!\n"
+	.string "I'll prove it to you!$"
+#endif
 
 AzaleaTown_Gym_Text_BugCatcherAlBeaten:
+#if GERMAN
 	.string "Du hast bewiesen,\n"
 	.string "wie zäh du bist.$"
+#else
+	.string "You proved how tough you are…$"
+#endif
 
 AzaleaTown_Gym_Text_BugCatcherAlAfter:
+#if GERMAN
 	.string "Sie sind so cool, aber die meisten\n"
 	.string "Mädchen mögen keine Käfer-Pokémon.\p"
 	.string "Ich weiß nicht warum…$"
+#else
+	.string "They're so cool, but most girls\n"
+	.string "don't like bug POKéMON.\p"
+	.string "I don't know why…$"
+#endif
 
 AzaleaTown_Gym_Text_BugCatcherJoshSeen:
+#if GERMAN
 	.string "Du hast die Flegmon gerettet? Alle\n"
 	.string "Achtung, nicht von schlechten Eltern!\p"
 	.string "Aber meine ausgewachsenen Pokémon\n"
 	.string "sind auch sehr stark!$"
+#else
+	.string "You saved all the SLOWPOKE?\n"
+	.string "Whew, you're mighty!\p"
+	.string "But my grown-up POKéMON are\n"
+	.string "pretty tough too!$"
+#endif
 
 AzaleaTown_Gym_Text_BugCatcherJoshBeaten:
+#if GERMAN
 	.string "Unnngh…$"
+#else
+	.string "Urrgggh!$"
+#endif
 
 AzaleaTown_Gym_Text_BugCatcherJoshAfter:
+#if GERMAN
 	.string "Vielleicht sollte ich sie\n"
 	.string "ein wenig besser trainieren…$"
+#else
+	.string "I guess I should teach them\n"
+	.string "better moves…$"
+#endif
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Seen:
+#if GERMAN
 	.string "Eva: Hi! Forderst du den Leiter\n"
 	.string "heraus? Unmöglich!$"
+#else
+	.string "AMY: Hi! Are you challenging\n"
+	.string "the LEADER? No way!$"
+#endif
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Beaten:
+#if GERMAN
 	.string "Eva & Ute: Oh, um Himmels\n"
 	.string "willen!$"
+#else
+	.string "AMY & MAY: Oh, double\n"
+	.string "goodness!$"
+#endif
 
 AzaleaTown_Gym_Text_TwinsAmyMay1After:
+#if GERMAN
 	.string "Eva: Du bist stark!\p"
 	.string "Aber Kai ist stärker!\n"
 	.string "Der Zerschneider seines Sichlor\l"
 	.string "trifft fast immer kritisch!$"
+#else
+	.string "AMY: You're really strong!\p"
+	.string "But BUGSY's even stronger!\n"
+	.string "His SCYTHER's CUT almost\l"
+	.string "always makes critical hits!$"
+#endif
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Seen:
+#if GERMAN
 	.string "Ute: Du willst den Leiter\n"
 	.string "sehen? Viel Glück!\p"
 	.string "Kai ist so stark!\n"
 	.string "Der Zerschneider seines Sichlor\l"
 	.string "trifft fast immer kritisch!$"
+#else
+	.string "MAY: You want to see the\n"
+	.string "LEADER? Good luck!\p"
+	.string "BUGSY is so strong!\n"
+	.string "His SCYTHER's CUT always\l"
+	.string "seems to crit!$"
+#endif
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Beaten:
+#if GERMAN
 	.string "Eva & Ute: Oh, um\n"
 	.string "Himmels willen!$"
+#else
+	.string "AMY & MAY: Oh, double\n"
+	.string "goodness!$"
+#endif
 
 AzaleaTown_Gym_Text_TwinsAmyMay2After:
+#if GERMAN
 	.string "Ute: Unsere Käfer haben verloren!\n"
 	.string "Oh, mann.\p"
 	.string "Kai wird nicht verlieren!\p"
 	.string "Sein Tannza hat keine Probleme\n"
 	.string "mit Gesteins-Pokémon!$"
+#else
+	.string "MAY: Our bug POKéMON lost!\n"
+	.string "Oh, what a shame.\p"
+	.string "BUGSY's won't lose though!\p"
+	.string "His PINECO makes short work\n"
+	.string "of ROCK-type POKéMON!$"
+#endif
 
 AzaleaTown_Gym_Text_GymGuide:
+#if GERMAN
 	.string "Yo, Herausforderer!\p"
 	.string "Kai ist jung, aber sein Wissen\n"
 	.string "über Käfer-Pokémon ist enorm.\p"
@@ -812,9 +973,30 @@ AzaleaTown_Gym_Text_GymGuide:
 	.string "als Käfer-Attacke.\p"
 	.string "Oh, vergiss nicht diese\n"
 	.string "kritischen Treffer. Viel Glück!$"
+#else
+	.string "Yo, challenger!\p"
+	.string "BUGSY's young, but his knowledge\n"
+	.string "of bug POKéMON is for real.\p"
+	.string "It's going to be tough\n"
+	.string "without my advice.\p"
+	.string "Let's see… BUGSY's bagworm POKéMON\n"
+	.string "knows a move that covers its\l"
+	.string "ROCK-type weakness.\p"
+	.string "He's also developed a new verison\n"
+	.string "of CUT that is BUG-type.\p"
+	.string "Oh, and don't forget about those\n"
+	.string "nasty critical hits! Good luck!$"
+#endif
 
 AzaleaTown_Gym_Text_GymGuideWin:
+#if GERMAN
 	.string "Nicht übel! Das war ein Musterkampf\n"
 	.string "zweier talentierter, junger Trainer!\p"
 	.string "Mit Leuten wie dir sieht die Zukunft\n"
 	.string "der Pokémon Liga rosig aus!$"
+#else
+	.string "Well done! That was a great\n"
+	.string "clash of talented young trainers.\p"
+	.string "With people like you, the\n"
+	.string "future of POKéMON is bright!$"
+#endif

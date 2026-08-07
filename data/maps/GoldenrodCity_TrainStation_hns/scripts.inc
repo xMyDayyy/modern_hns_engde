@@ -294,30 +294,63 @@ GoldenrodCity_TrainStation_Movement_SlideRight:
 	step_end
 
 GoldenrodMagnetTrainStation_Text_OfficerTrainHasntComeIn:
+#if GERMAN
 	.string "Es fahren keine Züge mehr!\p"
 	.string "Ich könnte alle Fahrgäste Huckepack\n"
 	.string "nehmen und sie auf meinem Rücken…\p"
 	.string "Aber wenn ich’s mir genau überlege…\n"
 	.string "Nein, besser doch nicht.$"
+#else
+    .string "The train hasn't come in…\p"
+    .string "I know! I'll carry the passengers\n"
+    .string "on my back!\p"
+    .string "That won't work.$"
+#endif
 
 GoldenrodMagnetTrainStation_Text_OfficerRightThisWay:
-	.string "Darf ich deinen Fahrschein sehen?\p"
+#if GERMAN
+	.string "Darf ich deinen {COLOR RED}Fahrschein{COLOR DARK_GRAY} sehen?\p"
 	.string "O.K. Bitte hier entlang.$"
+#else
+    .string "May I see your rail PASS, please?\p"
+    .string "OK. Right this way, please.$"
+#endif
 
 GoldenrodMagnetTrainStation_Text_OfficerNoRailPass:
+#if GERMAN
 	.string "Verzeihung, aber\n"
-	.string "du hast keinen Fahrschein.$"
+	.string "du hast keinen {COLOR RED}Fahrschein{COLOR DARK_GRAY}.$"
+#else
+    .string "Sorry. You don't have a rail PASS.$"
+#endif
 
 GoldenrodMagnetTrainStation_Text_GentlemanPresident:
+#if GERMAN
 	.string "Ich bin der Präsident.\p"
 	.string "Mein Traum war es, einen Zug zu bauen,\n"
 	.string "der schneller ist als jedes Pokémon.\p"
 	.string "Ich wollte, dass Johto und Kanto enger\n"
 	.string "zusammenwachsen!$"
+#else
+    .string "I'm the PRESIDENT.\p"
+    .string "My dream was to build a train that\n"
+    .string "is faster than any POKéMON.\p"
+    .string "It really brings JOHTO much closer\n"
+    .string "to KANTO.$"
+#endif
 
 GoldenrodCity_TrainStation_Text_Boy:
-	.string "Du hast einen Fahrschein für den\n"
+#if GERMAN
+	.string "Du hast einen {COLOR RED}Fahrschein{COLOR DARK_GRAY} für den\n"
 	.string "Magnetzug, oder?$"
+#else
+	.string "You brought the MAGNET TRAIN PASS,\n"
+	.string "right?$"
+#endif
 
 GoldenrodCity_TrainStation_Text_Psychic:
+#if GERMAN
 	.string "Ich dachte du hast ihn!$"
+#else
+	.string "I thought you had it!$"
+#endif

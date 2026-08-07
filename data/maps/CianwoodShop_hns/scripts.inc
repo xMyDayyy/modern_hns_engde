@@ -27,21 +27,41 @@ CianwoodCity_EventScript_PharmacistAfter::
 
 
 CianwoodCity_Text_PharmacistGivePotion:
+#if GERMAN
 	.string "Hm? Medizin willst du von mir?\p"
 	.string "Dein Pkmn-Team wirkt jetzt nicht gerade\n"
 	.string "schwerverletzt oder krank auf mich…\l"
 	.string "Wo drückt denn der Schuh?\p"
 	.string "… … …\p"
 	.string "Ach so, dann geht es hier also um das\n"
-	.string "Pokémon vom Leuchtturm! Na klar!\p"
+	.string "Pokémon vom {COLOR RED}Leuchtturm{COLOR DARK_GRAY}! Na klar!\p"
 	.string "Diese Medizin sollte genau das sein,\n"
 	.string "was du brauchst. Hier, nimm!$"
+#else
+	.string "Your POKéMON appear to be fine.\p"
+	.string "Is something worrying you?\p"
+	.string "…\p"
+	.string "The LIGHTHOUSE POKéMON is in\n"
+	.string "trouble?\p"
+	.string "I got it!\p"
+	.string "This ought to do the trick.$"
+#endif
 
 CianwoodCity_Text_ReceivedSecretpotion:
-	.string "{PLAYER} hat den Geheimtrank\n"
+#if GERMAN
+	.string "{PLAYER} hat den {COLOR RED}Geheimtrank{COLOR DARK_GRAY}\n"
 	.string "erhalten!$"
+#else
+	.string "{PLAYER} received SECRET POTION.$"
+#endif
 
 CianwoodCity_Text_PharmacistDescribePotion:
-	.string "Mein Geheimtrank ist etwas zu\n"
+#if GERMAN
+	.string "Mein {COLOR RED}Geheimtrank{COLOR DARK_GRAY} ist etwas zu\n"
 	.string "stark, deshalb gebe ich ihn nur\l"
 	.string "im Notfall.$"
+#else
+	.string "My SECRET POTION is a tad too\n"
+	.string "strong, so I only offer it in an\l"
+	.string "emergency.$"
+#endif

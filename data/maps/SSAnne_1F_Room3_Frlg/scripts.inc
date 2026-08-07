@@ -20,12 +20,26 @@ SSAnne_1F_Room3_EventScript_Wigglytuff::
 	end
 
 SSAnne_1F_Room3_Text_CruiseIsElegantAndCozy::
+#if GERMAN
 	.string "Ach, so eine Kreuzfahrt ist\n"
 	.string "wundervoll!$"
+#else
+	.string "A world cruise is so elegant yet\n"
+	.string "cozy!$"
+#endif
 
 SSAnne_1F_Room3_Text_AlwaysTravelWithWigglytuff::
+#if GERMAN
 	.string "Ich reise immer mit Knuddeluff!$"
+#else
+	.string "I always travel with WIGGLYTUFF.\n"
+	.string "I never leave home without it.$"
+#endif
 
 SSAnne_1F_Room3_Text_Wigglytuff::
+#if GERMAN
 	.string "Knuddeluff: Knuddel! Knuddel!$"
+#else
+	.string "WIGGLYTUFF: Puup pupuu!$"
+#endif
 

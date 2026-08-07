@@ -97,17 +97,38 @@ Movement_Bow::
 	step_end
 
 Text_WelcomeWantToHealPkmn_Frlg::
+#if GERMAN
 	.string "Willkommen im Pokémon-Center!\p"
 	.string "Wir heilen deine Pokémon und\n"
 	.string "machen sie wieder fit!$"
+#else
+	.string "Welcome to our POKéMON CENTER!\p"
+	.string "Would you like me to heal your\n"
+	.string "POKéMON back to perfect health?$"
+#endif
 
 Text_TakeYourPkmnForFewSeconds_Frlg::
+#if GERMAN
 	.string "Okay, ich nehme deine Pokémon für einen\n"
 	.string "Moment in meine Obhut.$"
+#else
+	.string "Okay, I'll take your POKéMON for a\n"
+	.string "few seconds.$"
+#endif
 
 Text_WeHopeToSeeYouAgain_Frlg::
+#if GERMAN
 	.string "Komm jederzeit wieder vorbei!$"
+#else
+	.string "We hope to see you again!$"
+#endif
 
 Text_RestoredPkmnToFullHealth_Frlg::
+#if GERMAN
 	.string "Danke!\n"
 	.string "Deine Pokémon sind wieder topfit!$"
+#else
+	.string "Thank you for waiting.\n"
+	.string "We've restored your POKéMON to\l"
+	.string "full health.$"
+#endif

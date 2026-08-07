@@ -32,48 +32,103 @@ AbandonedShip_Rooms_1F_EventScript_ThaliaRematch::
 	end
 
 AbandonedShip_Rooms_1F_Text_TakingALookAround:
+#if GERMAN
 	.string "Schiffe dieser Art sind sehr selten,\n"
 	.string "daher schaue ich mich hier gut um.\p"
 	.string "Hmhm… Da sind die anderen Kabinen…$"
+#else
+	.string "Ships of this sort are rare, so I'm\n"
+	.string "taking a look around.\p"
+	.string "Hmhm…\n"
+	.string "There appear to be other cabins…$"
+#endif
 
 AbandonedShip_Rooms_1F_Text_ThaliaIntro:
+#if GERMAN
 	.string "Was bringt dich hierher?\n"
 	.string "Das ist bestimmt die schiere Neugier.$"
+#else
+	.string "What on earth would compel you to\n"
+	.string "come here? You must be curious!$"
+#endif
 
 AbandonedShip_Rooms_1F_Text_ThaliaDefeat:
+#if GERMAN
 	.string "Nicht nur neugierig, sondern auch\n"
 	.string "stark…$"
+#else
+	.string "Not just curious, but also strong…$"
+#endif
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
+#if GERMAN
 	.string "Der Mann nebenan…\p"
 	.string "Er sagt, er habe nur einen Ausflug\n"
 	.string "hierher gemacht, aber Genaues\l"
 	.string "weiß ich auch nicht…$"
+#else
+	.string "The man next door…\p"
+	.string "He says he's just sightseeing,\n"
+	.string "but I don't know about that.$"
+#endif
 
 AbandonedShip_Rooms_1F_Text_ThaliaRegister:
+#if GERMAN
 	.string "Du bist so ein starker Trainer!\n"
 	.string "Ich werde dich zur Erinnerung im\l"
 	.string "Pokénav eintragen.$"
+#else
+	.string "You're such a tough TRAINER!\n"
+	.string "Let me register you as a memento!$"
+#endif
 
 AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro:
+#if GERMAN
 	.string "Was bringt dich hierher?\n"
 	.string "Das ist bestimmt die schiere Neugier.$"
+#else
+	.string "What on earth would compel you to\n"
+	.string "come back? You must really be curious!$"
+#endif
 
 AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat:
+#if GERMAN
 	.string "Bist du nicht ein bisschen zu stark?$"
+#else
+	.string "Aren't you too strong?$"
+#endif
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostRematch:
+#if GERMAN
 	.string "Ich bin sicher, der Mann hat was vor!\n"
 	.string "Der benimmt sich ganz eigenartig!$"
+#else
+	.string "I'm sure that man's up to something!\n"
+	.string "He just acts so suspiciously!$"
+#endif
 
 AbandonedShip_Rooms_1F_Text_DemetriusIntro:
+#if GERMAN
 	.string "Waaaah! Ich wurde entdeckt! Häh…$"
+#else
+	.string "Waaah!\n"
+	.string "I've been found! …Huh?$"
+#endif
 
 AbandonedShip_Rooms_1F_Text_DemetriusDefeat:
+#if GERMAN
 	.string "Oh, du bist ja gar nicht meine Mama!$"
+#else
+	.string "Oh, you're not my mom.$"
+#endif
 
 AbandonedShip_Rooms_1F_Text_DemetriusPostBattle:
+#if GERMAN
 	.string "Ich habe mich mit meiner Mama gezankt\n"
 	.string "und verstecke mich jetzt.\l"
 	.string "Verrat mich nicht!$"
+#else
+	.string "I'm in trouble with my mom, so I ran.\n"
+	.string "Keep it a secret where I am!$"
+#endif
 

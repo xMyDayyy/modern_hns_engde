@@ -91,72 +91,159 @@ Route20_EventScript_Headlocker::
 Route20_Text_Dennis:
 
 Route20_Text_Headlocker:
+#if GERMAN
 	.string "Auf dieser Route gibt es ein\n"
 	.string "seltenes Pokémon.\p"
 	.string "Manchmal trägt es auch einen\n"
 	.string "seltenen Entwicklungsstein.\p"
 	.string "Doppelt selten also!\p"
-	.string "Ich muss meinen Pokédex füllen,\n"
+	.string "Ich muss meinen {COLOR RED}Pokédex{COLOR DARK_GRAY} füllen,\n"
 	.string "darum angle ich hier schon Stunden!$"
+#else
+	.string "There's a rare POKéMON on this\n"
+	.string "route.\p"
+	.string "And sometimes it carries a rare\n"
+	.string "evolution item.\p"
+	.string "That's double rare!\p"
+	.string "I need to finish my POKéDEX, so\n"
+	.string "I've been fishing here for hours!$"
+#endif
 
 Route20_Text_Seel:
+#if GERMAN
 	.string "Jurob: Jurob Jurob!$"
+#else
+	.string "SEEL: Seel seel!$"
+#endif
 
 Route20_Text_Dewgong:
+#if GERMAN
 	.string "Jugong: Goooong!$"
+#else
+	.string "DEWGONG: Goooong!$"
+#endif
 
 Route20_Text_SeafoamSign:
+#if GERMAN
 	.string "Seeschauminseln$"
+#else
+	.string "SEAFOAM ISLANDS$"
+#endif
 
 Route20_Text_NicoleRegister:
+#if GERMAN
 	.string "Deine Pokémon schwimmen echt\n"
 	.string "schnell! Gib mir deine Nummer!$"
+#else
+	.string "Your POKéMON swims fast!\n"
+	.string "Let me get your number!$"
+#endif
 
 Route20_Text_NicoleRematchIntro:
+#if GERMAN
 	.string "Vom vielen Schwimmen sind meine\n"
 	.string "Pokémon stärker geworden! Los!$"
+#else
+	.string "All this swimming has made my\n"
+	.string "POKéMON stronger! Let's battle!$"
+#endif
 
 Route20_Text_NicoleRematchDefeat:
+#if GERMAN
 	.string "Schon wieder weggespült…$"
+#else
+	.string "Swept away again…$"
+#endif
 
 Route20_Text_NicolePostRematch:
+#if GERMAN
 	.string "Ob Sieg oder Niederlage, meine\n"
 	.string "Pokémon und ich werden fitter!$"
+#else
+	.string "Win or lose, I'm getting fit and\n"
+	.string "so are my POKéMON!$"
+#endif
 
 Route20_Text_SwimmerfNicoleSeen:
+#if GERMAN
 	.string "Im Wasser fühle ich mich so\n"
 	.string "wunderbar leicht.$"
+#else
+	.string "I feel so much lighter in water.$"
+#endif
 
 Route20_Text_SwimmerfNicoleBeaten:
+#if GERMAN
 	.string "Och nööö!$"
+#else
+	.string "Oh, no!$"
+#endif
 
 Route20_Text_SwimmerfNicoleAfterBattle:
+#if GERMAN
 	.string "Schwimmen ist gesund!\n"
 	.string "Es trainiert den gesamten Körper!$"
+#else
+	.string "Swimming exercises your full body.\p"
+	.string "It's really good for you.$"
+#endif
 
 Route20_Text_SwimmerfLoriSeen:
+#if GERMAN
 	.string "Du hast ja einen ganzen Sack voll\n"
 	.string "Orden! Gegen dich will ich kämpfen!$"
+#else
+	.string "What an impressive collection of\n"
+	.string "GYM BADGES. We should battle!$"
+#endif
 
 Route20_Text_SwimmerfLoriBeaten:
+#if GERMAN
 	.string "Nein$"
+#else
+	.string "No!$"
+#endif
 
 Route20_Text_SwimmerfLoriAfterBattle:
+#if GERMAN
 	.string "Außer Surfer gibt es auch noch andere\n"
 	.string "VM, die man im Wasser einsetzt.$"
+#else
+	.string "SURF is no longer the only HM move\n"
+	.string "you use in water.$"
+#endif
 
 Route20_Text_SwimmermCameronSeen:
+#if GERMAN
 	.string "Von hier bis nach Johto zu schwimmen,\n"
 	.string "ist wohl doch etwas zu weit, oder?$"
+#else
+	.string "I guess it's impossible to swim\n"
+	.string "all the way to JOHTO.$"
+#endif
 
 Route20_Text_SwimmermCameronBeaten:
+#if GERMAN
 	.string "Jippie!$"
+#else
+	.string "Aiyah!$"
+#endif
 
 Route20_Text_SwimmermCameronAfterBattle:
+#if GERMAN
 	.string "Na ja, das Meer ist nicht alles. Es gibt\n"
 	.string "ja noch jede Menge Teiche und Flüsse…$"
+#else
+	.string "Besides the sea, I can also swim\n"
+	.string "in ponds and rivers.$"
+#endif
 
 Route20_Text_CinnabarIsland_GymUnusedSign:
+#if GERMAN
 	.string "Was steht hier?\p"
 	.string "Zinnoberinsel Leiter: Pyro$"
+#else
+	.string "What does this sign say?\p"
+	.string "CINNABAR GYM LEADER: BLAINE$"
+#endif
 

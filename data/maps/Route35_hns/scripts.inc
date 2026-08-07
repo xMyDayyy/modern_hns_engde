@@ -94,141 +94,305 @@ Route35_EventScript_Item_ParalyzeHeal::
 	end
 
 Route35_Text_CamperIvanSeen:
+#if GERMAN
 	.string "Ich hole mir meine Pokémon-Info\n"
 	.string "immer aus dem Radio.\l"
 	.string "Damit bin ich jederzeit gerüstet.$"
+#else
+	.string "I've been getting POKéMON data off\n"
+	.string "my radio. I think I'm good.$"
+#endif
 
 Route35_Text_CamperIvanBeaten:
+#if GERMAN
 	.string "Ich teile aus!$"
+#else
+	.string "I give!$"
+#endif
 
 Route35_Text_CamperIvanAfter:
+#if GERMAN
 	.string "Die Musik aus dem Radio beeinflusst die\n"
 	.string "Stimmung von wilden Pokémon.\l"
 	.string "Sie stimmt sie kampflustig oder zahmer!$"
+#else
+	.string "Music on the radio changes the\n"
+	.string "moods of wild POKéMON.$"
+#endif
 
 Route35_Text_CamperElliotSeen:
+#if GERMAN
 	.string "Ich werde meiner Freundin\n"
 	.string "zeigen, wie cool ich bin!$"
+#else
+	.string "I'm gonna show my girlfriend I'm\n"
+	.string "hot stuff!$"
+#endif
 
 Route35_Text_CamperElliotBeaten:
+#if GERMAN
 	.string "Ach Mann! Hättest du nicht\n"
 	.string "einfach… verlieren können?$"
+#else
+	.string "I wish you would have lost for me…$"
+#endif
 
 Route35_Text_CamperElliotAfter:
+#if GERMAN
 	.string "Du hast mich vor meiner Freundin\n"
 	.string "lächerlich gemacht…$"
+#else
+	.string "I was humiliated in front of my\n"
+	.string "girlfriend…$"
+#endif
 
 Route35_Text_PicnickerBrookeSeen:
+#if GERMAN
 	.string "Mein Freund ist ein Schwächling.\n"
 	.string "Er kann mich nicht beschützen.$"
+#else
+	.string "My boyfriend's weak, so I can't rely\n"
+	.string "on him.$"
+#endif
 
 Route35_Text_PicnickerBrookeBeaten:
+#if GERMAN
 	.string "Meine Güte, bist du stark!$"
+#else
+	.string "Oh, my! You're so strong!$"
+#endif
 
 Route35_Text_PicnickerBrookeAfter:
+#if GERMAN
 	.string "Meine Pokémon meinem Freund vorzu-\n"
 	.string "ziehen, war wohl auch nicht gerade klug.$"
+#else
+	.string "I can count on my POKéMON more than\n"
+	.string "my boyfriend.$"
+#endif
 
 Route35_Text_PicnickerKimSeen:
+#if GERMAN
 	.string "Bist du auf dem Weg zur Pokémon-Arena?\n"
 	.string "Ich auch!$"
+#else
+	.string "Are you going to the GYM? Me too!$"
+#endif
 
 Route35_Text_PicnickerKimBeaten:
+#if GERMAN
 	.string "Ich gewinne aber auch nie!$"
+#else
+	.string "Oh. I couldn't win…$"
+#endif
 
 Route35_Text_PicnickerKimAfter:
+#if GERMAN
 	.string "Diese Orden sind so hübsch! Das ist\n"
 	.string "auch der Grund, warum ich sie sammele!$"
+#else
+	.string "The GYM BADGES are pretty. I collect\n"
+	.string "them.$"
+#endif
 
 Route35_Text_BirdKeeperBryanSeen:
+#if GERMAN
 	.string "Welche Art von Pokéball\n"
 	.string "verwendest du?$"
+#else
+	.string "What kinds of BALLS do you use?$"
+#endif
 
 Route35_Text_BirdKeeperBryanBeaten:
+#if GERMAN
 	.string "Mist! Nicht\n"
 	.string "schnell genug!$"
+#else
+	.string "Yikes! Not fast enough!$"
+#endif
 
 Route35_Text_BirdKeeperBryanAfter:
+#if GERMAN
 	.string "Wenn du hinter einem Pokémon mit hoher\n"
 	.string "Initiative her bist,\l"
 	.string "wirkt Kurts Turboball wahre Wunder!\p"
 	.string "Sobald ich eine weiße Aprikoko finde,\n"
-	.string "bringe ich sie zu Kurt. Er macht\l"
+	.string "bringe ich sie zu {COLOR RED}Kurt{COLOR DARK_GRAY}. Er macht\l"
 	.string "daraus einen maßgefertigten Pokéball.$"
+#else
+	.string "Some POKéMON flee right away.\p"
+	.string "Try catching them with KURT's\n"
+	.string "FAST BALL.\p"
+	.string "Whenever I find a ASPEAR BERRY, I\n"
+	.string "take it to KURT.\p"
+	.string "He turns it into a custom BALL.$"
+#endif
 
 Route35_Text_JugglerIrwinSeen:
+#if GERMAN
 	.string "Sieh meine elegante Ball-Kunst!$"
+#else
+	.string "Behold my graceful BALL dexterity!$"
+#endif
 
 Route35_Text_JugglerIrwinBeaten:
+#if GERMAN
 	.string "Puh, das war ein Schlag!$"
+#else
+	.string "Whew! That was a jolt!$"
+#endif
 
 Route35_Text_JugglerIrwinAfter:
+#if GERMAN
 	.string "Ich wollte dich mit meinen\n"
 	.string "preisgekrönten Pokémon blenden.\l"
 	.string "Aber dein Können hat mich elektrisiert.$"
+#else
+	.string "I was going to dazzle you with my\n"
+	.string "prize POKéMON.\p"
+	.string "But your prowess electrified me!$"
+#endif
 
 Route35_Text_BugCatcherArnieSeen:
+#if GERMAN
 	.string "Mich zieht es überall dort hin, wo es\n"
 	.string "Käfer-Pokémon gibt!$"
+#else
+	.string "I'll go anywhere if bug POKéMON\n"
+	.string "appear there.$"
+#endif
 
 Route35_Text_BugCatcherArnieBeaten:
+#if GERMAN
 	.string "Ich hätte nicht verlieren dürfen…$"
+#else
+	.string "Huh? I shouldn't have lost that…$"
+#endif
 
 Route35_Text_BugCatcherArnieAfter:
+#if GERMAN
 	.string "Mit meinem Bluzuk habe ich das\n"
-	.string "Käferturnier im Nationalpark gewonnen.$"
+	.string "Käferturnier im {COLOR RED}Nationalpark{COLOR DARK_GRAY} gewonnen.$"
+#else
+	.string "My VENONAT won me the Bug-Catching\n"
+	.string "Contest at the NATIONAL PARK.$"
+#endif
 
 Route35_Text_ArnieRegister:
+#if GERMAN
 	.string "Mit meinem Bluzuk habe ich das\n"
-	.string "Käferturnier im Nationalpark gewonnen.$"
+	.string "Käferturnier im {COLOR RED}Nationalpark{COLOR DARK_GRAY} gewonnen.$"
+#else
+	.string "My VENONAT won me the Bug-Catching\n"
+	.string "Contest at the NATIONAL PARK.$"
+#endif
 
 Route35_Text_ArnieRematchIntro:
+#if GERMAN
 	.string "Mich zieht es überall dort hin, wo es\n"
 	.string "Käfer-Pokémon gibt!$"
+#else
+	.string "I'll go anywhere if bug POKéMON\n"
+	.string "appear there.$"
+#endif
 
 Route35_Text_ArnieRematchDefeat:
+#if GERMAN
     .string "Hä? Das hätte ich doch nicht\n"
     .string "verlieren dürfen…$"
+#else
+	.string "Huh? I shouldn't have lost that…$"
+#endif
 
 Route35_Text_ArniePostRematch:
+#if GERMAN
 	.string "Mit meinem Bluzuk habe ich das\n"
-	.string "Käferturnier im Nationalpark gewonnen.$"
+	.string "Käferturnier im {COLOR RED}Nationalpark{COLOR DARK_GRAY} gewonnen.$"
+#else
+	.string "My VENONAT won me the Bug-Catching\n"
+	.string "Contest at the NATIONAL PARK.$"
+#endif
 
 Route35_Text_BugCatcherArnieYanma:
+#if GERMAN
 	.string "Wow… Sieh, all die Yanma!\p"
 	.string "Ich bin über-\n"
 	.string "wältigt und kann mich nicht rühren.$"
+#else
+	.string "Wow… Look at all those YANMA!\p"
+	.string "I'm so blown away, I can't move.$"
+#endif
 
 Route35_Text_FirebreatherWaltSeen:
+#if GERMAN
 	.string "Ich übe mich im\n"
 	.string "Feuerspucken.$"
+#else
+	.string "I'm practicing my fire breathing.$"
+#endif
 
 Route35_Text_FirebreatherWaltBeaten:
+#if GERMAN
 	.string "Aua! Jetzt habe ich mir\n"
 	.string "die Nasenspitze verbrannt!$"
+#else
+	.string "Ow! I scorched the tip of my nose!$"
+#endif
 
 Route35_Text_FirebreatherWaltAfter:
+#if GERMAN
 	.string "Der Pokémon-Marsch im Radio\n"
 	.string "lockt wilde Pokémon an.$"
+#else
+	.string "The POKéMON March on the radio\n"
+	.string "lures wild POKéMON.$"
+#endif
 
 Route35_Text_OfficerDirkSeen:
+#if GERMAN
 	.string "Die Nacht steckt voller Gefahren!$"
+#else
+	.string "Danger lurks in the night!$"
+#endif
 
 Route35_Text_OfficerDirkBeaten:
+#if GERMAN
 	.string "Ups!$"
+#else
+	.string "Whoops!$"
+#endif
 
 Route35_Text_OfficerDirkAfter:
+#if GERMAN
 	.string "Weißt du, die Nacht hat\n"
 	.string "auch ihren Reiz.\p"
 	.string "Aber übertreib es nicht,\n"
 	.string "ja?$"
+#else
+	.string "You know, night time is fun in its\n"
+	.string "own ways.\p"
+	.string "But don't overdo it, OK?$"
+#endif
 
 Route35_Text_OfficerDirkTough:
+#if GERMAN
 	.string "Deine Pokémon sehen ziemlich stark aus!\n"
 	.string "Mit denen bist du überall sicher!$"
+#else
+	.string "Your POKéMON look pretty tough.\p"
+	.string "You could go anywhere safely.$"
+#endif
 
 Route35_Text_Sign:
+#if GERMAN
 	.string "Route 35$"
+#else
+	.string "ROUTE 35$"
+#endif
 
 Route35_Text_Sign2:
+#if GERMAN
 	.string "Nationalpark$"
+#else
+	.string "NATIONAL PARK GATE$"
+#endif

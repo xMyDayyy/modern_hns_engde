@@ -20,14 +20,29 @@ CeruleanCity_House2_EventScript_Diglett::
 	end
 
 CeruleanPolice_Text_FishingGuru:
+#if GERMAN
 	.string "Angeblich soll sich hier irgendeine\n"
 	.string "zwielichtige Gestalt herumtreiben…\p"
 	.string "Wenn sie sich als Dieb entpuppen sollte,\n"
 	.string "lasse ich keine Gnade walten!$"
+#else
+	.string "I heard that some shady character\n"
+	.string "is skulking about.\p"
+	.string "I won't stand for it if he turns out\n"
+	.string "to be a thief.$"
+#endif
 
 CeruleanPolice_Text_PokefanF:
+#if GERMAN
 	.string "Bei mir ist vor langer Zeit mal\n"
 	.string "ein Dieb eingestiegen, weißt du?$"
+#else
+	.string "We were held up by robbers before.$"
+#endif
 
 CeruleanPolice_Text_Diglett:
+#if GERMAN
 	.string "Digda: Dig da!$"
+#else
+	.string "DIGLETT: Dug dug.$"
+#endif

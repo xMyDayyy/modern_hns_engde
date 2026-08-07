@@ -33,27 +33,83 @@ static const u8 sText_UnusedTextFormat[] = _("{BACKGROUND TRANSPARENT}{TEXT_COLO
 const u8 gText_MaleSymbol4[] = _("♂");
 const u8 gText_FemaleSymbol4[] = _("♀");
 const u8 gText_GenderlessSymbol[] = _("");
-static const u8 sText_SpaceMove[] = _(" Attacke"); // unused
+#if GERMAN
+static const u8 sText_SpaceMove[] = _(" Attacke");
+#else
+static const u8 sText_SpaceMove[] = _(" MOVE");
+#endif // unused
 static const u8 sText_NewLine[] = _("\n");
 static const u8 sText_Slash[] = _("/");
 static const u8 sText_Lv[] = _("Lv. ");
 static const u8 sText_ThreeDashes[] = _("---");
 static const u8 sText_FourQuestionMarks[] = _("????");
 static const u8 sText_UnusedEmpty[] = _("");
+#if GERMAN
 static const u8 sText_IsThisTradeOkay[] = _("Ist der Tausch O.K.?");
+#else
+static const u8 sText_IsThisTradeOkay[] = _("Is this trade okay?");
+#endif
+#if GERMAN
 static const u8 sText_Cancel[] = _("Zurück");
+#else
+static const u8 sText_Cancel[] = _("CANCEL");
+#endif
+#if GERMAN
 static const u8 sText_ChooseAPkmn[] = _("Wähle ein Pokémon.");
+#else
+static const u8 sText_ChooseAPkmn[] = _("Choose a POKéMON.");
+#endif
+#if GERMAN
 static const u8 sText_Summary[] = _("Bericht");
+#else
+static const u8 sText_Summary[] = _("SUMMARY");
+#endif
+#if GERMAN
 static const u8 sText_Trade[] = _("Tausch");
+#else
+static const u8 sText_Trade[] = _("TRADE");
+#endif
+#if GERMAN
 static const u8 sText_CancelTrade[] = _("Tausch abbrechen?");
+#else
+static const u8 sText_CancelTrade[] = _("Cancel trade?");
+#endif
 static const u8 sJPText_PressBButtonToQuit[] = _("Bボタン　で　もどります");
+#if GERMAN
 static const u8 sText_Summary2[] = _("Bericht");
+#else
+static const u8 sText_Summary2[] = _("SUMMARY");
+#endif
+#if GERMAN
 static const u8 sText_Trade2[] = _("Tausch");
+#else
+static const u8 sText_Trade2[] = _("TRADE");
+#endif
+#if GERMAN
 static const u8 sText_CommunicationStandby[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Verbindung…\nBitte warten…");
+#else
+static const u8 sText_CommunicationStandby[] = _("{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Communication standby…\nPlease wait.");
+#endif
+#if GERMAN
 static const u8 sText_TheTradeHasBeenCanceled[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Der Tausch\nwurde abgebrochen.");
+#else
+static const u8 sText_TheTradeHasBeenCanceled[] = _("{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}The trade has\nbeen canceled.");
+#endif
+#if GERMAN
 static const u8 sText_OnlyPkmnForBattle[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Das ist das einzige\nPokémon zum Kampf.");
+#else
+static const u8 sText_OnlyPkmnForBattle[] = _("That's your only\nPOKéMON for battle.");
+#endif
+#if GERMAN
 static const u8 sText_WaitingForYourFriend[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Dein Freund ist\nnoch nicht fertig…");
+#else
+static const u8 sText_WaitingForYourFriend[] = _("{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Waiting for your friend\nto finish…");
+#endif
+#if GERMAN
 static const u8 sText_YourFriendWantsToTrade[] = _("Dein Freund möchte\nPokémon tauschen.");
+#else
+static const u8 sText_YourFriendWantsToTrade[] = _("Your friend wants\nto trade POKéMON.");
+#endif
 
 static const struct OamData sOamData_MenuText =
 {

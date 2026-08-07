@@ -27,22 +27,44 @@ ThreeIsland_PokemonCenter_1F_EventScript_Rocker::
 	end
 
 ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto::
+#if GERMAN
 	.string "Heh! Hast du schon gehört?\p"
 	.string "Das PC-Netzwerk hier kann nun\n"
 	.string "mit den PCs in Kanto verbunden\l"
 	.string "werden.\l"
 	.string "Ich weiß nicht, wie das zu Stande\l"
 	.string "kam, aber es ist großartig!$"
+#else
+	.string "Hey, did you hear the news?\p"
+	.string "The PC network here can now link\n"
+	.string "with PCs in KANTO.\p"
+	.string "I don't know how that came about,\n"
+	.string "but it's fantastic!$"
+#endif
 
 ThreeIsland_PokemonCenter_1F_Text_ImpossibleToSurfBetweenIslands::
+#if GERMAN
 	.string "Es ist nicht möglich, zwischen den\n"
 	.string "Inseln in dieser Gegend zu Surfen!\p"
 	.string "Die Strömung ist zu stark und\n"
 	.string "zu gefährlich!$"
+#else
+	.string "It's impossible to SURF between the\n"
+	.string "islands around these parts.\p"
+	.string "The tides are too fast and\n"
+	.string "treacherous.$"
+#endif
 
 ThreeIsland_PokemonCenter_1F_Text_AlwaysBerriesInBerryForest::
+#if GERMAN
 	.string "Lass uns Beeren mahlen!\n"
 	.string "… das wäre Beerenverschwendung?\p"
 	.string "Im Beerenforst kannst du stets\n"
 	.string "Beeren am Boden finden!$"
+#else
+	.string "Let's crush BERRIES!\n"
+	.string "…That'd be wasting BERRIES?\p"
+	.string "You can always find some BERRIES\n"
+	.string "on the ground in BERRY FOREST.$"
+#endif
 

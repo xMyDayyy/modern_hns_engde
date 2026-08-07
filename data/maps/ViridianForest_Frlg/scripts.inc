@@ -64,112 +64,240 @@ ViridianForest_EventScript_Charlie::
 	end
 
 ViridianForest_Text_FriendsItchingToBattle::
+#if GERMAN
 	.string "Meine Freunde und ich wollten hier\n"
 	.string "Käfer-Pokémon fangen…\p"
 	.string "Unsere Pokémon wollen kämpfen!!!$"
+#else
+	.string "I came here with some friends to\n"
+	.string "catch us some BUG POKéMON!\p"
+	.string "They're all itching to get into\n"
+	.string "some POKéMON battles!$"
+#endif
 
 ViridianForest_Text_RickIntro::
+#if GERMAN
 	.string "Heh! Du hast auch Pokémon! Los!\n"
 	.string "Lass uns kämpfen!$"
+#else
+	.string "Hey! You have POKéMON!\n"
+	.string "Come on!\l"
+	.string "Let's battle 'em!$"
+#endif
 
 ViridianForest_Text_RickDefeat::
+#if GERMAN
 	.string "Ah!\n"
 	.string "Raupy hat es nicht geschafft!$"
+#else
+	.string "No!\nCATERPIE can't hack it!$"
+#endif
 
 ViridianForest_Text_RickPostBattle::
+#if GERMAN
 	.string "Psst! Sei leise!\n"
 	.string "Du verjagst alle Käfer...$"
+#else
+	.string "Ssh! You'll scare the bugs away.\n"
+	.string "Another time, okay?$"
+#endif
 
 ViridianForest_Text_DougIntro::
+#if GERMAN
 	.string "Heh!\n"
 	.string "Ein Pokémon Trainer stiehlt sich\l"
 	.string "nicht so einfach davon!!!$"
+#else
+	.string "Yo!\n"
+	.string "You can't jam out if you're a\l"
+	.string "POKéMON TRAINER!$"
+#endif
 
 ViridianForest_Text_DougDefeat::
+#if GERMAN
 	.string "Oh! Ich habe kein kampfbereites\n"
 	.string "Pokémon mehr!$"
+#else
+	.string "Huh?\n"
+	.string "I ran out of POKéMON!$"
+#endif
 
 ViridianForest_Text_DougPostBattle::
+#if GERMAN
 	.string "So ein Mist! Ich muss ein paar\n"
 	.string "Stärkere fangen!$"
+#else
+	.string "That totally stinks! I'm going to\n"
+	.string "catch some stronger ones!$"
+#endif
 
 ViridianForest_Text_SammyIntro::
+#if GERMAN
 	.string "Heh, warte!\n"
 	.string "Warum die Eile?$"
+#else
+	.string "Hey, wait up!\n"
+	.string "What's the hurry? Why the rush?$"
+#endif
 
 ViridianForest_Text_SammyDefeat::
+#if GERMAN
 	.string "Uff!\n"
 	.string "Du bist zu gut! Ich gebe auf!$"
+#else
+	.string "I give!\n"
+	.string "You're good at this!$"
+#endif
 
 ViridianForest_Text_SammyPostBattle::
+#if GERMAN
 	.string "Mit ein bisschen Glück findet man\n"
 	.string "unterwegs Items!\p"
 	.string "Ich muss hier irgendwo etwas\n"
 	.string "verloren haben...$"
+#else
+	.string "Sometimes, you can find stuff on\n"
+	.string "the ground.\p"
+	.string "I'm looking for the stuff I\n"
+	.string "dropped. Can you help me?$"
+#endif
 
 ViridianForest_Text_AnthonyIntro::
+#if GERMAN
 	.string "Ich bin zwar klein, aber ich will\n"
 	.string "nicht, dass du mich deswegen\l"
 	.string "gewinnen lässt!$"
+#else
+	.string "I might be little, but I won't like\n"
+	.string "it if you go easy on me!$"
+#endif
 
 ViridianForest_Text_AnthonyDefeat::
+#if GERMAN
 	.string "Oh, nein! Alles ist schief\n"
 	.string "gegangen!$"
+#else
+	.string "Oh, boo.\n"
+	.string "Nothing went right.$"
+#endif
 
 ViridianForest_Text_AnthonyPostBattle::
+#if GERMAN
 	.string "Ich habe meinen Kredit\n"
 	.string "verspielt…$"
+#else
+	.string "I lost some of my allowance…$"
+#endif
 
 ViridianForest_Text_CharlieIntro::
+#if GERMAN
 	.string "Weißt du, dass Pokémon sich\n"
 	.string "entwickeln?$"
+#else
+	.string "Did you know that POKéMON evolve?$"
+#endif
 
 ViridianForest_Text_CharlieDefeat::
+#if GERMAN
 	.string "Oh!\n"
 	.string "Ich hab verloren!$"
+#else
+	.string "Oh!\n"
+	.string "I lost!$"
+#endif
 
 ViridianForest_Text_CharliePostBattle::
+#if GERMAN
 	.string "Käfer-Pokémon entwickeln sich\n"
 	.string "schnell. Sie sind einfach toll!$"
+#else
+	.string "BUG POKéMON evolve quickly.\n"
+	.string "They're a lot of fun!$"
+#endif
 
 ViridianForest_Text_RanOutOfPokeBalls::
+#if GERMAN
 	.string "Verdammt! Mir sind die Pokébälle\n"
 	.string "ausgegangen! Wie fange ich nun\l"
 	.string "bloß Pokémon?\p"
 	.string "Du solltest immer genug Pokébälle\n"
 	.string "bei dir haben!$"
+#else
+	.string "I was throwing POKé BALLS to\n"
+	.string "catch POKéMON, and I ran out.\p"
+	.string "That's why you can never have too\n"
+	.string "many POKé BALLS.$"
+#endif
 
 ViridianForest_Text_AvoidGrassyAreasWhenWeak::
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Wenn du Kämpfe meiden möchtest,\n"
 	.string "bleibe hohem Gras fern!$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "If your POKéMON are weak and you\n"
+	.string "want to avoid battles, stay away\l"
+	.string "from grassy areas!$"
+#endif
 
 ViridianForest_Text_UseAntidoteForPoison::
+#if GERMAN
 	.string "Bei Vergiftungen hat sich das\n"
 	.string "Gegengift aus dem Pokémon-\l"
 	.string "Supermarkt bewährt.$"
+#else
+	.string "For poison, use ANTIDOTE!\n"
+	.string "Get it at POKéMON MARTS!$"
+#endif
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Du kannst deinen Pokédex jederzeit\n"
 	.string "von Prof. Eich via PC bewerten\l"
 	.string "lassen!$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "Contact PROF. OAK via a PC to\n"
+	.string "get your POKéDEX evaluated!$"
+#endif
 
 ViridianForest_Text_CantCatchOwnedMons::
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Es ist verboten, anderen Trainern\n"
 	.string "Pokémon zu stehlen! Fang nur wilde\l"
 	.string "Pokémon!$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "You can't catch a POKéMON that\n"
+	.string "belongs to someone else.\p"
+	.string "Throw POKé BALLS only at wild\n"
+	.string "POKéMON to catch them!$"
+#endif
 
 ViridianForest_Text_WeakenMonsBeforeCapture::
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Geschwächte Pokémon sind leichter\n"
 	.string "zu fangen!\p"
 	.string "Sind sie bei Kräften, könnten sie\n"
 	.string "fliehen!$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "Weaken POKéMON before attempting\n"
+	.string "capture!\p"
+	.string "When healthy, they may escape!$"
+#endif
 
 ViridianForest_Text_LeavingViridianForest::
+#if GERMAN
 	.string "Auf Wiedersehen im Vertania-Wald\n"
 	.string "Der Nächste Ort ist Marmoria\l"
 	.string "City.$"
+#else
+	.string "LEAVING VIRIDIAN FOREST\n"
+	.string "PEWTER CITY AHEAD$"
+#endif
 

@@ -174,18 +174,33 @@ CeruleanCity_House5_EventScript_BerryCrushRankings::
 	end
 
 CeruleanCity_House1_Text_AnyInterestInBerries::
+#if GERMAN
 	.string "Ich stelle eine Vielzahl\n"
 	.string "Medikamente aus Beerenpuder\l"
 	.string "her.\l"
 	.string "Mit gutem Beerenpuder kann\l"
 	.string "ich jedes Medikament herstellen!\p"
 	.string "Hast du Interesse an Beeren?$"
+#else
+	.string "I concoct a variety of medicine\n"
+	.string "from BERRY POWDER.\p"
+	.string "Using good BERRY POWDER, I can\n"
+	.string "make any kind of medicine.\p"
+	.string "Now tell me, have you any interest\n"
+	.string "in BERRIES?$"
+#endif
 
 CeruleanCity_House1_Text_HaveJustTheThing::
+#if GERMAN
 	.string "Schön! Dann habe ich genau\n"
 	.string "das Richtige für dich!$"
+#else
+	.string "Ah, good! For you, then, I have\n"
+	.string "just the thing.$"
+#endif
 
 CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner::
+#if GERMAN
 	.string "Im Pokémon-Center gibt es im\n"
 	.string "oberen Stockwerk beim\l"
 	.string "Direktklub etwas Neues.\l"
@@ -205,47 +220,114 @@ CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner::
 	.string "bringst.\l"
 	.string "Mahle Beeren und bring mir\l"
 	.string "Beerenpuder.$"
+#else
+	.string "There's something new on the second\n"
+	.string "floor of POKéMON CENTERS, at the\l"
+	.string "DIRECT CORNER.\p"
+	.string "They installed a Wireless Adapter\n"
+	.string "machine for crushing BERRIES.\p"
+	.string "This is where you come in.\p"
+	.string "I have a favor to ask, one that\n"
+	.string "I can entrust only to you.\p"
+	.string "Could you make BERRY POWDER for\n"
+	.string "me using that machine?\p"
+	.string "Don't forget, the machine is at the\n"
+	.string "DIRECT CORNER of POKéMON CENTERS.\p"
+	.string "I'll concoct medicine for you if\n"
+	.string "you bring me some BERRY POWDER.\p"
+	.string "Don't forget, crush BERRIES into\n"
+	.string "BERRY POWDER and bring it to me.$"
+#endif
 
 CeruleanCity_House1_Text_WhyMustYouLieNoBerries::
+#if GERMAN
 	.string "Warum lügst du mich an?\p"
 	.string "Wie viele Beeren hast du?\n"
 	.string "Keine einzige!$"
+#else
+	.string "Why must you lie to me?\p"
+	.string "How many BERRIES do you have?\n"
+	.string "Not a one!$"
+#endif
 
 CeruleanCity_House1_Text_TakeInterestInAllSortsOfThings::
+#if GERMAN
 	.string "Du interessierst dich nicht für\n"
 	.string "Beeren?\l"
 	.string "Auch als Kind sollte man sich\l"
 	.string "für alle möglichen Dinge\l"
 	.string "interessieren.$"
+#else
+	.string "You have no interest in BERRIES?\p"
+	.string "Young one, it's important to take an\n"
+	.string "interest in all sorts of things.$"
+#endif
 
 CeruleanCity_House1_Text_HaveYouBroughtBerryPowder::
+#if GERMAN
 	.string "Ähm! Hast du mir Beerenpuder\n"
 	.string "gebracht?$"
+#else
+	.string "Er-hem! Have you brought me some\n"
+	.string "BERRY POWDER?$"
+#endif
 
 CeruleanCity_House5_Text_ExchangeWithWhat::
+#if GERMAN
 	.string "Wogegen möchtest du es tauschen?$"
+#else
+	.string "With what would you like to \n"
+	.string "exchange it?$"
+#endif
 
 CeruleanCity_House1_Text_YoullExchangeBerryPowderForItem::
+#if GERMAN
 	.string "Gut, ich gebe dir {STR_VAR_1} im\n"
 	.string "Austausch für deinen\l"
 	.string "Beerenpuder!$"
+#else
+	.string "Fine, you'll exchange your BERRY\n"
+	.string "POWDER for one {STR_VAR_1}?$"
+#endif
 
 CeruleanCity_House1_Text_DontHaveEnoughBerryPowder::
+#if GERMAN
 	.string "Hm? Du hast nicht genügend\n"
 	.string "Beerenpuder!$"
+#else
+	.string "Hm? You don't have enough\n"
+	.string "BERRY POWDER.$"
+#endif
 
 CeruleanCity_House1_Text_TradeMoreBerryPowder::
+#if GERMAN
 	.string "Das ist wirklich erstklassiger\n"
 	.string "Beerenpuder! Daraus lässt\l"
 	.string "sich gute Medizin herstellen.\l"
 	.string "Möchtest du noch mehr\l"
 	.string "Beerenpuder tauschen?$"
+#else
+	.string "This is fine BERRY POWDER indeed.\n"
+	.string "It will make excellent medicine.\p"
+	.string "Would you like to trade more BERRY\n"
+	.string "POWDER for something else?$"
+#endif
 
 CeruleanCity_House1_Text_HopeToSeeYouAgain::
+#if GERMAN
 	.string "Das ist in Ordnung!\n"
 	.string "Ich hoffe, wir sehen uns!$"
+#else
+	.string "That's fine, then.\n"
+	.string "I'll hope to see you back again.$"
+#endif
 
 CeruleanCity_House1_Text_SeeMeIfYoudLikeToTradePowder::
+#if GERMAN
 	.string "Komm einfach vorbei, wenn du\n"
 	.string "Beerenpuder tauschen möchtest!$"
+#else
+	.string "Come see me if you'd like to trade\n"
+	.string "your BERRY POWDER.$"
+#endif
 

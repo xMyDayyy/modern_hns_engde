@@ -6,6 +6,11 @@ UndergroundPath_WestEntrance_EventScript_BaldingMan::
 	end
 
 UndergroundPath_WestEntrance_Text_SleepyMonNearCeladon::
+#if GERMAN
 	.string "Ein verschlafenes Pokémon ist in\n"
-	.string "Prismania City aufgetaucht!$"
+	.string "{COLOR RED}Prismania City{COLOR DARK_GRAY} aufgetaucht!$"
+#else
+	.string "I heard a sleepy POKéMON appeared\n"
+	.string "out near CELADON CITY, too.$"
+#endif
 

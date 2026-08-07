@@ -94,15 +94,51 @@ static const struct SignatureZMove sSignatureZMoves[] =
     {SPECIES_SNORLAX,                 ITEM_SNORLIUM_Z,           MOVE_GIGA_IMPACT,         MOVE_PULVERIZING_PANCAKE},
 };
 
+#if GERMAN
 static const u8 sText_ResetStats[] = _("Hebt Wertesenkung auf");
+#else
+static const u8 sText_ResetStats[] = _("Reset Lowered Stats");
+#endif
+#if GERMAN
 static const u8 sText_StatsPlus[] = _("+ Alle Werte");
+#else
+static const u8 sText_StatsPlus[] = _("+ All Stats");
+#endif
+#if GERMAN
 static const u8 sText_StatsPlus2[] = _("++ Alle Werte");
+#else
+static const u8 sText_StatsPlus2[] = _("++ All Stats");
+#endif
+#if GERMAN
 static const u8 sText_CritHitsPlus[] = _("+ Volltrefferquote");
+#else
+static const u8 sText_CritHitsPlus[] = _("+ Critical Hit Chance");
+#endif
+#if GERMAN
 static const u8 sText_FollowMe[] = _("Spotlight");
+#else
+static const u8 sText_FollowMe[] = _("Follow Me");
+#endif
+#if GERMAN
 static const u8 sText_RecoverHP[] = _("KP-Heilung");
+#else
+static const u8 sText_RecoverHP[] = _("Recover HP");
+#endif
+#if GERMAN
 static const u8 sText_HealAllyHP[] = _("KP für Nachfolger");
+#else
+static const u8 sText_HealAllyHP[] = _("Heal Replacement HP");
+#endif
+#if GERMAN
 static const u8 sText_PowerColon[] = _("Stärke: ");
+#else
+static const u8 sText_PowerColon[] = _("Power: ");
+#endif
+#if GERMAN
 static const u8 sText_NoAdditionalEffect[] = _("Kein Zusatzeffekt");
+#else
+static const u8 sText_NoAdditionalEffect[] = _("No Additional Effect");
+#endif
 
 // Functions
 bool32 IsZMove(enum Move move)

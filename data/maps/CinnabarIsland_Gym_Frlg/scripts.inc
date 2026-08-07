@@ -710,6 +710,7 @@ CinnabarIsland_Gym_EventScript_OpenDoor6::
 	return
 
 CinnabarIsland_Gym_Text_BlaineIntro::
+#if GERMAN
 	.string "{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}Haha!\p"
 	.string "Ich bin Pyro, der\n"
 	.string "Arenaleiter der\l"
@@ -721,126 +722,280 @@ CinnabarIsland_Gym_Text_BlaineIntro::
 	.string "Flammen aufgehen!\p"
 	.string "Du solltest Feuerheiler\n"
 	.string "parat halten!{PLAY_BGM}?À$"
+#else
+	.string "Hah!\p"
+	.string "I am BLAINE, the red-hot LEADER\n"
+	.string "of CINNABAR GYM!\p"
+	.string "My fiery POKéMON are all rough\n"
+	.string "and ready with intense heat!\p"
+	.string "They incinerate all challengers!\p"
+	.string "Hah!\n"
+	.string "You better have BURN HEAL!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#endif
 
 CinnabarIsland_Gym_Text_BlaineDefeat::
+#if GERMAN
 	.string "Mein Feuer ist erloschen!\p"
 	.string "Du hast dir den Vulkanorden\n"
 	.string "redlich verdient.$"
+#else
+	.string "I have burned down to nothing!\n"
+	.string "Not even ashes remain!\p"
+	.string "You have earned the VOLCANOBADGE.$"
+#endif
 
 CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove::
+#if GERMAN
 	.string "Feuersturm ist die mächtigste\n"
 	.string "Feuerattacke!\p"
 	.string "Allerdings ist sie gegen Wasser-\n"
 	.string "Pokémon machtlos!$"
+#else
+	.string "FIRE BLAST is the ultimate fire\n"
+	.string "technique.\p"
+	.string "Don't waste it on WATER POKéMON.$"
+#endif
 
 CinnabarIsland_Gym_Text_ExplainVolcanoBadge::
+#if GERMAN
 	.string "Haha!\p"
 	.string "Der Vulkanorden steigert die\n"
 	.string "Spezial-Fähigkeiten deiner\l"
 	.string "Pokémon!\p"
 	.string "Nimm zusätzlich dieses Geschenk!$"
+#else
+	.string "Hah!\p"
+	.string "The VOLCANOBADGE heightens the\n"
+	.string "SPECIAL stats of your POKéMON.\p"
+	.string "Here, you can have this, too!$"
+#endif
 
 CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "TM38!$"
+#else
+	.string "{PLAYER} received TM38\n"
+	.string "from BLAINE.$"
+#endif
 
 CinnabarIsland_Gym_Text_BlainePostBattle::
+#if GERMAN
 	.string "TM38 ist Feuersturm!\p"
 	.string "Feuer-Pokémon können diese Attacke\n"
 	.string "erlernen!\p"
 	.string "Glutexo und Vulpix sind dafür\n"
 	.string "prädestiniert!$"
+#else
+	.string "TM38 contains FIRE BLAST.\n"
+	.string "Teach it to FIRE-type POKéMON.\p"
+	.string "VULPIX or CHARMELEON would be\n"
+	.string "ideal for that move.$"
+#endif
 
 CinnabarIsland_Gym_Text_MakeSpaceForThis::
+#if GERMAN
 	.string "Schaffe Platz für mein Geschenk!$"
+#else
+	.string "Make space for this, child!$"
+#endif
 
 CinnabarIsland_Gym_Text_ErikIntro::
+#if GERMAN
 	.string "Was glaubst du, wie heiß der\n"
 	.string "Feueratem eines Pokémon werden\l"
 	.string "kann?$"
+#else
+	.string "Do you know how hot POKéMON fire\n"
+	.string "breath can get?$"
+#endif
 
 CinnabarIsland_Gym_Text_ErikDefeat::
+#if GERMAN
 	.string "Autsch!\n"
 	.string "Heiß, sehr heiß!$"
+#else
+	.string "Yow!\n"
+	.string "Hot, hot, hot!$"
+#endif
 
 CinnabarIsland_Gym_Text_ErikPostBattle::
+#if GERMAN
 	.string "Feuer, oder präziser, die\n"
 	.string "Verbrennung...\p"
 	.string "Bla, bla, bla, bla...$"
+#else
+	.string "Fire, or to be more precise,\n"
+	.string "combustion…\p"
+	.string "…Oxygen in the air…\n"
+	.string "Blah, blah, blah, blah…$"
+#endif
 
 CinnabarIsland_Gym_Text_QuinnIntro::
+#if GERMAN
 	.string "Ich war ein Dieb! Doch nun bin ich\n"
 	.string "ein ehrenhafter Trainer!$"
+#else
+	.string "I was a thief, but I went straight\n"
+	.string "as a TRAINER.$"
+#endif
 
 CinnabarIsland_Gym_Text_QuinnDefeat::
+#if GERMAN
 	.string "Ich ergebe mich!$"
+#else
+	.string "I surrender!$"
+#endif
 
 CinnabarIsland_Gym_Text_QuinnPostBattle::
+#if GERMAN
 	.string "Ich kann nicht aufhören, anderen\n"
 	.string "Leuten Pokémon zu stehlen!$"
+#else
+	.string "I get this uncontrollable urge to\n"
+	.string "steal other people's POKéMON.$"
+#endif
 
 CinnabarIsland_Gym_Text_AveryIntro::
+#if GERMAN
 	.string "Du hast keine Chance!\n"
 	.string "Ich bin Pokémon-Profi!$"
+#else
+	.string "I've studied POKéMON thoroughly.\n"
+	.string "You can't win!$"
+#endif
 
 CinnabarIsland_Gym_Text_AveryDefeat::
+#if GERMAN
 	.string "Nein!\n"
 	.string "Das war unprofessionell!$"
+#else
+	.string "Waah!\n"
+	.string "My studies were insufficient!$"
+#endif
 
 CinnabarIsland_Gym_Text_AveryPostBattle::
+#if GERMAN
 	.string "Du kannst meine Arbeitsweise nicht\n"
 	.string "verstehen!$"
+#else
+	.string "My theories are too complicated\n"
+	.string "for you to understand.$"
+#endif
 
 CinnabarIsland_Gym_Text_RamonIntro::
+#if GERMAN
 	.string "Ich setze mit Vorliebe Feuer-\n"
 	.string "Pokémon ein!$"
+#else
+	.string "I like using FIRE-type POKéMON.\n"
+	.string "I just do.$"
+#endif
 
 CinnabarIsland_Gym_Text_RamonDefeat::
+#if GERMAN
 	.string "Du bist brandgefährlich!$"
+#else
+	.string "Too hot to handle!$"
+#endif
 
 CinnabarIsland_Gym_Text_RamonPostBattle::
+#if GERMAN
 	.string "Ach, könnte ich doch nur deine\n"
 	.string "Pokémon stehlen!$"
+#else
+	.string "I wish there were a thief POKéMON.\n"
+	.string "I'd use that!$"
+#endif
 
 CinnabarIsland_Gym_Text_DerekIntro::
+#if GERMAN
 	.string "Ich weiß, warum Pyro ein Trainer\n"
 	.string "geworden ist!$"
+#else
+	.string "I know why BLAINE became a\n"
+	.string "TRAINER.$"
+#endif
 
 CinnabarIsland_Gym_Text_DerekDefeat::
+#if GERMAN
 	.string "Autsch!$"
+#else
+	.string "Ow!$"
+#endif
 
 CinnabarIsland_Gym_Text_DerekPostBattle::
+#if GERMAN
 	.string "Pyro hatte sich als Kind in den\n"
 	.string "Bergen verlaufen, als über ihm ein\l"
 	.string "Feuervogel erschien!\p"
 	.string "Der Schein dieses Pokémon wies\n"
 	.string "Pyro den Rückweg!$"
+#else
+	.string "Our LEADER, BLAINE, became lost\n"
+	.string "in the mountains but good.\p"
+	.string "Night fell when a fiery bird\n"
+	.string "POKéMON appeared.\p"
+	.string "Its light allowed BLAINE to find\n"
+	.string "his way down safely.$"
+#endif
 
 CinnabarIsland_Gym_Text_DustyIntro::
+#if GERMAN
 	.string "Ich war in vielen Pokémon-Arenen,\n"
 	.string "doch diese mag ich am liebsten!$"
+#else
+	.string "I've been to many GYMS, but this\n"
+	.string "one best suits my style.$"
+#endif
 
 CinnabarIsland_Gym_Text_DustyDefeat::
+#if GERMAN
 	.string "Autsch!\n"
 	.string "Du bist zu stark!$"
+#else
+	.string "Yowza!\n"
+	.string "Too hot!$"
+#endif
 
 CinnabarIsland_Gym_Text_DustyPostBattle::
+#if GERMAN
 	.string "Ponita und Vulnona sind die\n"
 	.string "Lieblings-Pokémon aller Pyromanen!$"
+#else
+	.string "PONYTA, NINETALES…\n"
+	.string "Those are popular FIRE POKéMON.$"
+#endif
 
 CinnabarIsland_Gym_Text_ZacIntro::
+#if GERMAN
 	.string "Gegen Wasser kann Feuer nichts\n"
 	.string "ausrichten!$"
+#else
+	.string "Fire is weak against H2O.$"
+#endif
 
 CinnabarIsland_Gym_Text_ZacDefeat::
+#if GERMAN
 	.string "Oh!\n"
 	.string "Ich habe verloren!$"
+#else
+	.string "Oh!\n"
+	.string "Snuffed out!$"
+#endif
 
 CinnabarIsland_Gym_Text_ZacPostBattle::
+#if GERMAN
 	.string "Wasser löscht Feuer, doch Feuer\n"
 	.string "schmilzt Eis!$"
+#else
+	.string "Water beats fire, of course.\p"
+	.string "But fire melts ice, so the FIRE\n"
+	.string "type beats ICE-type POKéMON.$"
+#endif
 
 CinnabarIsland_Gym_Text_GymGuyAdvice::
+#if GERMAN
 	.string "Heh!\n"
 	.string "Warte, du Champion in spe!\p"
 	.string "Der hitzköpfige Pyro ist ein\n"
@@ -848,24 +1003,53 @@ CinnabarIsland_Gym_Text_GymGuyAdvice::
 	.string "Du solltest sein Mütchen mit Wasser\n"
 	.string "kühlen!\p"
 	.string "Und besorge dir Feuerheiler!$"
+#else
+	.string "Yo!\n"
+	.string "Champ in the making!\p"
+	.string "The hotheaded BLAINE is a FIRE\n"
+	.string "POKéMON pro.\p"
+	.string "Douse his spirits with water!\p"
+	.string "You'd better take some\n"
+	.string "BURN HEALS, too.$"
+#endif
 
 CinnabarIsland_Gym_Text_GymGuyPostVictory::
+#if GERMAN
 	.string "{PLAYER}! Du hast den Unruhestifter\n"
 	.string "gebrandmarkt!$"
+#else
+	.string "{PLAYER}!\n"
+	.string "You beat that firebrand!$"
+#endif
 
 CinnabarIsland_Gym_Text_GymStatue::
+#if GERMAN
 	.string "Zinnoberinsel Pokémon-Arena\n"
 	.string "Leitung: Pyro\p"
 	.string "Bisherige Sieger:\n"
 	.string "{RIVAL}$"
+#else
+	.string "CINNABAR POKéMON GYM\n"
+	.string "LEADER: BLAINE\p"
+	.string "WINNING TRAINERS:\n"
+	.string "{RIVAL}$"
+#endif
 
 CinnabarIsland_Gym_Text_GymStatuePlayerWon::
+#if GERMAN
 	.string "Zinnoberinsel Pokémon-Arena\n"
 	.string "Leitung: Pyro\p"
 	.string "Bisherige Sieger:\n"
 	.string "{RIVAL}, {PLAYER}$"
+#else
+	.string "CINNABAR POKéMON GYM\n"
+	.string "LEADER: BLAINE\p"
+	.string "WINNING TRAINERS:\n"
+	.string "{RIVAL}, {PLAYER}$"
+#endif
 
 CinnabarIsland_Gym_Text_PokemonQuizRules::
+#if GERMAN
 	.string "Willkommen beim Pokémon-Quiz!\p"
 	.string "Weißt du die richtige Antwort, dann\n"
 	.string "öffnet sich die Tür!\p"
@@ -875,33 +1059,80 @@ CinnabarIsland_Gym_Text_PokemonQuizRules::
 	.string "fitter sind deine Pokémon beim\l"
 	.string "Kampf gegen den Arenaleiter!\p"
 	.string "Lass uns beginnen!$"
+#else
+	.string "POKéMON Quiz!\p"
+	.string "Get it right, and the door opens to\n"
+	.string "the next room.\p"
+	.string "Get it wrong, and face a TRAINER!\p"
+	.string "If you want to conserve your\n"
+	.string "POKéMON for the GYM LEADER…\p"
+	.string "Then get it right!\n"
+	.string "Here we go!$"
+#endif
 
 CinnabarIsland_Gym_Text_QuizQuestion1::
+#if GERMAN
 	.string "Entwickelt sich Raupy zu Safcon?$"
+#else
+	.string "CATERPIE evolves into METAPOD?$"
+#endif
 
 CinnabarIsland_Gym_Text_QuizQuestion2::
+#if GERMAN
 	.string "Gibt es neun offizielle Pokémon-\n"
 	.string "Orden?$"
+#else
+	.string "There are nine certified POKéMON\n"
+	.string "LEAGUE BADGES?$"
+#endif
 
 CinnabarIsland_Gym_Text_QuizQuestion3::
+#if GERMAN
 	.string "Entwickelt sich Quapsel dreimal?$"
+#else
+	.string "POLIWAG evolves three times?$"
+#endif
 
 CinnabarIsland_Gym_Text_QuizQuestion4::
+#if GERMAN
 	.string "Sind Elektro-Attacken gegen\n"
 	.string "Boden-Pokémon sehr effektiv?$"
+#else
+	.string "Are electric moves effective\n"
+	.string "against GROUND-type POKéMON?$"
+#endif
 
 CinnabarIsland_Gym_Text_QuizQuestion5::
+#if GERMAN
 	.string "Unterscheiden sich zwei gleiche\n"
 	.string "Pokémon mit gleichem Level?$"
+#else
+	.string "POKéMON of the same kind and level\n"
+	.string "are not identical?$"
+#endif
 
 CinnabarIsland_Gym_Text_QuizQuestion6::
+#if GERMAN
 	.string "Ist TM28 die Frosch-Attacke?$"
+#else
+	.string "TM28 contains TOMBSTONY?$"
+#endif
 
 CinnabarIsland_Gym_Text_CorrectGoOnThrough::
+#if GERMAN
 	.string "Und die Antwort ist... Richtig!\p"
 	.string "Geh weiter!$"
+#else
+	.string "You're absolutely correct!\p"
+	.string "Go on through!$"
+#endif
 
 CinnabarIsland_Gym_Text_SorryBadCall::
+#if GERMAN
 	.string "Falsch!\n"
 	.string "So ein Pech!$"
+#else
+	.string "Sorry!\n"
+	.string "Bad call!$"
+#endif
 

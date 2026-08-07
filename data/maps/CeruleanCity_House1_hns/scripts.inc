@@ -6,5 +6,10 @@ CeruleanCity_House1_EventScript_BadgeMan::
 	end
 
 CeruleanHouse1_Text_PokefanM:
+#if GERMAN
 	.string "Sammelst du die Orden der\n"
 	.string "Pokémon-Arenen von Kanto?$"
+#else
+	.string "Are you collecting KANTO GYM\n"
+	.string "BADGES?$"
+#endif

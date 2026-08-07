@@ -264,7 +264,11 @@ static const u8 sText_TopBar_Right[] = _("{R_BUTTON}");
 // Descriptions
 // =============================================================================
 
+#if GERMAN
 static const u8 sText_Desc_TextSpeed[] = _("Wähle die Textgeschwindigkeit.");
+#else
+static const u8 sText_Desc_TextSpeed[] = _("Choose one of the four text-display\nspeeds.");
+#endif
 static const u8 *const sDesc_TextSpeed[] = {
     sText_Desc_TextSpeed,
     sText_Desc_TextSpeed,

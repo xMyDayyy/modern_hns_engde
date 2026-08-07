@@ -224,36 +224,79 @@ MahoganyTown_Pokemart:
 	end
 
 MahoganyTown_Shop_Text_Granny:
+#if GERMAN
 	.string "Bitte komm später wieder.\n"
 	.string "Der Laden ist geschlossen…$"
+#else
+	.string "Please come back another time.\n"
+	.string "The store is... closed\l"
+	.string "right now.$"
+#endif
 
 MahoganyMart1F_Text_Pharmacist_Lance:
+#if GERMAN
 	.string "Arrgh… Du hast\n"
 	.string "die Geheimtreppe gefunden…$"
+#else
+    .string "ROCKETS have hijacked my basement!$"
+#endif
 
 MahoganyMart1F_Text_BlackBelt:
+#if GERMAN
 	.string "Hehehe! Das Experiment war ein voller\n"
 	.string "Erfolg!\p"
 	.string "Karpador sind echte Ladenhüter, aber\n"
 	.string "Garados will einfach jeder!$"
+#else
+    .string "Heheh! The experi- ment worked like\n"
+    .string "a charm.\p"
+    .string "MAGIKARP are just worthless, but\n"
+    .string "GYARADOS are big moneymakers.$"
+#endif
 
 MahoganyMart1F_Text_BlackBelt_Lance:
+#if GERMAN
 	.string "Urrgh… die Pokémon von diesem\n"
 	.string "Typen sind stark.$"
+#else
+    .string "Urrgh…\p"
+    .string "That guy's POKéMON are tough…$"
+#endif
 
 MahoganyMart1F_Text_Lance_HyperBeam:
+#if GERMAN
 	.string "Siegfried: Dragoran! Den Hyperstrahl!$"
+#else
+    .string "LANCE: DRAGONITE, HYPER BEAM.$"
+#endif
 
 MahoganyMart1F_Text_Lance_Radio:
+#if GERMAN
 	.string "Wo bleibst du, {PLAYER}?\p"
 	.string "Das habe ich mir gleich gedacht.\p"
 	.string "Die merkwürdigen Radiowellen\n"
 	.string "kommen von hier.$"
+#else
+    .string "What took you, {PLAYER}?\p"
+    .string "Just as we thought, that strange\n"
+    .string "radio signal is coming from here.$"
+#endif
 
 MahoganyMart1F_Text_Lance_Stairs:
+#if GERMAN
 	.string "Die Treppe ist hier.$"
+#else
+    .string "Excellent work finding the stairs,\n"
+	.string "DRAGONITE!$"
+#endif
 
 MahoganyMart1F_Text_Lance_SplitUp:
+#if GERMAN
 	.string "Siegfried: {PLAYER},\n"
 	.string "wir sollten uns trennen, um diesen\l"
 	.string "Ort zu erforschen. Ich gehe vor.$"
+#else
+    .string "LANCE: {PLAYER}, we should split up\n"
+    .string "to check this place.\p"
+    .string "I'll go first.$"
+#endif

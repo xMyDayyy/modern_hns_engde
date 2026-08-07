@@ -182,13 +182,25 @@ static const u32 sHiddenMonIconGfx[] = INCBIN_U32("graphics/dexnav/hidden.4bpp.s
 // strings
 static const u8 sText_DexNav_NoInfo[] = _("--------");
 static const u8 sText_DexNav_CaptureToSee[] = _("Capture first!");
+#if GERMAN
 static const u8 sText_DexNav_PressRToRegister[] = _("R zum Merken!");
+#else
+static const u8 sText_DexNav_PressRToRegister[] = _("R TO REGISTER!");
+#endif
 static const u8 sText_DexNav_SearchForRegisteredSpecies[] = _("Search {STR_VAR_1}");
+#if GERMAN
 static const u8 sText_DexNav_NotFoundHere[] = _("Dieses Pokémon ist hier nicht\nzu finden!");
+#else
+static const u8 sText_DexNav_NotFoundHere[] = _("This Pokémon cannot be found here!");
+#endif
 static const u8 sText_ThreeQmarks[] = _("???");
 static const u8 sText_SearchLevel[] = _("SEARCH {LV}. {STR_VAR_1}");
 static const u8 sText_MonLevel[] = _("{LV}. {STR_VAR_1}");
+#if GERMAN
 static const u8 sText_EggMove[] = _("Move: {STR_VAR_1}");
+#else
+static const u8 sText_EggMove[] = _("MOVE: {STR_VAR_1}");
+#endif
 static const u8 sText_HeldItem[] = _("{STR_VAR_1}");
 static const u8 sText_StartExit[] = _("{START_BUTTON} EXIT");
 static const u8 sText_DexNavChain[] = _("{NO} {STR_VAR_1}");

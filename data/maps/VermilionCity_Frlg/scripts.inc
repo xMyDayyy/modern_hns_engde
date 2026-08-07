@@ -264,135 +264,292 @@ VermilionCity_EventScript_HarborSign::
 	end
 
 VermilionCity_Text_GrimerMultipliesInSludge::
+#if GERMAN
 	.string "Wir sind sehr umweltbewusst!\p"
 	.string "Wir haben gehört, dass Sleima sich\n"
 	.string "in giftigem Dreck wohl fühlt und\l"
 	.string "entwickelt!$"
+#else
+	.string "We're careful about pollution here.\p"
+	.string "We've heard GRIMER multiplies in\n"
+	.string "toxic sludge.$"
+#endif
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
+#if GERMAN
 	.string "Hast du gesehen?\n"
 	.string "Die M.S. Anne ankert im Hafen!$"
+#else
+	.string "Did you see the S.S. ANNE moored\n"
+	.string "in the harbor?$"
+#endif
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
+#if GERMAN
 	.string "Die M.S. Anne ist ausgelaufen!\p"
 	.string "Sie wird in einem Jahr wieder hier\n"
 	.string "anlegen.$"
+#else
+	.string "So, the S.S. ANNE has departed?\p"
+	.string "She'll be back in VERMILION about\n"
+	.string "this time next year.$"
+#endif
 
 VermilionCity_Text_BuildingOnThisLand::
+#if GERMAN
 	.string "Ich möchte auf diesem Land bauen.\n"
 	.string "Mein Pokémon ebnet den Boden!$"
+#else
+	.string "I'm putting up a building on this\n"
+	.string "plot of land. I own it all.\p"
+	.string "My POKéMON is tamping the land\n"
+	.string "to lay the foundation.$"
+#endif
 
 VermilionCity_Text_Machop::
+#if GERMAN
 	.string "Machollo: Macho! Machollo!$"
+#else
+	.string "MACHOP: Guoh! Gogogoh!$"
+#endif
 
 VermilionCity_Text_MachopStompingLandFlat::
+#if GERMAN
 	.string "Ein Machollo ebnet das Land!$"
+#else
+	.string "A MACHOP is stomping the land flat.$"
+#endif
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
+#if GERMAN
 	.string "Die M.S. Anne ist ein luxuriöses\n"
 	.string "Kreuzfahrtschiff.\p"
 	.string "Wir besuchen Orania City einmal\n"
 	.string "im Jahr.$"
+#else
+	.string "The S.S. ANNE is a famous luxury\n"
+	.string "cruise ship.\p"
+	.string "It visits VERMILION once a year.$"
+#endif
 
 VermilionCity_Text_CitySign::
+#if GERMAN
 	.string "Orania City\n"
 	.string "Die abendrote Hafenstadt$"
+#else
+	.string "VERMILION CITY\n"
+	.string "The Port of Exquisite Sunsets$"
+#endif
 
 VermilionCity_Text_SnorlaxBlockingRoute12::
+#if GERMAN
 	.string "Achtung!\p"
 	.string "Route 12 wird von einem\n"
 	.string "schlafenden Pokémon blockiert.\p"
 	.string "Umleitung: Felstunnel nach\n"
 	.string "Lavandia.\p"
 	.string "Polizei von Orania City$"
+#else
+	.string "NOTICE!\p"
+	.string "ROUTE 12 may be blocked off by a\n"
+	.string "sleeping POKéMON.\p"
+	.string "Detour through ROCK TUNNEL to\n"
+	.string "LAVENDER TOWN.\p"
+	.string "VERMILION POLICE$"
+#endif
 
 VermilionCity_Text_PokemonFanClubSign::
+#if GERMAN
 	.string "Pokémon-Fanclub\n"
 	.string "Alle Pokémon-Fans sind willkommen!$"
+#else
+	.string "POKéMON FAN CLUB\n"
+	.string "All POKéMON fans welcome!$"
+#endif
 
 VermilionCity_Text_GymSign::
+#if GERMAN
 	.string "Pokémon-Arena von Orania City\n"
 	.string "Leiter: Major Bob\l"
 	.string "Ein Blitz am Himmel des Militärs$"
+#else
+	.string "VERMILION CITY POKéMON GYM\n"
+	.string "LEADER: LT. SURGE\l"
+	.string "The Lightning American!$"
+#endif
 
 VermilionCity_Text_VermilionHarbor::
+#if GERMAN
 	.string "Hafen von Orania City$"
+#else
+	.string "VERMILION HARBOR$"
+#endif
 
 VermilionCity_Text_WelcomeToTheSSAnne::
+#if GERMAN
 	.string "Willkommen an Bord!$"
+#else
+	.string "Welcome to the S.S. ANNE!$"
+#endif
 
 VermilionCity_Text_DoYouHaveATicket::
+#if GERMAN
 	.string "Willkommen auf der M.S. Anne!\p"
 	.string "Verzeihung, hast du ein Ticket?$"
+#else
+	.string "Welcome to the S.S. ANNE!\p"
+	.string "Excuse me, do you have a ticket?$"
+#endif
 
 VermilionCity_Text_FlashedSSTicket::
-	.string "{FONT_NORMAL}{PLAYER} zeigt das Bootsticket!\p"
+#if GERMAN
+	.string "{FONT_NORMAL}{PLAYER} zeigt das {COLOR RED}Bootsticket{COLOR DARK_GRAY}!\p"
 	.string "{FONT_MALE}Großartig!\n"
 	.string "Willkommen auf der M.S. Anne!$"
+#else
+	.string "{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\p"
+	.string "{FONT_MALE}Great!\n"
+	.string "Welcome to the S.S. ANNE!$"
+#endif
 
 VermilionCity_Text_DontHaveNeededSSTicket::
-	.string "{FONT_NORMAL}{PLAYER} hat kein Bootsticket!\p"
+#if GERMAN
+	.string "{FONT_NORMAL}{PLAYER} hat kein {COLOR RED}Bootsticket{COLOR DARK_GRAY}!\p"
 	.string "{FONT_MALE}Tut mir Leid!\p"
 	.string "Du brauchst ein Ticket, um an Bord\n"
 	.string "gehen zu können.$"
+#else
+	.string "{FONT_NORMAL}{PLAYER} doesn't have the needed\n"
+	.string "S.S. TICKET.\p"
+	.string "{FONT_MALE}Sorry!\p"
+	.string "You need a ticket to get aboard.$"
+#endif
 
 VermilionCity_Text_TheShipSetSail::
+#if GERMAN
 	.string "Das Schiff ist in See gestochen!$"
+#else
+	.string "The ship set sail.$"
+#endif
 
 VermilionCity_Text_BoardSeagallopTriPass::
-	.string "Ah, du hast den Tri-Pass.\p"
+#if GERMAN
+	.string "Ah, du hast den {COLOR RED}Tri-Pass{COLOR DARK_GRAY}.\p"
 	.string "Möchtest du an Bord der\n"
 	.string "Seesprint-Fähre?$"
+#else
+	.string "Ah, you have a TRI-PASS.\p"
+	.string "Would you like to board\n"
+	.string "a SEAGALLOP ferry?$"
+#endif
 
 VermilionCity_Text_Seagallop7Departing::
+#if GERMAN
 	.string "O.K.! Alles klar!\p"
 	.string "Seesprint Tempo 7 wird in\n"
 	.string "Kürze ablegen.$"
+#else
+	.string "Okay, everything's in order.\p"
+	.string "SEAGALLOP HI-SPEED 7 will be\n"
+	.string "departing immediately.$"
+#endif
 
 VermilionCity_Text_BoardSeagallopRainbowPass::
-	.string "Ah, du hast den Bunt-Pass.\p"
+#if GERMAN
+	.string "Ah, du hast den {COLOR RED}Bunt-Pass{COLOR DARK_GRAY}.\p"
 	.string "Möchtest du an Bord der\n"
 	.string "Seesprint-Fähre?$"
+#else
+	.string "Ah, you have a RAINBOW PASS.\p"
+	.string "Would you like to board\n"
+	.string "a SEAGALLOP ferry?$"
+#endif
 
 VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
+#if GERMAN
 	.string "Oh! Das ist das Geheimticket!\n"
 	.string "Das ist selten.\p"
 	.string "Wir bringen dich gerne zum\n"
 	.string "Nabelfels.$"
+#else
+	.string "Oh! That's a MYSTICTICKET!\n"
+	.string "Now that is rare.\p"
+	.string "We'll be happy to take you to\n"
+	.string "NAVEL ROCK anytime.$"
+#endif
 
 VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland::
+#if GERMAN
 	.string "Oh! Das ist das Auroraticket!\n"
 	.string "Das ist selten.\p"
 	.string "Wir bringen dich gerne zur\n"
-	.string "Entstehungsinsel.$"
+	.string "{COLOR RED}Entstehungsinsel{COLOR DARK_GRAY}.$"
+#else
+	.string "Oh! That's an AURORATICKET!\n"
+	.string "Now that is rare.\p"
+	.string "We'll be happy to take you to\n"
+	.string "BIRTH ISLAND anytime.$"
+#endif
 
 VermilionCity_Text_BoardSeagallopFerry::
+#if GERMAN
 	.string "Möchtest du an Bord der\n"
 	.string "Seesprint-Fähre?$"
+#else
+	.string "Would you like to board\n"
+	.string "a SEAGALLOP ferry?$"
+#endif
 
 VermilionCity_Text_Seagallop10Departing::
+#if GERMAN
 	.string "O.K.! Alles klar! Du kannst an Bord\n"
 	.string "der Spezialfähre.\p"
 	.string "Seesprint Tempo 10 wird \n"
 	.string "sofort ablegen.$"
+#else
+	.string "Okay, everything's in order for you\n"
+	.string "to board a special ferry.\p"
+	.string "SEAGALLOP HI-SPEED 10 will be\n"
+	.string "departing immediately.$"
+#endif
 
 VermilionCity_Text_Seagallop12Departing::
+#if GERMAN
 	.string "O.K.! Alles klar! Du kannst an Bord\n"
 	.string "der Spezialfähre.\p"
 	.string "Seesprint Tempo 12 wird \n"
 	.string "sofort ablegen.$"
+#else
+	.string "Okay, everything's in order for you\n"
+	.string "to board a special ferry.\p"
+	.string "SEAGALLOP HI-SPEED 12 will be\n"
+	.string "departing immediately.$"
+#endif
 
 VermilionCity_Text_Route2AideHasPackageForYou::
+#if GERMAN
 	.string "Oh, hallo, {PLAYER}!\n"
 	.string "Wie geht es dir?\p"
 	.string "Ich bin es, einer von Prof. Eichs\n"
 	.string "Assistenten.\p"
 	.string "Hast du bereits einen anderen\n"
 	.string "Assistenten getroffen?\p"
-	.string "Er hatte ein Paket von Prof. Eich\n"
+	.string "Er hatte ein Paket von {COLOR RED}Prof. Eich{COLOR DARK_GRAY}\n"
 	.string "für dich, {PLAYER}.\p"
 	.string "Er sagte, er sucht dich bei\n"
-	.string "Route 2, {PLAYER}.\p"
-	.string "Wenn du bei Route 2 bist, \n"
+	.string "{COLOR RED}Route 2{COLOR DARK_GRAY}, {PLAYER}.\p"
+	.string "Wenn du bei {COLOR RED}Route 2{COLOR DARK_GRAY} bist, \n"
 	.string "halte nach ihm Ausschau.$"
+#else
+	.string "Oh, hello, {PLAYER}!\n"
+	.string "How are you doing?\p"
+	.string "It's me, one of PROF. OAK's AIDES.\p"
+	.string "Did you meet the other AIDE?\p"
+	.string "He had a package from PROF. OAK\n"
+	.string "for you, {PLAYER}.\p"
+	.string "He said he'd look for you around\n"
+	.string "ROUTE 2, {PLAYER}.\p"
+	.string "If you're in the ROUTE 2 area,\n"
+	.string "please look for him.$"
+#endif
 

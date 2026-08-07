@@ -32,6 +32,7 @@ FuchsiaCity_House2_EventScript_NoRoomForGoodRod::
 	end
 
 FuchsiaCity_House2_Text_DoYouLikeToFish::
+#if GERMAN
 	.string "Ich bin der\n"
 	.string "ältere Bruder des\l"
 	.string "Profianglers!\p"
@@ -39,34 +40,77 @@ FuchsiaCity_House2_Text_DoYouLikeToFish::
 	.string "den Angelsport!\p"
 	.string "Angelst du auch\n"
 	.string "gerne?$"
+#else
+	.string "I'm the FISHING GURU's older\n"
+	.string "brother.\p"
+	.string "I simply looove fishing!\n"
+	.string "I can't bear to go without.\p"
+	.string "Tell me, do you like to fish?$"
+#endif
 
 FuchsiaCity_House2_Text_LikeYourStyleTakeThis::
+#if GERMAN
 	.string "Klasse!\n"
 	.string "Du bist mir sympathisch!\p"
 	.string "Nimm das hier und gehe angeln!$"
+#else
+	.string "Grand! I like your style.\n"
+	.string "I think we can be friends.\p"
+	.string "Take this and fish, young friend!$"
+#endif
 
 FuchsiaCity_House2_Text_ReceivedGoodRod::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "eine Profiangel!$"
+#else
+	.string "{PLAYER} received a GOOD ROD from\n"
+	.string "the FISHING GURU's brother.$"
+#endif
 
 FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons::
+#if GERMAN
 	.string "Angeln ist meine Leidenschaft!\n"
 	.string "Es ist ein Gedicht.\p"
 	.string "Mit einer Angel fängst du nur\n"
-	.string "Karpador!\p"
-	.string "Aber mit der Profiangel kannst\n"
+	.string "{COLOR RED}Karpador{COLOR DARK_GRAY}!\p"
+	.string "Aber mit der {COLOR RED}Profiangel{COLOR DARK_GRAY} kannst\n"
 	.string "du bessere Pokémon fangen.$"
+#else
+	.string "Fishing is a way of life!\n"
+	.string "It is like the finest poetry.\p"
+	.string "A crummy OLD ROD could only catch\n"
+	.string "MAGIKARP, yes?\p"
+	.string "But with a GOOD ROD, you can\n"
+	.string "catch much better POKéMON.$"
+#endif
 
 FuchsiaCity_House2_Text_OhThatsDisappointing::
+#if GERMAN
 	.string "Oh!\n"
 	.string "Das ist so enttäuschend...$"
+#else
+	.string "Oh…\n"
+	.string "That's so disappointing…$"
+#endif
 
 FuchsiaCity_House2_Text_HowAreTheFishBiting::
+#if GERMAN
 	.string "Hallo, {PLAYER}!\p"
 	.string "Wie beißen die Fische?$"
+#else
+	.string "Hello there, {PLAYER}!\p"
+	.string "How are the fish biting?$"
+#endif
 
 FuchsiaCity_House2_Text_YouHaveNoRoomForGift::
+#if GERMAN
 	.string "Oh nein!\p"
 	.string "Ich habe ein Geschenk für dich!\n"
 	.string "Aber du kannst nichts mehr tragen!$"
+#else
+	.string "Oh, no!\p"
+	.string "I had a gift for you, but you have\n"
+	.string "no room for it!$"
+#endif
 

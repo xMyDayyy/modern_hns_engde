@@ -274,6 +274,7 @@ LavaridgeTown_EventScript_HerbShopSign::
 	end
 
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
+#if GERMAN
 	.string "Maike: {PLAYER}{KUN}! Wir haben uns\n"
 	.string "lange nicht gesehen!\p"
 	.string "Oh? Als ich die Heißen Quellen aufge-\n"
@@ -284,11 +285,22 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 	.string "schon einige Pokémon aufgezogen. \p"
 	.string "Ich denke, das hier wirst du gut\n"
 	.string "gebrauchen können.$"
+#else
+	.string "MAY: {PLAYER}{KUN}! Long time no see!\p"
+	.string "Oh? While I visited the hot springs,\n"
+	.string "you got the LAVARIDGE GYM BADGE.\p"
+	.string "You must have collected\n"
+	.string "good POKéMON…\l"
+	.string "No, I believe you raised some.\p"
+	.string "I guess it would be okay for you to\n"
+	.string "have this.$"
+#endif
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
-	.string "Maike: Mit diesem Wüstenglas wirst du\n"
+#if GERMAN
+	.string "Maike: Mit diesem {COLOR RED}Wüstenglas{COLOR DARK_GRAY} wirst du\n"
 	.string "keine Probleme haben, durch die Wüste\l"
-	.string "in der Nähe von Route 111 zu gehen.\p"
+	.string "in der Nähe von {COLOR RED}Route 11{COLOR DARK_GRAY}1 zu gehen.\p"
 	.string "Aber, wow, {PLAYER}{KUN}…\n"
 	.string "In Arenen antreten…\p"
 	.string "Du strengst dich bestimmt sehr an,\l"
@@ -300,17 +312,39 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "Vater in der Arena von Blütenburg\l"
 	.string "City herausfordern.\p"
 	.string "{PLAYER}{KUN}, man sieht sich!$"
+#else
+	.string "MAY: With those GO-GOGGLES, you'll\n"
+	.string "have no trouble getting through the\l"
+	.string "desert near ROUTE 111.\p"
+	.string "But, wow, {PLAYER}{KUN}…\n"
+	.string "Challenging GYMS…\p"
+	.string "You're trying hard because you don't\n"
+	.string "want to lose to me, I bet!\p"
+	.string "{PLAYER}{KUN}, I think I should challenge\n"
+	.string "your dad in PETALBURG GYM.\p"
+	.string "See you again!$"
+#endif
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
+#if GERMAN
 	.string "Brix: {PLAYER}, wie geht es dir?\p"
 	.string "Hmm… Das ist eine beachtliche\n"
 	.string "Sammlung von Orden.\p"
 	.string "Also gut.\n"
 	.string "Hier, dies schenke ich dir.$"
+#else
+	.string "BRENDAN: {PLAYER}, hey, it's been a while.\n"
+	.string "How's it going?\p"
+	.string "Hmm…\n"
+	.string "That's a decent collection of BADGES.\p"
+	.string "All right, then.\n"
+	.string "You may as well have this.$"
+#endif
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
+#if GERMAN
 	.string "Brix: Nimm das mit, wenn du in die\n"
-	.string "Wüste in der Nähe von Route 111\n"
+	.string "Wüste in der Nähe von {COLOR RED}Route 11{COLOR DARK_GRAY}1\n"
 	.string "willst. \p"
 	.string "Da sollten sich einige Pokémon fangen\n"
 	.string "lassen, die Wüstenbewohner sind. Schau\l"
@@ -321,8 +355,23 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "Im Gegensatz zu dir, macht dein Vater\n"
 	.string "einen sehr starken Eindruck.\p"
 	.string "Man sieht sich!$"
+#else
+	.string "BRENDAN: Keep those with you if you're\n"
+	.string "planning on going into that desert near\l"
+	.string "ROUTE 111.\p"
+	.string "There should be some POKéMON that\n"
+	.string "are exclusively desert-dwellers.\l"
+	.string "You might look around for those.\p"
+	.string "As for me…\n"
+	.string "I'm considering challenging NORMAN,\l"
+	.string "the GYM LEADER of PETALBURG.\p"
+	.string "Unlike you, {PLAYER}, your dad looks like\n"
+	.string "he really is tough.\p"
+	.string "See you around!$"
+#endif
 
 LavaridgeTown_Text_HaveEggWillYouTakeIt:
+#if GERMAN
 	.string "Ich habe hier ein Ei.\p"
 	.string "Ich dachte, ich könnte es ausbrüten,\n"
 	.string "indem ich es im heißen Sand bei den\p"
@@ -337,29 +386,69 @@ LavaridgeTown_Text_HaveEggWillYouTakeIt:
 	.string "So, was meinst du? Wirst du das Ei\n"
 	.string "mit-\l"
 	.string "nehmen und zum Ausschlüpfen bringen?$"
+#else
+	.string "I have here an EGG.\p"
+	.string "I'd hoped to hatch it by covering it in\n"
+	.string "hot sand by the hot springs.\l"
+	.string "But that doesn't seem to be enough…\p"
+	.string "I've heard it would be best if it were\n"
+	.string "kept together with POKéMON and\l"
+	.string "carried about.\p"
+	.string "You are a TRAINER, yes?\n"
+	.string "And your POKéMON radiate vitality.\p"
+	.string "So, what say you?\n"
+	.string "Will you take this EGG to hatch?$"
+#endif
 
 LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg:
+#if GERMAN
 	.string "Gut! Ich hoffe, du hast mehr Glück\n"
 	.string "mit diesem Ei!$"
+#else
+	.string "Good! I hope you'll walk plenty with\n"
+	.string "this here EGG!$"
+#endif
 
 LavaridgeTown_Text_ReceivedTheEgg:
+#if GERMAN
 	.string "{PLAYER} erhält ein Ei.$"
+#else
+	.string "{PLAYER} received the EGG.$"
+#endif
 
 LavaridgeTown_Text_NoRoomForThisEgg:
+#if GERMAN
 	.string "Oh! Du hast zu viele Pokémon dabei.\n"
 	.string "Du hast keinen Platz für das Ei…$"
+#else
+	.string "Oh? You've too many POKéMON.\n"
+	.string "There's no room for this EGG…$"
+#endif
 
 LavaridgeTown_Text_AsYouWishThen:
+#if GERMAN
 	.string "Ganz, wie du willst…\p"
 	.string "Wenn dein Herz sich anders entscheidet\n"
 	.string "und das Ei haben möchte, ich bin hier.$"
+#else
+	.string "As you wish, then…\p"
+	.string "If you have a change of heart about\n"
+	.string "hatching this EGG, I will be here.$"
+#endif
 
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
+#if GERMAN
 	.string "Von Zeit zu Zeit findet man in der\n"
 	.string "Pension ein Ei.\p"
 	.string "So zumindest erzählt man es sich.$"
+#else
+	.string "Every so often, an EGG will be found at\n"
+	.string "the POKéMON DAY CARE.\p"
+	.string "Or at least that's how the rumor goes.$"
+#endif
 
 LavaridgeTown_Text_HotSpringsNeverRunDry:
+#if GERMAN
 	.string "Wir nehmen uns so viel heißes Wasser,\n"
 	.string "wie wir brauchen, und trotzdem\n"
 	.string "trocknen\l"
@@ -371,8 +460,18 @@ LavaridgeTown_Text_HotSpringsNeverRunDry:
 	.string "im Boden werden durch das Magma\l"
 	.string "erhitzt und kommen als heiße Quellen\l"
 	.string "an die Erdoberfläche.$"
+#else
+	.string "We draw as much hot water as we need,\n"
+	.string "and yet the hot springs never run dry.\p"
+	.string "Isn't it magical?\p"
+	.string "These hot springs appear near active\n"
+	.string "volcanoes. Veins of water under the\l"
+	.string "ground are heated by magma to well up\l"
+	.string "as hot springs.$"
+#endif
 
 LavaridgeTown_Text_PokemonNippedBackside:
+#if GERMAN
 	.string "Hier im heißen Sand vergraben zu sein,\n"
 	.string "ist…  Seufz…\p"
 	.string "So warm und einfach himmlisch… Seufz…\n"
@@ -380,44 +479,95 @@ LavaridgeTown_Text_PokemonNippedBackside:
 	.string "Äh? Gyaah! Aua!\p"
 	.string "Ein Pokémon hat meinen Rücken ange-\n"
 	.string "knabbert!$"
+#else
+	.string "Being buried in this hot sand is…\n"
+	.string "Sigh…\p"
+	.string "So warm and heavenly…\p"
+	.string "Eh? Gyaah! Ouch!\p"
+	.string "A POKéMON nipped my backside!$"
+#endif
 
 LavaridgeTown_Text_OhYouLikeHotSprings:
+#if GERMAN
 	.string "Ach, du magst auch heiße Quellen?\p"
 	.string "Das ist überraschend bei einem so\n"
 	.string "jungen Menschen wie dir.$"
+#else
+	.string "Oh, you like hot springs, do you?\p"
+	.string "That's surprising for one as young\n"
+	.string "as you.$"
+#endif
 
 LavaridgeTown_Text_BatheInHotSpringsEveryDay:
+#if GERMAN
 	.string "Ich bade jeden Tag in den\n"
 	.string "Heißen Quellen.\p"
 	.string "Ich will ein wunderschöner und starker\n"
 	.string "Arenaleiter wie Flavia werden.$"
+#else
+	.string "I bathe in the hot springs every day.\p"
+	.string "I want to become a beautiful and strong\n"
+	.string "GYM LEADER like FLANNERY.$"
+#endif
 
 LavaridgeTown_Text_IfPokemonInHotSprings:
+#if GERMAN
 	.string "Wenn Leute ihre Pokémon in die Heißen\n"
 	.string "Quellen setzen, ist das schon\l"
 	.string "merkwürdig.\p"
 	.string "Nun, es könnte auch ein Bad in\n"
 	.string "Elektrizität, ein Schaumbad oder sogar\l"
 	.string "ein Bad in Lava sein…$"
+#else
+	.string "If people put POKéMON in hot springs,\n"
+	.string "it might be seriously strange.\p"
+	.string "Why, it might be an electric bath, or\n"
+	.string "a bubble bath, or even a lava bath…$"
+#endif
 
 LavaridgeTown_Text_HotSpringsClaims:
+#if GERMAN
 	.string "Man sagt, diese Heißen Quellen seien\n"
 	.string "gut gegen nervliche Anspannungen, ge-\l"
 	.string "gen Muskelkrämpfe, sie sollen bei\l"
 	.string "romantischen Problemen helfen und\l"
 	.string "auch bei Geldsorgen…$"
+#else
+	.string "They're claiming that these hot springs\n"
+	.string "are good for calming nervous tension,\l"
+	.string "relieving aching muscles, solving\l"
+	.string "romantic problems, and attracting\l"
+	.string "money…$"
+#endif
 
 LavaridgeTown_Text_TownSign:
+#if GERMAN
 	.string "Bad Lavastadt\p"
 	.string "“Pokémon-Center - Heiße Quellen\n"
 	.string "Der ideale Ort zum Entspannen!”$"
+#else
+	.string "LAVARIDGE TOWN\p"
+	.string "“POKéMON CENTER HOT SPRINGS\n"
+	.string "An excellent place for relaxing!”$"
+#endif
 
 LavaridgeTown_Text_GymSign:
+#if GERMAN
 	.string "Pokémon Arena von Bad Lavastadt\n"
 	.string "Leiterin: Flavia\l"
 	.string "“Die mit der brennenden Leidenschaft!”$"
+#else
+	.string "LAVARIDGE TOWN POKéMON GYM\n"
+	.string "LEADER: FLANNERY\l"
+	.string "“One with a fiery passion that burns!”$"
+#endif
 
 LavaridgeTown_Text_HerbShopSign:
+#if GERMAN
 	.string "Pokémon Kräuterladen\n"
 	.string "“Bitterer Geschmack - Bessere Kur!”$"
+#else
+	.string "POKéMON HERB SHOP\n"
+	.string "“Bitter taste--better cure!”$"
+#endif
 

@@ -160,7 +160,11 @@ static const u8 sText_GetsAPokeBlockQuestion[] = _(" gets a {POKEBLOCK}?");
 static const u8 sText_WasEnhanced[] = _("was enhanced!");
 static const u8 sText_NothingChanged[] = _("Nothing changed!");
 static const u8 sText_WontEatAnymore[] = _("It won't eat anymore…");
+#if GERMAN
 static const u8 sText_NatureSlash[] = _("Nature/");
+#else
+static const u8 sText_NatureSlash[] = _("NATURE/");
+#endif
 
 extern const u16 gConditionGraphData_Pal[];
 extern const u16 gConditionText_Pal[];

@@ -57,6 +57,7 @@ SeafloorCavern_Entrance_EventScript_GruntFacePlayerNorth::
 	return
 
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
+#if GERMAN
 	.string "Hey! Dein Gesicht kenne ich doch!\p"
 	.string "Du bist hier, und das kann nur\n"
 	.string "bedeuten,\n"
@@ -72,8 +73,25 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
 	.string "City gesehen worden sein.\p"
 	.string "Die passen mit Sicherheit nicht ans\n"
 	.string "Meer.$"
+#else
+	.string "Hey!\n"
+	.string "I remember your face!\p"
+	.string "If you're here, it must mean that\n"
+	.string "you're about to mess with us again!\p"
+	.string "A punk like you, do you really think\n"
+	.string "you can take on TEAM AQUA?\p"
+	.string "I'd say you're too early by about\n"
+	.string "a trillion years!\p"
+	.string "You're a perfect fit for the likes of\n"
+	.string "TEAM MAGMA!\p"
+	.string "Speaking of TEAM MAGMA, I hear they\n"
+	.string "were spotted near MOSSDEEP.\p"
+	.string "That bunch of goons, they sure don't\n"
+	.string "look good near the sea!$"
+#endif
 
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort:
+#if GERMAN
 	.string "Glaubst du wirklich, dass ein Baby wie\n"
 	.string "du es mit Team Aqua aufnehmen kann?\p"
 	.string "Du versuchst es besser in drei\n"
@@ -84,4 +102,16 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort:
 	.string "City gesehen worden sein.\p"
 	.string "Die passen mit Sicherheit nicht ans\n"
 	.string "Meer.$"
+#else
+	.string "A punk like you, do you really think\n"
+	.string "you can take on TEAM AQUA?\p"
+	.string "I'd say you're too early by about\n"
+	.string "a trillion years!\p"
+	.string "You're a perfect fit for the likes of\n"
+	.string "TEAM MAGMA!\p"
+	.string "Speaking of TEAM MAGMA, I hear they\n"
+	.string "were spotted near MOSSDEEP.\p"
+	.string "That bunch of goons, they sure don't\n"
+	.string "look good near the sea!$"
+#endif
 

@@ -209,74 +209,149 @@ SaffronCity_CopyCatsHouse_2F_EventScript_CopycatAfterDollReturned_Female::
 	end
 
 Copycat_Text_Male_1:
+#if GERMAN
 	.string "{PLAYER}: Hallo!\n"
 	.string "Bist du ein Fan von Pokémon?\p"
 	.string "{PLAYER}: Hey, ich habe dich\n"
 	.string "zuerst gefragt!\p"
 	.string "{PLAYER}: …Hä? Was soll das hier\n"
 	.string "werden? Du bist echt komisch…$"
+#else
+	.string "{PLAYER}: Hi! Do you like POKéMON?\p"
+	.string "{PLAYER}: Uh, no, I just asked you.\p"
+	.string "{PLAYER}: Huh? You're strange!$"
+#endif
 
 Copycat_Text_QuickMimicking:
+#if GERMAN
 	.string "Nachahmerin: …Hm?\n"
 	.string "Das Nachahmen aufgeben?\p"
 	.string "Aber das ist doch meine\n"
 	.string "Lieblingsbeschäftigung!$"
+#else
+	.string "COPYCAT: Hmm? Quit mimicking?\p"
+	.string "But that's my favorite hobby!$"
+#endif
 
 Copycat_Text_Male_2:
+#if GERMAN
 	.string "{PLAYER}: Hallo! Wie geht’s dir so?\n"
 	.string "Du bist traurig, weil du deine Poképuppe\l"
 	.string "von Piepi verloren hast, stimmt’s?\p"
 	.string "{PLAYER}: Gibst du mir einen\n"
-	.string "Fahrschein, wenn ich sie finde?\p"
+	.string "{COLOR RED}Fahrschein{COLOR DARK_GRAY}, wenn ich sie finde?\p"
 	.string "{PLAYER}: In Ordnung, dann werde\n"
 	.string "ich sie für dich suchen gehen!\p"
 	.string "Du hast sie wahrscheinlich auf dem\n"
-	.string "Weg nach Orania City verloren, oder?$"
+	.string "Weg nach {COLOR RED}Orania City{COLOR DARK_GRAY} verloren, oder?$"
+#else
+	.string "{PLAYER}: Hi! I heard that you\n"
+	.string "lost your favorite POKé DOLL.\p"
+	.string "{PLAYER}: If I find it, you'll give\n"
+	.string "me a rail PASS?\p"
+	.string "{PLAYER}: I'll go find it for you.\p"
+	.string "You think you lost it when you\n"
+	.string "went to VERMILION CITY?$"
+#endif
 
 Copycat_Text_Worried:
+#if GERMAN
 	.string "Nachahmerin: Was? Ich soll dir\n"
 	.string "nicht sagen, was du zu tun hast?\p"
 	.string "Aber ich mache mir wirklich Sorgen!\n"
 	.string "Was, wenn jemand sie finden sollte?$"
+#else
+	.string "COPYCAT: Pardon?\p"
+	.string "I shouldn't decide what you\n"
+	.string "should do?\p"
+	.string "But I'm really worried… What if\n"
+	.string "someone finds it?$"
+#endif
 
 Copycat_Text_GiveDoll:
+#if GERMAN
 	.string "Nachahmerin: Jaa!\n"
-	.string "Das ist meine Piepi-Puppe!\p"
+	.string "Das ist meine {COLOR RED}Piepi{COLOR DARK_GRAY}-Puppe!\p"
 	.string "Siehst du die Naht am rechten\n"
 	.string "Bein? Das ist der Beweis!$"
+#else
+	.string "COPYCAT: Yay! That's my CLEFAIRY\n"
+	.string "POKé DOLL!\p"
+	.string "See the tear where the right leg\n"
+	.string "is sewn on? That's proof!$"
+#endif
 
 Copycat_Text_GivePass:
+#if GERMAN
 	.string "Also gut. Hier ist\n"
-	.string "der Fahrschein für den Magnetzug! Wie\l"
+	.string "der {COLOR RED}Fahrschein{COLOR DARK_GRAY} für den Magnetzug! Wie\l"
 	.string "versprochen.$"
+#else
+	.string "OK. Here's the MAGNET TRAIN PASS\n"
+	.string "like I promised!$"
+#endif
 
 Copycat_Text_ExplainPass:
+#if GERMAN
 	.string "Nachahmerin: Das\n"
-	.string "ist der Fahrschein für den Magnetzug.\p"
+	.string "ist der {COLOR RED}Fahrschein{COLOR DARK_GRAY} für den Magnetzug.\p"
 	.string "Der Mann von der Eisenbahn gab mir\n"
 	.string "das, als sie unser altes\l"
 	.string "Haus niederrissen, um den\p"
 	.string "Bahnhof zu bauen.$"
+#else
+	.string "COPYCAT: That's the PASS for the\n"
+	.string "MAGNET TRAIN.\p"
+	.string "The rail company man gave me\n"
+	.string "that when they tore down our old\l"
+	.string "house for the STATION.$"
+#endif
 
 Copycat_Text_Male_3:
+#if GERMAN
 	.string "{PLAYER}: Hallo! Vielen Dank für\n"
-	.string "den Fahrschein noch mal!\p"
+	.string "den {COLOR RED}Fahrschein{COLOR DARK_GRAY} noch mal!\p"
 	.string "{PLAYER}: Oh Mann…\p"
 	.string "{PLAYER}: Macht es dir wirklich\n"
 	.string "so viel Spaß, mich nachzuahmen?$"
+#else
+	.string "{PLAYER}: Hi! Thanks a lot for the\n"
+	.string "rail PASS!\p"
+	.string "{PLAYER}: Pardon?\p"
+	.string "{PLAYER}: Is it that fun to mimic\n"
+	.string "my every move?$"
+#endif
 
 Copycat_Text_ItsAScream:
+#if GERMAN
 	.string "Nachahmerin: Na klar!\n"
 	.string "Ich amüsiere mich wie verrückt!$"
+#else
+	.string "COPYCAT: You bet! It's a scream!$"
+#endif
 
 Copycat_Text_Dodrio1:
+#if GERMAN
 	.string "Dodri: Gii giii!$"
+#else
+	.string "DODRIO: Gii giii!$"
+#endif
 
 Copycat_Text_Dodrio2:
+#if GERMAN
 	.string "Spieglein, Spieglein an der Wand,\p"
 	.string "Wer ist die Schönste im ganzen\p"
 	.string "Land?$"
+#else
+	.string "MIRROR, MIRROR ON THE WALL,\n"
+	.string "WHO'S THE FAIREST ONE OF ALL?$"
+#endif
 
 Copycat_Text_2FDoll:
+#if GERMAN
 	.string "Das ist ein seltenes Pokémon! Was?\p"
 	.string "Es ist nur eine Puppe…$"
+#else
+	.string "This is a rare POKéMON! Huh?\p"
+	.string "It's only a doll…$"
+#endif

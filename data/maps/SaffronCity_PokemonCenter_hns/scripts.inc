@@ -23,6 +23,7 @@ SaffronCity_PokemonCenter_EventScript_Youngster::
 	end
 
 SaffronCity_PokemonCenter1F_Text_Teacher:
+#if GERMAN
 	.string "Wie sehen eigentlich die\n"
 	.string "Pokémon-Center in Johto aus?\p"
 	.string "…Oh, aha. Sie unterscheiden sich also\n"
@@ -30,21 +31,48 @@ SaffronCity_PokemonCenter1F_Text_Teacher:
 	.string "Dann sage ich meinem Kumpel aus Johto,\n"
 	.string "dass er ein Marill fangen und es mit\l"
 	.string "mir tauschen soll!$"
+#else
+	.string "What are JOHTO's POKéMON CENTERS\n"
+	.string "like?\p"
+	.string "…Oh, I see. So they're not much\n"
+	.string "different from the ones in KANTO.\p"
+	.string "I can go to JOHTO without\n"
+	.string "worrying, then!$"
+#endif
 
 SaffronCity_PokemonCenter1F_Text_Fisher:
-	.string "Ich bin gerade durch den Felstunnel\n"
+#if GERMAN
+	.string "Ich bin gerade durch den {COLOR RED}Felstunnel{COLOR DARK_GRAY}\n"
 	.string "gekommen. In der Umgebung vom\l"
-	.string "Kraftwerk war irgendetwas im Gange…$"
+	.string "{COLOR RED}Kraftwerk{COLOR DARK_GRAY} war irgendetwas im Gange…$"
+#else
+	.string "I just happened to come through\n"
+	.string "ROCK TUNNEL.\p"
+	.string "There was some commotion at the\n"
+	.string "POWER PLANT.$"
+#endif
 
 SaffronCity_PokemonCenter1F_Text_Fisher_ReturnedPart:
+#if GERMAN
 	.string "Die Höhlen stürzen leicht ein.\p"
 	.string "In letzter Zeit sind einige Höhlen\n"
 	.string "verschwunden. Wie\l"
-	.string "die Höhle vor Azuria City.\p"
+	.string "die Höhle vor {COLOR RED}Azuria City{COLOR DARK_GRAY}.\p"
 	.string "Für einen Profi-\n"
 	.string "Wanderer ist das Grundwissen.$"
+#else
+	.string "There's an odd cave in CERULEAN.\p"
+	.string "As a pro HIKER, I should explore it,\n"
+	.string "but that place scares even me.$"
+#endif
 
 SaffronCity_PokemonCenter1F_Text_Youngster:
+#if GERMAN
 	.string "Saffronia City ist berühmt für die\n"
 	.string "Zentrale der Silph Co. und den\l"
 	.string "Magnetzug-Bahnhof!$"
+#else
+	.string "SILPH CO.'s HEAD OFFICE and the\n"
+	.string "MAGNET TRAIN STATION--they're the\l"
+	.string "places to see in SAFFRON.$"
+#endif

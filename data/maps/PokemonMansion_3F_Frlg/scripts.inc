@@ -31,28 +31,60 @@ PokemonMansion_3F_EventScript_Braydon::
 	end
 
 PokemonMansion_1F_Text_SimonIntro::
+#if GERMAN
 	.string "Dieses Gebiet hier ist riesig!$"
+#else
+	.string "This place is, like, huge!$"
+#endif
 
 PokemonMansion_1F_Text_SimonDefeat::
+#if GERMAN
 	.string "Tschüss!$"
+#else
+	.string "Ayah!$"
+#endif
 
 PokemonMansion_1F_Text_SimonPostBattle::
+#if GERMAN
 	.string "Ich frage mich, wo mein Partner\n"
 	.string "wohl sein mag!?$"
+#else
+	.string "I wonder where my partner went.$"
+#endif
 
 PokemonMansion_1F_Text_BraydonIntro::
+#if GERMAN
 	.string "Mein Mentor lebte einst hier...$"
+#else
+	.string "My mentor once lived here.$"
+#endif
 
 PokemonMansion_1F_Text_BraydonDefeat::
+#if GERMAN
 	.string "Wow!\n"
 	.string "Unglaublich!$"
+#else
+	.string "Whew!\n"
+	.string "Overwhelming!$"
+#endif
 
 PokemonMansion_1F_Text_BraydonPostBattle::
+#if GERMAN
 	.string "Du kommst nicht weiter? Springe\n"
 	.string "einfach da drüben herunter!$"
+#else
+	.string "So, you're stuck?\n"
+	.string "Try jumping off over there!$"
+#endif
 
 PokemonMansion_1F_Text_MewGaveBirthToMewtwo::
+#if GERMAN
 	.string "Tagebuch: 6. Februar\n"
 	.string "Mew hat ein Junges geboren!\p"
 	.string "Wir haben es Mewtu genannt.$"
+#else
+	.string "Diary: Feb. 6\n"
+	.string "MEW gave birth.\p"
+	.string "We named the newborn MEWTWO.$"
+#endif
 

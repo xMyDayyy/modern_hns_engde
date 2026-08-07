@@ -73,57 +73,119 @@ CeruleanCity_House1_EventScript_StopDescribingBadges::
 	end
 
 CeruleanCity_House1_Text_BadgesHaveAmazingSecrets::
+#if GERMAN
 	.string "Nur sehr begabte Trainer tragen\n"
 	.string "Pokémon-Orden.\p"
 	.string "Wie ich sehe, bist du bereits\n"
 	.string "Träger eines Ordens.\p"
 	.string "Die Orden sind geheimnisumwoben!$"
+#else
+	.string "Only skilled TRAINERS can collect\n"
+	.string "POKéMON BADGES.\p"
+	.string "I see you have at least one.\p"
+	.string "Those BADGES have amazing secrets,\n"
+	.string "did you know?$"
+#endif
 
 CeruleanCity_House1_Text_DescribeWhichBadge::
+#if GERMAN
 	.string "Also dann...\p"
 	.string "Über welchen der acht Orden soll\n"
 	.string "ich dir etwas erzählen?$"
+#else
+	.string "Now then…\p"
+	.string "Which of the eight BADGES should\n"
+	.string "I describe?$"
+#endif
 
 CeruleanCity_House1_Text_ComeVisitAnytime::
+#if GERMAN
 	.string "Besuche mich, wann immer du\n"
 	.string "möchtest.$"
+#else
+	.string "Come visit me anytime you wish.$"
+#endif
 
 CeruleanCity_House1_Text_AttackStatFlash::
+#if GERMAN
 	.string "Die Angriffe deiner Pokémon\n"
 	.string "werden ein wenig verstärkt.\p"
 	.string "Außerdem kannst du jederzeit Blitz\n"
 	.string "einsetzen.$"
+#else
+	.string "The ATTACK stat of all your\n"
+	.string "POKéMON increases a little bit.\p"
+	.string "It also lets you use the move\n"
+	.string "FLASH outside of battle.$"
+#endif
 
 CeruleanCity_House1_Text_ObeyLv30Cut::
+#if GERMAN
 	.string "Pokémon bis Level 30 folgen deinen\n"
 	.string "Befehlen!\p"
 	.string "Pokémon höherer Level gehorchen\n"
 	.string "dir jedoch nicht!\p"
 	.string "Ferner kannst du den Zerschneider\n"
 	.string "außerhalb von Kämpfen nutzen!$"
+#else
+	.string "POKéMON up to Lv. 30 will obey\n"
+	.string "you.\p"
+	.string "That includes even outsiders you\n"
+	.string "obtain in trades.\p"
+	.string "POKéMON of higher levels will\n"
+	.string "be unruly in battle, however.\p"
+	.string "It also lets you use the move\n"
+	.string "CUT outside of battle.$"
+#endif
 
 CeruleanCity_House1_Text_SpeedStatFly::
+#if GERMAN
 	.string "Die Initiative deiner Pokémon\n"
 	.string "nimmt zu.\p"
 	.string "Des Weiteren ist es dir möglich,\n"
 	.string "Fliegen außerhalb von Kämpfen\l"
 	.string "einzusetzen.$"
+#else
+	.string "The SPEED stat of all your\n"
+	.string "POKéMON increases a little bit.\p"
+	.string "It also lets you use the move\n"
+	.string "FLY outside of battle.$"
+#endif
 
 CeruleanCity_House1_Text_ObeyLv50Strength::
+#if GERMAN
 	.string "Pokémon bis Level 50 folgen deinen\n"
 	.string "Befehlen.\p"
 	.string "Pokémon höherer Level gehorchen\n"
 	.string "dir jedoch nicht!\p"
 	.string "Zusätzlich kannst du außerhalb von\n"
 	.string "Kämpfen Stärke einsetzen.$"
+#else
+	.string "POKéMON up to Lv. 50 will obey\n"
+	.string "you.\p"
+	.string "That includes even outsiders you\n"
+	.string "obtain in trades.\p"
+	.string "POKéMON of higher levels will\n"
+	.string "be unruly in battle, however.\p"
+	.string "It also lets you use the move\n"
+	.string "STRENGTH outside of battle.$"
+#endif
 
 CeruleanCity_House1_Text_DefenseStatSurf::
+#if GERMAN
 	.string "Die Verteidigung deiner Pokémon\n"
 	.string "wird verbessert.\p"
 	.string "Ferner kannst du außerhalb von\n"
 	.string "Kämpfen Surfer verwenden.$"
+#else
+	.string "The DEFENSE stat of all your\n"
+	.string "POKéMON increases a little bit.\p"
+	.string "It also lets you use the move\n"
+	.string "SURF outside of battle.$"
+#endif
 
 CeruleanCity_House1_Text_ObeyLv70RockSmash::
+#if GERMAN
 	.string "Pokémon bis Level 70 folgen deinen\n"
 	.string "Befehlen.\p"
 	.string "Das gilt auch für getauschte\n"
@@ -133,13 +195,34 @@ CeruleanCity_House1_Text_ObeyLv70RockSmash::
 	.string "Du kannst den Zerschmetterer\n"
 	.string "nun auch außerhalb eines Kampfes\l"
 	.string "anwenden.$"
+#else
+	.string "POKéMON up to Lv. 70 will obey\n"
+	.string "you.\p"
+	.string "That includes even outsiders you\n"
+	.string "obtain in trades.\p"
+	.string "POKéMON of higher levels will\n"
+	.string "be unruly in battle, however.\p"
+	.string "It also lets you use the move\n"
+	.string "ROCK SMASH outside of battle.$"
+#endif
 
 CeruleanCity_House1_Text_SpStatsWaterfall::
+#if GERMAN
 	.string "Der SP. ANG.- und SP. Ver.-Wert\n"
 	.string "deiner Pokémon steigt geringfügig.\p"
 	.string "Du kannst die Attacke Kaskade\n"
 	.string "außerhalb eines Kampfes anwenden.$"
+#else
+	.string "The SP. ATK and SP. DEF stats of\n"
+	.string "all your POKéMON rise a little bit.\p"
+	.string "It also lets you use the move\n"
+	.string "WATERFALL outside of battle.$"
+#endif
 
 CeruleanCity_House1_Text_AllMonsWillObeyYou::
+#if GERMAN
 	.string "Jegliches Pokémon gehorcht dir!$"
+#else
+	.string "All POKéMON will obey you!$"
+#endif
 

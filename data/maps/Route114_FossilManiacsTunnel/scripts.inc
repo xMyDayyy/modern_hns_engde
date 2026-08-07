@@ -54,6 +54,7 @@ Route114_FossilManiacsTunnel_EventScript_PlayerRevivedFossil::
 	end
 
 Route114_FossilManiacsTunnel_Text_LookInDesertForFossils:
+#if GERMAN
 	.string "Ich bin der Fossilmaniac… Ich bin\n"
 	.string "ein netter Typ, der Fossilien liebt…\p"
 	.string "Möchtest du ein Fossil haben?\p"
@@ -64,8 +65,20 @@ Route114_FossilManiacsTunnel_Text_LookInDesertForFossils:
 	.string "möchtest, geh in die Wüste und suche\l"
 	.string "bei den Felsen und im Sand. Vielleicht\l"
 	.string "findest du dort eines…$"
+#else
+	.string "I'm the FOSSIL MANIAC…\n"
+	.string "I'm a nice guy who loves FOSSILS…\p"
+	.string "Do you want a FOSSIL?\p"
+	.string "But the FOSSILS around these parts all\n"
+	.string "belong to me… None for you…\p"
+	.string "If you can't bear to go without\n"
+	.string "a FOSSIL, look in a desert where there\l"
+	.string "are boulders and sand that may hide\l"
+	.string "FOSSILS…$"
+#endif
 
 Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils:
+#if GERMAN
 	.string "Du hast ein Fossil gefunden, stimmt’s?\n"
 	.string "Das ist schön… Traumhaft…\p"
 	.string "Was wirst du mit dem Fossil machen?\p"
@@ -74,12 +87,29 @@ Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils:
 	.string "Leben zu erwecken…\p"
 	.string "Ich liebe Fossilien, daher würde ich\n"
 	.string "so etwas niemals machen…$"
+#else
+	.string "You found a FOSSIL, didn't you?\n"
+	.string "That's so nice… It's so dreamy…\p"
+	.string "What are you going to do with that\n"
+	.string "FOSSIL?\p"
+	.string "From what I've heard, DEVON is doing\n"
+	.string "research on reviving POKéMON from\l"
+	.string "FOSSILS…\p"
+	.string "I love my FOSSILS, so I would never\n"
+	.string "do anything like that…$"
+#endif
 
 Route114_FossilManiacsTunnel_Text_FossilsAreWonderful:
+#if GERMAN
 	.string "Fossilien sind so… Wundervoll…\n"
 	.string "Einfach traumhaft…$"
+#else
+	.string "FOSSILS are so… Wonderful…\n"
+	.string "It's so dreamy…$"
+#endif
 
 Route114_FossilManiacsTunnel_Text_NotSafeThatWay:
+#if GERMAN
 	.string "Oh… So ist es nicht sicher…\p"
 	.string "Ich habe hier gegraben…\n"
 	.string "Die Wand ist auf einmal eingestürzt…\p"
@@ -88,4 +118,14 @@ Route114_FossilManiacsTunnel_Text_NotSafeThatWay:
 	.string "untersucht, denn ich glaube nicht,\n"
 	.string "dass\l"
 	.string "sich dort ein Fossil befindet…$"
+#else
+	.string "Oh…\n"
+	.string "It's not safe that way…\p"
+	.string "I was digging away, you see…\n"
+	.string "When the whole wall collapsed…\p"
+	.string "I think there's a giant cavern\n"
+	.string "underneath now…\p"
+	.string "But I've left it alone because I don't\n"
+	.string "think there are any FOSSILS there…$"
+#endif
 

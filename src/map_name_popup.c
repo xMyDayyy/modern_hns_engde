@@ -505,14 +505,46 @@ static const u8 sRegionMapSectionId_To_PopUpThemeIdMapping_BW[] =
 #endif
 };
 
+#if GERMAN
 static const u8 sText_PyramidFloor1[] = _("Pyramide Ebene 1");
+#else
+static const u8 sText_PyramidFloor1[] = _("PYRAMID FLOOR 1");
+#endif
+#if GERMAN
 static const u8 sText_PyramidFloor2[] = _("Pyramide Ebene 2");
+#else
+static const u8 sText_PyramidFloor2[] = _("PYRAMID FLOOR 2");
+#endif
+#if GERMAN
 static const u8 sText_PyramidFloor3[] = _("Pyramide Ebene 3");
+#else
+static const u8 sText_PyramidFloor3[] = _("PYRAMID FLOOR 3");
+#endif
+#if GERMAN
 static const u8 sText_PyramidFloor4[] = _("Pyramide Ebene 4");
+#else
+static const u8 sText_PyramidFloor4[] = _("PYRAMID FLOOR 4");
+#endif
+#if GERMAN
 static const u8 sText_PyramidFloor5[] = _("Pyramide Ebene 5");
+#else
+static const u8 sText_PyramidFloor5[] = _("PYRAMID FLOOR 5");
+#endif
+#if GERMAN
 static const u8 sText_PyramidFloor6[] = _("Pyramide Ebene 6");
+#else
+static const u8 sText_PyramidFloor6[] = _("PYRAMID FLOOR 6");
+#endif
+#if GERMAN
 static const u8 sText_PyramidFloor7[] = _("Pyramide Ebene 7");
+#else
+static const u8 sText_PyramidFloor7[] = _("PYRAMID FLOOR 7");
+#endif
+#if GERMAN
 static const u8 sText_Pyramid[] = _("Pyramide");
+#else
+static const u8 sText_Pyramid[] = _("PYRAMID");
+#endif
 
 static const u8 *const sBattlePyramid_MapHeaderStrings[FRONTIER_STAGES_PER_CHALLENGE + 1] =
 {

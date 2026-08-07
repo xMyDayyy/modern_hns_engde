@@ -62,16 +62,35 @@ FiveIsland_LostCave_Room10_Movement_SelphyApproach::
 	step_end
 
 FiveIsland_LostCave_Room10_Text_SelphyIntro::
+#if GERMAN
 	.string "Wa-was hast du mit mir vor?$"
+#else
+	.string "W-what do you intend to do with\n"
+	.string "me?$"
+#endif
 
 FiveIsland_LostCave_Room10_Text_SelphyDefeat::
+#if GERMAN
 	.string "Oh… ich hatte Angst,\n"
 	.string "du wolltest mir weh tun!$"
+#else
+	.string "Oh… I was afraid that you meant to\n"
+	.string "harm me.$"
+#endif
 
 FiveIsland_LostCave_Room10_Text_MayIAskYouToTakeMeHome::
+#if GERMAN
 	.string "Ich bin so froh, dass du hier bist!\p"
 	.string "Mir wurde beim Laufen schon\n"
 	.string "langweilig.\p"
 	.string "Darf ich dich bitten, mich nach\n"
 	.string "Hause zu bringen?$"
+#else
+	.string "I am so glad that you happened\n"
+	.string "here.\p"
+	.string "I grew rather bored of walking,\n"
+	.string "and I am feeling fatigued.\p"
+	.string "May I ask you to take me home\n"
+	.string "from here?$"
+#endif
 

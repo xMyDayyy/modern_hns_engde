@@ -905,6 +905,7 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
+#if GERMAN
 	.string "Mutter: {PLAYER}, wir sind da, Schatz!\n"
 	.string "\p"
 	.string "Die Fahrt im Umzugswagen zwischen all\n"
@@ -919,11 +920,28 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "Und… du bekommst dein eigenes\n"
 	.string "Zimmer, {PLAYER}! Lass uns\l"
 	.string "hineingehen!$"
+#else
+	.string "MOM: {PLAYER}, we're here, honey!\p"
+	.string "It must be tiring riding with our things\n"
+	.string "in the moving truck.\p"
+	.string "Well, this is LITTLEROOT TOWN.\p"
+	.string "How do you like it?\n"
+	.string "This is our new home!\p"
+	.string "It has a quaint feel, but it seems to be\n"
+	.string "an easy place to live, don't you think?\p"
+	.string "And, you get your own room, {PLAYER}!\n"
+	.string "Let's go inside.$"
+#endif
 
 LittlerootTown_Text_WaitPlayer:
+#if GERMAN
 	.string "Mutter: Warte, {PLAYER}!$"
+#else
+	.string "MOM: Wait, {PLAYER}!$"
+#endif
 
 LittlerootTown_Text_WearTheseRunningShoes:
+#if GERMAN
 	.string "Mutter: {PLAYER}! Hast du dich schon\n"
 	.string "Prof. Birk vorgestellt?\p"
 	.string "Oh! Was für ein hübsches Pokémon! Du\n"
@@ -939,11 +957,28 @@ LittlerootTown_Text_WearTheseRunningShoes:
 	.string "\p"
 	.string "Sie werden deinen Schritt\n"
 	.string "beschleunigen!$"
+#else
+	.string "MOM: {PLAYER}! {PLAYER}! Did you\n"
+	.string "introduce yourself to PROF. BIRCH?\p"
+	.string "Oh! What an adorable POKéMON!\n"
+	.string "You got it from PROF. BIRCH. How nice!\p"
+	.string "You're your father's child, all right.\n"
+	.string "You look good together with POKéMON!\p"
+	.string "Here, honey! If you're going out on an\n"
+	.string "adventure, wear these RUNNING SHOES.\p"
+	.string "They'll put a zip in your step!$"
+#endif
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
+#if GERMAN
 	.string "{PLAYER} zieht die Turbotreter an.$"
+#else
+	.string "{PLAYER} switched shoes with the\n"
+	.string "RUNNING SHOES.$"
+#endif
 
 LittlerootTown_Text_ExplainRunningShoes:
+#if GERMAN
 	.string "Mutter: {PLAYER}, für diese Schuhe\n"
 	.string "gibt es eine Bedienungsanleitung.\p"
 	.string "“Halte den B-Knopf gedrückt,\n"
@@ -951,8 +986,17 @@ LittlerootTown_Text_ExplainRunningShoes:
 	.string "um zu rennen!\p"
 	.string "Schlüpf in diese Turbotreter und\n"
 	.string "erobere die Welt da draußen!”$"
+#else
+	.string "MOM: {PLAYER}, those shoes came with\n"
+	.string "instructions.\p"
+	.string "“Press the B Button while wearing these\n"
+	.string "RUNNING SHOES to run extra-fast!\p"
+	.string "“Slip on these RUNNING SHOES and race\n"
+	.string "in the great outdoors!”$"
+#endif
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
+#if GERMAN
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
 	.string "Sich vorzustellen, dass du nun dein\n"
@@ -962,31 +1006,67 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Sollte etwas passieren, komm wieder\l"
 	.string "nach Hause.\p"
 	.string "Lauf, schnapp’ sie dir alle, Schatz!$"
+#else
+	.string "… … … … … … … …\n"
+	.string "… … … … … … … …\p"
+	.string "To think that you have your very own\n"
+	.string "POKéMON now…\l"
+	.string "Your father will be overjoyed.\p"
+	.string "…But please be careful.\n"
+	.string "If anything happens, you can come home.\p"
+	.string "Go on, go get them, honey!$"
+#endif
 
 LittlerootTown_Text_CanUsePCToStoreItems:
+#if GERMAN
 	.string "Wenn du einen PC benutzt, kannst du\n"
 	.string "dort Items und Pokémon lagern.\p"
 	.string "Die Kraft der Wissenschaft ist\n"
 	.string "atemberaubend!$"
+#else
+	.string "If you use a PC, you can store items\n"
+	.string "and POKéMON.\p"
+	.string "The power of science is staggering!$"
+#endif
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
+#if GERMAN
 	.string "Prof. Birk verbringt seine Tage in\n"
 	.string "seinem Labor, dann rennt er plötzlich\l"
 	.string "nach draußen in die Wildnis, um zu\l"
 	.string "forschen…\p"
 	.string "Wann ist Prof. Birk eigentlich mal\n"
 	.string "zu Hause?$"
+#else
+	.string "PROF. BIRCH spends days in his LAB\n"
+	.string "studying, then he'll suddenly go out in\l"
+	.string "the wild to do more research…\p"
+	.string "When does PROF. BIRCH spend time\n"
+	.string "at home?$"
+#endif
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
+#if GERMAN
 	.string "Äh… Ähm… Hihi…\p"
 	.string "Wenn du durch das hohe Gras läufst,\n"
 	.string "wirst du wilde Pokémon entdecken.$"
+#else
+	.string "Um, um, um!\p"
+	.string "If you go outside and go in the grass,\n"
+	.string "wild POKéMON will jump out!$"
+#endif
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
+#if GERMAN
 	.string "Das ist gefährlich, wenn du kein\n"
 	.string "eigenes Pokémon dabeihast.$"
+#else
+	.string "It's dangerous if you don't have\n"
+	.string "your own POKéMON.$"
+#endif
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
+#if GERMAN
 	.string "Äh… Hallo!\p"
 	.string "Da ist ein fürchterliches Pokémon!\n"
 	.string "Ich kann seinen Ruf hören!\p"
@@ -995,36 +1075,84 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "Pokémon…\p"
 	.string "Kannst du nicht für mich nachschauen,\n"
 	.string "was da los ist?$"
+#else
+	.string "Um, hi!\p"
+	.string "There are scary POKéMON outside!\n"
+	.string "I can hear their cries!\p"
+	.string "I want to go see what's going on,\n"
+	.string "but I don't have any POKéMON…\p"
+	.string "Can you go see what's happening\n"
+	.string "for me?$"
+#endif
 
 LittlerootTown_Text_YouSavedBirch:
+#if GERMAN
 	.string "Du hast Prof. Birk gerettet!\n"
 	.string "Ich bin total froh!$"
+#else
+	.string "You saved PROF. BIRCH!\n"
+	.string "I'm so glad!$"
+#endif
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
+#if GERMAN
 	.string "Gehst du Pokémon fangen?\n"
 	.string "Viel Glück!$"
+#else
+	.string "Are you going to catch POKéMON?\n"
+	.string "Good luck!$"
+#endif
 
 LittlerootTown_Text_TownSign:
+#if GERMAN
 	.string "Wurzelheim\n"
 	.string "“Ein Ort, wie es ihn nur einmal gibt.”$"
+#else
+	.string "LITTLEROOT TOWN\n"
+	.string "“A town that can't be shaded any hue.”$"
+#endif
 
 LittlerootTown_Text_ProfBirchsLab:
+#if GERMAN
 	.string "Prof. Birks Pokémon-Labor$"
+#else
+	.string "PROF. BIRCH'S POKéMON LAB$"
+#endif
 
 LittlerootTown_Text_PlayersHouse:
+#if GERMAN
 	.string "Haus von {PLAYER}$"
+#else
+	.string "{PLAYER}'s HOUSE$"
+#endif
 
 LittlerootTown_Text_ProfBirchsHouse:
+#if GERMAN
 	.string "Prof. Birks Haus$"
+#else
+	.string "PROF. BIRCH'S HOUSE$"
+#endif
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
+#if GERMAN
 	.string "Prof. Birk: Na, {PLAYER}{KUN}!\n"
 	.string "Das war wirklich gute Arbeit!\p"
 	.string "Ich wusste vom ersten Augenblick an,\n"
 	.string "dass du etwas Besonderes bist. Aber\l"
 	.string "das hätte selbst ich nicht erwartet.\p"
 	.string "Ach ja. Du hast doch noch den\n"
-	.string "Pokédex, den ich dir gegeben habe?\p"
+	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}, den ich dir gegeben habe?\p"
 	.string "Ich will dir etwas zeigen.\n"
 	.string "Lass uns in mein Labor gehen.$"
+#else
+	.string "PROF. BIRCH: Well, well, {PLAYER}{KUN}!\n"
+	.string "That was good work out there!\p"
+	.string "I knew there was something special\n"
+	.string "about you when I first saw you,\l"
+	.string "but I never expected this.\p"
+	.string "Oh, yes. Do you still have the POKéDEX\n"
+	.string "I gave you?\p"
+	.string "I have something to show you.\n"
+	.string "Let's go to my LAB.$"
+#endif
 

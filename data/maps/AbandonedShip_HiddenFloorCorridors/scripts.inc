@@ -132,24 +132,51 @@ AbandonedShip_HiddenFloorCorridors_EventScript_TheDoorIsOpen::
 	end
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm1DoorIsLocked:
+#if GERMAN
 	.string "Die Tür ist verschlossen.\p"
 	.string "“K. 1” steht auf der Tür.$"
+#else
+	.string "The door is locked.\p"
+	.string "“RM. 1” is painted on the door.$"
+#endif
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm2DoorIsLocked:
+#if GERMAN
 	.string "Die Tür ist verschlossen.\p"
 	.string "“K. 2” steht auf der Tür.$"
+#else
+	.string "The door is locked.\p"
+	.string "“RM. 2” is painted on the door.$"
+#endif
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm4DoorIsLocked:
+#if GERMAN
 	.string "Die Tür ist verschlossen.\p"
 	.string "“K. 4” steht auf der Tür.$"
+#else
+	.string "The door is locked.\p"
+	.string "“RM. 4” is painted on the door.$"
+#endif
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm6DoorIsLocked:
+#if GERMAN
 	.string "Die Tür ist verschlossen.\p"
 	.string "“K. 6” steht auf der Tür.$"
+#else
+	.string "The door is locked.\p"
+	.string "“RM. 6” is painted on the door.$"
+#endif
 
 AbandonedShip_HiddenFloorCorridors_Text_InsertedKey:
+#if GERMAN
 	.string "{PLAYER} steckt den Schlüssel ins\n"
 	.string "Schloss und dreht ihn um.\p"
 	.string "Der Schlüssel ist schwergängig, aber\n"
 	.string "die Tür öffnet sich.$"
+#else
+	.string "{PLAYER} inserted and turned the\n"
+	.string "KEY.\p"
+	.string "The inserted KEY stuck fast,\n"
+	.string "but the door opened.$"
+#endif
 

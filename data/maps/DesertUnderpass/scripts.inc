@@ -30,9 +30,17 @@ DesertUnderpass_EventScript_GiveRootFossil::
 
 @ Unused
 DesertUnderpass_Text_FoundRootFossil::
+#if GERMAN
 	.string "{PLAYER} findet das Wurzelfossil.$"
+#else
+	.string "{PLAYER} found the ROOT FOSSIL.$"
+#endif
 
 @ Unused
 DesertUnderpass_Text_FoundClawFossil::
+#if GERMAN
 	.string "{PLAYER} findet das Klauenfossil.$"
+#else
+	.string "{PLAYER} found the CLAW FOSSIL.$"
+#endif
 

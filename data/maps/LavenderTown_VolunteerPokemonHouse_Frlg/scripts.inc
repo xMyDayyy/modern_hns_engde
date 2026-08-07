@@ -81,71 +81,152 @@ LavenderTown_VolunteerPokemonHouse_EventScript_Bookshelf::
 	end
 
 LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere::
+#if GERMAN
 	.string "Ich bin erst vor kurzem in diese\n"
 	.string "Stadt gezogen!\p"
 	.string "Ich hörte, dass Mr. Fuji auch\n"
 	.string "nicht von hier stammt!$"
+#else
+	.string "I recently moved to this town.\p"
+	.string "I hear that MR. FUJI's not from\n"
+	.string "these parts originally, either.$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo::
+#if GERMAN
 	.string "Mr. Fuji ist nicht zu Hause.\n"
 	.string "Wohin mag er gegangen sein?$"
+#else
+	.string "That's odd, MR. FUJI isn't here.\n"
+	.string "Where'd he go?$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother::
+#if GERMAN
 	.string "Mr. Fuji hat oft für Tragossos\n"
 	.string "Mutter gebetet.$"
+#else
+	.string "MR. FUJI had been praying alone\n"
+	.string "for CUBONE's mother.$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons::
+#if GERMAN
 	.string "Das hier ist Mr. Fujis Haus.\p"
 	.string "Er ist sehr fürsorglich!\p"
 	.string "Er kümmert sich um ausgesetzte\n"
 	.string "und verwaiste Pokémon!$"
+#else
+	.string "This is really MR. FUJI's house.\p"
+	.string "He's really kind.\p"
+	.string "He looks after abandoned and\n"
+	.string "orphaned POKéMON.$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug::
+#if GERMAN
 	.string "Sie sind so putzig! Pokémon sind\n"
 	.string "wunderbare Schmusetiere!$"
+#else
+	.string "It's so warm!\n"
+	.string "POKéMON are so nice to hug.$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_Nidorino::
+#if GERMAN
 	.string "Nidorino: Nido!$"
+#else
+	.string "NIDORINO: Gaoo!$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_Psyduck::
+#if GERMAN
 	.string "Enton: Quacka!$"
+#else
+	.string "PSYDUCK: Gwappa!$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis::
+#if GERMAN
 	.string "Mr. Fuji: {PLAYER}!\p"
-	.string "Du kannst deinen Pokédex nicht\n"
+	.string "Du kannst deinen {COLOR RED}Pokédex{COLOR DARK_GRAY} nicht\n"
 	.string "vollenden, wenn du deinen Pokémon\l"
 	.string "nicht genügend Liebe und Respekt\l"
 	.string "entgegenbringst.\p"
 	.string "Dies wird dir bei deinem Abenteuer\n"
 	.string "helfen.$"
+#else
+	.string "MR. FUJI: {PLAYER}…\p"
+	.string "Your POKéDEX quest is one that\n"
+	.string "requires strong dedication.\p"
+	.string "Without deep love for POKéMON,\n"
+	.string "your quest may fail.\p"
+	.string "I'm not sure if this will help you,\n"
+	.string "but I'd like you to have it.$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "eine Pokéflöte!$"
+	.string "eine {COLOR RED}Pokéflöte{COLOR DARK_GRAY}!$"
+#else
+	.string "{PLAYER} received a POKé FLUTE\n"
+	.string "from MR. FUJI.$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute::
+#if GERMAN
 	.string "Schlafende Pokémon wachen auf,\n"
-	.string "wenn sie das Spiel der Pokéflöte\l"
+	.string "wenn sie das Spiel der {COLOR RED}Pokéflöte{COLOR DARK_GRAY}\l"
 	.string "hören!\p"
 	.string "Du kannst damit alle schlafenden\n"
 	.string "Pokémon wecken!$"
+#else
+	.string "Upon hearing the POKé FLUTE,\n"
+	.string "sleeping POKéMON will spring awake.\p"
+	.string "Try using it on POKéMON that are\n"
+	.string "sleeping obstacles.$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis::
+#if GERMAN
 	.string "Du hast keinen Platz für weitere\n"
 	.string "Items!$"
+#else
+	.string "You must make room for this!$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou::
+#if GERMAN
 	.string "Mr. Fuji: War die Flöte schon von\n"
 	.string "Nutzen für dich?$"
+#else
+	.string "MR. FUJI: Has my POKé FLUTE\n"
+	.string "helped you?$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped::
+#if GERMAN
 	.string "Grosses Pokémon-Gewinnspiel!\p"
 	.string "Es sind keine Teilnahmekarten mehr\n"
 	.string "vorhanden!\p"
 	.string "Sie wurden alle abgeschickt!$"
+#else
+	.string "POKéMON FAN MAGAZINE\n"
+	.string "Monthly Grand Prize Drawing!\p"
+	.string "The application form is…\p"
+	.string "Gone! It's been clipped out.\n"
+	.string "Someone must have applied already.$"
+#endif
 
 LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf::
+#if GERMAN
 	.string "Pokémon-Zeitschriften!\p"
 	.string "Pokémon-Notizbücher!\p"
 	.string "Pokémon-Schaubilder!$"
+#else
+	.string "POKéMON magazines line the shelf.\p"
+	.string "POKéMON INSIDER…\p"
+	.string "POKéMON FAN…$"
+#endif
 

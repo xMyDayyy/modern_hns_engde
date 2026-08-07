@@ -36,22 +36,41 @@ BlackthornCity_EventScript_Call::
 	end
 
 BlackthornCity_Text_ElmName:
+#if GERMAN
 	.string "Lind$"
+#else
+	.string "PROF.ELM$"
+#endif
 
 BlackthornCity_Text_BaobaCall:
+#if GERMAN
 	.string "Aufseher Baoba: {PLAYER}!\p"
 	.string "Hier ist Aufseher Baoba.\p"
 	.string "Ich rufe dich an, um dir\n"
-	.string "mitzuteilen, dass die Safari-Zone\l"
+	.string "mitzuteilen, dass die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\l"
 	.string "vergrößert wurde!\p"
 	.string "Bitte komm vorbei!$"
+#else
+	.string "WARDEN BAOBA: {PLAYER}!\p"
+	.string "This is WARDEN BAOBA.\p"
+	.string "I'm calling to tell you that\n"
+	.string "the SAFARI ZONE has expanded!\p"
+	.string "Please come visit!$"
+#endif
 
 BlackthornCity_Text_ElmCall:
+#if GERMAN
 	.string "Hallo, {PLAYER}?\p"
 	.string "Professor Eich hat mir etwas\n"
 	.string "für dich mitgegeben.\p"
 	.string "Komm doch mal im Labor vorbei.\n"
 	.string "Ich zähle auf dich!$"
+#else
+	.string "PROF.ELM: Hello, {PLAYER}?\p"
+	.string "I have something here for you.\n"
+	.string "Could you swing by my LAB?\p"
+	.string "See you later!$"
+#endif
 
 BlackThornCity_EventScript_Sage::
 	lock
@@ -181,85 +200,184 @@ BlackthornCity_EventScript_SantosCompleted::
 
 
 BlackthornCity_Text_ClairNotReady:
+#if GERMAN
 	.string "Sandra, unsere Arenaleiterin, hat\n"
 	.string "deinen Fortschritt verfolgt.\p"
 	.string "Sie kämpft jedoch nur gegen Trainer,\n"
 	.string "die bereits 7 Orden besitzen.$"
+#else
+	.string "CLAIR, our GYM LEADER, has been\n"
+	.string "following your progress.\p"
+	.string "However, she only battles trainers\n"
+	.string "who already have 7 badges.$"
+#endif
 
 BlackthornCity_Text_ClairIsIn:
+#if GERMAN
 	.string "Sandra, unsere Arenaleiterin,\n"
 	.string "erwartet dich bereits.\p"
 	.string "Aber ein mittelmäßiger Trainer\n"
 	.string "könnte sie niemals besiegen!$"
+#else
+	.string "CLAIR, our GYM LEADER, is waiting\n"
+	.string "for you.\p"
+	.string "However, it would be impossible for\n"
+	.string "a run-of-the-mill trainer to win.$"
+#endif
 
 BlackthornCity_Text_ClairIsBeaten:
+#if GERMAN
 	.string "Du hast Sandra besiegt? Unglaublich!\p"
-	.string "Außer Siegfried ist es noch niemandem\n"
+	.string "Außer {COLOR RED}Siegfried{COLOR DARK_GRAY} ist es noch niemandem\n"
 	.string "gelungen, gegen sie zu gewinnen!$"
+#else
+	.string "You defeated CLAIR?\p"
+	.string "That's amazing!\p"
+	.string "I've never heard of her losing to\n"
+	.string "anyone other than LANCE.$"
+#endif
 
 BlackthornGrampsRefusesEntryText:
+#if GERMAN
 	.string "Nein. Nur auserwählte Trainer dürfen\n"
 	.string "hier trainieren.\p"
 	.string "Ich muss dich bitten, wieder zu gehen.$"
+#else
+	.string "No. Only chosen trainers may train\n"
+	.string "here.\p"
+	.string "Please leave.$"
+#endif
 
 BlackthornGrampsGrantsEntryText:
+#if GERMAN
 	.string "Wenn Sandra nichts dagegen hat, wird\n"
 	.string "auch ihr Großvater, unser Meister,\l"
 	.string "sicher kein Problem damit haben.\p"
 	.string "Bitte, tritt ein.$"
+#else
+	.string "If CLAIR allows it, her grand-\n"
+	.string "father--our MASTER--will also.\p"
+	.string "You may enter.$"
+#endif
 
 BlackBeltText_VoicesInMyHead:
+#if GERMAN
 	.string "Aruuu! Stimmen in meinem Kopf!\p"
 	.string "Oh… ich höre ja bloß Radio!$"
+#else
+	.string "Arooo! Voices in my head!\p"
+	.string "Huh? I'm listening to my radio!$"
+#endif
 
 BlackthornCooltrainerF1Text:
+#if GERMAN
 	.string "Oh, sag mal, lässt du deine Pokémon\n"
 	.string "auch manchmal Attacken vergessen?$"
+#else
+	.string "Are you going to make your POKéMON\n"
+	.string "remember some moves?$"
+#endif
 
 BlackthornYoungsterText:
+#if GERMAN
 	.string "Ebenholz City ist berühmt für\n"
 	.string "seine Drachenmeister.$"
+#else
+	.string "Dragon masters all come from the city\n"
+	.string "of BLACKTHORN.$"
+#endif
 
 BlackthornCity_MeetSantosText:
+#if GERMAN
 	.string "Samson: …\p"
 	.string "Ich bin Samson von der Wochentag-\n"
 	.string "Familie. Nun rate mal.$"
+#else
+	.string "SANTOS: …\p"
+	.string "I'm SANTOS of the weekday family.\p"
+	.string "Take a guess.$"
+#endif
 
 BlackthornCity_SantosGivesGiftText:
+#if GERMAN
 	.string "Du kannst das haben…$"
+#else
+	.string "You can have this…$"
+#endif
 
 BlackthornCity_SantosGaveGiftText:
+#if GERMAN
 	.string "Samson: …\p"
-	.string "Bannsticker…\p"
+	.string "{COLOR RED}Bannsticker{COLOR DARK_GRAY}…\p"
 	.string "Geist-Attacken werden verstärkt…\p"
 	.string "Es wird dich gruseln…$"
+#else
+	.string "SANTOS: …\p"
+	.string "SPELL TAG…\p"
+	.string "GHOST-type moves get stronger…\p"
+	.string "It will frighten you…$"
+#endif
 
 BlackthornCity_SantosSaturdayText:
+#if GERMAN
 	.string "Samson: …\p"
 	.string "Wir sehen uns ein andermal…\p"
 	.string "Ich hab keine Geschenke mehr…$"
+#else
+	.string "SANTOS: …\p"
+	.string "See you again on another Saturday…\p"
+	.string "I won't have any more gifts…$"
+#endif
 
 BlackthornCity_SantosNopeText:
+#if GERMAN
 	.string "Samson: Ne.$"
+#else
+	.string "SANTOS: No.$"
+#endif
 
 BlackthornCooltrainerF2Text:
-	.string "Wow, du bist über den Eispfad gekommen!\n"
+#if GERMAN
+	.string "Wow, du bist über den {COLOR RED}Eispfad{COLOR DARK_GRAY} gekommen!\n"
 	.string "Dann musst du ein extrem talentierter\l"
 	.string "Trainer sein!$"
+#else
+	.string "Wow, you came through the ICE PATH?\p"
+	.string "You must be a real hotshot trainer!$"
+#endif
 
 BlackthornCitySignText:
+#if GERMAN
 	.string "Ebenholz City\n"
 	.string "Ein ruhiger Ort in den Bergen$"
+#else
+	.string "BLACKTHORN CITY\p"
+	.string "A Quiet Mountain Retreat$"
+#endif
 
 BlackthornGymSignText:
+#if GERMAN
 	.string "Pokémon-Arena von Ebenholz City\n"
 	.string "Leiterin: Sandra\l"
 	.string "Ein gesegneter Drachenprofi!$"
+#else
+	.string "BLACKTHORN CITY POKéMON GYM\n"
+	.string "LEADER: CLAIR\p"
+	.string "The Blessed User of Dragon POKéMON$"
+#endif
 
 BlackthornCity_Text_MoveDeletersHouseSign:
+#if GERMAN
 	.string "Attacken-Verlerner-Haus$"
+#else
+	.string "MOVE BROS' HOUSE$"
+#endif
 
 BlackthornCity_Text_DragonDenSign:
+#if GERMAN
 	.string "Drachenhöhle\n"
 	.string "Geradeaus$"
+#else
+	.string "DRAGON'S DEN AHEAD$"
+#endif
 

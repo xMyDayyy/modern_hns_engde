@@ -10,13 +10,24 @@ OneIsland_House1_EventScript_OldWoman::
 	end
 
 OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays::
+#if GERMAN
 	.string "Wenn die Sonne scheint,\n"
 	.string "gehe ich hinaus und betrachte\l"
 	.string "den Vulkan!\l"
 	.string "Das ist meine tägliche Routine!$"
+#else
+	.string "On sunny days, I step out and gaze\n"
+	.string "upon the volcano.\p"
+	.string "That's my daily routine.$"
+#endif
 
 OneIsland_House1_Text_LastTimeMtEmberErupted::
+#if GERMAN
 	.string "Lass mich nachdenken…\n"
 	.string "Wann ist der Glutberg zum\l"
 	.string "letzten Mal ausgebrochen?$"
+#else
+	.string "Let me think… When was the last\n"
+	.string "time MT. EMBER erupted?$"
+#endif
 

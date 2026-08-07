@@ -195,5 +195,10 @@ EventScript_SailToSevenIsland::
 	end
 
 Text_AllAboardSeagallopNum::
+#if GERMAN
 	.string "In Ordnung!\n"
 	.string "Los, Seesprint Tempo {STR_VAR_1}!$"
+#else
+	.string "All right!\n"
+	.string "All aboard SEAGALLOP HI-SPEED {STR_VAR_1}!$"
+#endif

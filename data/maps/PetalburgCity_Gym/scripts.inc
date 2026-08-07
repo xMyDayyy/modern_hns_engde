@@ -1139,6 +1139,7 @@ PetalburgCity_Gym_EventScript_GymStatue::
 	end
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
+#if GERMAN
 	.string "Vater: Hm?\p"
 	.string "Na, wenn das nicht {PLAYER} ist!\n"
 	.string "Dann habt ihr also den Umzug beendet?\n"
@@ -1152,16 +1153,40 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
 	.string "{PLAYER}.\p"
 	.string "Das sind großartige Aussichten!\n"
 	.string "Ich kann es kaum erwarten!$"
+#else
+	.string "DAD: Hm?\p"
+	.string "Well, if it isn't {PLAYER}!\n"
+	.string "So you're all finished moving in?\p"
+	.string "I'm surprised that you managed to\n"
+	.string "get here by yourself.\p"
+	.string "Oh, I see.\n"
+	.string "You're with your POKéMON.\p"
+	.string "Hm… Then I guess you're going to\n"
+	.string "become a TRAINER like me, {PLAYER}.\p"
+	.string "That's great news!\n"
+	.string "I'll be looking forward to it!$"
+#endif
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
+#if GERMAN
 	.string "Äh… Ich… Ich hätte so gerne ein\n"
 	.string "Pokémon. Bitte…$"
+#else
+	.string "Um… I…\n"
+	.string "I'd like to get a POKéMON, please…$"
+#endif
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
+#if GERMAN
 	.string "Vater: Wie? Du… Ach… Gut.\n"
 	.string "Du bist Heiko, nicht wahr?$"
+#else
+	.string "DAD: Hm? You're… Uh… Oh, right.\n"
+	.string "You're WALLY, right?$"
+#endif
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
+#if GERMAN
 	.string "Heiko: Ich werde meine Verwandten\n"
 	.string "in Wiesenflur besuchen.\p"
 	.string "Ich glaube, ich werde mich da doch\n"
@@ -1170,39 +1195,86 @@ PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "Pokémon mitnehmen.\p"
 	.string "Aber ich habe noch nie eines gefangen.\n"
 	.string "Ich weiß nicht, wie das geht…$"
+#else
+	.string "WALLY: I'm going to go stay with my\n"
+	.string "relatives in VERDANTURF TOWN.\p"
+	.string "I thought I would be lonely by myself,\n"
+	.string "so I wanted to take a POKéMON along.\p"
+	.string "But I've never caught a POKéMON before.\n"
+	.string "I don't know how…$"
+#endif
 
 PetalburgCity_Gym_Text_DadHmISee:
+#if GERMAN
 	.string "Vater: Oh, ich verstehe…$"
+#else
+	.string "DAD: Hm. I see.$"
+#endif
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
+#if GERMAN
 	.string "Vater: {PLAYER}, hast du das gehört?\p"
 	.string "Hilf doch bitte Heiko dabei,\n"
 	.string "ein Pokémon zu fangen.$"
+#else
+	.string "DAD: {PLAYER}, you heard that,\n"
+	.string "right?\p"
+	.string "Go with WALLY and make sure that he\n"
+	.string "safely catches a POKéMON.$"
+#endif
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
+#if GERMAN
 	.string "Heiko, hier, ich leihe dir mein\n"
 	.string "Pokémon.\p"
 	.string "Heiko hat ein Zigzachs erhalten.$"
+#else
+	.string "WALLY, here, I'll loan you my POKéMON.\p"
+	.string "WALLY received a ZIGZAGOON!$"
+#endif
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
+#if GERMAN
 	.string "Heiko: Oh, wow!!!\n"
 	.string "Ein Pokémon!\p"
 	.string "Vater: Hm. Ich gebe dir auch diesen\n"
 	.string "Pokéball. Dann leg los!\p"
 	.string "Heiko erhält einen Pokéball!$"
+#else
+	.string "WALLY: Oh, wow!\n"
+	.string "A POKéMON!\p"
+	.string "DAD: Hm. I'll give you a POKé BALL, too.\n"
+	.string "Go for it!\p"
+	.string "WALLY received a POKé BALL!$"
+#endif
 
 PetalburgCity_Gym_Text_WallyOhWowThankYou:
+#if GERMAN
 	.string "Heiko: Oh, wow!!!\n"
 	.string "Danke schön!$"
+#else
+	.string "WALLY: Oh, wow!\n"
+	.string "Thank you!$"
+#endif
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
+#if GERMAN
 	.string "{PLAYER}… Kommst du wirklich mit\n"
 	.string "mir???$"
+#else
+	.string "{PLAYER}… Would you really come\n"
+	.string "with me?$"
+#endif
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
+#if GERMAN
 	.string "Vater: Und? Hat es geklappt?$"
+#else
+	.string "DAD: So, did it work out?$"
+#endif
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
+#if GERMAN
 	.string "Heiko: Danke. Ja, wunderbar.\n"
 	.string "Hier haben Sie Ihr Pokémon zurück.\p"
 	.string "Danke, {PLAYER}, dass du mit mir\n"
@@ -1215,8 +1287,22 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "Oh! Meine Mama wartet sicher schon auf\n"
 	.string "mich! Ich muss nach Hause!\p"
 	.string "Bis bald, {PLAYER}!$"
+#else
+	.string "WALLY: Thank you, yes, it did.\n"
+	.string "Here's your POKéMON back.\p"
+	.string "{PLAYER}, thank you for coming along\n"
+	.string "with me.\p"
+	.string "You two are why I was able to catch\n"
+	.string "my POKéMON.\p"
+	.string "I promise I'll take really good\n"
+	.string "care of it.\p"
+	.string "Oh! My mom's waiting for me,\n"
+	.string "so I have to go!\p"
+	.string "Bye, {PLAYER}!$"
+#endif
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
+#if GERMAN
 	.string "Vater: Nun…\p"
 	.string "{PLAYER}, wenn du ein guter Trainer\n"
 	.string "werden willst - hier ist mein Rat.\p"
@@ -1234,8 +1320,26 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "gegeneinander antreten.\p"
 	.string "Aber erst, wenn du stärker geworden\n"
 	.string "bist, {PLAYER}.$"
+#else
+	.string "DAD: Now…\p"
+	.string "{PLAYER}, if you want to become a\n"
+	.string "strong TRAINER, here's my advice.\p"
+	.string "Head for RUSTBORO CITY beyond this\n"
+	.string "town.\p"
+	.string "There, you should challenge\n"
+	.string "the GYM LEADER, ROXANNE.\p"
+	.string "After her, go on to other POKéMON\n"
+	.string "GYMS and defeat their LEADERS.\p"
+	.string "Collect BADGES from them,\n"
+	.string "understood?\p"
+	.string "Of course, I'm a GYM LEADER, too.\n"
+	.string "We'll battle one day, {PLAYER}.\p"
+	.string "But that's only after you become\n"
+	.string "stronger.$"
+#endif
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
+#if GERMAN
 	.string "Vater: Hm? Wolltest du nicht zur\n"
 	.string "Pokémon Arena in Metarost City?\p"
 	.string "Für mich ist es keine Herausforderung,\n"
@@ -1247,8 +1351,19 @@ PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "{PLAYER},\n"
 	.string "sobald du vier Orden erhalten hast,\p"
 	.string "ja?$"
+#else
+	.string "DAD: Hm? Aren't you going to the\n"
+	.string "POKéMON GYM in RUSTBORO CITY?\p"
+	.string "There's no challenge for me to\n"
+	.string "battle a greenhorn TRAINER.\p"
+	.string "{PLAYER}, I want you to challenge me\n"
+	.string "when you become a lot stronger.\p"
+	.string "I'll battle you, {PLAYER}, when you\n"
+	.string "can show me four GYM BADGES, okay?$"
+#endif
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
+#if GERMAN
 	.string "Vater: Oh, ich sehe schon… Du hast die\n"
 	.string "Arenaleiterin in Metarost City\l"
 	.string "besiegt.\p"
@@ -1259,14 +1374,31 @@ PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "den Arenaleiter Kamillo.\p"
 	.string "Du solltest ihn wirklich\n"
 	.string "herausfordern…$"
+#else
+	.string "DAD: I see… So, you've beaten\n"
+	.string "the GYM LEADER in RUSTBORO CITY.\p"
+	.string "But there are many more TRAINERS\n"
+	.string "who are stronger than you, {PLAYER}.\p"
+	.string "Across the sea in DEWFORD TOWN is a\n"
+	.string "GYM LEADER named BRAWLY.\p"
+	.string "You should go challenge him.$"
+#endif
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:
+#if GERMAN
 	.string "Vater: Hm… {PLAYER}, du bist stärker\n"
 	.string "geworden.\p"
 	.string "Das sehe ich an der Anzahl der Orden,\n"
 	.string "die du dir verdient hast.$"
+#else
+	.string "DAD: Hm… {PLAYER}, you have gotten\n"
+	.string "stronger.\p"
+	.string "I can tell by the number of BADGES\n"
+	.string "that you've earned.$"
+#endif
 
 PetalburgCity_Gym_Text_NormanIntro:
+#if GERMAN
 	.string "Vater: Hm…\n"
 	.string "Du besitzt vier Orden.\p"
 	.string "Fein. Wie versprochen werden wir nun\n"
@@ -1280,20 +1412,49 @@ PetalburgCity_Gym_Text_NormanIntro:
 	.string "um diesen Kampf zu gewinnen!\p"
 	.string "{PLAYER}, du solltest ebenfalls dein\n"
 	.string "Bestes geben!$"
+#else
+	.string "DAD: Hm…\n"
+	.string "So, you did get four GYM BADGES.\p"
+	.string "Fine, as I promised, we will have\n"
+	.string "a POKéMON battle.\p"
+	.string "{PLAYER}…\p"
+	.string "I'm so happy that I can have\n"
+	.string "a real battle with my own child.\p"
+	.string "But, a battle is a battle!\p"
+	.string "I will do everything in my power as\n"
+	.string "a GYM LEADER to win.\p"
+	.string "{PLAYER}, you'd better give it your\n"
+	.string "best shot, too!$"
+#endif
 
 PetalburgCity_Gym_Text_NormanDefeat:
+#if GERMAN
 	.string "…\p"
 	.string "Ich… Ich kann es nicht…\p"
 	.string "Ich kann es nicht glauben, {PLAYER}…\p"
 	.string "Ich habe gegen {PLAYER} verloren?\p"
 	.string "Nun, Regeln sind Regeln!\n"
 	.string "Hier, das ist für dich.$"
+#else
+	.string "…\p"
+	.string "I… I can't…\p"
+	.string "I can't believe it. {PLAYER}…\p"
+	.string "I lost to {PLAYER}?\p"
+	.string "But, rules are rules!\n"
+	.string "Here, take this.$"
+#endif
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
+#if GERMAN
 	.string "{PLAYER} hat den Balanceorden vom\n"
 	.string "Vater erhalten!$"
+#else
+	.string "{PLAYER} received the BALANCE BADGE\n"
+	.string "from DAD!$"
+#endif
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
+#if GERMAN
 	.string "Vater: Mit diesem Orden erhöht sich\n"
 	.string "die Verteidigung all deiner Pokémon.\p"
 	.string "Pokémon, die die VM Surfer erlernt\n"
@@ -1302,8 +1463,17 @@ PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
 	.string "{PLAYER}, das ist mein Geschenk für\n"
 	.string "dich. Ich bin sicher, du wirst es gut\l"
 	.string "nutzen.$"
+#else
+	.string "DAD: With that BADGE, the DEFENSE\n"
+	.string "of all your POKéMON will increase.\p"
+	.string "POKéMON that know the HM move SURF\n"
+	.string "will be able to travel over water.\p"
+	.string "This is my gift to you. {PLAYER}, I'm\n"
+	.string "sure you can use it correctly.$"
+#endif
 
 PetalburgCity_Gym_Text_ExplainFacade:
+#if GERMAN
 	.string "Vater: TM42 enthält Fassade.\p"
 	.string "Sie verdoppelt die Stärke der\n"
 	.string "Attacken,\n"
@@ -1312,26 +1482,54 @@ PetalburgCity_Gym_Text_ExplainFacade:
 	.string "So kann eine vermeintlich aussichts-\n"
 	.string "lose Situation vielleicht gerettet\l"
 	.string "werden.$"
+#else
+	.string "DAD: TM42 contains FACADE.\p"
+	.string "It doubles the power of moves if\n"
+	.string "the POKéMON is poisoned, paralyzed,\l"
+	.string "or burned.\p"
+	.string "It might be able to turn a bad\n"
+	.string "situation into an advantage.$"
+#endif
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
+#if GERMAN
 	.string "Vater: Als Arenaleiter kann ich gar\n"
 	.string "nicht sagen, wie bestürzt ich bin…\p"
 	.string "Als Vater macht es mich einerseits\n"
 	.string "sehr\l"
 	.string "stolz, andererseits aber auch traurig…$"
+#else
+	.string "DAD: As the GYM LEADER, I can't\n"
+	.string "express how upset I am…\p"
+	.string "But as a father, it makes me both\n"
+	.string "happy and a little sad. It's odd…$"
+#endif
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
+#if GERMAN
 	.string "Ah, da bist du ja, {PLAYER}{KUN}!\p"
 	.string "Komm doch bitte mal mit.\n"
 	.string "Ich habe hier etwas für dich.$"
+#else
+	.string "Ah, there you are, {PLAYER}{KUN}!\p"
+	.string "Please come with me.\n"
+	.string "I have something I want you to have.$"
+#endif
 
 PetalburgCity_Gym_Text_LetMeBorrowPlayer:
+#if GERMAN
 	.string "Norman, du hast doch nichts dagegen?\p"
 	.string "Ich entführe dir {PLAYER}{KUN} mal\n"
 	.string "eben für\l"
 	.string "ein paar Minuten.$"
+#else
+	.string "NORMAN, you don't mind, do you?\p"
+	.string "Let me borrow your {PLAYER}{KUN} for\n"
+	.string "a minute or two.$"
+#endif
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
+#if GERMAN
 	.string "Vater: {PLAYER}, du solltest deine\n"
 	.string "Mutter öfter mal besuchen.\p"
 	.string "Ich bleibe hier und werde mein\n"
@@ -1339,16 +1537,32 @@ PetalburgCity_Gym_Text_DadGoingToKeepTraining:
 	.string "Als Trainer lässt es mir keine Ruhe.\n"
 	.string "Ich\l"
 	.string "möchte irgendwann gegen dich gewinnen.$"
+#else
+	.string "DAD: {PLAYER}, you should go visit\n"
+	.string "your mother every so often.\p"
+	.string "I'm going to stay here and redouble\n"
+	.string "my training.\p"
+	.string "It would bother me as a TRAINER to\n"
+	.string "not avenge my loss to you, {PLAYER}!$"
+#endif
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
+#if GERMAN
 	.string "Vater: {PLAYER}! Wie geht es dir?\p"
 	.string "Die Welt der Pokémon ist vielfältig.\p"
 	.string "Ich bin überzeugt, dass selbst das \n"
 	.string "härteste Training dieser Vielfalt\n"
 	.string "nicht\l"
 	.string "gerecht wird.$"
+#else
+	.string "DAD: {PLAYER}, how are things going?\p"
+	.string "The world of POKéMON is deep.\p"
+	.string "I honestly think that no amount of\n"
+	.string "training would ever be enough.$"
+#endif
 
 PetalburgCity_Gym_Text_GymGuideAdvice:
+#if GERMAN
 	.string "Na, wie sieht es aus, auf dem Weg zum\n"
 	.string "Champ, {PLAYER}?\p"
 	.string "Die Türen dieser Arena öffnen sich,\n"
@@ -1369,58 +1583,132 @@ PetalburgCity_Gym_Text_GymGuideAdvice:
 	.string "und triff eine überlegte Wahl.\p"
 	.string "Hast du dich für eine Tür entschieden…\n"
 	.string "Nun, ähm, genug der Worte!$"
+#else
+	.string "Hey, how's it going, CHAMPION-\n"
+	.string "bound {PLAYER}?\p"
+	.string "The doors in this GYM open when you\n"
+	.string "beat the awaiting TRAINERS.\p"
+	.string "Whoops! The doors in this room are\n"
+	.string "already open, so don't attack me!\p"
+	.string "The TRAINERS of PETALBURG GYM\n"
+	.string "use all kinds of items.\p"
+	.string "The door at the left leads to\n"
+	.string "the SPEED ROOM.\p"
+	.string "The door at the right leads to\n"
+	.string "the ACCURACY ROOM.\p"
+	.string "The room's name will be on\n"
+	.string "the door, so choose carefully.\p"
+	.string "Once you've chosen the door…\n"
+	.string "Well, hey, go for it!$"
+#endif
 
 PetalburgCity_Gym_Text_GymGuidePostVictory:
+#if GERMAN
 	.string "{PLAYER}! Hui! Du hast sogar deinen\n"
 	.string "eigenen Vater besiegt!\p"
 	.string "Wie… Unglaublich!\n"
 	.string "Die Ereignisse überschlagen sich!$"
+#else
+	.string "{PLAYER}! Whoa! You've overcome even\n"
+	.string "your own father!\p"
+	.string "Like, whoa!\n"
+	.string "What a stunning turn of events!$"
+#endif
 
 PetalburgCity_Gym_Text_RandallIntro:
+#if GERMAN
 	.string "Die Fähigkeit, dem Gegner mit einer\n"
 	.string "Attacke zuvorzukommen…\p"
 	.string "Das alleine gibt einem doch schon\n"
 	.string "einen\l"
 	.string "enormen Vorteil, meinst du nicht auch?$"
+#else
+	.string "The ability to attack before the\n"
+	.string "opponent…\p"
+	.string "Just that alone puts me at a great\n"
+	.string "advantage, don't you agree?$"
+#endif
 
 PetalburgCity_Gym_Text_RandallDefeat:
+#if GERMAN
 	.string "Das war ein unglaublicher Kampf!$"
+#else
+	.string "That was a magnificent battle!$"
+#endif
 
 PetalburgCity_Gym_Text_RandallPostBattle:
+#if GERMAN
 	.string "Geh weiter in den nächsten Raum, wo\n"
 	.string "eine neue Herausforderung wartet.\p"
 	.string "Auf der linken Seite befindet sich der\n"
 	.string "Raum der Verwirrung.\p"
 	.string "Auf der rechten Seite findest du den\n"
 	.string "Raum der Verteidigung.$"
+#else
+	.string "Go on to the next room where a new\n"
+	.string "challenge awaits you.\p"
+	.string "At the left is the CONFUSION ROOM.\p"
+	.string "The right door leads to the DEFENSE\n"
+	.string "ROOM.$"
+#endif
 
 PetalburgCity_Gym_Text_RandallPostBadge:
+#if GERMAN
 	.string "Ob du siegst oder verlierst… Du darfst\n"
 	.string "dein Training und das deiner Pokémon\l"
 	.string "auf keinen Fall vernachlässigen.\p"
 	.string "Das macht für mich einen wahren\n"
 	.string "Arenaleiter aus.$"
+#else
+	.string "Whomever you beat, and whomever you\n"
+	.string "may lose to, you never shirk from\l"
+	.string "training yourself and your POKéMON.\p"
+	.string "That's what I think being a\n"
+	.string "GYM LEADER is all about.$"
+#endif
 
 PetalburgCity_Gym_Text_ParkerIntro:
+#if GERMAN
 	.string "Dies ist der Raum der Verwirrung.\p"
 	.string "Zeig mir, wie stark das Band zwischen\n"
 	.string "dir und deinen Pokémon ist.$"
+#else
+	.string "This is the CONFUSION ROOM.\p"
+	.string "Let me see how well bonded you are\n"
+	.string "with your POKéMON!$"
+#endif
 
 PetalburgCity_Gym_Text_ParkerDefeat:
+#if GERMAN
 	.string "Ich konnte dein Team nicht genug\n"
 	.string "verwirren… Euer Band ist stark.$"
+#else
+	.string "I couldn't confuse your team enough…\n"
+	.string "You share a strong bond together.$"
+#endif
 
 PetalburgCity_Gym_Text_ParkerPostBattle:
+#if GERMAN
 	.string "Der nächste Raum ist der Raum der\n"
 	.string "Stärke. Kommst du gegen pure\l"
 	.string "Gewalt an?$"
+#else
+	.string "The next room is the STRENGTH ROOM.\n"
+	.string "Can you withstand brute force?$"
+#endif
 
 PetalburgCity_Gym_Text_ParkerPostBadge:
+#if GERMAN
 	.string "Nachdem du unseren Arenaleiter be-\n"
 	.string "siegt hast, wurde unser Training\l"
 	.string "härter.$"
+#else
+	.string "After you beat our LEADER, the\n"
+	.string "training has become a lot tougher.$"
+#endif
 
 PetalburgCity_Gym_Text_GeorgeIntro:
+#if GERMAN
 	.string "Immer, wenn du den Sieg in greifbarer\n"
 	.string "Nähe siehst, füllt dein Gegner KP auf…\n"
 	.string "\p"
@@ -1428,12 +1716,26 @@ PetalburgCity_Gym_Text_GeorgeIntro:
 	.string "in so einer Situation fühlt?\p"
 	.string "Ich werde dir so eine Situation\n"
 	.string "demonstrieren!$"
+#else
+	.string "Just when you think you're going to\n"
+	.string "win, your opponent restores HP…\p"
+	.string "Can you just imagine how awful that\n"
+	.string "must feel?\p"
+	.string "I'll show you exactly how awful it\n"
+	.string "feels!$"
+#endif
 
 PetalburgCity_Gym_Text_GeorgeDefeat:
+#if GERMAN
 	.string "Ich konnte nicht genügend KP\n"
 	.string "auffüllen… Welch eine Angriffskraft…$"
+#else
+	.string "I couldn't restore HP enough…\n"
+	.string "What ATTACK power…$"
+#endif
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
+#if GERMAN
 	.string "Ich hatte vom Kind unseres Arena-\n"
 	.string "leiters nichts anderes erwartet!\p"
 	.string "Nein! Die Fähigkeiten eines Trainers\n"
@@ -1442,12 +1744,27 @@ PetalburgCity_Gym_Text_GeorgePostBattle:
 	.string "genug angestrengt.\p"
 	.string "Geh! Der nächste Raum ist der K.O.-\n"
 	.string "Treffer-Raum.$"
+#else
+	.string "I should have expected no less from\n"
+	.string "our LEADER's kid.\p"
+	.string "No, wait! A TRAINER's abilities are\n"
+	.string "earned only through effort.\p"
+	.string "I lost because my own efforts\n"
+	.string "weren't enough.\p"
+	.string "Go on! The ONE-HIT KO ROOM is next.$"
+#endif
 
 PetalburgCity_Gym_Text_GeorgePostBadge:
+#if GERMAN
 	.string "Ich werde auch weiterhin in den Arenen\n"
 	.string "trainieren. Und Arenaleiter werden!$"
+#else
+	.string "I'm going to keep training at GYMS.\n"
+	.string "One day, I'll become a LEADER.$"
+#endif
 
 PetalburgCity_Gym_Text_BerkeIntro:
+#if GERMAN
 	.string "Ich werde es dir nicht leicht machen,\n"
 	.string "nur weil du das Kind unseres Leiters\l"
 	.string "bist.\p"
@@ -1455,34 +1772,72 @@ PetalburgCity_Gym_Text_BerkeIntro:
 	.string "ein\n"
 	.string "Pokémon bedeutet, einen Volltreffer\l"
 	.string "zu erhalten.$"
+#else
+	.string "I'm not going to take it easy just\n"
+	.string "because you're our LEADER's kid.\p"
+	.string "I'll show you how horrid it is for\n"
+	.string "a POKéMON to take a critical hit!$"
+#endif
 
 PetalburgCity_Gym_Text_BerkeDefeat:
+#if GERMAN
 	.string "Deine Stärke…\n"
 	.string "Du kämpfst großartig!$"
+#else
+	.string "Your power…\n"
+	.string "You're the real deal.$"
+#endif
 
 PetalburgCity_Gym_Text_BerkePostBattle:
+#if GERMAN
 	.string "Dein Vater ist stark. Als Trainer\n"
 	.string "erweise ich ihm den größten Respekt.\p"
 	.string "Und ich sehe, dass die gleiche Stärke\n"
 	.string "auch in dir ruht.\p"
 	.string "Ich fühle, dass du dich nun einem\n"
 	.string "Kampf mit deinem Vater stellen kannst.$"
+#else
+	.string "Your father really is strong.\n"
+	.string "He's a TRAINER worth my respect.\p"
+	.string "And, I sense the same glow coming\n"
+	.string "from you as your father.\p"
+	.string "I hope that you'll stage a terrific\n"
+	.string "battle with your father!$"
+#endif
 
 PetalburgCity_Gym_Text_BerkePostBadge:
+#if GERMAN
 	.string "Seit dein Vater der Leiter der Arena\n"
 	.string "von Blütenburg City ist, sind die\l"
 	.string "Trainer dort viel stärker geworden.$"
+#else
+	.string "Since your dad became the LEADER,\n"
+	.string "the TRAINERS of PETALBURG CITY have\l"
+	.string "become a lot tougher.$"
+#endif
 
 PetalburgCity_Gym_Text_MaryIntro:
+#if GERMAN
 	.string "Kicher…\n"
 	.string "Dies ist der Raum der Genauigkeit.\p"
 	.string "Es ist schon ziemlich fies, wenn jede\n"
 	.string "Attacke ein Treffer ist.$"
+#else
+	.string "Giggle…\n"
+	.string "This is the ACCURACY ROOM.\p"
+	.string "It's pretty nasty when every attack\n"
+	.string "lands without fail.$"
+#endif
 
 PetalburgCity_Gym_Text_MaryDefeat:
+#if GERMAN
 	.string "Du bist ein bisschen stärker als ich…$"
+#else
+	.string "You were a cut above me…$"
+#endif
 
 PetalburgCity_Gym_Text_MaryPostBattle:
+#if GERMAN
 	.string "Es warten noch weitaus stärkere\n"
 	.string "Trainer auf dich.\p"
 	.string "Der linke ist der Raum der\l"
@@ -1492,21 +1847,46 @@ PetalburgCity_Gym_Text_MaryPostBattle:
 	.string "Die Attacken deiner Pokémon werden\n"
 	.string "in beiden Räumen auf die Probe\l"
 	.string "gestellt.$"
+#else
+	.string "There are some even stronger\n"
+	.string "TRAINERS waiting for you.\p"
+	.string "The left is the DEFENSE ROOM, and\n"
+	.string "the right is the RECOVERY ROOM.\p"
+	.string "Your POKéMON's ATTACK power will be\n"
+	.string "on trial either way.$"
+#endif
 
 PetalburgCity_Gym_Text_MaryPostBadge:
+#if GERMAN
 	.string "Weißt du, wonach wir als Trainer\n"
 	.string "streben?\p"
 	.string "Wir streben danach, die Seelenfreunde\n"
 	.string "unserer Pokémon zu werden.$"
+#else
+	.string "Do you know what we're trying to\n"
+	.string "achieve as TRAINERS?\p"
+	.string "We're striving to become soul mates\n"
+	.string "with our POKéMON.$"
+#endif
 
 PetalburgCity_Gym_Text_AlexiaIntro:
+#if GERMAN
 	.string "Je stärker die Verteidigung ist, desto\n"
 	.string "rücksichtsloser kann ich angreifen.$"
+#else
+	.string "The higher the DEFENSE, the more\n"
+	.string "reckless I can be in attack.$"
+#endif
 
 PetalburgCity_Gym_Text_AlexiaDefeat:
+#if GERMAN
 	.string "Unsere Verteidigung reichte nicht aus…$"
+#else
+	.string "Our defenses weren't enough…$"
+#endif
 
 PetalburgCity_Gym_Text_AlexiaPostBattle:
+#if GERMAN
 	.string "Ich denke, du hast mir eine wertvolle\n"
 	.string "Lektion erteilt.\p"
 	.string "Nun, geh weiter. Die linke Tür führt\n"
@@ -1515,90 +1895,193 @@ PetalburgCity_Gym_Text_AlexiaPostBattle:
 	.string "K.O.-Treffer-Raum.\p"
 	.string "In beiden warten äußerst talentierte\n"
 	.string "Trainer.$"
+#else
+	.string "I think you've taught me a valuable\n"
+	.string "lesson here.\p"
+	.string "Now, go on! The left door goes to\n"
+	.string "the STRENGTH ROOM.\p"
+	.string "The right door opens to\n"
+	.string "the ONE-HIT KO ROOM.\p"
+	.string "Both of them have TRAINERS who are\n"
+	.string "skilled at offense.$"
+#endif
 
 PetalburgCity_Gym_Text_AlexiaPostBadge:
+#if GERMAN
 	.string "Hallo! Hast du mal Surfer ausprobiert?$"
+#else
+	.string "Hi! Have you tried using SURF?$"
+#endif
 
 PetalburgCity_Gym_Text_JodyIntro:
+#if GERMAN
 	.string "Unser Arenaleiter hat uns angewiesen,\n"
 	.string "alles zu geben und dich zu besiegen.\p"
 	.string "Auch wenn du das Kind des Leiters\n"
 	.string "bist!$"
+#else
+	.string "Our GYM LEADER told us to go all out\n"
+	.string "and beat you.\p"
+	.string "Even if you happen to be the\n"
+	.string "LEADER's kid!$"
+#endif
 
 PetalburgCity_Gym_Text_JodyDefeat:
+#if GERMAN
 	.string "Aber… Das war wohl nichts!$"
+#else
+	.string "But… I went all out!$"
+#endif
 
 PetalburgCity_Gym_Text_JodyPostBattle:
+#if GERMAN
 	.string "Wie du deine Pokémon einsetzt…\n"
 	.string "Du bist wie dein Vater.\p"
 	.string "Geh weiter! Der Arenaleiter, dein\n"
 	.string "Vater, erwartet dich bereits!$"
+#else
+	.string "The way you use your POKéMON…\n"
+	.string "It's like your father's style.\p"
+	.string "Go on through! The GYM LEADER, your\n"
+	.string "father, is waiting!$"
+#endif
 
 PetalburgCity_Gym_Text_JodyPostBadge:
+#if GERMAN
 	.string "Sicher, es ist immer von Vorteil, die\n"
 	.string "Pokémon stärker werden zu lassen.\p"
 	.string "Aber was macht einen Gewinner aus?\p"
 	.string "Nun, das sind die Gefühle, die ein\n"
 	.string "Trainer seinen Pokémon entgegen-\l"
 	.string "bringt.$"
+#else
+	.string "Sure, it's fine to make your POKéMON\n"
+	.string "stronger.\p"
+	.string "But what decides the winner?\p"
+	.string "Why, it's the feelings TRAINERS have\n"
+	.string "for their POKéMON.$"
+#endif
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
+#if GERMAN
 	.string "Die Tür ist noch verschlossen…$"
+#else
+	.string "This door appears to be locked\n"
+	.string "right now…$"
+#endif
 
 PetalburgCity_Gym_Text_EnterSpeedRoom:
+#if GERMAN
 	.string "“Initiative-Raum” steht auf\n"
 	.string "dem Schild.\p"
 	.string "Möchtest du die Tür öffnen?$"
+#else
+	.string "“SPEED ROOM,” the sign says.\p"
+	.string "Do you want to go through?$"
+#endif
 
 @ Unused
 PetalburgCity_Gym_Text_DoorAppearsLocked2:
+#if GERMAN
 	.string "Die Tür ist noch verschlossen…$"
+#else
+	.string "This door appears to be locked\n"
+	.string "right now…$"
+#endif
 
 PetalburgCity_Gym_Text_EnterAccuracyRoom:
+#if GERMAN
 	.string "“Raum der Genauigkeit” steht\n"
 	.string "auf dem Schild.\p"
 	.string "Möchtest du die Tür öffnen?$"
+#else
+	.string "“ACCURACY ROOM,” the sign says.\p"
+	.string "Do you want to go through?$"
+#endif
 
 PetalburgCity_Gym_Text_EnterConfusionRoom:
+#if GERMAN
 	.string "“Raum der Verwirrung”\n"
 	.string "steht auf dem Schild.\p"
 	.string "Möchtest du die Tür öffnen?$"
+#else
+	.string "“CONFUSION ROOM,” the sign says.\p"
+	.string "Do you want to go through?$"
+#endif
 
 PetalburgCity_Gym_Text_EnterDefenseRoom:
+#if GERMAN
 	.string "“Raum der Verteidigung” steht\n"
 	.string "auf dem Schild.\p"
 	.string "Möchtest du die Tür öffnen?$"
+#else
+	.string "“DEFENSE ROOM,” the sign says.\p"
+	.string "Do you want to go through?$"
+#endif
 
 PetalburgCity_Gym_Text_EnterRecoveryRoom:
+#if GERMAN
 	.string "“Raum der Erholung” steht auf\n"
 	.string "dem Schild.\p"
 	.string "Möchtest du die Tür öffnen?$"
+#else
+	.string "“RECOVERY ROOM,” the sign says.\p"
+	.string "Do you want to go through?$"
+#endif
 
 PetalburgCity_Gym_Text_EnterStrengthRoom:
+#if GERMAN
 	.string "“Raum der Stärke” steht auf\n"
 	.string "dem Schild.\p"
 	.string "Möchtest du die Tür öffnen?$"
+#else
+	.string "“STRENGTH ROOM,” the sign says.\p"
+	.string "Do you want to go through?$"
+#endif
 
 PetalburgCity_Gym_Text_EnterOHKORoom:
+#if GERMAN
 	.string "“K.O.-Treffer-Raum”\n"
 	.string "steht auf dem Schild.\p"
 	.string "Möchtest du die Tür öffnen?$"
+#else
+	.string "“ONE-HIT KO ROOM,” the sign says.\p"
+	.string "Do you want to go through?$"
+#endif
 
 PetalburgCity_Gym_Text_EnterGymLeadersRoom:
+#if GERMAN
 	.string "“Arenaleiter”\p"
 	.string "“Sieh selbst, welche Pokémon dich\n"
 	.string "erwarten!” steht auf dem Schild.\p"
 	.string "Möchtest du die Tür öffnen?$"
+#else
+	.string "“GYM LEADER'S ROOM\p"
+	.string "“See for yourself what POKéMON await\n"
+	.string "you!” the sign says.\p"
+	.string "Do you want to go through?$"
+#endif
 
 PetalburgCity_Gym_Text_GymStatue:
+#if GERMAN
 	.string "Pokémon Arena von Blütenburg City$"
+#else
+	.string "PETALBURG CITY POKéMON GYM$"
+#endif
 
 PetalburgCity_Gym_Text_GymStatueCertified:
+#if GERMAN
 	.string "Pokémon Arena von Blütenburg City\p"
 	.string "Normans anerkannte Trainer:\n"
 	.string "{PLAYER}$"
+#else
+	.string "PETALBURG CITY POKéMON GYM\p"
+	.string "NORMAN'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
+#endif
 
 PetalburgCity_Gym_Text_NormanPreRematch:
+#if GERMAN
 	.string "Vater: {PLAYER}…\n"
 	.string "Ich wusste, du würdest kommen.\p"
 	.string "Niemals würde ich eine Herausforderung\n"
@@ -1610,19 +2093,45 @@ PetalburgCity_Gym_Text_NormanPreRematch:
 	.string "sind,\n"
 	.string "müssen wir beide unser Bestes geben.\l"
 	.string "Meinst du nicht auch, {PLAYER}?$"
+#else
+	.string "DAD: {PLAYER}…\n"
+	.string "I had a feeling that you would come.\p"
+	.string "I would never refuse to accept\n"
+	.string "a challenge from you.\p"
+	.string "You do understand, don't you?\p"
+	.string "Inside a GYM, it doesn't matter that\n"
+	.string "we are a parent and child.\p"
+	.string "…No, because we are parent and child,\n"
+	.string "we owe it to each other to do the best\l"
+	.string "we can. Isn't that right, {PLAYER}?$"
+#endif
 
 PetalburgCity_Gym_Text_NormanRematchDefeat:
+#if GERMAN
 	.string "Äh… Haha…\n"
 	.string "Du bist ein harter Brocken…$"
+#else
+	.string "Uh… Haha…\n"
+	.string "Maybe that was going too hard…$"
+#endif
 
 PetalburgCity_Gym_Text_NormanPostRematch:
+#if GERMAN
 	.string "Vater: {PLAYER}…\n"
 	.string "Was ist dein Traum?\p"
 	.string "Mein Traum…\n"
 	.string "Hahaha…\l"
 	.string "Er wurde bereits Wirklichkeit.$"
+#else
+	.string "DAD: {PLAYER}…\n"
+	.string "What is your dream?\p"
+	.string "My dream…\n"
+	.string "Hahaha…\l"
+	.string "It has already come true, actually.$"
+#endif
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
+#if GERMAN
 	.string "Vater: {PLAYER}…\n"
 	.string "Ich wusste, du würdest kommen.\p"
 	.string "Niemals würde ich eine Herausforderung\n"
@@ -1635,4 +2144,18 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 	.string "kann?\p"
 	.string "Tut mir Leid, aber du brauchst\n"
 	.string "mindestens zwei Pokémon.$"
+#else
+	.string "DAD: {PLAYER}…\n"
+	.string "I had a feeling that you would come.\p"
+	.string "I would never refuse to accept\n"
+	.string "a challenge from you.\p"
+	.string "You do understand, don't you?\p"
+	.string "Inside a GYM, it doesn't matter that\n"
+	.string "we are a parent and child.\p"
+	.string "Hm? Wait a second, {PLAYER}.\p"
+	.string "Do you only have one POKéMON that is\n"
+	.string "capable of battle?\p"
+	.string "Sorry, but you'll have to come back\n"
+	.string "with at least two POKéMON.$"
+#endif
 

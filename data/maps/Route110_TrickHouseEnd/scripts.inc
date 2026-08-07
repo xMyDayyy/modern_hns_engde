@@ -248,60 +248,118 @@ Route110_TrickHouseEnd_Movement_TrickMasterSurprise:
 	step_end
 
 Route110_TrickHouseEnd_Text_YouveMadeItToMe:
+#if GERMAN
 	.string "Argh! Du hast mich gefunden?\l"
 	.string "Hmmm… Du bist verdammt clever!$"
+#else
+	.string "Aak!\n"
+	.string "You've made it to me?\l"
+	.string "Hmmm… You're sharp!$"
+#endif
 
 Route110_TrickHouseEnd_Text_AllNightToPlantTrees:
+#if GERMAN
 	.string "Ich habe die ganze Nacht gebraucht,\n"
 	.string "all die Bäume zu pflanzen…\p"
 	.string "Du bist meiner Größe fast ebenbürtig,\n"
 	.string "bis auf ein, zwei, drei, vier, fünf,\n"
 	.string "sechs\l"
 	.string "Punkte!$"
+#else
+	.string "It took me all night to plant all those\n"
+	.string "trees…\p"
+	.string "You're almost my equal in greatness by\n"
+	.string "one, two, three, four, five, six places!$"
+#endif
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMaze:
+#if GERMAN
 	.string "Ich habe die ganze Nacht gebraucht,\n"
 	.string "das Labyrinth anzulegen…\p"
 	.string "Du bist meiner Größe fast ebenbürtig,\n"
 	.string "bis auf ein, zwei, drei, vier, fünf \l"
 	.string "Punkte!$"
+#else
+	.string "It took me all night to make the maze…\p"
+	.string "You're almost my equal in greatness by\n"
+	.string "one, two, three, four, five places!$"
+#endif
 
 Route110_TrickHouseEnd_Text_AllNightToPreparePanels:
+#if GERMAN
 	.string "Ich habe die ganze Nacht gebraucht,\n"
 	.string "die Wände zu platzieren…\p"
 	.string "Du bist meiner Größe fast ebenbürtig,\n"
 	.string "bis auf ein, zwei, drei, vier Punkte!$"
+#else
+	.string "It took me all night to prepare\n"
+	.string "the wall panels…\p"
+	.string "You're almost my equal in greatness by\n"
+	.string "one, two, three, four places!$"
+#endif
 
 Route110_TrickHouseEnd_Text_AllNightToShoveBoulders:
+#if GERMAN
 	.string "Ich habe die ganze Nacht gebraucht,\n"
 	.string "die Felsen hin- und herzuschieben…\p"
 	.string "Du bist meiner Größe fast ebenbürtig,\n"
 	.string "bis auf ein, zwei, drei Punkte!$"
+#else
+	.string "It took me all night to shove in those\n"
+	.string "boulders…\p"
+	.string "You're almost my equal in greatness by\n"
+	.string "one, two, three places!$"
+#endif
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls:
+#if GERMAN
 	.string "Ich habe die ganze Nacht gebraucht,\n"
 	.string "die Robopuppen zu konstruieren und\l"
 	.string "mir das Quiz auszudenken…\p"
 	.string "Du bist meiner Größe fast ebenbürtig,\n"
 	.string "bis auf ein oder zwei Punkte!$"
+#else
+	.string "It took me all night to make MECHADOLLS\n"
+	.string "and another to think up the quiz…\p"
+	.string "You're almost my equal in greatness by\n"
+	.string "one, two places!$"
+#endif
 
 Route110_TrickHouseEnd_Text_AllNightToInstallDoors:
+#if GERMAN
 	.string "Ich habe die ganze Nacht gebraucht,\n"
 	.string "die Türen zu installieren…\p"
 	.string "Du bist meiner Größe fast ebenbürtig!$"
+#else
+	.string "It took me all night to install\n"
+	.string "the doors…\p"
+	.string "You're almost my equal in greatness!$"
+#endif
 
 Route110_TrickHouseEnd_Text_AllNightSettingUpArrows:
+#if GERMAN
 	.string "Ich habe die ganze Nacht gebraucht,\n"
 	.string "die Pfeile anzubringen.\p"
 	.string "Du bist meiner Größe ebenbürtig!$"
+#else
+	.string "It took me all night setting up arrows…\p"
+	.string "You're my equal in greatness!$"
+#endif
 
 Route110_TrickHouseEnd_Text_AllNightPolishingFloors:
+#if GERMAN
 	.string "Ich habe die ganze Nacht gebraucht,\n"
 	.string "den Boden zu polieren…\p"
 	.string "Du bist mir weit überlegen!\n"
 	.string "Unmöglich…$"
+#else
+	.string "It took me all night polishing floors…\p"
+	.string "You're above me in greatness!\n"
+	.string "Possibly…$"
+#endif
 
 Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
+#if GERMAN
 	.string "Was soll ich nur tun?\n"
 	.string "Die Quelle der Ideen für meine Tricks\l"
 	.string "ist trocken gelegt…\p"
@@ -309,8 +367,16 @@ Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
 	.string "die\n"
 	.string "Lande zu reisen und mich für neue\l"
 	.string "Tricks inspirieren zu lassen…$"
+#else
+	.string "Wh-what should I do?\n"
+	.string "My fountain of ideas for tricks has\l"
+	.string "run dry…\p"
+	.string "Perhaps it is time I toured the country\n"
+	.string "on a quest to devise new tricks…$"
+#endif
 
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
+#if GERMAN
 	.string "Ich hasse es, zuzugeben, dass ich be-\n"
 	.string "siegt wurde. Du hast mich geschlagen!\n"
 	.string "\p"
@@ -326,15 +392,39 @@ Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
 	.string "Eigentlich sind es zwei Andenken - \n"
 	.string "ein Rotes Zelt und ein Blaues Zelt.\l"
 	.string "Welches möchtest du haben?$"
+#else
+	.string "I hate to admit defeat, but you have\n"
+	.string "bested me!\p"
+	.string "Still, you must have been reeled in by\n"
+	.string "my charisma for you to visit me again\l"
+	.string "and again. Yes, you must have!\p"
+	.string "But that has nothing to do with my\n"
+	.string "losing!\p"
+	.string "In recognition of the friendship\n"
+	.string "between you, the driven, and the genius\l"
+	.string "that is myself, I demand that you take\l"
+	.string "this keepsake!\p"
+	.string "Actually there are two--\n"
+	.string "a RED TENT and a BLUE TENT.\l"
+	.string "Which do you prefer?$"
+#endif
 
 Route110_TrickHouseEnd_Text_NoRoomInPC:
+#if GERMAN
 	.string "Was? Du hast keinen Platz im PC?\n"
 	.string "Und was soll ich jetzt damit machen?\p"
 	.string "Sei froh, dass ich so nett und rück-\n"
 	.string "sichtsvoll bin. Ich verwahre es für\l"
 	.string "dich. Komm einfach später wieder.$"
+#else
+	.string "What? No room in your PC?\n"
+	.string "What am I to make of that?\p"
+	.string "I wish I could say that, but I am much\n"
+	.string "too kind and caring, so come back later!$"
+#endif
 
 Route110_TrickHouseEnd_Text_LeavingOnJourney:
+#if GERMAN
 	.string "… … … … … …\p"
 	.string "Ich gehe jetzt auf eine Entdeckungs-\n"
 	.string "reise. Auf die Suche nach neuen\n"
@@ -342,19 +432,40 @@ Route110_TrickHouseEnd_Text_LeavingOnJourney:
 	.string "Ich hoffe, du besuchst mich eines\n"
 	.string "Tages wieder und unterhältst mich.\p"
 	.string "Für heute lebe wohl!$"
+#else
+	.string "… … … … … …\p"
+	.string "I am leaving on a journey of discovery.\n"
+	.string "A quest in search of new tricks.\p"
+	.string "I wish that you will one day visit and\n"
+	.string "entertain me again.\p"
+	.string "And now, farewell!$"
+#endif
 
 Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward:
+#if GERMAN
 	.string "Gut!\n"
 	.string "Du hast dir diese Belohnung verdient!$"
+#else
+	.string "Fine!\n"
+	.string "You have earned this reward!$"
+#endif
 
 Route110_TrickHouseEnd_Text_NoRoomForThis:
+#if GERMAN
 	.string "Was? Du hast keinen Platz dafür?\n"
 	.string "Wie viele Items schleppst du denn mit?\n"
 	.string "\p"
 	.string "Aber du kannst dir deine Belohnung\n"
 	.string "auch später bei mir abholen.$"
+#else
+	.string "What? Have you no room for this?\n"
+	.string "What manner of items do you carry?\p"
+	.string "But fine, since you've reached me,\n"
+	.string "your reward will be with me till later.$"
+#endif
 
 Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
+#if GERMAN
 	.string "Putz dir das selbstgefällige Grinsen\n"
 	.string "von der Backe! Noch hast du nicht\l"
 	.string "gewonnen!\p"
@@ -365,8 +476,21 @@ Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
 	.string "geschafft hast.\p"
 	.string "Komm wieder, wenn ich die nächste\n"
 	.string "interessante Installation fertig habe.$"
+#else
+	.string "Scrub that smug smirk from your face!\n"
+	.string "It's much too early to think you've won!\p"
+	.string "I'll make new tricks to stump you, I will.\n"
+	.string "You may mock me only when you're done.\p"
+	.string "Come back for the next exciting\n"
+	.string "installment!$"
+#endif
 
 Route110_TrickHouseEnd_Text_YoureIgnoringMe:
+#if GERMAN
 	.string "Nun, nun! Du ignorierst mich?\n"
 	.string "Das bricht mir glatt das Herz!$"
+#else
+	.string "Now, now! You're ignoring me now?\n"
+	.string "Now that, I consider heartbreaking!$"
+#endif
 

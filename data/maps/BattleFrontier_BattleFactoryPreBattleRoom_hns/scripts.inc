@@ -453,191 +453,423 @@ BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantReturnToPlayer_hns:
 	step_end
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection_hns:
+#if GERMAN
 	.string "Wir nehmen deine Pokémon in unsere\n"
 	.string "Obhut.\p"
 	.string "Dann kannst du dir aus einer Anzahl\n"
 	.string "von Pokémon ein paar ausleihen.$"
+#else
+	.string "First, we will hold your POKéMON for\n"
+	.string "safekeeping.\p"
+	.string "You may then choose from our\n"
+	.string "selection of POKéMON.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons_hns:
+#if GERMAN
 	.string "Vielen Dank für deine Teilnahme! Deine\n"
 	.string "Pokémon sind gleich wieder topfit.$"
+#else
+	.string "Thank you for competing!\n"
+	.string "Let us restore your POKéMON!$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent_hns:
+#if GERMAN
 	.string "Der zweite Kampf steht bevor!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 2nd match is next!\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor3rdOpponent_hns:
+#if GERMAN
 	.string "Der dritte Kampf steht bevor!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 3rd match is next!\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor4thOpponent_hns:
+#if GERMAN
 	.string "Der vierte Kampf steht bevor!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 4th match is next!\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor5thOpponent_hns:
+#if GERMAN
 	.string "Der fünfte Kampf steht bevor!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 5th match is next!\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor6thOpponent_hns:
+#if GERMAN
 	.string "Der sechste Kampf steht bevor!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 6th match is next!\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor7thOpponent_hns:
+#if GERMAN
 	.string "Der siebte Kampf steht endlich bevor!\n"
 	.string "Bist du bereit?$"
+#else
+	.string "Finally, the 7th match is next!\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame_hns:
+#if GERMAN
 	.string "Möchtest du das Spiel speichern und\n"
 	.string "beenden?$"
+#else
+	.string "Would you like to save and quit\n"
+	.string "the game?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge_hns:
+#if GERMAN
 	.string "Möchtest du dich aus dem Wechselkampf\n"
 	.string "zurückziehen?$"
+#else
+	.string "Would you like to retire from your\n"
+	.string "Battle Swap challenge?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent_hns:
+#if GERMAN
 	.string "Ich habe mich über deinen nächsten\n"
 	.string "Gegner erkundigt.$"
+#else
+	.string "I've conducted a little investigation\n"
+	.string "about your upcoming opponent.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Normal.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the NORMAL type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Feuer.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the FIRE type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Wasser.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the WATER type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Elektro.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the ELECTRIC type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Pflanze.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the GRASS type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Eis.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the ICE type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Kampf.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the FIGHTING type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Gift.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the POISON type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Boden.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the GROUND type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Flug.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the FLYING type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Psycho.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the PSYCHIC type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Käfer.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the BUG type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Gestein.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the ROCK type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Geist.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the GHOST type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Drache.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the DRAGON type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Unlicht.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the DARK type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Fee.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the FAIRY type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType_hns:
+#if GERMAN
 	.string "Der Trainer ist ein Fachmann für\n"
 	.string "Pokémon vom Typ Stahl.$"
+#else
+	.string "The TRAINER is apparently skilled\n"
+	.string "in the handling of the STEEL type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite_hns:
+#if GERMAN
 	.string "Der Trainer scheint keine Vorlieben\n"
 	.string "für einen bestimmten Typ zu haben.$"
+#else
+	.string "The TRAINER appears to have no clear\n"
+	.string "favorites when it comes to type.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleSlowAndSteady_hns:
+#if GERMAN
 	.string "Sein favorisierter Kampfstil:\n"
 	.string "langsam, aber mit Beständigkeit.$"
+#else
+	.string "The favorite battle style appears to\n"
+	.string "be slow and steady.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleEndurance_hns:
+#if GERMAN
 	.string "Sein favorisierter Kampfstil:\n"
 	.string "ausdauernd.$"
+#else
+	.string "The favorite battle style appears to\n"
+	.string "be one of endurance.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleHighRisk_hns:
+#if GERMAN
 	.string "Sein favorisierter Kampfstil:\n"
 	.string "hohes Risiko und starke Gegenattacken.$"
+#else
+	.string "The favorite battle style appears to\n"
+	.string "be high risk, high return.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleDependsOnFlow_hns:
+#if GERMAN
 	.string "Sein favorisierter Kampfstil:\n"
 	.string "hängt vom Kampfverlauf ab.$"
+#else
+	.string "The favorite battle style appears to\n"
+	.string "depend on the battle's flow.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation_hns:
+#if GERMAN
 	.string "Sein favorisierter Kampfstil: \n"
 	.string "gründliche Vorbereitung eines Kampfes.$"
+#else
+	.string "The favorite battle style appears to\n"
+	.string "be one based on total preparation.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe_hns:
+#if GERMAN
 	.string "Sein favorisierter Kampfstil: \n"
 	.string "den Gegner gleich zu Anfang schwächen.$"
+#else
+	.string "The favorite battle style appears\n"
+	.string "to be weakening the foe to start.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible_hns:
+#if GERMAN
 	.string "Sein favorisierter Kampfstil: \n"
 	.string "flexibel auf jede Situation reagieren.$"
+#else
+	.string "The favorite battle style appears to\n"
+	.string "be flexibly adaptable to the situation.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleImpossibleToPredict_hns:
+#if GERMAN
 	.string "Sein favorisierter Kampfstil: \n"
 	.string "ist nicht vorhersehbar.$"
+#else
+	.string "The favorite battle style appears to\n"
+	.string "be impossible to predict.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained_hns:
+#if GERMAN
 	.string "Sein favorisierter Kampfstil: \n"
 	.string "frei und bedenkenlos.$"
+#else
+	.string "The favorite battle style appears to\n"
+	.string "be free-spirited and unrestrained.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon_hns:
+#if GERMAN
 	.string "Möchtest du vor dem Kampf ein Pokémon\n"
 	.string "tauschen?$"
+#else
+	.string "Before starting the battle, would you\n"
+	.string "like to swap a POKéMON?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete_hns:
+#if GERMAN
 	.string "Vielen Dank! Der Pokémon-Tausch\n"
 	.string "wurde durchgeführt.$"
+#else
+	.string "Thank you!\n"
+	.string "Your POKéMON swap is complete.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay_hns:
+#if GERMAN
 	.string "Bitte hier entlang!$"
+#else
+	.string "Right this way, please!$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait_hns:
+#if GERMAN
 	.string "Ich speichere deine Daten.\n"
 	.string "Einen Moment bitte.$"
+#else
+	.string "I am saving your data.\n"
+	.string "Please wait.$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle_hns:
+#if GERMAN
 	.string "Möchtest du deinen letzten Kampf\n"
 	.string "in deinen Kampfzonenpass eintragen?$"
+#else
+	.string "Would you like to record your latest\n"
+	.string "battle on your FRONTIER PASS?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments_hns:
+#if GERMAN
 	.string "Entschuldigung! Hallo, entschuldige!\n"
 	.string "Würdest du bitte einen Moment warten?$"
+#else
+	.string "Excuse me! Excuse me, please!\n"
+	.string "May I get you to wait a few moments?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo_hns:
+#if GERMAN
 	.string "…Oh-oh. Was?!?… Hui!\n"
 	.string "Ja, verstanden, Sir! Sofort!$"
+#else
+	.string "…Uh-huh? What?! …Whoa!\n"
+	.string "Understood, sir! Will do!$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow_hns:
+#if GERMAN
 	.string "Oh je…\n"
 	.string "Tut mir Leid, dass du warten musstest.\n"
 	.string "\p"
@@ -645,11 +877,29 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow_hns:
 	.string "Fabrikleiter.\p"
 	.string "Er sagt: “Wir werden es in Angriff\n"
 	.string "nehmen! Komm bitte her!”$"
+#else
+	.string "Oh, my…\n"
+	.string "Sorry to keep you waiting!\p"
+	.string "I have a message from this facility's\n"
+	.string "boss, the FACTORY HEAD.\p"
+	.string "He says, “We're going to do it!\n"
+	.string "Come here right now!”$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead_hns:
+#if GERMAN
 	.string "Der Fabrikleiter erwartet dich.\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The FACTORY HEAD is demanding you.\n"
+	.string "Are you prepared to face him?$"
+#endif
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead_hns:
+#if GERMAN
 	.string "Es tut mir Leid, aber ich kann dir\n"
 	.string "über den Fabrikleiter nichts sagen.$"
+#else
+	.string "I'm terribly sorry, but I can't tell you\n"
+	.string "anything about the FACTORY HEAD.$"
+#endif

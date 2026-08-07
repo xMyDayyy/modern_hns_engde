@@ -85,6 +85,7 @@ MtMoon_Cave_Movement_SilverLeave:
 	step_end
 
 MtMoon_Cave_Text_Rival_Before:
+#if GERMAN
 	.string "… … …\p"
 	.string "Es ist schon lange her, {PLAYER}.\p"
 	.string "…Seit ich gegen dich verlor, mache\n"
@@ -92,15 +93,31 @@ MtMoon_Cave_Text_Rival_Before:
 	.string "was meinen Pokémon noch fehlt…\p"
 	.string "Nun, wir haben eine Antwort gefunden.\p"
 	.string "{PLAYER}, wir beweisen es dir!$"
+#else
+	.string "..................................\p"
+	.string "It's been a while, {PLAYER}.\p"
+	.string "…Since I lost to you, I thought about\n"
+	.string "what I was lacking with my POKéMON…\p"
+	.string "And we came up with an answer.\p"
+	.string "{PLAYER}, now we'll show you!$"
+#endif
 
 MtMoon_Cave_Text_Rival_Win:
+#if GERMAN
 	.string "..................................\p"
 	.string "Ich dachte ich hätte meine Pokémon\n"
 	.string "so gut es irgendwie geht trainiert,\l"
 	.string "zur perfektion…\p"
 	.string "…Immer noch nicht genug…$"
+#else
+	.string "..................................\p"
+	.string "I thought I raised my POKéMON to be the\n"
+	.string "best they could be…\p"
+	.string "…But it still wasn't enough…$"
+#endif
 
 MtMoon_Cave_Text_Rival_After:
+#if GERMAN
 	.string "… … …\p"
 	.string "…Du hast mich fair besiegt.\p"
 	.string "Das muss ich dir\n"
@@ -112,14 +129,37 @@ MtMoon_Cave_Text_Rival_After:
 	.string "…Hör mal, {PLAYER}.\p"
 	.string "Eines Tages werde ich es dir bewei-\n"
 	.string "sen. Dann besiege ich dich.$"
+#else
+	.string "..................................\p"
+	.string "…You won, fair and square.\p"
+	.string "I admit it. But this isn't the end.\p"
+	.string "I'm going to be the greatest POKéMON\n"
+	.string "trainer ever.\p"
+	.string "Because these guys are behind me.\p"
+	.string "…Listen, {PLAYER}.\p"
+	.string "One of these days I'm going to prove\n"
+	.string "how good I am by beating you.$"
+#endif
 
 MtMoon_Cave_Text_Rival_Loss:
+#if GERMAN
 	.string "… … …\p"
 	.string "Ich habe meine\n"
 	.string "Schuld bei dir abgegolten.\p"
 	.string "Mit meinen Pokémon werde ich den\n"
 	.string "Champ besiegen\l"
 	.string "und weltbester Trainer werden.$"
+#else
+	.string "..................................\p"
+	.string "I've repaid my debt to you.\p"
+	.string "With my POKéMON, I'm going to beat the\n"
+	.string "CHAMPION and become the world's greatest\n"
+	.string "trainer.$"
+#endif
 
 MtMoon_Cave_Text_Sign:
+#if GERMAN
 	.string "Mondberg Vorplatz ->$"
+#else
+	.string "MT MOON SQUARE ->$"
+#endif

@@ -93,6 +93,7 @@ PokemonLeague_LoreleisRoom_EventScript_DefeatedLorelei::
 	end
 
 PokemonLeague_LoreleisRoom_Text_Intro::
+#if GERMAN
 	.string "Willkommen in der Pokémon Liga!\p"
 	.string "Ich bin Lorelei und gehöre zu den\n"
 	.string "Top Vier!\p"
@@ -104,8 +105,20 @@ PokemonLeague_LoreleisRoom_Text_Intro::
 	.string "deine Pokémon eingefroren habe!\p"
 	.string "Hahaha!\n"
 	.string "Bist du bereit?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#else
+	.string "Welcome to the POKéMON LEAGUE.\p"
+	.string "I am LORELEI of the ELITE FOUR.\p"
+	.string "No one can best me when it comes\n"
+	.string "to icy POKéMON.\p"
+	.string "Freezing moves are powerful.\p"
+	.string "Your POKéMON will be at my mercy\n"
+	.string "when they are frozen solid.\p"
+	.string "Hahaha!\n"
+	.string "Are you ready?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#endif
 
 PokemonLeague_LoreleisRoom_Text_RematchIntro::
+#if GERMAN
 	.string "Willkommen in der Pokémon Liga!\p"
 	.string "Ich, Lorelei von den Top\n"
 	.string "Vier, bin zurückgekehrt!\p"
@@ -118,11 +131,29 @@ PokemonLeague_LoreleisRoom_Text_RematchIntro::
 	.string "deine Pokémon eingefroren habe!\p"
 	.string "Hahaha!\n"
 	.string "Bist du bereit?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#else
+	.string "Welcome to the POKéMON LEAGUE.\p"
+	.string "I, LORELEI of the ELITE FOUR,\n"
+	.string "have returned!\p"
+	.string "You know how it goes.\n"
+	.string "No one can best me when it comes\l"
+	.string "to icy POKéMON.\p"
+	.string "Freezing moves are powerful.\p"
+	.string "Your POKéMON will be at my mercy\n"
+	.string "when they are frozen solid.\p"
+	.string "Hahaha!\n"
+	.string "Are you ready?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#endif
 
 PokemonLeague_LoreleisRoom_Text_Defeat::
+#if GERMAN
 	.string "… es sollte nicht so laufen!$"
+#else
+	.string "…Things shouldn't be this way!$"
+#endif
 
 PokemonLeague_LoreleisRoom_Text_PostBattle::
+#if GERMAN
 	.string "Du bist besser,\n"
 	.string "als ich dachte!\l"
 	.string "Geh ruhig weiter!\p"
@@ -131,4 +162,10 @@ PokemonLeague_LoreleisRoom_Text_PostBattle::
 	.string "auf die Dinge,\l"
 	.string "die dich noch\l"
 	.string "erwarten...$"
+#else
+	.string "You're better than I thought.\n"
+	.string "Go on ahead.\p"
+	.string "You only got a taste of the\n"
+	.string "POKéMON LEAGUE's power.$"
+#endif
 

@@ -42,6 +42,7 @@ GoldenrodCity_BikeShop_EventScript_Bike::
 	end
 
 GoldenrodCity_BikeShop_Text_Clerk2:
+#if GERMAN
 	.string "Radfahren ist kinderleicht: Registriere\n"
 	.string "das Rad einfach im Beutel, dann\l"
 	.string "genügt ein Tastendruck.\p"
@@ -53,23 +54,54 @@ GoldenrodCity_BikeShop_Text_Clerk2:
 	.string "Drücke im Stand die R-Taste, dann\n"
 	.string "erreichst du beim nächsten Tritt\l"
 	.string "viel höhere Geschwindigkeiten!$"
+#else
+	.string "Riding the BIKE is as simple as\n"
+	.string "pressing a button if you\l"
+	.string "REGISTER it from the BAG.\p"
+	.string "If you need to go faster,\n"
+	.string "you first need to come to a stop!\p"
+	.string "That might seem like strange\n"
+	.string "advice, but you can only change\l"
+	.string "gears on the BIKE while stopped.\p"
+	.string "Press your R button when stopped\n"
+	.string "and the next time you pedal,\l"
+	.string "you will reach greater speeds!$"
+#endif
 
 GoldenrodCity_BikeShop_Text_ClerkIntro:
+#if GERMAN
 	.string "…Seufz… Ich bin hierher gezogen,\n"
 	.string "aber ich kann meine Fahrräder nicht\l"
 	.string "verkaufen. Warum nur?\p"
 	.string "Würdest du ein Fahrrad fahren\n"
 	.string "und so Werbung machen?$"
+#else
+    .string "…sigh… I moved here, but I can't\n"
+    .string "sell my BICYCLES. Why is that?\p"
+    .string "Could you ride a BICYCLE and\n"
+    .string "advertise for me?$"
+#endif
 
 GoldenrodCity_BikeShop_Text_ClerkAgreed:
+#if GERMAN
 	.string "Ja? Großartig!\p"
 	.string "Gib mir bitte Namen und Nummer.\p"
-	.string "Dann leihe ich dir ein Fahrrad.$"
+	.string "Dann leihe ich dir ein {COLOR RED}Fahrrad{COLOR DARK_GRAY}.$"
+#else
+    .string "Really? Great!\p"
+    .string "Give me your name and phone number,\n"
+    .string "and I'll loan you a BICYCLE.$"
+#endif
 
 GoldenrodCity_BikeShop_Text_BorrowedBicycle:
+#if GERMAN
 	.string "{PLAYER} leiht ein Fahrrad.$"
+#else
+    .string "{PLAYER} borrowed a BICYCLE.$"
+#endif
 
 GoldenrodCity_BikeShop_Text_Mainshop:
+#if GERMAN
 	.string "Seit wir aus Kanto hergezogen sind,\n"
 	.string "läuft das Geschäft schleppend.\l"
 	.string "Danke für deine Unterstützung!\p"
@@ -78,14 +110,38 @@ GoldenrodCity_BikeShop_Text_Mainshop:
 	.string "Drücke einfach R, wenn du auf dem\n"
 	.string "Rad stehst.\p"
 	.string "Achtung! Danach wirst du schneller!$"
+#else
+	.string "Business has been hard to come\n"
+	.string "by since we moved from KANTO.\l"
+	.string "We appreciate your help!\p"
+	.string "Can you make sure to show off\n"
+	.string "our patented gear-changing tech?\p"
+	.string "It's as simple as pressing R when\n"
+	.string "you are stopped on your BIKE.\p"
+	.string "Beware! You will then go faster!$"
+#endif
 
 GoldenrodCity_BikeShop_Text_Refused:
+#if GERMAN
 	.string "Seufz… gibt es denn keine guten\n"
 	.string "Menschen mehr auf diesem Planeten?$"
+#else
+    .string "…sigh… Oh, for the kindness of\n"
+    .string "people…$"
+#endif
 
 GoldenrodCity_BikeShop_Text_JustReleasedCompact:
+#if GERMAN
 	.string "Brandneu!\p"
 	.string "Erste Klasse Kompakt-Fahrräder!$"
+#else
+    .string "Just released!\p"
+    .string "First-rate compact BICYCLES!$"
+#endif
 
 GoldenrodCity_BikeShop_Text_Bicycle:
+#if GERMAN
 	.string "Ein nigelnagelneues Fahrrad!$"
+#else
+    .string "It's a shiny new BICYCLE!$"
+#endif

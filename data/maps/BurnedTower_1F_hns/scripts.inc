@@ -48,6 +48,7 @@ BurnedTower_Movement_Eusine2:
 
 
 BurnedTower_1FEusineIntroText:
+#if GERMAN
 	.string "Eusin: Mein Name ist Eusin.\p"
 	.string "Ich bin auf der Spur eines\n"
 	.string "Pokémon namens Suicune.\p"
@@ -57,6 +58,17 @@ BurnedTower_1FEusineIntroText:
 	.string "in dieser Turmruine sein,\l"
 	.string "also kam ich her.\p"
 	.string "Aber wo genau könnte es sein?$"
+#else
+	.string "EUSINE: My name's EUSINE.\p"
+	.string "I'm on the trail of a POKéMON\n"
+	.string "called SUICUNE.\p"
+	.string "And you are...?\p"
+	.string "{PLAYER}? Glad to meet you!\p"
+	.string "I heard SUICUNE might be in\n"
+	.string "this BURNED TOWER, so I came\l"
+	.string "to check it out.\p"
+	.string "But where exactly could it be?$"
+#endif
 
 BurnedTower_1F_EventScript_Item_HpUp::
 	finditem ITEM_HP_UP
@@ -83,19 +95,36 @@ BurnedTower_1F_EventScript_Morty::
 	end
 
 BurnedTower_1FEusineText:
+#if GERMAN
 	.string "Eusin: Ich habe gehört,\n"
 	.string "Suicune könnte in dieser\l"
 	.string "Turmruine sein, also kam ich her.\p"
 	.string "Aber wo genau könnte es sein?$"
+#else
+	.string "EUSINE: I heard SUICUNE might\n"
+	.string "be in this BURNED TOWER, so I\l"
+	.string "came to check it out.\p"
+	.string "But where exactly could it be?$"
+#endif
 
 BurnedTower_1FMortyText:
+#if GERMAN
 	.string "Jens: Der Arenaleiter von\n"
-	.string "Teak City muss die sogenannten\l"
+	.string "{COLOR RED}Teak City{COLOR DARK_GRAY} muss die sogenannten\l"
 	.string "legendären Pokémon\p"
 	.string "Suicune, Entei und Raikou studieren.\p"
 	.string "Eusin ist gekommen, also habe\n"
 	.string "ich beschlossen, den Turm\l"
 	.string "mit ihm zu untersuchen.$"
+#else
+	.string "MORTY: ECRUTEAK's GYM LEADER\n"
+	.string "has to study what are said to\l"
+	.string "be the legendary POKéMON--\l"
+	.string "SUICUNE, ENTEI and RAIKOU.\p"
+	.string "EUSINE is here, so I've\n"
+	.string "decided to investigate the\l"
+	.string "TOWER with him.$"
+#endif
 
 BurnedTower_1F_EventScript_Silver::
 	lock
@@ -149,6 +178,7 @@ BurnedTower_1F_Silver_Battle_Chikorita::
 	return
 
 BurnedTowerSilver_BeforeText:
+#if GERMAN
 	.string "..............................\p"
 	.string "…Oh, du bist es.\p"
 	.string "Ich suchte nach legendären\n"
@@ -158,28 +188,66 @@ BurnedTowerSilver_BeforeText:
 	.string "zu kommen rechtfertigt, absolut?\l"
 	.string "Nichts!\p"
 	.string "Das ist alles deine Schuld!$"
+#else
+	.string "..............................\p"
+	.string "...Oh, it's you.\p"
+	.string "I came looking for some\n"
+	.string "legendary POKéMON they say\l"
+	.string "roost here.\p"
+	.string "But there's nothing here!\p"
+	.string "Nothing, after all the effort\n"
+	.string "of coming to this dump?\l"
+	.string "No way!\p"
+	.string "It's all your fault!$"
+#endif
 
 BurnedTowerSilver_WinText:
+#if GERMAN
 	.string "…Humph!\p"
 	.string "Darum hasse ich es,\n"
 	.string "gegen Schwächlinge anzutreten.\p"
 	.string "Wie armselig.$"
+#else
+	.string "...Humph!\p"
+	.string "I only lost because my\n"
+	.string "POKéMON are incredibly weak.\p"
+	.string "How pathetic.$"
+#endif
 
 BurnedTowerSilver_AfterText1:
+#if GERMAN
 	.string "{PLAYER}: …Ach egal.\p"
 	.string "Du schaffst es sowieso nie, dir ein\n"
 	.string "Legendäres Pokémon zu schnappen!$"
+#else
+	.string "...Aw, whatever.\p"
+	.string "You'd never be able to catch\n"
+	.string "a legendary POKéMON anyway.$"
+#endif
 
 BurnedTowerSilver_LossText:
+#if GERMAN
 	.string "…Humph!\p"
 	.string "Ich hasse es, gegen Schwächlinge\n"
 	.string "anzutreten. Es ist Zeitverschwendung.$"
+#else
+	.string "...Humph!\p"
+	.string "This is why I hate battling\n"
+	.string "wimps. It's a waste of time.$"
+#endif
 
 BurnedTowerSilver_AfterText2:
+#if GERMAN
 	.string "Humph!\p"
 	.string "Was hast du dir dabei gedacht,\n"
 	.string "einfach in ein Loch zu fallen?\p"
 	.string "Du Genie!$"
+#else
+	.string "Humph!\p"
+	.string "What are you doing falling\n"
+	.string "into a hole? Some genius!\p"
+	.string "Serves you right!$"
+#endif
 
 BurnedTower_1F_EventScript_Nard::
 	trainerbattle_single TRAINER_NARD_HNS, BurnedTower_Text_NardSeen, BurnedTower_Text_NardBeaten
@@ -192,24 +260,48 @@ BurnedTower_1F_EventScript_Richardo::
 	end
 
 BurnedTower_Text_NardSeen:
+#if GERMAN
 	.string "He, keine Panik, Junior!\n"
 	.string "Wenn jemand weiß, wie gefährlich es ist,\l"
 	.string "mit Feuer zu spielen,\l"
 	.string "dann sind das wir Feuerspucker!$"
+#else
+	.string "Don't worry!\p"
+	.string "We fire-breathers know the true\n"
+	.string "power of fire better than anyone!$"
+#endif
 BurnedTower_Text_NardBeaten:
 	.string "Danke für den heißen Kampf.$"
 BurnedTower_Text_NardAfter:
+#if GERMAN
 	.string "Dieser Turm ist durch einen\n"
 	.string "Blitzschlag abgebrannt.\p"
 	.string "Dagegen sind unsere Flammen\n"
 	.string "bloß heiße Luft…$"
+#else
+	.string "The reason this tower's burned is\n"
+	.string "that it was hit by lightning.\p"
+	.string "The fire I'm breathing is tiny\n"
+	.string "in comparison...$"
+#endif
 
 BurnedTower_Text_RichardoSeen:
+#if GERMAN
 	.string "Ich übe in der Turmruine\n"
 	.string "das Feuerspucken!\l"
 	.string "Macht das nicht zu Hause nach, Kinder!$"
+#else
+	.string "I'm practicing my stealing in the\n"
+	.string "BURNED TOWER! Don't try\l"
+	.string "this at home!$"
+#endif
 BurnedTower_Text_RichardoBeaten:
 	.string "Pfffffffffffffff.$"
 BurnedTower_Text_RichardoAfter:
+#if GERMAN
 	.string "Vielleicht ist ein Leben als\n"
 	.string "Verbrecher doch nichts für mich…$"
+#else
+	.string "Maybe a life of crime isn't for\n"
+	.string "me...$"
+#endif

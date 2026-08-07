@@ -566,122 +566,255 @@ Route111_EventScript_TrainerHillSign::
 	end
 
 Route111_Text_BattleOurFamily:
+#if GERMAN
 	.string "Hallo! Ich hab’s, du bist ein\n"
 	.string "Reisender. \p"
 	.string "Was hältst du davon? Du trittst mit\n"
 	.string "deinen Pokémon gegen alle vier\l"
 	.string "Familienmitglieder hintereinander an?$"
+#else
+	.string "Hello! I take it you're a traveler.\p"
+	.string "How's this? What do you say to taking\n"
+	.string "on our family of four in a series of\l"
+	.string "POKéMON battles?$"
+#endif
 
 Route111_Text_IsThatSo:
+#if GERMAN
 	.string "Ach, wirklich? Nun, wenn du deine\n"
 	.string "Meinung änderst, komm einfach wieder.$"
+#else
+	.string "Is that so?\n"
+	.string "Drop in, if you change your mind!$"
+#endif
 
 Route111_Text_VictorIntro:
+#if GERMAN
 	.string "Das nenne ich Kampfgeist! Ich mag\n"
 	.string "dich!$"
+#else
+	.string "That's the spirit! I like you!$"
+#endif
 
 Route111_Text_VictorDefeat:
+#if GERMAN
 	.string "Aiyah!\n"
 	.string "Du bist stärker, als ich dachte.$"
+#else
+	.string "Aiyah!\n"
+	.string "You're a lot tougher than I expected!$"
+#endif
 
 Route111_Text_VictorPostBattle:
+#if GERMAN
 	.string "Hey, ihr! Ich habe einen starken\n"
 	.string "Trainer gefunden!$"
+#else
+	.string "Hey, all!\n"
+	.string "I've found a pretty strong TRAINER!$"
+#endif
 
 Route111_Text_VictoriaIntro:
+#if GERMAN
 	.string "Oh, du meine Güte! Bist du jung!\p"
 	.string "Du musst ein sehr guter Trainer sein,\n"
 	.string "wenn du meinen Mann besiegen konntest.\n"
 	.string "\p"
 	.string "Nun bin ich an der Reihe.$"
+#else
+	.string "Oh, my goodness! Aren't you young?\p"
+	.string "You must be quite the TRAINER to beat\n"
+	.string "my husband, though.\p"
+	.string "It's my turn to battle now!$"
+#endif
 
 Route111_Text_VictoriaDefeat:
+#if GERMAN
 	.string "Ach, nein! Ich komme nicht darüber\n"
 	.string "hinweg, wie stark du bist!$"
+#else
+	.string "Oh, gosh!\n"
+	.string "I can't get over how strong you are!$"
+#endif
 
 Route111_Text_VictoriaPostBattle:
+#if GERMAN
 	.string "Hier draußen ist ein starker Trainer!\n"
 	.string "Ein wirklich starker, sage ich euch!$"
+#else
+	.string "There's a strong TRAINER here!\n"
+	.string "This one's really strong!$"
+#endif
 
 Route111_Text_ViviIntro:
+#if GERMAN
 	.string "Du bist stärker als Mami? Wow!\p"
 	.string "Aber ich bin auch stark!\n"
 	.string "Wirklich! Ganz ehrlich!$"
+#else
+	.string "You're stronger than Mommy? Wow!\p"
+	.string "But I'm strong, too!\n"
+	.string "Really! Honestly!$"
+#endif
 
 Route111_Text_ViviDefeat:
+#if GERMAN
 	.string "Was? Habe ich verloren?$"
+#else
+	.string "Huh? Did I just lose?$"
+#endif
 
 Route111_Text_ViviPostBattle:
+#if GERMAN
 	.string "Das ist gemein…\p"
 	.string "… Schluchz… Heul… Omaaaaa… Schluchz…$"
+#else
+	.string "This stinks…\p"
+	.string "…Snivel… Grandma!$"
+#endif
 
 Route111_Text_VickyIntro:
+#if GERMAN
 	.string "Wie konntest du nur meine Enkelin zum\n"
 	.string "Weinen bringen? Schäm dich!\p"
 	.string "Dafür werde ich dich in Grund und\n"
 	.string "Boden\l"
 	.string "stampfen. Mach dich auf was gefasst!$"
+#else
+	.string "How dare you make my granddaughter\n"
+	.string "cry!\p"
+	.string "For that, I'm going to smack you!\n"
+	.string "Prepare to lose!$"
+#endif
 
 Route111_Text_VickyDefeat:
+#if GERMAN
 	.string "Uaah! Du bist stark…\n"
 	.string "Meine Enkelin hatte Recht…$"
+#else
+	.string "Kwah! You are strong…\n"
+	.string "My granddaughter was right…$"
+#endif
 
 Route111_Text_VickyPostBattle:
+#if GERMAN
 	.string "Wenn du es nicht allzu eilig hast,\n"
 	.string "besuche uns doch mal wieder!$"
+#else
+	.string "If you're not in any hurry,\n"
+	.string "visit with us awhile.$"
+#endif
 
 Route111_Text_ToughToKeepWinningUpTheRanks:
+#if GERMAN
 	.string "Wenn du deine Pokémon nicht ein\n"
 	.string "bisschen besser trainierst, wird es\l"
 	.string "schwer, sich hier durchzukämpfen.\p"
 	.string "Ich habe gehört, dass die Top Vier der\n"
 	.string "Pokémon Liga um einiges schwerer zu\l"
 	.string "besiegen sind als die Arenaleiter.$"
+#else
+	.string "If you don't raise your POKéMON some\n"
+	.string "more, it could be tough to keep winning\l"
+	.string "up through the ranks.\p"
+	.string "I've heard the POKéMON LEAGUE's\n"
+	.string "ELITE FOUR are far stronger than\l"
+	.string "any GYM LEADER.$"
+#endif
 
 Route111_Text_WinstrateFamilyDestroyedMe:
+#if GERMAN
 	.string "Ich habe die Familie Sihgers heraus-\n"
 	.string "gefordert und viermal hintereinander\l"
 	.string "gekämpft… Hinterher war ich kaputt…$"
+#else
+	.string "I challenged the WINSTRATE family,\n"
+	.string "but four matches in a row is tough\l"
+	.string "going… They destroyed me.$"
+#endif
 
 Route111_Text_RouteSignMauville:
+#if GERMAN
 	.string "Route 111\n"
 	.string "{DOWN_ARROW} Malvenfroh City$"
+#else
+	.string "ROUTE 111\n"
+	.string "{DOWN_ARROW} MAUVILLE CITY$"
+#endif
 
 Route111_Text_WinstrateHouseSign:
+#if GERMAN
 	.string "Das Haus der Sihgers\n"
 	.string "“Die Herzen unserer Familie schlagen\n"
 	.string "im\l"
 	.string "Einklang!”$"
+#else
+	.string "“Our family's hearts beat as one!”\n"
+	.string "THE WINSTRATE'S HOUSE$"
+#endif
 
 Route111_Text_RouteSign112:
+#if GERMAN
 	.string "Route 111\n"
 	.string "{LEFT_ARROW} Route 112$"
+#else
+	.string "ROUTE 111\n"
+	.string "{LEFT_ARROW} ROUTE 112$"
+#endif
 
 Route111_Text_RouteSign113:
+#if GERMAN
 	.string "Route 111\n"
 	.string "{LEFT_ARROW} Route 113$"
+#else
+	.string "ROUTE 111\n"
+	.string "{LEFT_ARROW} ROUTE 113$"
+#endif
 
 Route111_Text_OldLadysRestStopSign:
+#if GERMAN
 	.string "Hotel der Alten Dame\n"
 	.string "“Komm, ruh deine müden Knochen aus.”$"
+#else
+	.string "OLD LADY'S REST STOP\n"
+	.string "“Come in and rest your tired bones.”$"
+#endif
 
 Route111_Text_TrainerTipsSpAtkSpDef:
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Ein Indikator für die Stärke eines\n"
 	.string "Pokémon ist der SP. ANG. Das steht\l"
 	.string "für “Spezial Angriff”.\p"
 	.string "SP. Ver. steht für “Spezial\n"
 	.string "Verteidigung”.$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "One of the indicators of a POKéMON's\n"
+	.string "powerfulness is SP. ATK. It stands for\l"
+	.string "“SPECIAL ATTACK.”\p"
+	.string "Likewise, SP. DEF stands for “SPECIAL\n"
+	.string "DEFENSE.”$"
+#endif
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
+#if GERMAN
 	.string "Hier in der Nähe sollte eigentlich ein\n"
 	.string "Turm sein, der ganz aus Sand besteht.\n"
 	.string "\p"
 	.string "Aber aus irgendeinem Grund ist er\n"
 	.string "nur manchmal sichtbar.\p"
 	.string "Deshalb nenne ich ihn Wunderturm.$"
+#else
+	.string "There should be a tower made of sand\n"
+	.string "around here somewhere.\p"
+	.string "But for some reason, it can be seen\n"
+	.string "sometimes, and sometimes not.\p"
+	.string "That's why I call it the MIRAGE TOWER.$"
+#endif
 
 Route111_Text_MirageTowerClearlyVisible:
+#if GERMAN
 	.string "Ich sehe ihn!\n"
 	.string "Den Turm aus Sand!\p"
 	.string "Der Sandturm, den sie ein Wunder\n"
@@ -691,40 +824,91 @@ Route111_Text_MirageTowerClearlyVisible:
 	.string "\p"
 	.string "Ich würde gerne mal hineingehen, aber\n"
 	.string "so mutig bin ich dann doch nicht…$"
+#else
+	.string "I see it!\n"
+	.string "The tower of sand!\p"
+	.string "The sand tower they called a mirage\n"
+	.string "is clearly visible!\p"
+	.string "But it looks so fragile…\n"
+	.string "It could crumble away anytime…\p"
+	.string "I want to go inside it, but I can't\n"
+	.string "get my courage up for it…$"
+#endif
 
 Route111_Text_ThatWasShockingSandRainedDown:
+#if GERMAN
 	.string "Whoa…\n"
 	.string "Das war vielleicht ein Schreck!\p"
 	.string "Plötzlich war überall Sand.\p"
 	.string "Und wie war es da drin?\n"
 	.string "Gibt es da Sandgeister und so?$"
+#else
+	.string "Whoa…\n"
+	.string "That was shocking.\p"
+	.string "Sand rained down in chunks all of\n"
+	.string "a sudden.\p"
+	.string "What was it like inside?\n"
+	.string "Were there sandy ghosts and such?$"
+#endif
 
 Route111_Text_MirageTowerHasntBeenSeenSince:
+#if GERMAN
 	.string "Seit ich das letzte Mal mit dir\n"
 	.string "gesprochen habe, ist der Turm noch\l"
 	.string "nicht wieder sichtbar gewesen.\p"
 	.string "Vielleicht war es wirklich der\n"
 	.string "Wunderturm…$"
+#else
+	.string "Since I spoke to you, the tower of sand\n"
+	.string "hasn't been seen.\p"
+	.string "Perhaps it really was\n"
+	.string "the MIRAGE TOWER…$"
+#endif
 
 Route111_Text_ClawFossilDisappeared:
+#if GERMAN
 	.string "Das Klauenfossil ist im Sand\n"
 	.string "versunken…$"
+#else
+	.string "The CLAW FOSSIL disappeared into\n"
+	.string "the sand…$"
+#endif
 
 Route111_Text_RootFossilDisappeared:
+#if GERMAN
 	.string "Das Wurzelfossil ist im Sand\n"
 	.string "versunken…$"
+#else
+	.string "The ROOT FOSSIL disappeared into\n"
+	.string "the sand…$"
+#endif
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
+#if GERMAN
 	.string "Oh, nein!\p"
 	.string "Und mein Onkel in Malvenfroh City hat\n"
 	.string "mir extra noch gesagt, ich soll\l"
 	.string "Zertrümmerer mitnehmen, wenn ich\p"
-	.string "zur Route 111 gehe.\n"
+	.string "zur {COLOR RED}Route 11{COLOR DARK_GRAY}1 gehe.\n"
 	.string "Mein Onkel? Der lebt gegenüber vom\l"
 	.string "Fahrradladen in Malvenfroh City.$"
+#else
+	.string "Oh, no!\p"
+	.string "My uncle in MAUVILLE told me to take\n"
+	.string "ROCK SMASH with me if I was going to\l"
+	.string "ROUTE 111!\p"
+	.string "My uncle? He lives across from\n"
+	.string "the bike shop in MAUVILLE.$"
+#endif
 
 Route111_Text_TrainerHillSign:
+#if GERMAN
 	.string "{RIGHT_ARROW} Eingang Trainerberg\p"
 	.string "“Erklimm den Gipfel, heißblütiger\n"
 	.string "Trainer!”$"
+#else
+	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"
+	.string "“Scale the heights, you hot-blooded\n"
+	.string "TRAINERS!”$"
+#endif
 

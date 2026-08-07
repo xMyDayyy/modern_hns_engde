@@ -113,6 +113,7 @@ PokemonLeague_BrunosRoom_EventScript_BrunoLookAwayDown::
 	return
 
 PokemonLeague_BrunosRoom_Text_Intro::
+#if GERMAN
 	.string "Ich gehöre zu den Top Vier!\n"
 	.string "Mein Name ist Bruno!\p"
 	.string "Durch ausgiebiges Training können\n"
@@ -123,8 +124,22 @@ PokemonLeague_BrunosRoom_Text_Intro::
 	.string "Wir werden dich mit unserer Kraft\n"
 	.string "bezwingen!\p"
 	.string "Zum Angriff!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#else
+	.string "I am BRUNO of the ELITE FOUR!\p"
+	.string "Through rigorous training, people\n"
+	.string "and POKéMON can become stronger\l"
+	.string "without limit.\p"
+	.string "I've lived and trained with my\n"
+	.string "fighting POKéMON!\l"
+	.string "And that will never change!\p"
+	.string "{PLAYER}!\p"
+	.string "We will grind you down with our\n"
+	.string "superior power!\p"
+	.string "Hoo hah!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#endif
 
 PokemonLeague_BrunosRoom_Text_RematchIntro::
+#if GERMAN
 	.string "Ich gehöre zu den Top Vier!\n"
 	.string "Mein Name ist Bruno!\p"
 	.string "Durch ausgiebiges Training können\n"
@@ -135,11 +150,34 @@ PokemonLeague_BrunosRoom_Text_RematchIntro::
 	.string "Wir werden dich mit unserer Kraft\n"
 	.string "bezwingen!\p"
 	.string "Zum Angriff!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#else
+	.string "I am BRUNO of the ELITE FOUR!\p"
+	.string "Through rigorous training, people\n"
+	.string "and POKéMON can become stronger\l"
+	.string "without limit.\p"
+	.string "I've lived and trained with my\n"
+	.string "fighting POKéMON!\l"
+	.string "And that will never change!\p"
+	.string "{PLAYER}!\p"
+	.string "We will grind you down with our\n"
+	.string "superior power!\p"
+	.string "Hoo hah!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#endif
 
 PokemonLeague_BrunosRoom_Text_Defeat::
+#if GERMAN
 	.string "Wie konnte ich verlieren?$"
+#else
+	.string "Why?\n"
+	.string "How could I lose?$"
+#endif
 
 PokemonLeague_BrunosRoom_Text_PostBattle::
+#if GERMAN
 	.string "Ich bin erledigt! Doch die nächste\n"
 	.string "Herausforderung wartet bereits...$"
+#else
+	.string "My job is done.\n"
+	.string "Go face your next challenge.$"
+#endif
 

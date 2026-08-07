@@ -20,14 +20,24 @@ PacifidlogTown_House5_EventScript_Gentleman::
 	end
 
 PacifidlogTown_House5_Text_CantSeeMirageIslandToday:
+#if GERMAN
 	.string "Ich kann Wundereiland heute\n"
 	.string "nicht sehen…$"
+#else
+	.string "I can't see MIRAGE ISLAND today…$"
+#endif
 
 PacifidlogTown_House5_Text_CanSeeMirageIslandToday:
+#if GERMAN
 	.string "Oh! Oh! Heute kann ich Wundereiland\n"
 	.string "sehen!$"
+#else
+	.string "Oh! Oh my!\n"
+	.string "I can see MIRAGE ISLAND today!$"
+#endif
 
 PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather:
+#if GERMAN
 	.string "Wundereiland…\p"
 	.string "Die Insel ist sichtbar oder nicht\n"
 	.string "sichtbar. Das hängt vom Wetter ab, das\l"
@@ -35,4 +45,12 @@ PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather:
 	.string "nicht. \p"
 	.string "Oder verschwindet die Insel\n"
 	.string "tatsächlich manchmal?$"
+#else
+	.string "MIRAGE ISLAND…\p"
+	.string "It must become visible and invisible\n"
+	.string "depending on the weather conditions\l"
+	.string "that make mirages appear.\p"
+	.string "Or is it really appearing and\n"
+	.string "disappearing?$"
+#endif
 

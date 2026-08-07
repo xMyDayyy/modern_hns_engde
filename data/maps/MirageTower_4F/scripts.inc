@@ -60,22 +60,44 @@ MirageTower_4F_EventScript_CollapseMirageTower::
 	end
 
 MirageTower_4F_Text_TakeRootFossil:
-	.string "Du hast das Wurzelfossil gefunden.\p"
+#if GERMAN
+	.string "Du hast das {COLOR RED}Wurzelfossil{COLOR DARK_GRAY} gefunden.\p"
 	.string "Wenn du dieses Fossil nimmst,\n"
 	.string "wird der Boden drum herum einfallen…\p"
-	.string "Willst du das Wurzelfossil nehmen?$"
+	.string "Willst du das {COLOR RED}Wurzelfossil{COLOR DARK_GRAY} nehmen?$"
+#else
+	.string "You found the ROOT FOSSIL.\p"
+	.string "If this FOSSIL is taken, the ground\n"
+	.string "around it will likely crumble away…\p"
+	.string "Take the ROOT FOSSIL anyway?$"
+#endif
 
 MirageTower_4F_Text_LeftRootFossilAlone:
+#if GERMAN
 	.string "{PLAYER} lässt das Wurzelfossil\n"
 	.string "liegen.$"
+#else
+	.string "{PLAYER} left the ROOT FOSSIL alone.$"
+#endif
 
 MirageTower_4F_Text_TakeClawFossil:
-	.string "Du hast das Klauenfossil gefunden.\p"
+#if GERMAN
+	.string "Du hast das {COLOR RED}Klauenfossil{COLOR DARK_GRAY} gefunden.\p"
 	.string "Wenn du dieses Fossil nimmst,\n"
 	.string "wird der Boden drum herum einfallen…\p"
-	.string "Willst du das Klauenfossil nehmen?$"
+	.string "Willst du das {COLOR RED}Klauenfossil{COLOR DARK_GRAY} nehmen?$"
+#else
+	.string "You found the CLAW FOSSIL.\p"
+	.string "If this FOSSIL is taken, the ground\n"
+	.string "around it will likely crumble away…\p"
+	.string "Take the CLAW FOSSIL anyway?$"
+#endif
 
 MirageTower_4F_Text_LeaveClawFossilAlone:
+#if GERMAN
 	.string "{PLAYER} lässt das Klauenfossil\n"
 	.string "liegen.$"
+#else
+	.string "{PLAYER} left the CLAW FOSSIL alone.$"
+#endif
 

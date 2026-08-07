@@ -171,29 +171,61 @@ Route123_EventScript_RematchFernando::
 	end
 
 Route123_Text_LoveGrassMonsHaveAny:
+#if GERMAN
 	.string "Ich liebe Pflanzen-Pokémon!\p"
 	.string "Hast du einige Pflanzen-Pokémon?$"
+#else
+	.string "I love GRASS-type POKéMON!\p"
+	.string "Do you have any GRASS-type POKéMON?$"
+#endif
 
 Route123_Text_YouLikeGrassMonsTooHaveThis:
+#if GERMAN
 	.string "Oh?\p"
 	.string "Du magst Pflanzen-Pokémon auch sehr\n"
 	.string "gerne, habe ich Recht?\p"
 	.string "Das freut mich sehr. Ich schenke dir\n"
 	.string "ein Zeichen unserer Freundschaft.$"
+#else
+	.string "Oh?\p"
+	.string "You like GRASS-type POKéMON, too,\n"
+	.string "don't you?\p"
+	.string "I'm so happy, you can have this!\n"
+	.string "It's a token of our friendship.$"
+#endif
 
 Route123_Text_CheckTreesWithMyGrassMon:
+#if GERMAN
 	.string "Ich prüfe die Bäume mit Hilfe meiner\n"
 	.string "Pflanzen-Pokémon. Ich bin so etwas wie\l"
 	.string "ein Baumdoktor.$"
+#else
+	.string "I check trees with my GRASS-type\n"
+	.string "POKéMON. I'm like a tree doctor.$"
+#endif
 
 Route123_Text_RouteSign:
+#if GERMAN
 	.string "{RIGHT_ARROW} Route 123\n"
 	.string "{LEFT_ARROW} Route 118$"
+#else
+	.string "{RIGHT_ARROW} ROUTE 123\n"
+	.string "{LEFT_ARROW} ROUTE 118$"
+#endif
 
 Route123_Text_RouteSignMtPyre:
+#if GERMAN
 	.string "{UP_ARROW} Pyroberg\n"
 	.string "“Für Zaghafte verboten.”$"
+#else
+	.string "{UP_ARROW} MT. PYRE\n"
+	.string "“Forbidden to the faint of heart.”$"
+#endif
 
 Route123_Text_BerryMastersHouse:
+#if GERMAN
 	.string "Villa des Beerenmeisters$"
+#else
+	.string "BERRY MASTER'S HOUSE$"
+#endif
 

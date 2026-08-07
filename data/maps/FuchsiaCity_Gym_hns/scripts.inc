@@ -85,31 +85,63 @@ FuchsiaCity_Gym_EventScript_Janine_Defeated::
 	end
 
 FuchsiaCity_Gym_Text_Janine_DisappointYou:
+#if GERMAN
 	.string "Hehehehe…\n"
 	.string "Tut mir leid, aber das stimmt nicht!\p"
 	.string "Nein, ich nehme dich nur auf den Arm!\p"
 	.string "Ich bin es wirklich! Ich bin Janina,\n"
 	.string "die Arenaleiterin von Fuchsania City!$"
+#else
+	.string "Fufufufu…\p"
+	.string "I'm sorry to disappoint you…\p"
+	.string "I'm only joking!\p"
+	.string "I'm the real deal!\p"
+	.string "JANINE of FUCHSIA GYM, that's me!$"
+#endif
 
 FuchsiaCity_Gym_Text_Janine_ToughOne:
+#if GERMAN
 	.string "Janina: Du bist hartnäckig.\n"
 	.string "Du hast definitiv gewonnen…\p"
 	.string "Hier ist der Seelenorden. Nimm ihn.$"
+#else
+	.string "JANINE: You're a tough one. You\n"
+	.string "definitely won…\p"
+	.string "Here's SOULBADGE. Take it.$"
+#endif
 
 FuchsiaCity_Gym_Text_ReceivedSoulBadge:
+#if GERMAN
 	.string "{PLAYER} erhält den Seelenorden!$"
+#else
+	.string "{PLAYER} received SOULBADGE.$"
+#endif
 
 FuchsiaCity_Gym_Text_Janine_ToxicSpeech:
+#if GERMAN
 	.string "Janina: Du bist stark! Ich habe hier ein\n"
 	.string "ganz besonderes Geschenk für dich!\p"
 	.string "Diese Attacke nennt sich Gifthieb und\n"
 	.string "kann deine Gegner vergiften!$"
+#else
+	.string "JANINE: You're so tough! I have a\n"
+	.string "special gift!\p"
+	.string "It's POISON JAB, a powerful Poison-type\n"
+	.string "move that may poison its victim.$"
+#endif
 
 FuchsiaCity_Gym_Text_Janine_ApplyMyself:
+#if GERMAN
 	.string "Janina: Ich werde noch viel mehr\n"
 	.string "trainieren und stärker werden!\p"
 	.string "Nochmal möchte ich nicht gegen dich\n"
 	.string "oder meinen Vater verlieren müssen!$"
+#else
+	.string "JANINE: I'm going to really apply\n"
+	.string "myself and improve my skills.\p"
+	.string "I want to become better than both\n"
+	.string "Father and you!$"
+#endif
 
 FuchsiaCity_Gym_EventScript_Alice_J::
 	lock
@@ -209,53 +241,108 @@ FuchsiaCity_Gym_EventScript_Barry::
 	end
 
 FuchsiaCity_Gym_Text_LassAlice_Before:
+#if GERMAN
 	.string "Huhuhuhaha!\n"
 	.string "Ich bin Janina, die Arenaleiterin!\l"
 	.string "Von wegen!\l"
 	.string "Reingefallen!$"
+#else
+	.string "Fufufu!\p"
+	.string "I'm JANINE, the GYM LEADER!\p"
+	.string "No, I'm not! Gotcha, sucker!$"
+#endif
 
 FuchsiaCity_Gym_Text_LassAlice_Beaten:
+#if GERMAN
 	.string "Gib’s zu, ich hatte dich\n"
 	.string "fast so weit!$"
+#else
+	.string "I had you fooled…$"
+#endif
 
 FuchsiaCity_Gym_Text_LassAlice_After:
+#if GERMAN
 	.string "Wie willst du die echte Leiterin\n"
 	.string "erkennen?$"
+#else
+	.string "How will you distinguish our real\n"
+	.string "LEADER?$"
+#endif
 
 FuchsiaCity_Gym_Text_LassLinda_Before:
+#if GERMAN
 	.string "Hahahaha! Mann, ist das ein Spaß!$"
+#else
+	.string "Fooled you! Hahaha!$"
+#endif
 
 FuchsiaCity_Gym_Text_LassLinda_Beaten:
+#if GERMAN
 	.string "Oh… ich habe verloren… Ein\n"
 	.string "Schwächling bist du jedenfalls nicht.$"
+#else
+	.string "Ooh… I lost… You're not weak…$"
+#endif
 
 FuchsiaCity_Gym_Text_LassLinda_After:
+#if GERMAN
 	.string "Na, wie war mein Kostüm? Die\n"
 	.string "meisten Leute sagen, ich sehe\l"
 	.string "Janina zum Verwechseln ähnlich!$"
+#else
+	.string "Well? Wasn't my disguise perfect?$"
+#endif
 
 FuchsiaCity_Gym_Text_PicnickerCindy_Before:
+#if GERMAN
 	.string "Ich bin Janina!\n"
 	.string "Aber woher wusstest du das?\l"
 	.string "Egal! Jetzt wird gekämpft!$"
+#else
+	.string "I'm JANINE!\p"
+	.string "How did you know I was real?\p"
+	.string "Let's battle!$"
+#endif
 
 FuchsiaCity_Gym_Text_PicnickerCindy_Beaten:
+#if GERMAN
 	.string "Mist! Ich wollte gewinnen!$"
+#else
+	.string "Darn it! I wanted to win!$"
+#endif
 
 FuchsiaCity_Gym_Text_PicnickerCindy_After:
+#if GERMAN
 	.string "Du musst langsam müde werden.$"
+#else
+	.string "You must be getting tired.$"
+#endif
 
 FuchsiaCity_Gym_Text_CamperBarry_Before:
+#if GERMAN
 	.string "Hahaha!\p"
 	.string "Ganz genau! Ich bin die echte Janina!$"
+#else
+	.string "Wahahaha!\p"
+	.string "You betcha! I'm JANINE!$"
+#endif
 
 FuchsiaCity_Gym_Text_CamperBarry_Beaten:
+#if GERMAN
 	.string "Meine Verkleidung war perfekt!\n"
 	.string "Verdammt!$"
+#else
+	.string "My disguise was right on! Dang!$"
+#endif
 
 FuchsiaCity_Gym_Text_CamperBarry_After:
+#if GERMAN
 	.string "Hey du. War meine Verkleidung\n"
 	.string "süß oder was?$"
+#else
+	.string "Hey, you. Was my disguise cute or\n"
+	.string "what, huh?$"
+#endif
 
 FuchsiaCity_Gym_EventScript_GymGuy::
 	goto_if_set FLAG_DEFEATED_FUCHSIA_GYM, FuchsiaCity_Gym_EventScript_GymGuyAfter
@@ -279,18 +366,33 @@ FuchsiaCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 FuchsiaCity_Gym_Text_GymStatue::
+#if GERMAN
     .string "Pokémon-Arena von Fuchsania City\n"
     .string "Leiterin: Janina\p"
 	.string "Anerkannte Trainer:\n"
 	.string "Blau, Rot$"
+#else
+    .string "FUCHSIA POKéMON GYM\n"
+    .string "LEADER: JANINE\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED$"
+#endif
 
 FuchsiaCity_Gym_Text_GymStatuePlayerWon::
+#if GERMAN
     .string "Pokémon-Arena von Fuchsania City\n"
     .string "Leiterin: Janina\p"
 	.string "Anerkannte Trainer:\n"
 	.string "Blau, Rot, {PLAYER}$"
+#else
+    .string "FUCHSIA POKéMON GYM\n"
+    .string "LEADER: JANINE\p"
+    .string "WINNING TRAINERS:\n"
+    .string "BLUE, RED, {PLAYER}$"
+#endif
 
 FuchsiaCity_Gym_Text_Guide:
+#if GERMAN
 	.string "Hey, du! Zukünftiger Champ!\p"
 	.string "…Hoppla!\n"
 	.string "Sieh dich mal genau um!\p"
@@ -298,8 +400,20 @@ FuchsiaCity_Gym_Text_Guide:
 	.string "wie Janina, die Arenaleiterin, aussehen!\p"
 	.string "Kannst du erkennen, wer von ihnen\n"
 	.string "die echte Janina ist?$"
+#else
+	.string "Yo, CHAMP in making!\p"
+	.string "Whoops! Take a good look around you.\p"
+	.string "The trainers all look like the\n"
+	.string "LEADER, JANINE.\p"
+	.string "Which of them is the real JANINE?$"
+#endif
 
 FuchsiaCity_Gym_Text_GuideWin:
+#if GERMAN
 	.string "Das war ein hervorragender Kampf,\n"
 	.string "Trainer aus Johto!$"
+#else
+	.string "That was a great battle, trainer\n"
+	.string "from JOHTO!$"
+#endif
 

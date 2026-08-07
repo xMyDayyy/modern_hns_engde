@@ -89,6 +89,7 @@ PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha::
 	end
 
 PokemonLeague_AgathasRoom_Text_Intro::
+#if GERMAN
 	.string "Ich bin Agathe aus dem Team der\n"
 	.string "Top Vier!\p"
 	.string "Ich habe gehört, dass sich\n"
@@ -99,12 +100,28 @@ PokemonLeague_AgathasRoom_Text_Intro::
 	.string "Jetzt ist er nur noch ein\l"
 	.string "Schatten seiner Selbst.\p"
 	.string "Heute kümmert er sich nur noch um\n"
-	.string "seinen Pokédex! Aber Pokémon\l"
+	.string "seinen {COLOR RED}Pokédex{COLOR DARK_GRAY}! Aber Pokémon\l"
 	.string "wollen ja kämpfen!\p"
 	.string "{PLAYER}! Ich zeige dir, wie ein\n"
 	.string "richtiger Trainer kämpft!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#else
+	.string "I am AGATHA of the ELITE FOUR.\p"
+	.string "I hear OAK's taken a lot of\n"
+	.string "interest in you, child.\p"
+	.string "That old duff was once tough and\n"
+	.string "handsome.\p"
+	.string "But that was decades ago.\n"
+	.string "He's a shadow of his former self.\p"
+	.string "Now he just wants to fiddle with\n"
+	.string "his POKéDEX.\p"
+	.string "He's wrong.\n"
+	.string "POKéMON are for battling!\p"
+	.string "{PLAYER}! I'll show you how a real\n"
+	.string "TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#endif
 
 PokemonLeague_AgathasRoom_Text_RematchIntro::
+#if GERMAN
 	.string "Ich bin Agathe aus dem Team der\n"
 	.string "Top Vier!\p"
 	.string "Ich habe gehört, dass Eich\n"
@@ -115,19 +132,47 @@ PokemonLeague_AgathasRoom_Text_RematchIntro::
 	.string "Jetzt ist er nur noch ein\l"
 	.string "Schatten seiner Selbst.\p"
 	.string "Heute kümmert er sich nur noch um\n"
-	.string "seinen Pokédex! Aber Pokémon\l"
+	.string "seinen {COLOR RED}Pokédex{COLOR DARK_GRAY}! Aber Pokémon\l"
 	.string "wollen ja kämpfen!\p"
 	.string "{PLAYER}! Ich zeige dir, wie ein\n"
 	.string "richtiger Trainer kämpft!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#else
+	.string "I am AGATHA of the ELITE FOUR.\p"
+	.string "You're the child that OAK's taken\n"
+	.string "under his wing, aren't you?\p"
+	.string "That old duff was once tough and\n"
+	.string "handsome.\p"
+	.string "But that was decades ago.\n"
+	.string "He's a shadow of his former self.\p"
+	.string "Now he just wants to fiddle with\n"
+	.string "his POKéDEX.\p"
+	.string "He's wrong.\n"
+	.string "POKéMON are for battling!\p"
+	.string "{PLAYER}! I'll show you how a real\n"
+	.string "TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#endif
 
 PokemonLeague_AgathasRoom_Text_Defeat::
+#if GERMAN
 	.string "Wirklich!\n"
 	.string "Du bist ein ganz besonderes Kind!$"
+#else
+	.string "Oh, my!\n"
+	.string "You're something special, child!$"
+#endif
 
 PokemonLeague_AgathasRoom_Text_PostBattle::
+#if GERMAN
 	.string "Du hast gewonnen!\p"
 	.string "Nun verstehe ich, was der Professor\n"
 	.string "meinte...\p"
 	.string "Ich stimme ihm voll und ganz zu!\n"
 	.string "Setze deinen Weg fort!$"
+#else
+	.string "You win!\p"
+	.string "I see what the old duff sees in\n"
+	.string "you now.\p"
+	.string "I have nothing else to say.\n"
+	.string "Run along now, child!$"
+#endif
 

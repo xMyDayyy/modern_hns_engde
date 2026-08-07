@@ -219,10 +219,15 @@ LilycoveCity_LilycoveMuseum_2F_EventScript_ShowToughPainting::
 	end
 
 LilycoveCity_LilycoveMuseum_2F_Text_ThisIsExhibitHall:
+#if GERMAN
 	.string "Dies ist unser besonderer\n"
 	.string "Ausstellungsraum.$"
+#else
+	.string "This is our special exhibit hall.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_ExplainExhibitHall:
+#if GERMAN
 	.string "Wie du klar erkennen kannst, gibt es\n"
 	.string "hier nicht ein einziges Gemälde.\p"
 	.string "Ich möchte hier auch nicht einfach die\n"
@@ -237,8 +242,25 @@ LilycoveCity_LilycoveMuseum_2F_Text_ExplainExhibitHall:
 	.string "moderne und lebendige Kunst über\n"
 	.string "Pokémon sehen, die bereit sind, in\l"
 	.string "ein ruhmreiches Leben zu treten!$"
+#else
+	.string "As you can plainly see, there is not\n"
+	.string "a single painting on exhibit.\p"
+	.string "Here, I don't wish to exhibit works of\n"
+	.string "so-called classical art.\p"
+	.string "Such classical works you can see on\n"
+	.string "our ground floor.\p"
+	.string "I wish to exhibit work that is far\n"
+	.string "different from the classics.\p"
+	.string "Art, after all, is not restricted to old,\n"
+	.string "famous works!\p"
+	.string "This exhibit hall, I wish to fill it with…\p"
+	.string "Modern and vibrant artworks of\n"
+	.string "POKéMON seemingly ready to spring\l"
+	.string "forth into glorious life!$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_PleaseObtainPaintingsForExhibit:
+#if GERMAN
 	.string "Oh, entschuldige. Ich wollte dich\n"
 	.string "nicht\n"
 	.string "mit meinen Monologen langweilen.\p"
@@ -251,24 +273,56 @@ LilycoveCity_LilycoveMuseum_2F_Text_PleaseObtainPaintingsForExhibit:
 	.string "kannst\n"
 	.string "du den Künstler bitte fragen, ob wir\l"
 	.string "sein Werk hier ausstellen dürfen?$"
+#else
+	.string "I beg your pardon. I didn't intend\n"
+	.string "to monopolize the conversation.\p"
+	.string "Now, as you are young, and yet\n"
+	.string "obviously well traveled…\p"
+	.string "You must encounter lively POKéMON\n"
+	.string "and works of art depicting them.\p"
+	.string "If you were to come across such\n"
+	.string "a painting, may we ask you to obtain\l"
+	.string "the artist's permission to exhibit\l"
+	.string "it here?$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_WishToFillExhibit:
+#if GERMAN
 	.string "Ich möchte diesen Ausstellungsraum mit\n"
 	.string "modernen und lebendigen Gemälden von\l"
 	.string "Pokémon füllen.$"
+#else
+	.string "I wish to fill this exhibit hall with\n"
+	.string "modern and vibrant paintings of\l"
+	.string "POKéMON.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_ThanksAddedNewPainting:
+#if GERMAN
 	.string "Dank dir konnten wir ein neues Gemälde\n"
 	.string "für unsere Kollektion erwerben!\p"
 	.string "Ich habe gehört, es stellt dein\n"
 	.string "Pokémon dar. Wirklich einzigartig!\p"
 	.string "Vielen, vielen Dank!$"
+#else
+	.string "Thanks to you, we've added a new\n"
+	.string "painting to our collection!\p"
+	.string "I've heard it depicts your POKéMON.\n"
+	.string "Truly magnificent!\p"
+	.string "Thank you so very, very much!$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsYouPlayer:
+#if GERMAN
 	.string "Ah! Du bist es!\n"
 	.string "{PLAYER}!$"
+#else
+	.string "Ah! It's you!\n"
+	.string "{PLAYER}!$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_PaintingsAttractedMoreGuests:
+#if GERMAN
 	.string "Ist das nicht fantastisch?\n"
 	.string "Diese Sammlung von Gemälden!\p"
 	.string "Jedes einzelne makellos!\n"
@@ -277,61 +331,138 @@ LilycoveCity_LilycoveMuseum_2F_Text_PaintingsAttractedMoreGuests:
 	.string "Besucher für unser Kunstmuseum an.\p"
 	.string "Ehrlich, ich danke dir, {PLAYER}.\n"
 	.string "Mein Traum ist wahr geworden!$"
+#else
+	.string "Isn't this marvelous?\n"
+	.string "This collection of paintings!\p"
+	.string "Each one of them flawless!\n"
+	.string "None better than another!\p"
+	.string "These paintings have attracted\n"
+	.string "more guests to our ART MUSEUM.\p"
+	.string "Sincerely, I thank you, {PLAYER}.\n"
+	.string "This is my dream come true!$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_TokenOfGratitude:
+#if GERMAN
 	.string "Dies ist nur ein kleines Dankeschön.$"
+#else
+	.string "This is merely a token of my gratitude.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_KeepThisForYou:
+#if GERMAN
 	.string "Ich werde das für dich aufbewahren,\n"
 	.string "bis wir uns wiedersehen.$"
+#else
+	.string "I will keep this for you until we\n"
+	.string "meet again.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_HonorToHaveYouVisit:
+#if GERMAN
 	.string "Ah, schön, dich zu sehen, {PLAYER}!\p"
 	.string "Es ist eine Ehre für uns, dass du uns\n"
 	.string "trotz deiner vielen Aufgaben besuchst.\n"
 	.string "\p"
 	.string "Bitte, entspanne dich und genieße\n"
 	.string "deinen Besuch bei uns.$"
+#else
+	.string "Ah, so good to see you, {PLAYER}!\p"
+	.string "It's an honor to have you visit us\n"
+	.string "on your busy journeys.\p"
+	.string "Please, relax and do enjoy your\n"
+	.string "visit with us.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsPinkPictureFrame:
+#if GERMAN
 	.string "Ein Bilderrahmen mit pinkfarbenen\n"
 	.string "Verzierungen.$"
+#else
+	.string "It's a picture frame with pink-colored\n"
+	.string "adornments.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsYellowPictureFrame:
+#if GERMAN
 	.string "Ein Bilderrahmen mit gelben\n"
 	.string "Verzierungen.$"
+#else
+	.string "It's a picture frame with\n"
+	.string "yellow-colored adornments.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsBluePictureFrame:
+#if GERMAN
 	.string "Ein Bilderrahmen mit blauen\n"
 	.string "Verzierungen.$"
+#else
+	.string "It's a picture frame with\n"
+	.string "blue-colored adornments.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsRedPictureFrame:
+#if GERMAN
 	.string "Ein Bilderrahmen mit roten\n"
 	.string "Verzierungen.$"
+#else
+	.string "It's a picture frame with\n"
+	.string "red-colored adornments.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsGreenPictureFrame:
+#if GERMAN
 	.string "Ein Bilderrahmen mit grünen\n"
 	.string "Verzierungen.$"
+#else
+	.string "It's a picture frame with\n"
+	.string "green-colored adornments.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsPaintingOfPokemon:
+#if GERMAN
 	.string "Ein Bild eines Pokémon.$"
+#else
+	.string "It's a painting of POKéMON.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe:
+#if GERMAN
 	.string "Ich war eine Weile nicht hier, daher\n"
 	.string "haben mich die neuen Gemälde über-\l"
 	.string "rascht.\p"
 	.string "Ich wünschte, jemand würde mein\n"
 	.string "Pokémon so wunderbar porträtieren.$"
+#else
+	.string "I've been away awhile, so the new\n"
+	.string "paintings up here surprised me.\p"
+	.string "I wish someone would paint my POKéMON\n"
+	.string "this pretty.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsRatherAmusing:
+#if GERMAN
 	.string "Nun… Hier stellen sie also Werke zum\n"
 	.string "Thema Pokémon aus.\p"
 	.string "Ich sehe schon. Die Gemälde sind\n"
 	.string "wirklich amüsant.$"
+#else
+	.string "Well… So this is where they show\n"
+	.string "the topical POKéMON paintings.\p"
+	.string "I see, these new paintings are indeed\n"
+	.string "rather amusing.$"
+#endif
 
 LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon:
+#if GERMAN
 	.string "Wow, ehrlich?\n"
 	.string "Das sind Gemälde deiner Pokémon?\p"
 	.string "Ist das nicht die absolute Freude für\n"
 	.string "einen Trainer?$"
+#else
+	.string "Wow, is that right?\n"
+	.string "These paintings are of your POKéMON.\p"
+	.string "Isn't that just the ultimate joy for\n"
+	.string "a TRAINER?$"
+#endif
 

@@ -316,42 +316,84 @@ PetalburgWoods_EventScript_JamesRematch::
 	end
 
 PetalburgWoods_Text_NotAOneToBeFound:
+#if GERMAN
 	.string "Hmmm… Kein Einziges zu finden.$"
+#else
+	.string "Hmmm…\n"
+	.string "Not a one to be found…$"
+#endif
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
+#if GERMAN
 	.string "Hallo, du hast nicht zufällig einige\n"
 	.string "Pokémon namens Knilz hier\p"
 	.string "gesehen? Ich liebe diese Pokémon.$"
+#else
+	.string "Hello, have you seen any POKéMON\n"
+	.string "called SHROOMISH around here?\p"
+	.string "I really love that POKéMON.$"
+#endif
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
+#if GERMAN
 	.string "Ich wollte dich eigentlich aus dem\n"
 	.string "Hinterhalt angreifen, aber du trödelst\l"
 	.string "wohl auf ewig im Blütenburgwald\l"
 	.string "herum, oder?\p"
 	.string "Das Warten machte mich ganz krank.\n"
 	.string "Also, hier bin ich.$"
+#else
+	.string "I was going to ambush you, but you\n"
+	.string "had to dawdle in PETALBURG WOODS\l"
+	.string "forever, didn't you?\p"
+	.string "I got sick of waiting, so here I am!$"
+#endif
 
 PetalburgWoods_Text_HandOverThosePapers:
+#if GERMAN
 	.string "He, du! Forscher von Devon!\p"
 	.string "Gib sofort die Papiere her!$"
+#else
+	.string "You! DEVON RESEARCHER!\p"
+	.string "Hand over those papers!$"
+#endif
 
 PetalburgWoods_Text_YouHaveToHelpMe:
+#if GERMAN
 	.string "Attackeee!\p"
 	.string "Du bist ein Pokémon-Trainer, oder?\n"
 	.string "Du musst mir bitte helfen!$"
+#else
+	.string "Aiyeeeh!\p"
+	.string "You're a POKéMON TRAINER, aren't you?\n"
+	.string "You've got to help me, please!$"
+#endif
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
+#if GERMAN
 	.string "Huch. Was machst du da eigentlich???\n"
 	.string "Was?!? Du schützt ihn???\p"
 	.string "Niemand, der sich Team Aqua in den Weg\n"
 	.string "stellt, kann auf Gnade hoffen.\n"
 	.string "Niemand! \p"
 	.string "Los, kämpfe gegen mich!$"
+#else
+	.string "Hunh? What do you think you're doing?\n"
+	.string "What, you're going to protect him?\p"
+	.string "No one who crosses TEAM AQUA\n"
+	.string "gets any mercy, not even a kid!\p"
+	.string "Come on and battle me!$"
+#endif
 
 PetalburgWoods_Text_YoureKiddingMe:
+#if GERMAN
 	.string "Du hast mich geleimt! Du bist stark!$"
+#else
+	.string "You're kidding me! You're tough!$"
+#endif
 
 PetalburgWoods_Text_YouveGotSomeNerve:
+#if GERMAN
 	.string "Grrr… Du hast vielleicht Nerven, dich\n"
 	.string "mit Team Aqua anzulegen!\l"
 	.string "Los, kämpfen wir noch einmal!\p"
@@ -361,108 +403,232 @@ PetalburgWoods_Text_YouveGotSomeNerve:
 	.string "Außerdem sind wir, Team Aqua, auf dem\n"
 	.string "Weg nach Metarost City.\p"
 	.string "Für heute lasse ich dich gehen.$"
+#else
+	.string "Grrr… You've got some nerve\n"
+	.string "meddling with TEAM AQUA!\l"
+	.string "Come on and battle me again!\p"
+	.string "I wish I could say that, but I'm out of\n"
+	.string "POKéMON…\p"
+	.string "And, hey, we of TEAM AQUA are also\n"
+	.string "after something in RUSTBORO.\p"
+	.string "I'll let you go today!$"
+#endif
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
+#if GERMAN
 	.string "Huuuh… Das war aber mehr als knapp!\p"
 	.string "Dank dir konnte er mir diese\n"
 	.string "wichtigen Papiere nicht rauben.\p"
 	.string "Ich weiß! Ich gebe dir diesen\n"
-	.string "Superball als Dankeschön!$"
+	.string "{COLOR RED}Superball{COLOR DARK_GRAY} als Dankeschön!$"
+#else
+	.string "Whew…\n"
+	.string "That was awfully close!\p"
+	.string "Thanks to you, he didn't rob me of\n"
+	.string "these important papers.\p"
+	.string "I know, I'll give you a GREAT BALL as\n"
+	.string "my thanks!$"
+#endif
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
+#if GERMAN
 	.string "Hat dieser Schuft von Team Aqua nicht\n"
 	.string "gesagt, dass sie irgendetwas in\l"
 	.string "Metarost City erledigen wollen?$"
+#else
+	.string "Didn't that TEAM AQUA thug say\n"
+	.string "they were after something in\l"
+	.string "RUSTBORO, too?$"
+#endif
 
 PetalburgWoods_Text_ICantBeWastingTime:
+#if GERMAN
 	.string "Oh oh! Das ist ein Notfall!\n"
 	.string "Ich darf keine Zeit verlieren!$"
+#else
+	.string "Uh-oh! It's a crisis!\n"
+	.string "I can't be wasting time!$"
+#endif
 
 PetalburgWoods_Text_YoureLoadedWithItems:
+#if GERMAN
 	.string "Du bist mit Items überfrachtet.\n"
 	.string "Ich kann dir den Superball nicht\l"
 	.string "geben.$"
+#else
+	.string "You're loaded with items.\n"
+	.string "I can't give you this GREAT BALL.$"
+#endif
 
 PetalburgWoods_Text_GoBugPokemonTeam:
+#if GERMAN
 	.string "Ich habe eine Menge Pokémon gefangen!\n"
 	.string "\p"
 	.string "Los, los, los!\n"
 	.string "Mein Käfer-Pokémon-Team!$"
+#else
+	.string "I caught a whole bunch of POKéMON!\p"
+	.string "Go, go, go!\n"
+	.string "My BUG POKéMON team!$"
+#endif
 
 PetalburgWoods_Text_ICouldntWin:
+#if GERMAN
 	.string "Ich habe all diese Pokémon, aber ich\n"
 	.string "konnte doch nicht gewinnen…$"
+#else
+	.string "I have all these POKéMON,\n"
+	.string "but I couldn't win…$"
+#endif
 
 PetalburgWoods_Text_ImOutOfPokeBalls:
+#if GERMAN
 	.string "Ich habe eine Menge Pokémon gefangen.\n"
 	.string "Nun habe ich keine Pokébälle mehr.$"
+#else
+	.string "I caught a bunch of POKéMON.\n"
+	.string "Now I'm out of POKé BALLS.$"
+#endif
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon:
+#if GERMAN
 	.string "Wenn du ein Käfer-Pokémon mit zur\n"
 	.string "Schule bringst, bist du sofort\l"
 	.string "beliebt.$"
+#else
+	.string "If you take BUG POKéMON to school,\n"
+	.string "you get to be instantly popular!$"
+#endif
 
 PetalburgWoods_Text_CantBePopularIfILose:
+#if GERMAN
 	.string "Wenn ich verliere, kann ich nicht\n"
 	.string "beliebt werden.$"
+#else
+	.string "I can't be popular if I lose.$"
+#endif
 
 PetalburgWoods_Text_PeopleRespectYou:
+#if GERMAN
 	.string "Hast du ein großes Käfer-Pokémon,\n"
 	.string "werden die Leute dich respektieren.$"
+#else
+	.string "If you have a big BUG POKéMON,\n"
+	.string "people respect you for it.$"
+#endif
 
 PetalburgWoods_Text_IWantRematch1:
+#if GERMAN
 	.string "Ich möchte wieder kämpfen, wenn meine\n"
 	.string "Käfer-Pokémon stärker geworden sind.\p"
 	.string "Ich trage dich in meinen PokéNav ein.$"
+#else
+	.string "I want a rematch when my BUG\n"
+	.string "POKéMON grow up!\p"
+	.string "I'm registering you in my POKéNAV!$"
+#endif
 
 PetalburgWoods_Text_IWantRematch2:
+#if GERMAN
 	.string "Ich möchte wieder kämpfen, wenn meine\n"
 	.string "Käfer-Pokémon stärker geworden sind.\p"
 	.string "Ich trage dich in meinen PokéNav ein.$"
+#else
+	.string "I want a rematch when my BUG \n"
+	.string "POKéMON grow up!\p"
+	.string "I'm registering you in my POKéNAV!$"
+#endif
 
 PetalburgWoods_Text_MyPokemonHaveGrown:
+#if GERMAN
 	.string "Meine Käfer-Pokémon sind gewachsen.\n"
 	.string "Ich werde wieder beliebt sein.$"
+#else
+	.string "My BUG POKéMON have grown.\n"
+	.string "I'll be popular again.$"
+#endif
 
 PetalburgWoods_Text_CantBePopularIfLose:
+#if GERMAN
 	.string "Ich werde nie beliebt, wenn ich\n"
 	.string "immer verliere.$"
+#else
+	.string "I can't be popular if I lose.$"
+#endif
 
 PetalburgWoods_Text_IveBeenTrainingHard:
+#if GERMAN
 	.string "Du wirst beliebt, wenn du starke\n"
 	.string "Pokémon besitzt, oder?\l"
 	.string "Daher trainiere ich bis zum Umfallen.$"
+#else
+	.string "You get to be popular if you have\n"
+	.string "strong POKéMON, right?\l"
+	.string "So, I've been training hard.$"
+#endif
 
 PetalburgWoods_Text_StayOutOfTallGrass:
+#if GERMAN
 	.string "Hey, du!\n"
 	.string "Geht es deinen Pokémon gut?\p"
 	.string "Wenn deine Pokémon schwach sind und\n"
 	.string "du Kämpfe vermeiden willst, solltest\n"
 	.string "du\l"
 	.string "dich von hohem Gras fernhalten.$"
+#else
+	.string "Yo, there!\n"
+	.string "Your POKéMON doing okay?\p"
+	.string "If your POKéMON are weak and you want\n"
+	.string "to avoid battles, you should stay out\l"
+	.string "of tall grass.$"
+#endif
 
 PetalburgWoods_Text_HiddenItemsExplanation:
+#if GERMAN
 	.string "Manchmal liegen auf dem Boden Dinge,\n"
 	.string "die einem auf Anhieb gar nicht\l"
 	.string "auffallen.\p"
 	.string "Daher schaue ich mich bei jedem\n"
 	.string "Schritt sorgfältig um.$"
+#else
+	.string "Sometimes, there are things on the\n"
+	.string "ground even if you can't see them.\p"
+	.string "That's why I always check where I'm\n"
+	.string "walking.$"
+#endif
 
 PetalburgWoods_Text_TryUsingThisItem:
+#if GERMAN
 	.string "Oh, hübsch! Das ist der Orden\n"
 	.string "der Arena in Metarost City!\p"
 	.string "Du siehst wie ein Trainer aus. Dann\n"
 	.string "musst du dieses Item ausprobieren.$"
+#else
+	.string "Oh, neat!\n"
+	.string "That's the BADGE from RUSTBORO GYM!\p"
+	.string "You must be a TRAINER.\n"
+	.string "You should try using this item.$"
+#endif
 
 PetalburgWoods_Text_MiracleSeedExplanation:
+#if GERMAN
 	.string "Das ist Wundersaat.\n"
 	.string "Wenn ein Pokémon sie trägt, werden\l"
 	.string "die Pflanzen-Attacken stärker.\p"
 	.string "Neben der Wundersaat gibt es bestimmt\n"
 	.string "noch andere nützliche Items, die von\l"
 	.string "Pokémon getragen werden können.$"
+#else
+	.string "It's a MIRACLE SEED.\n"
+	.string "If a POKéMON holds that item, its\l"
+	.string "GRASS-type moves become stronger.\p"
+	.string "Besides MIRACLE SEED, I think there are\n"
+	.string "other convenient items for POKéMON\l"
+	.string "to hold.$"
+#endif
 
 PetalburgWoods_Text_TrainerTipsExperience:
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Jedes Pokémon, das am Kampf teilnimmt,\n"
 	.string "erhält Erfahrungspunkte, auch wenn es\l"
@@ -472,8 +638,19 @@ PetalburgWoods_Text_TrainerTipsExperience:
 	.string "Sobald der Kampf beginnt, wechselst du\n"
 	.string "es aus. Es wird E-Punkte bekommen und\l"
 	.string "bleibt trotzdem immer unbeschadet.$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "Any POKéMON that appears even once\n"
+	.string "in a battle is awarded EXP Points.\p"
+	.string "To raise a weak POKéMON, put it at the\n"
+	.string "left of the team list.\p"
+	.string "As soon as a battle starts, switch it\n"
+	.string "out. It will earn EXP Points without\l"
+	.string "being exposed to any harm.$"
+#endif
 
 PetalburgWoods_Text_TrainerTipsPP:
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Neben den Kraftpunkten (KP) besitzt\n"
 	.string "ein Pokémon auch Angriffspunkte (AP),\l"
@@ -484,4 +661,12 @@ PetalburgWoods_Text_TrainerTipsPP:
 	.string "besitzt,\n"
 	.string "muss es in ein Pokémon-Center gebracht\l"
 	.string "werden.$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "In addition to Hit Points (HP), POKéMON\n"
+	.string "have Power Points (PP) that are used to\l"
+	.string "make moves during battle.\p"
+	.string "If a POKéMON runs out of PP, it must be\n"
+	.string "taken to a POKéMON CENTER.$"
+#endif
 

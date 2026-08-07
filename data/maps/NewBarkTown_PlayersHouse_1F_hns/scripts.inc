@@ -152,45 +152,97 @@ NewBarkTown_PlayersHouse_1F_EventScript_ExitSavings::
 	return
 
 NewBarkTown_PlayersHouse_1F_Text_MomAnythingElse:
+#if GERMAN
 	.string "Kann ich dir sonst noch\n"
 	.string "helfen, Liebling?$"
+#else
+	.string "Is there anything else I can\n"
+	.string "help you with, sweetie?$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_CurrentSavings:
+#if GERMAN
 	.string "Ich habe {STR_VAR_2}\n"
 	.string "für dich gespart.$"
+#else
+	.string "I'm holding {STR_VAR_2}\n"
+	.string "for you right now.$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_EnableSaving:
+#if GERMAN
 	.string "Möchtest du, dass ich etwas von\n"
 	.string "dem Geld spare, das du verdienst?$"
+#else
+	.string "Do you want me to save some of the\n"
+	.string "money you earn?$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_SavingEnabled:
+#if GERMAN
 	.string "Okay! Ich spare 25%\n"
 	.string "des Geldes von deinen Kämpfen.$"
+#else
+	.string "Okay! I'll save 25% of\n"
+	.string "the money you earn from battles.$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_DisableSaving:
+#if GERMAN
 	.string "Möchtest du, dass ich\n"
 	.string "nicht mehr für dich spare?$"
+#else
+	.string "Would you like me to stop\n"
+	.string "saving for you?$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_SavingDisabled:
+#if GERMAN
 	.string "Okay, ich höre auf zu sparen.$"
+#else
+	.string "Okay, I'll stop saving for now.$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_Goodbye:
+#if GERMAN
 	.string "Sei vorsichtig, Liebling!$"
+#else
+	.string "Take care, sweetie!$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_DepositSuccess:
+#if GERMAN
 	.string "Mama: Hört sich gut an!\n"
 	.string "Das kommt ins Sparschwein.$"
+#else
+	.string "MOM: Sounds good! I'll put that in\n"
+	.string "savings for you.$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_WithdrawSuccess:
+#if GERMAN
 	.string "Mama: Hier!$"
+#else
+	.string "MOM: Here you go!$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_NoMoneyToDeposit:
+#if GERMAN
 	.string "Mama: Du hast leider kein Geld,\n"
 	.string "das du sparen könntest, Liebling.$"
+#else
+	.string "MOM: You don't have any money to\n"
+	.string "deposit right now, sweetie.$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_NoMoneyToWithdraw:
+#if GERMAN
 	.string "Mama: Ich habe noch kein Geld\n"
 	.string "für dich, Liebling$"
+#else
+	.string "MOM: I haven't saved any money\n"
+	.string "for you yet, honey.$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_EventScript_MomsIntroTrigger1::
 	lock
@@ -295,49 +347,100 @@ NewBarkTown_PlayersHouse_1F_MovementFaceLeft:
 	step_end
 
 NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou:
+#if GERMAN
 	.string "Oh, {PLAYER}…! Unser Nachbar,\n"
-	.string "Prof. Lind, sucht nach dir.\p"
+	.string "{COLOR RED}Prof. Lind{COLOR DARK_GRAY}, sucht nach dir.\p"
 	.string "Er will, dass du ihm bei etwas\n"
 	.string "hilfst.\p"
 	.string "Oh! Fast vergessen! Dein\n"
-	.string "PokéCom kam fertig aus der Werkstatt.\p"
+	.string "{COLOR RED}PokéCom{COLOR DARK_GRAY} kam fertig aus der Werkstatt.\p"
 	.string "Hier, nimm ihn!$"
+#else
+	.string "Oh, {PLAYER}…! Our neighbor,\n"
+	.string "PROF.ELM, was looking for you.\p"
+	.string "He said he wanted you to do\n"
+	.string "something for him.\p"
+	.string "Oh! I almost forgot! Your POKéGEAR\n"
+	.string "is back from the repair shop.\p"
+	.string "Here you go!$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_ObtainedPokeGear:
-	.string "{PLAYER} erhielt das PokéCom.$"
+#if GERMAN
+	.string "{PLAYER} erhielt das {COLOR RED}PokéCom{COLOR DARK_GRAY}.$"
+#else
+	.string "{PLAYER} obtained the POKéGEAR.$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_ExplainPokeGear:
+#if GERMAN
 	.string "Mama: Telefonnummern befinden\n"
 	.string "sich im Speicher.\p"
 	.string "Wähle einfach einen Namen aus,\n"
 	.string "um anzurufen.\p"
 	.string "Wie praktisch!$"
+#else
+	.string "MOM: Phone numbers are stored\n"
+	.string "in memory.\p"
+	.string "Just choose a name you want to call.\p"
+	.string "Gee, isn't that convenient?$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_WearTheseRunningShoes:
+#if GERMAN
 	.string "Oh, und vergiss nicht deine\n"
 	.string "Turbotreter!$"
+#else
+	.string "Oh, and don't forget your\n"
+	.string "RUNNING SHOES!$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_SwitchShoesWithRunningShoes:
+#if GERMAN
 	.string "{PLAYER} tauschte Schuhe gegen\n"
 	.string "die Turbotreter.$"
+#else
+	.string "{PLAYER} switched shoes with the\n"
+	.string "RUNNING SHOES.$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_ExplainRunningShoes:
+#if GERMAN
 	.string "Mama: {PLAYER}, halte B gedrückt,\n"
 	.string "um mit diesen Schuhen zu laufen!$"
+#else
+	.string "MOM: {PLAYER}, press the B Button\n"
+	.string "while wearing these to run fast!$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_MomHurryUpElmIsWaiting:
-	.string "Mama: Prof. Lind wartet auf dich.\p"
+#if GERMAN
+	.string "Mama: {COLOR RED}Prof. Lind{COLOR DARK_GRAY} wartet auf dich.\p"
 	.string "Beeil dich, Liebling!$"
+#else
+	.string "MOM: PROF.ELM is waiting for you.\p"
+	.string "Hurry up, baby!$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_MomsFriend:
+#if GERMAN
 	.string "Hi, {PLAYER}!\p"
 	.string "Ich besuche euch!\p"
 	.string "Hast du schon gehört?\p"
 	.string "Meine Tochter will unbedingt\n"
 	.string "Prof. Linds Assistentin werden.\p"
 	.string "Sie liebt Pokémon wirklich sehr!$"
+#else
+	.string "Hi, {PLAYER}!\p"
+	.string "I'm visiting!\p"
+	.string "Have you heard?\p"
+	.string "My daughter is adamant about\n"
+	.string "becoming PROF.ELM's assistant.\p"
+	.string "She really loves POKéMON!$"
+#endif
 
 NewBarkTown_PlayersHouse_1F_Text_MomLeaving:
+#if GERMAN
 	.string "Mama: Oh, was für ein süßes\n"
 	.string "Pokémon!\p"
 	.string "Wo hast du es her?\p"
@@ -349,3 +452,15 @@ NewBarkTown_PlayersHouse_1F_Text_MomLeaving:
 	.string "Ihr müsst als Team arbeiten.\p"
 	.string "Jetzt los!\n"
 	.string "Ich stehe hinter dir!$"
+#else
+	.string "MOM: Wow, that's a cute POKéMON.\n"
+	.string "Where did you get it?\p"
+	.string "…\p"
+	.string "So, you're leaving on an adventure...\n"
+	.string "That does sound challenging...\p"
+	.string "Just be careful.\p"
+	.string "POKéMON are your friends.\n"
+	.string "You need to work as a team.\p"
+	.string "Now, go on!\n"
+	.string "I'm behind you all the way!$"
+#endif

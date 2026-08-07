@@ -10,16 +10,29 @@ PewterCity_Mart_EventScript_Nerd::
 	end
 
 PewterCity_Mart_Text_Youngster:
+#if GERMAN
 	.string "Hi! Mach doch Bekanntschaft\n"
 	.string "mit meinem Garados!\p"
 	.string "Ich habe es als Karpador\n"
 	.string "aufgezogen. Kaum zu\l"
 	.string "glauben, wie stark es geworden ist.$"
+#else
+	.string "Hi! Check out my GYARADOS!\p"
+	.string "I raised it from a MAGIKARP. I can't\n"
+	.string "believe how strong it has become.$"
+#endif
 
 PewterCity_Mart_Text_SuperNerd:
+#if GERMAN
 	.string "Es gab mal einen\n"
 	.string "komischen, alten Mann, der Karpador\l"
 	.string "verkaufte.\p"
 	.string "Er sagte immer, die Karpador im\n"
-	.string "See des Zorns seien außergewöhnlich.$"
+	.string "{COLOR RED}See des Zorns{COLOR DARK_GRAY} seien außergewöhnlich.$"
+#else
+	.string "There once was a weird old man who sold\n"
+	.string "MAGIKARP.\p"
+	.string "He was saying the MAGIKARP from the\n"
+	.string "LAKE OF RAGE were excellent.$"
+#endif
 

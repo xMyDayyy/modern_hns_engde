@@ -173,21 +173,61 @@ static u16 SampleResortGorgeousReward(void);
 static void Task_ShakeScreen(u8 taskId);
 static void Task_EndScreenShake(u8 taskId);
 
+#if GERMAN
 static const u8 sText_BigGuy[] = _("Großer");
+#else
+static const u8 sText_BigGuy[] = _("Big guy");
+#endif
+#if GERMAN
 static const u8 sText_BigGirl[] = _("Große");
+#else
+static const u8 sText_BigGirl[] = _("Big girl");
+#endif
+#if GERMAN
 static const u8 sText_Son[] = _("Sohn");
+#else
+static const u8 sText_Son[] = _("son");
+#endif
+#if GERMAN
 static const u8 sText_Daughter[] = _("Tochter");
+#else
+static const u8 sText_Daughter[] = _("daughter");
+#endif
 static const u8 sText_99TimesPlus[] = _("99 times +");
 static const u8 sText_1MinutePlus[] = _("1 minute +");
 static const u8 sText_SpaceSeconds[] = _(" seconds");
 static const u8 sText_SpaceTimes[] = _(" time(s)");
 
+#if GERMAN
 static const u8 sText_Wallace[] = _("Wassili");
+#else
+static const u8 sText_Wallace[] = _("WALLACE");
+#endif
+#if GERMAN
 static const u8 sText_Steven[] = _("Troy");
+#else
+static const u8 sText_Steven[] = _("STEVEN");
+#endif
+#if GERMAN
 static const u8 sText_Brawly[] = _("Kamillo");
+#else
+static const u8 sText_Brawly[] = _("BRAWLY");
+#endif
+#if GERMAN
 static const u8 sText_Winona[] = _("Wibke");
+#else
+static const u8 sText_Winona[] = _("WINONA");
+#endif
+#if GERMAN
 static const u8 sText_Phoebe[] = _("Antonia");
+#else
+static const u8 sText_Phoebe[] = _("PHOEBE");
+#endif
+#if GERMAN
 static const u8 sText_Glacia[] = _("Frosina");
+#else
+static const u8 sText_Glacia[] = _("GLACIA");
+#endif
 
 void Special_ShowDiploma(void)
 {
@@ -5409,7 +5449,11 @@ static void Task_ElevatorShake(u8 taskId)
     }
 }
 
+#if GERMAN
 static const u8 sText_NowOn[] = _("Jetzt im:");
+#else
+static const u8 sText_NowOn[] = _("Now on:");
+#endif
 
 void DrawElevatorCurrentFloorWindow(void)
 {

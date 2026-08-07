@@ -1217,7 +1217,11 @@ static const u8 sWeatherNames[WEATHER_COUNT][24] = {
     [WEATHER_LEAVES]             = _("Laub"),
 };
 
+#if GERMAN
 static const u8 sDebugText_WeatherNotDefined[] = _("Nicht definiert!!!");
+#else
+static const u8 sDebugText_WeatherNotDefined[] = _("NOT DEFINED!!!");
+#endif
 const u8 *GetWeatherName(u32 weatherId)
 {
     if (sWeatherNames[weatherId][0] != 0)

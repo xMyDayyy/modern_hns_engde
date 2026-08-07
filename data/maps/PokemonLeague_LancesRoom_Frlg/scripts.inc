@@ -165,9 +165,10 @@ PokemonLeague_LancesRoom_Movement_LanceMoveOutOfWayRight::
 	step_end
 
 PokemonLeague_LancesRoom_Text_Intro::
+#if GERMAN
 	.string "Ich habe bereits von dir gehört,\n"
 	.string "{PLAYER}!\p"
-	.string "Ich bin Siegfried, Drachen-\n"
+	.string "Ich bin {COLOR RED}Siegfried{COLOR DARK_GRAY}, Drachen-\n"
 	.string "Trainer und Oberhaupt der\l"
 	.string "Top Vier!\l"
 	.string "Wusstest du, dass Drachen mystische\l"
@@ -179,12 +180,29 @@ PokemonLeague_LancesRoom_Text_Intro::
 	.string "Auge zu blicken?\p"
 	.string "Für dich endet der Ausflug in die\n"
 	.string "Pokémon Liga hier, {PLAYER}!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#else
+	.string "Ah! I've heard about you,\n"
+	.string "{PLAYER}!\p"
+	.string "I lead the ELITE FOUR.\p"
+	.string "You can call me LANCE the dragon\n"
+	.string "TRAINER.\p"
+	.string "You know that dragons are\n"
+	.string "mythical POKéMON.\p"
+	.string "They're hard to catch and raise,\n"
+	.string "but their powers are superior.\p"
+	.string "They're virtually indestructible.\n"
+	.string "There's no being clever with them.\p"
+	.string "Well, are you ready to lose?\p"
+	.string "Your LEAGUE challenge ends with\n"
+	.string "me, {PLAYER}!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#endif
 
 PokemonLeague_LancesRoom_Text_RematchIntro::
+#if GERMAN
 	.string "Ah!\n"
 	.string "Du bist also zurückgekehrt,\l"
 	.string "{PLAYER}!\p"
-	.string "Ich bin Siegfried, Drachen-\n"
+	.string "Ich bin {COLOR RED}Siegfried{COLOR DARK_GRAY}, Drachen-\n"
 	.string "Trainer und Oberhaupt der\l"
 	.string "Top Vier!\p"
 	.string "Wusstest du, dass Drachen mystische\n"
@@ -196,13 +214,36 @@ PokemonLeague_LancesRoom_Text_RematchIntro::
 	.string "Auge zu blicken?\p"
 	.string "Für dich endet der Ausflug in die\n"
 	.string "Pokémon Liga hier, {PLAYER}!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#else
+	.string "Ah!\n"
+	.string "So, you've returned, {PLAYER}!\p"
+	.string "I lead the ELITE FOUR.\p"
+	.string "You can call me LANCE the dragon\n"
+	.string "TRAINER.\p"
+	.string "You know that dragons are\n"
+	.string "mythical POKéMON.\p"
+	.string "They're hard to catch and raise,\n"
+	.string "but their powers are superior.\p"
+	.string "They're virtually indestructible.\n"
+	.string "There's no being clever with them.\p"
+	.string "Well, are you ready to lose?\p"
+	.string "Your LEAGUE challenge ends with\n"
+	.string "me, {PLAYER}!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#endif
 
 PokemonLeague_LancesRoom_Text_Defeat::
+#if GERMAN
 	.string "Es ist vorbei!\p"
 	.string "Unfassbar! Du bist wahrlich ein\n"
 	.string "Pokémon-Meister!$"
+#else
+	.string "That's it!\p"
+	.string "I hate to admit it, but you are a\n"
+	.string "POKéMON master!$"
+#endif
 
 PokemonLeague_LancesRoom_Text_PostBattle::
+#if GERMAN
 	.string "Es ist kaum zu glauben! Meine\n"
 	.string "Drachen sind an dir gescheitert,\l"
 	.string "{PLAYER}!\p"
@@ -217,4 +258,19 @@ PokemonLeague_LancesRoom_Text_PostBattle::
 	.string "Auch er hat die Top Vier besiegt!\p"
 	.string "Er ist der amtierende Champion der\n"
 	.string "Pokémon Liga!$"
+#else
+	.string "I still can't believe my dragons\n"
+	.string "lost to you, {PLAYER}.\p"
+	.string "You are now the POKéMON LEAGUE\n"
+	.string "CHAMPION!\p"
+	.string "…Or, you would have been, but\n"
+	.string "you have one more challenge left.\p"
+	.string "There is one more TRAINER to face!\n"
+	.string "His name is…\p"
+	.string "{RIVAL}!\p"
+	.string "He beat the ELITE FOUR before\n"
+	.string "you.\p"
+	.string "He is the real POKéMON LEAGUE\n"
+	.string "CHAMPION.$"
+#endif
 

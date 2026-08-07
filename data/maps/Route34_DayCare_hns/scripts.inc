@@ -30,20 +30,40 @@ Route34_DayCare_Bookshelf4::
 	end
 
 Route34_DayCare_Text_Bookshelf1:
+#if GERMAN
 	.string "Eine Enzyklopädie über Baby-Pokémon.\p"
 	.string "Teil 1: Über Fähigkeiten.$"
+#else
+	.string "A BABY POKéMON encyclopedia!\p"
+	.string "VOLUME 1: ALL ABOUT ABILITIES$"
+#endif
 
 Route34_DayCare_Text_Bookshelf2:
+#if GERMAN
 	.string "Eine Enzyklopädie über Baby-Pokémon.\p"
 	.string "Teil 2: Typen.$"
+#else
+	.string "A BABY POKéMON encyclopedia!\p"
+	.string "VOLUME 2: TYPICAL TYPES$"
+#endif
 
 Route34_DayCare_Text_Bookshelf3:
+#if GERMAN
 	.string "Eine Enzyklopädie über Baby-Pokémon.\p"
 	.string "Teil 3: Geräusche von Babys.$"
+#else
+	.string "A BABY POKéMON encyclopedia!\p"
+	.string "VOLUME 3: BABIES' CRIES$"
+#endif
 
 Route34_DayCare_Text_Bookshelf4:
+#if GERMAN
 	.string "Eine Enzyklopädie über Baby-Pokémon.\p"
 	.string "Teil 4: Süße Eigenheiten.$"
+#else
+	.string "A BABY POKéMON encyclopedia!\p"
+	.string "VOLUME 4: ADORABLE ACTIONS$"
+#endif
 
 Route34_DayCare_EventScript_Clerk::
 	lock
@@ -151,6 +171,7 @@ Route34_DayCare_EventScript_ClerkAfter::
 	end
 
 Route34_DayCare_Text_ClerkBefore:
+#if GERMAN
 	.string "Ich bin der Sohn des Pensions-\n"
 	.string "Paars.\p"
 	.string "Ein seltsames Ei wurde bei einem\n"
@@ -159,35 +180,77 @@ Route34_DayCare_Text_ClerkBefore:
 	.string "Ich könnte es dir geben…\n"
 	.string "Aber wie kann ich wissen, dass du\l"
 	.string "gut darauf aufpasst?$"
+#else
+	.string "I'm the DAY-CARE couple's son.\p"
+	.string "An ODD EGG was found with a TRAINER's\n"
+	.string "POKéMON, but they didn't want it...\p"
+	.string "I'd offer it to you...\n"
+	.string "But how can I know you'll take good\l"
+	.string "care of it?$"
+#endif
 
 Route34_DayCare_Text_ClerkNoRoom:
+#if GERMAN
 	.string "Sieht so aus, als könntest du kein\n"
 	.string "weiteres Pokémon tragen.$"
+#else
+	.string "It looks like you can't carry another\n"
+	.string "POKéMON anyway.$"
+#endif
 
 Route34_DayCare_Text_ClerkQuestion:
+#if GERMAN
 	.string "Beantworte mir diese Frage.\n"
 	.string "Was hältst du von diesem Ei?$"
+#else
+	.string "Answer this question for me.\n"
+	.string "How do you feel about this ODD EGG?$"
+#endif
 
 Route34_DayCare_Text_Rejection:
+#if GERMAN
 	.string "Hmm, ich glaube, dieses Ei ist\n"
 	.string "nicht für dich.\p"
 	.string "Es wäre unverantwortlich, ein\l"
 	.string "kostbares Ei an jemanden zu\n"
 	.string "geben, der sich noch nicht\p"
 	.string "genug mit Baby-Pokémon auskennt!$"
+#else
+	.string "Hmm, I think this EGG isn't for you.\p"
+	.string "It would be irresponsible of me to\n"
+	.string "give out a precious EGG like this\l"
+	.string "to someone who isn't as well-read\l"
+	.string "on the subject of baby POKéMON!$"
+#endif
 
 Route34_DayCare_Text_ReceivedOddEgg:
+#if GERMAN
 	.string "{PLAYER} erhielt das Seltsame Ei.$"
+#else
+	.string "{PLAYER} Received the ODD EGG.$"
+#endif
 
 Route34_DayCare_Text_TakeCare:
+#if GERMAN
 	.string "Ich wusste, dass du der richtige\n"
 	.string "Trainer dafür bist. Pass gut auf es\l"
 	.string "auf!$"
+#else
+	.string "I knew you were the right trainer\n"
+	.string "for the job. Take good care of it!$"
+#endif
 
 Route34_DayCare_Text_ClerkAfter:
+#if GERMAN
 	.string "Wir sehen hier oft solche Eier.\p"
 	.string "Doch bei diesem war etwas\n"
 	.string "anders.$"
+#else
+	.string "We see a lot of those eggs around\n"
+	.string "here.\p"
+	.string "Something was different about that\n"
+	.string "one, though.$"
+#endif
 
 Route34_DayCare_EventScript_Ditto::
 	lock
@@ -200,7 +263,11 @@ Route34_DayCare_EventScript_Ditto::
 	end
 
 Route34_DayCare_Text_Ditto:
+#if GERMAN
 	.string "Ditto: Tto!$"
+#else
+	.string "DITTO: Tto!$"
+#endif
 
 Route34_EventScript_DaycareMan::
 	lock
@@ -458,13 +525,22 @@ Route34_DayCare_EventScript_TwoMonsInDaycare::
 	end
 
 Route34_Text_SeeWifeIfYoudLikeMeToRaiseMon:
+#if GERMAN
 	.string "Ich bin der Pensionsleiter.\p"
 	.string "Ich kümmere mich um die wertvollen\n"
 	.string "Pokémon der Trainer.\p"
 	.string "Wenn ich eines deiner Pokémon auf-\n"
 	.string "ziehen soll, sprich mit meiner Frau.$"
+#else
+	.string "I'm the DAY-CARE MAN.\p"
+	.string "I help take care of the precious\n"
+	.string "POKéMON of TRAINERS.\p"
+	.string "If you'd like me to raise your POKéMON,\n"
+	.string "have a word with my wife.$"
+#endif
 
 Route34_Text_DoYouWantEgg:
+#if GERMAN
 	.string "Ach, du bist es!\p"
 	.string "Wir haben deine Pokémon aufgezogen\n"
 	.string "und sind ganz schön überrascht!\p"
@@ -472,129 +548,289 @@ Route34_Text_DoYouWantEgg:
 	.string "Wir wissen nicht, wie das passiert\n"
 	.string "ist, aber jetzt ist es da.\p"
 	.string "Möchtest du es haben?$"
+#else
+	.string "Ah, it's you!\p"
+	.string "We were raising your POKéMON,\n"
+	.string "and my goodness, were we surprised!\p"
+	.string "Your POKéMON had an EGG!\p"
+	.string "We don't know how it got there,\n"
+	.string "but your POKéMON had it.\p"
+	.string "You do want it, yes?$"
+#endif
 
 Route34_Text_YourMonIsDoingFine:
+#if GERMAN
 	.string "Ach, du bist es! Schön, dich zu sehen.\n"
 	.string "Deinem {STR_VAR_1} geht es sehr gut.$"
+#else
+	.string "Ah, it's you! Good to see you.\n"
+	.string "Your {STR_VAR_1}'s doing fine.$"
+#endif
 
 Route34_Text_IllKeepIt:
+#if GERMAN
 	.string "Na dann, ich behalte es.\n"
 	.string "Danke!$"
+#else
+	.string "Well then, I'll keep it.\n"
+	.string "Thanks!$"
+#endif
 
 Route34_Text_YouHaveNoRoomForIt:
+#if GERMAN
 	.string "Du hast keinen Platz dafür… komm\n"
 	.string "wieder, wenn du Platz geschaffen hast.$"
+#else
+	.string "You have no room for it…\n"
+	.string "Come back when you've made room.$"
+#endif
 
 Route34_Text_ReceivedEgg:
+#if GERMAN
 	.string "{PLAYER} erhält das Ei vom\n"
 	.string "Pensionsleiter.$"
+#else
+	.string "{PLAYER} received the EGG from\n"
+	.string "the DAY-CARE MAN.$"
+#endif
 
 Route34_Text_TakeGoodCareOfIt:
+#if GERMAN
 	.string "Pass gut auf es auf.$"
+#else
+	.string "Take good care of it.$"
+#endif
 
 Route34_Text_FriendlyWithOtherTrainersMon:
+#if GERMAN
 	.string "Übrigens, dein {STR_VAR_1} war\n"
 	.string "freundlich zu {STR_VAR_2}s\n"
 	.string "{STR_VAR_3}. \p"
 	.string "Ich habe sogar gesehen, wie es\n"
 	.string "Post bekam.$"
+#else
+	.string "By the way, about your {STR_VAR_1},\n"
+	.string "it seemed to be friendly with\l"
+	.string "{STR_VAR_2}'s {STR_VAR_3}.\p"
+	.string "I may even have seen it receiving\n"
+	.string "a piece of MAIL.$"
+#endif
 
 @ Unused
 Route34_Text_SeeWifeIfYouWantToPickUpMon:
+#if GERMAN
 	.string "Wenn du dein Pokémon abholen willst,\n"
 	.string "sprich mit meiner Frau.$"
+#else
+	.string "If you want to pick up your POKéMON,\n"
+	.string "have a word with my wife.$"
+#endif
 
 Route34_Text_YourMonsAreDoingFine:
+#if GERMAN
 	.string "Ah, du bist es! Deine Pokémon\n"
 	.string "{STR_VAR_1} und {STR_VAR_2}\l"
 	.string "entwickeln sich prächtig.$"
+#else
+	.string "Ah, it's you! Your {STR_VAR_1} and\n"
+	.string "{STR_VAR_2} are doing fine.$"
+#endif
 
 Route34_Text_IWillKeepDoYouWantIt:
+#if GERMAN
 	.string "Dann werde ich es behalten.\n"
 	.string "Oder möchtest du es doch haben?$"
+#else
+	.string "I really will keep it.\n"
+	.string "You do want this, yes?$"
+#endif
 
 Route34_DayCare_Text_WouldYouLikeUsToRaiseAMon:
+#if GERMAN
 	.string "Ich bin die Pensionsleiterin.\n"
 	.string "Wir ziehen Pokémon für dich auf.\p"
 	.string "Sollen wir eines aufziehen?$"
+#else
+	.string "I'm the DAY-CARE LADY.\p"
+	.string "We can raise POKéMON for you.\p"
+	.string "Would you like us to raise one?$"
+#endif
 
 Route34_DayCare_Text_WhichMonShouldWeRaise:
+#if GERMAN
 	.string "Welches Pokémon sollen\n"
 	.string "wir für dich aufziehen?$"
+#else
+	.string "Which POKéMON should we raise for\n"
+	.string "you?$"
+#endif
 
 Route34_DayCare_Text_WellRaiseYourMon:
+#if GERMAN
 	.string "Fein, dann nehmen wir dein {STR_VAR_1}\n"
 	.string "für eine Weile in Pflege.\p"
 	.string "Schau später mal nach ihm.$"
+#else
+	.string "Fine, we'll raise your {STR_VAR_1}\n"
+	.string "for a while.\p"
+	.string "Come back for it later.$"
+#endif
 
 Route34_DayCare_Text_WeCanRaiseOneMore:
+#if GERMAN
 	.string "Wir können zwei deiner Pokémon\l"
 	.string "aufziehen.\n"
 	.string "Möchtest du, dass wir noch eins\p"
 	.string "aufziehen?$"
+#else
+	.string "We can raise two of your POKéMON.\n"
+	.string "Would you like us to raise one more?$"
+#endif
 
 Route34_DayCare_Text_HusbandWasLookingForYou:
+#if GERMAN
 	.string "Mein Mann hat nach dir gesucht.$"
+#else
+	.string "My husband was looking for you.$"
+#endif
 
 Route34_DayCare_Text_FineThenComeAgain:
+#if GERMAN
 	.string "Oh, gut.\n"
 	.string "Komm bald wieder.$"
+#else
+	.string "Oh, fine, then.\n"
+	.string "Come again.$"
+#endif
 
 Route34_DayCare_Text_NotEnoughMoney:
+#if GERMAN
 	.string "Du hast nicht genug Geld.$"
+#else
+	.string "You don't have enough money…$"
+#endif
 
 Route34_DayCare_Text_TakeOtherOneBackToo:
+#if GERMAN
 	.string "Willst du das andere Pokémon auch\n"
 	.string "zurücknehmen?$"
+#else
+	.string "Will you take back the other one,\n"
+	.string "too?$"
+#endif
 
 Route34_DayCare_Text_ComeAgain:
+#if GERMAN
 	.string "Oh, gut.\n"
 	.string "Komm bald wieder.$"
+#else
+	.string "Fine.\n"
+	.string "Come again.$"
+#endif
 
 Route34_DayCare_Text_GoodToSeeYou:
+#if GERMAN
 	.string "Ah, du bist es! Schön dich zu sehen.\n"
 	.string "Deinem Pokémon geht es sicher gut.$"
+#else
+	.string "Ah, it's you! Good to see you.\n"
+	.string "Your POKéMON can only be doing good!$"
+#endif
 
 Route34_DayCare_Text_YourMonHasGrownXLevels:
+#if GERMAN
 	.string "Dein {STR_VAR_1} ist um {STR_VAR_2} Level\n"
 	.string "gewachsen.$"
+#else
+	.string "By level, your {STR_VAR_1} has\n"
+	.string "grown by {STR_VAR_2}.$"
+#endif
 
 Route34_DayCare_Text_YourTeamIsFull:
+#if GERMAN
 	.string "Dein Pokémon-Team ist vollzählig.\n"
 	.string "Schaffe Platz und komm dann wieder.$"
+#else
+	.string "Your POKéMON team is full.\n"
+	.string "Make room, then come see me.$"
+#endif
 
 @ Unused
 Route34_DayCare_Text_TakeBackWhichMon:
+#if GERMAN
 	.string "Welches Pokémon willst du\n"
 	.string "zurücknehmen?$"
+#else
+	.string "Which POKéMON will you take back?$"
+#endif
 
 Route34_DayCare_Text_ItWillCostX:
+#if GERMAN
 	.string "Wenn du dein {STR_VAR_1} mitnehmen\n"
 	.string "willst, kostet das {STR_VAR_2} $.$"
+#else
+	.string "If you want your {STR_VAR_1} back,\n"
+	.string "it will cost ¥{STR_VAR_2}.$"
+#endif
 
 Route34_DayCare_Text_HeresYourMon:
+#if GERMAN
 	.string "Perfekt! Hier ist dein Pokémon.$"
+#else
+	.string "Perfect!\n"
+	.string "Here's your POKéMON.$"
+#endif
 
 Route34_DayCare_Text_TookBackMon:
+#if GERMAN
 	.string "{PLAYER} hat {STR_VAR_1} von der\n"
 	.string "Pensionsleiterin zurückerhalten.$"
+#else
+	.string "{PLAYER} took back {STR_VAR_1} from\n"
+	.string "the DAY-CARE LADY.$"
+#endif
 
 Route34_DayCare_Text_YouHaveJustOneMon:
+#if GERMAN
 	.string "Oh? Du hast nur ein Pokémon.\p"
 	.string "Komm ein anderes Mal wieder.$"
+#else
+	.string "Oh? But you have just one\n"
+	.string "POKéMON.\p"
+	.string "Come back another time.$"
+#endif
 
 Route34_DayCare_Text_TakeYourMonBack:
+#if GERMAN
 	.string "Willst du dein Pokémon zurückhaben?$"
+#else
+	.string "Will you take your POKéMON back?$"
+#endif
 
 Route34_DayCare_Text_WhatWillYouBattleWith:
+#if GERMAN
 	.string "Wenn du das Pokémon hierlässt,\n"
 	.string "womit willst du denn dann kämpfen?\p"
 	.string "Komm einfach später wieder.$"
+#else
+	.string "If you leave me that POKéMON,\n"
+	.string "what will you battle with?\p"
+	.string "Come back another time.$"
+#endif
 
 Route34_DayCare_Text_YoullBeLeftWithJustOne:
+#if GERMAN
 	.string "Wie bitte?\n"
 	.string "Aber, aber…\p"
 	.string "Wenn du das Pokémon bei mir lässt, dann\n"
 	.string "hast du ja nur noch ein einziges bei dir!\p"
 	.string "Fange doch einfach ein paar Pokémon,\n"
 	.string "dann sehen wir weiter.$"
+#else
+	.string "Huh?\n"
+	.string "Now, now.\p"
+	.string "If you leave that POKéMON with\n"
+	.string "me, you'll be left with just one.\p"
+	.string "You will be better off if you catch\n"
+	.string "some more, I dare say.$"
+#endif

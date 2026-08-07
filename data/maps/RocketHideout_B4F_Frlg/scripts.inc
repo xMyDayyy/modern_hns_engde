@@ -121,6 +121,7 @@ RocketHideout_B4F_EventScript_RemoveBarrier::
 	return
 
 RocketHideout_B4F_Text_GiovanniIntro::
+#if GERMAN
 	.string "Ich bin schwer beeindruckt. Du\n"
 	.string "bist tatsächlich weit gekommen!\p"
 	.string "Das Team Rocket finanziert mit\n"
@@ -128,12 +129,29 @@ RocketHideout_B4F_Text_GiovanniIntro::
 	.string "Ich bin hier der Boss, Giovanni!\p"
 	.string "Mach dich bereit, Höllenqualen zu\n"
 	.string "erleiden, Wicht!$"
+#else
+	.string "So! I must say, I am impressed you\n"
+	.string "got here.\p"
+	.string "TEAM ROCKET captures POKéMON from\n"
+	.string "around the world.\p"
+	.string "They're important tools for keeping\n"
+	.string "our criminal enterprise going.\p"
+	.string "I am the leader, GIOVANNI!\p"
+	.string "For your insolence, you will feel a\n"
+	.string "world of pain!$"
+#endif
 
 RocketHideout_B4F_Text_GiovanniDefeat::
+#if GERMAN
 	.string "Nein!\n"
 	.string "Ich habe kläglich versagt!$"
+#else
+	.string "WHAT!\n"
+	.string "This can't be!$"
+#endif
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
+#if GERMAN
 	.string "Offensichtlich trainierst du deine\n"
 	.string "Pokémon sehr sorgfältig!\p"
 	.string "Trotzdem würdest du meine Ziele\n"
@@ -141,38 +159,88 @@ RocketHideout_B4F_Text_GiovanniPostBattle::
 	.string "Dieses Mal lasse ich dich noch von\n"
 	.string "dannen ziehen...\p"
 	.string "Doch wir werden uns wiedersehen!$"
+#else
+	.string "I see that you raise POKéMON with\n"
+	.string "utmost care.\p"
+	.string "A child like you would never\n"
+	.string "understand what I hope to achieve.\p"
+	.string "I shall step aside this time!\p"
+	.string "I hope we meet again…$"
+#endif
 
 RocketHideout_B4F_Text_Grunt2Intro::
+#if GERMAN
 	.string "Du warst es, der unsere Pläne am\n"
-	.string "Mondberg zunichte gemacht hat!$"
+	.string "{COLOR RED}Mondberg{COLOR DARK_GRAY} zunichte gemacht hat!$"
+#else
+	.string "I know you!\n"
+	.string "You ruined our plans at MT. MOON!$"
+#endif
 
 RocketHideout_B4F_Text_Grunt2Defeat::
+#if GERMAN
 	.string "Dieses Kind ist einfach\n"
 	.string "unschlagbar!!!$"
+#else
+	.string "Burned again!$"
+#endif
 
 RocketHideout_B4F_Text_Grunt2PostBattle::
+#if GERMAN
 	.string "Willst du das Team Rocket zu\n"
 	.string "Grunde richten?$"
+#else
+	.string "Do you have something against TEAM\n"
+	.string "ROCKET?$"
+#endif
 
 RocketHideout_B4F_Text_Grunt3Intro::
+#if GERMAN
 	.string "Spürst du nicht die Schönheit der\n"
 	.string "dunklen Seite der Macht?$"
+#else
+	.string "How can you not see the beauty of\n"
+	.string "our evil?$"
+#endif
 
 RocketHideout_B4F_Text_Grunt3Defeat::
+#if GERMAN
 	.string "Autsch!$"
+#else
+	.string "Ayaya!$"
+#endif
 
 RocketHideout_B4F_Text_Grunt3PostBattle::
+#if GERMAN
 	.string "Gnade, Boss!\n"
 	.string "Ich habe versagt...$"
+#else
+	.string "BOSS!\n"
+	.string "I'm sorry I failed you!$"
+#endif
 
 RocketHideout_B4F_Text_Grunt1Intro::
-	.string "Ich werde dir den Liftöffner\n"
+#if GERMAN
+	.string "Ich werde dir den {COLOR RED}Liftöffner{COLOR DARK_GRAY}\n"
 	.string "niemals geben!$"
+#else
+	.string "The elevator doesn't work?\n"
+	.string "Who has the LIFT KEY?$"
+#endif
 
 RocketHideout_B4F_Text_Grunt1Defeat::
+#if GERMAN
 	.string "Oh nein!$"
+#else
+	.string "No!$"
+#endif
 
 RocketHideout_B4F_Text_Grunt1PostBattle::
+#if GERMAN
 	.string "Mist!\n"
-	.string "Ich habe den Liftöffner verloren!$"
+	.string "Ich habe den {COLOR RED}Liftöffner{COLOR DARK_GRAY} verloren!$"
+#else
+	.string "Oh, no!\n"
+	.string "I dropped the LIFT KEY!$"
+#endif
 

@@ -52,6 +52,7 @@ PokemonLeague_BrunosRoom_EventScript_BrunoDefeated::
 	end
 
 PokemonLeague_BrunosRoom_Text_RematchBefore:
+#if GERMAN
 	.string "Bruno: Willkommen zurück,\n"
 	.string "junger Krieger.\p"
 	.string "Durch hartes Training sind wir\n"
@@ -63,8 +64,22 @@ PokemonLeague_BrunosRoom_Text_RematchBefore:
 	.string "Zeig mir die Früchte deines\n"
 	.string "Trainings.\p"
 	.string "Hoo hah!$"
+#else
+    .string "BRUNO: Welcome back, young\n"
+    .string "warrior.\p"
+    .string "Through rigorous training, we have\n"
+    .string "grown stronger.\p"
+    .string "My rock-hard will is even more firm\n"
+    .string "and unyielding.\p"
+    .string "Are you prepared to face an even\n"
+    .string "greater challenge?\p"
+    .string "Show me the results of your\n"
+    .string "training.\p"
+    .string "Hoo hah!$"
+#endif
 
 PokemonLeague_BrunosRoom_Text_Before:
+#if GERMAN
 	.string "Ich bin Bruno von den\n"
 	.string "Top Vier.\p"
 	.string "Ich trainiere bis ans Limit,\n"
@@ -78,12 +93,34 @@ PokemonLeague_BrunosRoom_Text_Before:
 	.string "unserer überwältigenden Macht\l"
 	.string "beugen!\p"
 	.string "Hoo hah!$"
+#else
+    .string "I am BRUNO of the ELITE FOUR.\p"
+    .string "I always train to the extreme be-\n"
+    .string "cause I believe in our potential.\p"
+    .string "That is how we became strong.\p"
+    .string "Can you withstand our power?\p"
+    .string "Hm? I see no fear in you. You look\n"
+    .string "determined. Perfect for battle!\p"
+    .string "Ready, {PLAYER}? You will bow down\n"
+    .string "to our overwhelming power!\p"
+    .string "Hoo hah!$"
+#endif
 
 PokemonLeague_BrunosRoom_Text_Beaten:
+#if GERMAN
 	.string "Warum? Wie konnte ich nur verlieren?$"
+#else
+    .string "Why? How could we lose?$"
+#endif
 
 PokemonLeague_BrunosRoom_Text_Defeat:
+#if GERMAN
 	.string "Nach dieser Niederlage habe ich\n"
 	.string "kein Recht mehr zu reden…\p"
 	.string "Stell dich deiner nächsten\n"
 	.string "Herausforderung!$"
+#else
+    .string "Having lost, I have no right to\n"
+    .string "say anything…\p"
+    .string "Go face your next challenge!$"
+#endif

@@ -188,12 +188,36 @@ static void DoTVShowSecretBaseSecrets(void);
 static void DoTVShowSafariFanClub(void);
 static void DoTVShowLilycoveContestLady(void);
 
+#if GERMAN
 static const u8 sText_Good[] = _("Gut");
+#else
+static const u8 sText_Good[] = _("Good");
+#endif
+#if GERMAN
 static const u8 sText_VeryGood[] = _("Sehr gut");
+#else
+static const u8 sText_VeryGood[] = _("Very good");
+#endif
+#if GERMAN
 static const u8 sText_Excellent[] = _("Klasse!");
+#else
+static const u8 sText_Excellent[] = _("Excellent");
+#endif
+#if GERMAN
 static const u8 sText_SoSo[] = _("Naja");
+#else
+static const u8 sText_SoSo[] = _("So-so");
+#endif
+#if GERMAN
 static const u8 sText_Bad[] = _("Schlecht");
+#else
+static const u8 sText_Bad[] = _("Bad");
+#endif
+#if GERMAN
 static const u8 sText_TheWorst[] = _("Ganz mies");
+#else
+static const u8 sText_TheWorst[] = _("The worst");
+#endif
 
 static const u8 sText_Slots[] = _("SLOTS");
 static const u8 sText_Roulette[] = _("ROULETTE");

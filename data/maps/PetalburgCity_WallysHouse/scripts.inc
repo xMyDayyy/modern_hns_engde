@@ -66,6 +66,7 @@ PetalburgCity_WallysHouse_EventScript_ReceivedHMSurf::
 	end
 
 PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
+#if GERMAN
 	.string "Du…\n"
 	.string "Ach, du bist bestimmt {PLAYER}{KUN},\n"
 	.string "richtig? \p"
@@ -82,12 +83,33 @@ PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
 	.string "Er ist fort, unser Heiko?\p"
 	.string "Ich frage mich, wo er jetzt wohl sein\n"
 	.string "mag?$"
+#else
+	.string "You're…\n"
+	.string "Ah, you must be {PLAYER}{KUN}, right?\p"
+	.string "Thank you for playing with WALLY a\n"
+	.string "little while ago.\p"
+	.string "He's been frail and sickly ever\n"
+	.string "since he was a baby.\p"
+	.string "We've sent him to stay with my relatives\n"
+	.string "in VERDANTURF TOWN for a while.\p"
+	.string "The air is a lot cleaner there\n"
+	.string "than it is here.\p"
+	.string "What's that? Where's WALLY?\n"
+	.string "He's already left, our WALLY.\p"
+	.string "I wonder where he could have\n"
+	.string "gotten by now?$"
+#endif
 
 PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
+#if GERMAN
 	.string "Ich frage mich, wie es unserem\n"
 	.string "Heiko geht.$"
+#else
+	.string "I wonder how our WALLY is doing?$"
+#endif
 
 PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
+#if GERMAN
 	.string "Hallo {PLAYER}{KUN}! Bitte\n"
 	.string "entschuldige,\n"
 	.string "dass wir dich den weiten Weg hierher\l"
@@ -106,16 +128,44 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 	.string "Freund wie dich gefunden hat.\p"
 	.string "Das soll jetzt keine Bestechung sein!\n"
 	.string "Aber ich möchte dir dies schenken.$"
+#else
+	.string "{PLAYER}{KUN}! Please excuse us for\n"
+	.string "dragging you here this way.\p"
+	.string "But our WALLY's become very healthy\n"
+	.string "since he went to VERDANTURF TOWN.\p"
+	.string "We owe it all to you!\p"
+	.string "When WALLY left town, you helped\n"
+	.string "him catch a POKéMON, right?\p"
+	.string "I think that made WALLY really\n"
+	.string "happy.\p"
+	.string "Actually, not just WALLY.\n"
+	.string "It made me, his father, happy too.\p"
+	.string "Happy that he's gained such a great\n"
+	.string "friend as you.\p"
+	.string "This isn't a bribe or anything, but\n"
+	.string "I'd really like you to have this.$"
+#endif
 
 PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces:
+#if GERMAN
 	.string "Wenn dein Pokémon Surfer beherrscht,\n"
 	.string "kannst du viele neue Orte bereisen.$"
+#else
+	.string "If your POKéMON can SURF, you'll be\n"
+	.string "able to go to all sorts of places.$"
+#endif
 
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon:
+#if GERMAN
 	.string "Heiko wird bald wieder nach Hause\n"
 	.string "kommen. Ich freue mich schon so.$"
+#else
+	.string "WALLY's coming home soon.\n"
+	.string "I'm looking forward to that.$"
+#endif
 
 PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
+#if GERMAN
 	.string "Oh! Du hast Heiko in Prachtpolis City\n"
 	.string "getroffen?\p"
 	.string "Ach, {PLAYER}{KUN}, du willst mich auf\n"
@@ -125,15 +175,31 @@ PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
 	.string "haben, aber er wird nicht alleine so\n"
 	.string "weit\l"
 	.string "fortgegangen sein!$"
+#else
+	.string "Oh? You met WALLY in\n"
+	.string "EVER GRANDE CITY?\p"
+	.string "Oh, {PLAYER}{KUN}, don't be silly.\p"
+	.string "He may have gotten healthy, but he\n"
+	.string "can't go somewhere far away like\l"
+	.string "that all by himself.$"
+#endif
 
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
+#if GERMAN
 	.string "Heiko war richtig glücklich, als er\n"
 	.string "uns erzählte, dass er ein Pokémon\l"
 	.string "gefangen habe.\p"
 	.string "Ich habe ihn schon seit Ewigkeiten\n"
 	.string "nicht mehr so glücklich erlebt!$"
+#else
+	.string "WALLY was really happy when he told\n"
+	.string "us that he caught a POKéMON.\p"
+	.string "It's been ages since I've seen him\n"
+	.string "smile like that.$"
+#endif
 
 PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
+#if GERMAN
 	.string "Ich muss das vor meinem Mann\n"
 	.string "verheimlichen…\p"
 	.string "Aber unser Heiko hat Wiesenflur\n"
@@ -144,4 +210,14 @@ PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
 	.string "Ich bin sicher, er wird gesund und\n"
 	.string "wohl-\l"
 	.string "behalten wieder nach Hause kommen.$"
+#else
+	.string "I want you to keep this a secret\n"
+	.string "from my husband…\p"
+	.string "But our WALLY left VERDANTURF TOWN\n"
+	.string "without telling anyone.\p"
+	.string "You know, WALLY is frail, but\n"
+	.string "he's surprisingly strong-willed.\p"
+	.string "I'm sure that he'll come back safe\n"
+	.string "and sound one day!$"
+#endif
 

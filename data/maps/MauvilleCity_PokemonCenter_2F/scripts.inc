@@ -23,6 +23,7 @@ MauvilleCity_PokemonCenter_2F_EventScript_Youngster::
 	end
 
 MauvilleCity_PokemonCenter_2F_Text_Youngster:
+#if GERMAN
 	.string "Wusstest du, dass du von hier aus via\n"
 	.string "Link Kämpfe im Kolosseum ausfechten\l"
 	.string "kannst?\p"
@@ -30,4 +31,12 @@ MauvilleCity_PokemonCenter_2F_Text_Youngster:
 	.string "Wand ausgehängt, wo sie jeder sieht.\p"
 	.string "Es ist schon peinlich, wenn man öfter\n"
 	.string "verliert als gewinnt…$"
+#else
+	.string "Did you know that you can link battle\n"
+	.string "at the COLOSSEUM here?\p"
+	.string "They put up your record on the wall\n"
+	.string "for everyone to see.\p"
+	.string "It's embarrassing if you lose more\n"
+	.string "often than you win…$"
+#endif
 

@@ -139,29 +139,54 @@ LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign::
 	end
 
 LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore:
+#if GERMAN
 	.string "Willkommen im Einkaufszentrum von\n"
 	.string "Seegrasulb City.$"
+#else
+	.string "Welcome to LILYCOVE DEPARTMENT STORE.$"
+#endif
 
 LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings:
+#if GERMAN
 	.string "Immer wenn ich in das Einkaufszentrum\n"
 	.string "gehe, endet das damit, dass ich\n"
 	.string "tausend\l"
 	.string "Dinge kaufe, weil es so viel Spaß\n"
 	.string "macht.$"
+#else
+	.string "Whenever I come to the DEPARTMENT\n"
+	.string "STORE, I always end up buying all sorts\l"
+	.string "of things because it's so fun.$"
+#endif
 
 LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
+#if GERMAN
 	.string "Heute wird mir meine Mama ein paar\n"
 	.string "schöne Möbel kaufen.$"
+#else
+	.string "Today, my mom is going to buy me some\n"
+	.string "nice furniture.$"
+#endif
 
 LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
+#if GERMAN
 	.string "Ich kaufe etwas Schönes für mein\n"
 	.string "Azumarill, weil es einen Wettbewerb\l"
 	.string "gewonnen hat.$"
+#else
+	.string "I'm buying something for my AZUMARILL\n"
+	.string "as a reward for winning a CONTEST.$"
+#endif
 
 LilycoveCity_DepartmentStore_1F_Text_Azumarill:
+#if GERMAN
 	.string "Azumarill: Maririroo!$"
+#else
+	.string "AZUMARILL: Maririroo!$"
+#endif
 
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
+#if GERMAN
 	.string "EG: Information\n"
 	.string "       Lotterie\p"
 	.string "1S: Alles für den Trainer\p"
@@ -169,9 +194,19 @@ LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
 	.string "3S: TM\p"
 	.string "4S: Poképuppen\p"
 	.string "Dach: Dachterrasse$"
+#else
+	.string "1F: SERVICE COUNTER\n"
+	.string "    LOTTERY CORNER\p"
+	.string "2F: TRAINER'S ZONE\p"
+	.string "3F: BATTLE COLLECTION\p"
+	.string "4F: TM CORNER\p"
+	.string "5F: POKé DOLL FLOOR\p"
+	.string "ROOFTOP: ROOFTOP PLAZA$"
+#endif
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun:
+#if GERMAN
 	.string "Die Drahtlos-Kommunikation macht\n"
 	.string "wirklich Spaß, findest du nicht?\p"
 	.string "Ich glaube, damit sind Dinge möglich,\n"
@@ -180,9 +215,23 @@ LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun:
 	.string "Leuten tauschen, mit denen es früher\l"
 	.string "nicht ging.\p"
 	.string "Ich finde, das wird richtig spannend!$"
+#else
+	.string "Wireless Communication is a\n"
+	.string "lot of fun, isn't it?\p"
+	.string "I think it lets you do things that\n"
+	.string "weren't possible before.\p"
+	.string "For instance, you can now trade\n"
+	.string "with people you couldn't before.\p"
+	.string "I think it's going to be exciting!$"
+#endif
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_SpreadWordAboutWirelessComm:
+#if GERMAN
 	.string "Ich möchte allen erzählen, wie viel\n"
 	.string "Spaß die Drahtlos-Kommunikation macht.$"
+#else
+	.string "I want to spread the word about how\n"
+	.string "fun Wireless Communication can be.$"
+#endif
 

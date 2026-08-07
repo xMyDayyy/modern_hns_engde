@@ -174,15 +174,35 @@ static void Task_DisplayAnotherBerry(u8 taskId);
 static void TryChangeDisplayedBerry(u8 taskId, s8 toMove);
 static void HandleBagCursorPositionChange(s8 toMove);
 
+#if GERMAN
 static const u8 sText_SizeSlash[] = _("Maß:");
+#else
+static const u8 sText_SizeSlash[] = _("SIZE /");
+#endif
+#if GERMAN
 static const u8 sText_FirmSlash[] = _("Güte:");
+#else
+static const u8 sText_FirmSlash[] = _("FIRM /");
+#endif
 static const u8 sText_Var1DotVar2[] = {PLACEHOLDER_BEGIN, 0x02, CHAR_PERIOD, PLACEHOLDER_BEGIN, 0x03, CHAR_DBL_QUOTE_RIGHT, EOS};
 static const u8 sText_Var1DotVar2_Metric[] = _("{STR_VAR_1},{STR_VAR_2} cm");
 static const u8 sText_NumberVar1Var2[] = _("{NO}{STR_VAR_1} {STR_VAR_2}");
+#if GERMAN
 static const u8 sText_BerryTag[] = _("Beere");
+#else
+static const u8 sText_BerryTag[] = _("BERRY TAG");
+#endif
 static const u8 sText_ThreeMarks[] = _("???");
+#if GERMAN
 static const u8 sText_WatmelDesc1_Metric[] = _("Eine große Beere, 50 cm groß.");
+#else
+static const u8 sText_WatmelDesc1_Metric[] = _("A huge Berry, with some over half a");
+#endif
+#if GERMAN
 static const u8 sText_WatmelDesc2_Metric[] = _("Außergewöhnlich süß.");
+#else
+static const u8 sText_WatmelDesc2_Metric[] = _("meter discovered. Exceedingly sweet.");
+#endif
 
 // code
 void DoBerryTagScreen(void)

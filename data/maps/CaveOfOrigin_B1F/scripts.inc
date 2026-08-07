@@ -60,6 +60,7 @@ CaveOfOrigin_B1F_EventScript_AtSkyPillar::
 	end
 
 CaveOfOrigin_B1F_Text_WallaceStory:
+#if GERMAN
 	.string "Ah, du bist also {PLAYER}{KUN}?\n"
 	.string "Ich habe schon von deinen Heldentaten\l"
 	.string "gehört.\p"
@@ -84,20 +85,59 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "beruhigte.\p"
 	.string "Aber ich weiß auch nicht, wo sich\n"
 	.string "Rayquaza aufhält…$"
+#else
+	.string "Ah, so you are {PLAYER}{KUN}?\n"
+	.string "I've heard tales of your exploits.\p"
+	.string "My name is WALLACE.\p"
+	.string "I was once the GYM LEADER of\n"
+	.string "SOOTOPOLIS, but something came up.\p"
+	.string "So now, I've entrusted my mentor JUAN\n"
+	.string "with the GYM's operation.\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "GROUDON and KYOGRE, the two POKéMON\n"
+	.string "wreaking havoc here, are considered\l"
+	.string "to be super-ancient POKéMON.\p"
+	.string "But there aren't just two super-\n"
+	.string "ancient POKéMON.\p"
+	.string "There is one more somewhere.\p"
+	.string "Somewhere, there is a super-\n"
+	.string "ancient POKéMON named RAYQUAZA.\p"
+	.string "It's said that it was RAYQUAZA that\n"
+	.string "becalmed the two combatants in\l"
+	.string "the distant past.\p"
+	.string "But even I have no clue as to\n"
+	.string "RAYQUAZA's whereabouts…$"
+#endif
 
 CaveOfOrigin_B1F_Text_WhereIsRayquaza:
+#if GERMAN
 	.string "Wassili: Weißt du vielleicht, wo sich\n"
 	.string "Rayquaza aufhält, {PLAYER}{KUN}?\p"
 	.string "Wenn ja, dann sag es mir bitte.$"
+#else
+	.string "WALLACE: {PLAYER}{KUN}, do you perhaps\n"
+	.string "know where RAYQUAZA is now?\p"
+	.string "If you do, please tell me.$"
+#endif
 
 CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
+#if GERMAN
 	.string "Wassili: In der Urzeithöhle?\p"
 	.string "Aber die ist doch hier!\n"
 	.string "Das kann nicht sein!\p"
 	.string "Bitte, denk gut darüber nach, wo\n"
 	.string "Rayquaza sich befinden könnte.$"
+#else
+	.string "WALLACE: The CAVE OF ORIGIN?\p"
+	.string "But that's right here!\n"
+	.string "I need you to do better than that!\p"
+	.string "Please, I need you to think about\n"
+	.string "where RAYQUAZA might be right now.$"
+#endif
 
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
+#if GERMAN
 	.string "Wassili: Pyroberg?\p"
 	.string "Ich habe dort vor ein paar Tagen eine\n"
 	.string "alte Dame getroffen und die hat nichts\l"
@@ -106,18 +146,41 @@ CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
 	.string "mir verheimlichen wollte…\p"
 	.string "Fällt dir kein anderer Ort ein,\n"
 	.string "{PLAYER}{KUN}?$"
+#else
+	.string "WALLACE: MT. PYRE?\p"
+	.string "But when I met the old lady there\n"
+	.string "earlier, she made no mention of it.\p"
+	.string "I very much doubt that the old lady\n"
+	.string "would try to hide something from me…\p"
+	.string "{PLAYER}{KUN}, could you think about this\n"
+	.string "more carefully for me?$"
+#endif
 
 CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
+#if GERMAN
 	.string "Wassili: Bitte? Du erinnerst dich\n"
 	.string "nicht? Hmm… Dann haben wir ein\n"
 	.string "Problem… \p"
 	.string "Du erinnerst dich wirklich nicht?$"
+#else
+	.string "WALLACE: Huh? You don't remember?\n"
+	.string "Hmm… That's a problem…\p"
+	.string "Can't you remember somehow?$"
+#endif
 
 CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
+#if GERMAN
 	.string "Wassili: Der Himmelturm?\p"
 	.string "Das ist es!\n"
 	.string "Es kann nur der Himmelturm sein!\p"
 	.string "Wir dürfen keine Zeit verlieren,\n"
 	.string "{PLAYER}{KUN}! Wir müssen sofort zum\l"
 	.string "Himmelturm!$"
+#else
+	.string "WALLACE: The SKY PILLAR?\p"
+	.string "That's it!\n"
+	.string "It must be the SKY PILLAR!\p"
+	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
+	.string "We'll head to the SKY PILLAR right away!$"
+#endif
 

@@ -85,5 +85,10 @@ BattleFrontier_BattleArenaCorridor_Movement_AttendantMoveOutOfWay_hns:
 	step_end
 
 BattleFrontier_BattleArenaCorridor_Text_PleaseStepIn_hns:
+#if GERMAN
 	.string "Im nächsten Raum wartet der Lohn\n"
 	.string "deiner Mühen auf dich! Bitte!$"
+#else
+	.string "Your battles shall be waged in\n"
+	.string "the next room. Please step in!$"
+#endif

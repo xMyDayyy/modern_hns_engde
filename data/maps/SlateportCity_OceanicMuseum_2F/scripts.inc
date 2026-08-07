@@ -269,6 +269,7 @@ SlateportCity_OceanicMuseum_2F_EventScript_MuseumPatron3::
 	end
 
 SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
+#if GERMAN
 	.string "Ja? Wenn du Brigg suchst… Der\n"
 	.string "bin ich.\p"
 	.string "Ah! Das müssen die Stücke sein, die\l"
@@ -278,53 +279,111 @@ SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
 	.string "Danke schön! Das ist großartig!\n"
 	.string "Nun können wir unsere Expedition\l"
 	.string "vorbereiten.$"
+#else
+	.string "Yes? If you're looking for STERN,\n"
+	.string "that would be me.\p"
+	.string "Ah! Those must be the parts I ordered\n"
+	.string "from MR. STONE of DEVON.\p"
+	.string "Thank you! That's great!\n"
+	.string "We can prepare for our expedition now.$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
+#if GERMAN
 	.string "Hähähähä! Wartet! Das ist doch viel zu\n"
 	.string "schwer für euch! Wir nehmen das an\l"
 	.string "uns!$"
+#else
+	.string "Hehehe, hold it!\n"
+	.string "We'll take those parts!$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou:
+#if GERMAN
 	.string "Kapt. Brigg: W… Was?\n"
 	.string "Wer seid ihr?$"
+#else
+	.string "CAPT. STERN: Wh-what?\n"
+	.string "Who are you people?$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
+#if GERMAN
 	.string "Wir sind Team Aqua!\p"
 	.string "Unser Boss will diese Dinge haben!\n"
 	.string "Also hört auf zu labern und lasst die\l"
 	.string "Teile rüberwachsen!$"
+#else
+	.string "We're TEAM AQUA!\p"
+	.string "Our BOSS wants those parts!\n"
+	.string "Shut your yap and fork them over!$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
+#if GERMAN
 	.string "Oooaaah! Geschlagen von einem Kind!$"
+#else
+	.string "Awaaaah!\n"
+	.string "A kid beat me!$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious:
+#if GERMAN
 	.string "Oh, Mann! Was für ein Desaster…\n"
 	.string "Der Boss wird verdammt wütend sein…$"
+#else
+	.string "Oh, man, what a disaster…\n"
+	.string "The BOSS is going to be furious…$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis:
+#if GERMAN
 	.string "Pah, du Waschlappen!\n"
 	.string "Ich werde das Ding schon schaukeln!$"
+#else
+	.string "Humph, sniveling wimp!\n"
+	.string "Let me take care of this!$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat:
+#if GERMAN
 	.string "Was?!? Ich habe auch verloren?!?$"
+#else
+	.string "What?!\n"
+	.string "I lost, too!$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
+#if GERMAN
 	.string "Und nun? Wenn wir die Stücke nicht\n"
 	.string "bekommen, können wir uns auf etwas\l"
 	.string "gefasst machen!\p"
 	.string "Argh, ich hatte nicht damit gerechnet,\n"
 	.string "dass ein nervendes Kind meine Nerven\l"
 	.string "nervt.$"
+#else
+	.string "Now what? If we don't get the parts,\n"
+	.string "we're in for it!\p"
+	.string "Arrgh, I didn't count on being meddled\n"
+	.string "with by some meddling kid!$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
+#if GERMAN
 	.string "Ich bin gekommen, um zu sehen, warum\l"
 	.string "ihr\n"
 	.string "so lange braucht. Und was sehe ich?\p"
 	.string "Ihr\l"
 	.string "Idioten lasst euch von einem kleinen\l"
 	.string "Kind die Suppe versalzen!$"
+#else
+	.string "I came to see what was taking so\n"
+	.string "long to snatch some parts, and you\l"
+	.string "simps are held up by a mere child?$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
+#if GERMAN
 	.string "Wir sind Team Aqua und lieben\n"
 	.string "das Meer!\p"
 	.string "Und ich bin Team Aquas Boss,\n"
@@ -354,16 +413,53 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 	.string "uns stellst, wirst du die Konsequenzen\l"
 	.string "zu spüren bekommen!\p"
 	.string "Vergiss das nicht!$"
+#else
+	.string "We are TEAM AQUA,\n"
+	.string "and we love the sea!\p"
+	.string "And I am TEAM AQUA's leader,\n"
+	.string "ARCHIE!\p"
+	.string "What makes you interfere with us?\p"
+	.string "…No! You can't be!\n"
+	.string "You're not one of TEAM MAGMA?\p"
+	.string "Wait, that can't be right.\n"
+	.string "You're not dressed for the part.\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "POKéMON, people… All life depends on\n"
+	.string "the sea.\p"
+	.string "So, TEAM AQUA is dedicated to\n"
+	.string "the expansion of the sea.\p"
+	.string "Don't you agree? What we are doing\n"
+	.string "is a magnificent undertaking.\p"
+	.string "Ah, fine…\n"
+	.string "You're still too young to understand\l"
+	.string "our noble objective.\p"
+	.string "But, I warn you, don't even consider\n"
+	.string "interfering with our plans again.\p"
+	.string "The consequences will cost you\n"
+	.string "dearly!\p"
+	.string "And don't you forget it!$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
+#if GERMAN
 	.string "Kapt. Brigg: Du bist…\n"
 	.string "Aah, du bist {PLAYER}{KUN}…\p"
 	.string "Wow, das war eine kritische Situation!\n"
 	.string "Danke, dass du uns gerettet hast!\p"
 	.string "Oh, fast hätte ich vergessen, dass du\n"
 	.string "uns die Teile von Devon gebracht hast!$"
+#else
+	.string "CAPT. STERN: You're…\n"
+	.string "Ah, okay, you're {PLAYER}{KUN}…\p"
+	.string "Anyway, that was a tense situation!\n"
+	.string "Thank you for saving us!\p"
+	.string "Oh, yes, I almost forgot that you\n"
+	.string "even brought the parts from DEVON!$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
+#if GERMAN
 	.string "Kapt. Brigg: Hoppla!\n"
 	.string "Wir dürfen keine Zeit mehr verlieren!\n"
 	.string "\p"
@@ -373,37 +469,78 @@ SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
 	.string "Danke! Und entschuldige mich nun!\p"
 	.string "Du kannst dir hier ruhig alles in Ruhe\n"
 	.string "anschauen, wenn du magst.$"
+#else
+	.string "CAPT. STERN: Whoops!\n"
+	.string "There's no time to lose!\p"
+	.string "We have to set out on our ocean-floor\n"
+	.string "expedition really soon.\p"
+	.string "Thanks again, but now I've got\n"
+	.string "to go!\p"
+	.string "Feel free to wander around and check\n"
+	.string "out our facilities, though.$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
+#if GERMAN
 	.string "Ich habe hier ein Schiffsmodell\n"
 	.string "gesehen.\p"
 	.string "Es erinnert mich an das Schiffswrack\n"
 	.string "in der Nähe von Faustauhaven…$"
+#else
+	.string "I saw a model of a ship here.\p"
+	.string "It reminded me of the ABANDONED SHIP\n"
+	.string "near DEWFORD TOWN…$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum:
+#if GERMAN
 	.string "Es ist strikt verboten, im Museum\n"
 	.string "zu rennen!$"
+#else
+	.string "Don't you dare run around inside\n"
+	.string "the MUSEUM!$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_WantToRideSubmarine:
+#if GERMAN
 	.string "Wow, das U-Boot ist der helle\n"
 	.string "Wahnsinn!\l"
 	.string "Damit würde ich gerne auf Fahrt gehen!$"
+#else
+	.string "Wow, the submarine's awesome!\n"
+	.string "I want to go for a ride!$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1:
+#if GERMAN
 	.string "“Wasserqualität Beispiel 1”\n"
 	.string "steht auf dem Schild.\p"
 	.string "Das Meer ist grenzübergreifend, aber\n"
 	.string "das Wasser scheint in jeder Region\n"
 	.string "eine\l"
 	.string "andere Qualität zu haben.$"
+#else
+	.string "“WATER QUALITY SAMPLE 1,” the\n"
+	.string "label says.\p"
+	.string "The sea is all connected, but the\n"
+	.string "water seems to differ by region.$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample2:
+#if GERMAN
 	.string "“ Wasserqualität Beispiel 2”\n"
 	.string "steht auf dem Schild.\p"
 	.string "Anscheinend ist der Salzgehalt in\n"
 	.string "jeder Region anders.$"
+#else
+	.string "“WATER QUALITY SAMPLE 2,” the\n"
+	.string "label says.\p"
+	.string "Does the saltiness of seawater differ\n"
+	.string "by region, too?$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
+#if GERMAN
 	.string "Ein Gummiball wird größer und kleiner.\n"
 	.string "\p"
 	.string "“Im Meer sorgt das Gewicht des Wassers\n"
@@ -414,44 +551,99 @@ SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
 	.string "Druck zehntausende von Tonnen inner-\l"
 	.string "halb eines kleinen Bereiches\n"
 	.string "betragen.”$"
+#else
+	.string "A rubber ball is expanding and\n"
+	.string "shrinking.\p"
+	.string "“In the sea, the weight of water itself\n"
+	.string "exerts pressure.\p"
+	.string "“In shallow water, the pressure is not\n"
+	.string "very heavy.\p"
+	.string "“However, in extremely deep water,\n"
+	.string "the pressure can reach even tens of\l"
+	.string "thousands of tons on a small area.”$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_HoennModel:
+#if GERMAN
 	.string "“Modell der Hoenn-Region”\p"
 	.string "Ein Diorama der Hoenn-Region.\p"
 	.string "Wo liegt hier Wurzelheim?$"
+#else
+	.string "“MODEL OF HOENN REGION”\p"
+	.string "It's a miniature diorama of the\n"
+	.string "HOENN region.\p"
+	.string "Where is LITTLEROOT TOWN on this?$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay:
+#if GERMAN
 	.string "Dies ist eine Anzeige der Meeres-\n"
 	.string "strömungen.\p"
 	.string "“In der Nähe des Meeresbodens sind die\n"
 	.string "Strömungen abhängig von Faktoren wie\l"
 	.string "Temperatur und Salzgehalt.”$"
+#else
+	.string "It's a display on the flow of seawater.\p"
+	.string "“Near the bottom of the sea, water\n"
+	.string "flows due to differences in such\l"
+	.string "factors as temperature and salinity.”$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay:
+#if GERMAN
 	.string "Dies ist eine Anzeige der Meeres-\n"
 	.string "strömungen.\p"
 	.string "“An der Oberfläche sind die Strömungen\n"
 	.string "abhängig vom Einfluss des Windes.”$"
+#else
+	.string "It's a display on the flow of seawater.\p"
+	.string "“Toward the surface, seawater flows\n"
+	.string "as currents driven by the winds.”$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica:
+#if GERMAN
 	.string "“Die Fähre MS Tide”\p"
 	.string "“Ein maßstabsgetreues Modell eines\n"
 	.string "Schiffes unter Konstruktion in der\l"
 	.string "Briggwerft.”$"
+#else
+	.string "“THE FERRY S.S. TIDAL\p"
+	.string "“A scale replica of the ship under\n"
+	.string "construction at STERN'S SHIPYARD.”$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
+#if GERMAN
 	.string "“Tiefsee-Forschungsboot 1”\p"
 	.string "“Ein Replikat des Hochleistungs-\n"
 	.string "U-Bootes zur Erforschung des\l"
 	.string "Meeresbodens.”$"
+#else
+	.string "“SUBMARINE EXPLORER 1\p"
+	.string "“A replica of the high-performance\n"
+	.string "ocean floor exploration submarine.”$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica:
+#if GERMAN
 	.string "“Tauchboot”\p"
 	.string "“Ein Replikat eines kompakten,\n"
 	.string "unbemannten Spezial-U-Bootes zur Er-\l"
 	.string "forschung des Meeresbodens.”$"
+#else
+	.string "“SUBMERSIBLE POD\p"
+	.string "“A replica of a compact, unmanned\n"
+	.string "pod for seafloor exploration.”$"
+#endif
 
 SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica:
+#if GERMAN
 	.string "“MS Anne”\p"
 	.string "“Ein Replikat eines Luxusliners, der\n"
 	.string "um den Globus kreuzt.”$"
+#else
+	.string "“S.S. ANNE\p"
+	.string "“A replica of the luxury liner that\n"
+	.string "circles the globe.”$"
+#endif

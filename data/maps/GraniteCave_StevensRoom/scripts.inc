@@ -80,12 +80,21 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 	step_end
 
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
+#if GERMAN
 	.string "Mein Name ist Troy.\p"
 	.string "Ich sammle seltene Steine, daher gehe\n"
 	.string "ich immer mal wieder auf Reisen.\p"
 	.string "Oh? Ein Brief? Für mich?$"
+#else
+	.string "My name is STEVEN.\p"
+	.string "I'm interested in rare stones,\n"
+	.string "so I travel here and there.\p"
+	.string "Oh?\n"
+	.string "A LETTER for me?$"
+#endif
 
 GraniteCave_StevensRoom_Text_ThankYouTakeThis:
+#if GERMAN
 	.string "Troy: Okay, danke schön.\p"
 	.string "Du hast all die Beschwerlichkeiten auf\n"
 	.string "dich genommen, um ihn mir zu bringen.\n"
@@ -94,8 +103,18 @@ GraniteCave_StevensRoom_Text_ThankYouTakeThis:
 	.string "Ich werde dir diese TM geben.\p"
 	.string "Sie enthält meine Lieblingsattacke,\n"
 	.string "Stahlflügel.$"
+#else
+	.string "STEVEN: Okay, thank you.\p"
+	.string "You went through all this trouble to\n"
+	.string "deliver that. I need to thank you.\p"
+	.string "Let me see…\n"
+	.string "I'll give you this TM.\p"
+	.string "It contains my favorite move,\n"
+	.string "STEEL WING.$"
+#endif
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
+#if GERMAN
 	.string "Troy: Deine Pokémon sehen recht\n"
 	.string "talentiert aus.\p"
 	.string "Wenn du fleißig trainierst, wirst du\n"
@@ -106,16 +125,41 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
 	.string "unseren Pokénavs eintragen.\p"
 	.string "… … … … …\n"
 	.string "…$"
+#else
+	.string "STEVEN: Your POKéMON appear quite\n"
+	.string "capable.\p"
+	.string "If you keep training, you could even\n"
+	.string "become the CHAMPION of the POKéMON\l"
+	.string "LEAGUE one day. That's what I think.\p"
+	.string "I know, since we've gotten to know each\n"
+	.string "other, let's register one another in\l"
+	.string "our POKéNAVS.\p"
+	.string "… … … … … …$"
+#endif
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
+#if GERMAN
 	.string "Troy wurde im Pokénav-Verzeichnis\n"
 	.string "eingetragen.$"
+#else
+	.string "Registered STEVEN\n"
+	.string "in the POKéNAV.$"
+#endif
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
+#if GERMAN
 	.string "Nun muss ich mich aber wirklich\n"
 	.string "beeilen.$"
+#else
+	.string "Now, I've got to hurry along.$"
+#endif
 
 GraniteCave_StevensRoom_Text_OhBagIsFull:
+#if GERMAN
 	.string "Oh, dein Beutel ist voll.\n"
 	.string "Das ist aber wirklich schade.$"
+#else
+	.string "Oh, your BAG is full…\n"
+	.string "That's too bad, then.$"
+#endif
 

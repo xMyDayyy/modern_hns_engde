@@ -133,14 +133,42 @@ static const u8 sText_TenDashes[] = _("----------");
 ALIGNED(4) static const u8 sExpandedPlaceholder_PokedexDescription[] = _("");
 static const u16 sSizeScreenSilhouette_Pal[] = INCBIN_U16("graphics/pokedex/size_silhouette.gbapal");
 
+#if GERMAN
 static const u8 sText_Stats_Buttons[] = _("{A_BUTTON}Wechsel   {DPAD_UPDOWN}Att.");
+#else
+static const u8 sText_Stats_Buttons[] = _("{A_BUTTON}TOGGLE   {DPAD_UPDOWN}MOVES");
+#endif
+#if GERMAN
 static const u8 sText_Stats_Buttons_Decapped[] = _("{A_BUTTON}Wechsel   {DPAD_UPDOWN}Att.");
+#else
+static const u8 sText_Stats_Buttons_Decapped[] = _("{A_BUTTON}Toggle   {DPAD_UPDOWN}Moves");
+#endif
+#if GERMAN
 static const u8 sText_Stats_HP[] = _("KP");
+#else
+static const u8 sText_Stats_HP[] = _("HP");
+#endif
+#if GERMAN
 static const u8 sText_Stats_Attack[] = _("Ang");
+#else
+static const u8 sText_Stats_Attack[] = _("ATK");
+#endif
+#if GERMAN
 static const u8 sText_Stats_Defense[] = _("Ver");
+#else
+static const u8 sText_Stats_Defense[] = _("DEF");
+#endif
+#if GERMAN
 static const u8 sText_Stats_Speed[] = _("Init");
+#else
+static const u8 sText_Stats_Speed[] = _("SPE");
+#endif
 static const u8 sText_Stats_SpAttack[] = _("SP.A");
+#if GERMAN
 static const u8 sText_Stats_SpDefense[] = _("SP.V");
+#else
+static const u8 sText_Stats_SpDefense[] = _("SP.D");
+#endif
 static const u8 sText_Stats_EV_Plus1[] = _("{UP_ARROW_2}");
 static const u8 sText_Stats_EV_Plus2[] = _("{UP_ARROW_2}{UP_ARROW_2}");
 static const u8 sText_Stats_EV_Plus3[] = _("{UP_ARROW_2}{UP_ARROW_2}{UP_ARROW_2}");
@@ -154,80 +182,320 @@ static const u8 sText_Stats_Gender_50[] = _("♀ 1/1 ♂");     //_("♀ 50 / 50
 static const u8 sText_Stats_Gender_75[] = _("♀ 3/1 ♂");     //_("♀ 75 / 25 ♂");
 static const u8 sText_Stats_Gender_87_5[] = _("♀ 7/1 ♂");
 static const u8 sText_Stats_Gender_100[] = _("♀");
+#if GERMAN
 static const u8 sText_Stats_CatchRate[] = _("Fangrate:");
+#else
+static const u8 sText_Stats_CatchRate[] = _("CATCH{0x5B}: ");
+#endif
+#if GERMAN
 static const u8 sText_Stats_CatchRate_Legend[] = _("Fast unmöglich");
+#else
+static const u8 sText_Stats_CatchRate_Legend[] = _("LEGENDARY");
+#endif
+#if GERMAN
 static const u8 sText_Stats_CatchRate_VeryHard[] = _("Sehr schwer");
+#else
+static const u8 sText_Stats_CatchRate_VeryHard[] = _("VERY HARD");
+#endif
+#if GERMAN
 static const u8 sText_Stats_CatchRate_Difficult[] = _("Schwer");
+#else
+static const u8 sText_Stats_CatchRate_Difficult[] = _("DIFFICULT");
+#endif
+#if GERMAN
 static const u8 sText_Stats_CatchRate_Medium[] = _("Mittel");
+#else
+static const u8 sText_Stats_CatchRate_Medium[] = _("MEDIUM");
+#endif
+#if GERMAN
 static const u8 sText_Stats_CatchRate_Relaxed[] = _("Leicht");
+#else
+static const u8 sText_Stats_CatchRate_Relaxed[] = _("RELAXED");
+#endif
+#if GERMAN
 static const u8 sText_Stats_CatchRate_Easy[] = _("Sehr leicht");
+#else
+static const u8 sText_Stats_CatchRate_Easy[] = _("EASY");
+#endif
+#if GERMAN
 static const u8 sText_Stats_ExpYield[] = _("Basis-EP:");
+#else
+static const u8 sText_Stats_ExpYield[] = _("EXP YIELD: ");
+#endif
+#if GERMAN
 static const u8 sText_Stats_EggCycles[] = _("Schritte Ei:");
+#else
+static const u8 sText_Stats_EggCycles[] = _("HATCH STEPS:");
+#endif
 static const u8 sText_Stats_EggCycles_VeryFast[] = _("{EMOJI_BOLT}{EMOJI_DIZZYEGG}");
 static const u8 sText_Stats_EggCycles_Fast[] = _("{EMOJI_DIZZYEGG}");
 static const u8 sText_Stats_EggCycles_Normal[] = _("{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}");
 static const u8 sText_Stats_EggCycles_Slow[] = _("{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}");
+#if GERMAN
 static const u8 sText_Stats_Growthrate[] = _("Levelaufstieg:");
+#else
+static const u8 sText_Stats_Growthrate[] = _("GROW: ");
+#endif
+#if GERMAN
 static const u8 sText_Stats_Friendship[] = _("Freundschaft:");
+#else
+static const u8 sText_Stats_Friendship[] = _("FRIENDSHIP:");
+#endif
 static const u8 sText_Stats_Friendship_BigAnger[] = _("{EMOJI_BIGANGER}");
 static const u8 sText_Stats_Friendship_Neutral[] = _("{EMOJI_NEUTRAL}");
 static const u8 sText_Stats_Friendship_Happy[] = _("{EMOJI_HAPPY}");
 static const u8 sText_Stats_Friendship_BigSmile[] = _("{EMOJI_BIGSMILE}");
+#if GERMAN
 static const u8 sText_Stats_MEDIUM_FAST[] = _("Mittel-Schnell");
+#else
+static const u8 sText_Stats_MEDIUM_FAST[] = _("MED. FAST");
+#endif
+#if GERMAN
 static const u8 sText_Stats_ERRATIC[] = _("Absteigend");
+#else
+static const u8 sText_Stats_ERRATIC[] = _("ERRATIC");
+#endif
+#if GERMAN
 static const u8 sText_Stats_FLUCTUATING[] = _("Ansteigend");
+#else
+static const u8 sText_Stats_FLUCTUATING[] = _("FLUCTUATING");
+#endif
+#if GERMAN
 static const u8 sText_Stats_MEDIUM_SLOW[] = _("Mittel-Langsam");
+#else
+static const u8 sText_Stats_MEDIUM_SLOW[] = _("MED. SLOW");
+#endif
+#if GERMAN
 static const u8 sText_Stats_FAST[] = _("Schnell");
+#else
+static const u8 sText_Stats_FAST[] = _("FAST");
+#endif
+#if GERMAN
 static const u8 sText_Stats_SLOW[] = _("Langsam");
+#else
+static const u8 sText_Stats_SLOW[] = _("SLOW");
+#endif
 static const u8 sText_Stats_ContestHeart[] = _("H");
 static const u8 sText_Stats_Minus[] = _("-");
+#if GERMAN
 static const u8 sText_Stats_eggGroup[] = _("Ei-Gruppe:");
+#else
+static const u8 sText_Stats_eggGroup[] = _("EGG G1:");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_MONSTER[] = _("Monster");
+#else
+static const u8 sText_Stats_eggGroup_MONSTER[] = _("MONSTER");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_WATER_1[] = _("Wasser {CIRCLE_1}");
+#else
+static const u8 sText_Stats_eggGroup_WATER_1[] = _("WATER {CIRCLE_1}");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_BUG[] = _("Käfer");
+#else
+static const u8 sText_Stats_eggGroup_BUG[] = _("BUG");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_FLYING[] = _("Flug");
+#else
+static const u8 sText_Stats_eggGroup_FLYING[] = _("FLYING");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_FIELD[] = _("Feld");
+#else
+static const u8 sText_Stats_eggGroup_FIELD[] = _("FIELD");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_FAIRY[] = _("Fee");
+#else
+static const u8 sText_Stats_eggGroup_FAIRY[] = _("FAIRY");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_GRASS[] = _("Pflanze");
+#else
+static const u8 sText_Stats_eggGroup_GRASS[] = _("GRASS");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_HUMAN_LIKE[] = _("Humanotyp");
+#else
+static const u8 sText_Stats_eggGroup_HUMAN_LIKE[] = _("HUMANE");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_WATER_3[] = _("Wasser {CIRCLE_3}");
+#else
+static const u8 sText_Stats_eggGroup_WATER_3[] = _("WATER {CIRCLE_3}");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_MINERAL[] = _("Mineral");
+#else
+static const u8 sText_Stats_eggGroup_MINERAL[] = _("MINERAL");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_AMORPHOUS[] = _("Amorph");
+#else
+static const u8 sText_Stats_eggGroup_AMORPHOUS[] = _("AMORPHOUS");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_WATER_2[] = _("Wasser {CIRCLE_2}");
+#else
+static const u8 sText_Stats_eggGroup_WATER_2[] = _("WATER {CIRCLE_2}");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_DITTO[] = _("Ditto");
+#else
+static const u8 sText_Stats_eggGroup_DITTO[] = _("DITTO");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_DRAGON[] = _("Drache");
+#else
+static const u8 sText_Stats_eggGroup_DRAGON[] = _("DRAGON");
+#endif
+#if GERMAN
 static const u8 sText_Stats_eggGroup_NO_EGGS_DISCOVERED[] = _("Unbekannt");
+#else
+static const u8 sText_Stats_eggGroup_NO_EGGS_DISCOVERED[] = _("---");
+#endif
 static const u8 sText_Stats_eggGroup_UNKNOWN[] = _("???");
+#if GERMAN
 static const u8 sText_Dex_SEEN[] = _("Ges.");
+#else
+static const u8 sText_Dex_SEEN[] = _("SEEN");
+#endif
+#if GERMAN
 static const u8 sText_Dex_OWN[] = _("Gef.");
+#else
+static const u8 sText_Dex_OWN[] = _("OWN");
+#endif
 
+#if GERMAN
 static const u8 sText_EVO_Buttons[] = _("{DPAD_UPDOWN}Evos  {A_BUTTON}Bericht");
+#else
+static const u8 sText_EVO_Buttons[] = _("{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK");
+#endif
+#if GERMAN
 static const u8 sText_EVO_Buttons_Decapped[] = _("{DPAD_UPDOWN}Evos  {A_BUTTON}Bericht");
+#else
+static const u8 sText_EVO_Buttons_Decapped[] = _("{DPAD_UPDOWN}Evos  {A_BUTTON}Check");
+#endif
+#if GERMAN
 static const u8 sText_EVO_Buttons_PE[] = _("{DPAD_UPDOWN}Evos  {A_BUTTON}Bericht  {START_BUTTON}Form");
+#else
+static const u8 sText_EVO_Buttons_PE[] = _("{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK  {START_BUTTON}FORMs");
+#endif
+#if GERMAN
 static const u8 sText_EVO_Buttons_Decapped_PE[] = _("{DPAD_UPDOWN}Evos  {A_BUTTON}Bericht  {START_BUTTON}Formen");
+#else
+static const u8 sText_EVO_Buttons_Decapped_PE[] = _("{DPAD_UPDOWN}Evos  {A_BUTTON}Check  {START_BUTTON}Forms");
+#endif
 static const u8 sText_EVO_Name[] = _("{STR_VAR_3}:");
+#if GERMAN
 static const u8 sText_EVO_PreEvo[] = _("{STR_VAR_1} entwickelt von {STR_VAR_2}");
+#else
+static const u8 sText_EVO_PreEvo[] = _("{STR_VAR_1} evolves from {STR_VAR_2}");
+#endif
+#if GERMAN
 static const u8 sText_EVO_PreEvo_PE_Mega[] = _("{STR_VAR_1} Mega-Entw. mit {STR_VAR_2}");
+#else
+static const u8 sText_EVO_PreEvo_PE_Mega[] = _("{STR_VAR_1} Mega Evolves with {STR_VAR_2}");
+#endif
+#if GERMAN
 static const u8 sText_EVO_LEVEL_SILCOON[] = _("{LV}{UP_ARROW} zu {STR_VAR_2}, Schaloko-Wesen");
+#else
+static const u8 sText_EVO_LEVEL_SILCOON[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, Silcoon persona");
+#endif
+#if GERMAN
 static const u8 sText_EVO_LEVEL_CASCOON[] = _("{LV}{UP_ARROW} zu {STR_VAR_2}, Panekon-Wesen");
+#else
+static const u8 sText_EVO_LEVEL_CASCOON[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, Cascoon persona");
+#endif
+#if GERMAN
 static const u8 sText_EVO_MOVE[] = _("{LV}{UP_ARROW}, kennt {STR_VAR_2}");
+#else
+static const u8 sText_EVO_MOVE[] = _("{LV}{UP_ARROW}, knows {STR_VAR_2}");
+#endif
+#if GERMAN
 static const u8 sText_EVO_LEVEL_RAIN[] = _("{LV}{UP_ARROW} zu {STR_VAR_2} bei Regen");
+#else
+static const u8 sText_EVO_LEVEL_RAIN[] = _("{LV}{UP_ARROW} to {STR_VAR_2} while raining");
+#endif
+#if GERMAN
 static const u8 sText_EVO_TRADE_SPECIFIC_MON[] = _("Tausch gegen {STR_VAR_2}");
+#else
+static const u8 sText_EVO_TRADE_SPECIFIC_MON[] = _("Traded for {STR_VAR_2}");
+#endif
+#if GERMAN
 static const u8 sText_EVO_CRITICAL_HITS[] = _("Lande {STR_VAR_2} krit. Treffer\nin Einzelkampf");
+#else
+static const u8 sText_EVO_CRITICAL_HITS[] = _("Land {STR_VAR_2} critical hits in\nsingle battle");
+#endif
+#if GERMAN
 static const u8 sText_EVO_SCRIPT_TRIGGER_DMG[] = _("Nimmt mind. {STR_VAR_2} KP Schaden");
+#else
+static const u8 sText_EVO_SCRIPT_TRIGGER_DMG[] = _("Takes at least {STR_VAR_2} HP in damage");
+#endif
+#if GERMAN
 static const u8 sText_EVO_DARK_SCROLL[] = _("Unlichtschriftrolle verw.");
+#else
+static const u8 sText_EVO_DARK_SCROLL[] = _("ScrllOfDrknss is used");
+#endif
+#if GERMAN
 static const u8 sText_EVO_WATER_SCROLL[] = _("Wasserschriftrolle verw.");
+#else
+static const u8 sText_EVO_WATER_SCROLL[] = _("ScrollOfWatrs is used");
+#endif
+#if GERMAN
 static const u8 sText_EVO_USE_MOVE_TWENTY_TIMES[] = _("{LV}{UP_ARROW} nach 20x {STR_VAR_2}");
+#else
+static const u8 sText_EVO_USE_MOVE_TWENTY_TIMES[] = _("{LV}{UP_ARROW} after 20x {STR_VAR_2}");
+#endif
+#if GERMAN
 static const u8 sText_EVO_RECOIL_DAMAGE_MALE[] = _("{LV}{UP_ARROW} mit {STR_VAR_2} Rückstoß, männl.");
+#else
+static const u8 sText_EVO_RECOIL_DAMAGE_MALE[] = _("{LV}{UP_ARROW} with {STR_VAR_2} recoil, male");
+#endif
+#if GERMAN
 static const u8 sText_EVO_RECOIL_DAMAGE_FEMALE[] = _("{LV}{UP_ARROW} mit {STR_VAR_2} Rückstoß, weibl.");
+#else
+static const u8 sText_EVO_RECOIL_DAMAGE_FEMALE[] = _("{LV}{UP_ARROW} with {STR_VAR_2} recoil, female");
+#endif
+#if GERMAN
 static const u8 sText_EVO_DEFEAT_THREE_WITH_ITEM[] = _("{LV}{UP_ARROW} besiege 3 {STR_VAR_3} mit {STR_VAR_2}");
+#else
+static const u8 sText_EVO_DEFEAT_THREE_WITH_ITEM[] = _("{LV}{UP_ARROW} defeating 3 {STR_VAR_3} holding {STR_VAR_2}");
+#endif
+#if GERMAN
 static const u8 sText_EVO_NONE[] = _("{STR_VAR_1} hat keine Entwicklung.");
+#else
+static const u8 sText_EVO_NONE[] = _("{STR_VAR_1} has no evolution.");
+#endif
 
+#if GERMAN
 static const u8 sText_FORMS_Buttons_PE[] = _("{A_BUTTON}Form Modus  {START_BUTTON}Evos");
+#else
+static const u8 sText_FORMS_Buttons_PE[] = _("{A_BUTTON}FORM MODE  {START_BUTTON}EVOs");
+#endif
+#if GERMAN
 static const u8 sText_FORMS_Buttons_Decapped_PE[] = _("{A_BUTTON}Form Modus  {START_BUTTON}Evos");
+#else
+static const u8 sText_FORMS_Buttons_Decapped_PE[] = _("{START_BUTTON}Evos");
+#endif
+#if GERMAN
 static const u8 sText_FORMS_Buttons_Submenu_PE[] = _("{DPAD_NONE}Form {A_BUTTON}Bericht {START_BUTTON}Evos");
+#else
+static const u8 sText_FORMS_Buttons_Submenu_PE[] = _("{DPAD_NONE}FORMs {A_BUTTON}CHECK {START_BUTTON}EVOs");
+#endif
+#if GERMAN
 static const u8 sText_FORMS_Buttons_Submenu_Decapped_PE[] = _("{DPAD_NONE}Form {A_BUTTON}Bericht {START_BUTTON}Evos");
+#else
+static const u8 sText_FORMS_Buttons_Submenu_Decapped_PE[] = _("{START_BUTTON}Evos");
+#endif
+#if GERMAN
 static const u8 sText_FORMS_NONE[] = _("{STR_VAR_1} hat keine anderen Formen.");
+#else
+static const u8 sText_FORMS_NONE[] = _("{STR_VAR_1} has no alternate forms.");
+#endif
 static const u8 sText_PlusSymbol[] = _("+");
 
 // static .rodata graphics

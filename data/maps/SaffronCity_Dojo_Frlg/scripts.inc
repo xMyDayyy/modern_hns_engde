@@ -150,18 +150,33 @@ SaffronCity_Dojo_EventScript_DefeatedMasterKoichi::
 	end
 
 SaffronCity_Dojo_Text_MasterKoichiIntro::
+#if GERMAN
 	.string "Willkommen!\p"
 	.string "Ich bin der Karate-meister!\n"
 	.string "Ich leite diese Pokémon-Arena!\p"
 	.string "Du forderst mich heraus? Also gut!\n"
 	.string "Ich kenne keine Gnade!\p"
 	.string "Los!$"
+#else
+	.string "Grunt!\p"
+	.string "I am the KARATE MASTER!\n"
+	.string "I am the LEADER here!\p"
+	.string "You wish to challenge us?\n"
+	.string "Expect no mercy!\p"
+	.string "Fwaaa!$"
+#endif
 
 SaffronCity_Dojo_Text_MasterKoichiDefeat::
+#if GERMAN
 	.string "Arrgh!\n"
 	.string "Ich wurde geschlagen!$"
+#else
+	.string "Hwa!\n"
+	.string "Arrgh! Beaten!$"
+#endif
 
 SaffronCity_Dojo_Text_ChoosePrizedFightingMon::
+#if GERMAN
 	.string "Ich bin deiner Gnade unwürdig!\p"
 	.string "Trotzdem flehe ich dich an, unser\n"
 	.string "Emblem nicht als Trophäe\l"
@@ -169,88 +184,194 @@ SaffronCity_Dojo_Text_ChoosePrizedFightingMon::
 	.string "Zum Ersatz gebe ich dir ein\n"
 	.string "preisgekröntes Kampf-Pokémon!\p"
 	.string "Wähle eines von beiden aus!$"
+#else
+	.string "Indeed, I have lost!\p"
+	.string "But, I beseech you, do not take\n"
+	.string "our emblem as your trophy!\p"
+	.string "In return, I will give you a prized\n"
+	.string "FIGHTING POKéMON!\p"
+	.string "Choose whichever one you like!$"
+#endif
 
 SaffronCity_Dojo_Text_StayAndTrainWithUs::
+#if GERMAN
 	.string "Hi!\p"
 	.string "Bleibe doch hier und trainiere\n"
 	.string "Karate mit uns!$"
+#else
+	.string "Grunt!\n"
+	.string "Stay and train at karate with us!$"
+#endif
 
 SaffronCity_Dojo_Text_MikeIntro::
+#if GERMAN
 	.string "Stopp!\n"
 	.string "Ziehe deine Schuhe aus!$"
+#else
+	.string "Hoargh!\n"
+	.string "Take your shoes off!$"
+#endif
 
 SaffronCity_Dojo_Text_MikeDefeat::
+#if GERMAN
 	.string "Ich gebe auf!$"
+#else
+	.string "I give up!$"
+#endif
 
 SaffronCity_Dojo_Text_MikePostBattle::
+#if GERMAN
 	.string "Warte nur, bis du unseren Meister\n"
 	.string "triffst!\p"
 	.string "Verglichen mit ihm bin ich ein\n"
 	.string "kleiner Fisch!$"
+#else
+	.string "You wait 'til you see our MASTER!\n"
+	.string "I'm a small fry compared to him!$"
+#endif
 
 SaffronCity_Dojo_Text_HidekiIntro::
+#if GERMAN
 	.string "Du sollst sehr gut sein!\n"
 	.string "Beweise es mir!$"
+#else
+	.string "I hear you're good!\n"
+	.string "Show me!$"
+#endif
 
 SaffronCity_Dojo_Text_HidekiDefeat::
+#if GERMAN
 	.string "Schiedsrichter!\n"
 	.string "1 Punkt!$"
+#else
+	.string "Judge!\n"
+	.string "One point!$"
+#endif
 
 SaffronCity_Dojo_Text_HidekiPostBattle::
+#if GERMAN
 	.string "Unser Meister ist ein echter Profi!$"
+#else
+	.string "Our MASTER is a pro fighter.\n"
+	.string "Be prepared to lose!$"
+#endif
 
 SaffronCity_Dojo_Text_AaronIntro::
+#if GERMAN
 	.string "Keine Herausforderung ist mir zu\n"
 	.string "hart!\p"
 	.string "Ich zertrümmere Steine mit bloßen\n"
 	.string "Händen!$"
+#else
+	.string "Hiyah!\n"
+	.string "I have no fear for anything tough!\p"
+	.string "I shatter boulders for training\n"
+	.string "every day!$"
+#endif
 
 SaffronCity_Dojo_Text_AaronDefeat::
+#if GERMAN
 	.string "Autsch!\n"
 	.string "Ich habe eine Prellung!$"
+#else
+	.string "Yow!\n"
+	.string "Stubbed fingers!$"
+#endif
 
 SaffronCity_Dojo_Text_AaronPostBattle::
+#if GERMAN
 	.string "Die einzige Sache, vor der wir uns\n"
 	.string "fürchten, ist Psychokinese!$"
+#else
+	.string "The only thing that frightens us is\n"
+	.string "psychic power!$"
+#endif
 
 SaffronCity_Dojo_Text_HitoshiIntro::
+#if GERMAN
 	.string "Haii-ia!\p"
 	.string "Unbefugten ist der Zutritt zu\n"
 	.string "unserem Kampf-dojo verboten!$"
+#else
+	.string "Hwaah!\p"
+	.string "You're trespassing in our\n"
+	.string "FIGHTING DOJO!$"
+#endif
 
 SaffronCity_Dojo_Text_HitoshiDefeat::
+#if GERMAN
 	.string "Uff!\n"
 	.string "Ich gebe auf!$"
+#else
+	.string "Oof!\n"
+	.string "I give up!$"
+#endif
 
 SaffronCity_Dojo_Text_HitoshiPostBattle::
+#if GERMAN
 	.string "Die allerbesten Kämpfer des Landes\n"
 	.string "trainieren hier!$"
+#else
+	.string "The prime fighters across the land\n"
+	.string "train here.$"
+#endif
 
 SaffronCity_Dojo_Text_YouWantHitmonlee::
+#if GERMAN
 	.string "Möchtest du Kicklee, das\n"
 	.string "trittstarke Pokémon?$"
+#else
+	.string "You want the hard-kicking\n"
+	.string "HITMONLEE?$"
+#endif
 
 SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "{STR_VAR_1}.$"
+#else
+	.string "{PLAYER} received the {STR_VAR_1}\n"
+	.string "from the KARATE MASTER.$"
+#endif
 
 SaffronCity_Dojo_Text_YouWantHitmonchan::
+#if GERMAN
 	.string "Möchtest du Nockchan, den Meister\n"
 	.string "des Boxkampfs?$"
+#else
+	.string "You want the piston-punching\n"
+	.string "HITMONCHAN?$"
+#endif
 
 SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2::
 	.string "{PLAYER}は　カラテ　だいおう　から\n"
 	.string "{STR_VAR_1}を　もらった！$"
 
 SaffronCity_Dojo_Text_BetterNotGetGreedy::
+#if GERMAN
 	.string "Er sagte ein Pokémon...$"
+#else
+	.string "Better not get greedy…$"
+#endif
 
 SaffronCity_Dojo_Text_EnemiesOnEverySide::
+#if GERMAN
 	.string "Überall Gegner!$"
+#else
+	.string "Enemies on every side!$"
+#endif
 
 SaffronCity_Dojo_Text_GoesAroundComesAround::
+#if GERMAN
 	.string "Wie die Saat, so die Ernte!$"
+#else
+	.string "What goes around comes around.$"
+#endif
 
 SaffronCity_Dojo_Text_FightingDojo::
+#if GERMAN
 	.string "Kampfarena$"
+#else
+	.string "FIGHTING DOJO$"
+#endif
 

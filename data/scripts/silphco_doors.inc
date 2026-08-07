@@ -544,13 +544,27 @@ EventScript_OpenDoor::
 	end
 
 Text_CardKeyOpenedDoor::
+#if GERMAN
 	.string "Bingo!\n"
 	.string "Der Türöffner hat die Tür\l"
 	.string "entriegelt!$"
+#else
+	.string "Bingo!\n"
+	.string "The CARD KEY opened the door!$"
+#endif
 
 Text_ItNeedsCardKey::
+#if GERMAN
 	.string "Mist! Die Tür geht nur mit dem\n"
 	.string "Türöffner auf!$"
+#else
+	.string "No!\n"
+	.string "It needs a CARD KEY!$"
+#endif
 
 Text_TheDoorIsOpen::
+#if GERMAN
 	.string "Die Türe ist offen…$"
+#else
+	.string "The door is open…$"
+#endif

@@ -15,8 +15,15 @@ MysteryGiftScript_StampCard::
 	end
 
 sText_MysteryGiftStampCard:
+#if GERMAN
 	.string "Danke, dass du das Stempelkarten-\n"
 	.string "System benutzt hast.\p"
 	.string "Du musst noch {STR_VAR_1} sammeln, um\n"
 	.string "deine Stempelkarte zu\l"
 	.string "vervollständigen.$"
+#else
+	.string "Thank you for using the STAMP CARD\n"
+	.string "System.\p"
+	.string "You have {STR_VAR_1} more to collect to\n"
+	.string "fill your STAMP CARD.$"
+#endif

@@ -177,24 +177,44 @@ MauvilleCity_BikeShop_EventScript_ExitAcroHandbook::
 	end
 
 MauvilleCity_BikeShop_Text_RydelGreeting:
+#if GERMAN
 	.string "Nun, was haben wir denn hier?\n"
 	.string "Einen höchst energetischen Kunden!\p"
 	.string "Ich? Du kannst Radla zu mir sagen.\n"
 	.string "Ich bin der Besitzer des\l"
 	.string "Fahrrad-Shops.$"
+#else
+	.string "Well, well, what have we here?\n"
+	.string "A most energetic customer!\p"
+	.string "Me? You may call me RYDEL.\n"
+	.string "I'm the owner of this cycle shop.$"
+#endif
 
 MauvilleCity_BikeShop_Text_DidYouComeFromFarAway:
+#if GERMAN
 	.string "Radla: Deine Turbotreter…\n"
 	.string "Die sehen ja wirklich schmuddelig aus…\n"
 	.string "\p"
 	.string "Kommst du von weit her?$"
+#else
+	.string "RYDEL: Your RUNNING SHOES…\n"
+	.string "They're awfully filthy.\p"
+	.string "Did you come from far away?$"
+#endif
 
 MauvilleCity_BikeShop_Text_GuessYouDontNeedBike:
+#if GERMAN
 	.string "Radla: Stimmt das wirklich?\p"
 	.string "Dann kannst du, glaube ich, keines\n"
 	.string "meiner Fahrräder gebrauchen.$"
+#else
+	.string "RYDEL: Is that right?\p"
+	.string "Then, I guess you have no need for\n"
+	.string "any of my BIKES.$"
+#endif
 
 MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
+#if GERMAN
 	.string "Radla: Hm, hm… … … … …\n"
 	.string "… … … … … … … …\p"
 	.string "Du kommst den ganzen Weg von\n"
@@ -219,38 +239,101 @@ MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
 	.string "Da ich ein richtig weiches Herz habe,\n"
 	.string "darfst du dir eines aussuchen!\p"
 	.string "Welches möchtest du haben?$"
+#else
+	.string "RYDEL: Hm, hm… … … … …\p"
+	.string "You're saying that you came all this\n"
+	.string "way from LITTLEROOT?\p"
+	.string "My goodness!\n"
+	.string "That's ridiculously far!\p"
+	.string "If you had one of my BIKES, you could\n"
+	.string "go anywhere easily while feeling the\l"
+	.string "gentle caress of the wind!\p"
+	.string "I'll tell you what!\n"
+	.string "I'll give you a BIKE!\p"
+	.string "Oh, wait a second!\p"
+	.string "I forgot to tell you that there are\n"
+	.string "two kinds of BIKES!\p"
+	.string "They are the MACH BIKE and\n"
+	.string "the ACRO BIKE!\p"
+	.string "The MACH BIKE is for cyclists who want\n"
+	.string "to feel the wind with their bodies!\p"
+	.string "And an ACRO BIKE is for those who\n"
+	.string "prefer technical rides!\p"
+	.string "I'm a real sweetheart, so you can\n"
+	.string "have whichever one you like!\p"
+	.string "Which one will you choose?$"
+#endif
 
 MauvilleCity_BikeShop_Text_ChoseMachBike:
-	.string "{PLAYER} wählt das Eilrad.$"
+#if GERMAN
+	.string "{PLAYER} wählt das {COLOR RED}Eilrad{COLOR DARK_GRAY}.$"
+#else
+	.string "{PLAYER} chose the MACH BIKE.$"
+#endif
 
 MauvilleCity_BikeShop_Text_ChoseAcroBike:
-	.string "{PLAYER} wählt das Kunstrad.$"
+#if GERMAN
+	.string "{PLAYER} wählt das {COLOR RED}Kunstrad{COLOR DARK_GRAY}.$"
+#else
+	.string "{PLAYER} chose the ACRO BIKE.$"
+#endif
 
 MauvilleCity_BikeShop_Text_ComeBackToSwitchBikes:
+#if GERMAN
 	.string "Radla: Wenn du die Räder tauschen\n"
 	.string "möchtest, komm einfach wieder vorbei!$"
+#else
+	.string "RYDEL: If you get the urge to switch\n"
+	.string "BIKES, just come see me!$"
+#endif
 
 MauvilleCity_BikeShop_Text_WantToSwitchBikes:
+#if GERMAN
 	.string "Radla: Oh. Du möchtest die Räder\n"
 	.string "tauschen?$"
+#else
+	.string "RYDEL: Oh? Were you thinking about\n"
+	.string "switching BIKES?$"
+#endif
 
 MauvilleCity_BikeShop_Text_IllSwitchBikes:
+#if GERMAN
 	.string "Radla: Kein Problem!\n"
 	.string "Ich tausche die Räder für dich aus!$"
+#else
+	.string "RYDEL: Okay, no problem!\n"
+	.string "I'll switch BIKES for you!$"
+#endif
 
 MauvilleCity_BikeShop_Text_ExchangedMachForAcro:
-	.string "{PLAYER} bekommt für das Eilrad ein\n"
-	.string "Kunstrad.$"
+#if GERMAN
+	.string "{PLAYER} bekommt für das {COLOR RED}Eilrad{COLOR DARK_GRAY} ein\n"
+	.string "{COLOR RED}Kunstrad{COLOR DARK_GRAY}.$"
+#else
+	.string "{PLAYER} got the MACH BIKE exchanged\n"
+	.string "for an ACRO BIKE.$"
+#endif
 
 MauvilleCity_BikeShop_Text_ExchangedAcroForMach:
-	.string "{PLAYER} bekommt für das Kunstrad ein\n"
-	.string "Eilrad.$"
+#if GERMAN
+	.string "{PLAYER} bekommt für das {COLOR RED}Kunstrad{COLOR DARK_GRAY} ein\n"
+	.string "{COLOR RED}Eilrad{COLOR DARK_GRAY}.$"
+#else
+	.string "{PLAYER} got the ACRO BIKE exchanged\n"
+	.string "for a MACH BIKE.$"
+#endif
 
 MauvilleCity_BikeShop_Text_HappyYouLikeIt:
+#if GERMAN
 	.string "Radla: Wunderbar!\n"
 	.string "Ich freue mich, dass es dir gefällt!$"
+#else
+	.string "RYDEL: Good, good!\n"
+	.string "I'm happy that you like it!$"
+#endif
 
 MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
+#if GERMAN
 	.string "Oh? Was ist mit dem Rad geschehen,\n"
 	.string "das ich dir gegeben habe?\p"
 	.string "Ach so, du hast es in deinem PC\n"
@@ -260,19 +343,42 @@ MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
 	.string "Freuden gegen ein anderes tauschen!\p"
 	.string "Möge der Wind dir stets im Rücken sein\n"
 	.string "bei deinem Abenteuer!$"
+#else
+	.string "Oh? What happened to that BIKE\n"
+	.string "I gave you?\p"
+	.string "Oh, I get it, you stored it using your PC.\p"
+	.string "Well, take it out of PC storage,\n"
+	.string "and I'll be happy to exchange it!\p"
+	.string "May the wind always be at your back\n"
+	.string "on your adventure!$"
+#endif
 
 MauvilleCity_BikeShop_Text_HandbooksAreInBack:
+#if GERMAN
 	.string "Ich lerne etwas über Räder,\n"
 	.string "während ich hier arbeite.\p"
 	.string "Wenn du eine Anleitung brauchst, wie\n"
 	.string "man Rad fährt - da vorne findest du\l"
 	.string "einige Handbücher.$"
+#else
+	.string "I'm learning about BIKES while\n"
+	.string "I work here.\p"
+	.string "If you need advice on how to ride your\n"
+	.string "BIKE, there're a couple handbooks in\l"
+	.string "the back.$"
+#endif
 
 MauvilleCity_BikeShop_Text_MachHandbookWhichPage:
+#if GERMAN
 	.string "Ein Handbuch zum Eilrad.\p"
 	.string "Welche Seite möchtest du lesen?$"
+#else
+	.string "It's a handbook on the MACH BIKE.\p"
+	.string "Which page do you want to read?$"
+#endif
 
 MauvilleCity_BikeShop_Text_HowToRideMachBike:
+#if GERMAN
 	.string "Mit Hilfe des + Steuerkreuzes lässt\n"
 	.string "sich das Rad lenken.\p"
 	.string "Es wird immer schneller, wenn es\n"
@@ -280,8 +386,17 @@ MauvilleCity_BikeShop_Text_HowToRideMachBike:
 	.string "Lass das Steuerkreuz los, um das\n"
 	.string "Rad anzuhalten.\p"
 	.string "Eine andere Seite lesen?$"
+#else
+	.string "A BIKE moves in the direction that\n"
+	.string "the + Control Pad is pressed.\p"
+	.string "It will speed up once it gets rolling.\p"
+	.string "To stop, release the + Control Pad.\n"
+	.string "The BIKE will slow to a stop.\p"
+	.string "Want to read a different page?$"
+#endif
 
 MauvilleCity_BikeShop_Text_HowToTurnMachBike:
+#if GERMAN
 	.string "Ein Eilrad ist sehr schnell und kann\n"
 	.string "nicht schnell gestoppt werden.\p"
 	.string "Das Kurvenfahren ist sehr schwierig.\p"
@@ -289,8 +404,18 @@ MauvilleCity_BikeShop_Text_HowToTurnMachBike:
 	.string "bremse, bevor du an eine Kurve kommst.\n"
 	.string "\p"
 	.string "Eine andere Seite lesen?$"
+#else
+	.string "A MACH BIKE is speedy, but it can't\n"
+	.string "stop very quickly.\p"
+	.string "It gets a little tricky to get around\n"
+	.string "a corner.\p"
+	.string "Release the + Control Pad a little\n"
+	.string "before the corner and slow down.\p"
+	.string "Want to read a different page?$"
+#endif
 
 MauvilleCity_BikeShop_Text_SandySlopes:
+#if GERMAN
 	.string "In der ganzen Hoenn-Region gibt es\n"
 	.string "sandige Gefälle.\p"
 	.string "Der lose Sand erlaubt es nicht, diese\n"
@@ -298,12 +423,27 @@ MauvilleCity_BikeShop_Text_SandySlopes:
 	.string "Aber mit einem Eilrad können auch\n"
 	.string "diese Gefälle gemeistert werden.\p"
 	.string "Eine andere Seite lesen?$"
+#else
+	.string "There are small sandy slopes\n"
+	.string "throughout the HOENN region.\p"
+	.string "The loose, crumbly sand makes it\n"
+	.string "impossible to climb normally.\p"
+	.string "But if you have a MACH BIKE, you can\n"
+	.string "zip up a sandy slope.\p"
+	.string "Want to read a different page?$"
+#endif
 
 MauvilleCity_BikeShop_Text_AcroHandbookWhichPage:
+#if GERMAN
 	.string "Ein Handbuch zum Kunstrad.\p"
 	.string "Welche Seite möchtest du lesen?$"
+#else
+	.string "It's a handbook on the ACRO BIKE.\p"
+	.string "Which page do you want to read?$"
+#endif
 
 MauvilleCity_BikeShop_Text_Wheelies:
+#if GERMAN
 	.string "Drücke während des Fahrens den\n"
 	.string "B-Knopf, um das Vorderrad anzuheben.\p"
 	.string "Ist das Vorderrad angehoben, können\n"
@@ -311,16 +451,33 @@ MauvilleCity_BikeShop_Text_Wheelies:
 	.string "ausgeführt werden.\p"
 	.string "Diese Technik nennt sich Wheelie.\p"
 	.string "Eine andere Seite lesen?$"
+#else
+	.string "Press the B Button while riding,\n"
+	.string "and the front wheel lifts up.\p"
+	.string "You can zip around with the front\n"
+	.string "wheel up using the + Control Pad.\p"
+	.string "This technique is called a wheelie.\p"
+	.string "Want to read a different page?$"
+#endif
 
 MauvilleCity_BikeShop_Text_BunnyHops:
+#if GERMAN
 	.string "Wird der B-Knopf gedrückt, kann auf\n"
 	.string "der Stelle gehüpft werden.\p"
 	.string "Diese Technik nennt sich Hoppeln.\p"
 	.string "Dabei kann gleichzeitig gefahren\n"
 	.string "werden.\p"
 	.string "Eine andere Seite lesen?$"
+#else
+	.string "Keeping the B Button pressed,\n"
+	.string "your BIKE can hop on the spot.\p"
+	.string "This technique is called a bunny hop.\p"
+	.string "You can ride while hopping, too.\p"
+	.string "Want to read a different page?$"
+#endif
 
 MauvilleCity_BikeShop_Text_Jumps:
+#if GERMAN
 	.string "Drücke gleichzeitig den B-Knopf und\n"
 	.string "das Steuerkreuz, um zu springen.\p"
 	.string "Drücke das + Steuerkreuz seitlich, um\n"
@@ -328,4 +485,13 @@ MauvilleCity_BikeShop_Text_Jumps:
 	.string "Drücke es nach hinten, um die Richtung\n"
 	.string "zu ändern.\p"
 	.string "Eine andere Seite lesen?$"
+#else
+	.string "Press the B Button and the + Control\n"
+	.string "Pad at the same time to jump.\p"
+	.string "Press the + Control Pad to the side\n"
+	.string "to jump sideways.\p"
+	.string "Press it backwards to make the BIKE\n"
+	.string "change directions while jumping.\p"
+	.string "Want to read a different page?$"
+#endif
 

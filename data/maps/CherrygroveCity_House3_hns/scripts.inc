@@ -18,10 +18,21 @@ CherrygroveCity_House3_EventScript_Girl::
 	end
 
 CherrygroveCity_EvolutionHouse_Text_Youngster:
+#if GERMAN
 	.string "Pokémon sammeln über Kämpfe Erfahrung\n"
 	.string "und verändern schließlich ihre Gestalt.$"
+#else
+	.string "POKéMON gain experience in\n"
+	.string "battle and change their form.$"
+#endif
 
 CherrygroveCity_EvolutionHouse_Text_Lass:
+#if GERMAN
 	.string "Pokémon verändern sich?\p"
 	.string "Ich wäre schockiert, wenn\n"
 	.string "das plötzlich passieren würde!$"
+#else
+	.string "POKéMON change?\p"
+	.string "I would be shocked if one did\n"
+	.string "that!$"
+#endif

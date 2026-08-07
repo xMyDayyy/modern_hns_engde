@@ -304,13 +304,22 @@ FallarborTown_BattleTentLobby_hns_EventScript_ExitRules::
 	end
 
 FallarborTown_BattleTentLobby_hns_Text_MakeThinkImJustKid:
+#if GERMAN
 	.string "Fufufufufu.\p"
 	.string "Ich werde alle glauben lassen,\n"
 	.string "dass ich nur ein Kind bin.\p"
 	.string "Dann gewinne ich mit dem\n"
 	.string "Überraschungsmoment!$"
+#else
+	.string "Fufufufufu.\p"
+	.string "I'm going to make everyone think\n"
+	.string "I'm just a kid and let them play down.\p"
+	.string "Then, I'll shock them and grab\n"
+	.string "the title!$"
+#endif
 
 FallarborTown_BattleTentLobby_hns_Text_FallarborTentMyFavorite:
+#if GERMAN
 	.string "Das Kampfcamp hat verschiedene\n"
 	.string "Aktivitäten anzubieten.\p"
 	.string "Ich mag am liebsten das\n"
@@ -318,16 +327,35 @@ FallarborTown_BattleTentLobby_hns_Text_FallarborTentMyFavorite:
 	.string "Ich finde es fantastisch, wie\n"
 	.string "Trainer mit aller Kraft gewinnen\l"
 	.string "wollen, zusammen mit ihren Pokémon.$"
+#else
+	.string "You know how BATTLE TENTS offer\n"
+	.string "different events?\p"
+	.string "My favorite is definitely the red\n"
+	.string "colored TENT.\p"
+	.string "I think it's fantastic how TRAINERS\n"
+	.string "try to win with all their faith in\l"
+	.string "their POKéMON.$"
+#endif
 
 FallarborTown_BattleTentLobby_hns_Text_CameToCampOut:
+#if GERMAN
 	.string "Ich hörte vom Kampfcamp als bin\n"
 	.string "ich hier angereist.\p"
 	.string "Ich wusste nicht das sie so\n"
 	.string "luxuriös sein würden!\p"
 	.string "Wenn ich nun schon hier bin,\n"
 	.string "versuche ich mein Glück!$"
+#else
+	.string "I heard something about some tent,\n"
+	.string "so I came to camp out.\p"
+	.string "I didn't know that tents these days\n"
+	.string "are so luxurious!\p"
+	.string "Since I'm here, I may as well try\n"
+	.string "my hand at battling!$"
+#endif
 
 FallarborTown_BattleTentLobby_hns_Text_ScottLookingForSomeone:
+#if GERMAN
 	.string "Scott: Hi, {PLAYER}!\n"
 	.string "Du bist also nun im Kampfcamp!\p"
 	.string "Die Menschen in dieser Gegend sind\n"
@@ -340,9 +368,30 @@ FallarborTown_BattleTentLobby_hns_Text_ScottLookingForSomeone:
 	.string "Ich würde sofort…\p"
 	.string "Uups! Wie auch immer!\n"
 	.string "Nur nicht aufgeben, das wird schon!$"
+#else
+	.string "SCOTT: Hi, {PLAYER}{KUN}!\n"
+	.string "So you came out to this BATTLE TENT!\p"
+	.string "The people in these parts tend to be\n"
+	.string "easygoing and laid-back.\p"
+	.string "But, you see, what I'm looking for are\n"
+	.string "people with…\p"
+	.string "How should I say this?\p"
+	.string "Someone bursting with the desire\n"
+	.string "and the drive to win.\p"
+	.string "If there were a TRAINER like that,\n"
+	.string "I'd immediately…\p"
+	.string "Whoops! Never mind!\n"
+	.string "Keep working at it!$"
+#endif
 
 FallarborTown_BattleTentLobby_hns_Text_ScottMakeChallenge:
+#if GERMAN
 	.string "Scott: Statt deine Zeit mit\n"
 	.string "mir zu verschwenden, versuche\l"
 	.string "doch eines der Events?$"
+#else
+	.string "SCOTT: Instead of wasting your\n"
+	.string "time with the likes of me, why not\l"
+	.string "make a challenge?$"
+#endif
 

@@ -17,36 +17,81 @@ PokemonTower_3F_EventScript_Hope::
 	end
 
 PokemonTower_3F_Text_HopeIntro::
+#if GERMAN
 	.string "Buu... huhu...\n"
 	.string "Huhu... buu...$"
+#else
+	.string "Urrg… Awaa…\n"
+	.string "Huhu… Graa…$"
+#endif
 
 PokemonTower_3F_Text_HopeDefeat::
+#if GERMAN
 	.string "Buu!\n"
 	.string "Ich wurde erlöst!$"
+#else
+	.string "Hwa!\n"
+	.string "I'm saved!$"
+#endif
 
 PokemonTower_3F_Text_HopePostBattle::
-	.string "Das Silph Scope kann Geister\n"
+#if GERMAN
+	.string "Das {COLOR RED}Silph Scope{COLOR DARK_GRAY} kann Geister\n"
 	.string "identifizieren!$"
+#else
+	.string "The ghosts can be identified by\n"
+	.string "the SILPH SCOPE.$"
+#endif
 
 PokemonTower_3F_Text_CarlyIntro::
+#if GERMAN
 	.string "Buhuhuhu...\n"
 	.string "Hui... buuh!$"
+#else
+	.string "Kekeke…\n"
+	.string "Kwaaah!$"
+#endif
 
 PokemonTower_3F_Text_CarlyDefeat::
+#if GERMAN
 	.string "Hmm?\n"
 	.string "Was mache ich hier?$"
+#else
+	.string "Hmm?\n"
+	.string "What am I doing?$"
+#endif
 
 PokemonTower_3F_Text_CarlyPostBattle::
+#if GERMAN
 	.string "Tut mir Leid!\n"
 	.string "Ich war besessen!$"
+#else
+	.string "Sorry!\n"
+	.string "I was possessed!$"
+#endif
 
 PokemonTower_3F_Text_PatriciaIntro::
+#if GERMAN
 	.string "Verschwinde, böser Geist!$"
+#else
+	.string "Be gone!\n"
+	.string "Malevolent spirit!$"
+#endif
 
 PokemonTower_3F_Text_PatriciaDefeat::
+#if GERMAN
 	.string "Puh!\n"
 	.string "Der Geist ist verschwunden!$"
+#else
+	.string "Whew!\n"
+	.string "The spirit left!$"
+#endif
 
 PokemonTower_3F_Text_PatriciaPostBattle::
+#if GERMAN
 	.string "Auch meine Freunde waren besessen!$"
+#else
+	.string "The others above…\n"
+	.string "They must have been possessed.$"
+#endif
 

@@ -234,6 +234,7 @@ Route22_EventScript_LeagueGateSign::
 	end
 
 Route22_Text_EarlyRivalIntro::
+#if GERMAN
 	.string "{RIVAL}: Heh! {PLAYER}!\p"
 	.string "Bist du auf dem Weg zur Pokémon\n"
 	.string "Liga? Vergiss es!\p"
@@ -243,18 +244,43 @@ Route22_Text_EarlyRivalIntro::
 	.string "durchlassen!\p"
 	.string "Ach, sind deine Pokémon\n"
 	.string "eigentlich stärker geworden?$"
+#else
+	.string "{RIVAL}: Hey! {PLAYER}!\p"
+	.string "You're off to the POKéMON LEAGUE?\n"
+	.string "Forget about it!\p"
+	.string "You probably don't have any\n"
+	.string "BADGES, do you?\p"
+	.string "The guard won't let you through\n"
+	.string "without them.\p"
+	.string "By the way, did your POKéMON get\n"
+	.string "any stronger?$"
+#endif
 
 Route22_Text_EarlyRivalDefeat::
+#if GERMAN
 	.string "Oh nein! So viel Glück wie du kann\n"
 	.string "man nicht haben!$"
+#else
+	.string "Awww!\n"
+	.string "You just lucked out!$"
+#endif
 
 Route22_Text_EarlyRivalPostBattle::
+#if GERMAN
 	.string "In der Pokémon Liga gibt es viele\n"
 	.string "starke Trainer!\p"
 	.string "Ich muss einen Weg finden, an ihnen\n"
 	.string "vorbeizukommen.\p"
 	.string "Du solltest aufhören zu bummeln\n"
 	.string "und dich in Bewegung setzen!$"
+#else
+	.string "I heard the POKéMON LEAGUE is\n"
+	.string "crawling with tough TRAINERS.\p"
+	.string "I have to figure out how to get\n"
+	.string "past them.\p"
+	.string "You should quit dawdling and get a\n"
+	.string "move on!$"
+#endif
 
 @ Translated in RB as "{RIVAL}: What? Why do I have 2 POKéMON? You should catch some more too!"
 Route22_Text_RivalShouldCatchSomeMons::
@@ -265,6 +291,7 @@ Route22_Text_RivalShouldCatchSomeMons::
 	.string "つかまえれば　いい　じゃん！$"
 
 Route22_Text_LateRivalIntro::
+#if GERMAN
 	.string "{RIVAL}: Was?! {PLAYER}!\n"
 	.string "Was für eine Überraschung!\p"
 	.string "Du bist also auch auf dem Weg zur\n"
@@ -275,12 +302,29 @@ Route22_Text_LateRivalIntro::
 	.string "Pokémon Liga aufwärmen, indem\l"
 	.string "ich dich besiege!\p"
 	.string "Also, los geht es!$"
+#else
+	.string "{RIVAL}: What? {PLAYER}!\n"
+	.string "What a surprise to see you here!\p"
+	.string "So you're going to the POKéMON\n"
+	.string "LEAGUE?\p"
+	.string "You collected all the BADGES, too?\n"
+	.string "That's cool!\p"
+	.string "Then I'll whip you, {PLAYER}, as a\n"
+	.string "warm-up for the POKéMON LEAGUE!\p"
+	.string "Come on!$"
+#endif
 
 Route22_Text_LateRivalDefeat::
+#if GERMAN
 	.string "Was!?\p"
 	.string "Ich war zu unvorsichtig!$"
+#else
+	.string "What!?\p"
+	.string "I was just careless, you!$"
+#endif
 
 Route22_Text_LateRivalPostBattle::
+#if GERMAN
 	.string "Das war ein gutes Aufwärmtraining!\n"
 	.string "Ich bin gut auf die Pokémon Liga\l"
 	.string "vorbereitet!\p"
@@ -288,6 +332,13 @@ Route22_Text_LateRivalPostBattle::
 	.string "hast, musst du mehr trainieren!\p"
 	.string "Ich glaube, du bist dir dessen\n"
 	.string "bewusst! Bis dann!$"
+#else
+	.string "That loosened me up.\n"
+	.string "I'm ready for the POKéMON LEAGUE!\p"
+	.string "{PLAYER}, you need more practice.\p"
+	.string "But hey, you know that!\n"
+	.string "I'm out of here. Smell ya!$"
+#endif
 
 @ Translated in RB as "{RIVAL}: Hahaha! {PLAYER}! That's your best? You're nowhere near as good as me, pal! Go train some more! You loser!"
 Route22_Text_LateRivalVictory::
@@ -299,6 +350,11 @@ Route22_Text_LateRivalVictory::
 	.string "あははーッ！$"
 
 Route22_Text_LeagueGateSign::
+#if GERMAN
 	.string "Pokémon Liga\n"
 	.string "Haupteingang$"
+#else
+	.string "POKéMON LEAGUE\n"
+	.string "Front Gate$"
+#endif
 

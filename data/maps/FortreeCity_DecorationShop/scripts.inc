@@ -54,17 +54,32 @@ FortreeCity_DecorationShop_PokemartDecor_Chairs:
 	pokemartlistend
 
 FortreeCity_DecorationShop_Text_MerchandiseSentToPC:
+#if GERMAN
 	.string "Die Artikel, die du hier kaufst,\n"
 	.string "werden\n"
 	.string "sofort auf deinen PC gesendet.\p"
 	.string "Das ist großartig! Ich wünschte, ich\n"
 	.string "könnte mich so auch nach Hause\l"
 	.string "senden lassen.$"
+#else
+	.string "Merchandise you buy here is sent to\n"
+	.string "your own PC.\p"
+	.string "That's fantastic! I wish they could\n"
+	.string "also deliver me home like that.$"
+#endif
 
 FortreeCity_DecorationShop_Text_BuyingDeskForDolls:
+#if GERMAN
 	.string "Ich kaufe mir einen Edlen Tisch, auf\n"
 	.string "den ich meine Puppen setze.\p"
 	.string "Wenn ich das nicht tue, werden meine\n"
 	.string "Puppen schmutzig, wenn ich damit meine\l"
 	.string "Geheimbasis dekoriere.$"
+#else
+	.string "I'm buying a pretty desk and I'm\n"
+	.string "putting my cute DOLLS on it.\p"
+	.string "If I don't, when I decorate my\n"
+	.string "SECRET BASE, my DOLLS will get\l"
+	.string "dirty or poked with splinters.$"
+#endif
 

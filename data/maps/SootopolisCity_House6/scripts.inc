@@ -32,25 +32,50 @@ SootopolisCity_House6_EventScript_NoRoomForWailmerDoll::
 	end
 
 SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll:
+#if GERMAN
 	.string "Hallo! Du bist nach langer Zeit der\n"
 	.string "erste Gast, den ich begrüße.\p"
 	.string "Du hast mir den Tag gerettet, daher\n"
-	.string "möchte ich dir diese Wailmer-Puppe\l"
+	.string "möchte ich dir diese {COLOR RED}Wailmer{COLOR DARK_GRAY}-Puppe\l"
 	.string "schenken.$"
+#else
+	.string "Hello! You're our first guest in\n"
+	.string "a good while.\p"
+	.string "You've brightened up my day, so I'll\n"
+	.string "give you a big WAILMER DOLL.$"
+#endif
 
 SootopolisCity_House6_Text_TakeGoodCareOfIt:
+#if GERMAN
 	.string "Pass gut auf sie auf!$"
+#else
+	.string "Take good care of it!$"
+#endif
 
 SootopolisCity_House6_Text_IllHoldItForYou:
+#if GERMAN
 	.string "Oh, du möchtest sie zwar haben, aber\n"
 	.string "nicht sofort? Dann hebe ich sie dir\l"
 	.string "auf.$"
+#else
+	.string "Oh, you want it, but not right now?\n"
+	.string "Okay, then I'll hold it for you.$"
+#endif
 
 SootopolisCity_House6_Text_DontWantThisDoll:
+#if GERMAN
 	.string "Bist du sicher?\n"
 	.string "Du möchtest diese Puppe wirklich\l"
 	.string "nicht?$"
+#else
+	.string "Are you sure?\n"
+	.string "You don't want this DOLL?$"
+#endif
 
 SootopolisCity_House6_Text_LovePlushDolls:
+#if GERMAN
 	.string "Ich liiiiebe Plüsch-Puppen!$"
+#else
+	.string "I love plush DOLLS!$"
+#endif
 

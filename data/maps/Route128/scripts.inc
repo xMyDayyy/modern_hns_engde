@@ -242,15 +242,27 @@ Route128_EventScript_Carlee::
 	end
 
 Route128_Text_ArchieWhatHappened:
+#if GERMAN
 	.string "Adrian: Was ist passiert… Was für\n"
 	.string "ein Furcht erregendes Szenario…\p"
 	.string "Habe ich… einen schrecklichen Fehler\n"
 	.string "begangen?$"
+#else
+	.string "ARCHIE: What happened…\n"
+	.string "What is this wretched scene…\p"
+	.string "Did I…make a horrible mistake?$"
+#endif
 
 Route128_Text_ArchieIOnlyWanted:
+#if GERMAN
 	.string "Ich… Ich wollte doch nur…$"
+#else
+	.string "I…\n"
+	.string "I only wanted…$"
+#endif
 
 Route128_Text_MaxieDoYouUnderstandNow:
+#if GERMAN
 	.string "Marc: Begreifst du es nun,\n"
 	.string "Adrian?\p"
 	.string "Begreifst du nun die schrecklichen\n"
@@ -258,8 +270,18 @@ Route128_Text_MaxieDoYouUnderstandNow:
 	.string "Wir müssen uns beeilen! Wir müssen\n"
 	.string "etwas unternehmen, bevor die Situation\l"
 	.string "völlig außer Kontrolle gerät!$"
+#else
+	.string "MAXIE: Do you understand now,\n"
+	.string "ARCHIE?\p"
+	.string "Do you finally see how disastrous\n"
+	.string "your dream turned out to be?\p"
+	.string "We have to hurry! We have to do\n"
+	.string "something before the situation goes\l"
+	.string "completely out of control!$"
+#endif
 
 Route128_Text_MaxieResposibilityFallsToArchieAndMe:
+#if GERMAN
 	.string "Marc: {PLAYER}, sag jetzt nichts.\p"
 	.string "Ich weiß, ich bin nicht der Richtige,\n"
 	.string "um Adrian zu kritisieren…\p"
@@ -272,18 +294,43 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe:
 	.string "Adrian und ich haben die\n"
 	.string "Verantwortung, dies alles zu\l"
 	.string "verändern…$"
+#else
+	.string "MAXIE: {PLAYER}, don't say anything.\p"
+	.string "I know that I have no right to be\n"
+	.string "critical of ARCHIE…\p"
+	.string "But the way things are now, I doubt\n"
+	.string "that we humans will be capable of\l"
+	.string "doing anything about it.\p"
+	.string "But neither can we stand by and\n"
+	.string "just watch helplessly.\p"
+	.string "The responsibility for putting an end\n"
+	.string "to this falls to ARCHIE and me…$"
+#endif
 
 Route128_Text_MaxieThisDefiesBelief:
+#if GERMAN
 	.string "Marc: Das ist ja unglaublich…\p"
 	.string "Ein super-antikes Pokémon…\p"
 	.string "Seine Kraft ist unglaublich. Es hat\n"
 	.string "das Gleichgewicht der Natur verändert.$"
+#else
+	.string "MAXIE: This defies belief…\p"
+	.string "Those super-ancient POKéMON…\p"
+	.string "Their power is unbelievable.\n"
+	.string "They've upset the balance of nature…$"
+#endif
 
 Route128_Text_StevenWhatIsHappening:
+#if GERMAN
 	.string "Troy: {PLAYER}{KUN}!\n"
 	.string "Was geht hier vor?$"
+#else
+	.string "STEVEN: {PLAYER}{KUN}!\n"
+	.string "What is happening?$"
+#endif
 
 Route128_Text_StevenWholeWorldWillDrown:
+#if GERMAN
 	.string "Das ist schrecklich…\p"
 	.string "Nach der sengenden Hitze kam die\n"
 	.string "Überschwemmung.\p"
@@ -297,11 +344,31 @@ Route128_Text_StevenWholeWorldWillDrown:
 	.string "mit Reden vertun…\p"
 	.string "In Xeneroville bekommen wir\n"
 	.string "hoffentlich Antworten…$"
+#else
+	.string "This is terrible…\p"
+	.string "After the scorching heat wave ended,\n"
+	.string "this deluge began.\p"
+	.string "If this doesn't stop, all of HOENN…\n"
+	.string "No, the whole world will drown.\p"
+	.string "This huge rain cloud is spreading\n"
+	.string "from above SOOTOPOLIS…\p"
+	.string "What in the world is taking place there?\p"
+	.string "There's no point arguing here…\n"
+	.string "SOOTOPOLIS might provide answers…$"
+#endif
 
 Route128_Text_StevenImGoingToSootopolis:
+#if GERMAN
 	.string "{PLAYER}{KUN}…\n"
 	.string "Ich weiß nicht, was du vorhast, aber\n"
 	.string "tue\l"
 	.string "nichts Unüberlegtes.\p"
 	.string "Okay. Ich gehe nach Xeneroville.$"
+#else
+	.string "{PLAYER}{KUN}…\n"
+	.string "I don't know what you intend to do,\l"
+	.string "but don't do anything reckless.\p"
+	.string "Okay.\n"
+	.string "I'm going to SOOTOPOLIS.$"
+#endif
 

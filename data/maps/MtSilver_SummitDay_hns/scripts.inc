@@ -51,9 +51,18 @@ MtSilver_SummitDay_EventScript_Red::
 	end
 
 MtSilver_SummitDay_Text_Red:
+#if GERMAN
 	.string "まえ　えらんだもの$"
+#else
+	.string ".........................\n"
+	.string ".........................$"
+#endif
 
 MtSilver_SummitDay_Text_RedBeaten:
+#if GERMAN
 	.string "…!$"
+#else
+	.string "...!$"
+#endif
 
 

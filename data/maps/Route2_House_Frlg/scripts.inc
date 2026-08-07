@@ -40,8 +40,15 @@ Route2_House_EventScript_AlreadyTraded::
 	end
 
 Route2_House_Text_FaintedMonsCanUseFieldMoves::
+#if GERMAN
 	.string "Auch wenn ein Pokémon ausscheidet,\n"
 	.string "kann es weiter Spezial-Techniken,\l"
 	.string "wie zum Beispiel den Zerschneider,\l"
 	.string "anwenden!$"
+#else
+	.string "A fainted POKéMON just has no\n"
+	.string "energy left to battle.\p"
+	.string "It can still use moves like CUT\n"
+	.string "outside of battle.$"
+#endif
 

@@ -60,6 +60,7 @@ GoldenrodCity_BillsHouse_EventScript_Bill_Refused::
 	end
 
 BillHouse_Text_TakeThisEevee:
+#if GERMAN
 	.string "Bill: Hi, {PLAYER}!\p"
 	.string "Tu uns einen Gefallen und nimm dieses\n"
 	.string "Evoli.\p"
@@ -70,66 +71,149 @@ BillHouse_Text_TakeThisEevee:
 	.string "aber ich gehe nicht gerne raus.\p"
 	.string "Wirst du für mich\n"
 	.string "mit ihm spielen, {PLAYER}?$"
+#else
+    .string "BILL: Hi, {PLAYER}! Do us a favor and\n"
+    .string "take this EEVEE.\p"
+    .string "It was left in our care while\n"
+    .string "I was away working on my system.\p"
+    .string "Someone has to take care of it,\n"
+    .string "but I don't like being outside.\p"
+    .string "Can I count on you to play with it,\n"
+    .string "{PLAYER}?$"
+#endif
 
 BillHouse_Text_CountingOnYou:
+#if GERMAN
 	.string "Bill: Ich wusste, dass du es\n"
 	.string "schaffst! Noch ein kleines Stück!\p"
 	.string "Du bist einzigartig!\p"
 	.string "O.K., ich zähle auf dich.\p"
 	.string "Pass auf dich auf!$"
+#else
+    .string "BILL: I knew you'd come through!\p"
+    .string "Way to go! You're the real deal!\p"
+    .string "OK, I'm counting on you.\p"
+    .string "Take good care of it!$"
+#endif
 
 BillHouse_Text_ReceivedEevee:
+#if GERMAN
 	.string "{PLAYER} erhält Evoli!$"
+#else
+    .string "{PLAYER} received EEVEE!$"
+#endif
 
 BillHouse_Text_EeveeMayEvolve:
-	.string "Bill: Prof. Lind sagt, Evoli kann\n"
+#if GERMAN
+	.string "Bill: {COLOR RED}Prof. Lind{COLOR DARK_GRAY} sagt, Evoli kann\n"
 	.string "sich in neue, unbekannte\l"
 	.string "Arten entwickeln.$"
+#else
+    .string "BILL: PROF.ELM claims EEVEE may\n"
+    .string "evolve in new and unknown ways.$"
+#endif
 
 BillHouse_Text_PartyFull:
+#if GERMAN
 	.string "Moment! Du hast\n"
 	.string "keinen Platz mehr in deinem Team.$"
+#else
+    .string "Whoa, wait. You can't carry any\n"
+    .string "more POKéMON.$"
+#endif
 
 BillHouse_Text_NoEevee:
+#if GERMAN
 	.string "Oh, verstehe…$"
+#else
+    .string "Oh… Now what to do?$"
+#endif
 
 BillHouse_Text_PopWontWork:
+#if GERMAN
 	.string "Bill: Mein Paps arbeitet nicht.\p"
 	.string "Er geht den ganzen Tag müßig.\p"
 	.string "Er fängt an, zu nerven…$"
+#else
+    .string "BILL: My pop, he won't work. All he\n"
+    .string "does is goof off all day long.\p"
+    .string "He's getting to be a real headache…$"
+#endif
 
 BillHouse_Text_MomBeforeEcruteak:
+#if GERMAN
 	.string "Oh, du sammelst Pokémon?\p"
-	.string "Mein Sohn Bill ist ein Experte.\p"
+	.string "Mein Sohn {COLOR RED}Bill{COLOR DARK_GRAY} ist ein Experte.\p"
 	.string "Er wurde gerade in das Pokémon-Center\n"
-	.string "von Teak City gerufen.\p"
+	.string "von {COLOR RED}Teak City{COLOR DARK_GRAY} gerufen.\p"
 	.string "Mein Mann ging in die Spielhalle,\p"
 	.string "ohne vorher anzurufen…$"
+#else
+    .string "Oh, you collect POKéMON? My son\n"
+    .string "BILL is an expert.\p"
+    .string "He just got called to the POKéMON\n"
+    .string "CENTER in ECRUTEAK CITY.\p"
+    .string "My husband went off to the GAME\n"
+    .string "CORNER without being called…$"
+#endif
 
 BillHouse_Text_MomAfterEcruteak:
+#if GERMAN
 	.string "Mein Mann war als Maniac bekannt.\p"
-	.string "Bill muss nach seinem Vater kommen.$"
+	.string "{COLOR RED}Bill{COLOR DARK_GRAY} muss nach seinem Vater kommen.$"
+#else
+    .string "My husband was once known as a\n"
+    .string "POKéMANIAC.\p"
+    .string "BILL must have taken after his\n"
+    .string "father.$"
+#endif
 
 BillHouse_Text_SisterUsefulNumber:
+#if GERMAN
 	.string "Bist du ein Trainer?\p"
 	.string "Ich habe eine\n"
 	.string "nützliche Telefonnummer für dich.$"
+#else
+    .string "Are you a TRAINER?\p"
+    .string "I've got a useful phone number\n"
+    .string "for you.$"
+#endif
 
 BillHouse_Text_RecordedBillsNumber:
+#if GERMAN
 	.string "{PLAYER} speichert Bills Nummer.$"
+#else
+    .string "{PLAYER} recorded BILL's number.$"
+#endif
 
 BillHouse_Text_SisterRefusedNumber:
+#if GERMAN
 	.string "Mein Bruder hat\n"
 	.string "das PC-PokémonLagerungs-System\l"
 	.string "erfunden.\p"
 	.string "Ich wollte dir gerade\n"
 	.string "Bills Nummer geben…$"
+#else
+    .string "My brother made the PC POKéMON\n"
+    .string "storage system.\p"
+    .string "I was going to give you BILL's\n"
+    .string "number…$"
+#endif
 
 BillHouse_Text_SisterPhoneFull:
+#if GERMAN
 	.string "Du kannst keine\n"
 	.string "Nummern mehr speichern.$"
+#else
+    .string "You can't record any more numbers.$"
+#endif
 
 BillHouse_Text_SisterStorageSystem:
-	.string "Mein großer Bruder Bill\n"
+#if GERMAN
+	.string "Mein großer Bruder {COLOR RED}Bill{COLOR DARK_GRAY}\n"
 	.string "hat das PC-Pokémon-Lagerungssystem\l"
 	.string "erfunden.$"
+#else
+    .string "My big brother BILL made the PC\n"
+    .string "POKéMON storage system.$"
+#endif

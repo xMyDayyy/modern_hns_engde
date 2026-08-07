@@ -169,30 +169,55 @@ SSAnne_2F_Corridor_EventScript_Sailor::
 	end
 
 SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner::
+#if GERMAN
 	.string "Dieses luxuriöse Traumschiff fährt\n"
 	.string "exklusiv für Trainer zur See!\p"
 	.string "In jedem Hafen besuchen uns\n"
 	.string "ausschließlich geladene Trainer!$"
+#else
+	.string "This ship, she is a luxury liner for\n"
+	.string "TRAINERS of the world!\p"
+	.string "At every port, we hold parties with\n"
+	.string "invited TRAINERS.$"
+#endif
 
 SSAnne_2F_Corridor_Text_RivalIntro::
+#if GERMAN
 	.string "{RIVAL}: Sieh an!\n"
 	.string "{PLAYER}!\p"
 	.string "Ich wusste, ich würde dich hier\n"
 	.string "treffen!\p"
 	.string "{PLAYER}, hat man dich tatsächlich\n"
 	.string "eingeladen?\p"
-	.string "Wie kommst du mit deinem Pokédex\n"
+	.string "Wie kommst du mit deinem {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
 	.string "voran?\p"
 	.string "Ich habe bereits 40 verschiedene\n"
 	.string "Pokémon gefangen!\p"
 	.string "Es gibt eine riesige Vielfalt an\n"
 	.string "Pokémon!\p"
 	.string "Versuch dein Glück in hohem Gras!$"
+#else
+	.string "{RIVAL}: Bonjour!\n"
+	.string "{PLAYER}!\p"
+	.string "Imagine seeing you here!\n"
+	.string "{PLAYER}, were you really invited?\p"
+	.string "So how's your POKéDEX coming?\p"
+	.string "I already caught 40 kinds, pal.\n"
+	.string "Different kinds are everywhere.\p"
+	.string "Crawl around in grassy areas, and\n"
+	.string "look hard for them.$"
+#endif
 
 SSAnne_2F_Corridor_Text_RivalDefeat::
+#if GERMAN
 	.string "Mist!\p"
 	.string "Na ja, wenigstens trainierst du\n"
 	.string "deine Pokémon!$"
+#else
+	.string "Humph!\p"
+	.string "At least you're raising your\n"
+	.string "POKéMON!$"
+#endif
 
 SSAnne_2F_Corridor_Text_RivalVictory::
 	.string "{PLAYER}..！\n"
@@ -201,6 +226,7 @@ SSAnne_2F_Corridor_Text_RivalVictory::
 	.string "きたえた　ほうが　いいぜ！$"
 
 SSAnne_2F_Corridor_Text_RivalPostBattle::
+#if GERMAN
 	.string "{RIVAL}: Es soll angeblich ein\n"
 	.string "großer Meister im Umgang mit dem\l"
 	.string "Zerschneider an Bord sein.\p"
@@ -210,4 +236,13 @@ SSAnne_2F_Corridor_Text_RivalPostBattle::
 	.string "nützlich!\p"
 	.string "Du solltest den alten Mann\n"
 	.string "besuchen! Ciao!$"
+#else
+	.string "{RIVAL}: I heard there was a CUT\n"
+	.string "master on board.\p"
+	.string "But he was just a seasick old man!\p"
+	.string "CUT itself is really useful.\n"
+	.string "Yup, it'll be handy.\p"
+	.string "You should go see him, too.\n"
+	.string "Smell ya!$"
+#endif
 

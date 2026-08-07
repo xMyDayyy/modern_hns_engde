@@ -78,5 +78,10 @@ TrainerHill_Elevator_hns_Movement_AttendantFaceDown:
 	step_end
 
 TrainerHill_Elevator_hns_Text_ReturnToReception:
+#if GERMAN
 	.string "Möchtest du zur\n"
 	.string "Rezeption zurückkehren?$"
+#else
+	.string "Would you like to return to\n"
+	.string "the reception counter?$"
+#endif

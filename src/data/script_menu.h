@@ -791,14 +791,46 @@ static const struct MenuAction sMultichoiceList_Eeveelutions[] = {
     { COMPOUND_STRING("Nicht mehr schauen.") }
 };
 
+#if GERMAN
 static const u8 gText_SeviiIslands[] = _("Sevii Eilande");
+#else
+static const u8 gText_SeviiIslands[] = _("SEVII ISLANDS");
+#endif
+#if GERMAN
 static const u8 gText_OneIsland[] = _("Eiland Eins");
+#else
+static const u8 gText_OneIsland[] = _("ONE ISLAND");
+#endif
+#if GERMAN
 static const u8 gText_TwoIsland[] = _("Eiland Zwei");
+#else
+static const u8 gText_TwoIsland[] = _("TWO ISLAND");
+#endif
+#if GERMAN
 static const u8 gText_ThreeIsland[] = _("Eiland Drei");
+#else
+static const u8 gText_ThreeIsland[] = _("THREE ISLAND");
+#endif
+#if GERMAN
 static const u8 gText_FourIsland[] = _("Eiland Vier");
+#else
+static const u8 gText_FourIsland[] = _("FOUR ISLAND");
+#endif
+#if GERMAN
 static const u8 gText_FiveIsland[] = _("Eiland Fünf");
+#else
+static const u8 gText_FiveIsland[] = _("FIVE ISLAND");
+#endif
+#if GERMAN
 static const u8 gText_SixIsland[] = _("Eiland Sechs");
+#else
+static const u8 gText_SixIsland[] = _("SIX ISLAND");
+#endif
+#if GERMAN
 static const u8 gText_SevenIsland[] = _("Eiland Sieben");
+#else
+static const u8 gText_SevenIsland[] = _("SEVEN ISLAND");
+#endif
 
 static const struct MenuAction sMultichoiceList_Island23[] = {
     { gText_TwoIsland },
@@ -870,7 +902,11 @@ static const struct MenuAction sMultichoiceList_SeagallopVermilion[] = {
     { gText_Exit }
 };
 
+#if GERMAN
 const u8 sText_NoThanks[] = _("Nein, danke");
+#else
+const u8 sText_NoThanks[] = _("NO THANKS");
+#endif
 
 static const struct MenuAction sMultichoiceList_GameCornerPokemonPrizes[] = {
 #if defined(FIRERED)
@@ -936,9 +972,21 @@ static const struct MenuAction sMultichoiceList_CeladonVendingMachine[] = {
     { gText_Exit }
 };
 
+#if GERMAN
 const u8 sText_FreshWater[] = _("Tafelwasser");
+#else
+const u8 sText_FreshWater[] = _("FRESH WATER");
+#endif
+#if GERMAN
 const u8 sText_SodaPop[] = _("Sprudel");
+#else
+const u8 sText_SodaPop[] = _("SODA POP");
+#endif
+#if GERMAN
 const u8 sText_Lemonade[] = _("Limonade");
+#else
+const u8 sText_Lemonade[] = _("LEMONADE");
+#endif
 
 static const struct MenuAction sMultichoiceList_ThirstyGirlFreshWater[] = {
     { sText_FreshWater },
@@ -987,9 +1035,21 @@ static const struct MenuAction sMultichoiceList_RocketHideoutElevator[] = {
     { gText_Exit }
 };
 
+#if GERMAN
 static const u8 sText_HelixFossil[] = _("Helixfossil");
+#else
+static const u8 sText_HelixFossil[] = _("HELIX FOSSIL");
+#endif
+#if GERMAN
 static const u8 sText_DomeFossil[] = _("Domfossil");
+#else
+static const u8 sText_DomeFossil[] = _("DOME FOSSIL");
+#endif
+#if GERMAN
 static const u8 sText_OldAmber[] = _("Altbernstein");
+#else
+static const u8 sText_OldAmber[] = _("OLD AMBER");
+#endif
 
 static const struct MenuAction sMultichoiceList_Helix[] = {
     { sText_HelixFossil },
@@ -1044,8 +1104,16 @@ static const struct MenuAction sMultichoiceList_TrainerCardIconTint[] = {
     { COMPOUND_STRING("Sepia") }
 };
 
+#if GERMAN
 static const u8 sText_Eggs[] = _("Eier");
+#else
+static const u8 sText_Eggs[] = _("EGGS");
+#endif
+#if GERMAN
 static const u8 sText_Victories[] = _("Siege");
+#else
+static const u8 sText_Victories[] = _("VICTORIES");
+#endif
 
 static const struct MenuAction sMultichoiceList_HOF_Quit[] = {
     { gText_HallOfFame },

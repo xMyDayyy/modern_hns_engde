@@ -33,69 +33,147 @@ MtPyre_3F_EventScript_RematchGabrielle::
 	end
 
 MtPyre_3F_Text_WilliamIntro:
+#if GERMAN
 	.string "Die unglaubliche Atmosphäre der Berge\n"
 	.string "hat meine psychischen Kräfte gestärkt!\n"
 	.string "\p"
 	.string "Ein kleines Kind wie du…\n"
 	.string "Du willst gewinnen? Träum weiter!$"
+#else
+	.string "The rich atmosphere of the mountain\n"
+	.string "has elevated my psychic power!\p"
+	.string "A mere child like you…\n"
+	.string "You dream of winning?$"
+#endif
 
 MtPyre_3F_Text_WilliamDefeat:
+#if GERMAN
 	.string "Ich vertiefe mich in Selbstmitleid.$"
+#else
+	.string "I drown in self-pity…$"
+#endif
 
 MtPyre_3F_Text_WilliamPostBattle:
+#if GERMAN
 	.string "Meine psychischen Kräfte sind mit\n"
 	.string "Sicherheit stärker geworden, aber…$"
+#else
+	.string "My psychic powers have surely\n"
+	.string "grown several times, but…$"
+#endif
 
 MtPyre_3F_Text_KaylaIntro:
+#if GERMAN
 	.string "Ahahahahaha!!!!!\p"
 	.string "Dies ist kein Platz für einen kleinen\n"
 	.string "Hosenscheißer wie dich!$"
+#else
+	.string "Ahahahaha!\p"
+	.string "This is no place for children, least\n"
+	.string "of all you!$"
+#endif
 
 MtPyre_3F_Text_KaylaDefeat:
+#if GERMAN
 	.string "Oh, ich habe mir in die Hose gemacht.$"
+#else
+	.string "I lost that cleanly…$"
+#endif
 
 MtPyre_3F_Text_KaylaPostBattle:
+#if GERMAN
 	.string "Mein Training reicht also nicht aus…\p"
 	.string "Ich muss mein Training auf die Spitze\n"
 	.string "treiben…\p"
 	.string "Ich darf keine Zeit verlieren!$"
+#else
+	.string "This means my training is still not\n"
+	.string "enough…\p"
+	.string "I've got to keep working toward the\n"
+	.string "summit…\p"
+	.string "Go, me!$"
+#endif
 
 MtPyre_3F_Text_GabrielleIntro:
+#if GERMAN
 	.string "Warum bist du hier?$"
+#else
+	.string "Why have you come here?$"
+#endif
 
 MtPyre_3F_Text_GabrielleDefeat:
+#if GERMAN
 	.string "Das war unglaublich!\n"
 	.string "Du bist ein ganz besonderer Trainer!$"
+#else
+	.string "That was amazing!\n"
+	.string "You're a very special TRAINER.$"
+#endif
 
 MtPyre_3F_Text_GabriellePostBattle:
+#if GERMAN
 	.string "Pokémon werden bald nichts Besonderes\n"
 	.string "mehr sein.\p"
 	.string "Die, die du bei dir hast und die, die\n"
 	.string "dir in der Zukunft begegnen werden…\p"
 	.string "Sie sollen alle gleich geliebt werden.\n"
 	.string "Vergiss das nicht.$"
+#else
+	.string "POKéMON no longer of this world.\n"
+	.string "POKéMON that are with you now.\p"
+	.string "And the POKéMON that you will meet\n"
+	.string "in the future…\p"
+	.string "They are all to be equally cherished.\n"
+	.string "Please remember that.$"
+#endif
 
 MtPyre_3F_Text_GabrielleRegister:
+#if GERMAN
 	.string "Ich würde mir gerne deine Pokémon\n"
 	.string "anschauen, wenn sie stärker geworden\l"
 	.string "sind…\p"
 	.string "Bitte, zeig sie mir dann unbedingt!$"
+#else
+	.string "I would like to see your POKéMON\n"
+	.string "when they grow up some more…\p"
+	.string "Please, I need to see your POKéNAV.$"
+#endif
 
 MtPyre_3F_Text_GabrielleRematchIntro:
+#if GERMAN
 	.string "Oh, du bist es…\p"
 	.string "Willst du mir zeigen, wie sehr deine\n"
 	.string "Pokémon gewachsen und wie stark sie\l"
 	.string "geworden sind?$"
+#else
+	.string "Oh, it's you…\p"
+	.string "Have you come to show me your grown\n"
+	.string "POKéMON?$"
+#endif
 
 MtPyre_3F_Text_GabrielleRematchDefeat:
+#if GERMAN
 	.string "Unglaublich!\n"
 	.string "Du bist etwas ganz Besonderes.$"
+#else
+	.string "How amazing!\n"
+	.string "You are a special person.$"
+#endif
 
 MtPyre_3F_Text_GabriellePostRematch:
+#if GERMAN
 	.string "Pokémon werden bald nichts Besonderes\n"
 	.string "mehr sein.\p"
 	.string "Die, die du bei dir hast und die, die\n"
 	.string "dir in der Zukunft begegnen werden…\p"
 	.string "Sie sollen alle gleich geliebt werden.\n"
 	.string "Du hast es also nicht vergessen.$"
+#else
+	.string "POKéMON no longer of this world.\n"
+	.string "POKéMON that are with you now.\p"
+	.string "And the POKéMON that you will meet\n"
+	.string "in the future…\p"
+	.string "They are all to be equally cherished.\n"
+	.string "I see that you've remembered that.$"
+#endif
 

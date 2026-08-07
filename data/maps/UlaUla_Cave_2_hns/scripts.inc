@@ -35,4 +35,8 @@ Alola_Ulaula_BattleMuk_3:
 
 
 Alola_Ulaula_BattleMuk_Text_0:
+#if GERMAN
 	.string "Urgs!$"
+#else
+	.string "Gaaah!$"
+#endif

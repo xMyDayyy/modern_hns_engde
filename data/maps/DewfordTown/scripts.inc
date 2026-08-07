@@ -628,83 +628,172 @@ DewfordTown_EventScript_PhraseNotTrendyEnough::
 	end
 
 DewfordTown_Text_TinyIslandCommunity:
+#if GERMAN
 	.string "Faustauhaven ist eine kleine\n"
 	.string "Inselgemeinschaft. Wenn hier etwas in\l"
 	.string "Mode kommt, will jeder es haben.$"
+#else
+	.string "DEWFORD is a tiny island community.\n"
+	.string "If something gets trendy here,\l"
+	.string "everyone picks up on it right away.$"
+#endif
 
 DewfordTown_Text_TownSign:
+#if GERMAN
 	.string "Faustauhaven\n"
 	.string "“Eine kleine Insel im blauen Meer.”$"
+#else
+	.string "DEWFORD TOWN\n"
+	.string "“A tiny island in the blue sea.”$"
+#endif
 
 DewfordTown_Text_GymSign:
+#if GERMAN
 	.string "Pokémon Arena von Faustauhaven\n"
 	.string "Leiter: Kamillo\l"
 	.string "“Eine große Welle des Kampfes!”$"
+#else
+	.string "DEWFORD TOWN POKéMON GYM\n"
+	.string "LEADER: BRAWLY\l"
+	.string "“A big wave in fighting!”$"
+#endif
 
 DewfordTown_Text_HallSign:
+#if GERMAN
 	.string "Faustauhaven Halle\n"
 	.string "“Die Informationsbörse für jedermann!”$"
+#else
+	.string "DEWFORD HALL\n"
+	.string "“Everyone's information exchange!”$"
+#endif
 
 Route104_Text_LandedInDewfordDeliverLetter:
+#if GERMAN
 	.string "Mr. Brack: Ahoi! Wir haben in\n"
 	.string "Faustauhaven Anker geworfen.\p"
 	.string "Ich vermute, du wirst diesen Brief\n"
 	.string "jetzt diesem… Troy bringen!?!$"
+#else
+	.string "MR. BRINEY: Ahoy!\n"
+	.string "We've hit land in DEWFORD.\p"
+	.string "I suppose you're off to deliver that\n"
+	.string "LETTER to, who was it now, STEVEN!$"
+#endif
 
 DewfordTown_Text_SetSailBackToPetalburg:
+#if GERMAN
 	.string "Mr. Brack: Hast du den Brief\n"
 	.string "überbracht?\p"
 	.string "Oder meinst du, wir müssen zurück\n"
 	.string "nach Blütenburg City segeln?$"
+#else
+	.string "MR. BRINEY: Have you delivered your\n"
+	.string "LETTER?\p"
+	.string "Or were you meaning to sail back to\n"
+	.string "PETALBURG?$"
+#endif
 
 DewfordTown_Text_PetalburgWereSettingSail2:
+#if GERMAN
 	.string "Mr. Brack: Blütenburg City…\n"
 	.string "In Ordnung.\p"
 	.string "Anker gelichtet!\n"
 	.string "Pecko, mein Schatz, wir setzen Segel!$"
+#else
+	.string "MR. BRINEY: PETALBURG it is, then!\p"
+	.string "Anchors aweigh!\n"
+	.string "PEEKO, we're setting sail, my darling!$"
+#endif
 
 DewfordTown_Text_GoDeliverIllBeWaiting:
+#if GERMAN
 	.string "Mr. Brack: Dann bring den Brief zu\n"
 	.string "seinem Empfänger. Ich warte hier.$"
+#else
+	.string "MR. BRINEY: Then you go on and deliver\n"
+	.string "the LETTER. I'll be waiting.$"
+#endif
 
 DewfordTown_Text_BrineyLandedInDewford:
+#if GERMAN
 	.string "Mr. Brack: Ahoi! Wir haben in\n"
 	.string "Faustauhaven Anker geworfen!\p"
 	.string "Komm, wenn wir wieder Segel\n"
 	.string "setzen sollen.$"
+#else
+	.string "MR. BRINEY: Ahoy!\n"
+	.string "We've hit land in DEWFORD!\p"
+	.string "You just go on and tell me whenever\n"
+	.string "you want to set sail again!$"
+#endif
 
 DewfordTown_Text_WhereAreWeBound:
+#if GERMAN
 	.string "Mr. Brack: Ahoi! Für dich fahre ich\n"
 	.string "jederzeit wieder raus!\p"
 	.string "Nun, wo soll es hingehen?$"
+#else
+	.string "MR. BRINEY: Ahoy!\n"
+	.string "For you, I'll go out to sea anytime!\p"
+	.string "Now, my friend, where are we bound?$"
+#endif
 
 DewfordTown_Text_PetalburgWereSettingSail:
+#if GERMAN
 	.string "Mr. Brack: Blütenburg City soll es\n"
 	.string "sein?\p"
 	.string "Anker gelichtet!\n"
 	.string "Pecko, mein Schatz, wir setzen Segel!$"
+#else
+	.string "MR. BRINEY: PETALBURG, is it?\p"
+	.string "Anchors aweigh!\n"
+	.string "PEEKO, we're setting sail, my darling!$"
+#endif
 
 DewfordTown_Text_SlateportWereSettingSail:
+#if GERMAN
 	.string "Mr. Brack: Graphitport City soll\n"
 	.string "es sein?\p"
 	.string "Anker gelichtet!\n"
 	.string "Pecko, mein Schatz, wir setzen Segel!$"
+#else
+	.string "MR. BRINEY: SLATEPORT, is it?\p"
+	.string "Anchors aweigh!\n"
+	.string "PEEKO, we're setting sail, my darling!$"
+#endif
 
 DewfordTown_Text_JustTellMeWhenYouNeedToSetSail:
+#if GERMAN
 	.string "Mr. Brack: Sag mir einfach Bescheid,\n"
 	.string "wenn wir wieder Segel setzen sollen.$"
+#else
+	.string "MR. BRINEY: You just tell me whenever\n"
+	.string "you need to set sail again!$"
+#endif
 
 DewfordTown_Text_GettingItchToFish:
+#if GERMAN
 	.string "Dies ist ein berühmter Angelplatz.\n"
 	.string "Hast du Lust zu angeln?$"
+#else
+	.string "This is a renowned fishing spot.\n"
+	.string "Are you getting the itch to fish?$"
+#endif
 
 DewfordTown_Text_GiveYouOneOfMyRods:
+#if GERMAN
 	.string "Ich habe dir genau zugehört und mir\n"
 	.string "gefällt, was du gesagt hast!\p"
 	.string "Ich werde dir eine meiner Angeln\n"
 	.string "geben.$"
+#else
+	.string "I hear you, and I like what\n"
+	.string "you're saying!\p"
+	.string "I'll give you one of my fishing RODS.$"
+#endif
 
 DewfordTown_Text_ThrowInFishingAdvice:
+#if GERMAN
 	.string "Und, als kleine Zugabe, gebe ich dir\n"
 	.string "noch einige Tipps zum Angeln!\p"
 	.string "Schau dir zuerst das Wasser an und\n"
@@ -715,20 +804,48 @@ DewfordTown_Text_ThrowInFishingAdvice:
 	.string "Großes fangen, manchmal musst du\l"
 	.string "immer wieder kurz die Angel anheben,\l"
 	.string "um etwas an Land zu ziehen.$"
+#else
+	.string "And, as an added bonus, I'll even throw\n"
+	.string "in a little fishing advice!\p"
+	.string "First, you want to face the water,\n"
+	.string "then use the ROD.\p"
+	.string "Focus your mind…\n"
+	.string "If you get a bite, pull on the ROD.\p"
+	.string "Sometimes you can snag something\n"
+	.string "immediately, but with bigger catches,\l"
+	.string "you need to time the pulls on your ROD\l"
+	.string "to haul them in.$"
+#endif
 
 DewfordTown_Text_ThatsTooBadThen:
+#if GERMAN
 	.string "Oh, wirklich?\n"
 	.string "Das ist aber schade.$"
+#else
+	.string "Oh, is that so?\n"
+	.string "That's too bad, then.$"
+#endif
 
 DewfordTown_Text_HowsYourFishing:
+#if GERMAN
 	.string "Yeah!\n"
 	.string "Wie steht’s mit deinen Angelkünsten?$"
+#else
+	.string "Yo!\n"
+	.string "How's your fishing?$"
+#endif
 
 DewfordTown_Text_GreatHaulInSomeBigOnes:
+#if GERMAN
 	.string "Also, wenn das stimmt… Das wäre\n"
 	.string "großartig! Petri heil!$"
+#else
+	.string "Is that right! That's great!\n"
+	.string "Haul in some big ones!$"
+#endif
 
 DewfordTown_Text_FishingAdvice:
+#if GERMAN
 	.string "Hey, lass den Kopf nicht hängen! Ich\n"
 	.string "gebe dir einige Tipps zum Angeln!\p"
 	.string "Schau dir zuerst das Wasser an\n"
@@ -739,8 +856,21 @@ DewfordTown_Text_FishingAdvice:
 	.string "Großes fangen, manchmal musst du\l"
 	.string "immer wieder kurz die Angel anheben,\l"
 	.string "um etwas an Land zu ziehen.$"
+#else
+	.string "Oh, hey, don't get down on yourself!\n"
+	.string "I'll give you a little fishing advice.\p"
+	.string "First, you want to face the water,\n"
+	.string "then use the ROD.\p"
+	.string "Focus your mind…\n"
+	.string "If you get a bite, pull the ROD.\p"
+	.string "Sometimes you can snag something\n"
+	.string "immediately, but with bigger catches,\l"
+	.string "you need to time the pulls on your ROD\l"
+	.string "to haul them in.$"
+#endif
 
 DewfordTown_Text_XIsTheBiggestHappeningThingRight:
+#if GERMAN
 	.string "Ich mag, was hip, aufregend und modern\n"
 	.string "ist. So etwas probiere ich immer aus.\n"
 	.string "\p"
@@ -755,14 +885,36 @@ DewfordTown_Text_XIsTheBiggestHappeningThingRight:
 	.string "Wo immer du auch herkommst,\n"
 	.string "“{STR_VAR_1}”\l"
 	.string "ist das Aufregendste überhaupt!$"
+#else
+	.string "I like what's hip, happening, and trendy.\n"
+	.string "I'm always checking it out.\p"
+	.string "Listen, have you heard about this new\n"
+	.string "“{STR_VAR_1}”?\p"
+	.string "That's right!\n"
+	.string "Of course you know!\p"
+	.string "I mean, sheesh,\n"
+	.string "“{STR_VAR_1}”…\l"
+	.string "It's the hottest thing in cool!\p"
+	.string "Wherever you're from,\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "is the biggest happening thing, right?$"
+#endif
 
 DewfordTown_Text_TellMeWhatsNewAndIn:
+#if GERMAN
 	.string "Wie bitte?\n"
 	.string "Es ist nicht hip und aufregend?\p"
 	.string "Nun, hey, dann verrate mir aber, was\n"
 	.string "wirklich cool und “in” ist?$"
+#else
+	.string "Hunh?\n"
+	.string "It's not the hip and happening thing?\p"
+	.string "Well, hey, you have to tell me,\n"
+	.string "what's new and what's “in”?$"
+#endif
 
 DewfordTown_Text_OfCourseIKnowAboutThat:
+#if GERMAN
 	.string "Was? “{STR_VAR_2}”?\p"
 	.string "… …\p"
 	.string "… Hm… Äh… Yeah! Das stimmt!\n"
@@ -780,19 +932,56 @@ DewfordTown_Text_OfCourseIKnowAboutThat:
 	.string "\p"
 	.string "“{STR_VAR_2}” ist das,\n"
 	.string "was vital und zeitgemäß ist!$"
+#else
+	.string "Hunh?\n"
+	.string "“{STR_VAR_2}”?\p"
+	.string "… …\p"
+	.string "…Uh… Yeah! That's right!\n"
+	.string "Yeah, I knew that! Knew it all along!\p"
+	.string "Of course I know about that!\n"
+	.string "“{STR_VAR_2},” right?\p"
+	.string "Yeah, that's it, it's there!\n"
+	.string "Isn't “{STR_VAR_2}”\l"
+	.string "the coolest, or what?\p"
+	.string "It's the hippest thing in hip.\n"
+	.string "You think I'd not know about it?\p"
+	.string "“{STR_VAR_1}”…\n"
+	.string "It's, like, so five minutes ago.\p"
+	.string "Now, “{STR_VAR_2}” is\n"
+	.string "what's vital and in tune with the times!$"
+#endif
 
 DewfordTown_Text_XHuhIThinkYIsCool:
+#if GERMAN
 	.string "Hmm… “{STR_VAR_2}”, oder?\p"
 	.string "Aber ich persönlich finde,\n"
 	.string "“{STR_VAR_1}”\l"
 	.string "ist das Coolste überhaupt!$"
+#else
+	.string "Hmm…\n"
+	.string "“{STR_VAR_2},” huh?\p"
+	.string "But personally, I think\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "is what's real in cool.$"
+#endif
 
 DewfordTown_Text_HearOfAnyTrendsComeShareWithMe:
+#if GERMAN
 	.string "Wenn du irgendetwas über neue, auf-\n"
 	.string "regende Sachen hörst, erzähl mir\l"
 	.string "davon!$"
+#else
+	.string "Well, if you hear of any happening new\n"
+	.string "trends, come share them with me, okay?$"
+#endif
 
 DewfordTown_Text_YeahDefinitionOfInRightNow:
+#if GERMAN
 	.string "Yeah, absolut richtig!\p"
 	.string "“{STR_VAR_1}” ist die\n"
 	.string "Definition von “in”.$"
+#else
+	.string "Yeah, absolutely right!\p"
+	.string "“{STR_VAR_1}” is the\n"
+	.string "definition of “in” right now.$"
+#endif

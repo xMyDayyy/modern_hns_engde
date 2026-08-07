@@ -647,6 +647,7 @@ IlexForest_Movement_Kurt2:
 	step_end
 
 IlexForest_Text_ApprenticeIntro:
+#if GERMAN
 	.string "Oh, Mist… Mein Boss wird sauer sein…\p"
 	.string "Das Porenta, das\n"
 	.string "mit dem Zerschneider Bäume\p"
@@ -656,20 +657,45 @@ IlexForest_Text_ApprenticeIntro:
 	.string "nicht in den Steineichenwald, um nach\n"
 	.string "ihm zu suchen.\p"
 	.string "Er ist so groß, dunkel und unheimlich…$"
+#else
+	.string "Oh, man… My boss is going to be\n"
+	.string "steaming…\p"
+	.string "The FARFETCH'D that CUTS trees\n"
+	.string "for charcoal took off on me.\p"
+	.string "I can't go looking for it here\n"
+	.string "in the ILEX FOREST.\p"
+	.string "It's too big, dark and scary\n"
+	.string "for me…$"
+#endif
 
 IlexForest_Text_ApprenticeAfter:
+#if GERMAN
 	.string "Wow! Vielen Dank auch!\p"
 	.string "Die Pokémon von\n"
 	.string "meinem Boss gehorchen mir nicht, da\l"
 	.string "ich keinen Orden besitze.$"
+#else
+	.string "Wow! Thanks a whole bunch!\p"
+	.string "My boss' POKéMON won't obey me\n"
+	.string "because I don't have a BADGE.$"
+#endif
 
 IlexForest_Text_ItsTheMissingPokemon:
+#if GERMAN
 	.string "Das vermisste Pokémon!$"
+#else
+	.string "It's the missing POKéMON!$"
+#endif
 
 IlexForest_Text_Kwaaaa:
+#if GERMAN
 	.string "Porenta: Pooorenta!$"
+#else
+	.string "FARFETCH'D: Kwaa!$"
+#endif
 
 IlexForest_Text_CharcoalMasterIntro:
+#if GERMAN
 	.string "Oh! Das sind ja meine Kleinen,\n"
 	.string "Po und Renta!\p"
 	.string "Sag bloß…\p"
@@ -681,11 +707,21 @@ IlexForest_Text_CharcoalMasterIntro:
 	.string "dafür erkenntlich zeigen?\p"
 	.string "Ich hab’s!\n"
 	.string "Nimm das hier!$"
+#else
+	.string "Ah! My FARFETCH'D!\p"
+	.string "You found it for us, kid?\p"
+	.string "Without it, we wouldn't be able\n"
+	.string "to CUT trees for charcoal.\p"
+	.string "Thanks, kid!\p"
+	.string "Now, how can I thank you…\p"
+	.string "I know! Here, take this.$"
+#endif
 
 IlexForest_Text_CharcoalMasterOutro:
+#if GERMAN
 	.string "Das ist die VM Zerschneider!\n"
 	.string "Besitzt du den Orden aus der Arena von\l"
-	.string "Azalea City, kann ein Pokémon deiner\l"
+	.string "{COLOR RED}Azalea City{COLOR DARK_GRAY}, kann ein Pokémon deiner\l"
 	.string "Wahl damit kleinere Bäume fällen!\p"
 	.string "Aaaber!\p"
 	.string "Hat ein Pokémon diese VM einmal\n"
@@ -693,15 +729,34 @@ IlexForest_Text_CharcoalMasterOutro:
 	.string "nicht wieder vergessen!\p"
 	.string "Überlege dir also sehr gut, welchem\n"
 	.string "deiner Pokémon du sie beibringst!$"
+#else
+	.string "That's the CUT HM.\n"
+	.string "Teach that to a POKéMON to clear\l"
+	.string "small trees.\p"
+	.string "Of course, you have to have the\n"
+	.string "GYM BADGE from AZALEA to use it.$"
+#endif
 
 IlexForest_Text_CharcoalMasterTalkAfter:
+#if GERMAN
 	.string "Willst du mein Schüler werden?\n"
 	.string "In zehn Jahren bist du topfit!$"
+#else
+	.string "Do you want to apprentice as a\n"
+	.string "charcoal maker with me?\p"
+	.string "You'll be first-rate in ten years!$"
+#endif
 
 IlexForest_Text_Lass:
+#if GERMAN
 	.string "Ist dem Waldpatron etwas zugestoßen?$"
+#else
+	.string "Did something happen to the\n"
+	.string "forest's guardian?$"
+#endif
 
 IlexForest_Text_Signpost:
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Der Steineichenwald ist so dicht mit\n"
 	.string "Bäumen bewachsen, dass sich der\l"
@@ -709,12 +764,25 @@ IlexForest_Text_Signpost:
 	.string "dunkel erahnen lässt.\p"
 	.string "Pass auf, wo du hintrittst! Viele Leute\n"
 	.string "lassen hier ihre Sachen liegen!$"
+#else
+	.string "ILEX FOREST is so overgrown with\n"
+	.string "trees that you can't see the sky.\p"
+	.string "Please watch out for items that may\n"
+	.string "have been dropped.$"
+#endif
 
 IlexForest_Text_Shrine:
+#if GERMAN
 	.string "Der Steineichenwald-Schrein… er wurde\n"
 	.string "zu Ehren des Waldpatrons errichtet.$"
+#else
+	.string "ILEX FOREST SHRINE…\p"
+	.string "It's in honor of the forest's\n"
+	.string "protector…$"
+#endif
 
 IlexForest_Text_ShrineCelebiEvent:
+#if GERMAN
 	.string "Steineichenwald Schrein…\p"
 	.string "Zu Ehren des Patrons…\p"
 	.string "Oh? Was ist das?\p"
@@ -722,11 +790,26 @@ IlexForest_Text_ShrineCelebiEvent:
 	.string "Es scheint, der GS-Ball passt hinein.\n"
 	.string "\p"
 	.string "Willst du den GS-Ball einsetzen?$"
+#else
+	.string "ILEX FOREST SHRINE…\p"
+	.string "It's in honor of the forest's\n"
+	.string "protector…\p"
+	.string "Oh? What is this?\p"
+	.string "It's a hole.\n"
+	.string "It looks like the GS BALL would fit\l"
+	.string "inside it.\p"
+	.string "Want to put the GS BALL here?$"
+#endif
 
 IlexForest_Text_InsertGSBall:
+#if GERMAN
 	.string "{PLAYER} setzte den GS-Ball ein.$"
+#else
+	.string "{PLAYER} put in the GS BALL.$"
+#endif
 
 IlexForest_Text_KurtCaughtCelebi:
+#if GERMAN
 	.string "Puh, war das spannend!\p"
 	.string "{PLAYER}, das war fantastisch. Danke!\n"
 	.string "\p"
@@ -735,42 +818,96 @@ IlexForest_Text_KurtCaughtCelebi:
 	.string "Ich bin inspiriert,\n"
 	.string "bessere Bälle zu machen!\p"
 	.string "Ich gehe jetzt!$"
+#else
+	.string "Whew, wasn't that something!\p"
+	.string "{PLAYER}, that was fantastic. Thanks!\p"
+	.string "The legends about that SHRINE were\n"
+	.string "real after all.\p"
+	.string "I feel inspired by what I just saw.\p"
+	.string "It motivates me to make better BALLS!\p"
+	.string "I'm going!$"
+#endif
 
 IlexForest_Text_BugCatcherWayneSeen:
+#if GERMAN
 	.string "Schleich dich nicht so an!\p"
 	.string "Du hast ein Pokémon verschreckt!$"
+#else
+	.string "Don't sneak up on me like that!\p"
+	.string "You frightened a POKéMON away!$"
+#endif
 
 IlexForest_Text_BugCatcherWayneBeaten:
+#if GERMAN
 	.string "Dieses Pokémon habe ich\n"
 	.string "noch nie zuvor gesehen…$"
+#else
+	.string "I hadn't seen that POKéMON before…$"
+#endif
 
 IlexForest_Text_BugCatcherWayneAfter:
+#if GERMAN
 	.string "Ein Pokémon, das ich nie zuvor\n"
 	.string "gesehen habe, fiel vom Baum,\l"
 	.string "als ich Kopfnuss einsetzte.\p"
 	.string "Ich sollte Kopfnuss öfter nutzen.$"
+#else
+	.string "A POKéMON I've never seen before\n"
+	.string "fell out of the tree when I used\l"
+	.string "HEADBUTT.\p"
+	.string "I ought to use HEADBUTT in other\n"
+	.string "places too.$"
+#endif
 
 IlexForest_Text_Kimono_Girl1:
+#if GERMAN
 	.string "Kimono, Kimono, mein Gewand!\n"
 	.string "Sage mir, wie finde ich zum Waldesrand?$"
+#else
+	.string "KIMONO GIRL, KIMONO GIRL, lost and\n"
+	.string "all alone. Poor girl lost in the\l"
+	.string "dark ILEX FOREST.$"
+#endif
 
 IlexForest_Text_Kimono_Girl2:
+#if GERMAN
 	.string "Was sagt Ihr da? Ihr wollt mich\n"
 	.string "schon einmal gesehen haben?\l"
-	.string "In Viola City?\l"
+	.string "In {COLOR RED}Viola City{COLOR DARK_GRAY}?\l"
 	.string "Gewiss täuscht Ihr Euch!\p"
 	.string "Aber wärt Ihr unter Umständen\n"
 	.string "so freundlich, meiner Wenigkeit den\l"
 	.string "Weg aus diesem Wald zu weisen?$"
+#else
+	.string "You remember me from VIOLET CITY?\n"
+	.string "You must be imagining.\p"
+	.string "Anyway, will you show me how to\n"
+	.string "get out of this forest?$"
+#endif
 
 IlexForest_Text_Kimono_Girl3:
+#if GERMAN
 	.string "Dann nehme ich an, Ihr kennt den Weg\n"
 	.string "nach draußen selbst nicht?$"
+#else
+	.string "Me oh my... You are lost yourself,\n"
+	.string "aren't you?$"
+#endif
 
 IlexForest_Text_Kimono_Girl4:
+#if GERMAN
 	.string "Sieh an! Möchtest du mir vielleicht\n"
 	.string "den Weg nach draußen zeigen?\l"
 	.string "Was für ein kluges Pokémon!$"
+#else
+	.string "Wow! Are you going to show me how\n"
+	.string "to get out?\p"
+	.string "You are such a smart POKéMON!$"
+#endif
 
 IlexForest_Text_Kimono_Girl5:
+#if GERMAN
 	.string "Ich gehe schon mal vor!$"
+#else
+	.string "See you.$"
+#endif

@@ -11,11 +11,21 @@ Gate_MahoganyTown_Route43_EventScript_CopAfter::
 	end
 
 Route43MahoganyGate_Text_Officer:
+#if GERMAN
 	.string "Hier kamen nur Wanderer vorbei,\n"
 	.string "die auf dem Weg zum\l"
-	.string "See des Zorns waren.$"
+	.string "{COLOR RED}See des Zorns{COLOR DARK_GRAY} waren.$"
+#else
+    .string "Only people headed up to LAKE OF\n"
+    .string "RAGE have been through here lately.$"
+#endif
 
 Route43MahoganyGate_Text_Officer_RocketsCleared:
+#if GERMAN
 	.string "In letzter Zeit geht niemand\n"
-	.string "mehr zum See des Zorns.$"
+	.string "mehr zum {COLOR RED}See des Zorns{COLOR DARK_GRAY}.$"
+#else
+    .string "Nobody goes up to LAKE OF RAGE\n"
+    .string "these days.$"
+#endif
 

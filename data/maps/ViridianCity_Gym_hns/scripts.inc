@@ -42,9 +42,15 @@ ViridianCity_Gym_EventScript_BlueGotoDojo::
 	end
 
 ViridianCity_Gym_Text_BlueGotoDojo:
+#if GERMAN
 	.string "Blau: Zurück für mehr?\p"
 	.string "Wenn du kämpfen willst,\n"
 	.string "komm zum Kampf-Dojo!$"
+#else
+	.string "BLUE: Back for more already?\p"
+	.string "If you want another shot at me,\n"
+	.string "come to the FIGHTING DOJO!$"
+#endif
 
 ViridianCity_Gym_EventScript_BlueAtDojo::
 	msgbox ViridianCity_Gym_Text_LeaderBlue_Epilogue, MSGBOX_DEFAULT
@@ -53,8 +59,9 @@ ViridianCity_Gym_EventScript_BlueAtDojo::
 	end
 
 ViridianCity_Gym_Text_LeaderBlue_Before:
+#if GERMAN
 	.string "Blau: Hey! Da bist du ja!\p"
-	.string "Auf der Zinnoberinsel hatte ich ein\n"
+	.string "Auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} hatte ich ein\n"
 	.string "bisschen Bammel, aber inzwischen\l"
 	.string "habe ich extrem Lust darauf gekriegt,\l"
 	.string "gegen dich zu kämpfen!\p"
@@ -67,19 +74,46 @@ ViridianCity_Gym_Text_LeaderBlue_Before:
 	.string "Wenn wir gegeneinander kämpfen,\l"
 	.string "werde ich schon sehen, ob du was drauf\l"
 	.string "hast oder nur ein Schaumschläger bist!$"
+#else
+	.string "BLUE: Yo! Finally got here, huh?\p"
+	.string "I wasn't in the mood at CINNABAR,\p"
+	.string "but now I'm ready to battle you.\p"
+	.string "…\p"
+	.string "You're telling me you conquered all\n"
+	.string "the GYMS in JOHTO?\p"
+	.string "Heh! JOHTO's GYMS must be pretty\n"
+	.string "pathetic then.\p"
+	.string "Hey, don't worry about it.\p"
+	.string "I'll know if you are good or not by\n"
+	.string "battling you right now.\p"
+	.string "Ready, JOHTO CHAMP?$"
+#endif
 
 ViridianCity_Gym_Text_LeaderBlue_Win:
+#if GERMAN
 	.string "Blau: Was?\p"
 	.string "Wie konnte ich gegen dich\n"
 	.string "verlieren?\p"
 	.string "…\p"
 	.string "Tch, na gut… Nimm dies, es ist\n"
 	.string "der Erdorden.$"
+#else
+	.string "BLUE: What?\p"
+	.string "How the heck did I lose to you?\p"
+	.string "…\p"
+	.string "Tch, all right… Here, take this--it's\n"
+	.string "EARTHBADGE.$"
+#endif
 
 ViridianCity_Gym_Text_ReceivedEarthBadge:
+#if GERMAN
 	.string "{PLAYER} erhält den Erdorden!$"
+#else
+	.string "{PLAYER} received EARTHBADGE.$"
+#endif
 
 ViridianCity_Gym_Text_LeaderBlue_After:
+#if GERMAN
 	.string "Blau: … … …\p"
 	.string "Ich hatte dich unterschätzt.\n"
 	.string "Du bist kein Schaumschläger,\l"
@@ -88,11 +122,24 @@ ViridianCity_Gym_Text_LeaderBlue_After:
 	.string "Aber vergiss nicht…\p"
 	.string "Irgendwann wird der Tag kommen,\n"
 	.string "an dem ich dich besiege!$"
+#else
+	.string "BLUE: …\p"
+	.string "All right, I was wrong. You're the\n"
+	.string "real deal. You are a good trainer.\p"
+	.string "But I'm going to beat you someday.\p"
+	.string "Don't you forget it!$"
+#endif
 
 ViridianCity_Gym_Text_LeaderBlue_Epilogue:
+#if GERMAN
 	.string "Blau: Hör zu.\p"
 	.string "Du verlierst besser nicht, bis\n"
 	.string "ich dich besiegt habe. Verstanden?$"
+#else
+	.string "BLUE: Listen, you.\p"
+	.string "You'd better not lose until I beat\n"
+	.string "you. Got it?$"
+#endif
 
 
 ViridianCity_Gym_EventScript_GymGuy::
@@ -105,6 +152,7 @@ ViridianCity_Gym_EventScript_GymGuyAfter::
 	end
 
 ViridianCity_Gym_Text_Guide:
+#if GERMAN
 	.string "He! Ein Champ in spe!\p"
 	.string "Wie läuft es so?\n"
 	.string "Du hast wohl gerade eine\l"
@@ -113,12 +161,27 @@ ViridianCity_Gym_Text_Guide:
 	.string "vor drei Jahren besiegt.\p"
 	.string "Das wird kein Kinderspiel!\p"
 	.string "Gib alles, was du hast!$"
+#else
+	.string "Yo, CHAMP in making!\p"
+	.string "How's it going? Looks like you're on\n"
+	.string "a roll.\p"
+	.string "The GYM LEADER is a guy who battled\n"
+	.string "the CHAMPION three years ago.\p"
+	.string "He's no pushover.\p"
+	.string "Give it everything you've got!$"
+#endif
 
 ViridianCity_Gym_Text_Guide_Win:
+#if GERMAN
 	.string "Es ist wahr, du bist wirklich stark!\p"
 	.string "Dieser Kampf hat mich emotional\n"
 	.string "so mitgenommen, dass mir doch\l"
 	.string "glatt die Tränen gekommen sind.$"
+#else
+	.string "Man, you are truly tough…\p"
+	.string "That was a heck of an inspirational\n"
+	.string "battle. It brought tears to my eyes.$"
+#endif
 
 
 ViridianCity_Gym_EventScript_GymStatue::
@@ -134,13 +197,27 @@ ViridianCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 ViridianCity_Gym_Text_GymStatue::
+#if GERMAN
     .string "Pokémon-Arena von Vertania City\n"
     .string "Leiter: Blau\p"
 	.string "Anerkannte Trainer:\n"
 	.string "Blau, Rot$"
+#else
+    .string "VIRIDIAN POKéMON GYM\n"
+    .string "LEADER: BLUE\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED$"
+#endif
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
+#if GERMAN
     .string "Pokémon-Arena von Vertania City\n"
     .string "Leiter: Blau\p"
 	.string "Anerkannte Trainer:\n"
 	.string "Blau, Rot, {PLAYER}$"
+#else
+    .string "VIRIDIAN POKéMON GYM\n"
+    .string "LEADER: BLUE\p"
+    .string "WINNING TRAINERS:\n"
+	.string "BLUE, RED, {PLAYER}$"
+#endif

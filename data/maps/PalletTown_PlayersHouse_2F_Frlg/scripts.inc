@@ -29,13 +29,25 @@ PalletTown_PlayersHouse_2F_EventScript_Sign::
 	end
 
 PalletTown_PlayersHouse_2F_Text_PlayedWithNES::
+#if GERMAN
 	.string "{PLAYER} spielt NES!\p"
 	.string "O.K.!\n"
 	.string "Die Reise kann beginnen!$"
+#else
+	.string "{PLAYER} played with the NES.\p"
+	.string "…Okay!\n"
+	.string "It's time to go!$"
+#endif
 
 PalletTown_PlayersHouse_2F_Text_PressLRForHelp::
+#if GERMAN
 	.string "Eine Nachricht…\p"
 	.string "Wenn du nicht weiter weißt,\n"
 	.string "rufe das Hilfe-Menü durch\l"
 	.string "Drücken der L- oder R-Taste auf.$"
+#else
+	.string "It's a posted notice…\p"
+	.string "If you're confused, ask for HELP!\n"
+	.string "Press the L or R Button!$"
+#endif
 

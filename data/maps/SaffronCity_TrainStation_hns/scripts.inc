@@ -288,61 +288,125 @@ SaffronStation_Movement_SlideLeft:
 	step_end
 
 SaffronMagnetTrainStation_Text_OfficerTrainHasntComeIn:
+#if GERMAN
 	.string "Es fahren keine Züge mehr!\p"
 	.string "Ich könnte alle Fahrgäste Huckepack\n"
 	.string "nehmen und sie auf meinem Rücken…\p"
 	.string "Aber wenn ich’s mir genau überlege…\n"
 	.string "Nein, besser doch nicht.$"
+#else
+    .string "The train hasn't come in…\p"
+    .string "I know! I'll carry the passengers\n"
+    .string "on my back!\p"
+    .string "That won't work.$"
+#endif
 
 SaffronMagnetTrainStation_Text_OfficerComingAboard:
+#if GERMAN
 	.string "Abfahrt nach\n"
-	.string "Dukatia City in wenigen Minuten.\p"
+	.string "{COLOR RED}Dukatia City{COLOR DARK_GRAY} in wenigen Minuten.\p"
 	.string "Steigst du auch ein?$"
+#else
+    .string "We'll soon depart for GOLDENROD.\p"
+    .string "Are you coming aboard?$"
+#endif
 
 SaffronMagnetTrainStation_Text_OfficerRightThisWay:
+#if GERMAN
 	.string "Darf ich bitte\n"
-	.string "deinen Fahrschein sehen?\p"
+	.string "deinen {COLOR RED}Fahrschein{COLOR DARK_GRAY} sehen?\p"
 	.string "Danke sehr. Hier lang, bitte.$"
+#else
+    .string "May I see your rail PASS, please?\p"
+    .string "OK. Right this way, please.$"
+#endif
 
 SaffronMagnetTrainStation_Text_OfficerNoRailPass:
+#if GERMAN
 	.string "Es tut mir Leid,\n"
-	.string "aber du hast keinen Fahrschein.$"
+	.string "aber du hast keinen {COLOR RED}Fahrschein{COLOR DARK_GRAY}.$"
+#else
+    .string "Sorry. You don't have a rail PASS.$"
+#endif
 
 SaffronMagnetTrainStation_Text_OfficerHopeToSeeYouAgain:
+#if GERMAN
 	.string "Komm bald wieder!$"
+#else
+    .string "We hope to see you again!$"
+#endif
 
 SaffronMagnetTrainStation_Text_OfficerArrivedInSaffron:
+#if GERMAN
 	.string "Ankunft in Saffronia City.\p"
 	.string "Beehre uns bald wieder.$"
+#else
+    .string "We have arrived in SAFFRON.\p"
+    .string "We hope to see you again.$"
+#endif
 
 @=============================================================================================================================
 
 SaffronMagnetTrainStation_Text_Officer_TrainNotOperating:
+#if GERMAN
 	.string "Es tut mir Leid,\n"
 	.string "aber der Magnetzug ist im Moment nicht\l"
 	.string "in Betrieb.$"
+#else
+	.string "I'm sorry, but the MAGNET TRAIN\n"
+	.string "isn't operating now.$"
+#endif
 
 SaffronMagnetTrainStation_Text_GymGuide:
+#if GERMAN
 	.string "Der Magnetzug ist das Zeug, aus dem\n"
 	.string "Träume gemacht sind! Als Treibstoff\l"
 	.string "braucht er nur Strom und Magnetkraft!\p"
 	.string "Ohne Strom ist er allerdings nicht viel\n"
 	.string "mehr als eine langweilige Metallkiste.$"
+#else
+	.string "The MAGNET TRAIN is a super-modern\n"
+	.string "rail liner that uses electricity\p"
+	.string "and magnets to attain incredible\n"
+	.string "speed.\p"
+	.string "However, if there isn't any\n"
+	.string "electricity…$"
+#endif
 
 SaffronMagnetTrainStation_Text_GymGuide_ReturnedPart:
+#if GERMAN
 	.string "Puh…\p"
 	.string "Wie oft bin ich jetzt wohl schon zwischen\n"
 	.string "Kanto und Johto hin- und hergefahren?$"
+#else
+	.string "Whew…\p"
+	.string "How many times have I gone back\n"
+	.string "and forth between KANTO and JOHTO?$"
+#endif
 
 SaffronMagnetTrainStation_Text_Teacher:
+#if GERMAN
 	.string "Bevor der Bahnhof des Magnetzugs\n"
 	.string "gebaut wurde, stand hier ein Haus.\l"
 	.string "Darin lebte ein kleines Mädchen, das\l"
 	.string "alle Leute die Nachahmerin nannten.$"
+#else
+	.string "Before the MAGNET TRAIN STATION\n"
+	.string "was built, there was a house there.\p"
+	.string "A little girl named COPYCAT used\n"
+	.string "to live there.$"
+#endif
 
 SaffronMagnetTrainStation_Text_Lass:
-	.string "Hi! Hast du einen Fahrschein?\p"
+#if GERMAN
+	.string "Hi! Hast du einen {COLOR RED}Fahrschein{COLOR DARK_GRAY}?\p"
 	.string "Ich habe einen!\p"
 	.string "Jeder in Saffronia City hat einen, um\n"
 	.string "damit den Magnetzug benutzen\l"
 	.string "zu können!$"
+#else
+	.string "Hi. Do you have a rail PASS?\n"
+	.string "I have one.\p"
+	.string "All the people in SAFFRON who ride\n"
+	.string "the MAGNET TRAIN have PASSES.$"
+#endif

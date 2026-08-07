@@ -896,124 +896,275 @@ Route110_TrickHousePuzzle5_Movement_MechadollShake:
 	step_end
 
 Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:
+#if GERMAN
 	.string "{PLAYER} hat den geheimen Code auf die\n"
 	.string "Tür geschrieben.\p"
 	.string "“Rätselmeister ist ein Genie.”\n"
 	.string "… … … … … … … …\p"
 	.string "Das Schloss geht klickend auf.$"
+#else
+	.string "{PLAYER} wrote down the secret code\n"
+	.string "on the door.\p"
+	.string "“TRICK MASTER is a genius.”\n"
+	.string "… … … … … … … …\p"
+	.string "The lock clicked open!$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
+#if GERMAN
 	.string "Klick-klack… Robopuppe 1 Ich Bin!\p"
 	.string "Gibst du im Quiz Richtige Antworten,\n"
 	.string "Erreichst du Bald Robopuppe 5.\l"
 	.string "Dort Erhältst du Den Geheimen Code.$"
+#else
+	.string "CLICKETY-CLACK…\n"
+	.string "MECHADOLL 1 AM I!\p"
+	.string "IF YOU ANSWER QUIZZES CORRECTLY,\n"
+	.string "THEN YOU WILL GO TO MECHADOLL 5.\l"
+	.string "THEN YOU CAN OBTAIN THE SECRET CODE.$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
+#if GERMAN
 	.string "Robopuppe 1 Quiz.\p"
 	.string "Eines dieser Pokémon kann man nicht\n"
-	.string "auf der Route 110 finden. Welches?$"
+	.string "auf der {COLOR RED}Route 11{COLOR DARK_GRAY}0 finden. Welches?$"
+#else
+	.string "MECHADOLL 1 QUIZ.\p"
+	.string "One of these POKéMON is not found\n"
+	.string "on ROUTE 110. Which one is it?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
+#if GERMAN
 	.string "Robopuppe 1 Quiz.\p"
 	.string "Eines dieser Pokémon ist kein\n"
 	.string "Wasser-Pokémon. Welches?$"
+#else
+	.string "MECHADOLL 1 QUIZ.\p"
+	.string "One of these POKéMON is not of the\n"
+	.string "WATER type. Which one is it?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
+#if GERMAN
 	.string "Robopuppe 1 Quiz.\p"
 	.string "Eines dieser Pokémon setzt\n"
 	.string "nicht Blutsauger ein. Welches?$"
+#else
+	.string "MECHADOLL 1 QUIZ.\p"
+	.string "One of these POKéMON does not use\n"
+	.string "LEECH LIFE. Which one is it?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough:
+#if GERMAN
 	.string "Glückwunsch! Richtig.\n"
 	.string "Gehe hindurch. Bitte.$"
+#else
+	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
+	.string "GO THROUGH. PLEASE.$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_DisappointmentError:
+#if GERMAN
 	.string "Bzzzt. Enttäuschend.\n"
 	.string "Fehler.$"
+#else
+	.string "BZZZT. DISAPPOINTMENT.\n"
+	.string "ERROR.$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Wahahahaha:
+#if GERMAN
 	.string "Wahahahaha! Wahahahaha!\n"
 	.string "Klick-Klack!$"
+#else
+	.string "WAHAHAHAHA! WAHAHAHAHA!\n"
+	.string "CLICKETY-CLACK!$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
+#if GERMAN
 	.string "Deine Nächste Herausforderung wir\n"
 	.string "erwarten.$"
+#else
+	.string "YOUR NEXT CHALLENGE WE WAIT FOR.$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
+#if GERMAN
 	.string "Klick-klack… Robopuppe 2 Ich Bin!\p"
 	.string "Robopuppe 1 Quiz-schwierigkeits-\n"
 	.string "Grad Ist zu Niedrig.$"
+#else
+	.string "CLICKETY-CLACK…\n"
+	.string "MECHADOLL 2 AM I!\p"
+	.string "MECHADOLL 1'S QUIZ DIFFICULTY LEVEL\n"
+	.string "IS SET TOO LOW.$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
+#if GERMAN
 	.string "Robopuppe 2 Quiz.\p"
 	.string "Welches Pokémon leiht Heiko sich von\n"
 	.string "deinem Vater aus?$"
+#else
+	.string "MECHADOLL 2 QUIZ.\p"
+	.string "Which of these POKéMON did WALLY\n"
+	.string "borrow from your father?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
+#if GERMAN
 	.string "Robopuppe 2 Quiz.\p"
 	.string "Von welchem Pokémon wird Prof. Birk\n"
 	.string "verfolgt?$"
+#else
+	.string "MECHADOLL 2 QUIZ.\p"
+	.string "Which of these POKéMON was chasing\n"
+	.string "PROF. BIRCH?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
+#if GERMAN
 	.string "Robopuppe 2 Quiz.\p"
 	.string "Welches Pokémon hat Team Aqua\n"
 	.string "im Blütenburgwald eingesetzt?$"
+#else
+	.string "MECHADOLL 2 QUIZ.\p"
+	.string "Which of these POKéMON did TEAM AQUA\n"
+	.string "use in PETALBURG FOREST?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
+#if GERMAN
 	.string "Klick-klack… Robopuppe 3 Ich Bin!\p"
 	.string "Für Mich Zählt Nur Geld.$"
+#else
+	.string "CLICKETY-CLACK…\n"
+	.string "MECHADOLL 3 AM I!\p"
+	.string "MATTERS OF MONEY ARE MY SOLE FOCUS.$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
+#if GERMAN
 	.string "Robopuppe 3 Quiz.\p"
 	.string "Was ist teurer? Drei Hafenbriefe\n"
 	.string "oder ein Feuerheiler?$"
+#else
+	.string "MECHADOLL 3 QUIZ.\p"
+	.string "Which costs more?\n"
+	.string "Three HARBOR MAILS or one BURN HEAL?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
+#if GERMAN
 	.string "Robopuppe 3 Quiz.\p"
 	.string "Verkaufe einen Superball und kaufe\n"
 	.string "einen Trank. Wie viel Geld bleibt\l"
 	.string "übrig?$"
+#else
+	.string "MECHADOLL 3 QUIZ.\p"
+	.string "Sell one GREAT BALL and buy\n"
+	.string "one POTION. How much money remains?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
+#if GERMAN
 	.string "Robopuppe 3 Quiz.\p"
 	.string "Kosten ein Schutz und ein\n"
 	.string "Sprudel mehr als ein Supertrank?$"
+#else
+	.string "MECHADOLL 3 QUIZ.\p"
+	.string "Do one REPEL and SODA POP cost\n"
+	.string "more than one SUPER POTION?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
+#if GERMAN
 	.string "Klick-klack… Robopuppe 4 Ich Bin!\p"
 	.string "Ich Interessiere Mich Für Schönes.$"
+#else
+	.string "CLICKETY-CLACK…\n"
+	.string "MECHADOLL 4 THAT IS ME!\p"
+	.string "MY QUIZ IS AN OBJECT OF BEAUTY.$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
+#if GERMAN
 	.string "Robopuppe 4 Quiz.\p"
 	.string "Befanden sich im Strandhaus mehr\n"
 	.string "Frauen oder mehr Männer?$"
+#else
+	.string "MECHADOLL 4 QUIZ.\p"
+	.string "In SEASHORE HOUSE, were there more men\n"
+	.string "or women?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
+#if GERMAN
 	.string "Robopuppe 4 Quiz.\p"
 	.string "Waren in Bad Lavastadt mehr ältere\n"
 	.string "Männer oder mehr ältere Frauen?$"
+#else
+	.string "MECHADOLL 4 QUIZ.\p"
+	.string "In LAVARIDGE TOWN, were there more\n"
+	.string "elderly men or elderly women?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
+#if GERMAN
 	.string "Robopuppe 4 Quiz.\p"
 	.string "Wie viele Schülerinnen waren in der\n"
 	.string "Trainerschule?$"
+#else
+	.string "MECHADOLL 4 QUIZ.\p"
+	.string "In the TRAINER'S SCHOOL, how many\n"
+	.string "girl students were there?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
+#if GERMAN
 	.string "Klick-klack… Robopuppe 5 Ich Bin!\p"
 	.string "Des Meisters Beste Und Stolzeste\n"
 	.string "Erfindung Ich Bin.$"
+#else
+	.string "CLICKETY-CLACK…\n"
+	.string "MECHADOLL 5 AM I!\p"
+	.string "THE MASTER'S BEST AND PROUDEST\n"
+	.string "ACHIEVEMENT AM I.$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
+#if GERMAN
 	.string "Robopuppe 5 Quiz.\p"
 	.string "Wie viele Pokémon waren im\n"
 	.string "Graphitport City Pokémon-Fanclub?$"
+#else
+	.string "MECHADOLL 5 QUIZ.\p"
+	.string "In SLATEPORT's POKéMON FAN CLUB,\n"
+	.string "how many POKéMON were there?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
+#if GERMAN
 	.string "Robopuppe 5 Quiz.\p"
 	.string "Wie viele Baumhäuser gibt es in\n"
 	.string "Baumhausen City?$"
+#else
+	.string "MECHADOLL 5 QUIZ.\p"
+	.string "In FORTREE CITY, how many\n"
+	.string "tree houses were there?$"
+#endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
+#if GERMAN
 	.string "Robopuppe 5 Quiz.\p"
 	.string "Wie viele Triathleten waren auf dem\n"
 	.string "Radweg?$"
+#else
+	.string "MECHADOLL 5 QUIZ.\p"
+	.string "On the CYCLING ROAD, how many\n"
+	.string "TRIATHLETES were there?$"
+#endif

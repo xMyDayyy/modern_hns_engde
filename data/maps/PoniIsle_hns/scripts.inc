@@ -316,66 +316,139 @@ Alola_Poni_BattleExeggutor_Text_0:
 	.string "Gaah-aah!$"
 
 Alola_Poni_Island_Sign_Text_0:
+#if GERMAN
 	.string "Poni$"
+#else
+	.string "Poni Isle$"
+#endif
 
 Alola_Poni_TotemBattle_Text_0:
 	.string "Buzz!!$"
 
 Alola_Poni_TotemBattle_Text_1:
+#if GERMAN
 	.string "Herrscher-Tropius wurde besiegt!\n"
 	.string "Es ist irgendwohin davongehuscht…$"
+#else
+	.string "Totem Tropius was defeated!\n"
+	.string "It scampered off somewhere…$"
+#endif
 
 Alola_Poni_Totem_sign_Text_0:
+#if GERMAN
 	.string "Das Totem strahlt eine starke\n"
 	.string "Energie aus…\p"
 	.string "Möchtest du es berühren und zu\n"
 	.string "einer anderen Insel reisen?$"
+#else
+	.string "The totem is emanating a strong\n"
+	.string "energy…\p"
+	.string "Touch the totem to teleport to another\n"
+	.string "Isle?$"
+#endif
 
 Alola_Poni_Totem_sign_Text_1:
-	.string "Mele-Mele$"
+#if GERMAN
+	.string "{COLOR RED}Mele-Mele{COLOR DARK_GRAY}$"
+#else
+	.string "Melemele Isle$"
+#endif
 
 Alola_Poni_Totem_sign_Text_2:
-	.string "Akala$"
+#if GERMAN
+	.string "{COLOR RED}Akala{COLOR DARK_GRAY}$"
+#else
+	.string "Akala Isle$"
+#endif
 
 Alola_Poni_Totem_sign_Text_3:
-	.string "Ula-Ula$"
+#if GERMAN
+	.string "{COLOR RED}Ula-Ula{COLOR DARK_GRAY}$"
+#else
+	.string "Ula'ula Isle$"
+#endif
 
 Alola_Poni_Totem_sign_Text_4:
+#if GERMAN
 	.string "Zurück$"
+#else
+	.string "Cancel$"
+#endif
 
 Alola_Poni_Totem_sign_Text_5:
+#if GERMAN
 	.string "Ein seltsames Totem steht hier.\n"
 	.string "Es strahlt eine gewaltige Kraft aus…$"
+#else
+	.string "A strange totem stands here,\n"
+	.string "power is emanating from it…$"
+#endif
 
 Alola_Poni_BattleVsTapuFini_Text_0:
 	.string "Fiiin!$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_0:
+#if GERMAN
 	.string "Warmes Wasser? Kein Problem!$"
+#else
+	.string "Warmer water, no problem!$"
+#endif
 
 Alola_Poni_TrainerBattleSwimmer1_Text_1:
+#if GERMAN
 	.string "Mist, ich habe meine Sonnencreme\nvergessen…$"
+#else
+	.string "Gah, I forgot my sunscreen…$"
+#endif
 
 Alola_Poni_TrainerBattleSwimmer1_Text_2:
+#if GERMAN
 	.string "Beim Schwimmen bin ich schon so\n"
 	.string "vielen coolen Pokémon begegnet!\l"
 	.string "Es muss am Wasser liegen.$"
+#else
+	.string "I've swam into so many cool Pokémon!\n"
+	.string "It must be something in the water.$"
+#endif
 
 Alola_Poni_TrainerBattleSwimmer2_Text_0:
+#if GERMAN
 	.string "Hey, blockier nicht meine\nStrömung!$"
+#else
+	.string "Hey, don't block my current!$"
+#endif
 
 Alola_Poni_TrainerBattleSwimmer2_Text_1:
+#if GERMAN
 	.string "Na schön,\nlass mich einfach schwimmen…$"
+#else
+	.string "Ugh, fine,\njust let me swim…$"
+#endif
 
 Alola_Poni_TrainerBattleSwimmer2_Text_2:
+#if GERMAN
 	.string "Die Strömung eignet sich super zum\n"
 	.string "Reifen-Treiben. Woanders mache\l"
 	.string "ich das nie wieder!$"
+#else
+	.string "The current is great for tubing.\n"
+	.string "I don't think I'll tube anywhere else!$"
+#endif
 
 Alola_Poni_NPC_girl_Text_0:
+#if GERMAN
 	.string "Poni ist meine Lieblingsinsel.\n"
 	.string "Diese Wildnis spricht für sich!$"
+#else
+	.string "Poni Isle is my favorite.\n"
+	.string "The wilderness just speaks for itself!$"
+#endif
 
 Alola_Poni_Bench_Heal_Text_0:
+#if GERMAN
 	.string "Möchtest du auf dieser Bank eine\n"
 	.string "Pause einlegen?$"
+#else
+	.string "Would you like to take a rest on this\n"
+	.string "bench?$"
+#endif

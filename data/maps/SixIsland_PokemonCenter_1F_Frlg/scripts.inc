@@ -78,13 +78,22 @@ SixIsland_PokemonCenter_1F_EventScript_OldMan::
 	end
 
 SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland::
+#if GERMAN
 	.string "Seit zehn Jahren erforsche ich die\n"
 	.string "Ruinen.\p"
 	.string "Nein, es sind zwanzig.\p"
 	.string "Ich habe das Gefühl, dass auf die-\n"
 	.string "ser Insel irgendein Geheimnis ist.$"
+#else
+	.string "For ten years, I've searched for\n"
+	.string "RUINS.\p"
+	.string "No, make that twenty years.\p"
+	.string "I get this feeling that there's\n"
+	.string "something hidden on this island.$"
+#endif
 
 SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem::
+#if GERMAN
 	.string "Du weißt, dass es Pokémon\n"
 	.string "gibt, die sich nur beim Tausch\l"
 	.string "entwickeln?\l"
@@ -94,10 +103,19 @@ SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem::
 	.string "Einige Pokémon entwickeln\l"
 	.string "sich nur, wenn sie beim Tausch\l"
 	.string "ein spezielles Item tragen.$"
+#else
+	.string "You know of POKéMON that evolve\n"
+	.string "only upon trading, yes?\p"
+	.string "But did you know that there are\n"
+	.string "still others?\p"
+	.string "Some POKéMON evolve only when\n"
+	.string "traded while holding specific items.$"
+#endif
 
 SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere::
+#if GERMAN
 	.string "{RIVAL}: Heh {PLAYER}!\n"
-	.string "Wie ist es um deinen Pokédex\l"
+	.string "Wie ist es um deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}\l"
 	.string "bestellt?\l"
 	.string "Es scheint unmöglich zu sein, alle\l"
 	.string "Pokémon zu finden, wenn man\l"
@@ -118,4 +136,25 @@ SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere::
 	.string "Hause!\p"
 	.string "Das wars!\n"
 	.string "Bis demnächst!$"
+#else
+	.string "{RIVAL}: Hey, {PLAYER}!\n"
+	.string "How's your POKéDEX filling up?\p"
+	.string "It looks like it's impossible to get\n"
+	.string "all the POKéMON by hanging around\l"
+	.string "just these parts.\p"
+	.string "Maybe there are POKéMON we don't\n"
+	.string "know about somewhere far away…\p"
+	.string "… … …  … … …  … … …\p"
+	.string "Well, if I can't do it, there's no\n"
+	.string "way for you to get it done.\p"
+	.string "I'm not going to get all desperate\n"
+	.string "over this.\p"
+	.string "I'll keep collecting POKéMON at my\n"
+	.string "own pace while I train them.\p"
+	.string "That's what I'll do.\n"
+	.string "So there's no point staying here.\l"
+	.string "I may as well leave for home.\p"
+	.string "That's that, then!\n"
+	.string "Smell ya later!$"
+#endif
 

@@ -134,84 +134,189 @@ MtMoon_B2F_EventScript_Grunt4::
 	end
 
 MtMoon_B2F_Text_MiguelIntro::
+#if GERMAN
 	.string "Stopp! Hände weg!\p"
 	.string "Wer zuerst kommt, mahlt zuerst!\n"
 	.string "Die Fossilien gehören mir!$"
+#else
+	.string "Hey, stop!\p"
+	.string "I found these fossils!\n"
+	.string "They're both mine!$"
+#endif
 
 MtMoon_B2F_Text_MiguelDefeat::
+#if GERMAN
 	.string "Na gut!\n"
 	.string "Ich gebe dir eines ab!$"
+#else
+	.string "Okay!\n"
+	.string "I'll share!$"
+#endif
 
 MtMoon_B2F_Text_WellEachTakeAFossil::
+#if GERMAN
 	.string "Heh, nicht so gierig!\n"
 	.string "Ich sagte, ich gebe dir eines ab!$"
+#else
+	.string "We'll each take a fossil!\n"
+	.string "No being greedy!$"
+#endif
 
 MtMoon_B2F_Text_ThenThisFossilIsMine::
+#if GERMAN
 	.string "O.K., dann gehört das hier mir!$"
+#else
+	.string "All right.\n"
+	.string "Then this fossil is mine!$"
+#endif
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
-	.string "Auf der fernen Zinnoberinsel\n"
+#if GERMAN
+	.string "Auf der fernen {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY}\n"
 	.string "gibt es ein Pokémon-Labor.\p"
 	.string "Dort versucht man, aus fossilem\n"
 	.string "Gen-Material Pokémon zu\l"
 	.string "erschaffen.$"
+#else
+	.string "Far away, on CINNABAR ISLAND,\n"
+	.string "there's a POKéMON LAB.\p"
+	.string "They do research on regenerating\n"
+	.string "fossils.$"
+#endif
 
 MtMoon_B2F_Text_Grunt1Intro::
+#if GERMAN
 	.string "Wir vom Team Rocket werden die\n"
 	.string "Fossilien finden, die Pokémon wie-\l"
 	.string "der beleben und teuer verkaufen!$"
+#else
+	.string "We, TEAM ROCKET, shall find the\n"
+	.string "fossils!\p"
+	.string "Reviving POKéMON from them will\n"
+	.string "earn us huge riches!$"
+#endif
 
 MtMoon_B2F_Text_Grunt1Defeat::
+#if GERMAN
 	.string "Grr!\n"
 	.string "Das gibt es nicht!$"
+#else
+	.string "Urgh!\n"
+	.string "Now I'm mad!$"
+#endif
 
 MtMoon_B2F_Text_Grunt1PostBattle::
+#if GERMAN
 	.string "Du machst mich irre! Das Team\n"
 	.string "Rocket wird dich im Auge behalten!$"
+#else
+	.string "You made me mad!\n"
+	.string "TEAM ROCKET will blacklist you!$"
+#endif
 
 MtMoon_B2F_Text_Grunt2Intro::
+#if GERMAN
 	.string "Wir sind das Team Rocket, die\n"
 	.string "Pokémon-Räuber!$"
+#else
+	.string "We, TEAM ROCKET, are POKéMON\n"
+	.string "gangsters!\l"
+	.string "We strike fear with our strength!$"
+#endif
 
 MtMoon_B2F_Text_Grunt2Defeat::
+#if GERMAN
 	.string "Nein!\n"
 	.string "Ich hab es vermasselt!$"
+#else
+	.string "I blew it!$"
+#endif
 
 MtMoon_B2F_Text_Grunt2PostBattle::
+#if GERMAN
 	.string "Verdammt! Wie erkläre ich das\n"
 	.string "meinen Partnern?$"
+#else
+	.string "Darn it all!\n"
+	.string "My associates won't stand for this!$"
+#endif
 
 MtMoon_B2F_Text_Grunt3Intro::
+#if GERMAN
 	.string "Wir drehen hier ein dickes Ding!\n"
 	.string "Mach dich vom Acker!$"
+#else
+	.string "We're pulling a big job here!\n"
+	.string "Get lost, kid!$"
+#endif
 
 MtMoon_B2F_Text_Grunt3Defeat::
+#if GERMAN
 	.string "Du bist 'ne harte Nuss, Kiddie!$"
+#else
+	.string "So, you are good…$"
+#endif
 
 MtMoon_B2F_Text_Grunt3PostBattle::
+#if GERMAN
 	.string "Wenn du ein Fossil hast, gib es her\n"
 	.string "und verschwinde!$"
+#else
+	.string "If you find a fossil, give it to me\n"
+	.string "and scram!$"
+#endif
 
 MtMoon_B2F_Text_Grunt4Intro::
+#if GERMAN
 	.string "Geh Erwachsenen nicht auf den\n"
 	.string "Wecker, du Nervensäge!$"
+#else
+	.string "Little kids shouldn't be messing\n"
+	.string "around with grown-ups!\p"
+	.string "It could be bad news!$"
+#endif
 
 MtMoon_B2F_Text_Grunt4Defeat::
+#if GERMAN
 	.string "Ich bin sauer!$"
+#else
+	.string "I'm steamed!$"
+#endif
 
 MtMoon_B2F_Text_Grunt4PostBattle::
+#if GERMAN
 	.string "Schon lange vor den Menschen\n"
 	.string "haben Pokémon hier gelebt...$"
+#else
+	.string "POKéMON lived here long before\n"
+	.string "people came.$"
+#endif
 
 MtMoon_B2F_Text_YouWantDomeFossil::
-	.string "Möchtest du das Domfossil?$"
+#if GERMAN
+	.string "Möchtest du das {COLOR RED}Domfossil{COLOR DARK_GRAY}?$"
+#else
+	.string "Do you want the DOME FOSSIL?$"
+#endif
 
 MtMoon_B2F_Text_YouWantHelixFossil::
-	.string "Möchtest du das Helixfossil?$"
+#if GERMAN
+	.string "Möchtest du das {COLOR RED}Helixfossil{COLOR DARK_GRAY}?$"
+#else
+	.string "Do you want the HELIX FOSSIL?$"
+#endif
 
 MtMoon_B2F_Text_ObtainedHelixFossil::
+#if GERMAN
 	.string "Helixfossil erhalten!$"
+#else
+	.string "Obtained the HELIX FOSSIL!$"
+#endif
 
 MtMoon_B2F_Text_ObtainedDomeFossil::
+#if GERMAN
 	.string "Domfossil erhalten!$"
+#else
+	.string "Obtained the DOME FOSSIL!$"
+#endif
 

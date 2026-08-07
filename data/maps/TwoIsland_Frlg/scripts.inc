@@ -216,26 +216,50 @@ TwoIsland_EventScript_FastCurrentSign::
 	end
 
 TwoIsland_Text_IslandSign::
+#if GERMAN
 	.string "Eiland Zwei\n"
 	.string "Ein Paradies für Zwei$"
+#else
+	.string "TWO ISLAND\n"
+	.string "Boon Island for Two$"
+#endif
 
 TwoIsland_Text_JoyfulGameCornerSign::
+#if GERMAN
 	.string "Entertainment & Snacks!\n"
 	.string "Action pur in der Spielhalle$"
+#else
+	.string "Skip & Chomp!\n"
+	.string "Joyful GAME CORNER$"
+#endif
 
 TwoIsland_Text_DangerFastCurrent::
+#if GERMAN
 	.string "Achtung! Starke Strömung!\n"
 	.string "Angeln und Surfen verboten!$"
+#else
+	.string "DANGER! FAST CURRENT!\n"
+	.string "Fishing and surfing prohibited!$"
+#endif
 
 TwoIsland_Text_WelcomeToShopMerchandiseLimited::
+#if GERMAN
 	.string "Oh!\n"
 	.string "Hallo, willkommen in meinem Laden!\p"
 	.string "Wir hatten erst vor kurzem unsere\n"
 	.string "Eröffnung!\p"
 	.string "Das Angebot ist klein, aber ich\n"
 	.string "hoffe, du findest etwas für dich!$"
+#else
+	.string "Oh!\n"
+	.string "Hello, welcome to my shop!\p"
+	.string "We've only opened up recently.\p"
+	.string "Our merchandise is limited, but I\n"
+	.string "hope we can serve your needs.$"
+#endif
 
 TwoIsland_Text_AddedMerchandiseForLostelle::
+#if GERMAN
 	.string "Ich kann dir gar nicht sagen, wie\n"
 	.string "dankbar ich dir für die Rettung\l"
 	.string "von Irrma bin.\l"
@@ -246,36 +270,77 @@ TwoIsland_Text_AddedMerchandiseForLostelle::
 	.string "Die Bewohner von Tri-Eiland haben\n"
 	.string "mir bei der Warenzusammenstellung\l"
 	.string "geholfen.$"
+#else
+	.string "I can't tell you how grateful I am\n"
+	.string "for your rescue of LOSTELLE.\p"
+	.string "Thanks to your feat, the people of\n"
+	.string "THREE ISLAND have changed their\l"
+	.string "attitudes about KANTO people.\p"
+	.string "And, I'm from KANTO, you see.\p"
+	.string "The people of THREE ISLAND\n"
+	.string "helped me add to my merchandise.$"
+#endif
 
 TwoIsland_Text_HopeYouGiveItYourBest::
+#if GERMAN
 	.string "Hallo! Ich gebe hier mein Bestes!\n"
 	.string "Ich hoffe, du auch {PLAYER}.$"
+#else
+	.string "Hi! I'm giving it my best here.\n"
+	.string "I hope you do too, {PLAYER}.$"
+#endif
 
 TwoIsland_Text_BringingItemsFromDistantLands::
+#if GERMAN
 	.string "Oh, hallo, {PLAYER}!\n"
 	.string "Willkommen!\p"
 	.string "Ich bringe Items von fernen Inseln\n"
 	.string "hierher.\p"
 	.string "Ich habe auch einige seltene\n"
 	.string "Items. Sieh dich in Ruhe um!$"
+#else
+	.string "Oh, hello, {PLAYER}!\n"
+	.string "Welcome!\p"
+	.string "I've started bringing in items from\n"
+	.string "distant lands.\p"
+	.string "I've got some rare items in, too.\n"
+	.string "Please have a look!$"
+#endif
 
 TwoIsland_Text_FellowMovedFromCeladonCity::
-	.string "Dieser Mann dort ist von Prismania\n"
+#if GERMAN
+	.string "Dieser Mann dort ist von {COLOR RED}Prismania{COLOR DARK_GRAY}\n"
 	.string "City hergezogen.\p"
 	.string "Er hat mit seinem kleinen Bruder\n"
 	.string "einen Laden aufgemacht.\p"
 	.string "Ich weiß nicht, ob er sich bewusst\n"
 	.string "war, worauf er sich einlässt.$"
+#else
+	.string "That fellow there, he moved here\n"
+	.string "from CELADON CITY.\p"
+	.string "He started up a shop with his\n"
+	.string "younger brother.\p"
+	.string "You have to wonder if he knew what\n"
+	.string "he was getting into.$"
+#endif
 
 TwoIsland_Text_ShopkeepersBrotherWorksGameCorner::
+#if GERMAN
 	.string "Der Bruder des Ladenbesitzers hat\n"
 	.string "einen Job in der Spielhalle\l"
 	.string "angenommen.\l"
 	.string "Er versucht, mehr Geld zu\l"
 	.string "verdienen, damit sie ihr Waren-\l"
 	.string "angebot vergrößern können.$"
+#else
+	.string "The shopkeeper's brother took\n"
+	.string "a job at the GAME CORNER.\p"
+	.string "He's trying to pull together money\n"
+	.string "so they can buy more merchandise.$"
+#endif
 
 TwoIsland_Text_BrunoCameToIslandWhileBack::
+#if GERMAN
 	.string "Hör zu!\n"
 	.string "Wusstest du…\p"
 	.string "Ein berühmter Trainer ist vor\n"
@@ -286,19 +351,43 @@ TwoIsland_Text_BrunoCameToIslandWhileBack::
 	.string "Er ist gegangen, weil er enttäuscht\n"
 	.string "war, dass alle Wutkekse\l"
 	.string "ausverkauft waren.$"
+#else
+	.string "Listen, listen.\n"
+	.string "Did you know?\p"
+	.string "A famous TRAINER came to the\n"
+	.string "ISLAND a little while back.\p"
+	.string "He's one of the ELITE FOUR.\n"
+	.string "His name is BRUNO.\p"
+	.string "He went away disappointed when he\n"
+	.string "found out that they were all sold\l"
+	.string "out of Rage Candybars.$"
+#endif
 
 TwoIsland_Text_BuyRareItemsHere::
+#if GERMAN
 	.string "Der anspruchsvolle Trainer\n"
 	.string "kauft hier seltene Items!$"
+#else
+	.string "The discerning TRAINER knows to\n"
+	.string "buy rare items here!$"
+#endif
 
 TwoIsland_Text_OldWomanLivesOutOnCape::
+#if GERMAN
 	.string "Am Kap lebt eine alte Frau in einer\n"
 	.string "Hütte.\p"
 	.string "Sie begutachtet Pokémon ganz\n"
 	.string "genau. Es ist ein wenig\l"
 	.string "merkwürdig.$"
+#else
+	.string "There's an old woman who lives in\n"
+	.string "a cottage out on the cape.\p"
+	.string "She gives the eye to POKéMON.\n"
+	.string "It's a bit unnerving.$"
+#endif
 
 TwoIsland_Text_HaveYouTriedJumpingGame::
+#if GERMAN
 	.string "Boing! Boing!\n"
 	.string "Hast du schon das Sprungspiel\l"
 	.string "ausprobiert?\l"
@@ -308,4 +397,14 @@ TwoIsland_Text_HaveYouTriedJumpingGame::
 	.string "Und andere machen boooooooing!\p"
 	.string "Wusstest du das?\n"
 	.string "Boing!$"
+#else
+	.string "Boing! Boing!\n"
+	.string "Have you tried the jumping game?\p"
+	.string "The POKéMON you can enter…\n"
+	.string "Boing!\p"
+	.string "Some go boing!\p"
+	.string "And some go boooooooing!\p"
+	.string "Did you know that?\n"
+	.string "Boing!$"
+#endif
 

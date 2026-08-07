@@ -196,6 +196,7 @@ RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay::
 	end
 
 RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
+#if GERMAN
 	.string "Ich bin Mr. Trumm, der Präsident der\n"
 	.string "Devon Corporation.\p"
 	.string "Ich muss etwas mit dir besprechen!\p"
@@ -211,8 +212,24 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "auch in Faustauhaven Halt machen?\p"
 	.string "Und Troy in Faustauhaven einen Brief\n"
 	.string "von mir überbringen?$"
+#else
+	.string "I'm MR. STONE, the PRESIDENT of\n"
+	.string "the DEVON CORPORATION.\p"
+	.string "I'd just got word about you!\p"
+	.string "You saved our staff not just once,\n"
+	.string "but twice!\p"
+	.string "I have a favor to ask of an amazing\n"
+	.string "person like you.\p"
+	.string "I understand that you're delivering\n"
+	.string "a package to SLATEPORT's SHIPYARD.\p"
+	.string "Well, on the way, could you stop off in\n"
+	.string "DEWFORD TOWN?\p"
+	.string "I was hoping that you'd deliver a\n"
+	.string "LETTER to STEVEN in DEWFORD.$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
+#if GERMAN
 	.string "Mr. Trumm: Nun, du sollst wissen, dass\n"
 	.string "ich ein einflussreicher Präsident bin.\n"
 	.string "\p"
@@ -221,11 +238,23 @@ RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
 	.string "Gegenleistung zu erbringen!\p"
 	.string "Deshalb möchte ich dir dies hier\n"
 	.string "geben.$"
+#else
+	.string "MR. STONE: Now, you should know that\n"
+	.string "I am a great PRESIDENT.\p"
+	.string "So, I'd never be so cheap as to ask\n"
+	.string "a favor for nothing in return.\p"
+	.string "That's why I want you to have this!$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
+#if GERMAN
 	.string "{PLAYER} erhält den Pokénav.$"
+#else
+	.string "{PLAYER} received a POKéNAV.$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
+#if GERMAN
 	.string "Mr. Trumm: Dieses Gerät…\p"
 	.string "Es ist ein Pokémon Navigator - oder\n"
 	.string "kurz ein Pokénav.\p"
@@ -242,32 +271,74 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "Vielleicht solltest du eine Pause\n"
 	.string "einlegen, bevor du dich wieder auf den\l"
 	.string "Weg machst.$"
+#else
+	.string "MR. STONE: That device…\p"
+	.string "It's a POKéMON NAVIGATOR, or POKéNAV\n"
+	.string "for short.\p"
+	.string "It's an indispensable tool for any\n"
+	.string "TRAINER on an adventure.\p"
+	.string "It has a map of the HOENN region.\p"
+	.string "You can check the locations of\n"
+	.string "DEWFORD and SLATEPORT easily!\p"
+	.string "By the way, I've heard that sinister\n"
+	.string "criminals--MAGMA and AQUA, I believe--\l"
+	.string "have been making trouble far and wide.\p"
+	.string "I think it would be best if you rested\n"
+	.string "up before you go on your way.$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
+#if GERMAN
 	.string "Mr. Trumm: Nun, {PLAYER}{KUN},\n"
 	.string "sei vorsichtig und pass auf dich auf!$"
+#else
+	.string "MR. STONE: Well, then, {PLAYER}{KUN},\n"
+	.string "go with caution and care!$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_CountingOnYou:
+#if GERMAN
 	.string "Mr. Trumm: Ich verlasse mich auf dich!$"
+#else
+	.string "MR. STONE: I'm counting on you!$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
+#if GERMAN
 	.string "Mr. Trumm: Du hast meinen Brief\n"
 	.string "überbracht? Herzlichen Dank!\p"
 	.string "Dies ist ein Dankeschön von mir.\n"
 	.string "Es wird dir als Trainer sicher helfen.$"
+#else
+	.string "MR. STONE: You delivered my LETTER?\n"
+	.string "Thank you kindly!\p"
+	.string "This is my way of thanking you.\n"
+	.string "It should help you, a TRAINER.$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
+#if GERMAN
 	.string "Mr. Trumm: Trägt ein Pokémon den EP-\n"
 	.string "Teiler, so erhält es in jedem Kampf\l"
 	.string "Erfahrungspunkte.\p"
 	.string "Auch wenn es gar nicht am Kampf\n"
 	.string "teilnimmt.\p"
-	.string "Ich würde sagen, der EP-Teiler ist\n"
+	.string "Ich würde sagen, der {COLOR RED}EP-Teiler{COLOR DARK_GRAY} ist\n"
 	.string "sehr\n"
 	.string "nützlich, um schwache Pokémon aufzu-\l"
 	.string "ziehen.$"
+#else
+	.string "MR. STONE: A POKéMON holding that\n"
+	.string "EXP. SHARE will be given some of the\l"
+	.string "EXP Points from battle.\p"
+	.string "It will get EXP Points even if it didn't\n"
+	.string "actually battle.\p"
+	.string "I would say EXP. SHARE is quite useful\n"
+	.string "for raising weak POKéMON.$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
+#if GERMAN
 	.string "Mr. Trumm: Schon in meiner Jugend habe\n"
 	.string "ich mich voll auf die Arbeit\l"
 	.string "konzentriert.\p"
@@ -275,8 +346,17 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "was gerade im Trend liegt.\p"
 	.string "Wollen alle jungen Leute Trainer in\n"
 	.string "der Pokémon Liga werden?$"
+#else
+	.string "MR. STONE: Since my youth, I've immersed\n"
+	.string "myself in work.\p"
+	.string "Consequently, I'm not familiar with\n"
+	.string "trends and that sort of thing.\p"
+	.string "But do young people all want to be\n"
+	.string "TRAINERS in the POKéMON LEAGUE?$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
+#if GERMAN
 	.string "Dies ist die zweite Etage der Devon\n"
 	.string "Corporation.\p"
 	.string "Hier befindet sich das Büro des\n"
@@ -295,27 +375,71 @@ RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
 	.string "dieses Mal wieder mit dir rechnen?\p"
 	.string "Ach, da fällt mir ein… Würdest du mich\n"
 	.string "einen Moment entschuldigen?$"
+#else
+	.string "This is the DEVON CORPORATION's\n"
+	.string "third floor.\p"
+	.string "Our PRESIDENT's OFFICE is on\n"
+	.string "this floor.\p"
+	.string "Anyway, I can't tell you how much I'm\n"
+	.string "grateful for what you've done.\p"
+	.string "Um… By the way, that parcel\n"
+	.string "you got back for us…\p"
+	.string "Could I get you to deliver that to\n"
+	.string "the SHIPYARD in SLATEPORT?\p"
+	.string "It would be awful if those robbers\n"
+	.string "tried to take it again.\p"
+	.string "Uh… Hehehe, so, uh, could I count\n"
+	.string "on you to do that for me?\p"
+	.string "Oh, that's right.\n"
+	.string "Could you wait here a second?$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe:
+#if GERMAN
 	.string "Unser Präsident würde gerne kurz mit\n"
 	.string "dir sprechen.\p"
 	.string "Komm bitte mit mir.$"
+#else
+	.string "Our PRESIDENT would like to have\n"
+	.string "a word with you.\p"
+	.string "Please come with me.$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_PleaseGoAhead:
+#if GERMAN
 	.string "Bitte, hier entlang.$"
+#else
+	.string "Please, go ahead.$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard:
+#if GERMAN
 	.string "Wenn du die Werft in Graphitport City\n"
 	.string "besuchst, solltest du mit Kapt. Brigg\l"
 	.string "sprechen.$"
+#else
+	.string "If you visit the SHIPYARD in SLATEPORT,\n"
+	.string "you should go see CAPT. STERN.$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular:
+#if GERMAN
 	.string "Devons neue Produkte, der Wiederball\n"
 	.string "und der Timerball, sind mittlerweile\l"
 	.string "sehr populär unter den Trainern.$"
+#else
+	.string "DEVON's new products, the REPEAT BALL\n"
+	.string "and TIMER BALL, have become hugely\l"
+	.string "popular among TRAINERS.$"
+#endif
 
 RustboroCity_DevonCorp_3F_Text_RareRocksDisplay:
+#if GERMAN
 	.string "Eine Kollektion seltener Steine und\n"
 	.string "Mineralien - gesammelt vom\l"
 	.string "Präsidenten.$"
+#else
+	.string "It's a collection of rare rocks and\n"
+	.string "stones assembled by the PRESIDENT.$"
+#endif
 

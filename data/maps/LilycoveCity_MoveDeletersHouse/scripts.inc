@@ -67,41 +67,88 @@ LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
+#if GERMAN
 	.string "Äh… Oh, ja. Ich bin der\n"
 	.string "Attacken-Verlerner. \p"
 	.string "Ich sorge dafür, dass die Pokémon ihre\n"
 	.string "Attacken vergessen.\p"
 	.string "Möchtest du, dass ich dir helfe?$"
+#else
+	.string "Uh…\n"
+	.string "Oh, yes, I'm the MOVE DELETER.\p"
+	.string "I can make POKéMON forget their moves.\p"
+	.string "Would you like me to do that?$"
+#endif
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget:
+#if GERMAN
 	.string "Welches Pokémon soll eine Attacke\n"
 	.string "vergessen?$"
+#else
+	.string "Which POKéMON should forget a move?$"
+#endif
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
+#if GERMAN
 	.string "Welche Attacke soll vergessen werden?$"
+#else
+	.string "Which move should be forgotten?$"
+#endif
 
 LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
+#if GERMAN
 	.string "{STR_VAR_1} kennt scheinbar nur eine\n"
 	.string "einzige Attacke…$"
+#else
+	.string "{STR_VAR_1} knows only one move\n"
+	.string "so it can't be forgotten…$"
+#endif
 
 LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
+#if GERMAN
 	.string "Hm! {STR_VAR_2} von {STR_VAR_1}?\n"
 	.string "Diese Attacke soll vergessen werden?$"
+#else
+	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
+	.string "That move should be forgotten?$"
+#endif
 
 LilycoveCity_MoveDeletersHouse_Text_MonHasForgottenMove:
+#if GERMAN
 	.string "Das klappte doch perfekt!\p"
 	.string "{STR_VAR_1} hat {STR_VAR_2}\n"
 	.string "komplett vergessen.$"
+#else
+	.string "It worked to perfection!\p"
+	.string "{STR_VAR_1} has forgotten\n"
+	.string "{STR_VAR_2} completely.$"
+#endif
 
 LilycoveCity_MoveDeletersHouse_Text_ComeAgain:
+#if GERMAN
 	.string "Komm wieder, wenn es andere Attacken\n"
 	.string "gibt, die vergessen werden sollen.$"
+#else
+	.string "Come again if there are moves that\n"
+	.string "need to be forgotten.$"
+#endif
 
 LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves:
+#if GERMAN
 	.string "Was? Ein Ei kennt doch keine Attacken!$"
+#else
+	.string "What?\n"
+	.string "No EGG should know any moves.$"
+#endif
 
 LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf:
+#if GERMAN
 	.string "Hm!\p"
 	.string "Dein {STR_VAR_1} möchte Surfer nicht\n"
 	.string "vergessen.$"
+#else
+	.string "Hm!\p"
+	.string "Your {STR_VAR_1} doesn't seem willing\n"
+	.string "to forget SURF.$"
+#endif
 

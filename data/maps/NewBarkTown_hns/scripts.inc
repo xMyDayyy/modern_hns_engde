@@ -20,7 +20,11 @@ NewBarkTown_EventScript_ElmCallAfterLeague::
 	end
 
 NewBarkTown_Text_ElmName:
+#if GERMAN
 	.string "Lind$"
+#else
+	.string "PROF.ELM$"
+#endif
 
 NewBarkTown_OnTransition::
 	goto_if_eq VAR_NEWBARK_TOWN_STATE, 2, NewBarkTown_Set_TalkToElm
@@ -221,56 +225,119 @@ NewBarkTown_Movement_FaceDown:
 	step_end
 
 NewBarkTown_Text_LabSign:
+#if GERMAN
 	.string "Prof. Linds\n"
 	.string "Pokémon Labor$"
+#else
+	.string "PROF.ELM'S LAB$"
+#endif
 
 NewBarkTown_Text_Door:
+#if GERMAN
 	.string "Die Tür ist verschlossen.$"
+#else
+	.string "The door is locked.$"
+#endif
 
 NewBarkTown_Text_Wooper:
+#if GERMAN
 	.string "Felino: Fwhaaaa.$"
+#else
+	.string "WOOPER: Woooooop.$"
+#endif
 
 NewBarkTown_Text_FatManState2:
-	.string "Wow, dein PokéCom ist beeindruckend!$"
+#if GERMAN
+	.string "Wow, dein {COLOR RED}PokéCom{COLOR DARK_GRAY} ist beeindruckend!$"
+#else
+	.string "Wow, your POKéGEAR is impressive!\n"
+	.string "Did your mom get it for you?$"
+#endif
 
 NewBarkTown_Text_FatManState3:
+#if GERMAN
 	.string "Tag, {PLAYER}!\p"
 	.string "Es heißt, Professor Lind habe\n"
 	.string "neue Pokémon gefunden!$"
+#else
+	.string "Yo, {PLAYER}!\p"
+	.string "I hear PROF.ELM discovered\n"
+	.string "some new POKéMON.$"
+#endif
 
 NewBarkTown_Text_LassState2:
+#if GERMAN
 	.string "Du weißt doch, wie gefährlich es ist,\n"
 	.string "ohne Pokémon das Haus zu verlassen!\p"
 	.string "Der Weg bis in die Nachbarstadt ist\n"
 	.string "schließlich von hohem Gras umgeben,\l"
 	.string "wo dir lauter wilde Pokémon auflauern!$"
+#else
+	.string "Wait, {PLAYER}!\p"
+	.string "It's dangerous to go out\n"
+	.string "without a POKéMON!\p"
+	.string "Wild POKéMON jump out of the grass\n"
+	.string "on the way to the next town.$"
+#endif
 
 NewBarkTown_Text_LassState3:
+#if GERMAN
 	.string "Oh! Dein Pokémon ist bezaubernd!\n"
 	.string "Ich wünschte, ich hätte auch so eins.$"
+#else
+	.string "Oh! Your POKéMON is adorable!\n"
+	.string "I wish I had one!$"
+#endif
 
 NewBarkTown_Text_LassState4:
+#if GERMAN
 	.string "Oh, heißt das etwa, du verlässt\n"
 	.string "uns schon wieder, {PLAYER}?\p"
 	.string "Gib auf jeden Fall deiner Mutter\n"
 	.string "Bescheid, bevor du aufbrichst!$"
+#else
+	.string "Hi, {PLAYER}! Leaving again?\p"
+	.string "You should tell your mom if\n"
+	.string "you are leaving.$"
+#endif
 
 NewBarkTown_Text_LassState5:
-	.string "Mit dem PokéCom kannst du jederzeit\n"
+#if GERMAN
+	.string "Mit dem {COLOR RED}PokéCom{COLOR DARK_GRAY} kannst du jederzeit\n"
 	.string "deine Mutter anrufen und ihr erzählen,\l"
 	.string "wie es dir so geht!$"
+#else
+	.string "Call your mom on your POKéGEAR\n"
+	.string "to let her know how you're doing.$\p"
+#endif
 
 NewBarkTown_Text_Silver1:
+#if GERMAN
 	.string "… … …\p"
 	.string "Das ist also das berühmte\n"
 	.string "Lind-Pokémon-Labor…$"
+#else
+	.string ". . .\p"
+	.string "So this is the famous ELM\n"
+	.string "POKéMON LAB…$"
+#endif
 
 NewBarkTown_Text_Silver2:
+#if GERMAN
 	.string "…Hey! Starre mich nicht so an!$"
+#else
+	.string "…What are you staring at?$"
+#endif
 
 NewBarkTown_Text_Sign:
+#if GERMAN
 	.string "Neuborkia\n"
 	.string "Die Stadt der ersten Schritte$"
+#else
+	.string "NEW BARK TOWN\p"
+	.string "The Town Where the Winds of\n"
+	.string "a New Beginning Blow$"
+#endif
 
 NewBarkTown_EventScript_PlayersHouseMailbox::
 	msgbox NewBarkTown_Text_PlayersHouse, MSGBOX_SIGN
@@ -281,7 +348,15 @@ NewBarkTown_EventScript_ElmsHouseMailbox::
 	end
 
 NewBarkTown_Text_PlayersHouse:
+#if GERMAN
 	.string "Haus von {PLAYER}$"
+#else
+	.string "{PLAYER}'S HOUSE$"
+#endif
 
 NewBarkTown_Text_ElmsHouse:
+#if GERMAN
 	.string "Prof. Linds Haus$"
+#else
+	.string "PROF.ELM'S HOUSE$"
+#endif

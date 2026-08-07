@@ -650,11 +650,31 @@ static void SpriteCB_ReelTimeDuck(struct Sprite *);
 static void SpriteCB_ReelTimeSmoke(struct Sprite *);
 static void SpriteCB_PikaPowerBolt(struct Sprite *);
 
+#if GERMAN
 static const u8 sText_QuitTheGame[] = _("Spiel beenden?");
+#else
+static const u8 sText_QuitTheGame[] = _("Quit the game?");
+#endif
+#if GERMAN
 static const u8 sText_YouveGot9999Coins[] = _("Du hast 9999 Münzen.");
+#else
+static const u8 sText_YouveGot9999Coins[] = _("You've got 9,999 COINS.");
+#endif
+#if GERMAN
 static const u8 sText_YouveRunOutOfCoins[] = _("Du hast keine Münzen mehr.\nGame over!");
+#else
+static const u8 sText_YouveRunOutOfCoins[] = _("You've run out of COINS.\nGame over!");
+#endif
+#if GERMAN
 static const u8 sText_YouDontHaveThreeCoins[] = _("Du hast keine drei Münzen.");
+#else
+static const u8 sText_YouDontHaveThreeCoins[] = _("You don't have three COINS.");
+#endif
+#if GERMAN
 static const u8 sText_ReelTimeHelp[] = _("Reel Time\nHier hast du die Chance, in\nBlitzesschnelle zu gewinnen!\nDie Glücksrunde wiederholt\nsich, so oft die Zahl anzeigt.\nSie endet mit einem Big Bonus.");
+#else
+static const u8 sText_ReelTimeHelp[] = _("REEL TIME\nHere's your chance to take\naim and nail marks!\nReel Time continues for the\nawarded number of spins.\nIt all ends on a Big Bonus.");
+#endif
 
 // Ewram variables
 static EWRAM_DATA u16 *sMenuGfx = NULL;

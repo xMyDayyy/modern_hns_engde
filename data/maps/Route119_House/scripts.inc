@@ -16,13 +16,25 @@ Route119_House_EventScript_Wingull::
 	end
 
 Route119_House_Text_RumorAboutCaveOfOrigin:
+#if GERMAN
 	.string "Es soll eine Höhle geben - die\n"
 	.string "Urzeithöhle.\p"
 	.string "Die Menschen erzählen sich, dass dort\n"
 	.string "die Geister der Pokémon wieder zum\l"
 	.string "Leben erweckt werden.\l"
 	.string "Ob das tatsächlich möglich ist?$"
+#else
+	.string "I heard about a cave called the CAVE\n"
+	.string "OF ORIGIN.\p"
+	.string "People rumor that the spirits of\n"
+	.string "POKéMON are revived there. Could\l"
+	.string "something like that really happen?$"
+#endif
 
 Route119_House_Text_Wingull:
+#if GERMAN
 	.string "Wingull: Pihyoh!$"
+#else
+	.string "WINGULL: Pihyoh!$"
+#endif
 

@@ -114,19 +114,39 @@ Route16_NorthEntrance_1F_EventScript_OldMan::
 	end
 
 Route16_NorthEntrance_1F_Text_NoPedestriansOnCyclingRoad::
+#if GERMAN
 	.string "Das Betreten des Radweges ist\n"
 	.string "Fußgängern untersagt!$"
+#else
+	.string "No pedestrians are allowed on\n"
+	.string "CYCLING ROAD!$"
+#endif
 
 Route16_NorthEntrance_1F_Text_CyclingRoadIsDownhillCourse::
+#if GERMAN
 	.string "Der Radweg ist eine abschüssige\n"
 	.string "Küstenstraße mit herrlichem\l"
 	.string "Streckenverlauf!$"
+#else
+	.string "CYCLING ROAD is a downhill course\n"
+	.string "by the sea. It's a great ride.$"
+#endif
 
 Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp::
+#if GERMAN
 	.string "Entschuldigung!\n"
 	.string "Warte auf mich!$"
+#else
+	.string "Excuse me!\n"
+	.string "Wait up, please!$"
+#endif
 
 Route16_NorthEntrance_1F_Text_HowdYouGetInGoodEffort::
+#if GERMAN
 	.string "Wie bist du nur hereingekommen?\n"
 	.string "Solide Leistung!$"
+#else
+	.string "How'd you get in?\n"
+	.string "Good effort!$"
+#endif
 

@@ -130,6 +130,11 @@ SevenIsland_SevaultCanyon_TanobyKey_EventScript_PuzzleSolved::
 	end
 
 SevenIsland_SevaultCanyon_TanobyKey_Text_MysteriousRumbleFarAway::
+#if GERMAN
 	.string "Irgendwo in der Ferne gab es eine\n"
 	.string "geheimnisvolle Erschütterung.$"
+#else
+	.string "A mysterious rumble echoed\n"
+	.string "somewhere far away.$"
+#endif
 

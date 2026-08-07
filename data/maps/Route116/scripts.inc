@@ -349,19 +349,34 @@ Route116_EventScript_Johnson::
 	end
 
 Route116_Text_ScoundrelMadeOffWithPeeko:
+#if GERMAN
 	.string "Oooh, was mache ich nur?!?\p"
 	.string "Pecko und ich waren auf einem Spazier-\n"
 	.string "gang und da kam so ein Schlägertyp…\p"
 	.string "Der Schurke hat mir meinen Liebling\n"
 	.string "Pecko geklaut!\p"
 	.string "Ooooooooooooaaaargh! Pecko!$"
+#else
+	.string "Ohhh, what am I to do?\p"
+	.string "We were on our walk, PEEKO and I, when\n"
+	.string "we were jumped by an odd thug…\p"
+	.string "The scoundrel made off with my\n"
+	.string "darling PEEKO!\p"
+	.string "Wrrrooooooaaaar! PEEKO!$"
+#endif
 
 Route116_Text_WantToDigTunnel:
+#if GERMAN
 	.string "Nnn… Brüll!\p"
 	.string "Ich will diesen vermaledeiten Tunnel\n"
 	.string "graben!$"
+#else
+	.string "Nnn… Roar!\p"
+	.string "I want to dig that tunnel!$"
+#endif
 
 Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
+#if GERMAN
 	.string "Nnn… Brüll!\n"
 	.string "Was ist hier los?\p"
 	.string "Ich war dabei, einen Tunnel ohne Werk-\n"
@@ -376,13 +391,34 @@ Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
 	.string "Ich befürchte, dieser Idiot wird\n"
 	.string "irgendetwas Dummes tun und die\l"
 	.string "Pokémon in Aufruhr versetzen.$"
+#else
+	.string "Nnn… Roar!\n"
+	.string "What's going on?\p"
+	.string "I was digging the tunnel without any\n"
+	.string "tools when some goon ordered me out!\p"
+	.string "That tunnel's filled with POKéMON\n"
+	.string "that react badly to loud noises.\l"
+	.string "They could cause an uproar.\p"
+	.string "That's why we stopped using heavy\n"
+	.string "equipment for tunneling…\p"
+	.string "I'm worried that the goon will do\n"
+	.string "something stupid and startle the\l"
+	.string "POKéMON into an uproar.$"
+#endif
 
 Route116_Text_GoonHightailedItOutOfTunnel:
+#if GERMAN
 	.string "Nnn… Brüll!\p"
 	.string "Dieser dämliche Idiot ist aus dem Tun-\n"
 	.string "nel abgehauen. Ich kann weitergraben!$"
+#else
+	.string "Nnn… Roar!\p"
+	.string "That goofy goon hightailed it out of\n"
+	.string "the tunnel! I can go back to digging!$"
+#endif
 
 Route116_Text_ThankYouTokenOfAppreciation:
+#if GERMAN
 	.string "Oh! Du bist das!\p"
 	.string "Du hast mir nicht nur im Blüten-\n"
 	.string "burgwald geholfen, sondern auch\l"
@@ -401,62 +437,147 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "Als Zeichen meiner Dankbarkeit\n"
 	.string "schenke ich ihn dem wunderbarsten\l"
 	.string "Trainer!$"
+#else
+	.string "Oh! It's you!\p"
+	.string "You're that person who not only helped\n"
+	.string "me in PETALBURG WOODS, but also got\l"
+	.string "back my stolen package and then even\l"
+	.string "graciously delivered it to SLATEPORT!\p"
+	.string "CAPT. STERN informed us that the\n"
+	.string "package arrived, too!\p"
+	.string "I thank you very, very much!\p"
+	.string "Why, if I were a rain cloud, I would\n"
+	.string "shower you with gratitude and hail\l"
+	.string "you as a hero!\p"
+	.string "For you, the most wonderful TRAINER,\n"
+	.string "I bear good news!\p"
+	.string "Recently, our company developed\n"
+	.string "a new kind of POKé BALL.\p"
+	.string "As a token of our appreciation, this\n"
+	.string "is our gift to our wonderful TRAINER!$"
+#endif
 
 Route116_Text_NewBallAvailableAtMart:
-	.string "Unser neuer Pokéball wird im Pkmn-\n"
+#if GERMAN
+	.string "Unser neuer {COLOR RED}Pokéball{COLOR DARK_GRAY} wird im Pkmn-\n"
 	.string "Markt in Metarost City erhältlich\n"
 	.string "sein. \p"
 	.string "Bitte, probiere ihn aus!\n"
 	.string "Vielen Dank und Lebewohl.$"
+#else
+	.string "Our new POKé BALL will be available\n"
+	.string "at the POKéMON MART in RUSTBORO.\p"
+	.string "Please do try it out!\n"
+	.string "Thank you and bye-bye!$"
+#endif
 
 Route116_Text_BagIsJamPacked:
+#if GERMAN
 	.string "Dein Beutel ist brechend voll.\n"
 	.string "Ich kann dir diesen Wiederball nicht\l"
 	.string "geben.$"
+#else
+	.string "Your BAG is jam-packed.\n"
+	.string "I can't give you this REPEAT BALL.$"
+#endif
 
 Route116_Text_TokenOfAppreciation:
+#if GERMAN
 	.string "Als Zeichen unseres Dankes für die\n"
 	.string "Überbringung unseres Paketes, habe ich\l"
 	.string "eine neue Art von Pokéball für dich.\l"
 	.string "Für unseren wunderbarsten Trainer!$"
+#else
+	.string "As a token of our appreciation for\n"
+	.string "your delivering our package, I have\l"
+	.string "a gift of a new kind of POKé BALL\l"
+	.string "for our most wonderful TRAINER!$"
+#endif
 
 Route116_Text_CanYouHelpMeFindGlasses:
+#if GERMAN
 	.string "Ich habe meine Brille fallen lassen…\n"
 	.string "Kannst du mir helfen, sie zu finden?$"
+#else
+	.string "I dropped my glasses…\n"
+	.string "Can you help me find them?$"
+#endif
 
 Route116_Text_MayISeeThoseGlasses:
+#if GERMAN
 	.string "Deine Brille…\n"
 	.string "Darf ich sie mal kurz ausprobieren?$"
+#else
+	.string "Those glasses!\n"
+	.string "May I see them for a second?$"
+#endif
 
 Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
+#if GERMAN
 	.string "Hmm… Das ist ein Schattenglas.\l"
 	.string "Das habe ich nicht gesucht…\p"
 	.string "Vielleicht ist meine Brille gar nicht\n"
 	.string "hier zu finden…$"
+#else
+	.string "Hmm…\n"
+	.string "These are BLACKGLASSES.\l"
+	.string "They're not what I'm looking for…\p"
+	.string "Maybe my glasses aren't around\n"
+	.string "here…$"
+#endif
 
 Route116_Text_CantFindGlassesNotHere:
+#if GERMAN
 	.string "Hmm…\n"
 	.string "Ich kann meine Brille nirgends finden…\l"
 	.string "Vielleicht liegt sie gar nicht hier…$"
+#else
+	.string "Hmm…\n"
+	.string "I can't find my glasses anywhere…\l"
+	.string "Maybe they're not around here…$"
+#endif
 
 Route116_Text_NotWhatImLookingFor:
+#if GERMAN
 	.string "Hmm… Das ist ein Schattenglas.\l"
 	.string "Das habe ich nicht gesucht…$"
+#else
+	.string "Hmm…\n"
+	.string "These are BLACKGLASSES.\l"
+	.string "They're not what I'm looking for…$"
+#endif
 
 Route116_Text_RouteSignRustboro:
+#if GERMAN
 	.string "Route 116\n"
 	.string "{LEFT_ARROW} Metarost City$"
+#else
+	.string "ROUTE 116\n"
+	.string "{LEFT_ARROW} RUSTBORO CITY$"
+#endif
 
 Route116_Text_RusturfTunnelSign:
+#if GERMAN
 	.string "Metaflurtunnel\n"
 	.string "“Verbindet Metarost City und\p"
 	.string "Wiesenflur.\n"
 	.string "Das Tunnelprojekt wurde abgebrochen.”$"
+#else
+	.string "RUSTURF TUNNEL\n"
+	.string "“Linking RUSTBORO and VERDANTURF\p"
+	.string "“The tunnel project has been\n"
+	.string "canceled.”$"
+#endif
 
 Route116_Text_TunnelersRestHouse:
+#if GERMAN
 	.string "Bergrasthaus$"
+#else
+	.string "TUNNELER'S REST HOUSE$"
+#endif
 
 Route116_Text_TrainerTipsBToStopEvolution:
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Wenn du die Entwicklung eines Pokémon\n"
 	.string "stoppen willst, musst du den B-Knopf\l"
@@ -465,12 +586,29 @@ Route116_Text_TrainerTipsBToStopEvolution:
 	.string "Das Pokémon entwickelt sich dann\n"
 	.string "nicht.\l"
 	.string "Das nennt man Entwicklungsstopp.$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "If you want to stop a POKéMON from\n"
+	.string "evolving, press the B Button while it\l"
+	.string "is trying to evolve.\l"
+	.string "The startled POKéMON will stop.\p"
+	.string "This is called an evolution cancel.$"
+#endif
 
 Route116_Text_TrainerTipsBagHasPockets:
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Dein Beutel hat mehrere Taschen.\p"
 	.string "Items werden automatisch in die dafür\n"
 	.string "vorgesehene Tasche gelegt.\p"
 	.string "Kein Trainer kann auf einen eigenen\n"
 	.string "Beutel verzichten.$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "Your BAG has several POCKETS.\p"
+	.string "Items you obtain are automatically\n"
+	.string "placed in the appropriate POCKETS.\p"
+	.string "No TRAINER can afford to be without\n"
+	.string "a BAG of their own.$"
+#endif
 

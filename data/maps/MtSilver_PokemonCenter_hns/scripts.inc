@@ -76,16 +76,27 @@ MtSilver_PokemonCenter_EventScript_Meara_WarpToSinjoh::
 	end
 
 MtSilver_PokemonCenter_Text_Meara1:
+#if GERMAN
 	.string "Ich bin eine Forscherin aus dem\n"
-	.string "Museum von Marmoria City.\p"
+	.string "Museum von {COLOR RED}Marmoria City{COLOR DARK_GRAY}.\p"
 	.string "In dieser Gegend wurden ungewöhnlich\n"
 	.string "viele Artefakte entdeckt, also bin\l"
 	.string "ich hier, um Nachforschungen\l"
 	.string "anzustellen.\p"
 	.string "Hast du im Berg etwas Seltsames\n"
 	.string "gefunden?$"
+#else
+	.string "I'm a researcher from the PEWTER\n"
+	.string "CITY museum.\p"
+	.string "An unusual amount of artifacts have\n"
+	.string "been discovered in this area, so\l"
+	.string "I've come here to investigate.\p"
+	.string "Have you found anything strange\n"
+	.string "in the mountain?$"
+#endif
 
 MtSilver_PokemonCenter_Text_Meara2:
+#if GERMAN
 	.string "Diese Flöte!\p"
 	.string "Du hast den Geist eines wahren\n"
 	.string "Archäologen!\p"
@@ -96,13 +107,32 @@ MtSilver_PokemonCenter_Text_Meara2:
 	.string "Wenn ich dich hinbringe, würdest du\n"
 	.string "ihn nach weiteren Artefakten\l"
 	.string "absuchen?$"
+#else
+	.string "That flute!\p"
+	.string "You have the spirit of a true\n"
+	.string "archaeologist!\p"
+	.string "There's a branch of the cave\n"
+	.string "where the POKéMON are too strong\l"
+	.string "for me to safely explore.\p"
+	.string "If I take you there, would you\n"
+	.string "explore it for more artifacts?$"
+#endif
 
 MtSilver_PokemonCenter_Text_Prompt:
+#if GERMAN
 	.string "Wenn ich dich hinbringe, würdest du\n"
 	.string "dort nach weiteren Artefakten\l"
 	.string "suchen?$"
+#else
+	.string "If I take you there, would you\n"
+	.string "explore it for more artifacts?$"
+#endif
 
 MtSilver_PokemonCenter_Text_Meara3:
+#if GERMAN
 	.string "Bereit, nach weiteren Artefakten zu\n"
 	.string "suchen?$"
+#else
+	.string "Ready to search for more artifacts?$"
+#endif
 

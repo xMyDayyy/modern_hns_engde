@@ -441,65 +441,137 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter_hns:
 	step_end
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons_hns:
+#if GERMAN
 	.string "Ausgezeichnet! … Deine\n"
 	.string "Pokémon sind gleich wieder topfit.$"
+#else
+	.string "Excellent…\n"
+	.string "Let me restore your POKéMON.$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent_hns:
+#if GERMAN
 	.string "Der zweite Gegner wartet schon.\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 2nd opponent is next.\n"
+	.string "Are you prepared?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor3rdOpponent_hns:
+#if GERMAN
 	.string "Der dritte Gegner wartet schon.\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 3rd opponent is next.\n"
+	.string "Are you prepared?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor4thOpponent_hns:
+#if GERMAN
 	.string "Der vierte Gegner wartet schon.\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 4th opponent is next.\n"
+	.string "Are you prepared?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor5thOpponent_hns:
+#if GERMAN
 	.string "Der fünfte Gegner wartet schon.\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 5th opponent is next.\n"
+	.string "Are you prepared?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor6thOpponent_hns:
+#if GERMAN
 	.string "Der sechste Gegner wartet schon.\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 6th opponent is next.\n"
+	.string "Are you prepared?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor7thOpponent_hns:
+#if GERMAN
 	.string "Der siebte Gegner wartet schon.\n"
 	.string "Bist du bereit?$"
+#else
+	.string "The 7th opponent is next.\n"
+	.string "Are you prepared?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame_hns:
+#if GERMAN
 	.string "Möchtest du das Spiel speichern und\n"
 	.string "beenden?$"
+#else
+	.string "Would you like to save and quit\n"
+	.string "the game?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge_hns:
+#if GERMAN
 	.string "Möchtest du die Herausforderung\n"
 	.string "abbrechen?$"
+#else
+	.string "Do you wish to quit your challenge?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SavingData_hns:
+#if GERMAN
 	.string "Daten werden gespeichert.\n"
 	.string "Einen Moment bitte…$"
+#else
+	.string "Saving the data.\n"
+	.string "Have patience…$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch_hns:
+#if GERMAN
 	.string "Soll der letzte Kampf in deinen\n"
 	.string "Kampfzonenpass eingetragen werden?$"
+#else
+	.string "Do you wish to record your latest\n"
+	.string "match on your FRONTIER PASS?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven_hns:
+#if GERMAN
 	.string "Und nun…\p"
 	.string "Durch deine vielen Siege in Folge hast\n"
 	.string "du nun die Ehre, gegen unseren\n"
 	.string "Meister,\l"
 	.string "Palastregent, antreten zu dürfen…$"
+#else
+	.string "And now…\p"
+	.string "By winning consistently, you have\n"
+	.string "earned the privilege of challenging\l"
+	.string "our master, the PALACE MAVEN…$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven_hns:
+#if GERMAN
 	.string "Ich werde den Palastregenten rufen.\n"
 	.string "Bist du bereit?$"
+#else
+	.string "I shall send for the PALACE MAVEN.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser_hns:
+#if GERMAN
 	.string "Begrüßen wir ihn mit Fanfarenklängen.\n"
 	.string "Den Palastregenten Serenus!$"
+#else
+	.string "Let great fanfare announce the arrival\n"
+	.string "of the PALACE MAVEN, SPENSER!$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro_hns:
+#if GERMAN
 	.string "Serenus: Mein Leben dreht sich um\n"
 	.string "meine\n"
 	.string "Pokémon. Immer und ausschließlich!\p"
@@ -511,34 +583,79 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro_hns:
 	.string "voller Überzeugung an sie glauben?\p"
 	.string "Ist euer Band schwach, wirst du mich\n"
 	.string "und meine Gefährten niemals besiegen!$"
+#else
+	.string "SPENSER: My physical being is with\n"
+	.string "POKéMON always!\p"
+	.string "My heart beats as one with\n"
+	.string "POKéMON always!\p"
+	.string "Young one of a TRAINER!\n"
+	.string "Do you believe in your POKéMON?\p"
+	.string "Can you believe them through\n"
+	.string "and through?\p"
+	.string "If your bonds of trust are frail,\n"
+	.string "you will never beat my brethren!$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons_hns:
+#if GERMAN
 	.string "Zeig mir, wie stark euer Band ist!\n"
 	.string "Zeig es mir hier und jetzt!$"
+#else
+	.string "The bond you share with your POKéMON!\n"
+	.string "Prove it to me here!$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle_hns:
+#if GERMAN
 	.string "Serenus: Uahahahaha!\p"
 	.string "Du hast dich von meinen Worten niemals\n"
 	.string "einschüchtern lassen! Tut mir Leid,\p"
 	.string "dass ich das versucht habe! Komm!\n"
 	.string "Ich zeichne dich aus!$"
+#else
+	.string "SPENSER: Gwahahah!\p"
+	.string "Hah, you never fell for my bluster!\n"
+	.string "Sorry for trying that stunt!\p"
+	.string "Here!\n"
+	.string "Bring me the thing!$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass_hns:
+#if GERMAN
 	.string "Ach je, wenn es mir nur gelänge, den\n"
 	.string "Anschein von Autorität zu wahren…\p"
 	.string "Komm! Zeig mir deinen Kampfzonenpass!$"
+#else
+	.string "My, my, if only you could maintain that\n"
+	.string "facade of distinguished authority…\p"
+	.string "Here!\n"
+	.string "Let's see your FRONTIER PASS!$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol_hns:
+#if GERMAN
 	.string "Das Seelensymbol wurde dem\n"
 	.string "Kampfzonenpass hinzugefügt!$"
+#else
+	.string "The Spirits Symbol was embossed on\n"
+	.string "the FRONTIER PASS!$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime_hns:
+#if GERMAN
 	.string "Serenus: Die Augen deiner Pokémon sind\n"
 	.string "klar und offen!\p"
 	.string "Ich freue mich schon auf unsere\n"
 	.string "nächste Begegnung!$"
+#else
+	.string "SPENSER: Your POKéMON's eyes are \n"
+	.string "truly clear and unclouded.\p"
+	.string "I will eagerly await the next\n"
+	.string "opportunity to see you.$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack_hns:
+#if GERMAN
 	.string "Serenus: Uahahahaha! Du hast\n"
 	.string "dich bis hierher durchgekämpft?\p"
 	.string "Dich muss ein wahrhaft starkes Band\n"
@@ -550,29 +667,71 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack_hns:
 	.string "ein wahrer Kampf erwartet dich!\p"
 	.string "Bist du bereit?\n"
 	.string "Deine Niederlage wartet auf dich!$"
+#else
+	.string "SPENSER: Gwahahah!\n"
+	.string "You've battled your way up again?\p"
+	.string "You must have developed a truly\n"
+	.string "formidable bond with your POKéMON.\p"
+	.string "So be it!\p"
+	.string "This time, I won't bluster or hold back.\n"
+	.string "This time, there's no fooling around.\p"
+	.string "Ready now?\n"
+	.string "Prepare to lose!$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah_hns:
+#if GERMAN
 	.string "… … … … Kyaaaiii!$"
+#else
+	.string "… … …Kaaah!$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable_hns:
+#if GERMAN
 	.string "Serenus: Nun, das war doch mal eine\n"
 	.string "gelungene Vorstellung! Meine Gefährten\l"
 	.string "konnten dich nicht unterbuttern.\p"
 	.string "Euer Teamgeist ist wirklich\n"
 	.string "anbetungswürdig!\p"
 	.string "Komm! Gib schon her!$"
+#else
+	.string "SPENSER: Well, that was some display!\n"
+	.string "Even fully unleashed, my brethren\l"
+	.string "could not overpower you.\p"
+	.string "Your team spirit is truly admirable!\p"
+	.string "Here!\n"
+	.string "Bring me that thing, will you?$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass_hns:
+#if GERMAN
 	.string "Ach je, hätte ich doch nur ein\n"
 	.string "bisschen Anstand…\p"
 	.string "Uahahaha! Komm!\n"
 	.string "Gib mir den Kampfzonenpass!$"
+#else
+	.string "My, my, if only you could maintain\n"
+	.string "a certain level of decorum…\p"
+	.string "Gaaah, here!\n"
+	.string "Hurry with that FRONTIER PASS, you!$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine_hns:
+#if GERMAN
 	.string "Das Seelensymbol erscheint\n"
 	.string "in einem goldenen Glanz!$"
+#else
+	.string "The Spirits Symbol took on\n"
+	.string "a golden shine!$"
+#endif
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain_hns:
+#if GERMAN
 	.string "Serenus: Uahahahaha!\p"
 	.string "Komm ruhig mal wieder her! Meine\n"
 	.string "Gefährten und ich warten auf dich.$"
+#else
+	.string "SPENSER: Gwahahah!\p"
+	.string "Come see me time and again!\n"
+	.string "My brethren and I will be waiting!$"
+#endif

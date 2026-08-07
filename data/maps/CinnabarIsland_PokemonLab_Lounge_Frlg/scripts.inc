@@ -84,8 +84,15 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_NormaAlreadyTraded::
 	end
 
 CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon::
-	.string "Ich habe auf dem Mondberg ein\n"
+#if GERMAN
+	.string "Ich habe auf dem {COLOR RED}Mondberg{COLOR DARK_GRAY} ein\n"
 	.string "seltsames Fossil gefunden!\p"
 	.string "Ich denke, es stammt von einem\n"
 	.string "seltenen Urzeit-Pokémon!$"
+#else
+	.string "I found this most remarkable fossil\n"
+	.string "inside MT. MOON.\p"
+	.string "I think it's of a rare, prehistoric\n"
+	.string "POKéMON.$"
+#endif
 

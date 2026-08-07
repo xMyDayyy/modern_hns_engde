@@ -36,7 +36,11 @@ static u32 CB2_HandleCallExitInput(struct Pokenav_MatchCallMenu *);
 static u32 LoopedTask_BuildMatchCallList(s32);
 static bool32 ShouldDoNearbyMessage(void);
 
+#if GERMAN
 static const u8 gText_CallCantBeMadeHere[] = _("Von hier kannst du nicht anrufen!");
+#else
+static const u8 gText_CallCantBeMadeHere[] = _("A call can't be made from here.");
+#endif
 
 #include "data/text/match_call_messages.h"
 

@@ -22,11 +22,19 @@ LavenderTown_House1_EventScript_Marowak::
 	end
 
 LavenderTown_House1_Text_Girl:
+#if GERMAN
 	.string "Es gibt da draußen schreckliche Leute,\n"
 	.string "die ihre Pokémon links liegen lassen,\l"
 	.string "wenn sie genug von ihnen haben.\p"
 	.string "Mr. Fuji bietet diesen armen,\n"
 	.string "heimatlosen Pokémon ein Zuhause.$"
+#else
+	.string "Can you believe it?\p"
+	.string "Some people get bored with taking\n"
+	.string "care of POKéMON.\p"
+	.string "GRANPDA takes in such poor homeless\n"
+	.string "POKéMON and takes care of them.$"
+#endif
 LavenderTown_House1_Text_Guy:
 	.string "Ja, das hier ist das Haus von Mr. Fuji…\n"
 	.string "Aber im Moment ist er leider nicht hier.\p"
@@ -36,6 +44,11 @@ LavenderTown_House1_Text_Marowak:
 	.string ".............................$"
 
 LavenderTown_House1_Text_Marowak2:
+#if GERMAN
 	.string "Das Knogga ist ruhig,\n"
 	.string "scheint aber recht glücklich.$"
+#else
+	.string "The MAROWAK is quiet, though it\n"
+	.string "appears quite happy.$"
+#endif
 

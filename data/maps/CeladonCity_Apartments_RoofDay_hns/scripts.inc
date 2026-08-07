@@ -24,11 +24,22 @@ CeladonCity_Apartments_RoofDay_EventScript_Sign::
 	end
 
 CeladonMansionRoof_Text_Fisher:
+#if GERMAN
 	.string "Hohe Orte habe ich am liebsten!\p"
 	.string "Außer mir und heißer Luft gibt es\n"
 	.string "keinen größeren Fan von Höhen!$"
+#else
+	.string "High places--I do love them so!\p"
+	.string "I'd say the only thing that loves\n"
+	.string "heights as much as me is smoke!$"
+#endif
 
 CeladonMansionRoof_Text_Graffiti:
+#if GERMAN
 	.string "An der Wand ist Graffiti…\p"
 	.string "{PLAYER} hat einen Schnurrbart\n"
 	.string "hinzugefügt!$"
+#else
+	.string "There's graffiti on the wall…\p"
+	.string "{PLAYER} added a moustache!$"
+#endif

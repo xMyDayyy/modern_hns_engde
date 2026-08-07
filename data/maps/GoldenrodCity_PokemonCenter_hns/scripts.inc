@@ -140,23 +140,42 @@ GoldenrodCity_PokemonCenter_EventScript_LinkNpc_End::
 	end
 
 GoldenrodCity_PokemonCenter_LinkNpc_Text_Intro:
+#if GERMAN
 	.string "Link-ecke\p"
 	.string "Wähle Link-typ.$"
+#else
+	.string "LINK CORNER\p"
+	.string "SELECT LINK TYPE.$"
+#endif
 
 GoldenrodCity_PokemonCenter_LinkNpc_Text_BattleMode:
+#if GERMAN
 	.string "Wähle Kampftyp.$"
+#else
+	.string "SELECT BATTLE TYPE.$"
+#endif
 
 GoldenrodCity_PokemonCenter_LinkNpc_Text_Goodbye:
+#if GERMAN
 	.string "Tschüss$"
+#else
+	.string "GOODBYE.$"
+#endif
 
 GoldenrodCity_PokemonCenter_EventScript_LinkExplainerNpc::
 	msgbox GoldenrodCity_PokemonCenter_Text_LinkExplainer, MSGBOX_NPC
 	end
 
 GoldenrodCity_PokemonCenter_Text_LinkExplainer:
+#if GERMAN
 	.string "Du kannst diese Maschine zum\n"
 	.string "tauschen oder kämpfen mit\l"
 	.string "anderen Spielern nutzen!$"
+#else
+	.string "You can use this machine to trade\n"
+	.string "or battle with other local players.\p"
+	.string "Isn't technology wonderful?$"
+#endif
 
 GoldenrodCity_PokemonCenter_EventScript_GbaKid1::
 	lock
@@ -191,59 +210,131 @@ GoldenrodCity_PokemonCenter_EventScript_Lass::
 	end
 
 GoldenrodCity_PokemonCenter_GrannyText:
+#if GERMAN
 	.string "Ich vertausche fremde Pokebälle\n"
 	.string "und begehe Sozialbetrug.$"
+#else
+    .string "I just love living in the big city!\n"
+    .string "I moved here when I was a young\l"
+    .string "trainer, like you!$"
+#endif
 
 GoldenrodCity_PokemonCenter_GameboyKidText1:
+#if GERMAN
 	.string "Ich baue ein riesiges\n"
 	.string "Lootmobil in Unturned.\p"
 	.string "Es hat Schränke und Treppen.\p"
 	.string "Leider wurde mein Freund gebannt.$"
+#else
+    .string "This is a special POKéMON CENTER.\n"
+    .string "The roof is made of gold!$"
+#endif
 
 GoldenrodCity_PokemonCenter_GameboyKidText2:
+#if GERMAN
 	.string "Die haben gar keine Beweise.\n"
 	.string "Trotzdem wird der Bann\l"
 	.string "nicht aufgehoben.$"
+#else
+    .string "I told my brother that the roof is\n"
+    .string "made of real gold. He'll believe\l"
+	.string "anything!$"
+#endif
 
 GoldenrodCity_PokemonCenter_LassText:
+#if GERMAN
 	.string "Jedes Pokémon hat seine Stärken und\n"
 	.string "Schwächen, egal wie hoch sein Level ist.\p"
 	.string "So etwas wie ein allmächtiges Pokémon\n"
 	.string "gibt es deshalb auch nicht.$"
+#else
+    .string "A higher level POKéMON doesn't\n"
+    .string "always win.\p"
+    .string "After all, it may have a type\n"
+    .string "disadvantage.\p"
+    .string "I don't think there is a single\n"
+    .string "POKéMON that is the toughest.$"
+#endif
 
 GoldenrodPokeCenter_LinkReceptionistPleaseAcceptGSBallText:
+#if GERMAN
 	.string "{PLAYER}, oder?\p"
 	.string "Glückwunsch!\p"
 	.string "Nur für dich wurde\n"
 	.string "ein GS-Ball geschickt!\p"
 	.string "Nimm ihn bitte!$"
+#else
+    .string "{PLAYER}, isn't it?\p"
+    .string "Congratulations!\p"
+    .string "As a special deal, a GS BALL has\n"
+    .string "been sent just for you!\p"
+    .string "Please accept it!$"
+#endif
 
 GoldenrodPokeCenter_LinkReceptionistPleaseDoComeAgainText:
+#if GERMAN
 	.string "Beehre uns bald wieder!$"
+#else
+    .string "Please do come again!$"
+#endif
 
 GoldenrodCity_PokemonCenter_PokefanFDoYouHaveEonMailText:
+#if GERMAN
 	.string "Oh, dein Beutel sieht schwer aus!\p"
 	.string "Oh! Hast du zufällig etwas,\n"
 	.string "das man Anara-Brief nennt?\p"
 	.string "Meine Tochter sucht danach.\p"
 	.string "Du gibst mir doch einen, nicht wahr?$"
+#else
+    .string "Oh my, your pack looks so heavy!\p"
+    .string "Oh! Do you happen to have\n"
+    .string "something named EON MAIL?\p"
+    .string "My daughter is after one.\p"
+    .string "You can part with one, can't you?$"
+#endif
 
 GoldenrodCity_PokemonCenter_AskGiveAwayAnEonMailText:
+#if GERMAN
 	.string "Anara-Brief weggeben?$"
+#else
+    .string "Give away an EON MAIL?$"
+#endif
 
 GoldenrodCity_PokemonCenter_PokefanFThisIsForYouText:
+#if GERMAN
 	.string "Oh, großartig! Danke, Schatz!\p"
 	.string "Hier, als Ausgleich\n"
 	.string "sollst du das haben!$"
+#else
+    .string "Oh, that's great! Thank you,\n"
+    .string "honey!\p"
+    .string "Here, this is for you in return!$"
+#endif
 
 GoldenrodCity_PokemonCenter_PokefanFDaughterWillBeDelightedText:
+#if GERMAN
 	.string "Meine Tochter wird entzückt sein!$"
+#else
+    .string "My daughter will be delighted!$"
+#endif
 
 GoldenrodCity_PokemonCenter_PokefanFTooBadText:
+#if GERMAN
 	.string "Oh? Du hast keinen? Schade.$"
+#else
+    .string "Oh? You don't have one? Too bad.$"
+#endif
 
 GoldenrodCity_PokemonCenter_PokefanFAnotherTimeThenText:
+#if GERMAN
 	.string "Oh… Ein anderes Mal vielleicht.$"
+#else
+    .string "Oh… Well, another time, then.$"
+#endif
 
 GoldenrodCity_PokemonCenter_PlayerGaveAwayTheEonMailText:
+#if GERMAN
 	.string "{PLAYER} gibt den Anara-Brief weg.$"
+#else
+    .string "{PLAYER} gave away the EON MAIL.$"
+#endif

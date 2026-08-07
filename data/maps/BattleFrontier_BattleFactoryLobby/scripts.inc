@@ -323,17 +323,31 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
+#if GERMAN
 	.string "Hier wird die Intelligenz der Trainer\n"
 	.string "auf die Probe gestellt!\p"
 	.string "Willkommen in der Kampffabrik!\p"
 	.string "Ich begleite dich beim Einzel-Wechsel-\n"
 	.string "kampf-Turnier!$"
+#else
+	.string "Where the intelligence of TRAINERS\n"
+	.string "is put to the test!\p"
+	.string "Welcome to the BATTLE FACTORY!\p"
+	.string "I am your guide to the Battle Swap\n"
+	.string "Single Tournament.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
+#if GERMAN
 	.string "Möchtest du dich der Herausforderung\n"
 	.string "des Einzel-Wechselkampfs stellen?$"
+#else
+	.string "Would you like to take the Battle\n"
+	.string "Swap Single challenge?$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
+#if GERMAN
 	.string "Im Einzel-Wechselkampf-Turnier\n"
 	.string "werden Einzelkämpfe mit\l"
 	.string "Leih-Pokémon ausgetragen.\p"
@@ -351,49 +365,113 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
 	.string "\p"
 	.string "Speicherst du nicht, wirst du\n"
 	.string "disqualifiziert.$"
+#else
+	.string "The Battle Swap Single Tournament\n"
+	.string "is a SINGLE BATTLE competition using\l"
+	.string "only rental POKéMON.\p"
+	.string "First, you will be loaned three\n"
+	.string "POKéMON specifically for this event.\p"
+	.string "Using the supplied rental POKéMON,\n"
+	.string "you must conduct a SINGLE BATTLE.\p"
+	.string "If you win, you are permitted to trade\n"
+	.string "one of your rental POKéMON.\p"
+	.string "Repeat this cycle of battling and\n"
+	.string "trading--if you win seven times in\l"
+	.string "a row, you will earn Battle Points.\p"
+	.string "If you want to interrupt your\n"
+	.string "challenge, please save the game.\p"
+	.string "If you don't save, you will be\n"
+	.string "disqualified from your challenge.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit:
+#if GERMAN
 	.string "Wir freuen uns auf deine nächste\n"
 	.string "Herausforderung.$"
+#else
+	.string "We look forward to your next visit.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_WhichLevelMode:
+#if GERMAN
 	.string "An welcher Stufe möchtest du teil-\n"
 	.string "nehmen? Level 50 oder Offene Kämpfe?$"
+#else
+	.string "Which level do you wish to challenge?\n"
+	.string "Level 50 or Open Level?$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_OkayToSaveBeforeChallenge:
+#if GERMAN
 	.string "Bevor du dich der Herausforderung\n"
 	.string "stellst, muss ich dein Spiel\l"
 	.string "speichern.$"
+#else
+	.string "Before you begin your challenge,\n"
+	.string "I need to save the game. Is that okay?$"
+#endif
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping:
+#if GERMAN
 	.string "Okay, wir bewahren deine Pokémon\n"
 	.string "sicher für dich auf, solange du\l"
 	.string "am Wettkampf teilnimmst.$"
+#else
+	.string "Okay, I will hold your POKéMON for\n"
+	.string "safekeeping while you compete.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_StepThisWay:
+#if GERMAN
 	.string "Bitte hier entlang.$"
+#else
+	.string "Please step this way.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults:
+#if GERMAN
 	.string "Vielen Dank für deine Teilnahme!\p"
 	.string "Ich gebe dir nun deine Pokémon\n"
 	.string "zurück.\p"
 	.string "Ich werde deinen Erfolg speichern.\n"
 	.string "Bitte warte einen Moment.$"
+#else
+	.string "Thank you for participating!\p"
+	.string "I will return your POKéMON in exchange\n"
+	.string "for our rental POKéMON.\p"
+	.string "I must also save the event results.\n"
+	.string "Please wait.$"
+#endif
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_ReturnMons:
+#if GERMAN
 	.string "Ich gebe dir deine Pokémon zurück und\n"
 	.string "nehme dafür die Leih-Pokémon an mich.$"
+#else
+	.string "I will return your POKéMON in exchange\n"
+	.string "for our rental POKéMON.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins:
+#if GERMAN
 	.string "Herzlichen Glückwunsch! Du hast sieben\n"
 	.string "Wechselkämpfe gewonnen!$"
+#else
+	.string "Congratulations! You've won seven\n"
+	.string "straight Battle Swap matches!$"
+#endif
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePointsForStreak:
+#if GERMAN
 	.string "In Anerkennung deines siebenfachen\n"
 	.string "Sieges geben wir dir Gewinnpunkte.$"
+#else
+	.string "In recognition of your 7-win streak,\n"
+	.string "we award you these Battle Point(s).$"
+#endif
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_MaxBattlePoints:
@@ -403,40 +481,76 @@ BattleFrontier_BattleFactoryLobby_Text_MaxBattlePoints:
 	.string "some Battle Points.$"
 
 BattleFrontier_BattleFactoryLobby_Text_WaitingForYouToResume:
+#if GERMAN
 	.string "Wir haben schon auf dich gewartet!\p"
 	.string "Bevor du dich der Herausforderung\n"
 	.string "stellst, muss ich dein Spiel\l"
 	.string "speichern.$"
+#else
+	.string "We've been waiting for you!\p"
+	.string "Before we resume your challenge,\n"
+	.string "I must save the game.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting:
+#if GERMAN
 	.string "Entschuldigung!\p"
 	.string "Du hast, bevor du die Herausforderung\n"
 	.string "abgebrochen hast, nicht gespeichert.\p"
 	.string "Daher wirst du für diese Herausforde-\n"
 	.string "rung disqualifiziert. Schade!$"
+#else
+	.string "I'm sorry to say this, but you didn't\n"
+	.string "save before you quit playing last time.\p"
+	.string "As a result, you have been disqualified\n"
+	.string "from your challenge.$"
+#endif
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_WellReturnMons:
+#if GERMAN
 	.string "Wir geben dir nun deine eigenen\n"
 	.string "Pokémon zurück.$"
+#else
+	.string "We'll return your personal POKéMON.$"
+#endif
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
+#if GERMAN
 	.string "{PLAYER} gewinnt\n"
 	.string "{STR_VAR_1}.$"
+#else
+	.string "{PLAYER} received the prize\n"
+	.string "{STR_VAR_1}.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
+#if GERMAN
 	.string "Hier wird die Intelligenz der Trainer\n"
 	.string "auf die Probe gestellt!\p"
 	.string "Willkommen in der Kampffabrik!\p"
 	.string "Ich begleite dich beim Doppel-Wechsel-\n"
 	.string "kampf-Turnier!$"
+#else
+	.string "Where the intelligence of TRAINERS\n"
+	.string "is put to the test!\p"
+	.string "Welcome to the BATTLE FACTORY!\p"
+	.string "I am your guide to the Battle Swap\n"
+	.string "Double Tournament.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
+#if GERMAN
 	.string "Möchtest du am Doppel-Wechselkampf\n"
 	.string "teilnehmen?$"
+#else
+	.string "Would you like to take the Battle\n"
+	.string "Swap Double challenge?$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
+#if GERMAN
 	.string "Im Doppel-Wechselkampf-Turnier\n"
 	.string "werden Doppelkämpfe mit\l"
 	.string "Leih-Pokémon ausgetragen.\p"
@@ -454,29 +568,73 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
 	.string "\p"
 	.string "Speicherst du nicht, wirst du\n"
 	.string "disqualifiziert.$"
+#else
+	.string "The Battle Swap Double Tournament\n"
+	.string "is a DOUBLE BATTLE competition using\l"
+	.string "only rental POKéMON.\p"
+	.string "First, you will be loaned three\n"
+	.string "POKéMON specifically for this event.\p"
+	.string "Using the supplied rental POKéMON,\n"
+	.string "you must conduct a DOUBLE BATTLE.\p"
+	.string "If you win, you are permitted to trade\n"
+	.string "one of your rental POKéMON.\p"
+	.string "Repeat this cycle of battling and\n"
+	.string "trading--if you win seven times in\l"
+	.string "a row, you will earn Battle Points.\p"
+	.string "If you want to interrupt your\n"
+	.string "challenge, please save the game.\p"
+	.string "If you don't save before interrupting,\n"
+	.string "you will be disqualified.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
+#if GERMAN
 	.string "Glückwunsch! Du hast den Fabrikleiter\n"
 	.string "besiegt und sechs Kämpfe\l"
 	.string "in Folge gewonnen!$"
+#else
+	.string "Congratulations for defeating\n"
+	.string "the FACTORY HEAD and winning\l"
+	.string "seven matches in a row!$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
+#if GERMAN
 	.string "In Anerkennung deines reichen Wissens\n"
 	.string "und deiner Intelligenz geben wir dir\l"
 	.string "diese Gewinnpunkte.$"
+#else
+	.string "In recognition of your wealth of\n"
+	.string "knowledge and keen intelligence,\l"
+	.string "we award you these Battle Point(s).$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
+#if GERMAN
 	.string "Ich gebe dir nun deine Pokémon\n"
 	.string "zurück.\p"
 	.string "Ich werde deinen Erfolg speichern.\n"
 	.string "Bitte warte einen Moment.$"
+#else
+	.string "Let me exchange your POKéMON\n"
+	.string "for our rental POKéMON.\p"
+	.string "I need to save the battle data,\n"
+	.string "so please wait.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
+#if GERMAN
 	.string "Möchtest du den letzten Kampffabrik-\n"
 	.string "Kampf auf deinem Kampfzonen-\l"
 	.string "pass eintragen lassen?$"
+#else
+	.string "Would you like to record your last\n"
+	.string "BATTLE FACTORY match on your\l"
+	.string "FRONTIER PASS?$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
+#if GERMAN
 	.string "Hallo! Du da! Dich meine ich!\p"
 	.string "Du denkst bestimmt, die Kämpfe hier\n"
 	.string "sind einfach, da man keine eigenen\l"
@@ -486,21 +644,48 @@ BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
 	.string "Wenn du keine Ahnung von Pokémon\n"
 	.string "und ihren Attacken hast, dann wirst du\l"
 	.string "keinen leichten Stand haben!$"
+#else
+	.string "Hi!\n"
+	.string "You, there!\p"
+	.string "Are you thinking that the events here\n"
+	.string "are easy since you don't need to have\l"
+	.string "a raised team of POKéMON?\p"
+	.string "I wouldn't be too sure about winning\n"
+	.string "that easily.\p"
+	.string "If you don't have thorough knowledge\n"
+	.string "about POKéMON and their moves,\l"
+	.string "it will be tough to keep winning.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
+#if GERMAN
 	.string "Ich habe mich auf ein schwaches\n"
 	.string "Pokémon verlassen… Ich dachte,\p"
 	.string "es wäre eine gute Entscheidung… \n"
 	.string "Sie haben uns platt gemacht… $"
+#else
+	.string "I swapped for a weak POKéMON…\n"
+	.string "I thought it was a good kind to have…\p"
+	.string "They wiped the floor with us…$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons:
+#if GERMAN
 	.string "Die Dinge laufen überhaupt nicht so,\n"
 	.string "wie ich es mir vorgestellt habe!\p"
 	.string "Du musst in einem Kampf unbedingt die\n"
 	.string "gegnerischen Pokémon prüfen, damit\l"
 	.string "du siehst, was dich erwartet.$"
+#else
+	.string "Things haven't been going my way\n"
+	.string "at all.\p"
+	.string "You need to check your opponent's\n"
+	.string "POKéMON during battle to see if\l"
+	.string "they're any good.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints:
+#if GERMAN
 	.string "Wusstest du, dass die Angestellten dir\n"
 	.string "Tipps über deinen nächsten Gegner\p"
 	.string "geben? Nun, ich bin erwachsen und\l"
@@ -508,45 +693,92 @@ BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints:
 	.string "gerade blöd, aber manchmal verstehe\p"
 	.string "ich \p"
 	.string "sie nicht. Überhaupt nicht…$"
+#else
+	.string "You know how the staff here give you\n"
+	.string "a few hints about your next opponent?\p"
+	.string "Well, I'm a full-grown man, but I have\n"
+	.string "trouble figuring out their hints.$"
+#endif
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried:
+#if GERMAN
 	.string "Like, I’m really tough, but I get bored\n"
 	.string "really easily, so I just kept swapping\l"
 	.string "and battling over and over.\p"
 	.string "So anyway, when I kept entering\n"
 	.string "Battle Swap events, I noticed they\l"
 	.string "varied the rental Pokémon.$"
+#else
+	.string "Like, I'm really tough, but I get bored\n"
+	.string "really easily, so I just kept swapping\l"
+	.string "and battling over and over.\p"
+	.string "So anyway, when I kept entering\n"
+	.string "Battle Swap events, I noticed they\l"
+	.string "varied the rental POKéMON.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_RulesAreListed:
+#if GERMAN
 	.string "Die Regeln des Wechselkampfes hängen\n"
 	.string "öffentlich aus.$"
+#else
+	.string "The Battle Swap rules are listed.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading:
+#if GERMAN
 	.string "Wähle bitte ein Themengebiet aus.$"
+#else
+	.string "Which heading do you want to read?$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules:
+#if GERMAN
 	.string "In einem Wechselkampf kannst du\n"
 	.string "nur drei Pokémon einsetzen.\p"
 	.string "Egal, ob du diese ausleihst oder\n"
 	.string "tauschst, dein Team darf nicht aus\p"
 	.string "zwei oder mehr Pokémon der gleichen\n"
 	.string "Art bestehen.$"
+#else
+	.string "In a Battle Swap event, you may use\n"
+	.string "only three POKéMON.\p"
+	.string "Whether you are renting or swapping,\n"
+	.string "your team may not have two or more\l"
+	.string "of the same POKéMON.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
+#if GERMAN
 	.string "Du kannst mit einem Trainer nur dann\n"
 	.string "Pokémon tauschen, wenn du diesen\p"
 	.string "besiegt hast. Und nur mit diesem\n"
 	.string "Trainer ist ein Tausch möglich.$"
+#else
+	.string "You may swap POKéMON only with\n"
+	.string "the TRAINER you have just defeated.\p"
+	.string "You may swap for only those POKéMON\n"
+	.string "used by the beaten TRAINER.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
+#if GERMAN
 	.string "Nach jedem gewonnenen Kampf kannst\n"
 	.string "du ein Pokémon mit dem besiegten\l"
 	.string "Trainer tauschen.\p"
 	.string "Mit dem siebten Trainer kannst du\n"
 	.string "allerdings kein Pokémon tauschen.$"
+#else
+	.string "After every battle you win, you may\n"
+	.string "swap for one of your defeated\l"
+	.string "opponent's POKéMON.\p"
+	.string "You will not be able to swap POKéMON\n"
+	.string "with the seventh TRAINER in the event.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
+#if GERMAN
 	.string "Bei dem Pokémon-Tausch sind zwei\n"
 	.string "Dinge zu beachten:\p"
 	.string "Du kannst den Status des Pokémon,\n"
@@ -557,8 +789,26 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 	.string "hast.\p"
 	.string "Diese Reihenfolge ändert sich auch\n"
 	.string "durch den Tausch nicht.$"
+#else
+	.string "There are two key points to be aware\n"
+	.string "of when swapping POKéMON.\p"
+	.string "First, when swapping, you can't check\n"
+	.string "the stats of the POKéMON you are\l"
+	.string "about to receive.\p"
+	.string "Second, the POKéMON on your team\n"
+	.string "are lined up in sequence, depending on\l"
+	.string "the order in which you rented them.\p"
+	.string "This sequence remains unchanged\n"
+	.string "even when swaps are made.$"
+#endif
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
+#if GERMAN
 	.string "In den Offenen Kämpfen stehen die\n"
 	.string "Leih-Pokémon und die der gegnerischen\l"
 	.string "Trainer auf Level 100.$"
+#else
+	.string "In the Open Level, the rental POKéMON\n"
+	.string "and the opposing TRAINERS' POKéMON\l"
+	.string "are all Level 100.$"
+#endif

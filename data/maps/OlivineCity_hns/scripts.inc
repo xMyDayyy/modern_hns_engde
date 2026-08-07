@@ -28,21 +28,41 @@ OlivineCity_EventScript_BaobaCall::
 	end
 
 OlivineCity_Text_BaobaName:
+#if GERMAN
 	.string "Baoba$"
+#else
+	.string "BAOBA$"
+#endif
 
 OlivineCity_Text_Baoba:
+#if GERMAN
 	.string "Hallo, {PLAYER}!\n"
 	.string "Ich bin’s, Baoba!\p"
 	.string "Entschuldige, dass ich dich habe\n"
 	.string "warten lassen!\p"
 	.string "Sie ist endlich eröffnet, die\n"
-	.string "Safari-Zone! Du weißt, wo?\p"
+	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY}! Du weißt, wo?\p"
 	.string "Du kennst doch das in den Fels\n"
-	.string "gehauene Tor in Anemonia City, oder?\p"
+	.string "gehauene Tor in {COLOR RED}Anemonia City{COLOR DARK_GRAY}, oder?\p"
 	.string "Wenn du dort durchgehst, erreichst\n"
-	.string "du sie nach einer Weile, die Safari-Zone!\p"
+	.string "du sie nach einer Weile, die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}!\p"
 	.string "Nun, es liegt nicht gerade auf dem Weg,\n"
 	.string "aber schau unbedingt einmal vorbei!$"
+#else
+	.string "{PLAYER}!\p"
+	.string "This is WARDEN BAOBA.\p"
+	.string "Sorry to have kept you waiting.\n"
+	.string "We've finally opened the\l"
+	.string "SAFARI ZONE!\p"
+	.string "Do you know where it is?\p"
+	.string "You know the GATE inside the cavern\n"
+	.string "in CIANWOOD CITY?\p"
+	.string "If you go through there and walk for\n"
+	.string "a short while, you should soon see\l"
+	.string "the SAFARI ZONE!\p"
+	.string "We're a little out of the way, but\n"
+	.string "please come visit!$"
+#endif
 
 OlivineCity_EventScript_CityTrigger:: @FLAGHEAP
 	setflag FLAG_HIDE_OLIVINE_CITY_GYM_JASMINE
@@ -154,6 +174,7 @@ OlivineCity_Movement_SilverLeave:
 	step_end
 
 OlivineCity_Text_SilverEncounter:
+#if GERMAN
 	.string "{PLAYER}: … … …\p"
 	.string "…Du schon wieder?\p"
 	.string "Was stellst du dir eigentlich vor?\n"
@@ -162,14 +183,33 @@ OlivineCity_Text_SilverEncounter:
 	.string "Apropos Verlierer: Die Arenaleiterin\n"
 	.string "dieser Stadt ist gerade außer Haus.\p"
 	.string "Sie kümmert sich wohl gerade um ein\n"
-	.string "krankes Pokémon im Leuchtturm.\p"
+	.string "krankes Pokémon im {COLOR RED}Leuchtturm{COLOR DARK_GRAY}.\p"
 	.string "…Hmpf! So ein Unfug!\p"
 	.string "Ein Pokémon, das zu schwach zum\n"
 	.string "Kämpfen ist, ist wertlos!\p"
 	.string "Warum trainierst du nicht etwas im\n"
-	.string "Leuchtturm?\p"
+	.string "{COLOR RED}Leuchtturm{COLOR DARK_GRAY}?\p"
 	.string "Wer weiß, vielleicht wird aus dir ja\n"
 	.string "doch noch ein annehmbarer Trainer?$"
+#else
+	.string "You again?\n"
+	.string "There's no need to be alert.\p"
+	.string "I don't bother with wimps\n"
+	.string "like you.\p"
+	.string "Speaking of weaklings, the\n"
+	.string "city's GYM LEADER isn't here,\l"
+	.string "and is supposedly taking care\l"
+	.string "of a sick POKéMON at the\l"
+	.string "LIGHTHOUSE.\p"
+	.string "Humph! Boo-hoo!\n"
+	.string "Just let sick POKéMON go!\p"
+	.string "A POKéMON that can't battle\n"
+	.string "is worthless!\p"
+	.string "Why don't you go train at the\n"
+	.string "LIGHTHOUSE?\p"
+	.string "Who knows? It may make you a\n"
+	.string "bit of a better Trainer!$"
+#endif
 
 OlivineCity_EventScript_Sailor1::
 	lock
@@ -258,40 +298,88 @@ OlivineCity_EventScript_EonTicketWomanAfter::
 	end
 
 OlivineCity_Text_CafeSign:
+#if GERMAN
 	.string "Oliviana City Cafe\p"
 	.string "Lachs und Aal, Phänomenal.$"
+#else
+	.string "OLIVINE CAFE\n"
+	.string "WHERE STRONG SAILORS ENJOY\l"
+	.string "HEARTY MEALS OF STRENGTH$"
+#endif
 
 OlivineCity_Text_EonTicketWoman1:
+#if GERMAN
 	.string "Ich bin Mary!\p"
 	.string "Ich mache nur Spaß!\n"
 	.string "Aber ich mag ihre Radiosendung!$"
+#else
+	.string "My name is MARY!\p"
+	.string "Just kidding, but I love MARY's\n"
+	.string "radio show!$"
+#endif
 
 OlivineCity_Text_EonTicketWoman2:
+#if GERMAN
 	.string "Du musst {PLAYER} sein!!!\p"
 	.string "Oh mein Gott! Der Champion!\p"
 	.string "Ich hörte von dir in\n"
 	.string "Marys Radiosendung!\p"
 	.string "Hier, nimm das!$"
+#else
+	.string "You must be {PLAYER}!!!\p"
+	.string "Oh my goodness! The champion!\p"
+	.string "I heard about you on MARY's\n"
+	.string "radio show!\p"
+	.string "Here, take this!$"
+#endif
 
 OlivineCity_Text_EonTicketWoman3:
+#if GERMAN
 	.string "Ich glaube es nicht!\n"
 	.string "Ich hab den Champion getroffen!!!$"
+#else
+	.string "I can't believe I met the\n"
+	.string "champion!!!$"
+#endif
 
 OlivineCity_Text_Sailor1:
+#if GERMAN
 	.string "Dunkle Straßen sind nachts gefährlich!\n"
 	.string "Dunkle Meeresuntiefen ebenso!\p"
 	.string "Ohne das Licht des Leuchtturms sind\n"
 	.string "alle Schiffe auf dem Meer gefangen.$"
+#else
+	.string "Dark roads are dangerous\n"
+	.string "at night.\p"
+	.string "But in the pitch-black of\n"
+	.string "night, the sea is even more\l"
+	.string "treacherous!\p"
+	.string "Without the beacon of the\n"
+	.string "LIGHTHOUSE to guide it,\l"
+	.string "no ship can sail.$"
+#endif
 
 OlivineCity_Text_YoungsterPokegear:
-	.string "Dieses Ding da ist doch ein PokéCom!\n"
+#if GERMAN
+	.string "Dieses Ding da ist doch ein {COLOR RED}PokéCom{COLOR DARK_GRAY}!\n"
 	.string "Wow, das ist ja sooo cool!$"
+#else
+	.string "That thing you have--\n"
+	.string "it's a POKéGEAR, right?\l"
+	.string "Wow, that's cool.$"
+#endif
 
 OlivineCity_Text_YoungsterPokedex:
-	.string "Wow, du hast einen Pokédex!\n"
+#if GERMAN
+	.string "Wow, du hast einen {COLOR RED}Pokédex{COLOR DARK_GRAY}!\n"
 	.string "Das ist echt cool!$"
+#else
+	.string "Wow, you have a POKéDEX!\p"
+	.string "That is just so awesome.$"
+#endif
 
 OlivineCity_Text_Sailor2:
+#if GERMAN
 	.string "Die Liga führt Jasmin als sechst-\n"
 	.string "stärkste Arenaleiterin!\p"
 	.string "Pah! So ein Unsinn.\p"
@@ -300,27 +388,71 @@ OlivineCity_Text_Sailor2:
 	.string "Reine Bürokratie, wenn du mich fragst.\p"
 	.string "Sie ist eine ernst zu nehmende\n"
 	.string "Gegnerin, so viel steht fest!$"
+#else
+	.string "The league has JASMINE\n"
+	.string "pegged as the sixth\l"
+	.string "strongest GYM LEADER!\p"
+	.string "Hah! That's a load of crud.\p"
+	.string "There's no way PRYCE could\n"
+	.string "hurt JASMINE's STEEL-type\l"
+	.string "POKéMON!\p"
+	.string "Bureaucracy if you ask me.\p"
+	.string "She's something to be feared,\n"
+	.string "that's for sure!$"
+#endif
 
 OlivineCity_Text_Sign:
+#if GERMAN
 	.string "Oliviana City\p"
 	.string "Das Tor zu einer neuen Welt$"
+#else
+	.string "OLIVINE CITY\p"
+	.string "The Port Closest to Foreign Lands$"
+#endif
 
 OlivineCity_Text_PortSign:
+#if GERMAN
 	.string "Hafen von Oliviana\n"
 	.string "City Schnellboot-Pier$"
+#else
+	.string "OLIVINE PORT\n"
+	.string "FAST SHIP PIER$"
+#endif
 
 OlivineCity_Text_GymSign:
+#if GERMAN
 	.string "Pokémon-Arena von Oliviana City\n"
 	.string "Leiterin: Jasmin\l"
 	.string "Ein stahlhartes Mädchen!$"
+#else
+	.string "OLIVINE CITY POKéMON GYM\n"
+	.string "LEADER: JASMINE\p"
+	.string "The Steel-Clad Defense Girl$"
+#endif
 
 OlivineCity_Text_LighthouseSign:
+#if GERMAN
 	.string "Leuchtturm von Oliviana City\p"
 	.string "Auch bekannt als der\n"
 	.string "Glitzer-Leuchtturm$"
+#else
+	.string "OLIVINE LIGHTHOUSE\n"
+	.string "Also known as the GLITTER\l"
+	.string "LIGHTHOUSE$"
+#endif
 
 OlivineCity_Text_BattleTowerSign:
+#if GERMAN
 	.string "Duellturm Voraus Geöffnet!$"
+#else
+	.string "TRAINER HILL and\n"
+	.string "BATTLE TENTS AHEAD.\p"
+	.string "Opening Now!$"
+#endif
 
 OlivineCity_Text_Machoke:
+#if GERMAN
 	.string "Maschock: Cho!$"
+#else
+	.string "MACHOKE: CHO!$"
+#endif

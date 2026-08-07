@@ -26,20 +26,38 @@ RuinsOfAlph_Lab_EventScript_Fossils::
 	end
 
 RuinsOfAlph_Lab_Text_Scientist1:
+#if GERMAN
     .string "Die Ruinen sind etwa 1500 Jahre alt.\p"
     .string "Aber man weiß nicht, warum sie\n"
     .string "erbaut wurden oder von wem.$"
+#else
+	.string "The RUINS are about 1500 years old.\p"
+	.string "But it's not known why they were\n"
+	.string "built--or by whom.$"
+#endif
 
 RuinsOfAlph_Lab_Text_Scientist2:
+#if GERMAN
     .string "An den Wänden der Ruinen sind\n"
     .string "seltsame Muster zu sehen.\p"
     .string "Sie müssen der Schlüssel sein, um\n"
     .string "das Geheimnis der Ruinen zu lösen.$"
+#else
+	.string "There are odd patterns drawn on\n"
+	.string "on the walls of the RUINS.\p"
+	.string "They must be the keys for\n"
+	.string "unraveling the RUINS' mystery.$"
+#endif
 
 RuinsOfAlph_Lab_Text_Fossils:
+#if GERMAN
     .string "Fossilien, die in den Ruinen\n"
     .string "gefunden wurden.\p"
     .string "Vielleicht gibt es noch mehr irgendwo…$"
+#else
+	.string "Fossils found within the RUINS.\n"
+	.string "Maybe there are more somewhere...$"
+#endif
 
 
 RuinsOfAlph_Lab_EventScript_FossilScientist::
@@ -609,18 +627,31 @@ RuinsOfAlph_Lab_EventScript_WorkOnNext::
 	end
 
 RuinsOfAlph_Lab_Text_DeviceForTalkingToPokemon:
+#if GERMAN
     .string "Wir entwickeln ein Gerät, mit dem\n"
     .string "man mit Pokémon sprechen kann.\p"
     .string "Aber wir hatten bisher nicht viel\n"
     .string "Erfolg…$"
+#else
+	.string "We're developing a device for talking\n"
+	.string "with POKéMON.\p"
+	.string "But we haven't had much success…$"
+#endif
 
 RuinsOfAlph_Lab_Text_DevelopingNewBalls:
+#if GERMAN
     .string "Ich entwickle neue Arten von\n"
     .string "Pokéballs…\p"
     .string "Aber ich komme nicht richtig\n"
     .string "voran…$"
+#else
+	.string "I'm developing new kinds of\n"
+	.string "POKé BALLS…\p"
+	.string "But I haven't made much headway…$"
+#endif
 
 RuinsOfAlph_Lab_Text_WeFinallyMadeNewBalls:
+#if GERMAN
     .string "Wir haben endlich neue Arten von\n"
     .string "Pokéballs entwickelt!\p"
     .string "Der Wiederholball erleichtert es,\n"
@@ -631,102 +662,222 @@ RuinsOfAlph_Lab_Text_WeFinallyMadeNewBalls:
     .string "Beide wurden stolz von der Devon-\n"
     .string "Corporation entwickelt.\p"
     .string "Bitte probiere sie aus!$"
+#else
+	.string "We finally made new kinds of\n"
+	.string "POKé BALLS!\p"
+	.string "The REPEAT BALL makes it easier to\n"
+	.string "catch POKéMON you've caught before.\p"
+	.string "The TIMER BALL gets better at catching\n"
+	.string "POKéMON the longer a battle runs.\p"
+	.string "Both are proudly developed by\n"
+	.string "the DEVON CORPORATION.\p"
+	.string "Please give them a try!$"
+#endif
 
 RuinsOfAlph_Lab_Text_IMadePokenav:
-    .string "Ich habe den PokéCom entwickelt!\p"
-    .string "Als Ingenieur bin ich glücklich,\n"
-    .string "so etwas Großartiges geschaffen zu\n"
-    .string "haben!$"
+#if GERMAN
+	.string "Ich habe den {COLOR RED}PokéCom{COLOR DARK_GRAY} entwickelt!\p"
+	.string "Als Ingenieur bin ich glücklich,\n"
+	.string "so etwas Großartiges geschaffen zu\n"
+	.string "haben!$"
+#else
+	.string "I made the POKéNAV!\p"
+	.string "As an engineer, I feel blessed to have\n"
+	.string "made something so great!$"
+#endif
 
 RuinsOfAlph_Lab_Text_WowThatsAPokenav:
-    .string "Oh wow!\n"
-    .string "Das ist ein PokéCom!\p"
-    .string "Er entstand aus dem Wunsch unseres\n"
-    .string "Präsidenten, mehr über die Gefühle\l"
-    .string "von Pokémon zu erfahren.\p"
-    .string "Möchtest du, dass ich dir seine\n"
-    .string "Funktionen im Detail erkläre?\p"
-    .string "Nein, nein. Ich denke, du wirst es\n"
-    .string "schon selbst herausfinden.$"
+#if GERMAN
+	.string "Oh wow!\n"
+	.string "Das ist ein {COLOR RED}PokéCom{COLOR DARK_GRAY}!\p"
+	.string "Er entstand aus dem Wunsch unseres\n"
+	.string "Präsidenten, mehr über die Gefühle\l"
+	.string "von Pokémon zu erfahren.\p"
+	.string "Möchtest du, dass ich dir seine\n"
+	.string "Funktionen im Detail erkläre?\p"
+	.string "Nein, nein. Ich denke, du wirst es\n"
+	.string "schon selbst herausfinden.$"
+#else
+	.string "Oh, wow!\n"
+	.string "That's a POKéNAV!\p"
+	.string "It came about as a result of our\n"
+	.string "PRESIDENT's desire to learn about\l"
+	.string "the feelings of POKéMON.\p"
+	.string "Would you like me to describe its\n"
+	.string "features in detail?\p"
+	.string "No, no. I think you'll find out just by\n"
+	.string "trying the POKéNAV out.$"
+#endif
 
 RuinsOfAlph_Lab_Text_DeviceToVisualizePokemonDreams:
+#if GERMAN
     .string "Ich versuche, ein Gerät zu entwickeln,\n"
     .string "das die Träume von Pokémon sichtbar\l"
     .string "macht…\p"
     .string "Aber es läuft nicht gut.$"
+#else
+	.string "I'm trying to develop a device that\n"
+	.string "visually reproduces the dreams of\l"
+	.string "POKéMON…\p"
+	.string "But it's not going well.$"
+#endif
 
 RuinsOfAlph_Lab_Text_DevelopDeviceToResurrectFossils:
+#if GERMAN
     .string "Ich habe versucht, ein Gerät zu\n"
     .string "entwickeln, das Pokémon aus Fossilien\l"
     .string "wiederbelebt…\p"
     .string "Und es funktioniert!$"
+#else
+	.string "I've been trying to develop a device\n"
+	.string "that resurrects POKéMON from fossils…\p"
+	.string "And, it's working!$"
+#endif
 
 RuinsOfAlph_Lab_Text_WantToBringFossilBackToLife:
+#if GERMAN
     .string "Warte! Das Ding, das du da hast…\n"
     .string "Ist das ein Pokémon-Fossil?\p"
     .string "Möchtest du dieses Pokémon wieder\n"
     .string "zum Leben erwecken?\p"
     .string "Das kann ich mit meinem neu\n"
     .string "entwickelten Fossilregenerator.$"
+#else
+	.string "Wait! That thing you have there…\n"
+	.string "Is that a POKéMON fossil?\p"
+	.string "Would you like to bring that POKéMON\n"
+	.string "back to life?\p"
+	.string "I can with my newly developed\n"
+	.string "FOSSIL REGENERATOR.$"
+#endif
 
 RuinsOfAlph_Lab_Text_OhIsThatSo:
+#if GERMAN
     .string "Oh, ist das so?\p"
     .string "Meine technologische Expertise ist\n"
     .string "außergewöhnlich, das sage ich dir.$"
+#else
+	.string "Oh, is that so?\p"
+	.string "My technological expertise\n"
+	.string "is outstanding, I tell you.$"
+#endif
 
 RuinsOfAlph_Lab_Text_OhIsThatSo2:
+#if GERMAN
     .string "Oh, du hast dieses Fossil nicht.\n"
     .string "Komm wieder, wenn du eines findest.$"
+#else
+	.string "Oh, you don't have this fossil.\n"
+	.string "Come back if you manage to find it.$"
+#endif
 
 RuinsOfAlph_Lab_Text_TwoFossilsPickOne:
+#if GERMAN
     .string "Oh, das ist eine Überraschung!\n"
     .string "Du hast mehr als ein Fossil?\p"
     .string "Leider kann meine Maschine nur ein\n"
     .string "Pokémon gleichzeitig regenerieren.\p"
     .string "Welches Fossil möchtest du\n"
     .string "wiederbeleben?$"
+#else
+	.string "Oh, now that's a surprise!\n"
+	.string "You have more than one fossil?\p"
+	.string "Unfortunately, my machine can only\n"
+	.string "regenerate one POKéMON at a time.\p"
+	.string "Which fossil would you like to\n"
+	.string "regenerate?$"
+#endif
 
 RuinsOfAlph_Lab_Text_HandedFossilToResearcher:
+#if GERMAN
     .string "Ausgezeichnet!\n"
     .string "Dann legen wir sofort los.\p"
     .string "{PLAYER} übergab das {STR_VAR_1} an\n"
     .string "den Ruinen-Forscher.$"
+#else
+	.string "Excellent!\n"
+	.string "Let's do this right away.\p"
+	.string "{PLAYER} handed the {STR_VAR_1} to\n"
+	.string "the RUINS RESEARCHER.$"
+#endif
 
 RuinsOfAlph_Lab_Text_FossilRegeneratorTakesTime:
+#if GERMAN
     .string "Der Fossilregenerator, den ich gebaut\n"
     .string "habe, ist unglaublich.\p"
     .string "Aber er hat einen Nachteil, er braucht\n"
     .string "viel Zeit.\p"
     .string "Also… wie wäre es, wenn du ein bisschen\n"
     .string "herumläufst und wartest?$"
+#else
+	.string "The FOSSIL REGENERATOR, which I made,\n"
+	.string "is incredible.\p"
+	.string "But it has one drawback--it takes\n"
+	.string "a long time to work.\p"
+	.string "So, uh… How about you go for a stroll\n"
+	.string "and look around for a while?$"
+#endif
 
 RuinsOfAlph_Lab_Text_FossilizedMonBroughtBackToLife:
+#if GERMAN
     .string "Danke fürs Warten!\p"
     .string "Dein versteinertes Pokémon wurde\n"
     .string "wieder zum Leben erweckt!\p"
     .string "Das Fossil war ein uraltes Pokémon.\n"
     .string "{STR_VAR_2}, es war es!$"
+#else
+	.string "Thanks for waiting!\p"
+	.string "Your fossilized POKéMON has been\n"
+	.string "brought back to life!\p"
+	.string "The fossil was an ancient POKéMON.\n"
+	.string "{STR_VAR_2}, it was!$"
+#endif
 
 RuinsOfAlph_Lab_Text_ReceivedMonFromResearcher:
+#if GERMAN
     .string "{PLAYER} erhielt {STR_VAR_2} vom\n"
     .string "Forscher.$"
+#else
+	.string "{PLAYER} received {STR_VAR_2} from\n"
+	.string "the RESEARCHER.$"
+#endif
 
 @ Unused
 RuinsOfAlph_Lab_Text_TooManyPokemon:
+#if GERMAN
     .string "Oh nein, du hast zu viele Pokémon.\n"
     .string "Kein Platz für dieses hier.$"
+#else
+	.string "Uh-oh, you've got too many POKéMON.\n"
+	.string "You have no room for this one.$"
+#endif
 
 RuinsOfAlph_Lab_Text_DevelopNewPokenavFeature:
-    .string "Ich versuche, eine neue Funktion\n"
-    .string "für den PokéCom zu entwickeln…\p"
-    .string "Aber es läuft nicht gut.$"
+#if GERMAN
+	.string "Ich versuche, eine neue Funktion\n"
+	.string "für den {COLOR RED}PokéCom{COLOR DARK_GRAY} zu entwickeln…\p"
+	.string "Aber es läuft nicht gut.$"
+#else
+	.string "I'm trying to develop a new feature\n"
+	.string "for the POKéNAV…\p"
+	.string "But it's not going well.$"
+#endif
 
 RuinsOfAlph_Lab_Text_WhatToWorkOnNext:
+#if GERMAN
     .string "Nun, woran soll ich als Nächstes\n"
     .string "arbeiten?\p"
     .string "Unsere Firma erlaubt uns, unsere\n"
     .string "Ideen Wirklichkeit werden zu lassen.\p"
     .string "Man kann sich keine bessere Umgebung\n"
     .string "für einen Ingenieur wünschen.$"
+#else
+	.string "Well, now what shall I work on\n"
+	.string "developing next?\p"
+	.string "Our company allows us to make our\n"
+	.string "inspirations into reality.\p"
+	.string "One couldn't ask for a better\n"
+	.string "environment as an engineer.$"
+#endif
 
 

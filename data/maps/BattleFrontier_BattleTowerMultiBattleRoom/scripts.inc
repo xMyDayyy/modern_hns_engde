@@ -440,63 +440,133 @@ BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft:
 	step_end
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor2ndOpponentSet:
+#if GERMAN
 	.string "Das zweite gegnerische Team ist\n"
 	.string "bereit. Bist du so weit?$"
+#else
+	.string "The 2nd set of opponents is next.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor3rdOpponentSet:
+#if GERMAN
 	.string "Das dritte gegnerische Team ist\n"
 	.string "bereit. Bist du so weit?$"
+#else
+	.string "The 3rd set of opponents is next.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor4thOpponentSet:
+#if GERMAN
 	.string "Das vierte gegnerische Team ist\n"
 	.string "bereit. Bist du so weit?$"
+#else
+	.string "The 4th set of opponents is next.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor5thOpponentSet:
+#if GERMAN
 	.string "Das fünfte gegnerische Team ist\n"
 	.string "bereit. Bist du so weit?$"
+#else
+	.string "The 5th set of opponents is next.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor6thOpponentSet:
+#if GERMAN
 	.string "Das sechste gegnerische Team ist\n"
 	.string "bereit. Bist du so weit?$"
+#else
+	.string "The 6th set of opponents is next.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet:
+#if GERMAN
 	.string "Das siebte gegnerische Team ist\n"
 	.string "bereit. Bist du so weit?$"
+#else
+	.string "The 7th set of opponents is next.\n"
+	.string "Are you ready?$"
+#endif
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext:
+#if GERMAN
 	.string "Das zweite gegnerische Team ist bereit.\n"
 	.string "Viel Glück!$"
+#else
+	.string "The 2nd set of opponents is next.\n"
+	.string "Do your best!$"
+#endif
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_3rdOpponentSetNext:
+#if GERMAN
 	.string "Das dritte gegnerische Team ist bereit.\n"
 	.string "Viel Glück!$"
+#else
+	.string "The 3rd set of opponents is next.\n"
+	.string "Do your best!$"
+#endif
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_4thOpponentSetNext:
+#if GERMAN
 	.string "Das vierte gegnerische Team ist bereit.\n"
 	.string "Viel Glück!$"
+#else
+	.string "The 4th set of opponents is next.\n"
+	.string "Do your best!$"
+#endif
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_5thOpponentSetNext:
+#if GERMAN
 	.string "Das fünfte gegnerische Team ist bereit.\n"
 	.string "Viel Glück!$"
+#else
+	.string "The 5th set of opponents is next.\n"
+	.string "Do your best!$"
+#endif
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext:
+#if GERMAN
 	.string "Das sechste gegnerische Team ist\n"
 	.string "bereit. Viel Glück!$"
+#else
+	.string "The 6th set of opponents is next.\n"
+	.string "Do your best!$"
+#endif
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext:
+#if GERMAN
 	.string "Das siebte gegnerische Team ist\n"
 	.string "bereit. Viel Glück!$"
+#else
+	.string "The 7th set of opponents is next.\n"
+	.string "Do your best!$"
+#endif
 
 gText_LinkStandby3::
+#if GERMAN
 	.string "Verbindung wird gehalten…$"
+#else
+	.string "Link standby…$"
+#endif
 
 gText_YourPartnerHasRetired::
+#if GERMAN
 	.string "Dein Partner hat sich zurückgezogen.\p"
 	.string "Deine Kampfraum-Herausforderung\n"
 	.string "wird abgebrochen.$"
+#else
+	.string "Your partner has retired.\p"
+	.string "Your BATTLE ROOM challenge\n"
+	.string "will be canceled.$"
+#endif

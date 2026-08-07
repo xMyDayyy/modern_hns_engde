@@ -695,51 +695,104 @@ Route110_TrickHouseEntrance_EventScript_DoHidingSpotSparkle::
 	return
 
 Route110_TrickHouseEntrance_Text_YoureBeingWatched:
+#if GERMAN
 	.string "Du wirst beobachtet…$"
+#else
+	.string "You're being watched…$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk:
+#if GERMAN
 	.string "Was? Grrrr…\p"
 	.string "Woher wusstest du, dass ich mich unter\n"
 	.string "dem Tisch versteckt hatte? Clever!$"
+#else
+	.string "Hah? Grrr…\p"
+	.string "How did you know I concealed myself\n"
+	.string "beneath this desk? You're sharp!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindTree:
+#if GERMAN
 	.string "Was? Grrrr…\p"
 	.string "Woher wusstest du, dass ich mich\n"
 	.string "hinter\l"
 	.string "dem Baum versteckt hatte? Clever!$"
+#else
+	.string "Hah? Grrr…\p"
+	.string "How did you know I concealed myself\n"
+	.string "behind this tree? You're sharp!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ConcealedInDresser:
+#if GERMAN
 	.string "Was? Grrrr…\p"
 	.string "Woher wusstest du, dass ich mich in\n"
 	.string "der Kommode versteckt hatte? Clever!$"
+#else
+	.string "Hah? Grrr…\p"
+	.string "How did you know I concealed myself\n"
+	.string "in this dresser? You're sharp!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ConealedBeyondWindow:
+#if GERMAN
 	.string "Was? Grrrr…\p"
 	.string "Woher wusstest du, dass ich mich über\n"
 	.string "dem Fenster versteckt hatte? Clever!$"
+#else
+	.string "Hah? Grrr…\p"
+	.string "How did you know I concealed myself\n"
+	.string "beyond this window? You're sharp!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ConcealedInPlanter:
+#if GERMAN
 	.string "Was? Grrrr…\p"
 	.string "Woher wusstest du, dass ich mich in\n"
 	.string "der Pflanze versteckt hatte? Clever!$"
+#else
+	.string "Hah? Grrr…\p"
+	.string "How did you know I concealed myself\n"
+	.string "in this planter? You're sharp!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ConcealedInCupboard:
+#if GERMAN
 	.string "Was? Grrrr…\p"
 	.string "Woher wusstest du, dass ich mich\n"
 	.string "im Schrank versteckt hatte? Clever!$"
+#else
+	.string "Hah? Grrr…\p"
+	.string "How did you know I concealed myself\n"
+	.string "in this cupboard? You're sharp!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindWindow:
+#if GERMAN
 	.string "Was? Grrrr…\p"
 	.string "Woher wusstest du, dass ich mich\n"
 	.string "hinter\l"
 	.string "dem Fenster versteckt hatte? Clever!$"
+#else
+	.string "Hah? Grrr…\p"
+	.string "How did you know I concealed myself\n"
+	.string "behind this window? You're sharp!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion:
+#if GERMAN
 	.string "Was? Grrrr…\p"
 	.string "Woher wusstest du, dass ich mich unter\n"
 	.string "dem Kissen versteckt hatte? Clever!$"
+#else
+	.string "Hah? Grrr…\p"
+	.string "How did you know I concealed myself\n"
+	.string "beneath this cushion? You're sharp!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
+#if GERMAN
 	.string "Sieh und staune!\p"
 	.string "Ich bin das größte lebende menschliche\n"
 	.string "Mysterium in ganz Hoenn!\l"
@@ -747,8 +800,17 @@ Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
 	.string "Rätselmeister!\n"
 	.string "Hahaha! Erfreut, dich kennen zu\l"
 	.string "lernen!$"
+#else
+	.string "Behold!\p"
+	.string "For I am the greatest living mystery\n"
+	.string "of a man in all of HOENN!\l"
+	.string "They call me…\p"
+	.string "The TRICK MASTER!\n"
+	.string "Wahahaha! Glad to meet you!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
+#if GERMAN
 	.string "Du, du bist hier, um mein Rätselhaus\n"
 	.string "herauszufordern, oder?\p"
 	.string "Deshalb bist du doch hier?\n"
@@ -758,28 +820,61 @@ Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
 	.string "Tritt hinter diese Schriftrolle und\n"
 	.string "die Herausforderung beginnt!\p"
 	.string "Ich warte im hinteren Bereich!$"
+#else
+	.string "You, you've come to challenge\n"
+	.string "my TRICK HOUSE, haven't you?\p"
+	.string "That's why you're here, isn't it?\n"
+	.string "Yes, it is!\p"
+	.string "Consider your challenge accepted!\p"
+	.string "Enter through the scroll there,\n"
+	.string "and let your challenge commence!\p"
+	.string "I shall be waiting in the back!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ItsAScroll:
+#if GERMAN
 	.string "Das ist eine Schriftrolle.$"
+#else
+	.string "It's a scroll.$"
+#endif
 
 Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
+#if GERMAN
 	.string "Hinter der Schriftrolle ist ein Loch!\n"
 	.string "\p"
 	.string "Möchtest du hindurchgehen?$"
+#else
+	.string "There is a big hole behind the scroll!\p"
+	.string "Want to go in?$"
+#endif
 
 Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
+#if GERMAN
 	.string "Auf der Schriftrolle steht etwas…\p"
 	.string "“Ich bin auf eine Reise gegangen.\n"
 	.string "Sucht mich nicht. Rätselmeister.”$"
+#else
+	.string "There is a note affixed to the scroll…\p"
+	.string "“I am leaving on a journey.\n"
+	.string "Don't look for me. TRICK MASTER”$"
+#endif
 
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
+#if GERMAN
 	.string "Nächstes Mal nehme ich diesen Trick,\n"
 	.string "nach diesem Schema und mit List und…\p"
 	.string "Ähähähä… Ich muss sagen, ich habe mich\n"
 	.string "in meiner Brillanz mal wieder selbst\l"
 	.string "übertroffen!$"
+#else
+	.string "For the next time, I'll use this trick,\n"
+	.string "and that scheme, and those ruses…\p"
+	.string "Mufufufu… If I may say so, it's\n"
+	.string "brilliantly difficult, even for me!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
+#if GERMAN
 	.string "Hah! Was???\n"
 	.string "Ach, du bist das!\p"
 	.string "Ich bin gerade dabei, mir neue Tricks\n"
@@ -789,44 +884,103 @@ Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
 	.string "noch etwas Zeit zum Nachdenken zu\l"
 	.string "geben, oder? Das ist mir doch gegönnt,\l"
 	.string "oder? Danke. Komm später wieder!$"
+#else
+	.string "Hah? What?!\n"
+	.string "Oh, it's you!\p"
+	.string "I'm in the midst of devising new tricky\n"
+	.string "challenges!\p"
+	.string "It's not too much to ask for a bit more\n"
+	.string "time for me to think, is it now?\l"
+	.string "You wouldn't begrudge me that?\l"
+	.string "Come back in a little while!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward:
+#if GERMAN
 	.string "Ah, du bist es! Du willst dir deine\n"
 	.string "Belohnung von eben abholen, habe ich\l"
 	.string "Recht? Natürlich habe ich Recht!\p"
 	.string "Hier! Das ist für dich!$"
+#else
+	.string "Ah, it's you! You're here to accept the\n"
+	.string "reward from before, isn't that right?\l"
+	.string "Yes, right I am!\p"
+	.string "Here!\n"
+	.string "I'll give it to you now!$"
+#endif
 
 Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward:
+#if GERMAN
 	.string "Was? Du kommst nicht, um deine\n"
 	.string "Belohnung abzuholen?$"
+#else
+	.string "Hah?\n"
+	.string "Did you not come to claim your reward?$"
+#endif
 
 Route110_TrickHouseEntrance_Text_MechadollWhichTent:
+#if GERMAN
 	.string "Robopuppe 5 bin ich!\n"
 	.string "Holst du die Belohnung nicht ab,\l"
 	.string "Dann Kannst du Rätselmeister nicht\l"
 	.string "folgen!\p"
 	.string "Rotes Zelt oder blaues Zelt,\n"
 	.string "Wofür entscheidest du dich?$"
+#else
+	.string "MECHADOLL 5 I AM!\n"
+	.string "IF REWARD IS NOT TAKEN BY YOU,\l"
+	.string "THEN TRICK MASTER YOU CANNOT FOLLOW.\p"
+	.string "RED TENT OR BLUE TENT,\n"
+	.string "WHICH DO YOU PREFER?$"
+#endif
 
 Route110_TrickHouseEntrance_Text_ThenFarewell:
+#if GERMAN
 	.string "Dann lebe wohl.$"
+#else
+	.string "THEN FAREWELL.$"
+#endif
 
 Route110_TrickHouseEntrance_Text_PCFullAgain:
+#if GERMAN
 	.string "PC-Status: Wieder voll.\n"
 	.string "Gemein du bist.$"
+#else
+	.string "YOUR PC STATUS: FULL AGAIN.\n"
+	.string "MEAN, YOU ARE.$"
+#endif
 
 Route110_TrickHousePuzzle_Text_FoundAScroll:
+#if GERMAN
 	.string "{PLAYER} findet eine Schriftrolle.$"
+#else
+	.string "{PLAYER} found a scroll.$"
+#endif
 
 Route110_TrickHousePuzzle_Text_MemorizedSecretCode:
+#if GERMAN
 	.string "{PLAYER} lernt den geheimen Code, der\n"
 	.string "auf der Schriftrolle steht, auswendig.$"
+#else
+	.string "{PLAYER} memorized the secret code\n"
+	.string "written on the scroll.$"
+#endif
 
 Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
+#if GERMAN
 	.string "Dort steht ein geheimer Code.$"
+#else
+	.string "A secret code is written on it.$"
+#endif
 
 Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
+#if GERMAN
 	.string "Die Tür ist verschlossen.\p"
 	.string "Bei näherer Betrachtung findet sich\n"
 	.string "ein Hinweis. “Schreibe hier den\l"
 	.string "geheimen Code auf.”$"
+#else
+	.string "The door is locked.\p"
+	.string "…On closer inspection, this is written\n"
+	.string "on it: “Write the secret code here.”$"
+#endif

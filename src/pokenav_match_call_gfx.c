@@ -124,10 +124,26 @@ static const u16 sListWindow_Pal[] = INCBIN_U16("graphics/pokenav/match_call/lis
 static const u16 sPokeball_Pal[] = INCBIN_U16("graphics/pokenav/match_call/pokeball.gbapal");
 static const u32 sPokeball_Gfx[] = INCBIN_U32("graphics/pokenav/match_call/pokeball.4bpp.smol");
 
+#if GERMAN
 static const u8 gText_NumberRegistered[] = _("Registriert");
+#else
+static const u8 gText_NumberRegistered[] = _("No. registered");
+#endif
+#if GERMAN
 static const u8 gText_NumberOfBattles[] = _("Kämpfe");
+#else
+static const u8 gText_NumberOfBattles[] = _("No. of battles");
+#endif
+#if GERMAN
 static const u8 gText_TrainerCloseBy[] = _("Dieser Trainer ist zu nah.\nRede mit ihm in Person!");
+#else
+static const u8 gText_TrainerCloseBy[] = _("That TRAINER is close by.\nTalk to the TRAINER in person!");
+#endif
+#if GERMAN
 static const u8 gText_Unknown[] = _("Unbekannt");
+#else
+static const u8 gText_Unknown[] = _("UNKNOWN");
+#endif
 
 static const struct BgTemplate sMatchCallBgTemplates[3] =
 {

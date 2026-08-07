@@ -88,9 +88,14 @@ IcePath_Movement_KimonoLeave:
 	step_end
 
 IcePath_1F_Text_Leave:
+#if GERMAN
 	.string "Kimono$"
+#else
+	.string "KIMONO GIRL: .....................$"
+#endif
 
 IcePath_1F_Text_Stuck1:
+#if GERMAN
 	.string "Oje… Bist du das, {PLAYER}?\n"
 	.string "Wie überraschend, dich zu sehen!\p"
 	.string "Ehrlich gesagt… meine Sandalen\n"
@@ -102,8 +107,21 @@ IcePath_1F_Text_Stuck1:
 	.string "Aber es ist ernst.\p"
 	.string "Könntest du mich am Rücken\n"
 	.string "anschubsen?$"
+#else
+    .string "Me oh my... Is that you, {PLAYER}?\n"
+    .string "Fancy meeting you here!\p"
+    .string "To tell the truth... my sandals are\n"
+    .string "frozen on the ice, and I am stuck.\p"
+    .string "In other words, my flip-flops are\n"
+    .string "quick-frozen to the ground.\p"
+    .string "Tee hee.\p"
+    .string "Well, it's no laughing matter.\p"
+    .string "Would you come around and push\n"
+    .string "my back?$"
+#endif
 
 IcePath_1F_Text_Stuck2:
+#if GERMAN
 	.string "Oje… Bist du das, {PLAYER}?\n"
 	.string "Wie überraschend, dich zu sehen!\p"
 	.string "Ehrlich gesagt… meine Sandalen\n"
@@ -115,15 +133,40 @@ IcePath_1F_Text_Stuck2:
 	.string "Aber es ist ernst.\n"
 	.string "Willst du mich am Rücken\l"
 	.string "anschubsen?$"
+#else
+    .string "Me oh my... Is that you, {PLAYER}?\n"
+    .string "Fancy meeting you here!\p"
+    .string "To tell the truth... my sandals are\n"
+    .string "frozen on the ice, and I am stuck.\p"
+    .string "In other words, my flip-flops are\n"
+    .string "quick-frozen with the ground.\p"
+    .string "Tee hee.\p"
+    .string "Well, it's no laughing matter.\n"
+    .string "Would you push my back?$"
+#endif
 
 IcePath_1F_Text_Shove:
+#if GERMAN
 	.string "Rumms!$"
+#else
+    .string "....SHOVE!....$"
+#endif
 
 IcePath_1F_Text_Cruel:
+#if GERMAN
 	.string "Sei nicht so gemein.\n"
 	.string "Du wirst mich am Rücken\l"
 	.string "anschubsen, oder?$"
+#else
+    .string "Don't be so cruel.\n"
+    .string "You will push my back, won't you?$"
+#endif
 
 IcePath_1F_Text_Thanks:
+#if GERMAN
 	.string "Ihr seid wirklich eine gute Seele!\p"
 	.string "Vielen lieben Dank!$"
+#else
+    .string "You really are kind.\n"
+    .string "Thank you so much!$"
+#endif

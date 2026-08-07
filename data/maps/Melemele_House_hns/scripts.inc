@@ -45,14 +45,25 @@ Alola_Melemele_Pokecenter_BugCatcher_Movement_0:
 	step_end
 
 Alola_Melemele_Pokecenter_AceTrainer_Text_0:
+#if GERMAN
 	.string "Hier gibt es jede Menge einzigartige\n"
 	.string "Pokémon!\p"
 	.string "Ich fange sie alle!$"
+#else
+	.string "There are so many unique Pokémon here!\n"
+	.string "I'm gonna catch 'em all!$"
+#endif
 
 Alola_Melemele_Pokecenter_BugCatcher_Text_0:
+#if GERMAN
 	.string "Ich habe hier auf den Inseln ganz\n"
 	.string "neue Pokémon entdeckt!\p"
 	.string "Wie meinen neuen Freund Griffel\nhier!$"
+#else
+	.string "I found some brand new Pokémon\n"
+	.string "here on the Isles!\p"
+	.string "Like my new friend Aipom here!$"
+#endif
 
 Alola_Melemele_Pokecenter_Grubbin_Text_0:
 	.string "Aiip!$"

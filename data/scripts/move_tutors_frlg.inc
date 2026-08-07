@@ -576,5 +576,10 @@ Movement_JumpInPlaceRight:
 	step_end
 
 Text_MoveCanOnlyBeLearnedOnce::
+#if GERMAN
 	.string "Diese Attacke kann nur einmal\n"
 	.string "erlernt werden! Ist das in Ordnung?$"
+#else
+	.string "This move can be learned only\n"
+	.string "once. Is that okay?$"
+#endif

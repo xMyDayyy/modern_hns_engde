@@ -358,21 +358,39 @@ BattleFrontier_BattleArenaLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
+#if GERMAN
 	.string "Hier wird der Kampfgeist der Trainer\n"
 	.string "auf die Probe gestellt!\p"
 	.string "Willkommen im Kampfring!\p"
 	.string "Ich begleite dich beim\n"
 	.string "K.O.-Teamturnier!$"
+#else
+	.string "Where the battling spirit of TRAINERS\n"
+	.string "is put to the test!\p"
+	.string "I welcome you to the BATTLE ARENA!\p"
+	.string "I am your guide to the Set KO Tourney!$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
+#if GERMAN
 	.string "Möchtest du dich der Herausforderung\n"
 	.string "des Kampfrings stellen?$"
+#else
+	.string "Now, do you wish to take\n"
+	.string "the BATTLE ARENA challenge?$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
+#if GERMAN
 	.string "Wir freuen uns auf deine nächste\n"
 	.string "Herausforderung.$"
+#else
+	.string "We await your challenge on\n"
+	.string "another occasion!$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
+#if GERMAN
 	.string "Im Kampfring fechten\n"
 	.string "wir K.O.-Teamturniere aus.\p"
 	.string "Jeder Teilnehmer nimmt drei Pokémon\n"
@@ -394,21 +412,59 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "kampf später nicht fortsetzen.\p"
 	.string "Besiegst du sieben Trainer in Folge,\n"
 	.string "erhältst du Gewinnpunkte.$"
+#else
+	.string "In the BATTLE ARENA, we undertake\n"
+	.string "the Set KO Tourney.\p"
+	.string "All participants enter with a team of\n"
+	.string "three POKéMON.\p"
+	.string "The three POKéMON must be lined up in\n"
+	.string "the order in which they are to appear.\p"
+	.string "During battle, the POKéMON will appear\n"
+	.string "one at a time in the preset order.\p"
+	.string "Once a POKéMON enters battle, it must\n"
+	.string "remain out until the match is decided.\p"
+	.string "If a match remains undecided in\n"
+	.string "three turns, it goes to judging.\p"
+	.string "If you wish to interrupt your challenge,\n"
+	.string "please save the game.\p"
+	.string "If you don't save, you will not be able\n"
+	.string "to continue with your challenge.\p"
+	.string "If you pull off the feat of beating\n"
+	.string "seven TRAINERS in succession,\l"
+	.string "we will present you with Battle Points.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
+#if GERMAN
 	.string "Bevor du den Kampfring betrittst,\n"
 	.string "musst du dein Spiel speichern. Okay?$"
+#else
+	.string "Before showing you to the BATTLE\n"
+	.string "ARENA, you must save. Is that okay?$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
+#if GERMAN
 	.string "Im Kampfring wird in zwei\n"
 	.string "Kategorien gekämpft: Lv. 50 und Offene\l"
 	.string "Kämpfe. Wofür entscheidest du dich?$"
+#else
+	.string "The BATTLE ARENA offers two levels\n"
+	.string "of challenge, Level 50 and Open Level.\l"
+	.string "Which is your choice?$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
+#if GERMAN
 	.string "Bitte wähle drei Pokémon aus, die\n"
 	.string "antreten sollen.$"
+#else
+	.string "Very well, now select your\n"
+	.string "three POKéMON, please.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
+#if GERMAN
 	.string "Entschuldigung!\p"
 	.string "Aber deine Pokémon sind nicht\n"
 	.string "teilnahmeberechtigt.\p"
@@ -419,10 +475,21 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "Eier{STR_VAR_1} nicht zugelassen.\p"
 	.string "Bitte komm wieder, wenn du bereit\n"
 	.string "bist.$"
+#else
+	.string "My dear challenger!\p"
+	.string "You do not have the three POKéMON\n"
+	.string "required for entry.\p"
+	.string "To qualify, you must bring three\n"
+	.string "different kinds of POKéMON.\p"
+	.string "They also must not hold the same\n"
+	.string "kinds of items.\p"
+	.string "EGGS{STR_VAR_1}.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsEnd:
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
+#if GERMAN
 	.string "Entschuldigung!\p"
 	.string "Aber deine Pokémon sind nicht\n"
 	.string "teilnahmeberechtigt.\p"
@@ -433,12 +500,30 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
 	.string "Eier{STR_VAR_1} nicht zugelassen.\p"
 	.string "Bitte komm wieder, wenn du bereit\n"
 	.string "bist.$"
+#else
+	.string "My dear challenger!\p"
+	.string "You do not have the three POKéMON\n"
+	.string "required for entry.\p"
+	.string "To qualify, you must bring three\n"
+	.string "different kinds of POKéMON.\p"
+	.string "The three different POKéMON\n"
+	.string "must all be Level 50 or lower.\p"
+	.string "They also must not hold the same\n"
+	.string "kinds of items.\p"
+	.string "EGGS{STR_VAR_1}.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
+#if GERMAN
 	.string "Ich werde dich nun in den Kampfring\n"
 	.string "begleiten.$"
+#else
+	.string "I shall now guide you to\n"
+	.string "the BATTLE ARENA.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
+#if GERMAN
 	.string "Entschuldigung!\p"
 	.string "Du hast, bevor du die Herausforderung\n"
 	.string "abgebrochen hast, nicht gespeichert.\p"
@@ -447,70 +532,150 @@ BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
 	.string "\p"
 	.string "natürlich die Möglichkeit, dich einer\n"
 	.string "neuen Herausforderung zu stellen.$"
+#else
+	.string "My dear challenger!\p"
+	.string "You did not save the game before\n"
+	.string "shutting down, did you?\p"
+	.string "It is unfortunate, but that has\n"
+	.string "resulted in your disqualification\l"
+	.string "from your challenge.\p"
+	.string "You may, of course, start with a fresh\n"
+	.string "challenge.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
+#if GERMAN
 	.string "Herzlichen Glückwunsch! Du hast sieben\n"
 	.string "Trainer in Folge besiegt!$"
+#else
+	.string "We congratulate you for your splendid\n"
+	.string "string of wins over seven TRAINERS!$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
+#if GERMAN
 	.string "Dein Erfolg wird gespeichert.\n"
 	.string "Bitte warten.$"
+#else
+	.string "Your achievement will be recorded.\n"
+	.string "Please wait while I save the game.$"
+#endif
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
+#if GERMAN
 	.string "In Anerkennung deines siebenfachen\n"
 	.string "Sieges überreichen wir dir diesen Preis.$"
+#else
+	.string "In commemoration of your 7-win streak,\n"
+	.string "we present you with this prize.$"
+#endif
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
+#if GERMAN
 	.string "{PLAYER} gewinnt\n"
 	.string "{STR_VAR_1}.$"
+#else
+	.string "{PLAYER} received the prize\n"
+	.string "{STR_VAR_1}.$"
+#endif
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
+#if GERMAN
 	.string "Oh, dein Beutel ist voll.\p"
 	.string "Bitte schaffe Platz in deinem Beutel\n"
 	.string "und komme dann wieder.$"
+#else
+	.string "Oh?\n"
+	.string "Your BAG seems to be full.\p"
+	.string "I urge you to clear space and\n"
+	.string "return for your prize.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave:
+#if GERMAN
 	.string "Vielen Dank für die Teilnahme!\p"
 	.string "Das Spiel wird gespeichert.\n"
 	.string "Bitte warten.$"
+#else
+	.string "Thank you so much for participating!\p"
+	.string "Please wait while I save the game.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2:
+#if GERMAN
 	.string "Wir freuen uns auf deine nächste\n"
 	.string "Herausforderung.$"
+#else
+	.string "We await your challenge on\n"
+	.string "another occasion!$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
+#if GERMAN
 	.string "Wir haben schon auf dich gewartet!\p"
 	.string "Bevor du den Kampfring betrittst,\n"
 	.string "musst du dein Spiel speichern. Okay?$"
+#else
+	.string "We have been looking forward to\n"
+	.string "your arrival.\p"
+	.string "Before I show you to the BATTLE\n"
+	.string "ARENA, I must save the game.\l"
+	.string "Please wait.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
+#if GERMAN
 	.string "Soll ich den Kampfring-Kampf\n"
 	.string "in deinen Kampfzonenpass eintragen?$"
+#else
+	.string "Shall I record your last BATTLE ARENA\n"
+	.string "match on your FRONTIER PASS?$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
+#if GERMAN
 	.string "Ich habe aufgrund der Referee-\n"
 	.string "Entscheidung verloren…\p"
 	.string "Ich hätte nicht nur defensive Attacken\n"
 	.string "verwenden dürfen, sondern auch\p"
 	.string "angreifen müssen.$"
+#else
+	.string "I lost on the REFEREE's decision…\p"
+	.string "I don't think it was a good idea to only\n"
+	.string "use defensive moves and not attack…$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
+#if GERMAN
 	.string "Ich habe durch die richtige\n"
 	.string "Entscheidung des Referees gewonnen!\p"
 	.string "Kontinuierliche Treffer auf das gegne-\n"
 	.string "rische Pokémon haben sich ausgezahlt.$"
+#else
+	.string "I won in judging!\p"
+	.string "Landing hits consistently on\n"
+	.string "the opponent's POKéMON worked!$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
+#if GERMAN
 	.string "Unser Kampf wurde als Unentschieden\n"
 	.string "gewertet.\p"
 	.string "Als die Zeit abgelaufen war, hatten\n"
 	.string "meine und die gegnerischen Pokémon\l"
 	.string "die gleiche Anzahl KP übrig.$"
+#else
+	.string "Our match was declared a draw.\p"
+	.string "When we ran out of time, both my\n"
+	.string "POKéMON and the opponent's had about\l"
+	.string "the same amount of HP left.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
+#if GERMAN
 	.string "Im Kampfring ist die Reihenfolge\n"
 	.string "der Pokémon entscheidend.\p"
 	.string "Hat dein erstes Pokémon bestimmte\n"
@@ -519,15 +684,35 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
 	.string "diese Nachteile ausgleichen.\p"
 	.string "Ich denke, so stellt man ein hervor-\n"
 	.string "ragendes Team zusammen.$"
+#else
+	.string "In the BATTLE ARENA, the order of\n"
+	.string "POKéMON is totally important.\p"
+	.string "For example, if your first POKéMON\n"
+	.string "has certain type disadvantages,\l"
+	.string "try making your second POKéMON one\l"
+	.string "with moves that are super effective\l"
+	.string "against the first one.\p"
+	.string "I think that will be a good way of\n"
+	.string "making an effective team.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
+#if GERMAN
 	.string "Die K.O.-Teamturnier-Regeln sind hier\n"
 	.string "aufgeführt.$"
+#else
+	.string "The Set KO Tourney's rules are listed.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading:
+#if GERMAN
 	.string "Wähle bitte ein Themengebiet aus.$"
+#else
+	.string "Which heading do you want to read?$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
+#if GERMAN
 	.string "Das K.O.-Teamturnier hat bestimmte\n"
 	.string "Regeln, die du beachten musst.\p"
 	.string "Erstens: Ein Kampf dauert drei Runden.\n"
@@ -539,8 +724,21 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "Pkmn \p"
 	.string "kann nicht ausgetauscht werden, bevor\n"
 	.string "der Kampf entschieden ist.$"
+#else
+	.string "The Set KO Tourney has special rules,\n"
+	.string "unlike standard battles.\p"
+	.string "First, one battle lasts only\n"
+	.string "three turns.\p"
+	.string "If the outcome is not decided after\n"
+	.string "three turns, it goes to judging.\p"
+	.string "The REFEREE will choose the winner\n"
+	.string "based on how the POKéMON battled.\p"
+	.string "Also, a POKéMON cannot be switched out\n"
+	.string "until its battle's outcome is decided.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
+#if GERMAN
 	.string "Der erste Faktor bei der Beurteilung\n"
 	.string "ist der “Verstand”. Hier wird\n"
 	.string "beurteilt,\l"
@@ -549,8 +747,17 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
 	.string "wie\n"
 	.string "oft der Trainer offensive Attacken\l"
 	.string "eingesetzt hat.$"
+#else
+	.string "The first judging factor is “Mind.”\n"
+	.string "This factor evaluates how aggressive\l"
+	.string "the battlers were.\p"
+	.string "The judging is based on how often\n"
+	.string "the TRAINERS ordered the use of\l"
+	.string "offensive moves.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
+#if GERMAN
 	.string "Der zweite Faktor ist das\n"
 	.string "“Geschick”. Hier wird beurteilt, wie\l"
 	.string "effektiv Attacken eingesetzt wurden.\p"
@@ -569,8 +776,28 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
 	.string "Scanner ein und die Attacke deines\l"
 	.string "Pkmn scheitert, wird die Beurteilung\l"
 	.string "nicht nach unten gehen.$"
+#else
+	.string "The second judging factor is “Skill.”\n"
+	.string "This factor evaluates how effectively\l"
+	.string "POKéMON moves were used.\p"
+	.string "If a move worked successfully,\n"
+	.string "the Skill rating goes up.\p"
+	.string "If a move failed, the Skill rating\n"
+	.string "is lowered.\p"
+	.string "If it was an offensive move, the Skill\n"
+	.string "rating goes up if the move was “super\l"
+	.string "effective” and goes down if it was\l"
+	.string "“not very effective.”\p"
+	.string "The Skill rating will not go up for\n"
+	.string "moves such as PROTECT and DETECT.\p"
+	.string "If the opponent used PROTECT or\n"
+	.string "DETECT, and your POKéMON failed to\l"
+	.string "hit with a move, its Skill rating will not\l"
+	.string "go down.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
+#if GERMAN
 	.string "Der dritte Faktor bei der Beurteilung\n"
 	.string "ist der “Körper”. Die am\l"
 	.string "Ende verbleibenden KP sind ausschlag-\n"
@@ -578,15 +805,36 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 	.string "gebend. Die Anzahl der KP, mit der ein\n"
 	.string "Pkmn in den Kampf geht, wird mit der\l"
 	.string "am Ende des Kampfes verglichen.$"
+#else
+	.string "The third judging factor is “Body.”\n"
+	.string "This factor is based on how much HP\l"
+	.string "remained at the end of a battle.\p"
+	.string "The rating takes into account how much\n"
+	.string "HP a POKéMON had at the start of\l"
+	.string "battle, and what remained at the end.$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
+#if GERMAN
 	.string "Ein Sieg über den Ringmeister und ein\n"
 	.string "siebenfacher Sieg über sieben Trainer!\n"
 	.string "\p"
 	.string "Wir gratulieren dir zu deiner\n"
 	.string "herausragenden Leistung!$"
+#else
+	.string "A victory snatched from the ARENA\n"
+	.string "TYCOON, and a seven-TRAINER sweep!\p"
+	.string "We congratulate you on your most\n"
+	.string "splendid challenge!$"
+#endif
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
+#if GERMAN
 	.string "Geschätzter Herausforderer! In Aner-\n"
 	.string "kennung deines unermüdlichen Geistes\l"
 	.string "überreichen wir dir Gewinnpunkte.$"
+#else
+	.string "My dear challenger, in recognition of\n"
+	.string "your indefatigable spirit, please\l"
+	.string "accept these Battle Point(s).$"
+#endif

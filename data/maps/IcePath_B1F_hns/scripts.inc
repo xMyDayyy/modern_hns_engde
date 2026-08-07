@@ -19,8 +19,13 @@ IcePath_B1F_EventScript_PuzzleSkipButtonNo::
 	end
 
 IcePath_B1F_Text_PuzzleSkipButton::
+#if GERMAN
 	.string "Möchtest du dieses Rätsel\n"
 	.string "überspringen?$"
+#else
+	.string "Would you like to skip this\n"
+	.string "puzzle?$"
+#endif
 
 IcePath_B1F_EventScript_Item_Iron::
 	finditem ITEM_IRON
@@ -34,9 +39,17 @@ IcePath_B1F_EventScript_Sign::
 	end
 
 IcePath_B1F_Text_Sign:
+#if GERMAN
 	.string "Achtung Dünnes Eis\n"
 	.string "Benutze Fahrrad\l"
 	.string "Gangschaltung\l"
 	.string "Mit …\l"
 	.string "Das Schild ist verwischt…$"
+#else
+	.string "DANGER CRACKED ICE\n"
+	.string "GO FAST ON BICYCLE\l"
+	.string "SWITCH GEARS BY\l"
+	.string "PRESSING ...\l"
+	.string "The sign is faded...$"
+#endif
 

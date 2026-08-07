@@ -216,29 +216,61 @@ Route117_EventScript_Aisha::
 	end
 
 Route117_Text_DayCarePokemonHadNewMove:
+#if GERMAN
 	.string "Ich habe mein Pokémon in der Pension\n"
 	.string "abgegeben.\p"
 	.string "Als ich es wieder abholte, kannte es\n"
 	.string "eine Attacke, die ich ihm nicht beige-\l"
 	.string "bracht habe. Ich war total überrascht.$"
+#else
+	.string "I left my POKéMON at the DAY CARE.\p"
+	.string "When I got it back, it had a new move\n"
+	.string "that I didn't teach it.\l"
+	.string "I was really, really surprised.$"
+#endif
 
 Route117_Text_ArentTheseFlowersPretty:
+#if GERMAN
 	.string "Was meinst du?\n"
 	.string "Sind diese Blumen nicht wunderhübsch?\n"
 	.string "\p"
 	.string "Ich habe sie alle selber gepflanzt.$"
+#else
+	.string "What do you think?\n"
+	.string "Aren't these flowers pretty?\p"
+	.string "I planted them all!$"
+#endif
 
 Route117_Text_AirIsTastyHere:
+#if GERMAN
 	.string "Die Luft hier ist wunderbar frisch.$"
+#else
+	.string "The air is tasty here!$"
+#endif
 
 Route117_Text_RouteSignVerdanturf:
+#if GERMAN
 	.string "Route 117\n"
 	.string "{LEFT_ARROW} Wiesenflur$"
+#else
+	.string "ROUTE 117\n"
+	.string "{LEFT_ARROW} VERDANTURF TOWN$"
+#endif
 
 Route117_Text_RouteSignMauville:
+#if GERMAN
 	.string "Route 117\n"
 	.string "{RIGHT_ARROW} Malvenfroh City$"
+#else
+	.string "ROUTE 117\n"
+	.string "{RIGHT_ARROW} MAUVILLE CITY$"
+#endif
 
 Route117_Text_DayCareSign:
+#if GERMAN
 	.string "Pokémon-Pension\n"
 	.string "“Lass uns deine Pokémon aufziehen.”$"
+#else
+	.string "POKéMON DAY CARE\n"
+	.string "“Let us raise your POKéMON.”$"
+#endif

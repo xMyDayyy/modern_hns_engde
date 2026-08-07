@@ -19,144 +19,348 @@
 
 // Shared Item Description entries
 
+#if GERMAN
 static const u8 sFullHealDesc[]       = _("Beseitigt alle\n"
                                           "Statusprobleme\n"
                                           "eines Pokémon.");
+#else
+static const u8 sFullHealDesc[]       = _("Heals all the\n"
+                                          "status problems of\n"
+                                          "one Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sPokeDollDesc[]       = _("Ermöglicht Flucht\n"
                                           "im Kampf gegen\n"
                                           "wilde Pokémon.");
+#else
+static const u8 sPokeDollDesc[]       = _("Use to flee from\n"
+                                          "any battle with\n"
+                                          "a wild Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sMaxReviveDesc[]      = _("Belebt Pokémon und\n"
                                           "füllt KP vollständig\n"
                                           "wieder auf.");
+#else
+static const u8 sMaxReviveDesc[]      = _("Revives a fainted\n"
+                                          "Pokémon with all\n"
+                                          "its HP.");
+#endif
 
+#if GERMAN
 static const u8 sHealthFeatherDesc[]  = _("Hebt die\n"
                                           "KP-Basispunkte\n"
                                           "eines Pokémon.");
+#else
+static const u8 sHealthFeatherDesc[]  = _("An item that raises\n"
+                                          "the base HP of\n"
+                                          "a Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sMuscleFeatherDesc[]  = _("Hebt die\n"
                                           "Angr.-Basispunkte\n"
                                           "eines Pokémon.");
+#else
+static const u8 sMuscleFeatherDesc[]  = _("An item that raises\n"
+                                          "the base Attack of\n"
+                                          "a Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sResistFeatherDesc[]  = _("Hebt die\n"
                                           "Vert.-Basispunkte\n"
                                           "eines Pokémon.");
+#else
+static const u8 sResistFeatherDesc[]  = _("An item that raises\n"
+                                          "the base Defense\n"
+                                          "of a Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sGeniusFeatherDesc[]  = _("Hebt die Sp.\n"
                                           "Angr.-Basispunkte\n"
                                           "eines Pokémon.");
+#else
+static const u8 sGeniusFeatherDesc[]  = _("An item that raises\n"
+                                          "the base Sp. Atk.\n"
+                                          "of a Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sCleverFeatherDesc[]  = _("Hebt die Sp.\n"
                                           "Vert.-Basispunkte\n"
                                           "eines Pokémon.");
+#else
+static const u8 sCleverFeatherDesc[]  = _("An item that raises\n"
+                                          "the base Sp. Def.\n"
+                                          "of a Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sSwiftFeatherDesc[]   = _("Hebt die\n"
                                           "Init.-Basispunkte\n"
                                           "eines Pokémon.");
+#else
+static const u8 sSwiftFeatherDesc[]   = _("An item that raises\n"
+                                          "the base Speed of\n"
+                                          "a Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sBigMushroomDesc[]    = _("Ein seltener Pilz\n"
                                           "von hohem Wert.");
+#else
+static const u8 sBigMushroomDesc[]    = _("A rare mushroom\n"
+                                          "that would sell at a\n"
+                                          "high price.");
+#endif
 
+#if GERMAN
 static const u8 sShardsDesc[]         = _("Scherbe eines\n"
                                           "antiken Relikts\n"
                                           "von geringem Wert.");
+#else
+static const u8 sShardsDesc[]         = _("A shard from an\n"
+                                          "ancient item. Can\n"
+                                          "be sold cheaply.");
+#endif
 
+#if GERMAN
 static const u8 sRootFossilDesc[]     = _("Fossil eines ural-\n"
                                           "ten Pokémon, das in\n"
                                           "der Tiefsee lebte.");
+#else
+static const u8 sRootFossilDesc[]     = _("A fossil of an\n"
+                                          "ancient, seafloor-\n"
+                                          "dwelling Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sFossilizedFishDesc[] = _("Fossil eines ural-\n"
                                           "ten Pokémon, das in\n"
                                           "der Tiefsee lebte.");
+#else
+static const u8 sFossilizedFishDesc[] = _("A fossil of an\n"
+                                          "ancient, sea-\n"
+                                          "dwelling Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sBeadMailDesc[]       = _("Brief mit Abbildung\n"
                                           "des Pokémon, das\n"
                                           "ihn trägt.");
+#else
+static const u8 sBeadMailDesc[]       = _("Mail featuring a\n"
+                                          "sketch of the\n"
+                                          "holding Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sEvolutionStoneDesc[] = _("Löst bei bestimm-\n"
                                           "ten Pokémon die\n"
                                           "Entwicklung aus.");
+#else
+static const u8 sEvolutionStoneDesc[] = _("Makes certain\n"
+                                          "species of Pokémon\n"
+                                          "evolve.");
+#endif
 
+#if GERMAN
 static const u8 sNectarDesc[]         = _("Blütennektar, der\n"
                                           "die Form bestimmter\n"
                                           "Pokémon verändert.");
+#else
+static const u8 sNectarDesc[]         = _("Flower nectar that\n"
+                                          "changes the form\n"
+                                          "of certain Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sCharizarditeDesc[]   = _("Mega-Stein, mit dem\n"
                                           "Glurak mega-\n"
                                           "entwickeln kann.");
+#else
+static const u8 sCharizarditeDesc[]   = _("This stone enables\n"
+                                          "Charizard to Mega\n"
+                                          "Evolve in battle.");
+#endif
 
+#if GERMAN
 static const u8 sMewtwoniteDesc[]     = _("Mega-Stein, mit dem\n"
                                           "Mewtu mega-\n"
                                           "entwickeln kann.");
+#else
+static const u8 sMewtwoniteDesc[]     = _("This stone enables\n"
+                                          "Mewtwo to Mega\n"
+                                          "Evolve in battle.");
+#endif
 
+#if GERMAN
 static const u8 sRaichuniteDesc[]     = _("Mega-Stein, mit dem\n"
                                           "Raichu mega-\n"
                                           "entwickeln kann.");
+#else
+static const u8 sRaichuniteDesc[]     = _("This stone enables\n"
+                                          "Raichu to Mega\n"
+                                          "Evolve in battle.");
+#endif
 
+#if GERMAN
 static const u8 sAbsoliteDesc[]       = _("Mega-Stein, mit dem\n"
                                           "Absol mega-\n"
                                           "entwickeln kann.");
+#else
+static const u8 sAbsoliteDesc[]       = _("This stone enables\n"
+                                          "Absol to Mega\n"
+                                          "Evolve in battle.");
+#endif
 
+#if GERMAN
 static const u8 sGarchompiteDesc[]    = _("Mega-Stein, mit dem\n"
                                           "Knakrack mega-\n"
                                           "entwickeln kann.");
+#else
+static const u8 sGarchompiteDesc[]    = _("This stone enables\n"
+                                          "Garchomp to Mega\n"
+                                          "Evolve in battle.");
+#endif
 
+#if GERMAN
 static const u8 sLucarioniteDesc[]    = _("Mega-Stein, mit dem\n"
                                           "Lucario mega-\n"
                                           "entwickeln kann.");
+#else
+static const u8 sLucarioniteDesc[]    = _("This stone enables\n"
+                                          "Lucario to Mega\n"
+                                          "Evolve in battle.");
+#endif
 
+#if GERMAN
 static const u8 sSeaIncenseDesc[]     = _("Item (Tragen)\n"
                                           "verstärkt\n"
                                           "Wasser-Attacken.");
+#else
+static const u8 sSeaIncenseDesc[]     = _("A hold item that\n"
+                                          "slightly boosts\n"
+                                          "Water-type moves.");
+#endif
 
+#if GERMAN
 static const u8 sOddIncenseDesc[]     = _("Item (Tragen)\n"
                                           "verstärkt\n"
                                           "Psycho-Attacken.");
+#else
+static const u8 sOddIncenseDesc[]     = _("A hold item that\n"
+                                          "boosts Psychic-\n"
+                                          "type moves.");
+#endif
 
+#if GERMAN
 static const u8 sRockIncenseDesc[]    = _("Item (Tragen)\n"
                                           "verstärkt\n"
                                           "Gestein-Attacken.");
+#else
+static const u8 sRockIncenseDesc[]    = _("A hold item that\n"
+                                          "raises the power of\n"
+                                          "Rock-type moves.");
+#endif
 
+#if GERMAN
 static const u8 sFullIncenseDesc[]    = _("Item (Tragen) lässt\n"
                                           "den Träger\n"
                                           "langsamer agieren.");
+#else
+static const u8 sFullIncenseDesc[]    = _("A held item that\n"
+                                          "makes the holder\n"
+                                          "move slower.");
+#endif
 
+#if GERMAN
 static const u8 sRoseIncenseDesc[]    = _("Item (Tragen)\n"
                                           "verstärkt\n"
                                           "Pflanzen-Attacken.");
+#else
+static const u8 sRoseIncenseDesc[]    = _("A hold item that\n"
+                                          "raises the power of\n"
+                                          "Grass-type moves.");
+#endif
 
+#if GERMAN
 static const u8 sLuckIncenseDesc[]    = _("Doppelter Geldbe-\n"
                                           "trag, wenn Träger\n"
                                           "am Kampf teilnimmt.");
+#else
+static const u8 sLuckIncenseDesc[]    = _("Doubles money in\n"
+                                          "battle if the\n"
+                                          "holder takes part.");
+#endif
 
+#if GERMAN
 static const u8 sPureIncenseDesc[]    = _("Item (Tragen) kann\n"
                                           "wilde Pokémon\n"
                                           "abhalten.");
+#else
+static const u8 sPureIncenseDesc[]    = _("A hold item that\n"
+                                          "helps repel wild\n"
+                                          "Pokémon.");
+#endif
 
+#if GERMAN
 static const u8 sKingsRockDesc[]      = _("Item (Tragen) kann\n"
                                           "Gegner zurückwei-\n"
                                           "chen lassen.");
+#else
+static const u8 sKingsRockDesc[]      = _("A hold item that\n"
+                                          "may cause flinching\n"
+                                          "when the foe is hit.");
+#endif
 
+#if GERMAN
 static const u8 sFigyBerryDesc[]      = _("Item (Tragen) füllt\n"
                                           "KP auf, bewirkt\n"
                                           "evtl. Verwirrung.");
+#else
+static const u8 sFigyBerryDesc[]      = _("A hold item that\n"
+                                          "restores HP but\n"
+                                          "may confuse.");
+#endif
 
 const u8 gQuestionMarksItemName[] = _("????????");
 
 static const u8 sQuestionMarksDesc[]  = _("?????");
 
+#if GERMAN
 static const u8 sKeyToRoomDesc[]      = _("Schlüssel zur Tür\n"
                                           "einer Kabine auf\n"
                                           "dem Schiffswrack.");
+#else
+static const u8 sKeyToRoomDesc[]      = _("A key that opens a\n"
+                                          "door inside the\n"
+                                          "Abandoned Ship.");
+#endif
 
+#if GERMAN
 static const u8 sTeraShardDesc[]      = _("Kristallstück eines\n"
                                           "im Kampf besiegten\n"
                                           "Tera-Pokémon.");
+#else
+static const u8 sTeraShardDesc[]      = _("These shards may\n"
+                                          "form when a Tera\n"
+                                          "Pokémon faints.");
+#endif
 
+#if GERMAN
 static const u8 sGenericMulchDesc[]   = _("Ein Dünger, der für\n"
                                           "den hiesigen Boden\n"
                                           "ungeeignet ist.");
+#else
+static const u8 sGenericMulchDesc[]   = _("A fertilizer that\n"
+                                          "is unsuitable for\n"
+                                          "local soil.");
+#endif
 
 const struct ItemInfo gItemsInfo[] =
 {

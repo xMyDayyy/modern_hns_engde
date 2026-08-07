@@ -194,6 +194,7 @@ SeafoamIslands_B4F_EventScript_FastCurrentSign::
 	end
 
 Text_RockSlideTeach::
+#if GERMAN
 	.string "Wenn du so hoch oben im steinigen\n"
 	.string "Gebirge bist wie hier, stellen\l"
 	.string "Gerölllawinen eine Gefahr dar.\l"
@@ -204,23 +205,57 @@ Text_RockSlideTeach::
 	.string "Du scheinst keine Angst zu haben.\n"
 	.string "Soll ein Pokémon Steinhagel\l"
 	.string "erlernen?$"
+#else
+	.string "When you're up on a rocky mountain\n"
+	.string "like this, rockslides are a threat.\p"
+	.string "Can you imagine?\n"
+	.string "Boulders tumbling down on you?\p"
+	.string "That'd be, like, waaaaaaaaaaah!\n"
+	.string "Total terror!\p"
+	.string "You don't seem to be scared.\n"
+	.string "Want to try using ROCK SLIDE?$"
+#endif
 
 Text_RockSlideDeclined::
+#if GERMAN
 	.string "Oh, du hast also doch Angst!$"
+#else
+	.string "Oh, so you are scared after all.$"
+#endif
 
 Text_RockSlideWhichMon::
+#if GERMAN
 	.string "Welches Pokémon soll\n"
 	.string "Steinhagel erlernen?$"
+#else
+	.string "Which POKéMON should I teach\n"
+	.string "ROCK SLIDE?$"
+#endif
 
 Text_RockSlideTaught::
+#if GERMAN
 	.string "Es wäre sehr gruselig, das in\n"
 	.string "diesem Tunnel einzusetzen…$"
+#else
+	.string "It might be scary to use it in this\n"
+	.string "tunnel…$"
+#endif
 
 SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow::
+#if GERMAN
 	.string "Felsen könnten die Strömung\n"
 	.string "vielleicht umlenken!$"
+#else
+	.string "Hint: Boulders might change the\n"
+	.string "flow of water.$"
+#endif
 
 SeafoamIslands_B4F_Text_DangerFastCurrent::
+#if GERMAN
 	.string "Vorsicht!\n"
 	.string "Gefährliche Strömung!$"
+#else
+	.string "DANGER\n"
+	.string "Fast current!$"
+#endif
 

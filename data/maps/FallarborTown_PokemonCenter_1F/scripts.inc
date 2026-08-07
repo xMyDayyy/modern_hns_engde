@@ -82,6 +82,7 @@ FallarborTown_PokemonCenter_1F_Movement_LanetteExitWest:
 	step_end
 
 FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
+#if GERMAN
 	.string "Oh, hallo.\n"
 	.string "Wer bist du?\p"
 	.string "Du heißt {PLAYER}{KUN}?\n"
@@ -101,17 +102,47 @@ FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
 	.string "das\l"
 	.string "Lagerungs-System benutzt.\p"
 	.string "Wenn du magst, besuche mich doch mal.\n"
-	.string "Ich wohne an der Route 114.$"
+	.string "Ich wohne an der {COLOR RED}Route 11{COLOR DARK_GRAY}4.$"
+#else
+	.string "Oh, hello.\n"
+	.string "You are?\p"
+	.string "Okay, your name's {PLAYER}{KUN}.\n"
+	.string "I can see that you're a TRAINER.\p"
+	.string "So that means you use the POKéMON\n"
+	.string "Storage System I developed.\p"
+	.string "How I arrived at that conclusion is\n"
+	.string "a simple deductive process.\p"
+	.string "You spoke to me because you wanted\n"
+	.string "to access something on this PC.\p"
+	.string "Oh, I'm sorry. I'm LANETTE.\p"
+	.string "Honestly, I'm glad to meet you--it's\n"
+	.string "great you're using the Storage System.\p"
+	.string "If you could, please visit me at home.\n"
+	.string "My house is on ROUTE 114.$"
+#endif
 
 FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown:
+#if GERMAN
 	.string "Ich frage mich, wie die Pokémon wohl\n"
 	.string "vor langer, langer Zeit aussahen.\p"
 	.string "Vielleicht kann mir der Fossilmaniac\n"
 	.string "am Ortsrand etwas dazu sagen.$"
+#else
+	.string "I wonder what POKéMON looked like\n"
+	.string "long, long ago?\p"
+	.string "Maybe the FOSSIL MANIAC at the edge\n"
+	.string "of town will know.$"
+#endif
 
 FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees:
+#if GERMAN
 	.string "Auf den Feldern von Laubwechselfeld\n"
 	.string "haben wir widerstandsfähige Bäume\p"
 	.string "gepflanzt, die auch in der Vulkanasche\n"
 	.string "gedeihen.$"
+#else
+	.string "In the fields of FALLARBOR, we plant\n"
+	.string "seedlings of hardy trees that thrive\l"
+	.string "even in volcanic ash.$"
+#endif
 

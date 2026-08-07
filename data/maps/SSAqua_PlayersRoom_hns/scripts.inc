@@ -18,9 +18,19 @@ SSAquaRooms_EventScript_Bed_PokecenterChallenge::
 
 
 SSAquaRooms_Text_TakeRestOnBed_PokecenterChallenge:
+#if GERMAN
 	.string "Sorry, du machst gerade die\n"
 	.string "Pokécenter-Challenge!$"
+#else
+	.string "Sorry, you are playing with\n"
+	.string "the POKéCENTER challenge!$"
+#endif
 
 SSAquaRooms_Text_TakeRestOnBed:
+#if GERMAN
 	.string "Hier ist ein Bett…\n"
 	.string "Zeit für etwas Erholung.$"
+#else
+	.string "There's a bed…\n"
+	.string "Let's take a rest.$"
+#endif

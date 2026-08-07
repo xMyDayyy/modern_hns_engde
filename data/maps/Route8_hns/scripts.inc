@@ -33,68 +33,148 @@ Route8_EventScript_Tom::
 	end
 
 Route8_Text_BikerDwayneSeen:
+#if GERMAN
 	.string "Wir repräsentieren die\n"
 	.string "Pokémon-Trainergilde aus Kanto.\l"
 	.string "Einen wie dich erledigen wir mit links!$"
+#else
+	.string "We're the KANTO POKéMON FEDERATION\n"
+	.string "trainer group.\p"
+	.string "We'll drive you under our wheels!$"
+#endif
 
 Route8_Text_BikerDwayneBeaten:
+#if GERMAN
 	.string "E-entschuldigung!$"
+#else
+	.string "S-sorry!$"
+#endif
 
 Route8_Text_BikerDwayneAfter:
+#if GERMAN
 	.string "Die Pokémon-Trainergilde aus Kanto\n"
 	.string "wird niemals untergehen!$"
+#else
+	.string "The KANTO POKéMON FEDERATION will\n"
+	.string "never fall!$"
+#endif
 
 Route8_Text_BikerHarrisSeen:
+#if GERMAN
 	.string "Das Ordnungsamt hat unseren\n"
 	.string "Tunnelpfad zuschütten lassen.\l"
 	.string "Uuuh, das macht mich ganz rasend!$"
+#else
+	.string "The cops shut down our\n"
+	.string "UNDERGROUND PATH!\p"
+	.string "That really fries me!$"
+#endif
 
 Route8_Text_BikerHarrisBeaten:
+#if GERMAN
 	.string "V-vergib mir!$"
+#else
+	.string "F-forgive me!$"
+#endif
 
 Route8_Text_BikerHarrisAfter:
+#if GERMAN
 	.string "In die Schranken gewiesen\n"
 	.string "von einem Rowdy aus Johto…$"
+#else
+	.string "Wiped out by some punk from\n"
+	.string "JOHTO…$"
+#endif
 
 Route8_Text_BikerZekeSeen:
+#if GERMAN
 	.string "Wir sind die\n"
 	.string "Pokémon-Trainergilde aus Kanto! Nimm\l"
 	.string "dich in Acht!$"
+#else
+	.string "We're the KANTO POKéMON FEDERA-\n"
+	.string "TION!\n"
+	.string "Right on!$"
+#endif
 
 Route8_Text_BikerZekeBeaten:
+#if GERMAN
 	.string "E-entschuldige!$"
+#else
+	.string "Yikes! Sorry!$"
+#endif
 
 Route8_Text_BikerZekeAfter:
+#if GERMAN
 	.string "Wir werden unser Bestes geben,\n"
 	.string "von nun an niemandem mehr\l"
 	.string "Ärger zu bereiten… wirklich!$"
+#else
+	.string "We'll try not to disturb anyone\n"
+	.string "from now on…$"
+#endif
 
 Route8_Text_SupernerdSamSeen:
+#if GERMAN
 	.string "Möchte zu gerne mal wissen, wie\n"
 	.string "dieser Magnetzug funktioniert!$"
+#else
+	.string "How does the MAGNET TRAIN work?$"
+#endif
 
 Route8_Text_SupernerdSamBeaten:
+#if GERMAN
 	.string "Ich möchte nur den Magnetzug sehen…$"
+#else
+	.string "I just want to see the MAGNET\n"
+	.string "TRAIN…$"
+#endif
 
 Route8_Text_SupernerdSamAfter:
+#if GERMAN
 	.string "Die Kraft von Magneten\n"
 	.string "ist schon beeindruckend!$"
+#else
+	.string "The power of magnets is awesome!$"
+#endif
 
 Route8_Text_SupernerdTomSeen:
+#if GERMAN
 	.string "Toll… du hast aber\n"
 	.string "viele Orden!$"
+#else
+	.string "Hm… You've got many GYM BADGES.$"
+#endif
 
 Route8_Text_SupernerdTomBeaten:
+#if GERMAN
 	.string "Wie ich dachte…\n"
 	.string "Du bist stark!$"
+#else
+	.string "Just as I thought… You're tough!$"
+#endif
 
 Route8_Text_SupernerdTomAfter:
+#if GERMAN
 	.string "Arena-Orden verleihen Vorteile\n"
 	.string "in Kämpfen.$"
+#else
+	.string "GYM BADGES give you advantages in\n"
+	.string "battles.$"
+#endif
 
 Route8_Text_LockedDoor:
+#if GERMAN
 	.string "Abgeschlossen…$"
+#else
+	.string "It's locked…$"
+#endif
 
 Route8_Text_UndergroundPathSign:
+#if GERMAN
 	.string "Das Flugblatt ist zerrissen.\p"
 	.string "Es ist nicht mehr lesbar…$"
+#else
+	.string "The flyer's torn.\p"
+	.string "It's impossible to read…$"
+#endif

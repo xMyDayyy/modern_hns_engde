@@ -41,19 +41,39 @@ FuchsiaCity_PokemonCenter_EventScript_JanineClone::
 	end
 
 FuchsiaCity_PokemonCenter1F_Text_CooltrainerM:
+#if GERMAN
 	.string "He! Du hast einen völlig neuen Dex!\p"
-	.string "Hat Prof. Eich dir den gegeben?$"
+	.string "Hat {COLOR RED}Prof. Eich{COLOR DARK_GRAY} dir den gegeben?$"
+#else
+	.string "Hey! You have a brand new kind of\n"
+	.string "POKéDEX.\p"
+	.string "Did PROF.OAK give that to you?$"
+#endif
 
 FuchsiaCity_PokemonCenter1F_Text_CooltrainerF:
+#if GERMAN
 	.string "Ich habe mich in der Pokémon-Arena\n"
 	.string "ganz schön erschreckt, sage ich dir!\l"
 	.string "Da waren ganz viele Mädchen, die\l"
 	.string "alle gleich aussahen!$"
+#else
+	.string "I got quite a shock at the GYM.\p"
+	.string "There were all these girls who\n"
+	.string "looked identical.$"
+#endif
 
 FuchsiaCity_PokemonCenter1F_Text_JanineImpersonator1:
+#if GERMAN
 	.string "Hier kommt Janina! Hokuspokus fidibus!$"
+#else
+	.string "I'm JANINE! Hocus-pocus… Poof!$"
+#endif
 
 FuchsiaCity_PokemonCenter1F_Text_JanineImpersonator2:
+#if GERMAN
 	.string "Siehst du! Jetzt\n"
 	.string "sehe ich genauso aus wie sie!$"
+#else
+	.string "See? I look just like her now!$"
+#endif
 

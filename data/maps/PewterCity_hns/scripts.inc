@@ -58,16 +58,28 @@ PewterCity_EventScript_Cooltrainer::
 	end
 
 PewterCity_Text_CooltrainerF:
+#if GERMAN
 	.string "Warst du schon in der Arena\n"
 	.string "von Marmoria City?\p"
 	.string "Der Leiter dort verwendet\n"
 	.string "Gestein-Pokémon!$"
+#else
+	.string "Have you visited PEWTER GYM?\p"
+	.string "The LEADER uses ROCK-type POKéMON.$"
+#endif
 
 PewterCity_Text_BugCatcher:
-	.string "Nachts spielen Piepi beim Mondberg.\n"
+#if GERMAN
+	.string "Nachts spielen Piepi beim {COLOR RED}Mondberg{COLOR DARK_GRAY}.\n"
 	.string "Aber scheinbar nicht in jeder Nacht!$"
+#else
+	.string "At night, CLEFAIRY come out to play at\n"
+	.string "MT.MOON.\p"
+	.string "But not every night.$"
+#endif
 
 PewterCity_Text_Gramps:
+#if GERMAN
 	.string "Oh, du bist den ganzen Weg von\n"
 	.string "Johto bis hierher gekommen!\p"
 	.string "Als ich noch jung war, habe ich auch\n"
@@ -76,12 +88,28 @@ PewterCity_Text_Gramps:
 	.string "an mich selbst als junger Mann…\p"
 	.string "Hier, dieses Item habe ich damals in\n"
 	.string "Johto gefunden. Es gehört dir.$"
+#else
+	.string "Ah, you came all the way out here from\n"
+	.string "JOHTO?\p"
+	.string "That brings back memories. When I was\n"
+	.string "young, I went to JOHTO to train.\p"
+	.string "You remind me so much of what I was like\n"
+	.string "as a young man.\p"
+	.string "Here. I want you to have this item I\n"
+	.string "found in JOHTO.$"
+#endif
 
 PewterCity_Text_Gramps_GotSilverWing:
+#if GERMAN
 	.string "Neue und unbekannte Orte zu\n"
 	.string "erforschen und fremde Menschen\l"
 	.string "kennenzulernen…\p"
 	.string "Das ist das Schöne am Reisen!$"
+#else
+	.string "Going to new, unknown places and seeing\n"
+	.string "new people…\p"
+	.string "Those are the joys of travel.$"
+#endif
 
 PewterCity_EventScript_CitySign::
 	msgbox PewterCity_Text_Sign, MSGBOX_NPC
@@ -104,25 +132,51 @@ PewterCity_EventScript_WelcomeSign::
 	end
 
 PewterCity_Text_Sign:
+#if GERMAN
 	.string "Marmoria City\n"
 	.string "Die steingraue Stadt$"
+#else
+	.string "PEWTER CITY\n"
+	.string "A Stone Gray City$"
+#endif
 
 PewterCity_Text_GymSign:
+#if GERMAN
 	.string "Pokémon-Arena von Marmoria City\n"
 	.string "Leiter: Rocko\l"
 	.string "Der felsenharte Pokémon-Trainer$"
+#else
+	.string "PEWTER CITY POKéMON GYM\n"
+	.string "LEADER: BROCK\p"
+	.string "The Rock Solid POKéMON Trainer$"
+#endif
 
 PewterCity_Text_MuseumSign:
+#if GERMAN
 	.string "Hier ist eine Nachricht…\p"
 	.string "Marmorias Museum\n"
 	.string "Der Wissenschaft ist wegen\l"
 	.string "Renovierungsarbeiten geschlossen…$"
+#else
+	.string "There's a notice here…\p"
+	.string "PEWTER MUSEUM OF SCIENCE is closed for\n"
+	.string "renovations…$"
+#endif
 
 PewterCity_Text_MtMoonGiftShopSign:
+#if GERMAN
 	.string "Hier ist eine Nachricht…\p"
 	.string "Souvenirladen am\n"
-	.string "Mondberg Jetzt geöffnet!$"
+	.string "{COLOR RED}Mondberg{COLOR DARK_GRAY} Jetzt geöffnet!$"
+#else
+	.string "There's a notice here…\p"
+	.string "MT.MOON GIFT SHOP NOW OPEN!$"
+#endif
 
 PewterCity_Text_WelcomeSign:
+#if GERMAN
 	.string "Willkommen in Marmoria City!$"
+#else
+	.string "WELCOME TO PEWTER CITY!$"
+#endif
 

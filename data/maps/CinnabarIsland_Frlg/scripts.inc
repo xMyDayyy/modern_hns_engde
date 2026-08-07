@@ -352,35 +352,74 @@ CinnabarIsland_EventScript_GymSign::
 	end
 
 CinnabarIsland_Text_DoorIsLocked::
+#if GERMAN
 	.string "Die Tür ist verschlossen...$"
+#else
+	.string "The door is locked…$"
+#endif
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
+#if GERMAN
 	.string "Pyro, der Arenaleiter der\n"
 	.string "Zinnoberinsel, ist ein seltsamer\l"
 	.string "Mann. Er lebt hier seit Jahren.$"
+#else
+	.string "CINNABAR GYM's BLAINE is quite the\n"
+	.string "odd fellow.\p"
+	.string "He's lived on the island since way\n"
+	.string "before the LAB was built.$"
+#endif
 
 CinnabarIsland_Text_ScientistsExperimentInMansion::
+#if GERMAN
 	.string "Forscher experimentieren in dem\n"
 	.string "ausgebrannten Gebäude.$"
+#else
+	.string "Scientists conduct experiments \n"
+	.string "in the burned-out building.\p"
+	.string "You know, the one they call the\n"
+	.string "POKéMON MANSION.$"
+#endif
 
 CinnabarIsland_Text_IslandSign::
+#if GERMAN
 	.string "Zinnoberinsel\n"
 	.string "Die Stadt brennender Leidenschaft!$"
+#else
+	.string "CINNABAR ISLAND\n"
+	.string "The Fiery Town of Burning Desire$"
+#endif
 
 CinnabarIsland_Text_PokemonLab::
+#if GERMAN
 	.string "Pokémon-Labor$"
+#else
+	.string "POKéMON LAB$"
+#endif
 
 CinnabarIsland_Text_GymSign::
+#if GERMAN
 	.string "Zinnoberinsel Pokémon-Arena\n"
 	.string "Arenaleiter: Pyro\l"
 	.string "Der Hitzköpfige Quizmaster!$"
+#else
+	.string "CINNABAR ISLAND POKéMON GYM\n"
+	.string "LEADER: BLAINE\l"
+	.string "The Hotheaded Quiz Master!$"
+#endif
 
 CinnabarIsland_Text_HeyIfItIsntPlayer::
+#if GERMAN
 	.string "Häh?\n"
 	.string "Wenn das nicht {PLAYER} ist!$"
+#else
+	.string "Huh?\n"
+	.string "Hey, if it isn't {PLAYER}!$"
+#endif
 
 CinnabarIsland_Text_ComeWithMeToOneIsland::
-	.string "Ich bin es, Bill.\n"
+#if GERMAN
+	.string "Ich bin es, {COLOR RED}Bill{COLOR DARK_GRAY}.\n"
 	.string "Lange nicht gesehen!\p"
 	.string "Ich hoffe, du benutzt noch mein\n"
 	.string "PC-System.\p"
@@ -394,12 +433,32 @@ CinnabarIsland_Text_ComeWithMeToOneIsland::
 	.string "ich bin auf dem Weg dorthin.\p"
 	.string "Wie wär es?\n"
 	.string "Hast du Lust mitzukommen?$"
+#else
+	.string "Look, it's me, BILL.\n"
+	.string "Long time no see!\p"
+	.string "I hope you're still using my\n"
+	.string "PC system.\p"
+	.string "Well, listen, since we met up here,\n"
+	.string "how about spending time with me?\p"
+	.string "There's this little island in the far\n"
+	.string "south called ONE ISLAND.\p"
+	.string "A friend invited me, so I'm on my\n"
+	.string "way out there.\p"
+	.string "How about it?\n"
+	.string "Do you feel like coming with me?$"
+#endif
 
 CinnabarIsland_Text_AllRightLetsGo::
+#if GERMAN
 	.string "Einverstanden!\n"
 	.string "Und los!$"
+#else
+	.string "All right, then.\n"
+	.string "Let's go!$"
+#endif
 
 CinnabarIsland_Text_IllBeWaitingInPokeCenter::
+#if GERMAN
 	.string "Wie, du bist zu beschäftigt?\p"
 	.string "Nun gut.\n"
 	.string "Das Schiff hat noch nicht angelegt.\p"
@@ -407,22 +466,50 @@ CinnabarIsland_Text_IllBeWaitingInPokeCenter::
 	.string "dort drüben auf dich.\p"
 	.string "Hol mich ab, wenn du deine\n"
 	.string "Geschäfte erledigt hast.$"
+#else
+	.string "What, are you too busy?\p"
+	.string "Well, all right.\n"
+	.string "The boat hasn't arrived yet anyway.\p"
+	.string "I'll be waiting at the POKéMON\n"
+	.string "CENTER over there.\p"
+	.string "Come see me when you're done with\n"
+	.string "your business here.$"
+#endif
 
 CinnabarIsland_Text_MyPalsBoatArrived::
+#if GERMAN
 	.string "Scheint, dass das Schiff von\n"
 	.string "meinem Freund auch angekommen\l"
 	.string "ist.\l"
 	.string "Er hat es extra zur Zinnoberinsel\l"
 	.string "geschickt, um mich abzuholen.$"
+#else
+	.string "Looks like my pal's boat arrived,\n"
+	.string "too.\p"
+	.string "He sent it specially here to\n"
+	.string "CINNABAR to pick me up.$"
+#endif
 
 CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
+#if GERMAN
 	.string "Das war eine lange Fahrt, oder?\p"
 	.string "Mein Kamerad Celio scheint deine\n"
 	.string "Gegenwart genossen zu haben.\p"
 	.string "Ich bin sicher, er würde dich gerne\n"
 	.string "erneut willkommen heißen.\p"
-	.string "Wenn du den Tri-Pass hast, kannst\n"
+	.string "Wenn du den {COLOR RED}Tri-Pass{COLOR DARK_GRAY} hast, kannst\n"
 	.string "du jederzeit mit der Fähre von\l"
-	.string "Orania City zu ihm fahren.\p"
+	.string "{COLOR RED}Orania City{COLOR DARK_GRAY} zu ihm fahren.\p"
 	.string "Danke für die Begleitung!$"
+#else
+	.string "Hey, wasn't that a long cruise?\p"
+	.string "My buddy CELIO seemed to enjoy\n"
+	.string "your company.\p"
+	.string "I'm sure he'd welcome you if you\n"
+	.string "were to visit him again.\p"
+	.string "If you have a TRI-PASS, you can\n"
+	.string "always take a ferry there from\l"
+	.string "VERMILION PORT.\p"
+	.string "All right, thanks for your company!$"
+#endif
 

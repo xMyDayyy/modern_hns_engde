@@ -8,16 +8,32 @@ Route47_EventScript_Hiker::
 	end
 
 Route47_Text_HikerSeen::
+#if GERMAN
 	.string "Du kommst goldrichtig! Ich war gerade\n"
 	.string "dabei, mich ein wenig einsam zu fühlen…\p"
 	.string "Aber ein Kampf ist ein Kampf! Also los!$"
+#else
+	.string "Longing for others is...\n"
+	.string "what it is. \p"
+	.string "But battles are battles,\n"
+	.string "so let's go!$"
+#endif
 
 Route47_Text_HikerBeaten::
+#if GERMAN
 	.string "Wuahahaha$"
+#else
+	.string "Wahaha!$"
+#endif
 
 Route47_Text_HikerAfter::
+#if GERMAN
 	.string "Nach einem Kampf sollte man immer mit\n"
 	.string "einem Lachen auseinandergehen!$"
+#else
+	.string "After a battle you should always leave\n"
+	.string "with a parting laugh!$"
+#endif
 
 Route47_EventScript_Camper::
 	trainerbattle_single TRAINER_GRANT_HNS, Route47_Text_CamperSeen, Route47_Text_CamperBeaten
@@ -25,16 +41,31 @@ Route47_EventScript_Camper::
 	end
 
 Route47_Text_CamperSeen::
+#if GERMAN
 	.string "Wir haben’s nicht so mit Menschenmengen\n"
 	.string "und zelten daher lieber im Freien.\l"
 	.string "Geht es dir etwa genauso?$"
+#else
+	.string "I'm not good with large crowds, so\n"
+	.string "I'm camping out here with my\l"
+	.string "POKéMON!$"
+#endif
 
 Route47_Text_CamperBeaten::
+#if GERMAN
 	.string "Wir müssen wohl noch tiefer in\n"
 	.string "die Berge gehen…$"
+#else
+	.string "I should be headed deeper into the\n"
+	.string "mountain I guess...$"
+#endif
 
 Route47_Text_CamperAfter::
+#if GERMAN
 	.string "Tschüss!$"
+#else
+	.string "See ya!$"
+#endif
 
 Route47_EventScript_Thom::
 	trainerbattle_double TRAINER_THOM_AND_KAE_HNS, Route47_Text_Couple1Seen, Route47_Text_Couple1Beaten, Route104_Text_GinaNotEnoughMons
@@ -49,23 +80,46 @@ Route47_EventScript_Kae::
 	end
 
 Route47_Text_Couple1Seen::
+#if GERMAN
 	.string "Thomas: Eins plus eins ist zwei.\p"
 	.string "Aber wir zwei zusammen sind viel\n"
 	.string "stärker!\p"
 	.string "Katja: Wir zwei sind kein\n"
 	.string "langweiliges Gespann!$"
+#else
+	.string "THOM: One plus one is two. But the\n"
+	.string "two of us together is much\l"
+	.string "stronger!\p"
+	.string "KAE: The two of us aren't just some\n"
+	.string "boring pair!$"
+#endif
 
 Route47_Text_Couple1Beaten::
+#if GERMAN
 	.string "Uwe: Damit hatte ich jetzt\n"
 	.string "nicht gerechnet…$"
+#else
+	.string "THOM: That wasn't what I expected.\l"
+	.string "KAE: You're unusual too!$"
+#endif
 
 Route47_Text_Couple1After1::
+#if GERMAN
 	.string "Uwe: Dass du so stark bist,\n"
 	.string "hätte niemand ahnen können!$"
+#else
+	.string "THOM: It seems your power is\n"
+	.string "impossible to predict!$"
+#endif
 
 Route47_Text_Couple1After2::
+#if GERMAN
 	.string "Nele: Ich habe dich für einen einfachen\n"
 	.string "Trainer gehalten, aber du bist mehr!$"
+#else
+	.string "KAE: I figured you were an ordinary\n"
+	.string "lone trainer. Boy was I wrong!$"
+#endif
 
 Route47_EventScript_Duff::
 	trainerbattle_double TRAINER_DUFF_AND_EDA_HNS, Route47_Text_Couple2Seen, Route47_Text_Couple2Beaten, Route104_Text_GinaNotEnoughMons
@@ -79,25 +133,48 @@ Route47_EventScript_Eda::
 	end
 
 Route47_Text_Couple2Seen::
+#if GERMAN
 	.string "David: Meine Freundin zu beschützen\n"
 	.string "lässt mein Herz höherfliegen!\p"
 	.string "Eva: Meine Gefühle für meinen\n"
 	.string "Freund sind so weit und tief\l"
 	.string "wie der Ozean!$"
+#else
+	.string "DUFF: Watching over my girlfriend\n"
+	.string "makes my heart soar!\p"
+	.string "EDA: My heart's feelings for my\n"
+	.string "boyfriend are as wide and deep\l"
+	.string "the ocean!$"
+#endif
 
 Route47_Text_Couple2Beaten::
+#if GERMAN
 	.string "David: Ich war dir nicht gewachsen…\n"
 	.string "Eva: Du bist wirklich etwas\l"
 	.string "Besonderes…$"
+#else
+	.string "DUFF: I was no match for you...\l"
+	.string "EDA: You are really something...$"
+#endif
 
 Route47_Text_Couple2After1::
+#if GERMAN
 	.string "Piz: Ich danke dir für diesen\n"
 	.string "vorbildlichen Kampf. Mögen all deine\l"
 	.string "Wege geebnet sein!$"
+#else
+	.string "DUFF: Thank you for the awe-\n"
+	.string "inspiring battle! Bye!$"
+#endif
 
 Route47_Text_Couple2After2::
+#if GERMAN
 	.string "Mari: Ich wünsche dir, dass auch du\n"
 	.string "einen so wunderbaren Partner findest!$"
+#else
+	.string "EDA: You should really find a\n"
+	.string "wonderful partner, too!$"
+#endif
 
 Route47_EventScript_Sage::
 	lock
@@ -140,4 +217,8 @@ Route47_EventScript_Chinchou::
 	end
 
 Route47_Text_Chinchou:
+#if GERMAN
 	.string "Lampi: Luuuu!$"
+#else
+	.string "CHINCHOU: Chou!$"
+#endif

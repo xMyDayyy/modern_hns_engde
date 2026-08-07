@@ -449,67 +449,137 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	end
 
 PalletTown_Text_OakDontGoOut::
+#if GERMAN
 	.string "Eich: Warte!\n"
 	.string "Geh nicht raus!$"
+#else
+	.string "OAK: Hey! Wait!\n"
+	.string "Don't go out!$"
+#endif
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
-	.string "Prof. Eich: Draußen ist es\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Draußen ist es\n"
 	.string "gefährlich! Wilde Pokémon leben im\l"
 	.string "hohen Gras!\p"
 	.string "Du brauchst eigene Pokémon, um\n"
 	.string "dich zu schützen.\p"
 	.string "Komm, folge mir!$"
+#else
+	.string "OAK: It's unsafe!\n"
+	.string "Wild POKéMON live in tall grass!\p"
+	.string "You need your own POKéMON for\n"
+	.string "your protection.\p"
+	.string "I know!\n"
+	.string "Here, come with me!$"
+#endif
 
 PalletTown_Text_RaisingMonsToo::
+#if GERMAN
 	.string "Auch ich ziehe Pokémon auf!\p"
 	.string "Wenn sie stark sind, können sie mich\n"
 	.string "beschützen!$"
+#else
+	.string "I'm raising POKéMON, too.\p"
+	.string "When they get strong, they can\n"
+	.string "protect me.$"
+#endif
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
+#if GERMAN
 	.string "Die Technik heutzutage ist\n"
 	.string "unglaublich!\p"
 	.string "Man kann sogar Items und Pokémon\n"
 	.string "via PC lagern und wieder abrufen!$"
+#else
+	.string "Technology is incredible!\p"
+	.string "You can now store and recall items\n"
+	.string "and POKéMON as data via PC.$"
+#endif
 
 PalletTown_Text_OakPokemonResearchLab::
+#if GERMAN
 	.string "Professor Eich\n"
 	.string "Pokémon-Labor$"
+#else
+	.string "OAK POKéMON RESEARCH LAB$"
+#endif
 
 PalletTown_Text_PlayersHouse::
+#if GERMAN
 	.string "Haus von {PLAYER}$"
+#else
+	.string "{PLAYER}'s house$"
+#endif
 
 PalletTown_Text_RivalsHouse::
+#if GERMAN
 	.string "Haus von {RIVAL}$"
+#else
+	.string "{RIVAL}'s house$"
+#endif
 
 PalletTown_Text_TownSign::
+#if GERMAN
 	.string "Alabastia\n"
 	.string "Dich erwarten aufregende\l"
 	.string "Abenteuer!$"
+#else
+	.string "PALLET TOWN\n"
+	.string "Shades of your journey await!$"
+#endif
 
 PalletTown_Text_OakLetMeSeePokedex::
+#if GERMAN
 	.string "Eich: Ah, {PLAYER}!\n"
 	.string "Du bist also zurück?\p"
 	.string "Wie ist es denn um deinen\n"
-	.string "Pokédex bestellt?\p"
+	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} bestellt?\p"
 	.string "Darf ich ihn sehen?\p"
 	.string "Aha…$"
+#else
+	.string "OAK: Ah, {PLAYER}!\n"
+	.string "You're back, are you?\p"
+	.string "How much have you filled in your\n"
+	.string "POKéDEX?\p"
+	.string "May I see it?\p"
+	.string "Let's see…$"
+#endif
 
 PalletTown_Text_CaughtXPuttingInHonestEffort::
+#if GERMAN
 	.string "Du hast {STR_VAR_2} gefangen…\p"
 	.string "Hmm, es scheint, du würdest dich\n"
 	.string "wirklich anstrengen.\p"
 	.string "Wenn du mehr Einträge hast,\n"
 	.string "musst du ihn mir erneut zeigen.$"
+#else
+	.string "You've caught {STR_VAR_2}…\p"
+	.string "Hm, it looks as if you're putting\n"
+	.string "in an honest effort.\p"
+	.string "When you manage to fill it some\n"
+	.string "more, come show me, please.$"
+#endif
 
 PalletTown_Text_CaughtXImpressiveFollowMe::
+#if GERMAN
 	.string "Du hast {STR_VAR_2} gefangen…\n"
 	.string "Das ist wirklich beeindruckend!\p"
 	.string "Es gibt etwas, das ich dich fragen\n"
 	.string "wollte, {PLAYER}.\p"
 	.string "Komm!\n"
 	.string "Folge mir!$"
+#else
+	.string "You've caught… {STR_VAR_2}!?\n"
+	.string "Now, this is impressive!\p"
+	.string "There's something I wanted to ask\n"
+	.string "of you, {PLAYER}.\p"
+	.string "Come.\n"
+	.string "Follow me.$"
+#endif
 
 PalletTown_Text_OakYouEnjoyingTraveling::
+#if GERMAN
 	.string "Eich: Ah, {PLAYER}!\n"
 	.string "Dir scheint das Reisen Spaß zu\l"
 	.string "machen!\l"
@@ -518,36 +588,79 @@ PalletTown_Text_OakYouEnjoyingTraveling::
 	.string "auch abgelegene Orte bereist.\p"
 	.string "Das ist gut!\n"
 	.string "Hoho!$"
+#else
+	.string "OAK: Ah, {PLAYER}!\n"
+	.string "You seem to be enjoying traveling.\p"
+	.string "Knowing you, {PLAYER}, I can easily\n"
+	.string "imagine you going out to even more\l"
+	.string "exotic locales.\p"
+	.string "Good for you, good for you.\n"
+	.string "Hohoho.$"
+#endif
 
 @ For the NPC in Pallet Town that talks about the Trainer Tips sign
 PalletTown_Text_HmmIsThatRight::
+#if GERMAN
 	.string "Hmm…\n"
 	.string "Ist das richtig…$"
+#else
+	.string "Hmm…\n"
+	.string "Is that right…$"
+#endif
 
 PalletTown_Text_OhLookLook::
+#if GERMAN
 	.string "Oh!\n"
 	.string "Sieh mal, sieh!$"
+#else
+	.string "Oh!\n"
+	.string "Look, look!$"
+#endif
 
 PalletTown_Text_ReadItReadIt::
+#if GERMAN
 	.string "Lies es! Lies es!$"
+#else
+	.string "Read it, read it!$"
+#endif
 
 @ Used by sign
 PalletTown_Text_PressStartToOpenMenu::
+#if GERMAN
 	.string "Drücke Start, um das Menü\n"
 	.string "aufzurufen!$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "Press START to open the MENU!$"
+#endif
 
 PalletTown_Text_SignsAreUsefulArentThey::
+#if GERMAN
 	.string "Schilder sind hilfreich, nicht?$"
+#else
+	.string "Signs are useful, aren't they?$"
+#endif
 
 PalletTown_Text_LookCopiedTrainerTipsSign::
+#if GERMAN
 	.string "Sieh nur!\p"
 	.string "Ich habe das, was auf einem dieser\n"
 	.string "Tipps für Trainer-Schilder\l"
 	.string "steht, abgeschrieben!$"
+#else
+	.string "Look, look!\p"
+	.string "I copied what it said on one of\n"
+	.string "those TRAINER TIPS signs!$"
+#endif
 
 @ Used by NPC
 PalletTown_Text_PressStartToOpenMenuCopy::
+#if GERMAN
 	.string "Drücke Start, um das Menü\n"
 	.string "aufzurufen!$"
+#else
+	.string "TRAINER TIPS!\p"
+	.string "Press START to open the MENU!$"
+#endif
 
 

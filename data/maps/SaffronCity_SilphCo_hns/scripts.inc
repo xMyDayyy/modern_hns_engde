@@ -29,7 +29,11 @@ SaffronCity_SilphCo_EventScript_Refused::
 	end
 
 SaffronCity_SilphCo_Text_Refused:
+#if GERMAN
 	.string "Wie?$"
+#else
+	.string "Oh...$"
+#endif
 
 SaffronCity_SilphCo_EventScript_TreeckoChosen::
 	closemessage
@@ -91,12 +95,20 @@ SaffronCity_SilphCo_Movement_StevenLeave:
 
 
 SaffronCity_SilphCo_Text_Steven1:
+#if GERMAN
 	.string "Ja, hallo?\n"
 	.string "Oh, äh, nein…\l"
 	.string "Nein, die Verbindung ist bloß…\p"
 	.string "Der Rest hängt von meinem Vater ab…\p"
 	.string "Ja, in Ordnung…\n"
 	.string "Ja, ich komme jetzt zurück. Bis gleich!$"
+#else
+	.string "Hello...\n"
+	.string "You're breaking up...\l"
+	.string "I think it depends on my dad.\l"
+	.string "I see...\n"
+	.string "I'll be on my way. See you soon.$"
+#endif
 
 SaffronCity_SilphCo_Text_Steven2:
 	.string "Troy: Oh, ist das nicht ein Pokédex?\n"
@@ -109,8 +121,13 @@ SaffronCity_SilphCo_Text_Steven2:
 	.string "hat er in deinem Kopf?$"
 
 SaffronCity_SilphCo_Text_Steven3:
+#if GERMAN
 	.string "Richtig gewählt! Ich gebe dir\n"
 	.string "{STR_VAR_1}!$"
+#else
+	.string "You chose correctly! I'll give you\n"
+	.string "{STR_VAR_1}!$"
+#endif
 
 SaffronCity_SilphCo_Text_Steven4:
 	.string "Troy: Trainiere es mit viel Liebe!\n"
@@ -139,24 +156,52 @@ SaffronCity_SilphCo_EventScript_Sign2::
 	end
 
 SilphCo_Text_Sign1:
+#if GERMAN
 	.string "Silph Co.\n"
 	.string "EG Rezeption.$"
+#else
+	.string "SILPH CO.\n"
+	.string "1F RECEPTION.$"
+#endif
 
 SilphCo_Text_Sign2:
+#if GERMAN
 	.string "Silph Co.\n"
 	.string "Fahrstuhl außer Betrieb.$"
+#else
+	.string "SILPH CO.\n"
+	.string "ELEVATOR OUT OF SERVICE$"
+#endif
 
 SilphCo_Text_Receptionist:
+#if GERMAN
 	.string "Willkommen im Bürogebäude\n"
 	.string "der Silph Co.!$"
+#else
+	.string "Welcome. This is SILPH CO.'s HEAD\n"
+	.string "OFFICE BUILDING.$"
+#endif
 
 SilphCo_Text_Officer:
+#if GERMAN
 	.string "Nur das Personal\n"
 	.string "hat Zutritt zu den oberen Geschossen.\p"
 	.string "Aber, da du nun schon mal da bist,\n"
 	.string "gebe ich dir dieses hübsche Souvenir.$"
+#else
+	.string "Only employees are permitted to\n"
+	.string "go upstairs.\p"
+	.string "But since you came such a long\n"
+	.string "way,\p"
+	.string "have this neat little souvenir.$"
+#endif
 
 SilphCo_Text_Officer_GotUpGrade:
+#if GERMAN
 	.string "Das ist das neueste Produkt\n"
 	.string "der Silph Co.! Das gibt es noch\l"
 	.string "nirgendwo zu kaufen!$"
+#else
+	.string "It's SILPH CO.'s latest product.\p"
+	.string "It's not for sale anywhere yet.$"
+#endif

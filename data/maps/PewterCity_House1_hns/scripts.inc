@@ -16,7 +16,15 @@ PewterCity_House1_EventScript_Nidorian::
 	end
 
 PewterCity_House1_Text_SuperNerd:
+#if GERMAN
 	.string "Nidoran, los!$"
+#else
+	.string "NIDORAN, shake!$"
+#endif
 
 PewterCity_House1_Text_Nidoran:
+#if GERMAN
 	.string "Nidoran♂: Nidoran!$"
+#else
+	.string "NIDORAN: Gau gau!$"
+#endif

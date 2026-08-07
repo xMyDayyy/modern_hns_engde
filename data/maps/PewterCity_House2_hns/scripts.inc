@@ -6,7 +6,12 @@ PewterCity_House2_EventScript_Gramps::
 	end
 
 PewterCity_House2_Text_Gramps:
+#if GERMAN
 	.string "Ich döse gern bei laufendem\n"
 	.string "Radio ein…\p"
 	.string "…Zzzz…$"
+#else
+	.string "I like snoozing with the radio on…\n"
+	.string "…Zzzz…$"
+#endif
 

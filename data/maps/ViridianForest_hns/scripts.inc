@@ -30,6 +30,7 @@ ViridianForest_EventScript_Bugsy::
 	end
 
 ViridianForest_Text_Bugsy:
+#if GERMAN
 	.string "Kai: Ich bin hier, um nach Käfer-\n"
 	.string "Pokémon aus Kanto zu suchen!\p"
 	.string "Ich will als Trainer für Käfer-Pokémon\n"
@@ -37,6 +38,14 @@ ViridianForest_Text_Bugsy:
 	.string "Oh, übrigens!\n"
 	.string "Wie wär’s, wenn wir beide\l"
 	.string "Telefonnummern austauschen?$"
+#else
+	.string "BUGSY: I came to KANTO to look for\n"
+	.string "BUG-TYPE POKéMON, so I can become\l"
+	.string "a stronger BUG-TYPE POKéMON\l"
+	.string "TRAINER!\p"
+    .string "If you're ready for another match,\n"
+    .string "I'll be at the DOJO in SAFFRON!$"
+#endif
 
 ViridianForest_TriggerScript_Pichu1::
 	lock

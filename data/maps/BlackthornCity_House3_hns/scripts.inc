@@ -67,45 +67,92 @@ BlackthornCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 BlackthornCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
+#if GERMAN
 	.string "Äh… Oh, ja, ich bin der Attacken-\n"
 	.string "verlerner.\p"
 	.string "Ich kann Pokémon ihre Attacken\n"
 	.string "vergessen lassen.\p"
 	.string "Möchtest du das?$"
+#else
+	.string "Uh…\n"
+	.string "Oh, yes, I'm the MOVE DELETER.\p"
+	.string "I can make POKéMON forget their moves.\p"
+	.string "Would you like me to do that?$"
+#endif
 
 BlackthornCity_MoveDeletersHouse_Text_WhichMonShouldForget:
+#if GERMAN
 	.string "Welches Pokémon soll eine Attacke\n"
 	.string "vergessen?$"
+#else
+	.string "Which POKéMON should forget a move?$"
+#endif
 
 BlackthornCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
+#if GERMAN
 	.string "Welche Attacke soll vergessen\n"
 	.string "werden?$"
+#else
+	.string "Which move should be forgotten?$"
+#endif
 
 BlackthornCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
+#if GERMAN
 	.string "{STR_VAR_1} kennt scheinbar nur eine\n"
 	.string "einzige Attacke…$"
+#else
+	.string "{STR_VAR_1} knows only one move\n"
+	.string "so it can't be forgotten…$"
+#endif
 
 BlackthornCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
+#if GERMAN
 	.string "Hm! {STR_VAR_2} von {STR_VAR_1}?\n"
 	.string "Diese Attacke soll vergessen werden?$"
+#else
+	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
+	.string "That move should be forgotten?$"
+#endif
 
 BlackthornCity_MoveDeletersHouse_Text_MonHasForgottenMove:
+#if GERMAN
 	.string "Perfekt gelungen!\p"
 	.string "{STR_VAR_1} hat\n"
 	.string "{STR_VAR_2} komplett vergessen.$"
+#else
+	.string "It worked to perfection!\p"
+	.string "{STR_VAR_1} has forgotten\n"
+	.string "{STR_VAR_2} completely.$"
+#endif
 
 BlackthornCity_MoveDeletersHouse_Text_ComeAgain:
+#if GERMAN
 	.string "Komm wieder, wenn es Attacken gibt,\n"
 	.string "die vergessen werden sollen.$"
+#else
+	.string "Come again if there are moves that\n"
+	.string "need to be forgotten.$"
+#endif
 
 BlackthornCity_MoveDeletersHouse_Text_EggCantForgetMoves:
+#if GERMAN
 	.string "Was?\n"
 	.string "Ein Ei kennt doch keine Attacken!$"
+#else
+	.string "What?\n"
+	.string "No EGG should know any moves.$"
+#endif
 
 BlackthornCity_MoveDeletersHouse_Text_CantForgetSurf:
+#if GERMAN
 	.string "Hm!\p"
 	.string "Dein {STR_VAR_1} scheint Surfer\n"
 	.string "nicht vergessen zu wollen.$"
+#else
+	.string "Hm!\p"
+	.string "Your {STR_VAR_1} doesn't seem willing\n"
+	.string "to forget SURF.$"
+#endif
 
 BlackthornCity_MoveRelearnersHouse_EventScript_MoveRelearner::
 	lockall
@@ -173,9 +220,14 @@ BlackthornCity_MoveRelearnersHouse_EventScript_Randomizer::
 	end
 
 BlackthornCity_MoveRelearnersHouse_Text_SorryCantHelp:
+#if GERMAN
 	.string "Sorry, ich kann dir nicht helfen.$"
+#else
+	.string "Sorry, I can't help you.$"
+#endif
 
 BlackthornCity_MoveRelearnersHouse_Text_ImTheMoveTutor:
+#if GERMAN
 	.string "Ich bin der Attacken-Tutor.\p"
 	.string "Ich kenne alle Attacken, die Pokémon\n"
 	.string "lernen, jede einzelne, und ich kann\l"
@@ -184,40 +236,86 @@ BlackthornCity_MoveRelearnersHouse_Text_ImTheMoveTutor:
 	.string "Attacke beibringen, wenn du möchtest.\p"
 	.string "Ich tue es für eine Herzschuppe.\n"
 	.string "Die sammle ich gerade.$"
+#else
+	.string "I'm the MOVE TUTOR.\p"
+	.string "I know all the moves that POKéMON\n"
+	.string "learn--every one of them--and I can\l"
+	.string "teach POKéMON those moves.\p"
+	.string "I can teach a move to a POKéMON\n"
+	.string "of yours if you'd like.\p"
+	.string "I'll do it for a HEART SCALE.\n"
+	.string "I'm collecting those now.$"
+#endif
 
 BlackthornCity_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
+#if GERMAN
 	.string "Oh! Das ist es! Das ist ehrlich und\n"
 	.string "wahrhaftig eine Herzschuppe!\l"
 	.string "Lass mich raten…\p"
 	.string "Ich soll einem Pokémon eine\n"
 	.string "alte Attacke beibringen?!?$"
+#else
+	.string "Oh! That's it! That's an honest to\n"
+	.string "goodness HEART SCALE!\p"
+	.string "Let me guess, you want me to teach\n"
+	.string "a move?$"
+#endif
 
 BlackthornCity_MoveRelearnersHouse_Text_TutorWhichMon:
+#if GERMAN
 	.string "Welches Pokémon soll sich an\n"
 	.string "eine alte Attacke erinnern?$"
+#else
+	.string "Which POKéMON needs tutoring?$"
+#endif
 
 BlackthornCity_MoveRelearnersHouse_Text_TeachWhichMove:
+#if GERMAN
 	.string "Welchem deiner Pokémon soll ich\n"
 	.string "die Attacke beibringen?$"
+#else
+	.string "Which move should I teach?$"
+#endif
 
 BlackthornCity_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
+#if GERMAN
 	.string "Tut mir leid…\p"
 	.string "Anscheinend habe ich keine Attacke,\n"
 	.string "die ich diesem Pokémon beibringen\l"
 	.string "kann.$"
+#else
+	.string "Sorry…\p"
+	.string "It doesn't appear as if I have any move\n"
+	.string "I can teach that POKéMON.$"
+#endif
 
 BlackthornCity_MoveRelearnersHouse_Text_HandedOverHeartScale:
+#if GERMAN
 	.string "{PLAYER} gibt im Austausch dafür\n"
 	.string "eine Herzschuppe ab.$"
+#else
+	.string "{PLAYER} handed over one HEART SCALE\n"
+	.string "in exchange.$"
+#endif
 
 BlackthornCity_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
+#if GERMAN
 	.string "Komm mit einer Herzschuppe wieder, wenn\n"
 	.string "ich einem deiner Pokémon mit einer alten\l"
 	.string "Attacke auf die Sprünge helfen soll!$"
+#else
+	.string "If your POKéMON need to learn a move,\n"
+	.string "come back with a HEART SCALE.$"
+#endif
 
 BlackthornCity_MoveRelearnersHouse_Text_CantTeachEgg:
+#if GERMAN
 	.string "Hm? Es gibt keine einzige Attacke,\n"
 	.string "die ich einem Ei beibringen kann.$"
+#else
+	.string "Hunh? There isn't a single move that\n"
+	.string "I can teach an EGG.$"
+#endif
 
 
 

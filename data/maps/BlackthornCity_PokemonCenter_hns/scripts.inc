@@ -16,14 +16,28 @@ BlackthornCity_PokemonCenter_EventScript_Twin::
 	end
 
 BlackthornCity_PokemonCenter1FGentlemanText:
+#if GERMAN
 	.string "Tief im Inneren des fernen Indigo\n"
 	.string "Plateaus befindet sich die Pokémon Liga.\p"
 	.string "Die fähigsten Trainer des ganzen Landes\n"
 	.string "kommen dort zusammen!$"
+#else
+	.string "Deep inside far-off INDIGO\n"
+	.string "PLATEAU is the POKéMON LEAGUE.\p"
+	.string "I hear the best trainers gather\n"
+	.string "there from around the country.$"
+#endif
 
 BlackthornCity_PokemonCenter1FTwinText:
+#if GERMAN
 	.string "Es gibt da eine ganz bestimmte Attacke,\n"
 	.string "die ich meinem Pokémon unbedingt\l"
 	.string "beibringen möchte. Also suchte ich den\l"
 	.string "Attacken-Verlerner auf und habe es\l"
 	.string "eine VM-Attacke vergessen lassen.$"
+#else
+	.string "There was this move I just had\n"
+	.string "to teach my POKéMON.\p"
+	.string "So I got the MOVE DELETER to make\n"
+	.string "it forget an HM move.$"
+#endif

@@ -170,6 +170,7 @@ PokemonLeague_HallOfFame_Movement_PlayerEnter:
 	step_end
 
 PokemonLeague_HallOfFame_LanceText:
+#if GERMAN
 	.string "Siegfried: Es ist lange her, dass ich\n"
 	.string "zuletzt hier war.\p"
 	.string "Hier ehren wir die Liga-Champions\n"
@@ -188,8 +189,27 @@ PokemonLeague_HallOfFame_LanceText:
 	.string "was zu Größe gehört!\p"
 	.string "{PLAYER}, lass mich dich und deine\n"
 	.string "Partner als Champions eintragen!$"
+#else
+    .string "LANCE: It's been a long time since I\n"
+    .string "last came here.\p"
+    .string "This is where we honor the LEAGUE\n"
+    .string "CHAMPIONS for all eternity.\p"
+    .string "Their courageous POKéMON are also\n"
+    .string "inducted.\p"
+    .string "Here today, we witnessed the rise\n"
+    .string "of a new LEAGUE CHAMPION--a\p"
+    .string "trainer who feels compassion for,\n"
+    .string "and trust toward, all POKéMON.\p"
+    .string "A trainer who succeeded through\n"
+    .string "perseverance and determination.\p"
+    .string "The new LEAGUE CHAMPION who has\n"
+    .string "all the makings of greatness!\p"
+    .string "{PLAYER}, allow me to register you\n"
+    .string "and your partners as CHAMPIONS!$"
+#endif
 
 PokemonLeague_HallOfFame_Rematch_LanceText:
+#if GERMAN
 	.string "Siegfried: Ich erinnere mich, es ist\n"
 	.string "noch nicht lange her, dass ich\p"
 	.string "dich hier als Johto-Champion\n"
@@ -217,4 +237,29 @@ PokemonLeague_HallOfFame_Rematch_LanceText:
 	.string "Es ist mir eine Ehre, {PLAYER},\n"
 	.string "dich und deine treuen Partner\l"
 	.string "erneut als Champions einzutragen.$"
+#else
+    .string "LANCE: I remember, it wasn't long ago\n"
+    .string "I stood here, welcoming you as\p"
+    .string "the CHAMPION of JOHTO.\p"
+    .string "And now, here we are again, in this\n"
+    .string "sacred place where we honor the very\p"
+    .string "best trainers and their POKéMON.\p"
+    .string "Today, you've proven yourself not\n"
+    .string "just in JOHTO, but in KANTO as well,\l"
+    .string "besting even my strongest team.\p"
+    .string "You've shown remarkable compassion\n"
+    .string "and trust in your POKéMON,\l"
+    .string "a bond that has carried you to\l"
+    .string "victory time and again.\p"
+    .string "Your journey, marked by\n"
+    .string "perseverance and unwavering\l"
+    .string "determination,\l"
+    .string "speaks to your true spirit as a\l"
+    .string "trainer.\p"
+    .string "You have all the makings of a true\n"
+    .string "great, perhaps even the greatest.\p"
+    .string "{PLAYER}, it is my honor to register\n"
+    .string "you, and your trusted partners,\l"
+    .string "as champions once again.$"
+#endif
 

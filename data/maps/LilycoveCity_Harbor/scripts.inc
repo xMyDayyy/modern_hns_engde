@@ -537,53 +537,114 @@ LilycoveCity_Harbor_Movement_SailorBoardWithBrineyEast:
 	step_end
 
 LilycoveCity_Harbor_Text_FerryUnavailable:
+#if GERMAN
 	.string "Bitte? Du suchst ein Schiff?\p"
 	.string "Tut mir Leid, aber die Fähre ist\n"
 	.string "momentan nicht in Betrieb…$"
+#else
+	.string "I beg your pardon?\n"
+	.string "You're looking for a ship?\p"
+	.string "I'm sorry, the ferry service isn't\n"
+	.string "available at present…$"
+#endif
 
 LilycoveCity_Harbor_Text_MayISeeYourTicket:
+#if GERMAN
 	.string "Hallo, du willst mit der Fähre fahren?\n"
 	.string "Zeigst du mir dann bitte dein Ticket?$"
+#else
+	.string "Hello, are you here for the ferry?\n"
+	.string "May I see your TICKET?$"
+#endif
 
 LilycoveCity_Harbor_Text_NoTicket:
+#if GERMAN
 	.string "{PLAYER} besitzt kein Ticket.\p"
 	.string "Das tut mir Leid!\p"
 	.string "Du benötigst ein Ticket, um mit der\n"
 	.string "Fähre fahren zu können.$"
+#else
+	.string "{PLAYER} doesn't have the TICKET…\p"
+	.string "I'm terribly sorry.\p"
+	.string "You must have a TICKET to board\n"
+	.string "the ferry.$"
+#endif
 
 LilycoveCity_Harbor_Text_FlashTicketWhereTo:
+#if GERMAN
 	.string "{PLAYER} zeigt das Ticket.\p"
 	.string "Perfekt! Das ist alles, was du\n"
 	.string "brauchst! \p"
 	.string "Und wo soll die Reise hingehen?$"
+#else
+	.string "{PLAYER} flashed the TICKET.\p"
+	.string "Perfect! That's all you need!\p"
+	.string "And where would you like to go?$"
+#endif
 
 LilycoveCity_Harbor_Text_SailAnotherTime:
+#if GERMAN
 	.string "Bitte fahre bald mit uns!$"
+#else
+	.string "Please sail with us another time!$"
+#endif
 
 LilycoveCity_Harbor_Text_SlateportItIs:
+#if GERMAN
 	.string "Nach Graphitport City, einverstanden?$"
+#else
+	.string "SLATEPORT CITY it is, then!$"
+#endif
 
 LilycoveCity_Harbor_Text_BattleFrontierItIs:
-	.string "Zur Kampfzone, einverstanden?$"
+#if GERMAN
+	.string "Zur {COLOR RED}Kampfzone{COLOR DARK_GRAY}, einverstanden?$"
+#else
+	.string "BATTLE FRONTIER it is, then!$"
+#endif
 
 LilycoveCity_Harbor_Text_PleaseBoard:
+#if GERMAN
 	.string "Bitte komm an Bord. Wir legen bald ab.$"
+#else
+	.string "Please board the ferry and wait for\n"
+	.string "departure.$"
+#endif
 
 LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo:
+#if GERMAN
 	.string "Und? Wo soll die Reise hingehen?$"
+#else
+	.string "Then, where would you like to go?$"
+#endif
 
 LilycoveCity_Harbor_Text_SailorFerryUnavailable:
+#if GERMAN
 	.string "Solange die Fähre noch nicht see-\n"
 	.string "tüchtig ist, haben wir Seeleute\l"
 	.string "nichts zu tun…\p"
 	.string "Ich wünschte, sie würden sich ein\n"
 	.string "bisschen beeilen - die Leute von der\l"
 	.string "Werft von Graphitport City.$"
+#else
+	.string "Until they finish making the ferry,\n"
+	.string "we sailors have nothing to do…\p"
+	.string "I wish they'd get a move on, the folks\n"
+	.string "at the SHIPYARD in SLATEPORT.$"
+#endif
 
 LilycoveCity_Harbor_Text_SailorFerryAvailable:
+#if GERMAN
 	.string "Die Fähre MS Tide ist endlich in\n"
 	.string "Betrieb.\p"
 	.string "Die Leute von der Werft in\n"
 	.string "Graphitport City müssen wirklich\l"
 	.string "hart gearbeitet haben.\p"
 	.string "Nun, jetzt ist meine Arbeit gefragt!$"
+#else
+	.string "The ferry S.S. TIDAL is finally in\n"
+	.string "operation.\p"
+	.string "The folks at the SHIPYARD in SLATEPORT\n"
+	.string "must've worked extra hard.\p"
+	.string "Well, it's my turn to get busy now!$"
+#endif

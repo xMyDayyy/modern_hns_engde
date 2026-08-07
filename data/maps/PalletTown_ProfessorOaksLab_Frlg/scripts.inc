@@ -1299,77 +1299,162 @@ PalletTown_ProfessorOaksLab_EventScript_RightSignAlt::
 	end
 
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
+#if GERMAN
 	.string "{RIVAL}: Hallo {PLAYER}!\n"
 	.string "Opa ist gerade nicht da!$"
+#else
+	.string "{RIVAL}: What, it's only {PLAYER}?\n"
+	.string "Gramps isn't around.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
+#if GERMAN
 	.string "{RIVAL}: Opa!\n"
 	.string "Ich will nicht länger warten!$"
+#else
+	.string "{RIVAL}: Gramps!\n"
+	.string "I'm fed up with waiting!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
+#if GERMAN
 	.string "{RIVAL}: Halt!\n"
 	.string "Opa! Und was ist mit mir?$"
+#else
+	.string "{RIVAL}: Hey! Gramps! No fair!\n"
+	.string "What about me?$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
+#if GERMAN
 	.string "{RIVAL}: Ich bin nicht so\n"
 	.string "ungeduldig wie du!\p"
 	.string "Du darfst zuerst wählen, {PLAYER}!$"
+#else
+	.string "{RIVAL}: Heh, I don't need to be\n"
+	.string "greedy like you. I'm mature!\p"
+	.string "Go ahead and choose, {PLAYER}!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
+#if GERMAN
 	.string "{RIVAL}: Ich nehme dieses hier.$"
+#else
+	.string "{RIVAL}: I'll take this one, then!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
+#if GERMAN
 	.string "{RIVAL} erhält\n"
 	.string "{STR_VAR_1}!$"
+#else
+	.string "{RIVAL} received the {STR_VAR_1}\n"
+	.string "from PROF. OAK!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher::
+#if GERMAN
 	.string "{RIVAL}: Mein Pokémon sieht viel\n"
 	.string "stärker aus!$"
+#else
+	.string "{RIVAL}: My POKéMON looks a lot\n"
+	.string "tougher than yours.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
+#if GERMAN
 	.string "{RIVAL}: Warte, {PLAYER}!\n"
 	.string "Lass uns unsere Pokémon testen!\p"
 	.string "Komm schon!\n"
 	.string "Ich fordere dich heraus!$"
+#else
+	.string "{RIVAL}: Wait, {PLAYER}!\n"
+	.string "Let's check out our POKéMON!\p"
+	.string "Come on, I'll take you on!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeat::
+#if GERMAN
 	.string "Was? Unmöglich!\n"
 	.string "Ich habe mir das falsche Pokémon\l"
 	.string "ausgesucht!$"
+#else
+	.string "WHAT?\n"
+	.string "Unbelievable!\l"
+	.string "I picked the wrong POKéMON!$"
+#endif
 
 @ Also used for early Route 22 battle
 Text_RivalVictory::
+#if GERMAN
 	.string "{RIVAL}: Ja!\n"
 	.string "Ich bin der Größte!$"
+#else
+	.string "{RIVAL}: Yeah!\n"
+	.string "Am I great or what?$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
+#if GERMAN
 	.string "{RIVAL}: O.K.! Ich werde meine\n"
 	.string "Pokémon trainieren, damit sie\l"
 	.string "stärker werden!\p"
 	.string "{PLAYER}! Opa!\n"
 	.string "Wir sehen uns später!$"
+#else
+	.string "{RIVAL}: Okay! I'll make my\n"
+	.string "POKéMON battle to toughen it up!\p"
+	.string "{PLAYER}! Gramps!\n"
+	.string "Smell you later!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
+#if GERMAN
 	.string "{RIVAL}: Opa!$"
+#else
+	.string "{RIVAL}: Gramps!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
+#if GERMAN
 	.string "{RIVAL}: Warum hast du mich\n"
 	.string "hierher bestellt?$"
+#else
+	.string "{RIVAL}: I almost forgot!\n"
+	.string "What did you call me for?$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps::
+#if GERMAN
 	.string "{RIVAL}: Alles klar, Opa!\n"
 	.string "Überlass es ruhig mir!$"
+#else
+	.string "{RIVAL}: All right, Gramps!\n"
+	.string "Leave it all to me!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
+#if GERMAN
 	.string "{PLAYER}, es tut mir Leid, aber ich\n"
 	.string "brauche deine Hilfe nicht!\p"
 	.string "Genau! Ich leihe mir von\n"
 	.string "meiner Schwester eine Karte!\p"
 	.string "Und dir soll sie keine geben,\n"
 	.string "{PLAYER}! Hahaha!$"
+#else
+	.string "{PLAYER}, I hate to say it, but you\n"
+	.string "won't be necessary for this.\p"
+	.string "I know! I'll borrow a TOWN MAP\n"
+	.string "from my sis!\p"
+	.string "I'll tell her not to lend you one,\n"
+	.string "{PLAYER}! Hahaha!\p"
+	.string "Don't bother coming around to\n"
+	.string "my place after this!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
-	.string "Prof. Eich: {RIVAL}?\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: {RIVAL}?\n"
 	.string "Lass mich nachdenken...\p"
 	.string "Ach richtig! Ihr solltet ja zu mir\n"
 	.string "kommen! Wartet einen Moment!\p"
@@ -1383,118 +1468,266 @@ PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
 	.string "Jetzt, da ich alt bin, habe ich nur\n"
 	.string "drei Pokémon übrig.\p"
 	.string "Aber ich gebe dir eines ab! Wähle!$"
+#else
+	.string "OAK: {RIVAL}?\n"
+	.string "Let me think…\p"
+	.string "Oh, that's right, I told you to\n"
+	.string "come! Just wait!\p"
+	.string "Here, {PLAYER}.\p"
+	.string "There are three POKéMON here.\p"
+	.string "Haha!\p"
+	.string "The POKéMON are held inside\n"
+	.string "these POKé BALLS.\p"
+	.string "When I was young, I was a serious\n"
+	.string "POKéMON TRAINER.\p"
+	.string "But now, in my old age, I have\n"
+	.string "only these three left.\p"
+	.string "You can have one.\n"
+	.string "Go on, choose!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
-	.string "Prof. Eich: Habe ein wenig Geduld,\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Habe ein wenig Geduld,\n"
 	.string "{RIVAL}!\l"
 	.string "Auch du sollst eines bekommen!$"
+#else
+	.string "OAK: Be patient, {RIVAL}.\n"
+	.string "You can have one, too!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
+#if GERMAN
 	.string "Eich: Also {PLAYER}!\p"
 	.string "In diesen Pokébällen sind\n"
 	.string "Pokémon.\p"
 	.string "Welches möchtest du haben?$"
+#else
+	.string "OAK: Now, {PLAYER}.\p"
+	.string "Inside those three POKé BALLS are\n"
+	.string "POKéMON.\p"
+	.string "Which one will you choose for\n"
+	.string "yourself?$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
-	.string "Prof. Eich: Warte noch einen\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Warte noch einen\n"
 	.string "Moment, bevor du gehst!$"
+#else
+	.string "OAK: Hey!\n"
+	.string "Don't go away yet!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
+#if GERMAN
 	.string "Ah! Glumanda soll es sein!\n"
 	.string "Trainiere es geduldig!\p"
 	.string "{PLAYER}, du möchtest also das\n"
 	.string "Feuer-Pokémon Glumanda?$"
+#else
+	.string "Ah! CHARMANDER is your choice.\n"
+	.string "You should raise it patiently.\p"
+	.string "So, {PLAYER}, you're claiming the\n"
+	.string "FIRE POKéMON CHARMANDER?$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
+#if GERMAN
 	.string "Ah! Schiggy soll es sein!\n"
 	.string "Es ist das Training wert!\p"
 	.string "{PLAYER}, du möchtest also das\n"
 	.string "Wasser-Pokémon Schiggy?$"
+#else
+	.string "Hm! SQUIRTLE is your choice.\n"
+	.string "It's one worth raising.\p"
+	.string "So, {PLAYER}, you've decided on the\n"
+	.string "WATER POKéMON SQUIRTLE?$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
+#if GERMAN
 	.string "Ah! Bisasam soll es sein!\n"
 	.string "Es ist leicht zu trainieren!\p"
 	.string "{PLAYER}, du möchtest also das\n"
 	.string "Pflanzen-Pokémon Bisasam?$"
+#else
+	.string "I see! BULBASAUR is your choice.\n"
+	.string "It's very easy to raise.\p"
+	.string "So, {PLAYER}, you want to go with\n"
+	.string "the GRASS POKéMON BULBASAUR?$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
+#if GERMAN
 	.string "Dieses Pokémon ist in Topform!$"
+#else
+	.string "This POKéMON is really quite\n"
+	.string "energetic!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "{STR_VAR_1}!$"
+#else
+	.string "{PLAYER} received the {STR_VAR_1}\n"
+	.string "from PROF. OAK!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon::
-	.string "Prof. Eich: Wenn du auf ein wildes\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Wenn du auf ein wildes\n"
 	.string "Pokémon triffst, dann kann dein\l"
 	.string "Pokémon dagegen kämpfen!$"
+#else
+	.string "OAK: If a wild POKéMON appears,\n"
+	.string "your POKéMON can battle it.\p"
+	.string "With it at your side, you should be\n"
+	.string "able to reach the next town.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow::
-	.string "Prof. Eich: {PLAYER}, wenn du dein\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: {PLAYER}, wenn du dein\n"
 	.string "Pokémon kämpfen lässt, wird es\l"
 	.string "stärker!$"
+#else
+	.string "OAK: {PLAYER}, raise your young\n"
+	.string "POKéMON by making it battle.\p"
+	.string "It has to battle for it to grow.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
-	.string "Prof. Eich: Hallo, {PLAYER}!\p"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Hallo, {PLAYER}!\p"
 	.string "Wie geht es dem Pokémon?\p"
 	.string "Es scheint dich sehr zu mögen!\p"
 	.string "Du musst als Pokémon Trainer sehr\n"
 	.string "talentiert sein!\p"
 	.string "Du hast etwas für mich?$"
+#else
+	.string "OAK: Oh, {PLAYER}!\n"
+	.string "How is my old POKéMON?\p"
+	.string "Well, it seems to be growing more\n"
+	.string "attached to you.\p"
+	.string "You must be talented as a POKéMON\n"
+	.string "TRAINER.\p"
+	.string "What's that?\n"
+	.string "You have something for me?$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
+#if GERMAN
 	.string "{PLAYER} übergibt\n"
-	.string "Prof. Eich das Paket.$"
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY} das Paket.$"
+#else
+	.string "{PLAYER} delivered OAK'S PARCEL.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
-	.string "Ah! Auf diesen Spezial-Pokéball\n"
+#if GERMAN
+	.string "Ah! Auf diesen Spezial-{COLOR RED}Pokéball{COLOR DARK_GRAY}\n"
 	.string "warte ich schon lange! \p"
 	.string "Vielen Dank!$"
+#else
+	.string "Ah! \n"
+	.string "It's the custom POKé BALL!\p"
+	.string "I had it on order.\n"
+	.string "Thank you!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo::
-	.string "Prof. Eich: Ach ja! Ich habe eine\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Ach ja! Ich habe eine\n"
 	.string "große Aufgabe für euch!$"
+#else
+	.string "OAK: Oh, right!\n"
+	.string "I have a request for you two.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
+#if GERMAN
 	.string "Auf dem Tisch dort seht ihr eine\n"
-	.string "Erfindung von mir, den Pokédex!\p"
+	.string "Erfindung von mir, den {COLOR RED}Pokédex{COLOR DARK_GRAY}!\p"
 	.string "Er erfasst automatisch Daten über\n"
 	.string "Pokémon, die man gefangen oder\l"
 	.string "gesehen hat!\p"
 	.string "Er ist eine Art Hi-Tech-Lexikon!$"
+#else
+	.string "On the desk there is my invention,\n"
+	.string "the POKéDEX!\p"
+	.string "It automatically records data on\n"
+	.string "POKéMON you've seen or caught.\p"
+	.string "It's a high-tech encyclopedia!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou::
-	.string "Prof. Eich: {PLAYER}! {RIVAL}!\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: {PLAYER}! {RIVAL}!\n"
 	.string "Diese beiden sind für euch!$"
+#else
+	.string "OAK: {PLAYER} and {RIVAL}.\n"
+	.string "Take these with you.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak::
-	.string "{PLAYER} erhält einen Pokédex von\n"
-	.string "Prof. Eich!$"
+#if GERMAN
+	.string "{PLAYER} erhält einen {COLOR RED}Pokédex{COLOR DARK_GRAY} von\n"
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}!$"
+#else
+	.string "{PLAYER} received the POKéDEX\n"
+	.string "from PROF. OAK.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
-	.string "Prof. Eich: Es reicht nicht, \n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Es reicht nicht, \n"
 	.string "Pokémon zu sehen, um detaillierte\l"
 	.string "Informationen über sie zu sammeln!\p"
 	.string "Du musst sie fangen! Benutze das\n"
 	.string "hier, um wilde Pokémon\l"
 	.string "einzufangen.$"
+#else
+	.string "OAK: You can't get detailed data\n"
+	.string "on POKéMON by just seeing them.\p"
+	.string "You must catch them to obtain\n"
+	.string "complete data.\p"
+	.string "So, here are some tools for\n"
+	.string "catching wild POKéMON.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "fünf Pokébälle!$"
+#else
+	.string "{PLAYER} received five POKé BALLS.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
+#if GERMAN
 	.string "Taucht ein wildes Pokémon auf, so\n"
 	.string "kannst du es fangen.\p"
-	.string "Wirf einfach einen Pokéball und\n"
+	.string "Wirf einfach einen {COLOR RED}Pokéball{COLOR DARK_GRAY} und\n"
 	.string "versuche es!\p"
 	.string "Doch du wirst oftmals keinen Erfolg\n"
 	.string "haben.\p"
 	.string "Ein gesundes Pokémon entkommt\n"
 	.string "schnell! Man muss schon etwas\l"
 	.string "Glück haben!$"
+#else
+	.string "When a wild POKéMON appears,\n"
+	.string "it's fair game.\p"
+	.string "Just throw a POKé BALL at it and\n"
+	.string "try to catch it!\p"
+	.string "This won't always work, however.\p"
+	.string "A healthy POKéMON can escape.\n"
+	.string "You have to be lucky!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
+#if GERMAN
 	.string "Ein Lexikon über alle Pokémon der\n"
 	.string "Welt...\p"
 	.string "Das war immer mein Traum!\p"
@@ -1506,55 +1739,120 @@ PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
 	.string "Dies ist eines der bedeutendsten\n"
 	.string "Projekte in der Geschichte der\l"
 	.string "Pokémon!$"
+#else
+	.string "To make a complete guide on all\n"
+	.string "the POKéMON in the world…\p"
+	.string "That was my dream!\p"
+	.string "But, I'm too old.\n"
+	.string "I can't get the job done.\p"
+	.string "So, I want you two to fulfill my\n"
+	.string "dream for me.\p"
+	.string "Get moving, you two.\p"
+	.string "This is a great undertaking in\n"
+	.string "POKéMON history!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait::
+#if GERMAN
 	.string "{PLAYER}, überall in dieser Welt\n"
 	.string "erwarten dich Pokémon!$"
+#else
+	.string "POKéMON around the world wait for\n"
+	.string "you, {PLAYER}!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
+#if GERMAN
 	.string "Ah, {PLAYER}!\n"
-	.string "Was macht dein Pokédex?\p"
+	.string "Was macht dein {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
 	.string "{RIVAL} hat bereits einige Pokémon\n"
 	.string "gefangen und die Infos erhalten.\p"
-	.string "Zeig mir deinen Pokédex,\n"
+	.string "Zeig mir deinen {COLOR RED}Pokédex{COLOR DARK_GRAY},\n"
 	.string "{PLAYER}!\p"
 	.string "… was ist los?\n"
 	.string "Du hast keine neuen Infos!\p"
 	.string "Ich gebe dir das, damit du dich\n"
 	.string "ein wenig mehr bemühst.$"
+#else
+	.string "Ah, {PLAYER}!\n"
+	.string "How is your POKéDEX shaping up?\p"
+	.string "{RIVAL} has already caught some\n"
+	.string "POKéMON and added to the data.\p"
+	.string "So, {PLAYER}, let's have a look at\n"
+	.string "your POKéDEX.\p"
+	.string "…What's the matter?\n"
+	.string "You've added no new data at all.\p"
+	.string "I'll give you these, so do try a\n"
+	.string "little harder.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime::
-	.string "Prof. Eich: Besuche mich von Zeit\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY}: Besuche mich von Zeit\n"
 	.string "zu Zeit.\p"
 	.string "Es interessiert mich, wie du mit\n"
-	.string "deinem Pokédex voranschreitest.$"
+	.string "deinem {COLOR RED}Pokédex{COLOR DARK_GRAY} voranschreitest.$"
+#else
+	.string "OAK: Come see me sometime.\p"
+	.string "After all, I want to know how your\n"
+	.string "POKéDEX is coming along.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia::
+#if GERMAN
 	.string "Es sieht wie ein Lexikon aus! Aber\n"
 	.string "die Seiten sind unbeschrieben!$"
+#else
+	.string "It's like an encyclopedia, but the\n"
+	.string "pages are blank.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls::
+#if GERMAN
 	.string "Dies hier sind Pokébälle.\n"
 	.string "Sie enthalten Pokémon!$"
+#else
+	.string "Those are POKé BALLS.\n"
+	.string "They contain POKéMON!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OaksLastMon::
+#if GERMAN
 	.string "Das ist Prof. Eichs letztes\n"
 	.string "Pokémon!$"
+#else
+	.string "That's PROF. OAK's last POKéMON.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu::
+#if GERMAN
 	.string "Drücke Start, um das Menü\n"
 	.string "aufzurufen!$"
+#else
+	.string "Press START to open the MENU!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu::
+#if GERMAN
 	.string "Im Menü kannst du unter Sichern\n"
 	.string "deinen Spielstand abspeichern.$"
+#else
+	.string "The SAVE option is on the MENU.\n"
+	.string "Use it regularly.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints::
+#if GERMAN
 	.string "Pokémon besitzen unterschiedliche\n"
 	.string "Attacken, deren Wirkung je nach\l"
 	.string "Gegner variiert.$"
+#else
+	.string "All POKéMON types have strong and\n"
+	.string "weak points against others.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_EmailMessage::
+#if GERMAN
 	.string "Im Briefkasten ist eine E-Mail!\p"
 	.string "...\p"
 	.string "An alle Pokémon Trainer!\n"
@@ -1567,12 +1865,32 @@ PalletTown_ProfessorOaksLab_Text_EmailMessage::
 	.string "Indigo-Plateau\p"
 	.string "Ps.: Prof. Eich, bitte melden sie\n"
 	.string "sich bei uns! ...$"
+#else
+	.string "There's an e-mail message here.\p"
+	.string "…\p"
+	.string "Finally!\n"
+	.string "The ultimate TRAINERS of the\l"
+	.string "POKéMON LEAGUE are ready to\l"
+	.string "take on all comers!\p"
+	.string "Bring your best POKéMON and see\n"
+	.string "how you rate as a TRAINER!\p"
+	.string "POKéMON LEAGUE HQ\n"
+	.string "INDIGO PLATEAU\p"
+	.string "PROF. OAK, please visit us!\n"
+	.string "…$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
+#if GERMAN
 	.string "Ich bin Prof. Eichs Assistent.\n"
 	.string "Ich studiere mit ihm die Pokémon!$"
+#else
+	.string "I study POKéMON as PROF. OAK's\n"
+	.string "AIDE.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
+#if GERMAN
 	.string "Hallo {PLAYER}! Ich wette, du hast\n"
 	.string "mit deinen Pokémon\l"
 	.string "Freundschaft geschlossen.\l"
@@ -1584,26 +1902,60 @@ PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
 	.string "Pokémon für dich.\p"
 	.string "Das ist aber ein Geheimnis,\n"
 	.string "verrate es also nicht!$"
+#else
+	.string "Hi, {PLAYER}. I bet you've become\n"
+	.string "good friends with your POKéMON.\p"
+	.string "By the way, did you know about\n"
+	.string "DAISY?\p"
+	.string "If you show DAISY your POKéMON,\n"
+	.string "she can tell how much it likes you.\p"
+	.string "Occasionally, she will even groom\n"
+	.string "a POKéMON for you.\p"
+	.string "This is a secret, so please don't\n"
+	.string "tell anyone.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
-	.string "Prof. Eich wird bald seine eigene\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY} wird bald seine eigene\n"
 	.string "Radiosendung haben.\p"
 	.string "Die Sendung heißt Prof. Eichs\n"
 	.string "Pokémon-Seminar!$"
+#else
+	.string "PROF. OAK is going to have his own\n"
+	.string "radio show soon.\p"
+	.string "The program will be called PROF.\n"
+	.string "OAK's POKéMON SEMINAR.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons::
-	.string "Prof. Eich ist eine Kapazität auf\n"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY} ist eine Kapazität auf\n"
 	.string "dem Gebiet der Pokémon!\p"
 	.string "Unter Pokémon Trainern genießt er\n"
 	.string "ein sehr hohes Ansehen!$"
+#else
+	.string "PROF. OAK may not look like much,\n"
+	.string "but he's the authority on POKéMON.\p"
+	.string "Many POKéMON TRAINERS hold him in\n"
+	.string "high regard.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
+#if GERMAN
 	.string "Ah, das ist fantastisch!\p"
 	.string "{PLAYER}, ich muss dich um noch\n"
 	.string "einen wichtigen Gefallen bitten.\p"
 	.string "Bitte höre genau zu!$"
+#else
+	.string "Ah, now this is excellent!\p"
+	.string "{PLAYER}, I have another important\n"
+	.string "favor to ask of you.\p"
+	.string "I need you to listen closely.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
+#if GERMAN
 	.string "In letzter Zeit wurden viele\n"
 	.string "seltene Pokémon gesichtet.\p"
 	.string "Ich spreche von Pokémon, die nie\n"
@@ -1613,8 +1965,19 @@ PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
 	.string "Da ich nicht kann, möchte ich\n"
 	.string "dich, {PLAYER}, bitten, an meiner\l"
 	.string "statt zu gehen.$"
+#else
+	.string "Recently, there have been sightings\n"
+	.string "of many rare POKéMON species.\p"
+	.string "I'm talking about POKéMON that\n"
+	.string "have never been seen in KANTO.\p"
+	.string "I would love to go see things for\n"
+	.string "myself, but I'm much too old.\p"
+	.string "Since I can't do it, {PLAYER}, I'd\n"
+	.string "like you to go in my place.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
+#if GERMAN
 	.string "{RIVAL}: Das habe ich gehört!\p"
 	.string "Opsi, warum gibst du immer\n"
 	.string "{PLAYER} den Vorzug gegenüber mir?\p"
@@ -1622,44 +1985,97 @@ PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
 	.string "und auch noch schneller!\p"
 	.string "Ich sollte mich also um alles\n"
 	.string "kümmern!$"
+#else
+	.string "{RIVAL}: Hey, I heard that!\p"
+	.string "Gramps, what's with favoring\n"
+	.string "{PLAYER} over me all the time?\p"
+	.string "I went and collected more POKéMON,\n"
+	.string "and faster, too.\p"
+	.string "You should just let me handle\n"
+	.string "everything.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes::
+#if GERMAN
 	.string "Eich: Ich weiß, ich weiß! Ich\n"
 	.string "brauche natürlich auch deine Hilfe!\p"
-	.string "Lasst mich eure beiden Pokédex\n"
+	.string "Lasst mich eure beiden {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
 	.string "sehen!$"
+#else
+	.string "OAK: I know, I know.\n"
+	.string "Of course I need your help, too.\p"
+	.string "Now, I need to see both your\n"
+	.string "POKéDEXES.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits::
-	.string "Prof. Eich nahm beide Pokédex!$"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY} nahm beide {COLOR RED}Pokédex{COLOR DARK_GRAY}!$"
+#else
+	.string "PROF. OAK took both POKéDEX\n"
+	.string "units.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData::
+#if GERMAN
 	.string "… … …  … … …\p"
 	.string "… … …  … … …\p"
 	.string "… und erledigt!\p"
 	.string "Nun können sie noch mehr Infos\n"
 	.string "über Pokémon sichern.$"
+#else
+	.string "… … …  … … …\p"
+	.string "… … …  … … …\p"
+	.string "…And that's done!\p"
+	.string "Now these units can record data on\n"
+	.string "a lot more POKéMON.$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded::
-	.string "Der Pokédex von {PLAYER} wurde\n"
+#if GERMAN
+	.string "Der {COLOR RED}Pokédex{COLOR DARK_GRAY} von {PLAYER} wurde\n"
 	.string "erweitert!$"
+#else
+	.string "{PLAYER}'s POKéDEX was upgraded!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex::
+#if GERMAN
 	.string "Also, {PLAYER} und {RIVAL}!\p"
-	.string "Dieses Mal müsst ihr den Pokédex\n"
+	.string "Dieses Mal müsst ihr den {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
 	.string "wirklich vervollständigen.\p"
 	.string "Es soll der beste und voll-\n"
-	.string "ständigste Pokédex aller\l"
+	.string "ständigste {COLOR RED}Pokédex{COLOR DARK_GRAY} aller\l"
 	.string "Zeiten werden!\l"
 	.string "Das ist wahrhaft ein großes\l"
 	.string "Unterfangen in der Geschichte\l"
 	.string "der Pokémon!$"
+#else
+	.string "Now, {PLAYER} and {RIVAL}!\p"
+	.string "This time, you really must work\n"
+	.string "towards filling your POKéDEXES.\p"
+	.string "I urge you to make them the best\n"
+	.string "and the most complete of all time!\p"
+	.string "Truly, this is a monumentally great\n"
+	.string "undertaking in POKéMON history!$"
+#endif
 
 PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
+#if GERMAN
 	.string "{RIVAL}: Ruhig, Opsi! Keine\n"
 	.string "Aufregung!\p"
-	.string "Ich vervollständige den Pokédex!\n"
+	.string "Ich vervollständige den {COLOR RED}Pokédex{COLOR DARK_GRAY}!\n"
 	.string "Mach dir keine Gedanken!\p"
 	.string "Ich denke, ich werde mich zunächst\n"
 	.string "auf Eiland Eins umsehen…\p"
 	.string "Wie dem auch sei! Ich muss weg!$"
+#else
+	.string "{RIVAL}: Gramps, calm down.\n"
+	.string "Don't get so excited.\p"
+	.string "I'll get the POKéDEX completed,\n"
+	.string "don't you worry about a thing.\p"
+	.string "I think I'll try looking around\n"
+	.string "ONE ISLAND first…\p"
+	.string "Anyways, I'm outta here!$"
+#endif
 

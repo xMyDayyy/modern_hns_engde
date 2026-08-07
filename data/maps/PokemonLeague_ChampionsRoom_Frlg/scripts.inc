@@ -225,12 +225,13 @@ PokemonLeague_ChampionsRoom_Movement_RivalWatchOakEnter::
 	step_end
 
 PokemonLeague_ChampionsRoom_Text_Intro::
+#if GERMAN
 	.string "{RIVAL}: Hallo!\p"
 	.string "Auf diesen Moment warte ich schon\n"
 	.string "lange, {PLAYER}!\p"
 	.string "Ich brauche einen starken Gegner,\n"
 	.string "um mich in Form zu halten!\p"
-	.string "Während ich meinen Pokédex\n"
+	.string "Während ich meinen {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
 	.string "aktualisierte, habe ich nur die\l"
 	.string "stärksten Pokémon ausgewählt!\p"
 	.string "Aber nicht nur das: Ich habe Teams\n"
@@ -244,14 +245,33 @@ PokemonLeague_ChampionsRoom_Text_Intro::
 	.string "Ich werde es dir sagen!\p"
 	.string "Ich bin der mächtigste Trainer der\n"
 	.string "Welt!$"
+#else
+	.string "{RIVAL}: Hey, {PLAYER}!\p"
+	.string "I was looking forward to seeing\n"
+	.string "you, {PLAYER}.\p"
+	.string "My rival should be strong to keep\n"
+	.string "me sharp.\p"
+	.string "While working on my POKéDEX, I\n"
+	.string "looked all over for POKéMON.\p"
+	.string "Not only that, I assembled teams\n"
+	.string "that would beat any POKéMON type.\p"
+	.string "And now…\p"
+	.string "I'm the POKéMON LEAGUE CHAMPION!\p"
+	.string "{PLAYER}!\n"
+	.string "Do you know what that means?\p"
+	.string "I'll tell you.\p"
+	.string "I am the most powerful TRAINER in\n"
+	.string "the world!$"
+#endif
 
 PokemonLeague_ChampionsRoom_Text_RematchIntro::
+#if GERMAN
 	.string "{RIVAL}: Hallo!\p"
 	.string "Du bist zurück, {PLAYER}!\n"
 	.string "Das ist großartig!\p"
 	.string "Ich brauche einen starken Gegner,\n"
 	.string "um mich in Form zu halten!\p"
-	.string "Während ich meinen Pokédex\n"
+	.string "Während ich meinen {COLOR RED}Pokédex{COLOR DARK_GRAY}\n"
 	.string "aktualisierte, habe ich nur die\l"
 	.string "stärksten Pokémon ausgewählt!\p"
 	.string "Aber nicht nur das: Ich habe Teams\n"
@@ -265,8 +285,27 @@ PokemonLeague_ChampionsRoom_Text_RematchIntro::
 	.string "Ich werde es dir sagen!\p"
 	.string "Ich bin der mächtigste Trainer der\n"
 	.string "Welt!$"
+#else
+	.string "{RIVAL}: Hey, {PLAYER}!\p"
+	.string "You came back, {PLAYER}!\n"
+	.string "Hahah, that is so great!\p"
+	.string "My rival should be strong to keep\n"
+	.string "me sharp.\p"
+	.string "While working on my POKéDEX, I\n"
+	.string "looked all over for POKéMON.\p"
+	.string "Not only that, I assembled teams\n"
+	.string "that would beat any POKéMON type.\p"
+	.string "And now…\p"
+	.string "I'm the POKéMON LEAGUE CHAMPION!\p"
+	.string "{PLAYER}!\n"
+	.string "Do you know what that means?\p"
+	.string "I'll tell you.\p"
+	.string "I am the most powerful TRAINER in\n"
+	.string "the world!$"
+#endif
 
 PokemonLeague_ChampionsRoom_Text_Defeat::
+#if GERMAN
 	.string "Nein!\n"
 	.string "Das kann nicht wahr sein! Meine\l"
 	.string "besten Pokémon sind geschlagen!\p"
@@ -274,6 +313,15 @@ PokemonLeague_ChampionsRoom_Text_Defeat::
 	.string "Nach all den Anstrengungen,\n"
 	.string "Liga-Champion zu werden?\p"
 	.string "Das ist nicht fair!$"
+#else
+	.string "NO!\n"
+	.string "That can't be!\l"
+	.string "You beat me at my best!\p"
+	.string "After all that work to become\n"
+	.string "the LEAGUE CHAMP?\p"
+	.string "My reign is over already?\n"
+	.string "It's not fair!$"
+#endif
 
 PokemonLeague_ChampionsRoom_Text_Victory::
 	.string "はーはッ！\n"
@@ -287,6 +335,7 @@ PokemonLeague_ChampionsRoom_Text_Victory::
 	.string "はーッ！　はーはッはッ！$"
 
 PokemonLeague_ChampionsRoom_Text_PostBattle::
+#if GERMAN
 	.string "Wieso?\n"
 	.string "Wieso habe ich verloren?\p"
 	.string "Ich habe meine Pokémon doch sehr\n"
@@ -294,11 +343,25 @@ PokemonLeague_ChampionsRoom_Text_PostBattle::
 	.string "Verdammt! Du bist der neue\n"
 	.string "Champion der Pokémon Liga!\p"
 	.string "Aber ich gönne dir das nicht!$"
+#else
+	.string "Why?\n"
+	.string "Why did I lose?\p"
+	.string "I never made any mistakes raising\n"
+	.string "my POKéMON…\p"
+	.string "Darn it! You're the new POKéMON\n"
+	.string "LEAGUE CHAMPION!\p"
+	.string "Although I don't like to admit it…$"
+#endif
 
 PokemonLeague_ChampionsRoom_Text_OakPlayer::
+#if GERMAN
 	.string "Eich: {PLAYER}!$"
+#else
+	.string "OAK: {PLAYER}!$"
+#endif
 
 PokemonLeague_ChampionsRoom_Text_OakCongratulations::
+#if GERMAN
 	.string "Eich: Du hast also gewonnen!\n"
 	.string "Glückwunsch!\p"
 	.string "Du bist der neue Champion der\n"
@@ -308,8 +371,19 @@ PokemonLeague_ChampionsRoom_Text_OakCongratulations::
 	.string "gemacht hast!\p"
 	.string "{PLAYER}, du bist schon viel\n"
 	.string "erfahrener!$"
+#else
+	.string "OAK: So, you've won!\n"
+	.string "Sincerely, congratulations!\p"
+	.string "You're the new POKéMON LEAGUE\n"
+	.string "CHAMPION!\p"
+	.string "You've grown up so much since you\n"
+	.string "first left with {STR_VAR_1} to work\l"
+	.string "on the POKéDEX.\p"
+	.string "{PLAYER}, you have come of age!$"
+#endif
 
 PokemonLeague_ChampionsRoom_Text_OakImDisappointedRival::
+#if GERMAN
 	.string "Eich: {RIVAL}!\n"
 	.string "Du hast mich sehr enttäuscht!\p"
 	.string "Als ich hörte, du hättest die Top\n"
@@ -322,8 +396,23 @@ PokemonLeague_ChampionsRoom_Text_OakImDisappointedRival::
 	.string "Liebe und Vertrauen \l"
 	.string "entgegengebracht!\p"
 	.string "So wirst du niemals Sieger werden!$"
+#else
+	.string "OAK: {RIVAL}…\n"
+	.string "I'm disappointed in you.\p"
+	.string "I came when I heard you'd beaten\n"
+	.string "the ELITE FOUR.\p"
+	.string "But, when I got here, you had\n"
+	.string "already lost!\p"
+	.string "{RIVAL}, do you understand why\n"
+	.string "you lost?\p"
+	.string "You have forgotten to treat your\n"
+	.string "POKéMON with love and trust.\p"
+	.string "Without them, you will never\n"
+	.string "become a CHAMP again!$"
+#endif
 
 PokemonLeague_ChampionsRoom_Text_OakPlayerComeWithMe::
+#if GERMAN
 	.string "Eich: {PLAYER}!\p"
 	.string "Du hast begriffen, dass dein Sieg\n"
 	.string "nicht allein dein Verdienst war!\p"
@@ -331,4 +420,13 @@ PokemonLeague_ChampionsRoom_Text_OakPlayerComeWithMe::
 	.string "ist vorbildlich!\p"
 	.string "{PLAYER}!\n"
 	.string "Folge mir!$"
+#else
+	.string "OAK: {PLAYER}.\p"
+	.string "You understand that your victory\n"
+	.string "was not just your own doing.\p"
+	.string "The bond you share with your\n"
+	.string "POKéMON is marvelous.\p"
+	.string "{PLAYER}!\n"
+	.string "Come with me!$"
+#endif
 

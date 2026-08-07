@@ -28,13 +28,21 @@ FortreeCity_PokemonCenter_1F_EventScript_Boy::
 	end
 
 FortreeCity_PokemonCenter_1F_Text_GoToSafariZone:
+#if GERMAN
 	.string "Na, Kindchen, arbeitest du an einem\n"
-	.string "Pokédex?\p"
+	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
 	.string "Hmm… Ich an deiner Stelle würde mal\n"
-	.string "die Safari-Zone auf der Route 121\l"
+	.string "die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} auf der {COLOR RED}Route 12{COLOR DARK_GRAY}1\l"
 	.string "besuchen.$"
+#else
+	.string "Listen, kid, are you working\n"
+	.string "on a POKéDEX?\p"
+	.string "Hmm… Go to the SAFARI ZONE.\n"
+	.string "That's my suggestion.$"
+#endif
 
 FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
+#if GERMAN
 	.string "Hast du schon mal eine\n"
 	.string "Statistik geTauscht?\p"
 	.string "Sehr nützliche Einrichtung! Die\n"
@@ -45,8 +53,17 @@ FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 	.string "Ich weiß zwar nicht, wie das passiert,\n"
 	.string "aber es ist einfach irre. Und\l"
 	.string "aufregend!$"
+#else
+	.string "Have you done anything at\n"
+	.string "the RECORD CORNER?\p"
+	.string "It's pretty neat. It mixes and matches\n"
+	.string "the records of TRAINERS.\p"
+	.string "I don't know quite how it works,\n"
+	.string "but it's cool. It's exciting, even!$"
+#endif
 
 FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
+#if GERMAN
 	.string "Hey, du hast einen Pokénav!\n"
 	.string "Ich habe auch so einen.\p"
 	.string "Kennst du schon das Trainer/Ruf-\n"
@@ -59,4 +76,16 @@ FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
 	.string "möchten.\p"
 	.string "Ist das nicht einfach super?\n"
 	.string "Das muss man Devon wirklich lassen!$"
+#else
+	.string "Oh, wow, you have a POKéNAV!\n"
+	.string "And it's just like mine!\p"
+	.string "Do you know about POKéNAV's\n"
+	.string "MATCH CALL system?\p"
+	.string "Access it, and you can chat with\n"
+	.string "registered TRAINERS anytime.\p"
+	.string "It also shows you which TRAINERS\n"
+	.string "want a rematch with you.\p"
+	.string "It's really nifty! Those DEVON guys\n"
+	.string "sure know what they're doing!$"
+#endif
 

@@ -699,27 +699,52 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_Text_WhereIsWally:
+#if GERMAN
 	.string "Wohin ist unser Heiko nur gegangen?\p"
 	.string "Wir müssen doch bald nach Wiesenflur\n"
 	.string "aufbrechen…$"
+#else
+	.string "Where has our WALLY gone?\p"
+	.string "We have to leave for VERDANTURF TOWN\n"
+	.string "very soon…$"
+#endif
 
 PetalburgCity_Text_AreYouRookieTrainer:
+#if GERMAN
 	.string "He da! Bist du vielleicht…\n"
 	.string "ein Anfänger unter den Trainern?\p"
 	.string "Weißt du, was Pokémon-Trainer machen,\n"
 	.string "wenn sie in einen neuen Ort kommen?\p"
 	.string "Sie sehen sich als Erstes die Arena\n"
 	.string "im Ort an.$"
+#else
+	.string "Hiya! Are you maybe…\n"
+	.string "A rookie TRAINER?\p"
+	.string "Do you know what POKéMON TRAINERS\n"
+	.string "do when they reach a new town?\p"
+	.string "They first check what kind of GYM\n"
+	.string "is in the town.$"
+#endif
 
 PetalburgCity_Text_ThisIsPetalburgGym:
+#if GERMAN
 	.string "Schau. Das ist die Arena von\n"
 	.string "Blütenburg City.$"
+#else
+	.string "See? This is PETALBURG CITY's GYM.$"
+#endif
 
 PetalburgCity_Text_ThisIsGymSign:
+#if GERMAN
 	.string "Das ist das Logo der Arena. Daran\n"
 	.string "kannst du immer eine Arena erkennen.$"
+#else
+	.string "This is the GYM's sign. Look for it\n"
+	.string "whenever you're looking for a GYM.$"
+#endif
 
 PetalburgCity_Text_WaterReflection:
+#if GERMAN
 	.string "Mein Gesicht spiegelt sich im Wasser…\n"
 	.string "\p"
 	.string "Ein schimmerndes Lächeln der Hoffnung.\n"
@@ -727,33 +752,69 @@ PetalburgCity_Text_WaterReflection:
 	.string "Oder ist es der Ausdruck düsterer\n"
 	.string "Stille, an dem die Angst nagt…\p"
 	.string "Was siehst du in deinem Spiegelbild?$"
+#else
+	.string "My face is reflected in the water.\p"
+	.string "It's a shining grin full of hope…\p"
+	.string "Or it could be a look of somber silence\n"
+	.string "struggling with fear…\p"
+	.string "What do you see reflected in your face?$"
+#endif
 
 PetalburgCity_Text_FullPartyExplanation:
+#if GERMAN
 	.string "Nehmen wir an, du hättest 6 Pokémon.\n"
 	.string "Wenn du jetzt ein weiteres fängst…\p"
 	.string "wird es automatisch in das Pokémon-\n"
 	.string "Lagerungs-System gesendet.$"
+#else
+	.string "Let's say you have six POKéMON.\n"
+	.string "If you catch another one…\p"
+	.string "It is automatically sent to a STORAGE\n"
+	.string "BOX over a PC connection.$"
+#endif
 
 PetalburgCity_Text_GymSign:
+#if GERMAN
 	.string "Pokémon Arena von Blütenburg City\n"
 	.string "Leiter: Norman\l"
 	.string "“Ein Mann, der nach Stärke strebt!”$"
+#else
+	.string "PETALBURG CITY POKéMON GYM\n"
+	.string "LEADER: NORMAN\l"
+	.string "“A man in pursuit of power!”$"
+#endif
 
 PetalburgCity_Text_CitySign:
+#if GERMAN
 	.string "Blütenburg City\n"
 	.string "“Wo Menschen Hand in Hand\l"
 	.string "mit der Natur gehen.”$"
+#else
+	.string "PETALBURG CITY\n"
+	.string "“Where people mingle with nature.”$"
+#endif
 
 PetalburgCity_Text_WallyHouseSign:
+#if GERMAN
 	.string "Heikos Haus$"
+#else
+	.string "WALLY'S HOUSE$"
+#endif
 
 PetalburgCity_Text_AreYouATrainer:
+#if GERMAN
 	.string "Entschuldige bitte!\p"
 	.string "Lass mich raten! Deine Kleidung verrät\n"
 	.string "mir, dass du ein Trainer bist.\l"
 	.string "Habe ich Recht?$"
+#else
+	.string "Excuse me!\p"
+	.string "Let me guess, from the way you're\n"
+	.string "dressed, are you a POKéMON TRAINER?$"
+#endif
 
 PetalburgCity_Text_WellMaybeNot:
+#if GERMAN
 	.string "… … … … …\n"
 	.string "…\p"
 	.string "Nun, vielleicht auch nicht.\n"
@@ -762,10 +823,23 @@ PetalburgCity_Text_WellMaybeNot:
 	.string "Entweder bist du gerade erst Trainer\n"
 	.string "geworden oder du bist einfach ein ganz\l"
 	.string "normales Kind.$"
+#else
+	.string "… … … … … …\p"
+	.string "Well, maybe not.\n"
+	.string "Your clothes aren't all that dirty.\p"
+	.string "You're either a rookie TRAINER,\n"
+	.string "or maybe you're just an ordinary kid.$"
+#endif
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
+#if GERMAN
 	.string "Ich reise durch das Land, immer auf\n"
 	.string "der\n"
 	.string "Suche nach talentierten Trainern.\p"
 	.string "Tut mir Leid, wenn ich dich\n"
 	.string "aufgehalten habe.$"
+#else
+	.string "I'm roaming the land in search of\n"
+	.string "talented TRAINERS.\p"
+	.string "I'm sorry to have taken your time.$"
+#endif

@@ -12,6 +12,11 @@ Route5_EventScript_UndergroundPathSign::
 	end
 
 Route5_Text_UndergroundPathSign:
+#if GERMAN
 	.string "Tunnelpfad\n"
 	.string "Azuria City - Orania City$"
+#else
+	.string "UNDERGROUND PATH\p"
+	.string "CERULEAN CITY - VERMILION CITY$"
+#endif
 

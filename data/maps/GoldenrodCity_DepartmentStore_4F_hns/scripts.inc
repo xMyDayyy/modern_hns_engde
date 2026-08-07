@@ -35,15 +35,27 @@ GoldenrodDeptStore4_EventScript_Sign::
 	end
 
 GoldenrodDeptStore_Text_4FCooltrainerM:
+#if GERMAN
 	.string "Ich pumpe mein Team mit Protein voll,\n"
 	.string "weil ich auf starke Pokémon stehe und\l"
 	.string "es ihren Angriffs-Wert steigert!$"
+#else
+    .string "Hey. I love strong POKéMON.\p"
+    .string "I feed them PROTEIN to crank up\n"
+    .string "their ATTACK.$"
+#endif
 
 GoldenrodDeptStore_Text_4FBugCatcher:
+#if GERMAN
 	.string "Mit Eisen kannst du die Verteidigung\n"
 	.string "deiner Pokémon verstärken!$"
+#else
+    .string "IRON adds to your POKéMON's\n"
+    .string "DEFENSE.$"
+#endif
 
 GoldenrodDeptStore_Text_4FGameboyKid:
+#if GERMAN
 	.string "Es hieß, manche Pokémon entwickeln\n"
 	.string "sich nur durch einen Tausch über\l"
 	.string "ein Link-Kabel.\p"
@@ -54,6 +66,20 @@ GoldenrodDeptStore_Text_4FGameboyKid:
 	.string "Alpollo und, äh, Georok.\p"
 	.string "Sie alle entwickeln sich aber\n"
 	.string "durch Levelaufstieg.$"
+#else
+    .string "There were rumours that some\n"
+    .string "POKéMON evolve only by\l"
+    .string "being traded via a Game Link\l"
+    .string "cable.\p"
+    .string "Pfft...\p"
+    .string "Such misinformation.\p"
+    .string "I know some of the rumoured\n"
+    .string "POKéMON:\l"
+    .string "MACHOKE, KADABRA, HAUNTER and,\l"
+    .string "um, GRAVELER,\l"
+    .string "but they all evolve through\l"
+    .string "level up.$"
+#endif
 
 GoldenrodDeptStore4_EventScript_Clerk::
 	lock
@@ -76,5 +102,10 @@ GoldenrodDeptStore4_Pokemart:
 	pokemartlistend
 
 GoldenrodDeptStore_Text_4FDirectory:
+#if GERMAN
 	.string "Wir kümmern uns um deine Pokémon 3S:\n"
 	.string "Arznei$"
+#else
+    .string "Let Us Pump Up Your POKéMON!\p"
+    .string "4F MEDICINE BOX$"
+#endif

@@ -73,92 +73,198 @@ Route17_EventScript_RematchCharles::
 	end
 
 Route17_Text_BikerRileySeen:
+#if GERMAN
 	.string "He, du!\n"
 	.string "Kommst du etwa aus Johto?$"
+#else
+	.string "Hey, you! You're from JOHTO, huh?$"
+#endif
 
 Route17_Text_BikerRileyBeaten:
+#if GERMAN
 	.string "Boah, du legst aber los!$"
+#else
+	.string "Whoa, you kick!$"
+#endif
 
 Route17_Text_BikerRileyAfterBattle:
+#if GERMAN
 	.string "Na warte! Von einer Null aus Johto\n"
 	.string "lasse ich mir nicht die Tour vermasseln!$"
+#else
+	.string "Don't get cocky, you JOHTO punk!$"
+#endif
 
 Route17_Text_BikerJoelSeen:
+#if GERMAN
 	.string "Wow! Das ist aber\n"
 	.string "ein tolles Fahrrad!$"
+#else
+	.string "Wow. That's a cool BICYCLE!$"
+#endif
 
 Route17_Text_BikerJoelBeaten:
+#if GERMAN
 	.string "Du bist so stark, wie du aussiehst!$"
+#else
+	.string "But you don't just look cool…$"
+#endif
 
 Route17_Text_BikerJoelAfterBattle:
+#if GERMAN
 	.string "Ich sehe zwar cool aus, bin aber\n"
 	.string "schwach, also auch nicht wirklich cool.\l"
 	.string "Ich muss härter trainieren!$"
+#else
+	.string "I look cool, but I'm weak, so I'm\n"
+	.string "not really cool.\p"
+	.string "I have to train harder…$"
+#endif
 
 Route17_Text_BikerGlennSeen:
+#if GERMAN
 	.string "Hey! Wie wär’s mit einem Wettrennen?$"
+#else
+	.string "Hey! Want to have a speed battle?$"
+#endif
 
 Route17_Text_BikerGlennBeaten:
+#if GERMAN
 	.string "Wow! Du bist aber ganz\n"
 	.string "schön flott unterwegs!$"
+#else
+	.string "Yikes! You've got awesome torque!$"
+#endif
 
 Route17_Text_BikerGlennAfterBattle:
+#if GERMAN
 	.string "Freihändig fahren gilt als\n"
 	.string "cool auf dem Radweg.$"
+#else
+	.string "Hands-free riding is considered\n"
+	.string "cool on CYCLING ROAD.$"
+#endif
 
 Route17_Text_BikerCharlesSeen:
+#if GERMAN
 	.string "Wir sind die furchtlosen\n"
 	.string "Helden des Radwegs!$"
+#else
+	.string "We're fearless highway stars!$"
+#endif
 
 Route17_Text_BikerCharlesBeaten:
+#if GERMAN
 	.string "Aaargh!\n"
 	.string "Wie gewonnen, so zerronnen.$"
+#else
+	.string "Arrrgh! Crash and burn!$"
+#endif
 
 Route17_Text_BikerCharlesAfterBattle:
+#if GERMAN
 	.string "Ein rücksichtsloser Fahrstil führt oft\n"
 	.string "zu Unfällen! Also Augen auf am Lenker!$"
+#else
+	.string "Reckless driving causes accidents!\n"
+	.string "Take it easy!$"
+#endif
 
 Route17_Text_RileyRegister:
+#if GERMAN
 	.string "Gar nicht schlecht für ein Kind\n"
 	.string "aus Johto!$"
+#else
+	.string "Not bad for a JOHTO kid!$"
+#endif
 
 Route17_Text_RileyRematchIntro:
+#if GERMAN
 	.string "Punks aus Johto gewinnen nur\n"
 	.string "einmal!$"
+#else
+	.string "JOHTO punks can only win once!$"
+#endif
 
 Route17_Text_RileyRematchDefeat:
+#if GERMAN
 	.string "Ich wurde fertiggemacht…$"
+#else
+	.string "I got kicked...$"
+#endif
 
 Route17_Text_RileyPostRematch:
+#if GERMAN
 	.string "Vielleicht sollte ich doch mal\n"
 	.string "in Johto trainieren.$"
+#else
+	.string "Maybe I should train in JOHTO\n"
+	.string "after all.$"
+#endif
 
 Route17_Text_JoelRegister:
+#if GERMAN
 	.string "Du bist doch ziemlich cool!\n"
 	.string "Tauschen wir Nummern!$"
+#else
+	.string "You're pretty cool after all!\n"
+	.string "Let's trade numbers!$"
+#endif
 
 Route17_Text_JoelRematchIntro:
+#if GERMAN
 	.string "Mal sehen, wer jetzt cooler ist!$"
+#else
+	.string "Let's see who's cooler now!$"
+#endif
 
 Route17_Text_JoelRematchDefeat:
+#if GERMAN
 	.string "Noch immer nicht cool genug…$"
+#else
+	.string "Still not cool enough…$"
+#endif
 
 Route17_Text_JoelPostRematch:
+#if GERMAN
 	.string "Ich trainiere weiter, bis ich\n"
 	.string "so cool bin wie du!$"
+#else
+	.string "I'll keep training to be as cool\n"
+	.string "as you, kid!$"
+#endif
 
 Route17_Text_CharlesRegister:
+#if GERMAN
 	.string "Du bist ein Herzensbrecher wie ich!\n"
 	.string "Gib mir deine Nummer!$"
+#else
+	.string "You're a heartbreaker like me, kid!\n"
+	.string "Give me your number!$"
+#endif
 
 Route17_Text_CharlesRematchIntro:
+#if GERMAN
 	.string "Ich bin nicht nur ein Straßenheld,\n"
 	.string "ich bin ein Herzensbrecher!$"
+#else
+	.string "I'm not just a highway star,\n"
+	.string "I'm a heartbreaker!$"
+#endif
 
 Route17_Text_CharlesRematchDefeat:
+#if GERMAN
 	.string "Schon wieder voll abgestürzt!$"
+#else
+	.string "Crashed and burned again!$"
+#endif
 
 Route17_Text_CharlesPostRematch:
+#if GERMAN
 	.string "Ich traf mal einen Trainer wie dich\n"
 	.string "in Einall. Pass auf dich auf!$"
+#else
+	.string "I met a trainer like you in UNOVA.\n"
+	.string "Don't crash out!$"
+#endif
 

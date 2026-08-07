@@ -101,20 +101,36 @@ PokemonTower_2F_Movement_RivalExitDown::
 	step_end
 
 PokemonTower_2F_Text_RivalIntro::
+#if GERMAN
 	.string "{RIVAL}: Hallo, {PLAYER}!\n"
 	.string "Was machst du hier?\l"
 	.string "Deine Pokémon sehen ganz fit aus!\p"
 	.string "Na ja, nach dem Kampf wird es\n"
 	.string "anders aussehen!$"
+#else
+	.string "{RIVAL}: Hey, {PLAYER}!\n"
+	.string "What brings you here?\l"
+	.string "Is your POKéMON dead?\p"
+	.string "Hey! It's alive!\p"
+	.string "I can at least make them faint!\n"
+	.string "Let's go!$"
+#endif
 
 PokemonTower_2F_Text_RivalDefeat::
+#if GERMAN
 	.string "Was?\n"
 	.string "Du bist eine harte Nuss!\p"
 	.string "Ich bin es wohl etwas zu locker\n"
 	.string "angegangen!$"
+#else
+	.string "What?\n"
+	.string "You stinker!\p"
+	.string "I took it easy on you, too!$"
+#endif
 
 PokemonTower_2F_Text_RivalPostBattle::
-	.string "Wie macht sich dein Pokédex,\n"
+#if GERMAN
+	.string "Wie macht sich dein {COLOR RED}Pokédex{COLOR DARK_GRAY},\n"
 	.string "Nervensäge? Ich habe kürzlich ein\l"
 	.string "Tragosso gefangen!\p"
 	.string "Allerdings habe ich noch kein\n"
@@ -124,10 +140,28 @@ PokemonTower_2F_Text_RivalPostBattle::
 	.string "Also, ich habe viel zu tun!\n"
 	.string "Ich muss weiter!\p"
 	.string "Dann bis später!$"
+#else
+	.string "How's your POKéDEX coming?\n"
+	.string "I just caught a CUBONE!\p"
+	.string "I can't find the bigger MAROWAK.\n"
+	.string "Where could they be?\p"
+	.string "I bet there aren't any left!\p"
+	.string "Well, I better get going.\n"
+	.string "I've got a lot to accomplish,\l"
+	.string "unlike you.\p"
+	.string "Smell ya later!$"
+#endif
 
 PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
+#if GERMAN
 	.string "Selbst wir können die eigenwilligen\n"
 	.string "Geister nicht identifizieren!\p"
-	.string "Man benötigt das Silph Scope, um\n"
+	.string "Man benötigt das {COLOR RED}Silph Scope{COLOR DARK_GRAY}, um\n"
 	.string "sie zu erkennen!$"
+#else
+	.string "Even we could not identify the\n"
+	.string "wayward ghosts.\p"
+	.string "A SILPH SCOPE might be able to\n"
+	.string "unmask them.$"
+#endif
 

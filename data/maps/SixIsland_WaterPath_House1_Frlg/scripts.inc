@@ -75,57 +75,118 @@ SixIsland_WaterPath_House1_EventScript_SizeRecordNonEmpty::
 	end
 
 SixIsland_WaterPath_House1_Text_LoveItNeedItHeracross::
+#if GERMAN
 	.string "Skara, Skara, Skaraborn!\n"
 	.string "Unter Käfern hochwohlgeboren!\l"
 	.string "Fühle seinen royalen Zorn,\l"
 	.string "Skara, Skara, Skaraborn!$"
+#else
+	.string "Hera, hera, HERACROSS!\n"
+	.string "Big and shiny, it's the bug boss!\l"
+	.string "Love it, need it, HERACROSS!$"
+#endif
 
 SixIsland_WaterPath_House1_Text_MayIMeasureHeracross::
+#if GERMAN
 	.string "Wow!\n"
 	.string "Das ist Skaraborn!\p"
 	.string "Darf ich bitte messen, wie groß\n"
 	.string "es ist?$"
+#else
+	.string "Eeeeek!\n"
+	.string "That's a HERACROSS!\p"
+	.string "Please, please, may I measure how\n"
+	.string "big it is?$"
+#endif
 
 SixIsland_WaterPath_House1_Text_ItsXInchesDeserveReward::
+#if GERMAN
 	.string "Ui! Es ist {STR_VAR_2} cm lang! So etwas\n"
 	.string "habe ich noch nie gesehen!\l"
 	.string "Du verdienst eine Belohnung!$"
+#else
+	.string "Eeeek, it's {STR_VAR_2} inches!\n"
+	.string "I've never seen anything like this!\l"
+	.string "You deserve a reward!$"
+#endif
 
 SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne::
+#if GERMAN
 	.string "Ich möchte ein noch größeres\n"
-	.string "Skaraborn sehen.\p"
+	.string "{COLOR RED}Skaraborn{COLOR DARK_GRAY} sehen.\p"
 	.string "Oh, wie ich sie verehre, die\n"
-	.string "großen Skaraborn.$"
+	.string "großen {COLOR RED}Skaraborn{COLOR DARK_GRAY}.$"
+#else
+	.string "I want to see a much, much bigger\n"
+	.string "HERACROSS than that one.\p"
+	.string "Oh, how I adore them, big\n"
+	.string "HERACROSS!$"
+#endif
 
 SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore::
+#if GERMAN
 	.string "Häh? {STR_VAR_2} cm groß…\n"
 	.string "Oh, aha! Es ist genauso groß\l"
 	.string "wie das zuvor!$"
+#else
+	.string "Huh? This {STR_VAR_2}-inch measurement…\n"
+	.string "Oh, boo! It's the same as before.$"
+#endif
 
 SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest::
+#if GERMAN
 	.string "Oh, es ist nur {STR_VAR_2} cm groß.\n"
 	.string "Das Skaraborn zuvor war größer.\p"
 	.string "Das größte Skaraborn, das\n"
 	.string "du mir gebracht hast, war\l"
 	.string "{STR_VAR_3} cm groß.$"
+#else
+	.string "Oh, it's just {STR_VAR_2} inches.\n"
+	.string "The HERACROSS before was bigger.\p"
+	.string "It was {STR_VAR_3} inches, the biggest\n"
+	.string "HERACROSS you've brought me.$"
+#endif
 
 SixIsland_WaterPath_House1_Text_ThisWontDo::
+#if GERMAN
 	.string "Oh, nein! Da ist etwas falsch!\p"
 	.string "Skaraborn ist mehr ein Macho\n"
 	.string "und cool dazu mit einem Horn!$"
+#else
+	.string "Oh, no! This won't do!\p"
+	.string "HERACROSS looks much more macho\n"
+	.string "and cool, and has a lovely horn!$"
+#endif
 
 SixIsland_WaterPath_House1_Text_YourBagIsFull::
+#if GERMAN
 	.string "Dein Beutel ist voll.\n"
 	.string "Meine Belohnung geht nicht\l"
 	.string "mehr hinein!$"
+#else
+	.string "Your BAG is full.\n"
+	.string "My reward won't fit.$"
+#endif
 
 SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches::
+#if GERMAN
 	.string "Das größte Skaraborn, das\n"
 	.string "ich je sah war\p"
 	.string "{STR_VAR_3} cm groß!$"
+#else
+	.string "The biggest HERACROSS that I have\n"
+	.string "ever seen measured so far is:\p"
+	.string "{STR_VAR_3} inches!$"
+#endif
 
 SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort::
+#if GERMAN
 	.string "Es ist eine leere Tabelle!\p"
 	.string "Man kann darin irgendwelche\n"
 	.string "Rekorde auflisten!$"
+#else
+	.string "It's a blank chart of some sort.\p"
+	.string "It has spaces for writing in\n"
+	.string "records of some kind.$"
+#endif
 

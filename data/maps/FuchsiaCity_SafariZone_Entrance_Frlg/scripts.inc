@@ -206,57 +206,122 @@ FuchsiaCity_SafariZone_Entrance_EventScript_ExplainSafariZone::
 	end
 
 FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone::
-	.string "Willkommen in der Safari-Zone!$"
+#if GERMAN
+	.string "Willkommen in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY}!$"
+#else
+	.string "Welcome to the SAFARI ZONE!$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500::
+#if GERMAN
 	.string "Für nur 500¥ darfst du im Park so\n"
 	.string "viele Pokémon fangen, wie du\l"
 	.string "möchtest!\p"
 	.string "Möchtest du auf die Jagd gehen?$"
+#else
+	.string "For just ¥500, you can play the\n"
+	.string "SAFARI GAME.\p"
+	.string "You can roam the wide-open safari\n"
+	.string "and catch what you like.\p"
+	.string "Would you like to play?$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_ThatllBe500WeOnlyUseSpecialBalls::
+#if GERMAN
 	.string "Das kostet 500¥!\p"
 	.string "Wir verwenden hier spezielle\n"
 	.string "Pokébälle.$"
+#else
+	.string "That'll be ¥500, please!\p"
+	.string "We only use a special kind of \n"
+	.string "POKé BALLS here.$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_PlayerReceived30SafariBalls::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "30 Safaribälle!$"
+#else
+	.string "{PLAYER} received 30 SAFARI BALLS\n"
+	.string "from the attendant.$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_CallYouOnPAWhenYouRunOut::
+#if GERMAN
 	.string "Wir rufen dich über Lautsprecher\n"
 	.string "aus, wenn deine Fangzeit abgelaufen\l"
 	.string "oder dein Vorrat an Safaribällen\l"
 	.string "erschöpft ist!$"
+#else
+	.string "We'll call you on the PA when you\n"
+	.string "run out of time or SAFARI BALLS.\p"
+	.string "Well, I'll wish you the best of\n"
+	.string "luck!$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_OkayPleaseComeAgain::
+#if GERMAN
 	.string "O.K.!\n"
 	.string "Besuche uns bald wieder!$"
+#else
+	.string "Okay.\n"
+	.string "Please come again!$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_OopsNotEnoughMoney::
+#if GERMAN
 	.string "Ups!\n"
 	.string "Du hast nicht genug Geld!$"
+#else
+	.string "Oops!\n"
+	.string "Not enough money!$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_GoingToLeaveSafariZoneEarly::
+#if GERMAN
 	.string "Hast du keine Lust mehr?$"
+#else
+	.string "Are you going to leave the\n"
+	.string "SAFARI ZONE early?$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls::
+#if GERMAN
 	.string "Gib bitte die restlichen\n"
 	.string "Safaribälle zurück.$"
+#else
+	.string "Please return any SAFARI BALLS\n"
+	.string "you may have left.$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_GoodLuck::
+#if GERMAN
 	.string "Viel Glück!$"
+#else
+	.string "Good luck!$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_CatchFairShareComeAgain::
+#if GERMAN
 	.string "War die Jagd erfolgreich?\n"
 	.string "Besuche uns bald wieder!$"
+#else
+	.string "Did you catch your fair share?\n"
+	.string "Come again!$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone::
+#if GERMAN
 	.string "Hi!\n"
 	.string "Bist du zum ersten Mal hier?$"
+#else
+	.string "Hi! Is it your first time here at\n"
+	.string "the SAFARI ZONE?$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
-	.string "Die Safari-Zone besteht aus vier\n"
+#if GERMAN
+	.string "Die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} besteht aus vier\n"
 	.string "Abschnitten.\p"
 	.string "In jedem Abschnitt findet man\n"
 	.string "verschiedene Pokémon. Versuche,\l"
@@ -272,7 +337,29 @@ FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
 	.string "Wenn du keine Safaribälle mehr\n"
 	.string "hast oder wenn die Zeit abgelaufen\l"
 	.string "ist, endet das Spiel!$"
+#else
+	.string "The SAFARI ZONE actually has\n"
+	.string "four zones in it.\p"
+	.string "Each zone has different kinds of\n"
+	.string "POKéMON, even some rare ones.\p"
+	.string "Use the supplied SAFARI BALLS to\n"
+	.string "catch them.\p"
+	.string "You can also throw BAIT or ROCKS\n"
+	.string "besides the SAFARI BALLS.\p"
+	.string "If you throw BAIT, the POKéMON\n"
+	.string "becomes less likely to flee, but\l"
+	.string "harder to catch.\p"
+	.string "If you throw ROCKS, the POKéMON\n"
+	.string "becomes more likely to flee, but\l"
+	.string "easier to catch.\p"
+	.string "When you run out of time or SAFARI\n"
+	.string "BALLS, it's game over for you!$"
+#endif
 
 FuchsiaCity_SafariZone_Entrance_Text_SorryYoureARegularHere::
+#if GERMAN
 	.string "Heh, du bist ein Stammkunde!$"
+#else
+	.string "Sorry, you're a regular here!$"
+#endif
 

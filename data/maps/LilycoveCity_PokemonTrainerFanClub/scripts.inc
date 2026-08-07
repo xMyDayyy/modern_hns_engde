@@ -559,10 +559,16 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_AlreadyInterviewed2::
 	end
 
 LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer:
+#if GERMAN
 	.string "Oh, wow!\n"
 	.string "Das ist {PLAYER}!$"
+#else
+	.string "Oh, wow!\n"
+	.string "It's {PLAYER}!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan:
+#if GERMAN
 	.string "Ich habe die Neuigkeit schon gehört.\n"
 	.string "Du bist wirklich stark, nicht wahr?\p"
 	.string "Wir diskutieren immer darüber, wer\n"
@@ -577,80 +583,183 @@ LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan:
 	.string "stark du wirklich bist!\p"
 	.string "Denk dran: Ich jubele dir zu,\n"
 	.string "{PLAYER}!$"
+#else
+	.string "I've heard the news!\n"
+	.string "You're really strong, aren't you?\p"
+	.string "We always argue about who is the\n"
+	.string "strongest of all TRAINERS here.\p"
+	.string "So when I heard about you, I decided\n"
+	.string "to be your fan!\p"
+	.string "I hope you'll keep on battling other\n"
+	.string "tough TRAINERS.\p"
+	.string "That way, we'll be able to see more\n"
+	.string "of your hot, hot battles.\p"
+	.string "That will make the others here see\n"
+	.string "exactly how great you are.\p"
+	.string "Remember, I'm cheering for you,\n"
+	.string "{PLAYER}!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureOneWeWantToWin:
+#if GERMAN
 	.string "Ja, {PLAYER}!\n"
 	.string "Dich wollen wir als Sieger sehen!$"
+#else
+	.string "Yo, {PLAYER}!\n"
+	.string "You're the one we want to win!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_OthersDontKnowYoureTheBest:
+#if GERMAN
 	.string "Die anderen wissen gar nicht, dass du\n"
 	.string "besser bist als alle anderen!\p"
 	.string "Das stimmt doch, oder {PLAYER}?\n"
 	.string "Zeig ihnen, was du drauf hast!$"
+#else
+	.string "The others, they don't know that\n"
+	.string "you're the best of the best!\p"
+	.string "Isn't that right, {PLAYER}?\n"
+	.string "Show them you've got guts!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainersPowerIsOutOfTheOrdinary:
+#if GERMAN
 	.string "Ich sage es ja nicht gerne, aber der\n"
 	.string "Trainer, über den alle sprechen, ist\l"
 	.string "{STR_VAR_1}, keine Frage!\p"
 	.string "Die Stärke dieses Trainers…\n"
 	.string "Ganz außergewöhnlich.$"
+#else
+	.string "I hate to say this, but the TRAINER\n"
+	.string "everybody's talking about is\l"
+	.string "{STR_VAR_1}, no question about it!\p"
+	.string "That TRAINER's power…\n"
+	.string "It's out of the ordinary.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsBestNoOneWantsToListen:
+#if GERMAN
 	.string "Mist… Ich sage jedem, dass {STR_VAR_1}\n"
 	.string "am besten von allen ist.\p"
 	.string "Aber niemand hört mir zu…$"
+#else
+	.string "Darn it… I've been telling people\n"
+	.string "that {STR_VAR_1} is the best now…\p"
+	.string "But no one wants to listen…$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_HearingAboutToughNewTrainer:
+#if GERMAN
 	.string "Ich habe etwas über einen neuen,\n"
 	.string "starken Trainer gehört.\p"
 	.string "Dieser Trainer wird bestimmt auch die\n"
 	.string "Arenaleiter besiegen.\p"
 	.string "Weißt du irgendwas über diesen neuen\n"
 	.string "Trainer?$"
+#else
+	.string "I've been hearing things about\n"
+	.string "a tough new TRAINER.\p"
+	.string "This TRAINER's supposed to be beating\n"
+	.string "GYM LEADERS, even.\p"
+	.string "Do you know anything about this\n"
+	.string "new TRAINER?$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImPullingForYou:
+#if GERMAN
 	.string "Oh! {PLAYER}!\p"
 	.string "Los! Ich drücke dir die Daumen!$"
+#else
+	.string "Oh!\n"
+	.string "{PLAYER}!\p"
+	.string "Go for it!\n"
+	.string "I'm pulling for you!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_BrawlyNoImYourFan:
+#if GERMAN
 	.string "Seufz… Kamillo…\p"
 	.string "Oh, nein! Warte mal!\n"
 	.string "Das stimmt gar nicht! Nein, nein!\p"
 	.string "Ich bin dein größter Fan!\p"
 	.string "Also mach mich stolz!\n"
 	.string "Los!$"
+#else
+	.string "Sigh…\n"
+	.string "BRAWLY…\p"
+	.string "Oh, no! Wait!\n"
+	.string "That's not right! No, no, no!\p"
+	.string "I'm your fan through and through!\p"
+	.string "So make me proud!\n"
+	.string "Go for it!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingBrawly:
+#if GERMAN
 	.string "Ich kann mir nicht helfen, aber ich\n"
 	.string "finde nur Kamillo klasse…$"
+#else
+	.string "I can't help it, I can only get to\n"
+	.string "like BRAWLY…$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly:
+#if GERMAN
 	.string "Niemand erkennt den Charme von\n"
 	.string "Kamillo…\p"
 	.string "Mir doch egal!\p"
 	.string "Auch wenn keiner ihm zujubelt, ich\n"
 	.string "unterstütze Kamillo!$"
+#else
+	.string "Nobody understands the charm of\n"
+	.string "BRAWLY…\p"
+	.string "I don't care!\p"
+	.string "Even if I'm the only one, I'm going\n"
+	.string "to keep cheering for BRAWLY!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly:
+#if GERMAN
 	.string "Egal, was die anderen sagen, der Arena-\n"
 	.string "leiter von Faustauhaven, Kamillo,\l"
 	.string "ist mein Favorit!$"
+#else
+	.string "Whatever anyone says, my favorite\n"
+	.string "TRAINER is DEWFORD's GYM LEADER\l"
+	.string "BRAWLY!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:
+#if GERMAN
 	.string "Du hast deinen Vater in jeder Hinsicht\n"
 	.string "übertroffen!\p"
 	.string "Das sag ich dir. Und da gibt es\n"
 	.string "überhaupt keinen Zweifel dran!$"
+#else
+	.string "You've surpassed your own father in\n"
+	.string "every regard!\p"
+	.string "I'm telling you, so there's no question\n"
+	.string "about it at all!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling:
+#if GERMAN
 	.string "Selbst in scheinbar aussichtslosen\n"
 	.string "Situationen gibt dein Vater nicht auf.\n"
 	.string "\p"
 	.string "Ich weiß, dass das stimmt!\p"
 	.string "Und du verhältst dich genauso.\n"
 	.string "Also, kämpfe fleißig weiter.$"
+#else
+	.string "Even when things turned bleak,\n"
+	.string "your father never gave up.\p"
+	.string "This I know to be true.\p"
+	.string "You never give up even if you lose!\n"
+	.string "So keep on battling!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
+#if GERMAN
 	.string "Norman hat im Kampf mehr Kraft, \n"
 	.string "Charisma und Darbietungstalent\l"
 	.string "gezeigt als du.\p"
@@ -659,79 +768,168 @@ LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
 	.string "Du hast noch einen weiten Weg vor dir,\n"
 	.string "wenn du so werden willst wie dein\l"
 	.string "Vater.$"
+#else
+	.string "NORMAN battled with more power,\n"
+	.string "charisma, and showmanship than you.\p"
+	.string "Even though people may say that\n"
+	.string "you're strong…\p"
+	.string "You've still got a long way to go\n"
+	.string "compared to your father.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent:
+#if GERMAN
 	.string "Du bekommst langsam auch die Aura von\n"
 	.string "Autorität, die Norman umgibt.\p"
 	.string "Aber es gibt einen gewaltigen\n"
 	.string "Unterschied zwischen dir und Norman.\p"
 	.string "Aber ich kann dir nicht sagen, was das\n"
 	.string "ist. Du musst es selbst herausfinden.$"
+#else
+	.string "You're beginning to get the same\n"
+	.string "air of awe NORMAN exudes.\p"
+	.string "But there's something conclusively\n"
+	.string "different between you and NORMAN.\p"
+	.string "I can't tell you what that is.\n"
+	.string "You'll have to find it yourself.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers:
+#if GERMAN
 	.string "Jeder hier ist ein großer Fan von\n"
 	.string "Pokémon-Kämpfen.\p"
 	.string "Wir diskutieren gerade, welcher\n"
 	.string "Trainer der stärkste ist.\p"
 	.string "Wenn du berühmt wirst, werden wir\n"
 	.string "vielleicht deine Fans!$"
+#else
+	.string "Everyone here, we're all huge fans\n"
+	.string "of POKéMON battles.\p"
+	.string "We discuss who we consider to be\n"
+	.string "the strongest of all TRAINERS.\p"
+	.string "If you were to become famous,\n"
+	.string "we might even become your fans!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_OhWoweeItsPlayer:
+#if GERMAN
 	.string "Kreisch! Das ist {PLAYER}!\n"
 	.string "Wirklich und wahrhaftig!!!\p"
 	.string "Bitte, schüttle mir die Hand!\n"
 	.string "Biiitte!!!$"
+#else
+	.string "Oh, woweee! It's {PLAYER}!\n"
+	.string "For real, too!\p"
+	.string "Please, shake my hand, shake my hand!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou:
+#if GERMAN
 	.string "Ich juble dir ständig zu, {PLAYER}!\n"
 	.string "Immer! Iiimmer!\p"
 	.string "Ich möchte dich niemals als Verlierer\n"
 	.string "sehen, {PLAYER}.\p"
 	.string "Ich weiß, dass du sehr, sehr, sehr\n"
 	.string "stark bist, {PLAYER}!$"
+#else
+	.string "I'll always cheer for you, {PLAYER}!\n"
+	.string "Always, always!\p"
+	.string "I don't want to see you lose ever,\n"
+	.string "{PLAYER}.\p"
+	.string "Because I know you're really,\n"
+	.string "really strong, {PLAYER}!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_EveryoneThinksTrainerIsCool:
+#if GERMAN
 	.string "{STR_VAR_1} ist wirklich megacool…\p"
 	.string "Jeder denkt das, stimmt’s? Stimmt’s?!?$"
+#else
+	.string "{STR_VAR_1} is really cool…\p"
+	.string "Everyone thinks so, right, right?$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsReallyCoolItsJustMe:
+#if GERMAN
 	.string "{STR_VAR_1} ist cooool, meinst du\n"
 	.string "nicht auch?\p"
 	.string "Selbst ein Würstchen wie ich jubelt\n"
 	.string "seinem favorisierten Trainer zu.$"
+#else
+	.string "{STR_VAR_1} really is cool, don't\n"
+	.string "you think so?\p"
+	.string "Even if it's just me, I'm going to keep\n"
+	.string "cheering my favorite TRAINER.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_WishThereWasTrainerLikeThat:
+#if GERMAN
 	.string "Mein Lieblings-Trainer muss…\p"
 	.string "cool…\p"
 	.string "stark…\p"
 	.string "und total nett sein…\p"
 	.string "Ich wollte, es gäbe so einen Trainer…$"
+#else
+	.string "My favorite TRAINER is…\p"
+	.string "Cool…\p"
+	.string "Strong…\p"
+	.string "And really nice…\p"
+	.string "I wish there was a TRAINER like that…$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_WantToBeStrongLikeYou:
+#if GERMAN
 	.string "Hui! Das ist {PLAYER}!\n"
 	.string "Wahnsinn!\p"
 	.string "Wenn ich groß bin, möchte ich auch so\n"
 	.string "stark sein wie du, {PLAYER}!$"
+#else
+	.string "Whoa! It's {PLAYER}!\n"
+	.string "Wicked!\p"
+	.string "When I grow up, I want to be strong\n"
+	.string "like you, {PLAYER}!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_OnlyOneWhoCheersForYou:
+#if GERMAN
 	.string "Auch wenn ich dein einziger Fan bin…\p"
 	.string "Ich werde dir immer zujubeln, du bist\n"
 	.string "mein Favorit, {PLAYER}!\p"
 	.string "Denn ich glaube an dich, {PLAYER}!$"
+#else
+	.string "Even if I'm the only one…\p"
+	.string "You'll always be the only one\n"
+	.string "I cheer for, {PLAYER}!\p"
+	.string "Because I believe in you, {PLAYER}!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsWickedlyCool:
+#if GERMAN
 	.string "{STR_VAR_1} ist so unverschämt cool…\n"
 	.string "Ich möchte meinem Held die Hand\l"
 	.string "schütteln.$"
+#else
+	.string "{STR_VAR_1} is so wickedly cool…\n"
+	.string "I want to shake hands with my hero.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan:
+#if GERMAN
 	.string "Auch wenn ich der einzige Fan bin…\p"
 	.string "Ich werde niemals aufhören,\n"
 	.string "ein Fan von {STR_VAR_1} zu sein!\p"
 	.string "Denn ich habe gehört, dass {STR_VAR_1}\n"
 	.string "niemals verliert!$"
+#else
+	.string "Even if I'm the only one…\p"
+	.string "I'm never going to stop being\n"
+	.string "{STR_VAR_1}'s fan!\p"
+	.string "Because I've heard, {STR_VAR_1}\n"
+	.string "never loses!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll:
+#if GERMAN
 	.string "{PLAYER}!\n"
 	.string "Du bist wirklich unglaublich!\p"
 	.string "Schon als ich dich das erste Mal\n"
@@ -739,14 +937,29 @@ LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll:
 	.string "Einzigartigkeit bemerkt.\p"
 	.string "Scheinbar täuschen mich meine Augen\n"
 	.string "nie.$"
+#else
+	.string "{PLAYER}!\n"
+	.string "You are amazing after all!\p"
+	.string "Ever since I set eyes on you,\n"
+	.string "I knew that you were great.\p"
+	.string "It looks like my eyes didn't deceive me.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImInYourCorner:
+#if GERMAN
 	.string "Wen kümmern schon die anderen?\n"
 	.string "Ich bin auf deiner Seite!\p"
 	.string "Keine Sorge. Geh da raus und kämpfe\n"
 	.string "wie immer.$"
+#else
+	.string "Who cares about the others.\n"
+	.string "I'm in your corner!\p"
+	.string "You don't need to worry. Just get\n"
+	.string "out there and battle like always.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne:
+#if GERMAN
 	.string "Du bist ein anständiger Trainer.\n"
 	.string "Das ist meine Meinung.\p"
 	.string "Aber ich denke, {STR_VAR_1} ist im\n"
@@ -754,28 +967,58 @@ LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne:
 	.string "Das ist jedenfalls meine Auffassung.\n"
 	.string "Aber lass dir darüber keine grauen\l"
 	.string "Haare wachsen.$"
+#else
+	.string "You're a pretty decent TRAINER,\n"
+	.string "I think.\p"
+	.string "But I also think that {STR_VAR_1}\n"
+	.string "is number one right now.\p"
+	.string "That's just my opinion.\n"
+	.string "Don't worry about it too much.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer:
+#if GERMAN
 	.string "Wow, du bist wirklich sehr stark.\n"
 	.string "Vielleicht sogar stärker als\l"
 	.string "{STR_VAR_1}.\p"
 	.string "Aber {STR_VAR_1} braucht mich.\p"
 	.string "Wenn ich {STR_VAR_1} nicht zujuble,\n"
 	.string "wer wird es dann tun?$"
+#else
+	.string "Wow, you really are strong.\n"
+	.string "Maybe even stronger than {STR_VAR_1}.\p"
+	.string "But {STR_VAR_1} needs me.\p"
+	.string "If I don't cheer for {STR_VAR_1},\n"
+	.string "who will?$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouChangedMyMind:
+#if GERMAN
 	.string "Du hast mich überzeugt.\n"
 	.string "Du bist stark, nicht wahr?\p"
 	.string "Würdest du mir bitte erzählen, wie\n"
 	.string "du so stark geworden bist?$"
+#else
+	.string "You've changed my mind!\n"
+	.string "You are strong, aren't you?\p"
+	.string "I'd like you to tell me how you managed\n"
+	.string "to get so strong!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation:
+#if GERMAN
 	.string "Je schwieriger die Lage, desto\n"
 	.string "ästhetischer wird dein Kampf.\p"
 	.string "Ich kann deinen nächsten Kampf gar\n"
 	.string "nicht erwarten!$"
+#else
+	.string "The tougher the situation, the more\n"
+	.string "attractively you battle.\p"
+	.string "I can't wait for your next battle!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout:
+#if GERMAN
 	.string "Unter den wirklich heißen Trainern\n"
 	.string "hebt sich {STR_VAR_1} besonders\n"
 	.string "hervor. \p"
@@ -783,8 +1026,16 @@ LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout:
 	.string "Du kämpfst auch sehr gut, aber du\n"
 	.string "gehörst nicht in die gleiche Klasse\l"
 	.string "wie {STR_VAR_1}.$"
+#else
+	.string "Among the recently hot TRAINERS,\n"
+	.string "{STR_VAR_1} is the standout.\p"
+	.string "That toughness, it's simply not normal.\p"
+	.string "You're doing okay, but you're not in\n"
+	.string "the same class as {STR_VAR_1}.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_NoOneCanKnockYouButTrainerStronger:
+#if GERMAN
 	.string "Du bist sehr populär…\p"
 	.string "Du bist stark und du sorgst gut für\n"
 	.string "deine Pokémon.\p"
@@ -792,25 +1043,53 @@ LilycoveCity_PokemonTrainerFanClub_Text_NoOneCanKnockYouButTrainerStronger:
 	.string "{STR_VAR_1}.\p"
 	.string "{STR_VAR_1} ist definitiv stärker!\n"
 	.string "Ich bin mir da sicher!$"
+#else
+	.string "You are really popular…\p"
+	.string "You're strong, and you're caring to\n"
+	.string "POKéMON. No one can knock you.\p"
+	.string "But, you know, I believe in {STR_VAR_1}.\p"
+	.string "{STR_VAR_1} is definitely stronger!\n"
+	.string "I'm positive!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouImpressive:
+#if GERMAN
 	.string "Du…\p"
 	.string "Beeindruckend!$"
+#else
+	.string "You…\p"
+	.string "Impressive!$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth:
+#if GERMAN
 	.string "Dein wahrer Wert… Es ist gut, wenn\n"
 	.string "nur ich ihn erkenne.\p"
 	.string "Ich glaube nicht, dass die anderen die\n"
 	.string "versteckten Kräfte verstehen würden.$"
+#else
+	.string "Your true worth, it is fine if only\n"
+	.string "I recognized it.\p"
+	.string "The others I doubt will understand\n"
+	.string "the hidden power that beats within.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaventRealizedPotential:
+#if GERMAN
 	.string "Ja, deine Augen spiegeln deine Stärke\n"
 	.string "wider.\p"
 	.string "Aber!\p"
 	.string "Du hast dein eigenes Potenzial noch\n"
 	.string "nicht erkannt.$"
+#else
+	.string "Yes, I see strength in your eyes.\p"
+	.string "But!\p"
+	.string "You still haven't realized your\n"
+	.string "potential.$"
+#endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength:
+#if GERMAN
 	.string "Es stimmt, du agierst wirklich sehr\n"
 	.string "kraftvoll.\p"
 	.string "Aber! Ich sage dir was!\p"
@@ -820,3 +1099,14 @@ LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength:
 	.string "… …\p"
 	.string "Äh, eigentlich weiß ich das auch\n"
 	.string "nicht…$"
+#else
+	.string "It is true that you are tremendously\n"
+	.string "powerful.\p"
+	.string "But!\n"
+	.string "I can tell…\p"
+	.string "That strength cannot be considered\n"
+	.string "true strength yet!\p"
+	.string "True strength is…!\n"
+	.string "… …\p"
+	.string "Actually, I have no idea, either.$"
+#endif

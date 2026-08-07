@@ -70,40 +70,86 @@ Gate_Route43_Rocket_EventScript_Rockets::
 	end
 
 Gate_Route43_Rocket_Text_TollFee:
+#if GERMAN
 	.string "Halt, Kleiner!\p"
 	.string "Die Maut beträgt 500 ¥, um\n"
 	.string "durchzugehen.$"
+#else
+    .string "Hold it there, kiddo!\p"
+    .string "The toll is ¥500 to go\n"
+    .string "through.$"
+#endif
 
 Gate_Route43_Rocket_Text_ThankYou:
+#if GERMAN
 	.string "Hehehe! Du bist ein guter Kunde!$"
+#else
+    .string "Thank you very much!$"
+#endif
 
 Gate_Route43_Rocket_Text_AllYouGot:
+#if GERMAN
 	.string "Dann zahl, was du hast, bitte.$"
+#else
+    .string "Then pay what you have, please.$"
+#endif
 
 Gate_Route43_Rocket_Text_KickOut:
+#if GERMAN
 	.string "Wow!\p"
 	.string "Du bist total pleite!\p"
 	.string "Fast schon Mitleid mit dir.\p"
 	.string "Okay, du darfst durch…\p"
 	.string "Sag es aber nicht dem anderen\n"
 	.string "Wächter, verstanden?$"
+#else
+	.string "Wow!\p"
+	.string "You're totally broke!\p"
+	.string "I almost feel sorry for you.\p"
+	.string "Okay, you can pass...\p"
+	.string "Just don't tell the other guard,\n"
+	.string "okay?$"
+#endif
 
 Gate_Route43_Rocket_Text_MakingABundle:
+#if GERMAN
 	.string "Hehehe, seitdem das Gerücht kursiert,\n"
-	.string "dass am See des Zorns irgendwas ganz\l"
+	.string "dass am {COLOR RED}See des Zorns{COLOR DARK_GRAY} irgendwas ganz\l"
 	.string "Merkwürdiges im Busch sein soll,\l"
 	.string "strömen die Leute hier in Massen durch!$"
+#else
+    .string "He-he-he. We're making a bundle.\p"
+    .string "Everyone wants to see what's going\n"
+    .string "on up at LAKE OF RAGE.$"
+#endif
 
 Route43Gate_Text_OfficerFoundTM:
+#if GERMAN
 	.string "Ich wurde von diesen Dieben"
 	.string "von meinem Posten vertrieben.\p"
 	.string "Sie haben das hier liegen lassen.\p"
 	.string "Es macht mir Angst. Könntest du\n"
 	.string "es wegnehmen?$"
+#else
+    .string "I got chased from my post by these\n"
+    .string "thugs in black.\p"
+    .string "They left this behind.\p"
+    .string "It makes me uncomfortable. Could\n"
+    .string "you take it away?$"
+#endif
 
 Gate_Route43_Text_ReceivedTM30:
+#if GERMAN
 	.string "{PLAYER} erhielt TM36.$"
+#else
+    .string "{PLAYER} received TM36.$"
+#endif
 
 Gate_Route43_Text_OfficerAvoidGrass:
+#if GERMAN
 	.string "Benutze dieses Tor, um nicht durch\n"
 	.string "das Gras zu laufen.$"
+#else
+    .string "Use this gate to avoid walking in\n"
+    .string "the grass.$"
+#endif

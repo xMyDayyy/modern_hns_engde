@@ -86,7 +86,11 @@ static void CB2_WaitForPaletteExitOnKeyPress(void);
 static void CB2_ExitOnKeyPress(void);
 static void CB2_ExitMailReadFreeVars(void);
 
+#if GERMAN
 static const u8 sText_FromSpace[] = _("Von ");
+#else
+static const u8 sText_FromSpace[] = _("From ");
+#endif
 
 static const struct BgTemplate sBgTemplates[] = {
     {

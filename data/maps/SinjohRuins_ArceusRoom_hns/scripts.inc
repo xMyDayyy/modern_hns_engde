@@ -314,12 +314,22 @@ SinjohRuins_ArceusRoom_EventScript_ArceusRan::
 	end
 
 SinjohRuins_ArceusRoom_Text_CryArceus:
+#if GERMAN
 	.string "Arceus: Dodogyuuun!$"
+#else
+    .string "ARCEUS: Dodogyuuun!$"
+#endif
 
 SinjohRuins_ArceusRoom_Text_CryArceus2:
+#if GERMAN
 	.string "Arceus: Dodogyuuun!\p"
 	.string "Arceus ist geschwächt…\n"
 	.string "Es könnte sich fangen lassen!$"
+#else
+	.string "ARCEUS: Dodogyuuun!\p"
+	.string "The ARCEUS is weakened...\n"
+	.string "Can be caught?$"
+#endif
 
 SinjohRuins_ArceusRoom_TriggerSteven::
 	lock
@@ -355,6 +365,7 @@ SinjohRuins_ArceusRoom_Movement_StevenWalkDown:
 	step_end
 
 SinjohRuins_ArceusRoom_Text_StevenCongrats:
+#if GERMAN
 	.string "Troy: Du hast es geschafft,\n"
 	.string "{PLAYER}!\p"
 	.string "Dieser Kampf war atemberaubend.\p"
@@ -381,3 +392,25 @@ SinjohRuins_ArceusRoom_Text_StevenCongrats:
 	.string "mich brauchst.\p"
 	.string "Fufufu, was könntest du schon von\n"
 	.string "mir brauchen?$"
+#else
+    .string "STEVEN: You did it, {PLAYER}!\p"
+	.string "That battle was breathtaking.\p"
+	.string "Seeing your power made me realize.\p"
+	.string "The KIMONO GIRLS didn't send you\n"
+	.string "to help our research.\p"
+	.string "I think they sent you because\n"
+	.string "you were the only one worthy of\l"
+	.string "taming the legendary POKéMON.\p"
+	.string "They didn't trust my team and I\n"
+	.string "to handle it.\p"
+	.string "And after what I've just seen...\p"
+	.string "I think they were right.\p"
+	.string "I've brought a lot of unwanted\n"
+	.string "attention to this town.\p"
+	.string "I think I'll spend some time\n"
+	.string "with the locals.\p"
+	.string "After all of this, you and your\n"
+	.string "POKéMON deserve some rest.\p"
+	.string "I'll be at the village if you need me.\p"
+	.string "Fufufu, what could you need from me?$"
+#endif

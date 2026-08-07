@@ -24,14 +24,27 @@ MossdeepCity_PokemonCenter_1F_EventScript_Girl::
 	end
 
 MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable:
+#if GERMAN
 	.string "Die Arenaleiter dieses Ortes sind ein\n"
 	.string "ausgezeichnetes Team.\p"
 	.string "Die Kombination ihrer Attacken ist\n"
 	.string "einfach exzellent und… wow!$"
+#else
+	.string "The GYM LEADERS in this town are\n"
+	.string "a formidable duo.\p"
+	.string "Their combination attacks are, like,\n"
+	.string "excellent and wow!$"
+#endif
 
 MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves:
+#if GERMAN
 	.string "Abhängig von den speziellen\n"
 	.string "Fähigkeiten eines Pokémon, werden\p"
 	.string "einige Attacken in ihrer Wirkung\n"
 	.string "verändert oder sogar wirkungslos.$"
+#else
+	.string "Depending on the special abilities of\n"
+	.string "POKéMON, some moves might change\l"
+	.string "or not work at all.$"
+#endif
 

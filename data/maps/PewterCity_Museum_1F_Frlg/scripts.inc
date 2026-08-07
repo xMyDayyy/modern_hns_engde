@@ -189,47 +189,99 @@ PewterCity_Museum_1F_EventScript_KabutopsFossil::
 	end
 
 PewterCity_Museum_1F_Text_Its50YForChildsTicket::
+#if GERMAN
 	.string "Für Kinder kostet der Eintritt 50¥!\p"
 	.string "Möchtest du hinein?$"
+#else
+	.string "Yes, yes.\n"
+	.string "It's ¥50 for a child's ticket.\p"
+	.string "Would you like to come in?$"
+#endif
 
 PewterCity_Museum_1F_Text_ComeAgain::
+#if GERMAN
 	.string "Komm bald wieder!$"
+#else
+	.string "Come again!$"
+#endif
 
 PewterCity_Museum_1F_Text_Right50YThankYou::
+#if GERMAN
 	.string "O.K., das sind 50¥!\n"
 	.string "Vielen Dank!$"
+#else
+	.string "Right, ¥50!\n"
+	.string "Thank you!$"
+#endif
 
 PewterCity_Museum_1F_Text_DontHaveEnoughMoney::
+#if GERMAN
 	.string "Du hast nicht genug Geld…$"
+#else
+	.string "You don't have enough money.$"
+#endif
 
 PewterCity_Museum_1F_Text_PleaseEnjoyYourself::
+#if GERMAN
 	.string "Viel Vergnügen!$"
+#else
+	.string "Please enjoy yourself.$"
+#endif
 
 PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
+#if GERMAN
 	.string "Du hast hinter dem Tresen nichts zu\n"
 	.string "suchen!\p"
 	.string "Na ja, egal!\n"
 	.string "Weißt du, was Bernstein ist?$"
+#else
+	.string "You can't sneak in the back way!\n"
+	.string "Nice try, kid, but no.\p"
+	.string "Oh, whatever!\n"
+	.string "Do you know what AMBER is?$"
+#endif
 
 PewterCity_Museum_1F_Text_AmberContainsGeneticMatter::
+#if GERMAN
 	.string "Es soll ein Labor geben, in dem\n"
 	.string "man versucht, aus altem Bernstein\l"
 	.string "Urzeit-Pokémon wiederauferstehen\l"
 	.string "zu lassen!$"
+#else
+	.string "AMBER contains the genetic matter\n"
+	.string "of ancient POKéMON.\p"
+	.string "There's a LAB somewhere trying to\n"
+	.string "resurrect POKéMON from AMBER.$"
+#endif
 
 PewterCity_Museum_1F_Text_AmberIsFossilizedSap::
+#if GERMAN
 	.string "Bernstein ist versteinertes\n"
 	.string "Baumharz.$"
+#else
+	.string "AMBER is actually sap, that gooey\n"
+	.string "stuff that oozes from trees.\p"
+	.string "The ancient sap fossilized over\n"
+	.string "time to become rock-hard AMBER.$"
+#endif
 
 @ Unused
 PewterCity_Museum_1F_Text_PleaseGoAround::
 	.string "あちらへ　おまわりください$"
 
 PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife::
+#if GERMAN
 	.string "Dies ist ein außergewöhnliches\n"
 	.string "Fossil!$"
+#else
+	.string "I should be grateful for my long\n"
+	.string "life.\p"
+	.string "Never did I think I would get to\n"
+	.string "see the bones of a dragon!$"
+#endif
 
 PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
+#if GERMAN
 	.string "Pst! Ich glaube, in diesem Stück\n"
 	.string "Bernstein ist Pokémon-Dns\l"
 	.string "enthalten!\p"
@@ -242,34 +294,82 @@ PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
 	.string "erledigen?\p"
 	.string "Lass das im Pokémon-Labor\n"
 	.string "untersuchen!$"
+#else
+	.string "Ssh! Listen, I need to share a\n"
+	.string "secret with someone.\p"
+	.string "I think that this chunk of AMBER\n"
+	.string "contains POKéMON DNA!\p"
+	.string "It would be a shattering scientific\n"
+	.string "breakthrough if POKéMON could be\l"
+	.string "resurrected from it.\p"
+	.string "But, my colleagues just ignore\n"
+	.string "what I have to say.\p"
+	.string "So, I have a favor to ask!\p"
+	.string "I want you to get this examined at\n"
+	.string "a POKéMON LAB somewhere.$"
+#endif
 
 PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "einen Altbernstein!$"
+#else
+	.string "{PLAYER} received the OLD AMBER\n"
+	.string "from the man.$"
+#endif
 
 PewterCity_Museum_1F_Text_GetOldAmberChecked::
+#if GERMAN
 	.string "Pst!\n"
 	.string "Lass den Altbernstein untersuchen!$"
+#else
+	.string "Ssh!\n"
+	.string "Get the OLD AMBER checked!$"
+#endif
 
 PewterCity_Museum_1F_Text_DontHaveSpaceForThis::
+#if GERMAN
 	.string "Du hast keinen Platz dafür!$"
+#else
+	.string "You don't have space for this.$"
+#endif
 
 PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit::
+#if GERMAN
 	.string "Unser besonderer Stolz sind zwei\n"
 	.string "Fossilien von äußerst seltenen,\l"
 	.string "prähistorischen Pokémon!$"
+#else
+	.string "We have two fossils of rare,\n"
+	.string "prehistoric POKéMON on exhibit.$"
+#endif
 
 PewterCity_Museum_1F_Text_BeautifulPieceOfAmber::
+#if GERMAN
 	.string "Der Bernstein schimmert goldbraun\n"
 	.string "und ist durchsichtig!$"
+#else
+	.string "There is a beautiful piece of\n"
+	.string "AMBER in a clear gold color.$"
+#endif
 
 PewterCity_Museum_1F_Text_AerodactylFossil::
+#if GERMAN
 	.string "Aerodactyl-Fossil\n"
 	.string "Ein urzeitliches und seltenes\l"
 	.string "Pokémon.$"
+#else
+	.string "AERODACTYL Fossil\n"
+	.string "A primitive and rare POKéMON.$"
+#endif
 
 PewterCity_Museum_1F_Text_KabutopsFossil::
+#if GERMAN
 	.string "Kabutops-Fossil\n"
 	.string "Ein urzeitliches und seltenes\l"
 	.string "Pokémon.$"
+#else
+	.string "KABUTOPS Fossil\n"
+	.string "A primitive and rare POKéMON.$"
+#endif
 

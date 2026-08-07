@@ -51,6 +51,7 @@ AquaHideout_1F_EventScript_Grunt1Defeated::
 	end
 
 AquaHideout_1F_Text_OurBossIsSnatchingSomething:
+#if GERMAN
 	.string "Was? Wie? Was hast du mit Team Aqua zu\n"
 	.string "schaffen?\p"
 	.string "Unser Boss ist nicht hier! Er ist\n"
@@ -61,16 +62,36 @@ AquaHideout_1F_Text_OurBossIsSnatchingSomething:
 	.string "Wo er hin ist?\p"
 	.string "Uahahaha! Du glaubst doch nicht im\n"
 	.string "Ernst, dass ich dir das verrate!?!$"
+#else
+	.string "What? What? What do you want with \n"
+	.string "TEAM AQUA?\p"
+	.string "Our BOSS isn't here! He's gone off to\n"
+	.string "snatch something important!\p"
+	.string "… …\n"
+	.string "Where did he go?\p"
+	.string "Wahaha! Do you really think I'd tell\n"
+	.string "you something that crucial?$"
+#endif
 
 AquaHideout_1F_Text_WhereMightMagmaHideoutBe:
+#if GERMAN
 	.string "Was? Wie?!?\n"
 	.string "Du bist einer von Team Magma?\p"
 	.string "Ich habe gehört, dass Team Magma\n"
 	.string "versucht, ein großartiges Pokémon in\l"
 	.string "seinem Versteck aufzuwecken.\p"
 	.string "Aber wo ist das Versteck wohl?$"
+#else
+	.string "What? What?\n"
+	.string "Are you a TEAM MAGMA grunt?\p"
+	.string "I hear that TEAM MAGMA is trying to\n"
+	.string "awaken an awesome POKéMON at their\l"
+	.string "HIDEOUT.\p"
+	.string "But where might their HIDEOUT be?$"
+#endif
 
 AquaHideout_1F_Text_BossWentToJackASubmarine:
+#if GERMAN
 	.string "Was? Wie? Was hast du mit Team Aqua zu\n"
 	.string "schaffen?\p"
 	.string "Unser Boss ist nicht hier! Er ist\n"
@@ -81,19 +102,41 @@ AquaHideout_1F_Text_BossWentToJackASubmarine:
 	.string "Wo er hin ist?\p"
 	.string "Uahahaha! Du glaubst doch nicht im\n"
 	.string "Ernst, dass ich dir das verrate!?!$"
+#else
+	.string "What? What? What do you want with \n"
+	.string "TEAM AQUA?\p"
+	.string "Our BOSS isn't here!\n"
+	.string "He's gone off to jack a submarine!\p"
+	.string "… …\n"
+	.string "Where did he go?\p"
+	.string "Wahaha! Do you really think I'd tell\n"
+	.string "you something that crucial?$"
+#endif
 
 AquaHideout_1F_Text_BossIsOnRoute122:
+#if GERMAN
 	.string "Was? Wie? Was hast du mit Team Aqua zu\n"
 	.string "schaffen?\p"
 	.string "Unser Boss ist nicht hier! Er ist auf\n"
 	.string "dem Weg nach Pyroberg auf der\l"
-	.string "Route 122!\p"
+	.string "{COLOR RED}Route 12{COLOR DARK_GRAY}2!\p"
 	.string "… …\n"
 	.string "Warum er dorthin ist?\p"
 	.string "Uahahaha! Du glaubst doch nicht im\n"
 	.string "Ernst, dass ich dir das verrate!?!$"
+#else
+	.string "What? What? What do you want with \n"
+	.string "TEAM AQUA?\p"
+	.string "Our BOSS isn't here! He's on his way to\n"
+	.string "MT. PYRE on ROUTE 122!\p"
+	.string "… …\n"
+	.string "Why did he go?\p"
+	.string "Wahaha! Do you really think I'd tell\n"
+	.string "you something that crucial?$"
+#endif
 
 AquaHideout_1F_Text_TeamMagmaAtMtChimney:
+#if GERMAN
 	.string "Was? Wie?!?\n"
 	.string "Bist du einer von den Team Magma\l"
 	.string "Rüpeln?\p"
@@ -101,8 +144,16 @@ AquaHideout_1F_Text_TeamMagmaAtMtChimney:
 	.string "Schlotberg nach einem unglaublichen\l"
 	.string "Pokémon sucht.\p"
 	.string "Was ist das wohl für ein Pokémon?$"
+#else
+	.string "What? What?\n"
+	.string "Are you a TEAM MAGMA grunt?\p"
+	.string "I hear that TEAM MAGMA is after\n"
+	.string "an awesome POKéMON at MT. CHIMNEY.\p"
+	.string "But what is that POKéMON like?$"
+#endif
 
 AquaHideout_1F_Text_BossIsInSlateportCity:
+#if GERMAN
 	.string "Was? Wie? Was hast du mit Team Aqua zu\n"
 	.string "schaffen?\p"
 	.string "Unser Boss ist nicht hier! Er ist auf\n"
@@ -111,15 +162,40 @@ AquaHideout_1F_Text_BossIsInSlateportCity:
 	.string "Warum er dorthin ist?\p"
 	.string "Uahahaha! Du glaubst doch nicht im\n"
 	.string "Ernst, dass ich dir das verrate!?!$"
+#else
+	.string "What? What? What do you want with\n"
+	.string "TEAM AQUA?\p"
+	.string "Our BOSS isn't here!\n"
+	.string "He's on his way to SLATEPORT CITY!\p"
+	.string "… …\n"
+	.string "Why did he go?\p"
+	.string "Wahaha! Do you really think I'd tell\n"
+	.string "you something that crucial?$"
+#endif
 
 AquaHideout_1F_Text_Grunt1Intro:
+#if GERMAN
 	.string "Huhuuhuhuu!\n"
 	.string "Verdächtige Person gesichtet!$"
+#else
+	.string "Ayiyiyi!\n"
+	.string "Suspicious character spotted!$"
+#endif
 
 AquaHideout_1F_Text_Grunt1Defeat:
+#if GERMAN
 	.string "Grrr… Ich habe verloren!$"
+#else
+	.string "Grrrrr…\n"
+	.string "I lost it!$"
+#endif
 
 AquaHideout_1F_Text_Grunt1PostBattle:
+#if GERMAN
 	.string "Nun hat das Team verloren, aber ich\n"
 	.string "habe meinen Job gemacht…$"
+#else
+	.string "I took the loss for the TEAM,\n"
+	.string "but I did my job…$"
+#endif
 

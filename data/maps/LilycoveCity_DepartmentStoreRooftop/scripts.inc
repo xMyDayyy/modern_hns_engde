@@ -185,36 +185,78 @@ LilycoveCity_DepartmentStoreRooftop_EventScript_ExitVendingMachine::
 	end
 
 LilycoveCity_DepartmentStoreRooftop_Text_SetDatesForClearOutSales:
+#if GERMAN
 	.string "Haben sie noch nicht bekannt gegeben,\n"
 	.string "wann sie den Ausverkauf starten?\p"
 	.string "Ich achte immer auf die Werbung im\n"
 	.string "Fernsehen, aber bisher war da nichts.$"
+#else
+	.string "Don't they have set dates for their\n"
+	.string "clear-out sales?\p"
+	.string "I watch TV, but they never show any\n"
+	.string "commercials.$"
+#endif
 
 LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale:
+#if GERMAN
 	.string "Ja! Ich habe schon lange auf diesen\n"
 	.string "Ausverkauf gewartet.\p"
 	.string "Hier gibt es Items, die findest du\n"
 	.string "sonst\l"
 	.string "nirgends. Ich decke mich damit ein!$"
+#else
+	.string "Yes! I've been waiting a long time for\n"
+	.string "this clear-out sale.\p"
+	.string "They have items that you can only get\n"
+	.string "here. I'm going to load up, that I am!$"
+#endif
 
 LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty:
+#if GERMAN
 	.string "Ooh… Ich bin am Verdursten!$"
+#else
+	.string "Ohh… I'm bone-dry thirsty!$"
+#endif
 
 LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
+#if GERMAN
 	.string "Das ist ein Getränkeautomat.\n"
 	.string "Möchtest du etwas trinken?$"
+#else
+	.string "It's a VENDING MACHINE.\n"
+	.string "Which drink would you like?$"
+#endif
 
 LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown:
+#if GERMAN
 	.string "Deng!\p"
 	.string "Eine Dose {STR_VAR_1} fällt heraus.$"
+#else
+	.string "Clang!\p"
+	.string "A can of {STR_VAR_1} dropped down.$"
+#endif
 
 LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown:
+#if GERMAN
 	.string "Deng!\p"
 	.string "Treffer! Eine weitere Dose\n"
 	.string "{STR_VAR_1} fällt heraus!$"
+#else
+	.string "Clang!\p"
+	.string "Score! An extra can of {STR_VAR_1}\n"
+	.string "dropped down!$"
+#endif
 
 LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney:
+#if GERMAN
 	.string "Nicht genug Geld…$"
+#else
+	.string "Not enough money…$"
+#endif
 
 LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink:
+#if GERMAN
 	.string "Es wird kein Getränk gekauft.$"
+#else
+	.string "Decided against buying a drink.$"
+#endif

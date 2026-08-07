@@ -15,18 +15,36 @@ CeladonDept2_EventScript_Directory::
 	end
 
 CeladonDeptStore2F_Text_PokefanM:
+#if GERMAN
 	.string "Mein Sohn hat mich auf meine alten Tage\n"
 	.string "noch mal richtig auf den Geschmack\l"
 	.string "gebracht, als Trainer anzufangen…\p"
 	.string "Das riesige Angebot an nützlichen\n"
 	.string "Items hier ist echt überwältigend!$"
+#else
+	.string "I just recently became a trainer.\p"
+	.string "My son encouraged me to do it.\p"
+	.string "I'm impressed by the selection of\n"
+	.string "convenient items.$"
+#endif
 
 CeladonDeptStore2F_Text_Youngster:
+#if GERMAN
 	.string "Mein Papa tut sich sehr schwer damit,\n"
 	.string "die Namen aller Items und ihren Zweck\l"
 	.string "im Kopf zu behalten…$"
+#else
+	.string "My dad's having a hard time\n"
+	.string "learning the names of items and\l"
+	.string "how they are supposed to be used…$"
+#endif
 
 CeladonDeptStore2F_Text_Directory:
+#if GERMAN
 	.string "Allerlei nützliche Items für Trainer!\n"
 	.string "1S: Zubehör für Trainer$"
+#else
+	.string "Top Grade Items for Trainers!\p"
+	.string "2F: TRAINER'S MARKET$"
+#endif
 

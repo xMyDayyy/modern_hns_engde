@@ -381,50 +381,104 @@ SlateportCity_Harbor_EventScript_TradedScanner::
 	end
 
 SlateportCity_Harbor_Text_FerryServiceUnavailable:
+#if GERMAN
 	.string "Verzeihung?\n"
 	.string "Du suchst nach einem Schiff?\p"
 	.string "Oh, das tut mir Leid, aber die Fähre\n"
 	.string "steht momentan nicht zur Verfügung…$"
+#else
+	.string "I beg your pardon?\n"
+	.string "You're looking for a ship?\p"
+	.string "I'm sorry, the ferry service isn't\n"
+	.string "available at present…$"
+#endif
 
 SlateportCity_Harbor_Text_MayISeeYourTicket:
+#if GERMAN
 	.string "Hallo! Möchtest du mit der Fähre\n"
 	.string "fahren? Zeigst du mir bitte dein\l"
 	.string "Ticket?$"
+#else
+	.string "Hello, are you here for the ferry?\n"
+	.string "May I see your TICKET?$"
+#endif
 
 SlateportCity_Harbor_Text_YouMustHaveTicket:
+#if GERMAN
 	.string "{PLAYER} hat kein Ticket…\p"
 	.string "Das tut mir schrecklich Leid.\p"
 	.string "Nur mit einem Ticket kannst du mit der\n"
 	.string "Fähre fahren.$"
+#else
+	.string "{PLAYER} doesn't have the TICKET…\p"
+	.string "I'm terribly sorry.\p"
+	.string "You must have a TICKET to board\n"
+	.string "the ferry.$"
+#endif
 
 SlateportCity_Harbor_Text_FlashedTicketWhereTo:
+#if GERMAN
 	.string "{PLAYER} zückt das Ticket.\p"
 	.string "Perfekt! Damit kannst du an Bord!\p"
 	.string "Und wo soll die Reise hingehen?$"
+#else
+	.string "{PLAYER} flashed the TICKET.\p"
+	.string "Perfect! That's all you need!\p"
+	.string "And where would you like to go?$"
+#endif
 
 SlateportCity_Harbor_Text_SailAnotherTime:
+#if GERMAN
 	.string "Bitte komm später noch einmal wieder!$"
+#else
+	.string "Please sail with us another time!$"
+#endif
 
 SlateportCity_Harbor_Text_LilycoveItIs:
+#if GERMAN
 	.string "Nach Seegrasulb City?$"
+#else
+	.string "LILYCOVE CITY it is, then!$"
+#endif
 
 SlateportCity_Harbor_Text_BattleFrontierItIs:
-	.string "Zur Kampfzone?$"
+#if GERMAN
+	.string "Zur {COLOR RED}Kampfzone{COLOR DARK_GRAY}?$"
+#else
+	.string "BATTLE FRONTIER it is, then!$"
+#endif
 
 SlateportCity_Harbor_Text_PleaseBoardFerry:
+#if GERMAN
 	.string "Bitte komm an Bord. Wir legen bald ab.$"
+#else
+	.string "Please board the ferry and wait for\n"
+	.string "departure.$"
+#endif
 
 SlateportCity_Harbor_Text_WhereWouldYouLikeToGo:
+#if GERMAN
 	.string "Und wo soll die Reise hingehen?$"
+#else
+	.string "Then, where would you like to go?$"
+#endif
 
 SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday:
+#if GERMAN
 	.string "Eine Reise zum Meeresboden…\n"
 	.string "Ich frage mich, wie es dort wohl ist?\n"
 	.string "\p"
 	.string "Eines Tages möchte ich auch einmal so\n"
 	.string "tief unter Wasser reisen.$"
+#else
+	.string "A journey to the bottom of the sea…\n"
+	.string "I wonder what it'd be like?\p"
+	.string "I'd love to go deep underwater like\n"
+	.string "that someday.$"
+#endif
 
 SlateportCity_Harbor_Text_AbnormalWeather:
+#if GERMAN
 	.string "Um eine sichere Schiffsreise zu\n"
 	.string "gewährleisten, müssen wir stets auf\l"
 	.string "das Wetter achten.\p"
@@ -435,8 +489,19 @@ SlateportCity_Harbor_Text_AbnormalWeather:
 	.string "Wetter verrückt spielt!\p"
 	.string "Du solltest mal zum Klima-Institut\n"
 	.string "gehen und dich umhören.$"
+#else
+	.string "For a ship to sail safely, we need to\n"
+	.string "know about the weather!\p"
+	.string "Speaking of weather, I heard something\n"
+	.string "from a guy at the WEATHER INSTITUTE.\p"
+	.string "He was saying abnormal weather has\n"
+	.string "been reported all over the place!\p"
+	.string "You should visit the WEATHER INSTITUTE\n"
+	.string "and ask around!$"
+#endif
 
 SlateportCity_Harbor_Text_SubTooSmallForMe:
+#if GERMAN
 	.string "Ich wäre gerne mit Kapt. Brigg auf die\n"
 	.string "Expedition zum Meeresboden gegangen.\p"
 	.string "Aber das U-Boot ist zu klein für mich.\n"
@@ -444,14 +509,28 @@ SlateportCity_Harbor_Text_SubTooSmallForMe:
 	.string "Ich könnte mich ja reinquetschen, aber\n"
 	.string "dann hätte der Kapitän keinen Platz\l"
 	.string "mehr…$"
+#else
+	.string "I wanted to go with CAPT. STERN on\n"
+	.string "the ocean floor exploration.\p"
+	.string "But the sub's too small for me.\p"
+	.string "If I squeezed in, there wouldn't be\n"
+	.string "any room for the CAPTAIN…$"
+#endif
 
 SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
+#if GERMAN
 	.string "Kapt. Brigg: Diese Schlägertypen…\p"
 	.string "Das sind die gleichen Typen, die\n"
 	.string "versucht haben, die Devon-waren aus\l"
 	.string "dem Museum zu stehlen.$"
+#else
+	.string "CAPT. STERN: Those thugs…\p"
+	.string "They're the same lot who tried to rob\n"
+	.string "the DEVON GOODS at the MUSEUM.$"
+#endif
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
+#if GERMAN
 	.string "Adrian: Oh?\n"
 	.string "Nicht du schon wieder… Stöhn…\p"
 	.string "Du bist ganz schön hartnäckig, uns\n"
@@ -462,8 +541,20 @@ SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 	.string "Oder willst du uns etwa in unser Ver-\n"
 	.string "steck in Seegrasulb City folgen?\p"
 	.string "Ahahahahaha…$"
+#else
+	.string "ARCHIE: Oh?\n"
+	.string "Not you again…\p"
+	.string "You are tenacious to track us here,\n"
+	.string "that much I will give you.\p"
+	.string "But now…\n"
+	.string "No one can stop us! No one!\p"
+	.string "Or, will you follow us back to our\n"
+	.string "HIDEOUT in LILYCOVE CITY?\p"
+	.string "Fwahahahaha…$"
+#endif
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
+#if GERMAN
 	.string "Kapt. Brigg: Warum…\p"
 	.string "Warum sollte Team Aqua mein Tief-\n"
 	.string "see-Forschungsboot 1 stehlen wollen?\p"
@@ -472,8 +563,18 @@ SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 	.string "her sein…\p"
 	.string "Selbst wenn ich sie verfolgen würde…\n"
 	.string "Ich hätte keine Chance gegen sie…$"
+#else
+	.string "CAPT. STERN: Why…\p"
+	.string "Why would TEAM AQUA steal my\n"
+	.string "SUBMARINE EXPLORER 1?\p"
+	.string "They can't be after the slumbering\n"
+	.string "POKéMON at the bottom of the sea…\p"
+	.string "But even if I were to chase them,\n"
+	.string "I don't stand a chance against them…$"
+#endif
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
+#if GERMAN
 	.string "Kapt. Brigg: Oh, {PLAYER}{KUN}…\p"
 	.string "Okay… Du konntest Team Aqua nicht\n"
 	.string "aufhalten…\p"
@@ -490,8 +591,24 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "Dort trifft man auf viele Taucher.\n"
 	.string "Vielleicht kann dir einer das\l"
 	.string "beibringen…$"
+#else
+	.string "CAPT. STERN: Oh, {PLAYER}{KUN}…\p"
+	.string "Okay… So TEAM AQUA left before you\n"
+	.string "could stop them…\p"
+	.string "Oh, no, don't blame yourself.\n"
+	.string "You're not responsible for this.\p"
+	.string "Trying to catch a submarine…\n"
+	.string "It's impossible for most people.\p"
+	.string "You would need a POKéMON that knows\n"
+	.string "how to DIVE…\p"
+	.string "Perhaps if you went out to\n"
+	.string "MOSSDEEP CITY…\p"
+	.string "A lot of divers live out there, so\n"
+	.string "someone might teach you…$"
+#endif
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub:
+#if GERMAN
 	.string "Kapt. Brigg: Ein U-Boot einzuholen und\n"
 	.string "aufzuhalten… Das ist unmöglich.\p"
 	.string "Du benötigst ein Pokémon, das weiß,\n"
@@ -501,14 +618,32 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "Dort trifft man auf viele Taucher, \n"
 	.string "vielleicht kann dir einer das bei-\l"
 	.string "bringen…$"
+#else
+	.string "CAPT. STERN: Trying to catch a\n"
+	.string "submarine… It's impossible.\p"
+	.string "You would need a POKéMON that knows\n"
+	.string "how to DIVE…\p"
+	.string "Perhaps if you went out to\n"
+	.string "MOSSDEEP CITY…\p"
+	.string "A lot of divers live out there, so\n"
+	.string "someone might teach you…$"
+#endif
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
+#if GERMAN
 	.string "Kapt. Brigg: Oh, ja.\n"
 	.string "Mr. Brack kam in unsere Werft.\p"
 	.string "Nun dauert es nicht mehr lange, bis\n"
 	.string "wir unsere Fähre fertig stellen!$"
+#else
+	.string "CAPT. STERN: Oh, yes.\n"
+	.string "MR. BRINEY came to our SHIPYARD.\p"
+	.string "It won't be long now before we finish\n"
+	.string "making the ferry!$"
+#endif
 
 SlateportCity_Harbor_Text_FinishedMakingFerry:
+#if GERMAN
 	.string "Kapt. Brigg: {PLAYER}{KUN}!\p"
 	.string "Wir haben die Fähre MS Tide endlich\n"
 	.string "fertig gestellt.\p"
@@ -516,8 +651,17 @@ SlateportCity_Harbor_Text_FinishedMakingFerry:
 	.string "Brack hätten wir das nicht geschafft.\n"
 	.string "\p"
 	.string "Bitte nimm an einer kurzen Fahrt teil!$"
+#else
+	.string "CAPT. STERN: {PLAYER}{KUN}!\p"
+	.string "We finally finished making the ferry\n"
+	.string "S.S. TIDAL!\p"
+	.string "We couldn't have done it without\n"
+	.string "your friend MR. BRINEY.\p"
+	.string "Please go for a short cruise on it!$"
+#endif
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
+#if GERMAN
 	.string "Kapt. Brigg: Oh?\n"
 	.string "{PLAYER}{KUN}, das Item, das du da\n"
 	.string "hast… \p"
@@ -528,8 +672,19 @@ SlateportCity_Harbor_Text_WouldYouTradeScanner:
 	.string "etwas anderes eintauschen?\p"
 	.string "Zum Beispiel gegen einen Abysszahn\n"
 	.string "oder eine Abyssplatte?$"
+#else
+	.string "CAPT. STERN: Oh?\n"
+	.string "{PLAYER}{KUN}, that item you have…\p"
+	.string "That's a SCANNER! That would sure\n"
+	.string "help us on our explorations.\p"
+	.string "{PLAYER}{KUN}, would you trade your\n"
+	.string "SCANNER for something?\p"
+	.string "Like, say, a DEEPSEATOOTH or\n"
+	.string "a DEEPSEASCALE that I have?$"
+#endif
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
+#if GERMAN
 	.string "Kapt. Brigg: Bist du sicher? Aber\n"
 	.string "damit\n"
 	.string "kannst du doch nichts anfangen…\p"
@@ -537,22 +692,52 @@ SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
 	.string "doch\n"
 	.string "noch gegen etwas anderes tauschen\l"
 	.string "willst, dann lass es mich wissen!$"
+#else
+	.string "CAPT. STERN: Are you certain?\n"
+	.string "It's useless to you, {PLAYER}{KUN}…\p"
+	.string "Well, okay, then. If you want to trade\n"
+	.string "your SCANNER, let me know.$"
+#endif
 
 SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
+#if GERMAN
 	.string "Kapt. Brigg: Du möchtest den\n"
-	.string "Abysszahn dafür haben?$"
+	.string "{COLOR RED}Abysszahn{COLOR DARK_GRAY} dafür haben?$"
+#else
+	.string "CAPT. STERN: So you'll trade it for\n"
+	.string "my DEEPSEATOOTH?$"
+#endif
 
 SlateportCity_Harbor_Text_TradeForDeepSeaScale:
+#if GERMAN
 	.string "Kapt. Brigg: Du möchtest die\n"
-	.string "Abyssplatte dafür haben?$"
+	.string "{COLOR RED}Abyssplatte{COLOR DARK_GRAY} dafür haben?$"
+#else
+	.string "CAPT. STERN: So you'll trade it for\n"
+	.string "my DEEPSEASCALE?$"
+#endif
 
 SlateportCity_Harbor_Text_WhichOneDoYouWant:
+#if GERMAN
 	.string "Kapt. Brigg: Was hättest du gerne?$"
+#else
+	.string "CAPT. STERN: Which one do you want?$"
+#endif
 
 SlateportCity_Harbor_Text_HandedScannerToStern:
-	.string "{PLAYER} gibt Kapt. Brigg den Scanner.$"
+#if GERMAN
+	.string "{PLAYER} gibt Kapt. Brigg den {COLOR RED}Scanner{COLOR DARK_GRAY}.$"
+#else
+	.string "{PLAYER} handed the SCANNER to\n"
+	.string "CAPT. STERN.$"
+#endif
 
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
+#if GERMAN
 	.string "Kapt. Brigg: Danke, {PLAYER}{KUN}!\n"
 	.string "Das wird unsere Forschungen weiter-\l"
 	.string "bringen!$"
+#else
+	.string "CAPT. STERN: Thanks, {PLAYER}{KUN}!\n"
+	.string "This will help our research a lot!$"
+#endif

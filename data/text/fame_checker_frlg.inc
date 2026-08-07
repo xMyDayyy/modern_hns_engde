@@ -862,639 +862,1463 @@ gFameCheckerFlavorTextOriginLocation_ProfOak0:: @ 0x81B0C45
 	.string "Pallet Town$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak1::
+#if GERMAN
 	.string "Research Lab$"
+#else
+	.string "RESEARCH LAB$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_ProfOak2::
+#if GERMAN
 	.string "Research Lab$"
+#else
+	.string "RESEARCH LAB$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_ProfOak3::
+#if GERMAN
 	.string "Viridian City$"
+#else
+	.string "VIRIDIAN CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_ProfOak4::
+#if GERMAN
 	.string "Pokémon League$"
+#else
+	.string "POKéMON LEAGUE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_ProfOak5::
+#if GERMAN
 	.string "Research Lab$"
+#else
+	.string "RESEARCH LAB$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Daisy0::
+#if GERMAN
 	.string "Research Lab$"
+#else
+	.string "RESEARCH LAB$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Daisy1::
+#if GERMAN
 	.string "Vermilion City$"
+#else
+	.string "VERMILION CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Daisy2::
+#if GERMAN
 	.string "Water Labyrinth$"
+#else
+	.string "WATER LABYRINTH$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Daisy3::
+#if GERMAN
 	.string "Viridian City$"
+#else
+	.string "VIRIDIAN CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Daisy4::
+#if GERMAN
 	.string "Celadon Mansion$"
+#else
+	.string "CELADON MANSION$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Daisy5::
+#if GERMAN
 	.string "Four Island$"
+#else
+	.string "FOUR ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Brock0::
+#if GERMAN
 	.string "Pewter City$"
+#else
+	.string "PEWTER CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Brock1::
+#if GERMAN
 	.string "Pewter Gym$"
+#else
+	.string "PEWTER GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Brock2::
+#if GERMAN
 	.string "Pewter City$"
+#else
+	.string "PEWTER CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Brock3::
-	.string "Route 4$"
+#if GERMAN
+	.string "{COLOR RED}Route 4{COLOR DARK_GRAY}$"
+#else
+	.string "ROUTE 4$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Brock4::
+#if GERMAN
 	.string "MT. Moon$"
+#else
+	.string "MT. MOON$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Brock5::
+#if GERMAN
 	.string "Pewter Museum$"
+#else
+	.string "PEWTER MUSEUM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Misty0::
+#if GERMAN
 	.string "Cerulean City$"
+#else
+	.string "CERULEAN CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Misty1::
+#if GERMAN
 	.string "Cerulean Gym$"
+#else
+	.string "CERULEAN GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Misty2::
+#if GERMAN
 	.string "Cerulean Gym$"
+#else
+	.string "CERULEAN GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Misty3::
+#if GERMAN
 	.string "Seafoam Islands$"
+#else
+	.string "SEAFOAM ISLANDS$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Misty4::
+#if GERMAN
 	.string "Cerulean Cape$"
+#else
+	.string "CERULEAN CAPE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Misty5::
+#if GERMAN
 	.string "Cerulean City$"
+#else
+	.string "CERULEAN CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_LtSurge0::
+#if GERMAN
 	.string "Vermilion City$"
+#else
+	.string "VERMILION CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_LtSurge1::
+#if GERMAN
 	.string "Vermilion Gym$"
+#else
+	.string "VERMILION GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_LtSurge2::
+#if GERMAN
 	.string "Vermilion Gym$"
+#else
+	.string "VERMILION GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_LtSurge3::
+#if GERMAN
 	.string "Vermilion Gym$"
+#else
+	.string "VERMILION GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_LtSurge4::
+#if GERMAN
 	.string "Vermilion Gym$"
+#else
+	.string "VERMILION GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_LtSurge5::
+#if GERMAN
 	.string "Vermilion City$"
+#else
+	.string "VERMILION CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Erika0::
+#if GERMAN
 	.string "Celadon City$"
+#else
+	.string "CELADON CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Erika1::
+#if GERMAN
 	.string "Celadon Gym$"
+#else
+	.string "CELADON GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Erika2::
+#if GERMAN
 	.string "Celadon Gym$"
+#else
+	.string "CELADON GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Erika3::
+#if GERMAN
 	.string "Celadon Gym$"
+#else
+	.string "CELADON GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Erika4::
+#if GERMAN
 	.string "Celadon Gym$"
+#else
+	.string "CELADON GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Erika5::
+#if GERMAN
 	.string "Celadon Mansion$"
+#else
+	.string "CELADON MANSION$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Koga0::
+#if GERMAN
 	.string "Fuchsia City$"
+#else
+	.string "FUCHSIA CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Koga1::
+#if GERMAN
 	.string "Fuchsia Gym$"
+#else
+	.string "FUCHSIA GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Koga2::
+#if GERMAN
 	.string "Fuchsia Gym$"
+#else
+	.string "FUCHSIA GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Koga3::
+#if GERMAN
 	.string "Fuchsia City$"
+#else
+	.string "FUCHSIA CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Koga4::
+#if GERMAN
 	.string "Fuchsia City$"
+#else
+	.string "FUCHSIA CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Koga5::
+#if GERMAN
 	.string "Safari Zone$"
+#else
+	.string "SAFARI ZONE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Sabrina0::
+#if GERMAN
 	.string "Saffron City$"
+#else
+	.string "SAFFRON CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Sabrina1::
+#if GERMAN
 	.string "Three Island$"
+#else
+	.string "THREE ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Sabrina2::
+#if GERMAN
 	.string "Saffron Gym$"
+#else
+	.string "SAFFRON GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Sabrina3::
+#if GERMAN
 	.string "Saffron Gym$"
+#else
+	.string "SAFFRON GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Sabrina4::
+#if GERMAN
 	.string "Saffron City$"
+#else
+	.string "SAFFRON CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Sabrina5::
+#if GERMAN
 	.string "Saffron Gym$"
+#else
+	.string "SAFFRON GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Blaine0::
+#if GERMAN
 	.string "Cinnabar Island$"
+#else
+	.string "CINNABAR ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Blaine1::
+#if GERMAN
 	.string "Cinnabar Gym$"
+#else
+	.string "CINNABAR GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Blaine2::
+#if GERMAN
 	.string "Cinnabar Gym$"
+#else
+	.string "CINNABAR GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Blaine3::
+#if GERMAN
 	.string "Cinnabar Island$"
+#else
+	.string "CINNABAR ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Blaine4::
+#if GERMAN
 	.string "Cinnabar Gym$"
+#else
+	.string "CINNABAR GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Blaine5::
+#if GERMAN
 	.string "Resort Gorgeous$"
+#else
+	.string "RESORT GORGEOUS$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lorelei0::
+#if GERMAN
 	.string "Pokémon League$"
+#else
+	.string "POKéMON LEAGUE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lorelei1::
+#if GERMAN
 	.string "Pokémon League$"
+#else
+	.string "POKéMON LEAGUE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lorelei2::
+#if GERMAN
 	.string "Four Island$"
+#else
+	.string "FOUR ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lorelei3::
+#if GERMAN
 	.string "Five Island$"
+#else
+	.string "FIVE ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lorelei4::
+#if GERMAN
 	.string "Four Island$"
+#else
+	.string "FOUR ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lorelei5::
+#if GERMAN
 	.string "Four Island$"
+#else
+	.string "FOUR ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bruno0::
+#if GERMAN
 	.string "Pokémon League$"
+#else
+	.string "POKéMON LEAGUE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bruno1::
+#if GERMAN
 	.string "Pokémon League$"
+#else
+	.string "POKéMON LEAGUE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bruno2::
+#if GERMAN
 	.string "Saffron City$"
+#else
+	.string "SAFFRON CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bruno3::
+#if GERMAN
 	.string "Ember Spa$"
+#else
+	.string "EMBER SPA$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bruno4::
+#if GERMAN
 	.string "Two Island$"
+#else
+	.string "TWO ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bruno5::
+#if GERMAN
 	.string "Sevault Canyon$"
+#else
+	.string "SEVAULT CANYON$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Agatha0::
+#if GERMAN
 	.string "Pokémon League$"
+#else
+	.string "POKéMON LEAGUE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Agatha1::
-	.string "Indigo Plateau$"
+#if GERMAN
+	.string "{COLOR RED}Indigo Plateau{COLOR DARK_GRAY}$"
+#else
+	.string "INDIGO PLATEAU$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Agatha2::
-	.string "Indigo Plateau$"
+#if GERMAN
+	.string "{COLOR RED}Indigo Plateau{COLOR DARK_GRAY}$"
+#else
+	.string "INDIGO PLATEAU$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Agatha3::
+#if GERMAN
 	.string "Seven Island$"
+#else
+	.string "SEVEN ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Agatha4::
+#if GERMAN
 	.string "Pokémon League$"
+#else
+	.string "POKéMON LEAGUE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Agatha5::
+#if GERMAN
 	.string "Six Island$"
+#else
+	.string "SIX ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lance0::
+#if GERMAN
 	.string "Pokémon League$"
+#else
+	.string "POKéMON LEAGUE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lance1::
+#if GERMAN
 	.string "Pokémon League$"
+#else
+	.string "POKéMON LEAGUE$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lance2::
+#if GERMAN
 	.string "Saffron City$"
+#else
+	.string "SAFFRON CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lance3::
+#if GERMAN
 	.string "Celadon Dept.$"
+#else
+	.string "CELADON DEPT.$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lance4::
-	.string "Indigo Plateau$"
+#if GERMAN
+	.string "{COLOR RED}Indigo Plateau{COLOR DARK_GRAY}$"
+#else
+	.string "INDIGO PLATEAU$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Lance5::
-	.string "Indigo Plateau$"
+#if GERMAN
+	.string "{COLOR RED}Indigo Plateau{COLOR DARK_GRAY}$"
+#else
+	.string "INDIGO PLATEAU$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bill0::
+#if GERMAN
 	.string "Cerulean City$"
+#else
+	.string "CERULEAN CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bill1::
+#if GERMAN
 	.string "Cerulean City$"
+#else
+	.string "CERULEAN CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bill2::
+#if GERMAN
 	.string "Fuchsia City$"
+#else
+	.string "FUCHSIA CITY$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bill3::
+#if GERMAN
 	.string "One Island$"
+#else
+	.string "ONE ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bill4::
+#if GERMAN
 	.string "One Island$"
+#else
+	.string "ONE ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Bill5::
+#if GERMAN
 	.string "One Island$"
+#else
+	.string "ONE ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_MrFuji0::
+#if GERMAN
 	.string "Lavender Town$"
+#else
+	.string "LAVENDER TOWN$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_MrFuji1::
+#if GERMAN
 	.string "Pokémon Tower$"
+#else
+	.string "POKéMON TOWER$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_MrFuji2::
+#if GERMAN
 	.string "Lavender Town$"
+#else
+	.string "LAVENDER TOWN$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_MrFuji3::
+#if GERMAN
 	.string "Lavender Town$"
+#else
+	.string "LAVENDER TOWN$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_MrFuji4::
+#if GERMAN
 	.string "Cinnabar Gym$"
+#else
+	.string "CINNABAR GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_MrFuji5::
+#if GERMAN
 	.string "Cinnabar Island$"
+#else
+	.string "CINNABAR ISLAND$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Giovanni0::
+#if GERMAN
 	.string "Rocket Hideout$"
+#else
+	.string "ROCKET HIDEOUT$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Giovanni1::
+#if GERMAN
 	.string "Silph Co.$"
+#else
+	.string "SILPH CO.$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Giovanni2::
+#if GERMAN
 	.string "Silph Co.$"
+#else
+	.string "SILPH CO.$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Giovanni3::
+#if GERMAN
 	.string "Viridian Gym$"
+#else
+	.string "VIRIDIAN GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Giovanni4::
+#if GERMAN
 	.string "Viridian Gym$"
+#else
+	.string "VIRIDIAN GYM$"
+#endif
 
 gFameCheckerFlavorTextOriginLocation_Giovanni5::
+#if GERMAN
 	.string "Rocket Warehouse$"
+#else
+	.string "ROCKET WAREHOUSE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak0::
+#if GERMAN
 	.string "Sign$"
+#else
+	.string "SIGN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak1::
+#if GERMAN
 	.string "Prof. Oak$"
+#else
+	.string "PROF. OAK$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak2::
+#if GERMAN
 	.string "Aide$"
+#else
+	.string "AIDE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak3::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak4::
+#if GERMAN
 	.string "Agatha$"
+#else
+	.string "AGATHA$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak5::
+#if GERMAN
 	.string "Aide$"
+#else
+	.string "AIDE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Daisy0::
+#if GERMAN
 	.string "Aide$"
+#else
+	.string "AIDE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Daisy1::
+#if GERMAN
 	.string "Woman$"
+#else
+	.string "WOMAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Daisy2::
+#if GERMAN
 	.string "Man$"
+#else
+	.string "MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Daisy3::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Daisy4::
+#if GERMAN
 	.string "Old Lady$"
+#else
+	.string "OLD LADY$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Daisy5::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Brock0::
+#if GERMAN
 	.string "Sign$"
+#else
+	.string "SIGN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Brock1::
+#if GERMAN
 	.string "Brock$"
+#else
+	.string "BROCK$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Brock2::
+#if GERMAN
 	.string "Young man$"
+#else
+	.string "YOUNG MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Brock3::
+#if GERMAN
 	.string "Boy$"
+#else
+	.string "BOY$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Brock4::
+#if GERMAN
 	.string "Man$"
+#else
+	.string "MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Brock5::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Misty0::
+#if GERMAN
 	.string "Sign$"
+#else
+	.string "SIGN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Misty1::
+#if GERMAN
 	.string "Misty$"
+#else
+	.string "MISTY$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Misty2::
+#if GERMAN
 	.string "Luis$"
+#else
+	.string "LUIS$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Misty3::
+#if GERMAN
 	.string "Young man$"
+#else
+	.string "YOUNG MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Misty4::
+#if GERMAN
 	.string "Dame$"
+#else
+	.string "DAME$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Misty5::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge0::
+#if GERMAN
 	.string "Sign$"
+#else
+	.string "SIGN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge1::
+#if GERMAN
 	.string "Lt. Surge$"
+#else
+	.string "LT. SURGE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge2::
+#if GERMAN
 	.string "Tucker$"
+#else
+	.string "TUCKER$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge3::
+#if GERMAN
 	.string "Tucker$"
+#else
+	.string "TUCKER$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge4::
+#if GERMAN
 	.string "Dwayne$"
+#else
+	.string "DWAYNE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge5::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Erika0::
+#if GERMAN
 	.string "Sign$"
+#else
+	.string "SIGN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Erika1::
+#if GERMAN
 	.string "Erika$"
+#else
+	.string "ERIKA$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Erika2::
+#if GERMAN
 	.string "Lola$"
+#else
+	.string "LOLA$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Erika3::
+#if GERMAN
 	.string "Tamia$"
+#else
+	.string "TAMIA$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Erika4::
+#if GERMAN
 	.string "Erika$"
+#else
+	.string "ERIKA$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Erika5::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Koga0::
+#if GERMAN
 	.string "Sign$"
+#else
+	.string "SIGN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Koga1::
+#if GERMAN
 	.string "Koga$"
+#else
+	.string "KOGA$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Koga2::
+#if GERMAN
 	.string "Kirk$"
+#else
+	.string "KIRK$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Koga3::
+#if GERMAN
 	.string "Charine$"
+#else
+	.string "CHARINE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Koga4::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Koga5::
+#if GERMAN
 	.string "Man$"
+#else
+	.string "MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina0::
+#if GERMAN
 	.string "Sign$"
+#else
+	.string "SIGN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina1::
+#if GERMAN
 	.string "Young man$"
+#else
+	.string "YOUNG MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina2::
+#if GERMAN
 	.string "Sabrina$"
+#else
+	.string "SABRINA$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina3::
+#if GERMAN
 	.string "Sabrina$"
+#else
+	.string "SABRINA$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina4::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina5::
+#if GERMAN
 	.string "Tyron$"
+#else
+	.string "TYRON$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Blaine0::
+#if GERMAN
 	.string "Sign$"
+#else
+	.string "SIGN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Blaine1::
+#if GERMAN
 	.string "Blaine$"
+#else
+	.string "BLAINE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Blaine2::
+#if GERMAN
 	.string "Derek$"
+#else
+	.string "DEREK$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Blaine3::
+#if GERMAN
 	.string "Woman$"
+#else
+	.string "WOMAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Blaine4::
+#if GERMAN
 	.string "Photo$"
+#else
+	.string "PHOTO$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Blaine5::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei0::
+#if GERMAN
 	.string "Lorelei$"
+#else
+	.string "LORELEI$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei1::
+#if GERMAN
 	.string "Lorelei$"
+#else
+	.string "LORELEI$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei2::
+#if GERMAN
 	.string "Old man$"
+#else
+	.string "OLD MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei3::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei4::
+#if GERMAN
 	.string "Little Girl$"
+#else
+	.string "LITTLE GIRL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei5::
+#if GERMAN
 	.string "Old Lady$"
+#else
+	.string "OLD LADY$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bruno0::
+#if GERMAN
 	.string "Bruno$"
+#else
+	.string "BRUNO$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bruno1::
+#if GERMAN
 	.string "Bruno$"
+#else
+	.string "BRUNO$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bruno2::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bruno3::
+#if GERMAN
 	.string "Crusher$"
+#else
+	.string "CRUSHER$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bruno4::
+#if GERMAN
 	.string "Woman$"
+#else
+	.string "WOMAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bruno5::
+#if GERMAN
 	.string "Crusher$"
+#else
+	.string "CRUSHER$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Agatha0::
+#if GERMAN
 	.string "Agatha$"
+#else
+	.string "AGATHA$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Agatha1::
+#if GERMAN
 	.string "Crusher$"
+#else
+	.string "CRUSHER$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Agatha2::
+#if GERMAN
 	.string "Crusher$"
+#else
+	.string "CRUSHER$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Agatha3::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Agatha4::
+#if GERMAN
 	.string "Agatha$"
+#else
+	.string "AGATHA$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Agatha5::
+#if GERMAN
 	.string "Old Lady$"
+#else
+	.string "OLD LADY$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lance0::
-	.string "Lance$"
+#if GERMAN
+	.string "{COLOR RED}Lance{COLOR DARK_GRAY}$"
+#else
+	.string "LANCE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lance1::
-	.string "Lance$"
+#if GERMAN
+	.string "{COLOR RED}Lance{COLOR DARK_GRAY}$"
+#else
+	.string "LANCE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lance2::
+#if GERMAN
 	.string "Woman$"
+#else
+	.string "WOMAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lance3::
+#if GERMAN
 	.string "Little Girl$"
+#else
+	.string "LITTLE GIRL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lance4::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Lance5::
+#if GERMAN
 	.string "Young man$"
+#else
+	.string "YOUNG MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bill0::
 	.string "{RIVAL}$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill1::
+#if GERMAN
 	.string "Little Boy$"
+#else
+	.string "LITTLE BOY$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bill2::
+#if GERMAN
 	.string "Old man$"
+#else
+	.string "OLD MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bill3::
+#if GERMAN
 	.string "Celio$"
+#else
+	.string "CELIO$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bill4::
+#if GERMAN
 	.string "Celio$"
+#else
+	.string "CELIO$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Bill5::
+#if GERMAN
 	.string "Celio$"
+#else
+	.string "CELIO$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji0::
+#if GERMAN
 	.string "Little Girl$"
+#else
+	.string "LITTLE GIRL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji1::
+#if GERMAN
 	.string "Team Rocket$"
+#else
+	.string "TEAM ROCKET$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji2::
+#if GERMAN
 	.string "Magazine$"
+#else
+	.string "MAGAZINE$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji3::
+#if GERMAN
 	.string "Man$"
+#else
+	.string "MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji4::
+#if GERMAN
 	.string "Photo$"
+#else
+	.string "PHOTO$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji5::
+#if GERMAN
 	.string "Pokémon Journal$"
+#else
+	.string "POKéMON JOURNAL$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni0::
+#if GERMAN
 	.string "Giovanni$"
+#else
+	.string "GIOVANNI$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni1::
+#if GERMAN
 	.string "Scientist$"
+#else
+	.string "SCIENTIST$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni2::
+#if GERMAN
 	.string "Scientist$"
+#else
+	.string "SCIENTIST$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni3::
+#if GERMAN
 	.string "Giovanni$"
+#else
+	.string "GIOVANNI$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni4::
+#if GERMAN
 	.string "Man$"
+#else
+	.string "MAN$"
+#endif
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni5::
+#if GERMAN
 	.string "Gideon$"
+#else
+	.string "GIDEON$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureBrock::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiter\n"
-	.string "Rocko aus Marmoria City!\p"
+	.string "Rocko aus {COLOR RED}Marmoria City{COLOR DARK_GRAY}!\p"
 	.string "Rocko lacht selten, aber er kann\n"
 	.string "nicht aufhören, wenn er\l"
 	.string "angefangen hat.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature: PEWTER GYM\n"
+	.string "LEADER BROCK!\p"
+	.string "BROCK rarely laughs, but is said to\n"
+	.string "be unable to stop if he starts.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureMisty::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiterin\n"
-	.string "Misty aus Azuria City!\p"
+	.string "Misty aus {COLOR RED}Azuria City{COLOR DARK_GRAY}!\p"
 	.string "Misty vergöttert angeblich\n"
 	.string "Lorelei von den Top Vier.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature: CERULEAN GYM\n"
+	.string "LEADER MISTY!\p"
+	.string "MISTY is said to worship LORELEI\n"
+	.string "of the ELITE FOUR.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureLtSurge::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiter\n"
-	.string "Major Bob aus Orania City!\p"
+	.string "Major Bob aus {COLOR RED}Orania City{COLOR DARK_GRAY}!\p"
 	.string "Major Bob war angeblich Pilot\n"
 	.string "in seiner Heimat Amerika.\p"
 	.string "Sein Flugzeug ist mittels der\n"
 	.string "elektrischen Energie von\l"
 	.string "Pokémon geflogen.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature: VERMILION GYM\n"
+	.string "LEADER LT. SURGE!\p"
+	.string "LT. SURGE is rumored to have been\n"
+	.string "a pilot while home in America.\p"
+	.string "He used the electricity generated\n"
+	.string "by POKéMON to power his plane.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureErika::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiterin\n"
-	.string "Erika aus Prismania City!\p"
+	.string "Erika aus {COLOR RED}Prismania City{COLOR DARK_GRAY}!\p"
 	.string "Man sagt, dass man bei einer\n"
 	.string "Stippvisite in der Arena von\l"
-	.string "Prismania City, Erika bei\l"
+	.string "{COLOR RED}Prismania City{COLOR DARK_GRAY}, Erika bei\l"
 	.string "einem Nickerchen beobachten kann.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature: CELADON GYM\n"
+	.string "LEADER ERIKA!\p"
+	.string "Rumor has it that if you peek into\n"
+	.string "CELADON GYM, you can often\l"
+	.string "see ERIKA snoozing.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureKoga::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiter\n"
-	.string "Koga aus Fuchsania City!\p"
+	.string "Koga aus {COLOR RED}Fuchsania City{COLOR DARK_GRAY}!\p"
 	.string "Man sagt, dass Koga fundiertes\n"
 	.string "Wissen auf dem Gebiet der\l"
 	.string "Medizin besitzt.\l"
 	.string "Er stellt seine eigene Medizin her,\l"
 	.string "um seine Pokémon zu heilen.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature: FUCHSIA GYM\n"
+	.string "LEADER KOGA!\p"
+	.string "KOGA is said to have a thorough\n"
+	.string "knowledge of medicine.\p"
+	.string "He even concocts medicine to nurse\n"
+	.string "his POKéMON to health.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureSabrina::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiterin\n"
-	.string "Sabrina aus Saffronia City!\p"
+	.string "Sabrina aus {COLOR RED}Saffronia City{COLOR DARK_GRAY}!\p"
 	.string "Man sagt, dass Sabrina mit\n"
 	.string "ihren Pokémon im Kampf\l"
 	.string "wortlos kommunizieren kann.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature: SAFFRON GYM\n"
+	.string "LEADER SABRINA!\p"
+	.string "People say that SABRINA can\n"
+	.string "communicate with her POKéMON\l"
+	.string "during battle without speaking.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureBlaine::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiter\n"
-	.string "Pyro von der Zinnoberinsel!\p"
+	.string "Pyro von der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY}!\p"
 	.string "Pyro nimmt seine Sonnenbrille\n"
 	.string "angeblich nur ab, wenn er sich\l"
 	.string "neue Quizfragen ausdenkt.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature: CINNABAR GYM\n"
+	.string "LEADER BLAINE!\p"
+	.string "BLAINE is said to remove his dark\n"
+	.string "shades only when he is thinking up\l"
+	.string "new quiz questions.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureLorelei::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Lorelei von den\n"
 	.string "Top Vier!\p"
@@ -1502,8 +2326,17 @@ PokemonJournal_Text_SpecialFeatureLorelei::
 	.string "und berechnenden Kampfstil\l"
 	.string "bekannte Lorelei hat ein\l"
 	.string "überraschendes Geheimnis.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature:\n"
+	.string "ELITE FOUR's LORELEI!\p"
+	.string "Known for her logical, calculated,\n"
+	.string "and cool battling style, LORELEI\l"
+	.string "has a surprising secret!$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureBruno::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Bruno von den\n"
 	.string "Top Vier!\p"
@@ -1511,42 +2344,87 @@ PokemonJournal_Text_SpecialFeatureBruno::
 	.string "Top Vier angeschlossen, um sein\l"
 	.string "Verlangen, nur gegen die besten\l"
 	.string "Trainer zu kämpfen, zu stillen.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature:\n"
+	.string "ELITE FOUR's BRUNO!\p"
+	.string "BRUNO apparently joined the ELITE\n"
+	.string "FOUR out of his burning ambition to\l"
+	.string "battle the best TRAINERS.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureAgatha::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Agathe von den\n"
 	.string "Top Vier!\p"
 	.string "In ihrer Jugend war Agathe eine\n"
-	.string "Rivalin von Prof. Eich und hat\l"
+	.string "Rivalin von {COLOR RED}Prof. Eich{COLOR DARK_GRAY} und hat\l"
 	.string "mit ihm um die Vorherrschaft\l"
 	.string "als Trainer gekämpft.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature:\n"
+	.string "ELITE FOUR's AGATHA!\p"
+	.string "In her youth, AGATHA and PROF.\n"
+	.string "OAK were rivals who vied for\l"
+	.string "supremacy as TRAINERS.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureLance::
+#if GERMAN
 	.string "Pokémon Journal\p"
-	.string "Sonderreportage: Siegfried von\n"
+	.string "Sonderreportage: {COLOR RED}Siegfried{COLOR DARK_GRAY} von\n"
 	.string "den Top Vier!\p"
 	.string "Man sagt, dass der Großvater von\n"
-	.string "Siegfried der Älteste in einem\l"
+	.string "{COLOR RED}Siegfried{COLOR DARK_GRAY} der Älteste in einem\l"
 	.string "berühmten Drachenklan ist.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature:\n"
+	.string "ELITE FOUR's LANCE!\p"
+	.string "LANCE's grandfather is thought to\n"
+	.string "be the elder of a famous clan of\l"
+	.string "dragon masters.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureProfOak::
+#if GERMAN
 	.string "Pokémon Journal\p"
-	.string "Sonderreportage: Prof. Eich, der\n"
+	.string "Sonderreportage: {COLOR RED}Prof. Eich{COLOR DARK_GRAY}, der\n"
 	.string "Pokémon-Forscher!\p"
-	.string "Berichten zufolge lebt Prof. Eich\n"
+	.string "Berichten zufolge lebt {COLOR RED}Prof. Eich{COLOR DARK_GRAY}\n"
 	.string "mit seinen Enkeln Sarah und\l"
 	.string "{RIVAL} zusammen.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature: PROF. OAK,\n"
+	.string "the POKéMON Researcher!\p"
+	.string "PROF. OAK reportedly lives with his\n"
+	.string "grandchildren DAISY and {RIVAL}.$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureDaisyOak::
+#if GERMAN
 	.string "Dies ist ein Jahre altes Pokémon\n"
 	.string "Journal…\p"
 	.string "Pokémon Journal\n"
 	.string "Wettkampf-Sonderbericht!\p"
 	.string "Der Frühlingsmeister im\n"
 	.string "Pokémon-Wettkampf ist\l"
-	.string "Sarah Eich aus Alabastia!$"
+	.string "Sarah Eich aus {COLOR RED}Alabastia{COLOR DARK_GRAY}!$"
+#else
+	.string "This is a POKéMON JOURNAL from\n"
+	.string "years ago…\p"
+	.string "POKéMON JOURNAL\n"
+	.string "CONTEST Special!\p"
+	.string "The Spring POKéMON CONTEST's\n"
+	.string "Grand Champion is DAISY OAK of\l"
+	.string "PALLET TOWN!$"
+#endif
 
 PokemonJournal_Text_SpecialFeatureMrFuji::
+#if GERMAN
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Mr. Fuji vom\n"
 	.string "Pokémon-Clubhaus!\p"
@@ -1554,5 +2432,14 @@ PokemonJournal_Text_SpecialFeatureMrFuji::
 	.string "Mr. Fuji hat unsere Interview-\l"
 	.string "anfragen zurückgewiesen.\p"
 	.string "Er ist ein freundlicher Mann, der\n"
-	.string "in Lavandia verehrt und respektiert\l"
+	.string "in {COLOR RED}Lavandia{COLOR DARK_GRAY} verehrt und respektiert\l"
 	.string "wird.$"
+#else
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature:\n"
+	.string "MR. FUJI of POKéMON HOUSE!\p"
+	.string "Editor: The shy MR. FUJI turned\n"
+	.string "down our interview requests.\p"
+	.string "He is a kindly man who is adored\n"
+	.string "and respected in LAVENDER TOWN.$"
+#endif

@@ -49,21 +49,40 @@ LilycoveCity_PokemonCenter_1F_EventScript_ManiacBadTeamGone::
 	end
 
 LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon:
+#if GERMAN
 	.string "Ich frage mich, wie viele Arten von\n"
 	.string "Pokémon es in der Welt wohl gibt?\p"
 	.string "Es muss toll sein, die Meere zu über-\n"
 	.string "queren und Pokémon mit Leuten zu\l"
 	.string "tauschen, die weit weg leben.$"
+#else
+	.string "I wonder how many kinds of POKéMON\n"
+	.string "there are in the world.\p"
+	.string "It'd be great to cross seas and\n"
+	.string "trade POKéMON with people far away.$"
+#endif
 
 LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels:
+#if GERMAN
 	.string "Ich habe von einigen Schurken gehört,\n"
 	.string "die Pokémon stehlen und Meteoriten\l"
 	.string "klauen.$"
+#else
+	.string "I've been hearing about some rotten\n"
+	.string "scoundrels who steal POKéMON and rip\l"
+	.string "off METEORITES.$"
+#endif
 
 LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels:
+#if GERMAN
 	.string "Diese verkommenen Schurken, die\n"
 	.string "Pokémon stehlen und Meteoriten\l"
 	.string "klauen…\p"
 	.string "Ich habe sie in letzter Zeit nicht\n"
 	.string "gesehen.$"
+#else
+	.string "Those rotten scoundrels who steal\n"
+	.string "POKéMON and rip off METEORITES…\p"
+	.string "I haven't seen them around recently.$"
+#endif
 

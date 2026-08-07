@@ -51,6 +51,7 @@ Route15_WestEntrance_2F_EventScript_GetAideRequestInfo::
 	return
 
 Route15_WestEntrance_2F_Text_GiveItemIfCaughtEnough::
+#if GERMAN
 	.string "Hallo! Erinnerst du dich?\n"
 	.string "Ich bin Prof. Eichs\l"
 	.string "Assistent!\p"
@@ -60,34 +61,80 @@ Route15_WestEntrance_2F_Text_GiveItemIfCaughtEnough::
 	.string "{STR_VAR_2}\p"
 	.string "Also, {PLAYER}, hast du {STR_VAR_1}\n"
 	.string "unterschiedliche Pokémon gefangen?$"
+#else
+	.string "Hi! Remember me?\n"
+	.string "I'm one of PROF. OAK's AIDES.\p"
+	.string "If your POKéDEX has complete data\n"
+	.string "on {STR_VAR_1} species, I'm supposed to\l"
+	.string "give you a reward.\p"
+	.string "PROF. OAK entrusted me with the\n"
+	.string "{STR_VAR_2} for you.\p"
+	.string "So, {PLAYER}, let me ask you.\p"
+	.string "Have you gathered data on at least\n"
+	.string "{STR_VAR_1} kinds of POKéMON?$"
+#endif
 
 Route15_WestEntrance_2F_Text_GreatHereYouGo::
+#if GERMAN
 	.string "Toll! Du hast bereits\n"
 	.string "{STR_VAR_3} Pokémon-Arten gesehen\l"
 	.string "oder gefangen!\p"
 	.string "Glückwunsch!\n"
 	.string "Hier, bitte sehr!$"
+#else
+	.string "Great! You have caught or owned\n"
+	.string "{STR_VAR_3} kinds of POKéMON!\p"
+	.string "Congratulations!\n"
+	.string "Here you go!$"
+#endif
 
 Route15_WestEntrance_2F_Text_ReceivedItemFromAide::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "{STR_VAR_2}!$"
+#else
+	.string "{PLAYER} received the {STR_VAR_2}\n"
+	.string "from the AIDE.$"
+#endif
 
 Route15_WestEntrance_2F_Text_ExplainExpShare::
-	.string "Der EP-Teiler kann einem\n"
+#if GERMAN
+	.string "Der {COLOR RED}EP-Teiler{COLOR DARK_GRAY} kann einem\n"
 	.string "Pokémon zum Tragen gegeben\l"
 	.string "werden.\l"
-	.string "Mit dem EP-Teiler bekommt das\l"
+	.string "Mit dem {COLOR RED}EP-Teiler{COLOR DARK_GRAY} bekommt das\l"
 	.string "Pokémon, das ihn trägt, nach einem\l"
 	.string "Kampf E.-Punkte, ohne gekämpft\l"
 	.string "zu haben.$"
+#else
+	.string "EXP. SHARE is an item to be held\n"
+	.string "by a POKéMON.\p"
+	.string "The POKéMON will receive a share\n"
+	.string "of the EXP. Points without having\l"
+	.string "to battle.$"
+#endif
 
 Route15_WestEntrance_2F_Text_LargeShiningBird::
+#if GERMAN
 	.string "Du schaust durch das Fernrohr.\p"
 	.string "Ein großer Vogel fliegt anmutig\n"
 	.string "aufs Meer hinaus.$"
+#else
+	.string "Let's see what the binoculars have\n"
+	.string "to show…\p"
+	.string "A large, shining bird is flying\n"
+	.string "toward the sea.$"
+#endif
 
 Route15_WestEntrance_2F_Text_SmallIslandOnHorizon::
+#if GERMAN
 	.string "Du schaust durch das Fernrohr.\p"
 	.string "Hmm, das sieht wie eine kleine\n"
 	.string "Insel aus!$"
+#else
+	.string "Let's see what the binoculars have\n"
+	.string "to show…\p"
+	.string "It looks like a small island on\n"
+	.string "the horizon!$"
+#endif
 

@@ -100,20 +100,39 @@ MtMoon_Outside_Movement_Jirachi:
 	step_end
 
 MtMoon_Outside_Text_WhiteRockTouchIt:
+#if GERMAN
 	.string "Ein seltsamer, weißer Stein.\n"
 	.string "Die Farbe erinnert an den Mond.\p"
 	.string "Berühren?$"
+#else
+	.string "An unusual white rock.\n"
+	.string "The color reminds you of the moon.\p"
+	.string "Touch it?$"
+#endif
 
 MtMoon_Outside_Text_WhiteRockTouchDay:
+#if GERMAN
 	.string "{PLAYER} berührt den seltsamen Stein.\n"
 	.string "..........................\l"
 	.string "..........................\l"
 	.string "Aber nichts geschieht.$"
+#else
+	.string "{PLAYER} touched the unusual rock.\n"
+	.string "..........................\l"
+	.string "..........................\l"
+	.string "But nothing happened.$"
+#endif
 
 MtMoon_Outside_Text_WhiteRockTouchNight:
+#if GERMAN
 	.string "{PLAYER} berührt den seltsamen Stein.\n"
 	.string "..........................\l"
 	.string "..........................$"
+#else
+	.string "{PLAYER} touched the unusual rock.\n"
+	.string "..........................\l"
+	.string "..........................$"
+#endif
 
 MtMoon_Outside_EventScript_Jirachi::
 	lock
@@ -140,11 +159,24 @@ MtMoon_Outside_EventScript_JirachiRan::
 
 
 MtMoon_Outside_Text_DontLitterSign:
+#if GERMAN
 	.string "Mondberg Vorplatz$"
+#else
+	.string "MT.MOON SQUARE\n"
+	.string "DON'T LITTER$"
+#endif
 
 MtMoon_Outside_Text_Jirachi:
+#if GERMAN
     .string "Jirachi: Chi!$"
+#else
+    .string "JIRACHI: Chi!$"
+#endif
 
 MtMoon_Outside_Text_Clefairy:
+#if GERMAN
 	.string "Piepi: Pi pippippi!$"
+#else
+    .string "CLEFAIRY: Pi pippippi!$"
+#endif
 

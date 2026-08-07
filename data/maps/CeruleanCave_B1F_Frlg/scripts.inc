@@ -56,5 +56,9 @@ CeruleanCave_B1F_EventScript_RanFromMewtwo::
 	end
 
 CeruleanCave_B1F_Text_Mew::
+#if GERMAN
 	.string "Wow!$"
+#else
+	.string "Mew!$"
+#endif
 

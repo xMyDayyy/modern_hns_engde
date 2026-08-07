@@ -47,12 +47,25 @@ NewMauville_Entrance_EventScript_DontOpenDoor::
 	end
 
 NewMauville_Entrance_Text_DoorIsLocked:
+#if GERMAN
 	.string "Die Tür ist geschlossen.$"
+#else
+	.string "The door is locked.$"
+#endif
 
 NewMauville_Entrance_Text_UseBasementKey:
-	.string "Den Kelleröffner benutzen?$"
+#if GERMAN
+	.string "Den {COLOR RED}Kelleröffner{COLOR DARK_GRAY} benutzen?$"
+#else
+	.string "Use the BASEMENT KEY?$"
+#endif
 
 NewMauville_Entrance_Text_UsedBasementKey:
-	.string "{PLAYER} benutzt den Kelleröffner.\p"
+#if GERMAN
+	.string "{PLAYER} benutzt den {COLOR RED}Kelleröffner{COLOR DARK_GRAY}.\p"
 	.string "Die Tür öffnet sich.$"
+#else
+	.string "{PLAYER} used the BASEMENT KEY.\p"
+	.string "The door opened!$"
+#endif
 

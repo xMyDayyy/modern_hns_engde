@@ -44,10 +44,22 @@ Route18_EastEntrance_2F_EventScript_AlreadyTraded::
 	end
 
 Route18_EastEntrance_2F_Text_PalletTownInWest::
+#if GERMAN
 	.string "Du schaust durch das Fernrohr.\p"
 	.string "Im Westen liegt Alabastia!$"
+#else
+	.string "Let's see what the binoculars have\n"
+	.string "to show…\p"
+	.string "PALLET TOWN is in the west.$"
+#endif
 
 Route18_EastEntrance_2F_Text_PeopleSwimming::
+#if GERMAN
 	.string "Du schaust durch das Fernrohr.\p"
 	.string "Dort drüben schwimmen Leute!$"
+#else
+	.string "Let's see what the binoculars have\n"
+	.string "to show…\p"
+	.string "There are people swimming.$"
+#endif
 

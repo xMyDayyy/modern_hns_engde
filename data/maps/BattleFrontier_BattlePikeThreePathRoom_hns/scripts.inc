@@ -262,108 +262,238 @@ BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverReturnToPos_hns:
 	step_end
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1_hns:
+#if GERMAN
 	.string "Du befindest dich im\n"
 	.string "ersten Raum…$"
+#else
+	.string "You are currently in\n"
+	.string "the 1st room…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3_hns:
+#if GERMAN
 	.string "Du befindest dich im\n"
 	.string "dritten Raum…$"
+#else
+	.string "You are currently in\n"
+	.string "the 3rd room…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5_hns:
+#if GERMAN
 	.string "Du befindest dich im\n"
 	.string "fünften Raum…$"
+#else
+	.string "You are currently in\n"
+	.string "the 5th room…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7_hns:
+#if GERMAN
 	.string "Du befindest dich im\n"
 	.string "siebten Raum…$"
+#else
+	.string "You are currently in\n"
+	.string "the 7th room…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9_hns:
+#if GERMAN
 	.string "Du befindest dich im\n"
 	.string "neunten Raum…$"
+#else
+	.string "You are currently in\n"
+	.string "the 9th room…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1_hns1_hns:
+#if GERMAN
 	.string "Du befindest dich im\n"
 	.string "11. Raum…$"
+#else
+	.string "You are currently in\n"
+	.string "the 11th room…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1_hns3_hns:
+#if GERMAN
 	.string "Du befindest dich im\n"
 	.string "13. Raum…$"
+#else
+	.string "You are currently in\n"
+	.string "the 13th room…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge_hns:
+#if GERMAN
 	.string "Möchtest du die Herausforderung\n"
 	.string "fortsetzen?$"
+#else
+	.string "Will you continue with\n"
+	.string "your challenge?$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit_hns:
+#if GERMAN
 	.string "Möchtest du das Spiel speichern und\n"
 	.string "beenden?$"
+#else
+	.string "Would you like to save your challenge\n"
+	.string "and quit the game for now?$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge_hns:
+#if GERMAN
 	.string "Möchtest du die Kampfbahn-\n"
 	.string "Herausforderung abbrechen?$"
+#else
+	.string "Do you wish to retire from your\n"
+	.string "Battle Choice challenge?$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume_hns:
+#if GERMAN
 	.string "Wir haben dich schon erwartet…\p"
 	.string "Bevor du die Herausforderung\n"
 	.string "fortsetzt, speicher ich dein Spiel…$"
+#else
+	.string "We've been awaiting your return…\p"
+	.string "Before resuming your Battle Choice\n"
+	.string "challenge, let me save the game…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge_hns:
+#if GERMAN
 	.string "Wir hoffen, du genießt die Kampf-\n"
 	.string "bahn-Herausforderung…$"
+#else
+	.string "Please do enjoy your Battle Choice\n"
+	.string "challenge…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData_hns:
+#if GERMAN
 	.string "Ich speichere nun deine Daten…\n"
 	.string "Einen Moment bitte…$"
+#else
+	.string "I am saving your data…\n"
+	.string "A little time, please…$"
+#endif
 
 BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack_hns:
+#if GERMAN
 	.string "Der Weg ist versperrt!\n"
 	.string "Und es gibt kein Zurück…$"
+#else
+	.string "The path is blocked!\n"
+	.string "And there is no turning back…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose_hns:
+#if GERMAN
 	.string "Ich bitte vielmals um Entschuldigung,\n"
 	.string "aber…\p"
 	.string "Es scheint, du hast Schwierigkeiten,\n"
 	.string "dich für einen Weg zu entscheiden?$"
+#else
+	.string "I beg your pardon, but…\p"
+	.string "Are you perhaps finding it difficult\n"
+	.string "to choose your path?$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence_hns:
+#if GERMAN
 	.string "Ich verstehe…\p"
 	.string "Das war etwas vorschnell von mir.\n"
 	.string "Entschuldigung…$"
+#else
+	.string "I see…\n"
+	.string "I apologize for my impertinence…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath_hns:
+#if GERMAN
 	.string "Mh, mal sehen… Irgendetwas war\n"
 	.string "mit dem Weg dort rechts…$"
+#else
+	.string "Ah, let me see… There is something\n"
+	.string "about the path on the right…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath_hns:
+#if GERMAN
 	.string "Mh, mal sehen… Irgendetwas war\n"
 	.string "mit dem mittleren Weg…$"
+#else
+	.string "Ah, let me see… There is something\n"
+	.string "about the path in the center…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath_hns:
+#if GERMAN
 	.string "Mh, mal sehen… Irgendetwas war\n"
 	.string "mit dem Weg dort links…$"
+#else
+	.string "Ah, let me see… There is something\n"
+	.string "about the path on the left…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon_hns:
+#if GERMAN
 	.string "Der typische Duft von Pokémon scheint\n"
 	.string "dort vorhanden zu sein…$"
+#else
+	.string "It seems to have the distinct aroma\n"
+	.string "of POKéMON wafting around it…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople_hns:
+#if GERMAN
 	.string "Ist das ein… Trainer? Ich\n"
 	.string "spüre die Anwesenheit von Menschen…$"
+#else
+	.string "Is it… A TRAINER?\n"
+	.string "I sense the presence of people…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering_hns:
+#if GERMAN
 	.string "Ich meine, etwas gehört zu haben… Und\n"
 	.string "sei es nur ein Flüstern gewesen.$"
+#else
+	.string "I seem to have heard something…\n"
+	.string "It may have been whispering…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga_hns:
+#if GERMAN
 	.string "Ich spüre einen Hauch von Nostalgie\n"
 	.string "aus dieser Richtung kommen…$"
+#else
+	.string "For some odd reason, I felt a wave\n"
+	.string "of nostalgia coming from it…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent_hns:
+#if GERMAN
 	.string "Es tut mir sehr Leid…\p"
 	.string "Ein schreckliches, ja, fürchterliches\n"
 	.string "Erlebnis steht dir bevor…\p"
 	.string "Ich bitte dich: Sei auf das Schlimmste\n"
 	.string "gefasst…$"
+#else
+	.string "I am sorry to say…\p"
+	.string "A terrifying event, yes, a horrible one,\n"
+	.string "is about to befall you…\p"
+	.string "I urge you to pay the utmost care\n"
+	.string "and prepare for the worst…$"
+#endif
 
 BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence_hns:
+#if GERMAN
 	.string "Jeder Weg strahlt etwas Bedrohliches\n"
 	.string "aus…$"
+#else
+	.string "From every path I sense a dreadful\n"
+	.string "presence…$"
+#endif

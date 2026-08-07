@@ -21,11 +21,19 @@ Route10_EventScript_Surge::
     end
 
 Route10_Text_Surge:
+#if GERMAN
 	.string "Hey, Kleiner!\p"
 	.string "Pass gut auf dich auf hier draußen,\n"
 	.string "dieser Ort ist voller Energie!\p"
 	.string "Willst du ein Re-Match, geh ins\n"
 	.string "Kampf-Dojo!$"
+#else
+    .string "Hey, kid!\p"
+	.string "Keep your guard up out here,\n"
+	.string "this place is cracklin' with power!\p"
+	.string "If you want a rematch, report to\n"
+	.string "the FIGHTING DOJO!$"
+#endif
 
 Route10_EventScript_Item_Rock_Polish::
     finditem ITEM_TM_ROCK_POLISH
@@ -74,31 +82,67 @@ Route10_EventScript_ZapdosRan::
 
 
 Route10_Text_HikerJimSeen:
+#if GERMAN
 	.string "Haaa, hahaha, harrr!$"
+#else
+	.string "Hahahah!$"
+#endif
 
 Route10_Text_HikerJimBeaten:
+#if GERMAN
 	.string "Haaahahaha!\n"
 	.string "Hiiihihihi!\l"
 	.string "Heute gab es Kicherpilze zum Frühstück.$"
+#else
+	.string "Hahaha-hachoo!$"
+#endif
 
 Route10_Text_HikerJimAfter:
+#if GERMAN
 	.string "Hiiihihihihi!\n"
 	.string "Haaah… puuuh…$"
+#else
+	.string "Hay fever is making me sneeze!\n"
+	.string "Ahahah-CHOO!$"
+#endif
 
 Route10_Text_PokefanmRobertSeen:
+#if GERMAN
 	.string "Du magst Pokémon, nicht wahr?\p"
 	.string "Ich auch!$"
+#else
+	.string "You like POKéMON, don't you?\p"
+	.string "Me too!$"
+#endif
 
 Route10_Text_PokefanmRobertBeaten:
+#if GERMAN
 	.string "Ich gebe zu, ich habe verloren.$"
+#else
+	.string "I'd have to say that's my loss.$"
+#endif
 
 Route10_Text_PokefanmRobertAfter:
+#if GERMAN
 	.string "Sieh nur, was du mit meinen\n"
 	.string "Pokémon gemacht hast…$"
+#else
+	.string "Look what you did to my POKéMON…\p"
+	.string "I won't forget this…$"
+#endif
 
 Route10_Text_PowerPlant:
+#if GERMAN
 	.string "Kraftwerk$"
+#else
+	.string "POWER PLANT$"
+#endif
 
 Route10_Text_Sign:
+#if GERMAN
 	.string "Route 10\p"
 	.string "Azuria City - Lavandia$"
+#else
+	.string "ROUTE 10\p"
+	.string "CERULEAN CITY - LAVENDER TOWN$"
+#endif

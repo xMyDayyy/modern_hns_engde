@@ -72,6 +72,7 @@ SSAqua_RoomSSE_Movement_PlayerEnter:
     step_end
 
 SSAqua_RoomSSE_Text_CantFindGranddaughter:
+#if GERMAN
 	.string "Oh, hallo…\p"
 	.string "Ich kann meine\n"
 	.string "Enkelin nirgendwo finden.\p"
@@ -81,22 +82,59 @@ SSAqua_RoomSSE_Text_CantFindGranddaughter:
 	.string "könnte jemanden\n"
 	.string "nerven. Ich mache mir ernsthaft\l"
 	.string "Sorgen…$"
+#else
+    .string "Oh, hello…\p"
+    .string "I still can't find my\n"
+    .string "granddaughter.\p"
+    .string "If she's on the ship,\n"
+    .string "that's OK.\p"
+    .string "She's an energetic child,\n"
+    .string "so she may be bugging someone\l"
+    .string "I'm worried…$"
+#endif
 
 SSAqua_RoomSSE_Text_EntertainedGranddaughter:
+#if GERMAN
 	.string "Oh du bist es, ich\n"
 	.string "hörte, du hast meine Enkelin bei Laune\n"
 	.string "gehalten.\p"
 	.string "Ich möchte dir dafür danken.$"
+#else
+    .string "{PLAYER}, was it?\n"
+    .string "I heard you entertained my\l"
+    .string "granddaughter.\p"
+    .string "I want to thank you for that.$"
+#endif
 
 SSAqua_RoomSSE_Text_GrandpaHaveThis:
+#if GERMAN
 	.string "Ich möchte, dass du das nimmst!$"
+#else
+    .string "I know! I'd like you\n"
+    .string "to have this!$"
+#endif
 
 SSAqua_RoomSSE_Text_GrandpaTravelling:
+#if GERMAN
 	.string "Wir machen eine Reise rund um die Welt!$"
+#else
+    .string "We're traveling around\n"
+    .string "the world.$"
+#endif
 
 SSAqua_RoomSSE_Text_GranddaughterWasPlaying:
+#if GERMAN
 	.string "Hallo Opa, hier bin ich! Ich habe\p"
 	.string "mit dem Kapitän und ihm hier gespielt!$"
+#else
+    .string "Grandpa, here I am!\n"
+    .string "I was playing with\l"
+    .string "the CAPTAIN and this person!$"
+#endif
 
 SSAqua_RoomSSE_Text_GranddaughterHadFun:
+#if GERMAN
 	.string "Das Spielen hat mir Spaß gemacht!$"
+#else
+    .string "I had lots of fun playing!$"
+#endif

@@ -107,38 +107,80 @@ Route112_EventScript_Shayla::
 	end
 
 Route112_Text_LeaderGoingToAwakenThing:
+#if GERMAN
 	.string "Hey, ob unser Anführer dieses Ding\n"
 	.string "wirklich aufwecken wird?$"
+#else
+	.string "Hey, man, is our leader really going\n"
+	.string "to awaken that thing?$"
+#endif
 
 Route112_Text_YeahWeNeedMeteorite:
+#if GERMAN
 	.string "Hört sich so an, ja. Aber wir brauchen\n"
 	.string "einen Meteoriten dafür.$"
+#else
+	.string "Sounds like it, yeah. But I heard\n"
+	.string "we need a METEORITE to do it.$"
+#endif
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
+#if GERMAN
 	.string "Ach, jetzt verstehe ich! Deshalb sind\n"
 	.string "die anderen nach Laubwechselfeld\l"
 	.string "gegangen.$"
+#else
+	.string "Oh, I get it now. That's why the rest\n"
+	.string "of the crew went out to FALLARBOR.$"
+#endif
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack:
+#if GERMAN
 	.string "Genau! Und solange sie weg sind, darf\n"
 	.string "hier niemand durch.$"
+#else
+	.string "You got it. And until they come back,\n"
+	.string "we're not to let anyone pass, right.$"
+#endif
 
 Route112_Text_NotEasyToGetBackToLavaridge:
+#if GERMAN
 	.string "Ich würde gerne nach Malvenfroh City,\n"
 	.string "aber wenn ich diese Stufen hinunter-\p"
 	.string "gehe, komme ich kaum wieder nach\n"
 	.string "Bad Lavastadt.$"
+#else
+	.string "Eh, I'd like to get to MAUVILLE, but if\n"
+	.string "I went down these ledges, it'd be no\l"
+	.string "easy matter to get back to LAVARIDGE.$"
+#endif
 
 Route112_Text_MtChimneyCableCarSign:
+#if GERMAN
 	.string "Seilbahn zum Schlotberg\n"
 	.string "“Ein kurzer Weg nach {UP_ARROW}!”$"
+#else
+	.string "MT. CHIMNEY CABLE CAR\n"
+	.string "“A short walk {UP_ARROW} way!”$"
+#endif
 
 Route112_Text_MtChimneySign:
+#if GERMAN
 	.string "Schlotberg\p"
 	.string "“Bad Lavastadt oder den Gipfel\n"
 	.string "erreichen Sie mit der Seilbahn.”$"
+#else
+	.string "MT. CHIMNEY\p"
+	.string "“For LAVARIDGE TOWN or the summit,\n"
+	.string "please take the CABLE CAR.”$"
+#endif
 
 Route112_Text_RouteSignLavaridge:
+#if GERMAN
 	.string "Route 112\n"
 	.string "{LEFT_ARROW} Bad Lavastadt$"
+#else
+	.string "ROUTE 112\n"
+	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
+#endif
 

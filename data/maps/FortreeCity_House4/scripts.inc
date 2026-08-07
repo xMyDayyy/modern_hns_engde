@@ -63,31 +63,68 @@ FortreeCity_House4_EventScript_Wingull::
 	end
 
 FortreeCity_House4_Text_BringsWorldCloserTogether:
+#if GERMAN
 	.string "Wenn sie mit Pokémon zusammen sind,\n"
 	.string "finden die Menschen schnell Freunde.\p"
 	.string "Und so rücken die Menschen weltweit\n"
 	.string "näher zusammen. Wunderbar, nicht wahr?$"
+#else
+	.string "By being together with POKéMON,\n"
+	.string "people make more and more friends.\p"
+	.string "And that brings the world closer\n"
+	.string "together. I think it's wonderful!$"
+#endif
 
 FortreeCity_House4_Text_GoBirdPokemon:
+#if GERMAN
 	.string "Fertig! Los, Vogel-Pokémon!$"
+#else
+	.string "There!\n"
+	.string "Go, BIRD POKéMON!$"
+#endif
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
+#if GERMAN
 	.string "Hähähä, mein Wingull macht\n"
 	.string "Besorgungen für mich.$"
+#else
+	.string "Heheh, I asked my WINGULL to run\n"
+	.string "an errand for me.$"
+#endif
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
-	.string "Gut! Komm zurück, Wingull!\p"
+#if GERMAN
+	.string "Gut! Komm zurück, {COLOR RED}Wingull{COLOR DARK_GRAY}!\p"
 	.string "Huch! Was ist das?\n"
 	.string "Was trägt es denn da?\p"
-	.string "Ein Mentalkraut?\n"
+	.string "Ein {COLOR RED}Mentalkraut{COLOR DARK_GRAY}?\n"
 	.string "Das muss es irgendwo gefunden haben.\p"
 	.string "Aber, ich bin kein Trainer, daher\n"
 	.string "kannst du es haben.$"
+#else
+	.string "Good!\n"
+	.string "Welcome back, WINGULL!\p"
+	.string "Huh? What is this?\n"
+	.string "What is it holding?\p"
+	.string "A MENTAL HERB?\n"
+	.string "It must have picked it up somewhere.\p"
+	.string "But I'm not a TRAINER, so you can\n"
+	.string "have it.$"
+#endif
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
+#if GERMAN
 	.string "Dank meines Wingull habe ich Freunde,\n"
 	.string "die sehr weit weg von hier wohnen.$"
+#else
+	.string "Thanks to my WINGULL, I have friends\n"
+	.string "who live far away.$"
+#endif
 
 FortreeCity_House4_Text_Wingull:
+#if GERMAN
 	.string "Wingull: Pihyoh!$"
+#else
+	.string "WINGULL: Pihyoh!$"
+#endif
 

@@ -169,21 +169,43 @@ Route121_EventScript_RematchCristin::
 	end
 
 Route121_Text_OkayMoveOutToMtPyre:
+#if GERMAN
 	.string "Okay!\n"
 	.string "Wir sind auf dem Weg zum Pyroberg!$"
+#else
+	.string "Okay!\n"
+	.string "We're to move out to MT. PYRE!$"
+#endif
 
 Route121_Text_AheadLoomsMtPyre:
+#if GERMAN
 	.string "Vor uns erhebt sich der Pyroberg…\p"
 	.string "Er ist das natürlich gewachsene\n"
 	.string "Monument der Geister, der von uns\l"
 	.string "gegangenen Pokémon.$"
+#else
+	.string "Ahead looms MT. PYRE…\p"
+	.string "It is a natural monument to the spirits \n"
+	.string "of departed POKéMON…$"
+#endif
 
 Route121_Text_MtPyrePierSign:
+#if GERMAN
 	.string "Pier am Pyroberg\p"
 	.string "…Das Schild ist alt und verwittert.\n"
 	.string "Die Worte sind kaum noch lesbar…$"
+#else
+	.string "MT. PYRE PIER\p"
+	.string "…The sign is old and worn out.\n"
+	.string "The words are barely legible…$"
+#endif
 
 Route121_Text_SafariZoneSign:
+#if GERMAN
 	.string "Safari-Zone\n"
 	.string "“Hier sind seltene Pokémon zu Hause!”$"
+#else
+	.string "“Filled with rare POKéMON!”\n"
+	.string "SAFARI ZONE$"
+#endif
 

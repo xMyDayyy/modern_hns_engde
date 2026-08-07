@@ -81,57 +81,120 @@ Route37_EventScript_Sign::
 	end
 
 Route37_Text_TwinsAnnAndAnne1_Seen:
+#if GERMAN
 	.string "Wir arbeiten immer\n"
 	.string "zusammen!$"
+#else
+	.string "ANN: ANNE and I are in this\n"
+	.string "together!$"
+#endif
 
 Route37_Text_TwinsAnnAndAnne1_Beaten:
+#if GERMAN
 	.string "Nn… ein wenig zu stark.$"
+#else
+	.string "ANN & ANNE: Nnn… A little too\n"
+	.string "strong.$"
+#endif
 
 Route37_Text_TwinsAnnAndAnne1_After:
+#if GERMAN
 	.string "Ich weiß genau, was meine\n"
 	.string "Schwester und Pokémon denken.$"
+#else
+	.string "ANN: I can tell what my sister and\n"
+	.string "my POKéMON are thinking.$"
+#endif
 
 Route37_Text_TwinsAnnAndAnne2_Seen:
+#if GERMAN
 	.string "Wir arbeiten immer\n"
 	.string "zusammen!$"
+#else
+	.string "ANNE: ANN and I are in this\n"
+	.string "together!$"
+#endif
 
 Route37_Text_TwinsAnnAndAnne2_Beaten:
+#if GERMAN
 	.string "Nn… ein wenig zu stark.$"
+#else
+	.string "ANN & ANNE: Nnn… A little too\n"
+	.string "strong.$"
+#endif
 
 Route37_Text_TwinsAnnAndAnne2_After:
+#if GERMAN
 	.string "Wir fühlen genau wie\n"
 	.string "unsere Pokémon.$"
+#else
+	.string "ANNE: We share the same feelings as\n"
+	.string "our POKéMON.$"
+#endif
 
 Route37_Text_PsychicGreg_Seen:
+#if GERMAN
 	.string "Pokémon können nicht agieren,\n"
 	.string "wenn sie schlafen. Gleich merkst du,\l"
 	.string "wie furchterregend das ist!$"
+#else
+	.string "POKéMON can't do a thing if they are\n"
+	.string "asleep.\p"
+	.string "I'll show you how scary that is!$"
+#endif
 
 Route37_Text_PsychicGreg_Beaten:
+#if GERMAN
 	.string "Verloren.\n"
 	.string "Wie überaus betrüblich…$"
+#else
+	.string "I lost. That's pretty sad…$"
+#endif
 
 Route37_Text_PsychicGreg_After:
+#if GERMAN
 	.string "Pokémon einzuschläfern oder zu\n"
 	.string "paralysieren sind gute\l"
 	.string "Kampftechniken.$"
+#else
+	.string "Putting POKéMON to sleep or paralyz-\n"
+	.string "ing them are good battle techniques.$"
+#endif
 
 Route37_Text_Sunny_Meet:
+#if GERMAN
 	.string "Sonnfried: Hi!\p"
 	.string "Ich bin Sonnfried aus der\n"
 	.string "Wochentags-Familie!\p"
 	.string "Errätst du meinen Lieblingstag,\n"
 	.string "bekommst du ein Geschenk.$"
+#else
+	.string "SUNNY: Hi!\p"
+	.string "I'm SUNNY of the WEEKDAY family!\p"
+	.string "If you can guess my favorite day,\n"
+	.string "I'll give you a reward.$"
+#endif
 
 Route37_Text_Sunny_GiveGift1:
+#if GERMAN
 	.string "Man sagte mir, ich soll dir das\n"
 	.string "geben, wenn ich dich sehe!$"
+#else
+	.string "I was told to give you this if I saw\n"
+	.string "you!$"
+#endif
 
 Route37_Text_Sunny_GiveGift2:
+#if GERMAN
 	.string "Man sagte mir, ich soll dir das\n"
 	.string "geben, wenn ich dich sehe!$"
+#else
+	.string "I was told to give you this if I saw\n"
+	.string "you!$"
+#endif
 
 Route37_Text_Sunny_GaveGift:
+#if GERMAN
 	.string "Sonnfried: Dieses Ding…\p"
 	.string "Äh…\p"
 	.string "…Was war das noch mal…\p"
@@ -141,18 +204,46 @@ Route37_Text_Sunny_GaveGift:
 	.string "Attacken verwendet, zum Tragen.\p"
 	.string "Meine Schwester Monja behauptet,\n"
 	.string "das mache sie noch effektiver!$"
+#else
+	.string "SUNNY: That thing…\p"
+	.string "Um…\p"
+	.string "… What was it now…\p"
+	.string "…\p"
+	.string "Oh! I remember now!\p"
+	.string "A POKéMON that knows electric\n"
+	.string "moves should hold it.\p"
+	.string "My sis MONICA said it powers up\n"
+	.string "electric moves!$"
+#endif
 
 Route37_Text_Sunny_Sunday:
+#if GERMAN
 	.string "Sonnfried: Meine Geschwister heißen\n"
 	.string "Monja, Dietlinde,\l"
 	.string "Mitko, Donatus,\l"
 	.string "Frieda und Samson.\p"
 	.string "Sie sind alle älter als ich!$"
+#else
+	.string "SUNNY: My sisters and brothers are\n"
+	.string "MONICA, TUSCANY, WESLEY, ARTHUR,\l"
+	.string "FRIEDA and SANTOS.\p"
+	.string "They're all older than me!$"
+#endif
 
 Route37_Text_Sunny_NotSunday:
+#if GERMAN
 	.string "Sonnfried: Ist heute nicht Sonntag?\n"
 	.string "Äh…\l"
 	.string "Das hatte ich vergessen!$"
+#else
+	.string "SUNNY: Isn't today Sunday?\n"
+	.string "Um… I forgot!$"
+#endif
 
 Route37_Text_Sign:
+#if GERMAN
 	.string "Route 37$"
+#else
+	.string "ROUTE 37\n"
+	.string "ECRUTEAK CITY AHEAD$"
+#endif

@@ -17,7 +17,11 @@ Route27_EventScript_BaobaCall::
 	end
 
 Route27_Text_BaobaName:
+#if GERMAN
 	.string "Baoba$"
+#else
+	.string "BAOBA$"
+#endif
 
 Route27_EventScript_FirstSteps::
     lock
@@ -170,148 +174,326 @@ Route27_EventScript_TohjoFallsSign::
     end
 
 Route27_Text_FisherHey:
+#if GERMAN
 	.string "Hey$"
+#else
+    .string "Hey!$"
+#endif
 
 Route27_Text_FisherMessage:
+#if GERMAN
 	.string "Soll ich dir was sagen?\p"
 	.string "Du hast eben den ersten Schritt in\n"
 	.string "Richtung Kanto getan!\p"
 	.string "Wirf mal einen Blick auf deine Karte!$"
+#else
+    .string "Do you know what you just did?\p"
+    .string "You've taken your first step into\n"
+    .string "KANTO.\p"
+    .string "Check your POKéGEAR MAP and see.$"
+#endif
 
 Route27_Text_CooltrainermBlakeSeen:
+#if GERMAN
 	.string "Du siehst sehr stark aus.\n"
 	.string "Ich will gegen dich kämpfen!$"
+#else
+    .string "You look pretty strong.\n"
+    .string "Let me battle you!$"
+#endif
 
 Route27_Text_CooltrainermBlakeBeaten:
+#if GERMAN
 	.string "Juhu!$"
+#else
+    .string "Yow!$"
+#endif
 
 Route27_Text_CooltrainermBlakeAfter:
+#if GERMAN
 	.string "Wenn du das hier erfolgreich über-\n"
 	.string "stehst, wirst du die Wahrheit erkennen!\p"
 	.string "Entschuldigung, ich wollte nur etwas\n"
 	.string "Geistreiches sagen.$"
+#else
+    .string "If you prevail on this harsh trek,\n"
+    .string "the truth will be revealed!\p"
+    .string "Heh, sorry, I just wanted to say\n"
+    .string "something cool.$"
+#endif
 
 Route27_Text_CooltrainermBrianSeen:
+#if GERMAN
 	.string "Du bist gut, oder?$"
+#else
+    .string "Hm? You're good, aren't you?$"
+#endif
 
 Route27_Text_CooltrainermBrianBeaten:
+#if GERMAN
 	.string "Wie ich dachte!$"
+#else
+    .string "Just as I thought!$"
+#endif
 
 Route27_Text_CooltrainermBrianAfter:
+#if GERMAN
 	.string "Ein guter Trainer weiß, woran man einen\n"
 	.string "guten Trainer erkennt!$"
+#else
+    .string "A good trainer can recognize other\n"
+    .string "good trainers.$"
+#endif
 
 Route27_Text_CooltrainerfReenaSeen:
+#if GERMAN
 	.string "Du solltest die wilden Pokémon,\n"
 	.string "die hier leben, nicht unterschätzen.$"
+#else
+    .string "You shouldn't underestimate the\n"
+    .string "wild POKéMON in these parts.$"
+#endif
 
 Route27_Text_CooltrainerfReenaBeaten:
+#if GERMAN
 	.string "Oh! Du bist viel zu stark!$"
+#else
+    .string "Oh! You're much too strong!$"
+#endif
 
 Route27_Text_CooltrainerfReenaAfter:
+#if GERMAN
 	.string "Du bist nur ein Kind, aber\n"
 	.string "ich unterschätze dich nicht.$"
+#else
+    .string "You're just a kid, but you're not\n"
+    .string "to be underestimated either.$"
+#endif
 
 Route27_Text_ReenaRegister:
+#if GERMAN
     .string "Du bist zwar noch jung, aber man\n"
     .string "sollte dich nicht unterschätzen.$"
+#else
+    .string "You're just a kid, but you're not\n"
+    .string "to be underestimated either.$"
+#endif
 
 Route27_Text_ReenaRematchIntro:
+#if GERMAN
     .string "Die wilden Pokémon in dieser Gegend\n"
     .string "solltest du nicht unterschätzen.$"
+#else
+    .string "You shouldn't underestimate the\n"
+    .string "wild POKéMON in these parts.$"
+#endif
 
 Route27_Text_ReenaRematchDefeat:
+#if GERMAN
     .string "Oh! Du bist viel zu stark!$"
+#else
+    .string "Oh! You're much too strong!$"
+#endif
 
 Route27_Text_ReenaPostRematch:
+#if GERMAN
     .string "Du bist zwar noch jung, aber man\n"
     .string "sollte dich nicht unterschätzen.$"
+#else
+    .string "You're just a kid, but you're not\n"
+    .string "to be underestimated either.$"
+#endif
 
 Route27_Text_CooltrainerfMeganSeen:
+#if GERMAN
 	.string "Huch! Hier kommen nur selten Menschen\n"
 	.string "vorbei. Bist du hier auf Lehr- und\l"
 	.string "Wanderreise?$"
+#else
+    .string "It's rare to see anyone come here.\p"
+    .string "Are you training on your own?$"
+#endif
 
 Route27_Text_CooltrainerfMeganBeaten:
+#if GERMAN
 	.string "Oh! Du bist wirklich auf Zack!$"
+#else
+    .string "Oh! You're really strong!$"
+#endif
 
 Route27_Text_CooltrainerfMeganAfter:
+#if GERMAN
 	.string "Ich vergleiche entwickelte und nicht\n"
 	.string "entwickelte Pokémon miteinander und\l"
 	.string "erforsche so ihre Eigenschaften.\p"
 	.string "Entwickelte Pokémon sind zwar stärker,\n"
 	.string "aber sie erlernen erst spät Attacken.$"
+#else
+    .string "I'm checking out pre- and post-\n"
+    .string "evolution POKéMON.\p"
+    .string "Evolution really does make\n"
+    .string "POKéMON stronger.\p"
+    .string "But evolved forms also learn\n"
+    .string "moves later on.$"
+#endif
 
 Route27_Text_PsychicGilbertSeen:
+#if GERMAN
 	.string "Lass mich raten, woran du jetzt denkst.\p"
 	.string "Mmmmmmm…\p"
 	.string "Ich weiß! Du denkst darüber nach, zur\n"
 	.string "Pokémon Liga zu gehen!$"
+#else
+    .string "Don't say a thing!\p"
+    .string "Let me guess what you're thinking.\p"
+    .string "Mmmmmmm…\p"
+    .string "I got it! You're on the POKéMON\n"
+    .string "LEAGUE challenge!$"
+#endif
 
 Route27_Text_PsychicGilbertBeaten:
+#if GERMAN
 	.string "…Du bist echt die Wucht!$"
+#else
+    .string "You're too much!$"
+#endif
 
 Route27_Text_PsychicGilbertAfter:
+#if GERMAN
 	.string "Mit deinen Fähigkeiten wirst\n"
 	.string "du in der Liga bestehen.\p"
 	.string "Das sagt meine Vorahnung.$"
+#else
+    .string "With your skills, you'll do well at\n"
+    .string "the LEAGUE.\p"
+    .string "That's what my premonition says.$"
+#endif
 
 Route27_Text_BirdKeeperJoseSeen:
+#if GERMAN
 	.string "Tschilp! Tschilp! Tschiiilp!$"
+#else
+    .string "Tweet! Tweet! Tetweet!$"
+#endif
 
 Route27_Text_BirdKeeperJoseBeaten:
+#if GERMAN
 	.string "Tschilp!$"
+#else
+    .string "Tweet!$"
+#endif
 
 Route27_Text_BirdKeeperJoseAfter:
+#if GERMAN
 	.string "Vogelfänger wie ich imitieren\n"
 	.string "Vogelstimmen, um dadurch unserem\l"
 	.string "Pokémon-Team Befehle zu erteilen.$"
+#else
+    .string "BIRD KEEPERS like me mimic bird\n"
+    .string "whistles to command POKéMON.$"
+#endif
 
 Route27_Text_JoseRegister:
+#if GERMAN
 	.string "Vogelfänger wie ich imitieren\n"
 	.string "Vogelstimmen, um dadurch unserem\l"
 	.string "Pokémon-Team Befehle zu erteilen.$"
+#else
+    .string "BIRD KEEPERS like me mimic bird\n"
+    .string "whistles to command POKéMON.$"
+#endif
 
 Route27_Text_JoseRematchIntro:
+#if GERMAN
 	.string "Tschilp! Tschilp! Tschiiilp!$"
+#else
+    .string "Tweet! Tweet! Tetweet!$"
+#endif
 
 Route27_Text_JoseRematchDefeat:
+#if GERMAN
 	.string "Tschilp!$"
+#else
+    .string "Tweet!$"
+#endif
 
 Route27_Text_JosePostRematch:
+#if GERMAN
 	.string "Vogelfänger wie ich imitieren\n"
 	.string "Vogelstimmen, um dadurch unserem\l"
 	.string "Pokémon-Team Befehle zu erteilen.$"
+#else
+    .string "BIRD KEEPERS like me mimic bird\n"
+    .string "whistles to command POKéMON.$"
+#endif
 
 Route27_Text_JoseHasItem:
+#if GERMAN
     .string "Hey! Beim Beobachten der Vögel habe\n"
     .string "ich etwas Glänzendes gefunden!\p"
     .string "Hier, du kannst es haben!$"
+#else
+    .string "Hey! I found something\n"
+    .string "shiny while bird-watching!\p"
+    .string "Here, you can have it!$"
+#endif
 
 Route27_Text_JoseGaveItem:
+#if GERMAN
     .string "Hier auf Route 27 finde ich die\n"
     .string "verschiedensten Dinge.\p"
     .string "Ich sage dir Bescheid, wenn ich\n"
     .string "wieder etwas finde!$"
+#else
+    .string "I find all sorts of things\n"
+    .string "out here on ROUTE 27.\p"
+    .string "I'll let you know if I find\n"
+    .string "anything else!$"
+#endif
 
 Route27_Text_JoseNoRoom:
+#if GERMAN
     .string "Hm, dein Beutel ist voll.\p"
     .string "Komm wieder, wenn du Platz hast.$"
+#else
+    .string "Hmm, your BAG is full.\p"
+    .string "Come back when you have room.$"
+#endif
 
 TohjoFalls_Text_Sign:
+#if GERMAN
 	.string "Die Tohjo-Fälle Die Grenzlinie zwischen\n"
 	.string "Kanto und Johto$"
+#else
+    .string "TOHJO FALLS\p"
+    .string "THE LINK BETWEEN KANTO AND JOHTO$"
+#endif
 
 Route27_Text_FisherScottSeen:
+#if GERMAN
 	.string "Heute fühle ich mich großartig!\p"
 	.string "Ich fühle mich so\n"
 	.string "stark, dass ich den Liga-Champ\l"
 	.string "besiegen könnte!$"
+#else
+    .string "I'm feeling great today!\p"
+    .string "I feel like I could boot even the\n"
+    .string "LEAGUE CHAMP!$"
+#endif
 
 Route27_Text_FisherScottBeaten:
+#if GERMAN
 	.string "Oh nein! Ich bin wohl nicht zum Kämpfen\n"
 	.string "geboren!$"
+#else
+    .string "No! Not in this battle!$"
+#endif
 
 Route27_Text_FisherScottAfter:
+#if GERMAN
 	.string "Angeln und Pokémon sind sehr ähnlich.\n"
 	.string "Wenn du einmal aufgibst, ist es vorbei.$"
+#else
+    .string "Just like in fishing, it's all over\n"
+    .string "in POKéMON if you give up.$"
+#endif

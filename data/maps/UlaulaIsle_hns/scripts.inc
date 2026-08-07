@@ -291,17 +291,31 @@ Alola_Ulaula_BattlePalossand_Text_0:
 	.string "Shuck!$"
 
 Alola_Ulaula_MtLanikalaSign_Text_0:
+#if GERMAN
 	.string "Dieser Berg wird von den Einheimi-\n"
 	.string "schen liebevoll Lanikala genannt,\l"
 	.string "da er der höchste Berg der Alola-\l"
 	.string "Inseln ist.\p"
 	.string "Sein wahrer Name ist längst in\n"
 	.string "Vergessenheit geraten.$"
+#else
+	.string "This mountain is affectionately\n"
+	.string "referred to as Mt. Lanikala by the\l"
+	.string "locals, as it is the tallest mountain\l"
+	.string "on the Alola Isles.\p"
+	.string "The real name of this mountain has been\n"
+	.string "lost to time.$"
+#endif
 
 Alola_Ulaula_UlaulaSign_Text_0:
+#if GERMAN
 	.string "Ula-Ula$"
+#else
+	.string "Ula'ula Isle$"
+#endif
 
 Alola_Ulaula_Phant_outside_Text_0:
+#if GERMAN
 	.string "Hallo, {PLAYER}!\p"
 	.string "Ich bin der Entwickler, der diesen\n"
 	.string "Teil des Spiels gebaut hat!\p"
@@ -310,65 +324,147 @@ Alola_Ulaula_Phant_outside_Text_0:
 	.string "Ich arbeite an einem kompletten\n"
 	.string "Demake der Region namens\l"
 	.string "Ultra Eclipse.$"
+#else
+	.string "Hello there, {PLAYER}!\p"
+	.string "I'm the developer who built this\n"
+	.string "section of the game!\p"
+	.string "I hope you enjoyed this taste of Alola.\p"
+	.string "I'm working on a full demake of the\n"
+	.string "region called ULTRA ECLIPSE.$"
+#endif
 
 Alola_Ulaula_Phant_outside_Text_1:
+#if GERMAN
 	.string "Besuch mich doch in meinem Haus\n"
 	.string "ganz oben auf dieser Insel.\l"
 	.string "Es wird sich für dich lohnen!$"
+#else
+	.string "Please come visit me at my house at\n"
+	.string "the top of this isle.\l"
+	.string "I'll make it worth your while!$"
+#endif
 
 Alola_Ulaula_TrainerBattlePicnicker_Text_0:
+#if GERMAN
 	.string "Überraschung!\nIch war in den Bäumen!$"
+#else
+	.string "Surprise!\nI was in the trees!$"
+#endif
 
 Alola_Ulaula_TrainerBattlePicnicker_Text_1:
+#if GERMAN
 	.string "Zurück ins Versteck mit mir…$"
+#else
+	.string "Back into hiding I go…$"
+#endif
 
 Alola_Ulaula_TrainerBattlePicnicker_Text_2:
+#if GERMAN
 	.string "Ich glaube, ich habe etwas Rotes am\n"
 	.string "Himmel fliegen sehen.\p"
 	.string "Ob das ein Pokémon war?$"
+#else
+	.string "I thought I saw something red flying\n"
+	.string "through the sky.\p"
+	.string "Could it have been a Pokémon?$"
+#endif
 
 Alola_Ulaula_TrainerBattleYoungster_Text_0:
+#if GERMAN
 	.string "Hey, ich werde der Erste sein, der\nden Lanikala besteigt!$"
+#else
+	.string "Hey, I'm going to be the first to climb\nMt. Lanikala!$"
+#endif
 
 Alola_Ulaula_TrainerBattleYoungster_Text_1:
+#if GERMAN
 	.string "Dabei ist es nicht mal der echte\nLanikala…$"
+#else
+	.string "It's not even the real Mt. Lanikala…$"
+#endif
 
 Alola_Ulaula_TrainerBattleYoungster_Text_2:
+#if GERMAN
 	.string "Mein Papa hat mir nie den wahren\n"
 	.string "Namen dieses Berges verraten.\p"
 	.string "Wir haben ihn immer nur Lanikala\ngenannt.$"
+#else
+	.string "My dad never told me the real name of\n"
+	.string "this mountain.\p"
+	.string "We've always just called it Mt. Lanikala.$"
+#endif
 
 Alola_Ulaula_TrainerBattleHiker_Text_0:
+#if GERMAN
 	.string "Du musst zäh sein, um dieses raue\nGelände zu meistern!$"
+#else
+	.string "You must be tough to handle this\nrough terrain!$"
+#endif
 
 Alola_Ulaula_TrainerBattleHiker_Text_1:
+#if GERMAN
 	.string "Uff…\n"
 	.string "Ich hätte härter trainieren sollen…$"
+#else
+	.string "Oof,\nI should've trained harder…$"
+#endif
 
 Alola_Ulaula_TrainerBattleHiker_Text_2:
+#if GERMAN
 	.string "Auf Ula-Ula wandert es sich am\nbesten!\p"
 	.string "Die Einheimischen nennen diesen\n"
 	.string "Berg Lanikala, denn er ist der\l"
 	.string "höchste der Alola-Inseln!$"
+#else
+	.string "Ula'ula Isle has the best hiking!\p"
+	.string "The locals refer to this mountain as\n"
+	.string "Mt. Lanikala, as it is the tallest on\l"
+	.string "the Alola Isles!$"
+#endif
 
 Alola_Ulaula_TrainerBattleCooltrainer_Text_0:
+#if GERMAN
 	.string "Diese Höhle stinkt fürchterlich!\n"
 	.string "Lass uns kämpfen, das lenkt mich\lab!$"
+#else
+	.string "This cave smells terrible!\n Let's battle to get my mind off of it!$"
+#endif
 
 Alola_Ulaula_TrainerBattleCooltrainer_Text_1:
+#if GERMAN
 	.string "Ich hätte einen Lufterfrischer\n"
 	.string "mitnehmen sollen…$"
+#else
+	.string "Should've brought some air freshener…$"
+#endif
 
 Alola_Ulaula_TrainerBattleCooltrainer_Text_2:
+#if GERMAN
 	.string "Halt dir besser die Nase zu, wenn\n"
 	.string "du in diese Höhle willst.$"
+#else
+	.string "You should plug your nose if you plan\n"
+	.string "on going in that cave.$"
+#endif
 
 Alola_Ulaula_LassNPC_Text_0:
+#if GERMAN
 	.string "Das Meer bei den Inseln ist wirklich\n"
 	.string "atemberaubend.\p"
 	.string "Ich könnte den ganzen Tag hier\n"
 	.string "sitzen und den Wellen zusehen.$"
+#else
+	.string "The sea by the Isles is truly\n"
+	.string "breathtaking.\p"
+	.string "I could sit here all day and just\n"
+	.string "watch the waves.$"
+#endif
 
 Alola_Ulaula_Bench_Heal_Text_0:
+#if GERMAN
 	.string "Möchtest du auf dieser Bank eine\n"
 	.string "Pause einlegen?$"
+#else
+	.string "Would you like to take a rest on this\n"
+	.string "bench?$"
+#endif

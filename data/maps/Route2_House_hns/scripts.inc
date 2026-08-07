@@ -21,13 +21,27 @@ Route2_House_EventScript_ManAfter::
 	end
 
 Route2_House_Text_Fisher:
+#if GERMAN
 	.string "Hi! Ich bin froh dich zu sehen.\p"
 	.string "Mich hat schon lange Zeit\n"
 	.string "niemand mehr besucht.\p"
 	.string "Ich bin überglücklich!\n"
 	.string "Das hier ist für dich.$"
+#else
+	.string "Hi! Wow, I'm glad to see you.\p"
+	.string "You're the first visitor I've had in a\n"
+	.string "long time.\p"
+	.string "I'm super-happy! Let me give you a\n"
+	.string "little present.$"
+#endif
 
 Route2_House_Text_Fisher_GotNugget:
-	.string "Das ist ein Nugget.\n"
+#if GERMAN
+	.string "Das ist ein {COLOR RED}Nugget{COLOR DARK_GRAY}.\n"
 	.string "Ich kann dir keine weisen Ratschläge\l"
 	.string "mitgeben, das hier muss ausreichen!$"
+#else
+	.string "That's a NUGGET.\p"
+	.string "I can't give you any nuggets of\n"
+	.string "wisdom, so that'll have to do!$"
+#endif

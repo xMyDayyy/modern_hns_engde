@@ -94,6 +94,7 @@ PokemonLeague_WillsRoom_EventScript_WillDefeated::
 	end
 
 PokemonLeague_WillsRoom_Text_Before:
+#if GERMAN
 	.string "Willkommen in der Pokémon Liga,\n"
 	.string "{PLAYER}.\p"
 	.string "Erlaube mir, mich vorzustellen.\n"
@@ -105,19 +106,47 @@ PokemonLeague_WillsRoom_Text_Before:
 	.string "aufgenommen.\p"
 	.string "Ich kann nur besser werden!\p"
 	.string "Verlieren ist keine Option!$"
+#else
+    .string "Welcome to POKéMON LEAGUE,\n"
+    .string "{PLAYER}.\p"
+    .string "Allow me to introduce myself.\n"
+    .string "I am WILL.\p"
+    .string "I have trained all around the\n"
+    .string "world, making my psychic\l"
+    .string "POKéMON powerful.\p"
+    .string "And, at last, I've been accepted\n"
+    .string "into the ELITE FOUR.\p"
+    .string "I can only keep getting better!\p"
+    .string "Losing is not an option!$"
+#endif
 
 PokemonLeague_WillsRoom_Text_Beaten:
+#if GERMAN
 	.string "Ich… ich kann… es nicht… glauben…$"
+#else
+    .string "I… I can't… believe it…$"
+#endif
 
 PokemonLeague_WillsRoom_Text_Defeat:
+#if GERMAN
 	.string "Auch wenn ich besiegt wurde, werde ich\n"
 	.string "meinen Kurs nicht ändern.\p"
 	.string "Ich werde weiter kämpfen, bis ich über\n"
 	.string "allen Trainern stehe!\p"
 	.string "Nun, {PLAYER}, greif an und erlebe\n"
 	.string "die wahre Kraft der Elite Vier.$"
+#else
+    .string "Even though I was defeated, I\n"
+    .string "won't change my course.\p"
+    .string "I will continue battling until I\n"
+    .string "stand above all trainers!\p"
+    .string "Now, {PLAYER}, move on and\n"
+    .string "experience the true ferocity of\l"
+    .string "the ELITE FOUR.$"
+#endif
 
 PokemonLeague_WillsRoom_Text_RematchBefore:
+#if GERMAN
 	.string "Willi: Ah, willkommen zurück.\p"
 	.string "Ich habe diese Begegnung\n"
 	.string "vorausgesehen.\p"
@@ -128,3 +157,14 @@ PokemonLeague_WillsRoom_Text_RematchBefore:
 	.string "verbesserter Strategie und Stärke vor.\p"
 	.string "Lass uns sehen, ob deine\n"
 	.string "Auffassungsgabe der meinen nahekommt.$"
+#else
+    .string "WILL: Ah, welcome back.\p"
+    .string "I have foreseen this encounter.\p"
+    .string "My psychic POKéMON and\n"
+    .string "I have evolved, developing\l"
+    .string "new tactics.\p"
+    .string "Prepare yourself for a battle of\n"
+    .string "enhanced strategy and might.\p"
+    .string "Let us see if your foresight\n"
+    .string "matches mine.$"
+#endif

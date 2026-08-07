@@ -61,23 +61,47 @@ CeladonCity_DepartmentStore_2F_TMs::
 	end
 
 CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel::
+#if GERMAN
 	.string "Superschutz hält Pokémon auf\n"
 	.string "Distanz...\p"
 	.string "Es ist besser als normaler Schutz!$"
+#else
+	.string "SUPER REPEL keeps weak POKéMON at\n"
+	.string "bay…\p"
+	.string "Hmm, it's a more powerful REPEL.$"
+#endif
 
 CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings::
+#if GERMAN
 	.string "Vor längeren Ausflügen solltest du\n"
 	.string "Beleber kaufen.$"
+#else
+	.string "For long outings, you should buy\n"
+	.string "REVIVE.$"
+#endif
 
 CeladonCity_DepartmentStore_2F_Text_FloorSign::
+#if GERMAN
 	.string "Nützliche Items für Trainer!\p"
 	.string "1S: Zubehör für Trainer$"
+#else
+	.string "Top-Grade Items for TRAINERS!\p"
+	.string "2F: TRAINER'S MARKET$"
+#endif
 
 CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes::
+#if GERMAN
 	.string "Es gibt einen Kunden namens\n"
-	.string "Siegfried, der gelegentlich\l"
+	.string "{COLOR RED}Siegfried{COLOR DARK_GRAY}, der gelegentlich\l"
 	.string "vorbeikommt.\l"
 	.string "Er kauft stets Umhänge.\p"
 	.string "Ich frage mich, ob er\n"
 	.string "viele gleiche Umhänge zu\l"
 	.string "Hause hat.$"
+#else
+	.string "We have a customer, LANCE, who\n"
+	.string "occasionally comes.\p"
+	.string "He always buys capes.\p"
+	.string "I wonder… Does he have many\n"
+	.string "identical capes at home?$"
+#endif

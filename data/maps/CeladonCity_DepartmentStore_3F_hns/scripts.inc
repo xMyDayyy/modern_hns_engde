@@ -39,15 +39,26 @@ CeladonDept3_EventScript_Directory::
 	end
 
 CeladonDeptStore3F_Text_Youngster:
+#if GERMAN
 	.string "Hm, ich kann mich nicht entscheiden,\n"
 	.string "welches Pokémon diese TM erhalten soll!$"
+#else
+	.string "I can't decide which POKéMON I\n"
+	.string "should use this TM on…$"
+#endif
 
 CeladonDeptStore3F_Text_GameboyKid1:
+#if GERMAN
 	.string "Oh, oh! Ich habe mein Pokémon\n"
 	.string "getauscht, ohne ihm vorher\l"
 	.string "Up-Grade wegzunehmen!$"
+#else
+	.string "Uh-oh! I traded my POKéMON without\n"
+	.string "removing the UPGRADE from it.$"
+#endif
 
 CeladonDeptStore3F_Text_GameboyKid2:
+#if GERMAN
 	.string "Klasse! Jetzt kann ich mir endlich\n"
 	.string "doch noch ein Porygon besorgen!\p"
 	.string "Ich habe einfach kein Händchen für\n"
@@ -56,12 +67,30 @@ CeladonDeptStore3F_Text_GameboyKid2:
 	.string "…Huch?\p"
 	.string "Das getauschte Porygon hat sich\n"
 	.string "in ein anderes Pokémon verwandelt!$"
+#else
+	.string "Yeah! I'm finally getting a\n"
+	.string "PORYGON!\p"
+	.string "I'm no good at the slots, so I\n"
+	.string "could never get enough coins…\p"
+	.string "…Huh?\p"
+	.string "The traded PORYGON turned into a\n"
+	.string "different POKéMON!$"
+#endif
 
 CeladonDeptStore3F_Text_SuperNerd:
+#if GERMAN
 	.string "Der TM-Laden hat ein paar seltene\n"
 	.string "Attacken im Angebot!$"
+#else
+	.string "The TM SHOP sells some rare moves.$"
+#endif
 
 CeladonDeptStore3F_Text_Directory:
+#if GERMAN
 	.string "Wir peppen deine Pokémon auf!\n"
 	.string "2S: TM-Laden$"
+#else
+	.string "3F: TM SHOP\p"
+	.string "Make Your POKéMON Stronger!$"
+#endif
 

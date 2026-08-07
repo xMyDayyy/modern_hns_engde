@@ -349,10 +349,26 @@ static const u8 *const sChoices_OriginalModern[] = {
     COMPOUND_STRING("Modern"),
 };
 
+#if GERMAN
 static const u8 sText_TopBar_Left[]   = _("{L_BUTTON}Zurück");
+#else
+static const u8 sText_TopBar_Left[]   = _("{L_BUTTON}PREVIOUS");
+#endif
+#if GERMAN
 static const u8 sText_TopBar_Right[]  = _("{R_BUTTON}Weiter");
+#else
+static const u8 sText_TopBar_Right[]  = _("{R_BUTTON}NEXT");
+#endif
+#if GERMAN
 static const u8 sText_TopBar_Save[]   = _("{R_BUTTON}Sichern");
+#else
+static const u8 sText_TopBar_Save[]   = _("{R_BUTTON}SAVE");
+#endif
+#if GERMAN
 static const u8 sText_TopBar_Cancel[] = _("{B_BUTTON}Zurück");
+#else
+static const u8 sText_TopBar_Cancel[] = _("{B_BUTTON}CANCEL");
+#endif
 
 // =============================================================================
 // Tab item tables — skeleton placeholders
@@ -500,7 +516,11 @@ static const struct ChallengeMenuItem sTabItems_Mode[] = {
 };
 
 static const u8 *const sDesc_SaveExit[] = { COMPOUND_STRING("Auswahl speichern und weiter…") };
+#if GERMAN
 static const u8 sText_ConfirmSave[] = COMPOUND_STRING("Auswahl bestätigen?");
+#else
+static const u8 sText_ConfirmSave[] = COMPOUND_STRING("Confirm your choices?");
+#endif
 
 // =============================================================================
 // Choice strings — shared across tabs
@@ -947,7 +967,11 @@ static const struct ChallengeMenuItem sTabItems_Nuzlocke[] = {
 // DIFFICULTY descriptions + table
 // =============================================================================
 
+#if GERMAN
 static const u8 sText_Desc_PartyLimit[] = _("Begrenzt die Anzahl der {PKMN} im Team.\n1 hat Grafikfehler bei Doppelkämpfen.");
+#else
+static const u8 sText_Desc_PartyLimit[] = _("Limits the amount of {PKMN} in the\nparty. 1 has visual bugs in DOUBLES.");
+#endif
 static const u8 *const sDesc_PartyLimit[] = {
     sText_Desc_PartyLimit, sText_Desc_PartyLimit, sText_Desc_PartyLimit,
     sText_Desc_PartyLimit, sText_Desc_PartyLimit, sText_Desc_PartyLimit,
@@ -1100,7 +1124,11 @@ static const u8 *const sDesc_EvoLimit[] = {
 #define NUM_ONE_TYPE_CHOICES 20
 #define ONE_TYPE_OFF 31
 
+#if GERMAN
 static const u8 sText_Desc_OneType[] = _("Nur ein {PKMN}-Typ\nkann gefangen werden.");
+#else
+static const u8 sText_Desc_OneType[] = _("Allow only one {PKMN} type the\nplayer can capture and use.");
+#endif
 static const u8 *const sDesc_OneType[] = {
     sText_Desc_OneType, sText_Desc_OneType, sText_Desc_OneType, sText_Desc_OneType,
     sText_Desc_OneType, sText_Desc_OneType, sText_Desc_OneType, sText_Desc_OneType,

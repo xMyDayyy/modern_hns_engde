@@ -74,114 +74,257 @@ Route16_EventScript_RouteSign::
 	end
 
 Route16_Text_LaoIntro::
+#if GERMAN
 	.string "Was willst du?$"
+#else
+	.string "What do you want?$"
+#endif
 
 Route16_Text_LaoDefeat::
+#if GERMAN
 	.string "Wage ja nicht zu lachen!$"
+#else
+	.string "Don't you dare laugh!$"
+#endif
 
 Route16_Text_LaoPostBattle::
+#if GERMAN
 	.string "Wir lungern hier herum!\n"
 	.string "Wie sieht es bei dir aus?$"
+#else
+	.string "We like just hanging here.\n"
+	.string "What's it to you?$"
+#endif
 
 Route16_Text_KojiIntro::
+#if GERMAN
 	.string "Du besitzt ein schönes Fahrrad!\n"
 	.string "Her damit!$"
+#else
+	.string "Nice BIKE!\n"
+	.string "Hand it over!$"
+#endif
 
 Route16_Text_KojiDefeat::
+#if GERMAN
 	.string "K.o.!$"
+#else
+	.string "Knockout!$"
+#endif
 
 Route16_Text_KojiPostBattle::
+#if GERMAN
 	.string "Na ja, vergiss es!\n"
 	.string "Wer braucht schon ein Fahrrad?$"
+#else
+	.string "Forget it, who needs your BIKE!$"
+#endif
 
 Route16_Text_LukeIntro::
+#if GERMAN
 	.string "Lass uns spielen, Hasenfuß!$"
+#else
+	.string "Come out and play, little mouse!$"
+#endif
 
 Route16_Text_LukeDefeat::
+#if GERMAN
 	.string "Du kleine Ratte!$"
+#else
+	.string "You little rat!$"
+#endif
 
 Route16_Text_LukePostBattle::
+#if GERMAN
 	.string "Ich hasse es, zu verlieren!\n"
 	.string "Mach, dass du wegkommst!$"
+#else
+	.string "I hate losing!\n"
+	.string "Get out of my face!$"
+#endif
 
 Route16_Text_HideoIntro::
+#if GERMAN
 	.string "Heh! Du hast mich angerempelt!$"
+#else
+	.string "Hey, you just bumped me!$"
+#endif
 
 Route16_Text_HideoDefeat::
+#if GERMAN
 	.string "Rumms! Überrumpelt!$"
+#else
+	.string "Kaboom!$"
+#endif
 
 Route16_Text_HideoPostBattle::
+#if GERMAN
 	.string "Man kann über eine Küstenstraße\n"
-	.string "von Orania City nach Fuchsania\l"
+	.string "von {COLOR RED}Orania City{COLOR DARK_GRAY} nach {COLOR RED}Fuchsania{COLOR DARK_GRAY}\l"
 	.string "City gelangen.$"
+#else
+	.string "We'll always be hanging around here\n"
+	.string "even if you don't like it.\p"
+	.string "You can detour to VERMILION from\n"
+	.string "FUCHSIA going along the coast.$"
+#endif
 
 Route16_Text_CamronIntro::
+#if GERMAN
 	.string "Ich bin furchtbar gemein und\n"
 	.string "erfolgssüchtig!$"
+#else
+	.string "I'm feeling hungry and mean!\n"
+	.string "I need a punching bag!$"
+#endif
 
 Route16_Text_CamronDefeat::
+#if GERMAN
 	.string "Nein, nein, nein!$"
+#else
+	.string "Bad, bad, bad!$"
+#endif
 
 Route16_Text_CamronPostBattle::
+#if GERMAN
 	.string "Ich mag wilde Pokémon!\n"
 	.string "Sie strotzen nur so vor Kraft!$"
+#else
+	.string "If I'm going to have POKéMON, they\n"
+	.string "may as well be ferocious.\p"
+	.string "I'd use them to leave my enemies\n"
+	.string "in tatters.$"
+#endif
 
 Route16_Text_RubenIntro::
+#if GERMAN
 	.string "Ja, sicher!\n"
 	.string "Ich mache dir Platz!$"
+#else
+	.string "Hey, there!\n"
+	.string "Let's have ourselves a good time!$"
+#endif
 
 Route16_Text_RubenDefeat::
+#if GERMAN
 	.string "Treibe mich nicht in den Wahnsinn!$"
+#else
+	.string "Don't make me mad!$"
+#endif
 
 Route16_Text_RubenPostBattle::
+#if GERMAN
 	.string "Ich liebe es, andere mit meinen\n"
 	.string "bissigen Pokémon zu schikanieren!$"
+#else
+	.string "I get my kicks by harassing people\n"
+	.string "with my stinking POKéMON.\p"
+	.string "They're great for startling people.\n"
+	.string "And, they bite, too.$"
+#endif
 
 Route16_Text_MonSprawledOutInSlumber::
+#if GERMAN
 	.string "Ein schlafendes Pokémon versperrt\n"
 	.string "den Weg!$"
+#else
+	.string "A POKéMON is sprawled out in\n"
+	.string "a deep and comfortable slumber.$"
+#endif
 
 Route16_Text_CyclingRoadSign::
+#if GERMAN
 	.string "Radweg\n"
 	.string "Gute Abfahrt!$"
+#else
+	.string "Enjoy the slope!\n"
+	.string "CYCLING ROAD$"
+#endif
 
 Route16_Text_RouteSign::
+#if GERMAN
 	.string "Route 16\n"
 	.string "Prismania City - Fuchsania City$"
+#else
+	.string "ROUTE 16\n"
+	.string "CELADON CITY - FUCHSIA CITY$"
+#endif
 
 Route16_Text_JedIntro::
+#if GERMAN
 	.string "Uwe: Unsere Liebe kennt keine\n"
 	.string "Grenzen. Wir lieben uns und\l"
 	.string "zeigen das!$"
+#else
+	.string "JED: Our love knows no bounds.\n"
+	.string "We're in love and we show it!$"
+#endif
 
 Route16_Text_JedDefeat::
+#if GERMAN
 	.string "Uwe: Oh, nein! Meine Geliebte hat\n"
 	.string "mich verlieren sehen.$"
+#else
+	.string "JED: Oh, no!\n"
+	.string "My love has seen me as a loser!$"
+#endif
 
 Route16_Text_JedPostBattle::
+#if GERMAN
 	.string "Uwe: Hör zu, Lena! Du solltest\n"
 	.string "dich weniger auf mich\l"
 	.string "konzentrieren.$"
+#else
+	.string "JED: Listen, LEA.\n"
+	.string "You need to focus less on me.$"
+#endif
 
 Route16_Text_JedNotEnoughMons::
+#if GERMAN
 	.string "Uwe: Du hast nur ein Pokémon?\n"
 	.string "Gibt es in deinem Herzen\l"
 	.string "keine Liebe?$"
+#else
+	.string "JED: You have just one POKéMON?\n"
+	.string "Is there no love in your heart?$"
+#endif
 
 Route16_Text_LeaIntro::
+#if GERMAN
 	.string "Lena: Manchmal erschreckt es mich,\n"
 	.string "wie intensiv unsere Liebe ist.$"
+#else
+	.string "LEA: Sometimes, the intensity of\n"
+	.string "our love scares me.$"
+#endif
 
 Route16_Text_LeaDefeat::
+#if GERMAN
 	.string "Lena: Oh! Aber Uwe sieht auch bei\n"
 	.string "einer Niederlage cool aus!$"
+#else
+	.string "LEA: Ohh! But JED looks cool\n"
+	.string "even in a loss!$"
+#endif
 
 Route16_Text_LeaPostBattle::
+#if GERMAN
 	.string "Lena: Äh, es tut mir Leid.\n"
 	.string "Uwe ist so cool.$"
+#else
+	.string "LEA: Ehehe, I'm sorry.\n"
+	.string "JED is so cool.$"
+#endif
 
 Route16_Text_LeaNotEnoughMons::
+#if GERMAN
 	.string "Lena: Oh, du hast keine zwei\n"
 	.string "Pokémon bei dir?\p"
 	.string "Fühlst du dich oder fühlt sich\n"
 	.string "dein Pokémon nicht einsam?$"
+#else
+	.string "LEA: Oh, you don't have two\n"
+	.string "POKéMON with you?\p"
+	.string "Doesn't it feel lonely for you or\n"
+	.string "your POKéMON?$"
+#endif

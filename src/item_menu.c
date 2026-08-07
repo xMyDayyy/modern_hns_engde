@@ -222,11 +222,27 @@ static void ConfirmSell(u8);
 static void CancelSell(u8);
 static void Task_FadeAndCloseBagMenuIfMulch(u8 taskId);
 
+#if GERMAN
 static const u8 sText_Var1CantBeHeldHere[] = _("{STR_VAR_1} ist hier nicht zu\ngeben.");
+#else
+static const u8 sText_Var1CantBeHeldHere[] = _("The {STR_VAR_1} can't be held\nhere.");
+#endif
+#if GERMAN
 static const u8 sText_DepositHowManyVar1[] = _("Wie viele möchtest\ndu ablegen?");
+#else
+static const u8 sText_DepositHowManyVar1[] = _("Deposit how many\n{STR_VAR_1}?");
+#endif
 static const u8 sText_DepositedVar2Var1s[] = _("Deposited {STR_VAR_2}\n{STR_VAR_1}.");
+#if GERMAN
 static const u8 sText_NoRoomForItems[] = _("Kein Platz für\nweitere Items.");
+#else
+static const u8 sText_NoRoomForItems[] = _("There's no room to\nstore items.");
+#endif
+#if GERMAN
 static const u8 sText_CantStoreImportantItems[] = _("Wichtige Items\nkönnen nicht im\nPC gelagert werden.");
+#else
+static const u8 sText_CantStoreImportantItems[] = _("Important items\ncan't be stored in\nthe PC!");
+#endif
 
 static void Task_LoadBagSortOptions(u8 taskId);
 static void ItemMenu_SortByName(u8 taskId);
@@ -294,7 +310,11 @@ static const struct ListMenuTemplate sItemListMenu =
     .cursorKind = CURSOR_BLACK_ARROW
 };
 
+#if GERMAN
 static const u8 sText_NothingToSort[] = _("Es gibt nichts zu sortieren!");
+#else
+static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
+#endif
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,                {ItemMenu_UseOutOfBattle}},
     [ACTION_TOSS]              = {gMenuText_Toss,               {ItemMenu_Toss}},
@@ -335,7 +355,11 @@ static const u8 sRegisterOptions[] = {
     ACTION_REGISTER_TAP, ACTION_REGISTER_HOLD,
 };
 
+#if GERMAN
 static const u8 sText_RegisterHow[] = _("Item mit SELECT\ndurch Tippen oder\nHalten registrieren?");
+#else
+static const u8 sText_RegisterHow[] = _("Register this\nitem by tapping or\nholding SELECT?");
+#endif
 
 static const u8 sContextMenuItems_BallsPocket[] = {
     ACTION_USE,         ACTION_GIVE,
@@ -2188,7 +2212,11 @@ static void ItemMenu_Cancel(u8 taskId)
     ReturnToItemList(taskId);
 }
 
+#if GERMAN
 static const u8 sText_NoItemsInBattle[] = _("Kampf-Items sind nach den\naktuellen Regeln nicht erlaubt!");
+#else
+static const u8 sText_NoItemsInBattle[] = _("Battle items are not allowed\nunder current rules!");
+#endif
 
 static void ItemMenu_UseInBattle(u8 taskId)
 {
@@ -2842,8 +2870,16 @@ static void PrintTMHMMoveData(enum Item itemId)
     }
 }
 
+#if GERMAN
 static const u8 sText_SortItemsHow[] = _("Wonach sortieren?");
+#else
+static const u8 sText_SortItemsHow[] = _("Sort items how?");
+#endif
+#if GERMAN
 static const u8 sText_ItemsSorted[] = _("Nach {STR_VAR_1} sortiert!");
+#else
+static const u8 sText_ItemsSorted[] = _("Items sorted by {STR_VAR_1}!");
+#endif
 static const u8 *const sSortTypeStrings[] =
 {
     [SORT_ALPHABETICALLY] = COMPOUND_STRING("Alphabet"),

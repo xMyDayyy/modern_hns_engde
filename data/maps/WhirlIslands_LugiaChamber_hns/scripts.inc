@@ -289,6 +289,7 @@ WhirlIslands_LugiaChamber_EventScript_KuniAfter::
 	end
 
 WhirlIslands_LugiaChamber_Text_Kimono_AfterNotCaught:
+#if GERMAN
 	.string "Ihr habt Lugia nicht nur hierher\n"
 	.string "gerufen, sondern Ihr konntet es auch,\l"
 	.string "wie durch ein Wunder, einfangen…\p"
@@ -297,8 +298,16 @@ WhirlIslands_LugiaChamber_Text_Kimono_AfterNotCaught:
 	.string "wir Euch noch erzählen könnten.\p"
 	.string "Wir wünschen Euch auch für den Rest\n"
 	.string "Eurer Reise alles Gute…$"
+#else
+	.string "You have not only made LUGIA\n"
+	.string "appear, but you have also defeated\l"
+	.string "it...\p"
+	.string "There is nothing more for us to\n"
+	.string "say. Take care of yourself in your\l"
+#endif
 
 WhirlIslands_LugiaChamber_Text_Kimono_AfterCaught:
+#if GERMAN
 	.string "Ihr habt Lugia nicht nur hierher\n"
 	.string "gerufen, sondern Ihr konntet es auch,\l"
 	.string "wie durch ein Wunder, einfangen…\p"
@@ -307,6 +316,14 @@ WhirlIslands_LugiaChamber_Text_Kimono_AfterCaught:
 	.string "wir Euch noch erzählen könnten.\p"
 	.string "Wir wünschen Euch auch für den Rest\n"
 	.string "Eurer Reise alles Gute…$"
+#else
+	.string "You have not only made LUGIA\n"
+	.string "appear, but you have also caught\l"
+	.string "it...\p"
+	.string "There is nothing more for us to\n"
+	.string "say. Take care of yourself in your\l"
+	.string "journey...$"
+#endif
 
 WhirlIslands_LugiaChamber_Movement_CameraPanUp:
 	walk_up
@@ -564,27 +581,50 @@ WhirlIslands_LugiaChamber_Movement_Kimono_Dance_Shift_Right2:
 	step_end
 
 WhirlIslands_LugiaChamber_Text_Zuki_Before::
+#if GERMAN
 	.string "Tamao: Geh nun zu Lugia.$"
+#else
+	.string "ZUKI: Go, face LUGIA. $"
+#endif
 WhirlIslands_LugiaChamber_Text_Naoko_Before::
 	.string "Umeko: Geh nun zu Lugia.$"
 WhirlIslands_LugiaChamber_Text_Miki_Before::
+#if GERMAN
 	.string "Satsuki: Geh nun zu Lugia.$"
+#else
+	.string "MIKI: Go, face LUGIA. $"
+#endif
 WhirlIslands_LugiaChamber_Text_Sayo_Before::
 	.string "Sakura: Geh nun zu Lugia.$"
 WhirlIslands_LugiaChamber_Text_Kuni_Before::
+#if GERMAN
 	.string "Komono: Geh nun zu Lugia.$"
+#else
+	.string "KUNI: Go, face LUGIA. $"
+#endif
 
 WhirlIslands_LugiaChamber_Text_Kimono_Opening::
+#if GERMAN
 	.string "Tamao: Dies ist der Ort, an dem wir\n"
 	.string "mit Lugia in Kontakt treten werden.\p"
 	.string "Wenn sich hier der Klang des Tanzes,\n"
 	.string "den wir täglich proben, mit dem\l"
-	.string "Eurer Gischtglocke überlagert, wird\l"
+	.string "Eurer {COLOR RED}Gischtglocke{COLOR DARK_GRAY} überlagert, wird\l"
 	.string "Lugia aus seinem Schlaf tief am Grund\p"
 	.string "des Wasserfalls erwachen und sich\n"
 	.string "von uns erblicken lassen!$"
+#else
+	.string "KIMONO GIRL: That's right.\n"
+	.string "This is where we welcome LUGIA.\p"
+	.string "When the dance we practiced many\n"
+	.string "days becomes one with the sound of the\l"
+	.string "Tidal Bell we entrusted to you, then\l"
+	.string "LUGIA shall come out from deep within\l"
+	.string "the waterfall basin once again. $"
+#endif
 
 WhirlIslands_LugiaChamber_Text_Kimono_Closing1::
+#if GERMAN
 	.string "Was Ihr da vor Euch seht, ist Lugia…\n"
 	.string "Seit Urzeiten erzählt man sich hier\l"
 	.string "von ihm, dem Schutzpatron der Meere…\p"
@@ -593,9 +633,28 @@ WhirlIslands_LugiaChamber_Text_Kimono_Closing1::
 	.string "doch alle scheiterten sie kläglich…\p"
 	.string "{PLAYER}, Ihr hattet endlich Erfolg\n"
 	.string "damit, weil Euer Herz mit\l"
-	.string "der Gischtglocke in Einklang stand…$"
+	.string "der {COLOR RED}Gischtglocke{COLOR DARK_GRAY} in Einklang stand…$"
+#else
+	.string "That is indeed LUGIA...\n"
+	.string "The guardian of these islands from\l"
+	.string "ancient times... \p"
+	.string "So many have tried again and again,\n"
+	.string "only to fail...\p"
+	.string "{PLAYER}, your heart in complete\n"
+	.string "harmony with the Tidal Bell has finally\l"
+	.string "allowed it to appear...\n"
+	.string "{PLAYER}, don't you see?\p"
+	.string "LUGIA... It must have been waiting for\n"
+	.string "someone like you all this time.\p"
+	.string "Wouldn't you agree? $"
+#endif
 
 WhirlIslands_LugiaChamber_Text_Kimono_After::
+#if GERMAN
 	.string "Kimono-Girl: Heute hast du\n"
 	.string "dich wahrlich bewiesen,\l"
 	.string "{PLAYER}.$"
+#else
+	.string "KIMONO GIRL: You've proven yourself\n"
+	.string "today, {PLAYER}.$"
+#endif

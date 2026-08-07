@@ -74,6 +74,7 @@ LilycoveCity_CoveLilyMotel_1F_Movement_OwnerReturn:
 	step_end
 
 LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
+#if GERMAN
 	.string "Hm, so haben sie also die Anzahl der\n"
 	.string "Gäste verdoppelt. Indem sie Pokémon\l"
 	.string "als Attraktion präsentieren?\p"
@@ -83,19 +84,40 @@ LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
 	.string "Gasthofes machen…\p"
 	.string "Ich frage mich, ob ich so mehr\n"
 	.string "Gäste hätte?$"
+#else
+	.string "Hm, so they doubled the guests by\n"
+	.string "using POKéMON as attractions?\p"
+	.string "Hm, well, maybe I should make a cute\n"
+	.string "POKéMON our inn's mascot.\p"
+	.string "I wonder if that will attract more\n"
+	.string "guests to stay with us?$"
+#endif
 
 LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua:
+#if GERMAN
 	.string "Oh, tut mir Leid, tut mir Leid!\n"
 	.string "Ich habe so konzentriert ferngesehen!\n"
 	.string "\p"
 	.string "Seit Team Aqua in diesem Ort ist,\n"
 	.string "bleiben die Gäste aus.$"
+#else
+	.string "Oh, sorry, sorry!\n"
+	.string "I was too involved in watching TV!\p"
+	.string "Since that TEAM AQUA came to town,\n"
+	.string "the tourists have been staying away.$"
+#endif
 
 LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV:
+#if GERMAN
 	.string "Hey, geh weg da!\n"
 	.string "Du bist doch nicht aus Glas!$"
+#else
+	.string "Hey, down in front!\n"
+	.string "I can't see the TV!$"
+#endif
 
 LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
+#if GERMAN
 	.string "Interessant! Du sagst, ein Pokémon\n"
 	.string "hat ein Item gefunden, das jemand ver-\l"
 	.string "loren hat?\p"
@@ -103,8 +125,17 @@ LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
 	.string "clevere Pokémon hätten…\p"
 	.string "Dann könnten wir alles wiederfinden,\n"
 	.string "was unsere Gäste verloren haben.$"
+#else
+	.string "Amazing! You're telling me a POKéMON\n"
+	.string "found someone's lost item?\p"
+	.string "That's something. If we had some smart\n"
+	.string "POKéMON like that…\p"
+	.string "We could recover anything that our\n"
+	.string "guests mislaid…$"
+#endif
 
 LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted:
+#if GERMAN
 	.string "Oh, tut mir Leid, tut mir Leid!\n"
 	.string "Ich habe so konzentriert ferngesehen!\p"
 	.string "Ich habe gehört, dass jemand das Ver-\n"
@@ -113,16 +144,36 @@ LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted:
 	.string "Eine ganze Gruppe hat reserviert!\p"
 	.string "Das sind Angestellte einer Firma… Äh…\n"
 	.string "Game irgendwas…$"
+#else
+	.string "Oh, sorry, sorry!\n"
+	.string "I was too involved in watching TV!\p"
+	.string "I heard that someone busted\n"
+	.string "the TEAM AQUA HIDEOUT.\p"
+	.string "Thanks to that, we just booked\n"
+	.string "a reservation from a big group.\p"
+	.string "It was a company called… Uh…\n"
+	.string "GAME something…$"
+#endif
 
 LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
+#if GERMAN
 	.string "Irre! Ein Pokémon, das das Haus be-\n"
 	.string "wachte, hat Einbrecher geschnappt?\p"
 	.string "Klasse! Wir sollten auch über einen\n"
 	.string "Wachschutz durch Pokémon nachdenken.\p"
 	.string "Dadurch könnten wir unseren Gästen\n"
 	.string "viel mehr Sicherheit bieten.$"
+#else
+	.string "Amazing! A house-sitting POKéMON\n"
+	.string "caught a burglar?\p"
+	.string "That's something. If we had a tough\n"
+	.string "POKéMON as a security guard…\p"
+	.string "We would be able to provide our guests\n"
+	.string "with greater safety.$"
+#endif
 
 LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
+#if GERMAN
 	.string "Oh, tut mir Leid, tut mir Leid!\n"
 	.string "Ich habe so konzentriert ferngesehen!\n"
 	.string "\p"
@@ -133,4 +184,14 @@ LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
 	.string "Spiele.\p"
 	.string "Oh oh, ich sollte mich besser um ihr\n"
 	.string "Abendessen kümmern!$"
+#else
+	.string "Oh, sorry, sorry!\n"
+	.string "I was too involved in watching TV.\p"
+	.string "Oh, yes. A big group of guests arrived\n"
+	.string "a little while ago.\p"
+	.string "They booked in as GAME FREAK,\n"
+	.string "so I guess they must make games.\p"
+	.string "Uh-oh, I'd better get working on\n"
+	.string "their dinner!$"
+#endif
 

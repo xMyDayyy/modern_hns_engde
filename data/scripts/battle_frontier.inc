@@ -9,6 +9,11 @@ BattleFrontier_ShowCaughtBannedSpeciesEnd:
 
 
 BattleFrontier_DoYouWantToSeeTheListOfCaughtBannedSpecies:
+#if GERMAN
 	.string "Möchtest du die Liste der Pokémon-\n"
 	.string "Arten sehen, die du nicht mitnehmen\l"
 	.string "darfst?$"
+#else
+	.string "Do you want to see the list of\n"
+	.string "POKéMON species you can't bring?$"
+#endif

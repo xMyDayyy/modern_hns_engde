@@ -12,8 +12,14 @@ Route22_EventScript_Sign::
 	end
 
 Route22_Text_VictoryRoadEntranceSign:
+#if GERMAN
 	.string "Pokémon Liga\n"
-	.string "Eingang Siegesstraße\n$"
+	.string "Eingang {COLOR RED}Siegesstraße{COLOR DARK_GRAY}\n"
+	.string "$"
+#else
+	.string "POKéMON LEAGUE\p"
+	.string "VICTORY ROAD ENTRANCE$"
+#endif
 
 Route22_EventScript_ResetActivation::
 	setvar VAR_TEMP_0, 0
@@ -283,29 +289,54 @@ Route22_Movement_CelebiPush:
 
 
 Route22_Text_Silver1:
+#if GERMAN
 	.string "{RIVAL}: Die Stärksten! Du hast\n"
 	.string "zu mir gesagt, wir wären die stärksten\l"
 	.string "Menschen auf der ganzen Welt!\p"
 	.string "Und jetzt lässt du das alles fallen?!?\p"
 	.string "Was soll denn jetzt aus uns werden?!?$"
+#else
+	.string "{RIVAL}: You told me...\n"
+	.string "you were the number one in the whole\l"
+	.string "world!\p"
+	.string "Are you gonna quit?\p"
+	.string "What are you going to do now?$"
+#endif
 
 Route22_Text_Giovanni1:
+#if GERMAN
 	.string "… … …\p"
 	.string "Ohne meine Niederlage zu akzeptieren,\n"
 	.string "kann ich nicht nach vorne blicken…\p"
 	.string "Ich werde mich eine Weile in die\n"
 	.string "Einsamkeit zurückziehen, um dann ein\l"
 	.string "noch stärkeres Team zu gründen!$"
+#else
+	.string "....................\p"
+	.string "GIOVANNI: One must acknowledge one's\n"
+	.string "defeat before he can move on...\p"
+	.string "I will go solo... for now...\p"
+	.string "So that one day I will form a\n"
+	.string "stronger organization!$"
+#endif
 
 Route22_Text_Silver2:
+#if GERMAN
 	.string "{RIVAL}: Wo ist denn jetzt bitte\n"
 	.string "deine “Stärke”?\p"
 	.string "Du hattest so viele Leute um dich\n"
 	.string "versammelt, und trotzdem konnte\l"
 	.string "uns ein einzelnes Kind im\l"
 	.string "Alleingang besiegen!!!$"
+#else
+	.string "{RIVAL}: What aspect of you was\n"
+	.string "number one?\p"
+	.string "Gathering so many only to be\n"
+	.string "defeated by a mere child!$"
+#endif
 
 Route22_Text_Giovanni2:
+#if GERMAN
 	.string "Durch die vereinten Kräfte\n"
 	.string "von vielen entsteht eine neue,\l"
 	.string "noch größere Macht.\l"
@@ -316,18 +347,41 @@ Route22_Text_Giovanni2:
 	.string "Aber irgendwann kommt der Tag, an dem\n"
 	.string "ich Team Rocket zum Comeback\n"
 	.string "verhelfe!$"
+#else
+	.string "GIOVANNI: Putting together the\n"
+	.string "potential of many is how you\l"
+	.string "produce a huge power...\l"
+	.string "That's what an organization is...\l"
+	.string "That's the strength of organization\p"
+	.string "I failed... to make the best use of\n"
+	.string "my subordinates' potential...!\p"
+	.string "But you shall witness one day the\n"
+	.string "revival of me and my TEAM ROCKET!$"
+#endif
 
 Route22_Text_Silver3:
+#if GERMAN
 	.string "{RIVAL}: Ich verstehe dich nicht!\p"
 	.string "Ich verstehe kein Wort von dem,\n"
 	.string "was du mir hier sagen willst, Paps!$"
+#else
+	.string "{RIVAL}: I don't understand you!\p"
+	.string "You don't make any sense!$"
+#endif
 
 Route22_Text_Giovanni3:
+#if GERMAN
 	.string ".......................\p"
 	.string "Giovanni: Eines Tages wirst du\n"
 	.string "verstehen.$"
+#else
+	.string ".......................\p"
+	.string "GIOVANNI: One day you will\n"
+	.string "understand.$"
+#endif
 
 Route22_Text_Silver4:
+#if GERMAN
 	.string "{RIVAL}: Und ich will’s auch nicht!\p"
 	.string "Ich hoffe, ich werde nie so wie du!\p"
 	.string "Solange du dich hinter all deinen\n"
@@ -337,10 +391,30 @@ Route22_Text_Silver4:
 	.string "So jemand will ich nie werden!\p"
 	.string "Aus mir soll ein starker Mann werden!\p"
 	.string "Ich werde ganz alleine stark werden!$"
+#else
+	.string "{RIVAL}: I don't want to\n"
+	.string "Understand you!\p"
+	.string "I will never become someone like\n"
+	.string "you.\p"
+	.string "A coward when you're alone and\n"
+	.string "acting like a tyrant when you're\l"
+	.string "in front of other cowards!\p"
+	.string "I will become strong!\p"
+	.string "I will become a stronger man all\n"
+	.string "by myself!$"
+#endif
 
 Route22_Text_Silver5:
+#if GERMAN
 	.string "Allein!$"
+#else
+	.string "ALL BY MYSELF!$"
+#endif
 
 Route22_Text_Silver6:
+#if GERMAN
 	.string "{RIVAL}: …Wieso starrst du?$"
+#else
+	.string "{RIVAL}: ... What are you staring at?$"
+#endif
 

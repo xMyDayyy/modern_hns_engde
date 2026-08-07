@@ -39,21 +39,41 @@ SevenIsland_Mart_EventScript_Fisher::
 	end
 
 SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn::
+#if GERMAN
 	.string "Pokémon haben genau wie\n"
 	.string "Menschen ihre eigene Persönlichkeit.\p"
 	.string "Mein Pikachu hat ein Hastiges\n"
 	.string "Wesen, also ist es ein schnelles\l"
 	.string "Pokémon.$"
+#else
+	.string "POKéMON have personalities of their\n"
+	.string "own, just like people.\p"
+	.string "My PIKACHU has a HASTY nature,\n"
+	.string "so it grew to be a speedy POKéMON.$"
+#endif
 
 SevenIsland_Mart_Text_PreparationsCompleteForRuins::
+#if GERMAN
 	.string "Gut, die Vorbereitungen sind\n"
 	.string "abgeschlossen. Ich kann die\l"
 	.string "Ruinen nun erforschen.$"
+#else
+	.string "Okay, preparations are complete\n"
+	.string "for me to explore the RUINS.$"
+#endif
 
 SevenIsland_Mart_Text_NeedToFishOnSevenIsland::
+#if GERMAN
 	.string "Ahh, ich habe endlich meinen\n"
 	.string "Kaffee bekommen!\p"
 	.string "Aber er war zu stark. Jetzt habe\n"
 	.string "ich Kopfschmerzen…\p"
 	.string "Hilft dir mein Lehrkanal?$"
+#else
+	.string "I need to fish on SEVEN ISLAND.\p"
+	.string "That will complete my fishing tour\n"
+	.string "of the SEVII ISLANDS.\p"
+	.string "I'd better stock up on some\n"
+	.string "POKé BALLS first, though.$"
+#endif
 

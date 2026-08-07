@@ -185,4 +185,8 @@ FarawayIsland_Interior_hns_EventScript_HideMewWhenGrassCut::
 	end
 
 FarawayIsland_Interior_hns_Text_TheFeelingOfBeingWatchedFaded:
+#if GERMAN
 	.string "Ich fühle mich nicht mehr beobachtet…$"
+#else
+	.string "The feeling of being watched faded…$"
+#endif

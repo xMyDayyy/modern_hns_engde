@@ -128,6 +128,11 @@ Route23_EventScript_VictoryRoadGateSign::
 	end
 
 Route23_Text_VictoryRoadGateSign::
+#if GERMAN
 	.string "Siegesstraße -\n"
 	.string "Pokémon Liga$"
+#else
+	.string "VICTORY ROAD GATE -\n"
+	.string "POKéMON LEAGUE$"
+#endif
 

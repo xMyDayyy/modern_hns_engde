@@ -287,10 +287,16 @@ Route103_EventScript_Isabelle::
 	end
 
 Route103_Text_MayRoute103Pokemon:
+#if GERMAN
 	.string "Maike: Mal seh’n… Das Pokémon von\n"
-	.string "Route 103 besitzt…$"
+	.string "{COLOR RED}Route 10{COLOR DARK_GRAY}3 besitzt…$"
+#else
+	.string "MAY: Let's see… The POKéMON found\n"
+	.string "on ROUTE 103 include…$"
+#endif
 
 Route103_Text_MayLetsBattle:
+#if GERMAN
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
 	.string "… Oh… Ich seh schon. Mein Vater hat\n"
 	.string "dir ein Pokémon geschenkt.\p"
@@ -298,13 +304,28 @@ Route103_Text_MayLetsBattle:
 	.string "doch kämpfen!\p"
 	.string "Ich gebe dir einen Vorgeschmack auf\n"
 	.string "das Leben als Trainer.$"
+#else
+	.string "Oh, hi, {PLAYER}{KUN}!\p"
+	.string "…Oh, I see, my dad gave you\n"
+	.string "a POKéMON as a gift.\p"
+	.string "Since we're here, let's have a quick\n"
+	.string "battle!\p"
+	.string "I'll give you a taste of what being\n"
+	.string "a TRAINER is like.$"
+#endif
 
 Route103_Text_MayDefeated:
+#if GERMAN
 	.string "Wow! Das war spitze!\n"
 	.string "{PLAYER}{KUN}, du bist ein\l"
 	.string "Naturtalent!$"
+#else
+	.string "Wow! That's great!\n"
+	.string "{PLAYER}{KUN}, you're pretty good!$"
+#endif
 
 Route103_Text_MayTimeToHeadBack:
+#if GERMAN
 	.string "Maike: Ich glaube, ich weiß jetzt,\n"
 	.string "warum\n"
 	.string "mein Vater dich ausgesucht hat.\p"
@@ -315,12 +336,28 @@ Route103_Text_MayTimeToHeadBack:
 	.string "jeder Art von Pokémon anzufreunden.\p"
 	.string "Nun wird es aber Zeit, zurück ins\n"
 	.string "Labor zu gehen!$"
+#else
+	.string "MAY: I think I know why my dad has\n"
+	.string "an eye out for you now.\p"
+	.string "I mean, you just got that POKéMON,\n"
+	.string "but it already likes you.\p"
+	.string "You might be able to befriend any\n"
+	.string "kind of POKéMON easily.\p"
+	.string "Well, it's time to head back to\n"
+	.string "the LAB.$"
+#endif
 
 Route103_Text_BrendanRoute103Pokemon:
+#if GERMAN
 	.string "Brix: So… Dieses und dieses leben an\n"
-	.string "der Route 103…$"
+	.string "der {COLOR RED}Route 10{COLOR DARK_GRAY}3…$"
+#else
+	.string "BRENDAN: Okay, so it's this one and\n"
+	.string "that one that live on ROUTE 103…$"
+#endif
 
 Route103_Text_BrendanLetsBattle:
+#if GERMAN
 	.string "Hey, da ist ja {PLAYER}!\p"
 	.string "… Oh ja. Mein Vater hat dir ein\n"
 	.string "Pokémon geschenkt, nicht wahr?\p"
@@ -328,12 +365,25 @@ Route103_Text_BrendanLetsBattle:
 	.string "doch einen kleinen Kampf austragen.\p"
 	.string "Ich bringe dir bei, was ein Trainer\n"
 	.string "wissen muss.$"
+#else
+	.string "Hey, it's {PLAYER}!\p"
+	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
+	.string "Since we're here, how about a little\n"
+	.string "battle?\p"
+	.string "I'll teach you what being a TRAINER's\n"
+	.string "about!$"
+#endif
 
 Route103_Text_BrendanDefeated:
+#if GERMAN
 	.string "Hey, {PLAYER}, das war gar nicht so\n"
 	.string "übel.$"
+#else
+	.string "Huh, {PLAYER}, you're not too shabby.$"
+#endif
 
 Route103_Text_BrendanTimeToHeadBack:
+#if GERMAN
 	.string "Brix: Ich denke, ich habe es kapiert.\n"
 	.string "Ich weiß jetzt, warum mein Vater dich\l"
 	.string "ausgesucht hat.\p"
@@ -344,19 +394,45 @@ Route103_Text_BrendanTimeToHeadBack:
 	.string "\p"
 	.string "Wir sollten nun zurück zum Labor\n"
 	.string "gehen.$"
+#else
+	.string "BRENDAN: I think I get it.\n"
+	.string "I think I know why my dad has his eye\l"
+	.string "out for you now.\p"
+	.string "Look, your POKéMON already likes you,\n"
+	.string "even though you just got it.\p"
+	.string "{PLAYER}, I get the feeling that you\n"
+	.string "could befriend any POKéMON with ease.\p"
+	.string "We should head back to the LAB.$"
+#endif
 
 Route103_Text_ShouldHaveBroughtPotion:
+#if GERMAN
 	.string "Mein Pokémon ist unglaublich müde…\n"
 	.string "Ich hätte einen Trank mitnehmen\l"
 	.string "sollen.$"
+#else
+	.string "My POKéMON is staggeringly tired…\n"
+	.string "I should have brought a POTION…$"
+#endif
 
 Route103_Text_ShortcutToOldale:
+#if GERMAN
 	.string "Wenn du von hier das Meer überquerst,\n"
 	.string "nimmst du eine Abkürzung nach\l"
 	.string "Rosaltstadt.\p"
 	.string "Hahaha, ist das kein praktischer Tipp?$"
+#else
+	.string "If you cross the sea from here,\n"
+	.string "it'll be a shortcut to OLDALE TOWN.\p"
+	.string "Fufufu, that's useful, isn't it?$"
+#endif
 
 Route103_Text_RouteSign:
+#if GERMAN
 	.string "Route 103\n"
 	.string "{DOWN_ARROW} Rosaltstadt$"
+#else
+	.string "ROUTE 103\n"
+	.string "{DOWN_ARROW} OLDALE TOWN$"
+#endif
 

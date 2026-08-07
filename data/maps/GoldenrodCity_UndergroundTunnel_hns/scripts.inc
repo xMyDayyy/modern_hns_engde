@@ -109,6 +109,7 @@ GoldenrodCity_UndergroundTunnel_Movement_Kimono_Leave2:
 
 
 GoldenrodCity_UndergroundTunnel_Text_Kimono1:
+#if GERMAN
 	.string "Diese schwarz beklufteten Damen und\n"
 	.string "Herren von Team Rocket scheinen\l"
 	.string "ja sehr beschäftigt zu sein…\p"
@@ -117,11 +118,25 @@ GoldenrodCity_UndergroundTunnel_Text_Kimono1:
 	.string "Ihr seid wirklich äußerst mutig!\p"
 	.string "Wenn Ihr so weitermacht, wird\n"
 	.string "das Legendäre Poké…$"
+#else
+	.string "Team Rocket members in black suits\n"
+	.string "have been running around...\p"
+	.string "I was wondering what was going on.\n"
+	.string "So, you took on Team Rocket?\l"
+	.string "You are impressive!\p"
+	.string "You may be able to face the\n"
+	.string "legendary POKé...$"
+#endif
 
 GoldenrodCity_UndergroundTunnel_Text_Kimono2:
+#if GERMAN
 	.string "Oh, hoho! Das habt Ihr jetzt aber\n"
 	.string "nicht gehört!\p"
 	.string "Wir sehen uns wieder!$"
+#else
+	.string "Hahaha! Never mind.\n"
+	.string "I must go now.$"
+#endif
 
 GoldenrodUnderground_EventScript_Eric::
 	trainerbattle_single TRAINER_ERIC_HNS, GoldenrodUnderground_Text_SupernerdEricSeen, GoldenrodUnderground_Text_SupernerdEricBeaten
@@ -321,35 +336,70 @@ GoldenrodCity_UndergroundTunnel_EventScript_Item_Antidote::
 
 
 GoldenrodUnderground_Text_YoungerBrotherOffer:
+#if GERMAN
 	.string "Willkommen im Pokémon-Salon!\p"
 	.string "Ich bin der jüngere und\n"
 	.string "preiswertere Coiffeur-Bruder.\p"
 	.string "Ich verschönere dein Pokémon\n"
 	.string "für nur ¥300.\p"
 	.string "Also? Wie wär’s?$"
+#else
+    .string "Welcome to the POKéMON SALON!\p"
+    .string "I'm the younger and less expensive\n"
+    .string "of the two HAIRCUT BROTHERS.\p"
+    .string "I'll spiff up your POKéMON for just\n"
+    .string "¥300.\p"
+    .string "So? How about it?$"
+#endif
 
 GoldenrodUnderground_Text_YoungerBrotherAskWhich:
+#if GERMAN
 	.string "Welches Pokémon soll ich machen?$"
+#else
+    .string "OK, which POKéMON should I do?$"
+#endif
 
 GoldenrodUnderground_Text_YoungerBrotherLookCool:
+#if GERMAN
 	.string "O.K.! Es wird cool aussehen!$"
+#else
+    .string "OK! I'll make it look cool!$"
+#endif
 
 GoldenrodUnderground_Text_YoungerBrotherAllDone:
+#if GERMAN
 	.string "Bitte schön! Fertig!$"
+#else
+    .string "There we go! All done!$"
+#endif
 
 GoldenrodUnderground_Text_YoungerBrotherDisappointed:
+#if GERMAN
 	.string "Nein? Wie schade!$"
+#else
+    .string "No? How disappointing!$"
+#endif
 
 GoldenrodUnderground_Text_YoungerBrotherShortOnFunds:
+#if GERMAN
 	.string "Du hast nicht genügend Geld.$"
+#else
+    .string "You're a little short on funds.$"
+#endif
 
 GoldenrodUnderground_Text_YoungerBrotherOnePerDay:
+#if GERMAN
 	.string "Ich mache nur einen Haarschnitt\n"
 	.string "pro Tag; für heute bin ich fertig.$"
+#else
+    .string "I can do only one haircut a day.\p"
+    .string "Sorry, but I'm all done for today.$"
+#endif
 
 
 
 GoldenrodUnderground_Text_OlderBrotherOffer:
+#if GERMAN
 	.string "Willkommen!\p"
 	.string "Ich leite den Pokémon-Salon!\p"
 	.string "Ich bin der ältere und bessere\n"
@@ -357,91 +407,211 @@ GoldenrodUnderground_Text_OlderBrotherOffer:
 	.string "Ich verschönere dein Pokémon\n"
 	.string "für nur ¥500.\p"
 	.string "Soll ich anfangen?$"
+#else
+    .string "Welcome!\p"
+    .string "I run the POKéMON SALON!\p"
+    .string "I'm the older and better of the two\n"
+    .string "HAIRCUT BROTHERS.\p"
+    .string "I can make your POKéMON beautiful\n"
+    .string "for just ¥500.\p"
+    .string "Would you like me to do that?$"
+#endif
 
 GoldenrodUnderground_Text_OlderBrotherAskWhich:
+#if GERMAN
 	.string "Bei welchem Pokémon soll ich\n"
 	.string "Hand anlegen?$"
+#else
+    .string "Which POKéMON should I work on?$"
+#endif
 
 GoldenrodUnderground_Text_OlderBrotherWatchItBeautiful:
+#if GERMAN
 	.string "Alles klar! Du wirst deinen Augen nicht\n"
 	.string "trauen!$"
+#else
+    .string "OK! Watch it become beautiful!$"
+#endif
 
 GoldenrodUnderground_Text_OlderBrotherAllDone:
+#if GERMAN
 	.string "Hier! Fertig!$"
+#else
+    .string "There! All done!$"
+#endif
 
 GoldenrodUnderground_Text_OlderBrotherThatsAShame:
+#if GERMAN
 	.string "Wenn du meinst. Zu schade.$"
+#else
+    .string "Is that right? That's a shame!$"
+#endif
 
 GoldenrodUnderground_Text_OlderBrotherNeedMoreMoney:
+#if GERMAN
 	.string "Du hast nicht genügend Geld.$"
+#else
+    .string "You'll need more money than that.$"
+#endif
 
 GoldenrodUnderground_Text_OlderBrotherOnePerDay:
+#if GERMAN
 	.string "Ich mache nur einen Haarschnitt\n"
 	.string "pro Tag; für heute bin ich fertig.$"
+#else
+    .string "I do only one haircut a day.\n"
+    .string "I'm done for today.$"
+#endif
 
 GoldenrodUnderground_Text_SupernerdEricSeen:
+#if GERMAN
 	.string "Ich wurde aus der Spielhalle\n"
 	.string "geworfen.\p"
 	.string "Ich wollte mit Pokémon betrügen…$"
+#else
+    .string "I got booted out of the GAME CORNER.\p"
+    .string "I was trying to cheat using my\n"
+    .string "POKéMON…$"
+#endif
 
 GoldenrodUnderground_Text_SupernerdEricBeaten:
+#if GERMAN
 	.string "…Grummel…$"
+#else
+    .string "…Grumble…$"
+#endif
 
 GoldenrodUnderground_Text_SupernerdEricAfterBattle:
+#if GERMAN
 	.string "Vielleicht spiele ich in Zukunft doch\n"
 	.string "lieber fair…$"
+#else
+    .string "I guess I have to do things fair and\n"
+    .string "square…$"
+#endif
 
 GoldenrodUnderground_Text_SupernerdTeruSeen:
+#if GERMAN
 	.string "Denkst du bei Kämpfen an Typen?\p"
 	.string "Wenn du deine Vorteile kennst,\n"
 	.string "wirst du besser kämpfen.$"
+#else
+    .string "Do you consider type alignments in\n"
+    .string "battle?\p"
+    .string "If you know your type advantages,\n"
+    .string "you'll do better in battle.$"
+#endif
 
 GoldenrodUnderground_Text_SupernerdTeruBeaten:
+#if GERMAN
 	.string "Aua, aua, aua!$"
+#else
+    .string "Ow, ow, ow!$"
+#endif
 
 GoldenrodUnderground_Text_SupernerdTeruAfterBattle:
+#if GERMAN
 	.string "Ich kenne die Typ-Vorteile.\p"
 	.string "Aber ich nutze nur einen Typ.$"
+#else
+    .string "I know my POKéMON type alignments.\p"
+    .string "But I only use one type of POKéMON.$"
+#endif
 
 GoldenrodUnderground_Text_PokemaniacIssacSeen:
+#if GERMAN
 	.string "Mein Pokémon kommt frisch vom\n"
 	.string "Coiffeur! Ich zeige dir, wie stark es\l"
 	.string "ist!$"
+#else
+    .string "My POKéMON just got a haircut!\p"
+    .string "I'll show you how strong it is!$"
+#endif
 
 GoldenrodUnderground_Text_PokemaniacIssacBeaten:
+#if GERMAN
 	.string "Aaargh!$"
+#else
+    .string "Aiyeeee!$"
+#endif
 
 GoldenrodUnderground_Text_PokemaniacIssacAfterBattle:
+#if GERMAN
 	.string "Deine Pokémon werden zutraulicher,\n"
 	.string "wenn du sie zum Coiffeur bringst.$"
+#else
+    .string "Your POKéMON will like you more if\n"
+    .string "you give them haircuts.$"
+#endif
 
 GoldenrodUnderground_Text_PokemaniacDonaldSeen:
+#if GERMAN
 	.string "Du hast doch todsicher ein paar seltene\n"
 	.string "Pokémon dabei. Zeig mal her!$"
+#else
+    .string "I think you have some rare POKéMON\n"
+    .string "with you.\p"
+    .string "Let me see them!$"
+#endif
 
 GoldenrodUnderground_Text_PokemaniacDonaldBeaten:
+#if GERMAN
 	.string "Gaah! Ich verlor! Wie ärgerlich!$"
+#else
+    .string "Gaah! I lost! That makes me mad!$"
+#endif
 
 GoldenrodUnderground_Text_PokemaniacDonaldAfterBattle:
+#if GERMAN
 	.string "Gestern Abend beim Fahrradladen\n"
 	.string "fühlte ich mich von den Dächern\l"
 	.string "beobachtet…$"
+#else
+	.string "When I was walking near the BIKE\n"
+	.string "SHOP last night, I felt like I was\l"
+	.string "being watched from the rooftops...$"
+#endif
 
 GoldenrodUnderground_Text_PokemaniacDonaldAfterBattleOld:
-	.string "Sammelst du für den Pokédex?\p"
-	.string "Tipp: Der Wanderer auf Route 33,\n"
+#if GERMAN
+	.string "Sammelst du für den {COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
+	.string "Tipp: Der Wanderer auf {COLOR RED}Route 33{COLOR DARK_GRAY},\n"
 	.string "Tom, ist nett.\p"
 	.string "Er ruft dich, wenn er seltene\n"
 	.string "Pokémon sieht.$"
+#else
+    .string "Are you making a POKéDEX? Here's a\n"
+    .string "hot tip.\p"
+    .string "The HIKER on ROUTE 33, ANTHONY, is a\n"
+    .string "good guy.\p"
+    .string "He'll phone you if he sees any rare\n"
+    .string "POKéMON.$"
+#endif
 
 GoldenrodUnderground_Text_DoorsLocked:
+#if GERMAN
 	.string "Die Tür ist verschlossen…$"
+#else
+    .string "The door's locked…$"
+#endif
 
 GoldenrodUnderground_Text_DoorIsOpen:
+#if GERMAN
 	.string "Die Tür ist entriegelt.$"
+#else
+    .string "The door is open.$"
+#endif
 
 GoldenrodUnderground_Text_KeyOpenedDoor:
-	.string "Kelleröffner entriegelt die Tür.$"
+#if GERMAN
+	.string "{COLOR RED}Kelleröffner{COLOR DARK_GRAY} entriegelt die Tür.$"
+#else
+    .string "The BASEMENT KEY opened the door.$"
+#endif
 
 GoldenrodUnderground_Text_NoEntry:
+#if GERMAN
 	.string "Bis hierher und nicht weiter$"
+#else
+    .string "NO ENTRY BEYOND THIS POINT$"
+#endif

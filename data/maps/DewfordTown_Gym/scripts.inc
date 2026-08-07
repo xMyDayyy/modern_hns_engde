@@ -283,6 +283,7 @@ DewfordTown_Gym_EventScript_GymStatue::
 	end
 
 DewfordTown_Gym_Text_GymGuideAdvice:
+#if GERMAN
 	.string "Na, wie sieht es aus, auf dem Weg zum\n"
 	.string "Champ, {PLAYER}?\p"
 	.string "Faustauhavens Arenaleiter Kamillo\n"
@@ -299,35 +300,82 @@ DewfordTown_Gym_Text_GymGuideAdvice:
 	.string "Weg zum Arenaleiter besiegst, wird sie\l"
 	.string "heller!\p"
 	.string "Also, dann leg mal los!$"
+#else
+	.string "Hey, how's it going, CHAMPION-\n"
+	.string "bound {PLAYER}?\p"
+	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
+	.string "FIGHTING-type POKéMON.\p"
+	.string "Going against him with NORMAL-type\n"
+	.string "POKéMON is asking for trouble.\p"
+	.string "FIGHTING POKéMON will lay a serious\n"
+	.string "smack down on NORMAL POKéMON,\l"
+	.string "so be careful!\p"
+	.string "What's worse, the GYM is as dark as\n"
+	.string "the ocean floor.\p"
+	.string "But it will get brighter after defeating\n"
+	.string "the TRAINERS in your way.\p"
+	.string "Hey, okay, go for it!$"
+#endif
 
 DewfordTown_Gym_Text_GymGuidePostVictory:
+#if GERMAN
 	.string "Huuh!\n"
 	.string "Das ist mir hier aber schon zu hell!\p"
 	.string "Deine Zukunft wird strahlend hell\n"
 	.string "sein!$"
+#else
+	.string "Whoah! It's turned too bright in here!\p"
+	.string "Your future is bright, too!$"
+#endif
 
 DewfordTown_Gym_Text_TakaoIntro:
+#if GERMAN
 	.string "Die Macht bestimmt alles!\n"
 	.string "Komm schon!$"
+#else
+	.string "Might is right!\n"
+	.string "Come on!$"
+#endif
 
 DewfordTown_Gym_Text_TakaoDefeat:
+#if GERMAN
 	.string "Nicht genug Macht…$"
+#else
+	.string "Not enough power…$"
+#endif
 
 DewfordTown_Gym_Text_TakaoPostBattle:
+#if GERMAN
 	.string "Gegen dein Talent ist meine Macht\n"
 	.string "machtlos. Deine Technik ist super!$"
+#else
+	.string "Your skill overcame my strength!\n"
+	.string "Your technique is commendable!$"
+#endif
 
 DewfordTown_Gym_Text_JocelynIntro:
+#if GERMAN
 	.string "Man muss doch Kamillo nicht mit so\n"
 	.string "etwas Nichtigem belästigen!\p"
 	.string "Ich mache dich fertig!$"
+#else
+	.string "There's no need for BRAWLY to be\n"
+	.string "involved!\p"
+	.string "I'll crush you!$"
+#endif
 
 DewfordTown_Gym_Text_JocelynDefeat:
+#if GERMAN
 	.string "Aber… Wie…?\n"
 	.string "Wie konnte ich nur so schnell\l"
 	.string "verlieren?$"
+#else
+	.string "But… How?\n"
+	.string "How could I lose so easily?$"
+#endif
 
 DewfordTown_Gym_Text_JocelynPostBattle:
+#if GERMAN
 	.string "Ich werde diese Niederlage nicht ab-\n"
 	.string "haken. Sie wird mich beim Training\l"
 	.string "motivieren!\p"
@@ -335,60 +383,130 @@ DewfordTown_Gym_Text_JocelynPostBattle:
 	.string "Arenaleiter sein!\p"
 	.string "Nein! Ich werde der Champ der\n"
 	.string "Pokémon Liga!$"
+#else
+	.string "I'm not going to waste this loss.\n"
+	.string "I'll use it to motivate me to train!\p"
+	.string "One day I'll become a GYM LEADER…\p"
+	.string "No, I'll become the POKéMON LEAGUE\n"
+	.string "CHAMPION!$"
+#endif
 
 DewfordTown_Gym_Text_LauraIntro:
+#if GERMAN
 	.string "Du forderst mich heraus? Dann wundere\n"
 	.string "dich nicht, wenn du weinst wie ein\l"
 	.string "Baby!$"
+#else
+	.string "Don't you dare brush me off!\n"
+	.string "It's not my fault if you cry!$"
+#endif
 
 DewfordTown_Gym_Text_LauraDefeat:
+#if GERMAN
 	.string "Waaaaahaaaaaa!\n"
 	.string "Schluchz! Schnief! Ich habe\l"
 	.string "verloooren!$"
+#else
+	.string "Waaaaaaah!\n"
+	.string "I lost!$"
+#endif
 
 DewfordTown_Gym_Text_LauraPostBattle:
+#if GERMAN
 	.string "Ich kämpfe im Dunkeln, das macht mich\n"
 	.string "mutiger und trainiert mein Herz.\p"
 	.string "Weil es hier so dunkel ist, habe ich\n"
 	.string "noch\l"
 	.string "nie das Gesicht von Kamillo gesehen.$"
+#else
+	.string "I battle in the dark to make my heart\n"
+	.string "stronger.\p"
+	.string "But because it's so dark, I can never\n"
+	.string "see BRAWLY's face…$"
+#endif
 
 DewfordTown_Gym_Text_LilithIntro:
+#if GERMAN
 	.string "Huhuhu…\n"
 	.string "Was stolperst du im Dunklen herum?$"
+#else
+	.string "Ufufu…\n"
+	.string "Are you stumbling around in the dark?$"
+#endif
 
 DewfordTown_Gym_Text_LilithDefeat:
+#if GERMAN
 	.string "Ach, du… Ich habe kein\n"
 	.string "Interesse, dich kennen zu lernen.$"
+#else
+	.string "Oh, you…\n"
+	.string "I don't want to know you!$"
+#endif
 
 DewfordTown_Gym_Text_LilithPostBattle:
+#if GERMAN
 	.string "Du verdienst eine Niederlage, damit du\n"
 	.string "wieder von vorne anfangen musst.$"
+#else
+	.string "You deserve to stay lost and end up\n"
+	.string "back at the entrance again!$"
+#endif
 
 DewfordTown_Gym_Text_BrendenIntro:
+#if GERMAN
 	.string "Ich zeige dir, wie viel Köpfchen ein\n"
 	.string "Seemann hat!$"
+#else
+	.string "I'll show you the gumption of\n"
+	.string "a sailing man!$"
+#endif
 
 DewfordTown_Gym_Text_BrendenDefeat:
+#if GERMAN
 	.string "Wie konnte das nur passieren? Es ist\n"
 	.string "nicht meine Art, einfach zu verlieren.$"
+#else
+	.string "How'd this happen?\n"
+	.string "It's not like me to lose this way!$"
+#endif
 
 DewfordTown_Gym_Text_BrendenPostBattle:
+#if GERMAN
 	.string "Ahoi! Du bist es wert, unserem\n"
 	.string "Arenaleiter vorgestellt zu werden.$"
+#else
+	.string "Oh, aye! You're worthy of seeing\n"
+	.string "our GYM LEADER.$"
+#endif
 
 DewfordTown_Gym_Text_CristianIntro:
+#if GERMAN
 	.string "Wenn du hier vorbei willst, musst du\n"
 	.string "erst an mir vorbei!$"
+#else
+	.string "If you mean to pass, it has to be\n"
+	.string "through me!$"
+#endif
 
 DewfordTown_Gym_Text_CristianDefeat:
+#if GERMAN
 	.string "Grrrr! Ich wurde einfach überwältigt!$"
+#else
+	.string "Grrrrr!\n"
+	.string "Vastly overpowered!$"
+#endif
 
 DewfordTown_Gym_Text_CristianPostBattle:
+#if GERMAN
 	.string "Du hast gewonnen!\n"
 	.string "Hol dir den Orden!$"
+#else
+	.string "You win!\n"
+	.string "Go after that BADGE!$"
+#endif
 
 DewfordTown_Gym_Text_BrawlyIntro:
+#if GERMAN
 	.string "Ich bin Kamillo!\n"
 	.string "Der Arenaleiter von Faustauhaven!\p"
 	.string "Ich habe die wilden Strudel dieser\n"
@@ -396,20 +514,43 @@ DewfordTown_Gym_Text_BrawlyIntro:
 	.string "pechschwarzen Höhle stark geworden.\p"
 	.string "Du willst mich wirklich herausfordern?\n"
 	.string "Dann zeig mir, woraus du gemacht bist!$"
+#else
+	.string "I'm BRAWLY!\n"
+	.string "DEWFORD's GYM LEADER!\p"
+	.string "I've been churned in the rough waves\n"
+	.string "of these parts, and I've grown tough\l"
+	.string "in the pitch-black cave!\p"
+	.string "So you wanted to challenge me?\n"
+	.string "Let me see what you're made of!$"
+#endif
 
 DewfordTown_Gym_Text_BrawlyDefeat:
+#if GERMAN
 	.string "Huihuihui! Du hast eine größere Welle\n"
 	.string "produziert, als ich dir zugetraut\n"
 	.string "hätte. \p"
 	.string "Du hast mich absaufen lassen!\p"
 	.string "Okay, du hast mich erwischt!\n"
 	.string "Nimm den Orden dieser Arena!$"
+#else
+	.string "Whoah, wow! You made a much bigger\n"
+	.string "splash than I expected!\p"
+	.string "You swamped me!\p"
+	.string "Okay, you've got me.\n"
+	.string "Take this GYM BADGE!$"
+#endif
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
+#if GERMAN
 	.string "{PLAYER} erhält den Knöchelorden von\n"
 	.string "Kamillo.$"
+#else
+	.string "{PLAYER} received the KNUCKLE BADGE\n"
+	.string "from BRAWLY.$"
+#endif
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
+#if GERMAN
 	.string "Dank des Knöchelordens werden dir alle\n"
 	.string "Pokémon bis Level 30 gehorchen, auch\l"
 	.string "die, die du durch Tausch erhalten\n"
@@ -418,48 +559,106 @@ DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 	.string "außerhalb eines Kampfes anwenden.\p"
 	.string "Und wenn du magst, kannst du auch\n"
 	.string "diese Technische Maschine anwenden.$"
+#else
+	.string "The KNUCKLE BADGE makes all POKéMON\n"
+	.string "up to Level 30, even those you get in\l"
+	.string "trades, obey without question.\p"
+	.string "And, you'll be able to use the HM move\n"
+	.string "FLASH outside of battle.\p"
+	.string "If you'd like, use this TECHNICAL\n"
+	.string "MACHINE, too.$"
+#endif
 
 DewfordTown_Gym_Text_ExplainBulkUp:
+#if GERMAN
 	.string "Die TM08 enthält Protzer.\p"
 	.string "Diese Attacke hebt den Status des\n"
 	.string "Angriffs und der Verteidigung.\p"
 	.string "… … … … … …$"
+#else
+	.string "That TM08 contains BULK UP.\p"
+	.string "It's a move that raises both ATTACK\n"
+	.string "and DEFENSE stats.\p"
+	.string "… … … … … …$"
+#endif
 
 DewfordTown_Gym_Text_RegisteredBrawly:
+#if GERMAN
 	.string "Arenaleiter Kamillo wurde\n"
 	.string "im Pokénav eingetragen.$"
+#else
+	.string "Registered GYM LEADER BRAWLY\n"
+	.string "in the POKéNAV.$"
+#endif
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
+#if GERMAN
 	.string "Ich sehe in dir ein Talent, das eines\n"
 	.string "Tages zu einer riesigen Welle wird und\l"
 	.string "einen Sturm des Erstaunens bei anderen\l"
 	.string "Trainern entfachen wird!$"
+#else
+	.string "I can see your talent becoming a giant\n"
+	.string "wave to cause a storm of astonishment\l"
+	.string "among TRAINERS one day!$"
+#endif
 
 DewfordTown_Gym_Text_GymStatue:
+#if GERMAN
 	.string "Pokémon Arena von Faustauhaven$"
+#else
+	.string "DEWFORD TOWN POKéMON GYM$"
+#endif
 
 DewfordTown_Gym_Text_GymStatueCertified:
+#if GERMAN
 	.string "Pokémon Arena von Faustauhaven\p"
 	.string "Kamillos anerkannte Trainer:\n"
 	.string "{PLAYER}$"
+#else
+	.string "DEWFORD TOWN POKéMON GYM\p"
+	.string "BRAWLY'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
+#endif
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
+#if GERMAN
 	.string "Kamillo: Eine Welle kann sich zurück-\n"
 	.string "ziehen, wird aber immer wieder an\l"
 	.string "Land zurückkommen.\p"
 	.string "Ein riesiges Talent wie du…\n"
 	.string "Ich wusste, du würdest wiederkommen.\p"
 	.string "Zeig mir, wie gut du geworden bist.$"
+#else
+	.string "BRAWLY: A wave may draw back, but it\n"
+	.string "always returns to the shore.\p"
+	.string "A giant wave of a talent like you…\n"
+	.string "I knew you would return!\p"
+	.string "Show me how much higher\n"
+	.string "you've gone!$"
+#endif
 
 DewfordTown_Gym_Text_BrawlyRematchDefeat:
+#if GERMAN
 	.string "Und wieder wurde ich fortgespült.$"
+#else
+	.string "Wow!\n"
+	.string "Swamped again!$"
+#endif
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
+#if GERMAN
 	.string "Kamillo: Kämpfe sind wild und tief wie\n"
 	.string "die See. Du siehst kein Land.\l"
 	.string "Wie das Meer um Hoenn.$"
+#else
+	.string "BRAWLY: Battling is vast and it's deep.\n"
+	.string "You can't see the bottom.\l"
+	.string "It's just like the sea of HOENN!$"
+#endif
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
+#if GERMAN
 	.string "Kamillo: Eine Welle kann sich zurück-\n"
 	.string "ziehen, wird aber immer wieder an\l"
 	.string "Land zurückkommen.\p"
@@ -470,3 +669,13 @@ DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "Tut mir Leid, aber ich trete nur gegen\n"
 	.string "dich an, wenn du mindestens zwei\l"
 	.string "Pokémon hast.$"
+#else
+	.string "BRAWLY: A wave may draw back, but it\n"
+	.string "always returns to the shore.\p"
+	.string "A giant wave of a talent like you…\n"
+	.string "I knew you would return!\p"
+	.string "Oh? You only have one POKéMON\n"
+	.string "that can battle.\p"
+	.string "I'm sorry, but I'd like you to come back\n"
+	.string "with at least two POKéMON.$"
+#endif

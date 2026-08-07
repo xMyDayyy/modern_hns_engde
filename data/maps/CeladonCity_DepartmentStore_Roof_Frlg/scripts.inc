@@ -281,87 +281,188 @@ CeladonCity_DepartmentStore_Roof_EventScript_ExitVendingMachine::
 	end
 
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink::
+#if GERMAN
 	.string "Ich bin durstig!\n"
 	.string "Ich möchte etwas trinken!\p"
 	.string "{FONT_NORMAL}Gibst du dem Mädchen ein Getränk?$"
+#else
+	.string "I'm thirsty!\n"
+	.string "I want something to drink!\p"
+	.string "{FONT_NORMAL}Give her a drink?$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink::
+#if GERMAN
 	.string "Welches Getränk gibst du ihr?$"
+#else
+	.string "Give her which drink?$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis::
+#if GERMAN
 	.string "Ja!\p"
 	.string "Tafelwasser!\p"
 	.string "Vielen Dank!\n"
 	.string "Nimm bitte dieses Geschenk!$"
+#else
+	.string "Yay!\p"
+	.string "FRESH WATER!\p"
+	.string "Thank you!\n"
+	.string "You can have this from me!$"
+#endif
 
 Text_ReceivedItemFromLittleGirl::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "{STR_VAR_2}!$"
+#else
+	.string "{PLAYER} received a {STR_VAR_2}\n"
+	.string "from the little girl.$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM16::
+#if GERMAN
 	.string "TM16 ist Lichtschild!\p"
 	.string "Damit schwächst du die gegne-\n"
 	.string "rischen Spezial-Attacken.$"
+#else
+	.string "TM16 contains LIGHT SCREEN.\p"
+	.string "It's a move that weakens the power\n"
+	.string "of special attacks by your foe.$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis::
+#if GERMAN
 	.string "Cool!\p"
 	.string "Sprudel!\p"
 	.string "Vielen Dank!\n"
 	.string "Nimm bitte dieses Geschenk!$"
+#else
+	.string "Yay!\p"
+	.string "SODA POP!\p"
+	.string "Thank you!\n"
+	.string "You can have this from me!$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM20::
+#if GERMAN
 	.string "TM20 ist Bodyguard!\p"
 	.string "Diese Attacke verhindert\n"
 	.string "Statusprobleme bei deinen\l"
 	.string "Pokémon!$"
+#else
+	.string "TM20 contains SAFEGUARD.\p"
+	.string "It's a move that prevents status\n"
+	.string "problems among your POKéMON.$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
+#if GERMAN
 	.string "Cool!\p"
 	.string "Limonade!\p"
 	.string "Vielen Dank!\n"
 	.string "Nimm bitte dieses Geschenk!$"
+#else
+	.string "Yay!\p"
+	.string "LEMONADE!\p"
+	.string "Thank you!\n"
+	.string "You can have this from me!$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM33::
+#if GERMAN
 	.string "TM33 ist Reflektor!\p"
 	.string "Diese Attacke schwächt\n"
 	.string "physische Angriffe des Gegners.$"
+#else
+	.string "TM33 contains REFLECT.\p"
+	.string "It's a move that weakens the power\n"
+	.string "of physical attacks by your foe.$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_DontHaveSpaceForThis::
+#if GERMAN
 	.string "Du hast keinen Platz dafür!$"
+#else
+	.string "You don't have space for this!$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll::
+#if GERMAN
 	.string "Das ist nett gemeint, aber ich habe\n"
 	.string "keinen Durst!$"
+#else
+	.string "No, thank you!\n"
+	.string "I'm not thirsty after all!$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature::
+#if GERMAN
 	.string "Ob du es glaubst oder nicht: Meine\n"
 	.string "Schwester ist eine Trainerin!\p"
 	.string "Aber sie ist so kindisch! Ich werde\n"
 	.string "noch ganz verrückt!$"
+#else
+	.string "My sister is a TRAINER, believe it\n"
+	.string "or not.\p"
+	.string "But, she's so immature, she drives\n"
+	.string "me nuts!$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink::
+#if GERMAN
 	.string "Ich bin durstig!\n"
 	.string "Ein Königreich für ein Getränk!$"
+#else
+	.string "I'm thirsty!\n"
+	.string "I want something to drink!$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_FloorSign::
+#if GERMAN
 	.string "Dachgarten:\n"
 	.string "Automaten$"
+#else
+	.string "ROOFTOP SQUARE:\n"
+	.string "VENDING MACHINES$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave::
+#if GERMAN
 	.string "Ein Automat!\n"
 	.string "Zur Auswahl stehen:$"
+#else
+	.string "A vending machine!\n"
+	.string "What does it have?$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney::
+#if GERMAN
 	.string "Ups, nicht genug Geld!$"
+#else
+	.string "Oops, not enough money!$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut::
+#if GERMAN
 	.string "Eine Flasche {STR_VAR_1} liegt im\n"
 	.string "Schacht!$"
+#else
+	.string "A can of {STR_VAR_1} popped out!$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_NoMoreRoomForStuff::
+#if GERMAN
 	.string "Du kannst keine weiteren Items\n"
 	.string "tragen!$"
+#else
+	.string "There's no more room for stuff!$"
+#endif
 
 CeladonCity_DepartmentStore_Roof_Text_NotThirsty::
+#if GERMAN
 	.string "Kein Durst!$"
+#else
+	.string "Not thirsty!$"
+#endif
 

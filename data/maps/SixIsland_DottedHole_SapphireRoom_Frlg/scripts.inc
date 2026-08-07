@@ -239,14 +239,25 @@ SixIsland_DottedHole_SapphireRoom_EventScript_BrailleMessage::
 	end
 
 SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire::
+#if GERMAN
 	.string "{PLAYER} hat den Saphir gefunden!$"
+#else
+	.string "{PLAYER} found a SAPPHIRE!$"
+#endif
 
 SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou::
+#if GERMAN
 	.string "Fufu… fufufufu…\n"
 	.string "Ich habe richtig geraten.\p"
 	.string "Ich tat gut daran, dir zu folgen!$"
+#else
+	.string "Fufu… Fufufufu…\n"
+	.string "I guessed right.\p"
+	.string "I was right in tailing you!$"
+#endif
 
 SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword::
+#if GERMAN
 	.string "Ich wusste, dass es hier einen\n"
 	.string "Saphir gibt, also gehört er mir!\p"
 	.string "Ich verkaufe ihn für viel Geld an\n"
@@ -259,7 +270,23 @@ SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword::
 	.string "Passwörter für das Lager\l"
 	.string "von Team Rocket.\l"
 	.string "Das Passwort, das ich kenne, lautet\l"
-	.string "“Makuhita Atihu kam”.\p"
+	.string "“{COLOR RED}Makuhita{COLOR DARK_GRAY} Atihu kam”.\p"
 	.string "Vorbei.\n"
 	.string "Nichts für ungut!$"
+#else
+	.string "I knew that there was a SAPPHIRE\n"
+	.string "here, so it belongs to me!\p"
+	.string "I'll sell it to TEAM ROCKET for\n"
+	.string "serious money.\p"
+	.string "…D-don't glare at me like that!\p"
+	.string "If you want it back, why don't you\n"
+	.string "go get it after I sell it?\p"
+	.string "I'll even tell you one of the\n"
+	.string "passwords to TEAM ROCKET's\l"
+	.string "WAREHOUSE.\p"
+	.string "The WAREHOUSE password I know is\n"
+	.string "“Yes, nah, CHANSEY.”\p"
+	.string "I'm done.\n"
+	.string "Don't think badly of me!$"
+#endif
 

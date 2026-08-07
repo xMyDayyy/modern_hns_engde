@@ -35,24 +35,51 @@ OldSeaMap_Obtained:
 	end
 
 sText_MysteryGiftOldSeaMapForYou:
+#if GERMAN
 	.string "Danke, dass du das Geheim-\n"
 	.string "geschehen benutzt hast.\p"
 	.string "Du musst {PLAYER} sein.\n"
 	.string "Hier ist eine alte Karte für dich!$"
+#else
+	.string "Thank you for using the MYSTERY\n"
+	.string "GIFT System.\p"
+	.string "Let me confirm--you are {PLAYER}?\p"
+	.string "We received this OLD SEA MAP\n"
+	.string "addressed to you.$"
+#endif
 
 sText_MysteryGiftOldSeaMapUseAtPort:
+#if GERMAN
 	.string "Du kannst sie am Hafen von\n"
 	.string "Seegrasulb City einsetzen.\p"
 	.string "Warum probierst du es nicht\n"
 	.string "einfach aus?$"
+#else
+	.string "It appears to be for use at the\n"
+	.string "LILYCOVE CITY port.\p"
+	.string "Why not give it a try and see what\n"
+	.string "it is about?$"
+#endif
 
 sText_MysteryGiftOldSeaMapThankYou:
+#if GERMAN
 	.string "Danke, dass du das Geheim-\n"
 	.string "geschehen benutzt hast!$"
+#else
+	.string "Thank you for using the MYSTERY\n"
+	.string "GIFT System.$"
+#endif
 
 sText_MysteryGiftOldSeaMapBagFull:
+#if GERMAN
 	.string "Oh, es tut mir Leid, {PLAYER}! Die\n"
 	.string "Basis-Item-Tasche in deinem\l"
 	.string "Beutel ist voll.\l"
 	.string "Lagere etwas auf deinem PC und\l"
 	.string "komme anschließend zurück.$"
+#else
+	.string "Oh, I'm sorry, {PLAYER}.\n"
+	.string "Your BAG's KEY ITEMS POCKET is full.\p"
+	.string "Please store something on your PC,\n"
+	.string "then come back for this.$"
+#endif

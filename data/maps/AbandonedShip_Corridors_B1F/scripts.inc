@@ -54,34 +54,72 @@ AbandonedShip_Corridors_B1F_EventScript_Duncan::
 	end
 
 AbandonedShip_Corridors_B1F_Text_DuncanIntro:
+#if GERMAN
 	.string "Wenn wir zur See fahren, nehmen wir\n"
 	.string "Matrosen immer unsere Pokémon mit.\l"
 	.string "Wie wäre es mit einem schnellen Kampf?$"
+#else
+	.string "When we go out to sea, we SAILORS\n"
+	.string "always bring our POKéMON.\l"
+	.string "How about a quick battle?$"
+#endif
 
 AbandonedShip_Corridors_B1F_Text_DuncanDefeat:
+#if GERMAN
 	.string "Huups, da bin ich abgesoffen.$"
+#else
+	.string "Whoops, I'm sunk!$"
+#endif
 
 AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
+#if GERMAN
 	.string "Der Schiffsrumpf liegt tief unter der\n"
 	.string "Wasserlinie.\p"
 	.string "Wenn ein Pokémon wissen würde, wie\n"
 	.string "man taucht, würden wir Fortschritte\l"
 	.string "machen.$"
+#else
+	.string "The ship's bottom has sunk into the\n"
+	.string "depths.\p"
+	.string "If a POKéMON knew how to go underwater,\n"
+	.string "we might make some progress…$"
+#endif
 
 AbandonedShip_Corridors_B1F_Text_YayItsAShip:
+#if GERMAN
 	.string "Jahaa! Ein Schiff!$"
+#else
+	.string "Yay!\n"
+	.string "It's a ship!$"
+#endif
 
 AbandonedShip_Corridors_B1F_Text_DoorIsLocked:
+#if GERMAN
 	.string "Die Tür ist verschlossen.\p"
 	.string "“Lager” steht auf dem Schild.$"
+#else
+	.string "The door is locked.\p"
+	.string "“STORAGE” is painted on the door.$"
+#endif
 
 AbandonedShip_Corridors_B1F_Text_InsertedStorageKey:
+#if GERMAN
 	.string "{PLAYER} steckt den Schlüssel zum\n"
 	.string "Lager ins Schlüsselloch und dreht ihn.\n"
 	.string "\p"
 	.string "Der Schlüssel ist schwergängig, aber\n"
 	.string "das Schloss lässt sich öffnen.$"
+#else
+	.string "{PLAYER} inserted and turned the\n"
+	.string "STORAGE KEY.\p"
+	.string "The inserted KEY stuck fast,\n"
+	.string "but the door opened.$"
+#endif
 
 AbandonedShip_Text_TheDoorIsOpen:
+#if GERMAN
 	.string "Die Tür ist offen.$"
+#else
+	.string "The door is open.$"
+#endif
 

@@ -119,6 +119,7 @@ VictoryRoad_1F_EventScript_Katelynn::
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
+#if GERMAN
 	.string "Heiko: Hallo, {PLAYER}!\p"
 	.string "Du bist bestimmt überrascht, mich hier\n"
 	.string "zu treffen!\p"
@@ -130,91 +131,210 @@ VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
 	.string "Ich werde gewinnen! Für die Pokémon,\n"
 	.string "die mir Mut und Kraft gegeben haben!\p"
 	.string "Okay… Jetzt komme ich!$"
+#else
+	.string "WALLY: Hi! {PLAYER}!\p"
+	.string "I bet you're surprised to see me here!\p"
+	.string "I made it all the way here, and it's\n"
+	.string "all thanks to you!\p"
+	.string "{PLAYER}, losing to you that time\n"
+	.string "made me stronger!\p"
+	.string "But I'm not going to lose anymore!\p"
+	.string "I'm going to win! For the POKéMON who\n"
+	.string "gave me courage and strength!\p"
+	.string "Okay… Here I come!$"
+#endif
 
 VictoryRoad_1F_Text_WallyEntranceDefeat:
+#if GERMAN
 	.string "Wow! {PLAYER}, du wirst immer stärker!$"
+#else
+	.string "Wow!\n"
+	.string "{PLAYER}, you are strong, after all!$"
+#endif
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle:
+#if GERMAN
 	.string "Heiko: Ich konnte dich heute nicht be-\n"
 	.string "siegen, aber eines Tages werde ich es\l"
 	.string "mit dir aufnehmen!$"
+#else
+	.string "WALLY: I couldn't beat you today,\n"
+	.string "{PLAYER}, but one of these days, I'll\l"
+	.string "catch up to you!$"
+#endif
 
 VictoryRoad_1F_Text_WallyIntro:
+#if GERMAN
 	.string "Heiko: Hallo, {PLAYER}!\p"
 	.string "Ich bin viel stärker geworden! Das\n"
 	.string "möchte ich dir zeigen, {PLAYER}!\p"
 	.string "Okay… Jetzt komme ich!$"
+#else
+	.string "WALLY: Hi! {PLAYER}!\p"
+	.string "I've gotten stronger since that last\n"
+	.string "time! I wanted to show you, {PLAYER}!\p"
+	.string "Okay… Here I come!$"
+#endif
 
 VictoryRoad_1F_Text_WallyDefeat:
+#if GERMAN
 	.string "Wow!\n"
 	.string "{PLAYER}, du bist immer noch zu stark!$"
+#else
+	.string "Wow!\n"
+	.string "{PLAYER}, you are strong, after all!$"
+#endif
 
 VictoryRoad_1F_Text_WallyPostBattle:
+#if GERMAN
 	.string "Heiko: Ich konnte dich wieder nicht\n"
 	.string "besiegen… Aber eines Tages, {PLAYER},\l"
 	.string "eines Tages…\p"
 	.string "Da werde ich sogar die Pokémon Liga\n"
 	.string "herausfordern!$"
+#else
+	.string "WALLY: I couldn't beat you this time,\n"
+	.string "too… But one of these days, {PLAYER},\l"
+	.string "I'm going to catch up to you…\p"
+	.string "And challenge the POKéMON LEAGUE!$"
+#endif
 
 VictoryRoad_1F_Text_EdgarIntro:
+#if GERMAN
 	.string "Ich habe es innerhalb kürzester Zeit\n"
 	.string "bis hierher geschafft, aber das letzte\l"
 	.string "Stück zieht sich wie Kaugummi…$"
+#else
+	.string "I've made it this far a couple times,\n"
+	.string "but the last stretch is so long…$"
+#endif
 
 VictoryRoad_1F_Text_EdgarDefeat:
+#if GERMAN
 	.string "Hier enden meine Träume…$"
+#else
+	.string "My dream ends here again…$"
+#endif
 
 VictoryRoad_1F_Text_EdgarPostBattle:
+#if GERMAN
 	.string "Du bist weit gekommen. Lasse nicht\n"
 	.string "nach\n"
 	.string "und versuche, der Champ zu werden!\l"
 	.string "Wenn einer das kann, dann du!$"
+#else
+	.string "You've made it this far. Keep the\n"
+	.string "momentum going and become the\l"
+	.string "CHAMPION! If anyone can, it's you!$"
+#endif
 
 VictoryRoad_1F_Text_AlbertIntro:
+#if GERMAN
 	.string "Ich bin nicht hierher gekommen, um zu\n"
 	.string "verlieren. Diese Option existiert\l"
 	.string "nicht!$"
+#else
+	.string "I didn't come all this way to lose now.\n"
+	.string "That possibility doesn't exist!$"
+#endif
 
 VictoryRoad_1F_Text_AlbertDefeat:
+#if GERMAN
 	.string "Unmöglich… Ich habe verloren???$"
+#else
+	.string "Impossible…\n"
+	.string "I lost?$"
+#endif
 
 VictoryRoad_1F_Text_AlbertPostBattle:
+#if GERMAN
 	.string "Ich habe hier verloren…\p"
 	.string "Das heißt, mir fehlt noch eine Menge,\n"
 	.string "um Champ werden zu können.$"
+#else
+	.string "I lost here…\p"
+	.string "That means I lack the qualifications\n"
+	.string "to become the CHAMPION…$"
+#endif
 
 VictoryRoad_1F_Text_HopeIntro:
+#if GERMAN
 	.string "Diese unendliche, raue Straße wird\n"
 	.string "ihrem Namen - Sieg - gerecht.$"
+#else
+	.string "This seemingly infinite and harsh road\n"
+	.string "lives up to its name of VICTORY.$"
+#endif
 
 VictoryRoad_1F_Text_HopeDefeat:
+#if GERMAN
 	.string "Dein Kampfstil ist fantastisch…$"
+#else
+	.string "Your battle style is fantastic…$"
+#endif
 
 VictoryRoad_1F_Text_HopePostBattle:
+#if GERMAN
 	.string "Du hast wirklich das Potenzial, der\n"
 	.string "Champ zu werden.$"
+#else
+	.string "You seem to have the potential for\n"
+	.string "becoming the CHAMPION.$"
+#endif
 
 VictoryRoad_1F_Text_QuincyIntro:
+#if GERMAN
 	.string "Was ist das? Die Siegesstraße?\n"
 	.string "Wenn du gewinnst, verrat ich es dir.$"
+#else
+	.string "What is the VICTORY ROAD?\n"
+	.string "I'll tell you if you win!$"
+#endif
 
 VictoryRoad_1F_Text_QuincyDefeat:
+#if GERMAN
 	.string "Okay!\n"
 	.string "Gut gemacht!$"
+#else
+	.string "Okay!\n"
+	.string "Well done!$"
+#endif
 
 VictoryRoad_1F_Text_QuincyPostBattle:
+#if GERMAN
 	.string "Hier sicher durchzukommen, das ist der\n"
 	.string "letzte Test für einen Trainer, der\l"
 	.string "Champ werden will.\p"
 	.string "Daher nennt man sie Siegesstraße.$"
+#else
+	.string "Getting through here safely--that's\n"
+	.string "the final test for any TRAINER aiming\l"
+	.string "to become the POKéMON CHAMPION.\p"
+	.string "That's why it's called the VICTORY\n"
+	.string "ROAD.$"
+#endif
 
 VictoryRoad_1F_Text_KatelynnIntro:
+#if GERMAN
 	.string "Ich habe jemandem, der so weit\n"
 	.string "gekommen ist, nichts zu sagen. Los!$"
+#else
+	.string "I have nothing to say to anyone\n"
+	.string "that's come this far. Come on!$"
+#endif
 
 VictoryRoad_1F_Text_KatelynnDefeat:
+#if GERMAN
 	.string "Was für eine Blamage…$"
+#else
+	.string "This is a disgrace…$"
+#endif
 
 VictoryRoad_1F_Text_KatelynnPostBattle:
+#if GERMAN
 	.string "Hmpf, geh einfach geradeaus weiter.\n"
 	.string "Mir doch egal…$"
+#else
+	.string "Humph, go right on ahead.\n"
+	.string "See if I care.$"
+#endif

@@ -28,6 +28,7 @@ FourIsland_PokemonCenter_1F_EventScript_Gentleman::
 
 @ The 5 texts below are supposed to be in FourIsland_House1
 Text_BodySlamTeach::
+#if GERMAN
 	.string "Fertig?\n"
 	.string "Boing!\p"
 	.string "Wir tragen einen Bodyslam-Kampf\n"
@@ -38,29 +39,61 @@ Text_BodySlamTeach::
 	.string "zerquetscht…\l"
 	.string "Soll ich Bodyslam einem deiner\l"
 	.string "Pokémon beibringen?$"
+#else
+	.string "Ready?\n"
+	.string "Boing!\p"
+	.string "We're having a BODY SLAM match\n"
+	.string "to see who wimps out first.\p"
+	.string "If you were to join us, you'd be\n"
+	.string "squashed like a bug, though…\p"
+	.string "How about I teach BODY SLAM to\n"
+	.string "a POKéMON of yours instead?$"
+#endif
 
 Text_BodySlamDeclined::
+#if GERMAN
 	.string "Komme wieder!\n"
 	.string "Boing!$"
+#else
+	.string "Come again!\n"
+	.string "Boing!$"
+#endif
 
 Text_BodySlamWhichMon::
+#if GERMAN
 	.string "Welches Pokémon soll\n"
 	.string "Bodyslam erlernen?$"
+#else
+	.string "Which POKéMON wants to learn how\n"
+	.string "to BODY SLAM?$"
+#endif
 
 Text_BodySlamTaught::
+#if GERMAN
 	.string "Hoho!$"
+#else
+	.string "Boioing!$"
+#endif
 
 FourIsland_House1_Text_FatMan::
 	.string "それ　ぼよーん！\n"
 	.string "おまえ　おもいなあー！$"
 
 FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave::
+#if GERMAN
 	.string "Dort gibt es eine seltene Art\n"
 	.string "Eis-Pokémon in der Höhle.\p"
 	.string "Viele Besucher kommen nur,\n"
 	.string "um dieses Pokémon zu sehen.$"
+#else
+	.string "There's a rare kind of ICE POKéMON\n"
+	.string "that lives in the cave.\p"
+	.string "We get a lot of visitors hoping to\n"
+	.string "see that POKéMON.$"
+#endif
 
 FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore::
+#if GERMAN
 	.string "Oh! Ein Pokémon-EI?\n"
 	.string "… ich habe keine Ahnung!\p"
 	.string "… oh, Moment, in der\n"
@@ -69,10 +102,24 @@ FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore::
 	.string "Sie sagten, sie haben früher\l"
 	.string "schon Eier auf ihrem\l"
 	.string "Grundstück gefunden!$"
+#else
+	.string "Oh? A POKéMON EGG?\n"
+	.string "…I have no idea.\p"
+	.string "…Oh, wait. The DAY-CARE people\n"
+	.string "in town were saying something.\p"
+	.string "They said that they'd found EGGS\n"
+	.string "before on their property.$"
+#endif
 
 FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived::
+#if GERMAN
 	.string "Was ist los?\p"
 	.string "Die letzte Ausgabe vom Pokémon\n"
 	.string "Journal ist noch nicht auf dieser\l"
 	.string "Insel angekommen?$"
+#else
+	.string "What's this?\p"
+	.string "The new POKéMON JOURNAL hasn't\n"
+	.string "arrived on this island?$"
+#endif
 

@@ -172,16 +172,26 @@ Snowswept_Cavern_Eventscript_Machamp_AfterBoulder::
 
 
 Snowswept_Cavern_Text_DroppedItem:
-	.string "Machomei hat ein Item fallen lassen…$"
+#if GERMAN
+	.string "{COLOR RED}Machomei{COLOR DARK_GRAY} hat ein Item fallen lassen…$"
+#else
+    .string "The MACHAMP dropped an item...$"
+#endif
 
 
 Snowswept_Text_Machamp_Cry:
     .string "Mahh!!$"
 
 Snowswept_Text_Machamp_Plate:
-	.string "Das Machomei scheint eine Tafel\n"
+#if GERMAN
+	.string "Das {COLOR RED}Machomei{COLOR DARK_GRAY} scheint eine Tafel\n"
 	.string "in einer seiner Hände zu halten.\p"
 	.string "Willst du es bekämpfen?$"
+#else
+    .string "The MACHAMP seems to be holding\n"
+    .string "a PLATE in one of its hands.\p"
+    .string "Battle it?$"
+#endif
 
 Snowswept_Machamp_Movement:
     jump_in_place_down

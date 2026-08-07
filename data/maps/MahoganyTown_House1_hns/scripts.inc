@@ -18,18 +18,36 @@ MahoganyTown_House1_EventScript_TeacherDuring::
 
 
 MahoganyRedGyaradosHouse_Text_BlackBelt:
+#if GERMAN
 	.string "Ich hörte, dass ein rotes Garados\n"
 	.string "am See erschienen sein soll.\p"
 	.string "Das ist seltsam, da schon normale\n"
 	.string "Garados in diesem See sehr selten\l"
 	.string "sind…$"
+#else
+    .string "I heard that a red GYARADOS appeared\n"
+    .string "at the LAKE.\p"
+    .string "That's odd, since even ordinary\n"
+    .string "GYARADOS are rare in that lake…$"
+#endif
 
 MahoganyRedGyaradosHouse_Text_Teacher:
+#if GERMAN
 	.string "Mein Lieblingsprogramm\n"
 	.string "im Radio? Ich würde sagen\l"
 	.string "Pokémon-Musik.$"
+#else
+    .string "My favorite radio program? I'd say\n"
+    .string "POKéMON MUSIC.$"
+#endif
 
 MahoganyRedGyaradosHouse_Text_Teacher_Rockets:
+#if GERMAN
 	.string "Seit Kurzem ertönt immer wieder dieses\n"
 	.string "seltsame Gelächter aus dem Radio… Das\l"
 	.string "ist echt unheimlich!$"
+#else
+    .string "I've been hearing laughter on the\n"
+    .string "radio…\p"
+    .string "It's creepy.$"
+#endif

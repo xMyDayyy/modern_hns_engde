@@ -12,4 +12,10 @@ Route16_EventScript_Sign::
 	end
 
 Route16_Text_Sign:
+#if GERMAN
 	.string "Radweg$"
+#else
+	.string "CYCLING ROAD\n"
+	.string "DOWNHILL COASING\l"
+	.string "ALL THE WAY DOWN!$"
+#endif

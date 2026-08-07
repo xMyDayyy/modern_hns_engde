@@ -33,14 +33,26 @@ CianwoodPokemoncenter_EventScript_FisherGiveTentacool::
 	end
 
 CianwoodPokemoncenter_Text_Fisher1:
+#if GERMAN
 	.string "Was Wasser-Pokémon angeht,\n"
 	.string "ist Tentacha das beste,\l"
 	.string "und zwar seemeilenweit!$"
+#else
+	.string "As far as water POKéMON go,\n"
+	.string "TENTACOOL is the best by a\l"
+	.string "nautical mile!$"
+#endif
 
 CianwoodPokemoncenter_Text_Fisher2:
+#if GERMAN
 	.string "Du scheinst ein Wasser-Pokémon\n"
 	.string "zu brauchen.\p"
 	.string "Hier, nimm dieses, ich habe genug.$"
+#else
+	.string "You seem like you need a water\n"
+	.string "POKéMON.\p"
+	.string "Here, take this one, I have plenty.$"
+#endif
 
 CianwoodPokecenter_EventScript_Lass::
 	lock
@@ -51,9 +63,15 @@ CianwoodPokecenter_EventScript_Lass::
 	end
 
 CianwoodCity_Text_PokecenterLass:
+#if GERMAN
 	.string "Hast du den Pokémaniac getroffen?\p"
 	.string "Er gibt immer mit seinen seltenen\n"
 	.string "Pokémon an.$"
+#else
+	.string "Did you meet the POKéMANIAC?\p"
+	.string "He's always bragging about his\n"
+	.string "rare POKéMON.$"
+#endif
 
 
 CianwoodGym_EventScript_GymGuide::
@@ -72,6 +90,7 @@ CianwoodGym_EventScript_GymGuideAfter::
 	end
 
 CianwoodCity_Text_GymGuide:
+#if GERMAN
 	.string "Die Arena-Trainer hier sind\n"
 	.string "richtige Machos.\p"
 	.string "Wenn ich länger bleibe, könnten\n"
@@ -85,10 +104,32 @@ CianwoodCity_Text_GymGuide:
 	.string "Wenn du sie falsch angreifst,\n"
 	.string "kommst du nicht zum Arena-Leiter.\p"
 	.string "Wenn du stecken bleibst, geh raus.$"
+#else
+	.string "The POKéMON GYM trainers here are\n"
+	.string "macho bullies.\p"
+	.string "If I stick around, they might\n"
+	.string "come after me.\p"
+	.string "Here's some advice: the GYM LEADER\n"
+	.string "uses the FIGHTING-type.\p"
+	.string "So you should confound him with\n"
+	.string "psychic POKéMON.\p"
+	.string "Wipe out his POKéMON before they\n"
+	.string "can use their physical strength.\p"
+	.string "And those boulders in the middle\n"
+	.string "of the GYM?\p"
+	.string "If you don't move them correctly,\n"
+	.string "you won't reach the GYM LEADER.\p"
+	.string "If you get stuck, go outside.$"
+#endif
 
 CianwoodCity_Text_GymGuideWin:
+#if GERMAN
 	.string "{PLAYER}! Du hast gewonnen!\n"
 	.string "Man sieht es dir an!$"
+#else
+	.string "{PLAYER}! You won!\n"
+	.string "I could tell by looking at you!$"
+#endif
 
 CianwoodPokecenter_EventScript_Nerd::
 	lock
@@ -99,8 +140,16 @@ CianwoodPokecenter_EventScript_Nerd::
 	end
 
 CianwoodCity_Text_PokecenterSuperNerd:
+#if GERMAN
 	.string "Ich liebe es, meine Pokémon zu\n"
 	.string "zeigen, die ich trainiert habe.\p"
 	.string "Nicht wahr?\p"
 	.string "Ich werde viele Kämpfe haben und\n"
 	.string "meine Pokémon präsentieren!$"
+#else
+	.string "I love showing off the POKéMON\n"
+	.string "that I've raised.\p"
+	.string "Don't you?\p"
+	.string "I'm going to get into a bunch of\n"
+	.string "battles, and show off my POKéMON!$"
+#endif

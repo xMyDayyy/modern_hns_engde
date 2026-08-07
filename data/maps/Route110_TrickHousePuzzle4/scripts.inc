@@ -28,44 +28,95 @@ Route110_TrickHousePuzzle4_EventScript_Paula::
 	end
 
 Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:
+#if GERMAN
 	.string "{PLAYER} hat den geheimen Code auf die\n"
 	.string "Tür geschrieben.\p"
 	.string "“Rätselmeister ist cool.”\n"
 	.string "… … … … … … … …\p"
 	.string "Das Schloss geht klickend auf.$"
+#else
+	.string "{PLAYER} wrote down the secret code\n"
+	.string "on the door.\p"
+	.string "“TRICK MASTER is cool.”\n"
+	.string "… … … … … … … …\p"
+	.string "The lock clicked open!$"
+#endif
 
 Route110_TrickHousePuzzle4_Text_CoraIntro:
+#if GERMAN
 	.string "Ich habe keine Zeit, das zu verstehen.\n"
 	.string "Ich will nur kämpfen!$"
+#else
+	.string "It's too much bother to think this out.\n"
+	.string "I only wanted to battle!$"
+#endif
 
 Route110_TrickHousePuzzle4_Text_CoraDefeat:
+#if GERMAN
 	.string "Auch wenn ich verloren habe, liebe ich\n"
 	.string "das Kämpfen.$"
+#else
+	.string "Even though I lost, I still like battling\n"
+	.string "the best!$"
+#endif
 
 Route110_TrickHousePuzzle4_Text_CoraPostBattle:
+#if GERMAN
 	.string "Stimmst du mir zu? Du würdest überall\n"
 	.string "hingehen, wo man Trainer findet.$"
+#else
+	.string "Wouldn't you agree? You would go\n"
+	.string "anywhere if TRAINERS were there.$"
+#endif
 
 Route110_TrickHousePuzzle4_Text_YujiIntro:
+#if GERMAN
 	.string "Hey! Felsen wie diese räume ich mit\n"
 	.string "dem kleinen Finger aus dem Weg.$"
+#else
+	.string "Heh! Boulders like this, I can brush\n"
+	.string "aside with one finger!$"
+#endif
 
 Route110_TrickHousePuzzle4_Text_YujiDefeat:
+#if GERMAN
 	.string "Ich kann Felsen bewegen, aber ein\n"
 	.string "Rätsel zu lösen ist mir zu schwer…$"
+#else
+	.string "I can push boulders, but I can't solve\n"
+	.string "the puzzle…$"
+#endif
 
 Route110_TrickHousePuzzle4_Text_YujiPostBattle:
+#if GERMAN
 	.string "Muskeln alleine sind nicht alles… Auch\n"
 	.string "Gehirnschmalz ist wichtig. Sei helle!$"
+#else
+	.string "It's not good enough to be brawny…\n"
+	.string "You have to use your head. Be brainy!$"
+#endif
 
 Route110_TrickHousePuzzle4_Text_PaulaIntro:
+#if GERMAN
 	.string "Das Rätselhaus wird immer\n"
 	.string "verrätselter… äh, komplizierter, oder?$"
+#else
+	.string "The TRICK HOUSE is getting trickier,\n"
+	.string "isn't it?$"
+#endif
 
 Route110_TrickHousePuzzle4_Text_PaulaDefeat:
+#if GERMAN
 	.string "Aaaak!$"
+#else
+	.string "Aaak!$"
+#endif
 
 Route110_TrickHousePuzzle4_Text_PaulaPostBattle:
+#if GERMAN
 	.string "Hat es jemand schon mal bis zum\n"
 	.string "Ende geschafft?$"
+#else
+	.string "Has anyone made it to the end?$"
+#endif
 

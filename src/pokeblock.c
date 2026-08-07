@@ -130,10 +130,22 @@ static void ReturnToPokeblockCaseOnField(void);
 static void CreateTossPokeblockYesNoMenu(u8);
 static void TossPokeblock(u8);
 
+#if GERMAN
 static const u8 sText_StowCase[] = _("Box verstauen.");
+#else
+static const u8 sText_StowCase[] = _("Stow CASE.");
+#endif
 static const u8 sText_LvVar1[] = _("{LV}{STR_VAR_1}");
+#if GERMAN
 static const u8 sText_ThrowAwayVar1[] = _("{STR_VAR_1}\nwegwerfen?");
+#else
+static const u8 sText_ThrowAwayVar1[] = _("Throw away this\n{STR_VAR_1}?");
+#endif
+#if GERMAN
 static const u8 sText_Var1ThrownAway[] = _("{STR_VAR_1}\nwurde weggeworfen.");
+#else
+static const u8 sText_Var1ThrownAway[] = _("The {STR_VAR_1}\nwas thrown away.");
+#endif
 
 EWRAM_DATA static struct PokeblockSavedData sSavedPokeblockData = {0};
 EWRAM_DATA static struct PokeblockMenuStruct *sPokeblockMenu = NULL;

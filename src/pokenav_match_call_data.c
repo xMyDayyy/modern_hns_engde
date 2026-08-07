@@ -282,7 +282,11 @@ static const struct MatchCallStructNPC sStevenMatchCallHeader =
     .textData = sStevenTextScripts
 };
 
+#if GERMAN
 static const u8 gText_MayBrendanMatchCallDesc[] = _("Radnachbar");
+#else
+static const u8 gText_MayBrendanMatchCallDesc[] = _("RAD NEIGHBOR");
+#endif
 
 static const match_call_text_data_t sMayTextScripts[] = {
     { MatchCall_Text_May1,  ALWAYS_AVAILABLE,                    NO_FLAG_TO_SET },
@@ -525,7 +529,11 @@ static const struct MatchCallStructTrainer sJuanMatchCallHeader =
     .textData = sJuanTextScripts
 };
 
+#if GERMAN
 static const u8 gText_EliteFourMatchCallDesc[] = _("Top Vier");
+#else
+static const u8 gText_EliteFourMatchCallDesc[] = _("ELITE FOUR");
+#endif
 
 static const match_call_text_data_t sSidneyTextScripts[] = {
     { MatchCall_Text_Sidney, ALWAYS_AVAILABLE, NO_FLAG_TO_SET },
@@ -730,7 +738,11 @@ static const struct MatchCallStructNPC sStevenMatchCallHeader =
     .textData = sStevenTextScripts
 };
 
+#if GERMAN
 static const u8 gText_MayBrendanMatchCallDesc[] = _("Radnachbar");
+#else
+static const u8 gText_MayBrendanMatchCallDesc[] = _("RAD NEIGHBOR");
+#endif
 
 static const match_call_text_data_t sMayTextScripts[] = {
     { MatchCall_Text_May1,  ALWAYS_AVAILABLE,                    NO_FLAG_TO_SET },
@@ -973,7 +985,11 @@ static const struct MatchCallStructTrainer sJuanMatchCallHeader =
     .textData = sJuanTextScripts
 };
 
+#if GERMAN
 static const u8 gText_EliteFourMatchCallDesc[] = _("Top Vier");
+#else
+static const u8 gText_EliteFourMatchCallDesc[] = _("ELITE FOUR");
+#endif
 
 static const match_call_text_data_t sSidneyTextScripts[] = {
     { MatchCall_Text_Sidney, ALWAYS_AVAILABLE, NO_FLAG_TO_SET },
@@ -1141,18 +1157,58 @@ static void (*const sMatchCall_GetNameAndDescFunctions[])(match_call_t, const u8
     MatchCall_GetNameAndDesc_Birch
 };
 
+#if GERMAN
 static const u8 gText_MatchCallSteven_Strategy[] = _("Nutze die Schwachpunkte!");
+#else
+static const u8 gText_MatchCallSteven_Strategy[] = _("Attack the weak points!");
+#endif
+#if GERMAN
 static const u8 gText_MatchCallSteven_Pokemon[] = _("Ultimative Stahl-Pokémon.");
+#else
+static const u8 gText_MatchCallSteven_Pokemon[] = _("Ultimate STEEL POKéMON.");
+#endif
 
+#if GERMAN
 static const u8 gText_MatchCallBrendan_Strategy[] = _("Kämpfe weise!");
+#else
+static const u8 gText_MatchCallBrendan_Strategy[] = _("Battle with knowledge!");
+#endif
+#if GERMAN
 static const u8 gText_MatchCallBrendan_Pokemon[] = _("Ich setze viele Pkmn ein!");
+#else
+static const u8 gText_MatchCallBrendan_Pokemon[] = _("I will use various POKéMON.");
+#endif
+#if GERMAN
 static const u8 gText_MatchCallBrendan_Intro1[] = _("Ich werde ein besserer");
+#else
+static const u8 gText_MatchCallBrendan_Intro1[] = _("I'll be a better POKéMON");
+#endif
+#if GERMAN
 static const u8 gText_MatchCallBrendan_Intro2[] = _("Pkmn-Prof. als mein Vater!");
+#else
+static const u8 gText_MatchCallBrendan_Intro2[] = _("prof than my father is!");
+#endif
 
+#if GERMAN
 static const u8 gText_MatchCallMay_Strategy[] = _("Ich kämpfe nicht gut!");
+#else
+static const u8 gText_MatchCallMay_Strategy[] = _("I'm not so good at battles.");
+#endif
+#if GERMAN
 static const u8 gText_MatchCallMay_Pokemon[] = _("Ich setze jedes Pkmn ein!");
+#else
+static const u8 gText_MatchCallMay_Pokemon[] = _("I'll use any POKéMON!");
+#endif
+#if GERMAN
 static const u8 gText_MatchCallMay_Intro1[] = _("Meine Pokémon helfen Vater");
+#else
+static const u8 gText_MatchCallMay_Intro1[] = _("My POKéMON and I help");
+#endif
+#if GERMAN
 static const u8 gText_MatchCallMay_Intro2[] = _("bei seinen Forschungen.");
+#else
+static const u8 gText_MatchCallMay_Intro2[] = _("my father's research.");
+#endif
 
 #if IS_HNS
 static const struct MatchCallCheckPageOverride sCheckPageOverrides[] = {

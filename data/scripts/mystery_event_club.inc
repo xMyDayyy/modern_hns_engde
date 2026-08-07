@@ -109,17 +109,32 @@ EventScript_GiveProfile:
 	end
 
 Text_IdLoveToHearYourProfile:
+#if GERMAN
 	.string "Hallo! Schön dich zu sehen!\p"
 	.string "… du bist unhöflich!\n"
 	.string "Du könntest mich auch begrüßen!\p"
 	.string "Also, erzähl mir ein wenig von dir!\p"
 	.string "Sag mir dein Profil!$"
+#else
+	.string "Hi, glad to meet you!\p"
+	.string "…That's unfriendly of you.\n"
+	.string "How about saying hi back?\p"
+	.string "So, come on, tell me about\n"
+	.string "yourself.\p"
+	.string "I'd love to hear your profile!$"
+#endif
 
 Text_TellMeWhatsYourProfile:
+#if GERMAN
 	.string "Erzähl mir etwas Gutes über dich. Wie\n"
 	.string "lautet dein Profil?$"
+#else
+	.string "Tell me something good about\n"
+	.string "yourself. What's your profile?$"
+#endif
 
 Text_ExplainProfile:
+#if GERMAN
 	.string "Ein Profil besteht aus vier\n"
 	.string "Wörtern oder Phrasen.\p"
 	.string "Es gibt unzählige Wörter, um\n"
@@ -130,48 +145,114 @@ Text_ExplainProfile:
 	.string "und anschließend das Wort.\p"
 	.string "… es ist leichter, als es sich\n"
 	.string "anhört. Probier es doch einmal!$"
+#else
+	.string "A profile is written using four\n"
+	.string "words or phrases.\p"
+	.string "There're plenty of words to choose\n"
+	.string "from for your profile.\p"
+	.string "The words and phrases are placed\n"
+	.string "in several convenient groups.\p"
+	.string "First, choose a group, then choose\n"
+	.string "a word or phrase.\p"
+	.string "…It's easier than it sounds.\n"
+	.string "Why don't you try it?$"
+#endif
 
 Text_WhatsYourProfile:
+#if GERMAN
 	.string "Wie lautet dein Profil?$"
+#else
+	.string "What's your profile?$"
+#endif
 
 Text_DontBeLikeThat:
+#if GERMAN
 	.string "Argh! Sei nicht so! Du kannst\n"
 	.string "mir dein Profil sagen!$"
+#else
+	.string "Aww… Don't be like that.\n"
+	.string "You can tell me your profile.$"
+#endif
 
 Text_DecidedNotTo:
+#if GERMAN
 	.string "Oh, du willst also nicht!\n"
 	.string "Du bist wankelmütig, oder?$"
+#else
+	.string "Oh, you've decided not to?\n"
+	.string "You're fickle, aren't you?$"
+#endif
 
 Text_HiWeMeetAgain:
+#if GERMAN
 	.string "Hi!\n"
 	.string "Wir sehen uns wieder!$"
+#else
+	.string "Hi!\n"
+	.string "We meet again!$"
+#endif
 
 Text_ChangeYourProfile:
+#if GERMAN
 	.string "Möchtest du dein Profil ändern?$"
+#else
+	.string "Would you like to change your\n"
+	.string "profile?$"
+#endif
 
 Text_WhatAreYouLikeNow:
+#if GERMAN
 	.string "Wie bist du jetzt?\n"
 	.string "Ich möchte das wissen!$"
+#else
+	.string "What are you like now?\n"
+	.string "I'd really like to know.$"
+#endif
 
 Text_LikeProfileWayItIs:
+#if GERMAN
 	.string "O.K.! Du magst dein Profil\n"
 	.string "so wie es ist.\p"
 	.string "Das ist gut!$"
+#else
+	.string "Okay, you like your profile the\n"
+	.string "way it is.\p"
+	.string "I think so, too.$"
+#endif
 
 Text_ProfileSaysSomethingAboutYou:
+#if GERMAN
 	.string "Hmm…\p"
 	.string "Dein Profil sagt wirklich etwas\n"
 	.string "über dich aus.\p"
 	.string "Da ich dich jetzt besser kenne,\n"
 	.string "sind wir noch enger als zuvor\l"
 	.string "befreundet.$"
+#else
+	.string "Hmhm…\p"
+	.string "Your profile really says something\n"
+	.string "about who you are.\p"
+	.string "Now that I know you better, it \n"
+	.string "makes us better friends than ever!$"
+#endif
 
 Text_HeardThatBefore:
+#if GERMAN
 	.string "Oh, das habe ich schon \n"
 	.string "einmal gehört!\p"
 	.string "Mein Cousin, der weit weg wohnt,\n"
 	.string "pflegte das zu sagen!$"
+#else
+	.string "Oh, I've heard that before…\p"
+	.string "My cousin, who lives far away,\n"
+	.string "always used to say that, I think.$"
+#endif
 
 Text_TellMoreNextTime:
+#if GERMAN
 	.string "Erzähl mir beim nächsten Mal mehr\n"
 	.string "von dir!$"
+#else
+	.string "Please tell me more about\n"
+	.string "yourself next time!$"
+#endif

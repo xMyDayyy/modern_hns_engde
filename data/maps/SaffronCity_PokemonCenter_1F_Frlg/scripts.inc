@@ -36,20 +36,44 @@ SaffronCity_PokemonCenter_1F_EventScript_YoungsterRocketsGone::
 	end
 
 SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies::
+#if GERMAN
 	.string "{PLAYER}: Mein Pokémon sieht viel\n"
 	.string "stärker aus!$"
+#else
+	.string "POKéMON growth rates differ from\n"
+	.string "species to species.$"
+#endif
 
 SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame::
+#if GERMAN
 	.string "Die Silph Co. ist sehr bekannt.\p"
 	.string "Deshalb wurde das Team Rocket auf\n"
 	.string "sie aufmerksam!$"
+#else
+	.string "SILPH CO. is widely known to all.\p"
+	.string "It's a victim of its own fame - it\n"
+	.string "attracted TEAM ROCKET.$"
+#endif
 
 SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets::
+#if GERMAN
 	.string "Ich wünschte, die Top Vier kämen\n"
 	.string "und stampften das Team Rocket in\l"
 	.string "den Boden!$"
+#else
+	.string "Sigh…\n"
+	.string "Wouldn't this be great?\p"
+	.string "If the ELITE FOUR came and\n"
+	.string "stomped TEAM ROCKET?$"
+#endif
 
 SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff::
+#if GERMAN
 	.string "Das Team Rocket ist geflohen! Wir\n"
 	.string "können wieder aus dem Haus gehen!$"
+#else
+	.string "TEAM ROCKET took off!\n"
+	.string "We can go out safely again!\l"
+	.string "That's great!$"
+#endif
 

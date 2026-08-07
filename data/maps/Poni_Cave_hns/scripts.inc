@@ -45,4 +45,8 @@ Alola_Poni_Cave_FindItem2::
 
 
 Alola_Poni_BattleGolem_Text_0:
+#if GERMAN
 	.string "Urgs!$"
+#else
+	.string "Gaaah!$"
+#endif

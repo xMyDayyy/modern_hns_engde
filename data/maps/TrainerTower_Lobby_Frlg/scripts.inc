@@ -223,54 +223,110 @@ TrainerTower_Lobby_EventScript_BaldingMan::
 @ All Trainer Tower text (Lobby and Roof) is interleaved here
 
 TrainerTower_Lobby_Text_WelcomeToTrainerTower::
+#if GERMAN
 	.string "Hallo!\p"
 	.string "Willkommen im Trainerturm,\n"
 	.string "wo sich Trainer von nah und\l"
 	.string "fern versammeln.$"
+#else
+	.string "Hello!\p"
+	.string "Welcome to TRAINER TOWER where\n"
+	.string "TRAINERS gather from all over!$"
+#endif
 
 TrainerTower_Lobby_Text_TrainersUpToFloorNum::
+#if GERMAN
 	.string "Trainer aus aller Herren Länder\n"
 	.string "kommen hierher, um zu kämpfen.\p"
 	.string "Lass mich mal sehen…\p"
 	.string "Momentan findest du Trainer\n"
 	.string "bis in Stockwerk {STR_VAR_1}.$"
+#else
+	.string "TRAINERS from all over the world\n"
+	.string "gather here to battle.\p"
+	.string "Let me see…\p"
+	.string "Right now, there are TRAINERS only\n"
+	.string "up to Floor {STR_VAR_1}.$"
+#endif
 
 TrainerTower_Lobby_Text_TrainersUpEighthFloor::
+#if GERMAN
 	.string "Bis zum achten Stock erwarten\n"
 	.string "Trainer deine Herausforderung.$"
+#else
+	.string "TRAINERS are awaiting your\n"
+	.string "challenge up to the eighth floor.$"
+#endif
 
 TrainerTower_Lobby_Text_LikeToChallengeTrainers::
+#if GERMAN
 	.string "Möchtest du die wartenden Trainer\n"
 	.string "herausfordern?$"
+#else
+	.string "Would you like to challenge the\n"
+	.string "waiting TRAINERS?$"
+#endif
 
 TrainerTower_Lobby_Text_StartClockGetSetGo::
+#if GERMAN
 	.string "O.K.! Ich stelle die Uhr! Gib\n"
 	.string "dein Bestes!\p"
 	.string "Auf die Plätze…\p"
 	.string "Fertig…\p"
 	.string "Los!$"
+#else
+	.string "Okay, I'll get the clock started,\n"
+	.string "so give it everything you have.\p"
+	.string "On your marks…\p"
+	.string "Get set…\p"
+	.string "Go!$"
+#endif
 
 TrainerTower_Lobby_Text_PleaseVisitUsAgain::
+#if GERMAN
 	.string "Bitte besuche uns wieder!$"
+#else
+	.string "Please do visit us again!$"
+#endif
 
 TrainerTower_Lobby_Text_TooBadComeBackTryAgain::
+#if GERMAN
 	.string "Das war nicht gut!\p"
 	.string "Ich glaube, du hast dich beim Kampf\n"
 	.string "richtig angestrengt.\p"
 	.string "Bitte komme wieder und probiere es\n"
 	.string "erneut!$"
+#else
+	.string "That was too bad.\p"
+	.string "I think you put in a tremendous\n"
+	.string "effort in your battling.\p"
+	.string "Please come back and try again!$"
+#endif
 
 TrainerTower_Lobby_Text_GiveItYourBest::
+#if GERMAN
 	.string "Ich hoffe, du strengst dich wirklich an!$"
+#else
+	.string "I hope you give it your best.$"
+#endif
 
 TrainerTower_Lobby_Text_MoveCounterHereWhenTrainersSwitch::
+#if GERMAN
 	.string "Tauschen die Trainer ihre Plätze, kann\n"
 	.string "es hektisch werden.\p"
 	.string "Um eine Panik zu vermeiden, haben wir\n"
 	.string "die Rezeption hierher verlegt.\p"
 	.string "Wir bitten um dein Verständnis!$"
+#else
+	.string "When the TRAINERS switch places,\n"
+	.string "the movement can be hectic.\p"
+	.string "To avoid the stampede, we moved\n"
+	.string "the reception counter here.\p"
+	.string "I'm sorry for the inconvenience.$"
+#endif
 
 TrainerTower_Roof_Text_ImOwnerBattledPerfectly::
+#if GERMAN
 	.string "Hallo…\p"
 	.string "Mir gehört dieser Turm…\p"
 	.string "Wie der Himmel über dem Dach\n"
@@ -279,11 +335,26 @@ TrainerTower_Roof_Text_ImOwnerBattledPerfectly::
 	.string "Es ist so stimmig…\p"
 	.string "Dein Kampfstil…\n"
 	.string "Auch er war stimmig…$"
+#else
+	.string "Hello…\p"
+	.string "I am the owner of this TOWER…\p"
+	.string "How the sky soars above this\n"
+	.string "rooftop…\p"
+	.string "The caress of the winds up here…\p"
+	.string "It's all so perfect…\p"
+	.string "The way you battled…\n"
+	.string "It, too, was perfection…$"
+#endif
 
 TrainerTower_Roof_Text_ThisIsForYou::
+#if GERMAN
 	.string "Dies ist für dich…$"
+#else
+	.string "This is for you…$"
+#endif
 
 TrainerTower_Roof_Text_DoneItInRecordTime::
+#if GERMAN
 	.string "Oh!\n"
 	.string "Fantastisch!\p"
 	.string "Es ist bewundernswert, wie schnell\n"
@@ -292,29 +363,62 @@ TrainerTower_Roof_Text_DoneItInRecordTime::
 	.string "Rekord aufgestellt…\p"
 	.string "Du kannst ihn an der Rezeption\n"
 	.string "einsehen.$"
+#else
+	.string "Oh!\n"
+	.string "Stupendous!\p"
+	.string "It's marvelous how you've come up\n"
+	.string "here so quickly.\p"
+	.string "The fact is, you've done it in\n"
+	.string "record time…\p"
+	.string "I'll have your record posted at\n"
+	.string "the reception counter.$"
+#endif
 
 TrainerTower_Roof_Text_TookSweetTimeGettingHere::
+#if GERMAN
 	.string "Es scheint, du hast dir ganz\n"
 	.string "schön Zeit gelassen…$"
+#else
+	.string "You seem to have taken your sweet\n"
+	.string "time getting here…$"
+#endif
 
 TrainerTower_Roof_Text_IdLikeToSeeBetterTime::
+#if GERMAN
 	.string "Ich will von dir eine bessere\n"
 	.string "Zeit sehen…\p"
 	.string "Ich verlasse mich auf dich!\p"
 	.string "Bis demnächst, mach es gut…$"
+#else
+	.string "What I would like to see is a\n"
+	.string "better time out of you…\p"
+	.string "I'm counting on you.\p"
+	.string "Until then, farewell…$"
+#endif
 
 TrainerTower_Text_XMinYZSec::
+#if GERMAN
 	.string "{STR_VAR_1} Min. {STR_VAR_2},{STR_VAR_3} Sek.$"
+#else
+	.string "{STR_VAR_1} min. {STR_VAR_2}.{STR_VAR_3} sec.$"
+#endif
 
 TrainerTower_Lobby_Text_HereAreTheResults::
 	.string "せいせきひょうです$"
 
 TrainerTower_Lobby_Text_NeedTwoMonsForDouble::
+#if GERMAN
 	.string "Dies ist ein Zwei-gegen-Zwei-Kampf!\p"
 	.string "Du musst mindestens zwei\n"
 	.string "Pokémon mitbringen.$"
+#else
+	.string "This is a two-on-two battle.\p"
+	.string "You may not battle unless you have\n"
+	.string "at least two POKéMON.$"
+#endif
 
 TrainerTower_Lobby_Text_ExplainTrainerTower::
+#if GERMAN
 	.string "Hier im Trainerturm gibt es\n"
 	.string "unter anderem den Bestzeit-Modus.\l"
 	.string "Es wird gestoppt, wie lange du von\l"
@@ -326,21 +430,52 @@ TrainerTower_Lobby_Text_ExplainTrainerTower::
 	.string "sehen, wer der Schnellste ist.\l"
 	.string "Hier gibt es keine E.-Punkte oder\l"
 	.string "Geld zu gewinnen.$"
+#else
+	.string "Here at TRAINER TOWER, there is an\n"
+	.string "event called TIME ATTACK.\p"
+	.string "You will be timed on how quickly\n"
+	.string "you can get from the reception\l"
+	.string "counter to the OWNER on the roof.\p"
+	.string "The best times will be recorded on\n"
+	.string "the Time Board.\p"
+	.string "Try competing with friends to see\n"
+	.string "who can beat it the fastest.\p"
+	.string "You will not earn any EXP. Points\n"
+	.string "or money by beating TRAINERS here.$"
+#endif
 
 TrainerTower_Lobby_Text_ThanksForCompeting::
+#if GERMAN
 	.string "Danke fürs Mitmachen!$"
+#else
+	.string "Thank you for competing!$"
+#endif
 
 TrainerTower_Lobby_Text_WonderWhatKindsOfTrainers::
+#if GERMAN
 	.string "Ich möchte herausfinden, wie gut\n"
 	.string "ich bin.\p"
 	.string "Ich bin gespannt, welche Trainer\n"
 	.string "auf mich warten.\p"
 	.string "Das ist nervenaufreibend!$"
+#else
+	.string "I'm here to see how good I am.\p"
+	.string "I wonder what kinds of TRAINERS\n"
+	.string "are waiting for me?\p"
+	.string "It's nerve-racking!$"
+#endif
 
 TrainerTower_Lobby_Text_StairsTougherThanAnyBattle::
+#if GERMAN
 	.string "Schnauf, schnauf…\n"
 	.string "Schnauf…\p"
 	.string "Kämpfen macht mir nichts aus!\n"
 	.string "Aber diese Treppen…\l"
 	.string "Die sind härter als jeder Kampf…$"
+#else
+	.string "Gasp, gasp…\n"
+	.string "Gasp…\p"
+	.string "Never mind battling! These stairs…\n"
+	.string "They're tougher than any battle…$"
+#endif
 

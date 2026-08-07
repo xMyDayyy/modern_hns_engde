@@ -23,10 +23,16 @@ Route26_House2_EventScript_BookRead2::
 	end
 
 DayOfWeekSiblingsHouse_Text_Pokedex1:
+#if GERMAN
 	.string "Hier steht etwas geschrieben.\p"
 	.string "Lesen?$"
+#else
+    .string "There's something written here.\p"
+    .string "Read it?$"
+#endif
 
 DayOfWeekSiblingsHouse_Text_Pokedex2:
+#if GERMAN
 	.string "An meine Brüder und Schwestern:\p"
 	.string "Wir sind stolz darauf,\n"
 	.string "PokémonTrainern zu dienen.\p"
@@ -35,12 +41,39 @@ DayOfWeekSiblingsHouse_Text_Pokedex2:
 	.string "Nützliches.\p"
 	.string "Eure Monja\p"
 	.string "Weiterlesen?$"
+#else
+    .string "To my brothers and sisters:\p"
+    .string "We take pride in serving POKéMON\n"
+    .string "trainers.\p"
+    .string "When trainers talk to you, give\n"
+    .string "them something useful.\p"
+    .string "Love,\n"
+    .string "MONICA\p"
+    .string "Keep reading?$"
+#endif
 
 DayOfWeekSiblingsHouse_Text_Pokedex3:
-	.string "Montag, Monja Route 40\p"
-	.string "Dienstag, Dietlinde Route 29\p"
-	.string "Mittwoch, Mitko See des Zorns\p"
-	.string "Donnerstag, Donatus Route 36\p"
-	.string "Freitag, Frieda Route 32\p"
-	.string "Samstag, Samson Ebenholz City\p"
-	.string "Sonntag, Sonnfried Route 37$"
+#if GERMAN
+	.string "Montag, Monja {COLOR RED}Route 40{COLOR DARK_GRAY}\p"
+	.string "Dienstag, Dietlinde {COLOR RED}Route 29{COLOR DARK_GRAY}\p"
+	.string "Mittwoch, Mitko {COLOR RED}See des Zorns{COLOR DARK_GRAY}\p"
+	.string "Donnerstag, Donatus {COLOR RED}Route 36{COLOR DARK_GRAY}\p"
+	.string "Freitag, Frieda {COLOR RED}Route 32{COLOR DARK_GRAY}\p"
+	.string "Samstag, Samson {COLOR RED}Ebenholz City{COLOR DARK_GRAY}\p"
+	.string "Sonntag, Sonnfried {COLOR RED}Route 37{COLOR DARK_GRAY}$"
+#else
+    .string "Monday, MONICA\n"
+    .string "ROUTE 40\p"
+    .string "Tuesday, TUSCANY\n"
+    .string "ROUTE 29\p"
+    .string "Wednesday, WESLEY\n"
+    .string "LAKE OF RAGE\p"
+    .string "Thursday, ARTHUR\n"
+    .string "ROUTE 36\p"
+    .string "Friday, FRIEDA\n"
+    .string "ROUTE 32\p"
+    .string "Saturday, SANTOS\n"
+    .string "BLACKTHORN CITY\p"
+    .string "Sunday, SUNNY\n"
+    .string "ROUTE 37$"
+#endif

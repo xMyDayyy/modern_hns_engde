@@ -540,6 +540,7 @@ Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_0:
 	.string "Alola, {PLAYER}!$"
 
 Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_1:
+#if GERMAN
 	.string "Schön, dass du da bist!\n"
 	.string "Willkommen in meiner Villa!\p"
 	.string "Ich wohne hier, während ich die\n"
@@ -547,8 +548,18 @@ Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_1:
 	.string "der Alola-Region erforsche.\p"
 	.string "Besonders interessiert mich das\n"
 	.string "Phänomen der “Regionalformen”.$"
+#else
+	.string "I'm glad you're here!\n"
+	.string "Welcome to my villa!\p"
+	.string "I'm staying here while I research the\n"
+	.string "Alola Isles for their similarity to\l"
+	.string "the Alola Region.\p"
+	.string "I'm particularly interested in the\n"
+	.string "phenomenon of “regional variants”.$"
+#endif
 
 Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_2:
+#if GERMAN
 	.string "Du scheinst recht fähig zu sein.\p"
 	.string "Du wärst perfekt, um mir bei meiner\n"
 	.string "Studie der Alola-Inseln zu helfen!\p"
@@ -557,11 +568,23 @@ Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_2:
 	.string "bekannte Pokémon, die denen aus\l"
 	.string "Kanto ähneln…\l"
 	.string "dann komm zurück und zeig mir\l"
-	.string "deinen Pokédex!\p"
+	.string "deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}!\p"
 	.string "Ich warte hier geduldig auf\n"
 	.string "Neuigkeiten von dir!$"
+#else
+	.string "You seem quite capable.\p"
+	.string "You'd be perfect to help with my survey\n"
+	.string "of the Alola Isles!\p"
+	.string "Explore all the Isles have to offer,\n"
+	.string "and if you find any familiar Pokémon\l"
+	.string "that resemble those from Kanto…\l"
+	.string "come back and show me your Pokédex!\p"
+	.string "I'll be here patiently waiting to hear\n"
+	.string "about your progress!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_0:
+#if GERMAN
 	.string "Wow!\n"
 	.string "Du hast die Schutzpatrone gesehen!\p"
 	.string "Unglaubliche Leistung, {PLAYER}.\p"
@@ -569,13 +592,27 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_0:
 	.string "Streifzüge gefunden.\p"
 	.string "Ich weiß nicht genau, wofür es gut\n"
 	.string "ist, aber du solltest es nehmen.$"
+#else
+	.string "Wow!\n"
+	.string "You saw the Guardian Dieties!\p"
+	.string "Incredible work, {PLAYER}.\p"
+	.string "I found this while wandering about.\p"
+	.string "I'm not entirely sure what it's for,\n"
+	.string "but you should take it.$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_1:
+#if GERMAN
 	.string "Die Alola-Inseln müssen wahrhaft\n"
 	.string "etwas Besonderes sein, wenn sogar\l"
 	.string "die Schutzpatrone sie besuchen!$"
+#else
+	.string "The Alola Isles must truly be special if\n"
+	.string "the Guardians themselves visited!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_2:
+#if GERMAN
 	.string "Danke für deine Hilfe bei meiner\n"
 	.string "Forschung, {PLAYER}!\p"
 	.string "Dank dir verstehen wir die Alola-\n"
@@ -583,8 +620,18 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_2:
 	.string "Ich hoffe, du erkundest die Inseln\n"
 	.string "weiter und lüftest alle Geheimnisse,\l"
 	.string "die sie verbergen!$"
+#else
+	.string "Thanks for your help with my research,\n"
+	.string "{PLAYER}!\p"
+	.string "Our understanding of the Alola Isles\n"
+	.string "has greatly improved thanks to you!\p"
+	.string "I hope you continue to explore the\n"
+	.string "Isles to find all the secrets that\l"
+	.string "they hold!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_3:
+#if GERMAN
 	.string "Alola, {PLAYER}!\p"
 	.string "Du hast also alle Herrscher-\n"
 	.string "Pokémon der Inseln besiegt?\p"
@@ -592,15 +639,30 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_3:
 	.string "Es ist lange genug her…\p"
 	.string "Ich denke, es wird Zeit für einen\n"
 	.string "Kampf zwischen uns, oder?$"
+#else
+	.string "Alola {PLAYER}!\p"
+	.string "So you managed to defeat all of the\n"
+	.string "Totem Pokémon on the Isles, did you?\p"
+	.string "That's quite an accomplishment!\p"
+	.string "It's been long enough…\p"
+	.string "I think it's about time we had a battle,\n"
+	.string "don't you?$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_4:
+#if GERMAN
 	.string "Großartig!\n"
 	.string "Ich werde dich nicht schonen!$"
+#else
+	.string "Great!\n"
+	.string "I won't be taking it easy on you!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_5:
 	.string "Incredible, {PLAYER}!$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_6:
+#if GERMAN
 	.string "Wow, {PLAYER}!\n"
 	.string "Du bist wirklich stark!\p"
 	.string "Du hast dich eines Geheimnisses\n"
@@ -615,18 +677,45 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_6:
 	.string "Siehst du sie über die Inseln\n"
 	.string "fliegen, geh zu den Totems… Dort\l"
 	.string "warten sie vielleicht auf dich!$"
+#else
+	.string "Wow, {PLAYER}!\n"
+	.string "You really are a powerful Trainer!\p"
+	.string "You've proven worthy of a secret\n"
+	.string "I've been keeping about these isles…\p"
+	.string "I'm not the only one who's noticed a\n"
+	.string "striking resemblance between the Alola\l"
+	.string "Isles and the Alola Region…\p"
+	.string "It seems the Tapu Guardians themselves\n"
+	.string "have been visiting the Isles.\p"
+	.string "If you see them fly over the Isles, head\n"
+	.string "to the totems… They may be there \l"
+	.string "waiting for you!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_7:
+#if GERMAN
 	.string "Worauf wartest du noch, {PLAYER}?\n"
 	.string "Zieh los und erkunde die Welt!$"
+#else
+	.string "What are you waiting for, {PLAYER}?\n"
+	.string "Go out there and explore!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_8:
+#if GERMAN
 	.string "Kein Problem, {PLAYER}!\p"
 	.string "Nimm dir Zeit, dich auf den Kampf\n"
 	.string "vorzubereiten, und komm wieder,\l"
 	.string "wenn du bereit bist!$"
+#else
+	.string "No worries, {PLAYER}!\p"
+	.string "Take your time to prepare for the\n"
+	.string "battle, and come back when you're\l"
+	.string "ready!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_9:
+#if GERMAN
 	.string "Alola, {PLAYER}!\p"
 	.string "Du hast also alle Alola-Formen der\n"
 	.string "Inseln gefunden. Aber hast du auch\l"
@@ -635,48 +724,98 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_9:
 	.string "Halte auf jeder Insel nach einer\n"
 	.string "seltsamen Säule Ausschau. Die\l"
 	.string "Herrscher-Pokémon bewachen sie!$"
+#else
+	.string "Alola {PLAYER}!\p"
+	.string "So you've found all the Alolan variants\n"
+	.string "on the Isles, but have you defeated all\l"
+	.string "the Totem Pokémon yet?\p"
+	.string "You should look for a strange pillar on\n"
+	.string "each isle, the Totem Pokémon will be\l"
+	.string "guarding it!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_10:
+#if GERMAN
 	.string "Hallo nochmal, {PLAYER}!\p"
 	.string "Wie läuft deine Erkundung der\n"
 	.string "Alola-Inseln?\p"
 	.string "Möchtest du mir von deinen Fort-\n"
 	.string "schritten auf einer bestimmten\l"
 	.string "Insel berichten?$"
+#else
+	.string "Hello again, {PLAYER}!\p"
+	.string "How's your research on the Alola Isles\n"
+	.string "coming along?\p"
+	.string "Would you like to share your progress\n"
+	.string "about a specific isle with me?$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_11:
+#if GERMAN
 	.string "Mele-Mele$"
+#else
+	.string "Melemele Isle$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_12:
-	.string "Akala$"
+#if GERMAN
+	.string "{COLOR RED}Akala{COLOR DARK_GRAY}$"
+#else
+	.string "Akala Isle$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_13:
-	.string "Ula-Ula$"
+#if GERMAN
+	.string "{COLOR RED}Ula-Ula{COLOR DARK_GRAY}$"
+#else
+	.string "Ula'ula Isle$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_14:
+#if GERMAN
 	.string "Poni$"
+#else
+	.string "Poni Isle$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_15:
 	.string "Not right now.$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_16:
-	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.$"
+#if GERMAN
+	.string "Zeig mir mal deinen {COLOR RED}Pokédex{COLOR DARK_GRAY}{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.$"
+#else
+	.string "Let me take a look at your Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_17:
 	.string "Wow, {PLAYER}!$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_18:
+#if GERMAN
 	.string "Du hast alle Alola-Formen gefunden,\n"
 	.string "die auf Mele-Mele leben!$"
+#else
+	.string "You found all the Alolan variants living\n"
+	.string "on Melemele Isle!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_19:
+#if GERMAN
 	.string "Und offenbar hast du auch auf allen\n"
 	.string "anderen Inseln sämtliche Alola-\l"
 	.string "Formen gefunden!\p"
 	.string "Das ist fantastisch, {PLAYER}!\p"
 	.string "Du kannst wirklich stolz auf dich\nsein!$"
+#else
+	.string "And it looks like you've found all the\n"
+	.string "Alolan variants on the other isles too!\p"
+	.string "That's amazing, {PLAYER}!\p"
+	.string "You should be very proud of yourself!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_20:
+#if GERMAN
 	.string "Du hast mir bestätigt, dass alle\n"
 	.string "Alola-Formen auf den Alola-Inseln\l"
 	.string "vorkommen!\p"
@@ -690,13 +829,34 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_20:
 	.string "als ihre normalen Artgenossen…\p"
 	.string "Man weiß nie, wer beobachtet, ob\n"
 	.string "du ein würdiger Gegner bist!$"
+#else
+	.string "You've helped me validate that all\n"
+	.string "of the Alolan variants are present on\l"
+	.string "the Alola Isles!\p"
+	.string "I'd like you to help me with one more\n"
+	.string "thing…\p"
+	.string "Could you help me investigate the Totem\n"
+	.string "Pokémon that are said to be guarding\l"
+	.string "the totems on each isle?\p"
+	.string "But beware! These Totem Pokémon are\n"
+	.string "said to be much stronger than their\l"
+	.string "normal counterparts…\p"
+	.string "You never know who might be watching\n"
+	.string "to see if you are a worthy opponent!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_21:
+#if GERMAN
 	.string "Erkunde weiter die anderen Inseln\n"
 	.string "und berichte mir von deinen\l"
 	.string "Fortschritten!$"
+#else
+	.string "Keep exploring the other isles and\n"
+	.string "report your progress to me!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_22:
+#if GERMAN
 	.string "Wie es scheint, hast du bereits\n"
 	.string "alle Alola-Formen auf Mele-Mele\l"
 	.string "gefunden!\p"
@@ -704,8 +864,16 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_22:
 	.string "Erkunde weiter die anderen Inseln\n"
 	.string "und berichte mir von deinen\l"
 	.string "Fortschritten!$"
+#else
+	.string "It seems you've already found all the\n"
+	.string "Alolan variants on Melemele Isle!\p"
+	.string "Great job!\p"
+	.string "Keep exploring the other isles and\n"
+	.string "report your progress to me!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_23:
+#if GERMAN
 	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Mele-Mele\l"
@@ -716,12 +884,29 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_23:
 	.string "{COLOR RED}Snobilikat{COLOR DARK_GRAY}.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
+#else
+	.string "Let me take a look at your Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
+	.string "It seems you haven't quite found all of\n"
+	.string "the Alolan variants on Melemele Isle\l"
+	.string "just yet.\p"
+	.string "I've heard Melemele Isle has {COLOR RED}4 {COLOR DARK_GRAY}Alolan\n"
+	.string "variants for you to find…\p"
+	.string "{COLOR RED}Rattata{COLOR DARK_GRAY}, {COLOR RED}Raticate{COLOR DARK_GRAY}, {COLOR RED}Meowth{COLOR DARK_GRAY}, and {COLOR RED}Persian{COLOR DARK_GRAY}.\p"
+	.string "Keep on searching and come back when\n"
+	.string "you've caught them all!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_24:
+#if GERMAN
 	.string "Du hast alle Alola-Formen gefunden,\n"
-	.string "die auf Akala leben!$"
+	.string "die auf {COLOR RED}Akala{COLOR DARK_GRAY} leben!$"
+#else
+	.string "You found all the Alolan variants living\n"
+	.string "on Akala Isle!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_25:
+#if GERMAN
 	.string "Du hast mir bestätigt, dass alle\n"
 	.string "Alola-Formen auf den Alola-Inseln\l"
 	.string "vorkommen!\p"
@@ -735,17 +920,41 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_25:
 	.string "als ihre normalen Artgenossen…\p"
 	.string "Man weiß nie, wer beobachtet, ob\n"
 	.string "du ein würdiger Gegner bist!$"
+#else
+	.string "Now that you've helped me validate that\n"
+	.string "all of the Alolan variants are present\l"
+	.string "on the Alola Isles.\p"
+	.string "I'd like you to help me with one more\n"
+	.string "thing…\p"
+	.string "Could you help me investigate the Totem\n"
+	.string "Pokémon that are said to be guarding\l"
+	.string "the totems on each isle?\p"
+	.string "But beware! These Totem Pokémon are\n"
+	.string "said to be much stronger than their\l"
+	.string "normal counterparts…\p"
+	.string "You never know who might be watching\n"
+	.string "to see if you are a worthy opponent!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_26:
+#if GERMAN
 	.string "Wie es scheint, hast du bereits\n"
-	.string "alle Alola-Formen auf Akala\l"
+	.string "alle Alola-Formen auf {COLOR RED}Akala{COLOR DARK_GRAY}\l"
 	.string "gefunden!\p"
 	.string "Großartige Arbeit!\p"
 	.string "Erkunde weiter die anderen Inseln\n"
 	.string "und berichte mir von deinen\l"
 	.string "Fortschritten!$"
+#else
+	.string "It seems you've already found all the\n"
+	.string "Alolan variants on Akala Isle!\p"
+	.string "Great job!\p"
+	.string "Keep exploring the other isles and\n"
+	.string "report your progress to me!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_27:
+#if GERMAN
 	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Akala gefunden.\p"
@@ -754,21 +963,46 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_27:
 	.string "{COLOR RED}Knogga{COLOR DARK_GRAY}, {COLOR RED}Digda{COLOR DARK_GRAY} und {COLOR RED}Digdri{COLOR DARK_GRAY}.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
+#else
+	.string "Let me take a look at your Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
+	.string "It seems you haven't quite found all of\n"
+	.string "the Alolan variants on Akala Isle\l"
+	.string "just yet.\p"
+	.string "I've heard Akala Isle has {COLOR RED}3 {COLOR DARK_GRAY}Alolan\n"
+	.string "variants for you to find…\p"
+	.string "{COLOR RED}Marowak{COLOR DARK_GRAY}, {COLOR RED}Diglett{COLOR DARK_GRAY}, and {COLOR RED}Dugtrio{COLOR DARK_GRAY}.\p"
+	.string "Keep on searching and come back when\n"
+	.string "you've caught them all!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_28:
+#if GERMAN
 	.string "Du hast alle Alola-Formen gefunden,\n"
-	.string "die auf Ula-Ula leben!$"
+	.string "die auf {COLOR RED}Ula-Ula{COLOR DARK_GRAY} leben!$"
+#else
+	.string "You found all the Alolan variants living\n"
+	.string "on Ula'ula Isle!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_29:
+#if GERMAN
 	.string "Wie es scheint, hast du bereits\n"
-	.string "alle Alola-Formen auf Ula-Ula\l"
+	.string "alle Alola-Formen auf {COLOR RED}Ula-Ula{COLOR DARK_GRAY}\l"
 	.string "gefunden!\p"
 	.string "Großartige Arbeit!\p"
 	.string "Erkunde weiter die anderen Inseln\n"
 	.string "und berichte mir von deinen\l"
 	.string "Fortschritten!$"
+#else
+	.string "It seems you've already found all the\n"
+	.string "Alolan variants on Ula'ula Isle!\p"
+	.string "Great job!\p"
+	.string "Keep exploring the other isles and\n"
+	.string "report your progress to me!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_30:
+#if GERMAN
 	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Ula-Ula gefunden.\p"
@@ -778,12 +1012,30 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_30:
 	.string "{COLOR RED}Sleima{COLOR DARK_GRAY} und {COLOR RED}Sleimok{COLOR DARK_GRAY}.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
+#else
+	.string "Let me take a look at your Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
+	.string "It seems you haven't quite found all of\n"
+	.string "the Alolan variants on Ula'ula Isle\l"
+	.string "just yet.\p"
+	.string "I've heard Ula'ula Isle has {COLOR RED}6 {COLOR DARK_GRAY}Alolan\n"
+	.string "variants for you to find…\p"
+	.string "{COLOR RED}Vulpix{COLOR DARK_GRAY}, {COLOR RED}Ninetales{COLOR DARK_GRAY}, {COLOR RED}Sandshrew{COLOR DARK_GRAY}, {COLOR RED}Sandslash{COLOR DARK_GRAY},\n"
+	.string "{COLOR RED}Grimer{COLOR DARK_GRAY}, and {COLOR RED}Muk{COLOR DARK_GRAY}.\p"
+	.string "Keep on searching and come back when\n"
+	.string "you've caught them all!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_31:
+#if GERMAN
 	.string "Du hast alle Alola-Formen gefunden,\n"
 	.string "die auf Poni leben!$"
+#else
+	.string "You found all the Alolan variants living\n"
+	.string "on Poni Isle!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_32:
+#if GERMAN
 	.string "Wie es scheint, hast du bereits\n"
 	.string "alle Alola-Formen auf Poni\l"
 	.string "gefunden!\p"
@@ -791,8 +1043,16 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_32:
 	.string "Erkunde weiter die anderen Inseln\n"
 	.string "und berichte mir von deinen\l"
 	.string "Fortschritten!$"
+#else
+	.string "It seems you've already found all the\n"
+	.string "Alolan variants on Poni Isle!\p"
+	.string "Great job!\p"
+	.string "Keep exploring the other isles and\n"
+	.string "report your progress to me!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_33:
+#if GERMAN
 	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Poni gefunden.\p"
@@ -802,8 +1062,26 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_33:
 	.string "{COLOR RED}Geowaz{COLOR DARK_GRAY} und {COLOR RED}Kokowei{COLOR DARK_GRAY}.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
+#else
+	.string "Let me take a look at your Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
+	.string "It seems you haven't quite found all of\n"
+	.string "the Alolan variants on Poni Isle\l"
+	.string "just yet.\p"
+	.string "I've heard Poni Isle has {COLOR RED}5 {COLOR DARK_GRAY}Alolan\n"
+	.string "variants for you to find…\p"
+	.string "{COLOR RED}Raichu{COLOR DARK_GRAY}, {COLOR RED}Geodude{COLOR DARK_GRAY}, {COLOR RED}Graveler{COLOR DARK_GRAY}, {COLOR RED}Golem{COLOR DARK_GRAY},\n"
+	.string "and {COLOR RED}Exeggutor{COLOR DARK_GRAY}.\p"
+	.string "Keep on searching and come back when\n"
+	.string "you've caught them all!$"
+#endif
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_34:
+#if GERMAN
 	.string "Kein Problem, {PLAYER}!\p"
 	.string "Komm wieder, wenn du mir von den\n"
 	.string "Alola-Inseln berichten möchtest!$"
+#else
+	.string "No worries, {PLAYER}!\p"
+	.string "Come back when you'd like to share your\n"
+	.string "findings about the Alola Isles!$"
+#endif

@@ -6,6 +6,11 @@ UndergroundPath_SouthEntrance_EventScript_Woman::
 	end
 
 UndergroundPath_SouthEntrance_Text_PeopleLoseThingsInTheDarkness::
+#if GERMAN
 	.string "Schon viele Leute haben Dinge auf\n"
 	.string "dem Tunnelpfad verloren.$"
+#else
+	.string "People often lose things in the\n"
+	.string "darkness of the UNDERGROUND PATH.$"
+#endif
 

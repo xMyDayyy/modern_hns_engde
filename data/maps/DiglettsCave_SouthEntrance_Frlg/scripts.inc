@@ -6,8 +6,15 @@ DiglettsCave_SouthEntrance_EventScript_OldMan::
 	end
 
 DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel::
+#if GERMAN
 	.string "Das ist cool!\n"
 	.string "Digda hat einen Tunnel gegraben!\p"
-	.string "Er führt direkt nach Vertania\n"
+	.string "Er führt direkt nach {COLOR RED}Vertania{COLOR DARK_GRAY}\n"
 	.string "City!$"
+#else
+	.string "Well, isn't this a surprise!\n"
+	.string "DIGLETT dug this long tunnel!\p"
+	.string "It goes right to VIRIDIAN CITY,\n"
+	.string "they tell me.$"
+#endif
 

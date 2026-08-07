@@ -166,47 +166,100 @@ PalletTown_RivalsHouse_EventScript_Picture::
 	end
 
 PalletTown_RivalsHouse_Text_HiBrothersAtLab::
+#if GERMAN
 	.string "Sarah: Hallo {PLAYER}!\p"
 	.string "{RIVAL} wartet in Opas Labor.$"
+#else
+	.string "DAISY: Hi, {PLAYER}!\p"
+	.string "My brother, {RIVAL}, is out at\n"
+	.string "Grandpa's LAB.$"
+#endif
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
+#if GERMAN
 	.string "Sarah: Hallo {PLAYER}! Ich hörte,\n"
 	.string "dass du gegen {RIVAL} \l"
 	.string "gekämpft hast.\l"
 	.string "Das hätte ich gerne gesehen!$"
+#else
+	.string "DAISY: {PLAYER}, I heard you had\n"
+	.string "a battle against {RIVAL}.\p"
+	.string "I wish I'd seen that!$"
+#endif
 
 PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
+#if GERMAN
 	.string "Opa hat dich um einen Botengang\n"
 	.string "gebeten?\p"
 	.string "Hier, das wird dir weiterhelfen!$"
+#else
+	.string "Grandpa asked you to run an\n"
+	.string "errand?\p"
+	.string "Gee, that's lazy of him.\n"
+	.string "Here, this will help you.$"
+#endif
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "eine Karte!$"
+#else
+	.string "{PLAYER} received a TOWN MAP\n"
+	.string "from DAISY.$"
+#endif
 
 PalletTown_RivalsHouse_Text_DontHaveSpaceForThis::
+#if GERMAN
 	.string "Du trägst zu viele Dinge mit dir\n"
 	.string "herum!$"
+#else
+	.string "You don't have space for this in\n"
+	.string "your BAG.$"
+#endif
 
 PalletTown_RivalsHouse_Text_ExplainTownMap::
+#if GERMAN
 	.string "Benutze die Karte, um deinen\n"
 	.string "Standort zu bestimmen.$"
+#else
+	.string "You can use the TOWN MAP to find\n"
+	.string "out where you are, or check the\l"
+	.string "names of places.$"
+#endif
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
+#if GERMAN
 	.string "Sarah: Wie Menschen sind\n"
 	.string "Pokémon Lebewesen!\p"
 	.string "Wenn sie erschöpft sind,\n"
 	.string "brauchen sie eine Pause!$"
+#else
+	.string "DAISY: Just like people, POKéMON\n"
+	.string "are living things.\p"
+	.string "When they get tired, please give\n"
+	.string "them a rest.$"
+#endif
 
 PalletTown_RivalsHouse_Text_ItsBigMapOfKanto::
+#if GERMAN
 	.string "Eine große Karte!\n"
 	.string "Sie ist nützlich!$"
+#else
+	.string "It's a big map of the KANTO region.\n"
+	.string "Now this would be useful!$"
+#endif
 
 PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks::
+#if GERMAN
 	.string "Wow! Unmengen von Büchern über\n"
 	.string "Pokémon!$"
+#else
+	.string "The shelves are crammed full of\n"
+	.string "books on POKéMON.$"
+#endif
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
+#if GERMAN
 	.string "Sarah: Hi! Gutes Timing. Ich war\n"
 	.string "gerade dabei, Tee zu machen.\p"
 	.string "Hättest du auch gern eine Tasse\n"
@@ -215,18 +268,41 @@ PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
 	.string "bisschen mitgenommen aus.\p"
 	.string "Möchtest du, dass ich eines für\n"
 	.string "dich verschönere?$"
+#else
+	.string "DAISY: Hi, {PLAYER}!\n"
+	.string "Good timing.\p"
+	.string "I'm about to have some tea.\n"
+	.string "Would you like to join me?\p"
+	.string "Oh, but look.\n"
+	.string "Your POKéMON are a little dirty.\p"
+	.string "Would you like me to groom one?$"
+#endif
 
 PalletTown_RivalsHouse_Text_DontNeedAnyGrooming::
+#if GERMAN
 	.string "Möchtest du keines deiner Pokémon\n"
 	.string "verschönern lassen?\l"
 	.string "Gut, dann trinken wir eben nur Tee.$"
+#else
+	.string "You don't need any grooming done?\n"
+	.string "Okay, we'll just have tea.$"
+#endif
 
 PalletTown_RivalsHouse_Text_GroomWhichOne::
+#if GERMAN
 	.string "Welches soll ich verschönern?$"
+#else
+	.string "Which one should I groom?$"
+#endif
 
 PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
+#if GERMAN
 	.string "Sarah: Gut. In kürzester Zeit wird\n"
 	.string "es hübsch und adrett aussehen.$"
+#else
+	.string "DAISY: Okay, I'll get it looking\n"
+	.string "nice in no time.$"
+#endif
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
 #ifdef BUGFIX @ The localizers missed what should be a textcolor change in the localizations.
@@ -241,54 +317,115 @@ PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
 	.string "Es ist so ein süßes Pokémon.$"
 
 PalletTown_RivalsHouse_Text_CantGroomAnEgg::
+#if GERMAN
 	.string "Es tut mir Leid, aber ich kann\n"
 	.string "wirklich kein Ei verschönern.$"
+#else
+	.string "Oh, sorry. I honestly can't\n"
+	.string "groom an EGG.$"
+#endif
 
 PalletTown_RivalsHouse_Text_MayISeeFirstMon::
+#if GERMAN
 	.string "Sarah: Deine Pokémon werden dich\n"
 	.string "lieben, wenn du sie mit Liebe\l"
 	.string "trainierst.\l"
 	.string "{PLAYER}, darf ich dein erstes\l"
 	.string "Pokémon sehen?$"
+#else
+	.string "DAISY: Your POKéMON grow to love\n"
+	.string "you if you raise them with love.\p"
+	.string "For example, {PLAYER}, may I see\n"
+	.string "your first POKéMON?$"
+#endif
 
 PalletTown_RivalsHouse_Text_CouldntLoveYouMore::
+#if GERMAN
 	.string "Es liebt dich über alles! Das ist\n"
 	.string "so wunderbar und toll!\p"
 	.string "Dein Pokémon könnte nicht\n"
 	.string "glücklicher sein!$"
+#else
+	.string "It couldn't possibly love you\n"
+	.string "any more than it does now.\p"
+	.string "Your POKéMON is happy beyond\n"
+	.string "words.$"
+#endif
 
 PalletTown_RivalsHouse_Text_ItLooksVeryHappy::
+#if GERMAN
 	.string "Es ist sehr glücklich!\p"
 	.string "Ich wünschte, {RIVAL} könnte das\n"
 	.string "sehen und etwas daraus lernen.$"
+#else
+	.string "It looks very happy.\p"
+	.string "I wish {RIVAL} could see this and\n"
+	.string "learn something from it.$"
+#endif
 
 PalletTown_RivalsHouse_Text_ItsQuiteFriendly::
+#if GERMAN
 	.string "Es ist ein guter Freund von dir!\n"
 	.string "Behandle es weiterhin gut!$"
+#else
+	.string "It's quite friendly with you.\n"
+	.string "Keep being good to it!$"
+#endif
 
 PalletTown_RivalsHouse_Text_ItsWarmingUpToYou::
+#if GERMAN
 	.string "Es nähert sich dir an! Euer gegen-\n"
 	.string "seitiges Vertrauen muss noch\l"
 	.string "besser werden!$"
+#else
+	.string "It's warming up to you.\n"
+	.string "Trust must be growing between you.$"
+#endif
 
 PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet::
+#if GERMAN
 	.string "Es kennt dich noch nicht gut!\p"
 	.string "Pokémon sind zunächst skeptisch,\n"
 	.string "wenn man sie fängt!$"
+#else
+	.string "It's not quite familiar with you\n"
+	.string "yet.\p"
+	.string "POKéMON are all quite wary when\n"
+	.string "you first get them.$"
+#endif
 
 PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou::
+#if GERMAN
 	.string "{PLAYER}, ich mag gar nicht, wie es\n"
 	.string "dich anschaut!\p"
 	.string "Du solltest etwas liebevoller mit\n"
 	.string "ihm umgehen!$"
+#else
+	.string "{PLAYER}, I don't like the way it\n"
+	.string "glares at you.\p"
+	.string "Could you try being a little nicer\n"
+	.string "to it?$"
+#endif
 
 PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch::
+#if GERMAN
 	.string "… äh, ich weiß nicht wie ich\n"
 	.string "es sagen soll, aber…\p"
 	.string "Gibt es einen Grund, warum dich\n"
 	.string "dein Pokémon so abgrundtief hasst?$"
+#else
+	.string "…Um, it's not easy for me to say\n"
+	.string "this, but…\p"
+	.string "Is there some reason why your\n"
+	.string "POKéMON would hate you so much?$"
+#endif
 
 PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy::
+#if GERMAN
 	.string "Das liebliche, zuckersüße\n"
 	.string "Piepi.$"
+#else
+	.string "“The lovely and sweet\n"
+	.string "CLEFAIRY”$"
+#endif
 

@@ -9,15 +9,30 @@ MtPyre_5F_EventScript_Atsushi::
 	end
 
 MtPyre_5F_Text_AtsushiIntro:
+#if GERMAN
 	.string "Mein Lehrer…\n"
 	.string "Bitte achtet auf meine Fortschritte!$"
+#else
+	.string "Teacher…\n"
+	.string "Please watch over my progress!$"
+#endif
 
 MtPyre_5F_Text_AtsushiDefeat:
+#if GERMAN
 	.string "Mein Lehrer…\n"
 	.string "Bitte verzeiht mir!$"
+#else
+	.string "Teacher…\n"
+	.string "Please forgive me!$"
+#endif
 
 MtPyre_5F_Text_AtsushiPostBattle:
+#if GERMAN
 	.string "Wenn ich nicht besser werde, wird mein\n"
 	.string "Lehrer, der hier ruht, keine Ruhe\l"
 	.string "finden.$"
+#else
+	.string "Until I improve, my teacher, who rests\n"
+	.string "here, will never find true peace…$"
+#endif
 

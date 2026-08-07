@@ -72,18 +72,33 @@ OlivineCity_Gym_EventScript_MoveLeft4::
 	return
 
 OlivineCity_Gym_Text_Gent:
+#if GERMAN
 	.string "So so, du bist also wirklich gekommen.\p"
 	.string "Du magst der Arenaleiterin vielleicht\n"
 	.string "geholfen haben, aber in der Arena gilt\l"
 	.string "immer noch das Gesetz des Stärkeren!\p"
 	.string "Kämpfe entweder richtig oder gar nicht!$"
+#else
+	.string "I knew you'd come here.\p"
+	.string "Thank you for helping the GYM LEADER,\n"
+	.string "but battle is a separate matter.\p"
+	.string "Go for it!$"
+#endif
 
 OlivineCity_Gym_Text_Gent2:
+#if GERMAN
 	.string "Das war ausgezeichnet! So solltest du\n"
 	.string "auf deiner Reise keine Probleme haben!\p"
 	.string "Und wo du nun schon mal im Besitz von\n"
 	.string "Surfer bist, solltest du auch mal am See\l"
 	.string "des Zorns vorbeischauen!$"
+#else
+	.string "Impressive!\n"
+	.string "You should continue your journey to\l"
+	.string "different places.\p"
+	.string "Since you can use SURF, why don't you\n"
+	.string "try it on the LAKE OF RAGE?$"
+#endif
 
 OlivineCity_Gym_EventScript_Lass::
 	lock
@@ -156,17 +171,32 @@ OlivineCity_Gym_EventScript_MoveRight4::
 	return
 
 OlivineCity_Gym_Text_Lass:
-	.string "Hehe! Du hast mir im Leuchtturm bereits\n"
+#if GERMAN
+	.string "Hehe! Du hast mir im {COLOR RED}Leuchtturm{COLOR DARK_GRAY} bereits\n"
 	.string "bewiesen, wie stark du wirklich bist.\p"
 	.string "Aber du wirst all deine Kraft brauchen,\n"
 	.string "um im Kampf gegen Jasmin zu bestehen!\p"
 	.string "…Ich hoffe, du gewinnst!$"
+#else
+	.string "Giggle...\n"
+	.string "I know how capable you are\l"
+	.string "from the LIGHTHOUSE.\p"
+	.string "It's time you showed that side of\n"
+	.string "yourself to JASMINE! Good luck!$"
+#endif
 
 OlivineCity_Gym_Text_Lass2:
+#if GERMAN
 	.string "Das war unbeschreiblich…\p"
 	.string "So stark wie du bist, solltest du\n"
 	.string "unbedingt weiterkämpfen!\p"
-	.string "Warst du schon in Mahagonia City?$"
+	.string "Warst du schon in {COLOR RED}Mahagonia City{COLOR DARK_GRAY}?$"
+#else
+	.string "You are amazing...\n"
+	.string "You should aim even higher, since\l"
+	.string "you have such potential.\p"
+	.string "Have you been to MAHOGANY TOWN?$"
+#endif
 
 OlivineCity_Gym_EventScript_GymGuide::
 	lock
@@ -191,6 +221,7 @@ OlivineCity_Gym_EventScript_GymGuideAfter::
 	end
 
 OlivineCity_Gym_Text_GymGuideText:
+#if GERMAN
 	.string "Jasmin setzt den neu entdeckten\n"
 	.string "Typ Stahl ein.\p"
 	.string "Sie ist für gleich zwei Asse\n"
@@ -205,20 +236,51 @@ OlivineCity_Gym_Text_GymGuideText:
 	.string "Sie wirkt träge, doch ich habe sie\n"
 	.string "schon verblüffend schnell zuschlagen\l"
 	.string "sehen.$"
+#else
+	.string "JASMINE uses the newly discovered\n"
+	.string "STEEL-type.\p"
+	.string "She's known for having not one,\n"
+	.string "but two aces.\p"
+	.string "The first is a metal bug that can\n"
+	.string "use a technique to boost its ATTACK.\p"
+	.string "While fire will hurt it, it can\n"
+	.string "sometimes endure powerful blows.\p"
+	.string "The second is a giant iron snake\n"
+	.string "with lots of powerful moves.\p"
+	.string "Approach it with caution.\p"
+	.string "It may look slow, but I've seen it\n"
+	.string "strike first with shocking displays\l"
+	.string "of SPEED.$"
+#endif
 
 OlivineCity_Gym_Text_GymGuideWinText:
+#if GERMAN
 	.string "Das war großartig!\p"
 	.string "Der Typ Stahl, was?\p"
 	.string "Das war eine unheimliche\n"
 	.string "Begegnung der unbekannten Art.$"
+#else
+	.string "That was awesome.\p"
+	.string "The STEEL-type, huh?\p"
+	.string "That was a close encounter of an\n"
+	.string "unknown kind!$"
+#endif
 
 OlivineCity_Gym_Text_GymGuidePreText:
+#if GERMAN
 	.string "Wo Jasmin, die Arenaleiterin, ist?\p"
-	.string "Dem Pokémon im Leuchtturm scheint\n"
+	.string "Dem Pokémon im {COLOR RED}Leuchtturm{COLOR DARK_GRAY} scheint\n"
 	.string "es nicht sehr gut zu gehen, und sie\l"
 	.string "sieht dort gerade nach dem Rechten.\p"
 	.string "Ein wirklich starker Trainer muss neben\n"
 	.string "Stärke auch Mitgefühl beweisen können.$"
+#else
+	.string "JASMINE, the GYM LEADER, is at the\n"
+	.string "LIGHTHOUSE.\p"
+	.string "She's been tending to a sick POKéMON.\p"
+	.string "A strong trainer has to be\n"
+	.string "compassionate.$"
+#endif
 
 OlivineCity_Gym_EventScript_Jasmine::
 	lock
@@ -275,8 +337,9 @@ OlivineCity_Gym_EventScript_Jasmine_Defeated::
 
 
 OlivineCity_Gym_Text_JasmineSteelTypeIntro:
+#if GERMAN
 	.string "…Danke für deine Hilfe am\n"
-	.string "Leuchtturm…\p"
+	.string "{COLOR RED}Leuchtturm{COLOR DARK_GRAY}…\p"
 	.string "Aber das hier ist anders.\n"
 	.string "Darf ich mich vorstellen?\p"
 	.string "Ich bin Jasmin, Arenaleiterin.\p"
@@ -284,43 +347,95 @@ OlivineCity_Gym_Text_JasmineSteelTypeIntro:
 	.string "…Kennst du den Stahl-Typ?\p"
 	.string "Er wurde erst kürzlich entdeckt.\p"
 	.string "…Ähm… Soll ich anfangen?$"
+#else
+	.string "…Thank you for your help at the\n"
+	.string "LIGHTHOUSE…\p"
+	.string "But this is different.\n"
+	.string "Please allow me to introduce myself.\p"
+	.string "I am JASMINE, a GYM LEADER.\n"
+	.string "I use the STEEL-type.\p"
+	.string "…Do you know about the STEEL-type?\p"
+	.string "It's a type that was only recently\n"
+	.string "discovered.\p"
+	.string "…Um… May I begin?$"
+#endif
 
 OlivineCity_Gym_Text_JasmineBetterTrainer:
+#if GERMAN
 	.string "Jasmin: Du scheinst der bessere Trainer\n"
 	.string "von uns beiden zu sein.\p"
 	.string "Das gilt sowohl für dein Geschick als\n"
 	.string "auch für dein Feingefühl.\p"
 	.string "In Übereinstimmung mit den Regeln der\n"
 	.string "Liga überreiche ich dir diesen Orden!$"
+#else
+	.string "…You are a better trainer than me,\n"
+	.string "in both skill and kindness.\p"
+	.string "In accordance with LEAGUE rules,\n"
+	.string "I confer upon you this BADGE.$"
+#endif
 
 OlivineCity_Gym_Text_ReceivedMineralBadge:
+#if GERMAN
 	.string "{PLAYER} erhält den Stahlorden!$"
+#else
+	.string "{PLAYER} received MINERALBADGE.$"
+#endif
 
 OlivineCity_Gym_Text_JasmineBadgeSpeech:
+#if GERMAN
 	.string "Stahlorden erhöht die\n"
 	.string "Spezial-Verteidigung von Pokémon.\p"
 	.string "…Ähm… Bitte nimm dies auch…$"
+#else
+	.string "MINERALBADGE raises POKéMON's \n"
+	.string "SPECIAL DEFENSE.\p"
+	.string "…Um… Please take this too…$"
+#endif
 
 OlivineCity_Gym_Text_JasmineIronTailSpeech:
+#if GERMAN
 	.string "…Damit kannst du die Attacke\n"
 	.string "Eisenschweif lehren.$"
+#else
+	.string "…You could use that TM to teach\n"
+	.string "IRON TAIL.$"
+#endif
 
 OlivineCity_Gym_Text_JasmineGoodLuck:
+#if GERMAN
 	.string "Jasmin: Ähm… ich weiß nicht, wie\n"
 	.string "ich das am besten sagen soll, aber…\p"
 	.string "Viel Glück!$"
+#else
+	.string "Um… I don't know how to say this,\n"
+	.string "but good luck…$"
+#endif
 
 OlivineCity_Gym_Text_JasmineRematchText:
+#if GERMAN
 	.string "…Glückwunsch, Johto Champion.\p"
 	.string "Du bist so stark geworden…\p"
 	.string "Ich frage mich, ob ich mich\n"
 	.string "verbessert habe.\p"
 	.string "Willst du es testen?\p"
 	.string "Willst du ein Rematch mit mir?$"
+#else
+	.string "…Congratulations, JOHTO CHAMPION.\p"
+	.string "You have become so strong…\p"
+	.string "I wonder if I have improved.\p"
+	.string "Would you like to test that?\p"
+	.string "Want to have a rematch with me?$"
+#endif
 
 OlivineCity_Gym_Text_JasmineRematchDefeatText:
+#if GERMAN
 	.string "…Du bist ein besserer Trainer\n"
 	.string "als ich, in Können und Herz.$"
+#else
+	.string "…You are a better trainer than me,\n"
+	.string "in both skill and kindness.$"
+#endif
 
 OlivineCity_Gym_EventScript_Statue::
 	lock
@@ -337,13 +452,23 @@ OlivineCity_Gym_EventScript_Statue2::
 	end
 
 OlivineCity_Gym_Text_GymStatue:
+#if GERMAN
 	.string "Pokémon-Arena von Oliviana City$"
+#else
+	.string "OLIVINE CITY POKéMON GYM$"
+#endif
 
 OlivineCity_Gym_Text_GymStatueCertified:
+#if GERMAN
 	.string "Pokémon-Arena von Oliviana City\p"
 	.string "Leiterin: Jasmin\n"
 	.string "Anerkannte Trainer:\p"
 	.string "{PLAYER}$"
+#else
+	.string "OLIVINE CITY POKéMON GYM\p"
+	.string "JASMINE'S CERTIFIED TRAINERS:\n"
+	.string "{PLAYER}$"
+#endif
 
 OlivineCity_Gym_EventScript_Jasmine_Trade::
 	goto_if_set FLAG_OLIVINE_GYM_NPC_TRADE_COMPLETED, OlivineCity_Gym_EventScript_JasmineTradeCompleted
@@ -373,6 +498,7 @@ OlivineCity_Gym_EventScript_JasmineTradeCompleted::
 	end
 
 OlivineCity_Gym_Text_JasmineWantToTrade:
+#if GERMAN
 	.string "…Um, {PLAYER}…\n"
 	.string "Ich wollte dich was fragen.\p"
 	.string "Ich habe dieses Stahlos aufgezogen\n"
@@ -381,15 +507,40 @@ OlivineCity_Gym_Text_JasmineWantToTrade:
 	.string "glücklicher bei einem Trainer\l"
 	.string "Wie dir. Möchtest du ein\p"
 	.string "Pokémon für mein Rusty tauschen?$"
+#else
+	.string "…Um, {PLAYER}…\n"
+	.string "I have something to ask you.\p"
+	.string "I've raised this STEELIX since it\n"
+	.string "was a little ONIX.\p"
+	.string "But I think RUSTY would be happier\n"
+	.string "with a trainer like you.\p"
+	.string "Would you trade any of your\n"
+	.string "POKéMON for my RUSTY?$"
+#endif
 
 OlivineCity_Gym_Text_JasmineTakeCare:
+#if GERMAN
 	.string "…Ich danke dir.\n"
 	.string "Sei bitte nett zu Rusty…$"
+#else
+	.string "…Thank you.\n"
+	.string "Please be kind to RUSTY…$"
+#endif
 
 OlivineCity_Gym_Text_JasmineDeclineTrade:
+#if GERMAN
 	.string "…Oh… schon okay.\n"
 	.string "Ich verstehe…$"
+#else
+	.string "…Oh… That's okay.\n"
+	.string "I understand…$"
+#endif
 
 OlivineCity_Gym_Text_JasmineTradeCompleted:
+#if GERMAN
 	.string "…Wie geht es Rusty?\n"
 	.string "Ich hoffe du kümmerst dich…$"
+#else
+	.string "…How is RUSTY doing?\n"
+	.string "I hope you're taking good care…$"
+#endif

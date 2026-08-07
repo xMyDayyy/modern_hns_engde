@@ -118,6 +118,7 @@ TwoIsland_House_EventScript_SetHasBothMushrooms::
 	return
 
 TwoIsland_House_Text_TeachMonMoveForMushroom::
+#if GERMAN
 	.string "Ich bin der Pokémon-Attacken-\n"
 	.string "Maniac!\p"
 	.string "Ich kenne jede Attacke, die\n"
@@ -128,43 +129,99 @@ TwoIsland_House_Text_TeachMonMoveForMushroom::
 	.string "einen Riesenpilz.\p"
 	.string "Dafür bringe ich einem deiner\n"
 	.string "Pokémon eine Attacke bei.$"
+#else
+	.string "I'm the POKéMON MOVE MANIAC.\p"
+	.string "I know every single move that\n"
+	.string "POKéMON learn growing up.\p"
+	.string "I'm also a mushroom maniac.\p"
+	.string "Bring me two TINYMUSHROOMS,\n"
+	.string "or one BIG MUSHROOM.\p"
+	.string "If you do that for me, I'll teach\n"
+	.string "a move to one POKéMON.$"
+#endif
 
 TwoIsland_House_Text_WantMeToTeachMove::
+#if GERMAN
 	.string "Schnief, schnief…\n"
 	.string "Hm! Du riechst nach Pilzen!\p"
 	.string "Soll ich einem deiner Pokémon\n"
 	.string "eine Attacke beibringen?$"
+#else
+	.string "Sniff, sniff…\n"
+	.string "Hm! You smell of MUSHROOMS!\p"
+	.string "Do you want me to teach a move\n"
+	.string "to a POKéMON of yours?$"
+#endif
 
 TwoIsland_House_Text_TutorWhichMon::
+#if GERMAN
 	.string "Welches Pokémon soll sie lernen?$"
+#else
+	.string "Which POKéMON needs tutoring?$"
+#endif
 
 TwoIsland_House_Text_TeachWhichMove::
+#if GERMAN
 	.string "Welche Attacke soll ich es lehren?$"
+#else
+	.string "Which move should I teach?$"
+#endif
 
 TwoIsland_House_Text_NoMoveICanTeachThatMon::
+#if GERMAN
 	.string "Tut mir Leid...\p"
 	.string "Scheinbar gibt es keine Attacke,\n"
 	.string "die ich diesem Pokémon beibringen\l"
 	.string "kann.$"
+#else
+	.string "Sorry…\p"
+	.string "It doesn't appear as if I have a\n"
+	.string "move I can teach that POKéMON.$"
+#endif
 
 TwoIsland_House_Text_IllNeedMushroomOrTwo::
+#if GERMAN
 	.string "Gib mir einen oder zwei Pilze!\n"
 	.string "Was willst du mir geben?$"
+#else
+	.string "Then, I'll need a MUSHROOM or two.\n"
+	.string "What are you going to give me?$"
+#endif
 
 TwoIsland_House_Text_HandedOverTwoTinyMushrooms::
+#if GERMAN
 	.string "{PLAYER} übergibt zwei\n"
 	.string "Minipilze.$"
+#else
+	.string "{PLAYER} handed over two\n"
+	.string "TINYMUSHROOMS in exchange.$"
+#endif
 
 TwoIsland_House_Text_HandedOverOneBigMushroom::
+#if GERMAN
 	.string "{PLAYER} übergibt einen\n"
 	.string "Riesenpilz.$"
+#else
+	.string "{PLAYER} handed over one\n"
+	.string "BIG MUSHROOM in exchange.$"
+#endif
 
 TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove::
+#if GERMAN
 	.string "Falls deine Pokémon eine\n"
 	.string "Attacke lernen sollen, musst du\l"
 	.string "mir einen oder zwei Pilze geben!$"
+#else
+	.string "If your POKéMON need to learn a\n"
+	.string "move, I need a MUSHROOM or two.$"
+#endif
 
 TwoIsland_House_Text_CantTeachAnEgg::
+#if GERMAN
 	.string "Bitte? Ich kann einem Ei nicht eine\n"
 	.string "einzige Attacke beibringen!$"
+#else
+	.string "Hunh? There isn't a single move\n"
+	.string "that I can teach an EGG.$"
+#endif
 

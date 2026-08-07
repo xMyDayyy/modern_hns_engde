@@ -17,6 +17,7 @@ MagmaHideout_1F_EventScript_Grunt2::
 	end
 
 MagmaHideout_1F_Text_Grunt1Intro:
+#if GERMAN
 	.string "Wenn Team Magma zum Appell antritt,\n"
 	.string "bekommen wir wichtige Aufgaben\l"
 	.string "zugeteilt und zwar in der Reihenfolge,\n"
@@ -25,18 +26,37 @@ MagmaHideout_1F_Text_Grunt1Intro:
 	.string "ich hier in der Ecke bleiben. Ich\n"
 	.string "komme\l"
 	.string "nämlich immer zu spät zum Appell.$"
+#else
+	.string "When TEAM MAGMA has roll call, we get\n"
+	.string "important guarding assignments in\l"
+	.string "the order that we line up.\p"
+	.string "That's why I'm stuck off in this corner.\n"
+	.string "I'm always late to roll call!$"
+#endif
 
 MagmaHideout_1F_Text_Grunt1Defeat:
+#if GERMAN
 	.string "Ich komme auch immer zu spät zum\n"
 	.string "Training!\p"
 	.string "Ich gebe es nur ungern zu, aber ich\n"
 	.string "gebe ein jämmerliches Mitglied ab…$"
+#else
+	.string "I'm always late for training sessions,\n"
+	.string "too!\p"
+	.string "I hate to say it, but I'm wimpy…$"
+#endif
 
 MagmaHideout_1F_Text_Grunt1PostBattle:
+#if GERMAN
 	.string "Von nun an werde ich mich in allen\n"
 	.string "Dingen mehr anstrengen!$"
+#else
+	.string "Okay, I'll try to put a little more\n"
+	.string "effort into things from now on…$"
+#endif
 
 MagmaHideout_1F_Text_Grunt2Intro:
+#if GERMAN
 	.string "Unser Boss hat uns gesagt, wir sollen\n"
 	.string "im Schlotberg Grabungen durchführen,\l"
 	.string "daher haben wir gegraben und gegraben…\n"
@@ -46,14 +66,35 @@ MagmaHideout_1F_Text_Grunt2Intro:
 	.string "Was das war?!?\p"
 	.string "Hahaha! Das verrate ich dir, wenn\n"
 	.string "du mich besiegst.$"
+#else
+	.string "Our leader told us to dig into\n"
+	.string "MT. CHIMNEY, so we dug and dug.\p"
+	.string "And in the course of digging, we came\n"
+	.string "across something that blew our minds!\p"
+	.string "What did we find?\p"
+	.string "Fuhahaha!\n"
+	.string "I'll tell you if you beat me!$"
+#endif
 
 MagmaHideout_1F_Text_Grunt2Defeat:
+#if GERMAN
 	.string "Aaaarrgh! Treffer, versenkt.$"
+#else
+	.string "Arrgh!\n"
+	.string "Taken down!$"
+#endif
 
 MagmaHideout_1F_Text_Grunt2PostBattle:
+#if GERMAN
 	.string "Ich verrate es dir trotzdem nicht.\n"
 	.string "Du wirst das schon herausfinden, wenn\l"
 	.string "du dorthin gehst.\p"
 	.string "Schließlich darf man sich nicht jede\n"
 	.string "Überraschung nehmen lassen.$"
+#else
+	.string "I won't tell you after all.\n"
+	.string "You'll find out when you get there!\p"
+	.string "It'd be better if you saved surprises\n"
+	.string "to the end, don't you think?$"
+#endif
 

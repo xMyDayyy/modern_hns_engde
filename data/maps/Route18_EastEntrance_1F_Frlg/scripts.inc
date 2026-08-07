@@ -110,13 +110,27 @@ Route18_EastEntrance_1F_Movement_WalkRight::
 	step_end
 
 Route18_EastEntrance_1F_Text_NeedBicycleForCyclingRoad::
+#if GERMAN
 	.string "Du benötigst ein Fahrrad, um den\n"
 	.string "Radweg zu nutzen!$"
+#else
+	.string "You need a BICYCLE to go out on\n"
+	.string "CYCLING ROAD!$"
+#endif
 
 Route18_EastEntrance_1F_Text_CyclingRoadAllUphillFromHere::
+#if GERMAN
 	.string "Der Radweg führt von hier aus den\n"
 	.string "Hügel hinauf.$"
+#else
+	.string "CYCLING ROAD is all uphill from\n"
+	.string "here.$"
+#endif
 
 Route18_EastEntrance_1F_Text_ExcuseMe::
+#if GERMAN
 	.string "Pardon!$"
+#else
+	.string "Excuse me!$"
+#endif
 

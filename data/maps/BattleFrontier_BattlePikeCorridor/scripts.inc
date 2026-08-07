@@ -55,6 +55,11 @@ BattleFrontier_BattlePikeCorridor_Movement_AttendantEnterCorridor:
 	step_end
 
 BattleFrontier_BattlePikeCorridor_Text_YourChallengeHasBegun:
+#if GERMAN
 	.string "Die Kampfbahn-Herausforderung\n"
 	.string "beginnt…$"
+#else
+	.string "Your Battle Choice challenge\n"
+	.string "has now begun…$"
+#endif
 

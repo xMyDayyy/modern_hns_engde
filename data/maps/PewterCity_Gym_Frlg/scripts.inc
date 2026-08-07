@@ -82,6 +82,7 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 PewterCity_Gym_Text_BrockIntro::
+#if GERMAN
 	.string "{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}Ich bin der Arenaleiter von\n"
 	.string "Marmoria City, Rocko!\p"
 	.string "Meine Devise ist eine steinharte\n"
@@ -92,8 +93,25 @@ PewterCity_Gym_Text_BrockIntro::
 	.string "Willst du es noch immer mit mir\n"
 	.string "aufnehmen?\p"
 	.string "O.k.! Zeige mir, wie gut du bist!{PLAY_BGM}?À$"
+#else
+	.string "So, you're here. I'm BROCK.\n"
+	.string "I'm PEWTER's GYM LEADER.\p"
+	.string "My rock-hard willpower is evident\n"
+	.string "even in my POKéMON.\p"
+	.string "My POKéMON are all rock hard, and\n"
+	.string "have true-grit determination.\p"
+	.string "That's right - my POKéMON are all\n"
+	.string "the ROCK type!\p"
+	.string "Fuhaha! You're going to challenge\n"
+	.string "me knowing that you'll lose?\p"
+	.string "That's the TRAINER's honor that\n"
+	.string "compels you to challenge me.\p"
+	.string "Fine, then!\n"
+	.string "Show me your best!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+#endif
 
 PewterCity_Gym_Text_BrockDefeat::
+#if GERMAN
 	.string "Ich habe dich falsch eingeschätzt!\p"
 	.string "Nimm den Felsorden als Zeichen\n"
 	.string "meiner Ehrerbietung!\p"
@@ -107,16 +125,42 @@ PewterCity_Gym_Text_BrockDefeat::
 	.string "jederzeit Blitz einsetzen!\p"
 	.string "Natürlich muss die Attacke\n"
 	.string "beherrscht werden.$"
+#else
+	.string "I took you for granted, and so\n"
+	.string "I lost.\p"
+	.string "As proof of your victory, I confer\n"
+	.string "on you this…the official POKéMON\l"
+	.string "LEAGUE BOULDERBADGE.\p"
+	.string "{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\n"
+	.string "from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
+	.string "{FONT_MALE}Just having the BOULDERBADGE makes\n"
+	.string "your POKéMON more powerful.\p"
+	.string "It also enables the use of the\n"
+	.string "move FLASH outside of battle.\p"
+	.string "Of course, a POKéMON must know the\n"
+	.string "move FLASH to use it.$"
+#endif
 
 PewterCity_Gym_Text_TakeThisWithYou::
+#if GERMAN
 	.string "Warte!\n"
 	.string "Nimm das hier mit!$"
+#else
+	.string "Wait!\n"
+	.string "Take this with you.$"
+#endif
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "TM39!$"
+#else
+	.string "{PLAYER} received TM39\n"
+	.string "from BROCK.$"
+#endif
 
 PewterCity_Gym_Text_ExplainTM39::
+#if GERMAN
 	.string "Eine TM enthält Attacken, die\n"
 	.string "Pokémon erlernen können!\p"
 	.string "Man kann eine TM nur ein einziges\n"
@@ -128,35 +172,80 @@ PewterCity_Gym_Text_ExplainTM39::
 	.string "beworfen und unter ihnen begraben.\l"
 	.string "Der INIT.-Wert des Gegners wird\l"
 	.string "zugleich gesenkt!$"
+#else
+	.string "A TM, Technical Machine, contains a\n"
+	.string "technique for POKéMON.\p"
+	.string "Using a TM teaches the move it\n"
+	.string "contains to a POKéMON.\p"
+	.string "A TM is good for only one use.\p"
+	.string "So, when you use one, pick the\n"
+	.string "POKéMON carefully.\p"
+	.string "Anyways…\n"
+	.string "TM39 contains ROCK TOMB.\p"
+	.string "It hurls boulders at the foe and\n"
+	.string "lowers its SPEED.$"
+#endif
 
 PewterCity_Gym_Text_BrockPostBattle::
+#if GERMAN
 	.string "Es gibt die verschiedensten Trainer\n"
 	.string "auf der Welt!\p"
 	.string "Du scheinst ein sehr begabter\n"
 	.string "Pokémon Trainer zu sein!\p"
 	.string "Gehe in die Pokémon-Arena von\n"
-	.string "Azuria City und teste dort dein\l"
+	.string "{COLOR RED}Azuria City{COLOR DARK_GRAY} und teste dort dein\l"
 	.string "Können!$"
+#else
+	.string "There are all kinds of TRAINERS in\n"
+	.string "this huge world of ours.\p"
+	.string "You appear to be very gifted as a\n"
+	.string "POKéMON TRAINER.\p"
+	.string "So let me make a suggestion.\p"
+	.string "Go to the GYM in CERULEAN and test\n"
+	.string "your abilities.$"
+#endif
 
 PewterCity_Gym_Text_DontHaveRoomForThis::
+#if GERMAN
 	.string "Du hast momentan keinen Platz für\n"
 	.string "weitere Items!$"
+#else
+	.string "You don't have room for this.$"
+#endif
 
 PewterCity_Gym_Text_LiamIntro::
+#if GERMAN
 	.string "Bleib stehen wo du bist, Kind!\p"
 	.string "Es dauert noch Lichtjahre, bis du\n"
 	.string "gegen Rocko antreten kannst!$"
+#else
+	.string "Stop right there, kid!\p"
+	.string "You're ten thousand light-years \n"
+	.string "from facing BROCK!$"
+#endif
 
 PewterCity_Gym_Text_LiamDefeat::
+#if GERMAN
 	.string "Mist!\p"
 	.string "Lichtjahre messen die Entfernung,\n"
 	.string "nicht die Zeit!$"
+#else
+	.string "Darn!\p"
+	.string "Light-years isn't time…\n"
+	.string "It measures distance!$"
+#endif
 
 PewterCity_Gym_Text_LiamPostBattle::
+#if GERMAN
 	.string "Du bist ganz gut, aber nicht so gut\n"
 	.string "wie Rocko!$"
+#else
+	.string "You're pretty hot.\n"
+	.string "…But not as hot as BROCK!$"
+#endif
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
+#if GERMAN
 	.string "Hallo!\p"
 	.string "Sieht aus, als hättest du das Zeug\n"
 	.string "zu einem Pokémon-Champion!\p"
@@ -164,12 +253,27 @@ PewterCity_Gym_Text_LetMeTakeYouToTheTop::
 	.string "dir ein paar Tipps geben!\p"
 	.string "Lass mich dir den Weg zum Erfolg\n"
 	.string "zeigen!$"
+#else
+	.string "Hiya!\n"
+	.string "Do you want to dream big?\p"
+	.string "Do you dare to dream of becoming\n"
+	.string "the POKéMON champ?\p"
+	.string "I'm no TRAINER, but I can advise\n"
+	.string "you on how to win.\p"
+	.string "Let me take you to the top!$"
+#endif
 
 PewterCity_Gym_Text_LetsGetHappening::
+#if GERMAN
 	.string "Alles klar!\n"
 	.string "Dann kann es losgehen!$"
+#else
+	.string "All right!\n"
+	.string "Let's get happening!$"
+#endif
 
 PewterCity_Gym_Text_TryDifferentPartyOrders::
+#if GERMAN
 	.string "Das Pokémon an der Spitze der\n"
 	.string "Pokémon-Liste kämpft als Erstes!\p"
 	.string "Wenn du die Reihenfolge der\n"
@@ -177,25 +281,57 @@ PewterCity_Gym_Text_TryDifferentPartyOrders::
 	.string "leichter werden!\p"
 	.string "Probiere es aus, um so deinem\n"
 	.string "Gegner besser zu trotzen!$"
+#else
+	.string "The first POKéMON out in a match is\n"
+	.string "at the left of the POKéMON LIST.\p"
+	.string "By changing the order of POKéMON,\n"
+	.string "you may gain an advantage.\p"
+	.string "Try different orders to suit your\n"
+	.string "opponent's party.$"
+#endif
 
 PewterCity_Gym_Text_ItsFreeLetsGetHappening::
+#if GERMAN
 	.string "Der Tipp ist kostenlos!\n"
 	.string "Lass uns anfangen!$"
+#else
+	.string "It's a free service!\n"
+	.string "Let's get happening!$"
+#endif
 
 PewterCity_Gym_Text_YoureChampMaterial::
+#if GERMAN
 	.string "Ganz wie ich es mir gedacht habe!\n"
 	.string "Aus dir kann ein Pokémon-Champion\l"
 	.string "werden!$"
+#else
+	.string "Just as I thought!\n"
+	.string "You're POKéMON champ material!$"
+#endif
 
 PewterCity_Gym_Text_GymStatue::
+#if GERMAN
 	.string "Marmoria Pokémon-Arena\n"
 	.string "Leitung: Rocko\p"
 	.string "Bisherige Sieger:\n"
 	.string "{RIVAL}$"
+#else
+	.string "PEWTER POKéMON GYM\n"
+	.string "LEADER: BROCK\p"
+	.string "WINNING TRAINERS:\n"
+	.string "{RIVAL}$"
+#endif
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
+#if GERMAN
 	.string "Marmoria Pokémon-Arena\n"
 	.string "Leitung: Rocko\p"
 	.string "Bisherige Sieger:\n"
 	.string "{RIVAL}, {PLAYER}$"
+#else
+	.string "PEWTER POKéMON GYM\n"
+	.string "LEADER: BROCK\p"
+	.string "WINNING TRAINERS:\n"
+	.string "{RIVAL}, {PLAYER}$"
+#endif
 

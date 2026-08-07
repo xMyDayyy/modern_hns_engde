@@ -634,48 +634,94 @@ BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanDown_hns:
 	step_end
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth_hns:
+#if GERMAN
 	.string "Willkommen… Du hast wirklich Glück!\p"
 	.string "Deine Pokémon sind bald wieder\n"
 	.string "topfit…$"
+#else
+	.string "Welcome…\n"
+	.string "You must be commended for your luck…\p"
+	.string "Your POKéMON shall be restored\n"
+	.string "to full health…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge_hns:
+#if GERMAN
 	.string "Ich wünsche dir für den restlichen Weg\n"
 	.string "deiner Kampfbahn-Herausforderung\l"
 	.string "alles Gute…$"
+#else
+	.string "I urge you to enjoy the rest of your\n"
+	.string "Battle Choice challenge…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon_hns:
+#if GERMAN
 	.string "Na, du bist echt ein Glückspilz.\n"
 	.string "Ich bin gerade in guter Stimmung.\p"
 	.string "Deine Pokémon sind gleich wieder\n"
 	.string "topfit…$"
+#else
+	.string "Ah, you're a lucky one.\n"
+	.string "I'm in somewhat-good spirits now.\p"
+	.string "I will restore one of your POKéMON\n"
+	.string "to full health.$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell_hns:
+#if GERMAN
 	.string "Ich wünsche dir alles Gute!\n"
 	.string "Leb wohl…$"
+#else
+	.string "The best of luck to you.\n"
+	.string "Farewell.$"
+#endif
 
 @ Seems there was a planned room type where the player could choose to battle and would be healed if they won
 @ Possibly replaced/superseded by the hard battle room, which is the same but the battle isnt optional
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons_hns:
+#if GERMAN
 	.string "Entschuldige…\p"
 	.string "Möchtest du gegen mich kämpfen?\n"
 	.string "Gewinnst du, heile ich deine Pokémon.$"
+#else
+	.string "Excuse me…\p"
+	.string "Would you care for a battle?\n"
+	.string "I'll restore your POKéMON if you win.$"
+#endif
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe_hns:
+#if GERMAN
 	.string "Nun gut…\n"
 	.string "Wollen wir?$"
+#else
+	.string "Very well…\n"
+	.string "Now, shall we?$"
+#endif
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou_hns:
+#if GERMAN
 	.string "Ich verstehe…\n"
 	.string "Wie unsportlich von dir…$"
+#else
+	.string "I see…\n"
+	.string "How unsporting of you…$"
+#endif
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised_hns:
+#if GERMAN
 	.string "Ganz vorzüglich…\p"
 	.string "Wie versprochen heile ich deine\n"
 	.string "Pokémon und mache sie wieder fit.$"
+#else
+	.string "Magnificent…\p"
+	.string "As promised, I shall restore your\n"
+	.string "POKéMON to full health.$"
+#endif
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2_hns:
@@ -683,80 +729,168 @@ BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2_hns:
 	.string "Leb wohl.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WatchOut_hns:
+#if GERMAN
 	.string "Oh je!\p"
 	.string "Pass auf!!!$"
+#else
+	.string "Oh, my!\p"
+	.string "Watch out!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop_hns:
+#if GERMAN
 	.string "Aber, aber!\n"
 	.string "Kirlia, hör auf damit!$"
+#else
+	.string "Now, now!\n"
+	.string "KIRLIA, stop that!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop_hns:
+#if GERMAN
 	.string "Aber, aber!\n"
 	.string "Zwirrklop, hör auf damit!$"
+#else
+	.string "Now, now!\n"
+	.string "DUSCLOPS, stop that!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic_hns:
+#if GERMAN
 	.string "Kirlia setzt Toxin ein!$"
+#else
+	.string "KIRLIA used TOXIC!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis_hns:
+#if GERMAN
 	.string "Kirlia setzt Hypnose ein!$"
+#else
+	.string "KIRLIA used HYPNOSIS!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave_hns:
+#if GERMAN
 	.string "Kirlia setzt Donnerwelle ein!$"
+#else
+	.string "KIRLIA used THUNDER WAVE!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp_hns:
+#if GERMAN
 	.string "Kirlia setzt Irrlicht ein!$"
+#else
+	.string "KIRLIA used WILL-O-WISP!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp_hns:
+#if GERMAN
 	.string "Zwirrklop setzt Irrlicht ein!$"
+#else
+	.string "DUSCLOPS used WILL-O-WISP!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam_hns:
+#if GERMAN
 	.string "Zwirrklop setzt Eisstrahl ein!$"
+#else
+	.string "DUSCLOPS used ICE BEAM!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough_hns:
+#if GERMAN
 	.string "Jetzt reicht es aber!$"
+#else
+	.string "Look here!\n"
+	.string "That's quite enough!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia_hns:
+#if GERMAN
 	.string "Ich muss mich bei dir entschuldigen…\p"
 	.string "Mein Kirlia ist eigentlich Scheu…$"
+#else
+	.string "I must apologize to you…\p"
+	.string "My KIRLIA has a TIMID nature…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops_hns:
+#if GERMAN
 	.string "Ich muss mich bei dir entschuldigen…\p"
 	.string "Mein Zwirrklop ist eigentlich Scheu…$"
+#else
+	.string "I must apologize to you…\p"
+	.string "My DUSCLOPS has a TIMID nature…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled_hns:
+#if GERMAN
 	.string "Es greift nur an, wenn es von jemandem\n"
 	.string "erschreckt wird…\p"
 	.string "Geht es dir und deinen Pokémon gut?$"
+#else
+	.string "It attacks without warning if it is\n"
+	.string "startled by another person…\p"
+	.string "Are you and your POKéMON all right?$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine_hns:
+#if GERMAN
 	.string "Ich entschuldige mich für das, was\n"
 	.string "passiert ist… Ich hoffe, deinen\l"
 	.string "Pokémon geht es gut.$"
+#else
+	.string "I do apologize for what happened…\n"
+	.string "I do hope your POKéMON are fine.$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_Silence_hns:
+#if GERMAN
 	.string "… … … … …\n"
 	.string "…\l"
 	.string "… … … … …\l"
 	.string "…$"
+#else
+	.string "… … … … … …\n"
+	.string "… … … … … …$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer_hns:
+#if GERMAN
 	.string "Willkommen…\p"
 	.string "Hier musst du gegen einigermaßen\n"
 	.string "starke Gegner antreten…$"
+#else
+	.string "Welcome…\p"
+	.string "Here, we will have you battle\n"
+	.string "a somewhat-tough TRAINER…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth_hns:
+#if GERMAN
 	.string "Oh, wunderbar!\p"
 	.string "Als Belohnung für deinen Sieg sorge\n"
 	.string "ich dafür, dass deine Pokémon wieder\n"
 	.string "topfit\l"
 	.string "sind.$"
+#else
+	.string "How wonderful…\p"
+	.string "To honor your victory, your POKéMON\n"
+	.string "shall be restored to full health…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge_hns2_hns:
+#if GERMAN
 	.string "Ich wünsche dir für den restlichen Weg\n"
 	.string "deiner Kampfbahn-Herausforderung\l"
 	.string "alles Gute…$"
+#else
+	.string "I urge you to enjoy the rest of your\n"
+	.string "Battle Choice challenge…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen_hns:
+#if GERMAN
 	.string "Ich bin Lotte…\n"
 	.string "Ich bin hier das Gesetz…\l"
 	.string "Ich bin die Pfipitistin…\p"
@@ -765,25 +899,55 @@ BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen_hns:
 	.string "an mir vorbei…\p"
 	.string "Smalltalk liegt mir nicht…\n"
 	.string "Los, lass uns kämpfen…$"
+#else
+	.string "I am LUCY…\n"
+	.string "I am the law here…\l"
+	.string "For I am the PIKE QUEEN…\p"
+	.string "You already know it, but to advance,\n"
+	.string "you must defeat me…\p"
+	.string "…I'm not one for idle chatter.\n"
+	.string "Hurry. Come on…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck_hns:
+#if GERMAN
 	.string "Dein Glück… Ich hoffe, du hast\n"
 	.string "noch etwas davon übrig…$"
+#else
+	.string "Your luck…\n"
+	.string "I hope you didn't use it all up here…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass_hns:
+#if GERMAN
 	.string "Lotte: … … … …\n"
 	.string "… …\l"
 	.string "Gib mir deinen Kampfzonenpass!$"
+#else
+	.string "LUCY: … … … … … …\n"
+	.string "Show me your FRONTIER PASS…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol_hns:
+#if GERMAN
 	.string "Das Lossymbol wurde dem\n"
 	.string "Kampfzonenpass hinzugefügt!$"
+#else
+	.string "The Luck Symbol was embossed on\n"
+	.string "the FRONTIER PASS!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear_hns:
+#if GERMAN
 	.string "Das war’s…\n"
 	.string "Nun verschwinde endlich…$"
+#else
+	.string "…That's all there is…\n"
+	.string "Disappear already…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain_hns:
+#if GERMAN
 	.string "Lotte: Du schon wieder…\p"
 	.string "… … … … …\n"
 	.string "…\p"
@@ -796,58 +960,127 @@ BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain_hns:
 	.string "… … … … …\n"
 	.string "…\p"
 	.string "Also gut… Kämpfen wir…$"
+#else
+	.string "LUCY: …You again…\p"
+	.string "… … … … … …\p"
+	.string "…I've trampled flowers and braved\n"
+	.string "storms to get to where I am…\p"
+	.string "I don't feel any compulsion to keep\n"
+	.string "losing to the same opponent…\p"
+	.string "… … … … … …\n"
+	.string "Fine… I'll do it…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn_hns:
+#if GERMAN
 	.string "Nun mach schon!$"
+#else
+	.string "Now!\n"
+	.string "Come on!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass_hns:
+#if GERMAN
 	.string "Lotte: … … … …\n"
 	.string "… …\l"
 	.string "……Kampfzonenpass……$"
+#else
+	.string "LUCY: … … … … … …\p"
+	.string "…FRONTIER PASS…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine_hns:
+#if GERMAN
 	.string "Das Lossymbol erscheint\n"
 	.string "in einem goldenen Glanz!$"
+#else
+	.string "The Luck Symbol took on\n"
+	.string "a golden shine!$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_IWontForget_hns:
+#if GERMAN
 	.string "Das werde ich dir nicht verzeihen…\n"
 	.string "Niemals…$"
+#else
+	.string "…You, I won't forget…\n"
+	.string "…Ever…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal_hns:
+#if GERMAN
 	.string "Ich heiße dich willkommen…\p"
 	.string "Kicher… Dein Glück scheint\n"
 	.string "dich verlassen zu haben…\p"
 	.string "Hättest du dich nicht für diesen Raum\n"
 	.string "entschieden, wären deine Pokémon schon\l"
 	.string "längst wieder topfit…$"
+#else
+	.string "I welcome you…\p"
+	.string "Giggle…\n"
+	.string "You seem to be bereft of luck…\p"
+	.string "If only you hadn't chosen this room,\n"
+	.string "your POKéMON could have been healed…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne_hns:
+#if GERMAN
 	.string "Ich heiße dich willkommen…\p"
 	.string "Da du dich für diesen Raum entschieden\n"
 	.string "hast, sorge ich dafür, dass eines\n"
 	.string "deiner\l"
 	.string "Pokémon wieder topfit wird.$"
+#else
+	.string "I welcome you…\p"
+	.string "Since you have chosen this room, I will\n"
+	.string "restore one POKéMON to full health…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo_hns:
+#if GERMAN
 	.string "Ich heiße dich willkommen…\p"
 	.string "Da du dich für diesen Raum entschieden\n"
 	.string "hast, sorge ich dafür, dass deine\l"
 	.string "Pokémon wieder topfit werden.$"
+#else
+	.string "I welcome you…\p"
+	.string "Since you have chosen this room, I will\n"
+	.string "restore two POKéMON to full health…$"
+#endif
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons_hns:
+#if GERMAN
 	.string "Ich heiße dich willkommen…\p"
 	.string "Kicher…\n"
 	.string "Du kannst dich glücklich schätzen…\p"
 	.string "Da du diesen Raum gewählt hast,\n"
 	.string "werden all deine Pokémon geheilt…$"
+#else
+	.string "I welcome you…\p"
+	.string "Giggle…\n"
+	.string "You should thank your lucky stars…\p"
+	.string "Since you have chosen this room,\n"
+	.string "all your POKéMON will be restored…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster_hns:
+#if GERMAN
 	.string "Ich werde unsere Meisterin rufen…$"
+#else
+	.string "I shall go fetch our master…$"
+#endif
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons_hns:
+#if GERMAN
 	.string "Du bist ein Glückspilz! Ich habe heute\n"
 	.string "ausgesprochen gute Laune.\p"
 	.string "Ich werde dafür sorgen, dass zwei\n"
 	.string "deiner Pokémon wieder topfit werden.$"
+#else
+	.string "Ah, you're a lucky one!\n"
+	.string "I'm in good spirits now.\p"
+	.string "I will restore two of your POKéMON\n"
+	.string "to full health!$"
+#endif
 

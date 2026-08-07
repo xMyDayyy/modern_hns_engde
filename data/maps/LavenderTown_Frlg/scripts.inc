@@ -47,43 +47,92 @@ LavenderTown_EventScript_PokemonTowerSign::
 	end
 
 LavenderTown_Text_DoYouBelieveInGhosts::
+#if GERMAN
 	.string "Glaubst du an Geister?$"
+#else
+	.string "Do you believe in ghosts?$"
+#endif
 
 LavenderTown_Text_SoThereAreBelievers::
+#if GERMAN
 	.string "Echt?\n"
 	.string "Hätte ich nicht gedacht!$"
+#else
+	.string "Really?\n"
+	.string "So there are believers…$"
+#endif
 
 LavenderTown_Text_JustImaginingWhiteHand::
+#if GERMAN
 	.string "Hahaha, natürlich nicht!\p"
 	.string "Und diese weiße Hand da auf deiner\n"
 	.string "Schulter ist natürlich nicht echt!$"
+#else
+	.string "Hahaha, I guess not.\p"
+	.string "That white hand on your shoulder…\n"
+	.string "I'm just imagining it.$"
+#endif
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
+#if GERMAN
 	.string "Diese Stadt ist als Ruhestätte für\n"
 	.string "Pokémon bekannt.\p"
 	.string "Im Pokémon-Turm werden Andachten\n"
 	.string "gehalten.$"
+#else
+	.string "This town is known as the grave\n"
+	.string "site of POKéMON.\p"
+	.string "Memorial services are held in\n"
+	.string "POKéMON TOWER.$"
+#endif
 
 LavenderTown_Text_GhostsAppearedInTower::
+#if GERMAN
 	.string "Geister spuken im Pokémon-Turm.\p"
 	.string "Ich glaube, das sind die Geister\n"
 	.string "jener Pokémon, die das Team\l"
 	.string "Rocket auf dem Gewissen hat!$"
+#else
+	.string "Ghosts appeared in POKéMON TOWER.\p"
+	.string "I think they're the spirits of\n"
+	.string "POKéMON that the ROCKETS killed.$"
+#endif
 
 LavenderTown_Text_TownSign::
+#if GERMAN
 	.string "Lavandia\n"
 	.string "Die edle, violette Stadt!$"
+#else
+	.string "LAVENDER TOWN\n"
+	.string "The Noble Purple Town$"
+#endif
 
 LavenderTown_Text_SilphScopeNotice::
+#if GERMAN
 	.string "Silph Scope!\n"
 	.string "Macht das Unsichtbare sichtbar!\p"
 	.string "Silph Co.$"
+#else
+	.string "New SILPH SCOPE!\n"
+	.string "Make the Invisible Plain to See!\p"
+	.string "SILPH CO.$"
+#endif
 
 LavenderTown_Text_VolunteerPokemonHouse::
+#if GERMAN
 	.string "Lavandia \n"
 	.string "Pokémon-Haus$"
+#else
+	.string "LAVENDER VOLUNTEER\n"
+	.string "POKéMON HOUSE$"
+#endif
 
 LavenderTown_Text_PokemonTowerSign::
+#if GERMAN
 	.string "Mögen die Seelen der Pokémon im\n"
 	.string "Pokémon-Turm in Frieden ruhen!$"
+#else
+	.string "POKéMON TOWER\n"
+	.string "Becalm the Spirits of POKéMON$"
+#endif
 

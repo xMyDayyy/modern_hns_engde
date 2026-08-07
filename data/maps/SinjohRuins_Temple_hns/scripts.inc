@@ -12,8 +12,13 @@ SinjohRuins_Temple_OpenDoor::
 	return
 
 SinjohRuins_Temple_Text_Mon:
+#if GERMAN
 	.string "Eine Art uralter Sensor.\n"
 	.string "Wonach sucht er?$"
+#else
+	.string "Some kind of ancient sensor.\n"
+	.string "What is it looking for?$"
+#endif
 
 SinjohRuins_Temple_EventScript_RegiceScanner::
 	lock
@@ -103,13 +108,25 @@ SinjohRuins_Temple_EventScript_ScannerAlreadyDone::
 	end
 
 SinjohRuins_Temple_Text_ScannerAlreadyDone:
+#if GERMAN
 	.string "Dieser Sensor wurde bereits\n"
 	.string "aktiviert.$"
+#else
+	.string "This sensor already been activated.$"
+#endif
 
 SinjohRuins_Temple_Text_Responds:
+#if GERMAN
 	.string "Der Tempel reagiert auf deine\n"
 	.string "Handlungen.$"
+#else
+	.string "The temple responds to your actions.$"
+#endif
 
 SinjohRuins_Temple_Text_Door:
+#if GERMAN
 	.string "Der Weg ist offen.$"
+#else
+	.string "The way is open.$"
+#endif
 

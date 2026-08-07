@@ -476,27 +476,50 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 	end
 
 Route119_Text_MayIntro:
+#if GERMAN
 	.string "Maike: {PLAYER}{KUN}! Wo warst du?\n"
 	.string "Ich habe dich schon gesucht!\p"
 	.string "Wie stark bist du geworden?\n"
 	.string "Lass mich das für dich herausfinden!\p"
 	.string "Bereit? Du und deine Pokémon?\n"
 	.string "Natürlich seid ihr das! Los!$"
+#else
+	.string "MAY: {PLAYER}{KUN}!\n"
+	.string "Where were you? I was looking for you!\p"
+	.string "How much stronger have you gotten?\n"
+	.string "Let me check for you!\p"
+	.string "Ready with your POKéMON?\n"
+	.string "Of course you are! Go!$"
+#endif
 
 Route119_Text_MayDefeat:
+#if GERMAN
 	.string "Achah! {PLAYER}{KUN}, du bist stark!\p"
 	.string "Ich hatte schon befürchtet, du\n"
 	.string "hättest im Training nachgelassen.$"
+#else
+	.string "Achah!\n"
+	.string "{PLAYER}{KUN}, you're strong!\p"
+	.string "I was worried that you might be\n"
+	.string "struggling with your training.$"
+#endif
 
 Route119_Text_MayPresentForYou:
+#if GERMAN
 	.string "Maike: Aber ich hätte mir absolut\l"
 	.string "keine\n"
 	.string "Sorgen zu machen brauchen! Weiter so!\p"
 	.string "\p"
 	.string "Und hier!\n"
 	.string "Dies ist ein Geschenk für dich!$"
+#else
+	.string "MAY: But I had absolutely nothing to\n"
+	.string "worry about! Keep it up!\p"
+	.string "And, here! I have a present for you.$"
+#endif
 
 Route119_Text_MayExplainFly:
+#if GERMAN
 	.string "Maike: Setze Fliegen ein und deine\n"
 	.string "Pokémon bringen dich an jeden Ort, an\l"
 	.string "dem du schon einmal warst.\p"
@@ -510,26 +533,61 @@ Route119_Text_MayExplainFly:
 	.string "schon Sorgen um dich, {PLAYER}{KUN}.\p"
 	.string "Nun, wir treffen uns sicher bald\n"
 	.string "wieder!$"
+#else
+	.string "MAY: Use FLY, and your POKéMON will\n"
+	.string "instantly carry you to any town you've\l"
+	.string "already visited.\p"
+	.string "But, to use FLY, you have to get\n"
+	.string "the GYM BADGE from FORTREE CITY.\l"
+	.string "That's important, so don't forget.\p"
+	.string "You should FLY home and visit\n"
+	.string "LITTLEROOT for a change.\p"
+	.string "I bet your mom's worried about you,\n"
+	.string "{PLAYER}{KUN}.\p"
+	.string "Well, let's meet again somewhere!$"
+#endif
 
 Route119_Text_BrendanIntro:
+#if GERMAN
 	.string "Brix: {PLAYER}! Hier schaust du dich\n"
 	.string "also nach Pokémon um?\p"
 	.string "Zeig mir, wie gut du geworden bist.\n"
 	.string "Ich werde dich jetzt testen!\p"
 	.string "Nun!\n"
 	.string "Das ist ein Kampf, also kämpfen wir!$"
+#else
+	.string "BRENDAN: {PLAYER}! So this is where\n"
+	.string "you've been looking for POKéMON?\p"
+	.string "Let me see how good you got.\n"
+	.string "I'll test you!\p"
+	.string "Now!\n"
+	.string "It's a battle, so battle!$"
+#endif
 
 Route119_Text_BrendanDefeat:
+#if GERMAN
 	.string "Hmm… Du bist verdammt gut geworden.$"
+#else
+	.string "Hmm…\n"
+	.string "You've gotten pretty darn decent.$"
+#endif
 
 Route119_Text_BrendanIllGiveYouThis:
+#if GERMAN
 	.string "Brix: Ich sage, du bist so gut, dass\n"
 	.string "du überall nach Pokémon suchen kannst.\n"
 	.string "\p"
 	.string "Hier, das ist für dich.\n"
 	.string "Probier es aus.$"
+#else
+	.string "BRENDAN: I'd say you're good enough\n"
+	.string "to search for POKéMON anywhere.\p"
+	.string "Here, I'll give you this.\n"
+	.string "Try it out.$"
+#endif
 
 Route119_Text_BrendanExplainFly:
+#if GERMAN
 	.string "Brix: Setze es ein, und deine\n"
 	.string "Pokémon Fliegen dich sofort an jeden\l"
 	.string "Ort, an dem du schon einmal warst.\p"
@@ -537,8 +595,17 @@ Route119_Text_BrendanExplainFly:
 	.string "von Baumhausen City dafür.\p"
 	.string "Nun ja, ich muss jetzt weiter. Bis\n"
 	.string "bald.$"
+#else
+	.string "BRENDAN: Use FLY, and your POKéMON\n"
+	.string "instantly carries you to any town\l"
+	.string "you've already visited.\p"
+	.string "But you need the FORTREE GYM BADGE \n"
+	.string "to do that.\p"
+	.string "Anyway, I have to move along.$"
+#endif
 
 Route119_Text_ScottWayToGoBeSeeingYou:
+#if GERMAN
 	.string "Scott: Hahahaha!\n"
 	.string "Mach weiter so, {PLAYER}{KUN}!\p"
 	.string "Ich bin gerade einem Trainer begegnet,\n"
@@ -552,9 +619,24 @@ Route119_Text_ScottWayToGoBeSeeingYou:
 	.string "Baumhausen City?\p"
 	.string "Ich erwarte, dass du dich dort\n"
 	.string "besonders anstrengst. Mach’s gut.$"
+#else
+	.string "SCOTT: Hahahah!\n"
+	.string "Way to go, {PLAYER}{KUN}!\p"
+	.string "I just passed by a TRAINER riding\n"
+	.string "a BIKE.\p"
+	.string "You just beat that TRAINER, didn't you?\n"
+	.string "It was pretty obvious that you did.\p"
+	.string "The kid looked really upset with\n"
+	.string "a face all red from anger.\p"
+	.string "I sure seem to run into you often.\n"
+	.string "Are you off to FORTREE GYM next?\p"
+	.string "I expect that you'll do well at the GYM.\n"
+	.string "Well, I'll be seeing you!$"
+#endif
 
 
 Route119_Text_ScottYouWonAtFortreeGym:
+#if GERMAN
 	.string "… … … … …\n"
 	.string "…\l"
 	.string "… … … … …\l"
@@ -572,18 +654,46 @@ Route119_Text_ScottYouWonAtFortreeGym:
 	.string "…\l"
 	.string "… … … … …\l"
 	.string "Klick!$"
+#else
+	.string "… … … … … …\n"
+	.string "… … … … … Beep!\p"
+	.string "SCOTT: Hiya, {PLAYER}{KUN}, it's me!\p"
+	.string "Just as I thought, you won at\n"
+	.string "the FORTREE GYM.\p"
+	.string "Your strength…\n"
+	.string "Perhaps you really are the TRAINER\l"
+	.string "that I've been searching for.\p"
+	.string "Remember, you have a fan in me.\n"
+	.string "I'll be cheering from the sidelines.\l"
+	.string "Keep up the great work!\p"
+	.string "… … … … … …\n"
+	.string "… … … … … Click!$"
+#endif
 
 Route119_Text_StayAwayFromWeatherInstitute:
+#if GERMAN
 	.string "Wir stehen hier Wache.\p"
 	.string "Hey, du! Halt dich bloß von dem Klima-\n"
 	.string "institut fern. Da ist es nicht sicher!$"
+#else
+	.string "We're standing lookout here.\p"
+	.string "Hey, you! Stay away from the WEATHER\n"
+	.string "INSTITUTE. It's not safe.$"
+#endif
 
 Route119_Text_DontGoNearWeatherInstitute:
+#if GERMAN
 	.string "Wache schieben ist langweilig.\p"
 	.string "Hey, du! Komm nicht in die Nähe des\n"
 	.string "Klima-Instituts.$"
+#else
+	.string "Lookout duty is surprisingly boring.\p"
+	.string "Hey, you! Please don't go near the\n"
+	.string "WEATHER INSTITUTE.$"
+#endif
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
+#if GERMAN
 	.string "Ich dachte, Fliegen könnte man, indem\n"
 	.string "man viele Vogel-Pokémon fängt, sie\p"
 	.string "zusammenbindet und sich dann\n"
@@ -592,25 +702,57 @@ Route119_Text_ThoughtFlyByCatchingBirdMons:
 	.string "Fliegen heißt!\p"
 	.string "Wenn ich das doch nur eher gewusst\n"
 	.string "hätte…$"
+#else
+	.string "I thought you FLY by catching a whole\n"
+	.string "flock of BIRD POKéMON, and then\l"
+	.string "hanging on to them somehow.\p"
+	.string "But it turns out there's an HM move\n"
+	.string "called FLY!\p"
+	.string "I wish I'd known about that a long\n"
+	.string "time ago…$"
+#endif
 
 Route119_Text_TallGrassSnaresBikeTires:
+#if GERMAN
 	.string "Tse… So geht es nicht weiter…\p"
 	.string "Das hohe Gras verfängt sich in den \n"
 	.string "Speichen des Rads…$"
+#else
+	.string "Tch…\n"
+	.string "It's a no-go…\p"
+	.string "The tall grass snares BIKE tires.\n"
+	.string "There's no way you can cycle here.$"
+#endif
 
 Route119_Text_CanYourMonMakeSecretBase:
+#if GERMAN
 	.string "Kann dein Pokémon Geheimpower an\n"
 	.string "einem Berg von Gras einsetzen und eine\l"
 	.string "Geheimbasis einrichten?$"
+#else
+	.string "Can your POKéMON use its SECRET POWER\n"
+	.string "on a big pile of grass and make a\l"
+	.string "SECRET BASE?$"
+#endif
 
 Route119_Text_RouteSignFortree:
+#if GERMAN
 	.string "Route 119\n"
 	.string "{RIGHT_ARROW} Baumhausen City$"
+#else
+	.string "ROUTE 119\n"
+	.string "{RIGHT_ARROW} FORTREE CITY$"
+#endif
 
 Route119_Text_WeatherInstitute:
+#if GERMAN
 	.string "Klima-Institut$"
+#else
+	.string "WEATHER INSTITUTE$"
+#endif
 
 Route119_Text_TrainerTipsDecoration:
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "In der Geheimbasis können bis zu 16\n"
 	.string "Dekorationen und Möbel untergebracht\l"
@@ -619,3 +761,12 @@ Route119_Text_TrainerTipsDecoration:
 	.string "dir\n"
 	.string "deine Geheimbasis ganz nach deinem\l"
 	.string "Geschmack ein.$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "Up to sixteen decorations and\n"
+	.string "furniture items can be placed in\l"
+	.string "a SECRET BASE.\p"
+	.string "Pick your favorite items and create\n"
+	.string "your very own SECRET BASE exactly the\l"
+	.string "way you want.$"
+#endif

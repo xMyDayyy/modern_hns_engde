@@ -16,6 +16,7 @@ Route7_EventScript_Door::
 	end
 
 Route7_Text_UndergroundPathSign:
+#if GERMAN
 	.string "Was steht auf diesem Flugblatt?\p"
 	.string "Auf dem Tunnelpfad tragen\n"
 	.string "schlecht erzogene Trainer\l"
@@ -24,7 +25,21 @@ Route7_Text_UndergroundPathSign:
 	.string "häufen, wurde der Tunnelpfad auf\l"
 	.string "unbestimmte Zeit geschlossen!\l"
 	.string "…Das Ordnungsamt von Prismania City$"
+#else
+	.string "What's this flyer?\p"
+	.string "… Uncouth trainers have been\n"
+	.string "holding battles in the\l"
+	.string "UNDERGROUND PATH.\p"
+	.string "Because of rising complaints by\n"
+	.string "local residents, the UNDERGROUND\l"
+	.string "PATH has been sealed indefinitely.\p"
+	.string "CELADON POLICE$"
+#endif
 
 Route7_Text_LockedDoor:
+#if GERMAN
 	.string "Abgeschlossen…$"
+#else
+	.string "It's locked…$"
+#endif
 

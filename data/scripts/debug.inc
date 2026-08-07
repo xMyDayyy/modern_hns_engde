@@ -176,10 +176,18 @@ Debug_EventScript_CheckEVs_End::
 	end
 
 Debug_EventScript_Text_OffensiveEVs:
+#if GERMAN
 	.string "ATK Evs: {STR_VAR_1}, SPATK Evs: {STR_VAR_2}, Speed Evs: {STR_VAR_3}$"
+#else
+	.string "ATK EVs: {STR_VAR_1}, SPATK EVs: {STR_VAR_2}, SPEED EVs: {STR_VAR_3}$"
+#endif
 
 Debug_EventScript_Text_DefensiveEVs:
+#if GERMAN
 	.string "Hp Evs: {STR_VAR_1}, DEF Evs: {STR_VAR_2}, Spdef Evs: {STR_VAR_3}$"
+#else
+	.string "HP EVs: {STR_VAR_1}, DEF EVs: {STR_VAR_2}, SPDEF EVs: {STR_VAR_3}$"
+#endif
 
 Debug_EventScript_CheckIVs::
 	lockall
@@ -197,10 +205,18 @@ Debug_EventScript_CheckIVs_End::
 	end
 
 Debug_EventScript_Text_OffensiveIVs:
+#if GERMAN
 	.string "ATK Ivs: {STR_VAR_1}, SPATK Ivs: {STR_VAR_2}, Speed Ivs: {STR_VAR_3}$"
+#else
+	.string "ATK IVs: {STR_VAR_1}, SPATK IVs: {STR_VAR_2}, SPEED IVs: {STR_VAR_3}$"
+#endif
 
 Debug_EventScript_Text_DefensiveIVs:
+#if GERMAN
 	.string "Hp Ivs: {STR_VAR_1}, DEF Ivs: {STR_VAR_2}, Spdef Ivs: {STR_VAR_3}$"
+#else
+	.string "HP IVs: {STR_VAR_1}, DEF IVs: {STR_VAR_2}, SPDEF IVs: {STR_VAR_3}$"
+#endif
 
 Debug_EventScript_Script_1::
 	setvar VAR_SINJOH_STORYLINE, 10
@@ -496,8 +512,13 @@ Debug_CheckROMSpace::
 	end
 
 Debug_ROMSize::
+#if GERMAN
 	.string "Rom size: {STR_VAR_1}Mb/32Mb.\n"
 	.string "Free space: {STR_VAR_2}Mb.$"
+#else
+	.string "ROM size: {STR_VAR_1}MB/32MB.\n"
+	.string "Free space: {STR_VAR_2}MB.$"
+#endif
 
 Debug_HatchAnEgg::
 	lockall
@@ -569,7 +590,11 @@ Debug_Follower_NPC_Not_Enabled::
 	end
 
 Debug_Enable_To_Use_Follower_NPCs:
+#if GERMAN
 	.string "Feature unavailable.\nSet Fnpc_Enable_Npc_Followers to\lTrue in 'include/config/follower_npc.h'.$"
+#else
+	.string "Feature unavailable.\nSet FNPC_ENABLE_NPC_FOLLOWERS to\lTRUE in 'include/config/follower_npc.h'.$"
+#endif
 
 Debug_Follower_NPC_Event_Script::
 	lock
@@ -579,7 +604,11 @@ Debug_Follower_NPC_Event_Script::
 	end
 
 Debug_Follower_NPC_Test_Message:
+#if GERMAN
 	.string "This is a Follower Npc test.$"
+#else
+	.string "This is a Follower NPC test.$"
+#endif
 
 Debug_EventScript_Steven_Multi::
 	call MossdeepCity_SpaceCenter_2F_EventScript_ChoosePartyForMultiBattle
@@ -601,8 +630,13 @@ Debug_BerryPestsDisabled::
 	end
 
 DebugText_BerryPestsDisabled:
+#if GERMAN
 	.string "Ow_Berry_Pests is disabled.\n"
 	.string "Unable to force pests onto berry trees.$"
+#else
+	.string "OW_BERRY_PESTS is disabled.\n"
+	.string "Unable to force pests onto berry trees.$"
+#endif
 
 Debug_BerryWeedsDisabled::
 	msgbox DebugText_BerryWeedsDisabled, MSGBOX_DEFAULT
@@ -610,8 +644,13 @@ Debug_BerryWeedsDisabled::
 	end
 
 DebugText_BerryWeedsDisabled:
+#if GERMAN
 	.string "Ow_Berry_Weeds is disabled.\n"
 	.string "Unable to force weeds onto berry trees.$"
+#else
+	.string "OW_BERRY_WEEDS is disabled.\n"
+	.string "Unable to force weeds onto berry trees.$"
+#endif
 
 Debug_EventScript_InflictStatus1::
 	lockall
@@ -1057,7 +1096,11 @@ Debug_EventScript_FakeRTCNotEnabled::
 	return
 
 Debug_EventScript_FakeRTCNotEnabled_Text_0:
+#if GERMAN
 	.string "You currently do not have Fake Rtc\nenabled. Please enable it in include/\lconfig/overworld.h$"
+#else
+	.string "You currently do not have Fake RTC\nenabled. Please enable it in include/\lconfig/overworld.h$"
+#endif
 
 
 Debug_EventScript_TellTheTime_Text_0:

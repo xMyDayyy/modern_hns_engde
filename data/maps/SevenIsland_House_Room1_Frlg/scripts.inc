@@ -171,6 +171,7 @@ SevenIsland_House_Room1_EventScript_Box::
 	end
 
 SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles::
+#if GERMAN
 	.string "Ich stelle momentan nichts mehr\n"
 	.string "dar, aber als ich jünger war…\p"
 	.string "Ich bin überall hingeflogen und\n"
@@ -180,11 +181,26 @@ SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles::
 	.string "Lebensfreude darin, mich an\l"
 	.string "die Vergangenheit zu erinnern\l"
 	.string "und Kämpfe zu beobachten.$"
+#else
+	.string "I may not look like much now,\n"
+	.string "but when I was younger…\p"
+	.string "I flew everywhere, challenging\n"
+	.string "TRAINERS wherever I found them.\p"
+	.string "Now, my only source of enjoyment\n"
+	.string "is reminiscing about the past while\l"
+	.string "watching battles.$"
+#endif
 
 SevenIsland_House_Room1_Text_SlightBreezeAroundBox::
+#if GERMAN
 	.string "Es weht ein laues Lüftchen!$"
+#else
+	.string "There is a slight breeze blowing\n"
+	.string "around the box.$"
+#endif
 
 SevenIsland_House_Room1_Text_ChallengeVisitingTrainer::
+#if GERMAN
 	.string "Ah!\n"
 	.string "Willkommen mein Freund!\p"
 	.string "Ich will dir etwas erzählen. Im\n"
@@ -194,16 +210,36 @@ SevenIsland_House_Room1_Text_ChallengeVisitingTrainer::
 	.string "wartet dort.\p"
 	.string "Du bist bestimmt gekommen, um\n"
 	.string "{STR_VAR_1} herauszufordern, oder?$"
+#else
+	.string "Ah!\n"
+	.string "Welcome, my friend!\p"
+	.string "Let me tell you something. There's\n"
+	.string "a hidden room in the basement.\p"
+	.string "A TRAINER named {STR_VAR_1} is\n"
+	.string "waiting there now.\p"
+	.string "Tell me, you did come to challenge\n"
+	.string "{STR_VAR_1}, am I right?$"
+#endif
 
 SevenIsland_House_Room1_Text_OhYouWontBattle::
+#if GERMAN
 	.string "Oh…\n"
 	.string "Du willst nicht kämpfen…\p"
 	.string "Ich verstehe!\n"
 	.string "……\p"
 	.string "Wenn du deine Meinung änderst,\n"
 	.string "kannst du gerne wiederkommen!$"
+#else
+	.string "Oh…\n"
+	.string "You won't battle…\p"
+	.string "I see, I see.\n"
+	.string "… …\p"
+	.string "Well, perhaps if you change your\n"
+	.string "mind, do come back.$"
+#endif
 
 SevenIsland_House_Room1_Text_LimitThreeMonsPerSide::
+#if GERMAN
 	.string "Ah!\n"
 	.string "Du willst also kämpfen?\p"
 	.string "Dann hat es sich gelohnt, die\n"
@@ -215,35 +251,70 @@ SevenIsland_House_Room1_Text_LimitThreeMonsPerSide::
 	.string "Können wir uns auf den Einsatz\n"
 	.string "von maximal drei Pokémon\l"
 	.string "beschränken?$"
+#else
+	.string "Ah!\n"
+	.string "You will battle for me?\p"
+	.string "It was worth my time moving the\n"
+	.string "box aside, then.\p"
+	.string "… …\n"
+	.string "But there is one slight problem.\p"
+	.string "This hidden room is not built very\n"
+	.string "sturdy.\p"
+	.string "Can I get you to limit it to\n"
+	.string "battles of three POKéMON per side?$"
+#endif
 
 SevenIsland_House_Room1_Text_SaveProgressBeforeBattle::
+#if GERMAN
 	.string "Schön! Möchtest du dein Spiel\n"
 	.string "vor dem Kampf sichern?$"
+#else
+	.string "Fine! Before your battle, would\n"
+	.string "you like to save your game?$"
+#endif
 
 SevenIsland_House_Room1_Text_DontHoldAnythingBack::
+#if GERMAN
 	.string "Sehr gut!\n"
 	.string "Nimm keine Rücksicht!$"
+#else
+	.string "All right.\n"
+	.string "Don't hold anything back!$"
+#endif
 
 @ Unused
 SevenIsland_House_Room1_Text_StrVar1_1::
 	.string "{STR_VAR_1}$"
 
 SevenIsland_House_Room2_Text_MatchEndedUpDraw::
+#if GERMAN
 	.string "Der Kampf endet unentschieden.$"
+#else
+	.string "The match ended up a draw.$"
+#endif
 
 SevenIsland_House_Room1_Text_DrawWasIt::
+#if GERMAN
 	.string "Unentschieden?!?\n"
 	.string "Dieses Spektakel hat sich\l"
 	.string "dennoch gelohnt.\p"
 	.string "Ich würde sagen, dass es ein\n"
 	.string "wundervoller Kampf mit\l"
 	.string "Tiefgang war!$"
+#else
+	.string "A draw, was it?\p"
+	.string "However, let me say that it was\n"
+	.string "a worthy spectacle.\p"
+	.string "I'd say it was a wonderful battle\n"
+	.string "with a real sense of depth!$"
+#endif
 
 @ Unused
 SevenIsland_House_Room1_Text_StrVar1_2::
 	.string "{STR_VAR_1}$"
 
 SevenIsland_House_Room1_Text_AstoundingBattle::
+#if GERMAN
 	.string "Bravo!\p"
 	.string "Wirklich super!\n"
 	.string "Was für ein faszinierender Kampf!\p"
@@ -256,12 +327,25 @@ SevenIsland_House_Room1_Text_AstoundingBattle::
 	.string "kongenialen Kräften!\p"
 	.string "Ja!\n"
 	.string "Es war schlicht bombastisch!$"
+#else
+	.string "Bravo!\p"
+	.string "Bravo, indeed!\n"
+	.string "What an astounding battle!\p"
+	.string "It was so astounding, why, it keeps\n"
+	.string "filling my eyes with tears!\p"
+	.string "The thrust and parry of expertly\n"
+	.string "used techniques!\p"
+	.string "The clash of power upon power!\p"
+	.string "Yes!\n"
+	.string "It was sheer magnificence!$"
+#endif
 
 @ Unused
 SevenIsland_House_Room1_Text_StrVar1_3::
 	.string "{STR_VAR_1}$"
 
 SevenIsland_House_Room1_Text_FeelYourDisappointment::
+#if GERMAN
 	.string "Zu schade!\n"
 	.string "Ich spüre deine Enttäuschung!\p"
 	.string "Du wirst aus dieser Enttäuschung\n"
@@ -272,4 +356,14 @@ SevenIsland_House_Room1_Text_FeelYourDisappointment::
 	.string "Verdränge diese Niederlage und\l"
 	.string "Enttäuschung nicht, sondern\l"
 	.string "verdopple dein Training.$"
+#else
+	.string "Too bad!\n"
+	.string "I feel your disappointment.\p"
+	.string "However, that disappointment is\n"
+	.string "what will make you better.\p"
+	.string "Use it, learn from it, and make it\n"
+	.string "motivate you to seek greatness.\p"
+	.string "Forget not this disappointment\n"
+	.string "and redouble your training!$"
+#endif
 

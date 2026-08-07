@@ -255,54 +255,110 @@ DewfordTown_Hall_EventScript_ReceivedSludgeBomb::
 	end
 
 DewfordTown_Hall_Text_CantImagineLifeWithoutTrend:
+#if GERMAN
 	.string "Was in ist? Nun, mit Sicherheit\n"
 	.string "“{STR_VAR_1}”!\p"
 	.string "Ich kann mir ein Leben ohne\n"
 	.string "“{STR_VAR_1}” nicht\l"
 	.string "vorstellen!$"
+#else
+	.string "What's in vogue? Why, it has to be\n"
+	.string "“{STR_VAR_1}”!\p"
+	.string "I can't imagine what life would be like\n"
+	.string "without “{STR_VAR_1}”!$"
+#endif
 
 DewfordTown_Hall_Text_GettingBoredOfTrend:
+#if GERMAN
 	.string "Was in ist? Nun, mit Sicherheit\n"
 	.string "“{STR_VAR_1}”!\p"
 	.string "Aber so langsam langweilt es mich.\p"
 	.string "Ich sollte mich nach neuen Sachen\n"
 	.string "umsehen.$"
+#else
+	.string "What's in vogue? Why, it has to be\n"
+	.string "“{STR_VAR_1}”!\p"
+	.string "But I'm getting kind of bored with it.\p"
+	.string "I should look for the next big thing.$"
+#endif
 
 DewfordTown_Hall_Text_TeachingMonAboutTrend:
+#if GERMAN
 	.string "Ich bringe meinen Pokémon etwas über\n"
 	.string "“{STR_VAR_1}” bei,\l"
 	.string "aber es klappt nicht so recht.\p"
 	.string "Scheinbar sind sie damit überfordert.$"
+#else
+	.string "I'm teaching my POKéMON about\n"
+	.string "“{STR_VAR_1},”\l"
+	.string "but it's not going well.\p"
+	.string "It's a bit too much, I think.$"
+#endif
 
 DewfordTown_Hall_Text_DeepLinkBetweenXAndY:
+#if GERMAN
 	.string "Ich vertiefe mich gerade in ein hippes\n"
 	.string "“{STR_VAR_1}”.\p"
 	.string "Gibt es eine enge Verbindung\n"
 	.string "zwischen “{STR_VAR_1}”\l"
 	.string "und “{STR_VAR_2}”?$"
+#else
+	.string "I'm studying up on the hip and trendy\n"
+	.string "“{STR_VAR_1}” now.\p"
+	.string "Is it true that there's a deep link\n"
+	.string "between “{STR_VAR_1}”\l"
+	.string "and “{STR_VAR_2}”?$"
+#endif
 
 DewfordTown_Hall_Text_MyHunchWasRight:
+#if GERMAN
 	.string "Oh! Da lag ich ja absolut richtig!\p"
 	.string "Ich bin einen Schritt weiter in meinen\n"
 	.string "Bemühungen, hip und aufregend zu sein!$"
+#else
+	.string "Oh!\n"
+	.string "So, my hunch was right!\p"
+	.string "I'm one step closer to being hip and\n"
+	.string "happening, yowza!$"
+#endif
 
 DewfordTown_Hall_Text_NotEasyToKeepUp:
+#if GERMAN
 	.string "Was?!? Wirklich?!?\p"
 	.string "Für einen alten Menschen ist es gar\n"
 	.string "nicht so leicht, mit der Mode zu\l"
 	.string "gehen!$"
+#else
+	.string "What?!\n"
+	.string "Is that so?!\p"
+	.string "It's not easy for an older fellow like\n"
+	.string "me to keep up with trends!$"
+#endif
 
 DewfordTown_Hall_Text_TVShowAboutTrend:
+#if GERMAN
 	.string "Diese ganze Sache mit\n"
 	.string "“{STR_VAR_1}”…\l"
 	.string "Gibt es da nicht eine Sendung drüber?$"
+#else
+	.string "This whole business about\n"
+	.string "“{STR_VAR_1}”…\l"
+	.string "Isn't there a TV show on it?$"
+#endif
 
 DewfordTown_Hall_Text_IsTrendMorePopularAcrossSea:
+#if GERMAN
 	.string "Jenseits des Meeres…\p"
 	.string "Ist dort “{STR_VAR_1}”\n"
 	.string "noch beliebter?$"
+#else
+	.string "Across the sea…\p"
+	.string "Is “{STR_VAR_1}”\n"
+	.string "even more popular?$"
+#endif
 
 DewfordTown_Hall_Text_CollectTrendMerchandise:
+#if GERMAN
 	.string "Ich sammle lizenzierte\n"
 	.string "“{STR_VAR_1}”-\l"
 	.string "Artikel.\p"
@@ -315,8 +371,23 @@ DewfordTown_Hall_Text_CollectTrendMerchandise:
 	.string "Bilderbücher.\p"
 	.string "Hähähä, das besitze ich alles!\n"
 	.string "Und ich gebe dir nichts ab! Ätsch!$"
+#else
+	.string "I collect official\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "licensed merchandise.\p"
+	.string "I have official\n"
+	.string "“{STR_VAR_1}” DOLLS…\p"
+	.string "Official “{STR_VAR_1}”\n"
+	.string "brand clothing…\p"
+	.string "And officially licensed\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "picture books.\p"
+	.string "Heheh, I own!\n"
+	.string "I'm not sharing anything with you!$"
+#endif
 
 DewfordTown_Hall_Text_BooksAboutTrend:
+#if GERMAN
 	.string "Gute “{STR_VAR_1}” &\n"
 	.string "Schlechte\l"
 	.string "“{STR_VAR_1}”…\p"
@@ -326,34 +397,75 @@ DewfordTown_Hall_Text_BooksAboutTrend:
 	.string "Hilfreiche “{STR_VAR_1}”…\p"
 	.string "Es ist total voll gestopft mit Büchern\n"
 	.string "über “{STR_VAR_1}”.$"
+#else
+	.string "IDENTIFYING GOOD\n"
+	.string "“{STR_VAR_1}” &\l"
+	.string "BAD “{STR_VAR_1}”…\p"
+	.string "THE LINK BETWEEN\n"
+	.string "“{STR_VAR_1}” AND\l"
+	.string "POKéMON…\p"
+	.string "USEFUL\n"
+	.string "“{STR_VAR_1}”…\p"
+	.string "It's neatly jammed with books about\n"
+	.string "“{STR_VAR_1}.”$"
+#endif
 
 DewfordTown_Hall_Text_TrendsScream:
+#if GERMAN
 	.string "“Der Ruf von\n"
 	.string "{STR_VAR_1}”\l"
 	.string "ist der Titel.$"
+#else
+	.string "“{STR_VAR_1}'S\n"
+	.string "SCREAM” is the title.$"
+#endif
 
 DewfordTown_Hall_Text_TrendsSmile:
+#if GERMAN
 	.string "“Das Lächeln von\n"
 	.string "{STR_VAR_1}”\l"
 	.string "ist der Titel.$"
+#else
+	.string "“{STR_VAR_1}'S\n"
+	.string "SMILE” is the title.$"
+#endif
 
 DewfordTown_Hall_Text_LastTrend:
+#if GERMAN
 	.string "Es heißt “das Letzte\n"
 	.string "{STR_VAR_1}”.$"
+#else
+	.string "It's titled “THE LAST\n"
+	.string "{STR_VAR_1}”.$"
+#endif
 
 DewfordTown_Hall_Text_BirthOfTrend:
+#if GERMAN
 	.string "Es heißt “die Geburt eines\n"
 	.string "{STR_VAR_1}”.$"
+#else
+	.string "It's titled “THE BIRTH OF\n"
+	.string "{STR_VAR_1}”.$"
+#endif
 
 DewfordTown_Hall_Text_SawTrendCoolestThing:
+#if GERMAN
 	.string "Ich habe “{STR_VAR_1}”\n"
 	.string "gesehen! Cool, was?\p"
 	.string "Das Coolste überhaupt, würde ich\n"
 	.string "sagen! \p"
 	.string "Es war unglaublich!\n"
 	.string "Das war das absolut Wahre, oh yeah!$"
+#else
+	.string "I saw “{STR_VAR_1}”!\n"
+	.string "Cool, huh?\p"
+	.string "It's, like, the coolest thing going!\p"
+	.string "It was awesome!\n"
+	.string "It was the real thing, oh yeah!$"
+#endif
 
 DewfordTown_Hall_Text_AllegedTrendNotAuthentic:
+#if GERMAN
 	.string "Oh, nein, nein, nein.\p"
 	.string "Das vermeintliche\n"
 	.string "“{STR_VAR_1}”,\l"
@@ -363,8 +475,19 @@ DewfordTown_Hall_Text_AllegedTrendNotAuthentic:
 	.string "Wie soll ich sagen?\l"
 	.string "Ist spitzer und wohlgeformter!\p"
 	.string "Aber egal. Es ist erstaunlich!$"
+#else
+	.string "Oh, no, no, no.\p"
+	.string "That alleged\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "you claim to have seen--it's not.\p"
+	.string "The authentic article is much…\n"
+	.string "How should I say it?\l"
+	.string "Sharper, yet more mellow!\p"
+	.string "Ah, no matter. It's astonishing!$"
+#endif
 
 DewfordTown_Hall_Text_ComposedTrendThemeSong:
+#if GERMAN
 	.string "Hey, hör zu! Ich habe ein Leitmotiv\n"
 	.string "für “{STR_VAR_1}”\l"
 	.string "komponiert.\p"
@@ -374,21 +497,49 @@ DewfordTown_Hall_Text_ComposedTrendThemeSong:
 	.string "… …\p"
 	.string "Oh! {STR_VAR_1}!\p"
 	.string "Wundervolles {STR_VAR_1}!$"
+#else
+	.string "Hey, listen, I composed a theme song\n"
+	.string "for “{STR_VAR_1}.”\p"
+	.string "“{STR_VAR_1}”\n"
+	.string "is really popular right now.\p"
+	.string "Okay, listen!\n"
+	.string "… …\p"
+	.string "Oh!\n"
+	.string "{STR_VAR_1}!\p"
+	.string "Wonderful\n"
+	.string "{STR_VAR_1}!$"
+#endif
 
 DewfordTown_Hall_Text_WorkOnYourSinging:
+#if GERMAN
 	.string "… …\p"
 	.string "Ich würde sagen, du solltest erst\n"
 	.string "einmal Gesangsunterricht nehmen, bevor\l"
 	.string "du es mit “{STR_VAR_1}”\l"
 	.string "aufnimmst.$"
+#else
+	.string "… …\p"
+	.string "I dare say, chap, it would pay for you\n"
+	.string "to work on your singing before you\l"
+	.string "trifle yourself with\l"
+	.string "“{STR_VAR_1}.”$"
+#endif
 
 DewfordTown_Hall_Text_OrganizeTrendParty:
+#if GERMAN
 	.string "Wie ich vorhin schon sagte, sollten\n"
 	.string "wir uns zusammentun und eine\l"
 	.string "“{STR_VAR_1}”-Party\l"
 	.string "auf der Insel veranstalten.$"
+#else
+	.string "Anyway, as I was saying earlier, we\n"
+	.string "should get together and organize a\l"
+	.string "“{STR_VAR_1}” party\l"
+	.string "on the island.$"
+#endif
 
 DewfordTown_Hall_Text_BrilliantIndeed:
+#if GERMAN
 	.string "Oh, was für eine gute Idee!\p"
 	.string "Nun stellen wir ein für alle Mal fest,\n"
 	.string "wer der Beste in\l"
@@ -396,15 +547,33 @@ DewfordTown_Hall_Text_BrilliantIndeed:
 	.string "Brillant, wirklich!\p"
 	.string "Von heute an dreht sich unser Leben\n"
 	.string "um “{STR_VAR_1}”!$"
+#else
+	.string "Oh, a smashing good idea!\p"
+	.string "It will settle once and for all\n"
+	.string "who is the best at\l"
+	.string "“{STR_VAR_1}.”\l"
+	.string "Brilliant, indeed!\p"
+	.string "Starting today, our lives will revolve\n"
+	.string "around “{STR_VAR_1}”!$"
+#endif
 
 DewfordTown_Hall_Text_TrendHasBecomePartOfLife:
+#if GERMAN
 	.string "Ich habe nachgedacht…\p"
 	.string "Stimmst du mir zu, dass\n"
 	.string "“{STR_VAR_1}” von\l"
 	.string "etwas Modernem zu einem Teil unseres\l"
 	.string "Lebens geworden ist?$"
+#else
+	.string "I was thinking, though…\p"
+	.string "Wouldn't you agree that\n"
+	.string "“{STR_VAR_1}” has\l"
+	.string "grown from being something trendy to\l"
+	.string "being a part of our daily lives?$"
+#endif
 
 DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind:
+#if GERMAN
 	.string "Bitte? So dominant?\p"
 	.string "Nun ja, natürlich bestimmt\n"
 	.string "“{STR_VAR_1}” auch\l"
@@ -413,20 +582,46 @@ DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind:
 	.string "Du bist mit Sicherheit der\n"
 	.string "“{STR_VAR_1}”-\l"
 	.string "Professor!$"
+#else
+	.string "Beg pardon?\n"
+	.string "That much, what?\p"
+	.string "However, it's true that\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "weighs heavily on your mind, whether\l"
+	.string "you're awake or asleep.\p"
+	.string "Absolutely, you're the\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "PROFESSOR, old sport!$"
+#endif
 
 DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible:
+#if GERMAN
 	.string "Wenn du und ich ein Team bilden,\n"
 	.string "sind wir unverwundbar gegen\l"
 	.string "“{STR_VAR_1}”!$"
+#else
+	.string "If you and me team up as a combo,\n"
+	.string "we'll be invincible when it comes to all\l"
+	.string "things “{STR_VAR_1}”!$"
+#endif
 
 DewfordTown_Hall_Text_WellBeTrendDuo:
+#if GERMAN
 	.string "Licht an, mein Freund!\p"
 	.string "Wir sind das\n"
 	.string "“{STR_VAR_1}”-Duo!\p"
 	.string "Ist das nicht eine irre Vorstellung?\n"
 	.string "Hahahaha!$"
+#else
+	.string "Spot on, my friend!\p"
+	.string "We shall be the\n"
+	.string "“{STR_VAR_1}” DUO!\p"
+	.string "Isn't that a ripe image?\n"
+	.string "Hahahah!$"
+#endif
 
 DewfordTown_Hall_Text_GiveYouSludgeBomb:
+#if GERMAN
 	.string "Für mich ist Matschbombe das absolut\n"
 	.string "Größte!\p"
 	.string "Wie? Du willst mir doch nicht\n"
@@ -434,10 +629,25 @@ DewfordTown_Hall_Text_GiveYouSludgeBomb:
 	.string "nicht kennst?\p"
 	.string "Das ist aber jammerschade.\n"
 	.string "Ich werde dir eine geben.$"
+#else
+	.string "For me, SLUDGE BOMB is at the peak\n"
+	.string "of popularity. It's the one.\p"
+	.string "Hunh? You're telling me that you don't\n"
+	.string "know about SLUDGE BOMB?\p"
+	.string "That's outright pitiful.\n"
+	.string "I'll give you one.$"
+#endif
 
 DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo:
+#if GERMAN
 	.string "Ich liebe Matschbombe.\p"
 	.string "Aber Pokémon, die\n"
 	.string "“{STR_VAR_1}” kennen,\l"
 	.string "sind auch absolut angesagt.$"
+#else
+	.string "I love SLUDGE BOMB.\p"
+	.string "But POKéMON with the move\n"
+	.string "“{STR_VAR_1}”\l"
+	.string "are in, too.$"
+#endif
 

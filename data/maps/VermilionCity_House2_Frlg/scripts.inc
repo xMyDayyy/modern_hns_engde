@@ -36,20 +36,46 @@ VermilionCity_House2_EventScript_AlreadyTraded::
 	end
 
 VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon::
+#if GERMAN
 	.string "Besitzt du ein {STR_VAR_1}?\p"
 	.string "Willst du es gegen {STR_VAR_2}\n"
 	.string "tauschen?$"
+#else
+	.string "Hi!\n"
+	.string "Do you have a {STR_VAR_1}?\p"
+	.string "Want to trade it for my\n"
+	.string "{STR_VAR_2}?$"
+#endif
 
 VermilionCity_House2_Text_ThatsTooBad::
+#if GERMAN
 	.string "Schade!$"
+#else
+	.string "That's too bad.$"
+#endif
 
 VermilionCity_House2_Text_ThisIsNoMon::
+#if GERMAN
 	.string "Das ist kein {STR_VAR_1}!\p"
 	.string "Komm wieder, wenn du eines besitzt!$"
+#else
+	.string "…This is no {STR_VAR_1}.\p"
+	.string "If you get one, please trade it\n"
+	.string "to me!$"
+#endif
 
 VermilionCity_House2_Text_ThankYou::
+#if GERMAN
 	.string "Vielen Dank!$"
+#else
+	.string "Thank you!$"
+#endif
 
 VermilionCity_House2_Text_HowIsMyOldMon::
+#if GERMAN
 	.string "Wie geht es {STR_VAR_2}?\p"
 	.string "Mein {STR_VAR_1} fühlt sich super!$"
+#else
+	.string "How is my old {STR_VAR_2}?\p"
+	.string "My {STR_VAR_1} is doing great!$"
+#endif

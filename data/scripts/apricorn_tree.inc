@@ -61,29 +61,65 @@ ApricornTree_EventScript_CancelPickingApricorn::
 	end
 
 ApricornTree_Text_Intro:
+#if GERMAN
 	.string "Hier steht ein Aprikokobaum!$"
+#else
+	.string "It's an Apricorn Tree!$"
+#endif
 
 ApricornTree_Text_Empty:
+#if GERMAN
 	.string "Der Baum trägt keine Früchte…$"
+#else
+	.string "There are no Apricorns…$"
+#endif
 
 ApricornTree_Text_WantToPick:
+#if GERMAN
 	.string "{STR_VAR_2} {STR_VAR_1}!\p"
 	.string "Möchtest du die {STR_VAR_1}\n"
 	.string "pflücken?$"
+#else
+	.string "…It's {STR_VAR_2} {STR_VAR_1}!\n"
+	.string "Do you want to pick the\l"
+	.string "{STR_VAR_1}?$"
+#endif
 
 ApricornTree_Text_PickedTheApricorn:
+#if GERMAN
 	.string "{PLAYER} pflückt die {STR_VAR_2}\n"
 	.string "{STR_VAR_1}.$"
+#else
+	.string "{PLAYER} obtained\n"
+	.string "{STR_VAR_2} {STR_VAR_1}.$"
+#endif
 
 ApricornTree_Text_PutAwayApricorn:
+#if GERMAN
 	.string "{PLAYER} packt {STR_VAR_1} in die\n"
 	.string "{STR_VAR_3}-Tasche.$"
+#else
+	.string "{PLAYER} put away the\n"
+	.string "{STR_VAR_1} in\l"
+	.string "the BAG's {STR_VAR_3} POCKET.$"
+#endif
 
 ApricornTree_Text_PocketFull:
+#if GERMAN
 	.string "Die {STR_VAR_3}-Tasche ist voll.\p"
 	.string "{PLAYER} kann die {STR_VAR_1}\n"
 	.string "nicht pflücken…$"
+#else
+	.string "The BAG's {STR_VAR_3} POCKET is full.\p"
+	.string "{PLAYER} gave up on the\n"
+	.string "{STR_VAR_1}…$"
+#endif
 
 ApricornTree_Text_ApricornLeftUnpicked:
+#if GERMAN
 	.string "{PLAYER} pflückt keine\n"
 	.string "{STR_VAR_1}.$"
+#else
+	.string "{PLAYER} gave up on the\n"
+	.string "{STR_VAR_1}…$"
+#endif

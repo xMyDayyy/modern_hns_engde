@@ -6,7 +6,14 @@ SixIsland_WaterPath_House2_EventScript_Man::
 	end
 
 SixIsland_WaterPath_House2_Text_MyNeighborMeasuredMe::
+#if GERMAN
 	.string "Ich bin genau 169 cm groß.\p"
 	.string "Ich weiß das so genau, weil\n"
 	.string "mich mein Nachbar gemessen hat.$"
+#else
+	.string "My height is 67.0 inches on the\n"
+	.string "button.\p"
+	.string "I know it is this precisely because\n"
+	.string "my neighbor measured me.$"
+#endif
 

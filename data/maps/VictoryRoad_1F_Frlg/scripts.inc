@@ -44,24 +44,52 @@ VictoryRoad_1F_EventScript_Rolando::
 	end
 
 VictoryRoad_1F_Text_NaomiIntro::
+#if GERMAN
 	.string "Glaubst du etwa, du kannst es mit\n"
 	.string "mir aufnehmen?$"
+#else
+	.string "I wonder if you are good enough\n"
+	.string "for me?$"
+#endif
 
 VictoryRoad_1F_Text_NaomiDefeat::
+#if GERMAN
 	.string "Ich bin raus!$"
+#else
+	.string "I lost out…$"
+#endif
 
 VictoryRoad_1F_Text_NaomiPostBattle::
+#if GERMAN
 	.string "Dabei wollte ich nie verlieren,\n"
 	.string "schon gar nicht gegen\l"
 	.string "ein kleines Kind…$"
+#else
+	.string "I never wanted to lose to anybody,\n"
+	.string "especially to a younger kid…$"
+#endif
 
 VictoryRoad_1F_Text_RolandoIntro::
+#if GERMAN
 	.string "Ich glaube, du bist gut! Gut\n"
 	.string "genug, um mich zu schlagen?$"
+#else
+	.string "I can see you're good.\n"
+	.string "Let me see exactly how good!$"
+#endif
 
 VictoryRoad_1F_Text_RolandoDefeat::
+#if GERMAN
 	.string "Immerhin hatte ich eine Chance!$"
+#else
+	.string "I had a chance…$"
+#endif
 
 VictoryRoad_1F_Text_RolandoPostBattle::
+#if GERMAN
 	.string "Ich muss gestehen, du bist besser!$"
+#else
+	.string "Tch!\n"
+	.string "I concede, you are better than I!$"
+#endif
 

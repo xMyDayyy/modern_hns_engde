@@ -147,19 +147,35 @@ IcePath_B3F_Movement_StuckSwinubJump:
 	step_end
 
 IcePath_B3F_Text_Swinub:
+#if GERMAN
 	.string "Quiekel: Swiiiiii!$"
+#else
+	.string "SWINUB: Swiiiiii!$"
+#endif
 IcePath_B3F_Text_SwinubBerry:
 	.string "Willst du Quiekel eine Beere geben?$"
 IcePath_B3F_Text_SwinubAteBerry:
-	.string "Quiekel hat die Aspear-Beere genossen!$"
+#if GERMAN
+	.string "{COLOR RED}Quiekel{COLOR DARK_GRAY} hat die Aspear-Beere genossen!$"
+#else
+	.string "SWINUB enjoyed the ASPEAR BERRY!$"
+#endif
 IcePath_B3F_Text_SwinubTurnedAway:
 	.string "Quiekel mag das nicht!$"
 
 IcePath_B3F_Text_Delibird:
+#if GERMAN
 	.string "Botogel: Skwaaaaa!$"
+#else
+	.string "DELIBIRD: SKWAAAAA!$"
+#endif
 IcePath_B3F_Text_DelibirdBerry:
 	.string "Willst du Botogel eine Beere geben?$"
 IcePath_B3F_Text_DelibirdAteBerry:
-	.string "Botogel hat die Aspear-Beere genossen!$"
+#if GERMAN
+	.string "{COLOR RED}Botogel{COLOR DARK_GRAY} hat die Aspear-Beere genossen!$"
+#else
+	.string "DELIBIRD enjoyed the ASPEAR BERRY!$"
+#endif
 IcePath_B3F_Text_DelibirdTurnedAway:
 	.string "Botogel mag das nicht!$"

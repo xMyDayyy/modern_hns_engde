@@ -81,6 +81,7 @@ SlowpokeWell_B1F_Movement_Kurt:
 	step_end
 
 SlowpokeWell_B1F_Text_KurtIntro:
+#if GERMAN
 	.string "Kurt: Oh, du bist es, {PLAYER}.\p"
 	.string "Die Wache oben hat sofort\n"
 	.string "das Weite gesucht, als ich sie\l"
@@ -94,43 +95,99 @@ SlowpokeWell_B1F_Text_KurtIntro:
 	.string "Aber es nützt nichts, {PLAYER}!\n"
 	.string "Du wirst ihnen an meiner Stelle zeigen\l"
 	.string "müssen, was ein wahrer Trainer ist!$"
+#else
+	.string "KURT: Hey there, {PLAYER}!\p"
+	.string "The guard up top took off when\n"
+	.string "I shouted at him.\p"
+	.string "But then I took a tumble down\n"
+	.string "the WELL.\p"
+	.string "I slammed down hard on my back,\n"
+	.string "so I can't move.\p"
+	.string "Rats! If I were fit, my POKéMON\n"
+	.string "would've punished them…\p"
+	.string "Ah, it can't be helped.\p"
+	.string "{PLAYER}, show them how gutsy\n"
+	.string "you are in my place!$"
+#endif
 
 SlowpokeWell_B1F_Text_KurtAfter:
+#if GERMAN
 	.string "Kurt: Gute Arbeit, {PLAYER}!\n"
 	.string "Die Typen von Team Rocket\l"
 	.string "haben Reißaus genommen!\p"
 	.string "Meiner Hüfte geht es auch\n"
 	.string "wieder besser. Lass uns gehen.$"
+#else
+	.string "KURT: Way to go, {PLAYER}!\p"
+	.string "TEAM ROCKET has taken off.\p"
+	.string "My back's better too.\n"
+	.string "Let's get out of here.$"
+#endif
 
 SlowpokeWell_B1F_Text_GruntM29Seen:
+#if GERMAN
 	.string "Verflixt! Ich habe oben Wache gehalten,\n"
 	.string "und da kam dieser halbwahnsinnige Opa.\p"
 	.string "Urplötzlich gibt es einen Schrei, und er\n"
 	.string "springt einfach in den Brunnenschacht.\p"
 	.string "Egal. Dann reagiere ich meinen\n"
 	.string "Frust eben an dir ab!$"
+#else
+	.string "Darn! I was standing guard up\n"
+	.string "top when some old coot yelled\l"
+	.string "at me.\p"
+	.string "He startled me so much that\n"
+	.string "I fell down here.\p"
+	.string "I think I'll vent my anger by\n"
+	.string "taking it out on you!$"
+#endif
 
 SlowpokeWell_B1F_Text_GruntM29Beaten:
+#if GERMAN
 	.string "Ach! Es hilft ja alles nichts!$"
+#else
+	.string "Arrgh! This is NOT my day!$"
+#endif
 
 SlowpokeWell_B1F_Text_GruntM29After:
+#if GERMAN
 	.string "Klar, wir hacken Flegmon-Ruten\n"
 	.string "ab und verkaufen sie.\p"
 	.string "Alles, was wir tun, dient dem\n"
 	.string "Profit.\p"
 	.string "Richtig! Wir sind Team Rocket\n"
 	.string "und tun alles für Geld!$"
+#else
+	.string "Sure, we've been hacking the\n"
+	.string "tails off SLOWPOKE and selling\l"
+	.string "them.\p"
+	.string "Everything we do is for profit.\p"
+	.string "That's right! We're TEAM ROCKET,\n"
+	.string "and we'll do anything for money!$"
+#endif
 
 SlowpokeWell_B1F_Text_ProtonSeen:
+#if GERMAN
 	.string "Was willst du?\p"
 	.string "Wenn du unsere Arbeit störst,\n"
 	.string "erwarte keine Gnade!$"
+#else
+	.string "What do you want?\p"
+	.string "If you interrupt our work,\n"
+	.string "don't expect any mercy!$"
+#endif
 
 SlowpokeWell_B1F_Text_ProtonBeaten:
+#if GERMAN
 	.string "Du hast dich gut geschlagen,\n"
 	.string "aber warte nur bis zum nächsten Mal!$"
+#else
+	.string "You did OK today,\n"
+	.string "but wait till next time!$"
+#endif
 
 SlowpokeWell_B1F_Text_ProtonAfter:
+#if GERMAN
 	.string "Lance: …Hehehe!\n"
 	.string "Ja, es stimmt. Team Rocket wurde\l"
 	.string "vor drei Jahren zerschlagen.\p"
@@ -142,46 +199,108 @@ SlowpokeWell_B1F_Text_ProtonAfter:
 	.string "Alles, was du tun kannst, ist in\n"
 	.string "Schrecken auf das zu warten,\l"
 	.string "was wir weiter im Schilde führen!$"
+#else
+	.string "Yeah, TEAM ROCKET was broken up\n"
+	.string "three years ago.\p"
+	.string "The boss went into hiding.\p"
+	.string "But we continued our activities\n"
+	.string "underground!\p"
+	.string "A small obstacle like you won't be\n"
+	.string "much of a problem for our mission.\p"
+	.string "I advise you to be very afraid of\n"
+	.string "what is to come!$"
+#endif
 
 SlowpokeWell_B1F_Text_GruntM2Seen:
+#if GERMAN
 	.string "Hyuck-hyuck-hyuck!\n"
 	.string "Aufhören, Flegmonruten zu klauen?\p"
 	.string "Du bist verrückt!\n"
 	.string "Wenn wir dir gehorchen, wäre der\l"
 	.string "Ruf von Team Rocket ruiniert!$"
+#else
+	.string "Hyuck-hyuck-hyuck!\n"
+	.string "Quit taking SLOWPOKETAILS?\p"
+	.string "You're nuts!\n"
+	.string "If we obeyed you, TEAM ROCKET's\l"
+	.string "rep would be ruined!$"
+#endif
 
 SlowpokeWell_B1F_Text_GruntM2Beaten:
+#if GERMAN
 	.string "Hyuck… Zu stark…$"
+#else
+	.string "Hyuck…\n"
+	.string "Too strong…$"
+#endif
 
 SlowpokeWell_B1F_Text_GruntM2After:
+#if GERMAN
 	.string "Ich sehe ja ein, wir brauchen das Geld.\n"
 	.string "Aber mit Flegmon-Ruten?\p"
 	.string "Wir Rocket-Rüpel haben es\n"
 	.string "auch nicht leicht…$"
+#else
+	.string "We need the money,\n"
+	.string "but selling SLOWPOKETAILS?\p"
+	.string "It's tough being a ROCKET GRUNT!$"
+#endif
 
 SlowpokeWell_B1F_Text_GruntF1Seen:
+#if GERMAN
 	.string "Aufhören, Flegmonruten zu klauen?\p"
 	.string "Na, versuch doch, uns alle\n"
 	.string "aufzuhalten!$"
+#else
+	.string "Stop taking TAILS?\p"
+	.string "Yeah, just try to defeat all\n"
+	.string "of us!$"
+#endif
 
 SlowpokeWell_B1F_Text_GruntF1Beaten:
+#if GERMAN
 	.string "Du vorlautes Balg!$"
+#else
+	.string "You rotten brat!$"
+#endif
 
 SlowpokeWell_B1F_Text_GruntF1After:
+#if GERMAN
 	.string "Flegmonruten wachsen schnell nach!\p"
 	.string "Was ist falsch daran,\n"
 	.string "sie zu verkaufen?$"
+#else
+	.string "SLOWPOKETAILS grow back fast!\p"
+	.string "What's wrong with selling them?$"
+#endif
 
 SlowpokeWell_B1F_Text_SlowpokeWithMail:
+#if GERMAN
 	.string "Ein Flegmon mit abgetrennter Rute…\n"
 	.string "Huch? Es trägt einen Brief bei sich.\p"
 	.string "Willst du ihn lesen?$"
+#else
+	.string "A SLOWPOKE with its TAIL cut off…\p"
+	.string "Huh? It has MAIL.\n"
+	.string "Read it?$"
+#endif
 
 SlowpokeWell_B1F_Text_SlowpokeMail:
+#if GERMAN
 	.string "{PLAYER} liest den Brief.\p"
 	.string "Bitte kümmere dich gut um Opa und\n"
 	.string "das Flegmon, während ich weg bin.\l"
 	.string "Danke, dein Papa$"
+#else
+	.string "{PLAYER} read the MAIL.\p"
+	.string "Be good and look after the\n"
+	.string "house with Grandpa and SLOWPOKE.\p"
+	.string "Love, Dad$"
+#endif
 
 SlowpokeWell_B1F_Text_TaillessSlowpoke:
+#if GERMAN
 	.string "Ein Flegmon mit abgetrennter Rute…$"
+#else
+	.string "A SLOWPOKE with its TAIL cut off…$"
+#endif

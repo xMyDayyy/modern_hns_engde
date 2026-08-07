@@ -15,8 +15,13 @@ EcruteakCity_SageOffice1_EventScript_Sign::
 	end
 
 EcruteakCity_SageOffice1_Text_Sign:
+#if GERMAN
 	.string "Die Glocke aus Zinn klingt hell und rein\n"
 	.string "für alle, die im Schutz des Turmes sein.$"
+#else
+	.string "The bell of tin rings clearly for\n"
+	.string "those under the tower's wing.$"
+#endif
 
 EcruteakCity_SageOffice2_EventScript_SageA::
 	lock
@@ -88,18 +93,33 @@ EcruteakCity_SageOffice2_Movement_StandAside:
 	step_end
 
 EcruteakTinTowerEntrance_Text_SageNoBadge:
+#if GERMAN
 	.string "Wenn du nicht im Besitz des Ordens\p"
 	.string "von Teak City bist, darfst du\p"
 	.string "den Zinnturm nicht betreten.$"
+#else
+	.string "TIN TOWER is off limits to the\n"
+	.string "unworthy. Sorry but you'll have\l"
+	.string "to leave.$"
+#endif
 
 EcruteakTinTowerEntrance_Text_SageWithBadge:
+#if GERMAN
 	.string "Wenn du nicht im Besitz des Ordens\n"
 	.string "von Teak City bist, darfst du\l"
 	.string "den Zinnturm nicht betreten.\p"
 	.string "Ah! Das ist der Orden\n"
 	.string "von Teak City! Du darfst passieren.$"
+#else
+	.string "TIN TOWER is off limits to anyone\n"
+	.string "without ECRUTEAK GYM's BADGE.\p"
+	.string "Ah!\p"
+	.string "ECRUTEAK's GYM BADGE! Please, go\n"
+	.string "right through.$"
+#endif
 
 EcruteakTinTowerEntrance_Text_SageNoClearBell:
+#if GERMAN
 	.string "Ein denkwürdiger Augenblick.\p"
 	.string "Entschuldigung,\n"
 	.string "aber ich muss dich bitten zu gehen.\p"
@@ -107,12 +127,27 @@ EcruteakTinTowerEntrance_Text_SageNoClearBell:
 	.string "Das Trio der Weisen sagt stets\p"
 	.string "Dinge, die sehr schwierig\n"
 	.string "zu verstehen sind…$"
+#else
+	.string "A momentous event has occurred.\p"
+	.string "I beg your pardon, but I must ask\n"
+	.string "you to leave.\p"
+	.string "…What soothes the soul…\p"
+	.string "The WISE TRIO say things that are\n"
+	.string "so very difficult to understand…$"
+#endif
 
 EcruteakTinTowerEntrance_Text_SageHearsClearBell1:
+#if GERMAN
 	.string "Ein denkwürdiger Augenblick.\p"
 	.string "Entschuldigung,\n"
 	.string "aber ich muss dich bitten zu gehen.\p"
 	.string ".........$"
+#else
+	.string "A momentous event has occurred.\p"
+	.string "I beg your pardon, but I must ask\n"
+	.string "you to leave.\p"
+	.string "..............................$"
+#endif
 EcruteakTinTowerEntrance_Text_SageHearsClearBell2:
 	.string "Ah!\p"
 	.string "Das Läuten der Klarglocke!\p"
@@ -127,26 +162,55 @@ EcruteakTinTowerEntrance_Text_SageHearsClearBell2:
 	.string "Schreite voran.$"
 
 EcruteakTinTowerEntrance_Text_SagePleaseDoGoOn:
+#if GERMAN
 	.string "Schreite voran…$"
+#else
+	.string "Please, do go on.$"
+#endif
 
 EcruteakTinTowerEntrance_Text_SageDone:
+#if GERMAN
 	.string "Der Klang dieser Glocke zeigt\n"
 	.string "die Reinheit der Seele ihres Trägers.\p"
 	.string "Du… Bist wahrlich würdig.$"
+#else
+	.string "That bell's chime is indicative of\n"
+	.string "the bearer's soul.\p"
+	.string "You…\n"
+	.string "Truly are worthy.$"
+#endif
 
 EcruteakTinTowerEntrance_Text_WanderingSage:
+#if GERMAN
 	.string "Der Zinnturm da vorne ist ein\n"
 	.string "8-stöckiger Turm\l"
 	.string "von göttlicher Schönheit.\p"
 	.string "Er beruhigt die Seelen derer,\n"
 	.string "die ihn betrachten.$"
+#else
+	.string "The TIN TOWER ahead is a nine-\n"
+	.string "tier tower of divine beauty.\p"
+	.string "It soothes the soul of all who\n"
+	.string "see it.$"
+#endif
 
 EcruteakTinTowerEntrance_Text_WanderingSageClearBell:
+#if GERMAN
 	.string "Der Zinnturm bebt! Ein Pokémon muss\n"
 	.string "auf der Spitze gelandet sein!$"
+#else
+	.string "The TIN TOWER shook! A POKéMON must\n"
+	.string "have returned to the top!$"
+#endif
 
 EcruteakTinTowerEntrance_Text_Gramps:
+#if GERMAN
 	.string "Zwei Türme… Zwei Pokémon…\p"
 	.string "Aber als einer niederbrannte,\n"
 	.string "flogen beide Pokémon fort\l"
 	.string "und kamen nie wieder zurück.$"
+#else
+	.string "Two towers… Two POKéMON…\p"
+	.string "But when one burned down, both\n"
+	.string "POKéMON flew away, never to return.$"
+#endif

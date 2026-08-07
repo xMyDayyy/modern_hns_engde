@@ -10,10 +10,19 @@ ViridianCity_Mart_EventScript_Cooltrainer::
 	end
 
 ViridianMart_Text_Lass:
+#if GERMAN
 	.string "Der Arenaleiter dieser Stadt\n"
 	.string "ist extrem cool!$"
+#else
+	.string "The GYM LEADER here is totally cool.$"
+#endif
 
 ViridianMart_Text_CooltrainerM:
-	.string "Warst du schon auf der Zinnoberinsel?\p"
+#if GERMAN
+	.string "Warst du schon auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY}?\p"
 	.string "Sie liegt tief im Süden.$"
+#else
+	.string "Have you been to CINNABAR?\p"
+	.string "It's an island way south of here.$"
+#endif
 

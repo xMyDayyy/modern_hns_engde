@@ -159,23 +159,45 @@ CeruleanCity_Gym_EventScript_GymGuyAfter::
 	end
 
 CeruleanCity_Gym_Text_GymStatue::
+#if GERMAN
     .string "Pokémon-Arena von Azuria City\n"
     .string "Leiterin: Misty\p"
 	.string "Anerkannte Trainer:\n"
 	.string "Blau, Rot$"
+#else
+    .string "CERULEAN POKéMON GYM\n"
+    .string "LEADER: MISTY\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED$"
+#endif
 
 CeruleanCity_Gym_Text_GymStatuePlayerWon::
+#if GERMAN
     .string "Pokémon-Arena von Azuria City\n"
     .string "Leiterin: Misty\p"
 	.string "Anerkannte Trainer:\n"
 	.string "Blau, Rot, {PLAYER}$"
+#else
+    .string "CERULEAN POKéMON GYM\n"
+    .string "LEADER: MISTY\p"
+    .string "WINNING TRAINERS:\n"
+	.string "BLUE, RED, {PLAYER}$"
+#endif
 
 CeruleanGym_Text_Note:
+#if GERMAN
 	.string "Tut mir leid, ich bin erstmal fort.\n"
 	.string "Misty, Arenaleiterin\p"
 	.string "Da Misty nicht hier ist,\n"
 	.string "sind wir auch erstmal nicht hier.\l"
 	.string "Die Arena-Trainer$"
+#else
+	.string "Sorry, I'll be out for a while.\n"
+	.string "MISTY, GYM LEADER\p"
+	.string "Since MISTY's out, we'll be away\n"
+	.string "too.\l"
+	.string "GYM TRAINERS$"
+#endif
 
 
 CeruleanCity_Gym_EventScript_Misty::
@@ -212,6 +234,7 @@ CeruleanCity_Gym_EventScript_Misty_Defeated::
 	end
 
 CeruleanGym_Text_GruntIntro:
+#if GERMAN
 	.string "Oh! Sorry!\n"
 	.string "Bist du auch not verletzt?\l"
 	.string "Ich bin total busy, beschäftigt!\l"
@@ -219,109 +242,240 @@ CeruleanGym_Text_GruntIntro:
 	.string "lange Gespräche zu verschwenden!\l"
 	.string "Wenn mich here jemand sieht, you know,\l"
 	.string "then ich bin in große trouble!$"
+#else
+	.string "Oops! I so sorry! You not hurt,\n"
+	.string "okay?\p"
+	.string "I very busy. No time for talking\n"
+	.string "with you. Not good for me if\l"
+	.string "seen by somebody.$"
+#endif
 
 CeruleanGym_Text_GruntBigMistake:
+#if GERMAN
 	.string "…Aber oh no!\n"
 	.string "Du hast me ja schon gesehen!\l"
 	.string "Das war ein groß big Fehler von mir!$"
+#else
+	.string "Oh no! You seen me already!\n"
+	.string "I make big mistake!$"
+#endif
 
 CeruleanGym_Text_GruntBye:
+#if GERMAN
 	.string "Hey, du! Vergiss, dass du mich\n"
 	.string "gesehen hast okay?\p"
 	.string "Du siehst, hörst, weißt nichts,\n"
 	.string "okay? Tschüss, Kind! Nichts!\p"
 	.string "Bye-bye!$"
+#else
+	.string "Hey, you! Forget you see me,\n"
+	.string "okay?\p"
+	.string "You see, hear, know nothing,\p"
+	.string "okay? Bye, kid! Nothing!\p"
+	.string "Bye-bye a go-go!$"
+#endif
 
 CeruleanGym_Text_Note1:
+#if GERMAN
 	.string "Sorry, ich bin eine Weile weg.\n"
 	.string "Misty, Arenaleiterin\p"
 	.string "Da Misty weg ist, sind wir auch\n"
 	.string "nicht da. Arena-Trainer$"
+#else
+	.string "Sorry, I'll be out for a while.\n"
+	.string "MISTY, GYM LEADER\p"
+	.string "Since MISTY's out, we'll be away\n"
+	.string "too. GYM TRAINERS$"
+#endif
 
 CeruleanGym_Text_MistyIntro:
+#if GERMAN
 	.string "Misty: Ah, unser Störenfried!\p"
 	.string "Du magst dir in Johto vielleicht viele\n"
 	.string "Orden erkämpft haben, aber ich rate\l"
 	.string "dir, mich nicht zu unterschätzen!\p"
 	.string "Meine Wasser-Pokémon haben’s drauf!$"
+#else
+	.string "MISTY: I was expecting you, you\n"
+	.string "pest!\p"
+	.string "You may have a lot of JOHTO GYM\n"
+	.string "BADGES, but you'd better not\l"
+	.string "take me too lightly.\p"
+	.string "My WATER-type POKéMON are\n"
+	.string "tough!$"
+#endif
 
 CeruleanGym_Text_MistyWinLoss:
+#if GERMAN
 	.string "Misty: Mann, du bist wirklich gut…\p"
 	.string "Ich gebe es offen zu! Du hast\n"
 	.string "wirklich einiges an Talent…\p"
 	.string "Hier hast du den Quellorden!$"
+#else
+	.string "MISTY: You really are good…\p"
+	.string "I'll admit that you are skilled…\p"
+	.string "Here you go. It's CASCADEBADGE.$"
+#endif
 
 CeruleanGym_Text_ReceivedBadge:
+#if GERMAN
 	.string "{PLAYER} erhält den Quellorden!$"
+#else
+	.string "{PLAYER} received CASCADEBADGE.$"
+#endif
 
 CeruleanGym_Text_MistyFightDone:
+#if GERMAN
 	.string "Misty: Gibt es viele starke\n"
 	.string "Trainer in Johto?\l"
 	.string "Wie dich meine ich?\p"
 	.string "Eines Tages werde ich reisen,\n"
 	.string "um gegen einige geschickte\l"
 	.string "Trainer zu kämpfen.$"
+#else
+	.string "MISTY: Are there many strong\n"
+	.string "trainers in JOHTO? Like you, I\l"
+	.string "mean.\p"
+	.string "I'm going to travel one day, so\n"
+	.string "I can battle some skilled\l"
+	.string "trainers.$"
+#endif
 
 CeruleanGym_Text_MistyRematch:
+#if GERMAN
 	.string "Misty: Wow, du bist jetzt der Kanto-\n"
 	.string "Champion!\p"
 	.string "Unglaublich! Du bist weit gekommen,\n"
 	.string "{PLAYER}.\p"
 	.string "Aber ich gebe nicht auf.\p"
 	.string "Willst du ein Rückkampf mit mir?$"
+#else
+	.string "MISTY: Wow, you're the KANTO\n"
+	.string "CHAMPION now!\p"
+	.string "That's amazing! You've come a\n"
+	.string "long way, {PLAYER}.\p"
+	.string "But I'm not backing down.\p"
+	.string "Want to have a rematch with me?$"
+#endif
 
 CeruleanGym_Text_MistyRematchDefeat:
+#if GERMAN
 	.string "Misty: Du bist wirklich gut…$"
+#else
+	.string "MISTY: You really are good…$"
+#endif
 
 CeruleanGym_Text_SwimmerfDianaSeen:
+#if GERMAN
 	.string "Es tut mir leid, dass ich so lange\n"
 	.string "weg war. Lass uns anfangen!$"
+#else
+	.string "Sorry about being away. Let's get\n"
+	.string "on with it!$"
+#endif
 
 CeruleanGym_Text_SwimmerfDianaBeaten:
+#if GERMAN
 	.string "Ich gebe auf! Du\n"
 	.string "hast gewonnen!$"
+#else
+	.string "I give up! You're the winner!$"
+#endif
 
 CeruleanGym_Text_SwimmerfDianaAfter:
+#if GERMAN
 	.string "Ich werde hier ganz friedlich meine\n"
 	.string "Bahnen abschwimmen!$"
+#else
+	.string "I'll be swimming quietly.$"
+#endif
 
 CeruleanGym_Text_SwimmerfBrianaSeen:
+#if GERMAN
 	.string "Lass dich nicht von meinem eleganten\n"
 	.string "Schwimmen einschüchtern.$"
+#else
+	.string "Don't let my elegant swimming\n"
+	.string "unnerve you.$"
+#endif
 
 CeruleanGym_Text_SwimmerfBrianaBeaten:
+#if GERMAN
 	.string "Ooh, du hast mich ruhig besiegt…$"
+#else
+	.string "Ooh, you calmly disposed of me…$"
+#endif
 
 CeruleanGym_Text_SwimmerfBrianaAfter:
+#if GERMAN
 	.string "Sei nicht zu überheblich, dass du\n"
 	.string "mich besiegt hast.\p"
 	.string "Misty wird dich zerstören, wenn du\n"
 	.string "selbstzufrieden wirst.$"
+#else
+	.string "Don't be too smug about beating\n"
+	.string "me.\p"
+	.string "MISTY will destroy you if you get\n"
+	.string "complacent.$"
+#endif
 
 CeruleanGym_Text_SwimmermParkerSeen:
+#if GERMAN
 	.string "Glugger…\p"
 	.string "Zuerst kriegst du’s mit mir zu tun!\n"
 	.string "Los, greife mich an!$"
+#else
+	.string "Glub…\p"
+	.string "I'm first! Come and get me!$"
+#endif
 
 CeruleanGym_Text_SwimmermParkerBeaten:
+#if GERMAN
 	.string "Das darf doch nicht\n"
 	.string "wahr sein…$"
+#else
+	.string "This can't be…$"
+#endif
 
 CeruleanGym_Text_SwimmermParkerAfter:
+#if GERMAN
 	.string "Misty ist in den letzten Jahren\n"
 	.string "viel besser geworden.\p"
 	.string "Lass deine Wachsamkeit nicht\n"
 	.string "nach, sonst wirst du zerstört!$"
+#else
+	.string "MISTY has gotten much better in\n"
+	.string "the past few years.\p"
+	.string "Don't let your guard down, or\n"
+	.string "you'll be crushed!$"
+#endif
 
 CeruleanGym_Text_GuideIntro:
+#if GERMAN
 	.string "Oh, hi, zukünftiger Champ!\n"
 	.string "Als Misty und die anderen weg waren, bin\l"
 	.string "ich mich auch etwas amüsieren gegangen.\l"
 	.string "Hihihi…$"
+#else
+	.string "Yo! CHAMP in making!\p"
+	.string "Since MISTY was away, I went out\p"
+	.string "for some fun too. He-he-he.$"
+#endif
 
 CeruleanGym_Text_GuideWin:
+#if GERMAN
 	.string "Wow, du bist wirklich ganz schön stark!\n"
 	.string "Das war echt ein toller Kampf!$"
+#else
+	.string "Hoo, you showed me how tough you\n"
+	.string "are.\p"
+	.string "As always, that was one heck of a\n"
+	.string "great battle!$"
+#endif
 
 CeruleanGym_Text_MistyTm:
+#if GERMAN
 	.string "Hier, nimm noch das.$"
+#else
+	.string "Here, take this too.$"
+#endif

@@ -119,30 +119,63 @@ VermilionCity_PokemonFanClub_EventScript_RulesSign2::
 	end
 
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
+#if GERMAN
 	.string "Hat mein Pikachu nicht einen\n"
 	.string "wunderschönen Schweif?$"
+#else
+	.string "Won't you admire my PIKACHU's\n"
+	.string "adorable tail?$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
+#if GERMAN
 	.string "Hmpf!\p"
 	.string "Mein Pikachu ist viel süßer als ihr\n"
 	.string "Pokémon!$"
+#else
+	.string "Humph!\p"
+	.string "My PIKACHU is twice as cute as\n"
+	.string "that one!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
+#if GERMAN
 	.string "Ich liebe mein Jurob!\p"
 	.string "Es quiekt, wenn ich es in den Arm\n"
 	.string "nehme!$"
+#else
+	.string "I just adore my SEEL!\n"
+	.string "It's so lovable!\p"
+	.string "It squeals, “Kyuuuh,” when I\n"
+	.string "hug it!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
+#if GERMAN
 	.string "Du meine Güte!\p"
 	.string "Mein Jurob ist viel hübscher!$"
+#else
+	.string "Oh, dear!\p"
+	.string "My SEEL is far more attractive.\n"
+	.string "By double, I would say.$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_Pikachu::
+#if GERMAN
 	.string "Pikachu: Pi! Pi-ka-chu!$"
+#else
+	.string "PIKACHU: Chu! Pikachu!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_Seel::
+#if GERMAN
 	.string "Jurob: Jurob!$"
+#else
+	.string "SEEL: Kyuoo!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
+#if GERMAN
 	.string "Ich bin der Vorsitzende des\n"
 	.string "Pokémon-Fanclubs!\p"
 	.string "Ich habe mehr als 100 Pokémon\n"
@@ -152,11 +185,22 @@ VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
 	.string "Also...\p"
 	.string "Bist du hergekommen, um etwas über\n"
 	.string "meine Pokémon zu hören?$"
+#else
+	.string "I chair the POKéMON Fan Club!\p"
+	.string "I raise more than a hundred\n"
+	.string "POKéMON!\p"
+	.string "I'm very fussy when it comes to\n"
+	.string "POKéMON! I surely am!\p"
+	.string "So…\p"
+	.string "Did you come visit to hear about\n"
+	.string "my POKéMON?$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_ChairmansStory::
+#if GERMAN
 	.string "Sehr schön!\n"
 	.string "Dann höre mir zu!\p"
-	.string "Am liebsten mag ich Gallopa!\p"
+	.string "Am liebsten mag ich {COLOR RED}Gallopa{COLOR DARK_GRAY}!\p"
 	.string "Es ist... süß... schön... klug...\n"
 	.string "und... aufregend!\l"
 	.string "Stimmst du mir zu?\l"
@@ -169,48 +213,118 @@ VermilionCity_PokemonFanClub_Text_ChairmansStory::
 	.string "halte dich auf!\p"
 	.string "Danke, dass du mir zugehört hast!\n"
 	.string "Nimm dieses Geschenk von mir!$"
+#else
+	.string "Good!\n"
+	.string "Then listen up!\p"
+	.string "My favorite RAPIDASH…\p"
+	.string "It's…cute…lovely…smart… \n"
+	.string "plus…amazing…you think so?…\l"
+	.string "oh yes…it's…stunning…\l"
+	.string "kindly…love it!\p"
+	.string "Hug it…when…sleeping…warm\n"
+	.string "and cuddly…spectacular…\l"
+	.string "ravishing…\l"
+	.string "…Oops! Look at the time!\l"
+	.string "I kept you too long!\p"
+	.string "Thanks for hearing me out!\n"
+	.string "I want you to have this!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "einen Rad-Coupon!$"
+	.string "einen {COLOR RED}Rad-Coupon{COLOR DARK_GRAY}!$"
+#else
+	.string "{PLAYER} received a BIKE VOUCHER\n"
+	.string "from the CHAIRMAN.$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
-	.string "Zeige den Rad-Coupon im\n"
-	.string "Fahrradladen von Azuria City.\p"
-	.string "Du erhältst dafür ein Fahrrad!\p"
+#if GERMAN
+	.string "Zeige den {COLOR RED}Rad-Coupon{COLOR DARK_GRAY} im\n"
+	.string "Fahrradladen von {COLOR RED}Azuria City{COLOR DARK_GRAY}.\p"
+	.string "Du erhältst dafür ein {COLOR RED}Fahrrad{COLOR DARK_GRAY}!\p"
 	.string "Sorge dich nicht um mich, ich kann\n"
-	.string "mit meinem Ibitak Fliegen!\p"
-	.string "Ich brauche also kein Fahrrad!\p"
+	.string "mit meinem {COLOR RED}Ibitak{COLOR DARK_GRAY} Fliegen!\p"
+	.string "Ich brauche also kein {COLOR RED}Fahrrad{COLOR DARK_GRAY}!\p"
 	.string "Ich hoffe, du fährst gerne Rad!$"
+#else
+	.string "Take that BIKE VOUCHER to the\n"
+	.string "BIKE SHOP in CERULEAN CITY.\p"
+	.string "Exchange that for a BICYCLE\n"
+	.string "free of charge!\p"
+	.string "Don't worry, my favorite FEAROW\n"
+	.string "will FLY me anywhere I need to go.\p"
+	.string "So, I have no need for a BICYCLE.\p"
+	.string "I hope you like cycling!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_ComeBackToHearStory::
+#if GERMAN
 	.string "Oh. Komm wieder vorbei, wenn ich\n"
 	.string "dir etwas erzählen soll!$"
+#else
+	.string "Oh. Come back when you want to\n"
+	.string "hear my story!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain::
+#if GERMAN
 	.string "Hallo, {PLAYER}!\p"
 	.string "Soll ich dir von meinen Pokémon\n"
 	.string "erzählen?\p"
 	.string "Nein? Schade!$"
+#else
+	.string "Hello, {PLAYER}!\p"
+	.string "Did you come see me about my\n"
+	.string "POKéMON again?\p"
+	.string "No?\n"
+	.string "Too bad!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_MakeRoomForThis::
+#if GERMAN
 	.string "Du solltest etwas Platz schaffen!$"
+#else
+	.string "Make room for this!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon::
+#if GERMAN
 	.string "Der Vorsitzende redet sehr gerne\n"
 	.string "über Pokémon!$"
+#else
+	.string "Our CHAIRMAN is very vocal about\n"
+	.string "POKéMON.$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers::
+#if GERMAN
 	.string "Hört anderen Trainern aufmerksam\n"
 	.string "zu!$"
+#else
+	.string "Let's all listen politely to other\n"
+	.string "TRAINERS!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack::
+#if GERMAN
 	.string "Wenn jemand prahlt, dann prahle\n"
 	.string "zurück!$"
+#else
+	.string "If someone brags, brag right back!$"
+#endif
 
 VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons::
+#if GERMAN
 	.string "Der Vorsitzende redet sehr gerne\n"
 	.string "über Pokémon!\p"
 	.string "Aber die Person, die von den\n"
 	.string "Pokémon am meisten\l"
 	.string "geliebt wird, ist Sarah!$"
+#else
+	.string "Our CHAIRMAN really does adore his\n"
+	.string "POKéMON.\p"
+	.string "But the person who is most liked by\n"
+	.string "POKéMON is DAISY, I think.$"
+#endif

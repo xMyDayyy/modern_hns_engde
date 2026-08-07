@@ -97,12 +97,19 @@ EcruteakCity_PokemonCenter_Movement_BillBot:
 
 
 EcruteakCity_PokemonCenter1F_Text_Bill1:
-	.string "Hi, ich bin Bill. Und wer bist du?\p"
+#if GERMAN
+	.string "Hi, ich bin {COLOR RED}Bill{COLOR DARK_GRAY}. Und wer bist du?\p"
 	.string "Hmm, {PLAYER}?\n"
 	.string "Du bist gerade zum richtigen Zeitpunkt\l"
 	.string "gekommen.$"
+#else
+	.string "Hi, I'm BILL. And who are you?\p"
+	.string "Hmm, {PLAYER}, huh?\n"
+	.string "You've come at the right time.$"
+#endif
 
 EcruteakCity_PokemonCenter1F_Text_Bill2:
+#if GERMAN
 	.string "Ich habe gerade mein Pokémon-\n"
 	.string "Lagerungssystem fertig eingestellt.\p"
 	.string "Du kennst doch den PC, den du\n"
@@ -113,31 +120,75 @@ EcruteakCity_PokemonCenter1F_Text_Bill2:
 	.string "habe, läuft mein PC in allen\l"
 	.string "Pokécenter in Johto und Kanto.\p"
 	.string "Ich muss schnell zurück nach\n"
-	.string "Dukatia City und meine Leute sehen.\l"
+	.string "{COLOR RED}Dukatia City{COLOR DARK_GRAY} und meine Leute sehen.\l"
 	.string "Du kannst aber jederzeit vorbeikommen!\n"
 	.string "\p"
 	.string "Tschüss!$"
+#else
+	.string "I just finished adjustments on my\n"
+	.string "POKéMON STORAGE SYSTEM.\p"
+	.string "You know that PC you use to store\n"
+	.string "all your POKéMON?\p"
+	.string "I developed that myself!\p"
+	.string "Now that I've installed this one,\n"
+	.string "my PC is running at all\l"
+	.string "POKéMON CENTERS in JOHTO and KANTO.\p"
+	.string "I have to hurry on back to\n"
+	.string "GOLDENROD and see my folks. Feel\l"
+	.string "free to visit anytime!\p"
+	.string "Buh-bye!$"
+#endif
 
 EcruteakCity_PokemonCenter1F_Text_PokefanM:
+#if GERMAN
 	.string "Sowohl der Tanz der Kimono-Girls\p"
 	.string "als auch die Art,\n"
 	.string "wie sie ihre Pokémon einsetzen,\l"
 	.string "ist wunderbar!$"
+#else
+	.string "The way the KIMONO GIRLS dance is\n"
+	.string "marvelous.\p"
+	.string "Just like the way they use their\n"
+	.string "POKéMON.$"
+#endif
 
 EcruteakCity_PokemonCenter1F_Text_PokefanM_Mobile:
+#if GERMAN
 	.string "Du hoffst, hier\n"
 	.string "mehr Kämpfe zu erleben, nicht wahr?\p"
 	.string "Es gibt offensichtlich einen\p"
 	.string "Ort, an dem sich Trainer treffen.\p"
 	.string "Wo, fragst du?\p"
-	.string "Kurz nach Oliviana City.$"
+	.string "Kurz nach {COLOR RED}Oliviana City{COLOR DARK_GRAY}.$"
+#else
+	.string "You must be hoping to battle more\n"
+	.string "people, right?\p"
+	.string "There's apparently some place where\n"
+	.string "trainers gather.\p"
+	.string "Where, you ask?\p"
+	.string "It's a little past OLIVINE CITY.$"
+#endif
 
 EcruteakCity_PokemonCenter1F_Text_CooltrainerF:
+#if GERMAN
 	.string "Jens, der Arenaleiter, ist sooo cool!\n"
 	.string "Seine Pokémon sind auch total stark!$"
+#else
+	.string "MORTY, the GYM LEADER, is soooo\n"
+	.string "cool.\p"
+	.string "His POKéMON are really tough too.$"
+#endif
 
 EcruteakCity_PokemonCenter1F_Text_GymGuide:
-	.string "Hm, der See des Zorns… das plötzliche\n"
+#if GERMAN
+	.string "Hm, der {COLOR RED}See des Zorns{COLOR DARK_GRAY}… das plötzliche\n"
 	.string "Erscheinen des roten Garados…\l"
-	.string "Da ist doch irgendwas im Busch!\n$"
+	.string "Da ist doch irgendwas im Busch!\n"
+	.string "$"
+#else
+	.string "LAKE OF RAGE…\p"
+	.string "The appearance of a GYARADOS\n"
+	.string "swarm…\p"
+	.string "I smell a conspiracy. I know it!$"
+#endif
 

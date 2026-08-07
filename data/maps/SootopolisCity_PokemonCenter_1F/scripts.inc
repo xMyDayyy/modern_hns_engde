@@ -44,6 +44,7 @@ SootopolisCity_PokemonCenter_1F_EventScript_WomanNoLegendaries::
 	end
 
 SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
+#if GERMAN
 	.string "Wassili, der ehemalige Arenaleiter\n"
 	.string "dieses Ortes, ist ein starker Trainer.\n"
 	.string "\p"
@@ -55,23 +56,51 @@ SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
 	.string "Man sagt, sie seien stärker als\n"
 	.string "Wassilis Lehrer.\p"
 	.string "Wie stark müssen sie dann erst sein?$"
+#else
+	.string "WALLACE is rumored to be the toughest\n"
+	.string "TRAINER in the whole HOENN region.\p"
+	.string "This town's GYM is led by the TRAINER\n"
+	.string "who taught WALLACE.\p"
+	.string "But the ELITE FOUR… They're said to be\n"
+	.string "even stronger than WALLACE's mentor.\p"
+	.string "How strong could they be?$"
+#endif
 
 SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge:
+#if GERMAN
 	.string "Jeder im Ort hat sich in sein Haus\n"
 	.string "zurückgezogen und kommt nicht heraus.\n"
 	.string "\p"
 	.string "Ich würde es auch nicht wagen, nach\n"
 	.string "draußen zu gehen.$"
+#else
+	.string "Everyone in town has taken refuge\n"
+	.string "and won't come out of their homes.\p"
+	.string "Even I would rather not venture\n"
+	.string "outside.$"
+#endif
 
 SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon:
+#if GERMAN
 	.string "Was auch immer wann oder wo passiert,\n"
 	.string "meine Freundschaft zu den Pokémon\l"
 	.string "leidet darunter bestimmt nicht!\p"
 	.string "Ich liebe es, mit Pokémon zusammen\n"
 	.string "zu sein.$"
+#else
+	.string "Whenever, wherever, and whatever\n"
+	.string "happens, I will always be friends with\l"
+	.string "POKéMON.\p"
+	.string "Because it's fun to be with POKéMON!$"
+#endif
 
 SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
+#if GERMAN
 	.string "Sind Pokémon nicht unsere Freunde?\p"
 	.string "Warum sind sie dann auf einmal so\n"
 	.string "wild?$"
+#else
+	.string "Aren't POKéMON our friends?\p"
+	.string "Why are they going wild this way?$"
+#endif
 

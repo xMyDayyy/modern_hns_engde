@@ -10,12 +10,24 @@ VermilionCity_House2_EventScript_Youngster::
 	end
 
 VermilionCity_House2_Text_PokefanF:
+#if GERMAN
 	.string "Kennst du den Magnetzug?\p"
-	.string "Er fährt bis nach Dukatia City\n"
+	.string "Er fährt bis nach {COLOR RED}Dukatia City{COLOR DARK_GRAY}\n"
 	.string "in Johto.$"
+#else
+	.string "Do you know about the MAGNET\n"
+	.string "TRAIN?\p"
+	.string "It's a railway that goes to\n"
+	.string "GOLDENROD in JOHTO.$"
+#endif
 
 VermilionCity_House2_Text_Youngster:
-	.string "Saffronia! Saffronia! Saffronia!\n"
-	.string "Ich will nach Saffronia City fahren!\p"
+#if GERMAN
+	.string "{COLOR RED}Saffronia{COLOR DARK_GRAY}! {COLOR RED}Saffronia{COLOR DARK_GRAY}! {COLOR RED}Saffronia{COLOR DARK_GRAY}!\n"
+	.string "Ich will nach {COLOR RED}Saffronia City{COLOR DARK_GRAY} fahren!\p"
 	.string "Ich will nämlich den Magnetzug sehen!\n"
 	.string "Den Magnetzug! Den Magnetzug!$"
+#else
+	.string "I want to go to SAFFRON to see\n"
+	.string "the MAGNET TRAIN.$"
+#endif

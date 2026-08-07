@@ -454,29 +454,62 @@ GoldenrodCity_GameCorner_PrizeRoom_EventScript_CancelTMSelect::
 	end
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM13:
+#if GERMAN
 	.string "Eisstrahl   4000$"
+#else
+	.string "Ice Beam   4000$"
+#endif
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM35:
+#if GERMAN
 	.string "Flammenwurf 4000$"
+#else
+	.string "Flamethrower 4000$"
+#endif
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM44:
+#if GERMAN
 	.string "Erholung    2000$"
+#else
+	.string "Rest       2000$"
+#endif
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM75:
+#if GERMAN
 	.string "Schwerttanz 3000$"
+#else
+	.string "Swords Dance 3000$"
+#endif
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM90:
+#if GERMAN
 	.string "Delegator  2000$"
+#else
+	.string "Substitute 2000$"
+#endif
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_Cancel:
+#if GERMAN
 	.string "Abbruch$"
+#else
+	.string "Cancel$"
+#endif
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_SoYourChoiceIsTM:
+#if GERMAN
 	.string "Du möchtest also\n"
 	.string "{STR_VAR_1} {STR_VAR_2}?$"
+#else
+	.string "So your choice is\n"
+	.string "the {STR_VAR_1} {STR_VAR_2}?$"
+#endif
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_YouAlreadyHaveThis:
+#if GERMAN
 	.string "Das Item hast du bereits.$"
+#else
+	.string "You already have that item.$"
+#endif
 
 
 GoldenrodCity_GameCorner_EventScript_PokefanM::
@@ -544,90 +577,187 @@ GoldenrodCity_GameCorner_EventScript_Pharmacist::
 	end
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_YouWantPrize:
+#if GERMAN
 	.string "{STR_VAR_1} richtig?$"
+#else
+	.string "{STR_VAR_1} is what you want?$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PlayerObtainedTheMon:
+#if GERMAN
 	.string "{PLAYER} erhält {STR_VAR_1}!$"
+#else
+	.string "{PLAYER} got {STR_VAR_1}!$"
+#endif
 
 GoldenrodGamecorner_Text_GiveNicknameToThisMon:
+#if GERMAN
 	.string "{STR_VAR_1} Spitzname geben?$"
+#else
+	.string "Nickname {STR_VAR_1}?$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PrizeVendorIntro:
+#if GERMAN
 	.string "Willkommen!\p"
 	.string "Wir tauschen deine Spielmünzen\n"
 	.string "gegen tolle Preise!$"
+#else
+    .string "Welcome!\p"
+    .string "We exchange your game coins for\n"
+    .string "fabulous prizes!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PrizeVendorWhichPrize:
+#if GERMAN
 	.string "Welchen Preis möchtest du?$"
+#else
+    .string "Which prize would you like?$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PrizeVendorHereYouGo:
+#if GERMAN
 	.string "Hier, bitte!$"
+#else
+    .string "Here you go!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PrizeVendorNeedMoreCoins:
+#if GERMAN
 	.string "Tut mir Leid, aber\n"
 	.string "du brauchst mehr Münzen.$"
+#else
+    .string "Sorry! You need more coins.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PrizeVendorNoMoreRoom:
+#if GERMAN
 	.string "Dein Beutel scheint voll zu sein!$"
+#else
+    .string "Sorry. You can't carry any more.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PrizeVendorQuit:
+#if GERMAN
 	.string "Oh, in Ordnung! Dann spare dir ein paar\n"
 	.string "Münzen zusammen, bis du wiederkommst!$"
+#else
+    .string "OK. Please save your coins and come\n"
+    .string "again!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PrizeVendorNoCoinCase:
+#if GERMAN
 	.string "Oh? Du hast keinen Münzkorb.$"
+#else
+    .string "Oh? You don't have a COIN CASE.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_Pharmacist:
+#if GERMAN
 	.string "Ich spiele nur an diesem Automaten.\p"
 	.string "Ich glaube, er spuckt mehr aus\n"
 	.string "als die anderen.$"
+#else
+    .string "I always play this slot machine.\n"
+    .string "It pays out more than others,\l"
+    .string "I think.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_Woman:
+#if GERMAN
 	.string "Dein Spielplatz!\p"
 	.string "Dukatia City Spielhalle$"
+#else
+    .string "I can't stop winning!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PokefanM1:
+#if GERMAN
 	.string "Ich liebe diesen neuen Automaten.\p"
 	.string "Er stellt eine\n"
 	.string "größere Herausforderung dar als jene\l"
-	.string "in Prismania City.$"
+	.string "in {COLOR RED}Prismania City{COLOR DARK_GRAY}.$"
+#else
+    .string "I just love this new slot machine.\p"
+    .string "It's more of a challenge than the\n"
+    .string "ones in CELADON.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_CooltrainerM:
+#if GERMAN
 	.string "Das Leben ist ein Spiel.\p"
 	.string "Ich werde Karten spielen, bis\n"
 	.string "ich umfalle!$"
+#else
+    .string "Life is a gamble. I'm going to pull\n"
+    .string "till I drop!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PokefanF:
+#if GERMAN
 	.string "Karten…\p"
 	.string "Ich ziehe sie den Automaten vor,\n"
 	.string "weil man seine\l"
 	.string "Chancen besser abschätzen kann.\p"
 	.string "Aber der Gewinn ist viel geringer.$"
+#else
+    .string "Roulette…\p"
+    .string "I prefer it over the slots because\n"
+    .string "it's easier to figure the odds.\p"
+    .string "But the payout is much lower.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_CooltrainerF:
+#if GERMAN
 	.string "Ich höre erst auf, wenn ich gewinne!$"
+#else
+    .string "I won't quit until I win!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_Gentleman:
+#if GERMAN
 	.string "Ich habe meinen\n"
 	.string "Pokémon Eisstrahl beigebracht.\p"
 	.string "Es hat zwar gedauert, bis ich genug\n"
 	.string "Münzen hatte, aber\l"
 	.string "es hat sich gelohnt.$"
+#else
+    .string "I taught ICE BEAM to my POKéMON.\p"
+    .string "It was hard to get enough coins for\n"
+    .string "it, but it was worth it.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_PokefanM2:
+#if GERMAN
 	.string "Ich hatte an den Automaten kein\n"
 	.string "Glück. Bei den Karten sieht es\l"
 	.string "auch nicht anders aus…\p"
 	.string "Ich war so zornig, dass ich meinen\n"
 	.string "Münzkorb im Untergrund\l"
 	.string "weggeworfen habe.$"
+#else
+    .string "I couldn't win at the slots, and I\n"
+    .string "blew it on roulette.\p"
+    .string "I got so furious, I tossed out my\n"
+    .string "COIN CASE in the UNDERGROUND.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_MoveTutorInside:
+#if GERMAN
 	.string "Wahahah! Die Münzen klingeln!$"
+#else
+    .string "Wahahah! The coins keep rolling in!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_LeftTheirDrink:
+#if GERMAN
 	.string "Jemand hat sein Getränk stehen lassen.\p"
 	.string "Es riecht süß!$"
+#else
+    .string "Someone left their drink.\p"
+    .string "It smells sweet.$"
+#endif
 
 @ ========================================
 @ VOLTORB FLIP GAME IMPLEMENTATION
@@ -775,61 +905,130 @@ GoldenrodCity_GameCorner_EventScript_VFAttendant2::
 
 @ Voltorb Flip Menu Option Strings
 GoldenrodCity_GameCorner_Text_VF_OptPlay:
+#if GERMAN
 	.string "Spielen$"
+#else
+	.string "PLAY$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_OptGameInfo:
+#if GERMAN
 	.string "Spielregeln$"
+#else
+	.string "GAME INFO$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_OptQuit:
+#if GERMAN
 	.string "Ende$"
+#else
+	.string "QUIT$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_OptHowToPlay:
+#if GERMAN
 	.string "Wie man spielt$"
+#else
+	.string "HOW TO PLAY$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_OptHint:
+#if GERMAN
 	.string "Tipps!$"
+#else
+	.string "HINT$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_OptAboutNotes:
+#if GERMAN
 	.string "Über Hinweise$"
+#else
+	.string "ABOUT NOTES$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_OptReturn:
+#if GERMAN
 	.string "Zurück$"
+#else
+	.string "RETURN$"
+#endif
 
 @ Voltorb Flip Dialogue Strings
 GoldenrodCity_GameCorner_Text_VF_Welcome:
+#if GERMAN
 	.string "Willkommen bei Voltofalle!\p$"
+#else
+	.string "Welcome to VOLTORB FLIP!\p$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_PlayLevel:
+#if GERMAN
 	.string "Möchtest du Voltofalle Lv. {STR_VAR_1} spielen?$"
+#else
+	.string "Play VOLTORB Flip Lv. {STR_VAR_1}?$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_GameClear:
+#if GERMAN
 	.string "Geschafft!\p"
 	.string "Du hast alle versteckten\n"
 	.string "x2- und x3-Karten gefunden!$"
+#else
+	.string "Game clear!\p"
+	.string "You've found all the hidden\n"
+	.string "x2 and x3 cards!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_ReceivedCoins:
+#if GERMAN
 	.string "Du hast {STR_VAR_1}\n"
 	.string "Münze(n) erhalten!$"
+#else
+	.string "You have received\n"
+	.string "{STR_VAR_1} Coin(s)!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_Advanced:
+#if GERMAN
 	.string "Der Schwierigkeitsgrad von Voltofalle\n"
 	.string "steigt auf Lv. {STR_VAR_1} an!$"
+#else
+	.string "Advanced to Game Lv. {STR_VAR_1}!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_OhNo:
+#if GERMAN
 	.string "So ein Pech! Du gehst leer aus!$"
+#else
+	.string "Oh no! You get 0 Coins!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_Dropped:
+#if GERMAN
 	.string "Der Schwierigkeitsgrad von Voltofalle\n"
 	.string "fällt auf Lv. {STR_VAR_1} zurück!$"
+#else
+	.string "Dropped to Game Lv. {STR_VAR_1}.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_CoinCap:
+#if GERMAN
 	.string "Du hast 9 999 Münzen gesammelt.\n"
 	.string "Mehr kannst du nicht tragen.$"
+#else
+	.string "You've gathered 9,999 COINS.\n"
+	.string "You cannot gather any more.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_WhichInfo:
+#if GERMAN
 	.string "Was möchtest du wissen?$"
+#else
+	.string "Which set of info?$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_HowToPlay:
+#if GERMAN
 	.string "Bei Voltoball-Flip deckst du Karten\n"
 	.string "mit versteckten Zahlen auf.\p"
 	.string "Unter ihnen liegen die Zahlen\n"
@@ -848,8 +1047,25 @@ GoldenrodCity_GameCorner_Text_VF_HowToPlay:
 	.string "deine bisherigen Münzen.\p"
 	.string "Finde alle x2- und x3-Karten,\n"
 	.string "um die nächste Stufe zu erreichen!$"
+#else
+	.string "VOLTORB FLIP is a game in which you flip\n"
+	.string "cards to find numbers hidden beneath.\p"
+	.string "The cards hide the numbers 1 through 3,\n"
+	.string "and VOLTORB as well.\p"
+	.string "The first number you flip gives\n"
+	.string "you that many Coins.\p"
+	.string "Each new number multiplies your total.\n"
+	.string "A 2 by x2 and a 3 by x3.\p"
+	.string "But if you flip a VOLTORB, it's game over.\n"
+	.string "You lose all Coins collected that round!\p"
+	.string "QUIT the game at any time to keep\n"
+	.string "the Coins you've found so far.\p"
+	.string "Find all hidden x2 and x3 cards to clear\n"
+	.string "the game and advance to the next level!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_HintText:
+#if GERMAN
 	.string "Die Zahlen am Rand geben dir\n"
 	.string "Hinweise auf die Felder.\p"
 	.string "Sie beziehen sich auf die\n"
@@ -860,8 +1076,20 @@ GoldenrodCity_GameCorner_Text_VF_HintText:
 	.string "wie viele sich dort verstecken.\p"
 	.string "Nutze beide Hinweise, um\n"
 	.string "sichere Karten zu finden!$"
+#else
+	.string "The numbers on the sides of the board\n"
+	.string "are hints about the numbers…\p"
+	.string "hidden in that row or column.\p"
+	.string "The larger the number, the more high-\n"
+	.string "value cards are in that row or column.\p"
+	.string "The VOLTORB count tells you how\n"
+	.string "many VOLTORBs lurk there.\p"
+	.string "Use both totals to figure out\n"
+	.string "which cards are safe to flip!$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_AboutNotes:
+#if GERMAN
 	.string "Mit dem Notizmodus\n"
 	.string "({L_BUTTON} & {R_BUTTON}) markierst du\p"
 	.string "Karten mit 1-3 oder Voltoball.\p"
@@ -869,15 +1097,37 @@ GoldenrodCity_GameCorner_Text_VF_AboutNotes:
 	.string "decke sie später auf.\p"
 	.string "Eine weitere Markierung\n"
 	.string "entfernt die Notiz.$"
+#else
+	.string "Use the notes mode ({L_BUTTON} & {R_BUTTON}) to mark\n"
+	.string "cards with numbers 1-3 or a VOLTORB.\p"
+	.string "Mark a card you think you know,\n"
+	.string "then flip it when you're sure.\p"
+	.string "Apply a note again to remove it.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VF_NeedCoinCase:
+#if GERMAN
 	.string "Oh? Du hast keinen Münzkorb.$"
+#else
+	.string "Oh? You don't have a COIN CASE.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VFAttendant1:
+#if GERMAN
 	.string "Du willst Voltoball-Flip spielen?\p"
 	.string "Dazu musst du auf die andere\n"
 	.string "Seite des Tisches gehen.$"
+#else
+	.string "You want to play VOLTORB FLIP?\p"
+	.string "You need to be on the other\n"
+	.string "side of the table.$"
+#endif
 
 GoldenrodCity_GameCorner_Text_VFAttendant2:
+#if GERMAN
 	.string "Versuch es auf der anderen\n"
 	.string "Seite des Tisches, Freund.$"
+#else
+	.string "Try the other side of\n"
+	.string "the table, pal.$"
+#endif

@@ -81,124 +81,276 @@ Route43_EventScript_Item_Max_Ether::
 	end
 
 Route43_Text_PokemaniacBenSeen:
+#if GERMAN
 	.string "Ich liebe mein Pokémon!\p"
 	.string "Deshalb will ich auch nie, nie, niemals\n"
 	.string "von ihm getrennt sein!$"
+#else
+    .string "I love POKéMON!\p"
+    .string "That's why I started--and why I'll\n"
+    .string "keep on collecting POKéMON!$"
+#endif
 
 Route43_Text_PokemaniacBenBeaten:
+#if GERMAN
 	.string "Wie konntest du mir das antun?$"
+#else
+    .string "How could you do this to me?$"
+#endif
 
 Route43_Text_PokemaniacBenAfter:
+#if GERMAN
 	.string "Was ich außer Pokémon noch mag?\p"
 	.string "…Margit aus dem Radio! Die ist bestimmt\n"
 	.string "süß!$"
+#else
+    .string "What else do I like besides\n"
+    .string "POKéMON?\p"
+    .string "MARY on the radio. I bet she's\n"
+    .string "cute!$"
+#endif
 
 Route43_Text_PokemaniacBrentSeen:
+#if GERMAN
 	.string "He! Hast du seltene Pokémon?$"
+#else
+    .string "Hey! Do you have any rare\n"
+    .string "POKéMON?$"
+#endif
 
 Route43_Text_PokemaniacBrentBeaten:
+#if GERMAN
 	.string "Meine armen Pokémon-Lieblinge!$"
+#else
+    .string "Oh, my poor POKéMON! Darlings!$"
+#endif
 
 Route43_Text_PokemaniacBrentAfter:
+#if GERMAN
 	.string "Ich wäre schon froh, wenn ich nur ein\n"
 	.string "einziges seltenes Pokémon hätte.$"
+#else
+    .string "I'd be happy just to own a single\n"
+    .string "rare POKéMON.$"
+#endif
 
 Route43_Text_BrentRegister:
+#if GERMAN
 	.string "Ich wäre schon froh, wenn ich nur ein\n"
 	.string "einziges seltenes Pokémon hätte.$"
+#else
+    .string "I'd be happy just to own a single\n"
+    .string "rare POKéMON.$"
+#endif
 
 Route43_Text_BrentRematchIntro:
+#if GERMAN
 	.string "He! Hast du seltene Pokémon?$"
+#else
+    .string "Hey! Do you have any rare\n"
+    .string "POKéMON?$"
+#endif
 
 Route43_Text_BrentRematchDefeat:
+#if GERMAN
 	.string "Meine armen Pokémon-Lieblinge!$"
+#else
+    .string "Oh, my poor POKéMON! Darlings!$"
+#endif
 
 Route43_Text_BrentPostRematch:
+#if GERMAN
 	.string "Ich wäre schon froh, wenn ich nur ein\n"
 	.string "einziges seltenes Pokémon hätte.$"
+#else
+    .string "I'd be happy just to own a single\n"
+    .string "rare POKéMON.$"
+#endif
 
 Route43_Text_PokemaniacRonSeen:
+#if GERMAN
 	.string "Stell dir mal vor!\p"
 	.string "so ein Typ namens {RIVAL}\n"
 	.string "hat sich über mein Pokémon lustig\l"
 	.string "gemacht!\p"
 	.string "Unverschämtheit!\n"
 	.string "Mein Pokémon ist toll!$"
+#else
+    .string "Would you get this?\p"
+    .string "Some {RIVAL} guy made fun of my\n"
+    .string "POKéMON!\p"
+    .string "Darn it! My POKéMON's great!$"
+#endif
 
 Route43_Text_PokemaniacRonBeaten:
+#if GERMAN
 	.string "Mein Nidoking hat\n"
 	.string "sich wacker geschlagen!$"
+#else
+    .string "My NIDOKING did pretty right on!$"
+#endif
 
 Route43_Text_PokemaniacRonAfter:
+#if GERMAN
     .string "Es ist okay, wenn Leute\n"
     .string "verschiedene Pokémon-Typen mögen.\p"
     .string "Pokémon bedeutet nicht nur,\n"
     .string "das stärkste zu haben.$"
+#else
+    .string "It's okay for people to like\n"
+    .string "different types of POKéMON.\p"
+    .string "POKéMON isn't just about having the\n"
+    .string "most powerful one.$"
+#endif
 
 Route43_Text_FisherMarvinSeen:
+#if GERMAN
 	.string "In letzter Zeit habe ich nur Pech. Was\n"
 	.string "meinst du? Ob es an meinen Items liegt?\p"
 	.string "Egal! Kämpfen wir! Das hebt vielleicht\n"
 	.string "meine Laune.$"
+#else
+    .string "I'm in a slump.\p"
+    .string "Maybe it's the gear I'm using.\p"
+    .string "Let's battle for a change of pace!$"
+#endif
 
 Route43_Text_FisherMarvinBeaten:
+#if GERMAN
 	.string "Ich habe verloren,\n"
 	.string "aber ich fühle mich trotzdem besser.$"
+#else
+    .string "I lost, but I feel better anyway.$"
+#endif
 
 Route43_Text_FisherMarvinAfter:
+#if GERMAN
     .string "Kurts Köderball ist der beste,\n"
     .string "um geangelte Pokémon zu fangen.\p"
     .string "Er ist viel effektiver als ein\n"
     .string "Hyperball.$"
+#else
+    .string "KURT's LURE BALL is the best for\n"
+    .string "catching hooked POKéMON.\p"
+    .string "It's much more effective than a\n"
+    .string "ULTRA BALL.$"
+#endif
 
 Route43_Text_CamperSpencerSeen:
+#if GERMAN
 	.string "Man kann so viel unternehmen mit seinen\n"
 	.string "Pokémon. Wir haben immer großen Spaß!$"
+#else
+    .string "I can do so much with my\n"
+    .string "POKéMON--it's super-fun!$"
+#endif
 
 Route43_Text_CamperSpencerBeaten:
+#if GERMAN
 	.string "Verlieren macht überhaupt keinen Spaß…$"
+#else
+    .string "Losing isn't fun at all…$"
+#endif
 
 Route43_Text_CamperSpencerAfter:
-	.string "Was geht da vor sich am See des Zorns?\n"
+#if GERMAN
+	.string "Was geht da vor sich am {COLOR RED}See des Zorns{COLOR DARK_GRAY}?\n"
 	.string "Wir wollten eigentlich dort zelten.$"
+#else
+    .string "What is going on at LAKE OF RAGE?\p"
+    .string "We were planning to camp there.$"
+#endif
 
 Route43_Text_PicnickerTiffanySeen:
-	.string "Gehst du auch zum See des Zorns? Lust\n"
+#if GERMAN
+	.string "Gehst du auch zum {COLOR RED}See des Zorns{COLOR DARK_GRAY}? Lust\n"
 	.string "auf ein kleines Spielchen?$"
+#else
+    .string "Are you going to LAKE OF RAGE too?\p"
+    .string "Let's play for a little while!$"
+#endif
 
 Route43_Text_PicnickerTiffanyBeaten:
+#if GERMAN
 	.string "Das war wohl zu viel des Guten!$"
+#else
+    .string "I played too much!$"
+#endif
 
 Route43_Text_PicnickerTiffanyWantsPicnic:
+#if GERMAN
 	.string "Ich mache ein Picknick mit meinem\n"
 	.string "Pokémon. Setze dich doch zu uns.$"
+#else
+    .string "I'm having a picnic with POKéMON.\p"
+    .string "Won't you join us?$"
+#endif
 
 Route43_Text_TiffanyRegister:
+#if GERMAN
 	.string "Ich mache ein Picknick mit meinem\n"
 	.string "Pokémon. Setze dich doch zu uns.$"
+#else
+    .string "I'm having a picnic with POKéMON.\p"
+    .string "Won't you join us?$"
+#endif
 
 Route43_Text_TiffanyRematchIntro:
-	.string "Gehst du auch zum See des Zorns? Lust\n"
+#if GERMAN
+	.string "Gehst du auch zum {COLOR RED}See des Zorns{COLOR DARK_GRAY}? Lust\n"
 	.string "auf ein kleines Spielchen?$"
+#else
+    .string "Are you going to LAKE OF RAGE too?\p"
+    .string "Let's play for a little while!$"
+#endif
 
 Route43_Text_TiffanyRematchDefeat:
+#if GERMAN
 	.string "Das war wohl zu viel des Guten!$"
+#else
+    .string "I played too much!$"
+#endif
 
 Route43_Text_TiffanyPostRematch:
+#if GERMAN
 	.string "Ich mache ein Picknick mit meinem\n"
 	.string "Pokémon. Setze dich doch zu uns.$"
+#else
+    .string "I'm having a picnic with POKéMON.\p"
+    .string "Won't you join us?$"
+#endif
 
 Route43_Sign1:
-    .string "Route 43\p"
-    .string "See des Zorns - Mahagonia$"
+#if GERMAN
+	.string "Route 43\p"
+	.string "{COLOR RED}See des Zorns{COLOR DARK_GRAY} - {COLOR RED}Mahagonia{COLOR DARK_GRAY}$"
+#else
+    .string "ROUTE 43\p"
+    .string "LAKE OF RAGE - MAHOGANY TOWN$"
+#endif
 
 Route43_Sign2:
+#if GERMAN
     .string "Route 43\p"
     .string "See des Zorns - Mahagonia$"
+#else
+    .string "ROUTE 43\p"
+    .string "LAKE OF RAGE - MAHOGANY TOWN$"
+#endif
 
 Route43_TrainerTips:
+#if GERMAN
     .string "Tipps für Trainer\p"
     .string "Alle Pokémon haben Vor-\n"
     .string "und Nachteile, je nach Typ.\p"
     .string "Haben sie unterschiedliche Typen,\n"
     .string "kann auch ein schwächeres gewinnen.$"
+#else
+    .string "TRAINER TIPS\p"
+    .string "All POKéMON have pros and cons\n"
+    .string "depending on their types.\p"
+    .string "If their types differ, a higher-\n"
+    .string "level POKéMON may lose in battle.\p"
+    .string "Learn which types are strong and\n"
+    .string "weak against your POKéMON's type.$"
+#endif

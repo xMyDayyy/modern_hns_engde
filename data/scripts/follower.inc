@@ -1,17 +1,33 @@
 gText_FollowerLovesYou::
+#if GERMAN
 	.string "{STR_VAR_1} schaut dich groß an.$"
+#else
+	.string "{STR_VAR_1} is regarding you with\nadoration!$"
+#endif
 
 gText_FollowerLostInThought::
+#if GERMAN
 	.string "{STR_VAR_1} scheint in Gedanken\n"
 	.string "versunken zu sein.$"
+#else
+	.string "{STR_VAR_1} seems lost in thought.$"
+#endif
 
 gText_FollowerDefault::
+#if GERMAN
 	.string "Fehler 404: Skript nicht gefunden.$"
+#else
+	.string "ERROR 404: Script not found.$"
+#endif
 
 gText_WantsToFly::
+#if GERMAN
 	.string "{STR_VAR_1} blickt unruhig zum Himmel\n"
 	.string "hinauf.\p"
 	.string "Möchtest du Fliegen einsetzen?$"
+#else
+	.string "{STR_VAR_1} looks up at the\nsky restlessly.\pWould you like to use FLY?$"
+#endif
 
 EventScript_Follower::
 	lock

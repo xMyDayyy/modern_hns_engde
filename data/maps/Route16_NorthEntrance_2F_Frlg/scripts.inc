@@ -51,46 +51,101 @@ Route16_NorthEntrance_2F_EventScript_GetAideRequestInfo::
 	return
 
 Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend::
+#if GERMAN
 	.string "Ich mache mit meiner Freundin einen\n"
 	.string "Ausflug!$"
+#else
+	.string "I'm on a relaxing ride on my new\n"
+	.string "bike with my girlfriend.$"
+#endif
 
 Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes::
+#if GERMAN
 	.string "Wir werden mit dem Rad fahren!$"
+#else
+	.string "We're going riding together on our\n"
+	.string "new bikes.$"
+#endif
 
 Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore::
+#if GERMAN
 	.string "Du schaust durch das Fernrohr.\p"
 	.string "Du siehst das Einkaufszentrum von\n"
 	.string "Prismania City!$"
+#else
+	.string "Let's see what the binoculars have\n"
+	.string "to show…\p"
+	.string "It's the CELADON DEPT. STORE!$"
+#endif
 
 Route16_NorthEntrance_2F_Text_LongPathOverWater::
+#if GERMAN
 	.string "Du schaust durch das Fernrohr.\p"
 	.string "Dort führt ein langer Weg über das\n"
 	.string "Wasser!$"
+#else
+	.string "Let's see what the binoculars have\n"
+	.string "to show…\p"
+	.string "There's a long path over water far\n"
+	.string "away.$"
+#endif
 
 Route16_NorthEntrance_2F_Text_GiveAmuletCoinIfCaught40::
+#if GERMAN
 	.string "Hallo! Erinnerst du dich?\n"
 	.string "Ich bin Prof. Eichs\l"
 	.string "Assistent!\p"
 	.string "Wenn du mindestens 40 verschiedene\n"
 	.string "Pokémon gefangen hast, habe ich\l"
-	.string "ein Geschenk für dich: Münzamulett\p"
+	.string "ein Geschenk für dich: {COLOR RED}Münzamulett{COLOR DARK_GRAY}\p"
 	.string "Also, {PLAYER}, hast du 40\n"
 	.string "unterschiedliche Pokémon gefangen?$"
+#else
+	.string "Hi! Remember me?\n"
+	.string "I'm one of PROF. OAK's AIDES.\p"
+	.string "If your POKéDEX has complete data\n"
+	.string "on 40 species, I'm supposed to\l"
+	.string "give you a reward.\p"
+	.string "PROF. OAK entrusted me with an\n"
+	.string "AMULET COIN for you.\p"
+	.string "So, {PLAYER}, let me ask you.\p"
+	.string "Have you gathered data on at least\n"
+	.string "40 kinds of POKéMON?$"
+#endif
 
 Route16_NorthEntrance_2F_Text_GreatHereYouGo::
+#if GERMAN
 	.string "Super! Du hast {STR_VAR_3} verschiedene\n"
 	.string "Pokémon gefangen!\p"
 	.string "Einfach klasse! Hier, das hast du\n"
 	.string "dir redlich verdient!$"
+#else
+	.string "Great! You have caught or owned\n"
+	.string "{STR_VAR_3} kinds of POKéMON!\p"
+	.string "Congratulations!\n"
+	.string "Here you go!$"
+#endif
 
 Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "Münzamulett!$"
+#else
+	.string "{PLAYER} received the AMULET COIN\n"
+	.string "from the AIDE.$"
+#endif
 
 Route16_NorthEntrance_2F_Text_ExplainAmuletCoin::
-	.string "Ein Münzamulett kann von\n"
+#if GERMAN
+	.string "Ein {COLOR RED}Münzamulett{COLOR DARK_GRAY} kann von\n"
 	.string "einem Pokémon getragen werden.\p"
 	.string "Nimmt das Pokémon an einem\n"
 	.string "siegreichen Kampf teil, verdoppelt\l"
 	.string "sich das Preisgeld.$"
+#else
+	.string "An AMULET COIN is an item to be\n"
+	.string "held by a POKéMON.\p"
+	.string "If the POKéMON appears in a winning\n"
+	.string "battle, you will earn more money.$"
+#endif
 

@@ -100,45 +100,95 @@ Route110_TrickHousePuzzle2_EventScript_Georgia::
 	end
 
 Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened:
+#if GERMAN
 	.string "{PLAYER} hat den geheimen Code auf die\n"
 	.string "Tür geschrieben.\p"
 	.string "“Rätselmeister ist gewieft.”\n"
 	.string "… … … … … … … …\p"
 	.string "Das Schloss geht klickend auf.$"
+#else
+	.string "{PLAYER} wrote down the secret code\n"
+	.string "on the door.\p"
+	.string "“TRICK MASTER is smart.”\n"
+	.string "… … … … … … … …\p"
+	.string "The lock clicked open!$"
+#endif
 
 Route110_TrickHousePuzzle2_Text_TedIntro:
+#if GERMAN
 	.string "Welcher Schalter schließt welches\n"
 	.string "Loch?$"
+#else
+	.string "Which switch closes which hole?$"
+#endif
 
 Route110_TrickHousePuzzle2_Text_TedDefeat:
+#if GERMAN
 	.string "Nach diesem Kampf bin ich nur noch\n"
 	.string "verwirrter!$"
+#else
+	.string "After that battle, I'm even more\n"
+	.string "confused!$"
+#endif
 
 Route110_TrickHousePuzzle2_Text_TedPostBattle:
+#if GERMAN
 	.string "Kannst du nicht alle Schalter für mich\n"
 	.string "betätigen?$"
+#else
+	.string "Can I get you to push all the buttons\n"
+	.string "for me?$"
+#endif
 
 Route110_TrickHousePuzzle2_Text_PaulIntro:
+#if GERMAN
 	.string "Oh! Du forderst das Rätselhaus schon\n"
 	.string "zum zweiten Mal heraus!?!$"
+#else
+	.string "Oh! You're on your second TRICK HOUSE\n"
+	.string "challenge!$"
+#endif
 
 Route110_TrickHousePuzzle2_Text_PaulDefeat:
+#if GERMAN
 	.string "Du bist auch im Kämpfen so gut!?!$"
+#else
+	.string "You're good at battling too?$"
+#endif
 
 Route110_TrickHousePuzzle2_Text_PaulPostBattle:
+#if GERMAN
 	.string "Der Rätselmeister tüftelt alle Tricks\n"
 	.string "in diesem Haus selber aus.$"
+#else
+	.string "The TRICK MASTER rigged all the tricks\n"
+	.string "in this house all by himself.$"
+#endif
 
 Route110_TrickHousePuzzle2_Text_GeorgiaIntro:
+#if GERMAN
 	.string "Eines Tages gründe ich meine eigene\n"
 	.string "Arena. Und hier studiere ich die\l"
 	.string "Fallen.$"
+#else
+	.string "I want to make my own GYM one day.\n"
+	.string "So, I'm studying how to set traps.$"
+#endif
 
 Route110_TrickHousePuzzle2_Text_GeorgiaDefeat:
+#if GERMAN
 	.string "Ich habe das Kämpfen nicht genug\n"
 	.string "studiert!$"
+#else
+	.string "I didn't study battling enough!$"
+#endif
 
 Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle:
+#if GERMAN
 	.string "Du bist stark, nicht wahr?\n"
 	.string "Stark genug, ein Arenaleiter zu sein.$"
+#else
+	.string "You're strong, aren't you?\n"
+	.string "Maybe even enough to be a GYM LEADER!$"
+#endif
 

@@ -54,6 +54,7 @@ PokemonLeague_HallOfFame_Movement_EnterRoom::
 	step_end
 
 PokemonLeague_HallOfFame_Text_OakCongratulations::
+#if GERMAN
 	.string "Eich: Herzlichen Glückwunsch,\n"
 	.string "{PLAYER}!\p"
 	.string "Das hier ist die Pokémon-\n"
@@ -70,4 +71,19 @@ PokemonLeague_HallOfFame_Text_OakCongratulations::
 	.string "{PLAYER}! Du wirst gemeinsam mit\n"
 	.string "deinen Pokémon in der Ruhmeshalle\l"
 	.string "verewigt!$"
+#else
+	.string "OAK: Er-hem!\n"
+	.string "Congratulations, {PLAYER}!\p"
+	.string "This floor is the POKéMON HALL OF\n"
+	.string "FAME.\p"
+	.string "POKéMON LEAGUE CHAMPIONS are\n"
+	.string "honored for their exploits here.\p"
+	.string "Their POKéMON are also recorded in\n"
+	.string "the HALL OF FAME.\p"
+	.string "{PLAYER}!\p"
+	.string "You have worked hard to become\n"
+	.string "the new LEAGUE CHAMPION.\p"
+	.string "Congratulations, {PLAYER}, you and\n"
+	.string "your POKéMON are HALL OF FAMERS!$"
+#endif
 

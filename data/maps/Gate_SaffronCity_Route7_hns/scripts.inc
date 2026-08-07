@@ -12,13 +12,26 @@ Gate_SaffronCity_Route7_EventScript_GuardReturnedPart::
 	end
 
 Route7_Text_SaffronGuard_PowerPlant:
-	.string "Anscheinend hat es im Kraftwerk\n"
+#if GERMAN
+	.string "Anscheinend hat es im {COLOR RED}Kraftwerk{COLOR DARK_GRAY}\n"
 	.string "einen Unfall gegeben.\p"
 	.string "Es liegt östlich von hier,\n"
-	.string "in der Nähe von Lavandia.$"
+	.string "in der Nähe von {COLOR RED}Lavandia{COLOR DARK_GRAY}.$"
+#else
+	.string "Did you hear about the accident\n"
+	.string "at the POWER PLANT?\p"
+	.string "It's located in the East, close\n"
+	.string "to LAVENDER TOWN.$"
+#endif
 
 Route7_Text_SaffronGuard_Serious:
+#if GERMAN
 	.string "Ich nehme meinen Posten\n"
 	.string "als Wache ernst.\p"
-	.string "Hey! Du hast einen Pokédex!\l"
+	.string "Hey! Du hast einen {COLOR RED}Pokédex{COLOR DARK_GRAY}!\l"
 	.string "Alles klar, du darfst passieren!$"
+#else
+	.string "I take my GUARD job seriously.\p"
+	.string "Hey! You have a POKéDEX.\p"
+	.string "OK. You can go through.$"
+#endif

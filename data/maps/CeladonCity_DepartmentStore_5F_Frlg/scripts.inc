@@ -59,6 +59,7 @@ CeladonCity_DepartmentStore_5F_Vitamins::
 	end
 
 CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers::
+#if GERMAN
 	.string "Nur hier kannst du leistungs-\n"
 	.string "fördernde Mittel für deine Pokémon\l"
 	.string "kaufen!\p"
@@ -69,14 +70,39 @@ CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers::
 	.string "Zink hebt den Basis-Wert der\n"
 	.string "SP. Ver. eines Pokémon.\p"
 	.string "Carbon erhöht die Initiative.$"
+#else
+	.string "POKéMON stat enhancers can be\n"
+	.string "bought only here.\p"
+	.string "HP UP increases the base HP of a\n"
+	.string "POKéMON.\p"
+	.string "CALCIUM raises the base SP. ATK\n"
+	.string "stat of one POKéMON.\p"
+	.string "ZINC boosts the base SP. DEF stat\n"
+	.string "of one POKéMON.\p"
+	.string "CARBOS enhances the base SPEED\n"
+	.string "stat.$"
+#endif
 
 CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers::
+#if GERMAN
 	.string "Ich bin wegen der leistungs-\n"
 	.string "fördernden Mittel für Pokémon hier.\p"
 	.string "Protein steigert die Angriffs-\n"
 	.string "Stärke.\p"
 	.string "Eisen stärkt die Abwehr!$"
+#else
+	.string "I'm here for POKéMON stat\n"
+	.string "enhancers.\p"
+	.string "PROTEIN increases the base ATTACK\n"
+	.string "power.\p"
+	.string "IRON increases the base DEFENSE\n"
+	.string "stat.$"
+#endif
 
 CeladonCity_DepartmentStore_5F_Text_Drugstore::
+#if GERMAN
 	.string "4S: Drogerie$"
+#else
+	.string "5F: DRUGSTORE$"
+#endif
 

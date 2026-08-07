@@ -148,14 +148,26 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall::
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
+#if GERMAN
 	.string "Troy: {PLAYER}{KUN}?\p"
 	.string "Ja, das ist mein Zuhause. Peinlich,\n"
 	.string "wie kahl die Räume hier sind.\p"
 	.string "Oh, hier, nimm diese VM.\p"
 	.string "Sie enthält Taucher. Ich habe das\n"
 	.string "meinen Pokémon schon beigebracht.$"
+#else
+	.string "STEVEN: {PLAYER}{KUN}…\p"
+	.string "As you can see, there's not much here,\n"
+	.string "but this is my home.\p"
+	.string "Thank you for all that you've done.\p"
+	.string "This is my token of appreciation.\n"
+	.string "It's the HIDDEN MACHINE DIVE.\p"
+	.string "No need to be shy--you've earned\n"
+	.string "this HM.$"
+#endif
 
 MossdeepCity_StevensHouse_Text_ExplainDive:
+#if GERMAN
 	.string "Troy: Wenn du Surfer einsetzt und\n"
 	.string "über das Meer gleitest, wirst du\n"
 	.string "dunkle\l"
@@ -166,32 +178,71 @@ MossdeepCity_StevensHouse_Text_ExplainDive:
 	.string "setze ebenfalls Taucher ein.\p"
 	.string "An manchen Stellen ist das Auftauchen\n"
 	.string "allerdings nicht möglich.$"
+#else
+	.string "STEVEN: While you're using SURF, you\n"
+	.string "should notice dark patches of water.\p"
+	.string "Use DIVE if you come to deep water\n"
+	.string "like it. You'll drop to the seafloor.\p"
+	.string "When you want to come back up, use\n"
+	.string "DIVE again.\p"
+	.string "In some places, it won't be possible\n"
+	.string "for you to surface, though.$"
+#endif
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
+#if GERMAN
 	.string "Troy: Zwischen Moosbach City und\n"
 	.string "Xeneroville gibt es eine Unterwasser-\l"
 	.string "höhle.\p"
 	.string "Die, die Kapt. Brigg auf seiner\n"
 	.string "Expedition entdeckt hat, weißt du.$"
+#else
+	.string "STEVEN: Apparently, there's an\n"
+	.string "underwater cavern between\l"
+	.string "MOSSDEEP and SOOTOPOLIS.\p"
+	.string "You know, the one that CAPT. STERN\n"
+	.string "found in his submarine.$"
+#endif
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
+#if GERMAN
 	.string "{PLAYER} überprüft den Pokéball.\p"
 	.string "Er enthält das Pokémon\n"
 	.string "Tanhel.\p"
 	.string "Den Pokéball nehmen?$"
+#else
+	.string "{PLAYER} checked the POKé BALL.\p"
+	.string "It contained the POKéMON\n"
+	.string "BELDUM.\p"
+	.string "Take the POKé BALL?$"
+#endif
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:
-	.string "{PLAYER} hat Tanhel erhalten.$"
+#if GERMAN
+	.string "{PLAYER} hat {COLOR RED}Tanhel{COLOR DARK_GRAY} erhalten.$"
+#else
+	.string "{PLAYER} obtained a BELDUM.$"
+#endif
 
 @ Unused
 MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon:
+#if GERMAN
 	.string "Es ist kein Platz für ein weiteres\n"
 	.string "Pokémon vorhanden.$"
+#else
+	.string "There is no space for another POKéMON.$"
+#endif
 
 MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
+#if GERMAN
 	.string "{PLAYER} legt den Pokéball zurück.$"
+#else
+	.string "{PLAYER} left the POKé BALL where\n"
+	.string "it was.$"
+#endif
 
 MossdeepCity_StevensHouse_Text_LetterFromSteven:
+#if GERMAN
 	.string "Das ist ein Brief.\p"
 	.string "\n"
 	.string "… … … … … …\p"
@@ -211,8 +262,30 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven:
 	.string "Mögen wir uns eines Tages wiedersehen.\n"
 	.string "\p"
 	.string "Troy Trumm$"
+#else
+	.string "It's a letter.\p"
+	.string "… … … … … …\p"
+	.string "To {PLAYER}{KUN}…\p"
+	.string "I've decided to do a little soul-\n"
+	.string "searching and train on the road.\p"
+	.string "I don't plan to return home for some\n"
+	.string "time.\p"
+	.string "I have a favor to ask of you.\p"
+	.string "I want you to take the POKé BALL on\n"
+	.string "the desk.\p"
+	.string "Inside it is a BELDUM, my favorite\n"
+	.string "POKéMON.\p"
+	.string "I'm counting on you.\p"
+	.string "May our paths cross someday.\p"
+	.string "STEVEN STONE$"
+#endif
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
+#if GERMAN
 	.string "Eine Kollektion seltener Steine,\n"
 	.string "zusammengetragen von Troy.$"
+#else
+	.string "It's a collection of rare rocks and\n"
+	.string "stones assembled by STEVEN.$"
+#endif
 

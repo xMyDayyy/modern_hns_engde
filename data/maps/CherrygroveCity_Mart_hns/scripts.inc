@@ -50,15 +50,26 @@ Cherrygrove_Pokemart_Pokemart:
 	end
 
 Cherrygrove_Pokemart_Text_CooltrainerM:
+#if GERMAN
 	.string "Die Pokébälle sind leider ausverkauft.\n"
 	.string "Wann wohl die neue Lieferung kommt?$"
+#else
+	.string "They're fresh out of POKé BALLS!\p"
+	.string "When will they get more of them?$"
+#endif
 
 Cherrygrove_Pokemart_Text_CooltrainerM_PokeBallsInStock:
+#if GERMAN
 	.string "Die neue Lieferung Pokébälle ist da!\n"
 	.string "Jetzt kann ich wieder nach Herzenslust\l"
 	.string "auf Pokémon-Jagd gehen!$"
+#else
+	.string "POKé BALLS are in stock!\n"
+	.string "Now I can catch POKéMON!$"
+#endif
 
 Cherrygrove_Pokemart_Text_Youngster:
+#if GERMAN
 	.string "Als ich durch das hohe Gras spaziert\n"
 	.string "bin, wurde mein Pokémon von einem\l"
 	.string "Käfer-Pokémon vergiftet!\p"
@@ -66,3 +77,11 @@ Cherrygrove_Pokemart_Text_Youngster:
 	.string "schwächer geworden.\p"
 	.string "Du solltest ständig ein Gegengift mit dir\n"
 	.string "führen!$"
+#else
+	.string "When I was walking in the grass, a\n"
+	.string "bug POKéMON poisoned my POKéMON!\p"
+	.string "I just kept going, but then my\n"
+	.string "POKéMON fainted.\p"
+	.string "You should keep an ANTIDOTE\n"
+	.string "with you.$"
+#endif

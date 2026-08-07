@@ -113,6 +113,7 @@ BattleFrontier_Lounge2_EventScript_TriathleteF_hns::
 	end
 
 BattleFrontier_Lounge2_Text_FrontierManiacIntro_hns::
+#if GERMAN
 	.string "Halli hallo! Wenn du Neuigkeiten über\n"
 	.string "die Kampfzone erfahren willst,\l"
 	.string "bin ich die Nummer eins für dich!\p"
@@ -121,37 +122,79 @@ BattleFrontier_Lounge2_Text_FrontierManiacIntro_hns::
 	.string "Trainer, oder?\p"
 	.string "Ich werde dir die neuesten Neuigkeiten\n"
 	.string "über die Kampfzone erzählen!$"
+#else
+	.string "Howdy! When it comes to news about\n"
+	.string "the BATTLE FRONTIER, I'm no. 1.\p"
+	.string "You can think of me as\n"
+	.string "the FRONTIER MANIAC.\p"
+	.string "Just checking, but you are a TRAINER,\n"
+	.string "isn't that right?\p"
+	.string "I'll happily share the hottest news\n"
+	.string "I gathered about the BATTLE FRONTIER.$"
+#endif
 
 BattleFrontier_Lounge2_Text_SwingByForTheLatestWord_hns::
+#if GERMAN
 	.string "Halli hallo! Du willst bestimmt die\n"
 	.string "neuesten Neuigkeiten aus mir\l"
 	.string "herauspressen! Hab ich Recht?$"
+#else
+	.string "Howdy! Did you swing by to grill me\n"
+	.string "about the latest word? Oh, all right!$"
+#endif
 
 @ Unused
 BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight_hns::
+#if GERMAN
 	.string "Na? Na? Na?\p"
 	.string "Meine Informationen waren dir doch\n"
 	.string "bestimmt eine große Hilfe, oder?$"
+#else
+	.string "Well? Well? Well?\p"
+	.string "I'm sure my information's been\n"
+	.string "seriously useful to you, right?$"
+#endif
 
 BattleFrontier_Lounge2_Text_FacilityIsHottest_hns::
+#if GERMAN
 	.string "Mal sehen…\p"
 	.string "Scheinbar ist {STR_VAR_1}\n"
 	.string "im Moment der angesagteste Ort.$"
+#else
+	.string "Let's see now…\p"
+	.string "It sounds like the {STR_VAR_1}\n"
+	.string "is the hottest place going.$"
+#endif
 
 BattleFrontier_Lounge2_Text_BattleTowerIsHottest_hns::
+#if GERMAN
 	.string "Mal sehen…\p"
 	.string "Scheinbar ist der Duellturm\n"
 	.string "{STR_VAR_1} im Moment der\l"
 	.string "angesagteste Ort.$"
+#else
+	.string "Let's see now…\p"
+	.string "It sounds like BATTLE TOWER\n"
+	.string "{STR_VAR_1} is the hottest.$"
+#endif
 
 BattleFrontier_Lounge2_Text_SalonMaidenIsThere_hns::
+#if GERMAN
 	.string "Ich wette, das hier weißt du noch nicht!\p"
 	.string "Einer der Top-Trainer, die Scott die\n"
 	.string "Kampfkoryphäen nennt, ist hier.\p"
 	.string "Ein sehr geheimnisvoller Trainer…\n"
 	.string "Der Kampfkoloss, der hier alles leitet.$"
+#else
+	.string "Bet you didn't know this!\p"
+	.string "One of those top TRAINERS that SCOTT\n"
+	.string "calls the FRONTIER BRAINS is there.\p"
+	.string "It's this mysterious TRAINER called\n"
+	.string "the SALON MAIDEN that runs the place.$"
+#endif
 
 BattleFrontier_Lounge2_Text_SalonMaidenSilverMons_hns::
+#if GERMAN
 	.string "Bist du schon gegen den Kampfkoloss\n"
 	.string "angetreten?\p"
 	.string "Er schätzt seine Gegner ab und setzt\n"
@@ -160,8 +203,17 @@ BattleFrontier_Lounge2_Text_SalonMaidenSilverMons_hns::
 	.string "Ein Vulkan-Pokémon, Typ Feuer.\p"
 	.string "Und ein Tagträumer-Pokémon,\n"
 	.string "Typ Normal.$"
+#else
+	.string "Have you battled the SALON MAIDEN?\p"
+	.string "When she's measuring up her opponent,\n"
+	.string "she apparently uses these POKéMON:\p"
+	.string "A PSYCHIC-type PSI POKéMON,\n"
+	.string "a FIRE-type VOLCANO POKéMON,\l"
+	.string "and a NORMAL-type SLEEPING POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_SalonMaidenGoldMons_hns::
+#if GERMAN
 	.string "Bist du dem Kampfkoloss schon\n"
 	.string "begegnet, wenn er ernsthaft kämpft?\p"
 	.string "In dem Fall setzt er folgende Pokémon\n"
@@ -170,15 +222,33 @@ BattleFrontier_Lounge2_Text_SalonMaidenGoldMons_hns::
 	.string "Ein Donner-Pokémon, Typ Elektro.\l"
 	.string "Und ein Tagträumer-Pokémon,\l"
 	.string "Typ Normal.$"
+#else
+	.string "Have you battled the SALON MAIDEN\n"
+	.string "when she's serious?\p"
+	.string "When she's battling flat out,\n"
+	.string "she apparently uses these POKéMON:\p"
+	.string "A DRAGON & PSYCHIC EON POKéMON,\n"
+	.string "an ELECTRIC-type THUNDER POKéMON,\l"
+	.string "and a NORMAL-type SLEEPING POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_DomeAceIsThere_hns::
+#if GERMAN
 	.string "Ich wette, das hier weißt du noch nicht!\p"
 	.string "Einer der Top-Trainer, die Scott die\n"
 	.string "Kampfkoryphäen nennt, ist hier.\p"
 	.string "Ein großspuriger Trainer…\n"
 	.string "Der Stadionstar, der hier alles leitet.$"
+#else
+	.string "Bet you didn't know this!\p"
+	.string "One of those top TRAINERS that SCOTT\n"
+	.string "calls the FRONTIER BRAINS is there.\p"
+	.string "It's this flamboyant TRAINER called\n"
+	.string "the DOME ACE that runs the place.$"
+#endif
 
 BattleFrontier_Lounge2_Text_DomeAceSilverMons_hns::
+#if GERMAN
 	.string "Bist du schon gegen den Stadionstar\n"
 	.string "angetreten?\p"
 	.string "Er tritt mit folgenden Pokémon gegen\n"
@@ -188,8 +258,17 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons_hns::
 	.string "& Boden.\p"
 	.string "Und ein Flamme-Pokémon, Typ\n"
 	.string "Feuer & Flug.$"
+#else
+	.string "Have you battled the DOME ACE?\p"
+	.string "When he's treating the opponent\n"
+	.string "lightly, he uses these three POKéMON:\p"
+	.string "A DRAGON & FLYING DRAGON POKéMON,\n"
+	.string "a WATER & GROUND MUD FISH POKéMON,\l"
+	.string "and a FIRE & FLYING FLAME POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons_hns::
+#if GERMAN
 	.string "Bist du schon gegen den Stadionstar\n"
 	.string "angetreten, wenn er ernsthaft kämpft?\p"
 	.string "Dann zeigt er dem Gegner mit den\n"
@@ -199,23 +278,51 @@ BattleFrontier_Lounge2_Text_DomeAceGoldMons_hns::
 	.string "& Boden.\p"
 	.string "Und ein Eisenfuss-Pokémon, Typ\n"
 	.string "Stahl & Psycho.$"
+#else
+	.string "Have you battled the DOME ACE\n"
+	.string "when he's serious?\p"
+	.string "When he's demonstrating his strategy,\n"
+	.string "he uses these three POKéMON:\p"
+	.string "A DRAGON & FLYING EON POKéMON,\n"
+	.string "a WATER & GROUND MUD FISH POKéMON,\l"
+	.string "and a STEEL- & PSYCHIC-type IRON LEG\l"
+	.string "POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_FactoryHeadIsThere_hns::
+#if GERMAN
 	.string "Ich wette, das hier weißt du noch nicht!\p"
 	.string "Einer der Top-Trainer, die Scott die\n"
 	.string "Kampfkoryphäen nennt, ist hier.\p"
 	.string "Ein sehr geheimnisvoller Trainer…\n"
 	.string "Der Fabrikleiter, der hier alles leitet.$"
+#else
+	.string "Bet you didn't know this!\p"
+	.string "One of those top TRAINERS that SCOTT\n"
+	.string "calls the FRONTIER BRAINS is there.\p"
+	.string "It's this freaky TRAINER called\n"
+	.string "the FACTORY HEAD that runs the place.$"
+#endif
 
 BattleFrontier_Lounge2_Text_FactoryHeadSilverMons_hns::
+#if GERMAN
 	.string "Bist du schon gegen den Fabrikleiter\n"
 	.string "angetreten?\p"
 	.string "Lass mich mal nachdenken… Er geht\n"
 	.string "immer mit drei Leih-Pkmn in den Kampf.\p"
 	.string "Er kämpft also fast unter den gleichen\n"
 	.string "Bedingungen wie du.$"
+#else
+	.string "Have you battled the FACTORY HEAD\n"
+	.string "already?\p"
+	.string "Let me think… When he goes to battle,\n"
+	.string "he just gets three rental POKéMON.\p"
+	.string "He battles under pretty much the same\n"
+	.string "conditions as you.$"
+#endif
 
 BattleFrontier_Lounge2_Text_FactoryHeadGoldMons_hns::
+#if GERMAN
 	.string "Bist du schon gegen den Fabrikleiter\n"
 	.string "angetreten, wenn er ernsthaft kämpft?\p"
 	.string "Auch wenn er sich nicht zurückhalten\n"
@@ -223,15 +330,32 @@ BattleFrontier_Lounge2_Text_FactoryHeadGoldMons_hns::
 	.string "den Kampf.\p"
 	.string "Er kämpft also fast unter den gleichen\n"
 	.string "Bedingungen wie du.$"
+#else
+	.string "Have you battled the FACTORY HEAD\n"
+	.string "when he's serious?\p"
+	.string "When he goes seriously to battle,\n"
+	.string "he still gets three rental POKéMON.\p"
+	.string "He battles under virtually the same\n"
+	.string "conditions as you.$"
+#endif
 
 BattleFrontier_Lounge2_Text_PikeQueenIsThere_hns::
+#if GERMAN
 	.string "Ich wette, das hier weißt du noch nicht!\p"
 	.string "Einer der Top-Trainer, die Scott die\n"
 	.string "Kampfkoryphäen nennt, ist hier.\p"
 	.string "Ein sehr geheimnisvoller Trainer…\n"
 	.string "Die Pfipitistin, die hier alles leitet.$"
+#else
+	.string "Bet you didn't know this!\p"
+	.string "One of those top TRAINERS that SCOTT\n"
+	.string "calls the FRONTIER BRAINS is there.\p"
+	.string "It's this scary TRAINER called\n"
+	.string "the PIKE QUEEN that runs the place.$"
+#endif
 
 BattleFrontier_Lounge2_Text_PikeQueenSilverMons_hns::
+#if GERMAN
 	.string "Bist du schon mal gegen die\n"
 	.string "Pfipitistin angetreten?\p"
 	.string "Wenn sie gute Laune hat, dann setzt sie\n"
@@ -240,8 +364,18 @@ BattleFrontier_Lounge2_Text_PikeQueenSilverMons_hns::
 	.string "Ein Schimmel-Pokémon, Typ Käfer &\p"
 	.string "Gestein sowie ein Zartheit-Pokémon,\n"
 	.string "Typ Wasser.$"
+#else
+	.string "Have you battled the PIKE QUEEN\n"
+	.string "before?\p"
+	.string "When she's in a good mood, they say\n"
+	.string "she uses these three POKéMON:\p"
+	.string "A POISON-type FANG SNAKE POKéMON,\n"
+	.string "a BUG & ROCK MOLD POKéMON,\l"
+	.string "and a WATER-type TENDER POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_PikeQueenGoldMons_hns::
+#if GERMAN
 	.string "Bist du mal gegen die Pfipitistin an-\n"
 	.string "getreten, wenn sie ernsthaft kämpft?\p"
 	.string "Wenn sie schlechte Laune hat, dann\n"
@@ -250,16 +384,35 @@ BattleFrontier_Lounge2_Text_PikeQueenGoldMons_hns::
 	.string "Ein Stahlboa-Pokémon, Typ Stahl &\p"
 	.string "Boden sowie ein Grausam-Pokémon,\n"
 	.string "Typ Wasser & Flug.$"
+#else
+	.string "Have you battled the PIKE QUEEN\n"
+	.string "when she's serious?\p"
+	.string "When she's seriously annoyed, they say\n"
+	.string "she uses these three POKéMON:\p"
+	.string "A POISON-type FANG SNAKE POKéMON,\n"
+	.string "a STEEL & GROUND IRON SNAKE POKéMON,\l"
+	.string "and a WATER- & FLYING-type ATROCIOUS\l"
+	.string "POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_ArenaTycoonIsThere_hns::
+#if GERMAN
 	.string "Ich wette, das hier weißt du noch nicht!\p"
 	.string "Einer der Top-Trainer, die Scott die\n"
 	.string "Kampfkoryphäen nennt, ist hier.\p"
 	.string "Ein niedlicher Trainer…\n"
 	.string "Der Ringmeister, der hier\l"
 	.string "alles leitet.$"
+#else
+	.string "Bet you didn't know this!\p"
+	.string "One of those top TRAINERS that SCOTT\n"
+	.string "calls the FRONTIER BRAINS is there.\p"
+	.string "It's this cute TRAINER called\n"
+	.string "the ARENA TYCOON that runs the place.$"
+#endif
 
 BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons_hns::
+#if GERMAN
 	.string "Bist du schon mal gegen den\n"
 	.string "Ringmeister angetreten?\p"
 	.string "Wenn er seinen Gegner abschätzen will,\n"
@@ -268,8 +421,18 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons_hns::
 	.string "Kampf. Ein Mondschein-Pokémon, Typ\p"
 	.string "Unlicht sowie ein Häutung-Pokémon,\n"
 	.string "Typ Käfer & Geist.$"
+#else
+	.string "Have you battled the ARENA TYCOON\n"
+	.string "before?\p"
+	.string "When she's assessing the foe's ability,\n"
+	.string "she supposedly uses these POKéMON:\p"
+	.string "A BUG & FIGHTING SINGLE HORN POKéMON,\n"
+	.string "a DARK-type MOONLIGHT POKéMON,\l"
+	.string "and a BUG & GHOST SHED POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons_hns::
+#if GERMAN
 	.string "Bist du schon mal gegen den\n"
 	.string "Ringmeister angetreten, wenn er\l"
 	.string "ernsthaft kämpft?\p"
@@ -279,15 +442,34 @@ BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons_hns::
 	.string "Unlicht, ein Schatten-Pokémon, Typ\l"
 	.string "Geist & Gift sowie ein Pilz-Pokémon,\l"
 	.string "Typ Pflanze & Kampf.$"
+#else
+	.string "Have you battled the ARENA TYCOON\n"
+	.string "when she's serious?\p"
+	.string "When she battles for keeps,\n"
+	.string "she supposedly uses these POKéMON:\p"
+	.string "A DARK-type MOONLIGHT POKéMON,\n"
+	.string "a GHOST & POISON SHADOW POKéMON\l"
+	.string "and a GRASS- & FIGHTING-type\l"
+	.string "MUSHROOM POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_PalaceMavenIsThere_hns::
+#if GERMAN
 	.string "Ich wette, das hier weißt du noch nicht!\p"
 	.string "Einer der Top-Trainer, die Scott die\n"
 	.string "Kampfkoryphäen nennt, ist hier.\p"
 	.string "Ein sehr hinterhältiger Trainer…\n"
 	.string "Der Palastregent, der hier alles leitet.$"
+#else
+	.string "Bet you didn't know this!\p"
+	.string "One of those top TRAINERS that SCOTT\n"
+	.string "calls the FRONTIER BRAINS is there.\p"
+	.string "It's this sinister TRAINER called\n"
+	.string "the PALACE MAVEN that runs the place.$"
+#endif
 
 BattleFrontier_Lounge2_Text_PalaceMavenSilverMons_hns::
+#if GERMAN
 	.string "Bist du schon mal gegen den Palast-\n"
 	.string "Regenten angetreten?\p"
 	.string "Wenn er den Geist seiner Gegner\n"
@@ -297,8 +479,18 @@ BattleFrontier_Lounge2_Text_PalaceMavenSilverMons_hns::
 	.string "Flug. Ein müßig-Pokémon, Typ\p"
 	.string "Normal sowie ein Transport-Pokémon,\n"
 	.string "Typ Wasser & Eis.$"
+#else
+	.string "Have you battled the PALACE MAVEN\n"
+	.string "before?\p"
+	.string "When he's testing the opponent's\n"
+	.string "spirit, he's said to use these POKéMON:\p"
+	.string "A POISON & FLYING-type BAT POKéMON,\n"
+	.string "a NORMAL-type LAZY POKéMON, and a\l"
+	.string "WATER- & ICE-type TRANSPORT POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons_hns::
+#if GERMAN
 	.string "Bist du schon mal gegen den Palast-\n"
 	.string "Regenten angetreten, wenn er\l"
 	.string "ernsthaft kämpft?\p"
@@ -308,15 +500,33 @@ BattleFrontier_Lounge2_Text_PalaceMavenGoldMons_hns::
 	.string "Ein müßig-Pokémon, Typ\p"
 	.string "Normal sowie ein Polarlicht-Pokémon,\n"
 	.string "Typ Wasser.$"
+#else
+	.string "Have you battled the PALACE MAVEN\n"
+	.string "when he's serious?\p"
+	.string "When he throws his entire might into\n"
+	.string "battle, he's said to use these POKéMON:\p"
+	.string "A FIRE-type LEGENDARY POKéMON,\n"
+	.string "a NORMAL-type LAZY POKéMON,\l"
+	.string "and a WATER-type AURORA POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_PyramidKingIsThere_hns::
+#if GERMAN
 	.string "Ich wette, das hier weißt du noch nicht!\p"
 	.string "Einer der Top-Trainer, die Scott die\n"
 	.string "Kampfkoryphäen nennt, ist hier.\p"
 	.string "Ein sehr hitzköpfiger Trainer…\n"
 	.string "Der Pyrakönig, der hier alles leitet.$"
+#else
+	.string "Bet you didn't know this!\p"
+	.string "One of those top TRAINERS that SCOTT\n"
+	.string "calls the FRONTIER BRAINS is there.\p"
+	.string "It's this fiery-hot TRAINER called\n"
+	.string "the PYRAMID KING that runs the place.$"
+#endif
 
 BattleFrontier_Lounge2_Text_PyramidKingSilverMons_hns::
+#if GERMAN
 	.string "Bist du schon mal gegen den Pyrakönig\n"
 	.string "angetreten?\p"
 	.string "Wenn er die Kraft seiner Gegner\n"
@@ -326,8 +536,18 @@ BattleFrontier_Lounge2_Text_PyramidKingSilverMons_hns::
 	.string "Ein Eisberg-Pokémon, Typ\p"
 	.string "Eis sowie ein Eisen-Pokémon,\n"
 	.string "Typ Stahl.$"
+#else
+	.string "Have you battled the PYRAMID KING\n"
+	.string "before?\p"
+	.string "When he's checking the foe's power,\n"
+	.string "he apparently uses these POKéMON:\p"
+	.string "A ROCK-type ROCK PEAK POKéMON,\n"
+	.string "an ICE-type ICEBERG POKéMON,\l"
+	.string "and a STEEL-type IRON POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_PyramidKingGoldMons_hns::
+#if GERMAN
 	.string "Bist du schon mal gegen den Pyrakönig\n"
 	.string "angetreten, wenn er ernsthaft\l"
 	.string "kämpft?\p"
@@ -337,8 +557,19 @@ BattleFrontier_Lounge2_Text_PyramidKingGoldMons_hns::
 	.string "Ein Elektro-Pokémon, Typ\p"
 	.string "Elektro & Flug sowie ein Flamme-\n"
 	.string "Pokémon, Typ Feuer & Flug$"
+#else
+	.string "Have you battled the PYRAMID KING\n"
+	.string "when he's serious?\p"
+	.string "When he's pumped with hot power,\n"
+	.string "he apparently uses these POKéMON:\p"
+	.string "An ICE & FLYING FREEZE POKéMON, an\n"
+	.string "ELECTRIC & FLYING ELECTRIC POKéMON,\l"
+	.string "and a FIRE- & FLYING-type FLAME\l"
+	.string "POKéMON.$"
+#endif
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice1_hns::
+#if GERMAN
 	.string "Natürlich gibt es verschiedene Orte, an\n"
 	.string "denen du Doppelkämpfe austragen\l"
 	.string "kannst.\p"
@@ -347,48 +578,106 @@ BattleFrontier_Lounge2_Text_DoubleBattleAdvice1_hns::
 	.string "Dort kannst du lernen, wie die Doppel-\n"
 	.string "Kämpfe hier in der Kampfzone\l"
 	.string "ausgetragen werden.$"
+#else
+	.string "Sure, there are several places where\n"
+	.string "you can enter DOUBLE BATTLES.\p"
+	.string "But the DOUBLE BATTLE ROOMS of\n"
+	.string "the BATTLE TOWER are, like, basic!\p"
+	.string "They're where you should learn about\n"
+	.string "how DOUBLE BATTLES are played here\l"
+	.string "in the BATTLE FRONTIER.$"
+#endif
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice2_hns::
+#if GERMAN
 	.string "Beobachte dich selbst und lerne dazu.\p"
 	.string "Die Trainer hier haben Strategien\n"
 	.string "entwickelt, die sie nur hier in\l"
 	.string "Doppelkämpfen einsetzen!$"
+#else
+	.string "Watch yourself in the battles here.\p"
+	.string "I hear there are TRAINERS that have\n"
+	.string "strategies they developed just for\l"
+	.string "DOUBLE BATTLES.$"
+#endif
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice3_hns::
+#if GERMAN
 	.string "Sobald du Selbstvertrauen gewonnen\n"
 	.string "hast und du dich bei Doppelkämpfen\l"
 	.string "auskennst, solltest du andere Orte\l"
 	.string "aufsuchen, die diese Kämpfe anbieten.$"
+#else
+	.string "Once you're confident and comfortable\n"
+	.string "with DOUBLE BATTLES here, you should\l"
+	.string "think about challenging other places\l"
+	.string "offering DOUBLE BATTLES.$"
+#endif
 
 BattleFrontier_Lounge2_Text_MultiBattleAdvice_hns::
+#if GERMAN
 	.string "In der Teamlounge trifft man auf die\n"
 	.string "unterschiedlichsten Trainer.\p"
 	.string "Stell dir mal vor! Du triffst vielleicht\n"
 	.string "auf einen Freund oder Fans!\l"
 	.string "Schau dich gut um!$"
+#else
+	.string "All sorts of TRAINERS gather in\n"
+	.string "the BATTLE SALON.\p"
+	.string "Just think--you may run into your\n"
+	.string "friends or followers!\l"
+	.string "You should look carefully!$"
+#endif
 
 BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice_hns::
+#if GERMAN
 	.string "Begleitet dich ein Freund, solltet ihr\n"
 	.string "den Link-Multikampf-Raum aufsuchen.\p"
 	.string "Trittst du mit einem starken Freund\n"
 	.string "an, sind auch deine Gegner stark!$"
+#else
+	.string "If you're with a friend, head for the\n"
+	.string "LINK MULTI BATTLE ROOM.\p"
+	.string "If you play with a strong friend,\n"
+	.string "you can expect to see tough foes!$"
+#endif
 
 BattleFrontier_Lounge2_Text_NewsGatheringPower_hns::
+#if GERMAN
 	.string "Was für ein Talent, Neuigkeiten aufzu-\n"
 	.string "spüren! Niemand kann meinem Mentor\l"
 	.string "darin das Wasser reichen!!!$"
+#else
+	.string "What amazing news-gathering power!\n"
+	.string "My mentor's like none other!$"
+#endif
 
 BattleFrontier_Lounge2_Text_AmazingPowersOfObservation_hns::
+#if GERMAN
 	.string "Was für eine Beobachtungsgabe!\n"
 	.string "Niemand kann meinem Mentor\l"
 	.string "darin das Wasser reichen!!!$"
+#else
+	.string "What amazing powers of observation!\n"
+	.string "My mentor's like none other!$"
+#endif
 
 BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion_hns::
+#if GERMAN
 	.string "Was für eine Überzeugungskraft!\n"
 	.string "Niemand kann meinem Mentor\l"
 	.string "darin das Wasser reichen!!!$"
+#else
+	.string "What amazing power of persuasion!\n"
+	.string "My mentor's like none other!$"
+#endif
 
 BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe_hns::
+#if GERMAN
 	.string "Was ist dies für ein Ort?\n"
 	.string "Er macht mir Angst…$"
+#else
+	.string "…What is this place?\n"
+	.string "It's scaring me…$"
+#endif
 

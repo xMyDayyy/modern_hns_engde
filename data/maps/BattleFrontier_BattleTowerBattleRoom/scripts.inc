@@ -432,74 +432,157 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge::
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
+#if GERMAN
 	.string "Wir heilen deine Pokémon und machen\n"
 	.string "sie wieder fit!$"
+#else
+	.string "We will restore your POKéMON to\n"
+	.string "full health.$"
+#endif
 
 @ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
+#if GERMAN
 	.string "Gegner Nr. {STR_VAR_1} erwartet dich.\n"
 	.string "Bist du so weit?$"
+#else
+	.string "You will be facing opponent no. {STR_VAR_1}.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent:
+#if GERMAN
 	.string "Gegner Nr. 2 erwartet dich.\n"
 	.string "Bist du so weit?$"
+#else
+	.string "You will be facing opponent no. 2.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent:
+#if GERMAN
 	.string "Gegner Nr. 3 erwartet dich.\n"
 	.string "Bist du so weit?$"
+#else
+	.string "You will be facing opponent no. 3.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent:
+#if GERMAN
 	.string "Gegner Nr. 4 erwartet dich.\n"
 	.string "Bist du so weit?$"
+#else
+	.string "You will be facing opponent no. 4.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent:
+#if GERMAN
 	.string "Gegner Nr. 5 erwartet dich.\n"
 	.string "Bist du so weit?$"
+#else
+	.string "You will be facing opponent no. 5.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent:
+#if GERMAN
 	.string "Gegner Nr. 6 erwartet dich.\n"
 	.string "Bist du so weit?$"
+#else
+	.string "You will be facing opponent no. 6.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent:
+#if GERMAN
 	.string "Gegner Nr. 7 erwartet dich.\n"
 	.string "Bist du so weit?$"
+#else
+	.string "You will be facing opponent no. 7.\n"
+	.string "Are you ready?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
+#if GERMAN
 	.string "Möchtest du die Resultate in deinen\n"
 	.string "Kampfzonenpass eintragen?$"
+#else
+	.string "Record your battle on your\n"
+	.string "FRONTIER PASS?$"
+#endif
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
+#if GERMAN
 	.string "Der Kampf von {PLAYER} wurde im\n"
 	.string "Kampfzonenpass eingetragen.$"
+#else
+	.string "{PLAYER}'s battle was recorded\n"
+	.string "on the FRONTIER PASS.$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
+#if GERMAN
 	.string "Möchtest du das Spiel speichern und\n"
 	.string "beenden?$"
+#else
+	.string "Would you like to save and\n"
+	.string "quit the game?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
+#if GERMAN
 	.string "Deine Kampfdaten werden gespeichert.\n"
 	.string "Bitte warte einen Moment.$"
+#else
+	.string "Saving your battle data.\n"
+	.string "Please wait.$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
+#if GERMAN
 	.string "Möchtest du die Herausforderung im\n"
 	.string "Kampfraum abbrechen?$"
+#else
+	.string "Would you like to cancel your BATTLE\n"
+	.string "ROOM challenge?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
+#if GERMAN
 	.string "Es gab einen Fehler. Deine Daten\n"
 	.string "konnten nicht gespeichert werden.$"
+#else
+	.string "There was an error of some sort.\n"
+	.string "Your record could not be saved.$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
+#if GERMAN
 	.string "Entschuldige, aber…\p"
 	.string "Unser Kampfkoloss ist\n"
 	.string "gerade auf dem Weg hierher.\p"
 	.string "Sie hofft auf einen Kampf.\n"
 	.string "Sie sollte bald hier sein.$"
+#else
+	.string "Excuse me, but…\p"
+	.string "Our leader, the SALON MAIDEN, is on\n"
+	.string "her way here in hopes of battling you.\p"
+	.string "She should be arriving very shortly.$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
+#if GERMAN
 	.string "Auf dich wartet der Kampfkoloss.\n"
 	.string "Bist du so weit?$"
+#else
+	.string "You will be facing the SALON MAIDEN.\n"
+	.string "Are you prepared?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
+#if GERMAN
 	.string "Hallo… Mein Name ist Anabel.\p"
 	.string "Ich bin der Kampfkoloss und\n"
 	.string "ich bin hier verantwortlich für den\l"
@@ -510,20 +593,49 @@ BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
 	.string "Geschichten…\p"
 	.string "Warum ich überhaupt hier bin…\n"
 	.string "Nun, es gibt da einen Grund…$"
+#else
+	.string "Greetings…\n"
+	.string "My name is ANABEL.\p"
+	.string "I am the SALON MAIDEN, and I am in\n"
+	.string "charge of running the BATTLE TOWER…\p"
+	.string "I have heard several rumors\n"
+	.string "about you…\p"
+	.string "In all honesty, what I have heard does\n"
+	.string "not seem attractive in any way…\p"
+	.string "The reason I've come to see you…\n"
+	.string "Well, there is but one reason…$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent:
+#if GERMAN
 	.string "Zeig mir dein ganzes Können…$"
+#else
+	.string "Let me see your talent in\n"
+	.string "its entirety…$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized:
+#if GERMAN
 	.string "Anabel: Hahaha, sehr schön…\p"
 	.string "Gib mir bitte deinen Kampfzonenpass…\n"
 	.string "Dein Talent soll jeder sehen.$"
+#else
+	.string "ANABEL: Fufufu, nicely done…\p"
+	.string "Your FRONTIER PASS, please…\n"
+	.string "Your talent shall be recognized.$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol:
+#if GERMAN
 	.string "Das Anlagesymbol wurde dem Kampf-\n"
 	.string "zonenpass hinzugefügt!$"
+#else
+	.string "The Ability Symbol was embossed on\n"
+	.string "the FRONTIER PASS!$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
+#if GERMAN
 	.string "…………… …\p"
 	.string "Du bist dir deines Talentes als\n"
 	.string "Kämpfer ziemlich sicher, nicht wahr?\p"
@@ -531,8 +643,18 @@ BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
 	.string "kämpfst und gewinnst!\p"
 	.string "Ich warte auf dich.\n"
 	.string "Bis zum nächsten Mal…$"
+#else
+	.string "… … … … … …\p"
+	.string "You have confidence in your POKéMON\n"
+	.string "battling talent, don't you?\p"
+	.string "I urge you to keep battling and\n"
+	.string "keep on winning.\p"
+	.string "I will be waiting for you.\n"
+	.string "Until the next time we meet…$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
+#if GERMAN
 	.string "Anabel: Du bist wirklich wieder-\n"
 	.string "gekommen…\p"
 	.string "…………… …\p"
@@ -543,22 +665,53 @@ BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
 	.string "Es ist schon sehr lange her…\p"
 	.string "Es ist zu lange her, dass ich ohne\n"
 	.string "Rücksicht kämpfen konnte…$"
+#else
+	.string "ANABEL: You really did come back to\n"
+	.string "see me…\p"
+	.string "… … … … … …\p"
+	.string "You've won straight matches to see me…\n"
+	.string "I won't have to hold back against you…\p"
+	.string "It's been too long now…\p"
+	.string "Too long since I've been able to battle\n"
+	.string "without thinking about anything…$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe:
+#if GERMAN
 	.string "Sollen wir anfangen?$"
+#else
+	.string "Let's begin, shall we?$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease:
+#if GERMAN
 	.string "Anabel: Hähä, Glückwunsch…\n"
 	.string "Gib mir deinen Kampfzonenpass…$"
+#else
+	.string "ANABEL: Fufu, congratulations…\n"
+	.string "Your FRONTIER PASS, please…$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine:
+#if GERMAN
 	.string "Das Anlagesymbol erscheint in einem\n"
 	.string "goldenen Glanz!$"
+#else
+	.string "The Ability Symbol took on\n"
+	.string "a golden shine!$"
+#endif
 
 BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain:
+#if GERMAN
 	.string "Das hat Spaß gemacht…\p"
 	.string "So einen tollen Pokémon-Kampf habe ich\n"
 	.string "bisher noch nicht erlebt…\p"
 	.string "Ich wünschte, ich könnte öfter gegen\n"
 	.string "dich antreten…$"
+#else
+	.string "That was fun…\p"
+	.string "I have never had a POKéMON battle\n"
+	.string "so enjoyable before…\p"
+	.string "I wish I could battle with you again…$"
+#endif
 

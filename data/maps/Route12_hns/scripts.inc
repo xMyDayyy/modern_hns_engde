@@ -65,74 +65,161 @@ Route12_EventScript_Tentacruel::
 	end
 
 Route12_Text_NewFisher:
+#if GERMAN
 	.string "Vorsicht, in diesem Gewässer\n"
 	.string "lebt etwas Bösartiges.$"
+#else
+	.string "Careful, something vicious lives in\n"
+	.string "these waters.$"
+#endif
 
 Route12_Text_FisherMartinSeen:
+#if GERMAN
 	.string "Geduld ist das Zauberwort.\n"
 	.string "Das gilt fürs Angeln und für Pokémon.$"
+#else
+	.string "Patience is the key to both\n"
+	.string "fishing and POKéMON.$"
+#endif
 
 Route12_Text_FisherMartinBeaten:
+#if GERMAN
 	.string "Guaah!$"
+#else
+	.string "Gwaaah!$"
+#endif
 
 Route12_Text_FisherMartinAfterBattle:
+#if GERMAN
 	.string "Ich bin wohl doch zu ungeduldig\n"
 	.string "für das Angeln…$"
+#else
+	.string "I'm too impatient for fishing…$"
+#endif
 
 Route12_Text_FisherStephenSeen:
+#if GERMAN
 	.string "Solange ich beim Angeln meinem Radio\n"
 	.string "lauschen kann, bin ich glücklich.$"
+#else
+	.string "I feel so content, fishing while\n"
+	.string "listening to some tunes on my\l"
+	.string "radio.$"
+#endif
 
 Route12_Text_FisherStephenBeaten:
+#if GERMAN
 	.string "Das blöde Radio beunruhigt mich!$"
+#else
+	.string "My stupid radio distracted me!$"
+#endif
 
 Route12_Text_FisherStephenAfterBattle:
+#if GERMAN
 	.string "Wenn du gerade in Kanto bist, senden\n"
 	.string "die Radiosender aus Johto ein Spezial-\l"
 	.string "programm mit zusätzlichem Lokalteil!\p"
 	.string "Äußerst praktisch und vor allem\n"
 	.string "hörerfreundlich, findest du nicht?$"
+#else
+	.string "Have you checked out KANTO's radio\n"
+	.string "programs? We get a good variety\l"
+	.string "here.$"
+#endif
 
 Route12_Text_FisherBarneySeen:
+#if GERMAN
 	.string "Was ist in unserem alltäglichen\n"
 	.string "Leben am wichtigsten?$"
+#else
+	.string "What's most important in our\n"
+	.string "everyday lives?$"
+#endif
 
 Route12_Text_FisherBarneyBeaten:
+#if GERMAN
 	.string "Meine Antwort hörst du, wenn\n"
 	.string "wir hier fertig sind!$"
+#else
+	.string "The answer is coming up next!$"
+#endif
 
 Route12_Text_FisherBarneyAfterBattle:
+#if GERMAN
 	.string "Meiner Meinung nach ist Strom das\n"
 	.string "Wichtigste in unserem Leben.\p"
 	.string "Wenn dem nicht so wäre, hätten die\n"
 	.string "Leute nicht so einen Aufstand\l"
-	.string "gemacht, als das Kraftwerk ausfiel.$"
+	.string "gemacht, als das {COLOR RED}Kraftwerk{COLOR DARK_GRAY} ausfiel.$"
+#else
+	.string "I think electricity is the most\n"
+	.string "important thing in our daily\l"
+	.string "lives.\p"
+	.string "If it weren't, people wouldn't\n"
+	.string "have made such a fuss when the\l"
+	.string "POWER PLANT went out of\l"
+	.string "commission.$"
+#endif
 
 Route12_Text_KyleRegister:
+#if GERMAN
 	.string "Ich werde mir das merken.\n"
 	.string "Gib mir deine Nummer!$"
+#else
+	.string "I'll remember this.\n"
+	.string "Give me your number!$"
+#endif
 
 Route12_Text_KyleRematchIntro:
+#if GERMAN
 	.string "Hast du es vergessen?\n"
 	.string "Lass sehen!$"
+#else
+	.string "Did you forget?\n"
+	.string "Let's see!$"
+#endif
 
 Route12_Text_KyleRematchDefeat:
+#if GERMAN
 	.string "Du hast nicht vergessen.$"
+#else
+	.string "You remembered.$"
+#endif
 
 Route12_Text_KylePostRematch:
+#if GERMAN
 	.string "Der Nervenkitzel des Kampfes\n"
 	.string "ist wie ein großer Fang!$"
+#else
+	.string "The thrill of battle is almost\n"
+	.string "as good as a big catch!$"
+#endif
 
 Route12_Text_FisherKyleSeen:
+#if GERMAN
 	.string "Erinnerst du dich noch?!?$"
+#else
+	.string "Do you remember?$"
+#endif
 
 Route12_Text_FisherKyleBeaten:
+#if GERMAN
 	.string "Du erinnerst dich?!?$"
+#else
+	.string "You do remember?$"
+#endif
 
 Route12_Text_FisherKyleAfterBattle:
+#if GERMAN
 	.string "Dieses Reißen an der Angel, wenn\n"
 	.string "ein Pokémon angebissen hat…\l"
 	.string "Das ist das Schönste für einen Angler!$"
+#else
+	.string "The tug you feel on the ROD when\n"
+	.string "you hook a POKéMON…\p"
+	.string "That's the best feeling ever for\n"
+	.string "an angler like me.$"
+#endif
 
 Route12_EventScript_Sign::
 	msgbox Route12_Text_Sign, MSGBOX_SIGN
@@ -143,8 +230,17 @@ Route12_EventScript_FishingSign::
 	end
 
 Route12_Text_Sign:
+#if GERMAN
 	.string "Route 12 Norden: Lavandia$"
+#else
+	.string "ROUTE 12\p"
+	.string "NORTH TO LAVENDER TOWN$"
+#endif
 
 Route12_Text_FishingSpotSign:
+#if GERMAN
 	.string "Angelplatz$"
+#else
+	.string "FISHING SPOT$"
+#endif
 

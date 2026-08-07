@@ -46,46 +46,101 @@ PokemonTower_6F_EventScript_Jennifer::
 	end
 
 PokemonTower_6F_Text_AngelicaIntro::
+#if GERMAN
 	.string "Ich... brauche...\n"
 	.string "Blut...$"
+#else
+	.string "Give…me…\n"
+	.string "blood…$"
+#endif
 
 PokemonTower_6F_Text_AngelicaDefeat::
+#if GERMAN
 	.string "Wo bin ich?$"
+#else
+	.string "Groan!$"
+#endif
 
 PokemonTower_6F_Text_AngelicaPostBattle::
+#if GERMAN
 	.string "Ich fühle mich so blutleer und\n"
 	.string "schwach...$"
+#else
+	.string "I feel anemic and weak…$"
+#endif
 
 PokemonTower_6F_Text_EmiliaIntro::
+#if GERMAN
 	.string "Buuh... buhuhu!$"
+#else
+	.string "Urff…\n"
+	.string "Kwaah!$"
+#endif
 
 PokemonTower_6F_Text_EmiliaDefeat::
+#if GERMAN
 	.string "Irgendetwas hat mich verlassen!$"
+#else
+	.string "Something fell out!$"
+#endif
 
 PokemonTower_6F_Text_EmiliaPostBattle::
+#if GERMAN
 	.string "Es war ein böser Geist, der Besitz\n"
 	.string "von mir ergriffen hatte!$"
+#else
+	.string "My hair didn't fall out!\n"
+	.string "It was a malevolent spirit!$"
+#endif
 
 PokemonTower_6F_Text_JenniferIntro::
+#if GERMAN
 	.string "Buh...\n"
 	.string "Buh... buhuhu...$"
+#else
+	.string "Ke…ke…ke…\n"
+	.string "ke…ke…ke!$"
+#endif
 
 PokemonTower_6F_Text_JenniferDefeat::
+#if GERMAN
 	.string "Buuh!$"
+#else
+	.string "Keee!$"
+#endif
 
 PokemonTower_6F_Text_JenniferPostBattle::
+#if GERMAN
 	.string "Was geht hier vor?$"
+#else
+	.string "What's going on here?$"
+#endif
 
 PokemonTower_6F_Text_BeGoneIntruders::
+#if GERMAN
 	.string "Verschwindet...\n"
 	.string "Eindringlinge...$"
+#else
+	.string "Be gone…\n"
+	.string "Intruders…$"
+#endif
 
 PokemonTower_6F_Text_GhostWasCubonesMother::
+#if GERMAN
 	.string "Der Geist war die rastlose Seele\n"
 	.string "der Mutter eines Tragosso!$"
+#else
+	.string "The ghost was the restless spirit\n"
+	.string "of CUBONE's mother!$"
+#endif
 
 PokemonTower_6F_Text_MothersSpiritWasCalmed::
+#if GERMAN
 	.string "Ihre Seele hat Frieden gefunden.\p"
 	.string "Sie ist in das Jenseits\n"
 	.string "eingekehrt...$"
+#else
+	.string "The mother's spirit was calmed.\p"
+	.string "It departed to the afterlife…$"
+#endif
 

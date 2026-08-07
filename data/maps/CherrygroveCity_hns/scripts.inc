@@ -274,6 +274,7 @@ CherryGroveCity_Silver_AfterBattle::
 	end
 
 CherrygroveCity_Text_GuideGentIntro:
+#if GERMAN
 	.string "Du bist noch nicht lange Trainer, oder?\n"
 	.string "Aha, Volltreffer! Wusste ich’s doch!\p"
 	.string "Aber das ist schon in Ordnung. Es ist\n"
@@ -281,12 +282,26 @@ CherrygroveCity_Text_GuideGentIntro:
 	.string "Keine Sorge, ich bringe dir gerne ein\n"
 	.string "paar Tricks bei!\p"
 	.string "Komm, folge mir!$"
+#else
+	.string "You're a rookie trainer,\n"
+	.string "aren't you? I can tell!\p"
+	.string "That's OK! Everyone is a\n"
+	.string "rookie at some point!\p"
+	.string "If you'd like, I can teach\n"
+	.string "you a few things.$"
+#endif
 
 CherrygroveCity_Text_GuideGentTourStart:
+#if GERMAN
 	.string "Na gut!\n"
 	.string "Los geht’s!$"
+#else
+	.string "OK, then!\n"
+	.string "Follow me!$"
+#endif
 
 CherrygroveCity_Text_GuideGentPokecenter:
+#if GERMAN
 	.string "Das hier ist ein Pokémon-Center.\n"
 	.string "Wenn deine Pokémon verletzt sind,\l"
 	.string "und du sie hier abgibst, werden sie\l"
@@ -294,24 +309,50 @@ CherrygroveCity_Text_GuideGentPokecenter:
 	.string "Ich kann dir schon jetzt sagen, dass du\n"
 	.string "hier bald Stammkunde sein wirst!\l"
 	.string "Du kannst mich beim Wort nehmen!$"
+#else
+	.string "This is a POKéMON CENTER.\p"
+	.string "They heal your POKéMON in no\n"
+	.string "time at all.\p"
+	.string "You'll be relying on them a lot,\n"
+	.string "so you better learn about them.$"
+#endif
 
 CherrygroveCity_Text_GuideGentMart:
+#if GERMAN
 	.string "Das hier ist ein Pokémon-Supermarkt.\n"
 	.string "Hier werden Bälle verkauft, mit denen\l"
 	.string "du Pokémon fangen kannst, und noch\l"
 	.string "viele weitere nützliche Items.$"
+#else
+	.string "This is a POKéMON MART.\p"
+	.string "They sell BALLS for catching wild\n"
+	.string "POKéMON and other useful items.$"
+#endif
 
 CherrygroveCity_Text_GuideGentRoute30:
-	.string "Route 30 liegt hier entlang.\p"
+#if GERMAN
+	.string "{COLOR RED}Route 30{COLOR DARK_GRAY} liegt hier entlang.\p"
 	.string "Dort kämpfen Trainer mit ihren\n"
 	.string "geschätzten Pokémon.$"
+#else
+	.string "ROUTE 30 is out this way.\p"
+	.string "Trainers will be battling\n"
+	.string "their prized POKéMON there.$"
+#endif
 
 CherrygroveCity_Text_GuideGentSea:
+#if GERMAN
 	.string "Und das ist das Meer, wie du siehst.\p"
 	.string "Bestimmte Pokémon halten sich \n"
 	.string "ausschließlich im Wasser auf!$"
+#else
+	.string "This is the sea, as you can see.\p"
+	.string "Some POKéMON are found only in\n"
+	.string "in water.$"
+#endif
 
 CherrygroveCity_Text_GuideGentMap:
+#if GERMAN
 	.string "Hier…\p"
 	.string "Das ist mein Haus! Danke für\n"
 	.string "deine Gesellschaft.\p"
@@ -319,14 +360,30 @@ CherrygroveCity_Text_GuideGentMap:
 	.string "sieh auf deine Karte!\p"
 	.string "Ich wünsche dir viel Glück\n"
 	.string "auf deiner Reise!$"
+#else
+	.string "Here…\p"
+	.string "It's my house! Thanks for\n"
+	.string "your company.\p"
+	.string "Oh, and if you're ever lost, check\n"
+	.string "the MAP on your POKéGEAR!\p"
+	.string "I wish you luck on your journey!$"
+#endif
 
 CherrygroveCity_Text_GuideGentDecline:
+#if GERMAN
 	.string "Oh… Dabei mache ich das so\n"
 	.string "gern…\p"
 	.string "Gut. Komm zu mir,\n"
 	.string "wann immer du willst.$"
+#else
+	.string "Oh… It's something I enjoy\n"
+	.string "doing…\p"
+	.string "Fine. Come see me whenever\n"
+	.string "you like.$"
+#endif
 
 CherrygroveCity_Text_RivalSeen:
+#if GERMAN
 	.string "… … …\n"
 	.string "Du hast ein Pokémon aus dem Labor.\p"
 	.string "Was für eine Verschwendung für einen\n"
@@ -338,67 +395,147 @@ CherrygroveCity_Text_RivalSeen:
 	.string "Mein Pokémon hier ist auch nicht übel!\l"
 	.string "Wenn es erst mal mit dir fertig ist,\l"
 	.string "bleiben keine Fragen mehr offen!$"
+#else
+	.string "… … … … … … … …\p"
+	.string "You got a POKéMON at the LAB.\p"
+	.string "What a waste.\n"
+	.string "A wimp like you.\p"
+	.string "… … … … … … … …\p"
+	.string "Don't you get what I'm saying?\n"
+	.string "Well, I too, have a good POKéMON.\p"
+	.string "I'll show you what I mean!$"
+#endif
 
 CherrygroveCity_Text_SilverWin:
+#if GERMAN
 	.string "Hmpf! Du hast gewonnen!\n"
 	.string "Bist du jetzt zufrieden?$"
+#else
+	.string "Humph. Are you happy you won?$"
+#endif
 
 CherrygroveCity_Text_RivalAfter:
+#if GERMAN
 	.string "… … …\p"
 	.string "Willst du wissen, wer ich bin?\n"
 	.string "Ich werde es dir sagen!\p"
 	.string "Ich bin derjenige, den die Leute schon\n"
 	.string "bald den größten Pokémon-Trainer\l"
 	.string "aller Zeiten nennen werden!$"
+#else
+	.string "… … … … … … … …\p"
+	.string "Do you want to know who I am?\p"
+	.string "I'm going to be the world's\n"
+	.string "greatest POKéMON trainer.$"
+#endif
 
 CherrygroveCity_Text_RivalID:
-	.string "Gib mir das! Das ist der Trainerpass,\n"
+#if GERMAN
+	.string "Gib mir das! Das ist der {COLOR RED}Trainerpass{COLOR DARK_GRAY},\n"
 	.string "den ich verloren habe! Er gehört mir!\p"
 	.string "Hmpf… jetzt hast du meinen Namen\n"
 	.string "gesehen, oder?$"
+#else
+	.string "Give it back!\n"
+	.string "That's my TRAINER CARD!\p"
+	.string "Oh no!\n"
+	.string "You saw my name...$"
+#endif
 
 CherrygroveCity_Text_TeacherHaveMapCard:
+#if GERMAN
 	.string "Egal, wohin die Reise auch geht, mit\n"
 	.string "Pokémon als Weggefährten wird es dir\l"
 	.string "ganz bestimmt nie langweilig!$"
+#else
+	.string "When you're with POKéMON,\n"
+	.string "going anywhere is fun.$"
+#endif
 
 CherrygroveCity_Text_YoungsterNoPokedex:
+#if GERMAN
 	.string "Mr. Pokémons Haus liegt noch\n"
 	.string "weiter vorne.$"
+#else
+	.string "MR. POKéMON's house is still\n"
+	.string "farther up ahead.$"
+#endif
 
 CherrygroveCity_Text_YoungsterHavePokedex:
+#if GERMAN
 	.string "Ich habe tapfer gegen die Trainer auf\n"
 	.string "der Straße gekämpft, aber mein Team\l"
 	.string "hat verloren und nun sind meine Pokémon\l"
 	.string "völlig außer Kraft.\p"
 	.string "Ich muss sie in ein Pokémon-Center\n"
 	.string "bringen, und zwar schnell…$"
+#else
+	.string "I battled the trainers on the\n"
+	.string "road.\p"
+	.string "My POKéMON lost. They're a\n"
+	.string "mess! I must take them to a\l"
+	.string "POKéMON CENTER.$"
+#endif
 
 CherrygroveCity_Text_MysticWaterGuyBefore:
+#if GERMAN
 	.string "Das Pokémon, das ich mir neulich\n"
 	.string "geangelt habe, hatte ein Item dabei!\p"
-	.string "Es hieß Zauberwasser oder so…\n"
+	.string "Es hieß {COLOR RED}Zauberwasser{COLOR DARK_GRAY} oder so…\n"
 	.string "Aber da ich nur am Angeln von Pokémon\l"
 	.string "interessiert bin, kannst du es haben.$"
+#else
+	.string "A POKéMON I caught had an\n"
+	.string "item.\p"
+	.string "I think it's MYSTIC WATER.\p"
+	.string "I don't need it, so do you\n"
+	.string "want it?$"
+#endif
 
 CherrygroveCity_Text_MysticWaterGuyAfter:
+#if GERMAN
 	.string "Ich gehe dann mal wieder ans Angeln.$"
+#else
+	.string "Back to fishing for me, then.$"
+#endif
 
 CherrygroveCity_Text_CitySign:
+#if GERMAN
 	.string "Rosalia City\n"
 	.string "Die Stadt des Blumendufts$"
+#else
+	.string "CHERRYGROVE CITY\p"
+	.string "The City of Cute, Fragrant\n"
+	.string "Flowers$"
+#endif
 
 CherrygroveCity_Text_GuideGentsHouseSign:
+#if GERMAN
 	.string "Haus des Reiseführers$"
+#else
+	.string "GUIDE GENT'S HOUSE$"
+#endif
 
 CherryGroveCity_Text_Staryu:
+#if GERMAN
 	.string "Sterndu: Duuuuuuuu.$"
+#else
+	.string "STARYU: Yuuuuuuuu.$"
+#endif
 
 CherryGroveCity_Text_Corsola:
+#if GERMAN
 	.string "Corasonn: Corasonn! La!$"
+#else
+	.string "CORSOLA: Corsola! La!$"
+#endif
 
 CherryGroveCity_Text_Krabby:
+#if GERMAN
 	.string "Krabby: Kraaaaah!$"
+#else
+	.string "KRABBY: KOOOOKEEE!$"
+#endif
 
 CherryGroveCity_Movement_Trigger_Gent:
 	walk_down

@@ -63,50 +63,98 @@ SafariZoneGate_EventScript_SlowpokeLady::
 
 
 SafariZone_Text_ForeignFeeling:
-	.string "Das ist also die Safari-Zone…\p"
+#if GERMAN
+	.string "Das ist also die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}…\p"
 	.string "Es ist echt seltsam… seit ich hier bin,\n"
 	.string "komme ich mir wie auf einem Jahrmarkt in\l"
 	.string "einem fremden Land vor - weit, weit weg…$"
+#else
+	.string "SAFARI ZONE...\n"
+	.string "It makes me feel like I am in a\l"
+	.string "foreign country.\p"
+	.string "It brings up a strange feeling.$"
+#endif
 
 SafariZone_Text_SilentNPC:
+#if GERMAN
 	.string "… … … (Ich bin nicht sehr gesprächig.)$"
+#else
+	.string "..................\p"
+	.string "(I am not a talker.)$"
+#endif
 
 SafariZone_Text_Kangaskhan:
+#if GERMAN
 	.string "Kangama: … … …$"
+#else
+	.string "KANGASKHAN: ..................$"
+#endif
 
 SafariZone_Text_JigglypuffTrainer:
-	.string "Junge, Junge, hier in der Safari-Zone\n"
+#if GERMAN
+	.string "Junge, Junge, hier in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\n"
 	.string "wird’s einem echt nicht langweilig!\p"
 	.string "Ich laufe hier wie besessen nur noch\n"
 	.string "irgendwelchen Pokémon hinterher!\p"
 	.string "Ich befürchte, dieses Pummeluff hier,\n"
 	.string "mein ständiger Begleiter, ist deswegen\l"
 	.string "etwas angefressen…$"
+#else
+	.string "This SAFARI ZONE is great!\n"
+	.string "I just kept going after POKéMON!\p"
+	.string "That made my JIGGLYPUFF upset though.$"
+#endif
 
 SafariZone_Text_FirstCatch:
+#if GERMAN
 	.string "Die Entscheidung ist gefallen! Mein\n"
 	.string "allererstes Pokémon fange ich mir in der\l"
-	.string "Safari-Zone!$"
+	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY}!$"
+#else
+	.string "I have always wanted to catch my first\n"
+	.string "POKéMON at the SAFARI ZONE.$"
+#endif
 
 SafariZone_Text_SlowpokeFan:
+#if GERMAN
 	.string "Unter all den vielen Pokémon sind mir\n"
 	.string "die Flegmon immer noch am liebsten!\l"
 	.string "Diese kleinen Dinger sind einfach zu\l"
 	.string "süß!\p"
 	.string "Ich höre auch oft von Leuten, dass ich\n"
 	.string "selbst wie ein Flegmon aussehe!$"
+#else
+	.string "There are many POKéMON to choose from,\n"
+	.string "but nothing beats the cuteness of\l"
+	.string "SLOWPOKE.\p"
+	.string "People often say that I look like one!$"
+#endif
 
 SafariZone_Text_CustomSystem:
+#if GERMAN
 	.string "Du hältst es bestimmt für extrem\n"
 	.string "futuristisch, deine Safari-Erfahrung\l"
 	.string "genau an deinen Geschmack anpassen zu\l"
 	.string "können, oder?\p"
 	.string "Tja, aber in Wahrheit…$"
+#else
+	.string "You may be under the impression there\n"
+	.string "is a sophisticated system to\l"
+	.string "customizing the SAFARI ZONE, right?\p"
+	.string "The real truth is that...$"
+#endif
 
 SafariZone_Text_Sign:
-	.string "Willkommen in der Safari-Zone!\p"
+#if GERMAN
+	.string "Willkommen in der {COLOR RED}Safari-Zone{COLOR DARK_GRAY}!\p"
 	.string "Folge dem ungebändigten Ruf der Wildnis\n"
 	.string "mit maximalem Komfort!$"
+#else
+	.string "SAFARI ZONE\n"
+	.string "This is where everything is thrilling.\p"
+	.string "Feel free to come by and experience\n"
+	.string "the wild!$"
+#endif
 
 
 SafariZoneGate_EventScript_IncenseClerk::
@@ -173,6 +221,11 @@ SafariZoneGate_Pokemart_VitaminGuru:
 
 
 SafariZoneGate_Text_VitaminGuruSellWhatYouNeed:
+#if GERMAN
 	.string "Ich bin der Vitamin-Guru\n"
 	.string "und verkaufe dir was du brauchst!$"
+#else
+	.string "I'm the ENERGY GURU! I'll go for it and\n"
+	.string "sell you what you need!$"
+#endif
 

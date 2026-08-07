@@ -390,107 +390,233 @@ VioletCity_EventScript_GymSign::
 	end
 
 VioletCity_Text_LiquidJustice:
+#if GERMAN
 	.string "Schau dich um!\p"
 	.string "Du siehst leicht, welche Pokémon\n"
 	.string "du in einer Gegend fangen kannst,\l"
 	.string "ohne den ganzen Tag im hohen\l"
 	.string "Gras herumzurennen!$"
+#else
+	.string "Look around!\p"
+	.string "It's easy to see what POKéMON\n"
+	.string "you can catch in an area without\l"
+	.string "having to run around in tall\l"
+	.string "grass all day!$"
+#endif
 
 VioletCity_Text_EarlAsksIfYouBeatFalkner:
+#if GERMAN
 	.string "Hallo! Bist du ein Trainer?\p"
 	.string "Hast du den Kampf gegen den\n"
 	.string "Arenaleiter gewonnen?$"
+#else
+	.string "Hello!\n"
+	.string "You are trainer?\p"
+	.string "Battle GYM LEADER,\n"
+	.string "win you did?$"
+#endif
 
 VioletCity_Text_VeryNiceIndeed:
+#if GERMAN
 	.string "Olala! Äußörst beeindrückönd!$"
+#else
+	.string "Ooh, la la!\n"
+	.string "Very indeed nice!$"
+#endif
 
 VioletCity_Text_FollowEarl:
+#if GERMAN
 	.string "Wirklisch? Da ilft nur die Training!\n"
 	.string "Folge mir, d'accord?$"
+#else
+	.string "Is that so? Then study shall\n"
+	.string "you! Follow me!$"
+#endif
 
 VioletCity_Text_HereTeacherIAm:
+#if GERMAN
 	.string "Isch bin ier die Lehrör!\p"
 	.string "Du solltöst machön die Training ier!$"
+#else
+	.string "Here, teacher I am.\n"
+	.string "Good it is you study here!$"
+#endif
 
 VioletCity_Text_Lass:
+#if GERMAN
 	.string "Man sagt, dass im\n"
-	.string "Knofensa-Turm Geister umgehen.\p"
+	.string "{COLOR RED}Knofensa-Turm{COLOR DARK_GRAY} Geister umgehen.\p"
 	.string "Pokémon-Attacken des Typs Normal\n"
 	.string "zeigen bei Geistern keine Wirkung.$"
+#else
+	.string "Ghosts are rumored to appear\n"
+	.string "in SPROUT TOWER.\p"
+	.string "They say that GHOST-type\n"
+	.string "moves can bypass the defenses\p"
+	.string "of tough POKéMON like ONIX\n"
+	.string "and GEODUDE.$"
+#endif
 
 VioletCity_Text_Boy:
+#if GERMAN
 	.string "Hey, du bist ein Pokémon-Trainer?\p"
 	.string "Wenn du zur Akademie gehst,\n"
 	.string "kannst du vielleicht etwas\l"
 	.string "Neues lernen!$"
+#else
+	.string "Hey, you're a POKéMON trainer?\p"
+	.string "If you head to the ACADEMY,\n"
+	.string "you might learn something new!$"
+#endif
 
 VioletCity_Text_Gramps:
+#if GERMAN
 	.string "Falk, der Leiter der Pokémon-Arena von\n"
 	.string "Viola City, ist ein großartiger Trainer!\p"
 	.string "Er ist in die Fußstapfen seines Vaters\n"
 	.string "getreten und leitet die Arena hier mit\l"
 	.string "sehr viel Können.$"
+#else
+	.string "FALKNER, from the VIOLET\n"
+	.string "POKéMON GYM, is a fine trainer!\p"
+	.string "He inherited his father's gym\n"
+	.string "and has done a great job with\l"
+	.string "it.$"
+#endif
 
 VioletCity_Text_Youngster:
+#if GERMAN
 	.string "Ich habe einen\n"
 	.string "wackeligen Baum gesehen!\p"
 	.string "Wenn du ihn berührst,\n"
 	.string "windet er sich und tanzt!\l"
 	.string "So Cool!$"
+#else
+	.string "I saw a wiggly tree up ahead!\p"
+	.string "If you touch it, it squirms\n"
+	.string "and dances! Cool!$"
+#endif
 
 VioletCity_Text_Sign:
+#if GERMAN
 	.string "Viola City\n"
 	.string "Die Stadt der Nostalgie$"
+#else
+	.string "VIOLET CITY\p"
+	.string "The City of Nostalgic Scents$"
+#endif
 
 VioletCity_Text_GymSign:
+#if GERMAN
 	.string "Pokémon-Arena von Viola City\n"
 	.string "Leiter: Falk\l"
 	.string "Der elegante Meister der\l"
 	.string "Flug-Pokémon$"
+#else
+	.string "VIOLET CITY POKéMON GYM\p"
+	.string "LEADER: FALKNER, The Elegant\n"
+	.string "Master of Flying POKéMON$"
+#endif
 
 VioletCity_Text_SproutTowerSign:
-	.string "Knofensa-Turm\p"
+#if GERMAN
+	.string "{COLOR RED}Knofensa-Turm{COLOR DARK_GRAY}\p"
 	.string "Erlebe den Weg der Pokémon$"
+#else
+	.string "SPROUT TOWER\p"
+	.string "Experience the Way of POKéMON$"
+#endif
 
 VioletCity_Text_EarlsAcademySign:
+#if GERMAN
 	.string "Die Pokémonschule$"
+#else
+	.string "EARL'S POKéMON ACADEMY$"
+#endif
 
 VioletCity_Text_Pichu:
+#if GERMAN
 	.string "Pichu: Chuuuu!$"
+#else
+	.string "PICHU: Chuuuu!$"
+#endif
 
 VioletCity_Text_Bellsprout:
+#if GERMAN
 	.string "Knofensa: Spuuuu.$"
+#else
+	.string "BELLSPROUT: Sprouuuut.$"
+#endif
 
 VioletCity_Text_Rattata:
+#if GERMAN
 	.string "Rattfratz: Rattataratta!$"
+#else
+	.string "RATTATA: RATTATARATTA!$"
+#endif
 
 VioletCity_Text_ElmName:
+#if GERMAN
 	.string "Lind$"
+#else
+	.string "PROF.ELM$"
+#endif
 
 VioletCity_Text_Elm_Call:
+#if GERMAN
 	.string "Lind: Hallo, {PLAYER}?\n"
 	.string "Ich habe Neuigkeiten über das Ei!\p"
 	.string "Im Pokémon-Center von Viola\n"
 	.string "City solltest du einen meiner\l"
 	.string "Assistenten antreffen.\l"
 	.string "Lass dir von ihm alles erklären!$"
+#else
+	.string "PROF.ELM: Hello, {PLAYER}? We\n"
+	.string "discovered something about the EGG!\p"
+	.string "My assistant is at the POKéMON\n"
+	.string "CENTER in VIOLET CITY.\p"
+	.string "Could you talk to him?$"
+#endif
 
 VioletCity_Text_Kimono_Girl1:
+#if GERMAN
 	.string "Nanu, dieses Ei…$"
+#else
+.string "Me oh my...\n"
+.string "That EGG must be...!$"
+#endif
 
 VioletCity_Text_Kimono_Girl2:
+#if GERMAN
 	.string "Ich verstehe…\p"
-	.string "Es ging von Mr. Pokémon\n"
-	.string "zu Prof. Lind, dann zu dir.\p"
+	.string "Es ging von {COLOR RED}Mr. Pokémon{COLOR DARK_GRAY}\n"
+	.string "zu {COLOR RED}Prof. Lind{COLOR DARK_GRAY}, dann zu dir.\p"
 	.string "Jetzt kapiere ich es…$"
+#else
+.string "I see...\p"
+.string "So it was handed from MR. POKéMON\n"
+.string "to PROF.ELM, then from \l"
+.string "PROF.ELM to you.\p"
+.string "Now I get it...$"
+#endif
 
 VioletCity_Text_Kimono_Girl3:
+#if GERMAN
 	.string "Das ist ein wirklich äußerst kostbares\n"
 	.string "Ei, vergesst das bitte nicht! Zieht es\l"
 	.string "bitte mit viel Hingabe auf!\p"
 	.string "Verstehen wir uns?$"
+#else
+.string "That EGG is truly an important EGG.\p"
+.string "Please do take good care of it\n"
+.string "for me. Is that understood?$"
+#endif
 
 VioletCity_Text_Kimono_Girl4:
+#if GERMAN
 	.string "Gut, dann gehabt Euch wohl!$"
+#else
+.string "I am counting on you.$"
+#endif
 
 

@@ -27,21 +27,42 @@ FuchsiaCity_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon::
+#if GERMAN
 	.string "Man kann nicht mit nur einem starken\n"
 	.string "Pokémon gewinnen!\p"
 	.string "Es ist mühsam, doch alle Pokémon\n"
 	.string "sollten ungefähr den gleichen Level\l"
 	.string "haben.$"
+#else
+	.string "You can't become a good TRAINER\n"
+	.string "with just one strong POKéMON.\p"
+	.string "But raising many POKéMON evenly\n"
+	.string "is no easy task, either.$"
+#endif
 
 FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
-	.string "Westlich von Vertania City liegt\n"
+#if GERMAN
+	.string "Westlich von {COLOR RED}Vertania City{COLOR DARK_GRAY} liegt\n"
 	.string "ein Pfad.\p"
 	.string "Er führt zum Hauptquartier der\n"
 	.string "Pokémon Liga, der höchsten Instanz\l"
 	.string "für Trainer.$"
+#else
+	.string "There's a narrow trail west of\n"
+	.string "VIRIDIAN CITY.\p"
+	.string "It goes to the POKéMON LEAGUE HQ.\n"
+	.string "The HQ governs all TRAINERS.$"
+#endif
 
 FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex::
+#if GERMAN
 	.string "Du studierst die Pokémon?\n"
-	.string "Dann gehe in die Safari-Zone.\p"
+	.string "Dann gehe in die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}.\p"
 	.string "Dort gibt es viele seltene Pokémon.$"
+#else
+	.string "If you're working on a POKéDEX,\n"
+	.string "visit the SAFARI ZONE.\p"
+	.string "All sorts of rare POKéMON breed\n"
+	.string "there.$"
+#endif
 

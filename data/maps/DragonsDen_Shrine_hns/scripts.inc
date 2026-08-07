@@ -176,6 +176,7 @@ DragonsDen_Shrine_EventScript_ElderQuizFinish::
 
 
 DragonsDen_Shrine_Text_ElderGreeting:
+#if GERMAN
 	.string "Oh! Willkommen!\p"
 	.string "Aber nicht doch! Du musst dich für\n"
 	.string "nichts rechtfertigen! Sandra hat dich\l"
@@ -186,36 +187,82 @@ DragonsDen_Shrine_Text_ElderGreeting:
 	.string "Oh nein! Keine Sorge, ich werde dir nur\l"
 	.string "ein paar Fragen stellen.\p"
 	.string "Gut, dann fangen wir mal an…$"
+#else
+    .string "Hm… Good to see you here.\p"
+    .string "No need to explain why you came.\n"
+    .string "CLAIR sent you here, didn't she?\p"
+    .string "That girl is a handful…\n"
+    .string "I am sorry, but I must test you.\p"
+    .string "Not to worry, you are to answer\n"
+    .string "only a few questions.\l"
+    .string "Ready?$"
+#endif
 
 DragonsDen_Shrine_Text_Question1:
+#if GERMAN
 	.string "Was bedeuten dir Pokémon?$"
+#else
+    .string "What are POKéMON to you?$"
+#endif
 
 DragonsDen_Shrine_Text_Question2:
+#if GERMAN
 	.string "Was hilft dir im Kampf zu gewinnen?$"
+#else
+    .string "What helps you to win battles?$"
+#endif
 
 DragonsDen_Shrine_Text_Question3:
+#if GERMAN
 	.string "Gegen welche Art\n"
 	.string "Trainer möchtest du kämpfen?$"
+#else
+    .string "What kind of trainer do you wish\n"
+    .string "to battle?$"
+#endif
 
 DragonsDen_Shrine_Text_Question4:
+#if GERMAN
 	.string "Was ist beim\n"
 	.string "Trainieren von Pokémon am wichtigsten?$"
+#else
+    .string "What is most important for\n"
+    .string "raising POKéMON?$"
+#endif
 
 DragonsDen_Shrine_Text_Question5:
+#if GERMAN
 	.string "Starke Pokémon. Schwache Pokémon.\p"
 	.string "Was ist wichtiger?$"
+#else
+    .string "Strong POKéMON. Weak POKéMON.\n"
+    .string "Which is more important?$"
+#endif
 
 DragonsDen_Shrine_Text_WrongAnswer1:
+#if GERMAN
 	.string "Was sagst du da? Ich habe dich nicht\n"
 	.string "richtig verstanden…$"
+#else
+    .string "Hah? I didn't quite catch that…$"
+#endif
 
 DragonsDen_Shrine_Text_WrongAnswer2:
+#if GERMAN
 	.string "Was hast du da gerade gesagt?$"
+#else
+    .string "What was it you said?$"
+#endif
 
 DragonsDen_Shrine_Text_RightAnswer:
+#if GERMAN
 	.string "Hm, ich verstehe…$"
+#else
+    .string "Oh, I understand…$"
+#endif
 
 DragonsDen_Shrine_Text_PassedTest:
+#if GERMAN
 	.string "Hm… Ich verstehe…\p"
 	.string "Du kümmerst dich\n"
 	.string "von Herzen um Pokémon.\p"
@@ -224,6 +271,16 @@ DragonsDen_Shrine_Text_PassedTest:
 	.string "{PLAYER}, mach weiter so.\p"
 	.string "Ich treffe dich\n"
 	.string "dann bei der Pokémon Liga.$"
+#else
+    .string "Hm… I see…\p"
+    .string "You care deeply for POKéMON.\p"
+    .string "Very commendable.\p"
+    .string "That conviction is what is\n"
+    .string "important!\p"
+    .string "{PLAYER}, don't lose that belief.\p"
+    .string "It will see you through at the\n"
+    .string "POKéMON LEAGUE.$"
+#endif
 
 DragonsDen_Shrine_EventScript_ClairEnter::
 	clearflag FLAG_HIDE_DRAGONS_DEN_SHRINE_CLAIR
@@ -337,20 +394,38 @@ DragonsDen_Shrine_Movement_ClairLeave:
 	step_end
 
 DragonsDen_Shrine_Text_ClairYouPassed:
+#if GERMAN
 	.string "Na, wie hast du abgeschnitten?\p"
 	.string "Warte, lass mich raten… Bei dir ist\n"
 	.string "Hopfen und Malz verloren! … … … …Was! Du\l"
 	.string "hast bestanden?!?$"
+#else
+    .string "So how did it go?\p"
+    .string "I guess there's no point\n"
+	.string "in asking. You did fail?\p"
+    .string "..................................\p"
+    .string "…What? You passed?$"
+#endif
 
 DragonsDen_Shrine_Text_ClairThatCantBe:
+#if GERMAN
 	.string "Das kann nicht sein!$"
+#else
+    .string "That can't be!$"
+#endif
 
 DragonsDen_Shrine_Text_ClairYoureLying:
+#if GERMAN
 	.string "Das darf doch nicht wahr sein! N-nicht\n"
 	.string "einmal ich wurde von ihm als würdig\l"
 	.string "anerkannt!$"
+#else
+    .string "You're lying!\p"
+    .string "Even I haven't been approved!$"
+#endif
 
 DragonsDen_Shrine_Text_MustIInformLance:
+#if GERMAN
 	.string "Sandra!\p"
 	.string "Dieses Kind ist eine wahre Offenbarung,\n"
 	.string "was Technik und Einstellung angeht!\l"
@@ -358,45 +433,96 @@ DragonsDen_Shrine_Text_MustIInformLance:
 	.string "Schatten und rücke mit dem\l"
 	.string "Drachenorden heraus!\p"
 	.string "Wenn du dich weigerst… sehe ich mich\n"
-	.string "gezwungen, Siegfried davon zu\l"
+	.string "gezwungen, {COLOR RED}Siegfried{COLOR DARK_GRAY} davon zu\l"
 	.string "erzählen!$"
+#else
+    .string "CLAIR!\p"
+    .string "This child is impeccable,\n"
+    .string "in skill and spirit!\p"
+    .string "Admit defeat and confer the\n"
+    .string "RISINGBADGE!\p"
+    .string "…Or must I inform LANCE of this?$"
+#endif
 
 DragonsDen_Shrine_Text_IUnderstand:
+#if GERMAN
 	.string "I-in Ordnung…$"
+#else
+    .string "I-I understand…$"
+#endif
 
 DragonsDen_Shrine_Text_HereRisingBadge:
+#if GERMAN
 	.string "Hier, das ist der Drachenorden… Los,\n"
 	.string "jetzt nimm ihn schon!$"
+#else
+    .string "Here, this is the RISINGBADGE…\p"
+    .string "Hurry up! Take it!$"
+#endif
 
 DragonsDen_Shrine_Text_PlayerReceivedRisingBadge:
+#if GERMAN
 	.string "{PLAYER} erhält den Drachenorden!$"
+#else
+    .string "{PLAYER} received RISINGBADGE.$"
+#endif
 
 DragonsDen_Shrine_Text_RisingBadgeExplanation:
+#if GERMAN
 	.string "Mit dem Drachenorden in deinem Besitz\n"
 	.string "können deine Pokémon mit der Attacke\p"
 	.string "Kaskade jeden Wasserfall erklimmen…\p"
 	.string "Ferner werden dich alle Pokémon\n"
 	.string "als Trainer anerkennen und dir\l"
 	.string "bedingungslos gehorchen.$"
+#else
+    .string "RISINGBADGE will enable your\n"
+    .string "POKéMON to use the move for\l"
+    .string "climbing waterfalls.\p"
+    .string "Also, all POKéMON will recognize\n"
+    .string "you as a trainer and obey your\l"
+    .string "every command without question.$"
+#endif
 
 DragonsDen_Shrine_Text_ElderScoldsClair:
+#if GERMAN
 	.string "Sandra…\p"
 	.string "Dieses Kind besitzt etwas, das dir\n"
 	.string "fehlt… Denke mal in Ruhe darüber nach,\l"
 	.string "was ich damit meinen könnte.$"
+#else
+    .string "CLAIR…\p"
+    .string "Reflect upon what it is that you\n"
+    .string "lack and this child has.$"
+#endif
 
 DragonsDen_Shrine_Text_Speechless:
+#if GERMAN
 	.string "..................................$"
+#else
+    .string "..................................$"
+#endif
 
 DragonsDen_Shrine_Text_ComeAgain:
+#if GERMAN
 	.string "Komm wieder, wenn du es dir anders\n"
 	.string "überlegen solltest!$"
+#else
+    .string "Come again, if you so desire.$"
+#endif
 
 DragonsDen_Shrine_Text_SilverIsInTraining:
+#if GERMAN
 	.string "Ein Junge deines Alters ist gerade hier,\n"
 	.string "um unterwiesen zu werden.\p"
 	.string "Er ist ein bisschen so, wie Sandra\n"
 	.string "früher war. Das besorgt mich etwas…$"
+#else
+    .string "A boy close to your age is in\n"
+    .string "training here.\p"
+    .string "He is much like CLAIR when she was\n"
+    .string "younger. It is a little worrisome…$"
+#endif
 
 DragonsDen_Shrine_EventScript_Elder2::
 	msgbox DragonsDen_Shrine_Text_Elder2, MSGBOX_NPC
@@ -407,15 +533,29 @@ DragonsDen_Shrine_EventScript_Elder3::
 	end
 
 DragonsDen_Shrine_Text_Elder2:
+#if GERMAN
 	.string "Es ist schon lange her, seit jemand die\n"
 	.string "Anerkennung unseres Meisters erhielt.\l"
-	.string "Der letzte vor dir war Siegfried!$"
+	.string "Der letzte vor dir war {COLOR RED}Siegfried{COLOR DARK_GRAY}!$"
+#else
+    .string "It's been quite some time since a\n"
+    .string "trainer has gained our MASTER's\l"
+    .string "rare approval.\p"
+    .string "In fact, not since Master LANCE.$"
+#endif
 
 DragonsDen_Shrine_Text_Elder3:
-	.string "Kennst du Siegfried?\p"
+#if GERMAN
+	.string "Kennst du {COLOR RED}Siegfried{COLOR DARK_GRAY}?\p"
 	.string "Er ist das genaue Ebenbild unseres\n"
 	.string "Meisters in seinen jungen Jahren. Sie\l"
 	.string "sind aus demselben Holz geschnitzt.$"
+#else
+    .string "You know young Master LANCE?\p"
+    .string "He looks so much like our MASTER\n"
+    .string "did in his youth.\p"
+    .string "It's in their blood.$"
+#endif
 
 DragonsDen_Shrine_EventScript_ElderChooseDratini::
 	goto_if_eq VAR_DRAGONS_DEN_QUIZ, 0, DragonsDen_Shrine_EventScript_ElderGiveSpecialDratini
@@ -455,18 +595,39 @@ DragonsDen_Shrine_EventScript_ElderAlreadyGotDratini::
 	end
 
 DragonsDen_Shrine_Text_TakeThisDratini:
+#if GERMAN
 	.string "Hm… Schön, dass du hier bist.\p"
 	.string "Du kommst zur richtigen Zeit.\p"
 	.string "Ich habe etwas für dich.\p"
-	.string "Nimm dieses Dratini als\n"
+	.string "Nimm dieses {COLOR RED}Dratini{COLOR DARK_GRAY} als\n"
 	.string "Zeichen meiner Wertschätzung.$"
+#else
+    .string "Hm… Good to see you here.\p"
+    .string "Your arrival is most fortunate.\p"
+    .string "I have something for you.\p"
+    .string "Take this DRATINI as proof that I\n"
+    .string "have recognized your worth.$"
+#endif
 
 DragonsDen_Shrine_Text_SymbolicDragon:
+#if GERMAN
 	.string "Drachen-Pokémon sind das\n"
 	.string "Markenzeichen unseres Klans!\p"
 	.string "Dir kann ich eins von ihnen anvertrauen.$"
+#else
+    .string "Dragon POKéMON are symbolic of our\n"
+    .string "clan.\p"
+    .string "You have shown that you can be\n"
+    .string "entrusted with one.$"
+#endif
 
 DragonsDen_Shrine_Text_ClairsGrandfather:
+#if GERMAN
 	.string "Sandra scheint aus ihrer Begegnung mit\n"
 	.string "dir etwas mitgenommen zu haben…\p"
 	.string "Ich, ihr Großvater, danke dir dafür.$"
+#else
+    .string "CLAIR appears to have learned an\n"
+    .string "invaluable lesson from you.\p"
+    .string "I thank you as her grandfather.$"
+#endif

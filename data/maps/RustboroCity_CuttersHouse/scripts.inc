@@ -22,6 +22,7 @@ RustboroCity_CuttersHouse_EventScript_Lass::
 	end
 
 RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
+#if GERMAN
 	.string "Diese Entschlossenheit…\n"
 	.string "Deine Beweglichkeit…\l"
 	.string "Deine Hingabe für Pokémon…\p"
@@ -33,8 +34,21 @@ RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
 	.string "VM sehr gut umgehen wirst.\p"
 	.string "Kein Grund, so schüchtern zu sein.\n"
 	.string "Hier, nimm sie!$"
+#else
+	.string "That determined expression…\n"
+	.string "That limber way you move…\l"
+	.string "And your well-trained POKéMON…\p"
+	.string "You're obviously a skilled TRAINER!\p"
+	.string "No, wait, don't say a word.\n"
+	.string "I can tell just by looking at you.\p"
+	.string "I'm sure that you can put this\n"
+	.string "HIDDEN MACHINE to good use.\p"
+	.string "No need to be modest or shy.\n"
+	.string "Go on, take it!$"
+#endif
 
 RustboroCity_CuttersHouse_Text_ExplainCut:
+#if GERMAN
 	.string "Diese VM, sie enthält Zerschneider.\p"
 	.string "Eine VM ist eine Attacke, die auch\n"
 	.string "außerhalb des Kampfes von einem\l"
@@ -45,11 +59,29 @@ RustboroCity_CuttersHouse_Text_ExplainCut:
 	.string "Steinorden besitzt.\p"
 	.string "Und, im Gegensatz zur TM, kann eine VM\n"
 	.string "mehrfach gelehrt werden.$"
+#else
+	.string "That HIDDEN MACHINE, or HM for\n"
+	.string "short, is CUT.\p"
+	.string "An HM move is one that can be used\n"
+	.string "by POKéMON outside of battle.\p"
+	.string "Any POKéMON that's learned CUT can\n"
+	.string "chop down thin trees if the TRAINER\l"
+	.string "has earned the STONE BADGE.\p"
+	.string "And, unlike a TM, an HM can be used\n"
+	.string "more than once.$"
+#endif
 
 RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees:
+#if GERMAN
 	.string "Als sie die Stadt Metarost City\n"
 	.string "vergrößert haben, hat mein Vater ihnen\l"
 	.string "geholfen.\p"
 	.string "Seine Pokémon fällten die Bäume mit\n"
 	.string "Zerschneider.$"
+#else
+	.string "When they were expanding the city of\n"
+	.string "RUSTBORO, my dad helped out.\p"
+	.string "He made his POKéMON use CUT to clear\n"
+	.string "the land of trees.$"
+#endif
 

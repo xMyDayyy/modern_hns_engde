@@ -194,8 +194,12 @@ AzaleaTown_KurtsHouse_EventScript_KurtGsBall3::
 	release
 	end
 KurtsHouse_Text_BallAnyway:
+#if GERMAN
 	.string "Wie auch immer, soll ich dir ein\n"
 	.string "paar Bälle machen?$"
+#else
+	.string "Anyway, can I make you some BALLS?$"
+#endif
 
 AzaleaTown_KurtsHouse_EventScript_OakPhoto::
 	msgbox KurtsHouse_Text_OakPhoto, MSGBOX_SIGN
@@ -245,9 +249,14 @@ AzaleaTown_KurtsHouse_Movement_KurtWalkDown:
 	step_end
 
 KurtsHouse_Text_KurtGetStarted:
+#if GERMAN
 	.string "Kurt: Ich fange jetzt an!$"
+#else
+	.string "KURT: I'll get started right now!$"
+#endif
 
 KurtsHouse_Text_KurtMakingBallsMustWait:
+#if GERMAN
 	.string "Hm? Wer bist du denn?\p"
 	.string "Oh, {PLAYER} heißt du also!\n"
 	.string "Bist du hier, weil du willst, dass ich\l"
@@ -268,9 +277,29 @@ KurtsHouse_Text_KurtMakingBallsMustWait:
 	.string "Aber ich gehe jetzt zu ihnen und\n"
 	.string "erteile ihnen eine Lektion!\p"
 	.string "Haltet durch, Flegmon!\n"
-	.string "Der alte Kurt eilt euch zur Rettung!$"
+	.string "Der alte {COLOR RED}Kurt{COLOR DARK_GRAY} eilt euch zur Rettung!$"
+#else
+	.string "Hm? Who are you?\p"
+	.string "{PLAYER}, eh? You want me to make\n"
+	.string "some BALLS?\p"
+	.string "Sorry, but that'll have to wait.\p"
+	.string "Do you know TEAM ROCKET?\n"
+	.string "Ah, don't worry.\p"
+	.string "I'll tell you anyhow.\p"
+	.string "TEAM ROCKET's an evil gang that\n"
+	.string "uses POKéMON for their dirty work.\p"
+	.string "They're supposed to have disbanded\n"
+	.string "three years ago.\p"
+	.string "Anyway, they're at the WELL,\n"
+	.string "cutting off SLOWPOKETAILS to sell!\p"
+	.string "So I'm going to go give them a\n"
+	.string "lesson in pain!\p"
+	.string "Hang on, SLOWPOKE! Old KURT\n"
+	.string "is on his way!$"
+#endif
 
 KurtsHouse_Text_KurtHonoredToMakeBalls:
+#if GERMAN
 	.string "Kurt: Hi, {PLAYER}!\p"
 	.string "Die Situation am Brunnen hast du\n"
 	.string "wie ein echter Held gemeistert.\p"
@@ -280,106 +309,233 @@ KurtsHouse_Text_KurtHonoredToMakeBalls:
 	.string "zu dürfen.\p"
 	.string "Im Moment habe ich nur das hier,\n"
 	.string "aber nimm es.$"
+#else
+	.string "KURT: Hi, {PLAYER}!\p"
+	.string "You handled yourself like a\n"
+	.string "real hero at the WELL.\p"
+	.string "I like your style!\p"
+	.string "I would be honored to make\n"
+	.string "BALLS for a trainer like you.\p"
+	.string "This is all I have now, \n"
+	.string "but take it.$"
+#endif
 
 KurtsHouse_Text_KurtBallsFromApricorns:
+#if GERMAN
 	.string "Kurt: Ich kann aus Beeren\n"
 	.string "Spezialbälle anfertigen!\p"
 	.string "Pflücke überall fleißig Beeren von\n"
 	.string "den Bäumen und bringe sie zu mir.\l"
 	.string "Ich verarbeite sie dann zu Bällen.$"
+#else
+	.string "KURT: I make BALLS from BERRIES.\p"
+	.string "Collect them from trees and bring\n"
+	.string "'em to me.\p"
+	.string "I'll make POKé BALLS out of them.$"
+#endif
 
 KurtsHouse_Text_KurtAskYouHaveAnApricorn:
+#if GERMAN
 	.string "Kurt: Oh, wie ich sehe, hast du ein\n"
 	.string "paar Beeren mitgebracht!\p"
 	.string "Na schön! Dann mache ich mich\n"
 	.string "mal ans Verarbeiten!$"
+#else
+	.string "KURT: You have BERRIES for me?\p"
+	.string "Fine! I'll turn them into POKé BALLS.$"
+#endif
 
 KurtsHouse_Text_KurtThatsALetdown:
+#if GERMAN
 	.string "Kurt: Ich sehe keine 5 {STR_VAR_1}!$"
+#else
+	.string "KURT: I don't see any {STR_VAR_1}s!$"
+#endif
 
 KurtsHouse_Text_KurtFinishedPlural:
+#if GERMAN
 	.string "Kurt: {PLAYER}!\n"
 	.string "Deine {STR_VAR_1}e sind fertig. Hier!\p"
 	.string "{PLAYER} erhält\n"
 	.string "{STR_VAR_2} {STR_VAR_1}e!$"
+#else
+	.string "KURT: {PLAYER}!\n"
+	.string "Your {STR_VAR_1}s are done. Here!\p"
+	.string "{PLAYER} obtained\n"
+	.string "{STR_VAR_2} {STR_VAR_1}s!$"
+#endif
 
 KurtsHouse_Text_KurtFinishedSingular:
+#if GERMAN
 	.string "Kurt: {PLAYER}!\n"
 	.string "Dein {STR_VAR_1} ist fertig. Hier!\p"
 	.string "{PLAYER} erhält\n"
 	.string "den {STR_VAR_1}!$"
+#else
+	.string "KURT: {PLAYER}!\n"
+	.string "Your {STR_VAR_1} is done. Here!\p"
+	.string "{PLAYER} obtained\n"
+	.string "the {STR_VAR_1}!$"
+#endif
 
 KurtsHouse_Text_KurtTurnedOutGreat:
+#if GERMAN
 	.string "Kurt: Dieses Mal habe ich mich\n"
 	.string "wirklich selbst übertroffen!\p"
 	.string "Versuche doch mal, ein Pokémon\n"
 	.string "damit zu fangen!$"
+#else
+	.string "KURT: That turned out great.\p"
+	.string "Try catching POKéMON with it.$"
+#endif
 
 KurtsHouse_Text_KurtWhatIsThat:
+#if GERMAN
 	.string "W-was ist das?\p"
 	.string "Ich habe sowas noch nie gesehen.\p"
 	.string "Es sieht aus wie ein Pokéball,\n"
 	.string "aber es scheint etwas anderes zu sein.\p"
 	.string "Lass es mich prüfen.$"
+#else
+	.string "Wh-what is that?\p"
+	.string "I've never seen one before.\p"
+	.string "It looks a like a POKé BALL, but\n"
+	.string "it appears to be something else.\p"
+	.string "Let me check it for you.$"
+#endif
 
 KurtsHouse_Text_KurtImCheckingItNow:
+#if GERMAN
 	.string "Ich prüfe es gerade.$"
+#else
+	.string "I'm checking it now.$"
+#endif
 
 KurtsHouse_Text_KurtAhHaISee:
+#if GERMAN
 	.string "Ah-ha! Verstehe! So ist das…$"
+#else
+	.string "Ah-ha! I see! So…$"
+#endif
 
 KurtsHouse_Text_KurtThisBallStartedToShake:
+#if GERMAN
 	.string "{PLAYER}!\p"
 	.string "Dieser Ball hat sich bewegt,\n"
 	.string "als ich ihn überprüfen wollte.\p"
 	.string "Da geht etwas vor sich!$"
+#else
+	.string "{PLAYER}!\p"
+	.string "This BALL started to shake\n"
+	.string "while I was checking it.\p"
+	.string "There must be something to this!$"
+#endif
 
 KurtsHouse_Text_Kurt_Whatwasthat:
+#if GERMAN
 	.string "Was ist das für ein Geräusch?!\p"
 	.string "Lass uns draußen nachsehen!$"
+#else
+	.string "What was that sound?!\p"
+	.string "Let's go outside to investigate!$"
+#endif
 
 KurtsHouse_Text_GranddaughterSlowpokeGone:
+#if GERMAN
 	.string "Die Flegmon sind verschwunden…\n"
 	.string "Ob sie wohl von irgendwelchen bösen\l"
 	.string "Leuten entführt wurden?$"
+#else
+	.string "The SLOWPOKE are gone… \n"
+	.string "Were they taken away by bad people?$"
+#endif
 
 KurtsHouse_Text_GranddaughterLonely:
+#if GERMAN
 	.string "Wo steckt bloß mein Großvater?\n"
 	.string "Ich fühle mich so alleine…$"
+#else
+	.string "Grandpa's gone… I'm so lonely…$"
+#endif
 
 KurtsHouse_Text_GranddaughterSlowpokeBack:
+#if GERMAN
 	.string "Das Flegmon, das ich von meinem Vater\n"
 	.string "bekommen habe, ist wieder da!\l"
 	.string "Seine Rute wächst schon wieder nach.$"
+#else
+	.string "The SLOWPOKE my dad gave me came back!\p"
+	.string "Its TAIL is growing back too!$"
+#endif
 
 KurtsHouse_Text_GranddaughterDad:
+#if GERMAN
 	.string "Mein Vater arbeitet bei der Silph Co.\n"
 	.string "Er ist dort an der Entwicklung neuer\l"
 	.string "Pokébälle beteiligt!\p"
 	.string "Ich hüte hier mit meinem Großvater\n"
 	.string "und Flegmon das Haus.$"
+#else
+	.string "Dad works at SILPH where\n"
+	.string "he studies POKé BALLS.\p"
+	.string "I have to stay home\n"
+	.string "with Grandpa and SLOWPOKE.$"
+#endif
 
 KurtsHouse_Text_GranddaughterHelp:
+#if GERMAN
 	.string "Ich muss jetzt Opa helfen!\p"
 	.string "Wir machen dir einen hervorragenden\n"
 	.string "Ball! Warte mal!$"
+#else
+	.string "I get to help Grandpa now!\p"
+	.string "We'll make good BALLS\n"
+	.string "for you, so please wait!$"
+#endif
 
 KurtsHouse_Text_GranddaughterFun:
+#if GERMAN
 	.string "Bälle anfertigen macht Spaß!$"
+#else
+	.string "It's fun to make BALLS!$"
+#endif
 
 KurtsHouse_Text_GranddaughterSound:
+#if GERMAN
 	.string "Kam dieses Geräusch aus dem\n"
-	.string "Steineichenwald????$"
+	.string "{COLOR RED}Steineichenwald{COLOR DARK_GRAY}????$"
+#else
+	.string "Did that sound come from\n"
+	.string "ILEX FOREST????$"
+#endif
 
 KurtsHouse_Text_Forest:
-	.string "Warst du schon im Steineichenwald?\n"
+#if GERMAN
+	.string "Warst du schon im {COLOR RED}Steineichenwald{COLOR DARK_GRAY}?\n"
 	.string "Es hört sich gruselig an.$"
+#else
+	.string "Did you check ILEX FOREST yet?\n"
+	.string "It sounds very restless.$"
+#endif
 
 KurtsHouse_Text_Slowpoke:
+#if GERMAN
 	.string "Flegmon: …Flegmon?$"
+#else
+	.string "SLOWPOKE: … Yawn?$"
+#endif
 
 KurtsHouse_Text_OakPhoto:
+#if GERMAN
 	.string "…Ein junger Prof. Eich?$"
+#else
+	.string "…A young PROF. OAK?$"
+#endif
 
 KurtsHouse_Text_CelebiStatue:
+#if GERMAN
 	.string "Eine Statue des Waldpatrons.$"
+#else
+	.string "It's a statue of the forest's\n"
+	.string "protector.$"
+#endif

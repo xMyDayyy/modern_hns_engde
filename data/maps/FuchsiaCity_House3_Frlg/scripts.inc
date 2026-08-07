@@ -54,40 +54,83 @@ FuchsiaCity_House3_EventScript_CancelForgetMove::
 	end
 
 FuchsiaCity_House3_Text_WouldYouLikeToForgetMove::
+#if GERMAN
 	.string "Äh…\n"
 	.string "Oh, ja. Ich bin der Attacken-Verlerner.\p"
 	.string "Ich sorge dafür, dass die Pokémon ihre\n"
 	.string "Attacken vergessen.\p"
 	.string "Möchtest du, dass ich dir helfe?$"
+#else
+	.string "Uh…\n"
+	.string "Oh, yes, I'm the MOVE DELETER.\p"
+	.string "I can make POKéMON forget their\n"
+	.string "moves.\p"
+	.string "Would you like me to do that?$"
+#endif
 
 FuchsiaCity_House3_Text_WhichMonShouldForgetMove::
+#if GERMAN
 	.string "Welches Pokémon soll eine Attacke\n"
 	.string "vergessen?$"
+#else
+	.string "Which POKéMON should forget a\n"
+	.string "move?$"
+#endif
 
 FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten::
+#if GERMAN
 	.string "Welche Attacke soll vergessen\n"
 	.string "werden?$"
+#else
+	.string "Which move should be forgotten?$"
+#endif
 
 FuchsiaCity_House3_Text_MonOnlyKnowsOneMove::
+#if GERMAN
 	.string "{STR_VAR_1} kennt scheinbar nur eine\n"
 	.string "einzige Attacke...$"
+#else
+	.string "{STR_VAR_1} seems to know only one\n"
+	.string "move…$"
+#endif
 
 FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten::
+#if GERMAN
 	.string "Hm! {STR_VAR_1} von {STR_VAR_2}?\n"
 	.string "Diese Attacke soll vergessen\l"
 	.string "werden?$"
+#else
+	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
+	.string "That move should be forgotten?$"
+#endif
 
 FuchsiaCity_House3_Text_MonHasForgottenMoveCompletely::
+#if GERMAN
 	.string "Das klappte doch perfekt!\p"
 	.string "{STR_VAR_1} hat {STR_VAR_2}\n"
 	.string "komplett vergessen.$"
+#else
+	.string "It worked to perfection!\p"
+	.string "{STR_VAR_1} has forgotten\n"
+	.string "{STR_VAR_2} completely.$"
+#endif
 
 FuchsiaCity_House3_Text_ComeAgainToForgetOtherMoves::
+#if GERMAN
 	.string "Komm wieder, wenn es andere\n"
 	.string "Attacken gibt, die vergessen werden\l"
 	.string "sollen.$"
+#else
+	.string "Come again if there are other\n"
+	.string "moves to be forgotten.$"
+#endif
 
 FuchsiaCity_House3_Text_NoEggShouldKnowMoves::
+#if GERMAN
 	.string "Was?\n"
 	.string "Ein Ei kennt doch keine Attacken!$"
+#else
+	.string "What?\n"
+	.string "No EGG should know any moves.$"
+#endif
 

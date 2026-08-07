@@ -843,6 +843,7 @@ PewterCity_Movement_WalkInPlaceLeft::
 	step_end
 
 Text_DreamEaterTeach::
+#if GERMAN
 	.string "Gäääähn!\n"
 	.string "Ich bin wohl eingenickt!\p"
 	.string "Ich habe geträumt, dass Traumato\n"
@@ -854,123 +855,268 @@ Text_DreamEaterTeach::
 	.string "Lass mich einem deiner Pokémon\n"
 	.string "Traumfresser beibringen,\l"
 	.string "damit ich es vergessen kann.$"
+#else
+	.string "Yawn!\n"
+	.string "I must have dozed off in the sun.\p"
+	.string "I had this weird dream about\n"
+	.string "a DROWZEE eating my dream.\p"
+	.string "And…\n"
+	.string "I learned how to eat dreams…\p"
+	.string "Oogh, this is too spooky!\p"
+	.string "Let me teach it to a POKéMON so\n"
+	.string "I can forget about it!$"
+#endif
 
 Text_DreamEaterDeclined::
+#if GERMAN
 	.string "… schnarch…$"
+#else
+	.string "…Snore…$"
+#endif
 
 Text_DreamEaterWhichMon::
+#if GERMAN
 	.string "Welches Pokémon soll\n"
 	.string "Traumfresser erlernen?$"
+#else
+	.string "Which POKéMON wants to learn\n"
+	.string "DREAM EATER?$"
+#endif
 
 Text_DreamEaterTaught::
+#if GERMAN
 	.string "… Zzz…\n"
 	.string "Ich… kann nicht mehr… essen$"
+#else
+	.string "…ZZZ…\n"
+	.string "I…can't eat…anymore…$"
+#endif
 
 PewterCity_Text_ClefairyCameFromMoon::
+#if GERMAN
 	.string "Gerüchten zufolge sollen die\n"
 	.string "Piepi vom Mond stammen!\p"
 	.string "Nachdem der Mondstein auf den\n"
-	.string "Mondberg fiel, sind sie erstmals\l"
+	.string "{COLOR RED}Mondberg{COLOR DARK_GRAY} fiel, sind sie erstmals\l"
 	.string "aufgetaucht!$"
+#else
+	.string "CLEFAIRY came from the moon.\n"
+	.string "That's what the rumor is.\p"
+	.string "They appeared after MOON STONES\n"
+	.string "fell on MT. MOON.$"
+#endif
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
+#if GERMAN
 	.string "Hier gibt es nur wenige ernsthafte\n"
 	.string "Pokémon Trainer!\p"
 	.string "Aber Rocko, der Arenaleiter von\n"
 	.string "Marmoria City, versteht sein\l"
 	.string "Geschäft!$"
+#else
+	.string "There aren't many serious POKéMON\n"
+	.string "TRAINERS here.\p"
+	.string "They're all like BUG CATCHERS,\n"
+	.string "you know, just hobbyists.\p"
+	.string "But PEWTER GYM's BROCK isn't like\n"
+	.string "that, not one bit.$"
+#endif
 
 PewterCity_Text_DidYouCheckOutMuseum::
+#if GERMAN
 	.string "Warst du schon im Museum?$"
+#else
+	.string "Did you check out the MUSEUM?$"
+#endif
 
 PewterCity_Text_WerentThoseFossilsAmazing::
-	.string "Waren die Fossilien vom Mondberg\n"
+#if GERMAN
+	.string "Waren die Fossilien vom {COLOR RED}Mondberg{COLOR DARK_GRAY}\n"
 	.string "nicht einmalig?$"
+#else
+	.string "Weren't those fossils from MT. MOON\n"
+	.string "amazing?$"
+#endif
 
 PewterCity_Text_ReallyYouHaveToGo::
+#if GERMAN
 	.string "Wirklich nicht?\n"
 	.string "Es ist aber einen Besuch wert!$"
+#else
+	.string "Really?\n"
+	.string "You absolutely have to go!$"
+#endif
 
 PewterCity_Text_ThisIsTheMuseum::
+#if GERMAN
 	.string "Es ist gleich da drüben!\p"
 	.string "Man muss zwar Eintritt bezahlen,\n"
 	.string "aber das ist es wert!$"
+#else
+	.string "This is it, the MUSEUM.\p"
+	.string "You have to pay to get in, but it's\n"
+	.string "worth it. See you around!$"
+#endif
 
 PewterCity_Text_DoYouKnowWhatImDoing::
+#if GERMAN
 	.string "Pst!\n"
 	.string "Weißt du, was ich hier mache?$"
+#else
+	.string "Psssst!\n"
+	.string "Do you know what I'm doing?$"
+#endif
 
 PewterCity_Text_ThatsRightItsHardWork::
+#if GERMAN
 	.string "Stimmt!\n"
 	.string "Es ist harte Arbeit!$"
+#else
+	.string "That's right!\n"
+	.string "It's hard work!$"
+#endif
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
+#if GERMAN
 	.string "Ich versprühe Schutz, um Pokémon\n"
 	.string "von meinem Garten fernzuhalten!$"
+#else
+	.string "I'm spraying REPEL to keep wild\n"
+	.string "POKéMON out of my garden!$"
+#endif
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
+#if GERMAN
 	.string "Du bist Trainer?\p"
 	.string "Rocko ist ständig auf der Suche\n"
 	.string "nach neuen Herausforderern!\l"
 	.string "Folge mir!$"
+#else
+	.string "You're a TRAINER, right?\p"
+	.string "BROCK's looking for new\n"
+	.string "challengers. Follow me!$"
+#endif
 
 PewterCity_Text_GoTakeOnBrock::
+#if GERMAN
 	.string "Wenn du genug Mumm hast, dann\n"
 	.string "versuche dich an Rocko!$"
+#else
+	.string "If you have the right stuff,\n"
+	.string "go take on BROCK!$"
+#endif
 
 PewterCity_Text_TrainerTipsEarningEXP::
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Unabhängig von der Dauer seines\n"
 	.string "Einsatzes erhält jedes Pokémon für\l"
 	.string "die Teilnahme an einem Kampf\l"
 	.string "Erfahrungspunkte, E.-Punkte! $"
+#else
+	.string "TRAINER TIPS\p"
+	.string "All POKéMON that appear in battle,\n"
+	.string "however briefly, earn EXP Points.$"
+#endif
 
 PewterCity_Text_CallPoliceIfInfoOnThieves::
+#if GERMAN
 	.string "Achtung!\p"
 	.string "Diebe haben Pokémon-Fossilien vom\n"
 	.string "Mondberg gestohlen!\p"
 	.string "Wenn Sie sachdienliche Hinweise\n"
 	.string "haben, wenden Sie sich bitte an die\l"
 	.string "Polizei in Marmoria City!$"
+#else
+	.string "NOTICE!\p"
+	.string "Thieves have been stealing POKéMON\n"
+	.string "fossils from MT. MOON.\p"
+	.string "Please call the PEWTER POLICE if\n"
+	.string "you have any information.$"
+#endif
 
 PewterCity_Text_MuseumOfScience::
+#if GERMAN
 	.string "Marmorias Museum der Wissenschaft$"
+#else
+	.string "PEWTER MUSEUM OF SCIENCE$"
+#endif
 
 PewterCity_Text_GymSign::
+#if GERMAN
 	.string "Marmoria City Pokémon-Arena\n"
 	.string "Arenaleiter: Rocko\l"
 	.string "Der Steinharte Pokémon Trainer!$"
+#else
+	.string "PEWTER CITY POKéMON GYM\n"
+	.string "LEADER: BROCK\l"
+	.string "The Rock-Solid POKéMON TRAINER!$"
+#endif
 
 PewterCity_Text_CitySign::
+#if GERMAN
 	.string "Marmoria City\n"
 	.string "Die steingraue Stadt!$"
+#else
+	.string "PEWTER CITY\n"
+	.string "A Stone Gray City$"
+#endif
 
 PewterCity_Text_OhPlayer::
 	.string "Oh, {PLAYER}{KUN}!$"
 
 PewterCity_Text_AskedToDeliverThis::
+#if GERMAN
 	.string "Ich bin froh, dass ich dich\n"
 	.string "erwische. Ich bin der\l"
-	.string "Assistent von Prof. Eich.\p"
+	.string "Assistent von {COLOR RED}Prof. Eich{COLOR DARK_GRAY}.\p"
 	.string "Ich wurde gebeten, dir das hier zu\n"
 	.string "bringen, also nimm es bitte.$"
+#else
+	.string "I'm glad I caught up to you.\n"
+	.string "I'm PROF. OAK's AIDE.\p"
+	.string "I've been asked to deliver this,\n"
+	.string "so here you go.$"
+#endif
 
 PewterCity_Text_ReceivedRunningShoesFromAide::
+#if GERMAN
 	.string "{PLAYER} hat die Turbotreter\n"
 	.string "vom Assistenten erhalten.$"
+#else
+	.string "{PLAYER} received the\n"
+	.string "RUNNING SHOES from the AIDE.$"
+#endif
 
 PewterCity_Text_SwitchedShoesWithRunningShoes::
+#if GERMAN
 	.string "{PLAYER} zieht die Turbotreter an.$"
+#else
+	.string "{PLAYER} switched shoes with the\n"
+	.string "RUNNING SHOES.$"
+#endif
 
 PewterCity_Text_ExplainRunningShoes::
+#if GERMAN
 	.string "Drücke den B-Knopf, um zu\n"
 	.string "rennen. Aber nur, wenn Platz ist!$"
+#else
+	.string "Press the B Button to run.\n"
+	.string "But only where there's room to run!$"
+#endif
 
 PewterCity_Text_MustBeGoingBackToLab::
+#if GERMAN
 	.string "Nun, ich muss ins Labor zurück.\p"
 	.string "Bis die Tage!$"
+#else
+	.string "Well, I must be going back to\n"
+	.string "the LAB.\p"
+	.string "Bye-bye!$"
+#endif
 
 PewterCity_Text_RunningShoesLetterFromMom::
+#if GERMAN
 	.string "Ein Brief ist dabei…\p"
 	.string "Hallo {PLAYER}!\p"
 	.string "Hier ein Paar Turbotreter für\n"
@@ -978,4 +1124,13 @@ PewterCity_Text_RunningShoesLetterFromMom::
 	.string "Denk daran, ich drücke dir stets\n"
 	.string "die Daumen! Gib nie auf!\p"
 	.string "Deine Mama!$"
+#else
+	.string "There's a letter attached…\p"
+	.string "Dear {PLAYER},\p"
+	.string "Here is a pair of RUNNING SHOES\n"
+	.string "for my beloved challenger.\p"
+	.string "Remember, I'll always cheer for\n"
+	.string "you! Don't ever give up!\p"
+	.string "From Mom$"
+#endif
 

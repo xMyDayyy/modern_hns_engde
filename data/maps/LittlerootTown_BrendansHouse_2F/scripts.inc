@@ -282,10 +282,16 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
+#if GERMAN
 	.string "Die Uhr ist stehen geblieben…\p"
 	.string "Stelle sie besser ein und ziehe sie auf.$"
+#else
+	.string "The clock is stopped…\p"
+	.string "Better set it and start it!$"
+#endif
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
+#if GERMAN
 	.string "Mutter: {PLAYER}, wie gefällt dir dein\n"
 	.string "neues Zimmer?\p"
 	.string "Gut! Alles ist wunderbar aufgeräumt!\p"
@@ -296,8 +302,19 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "Oh, du solltest prüfen, ob dein\n"
 	.string "Schreib-\l"
 	.string "tisch vollständig eingeräumt ist!$"
+#else
+	.string "MOM: {PLAYER}, how do you like your\n"
+	.string "new room?\p"
+	.string "Good! Everything's put away neatly!\p"
+	.string "They finished moving everything in\n"
+	.string "downstairs, too.\p"
+	.string "POKéMON movers are so convenient!\p"
+	.string "Oh, you should make sure that\n"
+	.string "everything's all there on your desk.$"
+#endif
 
 PlayersHouse_2F_Text_Notebook:
+#if GERMAN
 	.string "{PLAYER} schlägt das Notizbuch auf.\p"
 	.string "Regel NR. 1 Für Abenteurer\n"
 	.string "Öffne das Menü mit Start.\p"
@@ -305,12 +322,31 @@ PlayersHouse_2F_Text_Notebook:
 	.string "Speichere den Fortschritt mit Sichern.\n"
 	.string "\p"
 	.string "Die übrigen Seiten sind leer.$"
+#else
+	.string "{PLAYER} flipped open the notebook.\p"
+	.string "ADVENTURE RULE NO. 1\n"
+	.string "Open the MENU with START.\p"
+	.string "ADVENTURE RULE NO. 2\n"
+	.string "Record your progress with SAVE.\p"
+	.string "The remaining pages are blank…$"
+#endif
 
 Common_Text_LookCloserAtMap:
+#if GERMAN
 	.string "{PLAYER} schaut sich die Karte der\n"
 	.string "{REGION}-Region genauer an.$"
+#else
+	.string "{PLAYER} took a closer look at the\n"
+	.string "{REGION} region map.$"
+#endif
 
 PlayersHouse_2F_Text_ItsAGameCube:
+#if GERMAN
 	.string "Das ist ein Nintendo GameCube.\p"
 	.string "Ein Game Boy Advance ist angeschlossen\n"
 	.string "und dient als Controller.$"
+#else
+	.string "It's a Nintendo GameCube.\p"
+	.string "A Game Boy Advance is connected to\n"
+	.string "serve as the Controller.$"
+#endif

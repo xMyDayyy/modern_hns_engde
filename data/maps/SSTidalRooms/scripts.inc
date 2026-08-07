@@ -63,108 +63,232 @@ SSTidalRooms_EventScript_Naomi::
 	end
 
 SSTidalRooms_Text_TakeRestOnBed:
+#if GERMAN
 	.string "Da steht ein Bett…\n"
 	.string "Eine Pause wäre willkommen.$"
+#else
+	.string "There's a bed…\n"
+	.string "Let's take a rest.$"
+#endif
 
 SSTidalRooms_Text_ColtonIntro:
+#if GERMAN
 	.string "Ich segle oft nach Seegrasulb City.\p"
 	.string "Ich liebe es, an den Wettbewerben\n"
 	.string "teilzunehmen.$"
+#else
+	.string "I often sail to LILYCOVE CITY.\p"
+	.string "I enjoy attending CONTESTS,\n"
+	.string "you see.$"
+#endif
 
 SSTidalRooms_Text_ColtonDefeat:
+#if GERMAN
 	.string "Das war ein wunderbarer Kampf!$"
+#else
+	.string "That was an enjoyable match!$"
+#endif
 
 SSTidalRooms_Text_ColtonPostBattle:
+#if GERMAN
 	.string "Ich bin schon ganz aufgeregt, wenn ich\n"
 	.string "mir vorstelle, welche Pokémon ich im\l"
 	.string "nächsten Wettbewerb sehen werde!$"
+#else
+	.string "I get so excited imagining what kinds\n"
+	.string "of POKéMON I'll get to see in the next\l"
+	.string "CONTEST. The anticipation of it thrills!$"
+#endif
 
 SSTidalRooms_Text_MicahIntro:
+#if GERMAN
 	.string "Sind deine Freunde stark?$"
+#else
+	.string "Are your friends strong?$"
+#endif
 
 SSTidalRooms_Text_MicahDefeat:
+#if GERMAN
 	.string "Deine Freunde sind in der Tat stark.$"
+#else
+	.string "Your friends are, indeed, strong.$"
+#endif
 
 SSTidalRooms_Text_MicahPostBattle:
+#if GERMAN
 	.string "Freunde müssen nicht unbedingt\n"
 	.string "menschlich sein. Für mich sind\l"
 	.string "Pokémon die besten Freunde.$"
+#else
+	.string "Friends need not be human.\n"
+	.string "For me, POKéMON are treasured friends!$"
+#endif
 
 SSTidalRooms_Text_ThomasIntro:
+#if GERMAN
 	.string "Kind… Hast du an der Tür geklopft?$"
+#else
+	.string "Child…\n"
+	.string "Did you knock on the door?$"
+#endif
 
 SSTidalRooms_Text_ThomasDefeat:
+#if GERMAN
 	.string "Eine Niederlage muss mit erhobenem\n"
 	.string "Haupt akzeptiert werden.$"
+#else
+	.string "A loss is to be accepted without haste\n"
+	.string "or panic.$"
+#endif
 
 SSTidalRooms_Text_ThomasPostBattle:
+#if GERMAN
 	.string "In jeder Situation die absolute Ruhe\n"
 	.string "zu bewahren, ist die Devise des\l"
 	.string "Gentleman.$"
+#else
+	.string "To be never ruffled in any situation is\n"
+	.string "the GENTLEMAN's code of conduct.$"
+#endif
 
 SSTidalRooms_Text_JedIntro:
+#if GERMAN
 	.string "Uwe: Eigentlich bin ich ja schüchtern…\n"
 	.string "Aber die Liebe gibt einem Kraft!$"
+#else
+	.string "JED: I feel a little shy about this, but…\n"
+	.string "We'll show you our lovey-dovey power!$"
+#endif
 
 SSTidalRooms_Text_JedDefeat:
+#if GERMAN
 	.string "Uwe: Seufz…$"
+#else
+	.string "JED: Sigh…$"
+#endif
 
 SSTidalRooms_Text_JedPostBattle:
+#if GERMAN
 	.string "Uwe: Zum ersten Mal war unsere Kraft\n"
 	.string "der Liebe unterlegen!\l"
 	.string "Du bist ein unglaublicher Trainer!$"
+#else
+	.string "JED: It's the first time that our lovey-\n"
+	.string "dovey power couldn't prevail!\l"
+	.string "You must be an awesome TRAINER!$"
+#endif
 
 SSTidalRooms_Text_JedNotEnoughMons:
+#if GERMAN
 	.string "Uwe: Du hast nur ein Pokémon?\n"
 	.string "Fühlt es sich nicht sehr einsam?$"
+#else
+	.string "JED: You only have one POKéMON?\n"
+	.string "Isn't that just too lonesome?$"
+#endif
 
 SSTidalRooms_Text_LeaIntro:
+#if GERMAN
 	.string "Lena: Ich fühle mich etwas albern,\n"
 	.string "aber… Aber die Liebe gibt mir Kraft!$"
+#else
+	.string "LEA: I feel a little silly, but…\n"
+	.string "We'll show you our lovey-dovey power!$"
+#endif
 
 SSTidalRooms_Text_LeaDefeat:
+#if GERMAN
 	.string "Lena: Oh, buuuuh!$"
+#else
+	.string "LEA: Oh, boo!$"
+#endif
 
 SSTidalRooms_Text_LeaPostBattle:
+#if GERMAN
 	.string "Lena: Ich kann es einfach nicht\n"
 	.string "fassen!\n"
 	.string "Die Kraft unserer Liebe reichte nicht…\l"
 	.string "Du bist ein unglaublicher Trainer!$"
+#else
+	.string "LEA: I can't believe it!\n"
+	.string "Our lovey-dovey power failed…\l"
+	.string "You must be an awesome TRAINER!$"
+#endif
 
 SSTidalRooms_Text_LeaNotEnoughMons:
+#if GERMAN
 	.string "Lena: Ich möchte kämpfen…\n"
 	.string "Aber du hast nur ein Pokémon…$"
+#else
+	.string "LEA: I wanted to battle…\n"
+	.string "But you don't even have two POKéMON…$"
+#endif
 
 SSTidalRooms_Text_GarretIntro:
+#if GERMAN
 	.string "Ah, du kommst gerade rechtzeitig.\p"
 	.string "Ich langweile mich schrecklich.\n"
 	.string "Du musst mich jetzt unterhalten.$"
+#else
+	.string "Ah, you've come just in time.\p"
+	.string "I'm bored, you see.\n"
+	.string "You may entertain me.$"
+#endif
 
 SSTidalRooms_Text_GarretDefeat:
+#if GERMAN
 	.string "… Das reicht.$"
+#else
+	.string "…That will do.$"
+#endif
 
 SSTidalRooms_Text_GarretPostBattle:
+#if GERMAN
 	.string "Ich muss meinen Vater unbedingt\n"
 	.string "fragen, ob er mir eine Yacht schenkt.\l"
 	.string "Eine Yacht für mich und meine Pokémon!$"
+#else
+	.string "Perhaps I shall get Father to acquire\n"
+	.string "a yacht for me.\l"
+	.string "A yacht for me and POKéMON!$"
+#endif
 
 SSTidalRooms_Text_NaomiIntro:
+#if GERMAN
 	.string "Oh, du bist so ein wunderbarer\n"
 	.string "Trainer. Möchtest du eine Tasse Tee?\l"
 	.string "Oder möchtest du lieber kämpfen?$"
+#else
+	.string "Oh, you're such an adorable TRAINER.\n"
+	.string "Would you like to have tea?\l"
+	.string "Or would you rather battle?$"
+#endif
 
 SSTidalRooms_Text_NaomiDefeat:
+#if GERMAN
 	.string "Ich verstehe.\n"
 	.string "Du bist eher der aktive Typ.$"
+#else
+	.string "I see.\n"
+	.string "You're the active sort.$"
+#endif
 
 SSTidalRooms_Text_NaomiPostBattle:
+#if GERMAN
 	.string "Eine Weltreise auf einem Luxusliner\n"
 	.string "hat\n"
 	.string "etwas für sich, das muss ich sagen…\p"
 	.string "Aber auch eine Fahrt auf der Fähre\n"
 	.string "durch Hoenn hat etwas.$"
+#else
+	.string "A world cruise on a luxury liner has its\n"
+	.string "charms, I must say…\p"
+	.string "But, I will admit there is an appealing\n"
+	.string "side to touring HOENN by ferry.$"
+#endif
 
 SSTidalRooms_Text_NotSuspiciousTakeThis:
+#if GERMAN
 	.string "Äh… Hallo! Ich… Ich verhalte mich\n"
 	.string "über-\n"
 	.string "haupt nicht verdächtig! Äh… hier, das\l"
@@ -172,9 +296,22 @@ SSTidalRooms_Text_NotSuspiciousTakeThis:
 	.string "Es… Ehrlich! Ich habe es nicht von\n"
 	.string "jemandem Übernommen! Das würde ich\l"
 	.string "nie tun! Es ist sauber! Nimm es ruhig!$"
+#else
+	.string "Uh… Hi! I… I'm not acting suspicious!\n"
+	.string "Uh… You can have this! For free!\p"
+	.string "It… Honestly, I didn't SNATCH it from\n"
+	.string "someone! I'd never do such a thing!\l"
+	.string "It's clean! You can use it!$"
+#endif
 
 SSTidalRooms_Text_ExplainSnatch:
+#if GERMAN
 	.string "Übernahme raubt die nächste Attacke\n"
 	.string "eines Pokémon und setzt sie dann\l"
 	.string "gegen diesen Gegner ein.$"
+#else
+	.string "SNATCH steals the beneficial effects\n"
+	.string "of certain moves before they can be\l"
+	.string "used by a foe or ally.$"
+#endif
 

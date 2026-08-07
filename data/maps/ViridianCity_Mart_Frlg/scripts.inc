@@ -84,27 +84,59 @@ ViridianCity_Mart_EventScript_Youngster::
 	end
 
 ViridianCity_Mart_Text_YouCameFromPallet::
+#if GERMAN
 	.string "Heh!\n"
-	.string "Kommst du aus Alabastia?$"
+	.string "Kommst du aus {COLOR RED}Alabastia{COLOR DARK_GRAY}?$"
+#else
+	.string "Hey!\n"
+	.string "You came from PALLET TOWN?$"
+#endif
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
-	.string "Prof. Eich schickt dich, oder?\p"
+#if GERMAN
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY} schickt dich, oder?\p"
 	.string "Seine Bestellung ist angekommen!\n"
 	.string "Holst du das Paket für ihn ab?$"
+#else
+	.string "You know PROF. OAK, right?\p"
+	.string "His order came in.\n"
+	.string "Can I get you to take it to him?$"
+#endif
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "Eichs Paket!$"
+#else
+	.string "{PLAYER} received OAK'S PARCEL\n"
+	.string "from the POKéMON MART clerk.$"
+#endif
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
-	.string "O.K.! Grüße Prof. Eich von mir!$"
+#if GERMAN
+	.string "O.K.! Grüße {COLOR RED}Prof. Eich{COLOR DARK_GRAY} von mir!$"
+#else
+	.string "Okay, thanks! Please say hi to\n"
+	.string "PROF. OAK for me, too.$"
+#endif
 
 ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
+#if GERMAN
 	.string "Dieser Laden führt viele\n"
 	.string "Gegengifte.$"
+#else
+	.string "This shop does good business in\n"
+	.string "ANTIDOTES, I've heard.$"
+#endif
 
 ViridianCity_Mart_Text_GotToBuySomePotions::
+#if GERMAN
 	.string "Ich muss Tränke kaufen!\p"
 	.string "Man weiß nie, wann ein Pokémon\n"
 	.string "schnell geheilt werden muss.$"
+#else
+	.string "I've got to buy some POTIONS.\p"
+	.string "You never know when your POKéMON\n"
+	.string "will need quick healing.$"
+#endif
 

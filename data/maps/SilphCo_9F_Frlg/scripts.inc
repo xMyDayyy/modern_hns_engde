@@ -45,49 +45,109 @@ SilphCo_9F_EventScript_Grunt2::
 	end
 
 SilphCo_9F_Text_YouShouldTakeQuickNap::
+#if GERMAN
 	.string "Du siehst müde aus!\n"
 	.string "Komm, ruhe dich kurz aus!$"
+#else
+	.string "You look tired.\n"
+	.string "You should take a quick nap.$"
+#endif
 
 SilphCo_9F_Text_DontGiveUp::
+#if GERMAN
 	.string "Gib nicht auf!$"
+#else
+	.string "Don't give up!$"
+#endif
 
 SilphCo_9F_Text_ThankYouSoMuch::
+#if GERMAN
 	.string "Vielen, vielen Dank!$"
+#else
+	.string "Thank you so much.$"
+#endif
 
 SilphCo_9F_Text_Grunt1Intro::
+#if GERMAN
 	.string "Deine Pokémon scheinen dich sehr\n"
 	.string "zu mögen!$"
+#else
+	.string "Your POKéMON seem to adore you,\n"
+	.string "kid!$"
+#endif
 
 SilphCo_9F_Text_Grunt1Defeat::
+#if GERMAN
 	.string "Waaah!$"
+#else
+	.string "Ghaaah!$"
+#endif
 
 SilphCo_9F_Text_Grunt1PostBattle::
+#if GERMAN
 	.string "Hätte ich doch auch schon in\n"
 	.string "deinem Alter als Trainer begonnen!$"
+#else
+	.string "If I had started as a TRAINER at\n"
+	.string "your age…$"
+#endif
 
 SilphCo_9F_Text_EdIntro::
+#if GERMAN
 	.string "Ich finde die Schwachstellen\n"
 	.string "deiner Pokémon und besiege sie!$"
+#else
+	.string "Your POKéMON have weak points!\n"
+	.string "I can nail them!$"
+#endif
 
 SilphCo_9F_Text_EdDefeat::
+#if GERMAN
 	.string "Du hast mich besiegt!$"
+#else
+	.string "You hammered me!$"
+#endif
 
 SilphCo_9F_Text_EdPostBattle::
+#if GERMAN
 	.string "Mach dir die Schwachstellen zu\n"
 	.string "Nutze! Denke an die Elementklassen!$"
+#else
+	.string "Exploiting weak spots does work.\n"
+	.string "Think about type advantages.$"
+#endif
 
 SilphCo_9F_Text_Grunt2Intro::
+#if GERMAN
 	.string "Ich bin einer der vier berüchtigten\n"
 	.string "Rocket-brüder!$"
+#else
+	.string "I am one of the four ROCKET\n"
+	.string "BROTHERS!$"
+#endif
 
 SilphCo_9F_Text_Grunt2Defeat::
+#if GERMAN
 	.string "Oje!\n"
 	.string "Ich wurde besiegt!$"
+#else
+	.string "Warg!\n"
+	.string "Brothers, I lost!$"
+#endif
 
 SilphCo_9F_Text_Grunt2PostBattle::
+#if GERMAN
 	.string "Aber meine Brüder rächen mich!$"
+#else
+	.string "My brothers will avenge me!$"
+#endif
 
 SilphCo_9F_Text_FloorSign::
+#if GERMAN
 	.string "Silph Co. Hauptsitz\n"
 	.string "8 Og$"
+#else
+	.string "SILPH CO. HEAD OFFICE\n"
+	.string "9F$"
+#endif
 

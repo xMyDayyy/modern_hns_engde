@@ -36,21 +36,41 @@ ThreeIsland_Mart_EventScript_Youngster::
 	end
 
 ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger::
+#if GERMAN
 	.string "Stimmt das?\p"
 	.string "Das Einkaufszentrum in\n"
-	.string "Prismania City ist sehr viel\l"
+	.string "{COLOR RED}Prismania City{COLOR DARK_GRAY} ist sehr viel\l"
 	.string "größer als dieses Geschäft?$"
+#else
+	.string "Is it true?\p"
+	.string "CELADON DEPT. STORE is several\n"
+	.string "times bigger than this shop?$"
+#endif
 
 ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest::
+#if GERMAN
 	.string "Ich kaufe hier manchmal Medizin.\p"
 	.string "Viele Leute heilen Pokémon mit\n"
 	.string "Beeren aus dem Beerenforst.\p"
 	.string "Schließlich sind Beeren umsonst\n"
 	.string "und ihr Vorrat ist unerschöpflich!$"
+#else
+	.string "I sometimes buy medicine here.\p"
+	.string "But a lot of people heal POKéMON\n"
+	.string "with BERRIES from BERRY FOREST.\p"
+	.string "After all, BERRIES are free and\n"
+	.string "they never run out.$"
+#endif
 
 ThreeIsland_Mart_Text_BikersWereAboutToTrashMart::
+#if GERMAN
 	.string "Diese Biker wollten den Pokémon-\n"
 	.string "Supermarkt in Schutt und Asche\l"
 	.string "legen.\l"
 	.string "Ich bin froh, dass sie weg sind!$"
+#else
+	.string "Those BIKERS were about to trash\n"
+	.string "this POKéMON MART.\p"
+	.string "Am I glad they decided to leave!$"
+#endif
 

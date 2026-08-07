@@ -415,129 +415,272 @@ Alola_Akala_BattleSandygast_Text_0:
 	.string "Coorr!$"
 
 Alola_Akala_Sign_Text_0:
+#if GERMAN
 	.string "Akala$"
+#else
+	.string "Akala Isle$"
+#endif
 
 Alola_Akala_House_Sign_Text_0:
+#if GERMAN
 	.string "Die Akala-Villa.\p"
 	.string "Eine Unterkunft für Besucher\n"
 	.string "der Insel Akala.$"
+#else
+	.string "The Akala Villa.\p"
+	.string "A place for visitors to stay while\n"
+	.string "on Akala Isle.$"
+#endif
 
 Alola_Akala_Natu_Text_0:
+#if GERMAN
 	.string "Natu: Tuuuuu!$"
+#else
+	.string "NATU: TUUUUU!$"
+#endif
 
 Alola_Akala_OldManOnBench_Text_0:
+#if GERMAN
 	.string "Ah, das Wetter ist heute wieder\n"
 	.string "herrlich, nicht wahr?\p"
 	.string "Ich habe gerade die Natu gefüttert\n"
 	.string "und dieses hier leistet mir nun auf\l"
 	.string "meiner Bank Gesellschaft!$"
+#else
+	.string "Ah the weather is so nice today,\n"
+	.string "isn't it?\p"
+	.string "I was just feeding the NATU and this\n"
+	.string "one decided to join me on my bench!$"
+#endif
 
 Alola_Akala_TotemBattle_Text_0:
 	.string "Mortaar!$"
 
 Alola_Akala_TotemBattle_Text_1:
+#if GERMAN
 	.string "Herrscher-Magbrant wurde besiegt!\n"
 	.string "Es ist irgendwohin davongehuscht…$"
+#else
+	.string "Totem Magmortar was defeated!\n"
+	.string "It scampered off somewhere…$"
+#endif
 
 Alola_Akala_TotemBattle_Text_2:
 	.string "Salaa!$"
 
 Alola_Akala_TotemBattle_Text_3:
+#if GERMAN
 	.string "Herrscher-Voluminas wurde besiegt!\n"
 	.string "Es ist irgendwohin davongehuscht…$"
+#else
+	.string "Totem Probopass was defeated!\n"
+	.string "It scampered off somewhere…$"
+#endif
 
 Alola_Akala_Totem_sign_Text_0:
+#if GERMAN
 	.string "Das Totem strahlt eine starke\n"
 	.string "Energie aus…\p"
 	.string "Möchtest du es berühren und zu\n"
 	.string "einer anderen Insel reisen?$"
+#else
+	.string "The totem is emanating a strong\n"
+	.string "energy…\p"
+	.string "Touch the totem to teleport to another\n"
+	.string "Isle?$"
+#endif
 
 Alola_Akala_Totem_sign_Text_1:
-	.string "Mele-Mele$"
+#if GERMAN
+	.string "{COLOR RED}Mele-Mele{COLOR DARK_GRAY}$"
+#else
+	.string "Melemele Isle$"
+#endif
 
 Alola_Akala_Totem_sign_Text_2:
-	.string "Ula-Ula$"
+#if GERMAN
+	.string "{COLOR RED}Ula-Ula{COLOR DARK_GRAY}$"
+#else
+	.string "Ula'ula Isle$"
+#endif
 
 Alola_Akala_Totem_sign_Text_3:
+#if GERMAN
 	.string "Poni$"
+#else
+	.string "Poni Isle$"
+#endif
 
 Alola_Akala_Totem_sign_Text_4:
+#if GERMAN
 	.string "Zurück$"
+#else
+	.string "Cancel$"
+#endif
 
 Alola_Akala_Totem_sign_Text_5:
+#if GERMAN
 	.string "Ein seltsames Totem steht hier.\n"
 	.string "Es strahlt eine gewaltige Kraft aus…$"
+#else
+	.string "A strange totem stands here,\n"
+	.string "power is emanating from it…$"
+#endif
 
 Alola_Akala_BattleVsTapuLele_Text_0:
 	.string "Le-Lele!$"
 
 Alola_Akala_TrainerBattleHiker_Text_0:
+#if GERMAN
 	.string "Ich bin auf die Inseln gekommen,\num die Berge zu erklimmen!$"
+#else
+	.string "I came to the Isles to hike the\nmountains!$"
+#endif
 
 Alola_Akala_TrainerBattleHiker_Text_1:
+#if GERMAN
 	.string "Und schon purzle ich hinab…$"
+#else
+	.string "And down I tumble…$"
+#endif
 
 Alola_Akala_TrainerBattleHiker_Text_2:
+#if GERMAN
 	.string "Auf Akala wandert es sich am besten!\n"
 	.string "Üppige Wälder und wilde Pfade!$"
+#else
+	.string "Akala Isle has the best hiking!\n"
+	.string "It's got lush forests and rugged trails!$"
+#endif
 
 Alola_Akala_TrainerBattlePicnicker_Text_0:
+#if GERMAN
 	.string "Ha! Du hast mich nicht gesehen,\nstimmt’s?$"
+#else
+	.string "Ha! Didn't see me, did you?$"
+#endif
 
 Alola_Akala_TrainerBattlePicnicker_Text_1:
+#if GERMAN
 	.string "Der Überraschungseffekt ist wohl\nnicht immer sehr effektiv…$"
+#else
+	.string "I guess the element of surprise isn't\nalways super effective…$"
+#endif
 
 Alola_Akala_TrainerBattlePicnicker_Text_2:
+#if GERMAN
 	.string "Akala ist so grün, dass ich mich\n"
 	.string "mühelos in den Bäumen verstecken\l"
 	.string "kann!$"
+#else
+	.string "It's so lush on Akala Isle,\n"
+	.string "I can easily hide in the trees!$"
+#endif
 
 Alola_Akala_TrainerBattleCamper_Text_0:
+#if GERMAN
 	.string "Ich will mich als Erster den\nHerrscher-Pokémon beweisen!$"
+#else
+	.string "I want to be the first to prove myself\nto the Totem Pokémon!$"
+#endif
 
 Alola_Akala_TrainerBattleCamper_Text_1:
+#if GERMAN
 	.string "Mist, das hilft meiner Sache\nnicht gerade weiter.$"
+#else
+	.string "Drat,\nthat's not going to help my case.$"
+#endif
 
 Alola_Akala_TrainerBattleCamper_Text_2:
+#if GERMAN
 	.string "Vorne steht ein seltsames Totem,\n"
 	.string "aber ein Herrscher-Pokémon habe\l"
 	.string "ich nicht gesehen.$"
+#else
+	.string "There's a weird Totem further ahead but\n"
+	.string "I haven't seen a Totem Pokémon.$"
+#endif
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_0:
+#if GERMAN
 	.string "Hey! Keine Schuhe am Strand!$"
+#else
+	.string "Hey! No shoes on the beach!$"
+#endif
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_1:
+#if GERMAN
 	.string "Autsch! Wo ist ein Rettungs-\nschwimmer, wenn man ihn braucht…$"
+#else
+	.string "Ouch,\nwhere's a lifeguard when you need one…$"
+#endif
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_2:
+#if GERMAN
 	.string "Akala hat die schönsten Strände!\n"
 	.string "Weicher Sand und klares Wasser!$"
+#else
+	.string "Akala Isle has the best beaches!\n"
+	.string "It's got soft sand and clear waters!$"
+#endif
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_0:
+#if GERMAN
 	.string "Aus dem Weg!\nIch ziehe hier meine Bahnen!$"
+#else
+	.string "Out of my way!\nI'm swimming laps!$"
+#endif
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_1:
+#if GERMAN
 	.string "Diese Pause hatte ich mir anders\nvorgestellt…$"
+#else
+	.string "Not the break I was looking for…$"
+#endif
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_2:
-	.string "Ula-Ula hat die schönsten Strände!\n"
+#if GERMAN
+	.string "{COLOR RED}Ula-Ula{COLOR DARK_GRAY} hat die schönsten Strände!\n"
 	.string "Glaub niemandem, der etwas\l"
 	.string "anderes behauptet!$"
+#else
+	.string "Ula'ula Isle has the best beaches!\n"
+	.string "Ignore anyone who says otherwise!$"
+#endif
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_0:
+#if GERMAN
 	.string "Hah! Du brauchst ein Pokémon,\num zu surfen?$"
+#else
+	.string "Hah!\nYou need to ride a Pokémon to surf?$"
+#endif
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_1:
+#if GERMAN
 	.string "Wäre ich nicht selbst geschwommen,\n"
 	.string "hätte ich vielleicht noch Kraft\l"
 	.string "zum Siegen gehabt…$"
+#else
+	.string "If I hadn't swam myself\nmaybe I would've had the energy to win…$"
+#endif
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_2:
+#if GERMAN
 	.string "Die Strömung hier draußen ist stark!\n"
 	.string "Ein Pokémon muss schon sehr kräftig\l"
 	.string "sein, um bis zu den Inseln zu\l"
 	.string "wandern!$"
+#else
+	.string "The current out here is strong!\n"
+	.string "A Pokémon must be really powerful to\l"
+	.string "migrate all the way out to the Isles!$"
+#endif
 
 Alola_Akala_Bench_Heal_Text_0:
+#if GERMAN
 	.string "Möchtest du auf dieser Bank eine\n"
 	.string "Pause einlegen?$"
+#else
+	.string "Would you like to take a rest on this\n"
+	.string "bench?$"
+#endif

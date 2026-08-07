@@ -351,243 +351,525 @@ Route32_Movement_SlowpokeRight::
 	step_end
 
 Route32_Text_CooltrainerM_WhatsTheHurry:
+#if GERMAN
 	.string "Warte! Warum die Eile?$"
+#else
+	.string "Wait up!\n"
+	.string "What's the hurry?$"
+#endif
 
 Route32_Text_CooltrainerM_AideIsWaiting:
+#if GERMAN
 	.string "Du bist {PLAYER}, nicht wahr?\n"
 	.string "Ich habe einen Mann getroffen, der\l"
 	.string "nach dir suchte. Er trug eine Brille…\p"
 	.string "Bestimmt wartet er noch im\n"
 	.string "Pokémon-Supermarkt auf dich!$"
+#else
+	.string "{PLAYER}, right?\n"
+	.string "Some guy wearing glasses\p"
+	.string "was looking for you.\p"
+	.string "See for yourself. He's waiting for\n"
+	.string "you at the POKéMON CENTER.$"
+#endif
 
 Route32_Text_CooltrainerM_SproutTower:
-	.string "Warst du im Knofensa-Turm?\p"
-	.string "Wenn du jemals nach Viola City\n"
+#if GERMAN
+	.string "Warst du im {COLOR RED}Knofensa-Turm{COLOR DARK_GRAY}?\p"
+	.string "Wenn du jemals nach {COLOR RED}Viola City{COLOR DARK_GRAY}\n"
 	.string "kommst, erwartet man von dir,\l"
 	.string "dass du dort trainierst.\p"
 	.string "Das ist ein Muss für alle Trainer.\p"
-	.string "Geh zum Knofensa-Turm!$"
+	.string "Geh zum {COLOR RED}Knofensa-Turm{COLOR DARK_GRAY}!$"
+#else
+	.string "Have you gone to SPROUT TOWER?\n"
+	.string "If you ever visit VIOLET CITY,\p"
+	.string "they'll expect you to train there.\n"
+	.string "That's basic for trainers.\p"
+	.string "Go to SPROUT TOWER!$"
+#endif
 
 Route32_Text_CooltrainerM_VioletGym:
+#if GERMAN
 	.string "Warst du schon in der Pokémon-Arena?\n"
 	.string "Das ist ein guter Ort für Trainer, um\l"
 	.string "sich und seine Pokémon zu stählen!\p"
 	.string "Das ist Trainer-Grundwissen!\l"
 	.string "Schau dort mal vorbei!$"
+#else
+	.string "Have you gone to the POKéMON GYM?\n"
+	.string "You can test your POKéMON and\p"
+	.string "yourself there.\n"
+	.string "It's a rite of passage for all\p"
+	.string "trainers!$"
+#endif
 
 Route32_Text_CooltrainerM_HaveThisSeed:
+#if GERMAN
 	.string "Du hast einige gute Pokémon dabei.\n"
 	.string "Sie sind bestimmt deshalb so gut, weil du\l"
-	.string "sie in Viola City so hart trainiert hast.\p"
+	.string "sie in {COLOR RED}Viola City{COLOR DARK_GRAY} so hart trainiert hast.\p"
 	.string "Die Pokémon-Arena war sicher ganz\n"
 	.string "besonders gutes Training für sie.\p"
 	.string "Hier, das ist für dich. Als kleines\n"
-	.string "Andenken an Viola City.\p"
+	.string "Andenken an {COLOR RED}Viola City{COLOR DARK_GRAY}.\p"
 	.string "Wenn du das einem Pokémon gibst,\n"
 	.string "soll angeblich die Stärke all seiner\l"
 	.string "Attacken vom Typ Pflanze steigen.$"
+#else
+	.string "You have some good POKéMON there.\n"
+	.string "It must be from the training you\p"
+	.string "gave them around VIOLET CITY.\n"
+	.string "The training at the GYM must have\p"
+	.string "been especially helpful. As a\n"
+	.string "souvenir of VIOLET CITY, take this.\p"
+	.string "It increases the power of GRASS-\n"
+	.string "type moves.$"
+#endif
 
 Route32_Text_CooltrainerM_Experiences:
-	.string "Deine Erfahrungen aus Viola City werden\n"
+#if GERMAN
+	.string "Deine Erfahrungen aus {COLOR RED}Viola City{COLOR DARK_GRAY} werden\n"
 	.string "dir auf deiner Reise sehr nützlich sein.$"
+#else
+	.string "Your experiences in VIOLET CITY\n"
+	.string "should be useful for your journey.$"
+#endif
 
 Route32_Text_SlowpokeTailOffer:
+#if GERMAN
 	.string "Wie wär’s mit einer schmackhaften und\n"
 	.string "nahrhaften Flegmon-Rute?\p"
 	.string "Für dich jetzt nur 1.000.000 $!\n"
 	.string "Na, wie sieht’s aus?$"
+#else
+	.string "How would you like to have this\n"
+	.string "tasty, nutritious SLOWPOKETAIL?\p"
+	.string "For you right now, just\n"
+	.string "¥1,000,000!\p"
+	.string "You'll want this!$"
+#endif
 
 Route32_Text_ThoughtKidsLoaded:
+#if GERMAN
 	.string "Pah, dein Geld reicht nicht!\p"
 	.string "Und ich dachte, die Kinder von\n"
 	.string "heute wären stinkreich…$"
+#else
+	.string "Tch! I thought kids\n"
+	.string "these days were loaded…$"
+#endif
 
 Route32_Text_RefusedSlowpokeTail:
+#if GERMAN
 	.string "Du möchtest sie nicht?\n"
 	.string "Dann mach dich vom Acker!$"
+#else
+	.string "You don't want it?\n"
+	.string "Then scram. Shoo!$"
+#endif
 
 Route32_Text_FisherJustin_Seen:
+#if GERMAN
 	.string "Uah!\p"
 	.string "Na toll! Jetzt hast du mich erschreckt\n"
 	.string "und mein Ziel hat sich verdrückt!$"
+#else
+	.string "Whoa!\p"
+	.string "You made me lose that fish!$"
+#endif
 
 Route32_Text_FisherJustin_Beaten:
+#if GERMAN
 	.string "Platsch!$"
+#else
+	.string "Sploosh!$"
+#endif
 
 Route32_Text_FisherJustin_After:
+#if GERMAN
 	.string "Ruhe, Geduld und Spucke…\p"
 	.string "Im Kern kommt es beim Angeln und\n"
 	.string "beim Pokémon-Kampf auf das Gleiche an.$"
+#else
+	.string "Calm, collected… The essence of\n"
+	.string "fishing and POKéMON is the same.$"
+#endif
 
 Route32_Text_FisherRalph1_Seen:
+#if GERMAN
 	.string "Ich beherrsche beides,\n"
 	.string "Angeln und Pokémon.\p"
 	.string "Darum werde ich nicht verlieren!$"
+#else
+	.string "I'm really good at both\n"
+	.string "fishing and POKéMON.\p"
+	.string "I'm not about to lose to any kid!$"
+#endif
 
 Route32_Text_FisherRalph1_Beaten:
+#if GERMAN
 	.string "Tse! Ich war wohl\n"
 	.string "doch zu ungeduldig.$"
+#else
+	.string "Tch! I tried to rush\n"
+	.string "things…$"
+#endif
 
 Route32_Text_FisherRalph1_After:
+#if GERMAN
 	.string "Angeln ist ein Sport fürs ganze Leben.\n"
 	.string "Pokémon sind Kameraden fürs Leben!$"
+#else
+	.string "Fishing is a lifelong\n"
+	.string "passion.\p"
+	.string "POKéMON are lifelong friends!$"
+#endif
 
 Route32_Text_RalphRegister:
+#if GERMAN
 	.string "Angeln ist ein Sport fürs ganze Leben.\n"
 	.string "Pokémon sind Kameraden fürs Leben!$"
+#else
+	.string "Fishing is a lifelong\n"
+	.string "passion.\p"
+	.string "POKéMON are lifelong friends!$"
+#endif
 
 Route32_Text_RalphRematchIntro:
+#if GERMAN
     .string "Ich bin sowohl im Angeln als\n"
     .string "auch mit Pokémon richtig gut.\p"
     .string "Gegen irgendein Kind verliere\n"
     .string "ich ganz bestimmt nicht!$"
+#else
+	.string "I'm really good at both\n"
+	.string "fishing and POKéMON.\p"
+	.string "I'm not about to lose to any kid!$"
+#endif
 
 Route32_Text_RalphRematchDefeat:
+#if GERMAN
 	.string "Tse! Ich war wohl doch zu ungeduldig.$"
+#else
+	.string "Tch! I tried to rush\n"
+	.string "things…$"
+#endif
 
 Route32_Text_RalphPostRematch:
+#if GERMAN
 	.string "Angeln ist ein Sport fürs ganze Leben.\n"
 	.string "Pokémon sind Kameraden fürs Leben!$"
+#else
+	.string "Fishing is a lifelong\n"
+	.string "passion.\p"
+	.string "POKéMON are lifelong friends!$"
+#endif
 
 Route32_Text_FisherHenry_Seen:
+#if GERMAN
 	.string "Meine Pokémon?\n"
 	.string "Frisch gefangen!$"
+#else
+	.string "My POKéMON? Freshly caught!$"
+#endif
 
 Route32_Text_FisherHenry_Beaten:
+#if GERMAN
 	.string "Platscher$"
+#else
+	.string "SPLASH?$"
+#endif
 
 Route32_Text_FisherHenry_After:
+#if GERMAN
 	.string "Frisch gefangene Pokémon können\n"
 	.string "gut trainierten kein Paroli bieten.$"
+#else
+	.string "Freshly caught POKéMON are\n"
+	.string "no match for properly raised ones.$"
+#endif
 
 Route32_Text_YoungsterAlbert_Seen:
+#if GERMAN
 	.string "Ah, ein neues Gesicht.\n"
 	.string "Du hältst dich also für stark?$"
+#else
+	.string "I haven't seen you around before.\n"
+	.string "So you think you are pretty tough?$"
+#endif
 
 Route32_Text_YoungsterAlbert_Beaten:
+#if GERMAN
 	.string "Du bist aber stark!$"
+#else
+	.string "You're strong!$"
+#endif
 
 Route32_Text_YoungsterAlbert_After:
+#if GERMAN
 	.string "Ich versuche, aus meinen Lieblings-\n"
 	.string "Pokémon das Beste herauszuholen.\p"
 	.string "Ich verwende nicht die gleichen wie die\n"
 	.string "anderen, nur weil sie als stark gelten.$"
+#else
+	.string "I'm going to try to be the\n"
+	.string "best with my favorites.\p"
+	.string "I'm not using the same tough\n"
+	.string "POKéMON as everyone else.$"
+#endif
 
 Route32_Text_YoungsterGordon_Seen:
+#if GERMAN
 	.string "Ich habe gute Pokémon im Gras\n"
 	.string "gefunden! Wir schaffen das schon!$"
+#else
+	.string "I found some good POKéMON\n"
+	.string "in the grass!\p"
+	.string "I think they'll do it for me!$"
+#endif
 
 Route32_Text_YoungsterGordon_Beaten:
+#if GERMAN
 	.string "Und ich dachte, ich könnte gewinnen…\n"
 	.string "So kann man sich irren.$"
+#else
+	.string "Darn. I thought I could win.$"
+#endif
 
 Route32_Text_YoungsterGordon_After:
+#if GERMAN
 	.string "Im Gras findest du viele Dinge.$"
+#else
+	.string "The grass is full of\n"
+	.string "clingy things.$"
+#endif
 
 Route32_Text_CamperRoland_Seen:
+#if GERMAN
 	.string "Dieser Blick…\n"
 	.string "wie faszinierend.$"
+#else
+	.string "That glance… It's intriguing.$"
+#endif
 
 Route32_Text_CamperRoland_Beaten:
+#if GERMAN
 	.string "Hm. Das war\n"
 	.string "enttäuschend.$"
+#else
+	.string "Hmmm. This is disappointing.$"
+#endif
 
 Route32_Text_CamperRoland_After:
+#if GERMAN
 	.string "Wenn du nicht kämpfen möchtest,\n"
 	.string "solltest du Blickkontakt vermeiden.$"
+#else
+	.string "If you don't want to battle,\n"
+	.string "just avoid eye contact.$"
+#endif
 
 Route32_Text_PicnickerLiz1_Seen:
+#if GERMAN
 	.string "A-ha. Ja, du weißt…\p"
 	.string "Wie bitte? Kampf? Ich telefoniere.\p"
 	.string "Oh, O.K. Aber mach schnell.$"
+#else
+	.string "Uh-huh. Yeah, and you know…\p"
+	.string "Pardon? Battle? I'm on the phone.\n"
+	.string "Oh, all right. But make it fast.$"
+#endif
 
 Route32_Text_PicnickerLiz1_Beaten:
+#if GERMAN
 	.string "Ich muss meinem Ärger Luft machen!$"
+#else
+	.string "Oh! I've got to relieve\n"
+	.string "my anger!$"
+#endif
 
 Route32_Text_PicnickerLiz1_After:
+#if GERMAN
 	.string "Ich hatte einen netten Plausch.$"
+#else
+	.string "I was having a nice chat too.$"
+#endif
 
 Route32_Text_LizRegister:
+#if GERMAN
     .string "Ich war gerade so schön am\n"
     .string "Plaudern.$"
+#else
+	.string "I was having a nice chat too.$"
+#endif
 
 Route32_Text_LizRematchIntro:
+#if GERMAN
     .string "Aha. Ja, und weißt du…\p"
     .string "Wie bitte? Kämpfen? Ich telefoniere\n"
     .string "gerade.\p"
     .string "Na gut. Aber mach schnell.$"
+#else
+	.string "Uh-huh. Yeah, and you know…\p"
+	.string "Pardon? Battle? I'm on the phone.\n"
+	.string "Oh, all right. But make it fast.$"
+#endif
 
 Route32_Text_LizRematchDefeat:
+#if GERMAN
     .string "Oh! Jetzt muss ich erst mal\n"
     .string "meinen Ärger loswerden!$"
+#else
+	.string "Oh! I've got to relieve\n"
+	.string "my anger!$"
+#endif
 
 Route32_Text_LizPostRematch:
+#if GERMAN
     .string "Ich war gerade so schön am\n"
     .string "Plaudern.$"
+#else
+	.string "I was having a nice chat too.$"
+#endif
 
 Route32_Text_BirdKeeperPeter_Seen:
+#if GERMAN
 	.string "Wow! Dieser Orden…\p"
-	.string "Er ist aus Viola City!\n"
+	.string "Er ist aus {COLOR RED}Viola City{COLOR DARK_GRAY}!\n"
 	.string "Du hast Falk besiegt?$"
+#else
+	.string "That BADGE! It's from VIOLET CITY!\n"
+	.string "You beat FALKNER?$"
+#endif
 
 Route32_Text_BirdKeeperPeter_Beaten:
+#if GERMAN
 	.string "Ich kenne jetzt meine\n"
 	.string "Schwächen.$"
+#else
+	.string "I know what my weaknesses are.$"
+#endif
 
 Route32_Text_BirdKeeperPeter_After:
+#if GERMAN
 	.string "Ich sollte in der Pokémon-Arena von\n"
-	.string "Viola City weiter trainieren.$"
+	.string "{COLOR RED}Viola City{COLOR DARK_GRAY} weiter trainieren.$"
+#else
+	.string "I should train again at the\n"
+	.string "GYM in VIOLET CITY.$"
+#endif
 
 Route32_Text_RoarIntro:
+#if GERMAN
 	.string "Brüüüll!\p"
 	.string "Alle Leute Laufen Davon, Wenn Ich so\n"
 	.string "Brülle, Aber Duuu Bist Hiergeblieben!\l"
 	.string "Ich Bin zu Trääänen Gerührt!\l"
 	.string "Hiiier, Nimm Das Bitte Miiiiiit!!!$"
+#else
+	.string "WROOOOAR! PEOPLE RUN WHEN I\n"
+	.string "ROAR! BUT YOU CAME LOOKING!\p"
+	.string "THAT PLEASES ME! NOW TAKE THIS!$"
+#endif
 
 Route32_Text_RoarOutro:
+#if GERMAN
 	.string "Brüüüll!\n"
 	.string "Das ist der Brüller!\l"
 	.string "Sogar Pokémon laufen davon,\l"
 	.string "Wenn du ihn Einsetzt!$"
+#else
+	.string "WROOOOAR! IT'S ROAR!\p"
+	.string "EVEN POKéMON RUN FROM A GOOD\n"
+	.string "ROAR!$"
+#endif
 
 Route32_Text_MeetFrieda:
+#if GERMAN
 	.string "Frieda: Juchhu!\p"
 	.string "Ich bin Frieda von der\n"
 	.string "Wochentags-Familie!\p"
 	.string "Schön, dich zu treffen!\p"
 	.string "Errätst du meinen Lieblingstag,\n"
 	.string "bekommst du eine Belohnung.$"
+#else
+	.string "FRIEDA: Yahoo!\p"
+	.string "I'm FRIEDA of the WEEKDAY FAMILY!\n"
+	.string "Nice to meet you!\p"
+	.string "If you can guess my favorite day,\n"
+	.string "I'll give you a reward.$"
+#endif
 
 Route32_Text_FriedaGivesGift:
-	.string "Hier, Giftstich ist für dich!$"
+#if GERMAN
+	.string "Hier, {COLOR RED}Giftstich{COLOR DARK_GRAY} ist für dich!$"
+#else
+	.string "Here's a POISON BARB for you!$"
+#endif
 
 Route32_Text_FriedaGaveGift:
+#if GERMAN
 	.string "Frieda: Gib es einem Pokémon, das\n"
 	.string "über Gift-Attacken verfügt.\p"
 	.string "Oh ja!\p"
 	.string "Das Ding haut richtig rein!\p"
 	.string "Du wirst dich wundern, wie effektiv\n"
 	.string "deine Gift-Attacken werden!$"
+#else
+	.string "FRIEDA: Give it to a POKéMON\n"
+	.string "that has POISON-type moves.\p"
+	.string "Oh!\p"
+	.string "It's wicked!\p"
+	.string "You'll be shocked how good it\n"
+	.string "makes poison moves!$"
+#endif
 
 Route32_Text_FriedaFriday:
+#if GERMAN
 	.string "Frieda: Hossa! Welchen Wochentag\n"
 	.string "hast du am liebsten?\p"
 	.string "Ich liebe Freitag.\n"
 	.string "Daran gibt es keinen Zweifel!\p"
 	.string "Denkst du nicht auch, dass Freitag\n"
 	.string "großartig ist?$"
+#else
+	.string "FRIEDA: Hiya! What day do\n"
+	.string "you like?\p"
+	.string "I love Friday. No doubt about\n"
+	.string "it!\p"
+	.string "Don't you think it's great too?$"
+#endif
 
 Route32_Text_FriedaNope:
+#if GERMAN
 	.string "Frieda: Nicht der richtige!$"
+#else
+	.string "FRIEDA: Not that one!$"
+#endif
 
 Route32_Text_Sign1:
+#if GERMAN
 	.string "Route 32\p"
 	.string "Viola City - Azalea City$"
+#else
+	.string "ROUTE 32\p"
+	.string "VIOLET CITY - AZALEA TOWN$"
+#endif
 
 Route32_Text_Sign2:
+#if GERMAN
 	.string "Alph-Ruinen\n"
 	.string "Osteingang$"
+#else
+	.string "RUINS OF ALPH\n"
+	.string "EAST ENTRANCE$"
+#endif
 
 Route32_Text_Sign3:
+#if GERMAN
 	.string "Zum Einheitstunnel$"
+#else
+	.string "UNION CAVE\n"
+	.string "AHEAD$"
+#endif

@@ -10,6 +10,7 @@ CliffEdgeCave_EventScript_BaldMan::
 	end
 
 CliffEdgeCave_Text_Baldman:
+#if GERMAN
 	.string "Wenn du in einer Höhle auf eine\n"
 	.string "Weggabelung stößt, ist einer der beiden\l"
 	.string "Wege meistens der richtige und der\l"
@@ -20,3 +21,10 @@ CliffEdgeCave_Text_Baldman:
 	.string "Für welche Leiter entscheidest du dich?\p"
 	.string "Für die, die nach oben führt, oder für\n"
 	.string "die, die nach unten führt?$"
+#else
+	.string "If you see a fork in the road\n"
+	.string "inside a cave, most likely one\l"
+	.string "way is right and the other leads\l"
+	.string "to a dead end.\p"
+	.string "but people can't help trying both.$"
+#endif

@@ -53,19 +53,42 @@ RuinsOfAlph_PuzzleAndRewardChambers_EventScript_GSBALL::
 	end
 
 RuinsOfAlph_B1F_Text_Presence:
+#if GERMAN
 	.string "Du kannst irgendeine Präsenz spüren…$"
+#else
+	.string "There is a strange presence here.$"
+#endif
 
 RuinsOfAlph_B1F_Text_Hiker:
+#if GERMAN
 	.string "Dafür, dass er so leer ist, wurde dieser\n"
 	.string "Raum aber ziemlich groß angelegt…$"
+#else
+	.string "This is a big room, but there's\n"
+	.string "nothing here.$"
+#endif
 
 RuinsOfAlph_B1F_Text_Teacher:
+#if GERMAN
     .string "Dieser Ort hat etwas Mystisches an\n"
     .string "sich.\p"
     .string "Er wirkt sogar irgendwie\n"
     .string "ätherisch.$"
+#else
+	.string "This place has a mystical\n"
+	.string "quality to it.\p"
+	.string "It feels sort of ethereal\n"
+	.string "even.$"
+#endif
 
 RuinsOfAlph_B1F_Text_Gramps:
+#if GERMAN
     .string "Alte Bauwerke sind oft die Gräber\n"
     .string "von Königen.\p"
     .string "Wie zum Beispiel die Pyramiden.$"
+#else
+	.string "Ancient buildings are often\n"
+	.string "tombs of kings.\p"
+	.string "Like the pyramids, for\n"
+	.string "instance.$"
+#endif

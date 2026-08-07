@@ -861,9 +861,21 @@ void SetMonFormPSS(struct BoxPokemon *boxMon, enum FormChanges method);
 void SetMonFormPSS_ItemHold(struct BoxPokemon *boxMon);
 void UpdateSpeciesSpritePSS(struct BoxPokemon *boxmon);
 
+#if GERMAN
 static const u8 gText_JustOnePkmn[] = _("Du führst nur ein Pokémon mit dir.");
+#else
+static const u8 gText_JustOnePkmn[] = _("There is just one POKéMON with you.");
+#endif
+#if GERMAN
 static const u8 gText_PartyFull[] = _("Dein Team ist voll!");
+#else
+static const u8 gText_PartyFull[] = _("Your party is full!");
+#endif
+#if GERMAN
 static const u8 gText_Box[] = _("Box");
+#else
+static const u8 gText_Box[] = _("BOX");
+#endif
 
 struct {
     const u8 *text;
@@ -1047,7 +1059,11 @@ static const struct SpriteTemplate sSpriteTemplate_DisplayMon =
     .oam = &sOamData_DisplayMon,
 };
 
+#if GERMAN
 static const u8 gText_PkmnIsSelected[] = _("{DYNAMIC 0} ist gewählt.");
+#else
+static const u8 gText_PkmnIsSelected[] = _("{DYNAMIC 0} is selected.");
+#endif
 
 static const struct StorageMessage sMessages[] =
 {
@@ -8119,7 +8135,11 @@ static void InitMenu(void)
     sStorage->menuWindow.baseBlock = 92;
 }
 
+#if GERMAN
 static const u8 gPCText_Give[] = _("Geben");
+#else
+static const u8 gPCText_Give[] = _("GIVE");
+#endif
 
 static const u8 *const sMenuTexts[] =
 {

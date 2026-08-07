@@ -27,29 +27,62 @@ CeladonDept6_EventScript_Directory::
 
 
 CeladonDeptStore6F_Text_Vending:
+#if GERMAN
 	.string "Ein Verkaufsautomat! Hier ist das\n"
 	.string "Menü.$"
+#else
+	.string "A vending machine! Here's the menu.$"
+#endif
 
 CeladonDeptStore6F_Text_Clang:
+#if GERMAN
 	.string "Klong!\p"
 	.string "{STR_VAR_1} ist herausgesprungen.$"
+#else
+	.string "Clang!\p"
+	.string "{STRING} popped out.$"
+#endif
 
 CeladonDeptStore6F_Text_VendingNoMoney:
+#if GERMAN
 	.string "Ups, nicht genug Geld…$"
+#else
+	.string "Oops, not enough money…$"
+#endif
 
 CeladonDeptStore6F_Text_VendingNoSpace:
+#if GERMAN
 	.string "Es ist kein Platz mehr vorhanden!$"
+#else
+	.string "There's no more room for stuff…$"
+#endif
 
 CeladonDeptStore6F_Text_SuperNerd:
+#if GERMAN
 	.string "Ein Verkaufsautomat mit Preisroulette…\n"
 	.string "\p"
 	.string "Solche sieht man heute kaum noch.$"
+#else
+	.string "A vending machine with a prize\n"
+	.string "roulette…\p"
+	.string "You never see those anymore.$"
+#endif
 
 CeladonDeptStore6F_Text_Youngster:
+#if GERMAN
 	.string "Ach Mann, hier gibt’s ja\n"
 	.string "gar keine Videospiele!\l"
 	.string "Ich will Videospiele zocken!$"
+#else
+	.string "Aww! There's no games here!\p"
+	.string "I wanted to play…$"
+#endif
 
 CeladonDeptStore6F_Text_Directory:
+#if GERMAN
 	.string "5F: Dachterrasse,\n"
 	.string "Verkaufsautomaten$"
+#else
+	.string "6F: ROOFTOP SQUARE VENDING\n"
+	.string "MACHINES$"
+#endif

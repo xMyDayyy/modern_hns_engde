@@ -15,6 +15,7 @@ ReceptionGate_EventScript_Janine::
     end
 
 ReceptionGate_Text_Janine:
+#if GERMAN
 	.string "Janina: Ich bin auf dem Weg zu\n"
 	.string "meinem Vater, um ihm das Mittagessen\l"
 	.string "zu bringen.\p"
@@ -24,6 +25,15 @@ ReceptionGate_Text_Janine:
 	.string "du? \p"
 	.string "Wenn du bereit für einen weiteren\n"
 	.string "Kampf bist, ich bin später im Dojo.$"
+#else
+    .string "JANINE: I'm on the way to my dad's\n"
+    .string "house to give him his lunch.\p"
+    .string "The ELITE FOUR has no time to rest\n"
+    .string "day or night. It's such hard work,\l"
+    .string "you know?\p"
+    .string "If you're ready for another battle,\n"
+    .string "I'll be at the DOJO later.$"
+#endif
 
 
 ReceptionGate_EventScript_Officer::
@@ -68,32 +78,67 @@ ReceptionGate_EventScript_KantoGuard::
     end
 
 VictoryRoadGate_Text_Officer:
+#if GERMAN
 	.string "Nur Trainer, die\n"
 	.string "sich als würdig erwiesen haben, dürfen\l"
 	.string "eintreten.$"
+#else
+    .string "Only trainers who have proven\n"
+    .string "themselves may pass.$"
+#endif
 
 VictoryRoadGate_Text_Kimono:
+#if GERMAN
 	.string "Entschuldige, Kleiner, dieser Weg ist\n"
 	.string "geschlossen,\l"
 	.string "bis jemand sich des\p"
 	.string "legendären Pokémon annimmt…$"
+#else
+    .string "Sorry kid, this way is closed until\n"
+    .string "someone deals with that LEGENDARY\l"
+    .string "POKéMON...$"
+#endif
 
 VictoryRoadGate_Text_NotEnoughBadges:
+#if GERMAN
 	.string "Du besitzt nicht alle Orden von Johto.\p"
 	.string "Tut mir leid. Ich\n"
 	.string "darf dich nicht passieren lassen.$"
+#else
+    .string "You don't have all the GYM BADGES\n"
+    .string "of JOHTO.\p"
+    .string "I'm sorry, but I can't let you go\n"
+    .string "through.$"
+#endif
 
 VictoryRoadGate_Text_EightBadges:
+#if GERMAN
 	.string "Oh! Alle acht Orden von Johto!\p"
 	.string "Geh bitte weiter!$"
+#else
+    .string "Oh! The eight BADGES of JOHTO!\p"
+    .string "Please, go right on through!$"
+#endif
 
 VictoryRoadGate_Text_LeftBlackBelt:
-	.string "Dieser Weg führt zum Silberberg.\p"
+#if GERMAN
+	.string "Dieser Weg führt zum {COLOR RED}Silberberg{COLOR DARK_GRAY}.\p"
 	.string "Dir werden be-\n"
 	.string "ängstigend starke Pokémon begegnen.$"
+#else
+    .string "This way leads to MT.SILVER.\p"
+    .string "You'll see scary-strong POKéMON out\n"
+    .string "there.$"
+#endif
 
 VictoryRoadGate_Text_RightBlackBelt:
+#if GERMAN
 	.string "Du bist auf dem\n"
 	.string "Weg zur Pokémon Liga, nicht wahr?\p"
 	.string "Die Top Vier sind so stark, dass es\n"
 	.string "einem Angst macht. Sie erwarten dich!$"
+#else
+    .string "Off to the POKéMON LEAGUE, are you?\p"
+    .string "The ELITE FOUR are so strong it's\n"
+    .string "scary, and they're ready for you!$"
+#endif

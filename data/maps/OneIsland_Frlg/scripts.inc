@@ -106,6 +106,7 @@ OneIsland_EventScript_PokemonNetCenterSign::
 	end
 
 OneIsland_Text_BillLetsGoSeeCelio::
+#if GERMAN
 	.string "Bill: Wir sind da!\n"
 	.string "Das ist Eiland Eins!\p"
 	.string "Hier gibt es mehrere Inseln und\n"
@@ -116,12 +117,30 @@ OneIsland_Text_BillLetsGoSeeCelio::
 	.string "Netzwerk auf der Insel zuständig.\p"
 	.string "… warum ich dir das erzähle?\n"
 	.string "Lass uns zu Celio gehen!$"
+#else
+	.string "BILL: Here we are!\n"
+	.string "This is ONE ISLAND.\p"
+	.string "There are several islands around\n"
+	.string "here, and this is one of them.\p"
+	.string "My friend CELIO sent the boat to\n"
+	.string "fetch me here.\p"
+	.string "He's in charge of the island's PC\n"
+	.string "network by his lonesome.\p"
+	.string "…Why am I telling you this now?\n"
+	.string "Let's just go see CELIO!$"
+#endif
 
 Text_WhereDoYouWantToSail::
+#if GERMAN
 	.string "Ahoi!\n"
 	.string "Wohin soll es gehen?$"
+#else
+	.string "Ahoy, there!\n"
+	.string "Where do you want to sail?$"
+#endif
 
 OneIsland_Text_LuckyToHaveCelioHere::
+#if GERMAN
 	.string "Wir sind hier auf einer Insel mitten\n"
 	.string "im Nichts.\p"
 	.string "Wir freuen uns, dass ein aufrechter\n"
@@ -132,8 +151,21 @@ OneIsland_Text_LuckyToHaveCelioHere::
 	.string "Pokémaniac.\p"
 	.string "Ich bin mir nicht sicher, aber\n"
 	.string "Celio ist der Mann dafür!$"
+#else
+	.string "Here we are on an island smack in\n"
+	.string "the middle of nowhere.\p"
+	.string "We're lucky to have an upstanding\n"
+	.string "young man like CELIO here.\p"
+	.string "My granddaughter was in a tizzy\n"
+	.string "over CELIO's friend.\p"
+	.string "Something about a famous\n"
+	.string "POKéMANIAC?\p"
+	.string "I'm not sure what that means, but\n"
+	.string "CELIO is quite the man!$"
+#endif
 
 OneIsland_Text_HavePCLinkageWithKanto::
+#if GERMAN
 	.string "Meine Enkelin war ob einer neuen\n"
 	.string "Erfindung ganz aufgeregt.\p"
 	.string "Sie sagte, dass wir jetzt via PC\n"
@@ -141,8 +173,17 @@ OneIsland_Text_HavePCLinkageWithKanto::
 	.string "verbunden sind.\p"
 	.string "Ich bin mir nicht sicher, aber\n"
 	.string "Celio ist der Mann dafür!$"
+#else
+	.string "My granddaughter was in a tizzy\n"
+	.string "over a new breakthrough.\p"
+	.string "She said we now have PC linkage\n"
+	.string "with people in KANTO.\p"
+	.string "I'm not sure what that means, but\n"
+	.string "CELIO is quite the man!$"
+#endif
 
 OneIsland_Text_HavePCLinkageWithHoenn::
+#if GERMAN
 	.string "Meine Enkelin war ob einer neuen\n"
 	.string "Erfindung ganz aufgeregt.\p"
 	.string "Sie sagte, dass wir jetzt via PC\n"
@@ -150,22 +191,47 @@ OneIsland_Text_HavePCLinkageWithHoenn::
 	.string "verbunden sind.\p"
 	.string "Ich bin mir nicht sicher, aber\n"
 	.string "Celio ist der Mann dafür!$"
+#else
+	.string "My granddaughter was in a tizzy\n"
+	.string "over a new breakthrough.\p"
+	.string "She said we finally have PC linkage\n"
+	.string "with people in HOENN.\p"
+	.string "I'm not sure what that means, but\n"
+	.string "CELIO is quite the man.\p"
+	.string "He would make a fine husband for\n"
+	.string "my granddaughter!$"
+#endif
 
 OneIsland_Text_IslandSign::
+#if GERMAN
 	.string "Eiland Eins\n"
 	.string "Freunde treffen sich auf der\l"
 	.string "Knoteninsel$"
+#else
+	.string "ONE ISLAND\n"
+	.string "Friends Gather at Knot Island$"
+#endif
 
 OneIsland_Text_PokemonNetCenterSign::
+#if GERMAN
 	.string "Über die Pokémon-Welt hinaus!\n"
 	.string "Pokémon Netzwerk-Center$"
+#else
+	.string "Expanding the POKéMON World!\n"
+	.string "POKéMON NET CENTER$"
+#endif
 
 @ Unused
 OneIsland_Text_ReturnToCinnabar::
 	.string "グレンタウンに　もどりますか？$"
 
 OneIsland_Text_IsntWarmClimateHereGreat::
+#if GERMAN
 	.string "Hallo, auf Besichtigungstour?\n"
 	.string "Ist das warme Klima hier nicht\l"
 	.string "großartig?$"
+#else
+	.string "Hi, sight-seeing, are you?\n"
+	.string "Isn't the warm climate here great?$"
+#endif
 

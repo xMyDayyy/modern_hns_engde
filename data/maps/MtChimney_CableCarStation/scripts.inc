@@ -84,12 +84,25 @@ MtChimney_CableCarStation_Movement_ExitCableCar:
 	step_end
 
 MtChimney_CableCarStation_Text_CableCarReadyGetOn:
+#if GERMAN
 	.string "Die Seilbahn fährt gleich hinab.\n"
 	.string "Möchtest du mit?$"
+#else
+	.string "The CABLE CAR is ready to go down.\n"
+	.string "Would you like to be on it?$"
+#endif
 
 MtChimney_CableCarStation_Text_StepThisWay:
+#if GERMAN
 	.string "Bitte hier entlang.$"
+#else
+	.string "Please step this way.$"
+#endif
 
 MtChimney_CableCarStation_Text_RideAnotherTime:
+#if GERMAN
 	.string "Dann fahre bitte später mit uns.$"
+#else
+	.string "Please ride with us another time.$"
+#endif
 

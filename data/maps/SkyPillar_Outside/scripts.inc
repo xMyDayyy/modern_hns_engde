@@ -138,9 +138,14 @@ SkyPillar_Outside_EventScript_ClosedDoor::
 	end
 
 SkyPillar_Outside_Text_DoorIsClosed:
+#if GERMAN
 	.string "Die Tür ist zu.$"
+#else
+	.string "The door is closed.$"
+#endif
 
 SkyPillar_Outside_Text_OpenedDoorToSkyPillar:
+#if GERMAN
 	.string "Wassili: Oh, das tut mir schrecklich\n"
 	.string "Leid!\p"
 	.string "In meiner Hast habe ich gar nicht\n"
@@ -149,17 +154,37 @@ SkyPillar_Outside_Text_OpenedDoorToSkyPillar:
 	.string "Ich habe die Türen des Himmelturms\n"
 	.string "aufgeschlossen.\p"
 	.string "Lass uns gehen, {PLAYER}{KUN}!$"
+#else
+	.string "WALLACE: Oh, my, I'm terribly sorry!\p"
+	.string "In my haste, I didn't notice that\n"
+	.string "I'd left you behind!\p"
+	.string "I've opened the locked door of\n"
+	.string "the SKY PILLAR.\p"
+	.string "{PLAYER}{KUN}, let's be on our way!$"
+#endif
 
 SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
+#if GERMAN
 	.string "Wassili: Das ist ein Erdbeben!\p"
 	.string "Wir dürfen keine Sekunde verlieren!\n"
 	.string "Wir müssen uns beeilen!$"
+#else
+	.string "WALLACE: It's an earthquake!\p"
+	.string "There's not a moment to waste!\n"
+	.string "We've got to hurry!$"
+#endif
 
 SkyPillar_Outside_Text_SituationGettingWorse:
+#if GERMAN
 	.string "Wassili: Hmm…\n"
 	.string "Die Situation verschärft sich…$"
+#else
+	.string "WALLACE: Hmm…\n"
+	.string "The situation is getting worse…$"
+#endif
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
+#if GERMAN
 	.string "Wassili: Das ist schlecht…\p"
 	.string "Das Wetter spielt selbst hier\n"
 	.string "verrückt… \p"
@@ -170,3 +195,15 @@ SkyPillar_Outside_Text_GotToGoBackForSootopolis:
 	.string "Ich muss zurück.\p"
 	.string "Nun liegt alles in deiner Hand!\n"
 	.string "Enttäusch uns nicht.$"
+#else
+	.string "WALLACE: This isn't good…\p"
+	.string "The weather distortion is spreading\n"
+	.string "even here…\p"
+	.string "{PLAYER}{KUN}.\p"
+	.string "RAYQUAZA should be farther up\n"
+	.string "from here.\p"
+	.string "I'm worried about SOOTOPOLIS.\n"
+	.string "I've got to go back.\p"
+	.string "Everything is in your hands now.\n"
+	.string "Don't fail us!$"
+#endif

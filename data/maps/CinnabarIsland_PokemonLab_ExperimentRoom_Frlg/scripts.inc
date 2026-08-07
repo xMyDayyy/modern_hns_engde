@@ -285,35 +285,75 @@ CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_CheckRevivedDome::
 	return
 
 Text_MetronomeTeach::
+#if GERMAN
 	.string "Tak-tak-tak!\n"
 	.string "Ich kann einem Pokémon eine\l"
 	.string "tolle Attacke beibringen!\p"
 	.string "Die Attacke heißt Metronom!\n"
 	.string "Könnte sie dir gefallen?$"
+#else
+	.string "Tch-tch-tch!\n"
+	.string "I'll teach you a nifty move.\p"
+	.string "Teach it to a POKéMON, and watch\n"
+	.string "the fun unfold!\p"
+	.string "It's a move called METRONOME.\n"
+	.string "Does it strike your fancy?$"
+#endif
 
 Text_MetronomeDeclined::
+#if GERMAN
 	.string "Ich sage dir, es macht viel Spaß!$"
+#else
+	.string "I tell you, it's a lot of fun!$"
+#endif
 
 Text_MetronomeWhichMon::
+#if GERMAN
 	.string "O.K.! Welches Pokémon\n"
 	.string "soll sie erlernen?$"
+#else
+	.string "Okay!\n"
+	.string "Which POKéMON should I teach?$"
+#endif
 
 Text_MetronomeTaught::
+#if GERMAN
 	.string "Tak-tak-tak!\n"
 	.string "So klingt ein Metronom!\p"
 	.string "Damit setzt dein Pokémon Attacken\n"
 	.string "ein, die es gar nicht kennt!$"
+#else
+	.string "Tch-tch-tch!\n"
+	.string "That's the sound of a METRONOME.\p"
+	.string "It tweaks your POKéMON's brain into\n"
+	.string "using moves it doesn't even know.$"
+#endif
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_HaveYouAFossilForMe::
+#if GERMAN
 	.string "Hallo!\p"
 	.string "Ich leite hier die Forschungen!\p"
 	.string "Wir erforschen Fossilien von\n"
 	.string "Urzeit-Pokémon!\p"
 	.string "Hast du ein Fossil für mich?$"
+#else
+	.string "Hiya!\p"
+	.string "I am important doctor.\n"
+	.string "Yes, very much so, indeed.\p"
+	.string "Here, I study rare POKéMON fossils.\n"
+	.string "All the time, I study.\p"
+	.string "You!\n"
+	.string "Have you a fossil for me?$"
+#endif
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoIsTooBad::
+#if GERMAN
 	.string "Nein?\n"
 	.string "Zu schade!$"
+#else
+	.string "No!\n"
+	.string "Is too bad!$"
+#endif
 
 @ Unused
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalkJP::
@@ -322,20 +362,33 @@ CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalkJP::
 	.string "ブラブラ　してくると　よろしー！$"
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_FossilMonBackToLife::
+#if GERMAN
 	.string "Wo warst du? Wir haben\n"
 	.string "dein Fossil wieder belebt!\p"
 	.string "Ein {STR_VAR_1}, ganz wie ich es\n"
 	.string "vermutet habe!$"
+#else
+	.string "You late.\n"
+	.string "Where were you?\p"
+	.string "Your fossil is back to life!\n"
+	.string "It was {STR_VAR_1} like I think!$"
+#endif
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_ReceivedMonFromDoctor::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "{STR_VAR_1}!$"
+#else
+	.string "{PLAYER} received the {STR_VAR_1}\n"
+	.string "from the doctor.$"
+#endif
 
 @ Unused
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoRoomForPokemon::
 	.string "ポケモン　いっぱいで　もてないね！$"
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_ThatFossilIsOfMonMakeItLiveAgain::
+#if GERMAN
 	.string "Oh!\n"
 	.string "Das ist ein {STR_VAR_2}!\p"
 	.string "Es ist ein Fossil von {STR_VAR_1},\n"
@@ -344,18 +397,43 @@ CinnabarIsland_PokemonLab_ExperimentRoom_Text_ThatFossilIsOfMonMakeItLiveAgain::
 	.string "Dank modernster Technik können wir\n"
 	.string "Pokémon aus Fossilien\l"
 	.string "wieder beleben!$"
+#else
+	.string "Oh!\n"
+	.string "That is {STR_VAR_2}, it is!\p"
+	.string "It is fossil of {STR_VAR_1},\n"
+	.string "a POKéMON that is already extinct!\p"
+	.string "My Resurrection Machine will make\n"
+	.string "that POKéMON live again!$"
+#endif
 
 @ TODO: Resolve text dump error below?
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_HandedFossilToWeirdDoctor::
+#if GERMAN
 	.string "Gib es schnell her, damit ich\n"
 	.string "fortfahren kann!\p"
 	.string "{FONT_NORMAL}{PLAYER} übergibt das\n"
 	.string "{STR_VAR_2}!$"
+#else
+	.string "So!\n"
+	.string "You hurry and give me that!\p"
+	.string "{FONT_NORMAL}{PLAYER} handed over the\n"
+	.string "{STR_VAR_2} to the weird doctor.$"
+#endif
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalk::
+#if GERMAN
 	.string "Es wird einige Zeit dauern!\n"
 	.string "Komm einfach später wieder vorbei!$"
+#else
+	.string "I take a little time!\n"
+	.string "You go for walk a little while!$"
+#endif
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_YouComeAgain::
+#if GERMAN
 	.string "Du bist jederzeit willkommen!$"
+#else
+	.string "Aiyah!\n"
+	.string "You come again!$"
+#endif
 

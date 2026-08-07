@@ -2,18 +2,33 @@ EcruteakCity_House2_hns_MapScripts::
 	.byte 0
 
 Ecruteak_Text_ItemfinderAdventure:
+#if GERMAN
 	.string "Oh, suchst du mit deinem Pokémon-Team\n"
 	.string "nach dem großen Abenteuer?\p"
 	.string "Tja, aber zu einem echten Abenteuer\n"
 	.string "gehört auch immer eine Schatzsuche!\p"
 	.string "Habe ich nicht recht?$"
+#else
+	.string "Ah. You're on an adventure with\n"
+	.string "your POKéMON?\p"
+	.string "Well, what's an adventure without\n"
+	.string "treasure hunting?\p"
+	.string "Am I right, or am I right?$"
+#endif
 
 Ecruteak_Text_ItemfinderTrueSpirit:
+#if GERMAN
 	.string "Aha! Du weißt offensichtlich ganz genau,\n"
 	.string "was Männerherzen höher schlagen lässt!\p"
 	.string "Du gefällst mir! Hier, nimm das mit.$"
+#else
+	.string "Good! You understand the true\n"
+	.string "spirit of adventure.\p"
+	.string "I like that! Take this with you.$"
+#endif
 
 Ecruteak_Text_ItemfinderExplanation:
+#if GERMAN
 	.string "Manchmal liegen Items herum,\n"
 	.string "die man leicht übersieht.\p"
 	.string "Setze den Detektor ein,\n"
@@ -22,11 +37,25 @@ Ecruteak_Text_ItemfinderExplanation:
 	.string "Den exakten Fundort musst du aber\n"
 	.string "selbst herausfinden.\p"
 	.string "Ich hörte auch,\n"
-	.string "dass in der Turmruine von Teak\l"
+	.string "dass in der {COLOR RED}Turmruine{COLOR DARK_GRAY} von Teak\l"
 	.string "City Items zu finden wären.$"
+#else
+	.string "There are many items lying about\n"
+	.string "that aren't obvious.\p"
+	.string "Use ITEMFINDER to check if there\n"
+	.string "is an item on the ground near you.\p"
+	.string "It doesn't show the exact spot,\n"
+	.string "so you'll have to look yourself.\p"
+	.string "Oh yeah--I heard there are items\n"
+	.string "in ECRUTEAK's BURNED TOWER.$"
+#endif
 
 Ecruteak_Text_ItemfinderToEachHisOwn:
+#if GERMAN
 	.string "…Na gut, wenn du meinst!$"
+#else
+	.string "Oh… To each his own, I suppose…$"
+#endif
 
 EcruteakCity_House2_EventScript_ItemFinderMan::
 	lock
@@ -71,15 +100,27 @@ EcruteakCity_House2_EventScript_Book3::
 	end
 
 Ecruteak_Text_ItemFinderMan::
+#if GERMAN
 	.string "Teak City ist eine sehr alte Stadt.\n"
 	.string "Viele Generationen Geschichte\l"
 	.string "stehen in Büchern wie diesem.$"
+#else
+	.string "ECRUTEAK is a very old city.\n"
+	.string "Many generations passed down\l"
+	.string "their history in books like these.$"
+#endif
 
 Ecruteak_Text_HistoryBook:
+#if GERMAN
 	.string "Die Geschichte von Teak City…\p"
 	.string "Lesen?$"
+#else
+	.string "HISTORY OF ECRUTEAK\p"
+	.string "Want to read it?$"
+#endif
 
 Ecruteak_Text_TwoTowers:
+#if GERMAN
 	.string "In Teak City gab es einmal zwei Türme.\n"
 	.string "Jeder der beiden diente einem von zwei\l"
 	.string "fliegenden Pokémon als Landestelle.\p"
@@ -87,8 +128,19 @@ Ecruteak_Text_TwoTowers:
 	.string "ab, und auch die Pokémon verschwanden.\l"
 	.string "So steht es geschrieben.\p"
 	.string "Weiterlesen?$"
+#else
+	.string "In ECRUTEAK, there were two towers.\p"
+	.string "Each tower was the roost of\n"
+	.string "powerful flying POKéMON.\p"
+	.string "But one of the towers burned to\n"
+	.string "the ground.\p"
+	.string "The two POKéMON haven't been seen\n"
+	.string "since…\p"
+	.string "Keep reading?$"
+#endif
 
 Ecruteak_Text_ThreeMon:
+#if GERMAN
 	.string "Drei weitere Pokémon streiften damals\n"
 	.string "durch die nähere Umgebung der Stadt.\p"
 	.string "Die Leute aus Teak City bezeichneten\n"
@@ -102,3 +154,13 @@ Ecruteak_Text_ThreeMon:
 	.string "und der Wind trug jedes von ihnen\l"
 	.string "in eine andere Richtung.\p"
 	.string "So steht es geschrieben.$"
+#else
+	.string "ECRUTEAK was also home to three\n"
+	.string "POKéMON that raced around the town.\p"
+	.string "They were said to have been born\n"
+	.string "of water, lightning and fire.\p"
+	.string "But they could not contain their\n"
+	.string "excessive power.\p"
+	.string "So they say the three ran like the\n"
+	.string "wind off into the grassland.$"
+#endif

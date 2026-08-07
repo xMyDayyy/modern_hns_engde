@@ -33,10 +33,21 @@ CinnabarIsland_Mart_Items::
 	end
 
 CinnabarIsland_Mart_Text_DontTheyHaveXAttack::
+#if GERMAN
 	.string "Haben sie kein X-Angriff?\n"
 	.string "Es ist in Kämpfen sehr nützlich!$"
+#else
+	.string "Don't they have X ATTACK?\p"
+	.string "I like it because it raises the\n"
+	.string "ATTACK stat in battle.$"
+#endif
 
 CinnabarIsland_Mart_Text_ExtraItemsNeverHurt::
+#if GERMAN
 	.string "Man sollte immer einige Items bei\n"
 	.string "sich tragen!$"
+#else
+	.string "It never hurts to have extra items.\n"
+	.string "You never know what might happen.$"
+#endif
 

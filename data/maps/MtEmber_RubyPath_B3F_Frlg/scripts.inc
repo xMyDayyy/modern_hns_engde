@@ -12,5 +12,9 @@ MtEmber_RubyPath_B5F_EventScript_Ruby::
 	end
 
 MtEmber_RubyPath_B3F_Text_FoundARuby::
+#if GERMAN
 	.string "{PLAYER} hat den Rubin gefunden!$"
+#else
+	.string "{PLAYER} found a RUBY!$"
+#endif
 

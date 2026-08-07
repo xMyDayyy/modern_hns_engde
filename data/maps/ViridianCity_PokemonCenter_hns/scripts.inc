@@ -24,24 +24,47 @@ ViridianCity_PokemonCenter_EventScript_BugCatcher::
 	end
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerM:
+#if GERMAN
 	.string "Wo lungert der Arenaleiter von\n"
 	.string "Vertania City eigentlich herum?\l"
 	.string "Ich wollte ihn doch herausfordern…$"
+#else
+	.string "Where in the world is VIRIDIAN's GYM\n"
+	.string "LEADER? I wanted to challenge him.$"
+#endif
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerM_BlueReturned:
+#if GERMAN
 	.string "In der Pokémon-Arena\n"
 	.string "von Vertania City gibt es keine Trainer.\p"
 	.string "Der Arenaleiter vertritt den\n"
 	.string "Grundsatz, auch ohne die\l"
 	.string "Hilfe von Untergebenen\l"
 	.string "gewinnen zu können.$"
+#else
+	.string "There are no GYM TRAINERS at the\n"
+	.string "VIRIDIAN GYM.\p"
+	.string "The LEADER claims his policy is to\n"
+	.string "win without having any underlings.$"
+#endif
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerF:
+#if GERMAN
 	.string "Offensichtlich wurde die Pokémon-Arena\n"
-	.string "auf der Zinnoberinsel zerstört.\p"
+	.string "auf der {COLOR RED}Zinnoberinsel{COLOR DARK_GRAY} zerstört.\p"
 	.string "Ich frage mich, was wohl aus Pyro,\n"
 	.string "dem Arenaleiter, geworden ist.$"
+#else
+	.string "I heard that the GYM in CINNABAR is\n"
+	.string "gone.\p"
+	.string "I wonder what became of BLAINE, the\n"
+	.string "GYM LEADER.$"
+#endif
 
 ViridianCity_PokemonCenter_Text_1FBugCatcher:
+#if GERMAN
 	.string "Mein großer Traum ist es,\n"
 	.string "Arenaleiter zu werden!$"
+#else
+	.string "My dream is to become a GYM LEADER.$"
+#endif

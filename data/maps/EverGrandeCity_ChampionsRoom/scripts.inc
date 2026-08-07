@@ -220,6 +220,7 @@ EverGrandeCity_ChampionsRoom_Movement_BirchArrives:
 	step_end
 
 EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
+#if GERMAN
 	.string "Wassili: Willkommen, {PLAYER}{KUN}.\p"
 	.string "Dieser Zwischenfall in Xeneroville…\n"
 	.string "Das war hervorragende Arbeit - wie du\l"
@@ -242,8 +243,32 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "Wer kann am elegantesten in ganz\n"
 	.string "Hoenn mit seinen Pokémon tanzen?\p"
 	.string "Zeig es mir! Hier und jetzt!$"
+#else
+	.string "WALLACE: Welcome, {PLAYER}{KUN}.\p"
+	.string "That incident in SOOTOPOLIS CITY…\n"
+	.string "That was superb work, putting an end\l"
+	.string "to that crisis all by yourself.\p"
+	.string "Oops!\p"
+	.string "It wouldn't be fair to say that you\n"
+	.string "alone ended the crisis.\p"
+	.string "You overcame that difficult situation\n"
+	.string "by working as one with your POKéMON.\p"
+	.string "We TRAINERS raise POKéMON by giving\n"
+	.string "them items and by teaching them new\l"
+	.string "techniques for battle.\p"
+	.string "But we ourselves also learn many\n"
+	.string "things from POKéMON.\p"
+	.string "And this is where your achievements\n"
+	.string "are put to the test against what\l"
+	.string "others like you have achieved.\p"
+	.string "Now!\p"
+	.string "Who can most elegantly dance with\n"
+	.string "their POKéMON in HOENN?\p"
+	.string "Show me right here and now!$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
+#if GERMAN
 	.string "Ich, der Champ, wurde besiegt…\p"
 	.string "Eine erstklassige Leistung!\n"
 	.string "Du warst elegant, manchmal auch\l"
@@ -251,8 +276,18 @@ EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "Der Ruhm gehört dir, {PLAYER}{KUN}!\p"
 	.string "Du bist wahrhaft ein edler\n"
 	.string "Trainer!$"
+#else
+	.string "I, the CHAMPION, fall in defeat…\p"
+	.string "That was wonderful work.\n"
+	.string "You were elegant, infuriatingly so.\l"
+	.string "And yet it was utterly glorious!\p"
+	.string "Kudos to you, {PLAYER}{KUN}!\p"
+	.string "You are a truly noble POKéMON\n"
+	.string "TRAINER!$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
+#if GERMAN
 	.string "Wassili: Die Pokémon, die du in den\n"
 	.string "Kampf geschickt hast…\p"
 	.string "Manchmal wirbelten sie wie eine\n"
@@ -266,29 +301,71 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "Pokémon Liga erreicht.\p"
 	.string "Für die ganze Hoenn-region rufe ich\n"
 	.string "dich hiermit…$"
+#else
+	.string "WALLACE: The POKéMON you sent into\n"
+	.string "battle…\p"
+	.string "At times they danced like a spring\n"
+	.string "breeze, and at times they struck\l"
+	.string "like lightning.\p"
+	.string "It was with light, yet surefooted,\n"
+	.string "elegance that you led your POKéMON.\p"
+	.string "Even I felt bedazzled by your\n"
+	.string "masterful performance!\p"
+	.string "You now stand at the glorious peak\n"
+	.string "of the POKéMON LEAGUE.\p"
+	.string "I now proclaim you to be the new\n"
+	.string "HOENN region…$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
+#if GERMAN
 	.string "Maike: {PLAYER}{KUN}!\p"
 	.string "Ich muss dir unbedingt einen Rat\n"
 	.string "geben,\l"
 	.string "bevor du gegen den Champ antrittst!$"
+#else
+	.string "MAY: {PLAYER}{KUN}!\p"
+	.string "Here's some advice before you challenge\n"
+	.string "the CHAMPION…$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
+#if GERMAN
 	.string "Maike: Wie? Waswaswas?\p"
 	.string "{PLAYER}{KUN}… Das kann nicht sein…\l"
 	.string "Es ist schon vorbei?$"
+#else
+	.string "MAY: Huh?\n"
+	.string "What, what, what?\p"
+	.string "{PLAYER}{KUN}…\n"
+	.string "Could it be that…\l"
+	.string "It's already over?$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
+#if GERMAN
 	.string "Brix: {PLAYER}!\p"
 	.string "Möchtest du nicht ein paar Tipps,\n"
 	.string "bevor du den Champ herausforderst?$"
+#else
+	.string "BRENDAN: {PLAYER}!\p"
+	.string "How would you like some advice before\n"
+	.string "you challenge the CHAMPION?…$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
+#if GERMAN
 	.string "Brix: {PLAYER}!\p"
 	.string "Willst du mir etwa sagen…\n"
 	.string "Du hast den Champ besiegt?!?!?!$"
+#else
+	.string "BRENDAN: {PLAYER}…\p"
+	.string "Are you trying to tell me…\n"
+	.string "You've beaten the CHAMPION?$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
+#if GERMAN
 	.string "Prof. Birk: Siehst du?\n"
 	.string "Was habe ich dir gesagt, {RIVAL}?\p"
 	.string "Ich wusste, du brauchst dir keine\n"
@@ -302,29 +379,67 @@ EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
 	.string "Aber, dass du dann sogar Champ\n"
 	.string "geworden bist!\p"
 	.string "Oh, ja!\p"
-	.string "Was ist aus deinem Pokédex geworden?\n"
+	.string "Was ist aus deinem {COLOR RED}Pokédex{COLOR DARK_GRAY} geworden?\n"
 	.string "Lass mich mal sehen…$"
+#else
+	.string "PROF. BIRCH: See?\n"
+	.string "What did I tell you, {RIVAL}?\p"
+	.string "Didn't I tell you that you don't need\n"
+	.string "to worry about {PLAYER}{KUN}?\p"
+	.string "… … … … … … … …\n"
+	.string "{PLAYER}{KUN}, you've finally done it.\p"
+	.string "When I heard that you defeated your\n"
+	.string "own father at the PETALBURG GYM,\l"
+	.string "I thought perhaps you had a chance…\p"
+	.string "But to think you've actually become\n"
+	.string "the CHAMPION!\p"
+	.string "Ah, yes!\p"
+	.string "What became of your POKéDEX?\n"
+	.string "Here, let me see.$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
+#if GERMAN
 	.string "Prof. Birk: Also, dann sage ich:\n"
 	.string "Herzlichen Glückwunsch!\p"
 	.string "Nun kannst du mit Stolz den letzten\n"
 	.string "Raum betreten!$"
+#else
+	.string "PROF. BIRCH: Anyways,\n"
+	.string "congratulations!\p"
+	.string "Now, go proudly into the final room!$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe:
+#if GERMAN
 	.string "Wassili: {PLAYER}{KUN}…\p"
 	.string "Nein! Lass es mich richtig ausdrücken!\n"
 	.string "\p"
 	.string "Neuer Champ!\p"
 	.string "Komm mit mir.$"
+#else
+	.string "WALLACE: {PLAYER}{KUN}…\p"
+	.string "No, let me rephrase that properly.\p"
+	.string "The new CHAMPION!\p"
+	.string "Come with me.$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
+#if GERMAN
 	.string "Wassili: Tut mir Leid, aber…\p"
 	.string "Diesen Raum dürfen nur Trainer\n"
 	.string "betreten, die Champs geworden sind.\p"
 	.string "Warte bitte draußen mit dem Professor.$"
+#else
+	.string "WALLACE: I'm sorry, but…\p"
+	.string "From here on, only those TRAINERS who\n"
+	.string "have become CHAMPIONS may enter.\p"
+	.string "You'll have to wait outside with\n"
+	.string "PROF. BIRCH.$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
+#if GERMAN
 	.string "Maike: Grummel…\p"
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
@@ -332,11 +447,28 @@ EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
 	.string "So sind die Regeln!\p"
 	.string "{PLAYER}{KUN}!\n"
 	.string "Ehrlich. Herzlichen Glückwunsch!$"
+#else
+	.string "MAY: Groan…\p"
+	.string "… … … … … … … …\n"
+	.string "… … … … … … … …\p"
+	.string "I'm just joking! That's okay!\n"
+	.string "That's the rule!\p"
+	.string "{PLAYER}{KUN}!\n"
+	.string "Honestly, congratulations!$"
+#endif
 
 EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
+#if GERMAN
 	.string "Brix: … … … … … …\n"
 	.string "… … … … … … … …\p"
 	.string "Na, wenn es die Regeln so bestimmen…\p"
 	.string "{PLAYER}, das ist dein Tag!\n"
 	.string "Herzlichen Glückwunsch!$"
+#else
+	.string "BRENDAN: Whaaaat?! … … … … …\n"
+	.string "… … … … … … … …\p"
+	.string "It can't be helped if that's the rule.\p"
+	.string "{PLAYER}, way to go!\n"
+	.string "Congratulations!$"
+#endif
 

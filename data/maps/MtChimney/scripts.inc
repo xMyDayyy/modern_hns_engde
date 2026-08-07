@@ -542,6 +542,7 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
+#if GERMAN
 	.string "Die Kraft, die in dem Meteoriten\n"
 	.string "steckt…\p"
 	.string "Wenn man die mit dieser Maschine\n"
@@ -550,8 +551,18 @@ MtChimney_Text_MeteoriteWillActivateVolcano:
 	.string "Die Energie wird tief im Krater\n"
 	.string "ansteigen und…\l"
 	.string "Hähähähä…$"
+#else
+	.string "The power contained in the METEORITE…\p"
+	.string "By amplifying its power with this\n"
+	.string "machine, MT. CHIMNEY's volcanic\l"
+	.string "activity will instantly intensify…\p"
+	.string "Its energy will grow deep inside\n"
+	.string "the crater and…\l"
+	.string "Fufufu…$"
+#endif
 
 MtChimney_Text_MaxieIntro:
+#if GERMAN
 	.string "Marc: Hm?\n"
 	.string "Wer bist du denn?!?\p"
 	.string "… … … … … …\n"
@@ -584,13 +595,47 @@ MtChimney_Text_MaxieIntro:
 	.string "Ich werde dir zeigen, was\n"
 	.string "passiert, wenn du uns aufhalten\l"
 	.string "willst!$"
+#else
+	.string "MAXIE: Hm?\n"
+	.string "Who are you?\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "I'd heard ARCHIE bemoaning a child\n"
+	.string "who's been meddling in TEAM AQUA's\l"
+	.string "affairs.\p"
+	.string "It must be you he meant.\p"
+	.string "Humph! So you're thinking of\n"
+	.string "interfering with us, TEAM MAGMA?\p"
+	.string "Now you listen.\n"
+	.string "Long ago, living things used the\l"
+	.string "land to live and grow.\p"
+	.string "That is why land is all important!\n"
+	.string "It is the cradle of all!\p"
+	.string "That is why TEAM MAGMA is dedicated\n"
+	.string "to the expansion of the land mass.\p"
+	.string "It is for further advancement of\n"
+	.string "humankind and POKéMON!\p"
+	.string "And for that, we need the power of\n"
+	.string "what sleeps within this mountain…\p"
+	.string "Oh! There was no need for you to\n"
+	.string "learn that much.\p"
+	.string "But, no matter!\n"
+	.string "I'll teach you the consequences of\l"
+	.string "meddling in our grand design!$"
+#endif
 
 MtChimney_Text_MaxieDefeat:
+#if GERMAN
 	.string "Wie bitte?!?\p"
 	.string "Ich, Marc, wurde ganz hinterhältig\n"
 	.string "besiegt?!?$"
+#else
+	.string "What?!\p"
+	.string "I, MAXIE, was caught off guard?!$"
+#endif
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
+#if GERMAN
 	.string "Marc: Genug.\n"
 	.string "Ich ziehe mich für den Moment zurück.\n"
 	.string "\p"
@@ -601,88 +646,188 @@ MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
 	.string "Hähähä…\p"
 	.string "Auch ohne Meteorit… Wenn wir erst die\n"
 	.string "Kugel haben… Hähähähä…$"
+#else
+	.string "MAXIE: But, enough.\n"
+	.string "I will back off this time.\p"
+	.string "But don't think that this is the last\n"
+	.string "you've seen of TEAM MAGMA.\p"
+	.string "Fufufu…\p"
+	.string "Even without the METEORITE, if we\n"
+	.string "obtain that ORB… Fufufu…$"
+#endif
 
 MtChimney_Text_TabithaIntro:
+#if GERMAN
 	.string "Hahahahaha!\p"
 	.string "Da bist du also den weiten Weg hier\n"
 	.string "hoch gelatscht.\p"
 	.string "Tja, du kommst leider zu spät. Ich\n"
 	.string "habe den Meteoriten aus Meteorfälle\l"
 	.string "bereits bei meinem Boss abgeliefert!$"
+#else
+	.string "Hehehe!\p"
+	.string "So you've come all the way here!\p"
+	.string "But you're too late!\n"
+	.string "I've already delivered the METEORITE\l"
+	.string "from METEOR FALLS to the BOSS!$"
+#endif
 
 MtChimney_Text_TabithaDefeat:
+#if GERMAN
 	.string "Hähähä…\p"
 	.string "Auch wenn ich verloren habe… Sobald\n"
 	.string "unser Boss das Ding zum Leben erweckt…$"
+#else
+	.string "Hehehe…\p"
+	.string "Even though I've lost, if our leader\n"
+	.string "awakens that thing…$"
+#endif
 
 MtChimney_Text_TabithaPostBattle:
+#if GERMAN
 	.string "Boss, beeil dich!\n"
 	.string "Gib ihm die Energie des Meteoriten!\p"
 	.string "Hähähä…$"
+#else
+	.string "BOSS, hurry!\n"
+	.string "Give it the METEORITE's energy!\p"
+	.string "Hehehe…$"
+#endif
 
 MtChimney_Text_Grunt2Intro:
+#if GERMAN
 	.string "Wir von Team Magma setzen alles daran,\n"
 	.string "zum Wohle aller zu handeln.\p"
 	.string "Und wenn das Ding mehr Land schafft,\n"
 	.string "gibt es auch mehr Platz zum Leben.\p"
 	.string "Und jeder wäre glücklich!$"
+#else
+	.string "We of TEAM MAGMA are working hard for\n"
+	.string "everyone's sake.\p"
+	.string "Like, if that thing's power made more\n"
+	.string "land, there'd be more places to live.\p"
+	.string "Everyone'd be happy!$"
+#endif
 
 MtChimney_Text_Grunt2Defeat:
+#if GERMAN
 	.string "Bitte?\n"
 	.string "Was sagst du? Ich habe verloren???$"
+#else
+	.string "Hunh?\n"
+	.string "What do you mean I lost?$"
+#endif
 
 MtChimney_Text_Grunt2PostBattle:
+#if GERMAN
 	.string "Unser Boss sagt: “Jeder wird glücklich\n"
 	.string "sein.”\p"
 	.string "Aber warum will uns dann jeder\n"
 	.string "aufhalten?$"
+#else
+	.string "Our BOSS says, “It will make everyone\n"
+	.string "happy.”\p"
+	.string "But why does everyone keep getting\n"
+	.string "in our way?$"
+#endif
 
 MtChimney_Text_Grunt1Intro:
+#if GERMAN
 	.string "Wenn es mehr Land gibt, wäre ich in\n"
 	.string "der\n"
 	.string "Lage, mir ein eigenes großes Haus zu\l"
 	.string "bauen!\p"
 	.string "Das würde ich dann auf der erstarrten\n"
 	.string "Lava bauen!$"
+#else
+	.string "If there were more land, I'd be able\n"
+	.string "to get a big house of my own!\p"
+	.string "I'm going to build it on hardened lava!$"
+#endif
 
 MtChimney_Text_Grunt1Defeat:
+#if GERMAN
 	.string "Mein Traum von einem großen Haus…$"
+#else
+	.string "My dream of a big house…$"
+#endif
 
 MtChimney_Text_Grunt1PostBattle:
+#if GERMAN
 	.string "Ein Kind wie du sollte sich im Meer\n"
 	.string "vergnügen.$"
+#else
+	.string "A kid like you, you ought to be\n"
+	.string "splashing about in the waves!$"
+#endif
 
 MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
+#if GERMAN
 	.string "Dieses lästige Team Aqua… Sie ver-\n"
 	.string "suchen alles, unsere Pläne zu\l"
 	.string "vereiteln.$"
+#else
+	.string "That annoying TEAM AQUA…\n"
+	.string "They always mess with our plans!$"
+#endif
 
 MtChimney_Text_MeteoritesPackAmazingPower:
+#if GERMAN
 	.string "Meteoriten stecken voller Energie.$"
+#else
+	.string "METEORITES pack amazing power!$"
+#endif
 
 MtChimney_Text_YouBetterNotMessWithUs:
+#if GERMAN
 	.string "Du gehst uns besser aus dem Weg!\p"
 	.string "Wir werden das Ding zum Leben\n"
 	.string "erwecken. Zum Wohle aller.$"
+#else
+	.string "You'd better not mess with us!\p"
+	.string "We're trying to awaken that thing\n"
+	.string "for the benefit of everyone!$"
+#endif
 
 MtChimney_Text_AquasNameSimilar:
+#if GERMAN
 	.string "Wir sind Team Magma!\p"
 	.string "Sie sind Team Aqua!\p"
 	.string "Ich finde es total bescheuert, dass\n"
 	.string "sie\l"
 	.string "einen Namen haben, der unserem ähnelt.$"
+#else
+	.string "We're TEAM MAGMA!\p"
+	.string "They're TEAM AQUA!\p"
+	.string "It totally annoys me that they'd\n"
+	.string "use a name like ours!$"
+#endif
 
 MtChimney_Text_DouseThemInFire:
+#if GERMAN
 	.string "Yeah! Taucht sie ins Feuer!$"
+#else
+	.string "Yeah!\n"
+	.string "Douse them in fire!$"
+#endif
 
 MtChimney_Text_KeepMakingMoreLand:
+#if GERMAN
 	.string "Wir werden weiter für mehr Land\n"
 	.string "sorgen!$"
+#else
+	.string "We're going to keep making more land!$"
+#endif
 
 MtChimney_Text_Bufoh:
+#if GERMAN
 	.string "Hahoh!$"
+#else
+	.string "Bufoh!$"
+#endif
 
 MtChimney_Text_ArchieGoStopTeamMagma:
+#if GERMAN
 	.string "Adrian: Grrr, {PLAYER}!\n"
 	.string "Ich hätte es wissen müssen. War doch\l"
 	.string "klar, dass du hier auftauchst.\p"
@@ -692,15 +837,34 @@ MtChimney_Text_ArchieGoStopTeamMagma:
 	.string "Meteoriten in den Vulkan geben!\p"
 	.string "Und das wird den Vulkan zum Ausbruch\n"
 	.string "bringen!$"
+#else
+	.string "ARCHIE: Grr, {PLAYER}!\n"
+	.string "I should've guessed you'd show up!\p"
+	.string "See for yourself what the fanatics\n"
+	.string "of TEAM MAGMA are up to!\p"
+	.string "They're trying to inject the stolen\n"
+	.string "METEORITE's power into the volcano!\p"
+	.string "Doing something like that will cause\n"
+	.string "the volcano's eruption!$"
+#endif
 
 MtChimney_Text_ArchieIHaveMyHandsFull:
+#if GERMAN
 	.string "Adrian: Grrr…\p"
 	.string "Ich möchte Marc aufhalten, aber ich\n"
 	.string "kann es nicht!\p"
 	.string "Nicht, wenn ich mich drei Gegnern\n"
 	.string "gleichzeitig stellen muss.$"
+#else
+	.string "ARCHIE: Grrr…\p"
+	.string "I want to stop that MAXIE,\n"
+	.string "but I can't!\p"
+	.string "Not when I have my hands full battling\n"
+	.string "three opponents at once!$"
+#endif
 
 MtChimney_Text_ArchieThankYou:
+#if GERMAN
 	.string "Adrian: {PLAYER}!\n"
 	.string "Danke!\p"
 	.string "Mit deiner Hilfe haben wir den\n"
@@ -713,172 +877,375 @@ MtChimney_Text_ArchieThankYou:
 	.string "aufhalten und Team Magma beobachten.\p"
 	.string "{PLAYER}, wir sehen uns bestimmt\n"
 	.string "wieder!$"
+#else
+	.string "ARCHIE: {PLAYER}!\n"
+	.string "Thank you!\p"
+	.string "With your help, we thwarted TEAM\n"
+	.string "MAGMA's destructive plan!\p"
+	.string "But… You…\n"
+	.string "Whose side are you on?\p"
+	.string "Ah, it doesn't matter.\p"
+	.string "We will remain vigilant and keep up\n"
+	.string "our pursuit of TEAM MAGMA.\p"
+	.string "{PLAYER}, we shall meet again!$"
+#endif
 
 MtChimney_Text_MagmaOutnumbersUs:
+#if GERMAN
 	.string "Mist… Team Magma ist uns zahlenmäßig\n"
 	.string "überlegen! Wir können es nicht mit\n"
 	.string "ihnen\l"
 	.string "aufnehmen!$"
+#else
+	.string "Darn… TEAM MAGMA outnumbers us!\n"
+	.string "We can't keep up with them!$"
+#endif
 
 MtChimney_Text_LessHabitatForWaterPokemon:
+#if GERMAN
 	.string "Wenn sie die Landmassen vergrößern,\n"
 	.string "gibt es weniger Lebensraum für\l"
 	.string "Wasser-Pokémon!$"
+#else
+	.string "If they expand the land, there'll be\n"
+	.string "less habitats for WATER POKéMON!$"
+#endif
 
 MtChimney_Text_MagmasNameSimilar:
+#if GERMAN
 	.string "Wir sind Team Aqua!\p"
 	.string "Sie sind Team Magma!\p"
 	.string "Ich koche über vor Wut, weil sie so\n"
 	.string "einen verwirrenden Namen verwenden.$"
+#else
+	.string "We're TEAM AQUA!\p"
+	.string "They're TEAM MAGMA!\p"
+	.string "It burns me up that they'd use such\n"
+	.string "a confusing name!$"
+#endif
 
 MtChimney_Text_Bushaa:
 	.string "Bushaa!$"
 
 MtChimney_Text_LavaCookiesJust200:
-	.string "Lavakekse sind die Spezialität am\n"
+#if GERMAN
+	.string "Lavakekse sind die {COLOR RED}Spezialität{COLOR DARK_GRAY} am\n"
 	.string "Schlotberg.\p"
 	.string "Nimm einen. Er kostet nur ¥200.$"
+#else
+	.string "LAVA COOKIES are MT. CHIMNEY's local\n"
+	.string "specialty.\p"
+	.string "Try one. It's just ¥200.$"
+#endif
 
 MtChimney_Text_ThankYouDear:
+#if GERMAN
 	.string "Vielen Dank, Herzchen!$"
+#else
+	.string "Thank you, dear!$"
+#endif
 
 MtChimney_Text_YouveNotGotTheMoney:
+#if GERMAN
 	.string "Oh je. Du kannst nichts kaufen, wenn\n"
 	.string "du nicht genug Geld bei dir hast.$"
+#else
+	.string "Oh, dear. You can't buy a thing if\n"
+	.string "you've not got the money.$"
+#endif
 
 MtChimney_Text_OhFineThen:
+#if GERMAN
 	.string "Oh, ist gut.$"
+#else
+	.string "Oh, fine then.$"
+#endif
 
 MtChimney_Text_MetoriteFittedOnMachine:
+#if GERMAN
 	.string "Ein Meteorit steckt in dieser\n"
 	.string "mysteriösen Vorrichtung…\p"
 	.string "Die Maschine scheint den Meteoriten\n"
 	.string "mit Energie zu versorgen.$"
+#else
+	.string "A METEORITE is fitted on a mysterious\n"
+	.string "machine…\p"
+	.string "The machine seems to be storing\n"
+	.string "energy in the METEORITE.$"
+#endif
 
 MtChimney_Text_RemoveTheMeteorite:
-	.string "Ein Meteorit steckt in dieser\n"
+#if GERMAN
+	.string "Ein {COLOR RED}Meteorit{COLOR DARK_GRAY} steckt in dieser\n"
 	.string "mysteriösen Vorrichtung…\p"
 	.string "Willst du den Meteoriten nehmen?$"
+#else
+	.string "A METEORITE is fitted on a mysterious\n"
+	.string "machine…\p"
+	.string "Do you want to remove the METEORITE?$"
+#endif
 
 MtChimney_Text_PlayerRemovedMeteorite:
+#if GERMAN
 	.string "{PLAYER} entfernt den Meteoriten aus\n"
 	.string "der mysteriösen Vorrichtung.$"
+#else
+	.string "{PLAYER} removed the METEORITE from\n"
+	.string "the mysterious machine.$"
+#endif
 
 MtChimney_Text_PlayerLeftMeteorite:
+#if GERMAN
 	.string "{PLAYER} fasst den Meteoriten nicht\n"
 	.string "an.$"
+#else
+	.string "{PLAYER} left the METEORITE where\n"
+	.string "it was.$"
+#endif
 
 MtChimney_Text_MachineMakesNoResponse:
+#if GERMAN
 	.string "Diese mysteriöse Vorrichtung…\n"
 	.string "Sie reagiert in keiner Weise.$"
+#else
+	.string "This mysterious machine…\n"
+	.string "It makes no response whatsoever.$"
+#endif
 
 MtChimney_Text_RouteSign:
+#if GERMAN
 	.string "{DOWN_ARROW} Steilpass\n"
 	.string "Bad Lavastadt geradeaus$"
+#else
+	.string "{DOWN_ARROW} JAGGED PATH\n"
+	.string "LAVARIDGE TOWN AHEAD$"
+#endif
 
 MtChimney_Text_ShelbyIntro:
+#if GERMAN
 	.string "Ich war bei den Heißen Quellen und\n"
 	.string "habe meine müden Knochen erfrischt.\l"
 	.string "Jetzt fühle ich mich richtig stark!$"
+#else
+	.string "I've been to the hot springs and\n"
+	.string "refreshed my tired bones.\l"
+	.string "Right now I'm feeling strong!$"
+#endif
 
 MtChimney_Text_ShelbyDefeat:
+#if GERMAN
 	.string "Oh, du meine Güte!\n"
 	.string "Wer bist du denn?!?$"
+#else
+	.string "Oh, my goodness.\n"
+	.string "Now, aren't you something!$"
+#endif
 
 MtChimney_Text_ShelbyPostBattle:
+#if GERMAN
 	.string "Nun, ich habe verloren. Ich darf mich\n"
 	.string "nun nicht mehr Experte nennen, oder?$"
+#else
+	.string "Well, well, I've lost. I can't call\n"
+	.string "myself an EXPERT now, can I?$"
+#endif
 
 MtChimney_Text_ShelbyRegister:
+#if GERMAN
 	.string "Danke schön, mein Kind. Das hat Spaß\n"
 	.string "gemacht. So, als ob ich gegen mein\l"
 	.string "Enkelkind gekämpft hätte.\p"
 	.string "Komm doch bitte mal wieder vorbei.$"
+#else
+	.string "Thank you, child. It was fun, as if\n"
+	.string "I were battling my own grandchild.\p"
+	.string "Please, come see me again for\n"
+	.string "a rematch.$"
+#endif
 
 MtChimney_Text_ShelbyRematchIntro:
+#if GERMAN
 	.string "Wenn du in deinem Herzen Platz für\n"
 	.string "deine Pokémon hast, dann kannst du\l"
 	.string "auch große Dinge erreichen.$"
+#else
+	.string "If you can mesh your heart with those\n"
+	.string "of your POKéMON, why, you should be\l"
+	.string "able to achieve great things.$"
+#endif
 
 MtChimney_Text_ShelbyRematchDefeat:
+#if GERMAN
 	.string "Oh, du meine Güte!\n"
 	.string "Wer bist du denn!$"
+#else
+	.string "Oh, my goodness.\n"
+	.string "Now, aren't you something!$"
+#endif
 
 MtChimney_Text_ShelbyPostRematch:
+#if GERMAN
 	.string "Vielleicht schlägt dein Herz im\n"
 	.string "Gleich- klang mit den Pokémon.$"
+#else
+	.string "Perhaps your heart has become one\n"
+	.string "with the hearts of your POKéMON.$"
+#endif
 
 MtChimney_Text_MelissaIntro:
+#if GERMAN
 	.string "Ich habe Feuer in mir, Baby.\n"
 	.string "Ich halt’s nicht aus! Ich muss\l"
 	.string "kämpfen!$"
+#else
+	.string "I've got the fire in me, baby.\n"
+	.string "I can't stand it! I have to battle!$"
+#endif
 
 MtChimney_Text_MelissaDefeat:
+#if GERMAN
 	.string "Oh, was für ein kochend heißer Kampf!$"
+#else
+	.string "Ooh, that was a scorching-hot match!$"
+#endif
 
 MtChimney_Text_MelissaPostBattle:
+#if GERMAN
 	.string "Die Hitze vom Schlotberg bringt mein\n"
 	.string "Feuer in Gang.$"
+#else
+	.string "The heat of MT. CHIMNEY warms\n"
+	.string "me up, baby!$"
+#endif
 
 MtChimney_Text_SheilaIntro:
+#if GERMAN
 	.string "Endlich bin ich am Schlotberg ange-\n"
 	.string "kommen. Jetzt will ich kämpfen!!!$"
+#else
+	.string "I've finally made it to MT. CHIMNEY.\n"
+	.string "I want to make my POKéMON battle!$"
+#endif
 
 MtChimney_Text_SheilaDefeat:
+#if GERMAN
 	.string "Wie du kämpfst…\n"
 	.string "Als würde der Schlotberg ausbrechen!$"
+#else
+	.string "The way you battle…\n"
+	.string "It's like a MT. CHIMNEY eruption!$"
+#endif
 
 MtChimney_Text_SheilaPostBattle:
+#if GERMAN
 	.string "Wie ich schon sagte, endlich bin ich\n"
 	.string "am\n"
 	.string "Schlotberg. Wäre doch blödsinnig, wenn\l"
 	.string "ich nur zum Sightseeing hier wäre…\p"
 	.string "Ich will ein bisschen kämpfen und\n"
 	.string "Kekse als Andenken kaufen.$"
+#else
+	.string "Like I said, I've finally made it to\n"
+	.string "MT. CHIMNEY. It would be a shame if\l"
+	.string "I only do a little sightseeing…\p"
+	.string "I want to get in some battles and buy\n"
+	.string "COOKIES as souvenirs.$"
+#endif
 
 MtChimney_Text_ShirleyIntro:
+#if GERMAN
 	.string "Seit ich in den Heißen Quellen gebadet\n"
 	.string "habe, fühle ich mich großartig!\l"
 	.string "Ich bin sicher, ich werde gewinnen!$"
+#else
+	.string "Since I bathed in the hot springs,\n"
+	.string "I've been feeling great!\l"
+	.string "I'm sure I'm going to win!$"
+#endif
 
 MtChimney_Text_ShirleyDefeat:
+#if GERMAN
 	.string "Huaah!\n"
 	.string "Außerhalb des Wassers ist es saukalt.$"
+#else
+	.string "Yowch!\n"
+	.string "I'm getting a chill out of the water.$"
+#endif
 
 MtChimney_Text_ShirleyPostBattle:
+#if GERMAN
 	.string "Ich werde mich wieder in die Heiße\n"
 	.string "Quelle setzen. Kommst du mit?\p"
 	.string "Kleiner Scherz am Rande… Hähähä.$"
+#else
+	.string "I'll have to take another dip in the\n"
+	.string "hot springs. Want to join me?\p"
+	.string "Just joking!$"
+#endif
 
 MtChimney_Text_SawyerIntro:
+#if GERMAN
 	.string "Dies ist ein schöner Berg! Hier gibt\n"
 	.string "es\n"
 	.string "viele interessante Leute, die einem\l"
 	.string "Gesellschaft leisten.$"
+#else
+	.string "This is one fine mountain! Plenty of\n"
+	.string "hot people around for company!$"
+#endif
 
 MtChimney_Text_SawyerDefeat:
+#if GERMAN
 	.string "Oh, du bist auch ein richtiger\n"
 	.string "Heißsporn.$"
+#else
+	.string "Oh, you're a real firebrand, too!$"
+#endif
 
 MtChimney_Text_SawyerPostBattle:
+#if GERMAN
 	.string "Ich glaube, ich tauche mal in den\n"
 	.string "Heißen Quellen von Bad Lavastadt ab.$"
+#else
+	.string "I think I need a dip in LAVARIDGE\n"
+	.string "HOT SPRING with the locals!$"
+#endif
 
 MtChimney_Text_SawyerRegister:
+#if GERMAN
 	.string "Ich mag Hitzköpfe wie dich.\n"
 	.string "Ich trage dich in meinen Pokénav ein.$"
+#else
+	.string "I like little fireballs like you.\n"
+	.string "Let me register you in my POKéNAV.$"
+#endif
 
 MtChimney_Text_SawyerRematchIntro:
+#if GERMAN
 	.string "Ich freue mich, denn hier gibt es\n"
 	.string "viele hitzköpfige Menschen.\l"
 	.string "Ich verliere mit Sicherheit nicht.$"
+#else
+	.string "I'm happily surrounded by hot people\n"
+	.string "around these parts. I won't lose!$"
+#endif
 
 MtChimney_Text_SawyerRematchDefeat:
+#if GERMAN
 	.string "Mist, du hast dich kein bisschen\n"
 	.string "abgekühlt. Immer noch ein Heißsporn.$"
+#else
+	.string "Gosh, you're still the same\n"
+	.string "firebrand as before!$"
+#endif
 
 MtChimney_Text_SawyerPostRematch:
+#if GERMAN
 	.string "Hier ist es wirklich sehr heiß. Und\n"
 	.string "ich\n"
 	.string "bin absolut zu warm angezogen für\l"
 	.string "diese Gegend.$"
+#else
+	.string "Actually, it really is hot here.\n"
+	.string "I'm overdressed for these parts.$"
+#endif

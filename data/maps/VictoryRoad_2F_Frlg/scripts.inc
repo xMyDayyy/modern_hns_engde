@@ -77,63 +77,132 @@ VictoryRoad_2F_EventScript_Vincent::
 	end
 
 VictoryRoad_2F_Text_DawsonIntro::
+#if GERMAN
 	.string "Wenn du an mir vorbeikommst, kannst\n"
 	.string "du zu den Top Vier gehen!$"
+#else
+	.string "If you can get through here,\n"
+	.string "you can go meet the ELITE FOUR.$"
+#endif
 
 VictoryRoad_2F_Text_DawsonDefeat::
+#if GERMAN
 	.string "Nein!\n"
 	.string "Unglaublich!$"
+#else
+	.string "No!\n"
+	.string "Unbelievable!$"
+#endif
 
 VictoryRoad_2F_Text_DawsonPostBattle::
+#if GERMAN
 	.string "Und wenn schon... dafür übersteigt\n"
 	.string "mein Wissen über Pokémon deines bei\l"
 	.string "weitem!$"
+#else
+	.string "I can beat you when it comes to\n"
+	.string "knowledge about POKéMON!$"
+#endif
 
 VictoryRoad_2F_Text_DaisukeIntro::
+#if GERMAN
 	.string "Die Siegesstrasse stellt eine Art\n"
 	.string "Abschlussprüfung für Trainer dar!$"
+#else
+	.string "This here is VICTORY ROAD.\n"
+	.string "It's the final test for TRAINERS!$"
+#endif
 
 VictoryRoad_2F_Text_DaisukeDefeat::
+#if GERMAN
 	.string "Ahh!$"
+#else
+	.string "Atcho!$"
+#endif
 
 VictoryRoad_2F_Text_DaisukePostBattle::
+#if GERMAN
 	.string "Wenn du nicht vorankommst,\n"
 	.string "versuche, die Felsen zu\l"
 	.string "verschieben!$"
+#else
+	.string "If you get stuck, try moving some\n"
+	.string "boulders around.$"
+#endif
 
 VictoryRoad_2F_Text_NelsonIntro::
+#if GERMAN
 	.string "Du möchtest also die Top Vier\n"
 	.string "herausfordern?$"
+#else
+	.string "Ah, so you wish to challenge the\n"
+	.string "ELITE FOUR?$"
+#endif
 
 VictoryRoad_2F_Text_NelsonDefeat::
+#if GERMAN
 	.string "Voll erwischt!$"
+#else
+	.string "You got me!$"
+#endif
 
 VictoryRoad_2F_Text_NelsonPostBattle::
+#if GERMAN
 	.string "{RIVAL} ist hier auch\n"
 	.string "durchgekommen.$"
+#else
+	.string "{RIVAL} also came through here.$"
+#endif
 
 VictoryRoad_2F_Text_VincentIntro::
+#if GERMAN
 	.string "Komm nur her!\n"
 	.string "Ich werde dich besiegen!$"
+#else
+	.string "Come on!\n"
+	.string "I'll whip you!$"
+#endif
 
 VictoryRoad_2F_Text_VincentDefeat::
+#if GERMAN
 	.string "Auweia!\n"
 	.string "Ich bin besiegt!$"
+#else
+	.string "I got whipped!$"
+#endif
 
 VictoryRoad_2F_Text_VincentPostBattle::
+#if GERMAN
 	.string "Du beschreitest die Siegesstrasse\n"
 	.string "nicht ohne Grund!$"
+#else
+	.string "You earned the right to be on\n"
+	.string "VICTORY ROAD…$"
+#endif
 
 VictoryRoad_2F_Text_GregoryIntro::
+#if GERMAN
 	.string "Die Siegesstrasse ist sehr schwer\n"
 	.string "zu meistern!$"
+#else
+	.string "Is VICTORY ROAD too tough?$"
+#endif
 
 VictoryRoad_2F_Text_GregoryDefeat::
+#if GERMAN
 	.string "Gut gemacht!$"
+#else
+	.string "Well done!$"
+#endif
 
 VictoryRoad_2F_Text_GregoryPostBattle::
+#if GERMAN
 	.string "Schon viele Trainer haben hier\n"
 	.string "aufgegeben!$"
+#else
+	.string "Many TRAINERS give up their\n"
+	.string "challenge here and go home.$"
+#endif
 
 @ Unused, old text for Moltres
 VictoryRoad_2F_Text_Gyaoo::

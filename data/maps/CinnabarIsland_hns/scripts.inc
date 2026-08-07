@@ -22,12 +22,20 @@ CinnabarIsland_EventScript_Blaine::
     end
 
 CinnabarIsland_Text_Blaine:
+#if GERMAN
 	.string "Pyro: Ich gebe nicht auf,\n"
 	.string "bis zu dem Tag, an dem die Arena\l"
 	.string "der Zinnoberinsel wieder\l"
 	.string "aufgebaut wurde!\p"
 	.string "Bis dahin bin ich im Kampf-Dojo.\n"
 	.string "Wir sehen uns.$"
+#else
+    .string "BLAINE: I'll never give up\n"
+	.string "until the day I've rebuilt\l"
+	.string "CINNABAR GYM!\p"
+	.string "I'll be at the FIGHTING DOJO\n"
+	.string "until then.$"
+#endif
 
 
 
@@ -51,6 +59,7 @@ CinnabarIsland_EventScript_BlueActive::
 
 
 CinnabarIsland_Text_BlueBefore:
+#if GERMAN
 	.string "Wer bist du?\p"
 	.string "Es ist offensichtlich, dass du\n"
 	.string "ein Trainer bist…\p"
@@ -79,8 +88,36 @@ CinnabarIsland_Text_BlueBefore:
 	.string "Willst du gegen mich antreten, musst\n"
 	.string "du zuerst 15 Orden haben.\p"
 	.string "Dann können wir kämpfen.$"
+#else
+	.string "Who are you?\p"
+	.string "Well, it's plain to see that you're\n"
+	.string "a trainer…\p"
+	.string "My name's BLUE.\p"
+	.string "I was once the CHAMPION, although\n"
+	.string "it was for only a short time…\p"
+	.string "That meddling RED did me in…\p"
+	.string "Anyway, what do you want? You want\n"
+	.string "to challenge me or something?\p"
+	.string "…I hate to say it, but I'm not in\n"
+	.string "the mood for a battle now.\p"
+	.string "Take a good look around you…\p"
+	.string "A volcano erupts, and just like\n"
+	.string "that, a whole town disappears.\p"
+	.string "We can go on winning and losing in\n"
+	.string "POKéMON. But if nature so much as\l"
+	.string "twitches, we can lose in a second.\p"
+	.string "…\p"
+	.string "That's the way it is…\p"
+	.string "But, anyway, I'm still a trainer.\p"
+	.string "If I see a strong opponent, it\n"
+	.string "makes me want to battle.\p"
+	.string "If you want to battle me, you'll\n"
+	.string "need 15 badges first.\p"
+	.string "I'll take you on then.$"
+#endif
 
 CinnabarIsland_Text_Blue:
+#if GERMAN
 	.string "Wer bist du?\p"
 	.string "Es ist offensichtlich, dass du\n"
 	.string "ein Trainer bist…\p"
@@ -107,8 +144,35 @@ CinnabarIsland_Text_Blue:
 	.string "Wenn ich einen starken Gegner sehe,\n"
 	.string "möchte ich kämpfen.\p"
 	.string "Willst du gegen mich antreten, komm\n"
-	.string "zur Vertania-City Arena.\p"
+	.string "zur {COLOR RED}Vertania{COLOR DARK_GRAY}-City Arena.\p"
 	.string "Dann kämpfen wir.$"
+#else
+	.string "Who are you?\p"
+	.string "Well, it's plain to see that you're\n"
+	.string "a trainer…\p"
+	.string "My name's BLUE.\p"
+	.string "I was once the CHAMPION, although\n"
+	.string "it was for only a short time…\p"
+	.string "That meddling RED did me in…\p"
+	.string "Anyway, what do you want? You want\n"
+	.string "to challenge me or something?\p"
+	.string "…I hate to say it, but I'm not in\n"
+	.string "the mood for a battle now.\p"
+	.string "Take a good look around you…\p"
+	.string "A volcano erupts, and just like\n"
+	.string "that, a whole town disappears.\p"
+	.string "We can go on winning and losing in\n"
+	.string "POKéMON. But if nature so much as\l"
+	.string "twitches, we can lose in a second.\p"
+	.string "…\p"
+	.string "That's the way it is…\p"
+	.string "But, anyway, I'm still a trainer.\p"
+	.string "If I see a strong opponent, it\n"
+	.string "makes me want to battle.\p"
+	.string "If you want to battle me, come to\n"
+	.string "the VIRIDIAN GYM.\p"
+	.string "I'll take you on then.$"
+#endif
 
 CinnabarIsland_EventScript_Sign::
 	msgbox CinnabarIsland_Text_Sign, MSGBOX_SIGN
@@ -119,12 +183,24 @@ CinnabarIsland_EventScript_GymSign::
 	end
 
 CinnabarIsland_Text_GymSign:
+#if GERMAN
 	.string "…Da hängt eine Nachricht!\p"
 	.string "Die Arena der Zinnoberinsel ist auf\n"
 	.string "die Seeschauminseln umgezogen!\l"
 	.string "- Pyro$"
+#else
+	.string "There's a notice here…\p"
+	.string "CINNABAR GYM has relocated to\n"
+	.string "SEAFOAM ISLANDS.\p"
+	.string "BLAINE$"
+#endif
 
 CinnabarIsland_Text_Sign:
+#if GERMAN
 	.string "Zinnoberinsel\p"
 	.string "Die Feurige Stadt brennender Begierde$"
+#else
+	.string "CINNABAR ISLAND\p"
+	.string "The Fiery Town of Burning Desire$"
+#endif
 

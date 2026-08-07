@@ -1,5 +1,6 @@
 
 gPokeNewsTextSlateport_Upcoming::
+#if GERMAN
 	.string "Guten Tag, meine Damen und Herren!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Heute berichten wir über Graphitport\n"
@@ -13,8 +14,24 @@ gPokeNewsTextSlateport_Upcoming::
 	.string "Geld. Das wäre gut…”\p"
 	.string "Graphitport City ist eine Reise wert!\p"
 	.string "Das waren die Pokémon Nachrichten.$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "SLATEPORT's most popular kind of guy,\n"
+	.string "the ENERGY GURU, is in the news again!\p"
+	.string "He promises to, “Stupendously go for\n"
+	.string "it in just this many days: {STR_VAR_1}!”\p"
+	.string "While he refused to elaborate on what\n"
+	.string "he will stupendously go for, the\l"
+	.string "ENERGY GURU advised, “Save up your\l"
+	.string "money. That'll be good…”\p"
+	.string "It sounds like a trip to SLATEPORT\n"
+	.string "would be well worth your while that day.\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextSlateport_Ongoing::
+#if GERMAN
 	.string "Guten Tag, meine Damen und Herren!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Auf diese Nachrichten haben Sie\n"
@@ -27,8 +44,23 @@ gPokeNewsTextSlateport_Ongoing::
 	.string "wert. Also: Schauen Sie vorbei und\l"
 	.string "kaufen Sie, was das Herz begehrt.\p"
 	.string "Das waren die Pokémon Nachrichten.$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "This is the news you've all been\n"
+	.string "waiting for!\p"
+	.string "SLATEPORT'S ENERGY GURU is going\n"
+	.string "for it stupendously in the MARKET!\p"
+	.string "He promises unbeatable bargain\n"
+	.string "prices on CALCIUM and PROTEIN!\p"
+	.string "A trip to SLATEPORT CITY sounds\n"
+	.string "worthwhile. Why not visit and shop\l"
+	.string "to your heart's content?\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextSlateport_Ending::
+#if GERMAN
 	.string "Guten Tag, meine Damen und Herren!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Auf diese Nachrichten haben Sie\n"
@@ -43,8 +75,24 @@ gPokeNewsTextSlateport_Ending::
 	.string "Also: Auf nach Graphitport City und\n"
 	.string "genießen Sie den Einkauf!\p"
 	.string "Das waren die Pokémon Nachrichten.$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "This is the news you've all been\n"
+	.string "waiting for!\p"
+	.string "SLATEPORT'S ENERGY GURU is going\n"
+	.string "for it stupendously in the MARKET!\p"
+	.string "He promises unbeatable bargain\n"
+	.string "prices on CALCIUM and PROTEIN!\p"
+	.string "According to the ENERGY GURU, he\n"
+	.string "still has ample merchandise left.\p"
+	.string "Why not visit SLATEPORT CITY for\n"
+	.string "a most enjoyable shopping trip?\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextGameCorner_Upcoming::
+#if GERMAN
 	.string "Guten Tag meine Damen und Herren!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Bald ist es so weit!\n"
@@ -54,8 +102,20 @@ gPokeNewsTextGameCorner_Upcoming::
 	.string "Selbst diejenigen, die nie Glück haben,\n"
 	.string "werden ihr Glück nicht fassen können!\p"
 	.string "Das waren die Pokémon Nachrichten.$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "It's approaching!\n"
+	.string "It's finally coming!\p"
+	.string "The GAME CORNER's service day will be\n"
+	.string "here in just this many days: {STR_VAR_1}!\p"
+	.string "Even those who are usually unlucky\n"
+	.string "may be lucky on this particular day!\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextGameCorner_Ongoing::
+#if GERMAN
 	.string "Guten Tag meine Damen und Herren!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Endlich ist es so weit!\n"
@@ -67,8 +127,22 @@ gPokeNewsTextGameCorner_Ongoing::
 	.string "Das Stichwort heißt: Malvenfroh City!\n"
 	.string "Dort finden Sie Ihr Glück!\p"
 	.string "Das waren die Pokémon Nachrichten.$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "It's here!\n"
+	.string "It's finally arrived!\p"
+	.string "GAME CORNER's service day has finally\n"
+	.string "arrived!\p"
+	.string "Could you be lucky at the SLOTS \n"
+	.string "and ROULETTE?\p"
+	.string "The location is MAUVILLE CITY.\n"
+	.string "This is the place!\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextGameCorner_Ending::
+#if GERMAN
 	.string "Guten Tag, meine Damen und Herren!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Endlich ist es so weit!\n"
@@ -81,8 +155,22 @@ gPokeNewsTextGameCorner_Ending::
 	.string "hat nur 24 Stunden. Malvenfroh City\l"
 	.string "ruft!\p"
 	.string "Das waren die Pokémon Nachrichten.$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "It's here!\n"
+	.string "It's finally arrived!\p"
+	.string "GAME CORNER's service day has finally\n"
+	.string "arrived!\p"
+	.string "Could you be lucky at the SLOTS\n"
+	.string "and ROULETTE?\p"
+	.string "Time is limited and has almost run out.\n"
+	.string "The location is MAUVILLE CITY.\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextLilycove_Upcoming::
+#if GERMAN
 	.string "Guten Tag meine Damen und Herren!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Soeben erreichen uns wundervolle Nach-\n"
@@ -94,8 +182,20 @@ gPokeNewsTextLilycove_Upcoming::
 	.string "Sie schon immer haben wollten, kann\l"
 	.string "Ihnen gehören.\p"
 	.string "Das waren die Pokémon Nachrichten.$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "We've just received wonderful news\n"
+	.string "from LILYCOVE DEPARTMENT STORE.\p"
+	.string "The DEPARTMENT STORE's clear-out sale\n"
+	.string "will be in just this many days: {STR_VAR_1}!\p"
+	.string "That thingamajig or that doodad that\n"
+	.string "you've always wanted could be yours!\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextLilycove_Ongoing::
+#if GERMAN
 	.string "Guten Tag meine Damen und Herren!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Auf diese Nachricht haben Sie schon\n"
@@ -107,8 +207,22 @@ gPokeNewsTextLilycove_Ongoing::
 	.string "Sie schon immer haben wollten…\p"
 	.string "Sie können sie dort finden!\p"
 	.string "Das waren die Pokémon Nachrichten.$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "This is the news you've all been\n"
+	.string "waiting for!\p"
+	.string "LILYCOVE DEPARTMENT STORE's clear-out\n"
+	.string "sale has finally arrived!\p"
+	.string "All the thingamajigs and doodads that\n"
+	.string "you've always dreamt about…\p"
+	.string "You may be in for fateful encounters\n"
+	.string "with them all!\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextLilycove_Ending::
+#if GERMAN
 	.string "Guten Tag meine Damen und Herren!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Auf diese Nachricht haben Sie schon\n"
@@ -120,8 +234,22 @@ gPokeNewsTextLilycove_Ending::
 	.string "Sie schon immer haben wollten…\p"
 	.string "Sie können sie dort finden!\p"
 	.string "Das waren die Pokémon Nachrichten.$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "This is the news you've all been\n"
+	.string "waiting for!\p"
+	.string "LILYCOVE DEPARTMENT STORE's clear-out\n"
+	.string "sale has finally arrived!\p"
+	.string "All the thingamajigs and doodads that\n"
+	.string "you've always dreamt about…\p"
+	.string "You may be in for fateful encounters\n"
+	.string "with them all!\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextBlendMaster_Upcoming::
+#if GERMAN
 	.string "Hallo und guten Tag!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Wir haben heute großartige Neuigkeiten\n"
@@ -137,8 +265,25 @@ gPokeNewsTextBlendMaster_Upcoming::
 	.string "wollen, sollten ab jetzt sparsam mit\p"
 	.string "ihren Beeren umgehen!\n"
 	.string "Das war’s von uns! Bis zum nächsten Mal!$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "We have big news for everyone\n"
+	.string "involved in the making of {POKEBLOCK}S.\p"
+	.string "The legendary BLEND MASTER will be\n"
+	.string "appearing in LILYCOVE CITY with just\l"
+	.string "a mere {STR_VAR_1}-day wait to go!\p"
+	.string "The BLEND MASTER is said to be\n"
+	.string "the best in all HOENN when it comes to\l"
+	.string "spinning a BERRY BLENDER.\p"
+	.string "Those people who want to make great\n"
+	.string "{POKEBLOCK}S or see the MASTER in action\l"
+	.string "are urged to save their BERRIES.\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextBlendMaster_Ongoing::
+#if GERMAN
 	.string "Hallo und guten Tag!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Wir haben heute großartige Neuigkeiten\n"
@@ -153,8 +298,24 @@ gPokeNewsTextBlendMaster_Ongoing::
 	.string "wollen, sollten schnell nach\l"
 	.string "Seegrasulb City kommen!\p"
 	.string "Das war’s von uns! Bis zum nächsten Mal!$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "We have big news for everyone\n"
+	.string "involved in the making of {POKEBLOCK}S.\p"
+	.string "The legendary BLEND MASTER has\n"
+	.string "finally appeared!\p"
+	.string "The BLEND MASTER is spinning\n"
+	.string "the BERRY BLENDER at the LILYCOVE\l"
+	.string "CONTEST HALL.\p"
+	.string "Those people who want to make great\n"
+	.string "{POKEBLOCK}S or see the MASTER in action\l"
+	.string "should hurry to LILYCOVE.\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif
 
 gPokeNewsTextBlendMaster_Ending::
+#if GERMAN
 	.string "Hallo und guten Tag!\n"
 	.string "Hier sind die Pokémon Nachrichten.\p"
 	.string "Es ist unglaublich!\n"
@@ -170,3 +331,19 @@ gPokeNewsTextBlendMaster_Ending::
 	.string "euch und kommt schnell nach\p"
 	.string "Seegrasulb City!\n"
 	.string "Das war’s von uns! Bis zum nächsten Mal!$"
+#else
+	.string "Greetings!\n"
+	.string "It's time for POKéMON NEWS.\p"
+	.string "It's incredible!\n"
+	.string "Too incredible, even!\p"
+	.string "The BERRY BLENDER is spinning at\n"
+	.string "a dizzying pace!\p"
+	.string "The BLEND MASTER has lived up to\n"
+	.string "his reputation!\p"
+	.string "The BLEND MASTER will soon be\n"
+	.string "leaving LILYCOVE.\p"
+	.string "If you haven't seen the MASTER in\n"
+	.string "action, don't waste this chance!\l"
+	.string "Head to LILYCOVE right now!\p"
+	.string "That's the news on POKéMON NEWS.$"
+#endif

@@ -54,40 +54,85 @@ PalletTown_PlayersHouse_1F_EventScript_TVScreenFemale::
 	return
 
 PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
+#if GERMAN
 	.string "Mutter: Richtig. Irgendwann gehen\n"
 	.string "alle Kinder fort, um ein Abenteuer\l"
 	.string "zu erleben!\p"
-	.string "Prof. Eich von nebenan hat nach\n"
+	.string "{COLOR RED}Prof. Eich{COLOR DARK_GRAY} von nebenan hat nach\n"
 	.string "dir gefragt.$"
+#else
+	.string "MOM: …Right.\n"
+	.string "All boys leave home someday.\l"
+	.string "It said so on TV.\p"
+	.string "Oh, yes. PROF. OAK, next door, was\n"
+	.string "looking for you.$"
+#endif
 
 PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
+#if GERMAN
 	.string "Mutter: … genau!\n"
 	.string "Jedes Mädchen träumt vom Reisen.\l"
 	.string "Das sieht man im Fernsehen.\p"
-	.string "Oh, ja, Prof. Eich von nebenan\n"
+	.string "Oh, ja, {COLOR RED}Prof. Eich{COLOR DARK_GRAY} von nebenan\n"
 	.string "hat nach dir gesucht!$"
+#else
+	.string "MOM: …Right.\n"
+	.string "All girls dream of traveling.\l"
+	.string "It said so on TV.\p"
+	.string "Oh, yes. PROF. OAK, next door, was\n"
+	.string "looking for you.$"
+#endif
 
 PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
+#if GERMAN
 	.string "Mutter: {PLAYER}! Du solltest eine\n"
 	.string "kurze Pause einlegen.$"
+#else
+	.string "MOM: {PLAYER}!\n"
+	.string "You should take a quick rest.$"
+#endif
 
 PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
+#if GERMAN
 	.string "Mutter: Sehr gut! Du und deine\n"
 	.string "Pokémon sehen großartig aus!\l"
 	.string "Achte auf dich!$"
+#else
+	.string "MOM: Oh, good! You and your\n"
+	.string "POKéMON are looking great.\l"
+	.string "Take care now!$"
+#endif
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad::
+#if GERMAN
 	.string "Im Fernsehen läuft ein Film.\n"
 	.string "Vier Jungen laufen ein Bahngleis\l"
 	.string "entlang!\p"
 	.string "Den Film kenne ich schon! Ich\n"
 	.string "mache mich besser auf den Weg!$"
+#else
+	.string "There's a movie on TV.\n"
+	.string "Four boys are walking on railroad\l"
+	.string "tracks.\p"
+	.string "…I better go, too.$"
+#endif
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad::
+#if GERMAN
 	.string "Es läuft ein Film im TV.\n"
 	.string "Ein bezopftes Mädchen läuft\l"
 	.string "einen gelben Steinweg entlang.\p"
 	.string "… ich breche auch besser auf!$"
+#else
+	.string "There's a movie on TV.\n"
+	.string "A girl with her hair in pigtails is\l"
+	.string "walking up a brick road.\p"
+	.string "…I better go, too.$"
+#endif
 
 PalletTown_PlayersHouse_1F_Text_OopsWrongSide::
+#if GERMAN
 	.string "Ups, falsche Richtung!$"
+#else
+	.string "Oops, wrong side…$"
+#endif

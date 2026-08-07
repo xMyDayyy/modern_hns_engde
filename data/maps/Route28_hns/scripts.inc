@@ -16,4 +16,8 @@ Route28_EventScript_Item_Flamethrower::
     end
 
 Route28_Text_Sign:
+#if GERMAN
 	.string "Route 28$"
+#else
+	.string "ROUTE 28$"
+#endif

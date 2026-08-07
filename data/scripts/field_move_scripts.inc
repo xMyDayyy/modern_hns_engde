@@ -44,17 +44,32 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
+#if GERMAN
 	.string "Du kannst den Zerschneider hier\n"
 	.string "einsetzen!\p"
 	.string "Möchtest du den Zerschneider\n"
 	.string "einsetzen?$"
+#else
+	.string "This tree looks like it can be\n"
+	.string "CUT down!\p"
+	.string "Would you like to CUT it?$"
+#endif
 
 Text_MonUsedFieldMove:
+#if GERMAN
 	.string "{STR_VAR_1} setzt {STR_VAR_2} ein.$"
+#else
+	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+#endif
 
 Text_CantCut:
+#if GERMAN
 	.string "Der Zerschneider kann hier eingesetzt\n"
 	.string "werden.$"
+#else
+	.string "This tree looks like it can be\n"
+	.string "CUT down!$"
+#endif
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -219,12 +234,22 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
+#if GERMAN
 	.string "Dieser Fels sieht zerbrechlich aus.\n"
 	.string "Soll Zertrümmerer eingesetzt werden?$"
+#else
+	.string "This rock appears to be breakable.\n"
+	.string "Would you like to use ROCK SMASH?$"
+#endif
 
 Text_CantSmash:
+#if GERMAN
 	.string "Ein großer Felsen. Ein Pokémon könnte\n"
 	.string "ihn vielleicht zertrümmern.$"
+#else
+	.string "It's a rugged rock, but a POKéMON\n"
+	.string "may be able to smash it.$"
+#endif
 
 EventScript_StrengthBoulder::
 	lockall
@@ -269,22 +294,44 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
+#if GERMAN
 	.string "Ein Pokémon kann diesen Felsen\n"
 	.string "vielleicht bewegen.\p"
 	.string "Möchtest du Stärke einsetzen?$"
+#else
+	.string "It's a big boulder, but a POKéMON\n"
+	.string "may be able to push it aside.\p"
+	.string "Would you like to use STRENGTH?$"
+#endif
 
 Text_MonUsedStrength:
+#if GERMAN
 	.string "{STR_VAR_1} setzt Stärke ein.\p"
 	.string "Stärke von {STR_VAR_1} ermöglicht es,\n"
 	.string "den Felsen zu bewegen.$"
+#else
+	.string "{STR_VAR_1} used STRENGTH!\p"
+	.string "{STR_VAR_1}'s STRENGTH made it\n"
+	.string "possible to move boulders around!$"
+#endif
 
 Text_CantStrength:
+#if GERMAN
 	.string "Ein Pokémon kann diesen Felsen\n"
 	.string "vielleicht bewegen.$"
+#else
+	.string "It's a big boulder, but a POKéMON\n"
+	.string "may be able to push it aside.$"
+#endif
 
 Text_StrengthActivated:
+#if GERMAN
 	.string "Stärke ermöglicht es, Felsen zu\n"
 	.string "bewegen.$"
+#else
+	.string "STRENGTH made it possible to move\n"
+	.string "boulders around.$"
+#endif
 
 EventScript_UseWaterfall::
 	lockall
@@ -311,15 +358,29 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
+#if GERMAN
 	.string "Das Wasser fällt steil wie eine Wand\n"
 	.string "brüllend in die Tiefe.$"
+#else
+	.string "A wall of water is crashing down with\n"
+	.string "a mighty roar.$"
+#endif
 
 Text_WantToWaterfall:
+#if GERMAN
 	.string "Ein riesiger Wasserfall.\n"
 	.string "Möchtest du Kaskade einsetzen?$"
+#else
+	.string "It's a large waterfall.\n"
+	.string "Would you like to use WATERFALL?$"
+#endif
 
 Text_MonUsedWaterfall:
+#if GERMAN
 	.string "{STR_VAR_1} setzt Kaskade ein.$"
+#else
+	.string "{STR_VAR_1} used WATERFALL.$"
+#endif
 
 EventScript_UseDive::
 	lockall
@@ -405,30 +466,58 @@ EventScript_UseCutGrass::
 	goto EventScript_CutGrassCommon
 
 Text_CantDive:
+#if GERMAN
 	.string "Das Wasser ist hier tief. Ein Pokémon\n"
 	.string "könnte hier vielleicht tauchen.$"
+#else
+	.string "The sea is deep here. A POKéMON\n"
+	.string "may be able to go underwater.$"
+#endif
 
 Text_WantToDive:
+#if GERMAN
 	.string "Das Meer ist an dieser Stelle sehr tief.\n"
 	.string "Möchtest du Taucher einsetzen?$"
+#else
+	.string "The sea is deep here.\n"
+	.string "Would you like to use DIVE?$"
+#endif
 
 Text_MonUsedDive:
+#if GERMAN
 	.string "{STR_VAR_1} setzt Taucher ein.$"
+#else
+	.string "{STR_VAR_1} used DIVE.$"
+#endif
 
 Text_CantSurface:
+#if GERMAN
 	.string "Licht schimmert von oben herab. Ein\n"
 	.string "Pokémon könnte hier auftauchen.$"
+#else
+	.string "Light is filtering down from above.\n"
+	.string "A POKéMON may be able to surface.$"
+#endif
 
 Text_WantToSurface:
+#if GERMAN
 	.string "Licht schimmert von oben herab.\n"
 	.string "Möchtest du Taucher einsetzen?$"
+#else
+	.string "Light is filtering down from above.\n"
+	.string "Would you like to use DIVE?$"
+#endif
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
+#if GERMAN
 	.string "Hier scheint nichts zu sein…$"
+#else
+	.string "Looks like there's nothing here…$"
+#endif
 
 EventScript_UseDefog::
 	lockall
@@ -470,12 +559,26 @@ EventScript_EndRockClimb::
 	end
 
 Text_WantToRockClimb:
+#if GERMAN
     .string "Eine steile Klippe.\n"
     .string "Möchtest du Kraxler einsetzen?$"
+#else
+	.string "The cliff is steep.\n"
+	.string "Would you like to use Rock Climb?$"
+#endif
 
 Text_MonUsedRockClimb:
+#if GERMAN
     .string "{STR_VAR_1} benutzt Kraxler!$"
+#else
+	.string "{STR_VAR_1} used Rock Climb!$"
+#endif
 
 Text_CantRockClimb:
+#if GERMAN
     .string "Eine steile Klippe.\n"
     .string "Ein Pokémon könnte sie erklimmen.$"
+#else
+	.string "The cliff is steep.\n"
+	.string "A Pokémon may be able to climb it.$"
+#endif

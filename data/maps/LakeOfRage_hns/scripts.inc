@@ -44,11 +44,18 @@ LakeOfRage_EventScript_Pryce::
     end
 
 LakeOfRage_Text_Pryce:
+#if GERMAN
 	.string "{PLAYER}.\p"
 	.string "Sogar hier hält mich die Kälte\n"
 	.string "wachsam.\p"
 	.string "Wenn du wieder kämpfen willst,\n"
 	.string "komm zum Kampf-Dojo.$"
+#else
+    .string "{PLAYER}.\p"
+	.string "Even here, the cold keeps me sharp.\p"
+	.string "If you wish to battle again, come\n"
+	.string "to the FIGHTING DOJO.$"
+#endif
 
 LakeOfRage_EventScript_Gramps::
 	goto_if_ge VAR_MAHOGANY_TOWN_STATE, 14, LakeOfRage_EventScript_Gramps2
@@ -240,27 +247,52 @@ LakeOfRage_Movement_DragoniteLeave:
 	step_end
 
 LakeOfRage_Text_Dragonite:
+#if GERMAN
 	.string "Dragoran: Draaagooo…$"
+#else
+	.string "DRAGONITE: Gyafooha!$"
+#endif
 
 LakeOfRage_Text_LanceForcedToEvolve:
+#if GERMAN
 	.string "Dieser See ist voller\n"
 	.string "Garados. Aber sonst gibt es\l"
 	.string "hier nichts…\p"
 	.string "Die Karpador werden also\n"
 	.string "gezwungen, sich zu\l"
 	.string "entwickeln…$"
+#else
+    .string "This lake is full of GYARADOS\n"
+    .string "but nothing else…\p"
+    .string "So the MAGIKARP are being forced\n"
+    .string "to evolve…$"
+#endif
 
 LakeOfRage_Text_LanceIntro1:
+#if GERMAN
 	.string "Bist du wegen der Gerüchte hier?\p"
-	.string "Du bist {PLAYER}? Ich bin Siegfried,\p"
+	.string "Du bist {PLAYER}? Ich bin {COLOR RED}Siegfried{COLOR DARK_GRAY},\p"
 	.string "ein Trainer wie du.$"
+#else
+    .string "Did you come here because of\n"
+    .string "the rumors?\p"
+    .string "You're {PLAYER}? I'm LANCE, a\n"
+    .string "trainer like you.$"
+#endif
 
 LakeOfRage_Text_LanceIntro2:
+#if GERMAN
 	.string "Ich hörte einige Gerüchte.\p"
 	.string "Also kam ich hierher, um\n"
 	.string "einige Nachforschungen anzustellen…$"
+#else
+    .string "This man here informed me of\n"
+    .string "some rumors.\p"
+    .string "So we came to investigate…$"
+#endif
 
 LakeOfRage_Text_LanceIntro3:
+#if GERMAN
 	.string "Ich habe gesehen,\n"
 	.string "wie du kämpfst, {PLAYER}.\p"
 	.string "Man kann sagen,\n"
@@ -268,102 +300,220 @@ LakeOfRage_Text_LanceIntro3:
 	.string "bemerkenswertem Format bist.\p"
 	.string "Würdest du mir bei meinen\n"
 	.string "Nachforschungen helfen?$"
+#else
+    .string "I saw the way you battled\n"
+    .string "earlier, {PLAYER}.\p"
+    .string "I can tell that you're a trainer\n"
+    .string "with considerable skill.\p"
+    .string "If you don't mind, could you help\n"
+    .string "us investigate?$"
+#endif
 
 LakeOfRage_Text_LanceRadioSignal:
+#if GERMAN
 	.string "Siegfried: Exzellent!\p"
 	.string "Es sieht so aus, als würde jemand\p"
 	.string "die Karpador im See zwingen,\n"
 	.string "sich zu entwickeln.\p"
 	.string "Die Ursache ist das mysteriöse\n"
-	.string "Radiosignal aus Mahagonia City.\p"
+	.string "Radiosignal aus {COLOR RED}Mahagonia City{COLOR DARK_GRAY}.\p"
 	.string "Ich werde auf dich warten,\n"
 	.string "{PLAYER}.$"
+#else
+    .string "LANCE: Excellent!\p"
+    .string "It seems that the LAKE's MAGIKARP\n"
+    .string "are being forced to evolve.\p"
+    .string "A mysterious radio broadcast\n"
+    .string "coming from MAHOGANY is the cause.\p"
+    .string "We'll be waiting for you,\n"
+    .string "{PLAYER}.$"
+#endif
 
 LakeOfRage_Text_LanceRefused:
+#if GERMAN
 	.string "Oh… Solltest du\n"
 	.string "deine Meinung ändern, dann hilf mir\l"
 	.string "bitte.$"
+#else
+    .string "Oh… Well, if you change your mind,\n"
+    .string "please help us.$"
+#endif
 
 LakeOfRage_Text_LanceAskHelp:
+#if GERMAN
 	.string "Siegfried: Na? Wirst du mir helfen?$"
+#else
+    .string "LANCE: Hm? Are you going to help\n"
+    .string "us?$"
+#endif
 
 LakeOfRage_Text_GyaradosCry:
+#if GERMAN
 	.string "Garados: Gaaar!!!$"
+#else
+    .string "GYARADOS: Gyashaa!$"
+#endif
 
 LakeOfRage_Text_Gramps:
+#if GERMAN
 	.string "Das Garados ist wütend! Das ist ein\n"
 	.string "böses Omen!$"
+#else
+    .string "The GYARADOS are angry!\p"
+    .string "It's a bad omen!$"
+#endif
 
 LakeOfRage_Text_GrampsCleared:
+#if GERMAN
 	.string "Haha! Die Karpador beißen ganz\n"
 	.string "ausgezeichnet!$"
+#else
+    .string "Hahah! The MAGIKARP are biting!$"
+#endif
 
 LakeOfRage_Text_SuperNerd:
+#if GERMAN
 	.string "Angeblich entstand dieser See einst,\n"
 	.string "nachdem ein erbostes Garados hier\l"
 	.string "seinem Unmut Luft gemacht hatte.\p"
 	.string "Ich frage mich, ob der ganze Rummel\n"
 	.string "vielleicht etwas mit dieser Geschichte\l"
 	.string "zu tun hat…$"
+#else
+    .string "I heard this lake was made by\n"
+    .string "rampaging GYARADOS.\p"
+    .string "I wonder if there is any\n"
+    .string "connection to their mass outbreak\l"
+    .string "now?$"
+#endif
 
 LakeOfRage_Text_CooltrainerF:
+#if GERMAN
 	.string "Täuschen mich meine Augen? Ich sah\n"
 	.string "ein rotes Garados im See…\p"
 	.string "Aber ich dachte, Garados sind blau!$"
+#else
+    .string "Did my eyes deceive me? I saw a\n"
+    .string "red GYARADOS in the LAKE…\p"
+    .string "But I thought GYARADOS were\n"
+    .string "usually blue?$"
+#endif
 
 
 LakeOfRage_Text_FisherAndreSeen:
+#if GERMAN
 	.string "Gerade eben habe ich ein tolles Pokémon\n"
 	.string "gefangen! Lass uns kämpfen!$"
+#else
+    .string "Let me battle with the POKéMON I\n"
+    .string "just caught!$"
+#endif
 
 LakeOfRage_Text_FisherAndreBeaten:
+#if GERMAN
 	.string "Ich mag zwar ein guter Angler sein, aber\n"
 	.string "als Trainer habe ich versagt…$"
+#else
+    .string "I might be an expert angler, but\n"
+    .string "I stink as a POKéMON trainer…$"
+#endif
 
 LakeOfRage_Text_FisherAndreAfter:
+#if GERMAN
 	.string "Im Angeln schlägt mich niemand! Ich\n"
 	.string "habe schließlich am laufenden Band\l"
 	.string "neue Pokémon an der Leine!$"
+#else
+    .string "I won't lose as an angler! I catch\n"
+    .string "POKéMON all day.$"
+#endif
 
 
 LakeOfRage_Text_FisherRaymondSeen:
+#if GERMAN
 	.string "Ich kann tun, was ich will. Ich fange\n"
 	.string "immer nur die gleichen Pokémon…$"
+#else
+    .string "No matter what I do, all I catch\n"
+    .string "are the same POKéMON…$"
+#endif
 
 LakeOfRage_Text_FisherRaymondBeaten:
+#if GERMAN
 	.string "Meine Schnur hat sich verheddert…$"
+#else
+    .string "My line's all tangled up…$"
+#endif
 
 LakeOfRage_Text_FisherRaymondAfter:
+#if GERMAN
 	.string "Warum kann ich keine guten\n"
 	.string "Pokémon fangen?$"
+#else
+    .string "Why can't I catch any good\n"
+    .string "POKéMON?$"
+#endif
 
 LakeOfRage_Text_CooltrainermAaronSeen:
+#if GERMAN
 	.string "Trifft ein Trainer auf einen anderen,\n"
 	.string "so muss er ihn herausfordern.\p"
 	.string "Das ist unsere Bestimmung.$"
+#else
+    .string "If a trainer spots another trainer,\n"
+    .string "he has to make a challenge.\p"
+    .string "That is our destiny.$"
+#endif
 
 LakeOfRage_Text_CooltrainermAaronBeaten:
+#if GERMAN
 	.string "Wow… Toller Kampf!$"
+#else
+    .string "Whew… Good battle.$"
+#endif
 
 LakeOfRage_Text_CooltrainermAaronAfter:
+#if GERMAN
 	.string "Sowohl Pokémon als auch ihre Trainer\n"
 	.string "stärken durch ständiges Kämpfen\l"
 	.string "sukzessiv ihre Fähigkeiten!$"
+#else
+    .string "POKéMON and their trainer become\n"
+    .string "powerful through constant battling.$"
+#endif
 
 LakeOfRage_Text_CooltrainerfLoisSeen:
+#if GERMAN
 	.string "Was ist mit dem roten Garados\n"
 	.string "passiert?\p"
 	.string "Es ist weg?\p"
 	.string "So ein Mist. War ich etwa\n"
 	.string "umsonst hier?\p"
 	.string "Ich weiß… kämpfen wir!$"
+#else
+    .string "What happened to the red\n"
+    .string "GYARADOS?\p"
+    .string "It's gone?\p"
+    .string "Oh, darn. I came here for\n"
+    .string "nothing?\p"
+    .string "I know--let's battle!$"
+#endif
 
 LakeOfRage_Text_CooltrainerfLoisBeaten:
+#if GERMAN
 	.string "Ziemlich gut!$"
+#else
+    .string "Good going!$"
+#endif
 
 LakeOfRage_Text_CooltrainerfLoisAfter:
+#if GERMAN
 	.string "Stell dir vor, ich habe schon mal ein\n"
 	.string "rosa Smettbo gesehen!$"
+#else
+    .string "Come to think of it, I've seen a\n"
+    .string "pink BUTTERFREE.$"
+#endif
 
 
 
@@ -412,26 +562,53 @@ LakeOfRage_EventScript_WesleyCompleted::
 	end
 
 LakeOfRage_Text_MeetWesley:
+#if GERMAN
 	.string "Mitko: Na, wie geht’s dir?\p"
 	.string "Ich gehöre zur Wochentags-Familie!\n"
 	.string "Kannst du meinen Lieblingstag erraten?$"
+#else
+    .string "WESLEY: Well, how do you do?\p"
+    .string "I'm a member of the WEEKDAY family!\n"
+	.string "Can you guess my favorite day?$"
+#endif
 
 LakeOfRage_Text_WesleyGivesGift:
+#if GERMAN
 	.string "Freut mich! Bitte nimm dieses\n"
 	.string "Souvenir.$"
+#else
+    .string "Pleased to meet you. Please take a\n"
+    .string "souvenir.$"
+#endif
 
 LakeOfRage_Text_WesleyGaveGift:
-	.string "Mitko: Schwarzgurt erhöht die\n"
+#if GERMAN
+	.string "Mitko: {COLOR RED}Schwarzgurt{COLOR DARK_GRAY} erhöht die\n"
 	.string "Kraft von Kampf-Attacken.$"
+#else
+    .string "WESLEY: BLACK BELT beefs up the\n"
+    .string "power of fighting moves.$"
+#endif
 
 LakeOfRage_Text_WesleyWednesday:
+#if GERMAN
 	.string "Mitko: Da du mich gefunden hast, musst\n"
 	.string "du meine Brüder und Schwestern\l"
 	.string "getroffen haben.\p"
 	.string "Oder hattest du einfach nur Glück?$"
+#else
+    .string "WESLEY: Since you found me, you\n"
+    .string "must have met my brothers and\l"
+    .string "sisters.\p"
+    .string "Or did you just get lucky?$"
+#endif
 
 LakeOfRage_Text_WesleyNotWednesday:
+#if GERMAN
 	.string "Mitko: Nicht ganz…$"
+#else
+    .string "WESLEY: Not exactly...$"
+#endif
 
 LakeOfRage_EventScript_Sign1::
 	msgbox LakeOfRage_Text_Sign, MSGBOX_SIGN
@@ -442,8 +619,17 @@ LakeOfRage_EventScript_Sign2::
 	end
 
 LakeOfRage_Text_Sign:
+#if GERMAN
 	.string "See des Zorns\p"
 	.string "(Auch bekannt als der Garados-See)$"
+#else
+    .string "LAKE OF RAGE,\n"
+    .string "also known as GYARADOS LAKE.$"
+#endif
 
 LakeOfRage_Text_FishingGuruSign:
+#if GERMAN
 	.string "Haus des Profi-Anglers$"
+#else
+    .string "FISHING GURU'S HOUSE$"
+#endif

@@ -39,32 +39,69 @@ Route2_EastBuilding_EventScript_Rocker::
 	end
 
 Route2_EastBuilding_Text_GiveHM05IfSeen10Mons::
+#if GERMAN
 	.string "Hallo! Erinnerst du dich?\n"
 	.string "Ich bin Prof. Eichs Assistent!\p"
 	.string "Wenn du mindestens 10 verschiedene\n"
 	.string "Pokémon gefangen hast, habe ich\l"
-	.string "ein Geschenk für dich: VM05\p"
+	.string "ein Geschenk für dich: {COLOR RED}VM05{COLOR DARK_GRAY}\p"
 	.string "Also, {PLAYER}, hast du 10\n"
 	.string "unterschiedliche Pokémon gefangen?$"
+#else
+	.string "Hi! Remember me?\n"
+	.string "I'm one of PROF. OAK's AIDES.\p"
+	.string "If your POKéDEX has complete data\n"
+	.string "on ten species, I'm supposed to\l"
+	.string "give you a reward.\p"
+	.string "PROF. OAK entrusted me with\n"
+	.string "HM05 for you.\p"
+	.string "So, {PLAYER}, let me ask you.\p"
+	.string "Have you gathered data on at least\n"
+	.string "ten kinds of POKéMON?$"
+#endif
 
 Route2_EastBuilding_Text_GreatHereYouGo::
+#if GERMAN
 	.string "Super! Du hast {STR_VAR_3} verschiedene\n"
 	.string "Pokémon gefangen!\p"
 	.string "Einfach klasse! Hier, das hast du\n"
 	.string "dir redlich verdient!$"
+#else
+	.string "Great! You have caught or owned\n"
+	.string "{STR_VAR_3} kinds of POKéMON!\p"
+	.string "Congratulations!\n"
+	.string "Here you go!$"
+#endif
 
 Route2_EastBuilding_Text_ReceivedHM05FromAide::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "VM05!$"
+	.string "{COLOR RED}VM05{COLOR DARK_GRAY}!$"
+#else
+	.string "{PLAYER} received HM05\n"
+	.string "from the AIDE.$"
+#endif
 
 Route2_EastBuilding_Text_ExplainHM05::
-	.string "Die VM05 enthält die versteckte\n"
+#if GERMAN
+	.string "Die {COLOR RED}VM05{COLOR DARK_GRAY} enthält die versteckte\n"
 	.string "Attacke Blitz.\p"
 	.string "Blitz erhellt selbst die dunkelsten\n"
 	.string "Höhlen und Verliese.$"
+#else
+	.string "HM05 contains the hidden move\n"
+	.string "FLASH.\p"
+	.string "FLASH lights up even the darkest\n"
+	.string "of caves and dungeons.$"
+#endif
 
 Route2_EastBuilding_Text_CanGetThroughRockTunnel::
+#if GERMAN
 	.string "Sobald eines deiner Pokémon Blitz\n"
 	.string "erlernt hat, kannst du dich in den\l"
-	.string "Felstunnel wagen!$"
+	.string "{COLOR RED}Felstunnel{COLOR DARK_GRAY} wagen!$"
+#else
+	.string "Once a POKéMON learns FLASH, you\n"
+	.string "can get through ROCK TUNNEL.$"
+#endif
 

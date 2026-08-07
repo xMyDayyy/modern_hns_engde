@@ -20,25 +20,46 @@ FuchsiaCity_EventScript_BaobaCall::
 	end
 
 FuchsiaCity_Text_BaobaName:
+#if GERMAN
 	.string "Baoba$"
+#else
+	.string "BAOBA$"
+#endif
 
 FuchsiaCity_Text_Baoba:
+#if GERMAN
 	.string "Aufseher Baoba: {PLAYER}!\p"
 	.string "Ich bin Aufseher Baoba.\p"
 	.string "Etwas Schreckliches ist passiert!\n"
-	.string "Meine alte Safari-Zone in Fuchsania\l"
+	.string "Meine alte {COLOR RED}Safari-Zone{COLOR DARK_GRAY} in Fuchsania\l"
 	.string "City wurde aufgekauft und wieder\l"
 	.string "eröffnet!\p"
 	.string "Und anscheinend gibt es neue,\n"
 	.string "exotische Pokémon!\p"
 	.string "Das schadet meinem Geschäft!\p"
 	.string "{PLAYER}, du musst in die neue\n"
-	.string "Safari-Zone gehen und ein Pokémon\l"
+	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY} gehen und ein Pokémon\l"
 	.string "fangen, um es mir zu zeigen.\p"
 	.string "Ich muss über diese “exotischen”\n"
 	.string "Pokémon Bescheid wissen.\p"
 	.string "Bitte {PLAYER}, mein Geschäft hängt\n"
 	.string "von dir ab!$"
+#else
+	.string "WARDEN BAOBA: {PLAYER}!\p"
+	.string "This is WARDEN BAOBA.\p"
+	.string "Something awful has happened!\n"
+	.string "My old SAFARI ZONE in FUCHSIA CITY\l"
+	.string "was bought out and reopened!\p"
+	.string "And apparently it has exotic new\n"
+	.string "POKéMON!\p"
+	.string "It's hurting my business!\p"
+	.string "{PLAYER}, you must venture into the\n"
+	.string "new SAFARI ZONE and catch a POKéMON\l"
+	.string "to show me. I must know about these\l"
+	.string "'exotic' POKéMON.\p"
+	.string "Please {PLAYER}, my business depends\n"
+	.string "on you!$"
+#endif
 
 FuchsiaCity_EventScript_Dratini::
 	lock
@@ -101,44 +122,95 @@ FuchsiaCity_EventScript_SafariZone::
 	end
 
 FuchsiaCity_Text_Youngster:
+#if GERMAN
 	.string "Einer der Top Vier war früher einmal\n"
 	.string "der Arenaleiter von Fuchsania City!$"
+#else
+	.string "One of the ELITE FOUR used to be\n"
+	.string "the LEADER of FUCHSIA's GYM.$"
+#endif
 
 FuchsiaCity_Text_PokefanM:
+#if GERMAN
 	.string "Die Tochter von Koga, einem der\n"
 	.string "Top Vier, hat es hier bis zur\l"
 	.string "Arenaleiterin gebracht!$"
+#else
+	.string "KOGA's daughter succeeded him as\n"
+	.string "the GYM LEADER after he joined the\l"
+	.string "ELITE FOUR.$"
+#endif
 
 FuchsiaCity_Text_Teacher:
-	.string "Schade, dass die Safari-Zone\p"
+#if GERMAN
+	.string "Schade, dass die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\p"
 	.string "geschlossen ist…\n"
 	.string "Das ist schließlich Fuchsanias\l"
 	.string "Hauptattraktion.$"
+#else
+	.string "The SAFARI ZONE is under new\n"
+	.string "management.\p"
+	.string "And it has tons of new POKéMON!$"
+#endif
 
 FuchsiaCity_Text_Sign:
+#if GERMAN
 	.string "Fuchsania City\p"
 	.string "Sieh nur! Die Rosarote Lieblichkeit!$"
+#else
+	.string "FUCHSIA CITY\p"
+	.string "Behold! It's Passion Pink!$"
+#endif
 
 FuchsiaCity_Text_GymSign:
+#if GERMAN
 	.string "Pokémon-Arena von Fuchsania City\n"
 	.string "Leiterin: Janina\l"
 	.string "Die giftige Ninja-Meisterin$"
+#else
+	.string "FUCHSIA CITY POKéMON GYM\n"
+	.string "LEADER: JANINE\p"
+	.string "The Poisonous Ninja Master$"
+#endif
 
 FuchsiaCity_Text_SafariZoneOfficeSign:
+#if GERMAN
 	.string "Hier ist eine Notiz…\p"
 	.string "Safari-Zone-Büro bis auf\n"
 	.string "Weiteres geschlossen.$"
+#else
+	.string "There's a notice here…\p"
+	.string "SAFARI ZONE OFFICE is closed until\n"
+	.string "further notice.$"
+#endif
 
 FuchsiaCity_Text_SafariZone:
-	.string "Safari-Zone Neuer Eigentümer\n"
+#if GERMAN
+	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY} Neuer Eigentümer\n"
 	.string "Devon Corp.$"
+#else
+	.string "SAFARI ZONE\n"
+	.string "NOW OWNED BY\l"
+	.string "DEVON CORP.$"
+#endif
 
 FuchsiaCity_Text_SafariZoneClosedSign:
+#if GERMAN
 	.string "Der Aufseher ist auf Reisen.\p"
-	.string "Deshalb ist die Safari-Zone\n"
+	.string "Deshalb ist die {COLOR RED}Safari-Zone{COLOR DARK_GRAY}\n"
 	.string "geschlossen.$"
+#else
+	.string "The WARDEN is traveling abroad.\p"
+	.string "Therefore, the SAFARI ZONE is\n"
+	.string "closed.$"
+#endif
 
 FuchsiaCity_Text_NoLitteringSign:
+#if GERMAN
 	.string "Keine Umweltverschmutzung!\p"
 	.string "Bitte nimm deinen Müll mit.$"
+#else
+	.string "No littering.\p"
+	.string "Please take your waste with you.$"
+#endif
 

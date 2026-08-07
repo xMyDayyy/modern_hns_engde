@@ -51,6 +51,7 @@ MountMortar4_EventScript_KiyoAfter::
 
 
 MountMortar4_Text_KiyoIntro:
+#if GERMAN
 	.string "Hey da!\n"
 	.string "Ich bin der Karate-Meister!\p"
 	.string "Ich trainiere hier ganz alleine in dieser\n"
@@ -59,12 +60,25 @@ MountMortar4_Text_KiyoIntro:
 	.string "Hergehört!\l"
 	.string "Ich will, dass du gegen mich kämpfst!\l"
 	.string "Harrrgh!$"
+#else
+	.string "Hey!\p"
+	.string "I am the KARATE KING!\n"
+	.string "I train alone here in the dark!\p"
+	.string "You! Battle with me!\n"
+	.string "Hwaaarggh!$"
+#endif
 
 MountMortar4_Text_KiyoWin:
+#if GERMAN
 	.string "Waaargh!\n"
 	.string "Ich wurde besiegt!$"
+#else
+	.string "Waaaarggh!\n"
+	.string "I'm beaten!$"
+#endif
 
 MountMortar4_Text_KiyoTyrogueReward:
+#if GERMAN
 	.string "Da-da… das ist doch nicht möglich!\n"
 	.string "Wie lange soll ich denn noch trainieren?\p"
 	.string "Ich sage es nur ungerne, aber ich habe\n"
@@ -72,18 +86,45 @@ MountMortar4_Text_KiyoTyrogueReward:
 	.string "Hergehört! Als Beweis für deinen Sieg\n"
 	.string "will ich dir dieses kostbare\l"
 	.string "Kampf-Pokémon überreichen!$"
+#else
+	.string "I... I'm crushed...\p"
+	.string "My training is still not\n"
+	.string "enough...\p"
+	.string "But a loss is a loss.\n"
+	.string "I admit it.\p"
+	.string "As proof that you defeated me,\n"
+	.string "I'll give you a rare fighting\l"
+	.string "POKéMON.$"
+#endif
 
 MountMortar4_Text_ReceiveTyrogue:
+#if GERMAN
 	.string "{PLAYER} erhält Rabauz.$"
+#else
+	.string "{PLAYER} received TYROGUE.$"
+#endif
 
 MountMortar4_Text_KiyoGotTyrogue:
+#if GERMAN
 	.string "Rabauz ist ein Pokémon vom Typ Kampf!\p"
 	.string "Zieht man es auf, entwickelt es sich\n"
 	.string "angeblich zu einem mächtigen Pokémon!\p"
 	.string "Also hergehört! Streng dich an!\n"
 	.string "Ich setze jetzt auch mein Training fort.\l"
 	.string "Hau rein!$"
+#else
+	.string "TYROGUE is a FIGHTING-type.\p"
+	.string "It evolves into a tougher\n"
+	.string "POKéMON.\p"
+	.string "Keep up the hard work.\n"
+	.string "I'll keep training too.\p"
+	.string "Farewell!$"
+#endif
 
 MountMortar4_Text_KiyoFullParty:
+#if GERMAN
 	.string "He!\n"
 	.string "Du hast zu viele Pokémon dabei!$"
+#else
+	.string "You have no room in your party!$"
+#endif

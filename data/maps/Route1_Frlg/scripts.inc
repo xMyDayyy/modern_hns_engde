@@ -35,31 +35,64 @@ Route1_EventScript_RouteSign::
 	end
 
 Route1_Text_WorkAtPokeMartTakeSample::
+#if GERMAN
 	.string "Hi! Ich arbeite in einem Pokémon-\n"
 	.string "Supermarkt.\p"
 	.string "Wir verkaufen viele praktische\n"
 	.string "Dinge!\p"
 	.string "Du findest unseren Laden in\n"
-	.string "Vertania City.\p"
+	.string "{COLOR RED}Vertania City{COLOR DARK_GRAY}.\p"
 	.string "Am besten gebe ich dir ein\n"
 	.string "Werbegeschenk! Hier, bitte!$"
+#else
+	.string "Hi!\n"
+	.string "I work at a POKéMON MART.\p"
+	.string "It's part of a convenient chain\n"
+	.string "selling all sorts of items.\p"
+	.string "Please, visit us in VIRIDIAN CITY.\p"
+	.string "I know, I'll give you a sample.\n"
+	.string "Here you go!$"
+#endif
 
 Route1_Text_ComeSeeUsIfYouNeedPokeBalls::
+#if GERMAN
 	.string "Willst du Pokémon fangen? Wir\n"
 	.string "haben auch Pokébälle im Sortiment!$"
+#else
+	.string "Please come see us if you need\n"
+	.string "POKé BALLS for catching POKéMON.$"
+#endif
 
 Route1_Text_PutPotionAway::
-	.string "{PLAYER} steckt den Trank in die\n"
+#if GERMAN
+	.string "{PLAYER} steckt den {COLOR RED}Trank{COLOR DARK_GRAY} in die\n"
 	.string "Item-Tasche des Beutels.$"
+#else
+	.string "{PLAYER} put the POTION away in\n"
+	.string "the BAG's ITEMS POCKET.$"
+#endif
 
 Route1_Text_CanJumpFromLedges::
+#if GERMAN
 	.string "Siehst du die Stufen hier?\p"
 	.string "Du kannst nicht hinaufklettern,\n"
 	.string "dafür aber herunterspringen!\p"
 	.string "So kommst du viel schneller nach\n"
-	.string "Alabastia zurück.$"
+	.string "{COLOR RED}Alabastia{COLOR DARK_GRAY} zurück.$"
+#else
+	.string "See those ledges along the road?\p"
+	.string "It's a bit scary, but you can jump\n"
+	.string "from them.\p"
+	.string "You can get back to PALLET TOWN\n"
+	.string "quicker that way.$"
+#endif
 
 Route1_Text_RouteSign::
+#if GERMAN
 	.string "Route 1\n"
 	.string "Alabastia - Vertania City$"
+#else
+	.string "ROUTE 1\n"
+	.string "PALLET TOWN - VIRIDIAN CITY$"
+#endif
 

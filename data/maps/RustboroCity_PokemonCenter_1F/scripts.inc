@@ -29,22 +29,42 @@ RustboroCity_PokemonCenter_1F_EventScript_Girl::
 	end
 
 RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities:
+#if GERMAN
 	.string "Mein Pokémon hat ein Naives\n"
 	.string "Wesen und das meines Freundes ein\l"
 	.string "Fröhliches.\p"
 	.string "Es ist faszinierend, dass Pokémon\n"
 	.string "unterschiedliche Persönlichkeiten\l"
 	.string "haben.$"
+#else
+	.string "My POKéMON has a NAIVE nature, and my\n"
+	.string "friend's has a JOLLY nature.\p"
+	.string "It's fascinating how POKéMON have\n"
+	.string "personalities!$"
+#endif
 
 RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon:
+#if GERMAN
 	.string "Es gibt männliche und weibliche\n"
 	.string "Pokémon.\p"
 	.string "Aber niemand kann sagen, worin der\n"
 	.string "eigentliche Unterschied liegt.$"
+#else
+	.string "Just like people, there are male and\n"
+	.string "female POKéMON.\p"
+	.string "But no one seems to have any idea how\n"
+	.string "they're different.$"
+#endif
 
 RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
+#if GERMAN
 	.string "Der Mann nebenan hat mir eine VM\n"
 	.string "gegeben!\p"
 	.string "Ich habe meinem Pokémon beigebracht,\n"
 	.string "damit kleinere Bäume zu Zerschneiden.$"
+#else
+	.string "The man next door gave me an HM!\p"
+	.string "I used it to teach my POKéMON how to\n"
+	.string "CUT down skinny trees.$"
+#endif
 

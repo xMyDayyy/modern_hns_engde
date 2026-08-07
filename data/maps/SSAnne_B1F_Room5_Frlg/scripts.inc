@@ -16,11 +16,21 @@ SSAnne_B1F_Room5_EventScript_Machoke::
 	end
 
 SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks::
+#if GERMAN
 	.string "Mein Pokémon, Maschock, ist\n"
 	.string "superstark!!!\p"
 	.string "Mit seiner Stärke kann es sogar\n"
 	.string "Felsen bewegen!$"
+#else
+	.string "My buddy MACHOKE is super strong!\p"
+	.string "He has enough STRENGTH to move\n"
+	.string "big rocks!$"
+#endif
 
 SSAnne_B1F_Room5_Text_Machoke::
+#if GERMAN
 	.string "Maschock: Mascho! Maschock!$"
+#else
+	.string "MACHOKE: Gwoh! Goggoh!$"
+#endif
 

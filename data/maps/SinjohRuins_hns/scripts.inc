@@ -154,9 +154,14 @@ SinjohRuins_StairsScene::
     end
 
 SinjohRuins_Text_StevenGotoStairs1:
+#if GERMAN
 	.string "Troy: Das kann nur eines bedeuten.$"
+#else
+    .string "STEVEN: This could only mean one thing.$"
+#endif
 
 SinjohRuins_Text_StevenGotoStairs2:
+#if GERMAN
 	.string "{PLAYER}. Wir konnten die übrigen\n"
 	.string "Schriftzeichen entschlüsseln…\p"
 	.string "Wenn die Übersetzung stimmt, ist\n"
@@ -169,6 +174,20 @@ SinjohRuins_Text_StevenGotoStairs2:
 	.string "ihm gegenüberzutreten.\p"
 	.string "Erwarte mich auf dem Treppenabsatz,\n"
 	.string "wenn du bereit bist.$"
+#else
+    .string "{PLAYER}. We were able to decipher\n"
+    .string "the rest of the glyphs...\p"
+    .string "If the translation is right, \n"
+    .string "the POKéMON at the top of that\l"
+    .string "staircase is the most powerful\l"
+    .string "being in the universe.\p"
+    .string "And it is my duty as former\n"
+    .string "CHAMPION of the HOENN LEAGUE\l"
+    .string "to make sure you are strong\l"
+    .string "enough to face it.\p"
+    .string "Meet me at that landing\n"
+    .string "when you are ready.$"
+#endif
 
 SinjohRuins_Movement_StevenGoesToStairs:
     walk_up
@@ -321,20 +340,38 @@ SinjohRuins_EventScript_StevenBattle::
     return
 
 SinjohRuins_Text_HealParty::
+#if GERMAN
 	.string "Troy: Lass mich deine Pokémon\n"
 	.string "heilen, bevor du gehst.$"
+#else
+    .string "STEVEN: Let me heal your POKéMON\n"
+    .string "before you go.$"
+#endif
 
 SinjohRuins_Text_StevenAfterPlate:
+#if GERMAN
 	.string "Troy: Viel Glück, {PLAYER}!\p"
 	.string "Geh nur, ich bin direkt hinter dir.$"
+#else
+    .string "STEVEN: Good luck, {PLAYER}\p"
+    .string "Go on, I'm right behind you.$"
+#endif
 
 SinjohRuins_Text_StevenAfterBattle:
+#if GERMAN
 	.string "Troy: Dass mich ein anderer Trainer\n"
 	.string "einmal so besiegen würde…\p"
 	.string "Unglaublich.\p"
 	.string "Nimm das, es ist die letzte Tafel.$"
+#else
+	.string "STEVEN: To think, another trainer \n"
+	.string "would defeat me like this.\p"
+    .string "Incredible.\p"
+	.string "Take this, it's the final plate.$"
+#endif
 
 SinjohRuins_Text_StevenReadytoBattle:
+#if GERMAN
 	.string "Troy: {PLAYER}.\p"
 	.string "Seit ich zum ersten Mal die Ent-\n"
 	.string "schlossenheit in deinen Augen sah,\l"
@@ -343,14 +380,33 @@ SinjohRuins_Text_StevenReadytoBattle:
 	.string "Ich werde das Band zwischen dir\n"
 	.string "und deinen Pokémon prüfen.\p"
 	.string "Bist du bereit?$"
+#else
+    .string "STEVEN: {PLAYER}.\p"
+    .string "Ever since I first saw the\n"
+    .string "determination in your eyes,\l"
+    .string "I felt it would lead to this.\p"
+    .string "I will test the bond between you\n"
+    .string "and your POKéMON.\p"
+    .string "Are you ready?$"
+#endif
 
 SinjohRuins_Text_ChallengeSteven:
+#if GERMAN
 	.string "Okay, {PLAYER}{KUN}, wenn du dich auf eine\n"
 	.string "ernsthafte Herausforderung einlässt,\l"
 	.string "sei auf das Schlimmste gefasst!$"
+#else
+	.string "Okay, {PLAYER}{KUN}, if you're going to mount\n"
+	.string "a serious challenge, expect the worst!$"
+#endif
 
 SinjohRuins_Text_StevenDefeat:
+#if GERMAN
 	.string "Du…\nDu bist bereit.$"
+#else
+	.string "You...\n"
+	.string "You are ready.$"
+#endif
 
 SinjohRuins_EventScript_Steven::
     msgbox SinjohRuins_Text_StevenAfterPlate, MSGBOX_NPC

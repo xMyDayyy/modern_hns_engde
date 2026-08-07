@@ -25,20 +25,42 @@ SaffronCity_MrPsychicsHouse_EventScript_AlreadyGotTM29::
 	end
 
 SaffronCity_MrPsychicsHouse_Text_YouWantedThis::
+#if GERMAN
 	.string "Warte!\n"
 	.string "Sag kein Wort!\p"
 	.string "Du suchst dies hier, oder?$"
+#else
+	.string "…Wait! Don't say a word!\p"
+	.string "You wanted this!$"
+#endif
 
 SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "TM29!$"
+#else
+	.string "{PLAYER} received TM29\n"
+	.string "from MR. PSYCHIC.$"
+#endif
 
 SaffronCity_MrPsychicsHouse_Text_ExplainTM29::
+#if GERMAN
 	.string "TM29 ist Psychokinese!\p"
 	.string "Sie vermindert die Spezial-\n"
 	.string "Fähigkeiten des Gegners.$"
+#else
+	.string "You already know, don't you?\n"
+	.string "TM29 is PSYCHIC.\p"
+	.string "It's an attack that may also lower\n"
+	.string "the target's special stats.$"
+#endif
 
 SaffronCity_MrPsychicsHouse_Text_YouveNoRoom::
+#if GERMAN
 	.string "Heh, du kannst keine Items mehr\n"
 	.string "tragen!$"
+#else
+	.string "Where do you plan to put this?\n"
+	.string "You've no room.$"
+#endif
 

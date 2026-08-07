@@ -18,14 +18,29 @@ OlivineCity_EventScript_Lass::
 	end
 
 OlivineCity_Text_MartCooltrainerF:
+#if GERMAN
 	.string "Kennen deine Pokémon schon eine\n"
 	.string "Attacke, die es ihnen erlaubt, Leute\l"
 	.string "übers Wasser zu tragen?$"
+#else
+	.string "Do your POKéMON already know\n"
+	.string "the move for carrying people\l"
+	.string "across water?$"
+#endif
 
 OlivineCity_Text_MartLass:
+#if GERMAN
 	.string "Das Smettbo, das mir mein Schatz\n"
 	.string "aus Übersee geschickt hat, hatte\l"
 	.string "einen Brief dabei!\p"
 	.string "Willst du wissen, was er schreibt?\n"
 	.string "In Ordnung…\p"
 	.string "Oder lieber doch nicht. Das ist geheim!$"
+#else
+	.string "My BUTTERFREE came from my\n"
+	.string "boyfriend overseas.\p"
+	.string "It carried some MAIL from him.\p"
+	.string "Want to know what it says?\p"
+	.string "Let's see... Nope! It's a\n"
+	.string "secret!$"
+#endif

@@ -47,16 +47,30 @@ SSAnne_CaptainsOffice_EventScript_Book::
 	end
 
 SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick::
+#if GERMAN
 	.string "Kapitän: Urps...\n"
 	.string "Es geht mir gar nicht gut! Urps!$"
+#else
+	.string "CAPTAIN: Ooargh…\n"
+	.string "I feel hideous…\l"
+	.string "Urrp! Seasick…$"
+#endif
 
 SSAnne_CaptainsOffice_Text_RubbedCaptainsBack::
+#if GERMAN
 	.string "{PLAYER} massiert dem Kapitän den\n"
 	.string "Rücken!\p"
 	.string "Rubbel...\n"
 	.string "Schrubb...$"
+#else
+	.string "{PLAYER} rubbed the CAPTAIN's\n"
+	.string "back!\p"
+	.string "Rub-rub…\n"
+	.string "Rub-rub…$"
+#endif
 
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
+#if GERMAN
 	.string "Kapitän: Ahhhhh! Ich danke dir!\n"
 	.string "Es geht mir schon viel besser...\p"
 	.string "Möchtest du den Umgang mit dem\n"
@@ -67,36 +81,84 @@ SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
 	.string "Damit bringst du deinen Pokémon\n"
 	.string "den Umgang mit dem Zerschneider\l"
 	.string "ganz leicht bei!$"
+#else
+	.string "CAPTAIN: Whew! Thank you!\n"
+	.string "I'm feeling much better now.\p"
+	.string "You want to see my hidden CUT\n"
+	.string "technique?\p"
+	.string "I could show you my prized CUT\n"
+	.string "technique if I weren't so ill…\p"
+	.string "I know! You can have this!\n"
+	.string "This HIDDEN MACHINE!\p"
+	.string "Teach CUT to your POKéMON, and\n"
+	.string "you can see it CUT anytime!$"
+#endif
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "VM01.$"
+	.string "{COLOR RED}VM01{COLOR DARK_GRAY}.$"
+#else
+	.string "{PLAYER} obtained HM01\n"
+	.string "from the CAPTAIN!$"
+#endif
 
 SSAnne_CaptainsOffice_Text_ExplainCut::
+#if GERMAN
 	.string "Wenn du den Zerschneider einsetzt,\n"
 	.string "kannst du kleine Bäume fällen.\p"
 	.string "Probiere es doch bei den Bäumen\n"
-	.string "um Orania City aus!$"
+	.string "um {COLOR RED}Orania City{COLOR DARK_GRAY} aus!$"
+#else
+	.string "Using CUT, you can chop down\n"
+	.string "small trees.\p"
+	.string "Why not try it with the trees\n"
+	.string "around VERMILION CITY?$"
+#endif
 
 SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
+#if GERMAN
 	.string "Kapitän: Super!\p"
 	.string "Endlich bin ich nicht mehr krank!\n"
 	.string "Es kann losgehen!\p"
 	.string "Jetzt kann die M.S. Anne in See\n"
 	.string "stechen!\p"
 	.string "Auf Wiedersehen! Bis zum nächsten\n"
-	.string "Besuch in Orania City!$"
+	.string "Besuch in {COLOR RED}Orania City{COLOR DARK_GRAY}!$"
+#else
+	.string "CAPTAIN: …Whew!\p"
+	.string "Now that I'm not sick anymore,\n"
+	.string "I guess it's time.\p"
+	.string "The S.S. ANNE will set sail soon!\p"
+	.string "Farewell, until our return to\n"
+	.string "VERMILION CITY!$"
+#endif
 
 SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis::
+#if GERMAN
 	.string "Oh, nein! Du hast keinen Platz für\n"
 	.string "weitere Items!$"
+#else
+	.string "Oh, no!\n"
+	.string "You have no room for this!$"
+#endif
 
 SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked::
+#if GERMAN
 	.string "Buäh! Manche Dinge macht man\n"
 	.string "besser nicht...$"
+#else
+	.string "Yuck!\n"
+	.string "Shouldn't have looked!$"
+#endif
 
 SSAnne_CaptainsOffice_Text_HowToConquerSeasickness::
+#if GERMAN
 	.string "1000 natürliche Hausmittel gegen\n"
 	.string "Seekrankheit...\l"
 	.string "Der Kapitän liest dieses Buch!$"
+#else
+	.string "How to Conquer Seasickness…\n"
+	.string "The CAPTAIN's reading this!$"
+#endif
 

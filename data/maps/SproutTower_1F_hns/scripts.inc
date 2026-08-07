@@ -43,40 +43,84 @@ SproutTower_1F_EventScript_ItemParalyzeHeal::
 	end
 
 SproutTower_Text_SageChow_Seen:
+#if GERMAN
 	.string "Wir bewachen diesen Turm, um den\n"
 	.string "Pokémon auf diese Weise unseren\p"
 	.string "Dank auszudrücken und damit wir nie\n"
 	.string "vergessen, was wir ihnen verdanken!$"
+#else
+	.string "We stand guard in this tower.\p"
+	.string "Here, we express our gratitude\n"
+	.string "to honor all POKéMON.$"
+#endif
 
 SproutTower_Text_SageChow_Beaten:
+#if GERMAN
 	.string "A-auch dafür vielen Dank!$"
+#else
+	.string "Th-Thank you!$"
+#endif
 
 SproutTower_Text_SageChow_AfterBattle:
+#if GERMAN
 	.string "Alles Leben kann nur fortbestehen,\n"
 	.string "wenn man sich gegenseitig hilft…\p"
 	.string "Lasst uns niemals vergessen,\n"
 	.string "uns dankbar zu zeigen!$"
+#else
+	.string "All living beings coexist\n"
+	.string "through cooperation.\p"
+	.string "We must always be thankful\n"
+	.string "for this.$"
+#endif
 
 SproutTower_Text_1F_Sage1:
+#if GERMAN
 	.string "Nur wenn du es bis\n"
 	.string "ganz nach oben schaffst,\l"
 	.string "erhältst du eine VM.$"
+#else
+	.string "Only if you reach the top will\n"
+	.string "you obtain an HM.$"
+#endif
 
 SproutTower_Text_1F_Sage2:
+#if GERMAN
 	.string "Der Knofensa-Turm wurde vor\n"
 	.string "langer Zeit als Trainingsstätte\l"
 	.string "für Pokémon errichtet.$"
+#else
+	.string "SPROUT TOWER was built long ago\n"
+	.string "as a place for POKéMON training.$"
+#endif
 
 SproutTower_Text_1F_Granny:
+#if GERMAN
 	.string "Die Trägersäule des Turms soll einst\n"
 	.string "aus einem über 30 Meter hohen\l"
 	.string "Knofensa entstanden sein.$"
+#else
+	.string "A BELLSPROUT over 100 feet\n"
+	.string "tall…\p"
+	.string "People say that it became the\n"
+	.string "center pillar here.$"
+#endif
 
 SproutTower_Text_1F_Teacher:
+#if GERMAN
 	.string "Siehst du, wie sie sich bewegt?\n"
 	.string "Die Mönche scheinen oben\l"
 	.string "mitten im Training zu stecken!$"
+#else
+	.string "See the pillar shaking?\p"
+	.string "People are training upstairs.$"
+#endif
 
 SproutTower_Text_1F_Statue:
+#if GERMAN
 	.string "Eine Pokémon-Statue…\n"
 	.string "Sie sieht sehr erhaben aus.$"
+#else
+	.string "A POKéMON statue…\p"
+	.string "It looks very distinguished.$"
+#endif

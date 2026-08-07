@@ -10,9 +10,18 @@ RustboroCity_Flat1_1F_EventScript_Woman::
 	end
 
 RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility:
+#if GERMAN
 	.string "Jedes Pokémon besitzt eine spezielle\n"
 	.string "Begabung, die es einsetzen kann.$"
+#else
+	.string "Every POKéMON has a special ability\n"
+	.string "that it can use.$"
+#endif
 
 RustboroCity_Flat1_1F_Text_PokemonStrange:
+#if GERMAN
 	.string "Pokémon sind sehr seltsame Geschöpfe.$"
+#else
+	.string "POKéMON are such strange creatures.$"
+#endif
 

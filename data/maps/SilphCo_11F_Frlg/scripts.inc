@@ -133,6 +133,7 @@ SilphCo_11F_EventScript_Grunt2::
 	end
 
 SilphCo_11F_Text_ThanksForSavingMeDearBoy::
+#if GERMAN
 	.string "Präsident: Ich danke dir für die\n"
 	.string "Rettung der Silph Co.\p"
 	.string "Ich werde niemals vergessen, wie\n"
@@ -144,8 +145,19 @@ SilphCo_11F_Text_ThanksForSavingMeDearBoy::
 	.string "alles geben!\p"
 	.string "Aber vielleicht ist das hier eher\n"
 	.string "etwas für dich!$"
+#else
+	.string "PRESIDENT: Oh, dear boy!\n"
+	.string "Thank you for saving SILPH.\p"
+	.string "I will never forget you saved us in\n"
+	.string "our moment of peril.\p"
+	.string "I have to thank you in some way.\p"
+	.string "Because I am rich, I can give you\n"
+	.string "anything.\p"
+	.string "Here, maybe this will do.$"
+#endif
 
 SilphCo_11F_Text_ThanksForSavingMeDearGirl::
+#if GERMAN
 	.string "Präsident: Ich danke dir für die\n"
 	.string "Rettung der Silph Co.\p"
 	.string "Ich werde niemals vergessen, wie\n"
@@ -157,12 +169,28 @@ SilphCo_11F_Text_ThanksForSavingMeDearGirl::
 	.string "alles geben!\p"
 	.string "Aber vielleicht ist das hier eher\n"
 	.string "etwas für dich!$"
+#else
+	.string "PRESIDENT: Oh, dear girl!\n"
+	.string "Thank you for saving SILPH.\p"
+	.string "I will never forget you saved us in\n"
+	.string "our moment of peril.\p"
+	.string "I have to thank you in some way.\p"
+	.string "Because I am rich, I can give you\n"
+	.string "anything.\p"
+	.string "Here, maybe this will do.$"
+#endif
 
 SilphCo_11F_Text_ObtainedMasterBallFromPresident::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "Meisterball!$"
+#else
+	.string "{PLAYER} obtained a MASTER BALL\n"
+	.string "from the PRESIDENT!$"
+#endif
 
 SilphCo_11F_Text_ThatsOurSecretPrototype::
+#if GERMAN
 	.string "Präsident: Man kann das nirgends\n"
 	.string "kaufen!\p"
 	.string "Es ist der streng geheime Prototyp\n"
@@ -171,17 +199,39 @@ SilphCo_11F_Text_ThatsOurSecretPrototype::
 	.string "Beim 1. Versuch einfangen!\p"
 	.string "Wäge jedoch sorgfältig ab, wann du\n"
 	.string "ihn einsetzt!$"
+#else
+	.string "PRESIDENT: You can't buy that\n"
+	.string "anywhere.\p"
+	.string "It's our secret prototype MASTER\n"
+	.string "BALL.\p"
+	.string "It will catch any POKéMON without\n"
+	.string "fail!\p"
+	.string "You should be quiet about using it,\n"
+	.string "though.$"
+#endif
 
 SilphCo_11F_Text_YouHaveNoRoomForThis::
+#if GERMAN
 	.string "Du hast keinen Platz mehr!$"
+#else
+	.string "You have no room for this.$"
+#endif
 
 SilphCo_11F_Text_ThanksForRescuingUs::
+#if GERMAN
 	.string "Sekretärin: Wir danken dir für\n"
 	.string "deinen Heldenmut!\p"
 	.string "Du hast uns alle gerettet!\n"
 	.string "Danke!$"
+#else
+	.string "SECRETARY: Thank you for rescuing\n"
+	.string "all of us.\p"
+	.string "We, from the PRESIDENT down,\n"
+	.string "are indebted to you.$"
+#endif
 
 SilphCo_11F_Text_GiovanniIntro::
+#if GERMAN
 	.string "Ah, {PLAYER}!\n"
 	.string "So trifft man sich wieder!\p"
 	.string "Ich führe gerade äußerst wichtige\n"
@@ -190,12 +240,27 @@ SilphCo_11F_Text_GiovanniIntro::
 	.string "Geschäften Erwachsener heraus!\p"
 	.string "Oder du lernst eine Welt voller\n"
 	.string "Schmerzen kennen!$"
+#else
+	.string "Ah, {PLAYER}!\n"
+	.string "So we meet again!\p"
+	.string "The PRESIDENT and I are discussing\n"
+	.string "a vital business proposition.\p"
+	.string "Keep your nose out of grown-up\n"
+	.string "matters…\p"
+	.string "Or, experience a world of pain!$"
+#endif
 
 SilphCo_11F_Text_GiovanniDefeat::
+#if GERMAN
 	.string "Arrgh!\n"
 	.string "Wieder verloren!$"
+#else
+	.string "Arrgh!!\n"
+	.string "I lost again!?$"
+#endif
 
 SilphCo_11F_Text_GiovanniPostBattle::
+#if GERMAN
 	.string "Verdammter Mist!\n"
 	.string "Du hast unsere Übernahme der Silph\l"
 	.string "Co. vereitelt!\p"
@@ -206,35 +271,81 @@ SilphCo_11F_Text_GiovanniPostBattle::
 	.string "Rocket da sind!\p"
 	.string "Ich muss gehen, aber meine Zeit\n"
 	.string "wird kommen!$"
+#else
+	.string "Blast it all!\n"
+	.string "You ruined our plans for SILPH!\p"
+	.string "But, TEAM ROCKET will never fall!\p"
+	.string "{PLAYER}! Never forget that all\n"
+	.string "POKéMON exist for TEAM ROCKET!\p"
+	.string "I must go, but I shall return!$"
+#endif
 
 SilphCo_11F_Text_Grunt2Intro::
+#if GERMAN
 	.string "Halt!\n"
 	.string "Keinen Schritt weiter!$"
+#else
+	.string "Stop right there!\n"
+	.string "Don't you move!$"
+#endif
 
 SilphCo_11F_Text_Grunt2Defeat::
+#if GERMAN
 	.string "Bitte!\n"
 	.string "Verschone mich...$"
+#else
+	.string "Don't…\n"
+	.string "Please!$"
+#endif
 
 SilphCo_11F_Text_Grunt2PostBattle::
+#if GERMAN
 	.string "Du willst also zum Boss?$"
+#else
+	.string "So, you want to see my BOSS?$"
+#endif
 
 SilphCo_11F_Text_Grunt1Intro::
+#if GERMAN
 	.string "Stopp!\n"
 	.string "Hast du einen Termin beim Boss?$"
+#else
+	.string "Halt! Do you have an appointment\n"
+	.string "with my BOSS?$"
+#endif
 
 SilphCo_11F_Text_Grunt1Defeat::
+#if GERMAN
 	.string "O.k.!\n"
 	.string "Ich lasse dich durch!$"
+#else
+	.string "Gaah!\n"
+	.string "Demolished!$"
+#endif
 
 SilphCo_11F_Text_Grunt1PostBattle::
+#if GERMAN
 	.string "Die Pokémon von unserem Boss\n"
 	.string "werden dich fertig machen!$"
+#else
+	.string "Watch your step…\n"
+	.string "My BOSS likes his POKéMON tough!$"
+#endif
 
 SilphCo_11F_Text_MonitorHasMonsOnIt::
+#if GERMAN
 	.string "Auf dem Monitor sind Pokémon zu\n"
 	.string "sehen!$"
+#else
+	.string "The monitor has POKéMON on it!$"
+#endif
 
 SilphCo_11F_Text_FloorSign::
+#if GERMAN
 	.string "Silph Co. Hauptsitz\n"
 	.string "10 Og$"
+#else
+	.string "SILPH CO. HEAD OFFICE\n"
+	.string "11F$"
+#endif
 

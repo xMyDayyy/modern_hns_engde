@@ -16,25 +16,51 @@ FuchsiaCity_House2_EventScript_Photo::
 	end
 
 FuchsiaCity_House2_Text_WardensGranddaughter1:
+#if GERMAN
 	.string "Mein Opa ist der Leiter der\n"
-	.string "Safari-Zone.\p"
+	.string "{COLOR RED}Safari-Zone{COLOR DARK_GRAY}.\p"
 	.string "Zumindest war er das…\p"
 	.string "Er beschloss, Urlaub zu machen\n"
 	.string "und reiste ganz allein ins Ausland.\p"
 	.string "Er hörte einfach auf, die Safari-\n"
 	.string "Zone zu leiten.$"
+#else
+	.string "My grandpa is the SAFARI ZONE\n"
+	.string "WARDEN.\p"
+	.string "At least he was…\p"
+	.string "He decided to go on a vacation and\n"
+	.string "took off overseas all by himself.\p"
+	.string "He quit running SAFARI ZONE just\n"
+	.string "like that.$"
+#endif
 
 FuchsiaCity_House2_Text_WardensGranddaughter2:
+#if GERMAN
 	.string "Viele Leute waren enttäuscht,\n"
-	.string "dass die Safari-Zone schloss,\l"
+	.string "dass die {COLOR RED}Safari-Zone{COLOR DARK_GRAY} schloss,\l"
 	.string "aber Opa ist so stur…$"
+#else
+	.string "Many people were disappointed that\n"
+	.string "SAFARI ZONE closed down, but Grandpa\l"
+	.string "is so stubborn…$"
+#endif
 
 FuchsiaCity_House2_Text_WardenPhoto:
+#if GERMAN
 	.string "Das ist ein Foto von einem\n"
 	.string "grinsenden alten Mann, umgeben\l"
 	.string "von Pokémon.$"
+#else
+	.string "It's a photo of a grinning old man\n"
+	.string "who's surrounded by POKéMON.$"
+#endif
 
 FuchsiaCity_House2_Text_SafariZonePhoto:
+#if GERMAN
 	.string "Das ist ein Foto von einer großen\n"
 	.string "grünen Wiese, auf der seltene\l"
 	.string "Pokémon herumtollen.$"
+#else
+	.string "It's a photo of a huge grassy plain\n"
+	.string "with rare POKéMON frolicking in it.$"
+#endif

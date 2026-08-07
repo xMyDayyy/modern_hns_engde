@@ -269,18 +269,31 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 	end
 
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
+#if GERMAN
 	.string "Wir wollen ein Gerät entwickeln, mit\n"
 	.string "dem wir mit Pokémon reden können.\p"
 	.string "Aber bisher waren wir nicht sehr\n"
 	.string "erfolgreich…$"
+#else
+	.string "We're developing a device for talking\n"
+	.string "with POKéMON.\p"
+	.string "But we haven't had much success…$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
+#if GERMAN
 	.string "Ich entwickle neue Arten von\n"
 	.string "Pokébällen…\p"
 	.string "Aber noch bin ich nicht sonderlich\n"
 	.string "weit mit der Entwicklung gekommen…$"
+#else
+	.string "I'm developing new kinds of\n"
+	.string "POKé BALLS…\p"
+	.string "But I haven't made much headway…$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
+#if GERMAN
 	.string "Wir haben endlich neue Pokébälle\n"
 	.string "entwickelt!\p"
 	.string "Mit dem Wiederball lassen sich\n"
@@ -292,15 +305,33 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 	.string "Beide werden voller Stolz von der\n"
 	.string "Devon Corporation präsentiert.\p"
 	.string "Probiere sie bitte unbedingt aus!$"
+#else
+	.string "We finally made new kinds of\n"
+	.string "POKé BALLS!\p"
+	.string "The REPEAT BALL makes it easier to\n"
+	.string "catch POKéMON you've caught before.\p"
+	.string "The TIMER BALL gets better at catching\n"
+	.string "POKéMON the longer a battle runs.\p"
+	.string "Both are proudly developed by\n"
+	.string "the DEVON CORPORATION.\p"
+	.string "Please give them a try!$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
+#if GERMAN
 	.string "Ich habe den Pokénav entwickelt!\p"
 	.string "Als Ingenieur erfüllt es mich mit\n"
 	.string "Stolz,\n"
 	.string "so etwas Großartiges entwickelt zu\l"
 	.string "haben.$"
+#else
+	.string "I made the POKéNAV!\p"
+	.string "As an engineer, I feel blessed to have\n"
+	.string "made something so great!$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
+#if GERMAN
 	.string "Oh, wow!\n"
 	.string "Das ist ein Pokénav!\p"
 	.string "Er ist das Resultat der Wissbegierde\n"
@@ -311,20 +342,45 @@ RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "Einzelnen erklären?\p"
 	.string "Ach was, du findest sie schon ganz\n"
 	.string "alleine heraus.$"
+#else
+	.string "Oh, wow!\n"
+	.string "That's a POKéNAV!\p"
+	.string "It came about as a result of our\n"
+	.string "PRESIDENT's desire to learn about\l"
+	.string "the feelings of POKéMON.\p"
+	.string "Would you like me to describe its\n"
+	.string "features in detail?\p"
+	.string "No, no. I think you'll find out just by\n"
+	.string "trying the POKéNAV out.$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
+#if GERMAN
 	.string "Ich arbeite an einer Vorrichtung, die\n"
 	.string "die Träume der Pokémon visualisieren\l"
 	.string "kann…\p"
 	.string "Aber so richtig geht es nicht voran.$"
+#else
+	.string "I'm trying to develop a device that\n"
+	.string "visually reproduces the dreams of\l"
+	.string "POKéMON…\p"
+	.string "But it's not going well.$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
+#if GERMAN
 	.string "Ich arbeite an einer Vorrichtung, die\n"
 	.string "Pokémon aus Fossilien wieder zum Leben\l"
 	.string "erweckt.\p"
 	.string "Und… Es klappt!!!$"
+#else
+	.string "I've been trying to develop a device\n"
+	.string "that resurrects POKéMON from fossils…\p"
+	.string "And, it's working!$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
+#if GERMAN
 	.string "Warte! Das Teil dort…\n"
 	.string "Ist das ein Pokémon-Fossil?\p"
 	.string "Möchtest du das Pokémon wieder zum\n"
@@ -332,14 +388,29 @@ RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
 	.string "Ich kann dir mit meiner neuesten Ent-\n"
 	.string "wicklung, dem Fossil-Regenerator,\l"
 	.string "dabei helfen.$"
+#else
+	.string "Wait! That thing you have there…\n"
+	.string "Is that a POKéMON fossil?\p"
+	.string "Would you like to bring that POKéMON\n"
+	.string "back to life?\p"
+	.string "I can with my newly developed\n"
+	.string "FOSSIL REGENERATOR.$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
+#if GERMAN
 	.string "Ehrlich?\p"
 	.string "Devon besitzt einen hervorragenden\n"
 	.string "Ruf in Sachen Technik. \l"
 	.string "Das versichere ich dir!$"
+#else
+	.string "Oh, is that so?\p"
+	.string "DEVON's technological expertise\n"
+	.string "is outstanding, I tell you.$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
+#if GERMAN
 	.string "Oh, das ist aber eine Überraschung!\n"
 	.string "Du hast ja nicht nur ein, sondern zwei\l"
 	.string "Fossilien!\p"
@@ -347,15 +418,31 @@ RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string "ein Pokémon regenerieren.\p"
 	.string "Welches Fossil soll ich dafür\n"
 	.string "verwenden?$"
+#else
+	.string "Oh, now that's a surprise!\n"
+	.string "You have not one, but two, fossils?\p"
+	.string "Unfortunately, my machine can only\n"
+	.string "regenerate one POKéMON at a time.\p"
+	.string "Would you like to pick one of your\n"
+	.string "fossils for regeneration?$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
+#if GERMAN
 	.string "Exzellent!\n"
 	.string "Dann lass uns sofort zur Tat\n"
 	.string "schreiten. \p"
 	.string "{PLAYER} gibt dem Forscher von Devon\n"
 	.string "{STR_VAR_1}.$"
+#else
+	.string "Excellent!\n"
+	.string "Let's do this right away.\p"
+	.string "{PLAYER} handed the {STR_VAR_1} to\n"
+	.string "the DEVON RESEARCHER.$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
+#if GERMAN
 	.string "Der Fossil-Regenerator, den ich ent-\n"
 	.string "wickelt habe, ist einfach unglaublich.\n"
 	.string "\p"
@@ -364,30 +451,63 @@ RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
 	.string "abgeschlossen ist.\p"
 	.string "Also, äh… Warum schaust du dich in der\n"
 	.string "Zeit nicht ein wenig um?$"
+#else
+	.string "The FOSSIL REGENERATOR, which I made,\n"
+	.string "is incredible.\p"
+	.string "But it has one drawback--it takes\n"
+	.string "a long time to work.\p"
+	.string "So, uh… How about you go for a stroll\n"
+	.string "and look around for a while?$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
+#if GERMAN
 	.string "Danke für deine Geduld!\p"
 	.string "Dein fossiles Pokémon wurde zu neuem\n"
 	.string "Leben erweckt!\p"
 	.string "Das Fossil war ein altertümliches\n"
 	.string "Pokémon. Ein {STR_VAR_2}!$"
+#else
+	.string "Thanks for waiting!\p"
+	.string "Your fossilized POKéMON has been\n"
+	.string "brought back to life!\p"
+	.string "The fossil was an ancient POKéMON.\n"
+	.string "{STR_VAR_2}, it was!$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
+#if GERMAN
 	.string "{PLAYER} erhält das {STR_VAR_2} vom\n"
 	.string "Forscher von Devon.$"
+#else
+	.string "{PLAYER} received {STR_VAR_2} from\n"
+	.string "the DEVON RESEARCHER.$"
+#endif
 
 @ Unused
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
+#if GERMAN
 	.string "Oh! Du hast zu viele Pokémon dabei.\n"
 	.string "Du hast keinen Platz für dieses hier.$"
+#else
+	.string "Uh-oh, you've got too many POKéMON.\n"
+	.string "You have no room for this one.$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
+#if GERMAN
 	.string "Ich entwickle ein neues Feature für\n"
 	.string "den Pokénav…\p"
 	.string "Aber irgendwie habe ich damit\n"
 	.string "Probleme…$"
+#else
+	.string "I'm trying to develop a new feature\n"
+	.string "for the POKéNAV…\p"
+	.string "But it's not going well.$"
+#endif
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
+#if GERMAN
 	.string "Mh, was soll ich als Nächstes\n"
 	.string "entwickeln?\p"
 	.string "Unsere Firma erlaubt es uns, unsere\n"
@@ -395,4 +515,12 @@ RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
 	.string "werden zu lassen.\p"
 	.string "Als Ingenieur kann man sich nichts\n"
 	.string "Besseres wünschen!$"
+#else
+	.string "Well, now what shall I work on\n"
+	.string "developing next?\p"
+	.string "Our company allows us to make our\n"
+	.string "inspirations into reality.\p"
+	.string "One couldn't ask for a better\n"
+	.string "environment as an engineer.$"
+#endif
 

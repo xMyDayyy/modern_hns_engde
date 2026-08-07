@@ -15,11 +15,22 @@ SilphCo_1F_EventScript_FloorSign::
 	end
 
 SilphCo_1F_Text_WelcomePresidentInBoardroom::
+#if GERMAN
 	.string "Willkommen!\p"
 	.string "Der Präsident befindet sich im 10.\n"
 	.string "Stock im Konferenzraum!$"
+#else
+	.string "Welcome.\p"
+	.string "The PRESIDENT is in the boardroom\n"
+	.string "on 11F.$"
+#endif
 
 SilphCo_1F_Text_FloorSign::
+#if GERMAN
 	.string "Silph Co. Hauptsitz\n"
 	.string "EG$"
+#else
+	.string "SILPH CO. HEAD OFFICE\n"
+	.string "1F$"
+#endif
 

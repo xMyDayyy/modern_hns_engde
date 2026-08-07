@@ -102,6 +102,7 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
 	end
 
 Route109_SeashoreHouse_Text_SeashoreHouseIntro:
+#if GERMAN
 	.string "Ich bin der Besitzer des Strandhauses.\n"
 	.string "Du kannst Mr. Mare zu mir sagen.\p"
 	.string "Heißen Pokémon-Kämpfen zuzusehen,\n"
@@ -109,79 +110,174 @@ Route109_SeashoreHouse_Text_SeashoreHouseIntro:
 	.string "Zeig mir, wie heiß dein Herz lodert!\p"
 	.string "Wenn du alle Trainer besiegen kannst,\n"
 	.string "werde ich dich belohnen!$"
+#else
+	.string "I'm the owner of the SEASHORE HOUSE.\n"
+	.string "But you can call me MR. SEA!\p"
+	.string "What I love above all is to see hot\n"
+	.string "POKéMON battles.\p"
+	.string "Let me see that your heart burns hot!\p"
+	.string "If you can defeat all the TRAINERS\n"
+	.string "here, I'll reward your efforts.$"
+#endif
 
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
+#if GERMAN
 	.string "Zeig mir heiße Kämpfe!\p"
 	.string "Nur für diese habe ich das Strandhaus\n"
 	.string "überhaupt geöffnet!$"
+#else
+	.string "Show me some hot matches!\p"
+	.string "I run this SEASHORE HOUSE just for\n"
+	.string "that reason alone!$"
+#endif
 
 Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
+#if GERMAN
 	.string "Du bist brandheiß!\n"
 	.string "Die Kämpfe glühen geradezu!\l"
 	.string "Ich bin mehr als zufrieden!\p"
 	.string "Du hast deine Fertigkeiten bewiesen.\n"
 	.string "Zum Dank schenke ich dir etwas.\p"
-	.string "Es sind sechs Flaschen Sprudel!$"
+	.string "Es sind sechs Flaschen {COLOR RED}Sprudel{COLOR DARK_GRAY}!$"
+#else
+	.string "You're scorching hot!\n"
+	.string "Those battles blazed!\l"
+	.string "I'm more than just satisfied!\p"
+	.string "As thanks for showing me your hot\n"
+	.string "streak, I want you to take these.\p"
+	.string "It's half a dozen bottles of SODA POP!$"
+#endif
 
 Route109_SeashoreHouse_Text_BagFull:
+#if GERMAN
 	.string "Aber dein Beutel ist ja gerammelt\n"
 	.string "voll.\l"
 	.string "Ich werde sie für dich aufbewahren.$"
+#else
+	.string "Oh, but hey, your BAG's jammed full.\n"
+	.string "I'll hang on to these for you.$"
+#endif
 
 Route109_SeashoreHouse_Text_WantToBuySodaPop:
+#if GERMAN
 	.string "Möchtest du etwas Sprudel kaufen?\n"
 	.string "Pokémon lieben ihn!\p"
 	.string "Nur ¥300 pro Flasche!\n"
 	.string "Kauf doch welchen!$"
+#else
+	.string "Want to buy some SODA POP?\n"
+	.string "POKéMON love it!\p"
+	.string "Just ¥300 a bottle!\n"
+	.string "Buy some!$"
+#endif
 
 Route109_SeashoreHouse_Text_HereYouGo:
+#if GERMAN
 	.string "Hier, bitte schön!$"
+#else
+	.string "Here you go!$"
+#endif
 
 Route109_SeashoreHouse_Text_NotEnoughMoney:
+#if GERMAN
 	.string "Du hast nicht genügend Geld.$"
+#else
+	.string "You don't have the money.$"
+#endif
 
 Route109_SeashoreHouse_Text_ThatsTooBad:
+#if GERMAN
 	.string "Nein? Das ist aber wirklich schade.$"
+#else
+	.string "No?\n"
+	.string "That's too bad.$"
+#endif
 
 Route109_SeashoreHouse_Text_DwayneIntro:
+#if GERMAN
 	.string "Wenn du Lust auf einen heißen Kampf\n"
 	.string "auf hoher See hast, findest du keinen\l"
 	.string "lodernderen Trainer als mich!$"
+#else
+	.string "If you're looking for a battle in the\n"
+	.string "SEASHORE HOUSE, you'll find no\l"
+	.string "hotter TRAINER than me, matey!$"
+#endif
 
 Route109_SeashoreHouse_Text_DwayneDefeated:
+#if GERMAN
 	.string "Das war ein heißer Kampf!\n"
 	.string "Ich kann die Niederlage verkraften!$"
+#else
+	.string "That was a hot battle!\n"
+	.string "I can accept that loss, matey!$"
+#endif
 
 Route109_SeashoreHouse_Text_DwaynePostBattle:
+#if GERMAN
 	.string "Immer wenn ich in Graphitport City\n"
 	.string "bin, genieße ich heiße Kämpfe und\l"
 	.string "eisgekühlten Sprudel!$"
+#else
+	.string "Whenever I'm in SLATEPORT, I enjoy\n"
+	.string "hot battles and ice-cold SODA POP!$"
+#endif
 
 Route109_SeashoreHouse_Text_JohannaIntro:
+#if GERMAN
 	.string "Langweilige Kämpfe lohnen sich nicht.\n"
 	.string "\p"
 	.string "Feurig heiße Kämpfe aber stählen\n"
 	.string "Trainer und Pokémon.$"
+#else
+	.string "Boring battles aren't worth the effort.\p"
+	.string "Fiery hot battles are what toughen up\n"
+	.string "TRAINERS and POKéMON!$"
+#endif
 
 Route109_SeashoreHouse_Text_JohannaDefeated:
+#if GERMAN
 	.string "Das war brandheiß!$"
+#else
+	.string "That's hot!$"
+#endif
 
 Route109_SeashoreHouse_Text_JohannaPostBattle:
+#if GERMAN
 	.string "Puh, ich bin am Verdursten.\n"
 	.string "Ich sollte Sprudel trinken.$"
+#else
+	.string "Whew, I'm all thirsty.\n"
+	.string "Maybe I'll have a SODA POP.$"
+#endif
 
 Route109_SeashoreHouse_Text_SimonIntro:
+#if GERMAN
 	.string "Ich werde dir zeigen, wie toll meine\n"
 	.string "Pokémon sind. Aber heul bloß nicht\l"
 	.string "los!$"
+#else
+	.string "I'm going to show you how great\n"
+	.string "my POKéMON are, but don't cry!$"
+#endif
 
 Route109_SeashoreHouse_Text_SimonDefeated:
+#if GERMAN
 	.string "Ich habe verloren. Aber ich heule\n"
 	.string "nicht!$"
+#else
+	.string "…I lost, but I won't cry…$"
+#endif
 
 Route109_SeashoreHouse_Text_SimonPostBattle:
+#if GERMAN
 	.string "Wenn doch nur eines meiner Pokémon\n"
 	.string "wüsste, wie es mich über das Wasser\l"
 	.string "tragen kann. Dann wäre ich den\l"
 	.string "ollen Schwimmreifen los.$"
+#else
+	.string "If one of my POKéMON knew the move\n"
+	.string "for carrying me across water on its\l"
+	.string "back, I could get rid of this inner tube.$"
+#endif
 

@@ -98,15 +98,23 @@ GoldenrodCity_FlowerShop_EventScript_Floria3::
 	end
 
 GoldenrodCity_FlowerShop_Text_Floria:
+#if GERMAN
 	.string "Als ich meiner Schwester vom\n"
 	.string "wackeligen Baum erzählte, sagte\l"
 	.string "sie, das sei gefährlich.\p"
 	.string "Wenn ich Bianka besiege, leiht\n"
 	.string "sie mir vielleicht ihre Gießkanne…$"
+#else
+	.string "When I told my sis about the jiggly\n"
+	.string "tree, she said it's dangerous.\p"
+	.string "If I beat WHITNEY, I wonder if\n"
+	.string "she'll lend me her water bottle…$"
+#endif
 
 GoldenrodCity_FlowerShop_Text_Owner1:
+#if GERMAN
 	.string "Anscheinend gibt es einen seltsamen\n"
-	.string "Baum auf Route 36.\p"
+	.string "Baum auf {COLOR RED}Route 36{COLOR DARK_GRAY}.\p"
 	.string "Er soll tanzen, wenn man ihn gießt…\p"
 	.string "Natürlich nicht!\p"
 	.string "Dies ist ein Blumenladen, wir\n"
@@ -115,30 +123,78 @@ GoldenrodCity_FlowerShop_Text_Owner1:
 	.string "Zu gefährlich!\p"
 	.string "Vielleicht, wenn du Arena Leiter\n"
 	.string "Bianka besiegst, ist es okay.$"
+#else
+.string "Apparently, there is an odd tree\n"
+.string "on ROUTE 36.\p"
+.string "They say it dances when you water\n"
+.string "it...\p"
+.string "Oh, of course not!\p"
+.string "This is a flower shop, so we do\n"
+.string "have watering cans...\p"
+.string "But I cannot let you have one!\n"
+.string "It's too dangerous!\p"
+.string "Well, maybe if you manage to\n"
+.string "defeat gym leader WHITNEY, it\l"
+.string "might be okay.$"
+#endif
 
 GoldenrodCity_FlowerShop_Text_Owner2:
+#if GERMAN
 	.string "Anscheinend gibt es einen seltsamen\n"
-	.string "Baum auf Route 36.\p"
+	.string "Baum auf {COLOR RED}Route 36{COLOR DARK_GRAY}.\p"
 	.string "Er soll tanzen, wenn man ihn gießt…\p"
 	.string "Oh, das ist ein Basisorden von\n"
 	.string "der Dukatia-Arena!\p"
 	.string "Hast du Bianka besiegt?!\p"
 	.string "Dann ist alles in Ordnung.\p"
-	.string "Ich leihe dir diese Schiggykanne.\p"
+	.string "Ich leihe dir diese {COLOR RED}Schiggykanne{COLOR DARK_GRAY}.\p"
 	.string "…\p"
 	.string "Ach, egal. Behalte sie!$"
+#else
+.string "Apparently, there is an odd tree\n"
+.string "on ROUTE 36.\p"
+.string "They say it dances when you water\n"
+.string "it...\p"
+.string "Oh, that's a PLAINBADGE from\n"
+.string "The GOLDENROD GYM!\p"
+.string "Did you defeat WHITNEY?!\p"
+.string "Well, then there's nothing to worry\n"
+.string "about, is there?\p"
+.string "I'll let you use this SQUIRTBOTTLE\n"
+.string "for a while then.\l"
+.string "...\p"
+.string "Oh, never mind. Keep it!$"
+#endif
 
 GoldenrodCity_FlowerShop_Text_Owner3:
+#if GERMAN
 	.string "Dieser merkwürdige Baum soll sich auf\n"
-	.string "Route 36 befinden.\p"
+	.string "{COLOR RED}Route 36{COLOR DARK_GRAY} befinden.\p"
 	.string "Sei vorsichtig, hörst du?$"
+#else
+.string "The odd tree is on ROUTE 36.\n"
+.string "Please be careful!$"
+#endif
 
 GoldenrodCity_FlowerShop_Text_Owner4:
+#if GERMAN
 	.string "Lalala, lalalala! Hier habt ihr euer\n"
 	.string "Wasser, meine Hübschen!$"
+#else
+    .string "Lalala lalalala. Have plenty of\n"
+    .string "water, my lovely!$"
+#endif
 
 GoldenrodCity_FlowerShop_Text_FloriaYouBeatWhitney:
+#if GERMAN
 	.string "Wow, du hast Bianka besiegt? Super!$"
+#else
+    .string "Wow, you beat WHITNEY? Cool!$"
+#endif
 
 GoldenrodCity_FlowerShop_Text_FloriaItWasAMon:
+#if GERMAN
 	.string "Also war es wirklich ein Pokémon!$"
+#else
+    .string "So it really was a POKéMON!$"
+#endif

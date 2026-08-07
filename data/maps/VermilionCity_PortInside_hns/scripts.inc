@@ -9,14 +9,24 @@ VermilionPortIndoor_EventScript_Nerd::
 	end
 
 VermilionPortPassage_Text_Teacher:
+#if GERMAN
 	.string "Das Schnellboot\n"
 	.string "fährt immer mittwochs und sonntags.$"
+#else
+	.string "The FAST SHIP sails every day!$"
+#endif
 
 VermilionPort_Text_SuperNerd:
+#if GERMAN
 	.string "Du kommst aus Johto?\p"
 	.string "Oh, toll!\n"
 	.string "Dort sollen viele seltene\l"
 	.string "Pokémon leben!$"
+#else
+	.string "You came from JOHTO?\p"
+	.string "I hear many rare POKéMON live\n"
+	.string "over there.$"
+#endif
 
 VermilionPort_EventScript_Sailor::
 	lock
@@ -169,43 +179,98 @@ VermilionPort_Movement_BoatLeave:
 	step_end
 
 VermilionPort_Text_SailorCantSail:
-	.string "Im Kraftwerk gab es einen Einbruch,\n"
+#if GERMAN
+	.string "Im {COLOR RED}Kraftwerk{COLOR DARK_GRAY} gab es einen Einbruch,\n"
 	.string "deshalb können wir nicht auslaufen,\l"
 	.string "bis der Dieb gefunden ist.$"
+#else
+	.string "There's been a break-in at the\n"
+	.string "POWER PLANT, so we cannot set sail\l"
+	.string "until the THIEF is found.$"
+#endif
 
 VermilionPort_Text_NoPass:
+#if GERMAN
 	.string "{PLAYER} wollte {STR_VAR_1}\n"
 	.string "zeigen…\p"
 	.string "…Aber kein {STR_VAR_1}!\p"
 	.string "Entschuldigung!\n"
 	.string "Du darfst nur an Bord, wenn du ein\l"
 	.string "{STR_VAR_1} hast.$"
+#else
+    .string "{PLAYER} tried to show the\n"
+    .string "{STR_VAR_1}…\p"
+    .string "…But no {STR_VAR_1}!\p"
+    .string "Sorry!\n"
+    .string "You may board only if you have an\l"
+    .string "{STR_VAR_1}.$"
+#endif
 
 VermilionPort_Text_SailorGetOnBoard:
+#if GERMAN
 	.string "Wir legen bald ab! Geh an Bord.$"
+#else
+    .string "We're departing soon.\n"
+    .string "Please get on board.$"
+#endif
 
 VermilionPort_Text_CantBoard:
+#if GERMAN
 	.string "Du darfst jetzt nicht an Bord.$"
+#else
+    .string "Sorry. You can't board now.$"
+#endif
 
 VermilionPort_Text_WhereSail:
+#if GERMAN
 	.string "Wohin möchtest du Segeln?$"
+#else
+    .string "Where would you like to sail?$"
+#endif
 
 VermilionPort_Text_AskBoard:
+#if GERMAN
 	.string "Willkommen auf \n"
-	.string "dem Schnellboot M.S. Aqua.\p"
+	.string "dem Schnellboot {COLOR RED}M.S. Aqua{COLOR DARK_GRAY}.\p"
 	.string "Trittst du heute deine Reise an?$"
+#else
+    .string "Welcome to FAST SHIP S.S.AQUA.\p"
+    .string "Will you be boarding today?$"
+#endif
 
 VermilionPort_Text_AskTicket:
-	.string "Zeige mir bitte dein Bootsticket!$"
+#if GERMAN
+	.string "Zeige mir bitte dein {COLOR RED}Bootsticket{COLOR DARK_GRAY}!$"
+#else
+    .string "May I see your S.S.TICKET?$"
+#endif
 
 VermilionPort_Text_ComeAgain:
+#if GERMAN
 	.string "Komm bald wieder!$"
+#else
+    .string "We hope to see you again!$"
+#endif
 
 VermilionPort_Text_FlashTicket:
-	.string "Zeige mir bitte dein Bootsticket!$"
+#if GERMAN
+	.string "Zeige mir bitte dein {COLOR RED}Bootsticket{COLOR DARK_GRAY}!$"
+#else
+    .string "{PLAYER} flashed the S.S.TICKET.\p"
+    .string "That's it. Thank you!$"
+#endif
 
 VermilionPort_Text_NoTicket:
-	.string "{PLAYER} sucht das Bootsticket…\p"
+#if GERMAN
+	.string "{PLAYER} sucht das {COLOR RED}Bootsticket{COLOR DARK_GRAY}…\p"
 	.string "…Kein Ticket!\p"
 	.string "Tut mir Leid! Du darfst nur\p"
 	.string "mit Ticket an Bord.$"
+#else
+    .string "{PLAYER} tried to show the\n"
+    .string "S.S.TICKET…\p"
+    .string "…But no TICKET!\p"
+    .string "Sorry!\n"
+    .string "You may board only\l"
+    .string "if you have an S.S.TICKET.$"
+#endif

@@ -27,6 +27,7 @@ MeteorFalls_StevensCave_EventScript_Defeated::
 	end
 
 MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
+#if GERMAN
 	.string "Troy: Oh, wow, {PLAYER}{KUN}!\n"
 	.string "Ich bin erstaunt, dass du mich\l"
 	.string "gefunden hast!\p"
@@ -42,14 +43,33 @@ MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 	.string "eine\n"
 	.string "ernsthafte Herausforderung einlässt,\l"
 	.string "sei auf das Schlimmste gefasst!$"
+#else
+	.string "STEVEN: Oh, wow, {PLAYER}{KUN}.\n"
+	.string "I'm amazed you knew where to find me.\p"
+	.string "Do you, uh…maybe think of me as\n"
+	.string "just a rock maniac?\p"
+	.string "No, that can't be right.\p"
+	.string "We battled alongside each other at\n"
+	.string "the SOOTOPOLIS SPACE CENTER.\p"
+	.string "You should have a very good idea\n"
+	.string "about how good I am.\p"
+	.string "Okay, {PLAYER}{KUN}, if you're going to mount\n"
+	.string "a serious challenge, expect the worst!$"
+#endif
 
 MeteorFalls_StevensCave_Text_StevenDefeat:
+#if GERMAN
 	.string "Du…\n"
 	.string "Ich hätte nie gedacht, dass du so\n"
 	.string "stark\l"
 	.string "werden würdest…$"
+#else
+	.string "You…\n"
+	.string "I had no idea you'd become so strong…$"
+#endif
 
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
+#if GERMAN
 	.string "Troy: Aber, wenn ich es recht bedenke…\n"
 	.string "Damals, als wir uns zum ersten Mal in\n"
 	.string "der \p"
@@ -67,4 +87,16 @@ MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 	.string "…\p"
 	.string "Hähähähä, das kann selbst ich dir\n"
 	.string "nicht sagen.$"
+#else
+	.string "STEVEN: Come to think of it, ever since\n"
+	.string "our paths first crossed in GRANITE\l"
+	.string "CAVE in DEWFORD, I had this feeling.\p"
+	.string "I thought that you would eventually\n"
+	.string "become the CHAMPION.\p"
+	.string "My predictions usually come true.\p"
+	.string "And where will you go from here?\p"
+	.string "… … … … … …\n"
+	.string "… … … … … …\p"
+	.string "Fufufu, even I couldn't tell you that.$"
+#endif
 

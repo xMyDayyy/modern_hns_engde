@@ -57,6 +57,7 @@ Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection::
 	end
 
 Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou:
+#if GERMAN
 	.string "Ich habe noch nie einen Trainer ge-\n"
 	.string "sehen, der seine Pokémon so meister-\l"
 	.string "haft einsetzt wie du.\p"
@@ -64,29 +65,60 @@ Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou:
 	.string "Sohn ist stärker als du.\p"
 	.string "Er hat sogar die Pokémon Liga heraus-\n"
 	.string "gefordert. Das solltest du wissen.$"
+#else
+	.string "You're the first TRAINER I've seen who\n"
+	.string "deploys POKéMON so masterfully.\p"
+	.string "But, I should tell you--my son is\n"
+	.string "stronger than you.\p"
+	.string "He even took the POKéMON LEAGUE\n"
+	.string "challenge, I'll have you know.$"
+#endif
 
 Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
-	.string "Wir benutzen dieses Machoband, um die\n"
+#if GERMAN
+	.string "Wir benutzen dieses {COLOR RED}Machoband{COLOR DARK_GRAY}, um die\n"
 	.string "Pokémon im Training noch mehr\l"
 	.string "zu stärken.\p"
 	.string "Da du unsere gesamte Familie besiegt\n"
 	.string "hast, brauchst du es vielleicht gar\l"
 	.string "nicht. Aber wir möchten dir dieses\l"
-	.string "Machoband trotzdem gerne schenken.$"
+	.string "{COLOR RED}Machoband{COLOR DARK_GRAY} trotzdem gerne schenken.$"
+#else
+	.string "We use this MACHO BRACE to more\n"
+	.string "effectively strengthen our POKéMON\l"
+	.string "in training.\p"
+	.string "Since you've beaten all of us here,\n"
+	.string "I don't know if you need it, but we\l"
+	.string "would like you to have our MACHO BRACE.$"
+#endif
 
 Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles:
+#if GERMAN
 	.string "Wenn es um Pokémon-Kämpfe geht, ist\n"
 	.string "die ganze Familie sehr\l"
 	.string "leidenschaftlich.$"
+#else
+	.string "When it comes to POKéMON battles,\n"
+	.string "we tend to be pretty passionate.$"
+#endif
 
 Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers:
+#if GERMAN
 	.string "Mami ist stärker als Papi.\p"
 	.string "Ich bin stärker als Mami.\p"
 	.string "Und Omi ist stärker als ich!\p"
 	.string "Und mein großer Bruder ist noch\n"
 	.string "stärker als Omi!$"
+#else
+	.string "Mommy is stronger than Daddy.\p"
+	.string "I'm stronger than Mommy.\p"
+	.string "And Grandma's stronger than me!\p"
+	.string "But my big brother is even stronger\n"
+	.string "than Grandma.$"
+#endif
 
 Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
+#if GERMAN
 	.string "Es steht außer Frage, dass du stark\n"
 	.string "bist.\p"
 	.string "Aber wenn du gegen meinen Enkel an-\n"
@@ -100,11 +132,29 @@ Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
 	.string "herauszufordern.\p"
 	.string "Wie ich meinen Enkel kenne, ist er\n"
 	.string "mittlerweile bestimmt schon der Champ!$"
+#else
+	.string "There's no question that you're strong.\p"
+	.string "But if you were to battle my grandson,\n"
+	.string "you'd end up crying in frustration.\p"
+	.string "He's much stronger than any TRAINER\n"
+	.string "our family knows.\p"
+	.string "He must be challenging the POKéMON\n"
+	.string "LEAGUE CHAMPION by now.\p"
+	.string "Knowing my grandson, he could be the\n"
+	.string "CHAMPION already!$"
+#endif
 
 Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort:
+#if GERMAN
 	.string "Mein Enkel müsste jetzt gerade dabei\n"
 	.string "sein, die Pokémon Liga\l"
 	.string "herauszufordern.\p"
 	.string "Wie ich meinen Enkel kenne, ist er\n"
 	.string "mittlerweile bestimmt schon der Champ!$"
+#else
+	.string "My grandson must be challenging the\n"
+	.string "POKéMON LEAGUE CHAMPION by now.\p"
+	.string "Knowing my grandson, he could be the\n"
+	.string "CHAMPION already!$"
+#endif
 

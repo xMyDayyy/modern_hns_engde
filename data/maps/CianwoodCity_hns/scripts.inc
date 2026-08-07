@@ -87,34 +87,67 @@ CianwoodCity_EventScript_ChucksWifeAlreadyHasFly::
 	end
 
 CianwoodCity_Text_ChucksWifeEasierToFly:
+#if GERMAN
 	.string "Du hast auf dem Weg hierher doch\n"
 	.string "bestimmt das Meer überquert, oder?\p"
 	.string "Würde eines deiner Pokémon die\n"
 	.string "Attacke Fliegen beherrschen, hättest\l"
 	.string "du dir den ganzen Ärger sparen können!$"
+#else
+	.string "You crossed the sea to get here?\p"
+	.string "That must have been hard.\p"
+	.string "It would be much easier if your\n"
+	.string "POKéMON knew how to FLY...$"
+#endif
 
 CianwoodCity_Text_ChucksWifeBeatChuck:
+#if GERMAN
 	.string "Aber dafür hättest du natürlich auch\n"
 	.string "den passenden Orden gebraucht!\l"
 	.string "Komm wieder, wenn du den Arenaleiter\l"
 	.string "dieser Stadt besiegt hast!\l"
 	.string "Dann bekommst du etwas von mir!$"
+#else
+	.string "But you can't use FLY without this\n"
+	.string "city's GYM BADGE.\p"
+	.string "If you beat the GYM LEADER here,\n"
+	.string "come see me.\p"
+	.string "I'll have a nice gift for you.$"
+#endif
 
 CianwoodCity_Text_ChucksWifeGiveHM:
+#if GERMAN
 	.string "Du hast den Orden von Anemonia City!\p"
 	.string "Gut, dann will ich dir diese VM schenken!$"
+#else
+	.string "That's CIANWOOD's GYM BADGE!\p"
+	.string "Then you should take this HM.$"
+#endif
 
 CianwoodCity_Text_ChucksWifeFlySpeech:
+#if GERMAN
 	.string "Wenn du einem deiner Pokémon die\n"
 	.string "Attacke Fliegen beibringst, kannst du\l"
 	.string "sofort in jede beliebige Stadt düsen,\l"
 	.string "die du bisher besucht hast.$"
+#else
+	.string "Teach FLY to your POKéMON.\p"
+	.string "You will be able to FLY instantly\n"
+	.string "to anywhere you have visited.$"
+#endif
 
 CianwoodCity_Text_ChucksWifeChubby:
+#if GERMAN
 	.string "Hihihi! Mein Mann versucht, härter zu\n"
 	.string "trainieren, weil du ihn besiegt hast.\p"
 	.string "Das trifft sich gut, denn er hat in\n"
 	.string "letzter Zeit etwas Speck angesetzt!$"
+#else
+	.string "My husband lost to you, so he needs\n"
+	.string "to train harder.\p"
+	.string "That's good, since he was getting\n"
+	.string "a little chubby.$"
+#endif
 
 CianwoodCity_EventScript_Youngster::
 	lock
@@ -125,9 +158,14 @@ CianwoodCity_EventScript_Youngster::
 	end
 
 CianwoodCity_Text_Youngster:
+#if GERMAN
 	.string "Wenn eins deiner Pokémon die Attacke\n"
 	.string "Fliegen gelernt hat, gelangst du auch\l"
-	.string "im Handumdrehen bis nach Oliviana City!$"
+	.string "im Handumdrehen bis nach {COLOR RED}Oliviana City{COLOR DARK_GRAY}!$"
+#else
+	.string "If you use FLY, you can get back\n"
+	.string "to OLIVINE instantly.$"
+#endif
 
 CianwoodCity_EventScript_PokefanM::
 	lock
@@ -138,11 +176,19 @@ CianwoodCity_EventScript_PokefanM::
 	end
 
 CianwoodCity_Text_PokefanM:
+#if GERMAN
 	.string "Hinter den Felsen nördlich der Stadt\n"
 	.string "findest du viele interessante Items!\p"
 	.string "Um sie zu finden, musst du lediglich\n"
 	.string "einem deiner Pokémon den Befehl geben,\l"
 	.string "die Attacke Zertrümmerer einzusetzen!$"
+#else
+	.string "Boulders to the north of town can\n"
+	.string "be crushed.\p"
+	.string "They may be hiding something.\p"
+	.string "Your POKéMON could use ROCK SMASH\n"
+	.string "to break them.$"
+#endif
 
 CianwoodCity_EventScript_Lass::
 	lock
@@ -153,9 +199,14 @@ CianwoodCity_EventScript_Lass::
 	end
 
 CianwoodCity_Text_Lass:
+#if GERMAN
 	.string "Hartwig, der Arenaleiter, steigt gerne\n"
 	.string "selbst gegen seine Kampf-Pokémon in\l"
 	.string "den Ring, um sie abzuhärten.$"
+#else
+	.string "CHUCK, the GYM LEADER, spars with\n"
+	.string "his fighting POKéMON.$"
+#endif
 
 CianwoodCity_EventScript_SuicuneTrigger::
 	lock
@@ -272,6 +323,7 @@ CianwoodCity_Movement_Eusine3:
 	step_end
 
 CianwoodCity_Text_EusineSuicune:
+#if GERMAN
 	.string "Eusin: Hallo, {PLAYER}!\p"
 	.string "Sag mal… war das eben nicht Suicune?\p"
 	.string "Ich konnte es nicht richtig erkennen,\n"
@@ -288,11 +340,32 @@ CianwoodCity_Text_EusineSuicune:
 	.string "besiege, erkennt mich Suicune vielleicht\l"
 	.string "als würdigen Trainer an!\p"
 	.string "Komm schon, {PLAYER}!$"
+#else
+	.string "EUSINE: Yo, {PLAYER}.\p"
+	.string "Wasn't that SUICUNE just now?\p"
+	.string "I only caught a quick glimpse, but\n"
+	.string "I thought I saw SUICUNE running on\l"
+	.string "the waves.\p"
+	.string "SUICUNE is beautiful and grand.\p"
+	.string "And it races through towns and\n"
+	.string "roads at simply awesome speeds.\p"
+	.string "It's wonderful…\p"
+	.string "I want to see SUICUNE up close…\p"
+	.string "I've decided.\p"
+	.string "I'll battle you as a trainer to\n"
+	.string "earn SUICUNE's respect!\p"
+	.string "Come on, {PLAYER}. Let's battle now!$"
+#endif
 
 CianwoodCity_Text_EusineBeaten:
+#if GERMAN
 	.string "Ich sage es ungern, aber du gewinnst!$"
+#else
+	.string "I hate to admit it, but you win.$"
+#endif
 
 CianwoodCity_Text_EusineAfter:
+#if GERMAN
 	.string "Du bist unglaublich, {PLAYER}!\p"
 	.string "Kein Wunder, dass Pokémon sich zu dir\n"
 	.string "hingezogen fühlen.\p"
@@ -300,6 +373,15 @@ CianwoodCity_Text_EusineAfter:
 	.string "Ich werde weiter nach Suicune suchen.\p"
 	.string "Wir werden uns sicher wiedersehen.\p"
 	.string "Bis dann!$"
+#else
+	.string "You're amazing, {PLAYER}!\p"
+	.string "No wonder POKéMON gravitate to you.\p"
+	.string "I get it now.\p"
+	.string "I'm going to keep searching for\n"
+	.string "SUICUNE.\p"
+	.string "I'm sure we'll see each other again.\p"
+	.string "See you around!$"
+#endif
 
 CianwoodCity_EventScript_CitySign::
 	lock
@@ -309,8 +391,13 @@ CianwoodCity_EventScript_CitySign::
 	end
 
 CianwoodCity_Text_Sign:
+#if GERMAN
 	.string "Anemonia City\p"
 	.string "Ein Hafen in der rauen See$"
+#else
+	.string "CIANWOOD CITY\p"
+	.string "A Port Surrounded by Rough Seas$"
+#endif
 
 CianwoodCity_EventScript_GymSign::
 	lock
@@ -320,10 +407,16 @@ CianwoodCity_EventScript_GymSign::
 	end
 
 CianwoodCity_Text_GymSign:
+#if GERMAN
 	.string "Pokémon-Arena von Anemonia City\n"
 	.string "Leiter: Hartwig\l"
 	.string "Er lässt lieber seine Fäuste für\l"
 	.string "sich sprechen!$"
+#else
+	.string "CIANWOOD CITY POKéMON GYM\p"
+	.string "LEADER: CHUCK\p"
+	.string "His Roaring Fists Do the Talking$"
+#endif
 
 CianwoodCity_EventScript_Pharmacy::
 	lock
@@ -333,10 +426,16 @@ CianwoodCity_EventScript_Pharmacy::
 	end
 
 CianwoodCity_Text_PharmacySign:
+#if GERMAN
 	.string "Apotheke von Anemonia City\p"
 	.string "Seit 500 Jahren im Geschäft.\n"
 	.string "Wir haben immer ein offenes Ohr\l"
 	.string "für medizinische Fragen aller Art!$"
+#else
+	.string "500 Years of Tradition\p"
+	.string "CIANWOOD CITY PHARMACY\p"
+	.string "We Await Your Medicinal Queries$"
+#endif
 
 CianwoodCity_EventScript_CaveSign::
 	lock
@@ -354,9 +453,20 @@ CianwoodCity_EventScript_Engineer::
 	end
 
 CianwoodCity_Text_Safari:
+#if GERMAN
 	.string "Felsschlundhöhle Weg zur Safari-Zone.$"
+#else
+	.string "CLIFF EDGE CAVE\n"
+	.string "Road to the SAFARI ZONE.$"
+#endif
 
 CianwoodCity_Text_Engineer:
+#if GERMAN
 	.string "Hier sind aktuell Bauarbeiten.\n"
-	.string "Wir gestalten die neue Safari-Zone,\l"
+	.string "Wir gestalten die neue {COLOR RED}Safari-Zone{COLOR DARK_GRAY},\l"
 	.string "du musst noch warten.$"
+#else
+	.string "This path is under construction.\n"
+	.string "We're getting the new SAFARI ZONE\l"
+	.string "up and running!$"
+#endif

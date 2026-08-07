@@ -10,11 +10,21 @@ SafariZone_Center_RestHouse_EventScript_Scientist::
 	end
 
 SafariZone_Center_Text_WhereDidErikGo::
+#if GERMAN
 	.string "Sarah: Wo ist bloß mein Freund\n"
 	.string "Erik hingegangen?$"
+#else
+	.string "SARA: Where did my boyfriend,\n"
+	.string "ERIK, go?$"
+#endif
 
 SafariZone_Center_Text_CatchingMonsAsGifts::
+#if GERMAN
 	.string "Wenn ich Pokémon fange, verschenke\n"
 	.string "ich sie, wenn ich wieder zu Hause\l"
 	.string "bin!$"
+#else
+	.string "I'm catching POKéMON to take home\n"
+	.string "as gifts.$"
+#endif
 

@@ -27,16 +27,35 @@ LavenderTown_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney::
+#if GERMAN
 	.string "Das Team Rocket würde für Gold\n"
 	.string "alles tun!$"
+#else
+	.string "TEAM ROCKET will do anything for\n"
+	.string "the sake of money!\p"
+	.string "There is no job too dirty, no deed\n"
+	.string "too heinous, no crime too wicked!$"
+#endif
 
 LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets::
+#if GERMAN
 	.string "Ich sah, wie die Mutter eines\n"
 	.string "jungen Tragosso vergeblich\l"
 	.string "versuchte, dem Team Rocket zu\l"
 	.string "entkommen!$"
+#else
+	.string "I saw CUBONE's mother trying to\n"
+	.string "escape from TEAM ROCKET.\p"
+	.string "She was killed trying to get away…$"
+#endif
 
 LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls::
+#if GERMAN
 	.string "Tragosso tragen Schädelmasken!\p"
 	.string "Man zahlt für sie eine Menge Geld!$"
+#else
+	.string "You know how the CUBONE species\n"
+	.string "wears skulls, right?\p"
+	.string "People will pay a lot for one.$"
+#endif
 

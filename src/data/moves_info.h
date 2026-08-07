@@ -18,105 +18,249 @@
 
 // Shared Move Description entries
 
+#if GERMAN
 const u8 gNotDoneYetDescription[] = _(
     "Diese Attacke ist noch\n"
     "nicht fertig entwickelt.");
+#else
+const u8 gNotDoneYetDescription[] = _(
+    "This move can't be used. Its\n"
+    "effect is in development.");
+#endif
 
 static const u8 sNullDescription[] = _("");
 
+#if GERMAN
 static const u8 sMegaDrainDescription[] = _(
     "Saugt dem Ziel die Hälfte des\n"
     "Schadens als KP ab.");
+#else
+static const u8 sMegaDrainDescription[] = _(
+    "An attack that absorbs\n"
+    "half the damage inflicted.");
+#endif
 
 #if B_SKIP_RECHARGE != GEN_1
+#if GERMAN
 static const u8 sHyperBeamDescription[] = _(
     "Starke Attacke. Angreifer\n"
     "setzt eine Runde aus.");
 #else
 static const u8 sHyperBeamDescription[] = _(
+    "Leaves the user immobile\n"
+    "if target is not KO'd.");
+#endif
+#else
+#if GERMAN
+static const u8 sHyperBeamDescription[] = _(
     "Setzt aus, wenn der Gegner\n"
     "nicht besiegt wird.");
+#else
+static const u8 sHyperBeamDescription[] = _(
+    "Leaves the user immobile\n"
+    "if target is not KO'd.");
+#endif
 #endif
 
+#if GERMAN
 static const u8 sRevengeDescription[] = _(
     "Attacke wird stärker, wenn\n"
     "Anwender Schaden nimmt.");
+#else
+static const u8 sRevengeDescription[] = _(
+    "An attack that moves last\n"
+    "and gains power if hit.");
+#endif
 
+#if GERMAN
 static const u8 sPluckDescription[] = _(
     "Isst die Beere des Gegners\n"
     "und erhält ihren Effekt.");
+#else
+static const u8 sPluckDescription[] = _(
+    "Eats the foe's held Berry\n"
+    "gaining its effect.");
+#endif
 
+#if GERMAN
 static const u8 sHealingWishDescription[] = _(
     "Der Nutzer wird k.o., heilt\n"
     "dafür den Nachfolger.");
+#else
+static const u8 sHealingWishDescription[] = _(
+    "The user faints to heal up\n"
+    "the recipient.");
+#endif
 
+#if GERMAN
 static const u8 sWringOutDescription[] = _(
     "Je höher die KP des Zieles,\n"
     "desto stärker.");
+#else
+static const u8 sWringOutDescription[] = _(
+    "The higher the foe's HP\n"
+    "the more damage caused.");
+#endif
 
+#if GERMAN
 static const u8 sUTurnDescription[] = _(
     "Der Anwender wird nach dem\n"
     "Angriff ausgewechselt.");
+#else
+static const u8 sUTurnDescription[] = _(
+    "Does damage then switches\n"
+    "out the user.");
+#endif
 
+#if GERMAN
 static const u8 sStormThrowDescription[] = _(
     "Ein Angriff mit\n"
     "Volltreffergarantie.");
+#else
+static const u8 sStormThrowDescription[] = _(
+    "This attack always results\n"
+    "in a critical hit.");
+#endif
 
+#if GERMAN
 static const u8 sCircleThrowDescription[] = _(
     "Wechselt das Ziel aus. Been-\n"
     "det Kämpfe in der Wildnis.");
+#else
+static const u8 sCircleThrowDescription[] = _(
+    "Knocks foe away to switch\n"
+    "it out or end wild battle.");
+#endif
 
+#if GERMAN
 static const u8 sChipAwayDescription[] = _(
     "Schadet trotz\n"
     "Statusänderungen des Zieles.");
+#else
+static const u8 sChipAwayDescription[] = _(
+    "Strikes through the foe's\n"
+    "stat changes.");
+#endif
 
+#if GERMAN
 static const u8 sHeavySlamDescription[] = _(
     "Je schwerer der Anwender als\n"
     "das Ziel, desto stärker.");
+#else
+static const u8 sHeavySlamDescription[] = _(
+    "Does more damage if the\n"
+    "user outweighs the foe.");
+#endif
 
+#if GERMAN
 static const u8 sPsyshockDescription[] = _(
     "Eine Energiewelle, die\n"
     "physischen Schaden zufügt.");
+#else
+static const u8 sPsyshockDescription[] = _(
+    "Attacks with a psychic wave\n"
+    "that does physical damage.");
+#endif
 
+#if GERMAN
 static const u8 sLavaPlumeDescription[] = _(
     "Tiefrote Flammen. Verbrennen\n"
     "die Ziele eventuell.");
+#else
+static const u8 sLavaPlumeDescription[] = _(
+    "Scarlet flames torch\n"
+    "everything around the user.");
+#endif
 
+#if GERMAN
 static const u8 sShadowForceDescription[] = _(
     "Verschwindet in Runde 1.\n"
     "Trifft trotz Schutz.");
+#else
+static const u8 sShadowForceDescription[] = _(
+    "Vanishes on the first turn\n"
+    "then strikes the next turn.");
+#endif
 
+#if GERMAN
 static const u8 sFalseSwipeDescription[] = _(
     "Ein Angriff, der dem Ziel\n"
     "zumindest 1 KP lässt.");
+#else
+static const u8 sFalseSwipeDescription[] = _(
+    "An attack that leaves the\n"
+    "foe with at least 1 HP.");
+#endif
 
+#if GERMAN
 static const u8 sDrainingKissDescription[] = _(
     "Saugt über die Hälfte des\n"
     "Schadens als KP ab.");
+#else
+static const u8 sDrainingKissDescription[] = _(
+    "An attack that absorbs over\n"
+    "half the damage inflicted.");
+#endif
 
+#if GERMAN
 static const u8 sCloseCombatDescription[] = _(
     "Ein Sturzflug. Senkt eigene\n"
     "Vert. und Sp.Vert.");
+#else
+static const u8 sCloseCombatDescription[] = _(
+    "A strong attack but lowers\n"
+    "the defensive stats.");
+#endif
 
+#if GERMAN
 static const u8 sHyperspaceHoleDescription[] = _(
     "Trifft durch ein Dimensions-\n"
     "loch. Schutz wirkt nicht.");
+#else
+static const u8 sHyperspaceHoleDescription[] = _(
+    "Uses a warp hole to attack.\n"
+    "Can't be evaded.");
+#endif
 
+#if GERMAN
 static const u8 sSuckerPunchDescription[] = _(
     "Erstschlag, gelingt nur gegen\n"
     "angreifende Ziele.");
+#else
+static const u8 sSuckerPunchDescription[] = _(
+    "Strikes first if the foe\n"
+    "is preparing an attack.");
+#endif
 
+#if GERMAN
 static const u8 sFeintDescription[] = _(
     "Ein Lichtschnitt, der auch\n"
     "Schutz durchbricht.");
+#else
+static const u8 sFeintDescription[] = _(
+    "An attack that hits foes\n"
+    "using moves like Protect.");
+#endif
 
+#if GERMAN
 static const u8 sProtectDescription[] = _(
     "Weicht Angriff aus. Schei-\n"
     "tert evtl. bei Wdh.");
+#else
+static const u8 sProtectDescription[] = _(
+    "Evades attack, but may fail\n"
+    "if used in succession.");
+#endif
 
+#if GERMAN
 static const u8 sGMaxOneBlowDescription[] = _(
     "Urshifus G-Max-Angriff.\n"
     "Ignoriert Max-Schutz.");
+#else
+static const u8 sGMaxOneBlowDescription[] = _(
+    "G-max Urshifu attack.\n"
+    "Ignores Max Guard.");
+#endif
 
 const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 {

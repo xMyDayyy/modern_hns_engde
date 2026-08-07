@@ -164,67 +164,129 @@ SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight:
 	step_end
 
 SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles:
+#if GERMAN
 	.string "Als ich noch jung war, bin ich als\n"
 	.string "Pokémon-Trainer durch die Welt\l"
 	.string "gereist.\p"
 	.string "Nun, da ich ein alter Knabe geworden\n"
 	.string "bin, beobachte ich mit Freuden die\l"
 	.string "jungen Trainer bei ihren Kämpfen.$"
+#else
+	.string "When I was young, I traveled the world\n"
+	.string "as a POKéMON TRAINER.\p"
+	.string "Now that I've become an old buzzard,\n"
+	.string "my only amusement is watching young\l"
+	.string "TRAINERS battle.$"
+#endif
 
 SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
+#if GERMAN
 	.string "Diese Tür ist verschlossen.$"
+#else
+	.string "The door appears to be locked.$"
+#endif
 
 SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
+#if GERMAN
 	.string "Ein Trainer namens {STR_VAR_1} ist bei\n"
 	.string "mir zu Besuch.\p"
 	.string "Möchtest du einmal gegen {STR_VAR_1}\n"
 	.string "antreten?$"
+#else
+	.string "A TRAINER named {STR_VAR_1}\n"
+	.string "is visiting my home.\p"
+	.string "Would you like to challenge\n"
+	.string "{STR_VAR_1}?$"
+#endif
 
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:
+#if GERMAN
 	.string "Du möchtest nicht kämpfen? Es ent-\n"
 	.string "täuscht mich, dass ich dich nicht\l"
 	.string "kämpfen sehen kann.$"
+#else
+	.string "You won't battle? I'm disappointed\n"
+	.string "that I can't see you battle…$"
+#endif
 
 SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3:
+#if GERMAN
 	.string "Oh, sehr gut!\p"
 	.string "Aber mein Haus ist nicht sehr stabil.\n"
 	.string "\p"
 	.string "Könntet ihr einen 3-gegen-3-Kampf\n"
 	.string "ausfechten?$"
+#else
+	.string "Oh, good, good!\p"
+	.string "But my house isn't all that sturdy.\p"
+	.string "Could I ask you to keep it down to\n"
+	.string "a 3-on-3 match?$"
+#endif
 
 SootopolisCity_MysteryEventsHouse_1F_Text_SaveProgressBeforeBattle:
+#if GERMAN
 	.string "Bevor ihr gegeneinander antretet,\n"
 	.string "solltet ihr eure Spiele speichern!$"
+#else
+	.string "Before you two battle, you should\n"
+	.string "save your progress.$"
+#endif
 
 SootopolisCity_MysteryEventsHouse_1F_Text_HopeToSeeGoodMatch:
+#if GERMAN
 	.string "Ich hoffe, einen guten Kampf zu sehen!$"
+#else
+	.string "I hope to see a good match!$"
+#endif
 
 @ Unused
 SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Tie:
 	.string "{STR_VAR_1}$"
 
 SootopolisCity_MysteryEventsHouse_B1F_Text_MatchEndedUpDraw:
+#if GERMAN
 	.string "Der Kampf endet unentschieden.$"
+#else
+	.string "The match ended up a draw.$"
+#endif
 
 SootopolisCity_MysteryEventsHouse_1F_Text_BrilliantStandoff:
+#if GERMAN
 	.string "Der Kampf endet unentschieden.$"
+#else
+	.string "So, it became a standoff.\p"
+	.string "It was a brilliant match in which\n"
+	.string "neither side conceded a step!$"
+#endif
 
 @ Unused
 SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Won:
 	.string "{STR_VAR_1}$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_ThatWasSuperlative:
+#if GERMAN
 	.string "Das war absolute Spitzenklasse!\p"
 	.string "Ich habe mich wieder erkannt - mich in\n"
 	.string "meinen jungen Jahren!$"
+#else
+	.string "That was superlative!\p"
+	.string "Why, it was like seeing myself in\n"
+	.string "my youth again!$"
+#endif
 
 @ Unused
 SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Lost:
 	.string "{STR_VAR_1}$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_TooBadForYou:
+#if GERMAN
 	.string "Ach, wie bedauerlich für dich!\p"
 	.string "Aber es war ein guter Kampf.\n"
 	.string "Ich hoffe, das nächste Mal gewinnst\l"
 	.string "du.$"
+#else
+	.string "Ah, too bad for you!\p"
+	.string "But it was a good match.\n"
+	.string "I hope you can win next time.$"
+#endif
 

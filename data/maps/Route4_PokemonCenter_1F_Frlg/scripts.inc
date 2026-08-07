@@ -149,55 +149,120 @@ Route4_PokemonCenter_1F_EventScript_Newspaper::
 	end
 
 Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou::
+#if GERMAN
 	.string "An meinem Gürtel hängen sechs\n"
 	.string "Pokébälle.\p"
 	.string "Man kann maximal sechs Pokémon mit\n"
 	.string "sich führen.$"
+#else
+	.string "Okay, set six POKé BALLS in my\n"
+	.string "belt…\p"
+	.string "Yeah, that'll do it. At most, you\n"
+	.string "can have six POKéMON with you.$"
+#endif
 
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
+#if GERMAN
 	.string "Das Team Rocket terrorisiert die\n"
-	.string "Einwohner von Azuria City!\p"
+	.string "Einwohner von {COLOR RED}Azuria City{COLOR DARK_GRAY}!\p"
 	.string "Kein Tag vergeht ohne Meldungen\n"
 	.string "über Team Rockets Schandtaten!$"
+#else
+	.string "TEAM ROCKET attacks CERULEAN\n"
+	.string "citizens…\p"
+	.string "Not a day goes by without TEAM\n"
+	.string "ROCKET being in the news.$"
+#endif
 
 Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500::
+#if GERMAN
 	.string "Mann: Hallo! Möchtest du ein\n"
 	.string "Geschäft machen?\p"
 	.string "Ich gebe dir ein exzellentes\n"
 	.string "Karpador für läppische 500¥!\p"
 	.string "Interessiert?$"
+#else
+	.string "MAN: Hello there, laddie!\n"
+	.string "Have I got a deal just for you!\p"
+	.string "I'll let you have a secret POKéMON\n"
+	.string "- a MAGIKARP - for just ¥500!\p"
+	.string "So, you'll buy it, am I right?$"
+#endif
 
 Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500::
+#if GERMAN
 	.string "Mann: Hallo! Möchtest du ein\n"
 	.string "Geschäft machen?\p"
 	.string "Ich gebe dir ein exzellentes\n"
 	.string "Karpador für läppische 500¥!\p"
 	.string "Interessiert?$"
+#else
+	.string "MAN: Hello there, sweetie pie!\n"
+	.string "Have I got a deal just for you!\p"
+	.string "I'll let you have a secret POKéMON\n"
+	.string "- a MAGIKARP - for just ¥500!\p"
+	.string "So, you'll buy it, am I right?$"
+#endif
 
 Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp::
+#if GERMAN
 	.string "{PLAYER} bezahlte den Wucherpreis\n"
 	.string "von 500$ für ein Karpador…\l$"
+#else
+	.string "{PLAYER} paid an outrageous ¥500\n"
+	.string "and bought the MAGIKARP…$"
+#endif
 
 Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou::
+#if GERMAN
 	.string "Nein? Ich wollte dir doch einen\n"
 	.string "Gefallen tun!$"
+#else
+	.string "No? You say no? I'm only doing this\n"
+	.string "as a favor to you!$"
+#endif
 
 Route4_PokemonCenter_1F_Text_NoRoomForMorePokemon::
+#if GERMAN
 	.string "Du hast keinen Platz mehr\n"
 	.string "für weitere Pokémon!$"
+#else
+	.string "There's no more room for any more\n"
+	.string "POKéMON, it looks like.$"
+#endif
 
 Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney::
+#if GERMAN
 	.string "Schade, du hast nicht genug Geld!$"
+#else
+	.string "You'll need more money than that!$"
+#endif
 
 Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
+#if GERMAN
 	.string "Mann: Der Umtausch ist\n"
 	.string "ausgeschlossen!$"
+#else
+	.string "MAN: Well, I don't give refunds.\n"
+	.string "You knew what you were getting!$"
+#endif
 
 Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC::
+#if GERMAN
 	.string "Wenn du keine weiteren Pokémon\n"
 	.string "tragen kannst, solltest du einige\l"
 	.string "via PC ablegen!$"
+#else
+	.string "Sometimes, you'll have too many\n"
+	.string "POKéMON with you to add any more.\p"
+	.string "In that case, you should just\n"
+	.string "store some using any PC.$"
+#endif
 
 Route4_PokemonCenter_1F_Text_ItsANewspaper::
+#if GERMAN
 	.string "Eine Zeitung!$"
+#else
+	.string "It's a newspaper.$"
+#endif
 

@@ -46,13 +46,22 @@ MtMortar_1F_North_EventScript_Markus::
 	end
 
 MountMortar2_Text_PokemaniacMillerSeen:
+#if GERMAN
 	.string "Wart’s ab! Diesmal verliere ich nicht!$"
+#else
+	.string "I'm not losing this time!$"
+#endif
 
 MountMortar2_Text_PokemaniacMillerBeaten:
+#if GERMAN
 	.string "Verloren… und das auch noch\n"
 	.string "gegen ein Kind!$"
+#else
+	.string "I lost to some kid...?$"
+#endif
 
 MountMortar2_Text_PokemaniacMillerAfter:
+#if GERMAN
 	.string "Vorhin hat mich so ein komischer\n"
 	.string "Karate-Typ zum Kampf herausgefordert.\l"
 	.string "Der war vielleicht stark!\l"
@@ -61,17 +70,44 @@ MountMortar2_Text_PokemaniacMillerAfter:
 	.string "“Du brauchst mehr Training!”\l"
 	.string "und verschwand im Berginneren.\l"
 	.string "Was der wohl hier macht?$"
+#else
+	.string "A while back, this karate dude\n"
+	.string "wanted to battle.\p"
+	.string "He was ridiculously good.\n"
+	.string "He just thrashed us silly.\p"
+	.string "He went in deeper saying it\n"
+	.string "was for his training.\p"
+	.string "I wonder how he is?$"
+#endif
 
 MountMortar2_Text_SupernerdMarkusSeen:
+#if GERMAN
 	.string "He! Randalf!$"
+#else
+	.string "Hey! HUGH!$"
+#endif
 
 MountMortar2_Text_SupernerdMarkusBeaten:
+#if GERMAN
 	.string "Pardon.\n"
 	.string "Ich habe dich mit jemandem verwechselt.$"
+#else
+	.string "I mistook you for someone\n"
+	.string "else…$"
+#endif
 
 MountMortar2_Text_SupernerdMarkusAfter:
-	.string "Ich wollte den Silberberg\n"
+#if GERMAN
+	.string "Ich wollte den {COLOR RED}Silberberg{COLOR DARK_GRAY}\n"
 	.string "erkunden, aber wurde von\l"
 	.string "meinem Partner getrennt…\p"
 	.string "Bist du einem Trainer begegnet,\n"
 	.string "dessen Seemon Kaskade kann?$"
+#else
+	.string "I came to explore MT.MORTAR,\n"
+	.string "but I got separated from my\l"
+	.string "partner…\p"
+	.string "Did you run into a trainer\n"
+	.string "who uses a SEADRA that knows\l"
+	.string "WATERFALL?$"
+#endif

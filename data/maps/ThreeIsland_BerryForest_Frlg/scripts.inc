@@ -60,6 +60,7 @@ ThreeIsland_BerryForest_EventScript_BewareSign::
 	end
 
 ThreeIsland_BerryForest_Text_HelpScaryPokemon::
+#if GERMAN
 	.string "Irrma: Wimmer… schnief…\n"
 	.string "Oh! Hilf mir bitte!\p"
 	.string "Ein Angst einflößendes Pokémon ist\n"
@@ -69,37 +70,86 @@ ThreeIsland_BerryForest_Text_HelpScaryPokemon::
 	.string "Ich bin zu verängstigt, um mich\n"
 	.string "zu bewegen! Aber ich möchte\l"
 	.string "nach Hause gehen…$"
+#else
+	.string "LOSTELLE: Whimper… Sniff…\n"
+	.string "Oh! Please, help!\p"
+	.string "A scary POKéMON appeared there\n"
+	.string "a little while ago.\p"
+	.string "It kept scaring.\n"
+	.string "It made LOSTELLE scared.\p"
+	.string "I'm too scared to move!\n"
+	.string "But I want to go home…$"
+#endif
 
 ThreeIsland_BerryForest_Text_HereItComesAgain::
+#if GERMAN
 	.string "Oh! Hier ist es wieder! Nein!\n"
 	.string "Verschwinde! Es macht mir Angst!\p"
 	.string "Wahhhhhhhhhhh!\n"
 	.string "Ich will zu meinem Papa!$"
+#else
+	.string "Oh! Here it comes again!\n"
+	.string "No! Go away! It's scaring me!\p"
+	.string "Waaaaaaah!\n"
+	.string "I want my daddy!$"
+#endif
 
 ThreeIsland_BerryForest_Text_ThankYouHaveThis::
+#if GERMAN
 	.string "Oh! Das war so gruselig!\n"
 	.string "Dankeschön!\p"
 	.string "Irrma wollte hier Beeren\n"
 	.string "pflücken.\p"
 	.string "Das ist für dich!$"
+#else
+	.string "Ohh! That was so scary!\n"
+	.string "Thank you!\p"
+	.string "LOSTELLE came to pick some\n"
+	.string "BERRIES.\p"
+	.string "You can have this!$"
+#endif
 
 ThreeIsland_BerryForest_Text_LetsGoHome::
+#if GERMAN
 	.string "Wie heißt du?\p"
 	.string "Irrma ist so verängstigt!\n"
 	.string "Bringst du mich nach Hause?\p"
 	.string "O.K.!\n"
 	.string "Lass uns nach Hause gehen!$"
+#else
+	.string "What's your name?\p"
+	.string "LOSTELLE's scared, so can I go\n"
+	.string "with you to my daddy's house?\p"
+	.string "Okay!\n"
+	.string "Let's go home!$"
+#endif
 
 ThreeIsland_BerryForest_Text_BerryPouchIsFull::
+#if GERMAN
 	.string "Deine Beerentüte ist voll.\n"
 	.string "Ich denke, du willst das nicht.$"
+#else
+	.string "Your BERRY POUCH is full.\n"
+	.string "I guess you don't want this.$"
+#endif
 
 ThreeIsland_BerryForest_Text_WelcomeToBerryForest::
+#if GERMAN
 	.string "Willkommen im Beerenforst!\p"
 	.string "Sei freundlich und teile die Beeren\n"
 	.string "mit Anderen und Pokémon!$"
+#else
+	.string "Welcome to the BERRY FOREST\p"
+	.string "Be friendly and share BERRIES with\n"
+	.string "others and POKéMON.$"
+#endif
 
 ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons::
+#if GERMAN
 	.string "Nimm dich vor wilden Pokémon,\n"
 	.string "die Beeren lieben, in Acht!$"
+#else
+	.string "Beware of wild, BERRY-loving\n"
+	.string "POKéMON!$"
+#endif
 

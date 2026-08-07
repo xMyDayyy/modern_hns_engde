@@ -342,6 +342,7 @@ AzaleaTown_Movement_KurtLeave:
 	step_end
 
 AzaleaTown_Text_RivalBefore:
+#if GERMAN
 	.string "{PLAYER}: Sag mal…\p"
 	.string "Stimmt es eigentlich, dass Team\n"
 	.string "Rocket jetzt wieder da ist?\p"
@@ -351,14 +352,30 @@ AzaleaTown_Text_RivalBefore:
 	.string "wirklich stimmt, dann kannst du mir ja\l"
 	.string "bestimmt auch eine Kostprobe deiner\l"
 	.string "Fähigkeiten geben!$"
+#else
+	.string "…Tell me something.\p"
+	.string "Is it true that TEAM ROCKET\n"
+	.string "has returned?\p"
+	.string "What? You beat them? Hah! Quit\n"
+	.string "lying.\p"
+	.string "You're not joking?\n"
+	.string "Then let's see how good you are.$"
+#endif
 
 AzaleaTown_Text_RivalWin:
+#if GERMAN
 	.string "Hmpf! Diese Pokémon sind\n"
 	.string "zu nichts zu gebrauchen.\p"
 	.string "Glaube mir, du konntest nur gewinnen,\n"
 	.string "weil meine Pokémon so schwach waren!$"
+#else
+	.string "…Humph! Useless POKéMON!\p"
+	.string "Listen, you. You only won because\n"
+	.string "my POKéMON were weak.$"
+#endif
 
 AzaleaTown_Text_RivalAfter:
+#if GERMAN
 	.string "Ich hasse die Schwachen.\p"
 	.string "Pokémon, Trainer, egal wer oder was.\p"
 	.string "Ich werde stark sein und die Schwachen\n"
@@ -369,76 +386,171 @@ AzaleaTown_Text_RivalAfter:
 	.string "Ich hasse sie alle.\p"
 	.string "Bleib mir aus dem Weg. Ein Schwächling\n"
 	.string "wie du ist nur Ablenkung.$"
+#else
+	.string "I hate the weak.\p"
+	.string "POKéMON, trainers. It doesn't\n"
+	.string "matter who or what.\p"
+	.string "I'm going to be strong and wipe\n"
+	.string "out the weak.\p"
+	.string "That goes for TEAM ROCKET too.\p"
+	.string "They act big and tough in a group.\p"
+	.string "But get them alone, and they're weak.\n"
+	.string "I hate them all.\p"
+	.string "You stay out of my way. A weakling\n"
+	.string "like you is only a distraction.$"
+#endif
 
 AzaleaTown_Text_RivalLoss:
+#if GERMAN
 	.string "Ha! Ich wusste doch, dass du\n"
 	.string "vorhin nur geflunkert hast!$"
+#else
+	.string "…Humph! I knew you were lying.$"
+#endif
 
 AzaleaTown_Text_Rocket1:
+#if GERMAN
 	.string "Hier reinzugehen ist unsicher,\n"
 	.string "also stehe ich Wache.\p"
 	.string "Bin ich nicht ein guter Samariter?$"
+#else
+	.string "It's unsafe to go in there,\n"
+	.string "so I'm standing guard.\p"
+	.string "Aren't I a good Samaritan?$"
+#endif
 
 AzaleaTown_Text_Rocket2:
+#if GERMAN
 	.string "Hast du schon mal eine Flegmon-Rute\n"
 	.string "gegessen? Die sollen echt lecker sein!\p"
 	.string "Wenn das mal kein heißer Tipp ist!\n"
 	.string "Ach ja, bin ich nicht zu gutmütig?$"
+#else
+	.string "Do you know about SLOWPOKETAIL?\n"
+	.string "I heard it's tasty!\p"
+	.string "Aren't you glad I told you that?$"
+#endif
 
 AzaleaTown_Text_GrampsBefore:
+#if GERMAN
 	.string "Alle Flegmon sind aus der\n"
 	.string "Stadt verschwunden…\p"
 	.string "Dabei dachte ich, dass man hier\n"
 	.string "Flegmon-Ruten kaufen kann…$"
+#else
+	.string "The SLOWPOKE have disappeared\n"
+	.string "from town…\p"
+	.string "I heard their TAILS are being\n"
+	.string "sold somewhere.$"
+#endif
 
 AzaleaTown_Text_GrampsAfter:
+#if GERMAN
 	.string "Die Flegmon sind wieder da!\n"
 	.string "Vermutlich haben sie wieder irgendwo\l"
 	.string "gefaulenzt.$"
+#else
+	.string "The SLOWPOKE have returned.\p"
+	.string "Knowing them, they could've just\n"
+	.string "been goofing off somewhere.$"
+#endif
 
 AzaleaTown_Text_Teacher:
-	.string "Bist du auch hier, um Kurt zu bitten,\n"
+#if GERMAN
+	.string "Bist du auch hier, um {COLOR RED}Kurt{COLOR DARK_GRAY} zu bitten,\n"
 	.string "Pokébälle für dich anzufertigen?\l"
 	.string "Eine Menge Leute wollen das!$"
+#else
+	.string "Did you come to get KURT to make\n"
+	.string "some BALLS?\p"
+	.string "A lot of people do just that.$"
+#endif
 
 AzaleaTown_Text_Youngster:
+#if GERMAN
 	.string "Hinter Azalea City gelangst du in\n"
-	.string "den sogenannten Steineichenwald.\p"
+	.string "den sogenannten {COLOR RED}Steineichenwald{COLOR DARK_GRAY}.\p"
 	.string "Allerdings machen es diese dürren Bäume\n"
 	.string "unmöglich, dort durchzukommen.\p"
 	.string "Nur die Pokémon des Köhlers könnten\n"
 	.string "sie vielleicht aus dem Weg räumen!$"
+#else
+	.string "Cut through AZALEA and you'll be\n"
+	.string "in ILEX FOREST.\p"
+	.string "But these skinny trees make it\n"
+	.string "impossible to get through.\p"
+	.string "The CHARCOAL MAN's POKéMON\n"
+	.string "can CUT down trees.$"
+#endif
 
 AzaleaTown_Text_Slowpoke1:
+#if GERMAN
 	.string "Flegmon: …Flegmon?$"
+#else
+	.string "SLOWPOKE:..........\p"
+	.string "...............YAWN?$"
+#endif
 
 AzaleaTown_Text_Kurt1:
-	.string "Der Steineichenwald ist gruselig!\p"
+#if GERMAN
+	.string "Der {COLOR RED}Steineichenwald{COLOR DARK_GRAY} ist gruselig!\p"
 	.string "Was passiert da?$"
+#else
+	.string "ILEX FOREST is restless!\p"
+	.string "What is going on?$"
+#endif
 
 AzaleaTown_Text_Kurt2:
-	.string "{PLAYER}, hier ist dein GS-Ball!$"
+#if GERMAN
+	.string "{PLAYER}, hier ist dein {COLOR RED}GS-Ball{COLOR DARK_GRAY}!$"
+#else
+	.string "{PLAYER}, here's your GS BALL back!$"
+#endif
 
 AzaleaTown_Text_Kurt3:
-	.string "Könntest du den Steineichenwald\n"
+#if GERMAN
+	.string "Könntest du den {COLOR RED}Steineichenwald{COLOR DARK_GRAY}\n"
 	.string "erkunden und herausfinden,\l"
 	.string "was dort vor sich geht?$"
+#else
+	.string "Could you go see why ILEX FOREST\n"
+	.string "is so restless?$"
+#endif
 
 AzaleaTown_Text_Sign:
+#if GERMAN
 	.string "Azalea City\n"
 	.string "Wo Menschen und Pokémon\l"
 	.string "in Harmonie leben.$"
+#else
+	.string "AZALEA TOWN\n"
+	.string "Where People and POKéMON Live in\l"
+	.string "Happy Harmony.$"
+#endif
 
 AzaleaTown_Text_KurtsHouseSign:
+#if GERMAN
 	.string "Kurts Haus$"
+#else
+	.string "KURT'S HOUSE$"
+#endif
 
 AzaleaTown_Text_GymSign:
+#if GERMAN
 	.string "Pokémon-Arena von Azalea City\n"
 	.string "Leiter: Kai\l"
 	.string "Die wandelnde Enzyklopädie für\l"
 	.string "Käfer-Pokémon$"
+#else
+	.string "AZALEA TOWN\n"
+	.string "POKéMON GYM\p"
+	.string "LEADER: BUGSY\p"
+	.string "The Walking Bug POKéMON\n"
+	.string "Encyclopedia$"
+#endif
 
 AzaleaTown_Text_SlowpokeWellSign:
+#if GERMAN
 	.string "Der Flegmon-Brunnen\n"
 	.string "Auch bekannt als Regenmacherquelle.\p"
 	.string "Die Leute in dieser Gegend glauben,\n"
@@ -448,10 +560,27 @@ AzaleaTown_Text_SlowpokeWellSign:
 	.string "400 Jahren einmal ein Flegmon eine\l"
 	.string "Dürre beendet haben soll, indem es\l"
 	.string "gegähnt hat.$"
+#else
+	.string "SLOWPOKE WELL\p"
+	.string "Also known as the RAINMAKER WELL.\p"
+	.string "Locals believe that a SLOWPOKE's\n"
+	.string "yawn summons rain.\p"
+	.string "Records show that a SLOWPOKE's\n"
+	.string "yawn ended a drought 400 years ago.$"
+#endif
 
 AzaleaTown_Text_CharcoalKilnSign:
+#if GERMAN
 	.string "Kohleofen$"
+#else
+	.string "CHARCOAL KILN$"
+#endif
 
 AzaleaTown_Text_IlexForestSign:
+#if GERMAN
 	.string "Direkt hinter dem Tor liegt\n"
 	.string "der Steineichenwald.$"
+#else
+	.string "ILEX FOREST\p"
+	.string "Enter through the gate.$"
+#endif

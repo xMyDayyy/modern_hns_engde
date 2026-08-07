@@ -161,15 +161,27 @@ FourIsland_EventScript_LoreleisHouseSign::
 	end
 
 FourIsland_Text_IslandSign::
+#if GERMAN
 	.string "Eiland Vier\n"
 	.string "Warmes, blaues Eisschollen-Eiland$"
+#else
+	.string "FOUR ISLAND\n"
+	.string "The Warm, Blue, Floe Island$"
+#endif
 
 FourIsland_Text_LoreleiHasReturned::
+#if GERMAN
 	.string "Lorelei ist zurückgekehrt.\p"
 	.string "War das Leben in der Stadt\n"
 	.string "etwa zu stressig?$"
+#else
+	.string "LORELEI has returned.\p"
+	.string "Did she find the city life too\n"
+	.string "stressful, I wonder?$"
+#endif
 
 FourIsland_Text_LoreleiMetLaprasAsChild::
+#if GERMAN
 	.string "Lorelei ist zurück.\p"
 	.string "Sie hat immer noch das Lapras,\n"
 	.string "das sie in ihrer Kindheit traf.\p"
@@ -179,8 +191,18 @@ FourIsland_Text_LoreleiMetLaprasAsChild::
 	.string "Womöglich ist dieses Pokémon\l"
 	.string "seither nicht von ihrer Seite\l"
 	.string "gewichen.$"
+#else
+	.string "LORELEI has gone back.\p"
+	.string "The LAPRAS she has, I imagine it\n"
+	.string "to be the one she met as a child.\p"
+	.string "I believe it was in ICEFALL CAVE\n"
+	.string "that she caught it.\p"
+	.string "Perhaps that POKéMON has been with\n"
+	.string "her ever since.$"
+#endif
 
 FourIsland_Text_RivalAlreadyGotEggBeSmellingYa::
+#if GERMAN
 	.string "{RIVAL}: Heh!\n"
 	.string "{PLAYER}!\p"
 	.string "Was machst du hier auf\n"
@@ -193,7 +215,7 @@ FourIsland_Text_RivalAlreadyGotEggBeSmellingYa::
 	.string "Heh, ich glaube, du weißt nichts\l"
 	.string "über Pokémon-Eier.\p"
 	.string "Du wirst nie deinen Nationalen\n"
-	.string "Pokédex vervollständigen.\p"
+	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY} vervollständigen.\p"
 	.string "Apropos, ich sah jemanden auf\n"
 	.string "dieser Insel, den wir beide kennen.\p"
 	.string "Warum siehst du dich nicht um, wenn\n"
@@ -201,22 +223,63 @@ FourIsland_Text_RivalAlreadyGotEggBeSmellingYa::
 	.string "Ich? Ich habe keine Zeit zu\n"
 	.string "verlieren!\p"
 	.string "Wir sehen uns!$"
+#else
+	.string "{RIVAL}: Hey!\n"
+	.string "{PLAYER}!\p"
+	.string "What are you doing here in the\n"
+	.string "SEVII ISLANDS?\p"
+	.string "You should quit copying me,\n"
+	.string "you know?\p"
+	.string "Anyways, I already got my POKéMON\n"
+	.string "EGG, so I'm done with this island.\p"
+	.string "Heh, I bet you don't even know\n"
+	.string "about POKéMON EGGS.\p"
+	.string "You'll never fill your NATIONAL\n"
+	.string "POKéDEX that way.\p"
+	.string "By the way, I saw someone we both\n"
+	.string "know on this island.\p"
+	.string "Why don't you go look around if\n"
+	.string "it makes you curious?\p"
+	.string "Me, I don't have the time to\n"
+	.string "waste.\p"
+	.string "Be smelling ya!$"
+#endif
 
 FourIsland_Text_LoreleiHasLotsOfStuffedDolls::
+#if GERMAN
 	.string "Oh, du hast mich gefunden!\n"
 	.string "Bitte verrate Lorelei nichts.\p"
 	.string "Wusstest du, dass Lorelei eine\n"
 	.string "ganze Menge Plüschpuppen besitzt?\p"
 	.string "Bei jedem Besuch auf Eiland Vier\n"
 	.string "wächst ihre Sammlung!$"
+#else
+	.string "Oh, you found me!\n"
+	.string "Please don't tell LORELEI.\p"
+	.string "Did you know that LORELEI has lots\n"
+	.string "and lots of stuffed dolls?\p"
+	.string "Every time she comes back to\n"
+	.string "FOUR ISLAND, her collection grows!$"
+#endif
 
 FourIsland_Text_MadeSlushieUsingIcefallCaveIce::
+#if GERMAN
 	.string "Oh, fröstel!\p"
 	.string "Ich habe aus dem Eis, das ich in\n"
 	.string "der Eiskaskadenhöhle abgetragen\l"
 	.string "habe, einen Eis-Drink zubereitet.\p"
 	.string "Frostig und lecker!$"
+#else
+	.string "Ooh, chilly!\p"
+	.string "I made a slushie using ice I\n"
+	.string "shaved inside ICEFALL CAVE.\p"
+	.string "It's chilly and tasty!$"
+#endif
 
 FourIsland_Text_LoreleisHouse::
+#if GERMAN
 	.string "Haus von Lorelei$"
+#else
+	.string "LORELEI'S HOUSE$"
+#endif
 

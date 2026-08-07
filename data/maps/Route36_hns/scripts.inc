@@ -233,151 +233,321 @@ Route36_Movement_SudoWoodo:
 	step_end
 
 Route36_Text_UseSquirtbottle:
+#if GERMAN
 	.string "Das ist ein merkwürdiger Baum.\n"
-	.string "Möchtest du die Schiggykanne benutzen?$"
+	.string "Möchtest du die {COLOR RED}Schiggykanne{COLOR DARK_GRAY} benutzen?$"
+#else
+	.string "Use SQUIRTBOTTLE?$"
+#endif
 
 Route36_Text_UsedSquirtbottle:
+#if GERMAN
 	.string "{PLAYER} setzt die\n"
-	.string "Schiggykanne ein!$"
+	.string "{COLOR RED}Schiggykanne{COLOR DARK_GRAY} ein!$"
+#else
+	.string "{PLAYER} used the SQUIRTBOTTLE.$"
+#endif
 
 Route36_Text_SudowoodoAttacked:
+#if GERMAN
 	.string "Der merkwürdige Baum krümmt sich unter\n"
-	.string "dem Wasser aus der Schiggykanne!\p"
+	.string "dem Wasser aus der {COLOR RED}Schiggykanne{COLOR DARK_GRAY}!\p"
 	.string "Er greift dich an!$"
+#else
+	.string "The weird tree doesn't like the\n"
+	.string "SQUIRTBOTTLE!\p"
+	.string "The weird tree attacked!$"
+#endif
 
 Route36_Text_RockSmashGuy1:
+#if GERMAN
 	.string "Wat is los!\p"
 	.string "Ich wollte diesen Baum mit\n"
 	.string "einem geraden Schlag fällen.\p"
 	.string "Aber es ging nicht!\n"
 	.string "Ich bin ein Versager!$"
+#else
+	.string "Wa-hey!\p"
+	.string "I was going to snap that tree\n"
+	.string "with my straight-arm punch.\p"
+	.string "But I couldn't! I'm a failure!$"
+#endif
 
 Route36_Text_RockSmashGuy2:
+#if GERMAN
 	.string "Hast du diesen lästigen Baum\n"
 	.string "beseitigt?\p"
 	.string "Ich bin beeindruckt!\n"
 	.string "Das hier sollst du haben.$"
+#else
+	.string "Did you clear that wretched tree?\p"
+	.string "I'm impressed!\n"
+	.string "I want you to have this.$"
+#endif
 
 Route36_Text_RockSmashGuy3:
+#if GERMAN
 	.string "Das ist übrigens Zertrümmerer.\p"
 	.string "Damit kannst du Felsen mit\n"
 	.string "einem gezielten Hieb zertrümmern.\p"
 	.string "Sind dir Steine im Weg,\n"
 	.string "schlag sie einfach kaputt!$"
+#else
+	.string "That happens to be ROCK SMASH.\p"
+	.string "You can shatter rocks with just a\n"
+	.string "single well-aimed smack.\p"
+	.string "If any rocks are in your way,\n"
+	.string "just smash 'em up!$"
+#endif
 
 Route36_Text_OddTree:
+#if GERMAN
 	.string "Ein seltsamer Baum versperrt\n"
 	.string "den Weg.$"
+#else
+	.string "A weird tree is blocking the way.$"
+#endif
 
 Route36_Text_Lass1:
+#if GERMAN
 	.string "Ein merkwürdiger Baum blockiert die\n"
-	.string "Straße nach Dukatia City.\p"
+	.string "Straße nach {COLOR RED}Dukatia City{COLOR DARK_GRAY}.\p"
 	.string "Wegen dieses Baumes kann ich\n"
 	.string "nicht einkaufen gehen.\p"
 	.string "Man sollte etwas dagegen tun.$"
+#else
+	.string "Be careful at night on this route!\p"
+	.string "I saw a POKéMON that looked like\n"
+	.string "GROWLITHE, but it had a scary aura\l"
+	.string "to it.$"
+#endif
 
 Route36_Text_Lass2_ClearedSudowoodo:
+#if GERMAN
 	.string "Dieser merkwürdige Baum\n"
 	.string "ist spurlos verschwunden.\p"
 	.string "Ach! Der Baum war\n"
 	.string "in Wirklichkeit ein Pokémon?$"
+#else
+	.string "That odd tree disappeared without\n"
+	.string "a trace.\p"
+	.string "Oh! That tree was really a\n"
+	.string "POKéMON?$"
+#endif
 
 Route36_Text_PsychicMarkSeen:
+#if GERMAN
 	.string "Ich werde jetzt deine Gedanken lesen!$"
+#else
+	.string "I'm going to read your thoughts!$"
+#endif
 
 Route36_Text_PsychicMarkBeaten:
+#if GERMAN
 	.string "Ich habe mich wohl bei dir verlesen!$"
+#else
+	.string "I misread you!$"
+#endif
 
 Route36_Text_PsychicMarkAfter:
+#if GERMAN
 	.string "Wenn ich doch bloß die Gedanken\n"
 	.string "meiner Gegner lesen könnte.$"
+#else
+	.string "I'd be strong if only I could tell\n"
+	.string "what my opponent was thinking.$"
+#endif
 
 Route36_Text_SchoolboyAlan1Seen:
+#if GERMAN
 	.string "Dank meiner Studien bin ich\n"
 	.string "für jedes Pokémon bereit!$"
+#else
+	.string "Thanks to my studies, I'm ready\n"
+	.string "for any POKéMON!$"
+#endif
 
 Route36_Text_SchoolboyAlan1Beaten:
+#if GERMAN
 	.string "Ups! Ein Fehler in der Berechnung?$"
+#else
+	.string "Oops! Computation error?$"
+#endif
 
 Route36_Text_SchoolboyAlanAfter:
+#if GERMAN
 	.string "Mist. Ich lerne fünf\n"
 	.string "Stunden am Tag.\p"
 	.string "Zum Lernen gehört mehr als\n"
 	.string "nur Bücher zu lesen.$"
+#else
+	.string "Darn. I study five hours a day too.\p"
+	.string "There's more to learning than just\n"
+	.string "reading books.$"
+#endif
 
 Route36_Text_MeetArthur:
+#if GERMAN
 	.string "Donatus: Wer bist du?\n"
 	.string "Ich bin Donatus von der\n"
 	.string "Wochentagsfamilie.\p"
 	.string "Wenn du meinen Lieblingstag errätst,\n"
 	.string "gebe ich dir eine Belohnung.$"
+#else
+	.string "ARTHUR: Who are you?\n"
+	.string "I'm ARTHUR of the WEEKDAY FAMILY.\p"
+	.string "If you can guess my favorite day,\n"
+	.string "I'll give you a reward.$"
+#endif
 
 Route36_Text_ArthurNope:
+#if GERMAN
 	.string "Nicht ganz!$"
+#else
+	.string "Not quite!$"
+#endif
 
 Route36_Text_ArthurGivesGift:
+#if GERMAN
 	.string "Hier bitte. Das kannst du haben.$"
+#else
+	.string "Here. You can have this.$"
+#endif
 
 Route36_Text_ArthurGaveGift:
+#if GERMAN
 	.string "Donatus: Ich mag Stein,\n"
 	.string "Stein ist schön und stark.\p"
 	.string "Huhuhuheheheh.$"
+#else
+	.string "ARTHUR: A POKéMON that uses ROCK-\n"
+	.string "type moves should hold on to that.\p"
+	.string "It pumps up ROCK-type attacks.$"
+#endif
 
 Route36_Text_ArthurThursday:
+#if GERMAN
 	.string "Donatus: Ich bin Donatus vom\n"
 	.string "Donnerstag.\p"
 	.string "Ich in der fünfte Sohn von sieben.$"
+#else
+	.string "ARTHUR: I'm ARTHUR of Thursday.\n"
+	.string "I'm the fifth son out of seven.$"
+#endif
 
 Route36_Text_Sign:
+#if GERMAN
 	.string "Route 36$"
+#else
+	.string "ROUTE 36$"
+#endif
 
 Route36_Text_Sign_RuinsNorth:
+#if GERMAN
 	.string "Alph-Ruinen\n"
 	.string "Nordeingang$"
+#else
+	.string "RUINS OF ALPH\n"
+	.string "NORTH ENTRANCE$"
+#endif
 
 Route36_Text_Tips1:
+#if GERMAN
 	.string "Tipps für Trainer\n"
 	.string "Pokémon-Werte unterscheiden sich,\l"
 	.string "selbst bei gleicher Art.\p"
 	.string "Anfangs wirken sie ähnlich.\p"
 	.string "Doch mit dem Wachstum werden\n"
 	.string "die Unterschiede deutlich.$"
+#else
+	.string "TRAINER TIPS\n"
+	.string "POKéMON stats vary--even within\l"
+	.string "the same species.\p"
+	.string "Their stats may be similar at first.\p"
+	.string "However, differences will become\n"
+	.string "pronounced as the POKéMON grow.$"
+#endif
 
 Route36_Text_Tips2:
+#if GERMAN
 	.string "Tipps für Trainer\n"
 	.string "Nutze Schaufler, um zum\l"
 	.string "Eingang eines Ortes zurückzukehren.\p"
 	.string "Sehr praktisch zum Erkunden von\n"
 	.string "Höhlen und besonderen Orten.$"
+#else
+	.string "TRAINER TIPS\n"
+	.string "Use DIG to return to the entrance of\n"
+	.string "any place.\p"
+	.string "It is convenient for exploring\n"
+	.string "caves and other landmarks.$"
+#endif
 
 Route36_Text_AlanRegister:
+#if GERMAN
     .string "Verdammt. Ich lerne auch fünf\n"
     .string "Stunden am Tag.\p"
     .string "Zum Lernen gehört mehr, als nur\n"
     .string "Bücher zu lesen.$"
+#else
+	.string "Darn. I study five hours a day too.\p"
+	.string "There's more to learning than just\n"
+	.string "reading books.$"
+#endif
 
 Route36_Text_AlanRematchIntro:
+#if GERMAN
     .string "Dank meines Studiums bin ich auf\n"
     .string "jedes Pokémon vorbereitet!$"
+#else
+	.string "Thanks to my studies, I'm ready\n"
+	.string "for any POKéMON!$"
+#endif
 
 Route36_Text_AlanRematchDefeat:
+#if GERMAN
     .string "Ups! Rechenfehler?$"
+#else
+	.string "Oops! Computation error?$"
+#endif
 
 Route36_Text_AlanPostRematch:
+#if GERMAN
     .string "Verdammt. Ich lerne auch fünf\n"
     .string "Stunden am Tag.\p"
     .string "Zum Lernen gehört mehr, als nur\n"
     .string "Bücher zu lesen.$"
+#else
+	.string "Darn. I study five hours a day too.\p"
+	.string "There's more to learning than just\n"
+	.string "reading books.$"
+#endif
 
 Route36_Text_AlanHasItem:
+#if GERMAN
     .string "Hey! Ich habe beim Lernen etwas\n"
     .string "gefunden!\p"
     .string "Hier, du kannst es haben!$"
+#else
+	.string "Hey! I found something\n"
+	.string "while studying!\p"
+	.string "Here, you can have it!$"
+#endif
 
 Route36_Text_AlanGaveItem:
+#if GERMAN
     .string "Ich sage dir Bescheid, wenn ich\n"
     .string "noch etwas finde!$"
+#else
+	.string "I'll let you know if I find\n"
+	.string "anything else!$"
+#endif
 
 Route36_Text_AlanNoRoom:
+#if GERMAN
     .string "Hm, dein Beutel ist voll.\p"
     .string "Komm wieder, wenn du Platz hast.$"
+#else
+	.string "Hmm, your BAG is full.\p"
+	.string "Come back when you have room.$"
+#endif

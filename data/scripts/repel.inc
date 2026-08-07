@@ -137,16 +137,35 @@ EventScript_UseSpray::
 
 
 Text_SprayWoreOff::
+#if GERMAN
 	.string "{STR_VAR_1} hat aufgehört zu wirken…$"
+#else
+	.string "{STR_VAR_1}'s effect wore off…$"
+#endif
 
 Text_SprayWoreOffAskUseAnother::
+#if GERMAN
 	.string "{STR_VAR_1} hat aufgehört zu wirken!\n"
 	.string "Einen weiteren benutzen?$"
+#else
+	.string "{STR_VAR_1}'s effect wore off!\n"
+	.string "Use another?$"
+#endif
 
 Text_SprayWoreOffAskUseX::
+#if GERMAN
 	.string "{STR_VAR_1} hat aufgehört zu wirken…\n"
 	.string "{STR_VAR_2} verwenden?$"
+#else
+	.string "{STR_VAR_1}'s effect wore off…\n"
+	.string "Use a {STR_VAR_2}?$"
+#endif
 
 Text_SprayWoreOffUseX::
+#if GERMAN
 	.string "{PLAYER} benutzt\n"
 	.string "{STR_VAR_2}.$"
+#else
+	.string "{PLAYER} used the\n"
+	.string "{STR_VAR_2}.$"
+#endif

@@ -28,29 +28,62 @@ SproutTower_2F_EventScript_Xdefend::
 	end
 
 SproutTower_Text_SageNico_Seen:
+#if GERMAN
 	.string "So sehr wir hier auch wüten,\n"
 	.string "der Turm steht felsenfest!$"
+#else
+	.string "However hard we battle,\n"
+	.string "the TOWER will stand strong.$"
+#endif
 
 SproutTower_Text_SageNico_Beaten:
+#if GERMAN
 	.string "Ich habe hart gekämpft,\n"
 	.string "doch ich war einfach zu schwach.$"
+#else
+	.string "I fought hard but I'm too weak.$"
+#endif
 
 SproutTower_Text_SageNico_AfterBattle:
+#if GERMAN
 	.string "Aufgrund der flexiblen Säule\n"
 	.string "ist der Turm erdbebensicher.$"
+#else
+	.string "The flexible pillar protects the\n"
+	.string "TOWER, even from earthquakes.$"
+#endif
 
 SproutTower_Text_SageEdmond_Seen:
+#if GERMAN
 	.string "…Zittere wie\n"
 	.string "Laub im Wind!$"
+#else
+	.string "…Sway like leaves in the wind…$"
+#endif
 
 SproutTower_Text_SageEdmond_Beaten:
+#if GERMAN
 	.string "Mein Wille ist schwach!$"
+#else
+	.string "Oh, I'm weak!$"
+#endif
 
 SproutTower_Text_SageEdmond_AfterBattle:
+#if GERMAN
 	.string "Ich habe versucht, die eleganten Bewe-\n"
 	.string "gungen von Knofensa nachzuahmen…\l"
 	.string "Aber ich habe nicht genug trainiert.$"
+#else
+	.string "I tried to copy BELLSPROUT's\n"
+	.string "gentle movements for battle…\p"
+	.string "But I didn't train well enough.$"
+#endif
 
 SproutTower_Text_2F_Statue:
+#if GERMAN
 	.string "Eine Pokémon-Statue…\n"
 	.string "Sie sieht sehr erhaben aus.$"
+#else
+	.string "A POKéMON statue…\p"
+	.string "It looks very distinguished.$"
+#endif

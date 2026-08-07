@@ -258,19 +258,36 @@ Route101_Movement_BirchApproachPlayer:
 	step_end
 
 Route101_Text_HelpMe:
+#if GERMAN
 	.string "Hi… Hiiiilfe!!!$"
+#else
+	.string "H-help me!$"
+#endif
 
 Route101_Text_PleaseHelp:
+#if GERMAN
 	.string "Hilfe!!! Du dort drüben!\n"
 	.string "Bitte! Hilfe!!!\p"
 	.string "In meinem Beutel…\n"
 	.string "Da findest du einen Pokéball!$"
+#else
+	.string "Hello! You over there!\n"
+	.string "Please! Help!\p"
+	.string "In my BAG!\n"
+	.string "There's a POKé BALL!$"
+#endif
 
 Route101_Text_DontLeaveMe:
+#if GERMAN
 	.string "Wo-Wo wi-willst du hin?\n"
 	.string "Lass mich nicht im Stich!!!$"
+#else
+	.string "Wh-Where are you going?!\n"
+	.string "Don't leave me like this!$"
+#endif
 
 Route101_Text_YouSavedMe:
+#if GERMAN
 	.string "Prof. Birk: Puuuh…\p"
 	.string "Ich habe im hohen Gras Pokémon\n"
 	.string "studiert, als ich angesprungen wurde.\n"
@@ -282,20 +299,50 @@ Route101_Text_YouSavedMe:
 	.string "Aber dies ist nicht der Ort für ein\n"
 	.string "Schwätzchen, komm doch mit \l"
 	.string "in mein Pokémon-Labor, okay?$"
+#else
+	.string "PROF. BIRCH: Whew…\p"
+	.string "I was in the tall grass studying wild\n"
+	.string "POKéMON when I was jumped.\p"
+	.string "You saved me.\n"
+	.string "Thanks a lot!\p"
+	.string "Oh?\p"
+	.string "Hi, you're {PLAYER}{KUN}!\p"
+	.string "This is not the place to chat, so come\n"
+	.string "by my POKéMON LAB later, okay?$"
+#endif
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
+#if GERMAN
 	.string "Sind deine Pokémon müde, bring sie in\n"
 	.string "ein Pokémon-Center.\p"
 	.string "In Rosaltstadt, gleich hier um die\n"
 	.string "Ecke, gibt es ein Pokémon-Center.$"
+#else
+	.string "If POKéMON get tired, take them to\n"
+	.string "a POKéMON CENTER.\p"
+	.string "There's a POKéMON CENTER in OLDALE\n"
+	.string "TOWN right close by.$"
+#endif
 
 Route101_Text_WildPokemonInTallGrass:
+#if GERMAN
 	.string "Wilde Pokémon springen dich in hohem\n"
 	.string "Gras gerne an.\p"
 	.string "Wenn du Pokémon fangen willst, musst\n"
 	.string "du ins hohe Gras gehen und sie suchen.$"
+#else
+	.string "Wild POKéMON will jump out at you in\n"
+	.string "tall grass.\p"
+	.string "If you want to catch POKéMON, you have\n"
+	.string "to go into the tall grass and search.$"
+#endif
 
 Route101_Text_RouteSign:
+#if GERMAN
 	.string "Route 101\n"
 	.string "{UP_ARROW} Rosaltstadt$"
+#else
+	.string "ROUTE 101\n"
+	.string "{UP_ARROW} OLDALE TOWN$"
+#endif
 

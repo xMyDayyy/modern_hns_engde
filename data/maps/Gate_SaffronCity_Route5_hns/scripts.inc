@@ -7,6 +7,12 @@ Gate_SaffronCity_Route5_EventScript_Guard::
 	end
 
 Route5_Text_SaffronGateOfficer:
+#if GERMAN
 	.string "Du kommst aus Johto, nicht wahr?\p"
 	.string "Wie gefällt dir\n"
 	.string "Kanto? Schön hier, oder nicht?$"
+#else
+	.string "You're from JOHTO, aren't you?\p"
+	.string "How do you like KANTO?\n"
+	.string "It's nice, don't you agree?$"
+#endif

@@ -306,6 +306,7 @@ BattleFrontier_Lounge7_EventScript_Gentleman::
 	end
 
 BattleFrontier_Lounge7_Text_LeftTutorIntro:
+#if GERMAN
 	.string "Muahahahaha!\p"
 	.string "Du wirst es mir wahrscheinlich nicht\n"
 	.string "glauben, aber ich war eine starke\l"
@@ -324,41 +325,98 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro:
 	.string "die auch noch niedlich sind. Aber das\n"
 	.string "kostet eine Kleinigkeit. Dafür möchte\l"
 	.string "ich von dir Gewinnpunkte haben.$"
+#else
+	.string "Buhahaha!\p"
+	.string "You couldn't tell it from looking now,\n"
+	.string "but I used to be one tough TRAINER.\p"
+	.string "I had a reputation as the toughest\n"
+	.string "BEAUTY around, I tell you!\p"
+	.string "… … … … … …\p"
+	.string "What is it now?\n"
+	.string "You don't believe me.\p"
+	.string "I'm not like that blowhard woman over\n"
+	.string "there. I'm actually talented!\p"
+	.string "Let me prove it to you.\n"
+	.string "I can teach your POKéMON special and\l"
+	.string "yet cute moves.\p"
+	.string "But my lessons don't come free.\n"
+	.string "How about paying for the moves I teach\l"
+	.string "with a wee bit of Battle Points?$"
+#endif
 
 BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
+#if GERMAN
 	.string "Muahahahaha!\p"
 	.string "Soll ich deinen Pokémon ein paar\n"
 	.string "hübsche Spezial-Attacken beibringen?$"
+#else
+	.string "Buhahaha!\p"
+	.string "Are you back to learn special and\n"
+	.string "yet cute POKéMON moves?$"
+#endif
 
 BattleFrontier_Lounge7_Text_TeachWhichMove:
+#if GERMAN
 	.string "Schön, schön. Sehr gut. Welche\n"
 	.string "Attacke soll ich ihnen beibringen?$"
+#else
+	.string "Fine, fine, look here!\n"
+	.string "Which move should I teach?$"
+#endif
 
 BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
+#if GERMAN
 	.string "Die Attacke {STR_VAR_1} soll es sein?\n"
 	.string "Die kostet dich {STR_VAR_2}\l"
 	.string "Gewinnpunkte.$"
+#else
+	.string "The move {STR_VAR_1}, is it?\n"
+	.string "That will be {STR_VAR_2} Battle Points, okay?$"
+#endif
 
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
+#if GERMAN
 	.string "Schön, schön. Und welchem Pokémon\n"
 	.string "soll ich sie beibringen?$"
+#else
+	.string "Fine, fine, now pick the POKéMON\n"
+	.string "I should teach the move to.$"
+#endif
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
+#if GERMAN
 	.string "Was… Du hast ja gar\n"
 	.string "nicht genug Gewinnpunkte!$"
+#else
+	.string "What the…\n"
+	.string "You haven't got enough Battle Points!$"
+#endif
 
 BattleFrontier_Lounge7_Text_IllTakeBattlePoints:
+#if GERMAN
 	.string "Siehst du nun, wie talentiert ich bin?\n"
 	.string "Und nun hätte ich gerne deine\l"
 	.string "Gewinnpunkte. Danke!$"
+#else
+	.string "Do you see how skilled I am now?\n"
+	.string "I'll take your Battle Points, thanks!$"
+#endif
 
 BattleFrontier_Lounge7_Text_YouDontWantTo:
+#if GERMAN
 	.string "Was denn? Was denn?\n"
 	.string "Du musst doch nicht gleich…\p"
 	.string "Wenn du sehen willst, wie talentiert\n"
 	.string "ich bin, dann komm wieder. Jederzeit!$"
+#else
+	.string "What's that?\n"
+	.string "You don't want to…\p"
+	.string "If you want to see how skilled I am,\n"
+	.string "you come see me anytime!$"
+#endif
 
 BattleFrontier_Lounge7_Text_RightTutorIntro:
+#if GERMAN
 	.string "Hihihihi!\p"
 	.string "Auch wenn es schwer zu glauben ist:\n"
 	.string "Ich\n"
@@ -377,20 +435,53 @@ BattleFrontier_Lounge7_Text_RightTutorIntro:
 	.string "Aber das kostet dich etwas. Bring ich\n"
 	.string "deinen Pokémon etwas bei, bekomme\l"
 	.string "ich von dir Gewinnpunkte.$"
+#else
+	.string "Ihihihi!\p"
+	.string "I know it's hard to see now, but I used\n"
+	.string "to be one fantastic TRAINER.\p"
+	.string "I had a reputation as the most\n"
+	.string "invincible SWIMMER around, I tell you!\p"
+	.string "… … … … … …\p"
+	.string "What's wrong?\n"
+	.string "You don't believe me.\p"
+	.string "I'm not like that buffoonish woman over\n"
+	.string "there. I'm actually experienced!\p"
+	.string "I can prove it to you.\n"
+	.string "I can teach your POKéMON hard and\l"
+	.string "yet pretty moves.\p"
+	.string "But my lessons don't come free.\n"
+	.string "How about paying for the moves I teach\l"
+	.string "with a wee bit of Battle Points?$"
+#endif
 
 BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
+#if GERMAN
 	.string "Hihihihi!\p"
 	.string "Ich soll deinen Pokémon starke und\n"
 	.string "schöne Attacken beibringen?$"
+#else
+	.string "Ihihihi!\p"
+	.string "Have you come to learn hard and\n"
+	.string "yet pretty POKéMON moves?$"
+#endif
 
 BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
+#if GERMAN
 	.string "Diese Damen dahinten, die beschimpfen\n"
 	.string "sich ständig. Du denkst bestimmt, die\l"
 	.string "verstehen sich überhaupt nicht.\p"
 	.string "Aber in Wahrheit würde die eine keinen\n"
 	.string "Schritt ohne die andere machen.$"
+#else
+	.string "Those ladies, the way they bad-mouth\n"
+	.string "each other, you probably think that\l"
+	.string "they don't get along.\p"
+	.string "But if that were true, they wouldn't\n"
+	.string "stay out here together, would they?$"
+#endif
 
 BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
+#if GERMAN
 	.string "Als ich noch ein junger Spund, ein\n"
 	.string "Teenager, war, waren diese Damen stark\l"
 	.string "und wunderschön.\p"
@@ -401,101 +492,233 @@ BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
 	.string "sind einfach vollkommen.\p"
 	.string "Aber… Trotzdem denke ich…\p"
 	.string "Die Zeit ist grausam…$"
+#else
+	.string "When I was just a wee YOUNGSTER,\n"
+	.string "those ladies were strong and beautiful.\p"
+	.string "They were idols among us TRAINERS.\p"
+	.string "Even now, age hasn't dulled their\n"
+	.string "abilities.\p"
+	.string "In fact, their POKéMON moves have\n"
+	.string "grown even more polished.\p"
+	.string "But… For some reason, I can't help\n"
+	.string "but feel this…\p"
+	.string "Time is so cruel…$"
+#endif
 
 BattleFrontier_Lounge7_Text_SoftboiledDesc::
+#if GERMAN
 	.string "Max. KP des Anwen-\n"
 	.string "ders w. zur Hälfte\n"
 	.string "aufgefüllt.$"
+#else
+	.string "Recovers up to\n"
+	.string "half the user's\n"
+	.string "maximum HP.$"
+#endif
 
 BattleFrontier_Lounge7_Text_SeismicTossDesc::
+#if GERMAN
 	.string "Richtet Schaden\n"
 	.string "gemäß Level d.\n"
 	.string "Angreifers an.$"
+#else
+	.string "Inflicts damage\n"
+	.string "identical to the\n"
+	.string "user's level.$"
+#endif
 
 BattleFrontier_Lounge7_Text_DreamEaterDesc::
+#if GERMAN
 	.string "Schlafendem Geg.\n"
 	.string "wird halber Scha-\n"
 	.string "den abgezogen.$"
+#else
+	.string "Recovers half the\n"
+	.string "damage inflicted\n"
+	.string "on a sleeping foe.$"
+#endif
 
 BattleFrontier_Lounge7_Text_MegaPunchDesc::
+#if GERMAN
 	.string "Ein unglaublich\n"
 	.string "kräftiger Hieb.$"
+#else
+	.string "A strong punch\n"
+	.string "thrown with\n"
+	.string "incredible power.$"
+#endif
 
 BattleFrontier_Lounge7_Text_MegaKickDesc::
+#if GERMAN
 	.string "Ein extrem\n"
 	.string "heftiger Tritt.$"
+#else
+	.string "An extremely\n"
+	.string "powerful kick with\n"
+	.string "intense force.$"
+#endif
 
 BattleFrontier_Lounge7_Text_BodySlamDesc::
+#if GERMAN
 	.string "Körper-Ramme,\n"
 	.string "kann Paralyse\n"
 	.string "hervorrufen.$"
+#else
+	.string "A full-body slam\n"
+	.string "that may cause\n"
+	.string "paralysis.$"
+#endif
 
 BattleFrontier_Lounge7_Text_RockSlideDesc::
+#if GERMAN
 	.string "Schleudert\n"
 	.string "Felsen. Ver-\n"
 	.string "schreckt Gegner.$"
+#else
+	.string "Large boulders\n"
+	.string "are hurled. May\n"
+	.string "cause flinching.$"
+#endif
 
 BattleFrontier_Lounge7_Text_CounterDesc::
+#if GERMAN
 	.string "Kontert phys.\n"
 	.string "Treffer mit\n"
 	.string "doppelter Kraft.$"
+#else
+	.string "Retaliates any\n"
+	.string "physical hit with\n"
+	.string "double the power.$"
+#endif
 
 BattleFrontier_Lounge7_Text_ThunderWaveDesc::
+#if GERMAN
 	.string "Ein schwacher\n"
 	.string "Stromstoß, der d.\n"
 	.string "Gegner paralys.$"
+#else
+	.string "A weak jolt of\n"
+	.string "electricity that\n"
+	.string "paralyzes the foe.$"
+#endif
 
 BattleFrontier_Lounge7_Text_SwordsDanceDesc::
+#if GERMAN
 	.string "Erhöht den\n"
 	.string "Angriffs-Wert\n"
 	.string "drastisch.$"
+#else
+	.string "A fighting dance\n"
+	.string "that sharply\n"
+	.string "raises ATTACK.$"
+#endif
 
 BattleFrontier_Lounge7_Text_DefenseCurlDesc::
+#if GERMAN
 	.string "Verbirgt Schwäche\n"
 	.string "durch Einrollen,\n"
 	.string "Vert.-Wert hoch.$"
+#else
+	.string "Curls up to con-\n"
+	.string "ceal weak spots\n"
+	.string "and raise DEFENSE.$"
+#endif
 
 BattleFrontier_Lounge7_Text_SnoreDesc::
+#if GERMAN
 	.string "Laute Attacke.\n"
 	.string "Kann nur im Schlaf\n"
 	.string "benutzt werden.$"
+#else
+	.string "A loud attack\n"
+	.string "that can be used\n"
+	.string "only while asleep.$"
+#endif
 
 BattleFrontier_Lounge7_Text_MudSlapDesc::
+#if GERMAN
 	.string "Wirft Gegner\n"
 	.string "Matsch i. Gesicht.\n"
 	.string "Genauigkeit sinkt.$"
+#else
+	.string "Hurls mud in the\n"
+	.string "foe's face to re-\n"
+	.string "duce its accuracy.$"
+#endif
 
 BattleFrontier_Lounge7_Text_SwiftDesc::
+#if GERMAN
 	.string "Verschießt stern-\n"
 	.string "förmige Strahlen.\n"
 	.string "Treffergarantie!$"
+#else
+	.string "Sprays star-\n"
+	.string "shaped rays\n"
+	.string "that never miss.$"
+#endif
 
 BattleFrontier_Lounge7_Text_IcyWindDesc::
+#if GERMAN
 	.string "Eis-Attacke, die\n"
 	.string "den INIT.-Wert d.\n"
 	.string "Gegners senkt.$"
+#else
+	.string "A chilling attack\n"
+	.string "that lowers the\n"
+	.string "foe's SPEED.$"
+#endif
 
 BattleFrontier_Lounge7_Text_EndureDesc::
+#if GERMAN
 	.string "Hält jed. Attacke\n"
 	.string "1 Runde stand.\n"
 	.string "1 KP bleibt stets.$"
+#else
+	.string "Endures any at-\n"
+	.string "tack for 1 turn,\n"
+	.string "leaving 1HP.$"
+#endif
 
 BattleFrontier_Lounge7_Text_PsychUpDesc::
+#if GERMAN
 	.string "Kopiert Effekte d.\n"
 	.string "Gegners u. gibt\n"
 	.string "sie dem Angreifer.$"
+#else
+	.string "Copies the foe's\n"
+	.string "effect(s) and\n"
+	.string "gives to the user.$"
+#endif
 
 BattleFrontier_Lounge7_Text_IcePunchDesc::
+#if GERMAN
 	.string "Ein Schlag, der\n"
 	.string "den Gegner\n"
 	.string "evtl. einfriert.$"
+#else
+	.string "An icy punch\n"
+	.string "that may\n"
+	.string "freeze the foe.$"
+#endif
 
 BattleFrontier_Lounge7_Text_ThunderPunchDesc::
+#if GERMAN
 	.string "Schlag, der den\n"
 	.string "Gegner evtl.\n"
 	.string "paralysiert.$"
+#else
+	.string "An electrified\n"
+	.string "punch that may\n"
+	.string "paralyze the foe.$"
+#endif
 
 BattleFrontier_Lounge7_Text_FirePunchDesc::
+#if GERMAN
 	.string "Schlag, der dem\n"
 	.string "Gegner evtl. Ver-\n"
 	.string "brennung zufügt.$"
+#else
+	.string "A fiery punch\n"
+	.string "that may burn\n"
+	.string "the foe.$"
+#endif

@@ -233,122 +233,253 @@ ViridianCity_EventScript_DoTutorialBattle::
 	return
 
 ViridianCity_Text_CanCarryMonsAnywhere::
+#if GERMAN
 	.string "Diese Pokébälle an deinem Gürtel\n"
 	.string "zeigen mir, dass du Pokémon\l"
 	.string "besitzt!\p"
 	.string "Es ist Klasse, dass man jederzeit\n"
 	.string "Pokémon tragen und einsetzen kann,\l"
 	.string "nicht wahr?$"
+#else
+	.string "Those POKé BALLS at your waist!\n"
+	.string "You have POKéMON, don't you?\p"
+	.string "It's great that you can carry and\n"
+	.string "use POKéMON anytime, anywhere.$"
+#endif
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
+#if GERMAN
 	.string "Diese Pokémon-Arena ist stets\n"
 	.string "geschlossen!\p"
 	.string "Ich frage mich, wer hier wohl der\n"
 	.string "Arenaleiter sein mag?$"
+#else
+	.string "This POKéMON GYM is always closed.\p"
+	.string "I wonder who the LEADER is?$"
+#endif
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
+#if GERMAN
 	.string "Der Arenaleiter von Vertania City\n"
 	.string "ist zurück!$"
+#else
+	.string "VIRIDIAN GYM's LEADER returned!$"
+#endif
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
+#if GERMAN
 	.string "Möchtest du etwas über die zwei\n"
 	.string "Raupen-Pokémon erfahren?$"
+#else
+	.string "You want to know about the two\n"
+	.string "kinds of caterpillar POKéMON?$"
+#endif
 
 ViridianCity_Text_OhOkayThen::
+#if GERMAN
 	.string "O.K., alles klar!$"
+#else
+	.string "Oh, okay then!$"
+#endif
 
 ViridianCity_Text_ExplainCaterpieWeedle::
+#if GERMAN
 	.string "Raupy ist nicht giftig, aber\n"
 	.string "Hornliu!\p"
 	.string "Achte auf seinen Giftstachel!$"
+#else
+	.string "CATERPIE has no poison,\n"
+	.string "but WEEDLE does.\p"
+	.string "Watch that your POKéMON aren't\n"
+	.string "stabbed by WEEDLE's POISON STING.$"
+#endif
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
+#if GERMAN
 	.string "Großvater!\n"
 	.string "Sei nicht so gemein!\p"
 	.string "Er hatte noch keinen Kaffee!!!$"
+#else
+	.string "Oh, Grandpa!\n"
+	.string "Don't be so mean!\p"
+	.string "I'm so sorry.\n"
+	.string "He hasn't had his coffee yet.$"
+#endif
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
+#if GERMAN
 	.string "Wenn ich zum Einkaufen nach\n"
-	.string "Marmoria City möchte, muss ich\l"
-	.string "immer durch den Vertania-Wald\l"
+	.string "{COLOR RED}Marmoria City{COLOR DARK_GRAY} möchte, muss ich\l"
+	.string "immer durch den {COLOR RED}Vertania-Wald{COLOR DARK_GRAY}\l"
 	.string "gehen.$"
+#else
+	.string "I go shopping in PEWTER CITY\n"
+	.string "occasionally.\p"
+	.string "I have to take the winding trail in\n"
+	.string "VIRIDIAN FOREST when I go.$"
+#endif
 
 ViridianCity_Text_ThisIsPrivateProperty::
+#if GERMAN
 	.string "Du kannst hier nicht durch!\p"
 	.string "Das ist ein Privatgelände!$"
+#else
+	.string "I absolutely forbid you from\n"
+	.string "going through here!\p"
+	.string "This is private property!$"
+#endif
 
 ViridianCity_Text_ShowYouHowToCatchMons::
+#if GERMAN
 	.string "Nun, jetzt hatte ich meinen\n"
 	.string "Kaffee und das ist alles, was\l"
 	.string "ich brauche, um loszulegen!\l"
 	.string "Hmm?\l"
 	.string "Was ist das für eine rote Box?\p"
 	.string "Ah, du arbeitest an einem\n"
-	.string "Pokédex.\p"
+	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}.\p"
 	.string "Dann will ich dir einen Ratschlag\n"
 	.string "geben.\p"
-	.string "Der Pokédex wird mit jedem neu\n"
+	.string "Der {COLOR RED}Pokédex{COLOR DARK_GRAY} wird mit jedem neu\n"
 	.string "gefangenen Pokémon aktualisiert.\p"
 	.string "… du weißt nicht, wie man\n"
 	.string "Pokémon fängt?\p"
 	.string "Ich sollte es dir wohl besser\n"
 	.string "zeigen!$"
+#else
+	.string "Well, now, I've had my coffee, and\n"
+	.string "that's what I need to get going!\p"
+	.string "Hm?\n"
+	.string "What is that red box you have?\p"
+	.string "Ah, so you're working on your\n"
+	.string "POKéDEX.\p"
+	.string "Then let me give you a word of\n"
+	.string "advice.\p"
+	.string "Whenever you catch a POKéMON,\n"
+	.string "the POKéDEX automatically updates\l"
+	.string "its data.\p"
+	.string "…You don't know how to catch\n"
+	.string "a POKéMON?\p"
+	.string "I suppose I had better show you\n"
+	.string "then!$"
+#endif
 
 ViridianCity_Text_ThatWasEducationalTakeThis::
+#if GERMAN
 	.string "So! Das war doch perfekter\n"
 	.string "Anschauungsunterricht, oder?\p"
 	.string "Und hier, nimm dies auch noch!$"
+#else
+	.string "There! Now tell me, that was\n"
+	.string "educational, was it not?\p"
+	.string "And here, take this, too.$"
+#endif
 
 ViridianCity_Text_WatchThatToLearnBasics::
+#if GERMAN
 	.string "Falls es etwas gibt, das du nicht\n"
 	.string "verstehst, dann schau da rein!\l"
 	.string "Dort erfährst du die Grundlagen\l"
 	.string "über den Beruf eines Pokémon\l"
 	.string "Trainers.$"
+#else
+	.string "If there's something you don't\n"
+	.string "understand, watch that.\p"
+	.string "It will teach you about the basics\n"
+	.string "of being a POKéMON TRAINER.$"
+#endif
 
 ViridianCity_Text_WeakenMonsFirstToCatch::
+#if GERMAN
 	.string "Ahh, ich habe endlich meinen\n"
 	.string "Kaffee bekommen!\l"
 	.string "Aber er war zu stark. Jetzt habe\l"
 	.string "ich Kopfschmerzen…\p"
 	.string "Vervollständigst du zufällig einen\n"
-	.string "Pokédex?\p"
+	.string "{COLOR RED}Pokédex{COLOR DARK_GRAY}?\p"
 	.string "Konzentriere dich zunächst darauf,\n"
 	.string "das Pokémon zu schwächen, ehe\l"
 	.string "du es fangen möchtest.$"
+#else
+	.string "Well, now, I've had my coffee, and\n"
+	.string "that's what I need to get going!\p"
+	.string "But I made it too strong.\n"
+	.string "It gave me a headache…\p"
+	.string "Incidentally, are you filling your\n"
+	.string "POKéDEX?\p"
+	.string "At first, focus on weakening the\n"
+	.string "POKéMON before trying to catch it.$"
+#endif
 
 ViridianCity_Text_HowsTeachyTVHelping::
+#if GERMAN
 	.string "Ahh, ich habe endlich meinen\n"
 	.string "Kaffee bekommen!\p"
 	.string "Aber er war zu stark. Jetzt habe\n"
 	.string "ich Kopfschmerzen…\p"
 	.string "Hilft dir mein Lehrkanal?$"
+#else
+	.string "Well, now, I've had my coffee, and\n"
+	.string "that's what I need to get going!\p"
+	.string "But I made it too strong.\n"
+	.string "It gave me a headache…\p"
+	.string "Incidentally, is my old TEACHY TV\n"
+	.string "helping you?$"
+#endif
 
 ViridianCity_Text_MyGrandsonOnTheShow::
+#if GERMAN
 	.string "Wahaha!\n"
 	.string "Mein Enkel ist im Fernsehen!\p"
 	.string "Da er den Unterricht leitet,\n"
 	.string "musst du lernen.$"
+#else
+	.string "Wahaha!\n"
+	.string "It's my grandson on the show!\p"
+	.string "Since he's the one doing the\n"
+	.string "teaching, you're bound to learn.$"
+#endif
 
 ViridianCity_Text_TooBusyForTeachyTV::
+#if GERMAN
 	.string "Hm… du hast keine Zeit, um\n"
 	.string "den Lehrkanal anzuschauen…\l"
 	.string "Zeit ist Geld und keines davon\l"
 	.string "sollte man leichtsinnig\l"
 	.string "verschwenden…$"
+#else
+	.string "Hm… You're too busy to not even\n"
+	.string "have the time for TEACHY TV…\p"
+	.string "Time is money, and neither should\n"
+	.string "be ill spent…$"
+#endif
 
 ViridianCity_Text_CitySign::
+#if GERMAN
 	.string "Vertania City\n"
 	.string "Das immergrüne Paradies!$"
+#else
+	.string "VIRIDIAN CITY \n"
+	.string "The Eternally Green Paradise$"
+#endif
 
 ViridianCity_Text_CatchMonsForEasierBattles::
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Fange Pokémon, um deine Sammlung\n"
 	.string "zu erweitern!\p"
 	.string "Je mehr du besitzt, desto leichter\n"
 	.string "werden die Kämpfe!$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "Catch POKéMON and expand your\n"
+	.string "collection.\p"
+	.string "The more you have, the easier it\n"
+	.string "is to battle.$"
+#endif
 
 ViridianCity_Text_MovesLimitedByPP::
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Die Attacken der Pokémon werden\n"
 	.string "durch ihre Angriffspunkte, AP,\l"
@@ -356,11 +487,26 @@ ViridianCity_Text_MovesLimitedByPP::
 	.string "Um die AP wieder aufzufüllen, musst\n"
 	.string "du die Pokémon in ein Pokémon-\l"
 	.string "Center bringen!$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "The battle moves of POKéMON are\n"
+	.string "limited by their POWER POINTS, PP.\p"
+	.string "To replenish PP, rest your tired\n"
+	.string "POKéMON at a POKéMON CENTER.$"
+#endif
 
 ViridianCity_Text_GymSign::
+#if GERMAN
 	.string "Vertania City Pokémon-Arena$"
+#else
+	.string "VIRIDIAN CITY POKéMON GYM$"
+#endif
 
 ViridianCity_Text_GymDoorsAreLocked::
+#if GERMAN
 	.string "Die Türen der Arena sind\n"
 	.string "verschlossen...$"
+#else
+	.string "VIRIDIAN GYM's doors are locked…$"
+#endif
 

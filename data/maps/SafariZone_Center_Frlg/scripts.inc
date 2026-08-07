@@ -19,13 +19,27 @@ SafariZone_Center_EventScript_AreaSign::
 	end
 
 SafariZone_Center_Text_RestHouse::
+#if GERMAN
 	.string "Rasthaus$"
+#else
+	.string "REST HOUSE$"
+#endif
 
 SafariZone_Center_Text_PressStartToCheckTime::
+#if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Drücke Start, um nachzusehen,\n"
 	.string "wie viel Zeit du noch übrig hast!$"
+#else
+	.string "TRAINER TIPS\p"
+	.string "Press START to check\n"
+	.string "remaining time.$"
+#endif
 
 SafariZone_Center_Text_CenterArea::
+#if GERMAN
 	.string "Zentrum$"
+#else
+	.string "CENTER AREA$"
+#endif
 

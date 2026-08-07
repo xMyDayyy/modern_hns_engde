@@ -275,6 +275,7 @@ SlateportCity_BattleTentLobby_hns_EventScript_ExitRules::
 	end
 
 SlateportCity_BattleTentLobby_hns_Text_CouldntFindMonForMe:
+#if GERMAN
 	.string "Ich habe keine Pokémon gefunden,\n"
 	.string "die, nun ja, wie für mich gemacht\n"
 	.string "sind. \p"
@@ -285,8 +286,19 @@ SlateportCity_BattleTentLobby_hns_Text_CouldntFindMonForMe:
 	.string "Mann! Das ist vielleicht eine Niete.\p"
 	.string "Hey! Zieh dir das mal rein!\n"
 	.string "Hier, Mann, das ist für dich!$"
+#else
+	.string "So, like, I couldn't find myself any\n"
+	.string "POKéMON that were, like, for me.\p"
+	.string "So, I figured, like, hey, I should file\n"
+	.string "a complaint to the guy there?\p"
+	.string "And he wouldn't hear me out, like, hey!\n"
+	.string "So, like, total bummer, man!\p"
+	.string "Hey, like, you! Zip it, you know?\n"
+	.string "Just, you know, take this!$"
+#endif
 
 SlateportCity_BattleTentLobby_hns_Text_ExplainTorment:
+#if GERMAN
 	.string "Das ist die TM42, weißt du?\n"
 	.string "Hey, das ist Folterknecht, sag ich\n"
 	.string "dir. \p"
@@ -295,21 +307,47 @@ SlateportCity_BattleTentLobby_hns_Text_ExplainTorment:
 	.string "auszuführen.\p"
 	.string "Aber nun hör mir gut zu. Ich würde nie\n"
 	.string "Folterknecht gegen dich einsetzen.$"
+#else
+	.string "That's, like, TM41, you know?\n"
+	.string "Hey, it's TORMENT, you hearing me?\p"
+	.string "Like, it won't let the other guy\n"
+	.string "use the same move twice in a row, see?\p"
+	.string "Hey, now, you listen here, like,\n"
+	.string "I'm not laying a torment on you!$"
+#endif
 
 SlateportCity_BattleTentLobby_hns_Text_IllTryUsingBugMons:
+#if GERMAN
 	.string "Ich mag eigentlich keine Käfer-\n"
 	.string "Pokémon, aber vielleicht sollte ich\n"
 	.string "zur\l"
 	.string "Abwechslung doch welche fangen?\p"
 	.string "Wer weiß, vielleicht finde ich sie\n"
 	.string "dann ja doch ganz nett?$"
+#else
+	.string "I don't really like BUG POKéMON,\n"
+	.string "but maybe I'll try using some for\l"
+	.string "a change of pace.\p"
+	.string "Who knows, I might even get to like\n"
+	.string "them!$"
+#endif
 
 SlateportCity_BattleTentLobby_hns_Text_BattleEvenWithoutToughMons:
+#if GERMAN
 	.string "Du kannst hier so viel kämpfen, wie du\n"
 	.string "willst, selbst wenn du keine starken\l"
 	.string "Pokémon hast.$"
+#else
+	.string "You can battle all you want here even\n"
+	.string "if you don't have any tough POKéMON.$"
+#endif
 
 SlateportCity_BattleTentLobby_hns_Text_NiceIfMoreSelection:
+#if GERMAN
 	.string "Wäre es nicht schön, wenn sie eine\n"
 	.string "größere Auswahl hätten?$"
+#else
+	.string "Wouldn't it be nice if they had more of\n"
+	.string "a selection?$"
+#endif
 

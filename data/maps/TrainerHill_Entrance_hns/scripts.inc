@@ -280,84 +280,176 @@ TrainerHill_Entrance_hns_Pokemart_Basic:
 	end
 
 TrainerHill_Entrance_hns_Text_HereToGetMoney:
+#if GERMAN
 	.string "Ich bin hier, um Geld zu machen!\n"
 	.string "Für jeden Gipfelsieg gibt es\l"
 	.string "eine Geldbelohnung!\p"
 	.string "Wann eröffnen sie endlich?\n"
 	.string "Ich kann es kaum erwarten!$"
+#else
+	.string "I'm here to make some cash!\n"
+	.string "Why? Because every time you reach\l"
+	.string "the top, you get a money reward!\p"
+	.string "I wonder when they'll finally open.\n"
+	.string "I can't wait!$"
+#endif
 
 TrainerHill_Entrance_hns_Text_Money:
+#if GERMAN
 	.string "Jedes Mal, wenn du den Gipfel\n"
 	.string "erreichst, bekommst du Geld.\p"
 	.string "Unter zehn Minuten kannst du\n"
 	.string "bis zu 1.000.000¥ gewinnen!\p"
 	.string "Dauert es länger, fällt die\n"
 	.string "Belohnung geringer aus…$"
+#else
+	.string "Every time you reach the top,\n"
+	.string "you earn some money.\p"
+	.string "I heard you can win up to 1.000.000¥\n"
+	.string "if you finish within ten minutes!\p"
+	.string "But if it takes longer, the reward\n"
+	.string "will be reduced…$"
+#endif
 
 TrainerHill_Entrance_hns_Text_StillGettingReady:
+#if GERMAN
 	.string "Dies ist der Trainerberg,\n"
 	.string "wo viele Doppelkämpfe auf dich\l"
 	.string "warten.\p"
 	.string "Leider sind wir noch mit den\n"
 	.string "Vorbereitungen beschäftigt.$"
+#else
+	.string "This is the TRAINER HILL where\n"
+	.string "you may enjoy tag battles with many\l"
+	.string "TRAINERS.\p"
+	.string "Unfortunately, we're still getting\n"
+	.string "things ready. Please come back later!$"
+#endif
 
 TrainerHill_Entrance_hns_Text_WelcomeToTrainerHill:
+#if GERMAN
 	.string "Willkommen!\p"
 	.string "Dies ist der Trainerberg,\n"
 	.string "wo viele Doppelkämpfe mit\l"
 	.string "Trainern stattfinden!$"
+#else
+	.string "Welcome!\p"
+	.string "This is the TRAINER HILL where\n"
+	.string "you may enjoy tag battles with many\l"
+	.string "TRAINERS!$"
+#endif
 
 TrainerHill_Entrance_hns_Text_SaveGameBeforeEnter:
+#if GERMAN
 	.string "Ist das dein erster Besuch?\p"
 	.string "Bitte speichere dein Spiel,\n"
 	.string "bevor du eintrittst.$"
+#else
+	.string "Is this your first visit here?\p"
+	.string "Before you enter, please save\n"
+	.string "your game.$"
+#endif
 
 TrainerHill_Entrance_hns_Text_TrainersUpToFloorX:
+#if GERMAN
 	.string "Mal sehen…\n"
 	.string "Die Trainer befinden sich…\p"
 	.string "bis einschließlich Etage\n"
 	.string "{STR_VAR_1}.$"
+#else
+	.string "Let's see…\n"
+	.string "The TRAINERS here now are…\p"
+	.string "Up to floor no. {STR_VAR_1}.$"
+#endif
 
 TrainerHill_Entrance_hns_Text_TrainersInEveryRoom:
+#if GERMAN
 	.string "Mal sehen…\n"
 	.string "Die Trainer befinden sich…\p"
 	.string "Offenbar wartet in jedem Raum\n"
 	.string "mindestens ein Trainer.$"
+#else
+	.string "Let's see…\n"
+	.string "The TRAINERS here now are…\p"
+	.string "There appear to be TRAINERS gathered\n"
+	.string "in every room.$"
+#endif
 
 TrainerHill_Entrance_hns_Text_LikeToChallengeTrainers:
+#if GERMAN
 	.string "Möchtest du die wartenden\n"
 	.string "Trainer herausfordern?$"
+#else
+	.string "Would you like to challenge the\n"
+	.string "waiting TRAINERS?$"
+#endif
 
 TrainerHill_Entrance_hns_Text_TimeProgessGetSetGo:
+#if GERMAN
 	.string "Ich messe deine Zeit.\n"
 	.string "Viel Erfolg!\p"
 	.string "Auf die Plätze…\p"
 	.string "Fertig…\p"
 	.string "Los!$"
+#else
+	.string "I will time your progress.\n"
+	.string "Best of luck!\p"
+	.string "On your marks…\p"
+	.string "Get set…\p"
+	.string "Go!$"
+#endif
 
 TrainerHill_Entrance_hns_Text_PleaseVisitUsAgain:
+#if GERMAN
 	.string "Bitte besuche uns bald wieder.$"
+#else
+	.string "Please do visit us again!$"
+#endif
 
 TrainerHill_Entrance_hns_Text_TooBadTremendousEffort:
+#if GERMAN
 	.string "Das ist wirklich schade.\p"
 	.string "Du hast in den Kämpfen großen\n"
 	.string "Einsatz gezeigt.\p"
 	.string "Versuche es bitte noch einmal!$"
+#else
+	.string "That was too bad.\p"
+	.string "I think you put in a tremendous\n"
+	.string "effort in your battling.\p"
+	.string "Please come back and try again!$"
+#endif
 
 TrainerHill_Entrance_hns_Text_HopeYouGiveItYourBest:
+#if GERMAN
 	.string "Ich wünsche dir viel Erfolg!$"
+#else
+	.string "I hope you give it your best.$"
+#endif
 
 TrainerHill_Entrance_hns_Text_MovedReceptionHereForSwitch:
+#if GERMAN
 	.string "Beim Wechsel der Trainer geht\n"
 	.string "es manchmal sehr hektisch zu.\p"
 	.string "Darum haben wir den Empfang\n"
 	.string "hierher verlegt.\p"
 	.string "Entschuldige die Umstände.$"
+#else
+	.string "When the TRAINERS switch places,\n"
+	.string "the movement can be hectic.\p"
+	.string "To avoid the stampede, we moved\n"
+	.string "the reception counter here.\p"
+	.string "I'm sorry for the inconvenience.$"
+#endif
 
 TrainerHill_Entrance_hns_Text_ThankYouForPlaying:
+#if GERMAN
 	.string "Danke fürs Mitmachen!$"
+#else
+	.string "Thank you for playing!$"
+#endif
 
 TrainerHill_Entrance_hns_Text_ExplainTrainerHill:
+#if GERMAN
 	.string "Im Trainerberg gibt es den\n"
 	.string "Zeitangriff-Wettbewerb.\p"
 	.string "Gemessen wird die Zeit vom\n"
@@ -368,27 +460,68 @@ TrainerHill_Entrance_hns_Text_ExplainTrainerHill:
 	.string "deinen Freunden!\p"
 	.string "In den Kämpfen erhältst du\n"
 	.string "weder Erfahrung noch Geld.$"
+#else
+	.string "Here at the TRAINER HILL, we conduct\n"
+	.string "an event called the Time Attack.\p"
+	.string "It is a race that measures how long\n"
+	.string "you take to reach our owner on\l"
+	.string "the rooftop from this counter.\p"
+	.string "The fastest times are posted on\n"
+	.string "the Time Board--try competing with\l"
+	.string "your friends.\p"
+	.string "In TRAINER battles along the way,\n"
+	.string "neither Exp. Points nor money will\l"
+	.string "be awarded.$"
+#endif
 
 TrainerHill_Entrance_hns_Text_WhatSortOfTrainersAreAhead:
+#if GERMAN
 	.string "Wer weiß, welche Trainer und\n"
 	.string "Pokémon-Kombinationen warten?\p"
 	.string "Egal wer mir im Weg steht,\n"
 	.string "ich werde ihn besiegen!$"
+#else
+	.string "Who knows what sort of TRAINERS\n"
+	.string "and POKéMON combos are ahead?\p"
+	.string "All I know is that I'll knock aside\n"
+	.string "anyone that stands in my way!$"
+#endif
 
 TrainerHill_Entrance_hns_Text_CantWaitToTestTheWaters:
+#if GERMAN
 	.string "Starke Trainer aus aller Welt\n"
 	.string "kommen zum Trainerberg.\p"
 	.string "Ich kann es kaum erwarten,\n"
 	.string "mich mit ihnen zu messen!\p"
 	.string "Niemand wird mich aufhalten!$"
+#else
+	.string "I heard tough TRAINERS come to this\n"
+	.string "TRAINER HILL from all over.\p"
+	.string "I can't wait to test the waters!\p"
+	.string "I'll knock aside anyone that stands\n"
+	.string "in my way!$"
+#endif
 
 TrainerHill_Entrance_hns_Text_FriendsTryingToReachTimeBoardTop:
+#if GERMAN
 	.string "Siehst du dort die Rangtafel?\p"
 	.string "Meine Freunde und ich wollen\n"
 	.string "die schnellste Zeit schaffen.$"
+#else
+	.string "Do you see the Time Board over there?\p"
+	.string "My friends and I are trying to see who\n"
+	.string "can reach the top in the least time.$"
+#endif
 
 TrainerHill_Entrance_hns_Text_DoYouKnowWhenTheyOpen:
+#if GERMAN
 	.string "Weißt du, wann hier eröffnet\n"
 	.string "wird?\p"
 	.string "Ich warte darauf, der allererste\n"
 	.string "Herausforderer zu sein!$"
+#else
+	.string "Do you know when they're opening\n"
+	.string "this place up?\p"
+	.string "I'm waiting here to be the first\n"
+	.string "challenger ever!$"
+#endif

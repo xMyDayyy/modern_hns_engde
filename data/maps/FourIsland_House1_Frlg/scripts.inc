@@ -6,6 +6,11 @@ FourIsland_House1_EventScript_FatMan::
 	end
 
 FourIsland_House1_Text_YoureAwfullyHeavy::
+#if GERMAN
 	.string "Hier! Boing!\n"
 	.string "Du bist schwer!$"
+#else
+	.string "There! Boing!\n"
+	.string "You're awfully heavy!$"
+#endif
 

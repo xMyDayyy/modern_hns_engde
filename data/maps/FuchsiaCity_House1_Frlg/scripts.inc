@@ -18,19 +18,39 @@ FuchsiaCity_House1_EventScript_LittleBoy::
 	end
 
 FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
-	.string "Der Wärter der Safari-Zone ist\n"
+#if GERMAN
+	.string "Der Wärter der {COLOR RED}Safari-Zone{COLOR DARK_GRAY} ist\n"
 	.string "sehr alt! Aber er ist noch immer im\l"
 	.string "Dienst!\p"
 	.string "Allerdings trägt er ein Gebiss!$"
+#else
+	.string "The SAFARI ZONE's WARDEN is old, \n"
+	.string "but he's still very much active.\p"
+	.string "All his teeth are false, though.$"
+#endif
 
 FuchsiaCity_House1_Text_BillIsMyGrandson::
-	.string "Hast du schon Bill getroffen?\p"
+#if GERMAN
+	.string "Hast du schon {COLOR RED}Bill{COLOR DARK_GRAY} getroffen?\p"
 	.string "Er ist mein Enkel!\p"
 	.string "Schon als kleines Kind hat er gerne\n"
 	.string "alles Mögliche gesammelt!$"
+#else
+	.string "Hmm?\n"
+	.string "You've met BILL?\p"
+	.string "He's my grandson!\p"
+	.string "He always liked collecting things,\n"
+	.string "even as a child!$"
+#endif
 
 FuchsiaCity_House1_Text_BillFilesHisOwnMonData::
-	.string "Bill sammelt auf seinem PC Daten\n"
+#if GERMAN
+	.string "{COLOR RED}Bill{COLOR DARK_GRAY} sammelt auf seinem PC Daten\n"
 	.string "über Pokémon!\p"
 	.string "Hat er sie dir gezeigt?$"
+#else
+	.string "BILL files his own POKéMON data on\n"
+	.string "his PC.\p"
+	.string "Did he show you?$"
+#endif
 

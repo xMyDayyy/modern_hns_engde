@@ -148,7 +148,11 @@ struct VoltorbFlipState
 EWRAM_DATA static struct Vflip *sVflip = NULL;
 
 static const u8 sText_Level[] = _("Lv.");
+#if GERMAN
 static const u8 sText_QuitTheGame[] = _("Das Spiel beenden?");
+#else
+static const u8 sText_QuitTheGame[] = _("Quit the game?");
+#endif
 
 static void MainCB2(void);
 static void Task_VoltorbFlipFadeIn(u8);

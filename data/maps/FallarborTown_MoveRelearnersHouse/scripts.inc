@@ -59,6 +59,7 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 	end
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
+#if GERMAN
 	.string "Ich bin der Attacken-Helfer.\p"
 	.string "Ich kenne alle Attacken, die ein\n"
 	.string "Pokémon lernen kann - und ich kann sie\l"
@@ -67,34 +68,80 @@ FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
 	.string "Attacken beibringen, wenn du magst.\p"
 	.string "Als Gegenleistung hätte ich gerne eine\n"
 	.string "Herzschuppe. Die sammle ich nämlich.$"
+#else
+	.string "I'm the MOVE TUTOR.\p"
+	.string "I know all the moves that POKéMON\n"
+	.string "learn--every one of them--and I can\l"
+	.string "teach POKéMON those moves.\p"
+	.string "I can teach a move to a POKéMON\n"
+	.string "of yours if you'd like.\p"
+	.string "I'll do it for a HEART SCALE.\n"
+	.string "I'm collecting those now.$"
+#endif
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
+#if GERMAN
 	.string "Oh! Das ist es! Das ist ehrlich und\n"
 	.string "wahrhaftig eine Herzschuppe!\p"
 	.string "Lass mich raten… Ich soll einem\n"
 	.string "Pokémon\l"
 	.string "eine neue Attacke beibringen?!?$"
+#else
+	.string "Oh! That's it! That's an honest to\n"
+	.string "goodness HEART SCALE!\p"
+	.string "Let me guess, you want me to teach\n"
+	.string "a move?$"
+#endif
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
+#if GERMAN
 	.string "Welches Pokémon soll sie lernen?$"
+#else
+	.string "Which POKéMON needs tutoring?$"
+#endif
 
 FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove:
+#if GERMAN
 	.string "Welche Attacke soll ich es lehren?$"
+#else
+	.string "Which move should I teach?$"
+#endif
 
 FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
+#if GERMAN
 	.string "Tut mir Leid…\p"
 	.string "Scheinbar gibt es keine Attacke, die\n"
 	.string "ich diesem Pokémon beibringen kann.$"
+#else
+	.string "Sorry…\p"
+	.string "It doesn't appear as if I have any move\n"
+	.string "I can teach that POKéMON.$"
+#endif
 
 FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
+#if GERMAN
 	.string "{PLAYER} tauscht eine Herzschuppe ein.$"
+#else
+	.string "{PLAYER} handed over one HEART SCALE\n"
+	.string "in exchange.$"
+#endif
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
+#if GERMAN
 	.string "Falls deine Pokémon neue Attacken\n"
 	.string "lernen sollen, komm mit einer\l"
 	.string "Herzschuppe wieder.$"
+#else
+	.string "If your POKéMON need to learn a move,\n"
+	.string "come back with a HEART SCALE.$"
+#endif
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
+#if GERMAN
 	.string "Bitte? Ich kann einem Ei nicht eine\n"
 	.string "einzige Attacke beibringen!$"
+#else
+	.string "Hunh? There isn't a single move that\n"
+	.string "I can teach an EGG.$"
+#endif
 

@@ -231,43 +231,89 @@ PokemonTower_7F_Movement_Grunt3ExitLeft::
 	step_end
 
 PokemonTower_7F_Text_Grunt1Intro::
+#if GERMAN
 	.string "Was willst du?\n"
 	.string "Warum bist du hier?$"
+#else
+	.string "What do you want?\n"
+	.string "Why are you here?$"
+#endif
 
 PokemonTower_7F_Text_Grunt1Defeat::
+#if GERMAN
 	.string "Ich gebe auf!$"
+#else
+	.string "I give up!$"
+#endif
 
 PokemonTower_7F_Text_Grunt1PostBattle::
+#if GERMAN
 	.string "Das werde ich dir nie verzeihen!$"
+#else
+	.string "I'm not going to forget this!$"
+#endif
 
 PokemonTower_7F_Text_Grunt2Intro::
+#if GERMAN
 	.string "Da war so ein alter Knacker, der\n"
 	.string "behauptet hat, wir würden Pokémon\l"
 	.string "quälen!\p"
 	.string "Willst du meine Meinung hören?$"
+#else
+	.string "This old guy marched right up to\n"
+	.string "our HIDEOUT.\p"
+	.string "Then, he starts ranting about how\n"
+	.string "TEAM ROCKET's abusing POKéMON.\p"
+	.string "So, we're just talking it over as\n"
+	.string "adults.$"
+#endif
 
 PokemonTower_7F_Text_Grunt2Defeat::
+#if GERMAN
 	.string "Bitte!\n"
 	.string "Lass mich in Ruhe!$"
+#else
+	.string "Please!\n"
+	.string "No more!$"
+#endif
 
 PokemonTower_7F_Text_Grunt2PostBattle::
+#if GERMAN
 	.string "Pokémon sind nur zum Geldverdienen\n"
 	.string "gut!\p"
 	.string "Halte dich aus unseren\n"
 	.string "Angelegenheiten heraus!$"
+#else
+	.string "POKéMON are only good for making\n"
+	.string "money. Why not use them?\p"
+	.string "You stay out of our business!$"
+#endif
 
 PokemonTower_7F_Text_Grunt3Intro::
+#if GERMAN
 	.string "Du wirst niemanden retten!$"
+#else
+	.string "You're not saving anyone, kid!$"
+#endif
 
 PokemonTower_7F_Text_Grunt3Defeat::
+#if GERMAN
 	.string "Leg dich nicht mit dem Team Rocket\n"
 	.string "an!$"
+#else
+	.string "Don't fight us ROCKETS!$"
+#endif
 
 PokemonTower_7F_Text_Grunt3PostBattle::
+#if GERMAN
 	.string "Du wirst nicht ungestraft\n"
 	.string "davonkommen!$"
+#else
+	.string "You're not getting away with this!$"
+#endif
 
 PokemonTower_7F_Text_MrFujiThankYouFollowMe::
+#if GERMAN
 	.string "Mr. Fuji: Was?\n"
 	.string "Du kommst, um mich zu retten?\p"
 	.string "Vielen Dank!\n"
@@ -281,4 +327,18 @@ PokemonTower_7F_Text_MrFujiThankYouFollowMe::
 	.string "Sorge um mich!\p"
 	.string "Folge mir in das Pokémon-Clubhaus\n"
 	.string "am Fuße dieses Turms.$"
+#else
+	.string "MR. FUJI: Heh?\n"
+	.string "You came to save me?\p"
+	.string "Thank you. But, I came here of my\n"
+	.string "own free will.\p"
+	.string "I came to calm the spirit of\n"
+	.string "CUBONE's mother.\p"
+	.string "I think MAROWAK's spirit has\n"
+	.string "finally left us.\p"
+	.string "I must thank you for your kind\n"
+	.string "concern.\p"
+	.string "Follow me to my home, POKéMON\n"
+	.string "HOUSE, at the foot of this tower.$"
+#endif
 

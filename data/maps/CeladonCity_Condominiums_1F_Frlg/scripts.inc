@@ -62,43 +62,88 @@ CeladonCity_Condominiums_1F_EventScript_SuiteSign::
 	end
 
 CeladonCity_Condominiums_1F_Text_Meowth::
+#if GERMAN
 	.string "Mauzi: Miau!$"
+#else
+	.string "MEOWTH: Meow!$"
+#endif
 
 CeladonCity_Condominiums_1F_Text_TryThisDrinkInstead::
+#if GERMAN
 	.string "Du solltest dein ganzes Geld\n"
 	.string "nicht für Getränke ausgeben!\p"
 	.string "Versuch das hier!$"
+#else
+	.string "You shouldn't spend all your money\n"
+	.string "on drinks.\p"
+	.string "Try this instead.$"
+#endif
 
 CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea::
+#if GERMAN
 	.string "Gegen Durst ist nichts besser als\n"
 	.string "heißer Tee.\p"
 	.string "Er ist einfach am besten!$"
+#else
+	.string "Nothing beats thirst like some hot\n"
+	.string "TEA.\p"
+	.string "It really is the best.$"
+#endif
 
 CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany::
+#if GERMAN
 	.string "Meine treuen Pokémon leisten mir\n"
 	.string "Gesellschaft.\p"
 	.string "Mauzi bringt sogar Geld mit nach\n"
 	.string "Hause!$"
+#else
+	.string "My dear POKéMON keep me company.\n"
+	.string "MEOWTH even brings money home!$"
+#endif
 
 CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea::
+#if GERMAN
 	.string "Oh, hallo!\n"
 	.string "Hat dir mein Tee geschmeckt?\p"
 	.string "Apropos, bist du zufällig aus\n"
-	.string "Alabastia?\p"
-	.string "Ein Mädchen aus Alabastia\n"
+	.string "{COLOR RED}Alabastia{COLOR DARK_GRAY}?\p"
+	.string "Ein Mädchen aus {COLOR RED}Alabastia{COLOR DARK_GRAY}\n"
 	.string "namens Sarah trinkt jeden Tag\l"
 	.string "Tee.\l"
 	.string "Sie kommt ins Einkaufszentrum\l"
 	.string "von Prismania City, um Tee\l"
 	.string "zu kaufen!$"
+#else
+	.string "Oh, hello, dearie.\n"
+	.string "Did you enjoy my TEA?\p"
+	.string "By the way, dear. Are you, by any\n"
+	.string "chance, from PALLET TOWN?\p"
+	.string "A girl from PALLET TOWN, DAISY,\n"
+	.string "she enjoys TEA every day.\p"
+	.string "She visits the CELADON DEPT. STORE\n"
+	.string "to buy some TEA.$"
+#endif
 
 CeladonCity_Condominiums_1F_Text_Clefairy::
+#if GERMAN
 	.string "Piepi: Pi pippi!$"
+#else
+	.string "CLEFAIRY: Pi pippippi!$"
+#endif
 
 CeladonCity_Condominiums_1F_Text_Nidoran::
+#if GERMAN
 	.string "Nidoran♀: Nidoran!$"
+#else
+	.string "NIDORAN♀: Kya kyaoo!$"
+#endif
 
 CeladonCity_Condominiums_1F_Text_ManagersSuite::
+#if GERMAN
 	.string "Prismania-Villa\n"
 	.string "Manager Suite$"
+#else
+	.string "CELADON MANSION\n"
+	.string "Manager's Suite$"
+#endif
 

@@ -39,26 +39,48 @@ GoldenrodDeptStore1_EventScript_Directory::
 	end
 
 GoldenrodDeptStor1_Text_Receptionist:
+#if GERMAN
 	.string "Willkommen im\n"
 	.string "Kaufhaus von Dukatia City.$"
+#else
+    .string "Welcome to GOLDENROD DEPT.STORE.$"
+#endif
 
 GoldenrodDeptStore1_Text_Gentleman:
+#if GERMAN
 	.string "Das Kaufhaus\n"
 	.string "bietet eine große Auswahl.\p"
 	.string "Aber einige Items erhält man nur als\n"
 	.string "Preis in der Spielhalle.$"
+#else
+    .string "The DEPT.STORE has a decent\n"
+    .string "selection.\p"
+    .string "But some items are only available\n"
+    .string "as GAME CORNER prizes.$"
+#endif
 
 GoldenrodDeptStore1_Text_PokefanF:
+#if GERMAN
 	.string "Dann mal ans Werk! Ich habe vor, heute\n"
 	.string "das halbe Kaufhaus leerzukaufen!$"
+#else
+    .string "I'm raring to shop again today!$"
+#endif
 
 GoldenrodDeptStore1_Text_BugCatcher:
+#if GERMAN
 	.string "Mama ist eine echte\n"
 	.string "Schnäppchenjägerin.\p"
 	.string "Sie besorgt mir meine Items immer zu\n"
 	.string "etwas günstigeren Preisen.$"
+#else
+    .string "Mom's good at bargain hunting.\p"
+    .string "She always buys stuff at lower\n"
+    .string "prices.$"
+#endif
 
 GoldenrodDeptStore1_Text_Directory:
+#if GERMAN
 	.string "EG Info-Schalter\p"
 	.string "1S Trainermarkt\p"
 	.string "2S Kampfkollektion\p"
@@ -66,3 +88,13 @@ GoldenrodDeptStore1_Text_Directory:
 	.string "4S TM-Ecke\p"
 	.string "5S Platz der ewigen Stille\p"
 	.string "Dachterrassen Aussichtsplattform$"
+#else
+    .string "1F SERVICE COUNTER\n"
+	.string "YOU ARE HERE.\p"
+    .string "2F TRAINER'S MARKET\p"
+    .string "3F BATTLE COLLECTION\p"
+    .string "4F MEDICINE BOX\p"
+    .string "5F TM CORNER\p"
+    .string "6F TRANQUIL SQUARE\p"
+    .string "ROOFTOP LOOKOUT$"
+#endif

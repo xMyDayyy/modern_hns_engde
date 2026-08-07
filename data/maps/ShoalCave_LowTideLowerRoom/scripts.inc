@@ -47,15 +47,27 @@ ShoalCave_LowTideLowerRoom_EventScript_ReceivedFocusBand::
 	end
 
 ShoalCave_LowTideLowerRoom_Text_CanOvercomeColdWithFocus:
+#if GERMAN
 	.string "Die eisige Kälte in dieser Gegend ist\n"
 	.string "ein gewaltiges Hindernis beim\n"
 	.string "Training. \p"
 	.string "Aber wenn man sich konzentriert, kann\n"
 	.string "man doch gewinnen!\p"
-	.string "Mit diesem Fokus-Band kannst du dich\n"
+	.string "Mit diesem {COLOR RED}Fokus-Band{COLOR DARK_GRAY} kannst du dich\n"
 	.string "besser konzentrieren und der Kälte\l"
 	.string "widerstehen.$"
+#else
+	.string "The penetrating cold around these\n"
+	.string "parts is an impediment to training.\p"
+	.string "But with focus, one can overcome!\p"
+	.string "With this FOCUS BAND, buckle down and\n"
+	.string "withstand the cold!$"
+#endif
 
 ShoalCave_LowTideLowerRoom_Text_EverythingStartsWithFocus:
+#if GERMAN
 	.string "Alles hängt von der Konzentration ab!$"
+#else
+	.string "Everything starts with focus!$"
+#endif
 

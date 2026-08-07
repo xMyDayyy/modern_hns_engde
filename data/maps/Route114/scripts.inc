@@ -177,27 +177,53 @@ Route114_EventScript_Kai::
 	end
 
 Route114_Text_AllMyMonDoesIsRoarTakeThis:
+#if GERMAN
 	.string "Alles, was mein Pokémon von sich gibt,\n"
 	.string "ist Brüller…\l"
 	.string "Niemand wagt sich nah heran…\p"
 	.string "Seufz… Wenn du magst, dann nimm mir\n"
 	.string "diese Bürde… äh, diese TM ab…$"
+#else
+	.string "All my POKéMON does is ROAR…\n"
+	.string "No one dares to come near me…\p"
+	.string "Sigh… If you would, please take\n"
+	.string "this TM away…$"
+#endif
 
 Route114_Text_ExplainRoar:
+#if GERMAN
 	.string "TM05 enthält Brüller.\n"
 	.string "Ein Brüller schlägt Pokémon in\l"
 	.string "die Flucht.$"
+#else
+	.string "TM05 contains ROAR.\n"
+	.string "A ROAR sends POKéMON scurrying.$"
+#endif
 
 Route114_Text_Poochyena:
 	.string "Bow! Bowwow!$"
 
 Route114_Text_MeteorFallsSign:
+#if GERMAN
 	.string "Meteorfälle\n"
 	.string "Hier Entlang nach Metarost City$"
+#else
+	.string "METEOR FALLS\n"
+	.string "RUSTBORO CITY THROUGH HERE$"
+#endif
 
 Route114_Text_FossilManiacsHouseSign:
+#if GERMAN
 	.string "Fossilmaniac “Fossilien gesucht!”$"
+#else
+	.string "FOSSIL MANIAC'S HOUSE\n"
+	.string "“Fossils gratefully accepted!”$"
+#endif
 
 Route114_Text_LanettesHouse:
+#if GERMAN
 	.string "Lanettes Haus$"
+#else
+	.string "LANETTE'S HOUSE$"
+#endif
 

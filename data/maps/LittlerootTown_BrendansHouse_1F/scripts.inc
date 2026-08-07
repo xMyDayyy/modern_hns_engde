@@ -284,11 +284,17 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 	step_end
 
 PlayersHouse_1F_Text_IsntItNiceInHere:
+#if GERMAN
 	.string "Mutter: Siehst du, {PLAYER}?\n"
 	.string "Hier ist es doch auch schön, oder\l"
 	.string "nicht?$"
+#else
+	.string "MOM: See, {PLAYER}?\n"
+	.string "Isn't it nice in here, too?$"
+#endif
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
+#if GERMAN
 	.string "Die Pokémon machen für uns den Umzug,\n"
 	.string "räumen alles ein und machen sauber.\l"
 	.string "Das ist doch so etwas von praktisch!\p"
@@ -297,76 +303,164 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "Vati hat dir eine neue Uhr zur\n"
 	.string "Begrüßung geschenkt.\l"
 	.string "Vergiss nicht, sie einzustellen!$"
+#else
+	.string "The mover's POKéMON do all the work\n"
+	.string "of moving us in and cleaning up after.\l"
+	.string "This is so convenient!\p"
+	.string "{PLAYER}, your room is upstairs.\n"
+	.string "Go check it out, dear!\p"
+	.string "DAD bought you a new clock to mark\n"
+	.string "our move here.\l"
+	.string "Don't forget to set it!$"
+#endif
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
+#if GERMAN
 	.string "Mutter: Nun, {PLAYER}?\p"
 	.string "Bist du nicht neugierig, dein neues\n"
 	.string "Zimmer zu sehen?$"
+#else
+	.string "MOM: Well, {PLAYER}?\p"
+	.string "Aren't you interested in seeing your\n"
+	.string "very own room?$"
+#endif
 
 PlayersHouse_1F_Text_GoSetTheClock:
+#if GERMAN
 	.string "Mutter: {PLAYER}, Schatz!\p"
 	.string "Stell bitte die Uhr in deinem Zimmer\n"
 	.string "ein.$"
+#else
+	.string "MOM: {PLAYER}.\p"
+	.string "Go set the clock in your room, honey.$"
+#endif
 
 PlayersHouse_1F_Text_OhComeQuickly:
+#if GERMAN
 	.string "Mutter: Oh! {PLAYER}! {PLAYER}!\n"
 	.string "Schnell! Komm schnell her!$"
+#else
+	.string "MOM: Oh! {PLAYER}, {PLAYER}!\n"
+	.string "Quick! Come quickly!$"
+#endif
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
+#if GERMAN
 	.string "Mutter: Da! Da ist die Arena von\n"
 	.string "Blütenburg City!\l"
 	.string "Ich glaube, Vati ist im Fernsehen!$"
+#else
+	.string "MOM: Look! It's PETALBURG GYM!\n"
+	.string "Maybe DAD will be on!$"
+#endif
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
+#if GERMAN
 	.string "Mutter: Oh… Schon vorbei.\p"
 	.string "Ich glaube, Vati war im Fernsehen und\n"
 	.string "wir haben ihn verpasst. Schade!$"
+#else
+	.string "MOM: Oh… It's over.\p"
+	.string "I think DAD was on, but we missed him.\n"
+	.string "Too bad.$"
+#endif
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
+#if GERMAN
 	.string "Ach ja.\n"
 	.string "Einer von Vatis Freunden lebt hier.\p"
 	.string "Prof. Birk ist sein Name.\p"
 	.string "Er lebt gleich nebenan, daher solltest\n"
 	.string "du hinübergehen und dich vorstellen.$"
+#else
+	.string "Oh, yes.\n"
+	.string "One of DAD's friends lives in town.\p"
+	.string "PROF. BIRCH is his name.\p"
+	.string "He lives right next door, so you should\n"
+	.string "go over and introduce yourself.$"
+#endif
 
 PlayersHouse_1F_Text_SeeYouHoney:
+#if GERMAN
 	.string "Mutter: Bis später, Spatz!$"
+#else
+	.string "MOM: See you, honey!$"
+#endif
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch:
+#if GERMAN
 	.string "Mutter: Hast du dich bei Prof. Birk\n"
 	.string "vorgestellt?$"
+#else
+	.string "MOM: Did you introduce yourself to\n"
+	.string "PROF. BIRCH?$"
+#endif
 
 PlayersHouse_1F_Text_YouShouldRestABit:
+#if GERMAN
 	.string "Mutter: Wie geht es dir, {PLAYER}?\n"
 	.string "Du siehst müde aus.\p"
 	.string "Ich denke, du solltest dich etwas\n"
 	.string "ausruhen.$"
+#else
+	.string "MOM: How are you doing, {PLAYER}?\n"
+	.string "You look a little tired.\p"
+	.string "I think you should rest a bit.$"
+#endif
 
 PlayersHouse_1F_Text_TakeCareHoney:
+#if GERMAN
 	.string "Mutter: Pass auf dich auf, Schatz!$"
+#else
+	.string "MOM: Take care, honey!$"
+#endif
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
+#if GERMAN
 	.string "Mutter: Oh! Hat Vati dir den Orden\n"
 	.string "gegeben?\p"
 	.string "Dann ist das hier von deiner Mutti!$"
+#else
+	.string "MOM: Oh? Did DAD give you that BADGE?\p"
+	.string "Then here's something from your MOM!$"
+#endif
 
 PlayersHouse_1F_Text_DontPushYourselfTooHard:
+#if GERMAN
 	.string "Überanstreng dich nicht, Liebes.\n"
 	.string "Du kannst jederzeit nach Hause kommen.\n"
 	.string "\p"
 	.string "Und jetzt nichts wie los, Schatz!$"
+#else
+	.string "Don't push yourself too hard, dear.\n"
+	.string "You can always come home.\p"
+	.string "Go for it, honey!$"
+#endif
 
 PlayersHouse_1F_Text_IsThatAPokenav:
+#if GERMAN
 	.string "Mutter: Was hast du denn da Schönes?\n"
 	.string "Einen Pokénav? Den hat dir jemand von\l"
 	.string "Devon gegeben?\p"
 	.string "Und, Liebling? Möchtest du nicht deine\n"
 	.string "Mutter ins Verzeichnis aufnehmen?\p"
 	.string "… … …$"
+#else
+	.string "MOM: What is that, honey? A POKéNAV?\n"
+	.string "Someone from DEVON gave it to you?\p"
+	.string "Well, honey, how about registering\n"
+	.string "your mom?\p"
+	.string "… … …$"
+#endif
 
 PlayersHouse_1F_Text_RegisteredMom:
+#if GERMAN
 	.string "Mutter wurde im Pokénav-Verzeichnis\n"
 	.string "eingetragen.$"
+#else
+	.string "Registered MOM\n"
+	.string "in the POKéNAV.$"
+#endif
 
 PlayersHouse_1F_Text_Vigoroth1:
 	.string "Fugiiiiih!$"
@@ -375,16 +469,29 @@ PlayersHouse_1F_Text_Vigoroth2:
 	.string "Huggoh, uggo uggo…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
+#if GERMAN
 	.string "Interviewer: Das war unsere Reportage\n"
 	.string "über die Arena in Blütenburg City.$"
+#else
+	.string "INTERVIEWER: …We brought you this\n"
+	.string "report from in front of PETALBURG GYM.$"
+#endif
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
+#if GERMAN
 	.string "Da läuft gerade ein Film.\p"
 	.string "Zwei Männer tanzen auf riesengroßen\n"
 	.string "Klaviertasten.\p"
 	.string "Aber es wird Zeit aufzubrechen!$"
+#else
+	.string "There is a movie on TV.\p"
+	.string "Two men are dancing on a big piano\n"
+	.string "keyboard.\p"
+	.string "Better get going!$"
+#endif
 
 PlayersHouse_1F_Text_RunningShoesManual:
+#if GERMAN
 	.string "Dies ist die Bedienungsanleitung für\n"
 	.string "die Turbotreter.\p"
 	.string "“Halte den B-Knopf gedrückt,\n"
@@ -392,8 +499,17 @@ PlayersHouse_1F_Text_RunningShoesManual:
 	.string "um zu rennen!\p"
 	.string "Schlüpf in diese Turbotreter und\n"
 	.string "erobere die Welt da draußen!”$"
+#else
+	.string "It's the instruction booklet for the\n"
+	.string "RUNNING SHOES.\p"
+	.string "“Press the B Button to run while\n"
+	.string "wearing your RUNNING SHOES.\p"
+	.string "“Lace up your RUNNING SHOES and hit\n"
+	.string "the road running!”$"
+#endif
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
+#if GERMAN
 	.string "Vater: Hm?\p"
 	.string "Hey, das ist ja {PLAYER}!\p"
 	.string "Du hast uns ja schon lange nicht mehr\n"
@@ -404,22 +520,46 @@ PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "Oh, ich habe hier etwas für dich.\n"
 	.string "Das soll ich dir von einem Mr. Brack\l"
 	.string "geben.$"
+#else
+	.string "DAD: Hm?\p"
+	.string "Hey, it's {PLAYER}!\p"
+	.string "It's been a while since I saw you,\n"
+	.string "but you look…stronger, somehow.\p"
+	.string "That's the impression I get.\n"
+	.string "But your old man hasn't given up yet!\p"
+	.string "Oh, yes, I have something for you.\n"
+	.string "This came to you from someone named\l"
+	.string "MR. BRINEY.$"
+#endif
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
+#if GERMAN
 	.string "Vater: Hm, ein Ticket für eine Fähre?\n"
 	.string "\p"
 	.string "Ich weiß, dass es in Graphitport City\n"
 	.string "und Seegrasulb City Anlegestellen für\l"
 	.string "Fähren gibt.$"
+#else
+	.string "DAD: Hm, a TICKET for a ferry?\p"
+	.string "If I recall, there are ferry ports in\n"
+	.string "SLATEPORT and LILYCOVE.$"
+#endif
 
 PlayersHouse_1F_Text_BetterGetBackToGym:
+#if GERMAN
 	.string "Ich muss jetzt wieder in die Arena von\n"
 	.string "Blütenburg City.\p"
 	.string "Ich danke dir, dass du dich während\n"
 	.string "meiner Abwesenheit um das Haus\l"
 	.string "kümmerst.$"
+#else
+	.string "I'd better get back to PETALBURG GYM.\p"
+	.string "MOM, thanks for looking after the house\n"
+	.string "while I'm away.$"
+#endif
 
 PlayersHouse_1F_Text_DadShouldStayLonger:
+#if GERMAN
 	.string "Mutter: Das ist wieder typisch dein\n"
 	.string "Vater…\p"
 	.string "Da kommt er das erste Mal nach ewigen\n"
@@ -427,11 +567,22 @@ PlayersHouse_1F_Text_DadShouldStayLonger:
 	.string "Pokémon.\p"
 	.string "Er sollte sich lieber ausruhen und\n"
 	.string "etwas hier bleiben!$"
+#else
+	.string "MOM: That DAD of yours…\p"
+	.string "He comes home for the first time in a\n"
+	.string "while, but all he talks about is POKéMON.\p"
+	.string "He should relax and stay a little longer.$"
+#endif
 
 PlayersHouse_1F_Text_IsThatABreakingStory:
+#if GERMAN
 	.string "Mutter: Sind das Sondernachrichten?$"
+#else
+	.string "MOM: Is that a breaking news story?$"
+#endif
 
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
+#if GERMAN
 	.string "Hier sind die Sondernachrichten.\p"
 	.string "Wir haben die Meldung erhalten, dass\n"
 	.string "in der Hoenn-Region ein Grssss…\l"
@@ -440,15 +591,37 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 	.string "bisher nicht festgestellt werden.\p"
 	.string "Und damit schalten wir wieder um in\n"
 	.string "unser laufendes Programm.$"
+#else
+	.string "We bring you this emergency\n"
+	.string "news flash!\p"
+	.string "In various HOENN locales, there have\n"
+	.string "been reports of a BZZT…colored\l"
+	.string "POKéMON in flight.\p"
+	.string "The identity of this POKéMON is\n"
+	.string "currently unknown.\p"
+	.string "We now return you to the regular\n"
+	.string "movie program.$"
+#endif
 
 PlayersHouse_1F_Text_WhatColorDidTheySay:
+#if GERMAN
 	.string "Mutter: {PLAYER}, hast du das\n"
 	.string "gehört?!? \p"
 	.string "Was hat der Sprecher gesagt? Welche\n"
 	.string "Farbe hat das Pokémon?$"
+#else
+	.string "MOM: {PLAYER}, did you catch that?\p"
+	.string "What color did the announcer say\n"
+	.string "that POKéMON was?$"
+#endif
 
 PlayersHouse_1F_Text_StillUnknownPokemon:
+#if GERMAN
 	.string "Mutter: Also, ist das nicht\n"
 	.string "unglaublich?\n"
 	.string "Es gibt tatsächlich noch unbekannte\l"
 	.string "Pokémon!$"
+#else
+	.string "MOM: Well, isn't that something!\n"
+	.string "There are still unknown POKéMON.$"
+#endif

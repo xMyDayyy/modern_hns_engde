@@ -370,17 +370,32 @@ RuinsOfAlph_PuzzleAndRewardChambers_EventScript_RewardGotten::
 	end
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Reward:
+#if GERMAN
     .string "Die Kammer reagiert!\n"
     .string "Der Weg ist offen.$"
+#else
+	.string "The chamber reacts!\n"
+	.string "The way is open.$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Mon:
+#if GERMAN
     .string "Irgendein uralter Sensor.\n"
     .string "Wonach sucht er?$"
+#else
+	.string "Some kind of ancient sensor.\n"
+	.string "What is it looking for?$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Solved:
+#if GERMAN
     .string "Der Weg ist offen.$"
+#else
+	.string "The way is open.$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist1:
+#if GERMAN
     .string "Willkommen in dieser Kammer.\p"
     .string "Es gibt verschiebbare Tafeln, die\n"
     .string "ein von den Uralten gezeichnetes\l"
@@ -391,40 +406,90 @@ RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist1:
     .string "des Pokémon.\p"
     .string "Wissenschaftler im Labor untersuchen\n"
     .string "gerade neu entdeckte Muster.$"
+#else
+	.string "Welcome to this chamber.\p"
+	.string "There are sliding panels that depict\n"
+	.string "a POKéMON drawn by the ancients.\p"
+	.string "Slide the panels around to form\n"
+	.string "the picture.\p"
+	.string "To the left is a description of\n"
+	.string "the POKéMON.\p"
+	.string "Scientists in the lab are examin-\n"
+	.string "-ing some newly found patterns.$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist2:
+#if GERMAN
     .string "Im Boden hat sich gerade ein Loch\n"
     .string "geöffnet!\p"
     .string "Ich sollte die anderen informieren.$"
+#else
+	.string "A hole just opened up in the floor!\n"
+	.string "I'd better tell the others.$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist3:
+#if GERMAN
     .string "Jetzt auch ein Loch in der Wand?!\n"
     .string "Das wird unheimlich.$"
+#else
+	.string "Now a hole in the wall too?!\n"
+	.string "This is getting spooky.$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Kabuto:
+#if GERMAN
     .string "Ein Pokémon, das sich am Meeresgrund\n"
     .string "versteckte.\p"
     .string "Augen auf seinem Rücken scannten die\n"
     .string "Umgebung.$"
+#else
+	.string "A POKéMON that hid on the sea floor.\n"
+	.string "Eyes on its back scanned the area.$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_UnownText:
+#if GERMAN
     .string "Es ist Icognito-Text!$"
+#else
+	.string "It's UNOWN text!$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Statue:
+#if GERMAN
 	.string "Dies ist eine Nachbildung eines antiken\n"
 	.string "Pokémon.$"
+#else
+	.string "It's a replica of an ancient\n"
+	.string "POKéMON.$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Aerodactyl:
+#if GERMAN
     .string "Dieses Flug-Pokémon griff seine Beute\n"
     .string "mit sägeartigen Zähnen an.$"
+#else
+	.string "This flying POKéMON attacked its\n"
+	.string "prey with saw-like fangs.$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Omanyte:
+#if GERMAN
     .string "Dieses Pokémon trieb durch das Meer,\n"
     .string "indem es seine zehn Tentakel drehte.$"
+#else
+	.string "This POKéMON drifted in the sea\n"
+	.string "by twisting its ten tentacles.$"
+#endif
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Hooh:
+#if GERMAN
     .string "Ein Pokémon, das anmutig auf\n"
     .string "regenbogenfarbenen Flügeln flog.$"
+#else
+	.string "A POKéMON that flew gracefully on\n"
+	.string "rainbow-colored wings.$"
+#endif
 
 @==========================================================================================================================================================
 @ Hooh

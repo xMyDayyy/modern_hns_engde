@@ -286,6 +286,7 @@ TinTower_RoofDay_EventScript_KuniAfter::
 	end
 
 TinTower_RoofDay_Text_Kimono_AfterNotCaught:
+#if GERMAN
 	.string "Ihr habt Ho-Oh nicht nur hierher\n"
 	.string "gerufen, sondern Ihr konntet es auch\l"
 	.string "wie durch ein Wunder einfangen…\p"
@@ -294,8 +295,17 @@ TinTower_RoofDay_Text_Kimono_AfterNotCaught:
 	.string "wir Euch noch erzählen könnten.\p"
 	.string "Wir wünschen Euch auch für den Rest\n"
 	.string "Eurer Reise alles Gute…$"
+#else
+	.string "You have not only made HO-OH\n"
+	.string "appear, but you have also defeated\l"
+	.string "it...\p"
+	.string "There is nothing more for us to\n"
+	.string "say. Take care of yourself in your\l"
+	.string "journey...$"
+#endif
 
 TinTower_RoofDay_Text_Kimono_AfterCaught:
+#if GERMAN
 	.string "Ihr habt Ho-Oh nicht nur hierher\n"
 	.string "gerufen, sondern Ihr konntet es auch\l"
 	.string "wie durch ein Wunder einfangen…\p"
@@ -304,6 +314,14 @@ TinTower_RoofDay_Text_Kimono_AfterCaught:
 	.string "wir Euch noch erzählen könnten.\p"
 	.string "Wir wünschen Euch auch für den Rest\n"
 	.string "Eurer Reise alles Gute…$"
+#else
+	.string "You have not only made HO-OH\n"
+	.string "appear, but you have also caught\l"
+	.string "it...\p"
+	.string "There is nothing more for us to\n"
+	.string "say. Take care of yourself in your\l"
+	.string "journey...$"
+#endif
 
 TinTower_RoofDay_Movement_CameraPanUp:
 	walk_up
@@ -558,41 +576,83 @@ TinTower_RoofDay_Movement_Kimono_Dance_Shift_Right2:
 	step_end
 
 TinTower_RoofDay_Text_Zuki_Before::
+#if GERMAN
 	.string "Tamao: Geh nun zu Ho-Oh.$"
+#else
+	.string "ZUKI: Go, face HO-OH. $"
+#endif
 TinTower_RoofDay_Text_Naoko_Before::
 	.string "Umeko: Geh nun zu Ho-Oh.$"
 TinTower_RoofDay_Text_Miki_Before::
+#if GERMAN
 	.string "Satsuki: Geh nun zu Ho-Oh.$"
+#else
+	.string "MIKI: Go, face HO-OH. $"
+#endif
 TinTower_RoofDay_Text_Sayo_Before::
 	.string "Sakura: Geh nun zu Ho-Oh.$"
 TinTower_RoofDay_Text_Kuni_Before::
+#if GERMAN
 	.string "Komomo: Geh nun zu Ho-Oh.$"
+#else
+	.string "KUNI: Go, face HO-OH. $"
+#endif
 
 TinTower_RoofDay_Text_Kimono_Opening::
+#if GERMAN
 	.string "Tamao: Dies ist der Ort, an dem wir\n"
 	.string "mit Ho-Oh in Kontakt treten werden.\p"
 	.string "Wenn hier gleichzeitig der Klang des\n"
 	.string "Tanzes, den wir täglich proben, und der\l"
-	.string "Klang der Klarglocke, die Ihr erhalten\l"
+	.string "Klang der {COLOR RED}Klarglocke{COLOR DARK_GRAY}, die Ihr erhalten\l"
 	.string "habt, ertönt, wird Ho-Oh wieder vom\p"
 	.string "weiten Himmelszelt zu uns\n"
 	.string "herabsteigen!$"
+#else
+	.string "KIMONO GIRL: That's right.\n"
+	.string "This is where we welcome HO-OH.\p"
+	.string "When the dance we practiced many\n"
+	.string "days becomes one with the sound of the\p"
+	.string "CLEAR BELL we entrusted to you, then\n"
+	.string "HO-OH shall come down from the great\l"
+	.string "arch of the sky once again. $"
+#endif
 
 TinTower_RoofDay_Text_Kimono_Closing1::
+#if GERMAN
 	.string "Das ist tatsächlich Ho-Oh…\n"
 	.string "Der Hüter des Himmels aus\p"
 	.string "alten Zeiten…\p"
 	.string "So viele haben es immer wieder\n"
 	.string "versucht und sind gescheitert…\p"
 	.string "{PLAYER}, dein Herz in völliger\n"
-	.string "Harmonie mit der Klarglocke\p"
+	.string "Harmonie mit der {COLOR RED}Klarglocke{COLOR DARK_GRAY}\p"
 	.string "hat es endlich erscheinen lassen…\n"
 	.string "{PLAYER}, siehst du das nicht?\p"
 	.string "Ho-Oh… Es muss die ganze Zeit auf\n"
 	.string "jemanden wie dich gewartet haben.\p"
 	.string "Stimmst du mir zu?$"
+#else
+	.string "That is indeed HO-OH...\n"
+	.string "The guardian of the sky from\p"
+	.string "ancient times... \p"
+	.string "So many have tried again and again,\n"
+	.string "only to fail...\p"
+	.string "{PLAYER}, your heart in complete\n"
+	.string "harmony with the CLEAR BELL has finally\p"
+	.string "allowed it to appear...\n"
+	.string "{PLAYER}, don't you see?\p"
+	.string "HO-OH... It must have been waiting for\n"
+	.string "someone like you all this time.\p"
+	.string "Wouldn't you agree? $"
+#endif
 
 TinTower_RoofDay_Text_Kimono_After::
+#if GERMAN
 	.string "Wir danken Euch für alles.\n"
 	.string "Wenn Ihr Professor Lind begegnet,\l"
 	.string "richtet ihm bitte unsere Grüße aus.$"
+#else
+	.string "You have done a great job.\n"
+	.string "Say hello to PROF.ELM for us.$"
+#endif

@@ -168,15 +168,47 @@ static EWRAM_DATA u8 sTopMenuNumOptions = 0;
 EWRAM_DATA struct PlayerPCItemPageStruct gPlayerPCItemPageInfo = {};
 static EWRAM_DATA struct ItemStorageMenu *sItemStorageMenu = NULL;
 
+#if GERMAN
 static const u8 sText_WithdrawItem[] = _("Item Nehmen");
+#else
+static const u8 sText_WithdrawItem[] = _("WITHDRAW ITEM");
+#endif
+#if GERMAN
 static const u8 sText_DepositItem[] = _("Item Ablegen");
+#else
+static const u8 sText_DepositItem[] = _("DEPOSIT ITEM");
+#endif
+#if GERMAN
 static const u8 sText_TossItem[] = _("Item In Müll");
+#else
+static const u8 sText_TossItem[] = _("TOSS ITEM");
+#endif
+#if GERMAN
 static const u8 sText_Mailbox[] = _("Briefbox");
+#else
+static const u8 sText_Mailbox[] = _("MAILBOX");
+#endif
 
+#if GERMAN
 static const u8 sText_WithdrawHowManyItems[] = _("Wie viele möchtest\ndu aufnehmen?");
+#else
+static const u8 sText_WithdrawHowManyItems[] = _("Withdraw how many\n{STR_VAR_1}?");
+#endif
+#if GERMAN
 static const u8 sText_WithdrawXItems[] = _("{STR_VAR_2} × {STR_VAR_1}\naufgenommen.");
+#else
+static const u8 sText_WithdrawXItems[] = _("Withdrew {STR_VAR_2}\n{STR_VAR_1}.");
+#endif
+#if GERMAN
 static const u8 sText_NoRoomInBag[] = _("In deinem Beutel\nist kein Platz mehr.");
+#else
+static const u8 sText_NoRoomInBag[] = _("There is no more\nroom in the BAG.");
+#endif
+#if GERMAN
 static const u8 sText_TooImportantToToss[] = _("Das ist viel zu\nwichtig, um es\nwegzuwerfen!");
+#else
+static const u8 sText_TooImportantToToss[] = _("That's much too\nimportant to toss\nout!");
+#endif
 
 static const u8 *const sItemStorage_OptionDescriptions[] =
 {

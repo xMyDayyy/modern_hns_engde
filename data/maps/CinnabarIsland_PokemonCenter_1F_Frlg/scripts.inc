@@ -140,6 +140,7 @@ CinnabarIsland_PokemonCenter_1F_Movement_PlayerExitWest::
 	step_end
 
 CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked::
+#if GERMAN
 	.string "Ich wollte die Arena der\n"
 	.string "Zinnoberinsel besuchen,\l"
 	.string "aber die Türen sind verschlossen.\l"
@@ -149,8 +150,19 @@ CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked::
 	.string "Villa?\p"
 	.string "Der Freund des Arenaleiters\n"
 	.string "hat dort gewohnt.$"
+#else
+	.string "I came to visit the CINNABAR GYM,\n"
+	.string "but the door is locked tight.\p"
+	.string "There should be a key for it\n"
+	.string "somewhere.\p"
+	.string "Could it be in that burned-out\n"
+	.string "mansion?\p"
+	.string "The GYM LEADER's friend used to\n"
+	.string "live there, they say.$"
+#endif
 
 CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom::
+#if GERMAN
 	.string "Hast du viele Freunde?\p"
 	.string "Sich mit seinen nahen Freunden\n"
 	.string "via Link-Kabel treffen macht\l"
@@ -162,24 +174,56 @@ CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom::
 	.string "Ich denke ein Besuch im\n"
 	.string "Konnex-Klub ist seine\l"
 	.string "Zeit wert.$"
+#else
+	.string "Do you have lots of friends?\p"
+	.string "Linking up with the usual friends\n"
+	.string "is fun, of course.\p"
+	.string "But how about visiting the\n"
+	.string "UNION ROOM every so often?\p"
+	.string "Who knows, you may end up making\n"
+	.string "new friends.\p"
+	.string "I think it would be worth your time\n"
+	.string "to check the UNION ROOM.$"
+#endif
 
 CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves::
+#if GERMAN
 	.string "Brichst du ihre Entwicklung ab,\n"
 	.string "dann können deine Pokémon\l"
 	.string "dennoch weitere Attacken lernen.\p"
 	.string "Die weitere Entwicklung kann warten,\n"
 	.string "bis sie neue Attacken gelernt\l"
 	.string "haben!$"
+#else
+	.string "POKéMON can still learn techniques\n"
+	.string "after canceling evolution.\p"
+	.string "Evolution can wait until new moves\n"
+	.string "have been learned.$"
+#endif
 
 CinnabarIsland_PokemonCenter_1F_Text_ReadyToSailToOneIsland::
+#if GERMAN
 	.string "Bill: Du hast mich warten lassen!\n"
 	.string "Bist du bereit, nach Eiland Eins\l"
 	.string "aufzubrechen?$"
+#else
+	.string "BILL: Hey, you kept me waiting!\n"
+	.string "Ready to set sail to ONE ISLAND?$"
+#endif
 
 CinnabarIsland_PokemonCenter_1F_Text_OhNotDoneYet::
+#if GERMAN
 	.string "Oh, du bist noch nicht bereit?$"
+#else
+	.string "Oh, you're still not done yet?$"
+#endif
 
 CinnabarIsland_PokemonCenter_1F_Text_LetsGo::
+#if GERMAN
 	.string "Nun gut!\n"
 	.string "Leinen los!$"
+#else
+	.string "Well, that's it.\n"
+	.string "Let's go!$"
+#endif
 

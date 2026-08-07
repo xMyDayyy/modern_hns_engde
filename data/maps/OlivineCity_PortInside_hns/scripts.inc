@@ -61,23 +61,42 @@ OlivineCity_PortInside_Movement_OakLeave:
 	step_end
 
 OlivineCity_PortInside_Text_Nationaldex1:
+#if GERMAN
 	.string "Eich: Oh, {PLAYER}!\p"
 	.string "Also irgendwie… wirkst du so langsam\n"
 	.string "wirklich wie ein echter Champ!\p"
 	.string "Und als Champ solltest du auch einen\n"
-	.string "angemessenen Pokédex\l"
+	.string "angemessenen {COLOR RED}Pokédex{COLOR DARK_GRAY}\l"
 	.string "besitzen!\p"
 	.string "Gib ihn mir doch bitte mal eben!\n"
 	.string "Ich rüste ihn für dich mit dem\l"
 	.string "Nationalen Modus aus!$"
+#else
+	.string "PROF.OAK: Hello!\n"
+	.string "You are starting to have the\l"
+	.string "attitude of a CHAMPION, {PLAYER}!\p"
+	.string "It's time for your POKéDEX to\n"
+	.string "match who you are.\p"
+	.string "Let me see your POKéDEX for a\n"
+	.string "second.\p"
+	.string "I'll upgrade your POKéDEX with the\n"
+	.string "NATIONAL MODE.$"
+#endif
 OlivineCity_PortInside_Text_Nationaldex2:
 	.string "Der Pokédex von {PLAYER} wurde mit\n"
 	.string "dem Nationalen Modus ausgerüstet!$"
 OlivineCity_PortInside_Text_Nationaldex3:
+#if GERMAN
 	.string "Eich: Ich weiß, es ist nicht leicht,\n"
-	.string "den Nationalen Pokédex zu\l"
+	.string "den Nationalen {COLOR RED}Pokédex{COLOR DARK_GRAY} zu\l"
 	.string "vervollständigen, aber ich hoffe,\l"
 	.string "du versuchst es trotzdem!$"
+#else
+	.string "PROF.OAK: It won't be easy to\n"
+	.string "complete the NATIONAL POKéDEX...\p"
+	.string "However, I'm sure you will make\n"
+	.string "honest attempt on our behalf!$"
+#endif
 OlivineCity_PortInside_Text_Nationaldex4:
 	.string "Hoppla! Schon so spät!\p"
 	.string "Im Radiosender von Dukatia City wird\n"
@@ -256,63 +275,138 @@ OlivinePort_Movement_BoatLeave:
 	step_end
 
 OlivinePort_Text_NoPass:
+#if GERMAN
 	.string "{PLAYER} versucht das\n"
 	.string "{STR_VAR_1} zu zeigen…\p"
 	.string "…Du hast kein {STR_VAR_1}!\p"
 	.string "Sorry! Du darfst nur mit\n"
 	.string "{STR_VAR_1} an Bord.$"
+#else
+    .string "{PLAYER} tried to show the\n"
+    .string "{STR_VAR_1}…\p"
+    .string "…But no {STR_VAR_1}!\p"
+    .string "Sorry!\n"
+    .string "You may board only if you have an\l"
+    .string "{STR_VAR_1}.$"
+#endif
 
 OlivinePort_Text_SailorGetOnBoard:
+#if GERMAN
 	.string "Wir legen bald ab! Geh an Bord.$"
+#else
+    .string "We're departing soon.\n"
+    .string "Please get on board.$"
+#endif
 
 OlivinePort_Text_CantBoard:
+#if GERMAN
 	.string "Du darfst jetzt nicht an Bord.$"
+#else
+    .string "Sorry. You can't board now.$"
+#endif
 
 OlivinePort_Text_WhereSail:
+#if GERMAN
 	.string "Wohin möchtest du Segeln?$"
+#else
+    .string "Where would you like to sail?$"
+#endif
 
 OlivinePort_Text_AskBoard:
+#if GERMAN
 	.string "Willkommen auf dem\n"
-	.string "Schnellboot M.S. Aqua.\p"
+	.string "Schnellboot {COLOR RED}M.S. Aqua{COLOR DARK_GRAY}.\p"
 	.string "Trittst du heute deine Reise an?$"
+#else
+    .string "Welcome to FAST SHIP S.S.AQUA.\p"
+    .string "Will you be boarding today?$"
+#endif
 
 OlivinePort_Text_AskTicket:
+#if GERMAN
 	.string "Zeige mir bitte dein\p"
-	.string "Bootsticket.$"
+	.string "{COLOR RED}Bootsticket{COLOR DARK_GRAY}.$"
+#else
+    .string "May I see your S.S.TICKET?$"
+#endif
 
 OlivinePort_Text_ComeAgain:
+#if GERMAN
 	.string "Komm bald wieder!$"
+#else
+    .string "We hope to see you again!$"
+#endif
 
 OlivinePort_Text_FlashTicket:
-	.string "{PLAYER} zeigt das Bootsticket.\p"
+#if GERMAN
+	.string "{PLAYER} zeigt das {COLOR RED}Bootsticket{COLOR DARK_GRAY}.\p"
 	.string "In Ordnung. Danke schön!$"
+#else
+    .string "{PLAYER} flashed the S.S.TICKET.\p"
+    .string "That's it. Thank you!$"
+#endif
 
 OlivinePort_Text_NoTicket:
-	.string "{PLAYER} sucht das Bootsticket…\p"
+#if GERMAN
+	.string "{PLAYER} sucht das {COLOR RED}Bootsticket{COLOR DARK_GRAY}…\p"
 	.string "…Kein Ticket!\p"
 	.string "Tut mir Leid! Du darfst nur\p"
 	.string "mit Ticket an Bord.$"
+#else
+    .string "{PLAYER} tried to show the\n"
+    .string "S.S.TICKET…\p"
+    .string "…But no TICKET!\p"
+    .string "Sorry!\n"
+    .string "You may board only\l"
+    .string "if you have an S.S.TICKET.$"
+#endif
 
 OlivinePort_Text_FishingGuru1:
+#if GERMAN
 	.string "Hier kannst du Muschas leicht\p"
 	.string "fangen. An anderen\n"
 	.string "Orten sind sie seltener.$"
+#else
+    .string "SHELLDER are easy to catch here.\p"
+    .string "They're kind of rare elsewhere.$"
+#endif
 
 OlivinePort_Text_FishingGuru2:
+#if GERMAN
 	.string "Wie viele Angeln hast du?\p"
 	.string "Mit verschiedenen Angeln,\n"
 	.string "fängst du verschiedene\l"
 	.string "Pokémon.$"
+#else
+    .string "How many RODS do you have?\p"
+    .string "Different RODS catch different\n"
+    .string "POKéMON.$"
+#endif
 
 OlivinePort_Text_Youngster:
-	.string "M.S. Aqua benutzt Spezialdüsen,\n"
+#if GERMAN
+	.string "{COLOR RED}M.S. Aqua{COLOR DARK_GRAY} benutzt Spezialdüsen,\n"
 	.string "um über die Wellen zu gleiten!$"
+#else
+    .string "S.S.AQUA uses jets to skim\n"
+    .string "over the waves!$"
+#endif
 
 OlivinePort_Text_CooltrainerF:
+#if GERMAN
 	.string "In Kanto gibt es viele Pokémon.\p"
 	.string "Ich wünschte, ich könnte dorthin…$"
+#else
+    .string "There are lots of POKéMON in KANTO.\p"
+    .string "I wish I could go…$"
+#endif
 
 OlivinePort_Text_SailorBeforeHOF:
+#if GERMAN
 	.string "Wir wollen nicht, dass du ins Wasser\n"
 	.string "fällst. Darum lasen wir\l"
 	.string "dich nicht herein.$"
+#else
+    .string "We don't want you to fall into the\n"
+    .string "sea, so you're not allowed in.$"
+#endif

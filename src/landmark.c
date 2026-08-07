@@ -15,7 +15,11 @@ struct LandmarkList
     const struct Landmark *const *landmarks;
 };
 
-static const u8 LandmarkName_MagmaHideout[] = _("MAGMAs Versteck"); //Unused
+#if GERMAN
+static const u8 LandmarkName_MagmaHideout[] = _("MAGMAs Versteck");
+#else
+static const u8 LandmarkName_MagmaHideout[] = _("MAGMA HIDEOUT");
+#endif //Unused
 
 static const struct Landmark Landmark_FlowerShop = {COMPOUND_STRING("Blumenladen"), FLAG_LANDMARK_FLOWER_SHOP};
 static const struct Landmark Landmark_PetalburgWoods = {COMPOUND_STRING("Blütenburgwald"), -1};

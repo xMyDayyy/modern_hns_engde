@@ -76,67 +76,135 @@ Gate_GoldenrodCity_Route35_EventScript_Fisher::
 	end
 
 Route35GoldenrodGate_Text_RandyAskFavor:
+#if GERMAN
 	.string "Entschuldige, Kleiner!\n"
 	.string "Kannst du mir einen Gefallen tun?\p"
 	.string "Kannst du dieses Pokémon\n"
-	.string "meinem Freund auf Route 31 bringen?\p"
+	.string "meinem Freund auf {COLOR RED}Route 31{COLOR DARK_GRAY} bringen?\p"
 	.string "Du wirst ihn sofort erkennen!$"
+#else
+	.string "Excuse me, kid! Can you do a guy\n"
+	.string "a favor?\p"
+	.string "Can you take this POKéMON with MAIL\n"
+	.string "to my friend?\p"
+	.string "He's on ROUTE 31.$"
+#endif
 
 Route35GoldenrodGate_Text_RandyThanks:
+#if GERMAN
 	.string "Das würdest du\n"
 	.string "tun? Super! Vielen Dank!\p"
 	.string "Mein Freund ist\n"
 	.string "ein Flegel! Er schläft die ganze Zeit.\n"
 	.string "\p"
 	.string "Du wirst ihn sofort erkennen!$"
+#else
+	.string "You will? Perfect! Thanks, kid!\p"
+	.string "My pal's a chubby guy who snoozes\n"
+	.string "all the time.\p"
+	.string "You'll recognize him right away!$"
+#endif
 
 Route35GoldenrodGate_Text_ReceivedMonWithMail:
+#if GERMAN
 	.string "{PLAYER} hat ein Pokémon, das einen\p"
 	.string "Brief trägt, erhalten.$"
+#else
+	.string "{PLAYER} received a POKéMON with MAIL.$"
+#endif
 
 Route35GoldenrodGate_Text_RandyWeirdTree:
+#if GERMAN
 	.string "Vergiss nicht, es an die\n"
 	.string "erste Stelle im Team zu tun,\n"
 	.string "sobald du meinen Freund triffst!\p"
-	.string "Route 31!\p"
+	.string "{COLOR RED}Route 31{COLOR DARK_GRAY}!\p"
 	.string "Stimmt! Ein\n"
 	.string "merkwürdiger Baum hat die Straße\n"
 	.string "blockiert.\p"
 	.string "Ich frage mich,\n"
 	.string "ob die Straße jetzt frei ist.$"
+#else
+	.string "Make sure to put it at the front of\n"
+	.string "your team when you find my friend!\p"
+	.string "ROUTE 31!\p"
+	.string "Oh, yeah. There was a weird tree\n"
+	.string "blocking the road.\p"
+	.string "I wonder if it's been cleared?$"
+#endif
 
 Route35GoldenrodGate_Text_CantCarryMoreMon:
+#if GERMAN
 	.string "Du kannst kein\n"
 	.string "weiteres Pokémon mehr tragen…$"
+#else
+	.string "You can't carry another POKéMON…$"
+#endif
 
 Route35GoldenrodGate_Text_RandyNeverMind:
+#if GERMAN
 	.string "Oh… Dann geht das in Ordnung…$"
+#else
+	.string "Oh… Never mind, then…$"
+#endif
 
 Route35GoldenrodGate_Text_ThanksForDelivery:
+#if GERMAN
 	.string "Danke, Kleiner! Du hast die\n"
 	.string "Nachricht für mich übergeben!\p"
 	.string "Hier, eine Kleinigkeit für dich!$"
+#else
+	.string "Thanks, kid! You made the delivery\n"
+	.string "for me!\p"
+	.string "Here's something for your trouble!$"
+#endif
 
 Route35GoldenrodGate_Text_RandyMyPalSnoozing:
+#if GERMAN
 	.string "Mein Freund hat\n"
 	.string "geschlafen, nicht wahr? Na, was habe\l"
 	.string "ich dir gesagt?$"
+#else
+	.string "My pal was snoozing, right? Heh,\n"
+	.string "what'd I say?$"
+#endif
 
 Route35GoldenrodGate_Text_PokefanF_TreeBlocking:
+#if GERMAN
 	.string "Angeblich versperrt ein merkwürdiger\n"
 	.string "Baum den Weg, der anfängt, sich zu\l"
 	.string "winden, wenn man ihn anspricht.\p"
 	.string "Es heißt außerdem, dass er rasend\l"
 	.string "wurde, als ihn jemand mit Wasser aus\l"
-	.string "seiner Schiggykanne begossen hat.$"
+	.string "seiner {COLOR RED}Schiggykanne{COLOR DARK_GRAY} begossen hat.$"
+#else
+	.string "A strange tree is blocking the road.\p"
+	.string "It wriggles around if you talk to it.\p"
+	.string "I heard it became wild when someone\n"
+	.string "watered it with a SQUIRTBOTTLE.$"
+#endif
 
 Route35GoldenrodGate_Text_PokefanF_Lullaby:
+#if GERMAN
 	.string "Ich mag das Pokémon-Schlaflied,\n"
 	.string "das im Radio gespielt wird.$"
+#else
+	.string "I like the POKéMON Lullaby they play\n"
+	.string "on the radio.$"
+#endif
 
 Route35GoldenrodGate_Text_Fisher:
+#if GERMAN
 	.string "Ich frage mich, wie viele Arten\p"
 	.string "von Pokémon es wohl geben mag.\p"
-	.string "Vor drei Jahren hat Prof. Eich\p"
+	.string "Vor drei Jahren hat {COLOR RED}Prof. Eich{COLOR DARK_GRAY}\p"
 	.string "verlautbart, dass\n"
 	.string "es 150 verschiedene Arten geben soll.$"
+#else
+	.string "I wonder how many kinds of POKéMON\n"
+	.string "there are in the world.\p"
+	.string "Three years ago, PROF.OAK said that\n"
+	.string "there were 150 different kinds.\p"
+	.string "But recently I heard there's\n"
+	.string "over 400!$"
+#endif

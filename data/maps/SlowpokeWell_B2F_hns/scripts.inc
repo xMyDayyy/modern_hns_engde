@@ -81,4 +81,8 @@ SlowpokeWell_Movement_RainDance4:
 	step_end
 
 SlowpokeWell_Text_Slowking:
-	.string "Laschoking$"
+#if GERMAN
+	.string "{COLOR RED}Laschoking{COLOR DARK_GRAY}$"
+#else
+	.string "SLOWKING: ........................$"
+#endif

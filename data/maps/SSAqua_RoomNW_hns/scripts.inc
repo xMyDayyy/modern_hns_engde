@@ -38,42 +38,87 @@ SSAqua_RoomNW_EventScript_Corey::
 
 
 SSAqua_RoomNW_Text_SailorStanlySeen:
+#if GERMAN
 	.string "Ja, ich bin ein Matrose, echt!\p"
 	.string "Ich habe nicht getrödelt!\p"
 	.string "Die Kabine war frei, also hab\n"
 	.string "ich kurz ein Nickerchen gemacht!\p"
 	.string "Ach, egal! Lass uns kämpfen!$"
+#else
+	.string "Yeah, I'm a sailor, all right.\p"
+	.string "I wasn't goofing off!\p"
+	.string "This cabin was vacant, so I\n"
+	.string "just took a quick nap!\p"
+	.string "Ah, forget it! Let's battle!$"
+#endif
 
 SSAqua_RoomNW_Text_SailorStanlyBeaten:
+#if GERMAN
 	.string "Sorry! Ganz meine Schuld!$"
+#else
+	.string "Sorry! It's all my fault!$"
+#endif
 
 SSAqua_RoomNW_Text_SailorStanlyAfterBattle:
+#if GERMAN
 	.string "Als Matrose muss ich hart arbeiten.\p"
 	.string "Das ist echt anstrengend!$"
+#else
+	.string "Being a sailor, I have to do\n"
+	.string "physical labor. It's exhausting!$"
+#endif
 
 SSAqua_RoomNW_Text_GentlemanEdwardSeen:
+#if GERMAN
 	.string "Oh nein! Ich habe etwas sehr\n"
 	.string "Wichtiges verloren.$"
+#else
+	.string "Oh, no. I've lost something\n"
+	.string "that's very important.$"
+#endif
 
 SSAqua_RoomNW_Text_GentlemanEdwardBeaten:
+#if GERMAN
 	.string "Ich… ich kann es nicht finden…$"
+#else
+	.string "I… I can't find it…$"
+#endif
 
 SSAqua_RoomNW_Text_GentlemanEdwardAfterBattle:
+#if GERMAN
 	.string "Es bringt nichts, ich gebe auf.\n"
 	.string "He, du da!\l"
 	.string "Du musst nicht danach suchen.\l"
 	.string "Vergiss es einfach!$"
+#else
+	.string "I give up. You don't have to\n"
+	.string "look.\p"
+	.string "Just forget about it!$"
+#endif
 
 SSAqua_RoomNW_Text_BurglarCoreySeen:
+#if GERMAN
 	.string "Juhu!\n"
 	.string "Was für ein Glück!$"
+#else
+	.string "Yeehaw! Lucky!$"
+#endif
 
 SSAqua_RoomNW_Text_BurglarCoreyBeaten:
+#if GERMAN
 	.string "Pech gehabt!\n"
 	.string "Ich habe verloren!$"
+#else
+	.string "How unlucky! I lost!$"
+#endif
 
 SSAqua_RoomNW_Text_BurglarCoreyAfterBattle:
+#if GERMAN
 	.string "Ich habe hier im Zimmer\n"
 	.string "eine tolle Münze gefunden.\p"
 	.string "Einer der vorherigen Gäste\n"
 	.string "muss sie verloren haben…$"
+#else
+	.string "I found a pretty coin here.\p"
+	.string "Someone must have lost it…$"
+#endif

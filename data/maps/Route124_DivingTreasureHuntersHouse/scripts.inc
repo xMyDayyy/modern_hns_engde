@@ -284,51 +284,106 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 	end
 
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
+#if GERMAN
 	.string "Ich bin der Schatztaucher!\p"
 	.string "Ich bin der Typ, der in der Tiefsee\n"
 	.string "taucht und nach Schätzen am Meeres-\l"
 	.string "grund sucht.$"
+#else
+	.string "I'm the DIVING TREASURE HUNTER!\p"
+	.string "I'm the awesome dude who makes\n"
+	.string "deep-sea dives to gather treasures\l"
+	.string "resting at the bottom.$"
+#endif
 
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
+#if GERMAN
 	.string "Sag, hast du Scherben antiker\n"
 	.string "Werkzeuge gesehen?$"
+#else
+	.string "Tell me, have you seen any SHARDS of\n"
+	.string "tools made in ancient times?$"
+#endif
 
 Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
+#if GERMAN
 	.string "Du hast keinerlei Schätze für mich…\p"
 	.string "Wenn du Stücke findest, besonders\n"
 	.string "Purpurstücke, tausche sie mit mir!$"
+#else
+	.string "You haven't got any treasures\n"
+	.string "for me…\p"
+	.string "If you see any SHARDS, like the RED\n"
+	.string "SHARD, you've got to trade it with me!$"
+#endif
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
+#if GERMAN
 	.string "Oh, hey! Das… Das ist eine\n"
 	.string "Scherbe! Genau die suche ich!\p"
 	.string "Oh, du musst unbedingt mit mir\n"
 	.string "tauschen! Ich gebe dir etwas\l"
 	.string "Gutes dafür!$"
+#else
+	.string "Oh, hey! That…\n"
+	.string "That's a SHARD! I'm looking for those!\p"
+	.string "Oh, man, you've got to trade that\n"
+	.string "with me! I'll give you something good!$"
+#endif
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
+#if GERMAN
 	.string "Was möchtest du tauschen?$"
+#else
+	.string "What do you want to trade?$"
+#endif
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
+#if GERMAN
 	.string "Du tauschst: {STR_VAR_1} gegen\n"
 	.string "{STR_VAR_2}?$"
+#else
+	.string "You'll trade your {STR_VAR_1} for\n"
+	.string "my {STR_VAR_2}, then?$"
+#endif
 
 Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
+#if GERMAN
 	.string "Das ist ein guter Tausch!\n"
 	.string "Setze es wohl überlegt ein!$"
+#else
+	.string "It's a done deal!\n"
+	.string "Use that wisely!$"
+#endif
 
 Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
+#if GERMAN
 	.string "Möchtest du noch etwas tauschen?$"
+#else
+	.string "Do you want to trade something else?$"
+#endif
 
 Route124_DivingTreasureHuntersHouse_Text_BagFull:
+#if GERMAN
 	.string "Hups, dein Beutel ist voll.\n"
 	.string "Schaffe Platz, mein Freund!$"
+#else
+	.string "Whoops, your BAG's full.\n"
+	.string "Get rid of some items, friend!$"
+#endif
 
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
+#if GERMAN
 	.string "Nein? Das ist niederschmetternd.\n"
 	.string "Wenn du deine Meinung änderst, ich\l"
 	.string "bin hier!$"
+#else
+	.string "No? That's a downer.\n"
+	.string "Well, if you change your mind, come back.$"
+#endif
 
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
+#if GERMAN
 	.string "{CLEAR_TO 0x03}Gesuchtes Item{CLEAR_TO 0x6a}Item zum Tausch\n"
 	.string "{CLEAR_TO 0x0b}Purpurstück{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x76}Feuerstein{CLEAR_TO 0xc8}\p"
 	.string "{CLEAR_TO 0x03}Gesuchtes Item{CLEAR_TO 0x6a}Item zum Tausch\n"
@@ -337,3 +392,13 @@ Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
 	.string "{CLEAR_TO 0x0b}Indigostück{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}Wasserstein{CLEAR_TO 0xc8}\p"
 	.string "{CLEAR_TO 0x03}Gesuchtes Item{CLEAR_TO 0x6a}Item zum Tausch\n"
 	.string "{CLEAR_TO 0x11}Jadestück{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x76}Blattstein$"
+#else
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x0f}RED SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}FIRE STONE{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x06}YELLOW SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}THUNDERSTONE{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x0c}BLUE SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}WATER STONE{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE$"
+#endif

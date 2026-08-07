@@ -512,11 +512,27 @@ static void Task_FirstBattleEnterParty_RunPrinterMsg2(u8 taskId);
 static void Task_FirstBattleEnterParty_FadeNormal(u8 taskId);
 static void Task_FirstBattleEnterParty_WaitFadeNormal(u8 taskId);
 
+#if GERMAN
 static const u8 sText_askText[] = _("Möchtest du die Fähigkeit von {STR_VAR_1}\nin {STR_VAR_2} ändern?");
+#else
+static const u8 sText_askText[] = _("Would you like to change {STR_VAR_1}'s\nability to {STR_VAR_2}?");
+#endif
 static const u8 sText_doneText[] = _("{STR_VAR_1}'s ability became\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+#if GERMAN
 static const u8 sText_BasePointsResetToZero[] = _("Die antrainierten Werte von {STR_VAR_1}\nwurden zurückgesetzt!{PAUSE_UNTIL_PRESS}");
+#else
+static const u8 sText_BasePointsResetToZero[] = _("{STR_VAR_1}'s base points\nwere all reset to zero!{PAUSE_UNTIL_PRESS}");
+#endif
+#if GERMAN
 static const u8 sText_CannotSendMonToBoxHM[] = _("Dieses Pokémon kann nicht in die Box,\nweil es eine VM-Attacke kennt.{PAUSE_UNTIL_PRESS}");
+#else
+static const u8 sText_CannotSendMonToBoxHM[] = _("Cannot send that mon to the box,\nbecause it knows a HM move.{PAUSE_UNTIL_PRESS}");
+#endif
+#if GERMAN
 static const u8 sText_CannotSendMonToBoxPartner[] = _("Ein fremdes Pokémon kann nicht\nin die Box geschickt werden.{PAUSE_UNTIL_PRESS}");
+#else
+static const u8 sText_CannotSendMonToBoxPartner[] = _("Cannot send a mon that doesn't\nbelong to you to the box.{PAUSE_UNTIL_PRESS}");
+#endif
 
 // static const data
 #include "data/party_menu.h"

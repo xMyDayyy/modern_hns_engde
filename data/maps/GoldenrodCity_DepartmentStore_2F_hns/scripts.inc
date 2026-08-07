@@ -35,21 +35,40 @@ GoldenrodDeptStore2_EventScript_Sign::
 	end
 
 GoldenrodDeptStore_Text_2FYoungster:
-	.string "Der PokéCom kann bis zu\n"
+#if GERMAN
+	.string "Der {COLOR RED}PokéCom{COLOR DARK_GRAY} kann bis zu\n"
 	.string "25 Nummern speichern.\p"
 	.string "Es ist schwer zu entscheiden,\n"
 	.string "welche Nummern man behält.$"
+#else
+    .string "POKéGEAR can store up to 25 phone\n"
+    .string "numbers.\p"
+    .string "It's hard to decide which numbers\n"
+    .string "to keep.$"
+#endif
 
 GoldenrodDeptStore_Text_2FCooltrainerF:
+#if GERMAN
 	.string "Ich habe mein Abra in der Spielhalle\n"
 	.string "gewonnen, und jetzt ist es mein bester\l"
 	.string "Kumpel.$"
+#else
+    .string "I got my ABRA at the GAME CORNER.\p"
+    .string "Now it's my best partner.$"
+#endif
 
 GoldenrodDeptStore_Text_2FGentleman:
+#if GERMAN
 	.string "Dieses Kaufhaus zeigt mir,\n"
 	.string "dass Dukatia City eine\l"
 	.string "sehr große Stadt ist.\p"
 	.string "Dieses Angebot ist unübertrefflich!$"
+#else
+    .string "This DEPT.STORE makes me realize\n"
+    .string "that GOLDENROD is a big city.\p"
+    .string "The selection here is unmatched\n"
+    .string "anywhere else.$"
+#endif
 
 GoldenrodDeptStore2_EventScript_Clerk::
 	lock
@@ -204,23 +223,52 @@ GoldenrodDeptStore_EventScript_ExitVendingMachine::
 	end
 
 GoldenrodDeptStore_Text_WhichDrinkWouldYouLike:
+#if GERMAN
 	.string "Das ist ein Getränkeautomat.\n"
 	.string "Was möchtest du trinken?$"
+#else
+	.string "It's a VENDING MACHINE.\n"
+	.string "Which drink would you like?$"
+#endif
 
 GoldenrodDeptStore_Text_DrinkClankedDown:
+#if GERMAN
 	.string "Schepper, klong!\p"
 	.string "{STR_VAR_1} fällt heraus.$"
+#else
+	.string "Clang!\p"
+	.string "A can of {STR_VAR_1} dropped down.$"
+#endif
 
 GoldenrodDeptStore_Text_ExtraDrinkClankedDown:
+#if GERMAN
 	.string "Klonk!\p"
 	.string "Treffer! Eine weitere Dose {STR_VAR_1}\n"
 	.string "fällt herunter!$"
+#else
+	.string "Clang!\p"
+	.string "Score! An extra can of {STR_VAR_1}\n"
+	.string "dropped down!$"
+#endif
 
 GoldenrodDeptStore_Text_NotEnoughMoney:
+#if GERMAN
 	.string "Nicht genug Geld…$"
+#else
+	.string "Not enough money…$"
+#endif
 
 GoldenrodDeptStore_Text_DecidedAgainstBuyingDrink:
+#if GERMAN
 	.string "Ich kaufe mir doch kein Getränk.$"
+#else
+	.string "Decided against buying a drink.$"
+#endif
 
 GoldenrodDeptStore_Text_2FDirectory:
+#if GERMAN
 	.string "Dein Reisebegleiter 1S: Trainermarkt$"
+#else
+    .string "Your Travel Companion\p"
+    .string "2F TRAINER'S MARKET$"
+#endif

@@ -97,20 +97,36 @@ Route24_Movement_WalkDown::
 	step_end
 
 Route24_Text_JustEarnedFabulousPrize::
+#if GERMAN
 	.string "Herzlichen Glückwunsch!\n"
 	.string "Du hast alle fünf Trainer besiegt!\p"
 	.string "Du hast einen großartigen Preis\n"
 	.string "gewonnen!$"
+#else
+	.string "Congratulations! You beat our\n"
+	.string "five contest TRAINERS!\p"
+	.string "You just earned a fabulous prize!$"
+#endif
 
 Route24_Text_ReceivedNuggetFromMysteryTrainer::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
 	.string "ein Nugget!$"
+#else
+	.string "{PLAYER} received a NUGGET\n"
+	.string "from the mystery TRAINER!$"
+#endif
 
 Route24_Text_YouDontHaveAnyRoom::
+#if GERMAN
 	.string "Du hast keinen Platz für weitere\n"
 	.string "Items!$"
+#else
+	.string "You don't have any room!$"
+#endif
 
 Route24_Text_JoinTeamRocket::
+#if GERMAN
 	.string "Möchtest du auch Mitglied des Team\n"
 	.string "Rocket werden?\p"
 	.string "Unsere Gruppierung benutzt Pokémon\n"
@@ -124,85 +140,194 @@ Route24_Text_JoinTeamRocket::
 	.string "Überzeugungsarbeit leisten!\p"
 	.string "Dieses Angebot kannst du nicht\n"
 	.string "ablehnen!$"
+#else
+	.string "By the way, how would you like to\n"
+	.string "join TEAM ROCKET?\p"
+	.string "We're a group of professional\n"
+	.string "criminals specializing in POKéMON!\p"
+	.string "Want to join?\p"
+	.string "Are you sure?\p"
+	.string "Come on, join us!\p"
+	.string "I'm telling you to join!\p"
+	.string "…Okay, you need convincing!\p"
+	.string "I'll make you an offer you can't\n"
+	.string "refuse!$"
+#endif
 
 Route24_Text_RocketDefeat::
+#if GERMAN
 	.string "Arrgh!\n"
 	.string "Du bist gut!$"
+#else
+	.string "Arrgh!\n"
+	.string "You are good!$"
+#endif
 
 Route24_Text_YoudBecomeTopRocketLeader::
+#if GERMAN
 	.string "Bei deinem Können wärst du im\n"
 	.string "Team Rocket leicht die rechte Hand\l"
 	.string "vom Boss!\p"
 	.string "Denke darüber nach! Lass dir\n"
 	.string "diese Chance nicht entgehen!$"
+#else
+	.string "With your ability, you'd become\n"
+	.string "a top leader in TEAM ROCKET.\p"
+	.string "Come on, think of the opportunity!\n"
+	.string "Don't let this chance go to waste.$"
+#endif
 
 Route24_Text_ShaneIntro::
+#if GERMAN
 	.string "Ich habe deine Vorstellung aus dem\n"
 	.string "Gras heraus beobachtet!$"
+#else
+	.string "I saw your feat from the grass!$"
+#endif
 
 Route24_Text_ShaneDefeat::
+#if GERMAN
 	.string "Ich habe wohl doch nichts gesehen!$"
+#else
+	.string "I thought not!$"
+#endif
 
 Route24_Text_ShanePostBattle::
+#if GERMAN
 	.string "Ich habe mich versteckt, weil mir\n"
 	.string "die Leute auf der Brücke Angst\l"
 	.string "gemacht haben!$"
+#else
+	.string "I hid because the people on the\n"
+	.string "bridge frightened me.$"
+#endif
 
 Route24_Text_EthanIntro::
+#if GERMAN
 	.string "Ich bin Nr. 5!\n"
 	.string "Dich mache ich platt!$"
+#else
+	.string "Okay! I'm No. 5!\n"
+	.string "I'll stomp you!$"
+#endif
 
 Route24_Text_EthanDefeat::
+#if GERMAN
 	.string "Das war zu viel des Guten!$"
+#else
+	.string "Whoa!\n"
+	.string "Too much!$"
+#endif
 
 Route24_Text_EthanPostBattle::
+#if GERMAN
 	.string "Ich habe alles gegeben, ich schäme\n"
 	.string "mich nicht!$"
+#else
+	.string "I did my best. I have no regrets!$"
+#endif
 
 Route24_Text_ReliIntro::
+#if GERMAN
 	.string "Ich bin Nr. 4!\n"
 	.string "Wirst du müde?$"
+#else
+	.string "I'm No. 4!\n"
+	.string "Getting tired?$"
+#endif
 
 Route24_Text_ReliDefeat::
+#if GERMAN
 	.string "Ich habe auch verloren!$"
+#else
+	.string "I lost, too!$"
+#endif
 
 Route24_Text_ReliPostBattle::
+#if GERMAN
 	.string "Ich habe alles gegeben, ich schäme\n"
 	.string "mich nicht!$"
+#else
+	.string "I did my best, so I've no regrets!$"
+#endif
 
 Route24_Text_TimmyIntro::
+#if GERMAN
 	.string "Hier kommt Nr. 3!\n"
 	.string "Ich mache dir das Leben schwer!$"
+#else
+	.string "Here's No. 3!\n"
+	.string "I won't be easy!$"
+#endif
 
 Route24_Text_TimmyDefeat::
+#if GERMAN
 	.string "Ah!\n"
 	.string "Eiskalt erwischt!$"
+#else
+	.string "Ow!\n"
+	.string "Stomped flat!$"
+#endif
 
 Route24_Text_TimmyPostBattle::
+#if GERMAN
 	.string "Ich habe alles gegeben, ich schäme\n"
 	.string "mich nicht!$"
+#else
+	.string "I did my best. I have no regrets!$"
+#endif
 
 Route24_Text_AliIntro::
+#if GERMAN
 	.string "Ich bin Nr. 2!\n"
 	.string "Nun wird es ernst!$"
+#else
+	.string "I'm second!\n"
+	.string "Now it's serious!$"
+#endif
 
 Route24_Text_AliDefeat::
+#if GERMAN
 	.string "Wie konnte ich verlieren?$"
+#else
+	.string "How could I lose?$"
+#endif
 
 Route24_Text_AliPostBattle::
+#if GERMAN
 	.string "Ich habe alles gegeben, ich schäme\n"
 	.string "mich nicht!$"
+#else
+	.string "I did my best. I have no regrets!$"
+#endif
 
 Route24_Text_CaleIntro::
+#if GERMAN
 	.string "Das hier ist die Nugget-brücke!\n"
 	.string "Wenn du uns fünf Trainer besiegst,\l"
 	.string "erhältst du einen wertvollen Preis!\p"
 	.string "Willst du dein Glück versuchen?$"
+#else
+	.string "People call this the NUGGET\n"
+	.string "BRIDGE!\p"
+	.string "Beat us five TRAINERS and win\n"
+	.string "a fabulous prize!\p"
+	.string "Think you got what it takes?$"
+#endif
 
 Route24_Text_CaleDefeat::
+#if GERMAN
 	.string "Wow!\n"
 	.string "Du bist gut!$"
+#else
+	.string "Whoo!\n"
+	.string "Good stuff!$"
+#endif
 
 Route24_Text_CalePostBattle::
+#if GERMAN
 	.string "Ich habe alles gegeben, ich schäme\n"
 	.string "mich nicht!$"
+#else
+	.string "I did my best. I have no regrets!$"
+#endif

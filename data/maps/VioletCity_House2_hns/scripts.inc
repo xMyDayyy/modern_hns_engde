@@ -28,13 +28,28 @@ VioletCity_House2_EventScript_Pidgey::
 	end
 
 VioletCity_NicknameHouse_Text_Teacher:
+#if GERMAN
 	.string "Sie verwendet die Namen\n"
 	.string "ihrer Lieblingsspeisen,\l"
 	.string "als Spitznamen für ihre Pokémon.\p"
 	.string "So süß.$"
+#else
+	.string "She uses the names of her\n"
+	.string "favorite things to eat.\p"
+	.string "For the nicknames she gives to\n"
+	.string "her POKéMON, I mean.$"
+#endif
 
 VioletCity_NicknameHouse_Text_Lass:
+#if GERMAN
 	.string "Mein Taubsi heißt Erdbeere!$"
+#else
+	.string "I call my PIDGEY STRAWBERRY!$"
+#endif
 
 VioletCity_NicknameHouse_Text_Bird:
+#if GERMAN
 	.string "Erdbeere: Tataubsi!$"
+#else
+	.string "STRAWBERRY: Pijji!$"
+#endif

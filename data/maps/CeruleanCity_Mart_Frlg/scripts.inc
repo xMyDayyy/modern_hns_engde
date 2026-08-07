@@ -35,6 +35,7 @@ CeruleanCity_Mart_Items::
 	end
 
 CeruleanCity_Mart_Text_RepelWorksOnWeakMons::
+#if GERMAN
 	.string "Schutz hält nicht nur Käfer fern,\n"
 	.string "sondern wirkt auch auf schwache\l"
 	.string "Pokémon.\p"
@@ -42,10 +43,25 @@ CeruleanCity_Mart_Text_RepelWorksOnWeakMons::
 	.string "Anfang deines Teams.\p"
 	.string "Ist das erste Pokémon stark,\n"
 	.string "wirkt Schutz umso besser.$"
+#else
+	.string "REPEL not only keeps bugs away,\n"
+	.string "it also works on weak POKéMON.\p"
+	.string "Put your strongest POKéMON at the\n"
+	.string "left of the POKéMON LIST.\p"
+	.string "If your first POKéMON is strong,\n"
+	.string "REPEL's effect is boosted.$"
+#endif
 
 CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy::
+#if GERMAN
 	.string "Besitzt du Sonderbonbons?\p"
 	.string "Gibt man einem Pokémon ein solches\n"
 	.string "Bonbon, dann erreicht es den\l"
 	.string "nächsten Level!$"
+#else
+	.string "Do you know about RARE CANDY?\n"
+	.string "They don't sell it in shops.\p"
+	.string "I think it makes POKéMON grow\n"
+	.string "very quickly all of a sudden.$"
+#endif
 

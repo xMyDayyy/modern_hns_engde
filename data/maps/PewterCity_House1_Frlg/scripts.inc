@@ -31,12 +31,21 @@ PewterCity_House1_EventScript_DoNidoranCry::
 	return
 
 PewterCity_House1_Text_Nidoran::
+#if GERMAN
 	.string "Nidoran♂: Nidoran!$"
+#else
+	.string "NIDORAN♂: Bowbow!$"
+#endif
 
 PewterCity_House1_Text_NidoranSit::
+#if GERMAN
 	.string "Nidoran, sitz!$"
+#else
+	.string "NIDORAN, sit!$"
+#endif
 
 PewterCity_House1_Text_TradeMonsAreFinicky::
+#if GERMAN
 	.string "Unser Pokémon ist ein Außenseiter,\n"
 	.string "deshalb ist es schwer zu erziehen!\p"
 	.string "Ein Außenseiter ist ein Pokémon,\n"
@@ -46,4 +55,13 @@ PewterCity_House1_Text_TradeMonsAreFinicky::
 	.string "unerfahrenen Trainern nicht\l"
 	.string "gehorcht!\p"
 	.string "We$"
+#else
+	.string "Our POKéMON's an outsider, so it's\n"
+	.string "finicky and hard to handle.\p"
+	.string "An outsider is a POKéMON that you\n"
+	.string "get in a trade.\p"
+	.string "It grows fast, but it may ignore an\n"
+	.string "unskilled TRAINER in battle.\p"
+	.string "If only we had some BADGES…$"
+#endif
 

@@ -30,6 +30,7 @@ SixIsland_Mart_EventScript_Picnicker::
 	end
 
 SixIsland_Mart_Text_AgathaOldestEverEliteFourMember::
+#if GERMAN
 	.string "Spiele viel mit Pokémon und\n"
 	.string "führe ein langes Leben!\p"
 	.string "Nimm z.B. Agathe!\p"
@@ -37,8 +38,21 @@ SixIsland_Mart_Text_AgathaOldestEverEliteFourMember::
 	.string "Mitglied der Top Vier.\p"
 	.string "Sie ist mein Ansporn nach\n"
 	.string "Größerem zu streben.$"
+#else
+	.string "Play with POKéMON lots and live\n"
+	.string "a long life!\p"
+	.string "Take AGATHA, for example.\p"
+	.string "She set a record for being the\n"
+	.string "oldest-ever ELITE FOUR member.\p"
+	.string "She spurs me to do bigger things.$"
+#endif
 
 SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter::
+#if GERMAN
 	.string "Ich sollte Briefpapier kaufen und\n"
 	.string "ihm schreiben…$"
+#else
+	.string "I should buy some MAIL and write\n"
+	.string "him a letter…$"
+#endif
 

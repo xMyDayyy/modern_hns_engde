@@ -6,20 +6,33 @@ Route50_EventScript_BlackBelt1::
 	end
 
 Route50_Text_BlackBelt1::
+#if GERMAN
 	.string "Der Körper muss gestählt und der\n"
 	.string "Geist gefestigt werden - unter den\l"
 	.string "härtesten Bedingungen!$"
+#else
+	.string "The body must be hardened\n"
+    .string "and the mind strengthened\l"
+    .string "in the harshest of conditions!$"
+#endif
 
 Route50_EventScript_BlackBelt2::
 	msgbox Route50_Text_BlackBelt2, MSGBOX_NPC
 	end
 
 Route50_Text_BlackBelt2::
+#if GERMAN
 	.string "Puh!\p"
 	.string "Ich bin nicht so hart im Nehmen\n"
 	.string "wie er.\p"
 	.string "Hier gibt es aber auch wirklich\n"
 	.string "nichts anderes zu tun als Training.$"
+#else
+    .string "Phew!\p"
+    .string "I'm not as hardcore as he is.\p"
+	.string "There's really not much else\n"
+    .string "to do here but train.$"
+#endif
   
 
 Route50_EventScript_Wessel::
@@ -50,6 +63,7 @@ Route50_EventScript_WesselAfter::
 	end
 
 Route50_Text_WesselBefore:
+#if GERMAN
 	.string "Unglaublich, ein Voltobal!\p"
 	.string "Aber es scheint aus… Holz zu\n"
 	.string "bestehen?\p"
@@ -59,19 +73,45 @@ Route50_Text_WesselBefore:
 	.string "Aber warum sonst hätte ich hier\n"
 	.string "diese Eisentafel finden sollen?\p"
 	.string "Ich muss mehr Daten sammeln!$"
+#else
+	.string "Incredible, A VOLTORB!\p"
+    .string "But it appears to be made\n"
+    .string "of... Wood?\p"
+    .string "My hypothesis that this route\n"
+    .string "would contain many steel types\l"
+    .string "is disproven yet again.\p"
+    .string "But why else would I have found\n"
+    .string "this STEEL PLATE here?\p"
+    .string "I must collect more data!$"
+#endif
 
 Route50_Text_WesselBeforeBattle:
+#if GERMAN
 	.string "Du willst diese Tafel haben?\n"
 	.string "Aber ich habe sie noch gar nicht\l"
 	.string "analysiert!\p"
 	.string "Na schön, kämpfen wir darum.$"
+#else
+	.string "You want this PLATE?\n"
+	.string "But I haven't analyzed it yet!\p"
+	.string "Fine, we will battle for it.$"
+#endif
 
 Route50_Text_WesselDefeat:
+#if GERMAN
 	.string "Meine Hypothese war falsch…$"
+#else
+	.string "My hypothesis was wrong...$"
+#endif
 
 Route50_Text_WesselAfter:
+#if GERMAN
 	.string "Nimm die Tafel. Ich möchte nicht\n"
 	.string "darüber reden.$"
+#else
+	.string "Take it the PLATE. I don't want to\n"
+	.string "talk about it.$"
+#endif
 
 Route50_EventScript_Finley::
 	goto_if_defeated TRAINER_FINLEY_HNS, Route50_EventScript_FinleyAfter
@@ -101,6 +141,7 @@ Route50_EventScript_FinleyAfter::
 	end
 
 Route50_Text_FinleyBefore:
+#if GERMAN
 	.string "Wie behandeln dich die\n"
 	.string "Dorfbewohner?\p"
 	.string "Fremden gegenüber können sie sehr\n"
@@ -109,28 +150,59 @@ Route50_Text_FinleyBefore:
 	.string "Freuden des Lebens, neue Menschen\l"
 	.string "kennenzulernen.\p"
 	.string "Eines Tages hoffe ich, Champ\n"
-	.string "Siegfried zu begegnen.\p"
+	.string "{COLOR RED}Siegfried{COLOR DARK_GRAY} zu begegnen.\p"
 	.string "Er ist ein legendärer Drachen-\n"
 	.string "Bändiger, ganz wie ich.\l"
 	.string "Wer ich bin?\p"
 	.string "Nun, ich bin Finley, Hüter der\n"
 	.string "Dracotafel.$"
+#else
+	.string "How are the villagers treating\n"
+    .string "you?\p"
+    .string "They can be very unwelcoming to\n"
+    .string "strangers.\p"
+    .string "But meeting new people is one\n"
+    .string "of life's greatest joys.\p"
+    .string "One day, I hope to meet CHAMPION\n"
+    .string "LANCE.\p"
+    .string "He is a legendary dragon tamer,\n"
+    .string "much like myself.\l"
+    .string "Who am I?\p"
+    .string "Well, I am FINLEY, keeper of the\n"
+    .string "DRACO PLATE.$"
+#endif
 
 Route50_Text_FinleyBeforeBattle:
+#if GERMAN
 	.string "Ich weiß, dass die Kimono-Girls dich\n"
 	.string "geschickt haben, um die Tafeln zu\l"
 	.string "sammeln.\p"
 	.string "Sie sagen, du seist würdig…\n"
 	.string "Doch bezwingst du auch meine\l"
 	.string "Drachen?$"
+#else
+	.string "I know the KIMONO's have sent you\n"
+	.string "to collect these PLATES.\p"
+	.string "They say you are worthy...\n"
+	.string "But can you conquer my dragons?$"
+#endif
 
 Route50_Text_FinleyDefeat:
+#if GERMAN
 	.string "Meine Drachen haben tapfer\n"
 	.string "gekämpft.$"
+#else
+	.string "My dragons fought well.$"
+#endif
 
 Route50_Text_FinleyAfter:
+#if GERMAN
 	.string "Vielleicht bist du sogar stark genug,\n"
-	.string "um Siegfried zu schlagen…$"
+	.string "um {COLOR RED}Siegfried{COLOR DARK_GRAY} zu schlagen…$"
+#else
+	.string "Perhaps you are even strong enough\n"
+	.string "to beat LANCE...$"
+#endif
 
 Route50_EventScript_Item_ULtraBall::
     finditem ITEM_ULTRA_BALL

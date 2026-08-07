@@ -28,6 +28,7 @@ Route116_TunnelersRestHouse_EventScript_TunnelOpened::
 	end
 
 Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
+#if GERMAN
 	.string "Der Metaflurtunnel…\p"
 	.string "Zunächst hatten wir ein großes Team,\n"
 	.string "das mit schweren Maschinen durch den\l"
@@ -39,8 +40,20 @@ Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
 	.string "Pokémon in dieser Gegend auswirkte.\p"
 	.string "Und daher haben wir nun nichts mehr zu\n"
 	.string "tun, außer hier faul herumzuhängen.$"
+#else
+	.string "That RUSTURF TUNNEL there…\p"
+	.string "At first, we had a huge work crew boring\n"
+	.string "through rock with the latest machinery.\l"
+	.string "But, we had to stop.\p"
+	.string "It turns out that we would have had\n"
+	.string "a negative effect on wild POKéMON in\l"
+	.string "the area.\p"
+	.string "So, we've got nothing to do but loll\n"
+	.string "around here doing nothing.$"
+#endif
 
 Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
+#if GERMAN
 	.string "Da ist ein Mann, der sich ganz alleine\n"
 	.string "seinen Weg nach Wiesenflur gräbt. Er\l"
 	.string "versucht verzweifelt durchzukommen.\p"
@@ -48,17 +61,41 @@ Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
 	.string "ohne laute Maschinen gräbt, werden die\l"
 	.string "Pokémon nicht gestört und ihr natür-\l"
 	.string "licher Lebensraum bleibt erhalten.$"
+#else
+	.string "There's a man digging his way to\n"
+	.string "VERDANTURF all by his lonesome.\l"
+	.string "He's desperate to get through.\p"
+	.string "He says that if he digs little by little\n"
+	.string "without using machines, he won't\l"
+	.string "disturb POKéMON, and he'll avoid\l"
+	.string "harming the natural environment.\p"
+	.string "I wonder if he made it through yet.$"
+#endif
 
 Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel:
+#if GERMAN
 	.string "Um ohne diesen Tunnel nach Wiesenflur\n"
 	.string "zu kommen, muss man das Meer bei\p"
 	.string "Faustauhaven überqueren, nach\n"
 	.string "Graphitport City segeln und durch\l"
 	.string "Malvenfroh City reisen.$"
+#else
+	.string "To get to VERDANTURF without using\n"
+	.string "this TUNNEL, you'd have to cross the\l"
+	.string "sea to DEWFORD, sail on to SLATEPORT,\l"
+	.string "then travel through MAUVILLE.$"
+#endif
 
 Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough:
+#if GERMAN
 	.string "Hast du schon gehört!?! Der Tunnel bei\n"
 	.string "Wiesenflur ist fertig!\p"
 	.string "Wenn man nur fest an seine Träume\n"
 	.string "glaubt, werden sie irgendwann wahr.$"
+#else
+	.string "Did you hear? The TUNNEL to VERDANTURF\n"
+	.string "has gone through!\p"
+	.string "Sometimes, if you hope strongly enough,\n"
+	.string "dreams do come true.$"
+#endif
 

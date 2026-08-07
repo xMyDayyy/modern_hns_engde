@@ -212,31 +212,65 @@ Route23_Movement_WalkDown::
 	step_end
 
 Text_OnlySkilledTrainersAllowedThrough::
+#if GERMAN
 	.string "Hier dürfen nur erfahrene Trainer\n"
 	.string "passieren!\p"
 	.string "Und du besitzt den {STR_VAR_1}\n"
 	.string "noch nicht!$"
+#else
+	.string "Only truly skilled TRAINERS are\n"
+	.string "allowed through.\p"
+	.string "You don't have the {STR_VAR_1}\n"
+	.string "yet!$"
+#endif
 
 Text_CantLetYouPass::
+#if GERMAN
 	.string "Befehl ist Befehl! Ich darf dich\n"
 	.string "nicht durchlassen!$"
+#else
+	.string "Rules are rules.\n"
+	.string "I can't let you pass.$"
+#endif
 
 Text_OhThatsBadgeGoRightAhead::
+#if GERMAN
 	.string "Oh! Du trägst den {STR_VAR_1}!\n"
 	.string "Dann darfst du weitergehen!$"
+#else
+	.string "Oh! That is the {STR_VAR_1}!\n"
+	.string "Go right ahead.$"
+#endif
 
 Text_OnlyPassWithBadgeDontHaveYet::
+#if GERMAN
 	.string "Du darfst nur mit dem {STR_VAR_1}\n"
 	.string "passieren!\p"
 	.string "Du besitzt den {STR_VAR_1} noch\n"
 	.string "nicht!\p"
 	.string "Nur wer ihn trägt, darf in die\n"
 	.string "Pokémon Liga!$"
+#else
+	.string "You can pass here only if you have\n"
+	.string "the {STR_VAR_1}.\p"
+	.string "You don't have the {STR_VAR_1}\n"
+	.string "yet.\p"
+	.string "You have to have it to get to\n"
+	.string "the POKéMON LEAGUE.$"
+#endif
 
 Text_OnlyPassWithBadgeOhGoAhead::
+#if GERMAN
 	.string "Du darfst nur passieren, wenn du\n"
 	.string "bereits den {STR_VAR_1} hast!\p"
 	.string "Wunderbar! Du trägst den\n"
 	.string "{STR_VAR_1}!{PAUSE_MUSIC}{PLAY_BGM}{MUS_LEVEL_UP}{PAUSE 0x60}{RESUME_MUSIC}\p"
 	.string "O.K., setze deinen Weg fort!$"
+#else
+	.string "You can pass here only if you have\n"
+	.string "the {STR_VAR_1}.\p"
+	.string "Oh! That is the {STR_VAR_1}!{PAUSE_MUSIC}{PLAY_BGM}{MUS_LEVEL_UP}{PAUSE 0x60}{RESUME_MUSIC}\p"
+	.string "Okay, then.\n"
+	.string "Please, go right ahead.$"
+#endif
 

@@ -296,9 +296,10 @@ Route25_SeaCottage_Movement_BillExitTeleporter::
 	step_end
 
 Route25_SeaCottage_Text_ImBillHelpMeOutPal::
+#if GERMAN
 	.string "Hallo! Ich bin ein Pokémon!\n"
 	.string "Spaß beiseite, ich bin keines!\p"
-	.string "Nenn mich einfach Bill! Ich bin ein\n"
+	.string "Nenn mich einfach {COLOR RED}Bill{COLOR DARK_GRAY}! Ich bin ein\n"
 	.string "waschechter Pokémaniac!\p"
 	.string "Glaubst du mir nicht?\p"
 	.string "Mir ist ein Experiment missglückt!\n"
@@ -306,11 +307,25 @@ Route25_SeaCottage_Text_ImBillHelpMeOutPal::
 	.string "eines Pokémon kombiniert!\p"
 	.string "Wie sieht es aus?\n"
 	.string "Hilfst du mir?$"
+#else
+	.string "Hiya! I'm a POKéMON…\n"
+	.string "…No I'm not!\p"
+	.string "Call me BILL!\n"
+	.string "I'm a true-blue POKéMANIAC!\p"
+	.string "Hey!\n"
+	.string "What's with that skeptical look?\p"
+	.string "I'm not joshing you, pal.\p"
+	.string "I screwed up an experiment and got\n"
+	.string "combined with a POKéMON!\p"
+	.string "So, how about it?\n"
+	.string "Help me out here!$"
+#endif
 
 Route25_SeaCottage_Text_ImBillHelpMeOutLady::
+#if GERMAN
 	.string "Hallo! Ich bin ein Pokémon!\n"
 	.string "Spaß beiseite, ich bin keines!\p"
-	.string "Nenn mich einfach Bill! Ich bin ein\n"
+	.string "Nenn mich einfach {COLOR RED}Bill{COLOR DARK_GRAY}! Ich bin ein\n"
 	.string "waschechter Pokémaniac!\p"
 	.string "Glaubst du mir nicht?\p"
 	.string "Mir ist ein Experiment missglückt!\n"
@@ -318,25 +333,68 @@ Route25_SeaCottage_Text_ImBillHelpMeOutLady::
 	.string "eines Pokémon kombiniert!\p"
 	.string "Wie sieht es aus?\n"
 	.string "Hilfst du mir?$"
+#else
+	.string "Hiya! I'm a POKéMON…\n"
+	.string "…No I'm not!\p"
+	.string "Call me BILL!\n"
+	.string "I'm a true-blue POKéMANIAC!\p"
+	.string "Hey!\n"
+	.string "What's with that skeptical look?\p"
+	.string "I'm not joshing you, lady.\p"
+	.string "I screwed up an experiment and got\n"
+	.string "combined with a POKéMON!\p"
+	.string "So, how about it?\n"
+	.string "Help me out here!$"
+#endif
 
 Route25_SeaCottage_Text_RunCellSeparationOnPC::
+#if GERMAN
 	.string "Ich gehe in den Teleporter, und\n"
 	.string "du startest von meinem PC aus das\l"
 	.string "Zellteilungs-Programm.$"
+#else
+	.string "Wait till I get inside the\n"
+	.string "TELEPORTER.\p"
+	.string "When I do, go to my PC and run\n"
+	.string "the Cell Separation System.$"
+#endif
 
 Route25_SeaCottage_Text_NoPleaseChief::
+#if GERMAN
 	.string "Nein? Komm schon, ich stecke in\n"
 	.string "wirklich ernsten Schwierigkeiten!\p"
 	.string "Also, hilfst du mir? Bitte!\n"
 	.string "O.K.? Alles klar!$"
+#else
+	.string "No!?\n"
+	.string "Now don't be so cold!\p"
+	.string "Come on, you gotta help a guy in\n"
+	.string "deep, deep trouble!\p"
+	.string "What do you say, chief?\n"
+	.string "Please?\l"
+	.string "Okay?\l"
+	.string "All right!$"
+#endif
 
 Route25_SeaCottage_Text_NoPleaseBeautiful::
+#if GERMAN
 	.string "Nein? Komm schon, ich stecke in\n"
 	.string "wirklich ernsten Schwierigkeiten!\p"
 	.string "Also, hilfst du mir? Bitte!\n"
 	.string "O.K.? Alles klar!$"
+#else
+	.string "No!?\n"
+	.string "Now don't be so cold!\p"
+	.string "Come on, you gotta help a guy in\n"
+	.string "deep, deep trouble!\p"
+	.string "What do you say, beautiful?\n"
+	.string "Please?\l"
+	.string "Okay?\l"
+	.string "All right!$"
+#endif
 
 Route25_SeaCottage_Text_ThanksBudTakeThis::
+#if GERMAN
 	.string "Bill: Klasse! Danke, Kumpel!\n"
 	.string "Du hast bei mir etwas gut!\p"
 	.string "Bist du hier, um dir meine Pokémon-\n"
@@ -345,8 +403,19 @@ Route25_SeaCottage_Text_ThanksBudTakeThis::
 	.string "Das ist schade!\p"
 	.string "Wie kann ich dir nur danken?\n"
 	.string "Nimm einfach das hier...$"
+#else
+	.string "BILL: Yeehah!\n"
+	.string "Thanks, bud! I owe you one!\p"
+	.string "So, did you come to see my\n"
+	.string "POKéMON collection?\p"
+	.string "You didn't?\n"
+	.string "That's a bummer.\p"
+	.string "I've got to thank you…\n"
+	.string "Oh, here, maybe this'll do.$"
+#endif
 
 Route25_SeaCottage_Text_ThanksLadyTakeThis::
+#if GERMAN
 	.string "Bill: Klasse! Danke, Kleine!\n"
 	.string "Du hast bei mir etwas gut!\p"
 	.string "Bist du hier, um dir meine Pokémon-\n"
@@ -355,42 +424,96 @@ Route25_SeaCottage_Text_ThanksLadyTakeThis::
 	.string "Das ist schade!\p"
 	.string "Wie kann ich dir nur danken?\n"
 	.string "Nimm einfach das hier...$"
+#else
+	.string "BILL: Yeehah!\n"
+	.string "Thanks, lady! I owe you one!\p"
+	.string "So, did you come to see my\n"
+	.string "POKéMON collection?\p"
+	.string "You didn't?\n"
+	.string "That's a bummer.\p"
+	.string "I've got to thank you…\n"
+	.string "Oh, here, maybe this'll do.$"
+#endif
 
 Route25_SeaCottage_Text_ReceivedSSTicketFromBill::
+#if GERMAN
 	.string "{PLAYER} erhält\n"
-	.string "ein Bootsticket!$"
+	.string "ein {COLOR RED}Bootsticket{COLOR DARK_GRAY}!$"
+#else
+	.string "{PLAYER} received an S.S. TICKET\n"
+	.string "from BILL.$"
+#endif
 
 Route25_SeaCottage_Text_YouveGotTooMuchStuff::
+#if GERMAN
 	.string "Heh Kiddie! Du trägst zu viel mit\n"
 	.string "dir herum!$"
+#else
+	.string "You've got too much stuff!$"
+#endif
 
 Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
-	.string "In Orania City ankert ein großes\n"
+#if GERMAN
+	.string "In {COLOR RED}Orania City{COLOR DARK_GRAY} ankert ein großes\n"
 	.string "Kreuzfahrtschiff, die M.S. Anne!\p"
 	.string "An Bord befinden sich nur Trainer!\p"
 	.string "Sie haben mich zu einer Party\n"
 	.string "eingeladen, aber ich mag so viel\l"
 	.string "Trubel nicht.\p"
 	.string "Hättest du Lust, hinzugehen?$"
+#else
+	.string "That cruise ship S.S. ANNE is in\n"
+	.string "VERMILION CITY.\p"
+	.string "I hear there are lots of TRAINERS\n"
+	.string "on board, too.\p"
+	.string "They invited me to their party, but\n"
+	.string "I can't stand fancy do's.\p"
+	.string "Why don't you go instead of me?\n"
+	.string "Go on and have a good time.$"
+#endif
 
 Route25_SeaCottage_Text_CheckOutRareMonsOnPC::
+#if GERMAN
 	.string "Bill: Schau dir doch einfach auf\n"
 	.string "dem PC ein paar meiner seltenen\l"
 	.string "Pokémon an!$"
+#else
+	.string "BILL: Feel like checking out some\n"
+	.string "of my rare POKéMON on my PC?\p"
+	.string "Go on, check out my PC.$"
+#endif
 
 Route25_SeaCottage_Text_TeleporterIsDisplayed::
+#if GERMAN
 	.string "Auf dem PC läuft ein Programm zur\n"
 	.string "Steuerung des Teleporters.$"
+#else
+	.string "TELEPORTER is displayed on the PC\n"
+	.string "monitor.$"
+#endif
 
 Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator::
+#if GERMAN
 	.string "{PLAYER} hat den\n"
 	.string "Zell-Separator in Gang gesetzt!$"
+#else
+	.string "{PLAYER} initiated the TELEPORTER's\n"
+	.string "Cell Separator.$"
+#endif
 
 Route25_SeaCottage_Text_BillsFavoriteMonList::
+#if GERMAN
 	.string "Eine Liste von Bills Lieblings-\n"
 	.string "Pokémon!$"
+#else
+	.string "BILL's favorite POKéMON list!$"
+#endif
 
 Route25_SeaCottage_Text_SeeWhichMon::
+#if GERMAN
 	.string "Welches Pokémon möchtest du\n"
 	.string "betrachten?$"
+#else
+	.string "Which POKéMON do you want to see?$"
+#endif
 

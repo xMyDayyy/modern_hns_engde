@@ -33,14 +33,30 @@ DarkCave2_EventScript_BlackGlassesGot::
 	end
 
 DarkCave2_Text_Nerd:
+#if GERMAN
 	.string "Huch! Hast du mich aber erschreckt!\p"
-	.string "Mit meinem Schattenglas auf der Nase\n"
+	.string "Mit meinem {COLOR RED}Schattenglas{COLOR DARK_GRAY} auf der Nase\n"
 	.string "bist du mir gar nicht aufgefallen!\p"
 	.string "Was ich hier mache?\p"
 	.string "Ach, das willst du nicht wissen! Hier, ich\n"
 	.string "schenke dir auch eines.\p"
 	.string "Also vergiss es einfach!$"
+#else
+    .string "Whoa! You startled me there!\p"
+    .string "I had my BLACK-GLASSES on, so I\n"
+    .string "didn't notice you at all.\p"
+    .string "What am I doing here?\p"
+    .string "Hey, don't you worry about it.\p"
+    .string "I'll give you a pair of BLACK-\n"
+    .string "GLASSES, so forget you saw me,\n"
+    .string "OK?$"
+#endif
 
 DarkCave2_Text_Nerd2:
+#if GERMAN
 	.string "Schattenbrille erhöht die\n"
 	.string "Stärke von Unlicht-Attacken.$"
+#else
+    .string "BLACK-GLASSES ups the power of\n"
+    .string "DARK-type moves.$"
+#endif

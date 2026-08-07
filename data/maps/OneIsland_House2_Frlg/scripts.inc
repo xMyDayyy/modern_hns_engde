@@ -6,9 +6,15 @@ OneIsland_House2_EventScript_Lass::
 	end
 
 OneIsland_House2_Text_IWantToStayHereForever::
+#if GERMAN
 	.string "Die Jugend wird von den großen\n"
 	.string "Städten geradezu magisch\l"
 	.string "angezogen.\l"
 	.string "Ich will aber für immer hier\l"
 	.string "bleiben!$"
+#else
+	.string "Young people all want to go off to\n"
+	.string "big cities.\p"
+	.string "But I want to stay here forever!$"
+#endif
 

@@ -248,44 +248,93 @@ SSAqua_1F_Movement_GrandpaLeave:
 	step_end
 
 SSAqua_1F_Text_Sailor1_ToVermilion:
+#if GERMAN
 	.string "Die M.S. Aqua ist auf dem Weg nach\n"
-	.string "Orania City.\p"
+	.string "{COLOR RED}Orania City{COLOR DARK_GRAY}.\p"
 	.string "Wenn wir dort in den Hafen einlaufen,\n"
 	.string "machen wir eine Durchsage.$"
+#else
+    .string "FAST SHIP S.S.AQUA is en route to\n"
+    .string "VERMILION CITY.\p"
+    .string "We will make an announcement when\n"
+    .string "we arrive.$"
+#endif
 
 SSAqua_1F_Text_Sailor1_ToOlivine:
+#if GERMAN
 	.string "Die M.S. Aqua ist auf dem Weg nach\n"
-	.string "Oliviana City.\p"
+	.string "{COLOR RED}Oliviana City{COLOR DARK_GRAY}.\p"
 	.string "Wenn wir dort in den Hafen einlaufen,\n"
 	.string "machen wir eine Durchsage.$"
+#else
+    .string "FAST SHIP S.S.AQUA is en route to\n"
+    .string "OLIVINE CITY.\p"
+    .string "We will make an announcement when\n"
+    .string "we arrive.$"
+#endif
 
 SSAqua_1F_Text_Sailor2_FirstTime:
+#if GERMAN
 	.string "Das ist deine Kabine.\p"
 	.string "Wenn dein Pokémon-Team verletzt ist,\n"
 	.string "dann mache hier ein Nickerchen. Dadurch\l"
 	.string "wird es geheilt.$"
+#else
+    .string "Here's your cabin.\p"
+    .string "If your POKéMON are hurt, take a\n"
+    .string "nap in the bed.\p"
+    .string "That will heal them.$"
+#endif
 
 SSAqua_1F_Text_Sailor3:
+#if GERMAN
 	.string "Alle Passagiere sind Trainer.\p"
 	.string "Sie brennen darauf, in ihren\n"
 	.string "Kabinen zu kämpfen.$"
+#else
+    .string "The passengers are all trainers.\p"
+    .string "They're all itching to battle in\n"
+    .string "their cabins.$"
+#endif
 
 SSAqua_1F_Text_Grandpa:
+#if GERMAN
 	.string "Entschuldigung, ich bin in Eile!\p"
 	.string "Ich bin auf der Suche nach meiner\n"
 	.string "Enkelin! Sie ist verschwunden! Wenn du\l"
 	.string "ein kleines Mädchen siehst, dann sag\l"
 	.string "bitte Bescheid!$"
+#else
+    .string "Whoa! Excuse me. I was in a hurry!\p"
+    .string "My granddaughter is missing!\p"
+    .string "She's just a wee girl. If you see\n"
+    .string "her, please let me know!$"
+#endif
 
 SSAqua_1F_Text_Sailor1_InOlivine:
-	.string "Die M.S. Aqua hat nun in Oliviana City\n"
+#if GERMAN
+	.string "Die M.S. Aqua hat nun in {COLOR RED}Oliviana City{COLOR DARK_GRAY}\n"
 	.string "angelegt!$"
+#else
+    .string "FAST SHIP S.S.AQUA has arrived in\n"
+    .string "OLIVINE CITY.$"
+#endif
 
 SSAqua_1F_Text_Sailor1_InVermilion:
-	.string "Die M.S. Aqua hat nun in Orania City\n"
+#if GERMAN
+	.string "Die M.S. Aqua hat nun in {COLOR RED}Orania City{COLOR DARK_GRAY}\n"
 	.string "angelegt!$"
+#else
+    .string "FAST SHIP S.S.AQUA has arrived in\n"
+    .string "VERMILION CITY.$"
+#endif
 
 
 SSAqua_1F_Text_SailorDoorArrived:
-	.string "Wir sind in Orania City angekommen.\n"
+#if GERMAN
+	.string "Wir sind in {COLOR RED}Orania City{COLOR DARK_GRAY} angekommen.\n"
 	.string "Gehst du von Bord?$"
+#else
+    .string "We have arrived in VERMILION CITY.\n"
+    .string "Would you like to disembark?$"
+#endif

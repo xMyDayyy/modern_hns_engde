@@ -6,5 +6,9 @@ CeladonCity_Condominiums_Roof_EventScript_Sign::
 	end
 
 CeladonCity_Condominiums_Roof_Text_IKnowEverything::
+#if GERMAN
 	.string "Ich weiß alles!$"
+#else
+	.string "I KNOW EVERYTHING!$"
+#endif
 

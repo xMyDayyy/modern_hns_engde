@@ -252,9 +252,17 @@ static const u16 sBlenderOuter_Pal[] = INCBIN_U16("graphics/berry_blender/outer.
 static const u16 sUnused_Pal[] = INCBIN_U16("graphics/berry_blender/unused.gbapal");
 static const u16 sEmpty_Pal[16 * 14] = {0};
 
+#if GERMAN
 static const u8 sText_BerryBlenderStart[] = _("Beerenmixer wird gestartet.\pWähle die Beere aus dem Beutel,\ndie in den Beerenmixer soll.\p");
+#else
+static const u8 sText_BerryBlenderStart[] = _("Starting up the BERRY BLENDER.\pPlease select a BERRY from your BAG\nto put in the BERRY BLENDER.\p");
+#endif
 static const u8 sText_NewParagraph[] = _("\p");
+#if GERMAN
 static const u8 sText_WasMade[] = _(" wurde gemixt!");
+#else
+static const u8 sText_WasMade[] = _(" was made!");
+#endif
 
 static const u8 *const sBlenderOpponentsNames[] =
 {
@@ -266,29 +274,97 @@ static const u8 *const sBlenderOpponentsNames[] =
     [BLENDER_MISS]   = COMPOUND_STRING("Frau"),
 };
 
+#if GERMAN
 static const u8 sText_CommunicationStandby[] = _("Verbindung…");
+#else
+static const u8 sText_CommunicationStandby[] = _("Communication standby…");
+#endif
+#if GERMAN
 static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("Möchtest du noch eine Beere mixen?");
+#else
+static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("Would you like to blend another BERRY?");
+#endif
+#if GERMAN
 static const u8 sText_RunOutOfBerriesForBlending[] = _("Du hast keine Beeren mehr zum\nMixen im Beerenmixer.\p");
+#else
+static const u8 sText_RunOutOfBerriesForBlending[] = _("You've run out of BERRIES for\nblending in the BERRY BLENDER.\p");
+#endif
+#if GERMAN
 static const u8 sText_YourPokeblockCaseIsFull[] = _("Deine {POKEBLOCK}box ist voll.\p");
+#else
+static const u8 sText_YourPokeblockCaseIsFull[] = _("Your {POKEBLOCK} CASE is full.\p");
+#endif
+#if GERMAN
 static const u8 sText_HasNoBerriesToPut[] = _(" hat keine Beeren\nfür den Beerenmixer.");
+#else
+static const u8 sText_HasNoBerriesToPut[] = _(" has no BERRIES to put in\nthe BERRY BLENDER.");
+#endif
+#if GERMAN
 static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("s {POKEBLOCK}box ist voll.\p");
+#else
+static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("'s {POKEBLOCK} CASE is full.\p");
+#endif
+#if GERMAN
 static const u8 sText_BlendingResults[] = _("MIX-Resultate");
+#else
+static const u8 sText_BlendingResults[] = _("RESULTS OF BLENDING");
+#endif
+#if GERMAN
 static const u8 sText_SpaceBerry[] = _("beere");
+#else
+static const u8 sText_SpaceBerry[] = _(" BERRY");
+#endif
+#if GERMAN
 static const u8 sText_Time[] = _("Zeit");
+#else
+static const u8 sText_Time[] = _("Time:");
+#endif
 static const u8 sText_Min[] = _(" min. ");
+#if GERMAN
 static const u8 sText_Sec[] = _("Sek.");
+#else
+static const u8 sText_Sec[] = _(" sec.");
+#endif
+#if GERMAN
 static const u8 sText_MaximumSpeed[] = _("Maximaltempo");
+#else
+static const u8 sText_MaximumSpeed[] = _("MAXIMUM SPEED");
+#endif
 static const u8 sText_RPM[] = _(" RPM");
 static const u8 sText_Dot[] = _(".");
 static const u8 sText_NewLine[] = _("\n");
+#if GERMAN
 static const u8 sText_Ranking[] = _("Stufe");
+#else
+static const u8 sText_Ranking[] = _("RANKING");
+#endif
+#if GERMAN
 static const u8 sText_TheLevelIs[] = _("Der Level ist ");
+#else
+static const u8 sText_TheLevelIs[] = _("The level is ");
+#endif
+#if GERMAN
 static const u8 sText_TheFeelIs[] = _(" und die Würze ist ");
+#else
+static const u8 sText_TheFeelIs[] = _(", and the feel is ");
+#endif
 static const u8 sText_Dot2[] = _(".");
 
+#if GERMAN
 static const u8 sText_SavingDontTurnOff2[] = _("Speichervorgang…\ndas gerät nicht ausschalten!");
+#else
+static const u8 sText_SavingDontTurnOff2[] = _("SAVING…\nDON'T TURN OFF THE POWER.");
+#endif
+#if GERMAN
 static const u8 sText_BlenderMaxSpeedRecord[] = _("Beerenmixer\nmaximaltempo-rekord!");
+#else
+static const u8 sText_BlenderMaxSpeedRecord[] = _("BERRY BLENDER\nMAXIMUM SPEED RECORD!");
+#endif
+#if GERMAN
 static const u8 sText_234Players[] = _("2 Spieler\n3 spieler\n4 spieler");
+#else
+static const u8 sText_234Players[] = _("2 PLAYERS\n3 PLAYERS\n4 PLAYERS");
+#endif
 
 static const struct BgTemplate sBgTemplates[3] =
 {
