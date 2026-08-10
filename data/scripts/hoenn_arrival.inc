@@ -433,7 +433,7 @@ BirchsLab_Text_HoennDexExplain:
 BirchsLab_Text_HoennGoodLuck:
 #if GERMAN
 	.string "Prof. Birk: Blütenburg City liegt\n"
-	.string "im Westen, Rustboro im Norden.\p"
+	.string "im Westen, Metarost City im Norden.\p"
 	.string "Beide haben Arenen - falls es dich\n"
 	.string "danach juckt.\p"
 	.string "Und jetzt raus mit dir.\n"
