@@ -219,9 +219,13 @@ Debug_EventScript_Text_DefensiveIVs:
 #endif
 
 Debug_EventScript_Script_1::
-	setvar VAR_SINJOH_STORYLINE, 10
+	clearflag FLAG_DAILY_FLOWER_SHOP_RECEIVED_BERRY_HNS
 	release
 	end
+
+Debug_Text_1:
+	.string "{STR_VAR_1}$"
+
 
 Debug_EventScript_Script_2::
 	setflag FLAG_HIDE_COPYCAT_CLEFAIRY_DOLL

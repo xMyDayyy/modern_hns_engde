@@ -3973,7 +3973,11 @@ static void PrintEggMemo(void)
         else if (DidMonComeFromGBAGames() == FALSE || DoesMonOTMatchOwner() == FALSE)
             text = gText_PeculiarEggTrade;
         else if (sum->metLocation == METLOC_SPECIAL_EGG)
+        #if IS_HNS
+            text = gText_OddEggFromDaycare;
+        #else
             text = (DidMonComeFromRSE() == TRUE) ? gText_EggFromHotSprings : gText_EggFromTraveler;
+        #endif
         else
             text = gText_OddEggFoundByCouple;
     }
@@ -4081,8 +4085,8 @@ static void PrintRibbonCount(void)
 
 static void BufferStat(u8 *dst, enum Stat statIndex, u32 stat, u32 strId, u32 n)
 {
-    static const u8 sTextNatureDown[] = _("{COLOR}{08}");
-    static const u8 sTextNatureUp[] = _("{COLOR}{05}");
+    static const u8 sTextNatureDown[] = _("{COLOR}{05}");
+    static const u8 sTextNatureUp[] = _("{COLOR}{07}");
     static const u8 sTextNatureNeutral[] = _("{COLOR}{01}");
     u8 *txtPtr;
 

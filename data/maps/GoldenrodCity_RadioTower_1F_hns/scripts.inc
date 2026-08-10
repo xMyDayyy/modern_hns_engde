@@ -140,13 +140,13 @@ RadioTower1F_EventScript_ReceptionGiveRadio::
 	msgbox RadioTower1F_Text_QuizWin, MSGBOX_DEFAULT
 	closemessage
 	playfanfare MUS_OBTAIN_ITEM
-	giveitem ITEM_RADIO
+	msgbox RadioTower1F_Text_PokegearRadio, MSGBOX_AUTOCLOSE
 	waitfanfare
 	msgbox RadioTower1F_Text_TuneIn, MSGBOX_DEFAULT
 	closemessage
 	playse SE_PIN
 	applymovement LOCALID_GOLDENROD_RADIOTOWER_WHITNEY, Common_Movement_ExclamationMark
-	delay 60
+	waitmovement LOCALID_GOLDENROD_RADIOTOWER_WHITNEY
 	turnobject LOCALID_GOLDENROD_RADIOTOWER_WHITNEY, DIR_EAST
 	delay 20
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_WEST
@@ -283,11 +283,11 @@ RadioTower1F_Text_QuizWin:
 #if GERMAN
 	.string "Bingo! Volltreffer!\n"
 	.string "Glückwunsch!\p"
-	.string "Hier dein Preis: ein Radio!$"
+	.string "Hier dein Preis: ein Radio-Modul!$"
 #else
     .string "Bingo! You got it!\n"
     .string "Congratulations!\p"
-    .string "Here's your prize, a RADIO!$"
+    .string "Here's your prize, a RADIO CARD!$"
 #endif
 
 RadioTower1F_Text_PokegearRadio:
@@ -394,6 +394,9 @@ RadioTower1F_Text_Directory:
     .string "5F DIRECTOR'S OFFICE$"
 #endif
 
+RadioTower1F_Text_GotRadio:
+	.string "{PLAYER} got the RADIO CARD\n"
+	.string "for the POKéGEAR!$"
 
 GoldenrodCity_RadioTower_1F_EventScript_LotteryClerk::
 	lock

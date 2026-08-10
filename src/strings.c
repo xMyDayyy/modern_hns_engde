@@ -849,6 +849,7 @@ const u8 gText_Var1SureHowMany[] = _("{STR_VAR_1}? Sicher.\nWie viele möchtest 
 const u8 gText_Var1SureHowMany[] = _("{STR_VAR_1}s? Sure.\nHow many would you like?");
 #endif
 const u8 gText_xOne[] = _("x1");
+const u8 gText_xFive[] = _("x5");
 #if GERMAN
 const u8 gText_KurtVar1AndYouWantedVar2Plural[] = _("Du möchtest {STR_VAR_2} davon?\nDas macht {STR_VAR_3} Beeren.");
 #else
@@ -1731,6 +1732,11 @@ const u8 gText_PeculiarEggTrade[] = _("A peculiar POKéMON EGG\nobtained in a tr
 const u8 gText_EggFromHotSprings[] = _("Ein Pokémon-Ei, an den\nHeißen Quellen erhalten.");
 #else
 const u8 gText_EggFromHotSprings[] = _("A POKéMON EGG obtained\nat the hot springs.");
+#endif
+#if GERMAN
+const u8 gText_OddEggFromDaycare[] = _("Ein seltsames Pokémon-Ei\nvon der Pension.");
+#else
+const u8 gText_OddEggFromDaycare[] = _("An odd POKéMON EGG\nobtained at the daycare.");
 #endif
 #if GERMAN
 const u8 gText_EggFromTraveler[] = _("Ein seltsames Pokémon-Ei\nvon einem Reisenden.");

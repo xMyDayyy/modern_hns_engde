@@ -416,7 +416,7 @@ NewSinjoh_HotSprings_EventScript_ActivateArcanine::
 	waitfieldeffect FLDEFF_SPARKLE
     playse SE_PIN
     applymovement2 LOCALID_PLAYER, Common_Movement_ExclamationMark
-    delay 60
+    waitmovement LOCALID_PLAYER
     msgbox SinjohRuins_Lab_Text_PlayFlute, MSGBOX_YESNO
 	closemessage
     goto_if_eq VAR_RESULT, FALSE, SinjohRuins_Lab_EventScript_NoOp
@@ -519,7 +519,7 @@ NewSinjoh_HotSprings_EventScript_ActivateUrsaluna::
 	waitfieldeffect FLDEFF_SPARKLE
     playse SE_PIN
     applymovement2 LOCALID_PLAYER, Common_Movement_ExclamationMark
-    delay 60
+    waitmovement LOCALID_PLAYER
     msgbox SinjohRuins_Lab_Text_PlayFlute, MSGBOX_YESNO
 	closemessage
     goto_if_eq VAR_RESULT, FALSE, SinjohRuins_Lab_EventScript_NoOp
