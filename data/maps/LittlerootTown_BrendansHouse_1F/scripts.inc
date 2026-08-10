@@ -650,3 +650,44 @@ BrendansHouse_1F_Text_ChampionVisit:
 	.string "off - you TRAINERS are always in\l"
 	.string "a hurry.$"
 #endif
+
+@ HnS: Wurzelheim ohne Spielerfamilie - dieses Haus gehoert Normans
+@ Familie (siehe Normans Dialog in der Bluetenburg-Arena). Das
+@ Nachbarhaus (MaysHouse) bleibt die Familie von Prof. Birk.
+LittlerootTown_BrendansHouse_1F_EventScript_NormansFrau::
+	msgbox LittlerootTown_BrendansHouse_1F_Text_NormansFrau, MSGBOX_NPC
+	end
+
+LittlerootTown_BrendansHouse_1F_EventScript_NormansKind::
+	msgbox LittlerootTown_BrendansHouse_1F_Text_NormansKind, MSGBOX_NPC
+	end
+
+LittlerootTown_BrendansHouse_1F_Text_NormansFrau:
+#if GERMAN
+	.string "Ah, ein Besucher! Mein Mann Norman\n"
+	.string "leitet die Arena in Blütenburg City.\p"
+	.string "Zurzeit ist sie geschlossen, aber er\n"
+	.string "kommt trotzdem kaum zur Ruhe.\p"
+	.string "Wenn du ihn triffst: Sag ihm, er\n"
+	.string "soll sich nicht überarbeiten!$"
+#else
+	.string "Ah, a visitor! My husband NORMAN\n"
+	.string "runs the GYM in PETALBURG CITY.\p"
+	.string "It's closed at the moment, but he\n"
+	.string "still hardly gets any rest.\p"
+	.string "If you meet him, tell him not to\n"
+	.string "overwork himself!$"
+#endif
+
+LittlerootTown_BrendansHouse_1F_Text_NormansKind:
+#if GERMAN
+	.string "Papa ist der Arenaleiter von\n"
+	.string "Blütenburg City!\p"
+	.string "Wenn ich groß bin, fordere ich ihn\n"
+	.string "selbst heraus - versprochen!$"
+#else
+	.string "Dad is the GYM LEADER of\n"
+	.string "PETALBURG CITY!\p"
+	.string "When I'm big, I'll challenge him\n"
+	.string "myself - promise!$"
+#endif
