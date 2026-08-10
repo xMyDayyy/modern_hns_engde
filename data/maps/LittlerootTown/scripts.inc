@@ -1156,3 +1156,77 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "Let's go to my LAB.$"
 #endif
 
+
+@ HnS: Einstieg in die Erweiterung. Im Original faengt hier die Mutter
+@ den Spieler ab und uebergibt die Laufschuhe - beides entfaellt
+@ (Mutter in Johto, Laufschuhe vorhanden). Stattdessen kommt Prof.
+@ Birk dem fremden Champion aus Johto und Kanto beim ersten Verlassen
+@ von Wurzelheim kurz nach. Einmalig ueber VAR_HOENN_ARRIVAL_STATE.
+LittlerootTown_EventScript_HoennSendOff::
+	lockall
+	setvar VAR_HOENN_ARRIVAL_STATE, 4
+	playse SE_PIN
+	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_HoennSendOffExclaim
+	waitmovement 0
+	setobjectxyperm LOCALID_LITTLEROOT_BIRCH, 10, 5
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+	addobject LOCALID_LITTLEROOT_BIRCH
+	applymovement LOCALID_LITTLEROOT_BIRCH, LittlerootTown_Movement_HoennSendOffApproach
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_HoennSendOffFaceDown
+	waitmovement 0
+	msgbox LittlerootTown_Text_HoennSendOff, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_LITTLEROOT_BIRCH, LittlerootTown_Movement_HoennSendOffReturn
+	waitmovement 0
+	removeobject LOCALID_LITTLEROOT_BIRCH
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+	setobjectxyperm LOCALID_LITTLEROOT_BIRCH, 14, 10
+	releaseall
+	end
+
+LittlerootTown_Movement_HoennSendOffExclaim:
+	emote_exclamation_mark
+	delay_16
+	step_end
+
+LittlerootTown_Movement_HoennSendOffFaceDown:
+	walk_in_place_faster_down
+	step_end
+
+LittlerootTown_Movement_HoennSendOffApproach:
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+LittlerootTown_Movement_HoennSendOffReturn:
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+LittlerootTown_Text_HoennSendOff:
+#if GERMAN
+	.string "Birk: {PLAYER}! Einen Moment noch!\p"
+	.string "Da draußen weiß noch niemand,\n"
+	.string "wer du bist.\p"
+	.string "Die Trainer von Hoenn werden es\n"
+	.string "früh genug erfahren, hehe.\p"
+	.string "Zeig ihnen, was ein Champion aus\n"
+	.string "Johto und Kanto kann.\p"
+	.string "Und vergiss meinen Pokédex nicht -\n"
+	.string "jede neue Art hilft der Forschung!\p"
+	.string "Gute Reise, {PLAYER}!$"
+#else
+	.string "BIRCH: {PLAYER}! One moment!\p"
+	.string "No one out there knows who you\n"
+	.string "are yet.\p"
+	.string "The TRAINERS of HOENN will find\n"
+	.string "out soon enough, heh.\p"
+	.string "Show them what a CHAMPION from\n"
+	.string "JOHTO and KANTO can do.\p"
+	.string "And don't forget my POKéDEX -\n"
+	.string "every new species helps!\p"
+	.string "Safe travels, {PLAYER}!$"
+#endif

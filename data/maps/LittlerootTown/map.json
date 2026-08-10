@@ -234,6 +234,24 @@
       "var": "VAR_LITTLEROOT_TOWN_STATE",
       "var_value": "3",
       "script": "LittlerootTown_EventScript_GiveRunningShoesTrigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 1,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "3",
+      "script": "LittlerootTown_EventScript_HoennSendOff"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 1,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "3",
+      "script": "LittlerootTown_EventScript_HoennSendOff"
     }
   ],
   "bg_events": [
