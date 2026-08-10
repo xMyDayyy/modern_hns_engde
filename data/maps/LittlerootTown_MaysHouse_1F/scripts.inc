@@ -514,3 +514,47 @@ RivalsHouse_1F_Text_DoYouHavePokemon:
 	.string "Do you already have your\n"
 	.string "own POKéMON?$"
 #endif
+
+@ HnS: Dieses Haus gehoert der Familie von Prof. Birk. Tochter Maike
+@ ist mit ihren Pokemon unterwegs. Die Texte sind neutral an den
+@ fremden Champion aus Johto und Kanto gerichtet, nicht an einen
+@ zugezogenen Nachbarn. Die Vanilla-Scripts bleiben fuer die spaetere
+@ Hoenn-Story unangetastet.
+LittlerootTown_MaysHouse_1F_EventScript_BirksFrau::
+	msgbox LittlerootTown_MaysHouse_1F_Text_BirksFrau, MSGBOX_NPC
+	end
+
+LittlerootTown_MaysHouse_1F_EventScript_BirksKind::
+	msgbox LittlerootTown_MaysHouse_1F_Text_BirksKind, MSGBOX_NPC
+	end
+
+LittlerootTown_MaysHouse_1F_Text_BirksFrau:
+#if GERMAN
+	.string "Mein Mann ist Prof. Birk - er steckt\n"
+	.string "mal wieder bis über beide Ohren in\l"
+	.string "seiner Forschung.\p"
+	.string "Unsere Tochter Maike ist mit ihren\n"
+	.string "Pokémon unterwegs.\p"
+	.string "Sie lässt es sich nicht anmerken,\n"
+	.string "aber ich mache mir manchmal Sorgen.$"
+#else
+	.string "My husband is PROF. BIRCH - buried\n"
+	.string "in his research again, as always.\p"
+	.string "Our daughter MAY is traveling\n"
+	.string "with her POKéMON.\p"
+	.string "She won't say it, but sometimes\n"
+	.string "I do worry about her.$"
+#endif
+
+LittlerootTown_MaysHouse_1F_Text_BirksKind:
+#if GERMAN
+	.string "Meine große Schwester Maike ist\n"
+	.string "Pokémon-Trainerin!\p"
+	.string "Papa sagt, du bist ein Champion.\n"
+	.string "Stimmt das wirklich?$"
+#else
+	.string "My big sister MAY is a POKéMON\n"
+	.string "TRAINER!\p"
+	.string "Dad says you're a CHAMPION.\n"
+	.string "Is that really true?$"
+#endif

@@ -668,26 +668,32 @@ LittlerootTown_BrendansHouse_1F_Text_NormansFrau:
 	.string "leitet die Arena in Blütenburg City.\p"
 	.string "Zurzeit ist sie geschlossen, aber er\n"
 	.string "kommt trotzdem kaum zur Ruhe.\p"
-	.string "Wenn du ihn triffst: Sag ihm, er\n"
+	.string "Unser Sohn Brendan ist selbst mit\n"
+	.string "seinen Pokémon unterwegs.\p"
+	.string "Wenn du Norman triffst: Sag ihm, er\n"
 	.string "soll sich nicht überarbeiten!$"
 #else
 	.string "Ah, a visitor! My husband NORMAN\n"
 	.string "runs the GYM in PETALBURG CITY.\p"
 	.string "It's closed at the moment, but he\n"
 	.string "still hardly gets any rest.\p"
-	.string "If you meet him, tell him not to\n"
-	.string "overwork himself!$"
+	.string "Our son BRENDAN is traveling\n"
+	.string "with his POKéMON, too.\p"
+	.string "If you meet NORMAN, tell him not\n"
+	.string "to overwork himself!$"
 #endif
 
 LittlerootTown_BrendansHouse_1F_Text_NormansKind:
 #if GERMAN
 	.string "Papa ist der Arenaleiter von\n"
-	.string "Blütenburg City!\p"
-	.string "Wenn ich groß bin, fordere ich ihn\n"
-	.string "selbst heraus - versprochen!$"
+	.string "Blütenburg City! Und mein großer\l"
+	.string "Bruder Brendan ist auch Trainer!\p"
+	.string "Wenn ich groß bin, fordere ich\n"
+	.string "beide heraus - versprochen!$"
 #else
 	.string "Dad is the GYM LEADER of\n"
-	.string "PETALBURG CITY!\p"
-	.string "When I'm big, I'll challenge him\n"
-	.string "myself - promise!$"
+	.string "PETALBURG CITY! And my big\l"
+	.string "brother BRENDAN is a TRAINER!\p"
+	.string "When I'm big, I'll challenge\n"
+	.string "them both - promise!$"
 #endif
