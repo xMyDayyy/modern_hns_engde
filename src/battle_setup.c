@@ -825,7 +825,6 @@ static const struct {
     {MAP_CINNABAR_ISLAND_HNS,                    BATTLE_ENVIRONMENT_SAND},
     {MAP_SAFARI_ZONE_TOP_RIGHT_HNS,             BATTLE_ENVIRONMENT_SAND},
     // CAVE_WATER (brown cave, pond bg even on land)
-    {MAP_ROUTE19_CAVE_HNS,                       BATTLE_ENVIRONMENT_CAVE_WATER},
     {MAP_EMBEDDED_TOWER_HNS,                     BATTLE_ENVIRONMENT_CAVE},
     // RAYQUAZA (sky bg)
     {MAP_TIN_TOWER_ROOF_DAY_HNS,                 BATTLE_ENVIRONMENT_RAYQUAZA},
