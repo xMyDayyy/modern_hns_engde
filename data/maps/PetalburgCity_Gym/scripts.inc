@@ -104,6 +104,8 @@ PetalburgCity_Gym_EventScript_Norman::
 	lock
 	faceplayer
 	switch VAR_PETALBURG_GYM_STATE
+	case 0, PetalburgCity_Gym_EventScript_NormanHnsClosed
+	case 1, PetalburgCity_Gym_EventScript_NormanHnsClosed
 	case 2, PetalburgCity_Gym_EventScript_NormanNoBadges
 	case 3, PetalburgCity_Gym_EventScript_NormanOneBadge
 	case 4, PetalburgCity_Gym_EventScript_NormanTwoBadges
@@ -119,6 +121,40 @@ PetalburgCity_Gym_EventScript_Norman::
 	case DIR_WEST, PetalburgCity_Gym_EventScript_BeginWallyTutorialWest
 	case DIR_EAST, PetalburgCity_Gym_EventScript_BeginWallyTutorialEast
 	end
+
+@ HnS: Der Spieler kommt als Johto-Champion nach Hoenn. Norman ist hier
+@ nicht der Vater des Spielers, sondern ein regulaerer Arenaleiter mit
+@ Familie in Wurzelheim. Die Arena ist vorerst geschlossen und nicht
+@ die erste Arena von Hoenn (das ist Metarost City).
+PetalburgCity_Gym_EventScript_NormanHnsClosed::
+	msgbox PetalburgCity_Gym_Text_NormanHnsClosed, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgCity_Gym_Text_NormanHnsClosed:
+#if GERMAN
+	.string "Norman: Willkommen! Ich bin Norman,\n"
+	.string "der Arenaleiter von Blütenburg City.\p"
+	.string "Die Arena ist zurzeit geschlossen.\n"
+	.string "Hier finden vorerst keine Kämpfe statt.\p"
+	.string "Versuch es zuerst in Metarost City\n"
+	.string "im Norden - dort wartet die erste\l"
+	.string "Arena von Hoenn auf dich.\p"
+	.string "Meine Familie wohnt übrigens in\n"
+	.string "Wurzelheim. Grüß sie von mir,\l"
+	.string "wenn du vorbeikommst!$"
+#else
+	.string "NORMAN: Welcome! I'm NORMAN,\n"
+	.string "the GYM LEADER of PETALBURG CITY.\p"
+	.string "The GYM is closed at the moment.\n"
+	.string "No battles are held here for now.\p"
+	.string "Try RUSTBORO CITY to the north\n"
+	.string "first - the first GYM of HOENN\l"
+	.string "awaits you there.\p"
+	.string "My family lives in LITTLEROOT\n"
+	.string "TOWN, by the way. Give them my\l"
+	.string "regards if you drop by!$"
+#endif
 
 PetalburgCity_Gym_EventScript_BeginWallyTutorialSouth::
 	setvar VAR_0x8008, 0
