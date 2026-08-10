@@ -327,6 +327,10 @@
 
 #define VAR_TEMP_TRANSFERRED_SPECIES  VAR_TEMP_1
 
+#if defined(POKEMON_HNS)
+#include "constants/vars_hoenn_de.h"
+#endif
+
 #if TESTING
 #define TESTING_VARS_START                  0x9000
 #define TESTING_VAR_DIFFICULTY              (TESTING_VARS_START + 0x0)

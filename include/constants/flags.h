@@ -2500,6 +2500,12 @@
 
 #define FLAGS_COUNT (ENGINE_FLAGS_END + 1)
 
+#if defined(POKEMON_HNS)
+#include "constants/flags_hoenn_de.h"
+#undef FLAGS_COUNT
+#define FLAGS_COUNT (HOENN_FLAGS_END + 1)
+#endif
+
 #if TESTING
 #define TESTING_FLAGS_START                     0x5000
 #define TESTING_FLAG_SLEEP_CLAUSE               (TESTING_FLAGS_START + 0x0)
