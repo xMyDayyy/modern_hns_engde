@@ -29,6 +29,50 @@ PetalburgCity_OnFrame:
 	map_script_2 VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_EventScript_WalkToWallyHouse
 	.2byte 0
 
+@ HnS: Heiko steht vor der geschlossenen Arena (15,10). Ansprechen
+@ startet das Fang-Ereignis: Er erkennt den Champion, hat von seinem
+@ Vater ein Pokemon bekommen und bittet um Begleitung ins hohe Gras.
+@ Der warpsilent auf die Vanilla-Startposition (15,8) laesst danach
+@ das unveraenderte Tutorial (OnFrame, Zustand 2) mit den originalen
+@ Laufwegen ablaufen.
+PetalburgCity_EventScript_WallyGymClosed::
+	lock
+	faceplayer
+	msgbox PetalburgCity_Text_WallyGymClosed, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_DONT_TRANSITION_MUSIC
+	playbgm MUS_FOLLOW_ME, FALSE
+	setvar VAR_PETALBURG_CITY_STATE, 2
+	warpsilent MAP_PETALBURG_CITY, 15, 8
+	waitstate
+	release
+	end
+
+PetalburgCity_Text_WallyGymClosed:
+#if GERMAN
+	.string "Heiko: Äh… Entschuldige!\n"
+	.string "Die Arena ist leider geschlossen.\p"
+	.string "Moment… Du bist doch {PLAYER}!\n"
+	.string "Der Champion aus Johto und Kanto!\p"
+	.string "Ich… ich hätte eine Bitte.\n"
+	.string "Papa hat mir ein Pokémon gegeben,\l"
+	.string "damit ich im hohen Gras selbst\l"
+	.string "eins fangen kann.\p"
+	.string "Aber ich habe das noch nie gemacht…\n"
+	.string "Kommst du mit und hilfst mir?$"
+#else
+	.string "WALLY: Um… Excuse me!\n"
+	.string "The GYM is closed, I'm afraid.\p"
+	.string "Wait… You're {PLAYER}, aren't you?\n"
+	.string "The CHAMPION of JOHTO and KANTO!\p"
+	.string "I… I have a favor to ask.\n"
+	.string "My dad gave me a POKéMON so I\l"
+	.string "can catch one of my own in the\l"
+	.string "tall grass.\p"
+	.string "But I've never done it before…\n"
+	.string "Would you come along and help me?$"
+#endif
+
 PetalburgCity_EventScript_WallyTutorial::
 	lockall
 	special SavePlayerParty
@@ -42,18 +86,47 @@ PetalburgCity_EventScript_WallyTutorial::
 	msgbox Route102_Text_WallyIDidIt, MSGBOX_DEFAULT
 	applymovement LOCALID_PETALBURG_WALLY, Common_Movement_WalkInPlaceFasterLeft, MAP_PETALBURG_CITY
 	waitmovement LOCALID_PETALBURG_WALLY, MAP_PETALBURG_CITY
-	msgbox Route102_Text_LetsGoBack, MSGBOX_DEFAULT
+	@ HnS: kein Rueckweg in die geschlossene Arena - Heiko bedankt
+	@ sich und geht heim. VAR_PETALBURG_GYM_STATE bleibt 2 (Tuer zu).
+	msgbox PetalburgCity_Text_WallyThanksGoesHome, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCALID_PETALBURG_WALLY, PetalburgCity_Movement_WallyGoHome
+	waitmovement 0
+	removeobject LOCALID_PETALBURG_WALLY
+	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	setvar VAR_PETALBURG_CITY_STATE, 3
 	fadedefaultbgm
 	clearflag FLAG_DONT_TRANSITION_MUSIC
 	special LoadPlayerParty
-	setvar VAR_PETALBURG_GYM_STATE, 1
-	warp MAP_PETALBURG_CITY_GYM, 4, 108
-	waitstate
 	releaseall
 	end
+
+PetalburgCity_Text_WallyThanksGoesHome:
+#if GERMAN
+	.string "Heiko: Danke, {PLAYER}!\n"
+	.string "Das vergesse ich dir nie!\p"
+	.string "Ich zeige es gleich Papa!\n"
+	.string "Und eines Tages… werde ich\l"
+	.string "ein Trainer wie du!$"
+#else
+	.string "WALLY: Thank you, {PLAYER}!\n"
+	.string "I'll never forget this!\p"
+	.string "I'm going to show my dad!\n"
+	.string "And one day… I'll be a TRAINER\l"
+	.string "just like you!$"
+#endif
+
+PetalburgCity_Movement_WallyGoHome:
+	face_down
+	delay_16
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_left
+	walk_left
+	step_end
 
 PetalburgCity_EventScript_WalkToWallyHouse::
 	lockall

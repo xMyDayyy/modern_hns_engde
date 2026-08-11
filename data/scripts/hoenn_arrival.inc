@@ -78,7 +78,11 @@ Common_EventScript_HoennHideStoryNpcs::
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CYNDAQUIL
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_TOTODILE
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA
-	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
+	@ HnS: Heiko bleibt sichtbar - er steht vor der Arenatuer von
+	@ Bluetenburg City und traegt dort das Fang-Ereignis (statt des
+	@ Vanilla-Tutorials in der Arena). Arena-Zustand 2 = Tuer zu,
+	@ Indoor-Wally-Intro und Papa-Dialog sind damit unerreichbar.
+	setvar VAR_PETALBURG_GYM_STATE, 2
 	setflag FLAG_UNKNOWN_0x363
 	setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
 	setflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1

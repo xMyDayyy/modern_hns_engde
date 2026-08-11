@@ -70,6 +70,9 @@ PetalburgCity_Gym_EventScript_TurnPlayerNorth::
 	end
 
 PetalburgCity_Gym_OnFrame:
+	@ HnS: Zustand 2 = Arena geschlossen (bis zum 4. Hoenn-Orden).
+	@ Wer hineinlaeuft, wird mit Hinweis wieder vor die Tuer gesetzt.
+	map_script_2 VAR_PETALBURG_GYM_STATE, 2, PetalburgCity_Gym_EventScript_ClosedEject
 	map_script_2 VAR_PETALBURG_GYM_STATE, 1, PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial
 	.2byte 0
 
@@ -121,6 +124,24 @@ PetalburgCity_Gym_EventScript_Norman::
 	case DIR_WEST, PetalburgCity_Gym_EventScript_BeginWallyTutorialWest
 	case DIR_EAST, PetalburgCity_Gym_EventScript_BeginWallyTutorialEast
 	end
+
+PetalburgCity_Gym_EventScript_ClosedEject::
+	lockall
+	msgbox PetalburgCity_Gym_Text_GymIsClosed, MSGBOX_DEFAULT
+	closemessage
+	warp MAP_PETALBURG_CITY, 15, 8
+	waitstate
+	releaseall
+	end
+
+PetalburgCity_Gym_Text_GymIsClosed:
+#if GERMAN
+	.string "Die Arena von Blütenburg City\n"
+	.string "ist zurzeit geschlossen.$"
+#else
+	.string "The PETALBURG CITY GYM is\n"
+	.string "closed at the moment.$"
+#endif
 
 @ HnS: Der Spieler kommt als Johto-Champion nach Hoenn. Norman ist hier
 @ nicht der Vater des Spielers, sondern ein regulaerer Arenaleiter mit
