@@ -189,6 +189,11 @@ u8 HoennScaleTrainerMonLevel(const struct Trainer *trainer, u8 level, u8 partyMa
 
     if (!HoennLevelScalingActive())
         return level;
+    // Superbosse mit festem Originallevel (>= HOENN_SCALING_FIXED_MIN_LEVEL,
+    // z. B. Troy/Steven) bleiben unskaliert - Gegenstueck zu Rot.
+    if (partyMaxLevel >= HOENN_SCALING_FIXED_MIN_LEVEL)
+        return level;
+
     anchor = GetScalingAnchor();
     if (anchor == 0 || partyMaxLevel == 0)
         return level;

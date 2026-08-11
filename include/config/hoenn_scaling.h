@@ -39,6 +39,11 @@
 #define HOENN_SCALING_WILD_ABOVE     4     // ... bis Anker - 4
 #define HOENN_SCALING_BOSS_EXTRA     2     // Boss-Ass: Anker + 3 + 2
 
+// Trainer, deren Originalteam bereits auf oder ueber diesem Level liegt,
+// sind bewusst gesetzte Superbosse (z. B. Troy/Steven in den Meteorfaellen,
+// Level 75-78) und werden NICHT skaliert - wie Rot am Silberberg.
+#define HOENN_SCALING_FIXED_MIN_LEVEL 70
+
 
 // Trainer-Entwicklungsangleich: Trainerpokemon (NICHT Wildpokemon -
 // dort bleibt die Fang-/Selbstentwicklungs-Logik unangetastet) werden
