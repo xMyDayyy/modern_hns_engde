@@ -86,6 +86,18 @@ static EWRAM_DATA struct {
 static bool32 sDrawFlyDestTextWindow;
 
 static u8 ProcessRegionMapInput_Full(void);
+#if IS_HNS
+// HnS: Kartenwechsel JK <-> Hoenn per D-Pad am Kartenrand (nur Ansicht;
+// Fliegen bleibt regionsintern bis FLAG_HOENN_CROSS_REGION_FLY).
+static bool8 sViewedOverridden = FALSE;
+static enum RegionMapType sViewedMapType;
+static enum RegionMapType sViewSwitchTarget;
+static u8 sViewSwitchStep;
+static u8 SwitchViewInputCallback(void);
+static u8 StartRegionMapViewSwitch(enum RegionMapType target);
+#endif
+static enum RegionMapType GetViewedRegionMapType(void);
+static bool32 RegionMapIsViewingForeignRegion(void);
 static u8 MoveRegionMapCursor_Full(void);
 static u8 ProcessRegionMapInput_Zoomed(void);
 static u8 MoveRegionMapCursor_Zoomed(void);
@@ -1035,6 +1047,9 @@ void InitRegionMapData(struct RegionMap *regionMap, const struct BgTemplate *tem
 {
     sRegionMap = regionMap;
     sRegionMap->initStep = 0;
+#if IS_HNS
+    sViewedOverridden = FALSE;
+#endif
     sRegionMap->zoomed = zoomed;
     sRegionMap->inputCallback = zoomed == TRUE ? ProcessRegionMapInput_Zoomed : ProcessRegionMapInput_Full;
     if (template != NULL)
@@ -1067,14 +1082,14 @@ bool8 LoadRegionMapGfx(void)
     switch (sRegionMap->initStep)
     {
     case 0:
-        regionMapType = GetRegionMapType(gMapHeader.regionMapSectionId);
+        regionMapType = GetViewedRegionMapType();
         if (sRegionMap->bgManaged)
             DecompressAndCopyTileDataToVram(sRegionMap->bgNum, gRegionMapInfos[regionMapType].regionMapGfx, 0, 0, 0);
         else
             DecompressDataWithHeaderVram(gRegionMapInfos[regionMapType].regionMapGfx, (u16 *)BG_CHAR_ADDR(2));
         break;
     case 1:
-        regionMapType = GetRegionMapType(gMapHeader.regionMapSectionId);
+        regionMapType = GetViewedRegionMapType();
         if (sRegionMap->bgManaged)
         {
             if (!FreeTempTileDataBuffersIfPossible())
@@ -1086,7 +1101,7 @@ bool8 LoadRegionMapGfx(void)
         }
         break;
     case 2:
-        regionMapType = GetRegionMapType(gMapHeader.regionMapSectionId);
+        regionMapType = GetViewedRegionMapType();
         if (!FreeTempTileDataBuffersIfPossible())
             LoadPalette(gRegionMapInfos[regionMapType].regionMapPalette, BG_PLTT_ID(7), 3 * PLTT_SIZE_4BPP);
         break;
@@ -1171,6 +1186,17 @@ u8 DoRegionMapInputCallback(void)
 
 static u8 ProcessRegionMapInput_Full(void)
 {
+#if IS_HNS
+    // Am unteren JK-Rand weiter runter -> Hoenn-Karte; am oberen
+    // Hoenn-Rand weiter hoch -> zurueck. Hoenn erst nach der Ankunft.
+    if (JOY_HELD(DPAD_DOWN) && sRegionMap->cursorPosY >= MAPCURSOR_Y_MAX
+     && GetViewedRegionMapType() != REGION_MAP_HOENN
+     && VarGet(VAR_HOENN_ARRIVAL_STATE) != 0)
+        return StartRegionMapViewSwitch(REGION_MAP_HOENN);
+    if (JOY_HELD(DPAD_UP) && sRegionMap->cursorPosY <= MAPCURSOR_Y_MIN
+     && GetViewedRegionMapType() == REGION_MAP_HOENN)
+        return StartRegionMapViewSwitch(FlagGet(FLAG_VISITED_KANTO) ? REGION_MAP_JK : REGION_MAP_JOHTO);
+#endif
     u8 input;
 
     input = MAP_INPUT_NONE;
@@ -1519,6 +1545,95 @@ enum RegionMapType GetRegionMapType(u32 mapSecId)
 #endif
 }
 
+#if IS_HNS
+static u8 StartRegionMapViewSwitch(enum RegionMapType target)
+{
+    sViewSwitchTarget = target;
+    sViewSwitchStep = 0;
+    sRegionMap->inputCallback = SwitchViewInputCallback;
+    m4aSongNumStart(SE_SELECT, FlagGet(FLAG_SYS_GBS_ENABLED));
+    return MAP_INPUT_NONE;
+}
+
+static u8 SwitchViewInputCallback(void)
+{
+    switch (sViewSwitchStep)
+    {
+    case 0:
+        sViewedOverridden = TRUE;
+        sViewedMapType = sViewSwitchTarget;
+        if (sRegionMap->bgManaged)
+            DecompressAndCopyTileDataToVram(sRegionMap->bgNum, gRegionMapInfos[sViewSwitchTarget].regionMapGfx, 0, 0, 0);
+        else
+            DecompressDataWithHeaderVram(gRegionMapInfos[sViewSwitchTarget].regionMapGfx, (u16 *)BG_CHAR_ADDR(2));
+        sViewSwitchStep++;
+        break;
+    case 1:
+        if (sRegionMap->bgManaged)
+        {
+            if (!FreeTempTileDataBuffersIfPossible())
+            {
+                DecompressAndCopyTileDataToVram(sRegionMap->bgNum, gRegionMapInfos[sViewSwitchTarget].regionMapTilemap, 0, 0, 1);
+                sViewSwitchStep++;
+            }
+        }
+        else
+        {
+            DecompressDataWithHeaderVram(gRegionMapInfos[sViewSwitchTarget].regionMapTilemap, (u16 *)BG_SCREEN_ADDR(28));
+            sViewSwitchStep++;
+        }
+        break;
+    case 2:
+        if (!FreeTempTileDataBuffersIfPossible())
+        {
+            LoadPalette(gRegionMapInfos[sViewSwitchTarget].regionMapPalette, BG_PLTT_ID(7), 3 * PLTT_SIZE_4BPP);
+            sViewSwitchStep++;
+        }
+        break;
+    default:
+        // Cursor auf die Eintrittskante, Zustand/Namen aktualisieren
+        if (sViewSwitchTarget == REGION_MAP_HOENN)
+            sRegionMap->cursorPosY = MAPCURSOR_Y_MIN;
+        else
+            sRegionMap->cursorPosY = MAPCURSOR_Y_MAX;
+        if (sRegionMap->cursorSprite != NULL)
+        {
+            sRegionMap->cursorSprite->x = 8 * sRegionMap->cursorPosX + 4;
+            sRegionMap->cursorSprite->y = 8 * sRegionMap->cursorPosY + 4;
+        }
+        // Spieler-Icon nur auf der Heimatkarte anzeigen
+        if (sRegionMap->playerIconSprite != NULL)
+            sRegionMap->playerIconSprite->invisible = RegionMapIsViewingForeignRegion();
+        sRegionMap->mapSecId = CorrectSpecialMapSecId_Internal(GetMapSecIdAt(sRegionMap->cursorPosX, sRegionMap->cursorPosY));
+        sRegionMap->mapSecType = GetMapsecType(sRegionMap->mapSecId);
+        GetMapName(sRegionMap->mapSecName, sRegionMap->mapSecId, MAP_NAME_LENGTH);
+        GetPositionOfCursorWithinMapSec();
+        sRegionMap->inputCallback = ProcessRegionMapInput_Full;
+        return MAP_INPUT_MOVE_END;
+    }
+    return MAP_INPUT_NONE;
+}
+#endif
+
+static enum RegionMapType GetViewedRegionMapType(void)
+{
+#if IS_HNS
+    if (sViewedOverridden)
+        return sViewedMapType;
+#endif
+    return GetRegionMapType(gMapHeader.regionMapSectionId);
+}
+
+static bool32 RegionMapIsViewingForeignRegion(void)
+{
+#if IS_HNS
+    return sViewedOverridden
+        && sViewedMapType != GetRegionMapType(gMapHeader.regionMapSectionId);
+#else
+    return FALSE;
+#endif
+}
+
 static mapsec_u16_t GetMapSecIdAt(u16 x, u16 y)
 {
     if (y < MAPCURSOR_Y_MIN || y > MAPCURSOR_Y_MAX || x < MAPCURSOR_X_MIN || x > MAPCURSOR_X_MAX)
@@ -1529,6 +1644,8 @@ static mapsec_u16_t GetMapSecIdAt(u16 x, u16 y)
     x -= MAPCURSOR_X_MIN;
 
 #if IS_HNS
+    if (GetViewedRegionMapType() == REGION_MAP_HOENN)
+        return sRegionMap_MapSectionLayout[y][x];
     if (FlagGet(FLAG_VISITED_KANTO))
         return sRegionMapSections_JK[y][x];
     return sRegionMapSections_Johto[y][x];
@@ -2949,6 +3066,12 @@ static void CB_HandleFlyMapInput(void)
             DrawFlyDestTextWindow();
             break;
         case MAP_INPUT_A_BUTTON:
+#if IS_HNS
+            // Fremde Regionskarte ist nur Ansicht, solange das
+            // regionsuebergreifende Fliegen nicht freigeschaltet ist.
+            if (RegionMapIsViewingForeignRegion() && !FlagGet(FLAG_HOENN_CROSS_REGION_FLY))
+                break;
+#endif
             if (sFlyMap->regionMap.mapSecType == MAPSECTYPE_CITY_CANFLY || sFlyMap->regionMap.mapSecType == MAPSECTYPE_BATTLE_FRONTIER)
             {
                 m4aSongNumStart(SE_SELECT, FlagGet(FLAG_SYS_GBS_ENABLED));

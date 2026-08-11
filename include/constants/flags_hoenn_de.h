@@ -1766,6 +1766,10 @@
 #undef  FLAG_WORLD_MAP_VIRIDIAN_FOREST
 #define FLAG_WORLD_MAP_VIRIDIAN_FOREST (HOENN_FLAGS_START + 0x366)
 
-#define HOENN_FLAGS_END (HOENN_FLAGS_START + 0x366)
+// Regionsuebergreifendes Fliegen (Story-Freigabe; bis dahin ist die
+// fremde Regionskarte nur Ansicht - Rueckreise immer per Schiff)
+#define FLAG_HOENN_CROSS_REGION_FLY (HOENN_FLAGS_START + 0x367)
+
+#define HOENN_FLAGS_END (HOENN_FLAGS_START + 0x367)
 
 #endif // GUARD_CONSTANTS_FLAGS_HOENN_DE_H
