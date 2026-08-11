@@ -30,21 +30,26 @@ static const struct HoennScalingCorridor sCorridors[] =
     HOENN_SCALING_CORRIDORS
 };
 
-bool32 HoennLevelScalingActive(void)
+// Liegt die Mapsection in der Hoenn-Welt? (Auch von der Regionskarte
+// genutzt, um in Hoenn die Smaragd-Karte zu oeffnen.)
+bool32 IsHoennMapsec(u32 mapSecId)
 {
-    u16 mapsec = gMapHeader.regionMapSectionId;
-
     // Zusammenhaengender Hoenn-Block der HnS-Mapsection-Liste ...
-    if (mapsec >= MAPSEC_LITTLEROOT_TOWN && mapsec < MAPSEC_NONE)
+    if (mapSecId >= MAPSEC_LITTLEROOT_TOWN && mapSecId < MAPSEC_NONE)
         return TRUE;
     // ... plus die drei Sections, die Hoenn mit dem Johto/Kanto-
     // Nummernkreis teilt (kein aktiver _hns-Nutzer bzw. nur
     // Platzhalterkarten): Siegesstrasse, Safari-Zone, Wrack.
-    if (mapsec == MAPSEC_VICTORY_ROAD
-     || mapsec == MAPSEC_SAFARI_ZONE
-     || mapsec == MAPSEC_ABANDONED_SHIP)
+    if (mapSecId == MAPSEC_VICTORY_ROAD
+     || mapSecId == MAPSEC_SAFARI_ZONE
+     || mapSecId == MAPSEC_ABANDONED_SHIP)
         return TRUE;
     return FALSE;
+}
+
+bool32 HoennLevelScalingActive(void)
+{
+    return IsHoennMapsec(gMapHeader.regionMapSectionId);
 }
 
 static u8 GetScalingAnchor(void)
@@ -205,6 +210,11 @@ u8 HoennScaleTrainerMonLevel(const struct Trainer *trainer, u8 level, u8 partyMa
 #else // Durchreichen ohne Scaling (Emerald-/FRLG-Build oder abgeschaltet)
 
 bool32 HoennLevelScalingActive(void)
+{
+    return FALSE;
+}
+
+bool32 IsHoennMapsec(u32 mapSecId)
 {
     return FALSE;
 }

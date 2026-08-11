@@ -21,6 +21,7 @@
 #include "fldeff.h"
 #include "regions.h"
 #include "region_map.h"
+#include "hoenn_level_scaling.h"
 #include "decompress.h"
 #include "constants/region_map_sections.h"
 #include "heal_location.h"
@@ -1488,6 +1489,10 @@ void PokedexAreaScreen_UpdateRegionMapVariablesAndVideoRegs(s16 x, s16 y)
 enum RegionMapType GetRegionMapType(u32 mapSecId)
 {
 #if IS_HNS
+    // HnS: In der Hoenn-Welt oeffnet sich die Smaragd-Karte (Grafik,
+    // Cursor-Koordinaten und Fly-Ziele sind bereits verdrahtet).
+    if (IsHoennMapsec(mapSecId))
+        return REGION_MAP_HOENN;
     if (FlagGet(FLAG_VISITED_KANTO))
         return REGION_MAP_JK;
     return REGION_MAP_JOHTO;
