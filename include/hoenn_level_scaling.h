@@ -11,5 +11,6 @@ struct Trainer;
 bool32 HoennLevelScalingActive(void);
 u8 HoennScaleWildMonLevel(u8 level);
 u8 HoennScaleTrainerMonLevel(const struct Trainer *trainer, u8 level, u8 partyMaxLevel);
+u16 HoennScaleTrainerMonSpecies(u16 species, u8 scaledLevel);
 
 #endif // GUARD_HOENN_LEVEL_SCALING_H

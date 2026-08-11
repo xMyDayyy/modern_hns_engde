@@ -39,6 +39,17 @@
 #define HOENN_SCALING_WILD_ABOVE     4     // ... bis Anker - 4
 #define HOENN_SCALING_BOSS_EXTRA     2     // Boss-Ass: Anker + 3 + 2
 
+
+// Trainer-Entwicklungsangleich: Trainerpokemon (NICHT Wildpokemon -
+// dort bleibt die Fang-/Selbstentwicklungs-Logik unangetastet) werden
+// beim Erzeugen entlang ihrer Entwicklungskette angehoben, solange
+// das skalierte Level die jeweilige Schwelle erreicht. Ein Level-57-
+// Waumpel eines Kaefersammlers wird so zu Papinella/Pudox statt zum
+// Scheingegner. Stein-/Tausch-Entwicklungen nutzen die Ersatzschwelle.
+// Verzweigungen (z. B. Waumpel) werden zufaellig gewaehlt.
+#define HOENN_SCALING_TRAINER_EVOLVE TRUE
+#define HOENN_SCALING_EVO_OTHER_LEVEL 36   // Schwelle fuer Stein/Tausch
+
 #define HOENN_SCALING_MIN_LEVEL      5     // absolute Untergrenze
 #define HOENN_SCALING_MAX_LEVEL      100   // absolute Obergrenze
 

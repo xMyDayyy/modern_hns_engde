@@ -2065,11 +2065,12 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
                 otId.value = HIHALF(personalityValue) ^ LOHALF(personalityValue);
             }
             {
-                u16 species = partyData[monIndex].species;
+                u8 hoennScaledLvl = HoennScaleTrainerMonLevel(trainer, partyData[monIndex].lvl, hoennPartyMaxLvl);
+                u16 species = HoennScaleTrainerMonSpecies(partyData[monIndex].species, hoennScaledLvl);
                 #if RANDOMIZER_AVAILABLE == TRUE
                 species = RandomizeTrainerMon(trainer->trainerClass, i, monsCount, species);
                 #endif
-                CreateMon(&party[i], species, HoennScaleTrainerMonLevel(trainer, partyData[monIndex].lvl, hoennPartyMaxLvl), personalityValue, otId);
+                CreateMon(&party[i], species, hoennScaledLvl, personalityValue, otId);
             }
             SetMonData(&party[i], MON_DATA_HELD_ITEM, &partyData[monIndex].heldItem);
 

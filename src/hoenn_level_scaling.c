@@ -114,6 +114,52 @@ u8 HoennScaleWildMonLevel(u8 level)
     return ClampScaledLevel(scaled, floor, ceiling);
 }
 
+
+// Hebt eine Trainer-Art entlang ihrer Entwicklungskette an, solange
+// das skalierte Level die Schwelle erreicht. Nur fuer Trainerteams -
+// Wildpokemon behalten bewusst ihre Basisformen (Fangbarkeit).
+u16 HoennScaleTrainerMonSpecies(u16 species, u8 scaledLevel)
+{
+    u32 step, i;
+
+    if (HOENN_SCALING_TRAINER_EVOLVE != TRUE || !HoennLevelScalingActive())
+        return species;
+
+    for (step = 0; step < 2; step++)
+    {
+        const struct Evolution *evos = GetSpeciesEvolutions(species);
+        u16 candidates[8];
+        u32 count = 0;
+
+        if (evos == NULL)
+            break;
+        for (i = 0; evos[i].method != EVOLUTIONS_END && count < ARRAY_COUNT(candidates); i++)
+        {
+            u16 threshold;
+            switch (evos[i].method)
+            {
+            case EVO_LEVEL:
+            case EVO_LEVEL_BATTLE_ONLY:
+                threshold = evos[i].param;
+                break;
+            case EVO_ITEM:
+            case EVO_TRADE:
+                threshold = HOENN_SCALING_EVO_OTHER_LEVEL;
+                break;
+            default:
+                continue;
+            }
+            if (scaledLevel >= threshold)
+                candidates[count++] = evos[i].targetSpecies;
+        }
+        if (count == 0)
+            break;
+        // Verzweigungen (z. B. Waumpel -> Schaloko/Panekon) zufaellig.
+        species = candidates[Random() % count];
+    }
+    return species;
+}
+
 static bool32 IsBossTrainer(const struct Trainer *trainer)
 {
     switch (trainer->trainerClass)
@@ -171,6 +217,11 @@ u8 HoennScaleWildMonLevel(u8 level)
 u8 HoennScaleTrainerMonLevel(const struct Trainer *trainer, u8 level, u8 partyMaxLevel)
 {
     return level;
+}
+
+u16 HoennScaleTrainerMonSpecies(u16 species, u8 scaledLevel)
+{
+    return species;
 }
 
 #endif
