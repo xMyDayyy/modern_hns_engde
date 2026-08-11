@@ -268,6 +268,7 @@ static void DebugAction_Util_Weather(u8 taskId);
 static void DebugAction_Util_Weather_SelectId(u8 taskId);
 static void DebugAction_Util_WatchCredits(u8 taskId);
 static void DebugAction_Util_CheatStart(u8 taskId);
+static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId);
 
 static void DebugAction_TimeMenu_ChangeTimeOfDay(u8 taskId);
 static void DebugAction_TimeMenu_ChangeWeekdays(u8 taskId);
@@ -571,6 +572,7 @@ static const struct DebugMenuOption sDebugMenu_Actions_Utilities[] =
     { COMPOUND_STRING("Time Functions…"),   DebugAction_OpenSubMenu, sDebugMenu_Actions_TimeMenu, },
     { COMPOUND_STRING("Watch credits…"),    DebugAction_Util_WatchCredits },
     { COMPOUND_STRING("Cheat start"),       DebugAction_Util_CheatStart },
+    { COMPOUND_STRING("HnS: Finish Johto+Kanto"), DebugAction_Util_HnsFinishJohtoKanto },
     { COMPOUND_STRING("Berry Functions…"),  DebugAction_OpenSubMenu, sDebugMenu_Actions_BerryFunctions },
     { COMPOUND_STRING("EWRAM Counters…"),   DebugAction_ExecuteScript, Debug_EventScript_EWRAMCounters },
     { COMPOUND_STRING("Follower NPC…"),     DebugAction_OpenSubMenu, sDebugMenu_Actions_FollowerNPCMenu },
@@ -1810,6 +1812,70 @@ static void DebugAction_Util_CheatStart(u8 taskId)
     else
         Debug_DestroyMenu_Full_Script(taskId, Debug_CheatStart);
 }
+
+#if IS_HNS
+// Testwerkzeug: markiert Johto+Kanto als abgeschlossen (16 Orden,
+// Champion, alle Flugpunkte, S.S.-Aqua-Hoenn-Route frei) und stellt
+// ein levelgerechtes Champion-Team samt VM-Attacken - damit jeder
+// frische Spielstand direkt in Hoenn getestet werden kann.
+static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
+{
+    static const u16 sJkVisitedFlags[] =
+    {
+        FLAG_VISITED_NEWBARK_TOWN,   FLAG_VISITED_CHERRYGROVE_CITY,
+        FLAG_VISITED_VIOLET_CITY,    FLAG_VISITED_AZALEA_TOWN,
+        FLAG_VISITED_GOLDENROD_CITY, FLAG_VISITED_ECRUTEAK_CITY,
+        FLAG_VISITED_OLIVINE_CITY,   FLAG_VISITED_CIANWOOD_CITY,
+        FLAG_VISITED_MAHOGANY_TOWN,  FLAG_VISITED_LAKE_OF_RAGE,
+        FLAG_VISITED_BLACKTHORN_CITY, FLAG_VISITED_MT_SILVER,
+        FLAG_VISITED_INDIGO_PLATEAU, FLAG_VISITED_RECEPTION_GATE,
+        FLAG_VISITED_SAFARI_ZONE_GATE,
+        FLAG_VISITED_PALLET_TOWN,    FLAG_VISITED_OAKS_LAB,
+        FLAG_VISITED_VIRIDIAN_CITY,  FLAG_VISITED_PEWTER_CITY,
+        FLAG_VISITED_CERULEAN_CITY,  FLAG_VISITED_VERMILION_CITY,
+        FLAG_VISITED_LAVENDER_TOWN,  FLAG_VISITED_CELADON_CITY,
+        FLAG_VISITED_SAFFRON_CITY,   FLAG_VISITED_FUCHSIA_CITY,
+        FLAG_VISITED_CINNABAR_ISLAND,
+    };
+    static const u16 sTeamSpecies[] = { SPECIES_TYPHLOSION, SPECIES_AMPHAROS, SPECIES_GYARADOS, SPECIES_CROBAT, SPECIES_MACHAMP, SPECIES_SKARMORY };
+    static const u8 sTeamLevels[]   = { 62, 58, 58, 57, 59, 57 };
+    u32 i;
+    u16 f;
+
+    // 16 Orden (Johto 1-8, Kanto 9-16)
+    for (f = FLAG_BADGE01_GET; f <= FLAG_BADGE08_GET; f++)
+        FlagSet(f);
+    for (f = FLAG_BADGE09_GET; f <= FLAG_BADGE16_GET; f++)
+        FlagSet(f);
+    // Champion + Systeme
+    FlagSet(FLAG_SYS_GAME_CLEAR);
+    FlagSet(FLAG_SYS_POKEDEX_GET);
+    FlagSet(FLAG_VISITED_KANTO);
+    // Flugpunkte Johto+Kanto (Hoenn bleibt bewusst unbesucht)
+    for (i = 0; i < ARRAY_COUNT(sJkVisitedFlags); i++)
+        FlagSet(sJkVisitedFlags[i]);
+    // S.S. Aqua: Kanto-Route abgeschlossen -> Hoenn-Option im Hafen
+    VarSet(VAR_SSAQUA_STATE, 7);
+    // Levelgerechtes Champion-Team (Gen 1-2) mit VM-Attacken
+    ZeroPlayerPartyMons();
+    for (i = 0; i < ARRAY_COUNT(sTeamSpecies); i++)
+        ScriptGiveMon(sTeamSpecies[i], sTeamLevels[i], ITEM_NONE);
+    GiveMoveToMon(&gPlayerParty[2], MOVE_SURF);
+    GiveMoveToMon(&gPlayerParty[2], MOVE_WATERFALL);
+    GiveMoveToMon(&gPlayerParty[4], MOVE_STRENGTH);
+    GiveMoveToMon(&gPlayerParty[5], MOVE_FLY);
+    CalculatePlayerPartyCount();
+    SetMoney(&gSaveBlock1Ptr->money, 200000);
+
+    PlaySE(SE_EXP_MAX);
+    Debug_DestroyMenu_Full(taskId);
+}
+#else
+static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
+{
+    Debug_DestroyMenu_Full(taskId);
+}
+#endif
 
 void BufferExpansionVersion(struct ScriptContext *ctx)
 {
