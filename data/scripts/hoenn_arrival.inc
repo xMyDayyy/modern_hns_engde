@@ -34,7 +34,9 @@ Common_EventScript_HoennSkipIntro::
 	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	setflag FLAG_HIDE_ROUTE_101_ZIGZAGOON
 	setflag FLAG_HIDE_ROUTE_103_BIRCH
-	setflag FLAG_HIDE_ROUTE_103_RIVAL
+	@ HnS: Maike (Birks Tochter) steht auf Route 103 - die Erstbegegnung
+	@ mit dem Champion samt erstem Kampf findet dort statt (siehe
+	@ Route103/scripts.inc). Ihr Hide-Flag setzt erst der Nachkampf.
 	setflag FLAG_HIDE_OLDALE_TOWN_RIVAL
 	setflag FLAG_SET_WALL_CLOCK
 	setflag FLAG_ADVENTURE_STARTED
@@ -45,7 +47,6 @@ Common_EventScript_HoennSkipIntro::
 	setflag FLAG_MET_RIVAL_MOM
 	setflag FLAG_BIRCH_AIDE_MET
 	setflag FLAG_RIVAL_LEFT_FOR_ROUTE103
-	setflag FLAG_DEFEATED_RIVAL_ROUTE103
 	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
 	setflag FLAG_VISITED_LITTLEROOT_TOWN
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
@@ -440,6 +441,10 @@ BirchsLab_Text_HoennGoodLuck:
 	.string "im Westen, Metarost City im Norden.\p"
 	.string "Beide haben Arenen - falls es dich\n"
 	.string "danach juckt.\p"
+	.string "Ach ja: Meine Tochter Maike ist\n"
+	.string "oben auf Route 103 unterwegs.\p"
+	.string "Sie würde dich sicher gern\n"
+	.string "kennenlernen - schau doch vorbei!\p"
 	.string "Und jetzt raus mit dir.\n"
 	.string "Viel Spaß, {PLAYER}!$"
 #else
@@ -447,6 +452,10 @@ BirchsLab_Text_HoennGoodLuck:
 	.string "west, RUSTBORO to the north.\p"
 	.string "Both have GYMS - in case you feel\n"
 	.string "the itch.\p"
+	.string "Oh, and my daughter MAY is out\n"
+	.string "on ROUTE 103 up north.\p"
+	.string "I'm sure she'd love to meet you -\n"
+	.string "why not drop by?\p"
 	.string "Now off you go.\n"
 	.string "Have fun, {PLAYER}!$"
 #endif

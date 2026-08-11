@@ -1,4 +1,10 @@
 Common_EventScript_SetupRivalGfxId::
+#if defined(POKEMON_HNS)
+	@ HnS-Kanon: Birks Kind ist immer Maike (Brix ist Normans Sohn).
+	@ Die Rivalengrafik haengt daher nicht mehr am Spielergeschlecht.
+	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_RIVAL_MAY_NORMAL
+	end
+#endif
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, EventScript_SetupRivalGfxIdFemale
 	goto_if_eq VAR_RESULT, FEMALE, EventScript_SetupRivalGfxIdMale

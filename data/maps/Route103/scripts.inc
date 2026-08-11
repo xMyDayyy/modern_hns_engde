@@ -19,10 +19,141 @@ Route103_EventScript_OpenAlteringCave::
 
 Route103_EventScript_Rival::
 	lockall
+#if defined(POKEMON_HNS)
+	@ HnS-Kanon: Birks Kind ist immer Maike. Erstbegegnung mit dem
+	@ Champion, danach Pokegear-Registrierung; der Vanilla-Nachlauf
+	@ (Labor-Pokedex-Event, Oldale-/Labor-Respawn) entfaellt.
+	goto Route103_EventScript_RivalMayHns
+#endif
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route103_EventScript_RivalMay
 	goto_if_eq VAR_RESULT, FEMALE, Route103_EventScript_RivalBrendan
 	end
+
+#if defined(POKEMON_HNS)
+Route103_EventScript_RivalMayHns::
+	msgbox Route103_Text_MayHnsMusing, MSGBOX_DEFAULT
+	closemessage
+	playbgm MUS_ENCOUNTER_MAY, TRUE
+	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_FacePlayer
+	waitmovement 0
+	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	msgbox Route103_Text_MayHnsLetsBattle, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_TREECKO, Route103_Text_MayHnsDefeated
+	msgbox Route103_Text_MayHnsAfterBattle, MSGBOX_DEFAULT
+	setflag FLAG_REGISTER_RIVAL_POKENAV
+	setflag FLAG_ENABLE_RIVAL_MATCH_CALL
+	goto Route103_EventScript_RivalExitHns
+	end
+
+Route103_EventScript_RivalExitHns::
+	closemessage
+	switch VAR_FACING
+	case DIR_SOUTH, Route103_EventScript_RivalExitHnsFacingSouth
+	case DIR_NORTH, Route103_EventScript_RivalExitHnsFacingNorth
+	case DIR_WEST, Route103_EventScript_RivalExitHnsFacingEastOrWest
+	case DIR_EAST, Route103_EventScript_RivalExitHnsFacingEastOrWest
+	end
+
+Route103_EventScript_RivalExitHnsFacingNorth::
+	applymovement LOCALID_PLAYER, Route103_Movement_WatchRivalExitFacingNorth
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExitFacingNorth1
+	waitmovement 0
+	playse SE_LEDGE
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExitFacingNorth2
+	waitmovement 0
+	goto Route103_EventScript_RivalEndHns
+	end
+
+Route103_EventScript_RivalExitHnsFacingEastOrWest::
+	applymovement LOCALID_PLAYER, Route103_Movement_WatchRivalExitFacingEastOrWest
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExit1
+	waitmovement 0
+	playse SE_LEDGE
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExit2
+	waitmovement 0
+	goto Route103_EventScript_RivalEndHns
+	end
+
+Route103_EventScript_RivalExitHnsFacingSouth::
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExit1
+	waitmovement 0
+	playse SE_LEDGE
+	applymovement LOCALID_ROUTE103_RIVAL, Route103_Movement_RivalExit2
+	waitmovement 0
+	goto Route103_EventScript_RivalEndHns
+	end
+
+Route103_EventScript_RivalEndHns::
+	removeobject LOCALID_ROUTE103_RIVAL
+	setflag FLAG_HIDE_ROUTE_103_RIVAL
+	setflag FLAG_DEFEATED_RIVAL_ROUTE103
+	savebgm MUS_DUMMY
+	fadedefaultbgm
+	releaseall
+	end
+
+Route103_Text_MayHnsMusing:
+#if GERMAN
+	.string "Maike: Mal sehen…\n"
+	.string "Hier oben müssten doch ein paar\l"
+	.string "starke Pokémon zu finden sein…$"
+#else
+	.string "MAY: Let's see…\n"
+	.string "There should be some strong\l"
+	.string "POKéMON around here…$"
+#endif
+
+Route103_Text_MayHnsLetsBattle:
+#if GERMAN
+	.string "Oh! Du bist {PLAYER}, stimmt's?\p"
+	.string "Papa hat mir von dir erzählt -\n"
+	.string "der Champion aus Johto und Kanto,\l"
+	.string "hier bei uns in Hoenn!\p"
+	.string "Ich bin Maike, Prof. Birks Tochter.\n"
+	.string "Und ich will wissen, wo ich stehe:\l"
+	.string "Kämpf mit mir!$"
+#else
+	.string "Oh! You're {PLAYER}, right?\p"
+	.string "Dad told me about you - the\n"
+	.string "CHAMPION of JOHTO and KANTO,\l"
+	.string "here in HOENN!\p"
+	.string "I'm MAY, PROF. BIRCH's daughter.\n"
+	.string "And I want to know where I stand:\l"
+	.string "Battle me!$"
+#endif
+
+Route103_Text_MayHnsDefeated:
+#if GERMAN
+	.string "Wow… Das war wohl eine\n"
+	.string "Nummer zu groß für mich!$"
+#else
+	.string "Wow… I guess that was a\n"
+	.string "little out of my league!$"
+#endif
+
+Route103_Text_MayHnsAfterBattle:
+#if GERMAN
+	.string "Maike: Gegen den Champion zu\n"
+	.string "verlieren ist keine Schande!\p"
+	.string "Warte, ich trage mich in deinem\n"
+	.string "Pokégear ein - falls du mal einen\l"
+	.string "Rückkampf willst!\p"
+	.string "Ich gehe zurück ins Labor.\n"
+	.string "Bis bald, {PLAYER}!$"
+#else
+	.string "MAY: Losing to the CHAMPION\n"
+	.string "is nothing to be ashamed of!\p"
+	.string "Wait, let me register myself in\n"
+	.string "your POKéGEAR - in case you ever\l"
+	.string "want a rematch!\p"
+	.string "I'm heading back to the LAB.\n"
+	.string "See you around, {PLAYER}!$"
+#endif
+#endif
 
 Route103_EventScript_RivalMay::
 	msgbox Route103_Text_MayRoute103Pokemon, MSGBOX_DEFAULT
