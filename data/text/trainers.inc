@@ -1,13 +1,14 @@
 Route102_Text_CalvinIntro:
 #if GERMAN
-	.string "Wenn du Pokémon bei dir hast, bist du\n"
-	.string "offiziell ein Pokémon-Trainer! Daher\l"
-	.string "kannst du meine Herausforderung nicht\l"
-	.string "ablehnen!$"
+	.string "Dich habe ich hier noch nie\n"
+	.string "gesehen! Und dein Pokémon sieht\l"
+	.string "richtig stark aus…\p"
+	.string "Zeig mir, was du drauf hast!$"
 #else
-	.string "If you have POKéMON with you, then\n"
-	.string "you're an official POKéMON TRAINER!\l"
-	.string "You can't say no to my challenge!$"
+	.string "I've never seen you around here\n"
+	.string "before! And your POKéMON looks\l"
+	.string "really strong…\p"
+	.string "Show me what you've got!$"
 #endif
 
 Route102_Text_CalvinDefeated:
@@ -83,11 +84,15 @@ Route102_Text_CalvinRematchPostBattle:
 
 Route102_Text_AllenIntro:
 #if GERMAN
-	.string "Bist du gerade erst Trainer geworden?\n"
-	.string "Dann sind wir ja beide Anfänger.$"
+	.string "Ich bin noch nicht lange Trainer…\n"
+	.string "Aber weißt du was?\p"
+	.string "Gegen einen starken Fremden lernt\n"
+	.string "man am meisten! Los!$"
 #else
-	.string "Did you just become a TRAINER?\n"
-	.string "We're both beginners!$"
+	.string "I haven't been a TRAINER for\n"
+	.string "long… But you know what?\p"
+	.string "Battling a strong stranger is the\n"
+	.string "best way to learn! Let's go!$"
 #endif
 
 Route102_Text_AllenDefeated:

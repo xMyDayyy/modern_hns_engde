@@ -54,25 +54,28 @@ PetalburgCity_Text_WallyGymClosed:
 #if GERMAN
 	.string "Heiko: Äh… Entschuldige!\n"
 	.string "Die Arena ist leider geschlossen.\p"
-	.string "Moment… Du bist doch {PLAYER}!\n"
-	.string "Der Champion aus Johto und Kanto!\p"
-	.string "Ich… ich hätte eine Bitte.\n"
-	.string "Papa hat mir ein Pokémon gegeben,\l"
-	.string "damit ich im hohen Gras selbst\l"
-	.string "eins fangen kann.\p"
-	.string "Aber ich habe das noch nie gemacht…\n"
-	.string "Kommst du mit und hilfst mir?$"
+	.string "Oh! Dein Pokémon… es läuft dir\n"
+	.string "einfach so hinterher!\p"
+	.string "Du musst ein richtig guter\n"
+	.string "Trainer sein…\p"
+	.string "Ich… ich hätte eine Bitte: Papa\n"
+	.string "hat mir ein Pokémon gegeben, damit\l"
+	.string "ich im hohen Gras selbst eins\l"
+	.string "fangen kann.\p"
+	.string "Kannst du mir zeigen,\n"
+	.string "wie man das macht?$"
 #else
 	.string "WALLY: Um… Excuse me!\n"
 	.string "The GYM is closed, I'm afraid.\p"
-	.string "Wait… You're {PLAYER}, aren't you?\n"
-	.string "The CHAMPION of JOHTO and KANTO!\p"
-	.string "I… I have a favor to ask.\n"
-	.string "My dad gave me a POKéMON so I\l"
-	.string "can catch one of my own in the\l"
-	.string "tall grass.\p"
-	.string "But I've never done it before…\n"
-	.string "Would you come along and help me?$"
+	.string "Oh! Your POKéMON… it just\n"
+	.string "follows you around!\p"
+	.string "You must be a really good\n"
+	.string "TRAINER…\p"
+	.string "I… I have a favor to ask: My dad\n"
+	.string "gave me a POKéMON so I can catch\l"
+	.string "one of my own in the tall grass.\p"
+	.string "Could you show me\n"
+	.string "how it's done?$"
 #endif
 
 PetalburgCity_EventScript_WallyTutorial::
@@ -108,16 +111,16 @@ PetalburgCity_EventScript_WallyTutorial::
 
 PetalburgCity_Text_WallyThanksGoesHome:
 #if GERMAN
-	.string "Heiko: Danke, {PLAYER}!\n"
-	.string "Das vergesse ich dir nie!\p"
+	.string "Heiko: Danke! Das vergesse\n"
+	.string "ich dir nie!\p"
 	.string "Ich laufe gleich zu Papa und\n"
 	.string "zeige es ihm! Eines Tages werde\l"
 	.string "ich ein Trainer wie du!$"
 #else
-	.string "WALLY: Thank you, {PLAYER}!\n"
-	.string "I'll never forget this!\p"
-	.string "I'm going to show my dad!\n"
-	.string "And one day… I'll be a TRAINER\l"
+	.string "WALLY: Thank you! I'll never\n"
+	.string "forget this!\p"
+	.string "I'll run and show my dad!\n"
+	.string "One day, I'll be a TRAINER\l"
 	.string "just like you!$"
 #endif
 
