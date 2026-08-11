@@ -778,15 +778,15 @@ PetalburgCity_Text_WhereIsWally:
 
 PetalburgCity_Text_AreYouRookieTrainer:
 #if GERMAN
-	.string "He da! Bist du vielleicht…\n"
-	.string "ein Anfänger unter den Trainern?\p"
+	.string "He da! Du bist neu in der\n"
+	.string "Stadt, oder?\p"
 	.string "Weißt du, was Pokémon-Trainer machen,\n"
 	.string "wenn sie in einen neuen Ort kommen?\p"
 	.string "Sie sehen sich als Erstes die Arena\n"
 	.string "im Ort an.$"
 #else
-	.string "Hiya! Are you maybe…\n"
-	.string "A rookie TRAINER?\p"
+	.string "Hiya! You're new in town,\n"
+	.string "aren't you?\p"
 	.string "Do you know what POKéMON TRAINERS\n"
 	.string "do when they reach a new town?\p"
 	.string "They first check what kind of GYM\n"
@@ -884,18 +884,18 @@ PetalburgCity_Text_WellMaybeNot:
 #if GERMAN
 	.string "… … … … …\n"
 	.string "…\p"
-	.string "Nun, vielleicht auch nicht.\n"
-	.string "Deine Kleidung ist noch relativ\n"
-	.string "sauber. \p"
-	.string "Entweder bist du gerade erst Trainer\n"
-	.string "geworden oder du bist einfach ein ganz\l"
-	.string "normales Kind.$"
+	.string "Nein, warte. So, wie deine Pokémon\n"
+	.string "dich ansehen… die sind\l"
+	.string "außergewöhnlich gut trainiert.\p"
+	.string "Du bist nicht von hier,\n"
+	.string "stimmt's?$"
 #else
 	.string "… … … … … …\p"
-	.string "Well, maybe not.\n"
-	.string "Your clothes aren't all that dirty.\p"
-	.string "You're either a rookie TRAINER,\n"
-	.string "or maybe you're just an ordinary kid.$"
+	.string "No, wait. The way your POKéMON\n"
+	.string "look at you… they're exceptionally\l"
+	.string "well trained.\p"
+	.string "You're not from around here,\n"
+	.string "are you?$"
 #endif
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
