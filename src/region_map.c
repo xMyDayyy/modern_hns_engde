@@ -87,8 +87,9 @@ static bool32 sDrawFlyDestTextWindow;
 
 static u8 ProcessRegionMapInput_Full(void);
 #if IS_HNS
-// HnS: Kartenwechsel JK <-> Hoenn per D-Pad am Kartenrand (nur Ansicht;
-// Fliegen bleibt regionsintern bis FLAG_HOENN_CROSS_REGION_FLY).
+// HnS: Kartenwechsel JK <-> Hoenn per D-Pad am Kartenrand. Fliegen ist
+// in beide Richtungen erlaubt - die natuerliche Grenze sind die
+// Besucht-Flags (nur bereits besuchte Orte sind waehlbar).
 static bool8 sViewedOverridden = FALSE;
 static enum RegionMapType sViewedMapType;
 static enum RegionMapType sViewSwitchTarget;
@@ -1887,7 +1888,8 @@ static u8 GetMapsecType(mapsec_u16_t mapSecId)
     {
     case MAPSEC_NONE:
         return MAPSECTYPE_NONE;
-#if !IS_HNS
+    // HnS: Hoenn-Staedte sind auch hier Fly-Ziele (Besucht-Flags
+    // setzen die Vanilla-Stadtscripts beim Betreten).
     case MAPSEC_LITTLEROOT_TOWN:
         return FlagGet(FLAG_VISITED_LITTLEROOT_TOWN) ? MAPSECTYPE_CITY_CANFLY : MAPSECTYPE_CITY_CANTFLY;
     case MAPSEC_OLDALE_TOWN:
@@ -1918,7 +1920,6 @@ static u8 GetMapsecType(mapsec_u16_t mapSecId)
         return FlagGet(FLAG_VISITED_SOOTOPOLIS_CITY) ? MAPSECTYPE_CITY_CANFLY : MAPSECTYPE_CITY_CANTFLY;
     case MAPSEC_EVER_GRANDE_CITY:
         return FlagGet(FLAG_VISITED_EVER_GRANDE_CITY) ? MAPSECTYPE_CITY_CANFLY : MAPSECTYPE_CITY_CANTFLY;
-#endif
     case MAPSEC_BATTLE_FRONTIER:
         return FlagGet(FLAG_LANDMARK_BATTLE_FRONTIER) ? MAPSECTYPE_BATTLE_FRONTIER : MAPSECTYPE_NONE;
 #if IS_HNS
@@ -3066,12 +3067,6 @@ static void CB_HandleFlyMapInput(void)
             DrawFlyDestTextWindow();
             break;
         case MAP_INPUT_A_BUTTON:
-#if IS_HNS
-            // Fremde Regionskarte ist nur Ansicht, solange das
-            // regionsuebergreifende Fliegen nicht freigeschaltet ist.
-            if (RegionMapIsViewingForeignRegion() && !FlagGet(FLAG_HOENN_CROSS_REGION_FLY))
-                break;
-#endif
             if (sFlyMap->regionMap.mapSecType == MAPSECTYPE_CITY_CANFLY || sFlyMap->regionMap.mapSecType == MAPSECTYPE_BATTLE_FRONTIER)
             {
                 m4aSongNumStart(SE_SELECT, FlagGet(FLAG_SYS_GBS_ENABLED));
