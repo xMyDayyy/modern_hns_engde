@@ -283,7 +283,7 @@ static const struct MatchCallStructNPC sStevenMatchCallHeader =
 };
 
 #if GERMAN
-static const u8 gText_MayBrendanMatchCallDesc[] = _("Radnachbar");
+static const u8 gText_MayBrendanMatchCallDesc[] = _("Birks Tochter");
 #else
 static const u8 gText_MayBrendanMatchCallDesc[] = _("RAD NEIGHBOR");
 #endif
@@ -739,7 +739,7 @@ static const struct MatchCallStructNPC sStevenMatchCallHeader =
 };
 
 #if GERMAN
-static const u8 gText_MayBrendanMatchCallDesc[] = _("Radnachbar");
+static const u8 gText_MayBrendanMatchCallDesc[] = _("Birks Tochter");
 #else
 static const u8 gText_MayBrendanMatchCallDesc[] = _("RAD NEIGHBOR");
 #endif
