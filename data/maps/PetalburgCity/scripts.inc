@@ -32,9 +32,11 @@ PetalburgCity_OnFrame:
 @ HnS: Heiko steht vor der geschlossenen Arena (15,10). Ansprechen
 @ startet das Fang-Ereignis: Er erkennt den Champion, hat von seinem
 @ Vater ein Pokemon bekommen und bittet um Begleitung ins hohe Gras.
-@ Der warpsilent auf die Vanilla-Startposition (15,8) laesst danach
-@ das unveraenderte Tutorial (OnFrame, Zustand 2) mit den originalen
-@ Laufwegen ablaufen.
+@ Heiko blockiert die Tuerspur direkt (15,9). Nach dem Dialog stellt
+@ ein warpsilent auf die freie Kachel (15,10) - bewusst KEINE
+@ Tuerkachel, sonst spielt die Austrittsanimation der Arena - die
+@ feste Startpose her; das Tutorial (OnFrame, Zustand 2) laeuft mit
+@ angepassten Laufwegen (Spieler fuehrt, Heiko folgt).
 PetalburgCity_EventScript_WallyGymClosed::
 	lock
 	faceplayer
@@ -43,7 +45,7 @@ PetalburgCity_EventScript_WallyGymClosed::
 	setflag FLAG_DONT_TRANSITION_MUSIC
 	playbgm MUS_FOLLOW_ME, FALSE
 	setvar VAR_PETALBURG_CITY_STATE, 2
-	warpsilent MAP_PETALBURG_CITY, 15, 8
+	warpsilent MAP_PETALBURG_CITY, 15, 10
 	waitstate
 	release
 	end
@@ -86,19 +88,21 @@ PetalburgCity_EventScript_WallyTutorial::
 	msgbox Route102_Text_WallyIDidIt, MSGBOX_DEFAULT
 	applymovement LOCALID_PETALBURG_WALLY, Common_Movement_WalkInPlaceFasterLeft, MAP_PETALBURG_CITY
 	waitmovement LOCALID_PETALBURG_WALLY, MAP_PETALBURG_CITY
-	@ HnS: kein Rueckweg in die geschlossene Arena - Heiko bedankt
-	@ sich und geht heim. VAR_PETALBURG_GYM_STATE bleibt 2 (Tuer zu).
+	@ HnS: kein Rueckweg in die geschlossene Arena. Alle Zustaende
+	@ werden VOR dem Rueckwarp gesetzt (Zustand 3 + Hide-Flag), Heiko
+	@ verschwindet ueber den Map-Reload, der Spieler steht wieder vor
+	@ der Arena. So kann das Ereignis weder haengen bleiben noch
+	@ erneut ausloesen.
 	msgbox PetalburgCity_Text_WallyThanksGoesHome, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_PETALBURG_WALLY, PetalburgCity_Movement_WallyGoHome
-	waitmovement 0
-	removeobject LOCALID_PETALBURG_WALLY
+	setvar VAR_PETALBURG_CITY_STATE, 3
 	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
-	setvar VAR_PETALBURG_CITY_STATE, 3
 	fadedefaultbgm
 	clearflag FLAG_DONT_TRANSITION_MUSIC
 	special LoadPlayerParty
+	warpsilent MAP_PETALBURG_CITY, 15, 10
+	waitstate
 	releaseall
 	end
 
@@ -106,9 +110,9 @@ PetalburgCity_Text_WallyThanksGoesHome:
 #if GERMAN
 	.string "Heiko: Danke, {PLAYER}!\n"
 	.string "Das vergesse ich dir nie!\p"
-	.string "Ich zeige es gleich Papa!\n"
-	.string "Und eines Tages… werde ich\l"
-	.string "ein Trainer wie du!$"
+	.string "Ich laufe gleich zu Papa und\n"
+	.string "zeige es ihm! Eines Tages werde\l"
+	.string "ich ein Trainer wie du!$"
 #else
 	.string "WALLY: Thank you, {PLAYER}!\n"
 	.string "I'll never forget this!\p"
@@ -116,17 +120,6 @@ PetalburgCity_Text_WallyThanksGoesHome:
 	.string "And one day… I'll be a TRAINER\l"
 	.string "just like you!$"
 #endif
-
-PetalburgCity_Movement_WallyGoHome:
-	face_down
-	delay_16
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_left
-	walk_left
-	step_end
 
 PetalburgCity_EventScript_WalkToWallyHouse::
 	lockall
@@ -225,8 +218,6 @@ PetalburgCity_Movement_WallyTutorialPlayer:
 	walk_down
 	walk_down
 	walk_down
-	walk_down
-	walk_down
 	walk_right
 	walk_right
 	walk_right
@@ -253,7 +244,8 @@ PetalburgCity_Movement_WallyTutorialPlayer:
 	step_end
 
 PetalburgCity_Movement_WallyTutorialWally:
-	delay_8
+	delay_16
+	walk_down
 	walk_down
 	walk_down
 	walk_down
