@@ -7,6 +7,7 @@
 #include "battle_ai_main.h"
 #include "battle_ai_util.h"
 #include "battle_scripts.h"
+#include "hoenn_level_scaling.h"
 #include "battle_switch_in.h"
 #include "battle_environment.h"
 #include "battle_z_move.h"
@@ -4180,7 +4181,7 @@ static void Cmd_getexp(void)
                 gBattleStruct->expGettersOrder[orderId] = PARTY_SIZE;
 
             calculatedExp = gSpeciesInfo[gBattleMons[gBattlerFainted].species].expYield * gBattleMons[gBattlerFainted].level;
-            if (B_SCALED_EXP >= GEN_5 && B_SCALED_EXP != GEN_6)
+            if ((B_SCALED_EXP >= GEN_5 && B_SCALED_EXP != GEN_6) || HoennLevelScalingActive())
                 calculatedExp /= 5;
             else
                 calculatedExp /= 7;
@@ -11966,7 +11967,7 @@ void ApplyExperienceMultipliers(s32 *expAmount, u8 expGetterMonId, u8 faintedBat
     if (CheckBagHasItem(ITEM_EXP_CHARM, 1)) //is also for other exp boosting Powers if/when implemented
         *expAmount = (*expAmount * 150) / 100;
 
-    if (B_SCALED_EXP >= GEN_5 && B_SCALED_EXP != GEN_6)
+    if ((B_SCALED_EXP >= GEN_5 && B_SCALED_EXP != GEN_6) || HoennLevelScalingActive())
     {
         // Note: There is an edge case where if a pokemon receives a large amount of exp, it wouldn't be properly calculated
         //       because of multiplying by scaling factor(the value would simply be larger than an u32 can hold). Hence u64 is needed.
