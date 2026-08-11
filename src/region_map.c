@@ -1188,15 +1188,26 @@ u8 DoRegionMapInputCallback(void)
 static u8 ProcessRegionMapInput_Full(void)
 {
 #if IS_HNS
-    // Am unteren JK-Rand weiter runter -> Hoenn-Karte; am oberen
-    // Hoenn-Rand weiter hoch -> zurueck. Hoenn erst nach der Ankunft.
-    if (JOY_HELD(DPAD_DOWN) && sRegionMap->cursorPosY >= MAPCURSOR_Y_MAX
-     && GetViewedRegionMapType() != REGION_MAP_HOENN
-     && VarGet(VAR_HOENN_ARRIVAL_STATE) != 0)
-        return StartRegionMapViewSwitch(REGION_MAP_HOENN);
-    if (JOY_HELD(DPAD_UP) && sRegionMap->cursorPosY <= MAPCURSOR_Y_MIN
-     && GetViewedRegionMapType() == REGION_MAP_HOENN)
-        return StartRegionMapViewSwitch(FlagGet(FLAG_VISITED_KANTO) ? REGION_MAP_JK : REGION_MAP_JOHTO);
+    // Kartenwechsel JK <-> Hoenn: am unteren JK-Rand weiter runter bzw.
+    // am oberen Hoenn-Rand weiter hoch - oder jederzeit mit SELECT.
+    // Hoenn-Ansicht gibt es ab der Ankunft; wer in Hoenn steht, darf
+    // immer zu seiner eigenen Karte zurueck.
+    {
+        bool32 hoennKnown = (VarGet(VAR_HOENN_ARRIVAL_STATE) != 0
+                          || IsHoennMapsec(gMapHeader.regionMapSectionId));
+        bool32 viewingHoenn = (GetViewedRegionMapType() == REGION_MAP_HOENN);
+
+        if (hoennKnown && JOY_NEW(SELECT_BUTTON))
+            return StartRegionMapViewSwitch(viewingHoenn
+                ? (FlagGet(FLAG_VISITED_KANTO) ? REGION_MAP_JK : REGION_MAP_JOHTO)
+                : REGION_MAP_HOENN);
+        if (hoennKnown && !viewingHoenn
+         && JOY_HELD(DPAD_DOWN) && sRegionMap->cursorPosY >= MAPCURSOR_Y_MAX)
+            return StartRegionMapViewSwitch(REGION_MAP_HOENN);
+        if (viewingHoenn
+         && JOY_HELD(DPAD_UP) && sRegionMap->cursorPosY <= MAPCURSOR_Y_MIN)
+            return StartRegionMapViewSwitch(FlagGet(FLAG_VISITED_KANTO) ? REGION_MAP_JK : REGION_MAP_JOHTO);
+    }
 #endif
     u8 input;
 

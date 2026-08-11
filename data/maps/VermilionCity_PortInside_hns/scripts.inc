@@ -50,7 +50,7 @@ VermilionPort_EventScript_SailorCantSail::
 
 VermilionPort_EventScript_Sailor_AfterKanto::
 	message VermilionPort_Text_WhereSail
-	multichoice 20, 0, MULTI_VERMILION_HARBOR, FALSE
+	multichoicegrid 1, 0, MULTI_VERMILION_HARBOR, 2, FALSE
 	switch VAR_RESULT
 	case 0, VermilionPort_EventScript_ChoseOlivine
 	case 1, VermilionPort_EventScript_ChoseSouthernIsland

@@ -1869,11 +1869,13 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
 
     PlaySE(SE_EXP_MAX);
     Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
 }
 #else
 static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
 {
     Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
 }
 #endif
 
