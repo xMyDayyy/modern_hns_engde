@@ -194,13 +194,13 @@
 // Neue Vars der Hoenn-Anbindung
 #define VAR_HOENN_ARRIVAL_STATE 0x4159
 
-#define HOENN_VARS_END 0x41FF
+#define HOENN_VARS_END 0x4176
 
 // Var-Speicher erweitern: bleibt in SaveBlock1 (STATIC_ASSERT in save.c),
 // Flashgroesse unveraendert 128 KiB (FLASH_1M) -> emulator-nativ.
 #undef  VARS_END
 #undef  VARS_COUNT
-#define VARS_END 0x418C
+#define VARS_END HOENN_VARS_END
 #define VARS_COUNT (VARS_END - VARS_START + 1)
 
 #endif // GUARD_CONSTANTS_VARS_HOENN_DE_H
