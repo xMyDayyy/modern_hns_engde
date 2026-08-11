@@ -153,4 +153,20 @@
     { MAPSEC_UNDERWATER_125,    60, 100 }, \
     { MAPSEC_UNDERWATER_129,    60, 100 },
 
+
+// =====================================================================
+// Globale Erfahrungs-Daempfung (gilt WELTWEIT, auch Johto/Kanto!)
+// Ziel: Der Spieler soll das Basisspiel nicht mit Level 80-100
+// abschliessen und in Hoenn nichts mehr zu leveln haben. Kurve nach
+// Marcs Vorgabe: bis 30 zuegig (voll), 30-60 mittel, ab 60 zaeher -
+// aber nie Stunden pro Level. Die Daempfung greift pro EMPFAENGER-
+// Level: ein niedriges Teammitglied levelt weiter schnell, waehrend
+// das hohe Ass gebremst wird.
+// =====================================================================
+#define EXP_DAMP_ENABLED             TRUE
+#define EXP_DAMP_FAST_UNTIL          30    // bis hier: 100 %
+#define EXP_DAMP_MID_UNTIL           60    // 31-60:
+#define EXP_DAMP_MID_PERCENT         70    //   70 % Erfahrung
+#define EXP_DAMP_HIGH_PERCENT        50    // ab 61: 50 % Erfahrung
+
 #endif // GUARD_CONFIG_HOENN_SCALING_H

@@ -8,6 +8,7 @@
 #include "battle_ai_util.h"
 #include "battle_scripts.h"
 #include "hoenn_level_scaling.h"
+#include "config/hoenn_scaling.h"
 #include "battle_switch_in.h"
 #include "battle_environment.h"
 #include "battle_z_move.h"
@@ -11966,6 +11967,20 @@ void ApplyExperienceMultipliers(s32 *expAmount, u8 expGetterMonId, u8 faintedBat
         *expAmount = (*expAmount * 4915) / 4096;
     if (CheckBagHasItem(ITEM_EXP_CHARM, 1)) //is also for other exp boosting Powers if/when implemented
         *expAmount = (*expAmount * 150) / 100;
+
+    // Globale Erfahrungs-Daempfung (siehe config/hoenn_scaling.h):
+    // 1-30 zuegig, 31-60 mittel, ab 61 zaeher - pro Empfaenger-Level.
+#if EXP_DAMP_ENABLED == TRUE
+    {
+        u8 expGetterLvl = GetMonData(&gPlayerParty[expGetterMonId], MON_DATA_LEVEL);
+        if (expGetterLvl > EXP_DAMP_MID_UNTIL)
+            *expAmount = (*expAmount * EXP_DAMP_HIGH_PERCENT) / 100;
+        else if (expGetterLvl > EXP_DAMP_FAST_UNTIL)
+            *expAmount = (*expAmount * EXP_DAMP_MID_PERCENT) / 100;
+        if (*expAmount < 1)
+            *expAmount = 1;
+    }
+#endif
 
     if ((B_SCALED_EXP >= GEN_5 && B_SCALED_EXP != GEN_6) || HoennLevelScalingActive())
     {
