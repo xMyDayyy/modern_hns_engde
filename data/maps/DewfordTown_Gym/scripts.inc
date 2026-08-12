@@ -149,6 +149,8 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	msgbox DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_DEWFORD_GYM
 	setflag FLAG_BADGE02_GET
+	setvar VAR_0x8004, 1
+	special SetHoennBadge
 	addvar VAR_PETALBURG_GYM_STATE, 1
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 2
@@ -585,10 +587,10 @@ DewfordTown_Gym_Text_ExplainBulkUp:
 DewfordTown_Gym_Text_RegisteredBrawly:
 #if GERMAN
 	.string "Arenaleiter Kamillo wurde\n"
-	.string "im Pokénav eingetragen.$"
+	.string "im PokéCom eingetragen.$"
 #else
 	.string "Registered GYM LEADER BRAWLY\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 DewfordTown_Gym_Text_BrawlyPostBattle:

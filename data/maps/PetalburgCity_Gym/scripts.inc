@@ -126,12 +126,18 @@ PetalburgCity_Gym_EventScript_Norman::
 	end
 
 PetalburgCity_Gym_EventScript_ClosedEject::
+	special CountHoennBadges
+	goto_if_ge VAR_RESULT, 4, PetalburgCity_Gym_EventScript_OpensWithBadges
 	lockall
 	msgbox PetalburgCity_Gym_Text_GymIsClosed, MSGBOX_DEFAULT
 	closemessage
 	warp MAP_PETALBURG_CITY, 15, 8
 	waitstate
 	releaseall
+	end
+
+PetalburgCity_Gym_EventScript_OpensWithBadges::
+	setvar VAR_PETALBURG_GYM_STATE, 3
 	end
 
 PetalburgCity_Gym_Text_GymIsClosed:
@@ -435,6 +441,8 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	setflag FLAG_DEFEATED_PETALBURG_GYM
 	setvar VAR_PETALBURG_GYM_STATE, 7
 	setflag FLAG_BADGE05_GET
+	setvar VAR_0x8004, 4
+	special SetHoennBadge
 	special ResetHealLocationFromDewford
 	call EventScript_HideMrBriney
 	setflag FLAG_HIDE_MAUVILLE_GYM_WATTSON

@@ -707,3 +707,5 @@ gSpecials::
 	def_special GivePartyMonArtistRibbon
 	def_special PartyMonHasNationalRibbon
 	def_special GivePartyMonNationalRibbon
+	def_special SetHoennBadge
+	def_special CountHoennBadges

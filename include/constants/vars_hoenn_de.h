@@ -193,6 +193,10 @@
 
 // Neue Vars der Hoenn-Anbindung
 #define VAR_HOENN_ARRIVAL_STATE 0x4159
+// Hoenn-Orden als Bitmaske (Bit 0 = Steinorden ... Bit 7 = Regenorden).
+// Die Vanilla-Arenascripts setzen weiterhin FLAG_BADGE0X_GET (beim
+// Champion bereits gesetzt = wirkungslos); das Hoenn-System zaehlt hier.
+#define VAR_HOENN_BADGES 0x415A
 
 #define HOENN_VARS_END 0x4176
 

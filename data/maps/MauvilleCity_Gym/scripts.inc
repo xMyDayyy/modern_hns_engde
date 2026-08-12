@@ -92,6 +92,8 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
 	setflag FLAG_BADGE03_GET
+	setvar VAR_0x8004, 2
+	special SetHoennBadge
 	addvar VAR_PETALBURG_GYM_STATE, 1
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 3
@@ -516,11 +518,11 @@ MauvilleCity_Gym_Text_ExplainShockWave:
 
 MauvilleCity_Gym_Text_RegisteredWattson:
 #if GERMAN
-	.string "Arenaleiter Walter wurde im Pokénav-\n"
+	.string "Arenaleiter Walter wurde im PokéCom-\n"
 	.string "Verzeichnis eingetragen.$"
 #else
 	.string "Registered GYM LEADER WATTSON\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 MauvilleCity_Gym_Text_WattsonPostBattle:

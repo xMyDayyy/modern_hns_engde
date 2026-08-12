@@ -60,6 +60,8 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	setflag FLAG_WHITEOUT_TO_LAVARIDGE
 	setflag FLAG_DEFEATED_LAVARIDGE_GYM
 	setflag FLAG_BADGE04_GET
+	setvar VAR_0x8004, 3
+	special SetHoennBadge
 	addvar VAR_PETALBURG_GYM_STATE, 1
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 4
@@ -554,10 +556,10 @@ LavaridgeTown_Gym_1F_Text_ExplainOverheat:
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
 #if GERMAN
 	.string "Arenaleiterin Flavia wurde\n"
-	.string "im Pokénav eingetragen.$"
+	.string "im PokéCom eingetragen.$"
 #else
 	.string "Registered GYM LEADER FLANNERY\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:

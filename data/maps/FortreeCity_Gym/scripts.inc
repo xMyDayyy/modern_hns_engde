@@ -33,6 +33,8 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	msgbox FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_FORTREE_GYM
 	setflag FLAG_BADGE06_GET
+	setvar VAR_0x8004, 5
+	special SetHoennBadge
 	setvar VAR_0x8008, 6
 	call Common_EventScript_SetGymTrainers
 	call FortreeCity_Gym_EventScript_GiveAerialAce
@@ -434,11 +436,11 @@ FortreeCity_Gym_Text_ExplainAerialAce:
 
 FortreeCity_Gym_Text_RegisteredWinona:
 #if GERMAN
-	.string "Arenaleiterin Wibke wurde im Pokénav-\n"
+	.string "Arenaleiterin Wibke wurde im PokéCom-\n"
 	.string "Verzeichnis eingetragen.$"
 #else
 	.string "Registered GYM LEADER WINONA\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 FortreeCity_Gym_Text_WinonaPostBattle:
