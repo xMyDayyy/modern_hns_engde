@@ -90,7 +90,7 @@ struct TrainerCardData
     u16 frontTilemap[600];
     u16 backTilemap[600];
     u16 bgTilemap[600];
-    u8 badgeTiles[0x80 * NUM_BADGES];
+    u8 badgeTiles[0x80 * (NUM_BADGES + 8)]; // + Hoenn-Reihe (Rueckseite)
     u8 stickerTiles[0x200];
     u8 cardTiles[0x2300];
     u16 cardTilemapBuffer[0x1000];
@@ -637,7 +637,11 @@ static bool8 LoadCardGfx(void)
     case 3:
 #if IS_HNS
         if (sData->cardType == CARD_TYPE_HNS)
+        {
             DecompressDataWithHeaderWram(sHnsTrainerCardBadgesCombined_Gfx, sData->badgeTiles);
+            // Hoenn-Symbole dahinter (Tiles 192+64 ff.) fuer die dritte Reihe
+            DecompressDataWithHeaderWram(sHoennTrainerCardBadges_Gfx, sData->badgeTiles + 0x80 * 16);
+        }
         else
             DecompressDataWithHeaderWram(sHoennTrainerCardBadges_Gfx, sData->badgeTiles);
 #else
@@ -1706,6 +1710,20 @@ static void DrawExtraBadgesOnBack(void)
             FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 11, 1, 1, palNum);
             FillBgTilemapBufferRect(3, tileNum + 16, x,     12, 1, 1, palNum);
             FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 12, 1, 1, palNum);
+        }
+    }
+    // Hoenn-Ordenreihe (Testlayout: direkt unter Kanto, Tiles 13/14) -
+    // Symbole aus dem Emerald-Sheet, Stand aus dem Hoenn-Ordensystem.
+    x = 4;
+    tileNum = 192 + 64;
+    for (i = 0; i < 8; i++, tileNum += 2, x += 3)
+    {
+        if (HasHoennBadge(i))
+        {
+            FillBgTilemapBufferRect(3, tileNum,      x,     13, 1, 1, 3);
+            FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 13, 1, 1, 3);
+            FillBgTilemapBufferRect(3, tileNum + 16, x,     14, 1, 1, 3);
+            FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 14, 1, 1, 3);
         }
     }
     CopyBgTilemapBufferToVram(3);

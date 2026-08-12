@@ -269,6 +269,7 @@ static void DebugAction_Util_Weather_SelectId(u8 taskId);
 static void DebugAction_Util_WatchCredits(u8 taskId);
 static void DebugAction_Util_CheatStart(u8 taskId);
 static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId);
+static void DebugAction_Util_HnsFakeCardStats(u8 taskId);
 
 static void DebugAction_TimeMenu_ChangeTimeOfDay(u8 taskId);
 static void DebugAction_TimeMenu_ChangeWeekdays(u8 taskId);
@@ -573,6 +574,7 @@ static const struct DebugMenuOption sDebugMenu_Actions_Utilities[] =
     { COMPOUND_STRING("Watch credits…"),    DebugAction_Util_WatchCredits },
     { COMPOUND_STRING("Cheat start"),       DebugAction_Util_CheatStart },
     { COMPOUND_STRING("HnS: Finish Johto+Kanto"), DebugAction_Util_HnsFinishJohtoKanto },
+    { COMPOUND_STRING("HnS: Fake card stats"), DebugAction_Util_HnsFakeCardStats },
     { COMPOUND_STRING("Berry Functions…"),  DebugAction_OpenSubMenu, sDebugMenu_Actions_BerryFunctions },
     { COMPOUND_STRING("EWRAM Counters…"),   DebugAction_ExecuteScript, Debug_EventScript_EWRAMCounters },
     { COMPOUND_STRING("Follower NPC…"),     DebugAction_OpenSubMenu, sDebugMenu_Actions_FollowerNPCMenu },
@@ -1872,8 +1874,32 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
     Debug_DestroyMenu_Full(taskId);
     ScriptContext_Enable();
 }
+
+// Testwerkzeug: fuellt alle Rueckseiten-Statzeilen der Trainerkarte mit
+// markanten Werten (Layout-/Kollisionstest fuer die Ordenreihen).
+static void DebugAction_Util_HnsFakeCardStats(u8 taskId)
+{
+    SetGameStat(GAME_STAT_ENTERED_HOF, 1);
+    SetGameStat(GAME_STAT_FIRST_HOF_PLAY_TIME, (111 << 16) | (22 << 8) | 33);
+    SetGameStat(GAME_STAT_LINK_BATTLE_WINS, 1234);
+    SetGameStat(GAME_STAT_LINK_BATTLE_LOSSES, 567);
+    SetGameStat(GAME_STAT_POKEMON_TRADES, 890);
+    SetGameStat(GAME_STAT_WON_LINK_CONTEST, 123);
+    SetGameStat(GAME_STAT_POKEBLOCKS_WITH_FRIENDS, 456);
+    SetGameStat(GAME_STAT_NUM_UNION_ROOM_BATTLES, 789);
+    gSaveBlock2Ptr->frontier.cardBattlePoints = 9876;
+    gSaveBlock2Ptr->berryCrush.berryPowderAmount = 5432;
+    PlaySE(SE_EXP_MAX);
+    Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
+}
 #else
 static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
+{
+    Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
+}
+static void DebugAction_Util_HnsFakeCardStats(u8 taskId)
 {
     Debug_DestroyMenu_Full(taskId);
     ScriptContext_Enable();
