@@ -125,6 +125,7 @@ static void VBlankCB_FlyMap(void);
 static void CB2_FlyMap(void);
 static void SetFlyMapCallback(void callback(void));
 static void DrawFlyDestTextWindow(void);
+static void PrintFlyToWhereWindow(void);
 static void LoadFlyDestIcons(void);
 static void CreateFlyDestIcons(void);
 static void TryCreateRedOutlineFlyDestIcons(void);
@@ -922,8 +923,12 @@ static const struct WindowTemplate sFlyMapWindowTemplates[] =
     [WIN_FLY_TO_WHERE] = {
         .bg = 0,
         .tilemapLeft = 1,
+        // HnS: 14 -> 15 Kacheln (112 -> 120 px) fuer den SELECT-Hinweis.
+        // Kachel 16 bleibt frei: dort sitzt der Rahmen von WIN_MAPSEC_NAME
+        // (tilemapLeft 17). baseBlock-Kette neu: 0x49 + 15*2 = 0x67, die
+        // Rahmengrafik wandert entsprechend von 0x65 auf 0x67.
         .tilemapTop = 18,
-        .width = 14,
+        .width = 15,
         .height = 2,
         .paletteNum = 15,
         .baseBlock = 0x49
@@ -1648,6 +1653,9 @@ static u8 SwitchViewInputCallback(void)
             DestroyFlyDestIcons();
             CreateFlyDestIcons();
             TryCreateRedOutlineFlyDestIcons();
+            // Hinweis zeigt jetzt die andere Zielkarte an
+            PrintFlyToWhereWindow();
+            ScheduleBgCopyTilemapToVram(0);
         }
         sRegionMap->mapSecId = CorrectSpecialMapSecId_Internal(GetMapSecIdAt(sRegionMap->cursorPosX, sRegionMap->cursorPosY));
         sRegionMap->mapSecType = GetMapsecType(sRegionMap->mapSecId);
@@ -2434,6 +2442,17 @@ static void SpriteCB_PlayerIconMapFull(struct Sprite *sprite)
 
 static void SpriteCB_PlayerIcon(struct Sprite *sprite)
 {
+#if IS_HNS
+    // Fremde Karte: Icon dauerhaft aus. Muss hier stehen und nicht nur
+    // beim Umschalten - dieser Callback laeuft jeden Frame und setzte
+    // invisible sonst sofort wieder auf FALSE zurueck (Ursache: Icon
+    // blieb nach dem Kartenwechsel in beiden Regionen sichtbar).
+    if (RegionMapIsViewingForeignRegion())
+    {
+        sprite->invisible = TRUE;
+        return;
+    }
+#endif
     if (sRegionMap->blinkPlayerIcon)
     {
         if (++sprite->sTimer > 16)
@@ -2595,7 +2614,7 @@ void CB2_OpenFlyMap(void)
         gMain.state++;
         break;
     case 3:
-        LoadUserWindowBorderGfx(0, 0x65, BG_PLTT_ID(13));
+        LoadUserWindowBorderGfx(0, 0x67, BG_PLTT_ID(13)); // HnS: 0x65 -> 0x67 (WIN_FLY_TO_WHERE ist 1 Kachel breiter)
         ClearScheduledBgCopiesToVram();
         gMain.state++;
         break;
@@ -2620,8 +2639,7 @@ void CB2_OpenFlyMap(void)
     case 7:
         LoadPalette(sRegionMapFramePal, BG_PLTT_ID(1), sizeof(sRegionMapFramePal));
         PutWindowTilemap(WIN_FLY_TO_WHERE);
-        FillWindowPixelBuffer(WIN_FLY_TO_WHERE, PIXEL_FILL(0));
-        AddTextPrinterParameterized(WIN_FLY_TO_WHERE, FONT_NORMAL, gText_FlyToWhere, 0, 1, 0, NULL);
+        PrintFlyToWhereWindow();
         ScheduleBgCopyTilemapToVram(0);
         gMain.state++;
         break;
@@ -2668,6 +2686,35 @@ static void SetFlyMapCallback(void callback(void))
     sFlyMap->state = 0;
 }
 
+#if IS_HNS
+static const u8 sText_SwitchToHoenn[] = _("{SELECT_BUTTON} Hoenn");
+static const u8 sText_SwitchToJohto[] = _("{SELECT_BUTTON} Johto");
+#endif
+
+// Zeile "Wohin Fliegen?" (links) und - falls Hoenn schon bekannt ist -
+// rechtsbuendig der Umschalt-Hinweis "SELECT <Zielkarte>".
+// Fensterbreite 15 Kacheln = 120 px; Frage 75 px (FONT_NORMAL),
+// Hinweis 36 px (FONT_NARROW) -> 9 px Luft dazwischen.
+static void PrintFlyToWhereWindow(void)
+{
+    FillWindowPixelBuffer(WIN_FLY_TO_WHERE, PIXEL_FILL(0));
+    AddTextPrinterParameterized(WIN_FLY_TO_WHERE, FONT_NORMAL, gText_FlyToWhere, 0, 1, 0, NULL);
+#if IS_HNS
+    if (VarGet(VAR_HOENN_ARRIVAL_STATE) != 0 || IsHoennMapsec(gMapHeader.regionMapSectionId))
+    {
+        // Angezeigt wird das Ziel des Wechsels, nicht die aktuelle Karte -
+        // so ist ohne Erklaerung klar, wohin SELECT fuehrt.
+        const u8 *hint = (GetViewedRegionMapType() == REGION_MAP_HOENN)
+                       ? sText_SwitchToJohto
+                       : sText_SwitchToHoenn;
+
+        AddTextPrinterParameterized(WIN_FLY_TO_WHERE, FONT_NARROW, hint,
+            GetStringRightAlignXOffset(FONT_NARROW, hint, 120), 1, 0, NULL);
+    }
+#endif
+    CopyWindowToVram(WIN_FLY_TO_WHERE, COPYWIN_GFX);
+}
+
 static void DrawFlyDestTextWindow(void)
 {
     u16 i;
@@ -2686,7 +2733,7 @@ static void DrawFlyDestTextWindow(void)
                     StringLength(sMultiNameFlyDestinations[i].name[sFlyMap->regionMap.posWithinMapSec]);
                     namePrinted = TRUE;
                     ClearStdWindowAndFrameToTransparent(WIN_MAPSEC_NAME, FALSE);
-                    DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME_TALL, FALSE, 101, 13);
+                    DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME_TALL, FALSE, 103, 13);
                     AddTextPrinterParameterized(WIN_MAPSEC_NAME_TALL, FONT_NORMAL, sFlyMap->regionMap.mapSecName, 0, 1, 0, NULL);
                     name = sMultiNameFlyDestinations[i].name[sFlyMap->regionMap.posWithinMapSec];
                     AddTextPrinterParameterized(WIN_MAPSEC_NAME_TALL, FONT_NORMAL, name, GetStringRightAlignXOffset(FONT_NORMAL, name, 96), 17, 0, NULL);
@@ -2701,7 +2748,7 @@ static void DrawFlyDestTextWindow(void)
             if (sDrawFlyDestTextWindow == TRUE)
             {
                 ClearStdWindowAndFrameToTransparent(WIN_MAPSEC_NAME_TALL, FALSE);
-                DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME, FALSE, 101, 13);
+                DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME, FALSE, 103, 13);
             }
             else
             {
@@ -2719,7 +2766,7 @@ static void DrawFlyDestTextWindow(void)
         if (sDrawFlyDestTextWindow == TRUE)
         {
             ClearStdWindowAndFrameToTransparent(WIN_MAPSEC_NAME_TALL, FALSE);
-            DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME, FALSE, 101, 13);
+            DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME, FALSE, 103, 13);
         }
         FillWindowPixelBuffer(WIN_MAPSEC_NAME, PIXEL_FILL(1));
         CopyWindowToVram(WIN_MAPSEC_NAME, COPYWIN_GFX);
