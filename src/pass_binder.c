@@ -3,6 +3,7 @@
 #include "decompress.h"
 #include "event_data.h"
 #include "gpu_regs.h"
+#include "graphics.h"
 #include "hoenn_badges.h"
 #include "international_string_util.h"
 #include "new_game.h"
@@ -54,6 +55,10 @@ struct PassBinder
     u8 page;
     u8 sel;
     u8 taskId;
+    // DMA-Quelle: LoadBgTiles kopiert asynchron - Puffer muessen bis
+    // zum Schliessen der Mappe gueltig bleiben.
+    u8 badgeTilesJK[0x80 * 16];
+    u8 badgeTilesHoenn[0x80 * 8];
 };
 
 static EWRAM_DATA struct PassBinder *sBinder = NULL;
@@ -76,7 +81,7 @@ static const u16 sMarker_Pal[16] = { RGB_BLACK, RGB(31, 10, 10) };
 #define BADGE_TILE_BASE_HOENN 65  // 32 Tiles (16 breit x 2 Zeilen)
 #define MARKER_TILE           97
 #define BADGE_PAL             13
-#define MARKER_PAL            14
+#define MARKER_PAL            12
 
 // Layout der Ordenseiten: 2 Reihen x 4 Orden (2x2 Tiles je Orden).
 #define BADGE_X(col) (6 + (col) * 5)
@@ -86,6 +91,7 @@ static const struct BgTemplate sBgTemplates[] =
 {
     { .bg = 0, .charBaseIndex = 0, .mapBaseIndex = 31, .screenSize = 0, .paletteMode = 0, .priority = 0, .baseTile = 0 },
     { .bg = 2, .charBaseIndex = 2, .mapBaseIndex = 29, .screenSize = 0, .paletteMode = 0, .priority = 1, .baseTile = 0 },
+    { .bg = 3, .charBaseIndex = 1, .mapBaseIndex = 28, .screenSize = 0, .paletteMode = 0, .priority = 2, .baseTile = 0 },
 };
 
 static const struct WindowTemplate sWindowTemplates[] =
@@ -213,8 +219,6 @@ void ShowPassBinder(MainCallback callback)
 
 static void CB2_InitPassBinder(void)
 {
-    u8 *buf;
-
     SetVBlankCallback(NULL);
     SetGpuReg(REG_OFFSET_DISPCNT, 0);
     ResetPaletteFade();
@@ -226,6 +230,14 @@ static void CB2_InitPassBinder(void)
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, sBgTemplates, ARRAY_COUNT(sBgTemplates));
     SetBgTilemapBuffer(2, AllocZeroed(BG_SCREEN_SIZE));
+    SetBgTilemapBuffer(3, AllocZeroed(BG_SCREEN_SIZE));
+
+    // Frontier-Pass-Hintergrund als Mappen-Untergrund (V1; spaeter
+    // gegen eigene Binder-Grafik tauschbar).
+    DecompressDataWithHeaderVram(gFrontierPassBg_Gfx, (u16 *)BG_CHAR_ADDR(1));
+    CopyToBgTilemapBuffer(3, gFrontierPassBg_Tilemap, 0, 0);
+    CopyBgTilemapBufferToVram(3);
+    LoadPalette(gFrontierPassBg_Pal, BG_PLTT_ID(0), 8 * PLTT_SIZE_4BPP);
 
     InitWindows(sWindowTemplates);
     DeactivateAllTextPrinters();
@@ -233,13 +245,12 @@ static void CB2_InitPassBinder(void)
     LoadMessageBoxAndBorderGfx();
     LoadPalette(GetOverworldTextboxPalettePtr(), BG_PLTT_ID(15), PLTT_SIZE_4BPP);
 
-    // Ordensymbole in den BG2-Zeichensatz laden
-    buf = AllocZeroed(0x80 * 16);
-    DecompressDataWithHeaderWram(sBinderBadgesJK_Gfx, buf);
-    LoadBgTiles(2, buf, 0x80 * 16, BADGE_TILE_BASE_JK);
-    DecompressDataWithHeaderWram(sBinderBadgesHoenn_Gfx, buf);
-    LoadBgTiles(2, buf, 0x80 * 8, BADGE_TILE_BASE_HOENN);
-    Free(buf);
+    // Ordensymbole in den BG2-Zeichensatz laden (Puffer bleiben bis
+    // zum Schliessen gueltig, da der Transfer asynchron laeuft)
+    DecompressDataWithHeaderWram(sBinderBadgesJK_Gfx, sBinder->badgeTilesJK);
+    LoadBgTiles(2, sBinder->badgeTilesJK, sizeof(sBinder->badgeTilesJK), BADGE_TILE_BASE_JK);
+    DecompressDataWithHeaderWram(sBinderBadgesHoenn_Gfx, sBinder->badgeTilesHoenn);
+    LoadBgTiles(2, sBinder->badgeTilesHoenn, sizeof(sBinder->badgeTilesHoenn), BADGE_TILE_BASE_HOENN);
     LoadBgTiles(2, sMarkerTile, sizeof(sMarkerTile), MARKER_TILE);
     LoadPalette(sBinderBadges_Pal, BG_PLTT_ID(BADGE_PAL), PLTT_SIZE_4BPP);
     LoadPalette(sMarker_Pal, BG_PLTT_ID(MARKER_PAL), PLTT_SIZE_4BPP);
@@ -248,6 +259,7 @@ static void CB2_InitPassBinder(void)
 
     ShowBg(0);
     ShowBg(2);
+    ShowBg(3);
     BlendPalettes(PALETTES_ALL, 16, RGB_BLACK);
     BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
     SetVBlankCallback(VBlankCB_PassBinder);
@@ -446,6 +458,7 @@ static void Task_PassBinder_FadeOut(u8 taskId)
 
     SetMainCallback2(sBinder->returnCallback);
     Free(GetBgTilemapBuffer(2));
+    Free(GetBgTilemapBuffer(3));
     FreeAllWindowBuffers();
     DestroyTask(taskId);
     Free(sBinder);
