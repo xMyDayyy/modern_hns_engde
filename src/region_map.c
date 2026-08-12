@@ -2691,7 +2691,7 @@ static const u8 sText_SwitchToHoenn[] = _("{SELECT_BUTTON} Hoenn");
 static const u8 sText_SwitchToJohto[] = _("{SELECT_BUTTON} Johto");
 #endif
 
-// Zeile "Wohin Fliegen?" (links) und - falls Hoenn schon bekannt ist -
+// Zeile "Wohin fliegen?" (links) und - falls Hoenn schon bekannt ist -
 // rechtsbuendig der Umschalt-Hinweis "SELECT <Zielkarte>".
 // Fensterbreite 15 Kacheln = 120 px; Frage 75 px (FONT_NORMAL),
 // Hinweis 36 px (FONT_NARROW) -> 9 px Luft dazwischen.
