@@ -12,6 +12,7 @@
 #include "fieldmap.h"
 #include "field_effect.h"
 #include "field_player_avatar.h"
+#include "pass_binder.h"
 #include "field_specials.h"
 #include "field_weather.h"
 #include "field_screen_effect.h"
@@ -836,6 +837,8 @@ static bool8 StartMenuPlayerNameCallback(void)
 
         if (IsOverworldLinkActive() || InUnionRoom())
             ShowPlayerTrainerCard(CB2_ReturnToFieldWithOpenMenu); // Display trainer card
+        else if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
+            ShowPassBinder(CB2_ReturnToFieldWithOpenMenu); // Display pass binder
         else if (FlagGet(FLAG_SYS_FRONTIER_PASS))
             ShowFrontierPass(CB2_ReturnToFieldWithOpenMenu); // Display frontier pass
         else

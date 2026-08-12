@@ -1851,6 +1851,7 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
     FlagSet(FLAG_SYS_GAME_CLEAR);
     FlagSet(FLAG_SYS_POKEDEX_GET);
     FlagSet(FLAG_VISITED_KANTO);
+    FlagSet(FLAG_RECEIVED_PASS_BINDER);
     // Flugpunkte Johto+Kanto (Hoenn bleibt bewusst unbesucht)
     for (i = 0; i < ARRAY_COUNT(sJkVisitedFlags); i++)
         FlagSet(sJkVisitedFlags[i]);
