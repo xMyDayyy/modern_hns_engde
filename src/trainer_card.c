@@ -138,21 +138,6 @@ static void SetTrainerCardCb2(void);
 static void SetUpTrainerCardTask(void);
 static void InitTrainerCardData(void);
 static u8 GetSetCardType(void);
-#if IS_HNS
-// Kartenvarianten-Umschalter: SELECT wechselt zwischen der HnS-Karte
-// (Johto/Kanto-Orden) und der Smaragd-Karte (Hoenn-Orden aus dem
-// Hoenn-Ordensystem), sobald Birk die Hoenn-Karte uebergeben hat.
-static bool8 sShowHoennVariant = FALSE;
-static bool8 sReopeningCard = FALSE;
-static void (*sCardReturnCallback)(void) = NULL;
-
-static void CB2_ReopenTrainerCard(void)
-{
-    sReopeningCard = TRUE;
-    ShowPlayerTrainerCard(sCardReturnCallback);
-    sReopeningCard = FALSE;
-}
-#endif
 
 static void PrintNameOnCardFront(void);
 static void PrintIdOnCard(void);
@@ -171,6 +156,9 @@ static void PrintContestStringOnCard(void);
 static void PrintPokemonIconsOnCard(void);
 static void PrintBattleFacilityStringOnCard(void);
 static void PrintStickersOnCard(void);
+#if IS_HNS
+static void PrintRegionLabelsOnBack(void);
+#endif
 static void BufferTextsVarsForCardPage2(void);
 static void BufferNameForCardBack(void);
 static void BufferHofDebutTime(void);
@@ -226,6 +214,8 @@ static const u16 sHnsTrainerCardBadges_Pal[]     = INCBIN_U16("graphics/trainer_
 #endif
 static const u16 sHoennTrainerCardBadges_Pal[]   = INCBIN_U16("graphics/trainer_card/badges.gbapal");
 static const u16 sKantoTrainerCardBadges_Pal[]   = INCBIN_U16("graphics/trainer_card/frlg/badges.gbapal");
+static const u8 sText_RegionLabelKanto[] = _("Kanto");
+static const u8 sText_RegionLabelHoenn[] = _("Hoenn");
 static const u16 sTrainerCardStar_Pal[]          = INCBIN_U16("graphics/trainer_card/star.gbapal");
 static const u16 sTrainerCardSticker1_Pal[]      = INCBIN_U16("graphics/trainer_card/frlg/stickers1.gbapal");
 static const u16 sTrainerCardSticker2_Pal[]      = INCBIN_U16("graphics/trainer_card/frlg/stickers2.gbapal");
@@ -501,19 +491,6 @@ static void Task_TrainerCard(u8 taskId)
             DrawTrainerCardWindow(WIN_CARD_TEXT);
             sData->timeColonNeedDraw = FALSE;
         }
-#if IS_HNS
-        if (JOY_NEW(SELECT_BUTTON) && !sData->isLink && FlagGet(FLAG_RECEIVED_PASS_BINDER))
-        {
-            if (sData->callback2 != CB2_ReopenTrainerCard)
-                sCardReturnCallback = sData->callback2;
-            sData->callback2 = CB2_ReopenTrainerCard;
-            sShowHoennVariant ^= 1;
-            PlaySE(SE_RG_CARD_FLIP);
-            BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, sData->blendColor);
-            sData->mainState = STATE_CLOSE_CARD;
-        }
-        else
-#endif
         if (JOY_NEW(A_BUTTON))
         {
             FlipTrainerCard();
@@ -949,17 +926,6 @@ static void SetDataFromTrainerCard(void)
     if (sData->trainerCard.battleTowerWins || sData->trainerCard.battleTowerStraightWins)
         sData->hasBattleTowerWins++;
 
-#if IS_HNS
-    if (sShowHoennVariant && !sData->isLink)
-    {
-        for (i = 0; i < 8; i++)
-        {
-            if (HasHoennBadge(i))
-                sData->badgeCount[i]++;
-        }
-    }
-    else
-#endif
     for (i = 0, badgeFlag = FLAG_BADGE01_GET; badgeFlag < FLAG_BADGE01_GET + NUM_BADGES; badgeFlag++, i++)
     {
         if (FlagGet(badgeFlag))
@@ -1080,21 +1046,45 @@ static bool8 PrintAllOnCardBack(void)
         PrintHofDebutTimeOnCard();
         break;
     case 2:
+#if IS_HNS
+        // HnS-Rueckseite (Marcs Layout): Ruhmeshalle, Kanto-Reihe,
+        // Hoenn-Reihe (ab Birk), Team - Link-Statzeilen entfallen.
+        if (sData->cardType == CARD_TYPE_HNS)
+        {
+            PrintRegionLabelsOnBack();
+            break;
+        }
+#endif
         PrintLinkBattleResultsOnCard();
         break;
     case 3:
+#if IS_HNS
+        if (sData->cardType == CARD_TYPE_HNS)
+            break;
+#endif
         PrintTradesStringOnCard();
         break;
     case 4:
+#if IS_HNS
+        if (sData->cardType == CARD_TYPE_HNS)
+            break;
+#endif
         PrintBerryCrushStringOnCard();
         PrintPokeblockStringOnCard();
         break;
     case 5:
+#if IS_HNS
+        if (sData->cardType == CARD_TYPE_HNS)
+            break;
+#endif
         PrintUnionStringOnCard();
         PrintContestStringOnCard();
         break;
     case 6:
         PrintPokemonIconsOnCard();
+#if IS_HNS
+        if (sData->cardType != CARD_TYPE_HNS)
+#endif
         PrintBattleFacilityStringOnCard();
         break;
     case 7:
@@ -1323,6 +1313,15 @@ static void BufferHofDebutTime(void)
         StringExpandPlaceholders(sData->textHofTime, sText_HofTime);
     }
 }
+
+#if IS_HNS
+static void PrintRegionLabelsOnBack(void)
+{
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 4, 66, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
+    if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 4, 90, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
+}
+#endif
 
 static void PrintStatOnBackOfCard(u8 top, const u8 *statName, u8 *stat, const u8 *color)
 {
@@ -1706,24 +1705,26 @@ static void DrawExtraBadgesOnBack(void)
     {
         if (sData->badgeCount[NUM_BADGES_FRONT + i])
         {
-            FillBgTilemapBufferRect(3, tileNum,      x,     11, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 11, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 16, x,     12, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 12, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum,      x,     8, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 8, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum + 16, x,     9, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 9, 1, 1, palNum);
         }
     }
-    // Hoenn-Ordenreihe (Testlayout: direkt unter Kanto, Tiles 13/14) -
-    // Symbole aus dem Emerald-Sheet, Stand aus dem Hoenn-Ordensystem.
-    x = 4;
-    tileNum = 192 + 64;
-    for (i = 0; i < 8; i++, tileNum += 2, x += 3)
+    // Hoenn-Ordenreihe (erscheint erst nach Birks Uebergabe)
+    if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
     {
-        if (HasHoennBadge(i))
+        x = 4;
+        tileNum = 192 + 64;
+        for (i = 0; i < 8; i++, tileNum += 2, x += 3)
         {
-            FillBgTilemapBufferRect(3, tileNum,      x,     13, 1, 1, 3);
-            FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 13, 1, 1, 3);
-            FillBgTilemapBufferRect(3, tileNum + 16, x,     14, 1, 1, 3);
-            FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 14, 1, 1, 3);
+            if (HasHoennBadge(i))
+            {
+                FillBgTilemapBufferRect(3, tileNum,      x,     11, 1, 1, 3);
+                FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 11, 1, 1, 3);
+                FillBgTilemapBufferRect(3, tileNum + 16, x,     12, 1, 1, 3);
+                FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 12, 1, 1, 3);
+            }
         }
     }
     CopyBgTilemapBufferToVram(3);
@@ -2011,10 +2012,6 @@ static bool8 Task_EndCardFlip(struct Task *task)
 void ShowPlayerTrainerCard(void (*callback)(void))
 {
     sData = AllocZeroed(sizeof(*sData));
-#if IS_HNS
-    if (!sReopeningCard)
-        sShowHoennVariant = FALSE;
-#endif
     sData->callback2 = callback;
     if (callback == CB2_ReshowFrontierPass)
         sData->blendColor = RGB_WHITE;
@@ -2074,8 +2071,6 @@ static u8 GetSetCardType(void)
     {
 #if IS_HNS
         sData->isHoenn = TRUE;
-        if (sShowHoennVariant && !sData->isLink)
-            return CARD_TYPE_EMERALD;
         return CARD_TYPE_HNS;
 #else
         if (sData->trainerCard.version == VERSION_FIRE_RED || sData->trainerCard.version == VERSION_LEAF_GREEN)
