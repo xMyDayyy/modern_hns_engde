@@ -923,12 +923,8 @@ static const struct WindowTemplate sFlyMapWindowTemplates[] =
     [WIN_FLY_TO_WHERE] = {
         .bg = 0,
         .tilemapLeft = 1,
-        // HnS: 14 -> 15 Kacheln (112 -> 120 px) fuer den SELECT-Hinweis.
-        // Kachel 16 bleibt frei: dort sitzt der Rahmen von WIN_MAPSEC_NAME
-        // (tilemapLeft 17). baseBlock-Kette neu: 0x49 + 15*2 = 0x67, die
-        // Rahmengrafik wandert entsprechend von 0x65 auf 0x67.
         .tilemapTop = 18,
-        .width = 15,
+        .width = 14,
         .height = 2,
         .paletteNum = 15,
         .baseBlock = 0x49
@@ -1653,9 +1649,6 @@ static u8 SwitchViewInputCallback(void)
             DestroyFlyDestIcons();
             CreateFlyDestIcons();
             TryCreateRedOutlineFlyDestIcons();
-            // Hinweis zeigt jetzt die andere Zielkarte an
-            PrintFlyToWhereWindow();
-            ScheduleBgCopyTilemapToVram(0);
         }
         sRegionMap->mapSecId = CorrectSpecialMapSecId_Internal(GetMapSecIdAt(sRegionMap->cursorPosX, sRegionMap->cursorPosY));
         sRegionMap->mapSecType = GetMapsecType(sRegionMap->mapSecId);
@@ -2614,7 +2607,7 @@ void CB2_OpenFlyMap(void)
         gMain.state++;
         break;
     case 3:
-        LoadUserWindowBorderGfx(0, 0x67, BG_PLTT_ID(13)); // HnS: 0x65 -> 0x67 (WIN_FLY_TO_WHERE ist 1 Kachel breiter)
+        LoadUserWindowBorderGfx(0, 0x65, BG_PLTT_ID(13));
         ClearScheduledBgCopiesToVram();
         gMain.state++;
         break;
@@ -2687,14 +2680,16 @@ static void SetFlyMapCallback(void callback(void))
 }
 
 #if IS_HNS
-static const u8 sText_SwitchToHoenn[] = _("{SELECT_BUTTON} Hoenn");
-static const u8 sText_SwitchToJohto[] = _("{SELECT_BUTTON} Johto");
+// Bewusst neutral ohne Kartennamen: bleibt gueltig, falls spaeter eine
+// weitere Karte dazukommt. Die Region selbst soll perspektivisch als
+// Wasserzeichen in der Kartengrafik stehen.
+static const u8 sText_SwitchMap[] = _("{SELECT_BUTTON} Wechsel");
 #endif
 
-// Zeile "Wohin fliegen?" (links) und - falls Hoenn schon bekannt ist -
-// rechtsbuendig der Umschalt-Hinweis "SELECT <Zielkarte>".
-// Fensterbreite 15 Kacheln = 120 px; Frage 75 px (FONT_NORMAL),
-// Hinweis 36 px (FONT_NARROW) -> 9 px Luft dazwischen.
+// Zeile "Wohin?" (links) und - falls Hoenn schon bekannt ist -
+// rechtsbuendig der Umschalt-Hinweis "SELECT Wechsel".
+// Fensterbreite unveraendert 14 Kacheln = 112 px; Frage 34 px,
+// Hinweis 53 px (beide FONT_NORMAL) -> 25 px Luft dazwischen.
 static void PrintFlyToWhereWindow(void)
 {
     FillWindowPixelBuffer(WIN_FLY_TO_WHERE, PIXEL_FILL(0));
@@ -2702,14 +2697,8 @@ static void PrintFlyToWhereWindow(void)
 #if IS_HNS
     if (VarGet(VAR_HOENN_ARRIVAL_STATE) != 0 || IsHoennMapsec(gMapHeader.regionMapSectionId))
     {
-        // Angezeigt wird das Ziel des Wechsels, nicht die aktuelle Karte -
-        // so ist ohne Erklaerung klar, wohin SELECT fuehrt.
-        const u8 *hint = (GetViewedRegionMapType() == REGION_MAP_HOENN)
-                       ? sText_SwitchToJohto
-                       : sText_SwitchToHoenn;
-
-        AddTextPrinterParameterized(WIN_FLY_TO_WHERE, FONT_NARROW, hint,
-            GetStringRightAlignXOffset(FONT_NARROW, hint, 120), 1, 0, NULL);
+        AddTextPrinterParameterized(WIN_FLY_TO_WHERE, FONT_NORMAL, sText_SwitchMap,
+            GetStringRightAlignXOffset(FONT_NORMAL, sText_SwitchMap, 112), 1, 0, NULL);
     }
 #endif
     CopyWindowToVram(WIN_FLY_TO_WHERE, COPYWIN_GFX);
@@ -2733,7 +2722,7 @@ static void DrawFlyDestTextWindow(void)
                     StringLength(sMultiNameFlyDestinations[i].name[sFlyMap->regionMap.posWithinMapSec]);
                     namePrinted = TRUE;
                     ClearStdWindowAndFrameToTransparent(WIN_MAPSEC_NAME, FALSE);
-                    DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME_TALL, FALSE, 103, 13);
+                    DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME_TALL, FALSE, 101, 13);
                     AddTextPrinterParameterized(WIN_MAPSEC_NAME_TALL, FONT_NORMAL, sFlyMap->regionMap.mapSecName, 0, 1, 0, NULL);
                     name = sMultiNameFlyDestinations[i].name[sFlyMap->regionMap.posWithinMapSec];
                     AddTextPrinterParameterized(WIN_MAPSEC_NAME_TALL, FONT_NORMAL, name, GetStringRightAlignXOffset(FONT_NORMAL, name, 96), 17, 0, NULL);
@@ -2748,7 +2737,7 @@ static void DrawFlyDestTextWindow(void)
             if (sDrawFlyDestTextWindow == TRUE)
             {
                 ClearStdWindowAndFrameToTransparent(WIN_MAPSEC_NAME_TALL, FALSE);
-                DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME, FALSE, 103, 13);
+                DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME, FALSE, 101, 13);
             }
             else
             {
@@ -2766,7 +2755,7 @@ static void DrawFlyDestTextWindow(void)
         if (sDrawFlyDestTextWindow == TRUE)
         {
             ClearStdWindowAndFrameToTransparent(WIN_MAPSEC_NAME_TALL, FALSE);
-            DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME, FALSE, 103, 13);
+            DrawStdFrameWithCustomTileAndPalette(WIN_MAPSEC_NAME, FALSE, 101, 13);
         }
         FillWindowPixelBuffer(WIN_MAPSEC_NAME, PIXEL_FILL(1));
         CopyWindowToVram(WIN_MAPSEC_NAME, COPYWIN_GFX);

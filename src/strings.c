@@ -507,7 +507,7 @@ const u8 gText_Pokemon4[] = _("Pokémon");
 const u8 gText_Pokemon4[] = _("POKéMON");
 #endif // Unused
 #if GERMAN
-const u8 gText_FlyToWhere[] = _("Wohin fliegen?");
+const u8 gText_FlyToWhere[] = _("Wohin?");
 #else
 const u8 gText_FlyToWhere[] = _("FLY to where?");
 #endif
