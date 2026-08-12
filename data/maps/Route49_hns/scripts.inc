@@ -205,6 +205,7 @@ Route49_EventScript_ActivateOverqwil::
 	waitfieldeffect FLDEFF_SPARKLE
     playse SE_PIN
     applymovement2 LOCALID_PLAYER, Common_Movement_ExclamationMark
+    delay 55
     waitmovement LOCALID_PLAYER
     msgbox SinjohRuins_Lab_Text_PlayFlute, MSGBOX_YESNO
 	closemessage
@@ -322,6 +323,7 @@ Route49_EventScript_ActivateWyrdeerLeft::
 	waitfieldeffect FLDEFF_SPARKLE
     playse SE_PIN
     applymovement2 LOCALID_PLAYER, Common_Movement_ExclamationMark
+    delay 55
     waitmovement LOCALID_PLAYER
     msgbox SinjohRuins_Lab_Text_PlayFlute, MSGBOX_YESNO
 	closemessage
@@ -363,6 +365,7 @@ Route49_EventScript_ActivateWyrdeerRight::
 	waitfieldeffect FLDEFF_SPARKLE
     playse SE_PIN
     applymovement2 LOCALID_PLAYER, Common_Movement_ExclamationMark
+    delay 55
     waitmovement LOCALID_PLAYER
     msgbox SinjohRuins_Lab_Text_PlayFlute, MSGBOX_YESNO
 	closemessage

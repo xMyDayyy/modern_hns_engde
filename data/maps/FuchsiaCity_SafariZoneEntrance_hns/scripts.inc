@@ -45,6 +45,7 @@ FuchsiaCity_SafariZoneEntrance_EventScript_MeetSteven::
 	lock
 	playse SE_PIN
 	applymovement LOCALID_SAFARIZONEFUCHSIA_STEVEN, Common_Movement_ExclamationMark
+	delay 55
 	waitmovement LOCALID_SAFARIZONEFUCHSIA_STEVEN
 	applymovement LOCALID_SAFARIZONEFUCHSIA_STEVEN, FuchsiaCity_SafariZoneEntrance_Movement_WalkToPlayer
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkUp1
@@ -246,7 +247,7 @@ FuchsiaCity_SafariZoneEntrance_Text_StevenWelcome:
 	.string "Hello again, {PLAYER}!\p"
 	.string "Welcome to the DEVON SAFARI ZONE!\p"
 	.string "This specially designed safari\n"
-	.string "Has 4 different habitats that\l"
+	.string "has 4 different habitats that\l"
 	.string "attract and house different invasive\l"
 	.string "species from the HOENN region.\p"
 	.string "We encourage trainers to capture\n"

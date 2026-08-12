@@ -1384,7 +1384,7 @@ const struct ItemInfo gItemsInfo[] =
             "Füllt AP einer\n"
             "Attacke um 10\n"
             "Punkte auf."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_MEDICINE,
         .sortType = ITEM_TYPE_PP_RECOVERY,
         .type = ITEM_USE_PARTY_MENU_MOVES,
         .fieldUseFunc = ItemUseOutOfBattle_PPRecovery,
@@ -1405,7 +1405,7 @@ const struct ItemInfo gItemsInfo[] =
             "Füllt AP einer\n"
             "Attacke\n"
             "vollständig auf."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_MEDICINE,
         .sortType = ITEM_TYPE_PP_RECOVERY,
         .type = ITEM_USE_PARTY_MENU_MOVES,
         .fieldUseFunc = ItemUseOutOfBattle_PPRecovery,
@@ -1426,7 +1426,7 @@ const struct ItemInfo gItemsInfo[] =
             "Füllt alle AP eines\n"
             "Pokémon um 10\n"
             "Punkte auf."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_MEDICINE,
         .sortType = ITEM_TYPE_PP_RECOVERY,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_PPRecovery,
@@ -1447,7 +1447,7 @@ const struct ItemInfo gItemsInfo[] =
             "Füllt alle AP eines\n"
             "Pokémon\n"
             "vollständig auf."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_MEDICINE,
         .sortType = ITEM_TYPE_PP_RECOVERY,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_PPRecovery,
@@ -15038,9 +15038,15 @@ const struct ItemInfo gItemsInfo[] =
     {
         .name = ITEM_NAME("Meteorit"),
         .price = 0,
+#if GERMAN
         .description = COMPOUND_STRING(
             "Meteorit. Fundort:\n"
-            "Meteorfälle."),
+            "Entstehungsinsel."),
+#else
+        .description = COMPOUND_STRING(
+            "A meteorite found\n"
+            "at Birth Island."),
+#endif
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_PARTY_MENU,

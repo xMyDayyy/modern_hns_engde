@@ -544,6 +544,7 @@ VermilionCity_EventScript_TriggerStevenLeft::
 	lock
 	playse SE_PIN
 	applymovement2 LOCALID_PLAYER, Common_Movement_ExclamationMark
+	delay 55
 	waitmovement LOCALID_PLAYER
 	applymovement2 LOCALID_VERMILIONCITY_STEVEN, Common_Movement_WalkLeft1
 	waitmovement 0
@@ -563,6 +564,7 @@ VermilionCity_EventScript_TriggerStevenMiddle::
 	lock
 	playse SE_PIN
 	applymovement2 LOCALID_PLAYER, Common_Movement_ExclamationMark
+	delay 55
 	waitmovement LOCALID_PLAYER
 	call VermilionCity_EventScript_LatiChoice
 	applymovement2 LOCALID_VERMILIONCITY_STEVEN, Common_Movement_WalkLeft1
@@ -580,6 +582,7 @@ VermilionCity_EventScript_TriggerStevenRight::
 	lock
 	playse SE_PIN
 	applymovement2 LOCALID_PLAYER, Common_Movement_ExclamationMark
+	delay 55
 	waitmovement LOCALID_PLAYER
 	applymovement2 LOCALID_VERMILIONCITY_STEVEN, Common_Movement_WalkRight1
 	waitmovement 0

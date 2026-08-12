@@ -52,6 +52,7 @@ ViridianForest_TriggerScript_Pichu1::
 	turnobject LOCALID_VIRIDIAN_FOREST_PICHU1, DIR_NORTH
 	playse SE_PIN
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU1, Common_Movement_ExclamationMark
+	delay 55
 	waitmovement LOCALID_VIRIDIAN_FOREST_PICHU1
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU1, ViridianForest_Movement_Pichu1_GoDown
 	delay 60
@@ -77,6 +78,7 @@ ViridianForest_TriggerScript_Pichu2_West::
 	turnobject LOCALID_VIRIDIAN_FOREST_PICHU2, DIR_WEST
 	playse SE_PIN
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU2, Common_Movement_ExclamationMark
+	delay 55
 	waitmovement LOCALID_VIRIDIAN_FOREST_PICHU2
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU2, ViridianForest_Movement_Pichu2_GoUp
 	waitmovement 0
@@ -91,6 +93,7 @@ ViridianForest_TriggerScript_Pichu2_South::
 	turnobject LOCALID_VIRIDIAN_FOREST_PICHU2, DIR_SOUTH
 	playse SE_PIN
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU2, Common_Movement_ExclamationMark
+	delay 55
 	waitmovement LOCALID_VIRIDIAN_FOREST_PICHU2
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU2, ViridianForest_Movement_Pichu2_GoUp
 	waitmovement 0
@@ -116,6 +119,7 @@ ViridianForest_TriggerScript_Pichu2_North::
 	turnobject LOCALID_VIRIDIAN_FOREST_PICHU2, DIR_NORTH
 	playse SE_PIN
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU2, Common_Movement_ExclamationMark
+	delay 55
 	waitmovement LOCALID_VIRIDIAN_FOREST_PICHU2
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU2, ViridianForest_Movement_Pichu2_GoDown
 	waitmovement 0
@@ -156,6 +160,7 @@ ViridianForest_TriggerScript_Pichu3_West::
 	turnobject LOCALID_VIRIDIAN_FOREST_PICHU3, DIR_WEST
 	playse SE_PIN
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU3, Common_Movement_ExclamationMark
+	delay 55
 	waitmovement LOCALID_VIRIDIAN_FOREST_PICHU3
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU3, ViridianForest_Movement_Pichu2_GoRight
 	waitmovement 0
@@ -182,6 +187,7 @@ ViridianForest_TriggerScript_Pichu3_East::
 	turnobject LOCALID_VIRIDIAN_FOREST_PICHU3, DIR_EAST
 	playse SE_PIN
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU3, Common_Movement_ExclamationMark
+	delay 55
 	waitmovement LOCALID_VIRIDIAN_FOREST_PICHU3
 	applymovement2 LOCALID_VIRIDIAN_FOREST_PICHU3, ViridianForest_Movement_Pichu3_GoLeft
 	waitmovement 0

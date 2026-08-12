@@ -36,7 +36,7 @@ static const u8 sMegaDrainDescription[] = _(
     "Schadens als KP ab.");
 #else
 static const u8 sMegaDrainDescription[] = _(
-    "An attack that absorbs\n"
+    "Attack that absorbs\n"
     "half the damage inflicted.");
 #endif
 
@@ -68,7 +68,7 @@ static const u8 sRevengeDescription[] = _(
     "Anwender Schaden nimmt.");
 #else
 static const u8 sRevengeDescription[] = _(
-    "An attack that moves last\n"
+    "Attack that moves last\n"
     "and gains power if hit.");
 #endif
 
@@ -188,7 +188,7 @@ static const u8 sFalseSwipeDescription[] = _(
     "zumindest 1 KP lässt.");
 #else
 static const u8 sFalseSwipeDescription[] = _(
-    "An attack that leaves the\n"
+    "Attack that leaves the\n"
     "foe with at least 1 HP.");
 #endif
 
@@ -198,7 +198,7 @@ static const u8 sDrainingKissDescription[] = _(
     "Schadens als KP ab.");
 #else
 static const u8 sDrainingKissDescription[] = _(
-    "An attack that absorbs over\n"
+    "Attack that absorbs over\n"
     "half the damage inflicted.");
 #endif
 
@@ -238,7 +238,7 @@ static const u8 sFeintDescription[] = _(
     "Schutz durchbricht.");
 #else
 static const u8 sFeintDescription[] = _(
-    "An attack that hits foes\n"
+    "Attack that hits foes\n"
     "using moves like Protect.");
 #endif
 
@@ -1308,7 +1308,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Angriff mit Widerhaken,\n"
             "kann Gegner vergiften."),
         .effect = EFFECT_HIT,
-        .power = 15,
+        .power = 30,
         .type = TYPE_POISON,
         .accuracy = 100,
         .pp = 35,
@@ -2164,7 +2164,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .power = 40,
         .type = TYPE_GRASS,
         .accuracy = 100,
-        .pp = B_UPDATED_MOVE_DATA >= GEN_4 ? 15 : 10,
+        .pp = 25,
         .target = TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
@@ -3991,10 +3991,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Ein Angriff, der die Hälfte\n"
             "des Schadens absaugt."),
         .effect = EFFECT_ABSORB,
-        .power = B_UPDATED_MOVE_DATA >= GEN_7 ? 80 : 20,
+        .power = 60,
         .type = TYPE_BUG,
         .accuracy = 100,
-        .pp = B_UPDATED_MOVE_DATA >= GEN_7 ? 10 : 15,
+        .pp = 10,
         .target = TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
@@ -5642,7 +5642,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .power = B_UPDATED_MOVE_DATA >= GEN_5 ? 75 : 60,
         .type = TYPE_GRASS,
         .accuracy = 100,
-        .pp = B_UPDATED_MOVE_DATA >= GEN_4 ? 10 : 5,
+        .pp = 25,
         .target = TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,

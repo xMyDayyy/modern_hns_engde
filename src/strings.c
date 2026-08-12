@@ -1674,44 +1674,44 @@ const u8 gText_HMMovesCantBeForgotten2[] = _("VM-Attacken können jetzt\nnicht v
 const u8 gText_HMMovesCantBeForgotten2[] = _("HM moves can't be\nforgotten now.");
 #endif
 #if GERMAN
-const u8 gText_XNatureMetAtYZ[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\n{LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
+const u8 gText_XNatureMetAtYZ[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7},\n{LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
 #else
-const u8 gText_XNatureMetAtYZ[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,\nmet at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
+const u8 gText_XNatureMetAtYZ[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7} nature,\nmet at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
 #endif
 #if GERMAN
-const u8 gText_XNatureHatchedAtYZ[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\ngeschlüpft mit {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
+const u8 gText_XNatureHatchedAtYZ[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7},\ngeschlüpft mit {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
 #else
-const u8 gText_XNatureHatchedAtYZ[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,\nhatched at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
+const u8 gText_XNatureHatchedAtYZ[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7} nature,\nhatched at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
 #endif
 #if GERMAN
-const u8 gText_XNatureObtainedInTrade[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\nin einem Tausch erhalten.");
+const u8 gText_XNatureObtainedInTrade[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7},\nin einem Tausch erhalten.");
 #else
-const u8 gText_XNatureObtainedInTrade[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,\nobtained in a trade.");
+const u8 gText_XNatureObtainedInTrade[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7} nature,\nobtained in a trade.");
 #endif
 #if GERMAN
-const u8 gText_XNatureFatefulEncounter[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\nin schicksalhafter Begeg-\nnung mit {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1} erhalten.");
+const u8 gText_XNatureFatefulEncounter[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7},\nin schicksalhafter Begeg-\nnung mit {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1} erhalten.");
 #else
-const u8 gText_XNatureFatefulEncounter[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,\nobtained in a fateful\nencounter at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.");
+const u8 gText_XNatureFatefulEncounter[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7} nature,\nobtained in a fateful\nencounter at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.");
 #endif
 #if GERMAN
-const u8 gText_XNatureProbablyMetAt[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}, gefangen\nvermutlich mit {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
+const u8 gText_XNatureProbablyMetAt[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7}, gefangen\nvermutlich mit {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
 #else
-const u8 gText_XNatureProbablyMetAt[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,\nprobably met at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
+const u8 gText_XNatureProbablyMetAt[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7} nature,\nprobably met at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.");
 #endif
 #if GERMAN
-const u8 gText_XNature[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}");
+const u8 gText_XNature[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7}");
 #else
-const u8 gText_XNature[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature");
+const u8 gText_XNature[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7} nature");
 #endif
 #if GERMAN
-const u8 gText_XNatureMetSomewhereAt[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\nirgendwo getroffen\nmit {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.");
+const u8 gText_XNatureMetSomewhereAt[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7},\nirgendwo getroffen\nmit {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.");
 #else
-const u8 gText_XNatureMetSomewhereAt[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,\nmet somewhere at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.");
+const u8 gText_XNatureMetSomewhereAt[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7} nature,\nmet somewhere at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.");
 #endif
 #if GERMAN
-const u8 gText_XNatureHatchedSomewhereAt[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}, irgendwo\ngeschlüpft mit {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.");
+const u8 gText_XNatureHatchedSomewhereAt[] = _("Wesen: {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7}, irgendwo\ngeschlüpft mit {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.");
 #else
-const u8 gText_XNatureHatchedSomewhereAt[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,\nhatched somewhere at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.");
+const u8 gText_XNatureHatchedSomewhereAt[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}{DYNAMIC 6}{DYNAMIC 7} nature,\nhatched somewhere at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.");
 #endif
 #if GERMAN
 const u8 gText_OddEggFoundByCouple[] = _("Seltsames Pokémon-Ei, das\ndie Pensionsleitung fand.");

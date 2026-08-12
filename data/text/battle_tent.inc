@@ -1,3 +1,4 @@
+
 FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent:
 #if GERMAN
 	.string "Willkommen im Kampfcamp von\n"
@@ -5,8 +6,7 @@ FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "Ich begleite dich zu dem K.O.-\n"
 	.string "Teamturnier.$"
 #else
-	.string "I welcome you to the BATTLE TENT\n"
-	.string "FALLARBOR SITE!\p"
+	.string "I welcome you to the BATTLE TENT!\p"
 	.string "I am your guide to the Set KO Tourney!$"
 #endif
 
@@ -263,8 +263,7 @@ VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "Hier wird das Vertrauen der Trainer in\n"
 	.string "ihre Pokémon getestet.$"
 #else
-	.string "I welcome you to the BATTLE TENT\n"
-	.string "VERDANTURF SITE!\p"
+	.string "I welcome you to the BATTLE TENT!\p"
 	.string "Here, the TRAINER's trust toward\n"
 	.string "POKéMON is tested.$"
 #endif
@@ -456,6 +455,7 @@ VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize:
 	.string "we present you with this prize.$"
 #endif
 
+
 SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent:
 #if GERMAN
 	.string "Willkommen im Kampfcamp von\n"
@@ -463,8 +463,7 @@ SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "Ich begleite dich zum Wechselkampf-\n"
 	.string "Turnier.$"
 #else
-	.string "Welcome to the BATTLE TENT\n"
-	.string "SLATEPORT SITE!\p"
+	.string "Welcome to the BATTLE TENT!\p"
 	.string "I am your guide to the Battle Swap\n"
 	.string "Tournament.$"
 #endif
