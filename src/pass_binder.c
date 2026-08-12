@@ -84,7 +84,7 @@ static const u16 sMarker_Pal[16] = { RGB_BLACK, RGB(31, 10, 10) };
 #define MARKER_PAL            12
 
 // Layout der Ordenseiten: 2 Reihen x 4 Orden (2x2 Tiles je Orden).
-#define BADGE_X(col) (6 + (col) * 5)
+#define BADGE_X(col) (7 + (col) * 5)
 #define BADGE_Y(row) (6 + (row) * 5)
 
 static const struct BgTemplate sBgTemplates[] =
