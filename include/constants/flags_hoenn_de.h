@@ -1766,8 +1766,8 @@
 #undef  FLAG_WORLD_MAP_VIRIDIAN_FOREST
 #define FLAG_WORLD_MAP_VIRIDIAN_FOREST (HOENN_FLAGS_START + 0x366)
 
-// Pass-Mappe erhalten (Birk uebergibt sie mit dem Dex-Upgrade);
-// schaltet den Mappen-Zugriff ueber den Trainerkarten-Menueeintrag frei.
+// Hoenn-Trainerkarte erhalten (Birk uebergibt sie mit dem Dex-Upgrade);
+// schaltet das Umschalten der Kartenvariante per SELECT frei.
 #define FLAG_RECEIVED_PASS_BINDER (HOENN_FLAGS_START + 0x367)
 
 #define HOENN_FLAGS_END (HOENN_FLAGS_START + 0x367)
