@@ -738,17 +738,21 @@ u32 CountPlayerTrainerStars(void)
 }
 
 #if IS_HNS
+// Marcs Pass-Staffel: Johto-Champion -> Bronze, Kanto-Champion ->
+// Kupfer, Hoenn-Champion -> Silber, Rot besiegt -> Gold.
+// (Ausbaustufe notiert: Pokedex komplett -> Diamant, braucht eine
+// fuenfte Kartenpalette.)
 static u8 GetHnSTrainerStars(struct TrainerCard *trainerCard)
 {
     u8 stars = 0;
 
     if (FlagGet(FLAG_IS_CHAMPION))
         stars++;
-    if (trainerCard->caughtAllHoenn)
+    if (FlagGet(FLAG_IS_KANTO_CHAMPION))
+        stars++;
+    if (FlagGet(FLAG_IS_HOENN_CHAMPION))
         stars++;
     if (FlagGet(TRAINER_FLAGS_START + TRAINER_RED_2_HNS))
-        stars++;
-    if (FlagGet(FLAG_IS_KANTO_CHAMPION))
         stars++;
 
     return stars;

@@ -1770,6 +1770,10 @@
 // schaltet das Umschalten der Kartenvariante per SELECT frei.
 #define FLAG_RECEIVED_PASS_BINDER (HOENN_FLAGS_START + 0x367)
 
-#define HOENN_FLAGS_END (HOENN_FLAGS_START + 0x367)
+// Hoenn-Champion (setzt die kuenftige Hoenn-Liga); dritter Stern der
+// Trainerpass-Staffel Bronze/Kupfer/Silber/Gold.
+#define FLAG_IS_HOENN_CHAMPION (HOENN_FLAGS_START + 0x368)
+
+#define HOENN_FLAGS_END (HOENN_FLAGS_START + 0x368)
 
 #endif // GUARD_CONSTANTS_FLAGS_HOENN_DE_H
