@@ -128,6 +128,9 @@ static void DrawFlyDestTextWindow(void);
 static void LoadFlyDestIcons(void);
 static void CreateFlyDestIcons(void);
 static void TryCreateRedOutlineFlyDestIcons(void);
+#if IS_HNS
+static void DestroyFlyDestIcons(void);
+#endif
 static void SpriteCB_FlyDestIcon(struct Sprite *sprite);
 static void CB_FadeInFlyMap(void);
 static void CB_HandleFlyMapInput(void);
@@ -166,8 +169,11 @@ static const u8 sRegionMapPlayerIcon_KrisGfx[] = INCBIN_U8("graphics/pokenav/reg
 #include "data/region_map/region_map_entries.h"
 
 #if IS_HNS
-// Johto-only map coordinates (before FLAG_VISITED_KANTO is set).
-// The auto-generated gRegionMapEntries has JK combined coordinates.
+// JK combined map coordinates, used once FLAG_VISITED_KANTO is set
+// (despite the name - see the JK layout: Viola City sits at 7/5 there).
+// The auto-generated gRegionMapEntries carries the Johto-only coordinates
+// for Johto/Kanto mapsecs plus the Emerald coordinates for Hoenn mapsecs,
+// so it serves both the Johto view and the Hoenn view.
 static const struct RegionMapLocation sRegionMapEntries_Johto[] = {
     [MAPSEC_VIOLET_CITY]       = { 7,  5,  1, 1, COMPOUND_STRING("Viola City") },
     [MAPSEC_AZALEA_TOWN]       = { 6,  12, 1, 1, COMPOUND_STRING("Azalea City") },
@@ -294,12 +300,24 @@ static const struct RegionMapLocation sRegionMapEntries_Johto[] = {
 const struct RegionMapLocation *GetActiveRegionMapEntries(void)
 {
 #if IS_HNS
-    const struct RegionMapLocation *entries;
-    if (FlagGet(FLAG_VISITED_KANTO))
-        entries = sRegionMapEntries_Johto;
-    else
-        entries = gRegionMapEntries;
-    return entries;
+    // Die Tabellenwahl folgt der angezeigten Karte, nicht nur dem
+    // Kanto-Flag: In der Hoenn-Ansicht traegt gRegionMapEntries die
+    // Smaragd-Koordinaten der Hoenn-Mapsecs (sRegionMapEntries_Johto
+    // hat dort nur Null-Eintraege - Ursache des Befunds "Hoennkarte
+    // ohne Spieler-Icon/Namen/Cursorziel"). Ausserhalb des
+    // Kartenscreens entspricht die Ansicht der Region des Spielers
+    // (GetViewedRegionMapType faellt auf gMapHeader zurueck), womit
+    // auch Ortsnamen-Popups und der Dex-Arealscreen in Hoenn die
+    // richtige Tabelle bekommen.
+    switch (GetViewedRegionMapType())
+    {
+    case REGION_MAP_HOENN:
+        return gRegionMapEntries;
+    case REGION_MAP_JK:
+        return sRegionMapEntries_Johto;
+    default:
+        return gRegionMapEntries;
+    }
 #else
     return gRegionMapEntries;
 #endif
@@ -1166,6 +1184,13 @@ void BlendRegionMap(u16 color, u32 coeff)
 
 void FreeRegionMapIconResources(void)
 {
+#if IS_HNS
+    // Wechsel-Zustand nicht ueber das Screen-Ende hinaus halten:
+    // GetActiveRegionMapEntries/GetMapName laufen auch im Overworld
+    // (Ortsnamen-Popup, Dex-Arealscreen) und sollen dort wieder der
+    // Region des Spielers folgen.
+    sViewedOverridden = FALSE;
+#endif
     if (sRegionMap->cursorSprite != NULL)
     {
         DestroySprite(sRegionMap->cursorSprite);
@@ -1616,6 +1641,14 @@ static u8 SwitchViewInputCallback(void)
         // Spieler-Icon nur auf der Heimatkarte anzeigen
         if (sRegionMap->playerIconSprite != NULL)
             sRegionMap->playerIconSprite->invisible = RegionMapIsViewingForeignRegion();
+        // Im Fly-Screen die Zielpunkte der neuen Karte aufbauen
+        // (Grafiksheet/Paletten bleiben geladen, nur Sprites tauschen).
+        if (sFlyMap != NULL)
+        {
+            DestroyFlyDestIcons();
+            CreateFlyDestIcons();
+            TryCreateRedOutlineFlyDestIcons();
+        }
         sRegionMap->mapSecId = CorrectSpecialMapSecId_Internal(GetMapSecIdAt(sRegionMap->cursorPosX, sRegionMap->cursorPosY));
         sRegionMap->mapSecType = GetMapsecType(sRegionMap->mapSecId);
         GetMapName(sRegionMap->mapSecName, sRegionMap->mapSecId, MAP_NAME_LENGTH);
@@ -2953,7 +2986,11 @@ static const struct FlyLocation sFlyLocations[] =
 
 static void CreateFlyDestIcons(void)
 {
-    enum RegionMapType regionMapType = GetRegionMapType(gMapHeader.regionMapSectionId);
+    // Nach der angezeigten Karte filtern, nicht nach der Heimatregion:
+    // Beim Kartenwechsel im Fly-Screen muessen die Icons der jeweils
+    // sichtbaren Region erscheinen (Koordinaten kommen ansichtsbasiert
+    // aus GetMapSecDimensions/GetActiveRegionMapEntries).
+    enum RegionMapType regionMapType = GetViewedRegionMapType();
     u32 i;
     u16 x;
     u16 y;
@@ -2994,6 +3031,28 @@ static void CreateFlyDestIcons(void)
     }
 }
 
+#if IS_HNS
+// Entfernt alle Zielpunkt-Sprites (normale wie Red-Outline-Icons) vor
+// dem Neuaufbau beim Kartenwechsel. Grafiksheet und Paletten bleiben
+// geladen, deshalb kein FreeSpriteTilesByTag/FreeSpritePaletteByTag.
+static void DestroyFlyDestIcons(void)
+{
+    u32 i;
+
+    for (i = 0; i < MAX_SPRITES; i++)
+    {
+        // Zeigervergleich auf die statischen Templates - nicht ueber
+        // template->tileTag gehen, weil Cursor/Spieler-Icon aus
+        // Stack-Templates entstehen und deren Zeiger dangeln koennen.
+        if (gSprites[i].inUse
+         && (gSprites[i].template == &sFlyDestIconSpriteTemplate
+          || gSprites[i].template == &sFlyDestIconBlueSpriteTemplate
+          || gSprites[i].template == &sFlyDestIconGreenSpriteTemplate))
+            DestroySprite(&gSprites[i]);
+    }
+}
+#endif
+
 // Draw a red outline box on the mapsec if its corresponding flag has been set
 // Only used for Battle Frontier, but set up to handle more
 static void TryCreateRedOutlineFlyDestIcons(void)
@@ -3005,6 +3064,13 @@ static void TryCreateRedOutlineFlyDestIcons(void)
     u16 height;
     mapsec_u16_t mapSecId;
     u8 spriteId;
+
+#if IS_HNS
+    // Kampfzone, Neu-Sinjoh und Mele-Mele liegen nur im JK-Layout;
+    // auf der Hoenn-Ansicht saessen die Icons an fremden Koordinaten.
+    if (GetViewedRegionMapType() == REGION_MAP_HOENN)
+        return;
+#endif
 
     for (i = 0; sRedOutlineFlyDestinations[i][1] != MAPSEC_NONE; i++)
     {
