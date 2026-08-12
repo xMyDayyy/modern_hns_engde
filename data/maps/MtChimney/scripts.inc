@@ -1214,10 +1214,10 @@ MtChimney_Text_SawyerPostBattle:
 MtChimney_Text_SawyerRegister:
 #if GERMAN
 	.string "Ich mag Hitzköpfe wie dich.\n"
-	.string "Ich trage dich in meinen Pokénav ein.$"
+	.string "Ich trage dich in meinen PokéCom ein.$"
 #else
 	.string "I like little fireballs like you.\n"
-	.string "Let me register you in my POKéNAV.$"
+	.string "Let me register you in my POKéGEAR.$"
 #endif
 
 MtChimney_Text_SawyerRematchIntro:

@@ -681,7 +681,7 @@ RuinsOfAlph_Lab_Text_IMadePokenav:
 	.string "so etwas Großartiges geschaffen zu\n"
 	.string "haben!$"
 #else
-	.string "I made the POKéNAV!\p"
+	.string "I made the POKéGEAR!\p"
 	.string "As an engineer, I feel blessed to have\n"
 	.string "made something so great!$"
 #endif
@@ -699,14 +699,14 @@ RuinsOfAlph_Lab_Text_WowThatsAPokenav:
 	.string "schon selbst herausfinden.$"
 #else
 	.string "Oh, wow!\n"
-	.string "That's a POKéNAV!\p"
+	.string "That's a POKéGEAR!\p"
 	.string "It came about as a result of our\n"
 	.string "PRESIDENT's desire to learn about\l"
 	.string "the feelings of POKéMON.\p"
 	.string "Would you like me to describe its\n"
 	.string "features in detail?\p"
 	.string "No, no. I think you'll find out just by\n"
-	.string "trying the POKéNAV out.$"
+	.string "trying the POKéGEAR out.$"
 #endif
 
 RuinsOfAlph_Lab_Text_DeviceToVisualizePokemonDreams:
@@ -859,7 +859,7 @@ RuinsOfAlph_Lab_Text_DevelopNewPokenavFeature:
 	.string "Aber es läuft nicht gut.$"
 #else
 	.string "I'm trying to develop a new feature\n"
-	.string "for the POKéNAV…\p"
+	.string "for the POKéGEAR…\p"
 	.string "But it's not going well.$"
 #endif
 

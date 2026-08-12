@@ -90,7 +90,7 @@ Route104_Text_DadPokenavCall:
 	.string "sehr windig.\p"
 	.string "Ich habe gerade von Mr. Trumm von\n"
 	.string "Devon erfahren, dass du einen\l"
-	.string "besonderen Pokénav hast, daher\l"
+	.string "besonderen PokéCom hast, daher\l"
 	.string "rufe ich dich an.\p"
 	.string "Du hörst dich an, als ginge es dir\n"
 	.string "gut. Dann bin ich beruhigt.\p"
@@ -107,7 +107,7 @@ Route104_Text_DadPokenavCall:
 	.string "Where are you now?\l"
 	.string "It sounds windy wherever you are.\p"
 	.string "I just heard from DEVON's MR. STONE\n"
-	.string "about your POKéNAV, so I decided\l"
+	.string "about your POKéGEAR, so I decided\l"
 	.string "to give you a call.\p"
 	.string "It sounds like you're doing fine,\n"
 	.string "so that's fine with me.\p"
@@ -118,9 +118,9 @@ Route104_Text_DadPokenavCall:
 
 Route104_Text_RegisteredDadInPokenav:
 #if GERMAN
-	.string "Vater Norman wurde im Pokénav-\n"
+	.string "Vater Norman wurde im PokéCom-\n"
 	.string "Verzeichnis eingetragen.$"
 #else
 	.string "Registered DAD NORMAN\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif

@@ -76,7 +76,7 @@ AbandonedShip_Rooms_1F_Text_ThaliaRegister:
 #if GERMAN
 	.string "Du bist so ein starker Trainer!\n"
 	.string "Ich werde dich zur Erinnerung im\l"
-	.string "Pokénav eintragen.$"
+	.string "PokéCom eintragen.$"
 #else
 	.string "You're such a tough TRAINER!\n"
 	.string "Let me register you as a memento!$"

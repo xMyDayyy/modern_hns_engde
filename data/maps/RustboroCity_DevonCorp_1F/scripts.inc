@@ -213,7 +213,7 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 	.string "Devon hat damit begonnen, hilfreiche\n"
 	.string "Produkte für Pokémon Trainer zu\p"
 	.string "entwickeln, wie Pokébälle und das\n"
-	.string "Pokénav-System.”$"
+	.string "PokéCom-System.”$"
 #else
 	.string "Prototypes and test products fill\n"
 	.string "the glass display case.\p"
@@ -223,6 +223,6 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 	.string "pharmaceuticals for better lifestyles.\p"
 	.string "“Recently, DEVON has begun marketing\n"
 	.string "tools for POKéMON TRAINERS, including\l"
-	.string "POKé BALLS and POKéNAV systems.”$"
+	.string "POKé BALLS and POKéGEAR systems.”$"
 #endif
 

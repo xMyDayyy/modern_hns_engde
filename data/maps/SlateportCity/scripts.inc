@@ -1835,24 +1835,24 @@ SlateportCity_Text_LetsRegisterEachOther:
 #if GERMAN
 	.string "Scott: Sehr gut! Ich denke, wir werden\n"
 	.string "gute Freunde werden. \p"
-	.string "Wir sollten uns in unseren Pokénavs\n"
+	.string "Wir sollten uns in unseren PokéComs\n"
 	.string "eintragen. \p"
 	.string "… … … … …\n…$"
 #else
 	.string "SCOTT: All right! I think you're going\n"
 	.string "to become a good friend.\p"
 	.string "So, let's register each other in our\n"
-	.string "POKéNAVS.\p"
+	.string "POKéGEARS.\p"
 	.string "… … … … … …$"
 #endif
 
 SlateportCity_Text_RegisteredScott:
 #if GERMAN
-	.string "Dieser Scott wurde im Pokénav-\n"
+	.string "Dieser Scott wurde im PokéCom-\n"
 	.string "Verzeichnis eingetragen.$"
 #else
 	.string "Registered this SCOTT person\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:

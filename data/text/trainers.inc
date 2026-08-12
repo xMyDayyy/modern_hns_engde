@@ -35,22 +35,22 @@ Route102_Text_CalvinRegister:
 	.string "dich das letzte Mal gesehen habe!\p"
 	.string "Ich würde gerne wieder gegen dich\n"
 	.string "kämpfen. Kannst du mich bitte in deinen\l"
-	.string "Pokénav eintragen?$"
+	.string "PokéCom eintragen?$"
 #else
 	.string "I've been working hard at this since\n"
 	.string "I saw you before.\p"
 	.string "I'd like to battle you again, so can\n"
-	.string "you register me in your POKéNAV?$"
+	.string "you register me in your POKéGEAR?$"
 #endif
 
 Route102_Text_CalvinRegisterShort:
 #if GERMAN
 	.string "Ich würde gerne wieder gegen dich\n"
 	.string "kämpfen. Kannst du mich bitte in deinen\l"
-	.string "Pokénav eintragen?$"
+	.string "PokéCom eintragen?$"
 #else
 	.string "I'd like to battle you again, so can\n"
-	.string "you register me in your POKéNAV?$"
+	.string "you register me in your POKéGEAR?$"
 #endif
 
 Route102_Text_CalvinRematchIntro:
@@ -739,12 +739,12 @@ Route104_Text_HaleyPostBattle:
 Route104_Text_HaleyRegister1:
 #if GERMAN
 	.string "Du bist stark, aber soll ich dich\n"
-	.string "wirklich in meinen Pokénav eintragen?\l"
+	.string "wirklich in meinen PokéCom eintragen?\l"
 	.string "Vielleicht lieber nicht…\p"
 	.string "Ach, sicher. Ich trage dich ein!$"
 #else
 	.string "You're strong, but should I register\n"
-	.string "you in my POKéNAV?\l"
+	.string "you in my POKéGEAR?\l"
 	.string "Maybe I shouldn't…\p"
 	.string "Okay, sure, I will register you!$"
 #endif
@@ -752,12 +752,12 @@ Route104_Text_HaleyRegister1:
 Route104_Text_HaleyRegister2:
 #if GERMAN
 	.string "Du bist stark, aber soll ich dich\n"
-	.string "wirklich in meinem Pokénav eintragen?\l"
+	.string "wirklich in meinem PokéCom eintragen?\l"
 	.string "Vielleicht lieber nicht…\p"
 	.string "Ach, sicher. Ich trage dich ein!$"
 #else
 	.string "You're strong, but should I register\n"
-	.string "you in my POKéNAV?\l"
+	.string "you in my POKéGEAR?\l"
 	.string "Maybe I shouldn't…\p"
 	.string "Okay, sure, I will register you!$"
 #endif
@@ -817,12 +817,12 @@ Route104_Text_WinstonPostBattle:
 Route104_Text_WinstonRegister1:
 #if GERMAN
 	.string "Hm?\n"
-	.string "Oh, du hast einen Pokénav erhalten.\p"
+	.string "Oh, du hast einen PokéCom erhalten.\p"
 	.string "Ich werde dich sofort eintragen.\n"
 	.string "Schließlich habe ich sehr viel Geld.$"
 #else
 	.string "Hm?\n"
-	.string "Ah, you've obtained a POKéNAV.\p"
+	.string "Ah, you've obtained a POKéGEAR.\p"
 	.string "I will gladly register you.\n"
 	.string "After all, I have plenty of money.$"
 #endif
@@ -830,12 +830,12 @@ Route104_Text_WinstonRegister1:
 Route104_Text_WinstonRegister2:
 #if GERMAN
 	.string "Hm?\n"
-	.string "Oh, du hast einen Pokénav erhalten.\p"
+	.string "Oh, du hast einen PokéCom erhalten.\p"
 	.string "Ich werde dich sofort eintragen.\n"
 	.string "Schließlich habe ich sehr viel Geld.$"
 #else
 	.string "Hm?\n"
-	.string "Ah, you've obtained a POKéNAV.\p"
+	.string "Ah, you've obtained a POKéGEAR.\p"
 	.string "I will gladly register you.\n"
 	.string "After all, I have plenty of money.$"
 #endif
@@ -900,25 +900,25 @@ Route104_Text_CindyRegister1:
 #if GERMAN
 	.string "Hallo, so trifft man sich wieder.\p"
 	.string "Irgendwie scheinen wir uns anzuziehen.\n"
-	.string "Wir sollten uns in unsere Pokénavs\l"
+	.string "Wir sollten uns in unsere PokéComs\l"
 	.string "eintragen.$"
 #else
 	.string "Hello, we meet again.\p"
 	.string "We seem to be drawn together. Let's\n"
-	.string "register each other in our POKéNAVS.$"
+	.string "register each other in our POKéGEARS.$"
 #endif
 
 Route104_Text_CindyRegister2:
 #if GERMAN
 	.string "Wir sollten uns stets daran erinnern,\n"
 	.string "wie wir uns gegenseitig anziehen.\p"
-	.string "Wir sollten uns in unsere Pokénavs\n"
+	.string "Wir sollten uns in unsere PokéComs\n"
 	.string "eintragen.$"
 #else
 	.string "We should commemorate how we seem\n"
 	.string "to be drawn to each other.\p"
 	.string "Let's register each other in our\n"
-	.string "POKéNAVS.$"
+	.string "POKéGEARS.$"
 #endif
 
 Route104_Text_CindyRematchIntro:
@@ -1157,11 +1157,11 @@ Route105_Text_AndresPostBattle:
 Route105_Text_AndresRegister:
 #if GERMAN
 	.string "Echt? Ich bin so schwach und trotzdem\n"
-	.string "möchtest du mich in deinen Pokénav\l"
+	.string "möchtest du mich in deinen PokéCom\l"
 	.string "eintragen?$"
 #else
 	.string "Huh? I'm so weak, but you're willing\n"
-	.string "to register me in your POKéNAV?$"
+	.string "to register me in your POKéGEAR?$"
 #endif
 
 Route105_Text_AndresRematchIntro:
@@ -1764,10 +1764,10 @@ Route108_Text_CoryPostBattle:
 Route108_Text_CoryRegister:
 #if GERMAN
 	.string "Ich liebe auch starke Trainer.\n"
-	.string "Trag mich in deinen Pokénav ein!$"
+	.string "Trag mich in deinen PokéCom ein!$"
 #else
 	.string "I love tough TRAINERS, too!\n"
-	.string "Register me in your POKéNAV!$"
+	.string "Register me in your POKéGEAR!$"
 #endif
 
 Route108_Text_CoryRematchIntro:
@@ -2977,12 +2977,12 @@ Route111_Text_DustyRegister:
 	.string "Ich habe noch nie nach starken Pokémon\n"
 	.string "gesucht.\p"
 	.string "Aber trotzdem finde ich so einen\n"
-	.string "Pokénav absolut klasse.$"
+	.string "PokéCom absolut klasse.$"
 #else
 	.string "I haven't been searching for any\n"
 	.string "tough POKéMON.\p"
 	.string "But, for some reason, I sure do like\n"
-	.string "POKéNAVS.$"
+	.string "POKéGEARS.$"
 #endif
 
 Route111_Text_DustyRematchIntro:
@@ -3512,13 +3512,13 @@ Route112_Text_TrentRegister:
 	.string "Au, ich habe Krämpfe in den Beinen!\n"
 	.string "Kannst du mir bitte Bandagen aus\l"
 	.string "meinem Rucksack geben?\p"
-	.string "Nein, das ist mein Pokénav.\n"
+	.string "Nein, das ist mein PokéCom.\n"
 	.string "Ich trage dich ins Verzeichnis ein.$"
 #else
 	.string "Ow, my legs have cramped up.\n"
 	.string "Can you grab me some bandages from\l"
 	.string "my backpack?\p"
-	.string "No, that's my POKéNAV!\n"
+	.string "No, that's my POKéGEAR!\n"
 	.string "Oh, fine, I'll register you.$"
 #endif
 
@@ -3757,10 +3757,10 @@ Route113_Text_MadelinePostBattle:
 Route113_Text_MadelineRegister:
 #if GERMAN
 	.string "Komm unter meinen Sonnenschirm.\n"
-	.string "Ich trage dich in meinen Pokénav ein.$"
+	.string "Ich trage dich in meinen PokéCom ein.$"
 #else
 	.string "Here, slide under my parasol.\n"
-	.string "Let me register you in my POKéNAV.$"
+	.string "Let me register you in my POKéGEAR.$"
 #endif
 
 Route113_Text_MadelineRematchIntro:
@@ -3817,10 +3817,10 @@ Route113_Text_LaoPostBattle:
 Route113_Text_LaoRegister:
 #if GERMAN
 	.string "Yiihaa! Werde Zeuge der Registrierung\n"
-	.string "auf traditionelle Ninja-Art im Pokénav.$"
+	.string "auf traditionelle Ninja-Art im PokéCom.$"
 #else
 	.string "Yiiyaah! Witness the ancient ninja\n"
-	.string "technique of POKéNAV registration!$"
+	.string "technique of POKéGEAR registration!$"
 #endif
 
 Route113_Text_LaoRematchIntro:
@@ -4279,7 +4279,7 @@ Route114_Text_BerniePostBattle:
 Route114_Text_BernieRegister:
 #if GERMAN
 	.string "Du hast meinen Kampfgeist entfacht.\n"
-	.string "Wir sollten uns gegenseitig im Pokénav\l"
+	.string "Wir sollten uns gegenseitig im PokéCom\l"
 	.string "eintragen.$"
 #else
 	.string "You set my spirit on fire.\n"
@@ -5080,13 +5080,13 @@ Route116_Text_JerryPostBattle:
 Route116_Text_JerryRegister1:
 #if GERMAN
 	.string "In der Trainerschule habe ich gelernt,\n"
-	.string "dass man im Pokénav Trainer eintragen\l"
+	.string "dass man im PokéCom Trainer eintragen\l"
 	.string "kann.\p"
 	.string "Und wozu macht man das? Darf ich das\n"
 	.string "mal ausprobieren?$"
 #else
 	.string "I learned at the TRAINER'S SCHOOL\n"
-	.string "that a POKéNAV can register TRAINERS.\p"
+	.string "that a POKéGEAR can register TRAINERS.\p"
 	.string "I don't really get what that means,\n"
 	.string "so can I just try it?$"
 #endif
@@ -5094,13 +5094,13 @@ Route116_Text_JerryRegister1:
 Route116_Text_JerryRegister2:
 #if GERMAN
 	.string "In der Trainerschule habe ich gelernt,\n"
-	.string "dass man im Pokénav Trainer eintragen\l"
+	.string "dass man im PokéCom Trainer eintragen\l"
 	.string "kann.\p"
 	.string "Und wozu macht man das? Darf ich das\n"
 	.string "mal ausprobieren?$"
 #else
 	.string "I learned at the TRAINER'S SCHOOL\n"
-	.string "that a POKéNAV can register TRAINERS.\p"
+	.string "that a POKéGEAR can register TRAINERS.\p"
 	.string "I don't really get what that means,\n"
 	.string "so can I just try it?$"
 #endif
@@ -5164,19 +5164,19 @@ Route116_Text_KarenPostBattle:
 
 Route116_Text_KarenRegister1:
 #if GERMAN
-	.string "Hey! Das ist doch ein Pokénav! Ich habe\n"
+	.string "Hey! Das ist doch ein PokéCom! Ich habe\n"
 	.string "auch einen! Komm, trag mich ein!$"
 #else
-	.string "Oh, wow! Isn't that a POKéNAV?\n"
+	.string "Oh, wow! Isn't that a POKéGEAR?\n"
 	.string "I have one, too! Please register me!$"
 #endif
 
 Route116_Text_KarenRegister2:
 #if GERMAN
-	.string "Hey! Das ist doch ein Pokénav! Ich habe\n"
+	.string "Hey! Das ist doch ein PokéCom! Ich habe\n"
 	.string "auch einen! Komm, trag mich ein!$"
 #else
-	.string "Oh, wow! Isn't that a POKéNAV?\n"
+	.string "Oh, wow! Isn't that a POKéGEAR?\n"
 	.string "I have one, too! Please register me!$"
 #endif
 
@@ -5903,10 +5903,10 @@ Route118_Text_RosePostBattle:
 Route118_Text_RoseRegister:
 #if GERMAN
 	.string "Schnief… Dieser Geruch… Das ist ein\n"
-	.string "Pokénav! Wir müssen uns gegenseitig\l"
+	.string "PokéCom! Wir müssen uns gegenseitig\l"
 	.string "eintragen!$"
 #else
-	.string "Sniff… That odor--it's a POKéNAV!\n"
+	.string "Sniff… That odor--it's a POKéGEAR!\n"
 	.string "We must register each other!$"
 #endif
 
@@ -6399,12 +6399,12 @@ Route119_Text_CatherinePostBattle:
 
 Route119_Text_CatherineRegister:
 #if GERMAN
-	.string "Hast du einen Pokénav?\n"
+	.string "Hast du einen PokéCom?\n"
 	.string "Jeder Trainer sollte so einen besitzen!\p"
 	.string "Hey, du hast ja einen! Dann sollten wir\n"
 	.string "uns gegenseitig eintragen.$"
 #else
-	.string "Do you have a POKéNAV?\n"
+	.string "Do you have a POKéGEAR?\n"
 	.string "It's a must-have tool for any TRAINER.\p"
 	.string "Oh, you do have one!\n"
 	.string "Let's register each other, then!$"
@@ -6755,11 +6755,11 @@ Route120_Text_RobertPostBattle:
 Route120_Text_RobertRegister:
 #if GERMAN
 	.string "Du wirst mit Sicherheit immer besser.\n"
-	.string "Ich würde dich gerne in meinen Pokénav\l"
+	.string "Ich würde dich gerne in meinen PokéCom\l"
 	.string "eintragen.$"
 #else
 	.string "You can be counted on to get better.\n"
-	.string "I'd like to register you in my POKéNAV!$"
+	.string "I'd like to register you in my POKéGEAR!$"
 #endif
 
 Route120_Text_RobertRematchIntro:
@@ -6882,7 +6882,7 @@ Route120_Text_JeffreyRegister:
 #else
 	.string "… … … … … …\n"
 	.string "… … … … … …\l"
-	.string "Do you have a POKéNAV…?$"
+	.string "Do you have a POKéGEAR…?$"
 #endif
 
 Route120_Text_JeffreyRematchIntro:
@@ -7208,7 +7208,7 @@ Route121_Text_WalterRegister:
 #if GERMAN
 	.string "Die Tapferkeit deiner Pokémon ist\n"
 	.string "bemerkenswert. Ich würde dich gerne\l"
-	.string "zur Erinnerung im Pokénav eintragen.$"
+	.string "zur Erinnerung im PokéCom eintragen.$"
 #else
 	.string "Your POKéMON prowess is remarkable.\n"
 	.string "Allow me to register you as a memento.$"
@@ -7443,11 +7443,11 @@ Route121_Text_CristinRegister:
 #if GERMAN
 	.string "Das war einfach nur peinlich!\n"
 	.string "Ich werde dich nicht vergessen…\l"
-	.string "Gib mir deinen Pokénav!$"
+	.string "Gib mir deinen PokéCom!$"
 #else
 	.string "That was total humiliation!\n"
 	.string "I won't forget you…\l"
-	.string "Hand over your POKéNAV!$"
+	.string "Hand over your POKéGEAR!$"
 #endif
 
 Route121_Text_CristinRematchIntro:
@@ -7714,12 +7714,12 @@ Route123_Text_CameronRegister:
 	.string "Wir beide - du und ich - werden\l"
 	.string "gegeneinander antreten.\p"
 	.string "Ich weiß aber nicht, ob ich gewinnen\n"
-	.string "werde… Zeig mir deinen Pokénav.$"
+	.string "werde… Zeig mir deinen PokéCom.$"
 #else
 	.string "I sense it!\n"
 	.string "You and I shall battle again!\l"
 	.string "I can't tell if I'll win, though…\p"
-	.string "Let's see your POKéNAV.$"
+	.string "Let's see your POKéGEAR.$"
 #endif
 
 Route123_Text_CameronRematchIntro:
@@ -8203,11 +8203,11 @@ Route124_Text_SpencerPostBattle:
 	.string "Viele Menschen verlieren auf dem Meer\n"
 	.string "die Orientierung.\p"
 	.string "Wenn du zu denen gehörst, solltest du\n"
-	.string "die Karte des PokéNav zu Hilfe nehmen.$"
+	.string "die Karte des PokéCom zu Hilfe nehmen.$"
 #else
 	.string "Many people lose their bearings at sea.\p"
 	.string "If you're that sort, you should refer\n"
-	.string "to the POKéNAV's MAP.$"
+	.string "to the POKéGEAR's MAP.$"
 #endif
 
 Route124_Text_RolandIntro:
@@ -8278,10 +8278,10 @@ Route124_Text_JennyRegister:
 #if GERMAN
 	.string "Vielleicht ist es ja nur eine Marotte\n"
 	.string "von mir, aber ich möchte gerne, dass du\l"
-	.string "mich in deinen Pokénav einträgst.$"
+	.string "mich in deinen PokéCom einträgst.$"
 #else
 	.string "It's only on a whim, but maybe I'll get\n"
-	.string "you to register me in your POKéNAV.$"
+	.string "you to register me in your POKéGEAR.$"
 #endif
 
 Route124_Text_JennyRematchIntro:
@@ -8744,10 +8744,10 @@ Route125_Text_ErnestPostBattle:
 
 Route125_Text_ErnestRegister:
 #if GERMAN
-	.string "Trag mich in deinen Pokénav ein und ich\n"
+	.string "Trag mich in deinen PokéCom ein und ich\n"
 	.string "verrate dir etwas.$"
 #else
-	.string "Register me in your POKéNAV,\n"
+	.string "Register me in your POKéGEAR,\n"
 	.string "and I'll tell you something good.$"
 #endif
 
@@ -9470,11 +9470,11 @@ Route128_Text_IsaiahRegister:
 #if GERMAN
 	.string "Noch bin ich nicht gut genug, aber\n"
 	.string "irgendwann werde ich gewinnen!\p"
-	.string "Bitte trag mich in deinen Pokénav ein.$"
+	.string "Bitte trag mich in deinen PokéCom ein.$"
 #else
 	.string "I know I'm not good now, but I think\n"
 	.string "I can win eventually.\p"
-	.string "Please register me in your POKéNAV.$"
+	.string "Please register me in your POKéGEAR.$"
 #endif
 
 Route128_Text_IsaiahRematchIntro:

@@ -440,13 +440,13 @@ PlayersHouse_1F_Text_DontPushYourselfTooHard:
 PlayersHouse_1F_Text_IsThatAPokenav:
 #if GERMAN
 	.string "Mutter: Was hast du denn da Schönes?\n"
-	.string "Einen Pokénav? Den hat dir jemand von\l"
+	.string "Einen PokéCom? Den hat dir jemand von\l"
 	.string "Devon gegeben?\p"
 	.string "Und, Liebling? Möchtest du nicht deine\n"
 	.string "Mutter ins Verzeichnis aufnehmen?\p"
 	.string "… … …$"
 #else
-	.string "MOM: What is that, honey? A POKéNAV?\n"
+	.string "MOM: What is that, honey? A POKéGEAR?\n"
 	.string "Someone from DEVON gave it to you?\p"
 	.string "Well, honey, how about registering\n"
 	.string "your mom?\p"
@@ -455,11 +455,11 @@ PlayersHouse_1F_Text_IsThatAPokenav:
 
 PlayersHouse_1F_Text_RegisteredMom:
 #if GERMAN
-	.string "Mutter wurde im Pokénav-Verzeichnis\n"
+	.string "Mutter wurde im PokéCom-Verzeichnis\n"
 	.string "eingetragen.$"
 #else
 	.string "Registered MOM\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 PlayersHouse_1F_Text_Vigoroth1:

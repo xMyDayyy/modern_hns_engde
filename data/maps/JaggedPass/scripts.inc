@@ -285,11 +285,11 @@ JaggedPass_Text_EthanRegister:
 	.string "Wenn ich mich erstmal an diesen\n"
 	.string "unebenen Boden gewöhnt habe,\l"
 	.string "werde ich mit Sicherheit gewinnen!\p"
-	.string "Trägst du mich in deinen Pokénav ein?$"
+	.string "Trägst du mich in deinen PokéCom ein?$"
 #else
 	.string "When I get more used to this bumpiness,\n"
 	.string "I'll be sure to win!\p"
-	.string "Can you register me in your POKéNAV?$"
+	.string "Can you register me in your POKéGEAR?$"
 #endif
 
 JaggedPass_Text_EthanRematchIntro:

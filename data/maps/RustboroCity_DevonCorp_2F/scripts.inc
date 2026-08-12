@@ -319,13 +319,13 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
 #if GERMAN
-	.string "Ich habe den Pokénav entwickelt!\p"
+	.string "Ich habe den PokéCom entwickelt!\p"
 	.string "Als Ingenieur erfüllt es mich mit\n"
 	.string "Stolz,\n"
 	.string "so etwas Großartiges entwickelt zu\l"
 	.string "haben.$"
 #else
-	.string "I made the POKéNAV!\p"
+	.string "I made the POKéGEAR!\p"
 	.string "As an engineer, I feel blessed to have\n"
 	.string "made something so great!$"
 #endif
@@ -333,7 +333,7 @@ RustboroCity_DevonCorp_2F_Text_IMadePokenav:
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 #if GERMAN
 	.string "Oh, wow!\n"
-	.string "Das ist ein Pokénav!\p"
+	.string "Das ist ein PokéCom!\p"
 	.string "Er ist das Resultat der Wissbegierde\n"
 	.string "unseres Präsidenten, der etwas über\l"
 	.string "die Gefühle der Pokémon lernen möchte.\n"
@@ -344,14 +344,14 @@ RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "alleine heraus.$"
 #else
 	.string "Oh, wow!\n"
-	.string "That's a POKéNAV!\p"
+	.string "That's a POKéGEAR!\p"
 	.string "It came about as a result of our\n"
 	.string "PRESIDENT's desire to learn about\l"
 	.string "the feelings of POKéMON.\p"
 	.string "Would you like me to describe its\n"
 	.string "features in detail?\p"
 	.string "No, no. I think you'll find out just by\n"
-	.string "trying the POKéNAV out.$"
+	.string "trying the POKéGEAR out.$"
 #endif
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
@@ -497,12 +497,12 @@ RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
 #if GERMAN
 	.string "Ich entwickle ein neues Feature für\n"
-	.string "den Pokénav…\p"
+	.string "den PokéCom…\p"
 	.string "Aber irgendwie habe ich damit\n"
 	.string "Probleme…$"
 #else
 	.string "I'm trying to develop a new feature\n"
-	.string "for the POKéNAV…\p"
+	.string "for the POKéGEAR…\p"
 	.string "But it's not going well.$"
 #endif
 

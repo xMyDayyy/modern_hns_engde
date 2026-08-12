@@ -64,10 +64,10 @@ FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 
 FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
 #if GERMAN
-	.string "Hey, du hast einen Pokénav!\n"
+	.string "Hey, du hast einen PokéCom!\n"
 	.string "Ich habe auch so einen.\p"
 	.string "Kennst du schon das Trainer/Ruf-\n"
-	.string "System des Pokénavs?\p"
+	.string "System des PokéComs?\p"
 	.string "Wenn du das in Betrieb nimmst, kannst\n"
 	.string "du jederzeit mit den registrierten\l"
 	.string "Trainern sprechen.\p"
@@ -77,9 +77,9 @@ FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
 	.string "Ist das nicht einfach super?\n"
 	.string "Das muss man Devon wirklich lassen!$"
 #else
-	.string "Oh, wow, you have a POKéNAV!\n"
+	.string "Oh, wow, you have a POKéGEAR!\n"
 	.string "And it's just like mine!\p"
-	.string "Do you know about POKéNAV's\n"
+	.string "Do you know about POKéGEAR's\n"
 	.string "MATCH CALL system?\p"
 	.string "Access it, and you can chat with\n"
 	.string "registered TRAINERS anytime.\p"

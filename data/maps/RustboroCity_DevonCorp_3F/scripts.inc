@@ -248,16 +248,16 @@ RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
 
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
 #if GERMAN
-	.string "{PLAYER} erhält den Pokénav.$"
+	.string "{PLAYER} erhält den PokéCom.$"
 #else
-	.string "{PLAYER} received a POKéNAV.$"
+	.string "{PLAYER} received a POKéGEAR.$"
 #endif
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 #if GERMAN
 	.string "Mr. Trumm: Dieses Gerät…\p"
 	.string "Es ist ein Pokémon Navigator - oder\n"
-	.string "kurz ein Pokénav.\p"
+	.string "kurz ein PokéCom.\p"
 	.string "Ein unentbehrliches Hilfsmittel für\n"
 	.string "jeden Trainer auf Abenteuerreise.\p"
 	.string "Er enthält die Karte von Hoenn.\p"
@@ -273,7 +273,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "Weg machst.$"
 #else
 	.string "MR. STONE: That device…\p"
-	.string "It's a POKéMON NAVIGATOR, or POKéNAV\n"
+	.string "It's a POKéMON NAVIGATOR, or POKéGEAR\n"
 	.string "for short.\p"
 	.string "It's an indispensable tool for any\n"
 	.string "TRAINER on an adventure.\p"

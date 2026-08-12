@@ -56,13 +56,13 @@ MtPyre_6F_Text_ValerieRegister:
 #if GERMAN
 	.string "Hähähä… Ich habe den Kampf verloren,\n"
 	.string "aber… ich habe dieses Talent…\p"
-	.string "Ohne, dass ich den Pokénav berühren\n"
+	.string "Ohne, dass ich den PokéCom berühren\n"
 	.string "muss… Hiyah!$"
 #else
 	.string "Fufufu… I lost the match, but…\n"
 	.string "I have this little ability…\p"
 	.string "Without ever laying my hands on\n"
-	.string "your POKéNAV… Hiyah!$"
+	.string "your POKéGEAR… Hiyah!$"
 #endif
 
 MtPyre_6F_Text_ValerieRematchIntro:

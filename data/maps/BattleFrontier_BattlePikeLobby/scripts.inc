@@ -600,10 +600,10 @@ BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
 
 BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
 #if GERMAN
-	.string "Beutel und Pokénav dürfen nicht\n"
+	.string "Beutel und PokéCom dürfen nicht\n"
 	.string "auf die Kampfbahn mitgenommen werden.$"
 #else
-	.string "The BAG and POKéNAV may not be used\n"
+	.string "The BAG and POKéGEAR may not be used\n"
 	.string "during a Battle Choice challenge.$"
 #endif
 

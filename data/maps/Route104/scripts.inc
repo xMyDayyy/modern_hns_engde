@@ -1188,14 +1188,14 @@ Route104_Text_TrainerTipsDoubleBattles:
 Route104_Text_MayWeShouldRegister:
 #if GERMAN
 	.string "Maike: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "Devon hat deinen Pokénav mit einem\n"
+	.string "Devon hat deinen PokéCom mit einem\n"
 	.string "Trainer/Ruf-System ausgestattet?\p"
 	.string "Wir sollten uns gegenseitig eintragen,\n"
 	.string "dann können wir jederzeit miteinander\l"
 	.string "reden.$"
 #else
 	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "DEVON upgraded your POKéNAV with\n"
+	.string "DEVON upgraded your POKéGEAR with\n"
 	.string "the MATCH CALL system, huh?\p"
 	.string "We should register each other so we\n"
 	.string "can get in contact anytime.$"
@@ -1203,11 +1203,11 @@ Route104_Text_MayWeShouldRegister:
 
 Route104_Text_RegisteredMay:
 #if GERMAN
-	.string "{PLAYER} trägt Maike in das Pokénav-\n"
-	.string "Verzeichnis ein.$"
+	.string "{PLAYER} trägt Maike in das\n"
+	.string "PokéCom-Verzeichnis ein.$"
 #else
 	.string "{PLAYER} registered MAY\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 Route104_Text_MayHowsYourPokedex:
@@ -1296,7 +1296,7 @@ Route104_Text_MayPostBattle:
 Route104_Text_BrendanWeShouldRegister:
 #if GERMAN
 	.string "Brix: Hey, {PLAYER}!\p"
-	.string "Cool! Devon hat deinen Pokénav mit\n"
+	.string "Cool! Devon hat deinen PokéCom mit\n"
 	.string "einem Trainer/Ruf-System\l"
 	.string "ausgestattet?\p"
 	.string "Wir sollten uns gegenseitig eintragen,\n"
@@ -1305,18 +1305,18 @@ Route104_Text_BrendanWeShouldRegister:
 #else
 	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
 	.string "Cool, you had DEVON install the MATCH\n"
-	.string "CALL system on your POKéNAV!\p"
+	.string "CALL system on your POKéGEAR!\p"
 	.string "Let's register each other in our\n"
-	.string "POKéNAVS so we can keep in touch.$"
+	.string "POKéGEARS so we can keep in touch.$"
 #endif
 
 Route104_Text_RegisteredBrendan:
 #if GERMAN
-	.string "{PLAYER} trägt Brix in das Pokénav-\n"
-	.string "Verzeichnis ein.$"
+	.string "{PLAYER} trägt Brix in das\n"
+	.string "PokéCom-Verzeichnis ein.$"
 #else
 	.string "{PLAYER} registered BRENDAN\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 Route104_Text_BrendanHowsYourPokedex:

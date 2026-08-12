@@ -136,7 +136,7 @@ MtPyre_3F_Text_GabrielleRegister:
 #else
 	.string "I would like to see your POKéMON\n"
 	.string "when they grow up some more…\p"
-	.string "Please, I need to see your POKéNAV.$"
+	.string "Please, I need to see your POKéGEAR.$"
 #endif
 
 MtPyre_3F_Text_GabrielleRematchIntro:

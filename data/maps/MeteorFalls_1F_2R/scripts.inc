@@ -99,10 +99,10 @@ MeteorFalls_1F_2R_Text_NicolasPostBattle:
 MeteorFalls_1F_2R_Text_NicolasRegister:
 #if GERMAN
 	.string "Von dir möchte ich noch mehr erfahren.\n"
-	.string "Ich trage dich in meinen Pokénav ein.$"
+	.string "Ich trage dich in meinen PokéCom ein.$"
 #else
 	.string "I want to know more about your power.\n"
-	.string "Let me register you in my POKéNAV.$"
+	.string "Let me register you in my POKéGEAR.$"
 #endif
 
 MeteorFalls_1F_2R_Text_NicolasRematchIntro:

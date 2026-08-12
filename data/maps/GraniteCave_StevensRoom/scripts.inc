@@ -122,7 +122,7 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
 	.string "Pokémon Liga. Das ist meine Meinung.\p"
 	.string "Und da wir uns jetzt so gut kennen\n"
 	.string "gelernt haben, sollten wir uns in\l"
-	.string "unseren Pokénavs eintragen.\p"
+	.string "unseren PokéComs eintragen.\p"
 	.string "… … … … …\n"
 	.string "…$"
 #else
@@ -133,17 +133,17 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
 	.string "LEAGUE one day. That's what I think.\p"
 	.string "I know, since we've gotten to know each\n"
 	.string "other, let's register one another in\l"
-	.string "our POKéNAVS.\p"
+	.string "our POKéGEARS.\p"
 	.string "… … … … … …$"
 #endif
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
 #if GERMAN
-	.string "Troy wurde im Pokénav-Verzeichnis\n"
+	.string "Troy wurde im PokéCom-Verzeichnis\n"
 	.string "eingetragen.$"
 #else
 	.string "Registered STEVEN\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:

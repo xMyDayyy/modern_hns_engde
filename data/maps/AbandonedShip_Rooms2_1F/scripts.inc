@@ -126,7 +126,7 @@ AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
 AbandonedShip_Rooms2_1F_Text_KiraRegister:
 #if GERMAN
 	.string "Jule: Du machst mich echt wütend!\n"
-	.string "Ich werde dich im Pokénav eintragen.$"
+	.string "Ich werde dich im PokéCom eintragen.$"
 #else
 	.string "KIRA: Oh, you make me so angry!\n"
 	.string "I'm going to register you for that!$"

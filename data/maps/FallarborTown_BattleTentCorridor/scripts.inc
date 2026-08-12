@@ -62,13 +62,13 @@ FallarborTown_ContestHall_Text_MonAllTheseRibbons:
 	.string "Mein Pokémon hat all diese Bänder\l"
 	.string "gewonnen!\p"
 	.string "Hat dein Pokémon schon Bänder\n"
-	.string "bekommen? Im Pokénav kannst du\l"
+	.string "bekommen? Im PokéCom kannst du\l"
 	.string "nachsehen.$"
 #else
 	.string "See!\n"
 	.string "My POKéMON won all these RIBBONS!\p"
 	.string "Have your POKéMON earned any RIBBONS?\n"
-	.string "You can check them on your POKéNAV.$"
+	.string "You can check them on your POKéGEAR.$"
 #endif
 
 @ Unused

@@ -2409,10 +2409,10 @@ MatchCall_PersonalizedText39::
 	.string "Prust… Prust…\p"
 	.string "Hähä! Tut mir Leid! Ich wollte mich\n"
 	.string "gerade mit Sonnenmilch eincremen.\p"
-	.string "Mein Pokénav ist dadurch ganz\n"
+	.string "Mein PokéCom ist dadurch ganz\n"
 	.string "glitschig geworden. Und ins Wasser\l"
 	.string "gefallen. Und ich hinterher…\p"
-	.string "Mann, gut dass der Pokénav so\n"
+	.string "Mann, gut dass der PokéCom so\n"
 	.string "robust ist. Er hat es überlebt!\p"
 	.string "Nun, ich muss jetzt Sonne tanken.\n"
 	.string "Wir reden später weiter. Bye.$"
@@ -2425,9 +2425,9 @@ MatchCall_PersonalizedText39::
 	.string "Whiff-whiff! Whiff-whiff!\p"
 	.string "Hey! Sorry about that!\n"
 	.string "I just put on some suntan oil.\p"
-	.string "So my POKéNAV went whoopsy\n"
+	.string "So my POKéGEAR went whoopsy\n"
 	.string "out of my hand into the water!\p"
-	.string "But, boy, DEVON's POKéNAV is built\n"
+	.string "But, boy, DEVON's POKéGEAR is built\n"
 	.string "tough. It survived that dunking!\p"
 	.string "Anyways, I'm busy sunbathing,\n"
 	.string "so let's chat another time.$"
@@ -5814,13 +5814,13 @@ MatchCall_Text_Wally6::
 	.string "… … … … …\l"
 	.string "…\p"
 	.string "Heiko scheint sich außerhalb der\n"
-	.string "Reichweite des Pokénavs zu\l"
+	.string "Reichweite des PokéComs zu\l"
 	.string "befinden.$"
 #else
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "WALLY appears to be out of\n"
-	.string "the POKéNAV's service area…$"
+	.string "the POKéGEAR's service area…$"
 #endif
 
 MatchCall_Text_Wally7::
@@ -5981,12 +5981,12 @@ MatchCall_Text_Scott7::
 	.string "… … … …\l"
 	.string "…\l"
 	.string "Scott scheint sich nicht in Reich-\l"
-	.string "weite des Pokénavs zu befinden.$"
+	.string "weite des PokéComs zu befinden.$"
 #else
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "SCOTT appears to be out of\n"
-	.string "the POKéNAV's service area…$"
+	.string "the POKéGEAR's service area…$"
 #endif
 
 MatchCall_Text_Norman1::
@@ -6260,7 +6260,7 @@ MatchCall_Text_BirchRegisterCall:
 #if GERMAN
 	.string "Prof. Birk: Oh, {PLAYER}{KUN}!\n"
 	.string "Ich habe es schon gehört!\p"
-	.string "Dein Pokénav wurde um den\n"
+	.string "Dein PokéCom wurde um den\n"
 	.string "Trainer/Ruf erweitert.\p"
 	.string "Nun, dann sollte ich mich bei dir\n"
 	.string "auch registrieren!\p"
@@ -6272,7 +6272,7 @@ MatchCall_Text_BirchRegisterCall:
 #else
 	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
 	.string "I've already heard about you!\p"
-	.string "It seems your POKéNAV's been\n"
+	.string "It seems your POKéGEAR's been\n"
 	.string "upgraded with MATCH CALL.\p"
 	.string "Well, I should register, too!\p"
 	.string "That way, I'd be able to examine\n"
@@ -6283,22 +6283,22 @@ MatchCall_Text_BirchRegisterCall:
 
 MatchCall_Text_RegisteredBirch:
 #if GERMAN
-	.string "Prof. Birk wurde im Pokénav-\n"
+	.string "Prof. Birk wurde im PokéCom-\n"
 	.string "Verzeichnis eingetragen.$"
 #else
 	.string "Registered PROF. BIRCH\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 MatchCall_Text_UnusedProfBirch:
 #if GERMAN
 	.string "Prof. Birk: Wenn man sowohl den Pokédex\n"
-	.string "als auch den PokéNav besitzt, macht die\l"
+	.string "als auch den PokéCom besitzt, macht die\l"
 	.string "Erforschung der Pokémon noch mehr\l"
 	.string "Spaß, nicht wahr?$"
 #else
 	.string "PROF. BIRCH: When one has both\n"
-	.string "the POKéDEX and POKéNAV, studying\l"
+	.string "the POKéDEX and POKéGEAR, studying\l"
 	.string "POKéMON becomes more fun, eh?$"
 #endif
 
@@ -6306,7 +6306,7 @@ MatchCall_Text_MrStone1::
 #if GERMAN
 	.string "Mr. Trumm: Oh? {PLAYER}{KUN}!\p"
 	.string "Da du mich erreicht hast, scheint\n"
-	.string "der Pokénav zu funktionieren!\p"
+	.string "der PokéCom zu funktionieren!\p"
 	.string "Andere werden sich ebenfalls bei\n"
 	.string "dir eintragen lassen, also versuch,\l"
 	.string "diese auch zu erreichen.\p"
@@ -6320,7 +6320,7 @@ MatchCall_Text_MrStone1::
 	.string "Bis bald mal! Mach’s gut!$"
 #else
 	.string "MR. STONE: Oh? {PLAYER}{KUN}!\p"
-	.string "Since you called me, the POKéNAV\n"
+	.string "Since you called me, the POKéGEAR\n"
 	.string "must be working properly!\p"
 	.string "Other people will be registered,\n"
 	.string "so try calling them up, too!\p"

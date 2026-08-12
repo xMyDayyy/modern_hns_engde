@@ -521,22 +521,22 @@ PetalburgWoods_Text_IWantRematch1:
 #if GERMAN
 	.string "Ich möchte wieder kämpfen, wenn meine\n"
 	.string "Käfer-Pokémon stärker geworden sind.\p"
-	.string "Ich trage dich in meinen PokéNav ein.$"
+	.string "Ich trage dich in meinen PokéCom ein.$"
 #else
 	.string "I want a rematch when my BUG\n"
 	.string "POKéMON grow up!\p"
-	.string "I'm registering you in my POKéNAV!$"
+	.string "I'm registering you in my POKéGEAR!$"
 #endif
 
 PetalburgWoods_Text_IWantRematch2:
 #if GERMAN
 	.string "Ich möchte wieder kämpfen, wenn meine\n"
 	.string "Käfer-Pokémon stärker geworden sind.\p"
-	.string "Ich trage dich in meinen PokéNav ein.$"
+	.string "Ich trage dich in meinen PokéCom ein.$"
 #else
 	.string "I want a rematch when my BUG \n"
 	.string "POKéMON grow up!\p"
-	.string "I'm registering you in my POKéNAV!$"
+	.string "I'm registering you in my POKéGEAR!$"
 #endif
 
 PetalburgWoods_Text_MyPokemonHaveGrown:

@@ -1278,7 +1278,7 @@ RustboroCity_Text_PleaseComeWithMe:
 RustboroCity_Text_MayHiLetsRegister:
 #if GERMAN
 	.string "Maike: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "Dein Pokénav besitzt die Trainer/Ruf-\n"
+	.string "Dein PokéCom besitzt die Trainer/Ruf-\n"
 	.string "Funktion!\p"
 	.string "Wir tragen uns gegenseitig ein, so\n"
 	.string "bleiben wir in Kontakt.\p"
@@ -1287,7 +1287,7 @@ RustboroCity_Text_MayHiLetsRegister:
 #else
 	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
 	.string "You had a MATCH CALL feature put\n"
-	.string "on your POKéNAV!\p"
+	.string "on your POKéGEAR!\p"
 	.string "Let's register each other so we can\n"
 	.string "contact one another anytime!\p"
 	.string "… … … … … …$"
@@ -1295,11 +1295,11 @@ RustboroCity_Text_MayHiLetsRegister:
 
 RustboroCity_Text_RegisteredMay:
 #if GERMAN
-	.string "Maike wurde im Pokénav-Verzeichnis\n"
+	.string "Maike wurde im PokéCom-Verzeichnis\n"
 	.string "eingetragen.$"
 #else
 	.string "Registered MAY\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 RustboroCity_Text_MayPassedBrineyWantToBattle:
@@ -1385,7 +1385,7 @@ RustboroCity_Text_MayMrBrineyHint:
 RustboroCity_Text_BrendanHiLetsRegister:
 #if GERMAN
 	.string "Brix: Oh, hey, {PLAYER}!\p"
-	.string "Dein Pokénav besitzt die Trainer/Ruf-\n"
+	.string "Dein PokéCom besitzt die Trainer/Ruf-\n"
 	.string "Funktion! Cool!\p"
 	.string "Wir tragen uns gegenseitig ein, dann\n"
 	.string "können wir jederzeit miteinander\n"
@@ -1395,7 +1395,7 @@ RustboroCity_Text_BrendanHiLetsRegister:
 #else
 	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
 	.string "You had a MATCH CALL feature put\n"
-	.string "on your POKéNAV! Cool!\p"
+	.string "on your POKéGEAR! Cool!\p"
 	.string "Let's register each other so we can\n"
 	.string "get in touch anytime!\p"
 	.string "… … … … … …$"
@@ -1403,11 +1403,11 @@ RustboroCity_Text_BrendanHiLetsRegister:
 
 RustboroCity_Text_RegisteredBrendan:
 #if GERMAN
-	.string "Brix wurde im Pokénav-Verzeichnis\n"
+	.string "Brix wurde im PokéCom-Verzeichnis\n"
 	.string "eingetragen.$"
 #else
 	.string "Registered BRENDAN\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
@@ -1568,24 +1568,24 @@ RustboroCity_Text_CuttersHouse:
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
 #if GERMAN
-	.string "Ich habe neues Zubehör für den Pokénav\n"
+	.string "Ich habe neues Zubehör für den PokéCom\n"
 	.string "entwickelt…\p"
 	.string "Und es funktioniert großartig!\p"
-	.string "Zeigst du mir mal deinen Pokénav,\n"
+	.string "Zeigst du mir mal deinen PokéCom,\n"
 	.string "{PLAYER}? Den du von unserem\l"
 	.string "Präsidenten bekommen hast.$"
 #else
 	.string "I've been developing an added feature\n"
-	.string "for the POKéNAV…\p"
+	.string "for the POKéGEAR…\p"
 	.string "And it turned out great!\p"
-	.string "{PLAYER}, may I see that POKéNAV?\n"
+	.string "{PLAYER}, may I see that POKéGEAR?\n"
 	.string "The one our PRESIDENT gave you?$"
 #endif
 
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
 #if GERMAN
 	.string "Hier, bitte schön, {PLAYER}.\p"
-	.string "Ich habe deinen Pokénav mit dem\n"
+	.string "Ich habe deinen PokéCom mit dem\n"
 	.string "so genannten Trainer/Ruf\l"
 	.string "ausgestattet.\p"
 	.string "Trage deine Freunde und andere\n"
@@ -1598,21 +1598,21 @@ RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
 #else
 	.string "There you go, {PLAYER}!\p"
 	.string "I added a new feature named\n"
-	.string "MATCH CALL to your POKéNAV.\p"
+	.string "MATCH CALL to your POKéGEAR.\p"
 	.string "Using the MATCH CALL feature,\n"
 	.string "you can chat with people who have\l"
-	.string "been registered in your POKéNAV.\p"
+	.string "been registered in your POKéGEAR.\p"
 	.string "{PLAYER}, our PRESIDENT STONE should\n"
-	.string "be registered in your POKéNAV.\p"
+	.string "be registered in your POKéGEAR.\p"
 	.string "Test it out.\n"
 	.string "Please give our PRESIDENT a call.$"
 #endif
 
 RustboroCity_Text_PleaseSelectPokenav:
 #if GERMAN
-	.string "Wähle Pokénav.$"
+	.string "Wähle PokéCom.$"
 #else
-	.string "Please select the POKéNAV.$"
+	.string "Please select the POKéGEAR.$"
 #endif
 
 RustboroCity_Text_IdBetterGetBackToWork:

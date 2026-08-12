@@ -1264,9 +1264,9 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "Ihr beiden seid nicht zusammen\l"
 	.string "unterwegs.\p"
 	.string "Ich habe schon davon gehört. Dein\n"
-	.string "Pokénav ist mit dem Trainer/Ruf-\l"
+	.string "PokéCom ist mit dem Trainer/Ruf-\l"
 	.string "System ausgerüstet.\p"
-	.string "Dann werde ich dich in mein Pokénav-\n"
+	.string "Dann werde ich dich in mein PokéCom-\n"
 	.string "Verzeichnis eintragen.\p"
 	.string "So kann ich deinen Pokédex beurteilen,\n"
 	.string "auch wenn du weit weg bist.\p"
@@ -1276,10 +1276,10 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "Oh, I see!\n"
 	.string "You two are running separately.\l"
 	.string "Well, that's fine.\p"
-	.string "Oh, yes, I heard that your POKéNAV\n"
+	.string "Oh, yes, I heard that your POKéGEAR\n"
 	.string "had the MATCH CALL system installed.\p"
 	.string "Well, then, I should register you in\n"
-	.string "my POKéNAV as well.\p"
+	.string "my POKéGEAR as well.\p"
 	.string "That way, even when we're apart,\n"
 	.string "I can rate your POKéDEX anytime.\p"
 	.string "… … … … … …$"
@@ -1287,11 +1287,11 @@ Route110_Text_HeardYouInstallMatchCall:
 
 Route110_Text_RegisteredBirchInPokenav:
 #if GERMAN
-	.string "Prof. Birk wurde in das Pokénav-\n"
+	.string "Prof. Birk wurde in das PokéCom-\n"
 	.string "Verzeichnis eingetragen.$"
 #else
 	.string "Registered PROF. BIRCH\n"
-	.string "in the POKéNAV.$"
+	.string "in the POKéGEAR.$"
 #endif
 
 Route110_Text_KeepAnEyeOutForRival:
