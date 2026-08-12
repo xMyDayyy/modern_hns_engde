@@ -342,7 +342,12 @@ static const struct MatchCallRival sBrendanMatchCallHeader =
     .playerGender = FEMALE,
     .flag = FLAG_ENABLE_RIVAL_MATCH_CALL,
     .desc = gText_MayBrendanMatchCallDesc,
+#if IS_HNS
+    // HnS-Kanon: Rivalin ist immer Maike, auch bei weiblicher Spielfigur.
+    .name = gText_ExpandedPlaceholder_May,
+#else
     .name = gText_ExpandedPlaceholder_Brendan,
+#endif
     .textData = sBrendanTextScripts
 };
 
@@ -798,7 +803,12 @@ static const struct MatchCallRival sBrendanMatchCallHeader =
     .playerGender = FEMALE,
     .flag = FLAG_ENABLE_RIVAL_MATCH_CALL,
     .desc = gText_MayBrendanMatchCallDesc,
+#if IS_HNS
+    // HnS-Kanon: Rivalin ist immer Maike, auch bei weiblicher Spielfigur.
+    .name = gText_ExpandedPlaceholder_May,
+#else
     .name = gText_ExpandedPlaceholder_Brendan,
+#endif
     .textData = sBrendanTextScripts
 };
 

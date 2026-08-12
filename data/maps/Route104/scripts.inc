@@ -1295,7 +1295,7 @@ Route104_Text_MayPostBattle:
 
 Route104_Text_BrendanWeShouldRegister:
 #if GERMAN
-	.string "Brix: Hey, {PLAYER}!\p"
+	.string "Maike: Hey, {PLAYER}!\p"
 	.string "Cool! Devon hat deinen PokéCom mit\n"
 	.string "einem Trainer/Ruf-System\l"
 	.string "ausgestattet?\p"
@@ -1312,7 +1312,7 @@ Route104_Text_BrendanWeShouldRegister:
 
 Route104_Text_RegisteredBrendan:
 #if GERMAN
-	.string "{PLAYER} trägt Brix in das\n"
+	.string "{PLAYER} trägt Maike in das\n"
 	.string "PokéCom-Verzeichnis ein.$"
 #else
 	.string "{PLAYER} registered BRENDAN\n"
@@ -1321,7 +1321,7 @@ Route104_Text_RegisteredBrendan:
 
 Route104_Text_BrendanHowsYourPokedex:
 #if GERMAN
-	.string "Brix: {PLAYER}, wie sieht es mit\n"
+	.string "Maike: {PLAYER}, wie sieht es mit\n"
 	.string "deinem Pokédex aus?$"
 #else
 	.string "BRENDAN: {PLAYER}, how's your POKéDEX?\n"
@@ -1341,7 +1341,7 @@ Route104_Text_BrendanDoingGreatLetsBattle:
 
 Route104_Text_BrendanNoConfidence:
 #if GERMAN
-	.string "Brix: Oh, hast du ein Problem? Nicht\n"
+	.string "Maike: Oh, hast du ein Problem? Nicht\n"
 	.string "genügend Selbstbewusstsein und\l"
 	.string "Vertrauen in deine Pokémon, was?$"
 #else
@@ -1351,7 +1351,7 @@ Route104_Text_BrendanNoConfidence:
 
 Route104_Text_BrendanLetsBattle:
 #if GERMAN
-	.string "Brix: Wie geht’s? Lust auf einen\n"
+	.string "Maike: Wie geht’s? Lust auf einen\n"
 	.string "Kampf?$"
 #else
 	.string "BRENDAN: What's up?\n"
@@ -1360,7 +1360,7 @@ Route104_Text_BrendanLetsBattle:
 
 Route104_Text_BrendanIntro:
 #if GERMAN
-	.string "Brix: Ich weiß, du bist gerade erst\n"
+	.string "Maike: Ich weiß, du bist gerade erst\n"
 	.string "ein\n"
 	.string "Trainer geworden, aber ich werde mich\l"
 	.string "nicht zurückhalten.$"
@@ -1379,7 +1379,7 @@ Route104_Text_BrendanDefeat:
 
 Route104_Text_BrendanPostBattle:
 #if GERMAN
-	.string "Brix: Du bist sehr gut im Umgang mit\n"
+	.string "Maike: Du bist sehr gut im Umgang mit\n"
 	.string "Pokémon geworden.\p"
 	.string "Aber du solltest deine Pokémon nicht\n"
 	.string "nur kämpfen lassen.\p"

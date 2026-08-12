@@ -841,7 +841,7 @@ Route110_Text_MayExplainItemfinder:
 
 Route110_Text_BrendanLetsBattle:
 #if GERMAN
-	.string "Brix: Hey, {PLAYER}.\n"
+	.string "Maike: Hey, {PLAYER}.\n"
 	.string "Hier treibst du dich also herum.\l"
 	.string "Wie geht es?\p"
 	.string "Hast du deine Pokémon gut aufgezogen?\n"
@@ -864,7 +864,7 @@ Route110_Text_BrendanDefeated:
 
 Route110_Text_BrendanTakeThis:
 #if GERMAN
-	.string "Brix: {PLAYER}, du hast trainiert,\n"
+	.string "Maike: {PLAYER}, du hast trainiert,\n"
 	.string "ohne dass ich etwas davon\l"
 	.string "mitbekommen habe…\p"
 	.string "Aber genug!\n"
@@ -878,7 +878,7 @@ Route110_Text_BrendanTakeThis:
 
 Route110_Text_BrendanExplainItemfinder:
 #if GERMAN
-	.string "Brix: Das ist ein Detektor.\p"
+	.string "Maike: Das ist ein Detektor.\p"
 	.string "Probier ihn mal aus. \p"
 	.string "Ist irgendwo ein Item versteckt, gibt\n"
 	.string "er ein Geräusch von sich.\p"

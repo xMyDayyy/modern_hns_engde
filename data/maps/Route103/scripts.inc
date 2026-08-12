@@ -492,7 +492,7 @@ Route103_Text_MayTimeToHeadBack:
 
 Route103_Text_BrendanRoute103Pokemon:
 #if GERMAN
-	.string "Brix: So… Dieses und dieses leben an\n"
+	.string "Maike: So… Dieses und dieses leben an\n"
 	.string "der Route 103…$"
 #else
 	.string "BRENDAN: Okay, so it's this one and\n"
@@ -527,7 +527,7 @@ Route103_Text_BrendanDefeated:
 
 Route103_Text_BrendanTimeToHeadBack:
 #if GERMAN
-	.string "Brix: Ich denke, ich habe es kapiert.\n"
+	.string "Maike: Ich denke, ich habe es kapiert.\n"
 	.string "Ich weiß jetzt, warum mein Vater dich\l"
 	.string "ausgesucht hat.\p"
 	.string "Du hast dein Pokémon noch nicht lange,\n"

@@ -570,7 +570,7 @@ LilycoveCity_Text_MayYouGoingToBattleFrontier:
 
 LilycoveCity_Text_BrendanShoppingLetsBattle:
 #if GERMAN
-	.string "Brix: Oh, du bist es, {PLAYER}.\p"
+	.string "Maike: Oh, du bist es, {PLAYER}.\p"
 	.string "Ich mache Besorgungen für meinen\n"
 	.string "Vater. Nein, ich kaufe keine Puppen!\p"
 	.string "Wir haben uns lange nicht mehr\n"
@@ -588,7 +588,7 @@ LilycoveCity_Text_BrendanShoppingLetsBattle:
 
 LilycoveCity_Text_BrendanNoConfidence:
 #if GERMAN
-	.string "Brix: Oh, hast du ein Problem? Nicht\n"
+	.string "Maike: Oh, hast du ein Problem? Nicht\n"
 	.string "genügend Selbstbewusstsein, was?$"
 #else
 	.string "BRENDAN: Oh, what's the matter?\n"
@@ -597,7 +597,7 @@ LilycoveCity_Text_BrendanNoConfidence:
 
 LilycoveCity_Text_BrendanBattleMe:
 #if GERMAN
-	.string "Brix: Sollen wir kämpfen, um zu\n"
+	.string "Maike: Sollen wir kämpfen, um zu\n"
 	.string "sehen, wer seine Pokémon besser\l"
 	.string "trainiert?$"
 #else
@@ -607,7 +607,7 @@ LilycoveCity_Text_BrendanBattleMe:
 
 LilycoveCity_Text_BrendanWontBeBeaten:
 #if GERMAN
-	.string "Brix: Aah, ich werde doch nicht\n"
+	.string "Maike: Aah, ich werde doch nicht\n"
 	.string "gegen {PLAYER} verlieren! Niemals!$"
 #else
 	.string "BRENDAN: Aww, but you know I'm not\n"
@@ -628,7 +628,7 @@ LilycoveCity_Text_BrendanDefeat:
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
 #if GERMAN
-	.string "Brix: Ich…\n"
+	.string "Maike: Ich…\n"
 	.string "Ich gehe nach Hause, nach Wurzelheim.\n"
 	.string "\p"
 	.string "Weißt du, ich helfe meinem Vater bei\n"

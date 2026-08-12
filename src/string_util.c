@@ -488,10 +488,17 @@ static const u8 *ExpandPlaceholder_RivalName(void)
         return gSaveBlock2Ptr->rivalName;
 #endif
 
+#if IS_HNS
+    // HnS-Kanon: Die Hoenn-Rivalin ist immer Maike (Birks Tochter) -
+    // unabhaengig vom Geschlecht der Spielfigur. Brix bleibt als
+    // eigenstaendige Figur fuer spaetere Verwendung frei.
+    return gText_ExpandedPlaceholder_May;
+#else
     if (gSaveBlock2Ptr->playerGender == MALE)
         return (IS_FRLG ? gText_ExpandedPlaceholder_Green : gText_ExpandedPlaceholder_May);
     else
         return (IS_FRLG ? gText_ExpandedPlaceholder_Red : gText_ExpandedPlaceholder_Brendan);
+#endif
 }
 
 static const u8 *ExpandPlaceholder_Version(void)

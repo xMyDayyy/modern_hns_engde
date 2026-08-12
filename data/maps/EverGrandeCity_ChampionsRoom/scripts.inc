@@ -344,7 +344,7 @@ EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
 
 EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
 #if GERMAN
-	.string "Brix: {PLAYER}!\p"
+	.string "Maike: {PLAYER}!\p"
 	.string "Möchtest du nicht ein paar Tipps,\n"
 	.string "bevor du den Champ herausforderst?$"
 #else
@@ -355,7 +355,7 @@ EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
 
 EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
 #if GERMAN
-	.string "Brix: {PLAYER}!\p"
+	.string "Maike: {PLAYER}!\p"
 	.string "Willst du mir etwa sagen…\n"
 	.string "Du hast den Champ besiegt?!?!?!$"
 #else
@@ -459,7 +459,7 @@ EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
 
 EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
 #if GERMAN
-	.string "Brix: … … … … … …\n"
+	.string "Maike: … … … … … …\n"
 	.string "… … … … … … … …\p"
 	.string "Na, wenn es die Regeln so bestimmen…\p"
 	.string "{PLAYER}, das ist dein Tag!\n"

@@ -473,7 +473,7 @@ RivalsHouse_1F_Text_BrendanWhoAreYou:
 	.string "nebenan das Kind eines Arenaleiters\p"
 	.string "einzieht und irgendwie habe ich\n"
 	.string "gedacht, du seiest ein Junge.\p"
-	.string "Ich heiße übrigens Brix.\n"
+	.string "Ich heiße übrigens Maike.\n"
 	.string "Also: Hallo, Nachbarin!\p"
 	.string "Was? {PLAYER}, du hast kein einziges\n"
 	.string "Pokémon?\p"

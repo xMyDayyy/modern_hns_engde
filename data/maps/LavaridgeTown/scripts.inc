@@ -327,7 +327,7 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 #if GERMAN
-	.string "Brix: {PLAYER}, wie geht es dir?\p"
+	.string "Maike: {PLAYER}, wie geht es dir?\p"
 	.string "Hmm… Das ist eine beachtliche\n"
 	.string "Sammlung von Orden.\p"
 	.string "Also gut.\n"
@@ -343,7 +343,7 @@ LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 #if GERMAN
-	.string "Brix: Nimm das mit, wenn du in die\n"
+	.string "Maike: Nimm das mit, wenn du in die\n"
 	.string "Wüste in der Nähe von Route 111\n"
 	.string "willst. \p"
 	.string "Da sollten sich einige Pokémon fangen\n"

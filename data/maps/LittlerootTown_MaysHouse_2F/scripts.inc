@@ -383,7 +383,7 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "nebenan das Kind eines Arenaleiters\p"
 	.string "einzieht und irgendwie habe ich\n"
 	.string "gedacht, du seiest ein Junge.\p"
-	.string "Ich heiße übrigens Brix.\n"
+	.string "Ich heiße übrigens Maike.\n"
 	.string "Also: Hallo, Nachbarin!\p"
 	.string "Was? {PLAYER}, du hast kein einziges\n"
 	.string "Pokémon?\p"
@@ -469,7 +469,7 @@ RivalsHouse_2F_Text_MayWhereShouldIGoNext:
 
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
 #if GERMAN
-	.string "Brix: Hey, {PLAYER}!\p"
+	.string "Maike: Hey, {PLAYER}!\p"
 	.string "Ich prüfe gerade meinen Pokédex.\p"
 	.string "Es gibt noch viele Pokémon, die ich\n"
 	.string "fangen muss, aber er sieht schon sehr\l"
@@ -488,7 +488,7 @@ RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
 
 RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
 #if GERMAN
-	.string "Brix: Ich habe lange überlegt, wo ich\n"
+	.string "Maike: Ich habe lange überlegt, wo ich\n"
 	.string "hingehen soll, um weitere Pokémon\l"
 	.string "zu fangen.\p"
 	.string "Hey, {PLAYER}, wenn ich dich auf\n"

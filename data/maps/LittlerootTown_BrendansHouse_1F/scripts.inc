@@ -668,7 +668,7 @@ LittlerootTown_BrendansHouse_1F_Text_NormansFrau:
 	.string "leitet die Arena in Blütenburg City.\p"
 	.string "Zurzeit ist sie geschlossen, aber er\n"
 	.string "kommt trotzdem kaum zur Ruhe.\p"
-	.string "Unser Sohn Brix ist selbst mit\n"
+	.string "Unser Sohn Maike ist selbst mit\n"
 	.string "seinen Pokémon unterwegs.\p"
 	.string "Wenn du Norman triffst: Sag ihm, er\n"
 	.string "soll sich nicht überarbeiten!$"
@@ -687,7 +687,7 @@ LittlerootTown_BrendansHouse_1F_Text_NormansKind:
 #if GERMAN
 	.string "Papa ist der Arenaleiter von\n"
 	.string "Blütenburg City! Und mein großer\l"
-	.string "Bruder Brix ist auch Trainer!\p"
+	.string "Bruder Maike ist auch Trainer!\p"
 	.string "Wenn ich groß bin, fordere ich\n"
 	.string "beide heraus - versprochen!$"
 #else

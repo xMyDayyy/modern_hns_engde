@@ -549,8 +549,8 @@ Route119_Text_MayExplainFly:
 
 Route119_Text_BrendanIntro:
 #if GERMAN
-	.string "Brix: {PLAYER}! Hier schaust du dich\n"
-	.string "also nach Pokémon um?\p"
+	.string "Maike: {PLAYER}! Schaust du dich\n"
+	.string "auch hier nach Pokémon um?\p"
 	.string "Zeig mir, wie gut du geworden bist.\n"
 	.string "Ich werde dich jetzt testen!\p"
 	.string "Nun!\n"
@@ -574,7 +574,7 @@ Route119_Text_BrendanDefeat:
 
 Route119_Text_BrendanIllGiveYouThis:
 #if GERMAN
-	.string "Brix: Ich sage, du bist so gut, dass\n"
+	.string "Maike: Ich sage, du bist so gut, dass\n"
 	.string "du überall nach Pokémon suchen kannst.\n"
 	.string "\p"
 	.string "Hier, das ist für dich.\n"
@@ -588,7 +588,7 @@ Route119_Text_BrendanIllGiveYouThis:
 
 Route119_Text_BrendanExplainFly:
 #if GERMAN
-	.string "Brix: Setze es ein, und deine\n"
+	.string "Maike: Setze es ein, und deine\n"
 	.string "Pokémon Fliegen dich sofort an jeden\l"
 	.string "Ort, an dem du schon einmal warst.\p"
 	.string "Aber du brauchst den Orden der Arena\n"

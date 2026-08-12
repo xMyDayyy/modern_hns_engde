@@ -448,7 +448,7 @@ OldaleTown_Text_MayLetsGoBack:
 
 OldaleTown_Text_BrendanLetsGoBack:
 #if GERMAN
-	.string "Brix: Ich gehe nun in das Labor\n"
+	.string "Maike: Ich gehe nun in das Labor\n"
 	.string "meines Vaters. {PLAYER}, du solltest\l"
 	.string "auch zurücklaufen.$"
 #else

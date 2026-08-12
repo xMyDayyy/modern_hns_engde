@@ -935,7 +935,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
 #if GERMAN
-	.string "Brix: Ach…\n"
+	.string "Maike: Ach…\n"
 	.string "Du hast auch einen Pokédex.\p"
 	.string "Na, dann.\n"
 	.string "Ich gebe dir dies.$"
@@ -948,7 +948,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 #if GERMAN
-	.string "Brix: Weißt du, je mehr Pokémon du\n"
+	.string "Maike: Weißt du, je mehr Pokémon du\n"
 	.string "besitzt, desto mehr Spaß macht es.\p"
 	.string "Ich reise viel umher, um die unter-\n"
 	.string "schiedlichsten Pokémon zu finden.\p"
@@ -972,7 +972,7 @@ LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
 #if GERMAN
-	.string "Brix: Und wo soll ich jetzt mal nach\n"
+	.string "Maike: Und wo soll ich jetzt mal nach\n"
 	.string "Pokémon suchen?$"
 #else
 	.string "BRENDAN: Where should I look for\n"
@@ -1065,7 +1065,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
 #if GERMAN
-	.string "Brix: Ich bin durch ganz Hoenn gereist\n"
+	.string "Maike: Ich bin durch ganz Hoenn gereist\n"
 	.string "und habe die Pokémon untersucht.\p"
 	.string "Dank mir bekommen wir beide jetzt den\n"
 	.string "Nationalen Modus.\p"
@@ -1129,7 +1129,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
 #if GERMAN
-	.string "Brix: Ich glaube, ich gönne mir eine\n"
+	.string "Maike: Ich glaube, ich gönne mir eine\n"
 	.string "kurze Pause von der Arbeit draußen.\p"
 	.string "Ich werde dem Prof hier ein bisschen\n"
 	.string "helfen.$"
@@ -1334,7 +1334,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
 #if GERMAN
-	.string "Brix: Statt nur Pokémon zu sammeln,\n"
+	.string "Maike: Statt nur Pokémon zu sammeln,\n"
 	.string "konzentriere ich mich lieber auf das\l"
 	.string "Aufziehen eines bestimmten Pokémon.$"
 #else
@@ -1356,7 +1356,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
 #if GERMAN
-	.string "Brix: Hey, {PLAYER}!\n"
+	.string "Maike: Hey, {PLAYER}!\n"
 	.string "Hast du schon die Kampfzone\l"
 	.string "besucht?$"
 #else

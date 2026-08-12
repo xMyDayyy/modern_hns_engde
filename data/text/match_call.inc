@@ -5133,7 +5133,7 @@ MatchCall_Text_BrendanRayquazaCall:
 #if GERMAN
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "Brix: Hey, {PLAYER}!\p"
+	.string "Maike: Hey, {PLAYER}!\p"
 	.string "Ich war vor kurzem in Flossbrunn.\p"
 	.string "Da habe ich am Himmel ein riesiges\n"
 	.string "grünes Pokémon fliegen sehen!\p"
@@ -5440,7 +5440,7 @@ MatchCall_Text_May15::
 
 MatchCall_Text_Brendan1::
 #if GERMAN
-	.string "Brix: Hey {PLAYER}!\p"
+	.string "Maike: Hey {PLAYER}!\p"
 	.string "Mr. Brack hat sich als Matrose zur\n"
 	.string "Ruhe gesetzt. Aber manchmal fährt\l"
 	.string "er noch mit seinem Haustier Pecko\p"
@@ -5457,7 +5457,7 @@ MatchCall_Text_Brendan1::
 
 MatchCall_Text_Brendan2::
 #if GERMAN
-	.string "Brix: Hey {PLAYER}!\p"
+	.string "Maike: Hey {PLAYER}!\p"
 	.string "Wusstest du, dass auch die\n"
 	.string "kleineren Orte wie Blütenburg City und\l"
 	.string "Faustauhaven Arenen haben?\p"
@@ -5478,7 +5478,7 @@ MatchCall_Text_Brendan2::
 
 MatchCall_Text_Brendan3::
 #if GERMAN
-	.string "Brix: Hey {PLAYER}!\p"
+	.string "Maike: Hey {PLAYER}!\p"
 	.string "Erinnerst du dich an einen Mann\n"
 	.string "namens Zerschneider in Metarost City?\l"
 	.string "Er hatte sein Haus dort.\p"
@@ -5506,7 +5506,7 @@ MatchCall_Text_Brendan3::
 
 MatchCall_Text_Brendan4::
 #if GERMAN
-	.string "Brix: Die Stimme kenne ich…\n"
+	.string "Maike: Die Stimme kenne ich…\n"
 	.string "{PLAYER}?\p"
 	.string "Metaflurtunnel…\n"
 	.string "Der heißt so, weil er Metarost City und\l"
@@ -5521,7 +5521,7 @@ MatchCall_Text_Brendan4::
 
 MatchCall_Text_Brendan5::
 #if GERMAN
-	.string "Brix: {PLAYER}, wie geht’s?\p"
+	.string "Maike: {PLAYER}, wie geht’s?\p"
 	.string "Ich bin gerade auf der Route 111.\p"
 	.string "Ich werde jetzt eine Rast einlegen.\n"
 	.string "Hier gibt es eine nette alte Dame,\l"
@@ -5538,7 +5538,7 @@ MatchCall_Text_Brendan5::
 
 MatchCall_Text_Brendan6::
 #if GERMAN
-	.string "Brix: Hey {PLAYER}!\p"
+	.string "Maike: Hey {PLAYER}!\p"
 	.string "Hast du schon mal etwas über den\n"
 	.string "Wunderturm in der Wüste gehört?\p"
 	.string "Man sagt, er ist wie eine\n"
@@ -5556,7 +5556,7 @@ MatchCall_Text_Brendan6::
 
 MatchCall_Text_Brendan7::
 #if GERMAN
-	.string "Brix: Wer ist da? Oh, {PLAYER}?\n"
+	.string "Maike: Wer ist da? Oh, {PLAYER}?\n"
 	.string "Ich bin jetzt auf der Route 119.\p"
 	.string "Hier gibt es einen breiten Fluss.\n"
 	.string "Und es regnet sehr oft.\p"
@@ -5571,7 +5571,7 @@ MatchCall_Text_Brendan7::
 
 MatchCall_Text_Brendan8::
 #if GERMAN
-	.string "Brix: {PLAYER}!\p"
+	.string "Maike: {PLAYER}!\p"
 	.string "Der Pyroberg ist eine Gedenk-\n"
 	.string "stätte für die Pokémon, die nicht\l"
 	.string "mehr unter uns weilen.\p"
@@ -5587,7 +5587,7 @@ MatchCall_Text_Brendan8::
 
 MatchCall_Text_Brendan9::
 #if GERMAN
-	.string "Brix: Hey du, {PLAYER}!\p"
+	.string "Maike: Hey du, {PLAYER}!\p"
 	.string "Ich wollte eigentlich zu den Heißen\n"
 	.string "Quellen in Bad Lavastadt gehen.\p"
 	.string "Aber auf dem Weg dorthin, am\n"
@@ -5607,7 +5607,7 @@ MatchCall_Text_Brendan9::
 
 MatchCall_Text_Brendan10::
 #if GERMAN
-	.string "Brix: Hi {PLAYER}!\n"
+	.string "Maike: Hi {PLAYER}!\n"
 	.string "Hast du die Nachrichten gesehen?\p"
 	.string "Sie haben gesagt, dass Kapt. Brigg\n"
 	.string "die Tiefseehöhle während einer\l"
@@ -5622,7 +5622,7 @@ MatchCall_Text_Brendan10::
 
 MatchCall_Text_Brendan11::
 #if GERMAN
-	.string "Brix: Wie geht’s, {PLAYER}!\n"
+	.string "Maike: Wie geht’s, {PLAYER}!\n"
 	.string "Ist das nicht klasse?\p"
 	.string "Selbst wenn du kein Boot hast,\n"
 	.string "kannst du das Meer überqueren,\l"
@@ -5645,7 +5645,7 @@ MatchCall_Text_Brendan11::
 
 MatchCall_Text_Brendan12::
 #if GERMAN
-	.string "Brix: Tach {PLAYER}!\n"
+	.string "Maike: Tach {PLAYER}!\n"
 	.string "Ich hoffe, bei dir ist alles in\l"
 	.string "Ordnung!\p"
 	.string "Warst du auch schon mal auf dem\n"
@@ -5669,7 +5669,7 @@ MatchCall_Text_Brendan12::
 
 MatchCall_Text_Brendan13::
 #if GERMAN
-	.string "Brix: {PLAYER}!\p"
+	.string "Maike: {PLAYER}!\p"
 	.string "Wie läuft’s?\n"
 	.string "Füllst du deinen Pokédex?\p"
 	.string "Ich habe ein Gerücht gehört. Es\n"
@@ -5689,7 +5689,7 @@ MatchCall_Text_Brendan13::
 
 MatchCall_Text_Brendan14::
 #if GERMAN
-	.string "Brix: {PLAYER}!\n"
+	.string "Maike: {PLAYER}!\n"
 	.string "Ich habe da Gerüchte gehört.\p"
 	.string "Du hast den Arenaleiter von\n"
 	.string "Xeneroville besiegt?\l"
@@ -5705,7 +5705,7 @@ MatchCall_Text_Brendan14::
 
 MatchCall_Text_Brendan15::
 #if GERMAN
-	.string "Brix: In ganz Hoenn gibt es\n"
+	.string "Maike: In ganz Hoenn gibt es\n"
 	.string "keinen Trainer, der deinen Namen\l"
 	.string "nicht kennt, {PLAYER}!\p"
 	.string "Und wenn ich den Leuten erzähle,\n"

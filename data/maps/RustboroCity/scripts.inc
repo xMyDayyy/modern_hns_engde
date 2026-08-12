@@ -1384,7 +1384,7 @@ RustboroCity_Text_MayMrBrineyHint:
 
 RustboroCity_Text_BrendanHiLetsRegister:
 #if GERMAN
-	.string "Brix: Oh, hey, {PLAYER}!\p"
+	.string "Maike: Oh, hey, {PLAYER}!\p"
 	.string "Dein PokéCom besitzt die Trainer/Ruf-\n"
 	.string "Funktion! Cool!\p"
 	.string "Wir tragen uns gegenseitig ein, dann\n"
@@ -1403,7 +1403,7 @@ RustboroCity_Text_BrendanHiLetsRegister:
 
 RustboroCity_Text_RegisteredBrendan:
 #if GERMAN
-	.string "Brix wurde im PokéCom-Verzeichnis\n"
+	.string "Maike wurde im PokéCom-Verzeichnis\n"
 	.string "eingetragen.$"
 #else
 	.string "Registered BRENDAN\n"
@@ -1412,7 +1412,7 @@ RustboroCity_Text_RegisteredBrendan:
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
 #if GERMAN
-	.string "Brix: Ich habe Mr. Brack im\n"
+	.string "Maike: Ich habe Mr. Brack im\n"
 	.string "Blütenburgwald gesehen, {PLAYER}.\p"
 	.string "Ich wette, er ist auf dem Weg zu\n"
 	.string "seiner Hütte am Meer.\p"
@@ -1435,7 +1435,7 @@ RustboroCity_Text_BrendanPassedBrineyWantToBattle:
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon:
 #if GERMAN
-	.string "Brix: Oh, hast du ein Problem? Nicht\n"
+	.string "Maike: Oh, hast du ein Problem? Nicht\n"
 	.string "genügend Selbstbewusstsein und\l"
 	.string "Vertrauen in deine Pokémon, was?$"
 #else
@@ -1445,7 +1445,7 @@ RustboroCity_Text_BrendanNoConfidenceInPokemon:
 
 RustboroCity_Text_BrendanWantToBattle:
 #if GERMAN
-	.string "Brix: Wie geht’s? Lust auf einen\n"
+	.string "Maike: Wie geht’s? Lust auf einen\n"
 	.string "Kampf?$"
 #else
 	.string "BRENDAN: What's up?\n"
@@ -1454,7 +1454,7 @@ RustboroCity_Text_BrendanWantToBattle:
 
 RustboroCity_Text_BrendanIWontGoEasy:
 #if GERMAN
-	.string "Brix: Ich weiß, du bist gerade erst\n"
+	.string "Maike: Ich weiß, du bist gerade erst\n"
 	.string "ein\n"
 	.string "Trainer geworden, aber ich werde mich\l"
 	.string "nicht zurückhalten.$"
@@ -1473,7 +1473,7 @@ RustboroCity_Text_BrendanDefeat:
 
 RustboroCity_Text_BrendanMrBrineyHint:
 #if GERMAN
-	.string "Brix: Kennst du eigentlich Mr. Brack?\n"
+	.string "Maike: Kennst du eigentlich Mr. Brack?\n"
 	.string "Den Typ, den ich getroffen habe?\p"
 	.string "Du bist gerade erst hierher gezogen,\n"
 	.string "daher weißt du das vielleicht noch\l"
