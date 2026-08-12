@@ -24,6 +24,7 @@
 #include "pokedex.h"
 #include "pokemon_icon.h"
 #include "graphics.h"
+#include "hoenn_badges.h"
 #include "pokemon_icon.h"
 #include "trainer_pokemon_sprites.h"
 #include "contest_util.h"
@@ -137,6 +138,22 @@ static void SetTrainerCardCb2(void);
 static void SetUpTrainerCardTask(void);
 static void InitTrainerCardData(void);
 static u8 GetSetCardType(void);
+#if IS_HNS
+// Kartenvarianten-Umschalter: SELECT wechselt zwischen der HnS-Karte
+// (Johto/Kanto-Orden) und der Smaragd-Karte (Hoenn-Orden aus dem
+// Hoenn-Ordensystem), sobald Birk die Hoenn-Karte uebergeben hat.
+static bool8 sShowHoennVariant = FALSE;
+static bool8 sReopeningCard = FALSE;
+static void (*sCardReturnCallback)(void) = NULL;
+
+static void CB2_ReopenTrainerCard(void)
+{
+    sReopeningCard = TRUE;
+    ShowPlayerTrainerCard(sCardReturnCallback);
+    sReopeningCard = FALSE;
+}
+#endif
+
 static void PrintNameOnCardFront(void);
 static void PrintIdOnCard(void);
 static void PrintMoneyOnCard(void);
@@ -484,6 +501,19 @@ static void Task_TrainerCard(u8 taskId)
             DrawTrainerCardWindow(WIN_CARD_TEXT);
             sData->timeColonNeedDraw = FALSE;
         }
+#if IS_HNS
+        if (JOY_NEW(SELECT_BUTTON) && !sData->isLink && FlagGet(FLAG_RECEIVED_PASS_BINDER))
+        {
+            if (sData->callback2 != CB2_ReopenTrainerCard)
+                sCardReturnCallback = sData->callback2;
+            sData->callback2 = CB2_ReopenTrainerCard;
+            sShowHoennVariant ^= 1;
+            PlaySE(SE_RG_CARD_FLIP);
+            BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, sData->blendColor);
+            sData->mainState = STATE_CLOSE_CARD;
+        }
+        else
+#endif
         if (JOY_NEW(A_BUTTON))
         {
             FlipTrainerCard();
@@ -606,7 +636,10 @@ static bool8 LoadCardGfx(void)
         break;
     case 3:
 #if IS_HNS
-        DecompressDataWithHeaderWram(sHnsTrainerCardBadgesCombined_Gfx, sData->badgeTiles);
+        if (sData->cardType == CARD_TYPE_HNS)
+            DecompressDataWithHeaderWram(sHnsTrainerCardBadgesCombined_Gfx, sData->badgeTiles);
+        else
+            DecompressDataWithHeaderWram(sHoennTrainerCardBadges_Gfx, sData->badgeTiles);
 #else
         if (sData->cardType != CARD_TYPE_FRLG)
             DecompressDataWithHeaderWram(sHoennTrainerCardBadges_Gfx, sData->badgeTiles);
@@ -912,6 +945,17 @@ static void SetDataFromTrainerCard(void)
     if (sData->trainerCard.battleTowerWins || sData->trainerCard.battleTowerStraightWins)
         sData->hasBattleTowerWins++;
 
+#if IS_HNS
+    if (sShowHoennVariant && !sData->isLink)
+    {
+        for (i = 0; i < 8; i++)
+        {
+            if (HasHoennBadge(i))
+                sData->badgeCount[i]++;
+        }
+    }
+    else
+#endif
     for (i = 0, badgeFlag = FLAG_BADGE01_GET; badgeFlag < FLAG_BADGE01_GET + NUM_BADGES; badgeFlag++, i++)
     {
         if (FlagGet(badgeFlag))
@@ -1949,6 +1993,10 @@ static bool8 Task_EndCardFlip(struct Task *task)
 void ShowPlayerTrainerCard(void (*callback)(void))
 {
     sData = AllocZeroed(sizeof(*sData));
+#if IS_HNS
+    if (!sReopeningCard)
+        sShowHoennVariant = FALSE;
+#endif
     sData->callback2 = callback;
     if (callback == CB2_ReshowFrontierPass)
         sData->blendColor = RGB_WHITE;
@@ -2008,6 +2056,8 @@ static u8 GetSetCardType(void)
     {
 #if IS_HNS
         sData->isHoenn = TRUE;
+        if (sShowHoennVariant && !sData->isLink)
+            return CARD_TYPE_EMERALD;
         return CARD_TYPE_HNS;
 #else
         if (sData->trainerCard.version == VERSION_FIRE_RED || sData->trainerCard.version == VERSION_LEAF_GREEN)
