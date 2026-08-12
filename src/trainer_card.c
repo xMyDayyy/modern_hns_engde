@@ -1321,9 +1321,11 @@ static void BufferHofDebutTime(void)
 #if IS_HNS
 static void PrintRegionLabelsOnBack(void)
 {
-    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 4, 66, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
+    // Labels stehen linksbuendig UEBER ihrer Ordenreihe (Reihen liegen bei
+    // Pixel 64-80 bzw. 88-104; links davon ist nur Rahmen, kein Textplatz).
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 32, 54, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 4, 90, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 32, 80, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
 }
 #endif
 
