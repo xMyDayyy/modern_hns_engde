@@ -37,6 +37,7 @@ struct Pokenav_RegionMapGfx
     bool32 (*isTaskActiveCB)(void);
     u32 loopTaskId;
     u16 infoWindowId;
+    u8 infoWindowRegion;   // Region, fuer die das Infofenster gesetzt wurde
     struct Sprite *cityZoomTextSprites[3];
     u8 ALIGNED(2) tilemapBuffer[BG_SCREEN_SIZE];
     u8 cityZoomPics[NUM_CITY_MAPS][200];
@@ -62,6 +63,8 @@ static bool32 IsDecompressCityMapsActive(void);
 static void LoadPokenavRegionMapGfx(struct Pokenav_RegionMapGfx *);
 static bool32 TryFreeTempTileDataBuffers(void);
 static void UpdateMapSecInfoWindow(struct Pokenav_RegionMapGfx *);
+static const struct WindowTemplate *GetMapSecInfoWindowTemplate(u32);
+static void TryMoveMapSecInfoWindow(struct Pokenav_RegionMapGfx *);
 static bool32 IsDma3ManagerBusyWithBgCopy_(struct Pokenav_RegionMapGfx *);
 static void ChangeBgYForZoom(bool32);
 static bool32 IsChangeBgYForZoomActive(void);
@@ -552,11 +555,10 @@ static void LoadPokenavRegionMapGfx(struct Pokenav_RegionMapGfx *state)
     SetBgTilemapBuffer(1, state->tilemapBuffer);
     // Die linke Fensterposition gilt nur fuer die Johto/Kanto-Karte. Auf der
     // Hoennkarte verdeckt sie Faustauhaven - dort steht das Fenster wie im
-    // Original-Smaragd rechts.
-    state->infoWindowId = AddWindow((FlagGet(FLAG_VISITED_KANTO)
-        && GetRegionMapType(gMapHeader.regionMapSectionId) != REGION_MAP_HOENN)
-        ? &sMapSecInfoWindowTemplate_Right
-        : &sMapSecInfoWindowTemplate);
+    // Original-Smaragd rechts. Beim Regionswechsel zieht es mit, siehe
+    // TryMoveMapSecInfoWindow().
+    state->infoWindowRegion = GetCurrentViewedRegionMapType();
+    state->infoWindowId = AddWindow(GetMapSecInfoWindowTemplate(state->infoWindowRegion));
     LoadUserWindowBorderGfx_(state->infoWindowId, 0x42, BG_PLTT_ID(4));
     DrawTextBorderOuter(state->infoWindowId, 0x42, 4);
     DecompressAndCopyTileDataToVram(1, sRegionMapCityZoomTiles_Gfx, 0, 0, 0);
@@ -578,8 +580,40 @@ static bool32 TryFreeTempTileDataBuffers(void)
     return FreeTempTileDataBuffersIfPossible();
 }
 
+static const struct WindowTemplate *GetMapSecInfoWindowTemplate(u32 region)
+{
+    if (FlagGet(FLAG_VISITED_KANTO) && region != REGION_MAP_HOENN)
+        return &sMapSecInfoWindowTemplate_Right;
+    return &sMapSecInfoWindowTemplate;
+}
+
+// Nach einem Kartenwechsel (SELECT bzw. Kartenrand) sitzt das Infofenster
+// sonst weiter auf der alten Seite und verdeckt dort Ortsnamen.
+static void TryMoveMapSecInfoWindow(struct Pokenav_RegionMapGfx *state)
+{
+    u32 region = GetCurrentViewedRegionMapType();
+
+    if (region == state->infoWindowRegion)
+        return;
+
+    ClearWindowTilemap(state->infoWindowId);
+    FillBgTilemapBufferRect(1, 0x1041, GetWindowAttribute(state->infoWindowId, WINDOW_TILEMAP_LEFT), 4, 12, 13, 17);
+    RemoveWindow(state->infoWindowId);
+
+    state->infoWindowRegion = region;
+    state->infoWindowId = AddWindow(GetMapSecInfoWindowTemplate(region));
+    LoadUserWindowBorderGfx_(state->infoWindowId, 0x42, BG_PLTT_ID(4));
+    DrawTextBorderOuter(state->infoWindowId, 0x42, 4);
+    FillWindowPixelBuffer(state->infoWindowId, PIXEL_FILL(1));
+    PutWindowTilemap(state->infoWindowId);
+    CopyWindowToVram(state->infoWindowId, COPYWIN_FULL);
+    CopyBgTilemapBufferToVram(1);
+}
+
 static void UpdateMapSecInfoWindow(struct Pokenav_RegionMapGfx *state)
 {
+    TryMoveMapSecInfoWindow(state);
+
     struct RegionMap *regionMap = GetSubstructPtr(POKENAV_SUBSTRUCT_REGION_MAP);
     switch (regionMap->mapSecType)
     {
@@ -595,7 +629,8 @@ static void UpdateMapSecInfoWindow(struct Pokenav_RegionMapGfx *state)
         FillWindowPixelBuffer(state->infoWindowId, PIXEL_FILL(1));
         PutWindowRectTilemap(state->infoWindowId, 0, 0, 12, 2);
         AddTextPrinterParameterized(state->infoWindowId, FONT_NARROW, regionMap->mapSecName, 0, 1, TEXT_SKIP_DRAW, NULL);
-        FillBgTilemapBufferRect(1, 0x1041, 17, 6, 12, 11, 17);
+        // Feste 17 waere falsch, sobald das Fenster links steht.
+        FillBgTilemapBufferRect(1, 0x1041, GetWindowAttribute(state->infoWindowId, WINDOW_TILEMAP_LEFT), 6, 12, 11, 17);
         CopyWindowToVram(state->infoWindowId, COPYWIN_FULL);
         SetCityZoomTextInvisibility(TRUE);
         break;

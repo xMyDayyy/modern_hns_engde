@@ -1661,6 +1661,12 @@ static u8 SwitchViewInputCallback(void)
 }
 #endif
 
+// Oeffentlich, damit die PokeNav-Karte ihr Infofenster mitwandern lassen kann.
+enum RegionMapType GetCurrentViewedRegionMapType(void)
+{
+    return GetViewedRegionMapType();
+}
+
 static enum RegionMapType GetViewedRegionMapType(void)
 {
 #if IS_HNS
