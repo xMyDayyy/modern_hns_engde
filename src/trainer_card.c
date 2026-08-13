@@ -1321,14 +1321,15 @@ static void BufferHofDebutTime(void)
 #if IS_HNS
 static void PrintRegionLabelsOnBack(void)
 {
-    // Labels stehen linksbuendig UNTER ihrer Ordenreihe (aus Marcs Skizze
-    // ausgemessen). Fensterursprung von WIN_CARD_TEXT ist Bildschirm (8,8).
-    //   Kanto-Reihe  Kachelzeile  7/8  = Bildschirm-y  56- 72, Label darunter ab 74
-    //   Hoenn-Reihe  Kachelzeile 11/12 = Bildschirm-y  88-104, Label darunter ab 104
+    // Positionen nach Marcs zweiter Messung: Kanto zwei Linienabstaende hoeher,
+    // Hoenn einen. Ein Linienabstand der Kartenlinien betraegt 16 px (gemessen
+    // bei Bildschirm-y 55, 71, 87, 103, 119). Fensterursprung ist (8,8).
+    //   Kanto: Fenster-y 34 = Bildschirm 42
+    //   Hoenn: Fenster-y 80 = Bildschirm 88
     // Waagerecht beginnen beide Labels bei Bildschirm-x 24 (Fenster-x 16).
-    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 66, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 34, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 96, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 80, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
 }
 #endif
 
@@ -1706,9 +1707,9 @@ static void DrawStarsAndBadgesOnCard(void)
 #if IS_HNS
 static void DrawExtraBadgesOnBack(void)
 {
-    // Kanto-Reihe eine Kachelzeile hoeher (7/8 statt 8/9), damit das Label
-    // darunter Platz hat - siehe PrintRegionLabelsOnBack.
-    u8 i, x = 5;
+    // Kanto-Reihe auf Kachelzeile 7/8; beide Reihen beginnen bei Kachel 4
+    // (Bildschirm-x 32), eine Kachel weiter links als zuvor.
+    u8 i, x = 4;
     u8 palNum = 6;
     u16 tileNum = 192 + 32;
 
@@ -1725,7 +1726,7 @@ static void DrawExtraBadgesOnBack(void)
     // Hoenn-Ordenreihe (erscheint erst nach Birks Uebergabe)
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
     {
-        x = 5;
+        x = 4;
         tileNum = 192 + 64;
         for (i = 0; i < 8; i++, tileNum += 2, x += 3)
         {
