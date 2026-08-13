@@ -1324,18 +1324,20 @@ static void PrintRegionLabelsOnBack(void)
     // Die Kartenlinien liegen auf Bildschirm-y 55, 71, 87, 103, 119; die Baender
     // dazwischen sind je 16 px = genau zwei Kachelzeilen. Jedes Element bekommt
     // ein eigenes Band, nichts ueberlappt:
-    // Die Teamsymbole beginnen bereits bei Bildschirm-y 116, das unterste Band
-    // (104-119) ist also nicht frei. Der ganze Block rueckt deshalb ein Band
-    // nach oben; jedes Label steht weiterhin UNTER seiner Reihe:
-    //   40- 55  Kanto-Ordenreihe   (Kachelzeile  5/6)
-    //   56- 71  Label "Kanto"      (Fenster-y 50)
-    //   72- 87  Hoenn-Ordenreihe   (Kachelzeile  9/10)
-    //   88-103  Label "Hoenn"      (Fenster-y 82) - direkt ueber den Teamsymbolen
-    // Waagerecht beginnen beide Labels bei Bildschirm-x 32 (Fenster-x 24),
-    // buendig mit der linken Ordenkante.
-    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 24, 50, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
+    // Aus Marcs Markierung ausgemessen. Die Kartenlinien liegen auf
+    // Bildschirm-y 55, 71, 87, 103, 119; jede Ordenreihe fuellt das Band
+    // darueber, das Label sitzt unmittelbar unter der Linie:
+    //   56- 71  Kanto-Ordenreihe   (Kachelzeile  7/8)
+    //   72- 80  Label "Kanto"      (Fenster-y 60)
+    //   88-103  Hoenn-Ordenreihe   (Kachelzeile 11/12)
+    //  104-112  Label "Hoenn"      (Fenster-y 92) - Teamsymbole beginnen bei 117
+    // Umrechnung: Bildschirm-y = Fenster-y + 8 (Fensterursprung), die Glyphen
+    // der Kleinschrift setzen nochmals 4 px tiefer auf. Fenster-y 60 ergibt
+    // also Glyphen ab Bildschirm-y 72, direkt unter der Linie bei 71.
+    // Waagerecht: Fenster-x 24 = Bildschirm-x 32, buendig mit der Ordenkante.
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 24, 60, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 24, 82, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 24, 92, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
 }
 #endif
 
@@ -1713,7 +1715,7 @@ static void DrawStarsAndBadgesOnCard(void)
 #if IS_HNS
 static void DrawExtraBadgesOnBack(void)
 {
-    // Kanto-Reihe auf Kachelzeile 5/6, Hoenn-Reihe auf 9/10; beide beginnen
+    // Kanto-Reihe auf Kachelzeile 7/8, Hoenn-Reihe auf 11/12; beide beginnen
     // bei Kachel 4 (Bildschirm-x 32). Siehe PrintRegionLabelsOnBack.
     u8 i, x = 4;
     u8 palNum = 6;
@@ -1723,10 +1725,10 @@ static void DrawExtraBadgesOnBack(void)
     {
         if (sData->badgeCount[NUM_BADGES_FRONT + i])
         {
-            FillBgTilemapBufferRect(3, tileNum,      x,     5, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 5, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 16, x,     6, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 6, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum,      x,     7, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 7, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum + 16, x,     8, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 8, 1, 1, palNum);
         }
     }
     // Hoenn-Ordenreihe (erscheint erst nach Birks Uebergabe)
@@ -1738,10 +1740,10 @@ static void DrawExtraBadgesOnBack(void)
         {
             if (HasHoennBadge(i))
             {
-                FillBgTilemapBufferRect(3, tileNum,      x,     9,  1, 1, 3);
-                FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 9,  1, 1, 3);
-                FillBgTilemapBufferRect(3, tileNum + 16, x,     10, 1, 1, 3);
-                FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 10, 1, 1, 3);
+                FillBgTilemapBufferRect(3, tileNum,      x,     11, 1, 1, 3);
+                FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 11, 1, 1, 3);
+                FillBgTilemapBufferRect(3, tileNum + 16, x,     12, 1, 1, 3);
+                FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 12, 1, 1, 3);
             }
         }
     }
