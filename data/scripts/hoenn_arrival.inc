@@ -297,7 +297,7 @@ Route104_EventScript_HoennArrivalScene::
 Route104_EventScript_HoennArrivalRunUpper::
 	applymovement LOCALID_HOENN_BIRCH, Common_Movement_HoennBirchRunUpper
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennFaceDown
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennFacePlayerRight
 	waitmovement 0
 	goto Route104_EventScript_HoennArrivalTalk
 
@@ -383,12 +383,12 @@ Common_Movement_HoennBirchRunLower:
 	face_down
 	step_end
 
-@ Obere Spur: eine Kachel tiefer bis (15,52), Blick nach oben.
+@ Obere Spur: der Spieler steht selbst auf (15,51). Birk bleibt deshalb
+@ auf (16,51) vor ihm stehen statt sich unter ihn zu stellen - ein NPC
+@ unterhalb der Spielfigur erzeugt Ueberlappungsfehler.
 Common_Movement_HoennBirchRunUpper:
-	walk_fast_down
 	walk_fast_left
-	walk_fast_left
-	face_up
+	face_left
 	step_end
 
 Common_Movement_HoennFaceDown:
