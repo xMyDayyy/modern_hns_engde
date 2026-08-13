@@ -1,6 +1,34 @@
+@ HnS: In Hoenn braucht jede Feldattacke eine Erlaubnis (siehe
+@ src/hoenn_licenses.c). Vor dem Index in VAR_0x8004 aufrufen; Ergebnis
+@ FALSE heisst "hier nicht erlaubt". Ausserhalb von Hoenn immer TRUE.
+EventScript_NoDiveLicense::
+	lockall
+	playse SE_SELECT
+	buffermovename STR_VAR_1, MOVE_DIVE
+	goto EventScript_NeedHoennLicense
+	end
+
+EventScript_NeedHoennLicense::
+	msgbox Text_NeedHoennLicense, MSGBOX_DEFAULT
+	releaseall
+	end
+
+Text_NeedHoennLicense:
+#if GERMAN
+	.string "Mit einer Erlaubnis könnte man hier\n"
+	.string "{STR_VAR_1} einsetzen.$"
+#else
+	.string "With a licence, {STR_VAR_1} could be\n"
+	.string "used here.$"
+#endif
+
 @ Interact with cuttable tree
 EventScript_CutTree::
 	lockall
+	buffermovename STR_VAR_1, MOVE_CUT
+	setvar VAR_0x8004, LIC_CUT
+	special CheckHoennLicense
+	goto_if_eq VAR_RESULT, FALSE, EventScript_NeedHoennLicense
 	goto_if_unset FLAG_RECEIVED_HM_CUT, EventScript_CheckTreeCantCut
 	goto_if_unset FLAG_BADGE02_GET, EventScript_CheckTreeCantCut
 	checkpartymove MOVE_CUT
@@ -82,6 +110,10 @@ EventScript_UseRockSmash::
 @ Interact with smashable rock
 EventScript_RockSmash::
 	lockall
+	buffermovename STR_VAR_1, MOVE_ROCK_SMASH
+	setvar VAR_0x8004, LIC_ROCK_SMASH
+	special CheckHoennLicense
+	goto_if_eq VAR_RESULT, FALSE, EventScript_NeedHoennLicense
 	checkpartymove MOVE_ROCK_SMASH
 	goto_if_unset FLAG_BADGE01_GET, EventScript_CantSmashRock
 	goto_if_unset FLAG_RECEIVED_HM_ROCK_SMASH, EventScript_CantSmashRock
@@ -363,6 +395,10 @@ Text_CantHeadbutt:
 
 EventScript_StrengthBoulder::
 	lockall
+	buffermovename STR_VAR_1, MOVE_STRENGTH
+	setvar VAR_0x8004, LIC_STRENGTH
+	special CheckHoennLicense
+	goto_if_eq VAR_RESULT, FALSE, EventScript_NeedHoennLicense
 	goto_if_unset FLAG_BADGE03_GET, EventScript_CantStrength
 	checkitem ITEM_HM_STRENGTH
 	goto_if_eq VAR_RESULT, FALSE, EventScript_CantStrength
@@ -460,6 +496,10 @@ EventScript_UseWaterfall::
 
 EventScript_CannotUseWaterfall::
 	lockall
+	buffermovename STR_VAR_1, MOVE_WATERFALL
+	setvar VAR_0x8004, LIC_WATERFALL
+	special CheckHoennLicense
+	goto_if_eq VAR_RESULT, FALSE, EventScript_NeedHoennLicense
 
 EventScript_CantWaterfall::
 	msgbox Text_CantWaterfall, MSGBOX_DEFAULT

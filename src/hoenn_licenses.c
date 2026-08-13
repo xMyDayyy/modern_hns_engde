@@ -29,10 +29,12 @@ void SetHoennLicense(void)
         VarSet(VAR_HOENN_LICENSES, VarGet(VAR_HOENN_LICENSES) | (1 << gSpecialVar_0x8004));
 }
 
-// Special: Lizenzindex in gSpecialVar_0x8004, Ergebnis nach gSpecialVar_Result
-void HasHoennLicenseSpecial(void)
+// Special: Lizenzindex in gSpecialVar_0x8004. Ergebnis nach gSpecialVar_Result:
+// TRUE = darf hier eingesetzt werden. Ausserhalb von Hoenn immer TRUE, damit
+// die Skripte in Johto und Kanto unveraendert durchlaufen.
+void CheckHoennLicense(void)
 {
-    gSpecialVar_Result = HasHoennLicense(gSpecialVar_0x8004);
+    gSpecialVar_Result = (!HoennLicensesApply() || HasHoennLicense(gSpecialVar_0x8004));
 }
 
 #else
@@ -40,6 +42,6 @@ void HasHoennLicenseSpecial(void)
 bool32 HasHoennLicense(u32 index) { return TRUE; }
 bool32 HoennLicensesApply(void) { return FALSE; }
 void SetHoennLicense(void) {}
-void HasHoennLicenseSpecial(void) { gSpecialVar_Result = TRUE; }
+void CheckHoennLicense(void) { gSpecialVar_Result = TRUE; }
 
 #endif

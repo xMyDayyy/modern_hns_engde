@@ -20,18 +20,9 @@ EventScript_EndUseSurf::
 EventScript_NoSurfLicense::
 	lockall
 	playse SE_SELECT
-	msgbox Text_NoSurfLicense, MSGBOX_DEFAULT
-	releaseall
+	buffermovename STR_VAR_1, MOVE_SURF
+	goto EventScript_NeedHoennLicense
 	end
-
-Text_NoSurfLicense:
-#if GERMAN
-	.string "Ohne Lizenz darf hier in Hoenn niemand\n"
-	.string "aufs offene Wasser hinaus.$"
-#else
-	.string "Without a licence nobody puts out to\n"
-	.string "sea here in HOENN.$"
-#endif
 #endif
 
 EventScript_CurrentTooFast::

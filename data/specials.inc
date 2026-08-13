@@ -711,4 +711,4 @@ gSpecials::
 	def_special SetHoennBadge
 	def_special CountHoennBadges
 	def_special SetHoennLicense
-	def_special HasHoennLicenseSpecial
+	def_special CheckHoennLicense

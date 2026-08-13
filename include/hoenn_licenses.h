@@ -11,6 +11,6 @@
 bool32 HasHoennLicense(u32 index);
 bool32 HoennLicensesApply(void);   // TRUE, wenn der Spieler gerade in Hoenn steht
 void SetHoennLicense(void);        // Special: Index in gSpecialVar_0x8004
-void HasHoennLicenseSpecial(void); // Special: Ergebnis nach gSpecialVar_Result
+void CheckHoennLicense(void);      // Special: TRUE = hier erlaubt
 
 #endif // GUARD_HOENN_LICENSES_H

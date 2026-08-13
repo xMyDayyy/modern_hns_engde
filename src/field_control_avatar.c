@@ -711,6 +711,15 @@ static bool32 TrySetupDiveDownScript(void)
         ScriptContext_SetupScript(EventScript_UseDive);
         return TRUE;
     }
+
+#if IS_HNS
+    // Tauchen waere moeglich, nur die Hoenn-Lizenz fehlt.
+    if (HoennLicensesApply() && !HasHoennLicense(LIC_DIVE) && TrySetDiveWarp() == 2)
+    {
+        ScriptContext_SetupScript(EventScript_NoDiveLicense);
+        return TRUE;
+    }
+#endif
     return FALSE;
 }
 
