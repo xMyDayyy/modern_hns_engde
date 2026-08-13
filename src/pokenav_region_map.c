@@ -596,8 +596,15 @@ static void TryMoveMapSecInfoWindow(struct Pokenav_RegionMapGfx *state)
     if (region == state->infoWindowRegion)
         return;
 
-    ClearWindowTilemap(state->infoWindowId);
-    FillBgTilemapBufferRect(1, 0x1041, GetWindowAttribute(state->infoWindowId, WINDOW_TILEMAP_LEFT), 4, 12, 13, 17);
+    // Der Rahmen (DrawTextBorderOuter) liegt eine Kachel ausserhalb des
+    // Fensters - deshalb eine Kachel groesser loeschen, sonst bleibt beim
+    // Wechsel die alte Box stehen.
+    {
+        u32 left = GetWindowAttribute(state->infoWindowId, WINDOW_TILEMAP_LEFT);
+        u32 top  = GetWindowAttribute(state->infoWindowId, WINDOW_TILEMAP_TOP);
+        ClearWindowTilemap(state->infoWindowId);
+        FillBgTilemapBufferRect(1, 0x1041, left - 1, top - 1, 14, 15, 17);
+    }
     RemoveWindow(state->infoWindowId);
 
     state->infoWindowRegion = region;

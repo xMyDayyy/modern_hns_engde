@@ -517,7 +517,7 @@ const u8 gMenuText_Use[] = _("Benutzen");
 const u8 gMenuText_Use[] = _("USE");
 #endif
 #if GERMAN
-const u8 gMenuText_Toss[] = _("Werfen");
+const u8 gMenuText_Toss[] = _("Müll");
 #else
 const u8 gMenuText_Toss[] = _("TOSS");
 #endif
