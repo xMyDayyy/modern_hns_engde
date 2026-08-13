@@ -10,7 +10,7 @@ BattleFrontier_OutsideWest_OnTransition_hns:
 BattleFrontier_OutsideWest_EventScript_EventScript_Sailor_hns::
 	lock
 	faceplayer
-	msgbox FarawayIsland_Entrance_Text_SailorReturn, MSGBOX_YESNO
+	msgbox BattleFrontier_OutsideWest_Text_SailorReturn_hns, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, BattleFrontier_OutsideWest_EventScript_AsYouLike_hns
 	msgbox EventTicket_Text_SailHome, MSGBOX_DEFAULT
 	closemessage
@@ -743,3 +743,15 @@ BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier_hns:
 	.string "to find the delightful creature!$"
 #endif
 
+@ Eigener Text: der Faraway-Island-Matrose sprach von Kapitaen Brack und
+@ von Seegrasulb City, das Schiff faehrt hier aber nach Oliviana City.
+BattleFrontier_OutsideWest_Text_SailorReturn_hns:
+#if GERMAN
+	.string "Die See ist ruhig heute.\p"
+	.string "Möchtest du zurück nach\n"
+	.string "Oliviana City?$"
+#else
+	.string "The sea is calm today.\p"
+	.string "Do you want to head back to\n"
+	.string "OLIVINE CITY?$"
+#endif

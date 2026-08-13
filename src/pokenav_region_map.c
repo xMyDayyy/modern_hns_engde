@@ -550,7 +550,11 @@ static void LoadPokenavRegionMapGfx(struct Pokenav_RegionMapGfx *state)
     BgDmaFill(1, PIXEL_FILL(1), 0x41, 1);
     CpuFill16(0x1040, state->tilemapBuffer, 0x800);
     SetBgTilemapBuffer(1, state->tilemapBuffer);
-    state->infoWindowId = AddWindow(FlagGet(FLAG_VISITED_KANTO)
+    // Die linke Fensterposition gilt nur fuer die Johto/Kanto-Karte. Auf der
+    // Hoennkarte verdeckt sie Faustauhaven - dort steht das Fenster wie im
+    // Original-Smaragd rechts.
+    state->infoWindowId = AddWindow((FlagGet(FLAG_VISITED_KANTO)
+        && GetRegionMapType(gMapHeader.regionMapSectionId) != REGION_MAP_HOENN)
         ? &sMapSecInfoWindowTemplate_Right
         : &sMapSecInfoWindowTemplate);
     LoadUserWindowBorderGfx_(state->infoWindowId, 0x42, BG_PLTT_ID(4));
