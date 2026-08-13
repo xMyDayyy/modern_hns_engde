@@ -204,6 +204,12 @@ Route101_Movement_Unused2:
 	step_end
 
 Route101_EventScript_Youngster::
+#if IS_HNS
+	@ HnS: Der Spieler kommt als Fremder aus Johto/Kanto - der Hinweis auf das
+	@ naechstgelegene Pokémon-Center passt nicht mehr zu einem Champion.
+	msgbox Route101_Text_HoennStrangerWarning, MSGBOX_NPC
+	end
+#endif
 	msgbox Route101_Text_TakeTiredPokemonToPokeCenter, MSGBOX_NPC
 	end
 
@@ -309,6 +315,17 @@ Route101_Text_YouSavedMe:
 	.string "Hi, you're {PLAYER}{KUN}!\p"
 	.string "This is not the place to chat, so come\n"
 	.string "by my POKéMON LAB later, okay?$"
+#endif
+
+Route101_Text_HoennStrangerWarning:
+#if GERMAN
+	.string "Dich habe ich hier noch nie gesehen.\p"
+	.string "Pass bloß auf - die Pokémon in Hoenn\n"
+	.string "sind viel stärker als die vom Festland.$"
+#else
+	.string "I've never seen you around here.\p"
+	.string "Be careful - the POKéMON in HOENN\n"
+	.string "are much stronger than back home.$"
 #endif
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
