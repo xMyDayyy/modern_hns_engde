@@ -213,6 +213,26 @@ static const struct HnsMatchCallTrainerInfo sHnsMatchCallTrainers[] =
     HNS_MC_ENTRY2(Joel,     TRAINER_JOEL_HNS),
     HNS_MC_ENTRY2(Charles,  TRAINER_CHARLES_HNS),
 };
+
+// Liefert den Anruf-Eintrag zu einer Trainer-ID oder NULL, wenn es keinen gibt.
+// Wird als Gueltigkeitspruefung benutzt: nur wer hier steht, hat ueberhaupt
+// Anruftexte. Ohne diese Pruefung erzeugten leere Rematch-Tabellenplaetze
+// (trainerIds[0] == TRAINER_NONE) Anrufe ohne Namen und ohne Text.
+static const struct HnsMatchCallTrainerInfo *HnsGetMatchCallEntry(u32 trainerId)
+{
+    u32 i;
+
+    if (trainerId == TRAINER_NONE)
+        return NULL;
+
+    for (i = 0; i < ARRAY_COUNT(sHnsMatchCallTrainers); i++)
+    {
+        if (sHnsMatchCallTrainers[i].trainerId == trainerId)
+            return &sHnsMatchCallTrainers[i];
+    }
+
+    return NULL;
+}
 #endif
 
 struct MatchCallText
@@ -1188,6 +1208,9 @@ bool32 HnsUpdateRouteStepCounter(void)
                 continue;
             if (!HasTrainerBeenFought(gRematchTable[i].trainerIds[0]))
                 continue;
+            // Leere Tabellenplaetze und Trainer ohne Anruftexte ueberspringen.
+            if (HnsGetMatchCallEntry(gRematchTable[i].trainerIds[0]) == NULL)
+                continue;
 
             candidates[numCandidates++] = i;
         }
@@ -1317,6 +1340,13 @@ static bool32 SelectMatchCallTrainer(void)
         return FALSE;
 
 #if IS_HNS
+    // Ein registriertes Flag allein genuegt nicht: der Anrufer braucht auch einen
+    // Eintrag in sHnsMatchCallTrainers, sonst gaebe es weder Namen noch Text.
+    // Faengt zugleich den Fall ab, dass GetActiveMatchCallTrainerId() mit seinem
+    // Sentinel REMATCH_TABLE_ENTRIES eine gueltige Trainer-ID vortaeuscht.
+    if (HnsGetMatchCallEntry(sMatchCallState.trainerId) == NULL)
+        return FALSE;
+
     matchCallId = GetRematchIdxByTrainerIdx(sMatchCallState.trainerId);
     if (matchCallId < 0)
         return FALSE;
@@ -1811,9 +1841,11 @@ bool32 SelectMatchCallMessage(int trainerId, u8 *str)
     {
         u16 lastBeatenId = GetLastBeatenRematchTrainerId(trainerId);
         const struct TrainerMon *party = GetTrainerPartyFromId(lastBeatenId);
-        u8 monId = Random() % GetTrainerPartySizeFromId(lastBeatenId);
-        if (party != NULL)
-            StringCopy(gStringVar3, GetSpeciesName(party[monId].species));
+        u32 partySize = GetTrainerPartySizeFromId(lastBeatenId);
+        // partySize == 0 waere sonst eine Division durch null und ein Lesezugriff
+        // hinter das Teamende.
+        if (party != NULL && partySize != 0)
+            StringCopy(gStringVar3, GetSpeciesName(party[Random() % partySize].species));
         else
             StringCopy(gStringVar3, GetSpeciesName(SPECIES_NONE));
         StringExpandPlaceholders(str, text);
@@ -1867,13 +1899,17 @@ bool32 SelectMatchCallMessage(int trainerId, u8 *str)
 static int GetTrainerMatchCallId(int trainerId)
 {
     int i = 0;
-    while (1)
+    // Die Schleife lief im Original ohne Obergrenze und lief bei unbekannten
+    // Trainer-IDs aus der Tabelle heraus.
+    while (i < (int)ARRAY_COUNT(sMatchCallTrainers))
     {
         if (sMatchCallTrainers[i].trainerId == trainerId)
             return i;
         else
             i++;
     }
+
+    return 0;
 }
 
 static const struct MatchCallText *GetSameRouteMatchCallText(int matchCallId, u8 *str)
@@ -2119,10 +2155,13 @@ static void PopulateSpeciesFromTrainerParty(int matchCallId, u8 *destStr)
     u8 monId;
     const u8 *speciesName;
 
+    u32 partySize;
+
     trainerId = GetLastBeatenRematchTrainerId(sMatchCallTrainers[matchCallId].trainerId);
     party = GetTrainerPartyFromId(trainerId);
-    monId = Random() % GetTrainerPartySizeFromId(trainerId);
-    if (party != NULL)
+    partySize = GetTrainerPartySizeFromId(trainerId);
+    monId = partySize != 0 ? Random() % partySize : 0;
+    if (party != NULL && partySize != 0)
         speciesName = GetSpeciesName(party[monId].species);
     else
         speciesName = GetSpeciesName(SPECIES_NONE);
