@@ -547,15 +547,6 @@ Route103_Text_BrendanTimeToHeadBack:
 
 Route103_Text_ShouldHaveBroughtPotion:
 #if GERMAN
-	.string "Mein Pokémon ist unglaublich müde…\n"
-	.string "Ich hätte einen Trank mitnehmen sollen.$"
-#else
-	.string "My POKéMON is staggeringly tired…\n"
-	.string "I should have brought a POTION…$"
-#endif
-
-Route103_Text_ShortcutToOldale:
-#if GERMAN
 	.string "Ach, hätte ich doch nur eine\n"
 	.string "Surflizenz.\p"
 	.string "Dann könnte ich von hier aus über das\n"
@@ -564,6 +555,18 @@ Route103_Text_ShortcutToOldale:
 	.string "Ah, if only I had a SURF LICENCE.\p"
 	.string "Then I could cut across the sea from\n"
 	.string "here.$"
+#endif
+
+Route103_Text_ShortcutToOldale:
+#if GERMAN
+	.string "Wenn du von hier das Meer überquerst,\n"
+	.string "nimmst du eine Abkürzung nach\l"
+	.string "Rosaltstadt.\p"
+	.string "Hahaha, ist das kein praktischer Tipp?$"
+#else
+	.string "If you cross the sea from here,\n"
+	.string "it'll be a shortcut to OLDALE TOWN.\p"
+	.string "Fufufu, that's useful, isn't it?$"
 #endif
 
 Route103_Text_RouteSign:

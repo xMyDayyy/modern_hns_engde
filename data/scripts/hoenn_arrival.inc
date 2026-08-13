@@ -92,6 +92,8 @@ Common_EventScript_HoennHideStoryNpcs::
 	setflag FLAG_HIDE_RUSTBORO_CITY_RIVAL
 	setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN
+	@ HnS: Die Supermarkt-Fuehrung in Rosaltstadt entfaellt komplett.
+	setflag FLAG_HIDE_OLDALE_TOWN_MART_EMPLOYEE
 	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
 	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
