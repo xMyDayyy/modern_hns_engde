@@ -260,6 +260,8 @@ static u32 GetCurrentTotalMinutes(struct Time *);
 static u32 GetNumRegisteredTrainers(void);
 static u32 GetActiveMatchCallTrainerId(u32);
 static int GetTrainerMatchCallId(int);
+static int GetTrainerMatchCallIdOrNone(int);
+static bool32 SelectMatchCallMessage_Vanilla(int, u8 *);
 static mapsec_u16_t GetRematchTrainerLocation(int);
 static bool32 TrainerIsEligibleForRematch(int);
 static void StartMatchCall(void);
@@ -272,9 +274,7 @@ static const struct MatchCallText *GetSameRouteMatchCallText(int, u8 *);
 static const struct MatchCallText *GetDifferentRouteMatchCallText(int, u8 *);
 static const struct MatchCallText *GetBattleMatchCallText(int, u8 *);
 static const struct MatchCallText *GetGeneralMatchCallText(int, u8 *);
-#if !IS_HNS
 static bool32 ShouldTrainerRequestBattle(int);
-#endif
 static void BuildMatchCallString(int, const struct MatchCallText *, u8 *);
 static u16 GetFrontierStreakInfo(u16, u32 *);
 static void PopulateMatchCallStringVars(int, const s8 *);
@@ -1837,6 +1837,14 @@ bool32 SelectMatchCallMessage(int trainerId, u8 *str)
         }
     }
 
+    if (text == NULL && GetTrainerMatchCallIdOrNone(trainerId) >= 0)
+    {
+        // Hoenn-Trainer stehen nicht in sHnsMatchCallTrainers, wohl aber in
+        // der (sonst ungenutzten) Emerald-Tabelle - deren deutsche Texte
+        // werden hier weiterverwendet.
+        return SelectMatchCallMessage_Vanilla(trainerId, str);
+    }
+
     if (text != NULL)
     {
         u16 lastBeatenId = GetLastBeatenRematchTrainerId(trainerId);
@@ -1857,6 +1865,14 @@ bool32 SelectMatchCallMessage(int trainerId, u8 *str)
 
     return newRematchRequest;
 #else
+    return SelectMatchCallMessage_Vanilla(trainerId, str);
+#endif
+}
+
+// Original-Emerald-Logik. Unter HnS nur noch als Rueckfall fuer Trainer
+// ohne Eintrag in sHnsMatchCallTrainers.
+static bool32 SelectMatchCallMessage_Vanilla(int trainerId, u8 *str)
+{
     u32 matchCallId;
     const struct MatchCallText *matchCallText;
     bool32 newRematchRequest = FALSE;
@@ -1893,7 +1909,21 @@ bool32 SelectMatchCallMessage(int trainerId, u8 *str)
 
     BuildMatchCallString(matchCallId, matchCallText, str);
     return newRematchRequest;
-#endif
+}
+
+// Wie GetTrainerMatchCallId, liefert aber -1 statt 0, wenn der Trainer
+// gar nicht in der Emerald-Tabelle steht.
+static int GetTrainerMatchCallIdOrNone(int trainerId)
+{
+    u32 i;
+
+    for (i = 0; i < ARRAY_COUNT(sMatchCallTrainers); i++)
+    {
+        if (sMatchCallTrainers[i].trainerId == trainerId)
+            return i;
+    }
+
+    return -1;
 }
 
 static int GetTrainerMatchCallId(int trainerId)
@@ -2211,7 +2241,7 @@ static int GetNumOwnedBadges(void)
     return i;
 }
 
-#if !IS_HNS
+// Unter HnS ebenfalls in Gebrauch: Rueckfall fuer Hoenn-Trainer.
 // Whether or not a trainer calling the player from a different route should request a battle
 static bool32 ShouldTrainerRequestBattle(int matchCallId)
 {
@@ -2240,7 +2270,6 @@ static bool32 ShouldTrainerRequestBattle(int matchCallId)
 
     return FALSE;
 }
-#endif
 
 static u16 GetFrontierStreakInfo(u16 facilityId, u32 *topicTextId)
 {

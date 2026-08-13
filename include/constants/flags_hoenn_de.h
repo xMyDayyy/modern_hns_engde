@@ -1776,4 +1776,23 @@
 
 #define HOENN_FLAGS_END (HOENN_FLAGS_START + 0x368)
 
+// =====================================================================
+// Registrierungsflags des Match Call - ein Flag je Eintrag der
+// gRematchTable. Der alte Platz (0x496) bot nur bis 0x4FF Raum, also
+// 106 Flags; mit den Hoenn-Rueckkampftrainern braucht die Tabelle 118.
+// Der Block liegt deshalb jetzt oberhalb aller Hoenn-Flags und ist auf
+// 128 ausgelegt. FLAGS_COUNT waechst entsprechend mit - der Speicher-
+// block wird dadurch groesser, alte Spielstaende sind ungueltig.
+// =====================================================================
+// Absolut gerechnet, nicht ueber HOENN_FLAGS_END - das wird unten neu
+// definiert und ergaebe sonst eine Selbstreferenz.
+#define HNS_REMATCH_FLAGS_START (HOENN_FLAGS_START + 0x369)
+#define HNS_REMATCH_FLAGS_COUNT 118
+
+#undef  TRAINER_REGISTERED_FLAGS_START
+#define TRAINER_REGISTERED_FLAGS_START HNS_REMATCH_FLAGS_START
+
+#undef  HOENN_FLAGS_END
+#define HOENN_FLAGS_END (HNS_REMATCH_FLAGS_START + HNS_REMATCH_FLAGS_COUNT - 1)
+
 #endif // GUARD_CONSTANTS_FLAGS_HOENN_DE_H

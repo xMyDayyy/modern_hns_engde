@@ -1277,8 +1277,15 @@ struct SaveBlock1
     /*0x3150*/ struct LinkBattleRecords linkBattleRecords;
 #endif //FREE_LINK_BATTLE_RECORDS
     /*0x31A8*/ u8 giftRibbons[GIFT_RIBBONS_COUNT];
+#if IS_HNS
+    // GameCube-Anbindung (Colosseum, XD, Pokémon Box) - in einem Rom-Hack
+    // nicht erreichbar, die Felder werden ausser im ROM-Header von nichts
+    // gelesen. Die 41 Bytes schaffen Platz fuer die erweiterte
+    // Rueckkampftabelle (siehe MAX_REMATCH_ENTRIES).
+#else
     /*0x31B3*/ struct ExternalEventData externalEventData;
     /*0x31C7*/ struct ExternalEventFlags externalEventFlags;
+#endif
     /*0x31DC*/ struct Roamer roamer[ROAMER_COUNT];
     /*0x3???*/ struct Roamer roamerPadding[7 - ROAMER_COUNT]; // Padding for extra roamers
 #if FREE_ENIGMA_BERRY == FALSE

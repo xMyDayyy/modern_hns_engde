@@ -147,8 +147,15 @@ __attribute__((section(".text.header_gf"))) USED static const struct GFRomHeader
     .playerGenderOffset = offsetof(struct SaveBlock2, playerGender),
     .frontierStatusOffset = offsetof(struct SaveBlock2, frontier.challengeStatus),
     .frontierStatusOffset2 = offsetof(struct SaveBlock2, frontier.challengeStatus),
+#if IS_HNS
+    // Felder entfallen unter HnS (siehe struct SaveBlock1) - der Header
+    // meldet dann keinen Ablageort.
+    .externalEventFlagsOffset = 0,
+    .externalEventDataOffset = 0,
+#else
     .externalEventFlagsOffset = offsetof(struct SaveBlock1, externalEventFlags),
     .externalEventDataOffset = offsetof(struct SaveBlock1, externalEventData),
+#endif
     .unk18 = 0x00000000,
     .speciesInfo = gSpeciesInfo,
     //.abilityNames = gAbilityNames, //handled in gAbilitiesInfo

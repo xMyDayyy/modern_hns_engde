@@ -92,6 +92,38 @@ enum {
     REMATCH_GLACIA,
     REMATCH_DRAKE,
     REMATCH_WALLACE,
+    // HnS: Die Namen ROSE..KAREN sind oben bereits von den Johto-Telefon-
+    // trainern belegt. Die gleichnamigen Hoenn-Trainer bekommen deshalb
+    // eigene Plaetze am Tabellenende. JERRY..KIRA_AND_DAN stehen dagegen
+    // an ihren Originalindizes 28-63, die unter HnS leer waren.
+    REMATCH_ROSE_HOENN,
+    REMATCH_ANDRES_HOENN,
+    REMATCH_DUSTY_HOENN,
+    REMATCH_LOLA_HOENN,
+    REMATCH_RICKY_HOENN,
+    REMATCH_LILA_AND_ROY_HOENN,
+    REMATCH_CRISTIN_HOENN,
+    REMATCH_BROOKE_HOENN,
+    REMATCH_WILTON_HOENN,
+    REMATCH_VALERIE_HOENN,
+    REMATCH_CINDY_HOENN,
+    REMATCH_THALIA_HOENN,
+    REMATCH_JESSICA_HOENN,
+    REMATCH_WINSTON_HOENN,
+    REMATCH_STEVE_HOENN,
+    REMATCH_TONY_HOENN,
+    REMATCH_NOB_HOENN,
+    REMATCH_KOJI_HOENN,
+    REMATCH_FERNANDO_HOENN,
+    REMATCH_DALTON_HOENN,
+    REMATCH_BERNIE_HOENN,
+    REMATCH_ETHAN_HOENN,
+    REMATCH_JOHN_AND_JAY_HOENN,
+    REMATCH_JEFFREY_HOENN,
+    REMATCH_CAMERON_HOENN,
+    REMATCH_JACKI_HOENN,
+    REMATCH_WALTER_HOENN,
+    REMATCH_KAREN_HOENN,
     REMATCH_TABLE_ENTRIES // The total number of rematch entries. Must be last in enum
 };
 
