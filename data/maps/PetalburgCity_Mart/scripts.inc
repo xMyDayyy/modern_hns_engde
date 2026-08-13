@@ -64,40 +64,39 @@ PetalburgCity_Mart_EventScript_Man::
 
 PetalburgCity_Mart_Text_WeakWillGrowStronger:
 #if GERMAN
-	.string "Auch wenn ein Pokémon jetzt noch\n"
-	.string "schwach ist - es wird ständig stärker.\l"
-	.string "\p"
-	.string "Das Schlüsselwort heißt Liebe!\n"
-	.string "Liebe für deine Pokémon!$"
+	.string "Die Arena ist schon so lange zu, dass\n"
+	.string "ich den Leiter kaum noch vom Sehen\l"
+	.string "kenne.\p"
+	.string "Angeblich trainiert er drinnen weiter.$"
 #else
-	.string "Even if a POKéMON is weak now,\n"
-	.string "it will grow stronger.\p"
-	.string "The most important thing is love!\n"
-	.string "Love for your POKéMON!$"
+	.string "The GYM has been closed so long I\n"
+	.string "barely know the LEADER by sight\l"
+	.string "any more.\p"
+	.string "They say he keeps training inside.$"
 #endif
 
 PetalburgCity_Mart_Text_RepelIsUseful:
 #if GERMAN
-	.string "Setzt du Schutz ein?\n"
-	.string "Das hält Pokémon fern und ist sehr\l"
-	.string "nützlich, wenn du es eilig hast.$"
+	.string "Der Wald im Norden ist voller\n"
+	.string "Käfer-Pokémon.\p"
+	.string "Ich gehe da nur mit einem Vorrat an\n"
+	.string "Gegengift rein.$"
 #else
-	.string "Do you use REPEL?\n"
-	.string "It keeps POKéMON away, so it's\l"
-	.string "useful when you're in a hurry.$"
+	.string "The woods to the north are full of\n"
+	.string "BUG POKéMON.\p"
+	.string "I won't go in without a supply of\n"
+	.string "ANTIDOTES.$"
 #endif
 
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou:
 #if GERMAN
-	.string "Hast du etwas Gegengift dabei?\p"
-	.string "Ein vergiftetes Pokémon verliert\n"
-	.string "ständig KP, bis es kampfunfähig wird.\l"
-	.string "Halte deshalb stets Gegengift bereit!$"
+	.string "Meine Frau sagt, ich soll weniger\n"
+	.string "einkaufen.\p"
+	.string "Aber wer weiß, wann ich das nächste\n"
+	.string "Mal in eine Stadt komme?$"
 #else
-	.string "Do you have any ANTIDOTES with\n"
-	.string "you?\p"
-	.string "If you walk around with a poisoned\n"
-	.string "POKéMON, it will lose HP until it faints.\l"
-	.string "Take some ANTIDOTES with you.$"
+	.string "My wife says I should buy less.\p"
+	.string "But who knows when I will next\n"
+	.string "reach a town?$"
 #endif
 

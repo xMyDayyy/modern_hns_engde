@@ -157,6 +157,16 @@ PetalburgCity_EventScript_Boy::
 	end
 
 PetalburgCity_EventScript_WallysMom::
+#if IS_HNS
+	@ Ab Zustand 3 ist das Fang-Ereignis vorbei und Heiko unterwegs.
+	goto_if_ge VAR_PETALBURG_CITY_STATE, 3, PetalburgCity_EventScript_WallysMomGone
+	msgbox PetalburgCity_Text_WallysMomWaiting, MSGBOX_NPC
+	end
+
+PetalburgCity_EventScript_WallysMomGone::
+	msgbox PetalburgCity_Text_WallysMomGone, MSGBOX_NPC
+	end
+#endif
 	msgbox PetalburgCity_Text_WhereIsWally, MSGBOX_NPC
 	end
 
@@ -759,6 +769,15 @@ PetalburgCity_Movement_PlayerWatchScottExit3:
 	step_end
 
 PetalburgCity_EventScript_GymBoy::
+#if IS_HNS
+	goto_if_ge VAR_PETALBURG_CITY_STATE, 3, PetalburgCity_EventScript_GymBoyThanks
+	msgbox PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_NPC
+	end
+
+PetalburgCity_EventScript_GymBoyThanks::
+	msgbox PetalburgCity_Text_GymBoyThanks, MSGBOX_NPC
+	end
+#endif
 	msgbox PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_NPC
 	end
 
@@ -775,35 +794,31 @@ PetalburgCity_Text_WhereIsWally:
 
 PetalburgCity_Text_AreYouRookieTrainer:
 #if GERMAN
-	.string "He da! Du bist neu in der Stadt, oder?\p"
-	.string "Weißt du, was Pokémon-Trainer machen,\n"
-	.string "wenn sie in einen neuen Ort kommen?\p"
-	.string "Sie sehen sich als Erstes die Arena\n"
-	.string "im Ort an.$"
+	.string "He da! Du siehst aus wie ein erfahrener\n"
+	.string "Trainer.\p"
+	.string "Ich glaube, du könntest meinem Freund\n"
+	.string "Heiko helfen.$"
 #else
-	.string "Hiya! You're new in town,\n"
-	.string "aren't you?\p"
-	.string "Do you know what POKéMON TRAINERS\n"
-	.string "do when they reach a new town?\p"
-	.string "They first check what kind of GYM\n"
-	.string "is in the town.$"
+	.string "Hey there! You look like an\n"
+	.string "experienced TRAINER.\p"
+	.string "I think you could help my friend\n"
+	.string "WALLY.$"
 #endif
 
 PetalburgCity_Text_ThisIsPetalburgGym:
 #if GERMAN
-	.string "Schau. Das ist die Arena von Blütenburg\n"
-	.string "City.$"
+	.string "Hier - das ist mein Freund Heiko.$"
 #else
-	.string "See? This is PETALBURG CITY's GYM.$"
+	.string "Here - that's my friend WALLY.$"
 #endif
 
 PetalburgCity_Text_ThisIsGymSign:
 #if GERMAN
-	.string "Das ist das Logo der Arena. Daran\n"
-	.string "kannst du immer eine Arena erkennen.$"
+	.string "Frag ihn am besten selbst, was du für\n"
+	.string "ihn tun kannst.$"
 #else
-	.string "This is the GYM's sign. Look for it\n"
-	.string "whenever you're looking for a GYM.$"
+	.string "Best ask him yourself what you can\n"
+	.string "do for him.$"
 #endif
 
 PetalburgCity_Text_WaterReflection:
@@ -825,15 +840,17 @@ PetalburgCity_Text_WaterReflection:
 
 PetalburgCity_Text_FullPartyExplanation:
 #if GERMAN
-	.string "Nehmen wir an, du hättest 6 Pokémon.\n"
-	.string "Wenn du jetzt ein weiteres fängst…\p"
-	.string "wird es automatisch in das Pokémon-\n"
-	.string "Lagerungs-System gesendet.$"
+	.string "Ich sitze hier jeden Tag und sehe den\n"
+	.string "Leuten beim Vorbeigehen zu.\p"
+	.string "Früher kamen mehr Trainer durch. Seit\n"
+	.string "die Arena zu ist, ist es ruhig\l"
+	.string "geworden.$"
 #else
-	.string "Let's say you have six POKéMON.\n"
-	.string "If you catch another one…\p"
-	.string "It is automatically sent to a STORAGE\n"
-	.string "BOX over a PC connection.$"
+	.string "I sit here every day and watch the\n"
+	.string "people go by.\p"
+	.string "More TRAINERS used to come through.\n"
+	.string "Since the GYM closed it has gotten\l"
+	.string "quiet.$"
 #endif
 
 PetalburgCity_Text_GymSign:
@@ -904,3 +921,43 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
 #endif
+
+#if IS_HNS
+PetalburgCity_Text_GymBoyThanks:
+#if GERMAN
+	.string "Danke, dass du meinem Freund geholfen\n"
+	.string "hast!\p"
+	.string "Er ist jetzt auf dem Weg nach\n"
+	.string "Wiesenflur.$"
+#else
+	.string "Thanks for helping my friend!\p"
+	.string "He's on his way to VERDANTURF TOWN\n"
+	.string "now.$"
+#endif
+
+PetalburgCity_Text_WallysMomWaiting:
+#if GERMAN
+	.string "Mein Heiko wollte sich vom Arenaleiter\n"
+	.string "zeigen lassen, wie man Pokémon fängt.\p"
+	.string "Aber die Arena ist geschlossen…\n"
+	.string "Wo steckt der Junge nur?$"
+#else
+	.string "My WALLY wanted the GYM LEADER to\n"
+	.string "show him how to catch POKéMON.\p"
+	.string "But the GYM is closed…\n"
+	.string "Where has that boy got to?$"
+#endif
+
+PetalburgCity_Text_WallysMomGone:
+#if GERMAN
+	.string "Heiko ist schon nach Wiesenflur\n"
+	.string "vorausgefahren.\p"
+	.string "Die Luft dort soll ihm guttun.$"
+#else
+	.string "WALLY has gone ahead to\n"
+	.string "VERDANTURF TOWN.\p"
+	.string "The air there is supposed to do him\n"
+	.string "good.$"
+#endif
+#endif
+
