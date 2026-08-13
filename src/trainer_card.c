@@ -1321,15 +1321,17 @@ static void BufferHofDebutTime(void)
 #if IS_HNS
 static void PrintRegionLabelsOnBack(void)
 {
-    // Positionen nach Marcs zweiter Messung: Kanto zwei Linienabstaende hoeher,
-    // Hoenn einen. Ein Linienabstand der Kartenlinien betraegt 16 px (gemessen
-    // bei Bildschirm-y 55, 71, 87, 103, 119). Fensterursprung ist (8,8).
-    //   Kanto: Fenster-y 34 = Bildschirm 42
-    //   Hoenn: Fenster-y 80 = Bildschirm 88
+    // Die Kartenlinien liegen auf Bildschirm-y 55, 71, 87, 103, 119; die Baender
+    // dazwischen sind je 16 px = genau zwei Kachelzeilen. Jedes Element bekommt
+    // ein eigenes Band, nichts ueberlappt:
+    //   40- 55  Label "Kanto"      (Fenster-y 34)
+    //   56- 71  Kanto-Ordenreihe   (Kachelzeile  7/8)
+    //   72- 87  Label "Hoenn"      (Fenster-y 66)
+    //   88-103  Hoenn-Ordenreihe   (Kachelzeile 11/12)
     // Waagerecht beginnen beide Labels bei Bildschirm-x 24 (Fenster-x 16).
     AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 34, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 80, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 66, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
 }
 #endif
 
