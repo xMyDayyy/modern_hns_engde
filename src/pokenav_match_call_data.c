@@ -184,12 +184,18 @@ static const match_call_text_data_t sMrStoneTextScripts[] = {
     MATCH_CALL_TEXT_END
 };
 
+#if GERMAN
+static const u8 gText_MrStoneMatchCallDesc[] = _("Devon Präs.");
+#else
+static const u8 gText_MrStoneMatchCallDesc[] = _("Devon Pres");
+#endif
+
 static const struct MatchCallStructNPC sMrStoneMatchCallHeader =
 {
     .type = MC_TYPE_NPC,
     .mapSec = MAPSEC_CHERRYGROVE_CITY,
     .flag = FLAG_ENABLE_NORMAN_MATCH_CALL,
-    .desc = COMPOUND_STRING("Devon Pres"),
+    .desc = gText_MrStoneMatchCallDesc,
     .name = COMPOUND_STRING("Mr. Trumm"),
     .textData = sMrStoneTextScripts
 };
@@ -207,13 +213,19 @@ static const match_call_text_data_t sNormanTextScripts[] = {
     MATCH_CALL_TEXT_END
 };
 
+#if GERMAN
+static const u8 gText_NormanMatchCallDesc[] = _("Zuverlässig");
+#else
+static const u8 gText_NormanMatchCallDesc[] = _("Reliable One");
+#endif
+
 static const struct MatchCallStructTrainer sNormanMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_SAFARI_ZONE_GATE,
     .flag = FLAG_ENABLE_NORMAN_MATCH_CALL,
     .rematchTableIdx = REMATCH_NORMAN,
-    .desc = COMPOUND_STRING("Reliable One"),
+    .desc = gText_NormanMatchCallDesc,
     .name = COMPOUND_STRING("Vati"),
     .textData = sNormanTextScripts
 };
@@ -369,13 +381,19 @@ static const struct MatchCallLocationOverride sWallyLocationData[] = {
     { 0xFFFF,                                 MAPSEC_NONE }
 };
 
+#if GERMAN
+static const u8 gText_WallyMatchCallDesc[] = _("{PKMN}-Fan");
+#else
+static const u8 gText_WallyMatchCallDesc[] = _("{PKMN} Lover");
+#endif
+
 static const struct MatchCallWally sWallyMatchCallHeader =
 {
     .type = MC_TYPE_WALLY,
     .mapSec = 0,
     .flag = FLAG_ENABLE_WALLY_MATCH_CALL,
     .rematchTableIdx = REMATCH_WALLY_VR,
-    .desc = COMPOUND_STRING("{PKMN} Lover"),
+    .desc = gText_WallyMatchCallDesc,
     .textData = sWallyTextScripts,
     .locationData = sWallyLocationData
 };
@@ -391,12 +409,18 @@ static const match_call_text_data_t sScottTextScripts[] = {
     MATCH_CALL_TEXT_END
 };
 
+#if GERMAN
+static const u8 gText_ScottMatchCallDesc[] = _("Trugaugen");
+#else
+static const u8 gText_ScottMatchCallDesc[] = _("Elusive Eyes");
+#endif
+
 static const struct MatchCallStructNPC sScottMatchCallHeader =
 {
     .type = MC_TYPE_NPC,
     .mapSec = MAPSEC_NONE,
     .flag = FLAG_ENABLE_SCOTT_MATCH_CALL,
-    .desc = COMPOUND_STRING("Elusive Eyes"),
+    .desc = gText_ScottMatchCallDesc,
     .name = COMPOUND_STRING("Scott"),
     .textData = sScottTextScripts
 };
