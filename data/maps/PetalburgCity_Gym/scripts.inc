@@ -37,7 +37,12 @@ PetalburgCity_Gym_EventScript_UnlockAllDoors::
 
 PetalburgCity_Gym_OnTransition:
 	call_if_eq VAR_PETALBURG_GYM_STATE, 1, PetalburgCity_Gym_EventScript_MoveWallyToEntrance
+#if IS_HNS
+	@ HnS: Kein Empfang am Eingang. Norman ist neu in der Stadt, die Arena
+	@ wird umgebaut - er bleibt an seinem Platz im hinteren Raum.
+#else
 	call_if_lt VAR_PETALBURG_GYM_STATE, 6, PetalburgCity_Gym_EventScript_MoveNormanToEntrance
+#endif
 	call_if_set FLAG_SYS_GAME_CLEAR, PetalburgCity_Gym_EventScript_CheckNormanForRematch
 	end
 

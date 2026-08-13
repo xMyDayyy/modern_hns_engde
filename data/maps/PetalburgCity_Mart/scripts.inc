@@ -64,15 +64,15 @@ PetalburgCity_Mart_EventScript_Man::
 
 PetalburgCity_Mart_Text_WeakWillGrowStronger:
 #if GERMAN
-	.string "Die Arena ist schon so lange zu, dass\n"
-	.string "ich den Leiter kaum noch vom Sehen\l"
-	.string "kenne.\p"
-	.string "Angeblich trainiert er drinnen weiter.$"
+	.string "Der Arenaleiter ist erst vor Kurzem\n"
+	.string "hergezogen.\p"
+	.string "Gesehen habe ich ihn noch nicht - die\n"
+	.string "Arena wird ja gerade umgebaut.$"
 #else
-	.string "The GYM has been closed so long I\n"
-	.string "barely know the LEADER by sight\l"
-	.string "any more.\p"
-	.string "They say he keeps training inside.$"
+	.string "The GYM LEADER only moved here\n"
+	.string "recently.\p"
+	.string "I haven't laid eyes on him yet - the\n"
+	.string "GYM is being rebuilt, after all.$"
 #endif
 
 PetalburgCity_Mart_Text_RepelIsUseful:
@@ -99,4 +99,3 @@ PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou:
 	.string "But who knows when I will next\n"
 	.string "reach a town?$"
 #endif
-

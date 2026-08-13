@@ -54,24 +54,25 @@ PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType::
 
 PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem:
 #if GERMAN
-	.string "Computerbasiertes Pokémon-Lagerungs-\n"
-	.string "System…\p"
-	.string "Wer auch immer dies entwickelt hat,\n"
-	.string "muss ein wahrer Zauberer sein!$"
+	.string "Der Umbau der Arena zieht sich.\p"
+	.string "Meine Nachbarin sagt, der neue Leiter\n"
+	.string "sei kaum aus dem Haus gekommen.$"
 #else
-	.string "That PC-based POKéMON Storage\n"
-	.string "System…\p"
-	.string "Whoever made it must be some kind\n"
-	.string "of a scientific wizard!$"
+	.string "The rebuilding of the GYM is\n"
+	.string "dragging on.\p"
+	.string "My neighbour says the new LEADER\n"
+	.string "has hardly left his house.$"
 #endif
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP:
 #if GERMAN
-	.string "Als mein Pokémon eine Sinelbeere\n"
-	.string "aß, wurden seine KP aufgefüllt!$"
+	.string "Ich warte hier auf den Bus nach\n"
+	.string "Metarost City.\p"
+	.string "Der fährt hier nur zweimal am Tag.$"
 #else
-	.string "When my POKéMON ate an\n"
-	.string "ORAN BERRY, it regained HP!$"
+	.string "I am waiting for the bus to\n"
+	.string "RUSTBORO CITY.\p"
+	.string "It only runs twice a day here.$"
 #endif
 
 PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon:
@@ -137,4 +138,3 @@ PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType:
 	.string "But, it's weak against GRASS-type\n"
 	.string "and ELECTRIC-type POKéMON.$"
 #endif
-

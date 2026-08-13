@@ -98,6 +98,9 @@ PetalburgCity_EventScript_WallyTutorial::
 	closemessage
 	setvar VAR_PETALBURG_CITY_STATE, 3
 	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
+	@ Wie im Vanilla-Zweig (dort in PetalburgCity_Gym gesetzt): Heikos Mutter
+	@ ist ab jetzt im Haus, nicht mehr zusaetzlich auf der Strasse.
+	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	fadedefaultbgm
 	clearflag FLAG_DONT_TRANSITION_MUSIC
