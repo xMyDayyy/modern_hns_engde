@@ -261,7 +261,10 @@ Common_EventScript_HoennSkipIntroStates::
 @ von hier aus den Strand hinauf auf (17,52) gefuehrt - direkt unter die Tuer,
 @ aus der Birk tritt. Birk bleibt auf (17,51) stehen und schaut nach unten,
 @ der Spieler schaut nach oben.
-@ Der Steg ist zwei Kacheln breit (Zeile 51 = oben, Zeile 52 = unten).
+@ Der Steg ist zwei Kacheln breit (Zeile 51 = oben, Zeile 52 = unten) und
+@ liegt auf Hoehe 4. Die Trigger stehen deshalb auf der Uebergangskachel
+@ x=15 (Hoehe 0) direkt hinter dem Steg - auf dem Steg selbst haette ein
+@ Trigger mit fester Hoehe nie ausgeloest.
 @ Der Spieler bleibt stehen, Birk laeuft zu ihm. Auf der unteren Spur stellt
 @ er sich direkt ueber den Spieler und schaut nach unten; auf der oberen Spur
 @ ist dieses Feld belegt, also geht er eine Kachel weiter und schaut hoch.
@@ -373,18 +376,16 @@ Common_Movement_HoennBirchFacePlayer:
 	step_end
 
 @ Birk laeuft vom Hauseingang (17,50) zum Spieler.
-@ Untere Spur: ueber (17,51) nach (14,51), Blick nach unten.
+@ Untere Spur: ueber (17,51) nach (15,51), Blick nach unten.
 Common_Movement_HoennBirchRunLower:
-	walk_fast_left
 	walk_fast_left
 	walk_fast_left
 	face_down
 	step_end
 
-@ Obere Spur: eine Kachel tiefer bis (14,52), Blick nach oben.
+@ Obere Spur: eine Kachel tiefer bis (15,52), Blick nach oben.
 Common_Movement_HoennBirchRunUpper:
 	walk_fast_down
-	walk_fast_left
 	walk_fast_left
 	walk_fast_left
 	face_up
