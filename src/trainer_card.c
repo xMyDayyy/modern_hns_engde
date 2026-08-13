@@ -1321,15 +1321,14 @@ static void BufferHofDebutTime(void)
 #if IS_HNS
 static void PrintRegionLabelsOnBack(void)
 {
-    // Labels stehen LINKS NEBEN ihrer Ordenreihe, auf gleicher Hoehe.
-    // Fensterursprung von WIN_CARD_TEXT ist Bildschirm (8,8), die Ordenreihen
-    // liegen auf Bildschirm-y 64-80 (Kanto) bzw. 88-104 (Hoenn) -- im Fenster
-    // also 56-72 und 80-96. Mit +2 sitzt die 12 px hohe Kleinschrift mittig.
-    // Waagerecht: Label ab Fenster-x 2 (Bildschirm 10), 25 px breit (Kanto wie
-    // Hoenn), danach beginnen die Orden bei Kachel 5 (Bildschirm 40).
-    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 2, 58, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
+    // Labels stehen linksbuendig UNTER ihrer Ordenreihe (aus Marcs Skizze
+    // ausgemessen). Fensterursprung von WIN_CARD_TEXT ist Bildschirm (8,8).
+    //   Kanto-Reihe  Kachelzeile  7/8  = Bildschirm-y  56- 72, Label darunter ab 74
+    //   Hoenn-Reihe  Kachelzeile 11/12 = Bildschirm-y  88-104, Label darunter ab 104
+    // Waagerecht beginnen beide Labels bei Bildschirm-x 24 (Fenster-x 16).
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 66, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 2, 82, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 96, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
 }
 #endif
 
@@ -1707,8 +1706,8 @@ static void DrawStarsAndBadgesOnCard(void)
 #if IS_HNS
 static void DrawExtraBadgesOnBack(void)
 {
-    // Kachel 5 statt 4: links davon steht jetzt das Regionslabel
-    // (siehe PrintRegionLabelsOnBack).
+    // Kanto-Reihe eine Kachelzeile hoeher (7/8 statt 8/9), damit das Label
+    // darunter Platz hat - siehe PrintRegionLabelsOnBack.
     u8 i, x = 5;
     u8 palNum = 6;
     u16 tileNum = 192 + 32;
@@ -1717,10 +1716,10 @@ static void DrawExtraBadgesOnBack(void)
     {
         if (sData->badgeCount[NUM_BADGES_FRONT + i])
         {
-            FillBgTilemapBufferRect(3, tileNum,      x,     8, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 8, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 16, x,     9, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 9, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum,      x,     7, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 7, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum + 16, x,     8, 1, 1, palNum);
+            FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 8, 1, 1, palNum);
         }
     }
     // Hoenn-Ordenreihe (erscheint erst nach Birks Uebergabe)
