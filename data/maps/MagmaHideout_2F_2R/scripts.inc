@@ -118,8 +118,8 @@ MagmaHideout_2F_2R_Text_Grunt7PostBattle:
 
 MagmaHideout_2F_2R_Text_Grunt8Intro:
 #if GERMAN
-	.string "Eines unserer Mitglieder ist aus-\n"
-	.string "gerastet. Es hat sein Magmaemblem\l"
+	.string "Eines unserer Mitglieder ist\n"
+	.string "ausgerastet. Es hat sein Magmaemblem\l"
 	.string "verloren!\p"
 	.string "Warte mal! Du hast das doch nicht\n"
 	.string "etwa gefunden?!?$"

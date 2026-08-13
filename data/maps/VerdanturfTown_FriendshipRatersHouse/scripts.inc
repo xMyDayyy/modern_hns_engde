@@ -114,8 +114,7 @@ VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou:
 
 VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou:
 #if GERMAN
-	.string "Es hat sich noch nicht an dich\n"
-	.string "gewöhnt.\l"
+	.string "Es hat sich noch nicht an dich gewöhnt.\n"
 	.string "Weder liebt es dich, noch hasst es\p"
 	.string "dich.$"
 #else

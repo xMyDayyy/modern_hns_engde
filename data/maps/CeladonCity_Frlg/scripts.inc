@@ -188,11 +188,11 @@ CeladonCity_Text_ExplainXAccuracyDireHit::
 	.string "X-Treffer erhöht die Genauigkeit\n"
 	.string "von Attacken!\p"
 	.string "Angriffplus erhöht die\n"
-	.string "Wahrscheinlichkeit, einen\l"
-	.string "Volltreffer zu landen!\p"
+	.string "Wahrscheinlichkeit, einen Volltreffer\l"
+	.string "zu landen!\p"
 	.string "Diese Items kannst du im\n"
-	.string "Einkaufszentrum von Prismania\l"
-	.string "City kaufen!$"
+	.string "Einkaufszentrum von Prismania City\l"
+	.string "kaufen!$"
 #else
 	.string "TRAINER TIPS\p"
 	.string "X ACCURACY boosts the accuracy of\n"
@@ -214,9 +214,9 @@ CeladonCity_Text_CitySign::
 
 CeladonCity_Text_GymSign::
 #if GERMAN
-	.string "Prismania City Pokémon-Arena\n"
-	.string "Leiterin: Erika\l"
-	.string "Die Prinzessin mit dem grünen Daumen$"
+	.string "Prismania City Pokémon-Arena Leiterin:\n"
+	.string "Erika Die Prinzessin mit dem grünen\l"
+	.string "Daumen$"
 #else
 	.string "CELADON CITY POKéMON GYM\n"
 	.string "LEADER: ERIKA\l"
@@ -280,8 +280,8 @@ CeladonCity_Text_ScaldedTongueOnTea::
 	.string "Die nette, alte Dame in der Villa\n"
 	.string "gab mir Tee.\p"
 	.string "Aber er war kochend heiß!\n"
-	.string "Ich muss ihn erst abkühlen, ehe\l"
-	.string "ich ihn trinke!$"
+	.string "Ich muss ihn erst abkühlen, ehe ich ihn\l"
+	.string "trinke!$"
 #else
 	.string "Aaaagh, ow…\n"
 	.string "I scalded my tongue!\p"
@@ -299,9 +299,8 @@ Text_SoftboiledTeach::
 	.string "anzusprechen!\p"
 	.string "Glück hat uns scheinbar zusammen-\n"
 	.string "gebracht.\p"
-	.string "Das möchte ich feiern, indem ich\n"
-	.string "einem deiner Pokémon\l"
-	.string "Weichei beibringe.$"
+	.string "Das möchte ich feiern, indem ich einem\n"
+	.string "deiner Pokémon Weichei beibringe.$"
 #else
 	.string "Hello, there!\p"
 	.string "I've seen you about, but I never\n"

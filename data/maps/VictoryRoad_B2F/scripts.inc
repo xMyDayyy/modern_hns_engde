@@ -67,8 +67,7 @@ VictoryRoad_B2F_Text_VitoPostBattle:
 
 VictoryRoad_B2F_Text_OwenIntro:
 #if GERMAN
-	.string "Ich habe gehört, dass sich hier ein\n"
-	.string "sehr\l"
+	.string "Ich habe gehört, dass sich hier ein sehr\n"
 	.string "starkes Kind herumtreibt. Bist du das?$"
 #else
 	.string "I'd heard that there was a tough\n"
@@ -139,8 +138,7 @@ VictoryRoad_B2F_Text_JulieDefeat:
 
 VictoryRoad_B2F_Text_JuliePostBattle:
 #if GERMAN
-	.string "Schau dir deine Orden an - erinnere\n"
-	.string "dich\l"
+	.string "Schau dir deine Orden an - erinnere dich\n"
 	.string "an die Trainer, die du getroffen hast.$"
 #else
 	.string "Gaze on your collected BADGES and\n"
@@ -167,8 +165,7 @@ VictoryRoad_B2F_Text_FelixDefeat:
 
 VictoryRoad_B2F_Text_FelixPostBattle:
 #if GERMAN
-	.string "Ich kann nicht anders. Hier in der\n"
-	.string "Nähe\l"
+	.string "Ich kann nicht anders. Hier in der Nähe\n"
 	.string "der Pokémon Liga bin ich total nervös\l"
 	.string "und angespannt.\p"
 	.string "Ich tue so, als sei ich die Ruhe\n"

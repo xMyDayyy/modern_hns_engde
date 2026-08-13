@@ -13,11 +13,11 @@ BlackthornMart_Text_CooltrainerM:
 #if GERMAN
 	.string "Top-Beleber füllt die KP bewusstloser\n"
 	.string "Pokémon wieder vollständig auf.\l"
-	.string "Im Pokémon-Supermarkt gibt es sie\l"
-	.string "aber leider nicht zu kaufen…\p"
+	.string "Im Pokémon-Supermarkt gibt es sie aber\l"
+	.string "leider nicht zu kaufen…\p"
 	.string "Oh, und Vorsicht! Die AP des jeweiligen\n"
-	.string "Pokémon werden von Top-Beleber\l"
-	.string "nicht mit aufgefüllt!$"
+	.string "Pokémon werden von Top-Beleber nicht\l"
+	.string "mit aufgefüllt!$"
 #else
 	.string "You can't buy MAX REVIVE, but it\n"
 	.string "fully restores a fainted POKéMON.\p"

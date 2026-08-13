@@ -30,8 +30,7 @@ AbandonedShip_Corridors_1F_Text_CharlieDefeat:
 AbandonedShip_Corridors_1F_Text_CharliePostBattle:
 #if GERMAN
 	.string "Es ist gar nicht so einfach, PokéBälle\n"
-	.string "zu werfen, wenn man einen\l"
-	.string "Schwimmreifen\l"
+	.string "zu werfen, wenn man einen Schwimmreifen\l"
 	.string "trägt!$"
 #else
 	.string "It's not easy throwing POKé BALLS\n"

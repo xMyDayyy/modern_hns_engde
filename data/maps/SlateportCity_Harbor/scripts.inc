@@ -480,11 +480,11 @@ SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday:
 SlateportCity_Harbor_Text_AbnormalWeather:
 #if GERMAN
 	.string "Um eine sichere Schiffsreise zu\n"
-	.string "gewährleisten, müssen wir stets auf\l"
-	.string "das Wetter achten.\p"
-	.string "Apropos Wetter: Ein Typ vom Klima-\n"
-	.string "institut hat mir etwas Interessantes\l"
-	.string "erzählt.\p"
+	.string "gewährleisten, müssen wir stets auf das\l"
+	.string "Wetter achten.\p"
+	.string "Apropos Wetter: Ein Typ vom\n"
+	.string "Klimainstitut hat mir etwas\l"
+	.string "Interessantes erzählt.\p"
 	.string "Er sagte, dass im ganzen Land das\n"
 	.string "Wetter verrückt spielt!\p"
 	.string "Du solltest mal zum Klima-Institut\n"
@@ -533,9 +533,9 @@ SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 #if GERMAN
 	.string "Adrian: Oh?\n"
 	.string "Nicht du schon wieder… Stöhn…\p"
-	.string "Du bist ganz schön hartnäckig, uns\n"
-	.string "bis hierher zu folgen, das muss ich\l"
-	.string "schon sagen.\p"
+	.string "Du bist ganz schön hartnäckig, uns bis\n"
+	.string "hierher zu folgen, das muss ich schon\l"
+	.string "sagen.\p"
 	.string "Und nun…\n"
 	.string "Niemand kann uns stoppen! Niemand!!!\p"
 	.string "Oder willst du uns etwa in unser Ver-\n"
@@ -578,12 +578,11 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "Kapt. Brigg: Oh, {PLAYER}{KUN}…\p"
 	.string "Okay… Du konntest Team Aqua nicht\n"
 	.string "aufhalten…\p"
-	.string "Oh, nein, mach dir bitte keine\n"
-	.string "Vorwürfe!\l"
+	.string "Oh, nein, mach dir bitte keine Vorwürfe!\n"
 	.string "Die Schuld liegt nicht bei dir.\p"
-	.string "Ein U-Boot zu verfolgen und aufzu-\n"
-	.string "halten ist für die meisten Menschen\l"
-	.string "unmöglich.\p"
+	.string "Ein U-Boot zu verfolgen und\n"
+	.string "aufzuhalten ist für die meisten\l"
+	.string "Menschen unmöglich.\p"
 	.string "Du benötigst ein Pokémon, das weiß,\n"
 	.string "wie man Taucher ausführt…\p"
 	.string "Vielleicht, wenn du dich nach\n"
@@ -615,9 +614,9 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "wie man Taucher ausführt…\p"
 	.string "Vielleicht, wenn du dich nach\n"
 	.string "Moosbach City begibst…\p"
-	.string "Dort trifft man auf viele Taucher, \n"
-	.string "vielleicht kann dir einer das bei-\l"
-	.string "bringen…$"
+	.string "Dort trifft man auf viele Taucher,\n"
+	.string "vielleicht kann dir einer das\l"
+	.string "beibringen…$"
 #else
 	.string "CAPT. STERN: Trying to catch a\n"
 	.string "submarine… It's impossible.\p"
@@ -685,11 +684,9 @@ SlateportCity_Harbor_Text_WouldYouTradeScanner:
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
 #if GERMAN
-	.string "Kapt. Brigg: Bist du sicher? Aber\n"
-	.string "damit\l"
+	.string "Kapt. Brigg: Bist du sicher? Aber damit\n"
 	.string "kannst du doch nichts anfangen…\p"
-	.string "Also gut. Wenn du aber den Scanner\n"
-	.string "doch\l"
+	.string "Also gut. Wenn du aber den Scanner doch\n"
 	.string "noch gegen etwas anderes tauschen\l"
 	.string "willst, dann lass es mich wissen!$"
 #else
@@ -735,8 +732,8 @@ SlateportCity_Harbor_Text_HandedScannerToStern:
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
 #if GERMAN
 	.string "Kapt. Brigg: Danke, {PLAYER}{KUN}!\n"
-	.string "Das wird unsere Forschungen weiter-\l"
-	.string "bringen!$"
+	.string "Das wird unsere Forschungen\l"
+	.string "weiterbringen!$"
 #else
 	.string "CAPT. STERN: Thanks, {PLAYER}{KUN}!\n"
 	.string "This will help our research a lot!$"

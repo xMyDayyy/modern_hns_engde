@@ -351,8 +351,7 @@ BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon_hns:
 
 BattleFrontier_Lounge1_Text_EvenICantTell_hns:
 #if GERMAN
-	.string "Ich bin zwar ein Experte, aber auch\n"
-	.string "ich\l"
+	.string "Ich bin zwar ein Experte, aber auch ich\n"
 	.string "bin nicht in der Lage, etwas zu einem\l"
 	.string "ungeschlüpften Pokémon zu sagen.\p"
 	.string "Zeig mir ein Pokémon!\n"
@@ -367,8 +366,8 @@ BattleFrontier_Lounge1_Text_EvenICantTell_hns:
 BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding_hns:
 #if GERMAN
 	.string "Er hat gesagt, mein Pokémon sei\n"
-	.string "herausragend! Ich bin froh, dass ich\l"
-	.string "es sorgfältig aufgezogen habe.$"
+	.string "herausragend! Ich bin froh, dass ich es\l"
+	.string "sorgfältig aufgezogen habe.$"
 #else
 	.string "He said my POKéMON is outstanding!\n"
 	.string "I'm glad I raised it carefully!$"
@@ -377,8 +376,7 @@ BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding_hns:
 BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt_hns:
 #if GERMAN
 	.string "Er hat gesagt, mein Pokémon sei\n"
-	.string "herausragend! Dabei habe ich gar\l"
-	.string "nichts\l"
+	.string "herausragend! Dabei habe ich gar nichts\l"
 	.string "Besonderes bei der Aufzucht gemacht…$"
 #else
 	.string "He said my POKéMON is outstanding!\n"

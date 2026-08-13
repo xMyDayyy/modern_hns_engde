@@ -398,19 +398,16 @@ SaffronCity_PokemonTrainerFanClub_Text_YourePlayerWereYourFansNow::
 	.string "… …\p"
 	.string "Du bist es!\n"
 	.string "Du bist {PLAYER}!\p"
-	.string "Wir haben gerade über dich\n"
-	.string "gesprochen!\l"
+	.string "Wir haben gerade über dich gesprochen!\n"
 	.string "Wir sprachen davon, dass ein\l"
 	.string "unglaublich starker Trainer\l"
 	.string "aufgetaucht ist.\l"
 	.string "Und dieser Trainer bist du!\l"
 	.string "Du bist so cool!\p"
-	.string "Also haben wir beschlossen\n"
-	.string "einen Fanclub für dich\l"
-	.string "zu gründen!\l"
-	.string "Wir hoffen alle, dass du weiter\l"
-	.string "kämpfst und uns beweist,\l"
-	.string "wie cool du bist.\l"
+	.string "Also haben wir beschlossen einen\n"
+	.string "Fanclub für dich zu gründen!\l"
+	.string "Wir hoffen alle, dass du weiter kämpfst\l"
+	.string "und uns beweist, wie cool du bist.\l"
 	.string "So gewinnst du noch mehr Fans!$"
 #else
 	.string "Are you maybe…\n"
@@ -478,9 +475,9 @@ SaffronCity_PokemonTrainerFanClub_Text_EveryonesYourFanButICantBe::
 	.string "Ich kann das gut verstehen!\n"
 	.string "Ich weiß, dass du stark bist!\p"
 	.string "Aber, weißt du was?\p"
-	.string "Ich war einst ein Fan von {STR_VAR_1}\n"
-	.string "und seitdem kann ich nicht\l"
-	.string "aufhören ein Fan zu sein!$"
+	.string "Ich war einst ein Fan von {STR_VAR_1} und\n"
+	.string "seitdem kann ich nicht aufhören ein Fan\l"
+	.string "zu sein!$"
 #else
 	.string "Oh!\n"
 	.string "{PLAYER}!\p"
@@ -563,8 +560,8 @@ SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd::
 	.string "……\p"
 	.string "……\n"
 	.string "Ich bin ein Fan von Rocko!\p"
-	.string "Auch wenn ich sein einziger\n"
-	.string "Fan bin, bleibe ich ihm treu.\l"
+	.string "Auch wenn ich sein einziger Fan bin,\n"
+	.string "bleibe ich ihm treu.\l"
 	.string "Das schwöre ich bei meinen Shorts.\l"
 	.string "Ich werde immer sein Fan bleiben…\l"
 	.string "… bis zum bitteren Ende!$"
@@ -667,11 +664,9 @@ SaffronCity_PokemonTrainerFanClub_Text_YoullBeTalkedAboutIfYouKeepWinning::
 	.string "Wir alle hier sind Fans von \n"
 	.string "Pokémon Trainern!\p"
 	.string "Wie sie im Kampf auftreten…\n"
-	.string "Sie sind der Inbegriff von\l"
-	.string "Coolness!\l"
-	.string "Wenn du weiterhin gewinnst, kann\l"
-	.string "es sein, dass wir hier über dich\l"
-	.string "sprechen!$"
+	.string "Sie sind der Inbegriff von Coolness!\l"
+	.string "Wenn du weiterhin gewinnst, kann es\l"
+	.string "sein, dass wir hier über dich sprechen!$"
 #else
 	.string "All of us gathered here are fans\n"
 	.string "of POKéMON TRAINERS.\p"
@@ -742,9 +737,8 @@ SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan::
 
 SaffronCity_PokemonTrainerFanClub_Text_CanIBecomeCoolTrainerOneDay::
 #if GERMAN
-	.string "Ich frage mich, ob ich eines\n"
-	.string "Tages auch ein cooler Trainer\l"
-	.string "sein werde?$"
+	.string "Ich frage mich, ob ich eines Tages auch\n"
+	.string "ein cooler Trainer sein werde?$"
 #else
 	.string "I wonder if I can become a cool\n"
 	.string "TRAINER one day?$"
@@ -771,8 +765,7 @@ SaffronCity_PokemonTrainerFanClub_Text_ImOnlyOneLeftOfYourFans::
 	.string "Yo, {PLAYER}!\p"
 	.string "Es scheint, dass ich der letzte\n"
 	.string "verbleibende Fan von dir bin!\p"
-	.string "Aber ich liebe es, der Einzige zu\n"
-	.string "sein…\l"
+	.string "Aber ich liebe es, der Einzige zu sein…\n"
 	.string "Das ist nicht so anstrengend!\p"
 	.string "Mach weiter so!$"
 #else
@@ -836,8 +829,8 @@ SaffronCity_PokemonTrainerFanClub_Text_ImYourNumberOneFan::
 	.string "Oh, Wahnsinn!\n"
 	.string "Wenn das nicht {PLAYER} ist!\p"
 	.string "Es ist so traurig… ich musste\n"
-	.string "feststellen, dass ich dein bester\l"
-	.string "und einziger Fan bin!\l"
+	.string "feststellen, dass ich dein bester und\l"
+	.string "einziger Fan bin!\l"
 	.string "Nun, was soll ich tun?\l"
 	.string "Lass mich dich wenigstens anfeuern!\p"
 	.string "Los {PLAYER}!$"
@@ -853,10 +846,10 @@ SaffronCity_PokemonTrainerFanClub_Text_ImYourNumberOneFan::
 
 SaffronCity_PokemonTrainerFanClub_Text_TrainerHasBeenOnFire::
 #if GERMAN
-	.string "In letzter Zeit hatte {STR_VAR_1}\n"
-	.string "einen Lauf!\l"
-	.string "Sein Kampfstil… entspricht\l"
-	.string "genau meiner Vorstellung!$"
+	.string "In letzter Zeit hatte {STR_VAR_1} einen\n"
+	.string "Lauf!\l"
+	.string "Sein Kampfstil… entspricht genau\l"
+	.string "meiner Vorstellung!$"
 #else
 	.string "Recently, {STR_VAR_1} has been on\n"
 	.string "fire.\p"
@@ -868,10 +861,8 @@ SaffronCity_PokemonTrainerFanClub_Text_EveryoneTalksAboutYou::
 #if GERMAN
 	.string "Oh, hallo!\n"
 	.string "Wenn das nicht {PLAYER} ist!\p"
-	.string "Seit kurzem sprechen alle über\n"
-	.string "dich!\l"
-	.string "Ich fühle mich allein, da ich\l"
-	.string "{STR_VAR_1}\l"
+	.string "Seit kurzem sprechen alle über dich!\n"
+	.string "Ich fühle mich allein, da ich {STR_VAR_1}\l"
 	.string "bevorzuge!$"
 #else
 	.string "Oh, hello!\n"
@@ -911,11 +902,10 @@ SaffronCity_PokemonTrainerFanClub_Text_ImYourOnlyFan::
 
 SaffronCity_PokemonTrainerFanClub_Text_WhyCantOthersSeeMastersDignity::
 #if GERMAN
-	.string "Mentor {STR_VAR_1} ist so\n"
-	.string "würdevoll…\l"
+	.string "Mentor {STR_VAR_1} ist so würdevoll…\n"
 	.string "Er ist genau mein Typ!\l"
-	.string "Warum erkennen die anderen nicht\l"
-	.string "die Würde, die er personifiziert?$"
+	.string "Warum erkennen die anderen nicht die\l"
+	.string "Würde, die er personifiziert?$"
 #else
 	.string "Master {STR_VAR_1} is so dignified…\n"
 	.string "He is so my type.\p"
@@ -959,10 +949,9 @@ SaffronCity_PokemonTrainerFanClub_Text_YourBattleStyleIsEducational::
 SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingYourFan::
 #if GERMAN
 	.string "Anstatt anderen beim Kämpfen\n"
-	.string "zuzusehen, solltest du selbst\l"
-	.string "kämpfen!\l"
-	.string "… der Dojo Meister hat\l"
-	.string "mich so zugerichtet…\p"
+	.string "zuzusehen, solltest du selbst kämpfen!\l"
+	.string "… der Dojo Meister hat mich so\l"
+	.string "zugerichtet…\p"
 	.string "Aber das hält mich nicht ab,\n"
 	.string "dein Fan zu sein!\p"
 	.string "Ich muss dein Fan sein!$"
@@ -999,9 +988,8 @@ SaffronCity_PokemonTrainerFanClub_Text_NeverBeFanOfAnyoneButMaster::
 	.string "Meister im Kampf-Dojo.\p"
 	.string "Ich werde immer nur meinem\n"
 	.string "Meister folgen!\p"
-	.string "Ich schleiche mich sogar aus dem\n"
-	.string "Dojo, um allen zu sagen, wie\l"
-	.string "großartig er ist.\p"
+	.string "Ich schleiche mich sogar aus dem Dojo,\n"
+	.string "um allen zu sagen, wie großartig er ist.\p"
 	.string "Yippie!$"
 #else
 	.string "Hiyah! I respect my MASTER at the\n"

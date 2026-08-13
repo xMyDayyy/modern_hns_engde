@@ -87,11 +87,10 @@ Route11_EastEntrance_2F_EventScript_GetAideRequestInfo::
 Route11_EastEntrance_2F_Text_GiveItemfinderIfCaught30::
 #if GERMAN
 	.string "Hallo! Erinnerst du dich?\n"
-	.string "Ich bin Prof. Eichs\l"
-	.string "Assistent!\p"
-	.string "Wenn du mindestens {STR_VAR_1} verschiedene\n"
-	.string "Pokémon gefangen hast, habe ich\l"
-	.string "ein Geschenk für dich:\l"
+	.string "Ich bin Prof. Eichs Assistent!\p"
+	.string "Wenn du mindestens {STR_VAR_1}\n"
+	.string "verschiedene Pokémon gefangen hast,\l"
+	.string "habe ich ein Geschenk für dich:\l"
 	.string "{STR_VAR_2}\p"
 	.string "Also, {PLAYER}, hast du {STR_VAR_1}\n"
 	.string "unterschiedliche Pokémon gefangen?$"
@@ -179,9 +178,8 @@ Route11_EastEntrance_2F_Text_WhatABreathtakingView::
 Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender::
 #if GERMAN
 	.string "Du schaust durch das Fernrohr.\p"
-	.string "Der einzige Weg von Azuria City\n"
-	.string "nach Lavandia führt durch den\l"
-	.string "Felstunnel.$"
+	.string "Der einzige Weg von Azuria City nach\n"
+	.string "Lavandia führt durch den Felstunnel.$"
 #else
 	.string "Let's see what the binoculars have\n"
 	.string "to show…\p"

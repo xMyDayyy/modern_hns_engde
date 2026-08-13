@@ -266,8 +266,8 @@ VermilionCity_EventScript_HarborSign::
 VermilionCity_Text_GrimerMultipliesInSludge::
 #if GERMAN
 	.string "Wir sind sehr umweltbewusst!\p"
-	.string "Wir haben gehört, dass Sleima sich\n"
-	.string "in giftigem Dreck wohl fühlt und\l"
+	.string "Wir haben gehört, dass Sleima sich in\n"
+	.string "giftigem Dreck wohl fühlt und\l"
 	.string "entwickelt!$"
 #else
 	.string "We're careful about pollution here.\p"
@@ -369,9 +369,9 @@ VermilionCity_Text_PokemonFanClubSign::
 
 VermilionCity_Text_GymSign::
 #if GERMAN
-	.string "Pokémon-Arena von Orania City\n"
-	.string "Leiter: Major Bob\l"
-	.string "Ein Blitz am Himmel des Militärs$"
+	.string "Pokémon-Arena von Orania City Leiter:\n"
+	.string "Major Bob Ein Blitz am Himmel des\l"
+	.string "Militärs$"
 #else
 	.string "VERMILION CITY POKéMON GYM\n"
 	.string "LEADER: LT. SURGE\l"

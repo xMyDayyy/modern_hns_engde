@@ -93,11 +93,10 @@ Route16_NorthEntrance_2F_Text_LongPathOverWater::
 Route16_NorthEntrance_2F_Text_GiveAmuletCoinIfCaught40::
 #if GERMAN
 	.string "Hallo! Erinnerst du dich?\n"
-	.string "Ich bin Prof. Eichs\l"
-	.string "Assistent!\p"
+	.string "Ich bin Prof. Eichs Assistent!\p"
 	.string "Wenn du mindestens 40 verschiedene\n"
-	.string "Pokémon gefangen hast, habe ich\l"
-	.string "ein Geschenk für dich: Münzamulett\p"
+	.string "Pokémon gefangen hast, habe ich ein\l"
+	.string "Geschenk für dich: Münzamulett\p"
 	.string "Also, {PLAYER}, hast du 40\n"
 	.string "unterschiedliche Pokémon gefangen?$"
 #else
@@ -139,9 +138,9 @@ Route16_NorthEntrance_2F_Text_ExplainAmuletCoin::
 #if GERMAN
 	.string "Ein Münzamulett kann von\n"
 	.string "einem Pokémon getragen werden.\p"
-	.string "Nimmt das Pokémon an einem\n"
-	.string "siegreichen Kampf teil, verdoppelt\l"
-	.string "sich das Preisgeld.$"
+	.string "Nimmt das Pokémon an einem siegreichen\n"
+	.string "Kampf teil, verdoppelt sich das\l"
+	.string "Preisgeld.$"
 #else
 	.string "An AMULET COIN is an item to be\n"
 	.string "held by a POKéMON.\p"

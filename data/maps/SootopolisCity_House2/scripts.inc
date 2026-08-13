@@ -43,8 +43,7 @@ SootopolisCity_House2_Text_YesTwoOrbsSideBySide:
 SootopolisCity_House2_Text_OughtToVisitAndSee:
 #if GERMAN
 	.string "Ehrlich?\n"
-	.string "Du solltest dir das mal selber\l"
-	.string "ansehen…$"
+	.string "Du solltest dir das mal selber ansehen…$"
 #else
 	.string "Is that so?\n"
 	.string "Perhaps you ought to visit and see…$"

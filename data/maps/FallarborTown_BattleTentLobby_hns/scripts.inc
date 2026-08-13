@@ -324,9 +324,9 @@ FallarborTown_BattleTentLobby_hns_Text_FallarborTentMyFavorite:
 	.string "Aktivitäten anzubieten.\p"
 	.string "Ich mag am liebsten das\n"
 	.string "rote Zelt.\p"
-	.string "Ich finde es fantastisch, wie\n"
-	.string "Trainer mit aller Kraft gewinnen\l"
-	.string "wollen, zusammen mit ihren Pokémon.$"
+	.string "Ich finde es fantastisch, wie Trainer\n"
+	.string "mit aller Kraft gewinnen wollen,\l"
+	.string "zusammen mit ihren Pokémon.$"
 #else
 	.string "You know how BATTLE TENTS offer\n"
 	.string "different events?\p"
@@ -386,9 +386,9 @@ FallarborTown_BattleTentLobby_hns_Text_ScottLookingForSomeone:
 
 FallarborTown_BattleTentLobby_hns_Text_ScottMakeChallenge:
 #if GERMAN
-	.string "Scott: Statt deine Zeit mit\n"
-	.string "mir zu verschwenden, versuche\l"
-	.string "doch eines der Events?$"
+	.string "Scott: Statt deine Zeit mit mir zu\n"
+	.string "verschwenden, versuche doch eines der\l"
+	.string "Events?$"
 #else
 	.string "SCOTT: Instead of wasting your\n"
 	.string "time with the likes of me, why not\l"

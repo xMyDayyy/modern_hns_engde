@@ -134,9 +134,9 @@ Route37_Text_TwinsAnnAndAnne2_After:
 
 Route37_Text_PsychicGreg_Seen:
 #if GERMAN
-	.string "Pokémon können nicht agieren,\n"
-	.string "wenn sie schlafen. Gleich merkst du,\l"
-	.string "wie furchterregend das ist!$"
+	.string "Pokémon können nicht agieren, wenn sie\n"
+	.string "schlafen. Gleich merkst du, wie\l"
+	.string "furchterregend das ist!$"
 #else
 	.string "POKéMON can't do a thing if they are\n"
 	.string "asleep.\p"
@@ -154,8 +154,7 @@ Route37_Text_PsychicGreg_Beaten:
 Route37_Text_PsychicGreg_After:
 #if GERMAN
 	.string "Pokémon einzuschläfern oder zu\n"
-	.string "paralysieren sind gute\l"
-	.string "Kampftechniken.$"
+	.string "paralysieren sind gute Kampftechniken.$"
 #else
 	.string "Putting POKéMON to sleep or paralyz-\n"
 	.string "ing them are good battle techniques.$"
@@ -219,9 +218,8 @@ Route37_Text_Sunny_GaveGift:
 Route37_Text_Sunny_Sunday:
 #if GERMAN
 	.string "Sonnfried: Meine Geschwister heißen\n"
-	.string "Monja, Dietlinde,\l"
-	.string "Mitko, Donatus,\l"
-	.string "Frieda und Samson.\p"
+	.string "Monja, Dietlinde, Mitko, Donatus, Frieda\l"
+	.string "und Samson.\p"
 	.string "Sie sind alle älter als ich!$"
 #else
 	.string "SUNNY: My sisters and brothers are\n"

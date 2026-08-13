@@ -247,9 +247,9 @@ TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan::
 
 TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan_Text:
 #if GERMAN
-	.string "Hallo! Die Wundertausch-Stationen\n"
-	.string "gibt es jetzt in jedem\l"
-	.string "Pokémon-Center. Viel Spaß!$"
+	.string "Hallo! Die Wundertausch-Stationen gibt\n"
+	.string "es jetzt in jedem Pokémon-Center. Viel\l"
+	.string "Spaß!$"
 #else
 	.string "Hi! If you are looking for the\n"
 	.string "WONDERTRADE, they're now located in\l"
@@ -292,9 +292,8 @@ TrainerHill_Courtyard_ExchangeServiceCorner_Text_WishIHadAllDolls:
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
 #if GERMAN
 	.string "Überlass das nur deiner Mama!\p"
-	.string "Für alles, was du möchtest,\n"
-	.string "würde ich Berge versetzen,\l"
-	.string "mein Schatz!$"
+	.string "Für alles, was du möchtest, würde ich\n"
+	.string "Berge versetzen, mein Schatz!$"
 #else
 	.string "Leave it to your mommy!\p"
 	.string "If it's anything you want, I'll go\n"

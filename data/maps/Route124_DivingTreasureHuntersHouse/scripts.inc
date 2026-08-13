@@ -287,8 +287,8 @@ Route124_DivingTreasureHuntersHouse_Text_Greeting:
 #if GERMAN
 	.string "Ich bin der Schatztaucher!\p"
 	.string "Ich bin der Typ, der in der Tiefsee\n"
-	.string "taucht und nach Schätzen am Meeres-\l"
-	.string "grund sucht.$"
+	.string "taucht und nach Schätzen am\l"
+	.string "Meeresgrund sucht.$"
 #else
 	.string "I'm the DIVING TREASURE HUNTER!\p"
 	.string "I'm the awesome dude who makes\n"
@@ -322,8 +322,8 @@ Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
 	.string "Oh, hey! Das… Das ist eine\n"
 	.string "Scherbe! Genau die suche ich!\p"
 	.string "Oh, du musst unbedingt mit mir\n"
-	.string "tauschen! Ich gebe dir etwas\l"
-	.string "Gutes dafür!$"
+	.string "tauschen! Ich gebe dir etwas Gutes\l"
+	.string "dafür!$"
 #else
 	.string "Oh, hey! That…\n"
 	.string "That's a SHARD! I'm looking for those!\p"
@@ -375,8 +375,8 @@ Route124_DivingTreasureHuntersHouse_Text_BagFull:
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
 #if GERMAN
 	.string "Nein? Das ist niederschmetternd.\n"
-	.string "Wenn du deine Meinung änderst, ich\l"
-	.string "bin hier!$"
+	.string "Wenn du deine Meinung änderst, ich bin\l"
+	.string "hier!$"
 #else
 	.string "No? That's a downer.\n"
 	.string "Well, if you change your mind, come back.$"

@@ -1,9 +1,9 @@
 CeladonCity_GameCorner_Text_TryPokemonPrinter::
 #if GERMAN
 	.string "Ein Pokémon-Drucker!\p"
-	.string "Damit kannst du ein Bild\n"
-	.string "deiner Pokémon auf die Rückseite\l"
-	.string "deines Trainerpasses drucken.\l"
+	.string "Damit kannst du ein Bild deiner Pokémon\n"
+	.string "auf die Rückseite deines Trainerpasses\l"
+	.string "drucken.\l"
 	.string "Für nur 50¥!\l"
 	.string "Möchtest du es ausprobieren?$"
 #else
@@ -51,9 +51,8 @@ CeladonCity_GameCorner_Text_PrintIsReadyCheckTrainerCard::
 FourIsland_House2_Text_WishICouldShowOffStickers::
 #if GERMAN
 	.string "Kicher…\n"
-	.string "Ich habe eine Menge Sticker\l"
-	.string "gesammelt. Wie gern würde ich\l"
-	.string "mit ihnen angeben…$"
+	.string "Ich habe eine Menge Sticker gesammelt.\l"
+	.string "Wie gern würde ich mit ihnen angeben…$"
 #else
 	.string "Giggle…\n"
 	.string "I collected a ton of STICKERS.\l"
@@ -69,9 +68,8 @@ FourIsland_House2_Text_GiveYouStickerIfYouBrag::
 	.string "Sieh nur, wie viele es sind!\l"
 	.string "Ich wette, du willst ein paar!\l"
 	.string "Ganz bestimmt sogar!\p"
-	.string "Ich gebe dir einen Sticker,\n"
-	.string "wenn du mir etwas Cooles von\l"
-	.string "dir verrätst.\p"
+	.string "Ich gebe dir einen Sticker, wenn du mir\n"
+	.string "etwas Cooles von dir verrätst.\p"
 	.string "Womit möchtest du angeben?$"
 #else
 	.string "Oh, excellent!\n"
@@ -175,8 +173,7 @@ FourIsland_House2_Text_ComeBackWithBetterStoryHoF::
 #if GERMAN
 	.string "Hm…\p"
 	.string "Beim nächsten Mal solltest du eine\n"
-	.string "bessere Geschichte auf Lager\l"
-	.string "haben!$"
+	.string "bessere Geschichte auf Lager haben!$"
 #else
 	.string "Hmm…\p"
 	.string "Come back with a better story next\n"
@@ -209,9 +206,8 @@ FourIsland_House2_Text_WowEggsLowest::
 
 FourIsland_House2_Text_WowEggsLow::
 #if GERMAN
-	.string "Bei dir sind so viele Eier\n"
-	.string "geschlüpft? Du musst sie\l"
-	.string "wirklich lieben!\l"
+	.string "Bei dir sind so viele Eier geschlüpft?\n"
+	.string "Du musst sie wirklich lieben!\l"
 	.string "Das ist beeindruckend!\l"
 	.string "Ich gebe dir dies!$"
 #else
@@ -263,8 +259,7 @@ FourIsland_House2_Text_ComeBackWithBetterStoryEggs::
 #if GERMAN
 	.string "Hm…\p"
 	.string "Beim nächsten Mal solltest du eine\n"
-	.string "bessere Geschichte auf Lager\l"
-	.string "haben!$"
+	.string "bessere Geschichte auf Lager haben!$"
 #else
 	.string "Hmm…\p"
 	.string "Come back with a better story next\n"
@@ -351,8 +346,7 @@ FourIsland_House2_Text_ComeBackWithBetterStoryLinkWins::
 #if GERMAN
 	.string "Hm…\p"
 	.string "Beim nächsten Mal solltest du eine\n"
-	.string "bessere Geschichte auf Lager\l"
-	.string "haben!$"
+	.string "bessere Geschichte auf Lager haben!$"
 #else
 	.string "Hmm…\p"
 	.string "Come back with a better story next\n"

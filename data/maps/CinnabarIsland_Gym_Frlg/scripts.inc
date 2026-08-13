@@ -712,14 +712,11 @@ CinnabarIsland_Gym_EventScript_OpenDoor6::
 CinnabarIsland_Gym_Text_BlaineIntro::
 #if GERMAN
 	.string "{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}Haha!\p"
-	.string "Ich bin Pyro, der\n"
-	.string "Arenaleiter der\l"
+	.string "Ich bin Pyro, der Arenaleiter der\n"
 	.string "Zinnoberinsel!\p"
-	.string "Meine Feuer-\n"
-	.string "Pokémon lassen\l"
-	.string "die Siegesträume\l"
-	.string "meiner Gegner in\l"
-	.string "Flammen aufgehen!\p"
+	.string "Meine Feuer-Pokémon lassen die\n"
+	.string "Siegesträume meiner Gegner in Flammen\l"
+	.string "aufgehen!\p"
 	.string "Du solltest Feuerheiler\n"
 	.string "parat halten!{PLAY_BGM}?À$"
 #else
@@ -760,8 +757,7 @@ CinnabarIsland_Gym_Text_ExplainVolcanoBadge::
 #if GERMAN
 	.string "Haha!\p"
 	.string "Der Vulkanorden steigert die\n"
-	.string "Spezial-Fähigkeiten deiner\l"
-	.string "Pokémon!\p"
+	.string "Spezial-Fähigkeiten deiner Pokémon!\p"
 	.string "Nimm zusätzlich dieses Geschenk!$"
 #else
 	.string "Hah!\p"
@@ -802,9 +798,8 @@ CinnabarIsland_Gym_Text_MakeSpaceForThis::
 
 CinnabarIsland_Gym_Text_ErikIntro::
 #if GERMAN
-	.string "Was glaubst du, wie heiß der\n"
-	.string "Feueratem eines Pokémon werden\l"
-	.string "kann?$"
+	.string "Was glaubst du, wie heiß der Feueratem\n"
+	.string "eines Pokémon werden kann?$"
 #else
 	.string "Do you know how hot POKéMON fire\n"
 	.string "breath can get?$"
@@ -926,9 +921,9 @@ CinnabarIsland_Gym_Text_DerekDefeat::
 
 CinnabarIsland_Gym_Text_DerekPostBattle::
 #if GERMAN
-	.string "Pyro hatte sich als Kind in den\n"
-	.string "Bergen verlaufen, als über ihm ein\l"
-	.string "Feuervogel erschien!\p"
+	.string "Pyro hatte sich als Kind in den Bergen\n"
+	.string "verlaufen, als über ihm ein Feuervogel\l"
+	.string "erschien!\p"
 	.string "Der Schein dieses Pokémon wies\n"
 	.string "Pyro den Rückweg!$"
 #else
@@ -1056,8 +1051,8 @@ CinnabarIsland_Gym_Text_PokemonQuizRules::
 	.string "Ist die Antwort falsch, dann musst\n"
 	.string "du kämpfen...\p"
 	.string "Je mehr Antworten du weißt, desto\n"
-	.string "fitter sind deine Pokémon beim\l"
-	.string "Kampf gegen den Arenaleiter!\p"
+	.string "fitter sind deine Pokémon beim Kampf\l"
+	.string "gegen den Arenaleiter!\p"
 	.string "Lass uns beginnen!$"
 #else
 	.string "POKéMON Quiz!\p"

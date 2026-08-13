@@ -148,8 +148,7 @@ CharcoalKiln_Text_Apprentice3:
 	.string "E-Entschuldige, ich habe vergessen\n"
 	.string "mich zu bedanken.\p"
 	.string "Das hier ist Holzkohle, sie verstärkt\n"
-	.string "Feuer-Attacken. Gib sie einem\l"
-	.string "Pokémon.$"
+	.string "Feuer-Attacken. Gib sie einem Pokémon.$"
 #else
 	.string "I'm sorry--I forgot to thank you.\p"
 	.string "This is CHARCOAL that I made.\p"

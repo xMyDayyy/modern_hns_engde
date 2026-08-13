@@ -57,9 +57,8 @@ CianwoodCity_Text_ReceivedSecretpotion:
 
 CianwoodCity_Text_PharmacistDescribePotion:
 #if GERMAN
-	.string "Mein Geheimtrank ist etwas zu\n"
-	.string "stark, deshalb gebe ich ihn nur\l"
-	.string "im Notfall.$"
+	.string "Mein Geheimtrank ist etwas zu stark,\n"
+	.string "deshalb gebe ich ihn nur im Notfall.$"
 #else
 	.string "My SECRET POTION is a tad too\n"
 	.string "strong, so I only offer it in an\l"

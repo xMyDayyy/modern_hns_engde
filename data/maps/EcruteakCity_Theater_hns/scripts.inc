@@ -221,12 +221,12 @@ EcruteakCity_Theater_Text_RocketBeaten:
 
 EcruteakCity_Theater_Text_RocketAfter:
 #if GERMAN
-	.string "…Oh nein! Ich habe ganz vergessen,\n"
-	.string "dass wir gleich mit der Durchführung\l"
-	.string "unseres teuflischen Plans beginnen!\p"
+	.string "…Oh nein! Ich habe ganz vergessen, dass\n"
+	.string "wir gleich mit der Durchführung unseres\l"
+	.string "teuflischen Plans beginnen!\p"
 	.string "Wenn herauskommt, dass ich hier\n"
-	.string "faulenze und alles aufhalte, lassen\l"
-	.string "die mich glatt wieder ganz unten als\l"
+	.string "faulenze und alles aufhalte, lassen die\l"
+	.string "mich glatt wieder ganz unten als\l"
 	.string "Schuhputzer anfangen!\p"
 	.string "Ich muss hier auf der Stelle weg!$"
 #else
@@ -510,8 +510,8 @@ EcruteakCity_Theater_Text_SurfGuyGaveSurf:
 EcruteakCity_Theater_Text_SurfGuyAfter:
 #if GERMAN
 	.string "Die Kimono-Girls sind nicht nur sehr\n"
-	.string "talentierte Tänzerinnen, sondern\l"
-	.string "auch herausragende Pokémon-Trainer!\p"
+	.string "talentierte Tänzerinnen, sondern auch\l"
+	.string "herausragende Pokémon-Trainer!\p"
 	.string "Sie stellen ihre Kampffähigkeiten bloß\n"
 	.string "nicht so oft zur Schau…\p"
 	.string "Aber wenn die Kimono-Girls richtig Ernst\n"
@@ -608,8 +608,8 @@ EcruteakCity_Theater_Text_GrampsBefore:
 #if GERMAN
 	.string "Hnnngh…\p"
 	.string "Würde mir meine Hüfte nur nicht so übel\n"
-	.string "mitspielen, würde ich diesem Typen schon\l"
-	.string "Manieren beibringen!$"
+	.string "mitspielen, würde ich diesem Typen\l"
+	.string "schon Manieren beibringen!$"
 #else
 	.string "Oh... Ouch...!\n"
 	.string "This back pain!\p"
@@ -619,9 +619,9 @@ EcruteakCity_Theater_Text_GrampsBefore:
 
 EcruteakCity_Theater_Text_Girl:
 #if GERMAN
-	.string "Die Kimono-Girls sind meine\n"
-	.string "großen Schwestern! Ich werde\l"
-	.string "eines Tages wie sie sein!$"
+	.string "Die Kimono-Girls sind meine großen\n"
+	.string "Schwestern! Ich werde eines Tages wie\l"
+	.string "sie sein!$"
 #else
 	.string "The KIMONO GIRLS are my big\n"
 	.string "sisters! I'll be like them one\l"
@@ -1146,8 +1146,8 @@ EcruteakCity_Theater_Text_ZukiSeen:
 	.string "Und genau dieses Ei ist Euch über\n"
 	.string "Professor Lind in die Hände gefallen!\p"
 	.string "Ein reines Herz alleine führt Euch in\n"
-	.string "einem Pokémon-Kampf aber noch\l"
-	.string "längst nicht zum Sieg!\p"
+	.string "einem Pokémon-Kampf aber noch längst\l"
+	.string "nicht zum Sieg!\p"
 	.string "Ihr müsst auch genau wissen, wie Ihr\n"
 	.string "Euer Pokémon-Team anzupacken habt!\p"
 	.string "Und nun lasst mich bitte überprüfen, ob\n"
@@ -1198,9 +1198,9 @@ EcruteakCity_Theater_Text_NaokoSeen:
 	.string "mir im Steineichenwald geholfen.\p"
 	.string "Ich heiße Edith. Ich habe keine\n"
 	.string "so gute Orientierung.\p"
-	.string "Ich sah, wie du Team Rocket\n"
-	.string "besiegt hast, als Kurt am\l"
-	.string "Flegmon-Brunnen in Not war.\p"
+	.string "Ich sah, wie du Team Rocket besiegt\n"
+	.string "hast, als Kurt am Flegmon-Brunnen in\l"
+	.string "Not war.\p"
 	.string "Lass mich dich und deine\n"
 	.string "Pokémon herausfordern!$"
 #else
@@ -1244,9 +1244,8 @@ EcruteakCity_Theater_Text_SayoSeen:
 	.string "vom Eis gestoßen.\p"
 	.string "Ich laufe in Sandalen.\n"
 	.string "Ich bin Keiko, das Kimono-Girl!\p"
-	.string "Ich hörte zu in der Drachenhöhle,\n"
-	.string "als du den Test des Ältesten\l"
-	.string "bestanden hast.\p"
+	.string "Ich hörte zu in der Drachenhöhle, als du\n"
+	.string "den Test des Ältesten bestanden hast.\p"
 	.string "Lass mich dich und deine\n"
 	.string "Pokémon herausfordern!$"
 #else
@@ -1270,8 +1269,8 @@ EcruteakCity_Theater_Text_KuniSeen:
 	.string "Ich sah, wie du Rocket am\n"
 	.string "Radioturm-Auftrag gehindert hast.\p"
 	.string "Zeig mir jetzt deine Stärke!\n"
-	.string "Lass mich dich und deine\l"
-	.string "Pokémon herausfordern!$"
+	.string "Lass mich dich und deine Pokémon\l"
+	.string "herausfordern!$"
 #else
 	.string "I'm the last one.\p"
 	.string "You were dependable at the\n"
@@ -1288,8 +1287,8 @@ EcruteakCity_Theater_Text_KuniSeen:
 EcruteakCity_Theater_Text_ZukiDone:
 #if GERMAN
 	.string "Wir haben uns in Euch nicht getäuscht.\n"
-	.string "Ihr seid wahrlich würdig, dies\l"
-	.string "zu besitzen…\p"
+	.string "Ihr seid wahrlich würdig, dies zu\l"
+	.string "besitzen…\p"
 	.string "Bitte empfangt unsere Gabe!$"
 #else
 	.string "We were not wrong about you.\n"
@@ -1326,8 +1325,8 @@ EcruteakCity_Theater_Text_GirlLugia:
 EcruteakCity_Theater_Text_ZukiHooh:
 #if GERMAN
 	.string "Tamao: Nun denn, {PLAYER}!\n"
-	.string "Wir eilen schon einmal vor Euch\l"
-	.string "zum Glockenturm!$"
+	.string "Wir eilen schon einmal vor Euch zum\l"
+	.string "Glockenturm!$"
 #else
 	.string "ZUKI: {PLAYER}!\n"
 	.string "We'll be at the TIN TOWER.\n"
@@ -1337,8 +1336,8 @@ EcruteakCity_Theater_Text_ZukiHooh:
 EcruteakCity_Theater_Text_ZukiLugia:
 #if GERMAN
 	.string "Tamao: Nun denn, {PLAYER}!\n"
-	.string "Wir eilen schon einmal vor Euch\l"
-	.string "zu den Strudelinseln!$"
+	.string "Wir eilen schon einmal vor Euch zu den\l"
+	.string "Strudelinseln!$"
 #else
 	.string "ZUKI: {PLAYER}!\n"
 	.string "We'll be at the WHIRL ISLANDS.\l"

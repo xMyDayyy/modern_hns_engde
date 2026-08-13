@@ -123,8 +123,8 @@ NewSinjoh_MilkMan_GotMilk:
 NewSinjoh_MilkMan_NoMoney:
 #if GERMAN
 	.string "Tut mir leid.\n"
-	.string "Besorg dir Geld, dann kommen wir\l"
-	.string "ins Geschäft!$"
+	.string "Besorg dir Geld, dann kommen wir ins\l"
+	.string "Geschäft!$"
 #else
 	.string "Sorry.\n"
 	.string "Get some cash, then you will get a sale!$"
@@ -213,8 +213,7 @@ NewSinjoh_Pokemart_TravelShop:
 NewSinjoh_Text_TravelShopGreeting:
 #if GERMAN
 	.string "Willkommen in meinem kleinen\n"
-	.string "Versorgungsladen. Wie kann ich\l"
-	.string "helfen?$"
+	.string "Versorgungsladen. Wie kann ich helfen?$"
 #else
 	.string "Welcome to My little Supply Shop.\n"
 	.string "How can I help you?$"
@@ -238,10 +237,9 @@ NewSinjoh_Text_TravelBrother_Greeting:
 #if GERMAN
 	.string "All unsere Waren sind hausgemacht\n"
 	.string "und stammen aus der Region!\p"
-	.string "Meine große Schwester hat diesen\n"
-	.string "Laden eröffnet, weil die Supermarkt-\l"
-	.string "Kette so weit draußen keine\l"
-	.string "Filiale eröffnen will.$"
+	.string "Meine große Schwester hat diesen Laden\n"
+	.string "eröffnet, weil die Supermarkt-Kette so\l"
+	.string "weit draußen keine Filiale eröffnen will.$"
 #else
     .string "All our goods are homemade\n"
 	.string "and grown locally!\p"
@@ -278,9 +276,9 @@ NewSinjoh_EventScript_JaniceAfter::
 
 NewSinjoh_Text_Janice:
 #if GERMAN
-	.string "Diese Quellen sind magisch,\n"
-	.string "aber ich glaube, die Einheimischen\l"
-	.string "werfen uns böse Blicke zu.$"
+	.string "Diese Quellen sind magisch, aber ich\n"
+	.string "glaube, die Einheimischen werfen uns\l"
+	.string "böse Blicke zu.$"
 #else
 	.string "These springs are magical,\n"
 	.string "but I feel like the locals\l"
@@ -368,9 +366,9 @@ NewSinjoh_EventScript_SpringsSageAfter::
 
 NewSinjoh_Text_SpringsSage:
 #if GERMAN
-	.string "Seit die Neuankömmlinge hier sind,\n"
-	.string "gibt es viel Zwietracht und Streit\l"
-	.string "in unserer Gemeinschaft.\p"
+	.string "Seit die Neuankömmlinge hier sind, gibt\n"
+	.string "es viel Zwietracht und Streit in unserer\l"
+	.string "Gemeinschaft.\p"
 	.string "Wie man auch dazu steht: Das\n"
 	.string "Gleichgewicht ist eindeutig gestört.\p"
 	.string "Sei bitte freundlich zu Einheimischen\n"
@@ -398,9 +396,8 @@ NewSinjoh_EventScript_Sage2::
 NewSinjoh_Text_Sage2:
 #if GERMAN
 	.string "Die Zeiten ändern sich, doch die\n"
-	.string "Damhirplex versammeln sich noch\l"
-	.string "immer. Dafür können wir dankbar\l"
-	.string "sein.$"
+	.string "Damhirplex versammeln sich noch immer.\l"
+	.string "Dafür können wir dankbar sein.$"
 #else
 	.string "Times change, but the stantler\n"
 	.string "still gather. For that, we can\l"
@@ -437,9 +434,9 @@ NewSinjoh_Text_Mother:
 	.string "Sieh nur, wie süß mein Schatz\n"
 	.string "seine Runden dreht!\p"
 	.string "Diese Eisbahn gibt es seit\n"
-	.string "Generationen, aber die Kinder haben\l"
-	.string "sie nie genutzt, bis die Neuan-\l"
-	.string "kömmlinge kamen.$"
+	.string "Generationen, aber die Kinder haben sie\l"
+	.string "nie genutzt, bis die Neuankömmlinge\l"
+	.string "kamen.$"
 #else
     .string "Look at my adorable baby go!\p"
     .string "This rink has been here\n"
@@ -477,9 +474,9 @@ NewSinjoh_EventScript_HikerAfter::
 NewSinjoh_Text_Hiker:
 #if GERMAN
 	.string "Das Geschäft brummt!\n"
-	.string "Aber die Preise sind gestiegen,\l"
-	.string "seit die Städter sich für unser\l"
-	.string "kleines Dorf interessieren.$"
+	.string "Aber die Preise sind gestiegen, seit die\l"
+	.string "Städter sich für unser kleines Dorf\l"
+	.string "interessieren.$"
 #else
 	.string "Business is booming!\n"
 	.string "But prices have gone up since\l"

@@ -76,8 +76,8 @@ Text_MegaPunchTeach::
 	.string "Ein Schlag von roher Gewalt!\p"
 	.string "Mit zerstörerischer, verheerender\n"
 	.string "Wirkung.\p"
-	.string "Wenn es darauf ankommt, ist\n"
-	.string "Megahieb die ultimative Attacke!\l"
+	.string "Wenn es darauf ankommt, ist Megahieb\n"
+	.string "die ultimative Attacke!\l"
 	.string "Du stimmst zu, oder?\p"
 	.string "Also!\n"
 	.string "Soll ein Pokémon diese Attacke\l"
@@ -94,9 +94,8 @@ Text_MegaPunchTeach::
 
 Text_MegaPunchDeclined::
 #if GERMAN
-	.string "Du kommst wieder, wenn du die\n"
-	.string "Bedeutung von Megahieb\l"
-	.string "erkannt hast.$"
+	.string "Du kommst wieder, wenn du die Bedeutung\n"
+	.string "von Megahieb erkannt hast.$"
 #else
 	.string "You'll be back when you understand\n"
 	.string "the worth of MEGA PUNCH.$"
@@ -116,9 +115,9 @@ Text_MegaPunchTaught::
 #if GERMAN
 	.string "Nun sind wir Freunde, was Hiebe\n"
 	.string "angeht!\p"
-	.string "Du solltest gehen, ehe dich der\n"
-	.string "arme, fehlgeleitete Kerl, der dort \l"
-	.string "drüben nur Tritte trainiert, sieht.$"
+	.string "Du solltest gehen, ehe dich der arme,\n"
+	.string "fehlgeleitete Kerl, der dort drüben nur\l"
+	.string "Tritte trainiert, sieht.$"
 #else
 	.string "Now, we are comrades in the way of\n"
 	.string "punching!\p"
@@ -135,8 +134,8 @@ Text_MegaKickTeach::
 	.string "Wenn es darauf ankommt, ist \n"
 	.string "Megakick die ultimative Attacke!\p"
 	.string "O.K.!\n"
-	.string "Ich werde Megakick einem\l"
-	.string "Pokémon beibringen.$"
+	.string "Ich werde Megakick einem Pokémon\l"
+	.string "beibringen.$"
 #else
 	.string "A kick of brutal ferocity!\p"
 	.string "Packed with destructive power!\p"
@@ -171,9 +170,9 @@ Text_MegaKickTaught::
 #if GERMAN
 	.string "Nun sind wir Freunde, was Tritte\n"
 	.string "angeht!\p"
-	.string "Du solltest gehen, ehe dich der\n"
-	.string "arme, fehlgeleitete Kerl, der dort \l"
-	.string "drüben nur Hiebe trainiert, sieht.$"
+	.string "Du solltest gehen, ehe dich der arme,\n"
+	.string "fehlgeleitete Kerl, der dort drüben nur\l"
+	.string "Hiebe trainiert, sieht.$"
 #else
 	.string "Now, we are soul mates in the way\n"
 	.string "of kicking!\p"
@@ -185,13 +184,12 @@ Text_MegaKickTaught::
 Route4_Text_PeopleLikeAndRespectBrock::
 #if GERMAN
 	.string "Oh, das ist ja der Felsorden!\n"
-	.string "Du hast ihn von Rocko bekommen,\l"
-	.string "oder?\l"
-	.string "Rocko ist cool. Er ist nicht nur\l"
-	.string "stark, sondern auch beliebt und\l"
-	.string "wird respektiert.\l"
-	.string "Ich möchte auch ein Arenaleiter\l"
-	.string "wie er werden.$"
+	.string "Du hast ihn von Rocko bekommen, oder?\l"
+	.string "Rocko ist cool. Er ist nicht nur stark,\l"
+	.string "sondern auch beliebt und wird\l"
+	.string "respektiert.\l"
+	.string "Ich möchte auch ein Arenaleiter wie er\l"
+	.string "werden.$"
 #else
 	.string "Oh, wow, that's the BOULDERBADGE!\n"
 	.string "You got it from BROCK, didn't you?\p"

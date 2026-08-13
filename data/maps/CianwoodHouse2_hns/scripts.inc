@@ -56,8 +56,8 @@ CianwoodCity_Text_LugiaHouseLass:
 CianwoodCity_Text_LugiaHouseTwin:
 #if GERMAN
 	.string "Es heißt schon lange, dass diese\n"
-	.string "mythische Kreatur auch die Strudel\l"
-	.string "um die Inseln macht.\p"
+	.string "mythische Kreatur auch die Strudel um\l"
+	.string "die Inseln macht.\p"
 	.string "Man braucht wahrscheinlich eine\n"
 	.string "Spezialattacke, um an denen\l"
 	.string "vorbeizukommen.$"

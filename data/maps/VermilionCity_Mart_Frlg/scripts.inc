@@ -55,8 +55,7 @@ VermilionCity_Mart_Text_TeamRocketAreWickedPeople::
 VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer::
 #if GERMAN
 	.string "Pokémon können gut oder böse sein.\n"
-	.string "Das hängt ganz von ihrem Trainer\l"
-	.string "ab!$"
+	.string "Das hängt ganz von ihrem Trainer ab!$"
 #else
 	.string "I think POKéMON can be good or\n"
 	.string "bad. It depends on the TRAINER.$"

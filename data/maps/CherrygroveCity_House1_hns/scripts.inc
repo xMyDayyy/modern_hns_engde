@@ -21,8 +21,8 @@ CherrygroveCity_GymSpeechHouse_Text_PokefanM:
 #if GERMAN
 	.string "Möchtest du herausfinden, wie gut\n"
 	.string "du als Trainer wirklich bist?\p"
-	.string "Dann solltest du alle Pokémon-Arenen\n"
-	.string "in Johto aufsuchen und dir dort die\l"
+	.string "Dann solltest du alle Pokémon-Arenen in\n"
+	.string "Johto aufsuchen und dir dort die\l"
 	.string "zugehörigen Orden erkämpfen!$"
 #else
 	.string "You're trying to see how good\n"

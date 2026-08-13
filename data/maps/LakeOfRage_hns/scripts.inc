@@ -255,12 +255,10 @@ LakeOfRage_Text_Dragonite:
 
 LakeOfRage_Text_LanceForcedToEvolve:
 #if GERMAN
-	.string "Dieser See ist voller\n"
-	.string "Garados. Aber sonst gibt es\l"
-	.string "hier nichts…\p"
-	.string "Die Karpador werden also\n"
-	.string "gezwungen, sich zu\l"
-	.string "entwickeln…$"
+	.string "Dieser See ist voller Garados. Aber\n"
+	.string "sonst gibt es hier nichts…\p"
+	.string "Die Karpador werden also gezwungen,\n"
+	.string "sich zu entwickeln…$"
 #else
     .string "This lake is full of GYARADOS\n"
     .string "but nothing else…\p"
@@ -295,8 +293,7 @@ LakeOfRage_Text_LanceIntro3:
 #if GERMAN
 	.string "Ich habe gesehen,\n"
 	.string "wie du kämpfst, {PLAYER}.\p"
-	.string "Man kann sagen,\n"
-	.string "dass du ein Trainer von\l"
+	.string "Man kann sagen, dass du ein Trainer von\n"
 	.string "bemerkenswertem Format bist.\p"
 	.string "Würdest du mir bei meinen\n"
 	.string "Nachforschungen helfen?$"
@@ -331,9 +328,8 @@ LakeOfRage_Text_LanceRadioSignal:
 
 LakeOfRage_Text_LanceRefused:
 #if GERMAN
-	.string "Oh… Solltest du\n"
-	.string "deine Meinung ändern, dann hilf mir\l"
-	.string "bitte.$"
+	.string "Oh… Solltest du deine Meinung ändern,\n"
+	.string "dann hilf mir bitte.$"
 #else
     .string "Oh… Well, if you change your mind,\n"
     .string "please help us.$"

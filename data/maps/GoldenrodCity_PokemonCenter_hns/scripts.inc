@@ -168,9 +168,9 @@ GoldenrodCity_PokemonCenter_EventScript_LinkExplainerNpc::
 
 GoldenrodCity_PokemonCenter_Text_LinkExplainer:
 #if GERMAN
-	.string "Du kannst diese Maschine zum\n"
-	.string "tauschen oder kämpfen mit\l"
-	.string "anderen Spielern nutzen!$"
+	.string "Du kannst diese Maschine zum tauschen\n"
+	.string "oder kämpfen mit anderen Spielern\l"
+	.string "nutzen!$"
 #else
 	.string "You can use this machine to trade\n"
 	.string "or battle with other local players.\p"
@@ -233,8 +233,8 @@ GoldenrodCity_PokemonCenter_GameboyKidText1:
 GoldenrodCity_PokemonCenter_GameboyKidText2:
 #if GERMAN
 	.string "Die haben gar keine Beweise.\n"
-	.string "Trotzdem wird der Bann\l"
-	.string "nicht aufgehoben.$"
+	.string "Trotzdem wird der Bann nicht\l"
+	.string "aufgehoben.$"
 #else
     .string "I told my brother that the roof is\n"
     .string "made of real gold. He'll believe\l"

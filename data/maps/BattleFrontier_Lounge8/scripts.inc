@@ -46,9 +46,9 @@ BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains:
 #if GERMAN
 	.string "Hast du schon mal was über die\n"
 	.string "Kampfkoryphäen gehört?\p"
-	.string "So nennt Scott die sieben Trainer,\n"
-	.string "die die sieben Einrichtungen der\l"
-	.string "Kampfzone leiten.$"
+	.string "So nennt Scott die sieben Trainer, die\n"
+	.string "die sieben Einrichtungen der Kampfzone\l"
+	.string "leiten.$"
 #else
 	.string "Do you know about the FRONTIER\n"
 	.string "BRAINS?\p"

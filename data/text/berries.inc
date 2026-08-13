@@ -390,12 +390,12 @@ Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
 #if GERMAN
 	.string "Nachdem du die Beeren eingepflanzt\n"
-	.string "hast, musst du sie mit der\l"
-	.string "Wailmerkanne wässern.\p"
+	.string "hast, musst du sie mit der Wailmerkanne\l"
+	.string "wässern.\p"
 	.string "Oh, und noch etwas!\p"
-	.string "Wenn die Beeren nicht gepflückt\n"
-	.string "werden, fallen sie zu Boden. Aber sie\l"
-	.string "werden wieder nachwachsen.\p"
+	.string "Wenn die Beeren nicht gepflückt werden,\n"
+	.string "fallen sie zu Boden. Aber sie werden\l"
+	.string "wieder nachwachsen.\p"
 	.string "Ist das nicht unglaublich? Es ist, als\n"
 	.string "hätten sie den Willen zu leben.$"
 #else

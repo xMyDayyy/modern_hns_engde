@@ -303,9 +303,9 @@ gControlsGuide_Text_Intro::
 
 gControlsGuide_Text_DPad::
 #if GERMAN
-	.string "Bewegt Protagonisten. Wird auch\n"
-	.string "bei der Auswahl der \l"
-	.string "Datenüberschriften verwendet.$"
+	.string "Bewegt Protagonisten. Wird auch bei der\n"
+	.string "Auswahl der Datenüberschriften\l"
+	.string "verwendet.$"
 #else
 	.string "Moves the main character.\n"
 	.string "Also used to choose various data\n"
@@ -351,8 +351,8 @@ gControlsGuide_Text_SelectButton::
 gControlsGuide_Text_LRButtons::
 #if GERMAN
 	.string "Brauchst du Hilfe beim Spiel o.\n"
-	.string "wie du etwas anstellen sollst,\l"
-	.string "drücke die L- bzw. die R-Taste.$"
+	.string "wie du etwas anstellen sollst, drücke\l"
+	.string "die L- bzw. die R-Taste.$"
 #else
 	.string "If you need help playing the\n"
 	.string "game, or on how to do things,\n"
@@ -370,13 +370,12 @@ gOakSpeech_Text_AskPlayerGender::
 
 gPikachuIntro_Text_Page1::
 #if GERMAN
-	.string "Die Welt, in die du jetzt gelangst,\n"
-	.string "wird dir ein Abenteuer bescheren,\l"
-	.string "in dem du der Held bist.\l"
+	.string "Die Welt, in die du jetzt gelangst, wird\n"
+	.string "dir ein Abenteuer bescheren, in dem du\l"
+	.string "der Held bist.\l"
 	.string "Rede mit den Leuten und überprüfe\l"
-	.string "Dinge, wo immer du bist, in\l"
-	.string "Städten, auf Straßen oder in\l"
-	.string "Höhlen. Sammle überall\l"
+	.string "Dinge, wo immer du bist, in Städten, auf\l"
+	.string "Straßen oder in Höhlen. Sammle überall\l"
 	.string "Informationen.$"
 #else
 	.string "In the world which you are about to\n"
@@ -391,14 +390,14 @@ gPikachuIntro_Text_Page1::
 
 gPikachuIntro_Text_Page2::
 #if GERMAN
-	.string "Neue Wege werden sich auftun,\n"
-	.string "indem du Menschen in Not hilfst,\l"
+	.string "Neue Wege werden sich auftun, indem du\n"
+	.string "Menschen in Not hilfst,\l"
 	.string "Herausforderungen meisterst und\l"
 	.string "Rätsel löst.\l"
 	.string "Manchmal wirst du von anderen\l"
 	.string "herausgefordert und von wilden\l"
-	.string "Geschöpfen angegriffen. Sei\l"
-	.string "tapfer und lass dich nicht beirren!$"
+	.string "Geschöpfen angegriffen. Sei tapfer und\l"
+	.string "lass dich nicht beirren!$"
 #else
 	.string "New paths will open to you by helping\n"
 	.string "people in need, overcoming challenges,\n"
@@ -412,12 +411,12 @@ gPikachuIntro_Text_Page2::
 gPikachuIntro_Text_Page3::
 #if GERMAN
 	.string "Während deines Abenteuers\n"
-	.string "interagierst du hoffentlich mit\l"
-	.string "allen möglichen Personen, um\l"
-	.string "deinen Charakter zu festigen.\l"
+	.string "interagierst du hoffentlich mit allen\l"
+	.string "möglichen Personen, um deinen\l"
+	.string "Charakter zu festigen.\l"
 	.string "Das ist unser Hauptziel.\l"
-	.string "Drücke den A-Knopf, um das\l"
-	.string "Abenteuer zu beginnen!$"
+	.string "Drücke den A-Knopf, um das Abenteuer\l"
+	.string "zu beginnen!$"
 #else
 	.string "Through your adventure, we hope\n"
 	.string "that you will interact with all sorts\n"
@@ -546,9 +545,9 @@ gOakSpeech_Text_LetsGo::
 	.string "{PLAYER}!\p"
 	.string "Eine unglaubliche Reise in die Welt\n"
 	.string "der Pokémon erwartet dich!\p"
-	.string "Eine Welt voller Wunder, Abenteuer\n"
-	.string "und Geheimnisse! Kurz gesagt, ein\l"
-	.string "Traum wird wahr!$"
+	.string "Eine Welt voller Wunder, Abenteuer und\n"
+	.string "Geheimnisse! Kurz gesagt, ein Traum\l"
+	.string "wird wahr!$"
 #else
 	.string "{PLAYER}!\p"
 	.string "Your very own POKéMON legend is\n"

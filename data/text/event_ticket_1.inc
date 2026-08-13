@@ -2,8 +2,8 @@ EventTicket_Text_ShowOldSeaMap:
 #if GERMAN
 	.string "Die Fähre nach Graphitport City ist…\p"
 	.string "Verzeihung? Ob wir zu diesem Ort, der\n"
-	.string "auf der Karte eingezeichnet ist,\l"
-	.string "fahren können?\p"
+	.string "auf der Karte eingezeichnet ist, fahren\l"
+	.string "können?\p"
 	.string "Ich rufe jemanden, der dir weiterhelfen\n"
 	.string "kann. Bitte warte einen Moment.$"
 #else
@@ -31,8 +31,8 @@ EventTicket_Text_ShowEonTicket:
 	.string "mitgebracht?\p"
 	.string "Ich sage dir, du bist auf dem Weg zu\n"
 	.string "einer briefmarkengroßen Insel im Süden.\p"
-	.string "Niemand kann sagen, was uns dort er-\n"
-	.string "warten wird, aye. Und das erschüttert\l"
+	.string "Niemand kann sagen, was uns dort\n"
+	.string "erwarten wird, aye. Und das erschüttert\l"
 	.string "meine alten Knochen!\p"
 	.string "Alle Mann an Bord!$"
 #else

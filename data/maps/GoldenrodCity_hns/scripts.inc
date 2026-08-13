@@ -291,9 +291,8 @@ GoldenrodCity_EventScript_Beauty::
 GoldenrodCity_Text_Beauty:
 #if GERMAN
 	.string "Das ist die Dukatia City Arena!\p"
-	.string "Unsere Leiterin Bianka ist gerade\n"
-	.string "nicht da. Sie könnte im Radioturm\l"
-	.string "sein.$"
+	.string "Unsere Leiterin Bianka ist gerade nicht\n"
+	.string "da. Sie könnte im Radioturm sein.$"
 #else
 	.string "This is the GOLDENROD GYM!\p"
 	.string "Our leader WHITNEY is not here\n"
@@ -314,9 +313,8 @@ GoldenrodCity_Text_Woman:
 
 GoldenrodCity_Text_HikerDay:
 #if GERMAN
-	.string "Als ich in die Spielhalle ging,\n"
-	.string "war es Nacht… Wie lange war ich\l"
-	.string "dort drin?!$"
+	.string "Als ich in die Spielhalle ging, war es\n"
+	.string "Nacht… Wie lange war ich dort drin?!$"
 #else
 	.string "When I went into the GAME CORNER\n"
 	.string "it was night time... How long was I\l"
@@ -325,9 +323,8 @@ GoldenrodCity_Text_HikerDay:
 
 GoldenrodCity_Text_HikerNight:
 #if GERMAN
-	.string "Als ich in die Spielhalle ging,\n"
-	.string "war es Tag… Wie lange war ich\l"
-	.string "dort drin?!$"
+	.string "Als ich in die Spielhalle ging, war es\n"
+	.string "Tag… Wie lange war ich dort drin?!$"
 #else
 	.string "When I went into the GAME CORNER\n"
 	.string "it was day time... How long was I\l"
@@ -413,9 +410,8 @@ GoldenrodCity_Text_CooltrainerF2:
 	.string "Dukatia City ist ein Wahrzeichen.\p"
 	.string "Zurzeit läuft ge-\n"
 	.string "rade eine Werbekampagne.\p"
-	.string "Sie können deinen\n"
-	.string "Com modifizieren, so dass er auch als\l"
-	.string "Radio\p"
+	.string "Sie können deinen Com modifizieren, so\n"
+	.string "dass er auch als Radio\p"
 	.string "verwendet werden kann.$"
 #else
 	.string "The RADIO TOWER in GOLDENROD CITY\n"
@@ -437,9 +433,8 @@ GoldenrodCity_Text_CooltrainerF2_GotCard:
 GoldenrodCity_Text_Youngster2:
 #if GERMAN
 	.string "E-he-he-he…\p"
-	.string "Ich habe Ärger bekommen,\n"
-	.string "weil ich im Keller des\l"
-	.string "Kaufhauses gespielt habe.$"
+	.string "Ich habe Ärger bekommen, weil ich im\n"
+	.string "Keller des Kaufhauses gespielt habe.$"
 #else
 	.string "E-he-he-he…\p"
 	.string "I got in trouble for playing in\n"
@@ -562,8 +557,8 @@ GoldenrodCity_Text_DeptStoreSign:
 GoldenrodCity_Text_GymSign:
 #if GERMAN
 	.string "Pokémon-Arena von Dukatia City\n"
-	.string "Leiterin: Bianka\l"
-	.string "Ein Mädchen so scharf wie Sprengstoff!$"
+	.string "Leiterin: Bianka Ein Mädchen so scharf\l"
+	.string "wie Sprengstoff!$"
 #else
 	.string "GOLDENROD CITY POKéMON GYM\n"
 	.string "LEADER: WHITNEY\p"

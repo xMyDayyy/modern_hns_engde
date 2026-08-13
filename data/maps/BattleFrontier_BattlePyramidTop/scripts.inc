@@ -215,8 +215,7 @@ BattleFrontier_BattlePyramidTop_Movement_CameraPanUp:
 
 BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo:
 #if GERMAN
-	.string "Es ist wirklich eine Freude, dich hier\n"
-	.string "zu\l"
+	.string "Es ist wirklich eine Freude, dich hier zu\n"
 	.string "sehen! Du hast es bis zum Gipfel der\l"
 	.string "Kampfpyramide geschafft!\p"
 	.string "Über uns befindet sich nur noch die\n"
@@ -339,9 +338,9 @@ BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
 #if GERMAN
 	.string "Brian: Hahaha! Das war einfach\n"
 	.string "großartig! Großartig, jawohl!\p"
-	.string "Gut gemacht! Du hast dir meine Anerken-\n"
-	.string "nung redlich verdient! Deinen Kampf-\l"
-	.string "zonenpass, bitte!$"
+	.string "Gut gemacht! Du hast dir meine\n"
+	.string "Anerkennung redlich verdient! Deinen\l"
+	.string "Kampfzonenpass, bitte!$"
 #else
 	.string "BRANDON: Hahahah! Grand it was!\n"
 	.string "Grand, yes, indeed!\p"
@@ -379,8 +378,8 @@ BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
 	.string "Leidenschaftlich!\p"
 	.string "Gefährlich!\p"
 	.string "Verzweifelt!\p"
-	.string "Endlich ist es wieder Zeit für todes-\n"
-	.string "verachtende, lebensbejahende\l"
+	.string "Endlich ist es wieder Zeit für\n"
+	.string "todesverachtende, lebensbejahende\l"
 	.string "Abenteuer…$"
 #else
 	.string "BRANDON: …You've finally returned,\n"
@@ -423,8 +422,7 @@ BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis:
 	.string "Bemerkenswert!\l"
 	.string "Wirklich ganz großartig!\p"
 	.string "Junger Forschergeist!\p"
-	.string "Du hast es mir durch und durch\n"
-	.string "gezeigt!\l"
+	.string "Du hast es mir durch und durch gezeigt!\n"
 	.string "Bitte! Ich möchte dir dies geben!$"
 #else
 	.string "BRANDON: Hahahah!\n"
@@ -449,8 +447,7 @@ BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
 	.string "Oh, ja! Scheinbar muss auch ich noch\n"
 	.string "sehr viel lernen!\p"
 	.string "Ich hoffe, unsere Wege kreuzen sich\n"
-	.string "bald wieder! Bis dahin Leb wohl,\l"
-	.string "junger\l"
+	.string "bald wieder! Bis dahin Leb wohl, junger\l"
 	.string "Forschergeist!$"
 #else
 	.string "Ah, yes! It just goes to show that\n"

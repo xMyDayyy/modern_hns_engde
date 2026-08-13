@@ -257,9 +257,9 @@ Route45_Text_HikerParryGivesIron:
     .string "Ich finde einfach keinen Weg zu\n"
     .string "gewinnen!\p"
     .string "Mach weiter so!\p"
-    .string "Oh, und nimm das, das Geschenk,\n"
-    .string "das du beim letzten Mal nicht\l"
-    .string "annehmen konntest.$"
+    .string "Oh, und nimm das, das Geschenk, das du\n"
+    .string "beim letzten Mal nicht annehmen\l"
+    .string "konntest.$"
 #else
     .string "I just can't find a way to win!\p"
     .string "Keep it up!\p"
@@ -365,9 +365,8 @@ Route45_Text_KenjiNoRoom:
 
 Route45_Text_BlackbeltKenjiMorning:
 #if GERMAN
-    .string "Ich werde noch ein bisschen\n"
-    .string "trainieren, bevor ich Mittagspause\l"
-    .string "mache.$"
+    .string "Ich werde noch ein bisschen trainieren,\n"
+    .string "bevor ich Mittagspause mache.$"
 #else
     .string "I'm going to train a bit more\n"
     .string "before I break for lunch.$"
@@ -376,8 +375,8 @@ Route45_Text_BlackbeltKenjiMorning:
 Route45_Text_BlackbeltKenjiNight:
 #if GERMAN
     .string "Wir haben uns beim Mittag gut\n"
-    .string "ausgeruht, also sind wir jetzt\l"
-    .string "wieder bereit!\p"
+    .string "ausgeruht, also sind wir jetzt wieder\l"
+    .string "bereit!\p"
     .string "Wir trainieren weiter!$"
 #else
     .string "We had plenty of rest at lunch, so\p"

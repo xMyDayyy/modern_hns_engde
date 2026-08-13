@@ -60,9 +60,8 @@ CeladonCity_DepartmentStore_5F_Vitamins::
 
 CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers::
 #if GERMAN
-	.string "Nur hier kannst du leistungs-\n"
-	.string "fördernde Mittel für deine Pokémon\l"
-	.string "kaufen!\p"
+	.string "Nur hier kannst du leistungsfördernde\n"
+	.string "Mittel für deine Pokémon kaufen!\p"
 	.string "KP-Plus hebt die Basis-KP eines\n"
 	.string "Pokémon.\p"
 	.string "Kalzium steigert die Stärke von\n"

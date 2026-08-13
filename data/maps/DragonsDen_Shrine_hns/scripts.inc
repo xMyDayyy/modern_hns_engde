@@ -472,8 +472,8 @@ DragonsDen_Shrine_Text_RisingBadgeExplanation:
 	.string "Mit dem Drachenorden in deinem Besitz\n"
 	.string "können deine Pokémon mit der Attacke\p"
 	.string "Kaskade jeden Wasserfall erklimmen…\p"
-	.string "Ferner werden dich alle Pokémon\n"
-	.string "als Trainer anerkennen und dir\l"
+	.string "Ferner werden dich alle Pokémon als\n"
+	.string "Trainer anerkennen und dir\l"
 	.string "bedingungslos gehorchen.$"
 #else
     .string "RISINGBADGE will enable your\n"

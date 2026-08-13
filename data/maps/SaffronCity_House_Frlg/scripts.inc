@@ -59,8 +59,7 @@ SaffronCity_House_Text_ExplainPPUp::
 	.string "Es erhöht die Angriffspunkte einer\n"
 	.string "Attacke!\p"
 	.string "Ich sollte es bei einer mächtigen\n"
-	.string "Attacke, die wenig AP hat,\l"
-	.string "einsetzen.$"
+	.string "Attacke, die wenig AP hat, einsetzen.$"
 #else
 	.string "I was given a PP UP as a gift.\p"
 	.string "It's used to increase the PP of\n"

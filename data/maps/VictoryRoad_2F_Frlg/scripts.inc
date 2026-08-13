@@ -96,9 +96,8 @@ VictoryRoad_2F_Text_DawsonDefeat::
 
 VictoryRoad_2F_Text_DawsonPostBattle::
 #if GERMAN
-	.string "Und wenn schon... dafür übersteigt\n"
-	.string "mein Wissen über Pokémon deines bei\l"
-	.string "weitem!$"
+	.string "Und wenn schon... dafür übersteigt mein\n"
+	.string "Wissen über Pokémon deines bei weitem!$"
 #else
 	.string "I can beat you when it comes to\n"
 	.string "knowledge about POKéMON!$"
@@ -122,9 +121,8 @@ VictoryRoad_2F_Text_DaisukeDefeat::
 
 VictoryRoad_2F_Text_DaisukePostBattle::
 #if GERMAN
-	.string "Wenn du nicht vorankommst,\n"
-	.string "versuche, die Felsen zu\l"
-	.string "verschieben!$"
+	.string "Wenn du nicht vorankommst, versuche,\n"
+	.string "die Felsen zu verschieben!$"
 #else
 	.string "If you get stuck, try moving some\n"
 	.string "boulders around.$"

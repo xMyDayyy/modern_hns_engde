@@ -11,9 +11,9 @@ gBirchDexRatingText_AreYouCurious::
 
 gBirchDexRatingText_Cancel::
 #if GERMAN
-	.string "Ach? Du hast erst so wenige\n"
-	.string "Pokémon gefangen, dass es sich\l"
-	.string "nicht lohnt, ihn mir zu zeigen?$"
+	.string "Ach? Du hast erst so wenige Pokémon\n"
+	.string "gefangen, dass es sich nicht lohnt, ihn\l"
+	.string "mir zu zeigen?$"
 #else
 	.string "Hm? Oh, you haven't caught enough\n"
 	.string "POKéMON to make it worthwhile.$"
@@ -32,9 +32,8 @@ gBirchDexRatingText_SoYouveSeenAndCaught::
 
 gBirchDexRatingText_LessThan10::
 #if GERMAN
-	.string "Du solltest mehr ins hohe Gras\n"
-	.string "gehen und mehr auf Pokémon\l"
-	.string "achten.$"
+	.string "Du solltest mehr ins hohe Gras gehen\n"
+	.string "und mehr auf Pokémon achten.$"
 #else
 	.string "Go into grassy areas more and look\n"
 	.string "for POKéMON more carefully.$"
@@ -42,9 +41,8 @@ gBirchDexRatingText_LessThan10::
 
 gBirchDexRatingText_LessThan20::
 #if GERMAN
-	.string "So langsam bekommst du den Bogen\n"
-	.string "raus. Aber es wird immer schwieriger\l"
-	.string "werden!$"
+	.string "So langsam bekommst du den Bogen raus.\n"
+	.string "Aber es wird immer schwieriger werden!$"
 #else
 	.string "I guess you're getting the hang\n"
 	.string "of it. But, it gets harder from here.$"
@@ -52,8 +50,8 @@ gBirchDexRatingText_LessThan20::
 
 gBirchDexRatingText_LessThan30::
 #if GERMAN
-	.string "Einige Pokémon tauchen nur in be-\n"
-	.string "stimmten Regionen auf.\l"
+	.string "Einige Pokémon tauchen nur in\n"
+	.string "bestimmten Regionen auf.\l"
 	.string "Hab nur Geduld.$"
 #else
 	.string "Some POKéMON only appear in\n"
@@ -63,9 +61,9 @@ gBirchDexRatingText_LessThan30::
 
 gBirchDexRatingText_LessThan40::
 #if GERMAN
-	.string "Nun, er könnte mehr Einträge\n"
-	.string "enthalten, aber es sieht schon\l"
-	.string "eher nach einem Pokédex aus.$"
+	.string "Nun, er könnte mehr Einträge enthalten,\n"
+	.string "aber es sieht schon eher nach einem\l"
+	.string "Pokédex aus.$"
 #else
 	.string "Well, it could use more quantity,\n"
 	.string "but this is looking more like\l"
@@ -83,8 +81,7 @@ gBirchDexRatingText_LessThan50::
 
 gBirchDexRatingText_LessThan60::
 #if GERMAN
-	.string "Verwendest du irgendwelche\n"
-	.string "Angeln?\l"
+	.string "Verwendest du irgendwelche Angeln?\n"
 	.string "Hier gibt es viele Pokémon im Meer.$"
 #else
 	.string "Are you using any RODS?\n"
@@ -93,9 +90,8 @@ gBirchDexRatingText_LessThan60::
 
 gBirchDexRatingText_LessThan70::
 #if GERMAN
-	.string "Statt die Pokémon nur zu fangen,\n"
-	.string "wie wäre es, sie sich entwickeln zu\l"
-	.string "lassen?$"
+	.string "Statt die Pokémon nur zu fangen, wie\n"
+	.string "wäre es, sie sich entwickeln zu lassen?$"
 #else
 	.string "Instead of just catching POKéMON,\n"
 	.string "how about making them evolve, too?$"
@@ -103,8 +99,7 @@ gBirchDexRatingText_LessThan70::
 
 gBirchDexRatingText_LessThan80::
 #if GERMAN
-	.string "Der Pokédex wird einfach\n"
-	.string "fantastisch.\l"
+	.string "Der Pokédex wird einfach fantastisch.\n"
 	.string "Das habe ich im Gefühl…$"
 #else
 	.string "This is going to be a fantastic\n"
@@ -115,8 +110,7 @@ gBirchDexRatingText_LessThan80::
 gBirchDexRatingText_LessThan90::
 #if GERMAN
 	.string "Du hast so viele gefangen…\n"
-	.string "Du hast ein außergewöhnliches\l"
-	.string "Talent!$"
+	.string "Du hast ein außergewöhnliches Talent!$"
 #else
 	.string "You've collected this many…\n"
 	.string "Your talent is remarkable!$"
@@ -148,9 +142,8 @@ gBirchDexRatingText_LessThan110::
 
 gBirchDexRatingText_LessThan120::
 #if GERMAN
-	.string "Es gibt auch Pokémon, die man\n"
-	.string "durch den Einsatz von\l"
-	.string "Zertrümmerer findet.$"
+	.string "Es gibt auch Pokémon, die man durch den\n"
+	.string "Einsatz von Zertrümmerer findet.$"
 #else
 	.string "There might be POKéMON that can be\n"
 	.string "found using ROCK SMASH.$"
@@ -167,9 +160,9 @@ gBirchDexRatingText_LessThan130::
 
 gBirchDexRatingText_LessThan140::
 #if GERMAN
-	.string "Ich habe von Pokémon gehört, die\n"
-	.string "sich entwickeln, wenn sie ihren\l"
-	.string "Trainer sehr lieben.$"
+	.string "Ich habe von Pokémon gehört, die sich\n"
+	.string "entwickeln, wenn sie ihren Trainer sehr\l"
+	.string "lieben.$"
 #else
 	.string "I've heard of POKéMON that evolve\n"
 	.string "when they come to fully love their\l"
@@ -178,9 +171,9 @@ gBirchDexRatingText_LessThan140::
 
 gBirchDexRatingText_LessThan150::
 #if GERMAN
-	.string "Ich hatte keine Ahnung, dass es in\n"
-	.string "der Hoenn-Region so viele\l"
-	.string "verschiedene Pokémon-Arten gibt.$"
+	.string "Ich hatte keine Ahnung, dass es in der\n"
+	.string "Hoenn-Region so viele verschiedene\l"
+	.string "Pokémon-Arten gibt.$"
 #else
 	.string "I had no idea that there were so\n"
 	.string "many POKéMON species in the HOENN\l"
@@ -202,9 +195,9 @@ gBirchDexRatingText_LessThan160::
 
 gBirchDexRatingText_LessThan170::
 #if GERMAN
-	.string "Dein Pokédex liefert einen\n"
-	.string "erstaunlich guten Einblick in die\l"
-	.string "Pokémon der Hoenn-Region!$"
+	.string "Dein Pokédex liefert einen erstaunlich\n"
+	.string "guten Einblick in die Pokémon der\l"
+	.string "Hoenn-Region!$"
 #else
 	.string "One can get a very good idea about\n"
 	.string "the POKéMON of the HOENN region\l"
@@ -213,9 +206,8 @@ gBirchDexRatingText_LessThan170::
 
 gBirchDexRatingText_LessThan180::
 #if GERMAN
-	.string "Ich sage, du hast dich bereits als\n"
-	.string "guter Pokémon-Professor\l"
-	.string "qualifiziert.$"
+	.string "Ich sage, du hast dich bereits als guter\n"
+	.string "Pokémon-Professor qualifiziert.$"
 #else
 	.string "I would say you already qualify as\n"
 	.string "a POKéMON PROFESSOR, and a good\l"
@@ -224,9 +216,8 @@ gBirchDexRatingText_LessThan180::
 
 gBirchDexRatingText_LessThan190::
 #if GERMAN
-	.string "Mit diesem Pokédex, der schon so\n"
-	.string "weit gediehen ist, bist du ein\l"
-	.string "echter Profi.$"
+	.string "Mit diesem Pokédex, der schon so weit\n"
+	.string "gediehen ist, bist du ein echter Profi.$"
 #else
 	.string "With a POKéDEX this complete,\n"
 	.string "you're a real professional at this!$"
@@ -234,8 +225,8 @@ gBirchDexRatingText_LessThan190::
 
 gBirchDexRatingText_LessThan200::
 #if GERMAN
-	.string "Du bist sehr nahe dran, den\n"
-	.string "Pokédex zu vervollständigen.\l"
+	.string "Du bist sehr nahe dran, den Pokédex zu\n"
+	.string "vervollständigen.\l"
 	.string "Das fühle ich einfach.$"
 #else
 	.string "You're very close to completing\n"
@@ -559,18 +550,16 @@ gElmDexRatingText_AreYouCuriousNational::
 
 gJohtoDexRatingText_LessThan10::
 #if GERMAN
-	.string "Du solltest mehr ins hohe Gras\n"
-	.string "gehen und mehr auf Pokémon\l"
-	.string "achten.$"
+	.string "Du solltest mehr ins hohe Gras gehen\n"
+	.string "und mehr auf Pokémon achten.$"
 #else
 	.string "Look for POKéMON in grassy areas!$"
 #endif
 
 gJohtoDexRatingText_LessThan20::
 #if GERMAN
-	.string "So langsam bekommst du den Bogen\n"
-	.string "raus. Aber es wird immer schwieriger\l"
-	.string "werden!$"
+	.string "So langsam bekommst du den Bogen raus.\n"
+	.string "Aber es wird immer schwieriger werden!$"
 #else
 	.string "Good. I see you understand how to\n"
 	.string "use Poké Balls.$"
@@ -578,8 +567,8 @@ gJohtoDexRatingText_LessThan20::
 
 gJohtoDexRatingText_LessThan35::
 #if GERMAN
-	.string "Einige Pokémon tauchen nur in be-\n"
-	.string "stimmten Regionen auf.\l"
+	.string "Einige Pokémon tauchen nur in\n"
+	.string "bestimmten Regionen auf.\l"
 	.string "Hab nur Geduld.$"
 #else
 	.string "You're getting good at this,\n"
@@ -597,8 +586,7 @@ gJohtoDexRatingText_LessThan50::
 
 gJohtoDexRatingText_LessThan65::
 #if GERMAN
-	.string "Verwendest du irgendwelche\n"
-	.string "Angeln?\l"
+	.string "Verwendest du irgendwelche Angeln?\n"
 	.string "Hier gibt es viele Pokémon im Meer.$"
 #else
 	.string "You're trying--I can see that.\n"
@@ -607,8 +595,7 @@ gJohtoDexRatingText_LessThan65::
 
 gJohtoDexRatingText_LessThan80::
 #if GERMAN
-	.string "Der Pokédex wird einfach\n"
-	.string "fantastisch.\l"
+	.string "Der Pokédex wird einfach fantastisch.\n"
 	.string "Das habe ich im Gefühl…$"
 #else
 	.string "You're training them well. You know\n"
@@ -619,8 +606,7 @@ gJohtoDexRatingText_LessThan80::
 gJohtoDexRatingText_LessThan95::
 #if GERMAN
 	.string "Du hast so viele gefangen…\n"
-	.string "Du hast ein außergewöhnliches\l"
-	.string "Talent!$"
+	.string "Du hast ein außergewöhnliches Talent!$"
 #else
 	.string "Do you have a Fishing Rod?\n"
 	.string "There are some POKéMON that can\p"

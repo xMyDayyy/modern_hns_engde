@@ -83,9 +83,8 @@ RocketHideout_B3F_Movement_DragoniteLeave:
 
 RocketHideout_B3F_Text_LanceGetPassword:
 #if GERMAN
-	.string "Siegfried: Man braucht zwei\n"
-	.string "Passwörter, um zum Boss zu\l"
-	.string "gelangen.\p"
+	.string "Siegfried: Man braucht zwei Passwörter,\n"
+	.string "um zum Boss zu gelangen.\p"
 	.string "Diese Passwörter kennen nur\n"
 	.string "wenige Rocket-Rüpel.\p"
 	.string "Dieser Rocket-Rüpel hat es mir\n"
@@ -322,9 +321,8 @@ RocketHideout_B3F_Text_Rival:
 	.string "meinen Pokémon nicht genug.\p"
 	.string "Es ist nicht meine Schuld, dass\n"
 	.string "mein Team so schwach ist.\p"
-	.string "Ich bin wütend, dass ich gegen\n"
-	.string "so einen gefühlsduseligen Typen\l"
-	.string "verloren habe.\p"
+	.string "Ich bin wütend, dass ich gegen so einen\n"
+	.string "gefühlsduseligen Typen verloren habe.\p"
 	.string "Doch es lässt mich verzweifeln.\p"
 	.string "Mache ich etwas falsch?\p"
 	.string "Kann es Liebe sein, die sein Team\n"

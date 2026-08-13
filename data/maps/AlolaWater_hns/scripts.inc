@@ -26,8 +26,8 @@ Alola_MelemeleSea_TrainerBattleSwimmer_Text_1:
 Alola_MelemeleSea_TrainerBattleSwimmer_Text_2:
 #if GERMAN
 	.string "Hier gibt es starke Strömungen.\n"
-	.string "Ich glaube, das zieht starke\l"
-	.string "Pokémon an!$"
+	.string "Ich glaube, das zieht starke Pokémon\l"
+	.string "an!$"
 #else
 	.string "There are some strong currents here.\n"
 	.string "I think it attracts strong Pokémon!$"

@@ -9,11 +9,10 @@ SixIsland_House_Text_GoodPlaceForNatureAndHistory::
 #if GERMAN
 	.string "Auf dieser Insel gibt es nichts,\n"
 	.string "was junge Leute aufregend finden.\p"
-	.string "Aber in punkto Natur und\n"
-	.string "Geschichte ist dies ein\l"
-	.string "interessanter Ort.\l"
-	.string "Entspann dich und genieße\l"
-	.string "deinen Aufenthalt.$"
+	.string "Aber in punkto Natur und Geschichte ist\n"
+	.string "dies ein interessanter Ort.\l"
+	.string "Entspann dich und genieße deinen\l"
+	.string "Aufenthalt.$"
 #else
 	.string "There's nothing that young people'd\n"
 	.string "find exciting here on this island.\p"

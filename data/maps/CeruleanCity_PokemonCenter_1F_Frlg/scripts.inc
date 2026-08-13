@@ -78,13 +78,11 @@ CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons::
 CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs::
 #if GERMAN
 	.string "Warum gehst du nicht nach oben und\n"
-	.string "tauschst Pokémon mit deinen\l"
-	.string "Freunden?\l"
-	.string "Dadurch erhöht sich die Vielfalt\l"
-	.string "deiner Pokémon.\p"
-	.string "Der Level der Pokémon, die du\n"
-	.string "durch Tausch erhältst, steigt\l"
-	.string "schnell.$"
+	.string "tauschst Pokémon mit deinen Freunden?\l"
+	.string "Dadurch erhöht sich die Vielfalt deiner\l"
+	.string "Pokémon.\p"
+	.string "Der Level der Pokémon, die du durch\n"
+	.string "Tausch erhältst, steigt schnell.$"
 #else
 	.string "Why don't you go upstairs and try\n"
 	.string "trading POKéMON with your friends?\p"

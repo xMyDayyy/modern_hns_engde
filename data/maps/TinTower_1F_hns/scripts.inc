@@ -73,9 +73,9 @@ TinTower_1F_Sage1_Text:
 
 TinTower_1F_Sage2_Text:
 #if GERMAN
-	.string "Als der Zinnturm niederbrannte,\n"
-	.string "sollen drei namenlose Pokémon\l"
-	.string "umgekommen sein. Es war tragisch.\p"
+	.string "Als der Zinnturm niederbrannte, sollen\n"
+	.string "drei namenlose Pokémon umgekommen\l"
+	.string "sein. Es war tragisch.\p"
 	.string "Jedoch…\p"
 	.string "Ein Pokémon in Regenbogenfarben…\n"
 	.string "Mit anderen Worten…\p"
@@ -143,9 +143,8 @@ TinTower_1F_Sage6_Text2:
 #if GERMAN
 	.string "Von den legendären Pokémon soll\n"
 	.string "Suicune Ho-Oh am nächsten stehen.\p"
-	.string "Ich höre, dass es auch eine\n"
-	.string "Verbindung zu Pokémon namens\l"
-	.string "Icognito geben soll.\p"
+	.string "Ich höre, dass es auch eine Verbindung\n"
+	.string "zu Pokémon namens Icognito geben soll.\p"
 	.string "Icognito muss eine enge Verbindung\n"
 	.string "zu Suicune haben.$"
 #else
@@ -160,8 +159,8 @@ TinTower_1F_Sage6_Text2:
 TinTower_1F_EusineHoOh_Text:
 #if GERMAN
 	.string "Ich wusste es.\p"
-	.string "Ich wusste, dass du das Pokémon\n"
-	.string "in Regenbogenfarben sehen würdest,\l"
+	.string "Ich wusste, dass du das Pokémon in\n"
+	.string "Regenbogenfarben sehen würdest,\l"
 	.string "{PLAYER}.\p"
 	.string "Es geschah genau so, wie ich es mir\n"
 	.string "vorgestellt hatte.\l"
@@ -188,8 +187,8 @@ TinTower_1F_EusineSuicune_Text:
 	.string "Suicune war stark, aber du warst\p"
 	.string "noch beeindruckender, {PLAYER}.\n"
 	.string "Ich habe gehört, Suicunes mystische\p"
-	.string "Kraft ruft ein Pokémon in Regenbogen-\n"
-	.string "farben herbei.\l"
+	.string "Kraft ruft ein Pokémon in\n"
+	.string "Regenbogenfarben herbei.\l"
 	.string "Vielleicht, nur vielleicht, wird das,\p"
 	.string "was heute geschah, dieses Pokémon\n"
 	.string "erscheinen lassen.\l"

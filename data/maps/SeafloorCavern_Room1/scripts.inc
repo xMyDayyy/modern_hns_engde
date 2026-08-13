@@ -39,8 +39,7 @@ SeafloorCavern_Room1_Text_Grunt1PostBattle:
 SeafloorCavern_Room1_Text_Grunt2Intro:
 #if GERMAN
 	.string "Dieses U-boot… Es ist sehr eng.\n"
-	.string "Ich habe deshalb überall blaue\l"
-	.string "Flecken.$"
+	.string "Ich habe deshalb überall blaue Flecken.$"
 #else
 	.string "That submarine… It's tiny inside.\n"
 	.string "I'm sore all over!$"
@@ -56,8 +55,7 @@ SeafloorCavern_Room1_Text_Grunt2Defeat:
 
 SeafloorCavern_Room1_Text_Grunt2PostBattle:
 #if GERMAN
-	.string "Das U-boot, das wir aufgetrieben\n"
-	.string "haben,\l"
+	.string "Das U-boot, das wir aufgetrieben haben,\n"
 	.string "ist fürchterlich eng. Brutal eng, sage\l"
 	.string "ich. Man stößt sich überall den Kopf.$"
 #else

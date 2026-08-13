@@ -27,9 +27,9 @@ SafariZone_West_Text_RestHouse::
 SafariZone_West_Text_PleaseFindWardensLostTeeth::
 #if GERMAN
 	.string "Belohnung!\p"
-	.string "Wer die Goldzähne des Parkwächters\n"
-	.string "der Safari-Zone findet, erhält\l"
-	.string "eine Belohnung!\p"
+	.string "Wer die Goldzähne des Parkwächters der\n"
+	.string "Safari-Zone findet, erhält eine\l"
+	.string "Belohnung!\p"
 	.string "Finder melden sich bitte beim\n"
 	.string "Parkwächter!$"
 #else

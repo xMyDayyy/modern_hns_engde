@@ -136,9 +136,9 @@ SilphCo_11F_Text_ThanksForSavingMeDearBoy::
 #if GERMAN
 	.string "Präsident: Ich danke dir für die\n"
 	.string "Rettung der Silph Co.\p"
-	.string "Ich werde niemals vergessen, wie\n"
-	.string "du uns trotz größter Gefahren\l"
-	.string "tapfer gerettet hast!\p"
+	.string "Ich werde niemals vergessen, wie du uns\n"
+	.string "trotz größter Gefahren tapfer\l"
+	.string "gerettet hast!\p"
 	.string "Wie kann ich dir bloß meinen Dank\n"
 	.string "aussprechen?\p"
 	.string "Ich bin reich, ich könnte dir\n"
@@ -160,9 +160,9 @@ SilphCo_11F_Text_ThanksForSavingMeDearGirl::
 #if GERMAN
 	.string "Präsident: Ich danke dir für die\n"
 	.string "Rettung der Silph Co.\p"
-	.string "Ich werde niemals vergessen, wie\n"
-	.string "du uns trotz größter Gefahren\l"
-	.string "tapfer gerettet hast!\p"
+	.string "Ich werde niemals vergessen, wie du uns\n"
+	.string "trotz größter Gefahren tapfer\l"
+	.string "gerettet hast!\p"
 	.string "Wie kann ich dir bloß meinen Dank\n"
 	.string "aussprechen?\p"
 	.string "Ich bin reich, ich könnte dir\n"
@@ -262,8 +262,8 @@ SilphCo_11F_Text_GiovanniDefeat::
 SilphCo_11F_Text_GiovanniPostBattle::
 #if GERMAN
 	.string "Verdammter Mist!\n"
-	.string "Du hast unsere Übernahme der Silph\l"
-	.string "Co. vereitelt!\p"
+	.string "Du hast unsere Übernahme der Silph Co.\l"
+	.string "vereitelt!\p"
 	.string "Aber das Team Rocket wird niemals\n"
 	.string "aufgeben!\p"
 	.string "{PLAYER}! Vergiss nicht, dass alle\n"

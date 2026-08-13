@@ -186,9 +186,8 @@ SproutTower_Text_RivalOnlyCaresStrong:
 	.string "Er behauptet, ein Weiser zu sein.\p"
 	.string "Aber er ist schwach.\p"
 	.string "Das muss noch geklärt werden.\p"
-	.string "Ich würde nie gegen\n"
-	.string "so einen Narren verlieren,\l"
-	.string "der mir rät, meine Pokémon\l"
+	.string "Ich würde nie gegen so einen Narren\n"
+	.string "verlieren, der mir rät, meine Pokémon\l"
 	.string "gut zu behandeln.\p"
 	.string "Für mich zählen nur starke Pokémon.\p"
 	.string "Schwache Pokémon interessieren mich\n"
@@ -247,9 +246,9 @@ SproutTower_Text_SageLi_Beaten:
 
 SproutTower_Text_SageLi_TakeFlash:
 #if GERMAN
-	.string "Ich bin sicher,\n"
-	.string "du und dein Pokémon-Team werdet\l"
-	.string "das hier wohl zu nutzen wissen.\p"
+	.string "Ich bin sicher, du und dein\n"
+	.string "Pokémon-Team werdet das hier wohl zu\l"
+	.string "nutzen wissen.\p"
 	.string "Nimm die TM Blitz.\n"
 	.string "Sie gehört dir.$"
 #else
@@ -262,9 +261,9 @@ SproutTower_Text_SageLi_FlashExplain:
 #if GERMAN
 	.string "Blitz erhellt selbst die\n"
 	.string "dunkelsten Orte.\p"
-	.string "Um es außerhalb des Kampfes\n"
-	.string "zu nutzen, brauchst du den\l"
-	.string "Orden aus der Viola City Arena.$"
+	.string "Um es außerhalb des Kampfes zu nutzen,\n"
+	.string "brauchst du den Orden aus der Viola\l"
+	.string "City Arena.$"
 #else
 	.string "FLASH illuminates even the\n"
 	.string "darkest of all places.\p"
@@ -313,8 +312,7 @@ SproutTower_Text_SageJin_AfterBattle:
 
 SproutTower_Text_SageTroy_Seen:
 #if GERMAN
-	.string "Lass mich sehen,\n"
-	.string "wie stark dein Glaube\l"
+	.string "Lass mich sehen, wie stark dein Glaube\n"
 	.string "an deine Pokémon ist!$"
 #else
 	.string "Let me see how much you trust\n"
@@ -340,8 +338,8 @@ SproutTower_Text_SageTroy_AfterBattle:
 SproutTower_Text_SageNeal_Seen:
 #if GERMAN
 	.string "Diese TM, die mir der Weiseste\n"
-	.string "anvertraut hat, bringt Licht\l"
-	.string "selbst in die tiefste Dunkelheit!$"
+	.string "anvertraut hat, bringt Licht selbst in\l"
+	.string "die tiefste Dunkelheit!$"
 #else
 	.string "The ELDER's HM lights even\n"
 	.string "pitch-black darkness.$"

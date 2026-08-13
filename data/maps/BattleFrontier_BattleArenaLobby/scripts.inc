@@ -400,10 +400,8 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "sollen. In dieser Folge kämpfen sie\n"
 	.string "dann nacheinander.\p"
 	.string "Sobald ein Pokémon in den Kampf\n"
-	.string "gerufen wurde, muss es kämpfen, bis\l"
-	.string "der \p"
-	.string "Kampf entschieden ist. Sollte ein\n"
-	.string "Kampf\l"
+	.string "gerufen wurde, muss es kämpfen, bis der\p"
+	.string "Kampf entschieden ist. Sollte ein Kampf\n"
 	.string "unentschieden enden, wird der Kampf\p"
 	.string "beurteilt und der Sieger bestimmt.\n"
 	.string "Möchtest du den Wettkampf unter-\p"
@@ -445,9 +443,9 @@ BattleFrontier_BattleArenaLobby_Text_OkayToSave:
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
 #if GERMAN
-	.string "Im Kampfring wird in zwei\n"
-	.string "Kategorien gekämpft: Lv. 50 und Offene\l"
-	.string "Kämpfe. Wofür entscheidest du dich?$"
+	.string "Im Kampfring wird in zwei Kategorien\n"
+	.string "gekämpft: Lv. 50 und Offene Kämpfe.\l"
+	.string "Wofür entscheidest du dich?$"
 #else
 	.string "The BATTLE ARENA offers two levels\n"
 	.string "of challenge, Level 50 and Open Level.\l"
@@ -665,8 +663,8 @@ BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
 	.string "Unser Kampf wurde als Unentschieden\n"
 	.string "gewertet.\p"
 	.string "Als die Zeit abgelaufen war, hatten\n"
-	.string "meine und die gegnerischen Pokémon\l"
-	.string "die gleiche Anzahl KP übrig.$"
+	.string "meine und die gegnerischen Pokémon die\l"
+	.string "gleiche Anzahl KP übrig.$"
 #else
 	.string "Our match was declared a draw.\p"
 	.string "When we ran out of time, both my\n"
@@ -679,9 +677,9 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
 	.string "Im Kampfring ist die Reihenfolge\n"
 	.string "der Pokémon entscheidend.\p"
 	.string "Hat dein erstes Pokémon bestimmte\n"
-	.string "Nachteile aufgrund seiner Element-\l"
-	.string "klasse, sollte dein zweites Pokémon\l"
-	.string "diese Nachteile ausgleichen.\p"
+	.string "Nachteile aufgrund seiner\l"
+	.string "Elementklasse, sollte dein zweites\l"
+	.string "Pokémon diese Nachteile ausgleichen.\p"
 	.string "Ich denke, so stellt man ein hervor-\n"
 	.string "ragendes Team zusammen.$"
 #else
@@ -719,9 +717,8 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "Wenn nach drei Runden kein Sieger\p"
 	.string "feststeht, wird eine richterliche\n"
 	.string "Entscheidung getroffen. Der Referee\p"
-	.string "wird den Sieger bestimmen, indem er\n"
-	.string "die Art des Kampfes beurteilt. Ein\l"
-	.string "Pkmn \p"
+	.string "wird den Sieger bestimmen, indem er die\n"
+	.string "Art des Kampfes beurteilt. Ein Pkmn\p"
 	.string "kann nicht ausgetauscht werden, bevor\n"
 	.string "der Kampf entschieden ist.$"
 #else
@@ -740,11 +737,9 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
 #if GERMAN
 	.string "Der erste Faktor bei der Beurteilung\n"
-	.string "ist der “Verstand”. Hier wird\l"
-	.string "beurteilt,\l"
+	.string "ist der “Verstand”. Hier wird beurteilt,\l"
 	.string "wie aggressiv die Kämpfer waren.\p"
-	.string "Die Beurteilung richtet sich danach,\n"
-	.string "wie\l"
+	.string "Die Beurteilung richtet sich danach, wie\n"
 	.string "oft der Trainer offensive Attacken\l"
 	.string "eingesetzt hat.$"
 #else
@@ -758,9 +753,9 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
 #if GERMAN
-	.string "Der zweite Faktor ist das\n"
-	.string "“Geschick”. Hier wird beurteilt, wie\l"
-	.string "effektiv Attacken eingesetzt wurden.\p"
+	.string "Der zweite Faktor ist das “Geschick”.\n"
+	.string "Hier wird beurteilt, wie effektiv\l"
+	.string "Attacken eingesetzt wurden.\p"
 	.string "War eine Attacke erfolgreich, geht die\n"
 	.string "Bewertung der Fähigkeiten nach oben.\p"
 	.string "Schlug eine Attacke fehl, geht die\n"
@@ -803,8 +798,8 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 	.string "Ende verbleibenden KP sind ausschlag-\l"
 	.string "\p"
 	.string "gebend. Die Anzahl der KP, mit der ein\n"
-	.string "Pkmn in den Kampf geht, wird mit der\l"
-	.string "am Ende des Kampfes verglichen.$"
+	.string "Pkmn in den Kampf geht, wird mit der am\l"
+	.string "Ende des Kampfes verglichen.$"
 #else
 	.string "The third judging factor is “Body.”\n"
 	.string "This factor is based on how much HP\l"

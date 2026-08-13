@@ -66,8 +66,8 @@ MountMortar2_Text_PokemaniacMillerAfter:
 	.string "Karate-Typ zum Kampf herausgefordert.\l"
 	.string "Der war vielleicht stark!\l"
 	.string "Mir tun immer noch alle Knochen weh!\p"
-	.string "Am Schluss blaffte er mich an:\n"
-	.string "“Du brauchst mehr Training!”\l"
+	.string "Am Schluss blaffte er mich an: “Du\n"
+	.string "brauchst mehr Training!”\l"
 	.string "und verschwand im Berginneren.\l"
 	.string "Was der wohl hier macht?$"
 #else
@@ -98,9 +98,9 @@ MountMortar2_Text_SupernerdMarkusBeaten:
 
 MountMortar2_Text_SupernerdMarkusAfter:
 #if GERMAN
-	.string "Ich wollte den Silberberg\n"
-	.string "erkunden, aber wurde von\l"
-	.string "meinem Partner getrennt…\p"
+	.string "Ich wollte den Silberberg erkunden,\n"
+	.string "aber wurde von meinem Partner\l"
+	.string "getrennt…\p"
 	.string "Bist du einem Trainer begegnet,\n"
 	.string "dessen Seemon Kaskade kann?$"
 #else

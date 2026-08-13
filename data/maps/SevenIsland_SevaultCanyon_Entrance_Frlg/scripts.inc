@@ -26,10 +26,8 @@ SevenIsland_SevaultCanyon_Entrance_Text_MiahDefeat::
 SevenIsland_SevaultCanyon_Entrance_Text_MiahPostBattle::
 #if GERMAN
 	.string "Wie war das?\n"
-	.string "Ich handle nicht nach meinem\l"
-	.string "Aussehen?\l"
-	.string "Heh, das ist ein Teil meiner\l"
-	.string "Strategie!$"
+	.string "Ich handle nicht nach meinem Aussehen?\l"
+	.string "Heh, das ist ein Teil meiner Strategie!$"
 #else
 	.string "What's that?\n"
 	.string "I don't act the way I look?\p"
@@ -59,8 +57,8 @@ SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat::
 SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle::
 #if GERMAN
 	.string "Lalala…\n"
-	.string "Ich schicke meine Pokémon\l"
-	.string "hinaus und die Mädchen schreien!$"
+	.string "Ich schicke meine Pokémon hinaus und\l"
+	.string "die Mädchen schreien!$"
 #else
 	.string "Lalalah…\n"
 	.string "My POKéMON, I send them out,\l"
@@ -163,9 +161,9 @@ SevenIsland_SevaultCanyon_Entrance_Text_EveNotEnoughMons::
 
 SevenIsland_SevaultCanyon_Entrance_Text_JonIntro::
 #if GERMAN
-	.string "Till: Wenn ich an der Seite von\n"
-	.string "Tizia bin, fühle ich, dass wir\l"
-	.string "nicht verlieren können…$"
+	.string "Till: Wenn ich an der Seite von Tizia bin,\n"
+	.string "fühle ich, dass wir nicht verlieren\l"
+	.string "können…$"
 #else
 	.string "JON: When I'm with EVE, it feels\n"
 	.string "like we could never lose.$"
@@ -173,9 +171,9 @@ SevenIsland_SevaultCanyon_Entrance_Text_JonIntro::
 
 SevenIsland_SevaultCanyon_Entrance_Text_JonDefeat::
 #if GERMAN
-	.string "Till: Wenn ich an der Seite von\n"
-	.string "Tizia bin, fühle ich, dass wir\l"
-	.string "nicht verloren haben…$"
+	.string "Till: Wenn ich an der Seite von Tizia bin,\n"
+	.string "fühle ich, dass wir nicht verloren\l"
+	.string "haben…$"
 #else
 	.string "JON: When I'm with EVE,\n"
 	.string "it doesn't feel like I've lost!$"
@@ -183,9 +181,9 @@ SevenIsland_SevaultCanyon_Entrance_Text_JonDefeat::
 
 SevenIsland_SevaultCanyon_Entrance_Text_JonPostBattle::
 #if GERMAN
-	.string "Till: Wenn ich an der Seite von\n"
-	.string "Tizia bin, ist mir schwindelig,\l"
-	.string "egal, ob ich gewinne oder verliere.$"
+	.string "Till: Wenn ich an der Seite von Tizia bin,\n"
+	.string "ist mir schwindelig, egal, ob ich gewinne\l"
+	.string "oder verliere.$"
 #else
 	.string "JON: When I'm with EVE, I feel\n"
 	.string "giddy whether I win or lose.\p"
@@ -208,9 +206,8 @@ SevenIsland_SevaultCanyon_Entrance_Text_JonNotEnoughMons::
 SevenIsland_SevaultCanyon_Entrance_Text_RouteSign::
 #if GERMAN
 	.string "Eingang zur 7-Schatzschlucht\p"
-	.string "Trainer werden gebeten, die\n"
-	.string "Pflanzen in der Schlucht\l"
-	.string "nicht zu beschädigen!$"
+	.string "Trainer werden gebeten, die Pflanzen in\n"
+	.string "der Schlucht nicht zu beschädigen!$"
 #else
 	.string "SEVAULT CANYON ENTRANCE\p"
 	.string "TRAINERS are asked to refrain from\n"

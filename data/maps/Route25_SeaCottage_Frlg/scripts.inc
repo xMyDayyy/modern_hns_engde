@@ -349,8 +349,8 @@ Route25_SeaCottage_Text_ImBillHelpMeOutLady::
 
 Route25_SeaCottage_Text_RunCellSeparationOnPC::
 #if GERMAN
-	.string "Ich gehe in den Teleporter, und\n"
-	.string "du startest von meinem PC aus das\l"
+	.string "Ich gehe in den Teleporter, und du\n"
+	.string "startest von meinem PC aus das\l"
 	.string "Zellteilungs-Programm.$"
 #else
 	.string "Wait till I get inside the\n"
@@ -458,8 +458,8 @@ Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
 	.string "Kreuzfahrtschiff, die M.S. Anne!\p"
 	.string "An Bord befinden sich nur Trainer!\p"
 	.string "Sie haben mich zu einer Party\n"
-	.string "eingeladen, aber ich mag so viel\l"
-	.string "Trubel nicht.\p"
+	.string "eingeladen, aber ich mag so viel Trubel\l"
+	.string "nicht.\p"
 	.string "Hättest du Lust, hinzugehen?$"
 #else
 	.string "That cruise ship S.S. ANNE is in\n"
@@ -474,9 +474,8 @@ Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
 
 Route25_SeaCottage_Text_CheckOutRareMonsOnPC::
 #if GERMAN
-	.string "Bill: Schau dir doch einfach auf\n"
-	.string "dem PC ein paar meiner seltenen\l"
-	.string "Pokémon an!$"
+	.string "Bill: Schau dir doch einfach auf dem PC\n"
+	.string "ein paar meiner seltenen Pokémon an!$"
 #else
 	.string "BILL: Feel like checking out some\n"
 	.string "of my rare POKéMON on my PC?\p"

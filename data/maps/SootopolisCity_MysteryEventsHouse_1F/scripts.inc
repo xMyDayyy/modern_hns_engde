@@ -166,8 +166,7 @@ SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight:
 SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles:
 #if GERMAN
 	.string "Als ich noch jung war, bin ich als\n"
-	.string "Pokémon-Trainer durch die Welt\l"
-	.string "gereist.\p"
+	.string "Pokémon-Trainer durch die Welt gereist.\p"
 	.string "Nun, da ich ein alter Knabe geworden\n"
 	.string "bin, beobachte ich mit Freuden die\l"
 	.string "jungen Trainer bei ihren Kämpfen.$"
@@ -201,8 +200,8 @@ SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
 
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:
 #if GERMAN
-	.string "Du möchtest nicht kämpfen? Es ent-\n"
-	.string "täuscht mich, dass ich dich nicht\l"
+	.string "Du möchtest nicht kämpfen? Es\n"
+	.string "enttäuscht mich, dass ich dich nicht\l"
 	.string "kämpfen sehen kann.$"
 #else
 	.string "You won't battle? I'm disappointed\n"
@@ -282,8 +281,7 @@ SootopolisCity_MysteryEventsHouse_1F_Text_TooBadForYou:
 #if GERMAN
 	.string "Ach, wie bedauerlich für dich!\p"
 	.string "Aber es war ein guter Kampf.\n"
-	.string "Ich hoffe, das nächste Mal gewinnst\l"
-	.string "du.$"
+	.string "Ich hoffe, das nächste Mal gewinnst du.$"
 #else
 	.string "Ah, too bad for you!\p"
 	.string "But it was a good match.\n"

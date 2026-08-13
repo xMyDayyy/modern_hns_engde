@@ -29,8 +29,7 @@ MtPyre_5F_Text_AtsushiDefeat:
 MtPyre_5F_Text_AtsushiPostBattle:
 #if GERMAN
 	.string "Wenn ich nicht besser werde, wird mein\n"
-	.string "Lehrer, der hier ruht, keine Ruhe\l"
-	.string "finden.$"
+	.string "Lehrer, der hier ruht, keine Ruhe finden.$"
 #else
 	.string "Until I improve, my teacher, who rests\n"
 	.string "here, will never find true peace…$"

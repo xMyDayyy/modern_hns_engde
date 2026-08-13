@@ -16,8 +16,8 @@ MoveTutor_Text_SwaggerTeach:
 	.string "Heh! Mein Pokémon ist das Beste!\n"
 	.string "Kein anderes ist so cool wie meins!\p"
 	.string "Ich bin herumstolziert und habe\n"
-	.string "angegeben, bis ein Vorsitzender mich\l"
-	.string "zu Fall brachte.\p"
+	.string "angegeben, bis ein Vorsitzender mich zu\l"
+	.string "Fall brachte.\p"
 	.string "Das hat meinen Hochmut abgekühlt.\p"
 	.string "Wenn du magst, dann bringe ich einem\n"
 	.string "deiner Pokémon Angeberei bei.$"
@@ -61,9 +61,9 @@ MoveTutor_Text_SwaggerTaught:
 
 MoveTutor_Text_RolloutTeach:
 #if GERMAN
-	.string "Wusstest du, dass du von hier lange\n"
-	.string "in diese Richtung dort gehen kannst,\l"
-	.string "ohne die Richtung wechseln zu müssen?\p"
+	.string "Wusstest du, dass du von hier lange in\n"
+	.string "diese Richtung dort gehen kannst, ohne\l"
+	.string "die Richtung wechseln zu müssen?\p"
 	.string "Ich bin sogar in der Lage, den ganzen\n"
 	.string "Weg entlang zu walzen.\p"
 	.string "Ob eines deiner Pokémon das auch\n"
@@ -311,9 +311,9 @@ MoveTutor_Text_SubstituteTeach:
 #if GERMAN
 	.string "Wenn ich die weite Welt von hier oben\n"
 	.string "aus betrachte…\p"
-	.string "dann wünschte ich mir, es gäbe mich\n"
-	.string "mehr als einmal, damit ich alle schönen\l"
-	.string "Dinge des Lebens genießen kann.\p"
+	.string "dann wünschte ich mir, es gäbe mich mehr\n"
+	.string "als einmal, damit ich alle schönen Dinge\l"
+	.string "des Lebens genießen kann.\p"
 	.string "Aber das ist ja leider nicht möglich…\n"
 	.string "Kicher…\p"
 	.string "Ich weiß! Soll ich einem deiner Pokémon\n"
@@ -526,8 +526,8 @@ MoveTutor_Text_ExplosionTaught:
 MoveTutor_Text_HeadbuttTeach:
 #if GERMAN
 	.string "Was ich mache?\p"
-	.string "Ich schüttle die Bäume mit\n"
-	.string "einer Kopfnuss. Denkst du dein Pokémon\l"
+	.string "Ich schüttle die Bäume mit einer\n"
+	.string "Kopfnuss. Denkst du dein Pokémon\l"
 	.string "möchte das auch lernen?\p"
 	.string "Ich kann es einem beibringen,\n"
 	.string "wenn du möchtest.$"

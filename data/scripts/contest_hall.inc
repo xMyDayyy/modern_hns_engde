@@ -1450,8 +1450,8 @@ LilycoveCity_ContestLobby_Text_WhichTopic1:
 
 LilycoveCity_ContestLobby_Text_ExplainContests:
 #if GERMAN
-	.string "In einem Pokémon Wettbewerb zeigen\n"
-	.string "4 Trainer jeweils eines ihrer Pokémon\l"
+	.string "In einem Pokémon Wettbewerb zeigen 4\n"
+	.string "Trainer jeweils eines ihrer Pokémon\l"
 	.string "einer Jury.\p"
 	.string "Der Wettbewerb besteht aus zwei\n"
 	.string "Durchläufen.\p"
@@ -1567,8 +1567,7 @@ LilycoveCity_ContestLobby_Text_EnterWhichPokemon1:
 LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank:
 #if GERMAN
 	.string "Tut mir schrecklich Leid, aber dein\n"
-	.string "Pokémon kann hier noch nicht\l"
-	.string "antreten…$"
+	.string "Pokémon kann hier noch nicht antreten…$"
 #else
 	.string "I'm terribly sorry, but your POKéMON\n"
 	.string "is not qualified to compete at this\l"
@@ -1674,9 +1673,9 @@ ContestHall_Text_GettingStartedParticipantsAsFollows:
 
 ContestHall_Text_GettingStartedParticipantsAsFollowsLink:
 #if GERMAN
-	.string "MC: Hallo! Wir fangen nun mit einem \n"
-	.string "4-Spieler Pokémon {STR_VAR_2}-\l"
-	.string "Wettbewerb via Link an!\p"
+	.string "MC: Hallo! Wir fangen nun mit einem\n"
+	.string "4-Spieler Pokémon\l"
+	.string "{STR_VAR_2}-Wettbewerb via Link an!\p"
 	.string "Die folgenden Trainer und ihre Pokémon\n"
 	.string "nehmen teil:$"
 #else
@@ -1728,8 +1727,8 @@ ContestHall_Text_VotingCompleteLetsAppeal:
 	.string "Während diese ausgewertet wird, kommen\n"
 	.string "wir zum zweiten Durchlauf!\p"
 	.string "Im zweiten Durchlauf zeigen uns die\n"
-	.string "Kontrahenten die Ausdruckskraft\l"
-	.string "ihrer Attacken!\p"
+	.string "Kontrahenten die Ausdruckskraft ihrer\l"
+	.string "Attacken!\p"
 	.string "Hoffen wir, dass sie uns mit ihren Vor-\n"
 	.string "führungen den Atem rauben!\p"
 	.string "Hoffen wir auf Enthusiasmus!\n"
@@ -1859,8 +1858,8 @@ ContestHall_Text_OnlyRegister4Players:
 #if GERMAN
 	.string "Ich registriere nur vier Spieler für\n"
 	.string "Pokémon-Wettbewerbe.\p"
-	.string "Wenn sich drei weitere Spieler ver-\n"
-	.string "binden, können alle vier am selben\l"
+	.string "Wenn sich drei weitere Spieler\n"
+	.string "verbinden, können alle vier am selben\l"
 	.string "Wettbewerb teilnehmen.\p"
 	.string "Möchtest du teilnehmen?$"
 #else
@@ -1900,9 +1899,9 @@ LilycoveCity_ContestLobby_Text_EnterContest2:
 @ Unused
 LilycoveCity_ContestLobby_Text_Explain4PlayerContest:
 #if GERMAN
-	.string "Wenn vier Spieler bereit sind, ver-\n"
-	.string "bindet euch bitte über ein Link-Kabel\l"
-	.string "und meldet euch bei mir an.\p"
+	.string "Wenn vier Spieler bereit sind, verbindet\n"
+	.string "euch bitte über ein Link-Kabel und\l"
+	.string "meldet euch bei mir an.\p"
 	.string "Bitte wählt alle denselben Wettbewerb\n"
 	.string "wie eure Mitstreiter.\p"
 	.string "Der Wettbewerb beginnt, sobald alle\n"
@@ -2157,9 +2156,9 @@ LilycoveCity_ContestLobby_Text_ExplainLinkContest:
 
 LilycoveCity_ContestLobby_Text_ExplainEMode:
 #if GERMAN
-	.string "Im S-Modus (Smaragdmodus) können\n"
-	.string "Link Wettbewerbe mit zwei oder vier\l"
-	.string "Spielern veranstaltet werden. Jeder\p"
+	.string "Im S-Modus (Smaragdmodus) können Link\n"
+	.string "Wettbewerbe mit zwei oder vier Spielern\l"
+	.string "veranstaltet werden. Jeder\p"
 	.string "Spieler muss ein Spielmodul der \n"
 	.string "Pokémon Smaragd-Edition besitzen.\p"
 	.string "Die Verbindung wird mit dem Drahtlosen\n"
@@ -2169,9 +2168,8 @@ LilycoveCity_ContestLobby_Text_ExplainEMode:
 	.string "miteinander verbunden, dann wird ein\l"
 	.string "Trainer aus der Vorhalle den vierten\l"
 	.string "Spieler ersetzen.\p"
-	.string "Der S-Modus ist mit der Pokémon\n"
-	.string "Rubin- oder Saphir-Edition nicht\l"
-	.string "spielbar.$"
+	.string "Der S-Modus ist mit der Pokémon Rubin-\n"
+	.string "oder Saphir-Edition nicht spielbar.$"
 #else
 	.string "In E-MODE (EMERALD MODE),\n"
 	.string "a LINK CONTEST can be held with\l"
@@ -2240,9 +2238,9 @@ LilycoveCity_ContestLobby_Text_WhichContestMode:
 
 ContestHall_Text_GettingStartedWireless:
 #if GERMAN
-	.string "MC: Hallo! Wir fangen nun mit einem \n"
-	.string "4-Spieler Pokémon {STR_VAR_2}-\l"
-	.string "Wettbewerb via Link an!$"
+	.string "MC: Hallo! Wir fangen nun mit einem\n"
+	.string "4-Spieler Pokémon\l"
+	.string "{STR_VAR_2}-Wettbewerb via Link an!$"
 #else
 	.string "MC: Hello! We're just getting started\n"
 	.string "with a 4-player linked POKéMON\l"
@@ -2301,8 +2299,8 @@ ContestHall_Text_VotingComplete:
 ContestHall_Text_SecondStageOfJudging:
 #if GERMAN
 	.string "Im zweiten Durchlauf zeigen uns die\n"
-	.string "Kontrahenten die Ausdruckskraft\l"
-	.string "ihrer Attacken!\p"
+	.string "Kontrahenten die Ausdruckskraft ihrer\l"
+	.string "Attacken!\p"
 	.string "Hoffen wir, dass sie uns mit ihren Vor-\n"
 	.string "führungen den Atem rauben!$"
 #else

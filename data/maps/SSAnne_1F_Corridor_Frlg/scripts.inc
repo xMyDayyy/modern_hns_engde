@@ -12,8 +12,7 @@ SSAnne_1F_Corridor_EventScript_Sailor::
 SSAnne_1F_Corridor_Text_LeStrongSilentType::
 #if GERMAN
 	.string "Moin, moin, du Landradde!\n"
-	.string "Ich bin der Steward auf diesem\l"
-	.string "Kahn!\p"
+	.string "Ich bin der Steward auf diesem Kahn!\p"
 	.string "Ruf mich einfach, wenn du einen\n"
 	.string "Wunsch hast!\p"
 	.string "Verdammich, gesprächig bist du\n"

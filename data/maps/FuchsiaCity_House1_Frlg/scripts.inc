@@ -19,9 +19,8 @@ FuchsiaCity_House1_EventScript_LittleBoy::
 
 FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
 #if GERMAN
-	.string "Der Wärter der Safari-Zone ist\n"
-	.string "sehr alt! Aber er ist noch immer im\l"
-	.string "Dienst!\p"
+	.string "Der Wärter der Safari-Zone ist sehr alt!\n"
+	.string "Aber er ist noch immer im Dienst!\p"
 	.string "Allerdings trägt er ein Gebiss!$"
 #else
 	.string "The SAFARI ZONE's WARDEN is old, \n"

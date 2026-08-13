@@ -99,8 +99,8 @@ Route103_EventScript_RivalEndHns::
 Route103_Text_MayHnsMusing:
 #if GERMAN
 	.string "Maike: Mal sehen…\n"
-	.string "Hier oben müssten doch ein paar\l"
-	.string "starke Pokémon zu finden sein…$"
+	.string "Hier oben müssten doch ein paar starke\l"
+	.string "Pokémon zu finden sein…$"
 #else
 	.string "MAY: Let's see…\n"
 	.string "There should be some strong\l"
@@ -110,12 +110,12 @@ Route103_Text_MayHnsMusing:
 Route103_Text_MayHnsLetsBattle:
 #if GERMAN
 	.string "Oh! Du bist {PLAYER}, stimmt's?\p"
-	.string "Papa hat mir von dir erzählt -\n"
-	.string "der Champion aus Johto und Kanto,\l"
-	.string "hier bei uns in Hoenn!\p"
+	.string "Papa hat mir von dir erzählt - der\n"
+	.string "Champion aus Johto und Kanto, hier bei\l"
+	.string "uns in Hoenn!\p"
 	.string "Ich bin Maike, Prof. Birks Tochter.\n"
-	.string "Und ich will wissen, wo ich stehe:\l"
-	.string "Kämpf mit mir!$"
+	.string "Und ich will wissen, wo ich stehe: Kämpf\l"
+	.string "mit mir!$"
 #else
 	.string "Oh! You're {PLAYER}, right?\p"
 	.string "Dad told me about you - the\n"
@@ -141,13 +141,12 @@ Route103_Text_MayHnsAfterBattle:
 	.string "verlieren ist keine Schande!\p"
 	.string "Weißt du was? Du bist ab jetzt\n"
 	.string "meine Messlatte.\p"
-	.string "Jedes Mal, wenn wir uns wieder-\n"
-	.string "sehen, fordere ich dich heraus -\l"
-	.string "dann sehe ich genau, wie viel\l"
-	.string "stärker ich geworden bin!\p"
-	.string "Warte, ich trage mich in deinem\n"
-	.string "PokéCom ein - dann findest du\l"
-	.string "mich jederzeit!\p"
+	.string "Jedes Mal, wenn wir uns wiedersehen,\n"
+	.string "fordere ich dich heraus - dann sehe ich\l"
+	.string "genau, wie viel stärker ich geworden\l"
+	.string "bin!\p"
+	.string "Warte, ich trage mich in deinem PokéCom\n"
+	.string "ein - dann findest du mich jederzeit!\p"
 	.string "Ich gehe zurück ins Labor.\n"
 	.string "Bis bald, {PLAYER}!$"
 #else
@@ -469,12 +468,10 @@ Route103_Text_MayDefeated:
 
 Route103_Text_MayTimeToHeadBack:
 #if GERMAN
-	.string "Maike: Ich glaube, ich weiß jetzt,\n"
-	.string "warum\l"
+	.string "Maike: Ich glaube, ich weiß jetzt, warum\n"
 	.string "mein Vater dich ausgesucht hat.\p"
 	.string "Ich meine, du hast dein Pokémon erst\n"
-	.string "sehr kurze Zeit und es mag dich\l"
-	.string "bereits. \p"
+	.string "sehr kurze Zeit und es mag dich bereits.\p"
 	.string "Du wirst es einfach haben, dich mit\n"
 	.string "jeder Art von Pokémon anzufreunden.\p"
 	.string "Nun wird es aber Zeit, zurück ins\n"
@@ -551,8 +548,7 @@ Route103_Text_BrendanTimeToHeadBack:
 Route103_Text_ShouldHaveBroughtPotion:
 #if GERMAN
 	.string "Mein Pokémon ist unglaublich müde…\n"
-	.string "Ich hätte einen Trank mitnehmen\l"
-	.string "sollen.$"
+	.string "Ich hätte einen Trank mitnehmen sollen.$"
 #else
 	.string "My POKéMON is staggeringly tired…\n"
 	.string "I should have brought a POTION…$"

@@ -234,8 +234,8 @@ RuinsOfAlph_Outside_Text_Fisher2:
 RuinsOfAlph_Outside_Text_Youngster1:
 #if GERMAN
 	.string "Es gibt viele unterschiedliche\n"
-	.string "Icognito, die wir\l"
-	.string "für unsere Geheimcodes benötigen.$"
+	.string "Icognito, die wir für unsere\l"
+	.string "Geheimcodes benötigen.$"
 #else
 	.string "There are many kinds of UNOWN, so\n"
 	.string "we use them for our secret codes.$"

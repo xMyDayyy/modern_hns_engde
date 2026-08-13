@@ -113,8 +113,8 @@ GoldenrodCity_UndergroundTunnel_Movement_Kimono_Leave2:
 GoldenrodCity_UndergroundTunnel_Text_Kimono1:
 #if GERMAN
 	.string "Diese schwarz beklufteten Damen und\n"
-	.string "Herren von Team Rocket scheinen\l"
-	.string "ja sehr beschäftigt zu sein…\p"
+	.string "Herren von Team Rocket scheinen ja\l"
+	.string "sehr beschäftigt zu sein…\p"
 	.string "Das hat mich neugierig gemacht. Sagt\n"
 	.string "bloß, Ihr wollt sie Euch vorknöpfen?\l"
 	.string "Ihr seid wirklich äußerst mutig!\p"
@@ -565,9 +565,8 @@ GoldenrodUnderground_Text_PokemaniacDonaldBeaten:
 
 GoldenrodUnderground_Text_PokemaniacDonaldAfterBattle:
 #if GERMAN
-	.string "Gestern Abend beim Fahrradladen\n"
-	.string "fühlte ich mich von den Dächern\l"
-	.string "beobachtet…$"
+	.string "Gestern Abend beim Fahrradladen fühlte\n"
+	.string "ich mich von den Dächern beobachtet…$"
 #else
 	.string "When I was walking near the BIKE\n"
 	.string "SHOP last night, I felt like I was\l"

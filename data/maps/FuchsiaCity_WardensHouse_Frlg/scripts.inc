@@ -106,8 +106,8 @@ FuchsiaCity_WardensHouse_Text_WardenPoppedInHisTeeth::
 FuchsiaCity_WardensHouse_Text_ThanksSonGiveYouSomething::
 #if GERMAN
 	.string "Wärter: Danke!\n"
-	.string "Niemand hat auch nur ein Wort von\l"
-	.string "mir verstanden!\p"
+	.string "Niemand hat auch nur ein Wort von mir\l"
+	.string "verstanden!\p"
 	.string "So konnte ich nicht arbeiten.\n"
 	.string "Nimm das hier für deine Mühen.$"
 #else
@@ -124,8 +124,8 @@ FuchsiaCity_WardensHouse_Text_ThanksSonGiveYouSomething::
 FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething::
 #if GERMAN
 	.string "Wärter: Danke!\n"
-	.string "Niemand hat auch nur ein Wort von\l"
-	.string "mir verstanden!\p"
+	.string "Niemand hat auch nur ein Wort von mir\l"
+	.string "verstanden!\p"
 	.string "So konnte ich nicht arbeiten.\n"
 	.string "Nimm das hier für deine Mühen.$"
 #else

@@ -30,8 +30,8 @@ ThreeIsland_BondBridge_Text_NikkiDefeat::
 ThreeIsland_BondBridge_Text_NikkiPostBattle::
 #if GERMAN
 	.string "Vielleicht ist es der verschwitzte\n"
-	.string "Körper eines deiner Pokémon,\l"
-	.string "der hier so riecht…$"
+	.string "Körper eines deiner Pokémon, der hier so\l"
+	.string "riecht…$"
 #else
 	.string "Perhaps that reek is your sweaty\n"
 	.string "POKéMON's body odor…$"
@@ -65,9 +65,8 @@ ThreeIsland_BondBridge_Text_VioletPostBattle::
 
 ThreeIsland_BondBridge_Text_AmiraIntro::
 #if GERMAN
-	.string "Meine Mutter sagt, dass ich ohne\n"
-	.string "meinen Schwimmreif nicht\l"
-	.string "schwimmen kann.$"
+	.string "Meine Mutter sagt, dass ich ohne meinen\n"
+	.string "Schwimmreif nicht schwimmen kann.$"
 #else
 	.string "My mommy said that I can't swim\n"
 	.string "without my float ring.$"

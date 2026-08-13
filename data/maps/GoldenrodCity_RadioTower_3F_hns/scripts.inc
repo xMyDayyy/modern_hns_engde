@@ -168,8 +168,8 @@ GoldenrodCity_RadioTower_3F_Text_PokemonMusicSign:
 
 GoldenrodCity_RadioTower_3F_Text_SuperNerd:
 #if GERMAN
-	.string "Wir haben die Rufe von allen\n"
-	.string "bekannten Pokémon auf Tonband.\l"
+	.string "Wir haben die Rufe von allen bekannten\n"
+	.string "Pokémon auf Tonband.\l"
 	.string "Es sind circa 200!$"
 #else
 	.string "We have recordings of the cries\n"
@@ -325,8 +325,8 @@ GoldenrodCity_RadioTower_3F_Text_GruntM9Beaten:
 
 GoldenrodCity_RadioTower_3F_Text_GruntM9After:
 #if GERMAN
-	.string "Was?!? Du bist an unseren Männern\n"
-	.string "im Untergrund vorbeigekommen?\l"
+	.string "Was?!? Du bist an unseren Männern im\n"
+	.string "Untergrund vorbeigekommen?\l"
 	.string "Wie hast du das fertiggebracht?$"
 #else
 	.string "What?! You made it past our men in\n"

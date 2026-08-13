@@ -117,8 +117,8 @@ EcruteakCity_PokemonCenter1F_Text_Bill2:
 	.string "benutzt, oder?\p"
 	.string "Diesen habe ich selbst entwickelt!\p"
 	.string "Jetzt, wo ich diesen hier installiert\n"
-	.string "habe, läuft mein PC in allen\l"
-	.string "Pokécenter in Johto und Kanto.\p"
+	.string "habe, läuft mein PC in allen Pokécenter\l"
+	.string "in Johto und Kanto.\p"
 	.string "Ich muss schnell zurück nach\n"
 	.string "Dukatia City und meine Leute sehen.\l"
 	.string "Du kannst aber jederzeit vorbeikommen!\l"
@@ -142,9 +142,8 @@ EcruteakCity_PokemonCenter1F_Text_Bill2:
 EcruteakCity_PokemonCenter1F_Text_PokefanM:
 #if GERMAN
 	.string "Sowohl der Tanz der Kimono-Girls\p"
-	.string "als auch die Art,\n"
-	.string "wie sie ihre Pokémon einsetzen,\l"
-	.string "ist wunderbar!$"
+	.string "als auch die Art, wie sie ihre Pokémon\n"
+	.string "einsetzen, ist wunderbar!$"
 #else
 	.string "The way the KIMONO GIRLS dance is\n"
 	.string "marvelous.\p"

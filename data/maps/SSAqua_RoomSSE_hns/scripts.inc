@@ -80,9 +80,8 @@ SSAqua_RoomSSE_Text_CantFindGranddaughter:
 	.string "Wenn sie an Bord\n"
 	.string "ist, ist alles in Ordnung.\p"
 	.string "Sie ist ein Energiebündel und\p"
-	.string "könnte jemanden\n"
-	.string "nerven. Ich mache mir ernsthaft\l"
-	.string "Sorgen…$"
+	.string "könnte jemanden nerven. Ich mache mir\n"
+	.string "ernsthaft Sorgen…$"
 #else
     .string "Oh, hello…\p"
     .string "I still can't find my\n"
@@ -96,9 +95,8 @@ SSAqua_RoomSSE_Text_CantFindGranddaughter:
 
 SSAqua_RoomSSE_Text_EntertainedGranddaughter:
 #if GERMAN
-	.string "Oh du bist es, ich\n"
-	.string "hörte, du hast meine Enkelin bei Laune\l"
-	.string "gehalten.\p"
+	.string "Oh du bist es, ich hörte, du hast meine\n"
+	.string "Enkelin bei Laune gehalten.\p"
 	.string "Ich möchte dir dafür danken.$"
 #else
     .string "{PLAYER}, was it?\n"

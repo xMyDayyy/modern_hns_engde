@@ -8,9 +8,8 @@ FiveIsland_LostCave_Room4_EventScript_Laura::
 
 FiveIsland_LostCave_Room4_Text_LauraIntro::
 #if GERMAN
-	.string "Ich glaube, dass in dieser\n"
-	.string "Höhle eine geheimnisvolle\l"
-	.string "Kraft wirkt.$"
+	.string "Ich glaube, dass in dieser Höhle eine\n"
+	.string "geheimnisvolle Kraft wirkt.$"
 #else
 	.string "I think there is a mysterious power\n"
 	.string "at work in this cave.$"
@@ -18,9 +17,8 @@ FiveIsland_LostCave_Room4_Text_LauraIntro::
 
 FiveIsland_LostCave_Room4_Text_LauraDefeat::
 #if GERMAN
-	.string "Wenn du nicht den richtigen\n"
-	.string "Tunnel erwischst, kommst\l"
-	.string "du nie voran!$"
+	.string "Wenn du nicht den richtigen Tunnel\n"
+	.string "erwischst, kommst du nie voran!$"
 #else
 	.string "If you don't go into the right\n"
 	.string "tunnel, you won't get ahead.$"

@@ -12,9 +12,9 @@ Route9_PokemonCenter_EventScript_Engineer2::
 
 Route9_PokemonCenter_Text_Engineer1:
 #if GERMAN
-	.string "Manchmal kommen wir Ingenieure\n"
-	.string "hierher, um eine Pause zu machen\l"
-	.string "oder um dem Chef zu entkommen.\p"
+	.string "Manchmal kommen wir Ingenieure hierher,\n"
+	.string "um eine Pause zu machen oder um dem\l"
+	.string "Chef zu entkommen.\p"
 	.string "Der Typ ist verrückt.$"
 #else
 	.string "Sometimes us engineers come here\n"

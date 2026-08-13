@@ -179,8 +179,7 @@ SaffronCity_Dojo_Text_ChoosePrizedFightingMon::
 #if GERMAN
 	.string "Ich bin deiner Gnade unwürdig!\p"
 	.string "Trotzdem flehe ich dich an, unser\n"
-	.string "Emblem nicht als Trophäe\l"
-	.string "mitzunehmen!\p"
+	.string "Emblem nicht als Trophäe mitzunehmen!\p"
 	.string "Zum Ersatz gebe ich dir ein\n"
 	.string "preisgekröntes Kampf-Pokémon!\p"
 	.string "Wähle eines von beiden aus!$"

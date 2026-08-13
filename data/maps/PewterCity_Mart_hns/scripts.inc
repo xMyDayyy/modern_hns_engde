@@ -13,9 +13,9 @@ PewterCity_Mart_Text_Youngster:
 #if GERMAN
 	.string "Hi! Mach doch Bekanntschaft\n"
 	.string "mit meinem Garados!\p"
-	.string "Ich habe es als Karpador\n"
-	.string "aufgezogen. Kaum zu\l"
-	.string "glauben, wie stark es geworden ist.$"
+	.string "Ich habe es als Karpador aufgezogen.\n"
+	.string "Kaum zu glauben, wie stark es geworden\l"
+	.string "ist.$"
 #else
 	.string "Hi! Check out my GYARADOS!\p"
 	.string "I raised it from a MAGIKARP. I can't\n"
@@ -24,9 +24,8 @@ PewterCity_Mart_Text_Youngster:
 
 PewterCity_Mart_Text_SuperNerd:
 #if GERMAN
-	.string "Es gab mal einen\n"
-	.string "komischen, alten Mann, der Karpador\l"
-	.string "verkaufte.\p"
+	.string "Es gab mal einen komischen, alten Mann,\n"
+	.string "der Karpador verkaufte.\p"
 	.string "Er sagte immer, die Karpador im\n"
 	.string "See des Zorns seien außergewöhnlich.$"
 #else

@@ -322,8 +322,8 @@ FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite:
 	.string "Das Kampfcamp in Laubwechselfeld\n"
 	.string "ist mein Lieblingsort.\p"
 	.string "Ich finde es einfach fantastisch, wie\n"
-	.string "die Trainer versuchen zu gewinnen\l"
-	.string "und ganz fest an ihre Pokémon glauben.$"
+	.string "die Trainer versuchen zu gewinnen und\l"
+	.string "ganz fest an ihre Pokémon glauben.$"
 #else
 	.string "You know how BATTLE TENTS offer\n"
 	.string "different events in different towns?\p"

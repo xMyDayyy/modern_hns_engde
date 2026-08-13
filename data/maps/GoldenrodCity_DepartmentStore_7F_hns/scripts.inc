@@ -74,9 +74,8 @@ GoldenrodDeptStore7_EventScript_Bugcatcher::
 GoldenrodDeptStore_Text_RoofPokefanF:
 #if GERMAN
 	.string "Puh, bin ich müde.\p"
-	.string "Manchmal gehe ich\n"
-	.string "auf die Dachterrasse, um eine\l"
-	.string "Einkaufspause einzulegen.$"
+	.string "Manchmal gehe ich auf die Dachterrasse,\n"
+	.string "um eine Einkaufspause einzulegen.$"
 #else
     .string "Whew, I'm tired.\p"
     .string "I sometimes come up to the rooftop\n"
@@ -121,8 +120,8 @@ GoldenrodDeptStore_Text_RoofSuperNerdQuitBotheringMe:
 GoldenrodDeptStore_Text_RoofPokefanM:
 #if GERMAN
 	.string "Es gibt etwas, das ich unbedingt\n"
-	.string "möchte, aber mir\l"
-	.string "fehlt das nötige Kleingeld…\p"
+	.string "möchte, aber mir fehlt das nötige\l"
+	.string "Kleingeld…\p"
 	.string "Soll ich meine\n"
 	.string "gesammelten Beeren verkaufen…$"
 #else
@@ -144,9 +143,9 @@ GoldenrodDeptStore_Text_RoofTeacher:
 
 GoldenrodDeptStore_Text_RoofBugCatcher:
 #if GERMAN
-	.string "Meine Pokémon\n"
-	.string "sind immer paralysiert oder vergiftet,\l"
-	.string "wenn es darauf ankommt…\p"
+	.string "Meine Pokémon sind immer paralysiert\n"
+	.string "oder vergiftet, wenn es darauf\l"
+	.string "ankommt…\p"
 	.string "Daher möchte ich Hyperheiler kaufen.\p"
 	.string "Hoffentlich gibt es noch welche?$"
 #else

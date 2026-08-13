@@ -48,13 +48,11 @@ Route114_LanettesHouse_EventScript_PC::
 Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
 #if GERMAN
 	.string "Lanette: Oh! {PLAYER}{KUN}!\p"
-	.string "Entschuldige, dass es hier so\n"
-	.string "chaotisch\l"
+	.string "Entschuldige, dass es hier so chaotisch\n"
 	.string "aussieht. Immer, wenn ich forsche,\l"
 	.string "vergesse ich aufzuräumen…\p"
 	.string "Das ist echt peinlich… Erzähl das bloß\n"
-	.string "niemandem! Ich gebe dir auch dies\l"
-	.string "hier…$"
+	.string "niemandem! Ich gebe dir auch dies hier…$"
 #else
 	.string "LANETTE: Oh! {PLAYER}{KUN}!\p"
 	.string "I'm sorry everything is so cluttered…\n"
@@ -69,8 +67,8 @@ Route114_LanettesHouse_Text_OrganizeYourBoxes:
 	.string "Soll ich dir einige Hinweise zum\n"
 	.string "Pokémon-Lagerungs-System geben?\p"
 	.string "Du solltest deine Boxen gut verwalten,\n"
-	.string "damit du weißt, welche Pokémon sich \l"
-	.string "in welcher Box befinden…$"
+	.string "damit du weißt, welche Pokémon sich in\l"
+	.string "welcher Box befinden…$"
 #else
 	.string "May I offer advice about my POKéMON\n"
 	.string "Storage System?\p"
@@ -122,9 +120,9 @@ Route114_LanettesHouse_Text_ResearchNotesPage3:
 	.string "Letzte geöffnet wurde.\p"
 	.string "Ist diese Box voll, wird das Pokémon\n"
 	.string "in der nächsten Box gelagert.\p"
-	.string "Mit anderen Worten, die zuletzt ge-\n"
-	.string "öffnete Box wird automatisch gewählt,\l"
-	.string "um ein Pokémon zu lagern.$"
+	.string "Mit anderen Worten, die zuletzt\n"
+	.string "geöffnete Box wird automatisch\l"
+	.string "gewählt, um ein Pokémon zu lagern.$"
 #else
 	.string "When storing a POKéMON, it should be\n"
 	.string "sent to the BOX inspected last.\p"
@@ -154,9 +152,9 @@ Route114_LanettesHouse_Text_EmailFromBill:
 	.string "machen.\p"
 	.string "Es macht mich stolz, dass ich Teil\n"
 	.string "dieser Entwicklung war.\p"
-	.string "Ich hoffe sehr, du setzt deine For-\n"
-	.string "schungen in diesem Bereich weiter\l"
-	.string "fort. \p"
+	.string "Ich hoffe sehr, du setzt deine\n"
+	.string "Forschungen in diesem Bereich weiter\l"
+	.string "fort.\p"
 	.string "Bill … … … … … … … …”$"
 #else
 	.string "There's an e-mail from someone on\n"

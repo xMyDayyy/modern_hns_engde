@@ -16,9 +16,8 @@ SafariZone_West_RestHouse_EventScript_CooltrainerF::
 SafariZone_West_Text_KogaPatrolsSafariEverySoOften::
 #if GERMAN
 	.string "Die Safari-Zone ist riesig, nicht?\p"
-	.string "Der Arenaleiter von Fuchsania\n"
-	.string "City, Koga, hält hier gelegentlich\l"
-	.string "Wache.\p"
+	.string "Der Arenaleiter von Fuchsania City,\n"
+	.string "Koga, hält hier gelegentlich Wache.\p"
 	.string "Dank ihm können wir hier in\n"
 	.string "Sicherheit spielen.$"
 #else
@@ -32,9 +31,9 @@ SafariZone_West_Text_KogaPatrolsSafariEverySoOften::
 
 SafariZone_West_Text_RocksMakeMonRunButEasierCatch::
 #if GERMAN
-	.string "Wenn auf dem PC eine Pokémon-Box\n"
-	.string "voll ist, wechsle einfach zu einer\l"
-	.string "anderen Box!$"
+	.string "Wenn auf dem PC eine Pokémon-Box voll\n"
+	.string "ist, wechsle einfach zu einer anderen\l"
+	.string "Box!$"
 #else
 	.string "Tossing ROCKS at POKéMON might\n"
 	.string "make them run, but they'll be\l"
@@ -43,10 +42,9 @@ SafariZone_West_Text_RocksMakeMonRunButEasierCatch::
 
 SafariZone_West_Text_BaitMakesMonStickAround::
 #if GERMAN
-	.string "Wenn du ihnen Köder zuwirfst,\n"
-	.string "bleiben die Pokémon eher an\l"
-	.string "einem Ort, da sie mit dem Fressen\l"
-	.string "beschäftigt sind!$"
+	.string "Wenn du ihnen Köder zuwirfst, bleiben\n"
+	.string "die Pokémon eher an einem Ort, da sie\l"
+	.string "mit dem Fressen beschäftigt sind!$"
 #else
 	.string "Using BAIT will make POKéMON more\n"
 	.string "likely to stick around if they get\l"

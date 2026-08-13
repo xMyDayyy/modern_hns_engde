@@ -75,9 +75,8 @@ AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
 #if GERMAN
 	.string "Der Schiffsrumpf liegt tief unter der\n"
 	.string "Wasserlinie.\p"
-	.string "Wenn ein Pokémon wissen würde, wie\n"
-	.string "man taucht, würden wir Fortschritte\l"
-	.string "machen.$"
+	.string "Wenn ein Pokémon wissen würde, wie man\n"
+	.string "taucht, würden wir Fortschritte machen.$"
 #else
 	.string "The ship's bottom has sunk into the\n"
 	.string "depths.\p"

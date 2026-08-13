@@ -50,10 +50,9 @@ PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
 
 PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats:
 #if GERMAN
-	.string "Man sagt, die Vorfahren der Menschen\n"
-	.string "in Flossbrunn wurden an Bord von\l"
-	.string "Schiffen geboren, lebten und starben\l"
-	.string "auch dort.\p"
+	.string "Man sagt, die Vorfahren der Menschen in\n"
+	.string "Flossbrunn wurden an Bord von Schiffen\l"
+	.string "geboren, lebten und starben auch dort.\p"
 	.string "Diese Lebensart ist verständlich, denn\n"
 	.string "sie waren auf der Suche nach etwas.$"
 #else

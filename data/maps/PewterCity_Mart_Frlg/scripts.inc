@@ -49,8 +49,7 @@ PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently::
 #if GERMAN
 	.string "Wenn man seine Pokémon eifrig\n"
 	.string "trainiert, können selbst schwächere\l"
-	.string "Pokémon für Überraschungen gut\l"
-	.string "sein!$"
+	.string "Pokémon für Überraschungen gut sein!$"
 #else
 	.string "Good things can happen if you raise\n"
 	.string "POKéMON diligently.\p"

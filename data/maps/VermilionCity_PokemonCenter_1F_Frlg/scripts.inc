@@ -45,9 +45,9 @@ VermilionCity_PokemonCenter_1F_EventScript_ExplainVSSeeker::
 
 VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild::
 #if GERMAN
-	.string "Auch wenn sie den gleichen Level\n"
-	.string "haben, können die Fähigkeiten von\l"
-	.string "Pokémon trotzdem verschieden sein.\p"
+	.string "Auch wenn sie den gleichen Level haben,\n"
+	.string "können die Fähigkeiten von Pokémon\l"
+	.string "trotzdem verschieden sein.\p"
 	.string "Das Pokémon eines Trainers ist\n"
 	.string "stärker als ein wild lebendes.$"
 #else
@@ -61,8 +61,8 @@ VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild::
 VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking::
 #if GERMAN
 	.string "Mein Pokémon wurde vergiftet!\n"
-	.string "Das Gift hat es lange nach dem\l"
-	.string "Kampf besiegt!$"
+	.string "Das Gift hat es lange nach dem Kampf\l"
+	.string "besiegt!$"
 #else
 	.string "My POKéMON was poisoned!\n"
 	.string "It fainted while we were walking!$"
@@ -73,8 +73,8 @@ VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes::
 	.string "Es stimmt, dass ein Pokémon mit\n"
 	.string "einem hohen Level sehr stark ist...\p"
 	.string "Allerdings haben alle Pokémon\n"
-	.string "Schwächen. Die richtige Attacke\l"
-	.string "kann sie leicht besiegen!\p"
+	.string "Schwächen. Die richtige Attacke kann\l"
+	.string "sie leicht besiegen!\p"
 	.string "Daher gibt es kein Universal-\n"
 	.string "Pokémon.$"
 #else
@@ -109,9 +109,8 @@ VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain::
 
 VermilionCity_PokemonCenter_1F_Text_UseDeviceForRematches::
 #if GERMAN
-	.string "Setze dieses Gerät ein und du\n"
-	.string "findest Trainer, die einen\l"
-	.string "Rückkampf möchten.\l"
+	.string "Setze dieses Gerät ein und du findest\n"
+	.string "Trainer, die einen Rückkampf möchten.\l"
 	.string "Du musst allerdings die Batterie\l"
 	.string "aufladen, um es zu betreiben!$"
 #else
@@ -125,14 +124,12 @@ VermilionCity_PokemonCenter_1F_Text_ExplainVSSeeker::
 #if GERMAN
 	.string "Wie man den Kampffahnder einsetzt?\n"
 	.string "Das ist einfach!\p"
-	.string "Er macht biep, biep, biep und\n"
-	.string "die Trainer um dich herum\l"
-	.string "werden darauf reagieren.\l"
-	.string "Falls ein Trainer einen\l"
-	.string "Rückkampf möchte, wird er\l"
-	.string "dir das zeigen.\l"
-	.string "Lade die Batterie auf und setze\l"
-	.string "ihn auf deinen Reisen ein.$"
+	.string "Er macht biep, biep, biep und die Trainer\n"
+	.string "um dich herum werden darauf reagieren.\l"
+	.string "Falls ein Trainer einen Rückkampf\l"
+	.string "möchte, wird er dir das zeigen.\l"
+	.string "Lade die Batterie auf und setze ihn auf\l"
+	.string "deinen Reisen ein.$"
 #else
 	.string "How do you use the VS SEEKER?\n"
 	.string "There's nothing to it.\p"

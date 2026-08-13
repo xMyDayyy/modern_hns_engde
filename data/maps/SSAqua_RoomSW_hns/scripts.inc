@@ -60,9 +60,8 @@ SSAqua_RoomSW_Text_GuitaristClydeAfterBattleMobile:
 #if GERMAN
 	.string "Ich wollte mein\n"
 	.string "Debut im Duellturm geben…\p"
-	.string "Ich sollte nach\n"
-	.string "Orania City zurückgehen und härter\l"
-	.string "trainieren…$"
+	.string "Ich sollte nach Orania City\n"
+	.string "zurückgehen und härter trainieren…$"
 #else
     .string "I was going to make my debut at\n"
     .string "the BATTLE TOWER…\p"

@@ -419,8 +419,7 @@ LilycoveCity_Text_MayShoppingLetsBattle:
 	.string "Natürlich habe ich auch Pokémon\n"
 	.string "gefangen und die ziehe ich geradezu\l"
 	.string "vorbildlich auf.\p"
-	.string "Ich habe eher Bedenken, dass du dich\n"
-	.string "um\l"
+	.string "Ich habe eher Bedenken, dass du dich um\n"
 	.string "deine Pokémon nicht richtig kümmerst.\p"
 	.string "\p"
 	.string "Ich werde gegen dich kämpfen, dann\n"
@@ -441,9 +440,9 @@ LilycoveCity_Text_MayShoppingLetsBattle:
 
 LilycoveCity_Text_MayNotRaisingPokemon:
 #if GERMAN
-	.string "Maike: Oh, hui. Hast du dich denn\n"
-	.string "nicht um deine Pokémon gekümmert,\l"
-	.string "{PLAYER}{KUN}? \p"
+	.string "Maike: Oh, hui. Hast du dich denn nicht\n"
+	.string "um deine Pokémon gekümmert,\l"
+	.string "{PLAYER}{KUN}?\p"
 	.string "Als Trainer machst du wirklich keinen\n"
 	.string "guten Eindruck!$"
 #else
@@ -597,9 +596,8 @@ LilycoveCity_Text_BrendanNoConfidence:
 
 LilycoveCity_Text_BrendanBattleMe:
 #if GERMAN
-	.string "Maike: Sollen wir kämpfen, um zu\n"
-	.string "sehen, wer seine Pokémon besser\l"
-	.string "trainiert?$"
+	.string "Maike: Sollen wir kämpfen, um zu sehen,\n"
+	.string "wer seine Pokémon besser trainiert?$"
 #else
 	.string "BRENDAN: Want to battle to see who's\n"
 	.string "been raising POKéMON better?$"
@@ -631,8 +629,7 @@ LilycoveCity_Text_BrendanGoingBackToLittleroot:
 	.string "Maike: Ich…\n"
 	.string "Ich gehe nach Hause, nach Wurzelheim.\l"
 	.string "\p"
-	.string "Weißt du, ich helfe meinem Vater bei\n"
-	.string "dem\l"
+	.string "Weißt du, ich helfe meinem Vater bei dem\n"
 	.string "Pokédex. Es geht ganz anständig voran\l"
 	.string "und ich sollte ihm das mal zeigen.$"
 #else
@@ -687,8 +684,7 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 	.string "Da du so stark geworden bist, solltest\n"
 	.string "du zur Kampfzone gehen.\p"
 	.string "Häh, wenn ich meine Pokémon besser\n"
-	.string "trainiere, sollte ich eigentlich\l"
-	.string "stärker\l"
+	.string "trainiere, sollte ich eigentlich stärker\l"
 	.string "werden als du…\p"
 	.string "Vielleicht sollte ich zur Kampfzone\n"
 	.string "gehen.\p"
@@ -727,9 +723,8 @@ LilycoveCity_Text_ChanceToDoBigThings:
 #if GERMAN
 	.string "Ich bin nur ein Rüpel, ich weiß nicht,\n"
 	.string "was unser Boss so vorhat…\p"
-	.string "Aber als Mitglied von Team Aqua habe\n"
-	.string "ich die Möglichkeit, große Dinge zu\l"
-	.string "tun! \p"
+	.string "Aber als Mitglied von Team Aqua habe ich\n"
+	.string "die Möglichkeit, große Dinge zu tun!\p"
 	.string "Ww…wer bist du denn??? I-Ich… hähähä,\n"
 	.string "habe nur mit mir selber gesprochen!$"
 #else
@@ -747,8 +742,7 @@ LilycoveCity_Text_DontGoNearCaveInCove:
 	.string "Komm bloß nicht in die Nähe der Höhle\n"
 	.string "in der Bucht!\p"
 	.string "Warum nicht? Das geht dich nichts an!\n"
-	.string "Ich bin ein Erwachsener, also\l"
-	.string "gehorche!$"
+	.string "Ich bin ein Erwachsener, also gehorche!$"
 #else
 	.string "Hey, you!\p"
 	.string "Don't go near the cave in the cove!\p"
@@ -759,8 +753,8 @@ LilycoveCity_Text_DontGoNearCaveInCove:
 LilycoveCity_Text_IfWorldBecomesOurs:
 #if GERMAN
 	.string "Wenn die ganze Welt erst einmal uns\n"
-	.string "gehört, Team Aqua, dann wird sie\l"
-	.string "ein besserer Ort für Pokémon sein.$"
+	.string "gehört, Team Aqua, dann wird sie ein\l"
+	.string "besserer Ort für Pokémon sein.$"
 #else
 	.string "If this whole wide world becomes ours,\n"
 	.string "TEAM AQUA's, it will be a happier\l"
@@ -779,8 +773,7 @@ LilycoveCity_Text_WailmerLeapOutOfWater:
 LilycoveCity_Text_GetLostMessingUpTraining:
 #if GERMAN
 	.string "Häh? Was willst du?\p"
-	.string "Du störst uns beim Training, also\n"
-	.string "würde\l"
+	.string "Du störst uns beim Training, also würde\n"
 	.string "ich vorschlagen, du verschwindest!$"
 #else
 	.string "Hunh? What do you want?\p"
@@ -819,9 +812,9 @@ LilycoveCity_Text_GoingToMoveDeleterForHMs:
 	.string "Ich werde meinem Pokémon einige neue\n"
 	.string "Attacken für den Wettbewerb\l"
 	.string "beibringen.\p"
-	.string "Daher werde ich den Attacken-\n"
-	.string "verlerner besuchen, damit einige\l"
-	.string "VMs verlernt werden.$"
+	.string "Daher werde ich den Attackenverlerner\n"
+	.string "besuchen, damit einige VMs verlernt\l"
+	.string "werden.$"
 #else
 	.string "I'm going to teach my POKéMON some new\n"
 	.string "moves for entering a CONTEST.\p"
@@ -864,8 +857,7 @@ LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 	.string "Ahoi, hast du das mitbekommen?\p"
 	.string "Jemand hat für uns Team Aqua aus\n"
 	.string "unserer Fahrrinne verjagt!\p"
-	.string "Die Wailmer befinden sich nicht mehr\n"
-	.string "in\l"
+	.string "Die Wailmer befinden sich nicht mehr in\n"
 	.string "der Bucht und wir haben freie Fahrt.$"
 #else
 	.string "Ahoy, did you know?\p"
@@ -895,8 +887,7 @@ LilycoveCity_Text_SomeoneStoleMyPokemon:
 LilycoveCity_Text_MissingPokemonCameBack:
 #if GERMAN
 	.string "Mein gestohlenes Pokémon…\n"
-	.string "Es kam zurück, ohne dass ich es\l"
-	.string "merkte.$"
+	.string "Es kam zurück, ohne dass ich es merkte.$"
 #else
 	.string "My missing POKéMON…\n"
 	.string "It came back without me noticing!$"
@@ -921,8 +912,7 @@ LilycoveCity_Text_ImArtDealer:
 LilycoveCity_Text_SeaRemainsForeverYoung:
 #if GERMAN
 	.string "Auch wenn ich alt und grau werde, das\n"
-	.string "Meer wird immer jung und voll von\l"
-	.string "Leben\l"
+	.string "Meer wird immer jung und voll von Leben\l"
 	.string "sein…\p"
 	.string "Hahahahaha… Haaahahahaha…$"
 #else
@@ -935,8 +925,8 @@ LilycoveCity_Text_SeaRemainsForeverYoung:
 LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
 #if GERMAN
 	.string "Vor 60 Jahren hat mein Mann hier um\n"
-	.string "meine Hand angehalten. Und das Meer\l"
-	.string "ist immer noch genauso schön.\p"
+	.string "meine Hand angehalten. Und das Meer ist\l"
+	.string "immer noch genauso schön.\p"
 	.string "Hahahahaha… Haaahahahaha…$"
 #else
 	.string "It was sixty years ago that my husband\n"
@@ -949,8 +939,7 @@ LilycoveCity_Text_TeamAquaRenovatedCavern:
 #if GERMAN
 	.string "Hm, kennst du diese besondere Höhle in\n"
 	.string "der Bucht?\p"
-	.string "Das ist eine natürliche Formation,\n"
-	.string "aber\l"
+	.string "Das ist eine natürliche Formation, aber\n"
 	.string "Team Aqua kam und hat das Aussehen\l"
 	.string "verändert.\p"
 	.string "Sie nennen sich selber “Naturliebendes\n"
@@ -1126,8 +1115,7 @@ LilycoveCity_Text_ExplainBerryBlender:
 	.string "Damit stellt man eine Leckerei her,\n"
 	.string "die {POKEBLOCK} genannt wird.\p"
 	.string "Wenn du einem Pokémon einen guten\n"
-	.string "{POKEBLOCK} gibst, verbessern sich\l"
-	.string "seine\l"
+	.string "{POKEBLOCK} gibst, verbessern sich seine\l"
 	.string "Eigenschaften.$"
 #else
 	.string "It's used for making a kind of candy\n"

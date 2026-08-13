@@ -282,8 +282,8 @@ TrainerHill_Entrance_hns_Pokemart_Basic:
 TrainerHill_Entrance_hns_Text_HereToGetMoney:
 #if GERMAN
 	.string "Ich bin hier, um Geld zu machen!\n"
-	.string "Für jeden Gipfelsieg gibt es\l"
-	.string "eine Geldbelohnung!\p"
+	.string "Für jeden Gipfelsieg gibt es eine\l"
+	.string "Geldbelohnung!\p"
 	.string "Wann eröffnen sie endlich?\n"
 	.string "Ich kann es kaum erwarten!$"
 #else
@@ -313,9 +313,8 @@ TrainerHill_Entrance_hns_Text_Money:
 
 TrainerHill_Entrance_hns_Text_StillGettingReady:
 #if GERMAN
-	.string "Dies ist der Trainerberg,\n"
-	.string "wo viele Doppelkämpfe auf dich\l"
-	.string "warten.\p"
+	.string "Dies ist der Trainerberg, wo viele\n"
+	.string "Doppelkämpfe auf dich warten.\p"
 	.string "Leider sind wir noch mit den\n"
 	.string "Vorbereitungen beschäftigt.$"
 #else
@@ -329,9 +328,8 @@ TrainerHill_Entrance_hns_Text_StillGettingReady:
 TrainerHill_Entrance_hns_Text_WelcomeToTrainerHill:
 #if GERMAN
 	.string "Willkommen!\p"
-	.string "Dies ist der Trainerberg,\n"
-	.string "wo viele Doppelkämpfe mit\l"
-	.string "Trainern stattfinden!$"
+	.string "Dies ist der Trainerberg, wo viele\n"
+	.string "Doppelkämpfe mit Trainern stattfinden!$"
 #else
 	.string "Welcome!\p"
 	.string "This is the TRAINER HILL where\n"
@@ -452,12 +450,11 @@ TrainerHill_Entrance_hns_Text_ExplainTrainerHill:
 #if GERMAN
 	.string "Im Trainerberg gibt es den\n"
 	.string "Zeitangriff-Wettbewerb.\p"
-	.string "Gemessen wird die Zeit vom\n"
-	.string "Empfang bis zum Besitzer auf\l"
-	.string "dem Dach.\p"
+	.string "Gemessen wird die Zeit vom Empfang bis\n"
+	.string "zum Besitzer auf dem Dach.\p"
 	.string "Die Bestzeiten stehen auf der\n"
-	.string "Rangtafel. Miss dich mit\l"
-	.string "deinen Freunden!\p"
+	.string "Rangtafel. Miss dich mit deinen\l"
+	.string "Freunden!\p"
 	.string "In den Kämpfen erhältst du\n"
 	.string "weder Erfahrung noch Geld.$"
 #else

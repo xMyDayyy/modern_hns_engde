@@ -311,8 +311,8 @@ BerryBlender_Text_DontHaveAnyBerries3:
 	.string "Wenn du keine Beeren hast, kannst du\n"
 	.string "keine {POKEBLOCK} machen.\p"
 	.string "Wir stellen hier immer {POKEBLOCK} her.\n"
-	.string "Komm doch einfach wieder, wenn du\l"
-	.string "ein oder zwei Beeren dabei hast.$"
+	.string "Komm doch einfach wieder, wenn du ein\l"
+	.string "oder zwei Beeren dabei hast.$"
 #else
 	.string "You don't have any BERRIES,\n"
 	.string "do you?\p"
@@ -379,9 +379,9 @@ BerryBlender_Text_MakeDeliciousPokeblocks:
 
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink:
 #if GERMAN
-	.string "{POKEBLOCK} können mit Hilfe deiner Freunde\n"
-	.string "im Beerenmixer aus Beeren gemacht\l"
-	.string "werden.\p"
+	.string "{POKEBLOCK} können mit Hilfe deiner\n"
+	.string "Freunde im Beerenmixer aus Beeren\l"
+	.string "gemacht werden.\p"
 	.string "Soll das Spiel gespeichert werden,\n"
 	.string "bevor du dich mit Freunden verbindest?$"
 #else

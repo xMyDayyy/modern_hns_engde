@@ -42,9 +42,8 @@ SixIsland_Text_ThatWayToWaterPathRuinValley::
 
 SixIsland_Text_SkyAtNightIsFantastic::
 #if GERMAN
-	.string "Wenn man so weit weg von der\n"
-	.string "Stadt ist, sieht der Himmel\l"
-	.string "fantastisch aus.$"
+	.string "Wenn man so weit weg von der Stadt ist,\n"
+	.string "sieht der Himmel fantastisch aus.$"
 #else
 	.string "When you're this far away from the\n"
 	.string "city, the sky at night is fantastic.$"

@@ -48,9 +48,8 @@ ShoalCave_LowTideLowerRoom_EventScript_ReceivedFocusBand::
 
 ShoalCave_LowTideLowerRoom_Text_CanOvercomeColdWithFocus:
 #if GERMAN
-	.string "Die eisige Kälte in dieser Gegend ist\n"
-	.string "ein gewaltiges Hindernis beim\l"
-	.string "Training. \p"
+	.string "Die eisige Kälte in dieser Gegend ist ein\n"
+	.string "gewaltiges Hindernis beim Training.\p"
 	.string "Aber wenn man sich konzentriert, kann\n"
 	.string "man doch gewinnen!\p"
 	.string "Mit diesem Fokus-Band kannst du dich\n"

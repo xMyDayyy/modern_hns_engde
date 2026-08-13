@@ -57,9 +57,9 @@ SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame::
 
 SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets::
 #if GERMAN
-	.string "Ich wünschte, die Top Vier kämen\n"
-	.string "und stampften das Team Rocket in\l"
-	.string "den Boden!$"
+	.string "Ich wünschte, die Top Vier kämen und\n"
+	.string "stampften das Team Rocket in den\l"
+	.string "Boden!$"
 #else
 	.string "Sigh…\n"
 	.string "Wouldn't this be great?\p"

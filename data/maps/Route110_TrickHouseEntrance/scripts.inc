@@ -715,8 +715,7 @@ Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk:
 Route110_TrickHouseEntrance_Text_ConcealedBehindTree:
 #if GERMAN
 	.string "Was? Grrrr…\p"
-	.string "Woher wusstest du, dass ich mich\n"
-	.string "hinter\l"
+	.string "Woher wusstest du, dass ich mich hinter\n"
 	.string "dem Baum versteckt hatte? Clever!$"
 #else
 	.string "Hah? Grrr…\p"
@@ -771,8 +770,7 @@ Route110_TrickHouseEntrance_Text_ConcealedInCupboard:
 Route110_TrickHouseEntrance_Text_ConcealedBehindWindow:
 #if GERMAN
 	.string "Was? Grrrr…\p"
-	.string "Woher wusstest du, dass ich mich\n"
-	.string "hinter\l"
+	.string "Woher wusstest du, dass ich mich hinter\n"
 	.string "dem Fenster versteckt hatte? Clever!$"
 #else
 	.string "Hah? Grrr…\p"
@@ -798,8 +796,7 @@ Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
 	.string "Mysterium in ganz Hoenn!\l"
 	.string "Man nennt mich…\p"
 	.string "Rätselmeister!\n"
-	.string "Hahaha! Erfreut, dich kennen zu\l"
-	.string "lernen!$"
+	.string "Hahaha! Erfreut, dich kennen zu lernen!$"
 #else
 	.string "Behold!\p"
 	.string "For I am the greatest living mystery\n"
@@ -879,8 +876,7 @@ Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
 	.string "Ach, du bist das!\p"
 	.string "Ich bin gerade dabei, mir neue Tricks\n"
 	.string "und Herausforderungen auszudenken!\p"
-	.string "Es ist doch nicht zu viel verlangt,\n"
-	.string "mir\l"
+	.string "Es ist doch nicht zu viel verlangt, mir\n"
 	.string "noch etwas Zeit zum Nachdenken zu\l"
 	.string "geben, oder? Das ist mir doch gegönnt,\l"
 	.string "oder? Danke. Komm später wieder!$"
@@ -921,9 +917,8 @@ Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward:
 Route110_TrickHouseEntrance_Text_MechadollWhichTent:
 #if GERMAN
 	.string "Robopuppe 5 bin ich!\n"
-	.string "Holst du die Belohnung nicht ab,\l"
-	.string "Dann Kannst du Rätselmeister nicht\l"
-	.string "folgen!\p"
+	.string "Holst du die Belohnung nicht ab, Dann\l"
+	.string "Kannst du Rätselmeister nicht folgen!\p"
 	.string "Rotes Zelt oder blaues Zelt,\n"
 	.string "Wofür entscheidest du dich?$"
 #else
@@ -976,9 +971,9 @@ Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
 Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
 #if GERMAN
 	.string "Die Tür ist verschlossen.\p"
-	.string "Bei näherer Betrachtung findet sich\n"
-	.string "ein Hinweis. “Schreibe hier den\l"
-	.string "geheimen Code auf.”$"
+	.string "Bei näherer Betrachtung findet sich ein\n"
+	.string "Hinweis. “Schreibe hier den geheimen\l"
+	.string "Code auf.”$"
 #else
 	.string "The door is locked.\p"
 	.string "…On closer inspection, this is written\n"

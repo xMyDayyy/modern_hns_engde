@@ -150,8 +150,7 @@ Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
 
 Route109_SeashoreHouse_Text_BagFull:
 #if GERMAN
-	.string "Aber dein Beutel ist ja gerammelt\n"
-	.string "voll.\l"
+	.string "Aber dein Beutel ist ja gerammelt voll.\n"
 	.string "Ich werde sie für dich aufbewahren.$"
 #else
 	.string "Oh, but hey, your BAG's jammed full.\n"
@@ -215,8 +214,8 @@ Route109_SeashoreHouse_Text_DwayneDefeated:
 
 Route109_SeashoreHouse_Text_DwaynePostBattle:
 #if GERMAN
-	.string "Immer wenn ich in Graphitport City\n"
-	.string "bin, genieße ich heiße Kämpfe und\l"
+	.string "Immer wenn ich in Graphitport City bin,\n"
+	.string "genieße ich heiße Kämpfe und\l"
 	.string "eisgekühlten Sprudel!$"
 #else
 	.string "Whenever I'm in SLATEPORT, I enjoy\n"
@@ -254,8 +253,7 @@ Route109_SeashoreHouse_Text_JohannaPostBattle:
 Route109_SeashoreHouse_Text_SimonIntro:
 #if GERMAN
 	.string "Ich werde dir zeigen, wie toll meine\n"
-	.string "Pokémon sind. Aber heul bloß nicht\l"
-	.string "los!$"
+	.string "Pokémon sind. Aber heul bloß nicht los!$"
 #else
 	.string "I'm going to show you how great\n"
 	.string "my POKéMON are, but don't cry!$"
@@ -273,8 +271,8 @@ Route109_SeashoreHouse_Text_SimonPostBattle:
 #if GERMAN
 	.string "Wenn doch nur eines meiner Pokémon\n"
 	.string "wüsste, wie es mich über das Wasser\l"
-	.string "tragen kann. Dann wäre ich den\l"
-	.string "ollen Schwimmreifen los.$"
+	.string "tragen kann. Dann wäre ich den ollen\l"
+	.string "Schwimmreifen los.$"
 #else
 	.string "If one of my POKéMON knew the move\n"
 	.string "for carrying me across water on its\l"

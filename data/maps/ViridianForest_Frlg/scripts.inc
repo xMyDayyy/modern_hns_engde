@@ -105,8 +105,8 @@ ViridianForest_Text_RickPostBattle::
 ViridianForest_Text_DougIntro::
 #if GERMAN
 	.string "Heh!\n"
-	.string "Ein Pokémon Trainer stiehlt sich\l"
-	.string "nicht so einfach davon!!!$"
+	.string "Ein Pokémon Trainer stiehlt sich nicht\l"
+	.string "so einfach davon!!!$"
 #else
 	.string "Yo!\n"
 	.string "You can't jam out if you're a\l"
@@ -164,9 +164,8 @@ ViridianForest_Text_SammyPostBattle::
 
 ViridianForest_Text_AnthonyIntro::
 #if GERMAN
-	.string "Ich bin zwar klein, aber ich will\n"
-	.string "nicht, dass du mich deswegen\l"
-	.string "gewinnen lässt!$"
+	.string "Ich bin zwar klein, aber ich will nicht,\n"
+	.string "dass du mich deswegen gewinnen lässt!$"
 #else
 	.string "I might be little, but I won't like\n"
 	.string "it if you go easy on me!$"
@@ -218,8 +217,8 @@ ViridianForest_Text_CharliePostBattle::
 ViridianForest_Text_RanOutOfPokeBalls::
 #if GERMAN
 	.string "Verdammt! Mir sind die Pokébälle\n"
-	.string "ausgegangen! Wie fange ich nun\l"
-	.string "bloß Pokémon?\p"
+	.string "ausgegangen! Wie fange ich nun bloß\l"
+	.string "Pokémon?\p"
 	.string "Du solltest immer genug Pokébälle\n"
 	.string "bei dir haben!$"
 #else
@@ -244,8 +243,8 @@ ViridianForest_Text_AvoidGrassyAreasWhenWeak::
 ViridianForest_Text_UseAntidoteForPoison::
 #if GERMAN
 	.string "Bei Vergiftungen hat sich das\n"
-	.string "Gegengift aus dem Pokémon-\l"
-	.string "Supermarkt bewährt.$"
+	.string "Gegengift aus dem Pokémon-Supermarkt\l"
+	.string "bewährt.$"
 #else
 	.string "For poison, use ANTIDOTE!\n"
 	.string "Get it at POKéMON MARTS!$"
@@ -254,9 +253,8 @@ ViridianForest_Text_UseAntidoteForPoison::
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
 #if GERMAN
 	.string "Tipps für Trainer\p"
-	.string "Du kannst deinen Pokédex jederzeit\n"
-	.string "von Prof. Eich via PC bewerten\l"
-	.string "lassen!$"
+	.string "Du kannst deinen Pokédex jederzeit von\n"
+	.string "Prof. Eich via PC bewerten lassen!$"
 #else
 	.string "TRAINER TIPS\p"
 	.string "Contact PROF. OAK via a PC to\n"
@@ -293,9 +291,8 @@ ViridianForest_Text_WeakenMonsBeforeCapture::
 
 ViridianForest_Text_LeavingViridianForest::
 #if GERMAN
-	.string "Auf Wiedersehen im Vertania-Wald\n"
-	.string "Der Nächste Ort ist Marmoria\l"
-	.string "City.$"
+	.string "Auf Wiedersehen im Vertania-Wald Der\n"
+	.string "Nächste Ort ist Marmoria City.$"
 #else
 	.string "LEAVING VIRIDIAN FOREST\n"
 	.string "PEWTER CITY AHEAD$"

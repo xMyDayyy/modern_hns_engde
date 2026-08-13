@@ -41,8 +41,7 @@ RS_MysteryEventsHouse_EventScript_Door::
 RS_MysteryEventsHouse_Text_OldManGreeting:
 #if GERMAN
 	.string "Als ich noch jung war, bin ich als\n"
-	.string "Pokémon-Trainer durch die Welt\l"
-	.string "gereist.\p"
+	.string "Pokémon-Trainer durch die Welt gereist.\p"
 	.string "Nun, da ich ein alter Knabe geworden\n"
 	.string "bin, beobachte ich mit Freuden die\l"
 	.string "jungen Trainer bei ihren Kämpfen.$"
@@ -76,8 +75,8 @@ RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
 
 RS_MysteryEventsHouse_Text_YouWontBattle:
 #if GERMAN
-	.string "Du möchtest nicht kämpfen? Es ent-\n"
-	.string "täuscht mich, dass ich dich nicht\l"
+	.string "Du möchtest nicht kämpfen? Es\n"
+	.string "enttäuscht mich, dass ich dich nicht\l"
 	.string "kämpfen sehen kann.$"
 #else
 	.string "You won't battle? I'm disappointed\n"

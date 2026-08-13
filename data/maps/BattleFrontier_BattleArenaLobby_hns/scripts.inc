@@ -442,9 +442,9 @@ BattleFrontier_BattleArenaLobby_Text_OkayToSave_hns:
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode_hns:
 #if GERMAN
-	.string "Im Kampfring wird in zwei\n"
-	.string "Kategorien gekämpft: Lv. 50 und Offene\l"
-	.string "Kämpfe. Wofür entscheidest du dich?$"
+	.string "Im Kampfring wird in zwei Kategorien\n"
+	.string "gekämpft: Lv. 50 und Offene Kämpfe.\l"
+	.string "Wofür entscheidest du dich?$"
 #else
 	.string "The BATTLE ARENA offers two levels\n"
 	.string "of challenge, Level 50 and Open Level.\l"
@@ -666,8 +666,8 @@ BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw_hns:
 	.string "Unser Kampf wurde als Unentschieden\n"
 	.string "gewertet.\p"
 	.string "Als die Zeit abgelaufen war, hatten\n"
-	.string "meine und die gegnerischen Pokémon\l"
-	.string "die gleiche Anzahl KP übrig.$"
+	.string "meine und die gegnerischen Pokémon die\l"
+	.string "gleiche Anzahl KP übrig.$"
 #else
 	.string "Our match was declared a draw.\p"
 	.string "When we ran out of time, both my\n"
@@ -680,9 +680,9 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant_hns:
 	.string "Im Kampfring ist die Reihenfolge\n"
 	.string "der Pokémon entscheidend.\p"
 	.string "Hat dein erstes Pokémon bestimmte\n"
-	.string "Nachteile aufgrund seiner Element-\l"
-	.string "klasse, sollte dein zweites Pokémon\l"
-	.string "diese Nachteile ausgleichen.\p"
+	.string "Nachteile aufgrund seiner\l"
+	.string "Elementklasse, sollte dein zweites\l"
+	.string "Pokémon diese Nachteile ausgleichen.\p"
 	.string "Ich denke, so stellt man ein hervor-\n"
 	.string "ragendes Team zusammen.$"
 #else
@@ -756,9 +756,9 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules_hns:
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules_hns:
 #if GERMAN
-	.string "Der zweite Faktor ist das\n"
-	.string "“Geschick”. Hier wird beurteilt, wie\l"
-	.string "effektiv Attacken eingesetzt wurden.\p"
+	.string "Der zweite Faktor ist das “Geschick”.\n"
+	.string "Hier wird beurteilt, wie effektiv\l"
+	.string "Attacken eingesetzt wurden.\p"
 	.string "War eine Attacke erfolgreich, geht die\n"
 	.string "Bewertung der Fähigkeiten nach oben.\p"
 	.string "Schlug eine Attacke fehl, geht die\n"
@@ -797,8 +797,8 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules_hns:
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules_hns:
 #if GERMAN
 	.string "Der dritte Faktor bei der Beurteilung\n"
-	.string "ist der “Körper”. Die am\l"
-	.string "Ende verbleibenden KP sind ausschlag-\p"
+	.string "ist der “Körper”. Die am Ende\l"
+	.string "verbleibenden KP sind ausschlag-\p"
 	.string "gebend. Die Anzahl der KP, mit der ein\n"
 	.string "Pokémon in den Kampf geht, wird mit der\l"
 	.string "am Ende des Kampfes verglichen.$"

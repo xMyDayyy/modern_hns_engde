@@ -56,8 +56,7 @@ MtPyre_2F_Text_TumbledFromFloorAbove:
 	.string "Au au au au… Der Boden hat an einigen\n"
 	.string "Stellen Löcher.\p"
 	.string "Ich habe das nicht gesehen und bin ins\n"
-	.string "untere Stockwerk gefallen. Autsch,\l"
-	.string "aua.$"
+	.string "untere Stockwerk gefallen. Autsch, aua.$"
 #else
 	.string "Ooch, ouch… There are holes in the\n"
 	.string "ground here and there.\p"
@@ -95,9 +94,8 @@ MtPyre_2F_Text_MarkPostBattle:
 MtPyre_2F_Text_LukeIntro:
 #if GERMAN
 	.string "Leif: Wir machen hier eine Mutprobe.\p"
-	.string "Hähä, wenn ich zeige, wie cool ich\n"
-	.string "bin, wird sie sich sicher in mich\l"
-	.string "verlieben! \p"
+	.string "Hähä, wenn ich zeige, wie cool ich bin,\n"
+	.string "wird sie sich sicher in mich verlieben!\p"
 	.string "Besser: Ich werde dich vernichtend\n"
 	.string "schlagen. Dann bin ich echt cool!$"
 #else
@@ -117,8 +115,7 @@ MtPyre_2F_Text_LukeDefeat:
 
 MtPyre_2F_Text_LukePostBattle:
 #if GERMAN
-	.string "Leif: Wir haben verloren, aber das\n"
-	.string "macht\l"
+	.string "Leif: Wir haben verloren, aber das macht\n"
 	.string "nichts! Solange ich nur bei ihr bin.\p"
 	.string "Wir\n"
 	.string "werden diese Mutprobe bestehen!$"
@@ -132,9 +129,9 @@ MtPyre_2F_Text_LukeNotEnoughMons:
 #if GERMAN
 	.string "Leif: Wenn du es mit mir aufnehmen\n"
 	.string "willst, brauchst du mehr Pokémon.\p"
-	.string "Hast du die nicht, kann ich meiner An-\n"
-	.string "gebeteten nicht beweisen, wie cool ich\l"
-	.string "bin!$"
+	.string "Hast du die nicht, kann ich meiner\n"
+	.string "Angebeteten nicht beweisen, wie cool\l"
+	.string "ich bin!$"
 #else
 	.string "LUKE: If you want to take me on,\n"
 	.string "bring some more POKéMON.\p"
@@ -148,8 +145,7 @@ MtPyre_2F_Text_DezIntro:
 	.string "Freund eine Mutprobe zu bestehen.\p"
 	.string "Es ist unheimlich hier, aber zusammen\n"
 	.string "mit meinem Freund ist es schon okay.\p"
-	.string "Ich hab’s: Mein Freund soll zeigen,\n"
-	.string "wie\l"
+	.string "Ich hab’s: Mein Freund soll zeigen, wie\n"
 	.string "cool er ist, indem er dich besiegt!$"
 #else
 	.string "DEZ: I came here on a dare with my\n"
@@ -178,8 +174,7 @@ MtPyre_2F_Text_DezPostBattle:
 
 MtPyre_2F_Text_DezNotEnoughMons:
 #if GERMAN
-	.string "Ina: Wenn du gegen uns antreten\n"
-	.string "willst,\l"
+	.string "Ina: Wenn du gegen uns antreten willst,\n"
 	.string "solltest du mindestens zwei Pokémon\l"
 	.string "besitzen.\p"
 	.string "Mein Freund ist stark. Daher wirst du\n"

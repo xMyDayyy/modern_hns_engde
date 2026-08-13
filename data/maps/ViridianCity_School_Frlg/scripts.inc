@@ -170,9 +170,9 @@ ViridianCity_School_Text_NotebookThirdPage::
 ViridianCity_School_Text_NotebookFourthPage::
 #if GERMAN
 	.string "Vierte Seite...\p"
-	.string "Das Ziel jedes Pokémon Trainers\n"
-	.string "ist es, die acht Leiter der\l"
-	.string "Pokémon-Arenen zu besiegen.\p"
+	.string "Das Ziel jedes Pokémon Trainers ist es,\n"
+	.string "die acht Leiter der Pokémon-Arenen zu\l"
+	.string "besiegen.\p"
 	.string "Nur dann darf er den Top Vier in\n"
 	.string "der Pokémon Liga gegenübertreten!$"
 #else
@@ -253,8 +253,8 @@ ViridianCity_School_Text_ExplainPoison::
 #if GERMAN
 	.string "Ein vergiftetes Pokémon verliert\n"
 	.string "stetig KP.\p"
-	.string "Die Wirkung des Giftes hält auch\n"
-	.string "nach einem Kampf an.\l"
+	.string "Die Wirkung des Giftes hält auch nach\n"
+	.string "einem Kampf an.\l"
 	.string "Gegengift heilt Vergiftungen.$"
 #else
 	.string "When poisoned, a POKéMON's health\n"
@@ -284,9 +284,8 @@ ViridianCity_School_Text_ExplainParalysis::
 #if GERMAN
 	.string "Ein paralysiertes Pokémon verliert\n"
 	.string "an Treffgenauigkeit!\p"
-	.string "Die Paralyse hält auch nach einem\n"
-	.string "Kampf an. Man behandelt sie mit\l"
-	.string "Para-Heiler.$"
+	.string "Die Paralyse hält auch nach einem Kampf\n"
+	.string "an. Man behandelt sie mit Para-Heiler.$"
 #else
 	.string "Paralysis reduces SPEED and may\n"
 	.string "prevent the POKéMON from moving.\p"

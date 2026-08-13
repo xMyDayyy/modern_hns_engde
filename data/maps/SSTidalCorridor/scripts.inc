@@ -259,21 +259,19 @@ SSTidalCorridor_Text_ScottBattleFrontierInvite:
 	.string "mich gefreut, dich zu treffen!\p"
 	.string "Herzlichen Glückwunsch, Champ der\n"
 	.string "Pokémon Liga!\p"
-	.string "Jemanden wie dich würde ich gerne ein-\n"
-	.string "laden. Es gibt da einen besonderen\l"
-	.string "Ort… \p"
+	.string "Jemanden wie dich würde ich gerne\n"
+	.string "einladen. Es gibt da einen besonderen\l"
+	.string "Ort…\p"
 	.string "Und zwar…\n"
 	.string "Die Kampfzone!\p"
 	.string "Was das für ein Ort ist?\n"
 	.string "Schau ihn dir einfach an!\p"
 	.string "Ich habe mich bereits mit dem Kapitän\n"
 	.string "darüber unterhalten.\p"
-	.string "Nächstes Mal, wenn du die Fähre\n"
-	.string "nimmst,\l"
+	.string "Nächstes Mal, wenn du die Fähre nimmst,\n"
 	.string "kannst du zur Kampfzone fahren.\p"
-	.string "Okay, {PLAYER}{KUN}, ich erwarte dich\n"
-	.string "also in\l"
-	.string "der Kampfzone!$"
+	.string "Okay, {PLAYER}{KUN}, ich erwarte\n"
+	.string "dich also in der Kampfzone!$"
 #else
 	.string "SCOTT: Well, hi, hi!\n"
 	.string "{PLAYER}{KUN}, {PLAYER}{KUN}!\p"
@@ -297,12 +295,11 @@ SSTidalCorridor_Text_ScottBattleFrontierInvite:
 
 SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage:
 #if GERMAN
-	.string "Diese Fähre ist so konstruiert, dass\n"
-	.string "sie auch durch starke Strömungen\l"
-	.string "fahren kann.\p"
-	.string "Wir hoffen, du genießt die Reise mit\n"
-	.string "uns. Schau dich ruhig auf dem Schiff\l"
-	.string "um.$"
+	.string "Diese Fähre ist so konstruiert, dass sie\n"
+	.string "auch durch starke Strömungen fahren\l"
+	.string "kann.\p"
+	.string "Wir hoffen, du genießt die Reise mit uns.\n"
+	.string "Schau dich ruhig auf dem Schiff um.$"
 #else
 	.string "This ferry is built to plow through\n"
 	.string "fast-running currents.\p"
@@ -312,9 +309,8 @@ SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage:
 
 SSTidal_Text_HopeYouEnjoyVoyage:
 #if GERMAN
-	.string "Wir hoffen, du genießt die Reise mit\n"
-	.string "uns. Schau dich ruhig auf dem Schiff\l"
-	.string "um.$"
+	.string "Wir hoffen, du genießt die Reise mit uns.\n"
+	.string "Schau dich ruhig auf dem Schiff um.$"
 #else
 	.string "We hope you enjoy your voyage on\n"
 	.string "our ferry.$"
@@ -322,9 +318,8 @@ SSTidal_Text_HopeYouEnjoyVoyage:
 
 SSTidal_Text_MadeLandInSlateport:
 #if GERMAN
-	.string "Wir gehen in Graphitport City vor\n"
-	.string "Anker. Danke, dass du mit uns gefahren\l"
-	.string "bist.$"
+	.string "Wir gehen in Graphitport City vor Anker.\n"
+	.string "Danke, dass du mit uns gefahren bist.$"
 #else
 	.string "We have made land in SLATEPORT CITY.\n"
 	.string "Thank you for sailing with us.$"
@@ -332,8 +327,7 @@ SSTidal_Text_MadeLandInSlateport:
 
 SSTidal_Text_MadeLandInLilycove:
 #if GERMAN
-	.string "Wir gehen in Seegrasulb City vor\n"
-	.string "Anker.\l"
+	.string "Wir gehen in Seegrasulb City vor Anker.\n"
 	.string "Danke, dass du mit uns gefahren bist.$"
 #else
 	.string "We have made land in LILYCOVE CITY.\n"
@@ -366,10 +360,10 @@ SSTidalCorridor_Text_WeveArrived:
 
 SSTidalCorridor_Text_VisitOtherCabins:
 #if GERMAN
-	.string "Schau dir ruhig die anderen Kabinen\n"
-	.string "an.\l"
-	.string "Trainer langweilen sich auf der Über-\l"
-	.string "fahrt und werden sicher gerne kämpfen.$"
+	.string "Schau dir ruhig die anderen Kabinen an.\n"
+	.string "Trainer langweilen sich auf der\l"
+	.string "Überfahrt und werden sicher gerne\l"
+	.string "kämpfen.$"
 #else
 	.string "Go visit other cabins.\n"
 	.string "TRAINERS bored of the boat trip will\l"

@@ -221,9 +221,8 @@ FuchsiaCity_Text_WardensHomeSign::
 
 FuchsiaCity_Text_SafariZoneOfficeSign::
 #if GERMAN
-	.string "Pokémon-Paradies\n"
-	.string "Willkommen in der Safari-Zone\l"
-	.string "Büro der Safari-Zone$"
+	.string "Pokémon-Paradies Willkommen in der\n"
+	.string "Safari-Zone Büro der Safari-Zone$"
 #else
 	.string "POKéMON PARADISE!\n"
 	.string "Welcome to the SAFARI ZONE!\l"
@@ -233,8 +232,8 @@ FuchsiaCity_Text_SafariZoneOfficeSign::
 FuchsiaCity_Text_GymSign::
 #if GERMAN
 	.string "Fuchsania City Pokémon-Arena\n"
-	.string "Arenaleiter: Koga\l"
-	.string "Der Giftige Ninja-Meister!$"
+	.string "Arenaleiter: Koga Der Giftige\l"
+	.string "Ninja-Meister!$"
 #else
 	.string "FUCHSIA CITY POKéMON GYM\n"
 	.string "LEADER: KOGA\l"
@@ -362,9 +361,9 @@ Text_SubstituteWhichMon::
 
 Text_SubstituteTaught::
 #if GERMAN
-	.string "Was ich geben würde, wenn ich\n"
-	.string "in den Beutel eines Kangamas\l"
-	.string "klettern könnte…$"
+	.string "Was ich geben würde, wenn ich in den\n"
+	.string "Beutel eines Kangamas klettern\l"
+	.string "könnte…$"
 #else
 	.string "Boy, what I'd give to crawl inside\n"
 	.string "a KANGASKHAN belly pouch…$"

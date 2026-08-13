@@ -66,8 +66,8 @@ RadioTower1F_Text_Whitney1::
 RadioTower1F_Text_Whitney2::
 #if GERMAN
 	.string "Bianka: Wahnsinn! Du bist echt klasse!\n"
-	.string "Bei Frage 3 war ich mir so sicher,\l"
-	.string "dass die Antwort Aprikorken lautet!\p"
+	.string "Bei Frage 3 war ich mir so sicher, dass\l"
+	.string "die Antwort Aprikorken lautet!\p"
 	.string "Ho-hoppla!\n"
 	.string "Ich muss langsam zurück in die Arena!$"
 #else
@@ -201,12 +201,10 @@ RadioTower1F_Text_RadioCardWomanOfferQuiz:
 #if GERMAN
 	.string "Bei uns läuft momentan\n"
 	.string "ein besonderes Quiz.\p"
-	.string "Beantworte die\n"
-	.string "fünf Fragen richtig, um ein\l"
-	.string "Radio-Modul zu gewinnen.\p"
-	.string "Stecke es in den Com, um\n"
-	.string "überall und zu jeder Zeit\l"
-	.string "Radio hören zu können.\p"
+	.string "Beantworte die fünf Fragen richtig, um\n"
+	.string "ein Radio-Modul zu gewinnen.\p"
+	.string "Stecke es in den Com, um überall und zu\n"
+	.string "jeder Zeit Radio hören zu können.\p"
 	.string "Möchtest du am Quiz teilnehmen?$"
 #else
     .string "We have a special QUIZ campaign on\n"
@@ -505,9 +503,9 @@ GoldenrodCity_RadioTower_1F_EventScript_GivePrizeFromEarlier::
 GoldenrodCity_RadioTower_1F_Text_LotteryCornerDrawTicket:
 #if GERMAN
 	.string "Das ist die Pokémon-Lotterie.\p"
-	.string "Wenn die Nummer des Tickets\n"
-	.string "mit der eines deiner Pokémon\l"
-	.string "übereinstimmt, gewinnst du einen\p"
+	.string "Wenn die Nummer des Tickets mit der\n"
+	.string "eines deiner Pokémon übereinstimmt,\l"
+	.string "gewinnst du einen\p"
 	.string "Preis.\p"
 	.string "Möchtest du teilnehmen??$"
 #else
@@ -545,9 +543,9 @@ GoldenrodCity_RadioTower_1F_Text_PleasePickTicket:
 GoldenrodCity_RadioTower_1F_Text_TicketNumberIsXPleaseWait:
 #if GERMAN
 	.string "Die Nummer ist {STR_VAR_1}.\p"
-	.string "Ich prüfe die Nummer,\n"
-	.string "ob sie mit einem deiner\l"
-	.string "Pokémon übereinstimmt. Warte bitte.$"
+	.string "Ich prüfe die Nummer, ob sie mit einem\n"
+	.string "deiner Pokémon übereinstimmt. Warte\l"
+	.string "bitte.$"
 #else
 	.string "The LOTO TICKET number is {STR_VAR_1}.\p"
 	.string "I need to run a check on this number\n"
@@ -558,9 +556,9 @@ GoldenrodCity_RadioTower_1F_Text_TicketNumberIsXPleaseWait:
 GoldenrodCity_RadioTower_1F_Text_TicketMatchesPartyMon:
 #if GERMAN
 	.string "Herzlichen Glückwunsch!\p"
-	.string "Die ID-Nummer deines {STR_VAR_1} im\n"
-	.string "Team stimmt ganz oder teilweise mit der\l"
-	.string "des Lottoscheins überein!$"
+	.string "Die ID-Nummer deines {STR_VAR_1} im Team\n"
+	.string "stimmt ganz oder teilweise mit der des\l"
+	.string "Lottoscheins überein!$"
 #else
 	.string "Congratulations!\p"
 	.string "The ID number of your team's\n"
@@ -571,9 +569,9 @@ GoldenrodCity_RadioTower_1F_Text_TicketMatchesPartyMon:
 GoldenrodCity_RadioTower_1F_Text_TicketMatchesPCMon:
 #if GERMAN
 	.string "Herzlichen Glückwunsch!\p"
-	.string "Die ID-Nummer deines {STR_VAR_1} in\n"
-	.string "deiner PC-Box stimmt teilweise oder\l"
-	.string "ganz mit der des Lottoscheins überein!$"
+	.string "Die ID-Nummer deines {STR_VAR_1} in deiner\n"
+	.string "PC-Box stimmt teilweise oder ganz mit\l"
+	.string "der des Lottoscheins überein!$"
 #else
 	.string "Congratulations!\p"
 	.string "The ID number of your PC-boxed\n"
@@ -592,8 +590,8 @@ GoldenrodCity_RadioTower_1F_Text_NoNumbersMatched:
 
 GoldenrodCity_RadioTower_1F_Text_TwoDigitsMatched:
 #if GERMAN
-	.string "Zwei Ziffern stimmen überein,\n"
-	.string "daher bekommst du den dritten Preis!\l"
+	.string "Zwei Ziffern stimmen überein, daher\n"
+	.string "bekommst du den dritten Preis!\l"
 	.string "Du gewinnst {STR_VAR_1}!$"
 #else
 	.string "Two digits matched, so you win the\n"
@@ -603,8 +601,8 @@ GoldenrodCity_RadioTower_1F_Text_TwoDigitsMatched:
 
 GoldenrodCity_RadioTower_1F_Text_ThreeDigitsMatched:
 #if GERMAN
-	.string "Drei Ziffern stimmen überein,\n"
-	.string "daher bekommst du den zweiten Preis!\l"
+	.string "Drei Ziffern stimmen überein, daher\n"
+	.string "bekommst du den zweiten Preis!\l"
 	.string "Du gewinnst {STR_VAR_1}!$"
 #else
 	.string "Three digits matched, so you win the\n"
@@ -614,8 +612,8 @@ GoldenrodCity_RadioTower_1F_Text_ThreeDigitsMatched:
 
 GoldenrodCity_RadioTower_1F_Text_FourDigitsMatched:
 #if GERMAN
-	.string "Vier Ziffern stimmen überein,\n"
-	.string "daher bekommst du den ersten Preis!\l"
+	.string "Vier Ziffern stimmen überein, daher\n"
+	.string "bekommst du den ersten Preis!\l"
 	.string "Du gewinnst {STR_VAR_1}!$"
 #else
 	.string "Four digits matched, so you win the\n"

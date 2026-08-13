@@ -189,8 +189,8 @@ CeruleanGym_Text_Note:
 #if GERMAN
 	.string "Tut mir leid, ich bin erstmal fort.\n"
 	.string "Misty, Arenaleiterin\p"
-	.string "Da Misty nicht hier ist,\n"
-	.string "sind wir auch erstmal nicht hier.\l"
+	.string "Da Misty nicht hier ist, sind wir auch\n"
+	.string "erstmal nicht hier.\l"
 	.string "Die Arena-Trainer$"
 #else
 	.string "Sorry, I'll be out for a while.\n"
@@ -239,8 +239,8 @@ CeruleanGym_Text_GruntIntro:
 	.string "Oh! Sorry!\n"
 	.string "Bist du auch not verletzt?\l"
 	.string "Ich bin total busy, beschäftigt!\l"
-	.string "No time, um mit dir here Zeit mit\l"
-	.string "lange Gespräche zu verschwenden!\l"
+	.string "No time, um mit dir here Zeit mit lange\l"
+	.string "Gespräche zu verschwenden!\l"
 	.string "Wenn mich here jemand sieht, you know,\l"
 	.string "then ich bin in große trouble!$"
 #else
@@ -293,8 +293,8 @@ CeruleanGym_Text_MistyIntro:
 #if GERMAN
 	.string "Misty: Ah, unser Störenfried!\p"
 	.string "Du magst dir in Johto vielleicht viele\n"
-	.string "Orden erkämpft haben, aber ich rate\l"
-	.string "dir, mich nicht zu unterschätzen!\p"
+	.string "Orden erkämpft haben, aber ich rate dir,\l"
+	.string "mich nicht zu unterschätzen!\p"
 	.string "Meine Wasser-Pokémon haben’s drauf!$"
 #else
 	.string "MISTY: I was expecting you, you\n"
@@ -327,12 +327,11 @@ CeruleanGym_Text_ReceivedBadge:
 
 CeruleanGym_Text_MistyFightDone:
 #if GERMAN
-	.string "Misty: Gibt es viele starke\n"
-	.string "Trainer in Johto?\l"
+	.string "Misty: Gibt es viele starke Trainer in\n"
+	.string "Johto?\l"
 	.string "Wie dich meine ich?\p"
-	.string "Eines Tages werde ich reisen,\n"
-	.string "um gegen einige geschickte\l"
-	.string "Trainer zu kämpfen.$"
+	.string "Eines Tages werde ich reisen, um gegen\n"
+	.string "einige geschickte Trainer zu kämpfen.$"
 #else
 	.string "MISTY: Are there many strong\n"
 	.string "trainers in JOHTO? Like you, I\l"

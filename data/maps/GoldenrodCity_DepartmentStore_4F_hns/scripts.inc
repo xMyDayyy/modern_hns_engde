@@ -56,14 +56,14 @@ GoldenrodDeptStore_Text_4FBugCatcher:
 
 GoldenrodDeptStore_Text_4FGameboyKid:
 #if GERMAN
-	.string "Es hieß, manche Pokémon entwickeln\n"
-	.string "sich nur durch einen Tausch über\l"
-	.string "ein Link-Kabel.\p"
+	.string "Es hieß, manche Pokémon entwickeln sich\n"
+	.string "nur durch einen Tausch über ein\l"
+	.string "Link-Kabel.\p"
 	.string "Pah…\p"
 	.string "So ein Unsinn.\p"
 	.string "Ich kenne einige der genannten\n"
-	.string "Pokémon: Maschock, Kadabra,\l"
-	.string "Alpollo und, äh, Georok.\p"
+	.string "Pokémon: Maschock, Kadabra, Alpollo\l"
+	.string "und, äh, Georok.\p"
 	.string "Sie alle entwickeln sich aber\n"
 	.string "durch Levelaufstieg.$"
 #else

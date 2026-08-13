@@ -193,8 +193,8 @@ Route114_Text_AllMyMonDoesIsRoarTakeThis:
 Route114_Text_ExplainRoar:
 #if GERMAN
 	.string "TM05 enthält Brüller.\n"
-	.string "Ein Brüller schlägt Pokémon in\l"
-	.string "die Flucht.$"
+	.string "Ein Brüller schlägt Pokémon in die\l"
+	.string "Flucht.$"
 #else
 	.string "TM05 contains ROAR.\n"
 	.string "A ROAR sends POKéMON scurrying.$"

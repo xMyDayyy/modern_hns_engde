@@ -106,9 +106,9 @@ EcruteakTinTowerEntrance_Text_SageNoBadge:
 
 EcruteakTinTowerEntrance_Text_SageWithBadge:
 #if GERMAN
-	.string "Wenn du nicht im Besitz des Ordens\n"
-	.string "von Teak City bist, darfst du\l"
-	.string "den Zinnturm nicht betreten.\p"
+	.string "Wenn du nicht im Besitz des Ordens von\n"
+	.string "Teak City bist, darfst du den Zinnturm\l"
+	.string "nicht betreten.\p"
 	.string "Ah! Das ist der Orden\n"
 	.string "von Teak City! Du darfst passieren.$"
 #else
@@ -184,8 +184,8 @@ EcruteakTinTowerEntrance_Text_SageDone:
 EcruteakTinTowerEntrance_Text_WanderingSage:
 #if GERMAN
 	.string "Der Zinnturm da vorne ist ein\n"
-	.string "8-stöckiger Turm\l"
-	.string "von göttlicher Schönheit.\p"
+	.string "8-stöckiger Turm von göttlicher\l"
+	.string "Schönheit.\p"
 	.string "Er beruhigt die Seelen derer,\n"
 	.string "die ihn betrachten.$"
 #else
@@ -207,9 +207,9 @@ EcruteakTinTowerEntrance_Text_WanderingSageClearBell:
 EcruteakTinTowerEntrance_Text_Gramps:
 #if GERMAN
 	.string "Zwei Türme… Zwei Pokémon…\p"
-	.string "Aber als einer niederbrannte,\n"
-	.string "flogen beide Pokémon fort\l"
-	.string "und kamen nie wieder zurück.$"
+	.string "Aber als einer niederbrannte, flogen\n"
+	.string "beide Pokémon fort und kamen nie wieder\l"
+	.string "zurück.$"
 #else
 	.string "Two towers… Two POKéMON…\p"
 	.string "But when one burned down, both\n"

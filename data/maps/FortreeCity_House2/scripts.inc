@@ -54,8 +54,7 @@ FortreeCity_House2_Text_HiddenPowersArousedByNature:
 
 FortreeCity_House2_Text_CoinInWhichHand:
 #if GERMAN
-	.string "Lass diese alte Frau mal sehen, ob\n"
-	.string "deine\l"
+	.string "Lass diese alte Frau mal sehen, ob deine\n"
 	.string "versteckten Kräfte erwacht sind…\p"
 	.string "Ich halte eine Münze in meiner Hand.\p"
 	.string "Nun? In welcher Hand halte ich sie?\n"

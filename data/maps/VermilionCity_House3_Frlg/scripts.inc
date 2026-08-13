@@ -60,8 +60,8 @@ VermilionCity_House3_Text_SendMyPidgeyToUnionRoom::
 	.string "Ich möchte mit allen Menschen\n"
 	.string "Briefe austauschen.\p"
 	.string "Ich schicke mein Taubsi in einen\n"
-	.string "Konnex-Klub, um Briefe\l"
-	.string "für mich auszutauschen.$"
+	.string "Konnex-Klub, um Briefe für mich\l"
+	.string "auszutauschen.$"
 #else
 	.string "I want to exchange MAIL with all\n"
 	.string "sorts of people.\p"

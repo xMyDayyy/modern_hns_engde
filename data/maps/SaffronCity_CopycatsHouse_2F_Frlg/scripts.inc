@@ -94,9 +94,8 @@ Text_MimicTeach::
 	.string "Das ist ja eine Poképuppe!\p"
 	.string "Die ist für mich?\n"
 	.string "Vielen Dank!\p"
-	.string "Ich werde dafür einem deiner\n"
-	.string "Pokémon die Attacke Mimikry\l"
-	.string "beibringen!$"
+	.string "Ich werde dafür einem deiner Pokémon\n"
+	.string "die Attacke Mimikry beibringen!$"
 #else
 	.string "Oh wow!\n"
 	.string "A POKé DOLL!\p"
@@ -163,9 +162,8 @@ Text_MimicTaughtFemale::
 SaffronCity_CopycatsHouse_2F_Text_Doduo::
 #if GERMAN
 	.string "Dodu: Giegie!\p"
-	.string "Spieglein, Spieglein an der\n"
-	.string "Wand, wer ist die Schönste im\l"
-	.string "Ganzen Land?$"
+	.string "Spieglein, Spieglein an der Wand, wer ist\n"
+	.string "die Schönste im Ganzen Land?$"
 #else
 	.string "DODUO: Giiih!\p"
 	.string "PRETTY MIRROR LOOK AT ME,\n"
@@ -193,9 +191,8 @@ SaffronCity_CopycatsHouse_2F_Text_MySecrets::
 #if GERMAN
 	.string "...\p"
 	.string "Meine Geheimnisse!\p"
-	.string "Zeitvertreib: Mienenspiel\n"
-	.string "Hobby: Puppen sammeln\l"
-	.string "Lieblings-Pokémon: Piepi!$"
+	.string "Zeitvertreib: Mienenspiel Hobby: Puppen\n"
+	.string "sammeln Lieblings-Pokémon: Piepi!$"
 #else
 	.string "…\p"
 	.string "My Secrets!\p"

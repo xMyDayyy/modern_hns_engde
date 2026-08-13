@@ -369,8 +369,7 @@ DewfordTown_Gym_Text_JocelynIntro:
 DewfordTown_Gym_Text_JocelynDefeat:
 #if GERMAN
 	.string "Aber… Wie…?\n"
-	.string "Wie konnte ich nur so schnell\l"
-	.string "verlieren?$"
+	.string "Wie konnte ich nur so schnell verlieren?$"
 #else
 	.string "But… How?\n"
 	.string "How could I lose so easily?$"
@@ -378,8 +377,8 @@ DewfordTown_Gym_Text_JocelynDefeat:
 
 DewfordTown_Gym_Text_JocelynPostBattle:
 #if GERMAN
-	.string "Ich werde diese Niederlage nicht ab-\n"
-	.string "haken. Sie wird mich beim Training\l"
+	.string "Ich werde diese Niederlage nicht\n"
+	.string "abhaken. Sie wird mich beim Training\l"
 	.string "motivieren!\p"
 	.string "Eines Tages werde ich auch ein\n"
 	.string "Arenaleiter sein!\p"
@@ -396,8 +395,7 @@ DewfordTown_Gym_Text_JocelynPostBattle:
 DewfordTown_Gym_Text_LauraIntro:
 #if GERMAN
 	.string "Du forderst mich heraus? Dann wundere\n"
-	.string "dich nicht, wenn du weinst wie ein\l"
-	.string "Baby!$"
+	.string "dich nicht, wenn du weinst wie ein Baby!$"
 #else
 	.string "Don't you dare brush me off!\n"
 	.string "It's not my fault if you cry!$"
@@ -406,8 +404,7 @@ DewfordTown_Gym_Text_LauraIntro:
 DewfordTown_Gym_Text_LauraDefeat:
 #if GERMAN
 	.string "Waaaaahaaaaaa!\n"
-	.string "Schluchz! Schnief! Ich habe\l"
-	.string "verloooren!$"
+	.string "Schluchz! Schnief! Ich habe verloooren!$"
 #else
 	.string "Waaaaaaah!\n"
 	.string "I lost!$"
@@ -417,8 +414,7 @@ DewfordTown_Gym_Text_LauraPostBattle:
 #if GERMAN
 	.string "Ich kämpfe im Dunkeln, das macht mich\n"
 	.string "mutiger und trainiert mein Herz.\p"
-	.string "Weil es hier so dunkel ist, habe ich\n"
-	.string "noch\l"
+	.string "Weil es hier so dunkel ist, habe ich noch\n"
 	.string "nie das Gesicht von Kamillo gesehen.$"
 #else
 	.string "I battle in the dark to make my heart\n"
@@ -529,8 +525,7 @@ DewfordTown_Gym_Text_BrawlyIntro:
 DewfordTown_Gym_Text_BrawlyDefeat:
 #if GERMAN
 	.string "Huihuihui! Du hast eine größere Welle\n"
-	.string "produziert, als ich dir zugetraut\l"
-	.string "hätte. \p"
+	.string "produziert, als ich dir zugetraut hätte.\p"
 	.string "Du hast mich absaufen lassen!\p"
 	.string "Okay, du hast mich erwischt!\n"
 	.string "Nimm den Orden dieser Arena!$"
@@ -555,8 +550,7 @@ DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 #if GERMAN
 	.string "Dank des Knöchelordens werden dir alle\n"
 	.string "Pokémon bis Level 30 gehorchen, auch\l"
-	.string "die, die du durch Tausch erhalten\l"
-	.string "hast. \p"
+	.string "die, die du durch Tausch erhalten hast.\p"
 	.string "Und du kannst die VM Blitz auch\n"
 	.string "außerhalb eines Kampfes anwenden.\p"
 	.string "Und wenn du magst, kannst du auch\n"
@@ -625,8 +619,8 @@ DewfordTown_Gym_Text_GymStatueCertified:
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
 #if GERMAN
-	.string "Kamillo: Eine Welle kann sich zurück-\n"
-	.string "ziehen, wird aber immer wieder an\l"
+	.string "Kamillo: Eine Welle kann sich\n"
+	.string "zurückziehen, wird aber immer wieder an\l"
 	.string "Land zurückkommen.\p"
 	.string "Ein riesiges Talent wie du…\n"
 	.string "Ich wusste, du würdest wiederkommen.\p"
@@ -661,8 +655,8 @@ DewfordTown_Gym_Text_BrawlyPostRematch:
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 #if GERMAN
-	.string "Kamillo: Eine Welle kann sich zurück-\n"
-	.string "ziehen, wird aber immer wieder an\l"
+	.string "Kamillo: Eine Welle kann sich\n"
+	.string "zurückziehen, wird aber immer wieder an\l"
 	.string "Land zurückkommen.\p"
 	.string "Ein riesiges Talent wie du…\n"
 	.string "Ich wusste, du würdest wiederkommen.\p"

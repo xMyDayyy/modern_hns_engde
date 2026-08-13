@@ -132,12 +132,12 @@ VioletCity_PokeCenter_Text_ElmsAideNoRoom:
 
 VioletCity_PokeCenter_Text_ElmsAideGiveEgg:
 #if GERMAN
-	.string "Wir haben entdeckt, dass ein\n"
-	.string "Pokémon erst schlüpft, nachdem\l"
-	.string "es im Ei gewachsen ist.\p"
+	.string "Wir haben entdeckt, dass ein Pokémon\n"
+	.string "erst schlüpft, nachdem es im Ei\l"
+	.string "gewachsen ist.\p"
 	.string "Außerdem muss es sich in der Nähe\n"
-	.string "anderer Pokémon\l"
-	.string "befinden, um zu schlüpfen.\p"
+	.string "anderer Pokémon befinden, um zu\l"
+	.string "schlüpfen.\p"
 	.string "Du bist die einzige Person,\n"
 	.string "auf die wir uns verlassen können.\p"
 	.string "Bitte ruf Prof. Lind an,\n"
@@ -163,9 +163,8 @@ VioletCity_PokeCenter_Text_ElmsAideFullParty:
 #if GERMAN
 	.string "Oh, du hast keinen Platz\n"
 	.string "mehr für ein weiteres Pokémon.\p"
-	.string "Ich warte hier,\n"
-	.string "bis du Platz für das Ei geschaffen\l"
-	.string "hast.$"
+	.string "Ich warte hier, bis du Platz für das Ei\n"
+	.string "geschaffen hast.$"
 #else
 	.string "Oh, no. You can't carry any more\n"
 	.string "POKéMON with you.\p"
@@ -183,9 +182,8 @@ VioletCity_PokeCenter_Text_ElmsAideRefuse:
 
 VioletCity_PokeCenter_Text_BooksAreGreat:
 #if GERMAN
-	.string "Während meine Pokémon sich\n"
-	.string "erholen, lese ich gerne ein\l"
-	.string "gutes Buch.$"
+	.string "Während meine Pokémon sich erholen,\n"
+	.string "lese ich gerne ein gutes Buch.$"
 #else
 	.string "While my POKéMON are recovering\n"
 	.string "I love to read a good book.$"
@@ -196,8 +194,7 @@ VioletCity_PokeCenter_Text_MobileAdapter:
 	.string "Woran denkst du,\n"
 	.string "wenn du versuchst,\p"
 	.string "daran zu denken, nicht daran zu denken,\n"
-	.string "dass du denkst,\l"
-	.string "dass du dumm bist,\p"
+	.string "dass du denkst, dass du dumm bist,\p"
 	.string "obwohl du nicht dumm bist?\n"
 	.string "Hähhhh?$"
 #else
@@ -211,8 +208,7 @@ VioletCity_PokeCenter_Text_MobileAdapter:
 VioletCity_PokeCenter_Text_GameboyKid:
 #if GERMAN
 	.string "Ein Kerl namens Bill hat das\n"
-	.string "PC-Pokémon-Lagerungssystem\l"
-	.string "erfunden.$"
+	.string "PC-Pokémon-Lagerungssystem erfunden.$"
 #else
 	.string "A guy named BILL made the\n"
 	.string "POKéMON PC storage system.$"
@@ -223,9 +219,8 @@ VioletCity_PokeCenter_Text_Gentleman:
 	.string "Es war vor etwa drei Jahren.\p"
 	.string "Team Rocket hatte\n"
 	.string "etwas Übles mit den Pokémon vor.\p"
-	.string "Aber die Gerechtigkeit\n"
-	.string "hat gesiegt! Ein junger\l"
-	.string "Trainer hat sie zerschlagen.$"
+	.string "Aber die Gerechtigkeit hat gesiegt! Ein\n"
+	.string "junger Trainer hat sie zerschlagen.$"
 #else
 	.string "It was around three years ago.\p"
 	.string "TEAM ROCKET was up to no good\n"
@@ -237,8 +232,8 @@ VioletCity_PokeCenter_Text_Gentleman:
 VioletCity_PokeCenter_Text_Youngster:
 #if GERMAN
 	.string "Pokémon sind schlau.\n"
-	.string "Sie gehorchen nur Trainern,\l"
-	.string "vor denen sie auch Respekt haben.\p"
+	.string "Sie gehorchen nur Trainern, vor denen\l"
+	.string "sie auch Respekt haben.\p"
 	.string "Hat der Trainer nicht genug Orden,\n"
 	.string "machen sie, was sie wollen.$"
 #else

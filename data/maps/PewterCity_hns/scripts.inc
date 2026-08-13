@@ -84,8 +84,8 @@ PewterCity_Text_Gramps:
 	.string "Johto bis hierher gekommen!\p"
 	.string "Als ich noch jung war, habe ich auch\n"
 	.string "eine Trainingsreise nach Johto\l"
-	.string "unternommen. Du erinnerst mich\l"
-	.string "an mich selbst als junger Mann…\p"
+	.string "unternommen. Du erinnerst mich an mich\l"
+	.string "selbst als junger Mann…\p"
 	.string "Hier, dieses Item habe ich damals in\n"
 	.string "Johto gefunden. Es gehört dir.$"
 #else
@@ -143,8 +143,8 @@ PewterCity_Text_Sign:
 PewterCity_Text_GymSign:
 #if GERMAN
 	.string "Pokémon-Arena von Marmoria City\n"
-	.string "Leiter: Rocko\l"
-	.string "Der felsenharte Pokémon-Trainer$"
+	.string "Leiter: Rocko Der felsenharte\l"
+	.string "Pokémon-Trainer$"
 #else
 	.string "PEWTER CITY POKéMON GYM\n"
 	.string "LEADER: BROCK\p"
@@ -154,9 +154,9 @@ PewterCity_Text_GymSign:
 PewterCity_Text_MuseumSign:
 #if GERMAN
 	.string "Hier ist eine Nachricht…\p"
-	.string "Marmorias Museum\n"
-	.string "Der Wissenschaft ist wegen\l"
-	.string "Renovierungsarbeiten geschlossen…$"
+	.string "Marmorias Museum Der Wissenschaft ist\n"
+	.string "wegen Renovierungsarbeiten\l"
+	.string "geschlossen…$"
 #else
 	.string "There's a notice here…\p"
 	.string "PEWTER MUSEUM OF SCIENCE is closed for\n"

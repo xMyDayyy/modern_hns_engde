@@ -42,8 +42,8 @@ Route21_South_Text_JeromeDefeat::
 Route21_South_Text_JeromePostBattle::
 #if GERMAN
 	.string "Du hast gewonnen!\n"
-	.string "Aber ich kann noch beim Marathon\l"
-	.string "und im Radrennen siegen!$"
+	.string "Aber ich kann noch beim Marathon und im\l"
+	.string "Radrennen siegen!$"
 #else
 	.string "I'm beat! But, I still have the\n"
 	.string "bike race and marathon left!$"
@@ -155,8 +155,8 @@ Route21_North_Text_LilPostBattle::
 
 Route21_North_Text_LilNotEnoughMons::
 #if GERMAN
-	.string "Ewe: Häh? Ein Kampf? Ich kann\n"
-	.string "ihn nicht alleine bestreiten.\l"
+	.string "Ewe: Häh? Ein Kampf? Ich kann ihn nicht\n"
+	.string "alleine bestreiten.\l"
 	.string "Bring zwei Pokémon, o.k.?$"
 #else
 	.string "LIL: Huh? A battle?\n"
@@ -166,9 +166,9 @@ Route21_North_Text_LilNotEnoughMons::
 
 Route21_North_Text_IanIntro::
 #if GERMAN
-	.string "Tobi: Meine Schwester trainiert\n"
-	.string "nicht genug, daher habe ich sie\l"
-	.string "gezwungen hierher zu kommen.$"
+	.string "Tobi: Meine Schwester trainiert nicht\n"
+	.string "genug, daher habe ich sie gezwungen\l"
+	.string "hierher zu kommen.$"
 #else
 	.string "IAN: My sis doesn't get enough\n"
 	.string "exercise, so I made her come.$"
@@ -195,8 +195,8 @@ Route21_North_Text_IanPostBattle::
 
 Route21_North_Text_IanNotEnoughMons::
 #if GERMAN
-	.string "Tobi: Wir verlangen einen Zwei-\n"
-	.string "gegen-Zwei-Kampf. Bring doch zwei\l"
+	.string "Tobi: Wir verlangen einen\n"
+	.string "Zweigegen-Zwei-Kampf. Bring doch zwei\l"
 	.string "Pokémon mit!$"
 #else
 	.string "IAN: We want a two-on-two battle.\n"

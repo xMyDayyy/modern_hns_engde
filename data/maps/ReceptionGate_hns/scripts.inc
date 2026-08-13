@@ -16,9 +16,9 @@ ReceptionGate_EventScript_Janine::
 
 ReceptionGate_Text_Janine:
 #if GERMAN
-	.string "Janina: Ich bin auf dem Weg zu\n"
-	.string "meinem Vater, um ihm das Mittagessen\l"
-	.string "zu bringen.\p"
+	.string "Janina: Ich bin auf dem Weg zu meinem\n"
+	.string "Vater, um ihm das Mittagessen zu\l"
+	.string "bringen.\p"
 	.string "Die Top Vier hat keine Zeit für\n"
 	.string "Erholung, Tag oder Nacht.\p"
 	.string "Es ist wirklich harte Arbeit, weißt\n"
@@ -80,9 +80,8 @@ ReceptionGate_EventScript_KantoGuard::
 
 VictoryRoadGate_Text_Officer:
 #if GERMAN
-	.string "Nur Trainer, die\n"
-	.string "sich als würdig erwiesen haben, dürfen\l"
-	.string "eintreten.$"
+	.string "Nur Trainer, die sich als würdig erwiesen\n"
+	.string "haben, dürfen eintreten.$"
 #else
     .string "Only trainers who have proven\n"
     .string "themselves may pass.$"
@@ -91,8 +90,7 @@ VictoryRoadGate_Text_Officer:
 VictoryRoadGate_Text_Kimono:
 #if GERMAN
 	.string "Entschuldige, Kleiner, dieser Weg ist\n"
-	.string "geschlossen,\l"
-	.string "bis jemand sich des\p"
+	.string "geschlossen, bis jemand sich des\p"
 	.string "legendären Pokémon annimmt…$"
 #else
     .string "Sorry kid, this way is closed until\n"

@@ -1,8 +1,7 @@
 Route102_Text_CalvinIntro:
 #if GERMAN
-	.string "Dich habe ich hier noch nie\n"
-	.string "gesehen! Und dein Pokémon sieht\l"
-	.string "richtig stark aus…\p"
+	.string "Dich habe ich hier noch nie gesehen! Und\n"
+	.string "dein Pokémon sieht richtig stark aus…\p"
 	.string "Zeig mir, was du drauf hast!$"
 #else
 	.string "I've never seen you around here\n"
@@ -420,8 +419,8 @@ Route103_Text_MiguelPostBattle:
 
 Route103_Text_MiguelRegister:
 #if GERMAN
-	.string "Ich muss dafür sorgen, dass du dir\n"
-	.string "mein wunderbares Pokémon bald wieder\l"
+	.string "Ich muss dafür sorgen, dass du dir mein\n"
+	.string "wunderbares Pokémon bald wieder\l"
 	.string "anschaust.$"
 #else
 	.string "I'll get you to come out and look in\n"
@@ -475,9 +474,9 @@ Route103_Text_PeteDefeated:
 Route103_Text_PetePostBattle:
 #if GERMAN
 	.string "Mir ist klar, woher du kommst.\p"
-	.string "Wenn ich ein Pokémon hätte, dem ich\n"
-	.string "so vertrauen könnte, würde ich ihm\l"
-	.string "auch Surfer beibringen.$"
+	.string "Wenn ich ein Pokémon hätte, dem ich so\n"
+	.string "vertrauen könnte, würde ich ihm auch\l"
+	.string "Surfer beibringen.$"
 #else
 	.string "Oh, I understand where you're coming\n"
 	.string "from now.\p"
@@ -504,8 +503,8 @@ Route103_Text_IsabelleDefeated:
 Route103_Text_IsabellePostBattle:
 #if GERMAN
 	.string "Ich bin eine lausige Schwimmerin, daher\n"
-	.string "übe ich hier… Tut mir Leid, dass\l"
-	.string "ich fast in dich hineingeschwommen bin.$"
+	.string "übe ich hier… Tut mir Leid, dass ich fast\l"
+	.string "in dich hineingeschwommen bin.$"
 #else
 	.string "I'm a poor swimmer so I was practicing…\n"
 	.string "Sorry for almost crashing into you.$"
@@ -636,8 +635,8 @@ Route104_Text_MiaNotEnoughMons:
 #if GERMAN
 	.string "Mia: Du willst gegen uns kämpfen?\p"
 	.string "Ein dickes nein - da du weniger als zwei\n"
-	.string "Pokémon bei dir hast. Wir sind zu\l"
-	.string "stark für dich!$"
+	.string "Pokémon bei dir hast. Wir sind zu stark\l"
+	.string "für dich!$"
 #else
 	.string "MIA: You want to battle with us?\p"
 	.string "It's a big no-no if you don't have two\n"
@@ -696,9 +695,9 @@ Route104_Text_BillyDefeat:
 
 Route104_Text_BillyPostBattle:
 #if GERMAN
-	.string "Ich will meine Fußspuren im Sand hinter-\n"
-	.string "lassen, aber sie verschwinden viel zu\l"
-	.string "schnell wieder…$"
+	.string "Ich will meine Fußspuren im Sand\n"
+	.string "hinterlassen, aber sie verschwinden\l"
+	.string "viel zu schnell wieder…$"
 #else
 	.string "I want to leave my footprints in\n"
 	.string "the sand everywhere, but they\l"
@@ -888,8 +887,7 @@ Route104_Text_CindyDefeat:
 
 Route104_Text_CindyPostBattle:
 #if GERMAN
-	.string "“Hallo” ist der Anfang von\n"
-	.string "“Leb wohl”.\l"
+	.string "“Hallo” ist der Anfang von “Leb wohl”.\n"
 	.string "Ich hoffe, wir sehen uns wieder.$"
 #else
 	.string "“Hello” is the beginning of “good-bye.”\n"
@@ -941,8 +939,7 @@ Route104_Text_CindyRematchDefeat:
 
 Route104_Text_CindyPostRematch:
 #if GERMAN
-	.string "“Hallo” ist der Anfang von\n"
-	.string "“Leb wohl”.\l"
+	.string "“Hallo” ist der Anfang von “Leb wohl”.\n"
 	.string "Ich hoffe, wir sehen uns wieder.$"
 #else
 	.string "“Hello” is the beginning of “good-bye.”\n"
@@ -981,8 +978,8 @@ Route104_Text_DarianPostBattle:
 Route105_Text_FosterIntro:
 #if GERMAN
 	.string "Hier in der Gegend soll es einen\n"
-	.string "mystischen Felsen geben. Weißt\l"
-	.string "du etwas darüber?$"
+	.string "mystischen Felsen geben. Weißt du\l"
+	.string "etwas darüber?$"
 #else
 	.string "There's supposed to be a mystical\n"
 	.string "rock around here.\l"
@@ -991,9 +988,9 @@ Route105_Text_FosterIntro:
 
 Route105_Text_FosterDefeated:
 #if GERMAN
-	.string "Ich habe zu sehr über den Felsen nach-\n"
-	.string "gedacht, so dass meine Pokémon schwach\l"
-	.string "blieben…$"
+	.string "Ich habe zu sehr über den Felsen\n"
+	.string "nachgedacht, so dass meine Pokémon\l"
+	.string "schwach blieben…$"
 #else
 	.string "I was thinking too much about that\n"
 	.string "rock, while my POKéMON remained weak…$"
@@ -1002,8 +999,8 @@ Route105_Text_FosterDefeated:
 Route105_Text_FosterPostBattle:
 #if GERMAN
 	.string "Ich kann Stunden damit verbringen,\n"
-	.string "einen Felsen anzustarren, ohne dass\l"
-	.string "mir langweilig wird.$"
+	.string "einen Felsen anzustarren, ohne dass mir\l"
+	.string "langweilig wird.$"
 #else
 	.string "I can spend hours and hours staring\n"
 	.string "at a nice rock without growing bored.$"
@@ -1254,9 +1251,9 @@ Route106_Text_ElliotPostBattle:
 
 Route106_Text_ElliotRegister:
 #if GERMAN
-	.string "Angeln ist klasse, aber das sind\n"
-	.string "Kämpfe auch. Hast du nicht Lust, dich\l"
-	.string "bald mal wieder mit mir zu messen?$"
+	.string "Angeln ist klasse, aber das sind Kämpfe\n"
+	.string "auch. Hast du nicht Lust, dich bald mal\l"
+	.string "wieder mit mir zu messen?$"
 #else
 	.string "Fishing's great, but so is battling.\n"
 	.string "If you don't mind, can we meet again?$"
@@ -1637,8 +1634,8 @@ Route108_Text_JeromeIntro:
 Route108_Text_JeromeDefeated:
 #if GERMAN
 	.string "So werde ich niemals in der Lage sein,\n"
-	.string "die sieben Weltmeere zu durch-\l"
-	.string "schwimmen.$"
+	.string "die sieben Weltmeere zu\l"
+	.string "durchschwimmen.$"
 #else
 	.string "I won't be able to swim the seven seas\n"
 	.string "like this…$"
@@ -1816,9 +1813,9 @@ Route108_Text_CarolinaDefeated:
 
 Route108_Text_CarolinaPostBattle:
 #if GERMAN
-	.string "Da ich hier im Meer schwimme, hätte\n"
-	.string "ich nichts dagegen, einen niedlichen\l"
-	.string "und süßen rosa Badeanzug zu tragen…$"
+	.string "Da ich hier im Meer schwimme, hätte ich\n"
+	.string "nichts dagegen, einen niedlichen und\l"
+	.string "süßen rosa Badeanzug zu tragen…$"
 #else
 	.string "Since I'm at sea like this, I wouldn't\n"
 	.string "mind putting on a pink, frilly swimsuit…$"
@@ -1826,9 +1823,9 @@ Route108_Text_CarolinaPostBattle:
 
 Route109_Text_DavidIntro:
 #if GERMAN
-	.string "Hiya! Schau dir meine gemeißelten \n"
-	.string "Vollmatrosen an! Das nennt\l"
-	.string "man einen “Schnitt”!$"
+	.string "Hiya! Schau dir meine gemeißelten\n"
+	.string "Vollmatrosen an! Das nennt man einen\l"
+	.string "“Schnitt”!$"
 #else
 	.string "Hiyah! Look at my chiseled abs!\n"
 	.string "This is what you call “cut”!$"
@@ -2031,8 +2028,8 @@ Route109_Text_LolaRegister:
 Route109_Text_LolaRematchIntro:
 #if GERMAN
 	.string "Ich verliere nicht wieder gegen dich!\n"
-	.string "Schließlich habe ich einen Schwimm-\l"
-	.string "reifen um!$"
+	.string "Schließlich habe ich einen\l"
+	.string "Schwimmreifen um!$"
 #else
 	.string "I'm not losing to you again!\n"
 	.string "That's why I have my inner tube!$"
@@ -2151,8 +2148,8 @@ Route109_Text_PaulDefeated:
 
 Route109_Text_PaulPostBattle:
 #if GERMAN
-	.string "Ole: Nun, sag niemandem, dass wir\n"
-	.string "hier sind. Das ist unsere kleine, private\l"
+	.string "Ole: Nun, sag niemandem, dass wir hier\n"
+	.string "sind. Das ist unsere kleine, private\l"
 	.string "Welt!$"
 #else
 	.string "PAUL: Well, don't tell anyone that\n"
@@ -2439,8 +2436,8 @@ Route110_Text_AbigailPostBattle:
 Route110_Text_AbigailRegister:
 #if GERMAN
 	.string "Weißt du, ich mag dich.\n"
-	.string "Wir sollten auf dem Küstenradweg\l"
-	.string "noch einmal gegeneinander kämpfen.$"
+	.string "Wir sollten auf dem Küstenradweg noch\l"
+	.string "einmal gegeneinander kämpfen.$"
 #else
 	.string "You know, I like you!\n"
 	.string "Let's have a rematch on CYCLING ROAD.$"
@@ -2545,8 +2542,8 @@ Route110_Text_JaclynDefeated:
 
 Route110_Text_JaclynPostBattle:
 #if GERMAN
-	.string "Du konntest nur gewinnen, weil das\n"
-	.string "das Wunder war! Ja, ein Wunder! Glaub ja\l"
+	.string "Du konntest nur gewinnen, weil das das\n"
+	.string "Wunder war! Ja, ein Wunder! Glaub ja\l"
 	.string "nicht, dass du immer gewinnen kannst!$"
 #else
 	.string "You managed to win only because it was\n"
@@ -2886,9 +2883,9 @@ Route111_Text_HeidiPostBattle:
 
 Route111_Text_BeauIntro:
 #if GERMAN
-	.string "Mit diesem Wüstenglas fühle ich mich\n"
-	.string "wie ein Superheld. Im Moment kann\l"
-	.string "mich einfach niemand besiegen!$"
+	.string "Mit diesem Wüstenglas fühle ich mich wie\n"
+	.string "ein Superheld. Im Moment kann mich\l"
+	.string "einfach niemand besiegen!$"
 #else
 	.string "Wearing these GO-GOGGLES makes me\n"
 	.string "feel like a superhero.\l"
@@ -3239,8 +3236,8 @@ Route111_Text_BrookeRematchDefeat:
 Route111_Text_BrookePostRematch:
 #if GERMAN
 	.string "Meine Pokémon sollten sich vielleicht\n"
-	.string "nicht entwickeln, bis sie wirklich\l"
-	.string "gute Attacken gelernt haben…$"
+	.string "nicht entwickeln, bis sie wirklich gute\l"
+	.string "Attacken gelernt haben…$"
 #else
 	.string "Maybe I should have stopped my\n"
 	.string "POKéMON from evolving until they\l"
@@ -3656,8 +3653,8 @@ Route112_Text_ShaylaPostBattle:
 #if GERMAN
 	.string "Hast du etwas Zeit? Ich dachte,\n"
 	.string "vielleicht könnten wir mal wieder\l"
-	.string "miteinander kämpfen… Aber wenn\l"
-	.string "du keine Zeit hast, ist es auch okay.$"
+	.string "miteinander kämpfen… Aber wenn du\l"
+	.string "keine Zeit hast, ist es auch okay.$"
 #else
 	.string "Are you busy right now?\n"
 	.string "I was thinking that maybe we can have\l"
@@ -3766,8 +3763,8 @@ Route113_Text_MadelineRegister:
 Route113_Text_MadelineRematchIntro:
 #if GERMAN
 	.string "Oh, hallo, wir haben uns ja ewig nicht\n"
-	.string "gesehen. Ich lade dich zu einem\l"
-	.string "Kampf ein.$"
+	.string "gesehen. Ich lade dich zu einem Kampf\l"
+	.string "ein.$"
 #else
 	.string "Oh, hello, hasn't it been a while?\n"
 	.string "May I invite you to battle?$"
@@ -4374,9 +4371,9 @@ Route114_Text_NolanDefeat:
 Route114_Text_NolanPostBattle:
 #if GERMAN
 	.string "Dieses Mal werde ich trainieren!\p"
-	.string "Das denke ich jedes Mal und dann\n"
-	.string "kann ich mich doch nicht von meiner\l"
-	.string "Angel und meinen Pokémon trennen.$"
+	.string "Das denke ich jedes Mal und dann kann\n"
+	.string "ich mich doch nicht von meiner Angel und\l"
+	.string "meinen Pokémon trennen.$"
 #else
 	.string "This time I'll do it!\p"
 	.string "I always think that, so I can't walk\n"
@@ -4385,9 +4382,9 @@ Route114_Text_NolanPostBattle:
 
 Route114_Text_TyraIntro:
 #if GERMAN
-	.string "Tyra: Natürlich. Ich bin in der\n"
-	.string "richtigen Stimmung. Ich werde dir\l"
-	.string "etwas über Pokémon beibringen.$"
+	.string "Tyra: Natürlich. Ich bin in der richtigen\n"
+	.string "Stimmung. Ich werde dir etwas über\l"
+	.string "Pokémon beibringen.$"
 #else
 	.string "TYRA: Well, sure.\n"
 	.string "I'm in the mood for it.\l"
@@ -4441,8 +4438,8 @@ Route114_Text_IvyDefeat:
 Route114_Text_IvyPostBattle:
 #if GERMAN
 	.string "Ivy: Ich habe angefangen, Pokémon zu\n"
-	.string "trainieren, weil Tyra, meine Mentorin,\l"
-	.string "es mir beigebracht hat!$"
+	.string "trainieren, weil Tyra, meine Mentorin, es\l"
+	.string "mir beigebracht hat!$"
 #else
 	.string "IVY: I started training POKéMON\n"
 	.string "because TYRA, my student mentor,\l"
@@ -4730,8 +4727,8 @@ Route115_Text_CyndyDefeat:
 Route115_Text_CyndyPostBattle:
 #if GERMAN
 	.string "Der Sand ist wie ein Kissen, das den\n"
-	.string "Sturz abfängt und Verletzungen ver-\l"
-	.string "hindert. Der perfekte Trainingsort.$"
+	.string "Sturz abfängt und Verletzungen\l"
+	.string "verhindert. Der perfekte Trainingsort.$"
 #else
 	.string "The sand acts as a cushion to reduce\n"
 	.string "impact and prevent injury.\l"
@@ -4960,8 +4957,8 @@ Route116_Text_ClarkDefeat:
 Route116_Text_ClarkPostBattle:
 #if GERMAN
 	.string "Macht auch nichts, wenn es keinen\n"
-	.string "Tunnel gibt. Für Wanderer sind Berge\l"
-	.string "wie Straßen.$"
+	.string "Tunnel gibt. Für Wanderer sind Berge wie\l"
+	.string "Straßen.$"
 #else
 	.string "It's no big deal if there's no tunnel.\n"
 	.string "To a HIKER, mountains are roads!$"
@@ -5068,8 +5065,8 @@ Route116_Text_JerryDefeat:
 
 Route116_Text_JerryPostBattle:
 #if GERMAN
-	.string "Ich muss einige Kurse in der Trainer-\n"
-	.string "schule wiederholen.\l"
+	.string "Ich muss einige Kurse in der\n"
+	.string "Trainerschule wiederholen.\l"
 	.string "Sonst wird Felizia vor Wut schäumen.$"
 #else
 	.string "I'll have to redo some courses at\n"
@@ -5127,8 +5124,8 @@ Route116_Text_JerryRematchDefeat:
 
 Route116_Text_JerryPostRematch:
 #if GERMAN
-	.string "Ich muss einige Kurse in der Trainer-\n"
-	.string "schule wiederholen.\l"
+	.string "Ich muss einige Kurse in der\n"
+	.string "Trainerschule wiederholen.\l"
 	.string "Sonst wird Felizia vor Wut schäumen.$"
 #else
 	.string "I'll have to redo some courses at\n"
@@ -5344,8 +5341,8 @@ Route117_Text_IsaacPostBattle:
 	.string "Pokémon werden nicht nur durch Stärke\n"
 	.string "definiert.\p"
 	.string "Jedes Pokémon hat seinen eigenen\n"
-	.string "Charakter. Dadurch wird der Umgang\l"
-	.string "mit ihnen noch viel interessanter.$"
+	.string "Charakter. Dadurch wird der Umgang mit\l"
+	.string "ihnen noch viel interessanter.$"
 #else
 	.string "POKéMON isn't all about power.\p"
 	.string "Polishing a unique aspect of one's\n"
@@ -5552,8 +5549,8 @@ Route117_Text_MariaPostBattle:
 Route117_Text_MariaRegister:
 #if GERMAN
 	.string "Du scheinst ein sehr gutes Training zu\n"
-	.string "haben… Ich würde gerne später\l"
-	.string "wieder gegen dich antreten.$"
+	.string "haben… Ich würde gerne später wieder\l"
+	.string "gegen dich antreten.$"
 #else
 	.string "You appear to be training properly…\n"
 	.string "If you'd like, I'll battle you later!$"
@@ -5637,8 +5634,8 @@ Route117_Text_AnnaIntro:
 Route117_Text_AnnaDefeat:
 #if GERMAN
 	.string "Irm: Ich bin mit meiner hübschen\n"
-	.string "Juniorpartnerin hier. Ich will so\l"
-	.string "gerne gewinnen!$"
+	.string "Juniorpartnerin hier. Ich will so gerne\l"
+	.string "gewinnen!$"
 #else
 	.string "ANNA: I'm with my pretty junior student\n"
 	.string "partner! Let me win!$"
@@ -5677,8 +5674,8 @@ Route117_Text_AnnaNotEnoughMons:
 
 Route117_Text_MegIntro:
 #if GERMAN
-	.string "Ida: Ich werde mich mit meiner Super-\n"
-	.string "Seniorpartnerin verbünden und\l"
+	.string "Ida: Ich werde mich mit meiner\n"
+	.string "Super-Seniorpartnerin verbünden und\l"
 	.string "siegen!$"
 #else
 	.string "MEG: I'm going to tag up with my super\n"
@@ -5930,8 +5927,8 @@ Route118_Text_RoseRematchDefeat:
 
 Route118_Text_RosePostRematch:
 #if GERMAN
-	.string "Wenn du einen süßen Duft richtig ein-\n"
-	.string "setzt, werden Pokémon davon\l"
+	.string "Wenn du einen süßen Duft richtig\n"
+	.string "einsetzt, werden Pokémon davon\l"
 	.string "angezogen.$"
 #else
 	.string "If you use a sweet aroma properly,\n"
@@ -5992,8 +5989,8 @@ Route118_Text_ChesterPostBattle:
 Route118_Text_BarnyIntro:
 #if GERMAN
 	.string "Ich bin ein Angler, aber auch ein\n"
-	.string "Trainer. Ich ziehe die Pokémon auf,\l"
-	.string "die ich gefangen habe.$"
+	.string "Trainer. Ich ziehe die Pokémon auf, die\l"
+	.string "ich gefangen habe.$"
 #else
 	.string "I'm a FISHERMAN, but also a TRAINER.\n"
 	.string "I'm raising the POKéMON I caught.$"
@@ -6610,8 +6607,8 @@ Route119_Text_ChrisPostBattle:
 Route119_Text_FabianIntro:
 #if GERMAN
 	.string "Zeig mir deine Powerakkorde!\n"
-	.string "Der Sieg gehört mir! Nun ist es an\l"
-	.string "der Zeit, im Ruhm zu glänzen!$"
+	.string "Der Sieg gehört mir! Nun ist es an der\l"
+	.string "Zeit, im Ruhm zu glänzen!$"
 #else
 	.string "Hit me with a power chord!\n"
 	.string "Victory is mine!\l"
@@ -6640,9 +6637,9 @@ Route119_Text_FabianPostBattle:
 
 Route119_Text_DaytonIntro:
 #if GERMAN
-	.string "Hohoho! Ich mag Kinder, die meinen,\n"
-	.string "sie wären Trainer. Lass uns einen\l"
-	.string "Kampf austragen.$"
+	.string "Hohoho! Ich mag Kinder, die meinen, sie\n"
+	.string "wären Trainer. Lass uns einen Kampf\l"
+	.string "austragen.$"
 #else
 	.string "Hohoho!\n"
 	.string "I like kid TRAINERS!\l"
@@ -6689,9 +6686,9 @@ Route119_Text_RachelDefeat:
 
 Route119_Text_RachelPostBattle:
 #if GERMAN
-	.string "Du fragst, ob mein Sonnenschirm\n"
-	.string "schwer ist? Dein Beutel ist mit mehr\l"
-	.string "Mist gefüllt, als ich tragen könnte.$"
+	.string "Du fragst, ob mein Sonnenschirm schwer\n"
+	.string "ist? Dein Beutel ist mit mehr Mist\l"
+	.string "gefüllt, als ich tragen könnte.$"
 #else
 	.string "You're asking if my parasol is heavy?\n"
 	.string "Your BAG is filled with more junk than\l"
@@ -6808,8 +6805,8 @@ Route120_Text_LorenzoDefeat:
 Route120_Text_LorenzoPostBattle:
 #if GERMAN
 	.string "Mit Pokémon dorthin zu reisen, wohin\n"
-	.string "man auch immer will… Das ist das\l"
-	.string "Schöne an einem Leben als Trainer.$"
+	.string "man auch immer will… Das ist das Schöne\l"
+	.string "an einem Leben als Trainer.$"
 #else
 	.string "To travel wherever your heart desires\n"
 	.string "with POKéMON…\l"
@@ -6819,8 +6816,8 @@ Route120_Text_LorenzoPostBattle:
 Route120_Text_JennaIntro:
 #if GERMAN
 	.string "Wie sieht es mit deiner Fitness aus?\n"
-	.string "Wenn du nicht fit bist, könnten \l"
-	.string "harte Zeiten auf dich zukommen.$"
+	.string "Wenn du nicht fit bist, könnten harte\l"
+	.string "Zeiten auf dich zukommen.$"
 #else
 	.string "How's your physical fitness?\n"
 	.string "If you're not fit, you could have a\l"
@@ -6920,8 +6917,8 @@ Route120_Text_JeffreyPostRematch:
 
 Route120_Text_JenniferIntro:
 #if GERMAN
-	.string "Pokémon haben viele spezielle Fähig-\n"
-	.string "keiten. Wenn du ein klasse Trainer\l"
+	.string "Pokémon haben viele spezielle\n"
+	.string "Fähigkeiten. Wenn du ein klasse Trainer\l"
 	.string "werden willst, lerne etwas darüber.$"
 #else
 	.string "POKéMON have many special abilities.\n"
@@ -6950,8 +6947,8 @@ Route120_Text_ChipIntro:
 #if GERMAN
 	.string "Wer magst du sein?\p"
 	.string "Suchst du etwa nach antiken Ruinen,\n"
-	.string "von denen die Legende sagt, sie\l"
-	.string "seien hier zu finden?$"
+	.string "von denen die Legende sagt, sie seien\l"
+	.string "hier zu finden?$"
 #else
 	.string "Who might you be?\p"
 	.string "Are you perhaps searching for ancient\n"
@@ -6998,8 +6995,8 @@ Route120_Text_ClarissaDefeat:
 
 Route120_Text_ClarissaPostBattle:
 #if GERMAN
-	.string "Ich glaube nicht, dass starkes Sonnen-\n"
-	.string "licht gut für meine Pokémon ist.\l"
+	.string "Ich glaube nicht, dass starkes\n"
+	.string "Sonnenlicht gut für meine Pokémon ist.\l"
 	.string "Daher schütze ich sie mit meinem Schirm.$"
 #else
 	.string "I don't think strong sunlight is good\n"
@@ -7292,9 +7289,9 @@ Route121_Text_KateDefeat:
 
 Route121_Text_KatePostBattle:
 #if GERMAN
-	.string "Eva: Wenn sich jemand auf mich\n"
-	.string "verlässt, versuche ich ihm gegenüber\l"
-	.string "immer cool aufzutreten…$"
+	.string "Eva: Wenn sich jemand auf mich verlässt,\n"
+	.string "versuche ich ihm gegenüber immer cool\l"
+	.string "aufzutreten…$"
 #else
 	.string "KATE: When someone's relying on me,\n"
 	.string "I get this urge to look cool in front\l"
@@ -7949,8 +7946,8 @@ Route123_Text_FernandoRegister:
 Route123_Text_FernandoRematchIntro:
 #if GERMAN
 	.string "Heute ist der Tag der Tage!\n"
-	.string "Ich werde mit meinem Lied die Welt\l"
-	.string "zum Erbeben bringen.$"
+	.string "Ich werde mit meinem Lied die Welt zum\l"
+	.string "Erbeben bringen.$"
 #else
 	.string "Today's the day I'm going to do it!\n"
 	.string "I'll turn out your lights before\l"
@@ -7977,9 +7974,9 @@ Route123_Text_FernandoPostRematch:
 
 Route123_Text_DavisIntro:
 #if GERMAN
-	.string "Das ist mein unglaubliches Käfer-\n"
-	.string "Pokémon. Mein großer Bruder hat es für\l"
-	.string "mich gefangen.$"
+	.string "Das ist mein unglaubliches\n"
+	.string "Käfer-Pokémon. Mein großer Bruder hat\l"
+	.string "es für mich gefangen.$"
 #else
 	.string "This is my awesome BUG POKéMON!\n"
 	.string "My big brother got it for me.$"
@@ -8007,8 +8004,8 @@ Route123_Text_DavisPostBattle:
 Route123_Text_JazmynIntro:
 #if GERMAN
 	.string "Ich werde vor Selbstbewusstsein\n"
-	.string "platzen, wenn ich einen starken\l"
-	.string "Trainer besiege.$"
+	.string "platzen, wenn ich einen starken Trainer\l"
+	.string "besiege.$"
 #else
 	.string "My confidence will get a boost by\n"
 	.string "beating someone obviously strong!$"
@@ -8773,8 +8770,8 @@ Route125_Text_ErnestRematchPostBattle:
 #if GERMAN
 	.string "Die Küstenhöhle…\p"
 	.string "Es gibt Orte, die sind mal erreichbar und\n"
-	.string "mal nicht. Ganz abhängig von Ebbe\l"
-	.string "und Flut.\p"
+	.string "mal nicht. Ganz abhängig von Ebbe und\l"
+	.string "Flut.\p"
 	.string "Übrigens: Vergiss nicht, dass zwischen\n"
 	.string "Flut und Ebbe sechs Stunden liegen!$"
 #else
@@ -9404,9 +9401,9 @@ Route127_Text_KojiRematchDefeat:
 
 Route127_Text_KojiPostRematch:
 #if GERMAN
-	.string "Hast du nicht Lust, ein bisschen\n"
-	.string "barfuß zu laufen? Ich würde gerne\l"
-	.string "deine Turbotreter ausprobieren.$"
+	.string "Hast du nicht Lust, ein bisschen barfuß\n"
+	.string "zu laufen? Ich würde gerne deine\l"
+	.string "Turbotreter ausprobieren.$"
 #else
 	.string "Want to go barefoot for a while?\n"
 	.string "So I can try your RUNNING SHOES?$"
@@ -9526,8 +9523,8 @@ Route128_Text_KatelynDefeat:
 Route128_Text_KatelynPostBattle:
 #if GERMAN
 	.string "Ich muss als Nächstes mit dem Rad\n"
-	.string "fahren, aber… ich möchte eigentlich\l"
-	.string "das Handtuch werfen.$"
+	.string "fahren, aber… ich möchte eigentlich das\l"
+	.string "Handtuch werfen.$"
 #else
 	.string "I have to ride a BIKE next, but…\n"
 	.string "I'm about to throw in the towel…$"
@@ -9546,8 +9543,8 @@ Route128_Text_KatelynRegister:
 Route128_Text_KatelynRematchIntro:
 #if GERMAN
 	.string "Ein Triathlon ist lang. Aber ich glaube,\n"
-	.string "um Pokémon Champ zu werden, hat\l"
-	.string "man auch einen langen Weg vor sich.$"
+	.string "um Pokémon Champ zu werden, hat man\l"
+	.string "auch einen langen Weg vor sich.$"
 #else
 	.string "A triathlon is long. But I guess the\n"
 	.string "road to become the POKéMON CHAMPION\l"
@@ -10083,9 +10080,9 @@ Route131_Text_ReliDefeat:
 
 Route131_Text_ReliPostBattle:
 #if GERMAN
-	.string "Una: Die Menschen in Flossbrunn\n"
-	.string "leben von Geburt an mit Pokémon\l"
-	.string "und dem Meer zusammen.$"
+	.string "Una: Die Menschen in Flossbrunn leben\n"
+	.string "von Geburt an mit Pokémon und dem Meer\l"
+	.string "zusammen.$"
 #else
 	.string "RELI: The people of PACIFIDLOG are\n"
 	.string "together with the sea and POKéMON from\l"
@@ -10162,8 +10159,8 @@ Route131_Text_TaliaDefeat:
 Route131_Text_TaliaPostBattle:
 #if GERMAN
 	.string "Hier in der Nähe gibt es einen seltsamen\n"
-	.string "Ort. Mit einem großen Turm. Schau ihn\l"
-	.string "dir doch mal an.$"
+	.string "Ort. Mit einem großen Turm. Schau ihn dir\l"
+	.string "doch mal an.$"
 #else
 	.string "There is an odd place nearby.\n"
 	.string "There's a huge tower there.\l"
@@ -10334,8 +10331,8 @@ Route132_Text_MakaylaDefeat:
 Route132_Text_MakaylaPostBattle:
 #if GERMAN
 	.string "Der junge Mann dort drüben sieht\n"
-	.string "genauso aus wie mein Mann, als er\l"
-	.string "jung war.\p"
+	.string "genauso aus wie mein Mann, als er jung\l"
+	.string "war.\p"
 	.string "Der bringt mich zum Erröten.$"
 #else
 	.string "That young man over there looks just\n"
@@ -10619,8 +10616,8 @@ Route133_Text_ConorDefeat:
 Route133_Text_ConorPostBattle:
 #if GERMAN
 	.string "Lass dich nicht von anderen vom Weg\n"
-	.string "abbringen! Behalte immer deine Ziele\l"
-	.string "im Auge!$"
+	.string "abbringen! Behalte immer deine Ziele im\l"
+	.string "Auge!$"
 #else
 	.string "Don't let others lead you astray.\n"
 	.string "Don't lose direction as you grow older.$"
@@ -10769,8 +10766,8 @@ Route134_Text_KelvinDefeat:
 
 Route134_Text_KelvinPostBattle:
 #if GERMAN
-	.string "Wenn wir Surfer nicht einsetzen\n"
-	.string "können, wie sollen wir dann nach Hause\l"
+	.string "Wenn wir Surfer nicht einsetzen können,\n"
+	.string "wie sollen wir dann nach Hause\l"
 	.string "kommen?!?\p"
 	.string "Ich weiß, dass ein besiegtes Pokémon\n"
 	.string "Surfer einsetzen kann, aber irgendwie\l"
@@ -10833,8 +10830,8 @@ Route134_Text_ReynaPostBattle:
 #if GERMAN
 	.string "Haha!\n"
 	.string "Du hast gewonnen, na schön!\p"
-	.string "Ich werde besser werden, indem ich\n"
-	.string "alle Trainer herausfordere, denen ich\l"
+	.string "Ich werde besser werden, indem ich alle\n"
+	.string "Trainer herausfordere, denen ich\l"
 	.string "begegne.$"
 #else
 	.string "Haha!\n"

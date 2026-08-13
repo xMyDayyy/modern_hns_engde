@@ -67,9 +67,8 @@ Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime::
 
 Route5_PokemonDayCare_Text_OweMeXForMonsReturn::
 #if GERMAN
-	.string "Bevor du dein Pokémon wieder\n"
-	.string "mitnimmst, bekomme ich noch\l"
-	.string "{STR_VAR_2}¥ von dir!$"
+	.string "Bevor du dein Pokémon wieder mitnimmst,\n"
+	.string "bekomme ich noch {STR_VAR_2}¥ von dir!$"
 #else
 	.string "You owe me ¥{STR_VAR_2} for the return\n"
 	.string "of this POKéMON.$"

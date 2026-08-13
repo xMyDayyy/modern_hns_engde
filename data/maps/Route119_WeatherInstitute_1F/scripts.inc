@@ -119,8 +119,7 @@ Route119_WeatherInstitute_1F_Text_Grunt4Defeat:
 
 Route119_WeatherInstitute_1F_Text_Grunt4PostBattle:
 #if GERMAN
-	.string "Oh. Ich werde mir etwas anhören\n"
-	.string "müssen,\l"
+	.string "Oh. Ich werde mir etwas anhören müssen,\n"
 	.string "weil ich gegen ein Kind verloren habe…\p"
 	.string "\p"
 	.string "Ich muss mich jetzt dringend hinlegen…$"
@@ -154,9 +153,9 @@ Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
 #if GERMAN
 	.string "Der Professor liebt den Regen.\n"
 	.string "Das ist eine Tatsache.\p"
-	.string "Aber wenn es noch lange so regnet,\n"
-	.string "wird das zu Problemen führen. Das ist\l"
-	.string "die andere Seite der Medaille.\p"
+	.string "Aber wenn es noch lange so regnet, wird\n"
+	.string "das zu Problemen führen. Das ist die\l"
+	.string "andere Seite der Medaille.\p"
 	.string "Und daher erforscht der Professor,\n"
 	.string "wie man den Regen positiv nutzen kann.$"
 #else
@@ -173,8 +172,8 @@ Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
 	.string "Im ersten Stock des Instituts\n"
 	.string "untersuchen wir die Klimaveränderungen\l"
 	.string "in der Hoenn-Region.\p"
-	.string "Wir haben dort eine temporäre Dürre\n"
-	.string "und einzelne Fälle von heftigem\l"
+	.string "Wir haben dort eine temporäre Dürre und\n"
+	.string "einzelne Fälle von heftigem\l"
 	.string "Niederschlag verzeichnen können.$"
 #else
 	.string "On the 2nd floor of the INSTITUTE,\n"

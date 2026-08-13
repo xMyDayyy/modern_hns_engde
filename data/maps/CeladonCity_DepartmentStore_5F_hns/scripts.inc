@@ -99,8 +99,7 @@ CeladonDeptStore5_Text_Falkner:
 	.string "Ich besorge Items für meine\n"
 	.string "Flug-Pokémon.\p"
 	.string "Wenn du mich noch einmal herausfordern\n"
-	.string "willst, bin ich im Dojo in Saffronia\l"
-	.string "City.$"
+	.string "willst, bin ich im Dojo in Saffronia City.$"
 #else
 	.string "{PLAYER}. I didn't expect to see\n"
 	.string "you here.\p"
@@ -123,9 +122,9 @@ CeladonDeptStore5F_Text_Gentleman:
 
 CeladonDeptStore5F_Text_Sailor:
 #if GERMAN
-	.string "Ich will AP-Plus, damit ich die PP\n"
-	.string "von Attacken erhöhen kann. Aber man\l"
-	.string "kann es nicht kaufen…$"
+	.string "Ich will AP-Plus, damit ich die PP von\n"
+	.string "Attacken erhöhen kann. Aber man kann\l"
+	.string "es nicht kaufen…$"
 #else
 	.string "I want PP UP, so I can raise the\n"
 	.string "PP of moves. But you can't buy it…$"
@@ -133,10 +132,10 @@ CeladonDeptStore5F_Text_Sailor:
 
 CeladonDeptStore5F_Text_Teacher:
 #if GERMAN
-	.string "Pokémon freuen sich darüber, wenn\n"
-	.string "du ihnen Items zusteckst!\l"
-	.string "Aber auf manche Items könnten\l"
-	.string "sie scheinbar auch verzichten…$"
+	.string "Pokémon freuen sich darüber, wenn du\n"
+	.string "ihnen Items zusteckst!\l"
+	.string "Aber auf manche Items könnten sie\l"
+	.string "scheinbar auch verzichten…$"
 #else
 	.string "Using items on them makes POKéMON\n"
 	.string "happy.\p"

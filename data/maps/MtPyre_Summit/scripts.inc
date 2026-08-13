@@ -454,8 +454,7 @@ MtPyre_Summit_Text_Grunt1PostBattle:
 MtPyre_Summit_Text_Grunt2Intro:
 #if GERMAN
 	.string "Hah! Pech für dich!\p"
-	.string "Wärest du eher hier gewesen, hättest\n"
-	.string "du\l"
+	.string "Wärest du eher hier gewesen, hättest du\n"
 	.string "nur gegen das weinerliche Team Magma\l"
 	.string "antreten müssen.\p"
 	.string "Aber jetzt muss du gegen unsere Stärke\n"
@@ -502,8 +501,8 @@ MtPyre_Summit_Text_Grunt3Intro:
 
 MtPyre_Summit_Text_Grunt3Defeat:
 #if GERMAN
-	.string "Wenn du dich schon in fremde Ange-\n"
-	.string "legenheiten einmischen musst, dann\l"
+	.string "Wenn du dich schon in fremde\n"
+	.string "Angelegenheiten einmischen musst, dann\l"
 	.string "mach das bei Team Magma!$"
 #else
 	.string "If you're going to mess with anyone,\n"
@@ -540,9 +539,8 @@ MtPyre_Summit_Text_Grunt4Intro:
 
 MtPyre_Summit_Text_Grunt4Defeat:
 #if GERMAN
-	.string "Wenn du Team Aqua unbedingt\n"
-	.string "beitreten willst, können wir darüber\l"
-	.string "reden…$"
+	.string "Wenn du Team Aqua unbedingt beitreten\n"
+	.string "willst, können wir darüber reden…$"
 #else
 	.string "If you want to join TEAM AQUA that\n"
 	.string "badly, we can consider it…$"
@@ -563,8 +561,7 @@ MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
 	.string "vielleicht einen Schritt voraus sein,\l"
 	.string "aber wir haben das, was wir wollten.\p"
 	.string "Die rote Kugel vom Pyroberg…\n"
-	.string "Ich, Adrian, halte sie endlich in\l"
-	.string "meinen\l"
+	.string "Ich, Adrian, halte sie endlich in meinen\l"
 	.string "Händen!\p"
 	.string "Hähähä… Nun werden sich unsere\n"
 	.string "ultimativen Träume erfüllen!\p"
@@ -628,8 +625,7 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
 #if GERMAN
-	.string "Die blaue und die rote Kugel wurden\n"
-	.string "von\l"
+	.string "Die blaue und die rote Kugel wurden von\n"
 	.string "diesen gemeinen Männern fortgenommen…\p"
 	.string "\p"
 	.string "Sie dürfen niemals getrennt werden…\n"
@@ -691,8 +687,8 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "Die Gestaltung des Landes, des Meeres\n"
 	.string "und des Himmels…\p"
 	.string "Man sagt, dass sich hier die\n"
-	.string "Persönlich-\l"
-	.string "keiten uralter Pokémon widerspiegeln…\p"
+	.string "Persönlichkeiten uralter Pokémon\l"
+	.string "widerspiegeln…\p"
 	.string "\p"
 	.string "So, wie Menschen und Pokémon leben,\n"
 	.string "lebt auch die Welt…\p"
@@ -713,8 +709,7 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 MtPyre_Summit_Text_WillYouHearOutMyTale:
 #if GERMAN
 	.string "Am Pyroberg legen wir die Geister der\n"
-	.string "Pokémon, die von uns gegangen sind,\l"
-	.string "zur\l"
+	.string "Pokémon, die von uns gegangen sind, zur\l"
 	.string "Ruhe…\p"
 	.string "Von hier aus hat man einen Ausblick\n"
 	.string "über die ganze Region von Hoenn…\p"
@@ -838,8 +833,7 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "Dieses Pokémon, welches in einem\n"
 	.string "lebendigen Grün glänzte, beruhigte die\l"
 	.string "beiden Pokémon.\p"
-	.string "Und als es seine Aufgabe erfüllt\n"
-	.string "hatte,\l"
+	.string "Und als es seine Aufgabe erfüllt hatte,\n"
 	.string "stieg das Pokémon wieder in das Blau\l"
 	.string "des Himmels hinauf…$"
 #else

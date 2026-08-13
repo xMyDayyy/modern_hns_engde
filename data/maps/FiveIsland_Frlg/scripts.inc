@@ -31,9 +31,9 @@ FiveIsland_Text_WeirdBuildingInMeadow::
 #if GERMAN
 	.string "Igitt, das stinkt! Ich wollte auf\n"
 	.string "der Weide spielen.\p"
-	.string "Aber sie haben dort ein merk-\n"
-	.string "würdiges Gebäude errichtet und\l"
-	.string "ich kann dort nicht spielen.$"
+	.string "Aber sie haben dort ein merkwürdiges\n"
+	.string "Gebäude errichtet und ich kann dort\l"
+	.string "nicht spielen.$"
 #else
 	.string "Oh, this stinks. I wanted to play in\n"
 	.string "the MEADOW.\p"

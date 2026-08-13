@@ -90,8 +90,8 @@ Route9_Text_PicnickerHeidiBeaten:
 
 Route9_Text_PicnickerHeidiAfter:
 #if GERMAN
-	.string "Wir backen viele gute Sachen, die\n"
-	.string "wir mit allen teilen.\l"
+	.string "Wir backen viele gute Sachen, die wir mit\n"
+	.string "allen teilen.\l"
 	.string "Die sind lecker, glaube es ruhig!$"
 #else
 	.string "We bake lots of goodies and share\n"

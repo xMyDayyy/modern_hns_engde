@@ -181,9 +181,9 @@ MahoganyTown_Gym_Text_GlacierBadgeSpeech:
 #if GERMAN
 	.string "Der Orden erhöht die Spezial-\n"
 	.string "attacke deiner Pokémon.\p"
-	.string "Er erlaubt deinen Pokémon,\n"
-	.string "Whirlpool zu benutzen, um\l"
-	.string "echte Strudel zu überqueren.\p"
+	.string "Er erlaubt deinen Pokémon, Whirlpool zu\n"
+	.string "benutzen, um echte Strudel zu\l"
+	.string "überqueren.\p"
 	.string "Und dies… ist mein Geschenk!$"
 #else
     .string "That BADGE will raise the SPECIAL\n"
@@ -260,9 +260,8 @@ MahoganyTown_Gym_Text_PryceRematchDefeat:
 
 MahoganyTown_Gym_Text_Guide:
 #if GERMAN
-	.string "Norbert ist ein Veteran, der\n"
-	.string "seine Pokémon seit fast 50 Jahren\l"
-	.string "trainiert.\p"
+	.string "Norbert ist ein Veteran, der seine\n"
+	.string "Pokémon seit fast 50 Jahren trainiert.\p"
 	.string "Angeblich friert er Gegner gerne\n"
 	.string "mit Eis-Attacken ein.\p"
 	.string "Also, nutze deinen Ehrgeiz!$"
@@ -307,9 +306,9 @@ MahoganyTown_Gym_Text_BoarderRonaldBeaten:
 
 MahoganyTown_Gym_Text_BoarderRonaldAfter:
 #if GERMAN
-	.string "Vielleicht gibt es eine Attacke,\n"
-	.string "die Pokémon anwenden können,\l"
-	.string "wenn sie eingefroren sind.$"
+	.string "Vielleicht gibt es eine Attacke, die\n"
+	.string "Pokémon anwenden können, wenn sie\l"
+	.string "eingefroren sind.$"
 #else
     .string "I think there's a move a\n"
     .string "POKéMON can use while it's\l"

@@ -568,9 +568,8 @@ SaffronCity_FightingDojoVIP_Text_Falkner_RematchDefeat:
 #if GERMAN
 	.string "Wow… Du hast mich wieder\n"
 	.string "besiegt.\p"
-	.string "Ich werde noch härter trainieren,\n"
-	.string "um der größte Vogelmeister\l"
-	.string "zu werden!$"
+	.string "Ich werde noch härter trainieren, um\n"
+	.string "der größte Vogelmeister zu werden!$"
 #else
 	.string "Wow… You beat me again.\p"
 	.string "I'm going to train harder to\n"
@@ -643,10 +642,9 @@ SaffronCity_FightingDojoVIP_Text_Morty_Rematch:
 #if GERMAN
 	.string "Ah, der Johto-champion!\n"
 	.string "Schön, dass du da bist.\p"
-	.string "Du hast Stärke und Können\n"
-	.string "bewiesen, aber hast du dich\l"
-	.string "seit unserem letzten Kampf\l"
-	.string "verbessert?\p"
+	.string "Du hast Stärke und Können bewiesen,\n"
+	.string "aber hast du dich seit unserem letzten\l"
+	.string "Kampf verbessert?\p"
 	.string "Ich hab mit meinen Geist-\n"
 	.string "Pokémon trainiert.\p"
 	.string "Kannst du die Schatten\n"
@@ -758,9 +756,9 @@ SaffronCity_FightingDojoVIP_Text_Pryce_RematchDefeat:
 #if GERMAN
 	.string "Norbert: Hm, dein Können hat mich\n"
 	.string "schwer beeindruckt.\p"
-	.string "Mit deinem starken Willen wirst du\n"
-	.string "alle Widrigkeiten dieses Lebens\l"
-	.string "mühelos überstehen.\p"
+	.string "Mit deinem starken Willen wirst du alle\n"
+	.string "Widrigkeiten dieses Lebens mühelos\l"
+	.string "überstehen.\p"
 	.string "Du bist dieses Ordens würdig!$"
 #else
 	.string "Ah, yet again I'm impressed by\n"
@@ -774,9 +772,8 @@ SaffronCity_FightingDojoVIP_Text_Clair_Rematch:
 #if GERMAN
 	.string "Du hast es also geschafft?\p"
 	.string "Du bist jetzt Johto-champion.\p"
-	.string "Du hast deine Stärke bewiesen,\n"
-	.string "aber kannst du mich nochmal\l"
-	.string "bezwingen?\p"
+	.string "Du hast deine Stärke bewiesen, aber\n"
+	.string "kannst du mich nochmal bezwingen?\p"
 	.string "Als Drachenmeisterin werde\n"
 	.string "ich nicht zurückhalten.\p"
 	.string "Diesmal nicht.\p"
@@ -824,9 +821,9 @@ SaffronCity_FightingDojoVIP_Text_Brock_Rematch:
 
 SaffronCity_FightingDojoVIP_Text_Brock_RematchDefeat:
 #if GERMAN
-	.string "Rocko: Deine Pokémon haben\n"
-	.string "meine felsenharte Verteidigung\l"
-	.string "wieder gebrochen…$"
+	.string "Rocko: Deine Pokémon haben meine\n"
+	.string "felsenharte Verteidigung wieder\l"
+	.string "gebrochen…$"
 #else
 	.string "BROCK: Your POKéMON once again\n"
 	.string "overcame my rock-hard defense…$"
@@ -932,9 +929,8 @@ SaffronCity_FightingDojoVIP_Text_Sabrina_Rematch:
 
 SaffronCity_FightingDojoVIP_Text_Sabrina_RematchDefeat:
 #if GERMAN
-	.string "Sabrina: Deine Liebe zu\n"
-	.string "deinen Pokémon hat meine\l"
-	.string "Psychokraft wieder\l"
+	.string "Sabrina: Deine Liebe zu deinen Pokémon\n"
+	.string "hat meine Psychokraft wieder\l"
 	.string "überwältigt…$"
 #else
 	.string "SABRINA: Your love for your\n"
@@ -1007,9 +1003,8 @@ SaffronCity_FightingDojoVIP_Text_Blue_Rematch:
 	.string "Blau: Na, na. Champion!\p"
 	.string "Du hast einen langen Weg\n"
 	.string "hinter dir.\p"
-	.string "Ich hatte diesen Titel auch\n"
-	.string "mal. Aber ich zeig keine\l"
-	.string "Gnade.\p"
+	.string "Ich hatte diesen Titel auch mal. Aber\n"
+	.string "ich zeig keine Gnade.\p"
 	.string "Mal sehen, ob du’s hältst.\p"
 	.string "Möchtest du einen Rückkampf?$"
 #else

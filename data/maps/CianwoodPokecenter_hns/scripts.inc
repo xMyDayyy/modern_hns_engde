@@ -34,9 +34,9 @@ CianwoodPokemoncenter_EventScript_FisherGiveTentacool::
 
 CianwoodPokemoncenter_Text_Fisher1:
 #if GERMAN
-	.string "Was Wasser-Pokémon angeht,\n"
-	.string "ist Tentacha das beste,\l"
-	.string "und zwar seemeilenweit!$"
+	.string "Was Wasser-Pokémon angeht, ist\n"
+	.string "Tentacha das beste, und zwar\l"
+	.string "seemeilenweit!$"
 #else
 	.string "As far as water POKéMON go,\n"
 	.string "TENTACOOL is the best by a\l"

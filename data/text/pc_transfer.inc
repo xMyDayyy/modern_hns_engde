@@ -74,9 +74,8 @@ gText_NoMoreRoomForPokemon::
 #if GERMAN
 	.string "Es ist kein Platz mehr für Pokémon\n"
 	.string "vorhanden!\p"
-	.string "Die Pokémon Boxen sind voll und\n"
-	.string "es kann kein Pokémon mehr\l"
-	.string "abgelegt werden!$"
+	.string "Die Pokémon Boxen sind voll und es kann\n"
+	.string "kein Pokémon mehr abgelegt werden!$"
 #else
 	.string "There's no more room for POKéMON!\p"
 	.string "The POKéMON BOXES are full and\n"

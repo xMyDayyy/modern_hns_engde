@@ -51,9 +51,9 @@ CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent::
 CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll::
 #if GERMAN
 	.string "Ich habe einen Tipp bekommen!\p"
-	.string "Du kannst vor wilden Pokémon\n"
-	.string "fliehen, wenn du sie mit einer\l"
-	.string "PokéPuppe ablenkst!$"
+	.string "Du kannst vor wilden Pokémon fliehen,\n"
+	.string "wenn du sie mit einer PokéPuppe\l"
+	.string "ablenkst!$"
 #else
 	.string "I heard something useful.\p"
 	.string "If a wild POKéMON appears, you can\n"

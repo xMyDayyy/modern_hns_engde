@@ -186,9 +186,8 @@ LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
 #if GERMAN
 	.string "Na, wie sieht es aus, auf dem Weg zum\n"
 	.string "Champ, {PLAYER}?\p"
-	.string "Die Arenaleiterin von Bad Lava-\n"
-	.string "stadt, Flavia, setzt Feuer-Pokémon\l"
-	.string "ein.\p"
+	.string "Die Arenaleiterin von Bad Lavastadt,\n"
+	.string "Flavia, setzt Feuer-Pokémon ein.\p"
 	.string "Ihre Leidenschaft für Pokémon brennt\n"
 	.string "heißer und stärker als ein Vulkan.\p"
 	.string "Komm ihr nicht zu nahe - du verbrennst\n"
@@ -271,8 +270,8 @@ LavaridgeTown_Gym_1F_Text_AxlePostBattle:
 LavaridgeTown_Gym_B1F_Text_KeeganIntro:
 #if GERMAN
 	.string "Du musst ganz schön müde sein.\n"
-	.string "Willst du dich nicht hier im heißen\l"
-	.string "Sand ausruhen?\p"
+	.string "Willst du dich nicht hier im heißen Sand\l"
+	.string "ausruhen?\p"
 	.string "Aber du solltest wissen, dass\n"
 	.string "Willenskraft ganz wichtig für einen\l"
 	.string "Trainer ist.$"
@@ -326,8 +325,7 @@ LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
 	.string "Die Temperatur von Magma beträgt\n"
 	.string "über 200 Grad.\p"
 	.string "Deine Pokémon haben mich besiegt, sie\n"
-	.string "sollten auch in Magma überleben\l"
-	.string "können.$"
+	.string "sollten auch in Magma überleben können.$"
 #else
 	.string "The temperature of magma is\n"
 	.string "392 degrees.\p"
@@ -379,8 +377,7 @@ LavaridgeTown_Gym_B1F_Text_JaceDefeat:
 
 LavaridgeTown_Gym_B1F_Text_JacePostBattle:
 #if GERMAN
-	.string "Dein Kampfstil ist feurig, ich denke,\n"
-	.string "du\l"
+	.string "Dein Kampfstil ist feurig, ich denke, du\n"
 	.string "hast eine gute Chance gegen unsere\l"
 	.string "Arenaleiterin.$"
 #else
@@ -408,9 +405,8 @@ LavaridgeTown_Gym_B1F_Text_JeffDefeat:
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
 #if GERMAN
 	.string "Ach, was soll’s?!? Mir doch egal.\n"
-	.string "Dafür\l"
-	.string "kann ich barfuß über glühende Kohlen\l"
-	.string "laufen. … Versuch das bloß nicht!$"
+	.string "Dafür kann ich barfuß über glühende\l"
+	.string "Kohlen laufen. … Versuch das bloß nicht!$"
 #else
 	.string "Well, so what? I say so what?\n"
 	.string "I can walk on hot coals barefoot!\p"
@@ -419,8 +415,7 @@ LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
 
 LavaridgeTown_Gym_B1F_Text_EliIntro:
 #if GERMAN
-	.string "So sehr ich die Berge auch liebe,\n"
-	.string "meine\l"
+	.string "So sehr ich die Berge auch liebe, meine\n"
 	.string "Leidenschaft gehört den Vulkanen.$"
 #else
 	.string "As much as I love mountains,\n"
@@ -487,8 +482,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "Arenaleiterin!\p"
 	.string "Ich habe zu sehr versucht, jemand zu\n"
 	.string "sein, der ich gar nicht bin.\p"
-	.string "Ich muss die Dinge auf meine eigene\n"
-	.string "Art\l"
+	.string "Ich muss die Dinge auf meine eigene Art\n"
 	.string "angehen. Sonst verwirre ich nur meine\l"
 	.string "Pokémon.\p"
 	.string "Danke, dass du mich das gelehrt hast!\n"
@@ -566,8 +560,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
 #if GERMAN
 	.string "Deine Stärke erinnert mich an\n"
 	.string "jemanden…\p"
-	.string "Jetzt weiß ich’s! Du kämpfst wie\n"
-	.string "Norman,\l"
+	.string "Jetzt weiß ich’s! Du kämpfst wie Norman,\n"
 	.string "der Arenaleiter von Blütenburg City.$"
 #else
 	.string "Your power reminds me of someone…\p"
@@ -651,9 +644,8 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
 	.string "\p"
 	.string "Moment! Warte mal! Du hast ja nur ein\n"
 	.string "Pokémon, das kämpfen kann, dabei!\p"
-	.string "Bring das nächste Mal mindestens\n"
-	.string "zwei Pokémon mit, sonst wird das\l"
-	.string "nichts.$"
+	.string "Bring das nächste Mal mindestens zwei\n"
+	.string "Pokémon mit, sonst wird das nichts.$"
 #else
 	.string "FLANNERY: Losing a battle isn't going\n"
 	.string "to deflate me.\p"

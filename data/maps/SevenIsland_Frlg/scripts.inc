@@ -76,8 +76,8 @@ SevenIsland_Text_IslandsMadeInSevenDays::
 	.string "genannt, weil es sieben sind.\p"
 	.string "… das glauben zumindest die\n"
 	.string "jungen Leute.\p"
-	.string "Die Wahrheit ist, dass die Eilande\n"
-	.string "so heißen, weil sie in sieben Tagen\l"
+	.string "Die Wahrheit ist, dass die Eilande so\n"
+	.string "heißen, weil sie in sieben Tagen\l"
 	.string "geschaffen wurden.$"
 #else
 	.string "These islands are called the SEVII\n"

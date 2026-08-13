@@ -349,9 +349,8 @@ SaffronMagnetTrainStation_Text_OfficerArrivedInSaffron:
 
 SaffronMagnetTrainStation_Text_Officer_TrainNotOperating:
 #if GERMAN
-	.string "Es tut mir Leid,\n"
-	.string "aber der Magnetzug ist im Moment nicht\l"
-	.string "in Betrieb.$"
+	.string "Es tut mir Leid, aber der Magnetzug ist\n"
+	.string "im Moment nicht in Betrieb.$"
 #else
 	.string "I'm sorry, but the MAGNET TRAIN\n"
 	.string "isn't operating now.$"
@@ -402,8 +401,8 @@ SaffronMagnetTrainStation_Text_Lass:
 	.string "Hi! Hast du einen Fahrschein?\p"
 	.string "Ich habe einen!\p"
 	.string "Jeder in Saffronia City hat einen, um\n"
-	.string "damit den Magnetzug benutzen\l"
-	.string "zu können!$"
+	.string "damit den Magnetzug benutzen zu\l"
+	.string "können!$"
 #else
 	.string "Hi. Do you have a rail PASS?\n"
 	.string "I have one.\p"

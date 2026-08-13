@@ -234,9 +234,8 @@ ViridianCity_EventScript_DoTutorialBattle::
 
 ViridianCity_Text_CanCarryMonsAnywhere::
 #if GERMAN
-	.string "Diese Pokébälle an deinem Gürtel\n"
-	.string "zeigen mir, dass du Pokémon\l"
-	.string "besitzt!\p"
+	.string "Diese Pokébälle an deinem Gürtel zeigen\n"
+	.string "mir, dass du Pokémon besitzt!\p"
 	.string "Es ist Klasse, dass man jederzeit\n"
 	.string "Pokémon tragen und einsetzen kann,\l"
 	.string "nicht wahr?$"
@@ -308,10 +307,9 @@ ViridianCity_Text_GrandpaHasntHadCoffeeYet::
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
 #if GERMAN
-	.string "Wenn ich zum Einkaufen nach\n"
-	.string "Marmoria City möchte, muss ich\l"
-	.string "immer durch den Vertania-Wald\l"
-	.string "gehen.$"
+	.string "Wenn ich zum Einkaufen nach Marmoria\n"
+	.string "City möchte, muss ich immer durch den\l"
+	.string "Vertania-Wald gehen.$"
 #else
 	.string "I go shopping in PEWTER CITY\n"
 	.string "occasionally.\p"
@@ -331,9 +329,9 @@ ViridianCity_Text_ThisIsPrivateProperty::
 
 ViridianCity_Text_ShowYouHowToCatchMons::
 #if GERMAN
-	.string "Nun, jetzt hatte ich meinen\n"
-	.string "Kaffee und das ist alles, was\l"
-	.string "ich brauche, um loszulegen!\l"
+	.string "Nun, jetzt hatte ich meinen Kaffee und\n"
+	.string "das ist alles, was ich brauche, um\l"
+	.string "loszulegen!\l"
 	.string "Hmm?\l"
 	.string "Was ist das für eine rote Box?\p"
 	.string "Ah, du arbeitest an einem\n"
@@ -379,9 +377,8 @@ ViridianCity_Text_WatchThatToLearnBasics::
 #if GERMAN
 	.string "Falls es etwas gibt, das du nicht\n"
 	.string "verstehst, dann schau da rein!\l"
-	.string "Dort erfährst du die Grundlagen\l"
-	.string "über den Beruf eines Pokémon\l"
-	.string "Trainers.$"
+	.string "Dort erfährst du die Grundlagen über\l"
+	.string "den Beruf eines Pokémon Trainers.$"
 #else
 	.string "If there's something you don't\n"
 	.string "understand, watch that.\p"
@@ -391,15 +388,15 @@ ViridianCity_Text_WatchThatToLearnBasics::
 
 ViridianCity_Text_WeakenMonsFirstToCatch::
 #if GERMAN
-	.string "Ahh, ich habe endlich meinen\n"
-	.string "Kaffee bekommen!\l"
-	.string "Aber er war zu stark. Jetzt habe\l"
-	.string "ich Kopfschmerzen…\p"
+	.string "Ahh, ich habe endlich meinen Kaffee\n"
+	.string "bekommen!\l"
+	.string "Aber er war zu stark. Jetzt habe ich\l"
+	.string "Kopfschmerzen…\p"
 	.string "Vervollständigst du zufällig einen\n"
 	.string "Pokédex?\p"
-	.string "Konzentriere dich zunächst darauf,\n"
-	.string "das Pokémon zu schwächen, ehe\l"
-	.string "du es fangen möchtest.$"
+	.string "Konzentriere dich zunächst darauf, das\n"
+	.string "Pokémon zu schwächen, ehe du es fangen\l"
+	.string "möchtest.$"
 #else
 	.string "Well, now, I've had my coffee, and\n"
 	.string "that's what I need to get going!\p"
@@ -442,11 +439,10 @@ ViridianCity_Text_MyGrandsonOnTheShow::
 
 ViridianCity_Text_TooBusyForTeachyTV::
 #if GERMAN
-	.string "Hm… du hast keine Zeit, um\n"
-	.string "den Lehrkanal anzuschauen…\l"
-	.string "Zeit ist Geld und keines davon\l"
-	.string "sollte man leichtsinnig\l"
-	.string "verschwenden…$"
+	.string "Hm… du hast keine Zeit, um den\n"
+	.string "Lehrkanal anzuschauen…\l"
+	.string "Zeit ist Geld und keines davon sollte\l"
+	.string "man leichtsinnig verschwenden…$"
 #else
 	.string "Hm… You're too busy to not even\n"
 	.string "have the time for TEACHY TV…\p"
@@ -481,12 +477,11 @@ ViridianCity_Text_CatchMonsForEasierBattles::
 ViridianCity_Text_MovesLimitedByPP::
 #if GERMAN
 	.string "Tipps für Trainer\p"
-	.string "Die Attacken der Pokémon werden\n"
-	.string "durch ihre Angriffspunkte, AP,\l"
-	.string "limitiert.\p"
-	.string "Um die AP wieder aufzufüllen, musst\n"
-	.string "du die Pokémon in ein Pokémon-\l"
-	.string "Center bringen!$"
+	.string "Die Attacken der Pokémon werden durch\n"
+	.string "ihre Angriffspunkte, AP, limitiert.\p"
+	.string "Um die AP wieder aufzufüllen, musst du\n"
+	.string "die Pokémon in ein Pokémon-Center\l"
+	.string "bringen!$"
 #else
 	.string "TRAINER TIPS\p"
 	.string "The battle moves of POKéMON are\n"

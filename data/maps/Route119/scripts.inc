@@ -506,8 +506,7 @@ Route119_Text_MayDefeat:
 
 Route119_Text_MayPresentForYou:
 #if GERMAN
-	.string "Maike: Aber ich hätte mir absolut\n"
-	.string "keine\l"
+	.string "Maike: Aber ich hätte mir absolut keine\n"
 	.string "Sorgen zu machen brauchen! Weiter so!\p"
 	.string "\p"
 	.string "Und hier!\n"
@@ -588,9 +587,9 @@ Route119_Text_BrendanIllGiveYouThis:
 
 Route119_Text_BrendanExplainFly:
 #if GERMAN
-	.string "Maike: Setze es ein, und deine\n"
-	.string "Pokémon Fliegen dich sofort an jeden\l"
-	.string "Ort, an dem du schon einmal warst.\p"
+	.string "Maike: Setze es ein, und deine Pokémon\n"
+	.string "Fliegen dich sofort an jeden Ort, an dem\l"
+	.string "du schon einmal warst.\p"
 	.string "Aber du brauchst den Orden der Arena\n"
 	.string "von Baumhausen City dafür.\p"
 	.string "Nun ja, ich muss jetzt weiter. Bis\n"
@@ -645,10 +644,10 @@ Route119_Text_ScottYouWonAtFortreeGym:
 	.string "Ich wusste, dass du in der Arena\n"
 	.string "von Baumhausen City gewinnen würdest.\p"
 	.string "Deine Stärke…\n"
-	.string "Vielleicht bist du wirklich der\l"
-	.string "Trainer, den ich die ganze Zeit\p"
-	.string "suche. Ich bin dein Fan, vergiss\n"
-	.string "das nicht. Ich werde dir zujubeln.\l"
+	.string "Vielleicht bist du wirklich der Trainer,\l"
+	.string "den ich die ganze Zeit\p"
+	.string "suche. Ich bin dein Fan, vergiss das\n"
+	.string "nicht. Ich werde dir zujubeln.\l"
 	.string "Mach weiter so!\p"
 	.string "… … … … …\n"
 	.string "…\l"
@@ -726,8 +725,8 @@ Route119_Text_TallGrassSnaresBikeTires:
 
 Route119_Text_CanYourMonMakeSecretBase:
 #if GERMAN
-	.string "Kann dein Pokémon Geheimpower an\n"
-	.string "einem Berg von Gras einsetzen und eine\l"
+	.string "Kann dein Pokémon Geheimpower an einem\n"
+	.string "Berg von Gras einsetzen und eine\l"
 	.string "Geheimbasis einrichten?$"
 #else
 	.string "Can your POKéMON use its SECRET POWER\n"
@@ -757,8 +756,7 @@ Route119_Text_TrainerTipsDecoration:
 	.string "In der Geheimbasis können bis zu 16\n"
 	.string "Dekorationen und Möbel untergebracht\l"
 	.string "werden.\p"
-	.string "Nimm deine Lieblingsitems und richte\n"
-	.string "dir\l"
+	.string "Nimm deine Lieblingsitems und richte dir\n"
 	.string "deine Geheimbasis ganz nach deinem\l"
 	.string "Geschmack ein.$"
 #else

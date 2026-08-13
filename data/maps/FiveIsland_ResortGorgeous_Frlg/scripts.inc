@@ -124,8 +124,8 @@ FiveIsland_ResortGorgeous_Text_RaynaPostBattle::
 	.string "Der Himmel und das Meer…\n"
 	.string "Sie sind so wankelmütig.\p"
 	.string "Ihr ständig wechselnder Ausdruck\n"
-	.string "macht es nicht leicht, sie\l"
-	.string "malerisch einzufangen.$"
+	.string "macht es nicht leicht, sie malerisch\l"
+	.string "einzufangen.$"
 #else
 	.string "The sky and the sea…\n"
 	.string "They are so fickle.\p"
@@ -135,9 +135,8 @@ FiveIsland_ResortGorgeous_Text_RaynaPostBattle::
 
 FiveIsland_ResortGorgeous_Text_JackiIntro::
 #if GERMAN
-	.string "Ich besuche das Sommerhaus\n"
-	.string "meines Freundes, wenn\l"
-	.string "du fragst.$"
+	.string "Ich besuche das Sommerhaus meines\n"
+	.string "Freundes, wenn du fragst.$"
 #else
 	.string "I am visiting my friend's retreat,\n"
 	.string "if you must know.$"
@@ -153,8 +152,8 @@ FiveIsland_ResortGorgeous_Text_JackiDefeat::
 FiveIsland_ResortGorgeous_Text_JackiPostBattle::
 #if GERMAN
 	.string "Ich finde es angenehm, bei einer\n"
-	.string "sanften Meeresbrise zum\l"
-	.string "Spaß zu kämpfen.$"
+	.string "sanften Meeresbrise zum Spaß zu\l"
+	.string "kämpfen.$"
 #else
 	.string "I find it pleasurable to leisurely\n"
 	.string "battle in the gentle sea breeze.$"
@@ -162,9 +161,8 @@ FiveIsland_ResortGorgeous_Text_JackiPostBattle::
 
 FiveIsland_ResortGorgeous_Text_GillianIntro::
 #if GERMAN
-	.string "Ich denke darüber nach, einen\n"
-	.string "Pool nur für Pokémon\l"
-	.string "einzurichten.$"
+	.string "Ich denke darüber nach, einen Pool nur\n"
+	.string "für Pokémon einzurichten.$"
 #else
 	.string "I'm thinking of having a pool\n"
 	.string "made specially for POKéMON.$"
@@ -206,9 +204,8 @@ FiveIsland_ResortGorgeous_Text_DestinDefeat::
 
 FiveIsland_ResortGorgeous_Text_DestinPostBattle::
 #if GERMAN
-	.string "Wenn ich mit dem Wind renne,\n"
-	.string "fühlt es sich an, als ob ich\l"
-	.string "fliegen würde…$"
+	.string "Wenn ich mit dem Wind renne, fühlt es\n"
+	.string "sich an, als ob ich fliegen würde…$"
 #else
 	.string "When I run with the wind, it feels\n"
 	.string "like I could fly!$"

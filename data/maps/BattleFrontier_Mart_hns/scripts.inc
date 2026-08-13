@@ -72,9 +72,9 @@ BattleFrontier_Mart_Text_ProteinMakeNiceGift_hns:
 
 BattleFrontier_Mart_Text_FacilitiesDontAllowItems_hns:
 #if GERMAN
-	.string "In vielen Einrichtungen der Kampf-\n"
-	.string "zone ist der Einsatz von Items in\l"
-	.string "Kämpfen nicht erlaubt.\p"
+	.string "In vielen Einrichtungen der Kampfzone\n"
+	.string "ist der Einsatz von Items in Kämpfen\l"
+	.string "nicht erlaubt.\p"
 	.string "Das macht alles viel schwerer, als es\n"
 	.string "eh schon ist!$"
 #else

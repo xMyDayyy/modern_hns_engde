@@ -307,8 +307,8 @@ CherrygroveCity_Text_GuideGentTourStart:
 CherrygroveCity_Text_GuideGentPokecenter:
 #if GERMAN
 	.string "Das hier ist ein Pokémon-Center.\n"
-	.string "Wenn deine Pokémon verletzt sind,\l"
-	.string "und du sie hier abgibst, werden sie\l"
+	.string "Wenn deine Pokémon verletzt sind, und\l"
+	.string "du sie hier abgibst, werden sie\l"
 	.string "umgehend für dich geheilt!\p"
 	.string "Ich kann dir schon jetzt sagen, dass du\n"
 	.string "hier bald Stammkunde sein wirst!\l"
@@ -324,9 +324,9 @@ CherrygroveCity_Text_GuideGentPokecenter:
 CherrygroveCity_Text_GuideGentMart:
 #if GERMAN
 	.string "Das hier ist ein Pokémon-Supermarkt.\n"
-	.string "Hier werden Bälle verkauft, mit denen\l"
-	.string "du Pokémon fangen kannst, und noch\l"
-	.string "viele weitere nützliche Items.$"
+	.string "Hier werden Bälle verkauft, mit denen du\l"
+	.string "Pokémon fangen kannst, und noch viele\l"
+	.string "weitere nützliche Items.$"
 #else
 	.string "This is a POKéMON MART.\p"
 	.string "They sell BALLS for catching wild\n"
@@ -424,8 +424,8 @@ CherrygroveCity_Text_RivalAfter:
 	.string "Willst du wissen, wer ich bin?\n"
 	.string "Ich werde es dir sagen!\p"
 	.string "Ich bin derjenige, den die Leute schon\n"
-	.string "bald den größten Pokémon-Trainer\l"
-	.string "aller Zeiten nennen werden!$"
+	.string "bald den größten Pokémon-Trainer aller\l"
+	.string "Zeiten nennen werden!$"
 #else
 	.string "… … … … … … … …\p"
 	.string "Do you want to know who I am?\p"
@@ -468,8 +468,8 @@ CherrygroveCity_Text_YoungsterNoPokedex:
 CherrygroveCity_Text_YoungsterHavePokedex:
 #if GERMAN
 	.string "Ich habe tapfer gegen die Trainer auf\n"
-	.string "der Straße gekämpft, aber mein Team\l"
-	.string "hat verloren und nun sind meine Pokémon\l"
+	.string "der Straße gekämpft, aber mein Team hat\l"
+	.string "verloren und nun sind meine Pokémon\l"
 	.string "völlig außer Kraft.\p"
 	.string "Ich muss sie in ein Pokémon-Center\n"
 	.string "bringen, und zwar schnell…$"

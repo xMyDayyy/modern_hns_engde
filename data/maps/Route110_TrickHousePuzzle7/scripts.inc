@@ -452,8 +452,7 @@ Route110_TrickHousePuzzle7_Text_AlvaroPostBattle:
 #if GERMAN
 	.string "Mh… Wir haben uns beide einen\n"
 	.string "verrückten Ort ausgesucht, um uns\p"
-	.string "kennen zu lernen. Da wir zwei\n"
-	.string "Verrückte\l"
+	.string "kennen zu lernen. Da wir zwei Verrückte\n"
 	.string "sind, lass uns unser Bestes geben!$"
 #else
 	.string "Well, anyway, we both picked a weird\n"
@@ -479,8 +478,7 @@ Route110_TrickHousePuzzle7_Text_EverettDefeat:
 Route110_TrickHousePuzzle7_Text_EverettPostBattle:
 #if GERMAN
 	.string "Ich dachte, ich könnte deinen Platz\n"
-	.string "einnehmen, wenn ich dich besiege,\l"
-	.string "aber…$"
+	.string "einnehmen, wenn ich dich besiege, aber…$"
 #else
 	.string "I was hoping to switch places with you\n"
 	.string "when I beat you, but…$"

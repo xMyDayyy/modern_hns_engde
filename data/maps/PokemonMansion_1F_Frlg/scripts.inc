@@ -76,9 +76,9 @@ PokemonMansion_1F_Text_JohnsonDefeat::
 
 PokemonMansion_1F_Text_JohnsonPostBattle::
 #if GERMAN
-	.string "Ich habe das Gebiet hier auf\n"
-	.string "eigene Faust erforscht, aber es\l"
-	.string "ist so gruselig.\p"
+	.string "Ich habe das Gebiet hier auf eigene\n"
+	.string "Faust erforscht, aber es ist so\l"
+	.string "gruselig.\p"
 	.string "Ich muss bald weg!$"
 #else
 	.string "I was exploring here by myself,\n"

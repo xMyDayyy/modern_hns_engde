@@ -36,9 +36,8 @@ DayOfWeekSiblingsHouse_Text_Pokedex2:
 	.string "An meine Brüder und Schwestern:\p"
 	.string "Wir sind stolz darauf,\n"
 	.string "PokémonTrainern zu dienen.\p"
-	.string "Wenn ein Trainer mit dir\n"
-	.string "spricht, gib ihm etwas\l"
-	.string "Nützliches.\p"
+	.string "Wenn ein Trainer mit dir spricht, gib ihm\n"
+	.string "etwas Nützliches.\p"
 	.string "Eure Monja\p"
 	.string "Weiterlesen?$"
 #else

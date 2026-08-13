@@ -104,8 +104,8 @@ SaffronCity_Gym_Text_SabrinaIntro::
 	.string "Zunächst habe ich gelernt, mit\n"
 	.string "Psychokinese Löffel zu verbiegen.\p"
 	.string "Ich verabscheue den Kampf!\n"
-	.string "Aber wenn du es wünschst, beweise\l"
-	.string "ich dir meine Kräfte!{PLAYER}?À$"
+	.string "Aber wenn du es wünschst, beweise ich\l"
+	.string "dir meine Kräfte!{PLAYER}?À$"
 #else
 	.string "I had a vision of your arrival.\p"
 	.string "I have had psychic powers since\n"
@@ -151,9 +151,8 @@ SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
 	.string "Stärkere Pokémon könnten sich dir\n"
 	.string "widersetzen und deine Befehle\l"
 	.string "ignorieren!\p"
-	.string "Achte darauf, dass du deine\n"
-	.string "Pokémon jederzeit unter Kontrolle\l"
-	.string "hast!\p"
+	.string "Achte darauf, dass du deine Pokémon\n"
+	.string "jederzeit unter Kontrolle hast!\p"
 	.string "Warte! Nimm noch diese TM von mir!$"
 #else
 	.string "The MARSHBADGE makes POKéMON up\n"
@@ -177,10 +176,9 @@ SaffronCity_Gym_Text_ReceivedTM04FromSabrina::
 SaffronCity_Gym_Text_ExplainTM04::
 #if GERMAN
 	.string "TM04 ist Gedankengut!\p"
-	.string "Das Pokémon konzentriert sich,\n"
-	.string "um sowohl den SP. ANG.\l"
-	.string "als auch die SP. Ver. zu\l"
-	.string "steigern.$"
+	.string "Das Pokémon konzentriert sich, um\n"
+	.string "sowohl den SP. ANG.\l"
+	.string "als auch die SP. Ver. zu steigern.$"
 #else
 	.string "TM04 is CALM MIND.\p"
 	.string "It makes the POKéMON concentrate\n"
@@ -212,9 +210,8 @@ SaffronCity_Gym_Text_AmandaDefeat::
 
 SaffronCity_Gym_Text_AmandaPostBattle::
 #if GERMAN
-	.string "Sind zwei Gegner gleich stark, so\n"
-	.string "wird der entschlossenere Kämpfer\l"
-	.string "gewinnen!\p"
+	.string "Sind zwei Gegner gleich stark, so wird\n"
+	.string "der entschlossenere Kämpfer gewinnen!\p"
 	.string "Wenn du Sabrina schlagen willst,\n"
 	.string "konzentriere dich auf den Sieg!$"
 #else
@@ -279,10 +276,8 @@ SaffronCity_Gym_Text_StacyPostBattle::
 
 SaffronCity_Gym_Text_TyronIntro::
 #if GERMAN
-	.string "Du weißt, dass man\n"
-	.string "mit Stärke allein\l"
-	.string "nicht weit kommt,\l"
-	.string "oder?$"
+	.string "Du weißt, dass man mit Stärke allein\n"
+	.string "nicht weit kommt, oder?$"
 #else
 	.string "You understand, don't you?\p"
 	.string "That power alone isn't enough to\n"
@@ -356,8 +351,8 @@ SaffronCity_Gym_Text_CameronPostBattle::
 	.string "In Saffronia City gab es zwei\n"
 	.string "Pokémon-Arenen.\p"
 	.string "Allerdings hat das Kampf-dojo den\n"
-	.string "Status als Pokémon-Arena verloren,\l"
-	.string "weil wir die Trainer besiegten!$"
+	.string "Status als Pokémon-Arena verloren, weil\l"
+	.string "wir die Trainer besiegten!$"
 #else
 	.string "There used to be two POKéMON GYMS\n"
 	.string "in SAFFRON.\p"
@@ -369,9 +364,9 @@ SaffronCity_Gym_Text_CameronPostBattle::
 
 SaffronCity_Gym_Text_PrestonIntro::
 #if GERMAN
-	.string "Die Pokémon in der Arena von\n"
-	.string "Saffronia City sind für ihre\l"
-	.string "übernatürlichen Kräfte bekannt!\p"
+	.string "Die Pokémon in der Arena von Saffronia\n"
+	.string "City sind für ihre übernatürlichen\l"
+	.string "Kräfte bekannt!\p"
 	.string "Ich weiß, dass du Sabrina\n"
 	.string "herausfordern möchtest!$"
 #else
@@ -397,8 +392,8 @@ SaffronCity_Gym_Text_GymGuyAdvice::
 	.string "Heh!\n"
 	.string "Warte, du Champion in spe!\p"
 	.string "Die Pokémon von Sabrina benutzen\n"
-	.string "Psychokinese anstelle von\l"
-	.string "physischen Kräften!\p"
+	.string "Psychokinese anstelle von physischen\l"
+	.string "Kräften!\p"
 	.string "Kampf-Pokémon sind Psychokinese\n"
 	.string "nicht gewachsen!\p"
 	.string "Sie haben nicht einmal den Hauch\n"

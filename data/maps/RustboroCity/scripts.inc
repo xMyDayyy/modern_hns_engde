@@ -1048,8 +1048,7 @@ RustboroCity_Text_WeShortenItToDevon:
 RustboroCity_Text_SneakyLookingManWentAroundCorner:
 #if GERMAN
 	.string "Hm? Ein verschlagen wirkender Mann?\p"
-	.string "Wenn ich so darüber nachdenke, fällt\n"
-	.string "mir\l"
+	.string "Wenn ich so darüber nachdenke, fällt mir\n"
 	.string "ein, dass ich einen zwielichtigen\p"
 	.string "Typen\n"
 	.string "eben hier an der Ecke gesehen habe.$"
@@ -1064,8 +1063,7 @@ RustboroCity_Text_HaveYouChallengedGym:
 	.string "Hast du schon die Herausforderung der\n"
 	.string "Pokémon Arena angenommen?\p"
 	.string "Ich glaube, wenn sie den glänzenden\n"
-	.string "Orden der Arena in der Hand halten,\l"
-	.string "wird\l"
+	.string "Orden der Arena in der Hand halten, wird\l"
 	.string "den Trainern klar, was von ihnen\l"
 	.string "verlangt wird.$"
 #else
@@ -1081,8 +1079,7 @@ RustboroCity_Text_HeyThatsRustborosGymBadge:
 	.string "Hey, das ist der Orden der Arena von\n"
 	.string "Metarost City!\p"
 	.string "Von allen Arena-Orden ist der von\n"
-	.string "Metarost City der coolste, sage ich\l"
-	.string "dir.$"
+	.string "Metarost City der coolste, sage ich dir.$"
 #else
 	.string "Hey, that's RUSTBORO's GYM BADGE!\p"
 	.string "Out of all the POKéMON GYM BADGES,\n"
@@ -1163,8 +1160,7 @@ RustboroCity_Text_WowYouHavePokemon:
 RustboroCity_Text_CatchRarePokemonIfIGoToSchool:
 #if GERMAN
 	.string "Pokémon Trainerschule!\p"
-	.string "Wenn ich in diese Schule gehe, werde\n"
-	.string "ich\l"
+	.string "Wenn ich in diese Schule gehe, werde ich\n"
 	.string "später seltene Pokémon fangen können?$"
 #else
 	.string "POKéMON TRAINER'S SCHOOL!\p"
@@ -1186,8 +1182,7 @@ RustboroCity_Text_PokemonCanChangeLookFromExp:
 RustboroCity_Text_PokemonChangeShape:
 #if GERMAN
 	.string "Ein Pokémon verändert sein Aussehen?!?\n"
-	.string "Wenn es das tun würde, wäre ich zu\l"
-	.string "Tode\l"
+	.string "Wenn es das tun würde, wäre ich zu Tode\l"
 	.string "erschrocken!$"
 #else
 	.string "A POKéMON changes shape?\n"
@@ -1231,8 +1226,8 @@ RustboroCity_Text_HelpMeIWasRobbed:
 	.string "Oh, du bist das!\p"
 	.string "Du bist dieser großartige Trainer, der\n"
 	.string "mir im Blütenburgwald geholfen hat.\p"
-	.string "Hilf mir! Team Aqua hat mich aus-\n"
-	.string "geraubt! Ich muss die Devon-waren\l"
+	.string "Hilf mir! Team Aqua hat mich ausgeraubt!\n"
+	.string "Ich muss die Devon-waren\l"
 	.string "zurückbekommen.\p"
 	.string "Wenn ich sie nicht bekomme…\n"
 	.string "dann habe ich ein riesiges Problem.$"
@@ -1277,8 +1272,7 @@ RustboroCity_Text_YouGotItThankYou:
 RustboroCity_Text_YoureLoadedWithItems:
 #if GERMAN
 	.string "Du bist mit Items überfrachtet.\n"
-	.string "Ich kann dir den Superball nicht\l"
-	.string "geben.$"
+	.string "Ich kann dir den Superball nicht geben.$"
 #else
 	.string "You're loaded with items.\n"
 	.string "I can't give you this GREAT BALL.$"
@@ -1346,8 +1340,8 @@ RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
 #if GERMAN
 	.string "Maike: Oh, was ist das?\p"
 	.string "Du hast dich aber nicht um deine\n"
-	.string "Pokémon gekümmert? Und auch\l"
-	.string "nicht viele gefangen?\p"
+	.string "Pokémon gekümmert? Und auch nicht\l"
+	.string "viele gefangen?\p"
 	.string "Als Trainer machst du wirklich keinen\n"
 	.string "guten Eindruck!$"
 #else
@@ -1369,8 +1363,7 @@ RustboroCity_Text_MayImNotGoingToLose:
 #if GERMAN
 	.string "Maike: Du bist gerade erst Trainer\n"
 	.string "geworden, {PLAYER}{KUN}. Ich werde\l"
-	.string "nicht\l"
-	.string "verlieren.$"
+	.string "nicht verlieren.$"
 #else
 	.string "MAY: You just became a TRAINER,\n"
 	.string "{PLAYER}{KUN}. I'm not going to lose!$"
@@ -1406,8 +1399,7 @@ RustboroCity_Text_BrendanHiLetsRegister:
 	.string "Dein PokéCom besitzt die Trainer/Ruf-\n"
 	.string "Funktion! Cool!\p"
 	.string "Wir tragen uns gegenseitig ein, dann\n"
-	.string "können wir jederzeit miteinander\l"
-	.string "reden! \p"
+	.string "können wir jederzeit miteinander reden!\p"
 	.string "… … … … …\n"
 	.string "…$"
 #else
@@ -1472,8 +1464,7 @@ RustboroCity_Text_BrendanWantToBattle:
 
 RustboroCity_Text_BrendanIWontGoEasy:
 #if GERMAN
-	.string "Maike: Ich weiß, du bist gerade erst\n"
-	.string "ein\l"
+	.string "Maike: Ich weiß, du bist gerade erst ein\n"
 	.string "Trainer geworden, aber ich werde mich\l"
 	.string "nicht zurückhalten.$"
 #else
@@ -1495,8 +1486,7 @@ RustboroCity_Text_BrendanMrBrineyHint:
 	.string "Den Typ, den ich getroffen habe?\p"
 	.string "Du bist gerade erst hierher gezogen,\n"
 	.string "daher weißt du das vielleicht noch\l"
-	.string "nicht, aber Mr. Brack war mal\l"
-	.string "Seefahrer.$"
+	.string "nicht, aber Mr. Brack war mal Seefahrer.$"
 #else
 	.string "BRENDAN: By the way, you know\n"
 	.string "MR. BRINEY? The guy I just passed?\p"
@@ -1603,9 +1593,8 @@ RustboroCity_Text_DevelopedNewPokenavFeature:
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
 #if GERMAN
 	.string "Hier, bitte schön, {PLAYER}.\p"
-	.string "Ich habe deinen PokéCom mit dem\n"
-	.string "so genannten Trainer/Ruf\l"
-	.string "ausgestattet.\p"
+	.string "Ich habe deinen PokéCom mit dem so\n"
+	.string "genannten Trainer/Ruf ausgestattet.\p"
 	.string "Trage deine Freunde und andere\n"
 	.string "Personen in das Verzeichnis ein. Dann\l"
 	.string "kannst du mit ihnen reden.\p"
@@ -1635,8 +1624,7 @@ RustboroCity_Text_PleaseSelectPokenav:
 
 RustboroCity_Text_IdBetterGetBackToWork:
 #if GERMAN
-	.string "So, jetzt muss ich aber\n"
-	.string "weiterarbeiten.\l"
+	.string "So, jetzt muss ich aber weiterarbeiten.\n"
 	.string "Pass auf dich auf, {PLAYER}.$"
 #else
 	.string "Okay, I'd better get back to work.\n"
@@ -1652,8 +1640,7 @@ RustboroCity_Text_YouCanHave2On2Battle:
 	.string "Triffst du auf zwei Trainer und hast\n"
 	.string "mindestens zwei Pokémon dabei, werden\l"
 	.string "sie dich beide herausfordern.\p"
-	.string "Ich finde es total cool, wenn man\n"
-	.string "allein\l"
+	.string "Ich finde es total cool, wenn man allein\n"
 	.string "zwei Trainer besiegt. Meinst du nicht?$"
 #else
 	.string "Did you know this?\p"

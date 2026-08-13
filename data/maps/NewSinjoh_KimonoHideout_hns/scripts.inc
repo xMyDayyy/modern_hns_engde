@@ -104,15 +104,13 @@ NewSinjoh_KimonoHideout_Text_PlayerMeetsMiharu:
 	.string "{PLAYER}.\p"
 	.string "Seit Generationen lebt dieses Dorf\n"
 	.string "friedlich mit unermesslich mächtigen\l"
-	.string "Pokémon zusammen, verborgen vor\l"
-	.string "den neugierigen Blicken der\l"
-	.string "Außenwelt.\p"
+	.string "Pokémon zusammen, verborgen vor den\l"
+	.string "neugierigen Blicken der Außenwelt.\p"
 	.string "Die jüngsten Ereignisse an unserem\n"
 	.string "heiligen Tempel und der Zustrom\l"
 	.string "ungebetener Gäste drohen nun das\l"
-	.string "empfindliche Gleichgewicht zu\l"
-	.string "stören, das wir so lange bewahrt\l"
-	.string "haben.$"
+	.string "empfindliche Gleichgewicht zu stören,\l"
+	.string "das wir so lange bewahrt haben.$"
 #else
     .string "MIHARU: Welcome to NEW SINJOH, \n"
 	.string "{PLAYER}.\p"
@@ -129,11 +127,11 @@ NewSinjoh_KimonoHideout_Text_PlayerMeetsMiharu:
 
 NewSinjoh_KimonoHideout_Text_PlayerMeetsShizuko:
 #if GERMAN
-	.string "Shizuko: Unsere Cousinen in Teak\n"
-	.string "City haben uns von deiner Verbindung\l"
-	.string "zu den legendären Pokémon der\l"
-	.string "Johto-Region berichtet - und von\l"
-	.string "deinem Können als Trainer.\p"
+	.string "Shizuko: Unsere Cousinen in Teak City\n"
+	.string "haben uns von deiner Verbindung zu den\l"
+	.string "legendären Pokémon der Johto-Region\l"
+	.string "berichtet - und von deinem Können als\l"
+	.string "Trainer.\p"
 	.string "Wir glauben, dass du uns in diesen\n"
 	.string "schweren Zeiten helfen kannst.$"
 #else
@@ -150,9 +148,9 @@ NewSinjoh_KimonoHideout_Text_PlayerMeetsYouko:
 #if GERMAN
 	.string "Youko: Begib dich zu den Sinjoh-\n"
 	.string "Ruinen, nördlich von Route 50.\p"
-	.string "Triff dich mit den Forschern dort\n"
-	.string "und untersuche die Ereignisse, die\l"
-	.string "sie hergeführt haben.\p"
+	.string "Triff dich mit den Forschern dort und\n"
+	.string "untersuche die Ereignisse, die sie\l"
+	.string "hergeführt haben.\p"
 	.string "Die legendären Pokémon dort dürfen\n"
 	.string "keinesfalls von Unwürdigen gestört\l"
 	.string "werden.$"
@@ -382,10 +380,9 @@ NewSinjoh_KimonoHideout_EventScript_ShizukoFinal::
 
 NewSinjoh_KimonoHideout_Text_ShizukoFinal:
 #if GERMAN
-	.string "Shizuko: Nur wenige Trainer in\n"
-	.string "Sinjohs langer Geschichte haben\l"
-	.string "vollbracht, was dir gerade gelungen\l"
-	.string "ist.\p"
+	.string "Shizuko: Nur wenige Trainer in Sinjohs\n"
+	.string "langer Geschichte haben vollbracht,\l"
+	.string "was dir gerade gelungen ist.\p"
 	.string "Sehr beeindruckend, {PLAYER}.$"
 #else
 	.string "SHIZUKO: Few trainers in all\n"
@@ -406,9 +403,8 @@ NewSinjoh_KimonoHideout_Text_OldMan:
 	.string "Dorf, seit es gegründet wurde.\p"
 	.string "Sie haben viel geopfert.\p"
 	.string "Von den Göttern selbst gesegnet,\n"
-	.string "besitzen sie Kräfte, die weit über\l"
-	.string "die eines normalen Trainers\l"
-	.string "hinausgehen!\p"
+	.string "besitzen sie Kräfte, die weit über die\l"
+	.string "eines normalen Trainers hinausgehen!\p"
 	.string "Sei also gewappnet, falls du je\n"
 	.string "gegen sie kämpfst, junges Blut.$"
 #else

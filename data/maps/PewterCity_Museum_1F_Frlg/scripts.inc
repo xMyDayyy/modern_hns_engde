@@ -243,10 +243,10 @@ PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
 
 PewterCity_Museum_1F_Text_AmberContainsGeneticMatter::
 #if GERMAN
-	.string "Es soll ein Labor geben, in dem\n"
-	.string "man versucht, aus altem Bernstein\l"
-	.string "Urzeit-Pokémon wiederauferstehen\l"
-	.string "zu lassen!$"
+	.string "Es soll ein Labor geben, in dem man\n"
+	.string "versucht, aus altem Bernstein\l"
+	.string "Urzeit-Pokémon wiederauferstehen zu\l"
+	.string "lassen!$"
 #else
 	.string "AMBER contains the genetic matter\n"
 	.string "of ancient POKéMON.\p"
@@ -283,11 +283,10 @@ PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife::
 PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
 #if GERMAN
 	.string "Pst! Ich glaube, in diesem Stück\n"
-	.string "Bernstein ist Pokémon-Dns\l"
-	.string "enthalten!\p"
-	.string "Es wäre grandios, wenn man daraus\n"
-	.string "ein Pokémon wiederauferstehen\l"
-	.string "lassen könnte!\p"
+	.string "Bernstein ist Pokémon-Dns enthalten!\p"
+	.string "Es wäre grandios, wenn man daraus ein\n"
+	.string "Pokémon wiederauferstehen lassen\l"
+	.string "könnte!\p"
 	.string "Doch meine Kollegen nehmen mich\n"
 	.string "nicht ernst!\p"
 	.string "Könntest du etwas für mich\n"
@@ -355,9 +354,8 @@ PewterCity_Museum_1F_Text_BeautifulPieceOfAmber::
 
 PewterCity_Museum_1F_Text_AerodactylFossil::
 #if GERMAN
-	.string "Aerodactyl-Fossil\n"
-	.string "Ein urzeitliches und seltenes\l"
-	.string "Pokémon.$"
+	.string "Aerodactyl-Fossil Ein urzeitliches und\n"
+	.string "seltenes Pokémon.$"
 #else
 	.string "AERODACTYL Fossil\n"
 	.string "A primitive and rare POKéMON.$"
@@ -365,9 +363,8 @@ PewterCity_Museum_1F_Text_AerodactylFossil::
 
 PewterCity_Museum_1F_Text_KabutopsFossil::
 #if GERMAN
-	.string "Kabutops-Fossil\n"
-	.string "Ein urzeitliches und seltenes\l"
-	.string "Pokémon.$"
+	.string "Kabutops-Fossil Ein urzeitliches und\n"
+	.string "seltenes Pokémon.$"
 #else
 	.string "KABUTOPS Fossil\n"
 	.string "A primitive and rare POKéMON.$"

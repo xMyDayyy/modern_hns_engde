@@ -166,8 +166,8 @@ Route121_SafariZoneEntrance_Text_WelcomeToSafariZone:
 #if GERMAN
 	.string "Willkommen in der Safari-Zone!\p"
 	.string "Hier bekommst du viele Pokémon zu\n"
-	.string "Gesicht, die sehr selten in der Hoenn-\l"
-	.string "Region sind.\p"
+	.string "Gesicht, die sehr selten in der\l"
+	.string "Hoenn-Region sind.\p"
 	.string "Du kannst sie in ihrer ganzen Wildheit\n"
 	.string "und ungezähmt in ihrer natürlichen\l"
 	.string "Umgebung beobachten.\p"
@@ -208,11 +208,11 @@ Route121_SafariZoneEntrance_Text_ComeInAndEnjoy:
 Route121_SafariZoneEntrance_Text_FirstTimeInfo:
 #if GERMAN
 	.string "Sobald du die Safari-Zone betrittst,\n"
-	.string "stehen dir 30 Safaribälle zur Ver-\l"
-	.string "fügung, um Pokémon zu fangen.\p"
+	.string "stehen dir 30 Safaribälle zur\l"
+	.string "Verfügung, um Pokémon zu fangen.\p"
 	.string "Das Safari-Spiel ist vorbei, sobald du\n"
-	.string "deine Safaribälle verbraucht oder\l"
-	.string "500 Schritte gemacht hast.\p"
+	.string "deine Safaribälle verbraucht oder 500\l"
+	.string "Schritte gemacht hast.\p"
 	.string "Komm und genieße die Safari-Zone!$"
 #else
 	.string "When you enter the SAFARI ZONE, you\n"
@@ -300,13 +300,13 @@ Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase:
 #if GERMAN
 	.string "Entschuldigung!\n"
 	.string "Du besitzt keine {POKEBLOCK}Box.\p"
-	.string "Dein Safari-Spiel wäre viel erfolg-\n"
-	.string "reicher, wenn du {POKEBLOCK} benutzen\l"
-	.string "würdest.\p"
+	.string "Dein Safari-Spiel wäre viel\n"
+	.string "erfolgreicher, wenn du {POKEBLOCK}\l"
+	.string "benutzen würdest.\p"
 	.string "Bitte besorge dir doch eine {POKEBLOCK}Box.\p"
-	.string "Vielleicht erhältst du in der Wett-\n"
-	.string "bewerbshalle von\l"
-	.string "Seegrasulb City eine.$"
+	.string "Vielleicht erhältst du in der\n"
+	.string "Wettbewerbshalle von Seegrasulb City\l"
+	.string "eine.$"
 #else
 	.string "Excuse me!\n"
 	.string "You seem to be without a {POKEBLOCK} CASE.\p"
@@ -376,8 +376,8 @@ SafariZone_South_Text_Man:
 #if GERMAN
 	.string "Ich wollte noch weiter hinein, aber\n"
 	.string "ich habe mein Rad vergessen.\p"
-	.string "Irgendetwas sagt mir, dass in den abge-\n"
-	.string "legenen Gegenden seltene Pokémon\l"
+	.string "Irgendetwas sagt mir, dass in den\n"
+	.string "abgelegenen Gegenden seltene Pokémon\l"
 	.string "leben.$"
 #else
 	.string "I want to keep going deeper, but I\n"
@@ -414,9 +414,9 @@ SafariZone_Northwest_Text_Man:
 
 SafariZone_North_Text_Fisherman:
 #if GERMAN
-	.string "Ich habe eine Mission. Ich will Wasser-\n"
-	.string "Pokémon fangen, die es in Hoenn nicht\l"
-	.string "gibt.\p"
+	.string "Ich habe eine Mission. Ich will\n"
+	.string "Wasser-Pokémon fangen, die es in Hoenn\l"
+	.string "nicht gibt.\p"
 	.string "Weißt du zufällig, wo hier der See ist?$"
 #else
 	.string "I'm on a mission to find WATER POKéMON\n"
@@ -575,8 +575,8 @@ SafariZone_Northeast_Text_Boy:
 	.string "Ich habe nur noch wenige Safaribälle\n"
 	.string "übrig.\p"
 	.string "Mir fällt es schwer, mich zu\n"
-	.string "entscheiden, welches Pokémon ich\l"
-	.string "nun fangen soll.$"
+	.string "entscheiden, welches Pokémon ich nun\l"
+	.string "fangen soll.$"
 #else
 	.string "I only have a couple SAFARI BALLS left.\p"
 	.string "I'm having a hard time trying to\n"

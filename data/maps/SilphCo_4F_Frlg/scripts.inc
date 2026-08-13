@@ -94,9 +94,8 @@ SilphCo_4F_Text_RodneyDefeat::
 
 SilphCo_4F_Text_RodneyPostBattle::
 #if GERMAN
-	.string "Die Türen sind elektronisch\n"
-	.string "verriegelt! Ohne Türöffner kommt\l"
-	.string "man nicht durch!$"
+	.string "Die Türen sind elektronisch verriegelt!\n"
+	.string "Ohne Türöffner kommt man nicht durch!$"
 #else
 	.string "The doors are electronically\n"
 	.string "locked.\p"

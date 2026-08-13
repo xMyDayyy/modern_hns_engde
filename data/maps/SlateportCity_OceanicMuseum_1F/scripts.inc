@@ -303,9 +303,9 @@ SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
 
 SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
 #if GERMAN
-	.string "Wenn dieser Idiot die Sache in\n"
-	.string "Metarost City nicht vermasselt hätte,\l"
-	.string "wären wir jetzt nicht hier.$"
+	.string "Wenn dieser Idiot die Sache in Metarost\n"
+	.string "City nicht vermasselt hätte, wären wir\l"
+	.string "jetzt nicht hier.$"
 #else
 	.string "If our goons didn't bungle things\n"
 	.string "in RUSTBORO, we wouldn't be here!$"
@@ -324,8 +324,7 @@ SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
 SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling:
 #if GERMAN
 	.string "Ich möchte etwas über das Meer lernen\n"
-	.string "und dieses Wissen in Kämpfen\l"
-	.string "einsetzen.$"
+	.string "und dieses Wissen in Kämpfen einsetzen.$"
 #else
 	.string "I want to learn about the sea and\n"
 	.string "use that knowledge for battling.$"
@@ -414,8 +413,8 @@ SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment:
 	.string "Eine blaue Flüssigkeit bewegt sich\n"
 	.string "spiralförmig in einem Glasgefäß.\p"
 	.string "“Dies ist ein Experiment, das einen\n"
-	.string "künstlichen Whirlpool mit Hilfe von\l"
-	.string "Wind erzeugt.”$"
+	.string "künstlichen Whirlpool mit Hilfe von Wind\l"
+	.string "erzeugt.”$"
 #else
 	.string "A blue fluid is spiraling inside\n"
 	.string "a glass vessel.\p"
@@ -440,8 +439,7 @@ SlateportCity_OceanicMuseum_1F_Text_WaterfallExperiment:
 SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay:
 #if GERMAN
 	.string "Dies ist eine Probe vom Meeresboden.\p"
-	.string "“Über viele Jahre haben sich die\n"
-	.string "Spuren\l"
+	.string "“Über viele Jahre haben sich die Spuren\n"
 	.string "allen Lebens als Sedimente auf dem\l"
 	.string "Grund des Meeres abgelagert.\p"
 	.string "Analysen dieser Proben geben einen\n"
@@ -518,8 +516,7 @@ SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2:
 SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3:
 #if GERMAN
 	.string "“Meereskunde Fakt 3”\n"
-	.string "Was ist größer? Das Meer oder das\l"
-	.string "Land? \p"
+	.string "Was ist größer? Das Meer oder das Land?\p"
 	.string "“Die Erde ist zu 70 % von Wasser\n"
 	.string "bedeckt, der Rest ist Land.\p"
 	.string "Das Meer ist also mehr als doppelt\n"

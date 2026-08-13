@@ -255,9 +255,9 @@ SlateportCity_ContestHall_Text_JudgeWouldntDoToMissContest:
 #if GERMAN
 	.string "Juror: Hallo, sei gegrüßt!\n"
 	.string "Du bist also ein Trainer!\p"
-	.string "Dann darfst du dir einen Pokémon-\n"
-	.string "Wettbewerb auf keinen Fall entgehen\l"
-	.string "lassen!\p"
+	.string "Dann darfst du dir einen\n"
+	.string "Pokémon-Wettbewerb auf keinen Fall\l"
+	.string "entgehen lassen!\p"
 	.string "Hol dir in Wiesenflur einen Wettbe-\n"
 	.string "werbspass und nimm jederzeit teil!$"
 #else

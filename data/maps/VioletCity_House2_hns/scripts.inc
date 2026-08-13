@@ -29,9 +29,9 @@ VioletCity_House2_EventScript_Pidgey::
 
 VioletCity_NicknameHouse_Text_Teacher:
 #if GERMAN
-	.string "Sie verwendet die Namen\n"
-	.string "ihrer Lieblingsspeisen,\l"
-	.string "als Spitznamen für ihre Pokémon.\p"
+	.string "Sie verwendet die Namen ihrer\n"
+	.string "Lieblingsspeisen, als Spitznamen für\l"
+	.string "ihre Pokémon.\p"
 	.string "So süß.$"
 #else
 	.string "She uses the names of her\n"

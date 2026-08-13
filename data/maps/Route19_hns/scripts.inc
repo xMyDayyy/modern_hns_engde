@@ -197,9 +197,9 @@ Route19_Text_Kingler:
 
 Route19_Text_Fisher1_RocksCleared:
 #if GERMAN
-	.string "Ich habe so viel geschwitzt,\n"
-	.string "dass jetzt ein paar Runden im\l"
-	.string "Wasser sicher nicht verkehrt wären.$"
+	.string "Ich habe so viel geschwitzt, dass jetzt\n"
+	.string "ein paar Runden im Wasser sicher nicht\l"
+	.string "verkehrt wären.$"
 #else
 	.string "I'm all sweaty. Time for a swim!$"
 #endif

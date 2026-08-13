@@ -57,9 +57,9 @@ LavenderTown_Text_Teacher:
 
 LavenderTown_Text_Gramps:
 #if GERMAN
-	.string "Die Leute kommen von überallher,\n"
-	.string "um hier den Seelen dahingegangener\l"
-	.string "Pokémon Respekt zu erweisen.$"
+	.string "Die Leute kommen von überallher, um hier\n"
+	.string "den Seelen dahingegangener Pokémon\l"
+	.string "Respekt zu erweisen.$"
 #else
 	.string "People come from all over to pay\n"
 	.string "their respects to the departed\l"

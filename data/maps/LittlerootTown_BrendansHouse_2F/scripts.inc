@@ -300,8 +300,8 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "Pokémon-Umzugshelfer sind so\n"
 	.string "praktisch.\p"
 	.string "Oh, du solltest prüfen, ob dein\n"
-	.string "Schreib-\l"
-	.string "tisch vollständig eingeräumt ist!$"
+	.string "Schreibtisch vollständig eingeräumt\l"
+	.string "ist!$"
 #else
 	.string "MOM: {PLAYER}, how do you like your\n"
 	.string "new room?\p"

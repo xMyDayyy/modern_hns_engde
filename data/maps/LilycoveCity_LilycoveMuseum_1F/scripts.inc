@@ -162,8 +162,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
 #if GERMAN
 	.string "Willkommen im Museum von\n"
 	.string "Seegrasulb City.\p"
-	.string "Bitte nimm dir die Zeit, unsere\n"
-	.string "Sammlung\l"
+	.string "Bitte nimm dir die Zeit, unsere Sammlung\n"
 	.string "wunderbarer Kunstwerke zum Thema\l"
 	.string "Pokémon zu betrachten.$"
 #else
@@ -178,8 +177,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
 	.string "Ich bin der Kurator dieses Museums der\n"
 	.string "schönen Künste.\p"
 	.string "Es freut mich immer wieder, junge\n"
-	.string "Menschen wie dich im Museum zu\l"
-	.string "treffen. \p"
+	.string "Menschen wie dich im Museum zu treffen.\p"
 	.string "Hast du dir schon unsere Gemäldesamm-\n"
 	.string "lung angesehen?$"
 #else
@@ -238,8 +236,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_ExcellentCanYouComeWithMe:
 LilycoveCity_LilycoveMuseum_1F_Text_VeryOldPainting:
 #if GERMAN
 	.string "Dies ist ein sehr altes Gemälde.\n"
-	.string "Die Farbe blättert hier und da schon\l"
-	.string "ab.$"
+	.string "Die Farbe blättert hier und da schon ab.$"
 #else
 	.string "It's a very old painting.\n"
 	.string "The paint is peeling here and there.$"
@@ -349,8 +346,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
 #if GERMAN
 	.string "Die Kämpfe mit Pokémon machen schon\n"
 	.string "Spaß, das gebe ich zu.\p"
-	.string "Aber man darf darüber nicht seine\n"
-	.string "Liebe\l"
+	.string "Aber man darf darüber nicht seine Liebe\n"
 	.string "zu den schönen Künsten vergessen.$"
 #else
 	.string "Battling with POKéMON is fun,\n"
@@ -441,11 +437,10 @@ LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
 	.string "beliebten Ziel für Touristen geworden.\l"
 	.string "\p"
 	.string "Das ist großartig für Seegrasulb City.\n"
-	.string "Nein, großartig für die ganze Hoenn-\l"
-	.string "Region!\p"
-	.string "Ein einziger Trainer soll all die\n"
-	.string "Gemälde im oberen Stockwerk beschafft\l"
-	.string "haben.$"
+	.string "Nein, großartig für die ganze\l"
+	.string "Hoenn-Region!\p"
+	.string "Ein einziger Trainer soll all die Gemälde\n"
+	.string "im oberen Stockwerk beschafft haben.$"
 #else
 	.string "The ART MUSEUM has become a favorite\n"
 	.string "tourist destination.\p"

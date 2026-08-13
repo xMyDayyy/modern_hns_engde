@@ -146,9 +146,9 @@ FiveIsland_WaterLabyrinth_Text_CuteMonRemindsMeOfDaisy::
 #if GERMAN
 	.string "Oh, hallo!\n"
 	.string "Das ist ein süßes {STR_VAR_2}.\p"
-	.string "Beim Betrachten fällt mir ein\n"
-	.string "kleines Mädchen ein, das\l"
-	.string "ich auf einer meiner Reisen traf.\p"
+	.string "Beim Betrachten fällt mir ein kleines\n"
+	.string "Mädchen ein, das ich auf einer meiner\l"
+	.string "Reisen traf.\p"
 	.string "Sie hat sich rührend um Pokémon\n"
 	.string "gekümmert. Sie war ein Engel.\p"
 	.string "Der Name dieses kleinen Mädchens…\n"

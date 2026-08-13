@@ -532,8 +532,7 @@ MauvilleCity_Text_WallyWillYouBattleMe:
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
 #if GERMAN
 	.string "Heiko: Oh… Wenn du nicht gegen mich\n"
-	.string "an-\l"
-	.string "treten willst, {PLAYER}, wird mein\p"
+	.string "antreten willst, {PLAYER}, wird mein\p"
 	.string "Onkel\n"
 	.string "nie erkennen, wie stark ich schon bin.$"
 #else
@@ -601,8 +600,7 @@ MauvilleCity_Text_ThankYouNotEnoughToBattle:
 	.string "{PLAYER}, herzlichen Dank! Trainer zu\n"
 	.string "sein verlangt viel von einem, oder?\p"
 	.string "Man besitzt nicht einfach nur Pokémon\n"
-	.string "und lässt sie kämpfen. Um ein\l"
-	.string "richtiger\l"
+	.string "und lässt sie kämpfen. Um ein richtiger\l"
 	.string "Trainer zu sein, braucht es mehr.$"
 #else
 	.string "{PLAYER}, thank you.\n"
@@ -631,16 +629,14 @@ MauvilleCity_Text_UncleNoNeedToBeDown:
 
 MauvilleCity_Text_UncleVisitUsSometime:
 #if GERMAN
-	.string "Onkel: {PLAYER}{KUN}, mir dämmert es\n"
-	.string "so\l"
-	.string "langsam. Du musst der Trainer sein,\p"
-	.string "der\n"
-	.string "sich damals um Heiko gekümmert hat,\l"
-	.string "als\l"
-	.string "er sein erstes Pokémon fing.\p"
+	.string "Onkel: {PLAYER}{KUN}, mir dämmert\n"
+	.string "es so langsam. Du musst der Trainer\l"
+	.string "sein,\p"
+	.string "der sich damals um Heiko gekümmert hat,\n"
+	.string "als er sein erstes Pokémon fing.\p"
 	.string "Warum besuchst du uns nicht irgendwann\n"
-	.string "in Wiesenflur? Ich bin sicher,\l"
-	.string "Heiko würde sich sehr freuen.$"
+	.string "in Wiesenflur? Ich bin sicher, Heiko\l"
+	.string "würde sich sehr freuen.$"
 #else
 	.string "UNCLE: {PLAYER}{KUN}, it just dawned on me\n"
 	.string "that you must be the TRAINER who kept\l"
@@ -657,9 +653,8 @@ MauvilleCity_Text_WallyPokenavCall:
 	.string "… … … … …\n"
 	.string "…\l… … … … …\l…\p"
 	.string "Heiko: Oh, hallo {PLAYER}!\p"
-	.string "Ich muss dir was erzählen! Mein\n"
-	.string "Onkel hat mir einen PokéCom\l"
-	.string "gegeben.\p"
+	.string "Ich muss dir was erzählen! Mein Onkel\n"
+	.string "hat mir einen PokéCom gegeben.\p"
 	.string "Nun kann ich mit dir reden, wann\n"
 	.string "immer ich möchte, {PLAYER}!\p"
 	.string "… … … … …\n"
@@ -721,13 +716,12 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "Gut! Ich habe es entschieden!\n"
 	.string "Du tust mir einen Gefallen,\l"
 	.string "{PLAYER}{KUN}! \p"
-	.string "Malvenfroh City hat einen unter-\n"
-	.string "irdischen Bereich, der neu Malvenfroh\l"
-	.string "heißt.\p"
-	.string "{PLAYER}{KUN}, ich schicke dich jetzt\n"
-	.string "da\l"
-	.string "hinunter, damit du den Generator aus-\l"
-	.string "schaltest.\p"
+	.string "Malvenfroh City hat einen\n"
+	.string "unterirdischen Bereich, der neu\l"
+	.string "Malvenfroh heißt.\p"
+	.string "{PLAYER}{KUN}, ich schicke dich\n"
+	.string "jetzt da hinunter, damit du den\l"
+	.string "Generator ausschaltest.\p"
 	.string "Der Generator ist kurz davor, \n"
 	.string "heißzulaufen. Das ist sehr gefährlich.\l"
 	.string "\p"
@@ -751,12 +745,12 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
 
 MauvilleCity_Text_WattsonWontBeChallenge:
 #if GERMAN
-	.string "Walter: Mach dir keine Sorgen. Man\n"
-	.string "kann das nicht gerade eine Heraus-\l"
-	.string "forderung nennen.\p"
-	.string "Der Eingang zu neu Malvenfroh\n"
-	.string "ist eine kurze Surf-Strecke von\l"
-	.string "Route 110 entfernt.\p"
+	.string "Walter: Mach dir keine Sorgen. Man kann\n"
+	.string "das nicht gerade eine Herausforderung\l"
+	.string "nennen.\p"
+	.string "Der Eingang zu neu Malvenfroh ist eine\n"
+	.string "kurze Surf-Strecke von Route 110\l"
+	.string "entfernt.\p"
 	.string "Das ist alles. Du kannst mir\n"
 	.string "vertrauen! Wahahahahahaha!$"
 #else
@@ -772,8 +766,7 @@ MauvilleCity_Text_WattsonThanksTakeTM:
 #if GERMAN
 	.string "Walter: Wahahahahaha!\p"
 	.string "Ich wusste es, {PLAYER}{KUN}! Ich\n"
-	.string "wusste, ich\l"
-	.string "habe die richtige Person\l"
+	.string "wusste, ich habe die richtige Person\l"
 	.string "herausgepickt!\p"
 	.string "Hier, das ist mein Dankeschön - eine\n"
 	.string "TM, die Donnerblitz enthält!\p"
@@ -791,8 +784,7 @@ MauvilleCity_Text_WattsonThanksTakeTM:
 MauvilleCity_Text_WattsonYoungTakeCharge:
 #if GERMAN
 	.string "Walter: Wahahahahaha!\p"
-	.string "Es freut mich zu sehen, wie\n"
-	.string "energetisch\l"
+	.string "Es freut mich zu sehen, wie energetisch\n"
 	.string "sich die jungen Leute heute\p"
 	.string "entwickeln!$"
 #else
@@ -804,8 +796,7 @@ MauvilleCity_Text_WattsonYoungTakeCharge:
 MauvilleCity_Text_NurseHurtMonBackToHealth:
 #if GERMAN
 	.string "Weißt du, es ist cool, dass es\n"
-	.string "Pokémon-\l"
-	.string "Kämpfe und all das Zeugs gibt…\p"
+	.string "Pokémon-Kämpfe und all das Zeugs gibt…\p"
 	.string "Aber wenn dein Pokémon verletzt wird,\n"
 	.string "dann musst du es gesund pflegen.$"
 #else
@@ -861,8 +852,8 @@ MauvilleCity_Text_CitySign:
 MauvilleCity_Text_GymSign:
 #if GERMAN
 	.string "Pokémon Arena von Malvenfroh City\n"
-	.string "Leiter: Walter\l"
-	.string "“Der Mann, der Spannung entlädt!”$"
+	.string "Leiter: Walter “Der Mann, der Spannung\l"
+	.string "entlädt!”$"
 #else
 	.string "MAUVILLE CITY POKéMON GYM\n"
 	.string "LEADER: WATTSON\l"
@@ -871,9 +862,8 @@ MauvilleCity_Text_GymSign:
 
 MauvilleCity_Text_BikeShopSign:
 #if GERMAN
-	.string "Radlas Räder\n"
-	.string "“Fahre im Kies und lass dich durch-\l"
-	.string "schütteln!”$"
+	.string "Radlas Räder “Fahre im Kies und lass\n"
+	.string "dich durchschütteln!”$"
 #else
 	.string "“Ride in gravel and shake up your\n"
 	.string "soul!”\l"
@@ -896,8 +886,7 @@ MauvilleCity_Text_ExplainTV:
 	.string "Da gibt es jetzt jede Menge coole,\n"
 	.string "neue Shows.\p"
 	.string "Fernsehen ist so cool. Plötzlich habe\n"
-	.string "ich meine Freunde im Fernsehen\l"
-	.string "gesehen. \p"
+	.string "ich meine Freunde im Fernsehen gesehen.\p"
 	.string "Und manchmal, da zeigen sie dich im\n"
 	.string "Fernsehen und du weißt es gar nicht.\p"
 	.string "Ich möchte auch mal im Fernsehen sein.\n"

@@ -171,8 +171,7 @@ AquaHideout_B1F_Text_Grunt3PostBattle:
 AquaHideout_B1F_Text_Grunt5Intro:
 #if GERMAN
 	.string "Gääähn… Hier im Versteck Wache zu\n"
-	.string "stehen, ist ermüdend. Ich muss\l"
-	.string "kämpfen.$"
+	.string "stehen, ist ermüdend. Ich muss kämpfen.$"
 #else
 	.string "Yawn… Keeping watch over the\n"
 	.string "HIDEOUT bores me. I'll take you on.$"
@@ -199,8 +198,8 @@ AquaHideout_B1F_Text_Grunt7Intro:
 #if GERMAN
 	.string "Hey! Du da!\p"
 	.string "Was ist cooler?\n"
-	.string "Die Uniform von Team Aqua oder\l"
-	.string "die von Team Magma?$"
+	.string "Die Uniform von Team Aqua oder die von\l"
+	.string "Team Magma?$"
 #else
 	.string "Hey!\n"
 	.string "You there!\p"
@@ -218,8 +217,7 @@ AquaHideout_B1F_Text_Grunt7Defeat:
 AquaHideout_B1F_Text_Grunt7PostBattle:
 #if GERMAN
 	.string "Hat man eine coole Uniform, sieht man\n"
-	.string "auch noch klasse aus, wenn man\l"
-	.string "verliert,\l"
+	.string "auch noch klasse aus, wenn man verliert,\l"
 	.string "findest du nicht?$"
 #else
 	.string "If you have a cool uniform, you look\n"

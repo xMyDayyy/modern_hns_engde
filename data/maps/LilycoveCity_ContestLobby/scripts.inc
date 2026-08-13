@@ -995,8 +995,7 @@ LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
 #if GERMAN
 	.string "Stelle {POKEBLOCK} her und verstaue\n"
 	.string "sie darin.\p"
-	.string "Wenn ihr einen {POKEBLOCK} herstellt,\n"
-	.string "muss\l"
+	.string "Wenn ihr einen {POKEBLOCK} herstellt, muss\n"
 	.string "jeder eine andere Beere einsetzen.$"
 #else
 	.string "Make {POKEBLOCK}S and put them in there.\p"
@@ -1009,8 +1008,7 @@ LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 	.string "Herzlichen Glückwunsch!\p"
 	.string "Ich habe dein Pokémon gezeichnet, zum\n"
 	.string "Andenken an seinen Sieg…\p"
-	.string "Nun, der Auftritt deines Pokémon war\n"
-	.string "so\l"
+	.string "Nun, der Auftritt deines Pokémon war so\n"
 	.string "fantastisch, dass er mich zu einer\l"
 	.string "künstlerischen Hochleistung\l"
 	.string "anspornte. Siehst du?$"
@@ -1026,8 +1024,7 @@ LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 
 LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
 #if GERMAN
-	.string "Was meinst du? Ich bin mit meiner\n"
-	.string "Arbeit\l"
+	.string "Was meinst du? Ich bin mit meiner Arbeit\n"
 	.string "zufrieden, aber gefällt sie auch dir?\p"
 	.string "\p"
 	.string "Eine Arbeit dieses Formats würde sich\n"
@@ -1048,16 +1045,14 @@ LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
 
 LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum:
 #if GERMAN
-	.string "Nein, wirklich? Dann werde ich das\n"
-	.string "Bild\l"
+	.string "Nein, wirklich? Dann werde ich das Bild\n"
 	.string "natürlich sofort dort hinbringen.\p"
 	.string "Ich werde ihm einen angemessenen Titel\n"
 	.string "geben.\p"
 	.string "Ich hoffe, es gefällt ihnen, und sie\n"
 	.string "werden es ausstellen.\p"
-	.string "Bitte, schau es dir mal an, wenn sie\n"
-	.string "es ausgestellt haben. Vielen, vielen\l"
-	.string "Dank!$"
+	.string "Bitte, schau es dir mal an, wenn sie es\n"
+	.string "ausgestellt haben. Vielen, vielen Dank!$"
 #else
 	.string "What, really? Then, sure, I will take\n"
 	.string "this painting there right now.\p"
@@ -1106,8 +1101,8 @@ LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum:
 #if GERMAN
 	.string "Oh… Ich glaube, dann nehme ich das mit\n"
 	.string "zu mir nach Hause…\p"
-	.string "Aber weißt du, eigentlich möchte ich\n"
-	.string "das viel lieber einem Kunstmuseum\l"
+	.string "Aber weißt du, eigentlich möchte ich das\n"
+	.string "viel lieber einem Kunstmuseum\l"
 	.string "schenken… Ja?$"
 #else
 	.string "Oh… Then, I guess I'll just take\n"
@@ -1187,8 +1182,7 @@ LilycoveCity_ContestLobby_Text_ToughContestIsExtreme:
 
 LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
 #if GERMAN
-	.string "Tag für Tag habe ich dieses Pokémon\n"
-	.string "mit\l"
+	.string "Tag für Tag habe ich dieses Pokémon mit\n"
 	.string "meiner Liebe und Fürsorge überhäuft.\p"
 	.string "Seine Kondition ist einfach unver-\n"
 	.string "gleichbar. Heute gehört der Sieg uns!$"
@@ -1201,13 +1195,11 @@ LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
 #if GERMAN
-	.string "Ich habe {POKEBLOCK} mit Mama, Papa\n"
-	.string "und\l"
-	.string "meiner Schwester gemacht. Sie sind\l"
-	.string "sehr gut geworden!\p"
+	.string "Ich habe {POKEBLOCK} mit Mama, Papa und\n"
+	.string "meiner Schwester gemacht. Sie sind sehr\l"
+	.string "gut geworden!\p"
 	.string "Ich glaube, je mehr Leute dir bei der\n"
-	.string "Herstellung von {POKEBLOCK} helfen,\l"
-	.string "desto\l"
+	.string "Herstellung von {POKEBLOCK} helfen, desto\l"
 	.string "besser ist die Qualität.$"
 #else
 	.string "I made {POKEBLOCK}S with Mom, Dad, and\n"

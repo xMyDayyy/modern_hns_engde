@@ -244,9 +244,8 @@ FourIsland_IcefallCave_Back_Text_LoreleiPlayerHelpMeKickPoachersOut::
 FourIsland_IcefallCave_Back_Text_GruntIntro::
 #if GERMAN
 	.string "W-Was!?!\p"
-	.string "Wer sagt, dass wir mit den Pokémon\n"
-	.string "nicht das anstellen können, was wir\l"
-	.string "wollen?$"
+	.string "Wer sagt, dass wir mit den Pokémon nicht\n"
+	.string "das anstellen können, was wir wollen?$"
 #else
 	.string "W-what?!\p"
 	.string "Who says we can't do what we want\n"
@@ -294,9 +293,8 @@ FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou::
 #if GERMAN
 	.string "Lorelei: Falls du es mir nicht\n"
 	.string "sagst, werden wir dich einfrieren.\p"
-	.string "Mein Lapras ist außer sich für\n"
-	.string "das, was ihr seinen Artgenossen\l"
-	.string "angetan habt!\l"
+	.string "Mein Lapras ist außer sich für das, was\n"
+	.string "ihr seinen Artgenossen angetan habt!\l"
 	.string "Los, Lapras!\l"
 	.string "Eisstrahl…$"
 #else
@@ -337,9 +335,9 @@ FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful::
 	.string "Aber das ist grausam…\p"
 	.string "Ich bin auf diesen Eilanden geboren\n"
 	.string "und aufgewachsen.\p"
-	.string "Ich hatte keine Ahnung, dass sich\n"
-	.string "diese schrecklichen Kriminellen\l"
-	.string "hier herumtreiben…$"
+	.string "Ich hatte keine Ahnung, dass sich diese\n"
+	.string "schrecklichen Kriminellen hier\l"
+	.string "herumtreiben…$"
 #else
 	.string "{PLAYER}, thank you.\n"
 	.string "But this is awful…\p"

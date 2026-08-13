@@ -254,8 +254,8 @@ JaggedPass_Text_DianaPostRematch:
 
 JaggedPass_Text_EthanIntro:
 #if GERMAN
-	.string "Der Steilpass ist sehr schwer zu Fuß\n"
-	.string "zu meistern. Aber ein guter Ort zum\l"
+	.string "Der Steilpass ist sehr schwer zu Fuß zu\n"
+	.string "meistern. Aber ein guter Ort zum\l"
 	.string "Trainieren.$"
 #else
 	.string "JAGGED PASS is hard to walk on.\n"
@@ -283,8 +283,8 @@ JaggedPass_Text_EthanPostBattle:
 JaggedPass_Text_EthanRegister:
 #if GERMAN
 	.string "Wenn ich mich erstmal an diesen\n"
-	.string "unebenen Boden gewöhnt habe,\l"
-	.string "werde ich mit Sicherheit gewinnen!\p"
+	.string "unebenen Boden gewöhnt habe, werde ich\l"
+	.string "mit Sicherheit gewinnen!\p"
 	.string "Trägst du mich in deinen PokéCom ein?$"
 #else
 	.string "When I get more used to this bumpiness,\n"

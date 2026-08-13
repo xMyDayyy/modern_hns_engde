@@ -96,8 +96,7 @@ Route110_TrickHousePuzzle1_Text_EddieDefeat:
 Route110_TrickHousePuzzle1_Text_EddiePostBattle:
 #if GERMAN
 	.string "Ich bin vom Weg abgekommen, ich habe\n"
-	.string "verloren und bin verloren. Ich finde\l"
-	.string "den\l"
+	.string "verloren und bin verloren. Ich finde den\l"
 	.string "Ausgang nicht mehr…$"
 #else
 	.string "I lost my way, I lost a battle, and I'm\n"

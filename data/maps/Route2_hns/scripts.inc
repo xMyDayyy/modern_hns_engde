@@ -155,8 +155,8 @@ Route2_Text_BugCatcherDoug_Beaten:
 
 Route2_Text_BugCatcherDoug_AfterBattle:
 #if GERMAN
-	.string "Dieses Gefühl, wenn man ein Käfer-\n"
-	.string "Pokémon auf den Bauch drückt…\l"
+	.string "Dieses Gefühl, wenn man ein\n"
+	.string "Käfer-Pokémon auf den Bauch drückt…\l"
 	.string "Sie sind ganz weich und knubbelig!\l"
 	.string "Das mag ich so an ihnen!$"
 #else

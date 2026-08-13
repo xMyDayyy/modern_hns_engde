@@ -380,12 +380,10 @@ OldaleTown_Text_ThisIsAPokemonMart:
 
 OldaleTown_Text_PotionExplanation:
 #if GERMAN
-	.string "Ein Trank kann zu jeder Zeit\n"
-	.string "eingesetzt\l"
+	.string "Ein Trank kann zu jeder Zeit eingesetzt\n"
 	.string "werden, daher ist er in manchen\l"
 	.string "Situationen wertvoller als ein\l"
-	.string "Pokémon-\l"
-	.string "Center.$"
+	.string "Pokémon-Center.$"
 #else
 	.string "A POTION can be used anytime, so it's\n"
 	.string "even more useful than a POKéMON CENTER\l"
@@ -448,9 +446,9 @@ OldaleTown_Text_MayLetsGoBack:
 
 OldaleTown_Text_BrendanLetsGoBack:
 #if GERMAN
-	.string "Maike: Ich gehe nun in das Labor\n"
-	.string "meines Vaters. {PLAYER}, du solltest\l"
-	.string "auch zurücklaufen.$"
+	.string "Maike: Ich gehe nun in das Labor meines\n"
+	.string "Vaters. {PLAYER}, du solltest auch\l"
+	.string "zurücklaufen.$"
 #else
 	.string "BRENDAN: I'm heading back to my dad's\n"
 	.string "LAB now.\l"

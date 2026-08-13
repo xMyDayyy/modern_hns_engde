@@ -159,10 +159,10 @@ Route39_Text_BaobaIntro::
 	.string "irgendwann blieb meine Safari-Zone\l"
 	.string "hinter der Konkurrenz zurück.\p"
 	.string "Also ergriff ich die Initiative!\n"
-	.string "Ich eignete mir im Ausland einige\l"
-	.string "neue Kniffe an und entschied mich,\l"
-	.string "in Anemonia City eine neue Safari\l"
-	.string "zu eröffnen!\p"
+	.string "Ich eignete mir im Ausland einige neue\l"
+	.string "Kniffe an und entschied mich, in\l"
+	.string "Anemonia City eine neue Safari zu\l"
+	.string "eröffnen!\p"
 	.string "Dass wir zwei uns hier kennenlernen,\n"
 	.string "ist bestimmt Schicksal!\p"
 	.string "Wenn das mal kein guter Grund dafür ist,\n"
@@ -491,9 +491,8 @@ Route39_EventScript_Sign2::
 
 Route39_Text_MoomooFarmSign:
 #if GERMAN
-	.string "Kuhmuh-Farm\n"
-	.string "Hier wartet immer ein Glas frische\l"
-	.string "und bekömmliche Milch auf dich!$"
+	.string "Kuhmuh-Farm Hier wartet immer ein Glas\n"
+	.string "frische und bekömmliche Milch auf dich!$"
 #else
 	.string "MOOMOO FARM\p"
 	.string "Enjoy Our Fresh and Tasty Milk$"
@@ -528,9 +527,8 @@ Route39_Text_DerekRegister:
 #if GERMAN
     .string "Ich höre mir deine Angeberei\n"
     .string "gar nicht erst an!\p"
-    .string "Wir Pokémaniacs haben nämlich\n"
-    .string "die Regel, Angebereien zu\l"
-    .string "ignorieren!$"
+    .string "Wir Pokémaniacs haben nämlich die\n"
+    .string "Regel, Angebereien zu ignorieren!$"
 #else
 	.string "I'm not listening to your\n"
 	.string "bragging!\p"
@@ -541,8 +539,7 @@ Route39_Text_DerekRegister:
 Route39_Text_DerekHasItem:
 #if GERMAN
 	.string "Hey! Ich habe mein Pikachu\n"
-	.string "herumgezeigt und dabei etwas\l"
-	.string "gefunden.\p"
+	.string "herumgezeigt und dabei etwas gefunden.\p"
 	.string "Hier, du kannst es haben!$"
 #else
 	.string "Hey! I was showing off my\n"

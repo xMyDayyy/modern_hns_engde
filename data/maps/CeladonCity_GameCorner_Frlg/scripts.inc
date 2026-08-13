@@ -717,9 +717,8 @@ CeladonCity_GameCorner_Text_GruntDefeat::
 
 CeladonCity_GameCorner_Text_GruntPostBattle::
 #if GERMAN
-	.string "Ich muss dem Boss sagen, dass\n"
-	.string "unser Versteck entdeckt werden\l"
-	.string "könnte!$"
+	.string "Ich muss dem Boss sagen, dass unser\n"
+	.string "Versteck entdeckt werden könnte!$"
 #else
 	.string "The TEAM ROCKET HIDEOUT might\n"
 	.string "be discovered!\p"

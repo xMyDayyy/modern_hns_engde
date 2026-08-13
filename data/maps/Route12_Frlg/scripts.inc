@@ -78,8 +78,7 @@ Text_SnorlaxWokeUp::
 Text_SnorlaxReturnedToMountains::
 #if GERMAN
 	.string "Relaxo hat sich wieder beruhigt!\n"
-	.string "Es gähnt und läuft in die Berge\l"
-	.string "zurück!$"
+	.string "Es gähnt und läuft in die Berge zurück!$"
 #else
 	.string "SNORLAX calmed down.\n"
 	.string "It gave a huge yawn…\l"
@@ -221,9 +220,8 @@ Route12_Text_HankDefeat::
 
 Route12_Text_HankPostBattle::
 #if GERMAN
-	.string "Von Pokémon verstehst du sehr\n"
-	.string "viel, doch ich bin der bessere\l"
-	.string "Angler!$"
+	.string "Von Pokémon verstehst du sehr viel,\n"
+	.string "doch ich bin der bessere Angler!$"
 #else
 	.string "I guess you get to be good at\n"
 	.string "what you like.\p"

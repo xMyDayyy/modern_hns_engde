@@ -7,9 +7,9 @@ Route50_EventScript_BlackBelt1::
 
 Route50_Text_BlackBelt1::
 #if GERMAN
-	.string "Der Körper muss gestählt und der\n"
-	.string "Geist gefestigt werden - unter den\l"
-	.string "härtesten Bedingungen!$"
+	.string "Der Körper muss gestählt und der Geist\n"
+	.string "gefestigt werden - unter den härtesten\l"
+	.string "Bedingungen!$"
 #else
 	.string "The body must be hardened\n"
     .string "and the mind strengthened\l"
@@ -146,13 +146,13 @@ Route50_Text_FinleyBefore:
 	.string "Dorfbewohner?\p"
 	.string "Fremden gegenüber können sie sehr\n"
 	.string "abweisend sein.\p"
-	.string "Dabei ist es eine der größten\n"
-	.string "Freuden des Lebens, neue Menschen\l"
+	.string "Dabei ist es eine der größten Freuden\n"
+	.string "des Lebens, neue Menschen\l"
 	.string "kennenzulernen.\p"
 	.string "Eines Tages hoffe ich, Champ\n"
 	.string "Siegfried zu begegnen.\p"
-	.string "Er ist ein legendärer Drachen-\n"
-	.string "Bändiger, ganz wie ich.\l"
+	.string "Er ist ein legendärer Drachen-Bändiger,\n"
+	.string "ganz wie ich.\l"
 	.string "Wer ich bin?\p"
 	.string "Nun, ich bin Finley, Hüter der\n"
 	.string "Dracotafel.$"
@@ -178,8 +178,7 @@ Route50_Text_FinleyBeforeBattle:
 	.string "geschickt haben, um die Tafeln zu\l"
 	.string "sammeln.\p"
 	.string "Sie sagen, du seist würdig…\n"
-	.string "Doch bezwingst du auch meine\l"
-	.string "Drachen?$"
+	.string "Doch bezwingst du auch meine Drachen?$"
 #else
 	.string "I know the KIMONO's have sent you\n"
 	.string "to collect these PLATES.\p"

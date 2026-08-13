@@ -143,9 +143,8 @@ SilphCo_6F_Text_NeedsMeToLookAfterHim::
 
 SilphCo_6F_Text_RocketsTryingToConquerWorld::
 #if GERMAN
-	.string "Das Team Rocket benutzt die\n"
-	.string "Pokémon bei dem Versuch, die Welt\l"
-	.string "zu erobern!$"
+	.string "Das Team Rocket benutzt die Pokémon\n"
+	.string "bei dem Versuch, die Welt zu erobern!$"
 #else
 	.string "TEAM ROCKET is trying to conquer\n"
 	.string "the world with POKéMON.$"
@@ -163,8 +162,8 @@ SilphCo_6F_Text_RocketsRanAwayBecauseOfYou::
 SilphCo_6F_Text_TargetedSilphForOurMonProducts::
 #if GERMAN
 	.string "Sie müssen es wegen unserer\n"
-	.string "Pokémon-Produkte auf die Silph\l"
-	.string "Co. abgesehen haben!$"
+	.string "Pokémon-Produkte auf die Silph Co.\l"
+	.string "abgesehen haben!$"
 #else
 	.string "They must have targeted SILPH for\n"
 	.string "our POKéMON products.$"
@@ -172,9 +171,9 @@ SilphCo_6F_Text_TargetedSilphForOurMonProducts::
 
 SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder::
 #if GERMAN
-	.string "Wir würden uns sehr freuen, wenn\n"
-	.string "du später einmal für die\l"
-	.string "Silph Co. arbeiten würdest!$"
+	.string "Wir würden uns sehr freuen, wenn du\n"
+	.string "später einmal für die Silph Co. arbeiten\l"
+	.string "würdest!$"
 #else
 	.string "Come work for SILPH when you\n"
 	.string "get older.$"

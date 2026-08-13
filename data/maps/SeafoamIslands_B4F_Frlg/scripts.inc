@@ -203,8 +203,7 @@ Text_RockSlideTeach::
 	.string "Das wäre doch…\n"
 	.string "Einfach unvorstellbar schrecklich!\p"
 	.string "Du scheinst keine Angst zu haben.\n"
-	.string "Soll ein Pokémon Steinhagel\l"
-	.string "erlernen?$"
+	.string "Soll ein Pokémon Steinhagel erlernen?$"
 #else
 	.string "When you're up on a rocky mountain\n"
 	.string "like this, rockslides are a threat.\p"

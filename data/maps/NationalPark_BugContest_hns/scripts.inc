@@ -160,9 +160,8 @@ NationalPark_BugContest_Movement_AttendantSide:
 NationalPark_BugContest_Text_Trash:
 #if GERMAN
 	.string "Tipps für Trainer\p"
-	.string "Möchtest du deine\n"
-	.string "Briefe drucken, öffne sie und drücke\l"
-	.string "Start.$"
+	.string "Möchtest du deine Briefe drucken,\n"
+	.string "öffne sie und drücke Start.$"
 #else
 	.string "Nothing here.$"
 #endif
@@ -195,9 +194,9 @@ NationalParkBugContest_Text_ContestantBelinda:
 
 NationalParkBugContest_Text_Contestant2A:
 #if GERMAN
-	.string "Alan: Mein Parasek versetzt\n"
-	.string "Pokémon mittels Pilzspore\l"
-	.string "in einen tiefen Schlaf.$"
+	.string "Alan: Mein Parasek versetzt Pokémon\n"
+	.string "mittels Pilzspore in einen tiefen\l"
+	.string "Schlaf.$"
 #else
 	.string "ED: My PARASECT puts POKéMON to\n"
 	.string "sleep with SPORE.$"
@@ -246,9 +245,9 @@ NationalParkBugContest_Text_Contestant8A:
 
 NationalParkBugContest_Text_Contestant9A:
 #if GERMAN
-	.string "Guido: Wenn du Zeit für Gespräche\n"
-	.string "hast, solltest du sie lieber dafür\l"
-	.string "nutzen, Pokémon zu suchen!$"
+	.string "Guido: Wenn du Zeit für Gespräche hast,\n"
+	.string "solltest du sie lieber dafür nutzen,\l"
+	.string "Pokémon zu suchen!$"
 #else
 	.string "SAMUEL: If you've got the time to\n"
 	.string "chat, go find some bug POKéMON.$"
@@ -257,8 +256,8 @@ NationalParkBugContest_Text_Contestant9A:
 NationalParkBugContest_Text_Contestant10A:
 #if GERMAN
 	.string "Michel: Ich habe so viele Bücher\n"
-	.string "gelesen, dass ich eigentlich nur\l"
-	.string "noch gewinnen kann!$"
+	.string "gelesen, dass ich eigentlich nur noch\l"
+	.string "gewinnen kann!$"
 #else
 	.string "KIPP: I've studied about bug\n"
 	.string "POKéMON a lot.\p"
@@ -277,8 +276,8 @@ NationalParkBugContest_Text_Sign_RelaxationSquare:
 NationalParkBugContest_Text_Sign_BattleNotice:
 #if GERMAN
 	.string "Da ist ein Flugblatt…\p"
-	.string "Kämpfe sind nur im\n"
-	.string "hohen Gras gestattet.\l"
+	.string "Kämpfe sind nur im hohen Gras\n"
+	.string "gestattet.\l"
 	.string "- Das Büro des Wächters$"
 #else
 	.string "What is this notice?\p"
@@ -289,9 +288,8 @@ NationalParkBugContest_Text_Sign_BattleNotice:
 NationalParkBugContest_Text_TrainerTips:
 #if GERMAN
 	.string "Tipps für Trainer\p"
-	.string "Möchtest du deine\n"
-	.string "Briefe drucken, öffne sie und drücke\l"
-	.string "Start.$"
+	.string "Möchtest du deine Briefe drucken,\n"
+	.string "öffne sie und drücke Start.$"
 #else
 	.string "The NATIONAL PARK has different\n"
 	.string "POKéMON during the BUG-CATCHING\l"

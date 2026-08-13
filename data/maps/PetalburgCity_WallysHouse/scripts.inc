@@ -68,15 +68,14 @@ PetalburgCity_WallysHouse_EventScript_ReceivedHMSurf::
 PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
 #if GERMAN
 	.string "Du…\n"
-	.string "Ach, du bist bestimmt {PLAYER}{KUN},\l"
-	.string "richtig? \p"
+	.string "Ach, du bist bestimmt\l"
+	.string "{PLAYER}{KUN}, richtig?\p"
 	.string "Danke, dass du dich um Heiko gekümmert\n"
 	.string "hast.\p"
 	.string "Er war schon als Baby immer zart und\n"
 	.string "kränklich.\p"
 	.string "Wir haben ihn für eine Weile zu\n"
-	.string "Verwandten nach Wiesenflur\l"
-	.string "geschickt.\p"
+	.string "Verwandten nach Wiesenflur geschickt.\p"
 	.string "Die Luft ist dort viel sauberer als\n"
 	.string "hier. \p"
 	.string "Was heißt das? Wo ist Heiko?\n"
@@ -111,14 +110,13 @@ PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
 PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 #if GERMAN
 	.string "Hallo {PLAYER}{KUN}! Bitte\n"
-	.string "entschuldige,\l"
-	.string "dass wir dich den weiten Weg hierher\l"
-	.string "gerufen haben.\p"
+	.string "entschuldige, dass wir dich den weiten\l"
+	.string "Weg hierher gerufen haben.\p"
 	.string "Unser Heiko ist viel robuster ge-\n"
 	.string "worden, seit er in Wiesenflur ist.\p"
 	.string "Das verdanken wir allein dir!\p"
-	.string "Als Heiko den Ort verließ, hast du\n"
-	.string "ihm geholfen, ein Pokémon zu fangen,\l"
+	.string "Als Heiko den Ort verließ, hast du ihm\n"
+	.string "geholfen, ein Pokémon zu fangen,\l"
 	.string "stimmt’s?\p"
 	.string "Ich glaube, das hat Heiko richtig\n"
 	.string "glücklich gemacht.\p"
@@ -168,12 +166,10 @@ PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
 #if GERMAN
 	.string "Oh! Du hast Heiko in Prachtpolis City\n"
 	.string "getroffen?\p"
-	.string "Ach, {PLAYER}{KUN}, du willst mich auf\n"
-	.string "den Arm\l"
-	.string "nehmen!\p"
+	.string "Ach, {PLAYER}{KUN}, du willst mich\n"
+	.string "auf den Arm nehmen!\p"
 	.string "Er mag sich gesundheitlich erholt\n"
-	.string "haben, aber er wird nicht alleine so\l"
-	.string "weit\l"
+	.string "haben, aber er wird nicht alleine so weit\l"
 	.string "fortgegangen sein!$"
 #else
 	.string "Oh? You met WALLY in\n"
@@ -186,9 +182,9 @@ PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
 
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
 #if GERMAN
-	.string "Heiko war richtig glücklich, als er\n"
-	.string "uns erzählte, dass er ein Pokémon\l"
-	.string "gefangen habe.\p"
+	.string "Heiko war richtig glücklich, als er uns\n"
+	.string "erzählte, dass er ein Pokémon gefangen\l"
+	.string "habe.\p"
 	.string "Ich habe ihn schon seit Ewigkeiten\n"
 	.string "nicht mehr so glücklich erlebt!$"
 #else
@@ -208,8 +204,7 @@ PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
 	.string "Weißt du, Heiko ist nicht kräftig,\n"
 	.string "besitzt aber einen starken Willen.\p"
 	.string "Ich bin sicher, er wird gesund und\n"
-	.string "wohl-\l"
-	.string "behalten wieder nach Hause kommen.$"
+	.string "wohlbehalten wieder nach Hause kommen.$"
 #else
 	.string "I want you to keep this a secret\n"
 	.string "from my husband…\p"

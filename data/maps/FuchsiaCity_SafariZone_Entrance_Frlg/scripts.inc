@@ -214,9 +214,8 @@ FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone::
 
 FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500::
 #if GERMAN
-	.string "Für nur 500¥ darfst du im Park so\n"
-	.string "viele Pokémon fangen, wie du\l"
-	.string "möchtest!\p"
+	.string "Für nur 500¥ darfst du im Park so viele\n"
+	.string "Pokémon fangen, wie du möchtest!\p"
 	.string "Möchtest du auf die Jagd gehen?$"
 #else
 	.string "For just ¥500, you can play the\n"
@@ -248,10 +247,10 @@ FuchsiaCity_SafariZone_Entrance_Text_PlayerReceived30SafariBalls::
 
 FuchsiaCity_SafariZone_Entrance_Text_CallYouOnPAWhenYouRunOut::
 #if GERMAN
-	.string "Wir rufen dich über Lautsprecher\n"
-	.string "aus, wenn deine Fangzeit abgelaufen\l"
-	.string "oder dein Vorrat an Safaribällen\l"
-	.string "erschöpft ist!$"
+	.string "Wir rufen dich über Lautsprecher aus,\n"
+	.string "wenn deine Fangzeit abgelaufen oder\l"
+	.string "dein Vorrat an Safaribällen erschöpft\l"
+	.string "ist!$"
 #else
 	.string "We'll call you on the PA when you\n"
 	.string "run out of time or SAFARI BALLS.\p"
@@ -324,19 +323,18 @@ FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
 	.string "Die Safari-Zone besteht aus vier\n"
 	.string "Abschnitten.\p"
 	.string "In jedem Abschnitt findet man\n"
-	.string "verschiedene Pokémon. Versuche,\l"
-	.string "sie mit Safaribällen zu fangen.\p"
+	.string "verschiedene Pokémon. Versuche, sie mit\l"
+	.string "Safaribällen zu fangen.\p"
 	.string "Du kannst auch Köder oder\n"
 	.string "Steine werfen.\p"
-	.string "Bei einem Köder flieht das\n"
-	.string "Pokémon nicht so schnell,\l"
-	.string "ist aber schwieriger zu fangen.\p"
-	.string "Bei einem Stein flieht das\n"
-	.string "Pokémon eher, ist aber\l"
-	.string "einfacher zu fangen.\p"
-	.string "Wenn du keine Safaribälle mehr\n"
-	.string "hast oder wenn die Zeit abgelaufen\l"
-	.string "ist, endet das Spiel!$"
+	.string "Bei einem Köder flieht das Pokémon\n"
+	.string "nicht so schnell, ist aber schwieriger\l"
+	.string "zu fangen.\p"
+	.string "Bei einem Stein flieht das Pokémon eher,\n"
+	.string "ist aber einfacher zu fangen.\p"
+	.string "Wenn du keine Safaribälle mehr hast\n"
+	.string "oder wenn die Zeit abgelaufen ist,\l"
+	.string "endet das Spiel!$"
 #else
 	.string "The SAFARI ZONE actually has\n"
 	.string "four zones in it.\p"

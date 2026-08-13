@@ -39,9 +39,9 @@ Route3_Text_ColtonDefeat::
 
 Route3_Text_ColtonPostBattle::
 #if GERMAN
-	.string "Neben den Pokémon hier im Wald,\n"
-	.string "gibt es noch Unmengen anderer\l"
-	.string "Pokémon zu entdecken!$"
+	.string "Neben den Pokémon hier im Wald, gibt es\n"
+	.string "noch Unmengen anderer Pokémon zu\l"
+	.string "entdecken!$"
 #else
 	.string "There are other kinds of POKéMON\n"
 	.string "than the ones you find in forests.$"
@@ -122,9 +122,9 @@ Route3_Text_GregDefeat::
 
 Route3_Text_GregPostBattle::
 #if GERMAN
-	.string "Wenn auf dem PC eine Pokémon-Box\n"
-	.string "voll ist, wechsle einfach zu einer\l"
-	.string "anderen Box!$"
+	.string "Wenn auf dem PC eine Pokémon-Box voll\n"
+	.string "ist, wechsle einfach zu einer anderen\l"
+	.string "Box!$"
 #else
 	.string "If a POKéMON BOX on the PC gets\n"
 	.string "full, just switch to another BOX.$"

@@ -187,8 +187,8 @@ Route34_Text_CamperTodd_After:
 Route34_Text_ToddRegister:
 #if GERMAN
     .string "Vielleicht sollte ich eines in die\n"
-    .string "Pension bringen oder ein paar\l"
-    .string "Items einsetzen…$"
+    .string "Pension bringen oder ein paar Items\l"
+    .string "einsetzen…$"
 #else
 	.string "Maybe I should take one to DAY-CARE,\n"
 	.string "or maybe use some items…$"
@@ -215,8 +215,8 @@ Route34_Text_ToddRematchDefeat:
 Route34_Text_ToddPostRematch:
 #if GERMAN
     .string "Vielleicht sollte ich eines in die\n"
-    .string "Pension bringen oder ein paar\l"
-    .string "Items einsetzen…$"
+    .string "Pension bringen oder ein paar Items\l"
+    .string "einsetzen…$"
 #else
 	.string "Maybe I should take one to DAY-CARE,\n"
 	.string "or maybe use some items…$"
@@ -305,9 +305,8 @@ Route34_Text_PokefanBrandon_Beaten:
 
 Route34_Text_PokefanBrandon_After:
 #if GERMAN
-	.string "Mein Pokémon kannte Attacken,\n"
-	.string "von denen ich nicht wusste,\l"
-	.string "dass es sie hat.\p"
+	.string "Mein Pokémon kannte Attacken, von\n"
+	.string "denen ich nicht wusste, dass es sie hat.\p"
 	.string "Das war überaus erstaunlich!$"
 #else
 	.string "My POKéMON came back with new moves.\p"
@@ -452,8 +451,8 @@ Route34_Text_CooltrainerKate_After:
 	.string "Edna: Tut mir leid, dass ich dich aus\n"
 	.string "heiterem Himmel angegriffen habe.\p"
 	.string "Ich dachte eigentlich, wir wären hier\n"
-	.string "unter uns, und bin deshalb ein\l"
-	.string "bisschen erschrocken.$"
+	.string "unter uns, und bin deshalb ein bisschen\l"
+	.string "erschrocken.$"
 #else
 	.string "KATE: I'm sorry we jumped you.\p"
 	.string "We never expected anyone to find\n"

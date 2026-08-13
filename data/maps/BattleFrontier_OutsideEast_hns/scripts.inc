@@ -233,9 +233,8 @@ BattleFrontier_OutsideEast_EventScript_Camper_hns::
 
 BattleFrontier_OutsideEast_Text_BattleTowerSign_hns:
 #if GERMAN
-	.string "Duellturm\n"
-	.string "“Besiege alle und werde der beste\l"
-	.string "Trainer!”$"
+	.string "Duellturm “Besiege alle und werde der\n"
+	.string "beste Trainer!”$"
 #else
 	.string "This is the BATTLE TOWER!\n"
 	.string "Keep the win streak as the toughest\l"
@@ -303,8 +302,8 @@ BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial_hns:
 BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier_hns:
 #if GERMAN
 	.string "Ich habe Großes vor! Ich will die\n"
-	.string "Kampf-\l"
-	.string "zone und die Pokémon Liga erobern!\p"
+	.string "Kampfzone und die Pokémon Liga\l"
+	.string "erobern!\p"
 	.string "Und wenn dieser Traum wahr wird…\p"
 	.string "Dann werde ich… meine Nachbarin Mimi\n"
 	.string "fragen, ob sie meine Freundin wird!$"
@@ -336,9 +335,9 @@ BattleFrontier_OutsideEast_Text_ThriveInDarkness_hns:
 	.string "Ich lebe von der Dunkelheit…\n"
 	.string "Ja… Und welche Herausforderung ist\l"
 	.string "gerade gut genug für mich?\p"
-	.string "Die Kampfpyramide! Liebst du nicht\n"
-	.string "auch die Dunkelheit? Die Verzweiflung\l"
-	.string "und das Ungewisse?$"
+	.string "Die Kampfpyramide! Liebst du nicht auch\n"
+	.string "die Dunkelheit? Die Verzweiflung und\l"
+	.string "das Ungewisse?$"
 #else
 	.string "I thrive in darkness…\n"
 	.string "Yes… What is worthy of me?\l"
@@ -349,8 +348,7 @@ BattleFrontier_OutsideEast_Text_ThriveInDarkness_hns:
 
 BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam_hns:
 #if GERMAN
-	.string "Es hat mich eine Woche Schlaf\n"
-	.string "gekostet,\l"
+	.string "Es hat mich eine Woche Schlaf gekostet,\n"
 	.string "aber jetzt habe ich es zusammen… Das\p"
 	.string "ultimative Team!!! Ich sehe mich als\n"
 	.string "Sieger, und nur als Sieger, kein Witz!\l"
@@ -384,8 +382,7 @@ BattleFrontier_OutsideEast_Text_DidScottBringYouHere_hns:
 BattleFrontier_OutsideEast_Text_BelieveInYouBuddy_hns:
 #if GERMAN
 	.string "Zigg!\n"
-	.string "Ich glaube an dich, mein kleiner\l"
-	.string "Freund! \p"
+	.string "Ich glaube an dich, mein kleiner Freund!\p"
 	.string "Und wenn du gewinnst, werde ich dich\n"
 	.string "mit allem, was du magst, verwöhnen!$"
 #else
@@ -405,17 +402,16 @@ BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant_hns:
 BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody_hns:
 #if GERMAN
 	.string "Die anderen sagen, ich wäre eine\n"
-	.string "Nervensäge, die sich überall\l"
-	.string "einmischt. \p"
-	.string "Aber wenn ich ihnen nicht sage, wo\n"
-	.string "es langgeht, wer dann?\l"
-	.string "… \p"
+	.string "Nervensäge, die sich überall einmischt.\p"
+	.string "Aber wenn ich ihnen nicht sage, wo es\n"
+	.string "langgeht, wer dann?\l"
+	.string "…\p"
 	.string "Du da, dein Hut sitzt schief!\n"
 	.string "Du da, wirf keinen Müll auf den Boden!\l"
 	.string "Du da, du machst das ja ganz falsch!\p"
 	.string "Ich glaube nicht, dass ich es jemals\n"
-	.string "schaffen werde, im Kampfpalast\l"
-	.string "still zu sein und zuzuschauen…$"
+	.string "schaffen werde, im Kampfpalast still zu\l"
+	.string "sein und zuzuschauen…$"
 #else
 	.string "People call me a busybody,\n"
 	.string "but I can't help it.\p"
@@ -465,8 +461,7 @@ BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon_hns:
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy_hns:
 #if GERMAN
 	.string "Los, meine kleine Prinzessin! Besiege\n"
-	.string "die Trainer und mach deinen Vati\l"
-	.string "stolz! \p"
+	.string "die Trainer und mach deinen Vati stolz!\p"
 	.string "Du bist deiner Mutti sehr ähnlich. Du\n"
 	.string "bist dominant, du wirst das schaffen!$"
 #else
@@ -483,8 +478,7 @@ BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena_hns:
 	.string "gehört, dass hier ein umwerfend süßes\l"
 	.string "\p"
 	.string "Mädchen im Kampfring sein soll.\n"
-	.string "Und weißt du, auf wen ich getroffen\l"
-	.string "bin,\l"
+	.string "Und weißt du, auf wen ich getroffen bin,\l"
 	.string "als ich dann endlich hier ankam?!?\p"
 	.string "Auf ein Team stinkender, schwitzender,\n"
 	.string "primitiver und nervtötender\l"
@@ -558,8 +552,8 @@ BattleFrontier_OutsideEast_Text_GotWipedOut_hns:
 BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower_hns:
 #if GERMAN
 	.string "Er ist auf einen mordsmäßig starken\n"
-	.string "Trainer getroffen, als er sich durch\l"
-	.string "den Duellturm gekämpft hat.\p"
+	.string "Trainer getroffen, als er sich durch den\l"
+	.string "Duellturm gekämpft hat.\p"
 	.string "Und nun schau ihn dir an…\n"
 	.string "Ein Häufchen Elend…\p"
 	.string "Du musst auf alles gefasst sein, wenn\n"
@@ -591,9 +585,8 @@ BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere_hns:
 	.string "Oh, yeah, okay!\n"
 	.string "Dies ist also die Ergebnishalle!\p"
 	.string "Ich will in die Geschichte eingehen!\n"
-	.string "Als\l"
-	.string "Superchamp! Ich will meinen Namen für\l"
-	.string "die Nachwelt verewigen.$"
+	.string "Als Superchamp! Ich will meinen Namen\l"
+	.string "für die Nachwelt verewigen.$"
 #else
 	.string "Oh, yeah, okay!\n"
 	.string "So this is the RANKING HALL!\p"
@@ -617,8 +610,7 @@ BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome_hns:
 	.string "Lass uns sofort zu den Multikämpfen\n"
 	.string "gehen!\p"
 	.string "Wenn wir zusammen in der Teamlounge\n"
-	.string "sind… wird die Macht unserer Liebe\l"
-	.string "alle\l"
+	.string "sind… wird die Macht unserer Liebe alle\l"
 	.string "Hindernisse beseitigen!\p"
 	.string "Sie werden umfallen wie 1000 Domino-\n"
 	.string "steine in einer Reihe, Liebling!$"
@@ -642,8 +634,7 @@ BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers_hns:
 	.string "besondere Eigenschaften und\l"
 	.string "Fähigkeiten auszeichnen.\p"
 	.string "Dieser Scott…\p"
-	.string "Er hat diesen Ort mit Sicherheit\n"
-	.string "gebaut,\l"
+	.string "Er hat diesen Ort mit Sicherheit gebaut,\n"
 	.string "weil er etwas Höheres im Sinn hat…$"
 #else
 	.string "The BATTLE FRONTIER isn't exclusively\n"

@@ -43,8 +43,8 @@ Route2_EastBuilding_Text_GiveHM05IfSeen10Mons::
 	.string "Hallo! Erinnerst du dich?\n"
 	.string "Ich bin Prof. Eichs Assistent!\p"
 	.string "Wenn du mindestens 10 verschiedene\n"
-	.string "Pokémon gefangen hast, habe ich\l"
-	.string "ein Geschenk für dich: VM05\p"
+	.string "Pokémon gefangen hast, habe ich ein\l"
+	.string "Geschenk für dich: VM05\p"
 	.string "Also, {PLAYER}, hast du 10\n"
 	.string "unterschiedliche Pokémon gefangen?$"
 #else

@@ -291,8 +291,8 @@ Route22_Movement_CelebiPush:
 
 Route22_Text_Silver1:
 #if GERMAN
-	.string "{RIVAL}: Die Stärksten! Du hast\n"
-	.string "zu mir gesagt, wir wären die stärksten\l"
+	.string "{RIVAL}: Die Stärksten! Du hast zu mir\n"
+	.string "gesagt, wir wären die stärksten\l"
 	.string "Menschen auf der ganzen Welt!\p"
 	.string "Und jetzt lässt du das alles fallen?!?\p"
 	.string "Was soll denn jetzt aus uns werden?!?$"
@@ -326,9 +326,9 @@ Route22_Text_Silver2:
 	.string "{RIVAL}: Wo ist denn jetzt bitte\n"
 	.string "deine “Stärke”?\p"
 	.string "Du hattest so viele Leute um dich\n"
-	.string "versammelt, und trotzdem konnte\l"
-	.string "uns ein einzelnes Kind im\l"
-	.string "Alleingang besiegen!!!$"
+	.string "versammelt, und trotzdem konnte uns\l"
+	.string "ein einzelnes Kind im Alleingang\l"
+	.string "besiegen!!!$"
 #else
 	.string "{RIVAL}: What aspect of you was\n"
 	.string "number one?\p"
@@ -338,16 +338,15 @@ Route22_Text_Silver2:
 
 Route22_Text_Giovanni2:
 #if GERMAN
-	.string "Durch die vereinten Kräfte\n"
-	.string "von vielen entsteht eine neue,\l"
-	.string "noch größere Macht.\l"
+	.string "Durch die vereinten Kräfte von vielen\n"
+	.string "entsteht eine neue, noch größere\l"
+	.string "Macht.\l"
 	.string "So funktioniert ein Team…\l"
 	.string "Das ist die wahre Stärke eines Teams!\p"
 	.string "Ich konnte das Potenzial meiner vielen\n"
 	.string "Untergebenen nicht voll mobilisieren…\p"
 	.string "Aber irgendwann kommt der Tag, an dem\n"
-	.string "ich Team Rocket zum Comeback\l"
-	.string "verhelfe!$"
+	.string "ich Team Rocket zum Comeback verhelfe!$"
 #else
 	.string "GIOVANNI: Putting together the\n"
 	.string "potential of many is how you\l"

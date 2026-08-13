@@ -48,8 +48,8 @@ CopycatsHouse1F_Text_PokefanF:
 
 CopycatsHouse1F_Text_PokefanF_ReturnedPart:
 #if GERMAN
-	.string "Seit sie die Poképuppe verloren hat,\n"
-	.string "die sie vor drei Jahren von einem Jungen\l"
+	.string "Seit sie die Poképuppe verloren hat, die\n"
+	.string "sie vor drei Jahren von einem Jungen\l"
 	.string "geschenkt bekommen hatte, wurde es mit\l"
 	.string "ihrer Nachahmerei noch viel schlimmer.\p"
 	.string "Sie wurde einfach immer besser darin…$"

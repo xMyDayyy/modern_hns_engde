@@ -328,8 +328,8 @@ LilycoveCity_ContestHall_Text_TodayWonSmartnessContest:
 
 LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
 #if GERMAN
-	.string "Ich habe einige Wettbewerbe mitge-\n"
-	.string "macht, weil ich wissen wollte, wie\l"
+	.string "Ich habe einige Wettbewerbe\n"
+	.string "mitgemacht, weil ich wissen wollte, wie\l"
 	.string "das so läuft.\p"
 	.string "Wenn du an einem Coolness-Wettbewerb\n"
 	.string "teilnimmst, zählen Coole Attacken.\p"
@@ -347,8 +347,7 @@ LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
 LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks:
 #if GERMAN
 	.string "Der junge Mann, der vor kurzem hier\n"
-	.string "ge-\l"
-	.string "wonnen hat, hatte viele verschiedene\l"
+	.string "gewonnen hat, hatte viele verschiedene\l"
 	.string "{POKEBLOCK} bei sich.\p"
 	.string "Ob man gewinnt, wenn man genug dieser\n"
 	.string "Items dabei hat?$"
@@ -388,9 +387,9 @@ LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
 #if GERMAN
 	.string "Juror: Gefällt euch dieser\n"
 	.string "Wettbewerb?\p"
-	.string "Komm mit drei Freunden wieder her,\n"
-	.string "dann könnt ihr alle gemeinsam am\l"
-	.string "Wettbewerb teilnehmen.$"
+	.string "Komm mit drei Freunden wieder her, dann\n"
+	.string "könnt ihr alle gemeinsam am Wettbewerb\l"
+	.string "teilnehmen.$"
 #else
 	.string "JUDGE: Are you enjoying this CONTEST?\p"
 	.string "Come back with three friends, and\n"
@@ -400,11 +399,10 @@ LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
 LilycoveCity_ContestHall_Text_EnteredWrongContest:
 #if GERMAN
 	.string "Eieieiei…\n"
-	.string "Ich habe am falschen Wettbewerb teil-\l"
-	.string "genommen. Hach…\p"
+	.string "Ich habe am falschen Wettbewerb\l"
+	.string "teilgenommen. Hach…\p"
 	.string "Ich habe dieses starke Pokémon in\n"
-	.string "einen Klugheits-Wettbewerb\l"
-	.string "geschickt.\p"
+	.string "einen Klugheits-Wettbewerb geschickt.\p"
 	.string "Los, beeindrucke mit einem\n"
 	.string "klugen Zertrümmerer.$"
 #else
@@ -422,8 +420,8 @@ LilycoveCity_ContestHall_Text_RaisedMonToBeSmart:
 	.string "Weisheit gebraucht, um dieses Pokémon\l"
 	.string "Klug zu machen.\p"
 	.string "Damit mache ich es den jungen Spunden\n"
-	.string "nicht leicht, mein Pokémon zu über-\l"
-	.string "trumpfen.\p"
+	.string "nicht leicht, mein Pokémon zu\l"
+	.string "übertrumpfen.\p"
 	.string "Mein holdes Weib, siehst du das?$"
 #else
 	.string "I've spent many a year, and all my\n"
@@ -543,8 +541,8 @@ LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty:
 LilycoveCity_ContestHall_Text_OverdidGrooming:
 #if GERMAN
 	.string "Aaaaargh!\p"
-	.string "Ich habe mein Pokémon für diesen Wett-\n"
-	.string "bewerb sorgfältig gebürstet und\l"
+	.string "Ich habe mein Pokémon für diesen\n"
+	.string "Wettbewerb sorgfältig gebürstet und\l"
 	.string "gestriegelt.\p"
 	.string "Dabei habe ich wohl übertrieben…\n"
 	.string "Das Fell meines Pokémon ist nun ganz\l"
@@ -577,8 +575,7 @@ LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
 #if GERMAN
 	.string "Dieses hübsche Pokémon sieht genauso\n"
 	.string "aus wie ich, als ich jünger war.\p"
-	.string "Als ich das zu meinem Mann sagte, hat\n"
-	.string "er\l"
+	.string "Als ich das zu meinem Mann sagte, hat er\n"
 	.string "den Kaffee, den er trank, ausgespuckt.\p"
 	.string "\p"
 	.string "Was ist daran so lustig?$"
@@ -592,9 +589,9 @@ LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
 
 LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy:
 #if GERMAN
-	.string "Natürlich, als Frau wäre ich überglück-\n"
-	.string "lich, wenn ich den Schönheits-\l"
-	.string "wettbewerb gewinnen würde.$"
+	.string "Natürlich, als Frau wäre ich\n"
+	.string "überglücklich, wenn ich den\l"
+	.string "Schönheitswettbewerb gewinnen würde.$"
 #else
 	.string "You know, if I win at a BEAUTY\n"
 	.string "CONTEST, sure it makes me\l"
@@ -619,8 +616,7 @@ LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone:
 	.string "Du kannst nicht immer nur aufgrund von\n"
 	.string "Schönheit gewinnen.\p"
 	.string "Du musst dein Pokémon striegeln, damit\n"
-	.string "es so schön und glänzend ist wie\l"
-	.string "meines.$"
+	.string "es so schön und glänzend ist wie meines.$"
 #else
 	.string "You can't always win on just beauty\n"
 	.string "alone.\p"

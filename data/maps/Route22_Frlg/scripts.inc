@@ -299,8 +299,8 @@ Route22_Text_LateRivalIntro::
 	.string "Du besitzt auch alle Orden?\n"
 	.string "Das ist cool!\p"
 	.string "{PLAYER}, ich werde mich für die\n"
-	.string "Pokémon Liga aufwärmen, indem\l"
-	.string "ich dich besiege!\p"
+	.string "Pokémon Liga aufwärmen, indem ich dich\l"
+	.string "besiege!\p"
 	.string "Also, los geht es!$"
 #else
 	.string "{RIVAL}: What? {PLAYER}!\n"

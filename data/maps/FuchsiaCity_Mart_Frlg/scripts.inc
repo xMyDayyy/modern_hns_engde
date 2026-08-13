@@ -47,8 +47,8 @@ FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants::
 FuchsiaCity_Mart_Text_DidYouTryXSpeed::
 #if GERMAN
 	.string "Hast du schon einmal X-Tempo\n"
-	.string "ausprobiert? Dein Pokémon wird\l"
-	.string "dadurch im Kampf schneller!$"
+	.string "ausprobiert? Dein Pokémon wird dadurch\l"
+	.string "im Kampf schneller!$"
 #else
 	.string "Did you try X SPEED?\n"
 	.string "It speeds up a POKéMON in battle.$"

@@ -35,8 +35,8 @@ Route18_EventScript_Sign::
 
 Route18_Text_BirdKeeperBorisSeen:
 #if GERMAN
-	.string "Wenn du nach Pokémon suchst,\n"
-	.string "musst du ins hohe Gras gehen.\l"
+	.string "Wenn du nach Pokémon suchst, musst du\n"
+	.string "ins hohe Gras gehen.\l"
 	.string "Der Rest ergibt sich von allein!$"
 #else
 	.string "If you're looking for POKéMON,\n"

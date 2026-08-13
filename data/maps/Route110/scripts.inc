@@ -759,9 +759,9 @@ Route110_Text_KickUpARuckus:
 
 Route110_Text_MyFirstJobInAqua:
 #if GERMAN
-	.string "Das ist mein erster Job, seit ich\n"
-	.string "Team Aqua beigetreten bin. Ich bin\l"
-	.string "ganz tatterig.$"
+	.string "Das ist mein erster Job, seit ich Team\n"
+	.string "Aqua beigetreten bin. Ich bin ganz\l"
+	.string "tatterig.$"
 #else
 	.string "This is my first job after joining\n"
 	.string "TEAM AQUA. It's a little scary.$"
@@ -779,8 +779,7 @@ Route110_Text_AquaActionsBringSmiles:
 Route110_Text_MayLetsBattle:
 #if GERMAN
 	.string "Maike: Hi, {PLAYER}{KUN}, wir haben\n"
-	.string "uns ja\l"
-	.string "lange nicht gesehen!\p"
+	.string "uns ja lange nicht gesehen!\p"
 	.string "Während ich auf der Suche nach\n"
 	.string "weiteren Pokémon war, sind meine\l"
 	.string "Pokémon stärker geworden.\p"
@@ -807,8 +806,7 @@ Route110_Text_MayTakeThis:
 #if GERMAN
 	.string "Maike: {PLAYER}{KUN}, du hast auch\n"
 	.string "fleißig trainiert, nicht wahr?\p"
-	.string "Ich denke, du verdienst eine\n"
-	.string "Belohnung!\l"
+	.string "Ich denke, du verdienst eine Belohnung!\n"
 	.string "Hier, dies ist von mir für dich!$"
 #else
 	.string "MAY: {PLAYER}{KUN}, you've been busy\n"
@@ -824,8 +822,7 @@ Route110_Text_MayExplainItemfinder:
 	.string "Item versteckt ist, gibt er ein\l"
 	.string "Geräusch von sich.\p"
 	.string "Bis zum nächsten Mal, {PLAYER}{KUN}.\p"
-	.string "Es hört sich aus meinem Munde zwar\n"
-	.string "blöd\l"
+	.string "Es hört sich aus meinem Munde zwar blöd\n"
 	.string "an, aber bis dahin solltest du viel\p"
 	.string "mehr\n"
 	.string "trainiert haben.$"
@@ -864,9 +861,9 @@ Route110_Text_BrendanDefeated:
 
 Route110_Text_BrendanTakeThis:
 #if GERMAN
-	.string "Maike: {PLAYER}, du hast trainiert,\n"
-	.string "ohne dass ich etwas davon\l"
-	.string "mitbekommen habe…\p"
+	.string "Maike: {PLAYER}, du hast trainiert, ohne\n"
+	.string "dass ich etwas davon mitbekommen\l"
+	.string "habe…\p"
 	.string "Aber genug!\n"
 	.string "Hier, das ist für dich!$"
 #else
@@ -896,8 +893,8 @@ Route110_Text_BrendanExplainItemfinder:
 
 Route110_Text_RideBikeAtFullSpeed:
 #if GERMAN
-	.string "Wäre das nicht ein Spaß, mit einem\n"
-	.string "Fahr- Rad volle Pulle den Radweg\l"
+	.string "Wäre das nicht ein Spaß, mit einem Fahr-\n"
+	.string "Rad volle Pulle den Radweg\l"
 	.string "entlangzudüsen?$"
 #else
 	.string "Wouldn't it be great to ride a BIKE\n"
@@ -964,9 +961,8 @@ Route110_Text_TwoRoads:
 
 Route110_Text_WalkOnTheLowRoad:
 #if GERMAN
-	.string "Ich habe kein Rad, ich werde gemüt-\n"
-	.string "lich über die untere Straße\l"
-	.string "schlendern.$"
+	.string "Ich habe kein Rad, ich werde gemütlich\n"
+	.string "über die untere Straße schlendern.$"
 #else
 	.string "I don't have a BIKE, so I'll take\n"
 	.string "a leisurely walk on the low road.$"
@@ -977,8 +973,7 @@ Route110_Text_BikeTechniques:
 	.string "Neue Techniken zu lernen, gibt dem\n"
 	.string "Radfahren erst die richtige Würze.\p"
 	.string "Einige Orte kannst du nur erreichen,\n"
-	.string "wenn du die richtige Technik\l"
-	.string "anwendest.$"
+	.string "wenn du die richtige Technik anwendest.$"
 #else
 	.string "Learning techniques will make BIKE\n"
 	.string "riding even more fun.\p"
@@ -1017,10 +1012,8 @@ Route110_Text_ChallengeReactionBest:
 #if GERMAN
 	.string "Bravo! Eine hervorragende Leistung!\p"
 	.string "Ich glaube, dein Talent zum Radfahren\n"
-	.string "kommt tief aus deinem innersten\l"
-	.string "Herzen.\l"
-	.string "Du hast mich bis in die Seele\l"
-	.string "getroffen!$"
+	.string "kommt tief aus deinem innersten Herzen.\l"
+	.string "Du hast mich bis in die Seele getroffen!$"
 #else
 	.string "Bravo! Splendid showing!\p"
 	.string "Your love of cycling comes from deep\n"
@@ -1032,8 +1025,8 @@ Route110_Text_ChallengeReactionGood:
 #if GERMAN
 	.string "Deine Technik ist bemerkenswert.\p"
 	.string "Achte stets darauf, dass du nicht zu\n"
-	.string "schnell fährst und mit niemandem zu-\l"
-	.string "sammenstößt.$"
+	.string "schnell fährst und mit niemandem\l"
+	.string "zusammenstößt.$"
 #else
 	.string "Your technique is remarkable.\p"
 	.string "I suggest you speed up a bit while\n"
@@ -1070,8 +1063,8 @@ Route110_Text_ChallengeReactionWorst:
 	.string "… Ich bin entgeistert…\p"
 	.string "Du hast wirklich kein Talent zum\n"
 	.string "Radfahren.\p"
-	.string "Du solltest ernsthaft darüber nach-\n"
-	.string "denken, dein Rad bei Radla\l"
+	.string "Du solltest ernsthaft darüber\n"
+	.string "nachdenken, dein Rad bei Radla\l"
 	.string "zurückzugeben.$"
 #else
 	.string "…I am aghast…\p"
@@ -1115,9 +1108,8 @@ Route110_Text_AcroBikesDoNotQualify:
 	.string "Eilräder fahren, nach ihren Zu-\l"
 	.string "sammenstößen und ihrer Zeit bewertet.\l"
 	.string "\p"
-	.string "Kunsträder nehmen nicht am\n"
-	.string "Wettkampf teil. Sie sind zu einfach\l"
-	.string "zu lenken.$"
+	.string "Kunsträder nehmen nicht am Wettkampf\n"
+	.string "teil. Sie sind zu einfach zu lenken.$"
 #else
 	.string "On this CYCLING ROAD, those riding\n"
 	.string "MACH BIKES are rated for their number\l"
@@ -1186,9 +1178,8 @@ Route110_Text_MauvilleCitySign:
 Route110_Text_TrainerTipsPrlzSleep:
 #if GERMAN
 	.string "Tipps für Trainer\p"
-	.string "Der Gegner kann paralysiert oder\n"
-	.string "in Schlaf versetzt werden und ist\l"
-	.string "damit\l"
+	.string "Der Gegner kann paralysiert oder in\n"
+	.string "Schlaf versetzt werden und ist damit\l"
 	.string "wehrlos.\p"
 	.string "Das sind wichtige Techniken in einem\n"
 	.string "Pokémon-Kampf.$"
@@ -1248,8 +1239,7 @@ Route110_Text_ThereIsNoRecord:
 Route110_Text_ImagineSeeingYouHere:
 #if GERMAN
 	.string "Prof. Birk: Oh, {PLAYER}{KUN}!\n"
-	.string "Ich dachte mir schon, dass ich dich\l"
-	.string "hier\l"
+	.string "Ich dachte mir schon, dass ich dich hier\l"
 	.string "treffe!\p"
 	.string "Und wo mag {RIVAL} sein?$"
 #else
@@ -1264,8 +1254,8 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "Ihr beiden seid nicht zusammen\l"
 	.string "unterwegs.\p"
 	.string "Ich habe schon davon gehört. Dein\n"
-	.string "PokéCom ist mit dem Trainer/Ruf-\l"
-	.string "System ausgerüstet.\p"
+	.string "PokéCom ist mit dem Trainer/Ruf-System\l"
+	.string "ausgerüstet.\p"
 	.string "Dann werde ich dich in mein PokéCom-\n"
 	.string "Verzeichnis eintragen.\p"
 	.string "So kann ich deinen Pokédex beurteilen,\n"

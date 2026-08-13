@@ -46,9 +46,8 @@ SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper::
 
 SaffronCity_Mart_Text_ReviveIsCostly::
 #if GERMAN
-	.string "Beleber ist zwar teuer, aber\n"
-	.string "besiegte Pokémon werden damit\l"
-	.string "wieder fit!$"
+	.string "Beleber ist zwar teuer, aber besiegte\n"
+	.string "Pokémon werden damit wieder fit!$"
 #else
 	.string "REVIVE is costly, but it revives\n"
 	.string "fainted POKéMON!$"

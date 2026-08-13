@@ -41,9 +41,9 @@ PewterCity_Museum_1F_EventScript_Bones::
 PewterCity_Museum_1F_Text_Recptionist:
 #if GERMAN
 	.string "Willkommen!\p"
-	.string "Wir haben zurzeit einige unserer\n"
-	.string "großen Exponate an ein anderes\l"
-	.string "Museum verliehen.\p"
+	.string "Wir haben zurzeit einige unserer großen\n"
+	.string "Exponate an ein anderes Museum\l"
+	.string "verliehen.\p"
 	.string "Deshalb ist der Eintritt ausnahmsweise\n"
 	.string "für alle Leute kostenlos!\p"
 	.string "Gehe einfach hinein und sieh dich um!$"

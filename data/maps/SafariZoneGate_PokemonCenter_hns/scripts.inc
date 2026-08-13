@@ -32,9 +32,9 @@ SafariZoneGate_PokemonCenter_Text_Boy::
 
 SafariZoneGate_PokemonCenter_Text_NPC1:
 #if GERMAN
-	.string "Leute, die man ständig im Pokémon-\n"
-	.string "Center sieht, sorgen sich bestimmt sehr\l"
-	.string "um ihre Pokémon.\p"
+	.string "Leute, die man ständig im\n"
+	.string "Pokémon-Center sieht, sorgen sich\l"
+	.string "bestimmt sehr um ihre Pokémon.\p"
 	.string "Denkst du nicht auch?$"
 #else
 	.string "Those who come to a POKéMON CENTER\n"

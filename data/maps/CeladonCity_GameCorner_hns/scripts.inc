@@ -160,9 +160,8 @@ CeladonGameCorner_Text_GymGuide:
 CeladonGameCorner_Text_PokefanF:
 #if GERMAN
 	.string "Roulette…\p"
-	.string "Ich mag die Slots lieber,\n"
-	.string "da ist es leichter, die Chancen\l"
-	.string "auszurechnen.$"
+	.string "Ich mag die Slots lieber, da ist es\n"
+	.string "leichter, die Chancen auszurechnen.$"
 #else
 	.string "Roulette…\p"
 	.string "I prefer it over the slots because\n"
@@ -173,8 +172,7 @@ CeladonGameCorner_Text_PokefanF:
 CeladonGameCorner_Text_Gramps:
 #if GERMAN
 	.string "Hmmm… Die Chancen sind sicher besser\n"
-	.string "für Pikachus Linie,\l"
-	.string "aber… was tun?$"
+	.string "für Pikachus Linie, aber… was tun?$"
 #else
 	.string "Hmmm… The odds are surely\n"
 	.string "better putting it all on blue,\l"

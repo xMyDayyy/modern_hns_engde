@@ -83,8 +83,7 @@ FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
 #if GERMAN
 	.string "Oh! Das ist es! Das ist ehrlich und\n"
 	.string "wahrhaftig eine Herzschuppe!\p"
-	.string "Lass mich raten… Ich soll einem\n"
-	.string "Pokémon\l"
+	.string "Lass mich raten… Ich soll einem Pokémon\n"
 	.string "eine neue Attacke beibringen?!?$"
 #else
 	.string "Oh! That's it! That's an honest to\n"

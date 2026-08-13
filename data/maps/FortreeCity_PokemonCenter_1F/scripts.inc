@@ -31,8 +31,8 @@ FortreeCity_PokemonCenter_1F_Text_GoToSafariZone:
 #if GERMAN
 	.string "Na, Kindchen, arbeitest du an einem\n"
 	.string "Pokédex?\p"
-	.string "Hmm… Ich an deiner Stelle würde mal\n"
-	.string "die Safari-Zone auf der Route 121\l"
+	.string "Hmm… Ich an deiner Stelle würde mal die\n"
+	.string "Safari-Zone auf der Route 121\l"
 	.string "besuchen.$"
 #else
 	.string "Listen, kid, are you working\n"
@@ -51,8 +51,7 @@ FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 	.string "speichert und miteinander verglichen.\l"
 	.string "\p"
 	.string "Ich weiß zwar nicht, wie das passiert,\n"
-	.string "aber es ist einfach irre. Und\l"
-	.string "aufregend!$"
+	.string "aber es ist einfach irre. Und aufregend!$"
 #else
 	.string "Have you done anything at\n"
 	.string "the RECORD CORNER?\p"

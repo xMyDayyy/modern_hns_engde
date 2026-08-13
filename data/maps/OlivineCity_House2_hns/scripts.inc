@@ -32,9 +32,9 @@ OlivineCity_Text_PunishmentBro:
 
 OlivineCity_Text_PunishmentBoy:
 #if GERMAN
-	.string "Wenn ich ungezogen bin, macht\n"
-	.string "mir mein Papa immer sofort mit\l"
-	.string "gruseligen Geschichten Angst…$"
+	.string "Wenn ich ungezogen bin, macht mir mein\n"
+	.string "Papa immer sofort mit gruseligen\l"
+	.string "Geschichten Angst…$"
 #else
 	.string "Whenever I get in trouble,\n"
 	.string "big bro always scares me.$"

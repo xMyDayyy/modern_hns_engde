@@ -40,10 +40,8 @@ IcePath_B1F_EventScript_Sign::
 
 IcePath_B1F_Text_Sign:
 #if GERMAN
-	.string "Achtung Dünnes Eis\n"
-	.string "Benutze Fahrrad\l"
-	.string "Gangschaltung\l"
-	.string "Mit …\l"
+	.string "Achtung Dünnes Eis Benutze Fahrrad\n"
+	.string "Gangschaltung Mit …\l"
 	.string "Das Schild ist verwischt…$"
 #else
 	.string "DANGER CRACKED ICE\n"

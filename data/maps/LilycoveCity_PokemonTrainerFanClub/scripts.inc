@@ -720,8 +720,8 @@ LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly:
 
 LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly:
 #if GERMAN
-	.string "Egal, was die anderen sagen, der Arena-\n"
-	.string "leiter von Faustauhaven, Kamillo,\l"
+	.string "Egal, was die anderen sagen, der\n"
+	.string "Arenaleiter von Faustauhaven, Kamillo,\l"
 	.string "ist mein Favorit!$"
 #else
 	.string "Whatever anyone says, my favorite\n"
@@ -766,8 +766,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
 	.string "Auch wenn die Leute sagen, dass du\n"
 	.string "stark bist…\p"
 	.string "Du hast noch einen weiten Weg vor dir,\n"
-	.string "wenn du so werden willst wie dein\l"
-	.string "Vater.$"
+	.string "wenn du so werden willst wie dein Vater.$"
 #else
 	.string "NORMAN battled with more power,\n"
 	.string "charisma, and showmanship than you.\p"
@@ -979,8 +978,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne:
 LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer:
 #if GERMAN
 	.string "Wow, du bist wirklich sehr stark.\n"
-	.string "Vielleicht sogar stärker als\l"
-	.string "{STR_VAR_1}.\p"
+	.string "Vielleicht sogar stärker als {STR_VAR_1}.\p"
 	.string "Aber {STR_VAR_1} braucht mich.\p"
 	.string "Wenn ich {STR_VAR_1} nicht zujuble,\n"
 	.string "wer wird es dann tun?$"
@@ -1019,13 +1017,12 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation:
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout:
 #if GERMAN
-	.string "Unter den wirklich heißen Trainern\n"
-	.string "hebt sich {STR_VAR_1} besonders\l"
-	.string "hervor. \p"
+	.string "Unter den wirklich heißen Trainern hebt\n"
+	.string "sich {STR_VAR_1} besonders hervor.\p"
 	.string "Diese Stärke. Das ist nicht normal.\p"
 	.string "Du kämpfst auch sehr gut, aber du\n"
-	.string "gehörst nicht in die gleiche Klasse\l"
-	.string "wie {STR_VAR_1}.$"
+	.string "gehörst nicht in die gleiche Klasse wie\l"
+	.string "{STR_VAR_1}.$"
 #else
 	.string "Among the recently hot TRAINERS,\n"
 	.string "{STR_VAR_1} is the standout.\p"

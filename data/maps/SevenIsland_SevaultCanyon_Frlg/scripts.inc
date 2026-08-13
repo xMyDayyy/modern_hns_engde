@@ -53,11 +53,10 @@ SevenIsland_SevaultCanyon_Text_EvanDefeat::
 SevenIsland_SevaultCanyon_Text_EvanPostBattle::
 #if GERMAN
 	.string "Häufig sieht man Trainer mit\n"
-	.string "wunderbaren Pokémon, mit denen\l"
-	.string "sie nicht richtig umgehen können.\p"
-	.string "Ehe sie Pokémon trainieren, sollten\n"
-	.string "sie selbst erst einmal\l"
-	.string "erwachsen werden.$"
+	.string "wunderbaren Pokémon, mit denen sie\l"
+	.string "nicht richtig umgehen können.\p"
+	.string "Ehe sie Pokémon trainieren, sollten sie\n"
+	.string "selbst erst einmal erwachsen werden.$"
 #else
 	.string "You see them every so often,\n"
 	.string "TRAINERS with awesome POKéMON\l"
@@ -68,9 +67,8 @@ SevenIsland_SevaultCanyon_Text_EvanPostBattle::
 
 SevenIsland_SevaultCanyon_Text_JacksonIntro::
 #if GERMAN
-	.string "Ich arbeite, um die Umwelt zu\n"
-	.string "schützen. Im Gegenzug\l"
-	.string "beschützt die Umwelt mich!$"
+	.string "Ich arbeite, um die Umwelt zu schützen.\n"
+	.string "Im Gegenzug beschützt die Umwelt mich!$"
 #else
 	.string "I work to protect the environment.\n"
 	.string "In turn, nature protects me!$"
@@ -87,9 +85,9 @@ SevenIsland_SevaultCanyon_Text_JacksonDefeat::
 
 SevenIsland_SevaultCanyon_Text_JacksonPostBattle::
 #if GERMAN
-	.string "Von den Sternen aus betrachtet,\n"
-	.string "sieht unser Planet aus wie ein\l"
-	.string "Tropfen Wasser.\p"
+	.string "Von den Sternen aus betrachtet, sieht\n"
+	.string "unser Planet aus wie ein Tropfen\l"
+	.string "Wasser.\p"
 	.string "Aber wir müssen diesen Wasser-\n"
 	.string "tropfen für alle bewahren.$"
 #else
@@ -139,8 +137,7 @@ SevenIsland_SevaultCanyon_Text_LeroyIntro::
 SevenIsland_SevaultCanyon_Text_LeroyDefeat::
 #if GERMAN
 	.string "Ich wusste es!\n"
-	.string "Du bist genauso stark,\l"
-	.string "wie ich dachte!$"
+	.string "Du bist genauso stark, wie ich dachte!$"
 #else
 	.string "I knew it!\n"
 	.string "You're as tough as I thought!$"
@@ -159,11 +156,9 @@ SevenIsland_SevaultCanyon_Text_LeroyPostBattle::
 
 SevenIsland_SevaultCanyon_Text_MichelleIntro::
 #if GERMAN
-	.string "Mir wurde die bestmögliche Er-\n"
-	.string "ziehung zuteil, damit ich so\l"
-	.string "stark werde.\l"
-	.string "Ich möchte gegen niemanden\l"
-	.string "verlieren!$"
+	.string "Mir wurde die bestmögliche Erziehung\n"
+	.string "zuteil, damit ich so stark werde.\l"
+	.string "Ich möchte gegen niemanden verlieren!$"
 #else
 	.string "I was given the best possible\n"
 	.string "education to become this strong.\p"
@@ -172,9 +167,8 @@ SevenIsland_SevaultCanyon_Text_MichelleIntro::
 
 SevenIsland_SevaultCanyon_Text_MichelleDefeat::
 #if GERMAN
-	.string "Danke! Ich fühle mich durch\n"
-	.string "die Niederlage gegen dich\l"
-	.string "so befreit!$"
+	.string "Danke! Ich fühle mich durch die\n"
+	.string "Niederlage gegen dich so befreit!$"
 #else
 	.string "Thank you. I feel like I've been\n"
 	.string "set free by losing to you.$"
@@ -265,9 +259,9 @@ SevenIsland_SevaultCanyon_Text_NyaPostBattle::
 
 SevenIsland_SevaultCanyon_Text_NyaNotEnoughMons::
 #if GERMAN
-	.string "Grit: Entschuldigung, aber trittst\n"
-	.string "du in einem Zwei-gegen-Zwei-Kampf\l"
-	.string "gegen uns an?$"
+	.string "Grit: Entschuldigung, aber trittst du in\n"
+	.string "einem Zwei-gegen-Zwei-Kampf gegen uns\l"
+	.string "an?$"
 #else
 	.string "NYA: I'm sorry, but may we battle\n"
 	.string "in two-on-two style?$"
@@ -286,12 +280,11 @@ SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly::
 #if GERMAN
 	.string "Für sich alleine trainieren ist mit\n"
 	.string "Sicherheit keine schlechte Idee.\p"
-	.string "Aber mit einem Partner nach\n"
-	.string "den Sternen zu greifen, ist\l"
-	.string "auch in Ordnung.\l"
+	.string "Aber mit einem Partner nach den Sternen\n"
+	.string "zu greifen, ist auch in Ordnung.\l"
 	.string "Auch Bruno…\l"
-	.string "Er hat zuvor mit einem Kumpel\l"
-	.string "namens Kamillo trainiert.$"
+	.string "Er hat zuvor mit einem Kumpel namens\l"
+	.string "Kamillo trainiert.$"
 #else
 	.string "Training by oneself is certainly\n"
 	.string "not a bad thing.\p"

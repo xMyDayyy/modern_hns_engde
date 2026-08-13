@@ -43,8 +43,8 @@ SixIsland_RuinValley_EventScript_IgnoreDottedHoleDoor::
 
 SixIsland_RuinValley_Text_CantFigureOutHowToGetInside::
 #if GERMAN
-	.string "Ich bin nicht in der Lage, heraus-\n"
-	.string "zufinden, wie ich hineinkommen\l"
+	.string "Ich bin nicht in der Lage,\n"
+	.string "herauszufinden, wie ich hineinkommen\l"
 	.string "soll.$"
 #else
 	.string "I can't figure out how I'm supposed\n"
@@ -81,8 +81,7 @@ SixIsland_RuinValley_Text_LeftDoorAlone::
 SixIsland_RuinValley_Text_SeveralDotsOnTheDoor::
 #if GERMAN
 	.string "Bei näherer Betrachtung sieht man,\n"
-	.string "dass mehrere Punkte auf der\l"
-	.string "Tür sind…$"
+	.string "dass mehrere Punkte auf der Tür sind…$"
 #else
 	.string "On closer inspection, there are\n"
 	.string "several dots on the door…$"
@@ -98,8 +97,7 @@ SixIsland_RuinValley_Text_DoorIsOpen::
 SixIsland_RuinValley_Text_StanlyIntro::
 #if GERMAN
 	.string "Es scheint, als ob es noch viele\n"
-	.string "ungelöste Rätsel in dieser\l"
-	.string "Welt gibt.$"
+	.string "ungelöste Rätsel in dieser Welt gibt.$"
 #else
 	.string "There appear to be many secrets\n"
 	.string "still unsolved in this world.$"
@@ -114,9 +112,9 @@ SixIsland_RuinValley_Text_StanlyDefeat::
 
 SixIsland_RuinValley_Text_StanlyPostBattle::
 #if GERMAN
-	.string "Ich rate dir, eines Tages auch\n"
-	.string "über die Rätsel und Geheimnisse\l"
-	.string "unserer Welt nachzudenken.$"
+	.string "Ich rate dir, eines Tages auch über die\n"
+	.string "Rätsel und Geheimnisse unserer Welt\l"
+	.string "nachzudenken.$"
 #else
 	.string "I suggest to you that you, too,\n"
 	.string "give a thought to the secrets and\l"
@@ -134,9 +132,9 @@ SixIsland_RuinValley_Text_FosterIntro::
 
 SixIsland_RuinValley_Text_FosterDefeat::
 #if GERMAN
-	.string "Es ist schon so lange her, dass\n"
-	.string "ich gekämpft habe. Meine\l"
-	.string "Instinkte sind schwach.$"
+	.string "Es ist schon so lange her, dass ich\n"
+	.string "gekämpft habe. Meine Instinkte sind\l"
+	.string "schwach.$"
 #else
 	.string "It's been so long since I battled,\n"
 	.string "my instincts are off.$"
@@ -179,8 +177,7 @@ SixIsland_RuinValley_Text_LarryPostBattle::
 #if GERMAN
 	.string "Die Ruinen dort drüben…\p"
 	.string "Ich hatte noch nicht das Glück,\n"
-	.string "herauszufinden, wie man hinein-\l"
-	.string "kommt.$"
+	.string "herauszufinden, wie man hineinkommt.$"
 #else
 	.string "Those ruins over there…\p"
 	.string "I haven't had any luck in finding\n"
@@ -231,8 +228,8 @@ SixIsland_RuinValley_Text_HectorDefeat::
 SixIsland_RuinValley_Text_HectorPostBattle::
 #if GERMAN
 	.string "Die Türe zu den Ruinen…\n"
-	.string "Sie ist mit diesen merkwürdigen\l"
-	.string "Mustern übersät.\p"
+	.string "Sie ist mit diesen merkwürdigen Mustern\l"
+	.string "übersät.\p"
 	.string "Ich weiß allerdings nicht, was sie\n"
 	.string "bedeuten.$"
 #else

@@ -132,8 +132,8 @@ GoldenrodCity_NameRatersHouse_Text_PleasedToRateMonNickname:
 GoldenrodCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
 #if GERMAN
 	.string "Mal sehen…\n"
-	.string "Von welchem Pokémon darf\l"
-	.string "ich den Spitznamen bewerten?$"
+	.string "Von welchem Pokémon darf ich den\l"
+	.string "Spitznamen bewerten?$"
 #else
 	.string "Which POKéMON's nickname should\n"
 	.string "I critique?$"

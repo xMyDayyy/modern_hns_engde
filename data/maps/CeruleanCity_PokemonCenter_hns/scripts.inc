@@ -31,9 +31,9 @@ CeruleanCity_PokemonCenter1F_Text_SuperNerd:
 CeruleanCity_PokemonCenter1F_Text_GymGuide:
 #if GERMAN
 	.string "Der Magnetzug reist mit einer\n"
-	.string "Geschwindigkeit von 550 km/h in\l"
-	.string "null Komma nichts zwischen Kanto\l"
-	.string "und Johto hin und her.\p"
+	.string "Geschwindigkeit von 550 km/h in null\l"
+	.string "Komma nichts zwischen Kanto und Johto\l"
+	.string "hin und her.\p"
 	.string "So kommt man jederzeit ohne\n"
 	.string "Probleme nach Johto.$"
 #else

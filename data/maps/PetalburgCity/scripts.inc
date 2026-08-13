@@ -58,10 +58,9 @@ PetalburgCity_Text_WallyGymClosed:
 	.string "einfach so hinterher!\p"
 	.string "Du musst ein richtig guter\n"
 	.string "Trainer sein…\p"
-	.string "Ich… ich hätte eine Bitte: Papa\n"
-	.string "hat mir ein Pokémon gegeben, damit\l"
-	.string "ich im hohen Gras selbst eins\l"
-	.string "fangen kann.\p"
+	.string "Ich… ich hätte eine Bitte: Papa hat mir\n"
+	.string "ein Pokémon gegeben, damit ich im hohen\l"
+	.string "Gras selbst eins fangen kann.\p"
 	.string "Kannst du mir zeigen,\n"
 	.string "wie man das macht?$"
 #else
@@ -113,9 +112,9 @@ PetalburgCity_Text_WallyThanksGoesHome:
 #if GERMAN
 	.string "Heiko: Danke! Das vergesse\n"
 	.string "ich dir nie!\p"
-	.string "Ich laufe gleich zu Papa und\n"
-	.string "zeige es ihm! Eines Tages werde\l"
-	.string "ich ein Trainer wie du!$"
+	.string "Ich laufe gleich zu Papa und zeige es\n"
+	.string "ihm! Eines Tages werde ich ein Trainer\l"
+	.string "wie du!$"
 #else
 	.string "WALLY: Thank you! I'll never\n"
 	.string "forget this!\p"
@@ -843,8 +842,8 @@ PetalburgCity_Text_FullPartyExplanation:
 PetalburgCity_Text_GymSign:
 #if GERMAN
 	.string "Pokémon Arena von Blütenburg City\n"
-	.string "Leiter: Norman\l"
-	.string "“Ein Mann, der nach Stärke strebt!”$"
+	.string "Leiter: Norman “Ein Mann, der nach\l"
+	.string "Stärke strebt!”$"
 #else
 	.string "PETALBURG CITY POKéMON GYM\n"
 	.string "LEADER: NORMAN\l"
@@ -853,9 +852,8 @@ PetalburgCity_Text_GymSign:
 
 PetalburgCity_Text_CitySign:
 #if GERMAN
-	.string "Blütenburg City\n"
-	.string "“Wo Menschen Hand in Hand\l"
-	.string "mit der Natur gehen.”$"
+	.string "Blütenburg City “Wo Menschen Hand in\n"
+	.string "Hand mit der Natur gehen.”$"
 #else
 	.string "PETALBURG CITY\n"
 	.string "“Where people mingle with nature.”$"
@@ -884,9 +882,9 @@ PetalburgCity_Text_WellMaybeNot:
 #if GERMAN
 	.string "… … … … …\n"
 	.string "…\p"
-	.string "Nein, warte. So, wie deine Pokémon\n"
-	.string "dich ansehen… die sind\l"
-	.string "außergewöhnlich gut trainiert.\p"
+	.string "Nein, warte. So, wie deine Pokémon dich\n"
+	.string "ansehen… die sind außergewöhnlich gut\l"
+	.string "trainiert.\p"
 	.string "Du bist nicht von hier,\n"
 	.string "stimmt's?$"
 #else
@@ -900,8 +898,7 @@ PetalburgCity_Text_WellMaybeNot:
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
 #if GERMAN
-	.string "Ich reise durch das Land, immer auf\n"
-	.string "der\l"
+	.string "Ich reise durch das Land, immer auf der\n"
 	.string "Suche nach talentierten Trainern.\p"
 	.string "Tut mir Leid, wenn ich dich\n"
 	.string "aufgehalten habe.$"

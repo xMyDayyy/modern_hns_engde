@@ -68,9 +68,8 @@ FallarborTown_Text_RegionKnownForMeteors:
 #if GERMAN
 	.string "Diese Region ist schon seit Urzeiten\n"
 	.string "für ihre Meteoritenschauer bekannt.\p"
-	.string "Man sagt, Meteorfälle sei durch\n"
-	.string "den Aufprall eines Meteoriten\l"
-	.string "entstanden.$"
+	.string "Man sagt, Meteorfälle sei durch den\n"
+	.string "Aufprall eines Meteoriten entstanden.$"
 #else
 	.string "This region's been known for meteors\n"
 	.string "since the olden days.\p"
@@ -98,12 +97,12 @@ FallarborTown_Text_Azurill:
 
 FallarborTown_Text_HaveYouChallengedFlannery:
 #if GERMAN
-	.string "Hast du schon Flavia, die Leiterin\n"
-	.string "der Arena von Bad Lavastadt,\l"
+	.string "Hast du schon Flavia, die Leiterin der\n"
+	.string "Arena von Bad Lavastadt,\l"
 	.string "herausgefordert?\p"
 	.string "Ihr Großvater ist sehr berühmt.\n"
-	.string "Er war einer der Top Vier in der\l"
-	.string "Pokémon Liga.\p"
+	.string "Er war einer der Top Vier in der Pokémon\l"
+	.string "Liga.\p"
 	.string "Es würde mich gar nicht wundern, wenn\n"
 	.string "Flavia ebenfalls ein großer Trainer\l"
 	.string "wird.$"
@@ -120,9 +119,8 @@ FallarborTown_Text_HaveYouChallengedFlannery:
 
 FallarborTown_Text_BattleTentSign:
 #if GERMAN
-	.string "Kampfcamp Laubwechselfeld\n"
-	.string "“Mögen Sich Die Besten Teams Hier\l"
-	.string "Treffen!”$"
+	.string "Kampfcamp Laubwechselfeld “Mögen Sich\n"
+	.string "Die Besten Teams Hier Treffen!”$"
 #else
 	.string "BATTLE TENT FALLARBOR SITE\n"
 	.string "“May the Greatest Teams Gather!”$"
@@ -130,9 +128,8 @@ FallarborTown_Text_BattleTentSign:
 
 FallarborTown_Text_TownSign:
 #if GERMAN
-	.string "Laubwechselfeld\n"
-	.string "“Eine Gemeinschaft von Farmern mit\l"
-	.string "kleinen Gärten.”$"
+	.string "Laubwechselfeld “Eine Gemeinschaft\n"
+	.string "von Farmern mit kleinen Gärten.”$"
 #else
 	.string "FALLARBOR TOWN\n"
 	.string "“A farm community with small gardens.”$"

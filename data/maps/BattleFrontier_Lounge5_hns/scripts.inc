@@ -105,8 +105,7 @@ BattleFrontier_Lounge5_Text_NatureGirlAttackHighSupportLow_hns::
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighAttackLow_hns::
 #if GERMAN
 	.string "Hmhm…\p"
-	.string "Dieses hier sagt, es passt auf\n"
-	.string "sich auf!\l"
+	.string "Dieses hier sagt, es passt auf sich auf!\n"
 	.string "Aber wenn es genug Wehwehchen hat,\l"
 	.string "schlägt es zurück!$"
 #else
@@ -119,8 +118,7 @@ BattleFrontier_Lounge5_Text_NatureGirlDefenseHighAttackLow_hns::
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighDefenseLow_hns::
 #if GERMAN
 	.string "Hmhm…\p"
-	.string "Dieses hier sagt, es passt auf\n"
-	.string "sich auf!\l"
+	.string "Dieses hier sagt, es passt auf sich auf!\n"
 	.string "Es macht sich Sorgen um sich selbst,\l"
 	.string "egal wie viele Wehwehchen es hat!$"
 #else
@@ -133,8 +131,7 @@ BattleFrontier_Lounge5_Text_NatureGirlDefenseHighDefenseLow_hns::
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighSupportLow_hns::
 #if GERMAN
 	.string "Hmhm…\p"
-	.string "Dieses hier sagt, es passt auf\n"
-	.string "sich auf!\l"
+	.string "Dieses hier sagt, es passt auf sich auf!\n"
 	.string "Aber wenn es genug Wehwehchen hat,\l"
 	.string "wird es heimtückisch!$"
 #else
@@ -177,8 +174,8 @@ BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow_hns::
 	.string "Hmhm…\p"
 	.string "Dieses hier sagt, es ist gern\n"
 	.string "heimtückisch!\l"
-	.string "Es ist auch mit vielen Wehwehchen\l"
-	.string "noch heimtückisch!$"
+	.string "Es ist auch mit vielen Wehwehchen noch\l"
+	.string "heimtückisch!$"
 #else
 	.string "Hmhm…\p"
 	.string "This one says it likes to be sneaky!\n"

@@ -201,8 +201,7 @@ LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale:
 #if GERMAN
 	.string "Ja! Ich habe schon lange auf diesen\n"
 	.string "Ausverkauf gewartet.\p"
-	.string "Hier gibt es Items, die findest du\n"
-	.string "sonst\l"
+	.string "Hier gibt es Items, die findest du sonst\n"
 	.string "nirgends. Ich decke mich damit ein!$"
 #else
 	.string "Yes! I've been waiting a long time for\n"

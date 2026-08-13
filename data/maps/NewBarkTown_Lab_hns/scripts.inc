@@ -667,11 +667,9 @@ NewBarkTown_Lab_Text_ElmIntro:
 	.string "Ich forsche gerade an neuen Pokémon.\p"
 	.string "Kannst du mir helfen, {PLAYER}?\p"
 	.string "Schau…\p"
-	.string "Ich schreibe eine Arbeit,\n"
-	.string "die ich auf einer Konferenz\l"
-	.string "vorstellen will.\p"
-	.string "Doch es gibt einige\n"
-	.string "Dinge, die ich noch\l"
+	.string "Ich schreibe eine Arbeit, die ich auf\n"
+	.string "einer Konferenz vorstellen will.\p"
+	.string "Doch es gibt einige Dinge, die ich noch\n"
 	.string "nicht ganz verstehe.\p"
 	.string "Also! Bitte zieh ein Pokémon auf,\n"
 	.string "das ich kürzlich gefangen habe.$"
@@ -712,9 +710,9 @@ NewBarkTown_Lab_Text_ElmRefused:
 
 NewBarkTown_Lab_Text_ElmResearchAmbitions:
 #if GERMAN
-	.string "Wenn ich meine Ergebnisse habe,\n"
-	.string "werden wir mehr über die\l"
-	.string "Rätsel der Pokémon erfahren.\p"
+	.string "Wenn ich meine Ergebnisse habe, werden\n"
+	.string "wir mehr über die Rätsel der Pokémon\l"
+	.string "erfahren.\p"
 	.string "Du kannst dich darauf verlassen!$"
 #else
 	.string "When I announce my findings,\n"
@@ -744,8 +742,8 @@ NewBarkTown_Lab_Text_ElmMissionFromMrPokemon:
 	.string "Bekannten namens Mr. Pokémon.\p"
 	.string "Er ist immer gleich völlig aus dem\n"
 	.string "Häuschen, wenn er meint, einen\l"
-	.string "besonders seltenen Fund gemacht\l"
-	.string "zu haben.\p"
+	.string "besonders seltenen Fund gemacht zu\l"
+	.string "haben.\p"
 	.string "Gerade eben hat er mir wieder eine\n"
 	.string "seiner E-Mails geschickt, in der er mir\l"
 	.string "versichert, dieses eine Mal wirklich\l"
@@ -863,9 +861,8 @@ NewBarkTown_Lab_Text_Nickname:
 
 NewBarkTown_Lab_Text_ElmDirections1:
 #if GERMAN
-	.string "Mr. Pokémon wohnt etwas\n"
-	.string "hinter Rosalia City,\l"
-	.string "der nächsten Stadt.\p"
+	.string "Mr. Pokémon wohnt etwas hinter Rosalia\n"
+	.string "City, der nächsten Stadt.\p"
 	.string "Du kannst es kaum verfehlen.\n"
 	.string "Aber sicher ist sicher.\p"
 	.string "Du hast meine Nummer.\n"
@@ -895,9 +892,8 @@ NewBarkTown_Lab_Text_ElmDirections2:
 #if GERMAN
 	.string "Wenn ein wildes Pokémon\n"
 	.string "erscheint, lass deines kämpfen!\p"
-	.string "Wenn es verletzt ist, heile es\n"
-	.string "an der Maschine links oder im\l"
-	.string "Pokécenter.\p"
+	.string "Wenn es verletzt ist, heile es an der\n"
+	.string "Maschine links oder im Pokécenter.\p"
 	.string "Ich zähle auf dich!$"
 #else
 	.string "If a wild POKéMON appears, let\n"
@@ -945,9 +941,9 @@ NewBarkTown_Lab_Text_ElmAfterTheft1:
 #if GERMAN
 	.string "Lind: Oh, {PLAYER}… hier war ganz\n"
 	.string "schön was los, sage ich dir!\p"
-	.string "Aber warum erzählst du mir nicht,\n"
-	.string "was es mit Mr. Pokémons großem\l"
-	.string "Fund auf sich hatte?$"
+	.string "Aber warum erzählst du mir nicht, was es\n"
+	.string "mit Mr. Pokémons großem Fund auf sich\l"
+	.string "hatte?$"
 #else
 	.string "ELM: {PLAYER}, this is terrible…\p"
 	.string "Oh, yes, what was MR. POKéMON's\n"
@@ -1016,9 +1012,9 @@ NewBarkTown_Lab_Text_ElmAfterTheft4:
 
 NewBarkTown_Lab_Text_ElmStudyingEgg:
 #if GERMAN
-	.string "Lind: Gib nicht auf! Ich melde mich\n"
-	.string "bei dir, sobald ich etwas über dieses\l"
-	.string "Ei herausgefunden habe!$"
+	.string "Lind: Gib nicht auf! Ich melde mich bei\n"
+	.string "dir, sobald ich etwas über dieses Ei\l"
+	.string "herausgefunden habe!$"
 #else
 	.string "ELM: Don't give up!\n"
 	.string "I'll call if I learn anything\l"
@@ -1029,9 +1025,9 @@ NewBarkTown_Lab_Text_ElmAideHasEgg:
 #if GERMAN
 	.string "Lind: {PLAYER}? Hast du meinen\n"
 	.string "Assistenten getroffen?\p"
-	.string "Er hätte dich mit dem Ei\n"
-	.string "im Pokémon-Center von Viola\l"
-	.string "City treffen sollen.\p"
+	.string "Er hätte dich mit dem Ei im\n"
+	.string "Pokémon-Center von Viola City treffen\l"
+	.string "sollen.\p"
 	.string "Du hast ihn wohl knapp verpasst.\p"
 	.string "Versuch es dort noch einmal.$"
 #else
@@ -1095,9 +1091,8 @@ NewBarkTown_Lab_Text_ShowTogepi3:
 
 NewBarkTown_Lab_Text_ElmGiveEverstone1:
 #if GERMAN
-	.string "Danke, {PLAYER}! Du hilfst uns\n"
-	.string "die Geheimnisse der Pokémon\l"
-	.string "zu lüften!\p"
+	.string "Danke, {PLAYER}! Du hilfst uns die\n"
+	.string "Geheimnisse der Pokémon zu lüften!\p"
 	.string "Nimm dies als Dankeschön.$"
 #else
 	.string "Thanks, {PLAYER}! You're helping\n"
@@ -1189,15 +1184,14 @@ NewBarkTown_Lab_Text_ElmGiveMasterBall2:
 
 NewBarkTown_Lab_Text_KimonoGirls:
 #if GERMAN
-	.string "Die Kimono-Girls sagten, sie\n"
-	.string "würden im Tanztheater von\l"
-	.string "Teak City auf dich warten!\p"
+	.string "Die Kimono-Girls sagten, sie würden im\n"
+	.string "Tanztheater von Teak City auf dich\l"
+	.string "warten!\p"
 	.string "Ich weiß, dass du jede Menge\n"
-	.string "durchgemacht hast, seit ich dir\l"
-	.string "dieses Ei anvertraut habe, aber\l"
-	.string "ich hoffe schwer, dass du nach\l"
-	.string "all diesen Mühen auch bis zum\l"
-	.string "Schluss durchhältst!$"
+	.string "durchgemacht hast, seit ich dir dieses\l"
+	.string "Ei anvertraut habe, aber ich hoffe\l"
+	.string "schwer, dass du nach all diesen Mühen\l"
+	.string "auch bis zum Schluss durchhältst!$"
 #else
 	.string "By the way...\n"
 	.string "A group of beautiful KIMONO\l"
@@ -1233,9 +1227,9 @@ NewBarkTown_Lab_Text_League:
 	.string "Mach dich nun also auf den Weg\n"
 	.string "zum Indigo-Plateau!\p"
 	.string "Weißt du, wo das ist?\p"
-	.string "Nimm von hier aus Route 27, bis du\n"
-	.string "auf Route 26 gelangst. Du musst\l"
-	.string "immer geradeaus in Richtung Norden!$"
+	.string "Nimm von hier aus Route 27, bis du auf\n"
+	.string "Route 26 gelangst. Du musst immer\l"
+	.string "geradeaus in Richtung Norden!$"
 #else
 	.string "PROF.ELM: Hahaha...\n"
 	.string "Good job!\p"
@@ -1340,8 +1334,8 @@ NewBarkTown_Lab_Text_AideTheftTestimony:
 #if GERMAN
 	.string "Wir haben ein schrecklich lautes\n"
 	.string "Geräusch von draußen gehört, doch\l"
-	.string "während wir mit dem Professor nach\l"
-	.string "dem Rechten gesehen haben, hat\l"
+	.string "während wir mit dem Professor nach dem\l"
+	.string "Rechten gesehen haben, hat\l"
 	.string "irgendjemand ein Pokémon gestohlen…\p"
 	.string "…Seufz… ich frage mich, wie es dem\n"
 	.string "gestohlenen Pokémon jetzt wohl geht…\p"
@@ -1436,9 +1430,9 @@ NewBarkTown_Lab_Text_Elm_CallMe:
 #if GERMAN
 	.string "Ah, {PLAYER}!\p"
 	.string "Wie läuft’s mit dem Pokédex?\p"
-	.string "Ich bin gerade beschäftigt, aber\n"
-	.string "ruf mich mal an, dann kann ich\l"
-	.string "deinen Fortschritt prüfen!$"
+	.string "Ich bin gerade beschäftigt, aber ruf\n"
+	.string "mich mal an, dann kann ich deinen\l"
+	.string "Fortschritt prüfen!$"
 #else
 	.string "Ah, {PLAYER}!\p"
 	.string "How's your POKéDEX coming along?\n"

@@ -98,8 +98,8 @@ CeladonMansion2F_Text_LilDill:
 
 CeladonMansion2F_Text_InfiniteBacon:
 #if GERMAN
-	.string "Wir arbeiten daran, dieses Spiel in\n"
-	.string "der PokéEmerald-Erweiterung\l"
+	.string "Wir arbeiten daran, dieses Spiel in der\n"
+	.string "PokéEmerald-Erweiterung\l"
 	.string "wiederaufzubauen!$"
 #else
 	.string "We're working to rebuild this game\n"
@@ -109,9 +109,8 @@ CeladonMansion2F_Text_InfiniteBacon:
 CeladonMansion2F_Text_TixoRebel:
 #if GERMAN
 	.string "Hast du schon von dem Eierbug gehört?\n"
-	.string "Es war ein Fehler aus dem Playtest,\l"
-	.string "der Pokémon zufällig in Eier\l"
-	.string "verwandelte!\l"
+	.string "Es war ein Fehler aus dem Playtest, der\l"
+	.string "Pokémon zufällig in Eier verwandelte!\l"
 	.string "Ich habe die Lösung dafür entwickelt!$"
 #else
 	.string "Have you heard of THE EGGENING?\n"
@@ -139,12 +138,11 @@ CeladonMansion2F_Text_Phant:
 
 CeladonMansion2F_Text_Exclsior:
 #if GERMAN
-	.string "Ich habe die einzigartigen Surf-\n"
-	.string "Sprites\l"
-	.string "für jedes Pokémon implementiert!\p"
-	.string "Da das Projekt Open Source ist,\n"
-	.string "kannst auch du eigene Features\l"
-	.string "hinzufügen!$"
+	.string "Ich habe die einzigartigen\n"
+	.string "Surf-Sprites für jedes Pokémon\l"
+	.string "implementiert!\p"
+	.string "Da das Projekt Open Source ist, kannst\n"
+	.string "auch du eigene Features hinzufügen!$"
 #else
 	.string "I implemented the unique surfing\n"
 	.string "surfing sprites for each POKéMON!\p"
@@ -155,15 +153,14 @@ CeladonMansion2F_Text_Exclsior:
 CeladonMansion2F_Text_DaniRaibow:
 #if GERMAN
 	.string "Hi!\p"
-	.string "Ich bin ziemlich gut darin, Probleme\n"
-	.string "zu finden\l"
-	.string "und kleine zu beheben.\p"
+	.string "Ich bin ziemlich gut darin, Probleme zu\n"
+	.string "finden und kleine zu beheben.\p"
 	.string "Willst du einen Witz hören?\p"
 	.string "Siegfried versuchte, Dragoran die\n"
 	.string "Attacke Feuerodem beizubringen.\p"
 	.string "Aber Dragoran bewegte sich zu schnell\n"
-	.string "durch Turbotempo; er konnte es\l"
-	.string "nicht fangen!$"
+	.string "durch Turbotempo; er konnte es nicht\l"
+	.string "fangen!$"
 #else
 	.string "Hi!\p"
 	.string "I am pretty good at finding problems,\n"

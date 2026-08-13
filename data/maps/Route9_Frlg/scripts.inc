@@ -160,9 +160,8 @@ Route9_Text_BricePostBattle::
 
 Route9_Text_BrentIntro::
 #if GERMAN
-	.string "Ich stehe jeden Tag früh auf, um\n"
-	.string "meine Pokémon in ihren Kokons zu\l"
-	.string "pflegen!$"
+	.string "Ich stehe jeden Tag früh auf, um meine\n"
+	.string "Pokémon in ihren Kokons zu pflegen!$"
 #else
 	.string "I got up early every day to raise\n"
 	.string "my POKéMON from cocoons!$"

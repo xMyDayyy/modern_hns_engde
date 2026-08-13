@@ -98,9 +98,8 @@ IcePath_1F_Text_Stuck1:
 #if GERMAN
 	.string "Oje… Bist du das, {PLAYER}?\n"
 	.string "Wie überraschend, dich zu sehen!\p"
-	.string "Ehrlich gesagt… meine Sandalen\n"
-	.string "sind auf dem Eis festgefroren,\l"
-	.string "ich stecke fest.\p"
+	.string "Ehrlich gesagt… meine Sandalen sind auf\n"
+	.string "dem Eis festgefroren, ich stecke fest.\p"
 	.string "Mit anderen Worten: Flip-Flops\n"
 	.string "festgefroren am Boden.\p"
 	.string "Hehe.\p"
@@ -124,15 +123,13 @@ IcePath_1F_Text_Stuck2:
 #if GERMAN
 	.string "Oje… Bist du das, {PLAYER}?\n"
 	.string "Wie überraschend, dich zu sehen!\p"
-	.string "Ehrlich gesagt… meine Sandalen\n"
-	.string "sind auf dem Eis festgefroren,\l"
-	.string "ich stecke fest.\p"
+	.string "Ehrlich gesagt… meine Sandalen sind auf\n"
+	.string "dem Eis festgefroren, ich stecke fest.\p"
 	.string "Mit anderen Worten: Flip-Flops\n"
 	.string "schnellgefroren am Boden.\p"
 	.string "Hehe.\p"
 	.string "Aber es ist ernst.\n"
-	.string "Willst du mich am Rücken\l"
-	.string "anschubsen?$"
+	.string "Willst du mich am Rücken anschubsen?$"
 #else
     .string "Me oh my... Is that you, {PLAYER}?\n"
     .string "Fancy meeting you here!\p"
@@ -155,8 +152,8 @@ IcePath_1F_Text_Shove:
 IcePath_1F_Text_Cruel:
 #if GERMAN
 	.string "Sei nicht so gemein.\n"
-	.string "Du wirst mich am Rücken\l"
-	.string "anschubsen, oder?$"
+	.string "Du wirst mich am Rücken anschubsen,\l"
+	.string "oder?$"
 #else
     .string "Don't be so cruel.\n"
     .string "You will push my back, won't you?$"

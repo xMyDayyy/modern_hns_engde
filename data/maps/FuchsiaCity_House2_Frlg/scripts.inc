@@ -33,8 +33,7 @@ FuchsiaCity_House2_EventScript_NoRoomForGoodRod::
 
 FuchsiaCity_House2_Text_DoYouLikeToFish::
 #if GERMAN
-	.string "Ich bin der\n"
-	.string "ältere Bruder des\l"
+	.string "Ich bin der ältere Bruder des\n"
 	.string "Profianglers!\p"
 	.string "Ich liebe\n"
 	.string "den Angelsport!\p"

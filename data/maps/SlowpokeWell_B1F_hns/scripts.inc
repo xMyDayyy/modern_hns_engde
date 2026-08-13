@@ -83,11 +83,11 @@ SlowpokeWell_B1F_Movement_Kurt:
 SlowpokeWell_B1F_Text_KurtIntro:
 #if GERMAN
 	.string "Kurt: Oh, du bist es, {PLAYER}.\p"
-	.string "Die Wache oben hat sofort\n"
-	.string "das Weite gesucht, als ich sie\l"
-	.string "zusammengeschrien habe…\p"
-	.string "Aber ich bin in den Brunnen gefallen\n"
-	.string "und habe mir die Hüfte geprellt.\l"
+	.string "Die Wache oben hat sofort das Weite\n"
+	.string "gesucht, als ich sie zusammengeschrien\l"
+	.string "habe…\p"
+	.string "Aber ich bin in den Brunnen gefallen und\n"
+	.string "habe mir die Hüfte geprellt.\l"
 	.string "Tja, und jetzt sitze ich hier fest.\p"
 	.string "Verflixt… wenn ich nur laufen könnte,\n"
 	.string "würde ich diese Typen mit meinen\l"
@@ -113,8 +113,8 @@ SlowpokeWell_B1F_Text_KurtIntro:
 SlowpokeWell_B1F_Text_KurtAfter:
 #if GERMAN
 	.string "Kurt: Gute Arbeit, {PLAYER}!\n"
-	.string "Die Typen von Team Rocket\l"
-	.string "haben Reißaus genommen!\p"
+	.string "Die Typen von Team Rocket haben\l"
+	.string "Reißaus genommen!\p"
 	.string "Meiner Hüfte geht es auch\n"
 	.string "wieder besser. Lass uns gehen.$"
 #else
@@ -189,16 +189,16 @@ SlowpokeWell_B1F_Text_ProtonBeaten:
 SlowpokeWell_B1F_Text_ProtonAfter:
 #if GERMAN
 	.string "Lance: …Hehehe!\n"
-	.string "Ja, es stimmt. Team Rocket wurde\l"
-	.string "vor drei Jahren zerschlagen.\p"
+	.string "Ja, es stimmt. Team Rocket wurde vor\l"
+	.string "drei Jahren zerschlagen.\p"
 	.string "Aber wir haben unsere Arbeit still\n"
 	.string "und leise im Untergrund fortgesetzt.\p"
 	.string "Du kannst uns vielleicht das Leben\n"
-	.string "schwer machen, aber aufhalten wirst\l"
-	.string "du uns niemals!\p"
+	.string "schwer machen, aber aufhalten wirst du\l"
+	.string "uns niemals!\p"
 	.string "Alles, was du tun kannst, ist in\n"
-	.string "Schrecken auf das zu warten,\l"
-	.string "was wir weiter im Schilde führen!$"
+	.string "Schrecken auf das zu warten, was wir\l"
+	.string "weiter im Schilde führen!$"
 #else
 	.string "Yeah, TEAM ROCKET was broken up\n"
 	.string "three years ago.\p"
@@ -216,8 +216,8 @@ SlowpokeWell_B1F_Text_GruntM2Seen:
 	.string "Hyuck-hyuck-hyuck!\n"
 	.string "Aufhören, Flegmonruten zu klauen?\p"
 	.string "Du bist verrückt!\n"
-	.string "Wenn wir dir gehorchen, wäre der\l"
-	.string "Ruf von Team Rocket ruiniert!$"
+	.string "Wenn wir dir gehorchen, wäre der Ruf von\l"
+	.string "Team Rocket ruiniert!$"
 #else
 	.string "Hyuck-hyuck-hyuck!\n"
 	.string "Quit taking SLOWPOKETAILS?\p"
@@ -288,8 +288,8 @@ SlowpokeWell_B1F_Text_SlowpokeWithMail:
 SlowpokeWell_B1F_Text_SlowpokeMail:
 #if GERMAN
 	.string "{PLAYER} liest den Brief.\p"
-	.string "Bitte kümmere dich gut um Opa und\n"
-	.string "das Flegmon, während ich weg bin.\l"
+	.string "Bitte kümmere dich gut um Opa und das\n"
+	.string "Flegmon, während ich weg bin.\l"
 	.string "Danke, dein Papa$"
 #else
 	.string "{PLAYER} read the MAIL.\p"

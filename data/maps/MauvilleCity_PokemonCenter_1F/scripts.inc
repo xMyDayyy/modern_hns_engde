@@ -37,8 +37,7 @@ MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings:
 #if GERMAN
 	.string "Der Mann dort drüben, der sagt\n"
 	.string "vielleicht verrückte Dinge!\p"
-	.string "Auf seltsame Weise ist er aber\n"
-	.string "amüsant.\l"
+	.string "Auf seltsame Weise ist er aber amüsant.\n"
 	.string "Den werde ich wohl nicht vergessen!$"
 #else
 	.string "That man over there, he says weird\n"
@@ -64,9 +63,9 @@ MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner:
 
 MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
 #if GERMAN
-	.string "Im oberen Stockwerk des Pokémon-\n"
-	.string "Centers wurde die Möglichkeit des\l"
-	.string "Statistiktausches eingerichtet.\p"
+	.string "Im oberen Stockwerk des\n"
+	.string "Pokémon-Centers wurde die Möglichkeit\l"
+	.string "des Statistiktausches eingerichtet.\p"
 	.string "Ich weiß nicht genau, was das ist.\n"
 	.string "Aber das werde ich herausfinden! Ist\l"
 	.string "bestimmt lustig!$"

@@ -62,18 +62,18 @@ ViridianCity_Gym_Text_LeaderBlue_Before:
 #if GERMAN
 	.string "Blau: Hey! Da bist du ja!\p"
 	.string "Auf der Zinnoberinsel hatte ich ein\n"
-	.string "bisschen Bammel, aber inzwischen\l"
-	.string "habe ich extrem Lust darauf gekriegt,\l"
-	.string "gegen dich zu kämpfen!\p"
+	.string "bisschen Bammel, aber inzwischen habe\l"
+	.string "ich extrem Lust darauf gekriegt, gegen\l"
+	.string "dich zu kämpfen!\p"
 	.string "… … …\p"
 	.string "Du hast also alle Arenaleiter in Johto\n"
 	.string "zu Kleinholz verarbeitet, was?\p"
 	.string "Hahaha! Dann müssen das ja alles\n"
 	.string "ziemliche Jammerlappen sein!\p"
 	.string "Aber warten wir’s mal ab!\n"
-	.string "Wenn wir gegeneinander kämpfen,\l"
-	.string "werde ich schon sehen, ob du was drauf\l"
-	.string "hast oder nur ein Schaumschläger bist!$"
+	.string "Wenn wir gegeneinander kämpfen, werde\l"
+	.string "ich schon sehen, ob du was drauf hast\l"
+	.string "oder nur ein Schaumschläger bist!$"
 #else
 	.string "BLUE: Yo! Finally got here, huh?\p"
 	.string "I wasn't in the mood at CINNABAR,\p"
@@ -116,8 +116,8 @@ ViridianCity_Gym_Text_LeaderBlue_After:
 #if GERMAN
 	.string "Blau: … … …\p"
 	.string "Ich hatte dich unterschätzt.\n"
-	.string "Du bist kein Schaumschläger,\l"
-	.string "sondern ein fähiger Trainer!\l"
+	.string "Du bist kein Schaumschläger, sondern\l"
+	.string "ein fähiger Trainer!\l"
 	.string "Ich gebe es offen zu!\p"
 	.string "Aber vergiss nicht…\p"
 	.string "Irgendwann wird der Tag kommen,\n"
@@ -155,8 +155,7 @@ ViridianCity_Gym_Text_Guide:
 #if GERMAN
 	.string "He! Ein Champ in spe!\p"
 	.string "Wie läuft es so?\n"
-	.string "Du hast wohl gerade eine\l"
-	.string "Glückssträhne.\p"
+	.string "Du hast wohl gerade eine Glückssträhne.\p"
 	.string "Der Arenaleiter hat den Champ\n"
 	.string "vor drei Jahren besiegt.\p"
 	.string "Das wird kein Kinderspiel!\p"
@@ -174,9 +173,9 @@ ViridianCity_Gym_Text_Guide:
 ViridianCity_Gym_Text_Guide_Win:
 #if GERMAN
 	.string "Es ist wahr, du bist wirklich stark!\p"
-	.string "Dieser Kampf hat mich emotional\n"
-	.string "so mitgenommen, dass mir doch\l"
-	.string "glatt die Tränen gekommen sind.$"
+	.string "Dieser Kampf hat mich emotional so\n"
+	.string "mitgenommen, dass mir doch glatt die\l"
+	.string "Tränen gekommen sind.$"
 #else
 	.string "Man, you are truly tough…\p"
 	.string "That was a heck of an inspirational\n"

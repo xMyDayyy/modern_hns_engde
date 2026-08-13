@@ -19,9 +19,9 @@ MrFuji_Text_Main:
 	.string "Mr. Fuji: Willkommen.\p"
 	.string "Hmm… Du scheinst deine Pokémon\n"
 	.string "freundlich und liebevoll zu erziehen.\p"
-	.string "Pokémon-Liebhaber kommen hierher,\n"
-	.string "um den verstorbenen Pokémon Respekt\l"
-	.string "zu zollen.\p"
+	.string "Pokémon-Liebhaber kommen hierher, um\n"
+	.string "den verstorbenen Pokémon Respekt zu\l"
+	.string "zollen.\p"
 	.string "Bitte erweise den Seelen der\n"
 	.string "verstorbenen Pokémon dein Mitgefühl.\p"
 	.string "Ich bin sicher, das macht sie\n"
@@ -55,9 +55,8 @@ SoulHouse_Text_Teacher:
 
 SoulHouse_Text_Lass:
 #if GERMAN
-	.string "Ich besuche mit\n"
-	.string "meiner Mutter die Grabmale der\l"
-	.string "Pokémon…$"
+	.string "Ich besuche mit meiner Mutter die\n"
+	.string "Grabmale der Pokémon…$"
 #else
 	.string "I came with my mom to visit\n"
 	.string "POKéMON graves…$"
@@ -67,8 +66,8 @@ SoulHouse_Text_Granny:
 #if GERMAN
 	.string "Ich habe so lange mit diesen Pokémon\n"
 	.string "zusammengelebt, dass sie für mich\l"
-	.string "denselben Stellenwert einnehmen\l"
-	.string "wie meine Enkelkinder…$"
+	.string "denselben Stellenwert einnehmen wie\l"
+	.string "meine Enkelkinder…$"
 #else
 	.string "The POKéMON that lived with me…\p"
 	.string "I loved them like my\n"

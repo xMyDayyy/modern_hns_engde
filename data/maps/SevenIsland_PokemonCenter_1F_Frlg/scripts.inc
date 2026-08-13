@@ -28,8 +28,8 @@ SevenIsland_PokemonCenter_1F_EventScript_Beauty::
 
 SevenIsland_PokemonCenter_1F_Text_EventsDependingOnConnections::
 #if GERMAN
-	.string "Auf dieser Insel geschehen unter-\n"
-	.string "schiedliche Ereignisse, abhängig\l"
+	.string "Auf dieser Insel geschehen\n"
+	.string "unterschiedliche Ereignisse, abhängig\l"
 	.string "von den Verbindungen!\l"
 	.string "Was diese Verbindungen sind?\p"
 	.string "Das musst du alleine herausfinden!$"
@@ -60,9 +60,8 @@ SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere::
 
 SevenIsland_PokemonCenter_1F_Text_CheckOutTrainerTower::
 #if GERMAN
-	.string "Wenn du selbstbewusst bist,\n"
-	.string "solltest du im Trainerturm\l"
-	.string "vorbeischauen!$"
+	.string "Wenn du selbstbewusst bist, solltest du\n"
+	.string "im Trainerturm vorbeischauen!$"
 #else
 	.string "If you're confident, you should\n"
 	.string "check out TRAINER TOWER.$"

@@ -31,8 +31,8 @@ CeladonDeptStore2F_Text_PokefanM:
 CeladonDeptStore2F_Text_Youngster:
 #if GERMAN
 	.string "Mein Papa tut sich sehr schwer damit,\n"
-	.string "die Namen aller Items und ihren Zweck\l"
-	.string "im Kopf zu behalten…$"
+	.string "die Namen aller Items und ihren Zweck im\l"
+	.string "Kopf zu behalten…$"
 #else
 	.string "My dad's having a hard time\n"
 	.string "learning the names of items and\l"

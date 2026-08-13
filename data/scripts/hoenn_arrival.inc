@@ -398,8 +398,8 @@ BirchsLab_Text_HoennWelcome1:
 #if GERMAN
 	.string "Prof. Birk: Willkommen in Hoenn!\p"
 	.string "Troy hat mir erzählt, du seist ein\n"
-	.string "erfahrener Trainer - und dass du mir\l"
-	.string "bei meinem Vorhaben helfen könntest.\p"
+	.string "erfahrener Trainer - und dass du mir bei\l"
+	.string "meinem Vorhaben helfen könntest.\p"
 	.string "Halt mal kurz deinen Pokédex hoch.$"
 #else
 	.string "PROF. BIRCH: Welcome to HOENN!\p"
@@ -420,9 +420,8 @@ BirchsLab_Text_HoennDexUpgrade:
 
 BirchsLab_Text_HoennDexExplain:
 #if GERMAN
-	.string "Prof. Birk: So. Ich habe deinen\n"
-	.string "Pokédex auf die hiesige Region\l"
-	.string "erweitert.\p"
+	.string "Prof. Birk: So. Ich habe deinen Pokédex\n"
+	.string "auf die hiesige Region erweitert.\p"
 	.string "Ich forsche seit Jahren an den\n"
 	.string "Lebensräumen dieser Region.\p"
 	.string "Wenn du mir hilfst, sie zu füllen,\n"

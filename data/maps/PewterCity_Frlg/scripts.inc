@@ -849,12 +849,11 @@ Text_DreamEaterTeach::
 	.string "Ich habe geträumt, dass Traumato\n"
 	.string "meine Träume fressen wollte!\p"
 	.string "Und…\n"
-	.string "Ich erlernte das Fressen von\l"
-	.string "Träumen…\p"
+	.string "Ich erlernte das Fressen von Träumen…\p"
 	.string "Das ist unheimlich!\p"
 	.string "Lass mich einem deiner Pokémon\n"
-	.string "Traumfresser beibringen,\l"
-	.string "damit ich es vergessen kann.$"
+	.string "Traumfresser beibringen, damit ich es\l"
+	.string "vergessen kann.$"
 #else
 	.string "Yawn!\n"
 	.string "I must have dozed off in the sun.\p"
@@ -911,8 +910,7 @@ PewterCity_Text_BrockOnlySeriousTrainerHere::
 	.string "Hier gibt es nur wenige ernsthafte\n"
 	.string "Pokémon Trainer!\p"
 	.string "Aber Rocko, der Arenaleiter von\n"
-	.string "Marmoria City, versteht sein\l"
-	.string "Geschäft!$"
+	.string "Marmoria City, versteht sein Geschäft!$"
 #else
 	.string "There aren't many serious POKéMON\n"
 	.string "TRAINERS here.\p"
@@ -988,8 +986,8 @@ PewterCity_Text_SprayingRepelToKeepWildMonsOut::
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
 #if GERMAN
 	.string "Du bist Trainer?\p"
-	.string "Rocko ist ständig auf der Suche\n"
-	.string "nach neuen Herausforderern!\l"
+	.string "Rocko ist ständig auf der Suche nach\n"
+	.string "neuen Herausforderern!\l"
 	.string "Folge mir!$"
 #else
 	.string "You're a TRAINER, right?\p"
@@ -1010,9 +1008,9 @@ PewterCity_Text_TrainerTipsEarningEXP::
 #if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Unabhängig von der Dauer seines\n"
-	.string "Einsatzes erhält jedes Pokémon für\l"
-	.string "die Teilnahme an einem Kampf\l"
-	.string "Erfahrungspunkte, E.-Punkte! $"
+	.string "Einsatzes erhält jedes Pokémon für die\l"
+	.string "Teilnahme an einem Kampf\l"
+	.string "Erfahrungspunkte, E.-Punkte!$"
 #else
 	.string "TRAINER TIPS\p"
 	.string "All POKéMON that appear in battle,\n"
@@ -1024,9 +1022,9 @@ PewterCity_Text_CallPoliceIfInfoOnThieves::
 	.string "Achtung!\p"
 	.string "Diebe haben Pokémon-Fossilien vom\n"
 	.string "Mondberg gestohlen!\p"
-	.string "Wenn Sie sachdienliche Hinweise\n"
-	.string "haben, wenden Sie sich bitte an die\l"
-	.string "Polizei in Marmoria City!$"
+	.string "Wenn Sie sachdienliche Hinweise haben,\n"
+	.string "wenden Sie sich bitte an die Polizei in\l"
+	.string "Marmoria City!$"
 #else
 	.string "NOTICE!\p"
 	.string "Thieves have been stealing POKéMON\n"
@@ -1045,8 +1043,8 @@ PewterCity_Text_MuseumOfScience::
 PewterCity_Text_GymSign::
 #if GERMAN
 	.string "Marmoria City Pokémon-Arena\n"
-	.string "Arenaleiter: Rocko\l"
-	.string "Der Steinharte Pokémon Trainer!$"
+	.string "Arenaleiter: Rocko Der Steinharte\l"
+	.string "Pokémon Trainer!$"
 #else
 	.string "PEWTER CITY POKéMON GYM\n"
 	.string "LEADER: BROCK\l"
@@ -1067,9 +1065,8 @@ PewterCity_Text_OhPlayer::
 
 PewterCity_Text_AskedToDeliverThis::
 #if GERMAN
-	.string "Ich bin froh, dass ich dich\n"
-	.string "erwische. Ich bin der\l"
-	.string "Assistent von Prof. Eich.\p"
+	.string "Ich bin froh, dass ich dich erwische.\n"
+	.string "Ich bin der Assistent von Prof. Eich.\p"
 	.string "Ich wurde gebeten, dir das hier zu\n"
 	.string "bringen, also nimm es bitte.$"
 #else

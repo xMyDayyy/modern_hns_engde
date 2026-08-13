@@ -51,10 +51,9 @@ CeladonCity_DepartmentStore_3F_EventScript_Poster::
 
 CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer::
 #if GERMAN
-	.string "Jedes gefangene Pokémon erhält\n"
-	.string "eine ID-Nr. und wird mit dem Namen\l"
-	.string "des Originaltrainers, OT,\l"
-	.string "registriert. \p"
+	.string "Jedes gefangene Pokémon erhält eine\n"
+	.string "ID-Nr. und wird mit dem Namen des\l"
+	.string "Originaltrainers, OT, registriert.\p"
 	.string "Der OT ist der Trainer, der das\n"
 	.string "Pokémon gefangen hat!$"
 #else
@@ -93,9 +92,9 @@ CeladonCity_DepartmentStore_3F_Text_HaunterEvolvedOnTrade::
 
 CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID::
 #if GERMAN
-	.string "Anhand ihrer ID-Nr. kannst du\n"
-	.string "Pokémon, die du bei einem Tausch\l"
-	.string "erhalten hast, identifizieren!$"
+	.string "Anhand ihrer ID-Nr. kannst du Pokémon,\n"
+	.string "die du bei einem Tausch erhalten hast,\l"
+	.string "identifizieren!$"
 #else
 	.string "You can identify POKéMON you get\n"
 	.string "in trades by their ID Numbers.$"
@@ -182,9 +181,8 @@ Text_CounterTeach::
 
 Text_CounterDeclined::
 #if GERMAN
-	.string "Du hast kein Interesse? Komme\n"
-	.string "wieder, wenn du deine Meinung\l"
-	.string "geändert hast!$"
+	.string "Du hast kein Interesse? Komme wieder,\n"
+	.string "wenn du deine Meinung geändert hast!$"
 #else
 	.string "You're not interested? Come see\n"
 	.string "me if you change your mind.$"
@@ -200,9 +198,9 @@ Text_CounterWhichMon::
 
 Text_CounterTaught::
 #if GERMAN
-	.string "Setzt du die Konter-Attacke ein,\n"
-	.string "die ich einem deiner Pokémon\l"
-	.string "beigebracht habe?$"
+	.string "Setzt du die Konter-Attacke ein, die\n"
+	.string "ich einem deiner Pokémon beigebracht\l"
+	.string "habe?$"
 #else
 	.string "Are you using that COUNTER move\n"
 	.string "I taught your POKéMON?$"

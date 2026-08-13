@@ -42,9 +42,9 @@ PalletTown_PlayersHouse_2F_Text_PlayedWithNES::
 PalletTown_PlayersHouse_2F_Text_PressLRForHelp::
 #if GERMAN
 	.string "Eine Nachricht…\p"
-	.string "Wenn du nicht weiter weißt,\n"
-	.string "rufe das Hilfe-Menü durch\l"
-	.string "Drücken der L- oder R-Taste auf.$"
+	.string "Wenn du nicht weiter weißt, rufe das\n"
+	.string "Hilfe-Menü durch Drücken der L- oder\l"
+	.string "R-Taste auf.$"
 #else
 	.string "It's a posted notice…\p"
 	.string "If you're confused, ask for HELP!\n"

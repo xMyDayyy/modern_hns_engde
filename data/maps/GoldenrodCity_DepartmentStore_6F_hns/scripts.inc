@@ -131,9 +131,8 @@ GoldenrodDeptStore_Text_6FLass:
 	.string "Hörst du den Glückskanal?\p"
 	.string "Möchtest du gewinnen,\n"
 	.string "tausche Pokémon mit so vielen\p"
-	.string "Leuten wie möglich,\n"
-	.string "um verschiedene ID-Nummern zu\l"
-	.string "erhalten.$"
+	.string "Leuten wie möglich, um verschiedene\n"
+	.string "ID-Nummern zu erhalten.$"
 #else
     .string "Do you listen to LUCKY CHANNEL?\p"
     .string "They say if you want to win,\n"

@@ -111,8 +111,8 @@ ViridianCity_Gym_Text_GiovanniIntro::
 	.string "Hier wollte ich das Team Rocket\n"
 	.string "wiederauferstehen lassen!\p"
 	.string "Aber du hast mich schon wieder\n"
-	.string "aufgespürt! Also gut! Dieses Mal\l"
-	.string "kenne ich keine Gnade!\p"
+	.string "aufgespürt! Also gut! Dieses Mal kenne\l"
+	.string "ich keine Gnade!\p"
 	.string "Ich, Giovanni, der größte aller\n"
 	.string "Trainer, fordere Revanche!{PLAY_BGM}éÀ$"
 #else
@@ -166,9 +166,8 @@ ViridianCity_Gym_Text_GiovanniPostBattle::
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
 #if GERMAN
-	.string "Als Träger des Erdordens werden\n"
-	.string "dir alle Pokémon jeglichen Levels\l"
-	.string "gehorchen!\p"
+	.string "Als Träger des Erdordens werden dir alle\n"
+	.string "Pokémon jeglichen Levels gehorchen!\p"
 	.string "Er stellt den Beweis deines Könnens\n"
 	.string "als Pokémon Trainer dar!\p"
 	.string "Außerdem gewährt er dir den Zugang\n"
@@ -396,9 +395,9 @@ ViridianCity_Gym_Text_ColePostBattle::
 
 ViridianCity_Gym_Text_SamuelIntro::
 #if GERMAN
-	.string "Die Arenahalle von Vertania City\n"
-	.string "war lange Zeit geschlossen, doch\l"
-	.string "nun ist der Meister zurück!$"
+	.string "Die Arenahalle von Vertania City war\n"
+	.string "lange Zeit geschlossen, doch nun ist\l"
+	.string "der Meister zurück!$"
 #else
 	.string "VIRIDIAN GYM was closed for a\n"
 	.string "long time.\p"
@@ -414,9 +413,8 @@ ViridianCity_Gym_Text_SamuelDefeat::
 
 ViridianCity_Gym_Text_SamuelPostBattle::
 #if GERMAN
-	.string "Du kannst nur in die Pokémon Liga,\n"
-	.string "wenn du unseren Arenaleiter\l"
-	.string "besiegst!$"
+	.string "Du kannst nur in die Pokémon Liga, wenn\n"
+	.string "du unseren Arenaleiter besiegst!$"
 #else
 	.string "You can go on to the POKéMON\n"
 	.string "LEAGUE only by defeating our GYM\l"
@@ -427,9 +425,8 @@ ViridianCity_Gym_Text_GymGuyAdvice::
 #if GERMAN
 	.string "Heh!\n"
 	.string "Warte, du Champion in spe!\p"
-	.string "Nicht einmal ich kenne die\n"
-	.string "Identität des Arenaleiters\l"
-	.string "von Vertania City!\p"
+	.string "Nicht einmal ich kenne die Identität\n"
+	.string "des Arenaleiters von Vertania City!\p"
 	.string "Soweit ich weiß, ist er von allen\n"
 	.string "Arenaleitern der gefährlichste!\p"
 	.string "Die Trainer hier setzen gerne\n"

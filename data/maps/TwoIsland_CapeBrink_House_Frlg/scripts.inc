@@ -75,9 +75,9 @@ Text_LetMeConferUltimateMove::
 Text_TaughtMove::
 #if GERMAN
 	.string "Schnauf, schnauf…\p"
-	.string "Ich hätte nicht gedacht, dass\n"
-	.string "ich diese Attacke noch in meinem\l"
-	.string "Leben lehren durfte…$"
+	.string "Ich hätte nicht gedacht, dass ich diese\n"
+	.string "Attacke noch in meinem Leben lehren\l"
+	.string "durfte…$"
 #else
 	.string "Gasp, gasp, gasp…\p"
 	.string "I didn't think I could teach that\n"
@@ -99,9 +99,9 @@ Text_PassedOnEverythingIKnow::
 	.string "Schnauf, schnauf…\p"
 	.string "Ich bereue nichts! Ich habe\n"
 	.string "all mein Wissen weitergegeben.\p"
-	.string "Nun kann ich mit mir Frieden\n"
-	.string "schließen und mein Leben\l"
-	.string "leben. Meine Aufgabe ist erfüllt.$"
+	.string "Nun kann ich mit mir Frieden schließen\n"
+	.string "und mein Leben leben. Meine Aufgabe ist\l"
+	.string "erfüllt.$"
 #else
 	.string "Gasp, gasp, gasp…\p"
 	.string "I have no regrets now.\n"
@@ -112,9 +112,8 @@ Text_PassedOnEverythingIKnow::
 
 Text_FeelRejuvenated::
 #if GERMAN
-	.string "Nachdem ich dir mein Wissen\n"
-	.string "übergeben hatte, fühlte ich mich\l"
-	.string "so erleichtert.\p"
+	.string "Nachdem ich dir mein Wissen übergeben\n"
+	.string "hatte, fühlte ich mich so erleichtert.\p"
 	.string "Ich fühle mich in der Tat\n"
 	.string "jünger, wie neu geboren!$"
 #else

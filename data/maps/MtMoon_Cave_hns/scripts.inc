@@ -88,9 +88,9 @@ MtMoon_Cave_Text_Rival_Before:
 #if GERMAN
 	.string "… … …\p"
 	.string "Es ist schon lange her, {PLAYER}.\p"
-	.string "…Seit ich gegen dich verlor, mache\n"
-	.string "ich mir Gedanken,\l"
-	.string "was meinen Pokémon noch fehlt…\p"
+	.string "…Seit ich gegen dich verlor, mache ich\n"
+	.string "mir Gedanken, was meinen Pokémon noch\l"
+	.string "fehlt…\p"
 	.string "Nun, wir haben eine Antwort gefunden.\p"
 	.string "{PLAYER}, wir beweisen es dir!$"
 #else
@@ -105,9 +105,9 @@ MtMoon_Cave_Text_Rival_Before:
 MtMoon_Cave_Text_Rival_Win:
 #if GERMAN
 	.string "..................................\p"
-	.string "Ich dachte ich hätte meine Pokémon\n"
-	.string "so gut es irgendwie geht trainiert,\l"
-	.string "zur perfektion…\p"
+	.string "Ich dachte ich hätte meine Pokémon so\n"
+	.string "gut es irgendwie geht trainiert, zur\l"
+	.string "perfektion…\p"
 	.string "…Immer noch nicht genug…$"
 #else
 	.string "..................................\p"
@@ -122,9 +122,8 @@ MtMoon_Cave_Text_Rival_After:
 	.string "…Du hast mich fair besiegt.\p"
 	.string "Das muss ich dir\n"
 	.string "lassen. Wir werden uns wiedersehen.\p"
-	.string "Ich werde der beste\n"
-	.string "PokémonTrainer aller Zeiten\l"
-	.string "sein.\p"
+	.string "Ich werde der beste PokémonTrainer\n"
+	.string "aller Zeiten sein.\p"
 	.string "Und sie werden mir dabei helfen.\p"
 	.string "…Hör mal, {PLAYER}.\p"
 	.string "Eines Tages werde ich es dir bewei-\n"
@@ -146,9 +145,9 @@ MtMoon_Cave_Text_Rival_Loss:
 	.string "… … …\p"
 	.string "Ich habe meine\n"
 	.string "Schuld bei dir abgegolten.\p"
-	.string "Mit meinen Pokémon werde ich den\n"
-	.string "Champ besiegen\l"
-	.string "und weltbester Trainer werden.$"
+	.string "Mit meinen Pokémon werde ich den Champ\n"
+	.string "besiegen und weltbester Trainer\l"
+	.string "werden.$"
 #else
 	.string "..................................\p"
 	.string "I've repaid my debt to you.\p"

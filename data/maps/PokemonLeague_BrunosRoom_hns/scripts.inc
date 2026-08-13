@@ -89,9 +89,8 @@ PokemonLeague_BrunosRoom_Text_Before:
 	.string "Hm? Keine Angst in deinen Augen.\n"
 	.string "Du wirkst entschlossen.\p"
 	.string "Perfekt für den Kampf!\p"
-	.string "Bereit, {PLAYER}? Du wirst dich\n"
-	.string "unserer überwältigenden Macht\l"
-	.string "beugen!\p"
+	.string "Bereit, {PLAYER}? Du wirst dich unserer\n"
+	.string "überwältigenden Macht beugen!\p"
 	.string "Hoo hah!$"
 #else
     .string "I am BRUNO of the ELITE FOUR.\p"

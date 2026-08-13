@@ -105,13 +105,12 @@ PokemonFanClub_Text_Chairman_Rapidash:
 	.string "Also… mein Liebling Galoppa…\p"
 	.string "Ist… süß… lieblich… schlau…\n"
 	.string "unfassbar…\l"
-	.string "und… toll… oh… glaubst du\l"
-	.string "auch?…\l"
+	.string "und… toll… oh… glaubst du auch?…\l"
 	.string "Zu viel… wild… schön…\l"
 	.string "niedlich…\l"
 	.string "liebe es!\p"
-	.string "Umarme… wenn… schläft… warm\n"
-	.string "und kuschlig…\l"
+	.string "Umarme… wenn… schläft… warm und\n"
+	.string "kuschlig…\l"
 	.string "Oh, und… Spektakulär…\l"
 	.string "einfach… so göttlich…\p"
 	.string "Oops! Schau auf die Uhr!\n"
@@ -162,8 +161,8 @@ PokemonFanClub_Text_Chairman_MoreTales:
 #if GERMAN
 	.string "Oh, hallo {PLAYER}!\p"
 	.string "Bist du hier, um ein paar neue\n"
-	.string "wunderbare Geschichten über mich\l"
-	.string "und meine Pokémon zu hören?\p"
+	.string "wunderbare Geschichten über mich und\l"
+	.string "meine Pokémon zu hören?\p"
 	.string "Nein? Echt nicht? Hm, zu schade…\n"
 	.string "Du bist so ein Langweiler…\l$"
 #else
@@ -222,12 +221,12 @@ PokemonFanClub_Text_ClefairyGuy_MakingDo:
 PokemonFanClub_Text_ClefairyGuy_ReturnDoll:
 #if GERMAN
 	.string "Ach so, jetzt verstehe ich.\n"
-	.string "Das Mädchen, das diese Puppe\l"
-	.string "verloren hat, ist traurig…\p"
+	.string "Das Mädchen, das diese Puppe verloren\l"
+	.string "hat, ist traurig…\p"
 	.string "Gut. Bringst du die Piepi-Puppe\n"
 	.string "zu der armen Kleinen zurück?\p"
-	.string "Ich freunde mich eines Tages\n"
-	.string "mit einem echten Piepi an.\l"
+	.string "Ich freunde mich eines Tages mit einem\n"
+	.string "echten Piepi an.\l"
 	.string "Keine Sorge!$"
 #else
 	.string "Oh, I see now. The girl who lost\n"
@@ -280,8 +279,8 @@ PokemonFanClub_Text_Bayleef:
 PokemonFanClub_Text_Listen:
 #if GERMAN
 	.string "Wenn dir jemand eine “wunderbare”\n"
-	.string "Geschichte erzählen will, dann höre\l"
-	.string "ihm einfach geduldig zu.$"
+	.string "Geschichte erzählen will, dann höre ihm\l"
+	.string "einfach geduldig zu.$"
 #else
 	.string "Let's all listen politely to\n"
 	.string "other trainers.$"

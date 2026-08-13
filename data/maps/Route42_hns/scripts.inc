@@ -150,9 +150,8 @@ Route42_Text_EusineJealous:
     .string "{PLAYER}!\p"
     .string "Du scheinst immer dort zu sein,\n"
     .string "wo Suicune auftaucht.\p"
-    .string "Nun gut. Mein Verlangen,\n"
-    .string "Suicune zu finden,\l"
-    .string "übertrifft deines bei\p"
+    .string "Nun gut. Mein Verlangen, Suicune zu\n"
+    .string "finden, übertrifft deines bei\p"
     .string "Weitem…\p"
     .string "Mein Großvater war…\n"
     .string "sehr von Legenden begeistert.\p"
@@ -285,9 +284,8 @@ Route42_Text_FisherTullyAfter:
 
 Route42_Text_HikerBenjaminSeen:
 #if GERMAN
-	.string "Ach, ist das schön,\n"
-	.string "im Freien zu sein! Ich fühle\l"
-	.string "mich so frei!$"
+	.string "Ach, ist das schön, im Freien zu sein!\n"
+	.string "Ich fühle mich so frei!$"
 #else
 	.string "Ah, it's good to be outside!\n"
 	.string "I feel so free!$"
@@ -352,9 +350,8 @@ Route42_Text_MtMortarSign1:
 
 Route42_Text_TullyRegister:
 #if GERMAN
-    .string "Ich will mit den Pokémon, die\n"
-    .string "ich selbst gefangen habe,\l"
-    .string "Pokémon-Champ werden.\p"
+    .string "Ich will mit den Pokémon, die ich selbst\n"
+    .string "gefangen habe, Pokémon-Champ werden.\p"
     .string "Das ist das Beste am Angeln!$"
 #else
 	.string "I want to become the trainer\n"
@@ -383,9 +380,8 @@ Route42_Text_TullyRematchDefeat:
 
 Route42_Text_TullyPostRematch:
 #if GERMAN
-    .string "Ich will mit den Pokémon, die\n"
-    .string "ich selbst gefangen habe,\l"
-    .string "Pokémon-Champ werden.\p"
+    .string "Ich will mit den Pokémon, die ich selbst\n"
+    .string "gefangen habe, Pokémon-Champ werden.\p"
     .string "Das ist das Beste am Angeln!$"
 #else
 	.string "I want to become the trainer\n"

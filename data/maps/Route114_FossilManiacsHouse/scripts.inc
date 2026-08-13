@@ -32,13 +32,12 @@ Route114_FossilManiacsHouse_EventScript_Bookshelf::
 
 Route114_FossilManiacsHouse_Text_HaveThisToDigLikeMyBrother:
 #if GERMAN
-	.string "Mein großer Bruder ist ein Fossil-\n"
-	.string "maniac… Er ist ein netter Kerl, der\l"
-	.string "Fossilien liebt…\p"
+	.string "Mein großer Bruder ist ein\n"
+	.string "Fossilmaniac… Er ist ein netter Kerl,\l"
+	.string "der Fossilien liebt…\p"
 	.string "Er liebt es auch, Löcher zu graben…\n"
 	.string "Dieses Loch hat er alleine gegraben!\p"
-	.string "Hier, das kannst du haben. Damit\n"
-	.string "kannst\l"
+	.string "Hier, das kannst du haben. Damit kannst\n"
 	.string "du Löcher graben, wie mein Bruder…$"
 #else
 	.string "My big brother's the FOSSIL MANIAC…\n"

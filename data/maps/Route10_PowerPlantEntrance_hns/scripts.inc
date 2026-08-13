@@ -108,8 +108,8 @@ Route10_PowerPlantEntrance_Movement_WalkBack:
 
 Route10_PowerPlantEntrance_Text_Officer1AThiefBrokeIn:
 #if GERMAN
-	.string "Ein Dieb ist in das\n"
-	.string "Kraftwerk eingebrochen.\l"
+	.string "Ein Dieb ist in das Kraftwerk\n"
+	.string "eingebrochen.\l"
 	.string "In was für einer Welt leben wir nur…$"
 #else
 	.string "A thief broke into the POWER\n"
@@ -176,8 +176,8 @@ Route10_PowerPlantEntrance_Text_Engineer2PowerPlantUpAndRunning:
 	.string "Dieses Kraftwerk wurde eigentlich\n"
 	.string "schon vor langer Zeit stillgelegt.\p"
 	.string "Aber wir haben es wieder in Betrieb\n"
-	.string "genommen, um damit Energie für\l"
-	.string "den Magnetzug zu gewinnen.$"
+	.string "genommen, um damit Energie für den\l"
+	.string "Magnetzug zu gewinnen.$"
 #else
 	.string "This POWER PLANT had been\n"
 	.string "abandoned in the past.\p"
@@ -197,9 +197,8 @@ Route10_PowerPlantEntrance_Text_Officer2ManagerHasBeenSadAndFurious:
 #if GERMAN
 	.string "Der Direktor des\n"
 	.string "Kraftwerks sitzt da vorne.\p"
-	.string "Seit jemand den\n"
-	.string "Generator demolierte, ist er traurig\l"
-	.string "und wütend zugleich…$"
+	.string "Seit jemand den Generator demolierte,\n"
+	.string "ist er traurig und wütend zugleich…$"
 #else
 	.string "The POWER PLANT's MANAGER is in\n"
 	.string "the back room with the generator.\p"
@@ -258,8 +257,8 @@ Route10_PowerPlantEntrance_EventScript_TradeCompleted::
 Route10_PowerPlantEntrance_Text_WantToTrade:
 #if GERMAN
 	.string "Ich arbeite hier im Kraftwerk.\n"
-	.string "Mein Magneton ist schon seit\l"
-	.string "Jahren mein Partner.\p"
+	.string "Mein Magneton ist schon seit Jahren\l"
+	.string "mein Partner.\p"
 	.string "Aber ich wollte schon immer ein\n"
 	.string "{STR_VAR_1}.\p"
 	.string "Würdest du tauschen für mein\n"

@@ -32,8 +32,7 @@ Route111_OldLadysRestStop_Text_RestUpHere:
 #if GERMAN
 	.string "Oh, du meine Güte.\n"
 	.string "Sind deine Pokémon nicht erschöpft?\p"
-	.string "Wenn du magst, ruhe dich doch hier\n"
-	.string "aus.\l"
+	.string "Wenn du magst, ruhe dich doch hier aus.\n"
 	.string "Das ist doch eine gute Idee, oder?$"
 #else
 	.string "Oh, dear, dear.\n"

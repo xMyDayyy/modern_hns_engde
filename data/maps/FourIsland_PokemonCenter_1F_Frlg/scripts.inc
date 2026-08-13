@@ -31,14 +31,12 @@ Text_BodySlamTeach::
 #if GERMAN
 	.string "Fertig?\n"
 	.string "Boing!\p"
-	.string "Wir tragen einen Bodyslam-Kampf\n"
-	.string "aus, um herauszufinden, wer als\l"
-	.string "Erster umfällt.\l"
-	.string "Wenn du mitmachst, wirst du\l"
-	.string "allerdings wie ein Käfer\l"
-	.string "zerquetscht…\l"
-	.string "Soll ich Bodyslam einem deiner\l"
-	.string "Pokémon beibringen?$"
+	.string "Wir tragen einen Bodyslam-Kampf aus, um\n"
+	.string "herauszufinden, wer als Erster umfällt.\l"
+	.string "Wenn du mitmachst, wirst du allerdings\l"
+	.string "wie ein Käfer zerquetscht…\l"
+	.string "Soll ich Bodyslam einem deiner Pokémon\l"
+	.string "beibringen?$"
 #else
 	.string "Ready?\n"
 	.string "Boing!\p"
@@ -96,12 +94,10 @@ FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore::
 #if GERMAN
 	.string "Oh! Ein Pokémon-EI?\n"
 	.string "… ich habe keine Ahnung!\p"
-	.string "… oh, Moment, in der\n"
-	.string "Pension habe ich etwas darüber\l"
-	.string "gehört.\l"
-	.string "Sie sagten, sie haben früher\l"
-	.string "schon Eier auf ihrem\l"
-	.string "Grundstück gefunden!$"
+	.string "… oh, Moment, in der Pension habe ich\n"
+	.string "etwas darüber gehört.\l"
+	.string "Sie sagten, sie haben früher schon Eier\l"
+	.string "auf ihrem Grundstück gefunden!$"
 #else
 	.string "Oh? A POKéMON EGG?\n"
 	.string "…I have no idea.\p"
@@ -114,9 +110,9 @@ FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore::
 FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived::
 #if GERMAN
 	.string "Was ist los?\p"
-	.string "Die letzte Ausgabe vom Pokémon\n"
-	.string "Journal ist noch nicht auf dieser\l"
-	.string "Insel angekommen?$"
+	.string "Die letzte Ausgabe vom Pokémon Journal\n"
+	.string "ist noch nicht auf dieser Insel\l"
+	.string "angekommen?$"
 #else
 	.string "What's this?\p"
 	.string "The new POKéMON JOURNAL hasn't\n"

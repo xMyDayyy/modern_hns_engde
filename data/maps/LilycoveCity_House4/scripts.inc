@@ -23,9 +23,9 @@ LilycoveCity_House4_Text_MysteriesAtBottomOfSea:
 
 LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis:
 #if GERMAN
-	.string "Zwischen Moosbach City und\n"
-	.string "Xeneroville befindet sich ein\l"
-	.string "tiefer Unterwassergraben.\p"
+	.string "Zwischen Moosbach City und Xeneroville\n"
+	.string "befindet sich ein tiefer\l"
+	.string "Unterwassergraben.\p"
 	.string "Das hat mir jemand erzählt.$"
 #else
 	.string "There's a deep underwater trench\n"

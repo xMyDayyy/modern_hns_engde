@@ -65,13 +65,12 @@ SeafloorCavern_Room3_Text_ShellyPostBattle:
 
 SeafloorCavern_Room3_Text_Grunt5Intro:
 #if GERMAN
-	.string "Um unseren Traum Wirklichkeit werden\n"
-	.string "zu lassen, brauchen wir die Kraft von\l"
+	.string "Um unseren Traum Wirklichkeit werden zu\n"
+	.string "lassen, brauchen wir die Kraft von\l"
 	.string "Pokémon.\p"
 	.string "Aber Nervensägen wie du nutzen die\n"
 	.string "Kraft der Pokémon, um selbst an Orten\l"
-	.string "wie diesem allen auf den Keks zu\l"
-	.string "gehen! \p"
+	.string "wie diesem allen auf den Keks zu gehen!\p"
 	.string "Das Leben funktioniert nicht so, wie\n"
 	.string "wir uns das vorstellen.$"
 #else
@@ -92,8 +91,8 @@ SeafloorCavern_Room3_Text_Grunt5PostBattle:
 	.string "Weißt du, wir stellen die Motive\n"
 	.string "unseres Anführers nie in Frage.\p"
 	.string "Und dann kommt ein Frettchen wie du\n"
-	.string "dahergelaufen und legt sich\l"
-	.string "mit unserem Boss an.\p"
+	.string "dahergelaufen und legt sich mit\l"
+	.string "unserem Boss an.\p"
 	.string "Vielleicht…\n"
 	.string "bist du ja doch kein Frettchen…$"
 #else

@@ -423,8 +423,8 @@ ThreeIsland_Text_BossIsOnHisWay::
 #if GERMAN
 	.string "Heh, heul woanders!\n"
 	.string "Unser Boss kommt gerade.\p"
-	.string "Sobald er eingetroffen ist, werden\n"
-	.string "wir eine exzellente Motorradshow\l"
+	.string "Sobald er eingetroffen ist, werden wir\n"
+	.string "eine exzellente Motorradshow\l"
 	.string "vorführen, die unvergesslich ist.$"
 #else
 	.string "Hey, go cry somewhere else.\n"
@@ -463,9 +463,8 @@ ThreeIsland_Text_JustGotHerePal::
 #if GERMAN
 	.string "Häh?\p"
 	.string "Ich bin gerade hier angekommen!\p"
-	.string "Was soll deine feindselige\n"
-	.string "Einstellung? Das ist so\l"
-	.string "abweisend von dir!$"
+	.string "Was soll deine feindselige Einstellung?\n"
+	.string "Das ist so abweisend von dir!$"
 #else
 	.string "Hah?\p"
 	.string "I just got here, pal.\p"
@@ -477,9 +476,9 @@ ThreeIsland_Text_FollowersRaisingHavoc::
 #if GERMAN
 	.string "Deine Anhänger haben mit ihren\n"
 	.string "Motorrädern alles verwüstet.\p"
-	.string "Hast du eine Vorstellung, wie viel\n"
-	.string "Ärger sie uns auf dieser Insel\l"
-	.string "gemacht haben?$"
+	.string "Hast du eine Vorstellung, wie viel Ärger\n"
+	.string "sie uns auf dieser Insel gemacht\l"
+	.string "haben?$"
 #else
 	.string "Your gang of followers have been\n"
 	.string "raising havoc on their bikes.\p"
@@ -493,9 +492,9 @@ ThreeIsland_Text_OughtToBeThankingUs::
 	.string "Nein, ich kapiere es nicht!\p"
 	.string "Sieh dir das an. Was machst du,\n"
 	.string "um dich zu amüsieren?\p"
-	.string "Du solltest uns dankbar sein, ein\n"
-	.string "wenig Schwung in dieses ver-\l"
-	.string "schlafene Nest gebracht zu haben.\p"
+	.string "Du solltest uns dankbar sein, ein wenig\n"
+	.string "Schwung in dieses verschlafene Nest\l"
+	.string "gebracht zu haben.\p"
 	.string "Aber, wenn du willst, dass wir ver-\n"
 	.string "schwinden, dann tu doch etwas…$"
 #else
@@ -569,8 +568,7 @@ ThreeIsland_Text_Biker1PostBattle::
 ThreeIsland_Text_Biker2Intro::
 #if GERMAN
 	.string "Bist du nicht aus Kanto?\n"
-	.string "Du solltest auf unserer\l"
-	.string "Seite sein!$"
+	.string "Du solltest auf unserer Seite sein!$"
 #else
 	.string "Aren't you from KANTO?\n"
 	.string "You should be on our side!$"
@@ -596,9 +594,8 @@ ThreeIsland_Text_Biker2PostBattle::
 
 ThreeIsland_Text_Biker3Intro::
 #if GERMAN
-	.string "Wir haben den Boss hierher\n"
-	.string "eingeladen, aber du musstest\l"
-	.string "es vermasseln!\l"
+	.string "Wir haben den Boss hierher eingeladen,\n"
+	.string "aber du musstest es vermasseln!\l"
 	.string "Du hast uns lächerlich gemacht!$"
 #else
 	.string "We invited the boss out here,\n"
@@ -620,9 +617,8 @@ ThreeIsland_Text_Biker3PostBattle::
 
 ThreeIsland_Text_PaxtonIntro::
 #if GERMAN
-	.string "Ich habe dich beobachtet und ich\n"
-	.string "würde sagen, dass du genug\l"
-	.string "angerichtet hast.\l"
+	.string "Ich habe dich beobachtet und ich würde\n"
+	.string "sagen, dass du genug angerichtet hast.\l"
 	.string "Was bist du? Ihr Freund, oder was?\p"
 	.string "Dann musst du an ihrer statt gegen\n"
 	.string "mich antreten.$"
@@ -639,9 +635,8 @@ ThreeIsland_Text_PaxtonDefeat::
 #if GERMAN
 	.string "In Ordnung, genug!\n"
 	.string "Wir verschwinden wie gewünscht!\p"
-	.string "Wir freuen uns schon, den Rest\n"
-	.string "dieser langweiligen Insel zu\l"
-	.string "sehen.$"
+	.string "Wir freuen uns schon, den Rest dieser\n"
+	.string "langweiligen Insel zu sehen.$"
 #else
 	.string "All right, enough!\n"
 	.string "We'll leave like you wanted!\p"
@@ -706,9 +701,8 @@ ThreeIsland_Text_LostelleWentOffTowardsBondBridge::
 	.string "eine Weile hier.\p"
 	.string "… wie bitte?\n"
 	.string "Du suchst Irrma?\p"
-	.string "Es ist schon eine Weile her, dass\n"
-	.string "Irrma zur Bundbrücke\l"
-	.string "gegangen ist.$"
+	.string "Es ist schon eine Weile her, dass Irrma\n"
+	.string "zur Bundbrücke gegangen ist.$"
 #else
 	.string "It'd be fantastic if someone as\n"
 	.string "strong as you lived here.\p"
@@ -726,9 +720,8 @@ ThreeIsland_Text_WouldntWantToSeeBikersHereAgain::
 	.string "aller Inseln.\p"
 	.string "Dennoch könnte dort ein wenig\n"
 	.string "mehr geboten werden.\p"
-	.string "Aber ich möchte solche Typen\n"
-	.string "wie diese Biker hier nicht noch\l"
-	.string "einmal sehen.$"
+	.string "Aber ich möchte solche Typen wie diese\n"
+	.string "Biker hier nicht noch einmal sehen.$"
 #else
 	.string "THREE ISLAND is actually the most\n"
 	.string "populous of the islands here.\p"

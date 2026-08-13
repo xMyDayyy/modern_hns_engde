@@ -177,9 +177,8 @@ PalletTown_RivalsHouse_Text_HiBrothersAtLab::
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
 #if GERMAN
-	.string "Sarah: Hallo {PLAYER}! Ich hörte,\n"
-	.string "dass du gegen {RIVAL} \l"
-	.string "gekämpft hast.\l"
+	.string "Sarah: Hallo {PLAYER}! Ich hörte, dass\n"
+	.string "du gegen {RIVAL} gekämpft hast.\l"
 	.string "Das hätte ich gerne gesehen!$"
 #else
 	.string "DAISY: {PLAYER}, I heard you had\n"
@@ -328,10 +327,9 @@ PalletTown_RivalsHouse_Text_CantGroomAnEgg::
 PalletTown_RivalsHouse_Text_MayISeeFirstMon::
 #if GERMAN
 	.string "Sarah: Deine Pokémon werden dich\n"
-	.string "lieben, wenn du sie mit Liebe\l"
-	.string "trainierst.\l"
-	.string "{PLAYER}, darf ich dein erstes\l"
-	.string "Pokémon sehen?$"
+	.string "lieben, wenn du sie mit Liebe trainierst.\l"
+	.string "{PLAYER}, darf ich dein erstes Pokémon\l"
+	.string "sehen?$"
 #else
 	.string "DAISY: Your POKéMON grow to love\n"
 	.string "you if you raise them with love.\p"
@@ -374,8 +372,8 @@ PalletTown_RivalsHouse_Text_ItsQuiteFriendly::
 
 PalletTown_RivalsHouse_Text_ItsWarmingUpToYou::
 #if GERMAN
-	.string "Es nähert sich dir an! Euer gegen-\n"
-	.string "seitiges Vertrauen muss noch\l"
+	.string "Es nähert sich dir an! Euer\n"
+	.string "gegenseitiges Vertrauen muss noch\l"
 	.string "besser werden!$"
 #else
 	.string "It's warming up to you.\n"

@@ -268,9 +268,9 @@ BlackthornGym_Text_ClairWinText:
 BlackthornGym_Text_ClairText_GoToDragonsDen:
 #if GERMAN
 	.string "Ich gestehe das nicht ein.\p"
-	.string "Ich, Sandra, mag verloren haben,\n"
-	.string "aber du bist noch nicht reif für die\l"
-	.string "Pokémon Liga.\p"
+	.string "Ich, Sandra, mag verloren haben, aber du\n"
+	.string "bist noch nicht reif für die Pokémon\l"
+	.string "Liga.\p"
 	.string "Ich weiß. Stelle dich der Drachen-\n"
 	.string "Trainer-Herausforderung.\p"
 	.string "Hinter dieser Arena liegt die\n"
@@ -414,9 +414,9 @@ BlackthornGym_Text_CooltrainermCodyBeatenText:
 
 BlackthornGym_Text_CooltrainermCodyAfterBattleText:
 #if GERMAN
-	.string "Mitgliedern des Drachen-Clans wird\n"
-	.string "erst erlaubt, Drachen zu verwenden,\l"
-	.string "wenn unser Meister es erlaubt hat.$"
+	.string "Mitgliedern des Drachen-Clans wird erst\n"
+	.string "erlaubt, Drachen zu verwenden, wenn\l"
+	.string "unser Meister es erlaubt hat.$"
 #else
     .string "Members of our dragon-user clan\n"
     .string "can use dragon POKéMON only after\l"
@@ -556,14 +556,12 @@ BlackthornGym_Text_GuideText:
 	.string "bald sind wir da! Zähle auf mich!\p"
 	.string "Während Sandra zum Drachenmeister\n"
 	.string "Siegfried aufsieht, hat sie es doch\l"
-	.string "geschafft, ihre eigene Identität\l"
-	.string "zu entwickeln, mit Drachen aus\l"
-	.string "dem Wasser.\p"
-	.string "Drachen sind eigentlich schwach\n"
-	.string "gegen Eis-Attacken,\l"
-	.string "aber du wirst Drachen- oder\l"
-	.string "Feen-Attacken benötigen,\l"
-	.string "wenn du gewinnen willst.\p"
+	.string "geschafft, ihre eigene Identität zu\l"
+	.string "entwickeln, mit Drachen aus dem Wasser.\p"
+	.string "Drachen sind eigentlich schwach gegen\n"
+	.string "Eis-Attacken, aber du wirst Drachen-\l"
+	.string "oder Feen-Attacken benötigen, wenn du\l"
+	.string "gewinnen willst.\p"
 	.string "Du schaffst das!$"
 #else
     .string "Yo! CHAMP in making!\p"
@@ -601,9 +599,9 @@ BlackthornGym_Text_GuideWinText:
 #if GERMAN
 	.string "Gegen Sandra zu gewinnen ist\n"
 	.string "eine Meisterleistung!\p"
-	.string "Alles, was dir nun bevorsteht,\n"
-	.string "ist die Pokémon Liga und\l"
-	.string "Pokémon-Champion zu werden!$"
+	.string "Alles, was dir nun bevorsteht, ist die\n"
+	.string "Pokémon Liga und Pokémon-Champion zu\l"
+	.string "werden!$"
 #else
     .string "You were great to beat CLAIR!\p"
     .string "All that's left is the POKéMON\n"

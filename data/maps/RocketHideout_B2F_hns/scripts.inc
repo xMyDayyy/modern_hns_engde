@@ -688,8 +688,8 @@ RocketHideout_Text_ArianaRetreat:
 RocketHideout_Text_LanceStepBack:
 #if GERMAN
 	.string "Entschuldige, {PLAYER}.\n"
-	.string "Ich sah, wie gut du warst,\l"
-	.string "also habe ich mich zurückgehalten.\p"
+	.string "Ich sah, wie gut du warst, also habe ich\l"
+	.string "mich zurückgehalten.\p"
 	.string "Jetzt müssen wir nur noch das\n"
 	.string "seltsame Radiosignal ausschalten.$"
 #else
@@ -760,12 +760,11 @@ RocketHideout_B2F_Text_LanceElectrodeDone:
 RocketHideout_B2F_Text_LanceWhirlpool:
 #if GERMAN
 	.string "Das ist Whirlpool.\n"
-	.string "Lehre es einem Pokémon, um\l"
-	.string "über wildes Wasser zu kommen.\p"
+	.string "Lehre es einem Pokémon, um über wildes\l"
+	.string "Wasser zu kommen.\p"
 	.string "Aber merke dir: Außerhalb des Kampfes\p"
-	.string "kannst du es nur mit dem Orden\n"
-	.string "der Arena von Mahagonia City\l"
-	.string "nutzen.$"
+	.string "kannst du es nur mit dem Orden der\n"
+	.string "Arena von Mahagonia City nutzen.$"
 #else
     .string "That's WHIRLPOOL. Teach it to a\n"
     .string "POKéMON to get across wild water.\p"
@@ -984,8 +983,8 @@ RocketHideout_B2F_Text_GruntM18After:
 	.string "Bei der letzten Mission hat mich\n"
 	.string "auch ein Kind plattgemacht.\p"
 	.string "Als wir Pokémon entführten, kam dieses\n"
-	.string "Kind mit langen roten Haaren\l"
-	.string "und bösen Augen.\p"
+	.string "Kind mit langen roten Haaren und bösen\l"
+	.string "Augen.\p"
 	.string "Er hat mich einfach niedergemacht…$"
 #else
     .string "I got wiped out on the last\n"

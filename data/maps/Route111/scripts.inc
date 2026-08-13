@@ -677,8 +677,7 @@ Route111_Text_VickyIntro:
 #if GERMAN
 	.string "Wie konntest du nur meine Enkelin zum\n"
 	.string "Weinen bringen? Schäm dich!\p"
-	.string "Dafür werde ich dich in Grund und\n"
-	.string "Boden\l"
+	.string "Dafür werde ich dich in Grund und Boden\n"
 	.string "stampfen. Mach dich auf was gefasst!$"
 #else
 	.string "How dare you make my granddaughter\n"
@@ -744,10 +743,8 @@ Route111_Text_RouteSignMauville:
 
 Route111_Text_WinstrateHouseSign:
 #if GERMAN
-	.string "Das Haus der Sihgers\n"
-	.string "“Die Herzen unserer Familie schlagen\l"
-	.string "im\l"
-	.string "Einklang!”$"
+	.string "Das Haus der Sihgers “Die Herzen\n"
+	.string "unserer Familie schlagen im Einklang!”$"
 #else
 	.string "“Our family's hearts beat as one!”\n"
 	.string "THE WINSTRATE'S HOUSE$"
@@ -784,8 +781,8 @@ Route111_Text_TrainerTipsSpAtkSpDef:
 #if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Ein Indikator für die Stärke eines\n"
-	.string "Pokémon ist der SP. ANG. Das steht\l"
-	.string "für “Spezial Angriff”.\p"
+	.string "Pokémon ist der SP. ANG. Das steht für\l"
+	.string "“Spezial Angriff”.\p"
 	.string "SP. Ver. steht für “Spezial\n"
 	.string "Verteidigung”.$"
 #else

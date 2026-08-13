@@ -149,8 +149,8 @@ Route12_Text_FisherBarneyAfterBattle:
 	.string "Meiner Meinung nach ist Strom das\n"
 	.string "Wichtigste in unserem Leben.\p"
 	.string "Wenn dem nicht so wäre, hätten die\n"
-	.string "Leute nicht so einen Aufstand\l"
-	.string "gemacht, als das Kraftwerk ausfiel.$"
+	.string "Leute nicht so einen Aufstand gemacht,\l"
+	.string "als das Kraftwerk ausfiel.$"
 #else
 	.string "I think electricity is the most\n"
 	.string "important thing in our daily\l"
@@ -211,8 +211,8 @@ Route12_Text_FisherKyleBeaten:
 
 Route12_Text_FisherKyleAfterBattle:
 #if GERMAN
-	.string "Dieses Reißen an der Angel, wenn\n"
-	.string "ein Pokémon angebissen hat…\l"
+	.string "Dieses Reißen an der Angel, wenn ein\n"
+	.string "Pokémon angebissen hat…\l"
 	.string "Das ist das Schönste für einen Angler!$"
 #else
 	.string "The tug you feel on the ROD when\n"

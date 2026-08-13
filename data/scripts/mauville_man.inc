@@ -179,9 +179,8 @@ MauvilleCity_PokemonCenter_1F_Text_YouveNoRoomForThis:
 
 MauvilleCity_PokemonCenter_1F_Text_SoWellTradeTheseDecor:
 #if GERMAN
-	.string "Okay, dann lass uns tauschen:\n"
-	.string "{STR_VAR_3} gegen\l"
-	.string "{STR_VAR_2}!$"
+	.string "Okay, dann lass uns tauschen: {STR_VAR_3}\n"
+	.string "gegen {STR_VAR_2}!$"
 #else
 	.string "Okay, so we'll trade my {STR_VAR_3}\n"
 	.string "for your {STR_VAR_2}?$"
@@ -340,8 +339,8 @@ MauvilleCity_PokemonCenter_1F_Text_WhichTaleToTell:
 MauvilleCity_PokemonCenter_1F_Text_IKnowNoTales:
 #if GERMAN
 	.string "Aber ich weiß nichts über legendäre\n"
-	.string "Trainer. Also habe ich keine Ge-\l"
-	.string "schichten darüber auf Lager.\p"
+	.string "Trainer. Also habe ich keine\l"
+	.string "Geschichten darüber auf Lager.\p"
 	.string "Wo findet man wohl einen Trainer, der\n"
 	.string "einer Legende würdig ist?$"
 #else
@@ -404,9 +403,9 @@ MauvilleCity_PokemonCenter_1F_Text_NotWorthyOfLegend:
 #if GERMAN
 	.string "Hmm…\n"
 	.string "Ich bin nicht zufrieden…\p"
-	.string "Ich wünschte, du würdest mir Neuig-\n"
-	.string "keiten erzählen, die den Titel Legende\l"
-	.string "verdienen.$"
+	.string "Ich wünschte, du würdest mir\n"
+	.string "Neuigkeiten erzählen, die den Titel\l"
+	.string "Legende verdienen.$"
 #else
 	.string "Hmm…\n"
 	.string "I'm not satisfied…\p"
@@ -819,9 +818,9 @@ MauvilleCity_PokemonCenter_1F_Text_SafariGamesStory::
 	.string "namens {STR_VAR_3}.\p"
 	.string "Dieser Trainer ist {STR_VAR_1}-mal in die\n"
 	.string "Safari-Zone gegangen!\p"
-	.string "{STR_VAR_3} ist ein Trainer, dessen\n"
-	.string "wilde Seite in der Safari-Zone zum\l"
-	.string "Vorschein kommt!$"
+	.string "{STR_VAR_3} ist ein Trainer, dessen wilde\n"
+	.string "Seite in der Safari-Zone zum Vorschein\l"
+	.string "kommt!$"
 #else
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
@@ -1347,8 +1346,8 @@ MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedStory::
 	.string "Dieser Trainer ist {STR_VAR_1}-mal\n"
 	.string "einen Absatz hinabgesprungen!\p"
 	.string "Sobald er an einen Absatz kommt, muss\n"
-	.string "Trainer {STR_VAR_3} einfach hinab-\l"
-	.string "springen.$"
+	.string "Trainer {STR_VAR_3} einfach\l"
+	.string "hinabspringen.$"
 #else
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
@@ -1716,8 +1715,8 @@ MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues1:
 MauvilleCity_PokemonCenter_1F_Text_WishICouldPlaySongForOthers:
 #if GERMAN
 	.string "Hach, was für ein bewegendes Lied…\n"
-	.string "Ich wünschte, ich könnte es für\l"
-	.string "andere spielen…$"
+	.string "Ich wünschte, ich könnte es für andere\l"
+	.string "spielen…$"
 #else
 	.string "Oh, what a moving song…\n"
 	.string "I wish I could play it for others…$"

@@ -357,9 +357,9 @@ EcruteakCity_Text_Gramps2:
 #if GERMAN
 	.string "Na, Kröte? Hast du gelernt zu\n"
 	.string "tanzen wie die Kimono-Girls?\p"
-	.string "Ich habe gehört, dass dir\n"
-	.string "ein eigenartiger Mann etwas\l"
-	.string "Nettes geben wird,\p"
+	.string "Ich habe gehört, dass dir ein\n"
+	.string "eigenartiger Mann etwas Nettes geben\l"
+	.string "wird,\p"
 	.string "wenn du zu ihrem\n"
 	.string "Tanztheater gehst.$"
 #else
@@ -393,8 +393,8 @@ EcruteakCity_Text_Lass2:
 
 EcruteakCity_Text_Lass2_ReleasedBeasts:
 #if GERMAN
-	.string "Hier sind eben drei große Pokémon an\n"
-	.string "mir vorbeigerannt und in verschiedene\l"
+	.string "Hier sind eben drei große Pokémon an mir\n"
+	.string "vorbeigerannt und in verschiedene\l"
 	.string "Richtungen verschwunden.\l"
 	.string "Was war da bloß los?$"
 #else
@@ -404,9 +404,8 @@ EcruteakCity_Text_Lass2_ReleasedBeasts:
 
 EcruteakCity_Text_Fisher:
 #if GERMAN
-	.string "Es kursiert ein Gerücht\n"
-	.string "über den Leuchtturm in\l"
-	.string "Oliviana City.\p"
+	.string "Es kursiert ein Gerücht über den\n"
+	.string "Leuchtturm in Oliviana City.\p"
 	.string "Das Pokémon, das als Leuchtfeuer\n"
 	.string "dient, wurde krank.\p"
 	.string "Sieht so aus, als wären sie\n"
@@ -421,12 +420,10 @@ EcruteakCity_Text_Fisher:
 
 EcruteakCity_Text_Fisher_JasmineReturned:
 #if GERMAN
-	.string "Das Pokémon im Leuchtturm\n"
-	.string "von Oliviana City wurde\l"
-	.string "geheilt.\p"
-	.string "Jetzt können die Schiffe\n"
-	.string "wieder gefahrlos nachts in See\l"
-	.string "stechen.$"
+	.string "Das Pokémon im Leuchtturm von Oliviana\n"
+	.string "City wurde geheilt.\p"
+	.string "Jetzt können die Schiffe wieder\n"
+	.string "gefahrlos nachts in See stechen.$"
 #else
 	.string "The POKéMON at OLIVINE LIGHTHOUSE\n"
 	.string "has been cured.\p"
@@ -450,11 +447,11 @@ EcruteakCity_Text_Gramps3:
 	.string "Ist dieser Turm abgebrannt.\p"
 	.string "Drei namenlose Pokémon sind\n"
 	.string "dabei umgekommen.\p"
-	.string "Ein regenbogenfarbenes Pokémon\n"
-	.string "kam herab und hauchte ihnen\l"
-	.string "wieder Leben ein…\p"
-	.string "Diese Legende wird von jedem Leiter\n"
-	.string "der Pokémon-Arena von Teak City an den\l"
+	.string "Ein regenbogenfarbenes Pokémon kam\n"
+	.string "herab und hauchte ihnen wieder Leben\l"
+	.string "ein…\p"
+	.string "Diese Legende wird von jedem Leiter der\n"
+	.string "Pokémon-Arena von Teak City an den\l"
 	.string "nächsten weitergegeben.\p"
 	.string "Ich?\p"
 	.string "Damals war ich ein Trainer. Hohoho!$"
@@ -473,9 +470,9 @@ EcruteakCity_Text_Gramps3:
 
 EcruteakCity_Text_SageGym:
 #if GERMAN
-	.string "Arenaleiter Jens ist gerade\n"
-	.string "nicht hier. Du kannst ihn vielleicht\l"
-	.string "an der Turmruine finden.$"
+	.string "Arenaleiter Jens ist gerade nicht hier.\n"
+	.string "Du kannst ihn vielleicht an der\l"
+	.string "Turmruine finden.$"
 #else
 	.string "Gym Leader MORTY is not here right\n"
 	.string "now. You may find him at the\l"
@@ -484,9 +481,9 @@ EcruteakCity_Text_SageGym:
 
 EcruteakCity_Text_Sign:
 #if GERMAN
-	.string "Teak City Eine historische Stadt,\n"
-	.string "wo Vergangenheit und\l"
-	.string "Gegenwart aufeinandertreffen$"
+	.string "Teak City Eine historische Stadt, wo\n"
+	.string "Vergangenheit und Gegenwart\l"
+	.string "aufeinandertreffen$"
 #else
 	.string "ECRUTEAK CITY\n"
 	.string "A Historical City\p"
@@ -515,9 +512,8 @@ EcruteakCity_Text_OfficeSign:
 
 EcruteakCity_Text_GymSign:
 #if GERMAN
-	.string "Pokémon-Arena von Teak City\n"
-	.string "Leiter: Jens\l"
-	.string "Der bescheidene Hellseher$"
+	.string "Pokémon-Arena von Teak City Leiter:\n"
+	.string "Jens Der bescheidene Hellseher$"
 #else
 	.string "ECRUTEAK CITY POKéMON GYM\n"
 	.string "LEADER: MORTY\p"
@@ -536,9 +532,9 @@ EcruteakCity_Text_BurnedTowerSign:
 	.string "Diese Ruinen sind die Reste eines Turms,\n"
 	.string "der einst einem Brandunglück zum Opfer\l"
 	.string "fiel, das nie aufgeklärt werden konnte.\p"
-	.string "Mach besser einen großen Bogen um diese\n"
-	.string "Gemäuer, denn in ihrem Inneren könnte\l"
-	.string "es gefährlich werden!$"
+	.string "Mach besser einen großen Bogen um\n"
+	.string "diese Gemäuer, denn in ihrem Inneren\l"
+	.string "könnte es gefährlich werden!$"
 #else
 	.string "BURNED TOWER\p"
 	.string "It was destroyed by a mysterious\n"

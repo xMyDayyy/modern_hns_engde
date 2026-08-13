@@ -70,8 +70,8 @@ ThreeIsland_DunsparceTunnel_Text_ProspectingForGold::
 ThreeIsland_DunsparceTunnel_Text_StruckGoldThisIsForYou::
 #if GERMAN
 	.string "Heh, du! Wie geht es dir?\n"
-	.string "Hast du schon gehört? Ich habe\l"
-	.string "Gold gefunden!\l"
+	.string "Hast du schon gehört? Ich habe Gold\l"
+	.string "gefunden!\l"
 	.string "Erinnerst du dich, dass ich danach\l"
 	.string "gesucht habe?\p"
 	.string "Du kannst dir gar nicht vorstellen,\n"

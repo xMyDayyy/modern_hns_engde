@@ -644,8 +644,8 @@ Alola_Melemele_TravelToKanto_Text_1:
 Alola_Melemele_TravelToKanto_Text_2:
 #if GERMAN
 	.string "Ahoi!\n"
-	.string "Komm wieder, wenn du in See\l"
-	.string "stechen möchtest.$"
+	.string "Komm wieder, wenn du in See stechen\l"
+	.string "möchtest.$"
 #else
 	.string "Ahoy!\n"
 	.string "Come back when you'd like to set sail.$"
@@ -669,10 +669,10 @@ Alola_Melemele_Pokecenter_Sign_Text_0:
 #if GERMAN
 	.string "Willkommen im Pokémon-Center\n"
 	.string "von Mele-Mele!\p"
-	.string "Es ist das einzige Pokémon-Center\n"
-	.string "der Alola-Inseln, aber du kannst\l"
-	.string "dich überall auf den Bänken der\l"
-	.string "Inseln ausruhen.$"
+	.string "Es ist das einzige Pokémon-Center der\n"
+	.string "Alola-Inseln, aber du kannst dich\l"
+	.string "überall auf den Bänken der Inseln\l"
+	.string "ausruhen.$"
 #else
 	.string "Welcome to the Melemele Isle\n"
 	.string "Pokémon Center!\p"
@@ -721,8 +721,7 @@ Alola_Melemele_SamsonOak_Trigger_Beginning_Text_3:
 	.string "Ah, {PLAYER}.\n"
 	.string "Ein schöner Name!\p"
 	.string "Du kennst vielleicht meinen Cousin,\n"
-	.string "Professor Eich aus der Kanto-\l"
-	.string "Region.\p"
+	.string "Professor Eich aus der Kanto-Region.\p"
 	.string "Komm, ich zeige dir den Ort!$"
 #else
 	.string "Ah, {PLAYER}.\n"
@@ -751,15 +750,14 @@ Alola_Melemele_SamsonOak_Trigger_Beginning_Text_4:
 Alola_Melemele_SamsonOak_Trigger_Beginning_Text_5:
 #if GERMAN
 	.string "Aber nun gut!\p"
-	.string "Ich erforsche Varianten von\n"
-	.string "Pokémon, die in verschiedenen\l"
-	.string "Regionen vorkommen!\p"
-	.string "Auf dem Rückweg aus der Alola-\n"
-	.string "Region bin ich auf diese Inseln\l"
-	.string "gestoßen…\p"
+	.string "Ich erforsche Varianten von Pokémon,\n"
+	.string "die in verschiedenen Regionen\l"
+	.string "vorkommen!\p"
+	.string "Auf dem Rückweg aus der Alola-Region\n"
+	.string "bin ich auf diese Inseln gestoßen…\p"
 	.string "Erstaunlicherweise leben viele der\n"
-	.string "Pokémon, die ich in Alola sah, auch\l"
-	.string "hier. Deshalb nenne ich diesen Ort…\p"
+	.string "Pokémon, die ich in Alola sah, auch hier.\l"
+	.string "Deshalb nenne ich diesen Ort…\p"
 	.string "{PAUSE 30}die Alola-Inseln!$"
 #else
 	.string "Well, anyways!\p"
@@ -778,11 +776,11 @@ Alola_Melemele_SamsonOak_Trigger_Beginning_Text_6:
 	.string "erkundet… {PAUSE 30}Ich bin selbst gerade\l"
 	.string "erst angekommen.\p"
 	.string "Ich möchte wissen, ob alle in Alola\n"
-	.string "heimischen Regionalformen auch\l"
-	.string "hier vorkommen.\p"
-	.string "Solltest du welche entdecken, komm\n"
-	.string "in meine Villa im Osten der Insel\l"
-	.string "und zeig sie mir!\p"
+	.string "heimischen Regionalformen auch hier\l"
+	.string "vorkommen.\p"
+	.string "Solltest du welche entdecken, komm in\n"
+	.string "meine Villa im Osten der Insel und zeig\l"
+	.string "sie mir!\p"
 	.string "Oh! Und erkunde unterwegs ruhig\n"
 	.string "die Insel!\p"
 	.string "Wir sehen uns dort!$"
@@ -909,9 +907,8 @@ Alola_Melemele_TrainerBattleSwimmer_Text_1:
 
 Alola_Melemele_TrainerBattleSwimmer_Text_2:
 #if GERMAN
-	.string "Im Wasser leben viele tolle\n"
-	.string "Pokémon. Probiere all deine\l"
-	.string "Angeln aus!$"
+	.string "Im Wasser leben viele tolle Pokémon.\n"
+	.string "Probiere all deine Angeln aus!$"
 #else
 	.string "There are plenty of neat Pokémon in\n"
 	.string "the water, try all your fishing rods!$"
@@ -928,9 +925,9 @@ Alola_Melemele_Bugcatcher_Text_0:
 
 Alola_Melemele_camper_Text_0:
 #if GERMAN
-	.string "Ich bin extra aus Kanto angereist,\n"
-	.string "um mein Lieblings-Vogel-Pokémon\l"
-	.string "Plaudagei zu sehen!$"
+	.string "Ich bin extra aus Kanto angereist, um\n"
+	.string "mein Lieblings-Vogel-Pokémon Plaudagei\l"
+	.string "zu sehen!$"
 #else
 	.string "I traveled all the way from Kanto to see\n"
 	.string "my favorite bird Pokémon, Chatot!$"

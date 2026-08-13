@@ -122,9 +122,9 @@ PokemonLeague_LoreleisRoom_Text_RematchIntro::
 	.string "Willkommen in der Pokémon Liga!\p"
 	.string "Ich, Lorelei von den Top\n"
 	.string "Vier, bin zurückgekehrt!\p"
-	.string "Du weißt ja Bescheid! Niemand\n"
-	.string "kann sich mit mir messen,\l"
-	.string "wenn es um Eis-Pokémon geht!\l"
+	.string "Du weißt ja Bescheid! Niemand kann sich\n"
+	.string "mit mir messen, wenn es um Eis-Pokémon\l"
+	.string "geht!\l"
 	.string "Die Kraft von Eis-Attacken ist\l"
 	.string "unglaublich!\p"
 	.string "Du wirst um Gnade winseln, wenn ich\n"
@@ -154,14 +154,10 @@ PokemonLeague_LoreleisRoom_Text_Defeat::
 
 PokemonLeague_LoreleisRoom_Text_PostBattle::
 #if GERMAN
-	.string "Du bist besser,\n"
-	.string "als ich dachte!\l"
+	.string "Du bist besser, als ich dachte!\n"
 	.string "Geh ruhig weiter!\p"
-	.string "Das hier war nur\n"
-	.string "ein Vorgeschmack\l"
-	.string "auf die Dinge,\l"
-	.string "die dich noch\l"
-	.string "erwarten...$"
+	.string "Das hier war nur ein Vorgeschmack auf\n"
+	.string "die Dinge, die dich noch erwarten...$"
 #else
 	.string "You're better than I thought.\n"
 	.string "Go on ahead.\p"

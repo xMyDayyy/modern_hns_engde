@@ -304,17 +304,17 @@ BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
 	.string "Wähle einen von drei möglichen Wegen\n"
 	.string "und schlag dich zu deinem Ziel durch,\l"
 	.string "das am Ende der Kampfipitis liegt…\p"
-	.string "Das, was dir auf deinem Weg an Heraus-\n"
-	.string "forderungen begegnet, hängt allein\l"
-	.string "von deinem Glück ab…\p"
+	.string "Das, was dir auf deinem Weg an\n"
+	.string "Herausforderungen begegnet, hängt\l"
+	.string "allein von deinem Glück ab…\p"
 	.string "Erreichst du dein Ziel, erhältst du\n"
 	.string "Gewinnpunkte.\p"
 	.string "Wenn du die Herausforderung abbrechen\n"
 	.string "möchtest, wende dich bitte an unser \l"
 	.string "Personal in den Räumen am Weg.\p"
-	.string "Wenn du nicht speicherst, bevor du\n"
-	.string "die Herausforderung unterbrichst,\l"
-	.string "wirst du disqualifiziert.$"
+	.string "Wenn du nicht speicherst, bevor du die\n"
+	.string "Herausforderung unterbrichst, wirst du\l"
+	.string "disqualifiziert.$"
 #else
 	.string "Here we conduct an event we call\n"
 	.string "the Battle Choice.\p"
@@ -407,8 +407,7 @@ BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
 #if GERMAN
-	.string "Bitte wähle 3 Pokémon, mit denen du\n"
-	.string "dich\l"
+	.string "Bitte wähle 3 Pokémon, mit denen du dich\n"
 	.string "der Herausforderung stellen möchtest.$"
 #else
 	.string "Please choose the three POKéMON\n"
@@ -418,8 +417,7 @@ BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
 #if GERMAN
 	.string "Bevor du dich der Herausforderung\n"
-	.string "stellst, muss ich dein Spiel\l"
-	.string "speichern.\l"
+	.string "stellst, muss ich dein Spiel speichern.\l"
 	.string "Bist du damit einverstanden?$"
 #else
 	.string "Before starting your Battle Choice\n"
@@ -511,8 +509,8 @@ BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
 BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
 #if GERMAN
 	.string "Herzlichen Glückwunsch!\p"
-	.string "Du hast dir von der Pfipitistin den\n"
-	.string "Sieg geholt und die Herausforderung\l"
+	.string "Du hast dir von der Pfipitistin den Sieg\n"
+	.string "geholt und die Herausforderung\l"
 	.string "gemeistert!$"
 #else
 	.string "Congratulations…\p"
@@ -609,9 +607,8 @@ BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
 #if GERMAN
-	.string "Auf der Kampfbahn ist jede\n"
-	.string "Beere und jedes Kraut nur einmal\l"
-	.string "wirksam.$"
+	.string "Auf der Kampfbahn ist jede Beere und\n"
+	.string "jedes Kraut nur einmal wirksam.$"
 #else
 	.string "During a Battle Choice challenge,\n"
 	.string "any BERRY or HERB held by POKéMON\l"
@@ -620,9 +617,8 @@ BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
 
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
 #if GERMAN
-	.string "Auf der Kampfbahn kann die\n"
-	.string "Reihenfolge der Pokémon nicht\l"
-	.string "verändert werden.\p"
+	.string "Auf der Kampfbahn kann die Reihenfolge\n"
+	.string "der Pokémon nicht verändert werden.\p"
 	.string "Du musst die Reihenfolge festlegen,\n"
 	.string "bevor du die Herausforderung annimmst.$"
 #else

@@ -120,8 +120,8 @@ Route10_PowerPlantBackRoom_Text_ManagerTM07IsZapCannon:
 	.string "Direktor: TM25\n"
 	.string "enthält Donner. Eine sehr\p"
 	.string "starke Attacke! Sie ist nicht sehr\n"
-	.string "präzise, aber du kannst jemanden\l"
-	.string "damit ordentlich schmoren!$"
+	.string "präzise, aber du kannst jemanden damit\l"
+	.string "ordentlich schmoren!$"
 #else
 	.string "MANAGER: That TM is THUNDER.\p"
 	.string "It's a powerful technique!\p"

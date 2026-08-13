@@ -91,9 +91,9 @@ CianwoodCity_Text_ChucksWifeEasierToFly:
 #if GERMAN
 	.string "Du hast auf dem Weg hierher doch\n"
 	.string "bestimmt das Meer überquert, oder?\p"
-	.string "Würde eines deiner Pokémon die\n"
-	.string "Attacke Fliegen beherrschen, hättest\l"
-	.string "du dir den ganzen Ärger sparen können!$"
+	.string "Würde eines deiner Pokémon die Attacke\n"
+	.string "Fliegen beherrschen, hättest du dir den\l"
+	.string "ganzen Ärger sparen können!$"
 #else
 	.string "You crossed the sea to get here?\p"
 	.string "That must have been hard.\p"
@@ -161,8 +161,8 @@ CianwoodCity_EventScript_Youngster::
 CianwoodCity_Text_Youngster:
 #if GERMAN
 	.string "Wenn eins deiner Pokémon die Attacke\n"
-	.string "Fliegen gelernt hat, gelangst du auch\l"
-	.string "im Handumdrehen bis nach Oliviana City!$"
+	.string "Fliegen gelernt hat, gelangst du auch im\l"
+	.string "Handumdrehen bis nach Oliviana City!$"
 #else
 	.string "If you use FLY, you can get back\n"
 	.string "to OLIVINE instantly.$"
@@ -339,8 +339,8 @@ CianwoodCity_Text_EusineSuicune:
 	.string "Ich würde es nur zu gerne mal aus\n"
 	.string "nächster Nähe sehen…\p"
 	.string "Los, lass uns kämpfen! Wenn ich dich\n"
-	.string "besiege, erkennt mich Suicune vielleicht\l"
-	.string "als würdigen Trainer an!\p"
+	.string "besiege, erkennt mich Suicune\l"
+	.string "vielleicht als würdigen Trainer an!\p"
 	.string "Komm schon, {PLAYER}!$"
 #else
 	.string "EUSINE: Yo, {PLAYER}.\p"
@@ -411,9 +411,8 @@ CianwoodCity_EventScript_GymSign::
 CianwoodCity_Text_GymSign:
 #if GERMAN
 	.string "Pokémon-Arena von Anemonia City\n"
-	.string "Leiter: Hartwig\l"
-	.string "Er lässt lieber seine Fäuste für\l"
-	.string "sich sprechen!$"
+	.string "Leiter: Hartwig Er lässt lieber seine\l"
+	.string "Fäuste für sich sprechen!$"
 #else
 	.string "CIANWOOD CITY POKéMON GYM\p"
 	.string "LEADER: CHUCK\p"
@@ -431,8 +430,8 @@ CianwoodCity_Text_PharmacySign:
 #if GERMAN
 	.string "Apotheke von Anemonia City\p"
 	.string "Seit 500 Jahren im Geschäft.\n"
-	.string "Wir haben immer ein offenes Ohr\l"
-	.string "für medizinische Fragen aller Art!$"
+	.string "Wir haben immer ein offenes Ohr für\l"
+	.string "medizinische Fragen aller Art!$"
 #else
 	.string "500 Years of Tradition\p"
 	.string "CIANWOOD CITY PHARMACY\p"
@@ -465,8 +464,8 @@ CianwoodCity_Text_Safari:
 CianwoodCity_Text_Engineer:
 #if GERMAN
 	.string "Hier sind aktuell Bauarbeiten.\n"
-	.string "Wir gestalten die neue Safari-Zone,\l"
-	.string "du musst noch warten.$"
+	.string "Wir gestalten die neue Safari-Zone, du\l"
+	.string "musst noch warten.$"
 #else
 	.string "This path is under construction.\n"
 	.string "We're getting the new SAFARI ZONE\l"

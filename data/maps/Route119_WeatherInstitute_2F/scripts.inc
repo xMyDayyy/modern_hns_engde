@@ -224,8 +224,8 @@ Route119_WeatherInstitute_2F_Text_Grunt2Defeat:
 Route119_WeatherInstitute_2F_Text_Grunt2PostBattle:
 #if GERMAN
 	.string "Wenn sie hier tatsächlich ein Pokémon\n"
-	.string "entwickelt haben, das das Wetter kon-\l"
-	.string "trollieren kann, müssen wir von Team\l"
+	.string "entwickelt haben, das das Wetter\l"
+	.string "kontrollieren kann, müssen wir von Team\l"
 	.string "Aqua es in unsere Gewalt bringen!$"
 #else
 	.string "If the POKéMON they made here can\n"
@@ -299,8 +299,8 @@ Route119_WeatherInstitute_2F_Text_ShellyIntro:
 #if GERMAN
 	.string "Ahahahahaha!!!\p"
 	.string "Du willst dich allen Ernstes in die\n"
-	.string "Ange-\l"
-	.string "legenheiten von Team Aqua einmischen?\p"
+	.string "Angelegenheiten von Team Aqua\l"
+	.string "einmischen?\p"
 	.string "\p"
 	.string "Dann bist du entweder furchtlos oder\n"
 	.string "einfach dumm! Oder beides?\p"
@@ -332,8 +332,7 @@ Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
 	.string "setzen zu müssen, und jetzt kommst du\n"
 	.string "auch noch daher!\p"
 	.string "Warum musst du deine spitze Nase in\n"
-	.string "Dinge stecken, die dich nichts\l"
-	.string "angehen?$"
+	.string "Dinge stecken, die dich nichts angehen?$"
 #else
 	.string "It's bad enough to have TEAM MAGMA\n"
 	.string "blunder about, but now there's you!\p"
@@ -377,8 +376,8 @@ Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:
 	.string "Danke! Vielen Dank! Nun sind wir in\n"
 	.string "Sicherheit! \p"
 	.string "Es ist vielleicht eine seltsame Art\n"
-	.string "danke zu sagen, aber dieses Pokémon\l"
-	.string "ist für dich!$"
+	.string "danke zu sagen, aber dieses Pokémon ist\l"
+	.string "für dich!$"
 #else
 	.string "Thanks!\n"
 	.string "Thanks to you, we're safe!\p"
@@ -420,8 +419,7 @@ Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
 #if GERMAN
 	.string "Seit Jahren erforsche ich den Regen,\n"
 	.string "aber zu denken, dass Menschen das\l"
-	.string "Wetter frei bestimmen können, ist\l"
-	.string "dumm.$"
+	.string "Wetter frei bestimmen können, ist dumm.$"
 #else
 	.string "I've been researching rain for many\n"
 	.string "years, but it's ridiculous to think that\l"
@@ -449,8 +447,7 @@ Route119_WeatherInstitute_2F_Text_KyogreWeather:
 #if GERMAN
 	.string "Ich zeichne die Klimaveränderungen in\n"
 	.string "der Hoenn-Region auf.\p"
-	.string "Im Moment gibt es starke\n"
-	.string "Niederschläge.\l"
+	.string "Im Moment gibt es starke Niederschläge.\n"
 	.string "Und zwar… auf der {STR_VAR_1}.\p"
 	.string "Bedeutet das, dass auf der\n"
 	.string "{STR_VAR_1}…$"

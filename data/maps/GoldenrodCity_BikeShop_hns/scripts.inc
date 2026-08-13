@@ -44,16 +44,15 @@ GoldenrodCity_BikeShop_EventScript_Bike::
 GoldenrodCity_BikeShop_Text_Clerk2:
 #if GERMAN
 	.string "Radfahren ist kinderleicht: Registriere\n"
-	.string "das Rad einfach im Beutel, dann\l"
-	.string "genügt ein Tastendruck.\p"
+	.string "das Rad einfach im Beutel, dann genügt\l"
+	.string "ein Tastendruck.\p"
 	.string "Wenn du schneller werden willst,\n"
 	.string "musst du erst einmal anhalten!\p"
-	.string "Das klingt seltsam, aber du kannst\n"
-	.string "nur im Stand einen anderen Gang\l"
-	.string "einlegen.\p"
+	.string "Das klingt seltsam, aber du kannst nur\n"
+	.string "im Stand einen anderen Gang einlegen.\p"
 	.string "Drücke im Stand die R-Taste, dann\n"
-	.string "erreichst du beim nächsten Tritt\l"
-	.string "viel höhere Geschwindigkeiten!$"
+	.string "erreichst du beim nächsten Tritt viel\l"
+	.string "höhere Geschwindigkeiten!$"
 #else
 	.string "Riding the BIKE is as simple as\n"
 	.string "pressing a button if you\l"
@@ -70,8 +69,8 @@ GoldenrodCity_BikeShop_Text_Clerk2:
 
 GoldenrodCity_BikeShop_Text_ClerkIntro:
 #if GERMAN
-	.string "…Seufz… Ich bin hierher gezogen,\n"
-	.string "aber ich kann meine Fahrräder nicht\l"
+	.string "…Seufz… Ich bin hierher gezogen, aber\n"
+	.string "ich kann meine Fahrräder nicht\l"
 	.string "verkaufen. Warum nur?\p"
 	.string "Würdest du ein Fahrrad fahren\n"
 	.string "und so Werbung machen?$"

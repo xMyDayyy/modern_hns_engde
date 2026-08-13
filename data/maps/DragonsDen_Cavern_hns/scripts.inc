@@ -23,8 +23,8 @@ DragonsDen_Text_Clair:
 #if GERMAN
 	.string "{PLAYER}… du bist also hier.\p"
 	.string "Wenn du denkst, dass du mit mir\n"
-	.string "mithalten kannst, komm zum\l"
-	.string "Kampf-Dojo in Saffronia City.$"
+	.string "mithalten kannst, komm zum Kampf-Dojo\l"
+	.string "in Saffronia City.$"
 #else
     .string "{PLAYER}… So you're here.\p"
 	.string "If you think you can keep up,\n"
@@ -173,9 +173,9 @@ DragonsDen_Cavern_Text_ClairWhatsTheMatter:
 #if GERMAN
 	.string "Was ist los? Gehst du nicht\n"
 	.string "weiter zur Pokémon-Liga?\p"
-	.string "Wenn du Champion werden willst,\n"
-	.string "kannst du jeden Arenaleiter\l"
-	.string "noch einmal herausfordern.\p"
+	.string "Wenn du Champion werden willst, kannst\n"
+	.string "du jeden Arenaleiter noch einmal\l"
+	.string "herausfordern.\p"
 	.string "Geh zur Pokémon-Liga.\p"
 	.string "Weißt du, wie du dorthin kommst?\p"
 	.string "Von hier aus nach Neuborkia.\p"
@@ -185,8 +185,8 @@ DragonsDen_Cavern_Text_ClairWhatsTheMatter:
 	.string "Verlier bloß nicht in der Pokémon-\n"
 	.string "Liga!\p"
 	.string "Wenn doch, fühle ich mich noch\n"
-	.string "schlechter, weil ich gegen dich\l"
-	.string "verloren habe!\p"
+	.string "schlechter, weil ich gegen dich verloren\l"
+	.string "habe!\p"
 	.string "Gib alles, was du hast.$"
 #else
     .string "What's the matter? Aren't\n"

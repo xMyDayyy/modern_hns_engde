@@ -31,9 +31,8 @@ Route6_EventScript_Item_Silver_Wind::
 
 Route6_Text_PokefanM:
 #if GERMAN
-	.string "Die Straße zum Kraftwerk\n"
-	.string "bleibt gesperrt, bis das\l"
-	.string "Problem gelöst wurde.$"
+	.string "Die Straße zum Kraftwerk bleibt\n"
+	.string "gesperrt, bis das Problem gelöst wurde.$"
 #else
 	.string "The road is closed until the\n"
 	.string "problem at the POWER PLANT is\l"

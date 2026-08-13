@@ -17,8 +17,8 @@ Route41_EventScript_Charlie::
 
 Route41_Text_SwimmermCharlieSeen:
 #if GERMAN
-	.string "Das Wasser ist schön warm. Ich\n"
-	.string "fühle mich locker und gelenkig.\l"
+	.string "Das Wasser ist schön warm. Ich fühle\n"
+	.string "mich locker und gelenkig.\l"
 	.string "Natürlich trete ich gegen dich an!$"
 #else
 	.string "The water's warm here.\n"
@@ -51,8 +51,8 @@ Route41_EventScript_George::
 Route41_Text_SwimmermGeorgeSeen:
 #if GERMAN
 	.string "Ich bin etwas müde.\n"
-	.string "Wenn ich gewinne, leihst du mir\l"
-	.string "dann dein Pokémon?$"
+	.string "Wenn ich gewinne, leihst du mir dann\l"
+	.string "dein Pokémon?$"
 #else
 	.string "I'm a bit tired.\n"
 	.string "If I win, lend me your POKéMON.$"
@@ -104,10 +104,10 @@ Route41_Text_SwimmermBerkeAfter:
 #if GERMAN
 	.string "Es war eine dunkle und stürmische\n"
 	.string "Nacht…\p"
-	.string "als ich dieses riesige Pokémon\n"
-	.string "über den Inseln aufsteigen sah.\l"
-	.string "Aus seinen silbernen Flügeln\l"
-	.string "wehten einige Federn durch die Luft.$"
+	.string "als ich dieses riesige Pokémon über den\n"
+	.string "Inseln aufsteigen sah.\l"
+	.string "Aus seinen silbernen Flügeln wehten\l"
+	.string "einige Federn durch die Luft.$"
 #else
 	.string "It was a dark and stormy night…\p"
 	.string "I saw this giant POKéMON flying\n"
@@ -201,8 +201,8 @@ Route41_Text_SwimmerfKayleeBeaten:
 
 Route41_Text_SwimmerfKayleeAfter:
 #if GERMAN
-	.string "Tief im Inneren der Strudelinseln\n"
-	.string "soll ein riesiges Pokémon hausen.\l"
+	.string "Tief im Inneren der Strudelinseln soll\n"
+	.string "ein riesiges Pokémon hausen.\l"
 	.string "Was für ein Pokémon das wohl ist?$"
 #else
 	.string "There's supposed to be a big\n"
@@ -315,8 +315,8 @@ Route41_EventScript_Wendy::
 Route41_Text_SwimmerfWendySeen:
 #if GERMAN
 	.string "Wenn es Nacht wird, sammeln sich\n"
-	.string "Schwärme von Sterndu\l"
-	.string "nahe der Küste von Oliviana City.$"
+	.string "Schwärme von Sterndu nahe der Küste\l"
+	.string "von Oliviana City.$"
 #else
 	.string "At night, STARYU gather near\n"
 	.string "the water's surface.$"

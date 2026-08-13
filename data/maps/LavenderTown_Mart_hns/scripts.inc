@@ -14,9 +14,9 @@ LavenderMart_Text_PokefanM:
 	.string "“Schutz” ist auf jeder Erkundungstour\n"
 	.string "ein unabdingbares Item!\p"
 	.string "Ich liebe es zwar, fremde Orte zu\n"
-	.string "erkunden, aber es gibt immer noch\l"
-	.string "ein paar Höhlen, in die ich noch nie\l"
-	.string "auch nur einen Fuß gesetzt habe.$"
+	.string "erkunden, aber es gibt immer noch ein\l"
+	.string "paar Höhlen, in die ich noch nie auch nur\l"
+	.string "einen Fuß gesetzt habe.$"
 #else
 	.string "REPEL is a necessity if you are\n"
 	.string "going to explore a cave.\p"
@@ -27,8 +27,8 @@ LavenderMart_Text_PokefanM:
 
 LavenderMart_Text_Rocker:
 #if GERMAN
-	.string "Ich habe von einem Kunstschmied\n"
-	.string "in Johto gehört, der maßgefertigte\l"
+	.string "Ich habe von einem Kunstschmied in\n"
+	.string "Johto gehört, der maßgefertigte\l"
 	.string "Pokébälle herstellen soll.\p"
 	.string "Ich wünschte, ich hätte auch welche!$"
 #else

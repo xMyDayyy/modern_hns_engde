@@ -123,8 +123,8 @@ VioletGym_Text_Falkner_TMExplain:
 	.string "sofort eine neue Attacke.\p"
 	.string "TM51 enthält Ruheort.\p"
 	.string "Damit heilt dein Pokémon die Hälfte\n"
-	.string "seiner KP, verliert dafür aber bis\l"
-	.string "zum Rundenende den Flug-Typ.$"
+	.string "seiner KP, verliert dafür aber bis zum\l"
+	.string "Rundenende den Flug-Typ.$"
 #else
 	.string "By using a TM, a POKéMON will\n"
 	.string "instantly learn a new move.\p"
@@ -142,8 +142,8 @@ VioletGym_Text_Falkner_AfterFight:
 	.string "Als Nächstes… ja, als Nächstes nimmst\n"
 	.string "du dir am besten Azalea City vor!\p"
 	.string "Ich werde noch härter trainieren, um\n"
-	.string "der größte Vogelfänger aller Zeiten\l"
-	.string "zu werden!$"
+	.string "der größte Vogelfänger aller Zeiten zu\l"
+	.string "werden!$"
 #else
 	.string "There are POKéMON GYMS in cities\n"
 	.string "and towns ahead.\p"
@@ -239,9 +239,8 @@ VioletGym_Text_BirdKeeperAbe_After:
 
 VioletGym_Text_GymGuide_Intro:
 #if GERMAN
-	.string "Hey! Was geht? Ich bin kein\n"
-	.string "Trainer, aber ich kann ein paar\l"
-	.string "Tipps geben!\p"
+	.string "Hey! Was geht? Ich bin kein Trainer,\n"
+	.string "aber ich kann ein paar Tipps geben!\p"
 	.string "Hörst du zu?\n"
 	.string "Dann pass auf.\p"
 	.string "Falkners Trumpf ist eine kräftige\n"
@@ -273,9 +272,9 @@ VioletGym_Text_GymGuide_Intro:
 
 VioletGym_Text_GymGuide_Win:
 #if GERMAN
-	.string "Netter Kampf! Mach immer so\n"
-	.string "weiter und aus dir wird schon\l"
-	.string "bald ein echter Champ!$"
+	.string "Netter Kampf! Mach immer so weiter und\n"
+	.string "aus dir wird schon bald ein echter\l"
+	.string "Champ!$"
 #else
 	.string "Nice battle! Keep it up,\n"
 	.string "and you'll be the CHAMP in no\l"

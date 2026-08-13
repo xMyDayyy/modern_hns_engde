@@ -29,11 +29,10 @@ ThreeIsland_PokemonCenter_1F_EventScript_Rocker::
 ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto::
 #if GERMAN
 	.string "Heh! Hast du schon gehört?\p"
-	.string "Das PC-Netzwerk hier kann nun\n"
-	.string "mit den PCs in Kanto verbunden\l"
-	.string "werden.\l"
-	.string "Ich weiß nicht, wie das zu Stande\l"
-	.string "kam, aber es ist großartig!$"
+	.string "Das PC-Netzwerk hier kann nun mit den\n"
+	.string "PCs in Kanto verbunden werden.\l"
+	.string "Ich weiß nicht, wie das zu Stande kam,\l"
+	.string "aber es ist großartig!$"
 #else
 	.string "Hey, did you hear the news?\p"
 	.string "The PC network here can now link\n"

@@ -132,9 +132,9 @@ FuchsiaCity_Text_Youngster:
 
 FuchsiaCity_Text_PokefanM:
 #if GERMAN
-	.string "Die Tochter von Koga, einem der\n"
-	.string "Top Vier, hat es hier bis zur\l"
-	.string "Arenaleiterin gebracht!$"
+	.string "Die Tochter von Koga, einem der Top\n"
+	.string "Vier, hat es hier bis zur Arenaleiterin\l"
+	.string "gebracht!$"
 #else
 	.string "KOGA's daughter succeeded him as\n"
 	.string "the GYM LEADER after he joined the\l"
@@ -165,8 +165,8 @@ FuchsiaCity_Text_Sign:
 FuchsiaCity_Text_GymSign:
 #if GERMAN
 	.string "Pokémon-Arena von Fuchsania City\n"
-	.string "Leiterin: Janina\l"
-	.string "Die giftige Ninja-Meisterin$"
+	.string "Leiterin: Janina Die giftige\l"
+	.string "Ninja-Meisterin$"
 #else
 	.string "FUCHSIA CITY POKéMON GYM\n"
 	.string "LEADER: JANINE\p"

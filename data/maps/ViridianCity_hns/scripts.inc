@@ -31,9 +31,8 @@ ViridianCity_Text_OakName:
 ViridianCity_Text_OakCall:
 #if GERMAN
 	.string "Eich: Ah, {PLAYER}!\p"
-	.string "Komm und besuche mich\n"
-	.string "im Labor in Alabastia,\l"
-	.string "wenn du Zeit hast.$"
+	.string "Komm und besuche mich im Labor in\n"
+	.string "Alabastia, wenn du Zeit hast.$"
 #else
 	.string "OAK: Ah, {PLAYER}!\p"
 	.string "Come and see my at my\n"
@@ -97,8 +96,8 @@ ViridianCity_Text_CoffeeGramps_Question:
 #if GERMAN
 	.string "Hey, du da! Krächz… warte mal!\n"
 	.string "Hör mir gefälligst zu!\p"
-	.string "Ich sehe vielleicht alt aus, aber als\n"
-	.string "ich noch jung war, war ich eine ziemlich\l"
+	.string "Ich sehe vielleicht alt aus, aber als ich\n"
+	.string "noch jung war, war ich eine ziemlich\l"
 	.string "große Nummer mit dem Pokéball!\p"
 	.string "Nimmst du mir das ab, Kurzbein?$"
 #else

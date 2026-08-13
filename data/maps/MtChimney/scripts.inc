@@ -574,9 +574,9 @@ MtChimney_Text_MaxieIntro:
 	.string "Hmpf! Und du glaubst, du kannst dich\n"
 	.string "auch in unsere, Team Magmas\l"
 	.string "Angelegenheiten einmischen?\p"
-	.string "Hör gut zu. Schon lange Zeit nutzen\n"
-	.string "die Lebewesen das Land, um zu\l"
-	.string "wachsen und zu gedeihen.\p"
+	.string "Hör gut zu. Schon lange Zeit nutzen die\n"
+	.string "Lebewesen das Land, um zu wachsen und\l"
+	.string "zu gedeihen.\p"
 	.string "Daher ist das Land wichtiger als alles\n"
 	.string "andere! Es ist die Wiege allen Lebens.\l"
 	.string "\p"
@@ -588,13 +588,11 @@ MtChimney_Text_MaxieIntro:
 	.string "im Inneren dieses Berges schläft…\p"
 	.string "Nun, mehr brauchst du nicht zu wissen.\n"
 	.string "\p"
-	.string "Ich kann einem sturen Kind wie dir\n"
-	.string "nicht\l"
+	.string "Ich kann einem sturen Kind wie dir nicht\n"
 	.string "erlauben, sich uns in den Weg zu\p"
 	.string "stellen. \p"
-	.string "Ich werde dir zeigen, was\n"
-	.string "passiert, wenn du uns aufhalten\l"
-	.string "willst!$"
+	.string "Ich werde dir zeigen, was passiert, wenn\n"
+	.string "du uns aufhalten willst!$"
 #else
 	.string "MAXIE: Hm?\n"
 	.string "Who are you?\p"
@@ -639,8 +637,7 @@ MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
 	.string "Marc: Genug.\n"
 	.string "Ich ziehe mich für den Moment zurück.\l"
 	.string "\p"
-	.string "Aber das ist nicht das letzte Mal,\n"
-	.string "dass\l"
+	.string "Aber das ist nicht das letzte Mal, dass\n"
 	.string "du Team Magma zu Gesicht bekommen\l"
 	.string "hast.\p"
 	.string "Hähähä…\p"
@@ -661,9 +658,9 @@ MtChimney_Text_TabithaIntro:
 	.string "Hahahahaha!\p"
 	.string "Da bist du also den weiten Weg hier\n"
 	.string "hoch gelatscht.\p"
-	.string "Tja, du kommst leider zu spät. Ich\n"
-	.string "habe den Meteoriten aus Meteorfälle\l"
-	.string "bereits bei meinem Boss abgeliefert!$"
+	.string "Tja, du kommst leider zu spät. Ich habe\n"
+	.string "den Meteoriten aus Meteorfälle bereits\l"
+	.string "bei meinem Boss abgeliefert!$"
 #else
 	.string "Hehehe!\p"
 	.string "So you've come all the way here!\p"
@@ -733,8 +730,7 @@ MtChimney_Text_Grunt2PostBattle:
 
 MtChimney_Text_Grunt1Intro:
 #if GERMAN
-	.string "Wenn es mehr Land gibt, wäre ich in\n"
-	.string "der\l"
+	.string "Wenn es mehr Land gibt, wäre ich in der\n"
 	.string "Lage, mir ein eigenes großes Haus zu\l"
 	.string "bauen!\p"
 	.string "Das würde ich dann auf der erstarrten\n"
@@ -763,8 +759,8 @@ MtChimney_Text_Grunt1PostBattle:
 
 MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
 #if GERMAN
-	.string "Dieses lästige Team Aqua… Sie ver-\n"
-	.string "suchen alles, unsere Pläne zu\l"
+	.string "Dieses lästige Team Aqua… Sie\n"
+	.string "versuchen alles, unsere Pläne zu\l"
 	.string "vereiteln.$"
 #else
 	.string "That annoying TEAM AQUA…\n"
@@ -793,8 +789,7 @@ MtChimney_Text_AquasNameSimilar:
 #if GERMAN
 	.string "Wir sind Team Magma!\p"
 	.string "Sie sind Team Aqua!\p"
-	.string "Ich finde es total bescheuert, dass\n"
-	.string "sie\l"
+	.string "Ich finde es total bescheuert, dass sie\n"
 	.string "einen Namen haben, der unserem ähnelt.$"
 #else
 	.string "We're TEAM MAGMA!\p"
@@ -893,8 +888,7 @@ MtChimney_Text_ArchieThankYou:
 MtChimney_Text_MagmaOutnumbersUs:
 #if GERMAN
 	.string "Mist… Team Magma ist uns zahlenmäßig\n"
-	.string "überlegen! Wir können es nicht mit\l"
-	.string "ihnen\l"
+	.string "überlegen! Wir können es nicht mit ihnen\l"
 	.string "aufnehmen!$"
 #else
 	.string "Darn… TEAM MAGMA outnumbers us!\n"
@@ -1023,8 +1017,8 @@ MtChimney_Text_RouteSign:
 
 MtChimney_Text_ShelbyIntro:
 #if GERMAN
-	.string "Ich war bei den Heißen Quellen und\n"
-	.string "habe meine müden Knochen erfrischt.\l"
+	.string "Ich war bei den Heißen Quellen und habe\n"
+	.string "meine müden Knochen erfrischt.\l"
 	.string "Jetzt fühle ich mich richtig stark!$"
 #else
 	.string "I've been to the hot springs and\n"
@@ -1095,8 +1089,7 @@ MtChimney_Text_ShelbyPostRematch:
 MtChimney_Text_MelissaIntro:
 #if GERMAN
 	.string "Ich habe Feuer in mir, Baby.\n"
-	.string "Ich halt’s nicht aus! Ich muss\l"
-	.string "kämpfen!$"
+	.string "Ich halt’s nicht aus! Ich muss kämpfen!$"
 #else
 	.string "I've got the fire in me, baby.\n"
 	.string "I can't stand it! I have to battle!$"
@@ -1138,8 +1131,7 @@ MtChimney_Text_SheilaDefeat:
 
 MtChimney_Text_SheilaPostBattle:
 #if GERMAN
-	.string "Wie ich schon sagte, endlich bin ich\n"
-	.string "am\l"
+	.string "Wie ich schon sagte, endlich bin ich am\n"
 	.string "Schlotberg. Wäre doch blödsinnig, wenn\l"
 	.string "ich nur zum Sightseeing hier wäre…\p"
 	.string "Ich will ein bisschen kämpfen und\n"
@@ -1185,8 +1177,7 @@ MtChimney_Text_ShirleyPostBattle:
 
 MtChimney_Text_SawyerIntro:
 #if GERMAN
-	.string "Dies ist ein schöner Berg! Hier gibt\n"
-	.string "es\l"
+	.string "Dies ist ein schöner Berg! Hier gibt es\n"
 	.string "viele interessante Leute, die einem\l"
 	.string "Gesellschaft leisten.$"
 #else
@@ -1222,8 +1213,8 @@ MtChimney_Text_SawyerRegister:
 
 MtChimney_Text_SawyerRematchIntro:
 #if GERMAN
-	.string "Ich freue mich, denn hier gibt es\n"
-	.string "viele hitzköpfige Menschen.\l"
+	.string "Ich freue mich, denn hier gibt es viele\n"
+	.string "hitzköpfige Menschen.\l"
 	.string "Ich verliere mit Sicherheit nicht.$"
 #else
 	.string "I'm happily surrounded by hot people\n"
@@ -1241,10 +1232,9 @@ MtChimney_Text_SawyerRematchDefeat:
 
 MtChimney_Text_SawyerPostRematch:
 #if GERMAN
-	.string "Hier ist es wirklich sehr heiß. Und\n"
-	.string "ich\l"
-	.string "bin absolut zu warm angezogen für\l"
-	.string "diese Gegend.$"
+	.string "Hier ist es wirklich sehr heiß. Und ich\n"
+	.string "bin absolut zu warm angezogen für diese\l"
+	.string "Gegend.$"
 #else
 	.string "Actually, it really is hot here.\n"
 	.string "I'm overdressed for these parts.$"

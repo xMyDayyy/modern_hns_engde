@@ -35,9 +35,8 @@ Melemele_House5_Mom_Text_0:
 #if GERMAN
 	.string "Ich überlege, mit meinem Sohn Elio\n"
 	.string "in die Alola-Region zu ziehen.\p"
-	.string "Hier auf den Inseln holen wir uns\n"
-	.string "schon mal einen kleinen Vorge-\l"
-	.string "schmack!$"
+	.string "Hier auf den Inseln holen wir uns schon\n"
+	.string "mal einen kleinen Vorgeschmack!$"
 #else
 	.string "I'm thinking of moving to the Alola\n"
 	.string "Region with my son, Elio.\p"

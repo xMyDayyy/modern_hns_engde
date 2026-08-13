@@ -68,9 +68,8 @@ RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish:
 #if GERMAN
 	.string "Ich habe einige Para-Heiler und\n"
 	.string "etwas Gegengift gekauft.\p"
-	.string "Nur für den Fall, dass mir ein\n"
-	.string "Knilz im Blütenburgwald\l"
-	.string "über den Weg läuft.$"
+	.string "Nur für den Fall, dass mir ein Knilz im\n"
+	.string "Blütenburgwald über den Weg läuft.$"
 #else
 	.string "I'm buying some PARLYZ HEALS and\n"
 	.string "ANTIDOTES.\p"

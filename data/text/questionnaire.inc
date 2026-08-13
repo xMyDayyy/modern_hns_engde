@@ -9,9 +9,8 @@ Questionnaire_Text_FillOut::
 
 Questionnaire_Text_ThankYou::
 #if GERMAN
-	.string "Danke, dass du dir die Zeit\n"
-	.string "genommen hast, den\l"
-	.string "Fragebogen auszufüllen.\l"
+	.string "Danke, dass du dir die Zeit genommen\n"
+	.string "hast, den Fragebogen auszufüllen.\l"
 	.string "Deine Antworten werden ausgewertet\l"
 	.string "und zukünftig berücksichtigt.$"
 #else
@@ -40,9 +39,8 @@ Questionnaire_Text_YouKnowThoseWordsGift::
 
 Questionnaire_Text_YouCanAccessMysteryGift::
 #if GERMAN
-	.string "Sobald du dein Spiel gesichert\n"
-	.string "hast, kannst du Geheimgeschehen\l"
-	.string "auswählen.$"
+	.string "Sobald du dein Spiel gesichert hast,\n"
+	.string "kannst du Geheimgeschehen auswählen.$"
 #else
 	.string "Once you save your game, you can\n"
 	.string "access the MYSTERY GIFT.$"
@@ -63,9 +61,8 @@ Questionnaire_Text_YouKnowThoseWordsEvent::
 
 Questionnaire_Text_YouCanAccessMysteryEvent::
 #if GERMAN
-	.string "Sobald du dein Spiel gesichert\n"
-	.string "hast, kannst du Geheimgeschehen\l"
-	.string "auswählen.$"
+	.string "Sobald du dein Spiel gesichert hast,\n"
+	.string "kannst du Geheimgeschehen auswählen.$"
 #else
 	.string "Once you save your game, you can\n"
 	.string "access the MYSTERY EVENT.$"

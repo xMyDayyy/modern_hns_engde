@@ -269,8 +269,8 @@ SSAqua_B1F_EventScript_Wai::
 SSAqua_B1F_Text_BlackbeltWaiSeen:
 #if GERMAN
 	.string "Arrr!\n"
-	.string "Ich trainiere meine Beine, indem ich\l"
-	.string "das Schaukeln des Schiffes ausgleiche!$"
+	.string "Ich trainiere meine Beine, indem ich das\l"
+	.string "Schaukeln des Schiffes ausgleiche!$"
 #else
 	.string "I'm building up my legs by\n"
 	.string "bracing\p"

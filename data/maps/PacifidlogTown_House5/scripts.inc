@@ -41,8 +41,7 @@ PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather:
 	.string "Wundereiland…\p"
 	.string "Die Insel ist sichtbar oder nicht\n"
 	.string "sichtbar. Das hängt vom Wetter ab, das\l"
-	.string "Fata Morganen möglich macht oder\l"
-	.string "nicht. \p"
+	.string "Fata Morganen möglich macht oder nicht.\p"
 	.string "Oder verschwindet die Insel\n"
 	.string "tatsächlich manchmal?$"
 #else

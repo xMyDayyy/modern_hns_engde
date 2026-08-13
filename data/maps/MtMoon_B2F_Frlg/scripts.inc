@@ -175,8 +175,7 @@ MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
 	.string "Auf der fernen Zinnoberinsel\n"
 	.string "gibt es ein Pokémon-Labor.\p"
 	.string "Dort versucht man, aus fossilem\n"
-	.string "Gen-Material Pokémon zu\l"
-	.string "erschaffen.$"
+	.string "Gen-Material Pokémon zu erschaffen.$"
 #else
 	.string "Far away, on CINNABAR ISLAND,\n"
 	.string "there's a POKéMON LAB.\p"
@@ -187,8 +186,8 @@ MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
 MtMoon_B2F_Text_Grunt1Intro::
 #if GERMAN
 	.string "Wir vom Team Rocket werden die\n"
-	.string "Fossilien finden, die Pokémon wie-\l"
-	.string "der beleben und teuer verkaufen!$"
+	.string "Fossilien finden, die Pokémon wieder\l"
+	.string "beleben und teuer verkaufen!$"
 #else
 	.string "We, TEAM ROCKET, shall find the\n"
 	.string "fossils!\p"

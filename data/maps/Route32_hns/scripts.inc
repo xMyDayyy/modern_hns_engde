@@ -382,9 +382,9 @@ Route32_Text_CooltrainerM_AideIsWaiting:
 Route32_Text_CooltrainerM_SproutTower:
 #if GERMAN
 	.string "Warst du im Knofensa-Turm?\p"
-	.string "Wenn du jemals nach Viola City\n"
-	.string "kommst, erwartet man von dir,\l"
-	.string "dass du dort trainierst.\p"
+	.string "Wenn du jemals nach Viola City kommst,\n"
+	.string "erwartet man von dir, dass du dort\l"
+	.string "trainierst.\p"
 	.string "Das ist ein Muss für alle Trainer.\p"
 	.string "Geh zum Knofensa-Turm!$"
 #else
@@ -419,8 +419,8 @@ Route32_Text_CooltrainerM_HaveThisSeed:
 	.string "besonders gutes Training für sie.\p"
 	.string "Hier, das ist für dich. Als kleines\n"
 	.string "Andenken an Viola City.\p"
-	.string "Wenn du das einem Pokémon gibst,\n"
-	.string "soll angeblich die Stärke all seiner\l"
+	.string "Wenn du das einem Pokémon gibst, soll\n"
+	.string "angeblich die Stärke all seiner\l"
 	.string "Attacken vom Typ Pflanze steigen.$"
 #else
 	.string "You have some good POKéMON there.\n"
@@ -783,8 +783,8 @@ Route32_Text_RoarOutro:
 #if GERMAN
 	.string "Brüüüll!\n"
 	.string "Das ist der Brüller!\l"
-	.string "Sogar Pokémon laufen davon,\l"
-	.string "Wenn du ihn Einsetzt!$"
+	.string "Sogar Pokémon laufen davon, Wenn du ihn\l"
+	.string "Einsetzt!$"
 #else
 	.string "WROOOOAR! IT'S ROAR!\p"
 	.string "EVEN POKéMON RUN FROM A GOOD\n"

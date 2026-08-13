@@ -21,9 +21,9 @@ AzaleaMart_Text_CooltrainerM:
 #if GERMAN
 	.string "Kannst du Superbälle kaufen?\n"
 	.string "Ich kann nur Pokébälle bekommen.\p"
-	.string "Ich habe gehört, mehr werden\n"
-	.string "verfügbar, wenn man sich weitere\l"
-	.string "Arena-Orden verdient!\p"
+	.string "Ich habe gehört, mehr werden verfügbar,\n"
+	.string "wenn man sich weitere Arena-Orden\l"
+	.string "verdient!\p"
 	.string "Ich wünschte, Kurt würde mir ein\n"
 	.string "paar seiner Bälle anfertigen.$"
 #else

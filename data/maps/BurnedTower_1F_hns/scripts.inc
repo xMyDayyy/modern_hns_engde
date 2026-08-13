@@ -55,9 +55,8 @@ BurnedTower_1FEusineIntroText:
 	.string "Pokémon namens Suicune.\p"
 	.string "Und du bist…?\p"
 	.string "{PLAYER}? Schön dich kennenzulernen!\p"
-	.string "Ich habe gehört, Suicune könnte\n"
-	.string "in dieser Turmruine sein,\l"
-	.string "also kam ich her.\p"
+	.string "Ich habe gehört, Suicune könnte in\n"
+	.string "dieser Turmruine sein, also kam ich her.\p"
 	.string "Aber wo genau könnte es sein?$"
 #else
 	.string "EUSINE: My name's EUSINE.\p"
@@ -97,9 +96,9 @@ BurnedTower_1F_EventScript_Morty::
 
 BurnedTower_1FEusineText:
 #if GERMAN
-	.string "Eusin: Ich habe gehört,\n"
-	.string "Suicune könnte in dieser\l"
-	.string "Turmruine sein, also kam ich her.\p"
+	.string "Eusin: Ich habe gehört, Suicune könnte\n"
+	.string "in dieser Turmruine sein, also kam ich\l"
+	.string "her.\p"
 	.string "Aber wo genau könnte es sein?$"
 #else
 	.string "EUSINE: I heard SUICUNE might\n"
@@ -110,13 +109,13 @@ BurnedTower_1FEusineText:
 
 BurnedTower_1FMortyText:
 #if GERMAN
-	.string "Jens: Der Arenaleiter von\n"
-	.string "Teak City muss die sogenannten\l"
-	.string "legendären Pokémon\p"
+	.string "Jens: Der Arenaleiter von Teak City\n"
+	.string "muss die sogenannten legendären\l"
+	.string "Pokémon\p"
 	.string "Suicune, Entei und Raikou studieren.\p"
-	.string "Eusin ist gekommen, also habe\n"
-	.string "ich beschlossen, den Turm\l"
-	.string "mit ihm zu untersuchen.$"
+	.string "Eusin ist gekommen, also habe ich\n"
+	.string "beschlossen, den Turm mit ihm zu\l"
+	.string "untersuchen.$"
 #else
 	.string "MORTY: ECRUTEAK's GYM LEADER\n"
 	.string "has to study what are said to\l"
@@ -186,8 +185,8 @@ BurnedTowerSilver_BeforeText:
 	.string "Ich suchte nach legendären\n"
 	.string "Pokémon, die angeblich hier leben.\p"
 	.string "Aber hier ist nichts!\p"
-	.string "Nichts, was den Aufwand hierher\n"
-	.string "zu kommen rechtfertigt, absolut?\l"
+	.string "Nichts, was den Aufwand hierher zu\n"
+	.string "kommen rechtfertigt, absolut?\l"
 	.string "Nichts!\p"
 	.string "Das ist alles deine Schuld!$"
 #else
@@ -265,8 +264,8 @@ BurnedTower_Text_NardSeen:
 #if GERMAN
 	.string "He, keine Panik, Junior!\n"
 	.string "Wenn jemand weiß, wie gefährlich es ist,\l"
-	.string "mit Feuer zu spielen,\l"
-	.string "dann sind das wir Feuerspucker!$"
+	.string "mit Feuer zu spielen, dann sind das wir\l"
+	.string "Feuerspucker!$"
 #else
 	.string "Don't worry!\p"
 	.string "We fire-breathers know the true\n"
@@ -289,8 +288,8 @@ BurnedTower_Text_NardAfter:
 
 BurnedTower_Text_RichardoSeen:
 #if GERMAN
-	.string "Ich übe in der Turmruine\n"
-	.string "das Feuerspucken!\l"
+	.string "Ich übe in der Turmruine das\n"
+	.string "Feuerspucken!\l"
 	.string "Macht das nicht zu Hause nach, Kinder!$"
 #else
 	.string "I'm practicing my stealing in the\n"

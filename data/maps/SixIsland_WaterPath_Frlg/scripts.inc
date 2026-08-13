@@ -31,9 +31,8 @@ SixIsland_WaterPath_Text_RosePostBattle::
 #if GERMAN
 	.string "Ich möchte dort drüben in den\n"
 	.string "Wald, aber…\p"
-	.string "Es gibt dort eine Menge Käfer-\n"
-	.string "Pokémon. Das macht mir ein\l"
-	.string "wenig Angst.$"
+	.string "Es gibt dort eine Menge Käfer-Pokémon.\n"
+	.string "Das macht mir ein wenig Angst.$"
 #else
 	.string "I want to go to the woods over\n"
 	.string "there, but…\p"
@@ -60,9 +59,9 @@ SixIsland_WaterPath_Text_EdwardDefeat::
 
 SixIsland_WaterPath_Text_EdwardPostBattle::
 #if GERMAN
-	.string "Da ich ein Artist bin, möchte ich\n"
-	.string "nicht, dass die Leute sehen, wie\l"
-	.string "sehr ich mich anstrenge.$"
+	.string "Da ich ein Artist bin, möchte ich nicht,\n"
+	.string "dass die Leute sehen, wie sehr ich mich\l"
+	.string "anstrenge.$"
 #else
 	.string "As a performer, I don't want people\n"
 	.string "to know about the effort I put in.$"
@@ -70,9 +69,8 @@ SixIsland_WaterPath_Text_EdwardPostBattle::
 
 SixIsland_WaterPath_Text_SamirIntro::
 #if GERMAN
-	.string "Wie, du behauptest, du hättest\n"
-	.string "genug von Schwimmern wie\l"
-	.string "mir?\l"
+	.string "Wie, du behauptest, du hättest genug\n"
+	.string "von Schwimmern wie mir?\l"
 	.string "Argh, sei nicht so abweisend!$"
 #else
 	.string "What, you're suggesting that you're\n"
@@ -89,9 +87,8 @@ SixIsland_WaterPath_Text_SamirDefeat::
 
 SixIsland_WaterPath_Text_SamirPostBattle::
 #if GERMAN
-	.string "Ich konnte nicht widerlegen,\n"
-	.string "dass ich ein Schwimmer\l"
-	.string "bin…$"
+	.string "Ich konnte nicht widerlegen, dass ich\n"
+	.string "ein Schwimmer bin…$"
 #else
 	.string "I couldn't lift the stigma of being\n"
 	.string "a SWIMMER…$"
@@ -99,9 +96,8 @@ SixIsland_WaterPath_Text_SamirPostBattle::
 
 SixIsland_WaterPath_Text_DeniseIntro::
 #if GERMAN
-	.string "Mein Freund ist stets sehr\n"
-	.string "beschäftigt, daher schwimme ich\l"
-	.string "alleine.$"
+	.string "Mein Freund ist stets sehr beschäftigt,\n"
+	.string "daher schwimme ich alleine.$"
 #else
 	.string "My boyfriend's always busy, so I\n"
 	.string "come swimming by myself.$"
@@ -116,9 +112,9 @@ SixIsland_WaterPath_Text_DeniseDefeat::
 
 SixIsland_WaterPath_Text_DenisePostBattle::
 #if GERMAN
-	.string "Wenn ich nicht bei meinem Freund\n"
-	.string "sein kann, bin ich mit den Pokémon\l"
-	.string "zusammen, die er mir gegeben hat.$"
+	.string "Wenn ich nicht bei meinem Freund sein\n"
+	.string "kann, bin ich mit den Pokémon zusammen,\l"
+	.string "die er mir gegeben hat.$"
 #else
 	.string "When I can't be with my boyfriend,\n"
 	.string "I spend time with the POKéMON he\l"

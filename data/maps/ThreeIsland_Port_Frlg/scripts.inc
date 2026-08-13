@@ -40,9 +40,9 @@ ThreeIsland_Port_Text_WereKantoRiderFederation::
 #if GERMAN
 	.string "Wir sind der Motorradklub aus\n"
 	.string "Kanto! Töff! Töfftööööfff! Töff!\p"
-	.string "Mein Motorrad hat einen kleinen\n"
-	.string "Motor, daher muss ich die\l"
-	.string "Geräusche selbst machen!$"
+	.string "Mein Motorrad hat einen kleinen Motor,\n"
+	.string "daher muss ich die Geräusche selbst\l"
+	.string "machen!$"
 #else
 	.string "We're the KANTO RIDER FEDERATION!\n"
 	.string "Vroom! Vavavavooom! Vroom!\p"

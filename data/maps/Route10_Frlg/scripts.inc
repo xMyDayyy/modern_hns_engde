@@ -99,8 +99,8 @@ Route10_Text_HermanPostBattle::
 Route10_Text_HeidiIntro::
 #if GERMAN
 	.string "Jedes Mal, wenn ich in einer\n"
-	.string "Pokémon-Arena gekämpft habe,\l"
-	.string "wurde ich besiegt!$"
+	.string "Pokémon-Arena gekämpft habe, wurde\l"
+	.string "ich besiegt!$"
 #else
 	.string "I've been out at a POKéMON GYM\n"
 	.string "a few times.\p"

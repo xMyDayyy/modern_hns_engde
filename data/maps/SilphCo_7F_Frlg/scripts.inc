@@ -234,8 +234,8 @@ SilphCo_7F_EventScript_Grunt3::
 
 SilphCo_7F_Text_HaveMonForSavingUs::
 #if GERMAN
-	.string "Oh! Du bist kein Rocket! Kommst\n"
-	.string "du, um uns zu retten? Klasse!\l"
+	.string "Oh! Du bist kein Rocket! Kommst du, um\n"
+	.string "uns zu retten? Klasse!\l"
 	.string "Vielen Dank!\p"
 	.string "Nimm dieses Pokémon als\n"
 	.string "Dankeschön.$"
@@ -260,9 +260,8 @@ SilphCo_7F_Text_ExplainLapras::
 #if GERMAN
 	.string "Es heißt Lapras und ist sehr\n"
 	.string "intelligent.\p"
-	.string "Es hat bisher bei uns im Labor\n"
-	.string "gelebt. Aber bei dir ist es besser\l"
-	.string "aufgehoben!\p"
+	.string "Es hat bisher bei uns im Labor gelebt.\n"
+	.string "Aber bei dir ist es besser aufgehoben!\p"
 	.string "Du wirst Lapras sicher ein guter\n"
 	.string "Trainer sein!\p"
 	.string "Es ist ein guter Schwimmer und\n"
@@ -293,8 +292,8 @@ SilphCo_7F_Text_RocketBossWentToBoardroom::
 SilphCo_7F_Text_RocketsAfterMasterBall::
 #if GERMAN
 	.string "Das Team Rocket ist hinter dem\n"
-	.string "Meisterball her, mit dem man\l"
-	.string "jedes Pokémon fangen kann!$"
+	.string "Meisterball her, mit dem man jedes\l"
+	.string "Pokémon fangen kann!$"
 #else
 	.string "TEAM ROCKET was after the MASTER\n"
 	.string "BALL, which catches any POKéMON.$"
@@ -312,9 +311,9 @@ SilphCo_7F_Text_CanceledMasterBallProject::
 
 SilphCo_7F_Text_BadIfTeamRocketTookOver::
 #if GERMAN
-	.string "Es wäre fatal, wenn das Team\n"
-	.string "Rocket die Silph Co. oder unsere\l"
-	.string "Pokémon übernehmen würde!$"
+	.string "Es wäre fatal, wenn das Team Rocket die\n"
+	.string "Silph Co. oder unsere Pokémon\l"
+	.string "übernehmen würde!$"
 #else
 	.string "It would be bad if TEAM ROCKET\n"
 	.string "took over SILPH or our POKéMON.$"
@@ -466,9 +465,9 @@ SilphCo_7F_Text_RivalIntro::
 	.string "würdest hier vorbeikommen!\p"
 	.string "Ich schätze, das Team Rocket hat\n"
 	.string "dir ganz schön zugesetzt!\p"
-	.string "Ich hab dich in Saffronia City\n"
-	.string "gesehen und mich gefragt, ob du\l"
-	.string "seitdem besser geworden bist!$"
+	.string "Ich hab dich in Saffronia City gesehen\n"
+	.string "und mich gefragt, ob du seitdem besser\l"
+	.string "geworden bist!$"
 #else
 	.string "{RIVAL}: Hahaha! I thought you'd\n"
 	.string "turn up if I waited here!\p"
@@ -493,12 +492,11 @@ SilphCo_7F_Text_RivalPostBattle::
 #if GERMAN
 	.string "Also, {PLAYER}!\n"
 	.string "Ich ziehe dann weiter!\p"
-	.string "Wenn ich in den Pokédex sehe,\n"
-	.string "erkenne ich, wie stark die Pokémon\l"
-	.string "sind und wie sie sich entwickeln!\p"
+	.string "Wenn ich in den Pokédex sehe, erkenne\n"
+	.string "ich, wie stark die Pokémon sind und wie\l"
+	.string "sie sich entwickeln!\p"
 	.string "Ich werde zur Pokémon Liga gehen.\n"
-	.string "Dann werde ich die Top Vier\l"
-	.string "ausstechen!\p"
+	.string "Dann werde ich die Top Vier ausstechen!\p"
 	.string "Bald bin ich der mächtigste\n"
 	.string "Trainer der Welt!\p"
 	.string "Viel Glück, {PLAYER}!\n"

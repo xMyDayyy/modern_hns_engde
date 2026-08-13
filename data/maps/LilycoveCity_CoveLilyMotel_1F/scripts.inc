@@ -78,8 +78,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
 	.string "Hm, so haben sie also die Anzahl der\n"
 	.string "Gäste verdoppelt. Indem sie Pokémon\l"
 	.string "als Attraktion präsentieren?\p"
-	.string "Hm, vielleicht sollte ich ein\n"
-	.string "niedliches\l"
+	.string "Hm, vielleicht sollte ich ein niedliches\n"
 	.string "Pokémon zum Maskottchen meines\l"
 	.string "Gasthofes machen…\p"
 	.string "Ich frage mich, ob ich so mehr\n"
@@ -118,9 +117,9 @@ LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV:
 
 LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
 #if GERMAN
-	.string "Interessant! Du sagst, ein Pokémon\n"
-	.string "hat ein Item gefunden, das jemand ver-\l"
-	.string "loren hat?\p"
+	.string "Interessant! Du sagst, ein Pokémon hat\n"
+	.string "ein Item gefunden, das jemand verloren\l"
+	.string "hat?\p"
 	.string "Das ist ja was! Wenn wir auch so\n"
 	.string "clevere Pokémon hätten…\p"
 	.string "Dann könnten wir alles wiederfinden,\n"
@@ -179,8 +178,8 @@ LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
 	.string "\p"
 	.string "Oh, ja. Eine große Gruppe von Gästen\n"
 	.string "ist vor kurzem hier eingetroffen.\p"
-	.string "Sie haben sich als Game Freak einge-\n"
-	.string "tragen. Ich denke, sie entwickeln\l"
+	.string "Sie haben sich als Game Freak\n"
+	.string "eingetragen. Ich denke, sie entwickeln\l"
 	.string "Spiele.\p"
 	.string "Oh oh, ich sollte mich besser um ihr\n"
 	.string "Abendessen kümmern!$"

@@ -298,8 +298,7 @@ Route113_GlassWorkshop_Text_GoCollectAshWithThis:
 	.string "bedeckt! Schnauf, keuch…\p"
 	.string "Ich habe ein besonderes Talent.\n"
 	.string "Schnauf, keuch…\p"
-	.string "Ich mache aus der Asche Glas und\n"
-	.string "stelle\l"
+	.string "Ich mache aus der Asche Glas und stelle\n"
 	.string "daraus Items her. Schnauf, keuch…\p"
 	.string "Hiermit kannst du Asche sammeln.\n"
 	.string "Schnauf, keuch…$"
@@ -341,12 +340,12 @@ Route113_GlassWorkshop_Text_LetsSeeCollectedAshes:
 Route113_GlassWorkshop_Text_NotEnoughAshNeedX:
 #if GERMAN
 	.string "Hmmm… Das reicht aber nicht.\n"
-	.string "Schnauf, keuch. Daraus kann ich\l"
-	.string "kein Glas machen. Schnauf, keuch…\p"
+	.string "Schnauf, keuch. Daraus kann ich kein\l"
+	.string "Glas machen. Schnauf, keuch…\p"
 	.string "Mal sehen… Du musst noch {STR_VAR_1}\n"
 	.string "Schritt(e)\l"
-	.string "gehen, damit ich eine blaue Flöte her-\l"
-	.string "stellen kann. Schnauf, keuch…$"
+	.string "gehen, damit ich eine blaue Flöte\l"
+	.string "herstellen kann. Schnauf, keuch…$"
 #else
 	.string "Hmmm…\n"
 	.string "There's not enough ash here, huff-puff.\l"
@@ -360,8 +359,7 @@ Route113_GlassWorkshop_Text_WhichGlassItemWoudYouLike:
 #if GERMAN
 	.string "Oh! Du hast aber viel Asche gesammelt.\n"
 	.string "Schnauf, keuch…\p"
-	.string "Ich mache dir ein Item aus Glas\n"
-	.string "daraus.\l"
+	.string "Ich mache dir ein Item aus Glas daraus.\n"
 	.string "Welches möchtest du? Schnauf, keuch…$"
 #else
 	.string "Oh!\n"
@@ -390,8 +388,8 @@ Route113_GlassWorkshop_Text_IllMakeItemForYou:
 #if GERMAN
 	.string "Also einmal {STR_VAR_1}? Schnauf…\p"
 	.string "O.K. Wird erledigt. Schnauf, keuch.\n"
-	.string "Einen\l"
-	.string "Moment Geduld bitte. Schnauf, keuch…$"
+	.string "Einen Moment Geduld bitte. Schnauf,\l"
+	.string "keuch…$"
 #else
 	.string "A {STR_VAR_1} it is, then, huff-puff!\p"
 	.string "Okay! I'll make it for you, huff-puff.\n"
@@ -404,8 +402,7 @@ Route113_GlassWorkshop_Text_NotEnoughAshToMakeItem:
 	.string "Du hast nicht genug Asche für dieses\n"
 	.string "Item mitgebracht. Schnauf, keuch…\p"
 	.string "Mal sehen… Du musst noch {STR_VAR_2}\n"
-	.string "Schritt(e) gehen, damit ich dieses\l"
-	.string "Item\l"
+	.string "Schritt(e) gehen, damit ich dieses Item\l"
 	.string "herstellen kann. Schnauf, keuch.\p"
 	.string "Was möchtest du stattdessen haben?\n"
 	.string "Schnauf, keuch…$"
@@ -468,8 +465,7 @@ Route113_GlassWorkshop_Text_HaventGotYourSootSack:
 #if GERMAN
 	.string "Oh. Du hast die Aschetasche nicht\n"
 	.string "dabei? Schnauf, keuch…\p"
-	.string "Du musst sie aber dabei haben, um\n"
-	.string "Asche\l"
+	.string "Du musst sie aber dabei haben, um Asche\n"
 	.string "sammeln zu können! Schnauf, keuch…$"
 #else
 	.string "Hah? You haven't got your SOOT SACK\n"

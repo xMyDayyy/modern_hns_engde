@@ -78,8 +78,8 @@ SixIsland_WaterPath_House1_Text_LoveItNeedItHeracross::
 #if GERMAN
 	.string "Skara, Skara, Skaraborn!\n"
 	.string "Unter Käfern hochwohlgeboren!\l"
-	.string "Fühle seinen royalen Zorn,\l"
-	.string "Skara, Skara, Skaraborn!$"
+	.string "Fühle seinen royalen Zorn, Skara, Skara,\l"
+	.string "Skaraborn!$"
 #else
 	.string "Hera, hera, HERACROSS!\n"
 	.string "Big and shiny, it's the bug boss!\l"
@@ -126,8 +126,8 @@ SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne::
 SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore::
 #if GERMAN
 	.string "Häh? {STR_VAR_2} cm groß…\n"
-	.string "Oh, aha! Es ist genauso groß\l"
-	.string "wie das zuvor!$"
+	.string "Oh, aha! Es ist genauso groß wie das\l"
+	.string "zuvor!$"
 #else
 	.string "Huh? This {STR_VAR_2}-inch measurement…\n"
 	.string "Oh, boo! It's the same as before.$"
@@ -137,9 +137,8 @@ SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest::
 #if GERMAN
 	.string "Oh, es ist nur {STR_VAR_2} cm groß.\n"
 	.string "Das Skaraborn zuvor war größer.\p"
-	.string "Das größte Skaraborn, das\n"
-	.string "du mir gebracht hast, war\l"
-	.string "{STR_VAR_3} cm groß.$"
+	.string "Das größte Skaraborn, das du mir\n"
+	.string "gebracht hast, war {STR_VAR_3} cm groß.$"
 #else
 	.string "Oh, it's just {STR_VAR_2} inches.\n"
 	.string "The HERACROSS before was bigger.\p"
@@ -161,8 +160,7 @@ SixIsland_WaterPath_House1_Text_ThisWontDo::
 SixIsland_WaterPath_House1_Text_YourBagIsFull::
 #if GERMAN
 	.string "Dein Beutel ist voll.\n"
-	.string "Meine Belohnung geht nicht\l"
-	.string "mehr hinein!$"
+	.string "Meine Belohnung geht nicht mehr hinein!$"
 #else
 	.string "Your BAG is full.\n"
 	.string "My reward won't fit.$"

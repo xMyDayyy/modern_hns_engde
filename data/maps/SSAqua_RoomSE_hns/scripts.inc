@@ -70,8 +70,7 @@ SSAqua_RoomSE_Text_TwinsMegandpeg1After:
 SSAqua_RoomSE_Text_TwinsMegandpeg2Seen:
 #if GERMAN
 	.string "Ich bin kein Baby!\n"
-	.string "So was sagt man nicht zu einer\l"
-	.string "Dame!$"
+	.string "So was sagt man nicht zu einer Dame!$"
 #else
     .string "I'm not a baby!\n"
     .string "That's not nice to say to a lady!$"

@@ -14,8 +14,8 @@ SootopolisCity_House5_Text_SootopolisMtPyreConnection:
 	.string "Es muss eine Verbindung zwischen\n"
 	.string "Xeneroville und dem Pyroberg geben.\p"
 	.string "Meine Freunde und ich haben ein\n"
-	.string "bisschen nachgeforscht - im Labor,\l"
-	.string "in dem wir gearbeitet haben.$"
+	.string "bisschen nachgeforscht - im Labor, in\l"
+	.string "dem wir gearbeitet haben.$"
 #else
 	.string "There appears to be some connection\n"
 	.string "between SOOTOPOLIS and MT. PYRE.\p"

@@ -154,8 +154,8 @@ VictoryRoad_1F_Text_WallyEntranceDefeat:
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle:
 #if GERMAN
-	.string "Heiko: Ich konnte dich heute nicht be-\n"
-	.string "siegen, aber eines Tages werde ich es\l"
+	.string "Heiko: Ich konnte dich heute nicht\n"
+	.string "besiegen, aber eines Tages werde ich es\l"
 	.string "mit dir aufnehmen!$"
 #else
 	.string "WALLY: I couldn't beat you today,\n"
@@ -218,8 +218,7 @@ VictoryRoad_1F_Text_EdgarDefeat:
 
 VictoryRoad_1F_Text_EdgarPostBattle:
 #if GERMAN
-	.string "Du bist weit gekommen. Lasse nicht\n"
-	.string "nach\l"
+	.string "Du bist weit gekommen. Lasse nicht nach\n"
 	.string "und versuche, der Champ zu werden!\l"
 	.string "Wenn einer das kann, dann du!$"
 #else
@@ -231,8 +230,7 @@ VictoryRoad_1F_Text_EdgarPostBattle:
 VictoryRoad_1F_Text_AlbertIntro:
 #if GERMAN
 	.string "Ich bin nicht hierher gekommen, um zu\n"
-	.string "verlieren. Diese Option existiert\l"
-	.string "nicht!$"
+	.string "verlieren. Diese Option existiert nicht!$"
 #else
 	.string "I didn't come all this way to lose now.\n"
 	.string "That possibility doesn't exist!$"

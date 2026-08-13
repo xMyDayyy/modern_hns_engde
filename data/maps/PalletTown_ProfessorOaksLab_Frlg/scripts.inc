@@ -1396,9 +1396,8 @@ Text_RivalVictory::
 
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
 #if GERMAN
-	.string "{RIVAL}: O.K.! Ich werde meine\n"
-	.string "Pokémon trainieren, damit sie\l"
-	.string "stärker werden!\p"
+	.string "{RIVAL}: O.K.! Ich werde meine Pokémon\n"
+	.string "trainieren, damit sie stärker werden!\p"
 	.string "{PLAYER}! Opa!\n"
 	.string "Wir sehen uns später!$"
 #else
@@ -1461,8 +1460,7 @@ PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
 	.string "Hier, {PLAYER}!\p"
 	.string "Dort liegen drei Pokémon!\p"
 	.string "Haha!\p"
-	.string "Sie befinden sich in den\n"
-	.string "Pokébällen.\l"
+	.string "Sie befinden sich in den Pokébällen.\n"
 	.string "In meiner Jugend war ich ein\l"
 	.string "engagierter Pokémon Trainer!\p"
 	.string "Jetzt, da ich alt bin, habe ich nur\n"
@@ -1590,8 +1588,7 @@ PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon::
 PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow::
 #if GERMAN
 	.string "Prof. Eich: {PLAYER}, wenn du dein\n"
-	.string "Pokémon kämpfen lässt, wird es\l"
-	.string "stärker!$"
+	.string "Pokémon kämpfen lässt, wird es stärker!$"
 #else
 	.string "OAK: {PLAYER}, raise your young\n"
 	.string "POKéMON by making it battle.\p"
@@ -1651,8 +1648,8 @@ PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
 	.string "Auf dem Tisch dort seht ihr eine\n"
 	.string "Erfindung von mir, den Pokédex!\p"
 	.string "Er erfasst automatisch Daten über\n"
-	.string "Pokémon, die man gefangen oder\l"
-	.string "gesehen hat!\p"
+	.string "Pokémon, die man gefangen oder gesehen\l"
+	.string "hat!\p"
 	.string "Er ist eine Art Hi-Tech-Lexikon!$"
 #else
 	.string "On the desk there is my invention,\n"
@@ -1682,12 +1679,11 @@ PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak::
 
 PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
 #if GERMAN
-	.string "Prof. Eich: Es reicht nicht, \n"
-	.string "Pokémon zu sehen, um detaillierte\l"
-	.string "Informationen über sie zu sammeln!\p"
-	.string "Du musst sie fangen! Benutze das\n"
-	.string "hier, um wilde Pokémon\l"
-	.string "einzufangen.$"
+	.string "Prof. Eich: Es reicht nicht, Pokémon zu\n"
+	.string "sehen, um detaillierte Informationen\l"
+	.string "über sie zu sammeln!\p"
+	.string "Du musst sie fangen! Benutze das hier,\n"
+	.string "um wilde Pokémon einzufangen.$"
 #else
 	.string "OAK: You can't get detailed data\n"
 	.string "on POKéMON by just seeing them.\p"
@@ -1713,9 +1709,8 @@ PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
 	.string "versuche es!\p"
 	.string "Doch du wirst oftmals keinen Erfolg\n"
 	.string "haben.\p"
-	.string "Ein gesundes Pokémon entkommt\n"
-	.string "schnell! Man muss schon etwas\l"
-	.string "Glück haben!$"
+	.string "Ein gesundes Pokémon entkommt schnell!\n"
+	.string "Man muss schon etwas Glück haben!$"
 #else
 	.string "When a wild POKéMON appears,\n"
 	.string "it's fair game.\p"
@@ -1844,8 +1839,8 @@ PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu::
 PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints::
 #if GERMAN
 	.string "Pokémon besitzen unterschiedliche\n"
-	.string "Attacken, deren Wirkung je nach\l"
-	.string "Gegner variiert.$"
+	.string "Attacken, deren Wirkung je nach Gegner\l"
+	.string "variiert.$"
 #else
 	.string "All POKéMON types have strong and\n"
 	.string "weak points against others.$"
@@ -1856,9 +1851,8 @@ PalletTown_ProfessorOaksLab_Text_EmailMessage::
 	.string "Im Briefkasten ist eine E-Mail!\p"
 	.string "...\p"
 	.string "An alle Pokémon Trainer!\n"
-	.string "Die Trainer-Elite der Pokémon\l"
-	.string "Liga wartet auf mutige\l"
-	.string "Herausforderer!\p"
+	.string "Die Trainer-Elite der Pokémon Liga\l"
+	.string "wartet auf mutige Herausforderer!\p"
 	.string "Bringt eure stärksten Pokémon mit\n"
 	.string "und zeigt, wie gut ihr seid!\p"
 	.string "Pokémon Liga-Leitung\n"
@@ -1891,15 +1885,14 @@ PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
 
 PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
 #if GERMAN
-	.string "Hallo {PLAYER}! Ich wette, du hast\n"
-	.string "mit deinen Pokémon\l"
-	.string "Freundschaft geschlossen.\l"
+	.string "Hallo {PLAYER}! Ich wette, du hast mit\n"
+	.string "deinen Pokémon Freundschaft\l"
+	.string "geschlossen.\l"
 	.string "Kennst du eigentlich Sarah?\p"
-	.string "Zeigst du Sarah deine Pokémon,\n"
-	.string "sagt sie dir, wie sehr sie dich\l"
-	.string "mögen.\l"
-	.string "Manchmal pflegt sie auch ein\l"
-	.string "Pokémon für dich.\p"
+	.string "Zeigst du Sarah deine Pokémon, sagt sie\n"
+	.string "dir, wie sehr sie dich mögen.\l"
+	.string "Manchmal pflegt sie auch ein Pokémon\l"
+	.string "für dich.\p"
 	.string "Das ist aber ein Geheimnis,\n"
 	.string "verrate es also nicht!$"
 #else
@@ -1962,9 +1955,9 @@ PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
 	.string "zuvor in Kanto aufgetaucht sind.\p"
 	.string "Ich würde mir das gerne selbst\n"
 	.string "ansehen, aber ich bin zu alt!\p"
-	.string "Da ich nicht kann, möchte ich\n"
-	.string "dich, {PLAYER}, bitten, an meiner\l"
-	.string "statt zu gehen.$"
+	.string "Da ich nicht kann, möchte ich dich,\n"
+	.string "{PLAYER}, bitten, an meiner statt zu\l"
+	.string "gehen.$"
 #else
 	.string "Recently, there have been sightings\n"
 	.string "of many rare POKéMON species.\p"
@@ -2044,12 +2037,11 @@ PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex::
 	.string "Also, {PLAYER} und {RIVAL}!\p"
 	.string "Dieses Mal müsst ihr den Pokédex\n"
 	.string "wirklich vervollständigen.\p"
-	.string "Es soll der beste und voll-\n"
-	.string "ständigste Pokédex aller\l"
-	.string "Zeiten werden!\l"
+	.string "Es soll der beste und vollständigste\n"
+	.string "Pokédex aller Zeiten werden!\l"
 	.string "Das ist wahrhaft ein großes\l"
-	.string "Unterfangen in der Geschichte\l"
-	.string "der Pokémon!$"
+	.string "Unterfangen in der Geschichte der\l"
+	.string "Pokémon!$"
 #else
 	.string "Now, {PLAYER} and {RIVAL}!\p"
 	.string "This time, you really must work\n"

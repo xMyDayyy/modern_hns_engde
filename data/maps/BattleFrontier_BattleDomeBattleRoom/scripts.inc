@@ -963,8 +963,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner:
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
 #if GERMAN
-	.string "Der Gewinner des Level 50-\n"
-	.string "Kampfturniers heißt {PLAYER}!\l"
+	.string "Der Gewinner des Level\n"
+	.string "50-Kampfturniers heißt {PLAYER}!\l"
 	.string "Herzlichen Glückwunsch!$"
 #else
 	.string "{PLAYER} is the Level 50\n"
@@ -974,8 +974,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
 #if GERMAN
-	.string "Der Gewinner des Offene Kämpfe-\n"
-	.string "Kampfturniers heißt {PLAYER}!\l"
+	.string "Der Gewinner des Offene\n"
+	.string "Kämpfe-Kampfturniers heißt {PLAYER}!\l"
 	.string "Herzlichen Glückwunsch!$"
 #else
 	.string "{PLAYER} is the Open Level\n"
@@ -986,8 +986,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
 BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
 #if GERMAN
 	.string "Das ist ja ein unglaubliches Ende!\n"
-	.string "Einfach spektakulär! Ein doppelter\l"
-	.string "K.O.! \p"
+	.string "Einfach spektakulär! Ein doppelter K.O.!\p"
 	.string "In diesem Fall muss der Referee mit\n"
 	.string "seinem Urteil den Sieger bestimmen.\p"
 	.string "Ich bitte um etwas Geduld, bis die\n"
@@ -1359,8 +1358,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "Die Begeisterung des Publikums…\l"
 	.string "Die aufgeheizte Atmosphäre…\l"
 	.string "Was für ein wundervoller Ort…\p"
-	.string "Für das Publikum bin ich der Stadion-\n"
-	.string "Star… Ich repräsentiere ihre\l"
+	.string "Für das Publikum bin ich der\n"
+	.string "Stadion-Star… Ich repräsentiere ihre\l"
 	.string "Träume und Hoffnungen…\l"
 	.string "Sie dürfen mich niemals verlieren…\p"
 	.string "Ich muss brennen!\n"
@@ -1392,8 +1391,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
 #if GERMAN
 	.string "Tasso: Du bist einfach fantastisch!\p"
 	.string "Das ist noch nie passiert! Ich habe\n"
-	.string "noch nie verloren, wenn es drauf\l"
-	.string "ankam! \p"
+	.string "noch nie verloren, wenn es drauf ankam!\p"
 	.string "Ja, wirklich fantastisch!\n"
 	.string "Gib mir bitte deinen Kampfzonenpass.$"
 #else
@@ -1415,8 +1413,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
 #if GERMAN
-	.string "Du bist stark, aber vor allem\n"
-	.string "bestichst\l"
+	.string "Du bist stark, aber vor allem bestichst\n"
 	.string "du durch deinen einzigartigen Charme.\p"
 	.string "\p"
 	.string "Du hast das Potenzial Superstar zu\n"
@@ -1435,8 +1432,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:
 #if GERMAN
-	.string "Der Gewinner des Level 50-\n"
-	.string "Kampfturniers heißt {PLAYER}!\l"
+	.string "Der Gewinner des Level\n"
+	.string "50-Kampfturniers heißt {PLAYER}!\l"
 	.string "Herzlichen Glückwunsch!$"
 #else
 	.string "{PLAYER} is the Level 50\n"
@@ -1447,8 +1444,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
 #if GERMAN
-	.string "Der Gewinner des Offene Kämpfe-\n"
-	.string "Kampfturniers heißt {PLAYER}!\l"
+	.string "Der Gewinner des Offene\n"
+	.string "Kämpfe-Kampfturniers heißt {PLAYER}!\l"
 	.string "Herzlichen Glückwunsch!$"
 #else
 	.string "{PLAYER} is the Open Level\n"

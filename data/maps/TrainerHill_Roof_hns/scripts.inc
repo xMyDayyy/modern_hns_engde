@@ -71,11 +71,10 @@ TrainerHill_Roof_hns_Text_YouFinallyCameBravo:
 	.string "Du bist endlich angekommen!\n"
 	.string "Ja, du hast es geschafft!\p"
 	.string "Warte! Sag nichts!\n"
-	.string "Ich weiß, warum du ganz\l"
-	.string "allein hierher gekommen bist!\p"
-	.string "Du wolltest mich sehen,\n"
-	.string "den Besitzer des\l"
-	.string "Trainerbergs, weil…\p"
+	.string "Ich weiß, warum du ganz allein hierher\l"
+	.string "gekommen bist!\p"
+	.string "Du wolltest mich sehen, den Besitzer\n"
+	.string "des Trainerbergs, weil…\p"
 	.string "Du willst mit mir ein\n"
 	.string "Doppelteam bilden!\p"
 	.string "Wa-hoo!\p"
@@ -104,9 +103,9 @@ TrainerHill_Roof_hns_Text_YouFinallyCameBravo:
 
 TrainerHill_Roof_hns_Text_HaveTheMostMarvelousGift:
 #if GERMAN
-	.string "Für jemanden wie dich habe\n"
-	.string "ich ein großartiges Geschenk\l"
-	.string "und etwas Geld als Belohnung!$"
+	.string "Für jemanden wie dich habe ich ein\n"
+	.string "großartiges Geschenk und etwas Geld\l"
+	.string "als Belohnung!$"
 #else
 	.string "For a marvelous someone like you,\n"
 	.string "I have the most marvelous gift,\l"
@@ -125,15 +124,13 @@ TrainerHill_Roof_hns_Text_FullUpBeBackLaterForThis:
 
 TrainerHill_Roof_hns_Text_GotHereMarvelouslyQuickly:
 #if GERMAN
-	.string "Moment mal! Bist du etwa\n"
-	.string "unglaublich schnell hier\l"
-	.string "oben angekommen?\p"
-	.string "Wie prächtig! Du hättest dich\n"
-	.string "nicht so beeilen müssen,\l"
-	.string "um mich zu sehen!\p"
+	.string "Moment mal! Bist du etwa unglaublich\n"
+	.string "schnell hier oben angekommen?\p"
+	.string "Wie prächtig! Du hättest dich nicht so\n"
+	.string "beeilen müssen, um mich zu sehen!\p"
 	.string "Das erfreut mich sehr.\n"
-	.string "Ich lasse die Rangtafel\l"
-	.string "sofort aktualisieren!$"
+	.string "Ich lasse die Rangtafel sofort\l"
+	.string "aktualisieren!$"
 #else
 	.string "Oh, hold on here! Did you possibly get\n"
 	.string "here marvelously quickly?\p"
@@ -146,8 +143,8 @@ TrainerHill_Roof_hns_Text_GotHereMarvelouslyQuickly:
 TrainerHill_Roof_hns_Text_YouWerentVeryQuick:
 #if GERMAN
 	.string "Aber oh…\n"
-	.string "Du warst nicht besonders\l"
-	.string "schnell unterwegs.$"
+	.string "Du warst nicht besonders schnell\l"
+	.string "unterwegs.$"
 #else
 	.string "But, oh…\n"
 	.string "You weren't very quick getting here.$"
@@ -155,9 +152,8 @@ TrainerHill_Roof_hns_Text_YouWerentVeryQuick:
 
 TrainerHill_Roof_hns_Text_ArriveZippierNextTime:
 #if GERMAN
-	.string "Vielleicht erfreust du mich\n"
-	.string "beim nächsten Mal mit einer\l"
-	.string "schnelleren Zeit.\p"
+	.string "Vielleicht erfreust du mich beim\n"
+	.string "nächsten Mal mit einer schnelleren Zeit.\p"
 	.string "Dann bilde ich gern ein\n"
 	.string "Doppelteam mit dir!\p"
 	.string "Bis wir uns wiedersehen,\n"

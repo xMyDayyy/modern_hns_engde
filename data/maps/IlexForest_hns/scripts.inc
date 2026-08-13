@@ -656,9 +656,8 @@ IlexForest_Text_ApprenticeIntro:
 	.string "mit dem Zerschneider Bäume\p"
 	.string "fällt, um nach Holzkohle zu\p"
 	.string "suchen, ist abgehauen.\p"
-	.string "Ich traue mich\n"
-	.string "nicht in den Steineichenwald, um nach\l"
-	.string "ihm zu suchen.\p"
+	.string "Ich traue mich nicht in den\n"
+	.string "Steineichenwald, um nach ihm zu suchen.\p"
 	.string "Er ist so groß, dunkel und unheimlich…$"
 #else
 	.string "Oh, man… My boss is going to be\n"
@@ -674,9 +673,8 @@ IlexForest_Text_ApprenticeIntro:
 IlexForest_Text_ApprenticeAfter:
 #if GERMAN
 	.string "Wow! Vielen Dank auch!\p"
-	.string "Die Pokémon von\n"
-	.string "meinem Boss gehorchen mir nicht, da\l"
-	.string "ich keinen Orden besitze.$"
+	.string "Die Pokémon von meinem Boss gehorchen\n"
+	.string "mir nicht, da ich keinen Orden besitze.$"
 #else
 	.string "Wow! Thanks a whole bunch!\p"
 	.string "My boss' POKéMON won't obey me\n"
@@ -727,9 +725,9 @@ IlexForest_Text_CharcoalMasterOutro:
 	.string "Azalea City, kann ein Pokémon deiner\l"
 	.string "Wahl damit kleinere Bäume fällen!\p"
 	.string "Aaaber!\p"
-	.string "Hat ein Pokémon diese VM einmal\n"
-	.string "gelernt, kann es sie so schnell auch\l"
-	.string "nicht wieder vergessen!\p"
+	.string "Hat ein Pokémon diese VM einmal gelernt,\n"
+	.string "kann es sie so schnell auch nicht wieder\l"
+	.string "vergessen!\p"
 	.string "Überlege dir also sehr gut, welchem\n"
 	.string "deiner Pokémon du sie beibringst!$"
 #else
@@ -762,9 +760,9 @@ IlexForest_Text_Signpost:
 #if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Der Steineichenwald ist so dicht mit\n"
-	.string "Bäumen bewachsen, dass sich der\l"
-	.string "Himmel hinter dem Dickicht nur noch\l"
-	.string "dunkel erahnen lässt.\p"
+	.string "Bäumen bewachsen, dass sich der Himmel\l"
+	.string "hinter dem Dickicht nur noch dunkel\l"
+	.string "erahnen lässt.\p"
 	.string "Pass auf, wo du hintrittst! Viele Leute\n"
 	.string "lassen hier ihre Sachen liegen!$"
 #else
@@ -850,9 +848,9 @@ IlexForest_Text_BugCatcherWayneBeaten:
 
 IlexForest_Text_BugCatcherWayneAfter:
 #if GERMAN
-	.string "Ein Pokémon, das ich nie zuvor\n"
-	.string "gesehen habe, fiel vom Baum,\l"
-	.string "als ich Kopfnuss einsetzte.\p"
+	.string "Ein Pokémon, das ich nie zuvor gesehen\n"
+	.string "habe, fiel vom Baum, als ich Kopfnuss\l"
+	.string "einsetzte.\p"
 	.string "Ich sollte Kopfnuss öfter nutzen.$"
 #else
 	.string "A POKéMON I've never seen before\n"
@@ -874,13 +872,13 @@ IlexForest_Text_Kimono_Girl1:
 
 IlexForest_Text_Kimono_Girl2:
 #if GERMAN
-	.string "Was sagt Ihr da? Ihr wollt mich\n"
-	.string "schon einmal gesehen haben?\l"
+	.string "Was sagt Ihr da? Ihr wollt mich schon\n"
+	.string "einmal gesehen haben?\l"
 	.string "In Viola City?\l"
 	.string "Gewiss täuscht Ihr Euch!\p"
-	.string "Aber wärt Ihr unter Umständen\n"
-	.string "so freundlich, meiner Wenigkeit den\l"
-	.string "Weg aus diesem Wald zu weisen?$"
+	.string "Aber wärt Ihr unter Umständen so\n"
+	.string "freundlich, meiner Wenigkeit den Weg\l"
+	.string "aus diesem Wald zu weisen?$"
 #else
 	.string "You remember me from VIOLET CITY?\n"
 	.string "You must be imagining.\p"
@@ -899,8 +897,8 @@ IlexForest_Text_Kimono_Girl3:
 
 IlexForest_Text_Kimono_Girl4:
 #if GERMAN
-	.string "Sieh an! Möchtest du mir vielleicht\n"
-	.string "den Weg nach draußen zeigen?\l"
+	.string "Sieh an! Möchtest du mir vielleicht den\n"
+	.string "Weg nach draußen zeigen?\l"
 	.string "Was für ein kluges Pokémon!$"
 #else
 	.string "Wow! Are you going to show me how\n"

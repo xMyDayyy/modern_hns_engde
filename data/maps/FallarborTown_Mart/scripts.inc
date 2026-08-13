@@ -49,8 +49,8 @@ FallarborTown_Mart_Text_DecidingSkittyEvolve:
 #if GERMAN
 	.string "Ich habe lange überlegt, ob sich mein\n"
 	.string "Eneco entwickeln soll oder nicht.\p"
-	.string "Ich müsste nur diesen Mondstein ein-\n"
-	.string "setzen, aber das ist eine schwere\l"
+	.string "Ich müsste nur diesen Mondstein\n"
+	.string "einsetzen, aber das ist eine schwere\l"
 	.string "Entscheidung…\p"
 	.string "Würde es sich entwickeln, wäre es viel\n"
 	.string "stärker.\p"

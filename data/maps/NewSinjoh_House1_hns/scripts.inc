@@ -40,12 +40,11 @@ NewSinjoh_House1_Text_Looking4Celebi:
 	.string "Hey, Trainer!\p"
 	.string "Du kommst den ganzen Weg aus\n"
 	.string "Neuborkia?\p"
-	.string "Ich habe eine Bitte an jemanden,\n"
-	.string "der so weit herumgekommen ist\l"
-	.string "wie du.\p"
-	.string "Weißt du, mein Lieblings-Pokémon\n"
-	.string "auf der ganzen Welt ist zufällig\l"
-	.string "das mysteriöse Pokémon Celebi.\p"
+	.string "Ich habe eine Bitte an jemanden, der so\n"
+	.string "weit herumgekommen ist wie du.\p"
+	.string "Weißt du, mein Lieblings-Pokémon auf\n"
+	.string "der ganzen Welt ist zufällig das\l"
+	.string "mysteriöse Pokémon Celebi.\p"
 	.string "Falls du eines haben solltest:\n"
 	.string "Würdest du es mir zeigen?$"
 #else
@@ -64,8 +63,8 @@ NewSinjoh_House1_Text_Looking4Celebi:
 NewSinjoh_House1_Text_NicePokemonButNotCelebi:
 #if GERMAN
 	.string "Das ist ein wirklich wundervolles\n"
-	.string "Pokémon, aber es ist nicht ganz\l"
-	.string "das, wonach ich gesucht habe…$"
+	.string "Pokémon, aber es ist nicht ganz das,\l"
+	.string "wonach ich gesucht habe…$"
 #else
     .string "That's a very wonderful POKEMON\n"
 	.string "you have there but that's\l"
@@ -78,9 +77,9 @@ NewSinjoh_House1_OffersWooper:
 	.string "lebendiges Celebi!!\p"
 	.string "Vielen Dank, dass du es den ganzen\n"
 	.string "Weg in den Norden gebracht hast.\p"
-	.string "Hier, meine Freundin hat auf ihrer\n"
-	.string "Reise in eine ferne Region ein paar\l"
-	.string "zu viele von denen gefangen…\p"
+	.string "Hier, meine Freundin hat auf ihrer Reise\n"
+	.string "in eine ferne Region ein paar zu viele\l"
+	.string "von denen gefangen…\p"
 	.string "Bitte nimm dieses besondere Felino\n"
 	.string "als Dank, {PLAYER}.$"
 #else

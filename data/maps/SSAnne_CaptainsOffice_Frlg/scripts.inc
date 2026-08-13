@@ -78,9 +78,9 @@ SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
 	.string "Ich könnte es dir beibringen, aber\n"
 	.string "mir ist so übel.\p"
 	.string "Genau! Nimm einfach das hier!\p"
-	.string "Damit bringst du deinen Pokémon\n"
-	.string "den Umgang mit dem Zerschneider\l"
-	.string "ganz leicht bei!$"
+	.string "Damit bringst du deinen Pokémon den\n"
+	.string "Umgang mit dem Zerschneider ganz\l"
+	.string "leicht bei!$"
 #else
 	.string "CAPTAIN: Whew! Thank you!\n"
 	.string "I'm feeling much better now.\p"

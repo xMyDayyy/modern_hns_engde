@@ -93,8 +93,7 @@ gText_PleaseWaitForLink::
 gText_ConfirmLinkWhenPlayersReady::
 #if GERMAN
 	.string "Wenn die Spieler bereit sind…\n"
-	.string "A-Knopf: Bestätigen\l"
-	.string "B-Knopf: Abbruch$"
+	.string "A-Knopf: Bestätigen B-Knopf: Abbruch$"
 #else
 	.string "When all players are ready…\n"
 	.string "A Button: Confirm\l"
@@ -103,9 +102,9 @@ gText_ConfirmLinkWhenPlayersReady::
 
 gText_ConfirmStartLinkWithXPlayers::
 #if GERMAN
-	.string "Verbindung für {STR_VAR_1} Spieler aufbauen.\n"
-	.string "A-Knopf: Bestätigen\l"
-	.string "B-Knopf: Abbruch$"
+	.string "Verbindung für {STR_VAR_1} Spieler\n"
+	.string "aufbauen.\l"
+	.string "A-Knopf: Bestätigen B-Knopf: Abbruch$"
 #else
 	.string "Start link with {STR_VAR_1} players.\n"
 	.string "A Button: Confirm\l"
@@ -267,9 +266,8 @@ CableClub_Text_GotToLookAtTrainerCard:
 
 CableClub_Text_GotToLookAtColoredTrainerCard:
 #if GERMAN
-	.string "Hey! Schau dir mal den Trainerpass\n"
-	.string "von {STR_VAR_1} an! Es ist ein\l"
-	.string "{STR_VAR_2}Pass.$"
+	.string "Hey! Schau dir mal den Trainerpass von\n"
+	.string "{STR_VAR_1} an! Es ist ein {STR_VAR_2}Pass.$"
 #else
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
 	.string "TRAINER CARD!\p"
@@ -320,9 +318,9 @@ CableClub_Text_HopeToSeeYouAgain:
 CableClub_Text_NotSetUpForFarAwayRegion:
 #if GERMAN
 	.string "Es tut mir schrecklich Leid.\p"
-	.string "Wir sind noch nicht auf einen\n"
-	.string "Tausch mit Trainern aus\l"
-	.string "entfernten Gebieten vorbereitet…$"
+	.string "Wir sind noch nicht auf einen Tausch mit\n"
+	.string "Trainern aus entfernten Gebieten\l"
+	.string "vorbereitet…$"
 #else
 	.string "I'm awfully sorry.\p"
 	.string "We're not set up to conduct trades\n"
@@ -485,9 +483,9 @@ CableClub_Text_ReturnsToPreviousStep:
 
 CableClub_Text_NeedBerryForBerryCrush:
 #if GERMAN
-	.string "Um die Beerenmühle benutzen\n"
-	.string "zu können, musst du mindestens\l"
-	.string "eine Beere besitzen.$"
+	.string "Um die Beerenmühle benutzen zu können,\n"
+	.string "musst du mindestens eine Beere\l"
+	.string "besitzen.$"
 #else
 	.string "To use the BERRY CRUSH service,\n"
 	.string "you must have at least one BERRY.$"
@@ -495,9 +493,9 @@ CableClub_Text_NeedBerryForBerryCrush:
 
 CableClub_Text_NeedTwoMonsForUnionRoom:
 #if GERMAN
-	.string "Um den Konnex-Klub betreten zu\n"
-	.string "dürfen, musst du mindestens zwei\l"
-	.string "Pokémon besitzen.$"
+	.string "Um den Konnex-Klub betreten zu dürfen,\n"
+	.string "musst du mindestens zwei Pokémon\l"
+	.string "besitzen.$"
 #else
 	.string "To enter the UNION ROOM, you must\n"
 	.string "have at least two POKéMON.$"
@@ -518,8 +516,8 @@ CableClub_Text_UnionRoomAdapterNotConnected:
 	.string "Das ist der Drahtlose Pokémon\n"
 	.string "Konnex-Klub.\p"
 	.string "Leider ist dein Drahtloser Game Boy\n"
-	.string "Advance-Adapter nicht\l"
-	.string "ordnungsgemäß angeschlossen.\l"
+	.string "Advance-Adapter nicht ordnungsgemäß\l"
+	.string "angeschlossen.\l"
 	.string "Bitte komme später wieder!$"
 #else
 	.string "This is the POKéMON WIRELESS CLUB\n"
@@ -567,14 +565,13 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "Springe mit deinem Pokémon durch\n"
 	.string "Drücken des A-Knopfs über den\l"
 	.string "Rankenhieb.\l"
-	.string "Es dürfen nur kleine, circa\l"
-	.string "70 cm große Pokémon\l"
-	.string "teilnehmen.\l"
-	.string "Pokémon, die ausschließlich\l"
-	.string "schwimmen, graben oder fliegen,\l"
-	.string "können nicht gut springen.\l"
-	.string "Daher dürfen diese Pokémon auch\l"
-	.string "nicht teilnehmen.\p"
+	.string "Es dürfen nur kleine, circa 70 cm große\l"
+	.string "Pokémon teilnehmen.\l"
+	.string "Pokémon, die ausschließlich schwimmen,\l"
+	.string "graben oder fliegen, können nicht gut\l"
+	.string "springen.\l"
+	.string "Daher dürfen diese Pokémon auch nicht\l"
+	.string "teilnehmen.\p"
 	.string "Etwas Schönes passiert, wenn alle\n"
 	.string "rechtzeitig springen.$"
 #else
@@ -597,10 +594,10 @@ MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
 	.string "Bewege Dodris drei Köpfe, um die\n"
 	.string "fallenden Beeren zu fangen.\p"
 	.string "Drücke das {PLUS} Steuerkreuz nach\n"
-	.string "rechts, oben oder links, um die\l"
-	.string "Köpfe zu bewegen.\l"
-	.string "Um an diesem Spiel teilnehmen zu\l"
-	.string "dürfen, benötigst du ein Dodri.$"
+	.string "rechts, oben oder links, um die Köpfe zu\l"
+	.string "bewegen.\l"
+	.string "Um an diesem Spiel teilnehmen zu dürfen,\l"
+	.string "benötigst du ein Dodri.$"
 #else
 	.string "“DODRIO BERRY-PICKING”\p"
 	.string "Command DODRIO's three heads to\n"
@@ -614,8 +611,8 @@ MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
 MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay:
 #if GERMAN
 	.string "Wenn du spielen möchtest, dann wende\n"
-	.string "dich bitte an den älteren Herrn\l"
-	.string "neben mir.$"
+	.string "dich bitte an den älteren Herrn neben\l"
+	.string "mir.$"
 #else
 	.string "If you want to play a game,\n"
 	.string "please tell the old man beside me.$"
@@ -672,8 +669,8 @@ MossdeepCity_GameCorner_1F_Text_EnterWhichPokemon:
 MossdeepCity_GameCorner_1F_Text_AllGoodToGo:
 #if GERMAN
 	.string "Gut, du kannst loslegen!\n"
-	.string "Lass nicht zu, dass dich die\l"
-	.string "anderen besiegen!$"
+	.string "Lass nicht zu, dass dich die anderen\l"
+	.string "besiegen!$"
 #else
 	.string "Okay, you're all good to go.\n"
 	.string "Don't let the others beat you!$"
@@ -704,8 +701,8 @@ MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon:
 MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
 #if GERMAN
 	.string "Am “Pokémon-Sprung”\n"
-	.string "dürfen Pokémon, die 70 cm oder\l"
-	.string "kleiner sind, teilnehmen.\p"
+	.string "dürfen Pokémon, die 70 cm oder kleiner\l"
+	.string "sind, teilnehmen.\p"
 	.string "Pokémon, die nicht springen können,\n"
 	.string "dürfen nicht teilnehmen.\p"
 	.string "Zum Beispiel Pokémon, die nur\n"
@@ -790,9 +787,8 @@ CableClub_Text_UseBerryCrush:
 CableClub_Text_ExplainBattleModes:
 #if GERMAN
 	.string "Es gibt drei Kampfarten.\p"
-	.string "Einzelkampf ist für zwei Trainer,\n"
-	.string "mit je einem oder\l"
-	.string "mehreren Pokémon.\p"
+	.string "Einzelkampf ist für zwei Trainer, mit je\n"
+	.string "einem oder mehreren Pokémon.\p"
 	.string "Jeder Trainer schickt pro Runde\n"
 	.string "ein Pokémon in den Kampf.\p"
 	.string "Doppelkampf ist für zwei Trainer\n"
@@ -863,8 +859,8 @@ CableClub_Text_WelcomeUnionRoomEnter:
 	.string "Willkommen im Pokémon Drahtlosen\n"
 	.string "Konnex-Klub.\p"
 	.string "Du kannst hier direkt mit anderen\n"
-	.string "Trainern interagieren, sogar\l"
-	.string "mit unbekannten.\l"
+	.string "Trainern interagieren, sogar mit\l"
+	.string "unbekannten.\l"
 	.string "Möchtest du den Klub betreten?$"
 #else
 	.string "Welcome to the POKéMON WIRELESS\n"
@@ -877,17 +873,15 @@ CableClub_Text_WelcomeUnionRoomEnter:
 
 CableClub_Text_UnionRoomInfo:
 #if GERMAN
-	.string "Die Trainer im Konnex-Klub sind\n"
-	.string "die Spieler, die ebenfalls den Klub\l"
-	.string "betreten haben.\p"
-	.string "Hier kannst du alles Mögliche\n"
-	.string "machen, z.B. Grußformeln\l"
-	.string "austauschen!\l"
-	.string "Du darfst zwei Pokémon bis\l"
-	.string "Level 30 für einen Einzelkampf\l"
-	.string "mitnehmen.\l"
-	.string "Du kannst eine Unterhaltung mit\l"
-	.string "zwei bis fünf Teilnehmern führen.\p"
+	.string "Die Trainer im Konnex-Klub sind die\n"
+	.string "Spieler, die ebenfalls den Klub betreten\l"
+	.string "haben.\p"
+	.string "Hier kannst du alles Mögliche machen,\n"
+	.string "z.B. Grußformeln austauschen!\l"
+	.string "Du darfst zwei Pokémon bis Level 30 für\l"
+	.string "einen Einzelkampf mitnehmen.\l"
+	.string "Du kannst eine Unterhaltung mit zwei\l"
+	.string "bis fünf Teilnehmern führen.\p"
 	.string "Oder du meldest ein Pokémon zum\n"
 	.string "Tausch an.\p"
 	.string "Möchtest du den Klub betreten?$"
@@ -924,8 +918,7 @@ CableClub_Text_FirstTimeRightThisWay:
 	.string "Ich zeige dir, wie das Drahtlose\n"
 	.string "Kommunikations-System funktioniert.\p"
 	.string "Zunächst zeige ich dir dieses\n"
-	.string "Stockwerk unseres Pokémon-\l"
-	.string "Centers.\p"
+	.string "Stockwerk unseres Pokémon-Centers.\p"
 	.string "Hier entlang bitte!$"
 #else
 	.string "Hello!\n"
@@ -946,8 +939,8 @@ CableClub_Text_ExplainWirelessClubFirstTime:
 	.string "Zum Ersten den Klub links.\n"
 	.string "Das ist der Konnex-Klub.\p"
 	.string "Hier kannst du Trainer treffen, die\n"
-	.string "ebenfalls den Konnex-Klub\l"
-	.string "betreten haben.\p"
+	.string "ebenfalls den Konnex-Klub betreten\l"
+	.string "haben.\p"
 	.string "Du kannst mit ihnen sprechen,\n"
 	.string "kämpfen und tauschen.\p"
 	.string "Zum Zweiten den Klub rechts.\n"
@@ -955,9 +948,9 @@ CableClub_Text_ExplainWirelessClubFirstTime:
 	.string "Hier kannst du mit Pokémon gegen\n"
 	.string "Freunde kämpfen oder sie tauschen.\p"
 	.string "Falls der Drahtlose Game Boy\n"
-	.string "Advance-Adapter nicht\l"
-	.string "eingesteckt ist, kannst du das\l"
-	.string "GBA Game Link-Kabel benutzen.\p"
+	.string "Advance-Adapter nicht eingesteckt\l"
+	.string "ist, kannst du das GBA Game Link-Kabel\l"
+	.string "benutzen.\p"
 	.string "In diesem Fall musst du den\n"
 	.string "Direktklub betreten.\p"
 	.string "Viel Vergnügen mit dem Drahtlosen\n"
@@ -1009,25 +1002,22 @@ CableClub_Text_ExplainWirelessClub:
 	.string "Zum Ersten den linken Klub.\n"
 	.string "Das ist der Konnex-Klub.\p"
 	.string "Hier kannst du Trainer treffen, die\n"
-	.string "ebenfalls den Konnex-Klub\l"
-	.string "betreten haben.\p"
+	.string "ebenfalls den Konnex-Klub betreten\l"
+	.string "haben.\p"
 	.string "Du kannst mit ihnen sprechen,\n"
 	.string "kämpfen und tauschen.\p"
 	.string "Zum Zweiten den Klub rechts.\n"
 	.string "Das ist der Direktklub.\p"
 	.string "Hier kannst du mit Pokémon gegen\n"
 	.string "Freunde kämpfen oder sie tauschen.\p"
-	.string "Manchmal kannst du deine\n"
-	.string "Freunde in keinem der Klubs\l"
-	.string "treffen.\p"
+	.string "Manchmal kannst du deine Freunde in\n"
+	.string "keinem der Klubs treffen.\p"
 	.string "In diesem Fall musst du näher\n"
 	.string "zu deinen Freunden rücken.\p"
 	.string "Falls der Drahtlose Game Boy\n"
-	.string "Advance-Adapter nicht\l"
-	.string "benutzt wird, kannst\l"
-	.string "du via Game Boy Advance\l"
-	.string "Game Link-Kabel eine\l"
-	.string "Verbindung herstellen.\p"
+	.string "Advance-Adapter nicht benutzt wird,\l"
+	.string "kannst du via Game Boy Advance Game\l"
+	.string "Link-Kabel eine Verbindung herstellen.\p"
 	.string "In diesem Fall musst du in\n"
 	.string "den Direktklub gehen.\p"
 	.string "Viel Vergnügen mit dem Drahtlosen\n"

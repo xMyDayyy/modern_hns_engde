@@ -25,11 +25,10 @@ VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague:
 VerdanturfTown_House_Text_DefeatEliteFourInARow:
 #if GERMAN
 	.string "In der Pokémon Liga musst du die Top\n"
-	.string "Vier hintereinander besiegen. Das\l"
-	.string "sagen die Regeln.\p"
+	.string "Vier hintereinander besiegen. Das sagen\l"
+	.string "die Regeln.\p"
 	.string "Wenn du gegen einen dieser Trainer\n"
-	.string "verlierst, musst du die\l"
-	.string "Herausforderung\l"
+	.string "verlierst, musst du die Herausforderung\l"
 	.string "von vorne beginnen.$"
 #else
 	.string "In the POKéMON LEAGUE, I think the\n"

@@ -40,8 +40,7 @@ MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats:
 	.string "Es gibt Items, die den Status eines\n"
 	.string "Pokémon kurzzeitig erhöhen.\p"
 	.string "Ich weiß, dass man X-Angriff und\n"
-	.string "X-Abwehr im Kampf einsetzen\l"
-	.string "kann…\p"
+	.string "X-Abwehr im Kampf einsetzen kann…\p"
 	.string "Ich glaube, es gibt aber auch noch\n"
 	.string "andere.$"
 #else

@@ -59,8 +59,7 @@ SeafloorCavern_Entrance_EventScript_GruntFacePlayerNorth::
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
 #if GERMAN
 	.string "Hey! Dein Gesicht kenne ich doch!\p"
-	.string "Du bist hier, und das kann nur\n"
-	.string "bedeuten,\l"
+	.string "Du bist hier, und das kann nur bedeuten,\n"
 	.string "dass du dich wieder in unsere\l"
 	.string "Angelegenheiten einmischen willst!\p"
 	.string "Glaubst du wirklich, dass ein Baby wie\n"

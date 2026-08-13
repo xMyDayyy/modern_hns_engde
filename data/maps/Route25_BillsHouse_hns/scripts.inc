@@ -38,9 +38,9 @@ Route25_BillsHouse_hns_EventScript_TeleporterTest::
 Route25_BillsHouse_Text_Teleporter:
 #if GERMAN
 	.string "Galar Transformator:\p"
-	.string "Diese Maschine transformiert\n"
-	.string "Ein Pokémon in seine Galar-Form\l"
-	.string "Prozess ist permanent.\l"
+	.string "Diese Maschine transformiert Ein\n"
+	.string "Pokémon in seine Galar-Form Prozess ist\l"
+	.string "permanent.\l"
 	.string "Fortsetzen?$"
 #else
 	.string "THIS MACHINE WILL TRANSFORM\n"
@@ -627,9 +627,9 @@ Route25_BillsHouse_Text_GrandpaIntro:
 
 Route25_BillsHouse_Text_GrampsMeowth:
 #if GERMAN
-	.string "Mein Enkel Bill erzählte mir\n"
-	.string "von einem Pokémon mit scharfen\l"
-	.string "Krallen, einer Münze auf dem\p"
+	.string "Mein Enkel Bill erzählte mir von einem\n"
+	.string "Pokémon mit scharfen Krallen, einer\l"
+	.string "Münze auf dem\p"
 	.string "Kopf und dem Ruf,\n"
 	.string "Glück zu bringen.$"
 #else
@@ -668,9 +668,8 @@ Route25_BillsHouse_Text_GrampsPonyta:
 
 Route25_BillsHouse_Text_GrampsFarfetchd:
 #if GERMAN
-	.string "Bill erzählte mir von einem\n"
-	.string "Pokémon, das immer eine\l"
-	.string "Lauchstange mit sich trägt.\p"
+	.string "Bill erzählte mir von einem Pokémon, das\n"
+	.string "immer eine Lauchstange mit sich trägt.\p"
 	.string "Schon ein seltsames Wesen.$"
 #else
 	.string "BILL told me about a POKéMON\n"
@@ -695,9 +694,9 @@ Route25_BillsHouse_Text_GrampsSlowpoke:
 Route25_BillsHouse_Text_TeleporterUnlocked:
 #if GERMAN
 	.string "Ach, noch etwas!\p"
-	.string "Bill hat eine Notiz hinter-\n"
-	.string "lassen. Falls ich jemanden\l"
-	.string "finde, der Pokémon wirklich\p"
+	.string "Bill hat eine Notiz hinterlassen. Falls\n"
+	.string "ich jemanden finde, der Pokémon\l"
+	.string "wirklich\p"
 	.string "schätzt, soll ich ihn seine\n"
 	.string "Maschine nutzen lassen.\p"
 	.string "Benutz ihn jederzeit!\p"

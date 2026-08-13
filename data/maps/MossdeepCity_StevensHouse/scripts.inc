@@ -168,9 +168,8 @@ MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
 
 MossdeepCity_StevensHouse_Text_ExplainDive:
 #if GERMAN
-	.string "Troy: Wenn du Surfer einsetzt und\n"
-	.string "über das Meer gleitest, wirst du\l"
-	.string "dunkle\l"
+	.string "Troy: Wenn du Surfer einsetzt und über\n"
+	.string "das Meer gleitest, wirst du dunkle\l"
 	.string "Stellen im Wasser bemerken können.\p"
 	.string "Setze hier Taucher ein und du kannst\n"
 	.string "hinabtauchen bis zum Meeresboden.\p"
@@ -192,8 +191,8 @@ MossdeepCity_StevensHouse_Text_ExplainDive:
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
 #if GERMAN
 	.string "Troy: Zwischen Moosbach City und\n"
-	.string "Xeneroville gibt es eine Unterwasser-\l"
-	.string "höhle.\p"
+	.string "Xeneroville gibt es eine\l"
+	.string "Unterwasserhöhle.\p"
 	.string "Die, die Kapt. Brigg auf seiner\n"
 	.string "Expedition entdeckt hat, weißt du.$"
 #else

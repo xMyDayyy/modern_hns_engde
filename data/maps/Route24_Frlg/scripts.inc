@@ -165,9 +165,8 @@ Route24_Text_RocketDefeat::
 
 Route24_Text_YoudBecomeTopRocketLeader::
 #if GERMAN
-	.string "Bei deinem Können wärst du im\n"
-	.string "Team Rocket leicht die rechte Hand\l"
-	.string "vom Boss!\p"
+	.string "Bei deinem Können wärst du im Team\n"
+	.string "Rocket leicht die rechte Hand vom Boss!\p"
 	.string "Denke darüber nach! Lass dir\n"
 	.string "diese Chance nicht entgehen!$"
 #else
@@ -194,9 +193,9 @@ Route24_Text_ShaneDefeat::
 
 Route24_Text_ShanePostBattle::
 #if GERMAN
-	.string "Ich habe mich versteckt, weil mir\n"
-	.string "die Leute auf der Brücke Angst\l"
-	.string "gemacht haben!$"
+	.string "Ich habe mich versteckt, weil mir die\n"
+	.string "Leute auf der Brücke Angst gemacht\l"
+	.string "haben!$"
 #else
 	.string "I hid because the people on the\n"
 	.string "bridge frightened me.$"

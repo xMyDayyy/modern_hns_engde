@@ -16,9 +16,9 @@ PewterCity_PokemonCenter_EventScript_BugCatcher::
 
 PewterCity_PokemonCenter1F_Text_Teacher:
 #if GERMAN
-	.string "Und jetzt höre dir das an! Die Arena\n"
-	.string "auf der Zinnoberinsel ist futsch! Mann,\l"
-	.string "ich bin glatt aus den Latschen gekippt!\p"
+	.string "Und jetzt höre dir das an! Die Arena auf\n"
+	.string "der Zinnoberinsel ist futsch! Mann, ich\l"
+	.string "bin glatt aus den Latschen gekippt!\p"
 	.string "…Was willst du? Siehst du nicht, dass\n"
 	.string "ich hier gerade telefoniere?$"
 #else

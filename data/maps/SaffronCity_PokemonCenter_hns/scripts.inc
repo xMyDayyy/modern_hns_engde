@@ -29,8 +29,8 @@ SaffronCity_PokemonCenter1F_Text_Teacher:
 	.string "…Oh, aha. Sie unterscheiden sich also\n"
 	.string "nicht so sehr von denen in Kanto…\p"
 	.string "Dann sage ich meinem Kumpel aus Johto,\n"
-	.string "dass er ein Marill fangen und es mit\l"
-	.string "mir tauschen soll!$"
+	.string "dass er ein Marill fangen und es mit mir\l"
+	.string "tauschen soll!$"
 #else
 	.string "What are JOHTO's POKéMON CENTERS\n"
 	.string "like?\p"
@@ -56,8 +56,8 @@ SaffronCity_PokemonCenter1F_Text_Fisher_ReturnedPart:
 #if GERMAN
 	.string "Die Höhlen stürzen leicht ein.\p"
 	.string "In letzter Zeit sind einige Höhlen\n"
-	.string "verschwunden. Wie\l"
-	.string "die Höhle vor Azuria City.\p"
+	.string "verschwunden. Wie die Höhle vor Azuria\l"
+	.string "City.\p"
 	.string "Für einen Profi-\n"
 	.string "Wanderer ist das Grundwissen.$"
 #else

@@ -136,9 +136,8 @@ Route47_Text_Couple2Seen::
 #if GERMAN
 	.string "David: Meine Freundin zu beschützen\n"
 	.string "lässt mein Herz höherfliegen!\p"
-	.string "Eva: Meine Gefühle für meinen\n"
-	.string "Freund sind so weit und tief\l"
-	.string "wie der Ozean!$"
+	.string "Eva: Meine Gefühle für meinen Freund\n"
+	.string "sind so weit und tief wie der Ozean!$"
 #else
 	.string "DUFF: Watching over my girlfriend\n"
 	.string "makes my heart soar!\p"
@@ -150,8 +149,7 @@ Route47_Text_Couple2Seen::
 Route47_Text_Couple2Beaten::
 #if GERMAN
 	.string "David: Ich war dir nicht gewachsen…\n"
-	.string "Eva: Du bist wirklich etwas\l"
-	.string "Besonderes…$"
+	.string "Eva: Du bist wirklich etwas Besonderes…$"
 #else
 	.string "DUFF: I was no match for you...\l"
 	.string "EDA: You are really something...$"

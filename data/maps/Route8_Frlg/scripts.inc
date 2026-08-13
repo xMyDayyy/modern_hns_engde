@@ -100,9 +100,9 @@ Route8_Text_PaigeDefeat::
 
 Route8_Text_PaigePostBattle::
 #if GERMAN
-	.string "Wenn Pokémon sich entwickeln,\n"
-	.string "werden sie groß und hässlich! Sie\l"
-	.string "sollten klein und goldig bleiben!$"
+	.string "Wenn Pokémon sich entwickeln, werden\n"
+	.string "sie groß und hässlich! Sie sollten klein\l"
+	.string "und goldig bleiben!$"
 #else
 	.string "When POKéMON grow up, they get\n"
 	.string "ugly! They shouldn't evolve.$"
@@ -207,9 +207,9 @@ Route8_Text_RichDefeat::
 
 Route8_Text_RichPostBattle::
 #if GERMAN
-	.string "Glücksspiele und Pokémon haben\n"
-	.string "eines gemeinsam: Man kann nicht\l"
-	.string "damit aufhören!$"
+	.string "Glücksspiele und Pokémon haben eines\n"
+	.string "gemeinsam: Man kann nicht damit\l"
+	.string "aufhören!$"
 #else
 	.string "Playing games and POKéMON are like\n"
 	.string "eating peanuts! I just can't stop!$"
@@ -235,9 +235,8 @@ Route8_Text_JuliaDefeat::
 
 Route8_Text_JuliaPostBattle::
 #if GERMAN
-	.string "Ich habe gehört, Piepi entwickelt\n"
-	.string "sich, wenn man ihm einen Mondstein\l"
-	.string "gibt.$"
+	.string "Ich habe gehört, Piepi entwickelt sich,\n"
+	.string "wenn man ihm einen Mondstein gibt.$"
 #else
 	.string "I read that CLEFAIRY evolves when\n"
 	.string "it's exposed to a MOON STONE.\p"
@@ -368,8 +367,8 @@ Route8_Text_JarenDefeat::
 Route8_Text_JarenPostBattle::
 #if GERMAN
 	.string "Denk bloß nicht, dass du etwas\n"
-	.string "Besonderes bist, nur weil du\l"
-	.string "gewonnen hast.$"
+	.string "Besonderes bist, nur weil du gewonnen\l"
+	.string "hast.$"
 #else
 	.string "Don't think you're all special and\n"
 	.string "all just because of this.$"

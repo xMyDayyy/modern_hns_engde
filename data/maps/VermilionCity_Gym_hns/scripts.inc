@@ -379,8 +379,7 @@ VermilionGym_Text_SurgeRematch:
 	.string "Bob: Also, du bist jetzt\n"
 	.string "Kanto-Champion!\p"
 	.string "Beeindruckend, Kleiner!\n"
-	.string "Doch denk nicht, dass ich fertig\l"
-	.string "bin!\p"
+	.string "Doch denk nicht, dass ich fertig bin!\p"
 	.string "Wie wär’s mit einer Revanche?$"
 #else
 	.string "SURGE: So, you're now KANTO\n"
@@ -401,8 +400,7 @@ VermilionGym_Text_SurgeRematchDefeat:
 
 VermilionGym_Text_GentlemanGregorySeen:
 #if GERMAN
-	.string "Du bist hier, um Major Bob\n"
-	.string "zu besiegen?\l"
+	.string "Du bist hier, um Major Bob zu besiegen?\n"
 	.string "Da musst du erst an mir vorbei!$"
 #else
 	.string "You're here to defeat LT.SURGE?\p"
@@ -496,9 +494,8 @@ VermilionCity_Gym_Text_GymGuyAdvice::
 	.string "einen Nachteil gegen Elektro.\p"
 	.string "Pass auch auf Paralyse auf.\p"
 	.string "Major Bob ist sehr vorsichtig.\p"
-	.string "Er hat sich eingeschlossen, also\n"
-	.string "wird es nicht einfach sein,\l"
-	.string "zu ihm zu gelangen.$"
+	.string "Er hat sich eingeschlossen, also wird es\n"
+	.string "nicht einfach sein, zu ihm zu gelangen.$"
 #else
     .string "Yo!\n"
     .string "Champ in the making!\p"

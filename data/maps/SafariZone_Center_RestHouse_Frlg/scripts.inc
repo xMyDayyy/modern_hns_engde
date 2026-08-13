@@ -20,9 +20,8 @@ SafariZone_Center_Text_WhereDidErikGo::
 
 SafariZone_Center_Text_CatchingMonsAsGifts::
 #if GERMAN
-	.string "Wenn ich Pokémon fange, verschenke\n"
-	.string "ich sie, wenn ich wieder zu Hause\l"
-	.string "bin!$"
+	.string "Wenn ich Pokémon fange, verschenke ich\n"
+	.string "sie, wenn ich wieder zu Hause bin!$"
 #else
 	.string "I'm catching POKéMON to take home\n"
 	.string "as gifts.$"

@@ -45,9 +45,8 @@ Route30_BerryHouse_Text_MonEatBerries:
 
 Route30_BerryHouse_Text_CheckTrees:
 #if GERMAN
-	.string "Suche in Bäumen\n"
-	.string "nach Beeren. Sie fallen einfach\l"
-	.string "herunter.$"
+	.string "Suche in Bäumen nach Beeren. Sie fallen\n"
+	.string "einfach herunter.$"
 #else
 	.string "Check trees for BERRIES.\n"
 	.string "They grow back after a few hours.$"

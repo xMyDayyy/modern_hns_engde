@@ -40,9 +40,8 @@ Route25_Text_JoeyPostBattle::
 
 Route25_Text_DanIntro::
 #if GERMAN
-	.string "Ich habe in Orania City mit\n"
-	.string "meinem Papa auf der M.s. Anne eine\l"
-	.string "Party besucht!$"
+	.string "Ich habe in Orania City mit meinem Papa\n"
+	.string "auf der M.s. Anne eine Party besucht!$"
 #else
 	.string "Dad took me to a great party on\n"
 	.string "the S.S. ANNE at VERMILION CITY.$"
@@ -145,8 +144,7 @@ Route25_Text_ChadPostBattle::
 Route25_Text_HaleyIntro::
 #if GERMAN
 	.string "Meine Freundin hat so ein süßes\n"
-	.string "Pokémon! Ich bin furchtbar\l"
-	.string "neidisch!$"
+	.string "Pokémon! Ich bin furchtbar neidisch!$"
 #else
 	.string "My friend has many cute POKéMON.\n"
 	.string "I'm so jealous!$"
@@ -269,9 +267,8 @@ Route25_Text_MistyHighHopesAboutThisPlace::
 Route25_Text_AreYouHereAlone::
 #if GERMAN
 	.string "Hallo! Bist du alleine hier?\p"
-	.string "Wenn du am Kap von Azuria City\n"
-	.string "bist, solltest du jemanden dabei\l"
-	.string "haben.$"
+	.string "Wenn du am Kap von Azuria City bist,\n"
+	.string "solltest du jemanden dabei haben.$"
 #else
 	.string "Hello, are you here alone?\p"
 	.string "If you're out at CERULEAN's cape…\n"

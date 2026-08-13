@@ -21,8 +21,8 @@ Route5_House_EventScript_Woman::
 Route5_House_Text_Granny1:
 #if GERMAN
 	.string "Huaaah!\p"
-	.string "Ich spüre einen dunklen Schatten\n"
-	.string "über dir hängen!\l"
+	.string "Ich spüre einen dunklen Schatten über\n"
+	.string "dir hängen!\l"
 	.string "Verwende dies, um ihn loszuwerden!$"
 #else
 	.string "Eeyaaaah!\p"

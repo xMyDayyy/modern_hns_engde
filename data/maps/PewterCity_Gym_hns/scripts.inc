@@ -63,8 +63,8 @@ PewterCity_Gym_Text_Brock_Intro:
 PewterCity_Gym_Text_Brock_WinLoss:
 #if GERMAN
 	.string "Rocko: Unglaublich! Die mächtigen\n"
-	.string "Attacken deiner Pokémon haben\l"
-	.string "meine Verteidigung durchbrochen.\p"
+	.string "Attacken deiner Pokémon haben meine\l"
+	.string "Verteidigung durchbrochen.\p"
 	.string "Hier! Nimm diesen Orden!$"
 #else
 	.string "BROCK: Your POKéMON's powerful attacks\n"
@@ -83,8 +83,8 @@ PewterCity_Gym_Text_ReceivedBoulderBadge:
 PewterCity_Gym_Text_Brock_BoulderBadge:
 #if GERMAN
 	.string "Rocko: {PLAYER}, danke.\n"
-	.string "Der Kampf hat mir gefallen,\l"
-	.string "auch wenn ich etwas enttäuscht bin.\p"
+	.string "Der Kampf hat mir gefallen, auch wenn\l"
+	.string "ich etwas enttäuscht bin.\p"
 	.string "Der Felsenorden macht deine\n"
 	.string "Pokémon noch stärker.$"
 #else
@@ -136,8 +136,8 @@ PewterCity_Gym_Text_CamperJerry_Beaten:
 PewterCity_Gym_Text_CamperJerry_AfterBattle:
 #if GERMAN
 	.string "He, du da! Trainer aus Johto! Rocko ist\n"
-	.string "stark. Es wird dir übel bekommen,\l"
-	.string "wenn du ihn nicht ernst nimmst.$"
+	.string "stark. Es wird dir übel bekommen, wenn\l"
+	.string "du ihn nicht ernst nimmst.$"
 #else
 	.string "Hey, you! Trainer from JOHTO! BROCK is\n"
 	.string "tough. He'll punish you if you don't\l"
@@ -246,9 +246,9 @@ PewterCity_Gym_EventScript_BrockTradeCompleted::
 
 PewterCity_Gym_Text_BrockWantToTrade:
 #if GERMAN
-	.string "Rocko: Hey, {PLAYER}. Ich habe\n"
-	.string "dieses Mobai gefunden, während\l"
-	.string "ich in den Bergen trainierte.\p"
+	.string "Rocko: Hey, {PLAYER}. Ich habe dieses\n"
+	.string "Mobai gefunden, während ich in den\l"
+	.string "Bergen trainierte.\p"
 	.string "Es ist süß, braucht aber einen\n"
 	.string "anderen Typ Trainer.\p"
 	.string "Würdest du ein {STR_VAR_1}\n"

@@ -92,8 +92,8 @@ CeladonCity_Gym_Text_ErikaIntro::
 	.string "Ich bin Erika, die Arenaleiterin\n"
 	.string "von Prismania City!\p"
 	.string "Ich liebe die Kräfte der Natur!\n"
-	.string "Deshalb trainiere ich Pflanzen-\l"
-	.string "Pokémon.\p"
+	.string "Deshalb trainiere ich\l"
+	.string "Pflanzen-Pokémon.\p"
 	.string "Du möchtest gegen mich antreten?\n"
 	.string "Also gut!\p"
 	.string "Ich werde ohnehin nicht verlieren!$"
@@ -169,9 +169,8 @@ CeladonCity_Gym_Text_ReceivedTM19FromErika::
 CeladonCity_Gym_Text_ExplainTM19::
 #if GERMAN
 	.string "TM19 ist Gigasauger.\p"
-	.string "Dein Pokémon erhält die Hälfte der\n"
-	.string "KP, die diese Attacke dem Gegner\l"
-	.string "abzieht!$"
+	.string "Dein Pokémon erhält die Hälfte der KP,\n"
+	.string "die diese Attacke dem Gegner abzieht!$"
 #else
 	.string "TM19 contains GIGA DRAIN.\p"
 	.string "Half the damage it inflicts is\n"
@@ -189,10 +188,9 @@ CeladonCity_Gym_Text_ShouldMakeRoomForThis::
 
 CeladonCity_Gym_Text_KayIntro::
 #if GERMAN
-	.string "Ich sollte dir etwas über diese\n"
-	.string "Arena erzählen.\l"
-	.string "Nur echte Damen sind hier\l"
-	.string "zugelassen!$"
+	.string "Ich sollte dir etwas über diese Arena\n"
+	.string "erzählen.\l"
+	.string "Nur echte Damen sind hier zugelassen!$"
 #else
 	.string "I should tell you about this GYM.\p"
 	.string "Only real ladies are allowed in\n"
@@ -291,8 +289,7 @@ CeladonCity_Gym_Text_TamiaDefeat::
 CeladonCity_Gym_Text_TamiaPostBattle::
 #if GERMAN
 	.string "Wir trainieren ausschließlich\n"
-	.string "Pflanzen-Pokémon in unserer\l"
-	.string "Arena!\p"
+	.string "Pflanzen-Pokémon in unserer Arena!\p"
 	.string "Wir lieben die Kräfte der Natur!$"
 #else
 	.string "We only use GRASS-type POKéMON at\n"
@@ -322,9 +319,8 @@ CeladonCity_Gym_Text_LisaDefeat::
 
 CeladonCity_Gym_Text_LisaPostBattle::
 #if GERMAN
-	.string "Wenngleich Erika schüchtern wirkt,\n"
-	.string "ist sie eine sehr begabte\l"
-	.string "Arenaleiterin!$"
+	.string "Wenngleich Erika schüchtern wirkt, ist\n"
+	.string "sie eine sehr begabte Arenaleiterin!$"
 #else
 	.string "Our LEADER ERIKA might be quiet,\n"
 	.string "but she's famous around here.$"

@@ -16,9 +16,8 @@ sText_MysteryGiftAlteringCave:
 #if GERMAN
 	.string "Danke, dass du das Geheim-\n"
 	.string "geschehen benutzt hast!\p"
-	.string "In letzter Zeit gab es Gerüchte,\n"
-	.string "dass seltene Pokémon\l"
-	.string "plötzlich auftauchen.\p"
+	.string "In letzter Zeit gab es Gerüchte, dass\n"
+	.string "seltene Pokémon plötzlich auftauchen.\p"
 	.string "Die Gerüchte beziehen sich auf\n"
 	.string "die Wandelhöhle an der Route 103.\p"
 	.string "Warum schaust du dich dort nicht\n"

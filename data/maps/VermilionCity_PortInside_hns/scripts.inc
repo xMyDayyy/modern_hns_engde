@@ -20,8 +20,8 @@ VermilionPort_Text_SuperNerd:
 #if GERMAN
 	.string "Du kommst aus Johto?\p"
 	.string "Oh, toll!\n"
-	.string "Dort sollen viele seltene\l"
-	.string "Pokémon leben!$"
+	.string "Dort sollen viele seltene Pokémon\l"
+	.string "leben!$"
 #else
 	.string "You came from JOHTO?\p"
 	.string "I hear many rare POKéMON live\n"
@@ -182,8 +182,8 @@ VermilionPort_Movement_BoatLeave:
 VermilionPort_Text_SailorCantSail:
 #if GERMAN
 	.string "Im Kraftwerk gab es einen Einbruch,\n"
-	.string "deshalb können wir nicht auslaufen,\l"
-	.string "bis der Dieb gefunden ist.$"
+	.string "deshalb können wir nicht auslaufen, bis\l"
+	.string "der Dieb gefunden ist.$"
 #else
 	.string "There's been a break-in at the\n"
 	.string "POWER PLANT, so we cannot set sail\l"

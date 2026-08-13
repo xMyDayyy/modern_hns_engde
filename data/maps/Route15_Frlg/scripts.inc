@@ -8,8 +8,8 @@ Route15_EventScript_RouteSign::
 Route15_Text_KindraIntro::
 #if GERMAN
 	.string "Wunderbar! Dann kann ich gleich\n"
-	.string "ausprobieren, wie gut die Pokémon\l"
-	.string "sind, die ich getauscht habe!$"
+	.string "ausprobieren, wie gut die Pokémon sind,\l"
+	.string "die ich getauscht habe!$"
 #else
 	.string "I just got some POKéMON in trades.\n"
 	.string "Can I try them out on you?$"
@@ -24,9 +24,8 @@ Route15_Text_KindraDefeat::
 
 Route15_Text_KindraPostBattle::
 #if GERMAN
-	.string "Man kann den Spitznamen eines\n"
-	.string "Pokémon, das man getauscht hat,\l"
-	.string "nicht ändern.\p"
+	.string "Man kann den Spitznamen eines Pokémon,\n"
+	.string "das man getauscht hat, nicht ändern.\p"
 	.string "Nur der Original-Trainer kann den\n"
 	.string "Namen verändern.$"
 #else
@@ -107,9 +106,9 @@ Route15_Text_ChesterDefeat::
 
 Route15_Text_ChesterPostBattle::
 #if GERMAN
-	.string "Wusstest du, dass manche Attacken,\n"
-	.string "wie Erdbeben, keine Wirkung auf\l"
-	.string "Vögel haben?$"
+	.string "Wusstest du, dass manche Attacken, wie\n"
+	.string "Erdbeben, keine Wirkung auf Vögel\l"
+	.string "haben?$"
 #else
 	.string "This is so obvious, you should know\n"
 	.string "this, but…\p"
@@ -283,8 +282,8 @@ Route15_Text_RouteSign::
 Route15_Text_MyaIntro::
 #if GERMAN
 	.string "Eva: Du bist perfekt!\n"
-	.string "Hilfst du mir, meinen kleinen\l"
-	.string "Bruder zu trainieren?$"
+	.string "Hilfst du mir, meinen kleinen Bruder zu\l"
+	.string "trainieren?$"
 #else
 	.string "MYA: You're perfect.\n"
 	.string "Help me train my little brother?$"
@@ -311,9 +310,8 @@ Route15_Text_MyaPostBattle::
 
 Route15_Text_MyaNotEnoughMons::
 #if GERMAN
-	.string "Eva: Möchtest du uns\n"
-	.string "herausfordern? Du brauchst\l"
-	.string "allerdings zwei Pokémon!$"
+	.string "Eva: Möchtest du uns herausfordern? Du\n"
+	.string "brauchst allerdings zwei Pokémon!$"
 #else
 	.string "MYA: Do you want to challenge us?\n"
 	.string "You'll need two POKéMON, though.$"
@@ -340,8 +338,8 @@ Route15_Text_RonDefeat::
 Route15_Text_RonPostBattle::
 #if GERMAN
 	.string "Sergio: Oh, Mist…\n"
-	.string "Ich wünschte, ich hätte eine\l"
-	.string "nette Schwester…$"
+	.string "Ich wünschte, ich hätte eine nette\l"
+	.string "Schwester…$"
 #else
 	.string "RON: Oh, bleah…\n"
 	.string "I wish I had a nice sister…$"

@@ -36,14 +36,12 @@ FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland::
 #if GERMAN
 	.string "Lorelei: Etwas betrübt meinen\n"
 	.string "Geist!\p"
-	.string "Falls auf der Insel, auf der ich\n"
-	.string "geboren wurde, etwas Schreckliches\l"
-	.string "passiert…\l"
-	.string "Ich würde es nicht erfahren, da\l"
-	.string "ich in der Pokémon Liga wäre!\p"
-	.string "Zeigt das, dass ich meiner\n"
-	.string "Heimat verantwortungslos\l"
-	.string "gegenüberstehe…$"
+	.string "Falls auf der Insel, auf der ich geboren\n"
+	.string "wurde, etwas Schreckliches passiert…\l"
+	.string "Ich würde es nicht erfahren, da ich in\l"
+	.string "der Pokémon Liga wäre!\p"
+	.string "Zeigt das, dass ich meiner Heimat\n"
+	.string "verantwortungslos gegenüberstehe…$"
 #else
 	.string "LORELEI: There's something weighing\n"
 	.string "heavily on my mind.\p"
@@ -80,8 +78,8 @@ FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow::
 #if GERMAN
 	.string "Ich weiß nicht, was die Zukunft\n"
 	.string "bringt, aber…\p"
-	.string "Ich werde tun, was in meiner\n"
-	.string "Macht steht, hier und jetzt.\l"
+	.string "Ich werde tun, was in meiner Macht\n"
+	.string "steht, hier und jetzt.\l"
 	.string "Das ist alles, was ich tun kann!$"
 #else
 	.string "I don't know what will happen in\n"

@@ -1549,9 +1549,9 @@ SootopolisCity_Text_DoYouKnowMonNames:
 
 SootopolisCity_Text_GreenOneSettlesThings:
 #if GERMAN
-	.string "Ich war echt gespannt, ob das rote\n"
-	.string "oder das blaue Pokémon gewinnt. Aber\l"
-	.string "dann hat das grüne Pokémon alles\p"
+	.string "Ich war echt gespannt, ob das rote oder\n"
+	.string "das blaue Pokémon gewinnt. Aber dann\l"
+	.string "hat das grüne Pokémon alles\p"
 	.string "entschieden.\n"
 	.string "Das nenne ich eine spannende Wendung!$"
 #else
@@ -1571,9 +1571,8 @@ SootopolisCity_Text_SeeingLegendWithOwnEyes:
 	.string "Whoa! \l"
 	.string "Ich hätte nie gedacht, dass ich einmal\l"
 	.string "\p"
-	.string "mit meinen eigenen Augen Zeuge eines\n"
-	.string "so bedeutenden Ereignisses werden\l"
-	.string "würde!$"
+	.string "mit meinen eigenen Augen Zeuge eines so\n"
+	.string "bedeutenden Ereignisses werden würde!$"
 #else
 	.string "There's an ancient legend that claims\n"
 	.string "the land and sea were shaped by\l"
@@ -1594,9 +1593,8 @@ SootopolisCity_Text_SawLegendWithOwnEyes:
 	.string "Whoa! \l"
 	.string "Ich hätte nie gedacht, dass ich einmal\l"
 	.string "\p"
-	.string "mit meinen eigenen Augen Zeuge eines\n"
-	.string "so bedeutenden Ereignisses werden\l"
-	.string "würde!$"
+	.string "mit meinen eigenen Augen Zeuge eines so\n"
+	.string "bedeutenden Ereignisses werden würde!$"
 #else
 	.string "There's an ancient legend that claims\n"
 	.string "the land and sea were shaped by\l"
@@ -1646,8 +1644,8 @@ SootopolisCity_Text_SootopolisDidntGetWrecked:
 SootopolisCity_Text_NoOrdinaryTourist:
 #if GERMAN
 	.string "Hm! Du bist den ganzen Weg nach\n"
-	.string "Xeneroville gekommen? Du bist\l"
-	.string "kein normaler Tourist.\p"
+	.string "Xeneroville gekommen? Du bist kein\l"
+	.string "normaler Tourist.\p"
 	.string "Aber das macht dich auch nicht zu\n"
 	.string "einem außergewöhnlichen Touristen.$"
 #else
@@ -1671,8 +1669,8 @@ SootopolisCity_Text_CaveOfOriginPleaseLeave:
 	.string "Wer bist du denn wohl?\p"
 	.string "Dies ist die Urzeithöhle.\p"
 	.string "Die Geister der Pokémon, zur Ruhe\n"
-	.string "gebettet am Pyroberg, erwachen\l"
-	.string "hier zum Leben, sagt man.\p"
+	.string "gebettet am Pyroberg, erwachen hier\l"
+	.string "zum Leben, sagt man.\p"
 	.string "Bitte verlasse diesen Ort.$"
 #else
 	.string "Who might you be?\p"
@@ -1689,8 +1687,7 @@ SootopolisCity_Text_LeadSuperiorTrainerToCave:
 	.string "Ein Trainer, der sich mit den unter-\n"
 	.string "schiedlichsten Pokémon auskennt…\p"
 	.string "Wassili hat mich beauftragt, dass ich,\n"
-	.string "sollte ich so eine Person finden,\l"
-	.string "diesen\l"
+	.string "sollte ich so eine Person finden, diesen\l"
 	.string "Trainer zu dieser Höhle führen soll.$"
 #else
 	.string "A person with a strong will and\n"
@@ -1719,8 +1716,8 @@ SootopolisCity_Text_CaveOfOriginSleepsToo:
 #if GERMAN
 	.string "Dies ist die Urzeithöhle…\p"
 	.string "Nachdem die Krise überwunden ist,\n"
-	.string "sollte auch für diese Höhle wieder\l"
-	.string "Ruhe einkehren…$"
+	.string "sollte auch für diese Höhle wieder Ruhe\l"
+	.string "einkehren…$"
 #else
 	.string "This is the CAVE OF ORIGIN…\p"
 	.string "With the passing of the crisis,\n"
@@ -1748,9 +1745,9 @@ SootopolisCity_Text_SootopolisSkyBeautiful:
 
 SootopolisCity_Text_GiganticPokemonFight:
 #if GERMAN
-	.string "Wenn zwei so riesige Pokémon\n"
-	.string "wild miteinander kämpfen, können wir\l"
-	.string "nur dastehen und zuschauen.$"
+	.string "Wenn zwei so riesige Pokémon wild\n"
+	.string "miteinander kämpfen, können wir nur\l"
+	.string "dastehen und zuschauen.$"
 #else
 	.string "When two POKéMON that gigantic\n"
 	.string "are fighting that savagely, there's\l"
@@ -1855,8 +1852,7 @@ SootopolisCity_Text_AfterAllOurScheming:
 SootopolisCity_Text_KyogreCalmDown:
 #if GERMAN
 	.string "Adrian: Kyogre! Was ist los?!?\n"
-	.string "Schau hierher! Dies ist die rote\l"
-	.string "Kugel!\l"
+	.string "Schau hierher! Dies ist die rote Kugel!\l"
 	.string "Beruhige dich! Kyogre!\p"
 	.string "… … … … …\n"
 	.string "…\l"
@@ -1906,9 +1902,8 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "\p"
 	.string "{PLAYER}{KUN}…\p"
 	.string "Da du hier bist, gehe ich davon aus,\n"
-	.string "dass du bereit bist, uns in dieser\l"
-	.string "Krise\l"
-	.string "zu helfen. \p"
+	.string "dass du bereit bist, uns in dieser Krise\l"
+	.string "zu helfen.\p"
 	.string "Da ist jemand, den möchte ich dir\n"
 	.string "gerne vorstellen.\p"
 	.string "Komm bitte mit.$"
@@ -1932,8 +1927,8 @@ SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 #if GERMAN
 	.string "Troy: Hör zu, {PLAYER}{KUN}.\p"
 	.string "Wenn du dir Groudon und Kyogre\n"
-	.string "anschaust, meinst du dann, dass man\l"
-	.string "die Pokémon fürchten muss?\p"
+	.string "anschaust, meinst du dann, dass man die\l"
+	.string "Pokémon fürchten muss?\p"
 	.string "Nein, das muss man nicht…\n"
 	.string "Pokémon sind vielmehr…\p"
 	.string "Warum ich dich das frage?\n"
@@ -2092,10 +2087,9 @@ SootopolisCity_Text_ExplainWaterfallGoToGym:
 
 SootopolisCity_Text_DazzledByMentor:
 #if GERMAN
-	.string "Wassili: Ich bin mir sicher, dass dich\n"
-	.string "der atemberaubend elegante Kampfstil\l"
-	.string "meines Mentors schwindelig machen\l"
-	.string "wird.$"
+	.string "Wassili: Ich bin mir sicher, dass dich der\n"
+	.string "atemberaubend elegante Kampfstil\l"
+	.string "meines Mentors schwindelig machen wird.$"
 #else
 	.string "WALLACE: I'm sure that you will be\n"
 	.string "dazzled by my mentor's breathtakingly\l"

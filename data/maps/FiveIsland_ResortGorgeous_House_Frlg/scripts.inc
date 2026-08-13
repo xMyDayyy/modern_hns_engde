@@ -172,9 +172,9 @@ FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting::
 #if GERMAN
 	.string "Kea:Oh, ich bin dessen so müde!\n"
 	.string "Ich bin müde, auf dich zu warten!\p"
-	.string "Ich verzeihe dir dieses Mal,\n"
-	.string "aber bitte enttäusche mich\l"
-	.string "beim nächsten Mal nicht mehr!$"
+	.string "Ich verzeihe dir dieses Mal, aber bitte\n"
+	.string "enttäusche mich beim nächsten Mal\l"
+	.string "nicht mehr!$"
 #else
 	.string "SELPHY: Oh, I'm tired of this.\n"
 	.string "I'm tired of waiting for you.\p"
@@ -185,9 +185,8 @@ FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting::
 FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou::
 #if GERMAN
 	.string "Kea: Oh, hallo!\p"
-	.string "Oh, wie grandios! Das muss das\n"
-	.string "{STR_VAR_1} sein, das du für mich\l"
-	.string "gefangen hast.\l"
+	.string "Oh, wie grandios! Das muss das {STR_VAR_1}\n"
+	.string "sein, das du für mich gefangen hast.\l"
 	.string "Kicher…\l"
 	.string "Es sieht dir ähnlich.\p"
 	.string "Vielen Dank, das ist lieb von dir!\p"
@@ -225,9 +224,8 @@ FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady::
 
 FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation::
 #if GERMAN
-	.string "Kea: Besorgen sie dieser\n"
-	.string "Person ein Zeichen meiner\l"
-	.string "Wertschätzung!$"
+	.string "Kea: Besorgen sie dieser Person ein\n"
+	.string "Zeichen meiner Wertschätzung!$"
 #else
 	.string "SELPHY: See to it that this person\n"
 	.string "is given a token of appreciation.$"
@@ -281,11 +279,10 @@ FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck::
 
 FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun::
 #if GERMAN
-	.string "Butler: Das Lächeln von Lady\n"
-	.string "Kea ist so strahlend wie\l"
-	.string "die Sonne.\l"
-	.string "Bitte, ich flehe sie an, stimmen\l"
-	.string "sie Lady Kea glücklich!$"
+	.string "Butler: Das Lächeln von Lady Kea ist so\n"
+	.string "strahlend wie die Sonne.\l"
+	.string "Bitte, ich flehe sie an, stimmen sie Lady\l"
+	.string "Kea glücklich!$"
 #else
 	.string "Butler: The smile of Lady SELPHY\n"
 	.string "has the brilliance of the sun.\p"

@@ -110,9 +110,9 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "Hi, wie geht’s?\p"
 	.string "Hör zu, mein Freund!\n"
 	.string "Würdest du gerne Champ werden?\p"
-	.string "Ich bin kein Trainer. Ich nicht. Aber\n"
-	.string "ich kann dir trotzdem einen nützlichen\l"
-	.string "Rat geben.\p"
+	.string "Ich bin kein Trainer. Ich nicht. Aber ich\n"
+	.string "kann dir trotzdem einen nützlichen Rat\l"
+	.string "geben.\p"
 	.string "Also, abgemacht! Wir werden zusammen\n"
 	.string "nach der Pokémon Meisterschaft\l"
 	.string "streben!\p"
@@ -124,9 +124,9 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "Ich werde dir einen Expertentipp geben!\p"
 	.string "Felizia, die Arenaleiterin, setzt\n"
 	.string "Gestein-Pokémon ein.\p"
-	.string "Ein Gestein-Pokémon ist sehr zäh,\n"
-	.string "hat aber gegen Wasser- und Pflanzen-\l"
-	.string "Attacken keine Chance.\p"
+	.string "Ein Gestein-Pokémon ist sehr zäh, hat\n"
+	.string "aber gegen Wasser- und\l"
+	.string "Pflanzen-Attacken keine Chance.\p"
 	.string "Komm wieder vorbei, wenn du die Arena-\n"
 	.string "leiterin besiegt hast.\p"
 	.string "Nun zeig, was du drauf hast!$"
@@ -163,8 +163,8 @@ RustboroCity_Gym_Text_GymGuidePostVictory:
 	.string "hast, müsste dort schon vermerkt sein.\l"
 	.string "\p"
 	.string "Nun hast du den ersten Schritt zur\n"
-	.string "Meisterschaft schon erfolgreich\l"
-	.string "hinter dir!\p"
+	.string "Meisterschaft schon erfolgreich hinter\l"
+	.string "dir!\p"
 	.string "Ein großartiges Gefühl!$"
 #else
 	.string "Whoa! What a breathtaking victory!\n"
@@ -258,9 +258,9 @@ RustboroCity_Gym_Text_MarcPostBattle:
 #if GERMAN
 	.string "Ich muss es unserer Leiterin\n"
 	.string "überlassen.\p"
-	.string "Sie ist clever und geschickt, da sie\n"
-	.string "in ihrem zarten Alter schon Gestein-\l"
-	.string "Pokémon aufzieht.$"
+	.string "Sie ist clever und geschickt, da sie in\n"
+	.string "ihrem zarten Alter schon\l"
+	.string "Gestein-Pokémon aufzieht.$"
 #else
 	.string "I have to hand it to our LEADER.\p"
 	.string "It took smarts and sense for her to\n"
@@ -271,9 +271,9 @@ RustboroCity_Gym_Text_RoxanneIntro:
 #if GERMAN
 	.string "Hallo, ich bin Felizia, die Leiterin der\n"
 	.string "Arena von Metarost City.\p"
-	.string "Ich wurde Arenaleiterin, um mein\n"
-	.string "Wissen, das ich in der Pokémon Trainer-\l"
-	.string "schule erworben habe, umzusetzen.\p"
+	.string "Ich wurde Arenaleiterin, um mein Wissen,\n"
+	.string "das ich in der Pokémon Trainerschule\l"
+	.string "erworben habe, umzusetzen.\p"
 	.string "Würdest du mir bitte zeigen, wie du\n"
 	.string "kämpfst und mit welchen Pokémon?$"
 #else
@@ -294,8 +294,8 @@ RustboroCity_Gym_Text_RoxanneDefeat:
 	.string "Menge lernen…\p"
 	.string "Ich verstehe schon.\p"
 	.string "Die Regeln der Pokémon Liga schreiben\n"
-	.string "vor, dass Trainer, die einen Arena-\l"
-	.string "leiter besiegt haben, dieses erhalten.\p"
+	.string "vor, dass Trainer, die einen Arenaleiter\l"
+	.string "besiegt haben, dieses erhalten.\p"
 	.string "Bitte nimm den offiziellen Pokémon Liga\n"
 	.string "Steinorden an!$"
 #else
@@ -361,8 +361,7 @@ RustboroCity_Gym_Text_ExplainRockTomb:
 RustboroCity_Gym_Text_RoxannePostBattle:
 #if GERMAN
 	.string "Da du so stark bist, solltest du auch\n"
-	.string "die anderen Arenaleiter\l"
-	.string "herausfordern.\p"
+	.string "die anderen Arenaleiter herausfordern.\p"
 	.string "Du lernst wertvolle Dinge dazu, wenn\n"
 	.string "du gegen viele Trainer antrittst.$"
 #else
@@ -399,15 +398,15 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "Piep!\p"
 	.string "Felizia: Oh, hallo {PLAYER}.\n"
 	.string "Hier ist Felizia aus Metarost City.\p"
-	.string "Kamillo hat mir erzählt, dass du\n"
-	.string "die Trainer in atemberaubender\l"
+	.string "Kamillo hat mir erzählt, dass du die\n"
+	.string "Trainer in atemberaubender\l"
 	.string "Geschwindigkeit aussuchst und\l"
 	.string "besiegst.\p"
 	.string "Ich denke aber nicht, dass ich\n"
 	.string "gegen dich verlieren werde.\p"
-	.string "Ich werde meine Arena wieder\n"
-	.string "aufbauen. Dann steht deiner He-\l"
-	.string "rausforderung nichts mehr im Weg.\p"
+	.string "Ich werde meine Arena wieder aufbauen.\n"
+	.string "Dann steht deiner Herausforderung\l"
+	.string "nichts mehr im Weg.\p"
 	.string "Du bist doch bestimmt genauso\n"
 	.string "ungeduldig wie ich, nicht wahr?\p"
 	.string "… … … … …\n"
@@ -444,9 +443,8 @@ RustboroCity_Gym_Text_RegisteredRoxanne:
 
 RustboroCity_Gym_Text_RoxannePreRematch:
 #if GERMAN
-	.string "Felizia: Ich freue mich, dich wieder\n"
-	.string "zu sehen. Ich bin die Arenaleiterin\l"
-	.string "Felizia.\p"
+	.string "Felizia: Ich freue mich, dich wieder zu\n"
+	.string "sehen. Ich bin die Arenaleiterin Felizia.\p"
 	.string "Ich bin sicher, wir beide haben seit\n"
 	.string "unserer letzten Begegnung viele\l"
 	.string "Erfahrungen gesammelt.\p"
@@ -485,9 +483,8 @@ RustboroCity_Gym_Text_RoxannePostRematch:
 
 RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
 #if GERMAN
-	.string "Felizia: Ich freue mich, dich wieder\n"
-	.string "zu sehen. Ich bin die Arenaleiterin\l"
-	.string "Felizia.\p"
+	.string "Felizia: Ich freue mich, dich wieder zu\n"
+	.string "sehen. Ich bin die Arenaleiterin Felizia.\p"
 	.string "Ich bin sicher, wir beide haben seit\n"
 	.string "unserer letzten Begegnung viele\l"
 	.string "Erfahrungen gesammelt.\p"

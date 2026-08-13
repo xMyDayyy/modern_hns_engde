@@ -48,9 +48,8 @@ Route21_Text_SwimmermSethAfterBattle:
 
 Route21_Text_SwimmerfNikkiSeen:
 #if GERMAN
-	.string "Falls ich gewinne,\n"
-	.string "musst du mich mit der Sonnencreme\l"
-	.string "einreiben!$"
+	.string "Falls ich gewinne, musst du mich mit der\n"
+	.string "Sonnencreme einreiben!$"
 #else
 	.string "If I win, you have to help me with\n"
 	.string "my suntan lotion!$"

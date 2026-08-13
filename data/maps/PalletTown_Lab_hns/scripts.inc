@@ -110,8 +110,8 @@ PalletTown_Lab_Text_OakOpenMtSilver:
 	.string "Meine Einschätzung von dir\n"
 	.string "war also richtig.\p"
 	.string "Weißt du was, {PLAYER}?\n"
-	.string "Ich treffe Vorkehrungen, damit\l"
-	.string "du zum Silberberg kannst.\p"
+	.string "Ich treffe Vorkehrungen, damit du zum\l"
+	.string "Silberberg kannst.\p"
 	.string "Der Silberberg ist ein riesiger\n"
 	.string "Berg voller wilder Pokémon.\p"
 	.string "Er ist für normale Trainer zu\n"
@@ -119,8 +119,7 @@ PalletTown_Lab_Text_OakOpenMtSilver:
 	.string "Doch für dich machen wir eine\n"
 	.string "Ausnahme, {PLAYER}.\p"
 	.string "Geh zum Indigo Plateau.\n"
-	.string "Von dort erreichst du den\l"
-	.string "Silberberg.$"
+	.string "Von dort erreichst du den Silberberg.$"
 #else
 	.string "OAK: Wow! That's excellent!\p"
 	.string "You collected the BADGES of GYMS\n"
@@ -142,14 +141,13 @@ PalletTown_Lab_Text_OakOpenMtSilver:
 
 PalletTown_Lab_Text_OakOpenIndigoPlateau:
 #if GERMAN
-	.string "Oh, und wo wir vom Indigo\n"
-	.string "Plateau, reden, jetzt wo du\l"
-	.string "16 orden hast wird die Liga\l"
-	.string "bereit sein dich erneut\l"
-	.string "antreten zu lassen.\p"
-	.string "Sei gewarnt, Siegfried und\n"
-	.string "seine Top-Vier werden dich\l"
-	.string "mit voller Härte angehen.\p"
+	.string "Oh, und wo wir vom Indigo Plateau, reden,\n"
+	.string "jetzt wo du 16 orden hast wird die Liga\l"
+	.string "bereit sein dich erneut antreten zu\l"
+	.string "lassen.\p"
+	.string "Sei gewarnt, Siegfried und seine\n"
+	.string "Top-Vier werden dich mit voller Härte\l"
+	.string "angehen.\p"
 	.string "Viel Glück, {PLAYER}!$"
 #else
 	.string "Oh, and speaking of the INDIGO\n"
@@ -186,9 +184,9 @@ PalletTown_Lab_Text_OakYesKantoBadges:
 	.string "Eich: Ah, wie ich sehe, erkämpfst du dir\n"
 	.string "nach und nach auch die Orden der\l"
 	.string "Arenaleiter von Kanto!\p"
-	.string "Es ist sicher kein leichtes Unterfangen,\n"
-	.string "aber du sammelst dabei bestimmt viele\l"
-	.string "wertvolle Erfahrungen.\p"
+	.string "Es ist sicher kein leichtes\n"
+	.string "Unterfangen, aber du sammelst dabei\l"
+	.string "bestimmt viele wertvolle Erfahrungen.\p"
 	.string "Besuche mich wieder, wenn du dir hier\n"
 	.string "auch alle Orden erkämpft hast!\l"
 	.string "Ein Geschenk wird auf dich warten!\p"
@@ -205,9 +203,8 @@ PalletTown_Lab_Text_OakYesKantoBadges:
 
 PalletTown_Lab_Text_OaksAssistant1:
 #if GERMAN
-	.string "Die Radiosendung Pokémon Talk\n"
-	.string "des Profs wird in Kanto nicht\l"
-	.string "ausgestrahlt.\p"
+	.string "Die Radiosendung Pokémon Talk des\n"
+	.string "Profs wird in Kanto nicht ausgestrahlt.\p"
 	.string "Schade, ich würde sie gern hören.$"
 #else
 	.string "The PROF's POKéMON TALK radio\n"
@@ -217,9 +214,9 @@ PalletTown_Lab_Text_OaksAssistant1:
 
 PalletTown_Lab_Text_OaksAssistant2:
 #if GERMAN
-	.string "Dank deiner Arbeit am Pokédex\n"
-	.string "macht die Forschung des Profs\l"
-	.string "große Fortschritte.$"
+	.string "Dank deiner Arbeit am Pokédex macht die\n"
+	.string "Forschung des Profs große\l"
+	.string "Fortschritte.$"
 #else
 	.string "Thanks to your work on the POKéDEX,\n"
 	.string "the PROF's research is coming along\l"
@@ -228,9 +225,9 @@ PalletTown_Lab_Text_OaksAssistant2:
 
 PalletTown_Lab_Text_OaksAssistant3:
 #if GERMAN
-	.string "Sag es niemandem weiter, aber\n"
-	.string "Pokémon Talk von Prof. Eich ist\l"
-	.string "keine Live-Sendung.$"
+	.string "Sag es niemandem weiter, aber Pokémon\n"
+	.string "Talk von Prof. Eich ist keine\l"
+	.string "Live-Sendung.$"
 #else
 	.string "Don't tell anyone, but PROF.OAK'S\n"
 	.string "POKéMON TALK isn't a live broadcast.$"

@@ -54,8 +54,8 @@ FuchsiaCity_PokemonCenter1F_Text_CooltrainerF:
 #if GERMAN
 	.string "Ich habe mich in der Pokémon-Arena\n"
 	.string "ganz schön erschreckt, sage ich dir!\l"
-	.string "Da waren ganz viele Mädchen, die\l"
-	.string "alle gleich aussahen!$"
+	.string "Da waren ganz viele Mädchen, die alle\l"
+	.string "gleich aussahen!$"
 #else
 	.string "I got quite a shock at the GYM.\p"
 	.string "There were all these girls who\n"

@@ -32,8 +32,7 @@ Route25_Text_Misty:
 	.string "Er gibt mir den Mut,\n"
 	.string "weiterzumachen, weißt du?\p"
 	.string "Richtig!\p"
-	.string "Wenn du bereit bist,\n"
-	.string "Welle zu machen,\l"
+	.string "Wenn du bereit bist, Welle zu machen,\n"
 	.string "triff mich im Kampf-Dojo!$"
 #else
     .string "MISTY: I love the sunset here!\n"
@@ -204,14 +203,14 @@ Route25_Trigger_SuicuneLeftLeft::
 Route25_Text_Eusine1:
 #if GERMAN
 	.string "Eusin: Schnauf, schnauf…\n"
-	.string "Gegen dich hatte ich einfach\l"
-	.string "keine Chance…\p"
+	.string "Gegen dich hatte ich einfach keine\l"
+	.string "Chance…\p"
 	.string "… … …\n"
 	.string "Aber keine Sorge, das ist schon gut so.\p"
 	.string "Schon seit wir uns in der Turmruine von\n"
-	.string "Teak City zum ersten Mal gesehen\l"
-	.string "haben, wusste ich tief in mir drin, dass\l"
-	.string "Suicune dich auserwählen würde.$"
+	.string "Teak City zum ersten Mal gesehen haben,\l"
+	.string "wusste ich tief in mir drin, dass Suicune\l"
+	.string "dich auserwählen würde.$"
 #else
 	.string "EUSINE: Puff, puff...\n"
 	.string "I am... no match for you.\p"
@@ -243,10 +242,9 @@ Route25_Text_Eusine3:
 #if GERMAN
 	.string "Eusin: {PLAYER}…\n"
 	.string "Das war wirklich unglaublich…\p"
-	.string "Jetzt, wo ich diesem Kampf\n"
-	.string "beiwohnen durfte, gibt es echt\l"
-	.string "nichts mehr, worüber ich mich\l"
-	.string "noch beklagen könnte…\p"
+	.string "Jetzt, wo ich diesem Kampf beiwohnen\n"
+	.string "durfte, gibt es echt nichts mehr,\l"
+	.string "worüber ich mich noch beklagen könnte…\p"
 	.string "Lebe wohl, Suicune!\n"
 	.string "Und lebe wohl, {PLAYER}!$"
 #else
@@ -430,8 +428,8 @@ Route25_Text_MistyDate:
 #if GERMAN
 	.string "Misty: Oh Mann!\n"
 	.string "Wo kommst du denn plötzlich her?!?\p"
-	.string "Weißt du, wie man jemanden wie\n"
-	.string "dich üblicherweise nennt?\l"
+	.string "Weißt du, wie man jemanden wie dich\n"
+	.string "üblicherweise nennt?\l"
 	.string "Einen Störenfried!\p"
 	.string "… … …\n"
 	.string "…Huch? Sag mal, diese Orden da…\l"
@@ -618,9 +616,9 @@ Route25_Text_SupernerdPatSeen:
 	.string "Hehehehe…\p"
 	.string "Ich? Ich habe mit den sechs Trainern\n"
 	.string "nichts zu tun.\p"
-	.string "Du musst müde sein nach den vielen Käm-\n"
-	.string "pfen. Ich habe hier auf dich gewartet,\l"
-	.string "um dich zu besiegen!$"
+	.string "Du musst müde sein nach den vielen\n"
+	.string "Kämpfen. Ich habe hier auf dich\l"
+	.string "gewartet, um dich zu besiegen!$"
 #else
 	.string "Mufufufu…\p"
 	.string "I have nothing to do with the\n"
@@ -664,8 +662,8 @@ Route25_Text_CooltrainerKevinNugget:
 Route25_Text_CooltrainerKevinSeen:
 #if GERMAN
 	.string "…Also dann! Jetzt, wo ich dir beim\n"
-	.string "Kämpfen zugesehen habe, kriege\l"
-	.string "ich selbst Lust auf ein Duell.\p"
+	.string "Kämpfen zugesehen habe, kriege ich\l"
+	.string "selbst Lust auf ein Duell.\p"
 	.string "Du musst einfach gegen mich kämpfen!\n"
 	.string "Und los geht’s!$"
 #else

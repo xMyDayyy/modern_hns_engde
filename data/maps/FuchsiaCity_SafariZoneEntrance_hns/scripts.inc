@@ -233,16 +233,15 @@ FuchsiaCity_SafariZoneEntrance_Movement_ReturnToTable:
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenWelcome:
 #if GERMAN
-	.string "Ich heiße Troy. Meine Familie\n"
-	.string "hat kürzlich diese Safari-Zone\l"
-	.string "gekauft und viele Verbesserungen\l"
-	.string "vorgenommen.\p"
-	.string "Hier findest du sehr exotische\n"
-	.string "Pokémon. Besonders, wenn du\l"
-	.string "dein Safari-Level erhöhst.\p"
-	.string "Sprich einfach mit dem Aufseher\n"
-	.string "hier, um dein Safari-Level jederzeit\l"
-	.string "zu steigern.$"
+	.string "Ich heiße Troy. Meine Familie hat\n"
+	.string "kürzlich diese Safari-Zone gekauft und\l"
+	.string "viele Verbesserungen vorgenommen.\p"
+	.string "Hier findest du sehr exotische Pokémon.\n"
+	.string "Besonders, wenn du dein Safari-Level\l"
+	.string "erhöhst.\p"
+	.string "Sprich einfach mit dem Aufseher hier, um\n"
+	.string "dein Safari-Level jederzeit zu\l"
+	.string "steigern.$"
 #else
 	.string "Hello again, {PLAYER}!\p"
 	.string "Welcome to the DEVON SAFARI ZONE!\p"
@@ -338,8 +337,8 @@ FuchsiaCity_SafariZoneEntrance_Text_Steven:
 
 FuchsiaCity_SafariZoneEntrance_Text_Level1:
 #if GERMAN
-	.string "Hallo {PLAYER}, möchtest du\n"
-	.string "dein Safari-Level auf 2 erhöhen?\l"
+	.string "Hallo {PLAYER}, möchtest du dein\n"
+	.string "Safari-Level auf 2 erhöhen?\l"
 	.string "Das kostet 200.000 ¥.$"
 #else
 	.string "Hello {PLAYER}, would you\n"
@@ -349,8 +348,8 @@ FuchsiaCity_SafariZoneEntrance_Text_Level1:
 
 FuchsiaCity_SafariZoneEntrance_Text_Level2:
 #if GERMAN
-	.string "Hallo {PLAYER}, möchtest du\n"
-	.string "dein Safari-Level auf 3 erhöhen?\l"
+	.string "Hallo {PLAYER}, möchtest du dein\n"
+	.string "Safari-Level auf 3 erhöhen?\l"
 	.string "Das kostet 300.000 ¥.$"
 #else
 	.string "Hello {PLAYER}, would you\n"
@@ -360,8 +359,8 @@ FuchsiaCity_SafariZoneEntrance_Text_Level2:
 
 FuchsiaCity_SafariZoneEntrance_Text_Level3:
 #if GERMAN
-	.string "Hallo {PLAYER}, möchtest du\n"
-	.string "dein Safari-Level auf 4 erhöhen?\l"
+	.string "Hallo {PLAYER}, möchtest du dein\n"
+	.string "Safari-Level auf 4 erhöhen?\l"
 	.string "Das kostet 400.000 ¥.$"
 #else
 	.string "Hello {PLAYER}, would you\n"
@@ -410,8 +409,8 @@ FuchsiaCity_SafariZoneEntrance_EventScript_StevenTradeCompleted::
 FuchsiaCity_SafariZoneEntrance_Text_StevenWantToTrade:
 #if GERMAN
 	.string "Sag, {PLAYER}…\n"
-	.string "Ich habe dieses Tanhel\l"
-	.string "jetzt eine ganze Weile aufgezogen.\p"
+	.string "Ich habe dieses Tanhel jetzt eine\l"
+	.string "ganze Weile aufgezogen.\p"
 	.string "Aber ich denke, es ist besser\n"
 	.string "bei einem Trainer wie dir aufgehoben.\p"
 	.string "Tauschst du mir ein {STR_VAR_1}\n"
@@ -438,8 +437,8 @@ FuchsiaCity_SafariZoneEntrance_Text_StevenTakeCare:
 FuchsiaCity_SafariZoneEntrance_Text_StevenDeclineTrade:
 #if GERMAN
 	.string "Schon okay.\n"
-	.string "Das Angebot steht noch,\l"
-	.string "falls du deine Meinung änderst.$"
+	.string "Das Angebot steht noch, falls du deine\l"
+	.string "Meinung änderst.$"
 #else
 	.string "That's all right.\n"
 	.string "The offer stands if you change\l"
@@ -449,8 +448,7 @@ FuchsiaCity_SafariZoneEntrance_Text_StevenDeclineTrade:
 FuchsiaCity_SafariZoneEntrance_Text_StevenNotRequestedMon:
 #if GERMAN
 	.string "Hmm, das ist kein {STR_VAR_1}.\n"
-	.string "Das hatte ich nicht\l"
-	.string "im Sinn.$"
+	.string "Das hatte ich nicht im Sinn.$"
 #else
 	.string "Hmm, that's not a {STR_VAR_1}.\n"
 	.string "That's not quite what I had\l"

@@ -61,9 +61,8 @@ VictoryRoad_1F_Text_NaomiDefeat::
 
 VictoryRoad_1F_Text_NaomiPostBattle::
 #if GERMAN
-	.string "Dabei wollte ich nie verlieren,\n"
-	.string "schon gar nicht gegen\l"
-	.string "ein kleines Kind…$"
+	.string "Dabei wollte ich nie verlieren, schon gar\n"
+	.string "nicht gegen ein kleines Kind…$"
 #else
 	.string "I never wanted to lose to anybody,\n"
 	.string "especially to a younger kid…$"

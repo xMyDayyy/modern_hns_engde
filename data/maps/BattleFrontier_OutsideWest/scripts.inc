@@ -418,10 +418,9 @@ BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends:
 
 BattleFrontier_OutsideWest_Text_CantFindBattleTower:
 #if GERMAN
-	.string "Ich möchte gerne in den Duellturm,\n"
-	.string "aber ich finde den einfach nicht,\l"
-	.string "obwohl\l"
-	.string "ich eine Karte der Kampfzone\p"
+	.string "Ich möchte gerne in den Duellturm, aber\n"
+	.string "ich finde den einfach nicht, obwohl ich\l"
+	.string "eine Karte der Kampfzone\p"
 	.string "habe. Hier ist alles so groß…$"
 #else
 	.string "I want to go to the BATTLE TOWER,\n"
@@ -433,8 +432,7 @@ BattleFrontier_OutsideWest_Text_CantFindBattleTower:
 BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere:
 #if GERMAN
 	.string "Ich wollte mich einer Herausforderung\n"
-	.string "stellen, sobald ich hier angekommen\l"
-	.string "bin. \p"
+	.string "stellen, sobald ich hier angekommen bin.\p"
 	.string "Aber auf dem Weg hierhin bin ich\n"
 	.string "seekrank geworden… hurps…$"
 #else
@@ -448,9 +446,9 @@ BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
 #if GERMAN
 	.string "Weißt du, hier kann nicht einfach\n"
 	.string "jeder hinkommen.\p"
-	.string "Nur die Trainer, die durch ihr Talent\n"
-	.string "und ihre Stärke aufgefallen sind,\l"
-	.string "werden eingeladen.\p"
+	.string "Nur die Trainer, die durch ihr Talent und\n"
+	.string "ihre Stärke aufgefallen sind, werden\l"
+	.string "eingeladen.\p"
 	.string "Deshalb haben viele Trainer noch nie\n"
 	.string "etwas über die Kampfzone gehört.$"
 #else
@@ -465,8 +463,8 @@ BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
 BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons:
 #if GERMAN
 	.string "Hey, Brüderchen…\p"
-	.string "Bist du sicher, wir können Heraus-\n"
-	.string "forderungen annehmen, obwohl wir\l"
+	.string "Bist du sicher, wir können\n"
+	.string "Herausforderungen annehmen, obwohl wir\l"
 	.string "keine Pokémon besitzen?$"
 #else
 	.string "Hey, bro…\p"
@@ -479,8 +477,7 @@ BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
 	.string "Ääh… Ich bin sicher, dass das geht!\p"
 	.string "Denke ich…\p"
 	.string "Erinnerst du dich an diesen großen\n"
-	.string "unheimlichen Kerl, der sagte “Ich\l"
-	.string "leihe\l"
+	.string "unheimlichen Kerl, der sagte “Ich leihe\l"
 	.string "euch Pokémon!”?$"
 #else
 	.string "Uh…\n"
@@ -533,8 +530,8 @@ BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
 #if GERMAN
 	.string "Juhuu! Ich habe geeewonnen!!!\n"
-	.string "Ich werde die Kampfipitis-Heraus-\l"
-	.string "forderung annehmen!$"
+	.string "Ich werde die\l"
+	.string "Kampfipitis-Herausforderung annehmen!$"
 #else
 	.string "Yay! I won!\n"
 	.string "I will take the BATTLE PIKE challenge!$"
@@ -582,8 +579,8 @@ BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
 
 BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
 #if GERMAN
-	.string "Wie? Du willst dich den Heraus-\n"
-	.string "forderungen des Kampfstadions\l"
+	.string "Wie? Du willst dich den\n"
+	.string "Herausforderungen des Kampfstadions\l"
 	.string "stellen?\p"
 	.string "Dann wünsche ich dir viel Glück!\n"
 	.string "Wir siegen uns den Weg nach oben und\l"
@@ -622,8 +619,7 @@ BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo:
 #if GERMAN
 	.string "Vor nicht allzu langer Zeit gab es\n"
 	.string "hier nichts. Nur Ödnis.\p"
-	.string "Und nun schau sich einer diesen Ort\n"
-	.string "an!\l"
+	.string "Und nun schau sich einer diesen Ort an!\n"
 	.string "Unglaublich! Ich werde meine Mutter\p"
 	.string "mal\n"
 	.string "hierher bringen, damit sie das sieht.$"
@@ -663,8 +659,7 @@ BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople:
 BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
 #if GERMAN
 	.string "… Mampf… … Mampf…\p"
-	.string "Vor einiger Zeit habe ich dieses\n"
-	.string "ältere\l"
+	.string "Vor einiger Zeit habe ich dieses ältere\n"
 	.string "Mädchen an der Kampfipitis getroffen.\p"
 	.string "\p"
 	.string "Ihre Augen hatten einen bösartigen\n"
@@ -749,8 +744,7 @@ BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
 	.string "waren mal Trainer. Gute Trainer sogar!\l"
 	.string "\p"
 	.string "Sie waren stark und auch berühmt.\p"
-	.string "Aber ein bestimmter Trainer hat sie\n"
-	.string "bei\l"
+	.string "Aber ein bestimmter Trainer hat sie bei\n"
 	.string "einem Turnier mit Pauken und Trompeten\l"
 	.string "besiegt.\p"
 	.string "Trotz ihrer Niederlage haben sie sich\n"

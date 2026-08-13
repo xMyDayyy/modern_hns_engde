@@ -9,8 +9,7 @@ OldaleTown_House1_Text_LeftPokemonGoesOutFirst:
 #if GERMAN
 	.string "Das Pokémon auf der linken Seite der\n"
 	.string "Liste tritt im Kampf als Erstes an.\p"
-	.string "Hast du mehrere Pokémon in deinem\n"
-	.string "Team,\l"
+	.string "Hast du mehrere Pokémon in deinem Team,\n"
 	.string "stelle sie so der Reihe nach auf, wie\p"
 	.string "es\n"
 	.string "für den Kampf am günstigsten ist.\p"

@@ -169,12 +169,11 @@ VictoryRoad_Text_RivalDefeat:
 
 VictoryRoad_Text_RivalAfter:
 #if GERMAN
-	.string "…Ich habe nicht aufgegeben,\n"
-	.string "der weltbeste Trainer zu\l"
-	.string "werden…\p"
-	.string "Ich werde herausfinden, warum\n"
-	.string "ich nicht gewinnen kann\l"
-	.string "und dann werde ich stärker…\p"
+	.string "…Ich habe nicht aufgegeben, der\n"
+	.string "weltbeste Trainer zu werden…\p"
+	.string "Ich werde herausfinden, warum ich nicht\n"
+	.string "gewinnen kann und dann werde ich\l"
+	.string "stärker…\p"
 	.string "Wenn ich soweit bin,\n"
 	.string "fordere ich dich heraus.\p"
 	.string "Dann werde ich dir die Leviten lesen.\p"

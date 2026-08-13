@@ -57,9 +57,9 @@ Route49_Text_SkylarBeforeBattle:
 #if GERMAN
 	.string "Was?\p"
 	.string "Du willst die Tafel haben?\n"
-	.string "Sie ist ein Artefakt voll uralter\l"
-	.string "Kraft mit einer Verbindung zu den\l"
-	.string "legendären Pokémon?!\p"
+	.string "Sie ist ein Artefakt voll uralter Kraft\l"
+	.string "mit einer Verbindung zu den legendären\l"
+	.string "Pokémon?!\p"
 	.string "Na, dann behalte ich sie erst recht.\p"
 	.string "Also gut.\p"
 	.string "Du musst schon gegen mich kämpfen,\n"
@@ -77,9 +77,9 @@ Route49_Text_SkylarBeforeBattle:
 
 Route49_Text_SkylarBefore:
 #if GERMAN
-	.string "Als ich die Piste runtergebrettert\n"
-	.string "bin, sind meine Skier an etwas\l"
-	.string "hängen geblieben.\p"
+	.string "Als ich die Piste runtergebrettert bin,\n"
+	.string "sind meine Skier an etwas hängen\l"
+	.string "geblieben.\p"
 	.string "Es war diese seltsame himmelblaue\n"
 	.string "Tafel.\p"
 	.string "Ich glaube, ich behalte sie als\n"
@@ -100,8 +100,8 @@ Route49_Text_SkierM::
 #if GERMAN
 	.string "Hey, pass auf mein Board auf!\p"
 	.string "Was? Du willst kämpfen?\n"
-	.string "Kommt nicht infrage, diese Pisten\l"
-	.string "sind viel zu heftig!$"
+	.string "Kommt nicht infrage, diese Pisten sind\l"
+	.string "viel zu heftig!$"
 #else
 	.string "Hey, watch out for my board!\p"
 	.string "What? You want to battle?\n"
@@ -157,9 +157,9 @@ Route49_Text_KimonoGirl:
 #if GERMAN
 	.string "Du…\p"
 	.string "Du musst {PLAYER} sein, richtig?\n"
-	.string "Ich habe von meinen Cousinen in\l"
-	.string "Teak City alles über dich und\l"
-	.string "deine Taten gehört.\p"
+	.string "Ich habe von meinen Cousinen in Teak\l"
+	.string "City alles über dich und deine Taten\l"
+	.string "gehört.\p"
 	.string "Meine Schwestern möchten dich\n"
 	.string "treffen.\p"
 	.string "Wenn du Zeit findest, suche uns\n"

@@ -174,8 +174,7 @@ GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter:
 	.string "Es liegt ganz am Ende des\n"
 	.string "Untergrunds.\p"
 	.string "Ich bin nett und gebe dir den\n"
-	.string "Kelleröffner für das\l"
-	.string "Untergrund-Lager.\p"
+	.string "Kelleröffner für das Untergrund-Lager.\p"
 	.string "Aber ich bezweifle, dass du\n"
 	.string "so weit kommst.$"
 #else
@@ -196,8 +195,7 @@ GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter2:
 	.string "Es liegt ganz am Ende des\n"
 	.string "Untergrunds.\p"
 	.string "Ich bin nett und gebe dir den\n"
-	.string "Kelleröffner für das\l"
-	.string "Untergrund-Lager.\p"
+	.string "Kelleröffner für das Untergrund-Lager.\p"
 	.string "Aber ich bezweifle, dass du\n"
 	.string "so weit kommst.$"
 #else
@@ -465,14 +463,14 @@ GoldenrodCity_RadioTower_5F_Text_RocketBossSeen:
 	.string "es endlich bis hierher geschafft!\p"
 	.string "Offensichtlich hast du einiges an\n"
 	.string "Talent als Trainer!\p"
-	.string "Wir haben den Radiosender besetzt,\n"
-	.string "um der ganzen Nation zu verkünden,\l"
-	.string "dass wir wieder da sind!\p"
+	.string "Wir haben den Radiosender besetzt, um\n"
+	.string "der ganzen Nation zu verkünden, dass\l"
+	.string "wir wieder da sind!\p"
 	.string "Wenn wir das tun, wird sicher auch\n"
-	.string "Giovanni wieder von seiner\l"
-	.string "Lehr- und Wanderreise zurückkehren!\p"
-	.string "Wir werden wieder zu unserem\n"
-	.string "früheren Glanz zurückfinden!\l"
+	.string "Giovanni wieder von seiner Lehr- und\l"
+	.string "Wanderreise zurückkehren!\p"
+	.string "Wir werden wieder zu unserem früheren\n"
+	.string "Glanz zurückfinden!\l"
 	.string "Du kommst uns dabei nicht in die Quere!$"
 #else
 	.string "Oh? You managed to get this far?\p"
@@ -502,8 +500,8 @@ GoldenrodCity_RadioTower_5F_Text_RocketBossAfter:
 	.string "geplatzt.\l"
 	.string "Ich war wohl doch nicht gut genug.\p"
 	.string "In Ordnung.\n"
-	.string "Hiermit löse ich Team Rocket\l"
-	.string "auf, genau wie es einst Giovanni tat.\p"
+	.string "Hiermit löse ich Team Rocket auf, genau\l"
+	.string "wie es einst Giovanni tat.\p"
 	.string "Leb wohl.$"
 #else
 	.string "How could this be?\p"
@@ -652,8 +650,8 @@ GoldenrodCity_RadioTower_5F_Text_DirectorLegendary:
 	.string "Ah!\p"
 	.string "Da fällt mir ein…\p"
 	.string "Die Feder, die ich dir gab…\n"
-	.string "Sie soll mit den legendären\l"
-	.string "Pokémon zu tun haben.\p"
+	.string "Sie soll mit den legendären Pokémon zu\l"
+	.string "tun haben.\p"
 	.string "Aber! Allein die Feder reicht nicht…\p"
 	.string "Man braucht noch etwas\n"
 	.string "anderes… oder so.\p"
@@ -676,8 +674,7 @@ GoldenrodCity_RadioTower_5F_Text_DirectorLegendary:
 GoldenrodCity_RadioTower_5F_Text_DirectorFakeout:
 #if GERMAN
 	.string "Nein, keine Sorge! Ich bin schon fertig!\n"
-	.string "Diese Technik nennt\l"
-	.string "man Antäuschen!\p"
+	.string "Diese Technik nennt man Antäuschen!\p"
 	.string "Alles klar! Jetzt gehe ich aber\n"
 	.string "wirklich mal zurück in mein Büro!$"
 #else
@@ -690,8 +687,8 @@ GoldenrodCity_RadioTower_5F_Text_DirectorFakeout:
 GoldenrodCity_RadioTower_5F_Text_DirectorIntro:
 #if GERMAN
 	.string "Intendant: Ach, du bist es! Hallo!\n"
-	.string "Ich bin so vernarrt in Pokémon, dass\l"
-	.string "ich einen Radiosender eröffnet habe, um\l"
+	.string "Ich bin so vernarrt in Pokémon, dass ich\l"
+	.string "einen Radiosender eröffnet habe, um\l"
 	.string "diesem Gefühl Ausdruck zu verleihen!\p"
 	.string "Ich hoffe wirklich, dass mein Publikum\n"
 	.string "Spaß an unserem Programm hat!$"
@@ -708,9 +705,9 @@ GoldenrodCity_RadioTower_5F_Text_DirectorIntro:
 GoldenrodCity_RadioTower_5F_Text_DirectorWest:
 #if GERMAN
 	.string "Intendant: Hallo, {PLAYER}!\p"
-	.string "Hast du das Pokémon mit den\n"
-	.string "großen Flügeln hier\l"
-	.string "vorbeifliegen sehen? Die ganze Stadt\p"
+	.string "Hast du das Pokémon mit den großen\n"
+	.string "Flügeln hier vorbeifliegen sehen? Die\l"
+	.string "ganze Stadt\p"
 	.string "redet darüber!\p"
 	.string "Es scheint nach Westen zu fliegen,\n"
 	.string "in Richtung Route 39.$"

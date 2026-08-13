@@ -24,9 +24,8 @@ FiveIsland_PokemonCenter_1F_EventScript_CooltrainerF::
 
 FiveIsland_PokemonCenter_1F_Text_OnMyWayToPrepareMeal::
 #if GERMAN
-	.string "Ich bin gerade dabei, ein Essen für\n"
-	.string "eine gewisse Berühmtheit\l"
-	.string "zuzubereiten.$"
+	.string "Ich bin gerade dabei, ein Essen für eine\n"
+	.string "gewisse Berühmtheit zuzubereiten.$"
 #else
 	.string "I'm on my way to prepare a meal\n"
 	.string "for a certain high-society person.$"

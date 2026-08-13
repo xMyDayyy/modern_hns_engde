@@ -54,8 +54,8 @@ SootopolisCity_Gym_B1F_EventScript_Daphne::
 SootopolisCity_Gym_B1F_Text_AndreaIntro:
 #if GERMAN
 	.string "Ich zeige dir die sublimen Techniken,\n"
-	.string "die ich vom Arenaleiter Juan\l"
-	.string "gelernt habe.$"
+	.string "die ich vom Arenaleiter Juan gelernt\l"
+	.string "habe.$"
 #else
 	.string "I'll show you the sublime techniques\n"
 	.string "I learned from our LEADER JUAN!$"
@@ -79,9 +79,9 @@ SootopolisCity_Gym_B1F_Text_AndreaPostBattle:
 
 SootopolisCity_Gym_B1F_Text_CrissyIntro:
 #if GERMAN
-	.string "Du bist den ganzen Weg hierher ge-\n"
-	.string "kommen, aber bis zu Juan dringst\l"
-	.string "du nicht vor.\p"
+	.string "Du bist den ganzen Weg hierher\n"
+	.string "gekommen, aber bis zu Juan dringst du\l"
+	.string "nicht vor.\p"
 	.string "Weil du gegen mich verlieren wirst!$"
 #else
 	.string "You came all the way here, but you won't\n"
@@ -91,8 +91,8 @@ SootopolisCity_Gym_B1F_Text_CrissyIntro:
 
 SootopolisCity_Gym_B1F_Text_CrissyDefeat:
 #if GERMAN
-	.string "Du bist stark! Ich habe mich durch\n"
-	.string "dein unschuldiges Aussehen täuschen\l"
+	.string "Du bist stark! Ich habe mich durch dein\n"
+	.string "unschuldiges Aussehen täuschen\l"
 	.string "lassen.$"
 #else
 	.string "You're strong!\n"
@@ -192,8 +192,7 @@ SootopolisCity_Gym_B1F_Text_BridgetPostBattle:
 #if GERMAN
 	.string "Statt damit zufrieden zu sein, zur\n"
 	.string "besten Arena zu gehören, würde ich\l"
-	.string "gerne auch an anderen Orten\l"
-	.string "trainieren.\l"
+	.string "gerne auch an anderen Orten trainieren.\l"
 	.string "Aber hier ist es so lustig!$"
 #else
 	.string "Rather than being satisfied by being\n"
@@ -251,10 +250,9 @@ SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
 
 SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
 #if GERMAN
-	.string "Es ist offensichtlich: Die Stärke\n"
-	.string "eines\l"
-	.string "Trainers hat nichts mit seinem Alter\l"
-	.string "zu tun!$"
+	.string "Es ist offensichtlich: Die Stärke eines\n"
+	.string "Trainers hat nichts mit seinem Alter zu\l"
+	.string "tun!$"
 #else
 	.string "This is really obvious, but how strong\n"
 	.string "you are as a TRAINER has nothing to do\l"
@@ -333,8 +331,7 @@ SootopolisCity_Gym_B1F_Text_BriannaIntro:
 SootopolisCity_Gym_B1F_Text_BriannaDefeat:
 #if GERMAN
 	.string "Oh je.\n"
-	.string "Ich habe es dir viel zu leicht\l"
-	.string "gemacht.$"
+	.string "Ich habe es dir viel zu leicht gemacht.$"
 #else
 	.string "Oh, dear.\n"
 	.string "I went much too easy on you.$"

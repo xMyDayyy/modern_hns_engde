@@ -34,8 +34,8 @@ ViridianCity_House1_Text_PokefanM:
 #if GERMAN
 	.string "Denkst du dir denn auch immer gute\n"
 	.string "Spitznamen für deine Pokémon aus?\p"
-	.string "Das Tauschen von Pokémon macht\n"
-	.string "mehr Spaß, wenn sie alle interessante\l"
+	.string "Das Tauschen von Pokémon macht mehr\n"
+	.string "Spaß, wenn sie alle interessante\l"
 	.string "Spitznamen haben!$"
 #else
 	.string "Do you put a lot of thought into\n"

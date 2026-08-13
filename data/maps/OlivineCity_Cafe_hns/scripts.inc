@@ -22,9 +22,9 @@ OlivineCity_Cafe_Text_Jasmine:
 	.string "Ähm…\p"
 	.string "Eigentlich hat die Person, die\n"
 	.string "vor mir saß, viel gegessen…\p"
-	.string "Wenn du wieder kämpfen willst,\n"
-	.string "besuche mich bitte im Kampf-Dojo\l"
-	.string "in Saffronia City.$"
+	.string "Wenn du wieder kämpfen willst, besuche\n"
+	.string "mich bitte im Kampf-Dojo in Saffronia\l"
+	.string "City.$"
 #else
 	.string "Oh... Hello, {PLAYER}.\p"
 	.string "These dishes in front of me are\n"
@@ -85,9 +85,8 @@ OlivineCity_Text_CafeSailorStrength:
 
 OlivineCity_Text_CafeSailorGotStrength:
 #if GERMAN
-	.string "Der Einzige, auf den du dich auf\n"
-	.string "hoher See verlassen kannst,\l"
-	.string "bist du selbst!\p"
+	.string "Der Einzige, auf den du dich auf hoher\n"
+	.string "See verlassen kannst, bist du selbst!\p"
 	.string "Ich bin so stolz auf mich selbst!$"
 #else
 	.string "On the sea, the only thing you\n"

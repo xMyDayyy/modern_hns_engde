@@ -74,9 +74,9 @@ Route33_Text_AnthonyRegister:
 
 Route33_Text_AnthonyRematchIntro:
 #if GERMAN
-    .string "Ich bin durch den Tunnel gekommen,\n"
-    .string "habe aber immer noch jede Menge\l"
-    .string "Energie übrig.$"
+    .string "Ich bin durch den Tunnel gekommen, habe\n"
+    .string "aber immer noch jede Menge Energie\l"
+    .string "übrig.$"
 #else
 	.string "I came through the tunnel,\n"
 	.string "but I still have plenty\l"
@@ -120,9 +120,8 @@ Route33_Text_Lass:
 	.string "Endlich habe ich\n"
 	.string "es durch diese Höhle geschafft!\p"
 	.string "Sie war größer, als ich annahm.\p"
-	.string "Ich war zu erschöpft, um alles\n"
-	.string "zu erkunden, also habe ich sie\l"
-	.string "verlassen.$"
+	.string "Ich war zu erschöpft, um alles zu\n"
+	.string "erkunden, also habe ich sie verlassen.$"
 #else
 	.string "Pant, pant…\p"
 	.string "That cave was bigger than\n"

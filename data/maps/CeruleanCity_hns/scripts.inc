@@ -28,9 +28,8 @@ CeruleanCity_Text_ThisIsCeruleanCave::
 	.string "Dies ist die Azuria-Höhle.\p"
 	.string "Unglaublich starke Pokémon\n"
 	.string "leben hier.\p"
-	.string "Es braucht einen wirklich\n"
-	.string "unglaublichen Trainer,\l"
-	.string "um Einlass zu erhalten.\p"
+	.string "Es braucht einen wirklich unglaublichen\n"
+	.string "Trainer, um Einlass zu erhalten.\p"
 	.string "Werde zuerst Kanto Pokémon-\n"
 	.string "Liga Champion.\p"
 	.string "Und du müsstest eine große\n"
@@ -51,9 +50,9 @@ CeruleanCity_Text_ThisIsCeruleanCave::
 CeruleanCity_Text_CooltrainerM1:
 #if GERMAN
 	.string "Das Kanto-Kraftwerk? Es befindet sich\n"
-	.string "am Ende von Route 9, der Straße\l"
-	.string "östlich von hier. Angeblich haben die\l"
-	.string "da mit irgendeinem Defekt zu kämpfen…$"
+	.string "am Ende von Route 9, der Straße östlich\l"
+	.string "von hier. Angeblich haben die da mit\l"
+	.string "irgendeinem Defekt zu kämpfen…$"
 #else
 	.string "KANTO's POWER PLANT?\p"
 	.string "It's near the end of ROUTE 9, the\n"
@@ -171,9 +170,9 @@ CeruleanCity_EventScript_Youngster::
 
 CeruleanCity_Text_Youngster1:
 #if GERMAN
-	.string "Die Höhle nördlich der Stadt\n"
-	.string "soll von unfassbar starken \l"
-	.string "Pokémon bewohnt sein.$"
+	.string "Die Höhle nördlich der Stadt soll von\n"
+	.string "unfassbar starken Pokémon bewohnt\l"
+	.string "sein.$"
 #else
 	.string "The cave north of town has\n"
 	.string "horribly powerful POKéMON in it.$"
@@ -220,9 +219,8 @@ CeruleanCity_Text_Sign:
 
 CeruleanCity_Text_GymSign:
 #if GERMAN
-	.string "Pokémon-Arena von Azuria City\n"
-	.string "Leiterin: Misty\l"
-	.string "Die jungenhafte Meerjungfrau$"
+	.string "Pokémon-Arena von Azuria City Leiterin:\n"
+	.string "Misty Die jungenhafte Meerjungfrau$"
 #else
 	.string "CERULEAN CITY\n"
 	.string "POKéMON GYM\n"
@@ -245,8 +243,8 @@ CeruleanCity_Text_PoliceSign:
 #if GERMAN
 	.string "Da ist ein Flugblatt…\p"
 	.string "Jeder Diebstahl wird geahndet!\n"
-	.string "Um eine sichere und friedliche Stadt\l"
-	.string "zu gewährleisten, müssen wir alle\l"
+	.string "Um eine sichere und friedliche Stadt zu\l"
+	.string "gewährleisten, müssen wir alle\l"
 	.string "zusammenarbeiten!\l"
 	.string "Das Ordnungsamt von Azuria City$"
 #else

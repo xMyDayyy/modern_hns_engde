@@ -86,12 +86,11 @@ VerdanturfTown_Text_ManTryingToDigTunnel:
 
 VerdanturfTown_Text_ManDugTunnelForLove:
 #if GERMAN
-	.string "Da war ein Mann, der hat den Tunnel\n"
-	.string "ganz alleine für die Frau seines\l"
-	.string "Herzens gegraben.\p"
+	.string "Da war ein Mann, der hat den Tunnel ganz\n"
+	.string "alleine für die Frau seines Herzens\l"
+	.string "gegraben.\p"
 	.string "Ich habe das nie so ganz verstanden.\n"
-	.string "Aber, hey, ich finde es trotzdem\l"
-	.string "klasse.$"
+	.string "Aber, hey, ich finde es trotzdem klasse.$"
 #else
 	.string "There was a man who dug a tunnel for\n"
 	.string "a lady he loved.\p"
@@ -101,11 +100,10 @@ VerdanturfTown_Text_ManDugTunnelForLove:
 VerdanturfTown_Text_AirCleanHere:
 #if GERMAN
 	.string "Der Wind steht immer so günstig, dass\n"
-	.string "die Asche vom Vulkan nie hierher\l"
-	.string "geweht wird.\p"
+	.string "die Asche vom Vulkan nie hierher geweht\l"
+	.string "wird.\p"
 	.string "Die Luft ist sauber und klar.\n"
-	.string "Hier zu leben, hilft auch den\l"
-	.string "schwachen\l"
+	.string "Hier zu leben, hilft auch den schwachen\l"
 	.string "und kränklichen Menschen.$"
 #else
 	.string "The way the winds blow, volcanic ash\n"
@@ -132,13 +130,12 @@ VerdanturfTown_Text_GuyTryingToBustThroughCave:
 #if GERMAN
 	.string "Siehst du die Höhle neben dem Pkmn-\n"
 	.string "Supermarkt?\p"
-	.string "Da ist ein Typ drin, der die\n"
-	.string "Felsbrocken\l"
+	.string "Da ist ein Typ drin, der die Felsbrocken\n"
 	.string "sprengen will, damit er auf die andere\l"
 	.string "Seite gehen kann.\p"
-	.string "Wäre das toll, wenn ich auch dort\n"
-	.string "durch- gehen könnte… Ein Besuch in\l"
-	.string "Metarost City wäre dann ganz einfach.$"
+	.string "Wäre das toll, wenn ich auch dort durch-\n"
+	.string "gehen könnte… Ein Besuch in Metarost\l"
+	.string "City wäre dann ganz einfach.$"
 #else
 	.string "Did you see the cave next to the\n"
 	.string "POKéMON MART?\p"

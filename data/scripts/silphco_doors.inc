@@ -546,8 +546,7 @@ EventScript_OpenDoor::
 Text_CardKeyOpenedDoor::
 #if GERMAN
 	.string "Bingo!\n"
-	.string "Der Türöffner hat die Tür\l"
-	.string "entriegelt!$"
+	.string "Der Türöffner hat die Tür entriegelt!$"
 #else
 	.string "Bingo!\n"
 	.string "The CARD KEY opened the door!$"

@@ -64,8 +64,8 @@ AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
 #if GERMAN
 	.string "Der Mann nebenan…\p"
 	.string "Er sagt, er habe nur einen Ausflug\n"
-	.string "hierher gemacht, aber Genaues\l"
-	.string "weiß ich auch nicht…$"
+	.string "hierher gemacht, aber Genaues weiß ich\l"
+	.string "auch nicht…$"
 #else
 	.string "The man next door…\p"
 	.string "He says he's just sightseeing,\n"

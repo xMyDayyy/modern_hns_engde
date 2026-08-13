@@ -67,9 +67,9 @@ ThreeIsland_BerryForest_Text_HelpScaryPokemon::
 	.string "dort vor kurzem aufgetaucht.\p"
 	.string "Es war so gruselig.\n"
 	.string "Es hat Irrma Angst gemacht.\p"
-	.string "Ich bin zu verängstigt, um mich\n"
-	.string "zu bewegen! Aber ich möchte\l"
-	.string "nach Hause gehen…$"
+	.string "Ich bin zu verängstigt, um mich zu\n"
+	.string "bewegen! Aber ich möchte nach Hause\l"
+	.string "gehen…$"
 #else
 	.string "LOSTELLE: Whimper… Sniff…\n"
 	.string "Oh! Please, help!\p"

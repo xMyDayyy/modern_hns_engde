@@ -149,10 +149,8 @@ LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore:
 LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings:
 #if GERMAN
 	.string "Immer wenn ich in das Einkaufszentrum\n"
-	.string "gehe, endet das damit, dass ich\l"
-	.string "tausend\l"
-	.string "Dinge kaufe, weil es so viel Spaß\l"
-	.string "macht.$"
+	.string "gehe, endet das damit, dass ich tausend\l"
+	.string "Dinge kaufe, weil es so viel Spaß macht.$"
 #else
 	.string "Whenever I come to the DEPARTMENT\n"
 	.string "STORE, I always end up buying all sorts\l"
@@ -211,9 +209,9 @@ LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun:
 	.string "wirklich Spaß, findest du nicht?\p"
 	.string "Ich glaube, damit sind Dinge möglich,\n"
 	.string "die es vorher nicht gab.\p"
-	.string "Zum Beispiel kannst du jetzt mit\n"
-	.string "Leuten tauschen, mit denen es früher\l"
-	.string "nicht ging.\p"
+	.string "Zum Beispiel kannst du jetzt mit Leuten\n"
+	.string "tauschen, mit denen es früher nicht\l"
+	.string "ging.\p"
 	.string "Ich finde, das wird richtig spannend!$"
 #else
 	.string "Wireless Communication is a\n"

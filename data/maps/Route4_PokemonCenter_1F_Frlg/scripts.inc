@@ -249,9 +249,9 @@ Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
 
 Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC::
 #if GERMAN
-	.string "Wenn du keine weiteren Pokémon\n"
-	.string "tragen kannst, solltest du einige\l"
-	.string "via PC ablegen!$"
+	.string "Wenn du keine weiteren Pokémon tragen\n"
+	.string "kannst, solltest du einige via PC\l"
+	.string "ablegen!$"
 #else
 	.string "Sometimes, you'll have too many\n"
 	.string "POKéMON with you to add any more.\p"

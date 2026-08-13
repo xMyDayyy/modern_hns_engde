@@ -50,8 +50,8 @@ FarawayIsland_Entrance_hns_Text_Sign:
 	.string "muss sehr alt sein..\p"
 	.string "..ber, 6. Tag falls ein Mensch..\n"
 	.string "hier anlegt.. wieder..es i..\l"
-	.string "sei reinen Herzens.. .mit\l"
-	.string "der Hoffnung, gehe ic..$"
+	.string "sei reinen Herzens.. .mit der Hoffnung,\l"
+	.string "gehe ic..$"
 #else
 	.string "The writing is fading as if it\n"
 	.string "was written a long time ago..\p"

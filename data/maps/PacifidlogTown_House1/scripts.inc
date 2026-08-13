@@ -12,8 +12,8 @@ PacifidlogTown_House1_EventScript_Woman::
 PacifidlogTown_House1_Text_RegiStory:
 #if GERMAN
 	.string "In der Hoenn-Region gibt es drei\n"
-	.string "Pokémon, die die Stärke von Gestein,\l"
-	.string "Eis und Stahl repräsentieren.\p"
+	.string "Pokémon, die die Stärke von Gestein, Eis\l"
+	.string "und Stahl repräsentieren.\p"
 	.string "Man sagt, sie verstecken sich in\n"
 	.string "Höhlen vor den Augen der Menschen.\p"
 	.string "Diese Geschichte wurde mir als Kind\n"
@@ -32,8 +32,7 @@ PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
 #if GERMAN
 	.string "“Sechs Punkte öffnen drei Türen.”\p"
 	.string "Mein Großvater sagte das immer, aber\n"
-	.string "ich habe keine Ahnung, was es\l"
-	.string "bedeutet.$"
+	.string "ich habe keine Ahnung, was es bedeutet.$"
 #else
 	.string "“Six dots open three doors.”\p"
 	.string "Grandpa used to say that, but I don't\n"

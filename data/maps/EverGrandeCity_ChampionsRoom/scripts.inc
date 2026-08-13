@@ -320,8 +320,7 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
 #if GERMAN
 	.string "Maike: {PLAYER}{KUN}!\p"
-	.string "Ich muss dir unbedingt einen Rat\n"
-	.string "geben,\l"
+	.string "Ich muss dir unbedingt einen Rat geben,\n"
 	.string "bevor du gegen den Champ antrittst!$"
 #else
 	.string "MAY: {PLAYER}{KUN}!\p"

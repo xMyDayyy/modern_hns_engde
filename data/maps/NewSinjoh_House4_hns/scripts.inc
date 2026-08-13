@@ -49,11 +49,11 @@ NewSinjoh_Cafe_EventScript_BaldingMan::
 NewSinjoh_Cafe_Text_BaldingMan:
 #if GERMAN
 	.string "Dieses Café wird von einer\n"
-	.string "einheimischen Familie geführt,\l"
-	.string "solange man denken kann.\p"
-	.string "Ihre jüngste Tochter da drüben ist\n"
-	.string "es nicht gewohnt, so viele Fremde\l"
-	.string "zu bedienen.$"
+	.string "einheimischen Familie geführt, solange\l"
+	.string "man denken kann.\p"
+	.string "Ihre jüngste Tochter da drüben ist es\n"
+	.string "nicht gewohnt, so viele Fremde zu\l"
+	.string "bedienen.$"
 #else
 	.string "A local family has run this\n"
 	.string "cafe for as long as anyone\l"
@@ -116,9 +116,8 @@ NewSinjoh_Cafe_EventScript_Gentleman::
 NewSinjoh_Cafe_Text_Gentleman:
 #if GERMAN
 	.string "Was starrst du so, Kind?\p"
-	.string "Es ist nichts dabei, wenn ein Mann\n"
-	.string "und sein Pokémon am selben Tisch\l"
-	.string "essen.$"
+	.string "Es ist nichts dabei, wenn ein Mann und\n"
+	.string "sein Pokémon am selben Tisch essen.$"
 #else
 	.string "What are you staring at, kid?\p"
 	.string "Nothin' wrong with a man and his\n"

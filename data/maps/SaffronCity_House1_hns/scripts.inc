@@ -35,9 +35,8 @@ MrPsychic_Text_2:
 #if GERMAN
 	.string "…Du weißt doch, was das ist, oder?\n"
 	.string "Die TM29 enthält Psychokinese.\p"
-	.string "…Mit ein bisschen Glück lässt\n"
-	.string "sich damit die Spezialattacke\l"
-	.string "des Gegners senken!$"
+	.string "…Mit ein bisschen Glück lässt sich damit\n"
+	.string "die Spezialattacke des Gegners senken!$"
 #else
 	.string "TM29 is PSYCHIC.\p"
 	.string "It may lower the target's\n"

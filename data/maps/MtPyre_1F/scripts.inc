@@ -29,8 +29,7 @@ MtPyre_1F_Text_TakeThisForYourOwnGood:
 #if GERMAN
 	.string "Auf den Pfaden des Pyrobergs kreucht\n"
 	.string "und fleucht alles Mögliche…\p"
-	.string "Niemand kann sagen, was passieren\n"
-	.string "wird.\l"
+	.string "Niemand kann sagen, was passieren wird.\n"
 	.string "Dies ist für dich, es wird dir helfen.$"
 #else
 	.string "All sorts of beings wander the slopes\n"

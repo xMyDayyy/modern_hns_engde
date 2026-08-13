@@ -2,8 +2,8 @@ SecretBase_Text_Trainer0Intro:
 #if GERMAN
 	.string "Hast du dir schon eine Geheimbasis\n"
 	.string "eingerichtet?\p"
-	.string "Ich bin hier und dort, überall hin-\n"
-	.string "gelaufen, bevor ich mich für diesen\l"
+	.string "Ich bin hier und dort, überall\n"
+	.string "hingelaufen, bevor ich mich für diesen\l"
 	.string "Ort entschieden habe.\p"
 	.string "Da du schon mal hier bist… Hast du\n"
 	.string "Lust zu kämpfen?$"
@@ -55,8 +55,8 @@ SecretBase_Text_Trainer0PreChampion:
 #if GERMAN
 	.string "Hast du dir schon eine Geheimbasis\n"
 	.string "eingerichtet?\p"
-	.string "Ich bin hier und dort, überall hin-\n"
-	.string "gelaufen, bevor ich mich für diesen\l"
+	.string "Ich bin hier und dort, überall\n"
+	.string "hingelaufen, bevor ich mich für diesen\l"
 	.string "Ort entschieden habe.\p"
 	.string "Schau dich ruhig in aller Ruhe um.$"
 #else
@@ -441,8 +441,8 @@ SecretBase_Text_Trainer3PreChampion:
 SecretBase_Text_Trainer8Intro:
 #if GERMAN
 	.string "Einige Leute haben mir erzählt, dass\n"
-	.string "man auf verschiedene Arten an Deko-\l"
-	.string "rationen kommen kann.\p"
+	.string "man auf verschiedene Arten an\l"
+	.string "Dekorationen kommen kann.\p"
 	.string "Wir sollten einen Wettbewerb veran-\n"
 	.string "stalten, wer die schönsten Dinge hat.\p"
 	.string "Aber zuerst lass uns kämpfen.$"
@@ -482,8 +482,8 @@ SecretBase_Text_Trainer8Defeated::
 SecretBase_Text_Trainer8PostBattle:
 #if GERMAN
 	.string "Ich werde den Wettbewerb um die\n"
-	.string "schönsten Dekorationen nicht ver-\l"
-	.string "lieren. Überzeuge dich selbst!$"
+	.string "schönsten Dekorationen nicht\l"
+	.string "verlieren. Überzeuge dich selbst!$"
 #else
 	.string "I won't lose at collecting decorations.\n"
 	.string "Come visit again!$"
@@ -492,8 +492,8 @@ SecretBase_Text_Trainer8PostBattle:
 SecretBase_Text_Trainer8PreChampion:
 #if GERMAN
 	.string "Einige Leute haben mir erzählt, dass\n"
-	.string "man auf verschiedene Arten an Deko-\l"
-	.string "rationen kommen kann.\p"
+	.string "man auf verschiedene Arten an\l"
+	.string "Dekorationen kommen kann.\p"
 	.string "Wir sollten einen Wettbewerb veran-\n"
 	.string "stalten, wer die schönsten Dinge hat.$"
 #else

@@ -272,8 +272,8 @@ GoldenrodCity_RadioTower_2F_Text_GruntM5Beaten:
 
 GoldenrodCity_RadioTower_2F_Text_GruntM5After:
 #if GERMAN
-	.string "Genau genommen tun wir gar\n"
-	.string "nichts Böses.\l"
+	.string "Genau genommen tun wir gar nichts\n"
+	.string "Böses.\l"
 	.string "Wir tun einfach, was wir wollen.$"
 #else
 	.string "We're not always evil. We just do\n"
@@ -297,8 +297,8 @@ GoldenrodCity_RadioTower_2F_Text_GruntM6Beaten:
 
 GoldenrodCity_RadioTower_2F_Text_GruntM6After:
 #if GERMAN
-	.string "Unser Vorstand will die Macht an\n"
-	.string "sich reißen. Er hat Großes vor.\l"
+	.string "Unser Vorstand will die Macht an sich\n"
+	.string "reißen. Er hat Großes vor.\l"
 	.string "Ich frage mich, was das wohl ist?$"
 #else
 	.string "Our EXECUTIVES are trying to take\n"

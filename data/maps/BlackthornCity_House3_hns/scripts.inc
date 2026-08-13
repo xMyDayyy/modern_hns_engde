@@ -280,9 +280,8 @@ BlackthornCity_MoveRelearnersHouse_Text_TeachWhichMove:
 BlackthornCity_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
 #if GERMAN
 	.string "Tut mir leid…\p"
-	.string "Anscheinend habe ich keine Attacke,\n"
-	.string "die ich diesem Pokémon beibringen\l"
-	.string "kann.$"
+	.string "Anscheinend habe ich keine Attacke, die\n"
+	.string "ich diesem Pokémon beibringen kann.$"
 #else
 	.string "Sorry…\p"
 	.string "It doesn't appear as if I have any move\n"

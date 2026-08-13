@@ -192,8 +192,8 @@ CianwoodCity_Text_ManiacRobbed2:
 CianwoodCity_Text_ManiacHappinessSpeech:
 #if GERMAN
 	.string "Für Pokémon ist es das höchste Glück,\n"
-	.string "wenn sie bei jemandem sein dürfen,\l"
-	.string "der sie gut behandelt.$"
+	.string "wenn sie bei jemandem sein dürfen, der\l"
+	.string "sie gut behandelt.$"
 #else
 	.string "For POKéMON, happiness is being\n"
 	.string "with a person who treats them well.$"

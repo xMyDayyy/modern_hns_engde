@@ -64,9 +64,8 @@ BillHouse_Text_TakeThisEevee:
 	.string "Bill: Hi, {PLAYER}!\p"
 	.string "Tu uns einen Gefallen und nimm dieses\n"
 	.string "Evoli.\p"
-	.string "Es kam hierher,\n"
-	.string "als ich an der Zeitkapsel gearbeitet\l"
-	.string "habe.\p"
+	.string "Es kam hierher, als ich an der\n"
+	.string "Zeitkapsel gearbeitet habe.\p"
 	.string "Jemand sollte sich darum kümmern,\n"
 	.string "aber ich gehe nicht gerne raus.\p"
 	.string "Wirst du für mich\n"
@@ -105,9 +104,8 @@ BillHouse_Text_ReceivedEevee:
 
 BillHouse_Text_EeveeMayEvolve:
 #if GERMAN
-	.string "Bill: Prof. Lind sagt, Evoli kann\n"
-	.string "sich in neue, unbekannte\l"
-	.string "Arten entwickeln.$"
+	.string "Bill: Prof. Lind sagt, Evoli kann sich in\n"
+	.string "neue, unbekannte Arten entwickeln.$"
 #else
     .string "BILL: PROF.ELM claims EEVEE may\n"
     .string "evolve in new and unknown ways.$"
@@ -188,9 +186,8 @@ BillHouse_Text_RecordedBillsNumber:
 
 BillHouse_Text_SisterRefusedNumber:
 #if GERMAN
-	.string "Mein Bruder hat\n"
-	.string "das PC-PokémonLagerungs-System\l"
-	.string "erfunden.\p"
+	.string "Mein Bruder hat das\n"
+	.string "PC-PokémonLagerungs-System erfunden.\p"
 	.string "Ich wollte dir gerade\n"
 	.string "Bills Nummer geben…$"
 #else
@@ -210,9 +207,8 @@ BillHouse_Text_SisterPhoneFull:
 
 BillHouse_Text_SisterStorageSystem:
 #if GERMAN
-	.string "Mein großer Bruder Bill\n"
-	.string "hat das PC-Pokémon-Lagerungssystem\l"
-	.string "erfunden.$"
+	.string "Mein großer Bruder Bill hat das\n"
+	.string "PC-Pokémon-Lagerungssystem erfunden.$"
 #else
     .string "My big brother BILL made the PC\n"
     .string "POKéMON storage system.$"

@@ -35,9 +35,9 @@ Melemele_House4_Woman_Text_0:
 #if GERMAN
 	.string "Mein Freund sagte, wir fahren nach\n"
 	.string "Alola…\p"
-	.string "Ich dachte, er meint die Alola-\n"
-	.string "Region, nicht die kleinen Inseln\l"
-	.string "vor der Küste von Kanto.$"
+	.string "Ich dachte, er meint die Alola-Region,\n"
+	.string "nicht die kleinen Inseln vor der Küste\l"
+	.string "von Kanto.$"
 #else
 	.string "My boyfriend told me we were going to\n"
 	.string "Alola…\p"

@@ -276,12 +276,11 @@ SlateportCity_BattleTentLobby_hns_EventScript_ExitRules::
 
 SlateportCity_BattleTentLobby_hns_Text_CouldntFindMonForMe:
 #if GERMAN
-	.string "Ich habe keine Pokémon gefunden,\n"
-	.string "die, nun ja, wie für mich gemacht\l"
-	.string "sind. \p"
+	.string "Ich habe keine Pokémon gefunden, die,\n"
+	.string "nun ja, wie für mich gemacht sind.\p"
 	.string "Und da habe ich mir gedacht, ich\n"
-	.string "beschwer mich, nun ja, bei dem\l"
-	.string "Typen hier.\p"
+	.string "beschwer mich, nun ja, bei dem Typen\l"
+	.string "hier.\p"
 	.string "Aber der hat nicht einmal zugehört,\n"
 	.string "Mann! Das ist vielleicht eine Niete.\p"
 	.string "Hey! Zieh dir das mal rein!\n"
@@ -300,10 +299,9 @@ SlateportCity_BattleTentLobby_hns_Text_CouldntFindMonForMe:
 SlateportCity_BattleTentLobby_hns_Text_ExplainTorment:
 #if GERMAN
 	.string "Das ist die TM42, weißt du?\n"
-	.string "Hey, das ist Folterknecht, sag ich\l"
-	.string "dir. \p"
-	.string "Der Gegner wird so daran gehindert,\n"
-	.string "eine Attacke zweimal hintereinander\l"
+	.string "Hey, das ist Folterknecht, sag ich dir.\p"
+	.string "Der Gegner wird so daran gehindert, eine\n"
+	.string "Attacke zweimal hintereinander\l"
 	.string "auszuführen.\p"
 	.string "Aber nun hör mir gut zu. Ich würde nie\n"
 	.string "Folterknecht gegen dich einsetzen.$"
@@ -318,10 +316,10 @@ SlateportCity_BattleTentLobby_hns_Text_ExplainTorment:
 
 SlateportCity_BattleTentLobby_hns_Text_IllTryUsingBugMons:
 #if GERMAN
-	.string "Ich mag eigentlich keine Käfer-\n"
-	.string "Pokémon, aber vielleicht sollte ich\l"
-	.string "zur\l"
-	.string "Abwechslung doch welche fangen?\p"
+	.string "Ich mag eigentlich keine\n"
+	.string "Käfer-Pokémon, aber vielleicht sollte\l"
+	.string "ich zur Abwechslung doch welche\l"
+	.string "fangen?\p"
 	.string "Wer weiß, vielleicht finde ich sie\n"
 	.string "dann ja doch ganz nett?$"
 #else

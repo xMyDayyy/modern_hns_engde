@@ -270,8 +270,8 @@ MahoganyTown_Text_RageCandyBarMerchantTryOne:
 #if GERMAN
 	.string "Hey, du! Komm doch mal eben her!\p"
 	.string "Wenn du schon mal in Mahagonia City\n"
-	.string "bist, solltest du unbedingt\l"
-	.string "einen Wutkeks kaufen!\p"
+	.string "bist, solltest du unbedingt einen\l"
+	.string "Wutkeks kaufen!\p"
 	.string "Ich hätte einen für 300 $ für\n"
 	.string "dich im Angebot. Na, was sagst du?$"
 #else
@@ -339,9 +339,9 @@ MahoganyTown_Text_GrampsClearedRocketHideout:
 
 MahoganyTown_Text_Fisher:
 #if GERMAN
-	.string "Wenn du schon so weit gekommen\n"
-	.string "bist, solltest du dir die\l"
-	.string "Zeit nehmen, um etwas\p"
+	.string "Wenn du schon so weit gekommen bist,\n"
+	.string "solltest du dir die Zeit nehmen, um\l"
+	.string "etwas\p"
 	.string "die Gegend zu besichtigen.\p"
 	.string "Geh nach Norden und sieh dir den\n"
 	.string "See des Zorns an.$"
@@ -406,8 +406,8 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	.string "Ich höre immer bloß “Team Rocket”…\p"
 	.string "Da dachte ich, ich rufe mal an.\n"
 	.string "{PLAYER}, weißt du, was da los ist?\p"
-	.string "Team Rocket feiert doch nicht etwa\n"
-	.string "ein Comeback?\l"
+	.string "Team Rocket feiert doch nicht etwa ein\n"
+	.string "Comeback?\l"
 	.string "Nein… das wäre doch zu abwegig.\p"
 	.string "Entschuldige, ich wollte dich nicht\n"
 	.string "beunruhigen. Pass auf dich auf!$"
@@ -440,8 +440,8 @@ ElmPhoneRoute39LegendaryText:
 	.string "Es flog nach Westen,\n"
 	.string "Richtung Route 39.\p"
 	.string "{PLAYER}!\n"
-	.string "Das könnte eine seltene Chance\l"
-	.string "zur Verfolgung sein!$"
+	.string "Das könnte eine seltene Chance zur\l"
+	.string "Verfolgung sein!$"
 #else
 	.string "PROF.ELM: WOAH!\n"
 	.string "{PLAYER}, did you see that?!\p"

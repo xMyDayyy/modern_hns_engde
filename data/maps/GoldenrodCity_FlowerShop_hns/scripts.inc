@@ -99,9 +99,9 @@ GoldenrodCity_FlowerShop_EventScript_Floria3::
 
 GoldenrodCity_FlowerShop_Text_Floria:
 #if GERMAN
-	.string "Als ich meiner Schwester vom\n"
-	.string "wackeligen Baum erzählte, sagte\l"
-	.string "sie, das sei gefährlich.\p"
+	.string "Als ich meiner Schwester vom wackeligen\n"
+	.string "Baum erzählte, sagte sie, das sei\l"
+	.string "gefährlich.\p"
 	.string "Wenn ich Bianka besiege, leiht\n"
 	.string "sie mir vielleicht ihre Gießkanne…$"
 #else

@@ -164,9 +164,8 @@ Route17_Text_ZeekDefeat::
 
 Route17_Text_ZeekPostBattle::
 #if GERMAN
-	.string "Manche Pokémon benötigen\n"
-	.string "spezielle Steine, um sich zu\l"
-	.string "entwickeln.$"
+	.string "Manche Pokémon benötigen spezielle\n"
+	.string "Steine, um sich zu entwickeln.$"
 #else
 	.string "Maybe some POKéMON need element\n"
 	.string "STONES to evolve.$"
@@ -278,9 +277,8 @@ Route17_Text_SameSpeciesGrowDifferentRates::
 #if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Jedes Pokémon ist einzigartig.\p"
-	.string "Selbst gleiche Pokémon mit\n"
-	.string "identischem Level unterscheiden\l"
-	.string "sich voneinander.$"
+	.string "Selbst gleiche Pokémon mit identischem\n"
+	.string "Level unterscheiden sich voneinander.$"
 #else
 	.string "TRAINER TIPS\p"
 	.string "All POKéMON are unique.\p"

@@ -150,8 +150,8 @@ LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis::
 #if GERMAN
 	.string "Mr. Fuji: {PLAYER}!\p"
 	.string "Du kannst deinen Pokédex nicht\n"
-	.string "vollenden, wenn du deinen Pokémon\l"
-	.string "nicht genügend Liebe und Respekt\l"
+	.string "vollenden, wenn du deinen Pokémon nicht\l"
+	.string "genügend Liebe und Respekt\l"
 	.string "entgegenbringst.\p"
 	.string "Dies wird dir bei deinem Abenteuer\n"
 	.string "helfen.$"
@@ -176,9 +176,8 @@ LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
 
 LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute::
 #if GERMAN
-	.string "Schlafende Pokémon wachen auf,\n"
-	.string "wenn sie das Spiel der Pokéflöte\l"
-	.string "hören!\p"
+	.string "Schlafende Pokémon wachen auf, wenn\n"
+	.string "sie das Spiel der Pokéflöte hören!\p"
 	.string "Du kannst damit alle schlafenden\n"
 	.string "Pokémon wecken!$"
 #else

@@ -50,10 +50,9 @@ PewterCity_House1_Text_TradeMonsAreFinicky::
 	.string "deshalb ist es schwer zu erziehen!\p"
 	.string "Ein Außenseiter ist ein Pokémon,\n"
 	.string "das man in einem Tausch erhält.\p"
-	.string "Es entwickelt sich rasch, doch im\n"
-	.string "Kampf kann es vorkommen, dass es\l"
-	.string "unerfahrenen Trainern nicht\l"
-	.string "gehorcht!\p"
+	.string "Es entwickelt sich rasch, doch im Kampf\n"
+	.string "kann es vorkommen, dass es\l"
+	.string "unerfahrenen Trainern nicht gehorcht!\p"
 	.string "We$"
 #else
 	.string "Our POKéMON's an outsider, so it's\n"

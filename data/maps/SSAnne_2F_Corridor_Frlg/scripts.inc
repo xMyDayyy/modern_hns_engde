@@ -227,9 +227,9 @@ SSAnne_2F_Corridor_Text_RivalVictory::
 
 SSAnne_2F_Corridor_Text_RivalPostBattle::
 #if GERMAN
-	.string "{RIVAL}: Es soll angeblich ein\n"
-	.string "großer Meister im Umgang mit dem\l"
-	.string "Zerschneider an Bord sein.\p"
+	.string "{RIVAL}: Es soll angeblich ein großer\n"
+	.string "Meister im Umgang mit dem Zerschneider\l"
+	.string "an Bord sein.\p"
 	.string "Aber da war nur ein seekranker,\n"
 	.string "alter Mann!\p"
 	.string "Der Zerschneider ist äußerst\n"

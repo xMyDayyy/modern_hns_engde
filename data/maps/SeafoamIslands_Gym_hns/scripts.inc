@@ -185,8 +185,8 @@ SeafoamIslands_Gym_Text_GymGuideWin:
 	.string "Sorry, sorry!\p"
 	.string "Die Zinnober-Arena war weg, ich\n"
 	.string "wusste nicht, wo ich dich finde.\p"
-	.string "Aber hey, du bist auch ohne\n"
-	.string "meinen Rat stark genug.\l"
+	.string "Aber hey, du bist auch ohne meinen Rat\n"
+	.string "stark genug.\l"
 	.string "Ich wusste, du gewinnst!$"
 #else
 	.string "Yo!\p"
@@ -200,9 +200,8 @@ SeafoamIslands_Gym_Text_GymGuideWin:
 
 SeafoamIslands_Gym_Text_GymGuideWin2:
 #if GERMAN
-	.string "Eine Pokémon-Arena kann überall\n"
-	.string "sein, solange der Arena-Leiter\l"
-	.string "da ist.\p"
+	.string "Eine Pokémon-Arena kann überall sein,\n"
+	.string "solange der Arena-Leiter da ist.\p"
 	.string "Ein Gebäude braucht es nicht.$"
 #else
 	.string "A POKéMON GYM can be anywhere as\n"

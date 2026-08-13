@@ -33,8 +33,8 @@ SevenIsland_TrainerTower_Text_DarioPostBattle::
 	.string "Ich sage dir voraus, dass du\n"
 	.string "viele andere Leute triffst.\p"
 	.string "Ich sehe, dass du durch eine\n"
-	.string "merkwürdige Kraft mit ihnen\l"
-	.string "verbunden bist.$"
+	.string "merkwürdige Kraft mit ihnen verbunden\l"
+	.string "bist.$"
 #else
 	.string "In your future, I sense that you\n"
 	.string "will meet many others.\p"

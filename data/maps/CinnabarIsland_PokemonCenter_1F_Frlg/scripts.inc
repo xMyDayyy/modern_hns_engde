@@ -141,11 +141,10 @@ CinnabarIsland_PokemonCenter_1F_Movement_PlayerExitWest::
 
 CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked::
 #if GERMAN
-	.string "Ich wollte die Arena der\n"
-	.string "Zinnoberinsel besuchen,\l"
-	.string "aber die Türen sind verschlossen.\l"
-	.string "Es muss irgendwo einen\l"
-	.string "Schlüssel geben.\p"
+	.string "Ich wollte die Arena der Zinnoberinsel\n"
+	.string "besuchen, aber die Türen sind\l"
+	.string "verschlossen.\l"
+	.string "Es muss irgendwo einen Schlüssel geben.\p"
 	.string "Vielleicht in dieser abgebrannten\n"
 	.string "Villa?\p"
 	.string "Der Freund des Arenaleiters\n"
@@ -164,16 +163,13 @@ CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked::
 CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom::
 #if GERMAN
 	.string "Hast du viele Freunde?\p"
-	.string "Sich mit seinen nahen Freunden\n"
-	.string "via Link-Kabel treffen macht\l"
-	.string "Spaß!\l"
-	.string "Aber warst du schon im\l"
-	.string "Konnex-Klub?\p"
+	.string "Sich mit seinen nahen Freunden via\n"
+	.string "Link-Kabel treffen macht Spaß!\l"
+	.string "Aber warst du schon im Konnex-Klub?\p"
 	.string "Wer weiß, vielleicht schließt du\n"
 	.string "dort neue Freundschaften?\p"
-	.string "Ich denke ein Besuch im\n"
-	.string "Konnex-Klub ist seine\l"
-	.string "Zeit wert.$"
+	.string "Ich denke ein Besuch im Konnex-Klub ist\n"
+	.string "seine Zeit wert.$"
 #else
 	.string "Do you have lots of friends?\p"
 	.string "Linking up with the usual friends\n"
@@ -188,12 +184,11 @@ CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom::
 
 CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves::
 #if GERMAN
-	.string "Brichst du ihre Entwicklung ab,\n"
-	.string "dann können deine Pokémon\l"
-	.string "dennoch weitere Attacken lernen.\p"
+	.string "Brichst du ihre Entwicklung ab, dann\n"
+	.string "können deine Pokémon dennoch weitere\l"
+	.string "Attacken lernen.\p"
 	.string "Die weitere Entwicklung kann warten,\n"
-	.string "bis sie neue Attacken gelernt\l"
-	.string "haben!$"
+	.string "bis sie neue Attacken gelernt haben!$"
 #else
 	.string "POKéMON can still learn techniques\n"
 	.string "after canceling evolution.\p"

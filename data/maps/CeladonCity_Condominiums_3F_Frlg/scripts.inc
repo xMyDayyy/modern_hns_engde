@@ -87,8 +87,7 @@ CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex::
 	.string "Gefällt dir das Spiel?\p"
 	.string "Ich habe das Spiel gestaltet!\p"
 	.string "Auch wenn es sehr mühsam ist, den\n"
-	.string "Pokédex zu erstellen: Gib nicht\l"
-	.string "auf!\p"
+	.string "Pokédex zu erstellen: Gib nicht auf!\p"
 	.string "Zeige ihn mir, wenn er komplett ist!$"
 #else
 	.string "Is that right?\p"

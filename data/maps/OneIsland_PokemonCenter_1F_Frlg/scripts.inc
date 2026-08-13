@@ -573,8 +573,8 @@ OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio::
 OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut::
 #if GERMAN
 	.string "Celio: Bill!\n"
-	.string "Ich kann nicht glauben, dass du\l"
-	.string "hierher kommst!$"
+	.string "Ich kann nicht glauben, dass du hierher\l"
+	.string "kommst!$"
 #else
 	.string "CELIO: BILL!\n"
 	.string "I can't believe you came out here.$"
@@ -593,8 +593,7 @@ OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing::
 
 OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio::
 #if GERMAN
-	.string "{PLAYER}, das ist mein Freund\n"
-	.string "Celio!\l"
+	.string "{PLAYER}, das ist mein Freund Celio!\n"
 	.string "Er ist ein passionierter PC Maniac!$"
 #else
 	.string "{PLAYER}, this is my buddy CELIO.\n"
@@ -604,8 +603,8 @@ OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio::
 OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp::
 #if GERMAN
 	.string "Celio, das ist {PLAYER}! Ein\n"
-	.string "aufstrebender Trainer auf dem\l"
-	.string "Weg zum Pokémon Champ!$"
+	.string "aufstrebender Trainer auf dem Weg zum\l"
+	.string "Pokémon Champ!$"
 #else
 	.string "CELIO, this is {PLAYER}, a rising\n"
 	.string "contender as the POKéMON CHAMP!$"
@@ -647,9 +646,9 @@ OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours::
 #if GERMAN
 	.string "Celio: Sie läuft gut, aber wir sind\n"
 	.string "einfach zu weit entfernt.\p"
-	.string "Zwischen den PCs auf dieser\n"
-	.string "Insel und deinem kann keine\l"
-	.string "Verbindung hergestellt werden.$"
+	.string "Zwischen den PCs auf dieser Insel und\n"
+	.string "deinem kann keine Verbindung\l"
+	.string "hergestellt werden.$"
 #else
 	.string "CELIO: It's running fine, but we're\n"
 	.string "too remote out here.\p"
@@ -758,8 +757,8 @@ OneIsland_PokemonCenter_1F_Text_ReceivedTownMap::
 OneIsland_PokemonCenter_1F_Text_BillCatchYouLater::
 #if GERMAN
 	.string "Bill: Ich treff dich später!\n"
-	.string "Richte dem Typen einen\l"
-	.string "Gruß von mir aus!$"
+	.string "Richte dem Typen einen Gruß von mir\l"
+	.string "aus!$"
 #else
 	.string "BILL: I'll catch you later!\n"
 	.string "Say hi to the guy for me!$"
@@ -885,11 +884,10 @@ OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto::
 
 OneIsland_PokemonCenter_1F_Text_CelioPromiseIllShowYouAroundSometime::
 #if GERMAN
-	.string "Celio: {PLAYER}, es tut mir Leid,\n"
-	.string "dass wir dich heute\l"
-	.string "weggeschickt haben.\l"
-	.string "Ich verspreche, dass ich dir die\l"
-	.string "Gegend ein andermal zeige.$"
+	.string "Celio: {PLAYER}, es tut mir Leid, dass\n"
+	.string "wir dich heute weggeschickt haben.\l"
+	.string "Ich verspreche, dass ich dir die Gegend\l"
+	.string "ein andermal zeige.$"
 #else
 	.string "CELIO: {PLAYER}, I'm really sorry\n"
 	.string "that we sent you off alone today.\p"
@@ -903,9 +901,9 @@ OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine::
 	.string "beschäftigt aus, wie immer!\p"
 	.string "Wie es mir geht?\p"
 	.string "Ich modifiziere das Netzwerk.\p"
-	.string "Wenn ich fertig bin, sollst du die\n"
-	.string "erste Person sein, die das Netzwerk\l"
-	.string "benutzt, {PLAYER}!$"
+	.string "Wenn ich fertig bin, sollst du die erste\n"
+	.string "Person sein, die das Netzwerk benutzt,\l"
+	.string "{PLAYER}!$"
 #else
 	.string "CELIO: Hello!\n"
 	.string "You look awfully busy as always.\p"
@@ -938,12 +936,11 @@ OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway::
 #if GERMAN
 	.string "Ich modifiziere momentan\n"
 	.string "das Netzwerk.\p"
-	.string "Ich richte es so ein, dass ein\n"
-	.string "Tausch über lange Distanzen\l"
-	.string "möglich ist.\l"
+	.string "Ich richte es so ein, dass ein Tausch\n"
+	.string "über lange Distanzen möglich ist.\l"
 	.string "Wenn ich fertig bin, kannst du\l"
-	.string "exotische Pokémon mit Trainern\l"
-	.string "von nah und fern tauschen.$"
+	.string "exotische Pokémon mit Trainern von nah\l"
+	.string "und fern tauschen.$"
 #else
 	.string "I'm modifying the Network Machine\n"
 	.string "right now.\p"
@@ -958,11 +955,9 @@ OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone::
 #if GERMAN
 	.string "Aber es gibt einen Haken!\p"
 	.string "Damit die Maschine funktioniert,\n"
-	.string "brauche ich einen speziellen\l"
-	.string "Edelstein.\l"
-	.string "Er soll hier auf Eiland Eins sein,\l"
-	.string "aber ich habe ihn noch nicht\l"
-	.string "gefunden!\p"
+	.string "brauche ich einen speziellen Edelstein.\l"
+	.string "Er soll hier auf Eiland Eins sein, aber\l"
+	.string "ich habe ihn noch nicht gefunden!\p"
 	.string "Wer weiß, wo er ist?$"
 #else
 	.string "But, there is a slight catch.\p"
@@ -976,16 +971,14 @@ OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone::
 OneIsland_PokemonCenter_1F_Text_TryingToFindGem::
 #if GERMAN
 	.string "Ich habe versucht, den Edelstein\n"
-	.string "während meiner Forschungen\l"
-	.string "zu finden.\l"
-	.string "Am Ende habe ich weder beim\l"
-	.string "Edelstein noch beim Forschen\l"
-	.string "Fortschritte gemacht…\p"
-	.string "Wenn ich mich auf Bill verlassen\n"
-	.string "würde, wäre mein Fortschritt\l"
-	.string "gewiss.\l"
-	.string "Aber dieses Mal möchte ich es\l"
-	.string "allein schaffen.$"
+	.string "während meiner Forschungen zu finden.\l"
+	.string "Am Ende habe ich weder beim Edelstein\l"
+	.string "noch beim Forschen Fortschritte\l"
+	.string "gemacht…\p"
+	.string "Wenn ich mich auf Bill verlassen würde,\n"
+	.string "wäre mein Fortschritt gewiss.\l"
+	.string "Aber dieses Mal möchte ich es allein\l"
+	.string "schaffen.$"
 #else
 	.string "I was trying to find the gem\n"
 	.string "even while I was studying.\p"
@@ -1043,10 +1036,10 @@ OneIsland_PokemonCenter_1F_Text_PleaseINeedYourHelp::
 OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands::
 #if GERMAN
 	.string "Während meines Studiums der\n"
-	.string "Edelsteine, habe ich etwas\l"
-	.string "Wichtiges herausgefunden.\l"
-	.string "Es gibt einen weiteren Edelstein,\l"
-	.string "der zum Rubin gehört.\p"
+	.string "Edelsteine, habe ich etwas Wichtiges\l"
+	.string "herausgefunden.\l"
+	.string "Es gibt einen weiteren Edelstein, der\l"
+	.string "zum Rubin gehört.\p"
 	.string "Der andere Edelstein wird auf\n"
 	.string "Sevii Eiland vermutet.\p"
 	.string "{PLAYER}, bitte, finde den anderen\n"
@@ -1267,8 +1260,8 @@ OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland::
 	.string "Auf dieser Insel gibt es einen\n"
 	.string "gigantischen Vulkan!\p"
 	.string "Er ist schon lange nicht mehr\n"
-	.string "ausgebrochen, also kannst du\l"
-	.string "beruhigt wandern!$"
+	.string "ausgebrochen, also kannst du beruhigt\l"
+	.string "wandern!$"
 #else
 	.string "On this island, there's an enormous\n"
 	.string "volcano.\p"
@@ -1278,9 +1271,9 @@ OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland::
 
 OneIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend::
 #if GERMAN
-	.string "Ich wünschte, Pokémon mit\n"
-	.string "meinem Freund, der weit weg\l"
-	.string "wohnt, zu tauschen…$"
+	.string "Ich wünschte, Pokémon mit meinem\n"
+	.string "Freund, der weit weg wohnt, zu\l"
+	.string "tauschen…$"
 #else
 	.string "I wish I could trade POKéMON with\n"
 	.string "my boyfriend who lives far away…$"
@@ -1288,11 +1281,10 @@ OneIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend::
 
 OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend::
 #if GERMAN
-	.string "Ich habe mit meinem Freund, der\n"
-	.string "weit weg wohnt, Pokémon\l"
-	.string "getauscht!\l"
-	.string "Jeder weiß, dass wir das dir und\l"
-	.string "Celio zu verdanken haben!\l"
+	.string "Ich habe mit meinem Freund, der weit weg\n"
+	.string "wohnt, Pokémon getauscht!\l"
+	.string "Jeder weiß, dass wir das dir und Celio zu\l"
+	.string "verdanken haben!\l"
 	.string "Also, danke!$"
 #else
 	.string "I traded POKéMON with my boyfriend\n"
@@ -1306,8 +1298,7 @@ OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment::
 #if GERMAN
 	.string "Netzwerk\n"
 	.string "Verbindungslevel 0\p"
-	.string "… das Pokémon\n"
-	.string "Lagerungs-System wird\l"
+	.string "… das Pokémon Lagerungs-System wird\n"
 	.string "gewartet…$"
 #else
 	.string "Network Machine\n"

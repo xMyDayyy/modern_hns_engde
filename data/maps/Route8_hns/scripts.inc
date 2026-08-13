@@ -88,9 +88,8 @@ Route8_Text_BikerHarrisAfter:
 
 Route8_Text_BikerZekeSeen:
 #if GERMAN
-	.string "Wir sind die\n"
-	.string "Pokémon-Trainergilde aus Kanto! Nimm\l"
-	.string "dich in Acht!$"
+	.string "Wir sind die Pokémon-Trainergilde aus\n"
+	.string "Kanto! Nimm dich in Acht!$"
 #else
 	.string "We're the KANTO POKéMON FEDERA-\n"
 	.string "TION!\n"
@@ -106,9 +105,9 @@ Route8_Text_BikerZekeBeaten:
 
 Route8_Text_BikerZekeAfter:
 #if GERMAN
-	.string "Wir werden unser Bestes geben,\n"
-	.string "von nun an niemandem mehr\l"
-	.string "Ärger zu bereiten… wirklich!$"
+	.string "Wir werden unser Bestes geben, von nun\n"
+	.string "an niemandem mehr Ärger zu bereiten…\l"
+	.string "wirklich!$"
 #else
 	.string "We'll try not to disturb anyone\n"
 	.string "from now on…$"

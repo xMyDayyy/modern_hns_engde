@@ -294,8 +294,8 @@ WhirlIslands_LugiaChamber_Text_Kimono_AfterNotCaught:
 	.string "gerufen, sondern Ihr konntet es auch,\l"
 	.string "wie durch ein Wunder, einfangen…\p"
 	.string "Das war wahrlich eine große Heldentat.\n"
-	.string "Es gibt nun nichts mehr, was\l"
-	.string "wir Euch noch erzählen könnten.\p"
+	.string "Es gibt nun nichts mehr, was wir Euch\l"
+	.string "noch erzählen könnten.\p"
 	.string "Wir wünschen Euch auch für den Rest\n"
 	.string "Eurer Reise alles Gute…$"
 #else
@@ -312,8 +312,8 @@ WhirlIslands_LugiaChamber_Text_Kimono_AfterCaught:
 	.string "gerufen, sondern Ihr konntet es auch,\l"
 	.string "wie durch ein Wunder, einfangen…\p"
 	.string "Das war wahrlich eine große Heldentat.\n"
-	.string "Es gibt nun nichts mehr, was\l"
-	.string "wir Euch noch erzählen könnten.\p"
+	.string "Es gibt nun nichts mehr, was wir Euch\l"
+	.string "noch erzählen könnten.\p"
 	.string "Wir wünschen Euch auch für den Rest\n"
 	.string "Eurer Reise alles Gute…$"
 #else
@@ -607,10 +607,10 @@ WhirlIslands_LugiaChamber_Text_Kimono_Opening::
 #if GERMAN
 	.string "Tamao: Dies ist der Ort, an dem wir\n"
 	.string "mit Lugia in Kontakt treten werden.\p"
-	.string "Wenn sich hier der Klang des Tanzes,\n"
-	.string "den wir täglich proben, mit dem\l"
-	.string "Eurer Gischtglocke überlagert, wird\l"
-	.string "Lugia aus seinem Schlaf tief am Grund\p"
+	.string "Wenn sich hier der Klang des Tanzes, den\n"
+	.string "wir täglich proben, mit dem Eurer\l"
+	.string "Gischtglocke überlagert, wird Lugia aus\l"
+	.string "seinem Schlaf tief am Grund\p"
 	.string "des Wasserfalls erwachen und sich\n"
 	.string "von uns erblicken lassen!$"
 #else
@@ -626,14 +626,14 @@ WhirlIslands_LugiaChamber_Text_Kimono_Opening::
 WhirlIslands_LugiaChamber_Text_Kimono_Closing1::
 #if GERMAN
 	.string "Was Ihr da vor Euch seht, ist Lugia…\n"
-	.string "Seit Urzeiten erzählt man sich hier\l"
-	.string "von ihm, dem Schutzpatron der Meere…\p"
+	.string "Seit Urzeiten erzählt man sich hier von\l"
+	.string "ihm, dem Schutzpatron der Meere…\p"
 	.string "Schon viele vor Euch haben sich daran\n"
 	.string "versucht, das Gleiche zu erreichen,\l"
 	.string "doch alle scheiterten sie kläglich…\p"
 	.string "{PLAYER}, Ihr hattet endlich Erfolg\n"
-	.string "damit, weil Euer Herz mit\l"
-	.string "der Gischtglocke in Einklang stand…$"
+	.string "damit, weil Euer Herz mit der\l"
+	.string "Gischtglocke in Einklang stand…$"
 #else
 	.string "That is indeed LUGIA...\n"
 	.string "The guardian of these islands from\l"
@@ -651,9 +651,8 @@ WhirlIslands_LugiaChamber_Text_Kimono_Closing1::
 
 WhirlIslands_LugiaChamber_Text_Kimono_After::
 #if GERMAN
-	.string "Kimono-Girl: Heute hast du\n"
-	.string "dich wahrlich bewiesen,\l"
-	.string "{PLAYER}.$"
+	.string "Kimono-Girl: Heute hast du dich wahrlich\n"
+	.string "bewiesen, {PLAYER}.$"
 #else
 	.string "KIMONO GIRL: You've proven yourself\n"
 	.string "today, {PLAYER}.$"

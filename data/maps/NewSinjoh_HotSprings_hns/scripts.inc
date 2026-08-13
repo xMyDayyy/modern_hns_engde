@@ -38,9 +38,8 @@ NewSinjoh_HotSprings_EventScript_MualaniAfter::
 
 NewSinjoh_HotSprings_Text_MualaniBefore:
 #if GERMAN
-	.string "Ob ich einheimisch bin oder zu\n"
-	.string "Besuch? Was für eine unhöfliche\l"
-	.string "Frage!\p"
+	.string "Ob ich einheimisch bin oder zu Besuch?\n"
+	.string "Was für eine unhöfliche Frage!\p"
 	.string "Wenn du es genau wissen willst:\n"
 	.string "Ich bin von hier.\p"
 	.string "Meine Familie gehörte zu den Ersten,\n"
@@ -147,8 +146,8 @@ NewSinjoh_HotSprings_EventScript_SkierM::
 NewSinjoh_HotSprings_Text_SkierM:
 #if GERMAN
 	.string "Ich bin zum Snowboarden hergekommen,\n"
-	.string "aber meine Freundin will den ganzen\l"
-	.string "Tag nur in den Quellen sitzen!$"
+	.string "aber meine Freundin will den ganzen Tag\l"
+	.string "nur in den Quellen sitzen!$"
 #else
 	.string "I came here to snowboard\n"
     .string "but all my girlfriend wants to do\l"
@@ -312,9 +311,8 @@ NewSinjoh_HotSprings_Text_PLATutorIntro:
 #if GERMAN
 	.string "Die uralte Kraft fließt durch\n"
 	.string "diese Quellen.\p"
-	.string "Ich kann deinen Pokémon Attacken\n"
-	.string "aus einer vergessenen Zeit\l"
-	.string "beibringen.\p"
+	.string "Ich kann deinen Pokémon Attacken aus\n"
+	.string "einer vergessenen Zeit beibringen.\p"
 	.string "Interessiert?$"
 #else
 	.string "The ancient power flows\n"

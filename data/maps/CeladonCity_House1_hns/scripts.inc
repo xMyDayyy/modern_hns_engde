@@ -56,8 +56,8 @@ CeladonCity_House1_EventScript_Sign::
 CeladonCity_House1_Text_ChefEatathon:
 #if GERMAN
 	.string "Willkommen in unserem Restaurant!\p"
-	.string "…Leider können wir dich im Moment\n"
-	.string "nicht bedienen, weil wir gerade mitten in\l"
+	.string "…Leider können wir dich im Moment nicht\n"
+	.string "bedienen, weil wir gerade mitten in\l"
 	.string "einem Wettessen stecken.\p"
 	.string "Aber wenn du möchtest, kannst du den\n"
 	.string "Teilnehmern beim Essen zuschauen!$"
@@ -109,9 +109,8 @@ CeladonCity_House1_Text_Fisher3MunchMunch:
 
 CeladonCity_House1_Text_Fisher3GoldenrodIsBest:
 #if GERMAN
-	.string "Das Essen hier ist gut, aber\n"
-	.string "in Dukatia City gibt es das beste\l"
-	.string "Essen überhaupt.$"
+	.string "Das Essen hier ist gut, aber in Dukatia\n"
+	.string "City gibt es das beste Essen überhaupt.$"
 #else
 	.string "The food is good here, but\n"
 	.string "GOLDENROD has the best food\l"
@@ -127,8 +126,8 @@ CeladonCity_House1_Text_TeacherCrunchCrunch:
 
 CeladonCity_House1_Text_TeacherNoCoinCase:
 #if GERMAN
-	.string "Hier wird dir niemand einen\n"
-	.string "Münzkorb geben.\l"
+	.string "Hier wird dir niemand einen Münzkorb\n"
+	.string "geben.\l"
 	.string "Du solltest in Johto nachsehen.$"
 #else
 	.string "Nobody here will give you a COIN\n"

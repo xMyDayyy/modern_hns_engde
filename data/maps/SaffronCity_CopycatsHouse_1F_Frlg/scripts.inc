@@ -22,8 +22,7 @@ SaffronCity_CopycatsHouse_1F_EventScript_Chansey::
 SaffronCity_CopycatsHouse_1F_Text_DaughterIsSelfCentered::
 #if GERMAN
 	.string "Meine Tochter ist furchtbar\n"
-	.string "schüchtern! Sie hat nur wenige\l"
-	.string "Freunde!$"
+	.string "schüchtern! Sie hat nur wenige Freunde!$"
 #else
 	.string "My daughter is so self-centered.\n"
 	.string "She has but a few friends.$"

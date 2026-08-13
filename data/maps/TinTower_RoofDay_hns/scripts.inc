@@ -291,8 +291,8 @@ TinTower_RoofDay_Text_Kimono_AfterNotCaught:
 	.string "gerufen, sondern Ihr konntet es auch\l"
 	.string "wie durch ein Wunder einfangen…\p"
 	.string "Das war wirklich eine Glanzleistung.\n"
-	.string "Es gibt nun nichts mehr, was\l"
-	.string "wir Euch noch erzählen könnten.\p"
+	.string "Es gibt nun nichts mehr, was wir Euch\l"
+	.string "noch erzählen könnten.\p"
 	.string "Wir wünschen Euch auch für den Rest\n"
 	.string "Eurer Reise alles Gute…$"
 #else
@@ -310,8 +310,8 @@ TinTower_RoofDay_Text_Kimono_AfterCaught:
 	.string "gerufen, sondern Ihr konntet es auch\l"
 	.string "wie durch ein Wunder einfangen…\p"
 	.string "Das war wirklich eine Glanzleistung.\n"
-	.string "Es gibt nun nichts mehr, was\l"
-	.string "wir Euch noch erzählen könnten.\p"
+	.string "Es gibt nun nichts mehr, was wir Euch\l"
+	.string "noch erzählen könnten.\p"
 	.string "Wir wünschen Euch auch für den Rest\n"
 	.string "Eurer Reise alles Gute…$"
 #else

@@ -18,8 +18,8 @@ DiglettsCave_EntranceNorth_EventScript_Brock::
 DiglettsCave_EntranceNorth_Text_Brock:
 #if GERMAN
 	.string "Rocko: Kleine Räume, umgeben von\n"
-	.string "Felsen, geben ein friedliches\l"
-	.string "Gefühl, findest du nicht?\p"
+	.string "Felsen, geben ein friedliches Gefühl,\l"
+	.string "findest du nicht?\p"
 	.string "Wenn du eine weitere Runde willst,\n"
 	.string "bin ich im Kampf-Dojo.$"
 #else

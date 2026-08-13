@@ -67,8 +67,8 @@ BattleFrontier_Lounge5_Text_NatureGirlAttackHighAttackLow::
 #if GERMAN
 	.string "Hmm…\p"
 	.string "Dieses hier sagt, es liebt Kämpfe!\n"
-	.string "Es wird sogar kämpfen, wenn es\l"
-	.string "ganz viele Autschies hat!$"
+	.string "Es wird sogar kämpfen, wenn es ganz\l"
+	.string "viele Autschies hat!$"
 #else
 	.string "Hmhm…\p"
 	.string "This one says it likes to battle!\n"
@@ -80,8 +80,8 @@ BattleFrontier_Lounge5_Text_NatureGirlAttackHighDefenseLow::
 #if GERMAN
 	.string "Hmm…\p"
 	.string "Dieses hier sagt, dass es Kämpfe mag.\n"
-	.string "Tut es sich im Kampf sehr weh, wird\l"
-	.string "es sich um sich selbst kümmern.$"
+	.string "Tut es sich im Kampf sehr weh, wird es\l"
+	.string "sich um sich selbst kümmern.$"
 #else
 	.string "Hmhm…\p"
 	.string "This one says it likes to battle!\n"
@@ -143,9 +143,9 @@ BattleFrontier_Lounge5_Text_NatureGirlDefenseHighSupportLow::
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighAttackLow::
 #if GERMAN
 	.string "Hmm…\p"
-	.string "Dieses hier liebt es, sich anzu-\n"
-	.string "schleichen. Tut ihm aber zu viel weh,\l"
-	.string "dann wird es sich wehren.$"
+	.string "Dieses hier liebt es, sich\n"
+	.string "anzuschleichen. Tut ihm aber zu viel\l"
+	.string "weh, dann wird es sich wehren.$"
 #else
 	.string "Hmhm…\p"
 	.string "This one says it likes to be sneaky!\n"
@@ -156,9 +156,9 @@ BattleFrontier_Lounge5_Text_NatureGirlSupportHighAttackLow::
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighDefenseLow::
 #if GERMAN
 	.string "Hmm…\p"
-	.string "Dieses hier liebt es, heimtückisch\n"
-	.string "zu sein. Tut es sich im Kampf sehr\l"
-	.string "weh, kümmert es sich um sich selbst.$"
+	.string "Dieses hier liebt es, heimtückisch zu\n"
+	.string "sein. Tut es sich im Kampf sehr weh,\l"
+	.string "kümmert es sich um sich selbst.$"
 #else
 	.string "Hmhm…\p"
 	.string "This one says it likes to be sneaky!\n"
@@ -169,9 +169,9 @@ BattleFrontier_Lounge5_Text_NatureGirlSupportHighDefenseLow::
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow::
 #if GERMAN
 	.string "Hmm…\p"
-	.string "Dieses hier liebt es, heimtückisch\n"
-	.string "zu sein. Auch wenn es ganz viele\l"
-	.string "Autschies hat, wird es das tun.$"
+	.string "Dieses hier liebt es, heimtückisch zu\n"
+	.string "sein. Auch wenn es ganz viele Autschies\l"
+	.string "hat, wird es das tun.$"
 #else
 	.string "Hmhm…\p"
 	.string "This one says it likes to be sneaky!\n"

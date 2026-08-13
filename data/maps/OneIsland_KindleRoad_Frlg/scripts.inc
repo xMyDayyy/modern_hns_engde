@@ -84,9 +84,9 @@ OneIsland_KindleRoad_Text_FinnPostBattle::
 
 OneIsland_KindleRoad_Text_GarrettIntro::
 #if GERMAN
-	.string "Habe ich beim Schwimmen nur eine\n"
-	.string "Pause gemacht, um von dir\l"
-	.string "herausgefordert zu werden?$"
+	.string "Habe ich beim Schwimmen nur eine Pause\n"
+	.string "gemacht, um von dir herausgefordert zu\l"
+	.string "werden?$"
 #else
 	.string "I took a break from swimming,\n"
 	.string "only to have you challenge me?$"
@@ -103,9 +103,8 @@ OneIsland_KindleRoad_Text_GarrettDefeat::
 
 OneIsland_KindleRoad_Text_GarrettPostBattle::
 #if GERMAN
-	.string "Anstatt Surfer ständig ein-\n"
-	.string "zusetzen, solltest du ein wenig\l"
-	.string "schwimmen.$"
+	.string "Anstatt Surfer ständig einzusetzen,\n"
+	.string "solltest du ein wenig schwimmen.$"
 #else
 	.string "Instead of using SURF all the time,\n"
 	.string "you should swim some.$"
@@ -129,9 +128,8 @@ OneIsland_KindleRoad_Text_TommyDefeat::
 
 OneIsland_KindleRoad_Text_TommyPostBattle::
 #if GERMAN
-	.string "Ich habe nicht nur den Kampf,\n"
-	.string "sondern auch den Fisch\l"
-	.string "verloren!$"
+	.string "Ich habe nicht nur den Kampf, sondern\n"
+	.string "auch den Fisch verloren!$"
 #else
 	.string "Not only did I lose, the big one\n"
 	.string "got away from me, too!$"
@@ -206,9 +204,8 @@ OneIsland_KindleRoad_Text_SheaDefeat::
 
 OneIsland_KindleRoad_Text_SheaPostBattle::
 #if GERMAN
-	.string "Ich habe verloren, weil ich\n"
-	.string "wegen der Rennerei außer\l"
-	.string "Puste war…$"
+	.string "Ich habe verloren, weil ich wegen der\n"
+	.string "Rennerei außer Puste war…$"
 #else
 	.string "I lost because I'm pooped from all\n"
 	.string "the running I did…$"
@@ -267,8 +264,8 @@ OneIsland_KindleRoad_Text_BrycePostBattle::
 OneIsland_KindleRoad_Text_ClaireIntro::
 #if GERMAN
 	.string "Mein Mittagessen hat uns gesättigt!\n"
-	.string "Kämpfst du gegen uns, damit wir\l"
-	.string "ein wenig Bewegung bekommen?$"
+	.string "Kämpfst du gegen uns, damit wir ein\l"
+	.string "wenig Bewegung bekommen?$"
 #else
 	.string "My lunch filled us up, so will you\n"
 	.string "battle us for some exercise?$"
@@ -320,8 +317,8 @@ OneIsland_KindleRoad_Text_KiaPostBattle::
 OneIsland_KindleRoad_Text_KiaNotEnoughMons::
 #if GERMAN
 	.string "Heidi: Wenn du gegen uns kämpfen\n"
-	.string "möchtest, musst du mindestens\l"
-	.string "zwei Pokémon mitbringen!$"
+	.string "möchtest, musst du mindestens zwei\l"
+	.string "Pokémon mitbringen!$"
 #else
 	.string "KIA: If you want to battle with\n"
 	.string "us, you have to bring at least two\l"

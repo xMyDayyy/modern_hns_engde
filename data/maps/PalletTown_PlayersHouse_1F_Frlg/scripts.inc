@@ -55,9 +55,9 @@ PalletTown_PlayersHouse_1F_EventScript_TVScreenFemale::
 
 PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
 #if GERMAN
-	.string "Mutter: Richtig. Irgendwann gehen\n"
-	.string "alle Kinder fort, um ein Abenteuer\l"
-	.string "zu erleben!\p"
+	.string "Mutter: Richtig. Irgendwann gehen alle\n"
+	.string "Kinder fort, um ein Abenteuer zu\l"
+	.string "erleben!\p"
 	.string "Prof. Eich von nebenan hat nach\n"
 	.string "dir gefragt.$"
 #else
@@ -94,8 +94,8 @@ PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
 
 PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
 #if GERMAN
-	.string "Mutter: Sehr gut! Du und deine\n"
-	.string "Pokémon sehen großartig aus!\l"
+	.string "Mutter: Sehr gut! Du und deine Pokémon\n"
+	.string "sehen großartig aus!\l"
 	.string "Achte auf dich!$"
 #else
 	.string "MOM: Oh, good! You and your\n"
@@ -120,8 +120,8 @@ PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad::
 PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad::
 #if GERMAN
 	.string "Es läuft ein Film im TV.\n"
-	.string "Ein bezopftes Mädchen läuft\l"
-	.string "einen gelben Steinweg entlang.\p"
+	.string "Ein bezopftes Mädchen läuft einen\l"
+	.string "gelben Steinweg entlang.\p"
 	.string "… ich breche auch besser auf!$"
 #else
 	.string "There's a movie on TV.\n"

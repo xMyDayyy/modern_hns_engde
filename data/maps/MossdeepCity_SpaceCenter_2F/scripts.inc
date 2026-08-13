@@ -402,8 +402,7 @@ MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
 #if GERMAN
 	.string "Team Magma…\n"
-	.string "Ob sie auch ins Weltall fliegen\l"
-	.string "wollen?!?$"
+	.string "Ob sie auch ins Weltall fliegen wollen?!?$"
 #else
 	.string "TEAM MAGMA…\n"
 	.string "Do they want to go to space, too?$"
@@ -528,8 +527,7 @@ MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou:
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
 #if GERMAN
 	.string "Marc: Geh aus dem Weg!\n"
-	.string "Du wagst es, uns aufhalten zu\l"
-	.string "wollen?!?$"
+	.string "Du wagst es, uns aufhalten zu wollen?!?$"
 #else
 	.string "MAXIE: Clear out of the way!\n"
 	.string "Don't you dare interfere!$"
@@ -622,8 +620,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
 	.string "… … … … …\l"
 	.string "…\p"
 	.string "Wenn…\n"
-	.string "Wenn wir, Team Magma, uns geirrt\l"
-	.string "haben…\l"
+	.string "Wenn wir, Team Magma, uns geirrt haben…\l"
 	.string "… … … … …\l"
 	.string "…\p"
 	.string "dann liegt Team Aqua mit seinem Plan,\n"

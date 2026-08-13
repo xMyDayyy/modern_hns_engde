@@ -105,9 +105,9 @@ LakeOfRage_House2_EventScript_FisherSatisfied::
 
 LakeOfRage_House2_Text_LakeHistory:
 #if GERMAN
-	.string "Der See der Wut ist eigentlich\n"
-	.string "ein Krater, den ein wütendes\l"
-	.string "Garados verursacht hat.\p"
+	.string "Der See der Wut ist eigentlich ein\n"
+	.string "Krater, den ein wütendes Garados\l"
+	.string "verursacht hat.\p"
 	.string "Der Krater füllte sich mit Regen-\n"
 	.string "wasser, so entstand der See.\p"
 	.string "So erzählt es der Ur-Ur-Großvater\n"
@@ -149,12 +149,12 @@ LakeOfRage_House2_Text_WorldsLargest:
 #if GERMAN
 	.string "Der See der Wut ist wieder normal.\p"
 	.string "Die Karpador sind zurück.\p"
-	.string "Vielleicht erfülle ich mir meinen\n"
-	.string "Traum, das größte Karpador der\l"
-	.string "Welt zu besitzen.\p"
-	.string "Tatsächlich… Ich zahle dir ¥2000\n"
-	.string "für jedes Karpador und ¥100.000\l"
-	.string "für ein Riesen-Karpador!$"
+	.string "Vielleicht erfülle ich mir meinen Traum,\n"
+	.string "das größte Karpador der Welt zu\l"
+	.string "besitzen.\p"
+	.string "Tatsächlich… Ich zahle dir ¥2000 für\n"
+	.string "jedes Karpador und ¥100.000 für ein\l"
+	.string "Riesen-Karpador!$"
 #else
     .string "LAKE OF RAGE is back to normal.\p"
     .string "The MAGIKARP have returned.\p"

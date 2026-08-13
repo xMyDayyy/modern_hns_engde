@@ -17,9 +17,8 @@ SafariZone_East_Text_KeepAnyItemFoundOnSafari::
 #if GERMAN
 	.string "Alle Items, die du findest, gehören\n"
 	.string "dir!\p"
-	.string "Aber dir wird die Zeit davonlaufen,\n"
-	.string "wenn du alle auf einmal einsammeln\l"
-	.string "möchtest!$"
+	.string "Aber dir wird die Zeit davonlaufen, wenn\n"
+	.string "du alle auf einmal einsammeln möchtest!$"
 #else
 	.string "You can keep any item you find in\n"
 	.string "the SAFARI ZONE.\p"

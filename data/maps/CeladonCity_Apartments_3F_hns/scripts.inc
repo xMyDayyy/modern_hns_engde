@@ -129,8 +129,8 @@ CeladonMansion3F_Text_Drawing:
 CeladonMansion3F_Text_GameProgram:
 #if GERMAN
 	.string "Es ist das Spielprogramm.\n"
-	.string "Herumzuspielen\l"
-	.string "könnte einen Fehler ins Spiel bringen!$"
+	.string "Herumzuspielen könnte einen Fehler ins\l"
+	.string "Spiel bringen!$"
 #else
 	.string "It's the game program. Messing\n"
 	.string "with it could put a bug in the\n"

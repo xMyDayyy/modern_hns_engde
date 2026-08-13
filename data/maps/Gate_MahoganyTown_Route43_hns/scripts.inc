@@ -12,9 +12,8 @@ Gate_MahoganyTown_Route43_EventScript_CopAfter::
 
 Route43MahoganyGate_Text_Officer:
 #if GERMAN
-	.string "Hier kamen nur Wanderer vorbei,\n"
-	.string "die auf dem Weg zum\l"
-	.string "See des Zorns waren.$"
+	.string "Hier kamen nur Wanderer vorbei, die auf\n"
+	.string "dem Weg zum See des Zorns waren.$"
 #else
     .string "Only people headed up to LAKE OF\n"
     .string "RAGE have been through here lately.$"

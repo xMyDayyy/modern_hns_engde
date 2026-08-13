@@ -7,9 +7,8 @@ UndergroundPath_EastEntrance_EventScript_Woman::
 
 UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore::
 #if GERMAN
-	.string "Das große Einkaufszentrum in\n"
-	.string "Prismania City hat eine riesige\l"
-	.string "Auswahl!$"
+	.string "Das große Einkaufszentrum in Prismania\n"
+	.string "City hat eine riesige Auswahl!$"
 #else
 	.string "The DEPARTMENT STORE in CELADON\n"
 	.string "has a great selection.\p"

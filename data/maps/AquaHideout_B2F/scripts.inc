@@ -228,8 +228,7 @@ AquaHideout_B2F_Text_Grunt8Intro:
 
 AquaHideout_B2F_Text_Grunt8Defeat:
 #if GERMAN
-	.string "Ich war viel zu sehr damit\n"
-	.string "beschäftigt,\l"
+	.string "Ich war viel zu sehr damit beschäftigt,\n"
 	.string "über die Teleporter nachzudenken…$"
 #else
 	.string "I was too occupied thinking about\n"

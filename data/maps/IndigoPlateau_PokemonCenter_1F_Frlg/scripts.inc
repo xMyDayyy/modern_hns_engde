@@ -72,9 +72,8 @@ IndigoPlateau_PokemonCenter_1F_Text_GymGuyAdvice::
 #if GERMAN
 	.string "Heh!\n"
 	.string "Warte, du Champion in spe!\p"
-	.string "In der Pokémon Liga trittst du\n"
-	.string "gegen die Top Vier nacheinander\l"
-	.string "an.\p"
+	.string "In der Pokémon Liga trittst du gegen\n"
+	.string "die Top Vier nacheinander an.\p"
 	.string "Wenn du einen Kampf verlierst,\n"
 	.string "musst du ganz von vorne beginnen!$"
 #else
@@ -92,9 +91,9 @@ IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck::
 #if GERMAN
 	.string "Ab jetzt triffst du nacheinander\n"
 	.string "auf die Top Vier!\p"
-	.string "Wenn du einen Kampf gewinnst, wird\n"
-	.string "der Weg zum nächsten Trainer\l"
-	.string "freigegeben! Viel Glück!$"
+	.string "Wenn du einen Kampf gewinnst, wird der\n"
+	.string "Weg zum nächsten Trainer freigegeben!\l"
+	.string "Viel Glück!$"
 #else
 	.string "From here on, you face the\n"
 	.string "ELITE FOUR one by one.\p"
@@ -104,11 +103,10 @@ IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck::
 
 IndigoPlateau_PokemonCenter_1F_Text_LoreleiIsAbsentClosedForTimeBeing::
 #if GERMAN
-	.string "Es tut mir Leid, aber du hast deine\n"
-	.string "Zeit verschwendet, hier\l"
-	.string "herzukommen.\l"
-	.string "Lorelei von den Top Vier ist\l"
-	.string "nicht zugegen, weißt du!\p"
+	.string "Es tut mir Leid, aber du hast deine Zeit\n"
+	.string "verschwendet, hier herzukommen.\l"
+	.string "Lorelei von den Top Vier ist nicht\l"
+	.string "zugegen, weißt du!\p"
 	.string "Daher ist die Pokémon Liga\n"
 	.string "vorübergehend geschlossen.$"
 #else
@@ -129,11 +127,10 @@ IndigoPlateau_PokemonCenter_1F_Text_AgathaWhuppedUs::
 	.string "Ich bin selbstbewusst zu Agathe\n"
 	.string "gegangen, aber sie hat uns mit\l"
 	.string "Leichtigkeit besiegt.\l"
-	.string "Die alte Dame ist auch leicht\l"
-	.string "zu verärgern.\p"
-	.string "Es bedarf nur einer Bagatelle und\n"
-	.string "die Angst einflößende Dame\l"
-	.string "legt los.$"
+	.string "Die alte Dame ist auch leicht zu\l"
+	.string "verärgern.\p"
+	.string "Es bedarf nur einer Bagatelle und die\n"
+	.string "Angst einflößende Dame legt los.$"
 #else
 	.string "AGATHA's GHOST-type POKéMON are\n"
 	.string "horrifically terrifying in toughness.\p"
@@ -151,9 +148,9 @@ IndigoPlateau_PokemonCenter_1F_Text_LancesCousinGymLeaderFarAway::
 #if GERMAN
 	.string "Vielleicht liegt eine Mitgliedschaft\n"
 	.string "bei den Top Vier in den Genen.\p"
-	.string "Ich habe gehört, dass Siegfried\n"
-	.string "einen Cousin hat, der irgendwo\l"
-	.string "weit weg Arenaleiter ist.$"
+	.string "Ich habe gehört, dass Siegfried einen\n"
+	.string "Cousin hat, der irgendwo weit weg\l"
+	.string "Arenaleiter ist.$"
 #else
 	.string "Maybe becoming an ELITE FOUR\n"
 	.string "member is in the blood.\p"

@@ -99,11 +99,10 @@ RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 #if GERMAN
 	.string "Oh, hallo!\n"
 	.string "Willkommen im Hause Schläfer.\p"
-	.string "Ich würde dir gerne eine Frage\n"
-	.string "stellen. Hast du jemals auf ein Kind\l"
+	.string "Ich würde dir gerne eine Frage stellen.\n"
+	.string "Hast du jemals auf ein Kind\l"
 	.string "aufgepasst?\p"
-	.string "Weißt du, ich bin noch ein junger\n"
-	.string "Vater\l"
+	.string "Weißt du, ich bin noch ein junger Vater\n"
 	.string "und ein Kind zu haben, ist eine völlig\l"
 	.string "neue Erfahrung für mich.\p"
 	.string "Ich habe ein Problem: Meine Tochter\n"
@@ -193,9 +192,9 @@ RustboroCity_Flat1_2F_Text_LetsGiveItATry:
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll:
 #if GERMAN
 	.string "{STR_VAR_1}. {STR_VAR_1}.\p"
-	.string "Hmmm… Sie lächelt noch nicht\n"
-	.string "einmal… Vielleicht ist Tapetra\l"
-	.string "ja einfach nur ein sehr ernstes Kind…$"
+	.string "Hmmm… Sie lächelt noch nicht einmal…\n"
+	.string "Vielleicht ist Tapetra ja einfach nur\l"
+	.string "ein sehr ernstes Kind…$"
 #else
 	.string "{STR_VAR_1}.\n"
 	.string "{STR_VAR_1}.\p"
@@ -221,9 +220,9 @@ RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2:
 #if GERMAN
 	.string "{STR_VAR_1}. {STR_VAR_1}.\p"
-	.string "Hmmm… Sie lächelt noch nicht\n"
-	.string "einmal… Vielleicht ist Tapetra\l"
-	.string "ja einfach nur ein sehr ernstes Kind…$"
+	.string "Hmmm… Sie lächelt noch nicht einmal…\n"
+	.string "Vielleicht ist Tapetra ja einfach nur\l"
+	.string "ein sehr ernstes Kind…$"
 #else
 	.string "{STR_VAR_1}.\n"
 	.string "{STR_VAR_1}.\p"

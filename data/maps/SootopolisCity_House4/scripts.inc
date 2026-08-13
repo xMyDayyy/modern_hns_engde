@@ -39,8 +39,7 @@ SootopolisCity_House4_Text_AncientTreasuresWaitingInSea:
 SootopolisCity_House4_Text_StrollUnderwaterWithPokemon:
 #if GERMAN
 	.string "Antike Schätze…\p"
-	.string "Wäre das schön, wenn es die\n"
-	.string "tatsächlich\l"
+	.string "Wäre das schön, wenn es die tatsächlich\n"
 	.string "gäbe. Aber auch ohne Schätze wäre eine\p"
 	.string "\p"
 	.string "Reise unter Wasser zusammen mit\n"

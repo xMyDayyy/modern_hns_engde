@@ -36,9 +36,9 @@ FuchsiaCity_House2_Text_WardensGranddaughter1:
 
 FuchsiaCity_House2_Text_WardensGranddaughter2:
 #if GERMAN
-	.string "Viele Leute waren enttäuscht,\n"
-	.string "dass die Safari-Zone schloss,\l"
-	.string "aber Opa ist so stur…$"
+	.string "Viele Leute waren enttäuscht, dass die\n"
+	.string "Safari-Zone schloss, aber Opa ist so\l"
+	.string "stur…$"
 #else
 	.string "Many people were disappointed that\n"
 	.string "SAFARI ZONE closed down, but Grandpa\l"
@@ -47,9 +47,8 @@ FuchsiaCity_House2_Text_WardensGranddaughter2:
 
 FuchsiaCity_House2_Text_WardenPhoto:
 #if GERMAN
-	.string "Das ist ein Foto von einem\n"
-	.string "grinsenden alten Mann, umgeben\l"
-	.string "von Pokémon.$"
+	.string "Das ist ein Foto von einem grinsenden\n"
+	.string "alten Mann, umgeben von Pokémon.$"
 #else
 	.string "It's a photo of a grinning old man\n"
 	.string "who's surrounded by POKéMON.$"
@@ -58,8 +57,8 @@ FuchsiaCity_House2_Text_WardenPhoto:
 FuchsiaCity_House2_Text_SafariZonePhoto:
 #if GERMAN
 	.string "Das ist ein Foto von einer großen\n"
-	.string "grünen Wiese, auf der seltene\l"
-	.string "Pokémon herumtollen.$"
+	.string "grünen Wiese, auf der seltene Pokémon\l"
+	.string "herumtollen.$"
 #else
 	.string "It's a photo of a huge grassy plain\n"
 	.string "with rare POKéMON frolicking in it.$"

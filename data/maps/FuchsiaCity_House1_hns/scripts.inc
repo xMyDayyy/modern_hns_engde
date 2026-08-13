@@ -11,9 +11,8 @@ FuchsiaCity_House1_EventScript_Youngster::
 
 FuchsiaCity_House1_Text_BillsOlderSister:
 #if GERMAN
-	.string "Großvater ist gerade zu Besuch\n"
-	.string "bei Bill in seinem Haus am Kap\l"
-	.string "von Azuria City.$"
+	.string "Großvater ist gerade zu Besuch bei Bill\n"
+	.string "in seinem Haus am Kap von Azuria City.$"
 #else
 	.string "My grandpa is at my brother BILL's\n"
 	.string "on CERULEAN CAPE.$"

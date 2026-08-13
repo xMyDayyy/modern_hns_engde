@@ -28,9 +28,8 @@ CeladonCity_PokemonCenter_1F_EventScript_Youngster::
 
 CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons::
 #if GERMAN
-	.string "Die Pokéflöte weckt Pokémon mit\n"
-	.string "einem Ton, den nur Pokémon\l"
-	.string "hören können!$"
+	.string "Die Pokéflöte weckt Pokémon mit einem\n"
+	.string "Ton, den nur Pokémon hören können!$"
 #else
 	.string "A POKé FLUTE awakens sleeping\n"
 	.string "POKéMON. You know that.\p"

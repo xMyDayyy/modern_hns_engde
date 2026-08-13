@@ -262,9 +262,9 @@ Route30_Text_YoungsterEveryoneIsBattling:
 Route30_Text_CooltrainerF:
 #if GERMAN
 	.string "Ich selbst bin keine Trainerin!\p"
-	.string "Aber wenn dir ein Trainer in die\n"
-	.string "Augen sieht, solltest du dich auf\l"
-	.string "einen Kampf vorbereiten!$"
+	.string "Aber wenn dir ein Trainer in die Augen\n"
+	.string "sieht, solltest du dich auf einen Kampf\l"
+	.string "vorbereiten!$"
 #else
 	.string "I'm not a trainer.\p"
 	.string "But if you look one in the\n"
@@ -317,8 +317,8 @@ Route30_Text_JoeyRegister:
     .string "Mein Rattfratz will wie immer\n"
     .string "sofort loslegen.\p"
     .string "Es ist mein einziges Pokémon.\n"
-    .string "Mit ihm werde ich ein großer\l"
-    .string "Trainer werden!\p"
+    .string "Mit ihm werde ich ein großer Trainer\l"
+    .string "werden!\p"
     .string "Lass uns irgendwann wieder\n"
     .string "kämpfen!$"
 #else
@@ -351,9 +351,9 @@ Route30_Text_JoeyRematchDefeat:
 
 Route30_Text_JoeyPostRematch:
 #if GERMAN
-    .string "Ich überprüfe die Attacken\n"
-    .string "meines Rattfratz und tüftele\l"
-    .string "an neuen Strategien.\p"
+    .string "Ich überprüfe die Attacken meines\n"
+    .string "Rattfratz und tüftele an neuen\l"
+    .string "Strategien.\p"
     .string "Wenn ich eine gute gefunden\n"
     .string "habe, kämpfen wir wieder!$"
 #else

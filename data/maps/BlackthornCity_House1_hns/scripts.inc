@@ -18,8 +18,8 @@ BlackthornCity_House1EventScript_Dratini::
 BlackthornCity_House1_Text_Granny:
 #if GERMAN
 	.string "Ebenholz City ist die Heimat eines alten\n"
-	.string "Klans, der die tiefsten Geheimnisse\l"
-	.string "der Drachen-Pokémon ergründet hat.\p"
+	.string "Klans, der die tiefsten Geheimnisse der\l"
+	.string "Drachen-Pokémon ergründet hat.\p"
 	.string "Aus diesem Grund sind über diesen Ort\n"
 	.string "zahlreiche Legenden überliefert, die\l"
 	.string "sich um die Drachen-Pokémon ranken.$"

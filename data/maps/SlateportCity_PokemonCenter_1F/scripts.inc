@@ -28,8 +28,8 @@ SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon:
 #if GERMAN
 	.string "Möchtest du einen Tipp?\p"
 	.string "Ich sage dir, es ist wichtig, die\n"
-	.string "unter-\l"
-	.string "schiedlichsten Pokémon zu trainieren.\p"
+	.string "unterschiedlichsten Pokémon zu\l"
+	.string "trainieren.\p"
 	.string "\p"
 	.string "Gleichmäßigkeit ist wichtig. Ein\n"
 	.string "einzelnes starkes Pokémon reicht\l"

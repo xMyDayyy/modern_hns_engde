@@ -50,9 +50,8 @@ SevenIsland_TanobyRuins_Text_BenjaminDefeat::
 
 SevenIsland_TanobyRuins_Text_BenjaminPostBattle::
 #if GERMAN
-	.string "Ich habe gehört, dass es noch\n"
-	.string "andere Ruinen wie diese geben\l"
-	.string "soll.\l"
+	.string "Ich habe gehört, dass es noch andere\n"
+	.string "Ruinen wie diese geben soll.\l"
 	.string "Vielleicht sind sie die Ruhestätten\l"
 	.string "anderer, mystischer Pokémon.$"
 #else
@@ -93,9 +92,8 @@ SevenIsland_TanobyRuins_Text_EdnaPostBattle::
 
 SevenIsland_TanobyRuins_Text_CliffordIntro::
 #if GERMAN
-	.string "Heute hat er mir im Anschluss an\n"
-	.string "die Unterrichtsstunde die Kammer\l"
-	.string "gezeigt.$"
+	.string "Heute hat er mir im Anschluss an die\n"
+	.string "Unterrichtsstunde die Kammer gezeigt.$"
 #else
 	.string "Today, in addition to our lesson,\n"
 	.string "we came to see the chamber.$"

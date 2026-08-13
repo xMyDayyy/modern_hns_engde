@@ -37,8 +37,8 @@ PalletTown_Text_Teacher:
 
 PalletTown_Text_Fisher:
 #if GERMAN
-	.string "Es heißt, in Johto gebe es einen Ort,\n"
-	.string "an dem man mit Leuten aus aller Herren\l"
+	.string "Es heißt, in Johto gebe es einen Ort, an\n"
+	.string "dem man mit Leuten aus aller Herren\l"
 	.string "Länder seine Pokémon tauschen kann!\l"
 	.string "Ein echtes Wunder der Technik…$"
 #else

@@ -30,9 +30,8 @@ RustboroCity_PokemonCenter_1F_EventScript_Girl::
 
 RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities:
 #if GERMAN
-	.string "Mein Pokémon hat ein Naives\n"
-	.string "Wesen und das meines Freundes ein\l"
-	.string "Fröhliches.\p"
+	.string "Mein Pokémon hat ein Naives Wesen und\n"
+	.string "das meines Freundes ein Fröhliches.\p"
 	.string "Es ist faszinierend, dass Pokémon\n"
 	.string "unterschiedliche Persönlichkeiten\l"
 	.string "haben.$"

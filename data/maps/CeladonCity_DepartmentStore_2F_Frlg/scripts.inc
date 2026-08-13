@@ -91,13 +91,11 @@ CeladonCity_DepartmentStore_2F_Text_FloorSign::
 
 CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes::
 #if GERMAN
-	.string "Es gibt einen Kunden namens\n"
-	.string "Siegfried, der gelegentlich\l"
-	.string "vorbeikommt.\l"
+	.string "Es gibt einen Kunden namens Siegfried,\n"
+	.string "der gelegentlich vorbeikommt.\l"
 	.string "Er kauft stets Umhänge.\p"
-	.string "Ich frage mich, ob er\n"
-	.string "viele gleiche Umhänge zu\l"
-	.string "Hause hat.$"
+	.string "Ich frage mich, ob er viele gleiche\n"
+	.string "Umhänge zu Hause hat.$"
 #else
 	.string "We have a customer, LANCE, who\n"
 	.string "occasionally comes.\p"

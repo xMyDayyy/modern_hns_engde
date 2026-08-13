@@ -111,9 +111,9 @@ SaffronCity_Gym_Text_MarshBadgeInfo:
 #if GERMAN
 	.string "Sabrina: Der Sumpforden\n"
 	.string "weckt deine verborgenen Kräfte…\p"
-	.string "Auch wenn ich deine Kraft nicht\n"
-	.string "genau vorhersehen konnte, das\l"
-	.string "weiß ich mit Sicherheit:\p"
+	.string "Auch wenn ich deine Kraft nicht genau\n"
+	.string "vorhersehen konnte, das weiß ich mit\l"
+	.string "Sicherheit:\p"
 	.string "Du wirst ein gefeierter und\n"
 	.string "geliebter Champion!$"
 #else
@@ -128,9 +128,8 @@ SaffronCity_Gym_Text_MarshBadgeInfo:
 
 SaffronCity_Gym_Text_SabrinaPostBattle:
 #if GERMAN
-	.string "Sabrina: Deine Liebe zu deinen\n"
-	.string "Pokémon hat meine Psychokraft\l"
-	.string "überwältigt…\p"
+	.string "Sabrina: Deine Liebe zu deinen Pokémon\n"
+	.string "hat meine Psychokraft überwältigt…\p"
 	.string "Die Kraft der Liebe ist wohl\n"
 	.string "auch eine Art Psychokraft…$"
 #else
@@ -159,9 +158,9 @@ SaffronCity_Gym_Text_SabrinaRematch:
 
 SaffronCity_Gym_Text_SabrinaRematchDefeat:
 #if GERMAN
-	.string "Sabrina: Deine Liebe zu deinen\n"
-	.string "Pokémon hat meine Psychokraft\l"
-	.string "wieder überwältigt…$"
+	.string "Sabrina: Deine Liebe zu deinen Pokémon\n"
+	.string "hat meine Psychokraft wieder\l"
+	.string "überwältigt…$"
 #else
 	.string "SABRINA: Your love for your\n"
 	.string "POKéMON again overwhelmed my\l"
@@ -170,9 +169,8 @@ SaffronCity_Gym_Text_SabrinaRematchDefeat:
 
 SaffronCity_Gym_Text_MediumRebeccaSeen:
 #if GERMAN
-	.string "Ich spüre, wie die Kraft all derer,\n"
-	.string "die du besiegt hast,\l"
-	.string "in meinen Körper strömt!$"
+	.string "Ich spüre, wie die Kraft all derer, die du\n"
+	.string "besiegt hast, in meinen Körper strömt!$"
 #else
 	.string "The power of all those you\n"
 	.string "defeated comes to me!$"
@@ -252,9 +250,8 @@ SaffronCity_Gym_Text_MediumDorisAfter:
 
 SaffronCity_Gym_Text_PsychicJaredSeen:
 #if GERMAN
-	.string "Das Karate Dojo nebenan war\n"
-	.string "früher die Pokémon-Arena\l"
-	.string "der Stadt.$"
+	.string "Das Karate Dojo nebenan war früher die\n"
+	.string "Pokémon-Arena der Stadt.$"
 #else
 	.string "The FIGHTING DOJO next door was\n"
 	.string "once this city's GYM.$"

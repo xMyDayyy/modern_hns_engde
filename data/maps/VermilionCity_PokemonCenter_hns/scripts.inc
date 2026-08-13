@@ -27,9 +27,9 @@ VermilionCity_PokemonCenter1F_Text_FishingGuru:
 #if GERMAN
 	.string "Vor Digdas\n"
 	.string "Höhle liegt ein schlafendes.\p"
-	.string "Pokémon Das wäre eine\n"
-	.string "fantastische Gelegenheit, es zu\l"
-	.string "fangen! Aber wie weckt man es auf?$"
+	.string "Pokémon Das wäre eine fantastische\n"
+	.string "Gelegenheit, es zu fangen! Aber wie\l"
+	.string "weckt man es auf?$"
 #else
 	.string "A sleeping POKéMON is lying in\n"
 	.string "front of DIGLETT'S CAVE.\p"

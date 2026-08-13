@@ -272,8 +272,7 @@ SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
 #if GERMAN
 	.string "Ja? Wenn du Brigg suchst… Der\n"
 	.string "bin ich.\p"
-	.string "Ah! Das müssen die Stücke sein, die\n"
-	.string "ich\l"
+	.string "Ah! Das müssen die Stücke sein, die ich\n"
 	.string "bei Mr. Trumm von Devon bestellt habe.\p"
 	.string "\p"
 	.string "Danke schön! Das ist großartig!\n"
@@ -291,8 +290,7 @@ SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
 #if GERMAN
 	.string "Hähähähä! Wartet! Das ist doch viel zu\n"
-	.string "schwer für euch! Wir nehmen das an\l"
-	.string "uns!$"
+	.string "schwer für euch! Wir nehmen das an uns!$"
 #else
 	.string "Hehehe, hold it!\n"
 	.string "We'll take those parts!$"
@@ -370,12 +368,10 @@ SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
 #if GERMAN
-	.string "Ich bin gekommen, um zu sehen, warum\n"
-	.string "ihr\l"
+	.string "Ich bin gekommen, um zu sehen, warum ihr\n"
 	.string "so lange braucht. Und was sehe ich?\p"
-	.string "Ihr\n"
-	.string "Idioten lasst euch von einem kleinen\l"
-	.string "Kind die Suppe versalzen!$"
+	.string "Ihr Idioten lasst euch von einem\n"
+	.string "kleinen Kind die Suppe versalzen!$"
 #else
 	.string "I came to see what was taking so\n"
 	.string "long to snatch some parts, and you\l"
@@ -401,8 +397,7 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 	.string "basiert auf den Kräften des Meeres.\p"
 	.string "Daher setzt Team Aqua sich für die\n"
 	.string "Ausweitung des Meeres ein.\p"
-	.string "Meinst du nicht auch, dass wir uns\n"
-	.string "eine\l"
+	.string "Meinst du nicht auch, dass wir uns eine\n"
 	.string "großartige Aufgabe gestellt haben?\p"
 	.string "Mhm…\n"
 	.string "Du bist wahrscheinlich noch zu klein.\l"
@@ -503,8 +498,7 @@ SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum:
 
 SlateportCity_OceanicMuseum_2F_Text_WantToRideSubmarine:
 #if GERMAN
-	.string "Wow, das U-Boot ist der helle\n"
-	.string "Wahnsinn!\l"
+	.string "Wow, das U-Boot ist der helle Wahnsinn!\n"
 	.string "Damit würde ich gerne auf Fahrt gehen!$"
 #else
 	.string "Wow, the submarine's awesome!\n"
@@ -516,8 +510,7 @@ SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1:
 	.string "“Wasserqualität Beispiel 1”\n"
 	.string "steht auf dem Schild.\p"
 	.string "Das Meer ist grenzübergreifend, aber\n"
-	.string "das Wasser scheint in jeder Region\l"
-	.string "eine\l"
+	.string "das Wasser scheint in jeder Region eine\l"
 	.string "andere Qualität zu haben.$"
 #else
 	.string "“WATER QUALITY SAMPLE 1,” the\n"
@@ -547,10 +540,9 @@ SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
 	.string "für ständigen Druck.\p"
 	.string "In seichtem Wasser ist der Druck nicht\n"
 	.string "sehr hoch.\p"
-	.string "In extrem tiefem Wasser kann der\n"
-	.string "Druck zehntausende von Tonnen inner-\l"
-	.string "halb eines kleinen Bereiches\l"
-	.string "betragen.”$"
+	.string "In extrem tiefem Wasser kann der Druck\n"
+	.string "zehntausende von Tonnen innerhalb\l"
+	.string "eines kleinen Bereiches betragen.”$"
 #else
 	.string "A rubber ball is expanding and\n"
 	.string "shrinking.\p"
@@ -616,9 +608,9 @@ SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica:
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
 #if GERMAN
 	.string "“Tiefsee-Forschungsboot 1”\p"
-	.string "“Ein Replikat des Hochleistungs-\n"
-	.string "U-Bootes zur Erforschung des\l"
-	.string "Meeresbodens.”$"
+	.string "“Ein Replikat des\n"
+	.string "Hochleistungs-U-Bootes zur\l"
+	.string "Erforschung des Meeresbodens.”$"
 #else
 	.string "“SUBMARINE EXPLORER 1\p"
 	.string "“A replica of the high-performance\n"
@@ -629,8 +621,8 @@ SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica:
 #if GERMAN
 	.string "“Tauchboot”\p"
 	.string "“Ein Replikat eines kompakten,\n"
-	.string "unbemannten Spezial-U-Bootes zur Er-\l"
-	.string "forschung des Meeresbodens.”$"
+	.string "unbemannten Spezial-U-Bootes zur\l"
+	.string "Erforschung des Meeresbodens.”$"
 #else
 	.string "“SUBMERSIBLE POD\p"
 	.string "“A replica of a compact, unmanned\n"

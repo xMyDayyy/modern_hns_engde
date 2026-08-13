@@ -174,12 +174,11 @@ Route34_DayCare_Text_ClerkBefore:
 #if GERMAN
 	.string "Ich bin der Sohn des Pensions-\n"
 	.string "Paars.\p"
-	.string "Ein seltsames Ei wurde bei einem\n"
-	.string "Trainer gefunden, doch er wollte\l"
-	.string "es nicht…\p"
+	.string "Ein seltsames Ei wurde bei einem Trainer\n"
+	.string "gefunden, doch er wollte es nicht…\p"
 	.string "Ich könnte es dir geben…\n"
-	.string "Aber wie kann ich wissen, dass du\l"
-	.string "gut darauf aufpasst?$"
+	.string "Aber wie kann ich wissen, dass du gut\l"
+	.string "darauf aufpasst?$"
 #else
 	.string "I'm the DAY-CARE couple's son.\p"
 	.string "An ODD EGG was found with a TRAINER's\n"
@@ -212,8 +211,8 @@ Route34_DayCare_Text_Rejection:
 	.string "Hmm, ich glaube, dieses Ei ist\n"
 	.string "nicht für dich.\p"
 	.string "Es wäre unverantwortlich, ein\n"
-	.string "kostbares Ei an jemanden zu\l"
-	.string "geben, der sich noch nicht\p"
+	.string "kostbares Ei an jemanden zu geben, der\l"
+	.string "sich noch nicht\p"
 	.string "genug mit Baby-Pokémon auskennt!$"
 #else
 	.string "Hmm, I think this EGG isn't for you.\p"
@@ -233,8 +232,7 @@ Route34_DayCare_Text_ReceivedOddEgg:
 Route34_DayCare_Text_TakeCare:
 #if GERMAN
 	.string "Ich wusste, dass du der richtige\n"
-	.string "Trainer dafür bist. Pass gut auf es\l"
-	.string "auf!$"
+	.string "Trainer dafür bist. Pass gut auf es auf!$"
 #else
 	.string "I knew you were the right trainer\n"
 	.string "for the job. Take good care of it!$"
@@ -603,9 +601,8 @@ Route34_Text_TakeGoodCareOfIt:
 
 Route34_Text_FriendlyWithOtherTrainersMon:
 #if GERMAN
-	.string "Übrigens, dein {STR_VAR_1} war\n"
-	.string "freundlich zu {STR_VAR_2}s\l"
-	.string "{STR_VAR_3}. \p"
+	.string "Übrigens, dein {STR_VAR_1} war freundlich\n"
+	.string "zu {STR_VAR_2}s {STR_VAR_3}.\p"
 	.string "Ich habe sogar gesehen, wie es\n"
 	.string "Post bekam.$"
 #else
@@ -628,9 +625,8 @@ Route34_Text_SeeWifeIfYouWantToPickUpMon:
 
 Route34_Text_YourMonsAreDoingFine:
 #if GERMAN
-	.string "Ah, du bist es! Deine Pokémon\n"
-	.string "{STR_VAR_1} und {STR_VAR_2}\l"
-	.string "entwickeln sich prächtig.$"
+	.string "Ah, du bist es! Deine Pokémon {STR_VAR_1}\n"
+	.string "und {STR_VAR_2} entwickeln sich prächtig.$"
 #else
 	.string "Ah, it's you! Your {STR_VAR_1} and\n"
 	.string "{STR_VAR_2} are doing fine.$"

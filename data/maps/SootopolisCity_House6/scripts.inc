@@ -55,8 +55,7 @@ SootopolisCity_House6_Text_TakeGoodCareOfIt:
 SootopolisCity_House6_Text_IllHoldItForYou:
 #if GERMAN
 	.string "Oh, du möchtest sie zwar haben, aber\n"
-	.string "nicht sofort? Dann hebe ich sie dir\l"
-	.string "auf.$"
+	.string "nicht sofort? Dann hebe ich sie dir auf.$"
 #else
 	.string "Oh, you want it, but not right now?\n"
 	.string "Okay, then I'll hold it for you.$"
@@ -65,8 +64,7 @@ SootopolisCity_House6_Text_IllHoldItForYou:
 SootopolisCity_House6_Text_DontWantThisDoll:
 #if GERMAN
 	.string "Bist du sicher?\n"
-	.string "Du möchtest diese Puppe wirklich\l"
-	.string "nicht?$"
+	.string "Du möchtest diese Puppe wirklich nicht?$"
 #else
 	.string "Are you sure?\n"
 	.string "You don't want this DOLL?$"

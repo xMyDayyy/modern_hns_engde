@@ -49,8 +49,8 @@ DewfordTown_House2_Text_NoRoom:
 #if GERMAN
 	.string "Och, du hast ja gar keinen Platz mehr.\n"
 	.string "\p"
-	.string "Nun, hör gut zu… Diesen Schal musst\n"
-	.string "du einfach haben! Ich würde alle meine\l"
+	.string "Nun, hör gut zu… Diesen Schal musst du\n"
+	.string "einfach haben! Ich würde alle meine\l"
 	.string "Items verkaufen, um ihn zu bekommen!$"
 #else
 	.string "Oh, you don't have room?\p"

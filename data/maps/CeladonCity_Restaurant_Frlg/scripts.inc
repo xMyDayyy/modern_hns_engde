@@ -51,9 +51,8 @@ CeladonCity_Restaurant_Text_TakingBreakRightNow::
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore::
 #if GERMAN
-	.string "Meine Pokémon sind ziemlich\n"
-	.string "schwach, deshalb gehe ich oft zur\l"
-	.string "Drogerie.$"
+	.string "Meine Pokémon sind ziemlich schwach,\n"
+	.string "deshalb gehe ich oft zur Drogerie.$"
 #else
 	.string "My POKéMON are weak, so I often\n"
 	.string "have to go to the DRUGSTORE.$"

@@ -971,9 +971,8 @@ BattleFrontier_BattleTowerLobby_Text_CongratsBeatenSeven:
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_EarnedFabulousPrize:
 #if GERMAN
-	.string "Du hast sieben Trainer in Folge\n"
-	.string "besiegt und dir diesen tollen Preis\l"
-	.string "verdient!\p"
+	.string "Du hast sieben Trainer in Folge besiegt\n"
+	.string "und dir diesen tollen Preis verdient!\p"
 	.string "$"
 #else
 	.string "For beating seven TRAINERS in a row,\n"
@@ -1043,9 +1042,9 @@ BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer:
 #if GERMAN
 	.string "Und nun wartet der 50. Trainer auf\n"
 	.string "deine Herausforderung.\p"
-	.string "Jedes Mal, wenn ein Pkmn von jetzt an\n"
-	.string "7 Trainer in Folge besiegt, wird ihm\l"
-	.string "ein Band verliehen.\p"
+	.string "Jedes Mal, wenn ein Pkmn von jetzt an 7\n"
+	.string "Trainer in Folge besiegt, wird ihm ein\l"
+	.string "Band verliehen.\p"
 	.string "Viel Glück!$"
 #else
 	.string "You're finally about to face the\n"
@@ -1059,8 +1058,7 @@ BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer:
 BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons:
 #if GERMAN
 	.string "Dies sind einige Bänder für den\n"
-	.string "erfolg-\l"
-	.string "reichen Kampf gegen 7 Trainer in\p"
+	.string "erfolgreichen Kampf gegen 7 Trainer in\p"
 	.string "Folge. \p"
 	.string "{PLAYER} erhält einige Bänder!$"
 #else
@@ -1082,12 +1080,11 @@ BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower:
 #if GERMAN
 	.string "Entschuldigung, aber hast du einen\n"
 	.string "Moment Zeit?\p"
-	.string "Kannst du mir beschreiben, wie das\n"
-	.string "ist,\l"
+	.string "Kannst du mir beschreiben, wie das ist,\n"
 	.string "wenn man kurz vor einem Kampf im\p"
-	.string "Duellturm steht? Und wie ist das,\n"
-	.string "wenn du einen Kampf gewonnen oder\l"
-	.string "verloren hast?$"
+	.string "Duellturm steht? Und wie ist das, wenn\n"
+	.string "du einen Kampf gewonnen oder verloren\l"
+	.string "hast?$"
 #else
 	.string "Excuse me, do you have a moment?\p"
 	.string "Can you describe your feelings when\n"
@@ -1154,8 +1151,7 @@ BattleFrontier_BattleTowerLobby_Text_ThatsHowYouFeel:
 
 BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded:
 #if GERMAN
-	.string "Die Anzahl der Kämpfe, die man in\n"
-	.string "Folge\l"
+	.string "Die Anzahl der Kämpfe, die man in Folge\n"
 	.string "gewonnen hat, ist hier verzeichnet.\p"
 	.string "Ich darf nicht verlieren, das wäre ja\n"
 	.string "ultrapeinlich!$"
@@ -1230,9 +1226,9 @@ BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge:
 
 BattleFrontier_BattleTowerLobby_Text_WhichLevelMode:
 #if GERMAN
-	.string "Im Kampfraum wird in zwei\n"
-	.string "Stufen gekämpft: Lv. 50 und Offene\l"
-	.string "Kämpfe. Wofür entscheidest du dich?$"
+	.string "Im Kampfraum wird in zwei Stufen\n"
+	.string "gekämpft: Lv. 50 und Offene Kämpfe.\l"
+	.string "Wofür entscheidest du dich?$"
 #else
 	.string "The BATTLE ROOM offers two levels\n"
 	.string "of challenge, Level 50 and Open Level.\l"
@@ -1480,8 +1476,8 @@ BattleFrontier_BattleTowerLobby_Text_TakeSinglesChallenge:
 BattleFrontier_BattleTowerLobby_Text_ExplainSinglesChallenge:
 #if GERMAN
 	.string "In den Kampfräumen für Einzelkämpfe\n"
-	.string "des Duellturms werden Einzelkämpfe\l"
-	.string "mit drei Pokémon ausgetragen.\p"
+	.string "des Duellturms werden Einzelkämpfe mit\l"
+	.string "drei Pokémon ausgetragen.\p"
 	.string "Es gibt aber auch viele Räume für\n"
 	.string "Einzelkämpfe im Duellturm, in denen\l"
 	.string "Teamkämpfe ausgetragen werden.\p"
@@ -1545,11 +1541,11 @@ BattleFrontier_BattleTowerLobby_Text_TakeDoublesChallenge:
 BattleFrontier_BattleTowerLobby_Text_ExplainDoublesChallenge:
 #if GERMAN
 	.string "In den Kampfräumen für Doppelkämpfe\n"
-	.string "des Duellturms werden Doppelkämpfe\l"
-	.string "mit vier Pokémon ausgetragen.\p"
-	.string "Es gibt aber auch viele Doppelkampf-\n"
-	.string "Räume im Duellturm, in denen Team-\l"
-	.string "kämpfe ausgetragen werden.\p"
+	.string "des Duellturms werden Doppelkämpfe mit\l"
+	.string "vier Pokémon ausgetragen.\p"
+	.string "Es gibt aber auch viele\n"
+	.string "Doppelkampf-Räume im Duellturm, in\l"
+	.string "denen Teamkämpfe ausgetragen werden.\p"
 	.string "In jedem dieser Räume warten sieben\n"
 	.string "Trainer auf deine Herausforderung.\p"
 	.string "Schaffst du es, alle sieben zu\n"
@@ -1611,9 +1607,9 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge:
 #if GERMAN
 	.string "In den Multikampf-Räumen des Duell-\n"
 	.string "turms werden Multikämpfe ausgetragen.\p"
-	.string "Um an einem Multikampf teilnehmen\n"
-	.string "zu können, musst du dich mit einem\l"
-	.string "Trainer im Turm zusammentun.\p"
+	.string "Um an einem Multikampf teilnehmen zu\n"
+	.string "können, musst du dich mit einem Trainer\l"
+	.string "im Turm zusammentun.\p"
 	.string "Jeder von euch geht mit zwei Pokémon\n"
 	.string "in den Kampf.\p"
 	.string "Im Turm gibt es eine Teamlounge,\n"
@@ -1689,16 +1685,16 @@ BattleFrontier_BattleTowerLobby_Text_TakeLinkMultisChallenge:
 BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge:
 #if GERMAN
 	.string "In den Räumen der Multikämpfe des\n"
-	.string "Duellturms werden Multikämpfe\l"
-	.string "mit Freunden ausgetragen.\p"
+	.string "Duellturms werden Multikämpfe mit\l"
+	.string "Freunden ausgetragen.\p"
 	.string "Um an einem Multikampf teilnehmen zu\n"
 	.string "können, musst du über den Wireless\l"
 	.string "Adapter oder das Game Boy Advance\p"
 	.string "Game Link-Kabel eine Verbindung\n"
 	.string "zu deinem Freund aufbauen.\p"
 	.string "Bilde mit deinem Freund ein Team und\n"
-	.string "geht mit zwei verschiedenen Pokémon\l"
-	.string "in den Kampf.\p"
+	.string "geht mit zwei verschiedenen Pokémon in\l"
+	.string "den Kampf.\p"
 	.string "Im Duellturm gibt es viele\n"
 	.string "Multikampf-Räume, in denen Team-\p"
 	.string "kämpfe stattfinden können. In diesen\n"
@@ -1708,8 +1704,8 @@ BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge:
 	.string "Anders als in den anderen Räumen,\n"
 	.string "kannst du den Kampf diesmal nicht\p"
 	.string "unterbrechen!!! Sobald der Kampf\n"
-	.string "begonnen hat, musst du sieben Mal\l"
-	.string "in Folge kämpfen.$"
+	.string "begonnen hat, musst du sieben Mal in\l"
+	.string "Folge kämpfen.$"
 #else
 	.string "The BATTLE TOWER's MULTI BATTLE\n"
 	.string "ROOMS are facilities for conducting\l"
@@ -1824,8 +1820,7 @@ BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMons:
 
 BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode:
 #if GERMAN
-	.string "Bitte wähle zwei andere Pkmn aus,\n"
-	.string "damit\l"
+	.string "Bitte wähle zwei andere Pkmn aus, damit\n"
 	.string "ihr unterschiedliche habt. Wählt eine\l"
 	.string "Kategorie und meldet euch erneut an.$"
 #else
@@ -1846,8 +1841,8 @@ BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn:
 BattleFrontier_BattleTowerLobby_Text_CongratsDefeatedMaiden:
 #if GERMAN
 	.string "Herzlichen Glückwunsch!\n"
-	.string "Du hast den Kampfkoloss und\l"
-	.string "sechs Trainer in Folge besiegt!$"
+	.string "Du hast den Kampfkoloss und sechs\l"
+	.string "Trainer in Folge besiegt!$"
 #else
 	.string "Congratulations!\n"
 	.string "You have defeated the SALON MAIDEN\l"
@@ -1889,9 +1884,9 @@ BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading:
 BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules:
 #if GERMAN
 	.string "Im Duellturm finden vier Arten von\n"
-	.string "Kämpfen statt -\l"
-	.string "Einzelkämpfe, Doppelkämpfe, \l"
-	.string "Multikämpfe und Link-Multikämpfe.\p"
+	.string "Kämpfen statt - Einzelkämpfe,\l"
+	.string "Doppelkämpfe, Multikämpfe und\l"
+	.string "Link-Multikämpfe.\p"
 	.string "Für jede Art gibt es separate\n"
 	.string "Kampfräume.\p"
 	.string "Für jeden Raum steht ein Begleiter\n"
@@ -1931,8 +1926,8 @@ BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules:
 	.string "In der Teamlounge kannst du dir einen\n"
 	.string "Partner suchen, mit dem du als Team im\l"
 	.string "Multikampf-Raum kämpfst.\p"
-	.string "Suche dir den besten Partner aus,\n"
-	.string "indem du dir seine Pokémon und deren\l"
+	.string "Suche dir den besten Partner aus, indem\n"
+	.string "du dir seine Pokémon und deren\l"
 	.string "Attacken anschaust.\p"
 	.string "Hast du sieben Kämpfe in Folge\n"
 	.string "gewonnen, kannst du dir einen neuen\l"

@@ -291,7 +291,7 @@ SlateportCity_PokemonFanClub_Text_MeetChairman:
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon:
 #if GERMAN
 	.string "Das Pokémon eines Trainers, das an\n"
-	.string "einem Pokémon  Wettbewerb teilnimmt…\l"
+	.string "einem Pokémon Wettbewerb teilnimmt…\l"
 	.string "Das würde ich zu gerne mal sehen.$"
 #else
 	.string "The POKéMON of a TRAINER who has\n"
@@ -339,8 +339,7 @@ SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing:
 #if GERMAN
 	.string "Wie sehen deine Pokémon aus? Wie sind\n"
-	.string "sie gewachsen? Erlaube mir einen\l"
-	.string "Blick!$"
+	.string "sie gewachsen? Erlaube mir einen Blick!$"
 #else
 	.string "How is your POKéMON growing?\n"
 	.string "Allow me to examine it.$"
@@ -375,8 +374,8 @@ SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
 SlateportCity_PokemonFanClub_Text_NoSpaceForReward:
 #if GERMAN
 	.string "Oh, hey…\p"
-	.string "Dein Pokémon macht einen guten Ein-\n"
-	.string "druck. Ich möchte dir eine Belohnung\l"
+	.string "Dein Pokémon macht einen guten\n"
+	.string "Eindruck. Ich möchte dir eine Belohnung\l"
 	.string "geben.\p"
 	.string "Leider hast du in deinem Beutel nicht\n"
 	.string "mehr genügend Platz.$"

@@ -61,12 +61,12 @@ VictoryRoad_3F_EventScript_Tyra::
 
 Text_DoubleEdgeTeach::
 #if GERMAN
-	.string "Du kannst stolz auf dich sein, weil\n"
-	.string "du dich so wacker auf der\l"
-	.string "Siegesstraße geschlagen hast.\p"
-	.string "Als Anerkennung deiner Leistung\n"
-	.string "möchte ich einem deiner Pokémon\l"
-	.string "Risikotackle beibringen.\p"
+	.string "Du kannst stolz auf dich sein, weil du\n"
+	.string "dich so wacker auf der Siegesstraße\l"
+	.string "geschlagen hast.\p"
+	.string "Als Anerkennung deiner Leistung möchte\n"
+	.string "ich einem deiner Pokémon Risikotackle\l"
+	.string "beibringen.\p"
 	.string "Soll ich einem Pokémon diese\n"
 	.string "Attacke beibringen?$"
 #else
@@ -134,9 +134,8 @@ VictoryRoad_3F_Text_GeorgePostBattle::
 
 VictoryRoad_3F_Text_AlexaIntro::
 #if GERMAN
-	.string "Trainer sind geborene Kämpfer,\n"
-	.string "immer auf der Suche nach starken\l"
-	.string "Gegnern!$"
+	.string "Trainer sind geborene Kämpfer, immer\n"
+	.string "auf der Suche nach starken Gegnern!$"
 #else
 	.string "TRAINERS live to seek stronger\n"
 	.string "opponents.$"
@@ -267,9 +266,8 @@ VictoryRoad_3F_Text_TyraDefeat::
 
 VictoryRoad_3F_Text_TyraPostBattle::
 #if GERMAN
-	.string "Lore: Du hast mir gezeigt, dass\n"
-	.string "Kraft grenzenlose Formen haben\l"
-	.string "kann.$"
+	.string "Lore: Du hast mir gezeigt, dass Kraft\n"
+	.string "grenzenlose Formen haben kann.$"
 #else
 	.string "TYRA: You've taught me that power\n"
 	.string "can be infinite in shape and form.$"

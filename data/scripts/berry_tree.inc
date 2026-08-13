@@ -601,9 +601,8 @@ BerryTree_Text_PickedTheBerry_Mutation:
 
 BerryTree_Text_PutAwayBerry_Mutation:
 #if GERMAN
-	.string "{PLAYER} verstaut die {STR_VAR_1}\n"
-	.string "und die {STR_VAR_3} in der\l"
-	.string "Beerentasche.\p"
+	.string "{PLAYER} verstaut die {STR_VAR_1} und die\n"
+	.string "{STR_VAR_3} in der Beerentasche.\p"
 	.string "Der Boden ist wieder weich\n"
 	.string "und lehmig.$"
 #else

@@ -38,9 +38,9 @@ ThreeIsland_Mart_EventScript_Youngster::
 ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger::
 #if GERMAN
 	.string "Stimmt das?\p"
-	.string "Das Einkaufszentrum in\n"
-	.string "Prismania City ist sehr viel\l"
-	.string "größer als dieses Geschäft?$"
+	.string "Das Einkaufszentrum in Prismania City\n"
+	.string "ist sehr viel größer als dieses\l"
+	.string "Geschäft?$"
 #else
 	.string "Is it true?\p"
 	.string "CELADON DEPT. STORE is several\n"
@@ -64,9 +64,9 @@ ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest::
 
 ThreeIsland_Mart_Text_BikersWereAboutToTrashMart::
 #if GERMAN
-	.string "Diese Biker wollten den Pokémon-\n"
-	.string "Supermarkt in Schutt und Asche\l"
-	.string "legen.\l"
+	.string "Diese Biker wollten den\n"
+	.string "Pokémon-Supermarkt in Schutt und\l"
+	.string "Asche legen.\l"
 	.string "Ich bin froh, dass sie weg sind!$"
 #else
 	.string "Those BIKERS were about to trash\n"

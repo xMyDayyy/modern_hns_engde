@@ -287,8 +287,8 @@ CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_CheckRevivedDome::
 Text_MetronomeTeach::
 #if GERMAN
 	.string "Tak-tak-tak!\n"
-	.string "Ich kann einem Pokémon eine\l"
-	.string "tolle Attacke beibringen!\p"
+	.string "Ich kann einem Pokémon eine tolle\l"
+	.string "Attacke beibringen!\p"
 	.string "Die Attacke heißt Metronom!\n"
 	.string "Könnte sie dir gefallen?$"
 #else
@@ -391,12 +391,10 @@ CinnabarIsland_PokemonLab_ExperimentRoom_Text_ThatFossilIsOfMonMakeItLiveAgain::
 #if GERMAN
 	.string "Oh!\n"
 	.string "Das ist ein {STR_VAR_2}!\p"
-	.string "Es ist ein Fossil von {STR_VAR_1},\n"
-	.string "einem schon lange ausgestorbenen\l"
-	.string "Pokémon!\p"
+	.string "Es ist ein Fossil von {STR_VAR_1}, einem\n"
+	.string "schon lange ausgestorbenen Pokémon!\p"
 	.string "Dank modernster Technik können wir\n"
-	.string "Pokémon aus Fossilien\l"
-	.string "wieder beleben!$"
+	.string "Pokémon aus Fossilien wieder beleben!$"
 #else
 	.string "Oh!\n"
 	.string "That is {STR_VAR_2}, it is!\p"

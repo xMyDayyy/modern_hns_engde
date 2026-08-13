@@ -80,8 +80,8 @@ Route4_Text_PicnickerHope_Beaten:
 
 Route4_Text_PicnickerHope_AfterBattle:
 #if GERMAN
-	.string "Ich hörte, dass man am Mondberg\n"
-	.string "Piepi über den Weg laufen kann.\l"
+	.string "Ich hörte, dass man am Mondberg Piepi\n"
+	.string "über den Weg laufen kann.\l"
 	.string "Aber wo genau finde ich sie?$"
 #else
 	.string "I heard CLEFAIRY appear at MT.MOON.\p"

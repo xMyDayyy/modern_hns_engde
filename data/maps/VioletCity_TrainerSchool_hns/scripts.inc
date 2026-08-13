@@ -64,17 +64,17 @@ VioletCity_TrainerSchool_Text_Twin:
 #if GERMAN
 	.string "Ich bin kein GBA-Kind, aber\n"
 	.string "ich liebe Pokémon-Spiele!\p"
-	.string "In alten Spielen musstest du\n"
-	.string "gegen viele wilde Pokémon kämpfen,\l"
-	.string "um genug EP zu bekommen.\p"
+	.string "In alten Spielen musstest du gegen\n"
+	.string "viele wilde Pokémon kämpfen, um genug\l"
+	.string "EP zu bekommen.\p"
 	.string "In neueren Spielen sorgt die EP-Teilen\n"
-	.string "Funktion dafür, dass Pokémon\l"
-	.string "schneller aufleveln.\p"
+	.string "Funktion dafür, dass Pokémon schneller\l"
+	.string "aufleveln.\p"
 	.string "In diesem Spiel ist EP-Teilen so\n"
 	.string "ausbalanciert, dass Pokémon das\l"
 	.string "richtige Level erreichen oder leicht\l"
-	.string "höher, je nachdem, wie viele Kämpfe\l"
-	.string "du führst.\p"
+	.string "höher, je nachdem, wie viele Kämpfe du\l"
+	.string "führst.\p"
 	.string "Willst du klassischen Gen 1-4\n"
 	.string "EP-Gewinn, schalte EP-Teilen aus.\p"
 	.string "Für ein modernes Spielerlebnis,\n"
@@ -115,12 +115,12 @@ VioletCity_TrainerSchool_Text_EarlIntro:
 
 VioletCity_TrainerSchool_Text_Teacher:
 #if GERMAN
-	.string "Manche Pokémon starten schwach\n"
-	.string "und brauchen viel mehr EP, um\l"
-	.string "stark zu werden als andere.\p"
-	.string "Zum Beispiel Larvitar ist schwach,\n"
-	.string "wird aber später ein mächtiges\l"
-	.string "Despotar, auf Kosten vieler EP.\p"
+	.string "Manche Pokémon starten schwach und\n"
+	.string "brauchen viel mehr EP, um stark zu\l"
+	.string "werden als andere.\p"
+	.string "Zum Beispiel Larvitar ist schwach, wird\n"
+	.string "aber später ein mächtiges Despotar,\l"
+	.string "auf Kosten vieler EP.\p"
 	.string "Nur die engagiertesten Trainer\n"
 	.string "sollten so ein Pokémon trainieren.$"
 #else
@@ -139,13 +139,13 @@ VioletCity_TrainerSchool_Text_Teacher:
 VioletCity_TrainerSchool_Text_TeachHowToWin:
 #if GERMAN
 	.string "Gut! So lass misch dir erklärön!\p"
-	.string "Im Kampf wird das erste Pokémon\n"
-	.string "auf die Liste beginnön. Mit anderö\l"
-	.string "Worte also das Pokémon, das du\l"
-	.string "führst spazierön, oui?\p"
-	.string "Ast du keine andere Wahl, ändere\n"
-	.string "die Aufstellung in die Liste, um zu\l"
-	.string "werden einö Gewinnère!\p"
+	.string "Im Kampf wird das erste Pokémon auf die\n"
+	.string "Liste beginnön. Mit anderö Worte also\l"
+	.string "das Pokémon, das du führst spazierön,\l"
+	.string "oui?\p"
+	.string "Ast du keine andere Wahl, ändere die\n"
+	.string "Aufstellung in die Liste, um zu werden\l"
+	.string "einö Gewinnère!\p"
 	.string "Möschtest du ören noch mehr?$"
 #else
 	.string "Good! Teach you, I will!\p"
@@ -159,8 +159,8 @@ VioletCity_TrainerSchool_Text_TeachHowToWin:
 VioletCity_TrainerSchool_Text_TeachMore:
 #if GERMAN
 	.string "Du möschtest also wissen, wie man\n"
-	.string "trainiert Pokémon auf die Art und\l"
-	.string "Weisö, die ist rischtisch?$"
+	.string "trainiert Pokémon auf die Art und Weisö,\l"
+	.string "die ist rischtisch?$"
 #else
 	.string "So, want to know how to raise\n"
 	.string "POKéMON well?$"
@@ -170,12 +170,12 @@ VioletCity_TrainerSchool_Text_TeachRaiseWell:
 #if GERMAN
 	.string "Très bien! So lass misch erklärön!\p"
 	.string "Selbst wenn eine Pokémon nur kurz an\n"
-	.string "die Kampf teilnimmt, bekommt es \l"
-	.string "zum Schluss ein paar von die EP ab!\p"
-	.string "Führe eine schwache Pokémon mit\n"
-	.string "dir spazierön und tausche sie dann\l"
-	.string "am Anfang von die Kampf mit einö\l"
-	.string "andere aus!\p"
+	.string "die Kampf teilnimmt, bekommt es zum\l"
+	.string "Schluss ein paar von die EP ab!\p"
+	.string "Führe eine schwache Pokémon mit dir\n"
+	.string "spazierön und tausche sie dann am\l"
+	.string "Anfang von die Kampf mit einö andere\l"
+	.string "aus!\p"
 	.string "So können auch schwache Pokémon\n"
 	.string "werden sehr stark! Mehr vön mir?$"
 #else
@@ -206,11 +206,11 @@ VioletCity_TrainerSchool_Text_Youngster1:
 #if GERMAN
 	.string "Manche Pokémon, von denen man dachte,\n"
 	.string "sie entwickeln sich nur durch Tausch,\l"
-	.string "entwickeln sich jetzt auch\l"
-	.string "durch Levelaufstieg.\p"
-	.string "Maschock und Georok entwickeln\n"
-	.string "sich auf LVL 38, Kadabra und\l"
-	.string "Alpollo auf LVL 42.\p"
+	.string "entwickeln sich jetzt auch durch\l"
+	.string "Levelaufstieg.\p"
+	.string "Maschock und Georok entwickeln sich\n"
+	.string "auf LVL 38, Kadabra und Alpollo auf LVL\l"
+	.string "42.\p"
 	.string "Manche Items, wie Metallmantel, lassen\n"
 	.string "bestimmte Pokémon sich entwickeln,\l"
 	.string "wenn sie gehalten und trainiert werden.$"
@@ -229,9 +229,8 @@ VioletCity_TrainerSchool_Text_Youngster1:
 
 VioletCity_TrainerSchool_Text_GameboyKid1:
 #if GERMAN
-	.string "Bemerkenswerte Pokémon in einem\n"
-	.string "Gebiet kann man in der\l"
-	.string "Overworld sehen!\p"
+	.string "Bemerkenswerte Pokémon in einem Gebiet\n"
+	.string "kann man in der Overworld sehen!\p"
 	.string "Schaue die Routen bei Tag\n"
 	.string "und Nacht an!$"
 #else
@@ -260,9 +259,8 @@ VioletCity_TrainerSchool_Text_GameboyKid2:
 
 VioletCity_TrainerSchool_Text_Youngster2:
 #if GERMAN
-	.string "Achte darauf, dass Gegner\n"
-	.string "jetzt Teams mit besseren Typen\l"
-	.string "benutzen.\p"
+	.string "Achte darauf, dass Gegner jetzt Teams\n"
+	.string "mit besseren Typen benutzen.\p"
 	.string "Erwarte eine deutlich schwerere Reise.$"
 #else
 	.string "Be aware that your opponents\n"
@@ -275,9 +273,9 @@ VioletCity_TrainerSchool_Text_Blackboard:
 #if GERMAN
 	.string "Die Tafel beschreibt VM-Attacken\n"
 	.string "von Pokémon.\p"
-	.string "VM, einmal freigeschaltet, müssen\n"
-	.string "nicht beigebracht werden,\l"
-	.string "sie funktionieren trotzdem.$"
+	.string "VM, einmal freigeschaltet, müssen nicht\n"
+	.string "beigebracht werden, sie funktionieren\l"
+	.string "trotzdem.$"
 #else
 	.string "The blackboard describes\n"
 	.string "POKéMON HM moves.\p"
@@ -335,12 +333,11 @@ VioletCity_TrainerSchool_Text_Notebook2:
 VioletCity_TrainerSchool_Text_Notebook3:
 #if GERMAN
 	.string "Leute, die Pokémon fangen und in\n"
-	.string "Kämpfen einsetzen, nennt man\l"
-	.string "im Allgemeinen Pokémon-Trainer.\p"
+	.string "Kämpfen einsetzen, nennt man im\l"
+	.string "Allgemeinen Pokémon-Trainer.\p"
 	.string "Das Ziel eines jeden Trainers ist es,\n"
-	.string "alle Arenen zu besuchen und gegen\l"
-	.string "immer stärkere andere Trainer zu\l"
-	.string "gewinnen.\p"
+	.string "alle Arenen zu besuchen und gegen immer\l"
+	.string "stärkere andere Trainer zu gewinnen.\p"
 	.string "Weiterlesen… kannst du nicht mehr,\n"
 	.string "denn die nächste Seite ist leer!$"
 #else

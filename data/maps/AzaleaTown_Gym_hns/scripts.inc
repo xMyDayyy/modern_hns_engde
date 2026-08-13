@@ -751,8 +751,8 @@ AzaleaTown_Gym_Text_FuryCutterSpeech:
 #if GERMAN
 	.string "Kai: Die TM89 enthält Kehrtwende!\p"
 	.string "Setzt ein Pokémon diese Attacke im\n"
-	.string "Kampf ein, wird es mit einem anderen\l"
-	.string "aus deinem Team ausgetauscht!\p"
+	.string "Kampf ein, wird es mit einem anderen aus\l"
+	.string "deinem Team ausgetauscht!\p"
 	.string "Ist das nicht toll?$"
 #else
 	.string "TM89 contains U-TURN.\p"
@@ -765,13 +765,11 @@ AzaleaTown_Gym_Text_FuryCutterSpeech:
 
 AzaleaTown_Gym_Text_BugsyAdvice:
 #if GERMAN
-	.string "Kai: Käfer-Pokémon sind ein weites\n"
-	.string "Feld. Es gibt noch jede Menge zu\l"
-	.string "erforschen.\p"
-	.string "Wenn es für dich auch einen Typ\n"
-	.string "Pokémon gibt, den du besonders gerne\l"
-	.string "magst, solltest du ihn gründlichst\l"
-	.string "studieren!$"
+	.string "Kai: Käfer-Pokémon sind ein weites Feld.\n"
+	.string "Es gibt noch jede Menge zu erforschen.\p"
+	.string "Wenn es für dich auch einen Typ Pokémon\n"
+	.string "gibt, den du besonders gerne magst,\l"
+	.string "solltest du ihn gründlichst studieren!$"
 #else
 	.string "Bug POKéMON are deep. There are\n"
 	.string "many mysteries to be explored.\p"
@@ -806,9 +804,9 @@ AzaleaTown_Gym_Text_BugsyRematchDefeat:
 
 AzaleaTown_Gym_Text_BugCatcherBennySeen:
 #if GERMAN
-	.string "Käfer-Pokémon entwickeln sich\n"
-	.string "sehr früh. Das heißt, dass sie auch\l"
-	.string "schnell stärker werden.$"
+	.string "Käfer-Pokémon entwickeln sich sehr\n"
+	.string "früh. Das heißt, dass sie auch schnell\l"
+	.string "stärker werden.$"
 #else
 	.string "Bug POKéMON evolve young. So they\n"
 	.string "get stronger that much faster.$"
@@ -910,8 +908,8 @@ AzaleaTown_Gym_Text_TwinsAmyMay1After:
 #if GERMAN
 	.string "Eva: Du bist stark!\p"
 	.string "Aber Kai ist stärker!\n"
-	.string "Der Zerschneider seines Sichlor\l"
-	.string "trifft fast immer kritisch!$"
+	.string "Der Zerschneider seines Sichlor trifft\l"
+	.string "fast immer kritisch!$"
 #else
 	.string "AMY: You're really strong!\p"
 	.string "But BUGSY's even stronger!\n"
@@ -924,8 +922,8 @@ AzaleaTown_Gym_Text_TwinsAmyMay2Seen:
 	.string "Ute: Du willst den Leiter\n"
 	.string "sehen? Viel Glück!\p"
 	.string "Kai ist so stark!\n"
-	.string "Der Zerschneider seines Sichlor\l"
-	.string "trifft fast immer kritisch!$"
+	.string "Der Zerschneider seines Sichlor trifft\l"
+	.string "fast immer kritisch!$"
 #else
 	.string "MAY: You want to see the\n"
 	.string "LEADER? Good luck!\p"
@@ -965,12 +963,12 @@ AzaleaTown_Gym_Text_GymGuide:
 	.string "über Käfer-Pokémon ist enorm.\p"
 	.string "Es wird nicht einfach werden,\n"
 	.string "ohne meine Tipps.\p"
-	.string "Mal sehen… sein Tannza\n"
-	.string "hat eine Attacke, um seine\l"
-	.string "Gesteins-Schwäche auszugleichen.\p"
+	.string "Mal sehen… sein Tannza hat eine\n"
+	.string "Attacke, um seine Gesteins-Schwäche\l"
+	.string "auszugleichen.\p"
 	.string "Er hat außerdem eine neue Form des\n"
-	.string "Zerschneider entwickelt,\l"
-	.string "als Käfer-Attacke.\p"
+	.string "Zerschneider entwickelt, als\l"
+	.string "Käfer-Attacke.\p"
 	.string "Oh, vergiss nicht diese\n"
 	.string "kritischen Treffer. Viel Glück!$"
 #else

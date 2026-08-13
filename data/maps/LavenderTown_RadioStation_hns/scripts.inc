@@ -95,9 +95,9 @@ LavenderTown_RadioStation_Text_Gentleman:
 	.string "Oh nein! Das ist gar nicht gut!\p"
 	.string "Ohne den Strom aus dem Kraftwerk\n"
 	.string "können wir nicht auf Sendung gehen!\p"
-	.string "Wenn wir nicht senden können, waren\n"
-	.string "all meine Bemühungen, diesen Sender\l"
-	.string "zu eröffnen, vergebens!\l"
+	.string "Wenn wir nicht senden können, waren all\n"
+	.string "meine Bemühungen, diesen Sender zu\l"
+	.string "eröffnen, vergebens!\l"
 	.string "Ich bin ruiniert!$"
 #else
 	.string "Oh, no, no, no!\p"
@@ -111,9 +111,9 @@ LavenderTown_RadioStation_Text_Gentleman:
 
 LavenderTown_RadioStation_Text_Gentleman_ReturnedMachinePart:
 #if GERMAN
-	.string "Oh! Du bist also dieser {PLAYER},\n"
-	.string "der das Problem mit dem Kraftwerk\l"
-	.string "gelöst hat!\p"
+	.string "Oh! Du bist also dieser {PLAYER}, der\n"
+	.string "das Problem mit dem Kraftwerk gelöst\l"
+	.string "hat!\p"
 	.string "Dank dir konnte ich meinen Job behalten.\n"
 	.string "Du hast mir das Leben gerettet!\p"
 	.string "Hier, als Zeichen meiner Dankbarkeit!\n"
@@ -139,8 +139,8 @@ LavendertownRadioStation_Text_Upgraded_Radio:
 
 LavenderTown_RadioStation_Text_Gentleman_GotExpnCard:
 #if GERMAN
-	.string "Damit kannst du neue Sender auf\n"
-	.string "deinem Radio empfangen!\l"
+	.string "Damit kannst du neue Sender auf deinem\n"
+	.string "Radio empfangen!\l"
 	.string "Hahahahaha!$"
 #else
 	.string "With that thing, you can tune into\n"
@@ -153,8 +153,8 @@ LavenderTown_RadioStation_Text_SuperNerd2:
 	.string "Hallihallo! Ich bin der Starredakteur\n"
 	.string "unseres Musikprogramms!\p"
 	.string "…Oh, tut mir leid, aber mit deinem\n"
-	.string "PokéCom kannst du meine Sendung\l"
-	.string "nicht empfangen!\p"
+	.string "PokéCom kannst du meine Sendung nicht\l"
+	.string "empfangen!\p"
 	.string "Du wirst vorher erst dein Radio mit\n"
 	.string "einem Zusatzset aufrüsten müssen!$"
 #else
@@ -166,8 +166,8 @@ LavenderTown_RadioStation_Text_SuperNerd2_GotExpnCard:
 #if GERMAN
 	.string "Hallihallo! Ich bin der Starredakteur\n"
 	.string "unseres Musikprogramms!\p"
-	.string "In meinem Programm kriegst du nur\n"
-	.string "die schönsten Melodien zu hören!\l"
+	.string "In meinem Programm kriegst du nur die\n"
+	.string "schönsten Melodien zu hören!\l"
 	.string "Also, nicht vergessen: einschalten!$"
 #else
 	.string "Hey there!\p"
@@ -180,11 +180,9 @@ LavenderTown_RadioStation_Text_SuperNerd2_GotExpnCard:
 
 LavenderTown_RadioStation_Text_Directory:
 #if GERMAN
-	.string "EG: Rezeption\n"
-	.string "1S: Geschäftsabteilung\l"
-	.string "2S: Allgemeine Angelegenheiten\l"
-	.string "3S: Produktion\l"
-	.string "4S: Büro des Intendanten$"
+	.string "EG: Rezeption 1S: Geschäftsabteilung\n"
+	.string "2S: Allgemeine Angelegenheiten 3S:\l"
+	.string "Produktion 4S: Büro des Intendanten$"
 #else
 	.string "1F RECEPTION 2F SALES\p"
 	.string "3F PERSONNEL 4F PRODUCTION\p"
@@ -193,9 +191,8 @@ LavenderTown_RadioStation_Text_Directory:
 
 LavenderTown_RadioStation_Text_PokeFluteSign:
 #if GERMAN
-	.string "Wecke Pokémon mit sanften\n"
-	.string "Tönen der Pokéflöte auf\l"
-	.string "Kanal 20$"
+	.string "Wecke Pokémon mit sanften Tönen der\n"
+	.string "Pokéflöte auf Kanal 20$"
 #else
 	.string "Perk Up POKéMON with Mellow\n"
 	.string "Sounds of the POKé FLUTE on\l"

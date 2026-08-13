@@ -237,8 +237,7 @@ SeafloorCavern_Room9_Text_ArchieSoItWasYou:
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
 #if GERMAN
 	.string "Adrian: Schau nur, schau nur!\p"
-	.string "Schau, wie schön die schlafende\n"
-	.string "Gestalt\l"
+	.string "Schau, wie schön die schlafende Gestalt\n"
 	.string "des antiken Pokémon Kyogre ist!\p"
 	.string "Ich habe so lange auf diesen Tag\n"
 	.string "gewartet…$"
@@ -330,8 +329,8 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "Hm… Es regnet? So heftig?\p"
 	.string "Gut… Genau darauf habe ich gewartet.\n"
 	.string "Deshalb haben wir Kyogre erweckt.\l"
-	.string "Um Team Aquas Vision von der Erweite-\l"
-	.string "rung der Meere zu realisieren.\p"
+	.string "Um Team Aquas Vision von der\l"
+	.string "Erweiterung der Meere zu realisieren.\p"
 	.string "Was?!?\p"
 	.string "Es regnet stärker, als wir es voraus-\n"
 	.string "gesagt haben? Wir sind in Gefahr?\p"

@@ -58,9 +58,9 @@ Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection::
 
 Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou:
 #if GERMAN
-	.string "Ich habe noch nie einen Trainer ge-\n"
-	.string "sehen, der seine Pokémon so meister-\l"
-	.string "haft einsetzt wie du.\p"
+	.string "Ich habe noch nie einen Trainer\n"
+	.string "gesehen, der seine Pokémon so\l"
+	.string "meisterhaft einsetzt wie du.\p"
 	.string "Aber, ich muss dir auch sagen… mein\n"
 	.string "Sohn ist stärker als du.\p"
 	.string "Er hat sogar die Pokémon Liga heraus-\n"
@@ -77,8 +77,8 @@ Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou:
 Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
 #if GERMAN
 	.string "Wir benutzen dieses Machoband, um die\n"
-	.string "Pokémon im Training noch mehr\l"
-	.string "zu stärken.\p"
+	.string "Pokémon im Training noch mehr zu\l"
+	.string "stärken.\p"
 	.string "Da du unsere gesamte Familie besiegt\n"
 	.string "hast, brauchst du es vielleicht gar\l"
 	.string "nicht. Aber wir möchten dir dieses\l"
@@ -95,8 +95,7 @@ Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
 Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles:
 #if GERMAN
 	.string "Wenn es um Pokémon-Kämpfe geht, ist\n"
-	.string "die ganze Familie sehr\l"
-	.string "leidenschaftlich.$"
+	.string "die ganze Familie sehr leidenschaftlich.$"
 #else
 	.string "When it comes to POKéMON battles,\n"
 	.string "we tend to be pretty passionate.$"
@@ -121,15 +120,13 @@ Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
 #if GERMAN
 	.string "Es steht außer Frage, dass du stark\n"
 	.string "bist.\p"
-	.string "Aber wenn du gegen meinen Enkel an-\n"
-	.string "treten willst, bringt dir das nur\l"
-	.string "Tränen\l"
-	.string "der Frustration ein.\p"
+	.string "Aber wenn du gegen meinen Enkel\n"
+	.string "antreten willst, bringt dir das nur\l"
+	.string "Tränen der Frustration ein.\p"
 	.string "Er ist viel stärker als jeder Trainer,\n"
 	.string "den unsere Familie kennt.\p"
-	.string "Er müsste jetzt gerade eigentlich\n"
-	.string "dabei sein, die Pokémon Liga\l"
-	.string "herauszufordern.\p"
+	.string "Er müsste jetzt gerade eigentlich dabei\n"
+	.string "sein, die Pokémon Liga herauszufordern.\p"
 	.string "Wie ich meinen Enkel kenne, ist er\n"
 	.string "mittlerweile bestimmt schon der Champ!$"
 #else
@@ -147,8 +144,7 @@ Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
 Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort:
 #if GERMAN
 	.string "Mein Enkel müsste jetzt gerade dabei\n"
-	.string "sein, die Pokémon Liga\l"
-	.string "herauszufordern.\p"
+	.string "sein, die Pokémon Liga herauszufordern.\p"
 	.string "Wie ich meinen Enkel kenne, ist er\n"
 	.string "mittlerweile bestimmt schon der Champ!$"
 #else

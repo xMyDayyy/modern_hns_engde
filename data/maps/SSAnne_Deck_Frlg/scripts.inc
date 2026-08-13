@@ -96,8 +96,8 @@ SSAnne_Deck_Text_TrevorDefeat::
 SSAnne_Deck_Text_TrevorPostBattle::
 #if GERMAN
 	.string "Mein Vater sagt, es gäbe 100\n"
-	.string "verschiedene Pokémon. Ich denke,\l"
-	.string "es gibt mehr...$"
+	.string "verschiedene Pokémon. Ich denke, es\l"
+	.string "gibt mehr...$"
 #else
 	.string "My pa said there are 100 kinds of\n"
 	.string "POKéMON. I think there are more.$"

@@ -362,8 +362,7 @@ Route110_TrickHousePuzzle3_Text_MarthaDefeat:
 Route110_TrickHousePuzzle3_Text_MarthaPostBattle:
 #if GERMAN
 	.string "Ich weiß, ich bin schwach! Ich weiß\n"
-	.string "nicht, in welche Richtung es\l"
-	.string "weitergeht.$"
+	.string "nicht, in welche Richtung es weitergeht.$"
 #else
 	.string "I know I'm weak!\n"
 	.string "And, I have no sense of direction!$"
@@ -390,8 +389,7 @@ Route110_TrickHousePuzzle3_Text_AlanDefeat:
 Route110_TrickHousePuzzle3_Text_AlanPostBattle:
 #if GERMAN
 	.string "Ich habe absolut keine Ahnung…\n"
-	.string "Wie viele Fallen gibt es in diesem\l"
-	.string "Haus? \p"
+	.string "Wie viele Fallen gibt es in diesem Haus?\p"
 	.string "Du kannst mir das bestimmt\n"
 	.string "beantworten!$"
 #else

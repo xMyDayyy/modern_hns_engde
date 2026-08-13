@@ -1028,8 +1028,7 @@ Route104_Text_ThrowBallAtWeakenedPokemon:
 #if GERMAN
 	.string "Bevor du einen Pokéball wirfst,\n"
 	.string "schwäche das Pokémon erst.\p"
-	.string "Wenn es vergiftet ist, eine\n"
-	.string "Verbrennung\l"
+	.string "Wenn es vergiftet ist, eine Verbrennung\n"
 	.string "hat oder schläft, kann es leichter\l"
 	.string "gefangen werden.$"
 #else
@@ -1042,9 +1041,8 @@ Route104_Text_ThrowBallAtWeakenedPokemon:
 Route104_Text_OnlyThrowBallAtWildPokemon:
 #if GERMAN
 	.string "Du bist ein gemeiner Dieb, wenn du\n"
-	.string "ver-\l"
-	.string "suchst, das Pokémon eines anderen zu\l"
-	.string "stehlen.\p"
+	.string "versuchst, das Pokémon eines anderen\l"
+	.string "zu stehlen.\p"
 	.string "Du solltest deine Pokébälle nur auf\n"
 	.string "wilde Pokémon werfen.$"
 #else
@@ -1057,8 +1055,7 @@ Route104_Text_OnlyThrowBallAtWildPokemon:
 Route104_Text_ImNotATrainer:
 #if GERMAN
 	.string "Oh, nein, ich bin kein Trainer.\p"
-	.string "Aber es stimmt schon, wenn Trainer\n"
-	.string "sich\l"
+	.string "Aber es stimmt schon, wenn Trainer sich\n"
 	.string "in die Augen schauen, ist das eine\l"
 	.string "Herausforderung zum Kampf.\p"
 	.string "Willst du nicht kämpfen, weiche ihren\n"
@@ -1174,10 +1171,9 @@ Route104_Text_TrainerTipsDoubleBattles:
 	.string "2-gegen-2-Pokémon-Kampf, einem\l"
 	.string "Doppelkampf, herausfordern.\p"
 	.string "In einem Doppelkampf muss der Trainer\n"
-	.string "zwei Pokémon antreten lassen. Das \l"
+	.string "zwei Pokémon antreten lassen. Das\l"
 	.string "Pokémon links neben der Liste und das\l"
-	.string "an der Spitze der Liste. Achte also\l"
-	.string "auf\l"
+	.string "an der Spitze der Liste. Achte also auf\l"
 	.string "die Reihenfolge der Pokémon.$"
 #else
 	.string "TRAINER TIPS\p"
@@ -1240,8 +1236,8 @@ Route104_Text_MayHaventRaisedPokemon:
 #if GERMAN
 	.string "Maike: Oh, was ist das?\p"
 	.string "Du hast dich aber nicht um deine\n"
-	.string "Pokémon gekümmert? Und auch\l"
-	.string "nicht viele gefangen?\p"
+	.string "Pokémon gekümmert? Und auch nicht\l"
+	.string "viele gefangen?\p"
 	.string "Als Trainer machst du wirklich keinen\n"
 	.string "guten Eindruck!$"
 #else
@@ -1263,8 +1259,7 @@ Route104_Text_MayIntro:
 #if GERMAN
 	.string "Maike: Du bist gerade erst Trainer\n"
 	.string "geworden, {PLAYER}{KUN}. Ich werde\l"
-	.string "nicht\l"
-	.string "verlieren.$"
+	.string "nicht verlieren.$"
 #else
 	.string "MAY: You just became a TRAINER,\n"
 	.string "{PLAYER}{KUN}. I'm not going to lose!$"
@@ -1283,8 +1278,7 @@ Route104_Text_MayPostBattle:
 #if GERMAN
 	.string "Maike: Du bist wirklich sehr gut im\n"
 	.string "Umgang mit Pokémon.\p"
-	.string "Aber anstatt sie nur kämpfen zu\n"
-	.string "lassen,\l"
+	.string "Aber anstatt sie nur kämpfen zu lassen,\n"
 	.string "solltest du dir ein Beispiel an Mr.\p"
 	.string "Brack\n"
 	.string "nehmen.\p"
@@ -1366,8 +1360,7 @@ Route104_Text_BrendanLetsBattle:
 
 Route104_Text_BrendanIntro:
 #if GERMAN
-	.string "Maike: Ich weiß, du bist gerade erst\n"
-	.string "ein\l"
+	.string "Maike: Ich weiß, du bist gerade erst ein\n"
 	.string "Trainer geworden, aber ich werde mich\l"
 	.string "nicht zurückhalten.$"
 #else

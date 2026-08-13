@@ -240,8 +240,8 @@ LilycoveCity_LilycoveMuseum_2F_Text_ExplainExhibitHall:
 	.string "berühmte Werke begrenzt!\p"
 	.string "In diesem Ausstellungsraum will ich…\p"
 	.string "moderne und lebendige Kunst über\n"
-	.string "Pokémon sehen, die bereit sind, in\l"
-	.string "ein ruhmreiches Leben zu treten!$"
+	.string "Pokémon sehen, die bereit sind, in ein\l"
+	.string "ruhmreiches Leben zu treten!$"
 #else
 	.string "As you can plainly see, there is not\n"
 	.string "a single painting on exhibit.\p"
@@ -261,16 +261,13 @@ LilycoveCity_LilycoveMuseum_2F_Text_ExplainExhibitHall:
 
 LilycoveCity_LilycoveMuseum_2F_Text_PleaseObtainPaintingsForExhibit:
 #if GERMAN
-	.string "Oh, entschuldige. Ich wollte dich\n"
-	.string "nicht\l"
+	.string "Oh, entschuldige. Ich wollte dich nicht\n"
 	.string "mit meinen Monologen langweilen.\p"
 	.string "Nun, du bist jung und offensichtlich\n"
 	.string "weit gereist…\p"
 	.string "Du hast bestimmt schon viele Pokémon\n"
-	.string "gesehen und Bilder, die sie\l"
-	.string "darstellen. \p"
-	.string "Wenn du ein solches Bild siehst,\n"
-	.string "kannst\l"
+	.string "gesehen und Bilder, die sie darstellen.\p"
+	.string "Wenn du ein solches Bild siehst, kannst\n"
 	.string "du den Künstler bitte fragen, ob wir\l"
 	.string "sein Werk hier ausstellen dürfen?$"
 #else
@@ -429,8 +426,8 @@ LilycoveCity_LilycoveMuseum_2F_Text_ItsPaintingOfPokemon:
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe:
 #if GERMAN
 	.string "Ich war eine Weile nicht hier, daher\n"
-	.string "haben mich die neuen Gemälde über-\l"
-	.string "rascht.\p"
+	.string "haben mich die neuen Gemälde\l"
+	.string "überrascht.\p"
 	.string "Ich wünschte, jemand würde mein\n"
 	.string "Pokémon so wunderbar porträtieren.$"
 #else

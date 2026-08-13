@@ -42,8 +42,7 @@ LavaridgeTown_HerbShop_EventScript_ExplainCharcoal::
 LavaridgeTown_HerbShop_Text_WelcomeToHerbShop:
 #if GERMAN
 	.string "Willkommen im Kräuterladen! Dem Heim\n"
-	.string "wirkungsvoller und preiswerter\l"
-	.string "Medizin!$"
+	.string "wirkungsvoller und preiswerter Medizin!$"
 #else
 	.string "Welcome to the HERB SHOP, home of\n"
 	.string "effective and inexpensive medicine!$"

@@ -584,9 +584,8 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
 #if GERMAN
 	.string "Hallo… Mein Name ist Anabel.\p"
-	.string "Ich bin der Kampfkoloss und\n"
-	.string "ich bin hier verantwortlich für den\l"
-	.string "Duellturm…\p"
+	.string "Ich bin der Kampfkoloss und ich bin hier\n"
+	.string "verantwortlich für den Duellturm…\p"
 	.string "Ich habe schon verschiedene Gerüchte\n"
 	.string "über dich gehört…\p"
 	.string "Ehrlich gesagt waren das keine schönen\n"

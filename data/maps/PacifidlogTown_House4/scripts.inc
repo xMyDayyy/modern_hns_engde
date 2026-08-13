@@ -72,8 +72,7 @@ PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere:
 	.string "Du musst doch von irgendwo herkommen!\l"
 	.string "\p"
 	.string "Oh! Warte! Du willst doch nicht etwa\n"
-	.string "be-\l"
-	.string "haupten, du wärest in den Tiefen des\l"
+	.string "behaupten, du wärest in den Tiefen des\l"
 	.string "Meeres geboren???$"
 #else
 	.string "No? That doesn't make any sense.\n"

@@ -224,8 +224,8 @@ Route35NationalParkGate_Text_OfficerAskToParticipate:
 Route35NationalParkGate_Text_OfficerGiveSportBalls:
 #if GERMAN
 	.string "Alle Erfahrungspunkte, die deine\n"
-	.string "Pokémon im Turnier sammeln, werden\l"
-	.string "beim Verlassen zurückgesetzt.\p"
+	.string "Pokémon im Turnier sammeln, werden beim\l"
+	.string "Verlassen zurückgesetzt.\p"
 	.string "Hier sind die Turnierbälle\n"
 	.string "für den Wettbewerb.$"
 #else
@@ -247,14 +247,12 @@ Route35NationalParkGate_Text_OfficerExplainRules:
 #if GERMAN
 	.string "Wer das stärkste\n"
 	.string "Käfer-Pokémon fängt, hat gewonnen.\p"
-	.string "Wenn du keine Turnierbälle\n"
-	.string "mehr hast, ist das Turnier\l"
-	.string "beendet.\p"
+	.string "Wenn du keine Turnierbälle mehr hast,\n"
+	.string "ist das Turnier beendet.\p"
 	.string "Du darfst das letzte Pokémon,\n"
 	.string "das du gefangen hast, behalten.\p"
-	.string "Los! Fang das stärkste\n"
-	.string "Käfer-Pokémon, das du finden\l"
-	.string "kannst!$"
+	.string "Los! Fang das stärkste Käfer-Pokémon,\n"
+	.string "das du finden kannst!$"
 #else
 	.string "The person who gets the strongest\n"
 	.string "bug POKéMON is the winner.\p"
@@ -282,9 +280,8 @@ Route35NationalParkGate_Text_OfficerAskToUseFirstMon:
 
 Route35NationalParkGate_Text_OfficerHoldYourMon:
 #if GERMAN
-	.string "Gut. Wir passen\n"
-	.string "währenddessen auf deine anderen\l"
-	.string "Pokémon auf.$"
+	.string "Gut. Wir passen währenddessen auf\n"
+	.string "deine anderen Pokémon auf.$"
 #else
 	.string "Fine, we'll hold your other POKéMON\n"
 	.string "while you compete.$"
@@ -292,9 +289,8 @@ Route35NationalParkGate_Text_OfficerHoldYourMon:
 
 Route35NationalParkGate_Text_MonLeftWithHelper:
 #if GERMAN
-	.string "Die Pokémon von {PLAYER}\n"
-	.string "wurden dem Turnierhelfer\l"
-	.string "übergeben.$"
+	.string "Die Pokémon von {PLAYER} wurden dem\n"
+	.string "Turnierhelfer übergeben.$"
 #else
 	.string "{PLAYER}'s POKéMON were left with the\n"
 	.string "CONTEST HELPER.$"
@@ -302,9 +298,9 @@ Route35NationalParkGate_Text_MonLeftWithHelper:
 
 Route35NationalParkGate_Text_ChooseMonAndComeBack:
 #if GERMAN
-	.string "Wähle bitte das Pokémon, mit dem\n"
-	.string "du im Turnier antreten möchtest\l"
-	.string "aus und komm dann wieder.$"
+	.string "Wähle bitte das Pokémon, mit dem du im\n"
+	.string "Turnier antreten möchtest aus und komm\l"
+	.string "dann wieder.$"
 #else
 	.string "Please choose the POKéMON to be used\n"
 	.string "in the Contest, then come see me.$"
@@ -321,12 +317,11 @@ Route35NationalParkGate_Text_TakePartInFuture:
 
 Route35NationalParkGate_Text_FirstMonCantBattle:
 #if GERMAN
-	.string "Oh, oh… Das erste Pokémon\n"
-	.string "deines Teams kann\l"
-	.string "nicht am Turnier teilnehmen.\p"
-	.string "Tausche es bitte mit dem Pokémon\n"
-	.string "aus, das am Turnier teilnehmen\l"
-	.string "soll und komm dann wieder.$"
+	.string "Oh, oh… Das erste Pokémon deines Teams\n"
+	.string "kann nicht am Turnier teilnehmen.\p"
+	.string "Tausche es bitte mit dem Pokémon aus,\n"
+	.string "das am Turnier teilnehmen soll und komm\l"
+	.string "dann wieder.$"
 #else
 	.string "Uh-oh… The first POKéMON in your\n"
 	.string "party can't battle.\p"
@@ -338,9 +333,8 @@ Route35NationalParkGate_Text_MakeRoom:
 #if GERMAN
 	.string "Oh, oh… Dein Team und\n"
 	.string "deine PC-Box ist voll besetzt.\p"
-	.string "Du hast keinen Platz für\n"
-	.string "ein Käfer-Pokémon, das du\l"
-	.string "fängst.\p"
+	.string "Du hast keinen Platz für ein\n"
+	.string "Käfer-Pokémon, das du fängst.\p"
 	.string "Schaffe Platz in deinem Team oder\n"
 	.string "in deiner PC-Box und komm dann wieder.$"
 #else
@@ -356,9 +350,9 @@ Route35NationalParkGate_Text_EggAsFirstMon:
 #if GERMAN
 	.string "Oh, oh… Ein Ei ist an\n"
 	.string "erster Stelle in deinem Team.\p"
-	.string "Tausche es bitte mit dem Pokémon,\n"
-	.string "das du im Turnier einsetzen möchtest\l"
-	.string "und komm dann wieder.$"
+	.string "Tausche es bitte mit dem Pokémon, das\n"
+	.string "du im Turnier einsetzen möchtest und\l"
+	.string "komm dann wieder.$"
 #else
 	.string "Uh-oh… You have an EGG as the first\n"
 	.string "POKéMON in your party.\p"
@@ -441,8 +435,8 @@ Route35NationalParkGate_Text_Beauty:
 
 Route35NationalParkGate_Text_WeHoldContests:
 #if GERMAN
-	.string "Die Turniere werden regelmäßig\n"
-	.string "hier im Park abgehalten.\l"
+	.string "Die Turniere werden regelmäßig hier im\n"
+	.string "Park abgehalten.\l"
 	.string "Nimm doch auch daran teil!$"
 #else
 	.string "We hold Contests regularly in the\n"

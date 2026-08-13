@@ -645,8 +645,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Intro::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Mon1::
 #if GERMAN
 	.string "{STR_VAR_3} hat mir zu folgendem Team\n"
-	.string "geraten: ein {STR_VAR_2}, das\l"
-	.string "{STR_VAR_1} kann,$"
+	.string "geraten: ein {STR_VAR_2}, das {STR_VAR_1}\l"
+	.string "kann,$"
 #else
 	.string "{STR_VAR_3} told me that it would be\n"
 	.string "good to make this team:\l"
@@ -969,8 +969,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Intro::
 	.string "Duellturms!\n"
 	.string "………………\l"
 	.string "Haha! War nur ein Witz!\p"
-	.string "Man nennt mich {STR_VAR_3} und das\n"
-	.string "passt! Ich bin der 1.000ste Schüler von\l"
+	.string "Man nennt mich {STR_VAR_3} und das passt!\n"
+	.string "Ich bin der 1.000ste Schüler von\l"
 	.string "{STR_VAR_1}! Nun, ich bin Nr. {STR_VAR_2}!$"
 #else
 	.string "Hey! There's big trouble! This is\n"
@@ -1168,8 +1168,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Intro::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Mon1::
 #if GERMAN
 	.string "Ich habe mir den Rat meines Lehrers zu\n"
-	.string "Herzen genommen und ein {STR_VAR_2},\l"
-	.string "das {STR_VAR_1} kann, sowie$"
+	.string "Herzen genommen und ein {STR_VAR_2}, das\l"
+	.string "{STR_VAR_1} kann, sowie$"
 #else
 	.string "I took {STR_VAR_3}'s advice to heart\n"
 	.string "and put together my team of\l"
@@ -1283,8 +1283,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Mon1::
 #if GERMAN
 	.string "{STR_VAR_3} hat mir einen Rat gegeben.\p"
 	.string "Und da ich diesen wertvollen Rat gerne\n"
-	.string "befolge, habe ich ein {STR_VAR_2},\l"
-	.string "das {STR_VAR_1} kann, und ein$"
+	.string "befolge, habe ich ein {STR_VAR_2}, das\l"
+	.string "{STR_VAR_1} kann, und ein$"
 #else
 	.string "{STR_VAR_3} recommended my team.\p"
 	.string "Since the advice sounded sincere,\n"

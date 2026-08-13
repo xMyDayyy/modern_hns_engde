@@ -42,9 +42,8 @@ SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn::
 #if GERMAN
 	.string "Pokémon haben genau wie\n"
 	.string "Menschen ihre eigene Persönlichkeit.\p"
-	.string "Mein Pikachu hat ein Hastiges\n"
-	.string "Wesen, also ist es ein schnelles\l"
-	.string "Pokémon.$"
+	.string "Mein Pikachu hat ein Hastiges Wesen,\n"
+	.string "also ist es ein schnelles Pokémon.$"
 #else
 	.string "POKéMON have personalities of their\n"
 	.string "own, just like people.\p"
@@ -55,8 +54,8 @@ SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn::
 SevenIsland_Mart_Text_PreparationsCompleteForRuins::
 #if GERMAN
 	.string "Gut, die Vorbereitungen sind\n"
-	.string "abgeschlossen. Ich kann die\l"
-	.string "Ruinen nun erforschen.$"
+	.string "abgeschlossen. Ich kann die Ruinen nun\l"
+	.string "erforschen.$"
 #else
 	.string "Okay, preparations are complete\n"
 	.string "for me to explore the RUINS.$"

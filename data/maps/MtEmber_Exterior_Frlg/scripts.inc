@@ -128,9 +128,8 @@ Text_ExplosionTeach::
 	.string "ausbrechen!\p"
 	.string "Die Eruption wäre unser Ende! Ist\n"
 	.string "das nicht erschreckend?\p"
-	.string "Während uns die Knie schlottern,\n"
-	.string "könnte ich einem Pokémon\l"
-	.string "Explosion lehren!$"
+	.string "Während uns die Knie schlottern, könnte\n"
+	.string "ich einem Pokémon Explosion lehren!$"
 #else
 	.string "Can you imagine?\n"
 	.string "If this volcano were to erupt?\p"
@@ -308,8 +307,8 @@ MtEmber_Exterior_Text_WellRegroupDontStepInsideThere::
 MtEmber_Exterior_Text_LoganIntro::
 #if GERMAN
 	.string "Ein Vulkan gilt als aktiv, wenn er\n"
-	.string "ausbricht oder kurz vor dem\l"
-	.string "Ausbruch steht.$"
+	.string "ausbricht oder kurz vor dem Ausbruch\l"
+	.string "steht.$"
 #else
 	.string "An active volcano is one that's\n"
 	.string "erupting, or about to.$"
@@ -357,10 +356,10 @@ MtEmber_Exterior_Text_BethDefeat::
 
 MtEmber_Exterior_Text_BethPostBattle::
 #if GERMAN
-	.string "Wenn die Lava an der Oberfläche\n"
-	.string "des Magmas erhärtet und das Magma\l"
-	.string "darunter herausfließt, entsteht\l"
-	.string "eine Höhle.$"
+	.string "Wenn die Lava an der Oberfläche des\n"
+	.string "Magmas erhärtet und das Magma\l"
+	.string "darunter herausfließt, entsteht eine\l"
+	.string "Höhle.$"
 #else
 	.string "When lava at the surface of magma\n"
 	.string "hardens, and the magma inside flows\l"
@@ -369,9 +368,8 @@ MtEmber_Exterior_Text_BethPostBattle::
 
 MtEmber_Exterior_Text_JocelynIntro::
 #if GERMAN
-	.string "Ich habe hart trainiert, damit\n"
-	.string "ich meinen Liebeskummer\l"
-	.string "überwinde…\l"
+	.string "Ich habe hart trainiert, damit ich\n"
+	.string "meinen Liebeskummer überwinde…\l"
 	.string "Es hat mich zumindest körperlich\l"
 	.string "gestärkt! Hey-Ho!$"
 #else
@@ -391,9 +389,8 @@ MtEmber_Exterior_Text_JocelynDefeat::
 
 MtEmber_Exterior_Text_JocelynPostBattle::
 #if GERMAN
-	.string "Deine Art zu kämpfen erinnert mich\n"
-	.string "an den Kerl, der mich loswerden\l"
-	.string "wollte.$"
+	.string "Deine Art zu kämpfen erinnert mich an\n"
+	.string "den Kerl, der mich loswerden wollte.$"
 #else
 	.string "The way you battle, it reminds me\n"
 	.string "of the guy who dumped me…$"

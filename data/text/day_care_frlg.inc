@@ -82,9 +82,8 @@ DayCare_Text_SeeWifeIfYouWantToPickUpMon::
 
 DayCare_Text_YourMonsAreDoingFine::
 #if GERMAN
-	.string "Ah, du bist es! Deine Pokémon\n"
-	.string "{STR_VAR_1} und {STR_VAR_2} entwickeln\l"
-	.string "sich prächtig.$"
+	.string "Ah, du bist es! Deine Pokémon {STR_VAR_1}\n"
+	.string "und {STR_VAR_2} entwickeln sich prächtig.$"
 #else
 	.string "Ah, it's you! Your {STR_VAR_1} and\n"
 	.string "{STR_VAR_2} are doing fine.$"
@@ -132,9 +131,9 @@ DayCare_Text_WellRaiseYourMon::
 
 DayCare_Text_WeCanRaiseOneMore::
 #if GERMAN
-	.string "Wir können zwei deiner Pokémon\n"
-	.string "nehmen. Möchtest du noch eines in\l"
-	.string "Pflege geben?$"
+	.string "Wir können zwei deiner Pokémon nehmen.\n"
+	.string "Möchtest du noch eines in Pflege\l"
+	.string "geben?$"
 #else
 	.string "We can raise two of your POKéMON.\p"
 	.string "Would you like us to raise one\n"
@@ -175,8 +174,8 @@ DayCare_Text_ComeAgain::
 DayCare_Text_GoodToSeeYou::
 #if GERMAN
 	.string "Ach, du bist es! Schön, dich zu sehen.\n"
-	.string "Deinen Pokémon kann es einfach\l"
-	.string "nur gut gehen!$"
+	.string "Deinen Pokémon kann es einfach nur gut\l"
+	.string "gehen!$"
 #else
 	.string "Ah, it's you!\n"
 	.string "Good to see you.\p"
@@ -196,8 +195,7 @@ DayCare_Text_YourMonHasGrownXLevels::
 DayCare_Text_YourPartyIsFull::
 #if GERMAN
 	.string "Dein Pokémon-Team ist vollzählig.\n"
-	.string "Schaffe Platz und komm dann\l"
-	.string "wieder.$"
+	.string "Schaffe Platz und komm dann wieder.$"
 #else
 	.string "Your POKéMON party is full.\n"
 	.string "Make room, then come see me.$"

@@ -332,9 +332,9 @@ VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves:
 	.string "zurückhaltend einsetzen.\p"
 	.string "Und da spielt es auch keine Rolle, wie\n"
 	.string "stark es ist.\p"
-	.string "Ein Pokémon mit einem Zarten Wesen\n"
-	.string "wird beispielsweise ungern seinen\l"
-	.string "Gegner verletzen wollen.\p"
+	.string "Ein Pokémon mit einem Zarten Wesen wird\n"
+	.string "beispielsweise ungern seinen Gegner\l"
+	.string "verletzen wollen.\p"
 	.string "Wenn es sein Potenzial nicht\n"
 	.string "ausschöpfen kann, wird es beim Einsatz\l"
 	.string "\p"
@@ -392,8 +392,7 @@ VerdanturfTown_BattleTentLobby_Text_AttractionMutual:
 	.string "Meine Gefühle für Pokémon…\n"
 	.string "sind genauso wie die Gefühle der\p"
 	.string "Pokémon für mich…\n"
-	.string "Sie kämpfen genauso, wie ich es\l"
-	.string "möchte!$"
+	.string "Sie kämpfen genauso, wie ich es möchte!$"
 #else
 	.string "My feelings toward my POKéMON…\n"
 	.string "I'm sure the attraction is mutual!\p"
@@ -405,8 +404,7 @@ VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
 #if GERMAN
 	.string "Welche Attacken hast du deinen\n"
 	.string "Pokémon beigebracht?\p"
-	.string "Ich denke, es wäre für dich von\n"
-	.string "Vorteil,\l"
+	.string "Ich denke, es wäre für dich von Vorteil,\n"
 	.string "wenn sie sich selber heilen und\l"
 	.string "schützen könnten.$"
 #else
@@ -424,12 +422,10 @@ VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
 	.string "In einem Kampfcamp triffst du auf\n"
 	.string "viele starke Trainer.\p"
 	.string "Und dabei ist es völlig unerheblich,\n"
-	.string "welche Regeln hier gelten oder wie\l"
-	.string "hoch\l"
+	.string "welche Regeln hier gelten oder wie hoch\l"
 	.string "der Gewinn ist.\p"
 	.string "{PLAYER}{KUN}, ich erwarte von dir,\n"
-	.string "dass du\l"
-	.string "dein Bestes gibst!$"
+	.string "dass du dein Bestes gibst!$"
 #else
 	.string "SCOTT: Hey there, {PLAYER}{KUN}!\n"
 	.string "I thought I might see you here.\p"
@@ -443,8 +439,7 @@ VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
 
 VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
 #if GERMAN
-	.string "Scott: Ich komme regelmäßig hierher,\n"
-	.string "in\l"
+	.string "Scott: Ich komme regelmäßig hierher, in\n"
 	.string "der Hoffnung, starke Trainer in Aktion\l"
 	.string "und in jeder Situation zu erleben.$"
 #else

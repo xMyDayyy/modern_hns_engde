@@ -199,9 +199,9 @@ SilphCo_Text_Officer:
 
 SilphCo_Text_Officer_GotUpGrade:
 #if GERMAN
-	.string "Das ist das neueste Produkt\n"
-	.string "der Silph Co.! Das gibt es noch\l"
-	.string "nirgendwo zu kaufen!$"
+	.string "Das ist das neueste Produkt der Silph\n"
+	.string "Co.! Das gibt es noch nirgendwo zu\l"
+	.string "kaufen!$"
 #else
 	.string "It's SILPH CO.'s latest product.\p"
 	.string "It's not for sale anywhere yet.$"

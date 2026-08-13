@@ -196,9 +196,8 @@ GoldenrodCity_Gym_Text_PlayerReceivedPlainBadge:
 
 GoldenrodCity_Gym_Text_WhitneyPlainBadge:
 #if GERMAN
-	.string "Basisorden lässt dein Pokémon\n"
-	.string "Stärke auch außerhalb des Kampfes\l"
-	.string "einsetzen.\p"
+	.string "Basisorden lässt dein Pokémon Stärke\n"
+	.string "auch außerhalb des Kampfes einsetzen.\p"
 	.string "Erhöht auch die Verteidigung!\p"
 	.string "Hier, nimm ihn auch!$"
 #else
@@ -303,9 +302,9 @@ GoldenrodCity_Gym_Text_LassBridgetAfter:
 #if GERMAN
 	.string "Ich versuche Bianka zu schlagen…\n"
 	.string "Es ist deprimierend.\p"
-	.string "Aber egal! Wenn ich verliere,\n"
-	.string "versuche ich es beim nächsten Mal\l"
-	.string "einfach härter!$"
+	.string "Aber egal! Wenn ich verliere, versuche\n"
+	.string "ich es beim nächsten Mal einfach\l"
+	.string "härter!$"
 #else
     .string "I'm trying to beat WHITNEY, but…\n"
     .string "It's depressing.\p"

@@ -68,8 +68,7 @@ OlivineCity_PortInside_Text_Nationaldex1:
 	.string "Also irgendwie… wirkst du so langsam\n"
 	.string "wirklich wie ein echter Champ!\p"
 	.string "Und als Champ solltest du auch einen\n"
-	.string "angemessenen Pokédex\l"
-	.string "besitzen!\p"
+	.string "angemessenen Pokédex besitzen!\p"
 	.string "Gib ihn mir doch bitte mal eben!\n"
 	.string "Ich rüste ihn für dich mit dem\l"
 	.string "Nationalen Modus aus!$"
@@ -89,10 +88,10 @@ OlivineCity_PortInside_Text_Nationaldex2:
 	.string "dem Nationalen Modus ausgerüstet!$"
 OlivineCity_PortInside_Text_Nationaldex3:
 #if GERMAN
-	.string "Eich: Ich weiß, es ist nicht leicht,\n"
-	.string "den Nationalen Pokédex zu\l"
-	.string "vervollständigen, aber ich hoffe,\l"
-	.string "du versuchst es trotzdem!$"
+	.string "Eich: Ich weiß, es ist nicht leicht, den\n"
+	.string "Nationalen Pokédex zu\l"
+	.string "vervollständigen, aber ich hoffe, du\l"
+	.string "versuchst es trotzdem!$"
 #else
 	.string "PROF.OAK: It won't be easy to\n"
 	.string "complete the NATIONAL POKéDEX...\p"
@@ -377,9 +376,8 @@ OlivinePort_Text_FishingGuru1:
 OlivinePort_Text_FishingGuru2:
 #if GERMAN
 	.string "Wie viele Angeln hast du?\p"
-	.string "Mit verschiedenen Angeln,\n"
-	.string "fängst du verschiedene\l"
-	.string "Pokémon.$"
+	.string "Mit verschiedenen Angeln, fängst du\n"
+	.string "verschiedene Pokémon.$"
 #else
     .string "How many RODS do you have?\p"
     .string "Different RODS catch different\n"
@@ -407,8 +405,8 @@ OlivinePort_Text_CooltrainerF:
 OlivinePort_Text_SailorBeforeHOF:
 #if GERMAN
 	.string "Wir wollen nicht, dass du ins Wasser\n"
-	.string "fällst. Darum lasen wir\l"
-	.string "dich nicht herein.$"
+	.string "fällst. Darum lasen wir dich nicht\l"
+	.string "herein.$"
 #else
     .string "We don't want you to fall into the\n"
     .string "sea, so you're not allowed in.$"

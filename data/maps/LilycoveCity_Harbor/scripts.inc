@@ -620,8 +620,8 @@ LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo:
 
 LilycoveCity_Harbor_Text_SailorFerryUnavailable:
 #if GERMAN
-	.string "Solange die Fähre noch nicht see-\n"
-	.string "tüchtig ist, haben wir Seeleute\l"
+	.string "Solange die Fähre noch nicht\n"
+	.string "seetüchtig ist, haben wir Seeleute\l"
 	.string "nichts zu tun…\p"
 	.string "Ich wünschte, sie würden sich ein\n"
 	.string "bisschen beeilen - die Leute von der\l"
@@ -637,9 +637,9 @@ LilycoveCity_Harbor_Text_SailorFerryAvailable:
 #if GERMAN
 	.string "Die Fähre MS Tide ist endlich in\n"
 	.string "Betrieb.\p"
-	.string "Die Leute von der Werft in\n"
-	.string "Graphitport City müssen wirklich\l"
-	.string "hart gearbeitet haben.\p"
+	.string "Die Leute von der Werft in Graphitport\n"
+	.string "City müssen wirklich hart gearbeitet\l"
+	.string "haben.\p"
 	.string "Nun, jetzt ist meine Arbeit gefragt!$"
 #else
 	.string "The ferry S.S. TIDAL is finally in\n"

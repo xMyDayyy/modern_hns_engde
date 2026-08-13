@@ -30,9 +30,9 @@ OlivineCity_Text_MartCooltrainerF:
 
 OlivineCity_Text_MartLass:
 #if GERMAN
-	.string "Das Smettbo, das mir mein Schatz\n"
-	.string "aus Übersee geschickt hat, hatte\l"
-	.string "einen Brief dabei!\p"
+	.string "Das Smettbo, das mir mein Schatz aus\n"
+	.string "Übersee geschickt hat, hatte einen\l"
+	.string "Brief dabei!\p"
 	.string "Willst du wissen, was er schreibt?\n"
 	.string "In Ordnung…\p"
 	.string "Oder lieber doch nicht. Das ist geheim!$"

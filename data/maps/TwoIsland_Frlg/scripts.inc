@@ -261,14 +261,14 @@ TwoIsland_Text_WelcomeToShopMerchandiseLimited::
 TwoIsland_Text_AddedMerchandiseForLostelle::
 #if GERMAN
 	.string "Ich kann dir gar nicht sagen, wie\n"
-	.string "dankbar ich dir für die Rettung\l"
-	.string "von Irrma bin.\l"
+	.string "dankbar ich dir für die Rettung von\l"
+	.string "Irrma bin.\l"
 	.string "Dank dir haben die Einwohner von\l"
 	.string "Tri-Eiland ihre Meinung über die\l"
 	.string "Menschen aus Kanto geändert.\l"
 	.string "Und ich komme aus Kanto.\p"
-	.string "Die Bewohner von Tri-Eiland haben\n"
-	.string "mir bei der Warenzusammenstellung\l"
+	.string "Die Bewohner von Tri-Eiland haben mir\n"
+	.string "bei der Warenzusammenstellung\l"
 	.string "geholfen.$"
 #else
 	.string "I can't tell you how grateful I am\n"
@@ -327,11 +327,10 @@ TwoIsland_Text_FellowMovedFromCeladonCity::
 TwoIsland_Text_ShopkeepersBrotherWorksGameCorner::
 #if GERMAN
 	.string "Der Bruder des Ladenbesitzers hat\n"
-	.string "einen Job in der Spielhalle\l"
-	.string "angenommen.\l"
-	.string "Er versucht, mehr Geld zu\l"
-	.string "verdienen, damit sie ihr Waren-\l"
-	.string "angebot vergrößern können.$"
+	.string "einen Job in der Spielhalle angenommen.\l"
+	.string "Er versucht, mehr Geld zu verdienen,\l"
+	.string "damit sie ihr Warenangebot vergrößern\l"
+	.string "können.$"
 #else
 	.string "The shopkeeper's brother took\n"
 	.string "a job at the GAME CORNER.\p"
@@ -343,14 +342,12 @@ TwoIsland_Text_BrunoCameToIslandWhileBack::
 #if GERMAN
 	.string "Hör zu!\n"
 	.string "Wusstest du…\p"
-	.string "Ein berühmter Trainer ist vor\n"
-	.string "geraumer Zeit auf das Eiland\l"
-	.string "gekommen.\l"
+	.string "Ein berühmter Trainer ist vor geraumer\n"
+	.string "Zeit auf das Eiland gekommen.\l"
 	.string "Er ist einer der Top Vier!\l"
 	.string "Sein Name ist Bruno!\p"
-	.string "Er ist gegangen, weil er enttäuscht\n"
-	.string "war, dass alle Wutkekse\l"
-	.string "ausverkauft waren.$"
+	.string "Er ist gegangen, weil er enttäuscht war,\n"
+	.string "dass alle Wutkekse ausverkauft waren.$"
 #else
 	.string "Listen, listen.\n"
 	.string "Did you know?\p"
@@ -376,9 +373,8 @@ TwoIsland_Text_OldWomanLivesOutOnCape::
 #if GERMAN
 	.string "Am Kap lebt eine alte Frau in einer\n"
 	.string "Hütte.\p"
-	.string "Sie begutachtet Pokémon ganz\n"
-	.string "genau. Es ist ein wenig\l"
-	.string "merkwürdig.$"
+	.string "Sie begutachtet Pokémon ganz genau. Es\n"
+	.string "ist ein wenig merkwürdig.$"
 #else
 	.string "There's an old woman who lives in\n"
 	.string "a cottage out on the cape.\p"

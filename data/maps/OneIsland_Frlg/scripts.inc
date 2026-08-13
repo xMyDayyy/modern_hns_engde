@@ -168,9 +168,8 @@ OneIsland_Text_HavePCLinkageWithKanto::
 #if GERMAN
 	.string "Meine Enkelin war ob einer neuen\n"
 	.string "Erfindung ganz aufgeregt.\p"
-	.string "Sie sagte, dass wir jetzt via PC\n"
-	.string "mit den Menschen in Kanto\l"
-	.string "verbunden sind.\p"
+	.string "Sie sagte, dass wir jetzt via PC mit den\n"
+	.string "Menschen in Kanto verbunden sind.\p"
 	.string "Ich bin mir nicht sicher, aber\n"
 	.string "Celio ist der Mann dafür!$"
 #else
@@ -186,9 +185,8 @@ OneIsland_Text_HavePCLinkageWithHoenn::
 #if GERMAN
 	.string "Meine Enkelin war ob einer neuen\n"
 	.string "Erfindung ganz aufgeregt.\p"
-	.string "Sie sagte, dass wir jetzt via PC\n"
-	.string "mit den Menschen in Hoenn\l"
-	.string "verbunden sind.\p"
+	.string "Sie sagte, dass wir jetzt via PC mit den\n"
+	.string "Menschen in Hoenn verbunden sind.\p"
 	.string "Ich bin mir nicht sicher, aber\n"
 	.string "Celio ist der Mann dafür!$"
 #else
@@ -204,9 +202,8 @@ OneIsland_Text_HavePCLinkageWithHoenn::
 
 OneIsland_Text_IslandSign::
 #if GERMAN
-	.string "Eiland Eins\n"
-	.string "Freunde treffen sich auf der\l"
-	.string "Knoteninsel$"
+	.string "Eiland Eins Freunde treffen sich auf\n"
+	.string "der Knoteninsel$"
 #else
 	.string "ONE ISLAND\n"
 	.string "Friends Gather at Knot Island$"

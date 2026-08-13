@@ -48,8 +48,8 @@ FortreeCity_House1_Text_YouWillTradeWontYou:
 	.string "Äh… Hast du ihn gehört?\n"
 	.string "Meinen Ruf aus tiefstem Herzen?\p"
 	.string "Nachdem du den gehört hast, tauschst\n"
-	.string "du doch bestimmt dein {STR_VAR_1}\l"
-	.string "gegen mein {STR_VAR_2}?!?$"
+	.string "du doch bestimmt dein {STR_VAR_1} gegen\l"
+	.string "mein {STR_VAR_2}?!?$"
 #else
 	.string "Wrooooaaar! I need it!\n"
 	.string "I have to get me a {STR_VAR_1}!\l"

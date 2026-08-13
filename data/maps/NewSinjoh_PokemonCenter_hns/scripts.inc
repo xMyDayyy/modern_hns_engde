@@ -36,9 +36,9 @@ Text_ItemGiveaway:
 #if GERMAN
 	.string "Verstehe!\n"
 	.string "Du bist sicher auch ein Künstler!\p"
-	.string "Ich habe zufällig noch etwas übrig,\n"
-	.string "das dir hilft, die kleinen Details\l"
-	.string "des Lebens zu erkennen!$"
+	.string "Ich habe zufällig noch etwas übrig, das\n"
+	.string "dir hilft, die kleinen Details des Lebens\l"
+	.string "zu erkennen!$"
 #else
 	.string "I see!\n"
 	.string "You must be an artist as well!\p"

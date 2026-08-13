@@ -714,9 +714,8 @@ GoldenrodCity_GameCorner_Text_Woman:
 GoldenrodCity_GameCorner_Text_PokefanM1:
 #if GERMAN
 	.string "Ich liebe diesen neuen Automaten.\p"
-	.string "Er stellt eine\n"
-	.string "größere Herausforderung dar als jene\l"
-	.string "in Prismania City.$"
+	.string "Er stellt eine größere Herausforderung\n"
+	.string "dar als jene in Prismania City.$"
 #else
     .string "I just love this new slot machine.\p"
     .string "It's more of a challenge than the\n"
@@ -736,9 +735,9 @@ GoldenrodCity_GameCorner_Text_CooltrainerM:
 GoldenrodCity_GameCorner_Text_PokefanF:
 #if GERMAN
 	.string "Karten…\p"
-	.string "Ich ziehe sie den Automaten vor,\n"
-	.string "weil man seine\l"
-	.string "Chancen besser abschätzen kann.\p"
+	.string "Ich ziehe sie den Automaten vor, weil\n"
+	.string "man seine Chancen besser abschätzen\l"
+	.string "kann.\p"
 	.string "Aber der Gewinn ist viel geringer.$"
 #else
     .string "Roulette…\p"
@@ -759,8 +758,7 @@ GoldenrodCity_GameCorner_Text_Gentleman:
 	.string "Ich habe meinen\n"
 	.string "Pokémon Eisstrahl beigebracht.\p"
 	.string "Es hat zwar gedauert, bis ich genug\n"
-	.string "Münzen hatte, aber\l"
-	.string "es hat sich gelohnt.$"
+	.string "Münzen hatte, aber es hat sich gelohnt.$"
 #else
     .string "I taught ICE BEAM to my POKéMON.\p"
     .string "It was hard to get enough coins for\n"
@@ -769,12 +767,12 @@ GoldenrodCity_GameCorner_Text_Gentleman:
 
 GoldenrodCity_GameCorner_Text_PokefanM2:
 #if GERMAN
-	.string "Ich hatte an den Automaten kein\n"
-	.string "Glück. Bei den Karten sieht es\l"
-	.string "auch nicht anders aus…\p"
+	.string "Ich hatte an den Automaten kein Glück.\n"
+	.string "Bei den Karten sieht es auch nicht\l"
+	.string "anders aus…\p"
 	.string "Ich war so zornig, dass ich meinen\n"
-	.string "Münzkorb im Untergrund\l"
-	.string "weggeworfen habe.$"
+	.string "Münzkorb im Untergrund weggeworfen\l"
+	.string "habe.$"
 #else
     .string "I couldn't win at the slots, and I\n"
     .string "blew it on roulette.\p"

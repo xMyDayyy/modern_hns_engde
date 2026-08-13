@@ -393,10 +393,10 @@ VioletCity_EventScript_GymSign::
 VioletCity_Text_LiquidJustice:
 #if GERMAN
 	.string "Schau dich um!\p"
-	.string "Du siehst leicht, welche Pokémon\n"
-	.string "du in einer Gegend fangen kannst,\l"
-	.string "ohne den ganzen Tag im hohen\l"
-	.string "Gras herumzurennen!$"
+	.string "Du siehst leicht, welche Pokémon du in\n"
+	.string "einer Gegend fangen kannst, ohne den\l"
+	.string "ganzen Tag im hohen Gras\l"
+	.string "herumzurennen!$"
 #else
 	.string "Look around!\p"
 	.string "It's easy to see what POKéMON\n"
@@ -461,9 +461,8 @@ VioletCity_Text_Lass:
 VioletCity_Text_Boy:
 #if GERMAN
 	.string "Hey, du bist ein Pokémon-Trainer?\p"
-	.string "Wenn du zur Akademie gehst,\n"
-	.string "kannst du vielleicht etwas\l"
-	.string "Neues lernen!$"
+	.string "Wenn du zur Akademie gehst, kannst du\n"
+	.string "vielleicht etwas Neues lernen!$"
 #else
 	.string "Hey, you're a POKéMON trainer?\p"
 	.string "If you head to the ACADEMY,\n"
@@ -489,8 +488,8 @@ VioletCity_Text_Youngster:
 #if GERMAN
 	.string "Ich habe einen\n"
 	.string "wackeligen Baum gesehen!\p"
-	.string "Wenn du ihn berührst,\n"
-	.string "windet er sich und tanzt!\l"
+	.string "Wenn du ihn berührst, windet er sich und\n"
+	.string "tanzt!\l"
 	.string "So Cool!$"
 #else
 	.string "I saw a wiggly tree up ahead!\p"
@@ -509,9 +508,8 @@ VioletCity_Text_Sign:
 
 VioletCity_Text_GymSign:
 #if GERMAN
-	.string "Pokémon-Arena von Viola City\n"
-	.string "Leiter: Falk\l"
-	.string "Der elegante Meister der\l"
+	.string "Pokémon-Arena von Viola City Leiter:\n"
+	.string "Falk Der elegante Meister der\l"
 	.string "Flug-Pokémon$"
 #else
 	.string "VIOLET CITY POKéMON GYM\p"
@@ -567,9 +565,9 @@ VioletCity_Text_Elm_Call:
 #if GERMAN
 	.string "Lind: Hallo, {PLAYER}?\n"
 	.string "Ich habe Neuigkeiten über das Ei!\p"
-	.string "Im Pokémon-Center von Viola\n"
-	.string "City solltest du einen meiner\l"
-	.string "Assistenten antreffen.\l"
+	.string "Im Pokémon-Center von Viola City\n"
+	.string "solltest du einen meiner Assistenten\l"
+	.string "antreffen.\l"
 	.string "Lass dir von ihm alles erklären!$"
 #else
 	.string "PROF.ELM: Hello, {PLAYER}? We\n"

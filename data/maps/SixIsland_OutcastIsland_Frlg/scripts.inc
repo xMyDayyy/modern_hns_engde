@@ -64,9 +64,8 @@ SixIsland_OutcastIsland_Text_TylorPostBattle::
 SixIsland_OutcastIsland_Text_MymoIntro::
 #if GERMAN
 	.string "Schnauf… schnauf…\p"
-	.string "Ich bin hier auf einmal vom\n"
-	.string "Hafen auf Eiland Sechs\l"
-	.string "her geschwommen.$"
+	.string "Ich bin hier auf einmal vom Hafen auf\n"
+	.string "Eiland Sechs her geschwommen.$"
 #else
 	.string "Gasp… Gasp…\p"
 	.string "I swam here from SIX ISLE PORT\n"
@@ -94,8 +93,7 @@ SixIsland_OutcastIsland_Text_MymoPostBattle::
 SixIsland_OutcastIsland_Text_NicoleIntro::
 #if GERMAN
 	.string "Es ist nicht leicht, beim Schwimmen\n"
-	.string "Pokémon in den Kampf zu\l"
-	.string "schicken.$"
+	.string "Pokémon in den Kampf zu schicken.$"
 #else
 	.string "It's not so easy sending POKéMON\n"
 	.string "out while swimming, you know?$"
@@ -184,8 +182,8 @@ SixIsland_OutcastIsland_Text_GebDefeat::
 SixIsland_OutcastIsland_Text_GebPostBattle::
 #if GERMAN
 	.string "Tino: Ich bin auf meine Schwester\n"
-	.string "angewiesen, da ich den Boden\l"
-	.string "nicht berühren kann.$"
+	.string "angewiesen, da ich den Boden nicht\l"
+	.string "berühren kann.$"
 #else
 	.string "GEB: I'm hanging onto my sister\n"
 	.string "because I can't touch the bottom.$"

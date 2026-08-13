@@ -54,8 +54,7 @@ OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
 #if GERMAN
 	.string "Pokémon-Center sind eine großartige\n"
 	.string "Einrichtung!\p"
-	.string "Du kannst ihren Service sooft du\n"
-	.string "willst\l"
+	.string "Du kannst ihren Service sooft du willst\n"
 	.string "in Anspruch nehmen - kostenlos! Daher\l"
 	.string "kannst du unbeschwert umherreisen.$"
 #else

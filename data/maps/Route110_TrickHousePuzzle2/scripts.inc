@@ -168,8 +168,7 @@ Route110_TrickHousePuzzle2_Text_PaulPostBattle:
 Route110_TrickHousePuzzle2_Text_GeorgiaIntro:
 #if GERMAN
 	.string "Eines Tages gründe ich meine eigene\n"
-	.string "Arena. Und hier studiere ich die\l"
-	.string "Fallen.$"
+	.string "Arena. Und hier studiere ich die Fallen.$"
 #else
 	.string "I want to make my own GYM one day.\n"
 	.string "So, I'm studying how to set traps.$"

@@ -74,8 +74,8 @@ CeruleanCity_Gym_Text_MistyIntro::
 	.string "{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}Du musst neu sein, ich habe dich\n"
 	.string "noch nie gesehen!\p"
 	.string "Wenn ein Trainer zum Profi werden\n"
-	.string "möchte, muss er sich eine Pokémon-\l"
-	.string "Taktik erarbeiten!\p"
+	.string "möchte, muss er sich eine\l"
+	.string "Pokémon-Taktik erarbeiten!\p"
 	.string "Auf welche Weise fängst du deine\n"
 	.string "Pokémon?\p"
 	.string "Meine Strategie basiert auf dem\n"
@@ -103,13 +103,11 @@ CeruleanCity_Gym_Text_ExplainTM03::
 
 CeruleanCity_Gym_Text_ExplainCascadeBadge::
 #if GERMAN
-	.string "Der Quellorden lässt alle Pokémon\n"
-	.string "bis Level 30 deinen Befehlen\l"
-	.string "gehorchen!\p"
+	.string "Der Quellorden lässt alle Pokémon bis\n"
+	.string "Level 30 deinen Befehlen gehorchen!\p"
 	.string "Sogar Außenseiter gehorchen dir!\p"
-	.string "Deine Pokémon können den\n"
-	.string "Zerschneider nun jederzeit \l"
-	.string "einsetzen!\p"
+	.string "Deine Pokémon können den Zerschneider\n"
+	.string "nun jederzeit einsetzen!\p"
 	.string "Du kannst kleine Büsche zerhacken\n"
 	.string "und so neue Wege freilegen!\p"
 	.string "Zu guter Letzt schenke ich dir\n"
@@ -179,9 +177,8 @@ CeruleanCity_Gym_Text_DianaDefeat::
 
 CeruleanCity_Gym_Text_DianaPostBattle::
 #if GERMAN
-	.string "Du musst dich anderen Trainern\n"
-	.string "stellen, um herauszufinden, wie gut\l"
-	.string "du bist.$"
+	.string "Du musst dich anderen Trainern stellen,\n"
+	.string "um herauszufinden, wie gut du bist.$"
 #else
 	.string "You have to face other TRAINERS\n"
 	.string "to see how good you really are.$"

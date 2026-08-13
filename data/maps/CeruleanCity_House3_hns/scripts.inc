@@ -30,9 +30,9 @@ CeruleanCity_House3_EventScript_Zubat::
 
 CeruleanHouse_Text_Granny:
 #if GERMAN
-	.string "Mein Mann lebt glücklich\n"
-	.string "mit den Pokémon,\l"
-	.string "die er durch Tauschen bekommen hat.$"
+	.string "Mein Mann lebt glücklich mit den\n"
+	.string "Pokémon, die er durch Tauschen\l"
+	.string "bekommen hat.$"
 #else
 	.string "My husband lives happily with\n"
 	.string "POKéMON he got through trades.$"

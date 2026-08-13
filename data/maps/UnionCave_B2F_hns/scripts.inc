@@ -72,8 +72,8 @@ UnionCave_B2F_Text_CooltrainermNickBeaten:
 UnionCave_B2F_Text_CooltrainermNickAfter:
 #if GERMAN
 	.string "Dein Pokémon-Stil ist imposant und\n"
-	.string "abwechslungsreich,\l"
-	.string "das gebe ich zu. Du wirst immer besser!$"
+	.string "abwechslungsreich, das gebe ich zu. Du\l"
+	.string "wirst immer besser!$"
 #else
 	.string "Your POKéMON style is stunning and\n"
 	.string "colorful, I admit.\p"
@@ -107,8 +107,8 @@ UnionCave_B2F_Text_CooltrainerfGwenAfter:
 
 UnionCave_B2F_Text_CooltrainerfEmmaSeen:
 #if GERMAN
-	.string "Für meine Lieblings-Pokémon\n"
-	.string "nehme ich jede Reise auf mich.\l"
+	.string "Für meine Lieblings-Pokémon nehme ich\n"
+	.string "jede Reise auf mich.\l"
 	.string "Das würde jeder wahre Trainer tun.$"
 #else
 	.string "If the POKéMON I liked were there,\n"

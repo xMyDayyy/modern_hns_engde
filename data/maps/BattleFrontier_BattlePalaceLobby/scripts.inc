@@ -405,12 +405,11 @@ BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 #if GERMAN
 	.string "Im Kampfpalast gibt es verschiedene\n"
-	.string "Einzelkampf-Hallen für\l"
-	.string "Einzelkämpfe.\p"
+	.string "Einzelkampf-Hallen für Einzelkämpfe.\p"
 	.string "Die Einzelkämpfe verlaufen auf die\n"
-	.string "übliche Weise. Es gibt eine entschei-\l"
-	.string "dende Regel, die es zu beachten\l"
-	.string "gilt!!! \p"
+	.string "übliche Weise. Es gibt eine\l"
+	.string "entscheidende Regel, die es zu\l"
+	.string "beachten gilt!!!\p"
 	.string "Trainer dürfen ihre Pokémon lediglich\n"
 	.string "in den Kampf rufen und zurückziehen.\p"
 	.string "Ansonsten dürfen sie ihren Pokémon\n"
@@ -419,13 +418,12 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 	.string "entsprechend verhalten und eigen-\p"
 	.string "ständig kämpfen! Vertrau deinen\n"
 	.string "Pokémon und achte auf sie.\p"
-	.string "Schaffst du es, sieben Trainer in\n"
-	.string "Folge\l"
+	.string "Schaffst du es, sieben Trainer in Folge\n"
 	.string "zu besiegen, erhältst du von uns\l"
 	.string "Gewinnpunkte.\p"
-	.string "Willst du die Herausforderung ab-\n"
-	.string "brechen, musst du dein Spiel\l"
-	.string "speichern. \p"
+	.string "Willst du die Herausforderung\n"
+	.string "abbrechen, musst du dein Spiel\l"
+	.string "speichern.\p"
 	.string "Andernfalls wirst du bei Abbruch\n"
 	.string "disqualifiziert.$"
 #else
@@ -463,8 +461,8 @@ BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
 
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
 #if GERMAN
-	.string "Es gibt zwei Kampfhallen:\n"
-	.string "Für Level 50 und Offene Kämpfe.\l"
+	.string "Es gibt zwei Kampfhallen: Für Level 50\n"
+	.string "und Offene Kämpfe.\l"
 	.string "Wofür entscheidest du dich?$"
 #else
 	.string "There are two BATTLE HALLS,\n"
@@ -657,8 +655,7 @@ BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
 	.string "Lady vorbei.\p"
 	.string "Sie sagt, sie kann erkennen, was\n"
 	.string "Pokémon denken.\p"
-	.string "Ich kenn mich damit nicht aus, aber\n"
-	.string "ich\l"
+	.string "Ich kenn mich damit nicht aus, aber ich\n"
 	.string "weiß, dass die Lady verdammt süß ist.\p"
 	.string "\p"
 	.string "Was?!?\n"
@@ -687,12 +684,11 @@ BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
 	.string "Attacken, die sie gelernt haben,\l"
 	.string "scheinen der Schlüssel zu sein.\p"
 	.string "Um es deutlicher zu machen: Die\n"
-	.string "Attacken sollten zum Wesen der\l"
-	.string "Pokémon passen.\p"
-	.string "Wenn dein Pokémon Schwierigkeiten\n"
-	.string "hat und nicht alles gibt, dann\l"
-	.string "solltest\l"
-	.string "du prüfen, wie gut seine Attacken zu\l"
+	.string "Attacken sollten zum Wesen der Pokémon\l"
+	.string "passen.\p"
+	.string "Wenn dein Pokémon Schwierigkeiten hat\n"
+	.string "und nicht alles gibt, dann solltest du\l"
+	.string "prüfen, wie gut seine Attacken zu\l"
 	.string "seinem Wesen passen.$"
 #else
 	.string "Hmm…\p"
@@ -712,8 +708,8 @@ BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms:
 #if GERMAN
 	.string "Mein Pokémon ist sehr sanftmütig.\p"
 	.string "Aber wenn ich es in eine Kampfhalle\n"
-	.string "mitnehme, scheint es sich manchmal\l"
-	.string "ganz merkwürdig zu verändern!\p"
+	.string "mitnehme, scheint es sich manchmal ganz\l"
+	.string "merkwürdig zu verändern!\p"
 	.string "Es wirkt dann regelrecht\n"
 	.string "einschüchternd! Richtig schockierend!$"
 #else
@@ -768,12 +764,11 @@ BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 #if GERMAN
 	.string "Im Kampfpalast gibt es verschiedene\n"
-	.string "Doppelkampf-Hallen für\l"
-	.string "Doppelkämpfe.\p"
+	.string "Doppelkampf-Hallen für Doppelkämpfe.\p"
 	.string "Die Doppelkämpfe verlaufen auf die\n"
-	.string "übliche Weise. Es gibt eine entschei-\l"
-	.string "dende Regel, die es zu beachten\l"
-	.string "gilt!!! \p"
+	.string "übliche Weise. Es gibt eine\l"
+	.string "entscheidende Regel, die es zu\l"
+	.string "beachten gilt!!!\p"
 	.string "Trainer dürfen ihre Pokémon lediglich\n"
 	.string "in den Kampf rufen und zurückziehen.\p"
 	.string "Ansonsten dürfen sie ihren Pokémon\n"
@@ -782,13 +777,12 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 	.string "entsprechend verhalten und eigen-\p"
 	.string "ständig kämpfen! Vertrau deinen\n"
 	.string "Pokémon und achte auf sie.\p"
-	.string "Schaffst du es, sieben Trainer in\n"
-	.string "Folge\l"
+	.string "Schaffst du es, sieben Trainer in Folge\n"
 	.string "zu besiegen, erhältst du von uns\l"
 	.string "Gewinnpunkte.\p"
-	.string "Willst du die Herausforderung ab-\n"
-	.string "brechen, musst du dein Spiel\l"
-	.string "speichern. \p"
+	.string "Willst du die Herausforderung\n"
+	.string "abbrechen, musst du dein Spiel\l"
+	.string "speichern.\p"
 	.string "Andernfalls wirst du bei Abbruch\n"
 	.string "disqualifiziert.$"
 #else
@@ -837,8 +831,8 @@ BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
 #if GERMAN
-	.string "Möchtest du deinen letzten Kampf-\n"
-	.string "palast-Kampf in deinen\l"
+	.string "Möchtest du deinen letzten\n"
+	.string "Kampfpalast-Kampf in deinen\l"
 	.string "Kampfzonenpass eintragen?$"
 #else
 	.string "Would you like to record your latest\n"
@@ -879,10 +873,8 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesBasics:
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesNature:
 #if GERMAN
 	.string "Je nach Wesenheit wird ein Pokémon\n"
-	.string "eventuell angreifen, egal, was\l"
-	.string "passiert. \p"
-	.string "Ein anderes wird sich vielleicht\n"
-	.string "seinem\l"
+	.string "eventuell angreifen, egal, was passiert.\p"
+	.string "Ein anderes wird sich vielleicht seinem\n"
 	.string "Wesen entsprechend unter allen\p"
 	.string "Umständen schützen wollen. Ein anderes\n"
 	.string "irritiert oder verwirrt seinen Gegner.\l"
@@ -919,8 +911,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves:
 	.string "verursachen, wie Vergiftungen oder\l"
 	.string "Paralyse.\p"
 	.string "Pokémon werden diese 3 Kategorien mit\n"
-	.string "Sicherheit im Kampf in Betracht\l"
-	.string "ziehen!$"
+	.string "Sicherheit im Kampf in Betracht ziehen!$"
 #else
 	.string "There are offensive moves that inflict\n"
 	.string "direct damage on the foe.\p"
@@ -938,8 +929,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves:
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
 #if GERMAN
 	.string "Gibt ein Trainer seinem Pokémon keine\n"
-	.string "Anweisungen, wird es vielleicht nicht\l"
-	.string "in\l"
+	.string "Anweisungen, wird es vielleicht nicht in\l"
 	.string "der Lage sein, bestimmte Attacken\p"
 	.string "einzusetzen. Ein Pokémon hat\n"
 	.string "Schwierigkeiten mit Attacken, die es\l"
@@ -961,9 +951,9 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger:
 #if GERMAN
 	.string "Abhängig von seinem Wesen, wird ein\n"
-	.string "Pokémon vielleicht auch Attacken ein-\l"
-	.string "setzen, die seinem Wesen\l"
-	.string "widersprechen. \p"
+	.string "Pokémon vielleicht auch Attacken\l"
+	.string "einsetzen, die seinem Wesen\l"
+	.string "widersprechen.\p"
 	.string "Benimmt es sich in bestimmten\n"
 	.string "Situationen merkwürdig, beobachte es\l"
 	.string "genau.$"

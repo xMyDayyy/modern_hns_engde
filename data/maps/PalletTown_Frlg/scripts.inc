@@ -459,9 +459,8 @@ PalletTown_Text_OakDontGoOut::
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
 #if GERMAN
-	.string "Prof. Eich: Draußen ist es\n"
-	.string "gefährlich! Wilde Pokémon leben im\l"
-	.string "hohen Gras!\p"
+	.string "Prof. Eich: Draußen ist es gefährlich!\n"
+	.string "Wilde Pokémon leben im hohen Gras!\p"
 	.string "Du brauchst eigene Pokémon, um\n"
 	.string "dich zu schützen.\p"
 	.string "Komm, folge mir!$"
@@ -521,8 +520,7 @@ PalletTown_Text_RivalsHouse::
 
 PalletTown_Text_TownSign::
 #if GERMAN
-	.string "Alabastia\n"
-	.string "Dich erwarten aufregende\l"
+	.string "Alabastia Dich erwarten aufregende\n"
 	.string "Abenteuer!$"
 #else
 	.string "PALLET TOWN\n"
@@ -581,11 +579,10 @@ PalletTown_Text_CaughtXImpressiveFollowMe::
 PalletTown_Text_OakYouEnjoyingTraveling::
 #if GERMAN
 	.string "Eich: Ah, {PLAYER}!\n"
-	.string "Dir scheint das Reisen Spaß zu\l"
-	.string "machen!\l"
-	.string "Da ich dich kenne, {PLAYER},\l"
-	.string "kann ich mir vorstellen, dass du\l"
-	.string "auch abgelegene Orte bereist.\p"
+	.string "Dir scheint das Reisen Spaß zu machen!\l"
+	.string "Da ich dich kenne, {PLAYER}, kann ich\l"
+	.string "mir vorstellen, dass du auch abgelegene\l"
+	.string "Orte bereist.\p"
 	.string "Das ist gut!\n"
 	.string "Hoho!$"
 #else
@@ -645,8 +642,8 @@ PalletTown_Text_LookCopiedTrainerTipsSign::
 #if GERMAN
 	.string "Sieh nur!\p"
 	.string "Ich habe das, was auf einem dieser\n"
-	.string "Tipps für Trainer-Schilder\l"
-	.string "steht, abgeschrieben!$"
+	.string "Tipps für Trainer-Schilder steht,\l"
+	.string "abgeschrieben!$"
 #else
 	.string "Look, look!\p"
 	.string "I copied what it said on one of\n"

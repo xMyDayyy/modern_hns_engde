@@ -16,9 +16,8 @@ SSAnne_2F_Room1_EventScript_Gentleman::
 
 SSAnne_2F_Room1_Text_SleepingMonLookedLikeThis::
 #if GERMAN
-	.string "Auf all meinen Reisen habe ich nie\n"
-	.string "ein solch verschlafenes Pokémon\l"
-	.string "gesehen!\p"
+	.string "Auf all meinen Reisen habe ich nie ein\n"
+	.string "solch verschlafenes Pokémon gesehen!\p"
 	.string "Es sieht ungefähr so aus...$"
 #else
 	.string "I've journeyed far and wide, but in\n"

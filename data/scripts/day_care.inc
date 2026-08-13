@@ -306,9 +306,8 @@ Route117_Text_DoYouWantEgg:
 
 Route117_Text_YourMonIsDoingFine:
 #if GERMAN
-	.string "Ach, du bist es! Schön, dich zu\n"
-	.string "sehen. Deinem {STR_VAR_1} geht es\l"
-	.string "sehr gut.$"
+	.string "Ach, du bist es! Schön, dich zu sehen.\n"
+	.string "Deinem {STR_VAR_1} geht es sehr gut.$"
 #else
 	.string "Ah, it's you! Good to see you.\n"
 	.string "Your {STR_VAR_1}'s doing fine.$"
@@ -350,8 +349,8 @@ Route117_Text_TakeGoodCareOfIt:
 Route117_Text_FriendlyWithOtherTrainersMon:
 #if GERMAN
 	.string "Übrigens, dein {STR_VAR_1} scheint sich\n"
-	.string "gut mit dem {STR_VAR_3} von {STR_VAR_2} \l"
-	.string "zu verstehen.\p"
+	.string "gut mit dem {STR_VAR_3} von {STR_VAR_2} zu\l"
+	.string "verstehen.\p"
 	.string "Ich habe gesehen, wie sie einen Brief\n"
 	.string "ausgetauscht haben…$"
 #else
@@ -374,9 +373,8 @@ Route117_Text_SeeWifeIfYouWantToPickUpMon:
 
 Route117_Text_YourMonsAreDoingFine:
 #if GERMAN
-	.string "Ah, du bist es! Deine Pokémon\n"
-	.string "{STR_VAR_1} und {STR_VAR_2}\l"
-	.string "entwickeln sich prächtig.$"
+	.string "Ah, du bist es! Deine Pokémon {STR_VAR_1}\n"
+	.string "und {STR_VAR_2} entwickeln sich prächtig.$"
 #else
 	.string "Ah, it's you! Your {STR_VAR_1} and\n"
 	.string "{STR_VAR_2} are doing fine.$"
@@ -474,9 +472,9 @@ Route117_PokemonDayCare_Text_ComeAgain:
 
 Route117_PokemonDayCare_Text_GoodToSeeYou:
 #if GERMAN
-	.string "Ach, du bist es! Schön dich zu\n"
-	.string "sehen. Deinen Pokémon kann es\l"
-	.string "einfach nur gut gehen!$"
+	.string "Ach, du bist es! Schön dich zu sehen.\n"
+	.string "Deinen Pokémon kann es einfach nur gut\l"
+	.string "gehen!$"
 #else
 	.string "Ah, it's you! Good to see you.\n"
 	.string "Your POKéMON can only be doing good!$"

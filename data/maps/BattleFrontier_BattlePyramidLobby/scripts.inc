@@ -569,10 +569,8 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
 	.string "\p"
 	.string "Kämpfe dich durch sieben Etagen, die\n"
 	.string "wie Irrgärten angelegt sind. Trainer\l"
-	.string "und auch wilde Pokémon warten auf\l"
-	.string "dich. \p"
-	.string "Auf deinem Weg dürfen dich drei\n"
-	.string "Pokémon\l"
+	.string "und auch wilde Pokémon warten auf dich.\p"
+	.string "Auf deinem Weg dürfen dich drei Pokémon\n"
 	.string "begleiten, von denen keines ein Item\l"
 	.string "halten darf.\p"
 	.string "Für den Aufstieg erhältst du einen\n"
@@ -620,9 +618,8 @@ BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode:
 
 BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons:
 #if GERMAN
-	.string "Wunderbar! Nun wähle die drei\n"
-	.string "Pokémon aus, die dich begleiten\l"
-	.string "sollen.$"
+	.string "Wunderbar! Nun wähle die drei Pokémon\n"
+	.string "aus, die dich begleiten sollen.$"
 #else
 	.string "Very good. Now, please select the three\n"
 	.string "POKéMON you wish to accompany you.$"
@@ -799,8 +796,7 @@ BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
 #if GERMAN
-	.string "Tut mir Leid, aber in deinem\n"
-	.string "Pyrabeutel\l"
+	.string "Tut mir Leid, aber in deinem Pyrabeutel\n"
 	.string "ist nicht genug Platz für alle Items.\p"
 	.string "\p"
 	.string "Bitte such dir die Items aus, die du\n"
@@ -933,8 +929,7 @@ BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
 #if GERMAN
 	.string "Willkommen…\n"
-	.string "Ich freue mich darauf, dir zu\l"
-	.string "erklären, \p"
+	.string "Ich freue mich darauf, dir zu erklären,\p"
 	.string "welche Schwierigkeiten dich in der\n"
 	.string "Kampfpyramide erwarten…$"
 #else
@@ -1013,8 +1008,8 @@ BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
 #if GERMAN
 	.string "Ich sehe schwebende Pokémon…\p"
 	.string "Und ich sehe deine Pokémon, die\n"
-	.string "frustriert wirkungslose Boden-\l"
-	.string "Attacken anwenden…$"
+	.string "frustriert wirkungslose\l"
+	.string "Boden-Attacken anwenden…$"
 #else
 	.string "I see POKéMON loftily airborne…\p"
 	.string "…And, I see your POKéMON frustrated\n"
@@ -1221,8 +1216,7 @@ BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
 	.string "Wusstest du das nicht?\p"
 	.string "Wenn du schnell rennst, werden Trainer\n"
 	.string "auf dich aufmerksam und fordern dich\p"
-	.string "heraus. Wenn du ihnen aus dem Weg\n"
-	.string "gehen\l"
+	.string "heraus. Wenn du ihnen aus dem Weg gehen\n"
 	.string "willst, schau ihnen nicht in die Augen\l"
 	.string "und schleich an ihnen vorbei.$"
 #else
@@ -1237,9 +1231,8 @@ BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
 BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems:
 #if GERMAN
 	.string "Aaaaaaaaaaaarghuaaaaaaargh!\p"
-	.string "Ich hatte so viele Items, und nun\n"
-	.string "habe ich alle verloren, weil ich\l"
-	.string "verloren\l"
+	.string "Ich hatte so viele Items, und nun habe\n"
+	.string "ich alle verloren, weil ich verloren\l"
 	.string "habe!\p"
 	.string "Aaaaaaaaaaaarghuaaaaaaargh!$"
 #else
@@ -1265,8 +1258,8 @@ BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing:
 BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
 #if GERMAN
 	.string "Junger Forschergeist!\n"
-	.string "In Anerkennung deines Mutes\l"
-	.string "geben wir dir Gewinnpunkte.$"
+	.string "In Anerkennung deines Mutes geben wir\l"
+	.string "dir Gewinnpunkte.$"
 #else
 	.string "Young explorer!\n"
 	.string "In commendation of your courage,\l"
@@ -1291,8 +1284,8 @@ BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
 BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
 #if GERMAN
 	.string "Wurde die Kampfpyramide erobert,\n"
-	.string "werden die wilden Pokémon in ihr\l"
-	.string "gegen andere ausgetauscht.\p"
+	.string "werden die wilden Pokémon in ihr gegen\l"
+	.string "andere ausgetauscht.\p"
 	.string "Untersuche, beobachte und erfahre,\n"
 	.string "welche wilden Pokémon auf dich warten.$"
 #else
@@ -1306,8 +1299,8 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
 BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
 #if GERMAN
 	.string "Im Inneren der Kampfpyramide liegen\n"
-	.string "Trainer auf der Lauer und warten\l"
-	.string "auf dich.\p"
+	.string "Trainer auf der Lauer und warten auf\l"
+	.string "dich.\p"
 	.string "Auf jeder Ebene können sich bis zu\n"
 	.string "acht Trainer befinden.\p"
 	.string "Besiegst du einen von ihnen, bekommst\n"
@@ -1327,10 +1320,8 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
 	.string "ändern sich ständig. Jedes Mal, wenn\p"
 	.string "du sie erneut betrittst, sehen sie\n"
 	.string "anders aus.\l"
-	.string "Die Beleuchtung ist spärlich, daher\l"
-	.string "sei \p"
-	.string "vorsichtig. Hast du ein wildes Pkmn\n"
-	.string "oder\l"
+	.string "Die Beleuchtung ist spärlich, daher sei\p"
+	.string "vorsichtig. Hast du ein wildes Pkmn oder\n"
 	.string "einen Trainer besiegt, wird es heller.$"
 #else
 	.string "The mazes in the PYRAMID rearrange\n"
@@ -1343,16 +1334,16 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
 #if GERMAN
-	.string "Wenn du in der Kampfpyramide\n"
-	.string "unterwegs bist, dient der Pyrabeutel\l"
-	.string "dir als Beutel.\p"
+	.string "Wenn du in der Kampfpyramide unterwegs\n"
+	.string "bist, dient der Pyrabeutel dir als\l"
+	.string "Beutel.\p"
 	.string "Es gibt zwei verschiedene Pyrabeutel:\n"
 	.string "Einen für das Abenteuer Level 50 und\l"
 	.string "einen für das Abenteuer Offene Kämpfe.\l"
 	.string "\p"
 	.string "In ihnen kannst du 10 Items in einer\n"
-	.string "maximalen Anzahl von 99 Stück pro\l"
-	.string "Item verstauen.\p"
+	.string "maximalen Anzahl von 99 Stück pro Item\l"
+	.string "verstauen.\p"
 	.string "Scheiterst du, ist der Inhalt des\n"
 	.string "Pyrabeutels verloren.$"
 #else

@@ -66,8 +66,8 @@ MossdeepCity_Mart_Text_MaxRepelLastsLongest:
 MossdeepCity_Mart_Text_NetAndDiveBallsRare:
 #if GERMAN
 	.string "Der Netz- und der Tauchball sind\n"
-	.string "seltene Pokébälle, die in\l"
-	.string "Moosbach City hergestellt werden.\p"
+	.string "seltene Pokébälle, die in Moosbach City\l"
+	.string "hergestellt werden.\p"
 	.string "Ein Netzball ist höchst wirkungsvoll\n"
 	.string "bei Käfer- und Wasser-Pokémon.\p"
 	.string "Der Tauchball ist wirkungsvoll bei\n"

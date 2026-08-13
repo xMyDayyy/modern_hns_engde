@@ -25,9 +25,9 @@ LavenderTown_PokemonCenter_EventScript_YoungsterReturnedMachinePart::
 
 LavenderTown_PokemonCenter1F_Text_Gentleman:
 #if GERMAN
-	.string "Wenn du den Felstunnel im Norden\n"
-	.string "von Lavandia durchquerst, gelangst\l"
-	.string "du zum Kraftwerk.$"
+	.string "Wenn du den Felstunnel im Norden von\n"
+	.string "Lavandia durchquerst, gelangst du zum\l"
+	.string "Kraftwerk.$"
 #else
 	.string "To the north of LAVENDER is ROCK\n"
 	.string "TUNNEL. Go through it to get to\l"
@@ -36,9 +36,8 @@ LavenderTown_PokemonCenter1F_Text_Gentleman:
 
 LavenderTown_PokemonCenter1F_Text_Teacher:
 #if GERMAN
-	.string "Es gibt eine Musiksendung im Radio,\n"
-	.string "die Melodien auf der Pokéflöte\l"
-	.string "sendet.\p"
+	.string "Es gibt eine Musiksendung im Radio, die\n"
+	.string "Melodien auf der Pokéflöte sendet.\p"
 	.string "Ach ja? Ah, dein Radio braucht ein\n"
 	.string "Zusatzset, damit du das empfangen\l"
 	.string "kannst.\p"
@@ -70,8 +69,8 @@ LavenderTown_PokemonCenter1F_Text_Youngster_ReturnedMachinePart:
 #if GERMAN
 	.string "Der Intendant des Radiosenders war\n"
 	.string "hocherfreut. Er sagte, sie seien wieder\l"
-	.string "auf Sendung, weil das Kraftwerk\l"
-	.string "wieder einwandfrei arbeite.$"
+	.string "auf Sendung, weil das Kraftwerk wieder\l"
+	.string "einwandfrei arbeite.$"
 #else
 	.string "The DIRECTOR of the RADIO STATION\n"
 	.string "sure was happy.\p"

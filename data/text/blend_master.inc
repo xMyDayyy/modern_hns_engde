@@ -117,8 +117,8 @@ BerryBlender_Text_BlendMasterPokeblockCaseFull:
 	.string "Hmm!\p"
 	.string "Deine {POKEBLOCK}Box scheint voll zu sein.\p"
 	.string "Ich bin den ganzen Tag hier!\n"
-	.string "Verwende einige {POKEBLOCK} und komm\l"
-	.string "dann wieder.$"
+	.string "Verwende einige {POKEBLOCK} und komm dann\l"
+	.string "wieder.$"
 #else
 	.string "Hmmm!\p"
 	.string "Your {POKEBLOCK} CASE appears to be full!\p"

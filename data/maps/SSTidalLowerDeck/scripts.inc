@@ -43,8 +43,7 @@ SSTidalLowerDeck_Text_PhillipPostBattle:
 
 SSTidalLowerDeck_Text_LeonardIntro:
 #if GERMAN
-	.string "Dies ist der untere Bereich des\n"
-	.string "Schiffs.\l"
+	.string "Dies ist der untere Bereich des Schiffs.\n"
 	.string "Hier gibt es sehr viel Platz.\l"
 	.string "Genau richtig für einen Pokémon-Kampf.$"
 #else

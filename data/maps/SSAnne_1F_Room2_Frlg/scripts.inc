@@ -67,8 +67,7 @@ SSAnne_1F_Room2_Text_AnnPostBattle::
 	.string "So behandelt man keine Pokémon von\n"
 	.string "Weltklasse!\p"
 	.string "Ich verlange eine Kur in einem\n"
-	.string "Pokémon-Center für meine\l"
-	.string "Pokémon!!!$"
+	.string "Pokémon-Center für meine Pokémon!!!$"
 #else
 	.string "You hurt my poor POKéMON!\p"
 	.string "I demand that you heal them at a\n"

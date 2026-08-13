@@ -50,8 +50,8 @@ CeladonDeptStore3F_Text_Youngster:
 CeladonDeptStore3F_Text_GameboyKid1:
 #if GERMAN
 	.string "Oh, oh! Ich habe mein Pokémon\n"
-	.string "getauscht, ohne ihm vorher\l"
-	.string "Up-Grade wegzunehmen!$"
+	.string "getauscht, ohne ihm vorher Up-Grade\l"
+	.string "wegzunehmen!$"
 #else
 	.string "Uh-oh! I traded my POKéMON without\n"
 	.string "removing the UPGRADE from it.$"
@@ -62,8 +62,8 @@ CeladonDeptStore3F_Text_GameboyKid2:
 	.string "Klasse! Jetzt kann ich mir endlich\n"
 	.string "doch noch ein Porygon besorgen!\p"
 	.string "Ich habe einfach kein Händchen für\n"
-	.string "Münzspiele, und deshalb haben mir\l"
-	.string "immer noch ein paar Münzen gefehlt…\p"
+	.string "Münzspiele, und deshalb haben mir immer\l"
+	.string "noch ein paar Münzen gefehlt…\p"
 	.string "…Huch?\p"
 	.string "Das getauschte Porygon hat sich\n"
 	.string "in ein anderes Pokémon verwandelt!$"

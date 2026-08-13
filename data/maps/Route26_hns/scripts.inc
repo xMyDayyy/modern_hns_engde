@@ -64,9 +64,8 @@ Route26_EventScript_Richard::
 
 Route26_Text_CooltrainermJakeSeen:
 #if GERMAN
-	.string "Ich treffe die letzten\n"
-	.string "Vorbereitungen für die Pokémon\l"
-	.string "Liga.$"
+	.string "Ich treffe die letzten Vorbereitungen\n"
+	.string "für die Pokémon Liga.$"
 #else
     .string "I'm making my final preparations\n"
     .string "for the POKéMON LEAGUE.$"
@@ -203,8 +202,8 @@ Route26_Text_CooltrainerfBethSeen:
 	.string "Ich habe gegen einen Trainer\n"
 	.string "namens {RIVAL} verloren.\p"
 	.string "Er war sehr stark, aber…\n"
-	.string "Es schien, als sei er\l"
-	.string "um jeden Preis auf den Sieg aus.\p"
+	.string "Es schien, als sei er um jeden Preis auf\l"
+	.string "den Sieg aus.\p"
 	.string "Seine Pokémon taten mir leid.$"
 #else
     .string "I lost to a trainer named {RIVAL}.\p"

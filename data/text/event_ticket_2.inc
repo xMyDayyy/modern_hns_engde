@@ -22,8 +22,8 @@ EventTicket_Text_BrineyHoldOnASecond:
 #if GERMAN
 	.string "Brack: Warte einen Moment!\p"
 	.string "Warum sollte ich jemandem Hilfe\n"
-	.string "verweigern, dem ich so viel zu\l"
-	.string "verdanken habe?$"
+	.string "verweigern, dem ich so viel zu verdanken\l"
+	.string "habe?$"
 #else
 	.string "BRINEY: Hold on a second!\p"
 	.string "What's the idea of turning down\n"
@@ -86,8 +86,8 @@ BirthIsland_Harbor_Text_SailorReturn:
 #if GERMAN
 	.string "Diese Insel hat wirklich eine höchst\n"
 	.string "merkwürdige Form, findest du nicht?\l"
-	.string "Möchtest du zurück nach\l"
-	.string "Seegrasulb City?$"
+	.string "Möchtest du zurück nach Seegrasulb\l"
+	.string "City?$"
 #else
 	.string "What an oddly shaped island, eh?\n"
 	.string "Do you want to return to LILYCOVE?$"
@@ -137,10 +137,9 @@ FarawayIsland_Entrance_Text_Sign:
 #if GERMAN
 	.string "Die Schrift ist verblasst, so als sei sie\n"
 	.string "vor uralten Zeiten geschrieben worden…\p"
-	.string "“…ber, 6. Tag\n"
-	.string "Sollte jemals wieder ein Mensch… seinen\l"
-	.string "Fuß auf die Insel… ffe, dass es\l"
-	.string "ein weichherziger Mens…\p"
+	.string "“…ber, 6. Tag Sollte jemals wieder ein\n"
+	.string "Mensch… seinen Fuß auf die Insel… ffe,\l"
+	.string "dass es ein weichherziger Mens…\p"
 	.string "…it dieser Hoffnung gehe i…$"
 #else
 	.string "The writing is fading as if it was\n"

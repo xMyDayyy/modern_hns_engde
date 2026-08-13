@@ -286,9 +286,9 @@ FuchsiaCity_Gym_Text_LassLinda_Beaten:
 
 FuchsiaCity_Gym_Text_LassLinda_After:
 #if GERMAN
-	.string "Na, wie war mein Kostüm? Die\n"
-	.string "meisten Leute sagen, ich sehe\l"
-	.string "Janina zum Verwechseln ähnlich!$"
+	.string "Na, wie war mein Kostüm? Die meisten\n"
+	.string "Leute sagen, ich sehe Janina zum\l"
+	.string "Verwechseln ähnlich!$"
 #else
 	.string "Well? Wasn't my disguise perfect?$"
 #endif

@@ -33,11 +33,10 @@ PacifidlogTown_House3_EventScript_Girl::
 PacifidlogTown_House3_Text_WillingToTradeIt:
 #if GERMAN
 	.string "Schau dir dieses {STR_VAR_2} an!\p"
-	.string "Das {STR_VAR_2} habe ich gestern ge-\n"
-	.string "fangen, um meinen Geburtstag zu\l"
-	.string "feiern. \p"
-	.string "Oh, ich sehe dir an der Nasenspitze\n"
-	.string "an,\l"
+	.string "Das {STR_VAR_2} habe ich gestern\n"
+	.string "gefangen, um meinen Geburtstag zu\l"
+	.string "feiern.\p"
+	.string "Oh, ich sehe dir an der Nasenspitze an,\n"
 	.string "dass du es gerne hättest! Aber es ist\p"
 	.string "\p"
 	.string "unbezahlbar! Ich bin aber bereit, es\n"
@@ -92,8 +91,8 @@ PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
 	.string "Ich weiß, ich könnte mir ja auch\n"
 	.string "selbst eines suchen…\p"
 	.string "Aber ich hätte gerne ein Kindwurm, das\n"
-	.string "von einem anderen Trainer\l"
-	.string "gefangen wurde…$"
+	.string "von einem anderen Trainer gefangen\l"
+	.string "wurde…$"
 #else
 	.string "I know I could go looking for one\n"
 	.string "on my own, but…\p"

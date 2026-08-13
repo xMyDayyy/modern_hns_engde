@@ -274,8 +274,8 @@ NewBarkTown_Text_LassState2:
 	.string "Du weißt doch, wie gefährlich es ist,\n"
 	.string "ohne Pokémon das Haus zu verlassen!\p"
 	.string "Der Weg bis in die Nachbarstadt ist\n"
-	.string "schließlich von hohem Gras umgeben,\l"
-	.string "wo dir lauter wilde Pokémon auflauern!$"
+	.string "schließlich von hohem Gras umgeben, wo\l"
+	.string "dir lauter wilde Pokémon auflauern!$"
 #else
 	.string "Wait, {PLAYER}!\p"
 	.string "It's dangerous to go out\n"

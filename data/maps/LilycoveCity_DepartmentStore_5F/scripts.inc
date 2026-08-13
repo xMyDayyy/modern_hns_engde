@@ -146,8 +146,7 @@ LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls:
 #if GERMAN
 	.string "Hier gibt es viele niedliche Puppen.\p"
 	.string "Ich sollte mir lieber selbst welche\n"
-	.string "kaufen, anstatt immer für meine\l"
-	.string "Kinder.$"
+	.string "kaufen, anstatt immer für meine Kinder.$"
 #else
 	.string "This place is full of cute DOLLS.\p"
 	.string "I should buy some for me, instead of\n"
@@ -156,8 +155,8 @@ LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls:
 
 LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon:
 #if GERMAN
-	.string "Ich bin noch zu klein, um Pokémon auf-\n"
-	.string "zuziehen, daher bekomme ich eine\l"
+	.string "Ich bin noch zu klein, um Pokémon\n"
+	.string "aufzuziehen, daher bekomme ich eine\l"
 	.string "Puppe.$"
 #else
 	.string "I'm not big enough to raise POKéMON,\n"

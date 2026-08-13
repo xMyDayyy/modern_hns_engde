@@ -72,10 +72,10 @@ sText_AuroraTicketThankYou:
 sText_AuroraTicketBagFull:
 #if GERMAN
 	.string "Oh, es tut mir Leid, {PLAYER}! Die\n"
-	.string "Basis-Item-Tasche in deinem\l"
-	.string "Beutel ist voll.\l"
-	.string "Lagere etwas auf deinem PC und\l"
-	.string "komme anschließend zurück.$"
+	.string "Basis-Item-Tasche in deinem Beutel ist\l"
+	.string "voll.\l"
+	.string "Lagere etwas auf deinem PC und komme\l"
+	.string "anschließend zurück.$"
 #else
 	.string "Oh, I'm sorry, {PLAYER}.\n"
 	.string "Your BAG's KEY ITEMS POCKET is full.\p"

@@ -41,9 +41,9 @@ OlivineLighthouse_Text_1FSailor:
 #if GERMAN
 	.string "Die Leute kommen zum\n"
 	.string "Leuchtturm, um zu trainieren.\p"
-	.string "Aufgrund der vielen Trainer\n"
-	.string "ist es nicht einfach,\l"
-	.string "sich bis ganz nach oben vorzukämpfen.$"
+	.string "Aufgrund der vielen Trainer ist es nicht\n"
+	.string "einfach, sich bis ganz nach oben\l"
+	.string "vorzukämpfen.$"
 #else
 	.string "People train at this LIGHTHOUSE.\p"
 	.string "It's not easy to climb with all\n"
@@ -264,8 +264,8 @@ OlivineLighthouse_Text_SailorTerrellAfter:
 
 OlivineLighthouse_Text_GentlemanPrestonSeen:
 #if GERMAN
-	.string "Ich bereise die Welt, um\n"
-	.string "meine Pokémon zu trainieren.\l"
+	.string "Ich bereise die Welt, um meine Pokémon\n"
+	.string "zu trainieren.\l"
 	.string "Ich möchte mit dir kämpfen.$"
 #else
 	.string "I travel the world to train my\n"
@@ -304,8 +304,8 @@ OlivineLighthouse_EventScript_LassConnie::
 
 OlivineLighthouse_Text_SailorKentSeen:
 #if GERMAN
-	.string "Jasmin muss krank vor Sorge\n"
-	.string "um das Pokémon sein.\l"
+	.string "Jasmin muss krank vor Sorge um das\n"
+	.string "Pokémon sein.\l"
 	.string "Man sieht sie nicht einmal mehr lächeln.$"
 #else
 	.string "JASMINE must be worried sick about\n"
@@ -324,8 +324,8 @@ OlivineLighthouse_Text_SailorKentBeaten:
 OlivineLighthouse_Text_SailorKentAfter:
 #if GERMAN
 	.string "Apropos krank: Mir ist zu Ohren\n"
-	.string "gekommen, dass es in Anemonia City\l"
-	.string "eine gute Apotheke geben soll.$"
+	.string "gekommen, dass es in Anemonia City eine\l"
+	.string "gute Apotheke geben soll.$"
 #else
 	.string "Speaking of sick, I've heard there's\n"
 	.string "a good PHARMACY in CIANWOOD.$"
@@ -378,8 +378,8 @@ OlivineLighthouse_EventScript_BirdKeeperDenis::
 
 OlivineLighthouse_Text_SailorErnestSeen:
 #if GERMAN
-	.string "Ich hatte vor, gegen Jasmin zu\n"
-	.string "kämpfen, aber sie ist nicht da.\l"
+	.string "Ich hatte vor, gegen Jasmin zu kämpfen,\n"
+	.string "aber sie ist nicht da.\l"
 	.string "Wie wäre es mit dir?$"
 #else
 	.string "I wanted to battle JASMINE, but she's\n"
@@ -486,14 +486,14 @@ OlivineLighthouse_Text_JasmineCianwoodPharmacy:
 	.string "Aber dann…\n"
 	.string "wurde es plötzlich sehr krank.\l"
 	.string "Seitdem ringt es nur noch nach Luft…\p"
-	.string "In Anemonia City, auf der anderen\n"
-	.string "Seite des Ozeans, soll es einen\l"
-	.string "wundertätigen Apotheker geben, aber…\p"
+	.string "In Anemonia City, auf der anderen Seite\n"
+	.string "des Ozeans, soll es einen wundertätigen\l"
+	.string "Apotheker geben, aber…\p"
 	.string "…ich kann Amphi nicht einfach\n"
 	.string "hier alleine lassen…\p"
 	.string "Würdest du mir einen Gefallen tun?\n"
-	.string "Könntest du vielleicht für mich\l"
-	.string "dort Medizin kaufen gehen?\p"
+	.string "Könntest du vielleicht für mich dort\l"
+	.string "Medizin kaufen gehen?\p"
 	.string "Ich halte dir auch den Eingang offen…$"
 #else
 	.string "JASMINE: …This POKéMON always kept\n"
@@ -509,8 +509,8 @@ OlivineLighthouse_Text_JasmineCianwoodPharmacy:
 OlivineLighthouse_Text_JasmineGetMedicine:
 #if GERMAN
 	.string "D-du tust mir doch den Gefallen, oder?\n"
-	.string "Du gehst doch für mich Medizin\l"
-	.string "kaufen, bitte!$"
+	.string "Du gehst doch für mich Medizin kaufen,\l"
+	.string "bitte!$"
 #else
 	.string "…May I ask you to get some medicine\n"
 	.string "for me? Please?$"
@@ -521,8 +521,7 @@ OlivineLighthouse_Text_JasmineGetMedicine2:
 	.string "In Anemonia City gibt es eine tolle\n"
 	.string "Apotheke…\p"
 	.string "Aber das ist über das Meer…\n"
-	.string "Und Amphy kann ich nicht allein\l"
-	.string "lassen… \p"
+	.string "Und Amphy kann ich nicht allein lassen…\p"
 	.string "…Kannst du bitte Medizin für mich\n"
 	.string "holen? Bitte?$"
 #else
@@ -620,9 +619,8 @@ OlivineLighthouse_Text_JasmineDontBeOffended:
 #if GERMAN
 	.string "Jasmin: Ni-nimm mir das\n"
 	.string "bitte nicht übel, ja?\p"
-	.string "Amphi lässt sich bloß\n"
-	.string "von niemand anderem\l"
-	.string "als mir füttern…$"
+	.string "Amphi lässt sich bloß von niemand\n"
+	.string "anderem als mir füttern…$"
 #else
 	.string "JASMINE: …Um, please don't be\n"
 	.string "offended…\p"

@@ -128,8 +128,8 @@ VictoryRoad_B1F_Text_MitchellDefeat:
 
 VictoryRoad_B1F_Text_MitchellPostBattle:
 #if GERMAN
-	.string "Auch außerhalb eines Kampfes spüre\n"
-	.string "ich die Kraft, die von dir und deinen\l"
+	.string "Auch außerhalb eines Kampfes spüre ich\n"
+	.string "die Kraft, die von dir und deinen\l"
 	.string "Pokémon ausgeht.$"
 #else
 	.string "Even outside of battle, I sense\n"

@@ -46,9 +46,9 @@ LilycoveCity_DepartmentStore_1F_Text_PleasePickTicket:
 LilycoveCity_DepartmentStore_1F_Text_TicketNumberIsXPleaseWait:
 #if GERMAN
 	.string "Der Lottoschein hat die Nummer {STR_VAR_1}.\p"
-	.string "Ich muss diese Nummer jetzt prüfen,\n"
-	.string "um zu sehen, ob sie mit der ID-Nummer\l"
-	.string "eines deiner Pokémon übereinstimmt.$"
+	.string "Ich muss diese Nummer jetzt prüfen, um\n"
+	.string "zu sehen, ob sie mit der ID-Nummer eines\l"
+	.string "deiner Pokémon übereinstimmt.$"
 #else
 	.string "The LOTO TICKET number is {STR_VAR_1}.\p"
 	.string "I need to run a check on this number\n"
@@ -59,9 +59,9 @@ LilycoveCity_DepartmentStore_1F_Text_TicketNumberIsXPleaseWait:
 LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPartyMon:
 #if GERMAN
 	.string "Herzlichen Glückwunsch!\p"
-	.string "Die ID-Nummer deines {STR_VAR_1} im\n"
-	.string "Team stimmt mit der des Lotto-\l"
-	.string "scheins überein!$"
+	.string "Die ID-Nummer deines {STR_VAR_1} im Team\n"
+	.string "stimmt mit der des Lottoscheins\l"
+	.string "überein!$"
 #else
 	.string "Congratulations!\p"
 	.string "The ID number of your team's\n"
@@ -72,8 +72,8 @@ LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPartyMon:
 LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPCMon:
 #if GERMAN
 	.string "Herzlichen Glückwunsch!\p"
-	.string "Die ID-Nummer deines {STR_VAR_1} in\n"
-	.string "der Box des PCs stimmt mit der des\l"
+	.string "Die ID-Nummer deines {STR_VAR_1} in der\n"
+	.string "Box des PCs stimmt mit der des\l"
 	.string "Lottoscheins überein!$"
 #else
 	.string "Congratulations!\p"
@@ -93,8 +93,8 @@ LilycoveCity_DepartmentStore_1F_Text_NoNumbersMatched:
 
 LilycoveCity_DepartmentStore_1F_Text_TwoDigitsMatched:
 #if GERMAN
-	.string "Zwei Ziffern stimmen überein,\n"
-	.string "daher bekommst du den dritten Preis!\l"
+	.string "Zwei Ziffern stimmen überein, daher\n"
+	.string "bekommst du den dritten Preis!\l"
 	.string "Du gewinnst {STR_VAR_1}!$"
 #else
 	.string "Two digits matched, so you win the\n"
@@ -104,8 +104,8 @@ LilycoveCity_DepartmentStore_1F_Text_TwoDigitsMatched:
 
 LilycoveCity_DepartmentStore_1F_Text_ThreeDigitsMatched:
 #if GERMAN
-	.string "Drei Ziffern stimmen überein,\n"
-	.string "daher bekommst du den zweiten Preis!\l"
+	.string "Drei Ziffern stimmen überein, daher\n"
+	.string "bekommst du den zweiten Preis!\l"
 	.string "Du gewinnst {STR_VAR_1}!$"
 #else
 	.string "Three digits matched, so you win the\n"
@@ -115,8 +115,8 @@ LilycoveCity_DepartmentStore_1F_Text_ThreeDigitsMatched:
 
 LilycoveCity_DepartmentStore_1F_Text_FourDigitsMatched:
 #if GERMAN
-	.string "Vier Ziffern stimmen überein,\n"
-	.string "daher bekommst du den ersten Preis!\l"
+	.string "Vier Ziffern stimmen überein, daher\n"
+	.string "bekommst du den ersten Preis!\l"
 	.string "Du gewinnst {STR_VAR_1}!$"
 #else
 	.string "Four digits matched, so you win the\n"

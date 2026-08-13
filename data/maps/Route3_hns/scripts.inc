@@ -121,8 +121,8 @@ Route3_Text_FirebreatherBurt_Beaten:
 
 Route3_Text_FirebreatherBurt_AfterBattle:
 #if GERMAN
-	.string "Ich bin der beste\n"
-	.string "Feuerspucker in Kanto.\l"
+	.string "Ich bin der beste Feuerspucker in\n"
+	.string "Kanto.\l"
 	.string "Aber nicht der beste Trainer…$"
 #else
 	.string "The greatest fire-breather in KANTO,\n"

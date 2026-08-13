@@ -47,9 +47,8 @@ PewterCity_PokemonCenter_1F_EventScript_GBAKid2::
 PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
 #if GERMAN
 	.string "Was!?\p"
-	.string "Das Team Rocket befindet sich auf\n"
-	.string "dem Mondberg? Das muss ich sofort\l"
-	.string "melden!\p"
+	.string "Das Team Rocket befindet sich auf dem\n"
+	.string "Mondberg? Das muss ich sofort melden!\p"
 	.string "Verschwinde!$"
 #else
 	.string "What!?\p"

@@ -306,8 +306,7 @@ BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay:
 BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
 #if GERMAN
 	.string "Der ultimative Ort für ultimative\n"
-	.string "Kämpfe! Willkommen in der\l"
-	.string "Kampfzone!$"
+	.string "Kämpfe! Willkommen in der Kampfzone!$"
 #else
 	.string "The front lines of POKéMON battling!\n"
 	.string "Welcome to the BATTLE FRONTIER!$"
@@ -357,8 +356,8 @@ BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
 
 BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
 #if GERMAN
-	.string "???: Oh, wenn das nicht {PLAYER}{KUN}\n"
-	.string "ist!\l"
+	.string "???: Oh, wenn das nicht\n"
+	.string "{PLAYER}{KUN} ist!\l"
 	.string "Du bist also doch gekommen! Schön!$"
 #else
 	.string "???: Well, if it isn't {PLAYER}{KUN}!\n"
@@ -381,8 +380,8 @@ BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
 	.string "Ich hoffe, du hast ein bisschen Zeit\n"
 	.string "mitgebracht, um dir hier alles\l"
 	.string "anzusehen?!?\p"
-	.string "Und natürlich hoffe ich auch, dass\n"
-	.string "du die Reinheit unserer Kämpfe hier\l"
+	.string "Und natürlich hoffe ich auch, dass du\n"
+	.string "die Reinheit unserer Kämpfe hier\l"
 	.string "genießen wirst!\p"
 	.string "Ich wohne hier auf dem Gelände,\n"
 	.string "also komm mich doch mal besuchen!$"
@@ -462,8 +461,8 @@ BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
 #if GERMAN
 	.string "Das einem Dojo nachempfundene Gebäude\n"
-	.string "ist der Kampfring, er ist in der\l"
-	.string "Mitte rechts zu finden.\p"
+	.string "ist der Kampfring, er ist in der Mitte\l"
+	.string "rechts zu finden.\p"
 	.string "Hier findet das K.O.-Teamturnier\n"
 	.string "statt.$"
 #else
@@ -523,8 +522,8 @@ BattleFrontier_ReceptionGate_Text_RankingHallInfo:
 #if GERMAN
 	.string "Die Ergebnishalle befindet sich in der\n"
 	.string "Nähe des Duellturms.\p"
-	.string "Hier kannst du dir die Rekorde\n"
-	.string "der Trainer anschauen, die sich den\l"
+	.string "Hier kannst du dir die Rekorde der\n"
+	.string "Trainer anschauen, die sich den\l"
 	.string "Herausforderungen der Kampfzone\l"
 	.string "gestellt haben.$"
 #else
@@ -541,8 +540,8 @@ BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
 	.string "Die Tauschecke befindet\n"
 	.string "sich in der Nähe des Duellturms.\p"
 	.string "Hier kannst du Gewinnpunkte, die du in\n"
-	.string "der Kampfzone erhalten hast,\l"
-	.string "gegen tolle Preise eintauschen.$"
+	.string "der Kampfzone erhalten hast, gegen\l"
+	.string "tolle Preise eintauschen.$"
 #else
 	.string "The EXCHANGE SERVICE CORNER is near\n"
 	.string "the BATTLE TOWER.\p"
@@ -553,8 +552,7 @@ BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
 
 BattleFrontier_ReceptionGate_Text_YourGuideToRules:
 #if GERMAN
-	.string "Ich erkläre dir die Basisregeln, die\n"
-	.string "für\l"
+	.string "Ich erkläre dir die Basisregeln, die für\n"
 	.string "alle Herausforderungen der Kampfzone\l"
 	.string "gelten.$"
 #else
@@ -574,8 +572,8 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
 #if GERMAN
 	.string "Alle Herausforderungen der Kampfzone\n"
-	.string "haben zwei Kategorien:\l"
-	.string "Level 50 und Offene Kämpfe.$"
+	.string "haben zwei Kategorien: Level 50 und\l"
+	.string "Offene Kämpfe.$"
 #else
 	.string "All the challenges at the BATTLE\n"
 	.string "FRONTIER's facilities come in\l"
@@ -633,8 +631,7 @@ BattleFrontier_ReceptionGate_Text_MonEntryInfo:
 	.string "teilnehmen.\p"
 	.string "Eier und bestimmte Arten von Pokémon\n"
 	.string "sind dennoch nicht zugelassen.\p"
-	.string "Die Anzahl der Pokémon, die du mit in\n"
-	.string "den\l"
+	.string "Die Anzahl der Pokémon, die du mit in den\n"
 	.string "Kampf nehmen kannst, variiert von\l"
 	.string "Einrichtung zu Einrichtung.\p"
 	.string "In allen Einrichtungen gilt aber: Zwei\n"
@@ -689,11 +686,10 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 	.string "Talent auszeichnen, können als\l"
 	.string "Anerkennung Symbole erlangen.\p"
 	.string "Um diese Medaillen zu erhalten, müssen\n"
-	.string "mehrere Trainer in Folge besiegt\l"
-	.string "werden und manchmal auch bestimmte\p"
+	.string "mehrere Trainer in Folge besiegt werden\l"
+	.string "und manchmal auch bestimmte\p"
 	.string "Herausforderungen mehrmals bestritten\n"
-	.string "werden. Es ist sicherlich nicht\l"
-	.string "einfach,\l"
+	.string "werden. Es ist sicherlich nicht einfach,\l"
 	.string "hier zu gewinnen. Daher: Viel Glück!$"
 #else
 	.string "There are seven facilities at\n"
@@ -710,21 +706,18 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 #if GERMAN
-	.string "Du hast die Möglichkeit, einen Kampf\n"
-	.string "in\l"
+	.string "Du hast die Möglichkeit, einen Kampf in\n"
 	.string "deinen Kampfzonenpass aufnehmen zu\l"
 	.string "lassen.\p"
-	.string "Vielleicht möchtest du einen Kampf,\n"
-	.string "den\l"
+	.string "Vielleicht möchtest du einen Kampf, den\n"
 	.string "du gegen oder mit Freunden geführt\l"
 	.string "hast, dort eintragen lassen.\p"
 	.string "Oder du lässt Kämpfe in der Kampfzone\n"
-	.string "eintragen. Kämpfe der\l"
-	.string "Kampfipitis und der Kampfpyramide\l"
-	.string "werden nicht eingetragen.\p"
+	.string "eintragen. Kämpfe der Kampfipitis und\l"
+	.string "der Kampfpyramide werden nicht\l"
+	.string "eingetragen.\p"
 	.string "Am Ende eines Kampfes kannst du dich\n"
-	.string "entscheiden, ob du ihn eintragen\l"
-	.string "lassen\l"
+	.string "entscheiden, ob du ihn eintragen lassen\l"
 	.string "möchtest oder nicht.$"
 #else
 	.string "It is possible to record one battle\n"
@@ -742,8 +735,8 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
 #if GERMAN
 	.string "Trainer, die herausragend in der\n"
-	.string "Kampfzone gekämpft haben,\l"
-	.string "erhalten so genannte Gewinnpunkte.\p"
+	.string "Kampfzone gekämpft haben, erhalten so\l"
+	.string "genannte Gewinnpunkte.\p"
 	.string "Diese kannst du nach Belieben in der\n"
 	.string "Tauschecke gegen Preise eintauschen.$"
 #else

@@ -15,8 +15,7 @@ BattleFrontier_Lounge4_EventScript_Man::
 
 BattleFrontier_Lounge4_Text_WonderIfInterviewsAiring:
 #if GERMAN
-	.string "Ich frage mich, ob sie heute\n"
-	.string "Interviews\l"
+	.string "Ich frage mich, ob sie heute Interviews\n"
 	.string "mit starken Trainern ausstrahlen!$"
 #else
 	.string "I wonder if they'll be airing interviews\n"

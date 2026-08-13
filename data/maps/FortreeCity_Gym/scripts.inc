@@ -188,8 +188,8 @@ FortreeCity_Gym_Text_JaredDefeat:
 
 FortreeCity_Gym_Text_JaredPostBattle:
 #if GERMAN
-	.string "Ein Trainer muss clever genug sein,\n"
-	.string "mit den Wendungen im Kampf fertig zu\l"
+	.string "Ein Trainer muss clever genug sein, mit\n"
+	.string "den Wendungen im Kampf fertig zu\l"
 	.string "werden.\p"
 	.string "Mal sehen, ob du clever genug bist,\n"
 	.string "bis zu unserer Leiterin vorzudringen.$"
@@ -237,9 +237,8 @@ FortreeCity_Gym_Text_EdwardoPostBattle:
 
 FortreeCity_Gym_Text_FlintIntro:
 #if GERMAN
-	.string "Es gibt keinen Grund, dass Wibke,\n"
-	.string "unsere Arenaleiterin, sich mit dir\l"
-	.string "abgibt!\p"
+	.string "Es gibt keinen Grund, dass Wibke, unsere\n"
+	.string "Arenaleiterin, sich mit dir abgibt!\p"
 	.string "Ich bin schon stark genug für dich!$"
 #else
 	.string "There's no need for WINONA, our GYM\n"
@@ -349,8 +348,8 @@ FortreeCity_Gym_Text_DariusDefeat:
 FortreeCity_Gym_Text_DariusPostBattle:
 #if GERMAN
 	.string "Okay, du hast mich besiegt. Na und?\n"
-	.string "Aber gegen unsere Leiterin Wibke\l"
-	.string "hast du keine Chance!$"
+	.string "Aber gegen unsere Leiterin Wibke hast\l"
+	.string "du keine Chance!$"
 #else
 	.string "Sure, you beat me all right.\n"
 	.string "But you'd better watch it! Our LEADER\l"
@@ -380,8 +379,8 @@ FortreeCity_Gym_Text_WinonaIntro:
 
 FortreeCity_Gym_Text_WinonaDefeat:
 #if GERMAN
-	.string "Ich habe noch nie einen Trainer ge-\n"
-	.string "sehen, der seine Pokémon mit mehr\l"
+	.string "Ich habe noch nie einen Trainer\n"
+	.string "gesehen, der seine Pokémon mit mehr\l"
 	.string "Grazie trainiert als ich…\p"
 	.string "In Anbetracht deiner Fähigkeiten\n"
 	.string "überreiche ich dir diesen Arenaorden.$"
@@ -445,8 +444,7 @@ FortreeCity_Gym_Text_RegisteredWinona:
 
 FortreeCity_Gym_Text_WinonaPostBattle:
 #if GERMAN
-	.string "Auch wenn ich gegen dich verloren\n"
-	.string "habe,\l"
+	.string "Auch wenn ich gegen dich verloren habe,\n"
 	.string "gehört meine Liebe den Vogel-Pokémon.$"
 #else
 	.string "Though I fell to you, I will remain\n"

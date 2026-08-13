@@ -44,9 +44,9 @@ SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed::
 
 SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother::
 #if GERMAN
-	.string "Entschuldige, dass ich mich über\n"
-	.string "dich aufgeregt habe. Du siehst aus\l"
-	.string "wie mein kleiner Bruder…$"
+	.string "Entschuldige, dass ich mich über dich\n"
+	.string "aufgeregt habe. Du siehst aus wie mein\l"
+	.string "kleiner Bruder…$"
 #else
 	.string "Oh, I'm sorry for fussing over you.\n"
 	.string "You look like my little brother…$"
@@ -54,9 +54,9 @@ SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother::
 
 SSAnne_1F_Room6_Text_SorryYouLookLikeMySister::
 #if GERMAN
-	.string "Entschuldige, dass ich mich über\n"
-	.string "dich aufgeregt habe. Du siehst aus\l"
-	.string "wie meine kleine Schwester…$"
+	.string "Entschuldige, dass ich mich über dich\n"
+	.string "aufgeregt habe. Du siehst aus wie meine\l"
+	.string "kleine Schwester…$"
 #else
 	.string "Oh, I'm sorry for fussing over you.\n"
 	.string "You look like my little sister…$"

@@ -869,9 +869,8 @@ BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer_hns:
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth_hns:
 #if GERMAN
 	.string "Oh, wunderbar!\p"
-	.string "Als Belohnung für deinen Sieg sorge\n"
-	.string "ich dafür, dass deine Pokémon wieder\l"
-	.string "topfit\l"
+	.string "Als Belohnung für deinen Sieg sorge ich\n"
+	.string "dafür, dass deine Pokémon wieder topfit\l"
 	.string "sind.$"
 #else
 	.string "How wonderful…\p"
@@ -953,8 +952,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain_hns:
 	.string "…\p"
 	.string "Ich habe Berge bezwungen und Stürme\n"
 	.string "überstanden, um so weit zu kommen…\p"
-	.string "Irgendwie habe ich nicht das\n"
-	.string "Bedürfnis,\l"
+	.string "Irgendwie habe ich nicht das Bedürfnis,\n"
 	.string "wieder gegen denselben Gegner zu\l"
 	.string "verlieren…\p"
 	.string "… … … … …\n"
@@ -1027,8 +1025,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne_hns:
 #if GERMAN
 	.string "Ich heiße dich willkommen…\p"
 	.string "Da du dich für diesen Raum entschieden\n"
-	.string "hast, sorge ich dafür, dass eines\l"
-	.string "deiner\l"
+	.string "hast, sorge ich dafür, dass eines deiner\l"
 	.string "Pokémon wieder topfit wird.$"
 #else
 	.string "I welcome you…\p"

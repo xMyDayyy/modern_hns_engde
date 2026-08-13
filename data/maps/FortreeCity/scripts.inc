@@ -90,8 +90,8 @@ FortreeCity_Movement_KecleonFlee:
 FortreeCity_Text_SawGiganticPokemonInSky:
 #if GERMAN
 	.string "Niemand glaubt mir. Aber ich habe\n"
-	.string "wirklich ein riesiges Pokémon am\l"
-	.string "Himmel gesehen!\p"
+	.string "wirklich ein riesiges Pokémon am Himmel\l"
+	.string "gesehen!\p"
 	.string "Als es Richtung Route 131 flog, schien\n"
 	.string "es sich zu winden.\p"
 	.string "Schnüffel…\n"
@@ -214,9 +214,8 @@ FortreeCity_Text_UsedDevonScopePokemonFled:
 
 FortreeCity_Text_CitySign:
 #if GERMAN
-	.string "Baumhausen City\n"
-	.string "“Die Stadt in den Baumkronen,\l"
-	.string "verbrüdert mit der Natur.”$"
+	.string "Baumhausen City “Die Stadt in den\n"
+	.string "Baumkronen, verbrüdert mit der Natur.”$"
 #else
 	.string "FORTREE CITY\n"
 	.string "“The treetop city that frolics with\l"

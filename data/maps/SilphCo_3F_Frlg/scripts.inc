@@ -94,9 +94,8 @@ SilphCo_3F_Text_JoseDefeat::
 SilphCo_3F_Text_JosePostBattle::
 #if GERMAN
 	.string "Mist...\p"
-	.string "Das Team Rocket hätte mich für\n"
-	.string "meine Hilfe die Pokémon studieren\l"
-	.string "lassen!$"
+	.string "Das Team Rocket hätte mich für meine\n"
+	.string "Hilfe die Pokémon studieren lassen!$"
 #else
 	.string "Humph…\p"
 	.string "TEAM ROCKET said that if I helped\n"

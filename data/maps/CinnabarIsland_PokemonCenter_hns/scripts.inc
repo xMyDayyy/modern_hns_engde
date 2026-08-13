@@ -16,8 +16,8 @@ CinnabarIsland_PokemonCenter_EventScript_Fisher::
 
 CinnabarIsland_PokemonCenter1F_Text_CooltrainerF:
 #if GERMAN
-	.string "Der Arenaleiter der Zinnoberinsel\n"
-	.string "Pyro lebt angeblich alleine auf den\l"
+	.string "Der Arenaleiter der Zinnoberinsel Pyro\n"
+	.string "lebt angeblich alleine auf den\l"
 	.string "Seeschauminseln in einer Höhle…$"
 #else
 	.string "CINNABAR GYM's BLAINE apparently\n"

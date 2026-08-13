@@ -79,9 +79,9 @@ LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs:
 
 LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves:
 #if GERMAN
-	.string "Ich hätte gerne all die unterschied-\n"
-	.string "lichen TMs, aber ein Pokémon kann nur\l"
-	.string "vier Attacken lernen.$"
+	.string "Ich hätte gerne all die\n"
+	.string "unterschiedlichen TMs, aber ein\l"
+	.string "Pokémon kann nur vier Attacken lernen.$"
 #else
 	.string "I'd like to get all the different TMs,\n"
 	.string "but a POKéMON learns only four moves.$"

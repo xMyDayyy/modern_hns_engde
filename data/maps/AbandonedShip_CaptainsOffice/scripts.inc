@@ -27,8 +27,8 @@ AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner:
 	.string "Ich untersuche das Schiff im Auftrag\n"
 	.string "von Kapt. Brigg.\p"
 	.string "Er hat mich auch beauftragt, einen\n"
-	.string "Scanner zu finden, aber ich habe \l"
-	.string "ihn noch nicht gefunden.$"
+	.string "Scanner zu finden, aber ich habe ihn\l"
+	.string "noch nicht gefunden.$"
 #else
 	.string "I'm investigating this ship on behalf\n"
 	.string "of CAPT. STERN.\p"

@@ -81,10 +81,9 @@ Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl::
 Route12_NorthEntrance_2F_Text_ExplainTM27::
 #if GERMAN
 	.string "TM27 ist Rückkehr.\p"
-	.string "Behandelst du deine Pokémon\n"
-	.string "gut, geben sie Liebe zurück, indem\l"
-	.string "sie sich im Kampf besonders\l"
-	.string "anstrengen.$"
+	.string "Behandelst du deine Pokémon gut, geben\n"
+	.string "sie Liebe zurück, indem sie sich im\l"
+	.string "Kampf besonders anstrengen.$"
 #else
 	.string "TM27 is a move called RETURN…\p"
 	.string "If you treat your POKéMON good,\n"

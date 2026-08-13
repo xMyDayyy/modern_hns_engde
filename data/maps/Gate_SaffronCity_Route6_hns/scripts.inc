@@ -17,9 +17,8 @@ Route6_Text_SaffronGuardWelcome:
 	.string "der Heimat des Magnetzugs!\p"
 	.string "…Das sage ich sonst immer, aber\n"
 	.string "der Magnetzug fährt gerade nicht.\p"
-	.string "Die Stromzufuhr ist unterbrochen,\n"
-	.string "weil es im Kraftwerk einen\l"
-	.string "Unfall gab.$"
+	.string "Die Stromzufuhr ist unterbrochen, weil\n"
+	.string "es im Kraftwerk einen Unfall gab.$"
 #else
 	.string "Welcome to SAFFRON CITY, home of\n"
 	.string "the MAGNET TRAIN!\p"

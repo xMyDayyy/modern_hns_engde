@@ -22,8 +22,7 @@ MahoganyRedGyaradosHouse_Text_BlackBelt:
 	.string "Ich hörte, dass ein rotes Garados\n"
 	.string "am See erschienen sein soll.\p"
 	.string "Das ist seltsam, da schon normale\n"
-	.string "Garados in diesem See sehr selten\l"
-	.string "sind…$"
+	.string "Garados in diesem See sehr selten sind…$"
 #else
     .string "I heard that a red GYARADOS appeared\n"
     .string "at the LAKE.\p"
@@ -33,9 +32,8 @@ MahoganyRedGyaradosHouse_Text_BlackBelt:
 
 MahoganyRedGyaradosHouse_Text_Teacher:
 #if GERMAN
-	.string "Mein Lieblingsprogramm\n"
-	.string "im Radio? Ich würde sagen\l"
-	.string "Pokémon-Musik.$"
+	.string "Mein Lieblingsprogramm im Radio? Ich\n"
+	.string "würde sagen Pokémon-Musik.$"
 #else
     .string "My favorite radio program? I'd say\n"
     .string "POKéMON MUSIC.$"

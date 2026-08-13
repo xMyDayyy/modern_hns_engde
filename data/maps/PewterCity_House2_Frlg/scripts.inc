@@ -24,9 +24,8 @@ PewterCity_House2_Text_MonsLearnTechniquesAsTheyGrow::
 
 PewterCity_House2_Text_MonsEasierCatchIfStatused::
 #if GERMAN
-	.string "Pokémon sind einfacher zu fangen,\n"
-	.string "wenn sie verletzt sind oder\l"
-	.string "schlafen!\p"
+	.string "Pokémon sind einfacher zu fangen, wenn\n"
+	.string "sie verletzt sind oder schlafen!\p"
 	.string "Trotzdem gibt es keine\n"
 	.string "Erfolgsgarantie!$"
 #else

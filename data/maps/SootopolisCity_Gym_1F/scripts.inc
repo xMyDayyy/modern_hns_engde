@@ -205,9 +205,9 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 #if GERMAN
-	.string "Hui! Du hast Juan besiegt, von dem\n"
-	.string "man sagt, er sei der beste Trainer in\l"
-	.string "der Hoenn-Region.\p"
+	.string "Hui! Du hast Juan besiegt, von dem man\n"
+	.string "sagt, er sei der beste Trainer in der\l"
+	.string "Hoenn-Region.\p"
 	.string "Okay! Schau auf deinem\n"
 	.string "Trainerpass nach.\p"
 	.string "Wenn du alle Orden erhalten hast,\n"
@@ -224,8 +224,8 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 SootopolisCity_Gym_1F_Text_JuanIntro:
 #if GERMAN
 	.string "Lass mich dich was fragen.\n"
-	.string "Wusstest du das schon? Ach, ich\l"
-	.string "sollte nicht so schüchtern sein.\p"
+	.string "Wusstest du das schon? Ach, ich sollte\l"
+	.string "nicht so schüchtern sein.\p"
 	.string "Ich habe Wassili alles beigebracht,\n"
 	.string "was man über Pokémon wissen muss.\p"
 	.string "Und dann habe ich mein Amt als\n"
@@ -314,8 +314,7 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 	.string "mit der VM Kaskade Wasserfälle in jede\l"
 	.string "Richtung zu passieren.\p"
 	.string "Und damit du unseren Kampf stets in\n"
-	.string "Erinnerung behältst, gebe ich dir\l"
-	.string "dies…$"
+	.string "Erinnerung behältst, gebe ich dir dies…$"
 #else
 	.string "Having the RAIN BADGE shall assure you\n"
 	.string "the full obedience of all your POKéMON\l"
@@ -409,12 +408,11 @@ SootopolisCity_Gym_1F_Text_JuanPreRematch:
 	.string "Juan: Ah, diese Arena strahlt wieder\n"
 	.string "die alte Heiterkeit aus…\p"
 	.string "Aber unser junger Wirbelwind ist\n"
-	.string "zurückgekehrt, um uns erneut\l"
-	.string "zu testen.\p"
+	.string "zurückgekehrt, um uns erneut zu\l"
+	.string "testen.\p"
 	.string "Sicher doch, sicher doch.\p"
-	.string "Es ist mir eine Freude, mit dir immer\n"
-	.string "und immer wieder über das Wasser zu\l"
-	.string "gleiten.$"
+	.string "Es ist mir eine Freude, mit dir immer und\n"
+	.string "immer wieder über das Wasser zu gleiten.$"
 #else
 	.string "JUAN: Ah, this GYM had returned to its\n"
 	.string "usual state of serenity…\p"
@@ -437,8 +435,7 @@ SootopolisCity_Gym_1F_Text_JuanRematchDefeat:
 SootopolisCity_Gym_1F_Text_JuanPostRematch:
 #if GERMAN
 	.string "Juan: Wenn ich dich frage, ob du mein\n"
-	.string "Schüler werden willst, wirst du\l"
-	.string "bestimmt\l"
+	.string "Schüler werden willst, wirst du bestimmt\l"
 	.string "ablehnen.\p"
 	.string "Ich würde dir stattdessen gerne meinen\n"
 	.string "Mantel schenken.\p"
@@ -462,12 +459,11 @@ SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
 	.string "Juan: Ah, diese Arena strahlt wieder\n"
 	.string "die alte Heiterkeit aus…\p"
 	.string "Aber unser junger Wirbelwind ist\n"
-	.string "zurückgekehrt, um uns erneut\l"
-	.string "zu testen.\p"
+	.string "zurückgekehrt, um uns erneut zu\l"
+	.string "testen.\p"
 	.string "Sicher doch, sicher doch.\p"
-	.string "Es ist mir eine Freude, mit dir immer\n"
-	.string "und immer wieder über das Wasser zu\l"
-	.string "gleiten. \p"
+	.string "Es ist mir eine Freude, mit dir immer und\n"
+	.string "immer wieder über das Wasser zu gleiten.\p"
 	.string "Aber, nein, nein, nein, nein.\n"
 	.string "Du hast ja nur ein einziges Pokémon.\p"
 	.string "Ich wünsche, dass du mit mindestens\n"

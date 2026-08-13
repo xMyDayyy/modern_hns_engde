@@ -61,8 +61,7 @@ MagmaHideout_3F_1R_Text_Grunt16Intro:
 MagmaHideout_3F_1R_Text_Grunt16Defeat:
 #if GERMAN
 	.string "Oh, nein!\n"
-	.string "Dich habe ich ganz falsch\l"
-	.string "eingeschätzt.$"
+	.string "Dich habe ich ganz falsch eingeschätzt.$"
 #else
 	.string "Oh, no!\n"
 	.string "You're not to be trusted at all!$"

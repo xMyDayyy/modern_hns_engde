@@ -777,9 +777,9 @@ SecretBase_Text_RegistryInfo:
 #if GERMAN
 	.string "Die eingetragene Geheimbasis bleibt\n"
 	.string "erhalten, bis der Eigentümer umzieht.\p"
-	.string "Wird sie aus dem Grundbuch ent-\n"
-	.string "fernt, kann eine andere Geheimbasis\l"
-	.string "diesen Platz einnehmen.\p"
+	.string "Wird sie aus dem Grundbuch entfernt,\n"
+	.string "kann eine andere Geheimbasis diesen\l"
+	.string "Platz einnehmen.\p"
 	.string "Bis zu 10 Orte können eingetragen\n"
 	.string "werden.$"
 #else
@@ -816,8 +816,8 @@ SecretBase_Text_ToyTV:
 SecretBase_Text_SeedotTV:
 #if GERMAN
 	.string "Ein Spielzeug-Fernseher, der aussieht\n"
-	.string "wie ein Samurzel. Er scheint von\l"
-	.string "alleine davonrollen zu wollen…$"
+	.string "wie ein Samurzel. Er scheint von alleine\l"
+	.string "davonrollen zu wollen…$"
 #else
 	.string "A toy TV shaped like a SEEDOT.\n"
 	.string "It looks ready to roll away on its own…$"
@@ -826,8 +826,8 @@ SecretBase_Text_SeedotTV:
 SecretBase_Text_SkittyTV:
 #if GERMAN
 	.string "Ein Spielzeug-Fernseher, der aussieht\n"
-	.string "wie ein Eneco. Es scheint, als wolle\l"
-	.string "er sich langsam davonschleichen…$"
+	.string "wie ein Eneco. Es scheint, als wolle er\l"
+	.string "sich langsam davonschleichen…$"
 #else
 	.string "A toy TV shaped like a SKITTY.\n"
 	.string "It looks ready to stroll away…$"
@@ -838,8 +838,7 @@ SecretBase_Text_WouldYouLikeToMoveBases:
 	.string "Du kannst dir nur eine Geheimbasis\n"
 	.string "einrichten.\p"
 	.string "Möchtest du deine Geheimbasis in der\n"
-	.string "Nähe von {STR_VAR_1} hierher\l"
-	.string "verlegen?$"
+	.string "Nähe von {STR_VAR_1} hierher verlegen?$"
 #else
 	.string "You may only make one SECRET BASE.\p"
 	.string "Would you like to move from the SECRET\n"

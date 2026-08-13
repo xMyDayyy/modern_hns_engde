@@ -319,8 +319,8 @@ VermilionCity_Text_Eusine:
 	.string "Ich habe Suicune jetzt allerdings lange\l"
 	.string "genug verfolgt, um allmählich die Regeln\l"
 	.string "zu erkennen, nach denen es handelt.\p"
-	.string "Suicune erscheint vor allem an Orten,\n"
-	.string "wo es Wasser gibt!\l"
+	.string "Suicune erscheint vor allem an Orten, wo\n"
+	.string "es Wasser gibt!\l"
 	.string "Das würde demnach bedeuten, dass…$"
 #else
 	.string "EUSINE: That was so close!\n"
@@ -376,9 +376,8 @@ VermilionCity_Text_Machop1:
 
 VermilionCity_Text_Machop2:
 #if GERMAN
-	.string "Ein Machollo\n"
-	.string "brüllt laut, während es auf den Boden\l"
-	.string "stampft.$"
+	.string "Ein Machollo brüllt laut, während es auf\n"
+	.string "den Boden stampft.$"
 #else
 	.string "A MACHOP is growling while\n"
 	.string "stomping the ground flat.$"
@@ -405,9 +404,8 @@ VermilionCity_Text_SnorlaxSleeping:
 
 VermilionCity_Text_RadioNearSnorlax:
 #if GERMAN
-	.string "Der PokéCom wird\n"
-	.string "in der Nähe des schlafenden Relaxos\l"
-	.string "platziert…\p"
+	.string "Der PokéCom wird in der Nähe des\n"
+	.string "schlafenden Relaxos platziert…\p"
 	.string "…\p"
 	.string "Relaxo ist aufgewacht!$"
 #else
@@ -469,12 +467,10 @@ VermilionCity_Text_BadgeGuy_AllBadges:
 
 VermilionCity_Text_BadgeGuy_BattleEdge:
 #if GERMAN
-	.string "Es ist vorteilhaft, wenn du\n"
-	.string "Pokémon verschie-\l"
-	.string "dener Elemente kämpfen lässt.\p"
-	.string "Ich bin sicher,\n"
-	.string "dass die Orden der Arenen in Kanto dir\l"
-	.string "helfen werden.$"
+	.string "Es ist vorteilhaft, wenn du Pokémon\n"
+	.string "verschiedener Elemente kämpfen lässt.\p"
+	.string "Ich bin sicher, dass die Orden der\n"
+	.string "Arenen in Kanto dir helfen werden.$"
 #else
 	.string "Having a variety of POKéMON types\n"
 	.string "should give you an edge in battle.\p"
@@ -506,9 +502,9 @@ VermilionCity_Text_Sign:
 
 VermilionCity_Text_GymSign:
 #if GERMAN
-	.string "Pokémon-Arena von Orania City\n"
-	.string "Leiter: Major Bob\l"
-	.string "Ein Blitz am Himmel des Militärs$"
+	.string "Pokémon-Arena von Orania City Leiter:\n"
+	.string "Major Bob Ein Blitz am Himmel des\l"
+	.string "Militärs$"
 #else
 	.string "VERMILION CITY\n"
 	.string "POKéMON GYM\p"
@@ -629,25 +625,23 @@ VermilionCity_Text_StevenIntro:
 	.string "Der Champion aus der Hoenn-region.\p"
 	.string "Haben wir uns schon… getroffen?\p"
 	.string "Das ist nicht möglich.\p"
-	.string "Alle Trainer, gegen die ich\n"
-	.string "gekämpft habe, haben irgendwie\l"
-	.string "denselben Blick.\p"
+	.string "Alle Trainer, gegen die ich gekämpft\n"
+	.string "habe, haben irgendwie denselben Blick.\p"
 	.string "Besonders die, die mir harte\n"
 	.string "Kämpfe geliefert haben.\p"
 	.string "Ich bin geschäftlich in Kanto.\n"
-	.string "Viele Hoenn Pokémon sind kürzlich\l"
-	.string "in diese Region eingewandert.\l"
+	.string "Viele Hoenn Pokémon sind kürzlich in\l"
+	.string "diese Region eingewandert.\l"
 	.string "Das gefährdet das natürliche\l"
 	.string "Ökosystem hier.\p"
-	.string "Mit Hilfe meines Unternehmens\n"
-	.string "schaffe ich daher einen speziellen\l"
-	.string "Lebensraum für die invasivsten\l"
-	.string "Arten.\p"
+	.string "Mit Hilfe meines Unternehmens schaffe\n"
+	.string "ich daher einen speziellen Lebensraum\l"
+	.string "für die invasivsten Arten.\p"
 	.string "Halt die Augen offen und fange\n"
 	.string "alle Hoenn-Pokémon, die du siehst.\p"
 	.string "Manche Trainer haben sogar eines\n"
-	.string "gesichtet, das wie ein Jet durch\l"
-	.string "den Himmel fliegt…\l"
+	.string "gesichtet, das wie ein Jet durch den\l"
+	.string "Himmel fliegt…\l"
 	.string "Welche Farbe hatte es nochmal?$"
 #else
 	.string "Hi!\n"
@@ -679,8 +673,8 @@ VermilionCity_Text_StevenOutro:
 #if GERMAN
 	.string "Ah, stimmt.\p"
 	.string "Ich muss weiter.\n"
-	.string "Vielleicht kreuzen sich unsere\l"
-	.string "Wege nochmal.$"
+	.string "Vielleicht kreuzen sich unsere Wege\l"
+	.string "nochmal.$"
 #else
 	.string "Ah, that's right.\p"
 	.string "I must go.\n"

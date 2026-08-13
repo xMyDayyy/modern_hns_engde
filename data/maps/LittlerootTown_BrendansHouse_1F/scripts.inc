@@ -286,8 +286,7 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 PlayersHouse_1F_Text_IsntItNiceInHere:
 #if GERMAN
 	.string "Mutter: Siehst du, {PLAYER}?\n"
-	.string "Hier ist es doch auch schön, oder\l"
-	.string "nicht?$"
+	.string "Hier ist es doch auch schön, oder nicht?$"
 #else
 	.string "MOM: See, {PLAYER}?\n"
 	.string "Isn't it nice in here, too?$"
@@ -494,9 +493,8 @@ PlayersHouse_1F_Text_RunningShoesManual:
 #if GERMAN
 	.string "Dies ist die Bedienungsanleitung für\n"
 	.string "die Turbotreter.\p"
-	.string "“Halte den B-Knopf gedrückt,\n"
-	.string "wenn du diese Turbotreter anhast,\l"
-	.string "um zu rennen!\p"
+	.string "“Halte den B-Knopf gedrückt, wenn du\n"
+	.string "diese Turbotreter anhast, um zu rennen!\p"
 	.string "Schlüpf in diese Turbotreter und\n"
 	.string "erobere die Welt da draußen!”$"
 #else
@@ -513,8 +511,8 @@ PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "Vater: Hm?\p"
 	.string "Hey, das ist ja {PLAYER}!\p"
 	.string "Du hast uns ja schon lange nicht mehr\n"
-	.string "besucht… Du siehst irgendwie\l"
-	.string "stärker aus.\p"
+	.string "besucht… Du siehst irgendwie stärker\l"
+	.string "aus.\p"
 	.string "Das ist zumindest mein Eindruck. Aber\n"
 	.string "dein alter Herr gibt noch nicht auf.\p"
 	.string "Oh, ich habe hier etwas für dich.\n"
@@ -584,8 +582,8 @@ PlayersHouse_1F_Text_IsThatABreakingStory:
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
 #if GERMAN
 	.string "Hier sind die Sondernachrichten.\p"
-	.string "Wir haben die Meldung erhalten, dass\n"
-	.string "in der Hoenn-Region ein Grssss…\l"
+	.string "Wir haben die Meldung erhalten, dass in\n"
+	.string "der Hoenn-Region ein Grssss…\l"
 	.string "farbiges Pokémon gesichtet wurde.\p"
 	.string "Die Identität des Pokémon konnte\n"
 	.string "bisher nicht festgestellt werden.\p"
@@ -617,8 +615,7 @@ PlayersHouse_1F_Text_WhatColorDidTheySay:
 
 PlayersHouse_1F_Text_StillUnknownPokemon:
 #if GERMAN
-	.string "Mutter: Also, ist das nicht\n"
-	.string "unglaublich?\l"
+	.string "Mutter: Also, ist das nicht unglaublich?\n"
 	.string "Es gibt tatsächlich noch unbekannte\l"
 	.string "Pokémon!$"
 #else
@@ -633,8 +630,8 @@ BrendansHouse_1F_Text_ChampionVisit:
 	.string "… … … … … … … … …\p"
 	.string "Du bist {PLAYER}{KUN} aus Johto!\p"
 	.string "Mein Mann hat gestern noch von dir\n"
-	.string "gesprochen. Er verfolgt die Liga\l"
-	.string "im Radio, jeden Abend.\p"
+	.string "gesprochen. Er verfolgt die Liga im\l"
+	.string "Radio, jeden Abend.\p"
 	.string "Setz dich doch. Ach, du willst sicher\n"
 	.string "weiter - ihr Trainer habt es ja immer\l"
 	.string "eilig.$"
@@ -666,9 +663,9 @@ LittlerootTown_BrendansHouse_1F_Text_NormansFrau:
 #if GERMAN
 	.string "Ah, ein Besucher! Mein Mann Norman\n"
 	.string "leitet die Arena in Blütenburg City.\p"
-	.string "Unser Sohn Brix will in seine\n"
-	.string "Fußstapfen treten - er ist schon\l"
-	.string "jetzt ein sehr guter Trainer.\p"
+	.string "Unser Sohn Brix will in seine Fußstapfen\n"
+	.string "treten - er ist schon jetzt ein sehr\l"
+	.string "guter Trainer.\p"
 	.string "Wenn du Norman triffst: Sag ihm, er\n"
 	.string "soll sich nicht überarbeiten!$"
 #else
@@ -684,9 +681,9 @@ LittlerootTown_BrendansHouse_1F_Text_NormansFrau:
 
 LittlerootTown_BrendansHouse_1F_Text_NormansKind:
 #if GERMAN
-	.string "Papa ist der Arenaleiter von\n"
-	.string "Blütenburg City! Und mein großer\l"
-	.string "Bruder Brix ist auch Trainer!\p"
+	.string "Papa ist der Arenaleiter von Blütenburg\n"
+	.string "City! Und mein großer Bruder Brix ist\l"
+	.string "auch Trainer!\p"
 	.string "Wenn ich groß bin, fordere ich\n"
 	.string "beide heraus - versprochen!$"
 #else

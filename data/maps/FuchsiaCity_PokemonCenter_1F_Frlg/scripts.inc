@@ -44,9 +44,8 @@ FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
 #if GERMAN
 	.string "Westlich von Vertania City liegt\n"
 	.string "ein Pfad.\p"
-	.string "Er führt zum Hauptquartier der\n"
-	.string "Pokémon Liga, der höchsten Instanz\l"
-	.string "für Trainer.$"
+	.string "Er führt zum Hauptquartier der Pokémon\n"
+	.string "Liga, der höchsten Instanz für Trainer.$"
 #else
 	.string "There's a narrow trail west of\n"
 	.string "VIRIDIAN CITY.\p"

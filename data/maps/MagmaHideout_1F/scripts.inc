@@ -23,8 +23,7 @@ MagmaHideout_1F_Text_Grunt1Intro:
 	.string "zugeteilt und zwar in der Reihenfolge,\l"
 	.string "\p"
 	.string "in der wir angetreten sind. Daher muss\n"
-	.string "ich hier in der Ecke bleiben. Ich\l"
-	.string "komme\l"
+	.string "ich hier in der Ecke bleiben. Ich komme\l"
 	.string "nämlich immer zu spät zum Appell.$"
 #else
 	.string "When TEAM MAGMA has roll call, we get\n"

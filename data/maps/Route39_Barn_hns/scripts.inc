@@ -142,8 +142,8 @@ Route39_Barn_EventScript_TwinsAfter::
 Route39_Text_BarnTwinMoomooIsSick:
 #if GERMAN
 	.string "Muhkuh ist krank… es braucht jetzt\n"
-	.string "sehr viele von den Sinelbeeren,\l"
-	.string "die es so gerne mag…$"
+	.string "sehr viele von den Sinelbeeren, die es\l"
+	.string "so gerne mag…$"
 #else
 	.string "MOOMOO is sick…\p"
 	.string "She needs lots of ORAN BERRIES.$"

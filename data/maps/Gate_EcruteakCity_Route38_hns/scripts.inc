@@ -13,8 +13,8 @@ Route38_Text_EcruteakGateOfficer:
 #if GERMAN
 	.string "Sag mal, wo kommst du noch mal her?\p"
 	.string "Was? Aus Neuborkia?!?\p"
-	.string "Aber das ist doch… ja, das ist die\n"
-	.string "Stadt, in der Professor Lind wohnt!\l"
+	.string "Aber das ist doch… ja, das ist die Stadt,\n"
+	.string "in der Professor Lind wohnt!\l"
 	.string "Du hast einen weiten Weg hinter dir!$"
 #else
 	.string "Where did you say you're from?\p"

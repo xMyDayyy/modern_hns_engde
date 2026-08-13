@@ -71,8 +71,8 @@ EverGrandeCity_DrakesRoom_Text_IntroSpeech:
 	.string "Manchmal behindern sie uns.\n"
 	.string "Manchmal helfen sie uns.\p"
 	.string "Weißt du, was es bedeutet, mit Pokémon\n"
-	.string "als gleichwertigen Partnern\l"
-	.string "zu kämpfen?\p"
+	.string "als gleichwertigen Partnern zu\l"
+	.string "kämpfen?\p"
 	.string "Weißt du, was verlangt wird?\p"
 	.string "Wenn du das nicht weißt, wirst du\n"
 	.string "hier an dieser Stelle scheitern!$"
@@ -100,8 +100,8 @@ EverGrandeCity_DrakesRoom_Text_Defeat:
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
 #if GERMAN
 	.string "Dir gebührt wahre Ehre, da du als\n"
-	.string "Trainer der Pokémon so weit\l"
-	.string "gekommen bist.\p"
+	.string "Trainer der Pokémon so weit gekommen\l"
+	.string "bist.\p"
 	.string "Du weißt, was verlangt wird.\p"
 	.string "Ja, ein Trainer braucht ein ehrliches\n"
 	.string "Herz.\p"

@@ -85,8 +85,8 @@ EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
 #if GERMAN
 	.string "Wassili: Dieser Raum…\p"
 	.string "Hier verzeichnen wir die Pokémon, die\n"
-	.string "siegreich aus harten Kämpfen hervorge-\l"
-	.string "gangen sind.\p"
+	.string "siegreich aus harten Kämpfen\l"
+	.string "hervorgegangen sind.\p"
 	.string "Hier werden die Champs der Pokémon\n"
 	.string "Liga geehrt.$"
 #else
@@ -101,8 +101,7 @@ EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
 EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames:
 #if GERMAN
 	.string "Wassili: Komm, schreiben wir deinen\n"
-	.string "Namen nieder, als ein Trainer, der\l"
-	.string "über\l"
+	.string "Namen nieder, als ein Trainer, der über\l"
 	.string "die Pokémon Liga triumphiert hat - und\l"
 	.string "die Namen deiner Partner ebenfalls.$"
 #else

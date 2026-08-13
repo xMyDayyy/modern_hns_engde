@@ -146,8 +146,8 @@ MagmaHideout_4F_Text_Grunt11Intro:
 MagmaHideout_4F_Text_Grunt11Defeat:
 #if GERMAN
 	.string "Wenn der Verstand durch andere Dinge\n"
-	.string "abgelenkt ist, ist es unmöglich,\l"
-	.string "zu gewinnen…$"
+	.string "abgelenkt ist, ist es unmöglich, zu\l"
+	.string "gewinnen…$"
 #else
 	.string "I guess it's impossible to win if one\n"
 	.string "doesn't have a calm mind…$"
@@ -164,8 +164,7 @@ MagmaHideout_4F_Text_Grunt11PostBattle:
 MagmaHideout_4F_Text_Grunt12Intro:
 #if GERMAN
 	.string "Muahahaha! Bald! Sehr bald!\n"
-	.string "Werden wir unser großes Ziel\l"
-	.string "erreichen!$"
+	.string "Werden wir unser großes Ziel erreichen!$"
 #else
 	.string "Fuhahaha!\n"
 	.string "Soon! Very soon!\l"
@@ -193,8 +192,7 @@ MagmaHideout_4F_Text_Grunt12PostBattle:
 MagmaHideout_4F_Text_Grunt13Intro:
 #if GERMAN
 	.string "Du bist noch nicht fertig!\n"
-	.string "An mir kommst du nicht so leicht\l"
-	.string "vorbei!$"
+	.string "An mir kommst du nicht so leicht vorbei!$"
 #else
 	.string "You're not finished yet!\n"
 	.string "You're not getting by me easily!$"
@@ -217,8 +215,7 @@ MagmaHideout_4F_Text_Grunt13PostBattle:
 MagmaHideout_4F_Text_TabithaIntro:
 #if GERMAN
 	.string "Hähähä!\n"
-	.string "Du hast es bis hierher geschafft,\l"
-	.string "daher\l"
+	.string "Du hast es bis hierher geschafft, daher\l"
 	.string "verrate ich dir etwas!\p"
 	.string "Es stimmt!\n"
 	.string "Dort drüben schläft Groudon!\p"
@@ -249,8 +246,8 @@ MagmaHideout_4F_Text_TabithaDefeat:
 MagmaHideout_4F_Text_TabithaPostBattle:
 #if GERMAN
 	.string "Und während du deine Zeit mit mir\n"
-	.string "verschwendest… sollte Marc\l"
-	.string "Groudon aufgeweckt haben…$"
+	.string "verschwendest… sollte Marc Groudon\l"
+	.string "aufgeweckt haben…$"
 #else
 	.string "…And while you wasted time with me,\n"
 	.string "MAXIE should have awakened GROUDON…$"
@@ -297,9 +294,9 @@ MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
 MagmaHideout_4F_Text_MaxieOhItWasYou:
 #if GERMAN
 	.string "Marc: Du warst das also!\p"
-	.string "Ich habe gesehen, wie du unerlaubter-\n"
-	.string "weise deine Nase hier und dort\l"
-	.string "hineingesteckt hast.\p"
+	.string "Ich habe gesehen, wie du\n"
+	.string "unerlaubterweise deine Nase hier und\l"
+	.string "dort hineingesteckt hast.\p"
 	.string "Ich verstehe es jetzt!\n"
 	.string "Du hast eine ganz billige Nummer\l"
 	.string "abgezogen!$"

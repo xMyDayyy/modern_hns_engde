@@ -170,9 +170,8 @@ Route43_Text_BrentPostRematch:
 Route43_Text_PokemaniacRonSeen:
 #if GERMAN
 	.string "Stell dir mal vor!\p"
-	.string "so ein Typ namens {RIVAL}\n"
-	.string "hat sich über mein Pokémon lustig\l"
-	.string "gemacht!\p"
+	.string "so ein Typ namens {RIVAL} hat sich\n"
+	.string "über mein Pokémon lustig gemacht!\p"
 	.string "Unverschämtheit!\n"
 	.string "Mein Pokémon ist toll!$"
 #else

@@ -348,8 +348,7 @@ CeladonCity_DepartmentStore_Roof_Text_ExplainTM20::
 #if GERMAN
 	.string "TM20 ist Bodyguard!\p"
 	.string "Diese Attacke verhindert\n"
-	.string "Statusprobleme bei deinen\l"
-	.string "Pokémon!$"
+	.string "Statusprobleme bei deinen Pokémon!$"
 #else
 	.string "TM20 contains SAFEGUARD.\p"
 	.string "It's a move that prevents status\n"

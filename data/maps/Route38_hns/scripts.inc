@@ -118,9 +118,9 @@ Route38_Text_BirdKeeperTobyBeaten:
 
 Route38_Text_BirdKeeperTobyAfter:
 #if GERMAN
-	.string "Ich habe vor, in Anemonia City\n"
-	.string "zu trainieren und meinen Pokémon\l"
-	.string "das Fliegen beizubringen.$"
+	.string "Ich habe vor, in Anemonia City zu\n"
+	.string "trainieren und meinen Pokémon das\l"
+	.string "Fliegen beizubringen.$"
 #else
 	.string "I plan to train in CIANWOOD CITY\n"
 	.string "to teach my POKéMON how to FLY.$"
@@ -160,12 +160,10 @@ Route38_Text_SchoolboyChadAfter:
 
 Route38_Text_ChadRegister:
 #if GERMAN
-    .string "Ich muss so viele Prüfungen\n"
-    .string "schreiben, dass ich kaum Zeit\l"
-    .string "für Pokémon habe.\p"
-    .string "Darum konzentriere ich mich\n"
-    .string "voll und ganz, wenn ich einmal\l"
-    .string "spielen kann.$"
+    .string "Ich muss so viele Prüfungen schreiben,\n"
+    .string "dass ich kaum Zeit für Pokémon habe.\p"
+    .string "Darum konzentriere ich mich voll und\n"
+    .string "ganz, wenn ich einmal spielen kann.$"
 #else
 	.string "I have to take so many\n"
 	.string "tests, I don't have much\l"
@@ -194,12 +192,10 @@ Route38_Text_ChadRematchDefeat:
 
 Route38_Text_ChadPostRematch:
 #if GERMAN
-    .string "Ich muss so viele Prüfungen\n"
-    .string "schreiben, dass ich kaum Zeit\l"
-    .string "für Pokémon habe.\p"
-    .string "Darum konzentriere ich mich\n"
-    .string "voll und ganz, wenn ich einmal\l"
-    .string "spielen kann.$"
+    .string "Ich muss so viele Prüfungen schreiben,\n"
+    .string "dass ich kaum Zeit für Pokémon habe.\p"
+    .string "Darum konzentriere ich mich voll und\n"
+    .string "ganz, wenn ich einmal spielen kann.$"
 #else
 	.string "I have to take so many\n"
 	.string "tests, I don't have much\l"
@@ -291,8 +287,8 @@ Route38_Text_SailorHarryBeaten:
 
 Route38_Text_SailorHarryAfter:
 #if GERMAN
-	.string "Alle möglichen Menschen in\n"
-	.string "allen möglichen Ländern leben glücklich\l"
+	.string "Alle möglichen Menschen in allen\n"
+	.string "möglichen Ländern leben glücklich\l"
 	.string "zusammen mit den Pokémon.$"
 #else
 	.string "All kinds of people around\n"

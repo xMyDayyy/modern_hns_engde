@@ -70,8 +70,8 @@ CeladonDeptStore6F_Text_SuperNerd:
 
 CeladonDeptStore6F_Text_Youngster:
 #if GERMAN
-	.string "Ach Mann, hier gibt’s ja\n"
-	.string "gar keine Videospiele!\l"
+	.string "Ach Mann, hier gibt’s ja gar keine\n"
+	.string "Videospiele!\l"
 	.string "Ich will Videospiele zocken!$"
 #else
 	.string "Aww! There's no games here!\p"

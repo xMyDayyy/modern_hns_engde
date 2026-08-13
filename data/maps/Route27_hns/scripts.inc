@@ -472,9 +472,8 @@ TohjoFalls_Text_Sign:
 Route27_Text_FisherScottSeen:
 #if GERMAN
 	.string "Heute fühle ich mich großartig!\p"
-	.string "Ich fühle mich so\n"
-	.string "stark, dass ich den Liga-Champ\l"
-	.string "besiegen könnte!$"
+	.string "Ich fühle mich so stark, dass ich den\n"
+	.string "Liga-Champ besiegen könnte!$"
 #else
     .string "I'm feeling great today!\p"
     .string "I feel like I could boot even the\n"

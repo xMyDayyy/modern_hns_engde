@@ -94,9 +94,9 @@ RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp:
 
 RustboroCity_DevonCorp_1F_Text_StaffGotRobbed:
 #if GERMAN
-	.string "Einem Mitglied unseres Forschungs-\n"
-	.string "teams ist blöderweise ein wichtiges\l"
-	.string "Paket gestohlen worden.$"
+	.string "Einem Mitglied unseres\n"
+	.string "Forschungsteams ist blöderweise ein\l"
+	.string "wichtiges Paket gestohlen worden.$"
 #else
 	.string "One of our research staff stupidly\n"
 	.string "got robbed of an important parcel.$"
@@ -106,8 +106,7 @@ RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
 #if GERMAN
 	.string "Hey, diese Turbotreter!\n"
 	.string "Die haben wir auch entwickelt!\p"
-	.string "Ich freue mich immer, wenn ich\n"
-	.string "jemanden\l"
+	.string "Ich freue mich immer, wenn ich jemanden\n"
 	.string "treffe, der eines unserer Produkte\l"
 	.string "benutzt.$"
 #else
@@ -120,8 +119,7 @@ RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
 RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
 #if GERMAN
 	.string "Das gestohlene Paket…\p"
-	.string "Nun, es ist natürlich sehr wichtig,\n"
-	.string "aber\l"
+	.string "Nun, es ist natürlich sehr wichtig, aber\n"
 	.string "mit dem Inhalt kann niemand etwas\l"
 	.string "anfangen.\p"
 	.string "Meiner Einschätzung nach ist der Dieb\n"

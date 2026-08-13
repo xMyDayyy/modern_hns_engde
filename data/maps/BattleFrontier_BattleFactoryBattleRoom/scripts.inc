@@ -258,8 +258,7 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
 	.string "Du scheinst schon auf der richtigen\n"
 	.string "Fährte zu sein, stehst dir aber selbst\l"
 	.string "\p"
-	.string "im Weg. Also hör zu! Wissen bekommt\n"
-	.string "man\l"
+	.string "im Weg. Also hör zu! Wissen bekommt man\n"
 	.string "nicht nur durchs Lesen oder Arbeiten.\p"
 	.string "\p"
 	.string "So etwas… muss nicht immer\n"
@@ -361,8 +360,7 @@ BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn:
 BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass:
 #if GERMAN
 	.string "Kevin: Was war das denn…\n"
-	.string "Du gehörst bereits in eine andere\l"
-	.string "Liga. \p"
+	.string "Du gehörst bereits in eine andere Liga.\p"
 	.string "Meine Güte! Wow!\n"
 	.string "Gib mir deinen Kampfzonenpass!$"
 #else

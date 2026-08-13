@@ -258,8 +258,7 @@ MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
 MeteorFalls_1F_1R_Text_HoldItRightThereMagma:
 #if GERMAN
 	.string "Bleibt sofort stehen, Team Magma!\p"
-	.string "Ihr irrt euch gewaltig, wenn ihr\n"
-	.string "meint,\l"
+	.string "Ihr irrt euch gewaltig, wenn ihr meint,\n"
 	.string "ihr könntet mit der Welt machen, was\p"
 	.string "ihr\n"
 	.string "wollt!$"
@@ -358,9 +357,9 @@ MeteorFalls_1F_1R_Text_MeetProfCozmo:
 #if GERMAN
 	.string "Ich… Ich bin Kosmo…\n"
 	.string "Ich bin Professor…\p"
-	.string "Einige Typen von Team Magma haben\n"
-	.string "mich überredet, sie zu Meteor-\l"
-	.string "fälle zu führen…\p"
+	.string "Einige Typen von Team Magma haben mich\n"
+	.string "überredet, sie zu Meteorfälle zu\l"
+	.string "führen…\p"
 	.string "Sie haben mich hereingelegt.\n"
 	.string "Sie haben sogar den Meteoriten\l"
 	.string "mitgenommen…\p"

@@ -142,9 +142,8 @@ CeruleanCity_House1_Text_SpeedStatFly::
 #if GERMAN
 	.string "Die Initiative deiner Pokémon\n"
 	.string "nimmt zu.\p"
-	.string "Des Weiteren ist es dir möglich,\n"
-	.string "Fliegen außerhalb von Kämpfen\l"
-	.string "einzusetzen.$"
+	.string "Des Weiteren ist es dir möglich, Fliegen\n"
+	.string "außerhalb von Kämpfen einzusetzen.$"
 #else
 	.string "The SPEED stat of all your\n"
 	.string "POKéMON increases a little bit.\p"
@@ -192,9 +191,8 @@ CeruleanCity_House1_Text_ObeyLv70RockSmash::
 	.string "Pokémon!\p"
 	.string "Pokémon höherer Level gehorchen\n"
 	.string "dir jedoch nicht!\p"
-	.string "Du kannst den Zerschmetterer\n"
-	.string "nun auch außerhalb eines Kampfes\l"
-	.string "anwenden.$"
+	.string "Du kannst den Zerschmetterer nun auch\n"
+	.string "außerhalb eines Kampfes anwenden.$"
 #else
 	.string "POKéMON up to Lv. 70 will obey\n"
 	.string "you.\p"

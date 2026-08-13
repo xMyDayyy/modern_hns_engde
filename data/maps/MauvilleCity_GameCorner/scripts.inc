@@ -741,8 +741,8 @@ MauvilleCity_GameCorner_Text_NoRoomForPlacingDecor:
 MauvilleCity_GameCorner_Text_OhIsThatSo:
 #if GERMAN
 	.string "Oh, wirklich?\n"
-	.string "Du musst einige Münzen sparen, bevor\l"
-	.string "du wiederkommst.$"
+	.string "Du musst einige Münzen sparen, bevor du\l"
+	.string "wiederkommst.$"
 #else
 	.string "Oh, is that so? \n"
 	.string "You need to save some COINS before\l"
@@ -811,8 +811,8 @@ MauvilleCity_GameCorner_Text_DontBeNegative:
 MauvilleCity_GameCorner_Text_CantWinJackpot:
 #if GERMAN
 	.string "Es gibt einen Preis, den ich haben\n"
-	.string "möchte, aber ich kann den Jackpot\l"
-	.string "nicht knacken.$"
+	.string "möchte, aber ich kann den Jackpot nicht\l"
+	.string "knacken.$"
 #else
 	.string "There's a prize I want, but I can't win\n"
 	.string "the jackpot.$"
@@ -869,8 +869,7 @@ MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates:
 
 MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime:
 #if GERMAN
-	.string "Hier kann man leicht die Zeit\n"
-	.string "vergessen.\l"
+	.string "Hier kann man leicht die Zeit vergessen.\n"
 	.string "Ich sollte wieder an die Arbeit gehen.$"
 #else
 	.string "It's easy to lose track of time in here. \n"
@@ -891,8 +890,7 @@ MauvilleCity_GameCorner_Text_RouletteOnlyLuck:
 	.string "Dieses Roulette-Dingens…\n"
 	.string "Es ist ziemlich anstrengend.\p"
 	.string "Ich versuche, zu gewinnen. Aber ich\n"
-	.string "verliere immer. Doch ich gebe nicht\l"
-	.string "auf.$"
+	.string "verliere immer. Doch ich gebe nicht auf.$"
 #else
 	.string "This ROULETTE thing…\n"
 	.string "It's rather demanding.\p"
@@ -904,8 +902,7 @@ MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed:
 	.string "Bis zu drei Münzen können an den ein-\n"
 	.string "armigen Banditen eingesetzt werden.\p"
 	.string "Je mehr Münzen du einsetzt, desto\n"
-	.string "höher ist deine Chance auf den\l"
-	.string "Jackpot.$"
+	.string "höher ist deine Chance auf den Jackpot.$"
 #else
 	.string "Up to three COINS can be used to play\n"
 	.string "the SLOTS.$"
@@ -914,9 +911,9 @@ MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed:
 MauvilleCity_GameCorner_Text_DifficultToStopOn7:
 #if GERMAN
 	.string "Kannst du es genau bei “7” stoppen?\p"
-	.string "Wenn es bei “7” stoppt,\n"
-	.string "während ein Reel Time gespielt wird,\l"
-	.string "erhältst du Extra-Münzen.$"
+	.string "Wenn es bei “7” stoppt, während ein\n"
+	.string "Reel Time gespielt wird, erhältst du\l"
+	.string "Extra-Münzen.$"
 #else
 	.string "It's very difficult to make it stop\n"
 	.string "right on “7.”\p"

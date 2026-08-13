@@ -72,17 +72,16 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "die Arena übergeben.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "Groudon und Kyogre, die beiden\n"
-	.string "Pokémon, die hier für Chaos sorgen,\l"
-	.string "sind uralte Pokémon.\p"
+	.string "Groudon und Kyogre, die beiden Pokémon,\n"
+	.string "die hier für Chaos sorgen, sind uralte\l"
+	.string "Pokémon.\p"
 	.string "Aber es gibt nicht nur zwei alte\n"
 	.string "Pokémon.\p"
 	.string "Es gibt noch ein drittes - irgendwo.\p"
 	.string "Irgendwo gibt es das uralte Pokémon\n"
 	.string "Rayquaza.\p"
-	.string "Die Legende sagt, dass es Rayquaza\n"
-	.string "war, das die beiden Gegner damals\l"
-	.string "beruhigte.\p"
+	.string "Die Legende sagt, dass es Rayquaza war,\n"
+	.string "das die beiden Gegner damals beruhigte.\p"
 	.string "Aber ich weiß auch nicht, wo sich\n"
 	.string "Rayquaza aufhält…$"
 #else
@@ -158,9 +157,8 @@ CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
 
 CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
 #if GERMAN
-	.string "Wassili: Bitte? Du erinnerst dich\n"
-	.string "nicht? Hmm… Dann haben wir ein\l"
-	.string "Problem… \p"
+	.string "Wassili: Bitte? Du erinnerst dich nicht?\n"
+	.string "Hmm… Dann haben wir ein Problem…\p"
 	.string "Du erinnerst dich wirklich nicht?$"
 #else
 	.string "WALLACE: Huh? You don't remember?\n"
@@ -174,8 +172,8 @@ CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
 	.string "Das ist es!\n"
 	.string "Es kann nur der Himmelturm sein!\p"
 	.string "Wir dürfen keine Zeit verlieren,\n"
-	.string "{PLAYER}{KUN}! Wir müssen sofort zum\l"
-	.string "Himmelturm!$"
+	.string "{PLAYER}{KUN}! Wir müssen sofort\l"
+	.string "zum Himmelturm!$"
 #else
 	.string "WALLACE: The SKY PILLAR?\p"
 	.string "That's it!\n"

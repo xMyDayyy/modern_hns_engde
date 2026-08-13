@@ -149,8 +149,8 @@ Route24_Text_RocketBeaten:
 #if GERMAN
 	.string "Oh no!\n"
 	.string "Was ich rede für einen Quark?\p"
-	.string "Du bist Strawberry… Brombeer -\n"
-	.string "nein - very stark!\l"
+	.string "Du bist Strawberry… Brombeer - nein -\n"
+	.string "very stark!\l"
 	.string "An dir I bite me alle Zähne aus!\l"
 	.string "Respect! I salute you!\l"
 	.string "Großer Applaus!$"
@@ -173,8 +173,8 @@ Route24_Text_RocketAfter:
 	.string "Nicht vergessen! Don't forget!\p"
 	.string "Team Rocket wird dich definitely\n"
 	.string "besiegen! Yes, we will!\l"
-	.string "All meine Friends werden kommen\l"
-	.string "aus die Johto!$"
+	.string "All meine Friends werden kommen aus die\l"
+	.string "Johto!$"
 #else
 	.string "OK. Tell you mine secret will I?\n"
 	.string "MACHINE PART steal by me, hide it\l"

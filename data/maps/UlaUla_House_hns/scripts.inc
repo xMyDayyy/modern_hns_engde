@@ -220,9 +220,8 @@ Alola_Ulaula_House_Phant_Text_7:
 #if GERMAN
 	.string "Ich hoffe, dieser Vorgeschmack auf\n"
 	.string "Alola hat dir gefallen.\p"
-	.string "Ich arbeite an einem kompletten\n"
-	.string "Demake der Region namens\l"
-	.string "Ultra Eclipse.$"
+	.string "Ich arbeite an einem kompletten Demake\n"
+	.string "der Region namens Ultra Eclipse.$"
 #else
 	.string "I hope you enjoyed this taste of Alola.\p"
 	.string "I'm working on a full demake of the\n"

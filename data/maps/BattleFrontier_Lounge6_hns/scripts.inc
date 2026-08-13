@@ -48,8 +48,8 @@ BattleFrontier_Lounge6_Text_WouldYouLikeToTrade_hns:
 BattleFrontier_Lounge6_Text_PromiseIllBeGoodToIt_hns:
 #if GERMAN
 	.string "Oh, das ist einfach meganiedlich.\n"
-	.string "Vielen Dank! Ich verspreche, es\l"
-	.string "wird es gut bei mir haben!\p"
+	.string "Vielen Dank! Ich verspreche, es wird es\l"
+	.string "gut bei mir haben!\p"
 	.string "Oh! Und ich hoffe, du bist auch gut\n"
 	.string "zu meinem {STR_VAR_2}!$"
 #else

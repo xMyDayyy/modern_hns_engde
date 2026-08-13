@@ -39,10 +39,9 @@ LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney::
 
 LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets::
 #if GERMAN
-	.string "Ich sah, wie die Mutter eines\n"
-	.string "jungen Tragosso vergeblich\l"
-	.string "versuchte, dem Team Rocket zu\l"
-	.string "entkommen!$"
+	.string "Ich sah, wie die Mutter eines jungen\n"
+	.string "Tragosso vergeblich versuchte, dem\l"
+	.string "Team Rocket zu entkommen!$"
 #else
 	.string "I saw CUBONE's mother trying to\n"
 	.string "escape from TEAM ROCKET.\p"

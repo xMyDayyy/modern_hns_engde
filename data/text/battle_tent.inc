@@ -246,8 +246,8 @@ FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge2:
 FallarborTown_BattleTentLobby_Text_LookingForwardToArrival:
 #if GERMAN
 	.string "Wir haben schon auf dich gewartet!\p"
-	.string "Bevor du das Kampfcamp betrittst,\n"
-	.string "wird dein Spiel gespeichert.\l"
+	.string "Bevor du das Kampfcamp betrittst, wird\n"
+	.string "dein Spiel gespeichert.\l"
 	.string "Bitte warten.$"
 #else
 	.string "We have been looking forward to\n"
@@ -700,8 +700,8 @@ SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules:
 #if GERMAN
 	.string "Du kannst mit dem Trainer Pokémon\n"
 	.string "tauschen, den du besiegt hast.\p"
-	.string "Allerdings nur die Pokémon, die dieser\n"
-	.string "im Kampf eingesetzt hat. Ein genereller\l"
+	.string "Allerdings nur die Pokémon, die dieser im\n"
+	.string "Kampf eingesetzt hat. Ein genereller\l"
 	.string "Tausch ist nicht möglich.$"
 #else
 	.string "You may swap POKéMON only with\n"

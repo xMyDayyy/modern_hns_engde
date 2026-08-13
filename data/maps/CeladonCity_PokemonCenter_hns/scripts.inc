@@ -58,8 +58,8 @@ Celadon_Text_EusineLeaves:
 #if GERMAN
 	.string "{PLAYER}, hast du gehört?\p"
 	.string "Es gibt frische Gerüchte über ein\n"
-	.string "regenbogenfarbenes Pokémon,\l"
-	.string "das im Glockenturm erscheint.\p"
+	.string "regenbogenfarbenes Pokémon, das im\l"
+	.string "Glockenturm erscheint.\p"
 	.string "Ich habe gerade meine Party heilen\n"
 	.string "lassen, jetzt mache ich mich auf nach\l"
 	.string "Teak-City. Wir sehen uns, {PLAYER}!$"

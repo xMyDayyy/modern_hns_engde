@@ -182,8 +182,8 @@ Route13_Text_PokefanmJoshuaBeaten:
 Route13_Text_PokefanmJoshuaAfterBattle:
 #if GERMAN
 	.string "Kann ja sein, dass du viele\n"
-	.string "verschiedene Pokémon hast,\l"
-	.string "aber Pikachu ist immer noch das Beste.$"
+	.string "verschiedene Pokémon hast, aber\l"
+	.string "Pikachu ist immer noch das Beste.$"
 #else
 	.string "You look like you have many\n"
 	.string "POKéMON, but PIKACHU\l"
@@ -572,8 +572,8 @@ Route13_TravelToAlola_Text_1:
 Route13_TravelToAlola_Text_2:
 #if GERMAN
 	.string "Ahoi!\n"
-	.string "Komm wieder,\l"
-	.string "wenn du in See stechen willst.$"
+	.string "Komm wieder, wenn du in See stechen\l"
+	.string "willst.$"
 #else
 	.string "Ahoy!\n"
 	.string "Come back when you'd like to set sail.$"
@@ -582,8 +582,7 @@ Route13_TravelToAlola_Text_2:
 Route13_TravelToAlola_Text_3:
 #if GERMAN
 	.string "Ah, du schon wieder!\n"
-	.string "Willst du zu den\l"
-	.string "Alola-Inseln?$"
+	.string "Willst du zu den Alola-Inseln?$"
 #else
 	.string "Ah, its you again!\n"
 	.string "Do you want to go to the Alola Isles?$"
@@ -592,8 +591,7 @@ Route13_TravelToAlola_Text_3:
 Route13_TravelToAlola_Text_4:
 #if GERMAN
 	.string "Ahoi!\n"
-	.string "Dieser Hafen ist nur für\l"
-	.string "Einheimische.\p"
+	.string "Dieser Hafen ist nur für Einheimische.\p"
 	.string "Alle Bewohner dieser Inseln\n"
 	.string "tragen… {PAUSE 30}seltsame Souvenirs.\p"
 	.string "So erkenne ich sie sofort,\n"

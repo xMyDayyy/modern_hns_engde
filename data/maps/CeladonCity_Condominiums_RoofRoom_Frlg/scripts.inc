@@ -148,11 +148,11 @@ CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading::
 
 CeladonCity_Condominiums_RoofRoom_Text_ExplainWirelessClub::
 #if GERMAN
-	.string "Der Pokémon Drahtlosklub\n"
-	.string "befindet sich im oberen Stockwerk\l"
-	.string "jedes Pokémon-Centers.\l"
-	.string "Tritt dem Klub bei, um Freunde\l"
-	.string "via Drahtlosem Adapter zu treffen.$"
+	.string "Der Pokémon Drahtlosklub befindet sich\n"
+	.string "im oberen Stockwerk jedes\l"
+	.string "Pokémon-Centers.\l"
+	.string "Tritt dem Klub bei, um Freunde via\l"
+	.string "Drahtlosem Adapter zu treffen.$"
 #else
 	.string "The POKéMON WIRELESS CLUB is\n"
 	.string "upstairs at any POKéMON CENTER.\p"
@@ -162,14 +162,12 @@ CeladonCity_Condominiums_RoofRoom_Text_ExplainWirelessClub::
 
 CeladonCity_Condominiums_RoofRoom_Text_ExplainDirectCorner::
 #if GERMAN
-	.string "Um nur einen Freund zu treffen,\n"
-	.string "kannst du in den Direktklub\l"
-	.string "gehen.\l"
-	.string "Das ist der rechte Schalter im\l"
-	.string "Pokémon Drahtlosklub.\p"
-	.string "Triff deinen Freund in der\n"
-	.string "Tauschbörse oder im\l"
-	.string "Kolosseum!$"
+	.string "Um nur einen Freund zu treffen, kannst\n"
+	.string "du in den Direktklub gehen.\l"
+	.string "Das ist der rechte Schalter im Pokémon\l"
+	.string "Drahtlosklub.\p"
+	.string "Triff deinen Freund in der Tauschbörse\n"
+	.string "oder im Kolosseum!$"
 #else
 	.string "To link only with a friend, go to\n"
 	.string "the DIRECT CORNER.\p"
@@ -181,11 +179,10 @@ CeladonCity_Condominiums_RoofRoom_Text_ExplainDirectCorner::
 
 CeladonCity_Condominiums_RoofRoom_Text_ExplainUnionRoom::
 #if GERMAN
-	.string "Um dich mit vielen Freunden zu\n"
-	.string "treffen, kannst du in den\l"
-	.string "Konnex-Klub gehen.\l"
-	.string "Das ist der linke Schalter im\l"
-	.string "Pokémon Drahtlosklub.\p"
+	.string "Um dich mit vielen Freunden zu treffen,\n"
+	.string "kannst du in den Konnex-Klub gehen.\l"
+	.string "Das ist der linke Schalter im Pokémon\l"
+	.string "Drahtlosklub.\p"
 	.string "Im Konnex-Klub triffst\n"
 	.string "du andere Trainer.$"
 #else

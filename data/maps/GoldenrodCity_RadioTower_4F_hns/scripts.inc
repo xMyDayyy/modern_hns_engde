@@ -90,14 +90,14 @@ GoldenrodCity_RadioTower_4F4_EventScript_Meowth::
 GoldenrodCity_RadioTower_4F4_Text_Proton_Seen:
 #if GERMAN
 	.string "Lance: Halt!\p"
-	.string "…Ach? Dich kenne ich doch aus\n"
-	.string "dem Flegmon-Brunnen? Dort hast du\l"
-	.string "unsere Pläne schon einmal vereitelt…\p"
+	.string "…Ach? Dich kenne ich doch aus dem\n"
+	.string "Flegmon-Brunnen? Dort hast du unsere\l"
+	.string "Pläne schon einmal vereitelt…\p"
 	.string "Ah, verstehe… du legst es wohl darauf\n"
 	.string "an, unseren Zorn zu provozieren?\p"
 	.string "Nun gut, ganz wie du willst.\n"
-	.string "Spüre die Rache eines Vorstands-\l"
-	.string "mitglieds von Team Rocket!$"
+	.string "Spüre die Rache eines\l"
+	.string "Vorstandsmitglieds von Team Rocket!$"
 #else
 	.string "PROTON: Now wait just one second!\p"
 	.string "Aren't you the one who got in our\n"
@@ -233,8 +233,7 @@ GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2Beaten:
 GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2After:
 #if GERMAN
 	.string "Du hast meinen Respekt.\p"
-	.string "Ein Rat:\n"
-	.string "Es ist noch nicht zu spät.\l"
+	.string "Ein Rat: Es ist noch nicht zu spät.\n"
 	.string "Du kannst immer noch umkehren.$"
 #else
 	.string "You've earned my respect, so here's\n"
@@ -286,8 +285,7 @@ GoldenrodCity_RadioTower_4F4_Text_ScientistRichSeen:
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichBeaten:
 #if GERMAN
 	.string "Hmmm…\n"
-	.string "Jeder große Plan\l"
-	.string "hat wohl einen Haken.$"
+	.string "Jeder große Plan hat wohl einen Haken.$"
 #else
 	.string "Hmmm…\p"
 	.string "All grand plans come with snags.$"

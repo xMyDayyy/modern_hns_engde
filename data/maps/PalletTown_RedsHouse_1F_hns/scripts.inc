@@ -25,12 +25,12 @@ RedsHouse_Text_Mom1:
 #if GERMAN
 	.string "Hallo!\p"
 	.string "Rot ist schon lange unterwegs.\p"
-	.string "Er hat auch nicht angerufen,\n"
-	.string "also weiß ich nicht, wo er ist\l"
-	.string "oder was er gerade tut.\p"
-	.string "Man sagt, keine Nachricht heißt,\n"
-	.string "dass es ihm gut geht, aber ich\l"
-	.string "mache mir trotzdem Sorgen.$"
+	.string "Er hat auch nicht angerufen, also weiß\n"
+	.string "ich nicht, wo er ist oder was er gerade\l"
+	.string "tut.\p"
+	.string "Man sagt, keine Nachricht heißt, dass\n"
+	.string "es ihm gut geht, aber ich mache mir\l"
+	.string "trotzdem Sorgen.$"
 #else
 	.string "Hi!\p"
 	.string "RED's been away for a long time.\p"
@@ -45,8 +45,8 @@ RedsHouse_Text_Mom1:
 RedsHouse_Text_Mom2:
 #if GERMAN
 	.string "Ich habe immer Angst, dass er sich\n"
-	.string "verletzt oder krank wird, aber\l"
-	.string "Jungs müssen eben aktiv sein!$"
+	.string "verletzt oder krank wird, aber Jungs\l"
+	.string "müssen eben aktiv sein!$"
 #else
 	.string "I worry about RED getting hurt or\n"
 	.string "sick, but he's a boy.\p"
@@ -56,9 +56,8 @@ RedsHouse_Text_Mom2:
 
 RedsHouse_Text_TV:
 #if GERMAN
-	.string "Hier laufen Programme,\n"
-	.string "die man in Johto nicht\l"
-	.string "empfangen kann…$"
+	.string "Hier laufen Programme, die man in Johto\n"
+	.string "nicht empfangen kann…$"
 #else
 	.string "They have programs that aren't\n"
 	.string "shown in JOHTO…$"

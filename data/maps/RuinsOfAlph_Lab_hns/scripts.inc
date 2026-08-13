@@ -660,8 +660,8 @@ RuinsOfAlph_Lab_Text_WeFinallyMadeNewBalls:
     .string "Wir haben endlich neue Arten von\n"
     .string "Pokéballs entwickelt!\p"
     .string "Der Wiederholball erleichtert es,\n"
-    .string "Pokémon zu fangen, die du schon\l"
-    .string "einmal gefangen hast.\p"
+    .string "Pokémon zu fangen, die du schon einmal\l"
+    .string "gefangen hast.\p"
     .string "Der Timerball wird umso effektiver,\n"
     .string "je länger ein Kampf dauert.\p"
     .string "Beide wurden stolz von der Devon-\n"
@@ -682,8 +682,8 @@ RuinsOfAlph_Lab_Text_WeFinallyMadeNewBalls:
 RuinsOfAlph_Lab_Text_IMadePokenav:
 #if GERMAN
 	.string "Ich habe den PokéCom entwickelt!\p"
-	.string "Als Ingenieur bin ich glücklich,\n"
-	.string "so etwas Großartiges geschaffen zu\l"
+	.string "Als Ingenieur bin ich glücklich, so\n"
+	.string "etwas Großartiges geschaffen zu\l"
 	.string "haben!$"
 #else
 	.string "I made the POKéGEAR!\p"
@@ -696,8 +696,8 @@ RuinsOfAlph_Lab_Text_WowThatsAPokenav:
 	.string "Oh wow!\n"
 	.string "Das ist ein PokéCom!\p"
 	.string "Er entstand aus dem Wunsch unseres\n"
-	.string "Präsidenten, mehr über die Gefühle\l"
-	.string "von Pokémon zu erfahren.\p"
+	.string "Präsidenten, mehr über die Gefühle von\l"
+	.string "Pokémon zu erfahren.\p"
 	.string "Möchtest du, dass ich dir seine\n"
 	.string "Funktionen im Detail erkläre?\p"
 	.string "Nein, nein. Ich denke, du wirst es\n"

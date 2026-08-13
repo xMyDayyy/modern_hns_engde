@@ -262,9 +262,8 @@ MauvilleCity_Gym_Text_GymGuideAdvice:
 #if GERMAN
 	.string "Hey, wie sieht es aus, auf dem Weg zum\n"
 	.string "Champ, {PLAYER}?\p"
-	.string "Walter, der Arenaleiter von\n"
-	.string "Malvenfroh City, setzt\l"
-	.string "Elektro-Pokémon ein.\p"
+	.string "Walter, der Arenaleiter von Malvenfroh\n"
+	.string "City, setzt Elektro-Pokémon ein.\p"
 	.string "Wenn du ihn mit Wasser-Pokémon\n"
 	.string "angreifst, macht er sie fertig!\l"
 	.string "Britzel! \p"
@@ -394,8 +393,7 @@ MauvilleCity_Gym_Text_VivianPostBattle:
 #if GERMAN
 	.string "Ich habe gehört, dass Malvenfroh City\n"
 	.string "von Walter gegründet wurde.\p"
-	.string "Er war Trainer, lange bevor wir\n"
-	.string "geboren\l"
+	.string "Er war Trainer, lange bevor wir geboren\n"
 	.string "wurden. Er muss ein umfangreiches\l"
 	.string "Wissen besitzen.$"
 #else
@@ -425,8 +423,7 @@ MauvilleCity_Gym_Text_AngeloDefeat:
 MauvilleCity_Gym_Text_AngeloPostBattle:
 #if GERMAN
 	.string "Arenaleiter Walter aus Malvenfroh City\n"
-	.string "hat eine glänzende Stirn. Das finde\l"
-	.string "ich\l"
+	.string "hat eine glänzende Stirn. Das finde ich\l"
 	.string "klasse!$"
 #else
 	.string "MAUVILLE GYM's WATTSON has a shiny\n"
@@ -445,9 +442,9 @@ MauvilleCity_Gym_Text_WattsonIntro:
 	.string "alle meine Schalter zu finden?\p"
 	.string "Uahahahaha!\n"
 	.string "Das ist wirklich amüsant!\p"
-	.string "Dann ist es nun an mir - dem\n"
-	.string "Arenaleiter von Malvenfroh City\l"
-	.string "- dich unter Spannung zu setzen!$"
+	.string "Dann ist es nun an mir - dem Arenaleiter\n"
+	.string "von Malvenfroh City - dich unter\l"
+	.string "Spannung zu setzen!$"
 #else
 	.string "I've given up on my plans to convert\n"
 	.string "the city, I have.\p"
@@ -466,9 +463,9 @@ MauvilleCity_Gym_Text_WattsonDefeat:
 #if GERMAN
 	.string "Uahahahaha!\n"
 	.string "Schön, ich habe verloren!\p"
-	.string "Du hast es geschafft, meinen Strom-\n"
-	.string "kreis zu unterbrechen! Nimm diesen\l"
-	.string "Orden!$"
+	.string "Du hast es geschafft, meinen\n"
+	.string "Stromkreis zu unterbrechen! Nimm\l"
+	.string "diesen Orden!$"
 #else
 	.string "Wahahahah!\n"
 	.string "Fine, I lost!\p"
@@ -527,10 +524,9 @@ MauvilleCity_Gym_Text_RegisteredWattson:
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
 #if GERMAN
-	.string "Optimismus erfüllt mich, wenn ich\n"
-	.string "einen\l"
-	.string "so viel versprechenden Trainer wie\l"
-	.string "dich sehe!$"
+	.string "Optimismus erfüllt mich, wenn ich einen\n"
+	.string "so viel versprechenden Trainer wie dich\l"
+	.string "sehe!$"
 #else
 	.string "I swell with optimism, seeing a promising\n"
 	.string "young TRAINER like you!$"
@@ -566,8 +562,8 @@ MauvilleCity_Gym_Text_GymStatueCertified:
 MauvilleCity_Gym_Text_WattsonPreRematch:
 #if GERMAN
 	.string "Walter: Ah ha! Endlich bist du hier.\n"
-	.string "Ich weiß, was du willst! Du willst\l"
-	.string "gegen meine Pokémon antreten.\p"
+	.string "Ich weiß, was du willst! Du willst gegen\l"
+	.string "meine Pokémon antreten.\p"
 	.string "Hähähähähä!\p"
 	.string "Ich werde deine Funken zum Fliegen\n"
 	.string "bringen! Und sag hinterher nicht, ich\l"
@@ -610,8 +606,8 @@ MauvilleCity_Gym_Text_WattsonPostRematch:
 MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
 #if GERMAN
 	.string "Walter: Ah ha! Endlich bist du hier.\n"
-	.string "Ich weiß, was du willst! Du willst\l"
-	.string "gegen meine Pokémon antreten.\p"
+	.string "Ich weiß, was du willst! Du willst gegen\l"
+	.string "meine Pokémon antreten.\p"
 	.string "Hähähähähä!\p"
 	.string "Hey! Einen Moment mal.\n"
 	.string "Du hast ja nur ein Pokémon dabei!\p"

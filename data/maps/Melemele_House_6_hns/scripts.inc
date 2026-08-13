@@ -21,8 +21,8 @@ Melemele_House6_GameboyKid::
 Melemele_House6_Hiker_Text_0:
 #if GERMAN
 	.string "Ich habe dieses Haus gekauft, damit\n"
-	.string "mein Sohn und ich die Natur\l"
-	.string "erkunden können…\p"
+	.string "mein Sohn und ich die Natur erkunden\l"
+	.string "können…\p"
 	.string "Aber er will nur an diesem Game Boy\n"
 	.string "spielen.$"
 #else
@@ -34,9 +34,9 @@ Melemele_House6_Hiker_Text_0:
 
 Melemele_House6_GameboyKid_Text_0:
 #if GERMAN
-	.string "Auf meinem Game Boy habe ich ein\n"
-	.string "Spiel, mit dem ich die Alola-Region\l"
-	.string "erkunden kann!\p"
+	.string "Auf meinem Game Boy habe ich ein Spiel,\n"
+	.string "mit dem ich die Alola-Region erkunden\l"
+	.string "kann!\p"
 	.string "Es ist wie in echt.\p"
 	.string "Es heißt Ultra Eclipse,\n"
 	.string "von Phantonomy!\p"

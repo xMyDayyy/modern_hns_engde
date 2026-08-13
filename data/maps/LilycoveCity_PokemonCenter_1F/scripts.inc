@@ -52,8 +52,8 @@ LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon:
 #if GERMAN
 	.string "Ich frage mich, wie viele Arten von\n"
 	.string "Pokémon es in der Welt wohl gibt?\p"
-	.string "Es muss toll sein, die Meere zu über-\n"
-	.string "queren und Pokémon mit Leuten zu\l"
+	.string "Es muss toll sein, die Meere zu\n"
+	.string "überqueren und Pokémon mit Leuten zu\l"
 	.string "tauschen, die weit weg leben.$"
 #else
 	.string "I wonder how many kinds of POKéMON\n"

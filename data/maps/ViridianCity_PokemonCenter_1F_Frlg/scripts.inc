@@ -55,8 +55,7 @@ ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown::
 ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons::
 #if GERMAN
 	.string "Im Pokémon-Center kannst du müde,\n"
-	.string "verletzte und besiegte Pokémon\l"
-	.string "heilen!$"
+	.string "verletzte und besiegte Pokémon heilen!$"
 #else
 	.string "POKéMON CENTERS heal your tired,\n"
 	.string "hurt, or fainted POKéMON.\p"

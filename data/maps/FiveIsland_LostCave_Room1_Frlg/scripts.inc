@@ -9,9 +9,9 @@ FiveIsland_LostCave_Room1_EventScript_Lawson::
 FiveIsland_LostCave_Room1_Text_LawsonIntro::
 #if GERMAN
 	.string "Oh!\p"
-	.string "Ich dachte, dies sei eine alte\n"
-	.string "Ruine. Aber es wimmelt hier\l"
-	.string "nur so vor Geistern!$"
+	.string "Ich dachte, dies sei eine alte Ruine.\n"
+	.string "Aber es wimmelt hier nur so vor\l"
+	.string "Geistern!$"
 #else
 	.string "Aiyeeeeeh!\p"
 	.string "I thought this was an ancient ruin.\n"
@@ -29,11 +29,10 @@ FiveIsland_LostCave_Room1_Text_LawsonDefeat::
 
 FiveIsland_LostCave_Room1_Text_LawsonPostBattle::
 #if GERMAN
-	.string "Ich versuche, hier heraus-\n"
-	.string "zufinden, aber ich lande\l"
-	.string "immer wieder hier.\l"
-	.string "Vielleicht ist die Anzahl der\l"
-	.string "Felsen ein Hinweis?$"
+	.string "Ich versuche, hier herauszufinden, aber\n"
+	.string "ich lande immer wieder hier.\l"
+	.string "Vielleicht ist die Anzahl der Felsen ein\l"
+	.string "Hinweis?$"
 #else
 	.string "I'm trying to get out of here, but\n"
 	.string "I always end up at the same spot.\p"

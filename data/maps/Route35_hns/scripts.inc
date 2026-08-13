@@ -95,8 +95,8 @@ Route35_EventScript_Item_ParalyzeHeal::
 
 Route35_Text_CamperIvanSeen:
 #if GERMAN
-	.string "Ich hole mir meine Pokémon-Info\n"
-	.string "immer aus dem Radio.\l"
+	.string "Ich hole mir meine Pokémon-Info immer\n"
+	.string "aus dem Radio.\l"
 	.string "Damit bin ich jederzeit gerüstet.$"
 #else
 	.string "I've been getting POKéMON data off\n"
@@ -214,11 +214,11 @@ Route35_Text_BirdKeeperBryanBeaten:
 Route35_Text_BirdKeeperBryanAfter:
 #if GERMAN
 	.string "Wenn du hinter einem Pokémon mit hoher\n"
-	.string "Initiative her bist,\l"
-	.string "wirkt Kurts Turboball wahre Wunder!\p"
+	.string "Initiative her bist, wirkt Kurts\l"
+	.string "Turboball wahre Wunder!\p"
 	.string "Sobald ich eine weiße Aprikoko finde,\n"
-	.string "bringe ich sie zu Kurt. Er macht\l"
-	.string "daraus einen maßgefertigten Pokéball.$"
+	.string "bringe ich sie zu Kurt. Er macht daraus\l"
+	.string "einen maßgefertigten Pokéball.$"
 #else
 	.string "Some POKéMON flee right away.\p"
 	.string "Try catching them with KURT's\n"

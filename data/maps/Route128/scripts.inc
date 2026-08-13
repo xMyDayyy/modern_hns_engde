@@ -285,15 +285,13 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe:
 	.string "Marc: {PLAYER}, sag jetzt nichts.\p"
 	.string "Ich weiß, ich bin nicht der Richtige,\n"
 	.string "um Adrian zu kritisieren…\p"
-	.string "Aber wie die Dinge jetzt liegen,\n"
-	.string "werden\l"
+	.string "Aber wie die Dinge jetzt liegen, werden\n"
 	.string "wir Menschen wohl nicht in der Lage\l"
 	.string "sein, etwas zu tun.\p"
 	.string "Aber wir dürfen auch nicht einfach\n"
 	.string "daneben stehen und zuschauen.\p"
-	.string "Adrian und ich haben die\n"
-	.string "Verantwortung, dies alles zu\l"
-	.string "verändern…$"
+	.string "Adrian und ich haben die Verantwortung,\n"
+	.string "dies alles zu verändern…$"
 #else
 	.string "MAXIE: {PLAYER}, don't say anything.\p"
 	.string "I know that I have no right to be\n"
@@ -360,8 +358,7 @@ Route128_Text_StevenWholeWorldWillDrown:
 Route128_Text_StevenImGoingToSootopolis:
 #if GERMAN
 	.string "{PLAYER}{KUN}…\n"
-	.string "Ich weiß nicht, was du vorhast, aber\l"
-	.string "tue\l"
+	.string "Ich weiß nicht, was du vorhast, aber tue\l"
 	.string "nichts Unüberlegtes.\p"
 	.string "Okay. Ich gehe nach Xeneroville.$"
 #else

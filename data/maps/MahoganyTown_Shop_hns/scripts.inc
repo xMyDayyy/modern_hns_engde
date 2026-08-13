@@ -294,9 +294,9 @@ MahoganyMart1F_Text_Lance_Stairs:
 
 MahoganyMart1F_Text_Lance_SplitUp:
 #if GERMAN
-	.string "Siegfried: {PLAYER},\n"
-	.string "wir sollten uns trennen, um diesen\l"
-	.string "Ort zu erforschen. Ich gehe vor.$"
+	.string "Siegfried: {PLAYER}, wir sollten uns\n"
+	.string "trennen, um diesen Ort zu erforschen.\l"
+	.string "Ich gehe vor.$"
 #else
     .string "LANCE: {PLAYER}, we should split up\n"
     .string "to check this place.\p"

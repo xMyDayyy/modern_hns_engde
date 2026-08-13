@@ -21,12 +21,12 @@ MauvilleCity_House1_EventScript_ReceivedRockSmash::
 MauvilleCity_House1_Text_ImRockSmashDudeTakeThis:
 #if GERMAN
 	.string "Woohoo!\p"
-	.string "Die Leute nennen mich den\n"
-	.string "Zertrümmerer, aber ich finde den Namen\l"
-	.string "unter meinem Niveau!\p"
+	.string "Die Leute nennen mich den Zertrümmerer,\n"
+	.string "aber ich finde den Namen unter meinem\l"
+	.string "Niveau!\p"
 	.string "Ich verdiene doch wohl etwas mehr\n"
-	.string "Respekt! Man sollte mich Zertrümmerer-\l"
-	.string "Meister nennen!\p"
+	.string "Respekt! Man sollte mich\l"
+	.string "Zertrümmerer-Meister nennen!\p"
 	.string "Woohoo, deine Pokémon sehen wirklich\n"
 	.string "sehr stark aus.\p"
 	.string "Das sehe ich gerne!\n"
@@ -66,8 +66,8 @@ MauvilleCity_House1_Text_ExplainRockSmash:
 MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock:
 #if GERMAN
 	.string "Oh ja, wenn du einen Felsen\n"
-	.string "zertrümmerst, könnte ein Pokémon\l"
-	.string "zum Vorschein kommen.\p"
+	.string "zertrümmerst, könnte ein Pokémon zum\l"
+	.string "Vorschein kommen.\p"
 	.string "Woohoo!$"
 #else
 	.string "Oh, yes, if you smash a rock, a POKéMON\n"

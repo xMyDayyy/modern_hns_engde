@@ -233,9 +233,8 @@ OlivineCity_Gym_Text_GymGuideText:
 	.string "Das zweite ist eine riesige\n"
 	.string "Eisenschlange mit starken Attacken.\p"
 	.string "Geh sie mit Vorsicht an.\p"
-	.string "Sie wirkt träge, doch ich habe sie\n"
-	.string "schon verblüffend schnell zuschlagen\l"
-	.string "sehen.$"
+	.string "Sie wirkt träge, doch ich habe sie schon\n"
+	.string "verblüffend schnell zuschlagen sehen.$"
 #else
 	.string "JASMINE uses the newly discovered\n"
 	.string "STEEL-type.\p"
@@ -269,9 +268,9 @@ OlivineCity_Gym_Text_GymGuideWinText:
 OlivineCity_Gym_Text_GymGuidePreText:
 #if GERMAN
 	.string "Wo Jasmin, die Arenaleiterin, ist?\p"
-	.string "Dem Pokémon im Leuchtturm scheint\n"
-	.string "es nicht sehr gut zu gehen, und sie\l"
-	.string "sieht dort gerade nach dem Rechten.\p"
+	.string "Dem Pokémon im Leuchtturm scheint es\n"
+	.string "nicht sehr gut zu gehen, und sie sieht\l"
+	.string "dort gerade nach dem Rechten.\p"
 	.string "Ein wirklich starker Trainer muss neben\n"
 	.string "Stärke auch Mitgefühl beweisen können.$"
 #else
@@ -503,9 +502,9 @@ OlivineCity_Gym_Text_JasmineWantToTrade:
 	.string "Ich wollte dich was fragen.\p"
 	.string "Ich habe dieses Stahlos aufgezogen\n"
 	.string "seit es ein kleines Onix war.\p"
-	.string "Aber ich glaube Rusty wäre\n"
-	.string "glücklicher bei einem Trainer\l"
-	.string "Wie dir. Möchtest du ein\p"
+	.string "Aber ich glaube Rusty wäre glücklicher\n"
+	.string "bei einem Trainer Wie dir. Möchtest du\l"
+	.string "ein\p"
 	.string "Pokémon für mein Rusty tauschen?$"
 #else
 	.string "…Um, {PLAYER}…\n"

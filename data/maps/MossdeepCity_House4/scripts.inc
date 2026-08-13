@@ -70,9 +70,9 @@ MossdeepCity_House4_Text_YouMadeSecretBaseNearX:
 
 MossdeepCity_House4_Text_MakeSecretBase:
 #if GERMAN
-	.string "Solltest du dir irgendwo eine Geheim-\n"
-	.string "basis einrichten, werde ich sie sicher\l"
-	.string "finden.$"
+	.string "Solltest du dir irgendwo eine\n"
+	.string "Geheimbasis einrichten, werde ich sie\l"
+	.string "sicher finden.$"
 #else
 	.string "You should make a SECRET BASE\n"
 	.string "somewhere. I'll go find it!$"

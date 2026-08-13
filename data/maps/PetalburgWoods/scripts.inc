@@ -338,8 +338,8 @@ PetalburgWoods_Text_IWasGoingToAmbushYou:
 #if GERMAN
 	.string "Ich wollte dich eigentlich aus dem\n"
 	.string "Hinterhalt angreifen, aber du trödelst\l"
-	.string "wohl auf ewig im Blütenburgwald\l"
-	.string "herum, oder?\p"
+	.string "wohl auf ewig im Blütenburgwald herum,\l"
+	.string "oder?\p"
 	.string "Das Warten machte mich ganz krank.\n"
 	.string "Also, hier bin ich.$"
 #else
@@ -397,8 +397,7 @@ PetalburgWoods_Text_YouveGotSomeNerve:
 	.string "Grrr… Du hast vielleicht Nerven, dich\n"
 	.string "mit Team Aqua anzulegen!\l"
 	.string "Los, kämpfen wir noch einmal!\p"
-	.string "Hm, das würde ich jetzt zu gerne\n"
-	.string "sagen,\l"
+	.string "Hm, das würde ich jetzt zu gerne sagen,\n"
 	.string "aber ich habe keine Pokémon mehr…\p"
 	.string "Außerdem sind wir, Team Aqua, auf dem\n"
 	.string "Weg nach Metarost City.\p"
@@ -453,8 +452,7 @@ PetalburgWoods_Text_ICantBeWastingTime:
 PetalburgWoods_Text_YoureLoadedWithItems:
 #if GERMAN
 	.string "Du bist mit Items überfrachtet.\n"
-	.string "Ich kann dir den Superball nicht\l"
-	.string "geben.$"
+	.string "Ich kann dir den Superball nicht geben.$"
 #else
 	.string "You're loaded with items.\n"
 	.string "I can't give you this GREAT BALL.$"
@@ -493,8 +491,7 @@ PetalburgWoods_Text_ImOutOfPokeBalls:
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon:
 #if GERMAN
 	.string "Wenn du ein Käfer-Pokémon mit zur\n"
-	.string "Schule bringst, bist du sofort\l"
-	.string "beliebt.$"
+	.string "Schule bringst, bist du sofort beliebt.$"
 #else
 	.string "If you take BUG POKéMON to school,\n"
 	.string "you get to be instantly popular!$"
@@ -571,9 +568,8 @@ PetalburgWoods_Text_StayOutOfTallGrass:
 #if GERMAN
 	.string "Hey, du!\n"
 	.string "Geht es deinen Pokémon gut?\p"
-	.string "Wenn deine Pokémon schwach sind und\n"
-	.string "du Kämpfe vermeiden willst, solltest\l"
-	.string "du\l"
+	.string "Wenn deine Pokémon schwach sind und du\n"
+	.string "Kämpfe vermeiden willst, solltest du\l"
 	.string "dich von hohem Gras fernhalten.$"
 #else
 	.string "Yo, there!\n"
@@ -613,8 +609,8 @@ PetalburgWoods_Text_TryUsingThisItem:
 PetalburgWoods_Text_MiracleSeedExplanation:
 #if GERMAN
 	.string "Das ist Wundersaat.\n"
-	.string "Wenn ein Pokémon sie trägt, werden\l"
-	.string "die Pflanzen-Attacken stärker.\p"
+	.string "Wenn ein Pokémon sie trägt, werden die\l"
+	.string "Pflanzen-Attacken stärker.\p"
 	.string "Neben der Wundersaat gibt es bestimmt\n"
 	.string "noch andere nützliche Items, die von\l"
 	.string "Pokémon getragen werden können.$"
@@ -654,11 +650,9 @@ PetalburgWoods_Text_TrainerTipsPP:
 	.string "Tipps für Trainer\p"
 	.string "Neben den Kraftpunkten (KP) besitzt\n"
 	.string "ein Pokémon auch Angriffspunkte (AP),\l"
-	.string "die für die Attacken im Kampf\l"
-	.string "gebraucht\l"
+	.string "die für die Attacken im Kampf gebraucht\l"
 	.string "werden.\p"
-	.string "Wenn ein Pokémon keine AP mehr\n"
-	.string "besitzt,\l"
+	.string "Wenn ein Pokémon keine AP mehr besitzt,\n"
 	.string "muss es in ein Pokémon-Center gebracht\l"
 	.string "werden.$"
 #else

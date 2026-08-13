@@ -296,9 +296,9 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 #if GERMAN
 	.string "Wir haben endlich neue Pokébälle\n"
 	.string "entwickelt!\p"
-	.string "Mit dem Wiederball lassen sich\n"
-	.string "Pokémon leichter fangen, die du\l"
-	.string "vorher schon mal gefangen hattest.\p"
+	.string "Mit dem Wiederball lassen sich Pokémon\n"
+	.string "leichter fangen, die du vorher schon mal\l"
+	.string "gefangen hattest.\p"
 	.string "Mit dem Timerball lassen sich Pokémon\n"
 	.string "umso leichter fangen, je länger der\l"
 	.string "Kampf dauert.\p"
@@ -320,8 +320,7 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
 #if GERMAN
 	.string "Ich habe den PokéCom entwickelt!\p"
-	.string "Als Ingenieur erfüllt es mich mit\n"
-	.string "Stolz,\l"
+	.string "Als Ingenieur erfüllt es mich mit Stolz,\n"
 	.string "so etwas Großartiges entwickelt zu\l"
 	.string "haben.$"
 #else
@@ -385,8 +384,8 @@ RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
 	.string "Ist das ein Pokémon-Fossil?\p"
 	.string "Möchtest du das Pokémon wieder zum\n"
 	.string "Leben erwecken?\p"
-	.string "Ich kann dir mit meiner neuesten Ent-\n"
-	.string "wicklung, dem Fossil-Regenerator,\l"
+	.string "Ich kann dir mit meiner neuesten\n"
+	.string "Entwicklung, dem Fossil-Regenerator,\l"
 	.string "dabei helfen.$"
 #else
 	.string "Wait! That thing you have there…\n"
@@ -430,8 +429,7 @@ RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
 #if GERMAN
 	.string "Exzellent!\n"
-	.string "Dann lass uns sofort zur Tat\l"
-	.string "schreiten. \p"
+	.string "Dann lass uns sofort zur Tat schreiten.\p"
 	.string "{PLAYER} gibt dem Forscher von Devon\n"
 	.string "{STR_VAR_1}.$"
 #else

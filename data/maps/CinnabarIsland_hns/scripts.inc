@@ -23,10 +23,9 @@ CinnabarIsland_EventScript_Blaine::
 
 CinnabarIsland_Text_Blaine:
 #if GERMAN
-	.string "Pyro: Ich gebe nicht auf,\n"
-	.string "bis zu dem Tag, an dem die Arena\l"
-	.string "der Zinnoberinsel wieder\l"
-	.string "aufgebaut wurde!\p"
+	.string "Pyro: Ich gebe nicht auf, bis zu dem Tag,\n"
+	.string "an dem die Arena der Zinnoberinsel\l"
+	.string "wieder aufgebaut wurde!\p"
 	.string "Bis dahin bin ich im Kampf-Dojo.\n"
 	.string "Wir sehen uns.$"
 #else
@@ -76,9 +75,9 @@ CinnabarIsland_Text_BlueBefore:
 	.string "Ein Vulkan bricht aus, und plötzlich\n"
 	.string "verschwindet eine ganze Stadt.\p"
 	.string "Wir können weiter gewinnen und\n"
-	.string "verlieren in Pokémon. Aber wenn\l"
-	.string "die Natur nur zuckt, verlieren wir\l"
-	.string "in Sekunden.\p"
+	.string "verlieren in Pokémon. Aber wenn die\l"
+	.string "Natur nur zuckt, verlieren wir in\l"
+	.string "Sekunden.\p"
 	.string "…\p"
 	.string "So ist das eben…\p"
 	.string "Aber egal, ich bin immer noch ein\n"
@@ -134,9 +133,9 @@ CinnabarIsland_Text_Blue:
 	.string "Ein Vulkan bricht aus, und plötzlich\n"
 	.string "verschwindet eine ganze Stadt.\p"
 	.string "Wir können weiter gewinnen und\n"
-	.string "verlieren in Pokémon. Aber wenn\l"
-	.string "die Natur nur zuckt, verlieren wir\l"
-	.string "in Sekunden.\p"
+	.string "verlieren in Pokémon. Aber wenn die\l"
+	.string "Natur nur zuckt, verlieren wir in\l"
+	.string "Sekunden.\p"
 	.string "…\p"
 	.string "So ist das eben…\p"
 	.string "Aber egal, ich bin immer noch ein\n"
@@ -185,8 +184,8 @@ CinnabarIsland_EventScript_GymSign::
 CinnabarIsland_Text_GymSign:
 #if GERMAN
 	.string "…Da hängt eine Nachricht!\p"
-	.string "Die Arena der Zinnoberinsel ist auf\n"
-	.string "die Seeschauminseln umgezogen!\l"
+	.string "Die Arena der Zinnoberinsel ist auf die\n"
+	.string "Seeschauminseln umgezogen!\l"
 	.string "- Pyro$"
 #else
 	.string "There's a notice here…\p"

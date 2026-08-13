@@ -17,8 +17,7 @@ NewSinjoh_House2_DeskLady_Text::
 	.string "Eigentlich bewahren wir hier alle\n"
 	.string "Aufzeichnungen zur Geschichte des\l"
 	.string "Dorfes auf, dazu sämtliche Literatur,\l"
-	.string "die wir aus anderen Regionen\l"
-	.string "beziehen…$"
+	.string "die wir aus anderen Regionen beziehen…$"
 #else
     .string "Hello little one..\p"
 	.string "Welcome to New Sinjoh's...\n"

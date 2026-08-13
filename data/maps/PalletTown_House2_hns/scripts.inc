@@ -59,9 +59,9 @@ PalletTown_House2_Text_Hello:
 #if GERMAN
 	.string "Sarah: Hi! Mein kleiner Bruder\n"
 	.string "ist Arenaleiter in Vertania City.\p"
-	.string "Aber er verlässt die Stadt so oft,\n"
-	.string "dass er den Trainern damit das\l"
-	.string "Leben schwer macht.$"
+	.string "Aber er verlässt die Stadt so oft, dass\n"
+	.string "er den Trainern damit das Leben schwer\l"
+	.string "macht.$"
 #else
 	.string "DAISY: Hi! My kid brother is the\n"
 	.string "GYM LEADER in VIRIDIAN CITY.\p"
@@ -118,8 +118,8 @@ PalletTown_House2_Text_AllDone:
 
 PalletTown_House2_Text_AlreadyGroomed:
 #if GERMAN
-	.string "Sarah: Ich trinke jeden Tag um\n"
-	.string "diese Zeit meinen Tee.\l"
+	.string "Sarah: Ich trinke jeden Tag um diese\n"
+	.string "Zeit meinen Tee.\l"
 	.string "Komm ruhig mal wieder!$"
 #else
 	.string "DAISY: I always have tea around\n"

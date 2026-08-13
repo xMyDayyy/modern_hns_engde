@@ -159,9 +159,9 @@ Route16_Text_HideoDefeat::
 
 Route16_Text_HideoPostBattle::
 #if GERMAN
-	.string "Man kann über eine Küstenstraße\n"
-	.string "von Orania City nach Fuchsania\l"
-	.string "City gelangen.$"
+	.string "Man kann über eine Küstenstraße von\n"
+	.string "Orania City nach Fuchsania City\l"
+	.string "gelangen.$"
 #else
 	.string "We'll always be hanging around here\n"
 	.string "even if you don't like it.\p"
@@ -252,9 +252,8 @@ Route16_Text_RouteSign::
 
 Route16_Text_JedIntro::
 #if GERMAN
-	.string "Uwe: Unsere Liebe kennt keine\n"
-	.string "Grenzen. Wir lieben uns und\l"
-	.string "zeigen das!$"
+	.string "Uwe: Unsere Liebe kennt keine Grenzen.\n"
+	.string "Wir lieben uns und zeigen das!$"
 #else
 	.string "JED: Our love knows no bounds.\n"
 	.string "We're in love and we show it!$"
@@ -271,9 +270,8 @@ Route16_Text_JedDefeat::
 
 Route16_Text_JedPostBattle::
 #if GERMAN
-	.string "Uwe: Hör zu, Lena! Du solltest\n"
-	.string "dich weniger auf mich\l"
-	.string "konzentrieren.$"
+	.string "Uwe: Hör zu, Lena! Du solltest dich\n"
+	.string "weniger auf mich konzentrieren.$"
 #else
 	.string "JED: Listen, LEA.\n"
 	.string "You need to focus less on me.$"
@@ -282,8 +280,7 @@ Route16_Text_JedPostBattle::
 Route16_Text_JedNotEnoughMons::
 #if GERMAN
 	.string "Uwe: Du hast nur ein Pokémon?\n"
-	.string "Gibt es in deinem Herzen\l"
-	.string "keine Liebe?$"
+	.string "Gibt es in deinem Herzen keine Liebe?$"
 #else
 	.string "JED: You have just one POKéMON?\n"
 	.string "Is there no love in your heart?$"

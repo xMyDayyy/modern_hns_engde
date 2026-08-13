@@ -362,8 +362,7 @@ CeruleanCity_Text_RivalIntro::
 	.string "{RIVAL}: Hi, {PLAYER}!\p"
 	.string "Du bist also immer noch unterwegs!\p"
 	.string "Mir geht es bestens! Ich habe jede\n"
-	.string "Menge neue, starke Pokémon\l"
-	.string "gefangen!\p"
+	.string "Menge neue, starke Pokémon gefangen!\p"
 	.string "Zeig, was du gefangen hast,\n"
 	.string "{PLAYER}!$"
 #else
@@ -389,9 +388,8 @@ CeruleanCity_Text_RivalPostBattle::
 #if GERMAN
 	.string "{RIVAL}: Soll ich dir was\n"
 	.string "verraten?\p"
-	.string "Ich war bei Bill und habe mir\n"
-	.string "seine seltenen Pokémon zeigen\l"
-	.string "lassen!\p"
+	.string "Ich war bei Bill und habe mir seine\n"
+	.string "seltenen Pokémon zeigen lassen!\p"
 	.string "Das hat mir einige Einträge in\n"
 	.string "meinem Pokédex gebracht!\p"
 	.string "Bill ist weltweit als Pokémaniac\n"
@@ -543,8 +541,7 @@ CeruleanCity_Text_YouCanCutDownSmallTrees::
 CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
 #if GERMAN
 	.string "Wenn das Lahmus nicht im Weg wäre,\n"
-	.string "könntest du den kleinen Baum\l"
-	.string "fällen.\p"
+	.string "könntest du den kleinen Baum fällen.\p"
 	.string "Dann könntest du auf die andere\n"
 	.string "Seite.\p"
 	.string "Aber es gibt auch einen anderen\n"
@@ -625,9 +622,8 @@ CeruleanCity_Text_HardToControlMonsObedience::
 #if GERMAN
 	.string "Nein, nicht!!! Es ist schwer, ein\n"
 	.string "Pokémon zu kontrollieren!\p"
-	.string "Ob dein Pokémon gehorcht, hängt\n"
-	.string "von deinen Fähigkeiten als Trainer\l"
-	.string "ab!$"
+	.string "Ob dein Pokémon gehorcht, hängt von\n"
+	.string "deinen Fähigkeiten als Trainer ab!$"
 #else
 	.string "No! That's wrong!\n"
 	.string "It's so hard to control POKéMON!\p"
@@ -681,8 +677,7 @@ CeruleanCity_Text_ThisIsCeruleanCave::
 	.string "Nur außergewöhnlichen Trainern\n"
 	.string "wird der Zutritt gewährt.\p"
 	.string "Du musst stark genug sein, um der\n"
-	.string "Pokémon Liga-Champion zu\l"
-	.string "werden!\p"
+	.string "Pokémon Liga-Champion zu werden!\p"
 	.string "Und du solltest bereits Großes\n"
 	.string "geleistet haben.$"
 #else
@@ -700,9 +695,8 @@ CeruleanCity_Text_ThisIsCeruleanCave::
 
 CeruleanCity_Text_CitySign::
 #if GERMAN
-	.string "Azuria City\n"
-	.string "Eine mysteriöse blaue Aura umgibt\l"
-	.string "die Stadt!$"
+	.string "Azuria City Eine mysteriöse blaue Aura\n"
+	.string "umgibt die Stadt!$"
 #else
 	.string "CERULEAN CITY\n"
 	.string "A Mysterious, Blue Aura Surrounds\l"
@@ -714,9 +708,8 @@ CeruleanCity_Text_TrainerTipsHeldItems::
 	.string "Tipps für Trainer\p"
 	.string "Einem Pokémon kann ein\n"
 	.string "Item zum Halten gegeben werden.\p"
-	.string "Manche Items können sogar vom\n"
-	.string "Pokémon im Kampf eingesetzt\l"
-	.string "werden.$"
+	.string "Manche Items können sogar vom Pokémon\n"
+	.string "im Kampf eingesetzt werden.$"
 #else
 	.string "TRAINER TIPS\p"
 	.string "A POKéMON can be made to hold\n"
@@ -727,9 +720,8 @@ CeruleanCity_Text_TrainerTipsHeldItems::
 
 CeruleanCity_Text_BikeShopSign::
 #if GERMAN
-	.string "Fahrradladen\n"
-	.string "Fahre leicht und schnell mit dem\l"
-	.string "Rad durch Höhlen und Gras!$"
+	.string "Fahrradladen Fahre leicht und schnell\n"
+	.string "mit dem Rad durch Höhlen und Gras!$"
 #else
 	.string "Grass and caves handled easily!\n"
 	.string "BIKE SHOP$"
@@ -738,8 +730,8 @@ CeruleanCity_Text_BikeShopSign::
 CeruleanCity_Text_GymSign::
 #if GERMAN
 	.string "Azuria City Pokémon-Arena\n"
-	.string "Arenaleiterin: Misty\l"
-	.string "Die Burschikose Meerjungfrau!$"
+	.string "Arenaleiterin: Misty Die Burschikose\l"
+	.string "Meerjungfrau!$"
 #else
 	.string "CERULEAN CITY POKéMON GYM\n"
 	.string "LEADER: MISTY\l"

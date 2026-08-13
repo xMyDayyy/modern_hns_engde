@@ -115,13 +115,12 @@ Route35GoldenrodGate_Text_ReceivedMonWithMail:
 
 Route35GoldenrodGate_Text_RandyWeirdTree:
 #if GERMAN
-	.string "Vergiss nicht, es an die\n"
-	.string "erste Stelle im Team zu tun,\l"
-	.string "sobald du meinen Freund triffst!\p"
+	.string "Vergiss nicht, es an die erste Stelle im\n"
+	.string "Team zu tun, sobald du meinen Freund\l"
+	.string "triffst!\p"
 	.string "Route 31!\p"
-	.string "Stimmt! Ein\n"
-	.string "merkwürdiger Baum hat die Straße\l"
-	.string "blockiert.\p"
+	.string "Stimmt! Ein merkwürdiger Baum hat die\n"
+	.string "Straße blockiert.\p"
 	.string "Ich frage mich,\n"
 	.string "ob die Straße jetzt frei ist.$"
 #else
@@ -161,9 +160,8 @@ Route35GoldenrodGate_Text_ThanksForDelivery:
 
 Route35GoldenrodGate_Text_RandyMyPalSnoozing:
 #if GERMAN
-	.string "Mein Freund hat\n"
-	.string "geschlafen, nicht wahr? Na, was habe\l"
-	.string "ich dir gesagt?$"
+	.string "Mein Freund hat geschlafen, nicht wahr?\n"
+	.string "Na, was habe ich dir gesagt?$"
 #else
 	.string "My pal was snoozing, right? Heh,\n"
 	.string "what'd I say?$"

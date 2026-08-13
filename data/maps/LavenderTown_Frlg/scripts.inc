@@ -89,9 +89,9 @@ LavenderTown_Text_TownKnownAsMonGraveSite::
 LavenderTown_Text_GhostsAppearedInTower::
 #if GERMAN
 	.string "Geister spuken im Pokémon-Turm.\p"
-	.string "Ich glaube, das sind die Geister\n"
-	.string "jener Pokémon, die das Team\l"
-	.string "Rocket auf dem Gewissen hat!$"
+	.string "Ich glaube, das sind die Geister jener\n"
+	.string "Pokémon, die das Team Rocket auf dem\l"
+	.string "Gewissen hat!$"
 #else
 	.string "Ghosts appeared in POKéMON TOWER.\p"
 	.string "I think they're the spirits of\n"

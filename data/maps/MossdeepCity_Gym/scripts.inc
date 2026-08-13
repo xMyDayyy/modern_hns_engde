@@ -597,9 +597,8 @@ MossdeepCity_Gym_Text_MauraPostBattle:
 #if GERMAN
 	.string "Eine glänzende Zukunft erwartet die,\n"
 	.string "die fleißig sind.\p"
-	.string "Die, die dem Müßiggang frönen,\n"
-	.string "erwartet am Ende des Weges nur die\l"
-	.string "Verzweiflung. \p"
+	.string "Die, die dem Müßiggang frönen, erwartet\n"
+	.string "am Ende des Weges nur die Verzweiflung.\p"
 	.string "Man erntet das, was man sät.$"
 #else
 	.string "A bright future awaits those who have\n"
@@ -644,8 +643,8 @@ MossdeepCity_Gym_Text_NateIntro:
 #if GERMAN
 	.string "Hohoho.\p"
 	.string "Du lässt mir keine andere Wahl. Ich\n"
-	.string "werde dir zeigen, wie zäh Psycho-\l"
-	.string "Pokémon sind.$"
+	.string "werde dir zeigen, wie zäh\l"
+	.string "Psycho-Pokémon sind.$"
 #else
 	.string "Hohoho.\p"
 	.string "You need me to show you how tenacious\n"
@@ -655,8 +654,7 @@ MossdeepCity_Gym_Text_NateIntro:
 MossdeepCity_Gym_Text_NateDefeat:
 #if GERMAN
 	.string "Oh! Meine Güte!\n"
-	.string "Dein Kampfstil ist einfach\l"
-	.string "fantastisch!$"
+	.string "Dein Kampfstil ist einfach fantastisch!$"
 #else
 	.string "Oh! My, my!\n"
 	.string "Your battle style is fantastic!$"
@@ -700,8 +698,7 @@ MossdeepCity_Gym_Text_KathleenPostBattle:
 MossdeepCity_Gym_Text_CliffordIntro:
 #if GERMAN
 	.string "Ich mag meine beste Zeit gesehen\n"
-	.string "haben, aber ich lasse mich von dir\l"
-	.string "nicht\l"
+	.string "haben, aber ich lasse mich von dir nicht\l"
 	.string "bevormunden.$"
 #else
 	.string "I may be past my prime, but I suggest\n"
@@ -789,8 +786,7 @@ MossdeepCity_Gym_Text_TateAndLizaIntro:
 	.string "Ben: Hähähä… Bist du überrascht?\p"
 	.string "Svenja: Hihihi… Bist du überrascht?\p"
 	.string "Ben: Dass es hier 2 Arenaleiter gibt?\n"
-	.string "Svenja: Dass es hier 2 Arenaleiter\l"
-	.string "gibt?\p"
+	.string "Svenja: Dass es hier 2 Arenaleiter gibt?\p"
 	.string "Ben: Wir sind Zwillinge!\n"
 	.string "Svenja: Wir sind Zwillinge!\p"
 	.string "Ben: Wir brauchen nicht zu sprechen…\n"
@@ -819,8 +815,7 @@ MossdeepCity_Gym_Text_TateAndLizaDefeat:
 	.string "Ben: Was?!? Unsere Kombination…\n"
 	.string "Svenja: Wurde auseinander gerissen!\p"
 	.string "Ben: So sieht’s aus. Du hast gewonnen.\n"
-	.string "Svenja: Daher überreichen wir dir\l"
-	.string "dies.$"
+	.string "Svenja: Daher überreichen wir dir dies.$"
 #else
 	.string "TATE: What?! Our combination…\n"
 	.string "LIZA: Was shattered!\p"
@@ -994,8 +989,7 @@ MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
 	.string "Ben: Aber…\n"
 	.string "Svenja: Für diesen Kampf hast du…\p"
 	.string "Ben: Nur ein einziges Pokémon dabei!\n"
-	.string "Svenja: Nur ein einziges Pokémon\l"
-	.string "dabei! \p"
+	.string "Svenja: Nur ein einziges Pokémon dabei!\p"
 	.string "Ben: Du musst mindestens zwei…\n"
 	.string "Svenja: Pokémon haben.$"
 #else

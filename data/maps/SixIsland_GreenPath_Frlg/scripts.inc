@@ -30,9 +30,8 @@ SixIsland_GreenPath_Text_JaclynDefeat::
 SixIsland_GreenPath_Text_JaclynPostBattle::
 #if GERMAN
 	.string "Ich bin so kopflos!\p"
-	.string "Ich muss mich konzentrieren, um\n"
-	.string "mit Teleport zu meinem\l"
-	.string "Haus zu gelangen!$"
+	.string "Ich muss mich konzentrieren, um mit\n"
+	.string "Teleport zu meinem Haus zu gelangen!$"
 #else
 	.string "I am so scatterbrained!\p"
 	.string "I need to focus so I can TELEPORT\n"

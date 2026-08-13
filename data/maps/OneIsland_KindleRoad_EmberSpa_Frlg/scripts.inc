@@ -75,8 +75,8 @@ OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder::
 	.string "Mein Lieblingsteil vom Baden\n"
 	.string "kommt jetzt gleich.\p"
 	.string "Ich genehmige mir eine sämige\n"
-	.string "Fischsuppe, um mich auch von\l"
-	.string "innen aufzuwärmen!$"
+	.string "Fischsuppe, um mich auch von innen\l"
+	.string "aufzuwärmen!$"
 #else
 	.string "My favorite part of bathing comes\n"
 	.string "up right after this.\p"
@@ -121,16 +121,14 @@ OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs::
 
 OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion::
 #if GERMAN
-	.string "Nach einem harten Trainingstag\n"
-	.string "kann einem entspannenden\l"
-	.string "Aufenthalt in einem Thermalbad\l"
-	.string "nichts das Wasser reichen.\l"
-	.string "Bruno, der mir voransteht,\l"
-	.string "kommt gelegentlich auch\l"
-	.string "in diesen Kurort.\l"
-	.string "Er kommt hierher, um seine\l"
-	.string "Gebrechen und die seiner\l"
-	.string "Pokémon zu lindern.$"
+	.string "Nach einem harten Trainingstag kann\n"
+	.string "einem entspannenden Aufenthalt in\l"
+	.string "einem Thermalbad nichts das Wasser\l"
+	.string "reichen.\l"
+	.string "Bruno, der mir voransteht, kommt\l"
+	.string "gelegentlich auch in diesen Kurort.\l"
+	.string "Er kommt hierher, um seine Gebrechen\l"
+	.string "und die seiner Pokémon zu lindern.$"
 #else
 	.string "After an honest day of training,\n"
 	.string "nothing beats a relaxing soak in\l"
@@ -147,9 +145,8 @@ OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa::
 	.string "gehören zusammen.\p"
 	.string "Die Gluttherme hier habe\n"
 	.string "ich vor Jahren errichtet.\p"
-	.string "Ich habe das Becken mit meinen\n"
-	.string "Händen aus einem riesigen\l"
-	.string "Stein geformt.\l"
+	.string "Ich habe das Becken mit meinen Händen\n"
+	.string "aus einem riesigen Stein geformt.\l"
 	.string "Damals habe ich dies benutzt. Ich\l"
 	.string "denke, ich kann mich davon trennen.$"
 #else

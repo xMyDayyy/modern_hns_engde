@@ -175,11 +175,10 @@ CeruleanCity_House5_EventScript_BerryCrushRankings::
 
 CeruleanCity_House1_Text_AnyInterestInBerries::
 #if GERMAN
-	.string "Ich stelle eine Vielzahl\n"
-	.string "Medikamente aus Beerenpuder\l"
-	.string "her.\l"
-	.string "Mit gutem Beerenpuder kann\l"
-	.string "ich jedes Medikament herstellen!\p"
+	.string "Ich stelle eine Vielzahl Medikamente\n"
+	.string "aus Beerenpuder her.\l"
+	.string "Mit gutem Beerenpuder kann ich jedes\l"
+	.string "Medikament herstellen!\p"
 	.string "Hast du Interesse an Beeren?$"
 #else
 	.string "I concoct a variety of medicine\n"
@@ -201,25 +200,20 @@ CeruleanCity_House1_Text_HaveJustTheThing::
 
 CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner::
 #if GERMAN
-	.string "Im Pokémon-Center gibt es im\n"
-	.string "oberen Stockwerk beim\l"
-	.string "Direktklub etwas Neues.\l"
-	.string "Der Drahtlose GBA-Adapter zum\l"
-	.string "Beeren mahlen wurde\l"
-	.string "eingerichtet.\l"
+	.string "Im Pokémon-Center gibt es im oberen\n"
+	.string "Stockwerk beim Direktklub etwas Neues.\l"
+	.string "Der Drahtlose GBA-Adapter zum Beeren\l"
+	.string "mahlen wurde eingerichtet.\l"
 	.string "Da kommst du ins Spiel.\p"
 	.string "Du bist der Einzige, den ich\n"
 	.string "um diesen Gefallen bitten kann.\p"
 	.string "Kannst du mit dieser Maschine\n"
-	.string "Beerenpuder für mich\l"
-	.string "herstellen?\l"
+	.string "Beerenpuder für mich herstellen?\l"
 	.string "Sie steht im Direktklub des\l"
 	.string "Pokémon-Centers.\p"
-	.string "Ich werde Medizin herstellen,\n"
-	.string "wenn du mir Beerenpuder\l"
-	.string "bringst.\l"
-	.string "Mahle Beeren und bring mir\l"
-	.string "Beerenpuder.$"
+	.string "Ich werde Medizin herstellen, wenn du\n"
+	.string "mir Beerenpuder bringst.\l"
+	.string "Mahle Beeren und bring mir Beerenpuder.$"
 #else
 	.string "There's something new on the second\n"
 	.string "floor of POKéMON CENTERS, at the\l"
@@ -252,11 +246,9 @@ CeruleanCity_House1_Text_WhyMustYouLieNoBerries::
 
 CeruleanCity_House1_Text_TakeInterestInAllSortsOfThings::
 #if GERMAN
-	.string "Du interessierst dich nicht für\n"
-	.string "Beeren?\l"
-	.string "Auch als Kind sollte man sich\l"
-	.string "für alle möglichen Dinge\l"
-	.string "interessieren.$"
+	.string "Du interessierst dich nicht für Beeren?\n"
+	.string "Auch als Kind sollte man sich für alle\l"
+	.string "möglichen Dinge interessieren.$"
 #else
 	.string "You have no interest in BERRIES?\p"
 	.string "Young one, it's important to take an\n"
@@ -282,9 +274,8 @@ CeruleanCity_House5_Text_ExchangeWithWhat::
 
 CeruleanCity_House1_Text_YoullExchangeBerryPowderForItem::
 #if GERMAN
-	.string "Gut, ich gebe dir {STR_VAR_1} im\n"
-	.string "Austausch für deinen\l"
-	.string "Beerenpuder!$"
+	.string "Gut, ich gebe dir {STR_VAR_1} im Austausch\n"
+	.string "für deinen Beerenpuder!$"
 #else
 	.string "Fine, you'll exchange your BERRY\n"
 	.string "POWDER for one {STR_VAR_1}?$"
@@ -302,10 +293,10 @@ CeruleanCity_House1_Text_DontHaveEnoughBerryPowder::
 CeruleanCity_House1_Text_TradeMoreBerryPowder::
 #if GERMAN
 	.string "Das ist wirklich erstklassiger\n"
-	.string "Beerenpuder! Daraus lässt\l"
-	.string "sich gute Medizin herstellen.\l"
-	.string "Möchtest du noch mehr\l"
-	.string "Beerenpuder tauschen?$"
+	.string "Beerenpuder! Daraus lässt sich gute\l"
+	.string "Medizin herstellen.\l"
+	.string "Möchtest du noch mehr Beerenpuder\l"
+	.string "tauschen?$"
 #else
 	.string "This is fine BERRY POWDER indeed.\n"
 	.string "It will make excellent medicine.\p"

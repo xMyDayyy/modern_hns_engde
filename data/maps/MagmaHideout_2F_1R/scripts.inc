@@ -43,8 +43,7 @@ MagmaHideout_2F_1R_Text_Grunt14Intro:
 MagmaHideout_2F_1R_Text_Grunt14Defeat:
 #if GERMAN
 	.string "Aiyiyi…\n"
-	.string "Mein Stolz als Mitglied von Team\l"
-	.string "Magma…$"
+	.string "Mein Stolz als Mitglied von Team Magma…$"
 #else
 	.string "Aiyiyi…\n"
 	.string "My pride as a TEAM MAGMA member…$"

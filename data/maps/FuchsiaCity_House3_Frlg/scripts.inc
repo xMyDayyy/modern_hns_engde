@@ -97,8 +97,7 @@ FuchsiaCity_House3_Text_MonOnlyKnowsOneMove::
 FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten::
 #if GERMAN
 	.string "Hm! {STR_VAR_1} von {STR_VAR_2}?\n"
-	.string "Diese Attacke soll vergessen\l"
-	.string "werden?$"
+	.string "Diese Attacke soll vergessen werden?$"
 #else
 	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
 	.string "That move should be forgotten?$"
@@ -117,9 +116,8 @@ FuchsiaCity_House3_Text_MonHasForgottenMoveCompletely::
 
 FuchsiaCity_House3_Text_ComeAgainToForgetOtherMoves::
 #if GERMAN
-	.string "Komm wieder, wenn es andere\n"
-	.string "Attacken gibt, die vergessen werden\l"
-	.string "sollen.$"
+	.string "Komm wieder, wenn es andere Attacken\n"
+	.string "gibt, die vergessen werden sollen.$"
 #else
 	.string "Come again if there are other\n"
 	.string "moves to be forgotten.$"

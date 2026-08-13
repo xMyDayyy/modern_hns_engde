@@ -198,8 +198,8 @@ SaffronCity_Text_YouBeatTeamRocket::
 SaffronCity_Text_SafeToGoOutAgain::
 #if GERMAN
 	.string "Hurra! Das Team Rocket ist fort!\n"
-	.string "Jetzt fühlt man sich auf der\l"
-	.string "Straße wieder sicher!$"
+	.string "Jetzt fühlt man sich auf der Straße\l"
+	.string "wieder sicher!$"
 #else
 	.string "Yeah! TEAM ROCKET is gone!\n"
 	.string "It's safe to go out again!$"
@@ -218,12 +218,12 @@ SaffronCity_Text_PeopleComingBackToSaffron::
 
 SaffronCity_Text_FlewHereOnPidgeot::
 #if GERMAN
-	.string "Ich flog mit meinem Tauboss\n"
-	.string "hierher, nachdem ich von der Silph\l"
-	.string "Co. gelesen hatte!\p"
+	.string "Ich flog mit meinem Tauboss hierher,\n"
+	.string "nachdem ich von der Silph Co. gelesen\l"
+	.string "hatte!\p"
 	.string "Ist schon alles vorbei?\n"
-	.string "Na toll, dann habe ich wohl das\l"
-	.string "Beste verpasst!$"
+	.string "Na toll, dann habe ich wohl das Beste\l"
+	.string "verpasst!$"
 #else
 	.string "I flew here on my PIDGEOT when\n"
 	.string "I read about SILPH.\p"
@@ -240,8 +240,8 @@ SaffronCity_Text_Pidgeot::
 
 SaffronCity_Text_SawRocketBossEscaping::
 #if GERMAN
-	.string "Der Boss des Team Rocket ist aus\n"
-	.string "dem Gebäude der Silph Co.\l"
+	.string "Der Boss des Team Rocket ist aus dem\n"
+	.string "Gebäude der Silph Co.\l"
 	.string "geflohen!$"
 #else
 	.string "I saw the ROCKET BOSS escaping\n"
@@ -288,8 +288,8 @@ SaffronCity_Text_FightingDojo::
 SaffronCity_Text_GymSign::
 #if GERMAN
 	.string "Saffronia City Pokémon-Arena\n"
-	.string "Arenaleiterin: Sabrina\l"
-	.string "Die Herrin der Psycho-Pokémon!$"
+	.string "Arenaleiterin: Sabrina Die Herrin der\l"
+	.string "Psycho-Pokémon!$"
 #else
 	.string "SAFFRON CITY POKéMON GYM\n"
 	.string "LEADER: SABRINA\l"

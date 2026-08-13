@@ -20,11 +20,11 @@ CliffEdgeGate_EventScript_Picnicker::
 CliffEdgeGate_Text_IntroOpen:
 #if GERMAN
 	.string "Hey, du! Höre mir mal kurz zu!\p"
-	.string "Hier hinten gibt es einen\n"
-	.string "sehr, sehr spannenden Ort!\l"
+	.string "Hier hinten gibt es einen sehr, sehr\n"
+	.string "spannenden Ort!\l"
 	.string "Die Safari-Zone!\p"
-	.string "Da soll es seltene Pokémon in\n"
-	.string "Hülle und Fülle geben…\l"
+	.string "Da soll es seltene Pokémon in Hülle und\n"
+	.string "Fülle geben…\l"
 	.string "Ein regelrechtes Paradies für Trainer!\l"
 	.string "Damit machen die doch Verluste, oder?\p"
 	.string "Es ist gar nicht weit! Wenn du dort\n"

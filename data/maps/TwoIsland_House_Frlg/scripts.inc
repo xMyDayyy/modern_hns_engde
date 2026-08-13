@@ -121,9 +121,8 @@ TwoIsland_House_Text_TeachMonMoveForMushroom::
 #if GERMAN
 	.string "Ich bin der Pokémon-Attacken-\n"
 	.string "Maniac!\p"
-	.string "Ich kenne jede Attacke, die\n"
-	.string "Pokémon beim Levelanstieg\l"
-	.string "erlernen.\l"
+	.string "Ich kenne jede Attacke, die Pokémon\n"
+	.string "beim Levelanstieg erlernen.\l"
 	.string "Ich bin auch ein Pilzsammler.\p"
 	.string "Gib mir zwei Minipilze oder\n"
 	.string "einen Riesenpilz.\p"
@@ -170,9 +169,8 @@ TwoIsland_House_Text_TeachWhichMove::
 TwoIsland_House_Text_NoMoveICanTeachThatMon::
 #if GERMAN
 	.string "Tut mir Leid...\p"
-	.string "Scheinbar gibt es keine Attacke,\n"
-	.string "die ich diesem Pokémon beibringen\l"
-	.string "kann.$"
+	.string "Scheinbar gibt es keine Attacke, die ich\n"
+	.string "diesem Pokémon beibringen kann.$"
 #else
 	.string "Sorry…\p"
 	.string "It doesn't appear as if I have a\n"
@@ -208,9 +206,9 @@ TwoIsland_House_Text_HandedOverOneBigMushroom::
 
 TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove::
 #if GERMAN
-	.string "Falls deine Pokémon eine\n"
-	.string "Attacke lernen sollen, musst du\l"
-	.string "mir einen oder zwei Pilze geben!$"
+	.string "Falls deine Pokémon eine Attacke lernen\n"
+	.string "sollen, musst du mir einen oder zwei\l"
+	.string "Pilze geben!$"
 #else
 	.string "If your POKéMON need to learn a\n"
 	.string "move, I need a MUSHROOM or two.$"

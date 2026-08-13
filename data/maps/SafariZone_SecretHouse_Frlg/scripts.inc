@@ -57,12 +57,11 @@ SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant::
 SafariZone_SecretHouse_Text_ExplainSurf::
 #if GERMAN
 	.string "VM03 ist Surfer!\p"
-	.string "Lernt ein Pokémon diese Technik,\n"
-	.string "dann kann es dich über das Wasser\l"
+	.string "Lernt ein Pokémon diese Technik, dann\n"
+	.string "kann es dich über das Wasser\l"
 	.string "transportieren!\p"
-	.string "Das Beste ist aber, dass du diese\n"
-	.string "VM benutzen kannst, so oft du\l"
-	.string "möchtest!\p"
+	.string "Das Beste ist aber, dass du diese VM\n"
+	.string "benutzen kannst, so oft du möchtest!\p"
 	.string "Ist das nicht irre?\n"
 	.string "Du bist ein Glückspilz!$"
 #else

@@ -12,8 +12,7 @@ CeladonCity_Apartments_1F_EventScript_Sign::
 CeladonMansion_Text_Manager:
 #if GERMAN
 	.string "Meine lieben Pokémon leisten mir\n"
-	.string "Gesellschaft, sodass ich nie allein\l"
-	.string "bin.\p"
+	.string "Gesellschaft, sodass ich nie allein bin.\p"
 	.string "Mauzi bringt sogar Geld nach Hause.$"
 #else
 	.string "My dear POKéMON keep me company,\n"

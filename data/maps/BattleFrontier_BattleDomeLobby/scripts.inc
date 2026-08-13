@@ -470,9 +470,8 @@ BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
 #if GERMAN
-	.string "Das Einzelkampf-Turnier wird\n"
-	.string "seinem Namen gerecht. Es ist ein\l"
-	.string "Turnier\l"
+	.string "Das Einzelkampf-Turnier wird seinem\n"
+	.string "Namen gerecht. Es ist ein Turnier\l"
 	.string "bestehend aus Einzelkämpfen.\p"
 	.string "Jeder der Trainer nimmt drei Pokémon\n"
 	.string "in das Turnier.\p"
@@ -710,9 +709,8 @@ BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
 #if GERMAN
-	.string "Das Doppelkampf-Turnier wird\n"
-	.string "seinem Namen gerecht. Es ist ein\l"
-	.string "Turnier\l"
+	.string "Das Doppelkampf-Turnier wird seinem\n"
+	.string "Namen gerecht. Es ist ein Turnier\l"
 	.string "bestehend aus Doppelkämpfen.\p"
 	.string "Jeder der Trainer nimmt drei Pokémon\n"
 	.string "in das Turnier.\p"
@@ -837,8 +835,7 @@ BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction:
 
 BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
 #if GERMAN
-	.string "Gewinnt ein Trainer mehrere Turniere\n"
-	.string "in\l"
+	.string "Gewinnt ein Trainer mehrere Turniere in\n"
 	.string "Folge im Kampfstadion, wird er schnell\l"
 	.string "ein Star.\p"
 	.string "Der Ruf des Kampfstadions zieht\n"
@@ -871,9 +868,9 @@ BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
 #if GERMAN
 	.string "Hätte ich dieses Pokémon in Reserve\n"
 	.string "gehabt, hätte ich gewonnen.\p"
-	.string "Schau dir die gegnerischen Pokémon\n"
-	.string "gut an, bevor du deine eigenen Pokémon\l"
-	.string "für den Kampf auswählst.$"
+	.string "Schau dir die gegnerischen Pokémon gut\n"
+	.string "an, bevor du deine eigenen Pokémon für\l"
+	.string "den Kampf auswählst.$"
 #else
 	.string "I would've won if I'd kept this POKéMON\n"
 	.string "held in reserve.\p"
@@ -954,10 +951,10 @@ BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
 	.string "zimmer für jeden Interessierten aus.\p"
 	.string "Hier sind verschiedene Daten\n"
 	.string "verzeichnet.\p"
-	.string "Man findet hier die letzten Turnier-\n"
-	.string "ergebnisse, Informationen zu den\l"
-	.string "Pokémon der einzelnen Trainer\l"
-	.string "sowie zum Kampfstil der Trainer.$"
+	.string "Man findet hier die letzten\n"
+	.string "Turnierergebnisse, Informationen zu\l"
+	.string "den Pokémon der einzelnen Trainer sowie\l"
+	.string "zum Kampfstil der Trainer.$"
 #else
 	.string "The tournament chart, or as we call it,\n"
 	.string "the “Tree,” is available for viewing\l"

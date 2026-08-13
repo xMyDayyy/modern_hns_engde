@@ -94,9 +94,8 @@ PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle::
 
 PokemonMansion_1F_Text_ChristenedDiscoveredMonMew::
 #if GERMAN
-	.string "Tagebuch: 10. Juli\n"
-	.string "Wir nennen das neu entdeckte\l"
-	.string "Pokémon Mew.$"
+	.string "Tagebuch: 10. Juli Wir nennen das neu\n"
+	.string "entdeckte Pokémon Mew.$"
 #else
 	.string "Diary: July 10\n"
 	.string "We christened the newly discovered\l"

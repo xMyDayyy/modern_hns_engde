@@ -44,8 +44,8 @@ MauvilleCity_House2_EventScript_DeclineTrade::
 MauvilleCity_House2_Text_BuyHarborMailAtSlateport:
 #if GERMAN
 	.string "Wenn ich doch nur ein Rad hätte…\n"
-	.string "Dann könnte ich nach Graphitport\l"
-	.string "City zum Einkaufen fahren.\p"
+	.string "Dann könnte ich nach Graphitport City\l"
+	.string "zum Einkaufen fahren.\p"
 	.string "Dort würde ich mir dann einen Hafen-\n"
 	.string "brief im Pkmn-Supermarkt kaufen…$"
 #else

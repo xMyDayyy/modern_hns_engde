@@ -37,8 +37,8 @@ Route11_EventScript_Item_Grass_Knot::
 
 Route11_Text_Engineer:
 #if GERMAN
-	.string "Ich habe ein seltsames Pokémon\n"
-	.string "im Baum klettern sehen.\l"
+	.string "Ich habe ein seltsames Pokémon im Baum\n"
+	.string "klettern sehen.\l"
 	.string "Es sah nicht wie ein Menki aus…$"
 #else
 	.string "I saw a strange POKéMON climbing\n"

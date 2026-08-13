@@ -174,8 +174,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot:
 
 SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotSeedot:
 #if GERMAN
-	.string "Na, das ist doch schon ganz\n"
-	.string "ordentlich…\l"
+	.string "Na, das ist doch schon ganz ordentlich…\n"
 	.string "Aber das ist kein Samurzel!$"
 #else
 	.string "Oh, now this is quite something…\n"
@@ -186,9 +185,8 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
 #if GERMAN
 	.string "Du hast gar kein großes Samurzel?\n"
 	.string "Och, wie schade…\p"
-	.string "Wenn du ein großes Samurzel hast,\n"
-	.string "dann komm bitte wieder und zeig es\l"
-	.string "mir.$"
+	.string "Wenn du ein großes Samurzel hast, dann\n"
+	.string "komm bitte wieder und zeig es mir.$"
 #else
 	.string "You don't have a big SEEDOT?\n"
 	.string "That's too bad…\p"
@@ -199,8 +197,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
 #if GERMAN
 	.string "Das größte Samurzel aller Zeiten!\n"
-	.string "Der {STR_VAR_3} cm-Gigant von\l"
-	.string "{STR_VAR_2}! \p"
+	.string "Der {STR_VAR_3} cm-Gigant von {STR_VAR_2}!\p"
 	.string "Ein Samurzel, so groß, wie ein\n"
 	.string "Loturzel gerne sein würde!$"
 #else
@@ -219,8 +216,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad:
 	.string "Mein großer Bruder sagt, dass\n"
 	.string "Samurzel größer ist.\p"
 	.string "Aber das stimmt gar nicht! Jeder weiß\n"
-	.string "doch, dass Loturzel viel größer\l"
-	.string "ist.\p"
+	.string "doch, dass Loturzel viel größer ist.\p"
 	.string "Wie? Oh, du hast ein Loturzel?\n"
 	.string "Bitte, bitte zeig es mir!$"
 #else
@@ -240,8 +236,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot:
 	.string "{STR_VAR_2} cm!\n"
 	.string "Wow, das ist aber groß!\p"
 	.string "Das ist bestimmt größer als das\n"
-	.string "Samurzel, das mein Bruder gesehen\l"
-	.string "hat.\p"
+	.string "Samurzel, das mein Bruder gesehen hat.\p"
 	.string "Danke, dass ich es anschauen durfte.\n"
 	.string "Hier, ein kleines Dankeschön!$"
 #else
@@ -305,8 +300,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad:
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
 #if GERMAN
 	.string "Das größte Loturzel aller Zeiten!\n"
-	.string "Der {STR_VAR_3} cm-Koloss von\l"
-	.string "{STR_VAR_2}! \p"
+	.string "Der {STR_VAR_3} cm-Koloss von {STR_VAR_2}!\p"
 	.string "Ein Loturzel, so groß, wie ein\n"
 	.string "Samurzel gerne sein würde.$"
 #else

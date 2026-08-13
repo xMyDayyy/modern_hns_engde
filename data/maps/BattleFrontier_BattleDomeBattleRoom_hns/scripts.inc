@@ -963,8 +963,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner_hns:
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ_hns:
 #if GERMAN
-	.string "Der Gewinner des Level 50-\n"
-	.string "Kampfturniers heißt {PLAYER}!\l"
+	.string "Der Gewinner des Level\n"
+	.string "50-Kampfturniers heißt {PLAYER}!\l"
 	.string "Herzlichen Glückwunsch!$"
 #else
 	.string "{PLAYER} is the Level 50\n"
@@ -974,8 +974,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ_hns:
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp_hns:
 #if GERMAN
-	.string "Der Gewinner des Offene Kämpfe-\n"
-	.string "Kampfturniers heißt {PLAYER}!\l"
+	.string "Der Gewinner des Offene\n"
+	.string "Kämpfe-Kampfturniers heißt {PLAYER}!\l"
 	.string "Herzlichen Glückwunsch!$"
 #else
 	.string "{PLAYER} is the Open Level\n"
@@ -1356,8 +1356,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro_hns:
 	.string "Die Begeisterung des Publikums…\l"
 	.string "Die aufgeheizte Atmosphäre…\l"
 	.string "Was für ein wundervoller Ort…\p"
-	.string "Für das Publikum bin ich der Stadion-\n"
-	.string "Star… Ich repräsentiere ihre\l"
+	.string "Für das Publikum bin ich der\n"
+	.string "Stadion-Star… Ich repräsentiere ihre\l"
 	.string "Träume und Hoffnungen…\l"
 	.string "Sie dürfen mich niemals verlieren…\p"
 	.string "Ich muss brennen!\n"

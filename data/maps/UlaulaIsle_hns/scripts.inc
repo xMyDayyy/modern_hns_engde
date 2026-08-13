@@ -292,10 +292,9 @@ Alola_Ulaula_BattlePalossand_Text_0:
 
 Alola_Ulaula_MtLanikalaSign_Text_0:
 #if GERMAN
-	.string "Dieser Berg wird von den Einheimi-\n"
-	.string "schen liebevoll Lanikala genannt,\l"
-	.string "da er der höchste Berg der Alola-\l"
-	.string "Inseln ist.\p"
+	.string "Dieser Berg wird von den Einheimischen\n"
+	.string "liebevoll Lanikala genannt, da er der\l"
+	.string "höchste Berg der Alola-Inseln ist.\p"
 	.string "Sein wahrer Name ist längst in\n"
 	.string "Vergessenheit geraten.$"
 #else
@@ -321,9 +320,8 @@ Alola_Ulaula_Phant_outside_Text_0:
 	.string "Teil des Spiels gebaut hat!\p"
 	.string "Ich hoffe, dieser Vorgeschmack auf\n"
 	.string "Alola hat dir gefallen.\p"
-	.string "Ich arbeite an einem kompletten\n"
-	.string "Demake der Region namens\l"
-	.string "Ultra Eclipse.$"
+	.string "Ich arbeite an einem kompletten Demake\n"
+	.string "der Region namens Ultra Eclipse.$"
 #else
 	.string "Hello there, {PLAYER}!\p"
 	.string "I'm the developer who built this\n"
@@ -335,8 +333,8 @@ Alola_Ulaula_Phant_outside_Text_0:
 
 Alola_Ulaula_Phant_outside_Text_1:
 #if GERMAN
-	.string "Besuch mich doch in meinem Haus\n"
-	.string "ganz oben auf dieser Insel.\l"
+	.string "Besuch mich doch in meinem Haus ganz\n"
+	.string "oben auf dieser Insel.\l"
 	.string "Es wird sich für dich lohnen!$"
 #else
 	.string "Please come visit me at my house at\n"
@@ -412,9 +410,9 @@ Alola_Ulaula_TrainerBattleHiker_Text_1:
 Alola_Ulaula_TrainerBattleHiker_Text_2:
 #if GERMAN
 	.string "Auf Ula-Ula wandert es sich am\nbesten!\p"
-	.string "Die Einheimischen nennen diesen\n"
-	.string "Berg Lanikala, denn er ist der\l"
-	.string "höchste der Alola-Inseln!$"
+	.string "Die Einheimischen nennen diesen Berg\n"
+	.string "Lanikala, denn er ist der höchste der\l"
+	.string "Alola-Inseln!$"
 #else
 	.string "Ula'ula Isle has the best hiking!\p"
 	.string "The locals refer to this mountain as\n"

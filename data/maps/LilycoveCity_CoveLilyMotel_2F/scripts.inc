@@ -71,8 +71,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
 	.string "Ich bin der Game Designer.\p"
 	.string "Oh, wirklich?\n"
 	.string "Du arbeitest an einem Pokédex?\p"
-	.string "Es ist schwer, ihn zu\n"
-	.string "vervollständigen,\l"
+	.string "Es ist schwer, ihn zu vervollständigen,\n"
 	.string "aber du darfst nicht aufgeben.\p"
 	.string "Sobald du ihn vervollständigt hast,\n"
 	.string "komm mich wieder besuchen.$"
@@ -122,8 +121,8 @@ LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
 #if GERMAN
 	.string "Ich bin der Graphic Artist! Sind die\n"
-	.string "Pokémon in der Region von Hoenn\l"
-	.string "nicht interessant?$"
+	.string "Pokémon in der Region von Hoenn nicht\l"
+	.string "interessant?$"
 #else
 	.string "I'm the GRAPHIC ARTIST! Aren't the\n"
 	.string "POKéMON of HOENN interesting?$"
@@ -136,8 +135,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
 	.string "Ein Kampf gegen so niedliche Mädchen…\l"
 	.string "\p"
 	.string "Huuh, das ist vielleicht ein Spaß!\p"
-	.string "Und die Zwillinge erst! Sind die\n"
-	.string "süß!?!\l"
+	.string "Und die Zwillinge erst! Sind die süß!?!\n"
 	.string "Ein 2-gegen-2-Kampf mit Zwillingen…\p"
 	.string "Huuh, einfach unglaublicher Spaß!$"
 #else
@@ -185,13 +183,12 @@ LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
 	.string "Wettbewerb anschauen.\p"
 	.string "Das scheint ganz interessant zu sein,\n"
 	.string "aber…\p"
-	.string "Vielleicht bin ich ja Purist - aber\n"
-	.string "ich\l"
+	.string "Vielleicht bin ich ja Purist - aber ich\n"
 	.string "bevorzuge Kämpfe und starke Trainer.\p"
 	.string "Aber das liegt wohl an mir.\p"
 	.string "Ich hoffe du genießt die Arenen,\n"
-	.string "Wettbewerbe, Kampfcamps und all\l"
-	.string "die wunderbaren Dinge, {PLAYER}{KUN}!$"
+	.string "Wettbewerbe, Kampfcamps und all die\l"
+	.string "wunderbaren Dinge, {PLAYER}{KUN}!$"
 #else
 	.string "SCOTT: … … … … …\n"
 	.string "… … … … … Zzz…\p"

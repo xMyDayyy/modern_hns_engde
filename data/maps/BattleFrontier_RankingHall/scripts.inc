@@ -104,8 +104,7 @@ BattleFrontier_RankingHall_Text_ExplainRankingHall:
 #if GERMAN
 	.string "Dies ist die Ergebnishalle.\n"
 	.string "Hier sind die Namen der Trainer\p"
-	.string "verewigt, die sich durch ihre\n"
-	.string "Ergebnisse\l"
+	.string "verewigt, die sich durch ihre Ergebnisse\n"
 	.string "bei den Kampfzonen-Kämpfen\l"
 	.string "unsterblich gemacht haben.$"
 #else

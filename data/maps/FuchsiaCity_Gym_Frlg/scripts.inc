@@ -95,8 +95,7 @@ FuchsiaCity_Gym_Text_KogaIntro::
 	.string "Ein Kind fordert einen Ninja-\n"
 	.string "meister zum Kampf heraus?\p"
 	.string "Wie du willst! Erlebe eine Welt des\n"
-	.string "Schreckens, bevor ich dich\l"
-	.string "besiege!\p"
+	.string "Schreckens, bevor ich dich besiege!\p"
 	.string "An meinen Schlaf- und Gift-\n"
 	.string "Attacken sollst du verzweifeln!{PLAY_BGM}?À$"
 #else
@@ -127,9 +126,9 @@ FuchsiaCity_Gym_Text_KogaDefeat::
 
 FuchsiaCity_Gym_Text_KogaPostBattle::
 #if GERMAN
-	.string "Wirkt das Toxin erst einmal,\n"
-	.string "leiden Pokémon umso mehr, je\l"
-	.string "länger der Kampf dauert!\p"
+	.string "Wirkt das Toxin erst einmal, leiden\n"
+	.string "Pokémon umso mehr, je länger der Kampf\l"
+	.string "dauert!\p"
 	.string "Ein wahrer Alptraum für den\n"
 	.string "Gegner!$"
 #else
@@ -142,9 +141,9 @@ FuchsiaCity_Gym_Text_KogaPostBattle::
 
 FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
 #if GERMAN
-	.string "Nun, da du Träger des\n"
-	.string "Seelenordens bist, wird die\l"
-	.string "Abwehr deiner Pokémon steigen!\p"
+	.string "Nun, da du Träger des Seelenordens\n"
+	.string "bist, wird die Abwehr deiner Pokémon\l"
+	.string "steigen!\p"
 	.string "Ferner kannst du Surfer nun auch\n"
 	.string "außerhalb von Kämpfen nutzen!\p"
 	.string "Bitte nimm auch dieses Geschenk!$"
@@ -265,9 +264,9 @@ FuchsiaCity_Gym_Text_NateDefeat::
 
 FuchsiaCity_Gym_Text_NatePostBattle::
 #if GERMAN
-	.string "Ich bevorzuge Schlaf- und Gift-\n"
-	.string "Attacken. Ihre Wirkung dauert auch\l"
-	.string "nach dem Kampf an!$"
+	.string "Ich bevorzuge Schlaf- und\n"
+	.string "Gift-Attacken. Ihre Wirkung dauert\l"
+	.string "auch nach dem Kampf an!$"
 #else
 	.string "I like poison and sleep techniques,\n"
 	.string "as they linger after battle!$"

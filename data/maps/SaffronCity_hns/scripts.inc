@@ -32,15 +32,13 @@ SaffronCity_Text_Baoba:
 #if GERMAN
 	.string "Wärter Baoba: {PLAYER}!\p"
 	.string "Hier ist Wärter Baoba.\p"
-	.string "Ich ruf an, um dir zu sagen,\n"
-	.string "dass die Safarizone wieder\l"
-	.string "gewachsen ist!\p"
+	.string "Ich ruf an, um dir zu sagen, dass die\n"
+	.string "Safarizone wieder gewachsen ist!\p"
 	.string "Endlich ist meine Safarizone\n"
 	.string "vollständig!\p"
 	.string "Du weißt noch, wo sie ist,\n"
 	.string "oder?\p"
-	.string "Direkt westlich von\n"
-	.string "Anemonia City!\l"
+	.string "Direkt westlich von Anemonia City!\n"
 	.string "Bis bald!$"
 #else
 	.string "WARDEN BAOBA: {PLAYER}!\p"
@@ -151,10 +149,10 @@ SaffronCity_Text_Lass1:
 
 SaffronCity_Text_Lass1_ReturnedPart:
 #if GERMAN
-	.string "Die junge Nachahmerin hat ihre\n"
-	.string "geliebte Poképuppe verloren, eine\l"
-	.string "Nachbildung eines Piepi. Das scheint\l"
-	.string "sie sehr mitzunehmen…$"
+	.string "Die junge Nachahmerin hat ihre geliebte\n"
+	.string "Poképuppe verloren, eine Nachbildung\l"
+	.string "eines Piepi. Das scheint sie sehr\l"
+	.string "mitzunehmen…$"
 #else
 	.string "The COPYCAT girl looked unhappy.\p"
 	.string "She said she lost her favorite\n"
@@ -164,9 +162,8 @@ SaffronCity_Text_Lass1_ReturnedPart:
 SaffronCity_Text_PokefanM:
 #if GERMAN
 	.string "Du bist von Johto hergekommen?\p"
-	.string "Wenn der Magnetzug\n"
-	.string "läuft, bist du ganz schnell wieder zu\l"
-	.string "Hause.$"
+	.string "Wenn der Magnetzug läuft, bist du ganz\n"
+	.string "schnell wieder zu Hause.$"
 #else
 	.string "You came out from JOHTO?\p"
 	.string "You can zip back home if the\n"
@@ -217,9 +214,8 @@ SaffronCity_Text_CooltrainerF:
 SaffronCity_Text_Fisher:
 #if GERMAN
 	.string "Mampf… Mampf…\p"
-	.string "Wie ich höre,\n"
-	.string "braut sich da etwas im Kraftwerk\l"
-	.string "zusammen.\p"
+	.string "Wie ich höre, braut sich da etwas im\n"
+	.string "Kraftwerk zusammen.\p"
 	.string "Mampf… Mampf…$"
 #else
 	.string "Chew… Chew…\p"
@@ -231,9 +227,8 @@ SaffronCity_Text_Fisher:
 SaffronCity_Text_Fisher_ReturnedPart:
 #if GERMAN
 	.string "Mampf… Mampf…\p"
-	.string "Wie ich höre,\n"
-	.string "braute sich da etwas im Kraftwerk\l"
-	.string "zusammen.\p"
+	.string "Wie ich höre, braute sich da etwas im\n"
+	.string "Kraftwerk zusammen.\p"
 	.string "Mampf… Mampf… Aah, ich bin satt!$"
 #else
 	.string "Chew… Chew…\p"
@@ -253,8 +248,8 @@ SaffronCity_Text_Youngster1:
 
 SaffronCity_Text_Youngster2:
 #if GERMAN
-	.string "In Vertania City gibt es ein Trainer-\n"
-	.string "Haus, wo sich Pokémon-Trainer\l"
+	.string "In Vertania City gibt es ein\n"
+	.string "Trainer-Haus, wo sich Pokémon-Trainer\l"
 	.string "aus der ganzen Welt treffen.$"
 #else
 	.string "There's a place called TRAINER\n"
@@ -266,9 +261,9 @@ SaffronCity_Text_Lass2:
 #if GERMAN
 	.string "Über unsere Stadt wurde mal\n"
 	.string "im Radio berichtet!\p"
-	.string "Ich freue mich zwar über das Lob\n"
-	.string "für meine Heimatstadt, aber es\l"
-	.string "ist mir auch ein klein wenig peinlich.$"
+	.string "Ich freue mich zwar über das Lob für\n"
+	.string "meine Heimatstadt, aber es ist mir auch\l"
+	.string "ein klein wenig peinlich.$"
 #else
 	.string "Our city was featured on a radio\n"
 	.string "program.\p"
@@ -289,8 +284,8 @@ SaffronCity_Text_Sign:
 SaffronCity_Text_GymSign:
 #if GERMAN
 	.string "Saffronia City Pokémon-Arena\n"
-	.string "Arenaleiterin: Sabrina\l"
-	.string "Die Herrin der Psycho-Pokémon!$"
+	.string "Arenaleiterin: Sabrina Die Herrin der\l"
+	.string "Psycho-Pokémon!$"
 #else
 	.string "SAFFRON CITY\n"
 	.string "POKéMON GYM\l"

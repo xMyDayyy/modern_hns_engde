@@ -667,10 +667,10 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
 	.string "Man beobachtet und studiert Dinge in\n"
 	.string "ihrem natürlichen Umfeld. In Feldern\l"
 	.string "oder auf Bergen, anstatt im Labor.\p"
-	.string "Der Prof ist kein Typ, der am Schreib-\n"
-	.string "tisch arbeiten kann. Er muss einfach\l"
-	.string "draußen in der freien Natur die Dinge\l"
-	.string "beobachten und studieren.$"
+	.string "Der Prof ist kein Typ, der am\n"
+	.string "Schreibtisch arbeiten kann. Er muss\l"
+	.string "einfach draußen in der freien Natur die\l"
+	.string "Dinge beobachten und studieren.$"
 #else
 	.string "Hunh? PROF. BIRCH?\p"
 	.string "The PROF's away on fieldwork.\n"
@@ -687,10 +687,10 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
 #if GERMAN
-	.string "Der Prof ist kein Typ, der am Schreib-\n"
-	.string "tisch arbeiten kann. Er muss einfach\l"
-	.string "draußen in der freien Natur die Dinge\l"
-	.string "beobachten und studieren.$"
+	.string "Der Prof ist kein Typ, der am\n"
+	.string "Schreibtisch arbeiten kann. Er muss\l"
+	.string "einfach draußen in der freien Natur die\l"
+	.string "Dinge beobachten und studieren.$"
 #else
 	.string "The PROF isn't one for doing desk work.\n"
 	.string "He's the type of person who would\l"
@@ -761,9 +761,8 @@ LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "Mein Kind, {RIVAL}, studiert ebenfalls\n"
 	.string "Pokémon und hilft mir dabei sehr.\p"
 	.string "{PLAYER}{KUN}, meinst du nicht, es\n"
-	.string "wäre eine\l"
-	.string "gute Idee, wenn du dich mit {RIVAL}\l"
-	.string "triffst?$"
+	.string "wäre eine gute Idee, wenn du dich mit\l"
+	.string "{RIVAL} triffst?$"
 #else
 	.string "PROF. BIRCH: If you work at POKéMON\n"
 	.string "and gain experience, I think you'll make\l"
@@ -825,8 +824,8 @@ LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 	.string "meinen Forschungen.\p"
 	.string "{RIVAL} besitzt eine respektable\n"
 	.string "Geschichte als Trainer.\p"
-	.string "Hier, das hilft mir bei meinen For-\n"
-	.string "schungen. Aber ich denke, du kannst\l"
+	.string "Hier, das hilft mir bei meinen\n"
+	.string "Forschungen. Aber ich denke, du kannst\l"
 	.string "den Pokédex auch gebrauchen.$"
 #else
 	.string "PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\p"
@@ -857,9 +856,9 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "{RIVAL} geht nie ohne ihn aus dem\n"
 	.string "Haus. \p"
 	.string "Immer, wenn mein Kind ein seltenes\n"
-	.string "Pokémon fängt, kommt es und\l"
-	.string "zeigt mir den Eintrag im Pokédex,\l"
-	.string "während ich draußen forsche.$"
+	.string "Pokémon fängt, kommt es und zeigt mir\l"
+	.string "den Eintrag im Pokédex, während ich\l"
+	.string "draußen forsche.$"
 #else
 	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
 	.string "tool that automatically makes a record\l"
@@ -900,8 +899,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 #if GERMAN
-	.string "Maike: Es macht unheimlich viel Spaß,\n"
-	.string "all\l"
+	.string "Maike: Es macht unheimlich viel Spaß, all\n"
 	.string "die verschiedenen Pokémon zu fangen!\p"
 	.string "Ich schaue mich wirklich überall um,\n"
 	.string "denn ich will die unterschiedlichsten\l"
@@ -991,8 +989,7 @@ LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
 
 LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch:
 #if GERMAN
-	.string "Ein PC, der in der Forschung\n"
-	.string "eingesetzt\l"
+	.string "Ein PC, der in der Forschung eingesetzt\n"
 	.string "wird. Besser nicht damit spielen!$"
 #else
 	.string "It's a PC used for research.\n"
@@ -1016,10 +1013,9 @@ LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:
 LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
 #if GERMAN
 	.string "Prof. Birk: Nun…\p"
-	.string "{PLAYER}{KUN} und {RIVAL}, ich hatte\n"
-	.string "euch\l"
-	.string "gebeten, mir bei meinen Pokémon-\l"
-	.string "Studien zu helfen.\p"
+	.string "{PLAYER}{KUN} und {RIVAL}, ich\n"
+	.string "hatte euch gebeten, mir bei meinen\l"
+	.string "Pokémon-Studien zu helfen.\p"
 	.string "Dank eurer Hilfe kommen neue Fakten\n"
 	.string "ans Tageslicht.\p"
 	.string "Scheinbar sind in der Hoenn-Region\n"
@@ -1346,8 +1342,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
 LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
 #if GERMAN
 	.string "Maike: Oh, hi {PLAYER}{KUN}!\n"
-	.string "Hast du schon die Kampfzone\l"
-	.string "besucht?$"
+	.string "Hast du schon die Kampfzone besucht?$"
 #else
 	.string "MAY: Oh, hi, {PLAYER}{KUN}!\n"
 	.string "Have you gone to that place,\l"
@@ -1357,8 +1352,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
 LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
 #if GERMAN
 	.string "Maike: Hey, {PLAYER}!\n"
-	.string "Hast du schon die Kampfzone\l"
-	.string "besucht?$"
+	.string "Hast du schon die Kampfzone besucht?$"
 #else
 	.string "BRENDAN: Hey, {PLAYER}!\n"
 	.string "Have you gone out to that place,\l"
@@ -1377,8 +1371,8 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "Übrigens…\p"
 	.string "Ich würde dich gerne an einen\n"
 	.string "bestimmten Ort einladen.\p"
-	.string "Wenn du interessiert bist, dann\n"
-	.string "nimm entweder in Graphitport City oder\l"
+	.string "Wenn du interessiert bist, dann nimm\n"
+	.string "entweder in Graphitport City oder\l"
 	.string "Seegrasulb City die Fähre.\p"
 	.string "Alles Weitere besprechen wir, wenn\n"
 	.string "wir uns an Bord treffen. Bis dann!\p"

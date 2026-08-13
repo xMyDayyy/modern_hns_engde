@@ -443,9 +443,9 @@ Alola_Akala_OldManOnBench_Text_0:
 #if GERMAN
 	.string "Ah, das Wetter ist heute wieder\n"
 	.string "herrlich, nicht wahr?\p"
-	.string "Ich habe gerade die Natu gefüttert\n"
-	.string "und dieses hier leistet mir nun auf\l"
-	.string "meiner Bank Gesellschaft!$"
+	.string "Ich habe gerade die Natu gefüttert und\n"
+	.string "dieses hier leistet mir nun auf meiner\l"
+	.string "Bank Gesellschaft!$"
 #else
 	.string "Ah the weather is so nice today,\n"
 	.string "isn't it?\p"
@@ -569,9 +569,8 @@ Alola_Akala_TrainerBattlePicnicker_Text_1:
 
 Alola_Akala_TrainerBattlePicnicker_Text_2:
 #if GERMAN
-	.string "Akala ist so grün, dass ich mich\n"
-	.string "mühelos in den Bäumen verstecken\l"
-	.string "kann!$"
+	.string "Akala ist so grün, dass ich mich mühelos\n"
+	.string "in den Bäumen verstecken kann!$"
 #else
 	.string "It's so lush on Akala Isle,\n"
 	.string "I can easily hide in the trees!$"
@@ -593,9 +592,9 @@ Alola_Akala_TrainerBattleCamper_Text_1:
 
 Alola_Akala_TrainerBattleCamper_Text_2:
 #if GERMAN
-	.string "Vorne steht ein seltsames Totem,\n"
-	.string "aber ein Herrscher-Pokémon habe\l"
-	.string "ich nicht gesehen.$"
+	.string "Vorne steht ein seltsames Totem, aber\n"
+	.string "ein Herrscher-Pokémon habe ich nicht\l"
+	.string "gesehen.$"
 #else
 	.string "There's a weird Totem further ahead but\n"
 	.string "I haven't seen a Totem Pokémon.$"
@@ -641,8 +640,8 @@ Alola_Akala_TrainerBattleSwimmerWater_Text_1:
 Alola_Akala_TrainerBattleSwimmerWater_Text_2:
 #if GERMAN
 	.string "Ula-Ula hat die schönsten Strände!\n"
-	.string "Glaub niemandem, der etwas\l"
-	.string "anderes behauptet!$"
+	.string "Glaub niemandem, der etwas anderes\l"
+	.string "behauptet!$"
 #else
 	.string "Ula'ula Isle has the best beaches!\n"
 	.string "Ignore anyone who says otherwise!$"
@@ -658,8 +657,8 @@ Alola_Akala_TrainerBattleSwimmerWaterM_Text_0:
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_1:
 #if GERMAN
 	.string "Wäre ich nicht selbst geschwommen,\n"
-	.string "hätte ich vielleicht noch Kraft\l"
-	.string "zum Siegen gehabt…$"
+	.string "hätte ich vielleicht noch Kraft zum\l"
+	.string "Siegen gehabt…$"
 #else
 	.string "If I hadn't swam myself\nmaybe I would've had the energy to win…$"
 #endif
@@ -668,8 +667,7 @@ Alola_Akala_TrainerBattleSwimmerWaterM_Text_2:
 #if GERMAN
 	.string "Die Strömung hier draußen ist stark!\n"
 	.string "Ein Pokémon muss schon sehr kräftig\l"
-	.string "sein, um bis zu den Inseln zu\l"
-	.string "wandern!$"
+	.string "sein, um bis zu den Inseln zu wandern!$"
 #else
 	.string "The current out here is strong!\n"
 	.string "A Pokémon must be really powerful to\l"

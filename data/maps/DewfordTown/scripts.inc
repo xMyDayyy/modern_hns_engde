@@ -650,8 +650,8 @@ DewfordTown_Text_TownSign:
 DewfordTown_Text_GymSign:
 #if GERMAN
 	.string "Pokémon Arena von Faustauhaven\n"
-	.string "Leiter: Kamillo\l"
-	.string "“Eine große Welle des Kampfes!”$"
+	.string "Leiter: Kamillo “Eine große Welle des\l"
+	.string "Kampfes!”$"
 #else
 	.string "DEWFORD TOWN POKéMON GYM\n"
 	.string "LEADER: BRAWLY\l"
@@ -801,9 +801,9 @@ DewfordTown_Text_ThrowInFishingAdvice:
 	.string "Konzentriere dich… Wenn etwas anbeißt,\n"
 	.string "hol die Angel ein.\p"
 	.string "Manchmal kannst du mit einem Mal etwas\n"
-	.string "Großes fangen, manchmal musst du\l"
-	.string "immer wieder kurz die Angel anheben,\l"
-	.string "um etwas an Land zu ziehen.$"
+	.string "Großes fangen, manchmal musst du immer\l"
+	.string "wieder kurz die Angel anheben, um etwas\l"
+	.string "an Land zu ziehen.$"
 #else
 	.string "And, as an added bonus, I'll even throw\n"
 	.string "in a little fishing advice!\p"
@@ -853,9 +853,9 @@ DewfordTown_Text_FishingAdvice:
 	.string "Konzentriere dich… Wenn etwas\n"
 	.string "anbeißt, hol die Angel ein.\p"
 	.string "Manchmal kannst du mit einem Mal etwas\n"
-	.string "Großes fangen, manchmal musst du\l"
-	.string "immer wieder kurz die Angel anheben,\l"
-	.string "um etwas an Land zu ziehen.$"
+	.string "Großes fangen, manchmal musst du immer\l"
+	.string "wieder kurz die Angel anheben, um etwas\l"
+	.string "an Land zu ziehen.$"
 #else
 	.string "Oh, hey, don't get down on yourself!\n"
 	.string "I'll give you a little fishing advice.\p"
@@ -879,11 +879,9 @@ DewfordTown_Text_XIsTheBiggestHappeningThingRight:
 	.string "Wusste ich es doch!\n"
 	.string "Natürlich hast du schon davon gehört!\l"
 	.string "\p"
-	.string "Oh, meine Güte,\n"
-	.string "“{STR_VAR_1}”…\l"
+	.string "Oh, meine Güte, “{STR_VAR_1}”…\n"
 	.string "Das ist das Coolste überhaupt!\p"
-	.string "Wo immer du auch herkommst,\n"
-	.string "“{STR_VAR_1}”\l"
+	.string "Wo immer du auch herkommst, “{STR_VAR_1}”\n"
 	.string "ist das Aufregendste überhaupt!$"
 #else
 	.string "I like what's hip, happening, and trendy.\n"
@@ -954,8 +952,7 @@ DewfordTown_Text_OfCourseIKnowAboutThat:
 DewfordTown_Text_XHuhIThinkYIsCool:
 #if GERMAN
 	.string "Hmm… “{STR_VAR_2}”, oder?\p"
-	.string "Aber ich persönlich finde,\n"
-	.string "“{STR_VAR_1}”\l"
+	.string "Aber ich persönlich finde, “{STR_VAR_1}”\n"
 	.string "ist das Coolste überhaupt!$"
 #else
 	.string "Hmm…\n"
@@ -967,8 +964,8 @@ DewfordTown_Text_XHuhIThinkYIsCool:
 
 DewfordTown_Text_HearOfAnyTrendsComeShareWithMe:
 #if GERMAN
-	.string "Wenn du irgendetwas über neue, auf-\n"
-	.string "regende Sachen hörst, erzähl mir\l"
+	.string "Wenn du irgendetwas über neue,\n"
+	.string "aufregende Sachen hörst, erzähl mir\l"
 	.string "davon!$"
 #else
 	.string "Well, if you hear of any happening new\n"

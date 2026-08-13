@@ -69,9 +69,8 @@ Trade_Text_Thanks::
 
 Trade_Text_HasTradedMonGrownStronger::
 #if GERMAN
-	.string "Das {STR_VAR_2}, das ich\n"
-	.string "mit dir getauscht habe -\l"
-	.string "ist es stärker geworden?$"
+	.string "Das {STR_VAR_2}, das ich mit dir getauscht\n"
+	.string "habe - ist es stärker geworden?$"
 #else
 	.string "The {STR_VAR_2} that I traded you,\n"
 	.string "has it grown stronger?$"

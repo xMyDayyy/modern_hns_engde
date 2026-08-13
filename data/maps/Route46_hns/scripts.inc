@@ -120,9 +120,9 @@ Route46_Text_PicnickerErinBeaten:
 
 Route46_Text_PicnickerErinAfterBattle:
 #if GERMAN
-	.string "Ich war in vielen Pokémon-Arenen,\n"
-	.string "aber die Pokémon-Arena in\l"
-	.string "Dukatia City ist am schönsten.\p"
+	.string "Ich war in vielen Pokémon-Arenen, aber\n"
+	.string "die Pokémon-Arena in Dukatia City ist\l"
+	.string "am schönsten.\p"
 	.string "Dort sind wunderschöne Blumen!$"
 #else
 	.string "I've been to many GYMS, but the\n"
@@ -132,9 +132,9 @@ Route46_Text_PicnickerErinAfterBattle:
 
 Route46_Text_ErinRegister:
 #if GERMAN
-	.string "Ich war schon in vielen Arenen,\n"
-	.string "aber die Arena in Dukatia City ist\l"
-	.string "meine Lieblingsarena.\p"
+	.string "Ich war schon in vielen Arenen, aber die\n"
+	.string "Arena in Dukatia City ist meine\l"
+	.string "Lieblingsarena.\p"
 	.string "Sie ist voller hübscher Blumen!$"
 #else
 	.string "I've been to many GYMS, but the\n"
@@ -160,9 +160,9 @@ Route46_Text_ErinRematchDefeat:
 
 Route46_Text_ErinPostRematch:
 #if GERMAN
-	.string "Ich war schon in vielen Arenen,\n"
-	.string "aber die Arena in Dukatia City ist\l"
-	.string "meine Lieblingsarena.\p"
+	.string "Ich war schon in vielen Arenen, aber die\n"
+	.string "Arena in Dukatia City ist meine\l"
+	.string "Lieblingsarena.\p"
 	.string "Sie ist voller hübscher Blumen!$"
 #else
 	.string "I've been to many GYMS, but the\n"

@@ -225,9 +225,8 @@ TrainerTower_Lobby_EventScript_BaldingMan::
 TrainerTower_Lobby_Text_WelcomeToTrainerTower::
 #if GERMAN
 	.string "Hallo!\p"
-	.string "Willkommen im Trainerturm,\n"
-	.string "wo sich Trainer von nah und\l"
-	.string "fern versammeln.$"
+	.string "Willkommen im Trainerturm, wo sich\n"
+	.string "Trainer von nah und fern versammeln.$"
 #else
 	.string "Hello!\p"
 	.string "Welcome to TRAINER TOWER where\n"
@@ -419,17 +418,17 @@ TrainerTower_Lobby_Text_NeedTwoMonsForDouble::
 
 TrainerTower_Lobby_Text_ExplainTrainerTower::
 #if GERMAN
-	.string "Hier im Trainerturm gibt es\n"
-	.string "unter anderem den Bestzeit-Modus.\l"
-	.string "Es wird gestoppt, wie lange du von\l"
-	.string "der Rezeption zum Eigentümer\l"
-	.string "auf dem Dach brauchst.\l"
+	.string "Hier im Trainerturm gibt es unter\n"
+	.string "anderem den Bestzeit-Modus.\l"
+	.string "Es wird gestoppt, wie lange du von der\l"
+	.string "Rezeption zum Eigentümer auf dem Dach\l"
+	.string "brauchst.\l"
 	.string "Die besten Zeiten werden an der\l"
 	.string "Rekordtafel präsentiert.\l"
-	.string "Tritt gegen Freunde an, um zu\l"
-	.string "sehen, wer der Schnellste ist.\l"
-	.string "Hier gibt es keine E.-Punkte oder\l"
-	.string "Geld zu gewinnen.$"
+	.string "Tritt gegen Freunde an, um zu sehen, wer\l"
+	.string "der Schnellste ist.\l"
+	.string "Hier gibt es keine E.-Punkte oder Geld\l"
+	.string "zu gewinnen.$"
 #else
 	.string "Here at TRAINER TOWER, there is an\n"
 	.string "event called TIME ATTACK.\p"

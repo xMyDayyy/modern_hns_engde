@@ -179,8 +179,8 @@ OlivineCity_Text_SilverEncounter:
 	.string "{PLAYER}: … … …\p"
 	.string "…Du schon wieder?\p"
 	.string "Was stellst du dir eigentlich vor?\n"
-	.string "Mit Verlierern wie dir gebe ich\l"
-	.string "mich nicht ab.\p"
+	.string "Mit Verlierern wie dir gebe ich mich\l"
+	.string "nicht ab.\p"
 	.string "Apropos Verlierer: Die Arenaleiterin\n"
 	.string "dieser Stadt ist gerade außer Haus.\p"
 	.string "Sie kümmert sich wohl gerade um ein\n"
@@ -423,8 +423,8 @@ OlivineCity_Text_PortSign:
 OlivineCity_Text_GymSign:
 #if GERMAN
 	.string "Pokémon-Arena von Oliviana City\n"
-	.string "Leiterin: Jasmin\l"
-	.string "Ein stahlhartes Mädchen!$"
+	.string "Leiterin: Jasmin Ein stahlhartes\l"
+	.string "Mädchen!$"
 #else
 	.string "OLIVINE CITY POKéMON GYM\n"
 	.string "LEADER: JASMINE\p"

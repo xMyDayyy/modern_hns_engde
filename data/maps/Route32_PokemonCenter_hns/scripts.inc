@@ -66,9 +66,9 @@ Route32_Pokecenter_Text_FishingGuruYes:
 Route32_Pokecenter_Text_FishingGuruGiveRod:
 #if GERMAN
 	.string "Angeln ist toll!\p"
-	.string "Probiere überall, wo Wasser ist,\n"
-	.string "deine Angel aus; sei es am Meer\l"
-	.string "oder an einem Fluss.$"
+	.string "Probiere überall, wo Wasser ist, deine\n"
+	.string "Angel aus; sei es am Meer oder an einem\l"
+	.string "Fluss.$"
 #else
 	.string "Fishing is great!\p"
 	.string "If there's water, be it the sea or\n"

@@ -184,9 +184,8 @@ Route19_Text_AnyaPostBattle::
 
 Route19_Text_AliceIntro::
 #if GERMAN
-	.string "Schwimmen macht Spaß, aber man\n"
-	.string "holt sich schnell einen\l"
-	.string "Sonnenbrand!$"
+	.string "Schwimmen macht Spaß, aber man holt\n"
+	.string "sich schnell einen Sonnenbrand!$"
 #else
 	.string "Swimming's great!\n"
 	.string "Sunburns aren't!$"
@@ -272,9 +271,8 @@ Route19_Text_RouteSign::
 
 Route19_Text_LiaIntro::
 #if GERMAN
-	.string "Nora: Ich kümmere mich um\n"
-	.string "meinen Bruder. Er ist vor\l"
-	.string "kurzem ein Trainer geworden.$"
+	.string "Nora: Ich kümmere mich um meinen Bruder.\n"
+	.string "Er ist vor kurzem ein Trainer geworden.$"
 #else
 	.string "LIA: I'm looking after my brother.\n"
 	.string "He just became a TRAINER.$"
@@ -314,10 +312,9 @@ Route19_Text_LiaNotEnoughMons::
 
 Route19_Text_LucIntro::
 #if GERMAN
-	.string "Tom: Meine große Schwester hat\n"
-	.string "mir das Schwimmen beigebracht\l"
-	.string "und mir gezeigt, wie man\l"
-	.string "Pokémon trainiert.$"
+	.string "Tom: Meine große Schwester hat mir das\n"
+	.string "Schwimmen beigebracht und mir gezeigt,\l"
+	.string "wie man Pokémon trainiert.$"
 #else
 	.string "LUC: My big sis taught me how\n"
 	.string "to swim and train POKéMON.$"
@@ -326,8 +323,8 @@ Route19_Text_LucIntro::
 Route19_Text_LucDefeat::
 #if GERMAN
 	.string "Tom: Oh, wow!\n"
-	.string "Es gibt jemand, der stärker als\l"
-	.string "meine Schwester ist!$"
+	.string "Es gibt jemand, der stärker als meine\l"
+	.string "Schwester ist!$"
 #else
 	.string "LUC: Oh, wow!\n"
 	.string "Someone tougher than my big sis!$"

@@ -439,8 +439,8 @@ RusturfTunnel_Text_GruntIntro:
 	.string "Grrr, man sollte sie alle kielholen.\p"
 	.string "Das als Geisel genommene Pokémon hat\n"
 	.string "sich als völlig wertlos erwiesen!\p"
-	.string "Und dafür habe ich nun einen Flucht-\n"
-	.string "weg in diesem Tunnel nach Nirgendwo\l"
+	.string "Und dafür habe ich nun einen Fluchtweg\n"
+	.string "in diesem Tunnel nach Nirgendwo\l"
 	.string "gegraben!\p"
 	.string "Hey! Du!\n"
 	.string "Forderst du mich etwa heraus?$"
@@ -456,9 +456,9 @@ RusturfTunnel_Text_GruntIntro:
 
 RusturfTunnel_Text_GruntDefeat:
 #if GERMAN
-	.string "Aargh! Und so läuft eine vielver-\n"
-	.string "sprechende kriminelle Karriere in eine\l"
-	.string "Sackgasse!$"
+	.string "Aargh! Und so läuft eine\n"
+	.string "vielversprechende kriminelle Karriere\l"
+	.string "in eine Sackgasse!$"
 #else
 	.string "Urrrggh! My career in crime comes to\n"
 	.string "a dead end!$"
@@ -530,9 +530,8 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 	.string "… …\p"
 	.string "Warum graben sie nicht weiter?\n"
 	.string "Ist das Gestein zu hart?\p"
-	.string "Meine Geliebte wartet in Wiesenflur\n"
-	.string "auf mich, gleich hinter diesen\l"
-	.string "Felsen…\p"
+	.string "Meine Geliebte wartet in Wiesenflur auf\n"
+	.string "mich, gleich hinter diesen Felsen…\p"
 	.string "Wenn Metarost City und Wiesenflur\n"
 	.string "durch diesen Tunnel verbunden wären,\l"
 	.string "könnte ich sie jeden Tag besuchen!\p"
@@ -553,10 +552,10 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 
 RusturfTunnel_Text_ToGetToVerdanturf:
 #if GERMAN
-	.string "Um von Metarost City nach Wiesenflur\n"
-	.string "zu gelangen, muss man nach Faustau-\l"
-	.string "haven und dann über Graphitport City\l"
-	.string "und Malvenfroh City reisen…$"
+	.string "Um von Metarost City nach Wiesenflur zu\n"
+	.string "gelangen, muss man nach Faustauhaven\l"
+	.string "und dann über Graphitport City und\l"
+	.string "Malvenfroh City reisen…$"
 #else
 	.string "To get from RUSTBORO to VERDANTURF,\n"
 	.string "you need to go to DEWFORD, then pass\l"
@@ -625,9 +624,9 @@ RusturfTunnel_Text_MikeIntro:
 #if GERMAN
 	.string "Wie nennt man einen ungestümen Mann\n"
 	.string "hoch im Gebirge? Einen Bergfreund.\p"
-	.string "So, warum nennt man dann nicht auch\n"
-	.string "ein Pokémon in den Bergen ein Berg-\l"
-	.string "Pokémon?$"
+	.string "So, warum nennt man dann nicht auch ein\n"
+	.string "Pokémon in den Bergen ein\l"
+	.string "Berg-Pokémon?$"
 #else
 	.string "What do you call a wild man up in the\n"
 	.string "mountains? A mountain man, right?\p"
@@ -646,9 +645,9 @@ RusturfTunnel_Text_MikeDefeat:
 
 RusturfTunnel_Text_MikePostBattle:
 #if GERMAN
-	.string "Sie haben das Projekt hier einge-\n"
-	.string "stellt, um die Pokémon zu schützen,\l"
-	.string "nicht wahr? Eine rührende Story.$"
+	.string "Sie haben das Projekt hier eingestellt,\n"
+	.string "um die Pokémon zu schützen, nicht wahr?\l"
+	.string "Eine rührende Story.$"
 #else
 	.string "They halted development here to\n"
 	.string "protect POKéMON, right?\l"

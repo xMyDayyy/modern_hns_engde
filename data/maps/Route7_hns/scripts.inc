@@ -18,9 +18,8 @@ Route7_EventScript_Door::
 Route7_Text_UndergroundPathSign:
 #if GERMAN
 	.string "Was steht auf diesem Flugblatt?\p"
-	.string "Auf dem Tunnelpfad tragen\n"
-	.string "schlecht erzogene Trainer\l"
-	.string "Pokémon-Kämpfe aus.\p"
+	.string "Auf dem Tunnelpfad tragen schlecht\n"
+	.string "erzogene Trainer Pokémon-Kämpfe aus.\p"
 	.string "Da sich die Beschwerden der Anwohner\n"
 	.string "häufen, wurde der Tunnelpfad auf\l"
 	.string "unbestimmte Zeit geschlossen!\l"

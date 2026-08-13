@@ -73,8 +73,8 @@ UnionCave_1F_EventScript_Item_Awakening::
 UnionCave_1F_Text_HikerRussellSeen:
 #if GERMAN
 	.string "Du bist auf dem Weg nach Azalea City,\n"
-	.string "richtig? Wollen wir mal sehen,\l"
-	.string "ob du es bis dorthin schaffst!$"
+	.string "richtig? Wollen wir mal sehen, ob du es\l"
+	.string "bis dorthin schaffst!$"
 #else
 	.string "You're headed to AZALEA, are you?\p"
 	.string "Let my POKéMON see if you are good\n"
@@ -147,8 +147,8 @@ UnionCave_1F_Text_HikerDanielBeaten:
 
 UnionCave_1F_Text_HikerDanielAfter:
 #if GERMAN
-	.string "Man hat mich genötigt,\n"
-	.string "eine Flegmon-Rute zu kaufen.\l"
+	.string "Man hat mich genötigt, eine\n"
+	.string "Flegmon-Rute zu kaufen.\l"
 	.string "Mir tut das arme Pokémon leid.$"
 #else
 	.string "I was conned into buying a\n"
@@ -158,8 +158,8 @@ UnionCave_1F_Text_HikerDanielAfter:
 
 UnionCave_1F_Text_FirebreatherBillSeen:
 #if GERMAN
-	.string "Diese Zubat verwirren ständig\n"
-	.string "meine Pokémon mit ihrem Superschall!\l"
+	.string "Diese Zubat verwirren ständig meine\n"
+	.string "Pokémon mit ihrem Superschall!\l"
 	.string "Das ist zum Aus-der-Haut-Fahren!$"
 #else
 	.string "ZUBAT's SUPERSONIC keeps confusing\n"
@@ -177,8 +177,8 @@ UnionCave_1F_Text_FirebreatherBillBeaten:
 UnionCave_1F_Text_FirebreatherBillAfter:
 #if GERMAN
 	.string "Am Wochenende kann man seltsame\n"
-	.string "Geräusche aus den Tiefen der\l"
-	.string "Höhle hören.$"
+	.string "Geräusche aus den Tiefen der Höhle\l"
+	.string "hören.$"
 #else
 	.string "On weekends, you can hear strange\n"
 	.string "roars from deep in the cave.$"
@@ -205,9 +205,9 @@ UnionCave_1F_Text_FirebreatherRayBeaten:
 
 UnionCave_1F_Text_FirebreatherRayAfter:
 #if GERMAN
-	.string "Hier ist es nur so hell,\n"
-	.string "weil mein Pokémon diese Höhle\l"
-	.string "mit seinem Feuer erleuchtet.$"
+	.string "Hier ist es nur so hell, weil mein\n"
+	.string "Pokémon diese Höhle mit seinem Feuer\l"
+	.string "erleuchtet.$"
 #else
 	.string "It's my POKéMON's fire that lights\n"
 	.string "up this cave.$"

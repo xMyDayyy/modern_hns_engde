@@ -35,9 +35,8 @@ FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland::
 	.string "ist hier aufgewachsen.\p"
 	.string "Ich wette, du kennst sie auch. Es\n"
 	.string "ist Lorelei von den Top Vier.\p"
-	.string "Als Lorelei noch klein war, habe\n"
-	.string "ich ihr viel über Pokémon\l"
-	.string "beigebracht!$"
+	.string "Als Lorelei noch klein war, habe ich ihr\n"
+	.string "viel über Pokémon beigebracht!$"
 #else
 	.string "We've had a great and powerful\n"
 	.string "TRAINER grow up on this island.\p"
@@ -53,9 +52,8 @@ FourIsland_Mart_Text_IcefallCaveIsFrigid::
 	.string "warmen Gefilden.\p"
 	.string "Aber es gibt eine Ausnahme, die\n"
 	.string "du kennen solltest.\p"
-	.string "Die Eiskaskadenhöhle ist\n"
-	.string "aufgrund der Pokémon,\l"
-	.string "die dort leben, kalt.$"
+	.string "Die Eiskaskadenhöhle ist aufgrund der\n"
+	.string "Pokémon, die dort leben, kalt.$"
 #else
 	.string "The SEVII ISLANDS are in a warm\n"
 	.string "region overall.\p"

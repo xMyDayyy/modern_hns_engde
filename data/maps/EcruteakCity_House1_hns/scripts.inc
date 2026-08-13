@@ -21,9 +21,9 @@ EcruteakLugiaSpeechHouse_Text_Gramps:
 #if GERMAN
 	.string "Als ich noch jung war, bemerkte ich\n"
 	.string "eines Tages plötzlich, dass sich der\l"
-	.string "Himmel pechschwarz gefärbt hatte\l"
-	.string "und ein riesiges, fliegendes Pokémon\l"
-	.string "am Himmel erschien.\p"
+	.string "Himmel pechschwarz gefärbt hatte und\l"
+	.string "ein riesiges, fliegendes Pokémon am\l"
+	.string "Himmel erschien.\p"
 	.string "Ich frage mich, was für ein Typ Pokémon\n"
 	.string "das wohl war - Vogel oder Drache?$"
 #else

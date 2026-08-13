@@ -43,8 +43,8 @@ PokemonTower_5F_EventScript_Janae::
 
 PokemonTower_5F_Text_RestHereInPurifiedSpace::
 #if GERMAN
-	.string "Komm her! Ich habe diese Stelle\n"
-	.string "mit weißer Magie versiegelt!\l"
+	.string "Komm her! Ich habe diese Stelle mit\n"
+	.string "weißer Magie versiegelt!\l"
 	.string "Du kannst dich hier ausruhen!$"
 #else
 	.string "Come, child!\n"

@@ -215,9 +215,9 @@ CeladonCity_Text_Sign:
 
 CeladonGym_Text_Sign:
 #if GERMAN
-	.string "Prismania City Pokémon-Arena\n"
-	.string "Leiterin: Erika\l"
-	.string "Die Prinzessin mit dem grünen Daumen$"
+	.string "Prismania City Pokémon-Arena Leiterin:\n"
+	.string "Erika Die Prinzessin mit dem grünen\l"
+	.string "Daumen$"
 #else
 	.string "CELADON CITY POKéMON GYM LEADER:\n"
 	.string "ERIKA\p"
@@ -226,9 +226,8 @@ CeladonGym_Text_Sign:
 
 CeladonCity_Text_DeptStoreSign:
 #if GERMAN
-	.string "Im Einkaufszentrum von\n"
-	.string "Prismania City Findest du Alles,\l"
-	.string "was dein Herz begehrt!$"
+	.string "Im Einkaufszentrum von Prismania City\n"
+	.string "Findest du Alles, was dein Herz begehrt!$"
 #else
 	.string "Find What You Need at CELADON\n"
 	.string "DEPT.STORE!$"
@@ -253,8 +252,8 @@ CeladonCity_Text_GameCornerSign:
 CeladonCity_Text_TrainerTips:
 #if GERMAN
 	.string "Tipps für Trainer\p"
-	.string "Der Megablock schützt Pokémon\n"
-	.string "vor Spezialattacken wie z.B.\l"
+	.string "Der Megablock schützt Pokémon vor\n"
+	.string "Spezialattacken wie z.B.\l"
 	.string "Feuer und Wasser.\p"
 	.string "Hol dir deine Items im\n"
 	.string "Einkaufszentrum Prismania City!$"

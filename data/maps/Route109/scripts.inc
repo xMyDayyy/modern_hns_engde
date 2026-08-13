@@ -481,8 +481,7 @@ DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
 	.string "Mr. Brack: Ahoi! Wir haben in\n"
 	.string "Graphitport City angelegt.\p"
 	.string "Ich vermute, du gehst jetzt zu Kapt.\n"
-	.string "Brigg und bringst ihm die Devon-\l"
-	.string "waren?$"
+	.string "Brigg und bringst ihm die Devonwaren?$"
 #else
 	.string "MR. BRINEY: Ahoy!\n"
 	.string "We've made land in SLATEPORT!\p"
@@ -508,8 +507,7 @@ Route109_Text_BrineyDewfordItIs:
 	.string "Mr. Brack: Also, auf nach\n"
 	.string "Faustauhaven! \p"
 	.string "Anker gelichtet!\n"
-	.string "Pecko, wir setzen Segel, mein\l"
-	.string "Liebling!$"
+	.string "Pecko, wir setzen Segel, mein Liebling!$"
 #else
 	.string "MR. BRINEY: DEWFORD it is, then!\p"
 	.string "Anchors aweigh!\n"
@@ -561,8 +559,7 @@ Route109_Text_BrineyTellMeWhenYouNeedToSail:
 Route109_Text_ChillAtMyPapasSpot:
 #if GERMAN
 	.string "Yo, Trainer!\n"
-	.string "Seid ihr in Eile,\l"
-	.string "müsst wieder fort,\l"
+	.string "Seid ihr in Eile, müsst wieder fort,\l"
 	.string "erfrischt euch doch an Papas Ort!$"
 #else
 	.string "Yo, TRAINERS!\n"
@@ -605,9 +602,8 @@ Route109_Text_YouCanHaveThis:
 
 Route109_Text_WereGoingToMakeBigCastle:
 #if GERMAN
-	.string "Wir nehmen allen Sand vom Strand\n"
-	.string "und bauen damit eine gaaanz große\l"
-	.string "Burg. \p"
+	.string "Wir nehmen allen Sand vom Strand und\n"
+	.string "bauen damit eine gaaanz große Burg.\p"
 	.string "Und dann sind wir Königin und König!\p"
 	.string "Und du darfst unser Diener sein.$"
 #else
@@ -650,8 +646,7 @@ Route109_Text_SeashoreHouseSign:
 #if GERMAN
 	.string "Strandhaus\p"
 	.string "“Mögen heiße Kämpfe im heißen Sand\n"
-	.string "stattfinden! Heiße Trainer\l"
-	.string "willkommen!”$"
+	.string "stattfinden! Heiße Trainer willkommen!”$"
 #else
 	.string "SEASHORE HOUSE\p"
 	.string "“May hot battles rage on hot sands!\n"

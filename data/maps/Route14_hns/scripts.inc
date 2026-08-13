@@ -213,16 +213,15 @@ Route14_Text_Eusine:
 	.string "Ich bin den ganzen Weg bis hierher\l"
 	.string "gereist und weiß nun wieder etwas\l"
 	.string "genauer, wo Suicune hin will!\p"
-	.string "Eigentlich würde ich mein Wissen\n"
-	.string "ja für mich behalten, aber\l"
-	.string "vor Suicune will ich ganz offen sein.\p"
+	.string "Eigentlich würde ich mein Wissen ja für\n"
+	.string "mich behalten, aber vor Suicune will ich\l"
+	.string "ganz offen sein.\p"
 	.string "Daher will ich dir einen\n"
 	.string "kleinen Hinweis geben!\p"
-	.string "Suicune bevorzugt\n"
-	.string "nördliche Ufer…\l"
+	.string "Suicune bevorzugt nördliche Ufer…\n"
 	.string "und luftige Höhen…\l"
-	.string "Dort soll man diesem\l"
-	.string "Pokémon angeblich begegnen können!\p"
+	.string "Dort soll man diesem Pokémon angeblich\l"
+	.string "begegnen können!\p"
 	.string "Wo genau das sein soll, weiß\n"
 	.string "ich selbst auch noch nicht.\p"
 	.string "Es wird also ein Wettlauf zwischen\n"
@@ -252,9 +251,9 @@ Route14_Text_Eusine:
 Route14_Text_PokefanmTrevorSeen:
 #if GERMAN
 	.string "Hi. Wusstest du…,\p"
-	.string "dass Pokémon dich mehr mögen, wenn\n"
-	.string "du sie an einem\l"
-	.string "ihnen bekannten Platz trainierst?$"
+	.string "dass Pokémon dich mehr mögen, wenn du\n"
+	.string "sie an einem ihnen bekannten Platz\l"
+	.string "trainierst?$"
 #else
 	.string "Hi. Did you know…?\p"
 	.string "POKéMON get more friendly if you\n"
@@ -272,8 +271,8 @@ Route14_Text_PokefanmTrevorBeaten:
 Route14_Text_PokefanmTrevorAfterBattle:
 #if GERMAN
 	.string "Gäbe es doch einen einfachen Weg, um\n"
-	.string "festzustellen, wo\l"
-	.string "ich meine Pokémon traf…$"
+	.string "festzustellen, wo ich meine Pokémon\l"
+	.string "traf…$"
 #else
 	.string "If only there were an easy way to\n"
 	.string "identify where I got my POKéMON…$"

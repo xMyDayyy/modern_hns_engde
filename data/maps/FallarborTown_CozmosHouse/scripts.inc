@@ -105,8 +105,8 @@ FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt:
 
 FallarborTown_CozmosHouse_Text_PleaseUseThisTM:
 #if GERMAN
-	.string "Prof. Kosmo: Mit dieser TM möchte ich\n"
-	.string "dir meine Dankbarkeit ausdrücken.\l"
+	.string "Prof. Kosmo: Mit dieser TM möchte ich dir\n"
+	.string "meine Dankbarkeit ausdrücken.\l"
 	.string "Bitte, nimm sie an!$"
 #else
 	.string "PROF. COZMO: This TM, it represents\n"
@@ -117,8 +117,7 @@ FallarborTown_CozmosHouse_Text_PleaseUseThisTM:
 FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch:
 #if GERMAN
 	.string "Prof. Kosmo: Oh, ich kann es einfach\n"
-	.string "nicht glauben! Das ist nett! So\l"
-	.string "nett!!! \p"
+	.string "nicht glauben! Das ist nett! So nett!!!\p"
 	.string "Das wird mir bei meinen Forschungen\n"
 	.string "enorm weiterhelfen!$"
 #else
@@ -141,8 +140,8 @@ FallarborTown_CozmosHouse_Text_MayIHaveMeteorite:
 	.string "Prof. Kosmo: Bitte, darf ich den\n"
 	.string "Meteoriten haben?\p"
 	.string "Ich möchte ihn nicht umsonst haben!\n"
-	.string "Wie\l"
-	.string "wäre es mit dieser TM im Tausch dafür?$"
+	.string "Wie wäre es mit dieser TM im Tausch\l"
+	.string "dafür?$"
 #else
 	.string "PROF. COZMO: Please, may I have that\n"
 	.string "METEORITE?\p"

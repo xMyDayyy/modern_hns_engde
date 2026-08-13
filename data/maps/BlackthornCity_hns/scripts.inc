@@ -46,9 +46,8 @@ BlackthornCity_Text_BaobaCall:
 #if GERMAN
 	.string "Aufseher Baoba: {PLAYER}!\p"
 	.string "Hier ist Aufseher Baoba.\p"
-	.string "Ich rufe dich an, um dir\n"
-	.string "mitzuteilen, dass die Safari-Zone\l"
-	.string "vergrößert wurde!\p"
+	.string "Ich rufe dich an, um dir mitzuteilen,\n"
+	.string "dass die Safari-Zone vergrößert wurde!\p"
 	.string "Bitte komm vorbei!$"
 #else
 	.string "WARDEN BAOBA: {PLAYER}!\p"
@@ -358,8 +357,8 @@ BlackthornCitySignText:
 BlackthornGymSignText:
 #if GERMAN
 	.string "Pokémon-Arena von Ebenholz City\n"
-	.string "Leiterin: Sandra\l"
-	.string "Ein gesegneter Drachenprofi!$"
+	.string "Leiterin: Sandra Ein gesegneter\l"
+	.string "Drachenprofi!$"
 #else
 	.string "BLACKTHORN CITY POKéMON GYM\n"
 	.string "LEADER: CLAIR\p"

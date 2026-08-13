@@ -149,8 +149,8 @@ CeladonCity_Gym_EventScript_Michelle::
 CeladonCity_Gym_Text_LassMichelleSeen:
 #if GERMAN
 	.string "Was guckst du denn so?!\n"
-	.string "Noch nie eine Pokémon-Arena\l"
-	.string "nur mit Mädchen gesehen?$"
+	.string "Noch nie eine Pokémon-Arena nur mit\l"
+	.string "Mädchen gesehen?$"
 #else
 	.string "Do you think a girls-only GYM is\n"
 	.string "rare?$"

@@ -398,9 +398,8 @@ Route44_Text_CooltrainermAllenAfter:
 Route44_Text_CooltrainerfCybilSeen:
 #if GERMAN
 	.string "Du siehst sehr stark aus.\p"
-	.string "Gute Trainer\n"
-	.string "suchen instinktiv nach starken\l"
-	.string "Gegnern.$"
+	.string "Gute Trainer suchen instinktiv nach\n"
+	.string "starken Gegnern.$"
 #else
     .string "You look strong.\p"
     .string "Good trainers seek tough\n"

@@ -206,11 +206,11 @@ VermilionCity_PokemonFanClub_Text_ChairmansStory::
 	.string "Stimmst du mir zu?\l"
 	.string "Es... ist... majestätisch...\l"
 	.string "freundlich... ich liebe es!\p"
-	.string "Wenn... es... schläft... warm\n"
-	.string "und kuschelig... spektakulär...\l"
+	.string "Wenn... es... schläft... warm und\n"
+	.string "kuschelig... spektakulär...\l"
 	.string "hinreißend...\l"
-	.string "Ups! Wie die Zeit vergeht! Ich\l"
-	.string "halte dich auf!\p"
+	.string "Ups! Wie die Zeit vergeht! Ich halte\l"
+	.string "dich auf!\p"
 	.string "Danke, dass du mir zugehört hast!\n"
 	.string "Nimm dieses Geschenk von mir!$"
 #else
@@ -319,9 +319,8 @@ VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons::
 #if GERMAN
 	.string "Der Vorsitzende redet sehr gerne\n"
 	.string "über Pokémon!\p"
-	.string "Aber die Person, die von den\n"
-	.string "Pokémon am meisten\l"
-	.string "geliebt wird, ist Sarah!$"
+	.string "Aber die Person, die von den Pokémon am\n"
+	.string "meisten geliebt wird, ist Sarah!$"
 #else
 	.string "Our CHAIRMAN really does adore his\n"
 	.string "POKéMON.\p"

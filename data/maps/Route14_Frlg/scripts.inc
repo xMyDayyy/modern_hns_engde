@@ -24,8 +24,8 @@ Route14_Text_CarterDefeat::
 Route14_Text_CarterPostBattle::
 #if GERMAN
 	.string "Eine durch eine VM erlernte Attacke\n"
-	.string "können Pokémon nicht so leicht\l"
-	.string "wieder vergessen!$"
+	.string "können Pokémon nicht so leicht wieder\l"
+	.string "vergessen!$"
 #else
 	.string "You have some HMs, right? POKéMON\n"
 	.string "can't forget those moves easily.$"
@@ -342,8 +342,8 @@ Route14_Text_JanDefeat::
 Route14_Text_JanPostBattle::
 #if GERMAN
 	.string "Enke: Weine nicht, Berta!\n"
-	.string "Wir strengen uns beim nächsten\l"
-	.string "Mal noch mehr an!$"
+	.string "Wir strengen uns beim nächsten Mal noch\l"
+	.string "mehr an!$"
 #else
 	.string "JAN: KIRI, don't cry!\n"
 	.string "We'll just try harder next time.$"

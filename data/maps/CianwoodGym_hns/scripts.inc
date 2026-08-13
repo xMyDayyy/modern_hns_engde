@@ -180,8 +180,8 @@ CianwoodGym_Text_ChuckIntro2:
 CianwoodGym_Text_ChuckIntro3:
 #if GERMAN
 	.string "Na, da staunst du, was?\p"
-	.string "Was sagst du da? Mit Pokémon\n"
-	.string "hat das herzlich wenig zu tun?\l"
+	.string "Was sagst du da? Mit Pokémon hat das\n"
+	.string "herzlich wenig zu tun?\l"
 	.string "Klar, da hast du natürlich recht!\l"
 	.string "Komm schon, lass uns kämpfen!$"
 #else
@@ -213,11 +213,10 @@ CianwoodGym_Text_GetStormBadge:
 CianwoodGym_Text_ChuckBadgeSpeech:
 #if GERMAN
 	.string "Der Faustorden sorgt dafür, dass dir\n"
-	.string "alle Pokémon bis L70 gehorchen,\l"
-	.string "auch getauschte.\p"
-	.string "Außerdem können deine Pokémon\n"
-	.string "Fliegen auch außerhalb von\l"
-	.string "Kämpfen einsetzen.\p"
+	.string "alle Pokémon bis L70 gehorchen, auch\l"
+	.string "getauschte.\p"
+	.string "Außerdem können deine Pokémon Fliegen\n"
+	.string "auch außerhalb von Kämpfen einsetzen.\p"
 	.string "Hier, nimm das auch noch!$"
 #else
 	.string "STORMBADGE makes all POKéMON up to\n"
@@ -231,8 +230,8 @@ CianwoodGym_Text_ChuckTMSpeech:
 #if GERMAN
 	.string "Das ist Power-Punch.\p"
 	.string "Er ist langsam, verursacht aber\n"
-	.string "riesigen Schaden. Lass dich nur\l"
-	.string "nicht zuerst treffen!$"
+	.string "riesigen Schaden. Lass dich nur nicht\l"
+	.string "zuerst treffen!$"
 #else
 	.string "That is FOCUS PUNCH.\p"
 	.string "It moves slow but deals huge\n"
@@ -244,8 +243,8 @@ CianwoodGym_Text_ChuckAfter:
 	.string "Hartwig: Hahaha! Es war mir ein großes\n"
 	.string "Vergnügen, gegen dich zu kämpfen!\p"
 	.string "Aber das ändert nichts daran, dass ich\n"
-	.string "verloren habe. Von nun an werde ich\l"
-	.string "24 Stunden am Tag trainieren!$"
+	.string "verloren habe. Von nun an werde ich 24\l"
+	.string "Stunden am Tag trainieren!$"
 #else
 	.string "WAHAHAH! I enjoyed battling you!\p"
 	.string "But a loss is a loss!\p"
@@ -283,8 +282,8 @@ CianwoodGym_EventScript_Yoshi::
 
 CianwoodGym_Text_BlackbeltYoshiSeen:
 #if GERMAN
-	.string "Meine Pokémon und mich verbindet\n"
-	.string "eine tiefe Freundschaft.\l"
+	.string "Meine Pokémon und mich verbindet eine\n"
+	.string "tiefe Freundschaft.\l"
 	.string "Dieses Band wird nie jemand zerreißen!$"
 #else
 	.string "My POKéMON and I are bound togeth-\n"

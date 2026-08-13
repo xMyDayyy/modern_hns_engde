@@ -149,9 +149,9 @@ Route40_EventScript_Woman1::
 
 Route40_Text_Lass1:
 #if GERMAN
-	.string "Du kannst es zwar nicht von hier\n"
-	.string "sehen, aber Anemonia-\l"
-	.string "City liegt jenseits des Meeres.$"
+	.string "Du kannst es zwar nicht von hier sehen,\n"
+	.string "aber Anemonia-City liegt jenseits des\l"
+	.string "Meeres.$"
 #else
 	.string "Although you can't see it from here,\n"
 	.string "CIANWOOD is across the sea.$"
@@ -167,13 +167,12 @@ Route40_EventScript_Woman2::
 
 Route40_Text_Lass2:
 #if GERMAN
-	.string "Ich reiste mit dem Schiff nach\n"
-	.string "Oliviana City, um die\l"
-	.string "Sehenswürdigkeiten und die\l"
+	.string "Ich reiste mit dem Schiff nach Oliviana\n"
+	.string "City, um die Sehenswürdigkeiten und die\l"
 	.string "Atmosphäre zu genießen.\p"
-	.string "Da es eine Hafenstadt ist, unter-\n"
-	.string "scheidet sie sich\l"
-	.string "von anderen großen Städten.$"
+	.string "Da es eine Hafenstadt ist,\n"
+	.string "unterscheidet sie sich von anderen\l"
+	.string "großen Städten.$"
 #else
 	.string "I came to OLIVINE by ship to see\n"
 	.string "the sights and soak up the\l"
@@ -212,9 +211,8 @@ Route40_Text_Monica:
     .string "kennenzulernen.\p"
     .string "Ich bin Monika von der Wochen-\n"
     .string "tagsfamilie.\p"
-    .string "Ich wette, du errätst nicht,\n"
-    .string "welcher Wochentag mein\l"
-    .string "Lieblingstag ist!$"
+    .string "Ich wette, du errätst nicht, welcher\n"
+    .string "Wochentag mein Lieblingstag ist!$"
 #else
 	.string "MONICA: Glad to meet you.\n"
 	.string "I'm MONICA of the WEEKDAY FAMILY.\p"
@@ -261,8 +259,8 @@ Route40_Text_MonicaMonday:
 
 Route40_Text_MonicaNotMonday:
 #if GERMAN
-	.string "Monja: Ich fürchte,\n"
-	.string "heute ist nicht Montag.\l"
+	.string "Monja: Ich fürchte, heute ist nicht\n"
+	.string "Montag.\l"
 	.string "Wie schade…$"
 #else
 	.string "MONICA: I don't think today\n"

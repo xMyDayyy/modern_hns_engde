@@ -436,9 +436,9 @@ TrainerHill_Entrance_Text_ExplainTrainerHill:
 	.string "schnellsten schaffen, werden\l"
 	.string "öffentlich ausgehängt.\p"
 	.string "Fordere deine Freunde heraus!\p"
-	.string "Für die Kämpfe, die du auf dem\n"
-	.string "Weg zum Dach bestreitest, bekommst du\l"
-	.string "keine E-Punkte und auch kein Geld.$"
+	.string "Für die Kämpfe, die du auf dem Weg zum\n"
+	.string "Dach bestreitest, bekommst du keine\l"
+	.string "E-Punkte und auch kein Geld.$"
 #else
 	.string "Here at the TRAINER HILL, we conduct\n"
 	.string "an event called the Time Attack.\p"
@@ -509,8 +509,7 @@ TrainerHill_Roof_Text_HaveTheMostMarvelousGift:
 
 TrainerHill_Roof_Text_FullUpBeBackLaterForThis:
 #if GERMAN
-	.string "Oh, du hast keinen Platz mehr! Na,\n"
-	.string "dann\l"
+	.string "Oh, du hast keinen Platz mehr! Na, dann\n"
 	.string "komm doch einfach später mal vorbei.$"
 #else
 	.string "Oh, no, full up with things!\n"
@@ -614,9 +613,9 @@ TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop:
 #if GERMAN
 	.string "Hast du die Liste mit den Zeiten da\n"
 	.string "drüben gesehen?\p"
-	.string "Meine Freunde und ich wollen heraus-\n"
-	.string "finden, wer von uns der Schnellste\l"
-	.string "ist.$"
+	.string "Meine Freunde und ich wollen\n"
+	.string "herausfinden, wer von uns der\l"
+	.string "Schnellste ist.$"
 #else
 	.string "Do you see the Time Board over there?\p"
 	.string "My friends and I are trying to see who\n"

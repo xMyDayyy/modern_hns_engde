@@ -63,8 +63,7 @@ SSAnne_Kitchen_Text_SawOddBerryInTrash::
 #if GERMAN
 	.string "Im Abfalleimer habe ich eine\n"
 	.string "merkwürdige Beere gesehen!\l"
-	.string "Ich frage mich, was das genau\l"
-	.string "war!$"
+	.string "Ich frage mich, was das genau war!$"
 #else
 	.string "I saw an odd BERRY in the trash.\n"
 	.string "I wonder what that was?$"

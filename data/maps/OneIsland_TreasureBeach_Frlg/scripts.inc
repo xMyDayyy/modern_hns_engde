@@ -7,8 +7,8 @@ OneIsland_TreasureBeach_EventScript_Boy::
 
 OneIsland_TreasureBeach_Text_AmaraIntro::
 #if GERMAN
-	.string "Sich zurücklehnen und von den\n"
-	.string "Wellen treiben lassen…\l"
+	.string "Sich zurücklehnen und von den Wellen\n"
+	.string "treiben lassen…\l"
 	.string "Das ist wunderbar!$"
 #else
 	.string "Lying back, rocked by the waves…\n"

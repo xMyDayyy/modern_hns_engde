@@ -168,9 +168,8 @@ PokemonLeague_LancesRoom_Text_Intro::
 #if GERMAN
 	.string "Ich habe bereits von dir gehört,\n"
 	.string "{PLAYER}!\p"
-	.string "Ich bin Siegfried, Drachen-\n"
-	.string "Trainer und Oberhaupt der\l"
-	.string "Top Vier!\l"
+	.string "Ich bin Siegfried, Drachen-Trainer und\n"
+	.string "Oberhaupt der Top Vier!\l"
 	.string "Wusstest du, dass Drachen mystische\l"
 	.string "Pokémon sind?\p"
 	.string "Sie sind schwer zu fangen und zu\n"
@@ -200,11 +199,9 @@ PokemonLeague_LancesRoom_Text_Intro::
 PokemonLeague_LancesRoom_Text_RematchIntro::
 #if GERMAN
 	.string "Ah!\n"
-	.string "Du bist also zurückgekehrt,\l"
-	.string "{PLAYER}!\p"
-	.string "Ich bin Siegfried, Drachen-\n"
-	.string "Trainer und Oberhaupt der\l"
-	.string "Top Vier!\p"
+	.string "Du bist also zurückgekehrt, {PLAYER}!\p"
+	.string "Ich bin Siegfried, Drachen-Trainer und\n"
+	.string "Oberhaupt der Top Vier!\p"
 	.string "Wusstest du, dass Drachen mystische\n"
 	.string "Pokémon sind?\p"
 	.string "Sie sind schwer zu fangen und zu\n"
@@ -244,13 +241,12 @@ PokemonLeague_LancesRoom_Text_Defeat::
 
 PokemonLeague_LancesRoom_Text_PostBattle::
 #if GERMAN
-	.string "Es ist kaum zu glauben! Meine\n"
-	.string "Drachen sind an dir gescheitert,\l"
-	.string "{PLAYER}!\p"
+	.string "Es ist kaum zu glauben! Meine Drachen\n"
+	.string "sind an dir gescheitert, {PLAYER}!\p"
 	.string "Nun bist du der Champion der\n"
 	.string "Pokémon Liga!\p"
-	.string "Mmh, eigentlich wärst du es! Aber\n"
-	.string "du musst noch eine Herausforderung\l"
+	.string "Mmh, eigentlich wärst du es! Aber du\n"
+	.string "musst noch eine Herausforderung\l"
 	.string "bestehen!\p"
 	.string "Ein weiterer Trainer erwartet dich!\n"
 	.string "Es ist...\p"

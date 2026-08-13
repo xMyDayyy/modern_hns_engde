@@ -53,11 +53,10 @@ Route15_WestEntrance_2F_EventScript_GetAideRequestInfo::
 Route15_WestEntrance_2F_Text_GiveItemIfCaughtEnough::
 #if GERMAN
 	.string "Hallo! Erinnerst du dich?\n"
-	.string "Ich bin Prof. Eichs\l"
-	.string "Assistent!\p"
-	.string "Wenn du mindestens {STR_VAR_1} verschiedene\n"
-	.string "Pokémon gefangen hast, habe ich\l"
-	.string "ein Geschenk für dich:\l"
+	.string "Ich bin Prof. Eichs Assistent!\p"
+	.string "Wenn du mindestens {STR_VAR_1}\n"
+	.string "verschiedene Pokémon gefangen hast,\l"
+	.string "habe ich ein Geschenk für dich:\l"
 	.string "{STR_VAR_2}\p"
 	.string "Also, {PLAYER}, hast du {STR_VAR_1}\n"
 	.string "unterschiedliche Pokémon gefangen?$"
@@ -76,9 +75,8 @@ Route15_WestEntrance_2F_Text_GiveItemIfCaughtEnough::
 
 Route15_WestEntrance_2F_Text_GreatHereYouGo::
 #if GERMAN
-	.string "Toll! Du hast bereits\n"
-	.string "{STR_VAR_3} Pokémon-Arten gesehen\l"
-	.string "oder gefangen!\p"
+	.string "Toll! Du hast bereits {STR_VAR_3}\n"
+	.string "Pokémon-Arten gesehen oder gefangen!\p"
 	.string "Glückwunsch!\n"
 	.string "Hier, bitte sehr!$"
 #else
@@ -99,13 +97,11 @@ Route15_WestEntrance_2F_Text_ReceivedItemFromAide::
 
 Route15_WestEntrance_2F_Text_ExplainExpShare::
 #if GERMAN
-	.string "Der EP-Teiler kann einem\n"
-	.string "Pokémon zum Tragen gegeben\l"
-	.string "werden.\l"
-	.string "Mit dem EP-Teiler bekommt das\l"
-	.string "Pokémon, das ihn trägt, nach einem\l"
-	.string "Kampf E.-Punkte, ohne gekämpft\l"
-	.string "zu haben.$"
+	.string "Der EP-Teiler kann einem Pokémon zum\n"
+	.string "Tragen gegeben werden.\l"
+	.string "Mit dem EP-Teiler bekommt das Pokémon,\l"
+	.string "das ihn trägt, nach einem Kampf\l"
+	.string "E.-Punkte, ohne gekämpft zu haben.$"
 #else
 	.string "EXP. SHARE is an item to be held\n"
 	.string "by a POKéMON.\p"

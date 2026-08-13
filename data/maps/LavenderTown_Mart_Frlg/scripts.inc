@@ -68,12 +68,10 @@ LavenderTown_Mart_Text_DidYouBuyRevives::
 
 LavenderTown_Mart_Text_TrainerDuosCanChallengeYou::
 #if GERMAN
-	.string "Manchmal fordert dich ein\n"
-	.string "Trainer-Duo mit zwei\l"
-	.string "Pokémon zum Kampf heraus.\l"
-	.string "In diesem Fall musst du auch\l"
-	.string "zwei Pokémon in den Kampf\l"
-	.string "schicken!$"
+	.string "Manchmal fordert dich ein Trainer-Duo\n"
+	.string "mit zwei Pokémon zum Kampf heraus.\l"
+	.string "In diesem Fall musst du auch zwei\l"
+	.string "Pokémon in den Kampf schicken!$"
 #else
 	.string "Sometimes, a TRAINER duo will\n"
 	.string "challenge you with two POKéMON\l"

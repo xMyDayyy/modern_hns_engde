@@ -225,9 +225,8 @@ Text_ProfileSaysSomethingAboutYou:
 	.string "Hmm…\p"
 	.string "Dein Profil sagt wirklich etwas\n"
 	.string "über dich aus.\p"
-	.string "Da ich dich jetzt besser kenne,\n"
-	.string "sind wir noch enger als zuvor\l"
-	.string "befreundet.$"
+	.string "Da ich dich jetzt besser kenne, sind wir\n"
+	.string "noch enger als zuvor befreundet.$"
 #else
 	.string "Hmhm…\p"
 	.string "Your profile really says something\n"

@@ -80,9 +80,8 @@ NationalPark_Normal_Text_Lass:
 
 NationalPark_Normal_Text_PokefanF:
 #if GERMAN
-	.string "Das ist ein\n"
-	.string "Brief von meiner Tochter. Das macht\l"
-	.string "mir Freude.$"
+	.string "Das ist ein Brief von meiner Tochter.\n"
+	.string "Das macht mir Freude.$"
 #else
 	.string "This is MAIL I got from my daughter.\n"
 	.string "It cheers me up.$"
@@ -108,8 +107,8 @@ NationalPark_Normal_Text_Teacher1:
 NationalPark_Normal_Text_Teacher1_QuickClaw:
 #if GERMAN
 	.string "Gib diese Flinkklaue einem deiner\n"
-	.string "Pokémon, und es wird mit ihrer Hilfe\l"
-	.string "im Kampf ab und zu die Initiative\l"
+	.string "Pokémon, und es wird mit ihrer Hilfe im\l"
+	.string "Kampf ab und zu die Initiative\l"
 	.string "erhalten!$"
 #else
 	.string "Let a POKéMON hold that QUICK CLAW.\p"
@@ -119,9 +118,8 @@ NationalPark_Normal_Text_Teacher1_QuickClaw:
 
 NationalPark_Normal_Text_Youngster1:
 #if GERMAN
-	.string "Ich spiele mit\n"
-	.string "Stickern, die ich aus meinem Dex\l"
-	.string "gedruckt habe.$"
+	.string "Ich spiele mit Stickern, die ich aus\n"
+	.string "meinem Dex gedruckt habe.$"
 #else
 	.string "I'm playing with stickers I printed\n"
 	.string "from my POKéDEX.$"
@@ -129,9 +127,8 @@ NationalPark_Normal_Text_Youngster1:
 
 NationalPark_Normal_Text_Youngster2:
 #if GERMAN
-	.string "Falls ich gewinne,\n"
-	.string "erhalte ich die Dex-Sticker meines\l"
-	.string "Gegners.$"
+	.string "Falls ich gewinne, erhalte ich die\n"
+	.string "Dex-Sticker meines Gegners.$"
 #else
 	.string "I get the other guy's POKéDEX sticker\n"
 	.string "if I win.$"
@@ -247,9 +244,9 @@ NationalPark_Normal_Text_SchoolboyJack_After:
 #if GERMAN
 	.string "Es gibt noch viel zu lernen!\p"
 	.string "Zum Beispiel, dass es 90 verschiedene\n"
-	.string "Technische Maschinen gibt,\l"
-	.string "oder dass sich Pokémon, die man im\l"
-	.string "Tausch erhält, schneller entwickeln.$"
+	.string "Technische Maschinen gibt, oder dass\l"
+	.string "sich Pokémon, die man im Tausch erhält,\l"
+	.string "schneller entwickeln.$"
 #else
 	.string "There is a lot to learn.\p"
 	.string "For example…\p"
@@ -261,9 +258,9 @@ NationalPark_Normal_Text_JackRegister:
 #if GERMAN
 	.string "Es gibt noch viel zu lernen!\p"
 	.string "Zum Beispiel, dass es 50 verschiedene\n"
-	.string "Technische Maschinen gibt,\l"
-	.string "oder dass sich Pokémon, die man im\l"
-	.string "Tausch erhält, schneller entwickeln.$"
+	.string "Technische Maschinen gibt, oder dass\l"
+	.string "sich Pokémon, die man im Tausch erhält,\l"
+	.string "schneller entwickeln.$"
 #else
 	.string "There is a lot to learn.\p"
 	.string "For example…\p"
@@ -291,9 +288,9 @@ NationalPark_Normal_Text_JackPostRematch:
 #if GERMAN
 	.string "Es gibt noch viel zu lernen!\p"
 	.string "Zum Beispiel, dass es 50 verschiedene\n"
-	.string "Technische Maschinen gibt,\l"
-	.string "oder dass sich Pokémon, die man im\l"
-	.string "Tausch erhält, schneller entwickeln.$"
+	.string "Technische Maschinen gibt, oder dass\l"
+	.string "sich Pokémon, die man im Tausch erhält,\l"
+	.string "schneller entwickeln.$"
 #else
 	.string "There is a lot to learn.\p"
 	.string "For example…\p"
@@ -332,8 +329,8 @@ NationalPark_Normal_Text_PokefanFBeverly_After:
 
 NationalPark_Normal_Text_PokefanmWilliam_Seen:
 #if GERMAN
-	.string "Wir bewundern unsere Pokémon,\n"
-	.string "auch wenn sie uns nicht mögen!\l"
+	.string "Wir bewundern unsere Pokémon, auch\n"
+	.string "wenn sie uns nicht mögen!\l"
 	.string "Das macht den wahren Pokéfan aus!$"
 #else
 	.string "We adore our POKéMON, even if they\n"
@@ -350,8 +347,8 @@ NationalPark_Normal_Text_PokefanmWilliam_Beaten:
 
 NationalPark_Normal_Text_PokefanmWilliam_After:
 #if GERMAN
-	.string "Ich habe zwar den Kampf verloren,\n"
-	.string "aber mein Pokémon gewinnt den\l"
+	.string "Ich habe zwar den Kampf verloren, aber\n"
+	.string "mein Pokémon gewinnt den\l"
 	.string "Schönheitspreis.$"
 #else
 	.string "I lost the battle, but my POKéMON win\n"
@@ -392,8 +389,8 @@ NationalPark_Normal_Text_Sign_RelaxationSquare:
 NationalPark_Normal_Text_Sign_BattleNotice:
 #if GERMAN
 	.string "Da ist ein Flugblatt…\p"
-	.string "Kämpfe sind nur im\n"
-	.string "hohen Gras gestattet.\l"
+	.string "Kämpfe sind nur im hohen Gras\n"
+	.string "gestattet.\l"
 	.string "- Das Büro des Wächters$"
 #else
 	.string "What is this notice?\p"
@@ -404,9 +401,8 @@ NationalPark_Normal_Text_Sign_BattleNotice:
 NationalPark_Normal_Text_TrainerTips:
 #if GERMAN
 	.string "Tipps für Trainer\p"
-	.string "Möchtest du deine\n"
-	.string "Briefe drucken, öffne sie und drücke\l"
-	.string "Start.$"
+	.string "Möchtest du deine Briefe drucken,\n"
+	.string "öffne sie und drücke Start.$"
 #else
 	.string "TRAINER TIPS\p"
 	.string "Print out MAIL by opening it then\n"

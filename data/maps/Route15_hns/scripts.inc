@@ -101,8 +101,8 @@ Route15_Text_TeacherColetteAfterBattle:
 Route15_Text_TeacherHillarySeen:
 #if GERMAN
 	.string "Bei schönem Wetter würden die Kinder\n"
-	.string "lieber im Schulhof spielen, als in\l"
-	.string "den Klassenzimmern zu lernen.$"
+	.string "lieber im Schulhof spielen, als in den\l"
+	.string "Klassenzimmern zu lernen.$"
 #else
 	.string "On sunny days, I think that the\n"
 	.string "kids would rather be playing in the\l"
@@ -258,8 +258,8 @@ Route15_Text_SchoolboyBillyAfterBattle:
 
 Route15_Text_BillyRegister:
 #if GERMAN
-	.string "Ich hätte mehr aufpassen sollen in\n"
-	.string "der Klasse.\l"
+	.string "Ich hätte mehr aufpassen sollen in der\n"
+	.string "Klasse.\l"
 	.string "Kann ich deine Nummer haben?$"
 #else
 	.string "I should've paid more attention in class.\n"

@@ -24,9 +24,8 @@ ThreeIsland_House4_Text_GhostsInBerryForest::
 
 ThreeIsland_House4_Text_PapaKeepsLyingToMe::
 #if GERMAN
-	.string "Papa lügt mich ständig an und\n"
-	.string "lässt mich nicht hinaus zum\l"
-	.string "Spielen!$"
+	.string "Papa lügt mich ständig an und lässt\n"
+	.string "mich nicht hinaus zum Spielen!$"
 #else
 	.string "Papa keeps lying to me, and won't\n"
 	.string "let me go out and play!$"

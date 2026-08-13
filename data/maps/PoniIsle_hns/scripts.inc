@@ -403,8 +403,8 @@ Alola_Poni_TrainerBattleSwimmer1_Text_1:
 
 Alola_Poni_TrainerBattleSwimmer1_Text_2:
 #if GERMAN
-	.string "Beim Schwimmen bin ich schon so\n"
-	.string "vielen coolen Pokémon begegnet!\l"
+	.string "Beim Schwimmen bin ich schon so vielen\n"
+	.string "coolen Pokémon begegnet!\l"
 	.string "Es muss am Wasser liegen.$"
 #else
 	.string "I've swam into so many cool Pokémon!\n"
@@ -428,8 +428,8 @@ Alola_Poni_TrainerBattleSwimmer2_Text_1:
 Alola_Poni_TrainerBattleSwimmer2_Text_2:
 #if GERMAN
 	.string "Die Strömung eignet sich super zum\n"
-	.string "Reifen-Treiben. Woanders mache\l"
-	.string "ich das nie wieder!$"
+	.string "Reifen-Treiben. Woanders mache ich das\l"
+	.string "nie wieder!$"
 #else
 	.string "The current is great for tubing.\n"
 	.string "I don't think I'll tube anywhere else!$"

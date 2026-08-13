@@ -36,8 +36,8 @@ RustboroCity_House1_Text_IllTradeIfYouWant:
 	.string "Sicher, das weiß ich doch!\p"
 	.string "Aber ich weiß auch, dass ich es gerne\n"
 	.string "mit dir tauschen würde.\p"
-	.string "Ich gebe dir mein {STR_VAR_2}, wenn du\n"
-	.string "mir ein {STR_VAR_1} gibst.\l"
+	.string "Ich gebe dir mein {STR_VAR_2}, wenn du mir\n"
+	.string "ein {STR_VAR_1} gibst.\l"
 	.string "Einverstanden?$"
 #else
 	.string "Huh? My POKéMON is cute?\n"
@@ -67,8 +67,7 @@ RustboroCity_House1_Text_DoesntLookLikeMonToMe:
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
 #if GERMAN
-	.string "Du willst nicht tauschen? Kein\n"
-	.string "Problem.\l"
+	.string "Du willst nicht tauschen? Kein Problem.\n"
 	.string "Aber mein Pokémon ist wirklich\p"
 	.string "niedlich,\n"
 	.string "das weißt du schon?!?$"
@@ -79,8 +78,8 @@ RustboroCity_House1_Text_YouDontWantToThatsOkay:
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
 #if GERMAN
-	.string "Jedes Pokémon ist niedlich, wenn es\n"
-	.string "mit Freundlichkeit und Fürsorge\l"
+	.string "Jedes Pokémon ist niedlich, wenn es mit\n"
+	.string "Freundlichkeit und Fürsorge\l"
 	.string "aufgezogen wird.$"
 #else
 	.string "Any POKéMON can be cute if you raise\n"

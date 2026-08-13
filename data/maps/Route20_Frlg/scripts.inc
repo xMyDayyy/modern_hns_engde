@@ -244,9 +244,8 @@ Route20_Text_MissyDefeat::
 
 Route20_Text_MissyPostBattle::
 #if GERMAN
-	.string "Auf der Zinnoberinsel haben\n"
-	.string "Pokémon eine verlassene Villa\l"
-	.string "besiedelt!$"
+	.string "Auf der Zinnoberinsel haben Pokémon\n"
+	.string "eine verlassene Villa besiedelt!$"
 #else
 	.string "POKéMON have taken over an\n"
 	.string "abandoned mansion on CINNABAR.\p"
@@ -293,9 +292,8 @@ Route20_Text_MistyTrainsHere::
 #if GERMAN
 	.string "Starke Trainer und Wasser-\n"
 	.string "Pokémon sind hier weit verbreitet.\p"
-	.string "Man sagt, dass Misty aus der\n"
-	.string "Arena von Azuria City\l"
-	.string "hier häufig trainiert.$"
+	.string "Man sagt, dass Misty aus der Arena von\n"
+	.string "Azuria City hier häufig trainiert.$"
 #else
 	.string "Strong TRAINERS and WATER POKéMON\n"
 	.string "are common sights in these parts.\p"

@@ -303,8 +303,8 @@ Route101_Text_YouSavedMe:
 	.string "Oh?\p"
 	.string "Hi, du bist doch {PLAYER}{KUN}!\p"
 	.string "Aber dies ist nicht der Ort für ein\n"
-	.string "Schwätzchen, komm doch mit \l"
-	.string "in mein Pokémon-Labor, okay?$"
+	.string "Schwätzchen, komm doch mit in mein\l"
+	.string "Pokémon-Labor, okay?$"
 #else
 	.string "PROF. BIRCH: Whew…\p"
 	.string "I was in the tall grass studying wild\n"

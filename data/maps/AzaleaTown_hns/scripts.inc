@@ -510,8 +510,8 @@ AzaleaTown_Text_Kurt2:
 AzaleaTown_Text_Kurt3:
 #if GERMAN
 	.string "Könntest du den Steineichenwald\n"
-	.string "erkunden und herausfinden,\l"
-	.string "was dort vor sich geht?$"
+	.string "erkunden und herausfinden, was dort\l"
+	.string "vor sich geht?$"
 #else
 	.string "Could you go see why ILEX FOREST\n"
 	.string "is so restless?$"
@@ -519,9 +519,8 @@ AzaleaTown_Text_Kurt3:
 
 AzaleaTown_Text_Sign:
 #if GERMAN
-	.string "Azalea City\n"
-	.string "Wo Menschen und Pokémon\l"
-	.string "in Harmonie leben.$"
+	.string "Azalea City Wo Menschen und Pokémon in\n"
+	.string "Harmonie leben.$"
 #else
 	.string "AZALEA TOWN\n"
 	.string "Where People and POKéMON Live in\l"
@@ -537,9 +536,8 @@ AzaleaTown_Text_KurtsHouseSign:
 
 AzaleaTown_Text_GymSign:
 #if GERMAN
-	.string "Pokémon-Arena von Azalea City\n"
-	.string "Leiter: Kai\l"
-	.string "Die wandelnde Enzyklopädie für\l"
+	.string "Pokémon-Arena von Azalea City Leiter:\n"
+	.string "Kai Die wandelnde Enzyklopädie für\l"
 	.string "Käfer-Pokémon$"
 #else
 	.string "AZALEA TOWN\n"
@@ -554,8 +552,8 @@ AzaleaTown_Text_SlowpokeWellSign:
 	.string "Der Flegmon-Brunnen\n"
 	.string "Auch bekannt als Regenmacherquelle.\p"
 	.string "Die Leute in dieser Gegend glauben,\n"
-	.string "dass, wann immer ein Flegmon gähnt,\l"
-	.string "bald Regen fallen wird.\p"
+	.string "dass, wann immer ein Flegmon gähnt, bald\l"
+	.string "Regen fallen wird.\p"
 	.string "Alte Aufzeichnungen besagen, dass vor\n"
 	.string "400 Jahren einmal ein Flegmon eine\l"
 	.string "Dürre beendet haben soll, indem es\l"

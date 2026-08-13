@@ -108,9 +108,8 @@ SixIsland_PatternBush_Text_BethanyPostBattle::
 
 SixIsland_PatternBush_Text_AllisonIntro::
 #if GERMAN
-	.string "Ich arbeite, um die natürliche\n"
-	.string "Ökologie der Pokémon hier\l"
-	.string "zu bewahren.$"
+	.string "Ich arbeite, um die natürliche Ökologie\n"
+	.string "der Pokémon hier zu bewahren.$"
 #else
 	.string "I'm working to preserve the natural\n"
 	.string "ecology of POKéMON here.$"
@@ -129,9 +128,9 @@ SixIsland_PatternBush_Text_AllisonPostBattle::
 #if GERMAN
 	.string "Ich sage nicht, dass du keine\n"
 	.string "Pokémon fangen sollst.\p"
-	.string "Ich möchte nur, dass die Menschen\n"
-	.string "ihre Pokémon mit Verantwortungs-\l"
-	.string "gefühl aufziehen.$"
+	.string "Ich möchte nur, dass die Menschen ihre\n"
+	.string "Pokémon mit Verantwortungsgefühl\l"
+	.string "aufziehen.$"
 #else
 	.string "I'm not saying that you shouldn't\n"
 	.string "catch POKéMON.\p"
@@ -159,9 +158,8 @@ SixIsland_PatternBush_Text_GarretDefeat::
 
 SixIsland_PatternBush_Text_GarretPostBattle::
 #if GERMAN
-	.string "Neben dem Busch gibt es ein\n"
-	.string "Mädchen, das Skaraborn\l"
-	.string "für Trainer misst.$"
+	.string "Neben dem Busch gibt es ein Mädchen,\n"
+	.string "das Skaraborn für Trainer misst.$"
 #else
 	.string "There's a girl near the BUSH who\n"
 	.string "measures HERACROSS for TRAINERS.$"
@@ -169,9 +167,8 @@ SixIsland_PatternBush_Text_GarretPostBattle::
 
 SixIsland_PatternBush_Text_JonahIntro::
 #if GERMAN
-	.string "Weißt du, wenn ich keine Käfer-\n"
-	.string "Pokémon einsetze, fühle ich\l"
-	.string "mich nicht wohl.$"
+	.string "Weißt du, wenn ich keine Käfer-Pokémon\n"
+	.string "einsetze, fühle ich mich nicht wohl.$"
 #else
 	.string "You know, it just doesn't feel right\n"
 	.string "if I don't use BUG POKéMON.$"
@@ -188,9 +185,8 @@ SixIsland_PatternBush_Text_JonahDefeat::
 
 SixIsland_PatternBush_Text_JonahPostBattle::
 #if GERMAN
-	.string "Apropos, “Reiz” ist ein\n"
-	.string "merkwürdiges Wort, wenn man\l"
-	.string "darüber nachdenkt.\p"
+	.string "Apropos, “Reiz” ist ein merkwürdiges\n"
+	.string "Wort, wenn man darüber nachdenkt.\p"
 	.string "Wie, wie eine Orangenschale?\n"
 	.string "Oder wie eine läutende Glocke?$"
 #else
@@ -331,9 +327,9 @@ SixIsland_PatternBush_Text_JoanaIntro::
 
 SixIsland_PatternBush_Text_JoanaDefeat::
 #if GERMAN
-	.string "Ich habe verloren, aber ich kann\n"
-	.string "noch lachen! Bin ich das einzige\l"
-	.string "Mädchen, welches das kann?$"
+	.string "Ich habe verloren, aber ich kann noch\n"
+	.string "lachen! Bin ich das einzige Mädchen,\l"
+	.string "welches das kann?$"
 #else
 	.string "I lost, but I'm still laughing.\n"
 	.string "Am I the only girl like that?$"
@@ -423,11 +419,10 @@ SixIsland_PatternBush_Text_LaytonDefeat::
 
 SixIsland_PatternBush_Text_LaytonPostBattle::
 #if GERMAN
-	.string "Es gibt Stellen hier im\n"
-	.string "Musterbusch, an denen\l"
-	.string "kein Gras wächst.\l"
-	.string "Was könnte die Ursache für\l"
-	.string "solch ein Phänomen sein?$"
+	.string "Es gibt Stellen hier im Musterbusch, an\n"
+	.string "denen kein Gras wächst.\l"
+	.string "Was könnte die Ursache für solch ein\l"
+	.string "Phänomen sein?$"
 #else
 	.string "There are places here in PATTERN\n"
 	.string "BUSH where grass won't grow.\p"

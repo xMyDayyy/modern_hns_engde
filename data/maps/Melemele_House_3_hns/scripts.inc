@@ -32,9 +32,9 @@ Melemele_House3_Woman_Text_0:
 Melemele_House3_Man_Text_0:
 #if GERMAN
 	.string "Diese verflixten Touristen!\p"
-	.string "Mein Makler meinte, hier sei es\n"
-	.string "ruhig… Aber die Reise hierher ist\l"
-	.string "wohl billiger als bis nach Alola.$"
+	.string "Mein Makler meinte, hier sei es ruhig…\n"
+	.string "Aber die Reise hierher ist wohl billiger\l"
+	.string "als bis nach Alola.$"
 #else
 	.string "Dang tourists!\p"
 	.string "My realtor said this place would be\n"

@@ -397,9 +397,9 @@ RuinsOfAlph_PuzzleAndRewardChambers_Text_Solved:
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist1:
 #if GERMAN
     .string "Willkommen in dieser Kammer.\p"
-    .string "Es gibt verschiebbare Tafeln, die\n"
-    .string "ein von den Uralten gezeichnetes\l"
-    .string "Pokémon zeigen.\p"
+    .string "Es gibt verschiebbare Tafeln, die ein\n"
+    .string "von den Uralten gezeichnetes Pokémon\l"
+    .string "zeigen.\p"
     .string "Schiebe die Tafeln so, dass das Bild\n"
     .string "entsteht.\p"
     .string "Links findest du eine Beschreibung\n"

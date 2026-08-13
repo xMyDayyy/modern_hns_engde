@@ -453,9 +453,9 @@ Route36_Text_Sign_RuinsNorth:
 
 Route36_Text_Tips1:
 #if GERMAN
-	.string "Tipps für Trainer\n"
-	.string "Pokémon-Werte unterscheiden sich,\l"
-	.string "selbst bei gleicher Art.\p"
+	.string "Tipps für Trainer Pokémon-Werte\n"
+	.string "unterscheiden sich, selbst bei gleicher\l"
+	.string "Art.\p"
 	.string "Anfangs wirken sie ähnlich.\p"
 	.string "Doch mit dem Wachstum werden\n"
 	.string "die Unterschiede deutlich.$"
@@ -470,9 +470,9 @@ Route36_Text_Tips1:
 
 Route36_Text_Tips2:
 #if GERMAN
-	.string "Tipps für Trainer\n"
-	.string "Nutze Schaufler, um zum\l"
-	.string "Eingang eines Ortes zurückzukehren.\p"
+	.string "Tipps für Trainer Nutze Schaufler, um\n"
+	.string "zum Eingang eines Ortes\l"
+	.string "zurückzukehren.\p"
 	.string "Sehr praktisch zum Erkunden von\n"
 	.string "Höhlen und besonderen Orten.$"
 #else

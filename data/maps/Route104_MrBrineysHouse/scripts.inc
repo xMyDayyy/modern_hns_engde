@@ -106,8 +106,7 @@ Route104_MrBrineysHouse_Text_WaitUpPeeko:
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
 #if GERMAN
 	.string "Hm? Du bist {PLAYER}{KUN}!\n"
-	.string "Du hast meinen Liebling Pecko\l"
-	.string "gerettet!\l"
+	.string "Du hast meinen Liebling Pecko gerettet!\l"
 	.string "Wir verdanken dir sehr viel!\p"
 	.string "Wie bitte?\n"
 	.string "Du möchtest mit mir segeln?\p"
@@ -141,8 +140,7 @@ Route104_MrBrineysHouse_Text_SetSailForDewford:
 	.string "Mr. Brack: Also, auf nach\n"
 	.string "Faustauhaven! \p"
 	.string "Anker gelichtet!\n"
-	.string "Pecko, wir setzen Segel, mein\l"
-	.string "Liebling!$"
+	.string "Pecko, wir setzen Segel, mein Liebling!$"
 #else
 	.string "MR. BRINEY: DEWFORD it is, then!\p"
 	.string "Anchors aweigh!\n"

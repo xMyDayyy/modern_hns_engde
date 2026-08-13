@@ -27,9 +27,9 @@ CeruleanCity_House2_Text_RocketsStoleTMForDig::
 	.string "Dieses gemeine Team Rocket!\p"
 	.string "Hör dir an, was sie wieder\n"
 	.string "verbrochen haben!\p"
-	.string "Sie haben den Schaufler gestohlen,\n"
-	.string "eine TM, mit der Pokémon Löcher\l"
-	.string "graben können!\p"
+	.string "Sie haben den Schaufler gestohlen, eine\n"
+	.string "TM, mit der Pokémon Löcher graben\l"
+	.string "können!\p"
 	.string "Der Schaufler war sündhaft teuer!$"
 #else
 	.string "Those miserable ROCKETS!\p"
@@ -55,9 +55,8 @@ CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
 
 CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood::
 #if GERMAN
-	.string "Das Team Rocket braucht den\n"
-	.string "Schaufler sicher für irgendeine\l"
-	.string "Schandtat!$"
+	.string "Das Team Rocket braucht den Schaufler\n"
+	.string "sicher für irgendeine Schandtat!$"
 #else
 	.string "TEAM ROCKET must be trying to DIG\n"
 	.string "their way into no good!$"

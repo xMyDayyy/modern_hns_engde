@@ -360,9 +360,9 @@ CinnabarIsland_Text_DoorIsLocked::
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
 #if GERMAN
-	.string "Pyro, der Arenaleiter der\n"
-	.string "Zinnoberinsel, ist ein seltsamer\l"
-	.string "Mann. Er lebt hier seit Jahren.$"
+	.string "Pyro, der Arenaleiter der Zinnoberinsel,\n"
+	.string "ist ein seltsamer Mann. Er lebt hier seit\l"
+	.string "Jahren.$"
 #else
 	.string "CINNABAR GYM's BLAINE is quite the\n"
 	.string "odd fellow.\p"
@@ -400,8 +400,8 @@ CinnabarIsland_Text_PokemonLab::
 CinnabarIsland_Text_GymSign::
 #if GERMAN
 	.string "Zinnoberinsel Pokémon-Arena\n"
-	.string "Arenaleiter: Pyro\l"
-	.string "Der Hitzköpfige Quizmaster!$"
+	.string "Arenaleiter: Pyro Der Hitzköpfige\l"
+	.string "Quizmaster!$"
 #else
 	.string "CINNABAR ISLAND POKéMON GYM\n"
 	.string "LEADER: BLAINE\l"
@@ -423,14 +423,12 @@ CinnabarIsland_Text_ComeWithMeToOneIsland::
 	.string "Lange nicht gesehen!\p"
 	.string "Ich hoffe, du benutzt noch mein\n"
 	.string "PC-System.\p"
-	.string "Nun, hör zu, da wir uns hier\n"
-	.string "treffen, wie wäre es, wenn du\l"
-	.string "mit mir kommst?\l"
-	.string "Es gibt eine kleine Insel tief im\l"
-	.string "Süden, die Eiland Eins genannt\l"
-	.string "wird.\l"
-	.string "Ein Freund hat mich eingeladen und\l"
-	.string "ich bin auf dem Weg dorthin.\p"
+	.string "Nun, hör zu, da wir uns hier treffen, wie\n"
+	.string "wäre es, wenn du mit mir kommst?\l"
+	.string "Es gibt eine kleine Insel tief im Süden,\l"
+	.string "die Eiland Eins genannt wird.\l"
+	.string "Ein Freund hat mich eingeladen und ich\l"
+	.string "bin auf dem Weg dorthin.\p"
 	.string "Wie wär es?\n"
 	.string "Hast du Lust mitzukommen?$"
 #else
@@ -478,9 +476,8 @@ CinnabarIsland_Text_IllBeWaitingInPokeCenter::
 
 CinnabarIsland_Text_MyPalsBoatArrived::
 #if GERMAN
-	.string "Scheint, dass das Schiff von\n"
-	.string "meinem Freund auch angekommen\l"
-	.string "ist.\l"
+	.string "Scheint, dass das Schiff von meinem\n"
+	.string "Freund auch angekommen ist.\l"
 	.string "Er hat es extra zur Zinnoberinsel\l"
 	.string "geschickt, um mich abzuholen.$"
 #else
@@ -497,9 +494,9 @@ CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
 	.string "Gegenwart genossen zu haben.\p"
 	.string "Ich bin sicher, er würde dich gerne\n"
 	.string "erneut willkommen heißen.\p"
-	.string "Wenn du den Tri-Pass hast, kannst\n"
-	.string "du jederzeit mit der Fähre von\l"
-	.string "Orania City zu ihm fahren.\p"
+	.string "Wenn du den Tri-Pass hast, kannst du\n"
+	.string "jederzeit mit der Fähre von Orania City\l"
+	.string "zu ihm fahren.\p"
 	.string "Danke für die Begleitung!$"
 #else
 	.string "Hey, wasn't that a long cruise?\p"

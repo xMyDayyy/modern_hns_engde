@@ -197,9 +197,8 @@ FiveIsland_MemorialPillar_Text_ThisIsWhereIBuriedMyOnix::
 
 FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering::
 #if GERMAN
-	.string "“Tectonix ruht hier in\n"
-	.string "Frieden“ ist in den Stein\l"
-	.string "gemeißelt.\p"
+	.string "“Tectonix ruht hier in Frieden“ ist in\n"
+	.string "den Stein gemeißelt.\p"
 	.string "Vor dem Grab wurde eine Limonade\n"
 	.string "zum Gedenken dargereicht.$"
 #else
@@ -259,9 +258,8 @@ FiveIsland_MemorialPillar_Text_BeGoodToYourMonsToo::
 
 FiveIsland_MemorialPillar_Text_DontHaveRoomForIt::
 #if GERMAN
-	.string "Wenn du keinen Platz hast, bewahre\n"
-	.string "ich es bis zum nächsten Mal für\l"
-	.string "dich auf.$"
+	.string "Wenn du keinen Platz hast, bewahre ich\n"
+	.string "es bis zum nächsten Mal für dich auf.$"
 #else
 	.string "If you don't have room for it,\n"
 	.string "I'll hold it for you till next time.$"
@@ -270,9 +268,9 @@ FiveIsland_MemorialPillar_Text_DontHaveRoomForIt::
 FiveIsland_MemorialPillar_Text_StillHaveThingAsMyThanks::
 #if GERMAN
 	.string "Ah, du bist es, von neulich…\p"
-	.string "Ich habe es immer noch und du\n"
-	.string "solltest es als Zeichen meiner\l"
-	.string "Wertschätzung erhalten.$"
+	.string "Ich habe es immer noch und du solltest\n"
+	.string "es als Zeichen meiner Wertschätzung\l"
+	.string "erhalten.$"
 #else
 	.string "Oh, it's you from that time…\p"
 	.string "I still have that thing I wanted\n"
@@ -294,9 +292,8 @@ FiveIsland_MemorialPillar_Text_HereLiesTectonix::
 #if GERMAN
 	.string "Die Felsen und Steine bilden eine\n"
 	.string "ordentlich angelegte Pyramide.\p"
-	.string "“Tectonix ruht hier in\n"
-	.string "Frieden“ ist in den Stein\l"
-	.string "gemeißelt.$"
+	.string "“Tectonix ruht hier in Frieden“ ist in\n"
+	.string "den Stein gemeißelt.$"
 #else
 	.string "Boulders and rocks are neatly piled\n"
 	.string "up as a cairn.\p"

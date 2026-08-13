@@ -188,9 +188,8 @@ Route29_Text_OldMan2:
 
 Route29_Text_OldManExplanation:
 #if GERMAN
-	.string "Wenn du sie zuerst schwächst,\n"
-	.string "lassen sich Pokémon leichter\l"
-	.string "fangen.\p"
+	.string "Wenn du sie zuerst schwächst, lassen\n"
+	.string "sich Pokémon leichter fangen.\p"
 	.string "Wirf dann einen Ball aus deinem\n"
 	.string "Beutel! Jeder Ball reicht.\p"
 	.string "Wenn du mehr lernen willst,\n"
@@ -247,9 +246,9 @@ Route29_Text_Lass:
 #if GERMAN
 	.string "Siehst du die Stufen hier?\p"
 	.string "Es erfordert zwar etwas Mut, sie\n"
-	.string "herunterzuspringen, aber so kannst\l"
-	.string "du auf dem Weg nach Neuborkia das\l"
-	.string "hohe Gras umgehen.$"
+	.string "herunterzuspringen, aber so kannst du\l"
+	.string "auf dem Weg nach Neuborkia das hohe\l"
+	.string "Gras umgehen.$"
 #else
 	.string "See those ledges?\n"
 	.string "It's scary to jump off them.\p"
@@ -259,9 +258,9 @@ Route29_Text_Lass:
 
 Route29_Text_Girl:
 #if GERMAN
-	.string "Ich will eine kurze Pause einlegen\n"
-	.string "und speichere deshalb gerade\l"
-	.string "meinen Spielstand.$"
+	.string "Ich will eine kurze Pause einlegen und\n"
+	.string "speichere deshalb gerade meinen\l"
+	.string "Spielstand.$"
 #else
 	.string "I wanted to take a break,\n"
 	.string "so I saved to record my progress.$"
@@ -270,8 +269,8 @@ Route29_Text_Girl:
 Route29_Text_Boy_WaitingForDay:
 #if GERMAN
 	.string "Ich warte hier darauf, dass es Mittag\n"
-	.string "wird, weil sich manche Pokémon nur\l"
-	.string "zu dieser Zeit blicken lassen.$"
+	.string "wird, weil sich manche Pokémon nur zu\l"
+	.string "dieser Zeit blicken lassen.$"
 #else
 	.string "I'm waiting for POKéMON that\n"
 	.string "appear only later in the day.$"
@@ -280,8 +279,8 @@ Route29_Text_Boy_WaitingForDay:
 Route29_Text_Boy_WaitingForNight:
 #if GERMAN
 	.string "Ich warte hier darauf, dass es Nacht\n"
-	.string "wird, weil sich manche Pokémon nur\l"
-	.string "zu dieser Zeit blicken lassen.$"
+	.string "wird, weil sich manche Pokémon nur zu\l"
+	.string "dieser Zeit blicken lassen.$"
 #else
 	.string "I'm waiting for POKéMON that\n"
 	.string "appear only at night.$"

@@ -56,8 +56,8 @@ CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy::
 #if GERMAN
 	.string "Besitzt du Sonderbonbons?\p"
 	.string "Gibt man einem Pokémon ein solches\n"
-	.string "Bonbon, dann erreicht es den\l"
-	.string "nächsten Level!$"
+	.string "Bonbon, dann erreicht es den nächsten\l"
+	.string "Level!$"
 #else
 	.string "Do you know about RARE CANDY?\n"
 	.string "They don't sell it in shops.\p"

@@ -80,9 +80,8 @@ MtSilver_PokemonCenter_Text_Meara1:
 	.string "Ich bin eine Forscherin aus dem\n"
 	.string "Museum von Marmoria City.\p"
 	.string "In dieser Gegend wurden ungewöhnlich\n"
-	.string "viele Artefakte entdeckt, also bin\l"
-	.string "ich hier, um Nachforschungen\l"
-	.string "anzustellen.\p"
+	.string "viele Artefakte entdeckt, also bin ich\l"
+	.string "hier, um Nachforschungen anzustellen.\p"
 	.string "Hast du im Berg etwas Seltsames\n"
 	.string "gefunden?$"
 #else
@@ -100,13 +99,11 @@ MtSilver_PokemonCenter_Text_Meara2:
 	.string "Diese Flöte!\p"
 	.string "Du hast den Geist eines wahren\n"
 	.string "Archäologen!\p"
-	.string "Es gibt einen Abschnitt der Höhle,\n"
-	.string "in dem die Pokémon zu stark sind,\l"
-	.string "als dass ich ihn sicher erkunden\l"
-	.string "könnte.\p"
-	.string "Wenn ich dich hinbringe, würdest du\n"
-	.string "ihn nach weiteren Artefakten\l"
-	.string "absuchen?$"
+	.string "Es gibt einen Abschnitt der Höhle, in\n"
+	.string "dem die Pokémon zu stark sind, als dass\l"
+	.string "ich ihn sicher erkunden könnte.\p"
+	.string "Wenn ich dich hinbringe, würdest du ihn\n"
+	.string "nach weiteren Artefakten absuchen?$"
 #else
 	.string "That flute!\p"
 	.string "You have the spirit of a true\n"
@@ -120,9 +117,8 @@ MtSilver_PokemonCenter_Text_Meara2:
 
 MtSilver_PokemonCenter_Text_Prompt:
 #if GERMAN
-	.string "Wenn ich dich hinbringe, würdest du\n"
-	.string "dort nach weiteren Artefakten\l"
-	.string "suchen?$"
+	.string "Wenn ich dich hinbringe, würdest du dort\n"
+	.string "nach weiteren Artefakten suchen?$"
 #else
 	.string "If I take you there, would you\n"
 	.string "explore it for more artifacts?$"

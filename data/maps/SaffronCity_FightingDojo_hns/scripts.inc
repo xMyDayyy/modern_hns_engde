@@ -376,9 +376,8 @@ SaffronCity_FightingDojo_Ability_Text_NoChampion:
 	.string "Fähigkeits-Experte!\p"
 	.string "Ich kann Pokémon-Fähigkeiten\n"
 	.string "im Nu tauschen.\p"
-	.string "Leider tut mir der Rücken weh\n"
-	.string "und ich kann heute nicht\l"
-	.string "arbeiten.\p"
+	.string "Leider tut mir der Rücken weh und ich\n"
+	.string "kann heute nicht arbeiten.\p"
 	.string "Komm später wieder!$"
 #else
 	.string "Welcome! I'm the ABILITY EXPERT!\p"

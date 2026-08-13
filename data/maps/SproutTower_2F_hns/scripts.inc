@@ -70,8 +70,8 @@ SproutTower_Text_SageEdmond_Beaten:
 
 SproutTower_Text_SageEdmond_AfterBattle:
 #if GERMAN
-	.string "Ich habe versucht, die eleganten Bewe-\n"
-	.string "gungen von Knofensa nachzuahmen…\l"
+	.string "Ich habe versucht, die eleganten\n"
+	.string "Bewegungen von Knofensa nachzuahmen…\l"
 	.string "Aber ich habe nicht genug trainiert.$"
 #else
 	.string "I tried to copy BELLSPROUT's\n"

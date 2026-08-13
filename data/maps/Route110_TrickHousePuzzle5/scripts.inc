@@ -1062,8 +1062,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
 #if GERMAN
 	.string "Robopuppe 3 Quiz.\p"
 	.string "Verkaufe einen Superball und kaufe\n"
-	.string "einen Trank. Wie viel Geld bleibt\l"
-	.string "übrig?$"
+	.string "einen Trank. Wie viel Geld bleibt übrig?$"
 #else
 	.string "MECHADOLL 3 QUIZ.\p"
 	.string "Sell one GREAT BALL and buy\n"

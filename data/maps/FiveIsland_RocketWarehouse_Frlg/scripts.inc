@@ -192,9 +192,8 @@ FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled::
 
 FiveIsland_RocketWarehouse_Text_Grunt2Intro::
 #if GERMAN
-	.string "Wusstest du, dass dies das Lager\n"
-	.string "von Team Rocket ist, ehe du\l"
-	.string "hierher kamst?$"
+	.string "Wusstest du, dass dies das Lager von\n"
+	.string "Team Rocket ist, ehe du hierher kamst?$"
 #else
 	.string "Did you come here knowing it's\n"
 	.string "TEAM ROCKET's WAREHOUSE?$"
@@ -249,11 +248,10 @@ FiveIsland_RocketWarehouse_Text_Grunt1PostBattle::
 
 FiveIsland_RocketWarehouse_Text_Grunt3Intro::
 #if GERMAN
-	.string "Die anderen haben mir bereits\n"
-	.string "von dir erzählt.\l"
-	.string "Aber es kann nicht sein, dass ein\l"
-	.string "Kind wie du unseren Boss\l"
-	.string "Giovanni kennt!$"
+	.string "Die anderen haben mir bereits von dir\n"
+	.string "erzählt.\l"
+	.string "Aber es kann nicht sein, dass ein Kind\l"
+	.string "wie du unseren Boss Giovanni kennt!$"
 #else
 	.string "I got word about you from the\n"
 	.string "others.\p"
@@ -270,9 +268,8 @@ FiveIsland_RocketWarehouse_Text_Grunt3Defeat::
 
 FiveIsland_RocketWarehouse_Text_Grunt3PostBattle::
 #if GERMAN
-	.string "Misch dich nicht in die\n"
-	.string "Angelegenheiten von\l"
-	.string "Erwachsenen ein, du Plage!$"
+	.string "Misch dich nicht in die Angelegenheiten\n"
+	.string "von Erwachsenen ein, du Plage!$"
 #else
 	.string "Don't mess in the doings of adults,\n"
 	.string "you jumped-up pip-squeak!$"
@@ -280,9 +277,9 @@ FiveIsland_RocketWarehouse_Text_Grunt3PostBattle::
 
 FiveIsland_RocketWarehouse_Text_Admin1Intro::
 #if GERMAN
-	.string "Ich weiß nicht und es kümmert mich\n"
-	.string "auch nicht, ob das, was ich tue,\l"
-	.string "recht oder unrecht ist…\l"
+	.string "Ich weiß nicht und es kümmert mich auch\n"
+	.string "nicht, ob das, was ich tue, recht oder\l"
+	.string "unrecht ist…\l"
 	.string "Ich vertraue Giovanni und befolge\l"
 	.string "seine Anweisungen.$"
 #else
@@ -314,11 +311,11 @@ FiveIsland_RocketWarehouse_Text_Admin1PostBattle::
 
 FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough::
 #if GERMAN
-	.string "Ich habe es so eingerichtet, dass\n"
-	.string "du hier durchkannst, wenn du\l"
-	.string "wieder kommst.\l"
-	.string "Warum erholst und erfrischst du\l"
-	.string "dich nicht, um gewappnet zu sein?\p"
+	.string "Ich habe es so eingerichtet, dass du\n"
+	.string "hier durchkannst, wenn du wieder\l"
+	.string "kommst.\l"
+	.string "Warum erholst und erfrischst du dich\l"
+	.string "nicht, um gewappnet zu sein?\p"
 	.string "Der Vors. nach mir ist ein viel\n"
 	.string "gewissenhafterer Trainer als ich.\p"
 	.string "Mach dich lieber auf einen harten\n"
@@ -345,9 +342,8 @@ FiveIsland_RocketWarehouse_Text_Admin2Intro::
 	.string "Organisation zu bringen.\l"
 	.string "Glücklicherweise schenken wir den\l"
 	.string "Lügen eines Kindes keinen Glauben!\p"
-	.string "Und nun zeige ich dir, wie grausam\n"
-	.string "und wütend ein Erwachsener sein\l"
-	.string "kann!$"
+	.string "Und nun zeige ich dir, wie grausam und\n"
+	.string "wütend ein Erwachsener sein kann!$"
 #else
 	.string "That's quite enough of you \n"
 	.string "playing the hero, kid.\p"
@@ -381,12 +377,12 @@ FiveIsland_RocketWarehouse_Text_Admin2Defeat::
 FiveIsland_RocketWarehouse_Text_Admin2PostBattle::
 #if GERMAN
 	.string "Wir werden dieses Lager verlassen…\p"
-	.string "Aber denke bloß nicht, es wäre\n"
-	.string "erledigt. Ich lasse nicht zu, dass\l"
-	.string "dies das Ende ist.\l"
-	.string "Ich werde Giovanni finden. Und\l"
-	.string "ich werde Team Rocket aufer-\l"
-	.string "stehen lassen! Das werde ich…\p"
+	.string "Aber denke bloß nicht, es wäre erledigt.\n"
+	.string "Ich lasse nicht zu, dass dies das Ende\l"
+	.string "ist.\l"
+	.string "Ich werde Giovanni finden. Und ich\l"
+	.string "werde Team Rocket auferstehen lassen!\l"
+	.string "Das werde ich…\p"
 	.string "Bis dahin! Leb wohl!$"
 #else
 	.string "We will abandon this WAREHOUSE…\p"
@@ -400,12 +396,11 @@ FiveIsland_RocketWarehouse_Text_Admin2PostBattle::
 
 FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText::
 #if GERMAN
-	.string "Ein mit Grafiken und Text aus-\n"
-	.string "gestatteter Bericht ist auf dem\l"
+	.string "Ein mit Grafiken und Text\n"
+	.string "ausgestatteter Bericht ist auf dem\l"
 	.string "PC-Monitor.\l"
-	.string "“Der Einfluss von Magnet-\l"
-	.string "wellen bei der Pokémon-\l"
-	.string "Entwicklung“…\l"
+	.string "“Der Einfluss von Magnetwellen bei der\l"
+	.string "Pokémon-Entwicklung“…\l"
 	.string "…………\l"
 	.string "……\p"
 	.string "Es ist zu schwierig, zu verstehen…$"
@@ -446,8 +441,8 @@ FiveIsland_RocketWarehouse_Text_GideonDefeat::
 
 FiveIsland_RocketWarehouse_Text_GideonPostBattle::
 #if GERMAN
-	.string "Wenn ich ihn nicht verkaufen\n"
-	.string "kann, ist er wertlos!\l"
+	.string "Wenn ich ihn nicht verkaufen kann, ist\n"
+	.string "er wertlos!\l"
 	.string "Nimm ihn und lass mich in Ruhe!$"
 #else
 	.string "If I can't sell it, it's worthless!\n"

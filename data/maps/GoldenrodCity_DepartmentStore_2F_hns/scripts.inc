@@ -59,9 +59,8 @@ GoldenrodDeptStore_Text_2FCooltrainerF:
 
 GoldenrodDeptStore_Text_2FGentleman:
 #if GERMAN
-	.string "Dieses Kaufhaus zeigt mir,\n"
-	.string "dass Dukatia City eine\l"
-	.string "sehr große Stadt ist.\p"
+	.string "Dieses Kaufhaus zeigt mir, dass Dukatia\n"
+	.string "City eine sehr große Stadt ist.\p"
 	.string "Dieses Angebot ist unübertrefflich!$"
 #else
     .string "This DEPT.STORE makes me realize\n"

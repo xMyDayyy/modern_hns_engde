@@ -283,9 +283,8 @@ Copycat_Text_GiveDoll:
 
 Copycat_Text_GivePass:
 #if GERMAN
-	.string "Also gut. Hier ist\n"
-	.string "der Fahrschein für den Magnetzug! Wie\l"
-	.string "versprochen.$"
+	.string "Also gut. Hier ist der Fahrschein für\n"
+	.string "den Magnetzug! Wie versprochen.$"
 #else
 	.string "OK. Here's the MAGNET TRAIN PASS\n"
 	.string "like I promised!$"
@@ -295,9 +294,9 @@ Copycat_Text_ExplainPass:
 #if GERMAN
 	.string "Nachahmerin: Das\n"
 	.string "ist der Fahrschein für den Magnetzug.\p"
-	.string "Der Mann von der Eisenbahn gab mir\n"
-	.string "das, als sie unser altes\l"
-	.string "Haus niederrissen, um den\p"
+	.string "Der Mann von der Eisenbahn gab mir das,\n"
+	.string "als sie unser altes Haus niederrissen,\l"
+	.string "um den\p"
 	.string "Bahnhof zu bauen.$"
 #else
 	.string "COPYCAT: That's the PASS for the\n"

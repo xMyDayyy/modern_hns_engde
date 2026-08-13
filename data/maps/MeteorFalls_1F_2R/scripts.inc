@@ -108,8 +108,8 @@ MeteorFalls_1F_2R_Text_NicolasRegister:
 MeteorFalls_1F_2R_Text_NicolasRematchIntro:
 #if GERMAN
 	.string "Seit wir uns das letzte Mal gesehen\n"
-	.string "haben, haben wir hart trainiert ver-\l"
-	.string "glichen mit unserem ersten Kampf.\p"
+	.string "haben, haben wir hart trainiert\l"
+	.string "verglichen mit unserem ersten Kampf.\p"
 	.string "Hilf uns, herauszufinden, wie stark\n"
 	.string "wir wirklich sind.$"
 #else
@@ -141,8 +141,8 @@ MeteorFalls_1F_2R_Text_NicolasPostRematch:
 
 MeteorFalls_1F_2R_Text_JohnIntro:
 #if GERMAN
-	.string "Urs: Wir haben immer in trauter Zwei-\n"
-	.string "samkeit mit unseren Pokémon gegen\l"
+	.string "Urs: Wir haben immer in trauter\n"
+	.string "Zweisamkeit mit unseren Pokémon gegen\l"
 	.string "andere gekämpft. Wir werden siegen!$"
 #else
 	.string "JOHN: We've always battled POKéMON\n"
@@ -187,8 +187,7 @@ MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
 
 MeteorFalls_1F_2R_Text_JohnRegister:
 #if GERMAN
-	.string "Urs: Junger Trainer! Wenn du die\n"
-	.string "Chance\l"
+	.string "Urs: Junger Trainer! Wenn du die Chance\n"
 	.string "hast, wirst du wieder gegen uns\l"
 	.string "antreten?$"
 #else
@@ -221,9 +220,9 @@ MeteorFalls_1F_2R_Text_JayDefeat:
 MeteorFalls_1F_2R_Text_JayPostBattle:
 #if GERMAN
 	.string "Evi: 50 Jahre verheiratet…\p"
-	.string "Immer wenn wir uneinig sind, ent-\n"
-	.string "scheiden wir es mit einem Pokémon-\l"
-	.string "Kampf.$"
+	.string "Immer wenn wir uneinig sind,\n"
+	.string "entscheiden wir es mit einem\l"
+	.string "Pokémon-Kampf.$"
 #else
 	.string "JAY: Fifty years of marriage…\p"
 	.string "If we ever argued, we always settled\n"
@@ -246,8 +245,8 @@ MeteorFalls_1F_2R_Text_JayNotEnoughMons:
 
 MeteorFalls_1F_2R_Text_JohnRematchIntro:
 #if GERMAN
-	.string "Urs: Wir haben immer in trauter Zwei-\n"
-	.string "samkeit mit unseren Pokémon gegen\l"
+	.string "Urs: Wir haben immer in trauter\n"
+	.string "Zweisamkeit mit unseren Pokémon gegen\l"
 	.string "andere gekämpft. Wir werden siegen!$"
 #else
 	.string "JOHN: We've always battled POKéMON\n"
@@ -315,8 +314,7 @@ MeteorFalls_1F_2R_Text_JayPostRematch:
 #if GERMAN
 	.string "Evi: 50 Jahre verheiratet…\n"
 	.string "Vieles ist in dieser Zeit passiert.\p"
-	.string "Ich hoffe, wir werden noch lange\n"
-	.string "unsere\l"
+	.string "Ich hoffe, wir werden noch lange unsere\n"
 	.string "Erinnerungen miteinander teilen\l"
 	.string "können.$"
 #else
