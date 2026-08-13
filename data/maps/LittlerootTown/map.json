@@ -251,7 +251,7 @@
       "elevation": 3,
       "var": "VAR_HOENN_ARRIVAL_STATE",
       "var_value": "3",
-      "script": "LittlerootTown_EventScript_HoennSendOff"
+      "script": "LittlerootTown_EventScript_HoennSendOffRight"
     }
   ],
   "bg_events": [

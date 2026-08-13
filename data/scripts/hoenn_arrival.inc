@@ -259,16 +259,22 @@ Common_EventScript_HoennSkipIntroStates::
 @ von hier aus den Strand hinauf auf (17,52) gefuehrt - direkt unter die Tuer,
 @ aus der Birk tritt. Birk bleibt auf (17,51) stehen und schaut nach unten,
 @ der Spieler schaut nach oben.
-Route104_EventScript_HoennArrival::
+@ Der Steg ist zwei Kacheln breit (Zeile 51 = oben, Zeile 52 = unten).
+@ Der Spieler bleibt stehen, Birk laeuft zu ihm. Auf der unteren Spur stellt
+@ er sich direkt ueber den Spieler und schaut nach unten; auf der oberen Spur
+@ ist dieses Feld belegt, also geht er eine Kachel weiter und schaut hoch.
+Route104_EventScript_HoennArrivalUpper::
 	lockall
-	delay 30
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennApproachBeach
-	waitmovement 0
+	setvar VAR_0x8008, 1
+	goto Route104_EventScript_HoennArrivalScene
+
+Route104_EventScript_HoennArrivalLower::
+	lockall
+	setvar VAR_0x8008, 0
 	goto Route104_EventScript_HoennArrivalScene
 
 Route104_EventScript_HoennArrivalScene::
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennStopAndLook
-	waitmovement 0
+	delay 20
 	addobject LOCALID_HOENN_BIRCH
 	applymovement LOCALID_HOENN_BIRCH, Common_Movement_HoennBirchLeaveHouse
 	waitmovement 0
@@ -276,8 +282,21 @@ Route104_EventScript_HoennArrivalScene::
 	applymovement LOCALID_HOENN_BIRCH, Common_Movement_HoennExclaim
 	waitmovement 0
 	delay 20
-	applymovement LOCALID_HOENN_BIRCH, Common_Movement_HoennBirchFacePlayer
+	goto_if_eq VAR_0x8008, 1, Route104_EventScript_HoennArrivalRunUpper
+	applymovement LOCALID_HOENN_BIRCH, Common_Movement_HoennBirchRunLower
 	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennStopAndLook
+	waitmovement 0
+	goto Route104_EventScript_HoennArrivalTalk
+
+Route104_EventScript_HoennArrivalRunUpper::
+	applymovement LOCALID_HOENN_BIRCH, Common_Movement_HoennBirchRunUpper
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennFaceDown
+	waitmovement 0
+	goto Route104_EventScript_HoennArrivalTalk
+
+Route104_EventScript_HoennArrivalTalk::
 	playbgm MUS_ENCOUNTER_MALE, FALSE
 	msgbox Route104_Text_BirchGreeting, MSGBOX_DEFAULT
 	closemessage
@@ -351,13 +370,26 @@ Common_Movement_HoennBirchFacePlayer:
 	face_down
 	step_end
 
-@ Anmarsch vom Anlandepunkt (12,52) auf das Zielfeld (17,52).
-Common_Movement_HoennApproachBeach:
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
+@ Birk laeuft vom Hauseingang (17,50) zum Spieler.
+@ Untere Spur: ueber (17,51) nach (14,51), Blick nach unten.
+Common_Movement_HoennBirchRunLower:
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	face_down
+	step_end
+
+@ Obere Spur: eine Kachel tiefer bis (14,52), Blick nach oben.
+Common_Movement_HoennBirchRunUpper:
+	walk_fast_down
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	face_up
+	step_end
+
+Common_Movement_HoennFaceDown:
+	face_down
 	step_end
 
 Common_Movement_HoennFaceUp:

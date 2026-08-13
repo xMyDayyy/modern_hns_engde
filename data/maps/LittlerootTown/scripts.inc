@@ -1175,8 +1175,20 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 @ (Mutter in Johto, Laufschuhe vorhanden). Stattdessen kommt Prof.
 @ Birk dem fremden Champion aus Johto und Kanto beim ersten Verlassen
 @ von Wurzelheim kurz nach. Einmalig ueber VAR_HOENN_ARRIVAL_STATE.
+@ Der Ortsausgang ist zwei Kacheln breit. Links (x=10) stellt sich Birk
+@ direkt unter den Spieler. Rechts (x=11) waere er nur schraeg davor, also
+@ geht er eine Kachel weiter bis neben den Spieler und dreht sich zu ihm.
+LittlerootTown_EventScript_HoennSendOffRight::
+	lockall
+	setvar VAR_0x8008, 1
+	goto LittlerootTown_EventScript_HoennSendOffCommon
+
 LittlerootTown_EventScript_HoennSendOff::
 	lockall
+	setvar VAR_0x8008, 0
+	goto LittlerootTown_EventScript_HoennSendOffCommon
+
+LittlerootTown_EventScript_HoennSendOffCommon::
 	setvar VAR_HOENN_ARRIVAL_STATE, 4
 	playse SE_PIN
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_HoennSendOffExclaim
@@ -1184,14 +1196,34 @@ LittlerootTown_EventScript_HoennSendOff::
 	setobjectxyperm LOCALID_LITTLEROOT_BIRCH, 10, 5
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 	addobject LOCALID_LITTLEROOT_BIRCH
+	goto_if_eq VAR_0x8008, 1, LittlerootTown_EventScript_HoennSendOffApproachRight
 	applymovement LOCALID_LITTLEROOT_BIRCH, LittlerootTown_Movement_HoennSendOffApproach
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_HoennSendOffFaceDown
 	waitmovement 0
+	goto LittlerootTown_EventScript_HoennSendOffTalk
+
+LittlerootTown_EventScript_HoennSendOffApproachRight::
+	applymovement LOCALID_LITTLEROOT_BIRCH, LittlerootTown_Movement_HoennSendOffApproachRight
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_HoennSendOffFaceLeft
+	waitmovement 0
+	goto LittlerootTown_EventScript_HoennSendOffTalk
+
+LittlerootTown_EventScript_HoennSendOffTalk::
 	msgbox LittlerootTown_Text_HoennSendOff, MSGBOX_DEFAULT
 	closemessage
+	goto_if_eq VAR_0x8008, 1, LittlerootTown_EventScript_HoennSendOffReturnRight
 	applymovement LOCALID_LITTLEROOT_BIRCH, LittlerootTown_Movement_HoennSendOffReturn
 	waitmovement 0
+	goto LittlerootTown_EventScript_HoennSendOffLeave
+
+LittlerootTown_EventScript_HoennSendOffReturnRight::
+	applymovement LOCALID_LITTLEROOT_BIRCH, LittlerootTown_Movement_HoennSendOffReturnRight
+	waitmovement 0
+	goto LittlerootTown_EventScript_HoennSendOffLeave
+
+LittlerootTown_EventScript_HoennSendOffLeave::
 	removeobject LOCALID_LITTLEROOT_BIRCH
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 	setobjectxyperm LOCALID_LITTLEROOT_BIRCH, 14, 10
@@ -1213,7 +1245,27 @@ LittlerootTown_Movement_HoennSendOffApproach:
 	walk_up
 	step_end
 
+@ Rechte Spur: eine Kachel weiter bis (10,1), also neben den Spieler, Blick nach rechts.
+LittlerootTown_Movement_HoennSendOffApproachRight:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	face_right
+	step_end
+
+LittlerootTown_Movement_HoennSendOffFaceLeft:
+	walk_in_place_faster_left
+	step_end
+
 LittlerootTown_Movement_HoennSendOffReturn:
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+LittlerootTown_Movement_HoennSendOffReturnRight:
+	walk_down
 	walk_down
 	walk_down
 	walk_down

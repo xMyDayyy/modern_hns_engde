@@ -557,6 +557,24 @@
       "var": "VAR_ROUTE104_STATE",
       "var_value": "1",
       "script": "Route104_EventScript_RivalTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 51,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "1",
+      "script": "Route104_EventScript_HoennArrivalUpper"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 52,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "1",
+      "script": "Route104_EventScript_HoennArrivalLower"
     }
   ],
   "bg_events": [
