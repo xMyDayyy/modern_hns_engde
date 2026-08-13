@@ -34,10 +34,10 @@ PacifidlogTown_House3_Text_WillingToTradeIt:
 #if GERMAN
 	.string "Schau dir dieses {STR_VAR_2} an!\p"
 	.string "Das {STR_VAR_2} habe ich gestern ge-\n"
-	.string "fangen, um meinen Geburtstag zu\n"
+	.string "fangen, um meinen Geburtstag zu\l"
 	.string "feiern. \p"
-	.string "Oh, ich sehe dir an der Nasenspitze\l"
-	.string "an,\n"
+	.string "Oh, ich sehe dir an der Nasenspitze\n"
+	.string "an,\l"
 	.string "dass du es gerne hättest! Aber es ist\p"
 	.string "\p"
 	.string "unbezahlbar! Ich bin aber bereit, es\n"

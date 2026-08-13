@@ -105,7 +105,7 @@ AbandonedShip_Corridors_B1F_Text_DoorIsLocked:
 AbandonedShip_Corridors_B1F_Text_InsertedStorageKey:
 #if GERMAN
 	.string "{PLAYER} steckt den Schlüssel zum\n"
-	.string "Lager ins Schlüsselloch und dreht ihn.\n"
+	.string "Lager ins Schlüsselloch und dreht ihn.\l"
 	.string "\p"
 	.string "Der Schlüssel ist schwergängig, aber\n"
 	.string "das Schloss lässt sich öffnen.$"

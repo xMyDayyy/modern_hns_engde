@@ -377,7 +377,7 @@ BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends_hns:
 BattleFrontier_OutsideWest_Text_CantFindBattleTower_hns:
 #if GERMAN
 	.string "Ich möchte gerne in den Duellturm,\n"
-	.string "aber ich finde den einfach nicht,\n"
+	.string "aber ich finde den einfach nicht,\l"
 	.string "obwohl\l"
 	.string "ich eine Karte der Kampfzone\p"
 	.string "habe. Hier ist alles so groß…$"
@@ -391,7 +391,7 @@ BattleFrontier_OutsideWest_Text_CantFindBattleTower_hns:
 BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere_hns:
 #if GERMAN
 	.string "Ich wollte mich einer Herausforderung\n"
-	.string "stellen, sobald ich hier angekommen\n"
+	.string "stellen, sobald ich hier angekommen\l"
 	.string "bin. \p"
 	.string "Aber auf dem Weg hierhin bin ich\n"
 	.string "seekrank geworden… hurps…$"
@@ -437,7 +437,7 @@ BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons_hns:
 	.string "Ääh… Ich bin sicher, dass das geht!\p"
 	.string "Denke ich…\p"
 	.string "Erinnerst du dich an diesen großen\n"
-	.string "unheimlichen Kerl, der sagte “Ich\n"
+	.string "unheimlichen Kerl, der sagte “Ich\l"
 	.string "leihe\l"
 	.string "euch Pokémon!”?$"
 #else
@@ -580,10 +580,10 @@ BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo_hns:
 #if GERMAN
 	.string "Vor nicht allzu langer Zeit gab es\n"
 	.string "hier nichts. Nur Ödnis.\p"
-	.string "Und nun schau sich einer diesen Ort\l"
-	.string "an!\n"
+	.string "Und nun schau sich einer diesen Ort\n"
+	.string "an!\l"
 	.string "Unglaublich! Ich werde meine Mutter\p"
-	.string "mal\l"
+	.string "mal\n"
 	.string "hierher bringen, damit sie das sieht.$"
 #else
 	.string "There used to be nothing here not all\n"
@@ -621,8 +621,8 @@ BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople_hns:
 BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike_hns:
 #if GERMAN
 	.string "… Mampf… … Mampf…\p"
-	.string "Vor einiger Zeit habe ich dieses\l"
-	.string "ältere\n"
+	.string "Vor einiger Zeit habe ich dieses\n"
+	.string "ältere\l"
 	.string "Mädchen an der Kampfipitis getroffen.\p"
 	.string "\p"
 	.string "Ihre Augen hatten einen bösartigen\n"
@@ -704,11 +704,11 @@ BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers_hns:
 	.string "Diese Leute da, die sich gerade in den\n"
 	.string "Haaren liegen…\p"
 	.string "Es ist schwer zu glauben, aber das\n"
-	.string "waren mal Trainer. Gute Trainer sogar!\n"
+	.string "waren mal Trainer. Gute Trainer sogar!\l"
 	.string "\p"
 	.string "Sie waren stark und auch berühmt.\p"
 	.string "Aber ein bestimmter Trainer hat sie\n"
-	.string "bei\n"
+	.string "bei\l"
 	.string "einem Turnier mit Pauken und Trompeten\l"
 	.string "besiegt.\p"
 	.string "Trotz ihrer Niederlage haben sie sich\n"

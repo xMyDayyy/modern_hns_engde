@@ -160,7 +160,7 @@ RustboroCity_Gym_Text_GymGuidePostVictory:
 	.string "Großartig!\n"
 	.string "Schau mal auf deinen Trainerpass.\p"
 	.string "Der Steinorden, den du gerade bekommen\n"
-	.string "hast, müsste dort schon vermerkt sein.\n"
+	.string "hast, müsste dort schon vermerkt sein.\l"
 	.string "\p"
 	.string "Nun hast du den ersten Schritt zur\n"
 	.string "Meisterschaft schon erfolgreich\l"

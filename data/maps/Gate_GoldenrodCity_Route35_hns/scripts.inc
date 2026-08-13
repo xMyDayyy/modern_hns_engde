@@ -95,7 +95,7 @@ Route35GoldenrodGate_Text_RandyThanks:
 	.string "Das würdest du\n"
 	.string "tun? Super! Vielen Dank!\p"
 	.string "Mein Freund ist\n"
-	.string "ein Flegel! Er schläft die ganze Zeit.\n"
+	.string "ein Flegel! Er schläft die ganze Zeit.\l"
 	.string "\p"
 	.string "Du wirst ihn sofort erkennen!$"
 #else
@@ -116,11 +116,11 @@ Route35GoldenrodGate_Text_ReceivedMonWithMail:
 Route35GoldenrodGate_Text_RandyWeirdTree:
 #if GERMAN
 	.string "Vergiss nicht, es an die\n"
-	.string "erste Stelle im Team zu tun,\n"
+	.string "erste Stelle im Team zu tun,\l"
 	.string "sobald du meinen Freund triffst!\p"
 	.string "Route 31!\p"
 	.string "Stimmt! Ein\n"
-	.string "merkwürdiger Baum hat die Straße\n"
+	.string "merkwürdiger Baum hat die Straße\l"
 	.string "blockiert.\p"
 	.string "Ich frage mich,\n"
 	.string "ob die Straße jetzt frei ist.$"
@@ -174,7 +174,7 @@ Route35GoldenrodGate_Text_PokefanF_TreeBlocking:
 	.string "Angeblich versperrt ein merkwürdiger\n"
 	.string "Baum den Weg, der anfängt, sich zu\l"
 	.string "winden, wenn man ihn anspricht.\p"
-	.string "Es heißt außerdem, dass er rasend\l"
+	.string "Es heißt außerdem, dass er rasend\n"
 	.string "wurde, als ihn jemand mit Wasser aus\l"
 	.string "seiner Schiggykanne begossen hat.$"
 #else

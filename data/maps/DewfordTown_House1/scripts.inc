@@ -23,7 +23,7 @@ DewfordTown_House1_Text_LotToBeSaidForLivingOnIsland:
 #if GERMAN
 	.string "Über das harmonische Leben mit den\n"
 	.string "Pokémon und der Familie auf diesem\l"
-	.string "kleinen Eiland ließe sich viel\n"
+	.string "kleinen Eiland ließe sich viel\l"
 	.string "erzählen.$"
 #else
 	.string "There's a lot to be said for living on\n"
@@ -38,7 +38,7 @@ DewfordTown_House1_Text_LifeGoesSlowlyOnIsland:
 	.string "Graphitport City.\p"
 	.string "Hier auf der Insel verläuft das Leben\n"
 	.string "geruhsamer. Vom wunderbaren Meer um-\l"
-	.string "geben - das ist die pure\n"
+	.string "geben - das ist die pure\l"
 	.string "Glückseligkeit!$"
 #else
 	.string "I left the major port of SLATEPORT\n"

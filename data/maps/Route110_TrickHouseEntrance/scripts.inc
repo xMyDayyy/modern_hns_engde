@@ -880,7 +880,7 @@ Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
 	.string "Ich bin gerade dabei, mir neue Tricks\n"
 	.string "und Herausforderungen auszudenken!\p"
 	.string "Es ist doch nicht zu viel verlangt,\n"
-	.string "mir\n"
+	.string "mir\l"
 	.string "noch etwas Zeit zum Nachdenken zu\l"
 	.string "geben, oder? Das ist mir doch gegönnt,\l"
 	.string "oder? Danke. Komm später wieder!$"

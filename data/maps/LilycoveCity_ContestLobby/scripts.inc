@@ -1010,7 +1010,7 @@ LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 	.string "Ich habe dein Pokémon gezeichnet, zum\n"
 	.string "Andenken an seinen Sieg…\p"
 	.string "Nun, der Auftritt deines Pokémon war\n"
-	.string "so\n"
+	.string "so\l"
 	.string "fantastisch, dass er mich zu einer\l"
 	.string "künstlerischen Hochleistung\l"
 	.string "anspornte. Siehst du?$"
@@ -1026,8 +1026,8 @@ LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 
 LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
 #if GERMAN
-	.string "Was meinst du? Ich bin mit meiner\l"
-	.string "Arbeit\n"
+	.string "Was meinst du? Ich bin mit meiner\n"
+	.string "Arbeit\l"
 	.string "zufrieden, aber gefällt sie auch dir?\p"
 	.string "\p"
 	.string "Eine Arbeit dieses Formats würde sich\n"
@@ -1049,7 +1049,7 @@ LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
 LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum:
 #if GERMAN
 	.string "Nein, wirklich? Dann werde ich das\n"
-	.string "Bild\n"
+	.string "Bild\l"
 	.string "natürlich sofort dort hinbringen.\p"
 	.string "Ich werde ihm einen angemessenen Titel\n"
 	.string "geben.\p"
@@ -1188,7 +1188,7 @@ LilycoveCity_ContestLobby_Text_ToughContestIsExtreme:
 LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
 #if GERMAN
 	.string "Tag für Tag habe ich dieses Pokémon\n"
-	.string "mit\n"
+	.string "mit\l"
 	.string "meiner Liebe und Fürsorge überhäuft.\p"
 	.string "Seine Kondition ist einfach unver-\n"
 	.string "gleichbar. Heute gehört der Sieg uns!$"
@@ -1202,11 +1202,11 @@ LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
 #if GERMAN
 	.string "Ich habe {POKEBLOCK} mit Mama, Papa\n"
-	.string "und\n"
+	.string "und\l"
 	.string "meiner Schwester gemacht. Sie sind\l"
 	.string "sehr gut geworden!\p"
 	.string "Ich glaube, je mehr Leute dir bei der\n"
-	.string "Herstellung von {POKEBLOCK} helfen,\n"
+	.string "Herstellung von {POKEBLOCK} helfen,\l"
 	.string "desto\l"
 	.string "besser ist die Qualität.$"
 #else

@@ -414,7 +414,7 @@ GoldenrodCity_Text_CooltrainerF2:
 	.string "Zurzeit läuft ge-\n"
 	.string "rade eine Werbekampagne.\p"
 	.string "Sie können deinen\n"
-	.string "Com modifizieren, so dass er auch als\n"
+	.string "Com modifizieren, so dass er auch als\l"
 	.string "Radio\p"
 	.string "verwendet werden kann.$"
 #else

@@ -306,7 +306,7 @@ MossdeepCity_Movement_ScottExitEast:
 MossdeepCity_Text_WantKingsRockStevenGaveMe:
 #if GERMAN
 	.string "Ich habe das von Troy bekommen, weiß\n"
-	.string "aber nicht, was ich damit machen soll.\n"
+	.string "aber nicht, was ich damit machen soll.\l"
 	.string "\p"
 	.string "Ich glaube, es heißt King-Stein.\n"
 	.string "Möchtest du das haben?$"
@@ -388,8 +388,8 @@ MossdeepCity_Text_SpaceCenterLaunchingRockets:
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
 #if GERMAN
-	.string "Ich habe von einem Freund, einem\l"
-	.string "Matrosen, gehört, dass Team Aqua sich\n"
+	.string "Ich habe von einem Freund, einem\n"
+	.string "Matrosen, gehört, dass Team Aqua sich\l"
 	.string "\pin Seegrasulb City aufgehalten\p"
 	.string "haben soll.\p"
 	.string "Aber dann ist jemand gekommen und hat\n"
@@ -415,7 +415,7 @@ MossdeepCity_Text_FeelReliefOnLand:
 	.string "Ich bin ein Matrose, daher ist das\n"
 	.string "Meer sehr wichtig für mich.\p"
 	.string "Aber weißt du, was? Wenn ich nach\n"
-	.string "einer\n"
+	.string "einer\l"
 	.string "langen Seefahrt wieder festen Boden\p"
 	.string "unter den Füßen habe, bin ich jedes\n"
 	.string "Mal erleichtert.$"
@@ -480,7 +480,7 @@ MossdeepCity_Text_SpecialSpaceCenterRock:
 	.string "Dieser Felsen hat eine ganz besondere\n"
 	.string "Bedeutung für das Raumfahrtzentrum.\p"
 	.string "Sie haben ihn hier hingesetzt als\n"
-	.string "Glücksbringer für den sicheren Flug\n"
+	.string "Glücksbringer für den sicheren Flug\l"
 	.string "der\l"
 	.string "Raketen.\p"
 	.string "Wenn du dir etwas wünschst, was machst\n"

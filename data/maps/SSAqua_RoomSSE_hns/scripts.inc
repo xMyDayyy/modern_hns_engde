@@ -97,7 +97,7 @@ SSAqua_RoomSSE_Text_CantFindGranddaughter:
 SSAqua_RoomSSE_Text_EntertainedGranddaughter:
 #if GERMAN
 	.string "Oh du bist es, ich\n"
-	.string "hörte, du hast meine Enkelin bei Laune\n"
+	.string "hörte, du hast meine Enkelin bei Laune\l"
 	.string "gehalten.\p"
 	.string "Ich möchte dir dafür danken.$"
 #else

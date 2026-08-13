@@ -521,7 +521,7 @@ OlivineLighthouse_Text_JasmineGetMedicine2:
 	.string "In Anemonia City gibt es eine tolle\n"
 	.string "Apotheke…\p"
 	.string "Aber das ist über das Meer…\n"
-	.string "Und Amphy kann ich nicht allein\n"
+	.string "Und Amphy kann ich nicht allein\l"
 	.string "lassen… \p"
 	.string "…Kannst du bitte Medizin für mich\n"
 	.string "holen? Bitte?$"

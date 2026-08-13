@@ -598,7 +598,7 @@ MossdeepCity_Gym_Text_MauraPostBattle:
 	.string "Eine glänzende Zukunft erwartet die,\n"
 	.string "die fleißig sind.\p"
 	.string "Die, die dem Müßiggang frönen,\n"
-	.string "erwartet am Ende des Weges nur die\n"
+	.string "erwartet am Ende des Weges nur die\l"
 	.string "Verzweiflung. \p"
 	.string "Man erntet das, was man sät.$"
 #else
@@ -700,7 +700,7 @@ MossdeepCity_Gym_Text_KathleenPostBattle:
 MossdeepCity_Gym_Text_CliffordIntro:
 #if GERMAN
 	.string "Ich mag meine beste Zeit gesehen\n"
-	.string "haben, aber ich lasse mich von dir\n"
+	.string "haben, aber ich lasse mich von dir\l"
 	.string "nicht\l"
 	.string "bevormunden.$"
 #else
@@ -973,7 +973,7 @@ MossdeepCity_Gym_Text_TateAndLizaRematchDefeat:
 MossdeepCity_Gym_Text_TateAndLizaPostRematch:
 #if GERMAN
 	.string "Ben: Du magst uns besiegen, aber wir\n"
-	.string "werden nicht am Boden liegen bleiben!\n"
+	.string "werden nicht am Boden liegen bleiben!\l"
 	.string "\p"
 	.string "Svenja: Denn wir beide werden immer\n"
 	.string "füreinander da sein!$"
@@ -994,7 +994,7 @@ MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
 	.string "Ben: Aber…\n"
 	.string "Svenja: Für diesen Kampf hast du…\p"
 	.string "Ben: Nur ein einziges Pokémon dabei!\n"
-	.string "Svenja: Nur ein einziges Pokémon\n"
+	.string "Svenja: Nur ein einziges Pokémon\l"
 	.string "dabei! \p"
 	.string "Ben: Du musst mindestens zwei…\n"
 	.string "Svenja: Pokémon haben.$"

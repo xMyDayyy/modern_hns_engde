@@ -258,10 +258,10 @@ MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
 MeteorFalls_1F_1R_Text_HoldItRightThereMagma:
 #if GERMAN
 	.string "Bleibt sofort stehen, Team Magma!\p"
-	.string "Ihr irrt euch gewaltig, wenn ihr\l"
-	.string "meint,\n"
+	.string "Ihr irrt euch gewaltig, wenn ihr\n"
+	.string "meint,\l"
 	.string "ihr könntet mit der Welt machen, was\p"
-	.string "ihr\l"
+	.string "ihr\n"
 	.string "wollt!$"
 #else
 	.string "Hold it right there, TEAM MAGMA!\p"
@@ -271,7 +271,7 @@ MeteorFalls_1F_1R_Text_HoldItRightThereMagma:
 
 MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
 #if GERMAN
-	.string "Hähähä! Sogar Team Aqua leistet uns\l"
+	.string "Hähähä! Sogar Team Aqua leistet uns\n"
 	.string "Gesellschaft!\p"
 	.string "Aber es ist viel zu anstrengend, sich\n"
 	.string "mit allen auseinander zu setzen…\p"

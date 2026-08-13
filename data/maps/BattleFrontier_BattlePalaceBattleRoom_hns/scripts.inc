@@ -542,7 +542,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven_hns:
 #if GERMAN
 	.string "Und nun…\p"
 	.string "Durch deine vielen Siege in Folge hast\n"
-	.string "du nun die Ehre, gegen unseren\n"
+	.string "du nun die Ehre, gegen unseren\l"
 	.string "Meister,\l"
 	.string "Palastregent, antreten zu dürfen…$"
 #else
@@ -573,7 +573,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser_hns:
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro_hns:
 #if GERMAN
 	.string "Serenus: Mein Leben dreht sich um\n"
-	.string "meine\n"
+	.string "meine\l"
 	.string "Pokémon. Immer und ausschließlich!\p"
 	.string "Unsere Herzen schlagen im gleichen\n"
 	.string "Takt!\p"

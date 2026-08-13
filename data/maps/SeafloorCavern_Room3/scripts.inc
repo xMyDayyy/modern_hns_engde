@@ -70,7 +70,7 @@ SeafloorCavern_Room3_Text_Grunt5Intro:
 	.string "Pokémon.\p"
 	.string "Aber Nervensägen wie du nutzen die\n"
 	.string "Kraft der Pokémon, um selbst an Orten\l"
-	.string "wie diesem allen auf den Keks zu\n"
+	.string "wie diesem allen auf den Keks zu\l"
 	.string "gehen! \p"
 	.string "Das Leben funktioniert nicht so, wie\n"
 	.string "wir uns das vorstellen.$"

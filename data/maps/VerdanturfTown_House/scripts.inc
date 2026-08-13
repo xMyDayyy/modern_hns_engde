@@ -28,7 +28,7 @@ VerdanturfTown_House_Text_DefeatEliteFourInARow:
 	.string "Vier hintereinander besiegen. Das\l"
 	.string "sagen die Regeln.\p"
 	.string "Wenn du gegen einen dieser Trainer\n"
-	.string "verlierst, musst du die\n"
+	.string "verlierst, musst du die\l"
 	.string "Herausforderung\l"
 	.string "von vorne beginnen.$"
 #else

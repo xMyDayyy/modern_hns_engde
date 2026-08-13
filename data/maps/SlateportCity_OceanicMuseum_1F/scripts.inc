@@ -441,7 +441,7 @@ SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay:
 #if GERMAN
 	.string "Dies ist eine Probe vom Meeresboden.\p"
 	.string "“Über viele Jahre haben sich die\n"
-	.string "Spuren\n"
+	.string "Spuren\l"
 	.string "allen Lebens als Sedimente auf dem\l"
 	.string "Grund des Meeres abgelagert.\p"
 	.string "Analysen dieser Proben geben einen\n"
@@ -518,7 +518,7 @@ SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2:
 SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3:
 #if GERMAN
 	.string "“Meereskunde Fakt 3”\n"
-	.string "Was ist größer? Das Meer oder das\n"
+	.string "Was ist größer? Das Meer oder das\l"
 	.string "Land? \p"
 	.string "“Die Erde ist zu 70 % von Wasser\n"
 	.string "bedeckt, der Rest ist Land.\p"
@@ -540,7 +540,7 @@ SlateportCity_OceanicMuseum_1F_Text_FossilDisplay:
 	.string "“Das Erdreich des Meeresbodens wird\n"
 	.string "durch die Gezeiten abgetragen.\p"
 	.string "Die Bewegungen des Wassers zeichnen\n"
-	.string "Rillen und Wellen in den Meeresboden.\n"
+	.string "Rillen und Wellen in den Meeresboden.\l"
 	.string "\p"
 	.string "Wenn der Meeresboden versteinert, wird\n"
 	.string "ein Bodenrelief sichtbar.”$"

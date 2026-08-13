@@ -455,7 +455,7 @@ MtPyre_Summit_Text_Grunt2Intro:
 #if GERMAN
 	.string "Hah! Pech für dich!\p"
 	.string "Wärest du eher hier gewesen, hättest\n"
-	.string "du\n"
+	.string "du\l"
 	.string "nur gegen das weinerliche Team Magma\l"
 	.string "antreten müssen.\p"
 	.string "Aber jetzt muss du gegen unsere Stärke\n"
@@ -563,7 +563,7 @@ MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
 	.string "vielleicht einen Schritt voraus sein,\l"
 	.string "aber wir haben das, was wir wollten.\p"
 	.string "Die rote Kugel vom Pyroberg…\n"
-	.string "Ich, Adrian, halte sie endlich in\n"
+	.string "Ich, Adrian, halte sie endlich in\l"
 	.string "meinen\l"
 	.string "Händen!\p"
 	.string "Hähähä… Nun werden sich unsere\n"
@@ -628,8 +628,8 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
 #if GERMAN
-	.string "Die blaue und die rote Kugel wurden\l"
-	.string "von\n"
+	.string "Die blaue und die rote Kugel wurden\n"
+	.string "von\l"
 	.string "diesen gemeinen Männern fortgenommen…\p"
 	.string "\p"
 	.string "Sie dürfen niemals getrennt werden…\n"
@@ -690,8 +690,8 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 #if GERMAN
 	.string "Die Gestaltung des Landes, des Meeres\n"
 	.string "und des Himmels…\p"
-	.string "Man sagt, dass sich hier die\l"
-	.string "Persönlich-\n"
+	.string "Man sagt, dass sich hier die\n"
+	.string "Persönlich-\l"
 	.string "keiten uralter Pokémon widerspiegeln…\p"
 	.string "\p"
 	.string "So, wie Menschen und Pokémon leben,\n"
@@ -713,7 +713,7 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 MtPyre_Summit_Text_WillYouHearOutMyTale:
 #if GERMAN
 	.string "Am Pyroberg legen wir die Geister der\n"
-	.string "Pokémon, die von uns gegangen sind,\n"
+	.string "Pokémon, die von uns gegangen sind,\l"
 	.string "zur\l"
 	.string "Ruhe…\p"
 	.string "Von hier aus hat man einen Ausblick\n"
@@ -839,7 +839,7 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "lebendigen Grün glänzte, beruhigte die\l"
 	.string "beiden Pokémon.\p"
 	.string "Und als es seine Aufgabe erfüllt\n"
-	.string "hatte,\n"
+	.string "hatte,\l"
 	.string "stieg das Pokémon wieder in das Blau\l"
 	.string "des Himmels hinauf…$"
 #else

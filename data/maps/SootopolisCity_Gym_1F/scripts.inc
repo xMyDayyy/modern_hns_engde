@@ -184,7 +184,7 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 	.string "Arenaleiter Juan in Xeneroville\n"
 	.string "ist der Meister der Wasser-Pokémon.\p"
 	.string "Und auf dem Weg zu ihm wirst du auf\n"
-	.string "gefrorenem Boden ins Rutschen kommen.\n"
+	.string "gefrorenem Boden ins Rutschen kommen.\l"
 	.string "\p"
 	.string "Tut mir Leid, aber mehr kann ich dir\n"
 	.string "dazu auch nicht sagen.\p"
@@ -331,7 +331,7 @@ SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
 #if GERMAN
 	.string "Diese TM enthält Aquawelle.\p"
 	.string "Damit kann das gegnerische Pokémon\n"
-	.string "mit Ultraschallwellen verwirrt werden.\n"
+	.string "mit Ultraschallwellen verwirrt werden.\l"
 	.string "\p"
 	.string "… … … … … …$"
 #else
@@ -437,7 +437,7 @@ SootopolisCity_Gym_1F_Text_JuanRematchDefeat:
 SootopolisCity_Gym_1F_Text_JuanPostRematch:
 #if GERMAN
 	.string "Juan: Wenn ich dich frage, ob du mein\n"
-	.string "Schüler werden willst, wirst du\n"
+	.string "Schüler werden willst, wirst du\l"
 	.string "bestimmt\l"
 	.string "ablehnen.\p"
 	.string "Ich würde dir stattdessen gerne meinen\n"
@@ -466,7 +466,7 @@ SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
 	.string "zu testen.\p"
 	.string "Sicher doch, sicher doch.\p"
 	.string "Es ist mir eine Freude, mit dir immer\n"
-	.string "und immer wieder über das Wasser zu\n"
+	.string "und immer wieder über das Wasser zu\l"
 	.string "gleiten. \p"
 	.string "Aber, nein, nein, nein, nein.\n"
 	.string "Du hast ja nur ein einziges Pokémon.\p"

@@ -578,7 +578,7 @@ MtChimney_Text_MaxieIntro:
 	.string "die Lebewesen das Land, um zu\l"
 	.string "wachsen und zu gedeihen.\p"
 	.string "Daher ist das Land wichtiger als alles\n"
-	.string "andere! Es ist die Wiege allen Lebens.\n"
+	.string "andere! Es ist die Wiege allen Lebens.\l"
 	.string "\p"
 	.string "Daher widmet sich Team Magma der Auf-\n"
 	.string "gabe, die Landmassen zu vergrößern.\p"
@@ -588,8 +588,8 @@ MtChimney_Text_MaxieIntro:
 	.string "im Inneren dieses Berges schläft…\p"
 	.string "Nun, mehr brauchst du nicht zu wissen.\n"
 	.string "\p"
-	.string "Ich kann einem sturen Kind wie dir\l"
-	.string "nicht\n"
+	.string "Ich kann einem sturen Kind wie dir\n"
+	.string "nicht\l"
 	.string "erlauben, sich uns in den Weg zu\p"
 	.string "stellen. \p"
 	.string "Ich werde dir zeigen, was\n"
@@ -637,10 +637,10 @@ MtChimney_Text_MaxieDefeat:
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
 #if GERMAN
 	.string "Marc: Genug.\n"
-	.string "Ich ziehe mich für den Moment zurück.\n"
+	.string "Ich ziehe mich für den Moment zurück.\l"
 	.string "\p"
 	.string "Aber das ist nicht das letzte Mal,\n"
-	.string "dass\n"
+	.string "dass\l"
 	.string "du Team Magma zu Gesicht bekommen\l"
 	.string "hast.\p"
 	.string "Hähähä…\p"
@@ -734,7 +734,7 @@ MtChimney_Text_Grunt2PostBattle:
 MtChimney_Text_Grunt1Intro:
 #if GERMAN
 	.string "Wenn es mehr Land gibt, wäre ich in\n"
-	.string "der\n"
+	.string "der\l"
 	.string "Lage, mir ein eigenes großes Haus zu\l"
 	.string "bauen!\p"
 	.string "Das würde ich dann auf der erstarrten\n"
@@ -893,7 +893,7 @@ MtChimney_Text_ArchieThankYou:
 MtChimney_Text_MagmaOutnumbersUs:
 #if GERMAN
 	.string "Mist… Team Magma ist uns zahlenmäßig\n"
-	.string "überlegen! Wir können es nicht mit\n"
+	.string "überlegen! Wir können es nicht mit\l"
 	.string "ihnen\l"
 	.string "aufnehmen!$"
 #else
@@ -1139,7 +1139,7 @@ MtChimney_Text_SheilaDefeat:
 MtChimney_Text_SheilaPostBattle:
 #if GERMAN
 	.string "Wie ich schon sagte, endlich bin ich\n"
-	.string "am\n"
+	.string "am\l"
 	.string "Schlotberg. Wäre doch blödsinnig, wenn\l"
 	.string "ich nur zum Sightseeing hier wäre…\p"
 	.string "Ich will ein bisschen kämpfen und\n"
@@ -1186,7 +1186,7 @@ MtChimney_Text_ShirleyPostBattle:
 MtChimney_Text_SawyerIntro:
 #if GERMAN
 	.string "Dies ist ein schöner Berg! Hier gibt\n"
-	.string "es\n"
+	.string "es\l"
 	.string "viele interessante Leute, die einem\l"
 	.string "Gesellschaft leisten.$"
 #else
@@ -1242,7 +1242,7 @@ MtChimney_Text_SawyerRematchDefeat:
 MtChimney_Text_SawyerPostRematch:
 #if GERMAN
 	.string "Hier ist es wirklich sehr heiß. Und\n"
-	.string "ich\n"
+	.string "ich\l"
 	.string "bin absolut zu warm angezogen für\l"
 	.string "diese Gegend.$"
 #else

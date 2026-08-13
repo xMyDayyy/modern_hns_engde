@@ -165,7 +165,7 @@ PokemonFanClub_Text_Chairman_MoreTales:
 	.string "wunderbare Geschichten über mich\l"
 	.string "und meine Pokémon zu hören?\p"
 	.string "Nein? Echt nicht? Hm, zu schade…\n"
-	.string "Du bist so ein Langweiler…\n$"
+	.string "Du bist so ein Langweiler…\l$"
 #else
 	.string "Hello, {PLAYER}!\p"
 	.string "Did you come see me about my\n"

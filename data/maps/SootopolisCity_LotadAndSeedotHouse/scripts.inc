@@ -199,7 +199,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
 #if GERMAN
 	.string "Das größte Samurzel aller Zeiten!\n"
-	.string "Der {STR_VAR_3} cm-Gigant von\n"
+	.string "Der {STR_VAR_3} cm-Gigant von\l"
 	.string "{STR_VAR_2}! \p"
 	.string "Ein Samurzel, so groß, wie ein\n"
 	.string "Loturzel gerne sein würde!$"
@@ -305,7 +305,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad:
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
 #if GERMAN
 	.string "Das größte Loturzel aller Zeiten!\n"
-	.string "Der {STR_VAR_3} cm-Koloss von\n"
+	.string "Der {STR_VAR_3} cm-Koloss von\l"
 	.string "{STR_VAR_2}! \p"
 	.string "Ein Loturzel, so groß, wie ein\n"
 	.string "Samurzel gerne sein würde.$"

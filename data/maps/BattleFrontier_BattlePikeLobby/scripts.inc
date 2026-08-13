@@ -418,7 +418,7 @@ BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
 #if GERMAN
 	.string "Bevor du dich der Herausforderung\n"
-	.string "stellst, muss ich dein Spiel\n"
+	.string "stellst, muss ich dein Spiel\l"
 	.string "speichern.\l"
 	.string "Bist du damit einverstanden?$"
 #else

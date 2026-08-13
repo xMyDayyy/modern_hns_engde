@@ -175,7 +175,7 @@ Route34_DayCare_Text_ClerkBefore:
 	.string "Ich bin der Sohn des Pensions-\n"
 	.string "Paars.\p"
 	.string "Ein seltsames Ei wurde bei einem\n"
-	.string "Trainer gefunden, doch er wollte\n"
+	.string "Trainer gefunden, doch er wollte\l"
 	.string "es nicht…\p"
 	.string "Ich könnte es dir geben…\n"
 	.string "Aber wie kann ich wissen, dass du\l"
@@ -211,8 +211,8 @@ Route34_DayCare_Text_Rejection:
 #if GERMAN
 	.string "Hmm, ich glaube, dieses Ei ist\n"
 	.string "nicht für dich.\p"
-	.string "Es wäre unverantwortlich, ein\l"
-	.string "kostbares Ei an jemanden zu\n"
+	.string "Es wäre unverantwortlich, ein\n"
+	.string "kostbares Ei an jemanden zu\l"
 	.string "geben, der sich noch nicht\p"
 	.string "genug mit Baby-Pokémon auskennt!$"
 #else
@@ -604,7 +604,7 @@ Route34_Text_TakeGoodCareOfIt:
 Route34_Text_FriendlyWithOtherTrainersMon:
 #if GERMAN
 	.string "Übrigens, dein {STR_VAR_1} war\n"
-	.string "freundlich zu {STR_VAR_2}s\n"
+	.string "freundlich zu {STR_VAR_2}s\l"
 	.string "{STR_VAR_3}. \p"
 	.string "Ich habe sogar gesehen, wie es\n"
 	.string "Post bekam.$"
@@ -678,8 +678,8 @@ Route34_DayCare_Text_WellRaiseYourMon:
 
 Route34_DayCare_Text_WeCanRaiseOneMore:
 #if GERMAN
-	.string "Wir können zwei deiner Pokémon\l"
-	.string "aufziehen.\n"
+	.string "Wir können zwei deiner Pokémon\n"
+	.string "aufziehen.\l"
 	.string "Möchtest du, dass wir noch eins\p"
 	.string "aufziehen?$"
 #else

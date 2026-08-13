@@ -42,7 +42,7 @@ BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon_hns:
 	.string "Hier war gerade jemand, der hat ein\n"
 	.string "Pokémon gehabt, das ich vorher noch\p"
 	.string "nie gesehen habe. Ich habe auch in der\n"
-	.string "Trainerschule nichts darüber gelernt.\n"
+	.string "Trainerschule nichts darüber gelernt.\l"
 	.string "\p"
 	.string "Wo findet man wohl so ein Pokémon?$"
 #else

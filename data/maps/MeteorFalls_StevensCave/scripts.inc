@@ -40,7 +40,7 @@ MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 	.string "Da hast du bestimmt einen Eindruck\n"
 	.string "davon gewonnen, wie gut ich bin.\p"
 	.string "Okay, {PLAYER}{KUN}, wenn du dich auf\n"
-	.string "eine\n"
+	.string "eine\l"
 	.string "ernsthafte Herausforderung einlässt,\l"
 	.string "sei auf das Schlimmste gefasst!$"
 #else
@@ -60,7 +60,7 @@ MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 MeteorFalls_StevensCave_Text_StevenDefeat:
 #if GERMAN
 	.string "Du…\n"
-	.string "Ich hätte nie gedacht, dass du so\n"
+	.string "Ich hätte nie gedacht, dass du so\l"
 	.string "stark\l"
 	.string "werden würdest…$"
 #else
@@ -71,7 +71,7 @@ MeteorFalls_StevensCave_Text_StevenDefeat:
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 #if GERMAN
 	.string "Troy: Aber, wenn ich es recht bedenke…\n"
-	.string "Damals, als wir uns zum ersten Mal in\n"
+	.string "Damals, als wir uns zum ersten Mal in\l"
 	.string "der \p"
 	.string "Granithöhle von Faustauhaven\n"
 	.string "begegneten, hatte ich schon dieses\l"

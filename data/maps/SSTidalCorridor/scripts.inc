@@ -260,7 +260,7 @@ SSTidalCorridor_Text_ScottBattleFrontierInvite:
 	.string "Herzlichen Glückwunsch, Champ der\n"
 	.string "Pokémon Liga!\p"
 	.string "Jemanden wie dich würde ich gerne ein-\n"
-	.string "laden. Es gibt da einen besonderen\n"
+	.string "laden. Es gibt da einen besonderen\l"
 	.string "Ort… \p"
 	.string "Und zwar…\n"
 	.string "Die Kampfzone!\p"
@@ -269,7 +269,7 @@ SSTidalCorridor_Text_ScottBattleFrontierInvite:
 	.string "Ich habe mich bereits mit dem Kapitän\n"
 	.string "darüber unterhalten.\p"
 	.string "Nächstes Mal, wenn du die Fähre\n"
-	.string "nimmst,\n"
+	.string "nimmst,\l"
 	.string "kannst du zur Kampfzone fahren.\p"
 	.string "Okay, {PLAYER}{KUN}, ich erwarte dich\n"
 	.string "also in\l"
@@ -367,7 +367,7 @@ SSTidalCorridor_Text_WeveArrived:
 SSTidalCorridor_Text_VisitOtherCabins:
 #if GERMAN
 	.string "Schau dir ruhig die anderen Kabinen\n"
-	.string "an.\n"
+	.string "an.\l"
 	.string "Trainer langweilen sich auf der Über-\l"
 	.string "fahrt und werden sicher gerne kämpfen.$"
 #else

@@ -336,7 +336,7 @@ VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves:
 	.string "wird beispielsweise ungern seinen\l"
 	.string "Gegner verletzen wollen.\p"
 	.string "Wenn es sein Potenzial nicht\n"
-	.string "ausschöpfen kann, wird es beim Einsatz\n"
+	.string "ausschöpfen kann, wird es beim Einsatz\l"
 	.string "\p"
 	.string "einer ungeliebten Attacke eventuell\n"
 	.string "versagen.$"
@@ -406,7 +406,7 @@ VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
 	.string "Welche Attacken hast du deinen\n"
 	.string "Pokémon beigebracht?\p"
 	.string "Ich denke, es wäre für dich von\n"
-	.string "Vorteil,\n"
+	.string "Vorteil,\l"
 	.string "wenn sie sich selber heilen und\l"
 	.string "schützen könnten.$"
 #else
@@ -424,7 +424,7 @@ VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
 	.string "In einem Kampfcamp triffst du auf\n"
 	.string "viele starke Trainer.\p"
 	.string "Und dabei ist es völlig unerheblich,\n"
-	.string "welche Regeln hier gelten oder wie\n"
+	.string "welche Regeln hier gelten oder wie\l"
 	.string "hoch\l"
 	.string "der Gewinn ist.\p"
 	.string "{PLAYER}{KUN}, ich erwarte von dir,\n"
@@ -444,7 +444,7 @@ VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
 VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
 #if GERMAN
 	.string "Scott: Ich komme regelmäßig hierher,\n"
-	.string "in\n"
+	.string "in\l"
 	.string "der Hoffnung, starke Trainer in Aktion\l"
 	.string "und in jeder Situation zu erleben.$"
 #else

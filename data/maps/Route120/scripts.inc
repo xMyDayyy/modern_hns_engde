@@ -430,10 +430,10 @@ Route120_Text_StevenUsedDevonScope:
 Route120_Text_StevenGiveDevonScope:
 #if GERMAN
 	.string "Troy: Bemerkenswert… Dein\n"
-	.string "Kampfstil ist wirklich bemerkenswert.\n"
+	.string "Kampfstil ist wirklich bemerkenswert.\l"
 	.string "\p"
 	.string "Deine Pokémon sind offensichtlich sehr\n"
-	.string "gewachsen, seit wir uns das erste Mal\n"
+	.string "gewachsen, seit wir uns das erste Mal\l"
 	.string "in\l"
 	.string "Faustauhaven getroffen haben.\p"
 	.string "Ich möchte dir dieses Devon-Scope\n"

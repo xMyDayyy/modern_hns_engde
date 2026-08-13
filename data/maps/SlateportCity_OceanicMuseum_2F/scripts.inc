@@ -272,8 +272,8 @@ SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
 #if GERMAN
 	.string "Ja? Wenn du Brigg suchst… Der\n"
 	.string "bin ich.\p"
-	.string "Ah! Das müssen die Stücke sein, die\l"
-	.string "ich\n"
+	.string "Ah! Das müssen die Stücke sein, die\n"
+	.string "ich\l"
 	.string "bei Mr. Trumm von Devon bestellt habe.\p"
 	.string "\p"
 	.string "Danke schön! Das ist großartig!\n"
@@ -370,10 +370,10 @@ SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
 #if GERMAN
-	.string "Ich bin gekommen, um zu sehen, warum\l"
-	.string "ihr\n"
+	.string "Ich bin gekommen, um zu sehen, warum\n"
+	.string "ihr\l"
 	.string "so lange braucht. Und was sehe ich?\p"
-	.string "Ihr\l"
+	.string "Ihr\n"
 	.string "Idioten lasst euch von einem kleinen\l"
 	.string "Kind die Suppe versalzen!$"
 #else
@@ -402,10 +402,10 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 	.string "Daher setzt Team Aqua sich für die\n"
 	.string "Ausweitung des Meeres ein.\p"
 	.string "Meinst du nicht auch, dass wir uns\n"
-	.string "eine\n"
+	.string "eine\l"
 	.string "großartige Aufgabe gestellt haben?\p"
 	.string "Mhm…\n"
-	.string "Du bist wahrscheinlich noch zu klein.\n"
+	.string "Du bist wahrscheinlich noch zu klein.\l"
 	.string "\p"
 	.string "Du kannst unsere Ideale einfach noch\n"
 	.string "nicht verstehen.\p"
@@ -461,7 +461,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
 #if GERMAN
 	.string "Kapt. Brigg: Hoppla!\n"
-	.string "Wir dürfen keine Zeit mehr verlieren!\n"
+	.string "Wir dürfen keine Zeit mehr verlieren!\l"
 	.string "\p"
 	.string "Wir müssen so schnell wie möglich zur\n"
 	.string "Expedition zum Meeresgrund\l"
@@ -516,7 +516,7 @@ SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1:
 	.string "“Wasserqualität Beispiel 1”\n"
 	.string "steht auf dem Schild.\p"
 	.string "Das Meer ist grenzübergreifend, aber\n"
-	.string "das Wasser scheint in jeder Region\n"
+	.string "das Wasser scheint in jeder Region\l"
 	.string "eine\l"
 	.string "andere Qualität zu haben.$"
 #else
@@ -549,7 +549,7 @@ SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
 	.string "sehr hoch.\p"
 	.string "In extrem tiefem Wasser kann der\n"
 	.string "Druck zehntausende von Tonnen inner-\l"
-	.string "halb eines kleinen Bereiches\n"
+	.string "halb eines kleinen Bereiches\l"
 	.string "betragen.”$"
 #else
 	.string "A rubber ball is expanding and\n"

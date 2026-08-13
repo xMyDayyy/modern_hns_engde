@@ -27,8 +27,8 @@ SlateportCity_PokemonCenter_1F_EventScript_Woman::
 SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon:
 #if GERMAN
 	.string "Möchtest du einen Tipp?\p"
-	.string "Ich sage dir, es ist wichtig, die\l"
-	.string "unter-\n"
+	.string "Ich sage dir, es ist wichtig, die\n"
+	.string "unter-\l"
 	.string "schiedlichsten Pokémon zu trainieren.\p"
 	.string "\p"
 	.string "Gleichmäßigkeit ist wichtig. Ein\n"

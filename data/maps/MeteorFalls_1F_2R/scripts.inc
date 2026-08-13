@@ -188,7 +188,7 @@ MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
 MeteorFalls_1F_2R_Text_JohnRegister:
 #if GERMAN
 	.string "Urs: Junger Trainer! Wenn du die\n"
-	.string "Chance\n"
+	.string "Chance\l"
 	.string "hast, wirst du wieder gegen uns\l"
 	.string "antreten?$"
 #else
@@ -316,7 +316,7 @@ MeteorFalls_1F_2R_Text_JayPostRematch:
 	.string "Evi: 50 Jahre verheiratet…\n"
 	.string "Vieles ist in dieser Zeit passiert.\p"
 	.string "Ich hoffe, wir werden noch lange\n"
-	.string "unsere\n"
+	.string "unsere\l"
 	.string "Erinnerungen miteinander teilen\l"
 	.string "können.$"
 #else

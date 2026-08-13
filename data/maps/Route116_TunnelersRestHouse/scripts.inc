@@ -32,7 +32,7 @@ Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
 	.string "Der Metaflurtunnel…\p"
 	.string "Zunächst hatten wir ein großes Team,\n"
 	.string "das mit schweren Maschinen durch den\l"
-	.string "Felsen brechen sollte. Dann mussten\n"
+	.string "Felsen brechen sollte. Dann mussten\l"
 	.string "wir\l"
 	.string "die Arbeit stoppen.\p"
 	.string "Es stellte sich heraus, dass sich\n"

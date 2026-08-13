@@ -318,7 +318,7 @@ BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier_hns:
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass_hns:
 #if GERMAN
 	.string "Jeder, der zum ersten Mal hier ist,\n"
-	.string "bekommt einen Kampfzonenpass von uns.\n"
+	.string "bekommt einen Kampfzonenpass von uns.\l"
 	.string "\p"
 	.string "Damit kannst du alle Einrichtungen der\n"
 	.string "Kampfzone besuchen.\p"
@@ -556,7 +556,7 @@ BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo_hns:
 BattleFrontier_ReceptionGate_Text_YourGuideToRules_hns:
 #if GERMAN
 	.string "Ich erkläre dir die Basisregeln, die\n"
-	.string "für\n"
+	.string "für\l"
 	.string "alle Herausforderungen der Kampfzone\l"
 	.string "gelten.$"
 #else
@@ -636,7 +636,7 @@ BattleFrontier_ReceptionGate_Text_MonEntryInfo_hns:
 	.string "Eier und bestimmte Arten von Pokémon\n"
 	.string "sind dennoch nicht zugelassen.\p"
 	.string "Die Anzahl der Pokémon, die du mit in\n"
-	.string "den\n"
+	.string "den\l"
 	.string "Kampf nehmen kannst, variiert von\l"
 	.string "Einrichtung zu Einrichtung.\p"
 	.string "In allen Einrichtungen gilt aber: Zwei\n"
@@ -694,7 +694,7 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo_hns:
 	.string "mehrere Trainer in Folge besiegt\l"
 	.string "werden und manchmal auch bestimmte\p"
 	.string "Herausforderungen mehrmals bestritten\n"
-	.string "werden. Es ist sicherlich nicht\n"
+	.string "werden. Es ist sicherlich nicht\l"
 	.string "einfach,\l"
 	.string "hier zu gewinnen. Daher: Viel Glück!$"
 #else
@@ -713,11 +713,11 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo_hns:
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo_hns:
 #if GERMAN
 	.string "Du hast die Möglichkeit, einen Kampf\n"
-	.string "in\n"
+	.string "in\l"
 	.string "deinen Kampfzonenpass aufnehmen zu\l"
 	.string "lassen.\p"
 	.string "Vielleicht möchtest du einen Kampf,\n"
-	.string "den\n"
+	.string "den\l"
 	.string "du gegen oder mit Freunden geführt\l"
 	.string "hast, dort eintragen lassen.\p"
 	.string "Oder du lässt Kämpfe in der Kampfzone\n"
@@ -725,7 +725,7 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo_hns:
 	.string "Kampfipitis und der Kampfpyramide\l"
 	.string "werden nicht eingetragen.\p"
 	.string "Am Ende eines Kampfes kannst du dich\n"
-	.string "entscheiden, ob du ihn eintragen\n"
+	.string "entscheiden, ob du ihn eintragen\l"
 	.string "lassen\l"
 	.string "möchtest oder nicht.$"
 #else

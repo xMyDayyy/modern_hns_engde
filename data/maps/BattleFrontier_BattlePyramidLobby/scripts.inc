@@ -565,14 +565,14 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
 #if GERMAN
 	.string "In der Kampfforschung musst du die\n"
 	.string "Kampfpyramide erforschen und\l"
-	.string "versuchen, bis nach oben zu gelangen.\n"
+	.string "versuchen, bis nach oben zu gelangen.\l"
 	.string "\p"
 	.string "Kämpfe dich durch sieben Etagen, die\n"
 	.string "wie Irrgärten angelegt sind. Trainer\l"
-	.string "und auch wilde Pokémon warten auf\n"
+	.string "und auch wilde Pokémon warten auf\l"
 	.string "dich. \p"
 	.string "Auf deinem Weg dürfen dich drei\n"
-	.string "Pokémon\n"
+	.string "Pokémon\l"
 	.string "begleiten, von denen keines ein Item\l"
 	.string "halten darf.\p"
 	.string "Für den Aufstieg erhältst du einen\n"
@@ -799,8 +799,8 @@ BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
 #if GERMAN
-	.string "Tut mir Leid, aber in deinem\l"
-	.string "Pyrabeutel\n"
+	.string "Tut mir Leid, aber in deinem\n"
+	.string "Pyrabeutel\l"
 	.string "ist nicht genug Platz für alle Items.\p"
 	.string "\p"
 	.string "Bitte such dir die Items aus, die du\n"
@@ -933,7 +933,7 @@ BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
 #if GERMAN
 	.string "Willkommen…\n"
-	.string "Ich freue mich darauf, dir zu\n"
+	.string "Ich freue mich darauf, dir zu\l"
 	.string "erklären, \p"
 	.string "welche Schwierigkeiten dich in der\n"
 	.string "Kampfpyramide erwarten…$"
@@ -1222,7 +1222,7 @@ BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
 	.string "Wenn du schnell rennst, werden Trainer\n"
 	.string "auf dich aufmerksam und fordern dich\p"
 	.string "heraus. Wenn du ihnen aus dem Weg\n"
-	.string "gehen\n"
+	.string "gehen\l"
 	.string "willst, schau ihnen nicht in die Augen\l"
 	.string "und schleich an ihnen vorbei.$"
 #else
@@ -1238,7 +1238,7 @@ BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems:
 #if GERMAN
 	.string "Aaaaaaaaaaaarghuaaaaaaargh!\p"
 	.string "Ich hatte so viele Items, und nun\n"
-	.string "habe ich alle verloren, weil ich\n"
+	.string "habe ich alle verloren, weil ich\l"
 	.string "verloren\l"
 	.string "habe!\p"
 	.string "Aaaaaaaaaaaarghuaaaaaaargh!$"
@@ -1327,7 +1327,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
 	.string "ändern sich ständig. Jedes Mal, wenn\p"
 	.string "du sie erneut betrittst, sehen sie\n"
 	.string "anders aus.\l"
-	.string "Die Beleuchtung ist spärlich, daher\n"
+	.string "Die Beleuchtung ist spärlich, daher\l"
 	.string "sei \p"
 	.string "vorsichtig. Hast du ein wildes Pkmn\n"
 	.string "oder\l"
@@ -1348,7 +1348,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
 	.string "dir als Beutel.\p"
 	.string "Es gibt zwei verschiedene Pyrabeutel:\n"
 	.string "Einen für das Abenteuer Level 50 und\l"
-	.string "einen für das Abenteuer Offene Kämpfe.\n"
+	.string "einen für das Abenteuer Offene Kämpfe.\l"
 	.string "\p"
 	.string "In ihnen kannst du 10 Items in einer\n"
 	.string "maximalen Anzahl von 99 Stück pro\l"

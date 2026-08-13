@@ -383,7 +383,7 @@ Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
 	.string "zeug zu graben, als so ein Idiot mich\l"
 	.string "verjagt hat!\p"
 	.string "Dieser Tunnel ist voller Pokémon, die\n"
-	.string "sensibel auf Lärm reagieren. Sie\n"
+	.string "sensibel auf Lärm reagieren. Sie\l"
 	.string "können\l"
 	.string "einen Aufruhr veranstalten.\p"
 	.string "Daher arbeiten wir ohne schwere\n"
@@ -460,7 +460,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 Route116_Text_NewBallAvailableAtMart:
 #if GERMAN
 	.string "Unser neuer Pokéball wird im Pkmn-\n"
-	.string "Markt in Metarost City erhältlich\n"
+	.string "Markt in Metarost City erhältlich\l"
 	.string "sein. \p"
 	.string "Bitte, probiere ihn aus!\n"
 	.string "Vielen Dank und Lebewohl.$"
@@ -514,7 +514,7 @@ Route116_Text_MayISeeThoseGlasses:
 
 Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
 #if GERMAN
-	.string "Hmm… Das ist ein Schattenglas.\l"
+	.string "Hmm… Das ist ein Schattenglas.\n"
 	.string "Das habe ich nicht gesucht…\p"
 	.string "Vielleicht ist meine Brille gar nicht\n"
 	.string "hier zu finden…$"
@@ -539,7 +539,7 @@ Route116_Text_CantFindGlassesNotHere:
 
 Route116_Text_NotWhatImLookingFor:
 #if GERMAN
-	.string "Hmm… Das ist ein Schattenglas.\l"
+	.string "Hmm… Das ist ein Schattenglas.\n"
 	.string "Das habe ich nicht gesucht…$"
 #else
 	.string "Hmm…\n"

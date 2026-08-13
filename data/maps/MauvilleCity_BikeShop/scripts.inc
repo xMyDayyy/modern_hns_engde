@@ -193,7 +193,7 @@ MauvilleCity_BikeShop_Text_RydelGreeting:
 MauvilleCity_BikeShop_Text_DidYouComeFromFarAway:
 #if GERMAN
 	.string "Radla: Deine Turbotreter…\n"
-	.string "Die sehen ja wirklich schmuddelig aus…\n"
+	.string "Die sehen ja wirklich schmuddelig aus…\l"
 	.string "\p"
 	.string "Kommst du von weit her?$"
 #else
@@ -222,7 +222,7 @@ MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
 	.string "Meine Güte!\n"
 	.string "Das ist unwahrscheinlich weit weg!\p"
 	.string "Wenn du eines meiner Räder\n"
-	.string "hättest, könntest du leicht überall\n"
+	.string "hättest, könntest du leicht überall\l"
 	.string "hin\l"
 	.string "und den Wind in den Haaren spüren!\p"
 	.string "Ich sag dir was!\n"
@@ -339,7 +339,7 @@ MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
 	.string "Ach so, du hast es in deinem PC\n"
 	.string "gelagert.\p"
 	.string "Nun, hol es heraus, und ich werde es\n"
-	.string "mit\n"
+	.string "mit\l"
 	.string "Freuden gegen ein anderes tauschen!\p"
 	.string "Möge der Wind dir stets im Rücken sein\n"
 	.string "bei deinem Abenteuer!$"
@@ -401,7 +401,7 @@ MauvilleCity_BikeShop_Text_HowToTurnMachBike:
 	.string "nicht schnell gestoppt werden.\p"
 	.string "Das Kurvenfahren ist sehr schwierig.\p"
 	.string "Lasse das + Steuerkreuz kurz los und\n"
-	.string "bremse, bevor du an eine Kurve kommst.\n"
+	.string "bremse, bevor du an eine Kurve kommst.\l"
 	.string "\p"
 	.string "Eine andere Seite lesen?$"
 #else

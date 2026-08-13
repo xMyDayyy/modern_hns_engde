@@ -20,10 +20,10 @@ MagmaHideout_1F_Text_Grunt1Intro:
 #if GERMAN
 	.string "Wenn Team Magma zum Appell antritt,\n"
 	.string "bekommen wir wichtige Aufgaben\l"
-	.string "zugeteilt und zwar in der Reihenfolge,\n"
+	.string "zugeteilt und zwar in der Reihenfolge,\l"
 	.string "\p"
 	.string "in der wir angetreten sind. Daher muss\n"
-	.string "ich hier in der Ecke bleiben. Ich\n"
+	.string "ich hier in der Ecke bleiben. Ich\l"
 	.string "komme\l"
 	.string "nämlich immer zu spät zum Appell.$"
 #else
@@ -59,7 +59,7 @@ MagmaHideout_1F_Text_Grunt2Intro:
 #if GERMAN
 	.string "Unser Boss hat uns gesagt, wir sollen\n"
 	.string "im Schlotberg Grabungen durchführen,\l"
-	.string "daher haben wir gegraben und gegraben…\n"
+	.string "daher haben wir gegraben und gegraben…\l"
 	.string "\p"
 	.string "Und dann haben wir etwas gefunden, was\n"
 	.string "uns den Atem verschlug.\p"

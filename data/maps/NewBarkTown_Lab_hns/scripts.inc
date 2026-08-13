@@ -1030,7 +1030,7 @@ NewBarkTown_Lab_Text_ElmAideHasEgg:
 	.string "Lind: {PLAYER}? Hast du meinen\n"
 	.string "Assistenten getroffen?\p"
 	.string "Er hätte dich mit dem Ei\n"
-	.string "im Pokémon-Center von Viola\n"
+	.string "im Pokémon-Center von Viola\l"
 	.string "City treffen sollen.\p"
 	.string "Du hast ihn wohl knapp verpasst.\p"
 	.string "Versuch es dort noch einmal.$"
@@ -1096,7 +1096,7 @@ NewBarkTown_Lab_Text_ShowTogepi3:
 NewBarkTown_Lab_Text_ElmGiveEverstone1:
 #if GERMAN
 	.string "Danke, {PLAYER}! Du hilfst uns\n"
-	.string "die Geheimnisse der Pokémon\n"
+	.string "die Geheimnisse der Pokémon\l"
 	.string "zu lüften!\p"
 	.string "Nimm dies als Dankeschön.$"
 #else

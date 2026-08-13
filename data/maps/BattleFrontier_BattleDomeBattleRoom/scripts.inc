@@ -986,7 +986,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
 BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
 #if GERMAN
 	.string "Das ist ja ein unglaubliches Ende!\n"
-	.string "Einfach spektakulär! Ein doppelter\n"
+	.string "Einfach spektakulär! Ein doppelter\l"
 	.string "K.O.! \p"
 	.string "In diesem Fall muss der Referee mit\n"
 	.string "seinem Urteil den Sieger bestimmen.\p"
@@ -1182,7 +1182,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
 #if GERMAN
 	.string "Wird dieser Trainer den Erwartungen\n"
-	.string "entsprechen und das Finale erreichen?\n"
+	.string "entsprechen und das Finale erreichen?\l"
 	.string "\p"
 	.string "$"
 #else
@@ -1338,7 +1338,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 	.string "Meine Damen! Meine Herren!\n"
 	.string "Liebe Mädchen, Jungen und Pokémon!\p"
 	.string "Endlich!\n"
-	.string "Endlich ist die Legende zurückgekehrt!\n"
+	.string "Endlich ist die Legende zurückgekehrt!\l"
 	.string "\p"
 	.string "Und der Name dieser Legende?\n"
 	.string "Stadionstar! Unser Stadionstar!\l"
@@ -1392,7 +1392,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
 #if GERMAN
 	.string "Tasso: Du bist einfach fantastisch!\p"
 	.string "Das ist noch nie passiert! Ich habe\n"
-	.string "noch nie verloren, wenn es drauf\n"
+	.string "noch nie verloren, wenn es drauf\l"
 	.string "ankam! \p"
 	.string "Ja, wirklich fantastisch!\n"
 	.string "Gib mir bitte deinen Kampfzonenpass.$"
@@ -1415,8 +1415,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
 #if GERMAN
-	.string "Du bist stark, aber vor allem\l"
-	.string "bestichst\n"
+	.string "Du bist stark, aber vor allem\n"
+	.string "bestichst\l"
 	.string "du durch deinen einzigartigen Charme.\p"
 	.string "\p"
 	.string "Du hast das Potenzial Superstar zu\n"

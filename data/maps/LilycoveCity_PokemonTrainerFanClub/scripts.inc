@@ -745,7 +745,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:
 LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling:
 #if GERMAN
 	.string "Selbst in scheinbar aussichtslosen\n"
-	.string "Situationen gibt dein Vater nicht auf.\n"
+	.string "Situationen gibt dein Vater nicht auf.\l"
 	.string "\p"
 	.string "Ich weiß, dass das stimmt!\p"
 	.string "Und du verhältst dich genauso.\n"
@@ -1020,7 +1020,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation:
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout:
 #if GERMAN
 	.string "Unter den wirklich heißen Trainern\n"
-	.string "hebt sich {STR_VAR_1} besonders\n"
+	.string "hebt sich {STR_VAR_1} besonders\l"
 	.string "hervor. \p"
 	.string "Diese Stärke. Das ist nicht normal.\p"
 	.string "Du kämpfst auch sehr gut, aber du\n"

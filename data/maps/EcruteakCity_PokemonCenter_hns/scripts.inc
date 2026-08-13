@@ -121,7 +121,7 @@ EcruteakCity_PokemonCenter1F_Text_Bill2:
 	.string "Pokécenter in Johto und Kanto.\p"
 	.string "Ich muss schnell zurück nach\n"
 	.string "Dukatia City und meine Leute sehen.\l"
-	.string "Du kannst aber jederzeit vorbeikommen!\n"
+	.string "Du kannst aber jederzeit vorbeikommen!\l"
 	.string "\p"
 	.string "Tschüss!$"
 #else
@@ -183,7 +183,7 @@ EcruteakCity_PokemonCenter1F_Text_GymGuide:
 #if GERMAN
 	.string "Hm, der See des Zorns… das plötzliche\n"
 	.string "Erscheinen des roten Garados…\l"
-	.string "Da ist doch irgendwas im Busch!\n"
+	.string "Da ist doch irgendwas im Busch!\l"
 	.string "$"
 #else
 	.string "LAKE OF RAGE…\p"

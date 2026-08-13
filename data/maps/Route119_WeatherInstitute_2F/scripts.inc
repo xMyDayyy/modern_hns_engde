@@ -298,8 +298,8 @@ Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
 #if GERMAN
 	.string "Ahahahahaha!!!\p"
-	.string "Du willst dich allen Ernstes in die\l"
-	.string "Ange-\n"
+	.string "Du willst dich allen Ernstes in die\n"
+	.string "Ange-\l"
 	.string "legenheiten von Team Aqua einmischen?\p"
 	.string "\p"
 	.string "Dann bist du entweder furchtlos oder\n"
@@ -358,7 +358,7 @@ Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 #if GERMAN
 	.string "Was?!?\n"
-	.string "Dann lasst uns von hier verschwinden!\n"
+	.string "Dann lasst uns von hier verschwinden!\l"
 	.string "\p"
 	.string "Und zwar schnell! Wir müssen so\n"
 	.string "schnell wie möglich zum Pyroberg!\p"
@@ -420,7 +420,7 @@ Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
 #if GERMAN
 	.string "Seit Jahren erforsche ich den Regen,\n"
 	.string "aber zu denken, dass Menschen das\l"
-	.string "Wetter frei bestimmen können, ist\n"
+	.string "Wetter frei bestimmen können, ist\l"
 	.string "dumm.$"
 #else
 	.string "I've been researching rain for many\n"
@@ -450,7 +450,7 @@ Route119_WeatherInstitute_2F_Text_KyogreWeather:
 	.string "Ich zeichne die Klimaveränderungen in\n"
 	.string "der Hoenn-Region auf.\p"
 	.string "Im Moment gibt es starke\n"
-	.string "Niederschläge.\n"
+	.string "Niederschläge.\l"
 	.string "Und zwar… auf der {STR_VAR_1}.\p"
 	.string "Bedeutet das, dass auf der\n"
 	.string "{STR_VAR_1}…$"
@@ -466,7 +466,7 @@ Route119_WeatherInstitute_2F_Text_KyogreWeather:
 Route119_WeatherInstitute_2F_Text_NoAbnormalWeather:
 #if GERMAN
 	.string "Das Wetter hat sich beruhigt. Es gibt\n"
-	.string "keine außergewöhnlichen Vorkommnisse.\n"
+	.string "keine außergewöhnlichen Vorkommnisse.\l"
 	.string "\p"
 	.string "Der gelegentliche Regen ist ein Segen,\n"
 	.string "wirklich.$"

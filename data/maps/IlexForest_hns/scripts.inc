@@ -657,7 +657,7 @@ IlexForest_Text_ApprenticeIntro:
 	.string "fällt, um nach Holzkohle zu\p"
 	.string "suchen, ist abgehauen.\p"
 	.string "Ich traue mich\n"
-	.string "nicht in den Steineichenwald, um nach\n"
+	.string "nicht in den Steineichenwald, um nach\l"
 	.string "ihm zu suchen.\p"
 	.string "Er ist so groß, dunkel und unheimlich…$"
 #else
@@ -790,7 +790,7 @@ IlexForest_Text_ShrineCelebiEvent:
 	.string "Zu Ehren des Patrons…\p"
 	.string "Oh? Was ist das?\p"
 	.string "Ein Loch.\n"
-	.string "Es scheint, der GS-Ball passt hinein.\n"
+	.string "Es scheint, der GS-Ball passt hinein.\l"
 	.string "\p"
 	.string "Willst du den GS-Ball einsetzen?$"
 #else

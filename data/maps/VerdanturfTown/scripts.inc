@@ -104,7 +104,7 @@ VerdanturfTown_Text_AirCleanHere:
 	.string "die Asche vom Vulkan nie hierher\l"
 	.string "geweht wird.\p"
 	.string "Die Luft ist sauber und klar.\n"
-	.string "Hier zu leben, hilft auch den\n"
+	.string "Hier zu leben, hilft auch den\l"
 	.string "schwachen\l"
 	.string "und kränklichen Menschen.$"
 #else
@@ -133,7 +133,7 @@ VerdanturfTown_Text_GuyTryingToBustThroughCave:
 	.string "Siehst du die Höhle neben dem Pkmn-\n"
 	.string "Supermarkt?\p"
 	.string "Da ist ein Typ drin, der die\n"
-	.string "Felsbrocken\n"
+	.string "Felsbrocken\l"
 	.string "sprengen will, damit er auf die andere\l"
 	.string "Seite gehen kann.\p"
 	.string "Wäre das toll, wenn ich auch dort\n"
@@ -152,7 +152,7 @@ VerdanturfTown_Text_GuyTryingToBustThroughCave:
 VerdanturfTown_Text_EasyToGetToRustboroNow:
 #if GERMAN
 	.string "Die Höhle neben dem Pkmn-Supermarkt\n"
-	.string "ist nun ein Tunnel zur anderen Seite.\n"
+	.string "ist nun ein Tunnel zur anderen Seite.\l"
 	.string "\p"
 	.string "Das ist toll! Jetzt kommt man ganz\n"
 	.string "einfach nach Metarost City, um\l"

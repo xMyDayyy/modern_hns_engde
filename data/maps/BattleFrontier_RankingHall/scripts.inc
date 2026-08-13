@@ -105,7 +105,7 @@ BattleFrontier_RankingHall_Text_ExplainRankingHall:
 	.string "Dies ist die Ergebnishalle.\n"
 	.string "Hier sind die Namen der Trainer\p"
 	.string "verewigt, die sich durch ihre\n"
-	.string "Ergebnisse\n"
+	.string "Ergebnisse\l"
 	.string "bei den Kampfzonen-Kämpfen\l"
 	.string "unsterblich gemacht haben.$"
 #else
@@ -153,7 +153,7 @@ BattleFrontier_RankingHall_Text_WowThatsSuper:
 BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName:
 #if GERMAN
 	.string "Wirklich?\n"
-	.string "Wenn du die Namen deiner Freunde hier\n"
+	.string "Wenn du die Namen deiner Freunde hier\l"
 	.string "\p"
 	.string "siehst, strengst du dich bestimmt noch\n"
 	.string "mehr an.$"

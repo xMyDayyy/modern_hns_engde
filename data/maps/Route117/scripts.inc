@@ -232,7 +232,7 @@ Route117_Text_DayCarePokemonHadNewMove:
 Route117_Text_ArentTheseFlowersPretty:
 #if GERMAN
 	.string "Was meinst du?\n"
-	.string "Sind diese Blumen nicht wunderhübsch?\n"
+	.string "Sind diese Blumen nicht wunderhübsch?\l"
 	.string "\p"
 	.string "Ich habe sie alle selber gepflanzt.$"
 #else

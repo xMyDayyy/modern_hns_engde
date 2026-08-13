@@ -14,7 +14,7 @@ Route22_EventScript_Sign::
 Route22_Text_VictoryRoadEntranceSign:
 #if GERMAN
 	.string "Pokémon Liga\n"
-	.string "Eingang Siegesstraße\n"
+	.string "Eingang Siegesstraße\l"
 	.string "$"
 #else
 	.string "POKéMON LEAGUE\p"
@@ -346,7 +346,7 @@ Route22_Text_Giovanni2:
 	.string "Ich konnte das Potenzial meiner vielen\n"
 	.string "Untergebenen nicht voll mobilisieren…\p"
 	.string "Aber irgendwann kommt der Tag, an dem\n"
-	.string "ich Team Rocket zum Comeback\n"
+	.string "ich Team Rocket zum Comeback\l"
 	.string "verhelfe!$"
 #else
 	.string "GIOVANNI: Putting together the\n"

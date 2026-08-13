@@ -1058,8 +1058,8 @@ BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer:
 
 BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons:
 #if GERMAN
-	.string "Dies sind einige Bänder für den\l"
-	.string "erfolg-\n"
+	.string "Dies sind einige Bänder für den\n"
+	.string "erfolg-\l"
 	.string "reichen Kampf gegen 7 Trainer in\p"
 	.string "Folge. \p"
 	.string "{PLAYER} erhält einige Bänder!$"
@@ -1083,7 +1083,7 @@ BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower:
 	.string "Entschuldigung, aber hast du einen\n"
 	.string "Moment Zeit?\p"
 	.string "Kannst du mir beschreiben, wie das\n"
-	.string "ist,\n"
+	.string "ist,\l"
 	.string "wenn man kurz vor einem Kampf im\p"
 	.string "Duellturm steht? Und wie ist das,\n"
 	.string "wenn du einen Kampf gewonnen oder\l"
@@ -1155,7 +1155,7 @@ BattleFrontier_BattleTowerLobby_Text_ThatsHowYouFeel:
 BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded:
 #if GERMAN
 	.string "Die Anzahl der Kämpfe, die man in\n"
-	.string "Folge\n"
+	.string "Folge\l"
 	.string "gewonnen hat, ist hier verzeichnet.\p"
 	.string "Ich darf nicht verlieren, das wäre ja\n"
 	.string "ultrapeinlich!$"
@@ -1171,7 +1171,7 @@ BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins:
 	.string "Sobald du den Duellturm offiziell be-\n"
 	.string "treten hast, kannst du ihn nicht eher\l"
 	.string "verlassen, bis du gegen 7 Trainer\l"
-	.string "entweder verloren oder gewonnen hast.\n"
+	.string "entweder verloren oder gewonnen hast.\l"
 	.string "\p"
 	.string "Überlege also gut, bevor du als\n"
 	.string "Herausforderer antrittst.$"
@@ -1825,7 +1825,7 @@ BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMons:
 BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode:
 #if GERMAN
 	.string "Bitte wähle zwei andere Pkmn aus,\n"
-	.string "damit\n"
+	.string "damit\l"
 	.string "ihr unterschiedliche habt. Wählt eine\l"
 	.string "Kategorie und meldet euch erneut an.$"
 #else
@@ -1910,7 +1910,7 @@ BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules:
 BattleFrontier_BattleTowerLobby_Text_ExplainMonRules:
 #if GERMAN
 	.string "Je nach Kampfraum darfst du nur eine\n"
-	.string "bestimmte Anzahl an Pokémon mitnehmen.\n"
+	.string "bestimmte Anzahl an Pokémon mitnehmen.\l"
 	.string "\p"
 	.string "Im Einzelkampf stehen dir drei\n"
 	.string "Pokémon zur Verfügung.\p"

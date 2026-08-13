@@ -110,9 +110,9 @@ MtPyre_6F_Text_CedricDefeat:
 MtPyre_6F_Text_CedricPostBattle:
 #if GERMAN
 	.string "Mein Gefühl sagte mir, dass ein\n"
-	.string "Trainer,\n"
+	.string "Trainer,\l"
 	.string "der sich verlaufen hat, panisch\l"
-	.string "reagiert und leichter zu besiegen ist.\n"
+	.string "reagiert und leichter zu besiegen ist.\l"
 	.string "\p"
 	.string "Das war ein schmutziger Versuch…$"
 #else

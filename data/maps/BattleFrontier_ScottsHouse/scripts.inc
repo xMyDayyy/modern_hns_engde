@@ -214,7 +214,7 @@ BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier:
 	.string "Scott: Oh, hallo! Herzlich willkommen!\n"
 	.string "Ähähä… Bitte entschuldige die Enge.\p"
 	.string "Nun, {PLAYER}{KUN}, ich darf dich\n"
-	.string "herzlich\n"
+	.string "herzlich\l"
 	.string "hier in der Kampfzone begrüßen.\p"
 	.string "Hier sind meine Träume wahr geworden.\n"
 	.string "Jahre um Jahre anstrengender Arbeit,\l"
@@ -237,9 +237,9 @@ BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal:
 	.string "mich auf die Suche nach starken\l"
 	.string "Trainern gemacht.\p"
 	.string "Niemand kann sich vorstellen, wie viel\n"
-	.string "Zeit und wie viel Anstrengungen es\n"
+	.string "Zeit und wie viel Anstrengungen es\l"
 	.string "mich\l"
-	.string "gekostet hat, dies hier zu\n"
+	.string "gekostet hat, dies hier zu\l"
 	.string "realisieren.$"
 #else
 	.string "On reflection, it was a terribly long\n"
@@ -310,7 +310,7 @@ BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
 BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
 #if GERMAN
 	.string "Scott: Jeder Trainer ist ein\n"
-	.string "Individuum. Sie leben alle ihr Leben.\n"
+	.string "Individuum. Sie leben alle ihr Leben.\l"
 	.string "\p"
 	.string "Aber in Kämpfen ist es völlig egal,\n"
 	.string "wer oder was sie sind.\p"
@@ -389,7 +389,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
 	.string "Du bist stark, genau, wie ich es\l"
 	.string "erwartet hatte!\p"
 	.string "Normalerweise mache ich so etwas\n"
-	.string "nicht,\n"
+	.string "nicht,\l"
 	.string "aber dies hier ist eine besondere\l"
 	.string "Situation.\p"
 	.string "Ich möchte dir dies hier schenken!\n"
@@ -421,7 +421,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
 	.string "Du hast ja alle goldenen Symbole\l"
 	.string "zusammen!!!\p"
 	.string "Das ist mehr als hervorragend!\n"
-	.string "Du bist einfach unglaublich - ich\n"
+	.string "Du bist einfach unglaublich - ich\l"
 	.string "hatte\l"
 	.string "nichts anderes erwartet!\p"
 	.string "… … … …\n"
@@ -448,8 +448,8 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
 #if GERMAN
-	.string "Ich kann von mir behaupten, einen\l"
-	.string "guten\n"
+	.string "Ich kann von mir behaupten, einen\n"
+	.string "guten\l"
 	.string "Trainer auf Anhieb erkennen zu können.\p"
 	.string "\p"
 	.string "Ich bin froh, dass ich dein Potenzial\n"
@@ -490,7 +490,7 @@ BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow:
 #if GERMAN
 	.string "Scott: Ich habe schon von dir gehört!\n"
 	.string "Wie du den Duellturm bezwungen hast!\l"
-	.string "Du hast 100 Trainer in Folge besiegt!\n"
+	.string "Du hast 100 Trainer in Folge besiegt!\l"
 	.string "\p"
 	.string "Das ist einfach spektakulär!\n"
 	.string "Ich muss dir dies einfach schenken!$"

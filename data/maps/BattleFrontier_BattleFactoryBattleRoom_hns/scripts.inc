@@ -256,10 +256,10 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead_hns:
 	.string "Ich habe mir deine Wechselkampf-Daten\n"
 	.string "angeschaut.\p"
 	.string "Du scheinst schon auf der richtigen\n"
-	.string "Fährte zu sein, stehst dir aber selbst\n"
+	.string "Fährte zu sein, stehst dir aber selbst\l"
 	.string "\p"
-	.string "im Weg. Also hör zu! Wissen bekommt\l"
-	.string "man\n"
+	.string "im Weg. Also hör zu! Wissen bekommt\n"
+	.string "man\l"
 	.string "nicht nur durchs Lesen oder Arbeiten.\p"
 	.string "\p"
 	.string "So etwas… muss nicht immer\n"
@@ -361,7 +361,7 @@ BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn_hns:
 BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass_hns:
 #if GERMAN
 	.string "Kevin: Was war das denn…\n"
-	.string "Du gehörst bereits in eine andere\n"
+	.string "Du gehörst bereits in eine andere\l"
 	.string "Liga. \p"
 	.string "Meine Güte! Wow!\n"
 	.string "Gib mir deinen Kampfzonenpass!$"

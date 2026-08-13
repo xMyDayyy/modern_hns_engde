@@ -227,7 +227,7 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "die Krise dort beendet hast!\p"
 	.string "Hups!\p"
 	.string "Es wäre aber nicht fair zu behaupten,\n"
-	.string "du hättest allein für Ordnung gesorgt.\n"
+	.string "du hättest allein für Ordnung gesorgt.\l"
 	.string "\p"
 	.string "Du hast die Situation gemeistert, weil\n"
 	.string "du mit deinen Pokémon\l"
@@ -332,7 +332,7 @@ EverGrandeCity_ChampionsRoom_Text_MayAdvice:
 EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
 #if GERMAN
 	.string "Maike: Wie? Waswaswas?\p"
-	.string "{PLAYER}{KUN}… Das kann nicht sein…\l"
+	.string "{PLAYER}{KUN}… Das kann nicht sein…\n"
 	.string "Es ist schon vorbei?$"
 #else
 	.string "MAY: Huh?\n"

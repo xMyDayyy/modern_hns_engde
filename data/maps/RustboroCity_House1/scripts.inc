@@ -67,10 +67,10 @@ RustboroCity_House1_Text_DoesntLookLikeMonToMe:
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
 #if GERMAN
-	.string "Du willst nicht tauschen? Kein\l"
-	.string "Problem.\n"
+	.string "Du willst nicht tauschen? Kein\n"
+	.string "Problem.\l"
 	.string "Aber mein Pokémon ist wirklich\p"
-	.string "niedlich,\l"
+	.string "niedlich,\n"
 	.string "das weißt du schon?!?$"
 #else
 	.string "Oh, if you don't want to, that's okay.\n"

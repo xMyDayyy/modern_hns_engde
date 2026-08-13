@@ -27,7 +27,7 @@ VerdanturfTown_PokemonCenter_1F_EventScript_ExpertM::
 VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
 #if GERMAN
 	.string "Du kannst dich nicht Trainer nennen,\n"
-	.string "wenn du nicht an deine Pokémon\n"
+	.string "wenn du nicht an deine Pokémon\l"
 	.string "glaubst! \p"
 	.string "Nur diejenigen, die an ihre Pokémon\n"
 	.string "glauben, werden am Ende siegen.$"

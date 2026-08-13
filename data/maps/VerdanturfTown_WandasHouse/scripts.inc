@@ -85,10 +85,10 @@ VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande::
 VerdanturfTown_WandasHouse_Text_StrongerSpeech:
 #if GERMAN
 	.string "Heiko: Ich habe gegen dich verloren,\n"
-	.string "{PLAYER}. Aber das betrübt mich nicht.\n"
+	.string "{PLAYER}. Aber das betrübt mich nicht.\l"
 	.string "\p"
 	.string "Ich habe ein neues Ziel in meinem\n"
-	.string "Leben.\n"
+	.string "Leben.\l"
 	.string "Zusammen mit meinem Trasla mache\p"
 	.string "ich mich auf, die Arenen herauszu-\n"
 	.string "fordern und ein großer Trainer zu\l"
@@ -113,7 +113,7 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeech:
 VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
 #if GERMAN
 	.string "Heiko: Behalte mich ruhig im Auge,\n"
-	.string "{PLAYER}. Bald bin ich stärker als du!\n"
+	.string "{PLAYER}. Bald bin ich stärker als du!\l"
 	.string "\p"
 	.string "Und dann werde ich dich zu einem neuen\n"
 	.string "Kampf herausfordern.$"

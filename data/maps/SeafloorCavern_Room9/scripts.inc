@@ -238,7 +238,7 @@ SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
 #if GERMAN
 	.string "Adrian: Schau nur, schau nur!\p"
 	.string "Schau, wie schön die schlafende\n"
-	.string "Gestalt\n"
+	.string "Gestalt\l"
 	.string "des antiken Pokémon Kyogre ist!\p"
 	.string "Ich habe so lange auf diesen Tag\n"
 	.string "gewartet…$"
@@ -280,7 +280,7 @@ SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
 	.string "Ich empfehle mich. Ich muss sagen, du\n"
 	.string "bist wirklich sehr talentiert.\p"
 	.string "Aber!\n"
-	.string "Ich habe dieses hier in meinem Besitz!\n"
+	.string "Ich habe dieses hier in meinem Besitz!\l"
 	.string "\p"
 	.string "Mit dieser roten Kugel kann ich\n"
 	.string "Kyogre…$"
@@ -397,7 +397,7 @@ SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
 #if GERMAN
 	.string "Adrian: Was?!?\n"
-	.string "Behandle mich nicht so von oben herab!\n"
+	.string "Behandle mich nicht so von oben herab!\l"
 	.string "\p"
 	.string "Wart ihr es nicht, Team Magma, die\n"
 	.string "Groudon erzürnt habt?\p"

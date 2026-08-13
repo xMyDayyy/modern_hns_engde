@@ -321,7 +321,7 @@ RustboroCity_DevonCorp_2F_Text_IMadePokenav:
 #if GERMAN
 	.string "Ich habe den PokéCom entwickelt!\p"
 	.string "Als Ingenieur erfüllt es mich mit\n"
-	.string "Stolz,\n"
+	.string "Stolz,\l"
 	.string "so etwas Großartiges entwickelt zu\l"
 	.string "haben.$"
 #else
@@ -336,7 +336,7 @@ RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "Das ist ein PokéCom!\p"
 	.string "Er ist das Resultat der Wissbegierde\n"
 	.string "unseres Präsidenten, der etwas über\l"
-	.string "die Gefühle der Pokémon lernen möchte.\n"
+	.string "die Gefühle der Pokémon lernen möchte.\l"
 	.string "\p"
 	.string "Soll ich dir die Funktionen im\n"
 	.string "Einzelnen erklären?\p"
@@ -430,7 +430,7 @@ RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
 #if GERMAN
 	.string "Exzellent!\n"
-	.string "Dann lass uns sofort zur Tat\n"
+	.string "Dann lass uns sofort zur Tat\l"
 	.string "schreiten. \p"
 	.string "{PLAYER} gibt dem Forscher von Devon\n"
 	.string "{STR_VAR_1}.$"
@@ -444,7 +444,7 @@ RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
 #if GERMAN
 	.string "Der Fossil-Regenerator, den ich ent-\n"
-	.string "wickelt habe, ist einfach unglaublich.\n"
+	.string "wickelt habe, ist einfach unglaublich.\l"
 	.string "\p"
 	.string "Aber einen Nachteil gibt es: Es dauert\n"
 	.string "eine Weile, bis der Prozess\l"

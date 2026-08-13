@@ -63,7 +63,7 @@ EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
 	.string "Willkommen. Mein Name ist Frosina\n"
 	.string "von den Top Vier.\p"
 	.string "Ich bin von weit her nach Hoenn\n"
-	.string "gereist, um meine eisigen Talente zu\n"
+	.string "gereist, um meine eisigen Talente zu\l"
 	.string "trainieren. \p"
 	.string "Aber bisher haben mich nur lausige\n"
 	.string "Trainer mit noch lausigeren Pokémon\l"

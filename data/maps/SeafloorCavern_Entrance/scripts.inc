@@ -60,7 +60,7 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
 #if GERMAN
 	.string "Hey! Dein Gesicht kenne ich doch!\p"
 	.string "Du bist hier, und das kann nur\n"
-	.string "bedeuten,\n"
+	.string "bedeuten,\l"
 	.string "dass du dich wieder in unsere\l"
 	.string "Angelegenheiten einmischen willst!\p"
 	.string "Glaubst du wirklich, dass ein Baby wie\n"

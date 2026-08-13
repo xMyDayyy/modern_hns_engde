@@ -107,7 +107,7 @@ RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
 	.string "Hey, diese Turbotreter!\n"
 	.string "Die haben wir auch entwickelt!\p"
 	.string "Ich freue mich immer, wenn ich\n"
-	.string "jemanden\n"
+	.string "jemanden\l"
 	.string "treffe, der eines unserer Produkte\l"
 	.string "benutzt.$"
 #else
@@ -121,7 +121,7 @@ RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
 #if GERMAN
 	.string "Das gestohlene Paket…\p"
 	.string "Nun, es ist natürlich sehr wichtig,\n"
-	.string "aber\n"
+	.string "aber\l"
 	.string "mit dem Inhalt kann niemand etwas\l"
 	.string "anfangen.\p"
 	.string "Meiner Einschätzung nach ist der Dieb\n"

@@ -739,7 +739,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime:
 BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain:
 #if GERMAN
 	.string "Greta: Hey! Wie geht’s?\n"
-	.string "Du hast es doch bis hierher geschafft!\n"
+	.string "Du hast es doch bis hierher geschafft!\l"
 	.string "\p"
 	.string "Ich habe mir schon Sorgen gemacht!\n"
 	.string "Ich hatte mich doch so darauf gefreut,\l"

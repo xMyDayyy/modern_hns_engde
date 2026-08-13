@@ -572,7 +572,7 @@ Route13_TravelToAlola_Text_1:
 Route13_TravelToAlola_Text_2:
 #if GERMAN
 	.string "Ahoi!\n"
-	.string "Komm wieder,\n"
+	.string "Komm wieder,\l"
 	.string "wenn du in See stechen willst.$"
 #else
 	.string "Ahoy!\n"
@@ -592,7 +592,7 @@ Route13_TravelToAlola_Text_3:
 Route13_TravelToAlola_Text_4:
 #if GERMAN
 	.string "Ahoi!\n"
-	.string "Dieser Hafen ist nur für\n"
+	.string "Dieser Hafen ist nur für\l"
 	.string "Einheimische.\p"
 	.string "Alle Bewohner dieser Inseln\n"
 	.string "tragen… {PAUSE 30}seltsame Souvenirs.\p"

@@ -49,7 +49,7 @@ Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
 #if GERMAN
 	.string "Lanette: Oh! {PLAYER}{KUN}!\p"
 	.string "Entschuldige, dass es hier so\n"
-	.string "chaotisch\n"
+	.string "chaotisch\l"
 	.string "aussieht. Immer, wenn ich forsche,\l"
 	.string "vergesse ich aufzuräumen…\p"
 	.string "Das ist echt peinlich… Erzähl das bloß\n"
@@ -155,7 +155,7 @@ Route114_LanettesHouse_Text_EmailFromBill:
 	.string "Es macht mich stolz, dass ich Teil\n"
 	.string "dieser Entwicklung war.\p"
 	.string "Ich hoffe sehr, du setzt deine For-\n"
-	.string "schungen in diesem Bereich weiter\n"
+	.string "schungen in diesem Bereich weiter\l"
 	.string "fort. \p"
 	.string "Bill … … … … … … … …”$"
 #else

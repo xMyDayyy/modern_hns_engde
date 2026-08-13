@@ -69,10 +69,10 @@ PacifidlogTown_House4_Text_YesTown:
 PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere:
 #if GERMAN
 	.string "Nein? Das ergibt doch gar keinen Sinn.\n"
-	.string "Du musst doch von irgendwo herkommen!\n"
+	.string "Du musst doch von irgendwo herkommen!\l"
 	.string "\p"
 	.string "Oh! Warte! Du willst doch nicht etwa\n"
-	.string "be-\n"
+	.string "be-\l"
 	.string "haupten, du wärest in den Tiefen des\l"
 	.string "Meeres geboren???$"
 #else

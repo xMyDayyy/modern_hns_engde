@@ -389,7 +389,7 @@ Route36_Text_SchoolboyAlanAfter:
 Route36_Text_MeetArthur:
 #if GERMAN
 	.string "Donatus: Wer bist du?\n"
-	.string "Ich bin Donatus von der\n"
+	.string "Ich bin Donatus von der\l"
 	.string "Wochentagsfamilie.\p"
 	.string "Wenn du meinen Lieblingstag errätst,\n"
 	.string "gebe ich dir eine Belohnung.$"

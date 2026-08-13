@@ -106,7 +106,7 @@ EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
 	.string "Scott: {PLAYER}{KUN}, du hast dich zur\n"
 	.string "Pokémon Liga durchgebissen.\p"
 	.string "Das freut mich für dich!\n"
-	.string "Meine Anfeuerungen haben sich gelohnt.\n"
+	.string "Meine Anfeuerungen haben sich gelohnt.\l"
 	.string "\p"
 	.string "Und wenn du Champ der Pokémon Liga\n"
 	.string "wirst, {PLAYER}{KUN}…\p"

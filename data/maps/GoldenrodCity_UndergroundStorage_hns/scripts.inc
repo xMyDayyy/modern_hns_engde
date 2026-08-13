@@ -117,7 +117,7 @@ RadioTowerBasement_Text_GruntM15Beaten:
 #if GERMAN
 	.string "Hihihi! Du bist echt gut!\p"
 	.string "Team Rocket war nur ein Job…\n"
-	.string "aber ich sehe, dass es anderen\n"
+	.string "aber ich sehe, dass es anderen\l"
 	.string "wehtut.\p"
 	.string "Na gut, ich höre auf.\p"
 	.string "Danke dir. Sorry, Giovanni!$"

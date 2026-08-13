@@ -591,7 +591,7 @@ BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful_hns:
 BattleFrontier_Lounge7_Text_SoftboiledDesc_hns::
 #if GERMAN
 	.string "Max. KP des Anwen-\n"
-	.string "ders w. zur Hälfte\n"
+	.string "ders w. zur Hälfte\l"
 	.string "aufgefüllt.$"
 #else
 	.string "Recovers up to\n"
@@ -602,7 +602,7 @@ BattleFrontier_Lounge7_Text_SoftboiledDesc_hns::
 BattleFrontier_Lounge7_Text_SeismicTossDesc_hns::
 #if GERMAN
 	.string "Richtet Schaden\n"
-	.string "gemäß Level d.\n"
+	.string "gemäß Level d.\l"
 	.string "Angreifers an.$"
 #else
 	.string "Inflicts damage\n"
@@ -613,7 +613,7 @@ BattleFrontier_Lounge7_Text_SeismicTossDesc_hns::
 BattleFrontier_Lounge7_Text_DreamEaterDesc_hns::
 #if GERMAN
 	.string "Schlafendem Geg.\n"
-	.string "wird halber Scha-\n"
+	.string "wird halber Scha-\l"
 	.string "den abgezogen.$"
 #else
 	.string "Recovers half the\n"
@@ -644,7 +644,7 @@ BattleFrontier_Lounge7_Text_MegaKickDesc_hns::
 BattleFrontier_Lounge7_Text_BodySlamDesc_hns::
 #if GERMAN
 	.string "Körper-Ramme,\n"
-	.string "kann Paralyse\n"
+	.string "kann Paralyse\l"
 	.string "hervorrufen.$"
 #else
 	.string "A full-body slam\n"
@@ -655,7 +655,7 @@ BattleFrontier_Lounge7_Text_BodySlamDesc_hns::
 BattleFrontier_Lounge7_Text_RockSlideDesc_hns::
 #if GERMAN
 	.string "Schleudert\n"
-	.string "Felsen. Ver-\n"
+	.string "Felsen. Ver-\l"
 	.string "schreckt Gegner.$"
 #else
 	.string "Large boulders\n"
@@ -666,7 +666,7 @@ BattleFrontier_Lounge7_Text_RockSlideDesc_hns::
 BattleFrontier_Lounge7_Text_CounterDesc_hns::
 #if GERMAN
 	.string "Kontert phys.\n"
-	.string "Treffer mit\n"
+	.string "Treffer mit\l"
 	.string "doppelter Kraft.$"
 #else
 	.string "Retaliates any\n"
@@ -677,7 +677,7 @@ BattleFrontier_Lounge7_Text_CounterDesc_hns::
 BattleFrontier_Lounge7_Text_ThunderWaveDesc_hns::
 #if GERMAN
 	.string "Ein schwacher\n"
-	.string "Stromstoß, der d.\n"
+	.string "Stromstoß, der d.\l"
 	.string "Gegner paralys.$"
 #else
 	.string "A weak jolt of\n"
@@ -688,7 +688,7 @@ BattleFrontier_Lounge7_Text_ThunderWaveDesc_hns::
 BattleFrontier_Lounge7_Text_SwordsDanceDesc_hns::
 #if GERMAN
 	.string "Erhöht den\n"
-	.string "Angriffs-Wert\n"
+	.string "Angriffs-Wert\l"
 	.string "drastisch.$"
 #else
 	.string "A fighting dance\n"
@@ -699,7 +699,7 @@ BattleFrontier_Lounge7_Text_SwordsDanceDesc_hns::
 BattleFrontier_Lounge7_Text_DefenseCurlDesc_hns::
 #if GERMAN
 	.string "Verbirgt Schwäche\n"
-	.string "durch Einrollen,\n"
+	.string "durch Einrollen,\l"
 	.string "Vert.-Wert hoch.$"
 #else
 	.string "Curls up to con-\n"
@@ -710,7 +710,7 @@ BattleFrontier_Lounge7_Text_DefenseCurlDesc_hns::
 BattleFrontier_Lounge7_Text_SnoreDesc_hns::
 #if GERMAN
 	.string "Laute Attacke.\n"
-	.string "Kann nur im Schlaf\n"
+	.string "Kann nur im Schlaf\l"
 	.string "benutzt werden.$"
 #else
 	.string "A loud attack\n"
@@ -721,7 +721,7 @@ BattleFrontier_Lounge7_Text_SnoreDesc_hns::
 BattleFrontier_Lounge7_Text_MudSlapDesc_hns::
 #if GERMAN
 	.string "Wirft Gegner\n"
-	.string "Matsch i. Gesicht.\n"
+	.string "Matsch i. Gesicht.\l"
 	.string "Genauigkeit sinkt.$"
 #else
 	.string "Hurls mud in the\n"
@@ -732,7 +732,7 @@ BattleFrontier_Lounge7_Text_MudSlapDesc_hns::
 BattleFrontier_Lounge7_Text_SwiftDesc_hns::
 #if GERMAN
 	.string "Verschießt stern-\n"
-	.string "förmige Strahlen.\n"
+	.string "förmige Strahlen.\l"
 	.string "Treffergarantie!$"
 #else
 	.string "Sprays star-\n"
@@ -743,7 +743,7 @@ BattleFrontier_Lounge7_Text_SwiftDesc_hns::
 BattleFrontier_Lounge7_Text_IcyWindDesc_hns::
 #if GERMAN
 	.string "Eis-Attacke, die\n"
-	.string "den INIT.-Wert d.\n"
+	.string "den INIT.-Wert d.\l"
 	.string "Gegners senkt.$"
 #else
 	.string "A chilling attack\n"
@@ -754,7 +754,7 @@ BattleFrontier_Lounge7_Text_IcyWindDesc_hns::
 BattleFrontier_Lounge7_Text_EndureDesc_hns::
 #if GERMAN
 	.string "Hält jed. Attacke\n"
-	.string "1 Runde stand.\n"
+	.string "1 Runde stand.\l"
 	.string "1 KP bleibt stets.$"
 #else
 	.string "Endures any at-\n"
@@ -765,7 +765,7 @@ BattleFrontier_Lounge7_Text_EndureDesc_hns::
 BattleFrontier_Lounge7_Text_PsychUpDesc_hns::
 #if GERMAN
 	.string "Kopiert Effekte d.\n"
-	.string "Gegners u. gibt\n"
+	.string "Gegners u. gibt\l"
 	.string "sie dem Angreifer.$"
 #else
 	.string "Copies the foe's\n"
@@ -776,7 +776,7 @@ BattleFrontier_Lounge7_Text_PsychUpDesc_hns::
 BattleFrontier_Lounge7_Text_IcePunchDesc_hns::
 #if GERMAN
 	.string "Ein Schlag, der\n"
-	.string "den Gegner\n"
+	.string "den Gegner\l"
 	.string "evtl. einfriert.$"
 #else
 	.string "An icy punch\n"
@@ -787,7 +787,7 @@ BattleFrontier_Lounge7_Text_IcePunchDesc_hns::
 BattleFrontier_Lounge7_Text_ThunderPunchDesc_hns::
 #if GERMAN
 	.string "Schlag, der den\n"
-	.string "Gegner evtl.\n"
+	.string "Gegner evtl.\l"
 	.string "paralysiert.$"
 #else
 	.string "An electrified\n"
@@ -798,7 +798,7 @@ BattleFrontier_Lounge7_Text_ThunderPunchDesc_hns::
 BattleFrontier_Lounge7_Text_FirePunchDesc_hns::
 #if GERMAN
 	.string "Schlag, der dem\n"
-	.string "Gegner evtl. Ver-\n"
+	.string "Gegner evtl. Ver-\l"
 	.string "brennung zufügt.$"
 #else
 	.string "A fiery punch\n"
@@ -856,7 +856,7 @@ BattleFrontier_Lounge7_Text_TeachWhichMoveElemental::
 BattleFrontier_Lounge7_Text_StrongElementalMoveDesc::
 #if GERMAN
 	.string "Sehr mächtig, doch\n"
-	.string "der Anwender kann\n"
+	.string "der Anwender kann\l"
 	.string "eine Runde nicht handeln.$"
 #else
 	.string "Powerful, but\n"

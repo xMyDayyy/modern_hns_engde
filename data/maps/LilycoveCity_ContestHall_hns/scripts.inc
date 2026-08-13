@@ -347,7 +347,7 @@ LilycoveCity_ContestHall_Text_EnteredBunchOfContests_hns:
 LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks_hns:
 #if GERMAN
 	.string "Der junge Mann, der vor kurzem hier\n"
-	.string "ge-\n"
+	.string "ge-\l"
 	.string "wonnen hat, hatte viele verschiedene\l"
 	.string "{POKEBLOCK} bei sich.\p"
 	.string "Ob man gewinnt, wenn man genug dieser\n"
@@ -577,8 +577,8 @@ LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe_hns:
 #if GERMAN
 	.string "Dieses hübsche Pokémon sieht genauso\n"
 	.string "aus wie ich, als ich jünger war.\p"
-	.string "Als ich das zu meinem Mann sagte, hat\l"
-	.string "er\n"
+	.string "Als ich das zu meinem Mann sagte, hat\n"
+	.string "er\l"
 	.string "den Kaffee, den er trank, ausgespuckt.\p"
 	.string "\p"
 	.string "Was ist daran so lustig?$"
@@ -593,7 +593,7 @@ LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe_hns:
 LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy_hns:
 #if GERMAN
 	.string "Natürlich, als Frau wäre ich\n"
-	.string "überglück-\n"
+	.string "überglück-\l"
 	.string "lich, wenn ich den Schönheits-\l"
 	.string "wettbewerb gewinnen würde.$"
 #else

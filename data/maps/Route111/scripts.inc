@@ -618,7 +618,7 @@ Route111_Text_VictoriaIntro:
 #if GERMAN
 	.string "Oh, du meine Güte! Bist du jung!\p"
 	.string "Du musst ein sehr guter Trainer sein,\n"
-	.string "wenn du meinen Mann besiegen konntest.\n"
+	.string "wenn du meinen Mann besiegen konntest.\l"
 	.string "\p"
 	.string "Nun bin ich an der Reihe.$"
 #else
@@ -745,7 +745,7 @@ Route111_Text_RouteSignMauville:
 Route111_Text_WinstrateHouseSign:
 #if GERMAN
 	.string "Das Haus der Sihgers\n"
-	.string "“Die Herzen unserer Familie schlagen\n"
+	.string "“Die Herzen unserer Familie schlagen\l"
 	.string "im\l"
 	.string "Einklang!”$"
 #else
@@ -800,7 +800,7 @@ Route111_Text_TrainerTipsSpAtkSpDef:
 Route111_Text_ShouldBeMirageTowerAroundHere:
 #if GERMAN
 	.string "Hier in der Nähe sollte eigentlich ein\n"
-	.string "Turm sein, der ganz aus Sand besteht.\n"
+	.string "Turm sein, der ganz aus Sand besteht.\l"
 	.string "\p"
 	.string "Aber aus irgendeinem Grund ist er\n"
 	.string "nur manchmal sichtbar.\p"
@@ -820,7 +820,7 @@ Route111_Text_MirageTowerClearlyVisible:
 	.string "Der Sandturm, den sie ein Wunder\n"
 	.string "nennen, zeigt sich!\p"
 	.string "Aber er sieht sehr brüchig aus…\n"
-	.string "Er kann jeden Moment zusammenbrechen…\n"
+	.string "Er kann jeden Moment zusammenbrechen…\l"
 	.string "\p"
 	.string "Ich würde gerne mal hineingehen, aber\n"
 	.string "so mutig bin ich dann doch nicht…$"

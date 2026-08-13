@@ -79,7 +79,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
 	.string "Gäste verdoppelt. Indem sie Pokémon\l"
 	.string "als Attraktion präsentieren?\p"
 	.string "Hm, vielleicht sollte ich ein\n"
-	.string "niedliches\n"
+	.string "niedliches\l"
 	.string "Pokémon zum Maskottchen meines\l"
 	.string "Gasthofes machen…\p"
 	.string "Ich frage mich, ob ich so mehr\n"
@@ -96,7 +96,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
 LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua:
 #if GERMAN
 	.string "Oh, tut mir Leid, tut mir Leid!\n"
-	.string "Ich habe so konzentriert ferngesehen!\n"
+	.string "Ich habe so konzentriert ferngesehen!\l"
 	.string "\p"
 	.string "Seit Team Aqua in diesem Ort ist,\n"
 	.string "bleiben die Gäste aus.$"
@@ -175,7 +175,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
 LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
 #if GERMAN
 	.string "Oh, tut mir Leid, tut mir Leid!\n"
-	.string "Ich habe so konzentriert ferngesehen!\n"
+	.string "Ich habe so konzentriert ferngesehen!\l"
 	.string "\p"
 	.string "Oh, ja. Eine große Gruppe von Gästen\n"
 	.string "ist vor kurzem hier eingetroffen.\p"

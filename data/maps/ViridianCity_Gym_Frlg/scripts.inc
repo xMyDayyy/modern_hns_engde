@@ -133,7 +133,7 @@ ViridianCity_Gym_Text_GiovanniDefeat::
 	.string "Der Kampf war hart, aber fair!\l"
 	.string "Du hast gewonnen!\p"
 	.string "Nimm bitte den Erdorden zum\n"
-	.string "Zeichen meiner Anerkennung!\n"
+	.string "Zeichen meiner Anerkennung!\l"
 	.string "{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
 #else
 	.string "Ha!\n"

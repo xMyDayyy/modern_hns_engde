@@ -146,7 +146,7 @@ TrainerHill_Roof_hns_Text_GotHereMarvelouslyQuickly:
 TrainerHill_Roof_hns_Text_YouWerentVeryQuick:
 #if GERMAN
 	.string "Aber oh…\n"
-	.string "Du warst nicht besonders\n"
+	.string "Du warst nicht besonders\l"
 	.string "schnell unterwegs.$"
 #else
 	.string "But, oh…\n"

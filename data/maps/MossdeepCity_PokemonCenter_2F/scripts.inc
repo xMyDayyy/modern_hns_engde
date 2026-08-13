@@ -25,7 +25,7 @@ MossdeepCity_PokemonCenter_2F_EventScript_Woman5::
 MossdeepCity_PokemonCenter_2F_Text_Woman5:
 #if GERMAN
 	.string "Wenn ich eine Menge Kämpfe via Link\n"
-	.string "gewinne und jedem zeige, wie gut ich\n"
+	.string "gewinne und jedem zeige, wie gut ich\l"
 	.string "bin,\l"
 	.string "dann bekomme ich sicher auch Fans!$"
 #else

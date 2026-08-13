@@ -16,7 +16,7 @@ BattleFrontier_Lounge8_EventScript_NinjaBoy_hns::
 BattleFrontier_Lounge8_Text_WhatATrainerNeeds_hns:
 #if GERMAN
 	.string "Was braucht ein Trainer?\p"
-	.string "Kenntnis… Strategie…\l"
+	.string "Kenntnis… Strategie…\n"
 	.string "Ein glückliches Los…\l"
 	.string "Einen groben Überblick…\l"
 	.string "Seele…\l"

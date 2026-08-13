@@ -159,7 +159,7 @@ CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
 CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
 #if GERMAN
 	.string "Wassili: Bitte? Du erinnerst dich\n"
-	.string "nicht? Hmm… Dann haben wir ein\n"
+	.string "nicht? Hmm… Dann haben wir ein\l"
 	.string "Problem… \p"
 	.string "Du erinnerst dich wirklich nicht?$"
 #else

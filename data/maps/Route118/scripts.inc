@@ -335,7 +335,7 @@ Route118_Text_CanCrossRiversWithSurf:
 #if GERMAN
 	.string "Auch wenn gerade kein Schiff in der\n"
 	.string "Nähe ist, kannst du mit einem Pokémon,\l"
-	.string "das Surfer kennt, das Meer überqueren.\n"
+	.string "das Surfer kennt, das Meer überqueren.\l"
 	.string "\p"
 	.string "Auf Pokémon kann man sich immer\n"
 	.string "verlassen!$"

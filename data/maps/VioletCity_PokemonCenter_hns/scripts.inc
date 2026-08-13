@@ -195,8 +195,8 @@ VioletCity_PokeCenter_Text_MobileAdapter:
 #if GERMAN
 	.string "Woran denkst du,\n"
 	.string "wenn du versuchst,\p"
-	.string "daran zu denken, nicht daran zu denken,\l"
-	.string "dass du denkst,\n"
+	.string "daran zu denken, nicht daran zu denken,\n"
+	.string "dass du denkst,\l"
 	.string "dass du dumm bist,\p"
 	.string "obwohl du nicht dumm bist?\n"
 	.string "Hähhhh?$"

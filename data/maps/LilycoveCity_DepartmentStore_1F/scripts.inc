@@ -149,9 +149,9 @@ LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore:
 LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings:
 #if GERMAN
 	.string "Immer wenn ich in das Einkaufszentrum\n"
-	.string "gehe, endet das damit, dass ich\n"
+	.string "gehe, endet das damit, dass ich\l"
 	.string "tausend\l"
-	.string "Dinge kaufe, weil es so viel Spaß\n"
+	.string "Dinge kaufe, weil es so viel Spaß\l"
 	.string "macht.$"
 #else
 	.string "Whenever I come to the DEPARTMENT\n"

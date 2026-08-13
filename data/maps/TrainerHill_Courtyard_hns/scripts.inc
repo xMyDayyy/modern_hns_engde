@@ -247,7 +247,7 @@ TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan::
 
 TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan_Text:
 #if GERMAN
-	.string "Hallo! Die Wundertausch-Stationen\l"
+	.string "Hallo! Die Wundertausch-Stationen\n"
 	.string "gibt es jetzt in jedem\l"
 	.string "Pokémon-Center. Viel Spaß!$"
 #else
@@ -260,7 +260,7 @@ TrainerHill_Courtyard_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
 #if GERMAN
 	.string "Willkommen im\n"
 	.string "Tausch-Service.\p"
-	.string "Hier kannst du deine gesammelten\l"
+	.string "Hier kannst du deine gesammelten\n"
 	.string "Gewinnpunkte gegen tolle Preise\l"
 	.string "eintauschen.\p"
 	.string "Bitte wähle einen Preis aus.$"
@@ -318,7 +318,7 @@ TrainerHill_Courtyard_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
 #if GERMAN
 	.string "Hä?\n"
 	.string "Was starrst du denn so?\p"
-	.string "Ich mag es nicht, wenn du mein\l"
+	.string "Ich mag es nicht, wenn du mein\n"
 	.string "Plüschi so anstarrst.\p"
 	.string "Wenn du eins willst, hol dir\n"
 	.string "doch selbst eins!\p"
@@ -335,7 +335,7 @@ TrainerHill_Courtyard_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
 #if GERMAN
 	.string "Wusstest du das?\p"
-	.string "Wenn du in den Kampfanlagen\l"
+	.string "Wenn du in den Kampfanlagen\n"
 	.string "immer bessere Rekorde schaffst,\p"
 	.string "erhältst du nach und nach mehr\n"
 	.string "Gewinnpunkte.$"

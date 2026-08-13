@@ -163,7 +163,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
 	.string "Willkommen im Museum von\n"
 	.string "Seegrasulb City.\p"
 	.string "Bitte nimm dir die Zeit, unsere\n"
-	.string "Sammlung\n"
+	.string "Sammlung\l"
 	.string "wunderbarer Kunstwerke zum Thema\l"
 	.string "Pokémon zu betrachten.$"
 #else
@@ -178,7 +178,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
 	.string "Ich bin der Kurator dieses Museums der\n"
 	.string "schönen Künste.\p"
 	.string "Es freut mich immer wieder, junge\n"
-	.string "Menschen wie dich im Museum zu\n"
+	.string "Menschen wie dich im Museum zu\l"
 	.string "treffen. \p"
 	.string "Hast du dir schon unsere Gemäldesamm-\n"
 	.string "lung angesehen?$"
@@ -438,7 +438,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
 LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
 #if GERMAN
 	.string "Das Kunstmuseum ist zu einem\n"
-	.string "beliebten Ziel für Touristen geworden.\n"
+	.string "beliebten Ziel für Touristen geworden.\l"
 	.string "\p"
 	.string "Das ist großartig für Seegrasulb City.\n"
 	.string "Nein, großartig für die ganze Hoenn-\l"

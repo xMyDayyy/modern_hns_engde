@@ -1042,7 +1042,7 @@ SlateportCity_Text_SlateportWonderfulPlace:
 SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
 #if GERMAN
 	.string "Wenn du Puppen oder Kissen einfach auf\n"
-	.string "den Boden legst, werden sie schmutzig.\n"
+	.string "den Boden legst, werden sie schmutzig.\l"
 	.string "\p"
 	.string "Ich kaufe mir einige Backsteine, auf\n"
 	.string "die ich meine Puppen und Kissen lege.\l"
@@ -1072,7 +1072,7 @@ SlateportCity_Text_BushedHikingFromMauville:
 #if GERMAN
 	.string "Puuuh… Ich bin fix und fertig…\p"
 	.string "Ich komme aus Malvenfroh City. Diese\n"
-	.string "Stadt ist vielleicht groß! Riesengroß!\n"
+	.string "Stadt ist vielleicht groß! Riesengroß!\l"
 	.string "\p"
 	.string "Hätte ich das gewusst, wäre ich mit\n"
 	.string "dem Rad gekommen.$"
@@ -1087,7 +1087,7 @@ SlateportCity_Text_BushedHikingFromMauville:
 SlateportCity_Text_EveryoneCallsHimCaptStern:
 #if GERMAN
 	.string "Der Typ, der das Museum gebaut\n"
-	.string "hat, ist auch der Leiter eines Teams\n"
+	.string "hat, ist auch der Leiter eines Teams\l"
 	.string "zur\l"
 	.string "Erforschung der Tiefsee.\p"
 	.string "Daher nennt ihn jeder Kapt. Brigg.$"
@@ -1186,7 +1186,7 @@ SlateportCity_Text_RemindsMeOfLongLineForGames:
 #if GERMAN
 	.string "Eine lange Schlange, was?\p"
 	.string "Erinnert mich an die Zeiten, als ich\n"
-	.string "Ewigkeiten anstand, um mir die\n"
+	.string "Ewigkeiten anstand, um mir die\l"
 	.string "neuesten\l"
 	.string "brandheißen Spiele zu kaufen…$"
 #else
@@ -1314,7 +1314,7 @@ SlateportCity_Text_GetNameRaterToHelpYou:
 SlateportCity_Text_CantChangeTradeMonName:
 #if GERMAN
 	.string "Erhältst du ein Pokémon durch Tausch,\n"
-	.string "kannst du den Kosenamen nicht ändern.\n"
+	.string "kannst du den Kosenamen nicht ändern.\l"
 	.string "\p"
 	.string "Die Liebe des ursprünglichen Trainers\n"
 	.string "drückt sich in dem Kosenamen aus.$"
@@ -1346,7 +1346,7 @@ SlateportCity_Text_BattleTentBuiltRecently:
 SlateportCity_Text_CaptSternBeingInterviewed:
 #if GERMAN
 	.string "Ich habe gehofft, es wäre ein\n"
-	.string "berühmter\n"
+	.string "berühmter\l"
 	.string "Star. Dann hätte ich mir ein Autogramm\l"
 	.string "geben lassen.\p"
 	.string "Aber wer wird denn da interviewt?\n"
@@ -1444,7 +1444,7 @@ SlateportCity_Text_SternMoveAheadWithExploration:
 SlateportCity_Text_GabbyWonderfulThanksForInterview:
 #if GERMAN
 	.string "Pia: Das ist wunderbar, Kapt. Brigg!\n"
-	.string "Vielen Dank, dass Sie trotz Ihres\n"
+	.string "Vielen Dank, dass Sie trotz Ihres\l"
 	.string "vollen\l"
 	.string "Terminkalenders Zeit für uns gefunden\l"
 	.string "haben!\p"
@@ -1463,7 +1463,7 @@ SlateportCity_Text_SternWhewFirstInterview:
 #if GERMAN
 	.string "Kapt. Brigg: Puuh…\p"
 	.string "Das war das erste Mal, dass ich für\n"
-	.string "eine\n"
+	.string "eine\l"
 	.string "Fernsehsendung interviewt wurde. Ich\l"
 	.string "war vielleicht nervööös!$"
 #else
@@ -1678,7 +1678,7 @@ SlateportCity_Text_ExplainBerries:
 	.string "heilt es sich, indem es Beeren isst.\p"
 	.string "Wusstest du das?\p"
 	.string "Irgendjemand hat dies beobachtet und\n"
-	.string "kam so auf die Idee, aus Beeren\n"
+	.string "kam so auf die Idee, aus Beeren\l"
 	.string "Medizin\l"
 	.string "herzustellen.\p"
 	.string "Und weißt du noch etwas?\p"
@@ -1803,7 +1803,7 @@ SlateportCity_Text_ComeBackToTradeBerryPowder:
 SlateportCity_Text_YouDroveTeamAquaAway:
 #if GERMAN
 	.string "Scott: Wie?\n"
-	.string "Ich bin mir sicher, dich irgendwo\n"
+	.string "Ich bin mir sicher, dich irgendwo\l"
 	.string "schon\l"
 	.string "mal gesehen zu haben.\p"
 	.string "Habe ich mich eigentlich schon\n"
@@ -1876,8 +1876,8 @@ SlateportCity_Text_TakingBattleTentChallenge:
 #if GERMAN
 	.string "Scott: Oh, hey!\n"
 	.string "Wenn das nicht {PLAYER}{KUN} ist!\p"
-	.string "Lass mich raten, {PLAYER}{KUN} - du\l"
-	.string "stellst\n"
+	.string "Lass mich raten, {PLAYER}{KUN} - du\n"
+	.string "stellst\l"
 	.string "dich der Herausforderung im Kampfcamp?\p"
 	.string "\p"
 	.string "Yeah! Eine gute Idee!\n"

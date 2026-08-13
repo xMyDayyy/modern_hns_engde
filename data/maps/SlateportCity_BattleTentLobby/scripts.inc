@@ -275,7 +275,7 @@ SlateportCity_BattleTentLobby_EventScript_ExitRules::
 SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
 #if GERMAN
 	.string "Ich habe keine Pokémon gefunden,\n"
-	.string "die, nun ja, wie für mich gemacht\n"
+	.string "die, nun ja, wie für mich gemacht\l"
 	.string "sind. \p"
 	.string "Und da habe ich mir gedacht, ich\n"
 	.string "beschwer mich, nun ja, bei dem\l"
@@ -298,7 +298,7 @@ SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
 SlateportCity_BattleTentLobby_Text_ExplainTorment:
 #if GERMAN
 	.string "Das ist die TM41, weißt du?\n"
-	.string "Hey, das ist Folterknecht, sag ich\n"
+	.string "Hey, das ist Folterknecht, sag ich\l"
 	.string "dir. \p"
 	.string "Der Gegner wird so daran gehindert,\n"
 	.string "eine Attacke zweimal hintereinander\l"
@@ -317,7 +317,7 @@ SlateportCity_BattleTentLobby_Text_ExplainTorment:
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
 #if GERMAN
 	.string "Ich mag eigentlich keine Käfer-\n"
-	.string "Pokémon, aber vielleicht sollte ich\n"
+	.string "Pokémon, aber vielleicht sollte ich\l"
 	.string "zur\l"
 	.string "Abwechslung doch welche fangen?\p"
 	.string "Wer weiß, vielleicht finde ich sie\n"

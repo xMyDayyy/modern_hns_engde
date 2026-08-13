@@ -1048,10 +1048,10 @@ RustboroCity_Text_WeShortenItToDevon:
 RustboroCity_Text_SneakyLookingManWentAroundCorner:
 #if GERMAN
 	.string "Hm? Ein verschlagen wirkender Mann?\p"
-	.string "Wenn ich so darüber nachdenke, fällt\l"
-	.string "mir\n"
+	.string "Wenn ich so darüber nachdenke, fällt\n"
+	.string "mir\l"
 	.string "ein, dass ich einen zwielichtigen\p"
-	.string "Typen\l"
+	.string "Typen\n"
 	.string "eben hier an der Ecke gesehen habe.$"
 #else
 	.string "Hm? A sneaky-looking man?\p"
@@ -1064,7 +1064,7 @@ RustboroCity_Text_HaveYouChallengedGym:
 	.string "Hast du schon die Herausforderung der\n"
 	.string "Pokémon Arena angenommen?\p"
 	.string "Ich glaube, wenn sie den glänzenden\n"
-	.string "Orden der Arena in der Hand halten,\n"
+	.string "Orden der Arena in der Hand halten,\l"
 	.string "wird\l"
 	.string "den Trainern klar, was von ihnen\l"
 	.string "verlangt wird.$"
@@ -1186,7 +1186,7 @@ RustboroCity_Text_PokemonCanChangeLookFromExp:
 RustboroCity_Text_PokemonChangeShape:
 #if GERMAN
 	.string "Ein Pokémon verändert sein Aussehen?!?\n"
-	.string "Wenn es das tun würde, wäre ich zu\n"
+	.string "Wenn es das tun würde, wäre ich zu\l"
 	.string "Tode\l"
 	.string "erschrocken!$"
 #else
@@ -1327,7 +1327,7 @@ RustboroCity_Text_MayPassedBrineyWantToBattle:
 	.string "Ich glaube, er ist auf dem Weg zu\n"
 	.string "seiner Hütte am Meer.\p"
 	.string "Wie geht es mit deinem Pokédex voran?\n"
-	.string "Meiner sieht schon ganz anständig aus.\n"
+	.string "Meiner sieht schon ganz anständig aus.\l"
 	.string "\p"
 	.string "Daher…\n"
 	.string "Wie wäre es mit einem kleinen Kampf?$"
@@ -1368,7 +1368,7 @@ RustboroCity_Text_MayWantToBattle:
 RustboroCity_Text_MayImNotGoingToLose:
 #if GERMAN
 	.string "Maike: Du bist gerade erst Trainer\n"
-	.string "geworden, {PLAYER}{KUN}. Ich werde\n"
+	.string "geworden, {PLAYER}{KUN}. Ich werde\l"
 	.string "nicht\l"
 	.string "verlieren.$"
 #else
@@ -1406,7 +1406,7 @@ RustboroCity_Text_BrendanHiLetsRegister:
 	.string "Dein PokéCom besitzt die Trainer/Ruf-\n"
 	.string "Funktion! Cool!\p"
 	.string "Wir tragen uns gegenseitig ein, dann\n"
-	.string "können wir jederzeit miteinander\n"
+	.string "können wir jederzeit miteinander\l"
 	.string "reden! \p"
 	.string "… … … … …\n"
 	.string "…$"
@@ -1473,7 +1473,7 @@ RustboroCity_Text_BrendanWantToBattle:
 RustboroCity_Text_BrendanIWontGoEasy:
 #if GERMAN
 	.string "Maike: Ich weiß, du bist gerade erst\n"
-	.string "ein\n"
+	.string "ein\l"
 	.string "Trainer geworden, aber ich werde mich\l"
 	.string "nicht zurückhalten.$"
 #else
@@ -1495,7 +1495,7 @@ RustboroCity_Text_BrendanMrBrineyHint:
 	.string "Den Typ, den ich getroffen habe?\p"
 	.string "Du bist gerade erst hierher gezogen,\n"
 	.string "daher weißt du das vielleicht noch\l"
-	.string "nicht, aber Mr. Brack war mal\n"
+	.string "nicht, aber Mr. Brack war mal\l"
 	.string "Seefahrer.$"
 #else
 	.string "BRENDAN: By the way, you know\n"

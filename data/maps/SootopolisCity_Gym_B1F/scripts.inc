@@ -192,7 +192,7 @@ SootopolisCity_Gym_B1F_Text_BridgetPostBattle:
 #if GERMAN
 	.string "Statt damit zufrieden zu sein, zur\n"
 	.string "besten Arena zu gehören, würde ich\l"
-	.string "gerne auch an anderen Orten\n"
+	.string "gerne auch an anderen Orten\l"
 	.string "trainieren.\l"
 	.string "Aber hier ist es so lustig!$"
 #else
@@ -252,7 +252,7 @@ SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
 SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
 #if GERMAN
 	.string "Es ist offensichtlich: Die Stärke\n"
-	.string "eines\n"
+	.string "eines\l"
 	.string "Trainers hat nichts mit seinem Alter\l"
 	.string "zu tun!$"
 #else

@@ -218,7 +218,7 @@ AquaHideout_B1F_Text_Grunt7Defeat:
 AquaHideout_B1F_Text_Grunt7PostBattle:
 #if GERMAN
 	.string "Hat man eine coole Uniform, sieht man\n"
-	.string "auch noch klasse aus, wenn man\n"
+	.string "auch noch klasse aus, wenn man\l"
 	.string "verliert,\l"
 	.string "findest du nicht?$"
 #else

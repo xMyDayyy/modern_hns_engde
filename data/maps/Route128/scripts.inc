@@ -286,7 +286,7 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe:
 	.string "Ich weiß, ich bin nicht der Richtige,\n"
 	.string "um Adrian zu kritisieren…\p"
 	.string "Aber wie die Dinge jetzt liegen,\n"
-	.string "werden\n"
+	.string "werden\l"
 	.string "wir Menschen wohl nicht in der Lage\l"
 	.string "sein, etwas zu tun.\p"
 	.string "Aber wir dürfen auch nicht einfach\n"
@@ -360,7 +360,7 @@ Route128_Text_StevenWholeWorldWillDrown:
 Route128_Text_StevenImGoingToSootopolis:
 #if GERMAN
 	.string "{PLAYER}{KUN}…\n"
-	.string "Ich weiß nicht, was du vorhast, aber\n"
+	.string "Ich weiß nicht, was du vorhast, aber\l"
 	.string "tue\l"
 	.string "nichts Unüberlegtes.\p"
 	.string "Okay. Ich gehe nach Xeneroville.$"

@@ -291,10 +291,10 @@ DewfordTown_Gym_Text_GymGuideAdvice:
 	.string "Faustauhavens Arenaleiter Kamillo\n"
 	.string "besitzt Kampf-Pokémon.\p"
 	.string "Wenn du dort Normal-Pokémon antreten\n"
-	.string "lässt, sind Probleme vorprogrammiert!\n"
+	.string "lässt, sind Probleme vorprogrammiert!\l"
 	.string "\p"
 	.string "Kampf-Pokémon schlagen die Normalen\n"
-	.string "Pokémon einfach nieder. Pass gut auf!\n"
+	.string "Pokémon einfach nieder. Pass gut auf!\l"
 	.string "\p"
 	.string "Und das Schlimme ist: Die Arena ist\n"
 	.string "dunkel wie die Tiefsee!\p"
@@ -529,7 +529,7 @@ DewfordTown_Gym_Text_BrawlyIntro:
 DewfordTown_Gym_Text_BrawlyDefeat:
 #if GERMAN
 	.string "Huihuihui! Du hast eine größere Welle\n"
-	.string "produziert, als ich dir zugetraut\n"
+	.string "produziert, als ich dir zugetraut\l"
 	.string "hätte. \p"
 	.string "Du hast mich absaufen lassen!\p"
 	.string "Okay, du hast mich erwischt!\n"
@@ -555,7 +555,7 @@ DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 #if GERMAN
 	.string "Dank des Knöchelordens werden dir alle\n"
 	.string "Pokémon bis Level 30 gehorchen, auch\l"
-	.string "die, die du durch Tausch erhalten\n"
+	.string "die, die du durch Tausch erhalten\l"
 	.string "hast. \p"
 	.string "Und du kannst die VM Blitz auch\n"
 	.string "außerhalb eines Kampfes anwenden.\p"

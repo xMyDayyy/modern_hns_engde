@@ -28,7 +28,7 @@ Route7_Text_SaffronGuard_Serious:
 #if GERMAN
 	.string "Ich nehme meinen Posten\n"
 	.string "als Wache ernst.\p"
-	.string "Hey! Du hast einen Pokédex!\l"
+	.string "Hey! Du hast einen Pokédex!\n"
 	.string "Alles klar, du darfst passieren!$"
 #else
 	.string "I take my GUARD job seriously.\p"

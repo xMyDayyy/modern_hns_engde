@@ -380,7 +380,7 @@ LavaridgeTown_Gym_B1F_Text_JaceDefeat:
 LavaridgeTown_Gym_B1F_Text_JacePostBattle:
 #if GERMAN
 	.string "Dein Kampfstil ist feurig, ich denke,\n"
-	.string "du\n"
+	.string "du\l"
 	.string "hast eine gute Chance gegen unsere\l"
 	.string "Arenaleiterin.$"
 #else
@@ -408,7 +408,7 @@ LavaridgeTown_Gym_B1F_Text_JeffDefeat:
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
 #if GERMAN
 	.string "Ach, was soll’s?!? Mir doch egal.\n"
-	.string "Dafür\n"
+	.string "Dafür\l"
 	.string "kann ich barfuß über glühende Kohlen\l"
 	.string "laufen. … Versuch das bloß nicht!$"
 #else
@@ -488,7 +488,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "Ich habe zu sehr versucht, jemand zu\n"
 	.string "sein, der ich gar nicht bin.\p"
 	.string "Ich muss die Dinge auf meine eigene\n"
-	.string "Art\n"
+	.string "Art\l"
 	.string "angehen. Sonst verwirre ich nur meine\l"
 	.string "Pokémon.\p"
 	.string "Danke, dass du mich das gelehrt hast!\n"
@@ -624,7 +624,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
 #if GERMAN
 	.string "Flavia: Ich habe den Kampf zwar\n"
-	.string "verloren, bin aber dennoch zufrieden.\n"
+	.string "verloren, bin aber dennoch zufrieden.\l"
 	.string "\p"
 	.string "Ich habe nicht oft die Gelegenheit,\n"
 	.string "einen so heißen Kampf zu genießen.\p"
@@ -647,7 +647,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
 	.string "Ich liebe Kämpfe.\l"
 	.string "Und… Ich liebe diese Arena!\p"
 	.string "Lass uns einen ultraheißen Kampf\n"
-	.string "austragen! Die Funken sollen fliegen.\n"
+	.string "austragen! Die Funken sollen fliegen.\l"
 	.string "\p"
 	.string "Moment! Warte mal! Du hast ja nur ein\n"
 	.string "Pokémon, das kämpfen kann, dabei!\p"

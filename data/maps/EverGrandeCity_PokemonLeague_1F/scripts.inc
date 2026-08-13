@@ -122,7 +122,7 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
 #if GERMAN
 	.string "Ab hier haben nur die Trainer, die\n"
-	.string "alle\n"
+	.string "alle\l"
 	.string "Orden der Arenen erhalten haben,\l"
 	.string "Zutritt.\p"
 	.string "Trainer, lass uns sicherstellen, dass\n"

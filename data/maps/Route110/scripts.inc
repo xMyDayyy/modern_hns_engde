@@ -779,7 +779,7 @@ Route110_Text_AquaActionsBringSmiles:
 Route110_Text_MayLetsBattle:
 #if GERMAN
 	.string "Maike: Hi, {PLAYER}{KUN}, wir haben\n"
-	.string "uns ja\n"
+	.string "uns ja\l"
 	.string "lange nicht gesehen!\p"
 	.string "Während ich auf der Suche nach\n"
 	.string "weiteren Pokémon war, sind meine\l"
@@ -824,10 +824,10 @@ Route110_Text_MayExplainItemfinder:
 	.string "Item versteckt ist, gibt er ein\l"
 	.string "Geräusch von sich.\p"
 	.string "Bis zum nächsten Mal, {PLAYER}{KUN}.\p"
-	.string "Es hört sich aus meinem Munde zwar\l"
-	.string "blöd\n"
+	.string "Es hört sich aus meinem Munde zwar\n"
+	.string "blöd\l"
 	.string "an, aber bis dahin solltest du viel\p"
-	.string "mehr\l"
+	.string "mehr\n"
 	.string "trainiert haben.$"
 #else
 	.string "MAY: That's an ITEMFINDER.\p"
@@ -990,7 +990,7 @@ Route110_Text_WhichShouldIChoose:
 #if GERMAN
 	.string "Was soll ich tun?\p"
 	.string "Schnurstracks über den Radweg nach\n"
-	.string "Malvenfroh City fahren oder die untere\n"
+	.string "Malvenfroh City fahren oder die untere\l"
 	.string "\p"
 	.string "Straße nehmen und nach Pokémon\n"
 	.string "suchen?$"
@@ -1017,9 +1017,9 @@ Route110_Text_ChallengeReactionBest:
 #if GERMAN
 	.string "Bravo! Eine hervorragende Leistung!\p"
 	.string "Ich glaube, dein Talent zum Radfahren\n"
-	.string "kommt tief aus deinem innersten\n"
+	.string "kommt tief aus deinem innersten\l"
 	.string "Herzen.\l"
-	.string "Du hast mich bis in die Seele\n"
+	.string "Du hast mich bis in die Seele\l"
 	.string "getroffen!$"
 #else
 	.string "Bravo! Splendid showing!\p"
@@ -1113,7 +1113,7 @@ Route110_Text_AcroBikesDoNotQualify:
 #if GERMAN
 	.string "Auf diesem Radweg werden die, die\n"
 	.string "Eilräder fahren, nach ihren Zu-\l"
-	.string "sammenstößen und ihrer Zeit bewertet.\n"
+	.string "sammenstößen und ihrer Zeit bewertet.\l"
 	.string "\p"
 	.string "Kunsträder nehmen nicht am\n"
 	.string "Wettkampf teil. Sie sind zu einfach\l"
@@ -1187,7 +1187,7 @@ Route110_Text_TrainerTipsPrlzSleep:
 #if GERMAN
 	.string "Tipps für Trainer\p"
 	.string "Der Gegner kann paralysiert oder\n"
-	.string "in Schlaf versetzt werden und ist\n"
+	.string "in Schlaf versetzt werden und ist\l"
 	.string "damit\l"
 	.string "wehrlos.\p"
 	.string "Das sind wichtige Techniken in einem\n"
@@ -1214,7 +1214,7 @@ Route110_Text_TrainerTipsRegisterItems:
 Route110_Text_TrickHouseSign:
 #if GERMAN
 	.string "“Drei Schritte {RIGHT_ARROW} und zwei\n"
-	.string "Schritte {UP_ARROW}\n"
+	.string "Schritte {UP_ARROW}\l"
 	.string "und du erreichst das wundersame\l"
 	.string "Rätselhaus.”$"
 #else
@@ -1248,7 +1248,7 @@ Route110_Text_ThereIsNoRecord:
 Route110_Text_ImagineSeeingYouHere:
 #if GERMAN
 	.string "Prof. Birk: Oh, {PLAYER}{KUN}!\n"
-	.string "Ich dachte mir schon, dass ich dich\n"
+	.string "Ich dachte mir schon, dass ich dich\l"
 	.string "hier\l"
 	.string "treffe!\p"
 	.string "Und wo mag {RIVAL} sein?$"

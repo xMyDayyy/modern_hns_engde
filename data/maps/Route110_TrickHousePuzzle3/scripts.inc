@@ -390,7 +390,7 @@ Route110_TrickHousePuzzle3_Text_AlanDefeat:
 Route110_TrickHousePuzzle3_Text_AlanPostBattle:
 #if GERMAN
 	.string "Ich habe absolut keine Ahnung…\n"
-	.string "Wie viele Fallen gibt es in diesem\n"
+	.string "Wie viele Fallen gibt es in diesem\l"
 	.string "Haus? \p"
 	.string "Du kannst mir das bestimmt\n"
 	.string "beantworten!$"

@@ -216,7 +216,7 @@ BattleFrontier_BattlePyramidTop_Movement_CameraPanUp:
 BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo:
 #if GERMAN
 	.string "Es ist wirklich eine Freude, dich hier\n"
-	.string "zu\n"
+	.string "zu\l"
 	.string "sehen! Du hast es bis zum Gipfel der\l"
 	.string "Kampfpyramide geschafft!\p"
 	.string "Über uns befindet sich nur noch die\n"
@@ -279,7 +279,7 @@ BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
 #if GERMAN
 	.string "Junger Forschergeist…\p"
 	.string "Meinst du nicht auch, dass Forschungs-\n"
-	.string "reisen die Krönung der Abenteuer sind?\n"
+	.string "reisen die Krönung der Abenteuer sind?\l"
 	.string "\p"
 	.string "Dein Verstand!\p"
 	.string "Deine Stärke!\p"
@@ -303,12 +303,12 @@ BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
 	.string "großartig! Ja, ja! Bitte?!?\p"
 	.string "Ich heiße Brian!\p"
 	.string "Ich bin der Pyrakönig, was bedeutet,\n"
-	.string "dass ich die Verantwortung hier trage!\n"
+	.string "dass ich die Verantwortung hier trage!\l"
 	.string "\p"
 	.string "Die meisten nennen mich einfach Chef!\n"
 	.string "\p"
 	.string "Du besitzt ein starkes Selbstver-\n"
-	.string "trauen, da du es bis hierher geschafft\n"
+	.string "trauen, da du es bis hierher geschafft\l"
 	.string "\p"
 	.string "hast. Hahaha!\n"
 	.string "Das wird ein Riesenspaß!$"
@@ -449,7 +449,7 @@ BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
 	.string "Oh, ja! Scheinbar muss auch ich noch\n"
 	.string "sehr viel lernen!\p"
 	.string "Ich hoffe, unsere Wege kreuzen sich\n"
-	.string "bald wieder! Bis dahin Leb wohl,\n"
+	.string "bald wieder! Bis dahin Leb wohl,\l"
 	.string "junger\l"
 	.string "Forschergeist!$"
 #else

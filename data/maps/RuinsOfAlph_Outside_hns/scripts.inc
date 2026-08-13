@@ -134,7 +134,7 @@ RuinsOfAlph_Outside_Text_SuperNerdStan_Seen:
 RuinsOfAlph_Outside_Text_SuperNerdStan_Beaten:
 #if GERMAN
     .string "Sorry…\n"
-    .string "Ich bin frustriert über unser\n"
+    .string "Ich bin frustriert über unser\l"
     .string "mangelndes Verständnis…$"
 #else
 	.string "Sorry…\n"

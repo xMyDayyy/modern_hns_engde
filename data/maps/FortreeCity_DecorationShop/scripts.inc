@@ -56,7 +56,7 @@ FortreeCity_DecorationShop_PokemartDecor_Chairs:
 FortreeCity_DecorationShop_Text_MerchandiseSentToPC:
 #if GERMAN
 	.string "Die Artikel, die du hier kaufst,\n"
-	.string "werden\n"
+	.string "werden\l"
 	.string "sofort auf deinen PC gesendet.\p"
 	.string "Das ist großartig! Ich wünschte, ich\n"
 	.string "könnte mich so auch nach Hause\l"

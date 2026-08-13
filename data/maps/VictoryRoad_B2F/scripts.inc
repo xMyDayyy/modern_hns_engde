@@ -54,7 +54,7 @@ VictoryRoad_B2F_Text_VitoDefeat:
 VictoryRoad_B2F_Text_VitoPostBattle:
 #if GERMAN
 	.string "Ich war besser als jeder andere aus\n"
-	.string "meiner Familie. Ich habe nie verloren!\n"
+	.string "meiner Familie. Ich habe nie verloren!\l"
 	.string "\p"
 	.string "Ich habe mein Selbstvertrauen ver-\n"
 	.string "loren. Ich gehe nach Hause…$"
@@ -168,7 +168,7 @@ VictoryRoad_B2F_Text_FelixDefeat:
 VictoryRoad_B2F_Text_FelixPostBattle:
 #if GERMAN
 	.string "Ich kann nicht anders. Hier in der\n"
-	.string "Nähe\n"
+	.string "Nähe\l"
 	.string "der Pokémon Liga bin ich total nervös\l"
 	.string "und angespannt.\p"
 	.string "Ich tue so, als sei ich die Ruhe\n"

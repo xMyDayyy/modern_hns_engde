@@ -320,9 +320,9 @@ MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber:
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
 #if GERMAN
 	.string "Jeder Raketenstart verlangt\n"
-	.string "sorgfältige Vorbereitungen. Die\n"
+	.string "sorgfältige Vorbereitungen. Die\l"
 	.string "Fehler-\l"
-	.string "quote darf nicht einmal 1 % betragen.\n"
+	.string "quote darf nicht einmal 1 % betragen.\l"
 	.string "\p"
 	.string "Selbst wenn 99 % perfekt sind, kann 1\n"
 	.string "% schon für ein Misslingen sorgen.\p"
@@ -424,7 +424,7 @@ MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
 #if GERMAN
 	.string "Ein gigantischer Brocken Metall durch-\n"
-	.string "bricht den Himmel und fliegt ins All…\n"
+	.string "bricht den Himmel und fliegt ins All…\l"
 	.string "\p"
 	.string "Das übersteigt jede Vorstellungskraft.$"
 #else
@@ -436,7 +436,7 @@ MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 #if GERMAN
 	.string "Ein gigantischer Brocken Metall durch-\n"
-	.string "bricht den Himmel und fliegt ins All…\n"
+	.string "bricht den Himmel und fliegt ins All…\l"
 	.string "\p"
 	.string "Aber Team Magma will meinen Traum\n"
 	.string "vernichten!\p"
@@ -582,7 +582,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat:
 MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
 #if GERMAN
 	.string "Bitte, sag unserem Boss, dass ich\n"
-	.string "meinen Posten niemals verlassen habe!\n"
+	.string "meinen Posten niemals verlassen habe!\l"
 	.string "\p"
 	.string "Ich habe ihn bis zum bitteren Ende\n"
 	.string "gehalten…$"
@@ -599,7 +599,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "“An die Belegschaft des\n"
 	.string "Raumfahrtzentrums\p"
 	.string "Wie geht es euch? Wir hoffen, gut.\n"
-	.string "Schon bald werden wir euch einen\n"
+	.string "Schon bald werden wir euch einen\l"
 	.string "Besuch \p"
 	.string "abstatten, um euren Raketentreibstoff\n"
 	.string "zu stehlen.\p"

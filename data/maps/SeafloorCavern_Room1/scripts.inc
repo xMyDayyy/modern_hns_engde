@@ -57,7 +57,7 @@ SeafloorCavern_Room1_Text_Grunt2Defeat:
 SeafloorCavern_Room1_Text_Grunt2PostBattle:
 #if GERMAN
 	.string "Das U-boot, das wir aufgetrieben\n"
-	.string "haben,\n"
+	.string "haben,\l"
 	.string "ist fürchterlich eng. Brutal eng, sage\l"
 	.string "ich. Man stößt sich überall den Kopf.$"
 #else

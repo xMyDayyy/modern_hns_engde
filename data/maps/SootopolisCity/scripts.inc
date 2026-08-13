@@ -1569,7 +1569,7 @@ SootopolisCity_Text_SeeingLegendWithOwnEyes:
 	.string "bekommen haben.\p"
 	.string "Und nun sehe ich genau das passieren.\n"
 	.string "Whoa! \l"
-	.string "Ich hätte nie gedacht, dass ich einmal\n"
+	.string "Ich hätte nie gedacht, dass ich einmal\l"
 	.string "\p"
 	.string "mit meinen eigenen Augen Zeuge eines\n"
 	.string "so bedeutenden Ereignisses werden\l"
@@ -1592,7 +1592,7 @@ SootopolisCity_Text_SawLegendWithOwnEyes:
 	.string "bekommen haben.\p"
 	.string "Und nun sehe ich genau das passieren.\n"
 	.string "Whoa! \l"
-	.string "Ich hätte nie gedacht, dass ich einmal\n"
+	.string "Ich hätte nie gedacht, dass ich einmal\l"
 	.string "\p"
 	.string "mit meinen eigenen Augen Zeuge eines\n"
 	.string "so bedeutenden Ereignisses werden\l"
@@ -1689,7 +1689,7 @@ SootopolisCity_Text_LeadSuperiorTrainerToCave:
 	.string "Ein Trainer, der sich mit den unter-\n"
 	.string "schiedlichsten Pokémon auskennt…\p"
 	.string "Wassili hat mich beauftragt, dass ich,\n"
-	.string "sollte ich so eine Person finden,\n"
+	.string "sollte ich so eine Person finden,\l"
 	.string "diesen\l"
 	.string "Trainer zu dieser Höhle führen soll.$"
 #else
@@ -1855,7 +1855,7 @@ SootopolisCity_Text_AfterAllOurScheming:
 SootopolisCity_Text_KyogreCalmDown:
 #if GERMAN
 	.string "Adrian: Kyogre! Was ist los?!?\n"
-	.string "Schau hierher! Dies ist die rote\n"
+	.string "Schau hierher! Dies ist die rote\l"
 	.string "Kugel!\l"
 	.string "Beruhige dich! Kyogre!\p"
 	.string "… … … … …\n"
@@ -1902,11 +1902,11 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "Diese uralten Pokémon sind aus einem\n"
 	.string "langen Schlaf erwacht…\p"
 	.string "Und nun treffen sie mit ihren un-\n"
-	.string "kontrollierbaren Kräften aufeinander…\n"
+	.string "kontrollierbaren Kräften aufeinander…\l"
 	.string "\p"
 	.string "{PLAYER}{KUN}…\p"
 	.string "Da du hier bist, gehe ich davon aus,\n"
-	.string "dass du bereit bist, uns in dieser\n"
+	.string "dass du bereit bist, uns in dieser\l"
 	.string "Krise\l"
 	.string "zu helfen. \p"
 	.string "Da ist jemand, den möchte ich dir\n"
@@ -2094,7 +2094,7 @@ SootopolisCity_Text_DazzledByMentor:
 #if GERMAN
 	.string "Wassili: Ich bin mir sicher, dass dich\n"
 	.string "der atemberaubend elegante Kampfstil\l"
-	.string "meines Mentors schwindelig machen\n"
+	.string "meines Mentors schwindelig machen\l"
 	.string "wird.$"
 #else
 	.string "WALLACE: I'm sure that you will be\n"

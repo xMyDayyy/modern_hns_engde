@@ -247,8 +247,8 @@ NewMauville_Inside_EventScript_DefeatedVoltorb3::
 
 NewMauville_Inside_Text_GeneratorRadiatingHeat:
 #if GERMAN
-	.string "Der Generator strahlt eine Hitze ab,\l"
-	.string "die\n"
+	.string "Der Generator strahlt eine Hitze ab,\n"
+	.string "die\l"
 	.string "sogar aus der Entfernung zu spüren\p"
 	.string "ist. \p"
 	.string "Man sollte ihn so schnell wie möglich\n"

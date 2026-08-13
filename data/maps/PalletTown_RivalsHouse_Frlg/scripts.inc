@@ -312,7 +312,7 @@ PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
 	.string "{FONT_NORMAL}{STR_VAR_1} sieht zufrieden aus.\p"
 	.string "{FONT_FEMALE}Daisy: Hier bitte. Schon fertig.\n"
 #endif
-	.string "Siehst du? Ist es jetzt nicht\l"
+	.string "Siehst du? Ist es jetzt nicht\n"
 	.string "wunderschön?\p"
 	.string "Es ist so ein süßes Pokémon.$"
 

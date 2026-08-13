@@ -96,7 +96,7 @@ MtPyre_2F_Text_LukeIntro:
 #if GERMAN
 	.string "Leif: Wir machen hier eine Mutprobe.\p"
 	.string "Hähä, wenn ich zeige, wie cool ich\n"
-	.string "bin, wird sie sich sicher in mich\n"
+	.string "bin, wird sie sich sicher in mich\l"
 	.string "verlieben! \p"
 	.string "Besser: Ich werde dich vernichtend\n"
 	.string "schlagen. Dann bin ich echt cool!$"
@@ -117,10 +117,10 @@ MtPyre_2F_Text_LukeDefeat:
 
 MtPyre_2F_Text_LukePostBattle:
 #if GERMAN
-	.string "Leif: Wir haben verloren, aber das\l"
-	.string "macht\n"
+	.string "Leif: Wir haben verloren, aber das\n"
+	.string "macht\l"
 	.string "nichts! Solange ich nur bei ihr bin.\p"
-	.string "Wir\l"
+	.string "Wir\n"
 	.string "werden diese Mutprobe bestehen!$"
 #else
 	.string "LUKE: Well, we lost but that's okay!\n"
@@ -179,7 +179,7 @@ MtPyre_2F_Text_DezPostBattle:
 MtPyre_2F_Text_DezNotEnoughMons:
 #if GERMAN
 	.string "Ina: Wenn du gegen uns antreten\n"
-	.string "willst,\n"
+	.string "willst,\l"
 	.string "solltest du mindestens zwei Pokémon\l"
 	.string "besitzen.\p"
 	.string "Mein Freund ist stark. Daher wirst du\n"

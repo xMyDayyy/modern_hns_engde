@@ -110,7 +110,7 @@ CeladonMansion2F_Text_TixoRebel:
 #if GERMAN
 	.string "Hast du schon von dem Eierbug gehört?\n"
 	.string "Es war ein Fehler aus dem Playtest,\l"
-	.string "der Pokémon zufällig in Eier\n"
+	.string "der Pokémon zufällig in Eier\l"
 	.string "verwandelte!\l"
 	.string "Ich habe die Lösung dafür entwickelt!$"
 #else
@@ -126,7 +126,7 @@ CeladonMansion2F_Text_Phant:
 	.string "Ich liebe Demakes!\p"
 	.string "Hast du Sword And Shield Ultimate Plus\n"
 	.string "gespielt? Ich habe es übersetzt!\l"
-	.string "Für mein nächstes Demake werde ich\n"
+	.string "Für mein nächstes Demake werde ich\l"
 	.string "Alola machen!$"
 #else
 	.string "I love DEMAKES!\p"
@@ -140,7 +140,7 @@ CeladonMansion2F_Text_Phant:
 CeladonMansion2F_Text_Exclsior:
 #if GERMAN
 	.string "Ich habe die einzigartigen Surf-\n"
-	.string "Sprites\n"
+	.string "Sprites\l"
 	.string "für jedes Pokémon implementiert!\p"
 	.string "Da das Projekt Open Source ist,\n"
 	.string "kannst auch du eigene Features\l"
@@ -156,7 +156,7 @@ CeladonMansion2F_Text_DaniRaibow:
 #if GERMAN
 	.string "Hi!\p"
 	.string "Ich bin ziemlich gut darin, Probleme\n"
-	.string "zu finden\n"
+	.string "zu finden\l"
 	.string "und kleine zu beheben.\p"
 	.string "Willst du einen Witz hören?\p"
 	.string "Siegfried versuchte, Dragoran die\n"

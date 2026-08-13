@@ -506,8 +506,8 @@ Route119_Text_MayDefeat:
 
 Route119_Text_MayPresentForYou:
 #if GERMAN
-	.string "Maike: Aber ich hätte mir absolut\l"
-	.string "keine\n"
+	.string "Maike: Aber ich hätte mir absolut\n"
+	.string "keine\l"
 	.string "Sorgen zu machen brauchen! Weiter so!\p"
 	.string "\p"
 	.string "Und hier!\n"
@@ -575,7 +575,7 @@ Route119_Text_BrendanDefeat:
 Route119_Text_BrendanIllGiveYouThis:
 #if GERMAN
 	.string "Maike: Ich sage, du bist so gut, dass\n"
-	.string "du überall nach Pokémon suchen kannst.\n"
+	.string "du überall nach Pokémon suchen kannst.\l"
 	.string "\p"
 	.string "Hier, das ist für dich.\n"
 	.string "Probier es aus.$"
@@ -758,7 +758,7 @@ Route119_Text_TrainerTipsDecoration:
 	.string "Dekorationen und Möbel untergebracht\l"
 	.string "werden.\p"
 	.string "Nimm deine Lieblingsitems und richte\n"
-	.string "dir\n"
+	.string "dir\l"
 	.string "deine Geheimbasis ganz nach deinem\l"
 	.string "Geschmack ein.$"
 #else

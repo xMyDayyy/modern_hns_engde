@@ -412,15 +412,15 @@ LilycoveCity_EventScript_DontKnowAboutBerryBlender::
 LilycoveCity_Text_MayShoppingLetsBattle:
 #if GERMAN
 	.string "Maike: Oh, hey?\n"
-	.string "{PLAYER}{KUN}, bist du auch am\n"
+	.string "{PLAYER}{KUN}, bist du auch am\l"
 	.string "Einkaufen? \p"
 	.string "Ich habe eine Menge Puppen und Poster\n"
 	.string "gekauft.\p"
 	.string "Natürlich habe ich auch Pokémon\n"
 	.string "gefangen und die ziehe ich geradezu\l"
 	.string "vorbildlich auf.\p"
-	.string "Ich habe eher Bedenken, dass du dich\l"
-	.string "um\n"
+	.string "Ich habe eher Bedenken, dass du dich\n"
+	.string "um\l"
 	.string "deine Pokémon nicht richtig kümmerst.\p"
 	.string "\p"
 	.string "Ich werde gegen dich kämpfen, dann\n"
@@ -442,7 +442,7 @@ LilycoveCity_Text_MayShoppingLetsBattle:
 LilycoveCity_Text_MayNotRaisingPokemon:
 #if GERMAN
 	.string "Maike: Oh, hui. Hast du dich denn\n"
-	.string "nicht um deine Pokémon gekümmert,\n"
+	.string "nicht um deine Pokémon gekümmert,\l"
 	.string "{PLAYER}{KUN}? \p"
 	.string "Als Trainer machst du wirklich keinen\n"
 	.string "guten Eindruck!$"
@@ -629,10 +629,10 @@ LilycoveCity_Text_BrendanDefeat:
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
 #if GERMAN
 	.string "Maike: Ich…\n"
-	.string "Ich gehe nach Hause, nach Wurzelheim.\n"
+	.string "Ich gehe nach Hause, nach Wurzelheim.\l"
 	.string "\p"
 	.string "Weißt du, ich helfe meinem Vater bei\n"
-	.string "dem\n"
+	.string "dem\l"
 	.string "Pokédex. Es geht ganz anständig voran\l"
 	.string "und ich sollte ihm das mal zeigen.$"
 #else
@@ -687,7 +687,7 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 	.string "Da du so stark geworden bist, solltest\n"
 	.string "du zur Kampfzone gehen.\p"
 	.string "Häh, wenn ich meine Pokémon besser\n"
-	.string "trainiere, sollte ich eigentlich\n"
+	.string "trainiere, sollte ich eigentlich\l"
 	.string "stärker\l"
 	.string "werden als du…\p"
 	.string "Vielleicht sollte ich zur Kampfzone\n"
@@ -728,7 +728,7 @@ LilycoveCity_Text_ChanceToDoBigThings:
 	.string "Ich bin nur ein Rüpel, ich weiß nicht,\n"
 	.string "was unser Boss so vorhat…\p"
 	.string "Aber als Mitglied von Team Aqua habe\n"
-	.string "ich die Möglichkeit, große Dinge zu\n"
+	.string "ich die Möglichkeit, große Dinge zu\l"
 	.string "tun! \p"
 	.string "Ww…wer bist du denn??? I-Ich… hähähä,\n"
 	.string "habe nur mit mir selber gesprochen!$"
@@ -921,7 +921,7 @@ LilycoveCity_Text_ImArtDealer:
 LilycoveCity_Text_SeaRemainsForeverYoung:
 #if GERMAN
 	.string "Auch wenn ich alt und grau werde, das\n"
-	.string "Meer wird immer jung und voll von\n"
+	.string "Meer wird immer jung und voll von\l"
 	.string "Leben\l"
 	.string "sein…\p"
 	.string "Hahahahaha… Haaahahahaha…$"
@@ -950,7 +950,7 @@ LilycoveCity_Text_TeamAquaRenovatedCavern:
 	.string "Hm, kennst du diese besondere Höhle in\n"
 	.string "der Bucht?\p"
 	.string "Das ist eine natürliche Formation,\n"
-	.string "aber\n"
+	.string "aber\l"
 	.string "Team Aqua kam und hat das Aussehen\l"
 	.string "verändert.\p"
 	.string "Sie nennen sich selber “Naturliebendes\n"
@@ -1126,7 +1126,7 @@ LilycoveCity_Text_ExplainBerryBlender:
 	.string "Damit stellt man eine Leckerei her,\n"
 	.string "die {POKEBLOCK} genannt wird.\p"
 	.string "Wenn du einem Pokémon einen guten\n"
-	.string "{POKEBLOCK} gibst, verbessern sich\n"
+	.string "{POKEBLOCK} gibst, verbessern sich\l"
 	.string "seine\l"
 	.string "Eigenschaften.$"
 #else

@@ -258,7 +258,7 @@ RustboroCity_PokemonSchool_Text_ExplainSleep:
 	.string "nicht mehr angreifen.\p"
 	.string "Das Pokémon wird vielleicht von selber\n"
 	.string "wieder wach, aber wenn der Kampf endet\l"
-	.string "und es noch schläft, schläft es\n"
+	.string "und es noch schläft, schläft es\l"
 	.string "weiter. \p"
 	.string "Wecke es mit Aufwecker auf.$"
 #else
@@ -314,12 +314,12 @@ RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
 #if GERMAN
 	.string "Ein Pokémon, das die Flinkklaue trägt,\n"
-	.string "steigert seine Schnelligkeit und\n"
+	.string "steigert seine Schnelligkeit und\l"
 	.string "greift\l"
-	.string "eventuell schneller an als sein\n"
+	.string "eventuell schneller an als sein\l"
 	.string "Gegner. \p"
-	.string "Es gibt noch viele andere Items, die\l"
-	.string "von\n"
+	.string "Es gibt noch viele andere Items, die\n"
+	.string "von\l"
 	.string "einem Pokémon getragen werden können.\p"
 	.string "\p"
 	.string "Du kannst also noch viel lernen.$"

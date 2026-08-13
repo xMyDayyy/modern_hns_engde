@@ -59,7 +59,7 @@ Route114_FossilManiacsTunnel_Text_LookInDesertForFossils:
 	.string "ein netter Typ, der Fossilien liebt…\p"
 	.string "Möchtest du ein Fossil haben?\p"
 	.string "Die Fossilien in dieser Gegend gehören\n"
-	.string "allerdings alle mir! Keines ist für\n"
+	.string "allerdings alle mir! Keines ist für\l"
 	.string "dich… \p"
 	.string "Wenn du unbedingt ein Fossil haben\n"
 	.string "möchtest, geh in die Wüste und suche\l"
@@ -115,7 +115,7 @@ Route114_FossilManiacsTunnel_Text_NotSafeThatWay:
 	.string "Die Wand ist auf einmal eingestürzt…\p"
 	.string "Jetzt gibt es hier eine große Höhle…\p"
 	.string "Aber ich habe sie nicht weiter\n"
-	.string "untersucht, denn ich glaube nicht,\n"
+	.string "untersucht, denn ich glaube nicht,\l"
 	.string "dass\l"
 	.string "sich dort ein Fossil befindet…$"
 #else

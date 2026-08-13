@@ -338,7 +338,7 @@ SinjohRuins_Lab_Text_FinalPlateScene1:
 	.string "Ich glaube, ich weiß, was geschehen\n"
 	.string "wird, wenn wir alle 17 Tafeln\l"
 	.string "zusammenbringen.\p"
-	.string "Ich spüre…\l"
+	.string "Ich spüre…\n"
 	.string "………………$"
 #else
 	.string "STEVEN: {PLAYER}!\p"

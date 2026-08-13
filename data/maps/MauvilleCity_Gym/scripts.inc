@@ -266,7 +266,7 @@ MauvilleCity_Gym_Text_GymGuideAdvice:
 	.string "Malvenfroh City, setzt\l"
 	.string "Elektro-Pokémon ein.\p"
 	.string "Wenn du ihn mit Wasser-Pokémon\n"
-	.string "angreifst, macht er sie fertig!\n"
+	.string "angreifst, macht er sie fertig!\l"
 	.string "Britzel! \p"
 	.string "Und die Türen lassen sich nur mit\n"
 	.string "Schaltern öffnen! Wahnsinn!\p"
@@ -395,7 +395,7 @@ MauvilleCity_Gym_Text_VivianPostBattle:
 	.string "Ich habe gehört, dass Malvenfroh City\n"
 	.string "von Walter gegründet wurde.\p"
 	.string "Er war Trainer, lange bevor wir\n"
-	.string "geboren\n"
+	.string "geboren\l"
 	.string "wurden. Er muss ein umfangreiches\l"
 	.string "Wissen besitzen.$"
 #else
@@ -425,7 +425,7 @@ MauvilleCity_Gym_Text_AngeloDefeat:
 MauvilleCity_Gym_Text_AngeloPostBattle:
 #if GERMAN
 	.string "Arenaleiter Walter aus Malvenfroh City\n"
-	.string "hat eine glänzende Stirn. Das finde\n"
+	.string "hat eine glänzende Stirn. Das finde\l"
 	.string "ich\l"
 	.string "klasse!$"
 #else
@@ -528,7 +528,7 @@ MauvilleCity_Gym_Text_RegisteredWattson:
 MauvilleCity_Gym_Text_WattsonPostBattle:
 #if GERMAN
 	.string "Optimismus erfüllt mich, wenn ich\n"
-	.string "einen\n"
+	.string "einen\l"
 	.string "so viel versprechenden Trainer wie\l"
 	.string "dich sehe!$"
 #else

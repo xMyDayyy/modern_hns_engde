@@ -101,7 +101,7 @@ EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
 EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames:
 #if GERMAN
 	.string "Wassili: Komm, schreiben wir deinen\n"
-	.string "Namen nieder, als ein Trainer, der\n"
+	.string "Namen nieder, als ein Trainer, der\l"
 	.string "über\l"
 	.string "die Pokémon Liga triumphiert hat - und\l"
 	.string "die Namen deiner Partner ebenfalls.$"

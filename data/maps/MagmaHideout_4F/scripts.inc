@@ -128,9 +128,9 @@ MagmaHideout_4F_EventScript_Tabitha::
 MagmaHideout_4F_Text_Grunt11Intro:
 #if GERMAN
 	.string "Ich würde so gerne einen Blick auf\n"
-	.string "Groudon werfen, aber ich darf nicht\n"
+	.string "Groudon werfen, aber ich darf nicht\l"
 	.string "mal\l"
-	.string "einen Blick auf seinen Schweif werfen.\n"
+	.string "einen Blick auf seinen Schweif werfen.\l"
 	.string "\p"
 	.string "Das frustriert mich total.\p"
 	.string "Oh, nein!\n"
@@ -163,8 +163,8 @@ MagmaHideout_4F_Text_Grunt11PostBattle:
 
 MagmaHideout_4F_Text_Grunt12Intro:
 #if GERMAN
-	.string "Muahahaha! Bald! Sehr bald!\l"
-	.string "Werden wir unser großes Ziel\n"
+	.string "Muahahaha! Bald! Sehr bald!\n"
+	.string "Werden wir unser großes Ziel\l"
 	.string "erreichen!$"
 #else
 	.string "Fuhahaha!\n"
@@ -217,7 +217,7 @@ MagmaHideout_4F_Text_Grunt13PostBattle:
 MagmaHideout_4F_Text_TabithaIntro:
 #if GERMAN
 	.string "Hähähä!\n"
-	.string "Du hast es bis hierher geschafft,\n"
+	.string "Du hast es bis hierher geschafft,\l"
 	.string "daher\l"
 	.string "verrate ich dir etwas!\p"
 	.string "Es stimmt!\n"

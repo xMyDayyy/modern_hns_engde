@@ -249,7 +249,7 @@ Route110_TrickHouseEnd_Movement_TrickMasterSurprise:
 
 Route110_TrickHouseEnd_Text_YouveMadeItToMe:
 #if GERMAN
-	.string "Argh! Du hast mich gefunden?\l"
+	.string "Argh! Du hast mich gefunden?\n"
 	.string "Hmmm… Du bist verdammt clever!$"
 #else
 	.string "Aak!\n"
@@ -262,7 +262,7 @@ Route110_TrickHouseEnd_Text_AllNightToPlantTrees:
 	.string "Ich habe die ganze Nacht gebraucht,\n"
 	.string "all die Bäume zu pflanzen…\p"
 	.string "Du bist meiner Größe fast ebenbürtig,\n"
-	.string "bis auf ein, zwei, drei, vier, fünf,\n"
+	.string "bis auf ein, zwei, drei, vier, fünf,\l"
 	.string "sechs\l"
 	.string "Punkte!$"
 #else
@@ -364,7 +364,7 @@ Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
 	.string "Die Quelle der Ideen für meine Tricks\l"
 	.string "ist trocken gelegt…\p"
 	.string "Vielleicht ist es an der Zeit, durch\n"
-	.string "die\n"
+	.string "die\l"
 	.string "Lande zu reisen und mich für neue\l"
 	.string "Tricks inspirieren zu lassen…$"
 #else
@@ -378,7 +378,7 @@ Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
 #if GERMAN
 	.string "Ich hasse es, zuzugeben, dass ich be-\n"
-	.string "siegt wurde. Du hast mich geschlagen!\n"
+	.string "siegt wurde. Du hast mich geschlagen!\l"
 	.string "\p"
 	.string "Mein Charisma muss dich gefangen\n"
 	.string "genommen haben, da du immer wieder\l"
@@ -427,7 +427,7 @@ Route110_TrickHouseEnd_Text_LeavingOnJourney:
 #if GERMAN
 	.string "… … … … … …\p"
 	.string "Ich gehe jetzt auf eine Entdeckungs-\n"
-	.string "reise. Auf die Suche nach neuen\n"
+	.string "reise. Auf die Suche nach neuen\l"
 	.string "Tricks. \p"
 	.string "Ich hoffe, du besuchst mich eines\n"
 	.string "Tages wieder und unterhältst mich.\p"
@@ -453,7 +453,7 @@ Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward:
 Route110_TrickHouseEnd_Text_NoRoomForThis:
 #if GERMAN
 	.string "Was? Du hast keinen Platz dafür?\n"
-	.string "Wie viele Items schleppst du denn mit?\n"
+	.string "Wie viele Items schleppst du denn mit?\l"
 	.string "\p"
 	.string "Aber du kannst dir deine Belohnung\n"
 	.string "auch später bei mir abholen.$"
@@ -470,7 +470,7 @@ Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
 	.string "von der Backe! Noch hast du nicht\l"
 	.string "gewonnen!\p"
 	.string "Ich werde neue Tricks erfinden, die\n"
-	.string "dich zu Fall bringen werden. Zum\n"
+	.string "dich zu Fall bringen werden. Zum\l"
 	.string "Grinsen \p"
 	.string "hast du erst Grund, wenn du es\n"
 	.string "geschafft hast.\p"

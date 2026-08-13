@@ -400,7 +400,7 @@ Route32_Text_CooltrainerM_VioletGym:
 	.string "Warst du schon in der Pokémon-Arena?\n"
 	.string "Das ist ein guter Ort für Trainer, um\l"
 	.string "sich und seine Pokémon zu stählen!\p"
-	.string "Das ist Trainer-Grundwissen!\l"
+	.string "Das ist Trainer-Grundwissen!\n"
 	.string "Schau dort mal vorbei!$"
 #else
 	.string "Have you gone to the POKéMON GYM?\n"

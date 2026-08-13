@@ -45,7 +45,7 @@ AzaleaPokecenter_Text_Gentleman:
 AzaleaPokecenter_Text_UnusedPCExplanation:
 #if GERMAN
 	.string "Dieser Bill hat\n"
-	.string "das Pokémon-Lagerungssystem für PC\n"
+	.string "das Pokémon-Lagerungssystem für PC\l"
 	.string "entwickelt.\p"
 	.string "Auf Bills PC können\n"
 	.string "bis zu 30 Pokémon pro Box gelagert\l"

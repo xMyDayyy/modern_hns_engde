@@ -103,7 +103,7 @@ RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 	.string "stellen. Hast du jemals auf ein Kind\l"
 	.string "aufgepasst?\p"
 	.string "Weißt du, ich bin noch ein junger\n"
-	.string "Vater\n"
+	.string "Vater\l"
 	.string "und ein Kind zu haben, ist eine völlig\l"
 	.string "neue Erfahrung für mich.\p"
 	.string "Ich habe ein Problem: Meine Tochter\n"
@@ -208,7 +208,7 @@ RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
 	.string "Och, du kennst keine guten Sprüche?\n"
 	.string "Dann muss ich mir wohl selbst was\l"
 	.string "einfallen lassen.\p"
-	.string "Hmm… Wie wäre es mit “{STR_VAR_1}”?\l"
+	.string "Hmm… Wie wäre es mit “{STR_VAR_1}”?\n"
 	.string "Mal sehen, ob das wirkt.$"
 #else
 	.string "Oh, so you don't know any good words.\n"

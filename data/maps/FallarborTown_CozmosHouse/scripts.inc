@@ -117,7 +117,7 @@ FallarborTown_CozmosHouse_Text_PleaseUseThisTM:
 FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch:
 #if GERMAN
 	.string "Prof. Kosmo: Oh, ich kann es einfach\n"
-	.string "nicht glauben! Das ist nett! So\n"
+	.string "nicht glauben! Das ist nett! So\l"
 	.string "nett!!! \p"
 	.string "Das wird mir bei meinen Forschungen\n"
 	.string "enorm weiterhelfen!$"

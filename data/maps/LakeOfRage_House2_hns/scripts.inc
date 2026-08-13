@@ -113,7 +113,7 @@ LakeOfRage_House2_Text_LakeHistory:
 	.string "So erzählt es der Ur-Ur-Großvater\n"
 	.string "meines Großvaters.\p"
 	.string "Früher konnte man dort lebhafte\n"
-	.string "Karpador fangen, aber…\n"
+	.string "Karpador fangen, aber…\l"
 	.string "Ich verstehe nicht, was passiert.$"
 #else
     .string "LAKE OF RAGE is actually a crater\n"

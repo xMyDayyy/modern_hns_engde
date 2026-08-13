@@ -100,7 +100,7 @@ LavenderTown_Text_KantoRadioStationSign:
 LavenderTown_Text_VolunteerPokemonHouseSign:
 #if GERMAN
 	.string "Ehrenamtlich betriebenes\n"
-	.string "Waisenhaus für Pokémon\n$"
+	.string "Waisenhaus für Pokémon\l$"
 #else
 	.string "LAVENDER VOLUNTEER POKéMON\n"
 	.string "HOUSE$"

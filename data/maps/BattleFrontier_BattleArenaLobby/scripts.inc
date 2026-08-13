@@ -400,10 +400,10 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "sollen. In dieser Folge kämpfen sie\n"
 	.string "dann nacheinander.\p"
 	.string "Sobald ein Pokémon in den Kampf\n"
-	.string "gerufen wurde, muss es kämpfen, bis\n"
+	.string "gerufen wurde, muss es kämpfen, bis\l"
 	.string "der \p"
 	.string "Kampf entschieden ist. Sollte ein\n"
-	.string "Kampf\n"
+	.string "Kampf\l"
 	.string "unentschieden enden, wird der Kampf\p"
 	.string "beurteilt und der Sieger bestimmt.\n"
 	.string "Möchtest du den Wettkampf unter-\p"
@@ -528,7 +528,7 @@ BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
 	.string "Du hast, bevor du die Herausforderung\n"
 	.string "abgebrochen hast, nicht gespeichert.\p"
 	.string "Daher wirst du für diese Herausforde-\n"
-	.string "rung disqualifiziert. Schade! Du hast\n"
+	.string "rung disqualifiziert. Schade! Du hast\l"
 	.string "\p"
 	.string "natürlich die Möglichkeit, dich einer\n"
 	.string "neuen Herausforderung zu stellen.$"
@@ -720,7 +720,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "feststeht, wird eine richterliche\n"
 	.string "Entscheidung getroffen. Der Referee\p"
 	.string "wird den Sieger bestimmen, indem er\n"
-	.string "die Art des Kampfes beurteilt. Ein\n"
+	.string "die Art des Kampfes beurteilt. Ein\l"
 	.string "Pkmn \p"
 	.string "kann nicht ausgetauscht werden, bevor\n"
 	.string "der Kampf entschieden ist.$"
@@ -740,11 +740,11 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
 #if GERMAN
 	.string "Der erste Faktor bei der Beurteilung\n"
-	.string "ist der “Verstand”. Hier wird\n"
+	.string "ist der “Verstand”. Hier wird\l"
 	.string "beurteilt,\l"
 	.string "wie aggressiv die Kämpfer waren.\p"
 	.string "Die Beurteilung richtet sich danach,\n"
-	.string "wie\n"
+	.string "wie\l"
 	.string "oft der Trainer offensive Attacken\l"
 	.string "eingesetzt hat.$"
 #else
@@ -800,7 +800,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 #if GERMAN
 	.string "Der dritte Faktor bei der Beurteilung\n"
 	.string "ist der “Körper”. Die am\l"
-	.string "Ende verbleibenden KP sind ausschlag-\n"
+	.string "Ende verbleibenden KP sind ausschlag-\l"
 	.string "\p"
 	.string "gebend. Die Anzahl der KP, mit der ein\n"
 	.string "Pkmn in den Kampf geht, wird mit der\l"
@@ -817,7 +817,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
 #if GERMAN
 	.string "Ein Sieg über den Ringmeister und ein\n"
-	.string "siebenfacher Sieg über sieben Trainer!\n"
+	.string "siebenfacher Sieg über sieben Trainer!\l"
 	.string "\p"
 	.string "Wir gratulieren dir zu deiner\n"
 	.string "herausragenden Leistung!$"

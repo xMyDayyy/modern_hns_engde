@@ -471,7 +471,7 @@ BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
 #if GERMAN
 	.string "Das Einzelkampf-Turnier wird\n"
-	.string "seinem Namen gerecht. Es ist ein\n"
+	.string "seinem Namen gerecht. Es ist ein\l"
 	.string "Turnier\l"
 	.string "bestehend aus Einzelkämpfen.\p"
 	.string "Jeder der Trainer nimmt drei Pokémon\n"
@@ -483,12 +483,12 @@ BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
 	.string "Schau dir die gegnerischen Pokémon an\n"
 	.string "und wähle dann deine zwei eigenen\p"
 	.string "Pokémon für den Kampf aus.\n"
-	.string "Du gewinnst ein Turnier, indem du vier\n"
+	.string "Du gewinnst ein Turnier, indem du vier\l"
 	.string "\p"
 	.string "Trainer in Folge besiegst.\n"
 	.string "Der Gewinner bekommt Gewinnpunkte.\p"
 	.string "Wenn du das Turnier unterbrechen\n"
-	.string "willst, musst du das Spiel speichern.\n"
+	.string "willst, musst du das Spiel speichern.\l"
 	.string "\p"
 	.string "Wenn du nicht speicherst, wirst du\n"
 	.string "disqualifiziert.$"
@@ -711,7 +711,7 @@ BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
 #if GERMAN
 	.string "Das Doppelkampf-Turnier wird\n"
-	.string "seinem Namen gerecht. Es ist ein\n"
+	.string "seinem Namen gerecht. Es ist ein\l"
 	.string "Turnier\l"
 	.string "bestehend aus Doppelkämpfen.\p"
 	.string "Jeder der Trainer nimmt drei Pokémon\n"
@@ -723,12 +723,12 @@ BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
 	.string "Schau dir die gegnerischen Pokémon an\n"
 	.string "und wähle dann deine zwei eigenen\p"
 	.string "Pokémon für den Kampf aus.\n"
-	.string "Du gewinnst ein Turnier, indem du vier\n"
+	.string "Du gewinnst ein Turnier, indem du vier\l"
 	.string "\p"
 	.string "Trainer in Folge besiegst.\n"
 	.string "Der Gewinner bekommt Gewinnpunkte.\p"
 	.string "Wenn du das Turnier unterbrechen\n"
-	.string "willst, musst du das Spiel speichern.\n"
+	.string "willst, musst du das Spiel speichern.\l"
 	.string "\p"
 	.string "Wenn du nicht speicherst, wirst du\n"
 	.string "disqualifiziert.$"
@@ -838,7 +838,7 @@ BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction:
 BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
 #if GERMAN
 	.string "Gewinnt ein Trainer mehrere Turniere\n"
-	.string "in\n"
+	.string "in\l"
 	.string "Folge im Kampfstadion, wird er schnell\l"
 	.string "ein Star.\p"
 	.string "Der Ruf des Kampfstadions zieht\n"

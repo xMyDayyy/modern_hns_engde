@@ -206,7 +206,7 @@ SSTidalRooms_Text_LeaDefeat:
 SSTidalRooms_Text_LeaPostBattle:
 #if GERMAN
 	.string "Lena: Ich kann es einfach nicht\n"
-	.string "fassen!\n"
+	.string "fassen!\l"
 	.string "Die Kraft unserer Liebe reichte nicht…\l"
 	.string "Du bist ein unglaublicher Trainer!$"
 #else
@@ -276,7 +276,7 @@ SSTidalRooms_Text_NaomiDefeat:
 SSTidalRooms_Text_NaomiPostBattle:
 #if GERMAN
 	.string "Eine Weltreise auf einem Luxusliner\n"
-	.string "hat\n"
+	.string "hat\l"
 	.string "etwas für sich, das muss ich sagen…\p"
 	.string "Aber auch eine Fahrt auf der Fähre\n"
 	.string "durch Hoenn hat etwas.$"
@@ -290,7 +290,7 @@ SSTidalRooms_Text_NaomiPostBattle:
 SSTidalRooms_Text_NotSuspiciousTakeThis:
 #if GERMAN
 	.string "Äh… Hallo! Ich… Ich verhalte mich\n"
-	.string "über-\n"
+	.string "über-\l"
 	.string "haupt nicht verdächtig! Äh… hier, das\l"
 	.string "ist für dich! Es kostet dich nichts!\p"
 	.string "Es… Ehrlich! Ich habe es nicht von\n"

@@ -219,7 +219,7 @@ VictoryRoad_1F_Text_EdgarDefeat:
 VictoryRoad_1F_Text_EdgarPostBattle:
 #if GERMAN
 	.string "Du bist weit gekommen. Lasse nicht\n"
-	.string "nach\n"
+	.string "nach\l"
 	.string "und versuche, der Champ zu werden!\l"
 	.string "Wenn einer das kann, dann du!$"
 #else

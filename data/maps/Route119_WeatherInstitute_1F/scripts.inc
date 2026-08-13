@@ -119,8 +119,8 @@ Route119_WeatherInstitute_1F_Text_Grunt4Defeat:
 
 Route119_WeatherInstitute_1F_Text_Grunt4PostBattle:
 #if GERMAN
-	.string "Oh. Ich werde mir etwas anhören\l"
-	.string "müssen,\n"
+	.string "Oh. Ich werde mir etwas anhören\n"
+	.string "müssen,\l"
 	.string "weil ich gegen ein Kind verloren habe…\p"
 	.string "\p"
 	.string "Ich muss mich jetzt dringend hinlegen…$"

@@ -169,7 +169,7 @@ MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
 MossdeepCity_StevensHouse_Text_ExplainDive:
 #if GERMAN
 	.string "Troy: Wenn du Surfer einsetzt und\n"
-	.string "über das Meer gleitest, wirst du\n"
+	.string "über das Meer gleitest, wirst du\l"
 	.string "dunkle\l"
 	.string "Stellen im Wasser bemerken können.\p"
 	.string "Setze hier Taucher ein und du kannst\n"

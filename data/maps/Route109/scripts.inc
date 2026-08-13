@@ -606,7 +606,7 @@ Route109_Text_YouCanHaveThis:
 Route109_Text_WereGoingToMakeBigCastle:
 #if GERMAN
 	.string "Wir nehmen allen Sand vom Strand\n"
-	.string "und bauen damit eine gaaanz große\n"
+	.string "und bauen damit eine gaaanz große\l"
 	.string "Burg. \p"
 	.string "Und dann sind wir Königin und König!\p"
 	.string "Und du darfst unser Diener sein.$"

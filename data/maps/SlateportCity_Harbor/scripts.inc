@@ -466,7 +466,7 @@ SlateportCity_Harbor_Text_WhereWouldYouLikeToGo:
 SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday:
 #if GERMAN
 	.string "Eine Reise zum Meeresboden…\n"
-	.string "Ich frage mich, wie es dort wohl ist?\n"
+	.string "Ich frage mich, wie es dort wohl ist?\l"
 	.string "\p"
 	.string "Eines Tages möchte ich auch einmal so\n"
 	.string "tief unter Wasser reisen.$"
@@ -579,7 +579,7 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "Okay… Du konntest Team Aqua nicht\n"
 	.string "aufhalten…\p"
 	.string "Oh, nein, mach dir bitte keine\n"
-	.string "Vorwürfe!\n"
+	.string "Vorwürfe!\l"
 	.string "Die Schuld liegt nicht bei dir.\p"
 	.string "Ein U-Boot zu verfolgen und aufzu-\n"
 	.string "halten ist für die meisten Menschen\l"
@@ -648,7 +648,7 @@ SlateportCity_Harbor_Text_FinishedMakingFerry:
 	.string "Wir haben die Fähre MS Tide endlich\n"
 	.string "fertig gestellt.\p"
 	.string "Ohne die Hilfe deines Freundes Mr.\n"
-	.string "Brack hätten wir das nicht geschafft.\n"
+	.string "Brack hätten wir das nicht geschafft.\l"
 	.string "\p"
 	.string "Bitte nimm an einer kurzen Fahrt teil!$"
 #else
@@ -663,10 +663,10 @@ SlateportCity_Harbor_Text_FinishedMakingFerry:
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
 #if GERMAN
 	.string "Kapt. Brigg: Oh?\n"
-	.string "{PLAYER}{KUN}, das Item, das du da\n"
+	.string "{PLAYER}{KUN}, das Item, das du da\l"
 	.string "hast… \p"
 	.string "Das ist ein Scanner! Der würde uns\n"
-	.string "sicher bei unseren Forschungen helfen.\n"
+	.string "sicher bei unseren Forschungen helfen.\l"
 	.string "\p"
 	.string "{PLAYER}{KUN}, würdest du ihn gegen\n"
 	.string "etwas anderes eintauschen?\p"
@@ -686,10 +686,10 @@ SlateportCity_Harbor_Text_WouldYouTradeScanner:
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
 #if GERMAN
 	.string "Kapt. Brigg: Bist du sicher? Aber\n"
-	.string "damit\n"
+	.string "damit\l"
 	.string "kannst du doch nichts anfangen…\p"
 	.string "Also gut. Wenn du aber den Scanner\n"
-	.string "doch\n"
+	.string "doch\l"
 	.string "noch gegen etwas anderes tauschen\l"
 	.string "willst, dann lass es mich wissen!$"
 #else

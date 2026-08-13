@@ -122,7 +122,7 @@ Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
 	.string "Es steht außer Frage, dass du stark\n"
 	.string "bist.\p"
 	.string "Aber wenn du gegen meinen Enkel an-\n"
-	.string "treten willst, bringt dir das nur\n"
+	.string "treten willst, bringt dir das nur\l"
 	.string "Tränen\l"
 	.string "der Frustration ein.\p"
 	.string "Er ist viel stärker als jeder Trainer,\n"
