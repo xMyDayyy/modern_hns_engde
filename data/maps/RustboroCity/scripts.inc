@@ -31,6 +31,12 @@ RustboroCity_OnFrame:
 RustboroCity_EventScript_ScientistAddMatchCall::
 	lockall
 	setvar VAR_ROUTE104_STATE, 1
+#if IS_HNS
+@ Der Spieler bringt den PokéCom samt Ruf-Funktion aus Johto mit. Die Szene, in der
+@ der Devon-Wissenschaftler die Funktion erst freischaltet, entfaellt deshalb --
+@ die Folgezustaende werden aber unveraendert gesetzt.
+	goto RustboroCity_EventScript_SkipScientistAddMatchCall
+#endif
 	applymovement LOCALID_PLAYER, RustboroCity_Movement_PlayerWalkDown
 	waitmovement 0
 	playse SE_EXIT
@@ -66,6 +72,18 @@ RustboroCity_EventScript_ScientistAddMatchCall::
 	closemessage
 	delay 20
 	goto RustboroCity_EventScript_MatchCallTutorial
+
+#if IS_HNS
+@ Ersetzt die Ruf-Funktions-Szene: setzt genau die Zustaende, die ihr Ende auch
+@ gesetzt haette, ohne den Wissenschaftler auftreten zu lassen.
+RustboroCity_EventScript_SkipScientistAddMatchCall::
+	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
+	setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
+	setvar VAR_RUSTBORO_CITY_STATE, 7
+	clearflag FLAG_HIDE_MAP_NAME_POPUP
+	releaseall
+	end
+#endif
 
 RustboroCity_EventScript_PleaseSelectPokenav::
 	msgbox RustboroCity_Text_PleaseSelectPokenav, MSGBOX_DEFAULT
