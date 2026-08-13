@@ -894,3 +894,730 @@ const u8 *const gBerryTreePaletteSlotTablePointers[] = {
     [ITEM_ENIGMA_BERRY_E_READER - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Durin,
 };
 
+
+#if IS_HNS
+// Hoenn-Varianten: gleiche Aufbauten, aber mit den vollstaendig gezeichneten
+// Beerenbaum-Bildern statt der HGSS-Fruchtsprites.
+static const struct SpriteFrameImage sPicTable_CheriBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_CheriBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_CheriBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_CheriBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_CheriBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_CheriBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_CheriBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_ChestoBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_ChestoBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_ChestoBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_ChestoBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_ChestoBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_ChestoBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_ChestoBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_PechaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_PechaBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_PechaBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_PechaBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_PechaBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_PechaBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_PechaBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_RawstBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_RawstBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_RawstBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_RawstBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_RawstBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_RawstBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_RawstBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_AspearBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_AspearBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_AspearBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_AspearBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_AspearBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_AspearBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_AspearBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_LeppaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_LeppaBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_LeppaBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_LeppaBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_LeppaBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_LeppaBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_LeppaBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_OranBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_OranBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_OranBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_OranBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_OranBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_OranBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_OranBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_PersimBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_PersimBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_PersimBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_PersimBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_PersimBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_PersimBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_PersimBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_LumBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_LumBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_LumBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_LumBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_LumBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_LumBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_LumBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_SitrusBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_SitrusBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_SitrusBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_SitrusBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_SitrusBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_SitrusBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_SitrusBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_FigyBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_FigyBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_FigyBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_FigyBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_FigyBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_FigyBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_FigyBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_WikiBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_WikiBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_WikiBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_WikiBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_WikiBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_WikiBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_WikiBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_MagoBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_MagoBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_MagoBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_MagoBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_MagoBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_MagoBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_MagoBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_AguavBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_AguavBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_AguavBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_AguavBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_AguavBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_AguavBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_AguavBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_IapapaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_IapapaBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_IapapaBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_IapapaBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_IapapaBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_IapapaBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_IapapaBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_RazzBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_RazzBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_RazzBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_RazzBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_RazzBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_RazzBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_RazzBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_WepearBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_WepearBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_WepearBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_WepearBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_WepearBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_WepearBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_WepearBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_PomegBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_PomegBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_PomegBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_PomegBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_PomegBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_PomegBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_PomegBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_KelpsyBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_KelpsyBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_KelpsyBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_KelpsyBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_KelpsyBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_KelpsyBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_KelpsyBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_HondewBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_HondewBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_HondewBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_HondewBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_HondewBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_HondewBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_HondewBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_GrepaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_GrepaBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_GrepaBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_GrepaBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_GrepaBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_GrepaBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_GrepaBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_TamatoBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_TamatoBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_TamatoBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_TamatoBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_TamatoBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_TamatoBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_TamatoBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_CornnBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_CornnBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_CornnBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_CornnBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_CornnBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_CornnBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_CornnBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_RabutaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_RabutaBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_RabutaBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_RabutaBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_RabutaBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_RabutaBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_RabutaBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_NomelBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_NomelBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_NomelBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_NomelBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_NomelBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_NomelBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_NomelBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_SpelonBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_SpelonBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_SpelonBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_SpelonBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_SpelonBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_SpelonBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_SpelonBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_PamtreBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_PamtreBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_PamtreBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_PamtreBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_PamtreBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_PamtreBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_PamtreBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_DurinBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_DurinBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_DurinBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_DurinBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_DurinBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_DurinBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_DurinBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_OccaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_OccaBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_OccaBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_OccaBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_OccaBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_OccaBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_OccaBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_YacheBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_YacheBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YacheBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YacheBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_YacheBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_YacheBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_YacheBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_ChopleBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_ChopleBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_ChopleBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_ChopleBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_ChopleBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_ChopleBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_ChopleBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_KebiaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_KebiaBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_KebiaBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_KebiaBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_KebiaBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_KebiaBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_KebiaBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_ShucaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_ShucaBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_ShucaBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_ShucaBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_ShucaBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_ShucaBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_ShucaBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_PayapaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_PayapaBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_PayapaBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_PayapaBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_PayapaBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_PayapaBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_PayapaBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_TangaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_TangaBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_TangaBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_TangaBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_TangaBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_TangaBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_TangaBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_KasibBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_KasibBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_KasibBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_KasibBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_KasibBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_KasibBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_KasibBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_HabanBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_HabanBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_HabanBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_HabanBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_HabanBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_HabanBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_HabanBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_ColburBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_ColburBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_ColburBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_ColburBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_ColburBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_ColburBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_ColburBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_RoseliBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_RoseliBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_RoseliBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_RoseliBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_RoseliBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_RoseliBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_RoseliBerryTree, 2, 4, 5)
+};
+
+static const struct SpriteFrameImage sPicTable_LiechiBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_LiechiBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_LiechiBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_LiechiBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_LiechiBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_LiechiBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_LiechiBerryTree_Hoenn, 2, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_LansatBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_LansatBerryTree_Hoenn, 2, 4, 0),
+    overworld_frame(gObjectEventPic_LansatBerryTree_Hoenn, 2, 4, 1),
+    overworld_frame(gObjectEventPic_LansatBerryTree_Hoenn, 2, 4, 2),
+    overworld_frame(gObjectEventPic_LansatBerryTree_Hoenn, 2, 4, 3),
+    overworld_frame(gObjectEventPic_LansatBerryTree_Hoenn, 2, 4, 4),
+    overworld_frame(gObjectEventPic_LansatBerryTree_Hoenn, 2, 4, 5),
+};
+const u8 gBerryTreePaletteSlotTable_Cheri_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Chesto_Hoenn[] = {3, 4, 2, 2, 2, 2, 2};
+const u8 gBerryTreePaletteSlotTable_Pecha_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Rawst_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Aspear_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Leppa_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Oran_Hoenn[] = {3, 4, 2, 2, 2, 2, 2};
+const u8 gBerryTreePaletteSlotTable_Persim_Hoenn[] = {3, 4, 2, 2, 2, 2, 2};
+const u8 gBerryTreePaletteSlotTable_Lum_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Sitrus_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Figy_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Wiki_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Mago_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Aguav_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Iapapa_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Razz_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Wepear_Hoenn[] = {3, 4, 2, 2, 2, 2, 2};
+const u8 gBerryTreePaletteSlotTable_Pomeg_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Kelpsy_Hoenn[] = {3, 4, 2, 2, 2, 2, 2};
+const u8 gBerryTreePaletteSlotTable_Hondew_Hoenn[] = {3, 4, 5, 5, 5, 5, 5};
+const u8 gBerryTreePaletteSlotTable_Grepa_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Tamato_Hoenn[] = {3, 4, 2, 2, 2, 2, 2};
+const u8 gBerryTreePaletteSlotTable_Cornn_Hoenn[] = {3, 4, 2, 2, 2, 2, 2};
+const u8 gBerryTreePaletteSlotTable_Rabuta_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Nomel_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Spelon_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Pamtre_Hoenn[] = {3, 4, 2, 2, 2, 2, 2};
+const u8 gBerryTreePaletteSlotTable_Durin_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Liechi_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Lansat_Hoenn[] = {3, 4, 2, 2, 2, 2, 2};
+static const struct SpriteFrameImage sPicTable_MicleBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_MicleBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_MicleBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_MicleBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_MicleBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_MicleBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_MicleBerryTree, 2, 4, 5),
+};
+static const struct SpriteFrameImage sPicTable_CustapBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_CustapBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_CustapBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_CustapBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_CustapBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_CustapBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_CustapBerryTree, 2, 4, 5),
+};
+static const struct SpriteFrameImage sPicTable_JabocaBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_JabocaBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_JabocaBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_JabocaBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_JabocaBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_JabocaBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_JabocaBerryTree, 2, 4, 5),
+};
+static const struct SpriteFrameImage sPicTable_RowapBerryTree_Hoenn[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout_Hoenn, 2, 2, 1),
+    overworld_frame(gObjectEventPic_RowapBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_RowapBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_RowapBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_RowapBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_RowapBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_RowapBerryTree, 2, 4, 5),
+};
+const u8 gBerryTreePaletteSlotTable_Occa_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Yache_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Chople_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Kebia_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Shuca_Hoenn[] = {3, 4, 5, 5, 5, 5, 5};
+const u8 gBerryTreePaletteSlotTable_Payapa_Hoenn[] = {3, 4, 5, 5, 5, 5, 5};
+const u8 gBerryTreePaletteSlotTable_Tanga_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Kasib_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Haban_Hoenn[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Colbur_Hoenn[] = {3, 4, 5, 5, 5, 5, 5};
+const u8 gBerryTreePaletteSlotTable_Roseli_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Micle_Hoenn[] = {3, 4, 4, 4, 4, 4, 4};
+const u8 gBerryTreePaletteSlotTable_Custap_Hoenn[] = {3, 4, 5, 5, 5, 5, 5};
+const u8 gBerryTreePaletteSlotTable_Jaboca_Hoenn[] = {3, 4, 5, 5, 5, 5, 5};
+const u8 gBerryTreePaletteSlotTable_Rowap_Hoenn[] = {3, 4, 5, 5, 5, 5, 5};
+
+const struct SpriteFrameImage *const gBerryTreePicTablePointers_Hoenn[] = {
+    [ITEM_CHERI_BERRY - FIRST_BERRY_INDEX]            = sPicTable_CheriBerryTree_Hoenn,
+    [ITEM_CHESTO_BERRY - FIRST_BERRY_INDEX]           = sPicTable_ChestoBerryTree_Hoenn,
+    [ITEM_PECHA_BERRY - FIRST_BERRY_INDEX]            = sPicTable_PechaBerryTree_Hoenn,
+    [ITEM_RAWST_BERRY - FIRST_BERRY_INDEX]            = sPicTable_RawstBerryTree_Hoenn,
+    [ITEM_ASPEAR_BERRY - FIRST_BERRY_INDEX]           = sPicTable_AspearBerryTree_Hoenn,
+    [ITEM_LEPPA_BERRY - FIRST_BERRY_INDEX]            = sPicTable_LeppaBerryTree_Hoenn,
+    [ITEM_ORAN_BERRY - FIRST_BERRY_INDEX]             = sPicTable_OranBerryTree_Hoenn,
+    [ITEM_PERSIM_BERRY - FIRST_BERRY_INDEX]           = sPicTable_PersimBerryTree_Hoenn,
+    [ITEM_LUM_BERRY - FIRST_BERRY_INDEX]              = sPicTable_LumBerryTree_Hoenn,
+    [ITEM_SITRUS_BERRY - FIRST_BERRY_INDEX]           = sPicTable_SitrusBerryTree_Hoenn,
+    [ITEM_FIGY_BERRY - FIRST_BERRY_INDEX]             = sPicTable_FigyBerryTree_Hoenn,
+    [ITEM_WIKI_BERRY - FIRST_BERRY_INDEX]             = sPicTable_WikiBerryTree_Hoenn,
+    [ITEM_MAGO_BERRY - FIRST_BERRY_INDEX]             = sPicTable_MagoBerryTree_Hoenn,
+    [ITEM_AGUAV_BERRY - FIRST_BERRY_INDEX]            = sPicTable_AguavBerryTree_Hoenn,
+    [ITEM_IAPAPA_BERRY - FIRST_BERRY_INDEX]           = sPicTable_IapapaBerryTree_Hoenn,
+    [ITEM_RAZZ_BERRY - FIRST_BERRY_INDEX]             = sPicTable_RazzBerryTree_Hoenn,
+    [ITEM_BLUK_BERRY - FIRST_BERRY_INDEX]             = sPicTable_RazzBerryTree_Hoenn,
+    [ITEM_NANAB_BERRY - FIRST_BERRY_INDEX]            = sPicTable_MagoBerryTree_Hoenn,
+    [ITEM_WEPEAR_BERRY - FIRST_BERRY_INDEX]           = sPicTable_WepearBerryTree_Hoenn,
+    [ITEM_PINAP_BERRY - FIRST_BERRY_INDEX]            = sPicTable_IapapaBerryTree_Hoenn,
+    [ITEM_POMEG_BERRY - FIRST_BERRY_INDEX]            = sPicTable_PomegBerryTree_Hoenn,
+    [ITEM_KELPSY_BERRY - FIRST_BERRY_INDEX]           = sPicTable_KelpsyBerryTree_Hoenn,
+    [ITEM_QUALOT_BERRY - FIRST_BERRY_INDEX]           = sPicTable_WepearBerryTree_Hoenn,
+    [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX]           = sPicTable_HondewBerryTree_Hoenn,
+    [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX]            = sPicTable_GrepaBerryTree_Hoenn,
+    [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX]           = sPicTable_TamatoBerryTree_Hoenn,
+    [ITEM_CORNN_BERRY - FIRST_BERRY_INDEX]            = sPicTable_CornnBerryTree_Hoenn,
+    [ITEM_MAGOST_BERRY - FIRST_BERRY_INDEX]           = sPicTable_PomegBerryTree_Hoenn,
+    [ITEM_RABUTA_BERRY - FIRST_BERRY_INDEX]           = sPicTable_RabutaBerryTree_Hoenn,
+    [ITEM_NOMEL_BERRY - FIRST_BERRY_INDEX]            = sPicTable_NomelBerryTree_Hoenn,
+    [ITEM_SPELON_BERRY - FIRST_BERRY_INDEX]           = sPicTable_SpelonBerryTree_Hoenn,
+    [ITEM_PAMTRE_BERRY - FIRST_BERRY_INDEX]           = sPicTable_PamtreBerryTree_Hoenn,
+    [ITEM_WATMEL_BERRY - FIRST_BERRY_INDEX]           = sPicTable_RabutaBerryTree_Hoenn,
+    [ITEM_DURIN_BERRY - FIRST_BERRY_INDEX]            = sPicTable_DurinBerryTree_Hoenn,
+    [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX]            = sPicTable_HondewBerryTree_Hoenn,
+    [ITEM_CHILAN_BERRY - FIRST_BERRY_INDEX]           = sPicTable_GrepaBerryTree_Hoenn,
+    [ITEM_OCCA_BERRY - FIRST_BERRY_INDEX]             = sPicTable_OccaBerryTree_Hoenn,
+    [ITEM_PASSHO_BERRY - FIRST_BERRY_INDEX]           = sPicTable_CornnBerryTree_Hoenn,
+    [ITEM_WACAN_BERRY - FIRST_BERRY_INDEX]            = sPicTable_RazzBerryTree_Hoenn,
+    [ITEM_RINDO_BERRY - FIRST_BERRY_INDEX]            = sPicTable_TamatoBerryTree_Hoenn,
+    [ITEM_YACHE_BERRY - FIRST_BERRY_INDEX]            = sPicTable_YacheBerryTree_Hoenn,
+    [ITEM_CHOPLE_BERRY - FIRST_BERRY_INDEX]           = sPicTable_ChopleBerryTree_Hoenn,
+    [ITEM_KEBIA_BERRY - FIRST_BERRY_INDEX]            = sPicTable_KebiaBerryTree_Hoenn,
+    [ITEM_SHUCA_BERRY - FIRST_BERRY_INDEX]            = sPicTable_ShucaBerryTree_Hoenn,
+    [ITEM_COBA_BERRY - FIRST_BERRY_INDEX]             = sPicTable_RawstBerryTree_Hoenn,
+    [ITEM_PAYAPA_BERRY - FIRST_BERRY_INDEX]           = sPicTable_PayapaBerryTree_Hoenn,
+    [ITEM_TANGA_BERRY - FIRST_BERRY_INDEX]            = sPicTable_TangaBerryTree_Hoenn,
+    [ITEM_CHARTI_BERRY - FIRST_BERRY_INDEX]           = sPicTable_LansatBerryTree_Hoenn,
+    [ITEM_KASIB_BERRY - FIRST_BERRY_INDEX]            = sPicTable_KasibBerryTree_Hoenn,
+    [ITEM_HABAN_BERRY - FIRST_BERRY_INDEX]            = sPicTable_HabanBerryTree_Hoenn,
+    [ITEM_COLBUR_BERRY - FIRST_BERRY_INDEX]           = sPicTable_ColburBerryTree_Hoenn,
+    [ITEM_BABIRI_BERRY - FIRST_BERRY_INDEX]           = sPicTable_LiechiBerryTree_Hoenn,
+    [ITEM_ROSELI_BERRY - FIRST_BERRY_INDEX]           = sPicTable_RoseliBerryTree_Hoenn,
+    [ITEM_LIECHI_BERRY - FIRST_BERRY_INDEX]           = sPicTable_LiechiBerryTree_Hoenn,
+    [ITEM_GANLON_BERRY - FIRST_BERRY_INDEX]           = sPicTable_HondewBerryTree_Hoenn,
+    [ITEM_SALAC_BERRY - FIRST_BERRY_INDEX]            = sPicTable_AguavBerryTree_Hoenn,
+    [ITEM_PETAYA_BERRY - FIRST_BERRY_INDEX]           = sPicTable_PomegBerryTree_Hoenn,
+    [ITEM_APICOT_BERRY - FIRST_BERRY_INDEX]           = sPicTable_GrepaBerryTree_Hoenn,
+    [ITEM_LANSAT_BERRY - FIRST_BERRY_INDEX]           = sPicTable_LansatBerryTree_Hoenn,
+    [ITEM_STARF_BERRY - FIRST_BERRY_INDEX]            = sPicTable_CornnBerryTree_Hoenn,
+    [ITEM_ENIGMA_BERRY - FIRST_BERRY_INDEX]           = sPicTable_DurinBerryTree_Hoenn,
+    [ITEM_MICLE_BERRY - FIRST_BERRY_INDEX]            = sPicTable_MicleBerryTree_Hoenn,
+    [ITEM_CUSTAP_BERRY - FIRST_BERRY_INDEX]           = sPicTable_CustapBerryTree_Hoenn,
+    [ITEM_JABOCA_BERRY - FIRST_BERRY_INDEX]           = sPicTable_JabocaBerryTree_Hoenn,
+    [ITEM_ROWAP_BERRY - FIRST_BERRY_INDEX]            = sPicTable_RowapBerryTree_Hoenn,
+    [ITEM_KEE_BERRY - FIRST_BERRY_INDEX]              = sPicTable_PechaBerryTree_Hoenn,
+    [ITEM_MARANGA_BERRY - FIRST_BERRY_INDEX]          = sPicTable_OccaBerryTree_Hoenn,
+    [ITEM_ENIGMA_BERRY_E_READER - FIRST_BERRY_INDEX]  = sPicTable_DurinBerryTree_Hoenn,
+};
+
+const u8 *const gBerryTreePaletteSlotTablePointers_Hoenn[] = {
+    [ITEM_CHERI_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Cheri_Hoenn,
+    [ITEM_CHESTO_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Chesto_Hoenn,
+    [ITEM_PECHA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Pecha_Hoenn,
+    [ITEM_RAWST_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Rawst_Hoenn,
+    [ITEM_ASPEAR_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Aspear_Hoenn,
+    [ITEM_LEPPA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Leppa_Hoenn,
+    [ITEM_ORAN_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Oran_Hoenn,
+    [ITEM_PERSIM_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Persim_Hoenn,
+    [ITEM_LUM_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Lum_Hoenn,
+    [ITEM_SITRUS_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Sitrus_Hoenn,
+    [ITEM_FIGY_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Figy_Hoenn,
+    [ITEM_WIKI_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Wiki_Hoenn,
+    [ITEM_MAGO_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Mago_Hoenn,
+    [ITEM_AGUAV_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Aguav_Hoenn,
+    [ITEM_IAPAPA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Iapapa_Hoenn,
+    [ITEM_RAZZ_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Razz_Hoenn,
+    [ITEM_BLUK_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Razz_Hoenn,
+    [ITEM_NANAB_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Mago_Hoenn,
+    [ITEM_WEPEAR_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Wepear_Hoenn,
+    [ITEM_PINAP_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Iapapa_Hoenn,
+    [ITEM_POMEG_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Pomeg_Hoenn,
+    [ITEM_KELPSY_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Kelpsy_Hoenn,
+    [ITEM_QUALOT_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Wepear_Hoenn,
+    [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Hondew_Hoenn,
+    [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Grepa_Hoenn,
+    [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato_Hoenn,
+    [ITEM_CORNN_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Cornn_Hoenn,
+    [ITEM_MAGOST_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Pomeg_Hoenn,
+    [ITEM_RABUTA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Rabuta_Hoenn,
+    [ITEM_NOMEL_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Nomel_Hoenn,
+    [ITEM_SPELON_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Spelon_Hoenn,
+    [ITEM_PAMTRE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Pamtre_Hoenn,
+    [ITEM_WATMEL_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Rabuta_Hoenn,
+    [ITEM_DURIN_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Durin_Hoenn,
+    [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Hondew_Hoenn,
+    [ITEM_CHILAN_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Grepa_Hoenn,
+    [ITEM_OCCA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Occa_Hoenn,
+    [ITEM_PASSHO_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Cornn_Hoenn,
+    [ITEM_WACAN_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Razz_Hoenn,
+    [ITEM_RINDO_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato_Hoenn,
+    [ITEM_YACHE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Yache_Hoenn,
+    [ITEM_CHOPLE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Chople_Hoenn,
+    [ITEM_KEBIA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Kebia_Hoenn,
+    [ITEM_SHUCA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Shuca_Hoenn,
+    [ITEM_COBA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Rawst_Hoenn,
+    [ITEM_PAYAPA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Payapa_Hoenn,
+    [ITEM_TANGA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tanga_Hoenn,
+    [ITEM_CHARTI_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Lansat_Hoenn,
+    [ITEM_KASIB_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Kasib_Hoenn,
+    [ITEM_HABAN_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Haban_Hoenn,
+    [ITEM_COLBUR_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Colbur_Hoenn,
+    [ITEM_BABIRI_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Liechi_Hoenn,
+    [ITEM_ROSELI_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Roseli_Hoenn,
+    [ITEM_LIECHI_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Liechi_Hoenn,
+    [ITEM_GANLON_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Hondew_Hoenn,
+    [ITEM_SALAC_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Aguav_Hoenn,
+    [ITEM_PETAYA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Pomeg_Hoenn,
+    [ITEM_APICOT_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Grepa_Hoenn,
+    [ITEM_LANSAT_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Lansat_Hoenn,
+    [ITEM_STARF_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Cornn_Hoenn,
+    [ITEM_ENIGMA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Durin_Hoenn,
+    [ITEM_MICLE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Micle_Hoenn,
+    [ITEM_CUSTAP_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Custap_Hoenn,
+    [ITEM_JABOCA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Jaboca_Hoenn,
+    [ITEM_ROWAP_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Rowap_Hoenn,
+    [ITEM_KEE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Pecha_Hoenn,
+    [ITEM_MARANGA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Occa_Hoenn,
+    [ITEM_ENIGMA_BERRY_E_READER - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Durin_Hoenn,
+};
+#endif // IS_HNS

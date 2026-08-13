@@ -122,6 +122,10 @@ extern const struct SpriteTemplate *const gFieldEffectObjectTemplatePointers[];
 extern const u8 gReflectionEffectPaletteMap[];
 
 extern const struct SpriteFrameImage *const gBerryTreePicTablePointers[];
+#if IS_HNS
+extern const struct SpriteFrameImage *const gBerryTreePicTablePointers_Hoenn[];
+extern const u8 *const gBerryTreePaletteSlotTablePointers_Hoenn[];
+#endif
 extern const u8 *const gBerryTreePaletteSlotTablePointers[];
 
 void ResetObjectEvents(void);

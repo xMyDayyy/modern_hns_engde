@@ -10,6 +10,7 @@
 #include "decompress.h"
 #include "event_data.h"
 #include "event_object_movement.h"
+#include "hoenn_level_scaling.h"
 #include "event_scripts.h"
 #include "faraway_island.h"
 #include "field_camera.h"
@@ -3400,6 +3401,14 @@ static void SetBerryTreeGraphicsById(struct ObjectEvent *objectEvent, u8 berryId
     const struct ObjectEventGraphicsInfo *graphicsInfo = GetObjectEventGraphicsInfo(graphicsId);
     struct Sprite *sprite = &gSprites[objectEvent->spriteId];
 #if IS_HNS
+    // In Hoenn stehen die vollstaendig gezeichneten Beerenbaeume samt ihrer
+    // Originalpaletten; in Johto/Kanto die HGSS-Fruchtsprites, deren Busch
+    // Teil des Tilesets ist.
+    if (IsHoennMapsec(gMapHeader.regionMapSectionId))
+    {
+        UpdateSpritePalette(&sObjectEventSpritePalettes[gBerryTreePaletteSlotTablePointers_Hoenn[berryId][berryStage]-2], sprite);
+    }
+    else
     {
         static const u16 sHnsBerryPalTags[] = {
             OBJ_EVENT_PAL_TAG_NPC_1_HNS,
@@ -3415,7 +3424,13 @@ static void SetBerryTreeGraphicsById(struct ObjectEvent *objectEvent, u8 berryId
 #endif
     sprite->oam.shape = graphicsInfo->oam->shape;
     sprite->oam.size = graphicsInfo->oam->size;
+#if IS_HNS
+    sprite->images = IsHoennMapsec(gMapHeader.regionMapSectionId)
+        ? gBerryTreePicTablePointers_Hoenn[berryId]
+        : gBerryTreePicTablePointers[berryId];
+#else
     sprite->images = gBerryTreePicTablePointers[berryId];
+#endif
     sprite->anims = graphicsInfo->anims;
     sprite->subspriteTables = graphicsInfo->subspriteTables;
     objectEvent->inanimate = graphicsInfo->inanimate;

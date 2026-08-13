@@ -271,6 +271,43 @@ const u32 gObjectEventPic_PamtreBerryTree[] = INCBIN_U32("graphics/object_events
 const u32 gObjectEventPic_DurinBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/durin_hns.4bpp");
 const u32 gObjectEventPic_LiechiBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/liechi_hns.4bpp");
 const u32 gObjectEventPic_LansatBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/lansat_hns.4bpp");
+
+// Hoenn behaelt seine gewohnten Beerenbaeume: dieselben Bilder wie im
+// Nicht-HnS-Build, nur unter eigenen Symbolnamen. Die HnS-Sprites zeigen
+// nur die Frucht (der Busch ist dort Teil des Tilesets) und waeren in
+// Hoenn unsichtbar.
+const u32 gObjectEventPic_BerryTreeDirtPile_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/dirt_pile.4bpp");
+const u32 gObjectEventPic_BerryTreeSprout_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/sprout.4bpp");
+const u32 gObjectEventPic_CheriBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/cheri.4bpp");
+const u32 gObjectEventPic_ChestoBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/chesto.4bpp");
+const u32 gObjectEventPic_PechaBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/pecha.4bpp");
+const u32 gObjectEventPic_RawstBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/rawst.4bpp");
+const u32 gObjectEventPic_AspearBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/aspear.4bpp");
+const u32 gObjectEventPic_LeppaBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/leppa.4bpp");
+const u32 gObjectEventPic_OranBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/oran.4bpp");
+const u32 gObjectEventPic_PersimBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/persim.4bpp");
+const u32 gObjectEventPic_LumBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/lum.4bpp");
+const u32 gObjectEventPic_SitrusBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/sitrus.4bpp");
+const u32 gObjectEventPic_FigyBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/figy.4bpp");
+const u32 gObjectEventPic_WikiBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/wiki.4bpp");
+const u32 gObjectEventPic_MagoBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/mago.4bpp");
+const u32 gObjectEventPic_AguavBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/aguav.4bpp");
+const u32 gObjectEventPic_IapapaBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/iapapa.4bpp");
+const u32 gObjectEventPic_RazzBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/razz.4bpp");
+const u32 gObjectEventPic_WepearBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/wepear.4bpp");
+const u32 gObjectEventPic_PomegBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/pomeg.4bpp");
+const u32 gObjectEventPic_KelpsyBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/kelpsy.4bpp");
+const u32 gObjectEventPic_HondewBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/hondew.4bpp");
+const u32 gObjectEventPic_GrepaBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/grepa.4bpp");
+const u32 gObjectEventPic_TamatoBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/tamato.4bpp");
+const u32 gObjectEventPic_CornnBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/cornn.4bpp");
+const u32 gObjectEventPic_RabutaBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/rabuta.4bpp");
+const u32 gObjectEventPic_NomelBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/nomel.4bpp");
+const u32 gObjectEventPic_SpelonBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/spelon.4bpp");
+const u32 gObjectEventPic_PamtreBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/pamtre.4bpp");
+const u32 gObjectEventPic_DurinBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/durin.4bpp");
+const u32 gObjectEventPic_LiechiBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/liechi.4bpp");
+const u32 gObjectEventPic_LansatBerryTree_Hoenn[] = INCBIN_U32("graphics/object_events/pics/berry_trees/lansat.4bpp");
 #else
 const u32 gObjectEventPic_BerryTreeDirtPile[] = INCBIN_U32("graphics/object_events/pics/berry_trees/dirt_pile.4bpp");
 const u32 gObjectEventPic_BerryTreeSprout[] = INCBIN_U32("graphics/object_events/pics/berry_trees/sprout.4bpp");

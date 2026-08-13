@@ -72,6 +72,11 @@ Route104_PrettyPetalFlowerShop_EventScript_GiveWailmerPail::
 	giveitem ITEM_WAILMER_PAIL
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation, MSGBOX_DEFAULT
+#if IS_HNS
+	@ Erklaert den Unterschied zu Johto/Kanto, wo die Beeren an Baeumen
+	@ hängen und von allein nachtragen.
+	msgbox Route104_PrettyPetalFlowerShop_Text_HnsBerriesDiffer, MSGBOX_DEFAULT
+#endif
 	setflag FLAG_RECEIVED_WAILMER_PAIL
 	release
 	end
@@ -95,3 +100,24 @@ Route104_PrettyPetalFlowerShop_EventScript_AlreadyReceivedBerry::
 	msgbox Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries, MSGBOX_DEFAULT
 	release
 	end
+
+#if IS_HNS
+Route104_PrettyPetalFlowerShop_Text_HnsBerriesDiffer:
+#if GERMAN
+	.string "Du kommst von weiter weg, oder?\p"
+	.string "In Johto hängen die Beeren an\n"
+	.string "Bäumen, die von allein nachtragen.\p"
+	.string "Bei uns in Hoenn pflanzt man sie\n"
+	.string "selbst und gießt sie, bis der Strauch\l"
+	.string "trägt.\p"
+	.string "Deshalb brauchst du hier eine Kanne.$"
+#else
+	.string "You're from far away, aren't you?\p"
+	.string "In JOHTO the BERRIES hang on trees\n"
+	.string "that bear fruit again on their own.\p"
+	.string "Here in HOENN you plant them\n"
+	.string "yourself and water them until the\l"
+	.string "bush bears fruit.\p"
+	.string "That's why you need a PAIL here.$"
+#endif
+#endif
