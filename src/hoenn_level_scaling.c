@@ -4,6 +4,7 @@
 #include "overworld.h"
 #include "pokemon.h"
 #include "random.h"
+#include "event_data.h"
 #include "constants/region_map_sections.h"
 #include "constants/trainers.h"
 #include "config/hoenn_scaling.h"
@@ -238,5 +239,52 @@ u16 HoennScaleTrainerMonSpecies(u16 species, u8 scaledLevel)
 {
     return species;
 }
+
+#endif
+
+#if defined(POKEMON_HNS)
+
+// Die Hoenn-Stadtskripte setzen ihr FLAG_VISITED_* im ON_TRANSITION-Skript.
+// Im Spieltest blieb Rosaltstadt trotz Besuch grau (nicht anfliegbar), also
+// wird das Flag hier beim Laden jeder Karte zusaetzlich gesetzt. Das heilt
+// auch bestehende Spielstaende, in denen das Flag fehlt.
+static const struct { u16 mapSec; u16 flag; } sHoennVisitedFlags[] =
+{
+    { MAPSEC_LITTLEROOT_TOWN,  FLAG_VISITED_LITTLEROOT_TOWN  },
+    { MAPSEC_OLDALE_TOWN,      FLAG_VISITED_OLDALE_TOWN      },
+    { MAPSEC_DEWFORD_TOWN,     FLAG_VISITED_DEWFORD_TOWN     },
+    { MAPSEC_LAVARIDGE_TOWN,   FLAG_VISITED_LAVARIDGE_TOWN   },
+    { MAPSEC_FALLARBOR_TOWN,   FLAG_VISITED_FALLARBOR_TOWN   },
+    { MAPSEC_VERDANTURF_TOWN,  FLAG_VISITED_VERDANTURF_TOWN  },
+    { MAPSEC_PACIFIDLOG_TOWN,  FLAG_VISITED_PACIFIDLOG_TOWN  },
+    { MAPSEC_PETALBURG_CITY,   FLAG_VISITED_PETALBURG_CITY   },
+    { MAPSEC_SLATEPORT_CITY,   FLAG_VISITED_SLATEPORT_CITY   },
+    { MAPSEC_MAUVILLE_CITY,    FLAG_VISITED_MAUVILLE_CITY    },
+    { MAPSEC_RUSTBORO_CITY,    FLAG_VISITED_RUSTBORO_CITY    },
+    { MAPSEC_FORTREE_CITY,     FLAG_VISITED_FORTREE_CITY     },
+    { MAPSEC_LILYCOVE_CITY,    FLAG_VISITED_LILYCOVE_CITY    },
+    { MAPSEC_MOSSDEEP_CITY,    FLAG_VISITED_MOSSDEEP_CITY    },
+    { MAPSEC_SOOTOPOLIS_CITY,  FLAG_VISITED_SOOTOPOLIS_CITY  },
+    { MAPSEC_EVER_GRANDE_CITY, FLAG_VISITED_EVER_GRANDE_CITY },
+};
+
+void TrySetHoennVisitedFlag(void)
+{
+    u32 i;
+    u32 mapSec = gMapHeader.regionMapSectionId;
+
+    for (i = 0; i < ARRAY_COUNT(sHoennVisitedFlags); i++)
+    {
+        if (sHoennVisitedFlags[i].mapSec == mapSec)
+        {
+            FlagSet(sHoennVisitedFlags[i].flag);
+            return;
+        }
+    }
+}
+
+#else
+
+void TrySetHoennVisitedFlag(void) {}
 
 #endif

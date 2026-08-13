@@ -1,5 +1,6 @@
 #include "global.h"
 #include "overworld.h"
+#include "hoenn_level_scaling.h"
 #include "constants/heal_locations.h"
 #include "battle_pyramid.h"
 #include "battle_setup.h"
@@ -939,6 +940,7 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     SetDefaultFlashLevel();
     Overworld_ClearSavedMusic();
     RunOnTransitionMapScript();
+    TrySetHoennVisitedFlag();
     InitMap();
     CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
     LoadSecondaryTilesetPalette(gMapHeader.mapLayout, TRUE); // skip copying to Faded, gamma shift will take care of it
@@ -1009,6 +1011,7 @@ static void LoadMapFromWarp(bool32 a1)
     SetDefaultFlashLevel();
     Overworld_ClearSavedMusic();
     RunOnTransitionMapScript();
+    TrySetHoennVisitedFlag();
     UpdateLocationHistoryForRoamer();
     MoveAllRoamersToOtherLocationSets();
     gChainFishingDexNavStreak = 0;
