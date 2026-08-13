@@ -1326,6 +1326,11 @@ s32 GetRematchIdxByTrainerIdx(s32 trainerIdx)
 {
     s32 rematchIdx;
 
+    // Ohne diese Abfrage traefe TRAINER_NONE den ersten leeren Tabellenplatz und
+    // gaebe einen scheinbar gueltigen Index zurueck.
+    if (trainerIdx == TRAINER_NONE)
+        return -1;
+
     for (rematchIdx = 0; rematchIdx < REMATCH_TABLE_ENTRIES; rematchIdx++)
     {
         if (gRematchTable[rematchIdx].trainerIds[0] == trainerIdx)

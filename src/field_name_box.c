@@ -41,6 +41,14 @@ void TrySpawnNamebox(u32 tileNum)
 
     StringExpandPlaceholders(strbuf, gSpeakerName);
 
+    // Ein leerer Name ergaebe eine leere Namensbox -- dann lieber gar keine.
+    if (strbuf[0] == EOS)
+    {
+        Free(strbuf);
+        DestroyNamebox();
+        return;
+    }
+
     u32 fontId = FONT_SMALL;
     u32 winWidth = OW_NAME_BOX_DEFAULT_WIDTH;
 

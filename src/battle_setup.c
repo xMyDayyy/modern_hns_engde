@@ -2237,6 +2237,9 @@ static u32 GetTrainerMatchCallFlag(u32 trainerId)
 {
     s32 i;
 
+    if (trainerId == TRAINER_NONE)
+        return 0xFFFF;
+
     for (i = 0; i < REMATCH_TABLE_ENTRIES; i++)
     {
         if (gRematchTable[i].trainerIds[0] == trainerId)

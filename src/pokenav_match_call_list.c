@@ -267,7 +267,14 @@ static u32 LoopedTask_BuildMatchCallList(s32 taskState)
 bool32 IsRematchEntryRegistered(int rematchIndex)
 {
     if (rematchIndex < REMATCH_TABLE_ENTRIES)
+    {
+        // Leere Tabellenplaetze nie als Kontakt anbieten -- sie haetten weder
+        // Namen noch Klasse und liessen sich nicht sinnvoll anrufen.
+        if (gRematchTable[rematchIndex].trainerIds[0] == TRAINER_NONE)
+            return FALSE;
+
         return FlagGet(TRAINER_REGISTERED_FLAGS_START + rematchIndex);
+    }
 
     return FALSE;
 }
