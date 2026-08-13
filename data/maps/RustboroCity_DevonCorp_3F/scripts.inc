@@ -49,9 +49,11 @@ RustboroCity_DevonCorp_3F_EventScript_MeetPresident::
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor, MSGBOX_DEFAULT
 	giveitem ITEM_LETTER
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis, MSGBOX_DEFAULT
+#if !IS_HNS
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_3F_Text_ReceivedPokenav
 	waitfanfare
+#endif
 	setflag FLAG_SYS_POKENAV_GET
 	setflag FLAG_RECEIVED_POKENAV
 	setflag FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT
@@ -231,19 +233,16 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
 #if GERMAN
 	.string "Mr. Trumm: Nun, du sollst wissen, dass\n"
-	.string "ich ein einflussreicher Präsident bin.\n"
-	.string "\p"
-	.string "Und daher würde ich dich nie um einen\n"
-	.string "Gefallen bitten, ohne eine\l"
-	.string "Gegenleistung zu erbringen!\p"
-	.string "Deshalb möchte ich dir dies hier\n"
-	.string "geben.$"
+	.string "ich ein einflussreicher Präsident bin.\p"
+	.string "Und daher weiß ich einen echten\n"
+	.string "Gefallen auch zu schätzen!\p"
+	.string "Hab vielen Dank für deine Hilfe!$"
 #else
 	.string "MR. STONE: Now, you should know that\n"
 	.string "I am a great PRESIDENT.\p"
-	.string "So, I'd never be so cheap as to ask\n"
-	.string "a favor for nothing in return.\p"
-	.string "That's why I want you to have this!$"
+	.string "And that means I know how to value\n"
+	.string "a real favor!\p"
+	.string "Thank you very much for your help!$"
 #endif
 
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
@@ -255,34 +254,18 @@ RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 #if GERMAN
-	.string "Mr. Trumm: Dieses Gerät…\p"
-	.string "Es ist ein Pokémon Navigator - oder\n"
-	.string "kurz ein PokéCom.\p"
-	.string "Ein unentbehrliches Hilfsmittel für\n"
-	.string "jeden Trainer auf Abenteuerreise.\p"
-	.string "Er enthält die Karte von Hoenn.\p"
-	.string "So kannst du ganz leicht herausfinden,\n"
-	.string "wo die Orte Faustauhaven und\l"
-	.string "Graphitport City liegen.\p"
-	.string "Ich habe übrigens gehört, dass zwei\n"
-	.string "fiese Kriminelle - Magma und Aqua\l"
-	.string "heißen sie, glaube ich - überall nur\l"
-	.string "Ärger bereiten.\p"
+	.string "Mr. Trumm: Ich habe übrigens gehört,\n"
+	.string "dass zwei fiese Kriminelle - Magma und\l"
+	.string "Aqua heißen sie, glaube ich - überall\l"
+	.string "nur Ärger bereiten.\p"
 	.string "Vielleicht solltest du eine Pause\n"
 	.string "einlegen, bevor du dich wieder auf den\l"
 	.string "Weg machst.$"
 #else
-	.string "MR. STONE: That device…\p"
-	.string "It's a POKéMON NAVIGATOR, or POKéGEAR\n"
-	.string "for short.\p"
-	.string "It's an indispensable tool for any\n"
-	.string "TRAINER on an adventure.\p"
-	.string "It has a map of the HOENN region.\p"
-	.string "You can check the locations of\n"
-	.string "DEWFORD and SLATEPORT easily!\p"
-	.string "By the way, I've heard that sinister\n"
-	.string "criminals--MAGMA and AQUA, I believe--\l"
-	.string "have been making trouble far and wide.\p"
+	.string "MR. STONE: By the way, I've heard\n"
+	.string "that sinister criminals--MAGMA and\l"
+	.string "AQUA, I believe--have been making\l"
+	.string "trouble far and wide.\p"
 	.string "I think it would be best if you rested\n"
 	.string "up before you go on your way.$"
 #endif
