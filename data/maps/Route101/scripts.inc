@@ -212,8 +212,10 @@ Route101_EventScript_TroyLicenseCall::
 	lockall
 	setvar VAR_HOENN_ARRIVAL_STATE, 5
 	pokenavcall Route101_Text_TroyLicenseCall
+	@ waitmessage wartet bereits, bis der Anruf komplett abgebaut ist
+	@ (Task_HidePokenavMessageWhenDone). Ein zusaetzliches delay sperrt
+	@ die Steuerung danach nur unnoetig weiter.
 	waitmessage
-	delay 30
 	releaseall
 	end
 
