@@ -252,31 +252,15 @@ Common_EventScript_HoennSkipIntroStates::
 @ ------------------------------------------------------------
 @ Ankunft am Strand von Route 104
 @ ------------------------------------------------------------
-@ Vier Einstiege, damit der Strandweg nicht am Ereignis vorbeifuehrt. Jeder
-@ fuehrt den Spieler auf dasselbe Zielfeld (17,52) - direkt unter die Tuer,
+@ Wird als ON_FRAME-Skript beim Betreten der Karte ausgeloest (siehe
+@ Route104_OnFrame). Der Spieler landet per warpsilent auf (12,52) und wird
+@ von hier aus den Strand hinauf auf (17,52) gefuehrt - direkt unter die Tuer,
 @ aus der Birk tritt. Birk bleibt auf (17,51) stehen und schaut nach unten,
 @ der Spieler schaut nach oben.
-Route104_EventScript_HoennArrival_From1451::
-	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennApproachFromNorth
-	waitmovement 0
-	goto Route104_EventScript_HoennArrivalScene
-
-Route104_EventScript_HoennArrival_From1452::
-	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennApproach3
-	waitmovement 0
-	goto Route104_EventScript_HoennArrivalScene
-
-Route104_EventScript_HoennArrival_From1552::
-	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennApproach2
-	waitmovement 0
-	goto Route104_EventScript_HoennArrivalScene
-
 Route104_EventScript_HoennArrival::
 	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennApproach1
+	delay 30
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennApproachBeach
 	waitmovement 0
 	goto Route104_EventScript_HoennArrivalScene
 
@@ -324,8 +308,6 @@ LittlerootTown_ProfessorBirchsLab_EventScript_HoennWelcome::
 	closemessage
 	msgbox BirchsLab_Text_HoennDexExplain, MSGBOX_DEFAULT
 	closemessage
-	msgbox BirchsLab_Text_HoennGoodLuck, MSGBOX_DEFAULT
-	closemessage
 	setvar VAR_HOENN_ARRIVAL_STATE, 3
 	setflag FLAG_SYS_HOENN_DEX_GET
 	setflag FLAG_HIDE_ROUTE104_HOENN_BIRCH
@@ -365,24 +347,10 @@ Common_Movement_HoennBirchFacePlayer:
 	face_down
 	step_end
 
-@ Anmarsch auf (17,52) - je nach ausloesendem Triggerfeld unterschiedlich lang.
-Common_Movement_HoennApproach1:
-	walk_right
-	step_end
-
-Common_Movement_HoennApproach2:
+@ Anmarsch vom Anlandepunkt (12,52) auf das Zielfeld (17,52).
+Common_Movement_HoennApproachBeach:
 	walk_right
 	walk_right
-	step_end
-
-Common_Movement_HoennApproach3:
-	walk_right
-	walk_right
-	walk_right
-	step_end
-
-Common_Movement_HoennApproachFromNorth:
-	walk_down
 	walk_right
 	walk_right
 	walk_right
@@ -402,62 +370,43 @@ Common_Movement_HoennFaceRight:
 Common_Text_HoennSetSail:
 #if GERMAN
 	.string "Matrose: Hoenn? Das ist eine weite\n"
-	.string "Fahrt, Kleines.\p"
-	.string "Aber für einen Champion machen wir\n"
-	.string "das gern. Leinen los!$"
+	.string "Fahrt.\p"
+	.string "Dort leben viele Pokémon, die es\n"
+	.string "hier nicht gibt. Leinen los!$"
 #else
-	.string "SAILOR: HOENN? That's a long trip,\n"
-	.string "kid.\p"
-	.string "But for a CHAMPION we'll gladly do\n"
-	.string "it. Cast off!$"
-#endif
-
-Route104_Text_HoennArrivalWow:
-#if GERMAN
-	.string "Salzige Luft, fremde Rufe in den\n"
-	.string "Bäumen - das ist also Hoenn.\p"
-	.string "Ein ganzer Kontinent voller Pokémon,\n"
-	.string "die es in Johto und Kanto nicht gibt.$"
-#else
-	.string "Salt air, unfamiliar cries in the\n"
-	.string "trees - so this is HOENN.\p"
-	.string "A whole region full of POKéMON\n"
-	.string "you've never seen back home.$"
+	.string "SAILOR: HOENN? That's a long trip.\p"
+	.string "Plenty of POKéMON live there that\n"
+	.string "you won't find here. Cast off!$"
 #endif
 
 Route104_Text_BirchGreeting:
 #if GERMAN
-	.string "???: Da bist du ja!\p"
-	.string "Ich bin Prof. Birk. Troy hat mir\n"
-	.string "von dir geschrieben.\p"
-	.string "Der Champion aus Johto, sagte er,\n"
-	.string "und ich solle dich gut behandeln.\p"
-	.string "Komm mit in mein Labor, {PLAYER}.\n"
-	.string "Ich habe etwas für dich.$"
+	.string "???: Du musst {PLAYER} sein.\p"
+	.string "Troy hat mir schon geschrieben,\n"
+	.string "dass du herkommen wirst.\p"
+	.string "Komm mit in mein Labor - ich habe\n"
+	.string "da etwas für dich.$"
 #else
-	.string "???: There you are!\p"
-	.string "I'm PROF. BIRCH. STEVEN wrote to\n"
-	.string "me about you.\p"
-	.string "The CHAMPION from JOHTO, he said,\l"
-	.string "and I should treat you well.\p"
-	.string "Come to my LAB, {PLAYER}.\n"
-	.string "I have something for you.$"
+	.string "???: You must be {PLAYER}.\p"
+	.string "STEVEN already wrote to me that\n"
+	.string "you were on your way.\p"
+	.string "Come along to my LAB - I have\n"
+	.string "something for you there.$"
 #endif
 
 BirchsLab_Text_HoennWelcome1:
 #if GERMAN
 	.string "Prof. Birk: Willkommen in Hoenn!\p"
-	.string "Dein Pokédex kennt die Arten aus\n"
-	.string "Johto und Kanto - aber hier draußen\l"
-	.string "leben Pokémon, die dort niemand\l"
-	.string "je gesehen hat.\p"
-	.string "Halt ihn mal kurz hoch.$"
+	.string "Troy hat mir erzählt, du seist ein\n"
+	.string "erfahrener Trainer - und dass du mir\l"
+	.string "bei meinem Vorhaben helfen könntest.\p"
+	.string "Halt mal kurz deinen Pokédex hoch.$"
 #else
 	.string "PROF. BIRCH: Welcome to HOENN!\p"
-	.string "Your POKéDEX knows the species of\n"
-	.string "JOHTO and KANTO - but out here live\l"
-	.string "POKéMON no one there has ever seen.\p"
-	.string "Hold it up for a moment.$"
+	.string "STEVEN told me you're a seasoned\n"
+	.string "TRAINER - and that you might be\l"
+	.string "able to help me with my work.\p"
+	.string "Hold up your POKéDEX for a moment.$"
 #endif
 
 BirchsLab_Text_HoennDexUpgrade:
@@ -471,21 +420,24 @@ BirchsLab_Text_HoennDexUpgrade:
 
 BirchsLab_Text_HoennDexExplain:
 #if GERMAN
-	.string "Prof. Birk: So. Jetzt führt er die\n"
-	.string "Arten dieser Region gleich mit auf.\p"
-	.string "Eine einzige Liste - Kanto, Johto\n"
-	.string "und Hoenn nebeneinander.\p"
+	.string "Prof. Birk: So. Ich habe deinen\n"
+	.string "Pokédex auf die hiesige Region\l"
+	.string "erweitert.\p"
 	.string "Ich forsche seit Jahren an den\n"
 	.string "Lebensräumen dieser Region.\p"
 	.string "Wenn du mir hilfst, sie zu füllen,\n"
-	.string "wäre mir sehr geholfen.$"
+	.string "wäre mir sehr geholfen.\p"
+	.string "Viel Glück auf deiner Reise,\n"
+	.string "{PLAYER}!$"
 #else
-	.string "PROF. BIRCH: There. Now it records\n"
-	.string "everything you meet out here, too.\p"
+	.string "PROF. BIRCH: There. I've expanded\n"
+	.string "your POKéDEX to cover this region.\p"
 	.string "I've studied the habitats of this\n"
 	.string "region for years.\p"
 	.string "If you help me fill it in, that\n"
-	.string "would mean a great deal to me.$"
+	.string "would mean a great deal to me.\p"
+	.string "Good luck on your journey,\n"
+	.string "{PLAYER}!$"
 #endif
 
 BirchsLab_Text_HoennGoodLuck:

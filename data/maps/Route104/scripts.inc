@@ -4,6 +4,12 @@ Route104_MapScripts::
 	.byte 0
 
 Route104_OnFrame:
+#if IS_HNS
+	@ Ankunft aus Johto: laeuft direkt beim Betreten der Karte an, damit der
+	@ Strandweg nach Sueden nicht daran vorbeifuehren kann. Den Anmarsch
+	@ uebernimmt das Skript selbst (siehe data/scripts/hoenn_arrival.inc).
+	map_script_2 VAR_HOENN_ARRIVAL_STATE, 1, Route104_EventScript_HoennArrival
+#endif
 	map_script_2 VAR_BOARD_BRINEY_BOAT_STATE, 1, Route104_EventScript_StartSailToDewford
 	.2byte 0
 
