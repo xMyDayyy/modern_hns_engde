@@ -1837,12 +1837,11 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
         FLAG_VISITED_SAFFRON_CITY,   FLAG_VISITED_FUCHSIA_CITY,
         FLAG_VISITED_CINNABAR_ISLAND,
     };
-    static const u16 sTeamSpecies[] = { SPECIES_TYPHLOSION, SPECIES_AMPHAROS, SPECIES_GYARADOS, SPECIES_CROBAT, SPECIES_MACHAMP, SPECIES_SKARMORY };
-    static const u8 sTeamLevels[]   = { 62, 58, 58, 57, 59, 57 };
-    static const u16 sJkHms[] =
+    // Testteam: nur zum Durchspielen gedacht, nicht auf Kampfbalance ausgelegt.
+    static const u16 sTeamSpecies[] =
     {
-        ITEM_HM_CUT, ITEM_HM_FLY, ITEM_HM_SURF, ITEM_HM_STRENGTH,
-        ITEM_HM_FLASH, ITEM_HM_ROCK_SMASH, ITEM_HM_WATERFALL, ITEM_HM_WHIRLPOOL,
+        SPECIES_RAYQUAZA, SPECIES_KYOGRE, SPECIES_CHARIZARD,
+        SPECIES_ZAPDOS, SPECIES_SALAMENCE, SPECIES_PROBOPASS,
     };
     u32 i;
     u16 f;
@@ -1864,21 +1863,23 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
         FlagSet(sJkVisitedFlags[i]);
     // S.S. Aqua: Kanto-Route abgeschlossen -> Hoenn-Option im Hafen
     VarSet(VAR_SSAQUA_STATE, 7);
-    // Levelgerechtes Champion-Team (Gen 1-2) mit VM-Attacken
+    // Testteam auf Level 100
     ZeroPlayerPartyMons();
     for (i = 0; i < ARRAY_COUNT(sTeamSpecies); i++)
-        ScriptGiveMon(sTeamSpecies[i], sTeamLevels[i], ITEM_NONE);
-    GiveMoveToMon(&gPlayerParty[2], MOVE_SURF);
-    GiveMoveToMon(&gPlayerParty[2], MOVE_WATERFALL);
-    GiveMoveToMon(&gPlayerParty[4], MOVE_STRENGTH);
-    GiveMoveToMon(&gPlayerParty[5], MOVE_FLY);
+        ScriptGiveMon(sTeamSpecies[i], MAX_LEVEL, ITEM_NONE);
     CalculatePlayerPartyCount();
     SetMoney(&gSaveBlock1Ptr->money, 200000);
-    // Die acht VMs von Johto/Kanto in den Beutel. Ohne sie erlauben
-    // PartyHasMonWithSurf() & Co. das "kann es lernen" nicht -- dann koennen
-    // nur Pokemon die Feldattacke nutzen, die den Zug wirklich beherrschen.
-    for (i = 0; i < ARRAY_COUNT(sJkHms); i++)
-        AddBagItem(sJkHms[i], 1);
+    // Alle TMs und VMs je einmal in den Beutel. Die VMs sind noetig, damit
+    // PartyHasMonWithSurf() & Co. das "kann es lernen" ueberhaupt erlauben.
+    for (i = ITEM_TM01; i <= ITEM_HM08; i++)
+        AddBagItem(i, 1);
+    // Pokedex Kanto + Johto vollstaendig (1-251). Hoenn bleibt bewusst offen,
+    // damit sich die Freischaltung bei der Ankunft pruefen laesst.
+    for (i = 1; i <= NATIONAL_DEX_CELEBI; i++)
+    {
+        GetSetPokedexFlag(i, FLAG_SET_SEEN);
+        GetSetPokedexFlag(i, FLAG_SET_CAUGHT);
+    }
 
     PlaySE(SE_EXP_MAX);
     Debug_DestroyMenu_Full(taskId);

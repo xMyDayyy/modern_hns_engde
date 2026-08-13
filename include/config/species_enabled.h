@@ -9,7 +9,13 @@
 #define P_GEN_1_POKEMON                  TRUE // Generation 1 Pokémon (RGBY)
 #define P_GEN_2_POKEMON                  TRUE // Generation 2 Pokémon (GSC)
 #define P_GEN_3_POKEMON                  TRUE // Generation 3 Pokémon (RSE, FRLG)
-#define P_GEN_4_POKEMON                  TRUE // Generation 4 Pokémon (DPPt, HGSS)
+// HnS: Nur die Gen-4-*Entwicklungen* bestehender Linien sind erwuenscht
+// (Ambidiffel, Snibunna, Magnezone, Rihornior, Elevoltek, Magbrant,
+// Togekiss, Folipurba, Glaziola, Skorgro, Mamutel, Porygon-Z, Galagladi,
+// Voluminas-freie Linien usw.). Die haengen an den Familien ihrer Vorstufen
+// und bleiben ueber P_GEN_4_CROSS_EVOS erhalten. Die 44 reinen Gen-4-Linien
+// (Chelast, Panflam, Plinfa, Staralili, …) sind damit abgeschaltet.
+#define P_GEN_4_POKEMON                  FALSE // Generation 4 Pokémon (DPPt, HGSS)
 #define P_GEN_5_POKEMON                  FALSE // Generation 5 Pokémon (BW, B2W2)
 #define P_GEN_6_POKEMON                  FALSE // Generation 6 Pokémon (XY, ORAS)
 #define P_GEN_7_POKEMON                  FALSE // Generation 7 Pokémon (SM, USUM, LGPE)
