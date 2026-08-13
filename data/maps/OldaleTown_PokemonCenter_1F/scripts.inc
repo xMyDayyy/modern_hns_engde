@@ -55,7 +55,7 @@ OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
 	.string "Pokémon-Center sind eine großartige\n"
 	.string "Einrichtung!\p"
 	.string "Du kannst ihren Service sooft du\n"
-	.string "willst\n"
+	.string "willst\l"
 	.string "in Anspruch nehmen - kostenlos! Daher\l"
 	.string "kannst du unbeschwert umherreisen.$"
 #else

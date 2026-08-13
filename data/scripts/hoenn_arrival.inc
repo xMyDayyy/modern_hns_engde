@@ -430,7 +430,7 @@ Route104_Text_BirchGreeting:
 	.string "???: Da bist du ja!\p"
 	.string "Ich bin Prof. Birk. Troy hat mir\n"
 	.string "von dir geschrieben.\p"
-	.string "Der Champion aus Johto, sagte er,\l"
+	.string "Der Champion aus Johto, sagte er,\n"
 	.string "und ich solle dich gut behandeln.\p"
 	.string "Komm mit in mein Labor, {PLAYER}.\n"
 	.string "Ich habe etwas für dich.$"

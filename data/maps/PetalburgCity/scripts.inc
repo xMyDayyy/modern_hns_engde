@@ -901,7 +901,7 @@ PetalburgCity_Text_WellMaybeNot:
 PetalburgCity_Text_ImLookingForTalentedTrainers:
 #if GERMAN
 	.string "Ich reise durch das Land, immer auf\n"
-	.string "der\n"
+	.string "der\l"
 	.string "Suche nach talentierten Trainern.\p"
 	.string "Tut mir Leid, wenn ich dich\n"
 	.string "aufgehalten habe.$"

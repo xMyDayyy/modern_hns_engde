@@ -351,7 +351,7 @@ OldaleTown_Text_SavingMyProgress:
 OldaleTown_Text_IWorkAtPokemonMart:
 #if GERMAN
 	.string "Hi!\n"
-	.string "Ich arbeite in einem Pkmn-Supermarkt.\n"
+	.string "Ich arbeite in einem Pkmn-Supermarkt.\l"
 	.string "\p"
 	.string "Kommst du bitte einmal mit mir?$"
 #else
@@ -381,9 +381,9 @@ OldaleTown_Text_ThisIsAPokemonMart:
 OldaleTown_Text_PotionExplanation:
 #if GERMAN
 	.string "Ein Trank kann zu jeder Zeit\n"
-	.string "eingesetzt\n"
+	.string "eingesetzt\l"
 	.string "werden, daher ist er in manchen\l"
-	.string "Situationen wertvoller als ein\n"
+	.string "Situationen wertvoller als ein\l"
 	.string "Pokémon-\l"
 	.string "Center.$"
 #else

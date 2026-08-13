@@ -68,7 +68,7 @@ PetalburgCity_WallysHouse_EventScript_ReceivedHMSurf::
 PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
 #if GERMAN
 	.string "Du…\n"
-	.string "Ach, du bist bestimmt {PLAYER}{KUN},\n"
+	.string "Ach, du bist bestimmt {PLAYER}{KUN},\l"
 	.string "richtig? \p"
 	.string "Danke, dass du dich um Heiko gekümmert\n"
 	.string "hast.\p"
@@ -111,7 +111,7 @@ PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
 PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 #if GERMAN
 	.string "Hallo {PLAYER}{KUN}! Bitte\n"
-	.string "entschuldige,\n"
+	.string "entschuldige,\l"
 	.string "dass wir dich den weiten Weg hierher\l"
 	.string "gerufen haben.\p"
 	.string "Unser Heiko ist viel robuster ge-\n"
@@ -169,10 +169,10 @@ PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
 	.string "Oh! Du hast Heiko in Prachtpolis City\n"
 	.string "getroffen?\p"
 	.string "Ach, {PLAYER}{KUN}, du willst mich auf\n"
-	.string "den Arm\n"
+	.string "den Arm\l"
 	.string "nehmen!\p"
 	.string "Er mag sich gesundheitlich erholt\n"
-	.string "haben, aber er wird nicht alleine so\n"
+	.string "haben, aber er wird nicht alleine so\l"
 	.string "weit\l"
 	.string "fortgegangen sein!$"
 #else

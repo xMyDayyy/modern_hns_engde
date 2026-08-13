@@ -65,7 +65,7 @@ PetalburgCity_Mart_EventScript_Man::
 PetalburgCity_Mart_Text_WeakWillGrowStronger:
 #if GERMAN
 	.string "Auch wenn ein Pokémon jetzt noch\n"
-	.string "schwach ist - es wird ständig stärker.\n"
+	.string "schwach ist - es wird ständig stärker.\l"
 	.string "\p"
 	.string "Das Schlüsselwort heißt Liebe!\n"
 	.string "Liebe für deine Pokémon!$"

@@ -428,7 +428,7 @@ PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
 PlayersHouse_1F_Text_DontPushYourselfTooHard:
 #if GERMAN
 	.string "Überanstreng dich nicht, Liebes.\n"
-	.string "Du kannst jederzeit nach Hause kommen.\n"
+	.string "Du kannst jederzeit nach Hause kommen.\l"
 	.string "\p"
 	.string "Und jetzt nichts wie los, Schatz!$"
 #else
@@ -618,7 +618,7 @@ PlayersHouse_1F_Text_WhatColorDidTheySay:
 PlayersHouse_1F_Text_StillUnknownPokemon:
 #if GERMAN
 	.string "Mutter: Also, ist das nicht\n"
-	.string "unglaublich?\n"
+	.string "unglaublich?\l"
 	.string "Es gibt tatsächlich noch unbekannte\l"
 	.string "Pokémon!$"
 #else

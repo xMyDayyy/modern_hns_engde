@@ -106,7 +106,7 @@ Route104_MrBrineysHouse_Text_WaitUpPeeko:
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
 #if GERMAN
 	.string "Hm? Du bist {PLAYER}{KUN}!\n"
-	.string "Du hast meinen Liebling Pecko\n"
+	.string "Du hast meinen Liebling Pecko\l"
 	.string "gerettet!\l"
 	.string "Wir verdanken dir sehr viel!\p"
 	.string "Wie bitte?\n"

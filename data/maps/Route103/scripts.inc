@@ -470,10 +470,10 @@ Route103_Text_MayDefeated:
 Route103_Text_MayTimeToHeadBack:
 #if GERMAN
 	.string "Maike: Ich glaube, ich weiß jetzt,\n"
-	.string "warum\n"
+	.string "warum\l"
 	.string "mein Vater dich ausgesucht hat.\p"
 	.string "Ich meine, du hast dein Pokémon erst\n"
-	.string "sehr kurze Zeit und es mag dich\n"
+	.string "sehr kurze Zeit und es mag dich\l"
 	.string "bereits. \p"
 	.string "Du wirst es einfach haben, dich mit\n"
 	.string "jeder Art von Pokémon anzufreunden.\p"
@@ -533,7 +533,7 @@ Route103_Text_BrendanTimeToHeadBack:
 	.string "Du hast dein Pokémon noch nicht lange,\n"
 	.string "und doch mag es dich schon.\p"
 	.string "{PLAYER}, ich glaube, du kannst mit\n"
-	.string "jedem Pokémon Freundschaft schließen.\n"
+	.string "jedem Pokémon Freundschaft schließen.\l"
 	.string "\p"
 	.string "Wir sollten nun zurück zum Labor\n"
 	.string "gehen.$"

@@ -761,7 +761,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "Mein Kind, {RIVAL}, studiert ebenfalls\n"
 	.string "Pokémon und hilft mir dabei sehr.\p"
 	.string "{PLAYER}{KUN}, meinst du nicht, es\n"
-	.string "wäre eine\n"
+	.string "wäre eine\l"
 	.string "gute Idee, wenn du dich mit {RIVAL}\l"
 	.string "triffst?$"
 #else
@@ -901,7 +901,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 #if GERMAN
 	.string "Maike: Es macht unheimlich viel Spaß,\n"
-	.string "all\n"
+	.string "all\l"
 	.string "die verschiedenen Pokémon zu fangen!\p"
 	.string "Ich schaue mich wirklich überall um,\n"
 	.string "denn ich will die unterschiedlichsten\l"
@@ -1017,7 +1017,7 @@ LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
 #if GERMAN
 	.string "Prof. Birk: Nun…\p"
 	.string "{PLAYER}{KUN} und {RIVAL}, ich hatte\n"
-	.string "euch\n"
+	.string "euch\l"
 	.string "gebeten, mir bei meinen Pokémon-\l"
 	.string "Studien zu helfen.\p"
 	.string "Dank eurer Hilfe kommen neue Fakten\n"
@@ -1210,7 +1210,7 @@ LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile:
 #if GERMAN
 	.string "Prof. Birk: Das Wasser-Pokémon\n"
-	.string "Karnimani hat dein Interesse geweckt?\n"
+	.string "Karnimani hat dein Interesse geweckt?\l"
 	.string "\p"
 	.string "Eine gute Wahl!\p"
 	.string "Du möchtest Karnimani haben?$"
