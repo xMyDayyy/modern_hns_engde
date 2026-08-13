@@ -397,6 +397,13 @@ LittlerootTown_EventScript_BirchsLabSign::
 
 LittlerootTown_EventScript_BrendansHouseSign::
 	lockall
+#if IS_HNS
+	@ HnS: Die Haeuser sind fest vergeben - links Arenaleiter Norman,
+	@ rechts Prof. Birk. Die Junge/Maedchen-Wahl spielt keine Rolle mehr.
+	msgbox LittlerootTown_Text_NormansHouse, MSGBOX_DEFAULT
+	releaseall
+	end
+#endif
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_PlayersHouseSignMale
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_BirchsHouseSignFemale
@@ -413,6 +420,11 @@ LittlerootTown_EventScript_BirchsHouseSignFemale::
 
 LittlerootTown_EventScript_MaysHouseSign::
 	lockall
+#if IS_HNS
+	msgbox LittlerootTown_Text_ProfBirchsHouse, MSGBOX_DEFAULT
+	releaseall
+	end
+#endif
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_BirchsHouseSignMale
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_PlayersHouseSignFemale
@@ -1124,6 +1136,13 @@ LittlerootTown_Text_PlayersHouse:
 	.string "Haus von {PLAYER}$"
 #else
 	.string "{PLAYER}'s HOUSE$"
+#endif
+
+LittlerootTown_Text_NormansHouse:
+#if GERMAN
+	.string "Haus von Arenaleiter Norman$"
+#else
+	.string "GYM LEADER NORMAN'S HOUSE$"
 #endif
 
 LittlerootTown_Text_ProfBirchsHouse:
