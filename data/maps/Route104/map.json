@@ -560,12 +560,30 @@
     },
     {
       "type": "trigger",
+      "x": 14,
+      "y": 51,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "1",
+      "script": "Route104_EventScript_HoennArrival_From1451"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 52,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "1",
+      "script": "Route104_EventScript_HoennArrival_From1452"
+    },
+    {
+      "type": "trigger",
       "x": 15,
       "y": 52,
       "elevation": 3,
       "var": "VAR_HOENN_ARRIVAL_STATE",
       "var_value": "1",
-      "script": "Route104_EventScript_HoennArrival"
+      "script": "Route104_EventScript_HoennArrival_From1552"
     },
     {
       "type": "trigger",

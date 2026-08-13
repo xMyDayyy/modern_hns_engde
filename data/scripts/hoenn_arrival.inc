@@ -252,8 +252,35 @@ Common_EventScript_HoennSkipIntroStates::
 @ ------------------------------------------------------------
 @ Ankunft am Strand von Route 104
 @ ------------------------------------------------------------
+@ Vier Einstiege, damit der Strandweg nicht am Ereignis vorbeifuehrt. Jeder
+@ fuehrt den Spieler auf dasselbe Zielfeld (17,52) - direkt unter die Tuer,
+@ aus der Birk tritt. Birk bleibt auf (17,51) stehen und schaut nach unten,
+@ der Spieler schaut nach oben.
+Route104_EventScript_HoennArrival_From1451::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennApproachFromNorth
+	waitmovement 0
+	goto Route104_EventScript_HoennArrivalScene
+
+Route104_EventScript_HoennArrival_From1452::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennApproach3
+	waitmovement 0
+	goto Route104_EventScript_HoennArrivalScene
+
+Route104_EventScript_HoennArrival_From1552::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennApproach2
+	waitmovement 0
+	goto Route104_EventScript_HoennArrivalScene
+
 Route104_EventScript_HoennArrival::
 	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennApproach1
+	waitmovement 0
+	goto Route104_EventScript_HoennArrivalScene
+
+Route104_EventScript_HoennArrivalScene::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennStopAndLook
 	waitmovement 0
 	addobject LOCALID_HOENN_BIRCH
@@ -263,9 +290,7 @@ Route104_EventScript_HoennArrival::
 	applymovement LOCALID_HOENN_BIRCH, Common_Movement_HoennExclaim
 	waitmovement 0
 	delay 20
-	applymovement LOCALID_HOENN_BIRCH, Common_Movement_HoennBirchWalkToPlayer
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_HoennFacePlayerRight
+	applymovement LOCALID_HOENN_BIRCH, Common_Movement_HoennBirchFacePlayer
 	waitmovement 0
 	playbgm MUS_ENCOUNTER_MALE, FALSE
 	msgbox Route104_Text_BirchGreeting, MSGBOX_DEFAULT
@@ -333,6 +358,34 @@ Common_Movement_HoennBirchLeaveHouse:
 Common_Movement_HoennBirchWalkToPlayer:
 	walk_down
 	face_left
+	step_end
+
+@ Birk bleibt eine Kachel ueber dem Spieler stehen und sieht ihn an.
+Common_Movement_HoennBirchFacePlayer:
+	face_down
+	step_end
+
+@ Anmarsch auf (17,52) - je nach ausloesendem Triggerfeld unterschiedlich lang.
+Common_Movement_HoennApproach1:
+	walk_right
+	step_end
+
+Common_Movement_HoennApproach2:
+	walk_right
+	walk_right
+	step_end
+
+Common_Movement_HoennApproach3:
+	walk_right
+	walk_right
+	walk_right
+	step_end
+
+Common_Movement_HoennApproachFromNorth:
+	walk_down
+	walk_right
+	walk_right
+	walk_right
 	step_end
 
 Common_Movement_HoennFaceUp:
