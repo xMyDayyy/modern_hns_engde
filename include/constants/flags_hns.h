@@ -858,19 +858,16 @@
 #define HNS_CONTENT_FLAGS_END                       0x308
 
 // Extended content flags (0x36A – 0x495)
-// 300 slots for new content; 0x496–0x4FF reserved for future expansion.
+// 300 slots for new content.
 //
-// WARNING: this block butts directly against the trainer registered (match call)
-// flags below it, with NO gap. Those start at 0x310 and use one flag per rematch
-// table entry, so with REMATCH_TABLE_ENTRIES == 90 they currently end at 0x369 --
-// exactly one below HNS_EXTENDED_CONTENT_START. Adding a 91st rematch trainer makes
-// its FLAG_REGISTERED_* alias FLAG_DECORATION_1, and nothing catches it: the writer
-// (pokenav_match_call_data.c RegisterTrainerInMatchCall) indexes the table directly,
-// while decorations are touched via FLAG_DECORATION_1 + gSpecialVar_0x8004 in
-// secret_base.c. Note MAX_REMATCH_ENTRIES is 100, so the saveblock reserves 10 more
-// entries than there is flag room for -- the reservation is NOT the safe limit here.
-// If the rematch table needs to grow, move this whole block up into the free
-// 0x496-0x4FF window first (or wherever there is room), do not extend downward.
+// Die Registrierungsflags des Match Call lagen frueher direkt unter diesem Block
+// (ab 0x310) und kollidierten dort mit 90 Hoenn-Inhaltsflags derselben Adressen.
+// Sie stehen jetzt im vorher freien Fenster ab 0x496 (siehe
+// TRAINER_REGISTERED_FLAGS_START weiter unten); zwischen 0x36A und 0x495 bleibt
+// dieser Block unveraendert.
+//
+// Note MAX_REMATCH_ENTRIES is 100, so the saveblock reserves 10 more entries than
+// there is flag room for -- the reservation is NOT the safe limit here.
 #define HNS_EXTENDED_CONTENT_START                  0x36A
 #define FLAG_DECORATION_1                           (HNS_EXTENDED_CONTENT_START + 0)
 #define FLAG_DECORATION_2                           (HNS_EXTENDED_CONTENT_START + 1)
@@ -1186,10 +1183,22 @@
 #define FLAG_MELEMELE_HIDDEN_ITEM                   (HNS_EXTENDED_CONTENT_START + 299)
 #define HNS_EXTENDED_CONTENT_COUNT                  300
 #define HNS_EXTENDED_CONTENT_END                    (HNS_EXTENDED_CONTENT_START + HNS_EXTENDED_CONTENT_COUNT - 1)
-// 0x496–0x4FF remaining reserved for future expansion
+// 0x496 folgt der Match-Call-Registrierungsblock (siehe unten), 0x4F0–0x4FF frei
 
 // Trainer registered (match call) flags — one per rematchable trainer
-#define TRAINER_REGISTERED_FLAGS_START               0x310
+//
+// ACHTUNG: Dieser Block darf NICHT auf 0x310 zurueckgesetzt werden. Die Adressen
+// 0x310-0x369 sind in diesem Header bereits vollstaendig durch 90 Hoenn-Inhalts-
+// flags belegt (FLAG_RECEIVED_*, FLAG_REGISTERED_STEVEN_POKENAV, die Trickhaus-
+// Schalter, die Regi-Raetsel und saemtliche FLAG_VISITED_*-Flugpunkte). Jede dort
+// gesetzte Hoenn-Fahne haette sonst zugleich einen PokeCom-Kontakt registriert --
+// bei den in der HnS-Rematch-Tabelle leeren Plaetzen fuehrte das zu Anrufen ohne
+// Namen und ohne Text.
+//
+// Fenster: 0x496 + REMATCH_TABLE_ENTRIES (90) - 1 = 0x4EF.
+// Frei bleiben 0x4F0-0x4FF (16 Flags) bis TRAINER_FLAGS_START (0x500). Waechst die
+// Rematch-Tabelle ueber 106 Eintraege, muss der Block erneut umziehen.
+#define TRAINER_REGISTERED_FLAGS_START               0x496
 #define FLAG_REGISTERED_JOEY_HNS            (TRAINER_REGISTERED_FLAGS_START + REMATCH_ROSE)
 #define FLAG_REGISTERED_WADE_HNS            (TRAINER_REGISTERED_FLAGS_START + REMATCH_ANDRES)
 #define FLAG_REGISTERED_RALPH_HNS           (TRAINER_REGISTERED_FLAGS_START + REMATCH_DUSTY)
