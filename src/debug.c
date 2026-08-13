@@ -1839,6 +1839,11 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
     };
     static const u16 sTeamSpecies[] = { SPECIES_TYPHLOSION, SPECIES_AMPHAROS, SPECIES_GYARADOS, SPECIES_CROBAT, SPECIES_MACHAMP, SPECIES_SKARMORY };
     static const u8 sTeamLevels[]   = { 62, 58, 58, 57, 59, 57 };
+    static const u16 sJkHms[] =
+    {
+        ITEM_HM_CUT, ITEM_HM_FLY, ITEM_HM_SURF, ITEM_HM_STRENGTH,
+        ITEM_HM_FLASH, ITEM_HM_ROCK_SMASH, ITEM_HM_WATERFALL, ITEM_HM_WHIRLPOOL,
+    };
     u32 i;
     u16 f;
 
@@ -1869,6 +1874,11 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
     GiveMoveToMon(&gPlayerParty[5], MOVE_FLY);
     CalculatePlayerPartyCount();
     SetMoney(&gSaveBlock1Ptr->money, 200000);
+    // Die acht VMs von Johto/Kanto in den Beutel. Ohne sie erlauben
+    // PartyHasMonWithSurf() & Co. das "kann es lernen" nicht -- dann koennen
+    // nur Pokemon die Feldattacke nutzen, die den Zug wirklich beherrschen.
+    for (i = 0; i < ARRAY_COUNT(sJkHms); i++)
+        AddBagItem(sJkHms[i], 1);
 
     PlaySE(SE_EXP_MAX);
     Debug_DestroyMenu_Full(taskId);
