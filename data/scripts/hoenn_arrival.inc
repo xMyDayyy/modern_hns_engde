@@ -408,14 +408,11 @@ Common_Movement_HoennFaceRight:
 @ ------------------------------------------------------------
 Common_Text_HoennSetSail:
 #if GERMAN
-	.string "Matrose: Hoenn? Das ist eine weite\n"
-	.string "Fahrt.\p"
-	.string "Dort leben viele Pokémon, die es\n"
-	.string "hier nicht gibt. Leinen los!$"
+	.string "Wir legen bald ab! Geh an Bord.\n"
+	.string "Nächster Halt: Hoenn!$"
 #else
-	.string "SAILOR: HOENN? That's a long trip.\p"
-	.string "Plenty of POKéMON live there that\n"
-	.string "you won't find here. Cast off!$"
+	.string "We cast off soon! Get on board.\n"
+	.string "Next stop: HOENN!$"
 #endif
 
 Route104_Text_BirchGreeting:
