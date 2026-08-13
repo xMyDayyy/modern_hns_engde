@@ -1321,11 +1321,15 @@ static void BufferHofDebutTime(void)
 #if IS_HNS
 static void PrintRegionLabelsOnBack(void)
 {
-    // Labels stehen linksbuendig UEBER ihrer Ordenreihe (Reihen liegen bei
-    // Pixel 64-80 bzw. 88-104; links davon ist nur Rahmen, kein Textplatz).
-    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 32, 54, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
+    // Labels stehen LINKS NEBEN ihrer Ordenreihe, auf gleicher Hoehe.
+    // Fensterursprung von WIN_CARD_TEXT ist Bildschirm (8,8), die Ordenreihen
+    // liegen auf Bildschirm-y 64-80 (Kanto) bzw. 88-104 (Hoenn) -- im Fenster
+    // also 56-72 und 80-96. Mit +2 sitzt die 12 px hohe Kleinschrift mittig.
+    // Waagerecht: Label ab Fenster-x 2 (Bildschirm 10), 25 px breit (Kanto wie
+    // Hoenn), danach beginnen die Orden bei Kachel 5 (Bildschirm 40).
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 2, 58, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 32, 80, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 2, 82, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
 }
 #endif
 
@@ -1703,7 +1707,9 @@ static void DrawStarsAndBadgesOnCard(void)
 #if IS_HNS
 static void DrawExtraBadgesOnBack(void)
 {
-    u8 i, x = 4;
+    // Kachel 5 statt 4: links davon steht jetzt das Regionslabel
+    // (siehe PrintRegionLabelsOnBack).
+    u8 i, x = 5;
     u8 palNum = 6;
     u16 tileNum = 192 + 32;
 
@@ -1720,7 +1726,7 @@ static void DrawExtraBadgesOnBack(void)
     // Hoenn-Ordenreihe (erscheint erst nach Birks Uebergabe)
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
     {
-        x = 4;
+        x = 5;
         tileNum = 192 + 64;
         for (i = 0; i < 8; i++, tileNum += 2, x += 3)
         {
