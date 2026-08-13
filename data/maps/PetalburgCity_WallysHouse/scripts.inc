@@ -19,7 +19,19 @@ PetalburgCity_WallysHouse_OnFrame:
 PetalburgCity_WallysHouse_EventScript_GiveHMSurf::
 	lockall
 	msgbox PetalburgCity_WallysHouse_Text_PleaseExcuseUs, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: Statt der VM (die der Spieler laengst besitzt) wird die
+	@ Hoenn-Lizenz erteilt - siehe src/hoenn_licenses.c.
+	setvar VAR_0x8004, LIC_SURF
+	special SetHoennLicense
+	playfanfare MUS_OBTAIN_ITEM
+	message Text_HnsSurfLicense
+	waitmessage
+	waitfanfare
+	closemessage
+#else
 	giveitem ITEM_HM_SURF
+#endif
 	setflag FLAG_RECEIVED_HM_SURF
 	msgbox PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces, MSGBOX_DEFAULT
 	setvar VAR_PETALBURG_CITY_STATE, 5
@@ -216,3 +228,13 @@ PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
 	.string "and sound one day!$"
 #endif
 
+#if IS_HNS
+Text_HnsSurfLicense:
+#if GERMAN
+	.string "{PLAYER} erhält die Lizenz für\n"
+	.string "Surfer!$"
+#else
+	.string "{PLAYER} received the licence for\n"
+	.string "SURF!$"
+#endif
+#endif

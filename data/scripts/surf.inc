@@ -13,6 +13,27 @@ EventScript_ReleaseUseSurf::
 EventScript_EndUseSurf::
 	end
 
+#if IS_HNS
+@ In Hoenn braucht der Spieler fuer Surfer erst eine Lizenz (siehe
+@ src/hoenn_licenses.c). Ohne sie erklaert dieser Hinweis, warum nichts
+@ passiert - sonst stuende der Spieler wortlos vor dem Wasser.
+EventScript_NoSurfLicense::
+	lockall
+	playse SE_SELECT
+	msgbox Text_NoSurfLicense, MSGBOX_DEFAULT
+	releaseall
+	end
+
+Text_NoSurfLicense:
+#if GERMAN
+	.string "Ohne Lizenz darf hier in Hoenn niemand\n"
+	.string "aufs offene Wasser hinaus.$"
+#else
+	.string "Without a licence nobody puts out to\n"
+	.string "sea here in HOENN.$"
+#endif
+#endif
+
 EventScript_CurrentTooFast::
 	lockall
 	checkfieldmove FIELD_MOVE_SURF

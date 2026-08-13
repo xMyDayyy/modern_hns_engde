@@ -203,6 +203,46 @@ Route101_Movement_Unused2:
 	walk_up
 	step_end
 
+#if IS_HNS
+@ Kurz vor dem Nordausgang nach Rosaltstadt meldet sich Troy und erklaert
+@ die Hoenner Lizenzpflicht - der Spieler soll wissen, warum er trotz
+@ 16 Orden nicht einfach lossurfen kann. Vier Triggerfelder decken den
+@ gesamten Korridor ab, der Ausgang ist damit nicht zu umgehen.
+Route101_EventScript_TroyLicenseCall::
+	lockall
+	setvar VAR_HOENN_ARRIVAL_STATE, 5
+	pokenavcall Route101_Text_TroyLicenseCall
+	waitmessage
+	delay 30
+	releaseall
+	end
+
+Route101_Text_TroyLicenseCall:
+#if GERMAN
+	.string "Troy: Hallo, {PLAYER}! Prof. Birk hat\n"
+	.string "mir gesagt, dass du in Hoenn\l"
+	.string "angekommen bist.\p"
+	.string "Eins habe ich vergessen: In Hoenn\n"
+	.string "braucht man für jede VM eine eigene\l"
+	.string "Erlaubnis.\p"
+	.string "Ohne die darfst du sie draußen nicht\n"
+	.string "einsetzen - egal, wie viele Orden du\l"
+	.string "zu Hause hast.\p"
+	.string "Die Arenaleiter stellen sie aus.\p"
+	.string "Bis bald!$"
+#else
+	.string "TROY: Hello, {PLAYER}! PROF. BIRCH\n"
+	.string "told me you've arrived in HOENN.\p"
+	.string "One thing I forgot: in HOENN you need\n"
+	.string "a separate permit for every HM.\p"
+	.string "Without one you may not use them out\n"
+	.string "in the field - no matter how many\l"
+	.string "BADGES you have back home.\p"
+	.string "The GYM LEADERS issue them.\p"
+	.string "See you soon!$"
+#endif
+#endif
+
 Route101_EventScript_Youngster::
 #if IS_HNS
 	@ HnS: Der Spieler kommt als Fremder aus Johto/Kanto - der Hinweis auf das

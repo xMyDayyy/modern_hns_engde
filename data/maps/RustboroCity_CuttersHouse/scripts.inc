@@ -6,7 +6,19 @@ RustboroCity_CuttersHouse_EventScript_Cutter::
 	faceplayer
 	goto_if_set FLAG_RECEIVED_HM_CUT, RustboroCity_CuttersHouse_EventScript_ExplainCut
 	msgbox RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: Statt der VM (die der Spieler laengst besitzt) wird die
+	@ Hoenn-Lizenz erteilt - siehe src/hoenn_licenses.c.
+	setvar VAR_0x8004, LIC_CUT
+	special SetHoennLicense
+	playfanfare MUS_OBTAIN_ITEM
+	message Text_HnsCutLicense
+	waitmessage
+	waitfanfare
+	closemessage
+#else
 	giveitem ITEM_HM_CUT
+#endif
 	setflag FLAG_RECEIVED_HM_CUT
 	msgbox RustboroCity_CuttersHouse_Text_ExplainCut, MSGBOX_DEFAULT
 	release
@@ -85,3 +97,13 @@ RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees:
 	.string "the land of trees.$"
 #endif
 
+#if IS_HNS
+Text_HnsCutLicense:
+#if GERMAN
+	.string "{PLAYER} erhält die Lizenz für\n"
+	.string "Zerschneider!$"
+#else
+	.string "{PLAYER} received the licence for\n"
+	.string "CUT!$"
+#endif
+#endif

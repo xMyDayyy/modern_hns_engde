@@ -12,6 +12,7 @@
 #include "event_scripts.h"
 #include "fieldmap.h"
 #include "field_control_avatar.h"
+#include "hoenn_licenses.h"
 #include "field_message_box.h"
 #include "field_move.h"
 #include "field_effect.h"
@@ -679,6 +680,14 @@ static const u8 *GetInteractedWaterScript(struct MapPosition *unused1, u8 metati
      && CheckFollowerNPCFlag(FOLLOWER_NPC_FLAG_CAN_SURF)
      )
         return EventScript_UseSurf;
+
+#if IS_HNS
+    // Surfer waere moeglich, nur die Hoenn-Lizenz fehlt: kurz erklaeren,
+    // statt den Spieler wortlos vor dem Wasser stehen zu lassen.
+    if (HoennLicensesApply() && !HasHoennLicense(LIC_SURF)
+     && PartyHasMonWithSurf() == TRUE && IsPlayerFacingSurfableFishableWater() == TRUE)
+        return EventScript_NoSurfLicense;
+#endif
 
     if (MetatileBehavior_IsWaterfall(metatileBehavior) == TRUE
      && CheckFollowerNPCFlag(FOLLOWER_NPC_FLAG_CAN_WATERFALL)

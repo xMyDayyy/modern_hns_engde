@@ -453,6 +453,19 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	call PetalburgCity_Gym_EventScript_UnlockAllDoors
 	special DrawWholeMapView
 	call PetalburgCity_Gym_EventScript_GiveFacade
+#if IS_HNS
+	@ HnS: Norman haendigt die Surflizenz gleich hier aus. Die Vanilla-Uebergabe
+	@ liegt in Heikos Haus hinter VAR_PETALBURG_CITY_STATE == 4 - und den Wert
+	@ setzt nur die Begleitszene von Heikos Vater, die unter HnS nicht laeuft.
+	delay 30
+	setvar VAR_0x8004, LIC_SURF
+	special SetHoennLicense
+	playfanfare MUS_OBTAIN_ITEM
+	message PetalburgCity_Gym_Text_HnsSurfLicense
+	waitmessage
+	waitfanfare
+	closemessage
+#endif
 	delay 30
 	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT
 	closemessage
@@ -2205,3 +2218,17 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 	.string "with at least two POKéMON.$"
 #endif
 
+#if IS_HNS
+PetalburgCity_Gym_Text_HnsSurfLicense:
+#if GERMAN
+	.string "Norman: Und damit du hier auch\n"
+	.string "vorankommst - deine Surflizenz.\p"
+	.string "{PLAYER} erhält die Lizenz für\n"
+	.string "Surfer!$"
+#else
+	.string "NORMAN: And so you can get around -\n"
+	.string "your SURF LICENCE.\p"
+	.string "{PLAYER} received the licence for\n"
+	.string "SURF!$"
+#endif
+#endif

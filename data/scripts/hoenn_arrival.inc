@@ -48,6 +48,8 @@ Common_EventScript_HoennSkipIntro::
 	setflag FLAG_BIRCH_AIDE_MET
 	setflag FLAG_RIVAL_LEFT_FOR_ROUTE103
 	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
+	@ Troy kennt den Spieler aus Johto - er steht von Anfang an im PokéCom.
+	setflag FLAG_REGISTERED_STEVEN_POKENAV
 	setflag FLAG_VISITED_LITTLEROOT_TOWN
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK

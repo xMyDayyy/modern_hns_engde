@@ -4,6 +4,7 @@
 #include "fldeff.h"
 #include "fldeff_misc.h"
 #include "party_menu.h"
+#include "hoenn_licenses.h"
 #include "constants/field_move.h"
 #include "constants/moves.h"
 #include "constants/party_menu.h"
@@ -11,7 +12,12 @@
 static bool32 IsFieldMoveUnlocked_Cut(void)
 {
     if (IS_HNS)
+    {
+        // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
+        if (HoennLicensesApply())
+            return HasHoennLicense(LIC_CUT);
         return FlagGet(FLAG_BADGE02_GET);
+    }
     if (IS_FRLG)
         return FlagGet(FLAG_BADGE02_GET);
 
@@ -31,7 +37,12 @@ static bool32 IsFieldMoveUnlocked_Flash(void)
 static bool32 IsFieldMoveUnlocked_RockSmash(void)
 {
     if (IS_HNS)
+    {
+        // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
+        if (HoennLicensesApply())
+            return HasHoennLicense(LIC_ROCK_SMASH);
         return FlagGet(FLAG_BADGE01_GET);
+    }
     if (IS_FRLG)
         return FlagGet(FLAG_BADGE06_GET);
 
@@ -41,7 +52,12 @@ static bool32 IsFieldMoveUnlocked_RockSmash(void)
 static bool32 IsFieldMoveUnlocked_Strength(void)
 {
     if (IS_HNS)
+    {
+        // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
+        if (HoennLicensesApply())
+            return HasHoennLicense(LIC_STRENGTH);
         return FlagGet(FLAG_BADGE03_GET);
+    }
 
     return FlagGet(FLAG_BADGE04_GET);
 }
@@ -49,7 +65,12 @@ static bool32 IsFieldMoveUnlocked_Strength(void)
 static bool32 IsFieldMoveUnlocked_Surf(void)
 {
     if (IS_HNS)
+    {
+        // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
+        if (HoennLicensesApply())
+            return HasHoennLicense(LIC_SURF);
         return FlagGet(FLAG_BADGE04_GET);
+    }
 
     return FlagGet(FLAG_BADGE05_GET);
 }
@@ -67,7 +88,12 @@ static bool32 IsFieldMoveUnlocked_Fly(void)
 static bool32 IsFieldMoveUnlocked_Dive(void)
 {
     if (IS_HNS)
+    {
+        // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
+        if (HoennLicensesApply())
+            return HasHoennLicense(LIC_DIVE);
         return FlagGet(FLAG_BADGE07_GET);
+    }
 
     return FlagGet(FLAG_BADGE07_GET);
 }
@@ -75,7 +101,12 @@ static bool32 IsFieldMoveUnlocked_Dive(void)
 static bool32 IsFieldMoveUnlocked_Waterfall(void)
 {
     if (IS_HNS)
+    {
+        // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
+        if (HoennLicensesApply())
+            return HasHoennLicense(LIC_WATERFALL);
         return FlagGet(FLAG_BADGE08_GET);
+    }
     if (IS_FRLG)
         return FlagGet(FLAG_BADGE07_GET);
 

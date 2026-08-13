@@ -56,7 +56,19 @@ RusturfTunnel_EventScript_ClearTunnelScene::
 	msgbox RusturfTunnel_Text_YouShatteredBoulderTakeHM, MSGBOX_DEFAULT
 	call_if_eq VAR_TEMP_1, 2, RusturfTunnel_EventScript_WandasBoyfriendApproachPlayer
 	call_if_eq VAR_TEMP_1, 3, RusturfTunnel_EventScript_WandasBoyfriendApproachPlayer
+#if IS_HNS
+	@ HnS: Statt der VM (die der Spieler laengst besitzt) wird die
+	@ Hoenn-Lizenz erteilt - siehe src/hoenn_licenses.c.
+	setvar VAR_0x8004, LIC_STRENGTH
+	special SetHoennLicense
+	playfanfare MUS_OBTAIN_ITEM
+	message Text_HnsStrengthLicense
+	waitmessage
+	waitfanfare
+	closemessage
+#else
 	giveitem ITEM_HM_STRENGTH
+#endif
 	setflag FLAG_RECEIVED_HM_STRENGTH
 	msgbox RusturfTunnel_Text_ExplainStrength, MSGBOX_DEFAULT
 	closemessage
@@ -654,3 +666,13 @@ RusturfTunnel_Text_MikePostBattle:
 	.string "There's a feel-good story!$"
 #endif
 
+#if IS_HNS
+Text_HnsStrengthLicense:
+#if GERMAN
+	.string "{PLAYER} erhält die Lizenz für\n"
+	.string "Stärke!$"
+#else
+	.string "{PLAYER} received the licence for\n"
+	.string "STRENGTH!$"
+#endif
+#endif

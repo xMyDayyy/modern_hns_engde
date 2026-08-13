@@ -197,6 +197,9 @@
 // Die Vanilla-Arenascripts setzen weiterhin FLAG_BADGE0X_GET (beim
 // Champion bereits gesetzt = wirkungslos); das Hoenn-System zaehlt hier.
 #define VAR_HOENN_BADGES 0x415A
+// VM-Lizenzen als Bitmaske (siehe include/hoenn_licenses.h). Nur innerhalb
+// von Hoenn wirksam; Fliegen und Blitz sind bewusst nicht enthalten.
+#define VAR_HOENN_LICENSES 0x415B
 
 #define HOENN_VARS_END 0x4176
 

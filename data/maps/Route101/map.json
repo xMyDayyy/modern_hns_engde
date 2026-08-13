@@ -189,6 +189,42 @@
       "var": "VAR_ROUTE101_STATE",
       "var_value": "2",
       "script": "Route101_EventScript_PreventExitNorth"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 1,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "4",
+      "script": "Route101_EventScript_TroyLicenseCall"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 1,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "4",
+      "script": "Route101_EventScript_TroyLicenseCall"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 1,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "4",
+      "script": "Route101_EventScript_TroyLicenseCall"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 1,
+      "elevation": 3,
+      "var": "VAR_HOENN_ARRIVAL_STATE",
+      "var_value": "4",
+      "script": "Route101_EventScript_TroyLicenseCall"
     }
   ],
   "bg_events": [

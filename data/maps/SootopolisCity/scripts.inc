@@ -1291,7 +1291,19 @@ SootopolisCity_EventScript_Wallace::
 
 SootopolisCity_EventScript_GiveWaterfall::
 	msgbox SootopolisCity_Text_ThankYouForHelpAcceptThis, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: Statt der VM (die der Spieler laengst besitzt) wird die
+	@ Hoenn-Lizenz erteilt - siehe src/hoenn_licenses.c.
+	setvar VAR_0x8004, LIC_WATERFALL
+	special SetHoennLicense
+	playfanfare MUS_OBTAIN_ITEM
+	message Text_HnsWaterfallLicense
+	waitmessage
+	waitfanfare
+	closemessage
+#else
 	giveitem ITEM_HM_WATERFALL
+#endif
 	setflag FLAG_RECEIVED_HM_WATERFALL
 	msgbox SootopolisCity_Text_ExplainWaterfallGoToGym, MSGBOX_DEFAULT
 	closemessage
@@ -2094,4 +2106,15 @@ SootopolisCity_Text_DazzledByMentor:
 	.string "WALLACE: I'm sure that you will be\n"
 	.string "dazzled by my mentor's breathtakingly\l"
 	.string "elegant battle style.$"
+#endif
+
+#if IS_HNS
+Text_HnsWaterfallLicense:
+#if GERMAN
+	.string "{PLAYER} erhält die Lizenz für\n"
+	.string "Kaskade!$"
+#else
+	.string "{PLAYER} received the licence for\n"
+	.string "WATERFALL!$"
+#endif
 #endif
