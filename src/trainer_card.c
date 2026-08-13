@@ -1324,14 +1324,15 @@ static void PrintRegionLabelsOnBack(void)
     // Die Kartenlinien liegen auf Bildschirm-y 55, 71, 87, 103, 119; die Baender
     // dazwischen sind je 16 px = genau zwei Kachelzeilen. Jedes Element bekommt
     // ein eigenes Band, nichts ueberlappt:
-    //   40- 55  Label "Kanto"      (Fenster-y 34)
     //   56- 71  Kanto-Ordenreihe   (Kachelzeile  7/8)
-    //   72- 87  Label "Hoenn"      (Fenster-y 66)
+    //   72- 87  Label "Kanto"      (Fenster-y 66)
     //   88-103  Hoenn-Ordenreihe   (Kachelzeile 11/12)
-    // Waagerecht beginnen beide Labels bei Bildschirm-x 24 (Fenster-x 16).
-    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 34, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
+    //  104-119  Label "Hoenn"      (Fenster-y 98) - direkt ueber den Teamsymbolen
+    // Jedes Label steht also UNTER seiner Reihe. Waagerecht beginnen beide bei
+    // Bildschirm-x 32 (Fenster-x 24), buendig mit der linken Ordenkante.
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 24, 66, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 16, 66, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 24, 98, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
 }
 #endif
 
