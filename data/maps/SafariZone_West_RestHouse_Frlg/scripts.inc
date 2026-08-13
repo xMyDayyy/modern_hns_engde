@@ -18,8 +18,8 @@ SafariZone_West_Text_KogaPatrolsSafariEverySoOften::
 	.string "Die Safari-Zone ist riesig, nicht?\p"
 	.string "Der Arenaleiter von Fuchsania City,\n"
 	.string "Koga, hält hier gelegentlich Wache.\p"
-	.string "Dank ihm können wir hier in\n"
-	.string "Sicherheit spielen.$"
+	.string "Dank ihm können wir hier in Sicherheit\n"
+	.string "spielen.$"
 #else
 	.string "The SAFARI ZONE's huge, wouldn't\n"
 	.string "you say?\p"

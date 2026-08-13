@@ -272,8 +272,8 @@ MahoganyTown_Text_RageCandyBarMerchantTryOne:
 	.string "Wenn du schon mal in Mahagonia City\n"
 	.string "bist, solltest du unbedingt einen\l"
 	.string "Wutkeks kaufen!\p"
-	.string "Ich hätte einen für 300 $ für\n"
-	.string "dich im Angebot. Na, was sagst du?$"
+	.string "Ich hätte einen für 300 $ für dich im\n"
+	.string "Angebot. Na, was sagst du?$"
 #else
 	.string "Hiya, kid!\p"
 	.string "I see you're new in MAHOGANY TOWN.\p"
@@ -326,10 +326,10 @@ MahoganyTown_Text_Gramps:
 
 MahoganyTown_Text_GrampsClearedRocketHideout:
 #if GERMAN
-	.string "Die Karpador sind zum\n"
-	.string "See des Zorns zurückgekehrt.\p"
-	.string "Das sind gute Neuigkeiten\n"
-	.string "für die Angler.$"
+	.string "Die Karpador sind zum See des Zorns\n"
+	.string "zurückgekehrt.\p"
+	.string "Das sind gute Neuigkeiten für die\n"
+	.string "Angler.$"
 #else
     .string "MAGIKARP have returned to LAKE\n"
     .string "OF RAGE.\p"
@@ -355,8 +355,8 @@ MahoganyTown_Text_Fisher:
 MahoganyTown_Text_Lass:
 #if GERMAN
 	.string "Besuche Großmutters Laden.\p"
-	.string "Sie verkauft Artikel,\n"
-	.string "die du sonst nirgends bekommen kannst.$"
+	.string "Sie verkauft Artikel, die du sonst\n"
+	.string "nirgends bekommen kannst.$"
 #else
     .string "Visit Grandma's shop. She sells\n"
     .string "stuff that nobody else has.$"
@@ -435,10 +435,8 @@ ElmPhoneRoute39LegendaryText:
 	.string "Teak City hinweg!\p"
 	.string "Ich konnte es sogar von meinem\n"
 	.string "Labor aus sehen!\p"
-	.string "War es eines der legendären\n"
-	.string "Pokémon??\p"
-	.string "Es flog nach Westen,\n"
-	.string "Richtung Route 39.\p"
+	.string "War es eines der legendären Pokémon??\p"
+	.string "Es flog nach Westen, Richtung Route 39.\p"
 	.string "{PLAYER}!\n"
 	.string "Das könnte eine seltene Chance zur\l"
 	.string "Verfolgung sein!$"

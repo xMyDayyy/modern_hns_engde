@@ -52,8 +52,8 @@ Route18_Text_BirdKeeperBorisBeaten:
 
 Route18_Text_BirdKeeperBorisAfterBattle:
 #if GERMAN
-	.string "Wenn man so stark ist wie du,\n"
-	.string "macht das Kämpfen sicher Spaß.$"
+	.string "Wenn man so stark ist wie du, macht das\n"
+	.string "Kämpfen sicher Spaß.$"
 #else
 	.string "Since you're so strong, it must be\n"
 	.string "fun to battle.$"

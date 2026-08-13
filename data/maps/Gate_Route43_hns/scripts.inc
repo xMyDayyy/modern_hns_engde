@@ -125,8 +125,8 @@ Gate_Route43_Rocket_Text_MakingABundle:
 
 Route43Gate_Text_OfficerFoundTM:
 #if GERMAN
-	.string "Ich wurde von diesen Dieben"
-	.string "von meinem Posten vertrieben.\p"
+	.string "Ich wurde von diesen Dieben von meinem\n"
+	.string "Posten vertrieben.\p"
 	.string "Sie haben das hier liegen lassen.\p"
 	.string "Es macht mir Angst. Könntest du\n"
 	.string "es wegnehmen?$"

@@ -369,8 +369,7 @@ SinjohRuins_ArceusRoom_Movement_StevenWalkDown:
 
 SinjohRuins_ArceusRoom_Text_StevenCongrats:
 #if GERMAN
-	.string "Troy: Du hast es geschafft,\n"
-	.string "{PLAYER}!\p"
+	.string "Troy: Du hast es geschafft, {PLAYER}!\p"
 	.string "Dieser Kampf war atemberaubend.\p"
 	.string "Deine Stärke hat mir etwas klar\n"
 	.string "gemacht.\p"
@@ -382,8 +381,8 @@ SinjohRuins_ArceusRoom_Text_StevenCongrats:
 	.string "Pokémon zu bändigen.\p"
 	.string "Sie haben meinem Team und mir\n"
 	.string "nicht zugetraut, damit umzugehen.\p"
-	.string "Und nach dem, was ich gerade\n"
-	.string "gesehen habe…\p"
+	.string "Und nach dem, was ich gerade gesehen\n"
+	.string "habe…\p"
 	.string "Ich glaube, sie hatten recht.\p"
 	.string "Ich habe viel ungewollte Aufmerk-\n"
 	.string "samkeit auf dieses Dorf gezogen.\p"

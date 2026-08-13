@@ -652,8 +652,8 @@ IlexForest_Movement_Kurt2:
 IlexForest_Text_ApprenticeIntro:
 #if GERMAN
 	.string "Oh, Mist… Mein Boss wird sauer sein…\p"
-	.string "Das Porenta, das\n"
-	.string "mit dem Zerschneider Bäume\p"
+	.string "Das Porenta, das mit dem Zerschneider\n"
+	.string "Bäume\p"
 	.string "fällt, um nach Holzkohle zu\p"
 	.string "suchen, ist abgehauen.\p"
 	.string "Ich traue mich nicht in den\n"
@@ -700,8 +700,8 @@ IlexForest_Text_CharcoalMasterIntro:
 	.string "Oh! Das sind ja meine Kleinen,\n"
 	.string "Po und Renta!\p"
 	.string "Sag bloß…\p"
-	.string "Hast du diese beiden etwa\n"
-	.string "für mich eingefangen?!?\p"
+	.string "Hast du diese beiden etwa für mich\n"
+	.string "eingefangen?!?\p"
 	.string "Wenn diese zwei keine Bäume für mich\n"
 	.string "fällen, kann ich keine Kohle herstellen!\p"
 	.string "Vielen Dank! Wie kann ich mich nur\n"
@@ -816,8 +816,8 @@ IlexForest_Text_KurtCaughtCelebi:
 	.string "\p"
 	.string "Die Legenden über den Shrine\n"
 	.string "waren also wahr.\p"
-	.string "Ich bin inspiriert,\n"
-	.string "bessere Bälle zu machen!\p"
+	.string "Ich bin inspiriert, bessere Bälle zu\n"
+	.string "machen!\p"
 	.string "Ich gehe jetzt!$"
 #else
 	.string "Whew, wasn't that something!\p"
@@ -840,8 +840,8 @@ IlexForest_Text_BugCatcherWayneSeen:
 
 IlexForest_Text_BugCatcherWayneBeaten:
 #if GERMAN
-	.string "Dieses Pokémon habe ich\n"
-	.string "noch nie zuvor gesehen…$"
+	.string "Dieses Pokémon habe ich noch nie zuvor\n"
+	.string "gesehen…$"
 #else
 	.string "I hadn't seen that POKéMON before…$"
 #endif

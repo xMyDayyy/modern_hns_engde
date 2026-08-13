@@ -7,8 +7,8 @@ Route16FuchsiaSpeechHouse_EventScript_SuperNerd::
 
 Route16FuchsiaSpeechHouse_Text_SuperNerd:
 #if GERMAN
-	.string "Hier wohnte früher eine\n"
-	.string "berühmte Persönlichkeit.$"
+	.string "Hier wohnte früher eine berühmte\n"
+	.string "Persönlichkeit.$"
 #else
 	.string "A celebrity used to live here.$"
 #endif

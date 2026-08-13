@@ -360,8 +360,7 @@ EcruteakCity_Text_Gramps2:
 	.string "Ich habe gehört, dass dir ein\n"
 	.string "eigenartiger Mann etwas Nettes geben\l"
 	.string "wird,\p"
-	.string "wenn du zu ihrem\n"
-	.string "Tanztheater gehst.$"
+	.string "wenn du zu ihrem Tanztheater gehst.$"
 #else
 	.string "Ah, child. Have you learned to\n"
 	.string "dance like the KIMONO GIRLS?\p"
@@ -382,8 +381,8 @@ EcruteakCity_Text_Lass1:
 EcruteakCity_Text_Lass2:
 #if GERMAN
 	.string "Der Turm, der früher hier stand…\p"
-	.string "Meine Oma sagte mir,\n"
-	.string "dass er früher höher war.$"
+	.string "Meine Oma sagte mir, dass er früher\n"
+	.string "höher war.$"
 #else
 	.string "The tower that used to be here…\p"
 	.string "My grandma told me it used to be\n"
@@ -408,8 +407,8 @@ EcruteakCity_Text_Fisher:
 	.string "Leuchtturm in Oliviana City.\p"
 	.string "Das Pokémon, das als Leuchtfeuer\n"
 	.string "dient, wurde krank.\p"
-	.string "Sieht so aus, als wären sie\n"
-	.string "in Schwierigkeiten.$"
+	.string "Sieht so aus, als wären sie in\n"
+	.string "Schwierigkeiten.$"
 #else
 	.string "I heard a rumor about OLIVINE\n"
 	.string "LIGHTHOUSE.\p"
@@ -433,8 +432,8 @@ EcruteakCity_Text_Fisher_JasmineReturned:
 
 EcruteakCity_Text_Youngster:
 #if GERMAN
-	.string "Ich hörte, dass Pokémon am\n"
-	.string "See des Zorns Unruhe stiften.\p"
+	.string "Ich hörte, dass Pokémon am See des\n"
+	.string "Zorns Unruhe stiften.\p"
 	.string "Das würde ich gerne sehen.$"
 #else
 	.string "I hear POKéMON are rampaging at the\n"
@@ -445,8 +444,8 @@ EcruteakCity_Text_Gramps3:
 #if GERMAN
 	.string "Vor langer Zeit…\n"
 	.string "Ist dieser Turm abgebrannt.\p"
-	.string "Drei namenlose Pokémon sind\n"
-	.string "dabei umgekommen.\p"
+	.string "Drei namenlose Pokémon sind dabei\n"
+	.string "umgekommen.\p"
 	.string "Ein regenbogenfarbenes Pokémon kam\n"
 	.string "herab und hauchte ihnen wieder Leben\l"
 	.string "ein…\p"

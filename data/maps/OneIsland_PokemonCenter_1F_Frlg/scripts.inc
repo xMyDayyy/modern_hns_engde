@@ -612,8 +612,8 @@ OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp::
 
 OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp::
 #if GERMAN
-	.string "Celio, das ist {PLAYER}! Der\n"
-	.string "amtierende Pokémon Champ!$"
+	.string "Celio, das ist {PLAYER}! Der amtierende\n"
+	.string "Pokémon Champ!$"
 #else
 	.string "CELIO, this is {PLAYER}, the\n"
 	.string "reigning POKéMON CHAMP!$"
@@ -624,8 +624,7 @@ OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive::
 	.string "Celio: Das ist beeindruckend!\p"
 	.string "Es tut mir Leid, aber ich habe\n"
 	.string "nichts für das Kämpfen übrig.\p"
-	.string "Egal! Freut mich, dich\n"
-	.string "kennen zu lernen!$"
+	.string "Egal! Freut mich, dich kennen zu lernen!$"
 #else
 	.string "CELIO: That's really impressive.\p"
 	.string "I hate to say it, but I have zero\n"
@@ -675,8 +674,8 @@ OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer::
 #if GERMAN
 	.string "{PLAYER}, darf ich dich bitten, vor\n"
 	.string "der Tür auf mich zu warten?\p"
-	.string "… kann ich dich um einen\n"
-	.string "Gefallen bitten?\p"
+	.string "… kann ich dich um einen Gefallen\n"
+	.string "bitten?\p"
 	.string "Die Nachbarinsel heißt Eiland\n"
 	.string "Zwei!\p"
 	.string "Dort gibt es jemanden, der die\n"
@@ -684,8 +683,8 @@ OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer::
 	.string "Er hat dieses Faible für seltene\n"
 	.string "Steine und Juwelen.\p"
 	.string "Wir bleiben in Kontakt!\p"
-	.string "Darf ich dich bitten, diesen\n"
-	.string "Meteoriten zu ihm zu bringen?$"
+	.string "Darf ich dich bitten, diesen Meteoriten\n"
+	.string "zu ihm zu bringen?$"
 #else
 	.string "{PLAYER}, can I get you to wait for\n"
 	.string "me just a bit?\p"
@@ -725,8 +724,8 @@ OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands::
 #if GERMAN
 	.string "Es ist ein Pass für die Fähre,\n"
 	.string "die zwischen den Inseln fährt.\p"
-	.string "Damit kannst du Eiland Eins,\n"
-	.string "Zwei und Drei bereisen.\p"
+	.string "Damit kannst du Eiland Eins, Zwei und\n"
+	.string "Drei bereisen.\p"
 	.string "Oh, das kannst du auch gebrauchen!$"
 #else
 	.string "It's a PASS for the ferry service\n"
@@ -747,8 +746,7 @@ OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap::
 
 OneIsland_PokemonCenter_1F_Text_ReceivedTownMap::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "eine Karte!$"
+	.string "{PLAYER} erhält eine Karte!$"
 #else
 	.string "{PLAYER} received\n"
 	.string "a TOWN MAP!$"
@@ -778,10 +776,9 @@ OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore::
 	.string "Oh, heh, {PLAYER}!\p"
 	.string "Hast du das gesehen?\n"
 	.string "Der PC funktioniert!\p"
-	.string "Ich muss Celio hier ein\n"
-	.string "paar Dinge zeigen!\p"
-	.string "Du kannst dich noch ein\n"
-	.string "wenig umsehen!$"
+	.string "Ich muss Celio hier ein paar Dinge\n"
+	.string "zeigen!\p"
+	.string "Du kannst dich noch ein wenig umsehen!$"
 #else
 	.string "Oh, hey, {PLAYER}!\p"
 	.string "Did you see?\n"
@@ -897,8 +894,8 @@ OneIsland_PokemonCenter_1F_Text_CelioPromiseIllShowYouAroundSometime::
 
 OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine::
 #if GERMAN
-	.string "Celio: Hallo! Du siehst sehr\n"
-	.string "beschäftigt aus, wie immer!\p"
+	.string "Celio: Hallo! Du siehst sehr beschäftigt\n"
+	.string "aus, wie immer!\p"
 	.string "Wie es mir geht?\p"
 	.string "Ich modifiziere das Netzwerk.\p"
 	.string "Wenn ich fertig bin, sollst du die erste\n"
@@ -934,8 +931,7 @@ OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful::
 
 OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway::
 #if GERMAN
-	.string "Ich modifiziere momentan\n"
-	.string "das Netzwerk.\p"
+	.string "Ich modifiziere momentan das Netzwerk.\p"
 	.string "Ich richte es so ein, dass ein Tausch\n"
 	.string "über lange Distanzen möglich ist.\l"
 	.string "Wenn ich fertig bin, kannst du\l"
@@ -1001,8 +997,7 @@ OneIsland_PokemonCenter_1F_Text_OhThats::
 
 OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio::
 #if GERMAN
-	.string "{PLAYER} gab Celio\n"
-	.string "den Rubin!$"
+	.string "{PLAYER} gab Celio den Rubin!$"
 #else
 	.string "{PLAYER} handed the RUBY\n"
 	.string "to CELIO.$"
@@ -1014,8 +1009,8 @@ OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor::
 	.string "{PLAYER}, du bist einzigartig!\p"
 	.string "…………\n"
 	.string "……\p"
-	.string "Ähm… darf ich dich noch um\n"
-	.string "einen weiteren Gefallen bitten?$"
+	.string "Ähm… darf ich dich noch um einen\n"
+	.string "weiteren Gefallen bitten?$"
 #else
 	.string "Thank you!\n"
 	.string "{PLAYER}, you're simply amazing.\p"
@@ -1079,8 +1074,7 @@ OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage::
 OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands::
 #if GERMAN
 	.string "Dies ist mein Pass für die Fähre.\p"
-	.string "Damit kannst du nach\n"
-	.string "Sevii Eiland.\p"
+	.string "Damit kannst du nach Sevii Eiland.\p"
 	.string "{PLAYER}, bitte, ich bin auf dich\n"
 	.string "angewiesen!$"
 #else
@@ -1103,8 +1097,8 @@ OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime::
 #if GERMAN
 	.string "Celio: Das ist also der Edelstein,\n"
 	.string "der zum Rubin gehört…\p"
-	.string "{PLAYER}, du hast das alles\n"
-	.string "auf dich genommen, oder?\p"
+	.string "{PLAYER}, du hast das alles auf dich\n"
+	.string "genommen, oder?\p"
 	.string "Ich weiß, dass es nicht leicht war!\p"
 	.string "Ich bin dir sehr dankbar!\p"
 	.string "Jetzt muss ich für dich arbeiten!\n"
@@ -1143,12 +1137,10 @@ OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou::
 	.string "{PLAYER}, ich habe es geschafft!\p"
 	.string "Ich konnte eine Verbindung zu den\n"
 	.string "Trainern in Hoenn herstellen!\p"
-	.string "Endlich funktioniert das\n"
-	.string "Netzwerk!\p"
+	.string "Endlich funktioniert das Netzwerk!\p"
 	.string "{PLAYER}, das habe ich nur dir\n"
 	.string "zu verdanken!\p"
-	.string "Dank dir hat sich mein Traum\n"
-	.string "erfüllt…$"
+	.string "Dank dir hat sich mein Traum erfüllt…$"
 #else
 	.string "{PLAYER}…\n"
 	.string "{PLAYER}, I did it!\p"
@@ -1212,8 +1204,8 @@ OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod::
 	.string "aus Alabastia, oder?\p"
 	.string "Ich hörte, das ist eine ruhige,\n"
 	.string "angenehme Stadt.\p"
-	.string "Bill kommt aus Dukatia City,\n"
-	.string "wo seine Familie noch lebt.\p"
+	.string "Bill kommt aus Dukatia City, wo seine\n"
+	.string "Familie noch lebt.\p"
 	.string "Das ist eine eher geschäftige,\n"
 	.string "lebhafte Stadt.\p"
 	.string "Ich möchte eines Tages dorthin.$"
@@ -1233,8 +1225,8 @@ OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk::
 #if GERMAN
 	.string "{PLAYER}, gibt es etwas, das du\n"
 	.string "nicht leiden kannst?\p"
-	.string "Bill kann offensichtlich\n"
-	.string "Milch nicht leiden!$"
+	.string "Bill kann offensichtlich Milch nicht\n"
+	.string "leiden!$"
 #else
 	.string "{PLAYER}, is there anything that\n"
 	.string "you can't stand?\p"
@@ -1296,8 +1288,7 @@ OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend::
 
 OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment::
 #if GERMAN
-	.string "Netzwerk\n"
-	.string "Verbindungslevel 0\p"
+	.string "Netzwerk Verbindungslevel 0\p"
 	.string "… das Pokémon Lagerungs-System wird\n"
 	.string "gewartet…$"
 #else
@@ -1309,10 +1300,8 @@ OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment::
 
 OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto::
 #if GERMAN
-	.string "Netzwerk\n"
-	.string "Verbindungslevel 1\p"
-	.string "Verbindung mit Kanto\n"
-	.string "hergestellt.$"
+	.string "Netzwerk Verbindungslevel 1\p"
+	.string "Verbindung mit Kanto hergestellt.$"
 #else
 	.string "Network Machine\n"
 	.string "Link Level 1\p"
@@ -1322,10 +1311,9 @@ OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto::
 
 OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn::
 #if GERMAN
-	.string "Netzwerk\n"
-	.string "Verbindungslevel 2\p"
-	.string "Verbindung mit Kanto und\n"
-	.string "Hoenn hergestellt.$"
+	.string "Netzwerk Verbindungslevel 2\p"
+	.string "Verbindung mit Kanto und Hoenn\n"
+	.string "hergestellt.$"
 #else
 	.string "Network Machine\n"
 	.string "Link Level 2\p"

@@ -467,8 +467,8 @@ BattleFrontier_Lounge7_Text_TeachMoveToWhichMon_hns:
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints_hns:
 #if GERMAN
-	.string "Was… Du hast ja gar\n"
-	.string "nicht genug Gewinnpunkte!$"
+	.string "Was… Du hast ja gar nicht genug\n"
+	.string "Gewinnpunkte!$"
 #else
 	.string "What the…\n"
 	.string "You haven't got enough Battle Points!$"
@@ -618,8 +618,7 @@ BattleFrontier_Lounge7_Text_DreamEaterDesc_hns::
 
 BattleFrontier_Lounge7_Text_MegaPunchDesc_hns::
 #if GERMAN
-	.string "Ein unglaublich\n"
-	.string "kräftiger Hieb.$"
+	.string "Ein unglaublich kräftiger Hieb.$"
 #else
 	.string "A strong punch\n"
 	.string "thrown with\n"
@@ -628,8 +627,7 @@ BattleFrontier_Lounge7_Text_MegaPunchDesc_hns::
 
 BattleFrontier_Lounge7_Text_MegaKickDesc_hns::
 #if GERMAN
-	.string "Ein extrem\n"
-	.string "heftiger Tritt.$"
+	.string "Ein extrem heftiger Tritt.$"
 #else
 	.string "An extremely\n"
 	.string "powerful kick with\n"
@@ -789,14 +787,12 @@ BattleFrontier_Lounge7_Text_ElementalTutorIntro::
 #if GERMAN
 	.string "Zzzzzz…\p"
 	.string "Was, wie, was?\p"
-	.string "Oh, entschuldige, ich habe\n"
-	.string "kurz gedöst.\p"
+	.string "Oh, entschuldige, ich habe kurz gedöst.\p"
 	.string "Ich bin der Elementarmeister.\p"
 	.string "Ich lehre den mächtigsten Pflanzen-,\n"
 	.string "Feuer- und Wasser-Pokémon starke\l"
 	.string "Attacken.\p"
-	.string "Willst du diese große Kraft\n"
-	.string "erlernen?$"
+	.string "Willst du diese große Kraft erlernen?$"
 #else
 	.string "Zzzzzz…\p"
 	.string "What, how, what?\p"
@@ -813,8 +809,8 @@ BattleFrontier_Lounge7_Text_ElementalTutorWelcomeBack:
 #if GERMAN
 	.string "Zzzzzz…\p"
 	.string "Was, wie, was, wer?\p"
-	.string "Willst du die Macht meiner\n"
-	.string "stärksten Attacken lernen?$"
+	.string "Willst du die Macht meiner stärksten\n"
+	.string "Attacken lernen?$"
 #else
 	.string "Zzzzzz…\p"
 	.string "What, how, what, who?\p"

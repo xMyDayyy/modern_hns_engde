@@ -497,8 +497,7 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50_hns:
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsEnd_hns:
 #if GERMAN
-	.string "Komm wieder, wenn du\n"
-	.string "vorbereitet bist.$"
+	.string "Komm wieder, wenn du vorbereitet bist.$"
 #else
 	.string "Come back when you have made\n"
 	.string "your preparations.$"
@@ -641,8 +640,7 @@ BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge_hns:
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize_hns:
 #if GERMAN
-	.string "{PLAYER} gewinnt\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} gewinnt {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"

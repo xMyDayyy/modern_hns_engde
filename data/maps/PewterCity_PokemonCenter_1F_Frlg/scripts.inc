@@ -91,8 +91,8 @@ PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
 
 PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid::
 #if GERMAN
-	.string "Ich tausche Pokémon mit dem\n"
-	.string "Kind dort drüben!\p"
+	.string "Ich tausche Pokémon mit dem Kind dort\n"
+	.string "drüben!\p"
 	.string "Da ich zwei Pikachu besaß, konnte\n"
 	.string "ich eines tauschen.$"
 #else

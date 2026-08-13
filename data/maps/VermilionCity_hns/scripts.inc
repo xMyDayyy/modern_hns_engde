@@ -344,10 +344,10 @@ VermilionCity_Text_Eusine2:
 
 VermilionCity_Text_Teacher:
 #if GERMAN
-	.string "Der Hafen von Orania City\n"
-	.string "ist Kantos Tor zum Meer.\p"
-	.string "Hier legen Luxusdampfer\n"
-	.string "aus aller Welt an!$"
+	.string "Der Hafen von Orania City ist Kantos\n"
+	.string "Tor zum Meer.\p"
+	.string "Hier legen Luxusdampfer aus aller Welt\n"
+	.string "an!$"
 #else
 	.string "VERMILION PORT is KANTO's seaside\n"
 	.string "gateway.\p"
@@ -627,8 +627,8 @@ VermilionCity_Text_StevenIntro:
 	.string "Das ist nicht möglich.\p"
 	.string "Alle Trainer, gegen die ich gekämpft\n"
 	.string "habe, haben irgendwie denselben Blick.\p"
-	.string "Besonders die, die mir harte\n"
-	.string "Kämpfe geliefert haben.\p"
+	.string "Besonders die, die mir harte Kämpfe\n"
+	.string "geliefert haben.\p"
 	.string "Ich bin geschäftlich in Kanto.\n"
 	.string "Viele Hoenn Pokémon sind kürzlich in\l"
 	.string "diese Region eingewandert.\l"

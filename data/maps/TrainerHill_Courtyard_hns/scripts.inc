@@ -69,8 +69,8 @@ TrainerHill_Courtyard_EventScript_Sailor::
 BattleTowerOutsideYoungsterText:
 #if GERMAN
 	.string "Wow, der Trainerberg ist riesig!\p"
-	.string "Dort gibt es sicher viele\n"
-	.string "verschiedene Pokémon!$"
+	.string "Dort gibt es sicher viele verschiedene\n"
+	.string "Pokémon!$"
 #else
 	.string "Wow, the TRAINER HILL is huge!\p"
 	.string "There must be many kinds of\n"
@@ -81,8 +81,8 @@ BattleTowerOutsideBeautyText:
 #if GERMAN
 	.string "In den Kampfzelten darfst du\n"
 	.string "nur drei Pokémon einsetzen.\p"
-	.string "Es ist schwer, die richtigen\n"
-	.string "drei auszuwählen…$"
+	.string "Es ist schwer, die richtigen drei\n"
+	.string "auszuwählen…$"
 #else
 	.string "In the BATTLE TENTS, you can\n"
 	.string "use only three POKéMON.\p"
@@ -92,10 +92,10 @@ BattleTowerOutsideBeautyText:
 
 BattleTowerOutsideSailorText:
 #if GERMAN
-	.string "Hehe, ich habe mich von der\n"
-	.string "Arbeit davongeschlichen.\p"
-	.string "Ich gehe nicht zurück, bevor\n"
-	.string "ich gewonnen habe!\p"
+	.string "Hehe, ich habe mich von der Arbeit\n"
+	.string "davongeschlichen.\p"
+	.string "Ich gehe nicht zurück, bevor ich\n"
+	.string "gewonnen habe!\p"
 	.string "Ich muss den Sieg holen!$"
 #else
 	.string "Hehehe, I snuck out from work.\p"
@@ -145,8 +145,8 @@ BattleTower_Battle_Tent_Text_Arena:
 
 BattleTowerOutsideText_Closed:
 #if GERMAN
-	.string "Der Trainerberg ist derzeit\n"
-	.string "wegen Reparaturen geschlossen.$"
+	.string "Der Trainerberg ist derzeit wegen\n"
+	.string "Reparaturen geschlossen.$"
 #else
 	.string "The TRAINER HILL is currently\n"
 	.string "closed for repairs.$"
@@ -258,8 +258,7 @@ TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan_Text:
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
 #if GERMAN
-	.string "Willkommen im\n"
-	.string "Tausch-Service.\p"
+	.string "Willkommen im Tausch-Service.\p"
 	.string "Hier kannst du deine gesammelten\n"
 	.string "Gewinnpunkte gegen tolle Preise\l"
 	.string "eintauschen.\p"
@@ -319,8 +318,8 @@ TrainerHill_Courtyard_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
 	.string "Was starrst du denn so?\p"
 	.string "Ich mag es nicht, wenn du mein\n"
 	.string "Plüschi so anstarrst.\p"
-	.string "Wenn du eins willst, hol dir\n"
-	.string "doch selbst eins!\p"
+	.string "Wenn du eins willst, hol dir doch selbst\n"
+	.string "eins!\p"
 	.string "Nicht wahr, Kussilla?$"
 #else
 	.string "Hah?\n"
@@ -334,8 +333,8 @@ TrainerHill_Courtyard_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
 #if GERMAN
 	.string "Wusstest du das?\p"
-	.string "Wenn du in den Kampfanlagen\n"
-	.string "immer bessere Rekorde schaffst,\p"
+	.string "Wenn du in den Kampfanlagen immer\n"
+	.string "bessere Rekorde schaffst,\p"
 	.string "erhältst du nach und nach mehr\n"
 	.string "Gewinnpunkte.$"
 #else

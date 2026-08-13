@@ -221,8 +221,8 @@ GoldenrodCity_PokemonCenter_GrannyText:
 
 GoldenrodCity_PokemonCenter_GameboyKidText1:
 #if GERMAN
-	.string "Ich baue ein riesiges\n"
-	.string "Lootmobil in Unturned.\p"
+	.string "Ich baue ein riesiges Lootmobil in\n"
+	.string "Unturned.\p"
 	.string "Es hat Schränke und Treppen.\p"
 	.string "Leider wurde mein Freund gebannt.$"
 #else
@@ -260,8 +260,8 @@ GoldenrodPokeCenter_LinkReceptionistPleaseAcceptGSBallText:
 #if GERMAN
 	.string "{PLAYER}, oder?\p"
 	.string "Glückwunsch!\p"
-	.string "Nur für dich wurde\n"
-	.string "ein GS-Ball geschickt!\p"
+	.string "Nur für dich wurde ein GS-Ball\n"
+	.string "geschickt!\p"
 	.string "Nimm ihn bitte!$"
 #else
     .string "{PLAYER}, isn't it?\p"
@@ -281,8 +281,8 @@ GoldenrodPokeCenter_LinkReceptionistPleaseDoComeAgainText:
 GoldenrodCity_PokemonCenter_PokefanFDoYouHaveEonMailText:
 #if GERMAN
 	.string "Oh, dein Beutel sieht schwer aus!\p"
-	.string "Oh! Hast du zufällig etwas,\n"
-	.string "das man Anara-Brief nennt?\p"
+	.string "Oh! Hast du zufällig etwas, das man\n"
+	.string "Anara-Brief nennt?\p"
 	.string "Meine Tochter sucht danach.\p"
 	.string "Du gibst mir doch einen, nicht wahr?$"
 #else
@@ -303,8 +303,7 @@ GoldenrodCity_PokemonCenter_AskGiveAwayAnEonMailText:
 GoldenrodCity_PokemonCenter_PokefanFThisIsForYouText:
 #if GERMAN
 	.string "Oh, großartig! Danke, Schatz!\p"
-	.string "Hier, als Ausgleich\n"
-	.string "sollst du das haben!$"
+	.string "Hier, als Ausgleich sollst du das haben!$"
 #else
     .string "Oh, that's great! Thank you,\n"
     .string "honey!\p"

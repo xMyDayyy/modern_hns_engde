@@ -25,8 +25,8 @@ CeladonDeptStore4F_Text_SuperNerd:
 
 CeladonDeptStore4F_Text_Youngster:
 #if GERMAN
-	.string "Dies ist der einzige Ort,\n"
-	.string "um Herzbrief zu kaufen.\p"
+	.string "Dies ist der einzige Ort, um Herzbrief zu\n"
+	.string "kaufen.\p"
 	.string "Zumindest war er das. Angeblich\n"
 	.string "ist die Ware ausverkauft.$"
 #else

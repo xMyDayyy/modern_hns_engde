@@ -36,8 +36,8 @@ TwoIsland_PokemonCenter_1F_Text_HaveYouVisitedGameCorner::
 
 TwoIsland_PokemonCenter_1F_Text_OldLadyLivesOutOnCape::
 #if GERMAN
-	.string "Auf Eiland Zwei leben nicht\n"
-	.string "viele Menschen!\p"
+	.string "Auf Eiland Zwei leben nicht viele\n"
+	.string "Menschen!\p"
 	.string "Es gibt da eine alte Dame, die\n"
 	.string "draußen am Kap wohnt!\p"
 	.string "Sie ist schon immer da gewesen!$"

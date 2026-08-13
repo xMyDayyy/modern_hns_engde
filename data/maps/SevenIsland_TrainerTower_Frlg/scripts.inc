@@ -30,8 +30,8 @@ SevenIsland_TrainerTower_Text_DarioDefeat::
 
 SevenIsland_TrainerTower_Text_DarioPostBattle::
 #if GERMAN
-	.string "Ich sage dir voraus, dass du\n"
-	.string "viele andere Leute triffst.\p"
+	.string "Ich sage dir voraus, dass du viele\n"
+	.string "andere Leute triffst.\p"
 	.string "Ich sehe, dass du durch eine\n"
 	.string "merkwürdige Kraft mit ihnen verbunden\l"
 	.string "bist.$"

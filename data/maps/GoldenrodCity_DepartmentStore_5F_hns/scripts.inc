@@ -71,8 +71,8 @@ GoldenrodDeptStore_Text_5FReceptionistOhYourMon:
 
 GoldenrodDeptStore_Text_5FReceptionistWait:
 #if GERMAN
-	.string "Willkommen im\n"
-	.string "Kaufhaus von Dukatia City.$"
+	.string "Willkommen im Kaufhaus von Dukatia\n"
+	.string "City.$"
 #else
     .string "Wait, I already gave you that TM!$"
 #endif
@@ -82,8 +82,8 @@ GoldenrodDeptStore_Text_5FReceptionistPutInSomeMoreEffort:
 	.string "Hmm…\p"
 	.string "Es ist nicht schlecht, aber auch\n"
 	.string "nicht gut.\p"
-	.string "Du als Trainer musst dich\n"
-	.string "etwas mehr anstrengen.$"
+	.string "Du als Trainer musst dich etwas mehr\n"
+	.string "anstrengen.$"
 #else
 	.string "Hmm…\n"
 	.string "It's not bad, but it's also not good.\p"
@@ -105,8 +105,8 @@ GoldenrodDeptStore_Text_5FReceptionistThisMoveShouldBePerfect:
 
 GoldenrodDeptStore_Text_5FLass:
 #if GERMAN
-	.string "Sonntags kommt eine Dame,\n"
-	.string "um nach den Pokémon zu sehen.\p"
+	.string "Sonntags kommt eine Dame, um nach den\n"
+	.string "Pokémon zu sehen.\p"
 	.string "Sie verteilt manchmal sogar TM!$"
 #else
     .string "During the day, a lady comes to check\n"

@@ -486,8 +486,7 @@ PalletTown_Text_RaisingMonsToo::
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
 #if GERMAN
-	.string "Die Technik heutzutage ist\n"
-	.string "unglaublich!\p"
+	.string "Die Technik heutzutage ist unglaublich!\p"
 	.string "Man kann sogar Items und Pokémon\n"
 	.string "via PC lagern und wieder abrufen!$"
 #else
@@ -498,8 +497,7 @@ PalletTown_Text_CanStoreItemsAndMonsInPC::
 
 PalletTown_Text_OakPokemonResearchLab::
 #if GERMAN
-	.string "Professor Eich\n"
-	.string "Pokémon-Labor$"
+	.string "Professor Eich Pokémon-Labor$"
 #else
 	.string "OAK POKéMON RESEARCH LAB$"
 #endif
@@ -531,8 +529,8 @@ PalletTown_Text_OakLetMeSeePokedex::
 #if GERMAN
 	.string "Eich: Ah, {PLAYER}!\n"
 	.string "Du bist also zurück?\p"
-	.string "Wie ist es denn um deinen\n"
-	.string "Pokédex bestellt?\p"
+	.string "Wie ist es denn um deinen Pokédex\n"
+	.string "bestellt?\p"
 	.string "Darf ich ihn sehen?\p"
 	.string "Aha…$"
 #else
@@ -549,8 +547,8 @@ PalletTown_Text_CaughtXPuttingInHonestEffort::
 	.string "Du hast {STR_VAR_2} gefangen…\p"
 	.string "Hmm, es scheint, du würdest dich\n"
 	.string "wirklich anstrengen.\p"
-	.string "Wenn du mehr Einträge hast,\n"
-	.string "musst du ihn mir erneut zeigen.$"
+	.string "Wenn du mehr Einträge hast, musst du\n"
+	.string "ihn mir erneut zeigen.$"
 #else
 	.string "You've caught {STR_VAR_2}…\p"
 	.string "Hm, it looks as if you're putting\n"
@@ -624,8 +622,7 @@ PalletTown_Text_ReadItReadIt::
 @ Used by sign
 PalletTown_Text_PressStartToOpenMenu::
 #if GERMAN
-	.string "Drücke Start, um das Menü\n"
-	.string "aufzurufen!$"
+	.string "Drücke Start, um das Menü aufzurufen!$"
 #else
 	.string "TRAINER TIPS\p"
 	.string "Press START to open the MENU!$"
@@ -653,8 +650,7 @@ PalletTown_Text_LookCopiedTrainerTipsSign::
 @ Used by NPC
 PalletTown_Text_PressStartToOpenMenuCopy::
 #if GERMAN
-	.string "Drücke Start, um das Menü\n"
-	.string "aufzurufen!$"
+	.string "Drücke Start, um das Menü aufzurufen!$"
 #else
 	.string "TRAINER TIPS!\p"
 	.string "Press START to open the MENU!$"

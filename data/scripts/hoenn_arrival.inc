@@ -426,8 +426,7 @@ BirchsLab_Text_HoennDexExplain:
 	.string "Lebensräumen dieser Region.\p"
 	.string "Wenn du mir hilfst, sie zu füllen,\n"
 	.string "wäre mir sehr geholfen.\p"
-	.string "Viel Glück auf deiner Reise,\n"
-	.string "{PLAYER}!$"
+	.string "Viel Glück auf deiner Reise, {PLAYER}!$"
 #else
 	.string "PROF. BIRCH: There. I've expanded\n"
 	.string "your POKéDEX to cover this region.\p"
@@ -447,8 +446,8 @@ BirchsLab_Text_HoennGoodLuck:
 	.string "danach juckt.\p"
 	.string "Ach ja: Meine Tochter Maike ist\n"
 	.string "oben auf Route 103 unterwegs.\p"
-	.string "Sie würde dich sicher gern\n"
-	.string "kennenlernen - schau doch vorbei!\p"
+	.string "Sie würde dich sicher gern kennenlernen\n"
+	.string "- schau doch vorbei!\p"
 	.string "Und jetzt raus mit dir.\n"
 	.string "Viel Spaß, {PLAYER}!$"
 #else

@@ -151,8 +151,7 @@ SinjohRuins_Lab_Text_StevenIntroCutscene2:
 	.string "Troy: {PLAYER}!\p"
 	.string "Diese Augen würde ich überall\n"
 	.string "wiedererkennen.\p"
-	.string "Was führt dich so weit in den\n"
-	.string "Norden?\p"
+	.string "Was führt dich so weit in den Norden?\p"
 	.string "…………\p"
 	.string "Verstehe, die Kimono-Girls von\n"
 	.string "Neu-Sinjoh haben dich geschickt, um\l"
@@ -225,8 +224,7 @@ SinjohRuins_Lab_Text_StevenIntroCutscene4:
 
 SinjohRuins_Lab_Text_StevenIntroCutscene5:
 #if GERMAN
-	.string "Troy: So weit die Geschichte,\n"
-	.string "{PLAYER}.\p"
+	.string "Troy: So weit die Geschichte, {PLAYER}.\p"
 	.string "Die Königlichen Pokémon, die die übrigen\n"
 	.string "Tafeln bewachen, sind für mein Team\l"
 	.string "leider zu stark.\p"
@@ -1024,8 +1022,8 @@ SinjohRuins_Lab_Text_Note7:
 	.string "Jetzt sind nur noch ich und die Pokémon\n"
 	.string "hier, die wir als Helfer für die Arbeiten\l"
 	.string "gefangen haben.\p"
-	.string "Ich trainiere sie, damit sie\n"
-	.string "stärker werden.\p"
+	.string "Ich trainiere sie, damit sie stärker\n"
+	.string "werden.\p"
 	.string "Mein Tornupto allen voran.\p"
 	.string "Wir müssen herausfinden, was unter\n"
 	.string "dem Tempel liegt.$"
@@ -1164,8 +1162,8 @@ SinjohRuins_Lab_Text_PlayFlute:
 
 SinjohRuins_Lab_Text_DropedItem:
 #if GERMAN
-	.string "Das Königliche {STR_VAR_1} ließ\n"
-	.string "ein Item fallen…$"
+	.string "Das Königliche {STR_VAR_1} ließ ein Item\n"
+	.string "fallen…$"
 #else
 	.string "The NOBLE {STR_VAR_1} dropped\n"
 	.string "an item...$"

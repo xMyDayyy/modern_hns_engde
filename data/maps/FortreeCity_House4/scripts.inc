@@ -85,8 +85,8 @@ FortreeCity_House4_Text_GoBirdPokemon:
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
 #if GERMAN
-	.string "Hähähä, mein Wingull macht\n"
-	.string "Besorgungen für mich.$"
+	.string "Hähähä, mein Wingull macht Besorgungen\n"
+	.string "für mich.$"
 #else
 	.string "Heheh, I asked my WINGULL to run\n"
 	.string "an errand for me.$"

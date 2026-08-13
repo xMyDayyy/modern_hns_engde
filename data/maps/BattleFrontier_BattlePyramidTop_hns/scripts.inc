@@ -254,8 +254,8 @@ BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere_hns:
 	.string "ein anderer war schneller als du!\p"
 	.string "Unser Chef hat die Pyramide bereits\n"
 	.string "erobert!\p"
-	.string "Wie dem auch sei, junger\n"
-	.string "Forschergeist… Du bist ein Trainer!\p"
+	.string "Wie dem auch sei, junger Forschergeist…\n"
+	.string "Du bist ein Trainer!\p"
 	.string "Behaupte dich mit aller Kraft und hol\n"
 	.string "dir den Ruhm! Besiege unseren Chef!\p"
 	.string "Bitte! Du bist so weit gegangen. Mach\n"
@@ -298,8 +298,8 @@ BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure_hns:
 
 BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon_hns:
 #if GERMAN
-	.string "Oh ja, das Leben ist einfach\n"
-	.string "großartig! Ja, ja! Bitte?!?\p"
+	.string "Oh ja, das Leben ist einfach großartig!\n"
+	.string "Ja, ja! Bitte?!?\p"
 	.string "Ich heiße Brian!\p"
 	.string "Ich bin der Pyrakönig, was bedeutet,\n"
 	.string "dass ich die Verantwortung hier trage!\l"
@@ -435,8 +435,8 @@ BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis_hns:
 
 BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine_hns:
 #if GERMAN
-	.string "Das Bravursymbol erscheint\n"
-	.string "in einem goldenen Glanz!$"
+	.string "Das Bravursymbol erscheint in einem\n"
+	.string "goldenen Glanz!$"
 #else
 	.string "The Brave Symbol took on\n"
 	.string "a golden shine!$"

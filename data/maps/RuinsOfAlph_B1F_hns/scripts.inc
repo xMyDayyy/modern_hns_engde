@@ -72,8 +72,7 @@ RuinsOfAlph_B1F_Text_Teacher:
 #if GERMAN
     .string "Dieser Ort hat etwas Mystisches an\n"
     .string "sich.\p"
-    .string "Er wirkt sogar irgendwie\n"
-    .string "ätherisch.$"
+    .string "Er wirkt sogar irgendwie ätherisch.$"
 #else
 	.string "This place has a mystical\n"
 	.string "quality to it.\p"

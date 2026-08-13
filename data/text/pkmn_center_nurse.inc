@@ -1,8 +1,8 @@
 gText_WouldYouLikeToRestYourPkmn::
 #if GERMAN
 	.string "Willkommen im Pokémon-Center!\p"
-	.string "Wir heilen deine Pokémon und\n"
-	.string "machen sie wieder fit.\p"
+	.string "Wir heilen deine Pokémon und machen sie\n"
+	.string "wieder fit.\p"
 	.string "O.K. Wir benötigen deine Pokémon.$"
 #else
 	.string "Hello, and welcome to\n"
@@ -41,8 +41,8 @@ gText_WeHopeToSeeYouAgain::
 gText_WelcomeCutShort::
 #if GERMAN
 	.string "Willkommen im Pokémon-Center!\p"
-	.string "Wir heilen deine Pokémon und\n"
-	.string "machen sie wieder fit.\p"
+	.string "Wir heilen deine Pokémon und machen sie\n"
+	.string "wieder fit.\p"
 	.string "O.K. Wir benötigen deine Pokémon.$"
 #else
 	.string "Hello, and welcome to\n"

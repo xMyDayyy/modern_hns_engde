@@ -71,8 +71,8 @@ FuchsiaCity_PokemonCenter1F_Text_JanineImpersonator1:
 
 FuchsiaCity_PokemonCenter1F_Text_JanineImpersonator2:
 #if GERMAN
-	.string "Siehst du! Jetzt\n"
-	.string "sehe ich genauso aus wie sie!$"
+	.string "Siehst du! Jetzt sehe ich genauso aus\n"
+	.string "wie sie!$"
 #else
 	.string "See? I look just like her now!$"
 #endif

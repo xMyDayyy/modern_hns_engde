@@ -36,8 +36,7 @@ SaffronCity_Text_Baoba:
 	.string "Safarizone wieder gewachsen ist!\p"
 	.string "Endlich ist meine Safarizone\n"
 	.string "vollständig!\p"
-	.string "Du weißt noch, wo sie ist,\n"
-	.string "oder?\p"
+	.string "Du weißt noch, wo sie ist, oder?\p"
 	.string "Direkt westlich von Anemonia City!\n"
 	.string "Bis bald!$"
 #else
@@ -259,8 +258,8 @@ SaffronCity_Text_Youngster2:
 
 SaffronCity_Text_Lass2:
 #if GERMAN
-	.string "Über unsere Stadt wurde mal\n"
-	.string "im Radio berichtet!\p"
+	.string "Über unsere Stadt wurde mal im Radio\n"
+	.string "berichtet!\p"
 	.string "Ich freue mich zwar über das Lob für\n"
 	.string "meine Heimatstadt, aber es ist mir auch\l"
 	.string "ein klein wenig peinlich.$"

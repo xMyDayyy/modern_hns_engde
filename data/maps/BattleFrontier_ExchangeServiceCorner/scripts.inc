@@ -400,8 +400,8 @@ BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
 #if GERMAN
-	.string "Es tut mir sehr Leid… Aber\n"
-	.string "du hast nicht genug Gewinnpunkte…$"
+	.string "Es tut mir sehr Leid… Aber du hast nicht\n"
+	.string "genug Gewinnpunkte…$"
 #else
 	.string "I'm so sorry…\n"
 	.string "You don't have enough Battle Points…$"
@@ -428,8 +428,8 @@ BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
 #if GERMAN
 	.string "Vielen Dank.\p"
-	.string "Bitte komm wieder, wenn du \n"
-	.string "dich entschieden hast.$"
+	.string "Bitte komm wieder, wenn du dich\n"
+	.string "entschieden hast.$"
 #else
 	.string "Thank you very much.\p"
 	.string "Please visit us when you have\n"

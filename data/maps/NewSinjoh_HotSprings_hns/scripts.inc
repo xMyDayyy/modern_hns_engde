@@ -132,8 +132,8 @@ NewSinjoh_HotSprings_EventScript_SkierF::
 NewSinjoh_HotSprings_Text_SkierF:
 #if GERMAN
 	.string "Ich hasse die Kälte!\p"
-	.string "Ich bin nur wegen der heißen\n"
-	.string "Quellen hier!$"
+	.string "Ich bin nur wegen der heißen Quellen\n"
+	.string "hier!$"
 #else
 	.string "I hate the cold!\p"
     .string "I'm just here for the hot springs!$"

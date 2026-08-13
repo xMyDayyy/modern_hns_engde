@@ -17,8 +17,8 @@ SSAnne_1F_Room4_EventScript_WomanPlayerMale::
 
 SSAnne_1F_Room4_Text_WaiterCherryPiePlease::
 #if GERMAN
-	.string "Steward, ich hätte gern ein\n"
-	.string "Stückchen Torte!$"
+	.string "Steward, ich hätte gern ein Stückchen\n"
+	.string "Torte!$"
 #else
 	.string "Waiter, I would like a cherry pie,\n"
 	.string "please!$"

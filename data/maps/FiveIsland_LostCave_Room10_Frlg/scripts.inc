@@ -71,8 +71,8 @@ FiveIsland_LostCave_Room10_Text_SelphyIntro::
 
 FiveIsland_LostCave_Room10_Text_SelphyDefeat::
 #if GERMAN
-	.string "Oh… ich hatte Angst,\n"
-	.string "du wolltest mir weh tun!$"
+	.string "Oh… ich hatte Angst, du wolltest mir weh\n"
+	.string "tun!$"
 #else
 	.string "Oh… I was afraid that you meant to\n"
 	.string "harm me.$"
@@ -81,8 +81,7 @@ FiveIsland_LostCave_Room10_Text_SelphyDefeat::
 FiveIsland_LostCave_Room10_Text_MayIAskYouToTakeMeHome::
 #if GERMAN
 	.string "Ich bin so froh, dass du hier bist!\p"
-	.string "Mir wurde beim Laufen schon\n"
-	.string "langweilig.\p"
+	.string "Mir wurde beim Laufen schon langweilig.\p"
 	.string "Darf ich dich bitten, mich nach\n"
 	.string "Hause zu bringen?$"
 #else

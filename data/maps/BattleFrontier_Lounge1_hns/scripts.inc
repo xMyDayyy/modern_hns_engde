@@ -313,8 +313,8 @@ BattleFrontier_Lounge1_Text_StatFlawless_hns:
 
 BattleFrontier_Lounge1_Text_NoTimeForMyAdvice_hns:
 #if GERMAN
-	.string "Was? Du hast keine Zeit,\n"
-	.string "meinen Rat zu hören?\p"
+	.string "Was? Du hast keine Zeit, meinen Rat zu\n"
+	.string "hören?\p"
 	.string "Du solltest dir immer die Zeit nehmen,\n"
 	.string "von den Alten zu lernen.$"
 #else

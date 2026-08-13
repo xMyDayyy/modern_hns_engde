@@ -278,11 +278,11 @@ OlivinePort_Movement_BoatLeave:
 
 OlivinePort_Text_NoPass:
 #if GERMAN
-	.string "{PLAYER} versucht das\n"
-	.string "{STR_VAR_1} zu zeigen…\p"
+	.string "{PLAYER} versucht das {STR_VAR_1} zu\n"
+	.string "zeigen…\p"
 	.string "…Du hast kein {STR_VAR_1}!\p"
-	.string "Sorry! Du darfst nur mit\n"
-	.string "{STR_VAR_1} an Bord.$"
+	.string "Sorry! Du darfst nur mit {STR_VAR_1} an\n"
+	.string "Bord.$"
 #else
     .string "{PLAYER} tried to show the\n"
     .string "{STR_VAR_1}…\p"
@@ -316,8 +316,8 @@ OlivinePort_Text_WhereSail:
 
 OlivinePort_Text_AskBoard:
 #if GERMAN
-	.string "Willkommen auf dem\n"
-	.string "Schnellboot M.S. Aqua.\p"
+	.string "Willkommen auf dem Schnellboot M.S.\n"
+	.string "Aqua.\p"
 	.string "Trittst du heute deine Reise an?$"
 #else
     .string "Welcome to FAST SHIP S.S.AQUA.\p"
@@ -366,8 +366,8 @@ OlivinePort_Text_NoTicket:
 OlivinePort_Text_FishingGuru1:
 #if GERMAN
 	.string "Hier kannst du Muschas leicht\p"
-	.string "fangen. An anderen\n"
-	.string "Orten sind sie seltener.$"
+	.string "fangen. An anderen Orten sind sie\n"
+	.string "seltener.$"
 #else
     .string "SHELLDER are easy to catch here.\p"
     .string "They're kind of rare elsewhere.$"

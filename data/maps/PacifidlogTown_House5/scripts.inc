@@ -21,8 +21,8 @@ PacifidlogTown_House5_EventScript_Gentleman::
 
 PacifidlogTown_House5_Text_CantSeeMirageIslandToday:
 #if GERMAN
-	.string "Ich kann Wundereiland heute\n"
-	.string "nicht sehen…$"
+	.string "Ich kann Wundereiland heute nicht\n"
+	.string "sehen…$"
 #else
 	.string "I can't see MIRAGE ISLAND today…$"
 #endif

@@ -323,8 +323,8 @@ OlivineCity_Text_EonTicketWoman2:
 #if GERMAN
 	.string "Du musst {PLAYER} sein!!!\p"
 	.string "Oh mein Gott! Der Champion!\p"
-	.string "Ich hörte von dir in\n"
-	.string "Marys Radiosendung!\p"
+	.string "Ich hörte von dir in Marys\n"
+	.string "Radiosendung!\p"
 	.string "Hier, nimm das!$"
 #else
 	.string "You must be {PLAYER}!!!\p"

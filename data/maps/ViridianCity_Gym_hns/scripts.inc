@@ -44,8 +44,8 @@ ViridianCity_Gym_EventScript_BlueGotoDojo::
 ViridianCity_Gym_Text_BlueGotoDojo:
 #if GERMAN
 	.string "Blau: Zurück für mehr?\p"
-	.string "Wenn du kämpfen willst,\n"
-	.string "komm zum Kampf-Dojo!$"
+	.string "Wenn du kämpfen willst, komm zum\n"
+	.string "Kampf-Dojo!$"
 #else
 	.string "BLUE: Back for more already?\p"
 	.string "If you want another shot at me,\n"
@@ -92,8 +92,7 @@ ViridianCity_Gym_Text_LeaderBlue_Before:
 ViridianCity_Gym_Text_LeaderBlue_Win:
 #if GERMAN
 	.string "Blau: Was?\p"
-	.string "Wie konnte ich gegen dich\n"
-	.string "verlieren?\p"
+	.string "Wie konnte ich gegen dich verlieren?\p"
 	.string "…\p"
 	.string "Tch, na gut… Nimm dies, es ist\n"
 	.string "der Erdorden.$"

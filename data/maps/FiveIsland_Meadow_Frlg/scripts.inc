@@ -140,8 +140,7 @@ FiveIsland_Meadow_Text_Rocket2Defeat::
 
 FiveIsland_Meadow_Text_Rocket2PostBattle::
 #if GERMAN
-	.string "Du möchtest wissen, was im\n"
-	.string "Lager ist?\p"
+	.string "Du möchtest wissen, was im Lager ist?\p"
 	.string "Es ist besser, du weißt das nicht.\n"
 	.string "Zu deinem Besten, versteht sich!$"
 #else
@@ -153,8 +152,8 @@ FiveIsland_Meadow_Text_Rocket2PostBattle::
 
 FiveIsland_Meadow_Text_Rocket3Intro::
 #if GERMAN
-	.string "Du verschwendest Zeit, auch\n"
-	.string "wenn du an mir vorbei kommst.$"
+	.string "Du verschwendest Zeit, auch wenn du an\n"
+	.string "mir vorbei kommst.$"
 #else
 	.string "You'd be wasting time even if you\n"
 	.string "were to get by me.$"

@@ -537,8 +537,8 @@ BattleFrontier_ReceptionGate_Text_RankingHallInfo:
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
 #if GERMAN
-	.string "Die Tauschecke befindet\n"
-	.string "sich in der Nähe des Duellturms.\p"
+	.string "Die Tauschecke befindet sich in der\n"
+	.string "Nähe des Duellturms.\p"
 	.string "Hier kannst du Gewinnpunkte, die du in\n"
 	.string "der Kampfzone erhalten hast, gegen\l"
 	.string "tolle Preise eintauschen.$"

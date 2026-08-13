@@ -146,8 +146,8 @@ PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed::
 #if GERMAN
 	.string "Du hast einen geschützten Bereich\n"
 	.string "betreten!\p"
-	.string "Die Pokémon von {PLAYER}\n"
-	.string "wurden geheilt!$"
+	.string "Die Pokémon von {PLAYER} wurden\n"
+	.string "geheilt!$"
 #else
 	.string "Entered the purified and protected\n"
 	.string "zone.\p"

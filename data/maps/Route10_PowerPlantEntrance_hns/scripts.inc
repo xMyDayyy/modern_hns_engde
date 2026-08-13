@@ -119,8 +119,7 @@ Route10_PowerPlantEntrance_Text_Officer1AThiefBrokeIn:
 
 Route10_PowerPlantEntrance_Text_Officer1CeruleanShadyCharacter:
 #if GERMAN
-	.string "Wir haben Neuigkeiten\n"
-	.string "aus Azuria City!\p"
+	.string "Wir haben Neuigkeiten aus Azuria City!\p"
 	.string "Es heißt, dort treibe sich eine\n"
 	.string "verdächtige Gestalt herum!$"
 #else
@@ -132,8 +131,8 @@ Route10_PowerPlantEntrance_Text_Officer1CeruleanShadyCharacter:
 
 Route10_PowerPlantEntrance_Text_Officer1CouldIAskForYourCooperation:
 #if GERMAN
-	.string "Kann ich mit\n"
-	.string "deiner Unterstützung rechnen?$"
+	.string "Kann ich mit deiner Unterstützung\n"
+	.string "rechnen?$"
 #else
 	.string "Could I ask for your\n"
 	.string "cooperation?$"
@@ -141,8 +140,8 @@ Route10_PowerPlantEntrance_Text_Officer1CouldIAskForYourCooperation:
 
 Route10_PowerPlantEntrance_Text_Officer1HaveToBeefUpSecurity:
 #if GERMAN
-	.string "Wir müssen mehr\n"
-	.string "Wachpersonal einstellen.$"
+	.string "Wir müssen mehr Wachpersonal\n"
+	.string "einstellen.$"
 #else
 	.string "We'll have to beef up our\n"
 	.string "security presence.$"
@@ -150,10 +149,10 @@ Route10_PowerPlantEntrance_Text_Officer1HaveToBeefUpSecurity:
 
 Route10_PowerPlantEntrance_Text_Engineer1SomeoneStoleAPart:
 #if GERMAN
-	.string "Ein Dieb hat ein wichtiges\n"
-	.string "Teil des Generators entwendet!\p"
-	.string "Ohne es funktioniert der\n"
-	.string "neue Generator nicht!$"
+	.string "Ein Dieb hat ein wichtiges Teil des\n"
+	.string "Generators entwendet!\p"
+	.string "Ohne es funktioniert der neue\n"
+	.string "Generator nicht!$"
 #else
 	.string "Someone made off with a part\n"
 	.string "that's essential for the\l"
@@ -195,8 +194,8 @@ Route10_PowerPlantEntrance_Text_Engineer2GeneratorIsRunningAgain:
 
 Route10_PowerPlantEntrance_Text_Officer2ManagerHasBeenSadAndFurious:
 #if GERMAN
-	.string "Der Direktor des\n"
-	.string "Kraftwerks sitzt da vorne.\p"
+	.string "Der Direktor des Kraftwerks sitzt da\n"
+	.string "vorne.\p"
 	.string "Seit jemand den Generator demolierte,\n"
 	.string "ist er traurig und wütend zugleich…$"
 #else
@@ -218,10 +217,10 @@ Route10_PowerPlantEntrance_Text_Officer2ManagerHasBeenCheerful:
 
 Route10_PowerPlantEntrance_Text_Engineer4MagnetTrainConsumesElectricity:
 #if GERMAN
-	.string "Der Magnetzug verbraucht\n"
-	.string "sehr viel Energie.\p"
-	.string "Ohne den neuen Generator\n"
-	.string "bewegt sich da gar nichts.$"
+	.string "Der Magnetzug verbraucht sehr viel\n"
+	.string "Energie.\p"
+	.string "Ohne den neuen Generator bewegt sich\n"
+	.string "da gar nichts.$"
 #else
 	.string "The MAGNET TRAIN consumes a lot\n"
 	.string "of electricity.\p"
@@ -275,8 +274,8 @@ Route10_PowerPlantEntrance_Text_WantToTrade:
 
 Route10_PowerPlantEntrance_Text_TakeCare:
 #if GERMAN
-	.string "Danke! Kümmere dich gut um\n"
-	.string "Maggie für mich!$"
+	.string "Danke! Kümmere dich gut um Maggie für\n"
+	.string "mich!$"
 #else
 	.string "Thanks! Take good care of\n"
 	.string "MAGGIE for me!$"

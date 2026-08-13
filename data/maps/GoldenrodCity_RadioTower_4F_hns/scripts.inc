@@ -206,8 +206,7 @@ GoldenrodCity_RadioTower_4F4_Text_GruntM10Beaten:
 
 GoldenrodCity_RadioTower_4F4_Text_GruntM10After:
 #if GERMAN
-	.string "Ich fass es nicht! Ich wurde\n"
-	.string "besiegt!$"
+	.string "Ich fass es nicht! Ich wurde besiegt!$"
 #else
 	.string "I don't believe it! I was beaten!$"
 #endif
@@ -274,8 +273,8 @@ GoldenrodCity_RadioTower_4F4_Text_GruntF4After:
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichSeen:
 #if GERMAN
 	.string "Exzellent.\p"
-	.string "Mit dem Radioturm können wir\n"
-	.string "unser Vorhaben in die Tat umsetzen.$"
+	.string "Mit dem Radioturm können wir unser\n"
+	.string "Vorhaben in die Tat umsetzen.$"
 #else
 	.string "Most excellent.\p"
 	.string "This RADIO TOWER will fulfill our\n"

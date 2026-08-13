@@ -581,8 +581,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan:
 	.string "Genuss deiner megaheißen Kämpfe.\p"
 	.string "Dann sehen auch die anderen hier, wie\n"
 	.string "stark du wirklich bist!\p"
-	.string "Denk dran: Ich jubele dir zu,\n"
-	.string "{PLAYER}!$"
+	.string "Denk dran: Ich jubele dir zu, {PLAYER}!$"
 #else
 	.string "I've heard the news!\n"
 	.string "You're really strong, aren't you?\p"
@@ -915,8 +914,8 @@ LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsWickedlyCool:
 LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan:
 #if GERMAN
 	.string "Auch wenn ich der einzige Fan bin…\p"
-	.string "Ich werde niemals aufhören,\n"
-	.string "ein Fan von {STR_VAR_1} zu sein!\p"
+	.string "Ich werde niemals aufhören, ein Fan von\n"
+	.string "{STR_VAR_1} zu sein!\p"
 	.string "Denn ich habe gehört, dass {STR_VAR_1}\n"
 	.string "niemals verliert!$"
 #else
@@ -1036,8 +1035,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_NoOneCanKnockYouButTrainerStronger:
 	.string "Du bist sehr populär…\p"
 	.string "Du bist stark und du sorgst gut für\n"
 	.string "deine Pokémon.\p"
-	.string "Aber, weißt du, ich glaube an\n"
-	.string "{STR_VAR_1}.\p"
+	.string "Aber, weißt du, ich glaube an {STR_VAR_1}.\p"
 	.string "{STR_VAR_1} ist definitiv stärker!\n"
 	.string "Ich bin mir da sicher!$"
 #else

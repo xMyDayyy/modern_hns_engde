@@ -183,18 +183,18 @@ Route43_Text_PokemaniacRonSeen:
 
 Route43_Text_PokemaniacRonBeaten:
 #if GERMAN
-	.string "Mein Nidoking hat\n"
-	.string "sich wacker geschlagen!$"
+	.string "Mein Nidoking hat sich wacker\n"
+	.string "geschlagen!$"
 #else
     .string "My NIDOKING did pretty right on!$"
 #endif
 
 Route43_Text_PokemaniacRonAfter:
 #if GERMAN
-    .string "Es ist okay, wenn Leute\n"
-    .string "verschiedene Pokémon-Typen mögen.\p"
-    .string "Pokémon bedeutet nicht nur,\n"
-    .string "das stärkste zu haben.$"
+    .string "Es ist okay, wenn Leute verschiedene\n"
+    .string "Pokémon-Typen mögen.\p"
+    .string "Pokémon bedeutet nicht nur, das\n"
+    .string "stärkste zu haben.$"
 #else
     .string "It's okay for people to like\n"
     .string "different types of POKéMON.\p"
@@ -216,8 +216,8 @@ Route43_Text_FisherMarvinSeen:
 
 Route43_Text_FisherMarvinBeaten:
 #if GERMAN
-	.string "Ich habe verloren,\n"
-	.string "aber ich fühle mich trotzdem besser.$"
+	.string "Ich habe verloren, aber ich fühle mich\n"
+	.string "trotzdem besser.$"
 #else
     .string "I lost, but I feel better anyway.$"
 #endif

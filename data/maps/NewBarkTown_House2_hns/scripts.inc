@@ -37,8 +37,8 @@ NewBarkTown_House2_Text_ElmsSon:
 #if GERMAN
 	.string "Wenn ich groß bin, will ich meinem\n"
 	.string "Papa bei der Arbeit helfen!\p"
-	.string "Und dann werde ich zu einem\n"
-	.string "ganz tollen Pokémon-Professor!$"
+	.string "Und dann werde ich zu einem ganz tollen\n"
+	.string "Pokémon-Professor!$"
 #else
 	.string "When I grow up, I'm going to\n"
 	.string "help my dad!\p"

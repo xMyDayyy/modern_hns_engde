@@ -108,8 +108,8 @@ Route13_EventScript_DirectionsSign::
 
 Route13_Text_PokefanmAlexSeen:
 #if GERMAN
-	.string "Verneige dich vor meinen\n"
-	.string "erhabenen Pokémon!$"
+	.string "Verneige dich vor meinen erhabenen\n"
+	.string "Pokémon!$"
 #else
 	.string "Bow down before my regal POKéMON!$"
 #endif
@@ -165,8 +165,8 @@ Route13_Text_AlexPostRematch:
 
 Route13_Text_PokefanmJoshuaSeen:
 #if GERMAN
-	.string "Hihi! Möchtest du\n"
-	.string "gegen mein Pikachu-Team antreten?$"
+	.string "Hihi! Möchtest du gegen mein\n"
+	.string "Pikachu-Team antreten?$"
 #else
 	.string "Nihihi! Would you like to battle\n"
 	.string "my PIKACHU gang?$"
@@ -209,8 +209,8 @@ Route13_Text_BirdKeeperPerryBeaten:
 
 Route13_Text_BirdKeeperPerryAfterBattle:
 #if GERMAN
-	.string "Dein Pokémon-Team ist in der\n"
-	.string "Tat sehr gut trainiert.$"
+	.string "Dein Pokémon-Team ist in der Tat sehr\n"
+	.string "gut trainiert.$"
 #else
 	.string "Your POKéMON are remarkably well-\n"
 	.string "trained.$"
@@ -533,8 +533,8 @@ Route13_Movement_BoatArrive:
 
 Route13_GetOffBoat_Text_0:
 #if GERMAN
-	.string "Willkommen zurück auf dem\n"
-	.string "Festland von Kanto!\p"
+	.string "Willkommen zurück auf dem Festland von\n"
+	.string "Kanto!\p"
 	.string "Komm wieder, wenn du zu den\n"
 	.string "Alola-Inseln reisen möchtest!$"
 #else
@@ -546,10 +546,8 @@ Route13_GetOffBoat_Text_0:
 Route13_TravelToAlola_Text_0:
 #if GERMAN
 	.string "Ahoi!\p"
-	.string "Das ist ja ein seltsames\n"
-	.string "Souvenir.\p"
-	.string "Du musst von den\n"
-	.string "Alola-Inseln stammen!$"
+	.string "Das ist ja ein seltsames Souvenir.\p"
+	.string "Du musst von den Alola-Inseln stammen!$"
 #else
 	.string "Ahoy there!\p"
 	.string "That's one strange souvenir.\n"
@@ -594,8 +592,8 @@ Route13_TravelToAlola_Text_4:
 	.string "Dieser Hafen ist nur für Einheimische.\p"
 	.string "Alle Bewohner dieser Inseln\n"
 	.string "tragen… {PAUSE 30}seltsame Souvenirs.\p"
-	.string "So erkenne ich sie sofort,\n"
-	.string "ganz ohne Fahrkarte!$"
+	.string "So erkenne ich sie sofort, ganz ohne\n"
+	.string "Fahrkarte!$"
 #else
 	.string "Ahoy!\n"
 	.string "This port is for residents only.\p"

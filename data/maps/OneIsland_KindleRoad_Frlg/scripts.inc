@@ -137,8 +137,8 @@ OneIsland_KindleRoad_Text_TommyPostBattle::
 
 OneIsland_KindleRoad_Text_SharonIntro::
 #if GERMAN
-	.string "Könntest du mir beim\n"
-	.string "Training aushelfen?$"
+	.string "Könntest du mir beim Training\n"
+	.string "aushelfen?$"
 #else
 	.string "Could you help me out with my\n"
 	.string "training?$"
@@ -162,8 +162,8 @@ OneIsland_KindleRoad_Text_SharonPostBattle::
 
 OneIsland_KindleRoad_Text_TanyaIntro::
 #if GERMAN
-	.string "Es gibt keinen Tag, an dem\n"
-	.string "wir nicht trainieren!$"
+	.string "Es gibt keinen Tag, an dem wir nicht\n"
+	.string "trainieren!$"
 #else
 	.string "There isn't a day in which we don't\n"
 	.string "train!$"
@@ -178,8 +178,8 @@ OneIsland_KindleRoad_Text_TanyaDefeat::
 
 OneIsland_KindleRoad_Text_TanyaPostBattle::
 #if GERMAN
-	.string "Von jetzt an werde ich noch\n"
-	.string "härter trainieren.$"
+	.string "Von jetzt an werde ich noch härter\n"
+	.string "trainieren.$"
 #else
 	.string "I'll train even harder from now on!$"
 #endif
@@ -254,8 +254,8 @@ OneIsland_KindleRoad_Text_BryceDefeat::
 
 OneIsland_KindleRoad_Text_BrycePostBattle::
 #if GERMAN
-	.string "Das Wasser in Gebieten mit\n"
-	.string "Vulkanen ist köstlich!$"
+	.string "Das Wasser in Gebieten mit Vulkanen ist\n"
+	.string "köstlich!$"
 #else
 	.string "The water in volcanic regions is\n"
 	.string "delicious.$"
@@ -327,8 +327,8 @@ OneIsland_KindleRoad_Text_KiaNotEnoughMons::
 
 OneIsland_KindleRoad_Text_MikIntro::
 #if GERMAN
-	.string "Dirk: An der Seite von Heidi\n"
-	.string "habe ich vor nichts Angst!$"
+	.string "Dirk: An der Seite von Heidi habe ich vor\n"
+	.string "nichts Angst!$"
 #else
 	.string "MIK: Together with KIA, I'm afraid\n"
 	.string "of nothing!$"
@@ -345,8 +345,8 @@ OneIsland_KindleRoad_Text_MikDefeat::
 
 OneIsland_KindleRoad_Text_MikPostBattle::
 #if GERMAN
-	.string "Dirk: Wie kann ich an der\n"
-	.string "Seite von Heidi verlieren?$"
+	.string "Dirk: Wie kann ich an der Seite von Heidi\n"
+	.string "verlieren?$"
 #else
 	.string "MIK: How could my combination\n"
 	.string "with KIA fail?$"

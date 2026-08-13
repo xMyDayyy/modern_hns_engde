@@ -29,8 +29,8 @@ SproutTower_2F_EventScript_Xdefend::
 
 SproutTower_Text_SageNico_Seen:
 #if GERMAN
-	.string "So sehr wir hier auch wüten,\n"
-	.string "der Turm steht felsenfest!$"
+	.string "So sehr wir hier auch wüten, der Turm\n"
+	.string "steht felsenfest!$"
 #else
 	.string "However hard we battle,\n"
 	.string "the TOWER will stand strong.$"
@@ -38,16 +38,16 @@ SproutTower_Text_SageNico_Seen:
 
 SproutTower_Text_SageNico_Beaten:
 #if GERMAN
-	.string "Ich habe hart gekämpft,\n"
-	.string "doch ich war einfach zu schwach.$"
+	.string "Ich habe hart gekämpft, doch ich war\n"
+	.string "einfach zu schwach.$"
 #else
 	.string "I fought hard but I'm too weak.$"
 #endif
 
 SproutTower_Text_SageNico_AfterBattle:
 #if GERMAN
-	.string "Aufgrund der flexiblen Säule\n"
-	.string "ist der Turm erdbebensicher.$"
+	.string "Aufgrund der flexiblen Säule ist der\n"
+	.string "Turm erdbebensicher.$"
 #else
 	.string "The flexible pillar protects the\n"
 	.string "TOWER, even from earthquakes.$"
@@ -55,8 +55,7 @@ SproutTower_Text_SageNico_AfterBattle:
 
 SproutTower_Text_SageEdmond_Seen:
 #if GERMAN
-	.string "…Zittere wie\n"
-	.string "Laub im Wind!$"
+	.string "…Zittere wie Laub im Wind!$"
 #else
 	.string "…Sway like leaves in the wind…$"
 #endif

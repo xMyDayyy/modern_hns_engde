@@ -41,8 +41,8 @@ FortreeCity_Mart_Text_SuperRepelBetter:
 #if GERMAN
 	.string "Superschutz hält lange an und ist auch\n"
 	.string "äußerst nützlich.\p"
-	.string "Er ist viel besser als\n"
-	.string "der normale Schutz.$"
+	.string "Er ist viel besser als der normale\n"
+	.string "Schutz.$"
 #else
 	.string "SUPER REPEL lasts a long time,\n"
 	.string "and it gets the job done.\p"

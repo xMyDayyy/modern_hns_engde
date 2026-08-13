@@ -11,8 +11,8 @@ PewterCity_Mart_EventScript_Nerd::
 
 PewterCity_Mart_Text_Youngster:
 #if GERMAN
-	.string "Hi! Mach doch Bekanntschaft\n"
-	.string "mit meinem Garados!\p"
+	.string "Hi! Mach doch Bekanntschaft mit meinem\n"
+	.string "Garados!\p"
 	.string "Ich habe es als Karpador aufgezogen.\n"
 	.string "Kaum zu glauben, wie stark es geworden\l"
 	.string "ist.$"

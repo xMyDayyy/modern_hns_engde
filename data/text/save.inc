@@ -55,8 +55,7 @@ gText_DifferentSaveFile::
 gText_SaveError::
 #if GERMAN
 	.string "Fehler beim Speichern!\p"
-	.string "Bitte Backup Memory\n"
-	.string "austauschen.$"
+	.string "Bitte Backup Memory austauschen.$"
 #else
 	.string "Save error.\p"
 	.string "Please exchange the\n"

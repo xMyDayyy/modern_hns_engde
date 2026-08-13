@@ -494,8 +494,8 @@ LavaridgeTown_Text_OhYouLikeHotSprings:
 
 LavaridgeTown_Text_BatheInHotSpringsEveryDay:
 #if GERMAN
-	.string "Ich bade jeden Tag in den\n"
-	.string "Heißen Quellen.\p"
+	.string "Ich bade jeden Tag in den Heißen\n"
+	.string "Quellen.\p"
 	.string "Ich will ein wunderschöner und starker\n"
 	.string "Arenaleiter wie Flavia werden.$"
 #else

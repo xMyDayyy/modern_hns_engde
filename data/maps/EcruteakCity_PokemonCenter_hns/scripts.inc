@@ -153,8 +153,8 @@ EcruteakCity_PokemonCenter1F_Text_PokefanM:
 
 EcruteakCity_PokemonCenter1F_Text_PokefanM_Mobile:
 #if GERMAN
-	.string "Du hoffst, hier\n"
-	.string "mehr Kämpfe zu erleben, nicht wahr?\p"
+	.string "Du hoffst, hier mehr Kämpfe zu erleben,\n"
+	.string "nicht wahr?\p"
 	.string "Es gibt offensichtlich einen\p"
 	.string "Ort, an dem sich Trainer treffen.\p"
 	.string "Wo, fragst du?\p"

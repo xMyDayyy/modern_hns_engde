@@ -289,8 +289,8 @@ SSAqua_1F_Text_Sailor2_FirstTime:
 SSAqua_1F_Text_Sailor3:
 #if GERMAN
 	.string "Alle Passagiere sind Trainer.\p"
-	.string "Sie brennen darauf, in ihren\n"
-	.string "Kabinen zu kämpfen.$"
+	.string "Sie brennen darauf, in ihren Kabinen zu\n"
+	.string "kämpfen.$"
 #else
     .string "The passengers are all trainers.\p"
     .string "They're all itching to battle in\n"

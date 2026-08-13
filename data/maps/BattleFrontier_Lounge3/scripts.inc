@@ -212,8 +212,8 @@ BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
 #if GERMAN
 	.string "Oh…\n"
 	.string "Du siehst wie ein starker Trainer aus.\p"
-	.string "Hähähä… Pass auf, ich\n"
-	.string "mach dir folgenden Vorschlag:\p"
+	.string "Hähähä… Pass auf, ich mach dir\n"
+	.string "folgenden Vorschlag:\p"
 	.string "Wir haben hier eine Gruppe gebildet und\n"
 	.string "wir nutzen bei unserem Spiel aus, was\l"
 	.string "hier in der Kampfzone so\p"
@@ -253,8 +253,7 @@ BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle::
 #if GERMAN
 	.string "Ich suche einen Trainer, der bereit\n"
 	.string "ist, sich der Herausforderung der\p"
-	.string "Einzelkämpfe im Duellturm\n"
-	.string "zu stellen.\p"
+	.string "Einzelkämpfe im Duellturm zu stellen.\p"
 	.string "Aber bisher ist mir noch kein Trainer ins\n"
 	.string "Auge gefallen, dessen Qualitäten mich\l"
 	.string "überzeugt hätten.$"
@@ -270,8 +269,7 @@ BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble::
 #if GERMAN
 	.string "Ich suche einen Trainer, der bereit\n"
 	.string "ist, sich der Herausforderung der\p"
-	.string "Doppelkämpfe im Duellturm\n"
-	.string "zu stellen.\p"
+	.string "Doppelkämpfe im Duellturm zu stellen.\p"
 	.string "Aber bisher ist mir noch kein Trainer ins\n"
 	.string "Auge gefallen, dessen Qualitäten mich\l"
 	.string "überzeugt hätten.$"
@@ -287,8 +285,7 @@ BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti::
 #if GERMAN
 	.string "Ich suche einen Trainer, der bereit\n"
 	.string "ist, sich der Herausforderung der\p"
-	.string "Multikämpfe im Duellturm\n"
-	.string "zu stellen.\p"
+	.string "Multikämpfe im Duellturm zu stellen.\p"
 	.string "Aber bisher ist mir noch kein Trainer ins\n"
 	.string "Auge gefallen, dessen Qualitäten mich\l"
 	.string "überzeugt hätten.$"
@@ -423,8 +420,7 @@ BattleFrontier_Lounge3_Text_ChallengeBattlePike::
 #if GERMAN
 	.string "Ich suche einen Trainer, der bereit\n"
 	.string "ist, sich der Herausforderung der\p"
-	.string "Kampfbahn der Kampfipitis\n"
-	.string "zu stellen.\p"
+	.string "Kampfbahn der Kampfipitis zu stellen.\p"
 	.string "Aber bisher ist mir noch kein Trainer ins\n"
 	.string "Auge gefallen, dessen Qualitäten mich\l"
 	.string "überzeugt hätten.$"
@@ -784,8 +780,8 @@ BattleFrontier_Lounge3_Text_TrainerGoodButRattled::
 
 BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne::
 #if GERMAN
-	.string "Kicher, kicher! Ich erkenne\n"
-	.string "einen Sieger, wenn ich ihn sehe!$"
+	.string "Kicher, kicher! Ich erkenne einen\n"
+	.string "Sieger, wenn ich ihn sehe!$"
 #else
 	.string "Giggle!\n"
 	.string "I know a winner when I see one!$"

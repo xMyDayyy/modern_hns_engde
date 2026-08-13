@@ -85,8 +85,8 @@ PewterCity_Gym_Text_Brock_BoulderBadge:
 	.string "Rocko: {PLAYER}, danke.\n"
 	.string "Der Kampf hat mir gefallen, auch wenn\l"
 	.string "ich etwas enttäuscht bin.\p"
-	.string "Der Felsenorden macht deine\n"
-	.string "Pokémon noch stärker.$"
+	.string "Der Felsenorden macht deine Pokémon\n"
+	.string "noch stärker.$"
 #else
 	.string "BROCK: {PLAYER}, thanks. I enjoyed\n"
 	.string "battling you, even though I am a bit\l"
@@ -127,8 +127,7 @@ PewterCity_Gym_Text_CamperJerry_Seen:
 
 PewterCity_Gym_Text_CamperJerry_Beaten:
 #if GERMAN
-	.string "Ich muss diese\n"
-	.string "Kämpfe gewinnen…$"
+	.string "Ich muss diese Kämpfe gewinnen…$"
 #else
 	.string "I have to win these battles…$"
 #endif
@@ -251,8 +250,8 @@ PewterCity_Gym_Text_BrockWantToTrade:
 	.string "Bergen trainierte.\p"
 	.string "Es ist süß, braucht aber einen\n"
 	.string "anderen Typ Trainer.\p"
-	.string "Würdest du ein {STR_VAR_1}\n"
-	.string "für mein {STR_VAR_2} tauschen?$"
+	.string "Würdest du ein {STR_VAR_1} für mein\n"
+	.string "{STR_VAR_2} tauschen?$"
 #else
 	.string "BROCK: Hey, {PLAYER}. I found this\n"
 	.string "little BONSLY while training in the\l"

@@ -274,8 +274,7 @@ EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "Du warst elegant, manchmal auch\l"
 	.string "verzweifelt. Aber auch herrlich!\p"
 	.string "Der Ruhm gehört dir, {PLAYER}{KUN}!\p"
-	.string "Du bist wahrhaft ein edler\n"
-	.string "Trainer!$"
+	.string "Du bist wahrhaft ein edler Trainer!$"
 #else
 	.string "I, the CHAMPION, fall in defeat…\p"
 	.string "That was wonderful work.\n"

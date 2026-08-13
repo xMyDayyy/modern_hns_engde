@@ -181,8 +181,7 @@ Route39_Text_MoomooHappyMoo:
 
 Route39_Text_BarnGaveBerry:
 #if GERMAN
-	.string "{PLAYER} gibt Miltank eine\n"
-	.string "Sinelbeere!$"
+	.string "{PLAYER} gibt Miltank eine Sinelbeere!$"
 #else
 	.string "{PLAYER} gave an ORAN BERRY to\n"
 	.string "MILTANK.$"
@@ -214,16 +213,15 @@ Route39_Text_BarnTotallyHealthy:
 
 Route39_Text_BarnNoBerries:
 #if GERMAN
-	.string "{PLAYER} hat keine\n"
-	.string "Sinelbeeren dabei…$"
+	.string "{PLAYER} hat keine Sinelbeeren dabei…$"
 #else
 	.string "{PLAYER} has no ORAN BERRIES…$"
 #endif
 
 Route39_Text_BarnRefusedBerry:
 #if GERMAN
-	.string "{PLAYER} hat Miltank keine\n"
-	.string "Sinelbeeren gegeben.\p"
+	.string "{PLAYER} hat Miltank keine Sinelbeeren\n"
+	.string "gegeben.\p"
 	.string "Es sieht dich ganz traurig an…$"
 #else
 	.string "{PLAYER} wouldn't give an\n"

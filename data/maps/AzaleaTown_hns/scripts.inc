@@ -364,8 +364,8 @@ AzaleaTown_Text_RivalBefore:
 
 AzaleaTown_Text_RivalWin:
 #if GERMAN
-	.string "Hmpf! Diese Pokémon sind\n"
-	.string "zu nichts zu gebrauchen.\p"
+	.string "Hmpf! Diese Pokémon sind zu nichts zu\n"
+	.string "gebrauchen.\p"
 	.string "Glaube mir, du konntest nur gewinnen,\n"
 	.string "weil meine Pokémon so schwach waren!$"
 #else
@@ -402,8 +402,8 @@ AzaleaTown_Text_RivalAfter:
 
 AzaleaTown_Text_RivalLoss:
 #if GERMAN
-	.string "Ha! Ich wusste doch, dass du\n"
-	.string "vorhin nur geflunkert hast!$"
+	.string "Ha! Ich wusste doch, dass du vorhin nur\n"
+	.string "geflunkert hast!$"
 #else
 	.string "…Humph! I knew you were lying.$"
 #endif
@@ -433,8 +433,8 @@ AzaleaTown_Text_Rocket2:
 
 AzaleaTown_Text_GrampsBefore:
 #if GERMAN
-	.string "Alle Flegmon sind aus der\n"
-	.string "Stadt verschwunden…\p"
+	.string "Alle Flegmon sind aus der Stadt\n"
+	.string "verschwunden…\p"
 	.string "Dabei dachte ich, dass man hier\n"
 	.string "Flegmon-Ruten kaufen kann…$"
 #else

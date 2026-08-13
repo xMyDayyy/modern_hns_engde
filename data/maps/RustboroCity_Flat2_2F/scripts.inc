@@ -32,8 +32,7 @@ RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays:
 
 RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt:
 #if GERMAN
-	.string "Mein Papa arbeitet für die\n"
-	.string "Corporation. \p"
+	.string "Mein Papa arbeitet für die Corporation.\p"
 	.string "Mein Papa hat dies gemacht! Ich kann\n"
 	.string "damit aber nichts anfangen, daher\l"
 	.string "schenke ich es dir.$"
@@ -45,8 +44,7 @@ RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt:
 
 RustboroCity_Flat2_2F_Text_GoingToWorkAtDevonToo:
 #if GERMAN
-	.string "Mein Papa arbeitet für die\n"
-	.string "Corporation. \p"
+	.string "Mein Papa arbeitet für die Corporation.\p"
 	.string "Wenn ich groß bin, werde ich auch für\n"
 	.string "Devon arbeiten.$"
 #else

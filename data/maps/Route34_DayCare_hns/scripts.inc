@@ -208,8 +208,8 @@ Route34_DayCare_Text_ClerkQuestion:
 
 Route34_DayCare_Text_Rejection:
 #if GERMAN
-	.string "Hmm, ich glaube, dieses Ei ist\n"
-	.string "nicht für dich.\p"
+	.string "Hmm, ich glaube, dieses Ei ist nicht für\n"
+	.string "dich.\p"
 	.string "Es wäre unverantwortlich, ein\n"
 	.string "kostbares Ei an jemanden zu geben, der\l"
 	.string "sich noch nicht\p"
@@ -241,8 +241,7 @@ Route34_DayCare_Text_TakeCare:
 Route34_DayCare_Text_ClerkAfter:
 #if GERMAN
 	.string "Wir sehen hier oft solche Eier.\p"
-	.string "Doch bei diesem war etwas\n"
-	.string "anders.$"
+	.string "Doch bei diesem war etwas anders.$"
 #else
 	.string "We see a lot of those eggs around\n"
 	.string "here.\p"
@@ -654,8 +653,8 @@ Route34_DayCare_Text_WouldYouLikeUsToRaiseAMon:
 
 Route34_DayCare_Text_WhichMonShouldWeRaise:
 #if GERMAN
-	.string "Welches Pokémon sollen\n"
-	.string "wir für dich aufziehen?$"
+	.string "Welches Pokémon sollen wir für dich\n"
+	.string "aufziehen?$"
 #else
 	.string "Which POKéMON should we raise for\n"
 	.string "you?$"

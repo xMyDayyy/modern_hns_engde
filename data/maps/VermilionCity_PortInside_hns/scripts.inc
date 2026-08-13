@@ -10,8 +10,8 @@ VermilionPortIndoor_EventScript_Nerd::
 
 VermilionPortPassage_Text_Teacher:
 #if GERMAN
-	.string "Das Schnellboot\n"
-	.string "fährt immer mittwochs und sonntags.$"
+	.string "Das Schnellboot fährt immer mittwochs\n"
+	.string "und sonntags.$"
 #else
 	.string "The FAST SHIP sails every day!$"
 #endif
@@ -192,8 +192,7 @@ VermilionPort_Text_SailorCantSail:
 
 VermilionPort_Text_NoPass:
 #if GERMAN
-	.string "{PLAYER} wollte {STR_VAR_1}\n"
-	.string "zeigen…\p"
+	.string "{PLAYER} wollte {STR_VAR_1} zeigen…\p"
 	.string "…Aber kein {STR_VAR_1}!\p"
 	.string "Entschuldigung!\n"
 	.string "Du darfst nur an Bord, wenn du ein\l"
@@ -231,8 +230,8 @@ VermilionPort_Text_WhereSail:
 
 VermilionPort_Text_AskBoard:
 #if GERMAN
-	.string "Willkommen auf \n"
-	.string "dem Schnellboot M.S. Aqua.\p"
+	.string "Willkommen auf dem Schnellboot M.S.\n"
+	.string "Aqua.\p"
 	.string "Trittst du heute deine Reise an?$"
 #else
     .string "Welcome to FAST SHIP S.S.AQUA.\p"

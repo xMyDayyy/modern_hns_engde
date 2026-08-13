@@ -85,8 +85,8 @@ LavenderTown_House2_Text_CritiqueWhichMonsNickname::
 
 LavenderTown_House2_Text_GiveItANicerName::
 #if GERMAN
-	.string "Der Spitzname ist {STR_VAR_1},\n"
-	.string "oder? Ein schöner Name!\p"
+	.string "Der Spitzname ist {STR_VAR_1}, oder? Ein\n"
+	.string "schöner Name!\p"
 	.string "Gefällt er dir noch immer, oder\n"
 	.string "möchtest du ihn ändern?\p"
 	.string "Was möchtest du?$"

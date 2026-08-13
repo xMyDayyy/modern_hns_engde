@@ -166,8 +166,7 @@ SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
 
 SaffronCity_Gym_Text_ReceivedTM04FromSabrina::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM04!$"
+	.string "{PLAYER} erhält TM04!$"
 #else
 	.string "{PLAYER} received TM04 from\n"
 	.string "SABRINA.$"
@@ -339,8 +338,7 @@ SaffronCity_Gym_Text_CameronIntro::
 
 SaffronCity_Gym_Text_CameronDefeat::
 #if GERMAN
-	.string "Ich habe die Konzentration\n"
-	.string "verloren!$"
+	.string "Ich habe die Konzentration verloren!$"
 #else
 	.string "Ow!\n"
 	.string "Down and out!$"
@@ -367,8 +365,8 @@ SaffronCity_Gym_Text_PrestonIntro::
 	.string "Die Pokémon in der Arena von Saffronia\n"
 	.string "City sind für ihre übernatürlichen\l"
 	.string "Kräfte bekannt!\p"
-	.string "Ich weiß, dass du Sabrina\n"
-	.string "herausfordern möchtest!$"
+	.string "Ich weiß, dass du Sabrina herausfordern\n"
+	.string "möchtest!$"
 #else
 	.string "SAFFRON POKéMON GYM is famous for\n"
 	.string "training psychics.\p"

@@ -215,8 +215,8 @@ Text_OnlySkilledTrainersAllowedThrough::
 #if GERMAN
 	.string "Hier dürfen nur erfahrene Trainer\n"
 	.string "passieren!\p"
-	.string "Und du besitzt den {STR_VAR_1}\n"
-	.string "noch nicht!$"
+	.string "Und du besitzt den {STR_VAR_1} noch\n"
+	.string "nicht!$"
 #else
 	.string "Only truly skilled TRAINERS are\n"
 	.string "allowed through.\p"
@@ -248,8 +248,8 @@ Text_OnlyPassWithBadgeDontHaveYet::
 	.string "passieren!\p"
 	.string "Du besitzt den {STR_VAR_1} noch\n"
 	.string "nicht!\p"
-	.string "Nur wer ihn trägt, darf in die\n"
-	.string "Pokémon Liga!$"
+	.string "Nur wer ihn trägt, darf in die Pokémon\n"
+	.string "Liga!$"
 #else
 	.string "You can pass here only if you have\n"
 	.string "the {STR_VAR_1}.\p"

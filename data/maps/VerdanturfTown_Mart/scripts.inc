@@ -55,8 +55,8 @@ VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:
 #if GERMAN
 	.string "Strategie-Ratgeber für das Kampfcamp\n"
 	.string "scheinen sie hier leider nicht zu\p"
-	.string "verkaufen… Man muss sich\n"
-	.string "auf sich selbst verlassen.$"
+	.string "verkaufen… Man muss sich auf sich\n"
+	.string "selbst verlassen.$"
 #else
 	.string "They don't seem to sell any winning\n"
 	.string "strategy guides for the BATTLE TENT…\p"

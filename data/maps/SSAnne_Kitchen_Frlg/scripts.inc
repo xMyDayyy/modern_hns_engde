@@ -104,8 +104,7 @@ SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton::
 SSAnne_Kitchen_Text_OnlyGetToPeelOnions::
 #if GERMAN
 	.string "Schnief... ... Schnief...\p"
-	.string "Immer muss ich die Zwiebeln\n"
-	.string "schälen...$"
+	.string "Immer muss ich die Zwiebeln schälen...$"
 #else
 	.string "Snivel… Sniff…\p"
 	.string "I only get to peel onions…\n"

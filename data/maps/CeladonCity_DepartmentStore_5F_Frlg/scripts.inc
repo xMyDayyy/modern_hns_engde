@@ -84,8 +84,8 @@ CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers::
 
 CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers::
 #if GERMAN
-	.string "Ich bin wegen der leistungs-\n"
-	.string "fördernden Mittel für Pokémon hier.\p"
+	.string "Ich bin wegen der leistungsfördernden\n"
+	.string "Mittel für Pokémon hier.\p"
 	.string "Protein steigert die Angriffs-\n"
 	.string "Stärke.\p"
 	.string "Eisen stärkt die Abwehr!$"

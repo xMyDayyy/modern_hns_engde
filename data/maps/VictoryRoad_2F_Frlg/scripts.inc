@@ -146,8 +146,7 @@ VictoryRoad_2F_Text_NelsonDefeat::
 
 VictoryRoad_2F_Text_NelsonPostBattle::
 #if GERMAN
-	.string "{RIVAL} ist hier auch\n"
-	.string "durchgekommen.$"
+	.string "{RIVAL} ist hier auch durchgekommen.$"
 #else
 	.string "{RIVAL} also came through here.$"
 #endif

@@ -338,8 +338,8 @@ SafariZone_South_Text_EnjoyTheRestOfYourAdventure:
 SafariZone_South_Text_ExitEarlyThankYouForPlaying:
 #if GERMAN
 	.string "Okay.\p"
-	.string "Ich nehme die verbleibenden\n"
-	.string "Safaribälle zurück.\p"
+	.string "Ich nehme die verbleibenden Safaribälle\n"
+	.string "zurück.\p"
 	.string "Vielen Dank für deine Teilnahme.\n"
 	.string "Komm bald wieder!$"
 #else

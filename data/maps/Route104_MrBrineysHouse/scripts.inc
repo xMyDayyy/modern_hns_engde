@@ -137,8 +137,7 @@ Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
 
 Route104_MrBrineysHouse_Text_SetSailForDewford:
 #if GERMAN
-	.string "Mr. Brack: Also, auf nach\n"
-	.string "Faustauhaven! \p"
+	.string "Mr. Brack: Also, auf nach Faustauhaven!\p"
 	.string "Anker gelichtet!\n"
 	.string "Pecko, wir setzen Segel, mein Liebling!$"
 #else
@@ -185,8 +184,8 @@ Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
 #if GERMAN
 	.string "Mr. Brack: Ahoi! Ich weiß genau,\n"
 	.string "was du jetzt sagen willst!\p"
-	.string "Du musst Kapt. Brigg in\n"
-	.string "Graphitport City ein Paket bringen.\p"
+	.string "Du musst Kapt. Brigg in Graphitport City\n"
+	.string "ein Paket bringen.\p"
 	.string "Nun, ich bin der richtige Mann für\n"
 	.string "diesen Job!\p"
 	.string "Dann segeln wir zuerst Richtung\n"

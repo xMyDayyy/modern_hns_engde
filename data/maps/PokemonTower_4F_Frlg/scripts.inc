@@ -58,8 +58,8 @@ PokemonTower_4F_Text_LaurelDefeat::
 
 PokemonTower_4F_Text_LaurelPostBattle::
 #if GERMAN
-	.string "Wir können die Identität der\n"
-	.string "Geister nicht ermitteln!$"
+	.string "Wir können die Identität der Geister\n"
+	.string "nicht ermitteln!$"
 #else
 	.string "We can't determine the identity of\n"
 	.string "the ghosts…$"

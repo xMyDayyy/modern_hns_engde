@@ -21,8 +21,7 @@ SSAnne_1F_Room3_EventScript_Wigglytuff::
 
 SSAnne_1F_Room3_Text_CruiseIsElegantAndCozy::
 #if GERMAN
-	.string "Ach, so eine Kreuzfahrt ist\n"
-	.string "wundervoll!$"
+	.string "Ach, so eine Kreuzfahrt ist wundervoll!$"
 #else
 	.string "A world cruise is so elegant yet\n"
 	.string "cozy!$"

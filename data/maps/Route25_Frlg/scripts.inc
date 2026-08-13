@@ -27,8 +27,7 @@ Route25_Text_JoeyDefeat::
 
 Route25_Text_JoeyPostBattle::
 #if GERMAN
-	.string "Jedes Pokémon hat seine\n"
-	.string "Schwächen!\p"
+	.string "Jedes Pokémon hat seine Schwächen!\p"
 	.string "Man sollte daher unterschiedliche\n"
 	.string "Pokémon trainieren.$"
 #else
@@ -56,8 +55,8 @@ Route25_Text_DanDefeat::
 
 Route25_Text_DanPostBattle::
 #if GERMAN
-	.string "Auf der M.s. Anne habe ich\n"
-	.string "Trainer aus aller Welt gesehen!$"
+	.string "Auf der M.s. Anne habe ich Trainer aus\n"
+	.string "aller Welt gesehen!$"
 #else
 	.string "On the S.S. ANNE, I saw TRAINERS\n"
 	.string "from around the world.$"
@@ -210,8 +209,8 @@ Route25_Text_NobDefeat::
 
 Route25_Text_NobPostBattle::
 #if GERMAN
-	.string "Dieser Sammler besitzt viele\n"
-	.string "seltene Pokémon.$"
+	.string "Dieser Sammler besitzt viele seltene\n"
+	.string "Pokémon.$"
 #else
 	.string "The POKéMANIAC sure lives up to\n"
 	.string "his name.\p"
@@ -237,8 +236,8 @@ Route25_Text_WayneDefeat::
 
 Route25_Text_WaynePostBattle::
 #if GERMAN
-	.string "Der Pfad dort unten ist eine\n"
-	.string "Abkürzung nach Azuria City.$"
+	.string "Der Pfad dort unten ist eine Abkürzung\n"
+	.string "nach Azuria City.$"
 #else
 	.string "The trail below is a shortcut to\n"
 	.string "CERULEAN CITY.$"

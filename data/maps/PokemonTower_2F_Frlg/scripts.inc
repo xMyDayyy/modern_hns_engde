@@ -105,8 +105,8 @@ PokemonTower_2F_Text_RivalIntro::
 	.string "{RIVAL}: Hallo, {PLAYER}!\n"
 	.string "Was machst du hier?\l"
 	.string "Deine Pokémon sehen ganz fit aus!\p"
-	.string "Na ja, nach dem Kampf wird es\n"
-	.string "anders aussehen!$"
+	.string "Na ja, nach dem Kampf wird es anders\n"
+	.string "aussehen!$"
 #else
 	.string "{RIVAL}: Hey, {PLAYER}!\n"
 	.string "What brings you here?\l"

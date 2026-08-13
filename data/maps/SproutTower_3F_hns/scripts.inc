@@ -162,8 +162,8 @@ SproutTower_3F_Movement_EscapeRope:
 
 SproutTower_Text_ElderLecturesRival:
 #if GERMAN
-	.string "Weiser: Du bist wirklich\n"
-	.string "ein begabter Trainer.\p"
+	.string "Weiser: Du bist wirklich ein begabter\n"
+	.string "Trainer.\p"
 	.string "Wie abgemacht, bekommst du die VM.\p"
 	.string "Eines gebe ich dir noch mit:\p"
 	.string "Behandle deine Pokémon besser.\p"
@@ -208,16 +208,15 @@ SproutTower_Text_RivalOnlyCaresStrong:
 
 SproutTower_Text_RivalUsedEscapeRope:
 #if GERMAN
-	.string "{RIVAL} verwendet\n"
-	.string "Fluchtseil!$"
+	.string "{RIVAL} verwendet Fluchtseil!$"
 #else
 	.string "{RIVAL} used an ESCAPE ROPE!$"
 #endif
 
 SproutTower_Text_SageLi_Seen:
 #if GERMAN
-	.string "Sehr gut. Du hast dich\n"
-	.string "wacker geschlagen!\p"
+	.string "Sehr gut. Du hast dich wacker\n"
+	.string "geschlagen!\p"
 	.string "Hier im Knofensa-Turm erarbeiten sich\n"
 	.string "Pokémon und Menschen eine strahlende\l"
 	.string "gemeinsame Zukunft oder suchen im\l"
@@ -259,8 +258,8 @@ SproutTower_Text_SageLi_TakeFlash:
 
 SproutTower_Text_SageLi_FlashExplain:
 #if GERMAN
-	.string "Blitz erhellt selbst die\n"
-	.string "dunkelsten Orte.\p"
+	.string "Blitz erhellt selbst die dunkelsten\n"
+	.string "Orte.\p"
 	.string "Um es außerhalb des Kampfes zu nutzen,\n"
 	.string "brauchst du den Orden aus der Viola\l"
 	.string "City Arena.$"
@@ -273,8 +272,7 @@ SproutTower_Text_SageLi_FlashExplain:
 
 SproutTower_Text_SageLi_AfterBattle:
 #if GERMAN
-	.string "Möge deine Reise einmal\n"
-	.string "Früchte tragen!$"
+	.string "Möge deine Reise einmal Früchte tragen!$"
 #else
 	.string "I hope you learn and grow from\n"
 	.string "your journey.$"
@@ -321,16 +319,16 @@ SproutTower_Text_SageTroy_Seen:
 
 SproutTower_Text_SageTroy_Beaten:
 #if GERMAN
-	.string "Ja, du glaubst wirklich\n"
-	.string "an dein Pokémon-Team!$"
+	.string "Ja, du glaubst wirklich an dein\n"
+	.string "Pokémon-Team!$"
 #else
 	.string "Yes, your trust is real!$"
 #endif
 
 SproutTower_Text_SageTroy_AfterBattle:
 #if GERMAN
-	.string "Es dauert nicht mehr lange,\n"
-	.string "bis du dem Weisesten von uns begegnest.$"
+	.string "Es dauert nicht mehr lange, bis du dem\n"
+	.string "Weisesten von uns begegnest.$"
 #else
 	.string "It is not far to the ELDER.$"
 #endif
@@ -347,16 +345,15 @@ SproutTower_Text_SageNeal_Seen:
 
 SproutTower_Text_SageNeal_Beaten:
 #if GERMAN
-	.string "Es ist wohl doch nur mein\n"
-	.string "Haar, das licht ist.$"
+	.string "Es ist wohl doch nur mein Haar, das licht\n"
+	.string "ist.$"
 #else
 	.string "It is my head that is bright!$"
 #endif
 
 SproutTower_Text_SageNeal_AfterBattle:
 #if GERMAN
-	.string "Möge dein Weg\n"
-	.string "erleuchtet sein.$"
+	.string "Möge dein Weg erleuchtet sein.$"
 #else
 	.string "Let there be light on your\n"
 	.string "journey.$"

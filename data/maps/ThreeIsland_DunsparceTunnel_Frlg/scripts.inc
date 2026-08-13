@@ -56,8 +56,8 @@ ThreeIsland_DunsparceTunnel_Text_ProspectingForGold::
 	.string "Wie geht es dir?\p"
 	.string "Du fragst, was ich hier mache?\n"
 	.string "Warum? Ich suche nach Gold!\p"
-	.string "Wenn ich reich bin, kaufe ich\n"
-	.string "ein Haus in Kanto.$"
+	.string "Wenn ich reich bin, kaufe ich ein Haus in\n"
+	.string "Kanto.$"
 #else
 	.string "Hey, there!\n"
 	.string "How's it going?\p"

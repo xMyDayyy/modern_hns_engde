@@ -361,8 +361,7 @@ TrainerHill_Entrance_Text_LikeToChallengeTrainers:
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo:
 #if GERMAN
-	.string "O.K.! Ich stelle die Uhr! Gib\n"
-	.string "dein Bestes!\p"
+	.string "O.K.! Ich stelle die Uhr! Gib dein Bestes!\p"
 	.string "Auf die Plätze…\p"
 	.string "Fertig…\p"
 	.string "Los!$"
@@ -536,8 +535,8 @@ TrainerHill_Roof_Text_GotHereMarvelouslyQuickly:
 
 TrainerHill_Roof_Text_YouWerentVeryQuick:
 #if GERMAN
-	.string "Aber… Du hast dir ja\n"
-	.string "mächtig viel Zeit gelassen…$"
+	.string "Aber… Du hast dir ja mächtig viel Zeit\n"
+	.string "gelassen…$"
 #else
 	.string "But, oh…\n"
 	.string "You weren't very quick getting here.$"
@@ -637,8 +636,8 @@ TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
 
 TrainerHill_Elevator_Text_ReturnToReception:
 #if GERMAN
-	.string "Möchtest du zur\n"
-	.string "Rezeption zurückkehren?$"
+	.string "Möchtest du zur Rezeption\n"
+	.string "zurückkehren?$"
 #else
 	.string "Would you like to return to\n"
 	.string "the reception counter?$"

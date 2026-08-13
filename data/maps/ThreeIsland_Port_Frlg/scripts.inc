@@ -85,8 +85,8 @@ ThreeIsland_Port_Text_ThankGoodnessBikersGone::
 
 ThreeIsland_Port_Text_EverythingTurnedOutForBest::
 #if GERMAN
-	.string "Die Biker sind verduftet und\n"
-	.string "Irrma war in Sicherheit.\p"
+	.string "Die Biker sind verduftet und Irrma war\n"
+	.string "in Sicherheit.\p"
 	.string "Jetzt ist alles gut!$"
 #else
 	.string "Those BIKERS ran off, and\n"

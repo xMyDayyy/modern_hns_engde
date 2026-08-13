@@ -280,8 +280,8 @@ MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
 #if GERMAN
 	.string "Marc: Groudon!\n"
 	.string "Was ist los?\p"
-	.string "Die blaue Kugel ist doch der\n"
-	.string "Schlüssel, oder etwa nicht?\p"
+	.string "Die blaue Kugel ist doch der Schlüssel,\n"
+	.string "oder etwa nicht?\p"
 	.string "Groudon! Wo bist du hin…$"
 #else
 	.string "MAXIE: GROUDON!\n"

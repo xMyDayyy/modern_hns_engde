@@ -569,8 +569,8 @@ Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_2:
 	.string "Pokémon, die denen aus Kanto ähneln…\l"
 	.string "dann komm zurück und zeig mir deinen\l"
 	.string "Pokédex!\p"
-	.string "Ich warte hier geduldig auf\n"
-	.string "Neuigkeiten von dir!$"
+	.string "Ich warte hier geduldig auf Neuigkeiten\n"
+	.string "von dir!$"
 #else
 	.string "You seem quite capable.\p"
 	.string "You'd be perfect to help with my survey\n"
@@ -633,8 +633,8 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_2:
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_3:
 #if GERMAN
 	.string "Alola, {PLAYER}!\p"
-	.string "Du hast also alle Herrscher-\n"
-	.string "Pokémon der Inseln besiegt?\p"
+	.string "Du hast also alle Herrscher-Pokémon\n"
+	.string "der Inseln besiegt?\p"
 	.string "Das ist eine beachtliche Leistung!\p"
 	.string "Es ist lange genug her…\p"
 	.string "Ich denke, es wird Zeit für einen\n"
@@ -996,8 +996,8 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_30:
 	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Ula-Ula gefunden.\p"
-	.string "Auf Ula-Ula soll es 6 Alola-\n"
-	.string "Formen zu entdecken geben…\p"
+	.string "Auf Ula-Ula soll es 6 Alola-Formen zu\n"
+	.string "entdecken geben…\p"
 	.string "Vulpix, Vulnona, Sandan, Sandamer,\n"
 	.string "Sleima und Sleimok.\p"
 	.string "Such weiter und komm wieder, wenn\n"
@@ -1046,8 +1046,8 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_33:
 	.string "Alola-Formen auf Poni gefunden.\p"
 	.string "Auf Poni soll es 5 Alola-Formen\n"
 	.string "zu entdecken geben…\p"
-	.string "Raichu, Kleinstein, Georok,\n"
-	.string "Geowaz und Kokowei.\p"
+	.string "Raichu, Kleinstein, Georok, Geowaz und\n"
+	.string "Kokowei.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
 #else

@@ -303,8 +303,8 @@ SaffronMagnetTrainStation_Text_OfficerTrainHasntComeIn:
 
 SaffronMagnetTrainStation_Text_OfficerComingAboard:
 #if GERMAN
-	.string "Abfahrt nach\n"
-	.string "Dukatia City in wenigen Minuten.\p"
+	.string "Abfahrt nach Dukatia City in wenigen\n"
+	.string "Minuten.\p"
 	.string "Steigst du auch ein?$"
 #else
     .string "We'll soon depart for GOLDENROD.\p"
@@ -313,8 +313,8 @@ SaffronMagnetTrainStation_Text_OfficerComingAboard:
 
 SaffronMagnetTrainStation_Text_OfficerRightThisWay:
 #if GERMAN
-	.string "Darf ich bitte\n"
-	.string "deinen Fahrschein sehen?\p"
+	.string "Darf ich bitte deinen Fahrschein\n"
+	.string "sehen?\p"
 	.string "Danke sehr. Hier lang, bitte.$"
 #else
     .string "May I see your rail PASS, please?\p"
@@ -323,8 +323,8 @@ SaffronMagnetTrainStation_Text_OfficerRightThisWay:
 
 SaffronMagnetTrainStation_Text_OfficerNoRailPass:
 #if GERMAN
-	.string "Es tut mir Leid,\n"
-	.string "aber du hast keinen Fahrschein.$"
+	.string "Es tut mir Leid, aber du hast keinen\n"
+	.string "Fahrschein.$"
 #else
     .string "Sorry. You don't have a rail PASS.$"
 #endif

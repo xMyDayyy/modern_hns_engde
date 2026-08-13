@@ -11,8 +11,8 @@ SSAnne_2F_Room5_EventScript_LittleBoy::
 
 SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone::
 #if GERMAN
-	.string "Hast du die Safari-Zone in\n"
-	.string "Fuchsania City schon besucht?\p"
+	.string "Hast du die Safari-Zone in Fuchsania\n"
+	.string "City schon besucht?\p"
 	.string "Es gibt dort sehr seltene Pokémon!$"
 #else
 	.string "Have you gone to the SAFARI ZONE\n"

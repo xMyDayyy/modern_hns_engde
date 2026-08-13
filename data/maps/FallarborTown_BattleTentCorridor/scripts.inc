@@ -88,8 +88,7 @@ FallarborTown_ContestHall_Text_CantWinEverywhere:
 @ Unused
 FallarborTown_ContestHall_Text_SuperRankStage:
 #if GERMAN
-	.string "Pokémon Contests\n"
-	.string "Super Rank Stage!$"
+	.string "Pokémon Contests Super Rank Stage!$"
 #else
 	.string "POKéMON CONTESTS\n"
 	.string "SUPER RANK STAGE!$"

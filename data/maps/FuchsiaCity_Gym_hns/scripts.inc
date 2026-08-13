@@ -254,8 +254,7 @@ FuchsiaCity_Gym_Text_LassAlice_Before:
 
 FuchsiaCity_Gym_Text_LassAlice_Beaten:
 #if GERMAN
-	.string "Gib’s zu, ich hatte dich\n"
-	.string "fast so weit!$"
+	.string "Gib’s zu, ich hatte dich fast so weit!$"
 #else
 	.string "I had you fooled…$"
 #endif
@@ -278,8 +277,8 @@ FuchsiaCity_Gym_Text_LassLinda_Before:
 
 FuchsiaCity_Gym_Text_LassLinda_Beaten:
 #if GERMAN
-	.string "Oh… ich habe verloren… Ein\n"
-	.string "Schwächling bist du jedenfalls nicht.$"
+	.string "Oh… ich habe verloren… Ein Schwächling\n"
+	.string "bist du jedenfalls nicht.$"
 #else
 	.string "Ooh… I lost… You're not weak…$"
 #endif

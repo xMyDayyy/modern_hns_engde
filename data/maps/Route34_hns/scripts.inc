@@ -125,8 +125,7 @@ Route34_Text_YoungsterSamuel_Beaten:
 Route34_Text_YoungsterSamuel_After:
 #if GERMAN
 	.string "Ich werde noch härter trainieren.\p"
-	.string "Ich möchte doch\n"
-	.string "ein Arenaleiter werden.$"
+	.string "Ich möchte doch ein Arenaleiter werden.$"
 #else
 	.string "I'm going to train even harder.\p"
 	.string "After all, I'm trying to become\n"
@@ -135,8 +134,8 @@ Route34_Text_YoungsterSamuel_After:
 
 Route34_Text_YoungsterIan_Seen:
 #if GERMAN
-	.string "In meiner Klasse bin ich\n"
-	.string "der Pokémon-Experte!$"
+	.string "In meiner Klasse bin ich der\n"
+	.string "Pokémon-Experte!$"
 #else
 	.string "I'm the best in my class at\n"
 	.string "POKéMON.$"
@@ -206,8 +205,8 @@ Route34_Text_ToddRematchIntro:
 
 Route34_Text_ToddRematchDefeat:
 #if GERMAN
-    .string "Habe ich beim Training etwas\n"
-    .string "falsch gemacht?$"
+    .string "Habe ich beim Training etwas falsch\n"
+    .string "gemacht?$"
 #else
 	.string "Did I screw up my training?$"
 #endif
@@ -233,8 +232,7 @@ Route34_Text_PicnickerGina_Seen:
 
 Route34_Text_PicnickerGina_Beaten:
 #if GERMAN
-	.string "Oh nein! Ich habe\n"
-	.string "noch nie gewonnen…$"
+	.string "Oh nein! Ich habe noch nie gewonnen…$"
 #else
 	.string "Oh, no! I just can't win…$"
 #endif
@@ -287,8 +285,8 @@ Route34_Text_PokefanBrandon_Seen:
 #if GERMAN
 	.string "Ich habe gerade mein Pokémon\n"
 	.string "aus der Pension abgeholt.\p"
-	.string "Sehen wir mal, wie stark es\n"
-	.string "geworden ist!$"
+	.string "Sehen wir mal, wie stark es geworden\n"
+	.string "ist!$"
 #else
 	.string "I just got my POKéMON back from\n"
 	.string "DAY-CARE.\p"
@@ -297,8 +295,7 @@ Route34_Text_PokefanBrandon_Seen:
 
 Route34_Text_PokefanBrandon_Beaten:
 #if GERMAN
-	.string "Warum muss es auf\n"
-	.string "diese Weise enden?$"
+	.string "Warum muss es auf diese Weise enden?$"
 #else
 	.string "Why does it end this way?$"
 #endif
@@ -366,8 +363,8 @@ Route34_Text_CooltrainerIrene_Beaten:
 
 Route34_Text_CooltrainerIrene_After1:
 #if GERMAN
-	.string "Lola: Warte ab, bis du meine\n"
-	.string "Schwester Edna kennenlernst!$"
+	.string "Lola: Warte ab, bis du meine Schwester\n"
+	.string "Edna kennenlernst!$"
 #else
 	.string "IRENE: My sister KATE will get you\n"
 	.string "for this!$"
@@ -375,8 +372,7 @@ Route34_Text_CooltrainerIrene_After1:
 
 Route34_Text_CooltrainerIrene_After2:
 #if GERMAN
-	.string "Lola: Ist dieser\n"
-	.string "Strand nicht herrlich?\p"
+	.string "Lola: Ist dieser Strand nicht herrlich?\p"
 	.string "Er ist unsere geheime Zuflucht!$"
 #else
 	.string "IRENE: Isn't this beach great?\p"
@@ -394,8 +390,7 @@ Route34_Text_CooltrainerJenn_Seen:
 
 Route34_Text_CooltrainerJenn_Beaten:
 #if GERMAN
-	.string "Else: Es tut mir so\n"
-	.string "leid, Schwesterchen!$"
+	.string "Else: Es tut mir so leid, Schwesterchen!$"
 #else
 	.string "JENN: So sorry, IRENE! Dear Sis!$"
 #endif
@@ -411,8 +406,8 @@ Route34_Text_CooltrainerJenn_After1:
 
 Route34_Text_CooltrainerJenn_After2:
 #if GERMAN
-	.string "Else: Sonnenlicht\n"
-	.string "kräftigt deinen Körper.$"
+	.string "Else: Sonnenlicht kräftigt deinen\n"
+	.string "Körper.$"
 #else
 	.string "JENN: Sunlight makes your body\n"
 	.string "stronger.$"
@@ -420,8 +415,8 @@ Route34_Text_CooltrainerJenn_After2:
 
 Route34_Text_CooltrainerKate_Seen:
 #if GERMAN
-	.string "Edna: Du warst gemein zu\n"
-	.string "meinen kleinen Schwestern!$"
+	.string "Edna: Du warst gemein zu meinen kleinen\n"
+	.string "Schwestern!$"
 #else
 	.string "KATE: I must pay you back for\n"
 	.string "taking care of my sisters!$"

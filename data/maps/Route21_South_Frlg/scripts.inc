@@ -69,8 +69,8 @@ Route21_South_Text_RolandDefeat::
 
 Route21_South_Text_RolandPostBattle::
 #if GERMAN
-	.string "Die Sonne hat mich wie ein\n"
-	.string "Hähnchen geröstet!$"
+	.string "Die Sonne hat mich wie ein Hähnchen\n"
+	.string "geröstet!$"
 #else
 	.string "I'm sunburnt to a crisp!$"
 #endif
@@ -128,8 +128,8 @@ Route21_South_Text_NolanPostBattle::
 
 Route21_North_Text_LilIntro::
 #if GERMAN
-	.string "Ewe: Häh? Ein Kampf? Tobi,\n"
-	.string "schaffst du das nicht alleine?$"
+	.string "Ewe: Häh? Ein Kampf? Tobi, schaffst du\n"
+	.string "das nicht alleine?$"
 #else
 	.string "LIL: Huh? A battle?\n"
 	.string "IAN, can't you do it alone?$"

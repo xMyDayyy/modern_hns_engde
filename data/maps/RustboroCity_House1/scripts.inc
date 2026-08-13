@@ -69,8 +69,7 @@ RustboroCity_House1_Text_YouDontWantToThatsOkay:
 #if GERMAN
 	.string "Du willst nicht tauschen? Kein Problem.\n"
 	.string "Aber mein Pokémon ist wirklich\p"
-	.string "niedlich,\n"
-	.string "das weißt du schon?!?$"
+	.string "niedlich, das weißt du schon?!?$"
 #else
 	.string "Oh, if you don't want to, that's okay.\n"
 	.string "But my POKéMON is cute, you know…$"

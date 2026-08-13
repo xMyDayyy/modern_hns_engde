@@ -18,8 +18,8 @@ Aide_Text_HaventCaughtEnoughMonsForItem::
 	.string "Mal sehen…\n"
 	.string "Oh! Du hast erst {STR_VAR_3}\l"
 	.string "Pokémon-Arten gefangen!\p"
-	.string "Für das {STR_VAR_2} brauchst\n"
-	.string "du {STR_VAR_1} Arten.$"
+	.string "Für das {STR_VAR_2} brauchst du {STR_VAR_1}\n"
+	.string "Arten.$"
 #else
 	.string "Let's see…\n"
 	.string "Uh-oh! You have caught only\l"
@@ -31,10 +31,9 @@ Aide_Text_HaventCaughtEnoughMonsForItem::
 Aide_Text_GetEnoughMonsComeBackForItem::
 #if GERMAN
 	.string "…Oh, verstehe.\p"
-	.string "Komm wieder, wenn du\n"
-	.string "{STR_VAR_1} Arten gefangen hast.\p"
-	.string "Dann erhältst du das\n"
-	.string "{STR_VAR_2}.$"
+	.string "Komm wieder, wenn du {STR_VAR_1} Arten\n"
+	.string "gefangen hast.\p"
+	.string "Dann erhältst du das {STR_VAR_2}.$"
 #else
 	.string "…Oh. I see.\p"
 	.string "When you get {STR_VAR_1} kinds of POKéMON,\n"
@@ -43,8 +42,8 @@ Aide_Text_GetEnoughMonsComeBackForItem::
 
 Aide_Text_DontHaveAnyRoomForItem::
 #if GERMAN
-	.string "Oh! Du hast keinen Platz\n"
-	.string "für das {STR_VAR_2}.$"
+	.string "Oh! Du hast keinen Platz für das\n"
+	.string "{STR_VAR_2}.$"
 #else
 	.string "Oh! I see you don't have any\n"
 	.string "room for the {STR_VAR_2}.$"

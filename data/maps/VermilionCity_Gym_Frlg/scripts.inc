@@ -312,8 +312,7 @@ VermilionCity_Gym_Text_LtSurgeIntro::
 VermilionCity_Gym_Text_LtSurgePostBattle::
 #if GERMAN
 	.string "Ich gebe dir noch einen Tipp!\p"
-	.string "Die Elektrizität ist enorm\n"
-	.string "kraftvoll!\p"
+	.string "Die Elektrizität ist enorm kraftvoll!\p"
 	.string "Doch sie hat keine Wirkung auf\n"
 	.string "Boden-Pokémon!$"
 #else
@@ -325,8 +324,8 @@ VermilionCity_Gym_Text_LtSurgePostBattle::
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
 #if GERMAN
-	.string "Der Donnerorden erhöht die\n"
-	.string "Initiative deiner Pokémon!\p"
+	.string "Der Donnerorden erhöht die Initiative\n"
+	.string "deiner Pokémon!\p"
 	.string "Außerdem können deine Pokémon nun\n"
 	.string "jederzeit Fliegen einsetzen!\p"
 	.string "Du bist ein besonderes Kind!\n"
@@ -342,8 +341,7 @@ VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
 
 VermilionCity_Gym_Text_ReceivedTM34FromLtSurge::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM34!$"
+	.string "{PLAYER} erhält TM34!$"
 #else
 	.string "{PLAYER} received TM34\n"
 	.string "from LT. SURGE.$"
@@ -399,8 +397,7 @@ VermilionCity_Gym_Text_TuckerDefeat::
 VermilionCity_Gym_Text_TuckerPostBattle::
 #if GERMAN
 	.string "Die Barriere verschwindet nicht?\p"
-	.string "Major Bob war immer sehr\n"
-	.string "vorsichtig!$"
+	.string "Major Bob war immer sehr vorsichtig!$"
 #else
 	.string "It's not easy opening that door.\p"
 	.string "LT. SURGE was always famous for\n"
@@ -427,8 +424,8 @@ VermilionCity_Gym_Text_BailyDefeat::
 VermilionCity_Gym_Text_BailyPostBattle::
 #if GERMAN
 	.string "O.k., ich rede!\p"
-	.string "Major Bob hat hier irgendwo\n"
-	.string "Schalter versteckt!$"
+	.string "Major Bob hat hier irgendwo Schalter\n"
+	.string "versteckt!$"
 #else
 	.string "Okay, I'll talk!\p"
 	.string "LT. SURGE said he hid door\n"
@@ -555,10 +552,8 @@ VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
 
 VermilionCity_Gym_Text_SecondLockOpened::
 #if GERMAN
-	.string "Das zweite Schloss wurde\n"
-	.string "entriegelt!\p"
-	.string "Die mechanische Tür hat sich\n"
-	.string "geöffnet!$"
+	.string "Das zweite Schloss wurde entriegelt!\p"
+	.string "Die mechanische Tür hat sich geöffnet!$"
 #else
 	.string "The second electric lock opened!\n"
 	.string "The motorized door opened!$"

@@ -198,8 +198,7 @@ SevenIsland_SevaultCanyon_Text_LexIntro::
 
 SevenIsland_SevaultCanyon_Text_LexDefeat::
 #if GERMAN
-	.string "Ole: Ich war anscheinend zu\n"
-	.string "sorglos…$"
+	.string "Ole: Ich war anscheinend zu sorglos…$"
 #else
 	.string "LEX: I seem to have been too\n"
 	.string "careless…$"

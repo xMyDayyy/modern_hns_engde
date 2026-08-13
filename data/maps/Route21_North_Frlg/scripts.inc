@@ -19,8 +19,7 @@ Route21_North_Text_RonaldDefeat::
 
 Route21_North_Text_RonaldPostBattle::
 #if GERMAN
-	.string "Bisher habe ich noch nichts\n"
-	.string "gefangen!$"
+	.string "Bisher habe ich noch nichts gefangen!$"
 #else
 	.string "I can't catch anything good.\n"
 	.string "Not one good POKéMON to be had!$"
@@ -28,8 +27,8 @@ Route21_North_Text_RonaldPostBattle::
 
 Route21_North_Text_WadeIntro::
 #if GERMAN
-	.string "Ich habe einen guten Fang\n"
-	.string "gemacht! Möchtest du ihn sehen?$"
+	.string "Ich habe einen guten Fang gemacht!\n"
+	.string "Möchtest du ihn sehen?$"
 #else
 	.string "I got a big haul!\n"
 	.string "Wanna go for it?$"

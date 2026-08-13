@@ -26,14 +26,13 @@ CeruleanCity_EventScript_Guard::
 CeruleanCity_Text_ThisIsCeruleanCave::
 #if GERMAN
 	.string "Dies ist die Azuria-Höhle.\p"
-	.string "Unglaublich starke Pokémon\n"
-	.string "leben hier.\p"
+	.string "Unglaublich starke Pokémon leben hier.\p"
 	.string "Es braucht einen wirklich unglaublichen\n"
 	.string "Trainer, um Einlass zu erhalten.\p"
 	.string "Werde zuerst Kanto Pokémon-\n"
 	.string "Liga Champion.\p"
-	.string "Und du müsstest eine große\n"
-	.string "Tat vollbracht haben.$"
+	.string "Und du müsstest eine große Tat\n"
+	.string "vollbracht haben.$"
 #else
     .string "This is CERULEAN CAVE.\p"
     .string "Horribly strong POKéMON live inside\n"
@@ -120,8 +119,7 @@ CeruleanCity_EventScript_SlowbroWoman::
 
 CeruleanCity_Text_CooltrainerF1:
 #if GERMAN
-	.string "Mein Lahmus und ich sind ein\n"
-	.string "super Team!$"
+	.string "Mein Lahmus und ich sind ein super Team!$"
 #else
 	.string "My SLOWBRO and I make an awesome\n"
 	.string "combination!$"

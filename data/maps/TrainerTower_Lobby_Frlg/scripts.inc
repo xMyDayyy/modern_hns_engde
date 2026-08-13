@@ -238,8 +238,8 @@ TrainerTower_Lobby_Text_TrainersUpToFloorNum::
 	.string "Trainer aus aller Herren Länder\n"
 	.string "kommen hierher, um zu kämpfen.\p"
 	.string "Lass mich mal sehen…\p"
-	.string "Momentan findest du Trainer\n"
-	.string "bis in Stockwerk {STR_VAR_1}.$"
+	.string "Momentan findest du Trainer bis in\n"
+	.string "Stockwerk {STR_VAR_1}.$"
 #else
 	.string "TRAINERS from all over the world\n"
 	.string "gather here to battle.\p"
@@ -268,8 +268,7 @@ TrainerTower_Lobby_Text_LikeToChallengeTrainers::
 
 TrainerTower_Lobby_Text_StartClockGetSetGo::
 #if GERMAN
-	.string "O.K.! Ich stelle die Uhr! Gib\n"
-	.string "dein Bestes!\p"
+	.string "O.K.! Ich stelle die Uhr! Gib dein Bestes!\p"
 	.string "Auf die Plätze…\p"
 	.string "Fertig…\p"
 	.string "Los!$"
@@ -375,8 +374,8 @@ TrainerTower_Roof_Text_DoneItInRecordTime::
 
 TrainerTower_Roof_Text_TookSweetTimeGettingHere::
 #if GERMAN
-	.string "Es scheint, du hast dir ganz\n"
-	.string "schön Zeit gelassen…$"
+	.string "Es scheint, du hast dir ganz schön Zeit\n"
+	.string "gelassen…$"
 #else
 	.string "You seem to have taken your sweet\n"
 	.string "time getting here…$"
@@ -384,8 +383,8 @@ TrainerTower_Roof_Text_TookSweetTimeGettingHere::
 
 TrainerTower_Roof_Text_IdLikeToSeeBetterTime::
 #if GERMAN
-	.string "Ich will von dir eine bessere\n"
-	.string "Zeit sehen…\p"
+	.string "Ich will von dir eine bessere Zeit\n"
+	.string "sehen…\p"
 	.string "Ich verlasse mich auf dich!\p"
 	.string "Bis demnächst, mach es gut…$"
 #else
@@ -408,8 +407,8 @@ TrainerTower_Lobby_Text_HereAreTheResults::
 TrainerTower_Lobby_Text_NeedTwoMonsForDouble::
 #if GERMAN
 	.string "Dies ist ein Zwei-gegen-Zwei-Kampf!\p"
-	.string "Du musst mindestens zwei\n"
-	.string "Pokémon mitbringen.$"
+	.string "Du musst mindestens zwei Pokémon\n"
+	.string "mitbringen.$"
 #else
 	.string "This is a two-on-two battle.\p"
 	.string "You may not battle unless you have\n"

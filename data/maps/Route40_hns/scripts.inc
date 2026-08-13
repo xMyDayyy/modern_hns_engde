@@ -36,8 +36,8 @@ Route40_Text_SwimmermSimonBeaten:
 
 Route40_Text_SwimmermSimonAfter:
 #if GERMAN
-	.string "Anemonia City ist ziemlich\n"
-	.string "weit weg von hier.$"
+	.string "Anemonia City ist ziemlich weit weg von\n"
+	.string "hier.$"
 #else
 	.string "CIANWOOD CITY is a good\n"
 	.string "distance away from here.$"
@@ -114,8 +114,8 @@ Route40_EventScript_Paula::
 Route40_Text_SwimmerfPaulaSeen:
 #if GERMAN
 	.string "Ich habe keine Schwimmreifen.\p"
-	.string "Ich halte mich an einem\n"
-	.string "Wasser-Pokémon fest!$"
+	.string "Ich halte mich an einem Wasser-Pokémon\n"
+	.string "fest!$"
 #else
 	.string "No inner tube for me.\p"
 	.string "I'm hanging on to a sea\n"
@@ -124,8 +124,7 @@ Route40_Text_SwimmerfPaulaSeen:
 
 Route40_Text_SwimmerfPaulaBeaten:
 #if GERMAN
-	.string "Oje, um mich dreht sich\n"
-	.string "plötzlich alles!$"
+	.string "Oje, um mich dreht sich plötzlich alles!$"
 #else
 	.string "Ooh, I'm feeling dizzy!$"
 #endif
@@ -194,8 +193,8 @@ Route40_Text_StandingYoungster:
 	.string "Warst du schon am Duellturm?\p"
 	.string "Ich denke, dass sich bereits viele\n"
 	.string "starke Trainer dort versammeln.\p"
-	.string "Da du so viele Orden besitzt,\n"
-	.string "wirst du dich dort wacker schlagen.$"
+	.string "Da du so viele Orden besitzt, wirst du\n"
+	.string "dich dort wacker schlagen.$"
 #else
 	.string "Have you gone to the TRAINER\n"
 	.string "HILL?\p"

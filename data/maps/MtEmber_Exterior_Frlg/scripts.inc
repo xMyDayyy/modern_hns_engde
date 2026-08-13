@@ -151,8 +151,8 @@ Text_ExplosionDeclined::
 Text_ExplosionWhichMon::
 #if GERMAN
 	.string "Du bist unheimlich tapfer!\p"
-	.string "Welches Pokémon soll\n"
-	.string "Explosion erlernen?$"
+	.string "Welches Pokémon soll Explosion\n"
+	.string "erlernen?$"
 #else
 	.string "You're terribly brave!\p"
 	.string "Which POKéMON should I teach\n"
@@ -163,8 +163,7 @@ Text_ExplosionTaught::
 #if GERMAN
 	.string "Explosion auf diesem Vulkan\n"
 	.string "einzusetzen…\p"
-	.string "Was für ein aufreibender\n"
-	.string "Nervenkitzel!$"
+	.string "Was für ein aufreibender Nervenkitzel!$"
 #else
 	.string "Using EXPLOSION while on this\n"
 	.string "volcano…\p"
@@ -217,8 +216,8 @@ MtEmber_Exterior_Text_WhatsPasswordAgain::
 
 MtEmber_Exterior_Text_FirstPasswordGoldeen::
 #if GERMAN
-	.string "Wie?!? Du hast das Passwort \n"
-	.string "vergessen? Eigentlich sind es zwei!\p"
+	.string "Wie?!? Du hast das Passwort vergessen?\n"
+	.string "Eigentlich sind es zwei!\p"
 	.string "Das erste lautet “Arbok Kobra”.\p"
 	.string "Und das zweite ist…$"
 #else
@@ -325,8 +324,8 @@ MtEmber_Exterior_Text_LoganDefeat::
 
 MtEmber_Exterior_Text_LoganPostBattle::
 #if GERMAN
-	.string "Es soll mehr als 1500 aktive\n"
-	.string "Vulkane in der Welt geben.\p"
+	.string "Es soll mehr als 1500 aktive Vulkane in\n"
+	.string "der Welt geben.\p"
 	.string "Allein beim Gedanken daran wird\n"
 	.string "mir heiß und mulmig!$"
 #else
@@ -381,8 +380,7 @@ MtEmber_Exterior_Text_JocelynIntro::
 
 MtEmber_Exterior_Text_JocelynDefeat::
 #if GERMAN
-	.string "Ich denke, ich habe es\n"
-	.string "übertrieben…$"
+	.string "Ich denke, ich habe es übertrieben…$"
 #else
 	.string "I think I tried to overdo it…$"
 #endif

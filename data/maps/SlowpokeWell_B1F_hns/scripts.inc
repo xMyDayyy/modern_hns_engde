@@ -115,8 +115,8 @@ SlowpokeWell_B1F_Text_KurtAfter:
 	.string "Kurt: Gute Arbeit, {PLAYER}!\n"
 	.string "Die Typen von Team Rocket haben\l"
 	.string "Reißaus genommen!\p"
-	.string "Meiner Hüfte geht es auch\n"
-	.string "wieder besser. Lass uns gehen.$"
+	.string "Meiner Hüfte geht es auch wieder\n"
+	.string "besser. Lass uns gehen.$"
 #else
 	.string "KURT: Way to go, {PLAYER}!\p"
 	.string "TEAM ROCKET has taken off.\p"
@@ -153,8 +153,7 @@ SlowpokeWell_B1F_Text_GruntM29After:
 #if GERMAN
 	.string "Klar, wir hacken Flegmon-Ruten\n"
 	.string "ab und verkaufen sie.\p"
-	.string "Alles, was wir tun, dient dem\n"
-	.string "Profit.\p"
+	.string "Alles, was wir tun, dient dem Profit.\p"
 	.string "Richtig! Wir sind Team Rocket\n"
 	.string "und tun alles für Geld!$"
 #else
@@ -179,8 +178,8 @@ SlowpokeWell_B1F_Text_ProtonSeen:
 
 SlowpokeWell_B1F_Text_ProtonBeaten:
 #if GERMAN
-	.string "Du hast dich gut geschlagen,\n"
-	.string "aber warte nur bis zum nächsten Mal!$"
+	.string "Du hast dich gut geschlagen, aber warte\n"
+	.string "nur bis zum nächsten Mal!$"
 #else
 	.string "You did OK today,\n"
 	.string "but wait till next time!$"
@@ -238,8 +237,8 @@ SlowpokeWell_B1F_Text_GruntM2After:
 #if GERMAN
 	.string "Ich sehe ja ein, wir brauchen das Geld.\n"
 	.string "Aber mit Flegmon-Ruten?\p"
-	.string "Wir Rocket-Rüpel haben es\n"
-	.string "auch nicht leicht…$"
+	.string "Wir Rocket-Rüpel haben es auch nicht\n"
+	.string "leicht…$"
 #else
 	.string "We need the money,\n"
 	.string "but selling SLOWPOKETAILS?\p"
@@ -249,8 +248,7 @@ SlowpokeWell_B1F_Text_GruntM2After:
 SlowpokeWell_B1F_Text_GruntF1Seen:
 #if GERMAN
 	.string "Aufhören, Flegmonruten zu klauen?\p"
-	.string "Na, versuch doch, uns alle\n"
-	.string "aufzuhalten!$"
+	.string "Na, versuch doch, uns alle aufzuhalten!$"
 #else
 	.string "Stop taking TAILS?\p"
 	.string "Yeah, just try to defeat all\n"
@@ -267,8 +265,7 @@ SlowpokeWell_B1F_Text_GruntF1Beaten:
 SlowpokeWell_B1F_Text_GruntF1After:
 #if GERMAN
 	.string "Flegmonruten wachsen schnell nach!\p"
-	.string "Was ist falsch daran,\n"
-	.string "sie zu verkaufen?$"
+	.string "Was ist falsch daran, sie zu verkaufen?$"
 #else
 	.string "SLOWPOKETAILS grow back fast!\p"
 	.string "What's wrong with selling them?$"

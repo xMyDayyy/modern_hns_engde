@@ -124,8 +124,8 @@ Route10_Text_PokefanmRobertBeaten:
 
 Route10_Text_PokefanmRobertAfter:
 #if GERMAN
-	.string "Sieh nur, was du mit meinen\n"
-	.string "Pokémon gemacht hast…$"
+	.string "Sieh nur, was du mit meinen Pokémon\n"
+	.string "gemacht hast…$"
 #else
 	.string "Look what you did to my POKéMON…\p"
 	.string "I won't forget this…$"

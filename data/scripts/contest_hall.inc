@@ -2081,8 +2081,8 @@ LilycoveCity_ContestLobby_Text_PleaseDecideLinkLeader:
 #if GERMAN
 	.string "Bitte legt fest, wer in eurem Team\n"
 	.string "der Leiter ist.\p"
-	.string "Die anderen Spieler wählen\n"
-	.string "“Mitspieler” aus.$"
+	.string "Die anderen Spieler wählen “Mitspieler”\n"
+	.string "aus.$"
 #else
 	.string "Please decide which of you will\n"
 	.string "become the GROUP LEADER.\p"

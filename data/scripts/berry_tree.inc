@@ -81,8 +81,8 @@ BerryTree_Text_Hns_Picked:
 BerryTree_Text_Hns_BagFull:
 #if GERMAN
 	.string "Die Beerentasche des Beutels ist voll.\p"
-	.string "Die {STR_VAR_1} können nicht\n"
-	.string "mitgenommen werden.$"
+	.string "Die {STR_VAR_1} können nicht mitgenommen\n"
+	.string "werden.$"
 #else
 	.string "The BAG's BERRIES POCKET is full.\p"
 	.string "The {STR_VAR_1} couldn't be taken.$"
@@ -373,8 +373,8 @@ BerryTree_Text_WantToPlant:
 
 BerryTree_Text_PlantedOneBerry:
 #if GERMAN
-	.string "{PLAYER} pflanzt eine\n"
-	.string "{STR_VAR_1} in den Lehmboden.$"
+	.string "{PLAYER} pflanzt eine {STR_VAR_1} in den\n"
+	.string "Lehmboden.$"
 #else
 	.string "{PLAYER} planted one {STR_VAR_1} in\n"
 	.string "the soft, loamy soil.$"
@@ -406,16 +406,14 @@ BerryTree_Text_BerryGrowthStage3:
 
 BerryTree_Text_BerryGrowthStageTrunk:
 #if GERMAN
-	.string "Der {STR_VAR_1}-Stamm\n"
-	.string "wird dicker!$"
+	.string "Der {STR_VAR_1}-Stamm wird dicker!$"
 #else
 	.string "The {STR_VAR_1}'s trunk is getting bigger!$"
 #endif
 
 BerryTree_Text_BerryGrowthStageBudding:
 #if GERMAN
-	.string "Der {STR_VAR_1}-Baum\n"
-	.string "hat Knospen!$"
+	.string "Der {STR_VAR_1}-Baum hat Knospen!$"
 #else
 	.string "The {STR_VAR_1} tree has buds!$"
 #endif
@@ -453,8 +451,7 @@ BerryTree_Text_CareAdverbGood:
 BerryTree_Text_WantToPick:
 #if GERMAN
 	.string "{STR_VAR_2} {STR_VAR_1}!\p"
-	.string "Möchtest du die {STR_VAR_1}\n"
-	.string "pflücken?$"
+	.string "Möchtest du die {STR_VAR_1} pflücken?$"
 #else
 	.string "You found {STR_VAR_2} {STR_VAR_1}!\p"
 	.string "Do you want to pick the\n"
@@ -483,8 +480,8 @@ BerryTree_Text_PutAwayBerry:
 BerryTree_Text_BerryPocketFull:
 #if GERMAN
 	.string "Die Beerentasche des Beutels ist voll.\p"
-	.string "Die {STR_VAR_1} können nicht\n"
-	.string "mitgenommen werden.$"
+	.string "Die {STR_VAR_1} können nicht mitgenommen\n"
+	.string "werden.$"
 #else
 	.string "The BAG's BERRIES POCKET is full.\p"
 	.string "The {STR_VAR_1} couldn't be taken.$"
@@ -492,8 +489,7 @@ BerryTree_Text_BerryPocketFull:
 
 BerryTree_Text_BerryLeftUnpicked:
 #if GERMAN
-	.string "{PLAYER} pflückt keine\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} pflückt keine {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} left the {STR_VAR_1}\n"
 	.string "unpicked.$"
@@ -572,8 +568,8 @@ BerryTree_Text_WantToPick_Mutation:
 
 BerryTree_Text_BerryLeftUnpicked_Mutation:
 #if GERMAN
-	.string "{PLAYER} lässt {STR_VAR_1}\n"
-	.string "und die {STR_VAR_3} zurück.$"
+	.string "{PLAYER} lässt {STR_VAR_1} und die\n"
+	.string "{STR_VAR_3} zurück.$"
 #else
 	.string "{PLAYER} left the {STR_VAR_1}\n"
 	.string "and the {STR_VAR_3} unpicked.$"
@@ -582,8 +578,8 @@ BerryTree_Text_BerryLeftUnpicked_Mutation:
 BerryTree_Text_BerryPocketFull_Mutation:
 #if GERMAN
 	.string "Die Beeren-Tasche ist voll.\p"
-	.string "Die {STR_VAR_1} und die\n"
-	.string "{STR_VAR_3} bleiben zurück.$"
+	.string "Die {STR_VAR_1} und die {STR_VAR_3} bleiben\n"
+	.string "zurück.$"
 #else
 	.string "The BAG's BERRIES POCKET is full.\p"
 	.string "The {STR_VAR_1} and the\n"
@@ -603,8 +599,7 @@ BerryTree_Text_PutAwayBerry_Mutation:
 #if GERMAN
 	.string "{PLAYER} verstaut die {STR_VAR_1} und die\n"
 	.string "{STR_VAR_3} in der Beerentasche.\p"
-	.string "Der Boden ist wieder weich\n"
-	.string "und lehmig.$"
+	.string "Der Boden ist wieder weich und lehmig.$"
 #else
 	.string "{PLAYER} put away the {STR_VAR_1}\n"
 	.string "and the {STR_VAR_3} in the BAG's\l"

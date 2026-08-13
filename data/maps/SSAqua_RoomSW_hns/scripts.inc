@@ -42,8 +42,8 @@ SSAqua_RoomSW_Text_BeautyCassieAfterBattle:
 
 SSAqua_RoomSW_Text_GuitaristClydeSeen:
 #if GERMAN
-	.string "Ich werde meine Lieder beim\n"
-	.string "Radiosender in Dukatia City vorspielen.$"
+	.string "Ich werde meine Lieder beim Radiosender\n"
+	.string "in Dukatia City vorspielen.$"
 #else
     .string "I'm going to audition my songs\n"
     .string "at GOLDENROD's RADIO STATION.$"
@@ -58,8 +58,8 @@ SSAqua_RoomSW_Text_GuitaristClydeBeaten:
 
 SSAqua_RoomSW_Text_GuitaristClydeAfterBattleMobile:
 #if GERMAN
-	.string "Ich wollte mein\n"
-	.string "Debut im Duellturm geben…\p"
+	.string "Ich wollte mein Debut im Duellturm\n"
+	.string "geben…\p"
 	.string "Ich sollte nach Orania City\n"
 	.string "zurückgehen und härter trainieren…$"
 #else
@@ -72,8 +72,8 @@ SSAqua_RoomSW_Text_GuitaristClydeAfterBattleMobile:
 SSAqua_RoomSW_Text_GuitaristClydeAfterBattle:
 #if GERMAN
 	.string "Apropos Radiostation: Wie\p"
-	.string "lauten die\n"
-	.string "Glückszahlen für diese Woche?$"
+	.string "lauten die Glückszahlen für diese\n"
+	.string "Woche?$"
 #else
     .string "Speaking of the RADIO STATION,\n"
     .string "what's this week's lucky number?$"

@@ -17,8 +17,8 @@ RustboroCity_Flat2_1F_EventScript_Skitty::
 
 RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere:
 #if GERMAN
-	.string "Die Angestellten der Devon\n"
-	.string "Corporation leben in diesem Haus.$"
+	.string "Die Angestellten der Devon Corporation\n"
+	.string "leben in diesem Haus.$"
 #else
 	.string "DEVON CORPORATION's workers live in\n"
 	.string "this building.$"

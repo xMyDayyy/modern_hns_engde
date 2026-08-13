@@ -34,8 +34,8 @@ CeruleanCity_PokemonCenter1F_Text_GymGuide:
 	.string "Geschwindigkeit von 550 km/h in null\l"
 	.string "Komma nichts zwischen Kanto und Johto\l"
 	.string "hin und her.\p"
-	.string "So kommt man jederzeit ohne\n"
-	.string "Probleme nach Johto.$"
+	.string "So kommt man jederzeit ohne Probleme\n"
+	.string "nach Johto.$"
 #else
 	.string "The MAGNET TRAIN travels at over\n"
 	.string "340 mph. It goes between KANTO and\l"

@@ -70,8 +70,8 @@ NationalPark_Normal_Text_Lass:
 #if GERMAN
 	.string "Sieh dir meine Tasche an!\p"
 	.string "Ich habe meine Lieblinge aus dem\p"
-	.string "Pokédex gedruckt\n"
-	.string "und auf meine Tasche geklebt.$"
+	.string "Pokédex gedruckt und auf meine Tasche\n"
+	.string "geklebt.$"
 #else
 	.string "Look! Check out my bag!\p"
 	.string "I printed out my favorites from my\n"
@@ -300,10 +300,9 @@ NationalPark_Normal_Text_JackPostRematch:
 
 NationalPark_Normal_Text_PokefanFBeverly1_Seen:
 #if GERMAN
-	.string "Meine Pokémon sind einfach\n"
-	.string "hinreißend.\p"
-	.string "Ich zeige dir, wie stolz\n"
-	.string "mich meine Lieblinge machen.$"
+	.string "Meine Pokémon sind einfach hinreißend.\p"
+	.string "Ich zeige dir, wie stolz mich meine\n"
+	.string "Lieblinge machen.$"
 #else
 	.string "My POKéMON are simply darling.\p"
 	.string "Let me tell you how proud my\n"
@@ -420,10 +419,9 @@ NationalPark_Normal_Text_BeverlyRegister:
 
 NationalPark_Normal_Text_BeverlyHasItem:
 #if GERMAN
-	.string "Oh, hallo! Ich habe etwas\n"
-	.string "für dich.\p"
-	.string "Bitte nimm es als Zeichen\n"
-	.string "meiner Dankbarkeit!$"
+	.string "Oh, hallo! Ich habe etwas für dich.\p"
+	.string "Bitte nimm es als Zeichen meiner\n"
+	.string "Dankbarkeit!$"
 #else
 	.string "Oh, hello! I have something\n"
 	.string "for you.\p"
@@ -433,8 +431,8 @@ NationalPark_Normal_Text_BeverlyHasItem:
 
 NationalPark_Normal_Text_BeverlyGaveItem:
 #if GERMAN
-	.string "Meine Pokémon und ich\n"
-	.string "werden dich anfeuern!$"
+	.string "Meine Pokémon und ich werden dich\n"
+	.string "anfeuern!$"
 #else
 	.string "My darling POKéMON and I will\n"
 	.string "be cheering for you!$"

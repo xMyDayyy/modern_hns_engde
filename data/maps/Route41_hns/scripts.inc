@@ -28,8 +28,8 @@ Route41_Text_SwimmermCharlieSeen:
 
 Route41_Text_SwimmermCharlieBeaten:
 #if GERMAN
-	.string "Oje! Meine Haut ist\n"
-	.string "schon ganz schrumpelig!$"
+	.string "Oje! Meine Haut ist schon ganz\n"
+	.string "schrumpelig!$"
 #else
 	.string "Yikes! I've got prune skin!$"
 #endif
@@ -163,8 +163,8 @@ Route41_Text_SwimmermMathewSeen:
 
 Route41_Text_SwimmermMathewBeaten:
 #if GERMAN
-	.string "Uff! Vor dir nimmt man sich\n"
-	.string "besser in Acht!$"
+	.string "Uff! Vor dir nimmt man sich besser in\n"
+	.string "Acht!$"
 #else
 	.string "Ooh, you've got great endurance!$"
 #endif

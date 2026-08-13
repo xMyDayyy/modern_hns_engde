@@ -135,16 +135,16 @@ Text_TellMeWhatsYourProfile:
 
 Text_ExplainProfile:
 #if GERMAN
-	.string "Ein Profil besteht aus vier\n"
-	.string "Wörtern oder Phrasen.\p"
-	.string "Es gibt unzählige Wörter, um\n"
-	.string "ein Profil zusammenzustellen.\p"
+	.string "Ein Profil besteht aus vier Wörtern\n"
+	.string "oder Phrasen.\p"
+	.string "Es gibt unzählige Wörter, um ein Profil\n"
+	.string "zusammenzustellen.\p"
 	.string "Die Wörter und Phrasen sind in\n"
 	.string "praktische Gruppen unterteilt.\p"
-	.string "Wähle zunächst eine Gruppe\n"
-	.string "und anschließend das Wort.\p"
-	.string "… es ist leichter, als es sich\n"
-	.string "anhört. Probier es doch einmal!$"
+	.string "Wähle zunächst eine Gruppe und\n"
+	.string "anschließend das Wort.\p"
+	.string "… es ist leichter, als es sich anhört.\n"
+	.string "Probier es doch einmal!$"
 #else
 	.string "A profile is written using four\n"
 	.string "words or phrases.\p"
@@ -211,8 +211,7 @@ Text_WhatAreYouLikeNow:
 
 Text_LikeProfileWayItIs:
 #if GERMAN
-	.string "O.K.! Du magst dein Profil\n"
-	.string "so wie es ist.\p"
+	.string "O.K.! Du magst dein Profil so wie es ist.\p"
 	.string "Das ist gut!$"
 #else
 	.string "Okay, you like your profile the\n"
@@ -237,8 +236,7 @@ Text_ProfileSaysSomethingAboutYou:
 
 Text_HeardThatBefore:
 #if GERMAN
-	.string "Oh, das habe ich schon \n"
-	.string "einmal gehört!\p"
+	.string "Oh, das habe ich schon einmal gehört!\p"
 	.string "Mein Cousin, der weit weg wohnt,\n"
 	.string "pflegte das zu sagen!$"
 #else

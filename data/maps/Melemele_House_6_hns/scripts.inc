@@ -38,8 +38,7 @@ Melemele_House6_GameboyKid_Text_0:
 	.string "mit dem ich die Alola-Region erkunden\l"
 	.string "kann!\p"
 	.string "Es ist wie in echt.\p"
-	.string "Es heißt Ultra Eclipse,\n"
-	.string "von Phantonomy!\p"
+	.string "Es heißt Ultra Eclipse, von Phantonomy!\p"
 	.string "Haha, sieh mal!\n"
 	.string "Ich reite ein eisiges UHaFnir!$"
 #else

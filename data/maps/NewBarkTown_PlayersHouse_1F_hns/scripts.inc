@@ -153,8 +153,8 @@ NewBarkTown_PlayersHouse_1F_EventScript_ExitSavings::
 
 NewBarkTown_PlayersHouse_1F_Text_MomAnythingElse:
 #if GERMAN
-	.string "Kann ich dir sonst noch\n"
-	.string "helfen, Liebling?$"
+	.string "Kann ich dir sonst noch helfen,\n"
+	.string "Liebling?$"
 #else
 	.string "Is there anything else I can\n"
 	.string "help you with, sweetie?$"
@@ -162,8 +162,7 @@ NewBarkTown_PlayersHouse_1F_Text_MomAnythingElse:
 
 NewBarkTown_PlayersHouse_1F_Text_CurrentSavings:
 #if GERMAN
-	.string "Ich habe {STR_VAR_2}\n"
-	.string "für dich gespart.$"
+	.string "Ich habe {STR_VAR_2} für dich gespart.$"
 #else
 	.string "I'm holding {STR_VAR_2}\n"
 	.string "for you right now.$"
@@ -180,8 +179,8 @@ NewBarkTown_PlayersHouse_1F_Text_EnableSaving:
 
 NewBarkTown_PlayersHouse_1F_Text_SavingEnabled:
 #if GERMAN
-	.string "Okay! Ich spare 25%\n"
-	.string "des Geldes von deinen Kämpfen.$"
+	.string "Okay! Ich spare 25% des Geldes von\n"
+	.string "deinen Kämpfen.$"
 #else
 	.string "Okay! I'll save 25% of\n"
 	.string "the money you earn from battles.$"
@@ -189,8 +188,8 @@ NewBarkTown_PlayersHouse_1F_Text_SavingEnabled:
 
 NewBarkTown_PlayersHouse_1F_Text_DisableSaving:
 #if GERMAN
-	.string "Möchtest du, dass ich\n"
-	.string "nicht mehr für dich spare?$"
+	.string "Möchtest du, dass ich nicht mehr für\n"
+	.string "dich spare?$"
 #else
 	.string "Would you like me to stop\n"
 	.string "saving for you?$"
@@ -351,10 +350,9 @@ NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou:
 #if GERMAN
 	.string "Oh, {PLAYER}…! Unser Nachbar,\n"
 	.string "Prof. Lind, sucht nach dir.\p"
-	.string "Er will, dass du ihm bei etwas\n"
-	.string "hilfst.\p"
-	.string "Oh! Fast vergessen! Dein\n"
-	.string "PokéCom kam fertig aus der Werkstatt.\p"
+	.string "Er will, dass du ihm bei etwas hilfst.\p"
+	.string "Oh! Fast vergessen! Dein PokéCom kam\n"
+	.string "fertig aus der Werkstatt.\p"
 	.string "Hier, nimm ihn!$"
 #else
 	.string "Oh, {PLAYER}…! Our neighbor,\n"
@@ -428,8 +426,8 @@ NewBarkTown_PlayersHouse_1F_Text_MomsFriend:
 	.string "Hi, {PLAYER}!\p"
 	.string "Ich besuche euch!\p"
 	.string "Hast du schon gehört?\p"
-	.string "Meine Tochter will unbedingt\n"
-	.string "Prof. Linds Assistentin werden.\p"
+	.string "Meine Tochter will unbedingt Prof. Linds\n"
+	.string "Assistentin werden.\p"
 	.string "Sie liebt Pokémon wirklich sehr!$"
 #else
 	.string "Hi, {PLAYER}!\p"
@@ -442,8 +440,7 @@ NewBarkTown_PlayersHouse_1F_Text_MomsFriend:
 
 NewBarkTown_PlayersHouse_1F_Text_MomLeaving:
 #if GERMAN
-	.string "Mama: Oh, was für ein süßes\n"
-	.string "Pokémon!\p"
+	.string "Mama: Oh, was für ein süßes Pokémon!\p"
 	.string "Wo hast du es her?\p"
 	.string "…\p"
 	.string "Du gehst also auf ein Abenteuer…\n"

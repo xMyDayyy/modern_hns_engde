@@ -72,8 +72,8 @@ PokemonMansion_1F_Text_ArnieDefeat::
 
 PokemonMansion_1F_Text_ArniePostBattle::
 #if GERMAN
-	.string "Die Türen kannst du mittels\n"
-	.string "Schalter schließen oder öffnen!$"
+	.string "Die Türen kannst du mittels Schalter\n"
+	.string "schließen oder öffnen!$"
 #else
 	.string "The switches here open and close\n"
 	.string "alternating sets of doors.$"

@@ -128,8 +128,8 @@ Route103_Text_MayHnsLetsBattle:
 
 Route103_Text_MayHnsDefeated:
 #if GERMAN
-	.string "Wow… Das war wohl eine\n"
-	.string "Nummer zu groß für mich!$"
+	.string "Wow… Das war wohl eine Nummer zu groß\n"
+	.string "für mich!$"
 #else
 	.string "Wow… I guess that was a\n"
 	.string "little out of my league!$"
@@ -137,8 +137,8 @@ Route103_Text_MayHnsDefeated:
 
 Route103_Text_MayHnsAfterBattle:
 #if GERMAN
-	.string "Maike: Gegen den Champion zu\n"
-	.string "verlieren ist keine Schande!\p"
+	.string "Maike: Gegen den Champion zu verlieren\n"
+	.string "ist keine Schande!\p"
 	.string "Weißt du was? Du bist ab jetzt\n"
 	.string "meine Messlatte.\p"
 	.string "Jedes Mal, wenn wir uns wiedersehen,\n"

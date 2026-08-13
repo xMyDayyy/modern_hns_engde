@@ -151,8 +151,8 @@ MrPokemonHouse_Movement_MrPokemon_Leave:
 MrPokemonHouse_Text_Intro1:
 #if GERMAN
 	.string "Hallo! Du musst {PLAYER} sein.\p"
-	.string "Prof. Lind sagte,\n"
-	.string "dass du vorbeikommen würdest.$"
+	.string "Prof. Lind sagte, dass du vorbeikommen\n"
+	.string "würdest.$"
 #else
 	.string "Hello, hello! You must be\n"
 	.string "{PLAYER}.\p"
@@ -178,8 +178,8 @@ MrPokemonHouse_Text_GotEgg:
 
 MrPokemonHouse_Text_Intro3:
 #if GERMAN
-	.string "Ich kenne ein Paar,\n"
-	.string "das eine Pokémon-Pension leitet.\p"
+	.string "Ich kenne ein Paar, das eine\n"
+	.string "Pokémon-Pension leitet.\p"
 	.string "Sie gaben mir das Ei.\p"
 	.string "Ich war derart fasziniert, dass ich\n"
 	.string "Prof. Lind eine E-Mail schrieb.\p"
@@ -246,8 +246,8 @@ MrPokemonHouse_Text_OakIntro:
 	.string "Eich: Aha! Du bist also {PLAYER}!\p"
 	.string "Mein Name ist Prof. Eich!\p"
 	.string "Ich bin von Beruf Pokémon-Forscher.\p"
-	.string "Ich besuche gerade\n"
-	.string "meinen alten Freund Mr. Pokémon.\p"
+	.string "Ich besuche gerade meinen alten Freund\n"
+	.string "Mr. Pokémon.\p"
 	.string "Ich hörte, du sollst etwas für Prof.\n"
 	.string "Lind besorgen, also habe ich gewartet.\p"
 	.string "Oh! Was ist das? Ein seltenes Pokémon!\p"
@@ -306,10 +306,9 @@ MrPokemonHouse_Text_OakParting:
 #if GERMAN
 	.string "Triff viele verschiedene Pokémon\n"
 	.string "und vervollständige den Pokédex!\p"
-	.string "Aber ich bin schon zu lange\n"
-	.string "geblieben.\p"
-	.string "Ich muss nach Dukatia City\n"
-	.string "zu meiner gewohnten Radiosendung.\p"
+	.string "Aber ich bin schon zu lange geblieben.\p"
+	.string "Ich muss nach Dukatia City zu meiner\n"
+	.string "gewohnten Radiosendung.\p"
 	.string "{PLAYER}, ich zähle auf dich!$"
 #else
 	.string "Go meet many kinds of POKéMON and\n"
@@ -351,8 +350,8 @@ MrPokemonHouse_Text_Disappointed:
 
 MrPokemonHouse_Text_ExpShare:
 #if GERMAN
-	.string "Ich habe auch ein spezielles\n"
-	.string "Item für dich.$"
+	.string "Ich habe auch ein spezielles Item für\n"
+	.string "dich.$"
 #else
 	.string "I also have a special item\n"
 	.string "for you.$"

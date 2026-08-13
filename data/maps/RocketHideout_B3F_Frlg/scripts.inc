@@ -42,8 +42,8 @@ RocketHideout_B3F_Text_Grunt1PostBattle::
 
 RocketHideout_B3F_Text_Grunt2Intro::
 #if GERMAN
-	.string "Wir hörten schon, dass du im\n"
-	.string "Anmarsch bist!$"
+	.string "Wir hörten schon, dass du im Anmarsch\n"
+	.string "bist!$"
 #else
 	.string "We got word from upstairs that you\n"
 	.string "were coming!$"

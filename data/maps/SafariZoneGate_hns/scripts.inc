@@ -222,8 +222,8 @@ SafariZoneGate_Pokemart_VitaminGuru:
 
 SafariZoneGate_Text_VitaminGuruSellWhatYouNeed:
 #if GERMAN
-	.string "Ich bin der Vitamin-Guru\n"
-	.string "und verkaufe dir was du brauchst!$"
+	.string "Ich bin der Vitamin-Guru und verkaufe\n"
+	.string "dir was du brauchst!$"
 #else
 	.string "I'm the ENERGY GURU! I'll go for it and\n"
 	.string "sell you what you need!$"

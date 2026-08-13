@@ -417,8 +417,8 @@ BerryBlender_Text_Player1And2Arrived:
 
 BerryBlender_Text_AllPlayersArrived:
 #if GERMAN
-	.string "{STR_VAR_1}, {STR_VAR_2} und\n"
-	.string "{STR_VAR_3} sind eingetroffen.$"
+	.string "{STR_VAR_1}, {STR_VAR_2} und {STR_VAR_3} sind\n"
+	.string "eingetroffen.$"
 #else
 	.string "{STR_VAR_1}, {STR_VAR_2}, and\n"
 	.string "{STR_VAR_3} arrived.$"
@@ -453,8 +453,7 @@ BerryBlender_Text_DontHavePokeblockCaseLink:
 
 BerryBlender_Text_LoveMakingPokeblocks:
 #if GERMAN
-	.string "Ich liebe es, {POKEBLOCK}\n"
-	.string "herzustellen!\p"
+	.string "Ich liebe es, {POKEBLOCK} herzustellen!\p"
 	.string "Ich habe immer einige Beeren dabei.$"
 #else
 	.string "I love making {POKEBLOCK}S.\p"

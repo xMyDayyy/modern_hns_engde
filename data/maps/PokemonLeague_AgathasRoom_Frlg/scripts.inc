@@ -92,8 +92,8 @@ PokemonLeague_AgathasRoom_Text_Intro::
 #if GERMAN
 	.string "Ich bin Agathe aus dem Team der\n"
 	.string "Top Vier!\p"
-	.string "Ich habe gehört, dass sich\n"
-	.string "Eich sehr für dich interessiert!\p"
+	.string "Ich habe gehört, dass sich Eich sehr\n"
+	.string "für dich interessiert!\p"
 	.string "Dieser alte Knacker war früher\n"
 	.string "stark und schön.\p"
 	.string "Aber das ist Jahrzehnte her.\n"
@@ -124,8 +124,8 @@ PokemonLeague_AgathasRoom_Text_RematchIntro::
 #if GERMAN
 	.string "Ich bin Agathe aus dem Team der\n"
 	.string "Top Vier!\p"
-	.string "Ich habe gehört, dass Eich\n"
-	.string "dich protegiert!\p"
+	.string "Ich habe gehört, dass Eich dich\n"
+	.string "protegiert!\p"
 	.string "Dieser alte Knacker war früher\n"
 	.string "stark und schön.\p"
 	.string "Aber das ist Jahrzehnte her.\n"

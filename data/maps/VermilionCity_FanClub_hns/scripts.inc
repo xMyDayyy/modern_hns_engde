@@ -81,14 +81,14 @@ VermilionCity_FanClub_EventScript_Bayleef::
 
 PokemonFanClub_Text_Chairman_Intro:
 #if GERMAN
-	.string "Ich bin der Vorsitzende des\n"
-	.string "Pokémon Fan Clubs!\p"
-	.string "Ich habe schon mehr als 150\n"
-	.string "Pokémon trainiert!\p"
+	.string "Ich bin der Vorsitzende des Pokémon\n"
+	.string "Fan Clubs!\p"
+	.string "Ich habe schon mehr als 150 Pokémon\n"
+	.string "trainiert!\p"
 	.string "Ach, ich könnte einfach stundenlang\n"
 	.string "über Pokémon reden…\p"
-	.string "Möchtest du eine meiner\n"
-	.string "tollen Pokémon-Geschichten hören?$"
+	.string "Möchtest du eine meiner tollen\n"
+	.string "Pokémon-Geschichten hören?$"
 #else
 	.string "I'm the CHAIRMAN of the POKéMON\n"
 	.string "FAN CLUB.\p"
@@ -144,8 +144,8 @@ PokemonFanClub_Text_Chairman_Gift:
 
 PokemonFanClub_Text_Chairman_Candy:
 #if GERMAN
-	.string "Dieses Sonderbonbon macht\n"
-	.string "schlaffe Pokémon fit!\p"
+	.string "Dieses Sonderbonbon macht schlaffe\n"
+	.string "Pokémon fit!\p"
 	.string "Aber meine Pokémon sollen lieber\n"
 	.string "durch Kämpfe stark werden.\p"
 	.string "Du kannst es also haben!$"

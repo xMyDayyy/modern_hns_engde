@@ -43,8 +43,8 @@ FortreeCity_PokemonCenter_1F_Text_GoToSafariZone:
 
 FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 #if GERMAN
-	.string "Hast du schon mal eine\n"
-	.string "Statistik geTauscht?\p"
+	.string "Hast du schon mal eine Statistik\n"
+	.string "geTauscht?\p"
 	.string "Sehr nützliche Einrichtung! Die\n"
 	.string "Erfolge\l"
 	.string "eines jeden Trainers werden dort ge-\l"

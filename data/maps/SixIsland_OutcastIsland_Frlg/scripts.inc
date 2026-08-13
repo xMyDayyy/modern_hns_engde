@@ -8,8 +8,8 @@ SixIsland_OutcastIsland_EventScript_Rocket::
 
 SixIsland_OutcastIsland_Text_RocketIntro::
 #if GERMAN
-	.string "Hier gibt es keine seltenen\n"
-	.string "Pokémon! Nicht eines!\p"
+	.string "Hier gibt es keine seltenen Pokémon!\n"
+	.string "Nicht eines!\p"
 	.string "Das ärgert mich, Kiddie! Daher\n"
 	.string "kämpfe ich jetzt mit dir!$"
 #else
@@ -141,8 +141,8 @@ SixIsland_OutcastIsland_Text_AvaDefeat::
 
 SixIsland_OutcastIsland_Text_AvaPostBattle::
 #if GERMAN
-	.string "Tina: Ich bevorzuge das Meer\n"
-	.string "gegenüber jedem Pool.$"
+	.string "Tina: Ich bevorzuge das Meer gegenüber\n"
+	.string "jedem Pool.$"
 #else
 	.string "AVA: You know, I do prefer the\n"
 	.string "sea over any pool.$"

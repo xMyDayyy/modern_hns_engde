@@ -654,8 +654,7 @@ NewBarkTown_Lab_Movement_ElmStepForward:
 
 NewBarkTown_Lab_Text_ShouldntTouch:
 #if GERMAN
-	.string "Wahrscheinlich besser nicht\n"
-	.string "anfassen!$"
+	.string "Wahrscheinlich besser nicht anfassen!$"
 #else
 	.string "Probably shouldn't touch!$"
 #endif
@@ -701,8 +700,7 @@ NewBarkTown_Lab_Text_ElmAccepted:
 
 NewBarkTown_Lab_Text_ElmRefused:
 #if GERMAN
-	.string "Aber… Bitte, ich brauche\n"
-	.string "deine Hilfe!$"
+	.string "Aber… Bitte, ich brauche deine Hilfe!$"
 #else
 	.string "But… Please, I need your\n"
 	.string "help!$"
@@ -724,8 +722,8 @@ NewBarkTown_Lab_Text_ElmResearchAmbitions:
 
 NewBarkTown_Lab_Text_ElmGotAnEmail:
 #if GERMAN
-	.string "Oh, holla! Ich habe eine\n"
-	.string "E-Mail bekommen!\p"
+	.string "Oh, holla! Ich habe eine E-Mail\n"
+	.string "bekommen!\p"
 	.string "… … … … … … … …\n"
 	.string "Hm… Aha…\p"
 	.string "Okay…$"
@@ -777,10 +775,10 @@ NewBarkTown_Lab_Text_ElmMissionFromMrPokemon:
 
 NewBarkTown_Lab_Text_ElmChooseAPokemon:
 #if GERMAN
-	.string "Nimm eines der Pokémon\n"
-	.string "aus diesen Pokébällen.\p"
-	.string "Du wirst der erste Partner\n"
-	.string "dieses Pokémon sein, {PLAYER}!\p"
+	.string "Nimm eines der Pokémon aus diesen\n"
+	.string "Pokébällen.\p"
+	.string "Du wirst der erste Partner dieses\n"
+	.string "Pokémon sein, {PLAYER}!\p"
 	.string "Wähle jetzt!$"
 #else
 	.string "I want you to raise one of\n"
@@ -800,8 +798,8 @@ NewBarkTown_Lab_Text_ElmWhereGoing:
 
 NewBarkTown_Lab_Text_ChooseCyndaquil:
 #if GERMAN
-	.string "Lind: Du nimmst Feurigel,\n"
-	.string "das Feuer-Pokémon?$"
+	.string "Lind: Du nimmst Feurigel, das\n"
+	.string "Feuer-Pokémon?$"
 #else
 	.string "ELM: You'll take {STR_VAR_1},\n"
 	.string "the {STR_VAR_2} POKéMON?$"
@@ -809,8 +807,8 @@ NewBarkTown_Lab_Text_ChooseCyndaquil:
 
 NewBarkTown_Lab_Text_ChooseTotodile:
 #if GERMAN
-	.string "Lind: Willst du Karnimani,\n"
-	.string "das Wasser-Pokémon?$"
+	.string "Lind: Willst du Karnimani, das\n"
+	.string "Wasser-Pokémon?$"
 #else
 	.string "ELM: Do you want {STR_VAR_1},\n"
 	.string "the {STR_VAR_2} POKéMON?$"
@@ -836,8 +834,7 @@ NewBarkTown_Lab_Text_DidntChooseStarter:
 
 NewBarkTown_Lab_Text_ChoseStarter:
 #if GERMAN
-	.string "Lind: Das ist auch ein\n"
-	.string "tolles Pokémon!$"
+	.string "Lind: Das ist auch ein tolles Pokémon!$"
 #else
 	.string "ELM: I think that's a great\n"
 	.string "POKéMON too!$"
@@ -852,8 +849,8 @@ NewBarkTown_Lab_Text_ReceivedStarter:
 
 NewBarkTown_Lab_Text_Nickname:
 #if GERMAN
-	.string "Willst du deinem {STR_VAR_1}\n"
-	.string "einen Spitznamen geben?$"
+	.string "Willst du deinem {STR_VAR_1} einen\n"
+	.string "Spitznamen geben?$"
 #else
 	.string "Would you like to give your\n"
 	.string "{STR_VAR_1} a nickname?$"
@@ -881,8 +878,8 @@ NewBarkTown_Lab_Text_ElmDirections1:
 
 NewBarkTown_Lab_Text_ElmLetYourMonBattle:
 #if GERMAN
-	.string "Wenn ein wildes Pokémon\n"
-	.string "erscheint, lass deines kämpfen!$"
+	.string "Wenn ein wildes Pokémon erscheint, lass\n"
+	.string "deines kämpfen!$"
 #else
 	.string "If a wild POKéMON appears,\n"
 	.string "let your POKéMON battle it!$"
@@ -890,8 +887,8 @@ NewBarkTown_Lab_Text_ElmLetYourMonBattle:
 
 NewBarkTown_Lab_Text_ElmDirections2:
 #if GERMAN
-	.string "Wenn ein wildes Pokémon\n"
-	.string "erscheint, lass deines kämpfen!\p"
+	.string "Wenn ein wildes Pokémon erscheint, lass\n"
+	.string "deines kämpfen!\p"
 	.string "Wenn es verletzt ist, heile es an der\n"
 	.string "Maschine links oder im Pokécenter.\p"
 	.string "Ich zähle auf dich!$"
@@ -906,8 +903,7 @@ NewBarkTown_Lab_Text_ElmDirections2:
 
 NewBarkTown_Lab_Text_GotElmsNumber:
 #if GERMAN
-	.string "{PLAYER} bekam Linds\n"
-	.string "Telefonnummer.$"
+	.string "{PLAYER} bekam Linds Telefonnummer.$"
 #else
 	.string "{PLAYER} got ELM's phone\n"
 	.string "number.$"
@@ -915,10 +911,10 @@ NewBarkTown_Lab_Text_GotElmsNumber:
 
 NewBarkTown_Lab_Text_ElmDescribesMrPokemon:
 #if GERMAN
-	.string "Mr. Pokémon sammelt\n"
-	.string "seltene Antiquitäten.\p"
-	.string "Schade, dass sie nur selten\n"
-	.string "und nicht besonders nützlich sind.$"
+	.string "Mr. Pokémon sammelt seltene\n"
+	.string "Antiquitäten.\p"
+	.string "Schade, dass sie nur selten und nicht\n"
+	.string "besonders nützlich sind.$"
 #else
 	.string "MR. POKéMON goes everywhere and\n"
 	.string "finds rarities.\p"
@@ -928,8 +924,8 @@ NewBarkTown_Lab_Text_ElmDescribesMrPokemon:
 
 NewBarkTown_Lab_Text_ElmPokeBall:
 #if GERMAN
-	.string "Enthält ein Pokémon, das\n"
-	.string "Prof. Lind gefangen hat.$"
+	.string "Enthält ein Pokémon, das Prof. Lind\n"
+	.string "gefangen hat.$"
 #else
 	.string "It contains a POKéMON caught\n"
 	.string "by PROF.ELM.$"
@@ -976,14 +972,14 @@ NewBarkTown_Lab_Text_ElmAfterTheft4:
 	.string "Unglaublich!\p"
 	.string "Er erkennt das Potential von\n"
 	.string "Menschen als Trainer.\p"
-	.string "Wow, {PLAYER}. Du könntest\n"
-	.string "Champion werden.\p"
+	.string "Wow, {PLAYER}. Du könntest Champion\n"
+	.string "werden.\p"
 	.string "Du kommst gut mit Pokémon klar.\p"
 	.string "Versuche die Arenaleiter\n"
 	.string "herauszufordern.\p"
 	.string "Die nächste Arena ist in Viola City.\p"
-	.string "…{PLAYER}. Der Weg zum Sieg\n"
-	.string "wird lang sein.\p"
+	.string "…{PLAYER}. Der Weg zum Sieg wird lang\n"
+	.string "sein.\p"
 	.string "Bevor du gehst, sprich besser mit\n"
 	.string "deiner Mutter.$"
 #else
@@ -1042,8 +1038,7 @@ NewBarkTown_Lab_Text_ElmAideHasEgg:
 
 NewBarkTown_Lab_Text_ElmWaitingEggHatch:
 #if GERMAN
-	.string "Lind: Hey, hat sich am Ei\n"
-	.string "etwas getan?$"
+	.string "Lind: Hey, hat sich am Ei etwas getan?$"
 #else
 	.string "ELM: Hey, has that EGG changed\n"
 	.string "any?$"
@@ -1106,10 +1101,10 @@ NewBarkTown_Lab_Text_ElmGiveEverstone2:
 	.string "Das ist ein Ewigstein.\p"
 	.string "Manche Pokémon entwickeln sich\n"
 	.string "bei bestimmten Leveln.\p"
-	.string "Ein Pokémon mit Ewigstein\n"
-	.string "entwickelt sich nicht.\p"
-	.string "Gib ihn einem Pokémon, das\n"
-	.string "du nicht entwickeln willst.$"
+	.string "Ein Pokémon mit Ewigstein entwickelt\n"
+	.string "sich nicht.\p"
+	.string "Gib ihn einem Pokémon, das du nicht\n"
+	.string "entwickeln willst.$"
 #else
 	.string "That's an EVERSTONE.\p"
 	.string "Some species of POKéMON evolve\n"
@@ -1122,8 +1117,8 @@ NewBarkTown_Lab_Text_ElmGiveEverstone2:
 
 NewBarkTown_Lab_Text_ElmCallYou:
 #if GERMAN
-	.string "Lind: {PLAYER}, ich rufe an,\n"
-	.string "wenn etwas passiert.$"
+	.string "Lind: {PLAYER}, ich rufe an, wenn etwas\n"
+	.string "passiert.$"
 #else
 	.string "ELM: {PLAYER}, I'll call you if\n"
 	.string "anything comes up.$"
@@ -1201,8 +1196,8 @@ NewBarkTown_Lab_Text_KimonoGirls:
 
 NewBarkTown_Lab_Text_KimonoWaiting:
 #if GERMAN
-	.string "Prof. Lind: Die Kimono-Girls\n"
-	.string "warten im Teak-City Tanztheater.$"
+	.string "Prof. Lind: Die Kimono-Girls warten im\n"
+	.string "Teak-City Tanztheater.$"
 #else
 	.string "PROF.ELM: The KIMONO\n"
 	.string "GIRLS are waiting for you at\l"
@@ -1292,8 +1287,8 @@ NewBarkTown_Lab_Text_ElmGiveTicket2:
 
 NewBarkTown_Lab_Text_LabMonEgg:
 #if GERMAN
-	.string "Es ist das Pokémon-Ei, das\n"
-	.string "von Prof. Lind erforscht wird.$"
+	.string "Es ist das Pokémon-Ei, das von Prof.\n"
+	.string "Lind erforscht wird.$"
 #else
 	.string "It's the POKéMON EGG being\n"
 	.string "studied by PROF.ELM.$"
@@ -1301,8 +1296,8 @@ NewBarkTown_Lab_Text_LabMonEgg:
 
 NewBarkTown_Lab_Text_AideGivePotion:
 #if GERMAN
-	.string "{PLAYER}, nimm das für\n"
-	.string "deine Anstrengung.$"
+	.string "{PLAYER}, nimm das für deine\n"
+	.string "Anstrengung.$"
 #else
 	.string "{PLAYER}, I want you to have\n"
 	.string "this for your errand.$"
@@ -1310,8 +1305,8 @@ NewBarkTown_Lab_Text_AideGivePotion:
 
 NewBarkTown_Lab_Text_AideAlwaysBusy:
 #if GERMAN
-	.string "Wir sind nur zu dritt, also\n"
-	.string "haben wir immer viel zu tun.$"
+	.string "Wir sind nur zu dritt, also haben wir\n"
+	.string "immer viel zu tun.$"
 #else
 	.string "There are only three of us, so\n"
 	.string "we're always busy.$"
@@ -1319,10 +1314,8 @@ NewBarkTown_Lab_Text_AideAlwaysBusy:
 
 NewBarkTown_Lab_Text_AideSave:
 #if GERMAN
-	.string "Vergiss nicht, regelmäßig zu\n"
-	.string "speichern!\p"
-	.string "Drücke Start und dann\n"
-	.string "Sichern!$"
+	.string "Vergiss nicht, regelmäßig zu speichern!\p"
+	.string "Drücke Start und dann Sichern!$"
 #else
 	.string "Don't forget to save your game\n"
 	.string "regularly!\p"
@@ -1368,8 +1361,8 @@ NewBarkTown_Lab_Text_AideGiveBalls:
 
 NewBarkTown_Lab_Text_AideExplainBalls:
 #if GERMAN
-	.string "Um deinen Pokédex zu füllen,\n"
-	.string "musst du Pokémon fangen.\p"
+	.string "Um deinen Pokédex zu füllen, musst du\n"
+	.string "Pokémon fangen.\p"
 	.string "Wirf Pokébälle auf wilde Pokémon!$"
 #else
 	.string "To add to your POKéDEX, you\n"
@@ -1380,14 +1373,14 @@ NewBarkTown_Lab_Text_AideExplainBalls:
 
 NewBarkTown_Lab_Text_Officer1:
 #if GERMAN
-	.string "Ich hörte, hier wurde ein\n"
-	.string "Pokémon gestohlen…\p"
+	.string "Ich hörte, hier wurde ein Pokémon\n"
+	.string "gestohlen…\p"
 	.string "Ich wollte Infos von Prof. Lind.\p"
-	.string "Offenbar war es ein junger\n"
-	.string "Mann mit langen, roten Haaren…\p"
+	.string "Offenbar war es ein junger Mann mit\n"
+	.string "langen, roten Haaren…\p"
 	.string "Was?\p"
-	.string "Du hast gegen so einen\n"
-	.string "Trainer gekämpft?\p"
+	.string "Du hast gegen so einen Trainer\n"
+	.string "gekämpft?\p"
 	.string "Weißt du seinen Namen?$"
 #else
 	.string "I heard a POKéMON was stolen\n"
@@ -1412,8 +1405,8 @@ NewBarkTown_Lab_Text_Officer2_1:
 
 NewBarkTown_Lab_Text_Officer2:
 #if GERMAN
-	.string "Danke, dass du bei meinen\n"
-	.string "Ermittlungen geholfen hast!$"
+	.string "Danke, dass du bei meinen Ermittlungen\n"
+	.string "geholfen hast!$"
 #else
 	.string "Thanks for helping my\n"
 	.string "investigation!$"

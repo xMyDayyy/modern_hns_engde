@@ -315,8 +315,8 @@ Route16_Text_LeaPostBattle::
 
 Route16_Text_LeaNotEnoughMons::
 #if GERMAN
-	.string "Lena: Oh, du hast keine zwei\n"
-	.string "Pokémon bei dir?\p"
+	.string "Lena: Oh, du hast keine zwei Pokémon bei\n"
+	.string "dir?\p"
 	.string "Fühlst du dich oder fühlt sich\n"
 	.string "dein Pokémon nicht einsam?$"
 #else

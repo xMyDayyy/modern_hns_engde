@@ -6,8 +6,8 @@ MatchCall_HNS_Joey_General1::
 #if GERMAN
 	.string "Yo, {PLAYER}! Wie geht es dir?\p"
 	.string "Wie geht es deinen Pokémon?\p"
-	.string "Mein {STR_VAR_3} ist nicht zu\n"
-	.string "halten, wie immer.\p"
+	.string "Mein {STR_VAR_3} ist nicht zu halten, wie\n"
+	.string "immer.\p"
 	.string "Es ist mein Ein und Alles. Ich werde\n"
 	.string "mit ihm ein toller Trainer sein!$"
 #else
@@ -24,8 +24,8 @@ MatchCall_HNS_Joey_General1::
 MatchCall_HNS_Joey_General2::
 #if GERMAN
 	.string "Yo, {PLAYER}! Hast du Zeit?\p"
-	.string "Mein {STR_VAR_3} sieht\n"
-	.string "entschlossener aus!\p"
+	.string "Mein {STR_VAR_3} sieht entschlossener\n"
+	.string "aus!\p"
 	.string "Ich bezweifle, dass du auch so ein\n"
 	.string "cooles Pokémon in deinem Team hast!$"
 #else
@@ -74,11 +74,10 @@ MatchCall_HNS_Wade_General1::
 #if GERMAN
 	.string "{PLAYER}, alles senkrecht?\p"
 	.string "Wie geht es deinen Pokémon?\p"
-	.string "Meine Pokémon haben zu viel\n"
-	.string "Energie.\p"
+	.string "Meine Pokémon haben zu viel Energie.\p"
 	.string "Das ist ein Problem.\p"
-	.string "Von all meinen Pokémon ist\n"
-	.string "{STR_VAR_3} am schwierigsten.\p"
+	.string "Von all meinen Pokémon ist {STR_VAR_3} am\n"
+	.string "schwierigsten.\p"
 	.string "Mit ihm zu arbeiten ist ermüdend.$"
 #else
 	.string "{PLAYER}, howdy!\p"
@@ -100,8 +99,7 @@ MatchCall_HNS_Wade_General2::
 	.string "Wachsen deine Pokémon?\p"
 	.string "Meine Pokémon wachsen mir zu\n"
 	.string "schnell. Es ist überwältigend!\p"
-	.string "{STR_VAR_3} wächst besonders\n"
-	.string "schnell.\p"
+	.string "{STR_VAR_3} wächst besonders schnell.\p"
 	.string "Ich denke, es wird stark.$"
 #else
 	.string "{PLAYER}, howdy!\n"
@@ -138,8 +136,7 @@ MatchCall_HNS_Wade_FoundItem::
 	.string "Ich habe alle möglichen Beeren\n"
 	.string "gefunden.\p"
 	.string "Wenn du willst, teile ich mit dir.\p"
-	.string "Ich warte auf\n"
-	.string "Route 31.$"
+	.string "Ich warte auf Route 31.$"
 #else
 	.string "{PLAYER}, howdy!\p"
 	.string "I found all kinds of\n"
@@ -200,8 +197,7 @@ MatchCall_HNS_Ralph_General3::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hör dir das an!\p"
-	.string "Ich besiegte ein wildes\n"
-	.string "{STR_VAR_3}.\p"
+	.string "Ich besiegte ein wildes {STR_VAR_3}.\p"
 	.string "Ich erzählte es meinem Sohn, aber er\n"
 	.string "sagte, er könne das auch leicht tun.\p"
 	.string "Er ist sehr aufsässig geworden…$"
@@ -237,10 +233,8 @@ MatchCall_HNS_Liz_General1::
 	.string "Wie geht es deinen Pokémon?\p"
 	.string "Ich bringe mein {STR_VAR_3} jeden Tag ins\n"
 	.string "Pokémon Center in Violet,\p"
-	.string "also geht’s ihm\n"
-	.string "fantastisch!\p"
-	.string "Die Rezeptionistin ist eine\n"
-	.string "Freundin!$"
+	.string "also geht’s ihm fantastisch!\p"
+	.string "Die Rezeptionistin ist eine Freundin!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "I had some time, so I\l"
@@ -260,8 +254,7 @@ MatchCall_HNS_Liz_General2::
 #if GERMAN
 	.string "Hi, {PLAYER}!\n"
 	.string "Du musst dir das anhören.\p"
-	.string "Mein {STR_VAR_3} ist so\n"
-	.string "bezaubernd!\p"
+	.string "Mein {STR_VAR_3} ist so bezaubernd!\p"
 	.string "Es kuschelt sich ständig an mich!$"
 #else
 	.string "Hi, {PLAYER}!\n"
@@ -312,8 +305,8 @@ MatchCall_HNS_Anthony_General1::
 #if GERMAN
 	.string "Hey, {PLAYER}!\p"
 	.string "Sind deine Pokémon immer noch wild?\p"
-	.string "Mein {STR_VAR_3} und ich, wir\n"
-	.string "strotzen vor Energie.\p"
+	.string "Mein {STR_VAR_3} und ich, wir strotzen vor\n"
+	.string "Energie.\p"
 	.string "Wir wandern täglich in den Bergen,\n"
 	.string "um so Energie abzubauen.$"
 #else
@@ -380,12 +373,10 @@ MatchCall_HNS_Todd_General1::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Was geht?\p"
-	.string "Wie ziehst du deine\n"
-	.string "Pokémon groß?\p"
+	.string "Wie ziehst du deine Pokémon groß?\p"
 	.string "Ich mach so allerlei, wie sie in die\n"
 	.string "Kinderkrippe geben und\p"
-	.string "sie mit Items\n"
-	.string "abhärten.$"
+	.string "sie mit Items abhärten.$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "What's up?\p"
@@ -402,8 +393,7 @@ MatchCall_HNS_Todd_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Was geht?\p"
-	.string "Mein {STR_VAR_3} wird mir immer\n"
-	.string "ähnlicher.\p"
+	.string "Mein {STR_VAR_3} wird mir immer ähnlicher.\p"
 	.string "Es wird immer niedlicher!$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -418,10 +408,8 @@ MatchCall_HNS_Todd_General3::
 	.string "Hey, {PLAYER}!\n"
 	.string "Was geht?\p"
 	.string "Und, pass auf!\p"
-	.string "Jetzt besiegen wir\n"
-	.string "{STR_VAR_3} mühelos.\p"
-	.string "Ich sollte die\n"
-	.string "Rosalia-Arena fordern.$"
+	.string "Jetzt besiegen wir {STR_VAR_3} mühelos.\p"
+	.string "Ich sollte die Rosalia-Arena fordern.$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "What's up?\p"
@@ -450,8 +438,7 @@ MatchCall_HNS_Gina_General1::
 	.string "Wie geht’s dir?\p"
 	.string "Sind deine Pokémon noch immer\n"
 	.string "stark?\p"
-	.string "Ich trainiere mein {STR_VAR_3}\n"
-	.string "täglich.$"
+	.string "Ich trainiere mein {STR_VAR_3} täglich.$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "How are you?\p"
@@ -509,12 +496,11 @@ MatchCall_HNS_Irwin_General1::
 #if GERMAN
 	.string "Äh, hallo, {PLAYER}?\n"
 	.string "Hier ist dein Kumpel Erich!\p"
-	.string "Ich hab neulich den\n"
-	.string "erstaunlichsten Kampf gesehen!\p"
-	.string "Ich wünschte, ich könnte so\n"
-	.string "kämpfen.\p"
-	.string "Ach halt, ich kann! Ich\n"
-	.string "brauch nur jemanden zum Kämpfen!$"
+	.string "Ich hab neulich den erstaunlichsten\n"
+	.string "Kampf gesehen!\p"
+	.string "Ich wünschte, ich könnte so kämpfen.\p"
+	.string "Ach halt, ich kann! Ich brauch nur\n"
+	.string "jemanden zum Kämpfen!$"
 #else
 	.string "Uh, hello, {PLAYER}?\n"
 	.string "It's your pal, IRWIN!\p"
@@ -605,8 +591,8 @@ MatchCall_HNS_Arnie_General3::
 	.string "Um mal das Thema zu wechseln, ich hab\n"
 	.string "dieses {STR_VAR_3} zum ersten Mal\l"
 	.string "gesehen.\p"
-	.string "Es war leicht zu besiegen,\n"
-	.string "ehrlich gesagt.$"
+	.string "Es war leicht zu besiegen, ehrlich\n"
+	.string "gesagt.$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "How's it going?\p"
@@ -653,8 +639,8 @@ MatchCall_HNS_Alan_General2::
 #if GERMAN
 	.string "Hi, {PLAYER}!\n"
 	.string "Hier ist Holger!\p"
-	.string "Mein {STR_VAR_3} wird immer\n"
-	.string "stärker, womit ich gerechnet habe!$"
+	.string "Mein {STR_VAR_3} wird immer stärker, womit\n"
+	.string "ich gerechnet habe!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's ALAN!\p"
@@ -686,8 +672,8 @@ MatchCall_HNS_Alan_FoundItem::
 	.string "Hier ist Holger!\p"
 	.string "Hehehe, ich fand etwas Schönes!\p"
 	.string "Es gehört dir!\p"
-	.string "Wieso kommst du nicht zu\n"
-	.string "Route 36 und holst es ab?$"
+	.string "Wieso kommst du nicht zu Route 36 und\n"
+	.string "holst es ab?$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's ALAN!\p"
@@ -733,10 +719,8 @@ MatchCall_HNS_Dana_General2::
 #if GERMAN
 	.string "Hi, {PLAYER}!\n"
 	.string "Hier ist Rosemarie!\p"
-	.string "Mein {STR_VAR_3} wird immer\n"
-	.string "süßer!\p"
-	.string "Ich habe schon viele Fotos\n"
-	.string "gemacht!$"
+	.string "Mein {STR_VAR_3} wird immer süßer!\p"
+	.string "Ich habe schon viele Fotos gemacht!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's DANA!\p"
@@ -772,8 +756,8 @@ MatchCall_HNS_Dana_FoundItem::
 	.string "Ich hab ein tolles Geschenk!\p"
 	.string "Wie versprochen, gehört es dir!\n"
 	.string "Ich bin sicher, es gefällt dir.\p"
-	.string "Komm es dir holen! Ich warte\n"
-	.string "auf Route 38!$"
+	.string "Komm es dir holen! Ich warte auf Route\n"
+	.string "38!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's DANA!\p"
@@ -803,12 +787,10 @@ MatchCall_HNS_Chad_General1::
 #if GERMAN
 	.string "Hallo, {PLAYER}!\n"
 	.string "Hier ist Lutz!\p"
-	.string "Wie geht’s deinen Pokémon\n"
-	.string "so?\p"
+	.string "Wie geht’s deinen Pokémon so?\p"
 	.string "Du kennst Prof. Eich, also geht’s deinen\n"
 	.string "Pokémon natürlich gut!\p"
-	.string "Meinen Pokémon geht’s auch\n"
-	.string "gut.\p"
+	.string "Meinen Pokémon geht’s auch gut.\p"
 	.string "Aber ich versuche ja auch, ein\n"
 	.string "Pokémon-Professor zu werden.$"
 #else
@@ -830,8 +812,8 @@ MatchCall_HNS_Chad_General2::
 #if GERMAN
 	.string "Hallo, {PLAYER}!\n"
 	.string "Hier ist Lutz!\p"
-	.string "Ich beobachte neuerdings\n"
-	.string "wilde {STR_VAR_3}.\p"
+	.string "Ich beobachte neuerdings wilde\n"
+	.string "{STR_VAR_3}.\p"
 	.string "Ich lerne allerlei neue Dinge durch\n"
 	.string "meine Beobachtungen.\p"
 	.string "Ich wünschte, ich könnte bald ein\n"
@@ -985,8 +967,7 @@ MatchCall_HNS_Tully_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Amadeus!\p"
-	.string "Mein {STR_VAR_3} ist erneut\n"
-	.string "gewachsen.\p"
+	.string "Mein {STR_VAR_3} ist erneut gewachsen.\p"
 	.string "Es war groß, als ich es fing, aber\n"
 	.string "jetzt ist es noch größer.$"
 #else
@@ -1003,8 +984,8 @@ MatchCall_HNS_Tully_General3::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Amadeus!\p"
-	.string "Oh yo, ich schlug ein wildes\n"
-	.string "{STR_VAR_3} K.O.\p"
+	.string "Oh yo, ich schlug ein wildes {STR_VAR_3}\n"
+	.string "K.O.\p"
 	.string "Es war riesig, ungefähr soo groß.\p"
 	.string "He, ich glaube, man kann das am\n"
 	.string "Telefon nicht beschreiben…$"
@@ -1025,8 +1006,7 @@ MatchCall_HNS_Tully_FoundItem::
 	.string "Hier ist Amadeus!\p"
 	.string "Ich fand etwas Kleines am Ufer.\p"
 	.string "Wie versprochen, es gehört dir.\p"
-	.string "Ich warte auf\n"
-	.string "Route 42.$"
+	.string "Ich warte auf Route 42.$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's TULLY!\p"
@@ -1162,8 +1142,8 @@ MatchCall_HNS_Tiffany_General2::
 #if GERMAN
 	.string "Hi, {PLAYER}!\n"
 	.string "Hier ist Ilona!\p"
-	.string "Mein {STR_VAR_3} ist so\n"
-	.string "bezaubernd, nicht wahr?\p"
+	.string "Mein {STR_VAR_3} ist so bezaubernd, nicht\n"
+	.string "wahr?\p"
 	.string "Ich schlafe immer mit ihm - es ist\n"
 	.string "so weich und warm!$"
 #else
@@ -1217,10 +1197,10 @@ MatchCall_HNS_Vance_General1::
 	.string "Hier ist Arno!\p"
 	.string "Geht es dir und deinen Pokémon\n"
 	.string "gut?\p"
-	.string "Mein {STR_VAR_3} sieht aus,\n"
-	.string "als würde es stark genug\p"
-	.string "um es mit den legendären\n"
-	.string "Vogel-Pokémon aufzunehmen!$"
+	.string "Mein {STR_VAR_3} sieht aus, als würde es\n"
+	.string "stark genug\p"
+	.string "um es mit den legendären Vogel-Pokémon\n"
+	.string "aufzunehmen!$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's VANCE!\p"
@@ -1250,8 +1230,7 @@ MatchCall_HNS_Vance_General3::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Arno!\p"
-	.string "Wir können {STR_VAR_3} leicht\n"
-	.string "besiegen!\p"
+	.string "Wir können {STR_VAR_3} leicht besiegen!\p"
 	.string "…Huh? Du auch? Das ist doch toll?$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -1296,8 +1275,7 @@ MatchCall_HNS_Wilton_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Alfried!\p"
-	.string "Mein {STR_VAR_3} ist sehr\n"
-	.string "gewachsen!\p"
+	.string "Mein {STR_VAR_3} ist sehr gewachsen!\p"
 	.string "Meine Angelfähigkeiten haben sich\n"
 	.string "auch verbessert!$"
 #else
@@ -1313,8 +1291,7 @@ MatchCall_HNS_Wilton_General3::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Alfried!\p"
-	.string "Wir besiegten ein wildes\n"
-	.string "{STR_VAR_3}…\p"
+	.string "Wir besiegten ein wildes {STR_VAR_3}…\p"
 	.string "Du weißt, dass mir Angeln mehr Spaß\n"
 	.string "macht, als wilde Pokémon zu besiegen.$"
 #else
@@ -1333,8 +1310,7 @@ MatchCall_HNS_Wilton_FoundItem::
 	.string "Hier ist Alfried!\p"
 	.string "Ich habe beim Angeln ein Item\n"
 	.string "gefunden.\p"
-	.string "Komm es dir holen auf\n"
-	.string "Route 44.$"
+	.string "Komm es dir holen auf Route 44.$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's WILTON!\p"
@@ -1375,8 +1351,7 @@ MatchCall_HNS_Kenji_General2::
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Timon!\p"
 	.string "Bist du noch auf Reisen?\p"
-	.string "Ich bin meinem Training treu\n"
-	.string "geblieben.\p"
+	.string "Ich bin meinem Training treu geblieben.\p"
 	.string "Oooooaaarrrgh!$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -1393,8 +1368,8 @@ MatchCall_HNS_Kenji_General3::
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Timon!\p"
 	.string "Ich trainiere gerade.\p"
-	.string "Entschuldige, aber rufe mich\n"
-	.string "später noch mal an.\p"
+	.string "Entschuldige, aber rufe mich später\n"
+	.string "noch mal an.\p"
 	.string "Oooooaaarrrgh!$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -1423,8 +1398,7 @@ MatchCall_HNS_Kenji_FoundItem::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Timon!\p"
-	.string "Ich mach gerade Pause vom\n"
-	.string "Training.\p"
+	.string "Ich mach gerade Pause vom Training.\p"
 	.string "Ich hab was Gutes gefunden.\n"
 	.string "Komm es dir holen, wenn du willst!$"
 #else
@@ -1442,8 +1416,8 @@ MatchCall_HNS_Parry_General1::
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Günter!\p"
 	.string "Sehen deine Pokémon gut aus?\p"
-	.string "Mein {STR_VAR_3} und ich, wir\n"
-	.string "sehen hervorragend aus! Hahaha!$"
+	.string "Mein {STR_VAR_3} und ich, wir sehen\n"
+	.string "hervorragend aus! Hahaha!$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's PARRY!\p"
@@ -1458,8 +1432,8 @@ MatchCall_HNS_Parry_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Günter!\p"
-	.string "Nichts kann es mit meinem\n"
-	.string "{STR_VAR_3} aufnehmen.$"
+	.string "Nichts kann es mit meinem {STR_VAR_3}\n"
+	.string "aufnehmen.$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's PARRY!\p"
@@ -1471,10 +1445,10 @@ MatchCall_HNS_Parry_General3::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Günter!\p"
-	.string "Ja, wir haben ein wildes\n"
-	.string "{STR_VAR_3} besiegt!\p"
-	.string "Das war ok, aber ich wollte\n"
-	.string "es eigentlich fangen…$"
+	.string "Ja, wir haben ein wildes {STR_VAR_3}\n"
+	.string "besiegt!\p"
+	.string "Das war ok, aber ich wollte es eigentlich\n"
+	.string "fangen…$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's PARRY!\p"
@@ -1503,8 +1477,7 @@ MatchCall_HNS_Erin_General1::
 	.string "Hi, {PLAYER}!\n"
 	.string "Hier ist Nanette!\p"
 	.string "Trainierst du deine Pokémon?\p"
-	.string "Mein {STR_VAR_3} sieht\n"
-	.string "gut aus!$"
+	.string "Mein {STR_VAR_3} sieht gut aus!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's ERIN!\p"
@@ -1518,8 +1491,8 @@ MatchCall_HNS_Erin_General2::
 #if GERMAN
 	.string "Hi, {PLAYER}!\n"
 	.string "Hier ist Nanette!\p"
-	.string "Mein {STR_VAR_3} ist viel\n"
-	.string "stärker als zuvor!$"
+	.string "Mein {STR_VAR_3} ist viel stärker als\n"
+	.string "zuvor!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's ERIN!\p"
@@ -1533,8 +1506,7 @@ MatchCall_HNS_Erin_General3::
 	.string "Hier ist Nanette!\p"
 	.string "Und, und… Ich habe gerade ein\n"
 	.string "{STR_VAR_3} besiegt!\p"
-	.string "Ich trainiere meine Pokémon\n"
-	.string "intensiv!$"
+	.string "Ich trainiere meine Pokémon intensiv!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's ERIN!\p"
@@ -1548,8 +1520,7 @@ MatchCall_HNS_Erin_Battle::
 #if GERMAN
 	.string "Hi, {PLAYER}!\n"
 	.string "Hier ist Nanette!\p"
-	.string "Ich arbeite hart an meinen\n"
-	.string "Pokémon!\p"
+	.string "Ich arbeite hart an meinen Pokémon!\p"
 	.string "Komme für einen Rückkampf zurück!$"
 #else
 	.string "Hi, {PLAYER}!\n"
@@ -1565,10 +1536,9 @@ MatchCall_HNS_Jack_General1::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Julius!\p"
-	.string "Wie geht’s deinen Pokémon\n"
-	.string "so?\p"
-	.string "Mein {STR_VAR_3} ist so\n"
-	.string "neugierig, das wird zum Problem.\p"
+	.string "Wie geht’s deinen Pokémon so?\p"
+	.string "Mein {STR_VAR_3} ist so neugierig, das wird\n"
+	.string "zum Problem.\p"
 	.string "Vielleicht ist es wie ich…$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -1584,8 +1554,8 @@ MatchCall_HNS_Jack_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Julius!\p"
-	.string "Die Intelligenz von meinem\n"
-	.string "{STR_VAR_3} steigt und steigt.\p"
+	.string "Die Intelligenz von meinem {STR_VAR_3}\n"
+	.string "steigt und steigt.\p"
 	.string "Es könnte intelligenter als deines\n"
 	.string "sein!$"
 #else
@@ -1763,8 +1733,8 @@ MatchCall_HNS_Gaven_General1::
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Maik!\p"
 	.string "Wie geht es deinen Pokémon?\p"
-	.string "Meinem {STR_VAR_3} geht es wie\n"
-	.string "immer hervorragend.\p"
+	.string "Meinem {STR_VAR_3} geht es wie immer\n"
+	.string "hervorragend.\p"
 	.string "Lass uns am Ball bleiben und\n"
 	.string "Pokémon-Champs werden!$"
 #else
@@ -1897,8 +1867,7 @@ MatchCall_HNS_Jose_General1::
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Elmar!\p"
 	.string "Geht es deinen Pokémon gut?\p"
-	.string "Mein {STR_VAR_3} strotzt vor\n"
-	.string "Energie.\p"
+	.string "Mein {STR_VAR_3} strotzt vor Energie.\p"
 	.string "Hebt es ab, kommt es für eine Weile\n"
 	.string "nicht wieder.$"
 #else
@@ -1992,8 +1961,7 @@ MatchCall_HNS_Reena_General1::
 #if GERMAN
 	.string "Hallo, {PLAYER}.\n"
 	.string "Hier ist Bea.\p"
-	.string "Sag mal, wie geht’s deinen\n"
-	.string "Pokémon?\p"
+	.string "Sag mal, wie geht’s deinen Pokémon?\p"
 	.string "Was? Toll? Ach so…\p"
 	.string "Was? Meine Pokémon?\p"
 	.string "Natürlich geht’s ihnen gut! Was für eine\n"
@@ -2015,8 +1983,7 @@ MatchCall_HNS_Reena_General2::
 	.string "Hallo, {PLAYER}.\n"
 	.string "Hier ist Bea.\p"
 	.string "Hör zu…\p"
-	.string "Erinnerst du dich an mein\n"
-	.string "{STR_VAR_3}?\p"
+	.string "Erinnerst du dich an mein {STR_VAR_3}?\p"
 	.string "Ja, genau. Das süße {STR_VAR_3}.\p"
 	.string "Meinst du nicht auch, dass es\n"
 	.string "perfekt zu mir passt?$"
@@ -2066,10 +2033,9 @@ MatchCall_HNS_Alex_General1::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Johann!\p"
-	.string "Meine stolzen Pokémon\n"
-	.string "werden von Tag zu Tag schärfer.\p"
-	.string "{STR_VAR_3} wird\n"
-	.string "richtig stark!$"
+	.string "Meine stolzen Pokémon werden von Tag\n"
+	.string "zu Tag schärfer.\p"
+	.string "{STR_VAR_3} wird richtig stark!$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's ALEX!\p"
@@ -2113,8 +2079,7 @@ MatchCall_HNS_Riley_General1::
 	.string "Hier ist Hannes.\p"
 	.string "Die Radstrecke ist die beste.\n"
 	.string "Nichts geht über den Wind im Gesicht.\p"
-	.string "{STR_VAR_3} liebt das\n"
-	.string "Tempo auch!$"
+	.string "{STR_VAR_3} liebt das Tempo auch!$"
 #else
 	.string "Yo, {PLAYER}!\n"
 	.string "RILEY here.\p"
@@ -2130,8 +2095,7 @@ MatchCall_HNS_Riley_General2::
 	.string "Yo, {PLAYER}!\p"
 	.string "Ihr Johto-Kids sind gar nicht so\n"
 	.string "übel. Hab euch wohl unterschätzt.\p"
-	.string "Aber lass es dir nicht zu\n"
-	.string "Kopf steigen!$"
+	.string "Aber lass es dir nicht zu Kopf steigen!$"
 #else
 	.string "Yo, {PLAYER}!\p"
 	.string "You JOHTO kids aren't bad.\n"
@@ -2161,8 +2125,7 @@ MatchCall_HNS_Trevor_General1::
 	.string "Wusstest du, dass Pokémon freundlicher\n"
 	.string "werden, wenn man an denkwürdigen Orten\l"
 	.string "trainiert?\p"
-	.string "{STR_VAR_3} scheint es\n"
-	.string "hier zu mögen.$"
+	.string "{STR_VAR_3} scheint es hier zu mögen.$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's TREVOR.\p"
@@ -2176,10 +2139,9 @@ MatchCall_HNS_Trevor_General1::
 MatchCall_HNS_Trevor_General2::
 #if GERMAN
 	.string "Hi, {PLAYER}!\p"
-	.string "Manche Pokémon-Attacken\n"
-	.string "sind stärker, wenn dein\p"
-	.string "Pokémon dir gegenüber\n"
-	.string "freundlicher ist!$"
+	.string "Manche Pokémon-Attacken sind stärker,\n"
+	.string "wenn dein\p"
+	.string "Pokémon dir gegenüber freundlicher ist!$"
 #else
 	.string "Hi, {PLAYER}!\p"
 	.string "Some POKéMON moves\n"
@@ -2228,10 +2190,9 @@ MatchCall_HNS_Kyle_Battle::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Alain.\p"
-	.string "Ich hab ein paar starke\n"
-	.string "neue Pokémon geangelt!\p"
-	.string "Komm zu Route 12 für\n"
-	.string "einen Kampf!$"
+	.string "Ich hab ein paar starke neue Pokémon\n"
+	.string "geangelt!\p"
+	.string "Komm zu Route 12 für einen Kampf!$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "KYLE here.\p"
@@ -2246,10 +2207,8 @@ MatchCall_HNS_Carter_General1::
 #if GERMAN
 	.string "Hallo, {PLAYER}!\n"
 	.string "Hier ist Ernst.\p"
-	.string "Ich sammle seltene\n"
-	.string "Starter-Pokémon.\p"
-	.string "Mein {STR_VAR_3} ist mein\n"
-	.string "neuester Stolz!$"
+	.string "Ich sammle seltene Starter-Pokémon.\p"
+	.string "Mein {STR_VAR_3} ist mein neuester Stolz!$"
 #else
 	.string "Hi there, {PLAYER}!\n"
 	.string "CARTER here.\p"
@@ -2265,8 +2224,7 @@ MatchCall_HNS_Carter_General2::
 	.string "Wusstest du, dass es Starter-Pokémon\n"
 	.string "aus vielen verschiedenen Regionen\l"
 	.string "gibt?\p"
-	.string "Ich will sie alle\n"
-	.string "sammeln!$"
+	.string "Ich will sie alle sammeln!$"
 #else
 	.string "Hi, {PLAYER}!\p"
 	.string "Did you know there are\n"
@@ -2305,8 +2263,8 @@ MatchCall_HNS_Hillary_General1::
 MatchCall_HNS_Hillary_General2::
 #if GERMAN
 	.string "Hallo, {PLAYER}.\p"
-	.string "Spielst du Spiele, statt\n"
-	.string "Hausaufgaben zu machen?$"
+	.string "Spielst du Spiele, statt Hausaufgaben\n"
+	.string "zu machen?$"
 #else
 	.string "Hello, {PLAYER}.\p"
 	.string "Are you playing games\n"
@@ -2317,8 +2275,8 @@ MatchCall_HNS_Hillary_Battle::
 #if GERMAN
 	.string "Hallo, {PLAYER}.\n"
 	.string "Hier ist Sylvia.\p"
-	.string "Meine Pokémon haben die\n"
-	.string "nächste Stufe erreicht!\p"
+	.string "Meine Pokémon haben die nächste Stufe\n"
+	.string "erreicht!\p"
 	.string "Komm uns auf Route 15 testen!$"
 #else
 	.string "Hello, {PLAYER}.\n"
@@ -2333,8 +2291,8 @@ MatchCall_HNS_Rob_General1::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Götz!\p"
-	.string "Der Vertania-Wald ist voller\n"
-	.string "cooler Käfer!$"
+	.string "Der Vertania-Wald ist voller cooler\n"
+	.string "Käfer!$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "ROB here!\p"
@@ -2345,8 +2303,8 @@ MatchCall_HNS_Rob_General1::
 MatchCall_HNS_Rob_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\p"
-	.string "Ich hab einen Käfer-Arena-\n"
-	.string "leiter im Vertania-Wald gesehen!$"
+	.string "Ich hab einen Käfer-Arenaleiter im\n"
+	.string "Vertania-Wald gesehen!$"
 #else
 	.string "Hey, {PLAYER}!\p"
 	.string "I saw a BUG TYPE GYM\n"
@@ -2356,10 +2314,9 @@ MatchCall_HNS_Rob_Battle::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Götz!\p"
-	.string "Mein Käfer-Team ist stärker\n"
-	.string "als je zuvor!\p"
-	.string "Komm zu Route 2 für einen\n"
-	.string "Rückkampf!$"
+	.string "Mein Käfer-Team ist stärker als je\n"
+	.string "zuvor!\p"
+	.string "Komm zu Route 2 für einen Rückkampf!$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "ROB here!\p"
@@ -2377,8 +2334,7 @@ MatchCall_HNS_Nicole_General1::
 	.string "Die Wellen sind heute toll!\n"
 	.string "Meine Pokémon schwimmen gern im\l"
 	.string "offenen Meer.\p"
-	.string "{STR_VAR_3} wird\n"
-	.string "so schnell!$"
+	.string "{STR_VAR_3} wird so schnell!$"
 #else
 	.string "Hi, {PLAYER}!\n"
 	.string "It's NICOLE!\p"
@@ -2392,8 +2348,8 @@ MatchCall_HNS_Nicole_General1::
 MatchCall_HNS_Nicole_General2::
 #if GERMAN
 	.string "Hi, {PLAYER}!\p"
-	.string "Schwimmen mit Pokémon ist\n"
-	.string "die beste Übung.$"
+	.string "Schwimmen mit Pokémon ist die beste\n"
+	.string "Übung.$"
 #else
 	.string "Hi, {PLAYER}!\p"
 	.string "Swimming with POKéMON is\n"
@@ -2404,8 +2360,8 @@ MatchCall_HNS_Nicole_Battle::
 #if GERMAN
 	.string "Hi, {PLAYER}!\n"
 	.string "Hier ist Elke!\p"
-	.string "Meine Wasser-Pokémon wollen\n"
-	.string "unbedingt kämpfen!\p"
+	.string "Meine Wasser-Pokémon wollen unbedingt\n"
+	.string "kämpfen!\p"
 	.string "Komm zu Route 20!$"
 #else
 	.string "Hi, {PLAYER}!\n"
@@ -2420,10 +2376,9 @@ MatchCall_HNS_Billy_General1::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Sandro.\p"
-	.string "Ich hab im Unterricht\n"
-	.string "Kampfstrategien gelernt.\p"
-	.string "{STR_VAR_3} und ich haben\n"
-	.string "sie geübt!$"
+	.string "Ich hab im Unterricht Kampfstrategien\n"
+	.string "gelernt.\p"
+	.string "{STR_VAR_3} und ich haben sie geübt!$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "It's BILLY.\p"
@@ -2436,10 +2391,9 @@ MatchCall_HNS_Billy_General1::
 MatchCall_HNS_Billy_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\p"
-	.string "Bald sind Prüfungen, aber\n"
-	.string "ich würde lieber kämpfen.\p"
-	.string "Buchwissen ist nicht\n"
-	.string "alles, oder?$"
+	.string "Bald sind Prüfungen, aber ich würde\n"
+	.string "lieber kämpfen.\p"
+	.string "Buchwissen ist nicht alles, oder?$"
 #else
 	.string "Hey, {PLAYER}!\p"
 	.string "Tests are coming up, but\n"
@@ -2466,8 +2420,8 @@ MatchCall_HNS_Kenny_General1::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Hilmar.\p"
-	.string "Wurden wirklich alle Berge\n"
-	.string "von Ozeanen und Flüssen geformt?$"
+	.string "Wurden wirklich alle Berge von Ozeanen\n"
+	.string "und Flüssen geformt?$"
 #else
 	.string "Hey there, {PLAYER}!\n"
 	.string "KENNY here.\p"
@@ -2494,10 +2448,8 @@ MatchCall_HNS_Kenny_Battle::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Hilmar.\p"
-	.string "Ich hab hart in den Bergen\n"
-	.string "trainiert!\p"
-	.string "Komm zu Route 13 für\n"
-	.string "einen Kampf!$"
+	.string "Ich hab hart in den Bergen trainiert!\p"
+	.string "Komm zu Route 13 für einen Kampf!$"
 #else
 	.string "Hey there, {PLAYER}!\n"
 	.string "KENNY here.\p"
@@ -2512,10 +2464,10 @@ MatchCall_HNS_Joel_General1::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Manuel.\p"
-	.string "Ich arbeite daran, im\n"
-	.string "Kampf cool auszusehen.\p"
-	.string "{STR_VAR_3} hat ein paar\n"
-	.string "schicke neue Attacken!$"
+	.string "Ich arbeite daran, im Kampf cool\n"
+	.string "auszusehen.\p"
+	.string "{STR_VAR_3} hat ein paar schicke neue\n"
+	.string "Attacken!$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "JOEL here.\p"
@@ -2529,10 +2481,9 @@ MatchCall_HNS_Joel_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\p"
 	.string "Hier ist Manuel.\p"
-	.string "Es gab einen Unfall auf der\n"
-	.string "Radstrecke.\p"
-	.string "Sicher zu sein, ist das\n"
-	.string "Coolste, was man sein kann.$"
+	.string "Es gab einen Unfall auf der Radstrecke.\p"
+	.string "Sicher zu sein, ist das Coolste, was man\n"
+	.string "sein kann.$"
 #else
 	.string "Hey, {PLAYER}!\p"
 	.string "JOEL here.\p"
@@ -2546,8 +2497,8 @@ MatchCall_HNS_Joel_Battle::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Manuel.\p"
-	.string "Ich seh cool aus und kämpfe\n"
-	.string "cool! Komm zur Radstrecke!$"
+	.string "Ich seh cool aus und kämpfe cool! Komm\n"
+	.string "zur Radstrecke!$"
 #else
 	.string "Hey, {PLAYER}!\n"
 	.string "JOEL here.\p"
@@ -2560,8 +2511,8 @@ MatchCall_HNS_Charles_General1::
 #if GERMAN
 	.string "Hey, {PLAYER}!\n"
 	.string "Hier ist Fridolin.\p"
-	.string "Ich war so etwas wie ein\n"
-	.string "Herzensbrecher in Einall.\p"
+	.string "Ich war so etwas wie ein Herzensbrecher\n"
+	.string "in Einall.\p"
 	.string "Jetzt bin ich ein Highway-Star!$"
 #else
 	.string "Hey, {PLAYER}!\n"
@@ -2574,10 +2525,10 @@ MatchCall_HNS_Charles_General1::
 MatchCall_HNS_Charles_General2::
 #if GERMAN
 	.string "Hey, {PLAYER}!\p"
-	.string "Die Radstrecke bei Nacht ist\n"
-	.string "etwas ganz Besonderes.\p"
-	.string "Die Straßenlaternen und der\n"
-	.string "Wind… das ist Freiheit!$"
+	.string "Die Radstrecke bei Nacht ist etwas\n"
+	.string "ganz Besonderes.\p"
+	.string "Die Straßenlaternen und der Wind… das\n"
+	.string "ist Freiheit!$"
 #else
 	.string "Hey, {PLAYER}!\p"
 	.string "CYCLING ROAD at night is\n"

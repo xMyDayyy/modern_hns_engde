@@ -434,8 +434,7 @@ RocketHideout_B1F_Text_SecretSwitch:
 
 RocketHideout_B1F_Text_SwitchOff:
 #if GERMAN
-	.string "Der Schalter ist\n"
-	.string "ausgeschaltet.$"
+	.string "Der Schalter ist ausgeschaltet.$"
 #else
     .string "The switch is turned off.$"
 #endif

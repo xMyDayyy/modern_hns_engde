@@ -100,8 +100,7 @@ Route17_Text_VirgilPostBattle::
 
 Route17_Text_BillyIntro::
 #if GERMAN
-	.string "Wir sind Biker, Könige des\n"
-	.string "Highways!$"
+	.string "Wir sind Biker, Könige des Highways!$"
 #else
 	.string "We're BIKERS!\n"
 	.string "We rule the roads, man!$"
@@ -109,8 +108,7 @@ Route17_Text_BillyIntro::
 
 Route17_Text_BillyDefeat::
 #if GERMAN
-	.string "Ich bin voll auf die Nase\n"
-	.string "gefallen!$"
+	.string "Ich bin voll auf die Nase gefallen!$"
 #else
 	.string "Smoked!$"
 #endif
@@ -189,8 +187,7 @@ Route17_Text_JamalDefeat::
 
 Route17_Text_JamalPostBattle::
 #if GERMAN
-	.string "Ich habe sicher an Gewicht\n"
-	.string "verloren!$"
+	.string "Ich habe sicher an Gewicht verloren!$"
 #else
 	.string "I'm sure I lost weight there!$"
 #endif

@@ -31,13 +31,13 @@ SixIsland_Mart_EventScript_Picnicker::
 
 SixIsland_Mart_Text_AgathaOldestEverEliteFourMember::
 #if GERMAN
-	.string "Spiele viel mit Pokémon und\n"
-	.string "führe ein langes Leben!\p"
+	.string "Spiele viel mit Pokémon und führe ein\n"
+	.string "langes Leben!\p"
 	.string "Nimm z.B. Agathe!\p"
 	.string "Sie hält den Rekord als ältestes\n"
 	.string "Mitglied der Top Vier.\p"
-	.string "Sie ist mein Ansporn nach\n"
-	.string "Größerem zu streben.$"
+	.string "Sie ist mein Ansporn nach Größerem zu\n"
+	.string "streben.$"
 #else
 	.string "Play with POKéMON lots and live\n"
 	.string "a long life!\p"

@@ -169,8 +169,8 @@ RockTunnel_1F_Text_LeahDefeat::
 
 RockTunnel_1F_Text_LeahPostBattle::
 #if GERMAN
-	.string "Ich habe hier im Tunnel ein\n"
-	.string "Maschock gesehen!$"
+	.string "Ich habe hier im Tunnel ein Maschock\n"
+	.string "gesehen!$"
 #else
 	.string "I saw a MACHOP in this tunnel.$"
 #endif

@@ -21,8 +21,8 @@ MysteryGiftScript_VisitingTrainerArrived:
 
 sText_MysteryGiftVisitingTrainerInstructions:
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast.\p"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast.\p"
 	.string "Da du im Besitz dieser Wunderkarte bist,\n"
 	.string "darfst du bei einer Umfrage im\l"
 	.string "Pkmn-Supermarkt teilnehmen.\l"
@@ -30,8 +30,7 @@ sText_MysteryGiftVisitingTrainerInstructions:
 	.string "nach Xeneroville ein.\l"
 	.string "… Ich gebe dir ein geheimes Passwort\l"
 	.string "für die Umfrage:\p"
-	.string "“Gib mir Coole\n"
-	.string "Trainer”\p"
+	.string "“Gib mir Coole Trainer”\p"
 	.string "Schreibe dies in eine Umfrage und\n"
 	.string "schicke es zum Drahtlosen\l"
 	.string "Kommunikations-System.$"
@@ -54,8 +53,8 @@ sText_MysteryGiftVisitingTrainerInstructions:
 
 sText_MysteryGiftVisitingTrainerArrived:
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast.\p"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast.\p"
 	.string "Ein Trainer, der nach Xeneroville\n"
 	.string "gekommen ist, sucht dich!\l"
 	.string "Wir hoffen, der Kampf gegen diesen\l"

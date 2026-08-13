@@ -166,8 +166,8 @@ Text_CounterTeach::
 	.string "Du bist noch nicht soweit?\n"
 	.string "Vielleicht hilft dir das hier!\p"
 	.string "Ich denke an die Attacke Konter.\p"
-	.string "Nicht, dass ich mich darauf\n"
-	.string "verlassen würde!$"
+	.string "Nicht, dass ich mich darauf verlassen\n"
+	.string "würde!$"
 #else
 	.string "Oh, hi!\n"
 	.string "I finally finished POKéMON.\p"

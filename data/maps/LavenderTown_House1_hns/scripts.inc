@@ -45,8 +45,8 @@ LavenderTown_House1_Text_Marowak:
 
 LavenderTown_House1_Text_Marowak2:
 #if GERMAN
-	.string "Das Knogga ist ruhig,\n"
-	.string "scheint aber recht glücklich.$"
+	.string "Das Knogga ist ruhig, scheint aber\n"
+	.string "recht glücklich.$"
 #else
 	.string "The MAROWAK is quiet, though it\n"
 	.string "appears quite happy.$"

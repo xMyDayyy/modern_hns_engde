@@ -41,8 +41,8 @@ SilphCo_4F_EventScript_Grunt2::
 
 SilphCo_4F_Text_CantYouSeeImHiding::
 #if GERMAN
-	.string "Pst! Siehst du nicht, dass\n"
-	.string "ich mich verstecke?$"
+	.string "Pst! Siehst du nicht, dass ich mich\n"
+	.string "verstecke?$"
 #else
 	.string "Sssh!\n"
 	.string "Can't you see I'm hiding?$"

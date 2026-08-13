@@ -59,8 +59,8 @@ PewterCity_EventScript_Cooltrainer::
 
 PewterCity_Text_CooltrainerF:
 #if GERMAN
-	.string "Warst du schon in der Arena\n"
-	.string "von Marmoria City?\p"
+	.string "Warst du schon in der Arena von\n"
+	.string "Marmoria City?\p"
 	.string "Der Leiter dort verwendet\n"
 	.string "Gestein-Pokémon!$"
 #else

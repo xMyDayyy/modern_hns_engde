@@ -58,8 +58,8 @@ SaffronCity_PokemonCenter1F_Text_Fisher_ReturnedPart:
 	.string "In letzter Zeit sind einige Höhlen\n"
 	.string "verschwunden. Wie die Höhle vor Azuria\l"
 	.string "City.\p"
-	.string "Für einen Profi-\n"
-	.string "Wanderer ist das Grundwissen.$"
+	.string "Für einen Profi-Wanderer ist das\n"
+	.string "Grundwissen.$"
 #else
 	.string "There's an odd cave in CERULEAN.\p"
 	.string "As a pro HIKER, I should explore it,\n"

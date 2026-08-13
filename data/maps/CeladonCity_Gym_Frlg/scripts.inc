@@ -116,8 +116,7 @@ CeladonCity_Gym_Text_ErikaIntro::
 
 CeladonCity_Gym_Text_ErikaDefeat::
 #if GERMAN
-	.string "Ich muss meine Niederlage\n"
-	.string "eingestehen!\p"
+	.string "Ich muss meine Niederlage eingestehen!\p"
 	.string "Deine Stärke ist beachtlich!\n"
 	.string "Ich übergebe dir den Farborden!$"
 #else
@@ -159,8 +158,7 @@ CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis::
 
 CeladonCity_Gym_Text_ReceivedTM19FromErika::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM19!$"
+	.string "{PLAYER} erhält TM19!$"
 #else
 	.string "{PLAYER} received TM19\n"
 	.string "from ERIKA.$"
@@ -244,8 +242,8 @@ CeladonCity_Gym_Text_BridgetPostBattle::
 
 CeladonCity_Gym_Text_TinaIntro::
 #if GERMAN
-	.string "… hast du nicht schon\n"
-	.string "einmal hier herein geschaut?$"
+	.string "… hast du nicht schon einmal hier herein\n"
+	.string "geschaut?$"
 #else
 	.string "…Weren't you peeking in here\n"
 	.string "earlier?$"

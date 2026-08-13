@@ -101,8 +101,8 @@ VictoryRoadGate_Text_Kimono:
 VictoryRoadGate_Text_NotEnoughBadges:
 #if GERMAN
 	.string "Du besitzt nicht alle Orden von Johto.\p"
-	.string "Tut mir leid. Ich\n"
-	.string "darf dich nicht passieren lassen.$"
+	.string "Tut mir leid. Ich darf dich nicht\n"
+	.string "passieren lassen.$"
 #else
     .string "You don't have all the GYM BADGES\n"
     .string "of JOHTO.\p"
@@ -122,8 +122,8 @@ VictoryRoadGate_Text_EightBadges:
 VictoryRoadGate_Text_LeftBlackBelt:
 #if GERMAN
 	.string "Dieser Weg führt zum Silberberg.\p"
-	.string "Dir werden be-\n"
-	.string "ängstigend starke Pokémon begegnen.$"
+	.string "Dir werden beängstigend starke\n"
+	.string "Pokémon begegnen.$"
 #else
     .string "This way leads to MT.SILVER.\p"
     .string "You'll see scary-strong POKéMON out\n"
@@ -132,8 +132,8 @@ VictoryRoadGate_Text_LeftBlackBelt:
 
 VictoryRoadGate_Text_RightBlackBelt:
 #if GERMAN
-	.string "Du bist auf dem\n"
-	.string "Weg zur Pokémon Liga, nicht wahr?\p"
+	.string "Du bist auf dem Weg zur Pokémon Liga,\n"
+	.string "nicht wahr?\p"
 	.string "Die Top Vier sind so stark, dass es\n"
 	.string "einem Angst macht. Sie erwarten dich!$"
 #else

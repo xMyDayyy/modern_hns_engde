@@ -309,8 +309,7 @@ Text_MetronomeDeclined::
 
 Text_MetronomeWhichMon::
 #if GERMAN
-	.string "O.K.! Welches Pokémon\n"
-	.string "soll sie erlernen?$"
+	.string "O.K.! Welches Pokémon soll sie erlernen?$"
 #else
 	.string "Okay!\n"
 	.string "Which POKéMON should I teach?$"
@@ -363,8 +362,8 @@ CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalkJP::
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_FossilMonBackToLife::
 #if GERMAN
-	.string "Wo warst du? Wir haben\n"
-	.string "dein Fossil wieder belebt!\p"
+	.string "Wo warst du? Wir haben dein Fossil\n"
+	.string "wieder belebt!\p"
 	.string "Ein {STR_VAR_1}, ganz wie ich es\n"
 	.string "vermutet habe!$"
 #else
@@ -376,8 +375,7 @@ CinnabarIsland_PokemonLab_ExperimentRoom_Text_FossilMonBackToLife::
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_ReceivedMonFromDoctor::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "{STR_VAR_1}!$"
+	.string "{PLAYER} erhält {STR_VAR_1}!$"
 #else
 	.string "{PLAYER} received the {STR_VAR_1}\n"
 	.string "from the doctor.$"
@@ -407,8 +405,8 @@ CinnabarIsland_PokemonLab_ExperimentRoom_Text_ThatFossilIsOfMonMakeItLiveAgain::
 @ TODO: Resolve text dump error below?
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_HandedFossilToWeirdDoctor::
 #if GERMAN
-	.string "Gib es schnell her, damit ich\n"
-	.string "fortfahren kann!\p"
+	.string "Gib es schnell her, damit ich fortfahren\n"
+	.string "kann!\p"
 	.string "{FONT_NORMAL}{PLAYER} übergibt das\n"
 	.string "{STR_VAR_2}!$"
 #else

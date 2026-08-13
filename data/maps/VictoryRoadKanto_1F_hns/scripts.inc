@@ -129,13 +129,13 @@ VictoryRoadKanto_1F_Movement_SilverLeave:
 VictoryRoad_Text_RivalBefore:
 #if GERMAN
 	.string "Moment.\p"
-	.string "…Wirst du das Abenteuer der\n"
-	.string "Pokémon Liga bestreiten?\p"
+	.string "…Wirst du das Abenteuer der Pokémon\n"
+	.string "Liga bestreiten?\p"
 	.string "…Bring mich nicht zum Lachen.\p"
 	.string "Du bist viel schwächer als ich.\p"
 	.string "Ich bin nicht mehr so wie früher.\p"
-	.string "Nun habe ich die besten und\n"
-	.string "stärksten Pokémon.\p"
+	.string "Nun habe ich die besten und stärksten\n"
+	.string "Pokémon.\p"
 	.string "Ich bin unschlagbar!\p"
 	.string "{PLAYER}! Ich fordere dich heraus!$"
 #else
@@ -174,8 +174,8 @@ VictoryRoad_Text_RivalAfter:
 	.string "Ich werde herausfinden, warum ich nicht\n"
 	.string "gewinnen kann und dann werde ich\l"
 	.string "stärker…\p"
-	.string "Wenn ich soweit bin,\n"
-	.string "fordere ich dich heraus.\p"
+	.string "Wenn ich soweit bin, fordere ich dich\n"
+	.string "heraus.\p"
 	.string "Dann werde ich dir die Leviten lesen.\p"
 	.string "…Humpf! Halte bis dahin durch.$"
 #else

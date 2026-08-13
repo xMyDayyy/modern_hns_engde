@@ -159,8 +159,8 @@ DragonsDen_Cavern_Text_ClairDescribeDragonclaw:
 	.string "Das ist Drachenpuls.\p"
 	.string "So eine Art… ach, vergiss es!\p"
 	.string "Es ist eine gewaltige Energie.\p"
-	.string "Wenn du sie nicht willst,\n"
-	.string "musst du sie nicht nehmen.$"
+	.string "Wenn du sie nicht willst, musst du sie\n"
+	.string "nicht nehmen.$"
 #else
     .string "DRAGON PULSE is a kind of er...\n"
 	.string "never mind!\p"
@@ -171,8 +171,8 @@ DragonsDen_Cavern_Text_ClairDescribeDragonclaw:
 
 DragonsDen_Cavern_Text_ClairWhatsTheMatter:
 #if GERMAN
-	.string "Was ist los? Gehst du nicht\n"
-	.string "weiter zur Pokémon-Liga?\p"
+	.string "Was ist los? Gehst du nicht weiter zur\n"
+	.string "Pokémon-Liga?\p"
 	.string "Wenn du Champion werden willst, kannst\n"
 	.string "du jeden Arenaleiter noch einmal\l"
 	.string "herausfordern.\p"
@@ -308,8 +308,8 @@ DragonsDen_Cavern_Text_CooltrainermDarinBeaten:
 
 DragonsDen_Cavern_Text_CooltrainermDarinAfter:
 #if GERMAN
-	.string "Der Schrein hier gehört dem\n"
-	.string "Meister unseres Drachen-Clans.\p"
+	.string "Der Schrein hier gehört dem Meister\n"
+	.string "unseres Drachen-Clans.\p"
 	.string "Du darfst nicht einfach hineingehen!$"
 #else
     .string "The SHRINE ahead is home to the\n"
@@ -349,8 +349,7 @@ DragonsDen_Cavern_Text_CooltrainerfCaraAfter:
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1Seen:
 #if GERMAN
-	.string "Da ist ein Fremder, den wir\n"
-	.string "nicht kennen.$"
+	.string "Da ist ein Fremder, den wir nicht kennen.$"
 #else
     .string "It's a stranger we don't know.$"
 #endif

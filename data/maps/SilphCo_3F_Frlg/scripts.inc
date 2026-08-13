@@ -68,8 +68,7 @@ SilphCo_3F_Text_GruntDefeat::
 
 SilphCo_3F_Text_GruntPostBattle::
 #if GERMAN
-	.string "Ein Tipp? Du brauchst einen\n"
-	.string "Türöffner!$"
+	.string "Ein Tipp? Du brauchst einen Türöffner!$"
 #else
 	.string "A hint? You can open doors with\n"
 	.string "a CARD KEY!$"

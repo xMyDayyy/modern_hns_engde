@@ -7,8 +7,8 @@ Text_UltimateMoveThatMon::
 #if GERMAN
 	.string "Ich habe die ultimative Attacke\n"
 	.string "dieser Elementklasse perfektioniert!\p"
-	.string "Aber wird sie in Zukunft von\n"
-	.string "niemandem eingesetzt?\p"
+	.string "Aber wird sie in Zukunft von niemandem\n"
+	.string "eingesetzt?\p"
 	.string "… hm?\p"
 	.string "D-du…\n"
 	.string "Da-das {STR_VAR_1}…$"
@@ -35,8 +35,8 @@ Text_AllowMeToTeachMonUltimateMove::
 #if GERMAN
 	.string "Oh! Das ist es!\n"
 	.string "Das ist das Pokémon!\p"
-	.string "Dieses {STR_VAR_1} ist des\n"
-	.string "Erlernens meiner Attacke würdig!\p"
+	.string "Dieses {STR_VAR_1} ist des Erlernens\n"
+	.string "meiner Attacke würdig!\p"
 	.string "Lässt du es zu?\p"
 	.string "Darf dein {STR_VAR_1} {STR_VAR_2}\n"
 	.string "lernen?$"
@@ -62,8 +62,8 @@ Text_YouRejectIt::
 Text_LetMeConferUltimateMove::
 #if GERMAN
 	.string "Du lässt es zu?\p"
-	.string "Somit lehre ich {STR_VAR_2}\n"
-	.string "deinem {STR_VAR_1}.\p"
+	.string "Somit lehre ich {STR_VAR_2} deinem\n"
+	.string "{STR_VAR_1}.\p"
 	.string "Cool!$"
 #else
 	.string "You will allow it?\p"
@@ -97,8 +97,8 @@ Text_MakeBestUseOfMove::
 Text_PassedOnEverythingIKnow::
 #if GERMAN
 	.string "Schnauf, schnauf…\p"
-	.string "Ich bereue nichts! Ich habe\n"
-	.string "all mein Wissen weitergegeben.\p"
+	.string "Ich bereue nichts! Ich habe all mein\n"
+	.string "Wissen weitergegeben.\p"
 	.string "Nun kann ich mit mir Frieden schließen\n"
 	.string "und mein Leben leben. Meine Aufgabe ist\l"
 	.string "erfüllt.$"
@@ -114,8 +114,8 @@ Text_FeelRejuvenated::
 #if GERMAN
 	.string "Nachdem ich dir mein Wissen übergeben\n"
 	.string "hatte, fühlte ich mich so erleichtert.\p"
-	.string "Ich fühle mich in der Tat\n"
-	.string "jünger, wie neu geboren!$"
+	.string "Ich fühle mich in der Tat jünger, wie neu\n"
+	.string "geboren!$"
 #else
 	.string "After I passed on my knowledge to\n"
 	.string "you, I felt so much relief.\p"

@@ -23,8 +23,8 @@ Route2_House_EventScript_ManAfter::
 Route2_House_Text_Fisher:
 #if GERMAN
 	.string "Hi! Ich bin froh dich zu sehen.\p"
-	.string "Mich hat schon lange Zeit\n"
-	.string "niemand mehr besucht.\p"
+	.string "Mich hat schon lange Zeit niemand mehr\n"
+	.string "besucht.\p"
 	.string "Ich bin überglücklich!\n"
 	.string "Das hier ist für dich.$"
 #else

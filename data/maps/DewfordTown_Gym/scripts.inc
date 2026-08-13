@@ -434,8 +434,8 @@ DewfordTown_Gym_Text_LilithIntro:
 
 DewfordTown_Gym_Text_LilithDefeat:
 #if GERMAN
-	.string "Ach, du… Ich habe kein\n"
-	.string "Interesse, dich kennen zu lernen.$"
+	.string "Ach, du… Ich habe kein Interesse, dich\n"
+	.string "kennen zu lernen.$"
 #else
 	.string "Oh, you…\n"
 	.string "I don't want to know you!$"
@@ -580,8 +580,8 @@ DewfordTown_Gym_Text_ExplainBulkUp:
 
 DewfordTown_Gym_Text_RegisteredBrawly:
 #if GERMAN
-	.string "Arenaleiter Kamillo wurde\n"
-	.string "im PokéCom eingetragen.$"
+	.string "Arenaleiter Kamillo wurde im PokéCom\n"
+	.string "eingetragen.$"
 #else
 	.string "Registered GYM LEADER BRAWLY\n"
 	.string "in the POKéGEAR.$"

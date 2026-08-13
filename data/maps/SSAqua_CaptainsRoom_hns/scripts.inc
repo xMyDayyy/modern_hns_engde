@@ -77,10 +77,10 @@ SSAqua_CaptainsRoom_Text_CaptainExhausting:
 
 SSAqua_CaptainsRoom_Text_CaptainHowDoYouLike:
 #if GERMAN
-	.string "Hat dir die Fahrt mit der\n"
-	.string "M.S. Aqua gefallen?\p"
-	.string "Sie gleitet regelrecht\n"
-	.string "über die Wellen, was?$"
+	.string "Hat dir die Fahrt mit der M.S. Aqua\n"
+	.string "gefallen?\p"
+	.string "Sie gleitet regelrecht über die Wellen,\n"
+	.string "was?$"
 #else
 	.string "How do you like S.S.AQUA's ride?\p"
 	.string "She practically skates across\n"

@@ -185,8 +185,8 @@ BurnedTower_B1F_Movement_EusineLeave:
 
 BurnedTowerB1FEusineText:
 #if GERMAN
-	.string "Eusin: Ich habe hier auch ein\n"
-	.string "Loch gegraben…\p"
+	.string "Eusin: Ich habe hier auch ein Loch\n"
+	.string "gegraben…\p"
 	.string "Ich war geschockt!\p"
 	.string "Suicune rannte an mir vorbei wie ein\n"
 	.string "Blitz, direkt vor meinen Augen!\p"
@@ -195,8 +195,8 @@ BurnedTowerB1FEusineText:
 	.string "Ich hörte, dass die legendären Pokémon\n"
 	.string "von Teak-City auserwählte testen,\l"
 	.string "indem\p"
-	.string "sie zulassen, dass sie ihnen\n"
-	.string "nahe kommen.\p"
+	.string "sie zulassen, dass sie ihnen nahe\n"
+	.string "kommen.\p"
 	.string "Ich begebe mich auf die Suche\n"
 	.string "nach Suicune.\p"
 	.string "{PLAYER}, wir müssen uns wieder\n"

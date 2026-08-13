@@ -68,8 +68,8 @@ BillHouse_Text_TakeThisEevee:
 	.string "Zeitkapsel gearbeitet habe.\p"
 	.string "Jemand sollte sich darum kümmern,\n"
 	.string "aber ich gehe nicht gerne raus.\p"
-	.string "Wirst du für mich\n"
-	.string "mit ihm spielen, {PLAYER}?$"
+	.string "Wirst du für mich mit ihm spielen,\n"
+	.string "{PLAYER}?$"
 #else
     .string "BILL: Hi, {PLAYER}! Do us a favor and\n"
     .string "take this EEVEE.\p"
@@ -83,8 +83,8 @@ BillHouse_Text_TakeThisEevee:
 
 BillHouse_Text_CountingOnYou:
 #if GERMAN
-	.string "Bill: Ich wusste, dass du es\n"
-	.string "schaffst! Noch ein kleines Stück!\p"
+	.string "Bill: Ich wusste, dass du es schaffst!\n"
+	.string "Noch ein kleines Stück!\p"
 	.string "Du bist einzigartig!\p"
 	.string "O.K., ich zähle auf dich.\p"
 	.string "Pass auf dich auf!$"
@@ -113,8 +113,8 @@ BillHouse_Text_EeveeMayEvolve:
 
 BillHouse_Text_PartyFull:
 #if GERMAN
-	.string "Moment! Du hast\n"
-	.string "keinen Platz mehr in deinem Team.$"
+	.string "Moment! Du hast keinen Platz mehr in\n"
+	.string "deinem Team.$"
 #else
     .string "Whoa, wait. You can't carry any\n"
     .string "more POKéMON.$"
@@ -169,8 +169,8 @@ BillHouse_Text_MomAfterEcruteak:
 BillHouse_Text_SisterUsefulNumber:
 #if GERMAN
 	.string "Bist du ein Trainer?\p"
-	.string "Ich habe eine\n"
-	.string "nützliche Telefonnummer für dich.$"
+	.string "Ich habe eine nützliche Telefonnummer\n"
+	.string "für dich.$"
 #else
     .string "Are you a TRAINER?\p"
     .string "I've got a useful phone number\n"
@@ -188,8 +188,8 @@ BillHouse_Text_SisterRefusedNumber:
 #if GERMAN
 	.string "Mein Bruder hat das\n"
 	.string "PC-PokémonLagerungs-System erfunden.\p"
-	.string "Ich wollte dir gerade\n"
-	.string "Bills Nummer geben…$"
+	.string "Ich wollte dir gerade Bills Nummer\n"
+	.string "geben…$"
 #else
     .string "My brother made the PC POKéMON\n"
     .string "storage system.\p"
@@ -199,8 +199,8 @@ BillHouse_Text_SisterRefusedNumber:
 
 BillHouse_Text_SisterPhoneFull:
 #if GERMAN
-	.string "Du kannst keine\n"
-	.string "Nummern mehr speichern.$"
+	.string "Du kannst keine Nummern mehr\n"
+	.string "speichern.$"
 #else
     .string "You can't record any more numbers.$"
 #endif

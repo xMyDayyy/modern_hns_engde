@@ -73,8 +73,8 @@ NewSinjoh_House1_Text_NicePokemonButNotCelebi:
 
 NewSinjoh_House1_OffersWooper:
 #if GERMAN
-	.string "Das ist es! Ein echtes,\n"
-	.string "lebendiges Celebi!!\p"
+	.string "Das ist es! Ein echtes, lebendiges\n"
+	.string "Celebi!!\p"
 	.string "Vielen Dank, dass du es den ganzen\n"
 	.string "Weg in den Norden gebracht hast.\p"
 	.string "Hier, meine Freundin hat auf ihrer Reise\n"
@@ -118,8 +118,7 @@ NewSinjoh_House1_EventScript_Elizabeth_AfterGift::
 
 NewSinjoh_House1_Text_GoodToSeeYouAgain:
 #if GERMAN
-	.string "Schön, dich wiederzusehen,\n"
-	.string "{PLAYER}.\p"
+	.string "Schön, dich wiederzusehen, {PLAYER}.\p"
 	.string "Wie geht es dem Felino denn so?$"
 #else
     .string "It's good to see you again,\n"

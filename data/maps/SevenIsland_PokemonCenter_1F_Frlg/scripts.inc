@@ -47,8 +47,8 @@ SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere::
 	.string "hierhergekommen?\p"
 	.string "Es gibt mindestens zehn von diesen\n"
 	.string "Hochgeschwindigkeitsbooten.\p"
-	.string "Ich weiß nicht, wo sie alle\n"
-	.string "abgeblieben sind…$"
+	.string "Ich weiß nicht, wo sie alle abgeblieben\n"
+	.string "sind…$"
 #else
 	.string "Did you ride a SEAGALLOP ferry\n"
 	.string "to get here?\p"

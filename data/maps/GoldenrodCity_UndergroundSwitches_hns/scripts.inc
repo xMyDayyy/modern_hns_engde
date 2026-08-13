@@ -510,12 +510,12 @@ GoldenrodCity_UndergroundSwitches_EventScript_Item_SmokeBall::
 GoldenrodUnderground_Text_SilverBefore:
 #if GERMAN
 	.string "Halt!\p"
-	.string "Ich hab dich gesehen und\n"
-	.string "bin dir gefolgt.\p"
+	.string "Ich hab dich gesehen und bin dir\n"
+	.string "gefolgt.\p"
 	.string "Ich kann dich hier nicht gebrauchen,\n"
 	.string "während ich Team Rocket erledige.\p"
-	.string "…Moment. Du hast mich\n"
-	.string "schon mal besiegt, oder?\p"
+	.string "…Moment. Du hast mich schon mal\n"
+	.string "besiegt, oder?\p"
 	.string "Das war ein Zufall.\p"
 	.string "Ich trainierte mein Team und werde\n"
 	.string "jetzt meine Schulden begleichen!$"
@@ -557,8 +557,7 @@ GoldenrodUnderground_Text_SilverAfter:
 	.string "Hält es mich vom Sieg ab?\p"
 	.string "Ich… Ich verstehe es nicht.\p"
 	.string "Doch hier endet es nicht.\p"
-	.string "Nicht jetzt. Nicht wegen\n"
-	.string "diesem Kampf.\p"
+	.string "Nicht jetzt. Nicht wegen diesem Kampf.\p"
 	.string "Ich gebe meinen Traum nicht auf,\n"
 	.string "der weltbeste Trainer zu werden!$"
 #else
@@ -609,8 +608,8 @@ GoldenrodUnderground_Text_GruntM11Beaten:
 GoldenrodUnderground_Text_GruntM11After:
 #if GERMAN
 	.string "Ich bin auch verwirrt…\p"
-	.string "Der Schalter am Ende muss\n"
-	.string "zuerst gedrückt werden, aber…$"
+	.string "Der Schalter am Ende muss zuerst\n"
+	.string "gedrückt werden, aber…$"
 #else
     .string "I'm confused too… The switch on the\n"
     .string "end is the one to press first, but…$"
@@ -620,8 +619,8 @@ GoldenrodUnderground_Text_GruntM25Seen:
 #if GERMAN
 	.string "Kwahaha!\p"
 	.string "Verwirrt von den Toren?\p"
-	.string "Ich gebe dir einen Tipp, wenn\n"
-	.string "du mich besiegst!$"
+	.string "Ich gebe dir einen Tipp, wenn du mich\n"
+	.string "besiegst!$"
 #else
     .string "Kwahaha!\p"
     .string "Confounded by the shutters, are we?\p"
@@ -639,8 +638,7 @@ GoldenrodUnderground_Text_GruntM25Beaten:
 GoldenrodUnderground_Text_GruntM25After:
 #if GERMAN
 	.string "Gut. Ein Hinweis!\p"
-	.string "Wechsle die Reihenfolge der\n"
-	.string "Schalter.\p"
+	.string "Wechsle die Reihenfolge der Schalter.\p"
 	.string "Dann öffnen und schließen die\n"
 	.string "Tore anders.$"
 #else

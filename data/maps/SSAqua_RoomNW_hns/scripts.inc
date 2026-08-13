@@ -41,8 +41,8 @@ SSAqua_RoomNW_Text_SailorStanlySeen:
 #if GERMAN
 	.string "Ja, ich bin ein Matrose, echt!\p"
 	.string "Ich habe nicht getrödelt!\p"
-	.string "Die Kabine war frei, also hab\n"
-	.string "ich kurz ein Nickerchen gemacht!\p"
+	.string "Die Kabine war frei, also hab ich kurz\n"
+	.string "ein Nickerchen gemacht!\p"
 	.string "Ach, egal! Lass uns kämpfen!$"
 #else
 	.string "Yeah, I'm a sailor, all right.\p"
@@ -70,8 +70,8 @@ SSAqua_RoomNW_Text_SailorStanlyAfterBattle:
 
 SSAqua_RoomNW_Text_GentlemanEdwardSeen:
 #if GERMAN
-	.string "Oh nein! Ich habe etwas sehr\n"
-	.string "Wichtiges verloren.$"
+	.string "Oh nein! Ich habe etwas sehr Wichtiges\n"
+	.string "verloren.$"
 #else
 	.string "Oh, no. I've lost something\n"
 	.string "that's very important.$"
@@ -114,10 +114,10 @@ SSAqua_RoomNW_Text_BurglarCoreyBeaten:
 
 SSAqua_RoomNW_Text_BurglarCoreyAfterBattle:
 #if GERMAN
-	.string "Ich habe hier im Zimmer\n"
-	.string "eine tolle Münze gefunden.\p"
-	.string "Einer der vorherigen Gäste\n"
-	.string "muss sie verloren haben…$"
+	.string "Ich habe hier im Zimmer eine tolle Münze\n"
+	.string "gefunden.\p"
+	.string "Einer der vorherigen Gäste muss sie\n"
+	.string "verloren haben…$"
 #else
 	.string "I found a pretty coin here.\p"
 	.string "Someone must have lost it…$"

@@ -40,8 +40,8 @@ SSAnne_2F_Room2_Text_BrooksPostBattle::
 
 SSAnne_2F_Room2_Text_DaleIntro::
 #if GERMAN
-	.string "Schau dir an, was ich an Land\n"
-	.string "gezogen habe!$"
+	.string "Schau dir an, was ich an Land gezogen\n"
+	.string "habe!$"
 #else
 	.string "Check out what I fished up!$"
 #endif

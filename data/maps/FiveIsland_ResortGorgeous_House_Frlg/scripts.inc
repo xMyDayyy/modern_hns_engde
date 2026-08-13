@@ -241,10 +241,9 @@ FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid::
 
 FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks::
 #if GERMAN
-	.string "Butler: Vielen Dank, dass sie\n"
-	.string "Lady Kea zufrieden stellten!\p"
-	.string "Nehmen sie das als kleines\n"
-	.string "Dankeschön…$"
+	.string "Butler: Vielen Dank, dass sie Lady Kea\n"
+	.string "zufrieden stellten!\p"
+	.string "Nehmen sie das als kleines Dankeschön…$"
 #else
 	.string "Butler: I sincerely thank you for\n"
 	.string "pleasing Lady SELPHY.\p"

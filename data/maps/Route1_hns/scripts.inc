@@ -32,8 +32,7 @@ Route1_Text_SchoolboyDanny_Seen:
 
 Route1_Text_SchoolboyDanny_Beaten:
 #if GERMAN
-	.string "Argh… schon wieder\n"
-	.string "verloren!$"
+	.string "Argh… schon wieder verloren!$"
 #else
 	.string "Awww… I've got a losing record…$"
 #endif
@@ -64,8 +63,8 @@ Route1_Text_CooltrainerFQuinn_Beaten:
 
 Route1_Text_CooltrainerFQuinn_AfterBattle:
 #if GERMAN
-	.string "Du bist stark. Du hast\n"
-	.string "offenbar hart trainiert.$"
+	.string "Du bist stark. Du hast offenbar hart\n"
+	.string "trainiert.$"
 #else
 	.string "You're strong.\p"
 	.string "You obviously must have trained\n"

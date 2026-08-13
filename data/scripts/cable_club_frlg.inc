@@ -1251,10 +1251,8 @@ TwoIsland_JoyfulGameCorner_EventScript_ShowDodrioBerryPickingRecords::
 
 CableClub_Text_WelcomeWhichCableClubService_Frlg::
 #if GERMAN
-	.string "Willkommen im Pokémon\n"
-	.string "Kabel-Club!\p"
-	.string "Welchen Service möchtest du\n"
-	.string "nutzen?$"
+	.string "Willkommen im Pokémon Kabel-Club!\p"
+	.string "Welchen Service möchtest du nutzen?$"
 #else
 	.string "Welcome to the POKéMON CABLE\n"
 	.string "CLUB.\p"
@@ -1264,8 +1262,7 @@ CableClub_Text_WelcomeWhichCableClubService_Frlg::
 
 CableClub_Text_WhichService_Frlg::
 #if GERMAN
-	.string "Welchen Service möchtest du\n"
-	.string "nutzen?$"
+	.string "Welchen Service möchtest du nutzen?$"
 #else
 	.string "Which of our services do you wish\n"
 	.string "to use?$"
@@ -1273,8 +1270,8 @@ CableClub_Text_WhichService_Frlg::
 
 CableClub_Text_TradeMonsUsingLinkCable_Frlg::
 #if GERMAN
-	.string "Tausche Pokémon mit einem\n"
-	.string "Mitspieler via GBA Game Link-Kabel.$"
+	.string "Tausche Pokémon mit einem Mitspieler\n"
+	.string "via GBA Game Link-Kabel.$"
 #else
 	.string "Trade POKéMON with another player\n"
 	.string "using a GBA Game Link cable.$"
@@ -1479,8 +1476,7 @@ Text_TerminateLinkConfirmation_Frlg::
 
 Text_TrainerTooBusyToNotice_Frlg::
 #if GERMAN
-	.string "Dieser Trainer ist zu\n"
-	.string "beschäftigt...$"
+	.string "Dieser Trainer ist zu beschäftigt...$"
 #else
 	.string "This TRAINER is too busy to\n"
 	.string "notice…$"
@@ -1488,8 +1484,8 @@ Text_TrainerTooBusyToNotice_Frlg::
 
 Text_LookedAtPlayersTrainerCard_Frlg::
 #if GERMAN
-	.string "Heh! Schau dir den\n"
-	.string "Trainerpass von {STR_VAR_1} an!$"
+	.string "Heh! Schau dir den Trainerpass von\n"
+	.string "{STR_VAR_1} an!$"
 #else
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
 	.string "TRAINER CARD!$"
@@ -1497,8 +1493,8 @@ Text_LookedAtPlayersTrainerCard_Frlg::
 
 Text_LookedAtPlayersTrainerCardColored_Frlg::
 #if GERMAN
-	.string "Heh! Schau dir den\n"
-	.string "Trainerpass von {STR_VAR_1} an!\p"
+	.string "Heh! Schau dir den Trainerpass von\n"
+	.string "{STR_VAR_1} an!\p"
 	.string "Es ist ein {STR_VAR_2}Pass.$"
 #else
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
@@ -1559,8 +1555,8 @@ CableClub_Text_NotSetUpForFarAwayRegion_Frlg::
 
 CableClub_Text_OtherTrainerNotReady_Frlg::
 #if GERMAN
-	.string "Der andere Trainer ist noch\n"
-	.string "nicht bereit!$"
+	.string "Der andere Trainer ist noch nicht\n"
+	.string "bereit!$"
 #else
 	.string "The other TRAINER is not ready.$"
 #endif
@@ -1621,8 +1617,8 @@ CableClub_Text_YouMayBattleHere_Frlg::
 
 CableClub_Text_CanMakeBerryPowder_Frlg::
 #if GERMAN
-	.string "Zwei bis fünf Trainer können\n"
-	.string "zusammen Beerenpuder herstellen.$"
+	.string "Zwei bis fünf Trainer können zusammen\n"
+	.string "Beerenpuder herstellen.$"
 #else
 	.string "Two to five TRAINERS can make\n"
 	.string "BERRY POWDER together.$"
@@ -1707,8 +1703,8 @@ Text_PlayerIsPlayingRightNowGoForIt_Frlg::
 
 Text_DescribeWhichGame_Frlg::
 #if GERMAN
-	.string "Ich kann dir die Spielregeln\n"
-	.string "erklären, wenn du möchtest.\p"
+	.string "Ich kann dir die Spielregeln erklären,\n"
+	.string "wenn du möchtest.\p"
 	.string "Welches Spiel möchtest du erklärt\n"
 	.string "bekommen?$"
 #else
@@ -1801,8 +1797,7 @@ Text_AdapterNotConnectedMinigame_Frlg::
 	.string "Der Drahtlose Game Boy\n"
 	.string "Advance-Adapter ist nicht\l"
 	.string "angeschlossen.\p"
-	.string "Komm wieder, wenn er\n"
-	.string "angeschlossen ist!$"
+	.string "Komm wieder, wenn er angeschlossen ist!$"
 #else
 	.string "The Wireless Adapter isn't\n"
 	.string "connected.\p"
@@ -1844,8 +1839,8 @@ EventScript_ExplainPokemonJumpRequirements_Frlg::
 #if GERMAN
 	.string "Es scheint, dass keines deiner\n"
 	.string "Pokémon teilnehmen kann…\p"
-	.string "Soll ich dir erklären, welche\n"
-	.string "Pokémon teilnehmen dürfen?$"
+	.string "Soll ich dir erklären, welche Pokémon\n"
+	.string "teilnehmen dürfen?$"
 #else
 	.string "It doesn't look like you have any\n"
 	.string "POKéMON that you can enter…\p"
@@ -1893,8 +1888,8 @@ Text_RetryFromStartPlease_Frlg::
 
 CableClub_Text_WelcomeWhichDirectCornerRoom_Frlg::
 #if GERMAN
-	.string "Willkommen im Pokémon\n"
-	.string "Drahtlosen Direktklub.\p"
+	.string "Willkommen im Pokémon Drahtlosen\n"
+	.string "Direktklub.\p"
 	.string "Welchen Klub möchtest du betreten?$"
 #else
 	.string "Welcome to the POKéMON WIRELESS\n"
@@ -1907,8 +1902,7 @@ CableClub_Text_WelcomeWhichDirectCornerRoom_Frlg::
 
 CableClub_Text_TradePokemon_Frlg::
 #if GERMAN
-	.string "Möchtest du jetzt Pokémon\n"
-	.string "tauschen?$"
+	.string "Möchtest du jetzt Pokémon tauschen?$"
 #else
 	.string "Would you like to trade POKéMON?$"
 #endif
@@ -1923,8 +1917,7 @@ CableClub_Text_PlayWhichBattleMode_Frlg::
 
 CableClub_Text_UseBerryCrush_Frlg::
 #if GERMAN
-	.string "Möchtest du die Beerenmühle\n"
-	.string "benutzen?$"
+	.string "Möchtest du die Beerenmühle benutzen?$"
 #else
 	.string "Would you like to use the\n"
 	.string "BERRY CRUSH System?$"
@@ -1965,8 +1958,8 @@ CableClub_Text_ChooseGroupLeaderOfTwo_Frlg::
 #if GERMAN
 	.string "Bitte legt fest, wer von euch der\n"
 	.string "Leiter ist.\p"
-	.string "Der andere Spieler wählt\n"
-	.string "“Mitspieler” aus.$"
+	.string "Der andere Spieler wählt “Mitspieler”\n"
+	.string "aus.$"
 #else
 	.string "Please decide which of you two\n"
 	.string "will become the LEADER.\p"
@@ -1978,8 +1971,8 @@ CableClub_Text_ChooseGroupLeaderOfFour_Frlg::
 #if GERMAN
 	.string "Bitte legt fest, wer in eurem Team\n"
 	.string "der Leiter ist.\p"
-	.string "Die anderen Spieler wählen\n"
-	.string "“Mitspieler” aus.$"
+	.string "Die anderen Spieler wählen “Mitspieler”\n"
+	.string "aus.$"
 #else
 	.string "Please decide which of you four\n"
 	.string "will become the GROUP LEADER.\p"
@@ -1991,8 +1984,8 @@ CableClub_Text_ChooseGroupLeader_Frlg::
 #if GERMAN
 	.string "Bitte legt fest, wer in eurem Team\n"
 	.string "der Leiter ist.\p"
-	.string "Die anderen Spieler wählen\n"
-	.string "“Mitspieler” aus.$"
+	.string "Die anderen Spieler wählen “Mitspieler”\n"
+	.string "aus.$"
 #else
 	.string "Please decide which of you will\n"
 	.string "become the GROUP LEADER.\p"
@@ -2097,8 +2090,8 @@ CableClub_Text_ExplainWirelessClubFirstTime_Frlg::
 	.string "Advance-Adapter nicht eingesteckt\l"
 	.string "ist, kannst du das GBA Game Link-Kabel\l"
 	.string "benutzen.\p"
-	.string "In diesem Fall musst du den\n"
-	.string "Direktklub betreten.\p"
+	.string "In diesem Fall musst du den Direktklub\n"
+	.string "betreten.\p"
 	.string "Viel Vergnügen mit dem Drahtlosen\n"
 	.string "Kommunikations-System.$"
 #else
@@ -2164,8 +2157,8 @@ CableClub_Text_ExplainWirelessClub_Frlg::
 	.string "Advance-Adapter nicht benutzt wird,\l"
 	.string "kannst du via Game Boy Advance Game\l"
 	.string "Link-Kabel eine Verbindung herstellen.\p"
-	.string "In diesem Fall musst du in\n"
-	.string "den Direktklub gehen.\p"
+	.string "In diesem Fall musst du in den\n"
+	.string "Direktklub gehen.\p"
 	.string "Viel Vergnügen mit dem Drahtlosen\n"
 	.string "Kommunikations-System.$"
 #else

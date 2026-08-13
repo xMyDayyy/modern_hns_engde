@@ -11,8 +11,8 @@ ViridianCity_Mart_EventScript_Cooltrainer::
 
 ViridianMart_Text_Lass:
 #if GERMAN
-	.string "Der Arenaleiter dieser Stadt\n"
-	.string "ist extrem cool!$"
+	.string "Der Arenaleiter dieser Stadt ist extrem\n"
+	.string "cool!$"
 #else
 	.string "The GYM LEADER here is totally cool.$"
 #endif

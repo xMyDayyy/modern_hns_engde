@@ -78,8 +78,8 @@ SilphCo_5F_Text_YoureOurHeroThankYou::
 
 SilphCo_5F_Text_Grunt1Intro::
 #if GERMAN
-	.string "Ich hörte, ein Kind läuft im\n"
-	.string "Gebäude herum...$"
+	.string "Ich hörte, ein Kind läuft im Gebäude\n"
+	.string "herum...$"
 #else
 	.string "I heard a kid was wandering\n"
 	.string "around.$"
@@ -227,8 +227,8 @@ SilphCo_5F_Text_RocketBossLookingForStrongMons::
 #if GERMAN
 	.string "Diese Rüpel haben die Kontrolle in\n"
 	.string "diesem Gebäude übernommen…\p"
-	.string "Der Boss sagte, dass er nach\n"
-	.string "starken Pokémon sucht.\p"
+	.string "Der Boss sagte, dass er nach starken\n"
+	.string "Pokémon sucht.\p"
 	.string "Ich hoffe, dass unser Präsident\n"
 	.string "Ärger vermeiden konnte…$"
 #else

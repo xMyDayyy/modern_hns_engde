@@ -949,8 +949,8 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
 #if GERMAN
 	.string "Robopuppe 1 Quiz.\p"
-	.string "Eines dieser Pokémon setzt\n"
-	.string "nicht Blutsauger ein. Welches?$"
+	.string "Eines dieser Pokémon setzt nicht\n"
+	.string "Blutsauger ein. Welches?$"
 #else
 	.string "MECHADOLL 1 QUIZ.\p"
 	.string "One of these POKéMON does not use\n"
@@ -1072,8 +1072,8 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
 #if GERMAN
 	.string "Robopuppe 3 Quiz.\p"
-	.string "Kosten ein Schutz und ein\n"
-	.string "Sprudel mehr als ein Supertrank?$"
+	.string "Kosten ein Schutz und ein Sprudel mehr\n"
+	.string "als ein Supertrank?$"
 #else
 	.string "MECHADOLL 3 QUIZ.\p"
 	.string "Do one REPEL and SODA POP cost\n"
@@ -1138,8 +1138,8 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
 #if GERMAN
 	.string "Robopuppe 5 Quiz.\p"
-	.string "Wie viele Pokémon waren im\n"
-	.string "Graphitport City Pokémon-Fanclub?$"
+	.string "Wie viele Pokémon waren im Graphitport\n"
+	.string "City Pokémon-Fanclub?$"
 #else
 	.string "MECHADOLL 5 QUIZ.\p"
 	.string "In SLATEPORT's POKéMON FAN CLUB,\n"

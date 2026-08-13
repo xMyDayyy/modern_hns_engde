@@ -22,8 +22,7 @@ Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze::
 
 Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite::
 #if GERMAN
-	.string "Hast du schon ein Rattfratz\n"
-	.string "gefangen?\p"
+	.string "Hast du schon ein Rattfratz gefangen?\p"
 	.string "Es ist klein, aber sein Biss ist\n"
 	.string "heftig!$"
 #else

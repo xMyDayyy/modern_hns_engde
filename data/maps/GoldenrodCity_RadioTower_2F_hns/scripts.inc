@@ -164,8 +164,7 @@ GoldenrodCity_RadioTower_2F_Text_SuperNerd:
 
 GoldenrodCity_RadioTower_2F_Text_Policeman:
 #if GERMAN
-	.string "Zutritt hinter diesem Punkt\n"
-	.string "verboten.$"
+	.string "Zutritt hinter diesem Punkt verboten.$"
 #else
 	.string "Restricted access beyond this\n"
 	.string "point.$"
@@ -173,8 +172,8 @@ GoldenrodCity_RadioTower_2F_Text_Policeman:
 
 GoldenrodCity_RadioTower_2F_Text_Teacher:
 #if GERMAN
-	.string "Wiegenlieder im Radio lassen\n"
-	.string "Pokémon einschlafen.$"
+	.string "Wiegenlieder im Radio lassen Pokémon\n"
+	.string "einschlafen.$"
 #else
 	.string "Lullabies on the radio may make\n"
 	.string "POKéMON sleep.$"
@@ -235,8 +234,7 @@ GoldenrodCity_RadioTower_2F_Text_GruntM4Seen:
 
 GoldenrodCity_RadioTower_2F_Text_GruntM4Beaten:
 #if GERMAN
-	.string "Pah! Keine Zeit für\n"
-	.string "Sentimentalitäten!$"
+	.string "Pah! Keine Zeit für Sentimentalitäten!$"
 #else
 	.string "Gwah! Don't get cute!$"
 #endif
@@ -252,8 +250,8 @@ GoldenrodCity_RadioTower_2F_Text_GruntM4After:
 
 GoldenrodCity_RadioTower_2F_Text_GruntM5Seen:
 #if GERMAN
-	.string "Wir sind Team Rocket, die\n"
-	.string "Ausbeuter von Pokémon!\p"
+	.string "Wir sind Team Rocket, die Ausbeuter von\n"
+	.string "Pokémon!\p"
 	.string "Wir lieben das Böse!\n"
 	.string "Na, Angst?$"
 #else
@@ -264,8 +262,7 @@ GoldenrodCity_RadioTower_2F_Text_GruntM5Seen:
 
 GoldenrodCity_RadioTower_2F_Text_GruntM5Beaten:
 #if GERMAN
-	.string "Du glaubst wohl, du\n"
-	.string "wärst ein Held?$"
+	.string "Du glaubst wohl, du wärst ein Held?$"
 #else
 	.string "You think you're a hero?$"
 #endif
@@ -282,8 +279,8 @@ GoldenrodCity_RadioTower_2F_Text_GruntM5After:
 
 GoldenrodCity_RadioTower_2F_Text_GruntM6Seen:
 #if GERMAN
-	.string "He! Halte dich aus\n"
-	.string "unseren Angelegenheiten raus!$"
+	.string "He! Halte dich aus unseren\n"
+	.string "Angelegenheiten raus!$"
 #else
 	.string "Hey, hey! Keep out of our way!$"
 #endif
@@ -338,10 +335,8 @@ GoldenrodCity_RadioTower_2F_Text_GruntF2After:
 
 GoldenrodCity_RadioTower_2F_Text_BuenaShowPromo:
 #if GERMAN
-	.string "Buena: Hör in meine\n"
-	.string "Passwort-Show rein!$"
-	.string "Höre das heutige\n"
-	.string "Passwort!$"
+	.string "Buena: Hör in meine Passwort-Show rein!$"
+	.string "Höre das heutige Passwort!$"
 #else
 	.string "BUENA: Tune in to my PASSWORD\n"
 	.string "SHOW!\p"
@@ -352,8 +347,7 @@ GoldenrodCity_RadioTower_2F_Text_BuenaShowPromo:
 GoldenrodCity_RadioTower_2F_Text_BuenaAskPassword:
 #if GERMAN
 	.string "Buena: Hey du!\p"
-	.string "So, weißt du das heutige\n"
-	.string "Passwort?\p"
+	.string "So, weißt du das heutige Passwort?\p"
 	.string "OK! Wie lautet es?$"
 #else
 	.string "BUENA: Hi there!\p"
@@ -365,8 +359,7 @@ GoldenrodCity_RadioTower_2F_Text_BuenaAskPassword:
 GoldenrodCity_RadioTower_2F_Text_BuenaCorrect:
 #if GERMAN
 	.string "Buena: Richtig!\p"
-	.string "Hier, nimm {STR_VAR_1}\n"
-	.string "als deinen Preis!$"
+	.string "Hier, nimm {STR_VAR_1} als deinen Preis!$"
 #else
 	.string "BUENA: You got it!\p"
 	.string "Here, take this {STR_VAR_1}\n"
@@ -404,10 +397,9 @@ GoldenrodCity_RadioTower_2F_Text_BuenaAlreadyPlayed:
 
 GoldenrodCity_RadioTower_2F_Text_BuenaBagFull:
 #if GERMAN
-	.string "Buena: Du hast es,\n"
-	.string "aber deine Tasche ist voll!\p"
-	.string "Schaffe etwas Platz\n"
-	.string "und komm zurück!$"
+	.string "Buena: Du hast es, aber deine Tasche ist\n"
+	.string "voll!\p"
+	.string "Schaffe etwas Platz und komm zurück!$"
 #else
 	.string "BUENA: You got it right, but\n"
 	.string "your BAG is full!\p"

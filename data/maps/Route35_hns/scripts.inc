@@ -122,8 +122,8 @@ Route35_Text_CamperIvanAfter:
 
 Route35_Text_CamperElliotSeen:
 #if GERMAN
-	.string "Ich werde meiner Freundin\n"
-	.string "zeigen, wie cool ich bin!$"
+	.string "Ich werde meiner Freundin zeigen, wie\n"
+	.string "cool ich bin!$"
 #else
 	.string "I'm gonna show my girlfriend I'm\n"
 	.string "hot stuff!$"
@@ -131,8 +131,8 @@ Route35_Text_CamperElliotSeen:
 
 Route35_Text_CamperElliotBeaten:
 #if GERMAN
-	.string "Ach Mann! Hättest du nicht\n"
-	.string "einfach… verlieren können?$"
+	.string "Ach Mann! Hättest du nicht einfach…\n"
+	.string "verlieren können?$"
 #else
 	.string "I wish you would have lost for me…$"
 #endif
@@ -197,16 +197,14 @@ Route35_Text_PicnickerKimAfter:
 
 Route35_Text_BirdKeeperBryanSeen:
 #if GERMAN
-	.string "Welche Art von Pokéball\n"
-	.string "verwendest du?$"
+	.string "Welche Art von Pokéball verwendest du?$"
 #else
 	.string "What kinds of BALLS do you use?$"
 #endif
 
 Route35_Text_BirdKeeperBryanBeaten:
 #if GERMAN
-	.string "Mist! Nicht\n"
-	.string "schnell genug!$"
+	.string "Mist! Nicht schnell genug!$"
 #else
 	.string "Yikes! Not fast enough!$"
 #endif
@@ -298,8 +296,8 @@ Route35_Text_ArnieRematchIntro:
 
 Route35_Text_ArnieRematchDefeat:
 #if GERMAN
-    .string "Hä? Das hätte ich doch nicht\n"
-    .string "verlieren dürfen…$"
+    .string "Hä? Das hätte ich doch nicht verlieren\n"
+    .string "dürfen…$"
 #else
 	.string "Huh? I shouldn't have lost that…$"
 #endif
@@ -316,8 +314,8 @@ Route35_Text_ArniePostRematch:
 Route35_Text_BugCatcherArnieYanma:
 #if GERMAN
 	.string "Wow… Sieh, all die Yanma!\p"
-	.string "Ich bin über-\n"
-	.string "wältigt und kann mich nicht rühren.$"
+	.string "Ich bin überwältigt und kann mich nicht\n"
+	.string "rühren.$"
 #else
 	.string "Wow… Look at all those YANMA!\p"
 	.string "I'm so blown away, I can't move.$"
@@ -325,24 +323,23 @@ Route35_Text_BugCatcherArnieYanma:
 
 Route35_Text_FirebreatherWaltSeen:
 #if GERMAN
-	.string "Ich übe mich im\n"
-	.string "Feuerspucken.$"
+	.string "Ich übe mich im Feuerspucken.$"
 #else
 	.string "I'm practicing my fire breathing.$"
 #endif
 
 Route35_Text_FirebreatherWaltBeaten:
 #if GERMAN
-	.string "Aua! Jetzt habe ich mir\n"
-	.string "die Nasenspitze verbrannt!$"
+	.string "Aua! Jetzt habe ich mir die Nasenspitze\n"
+	.string "verbrannt!$"
 #else
 	.string "Ow! I scorched the tip of my nose!$"
 #endif
 
 Route35_Text_FirebreatherWaltAfter:
 #if GERMAN
-	.string "Der Pokémon-Marsch im Radio\n"
-	.string "lockt wilde Pokémon an.$"
+	.string "Der Pokémon-Marsch im Radio lockt wilde\n"
+	.string "Pokémon an.$"
 #else
 	.string "The POKéMON March on the radio\n"
 	.string "lures wild POKéMON.$"
@@ -364,10 +361,8 @@ Route35_Text_OfficerDirkBeaten:
 
 Route35_Text_OfficerDirkAfter:
 #if GERMAN
-	.string "Weißt du, die Nacht hat\n"
-	.string "auch ihren Reiz.\p"
-	.string "Aber übertreib es nicht,\n"
-	.string "ja?$"
+	.string "Weißt du, die Nacht hat auch ihren Reiz.\p"
+	.string "Aber übertreib es nicht, ja?$"
 #else
 	.string "You know, night time is fun in its\n"
 	.string "own ways.\p"

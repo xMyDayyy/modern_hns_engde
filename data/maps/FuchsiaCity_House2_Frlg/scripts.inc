@@ -35,10 +35,8 @@ FuchsiaCity_House2_Text_DoYouLikeToFish::
 #if GERMAN
 	.string "Ich bin der ältere Bruder des\n"
 	.string "Profianglers!\p"
-	.string "Ich liebe\n"
-	.string "den Angelsport!\p"
-	.string "Angelst du auch\n"
-	.string "gerne?$"
+	.string "Ich liebe den Angelsport!\p"
+	.string "Angelst du auch gerne?$"
 #else
 	.string "I'm the FISHING GURU's older\n"
 	.string "brother.\p"
@@ -60,8 +58,7 @@ FuchsiaCity_House2_Text_LikeYourStyleTakeThis::
 
 FuchsiaCity_House2_Text_ReceivedGoodRod::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "eine Profiangel!$"
+	.string "{PLAYER} erhält eine Profiangel!$"
 #else
 	.string "{PLAYER} received a GOOD ROD from\n"
 	.string "the FISHING GURU's brother.$"

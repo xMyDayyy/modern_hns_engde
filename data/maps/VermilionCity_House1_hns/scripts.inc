@@ -34,8 +34,7 @@ VermilionCity_House1_Text_FishingDude:
 
 VermilionCity_House1_Text_Photo:
 #if GERMAN
-	.string "Das ist ein Foto von Leuten,\n"
-	.string "die angeln…\p"
+	.string "Das ist ein Foto von Leuten, die angeln…\p"
 	.string "Sie haben eine tolle Zeit…$"
 #else
 	.string "It's a photo of people fishing…\p"

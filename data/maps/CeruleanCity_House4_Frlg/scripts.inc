@@ -166,8 +166,8 @@ CeruleanCity_House4_Text_WishCouldShareNewsWithOthers::
 
 CeruleanCity_House4_Text_ThanksForSpreadingNewsTakeThis::
 #if GERMAN
-	.string "Ah, du hast den anderen die\n"
-	.string "Nachricht für mich übermittelt?\p"
+	.string "Ah, du hast den anderen die Nachricht\n"
+	.string "für mich übermittelt?\p"
 	.string "Es lohnt sich, gute Nachrichten mit\n"
 	.string "anderen Menschen zu teilen.\p"
 	.string "Als Zeichen meines Dankes möchte\n"

@@ -98,8 +98,7 @@ ThreeIsland_BerryForest_Text_ThankYouHaveThis::
 #if GERMAN
 	.string "Oh! Das war so gruselig!\n"
 	.string "Dankeschön!\p"
-	.string "Irrma wollte hier Beeren\n"
-	.string "pflücken.\p"
+	.string "Irrma wollte hier Beeren pflücken.\p"
 	.string "Das ist für dich!$"
 #else
 	.string "Ohh! That was so scary!\n"

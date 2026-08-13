@@ -212,8 +212,8 @@ Copycat_Text_Male_1:
 #if GERMAN
 	.string "{PLAYER}: Hallo!\n"
 	.string "Bist du ein Fan von Pokémon?\p"
-	.string "{PLAYER}: Hey, ich habe dich\n"
-	.string "zuerst gefragt!\p"
+	.string "{PLAYER}: Hey, ich habe dich zuerst\n"
+	.string "gefragt!\p"
 	.string "{PLAYER}: …Hä? Was soll das hier\n"
 	.string "werden? Du bist echt komisch…$"
 #else
@@ -292,8 +292,8 @@ Copycat_Text_GivePass:
 
 Copycat_Text_ExplainPass:
 #if GERMAN
-	.string "Nachahmerin: Das\n"
-	.string "ist der Fahrschein für den Magnetzug.\p"
+	.string "Nachahmerin: Das ist der Fahrschein für\n"
+	.string "den Magnetzug.\p"
 	.string "Der Mann von der Eisenbahn gab mir das,\n"
 	.string "als sie unser altes Haus niederrissen,\l"
 	.string "um den\p"

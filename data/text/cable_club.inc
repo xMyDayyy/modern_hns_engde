@@ -1,9 +1,7 @@
 CableClub_Text_WelcomeWhichCableClubService:
 #if GERMAN
-	.string "Willkommen im Pokémon\n"
-	.string "Kabel-Club!\p"
-	.string "Welchen Service möchtest du\n"
-	.string "nutzen?$"
+	.string "Willkommen im Pokémon Kabel-Club!\p"
+	.string "Welchen Service möchtest du nutzen?$"
 #else
 	.string "Welcome to the POKéMON CABLE\n"
 	.string "CLUB.\p"
@@ -13,8 +11,7 @@ CableClub_Text_WelcomeWhichCableClubService:
 
 CableClub_Text_WhichService:
 #if GERMAN
-	.string "Welchen Service möchtest du\n"
-	.string "nutzen?$"
+	.string "Welchen Service möchtest du nutzen?$"
 #else
 	.string "Which of our services do you wish\n"
 	.string "to use?$"
@@ -22,8 +19,8 @@ CableClub_Text_WhichService:
 
 CableClub_Text_TradeUsingLinkCable::
 #if GERMAN
-	.string "Tausche Pokémon mit einem\n"
-	.string "Mitspieler via GBA Game Link-Kabel.$"
+	.string "Tausche Pokémon mit einem Mitspieler\n"
+	.string "via GBA Game Link-Kabel.$"
 #else
 	.string "Trade POKéMON with another player\n"
 	.string "using a GBA Game Link cable.$"
@@ -330,8 +327,8 @@ CableClub_Text_NotSetUpForFarAwayRegion:
 
 CableClub_Text_OtherTrainerNotReady:
 #if GERMAN
-	.string "Der andere Trainer ist noch\n"
-	.string "nicht bereit!$"
+	.string "Der andere Trainer ist noch nicht\n"
+	.string "bereit!$"
 #else
 	.string "The other TRAINER is not ready.$"
 #endif
@@ -354,8 +351,7 @@ RecordCorner_Text_TakeSeatAndWait:
 
 RecordCorner_Text_PlayerSentOverOneX:
 #if GERMAN
-	.string "{STR_VAR_1} hat ein {STR_VAR_2}\n"
-	.string "versandt.$"
+	.string "{STR_VAR_1} hat ein {STR_VAR_2} versandt.$"
 #else
 	.string "{STR_VAR_1} sent over one\n"
 	.string "{STR_VAR_2}.$"
@@ -434,8 +430,8 @@ CableClub_Text_YouMayBattleHere::
 
 CableClub_Text_CanMakeBerryPowder::
 #if GERMAN
-	.string "Zwei bis fünf Trainer können\n"
-	.string "zusammen Beerenpuder herstellen.$"
+	.string "Zwei bis fünf Trainer können zusammen\n"
+	.string "Beerenpuder herstellen.$"
 #else
 	.string "Two to five TRAINERS can make\n"
 	.string "BERRY POWDER together.$"
@@ -549,8 +545,8 @@ CableClub_Text_PlayerIsWaiting:
 
 MossdeepCity_GameCorner_1F_Text_DescribeWhichGame:
 #if GERMAN
-	.string "Ich kann dir die Spielregeln\n"
-	.string "erklären, wenn du möchtest.\p"
+	.string "Ich kann dir die Spielregeln erklären,\n"
+	.string "wenn du möchtest.\p"
 	.string "Welches Spiel möchtest du erklärt\n"
 	.string "bekommen?$"
 #else
@@ -643,8 +639,7 @@ MossdeepCity_GameCorner_1F_Text_AdapterNotConnected:
 	.string "Der Drahtlose Game Boy\n"
 	.string "Advance-Adapter ist nicht\l"
 	.string "angeschlossen.\p"
-	.string "Komm wieder, wenn er\n"
-	.string "angeschlossen ist!$"
+	.string "Komm wieder, wenn er angeschlossen ist!$"
 #else
 	.string "The Wireless Adapter isn't connected.\n"
 	.string "Come back when it's hooked up!$"
@@ -689,8 +684,8 @@ MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon:
 #if GERMAN
 	.string "Es scheint, dass keines deiner\n"
 	.string "Pokémon teilnehmen kann…\p"
-	.string "Soll ich dir erklären, welche\n"
-	.string "Pokémon teilnehmen dürfen?$"
+	.string "Soll ich dir erklären, welche Pokémon\n"
+	.string "teilnehmen dürfen?$"
 #else
 	.string "It doesn't look like you have any\n"
 	.string "POKéMON that you can enter…\p"
@@ -738,8 +733,8 @@ MossdeepCity_GameCorner_1F_Text_RetryPlease:
 
 CableClub_Text_WelcomeWhichDirectCornerRoom:
 #if GERMAN
-	.string "Willkommen im Pokémon\n"
-	.string "Drahtlosen Direktklub.\p"
+	.string "Willkommen im Pokémon Drahtlosen\n"
+	.string "Direktklub.\p"
 	.string "Welchen Klub möchtest du betreten?$"
 #else
 	.string "Welcome to the POKéMON WIRELESS\n"
@@ -752,8 +747,7 @@ CableClub_Text_WelcomeWhichDirectCornerRoom:
 
 CableClub_Text_TradePokemon:
 #if GERMAN
-	.string "Möchtest du jetzt Pokémon\n"
-	.string "tauschen?$"
+	.string "Möchtest du jetzt Pokémon tauschen?$"
 #else
 	.string "Would you like to trade POKéMON?$"
 #endif
@@ -777,8 +771,7 @@ CableClub_Text_AccessRecordCorner:
 
 CableClub_Text_UseBerryCrush:
 #if GERMAN
-	.string "Möchtest du die Beerenmühle\n"
-	.string "benutzen?$"
+	.string "Möchtest du die Beerenmühle benutzen?$"
 #else
 	.string "Would you like to use the\n"
 	.string "BERRY CRUSH System?$"
@@ -819,8 +812,8 @@ CableClub_Text_ChooseGroupLeaderOfTwo:
 #if GERMAN
 	.string "Bitte legt fest, wer von euch der\n"
 	.string "Leiter ist.\p"
-	.string "Der andere Spieler wählt\n"
-	.string "“Mitspieler” aus.$"
+	.string "Der andere Spieler wählt “Mitspieler”\n"
+	.string "aus.$"
 #else
 	.string "Please decide which of you two\n"
 	.string "will become the LEADER.\p"
@@ -832,8 +825,8 @@ CableClub_Text_ChooseGroupLeaderOfFour:
 #if GERMAN
 	.string "Bitte legt fest, wer in eurem Team\n"
 	.string "der Leiter ist.\p"
-	.string "Die anderen Spieler wählen\n"
-	.string "“Mitspieler” aus.$"
+	.string "Die anderen Spieler wählen “Mitspieler”\n"
+	.string "aus.$"
 #else
 	.string "Please decide which of you four\n"
 	.string "will become the GROUP LEADER.\p"
@@ -845,8 +838,8 @@ CableClub_Text_ChooseGroupLeader:
 #if GERMAN
 	.string "Bitte legt fest, wer in eurem Team\n"
 	.string "der Leiter ist.\p"
-	.string "Die anderen Spieler wählen\n"
-	.string "“Mitspieler” aus.$"
+	.string "Die anderen Spieler wählen “Mitspieler”\n"
+	.string "aus.$"
 #else
 	.string "Please decide which of you will\n"
 	.string "become the GROUP LEADER.\p"
@@ -951,8 +944,8 @@ CableClub_Text_ExplainWirelessClubFirstTime:
 	.string "Advance-Adapter nicht eingesteckt\l"
 	.string "ist, kannst du das GBA Game Link-Kabel\l"
 	.string "benutzen.\p"
-	.string "In diesem Fall musst du den\n"
-	.string "Direktklub betreten.\p"
+	.string "In diesem Fall musst du den Direktklub\n"
+	.string "betreten.\p"
 	.string "Viel Vergnügen mit dem Drahtlosen\n"
 	.string "Kommunikations-System.$"
 #else
@@ -1018,8 +1011,8 @@ CableClub_Text_ExplainWirelessClub:
 	.string "Advance-Adapter nicht benutzt wird,\l"
 	.string "kannst du via Game Boy Advance Game\l"
 	.string "Link-Kabel eine Verbindung herstellen.\p"
-	.string "In diesem Fall musst du in\n"
-	.string "den Direktklub gehen.\p"
+	.string "In diesem Fall musst du in den\n"
+	.string "Direktklub gehen.\p"
 	.string "Viel Vergnügen mit dem Drahtlosen\n"
 	.string "Kommunikations-System.$"
 #else

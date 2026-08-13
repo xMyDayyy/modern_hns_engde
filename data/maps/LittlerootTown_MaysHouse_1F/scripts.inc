@@ -474,8 +474,7 @@ RivalsHouse_1F_Text_BrendanWhoAreYou:
 	.string "Was? {PLAYER}, du hast kein einziges\n"
 	.string "Pokémon?\p"
 	.string "Soll ich eines für dich fangen?\p"
-	.string "Ach, Mist, das habe ich ganz\n"
-	.string "vergessen… \p"
+	.string "Ach, Mist, das habe ich ganz vergessen…\p"
 	.string "Ich muss meinem Vater helfen, einige\n"
 	.string "wilde Pokémon zu fangen.\p"
 	.string "Ein anderes Mal, okay?$"
@@ -503,8 +502,7 @@ RivalsHouse_1F_Text_BrendanWhoAreYou:
 RivalsHouse_1F_Text_DoYouHavePokemon:
 #if GERMAN
 	.string "Hey, Nachbar!\p"
-	.string "Hast du schon ein\n"
-	.string "eigenes Pokémon?$"
+	.string "Hast du schon ein eigenes Pokémon?$"
 #else
 	.string "Hi, neighbor!\p"
 	.string "Do you already have your\n"

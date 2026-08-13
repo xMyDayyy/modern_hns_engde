@@ -76,8 +76,8 @@ CeruleanCity_House1_Text_BadgesHaveAmazingSecrets::
 #if GERMAN
 	.string "Nur sehr begabte Trainer tragen\n"
 	.string "Pokémon-Orden.\p"
-	.string "Wie ich sehe, bist du bereits\n"
-	.string "Träger eines Ordens.\p"
+	.string "Wie ich sehe, bist du bereits Träger\n"
+	.string "eines Ordens.\p"
 	.string "Die Orden sind geheimnisumwoben!$"
 #else
 	.string "Only skilled TRAINERS can collect\n"
@@ -100,16 +100,15 @@ CeruleanCity_House1_Text_DescribeWhichBadge::
 
 CeruleanCity_House1_Text_ComeVisitAnytime::
 #if GERMAN
-	.string "Besuche mich, wann immer du\n"
-	.string "möchtest.$"
+	.string "Besuche mich, wann immer du möchtest.$"
 #else
 	.string "Come visit me anytime you wish.$"
 #endif
 
 CeruleanCity_House1_Text_AttackStatFlash::
 #if GERMAN
-	.string "Die Angriffe deiner Pokémon\n"
-	.string "werden ein wenig verstärkt.\p"
+	.string "Die Angriffe deiner Pokémon werden ein\n"
+	.string "wenig verstärkt.\p"
 	.string "Außerdem kannst du jederzeit Blitz\n"
 	.string "einsetzen.$"
 #else

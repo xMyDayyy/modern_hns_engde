@@ -242,8 +242,7 @@ Route36_Text_UseSquirtbottle:
 
 Route36_Text_UsedSquirtbottle:
 #if GERMAN
-	.string "{PLAYER} setzt die\n"
-	.string "Schiggykanne ein!$"
+	.string "{PLAYER} setzt die Schiggykanne ein!$"
 #else
 	.string "{PLAYER} used the SQUIRTBOTTLE.$"
 #endif
@@ -262,8 +261,8 @@ Route36_Text_SudowoodoAttacked:
 Route36_Text_RockSmashGuy1:
 #if GERMAN
 	.string "Wat is los!\p"
-	.string "Ich wollte diesen Baum mit\n"
-	.string "einem geraden Schlag fällen.\p"
+	.string "Ich wollte diesen Baum mit einem\n"
+	.string "geraden Schlag fällen.\p"
 	.string "Aber es ging nicht!\n"
 	.string "Ich bin ein Versager!$"
 #else
@@ -288,10 +287,10 @@ Route36_Text_RockSmashGuy2:
 Route36_Text_RockSmashGuy3:
 #if GERMAN
 	.string "Das ist übrigens Zertrümmerer.\p"
-	.string "Damit kannst du Felsen mit\n"
-	.string "einem gezielten Hieb zertrümmern.\p"
-	.string "Sind dir Steine im Weg,\n"
-	.string "schlag sie einfach kaputt!$"
+	.string "Damit kannst du Felsen mit einem\n"
+	.string "gezielten Hieb zertrümmern.\p"
+	.string "Sind dir Steine im Weg, schlag sie\n"
+	.string "einfach kaputt!$"
 #else
 	.string "That happens to be ROCK SMASH.\p"
 	.string "You can shatter rocks with just a\n"
@@ -324,10 +323,10 @@ Route36_Text_Lass1:
 
 Route36_Text_Lass2_ClearedSudowoodo:
 #if GERMAN
-	.string "Dieser merkwürdige Baum\n"
-	.string "ist spurlos verschwunden.\p"
-	.string "Ach! Der Baum war\n"
-	.string "in Wirklichkeit ein Pokémon?$"
+	.string "Dieser merkwürdige Baum ist spurlos\n"
+	.string "verschwunden.\p"
+	.string "Ach! Der Baum war in Wirklichkeit ein\n"
+	.string "Pokémon?$"
 #else
 	.string "That odd tree disappeared without\n"
 	.string "a trace.\p"
@@ -360,8 +359,8 @@ Route36_Text_PsychicMarkAfter:
 
 Route36_Text_SchoolboyAlan1Seen:
 #if GERMAN
-	.string "Dank meiner Studien bin ich\n"
-	.string "für jedes Pokémon bereit!$"
+	.string "Dank meiner Studien bin ich für jedes\n"
+	.string "Pokémon bereit!$"
 #else
 	.string "Thanks to my studies, I'm ready\n"
 	.string "for any POKéMON!$"
@@ -376,10 +375,9 @@ Route36_Text_SchoolboyAlan1Beaten:
 
 Route36_Text_SchoolboyAlanAfter:
 #if GERMAN
-	.string "Mist. Ich lerne fünf\n"
-	.string "Stunden am Tag.\p"
-	.string "Zum Lernen gehört mehr als\n"
-	.string "nur Bücher zu lesen.$"
+	.string "Mist. Ich lerne fünf Stunden am Tag.\p"
+	.string "Zum Lernen gehört mehr als nur Bücher\n"
+	.string "zu lesen.$"
 #else
 	.string "Darn. I study five hours a day too.\p"
 	.string "There's more to learning than just\n"
@@ -416,8 +414,8 @@ Route36_Text_ArthurGivesGift:
 
 Route36_Text_ArthurGaveGift:
 #if GERMAN
-	.string "Donatus: Ich mag Stein,\n"
-	.string "Stein ist schön und stark.\p"
+	.string "Donatus: Ich mag Stein, Stein ist schön\n"
+	.string "und stark.\p"
 	.string "Huhuhuheheheh.$"
 #else
 	.string "ARTHUR: A POKéMON that uses ROCK-\n"

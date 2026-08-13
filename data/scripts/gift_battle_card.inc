@@ -25,8 +25,8 @@ MysteryGiftScript_BattleCardInfo:
 
 sText_MysteryGiftBattleCountCard:
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast.\p"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast.\p"
 	.string "Auf deiner Kampfkarte wird deine\n"
 	.string "Kampfstatistik gegen Trainer mit\l"
 	.string "derselben Karte festgehalten.\l"
@@ -50,11 +50,11 @@ sText_MysteryGiftBattleCountCard:
 
 sText_MysteryGiftBattleCountCard_WonPrize:
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast.\p"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast.\p"
 	.string "Glückwunsch!\p"
-	.string "Du erhältst einen Preis\n"
-	.string "für drei gewonnene Kämpfe.\p"
+	.string "Du erhältst einen Preis für drei\n"
+	.string "gewonnene Kämpfe.\p"
 	.string "Hoffentlich inspiriert dich das,\n"
 	.string "weiter zu kämpfen.$"
 #else

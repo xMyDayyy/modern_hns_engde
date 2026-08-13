@@ -362,8 +362,8 @@ TwoIsland_Text_BrunoCameToIslandWhileBack::
 
 TwoIsland_Text_BuyRareItemsHere::
 #if GERMAN
-	.string "Der anspruchsvolle Trainer\n"
-	.string "kauft hier seltene Items!$"
+	.string "Der anspruchsvolle Trainer kauft hier\n"
+	.string "seltene Items!$"
 #else
 	.string "The discerning TRAINER knows to\n"
 	.string "buy rare items here!$"

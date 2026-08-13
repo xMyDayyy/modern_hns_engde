@@ -13,8 +13,8 @@ Gate_SaffronCity_Route6_EventScript_Guard2::
 
 Route6_Text_SaffronGuardWelcome:
 #if GERMAN
-	.string "Willkommen in Saffronia City,\n"
-	.string "der Heimat des Magnetzugs!\p"
+	.string "Willkommen in Saffronia City, der Heimat\n"
+	.string "des Magnetzugs!\p"
 	.string "…Das sage ich sonst immer, aber\n"
 	.string "der Magnetzug fährt gerade nicht.\p"
 	.string "Die Stromzufuhr ist unterbrochen, weil\n"

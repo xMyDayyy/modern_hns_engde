@@ -138,8 +138,8 @@ Route31_Text_BugCatcherWade1_Seen:
 
 Route31_Text_BugCatcherWade1_Beaten:
 #if GERMAN
-	.string "Also… irgendwas lief hier\n"
-	.string "gerade mächtig schief!$"
+	.string "Also… irgendwas lief hier gerade\n"
+	.string "mächtig schief!$"
 #else
 	.string "Awwwww…$"
 #endif
@@ -201,17 +201,16 @@ Route31_Text_HandOverMailMon:
 Route31_Text_ReadingMail:
 #if GERMAN
 	.string "Mal sehen…\p"
-	.string "…die Dunkelhöhle\n"
-	.string "führt zu einem anderen Weg…\p"
+	.string "…die Dunkelhöhle führt zu einem\n"
+	.string "anderen Weg…\p"
 	.string "Gut zu wissen.\p"
-	.string "Danke, dass du mir\n"
-	.string "den Brief brachtest.\p"
-	.string "Mein Freund ist\n"
-	.string "ein netter Mensch, genau wie du!\p"
-	.string "Ich möchte mich\n"
-	.string "bei dir dafür revanchieren!\p"
-	.string "Ich hab’s! Ich\n"
-	.string "möchte dir das hier geben!$"
+	.string "Danke, dass du mir den Brief brachtest.\p"
+	.string "Mein Freund ist ein netter Mensch,\n"
+	.string "genau wie du!\p"
+	.string "Ich möchte mich bei dir dafür\n"
+	.string "revanchieren!\p"
+	.string "Ich hab’s! Ich möchte dir das hier\n"
+	.string "geben!$"
 #else
 	.string "Let's see…\p"
 	.string "Thanks for bringing this to\n"
@@ -254,8 +253,8 @@ Route31_Text_WrongMail:
 
 Route31_Text_MissingMail:
 #if GERMAN
-	.string "Was ist so besonders\n"
-	.string "an diesem Pokémon?\p"
+	.string "Was ist so besonders an diesem\n"
+	.string "Pokémon?\p"
 	.string "Es trägt keinen Brief.$"
 #else
 	.string "Why is this POKéMON so special?\p"
@@ -311,10 +310,9 @@ Route31_Text_WadeRegister:
     .string "Du bist spitze! Ich mag dich!\p"
     .string "Ich suche hier jeden Tag nach\n"
     .string "Pokémon.\p"
-    .string "Im hohen Gras finde ich alle\n"
-    .string "möglichen Beeren.\p"
-    .string "Wenn du möchtest, teile ich\n"
-    .string "sie mit dir.$"
+    .string "Im hohen Gras finde ich alle möglichen\n"
+    .string "Beeren.\p"
+    .string "Wenn du möchtest, teile ich sie mit dir.$"
 #else
 	.string "You're awesome! I like you!\p"
 	.string "I look for POKéMON here every\n"
@@ -354,10 +352,9 @@ Route31_Text_WadePostRematch:
 
 Route31_Text_WadeHasItem:
 #if GERMAN
-    .string "Hey! Ich habe nach dir\n"
-    .string "gesucht!\p"
-    .string "Ich habe etwas gefunden,\n"
-    .string "als ich im Gras unterwegs war.\p"
+    .string "Hey! Ich habe nach dir gesucht!\p"
+    .string "Ich habe etwas gefunden, als ich im\n"
+    .string "Gras unterwegs war.\p"
     .string "Hier, du kannst es haben!$"
 #else
 	.string "Hey! I've been looking for\n"
@@ -369,8 +366,8 @@ Route31_Text_WadeHasItem:
 
 Route31_Text_WadeGaveItem:
 #if GERMAN
-    .string "Ich sage dir Bescheid, wenn\n"
-    .string "ich noch etwas finde!$"
+    .string "Ich sage dir Bescheid, wenn ich noch\n"
+    .string "etwas finde!$"
 #else
 	.string "I'll let you know if I find\n"
 	.string "anything else!$"
@@ -378,10 +375,8 @@ Route31_Text_WadeGaveItem:
 
 Route31_Text_WadeNoRoom:
 #if GERMAN
-    .string "Hm, dein Beutel scheint\n"
-    .string "voll zu sein.\p"
-    .string "Komm wieder, wenn du Platz\n"
-    .string "hast!$"
+    .string "Hm, dein Beutel scheint voll zu sein.\p"
+    .string "Komm wieder, wenn du Platz hast!$"
 #else
 	.string "Hmm, looks like your BAG\n"
 	.string "is full.\p"

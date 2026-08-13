@@ -85,12 +85,12 @@ RocketHideout_B3F_Text_LanceGetPassword:
 #if GERMAN
 	.string "Siegfried: Man braucht zwei Passwörter,\n"
 	.string "um zum Boss zu gelangen.\p"
-	.string "Diese Passwörter kennen nur\n"
-	.string "wenige Rocket-Rüpel.\p"
+	.string "Diese Passwörter kennen nur wenige\n"
+	.string "Rocket-Rüpel.\p"
 	.string "Dieser Rocket-Rüpel hat es mir\n"
 	.string "freundlicherweise verraten.\p"
-	.string "{PLAYER}, lass uns die\n"
-	.string "Passwörter besorgen.$"
+	.string "{PLAYER}, lass uns die Passwörter\n"
+	.string "besorgen.$"
 #else
     .string "LANCE: It takes two passwords\n"
     .string "to get into the boss' quarters.\p"
@@ -287,8 +287,8 @@ RocketHideout_B3F_EventScript_Item_HyperPotion::
 RocketHideout_B3F_Text_B3FLockedDoorNeedsPassword:
 #if GERMAN
 	.string "Die Tür ist verschlossen…\p"
-	.string "Zum Öffnen werden zwei\n"
-	.string "Passwörter benötigt.$"
+	.string "Zum Öffnen werden zwei Passwörter\n"
+	.string "benötigt.$"
 #else
     .string "The door's closed…\p"
     .string "It needs two passwords to open.$"
@@ -297,8 +297,7 @@ RocketHideout_B3F_Text_B3FLockedDoorNeedsPassword:
 RocketHideout_B3F_Text_B3FLockedDoorOpenSesame:
 #if GERMAN
 	.string "Die Tür ist verschlossen…\p"
-	.string "{PLAYER} gab die beiden\n"
-	.string "Passwörter ein.\p"
+	.string "{PLAYER} gab die beiden Passwörter ein.\p"
 	.string "Die Tür öffnete sich!$"
 #else
     .string "The door's closed…\p"
@@ -311,12 +310,10 @@ RocketHideout_B3F_Text_Rival:
 	.string "…\p"
 	.string "Hab ich dir nicht gesagt, dass\n"
 	.string "ich Team Rocket zerstören werde?\p"
-	.string "…Sag mir, wer war der Typ im\n"
-	.string "Umhang, der Drachen-Pokémon einsetzt?\p"
-	.string "Meine Pokémon hatten keine\n"
-	.string "Chance.\p"
-	.string "Was mich ärgert, ist, was er\n"
-	.string "gesagt hat…\p"
+	.string "…Sag mir, wer war der Typ im Umhang, der\n"
+	.string "Drachen-Pokémon einsetzt?\p"
+	.string "Meine Pokémon hatten keine Chance.\p"
+	.string "Was mich ärgert, ist, was er gesagt hat…\p"
 	.string "Er meinte, ich liebe und vertraue\n"
 	.string "meinen Pokémon nicht genug.\p"
 	.string "Es ist nicht meine Schuld, dass\n"
@@ -613,8 +610,8 @@ RocketHideout_B3F_Movement_Spin2:
 
 RocketHideout_B3F_Text_PetrelIntro:
 #if GERMAN
-	.string "Muhahaha, wir haben auf dich\n"
-	.string "gewartet. Du bist also {PLAYER}…\p"
+	.string "Muhahaha, wir haben auf dich gewartet.\n"
+	.string "Du bist also {PLAYER}…\p"
 	.string "Ich? Du weißt nicht, wer ich bin?\n"
 	.string "Ich bin Giovanni.\p"
 	.string "Der majestätische Giovanni selbst!\n"
@@ -773,8 +770,8 @@ RocketHideout_B3F_Text_GruntF5After:
 #if GERMAN
 	.string "Das Passwort für den Bossraum\n"
 	.string "ist Flegmonrute.\p"
-	.string "Doch ohne zwei Passwörter\n"
-	.string "nützt es nichts.$"
+	.string "Doch ohne zwei Passwörter nützt es\n"
+	.string "nichts.$"
 #else
     .string "The password to the boss' room\n"
     .string "is SLOWPOKETAIL.\p"
@@ -814,8 +811,7 @@ RocketHideout_B3F_Text_GruntM28After:
 #if GERMAN
 	.string "Hyuck-hyuck-hyuck!\p"
 	.string "Das Passwort für den Bossraum…\p"
-	.string "Ähm… ich glaube, es ist\n"
-	.string "Rattikarl-Rute.$"
+	.string "Ähm… ich glaube, es ist Rattikarl-Rute.$"
 #else
     .string "Hyuck-hyuck-hyuck!\p"
     .string "The password to the boss' room…\p"

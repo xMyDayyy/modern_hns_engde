@@ -72,8 +72,8 @@ OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore::
 
 OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder::
 #if GERMAN
-	.string "Mein Lieblingsteil vom Baden\n"
-	.string "kommt jetzt gleich.\p"
+	.string "Mein Lieblingsteil vom Baden kommt\n"
+	.string "jetzt gleich.\p"
 	.string "Ich genehmige mir eine sämige\n"
 	.string "Fischsuppe, um mich auch von innen\l"
 	.string "aufzuwärmen!$"
@@ -99,8 +99,8 @@ OneIsland_KindleRoad_EmberSpa_Text_WaterExquisiteFullyRefreshed::
 
 OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic::
 #if GERMAN
-	.string "Ein Thermalbad soll heilende\n"
-	.string "Wirkung haben, sagt man.$"
+	.string "Ein Thermalbad soll heilende Wirkung\n"
+	.string "haben, sagt man.$"
 #else
 	.string "Soaking in a hot spring pool is\n"
 	.string "therapeutic, people say.$"
@@ -110,8 +110,8 @@ OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs::
 #if GERMAN
 	.string "Sieh in mein Gesicht! Siehst du,\n"
 	.string "wie glatt meine Haut ist?\p"
-	.string "Das Wasser vom Thermalbad\n"
-	.string "hält meine Haut so jung und straff.$"
+	.string "Das Wasser vom Thermalbad hält meine\n"
+	.string "Haut so jung und straff.$"
 #else
 	.string "Have a look at my face.\n"
 	.string "See how smooth my skin is?\p"
@@ -141,10 +141,10 @@ OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion::
 
 OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa::
 #if GERMAN
-	.string "Thermalbäder und Vulkane\n"
-	.string "gehören zusammen.\p"
-	.string "Die Gluttherme hier habe\n"
-	.string "ich vor Jahren errichtet.\p"
+	.string "Thermalbäder und Vulkane gehören\n"
+	.string "zusammen.\p"
+	.string "Die Gluttherme hier habe ich vor Jahren\n"
+	.string "errichtet.\p"
 	.string "Ich habe das Becken mit meinen Händen\n"
 	.string "aus einem riesigen Stein geformt.\l"
 	.string "Damals habe ich dies benutzt. Ich\l"

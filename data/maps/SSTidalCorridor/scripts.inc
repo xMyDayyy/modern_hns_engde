@@ -379,8 +379,8 @@ SSTidalCorridor_Text_EnjoyYourCruise:
 
 SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole:
 #if GERMAN
-	.string "Durch das Bullauge sieht man\n"
-	.string "den Horizont.$"
+	.string "Durch das Bullauge sieht man den\n"
+	.string "Horizont.$"
 #else
 	.string "The horizon spreads beyond\n"
 	.string "the porthole.$"
@@ -392,8 +392,8 @@ SSTidalCorridor_Text_BrineyWelcomeAboard:
 	.string "{PLAYER}{KUN}! \p"
 	.string "Ich bin jetzt der Kapitän der\n"
 	.string "MS Tide!\p"
-	.string "Du kannst mich ab sofort\n"
-	.string "Kapitän Brack nennen.\p"
+	.string "Du kannst mich ab sofort Kapitän Brack\n"
+	.string "nennen.\p"
 	.string "Ich war zwar schon in Rente gegangen,\n"
 	.string "aber als ich dieses majestätische\l"
 	.string "Schiff gesehen habe…\p"

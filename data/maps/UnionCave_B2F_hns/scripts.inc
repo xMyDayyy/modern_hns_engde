@@ -63,8 +63,7 @@ UnionCave_B2F_Text_CooltrainermNickSeen:
 
 UnionCave_B2F_Text_CooltrainermNickBeaten:
 #if GERMAN
-	.string "Dein Stil ist\n"
-	.string "beeindruckend!$"
+	.string "Dein Stil ist beeindruckend!$"
 #else
 	.string "You've got dazzling style!$"
 #endif

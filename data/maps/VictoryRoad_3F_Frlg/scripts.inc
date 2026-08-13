@@ -67,8 +67,8 @@ Text_DoubleEdgeTeach::
 	.string "Als Anerkennung deiner Leistung möchte\n"
 	.string "ich einem deiner Pokémon Risikotackle\l"
 	.string "beibringen.\p"
-	.string "Soll ich einem Pokémon diese\n"
-	.string "Attacke beibringen?$"
+	.string "Soll ich einem Pokémon diese Attacke\n"
+	.string "beibringen?$"
 #else
 	.string "You should be proud of yourself,\n"
 	.string "having battled your way through\l"
@@ -90,8 +90,8 @@ Text_DoubleEdgeDeclined::
 
 Text_DoubleEdgeWhichMon::
 #if GERMAN
-	.string "Welches Pokémon soll\n"
-	.string "Risikotackle erlernen?$"
+	.string "Welches Pokémon soll Risikotackle\n"
+	.string "erlernen?$"
 #else
 	.string "Which POKéMON should I teach\n"
 	.string "DOUBLE-EDGE?$"
@@ -99,8 +99,7 @@ Text_DoubleEdgeWhichMon::
 
 Text_DoubleEdgeTaught::
 #if GERMAN
-	.string "Mach in der Pokémon Liga so\n"
-	.string "weiter!\p"
+	.string "Mach in der Pokémon Liga so weiter!\p"
 	.string "Überrumple sie und mach sie fertig!$"
 #else
 	.string "Keep that drive going for the\n"
@@ -239,8 +238,8 @@ VictoryRoad_3F_Text_RayNotEnoughMons::
 #if GERMAN
 	.string "Tyro: Zusammen streben wir beide\n"
 	.string "nach dem Gipfel.\p"
-	.string "Du musst zwei Pokémon gegen\n"
-	.string "uns einsetzen!$"
+	.string "Du musst zwei Pokémon gegen uns\n"
+	.string "einsetzen!$"
 #else
 	.string "RAY: Together, the two of us are\n"
 	.string "striving for the pinnacle.\p"
@@ -275,8 +274,8 @@ VictoryRoad_3F_Text_TyraPostBattle::
 
 VictoryRoad_3F_Text_TyraNotEnoughMons::
 #if GERMAN
-	.string "Lore: Mit nur einem Pokémon\n"
-	.string "kannst du nicht gegen uns antreten!$"
+	.string "Lore: Mit nur einem Pokémon kannst du\n"
+	.string "nicht gegen uns antreten!$"
 #else
 	.string "TYRA: You can't battle with us if\n"
 	.string "you have only one POKéMON.$"

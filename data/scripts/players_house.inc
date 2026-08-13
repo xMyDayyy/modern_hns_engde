@@ -372,8 +372,8 @@ PlayersHouse_1F_EventScript_MomHealsParty_PokecenterChallenge::
 
 PlayersHouse_1F_Text_YouShouldRestABit_PokecenterChallenge:
 #if GERMAN
-	.string "Mutti: Tut mir leid, Schatz,\n"
-	.string "du spielst mit Pokécenter challenge!$"
+	.string "Mutti: Tut mir leid, Schatz, du spielst\n"
+	.string "mit Pokécenter challenge!$"
 #else
 	.string "MOM: Sorry honey, you are playing\n"
 	.string "with the POKéCENTER challenge!$"

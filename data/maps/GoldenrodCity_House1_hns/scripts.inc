@@ -27,8 +27,7 @@ GoldenrodCity_NameRatersHouse_Text_AskToggleShinies:
 GoldenrodCity_NameRatersHouse_Text_ToggleShinies:
 #if GERMAN
 	.string "Shiny-Farben getoggled!\p"
-	.string "Siehe deine Einstellungen an\n"
-	.string "einem PC.$"
+	.string "Siehe deine Einstellungen an einem PC.$"
 #else
 	.string "Shiny Colors Toggled!\p"
 	.string "View your setting at the CHALLENGE\n"
@@ -45,8 +44,8 @@ GoldenrodCity_NameRatersHouse_EventScript_RenameRival::
 GoldenrodCity_NameRatersHouse_Text_RenameRival:
 #if GERMAN
 	.string "Es sind die Nachrichten…\p"
-	.string "Die Polizei sucht diesen\n"
-	.string "rothaarigen Jungen!\p"
+	.string "Die Polizei sucht diesen rothaarigen\n"
+	.string "Jungen!\p"
 	.string "Kennst du seinen Namen?$"
 #else
 	.string "It's the news...\p"
@@ -204,8 +203,8 @@ GoldenrodCity_NameRatersHouse_Text_MagnificentName:
 	.string "Hmmm… {STR_VAR_1}, wie prächtig!\p"
 	.string "Das ist ein wunderbarer Spitzname!\n"
 	.string "Er ist vollkommen tadellos!\p"
-	.string "Pflege deinen {STR_VAR_1} gut\n"
-	.string "von nun an und in Zukunft.$"
+	.string "Pflege deinen {STR_VAR_1} gut von nun an\n"
+	.string "und in Zukunft.$"
 #else
 	.string "Hmmm… {STR_VAR_1} it is!\p"
 	.string "This is a magnificent nickname!\n"

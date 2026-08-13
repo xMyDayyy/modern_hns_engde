@@ -70,8 +70,8 @@ VictoryRoad_1F_Text_NaomiPostBattle::
 
 VictoryRoad_1F_Text_RolandoIntro::
 #if GERMAN
-	.string "Ich glaube, du bist gut! Gut\n"
-	.string "genug, um mich zu schlagen?$"
+	.string "Ich glaube, du bist gut! Gut genug, um\n"
+	.string "mich zu schlagen?$"
 #else
 	.string "I can see you're good.\n"
 	.string "Let me see exactly how good!$"

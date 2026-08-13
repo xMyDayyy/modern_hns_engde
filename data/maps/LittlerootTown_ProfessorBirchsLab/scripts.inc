@@ -660,10 +660,10 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
 #if GERMAN
 	.string "Wie? Prof. Birk?\p"
-	.string "Der Prof arbeitet an einer\n"
-	.string "Feld-Studie. Also ist er nicht hier.\p"
-	.string "Oh, ich erkläre dir, was eine\n"
-	.string "Feld-Studie in diesem Falle ist:\p"
+	.string "Der Prof arbeitet an einer Feld-Studie.\n"
+	.string "Also ist er nicht hier.\p"
+	.string "Oh, ich erkläre dir, was eine Feld-Studie\n"
+	.string "in diesem Falle ist:\p"
 	.string "Man beobachtet und studiert Dinge in\n"
 	.string "ihrem natürlichen Umfeld. In Feldern\l"
 	.string "oder auf Bergen, anstatt im Labor.\p"
@@ -745,8 +745,8 @@ LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
 #if GERMAN
-	.string "Prof. Birk: Willst du dem\n"
-	.string "{STR_VAR_1} einen Kosenamen geben?$"
+	.string "Prof. Birk: Willst du dem {STR_VAR_1} einen\n"
+	.string "Kosenamen geben?$"
 #else
 	.string "PROF. BIRCH: While you're at it, why not\n"
 	.string "give a nickname to that {STR_VAR_1}?$"
@@ -1254,8 +1254,8 @@ LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon:
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter:
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "{STR_VAR_1} von Prof. Birk!$"
+	.string "{PLAYER} erhält {STR_VAR_1} von Prof.\n"
+	.string "Birk!$"
 #else
 	.string "{PLAYER} received the {STR_VAR_1}\n"
 	.string "from PROF. BIRCH!$"

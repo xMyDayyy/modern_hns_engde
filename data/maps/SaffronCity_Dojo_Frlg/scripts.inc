@@ -317,8 +317,8 @@ SaffronCity_Dojo_Text_HitoshiPostBattle::
 
 SaffronCity_Dojo_Text_YouWantHitmonlee::
 #if GERMAN
-	.string "Möchtest du Kicklee, das\n"
-	.string "trittstarke Pokémon?$"
+	.string "Möchtest du Kicklee, das trittstarke\n"
+	.string "Pokémon?$"
 #else
 	.string "You want the hard-kicking\n"
 	.string "HITMONLEE?$"
@@ -326,8 +326,7 @@ SaffronCity_Dojo_Text_YouWantHitmonlee::
 
 SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} erhält {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the {STR_VAR_1}\n"
 	.string "from the KARATE MASTER.$"

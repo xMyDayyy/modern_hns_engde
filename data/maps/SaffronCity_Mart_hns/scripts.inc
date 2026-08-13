@@ -17,8 +17,8 @@ SaffronMart_Text_CooltrainerM:
 
 SaffronMart_Text_CooltrainerF:
 #if GERMAN
-	.string "Ich will stärker werden, aber\n"
-	.string "es klappt nicht so richtig…\p"
+	.string "Ich will stärker werden, aber es klappt\n"
+	.string "nicht so richtig…\p"
 	.string "Könntest du mir nicht ein paar\n"
 	.string "Tricks und Kniffe zeigen?$"
 #else

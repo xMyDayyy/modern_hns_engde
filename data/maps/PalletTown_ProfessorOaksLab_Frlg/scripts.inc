@@ -1327,8 +1327,8 @@ PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
 #if GERMAN
-	.string "{RIVAL}: Ich bin nicht so\n"
-	.string "ungeduldig wie du!\p"
+	.string "{RIVAL}: Ich bin nicht so ungeduldig\n"
+	.string "wie du!\p"
 	.string "Du darfst zuerst wählen, {PLAYER}!$"
 #else
 	.string "{RIVAL}: Heh, I don't need to be\n"
@@ -1345,8 +1345,7 @@ PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
 
 PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
 #if GERMAN
-	.string "{RIVAL} erhält\n"
-	.string "{STR_VAR_1}!$"
+	.string "{RIVAL} erhält {STR_VAR_1}!$"
 #else
 	.string "{RIVAL} received the {STR_VAR_1}\n"
 	.string "from PROF. OAK!$"
@@ -1436,10 +1435,10 @@ PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
 #if GERMAN
 	.string "{PLAYER}, es tut mir Leid, aber ich\n"
 	.string "brauche deine Hilfe nicht!\p"
-	.string "Genau! Ich leihe mir von\n"
-	.string "meiner Schwester eine Karte!\p"
-	.string "Und dir soll sie keine geben,\n"
-	.string "{PLAYER}! Hahaha!$"
+	.string "Genau! Ich leihe mir von meiner\n"
+	.string "Schwester eine Karte!\p"
+	.string "Und dir soll sie keine geben, {PLAYER}!\n"
+	.string "Hahaha!$"
 #else
 	.string "{PLAYER}, I hate to say it, but you\n"
 	.string "won't be necessary for this.\p"
@@ -1497,8 +1496,7 @@ PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
 PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
 #if GERMAN
 	.string "Eich: Also {PLAYER}!\p"
-	.string "In diesen Pokébällen sind\n"
-	.string "Pokémon.\p"
+	.string "In diesen Pokébällen sind Pokémon.\p"
 	.string "Welches möchtest du haben?$"
 #else
 	.string "OAK: Now, {PLAYER}.\p"
@@ -1510,8 +1508,8 @@ PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
 
 PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
 #if GERMAN
-	.string "Prof. Eich: Warte noch einen\n"
-	.string "Moment, bevor du gehst!$"
+	.string "Prof. Eich: Warte noch einen Moment,\n"
+	.string "bevor du gehst!$"
 #else
 	.string "OAK: Hey!\n"
 	.string "Don't go away yet!$"
@@ -1566,8 +1564,7 @@ PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
 
 PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "{STR_VAR_1}!$"
+	.string "{PLAYER} erhält {STR_VAR_1}!$"
 #else
 	.string "{PLAYER} received the {STR_VAR_1}\n"
 	.string "from PROF. OAK!$"
@@ -1616,8 +1613,7 @@ PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
 
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
 #if GERMAN
-	.string "{PLAYER} übergibt\n"
-	.string "Prof. Eich das Paket.$"
+	.string "{PLAYER} übergibt Prof. Eich das Paket.$"
 #else
 	.string "{PLAYER} delivered OAK'S PARCEL.$"
 #endif
@@ -1695,8 +1691,7 @@ PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "fünf Pokébälle!$"
+	.string "{PLAYER} erhält fünf Pokébälle!$"
 #else
 	.string "{PLAYER} received five POKé BALLS.$"
 #endif
@@ -1762,8 +1757,7 @@ PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
 	.string "Was macht dein Pokédex?\p"
 	.string "{RIVAL} hat bereits einige Pokémon\n"
 	.string "gefangen und die Infos erhalten.\p"
-	.string "Zeig mir deinen Pokédex,\n"
-	.string "{PLAYER}!\p"
+	.string "Zeig mir deinen Pokédex, {PLAYER}!\p"
 	.string "… was ist los?\n"
 	.string "Du hast keine neuen Infos!\p"
 	.string "Ich gebe dir das, damit du dich\n"
@@ -1813,8 +1807,7 @@ PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls::
 
 PalletTown_ProfessorOaksLab_Text_OaksLastMon::
 #if GERMAN
-	.string "Das ist Prof. Eichs letztes\n"
-	.string "Pokémon!$"
+	.string "Das ist Prof. Eichs letztes Pokémon!$"
 #else
 	.string "That's PROF. OAK's last POKéMON.$"
 #endif
@@ -1893,8 +1886,8 @@ PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
 	.string "dir, wie sehr sie dich mögen.\l"
 	.string "Manchmal pflegt sie auch ein Pokémon\l"
 	.string "für dich.\p"
-	.string "Das ist aber ein Geheimnis,\n"
-	.string "verrate es also nicht!$"
+	.string "Das ist aber ein Geheimnis, verrate es\n"
+	.string "also nicht!$"
 #else
 	.string "Hi, {PLAYER}. I bet you've become\n"
 	.string "good friends with your POKéMON.\p"
@@ -1949,8 +1942,8 @@ PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
 
 PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
 #if GERMAN
-	.string "In letzter Zeit wurden viele\n"
-	.string "seltene Pokémon gesichtet.\p"
+	.string "In letzter Zeit wurden viele seltene\n"
+	.string "Pokémon gesichtet.\p"
 	.string "Ich spreche von Pokémon, die nie\n"
 	.string "zuvor in Kanto aufgetaucht sind.\p"
 	.string "Ich würde mir das gerne selbst\n"
@@ -1972,12 +1965,11 @@ PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
 PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
 #if GERMAN
 	.string "{RIVAL}: Das habe ich gehört!\p"
-	.string "Opsi, warum gibst du immer\n"
-	.string "{PLAYER} den Vorzug gegenüber mir?\p"
+	.string "Opsi, warum gibst du immer {PLAYER} den\n"
+	.string "Vorzug gegenüber mir?\p"
 	.string "Ich habe mehr Pokémon gefangen\n"
 	.string "und auch noch schneller!\p"
-	.string "Ich sollte mich also um alles\n"
-	.string "kümmern!$"
+	.string "Ich sollte mich also um alles kümmern!$"
 #else
 	.string "{RIVAL}: Hey, I heard that!\p"
 	.string "Gramps, what's with favoring\n"
@@ -1990,8 +1982,8 @@ PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
 
 PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes::
 #if GERMAN
-	.string "Eich: Ich weiß, ich weiß! Ich\n"
-	.string "brauche natürlich auch deine Hilfe!\p"
+	.string "Eich: Ich weiß, ich weiß! Ich brauche\n"
+	.string "natürlich auch deine Hilfe!\p"
 	.string "Lasst mich eure beiden Pokédex\n"
 	.string "sehen!$"
 #else
@@ -2054,8 +2046,7 @@ PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex::
 
 PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
 #if GERMAN
-	.string "{RIVAL}: Ruhig, Opsi! Keine\n"
-	.string "Aufregung!\p"
+	.string "{RIVAL}: Ruhig, Opsi! Keine Aufregung!\p"
 	.string "Ich vervollständige den Pokédex!\n"
 	.string "Mach dir keine Gedanken!\p"
 	.string "Ich denke, ich werde mich zunächst\n"

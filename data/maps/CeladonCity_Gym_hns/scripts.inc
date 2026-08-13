@@ -224,8 +224,8 @@ CeladonCity_Gym_Text_BeautyJuliaBeaten:
 
 CeladonCity_Gym_Text_BeautyJuliaAfter:
 #if GERMAN
-	.string "Wie werde ich eine Edeldame\n"
-	.string "so wie Erika?$"
+	.string "Wie werde ich eine Edeldame so wie\n"
+	.string "Erika?$"
 #else
 	.string "How do I go about becoming\n"
 	.string "ladylike like ERIKA?$"

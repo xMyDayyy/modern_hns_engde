@@ -40,16 +40,16 @@ GoldenrodDeptStore1_EventScript_Directory::
 
 GoldenrodDeptStor1_Text_Receptionist:
 #if GERMAN
-	.string "Willkommen im\n"
-	.string "Kaufhaus von Dukatia City.$"
+	.string "Willkommen im Kaufhaus von Dukatia\n"
+	.string "City.$"
 #else
     .string "Welcome to GOLDENROD DEPT.STORE.$"
 #endif
 
 GoldenrodDeptStore1_Text_Gentleman:
 #if GERMAN
-	.string "Das Kaufhaus\n"
-	.string "bietet eine große Auswahl.\p"
+	.string "Das Kaufhaus bietet eine große\n"
+	.string "Auswahl.\p"
 	.string "Aber einige Items erhält man nur als\n"
 	.string "Preis in der Spielhalle.$"
 #else

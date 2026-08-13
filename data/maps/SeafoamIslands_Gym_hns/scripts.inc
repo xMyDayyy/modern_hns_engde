@@ -82,8 +82,8 @@ SeafoamIslands_Gym_Text_GymStatuePlayerWon::
 
 SeafoamIslands_Gym_Text_TM:
 #if GERMAN
-	.string "Nimm auch das hier. Diese TM\n"
-	.string "enthält die mächtige Hitzekoller.\p"
+	.string "Nimm auch das hier. Diese TM enthält die\n"
+	.string "mächtige Hitzekoller.\p"
 	.string "Ich hoffe, dein nächster Gegner\n"
 	.string "hat Feuerheiler dabei! Waaah!$"
 #else
@@ -110,8 +110,7 @@ SeafoamIslands_Gym_Text_BlaineIntro:
 SeafoamIslands_Gym_Text_BlaineWinLoss:
 #if GERMAN
 	.string "Pyro: Toll. Ich bin ausgebrannt…\p"
-	.string "Du hast den Vulkanorden\n"
-	.string "verdient!$"
+	.string "Du hast den Vulkanorden verdient!$"
 #else
 	.string "BLAINE: Awesome. I've burned out…\p"
 	.string "You've earned VOLCANOBADGE!$"
@@ -119,8 +118,7 @@ SeafoamIslands_Gym_Text_BlaineWinLoss:
 
 SeafoamIslands_Gym_Text_ReceivedVolcanoBadge:
 #if GERMAN
-	.string "{PLAYER} erhielt den\n"
-	.string "Vulkanorden.$"
+	.string "{PLAYER} erhielt den Vulkanorden.$"
 #else
 	.string "{PLAYER} received VOLCANOBADGE.$"
 #endif
@@ -168,8 +166,8 @@ SeafoamIslands_Gym_Text_BlaineRematch:
 
 SeafoamIslands_Gym_Text_BlaineRematchDefeat:
 #if GERMAN
-	.string "Pyro: Deine Fähigkeiten\n"
-	.string "sind wirklich feurig!\p"
+	.string "Pyro: Deine Fähigkeiten sind wirklich\n"
+	.string "feurig!\p"
 	.string "Du hast meine Verteidigung\n"
 	.string "niedergebrannt.$"
 #else

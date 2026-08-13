@@ -211,8 +211,8 @@ LakeOfRage_House2_Text_TooShort:
 	.string "Wow! Der ist großartig!\p"
 	.string "…Aber ich habe schon größere\n"
 	.string "gesehen.\p"
-	.string "Ich schätze, er ist trotzdem\n"
-	.string "etwas wert.$"
+	.string "Ich schätze, er ist trotzdem etwas\n"
+	.string "wert.$"
 #else
     .string "Wow! This one is outstanding!\p"
     .string "…I wish I could say that, but I've\n"

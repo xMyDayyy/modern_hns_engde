@@ -31,8 +31,7 @@ FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke::
 
 FuchsiaCity_SafariZone_Office_Text_WardenIsVeryKnowledgeable::
 #if GERMAN
-	.string "Flegmon weiß eine Menge über\n"
-	.string "Pokémon!\p"
+	.string "Flegmon weiß eine Menge über Pokémon!\p"
 	.string "Er besitzt sogar einige Fossilien\n"
 	.string "ausgestorbener Urzeit-Pokémon!$"
 #else
@@ -58,8 +57,8 @@ FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone::
 #if GERMAN
 	.string "Flegmon hält zur Zeit eine\n"
 	.string "Werbekampagne.\p"
-	.string "Erreiche die abgelegenste\n"
-	.string "Stelle in der Safari-Zone.\p"
+	.string "Erreiche die abgelegenste Stelle in der\n"
+	.string "Safari-Zone.\p"
 	.string "Wenn du das schaffst, erhältst\n"
 	.string "du einen praktischen Preis!$"
 #else

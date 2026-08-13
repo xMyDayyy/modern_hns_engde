@@ -84,8 +84,8 @@ GoldenrodDeptStore_Text_RoofPokefanF:
 
 GoldenrodDeptStore_Text_RoofFisher:
 #if GERMAN
-	.string "Bitte? Wer sagt,\n"
-	.string "dass das nichts für Erwachsene ist?\p"
+	.string "Bitte? Wer sagt, dass das nichts für\n"
+	.string "Erwachsene ist?\p"
 	.string "Ich komme jeden Tag, um wirklich\n"
 	.string "alle Puppen zu bekommen!$"
 #else
@@ -122,8 +122,8 @@ GoldenrodDeptStore_Text_RoofPokefanM:
 	.string "Es gibt etwas, das ich unbedingt\n"
 	.string "möchte, aber mir fehlt das nötige\l"
 	.string "Kleingeld…\p"
-	.string "Soll ich meine\n"
-	.string "gesammelten Beeren verkaufen…$"
+	.string "Soll ich meine gesammelten Beeren\n"
+	.string "verkaufen…$"
 #else
     .string "There's something I really want,\n"
     .string "but I don't have the necessary cash…\p"
@@ -134,8 +134,8 @@ GoldenrodDeptStore_Text_RoofPokefanM:
 GoldenrodDeptStore_Text_RoofTeacher:
 #if GERMAN
 	.string "Oh, alles ist so billig!\p"
-	.string "Ich habe soviel\n"
-	.string "gekauft, dass mein Beutel voll ist!$"
+	.string "Ich habe soviel gekauft, dass mein\n"
+	.string "Beutel voll ist!$"
 #else
     .string "Oh, everything is so cheap!\p"
     .string "I bought so much, my PACK's crammed!$"

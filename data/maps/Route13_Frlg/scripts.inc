@@ -15,8 +15,7 @@ Route13_EventScript_RouteSign::
 
 Route13_Text_SebastianIntro::
 #if GERMAN
-	.string "Meine Vogel-Pokémon wollen\n"
-	.string "kämpfen!$"
+	.string "Meine Vogel-Pokémon wollen kämpfen!$"
 #else
 	.string "My bird POKéMON want to battle\n"
 	.string "with you!$"
@@ -83,8 +82,8 @@ Route13_Text_ValerieDefeat::
 
 Route13_Text_ValeriePostBattle::
 #if GERMAN
-	.string "Du hast diese Orden im Kampf\n"
-	.string "gegen Arenaleiter gewonnen, oder?$"
+	.string "Du hast diese Orden im Kampf gegen\n"
+	.string "Arenaleiter gewonnen, oder?$"
 #else
 	.string "You got those BADGES from GYM\n"
 	.string "LEADERS. I know!$"
@@ -136,8 +135,8 @@ Route13_Text_AlmaDefeat::
 
 Route13_Text_AlmaPostBattle::
 #if GERMAN
-	.string "Mit dem Carbon habe ich die\n"
-	.string "Initiative meiner Pokémon erhöht.$"
+	.string "Mit dem Carbon habe ich die Initiative\n"
+	.string "meiner Pokémon erhöht.$"
 #else
 	.string "CARBOS boosted the SPEED of my\n"
 	.string "POKéMON.$"
@@ -145,8 +144,7 @@ Route13_Text_AlmaPostBattle::
 
 Route13_Text_PerryIntro::
 #if GERMAN
-	.string "Bin unterwegs und habe\n"
-	.string "Rückenwind...$"
+	.string "Bin unterwegs und habe Rückenwind...$"
 #else
 	.string "I'm not going to lose.\n"
 	.string "Not when the wind's blowing my way!$"
@@ -170,8 +168,7 @@ Route13_Text_PerryPostBattle::
 
 Route13_Text_LolaIntro::
 #if GERMAN
-	.string "Natürlich werde ich mit dir\n"
-	.string "spielen!$"
+	.string "Natürlich werde ich mit dir spielen!$"
 #else
 	.string "Sure, I'll play with you, sweetie.$"
 #endif

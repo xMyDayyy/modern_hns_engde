@@ -127,8 +127,7 @@ Route16_NorthEntrance_2F_Text_GreatHereYouGo::
 
 Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "Münzamulett!$"
+	.string "{PLAYER} erhält Münzamulett!$"
 #else
 	.string "{PLAYER} received the AMULET COIN\n"
 	.string "from the AIDE.$"
@@ -136,8 +135,8 @@ Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide::
 
 Route16_NorthEntrance_2F_Text_ExplainAmuletCoin::
 #if GERMAN
-	.string "Ein Münzamulett kann von\n"
-	.string "einem Pokémon getragen werden.\p"
+	.string "Ein Münzamulett kann von einem Pokémon\n"
+	.string "getragen werden.\p"
 	.string "Nimmt das Pokémon an einem siegreichen\n"
 	.string "Kampf teil, verdoppelt sich das\l"
 	.string "Preisgeld.$"

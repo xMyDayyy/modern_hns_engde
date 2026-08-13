@@ -79,8 +79,8 @@ Route35GoldenrodGate_Text_RandyAskFavor:
 #if GERMAN
 	.string "Entschuldige, Kleiner!\n"
 	.string "Kannst du mir einen Gefallen tun?\p"
-	.string "Kannst du dieses Pokémon\n"
-	.string "meinem Freund auf Route 31 bringen?\p"
+	.string "Kannst du dieses Pokémon meinem Freund\n"
+	.string "auf Route 31 bringen?\p"
 	.string "Du wirst ihn sofort erkennen!$"
 #else
 	.string "Excuse me, kid! Can you do a guy\n"
@@ -92,8 +92,7 @@ Route35GoldenrodGate_Text_RandyAskFavor:
 
 Route35GoldenrodGate_Text_RandyThanks:
 #if GERMAN
-	.string "Das würdest du\n"
-	.string "tun? Super! Vielen Dank!\p"
+	.string "Das würdest du tun? Super! Vielen Dank!\p"
 	.string "Mein Freund ist\n"
 	.string "ein Flegel! Er schläft die ganze Zeit.\l"
 	.string "\p"
@@ -121,8 +120,8 @@ Route35GoldenrodGate_Text_RandyWeirdTree:
 	.string "Route 31!\p"
 	.string "Stimmt! Ein merkwürdiger Baum hat die\n"
 	.string "Straße blockiert.\p"
-	.string "Ich frage mich,\n"
-	.string "ob die Straße jetzt frei ist.$"
+	.string "Ich frage mich, ob die Straße jetzt frei\n"
+	.string "ist.$"
 #else
 	.string "Make sure to put it at the front of\n"
 	.string "your team when you find my friend!\p"
@@ -134,8 +133,8 @@ Route35GoldenrodGate_Text_RandyWeirdTree:
 
 Route35GoldenrodGate_Text_CantCarryMoreMon:
 #if GERMAN
-	.string "Du kannst kein\n"
-	.string "weiteres Pokémon mehr tragen…$"
+	.string "Du kannst kein weiteres Pokémon mehr\n"
+	.string "tragen…$"
 #else
 	.string "You can't carry another POKéMON…$"
 #endif
@@ -149,8 +148,8 @@ Route35GoldenrodGate_Text_RandyNeverMind:
 
 Route35GoldenrodGate_Text_ThanksForDelivery:
 #if GERMAN
-	.string "Danke, Kleiner! Du hast die\n"
-	.string "Nachricht für mich übergeben!\p"
+	.string "Danke, Kleiner! Du hast die Nachricht\n"
+	.string "für mich übergeben!\p"
 	.string "Hier, eine Kleinigkeit für dich!$"
 #else
 	.string "Thanks, kid! You made the delivery\n"
@@ -196,8 +195,8 @@ Route35GoldenrodGate_Text_Fisher:
 	.string "Ich frage mich, wie viele Arten\p"
 	.string "von Pokémon es wohl geben mag.\p"
 	.string "Vor drei Jahren hat Prof. Eich\p"
-	.string "verlautbart, dass\n"
-	.string "es 150 verschiedene Arten geben soll.$"
+	.string "verlautbart, dass es 150 verschiedene\n"
+	.string "Arten geben soll.$"
 #else
 	.string "I wonder how many kinds of POKéMON\n"
 	.string "there are in the world.\p"

@@ -135,8 +135,8 @@ Route39_EventScript_BaobaIntro::
 
 Route39_Text_ChooseLegend::
 #if GERMAN
-	.string "Baoba: Grundgütiger! Gehört\n"
-	.string "dieser Schatten zu einem Pokémon?\p"
+	.string "Baoba: Grundgütiger! Gehört dieser\n"
+	.string "Schatten zu einem Pokémon?\p"
 	.string "Hast du es sehen können?\n"
 	.string "Ich konnte die Farbe nicht erkennen…$"
 #else
@@ -195,8 +195,8 @@ Route39_Text_BaobaIntro::
 
 Route39_Text_Registered:
 #if GERMAN
-	.string "{PLAYER} hat Baobas Nummer\n"
-	.string "im PokéCom registriert!$"
+	.string "{PLAYER} hat Baobas Nummer im PokéCom\n"
+	.string "registriert!$"
 #else
 	.string "{PLAYER} registered BAOBA\n"
 	.string "in the POKéGEAR!$"
@@ -336,8 +336,8 @@ Route39_EventScript_DerekNoRoom::
 
 Route39_Text_PokefanMDerekSeen:
 #if GERMAN
-	.string "Genau der richtige Moment,\n"
-	.string "um mit Pikachu anzugeben!$"
+	.string "Genau der richtige Moment, um mit\n"
+	.string "Pikachu anzugeben!$"
 #else
 	.string "This is a good time to brag\n"
 	.string "about my PIKACHU!$"
@@ -345,8 +345,8 @@ Route39_Text_PokefanMDerekSeen:
 
 Route39_Text_PokefanMDerekBeaten:
 #if GERMAN
-	.string "Ich hatte keine Zeit,\n"
-	.string "mit Pikachu zu prahlen…$"
+	.string "Ich hatte keine Zeit, mit Pikachu zu\n"
+	.string "prahlen…$"
 #else
 	.string "I had no time to show off\n"
 	.string "PIKACHU…$"
@@ -371,8 +371,7 @@ Route39_Text_PokefanFRuthSeen:
 
 Route39_Text_PokefanFRuthBeaten:
 #if GERMAN
-	.string "Mir macht es nichts aus\n"
-	.string "zu verlieren.$"
+	.string "Mir macht es nichts aus zu verlieren.$"
 #else
 	.string "I don't mind losing.$"
 #endif
@@ -404,8 +403,8 @@ Route39_Text_PsychicNormanSeen:
 
 Route39_Text_PsychicNormanBeaten:
 #if GERMAN
-	.string "Nicht schlecht! Dein Team\n"
-	.string "hat viel Talent!$"
+	.string "Nicht schlecht! Dein Team hat viel\n"
+	.string "Talent!$"
 #else
 	.string "Ooh, your POKéMON have\n"
 	.string "potential.$"
@@ -525,8 +524,8 @@ Route39_Text_TrainerTips:
 
 Route39_Text_DerekRegister:
 #if GERMAN
-    .string "Ich höre mir deine Angeberei\n"
-    .string "gar nicht erst an!\p"
+    .string "Ich höre mir deine Angeberei gar nicht\n"
+    .string "erst an!\p"
     .string "Wir Pokémaniacs haben nämlich die\n"
     .string "Regel, Angebereien zu ignorieren!$"
 #else

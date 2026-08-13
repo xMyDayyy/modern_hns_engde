@@ -74,8 +74,8 @@ FarawayIsland_Entrance_Text_SailorReturn:
 #if GERMAN
 	.string "Kapitän Brack ist manchmal\n"
 	.string "unberechenbar…\p"
-	.string "Möchtest du zurück nach\n"
-	.string "Seegrasulb City?$"
+	.string "Möchtest du zurück nach Seegrasulb\n"
+	.string "City?$"
 #else
 	.string "CAPT. BRINEY can be so maddeningly\n"
 	.string "fickle…\p"

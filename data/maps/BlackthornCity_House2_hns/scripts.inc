@@ -30,8 +30,8 @@ BlackthornCity_House2_Text_YouWillTradeWontYou:
 #if GERMAN
 	.string "Ich sammele Pokémon!\n"
 	.string "Hast du ein {STR_VAR_1}?\p"
-	.string "Möchtest du es gegen\n"
-	.string "mein {STR_VAR_2} tauschen?$"
+	.string "Möchtest du es gegen mein {STR_VAR_2}\n"
+	.string "tauschen?$"
 #else
 	.string "I collect POKéMON!\n"
 	.string "Do you have a {STR_VAR_1}?\p"

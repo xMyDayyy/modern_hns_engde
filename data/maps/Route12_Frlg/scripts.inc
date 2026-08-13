@@ -58,8 +58,8 @@ Route12_EventScript_FishingSign::
 
 Route12_Text_MonSprawledOutInSlumber::
 #if GERMAN
-	.string "Ein schlafendes Pokémon\n"
-	.string "versperrt den Weg!$"
+	.string "Ein schlafendes Pokémon versperrt den\n"
+	.string "Weg!$"
 #else
 	.string "A POKéMON is sprawled out in\n"
 	.string "a deep and comfortable slumber.$"
@@ -68,8 +68,8 @@ Route12_Text_MonSprawledOutInSlumber::
 Text_SnorlaxWokeUp::
 #if GERMAN
 	.string "Relaxo ist aufgewacht!\p"
-	.string "Es ist brummig und greift\n"
-	.string "verschlafen an!$"
+	.string "Es ist brummig und greift verschlafen\n"
+	.string "an!$"
 #else
 	.string "SNORLAX woke up!\p"
 	.string "It attacked in a grumpy rage!$"
@@ -231,8 +231,7 @@ Route12_Text_HankPostBattle::
 
 Route12_Text_ElliotIntro::
 #if GERMAN
-	.string "Eigentlich würde ich lieber\n"
-	.string "arbeiten...$"
+	.string "Eigentlich würde ich lieber arbeiten...$"
 #else
 	.string "I love fishing, don't get me wrong.\p"
 	.string "But it'd be best if I also had more\n"
@@ -241,8 +240,7 @@ Route12_Text_ElliotIntro::
 
 Route12_Text_ElliotDefeat::
 #if GERMAN
-	.string "Das war wahrlich kein\n"
-	.string "Zuckerschlecken!$"
+	.string "Das war wahrlich kein Zuckerschlecken!$"
 #else
 	.string "It's not easy…$"
 #endif

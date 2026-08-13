@@ -88,8 +88,7 @@ Route15_WestEntrance_2F_Text_GreatHereYouGo::
 
 Route15_WestEntrance_2F_Text_ReceivedItemFromAide::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "{STR_VAR_2}!$"
+	.string "{PLAYER} erhält {STR_VAR_2}!$"
 #else
 	.string "{PLAYER} received the {STR_VAR_2}\n"
 	.string "from the AIDE.$"

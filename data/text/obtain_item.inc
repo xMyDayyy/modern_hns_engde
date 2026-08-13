@@ -64,8 +64,7 @@ gText_NoRoomLeftForAnother::
 
 gText_TheDecorWasTransferredToThePC::
 #if GERMAN
-	.string "{STR_VAR_2} wurde auf den PC\n"
-	.string "übertragen.$"
+	.string "{STR_VAR_2} wurde auf den PC übertragen.$"
 #else
 	.string "The {STR_VAR_2} was transferred\n"
 	.string "to the PC.$"
@@ -96,8 +95,7 @@ gText_PutCoinsAwayInCoinCase::
 
 gText_FoundXCoins::
 #if GERMAN
-	.string "{PLAYER} findet\n"
-	.string "{STR_VAR_1} {STR_VAR_2}!$"
+	.string "{PLAYER} findet {STR_VAR_1} {STR_VAR_2}!$"
 #else
 	.string "{PLAYER} found\n"
 	.string "{STR_VAR_1} {STR_VAR_2}!$"
@@ -105,8 +103,7 @@ gText_FoundXCoins::
 
 gText_FoundXItems::
 #if GERMAN
-	.string "{PLAYER} findet\n"
-	.string "{STR_VAR_1} {STR_VAR_2}(s)!$"
+	.string "{PLAYER} findet {STR_VAR_1} {STR_VAR_2}(s)!$"
 #else
 	.string "{PLAYER} found\n"
 	.string "{STR_VAR_1} {STR_VAR_2}(s)!$"

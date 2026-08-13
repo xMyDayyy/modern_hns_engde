@@ -432,8 +432,7 @@ Route119_WeatherInstitute_2F_Text_GroudonWeather:
 	.string "der Hoenn-Region auf.\p"
 	.string "Im Moment gibt es eine Dürre. Und\n"
 	.string "zwar… auf der {STR_VAR_1}.\p"
-	.string "Bedeutet das, dass auf der\n"
-	.string "{STR_VAR_1}…$"
+	.string "Bedeutet das, dass auf der {STR_VAR_1}…$"
 #else
 	.string "I track weather patterns over\n"
 	.string "the HOENN region.\p"
@@ -449,8 +448,7 @@ Route119_WeatherInstitute_2F_Text_KyogreWeather:
 	.string "der Hoenn-Region auf.\p"
 	.string "Im Moment gibt es starke Niederschläge.\n"
 	.string "Und zwar… auf der {STR_VAR_1}.\p"
-	.string "Bedeutet das, dass auf der\n"
-	.string "{STR_VAR_1}…$"
+	.string "Bedeutet das, dass auf der {STR_VAR_1}…$"
 #else
 	.string "I track weather patterns over\n"
 	.string "the HOENN region.\p"

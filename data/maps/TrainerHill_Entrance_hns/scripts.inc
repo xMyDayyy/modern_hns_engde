@@ -300,8 +300,8 @@ TrainerHill_Entrance_hns_Text_Money:
 	.string "erreichst, bekommst du Geld.\p"
 	.string "Unter zehn Minuten kannst du\n"
 	.string "bis zu 1.000.000¥ gewinnen!\p"
-	.string "Dauert es länger, fällt die\n"
-	.string "Belohnung geringer aus…$"
+	.string "Dauert es länger, fällt die Belohnung\n"
+	.string "geringer aus…$"
 #else
 	.string "Every time you reach the top,\n"
 	.string "you earn some money.\p"
@@ -340,8 +340,8 @@ TrainerHill_Entrance_hns_Text_WelcomeToTrainerHill:
 TrainerHill_Entrance_hns_Text_SaveGameBeforeEnter:
 #if GERMAN
 	.string "Ist das dein erster Besuch?\p"
-	.string "Bitte speichere dein Spiel,\n"
-	.string "bevor du eintrittst.$"
+	.string "Bitte speichere dein Spiel, bevor du\n"
+	.string "eintrittst.$"
 #else
 	.string "Is this your first visit here?\p"
 	.string "Before you enter, please save\n"
@@ -352,8 +352,7 @@ TrainerHill_Entrance_hns_Text_TrainersUpToFloorX:
 #if GERMAN
 	.string "Mal sehen…\n"
 	.string "Die Trainer befinden sich…\p"
-	.string "bis einschließlich Etage\n"
-	.string "{STR_VAR_1}.$"
+	.string "bis einschließlich Etage {STR_VAR_1}.$"
 #else
 	.string "Let's see…\n"
 	.string "The TRAINERS here now are…\p"
@@ -375,8 +374,8 @@ TrainerHill_Entrance_hns_Text_TrainersInEveryRoom:
 
 TrainerHill_Entrance_hns_Text_LikeToChallengeTrainers:
 #if GERMAN
-	.string "Möchtest du die wartenden\n"
-	.string "Trainer herausfordern?$"
+	.string "Möchtest du die wartenden Trainer\n"
+	.string "herausfordern?$"
 #else
 	.string "Would you like to challenge the\n"
 	.string "waiting TRAINERS?$"
@@ -428,8 +427,8 @@ TrainerHill_Entrance_hns_Text_MovedReceptionHereForSwitch:
 #if GERMAN
 	.string "Beim Wechsel der Trainer geht\n"
 	.string "es manchmal sehr hektisch zu.\p"
-	.string "Darum haben wir den Empfang\n"
-	.string "hierher verlegt.\p"
+	.string "Darum haben wir den Empfang hierher\n"
+	.string "verlegt.\p"
 	.string "Entschuldige die Umstände.$"
 #else
 	.string "When the TRAINERS switch places,\n"
@@ -455,8 +454,8 @@ TrainerHill_Entrance_hns_Text_ExplainTrainerHill:
 	.string "Die Bestzeiten stehen auf der\n"
 	.string "Rangtafel. Miss dich mit deinen\l"
 	.string "Freunden!\p"
-	.string "In den Kämpfen erhältst du\n"
-	.string "weder Erfahrung noch Geld.$"
+	.string "In den Kämpfen erhältst du weder\n"
+	.string "Erfahrung noch Geld.$"
 #else
 	.string "Here at the TRAINER HILL, we conduct\n"
 	.string "an event called the Time Attack.\p"
@@ -475,8 +474,8 @@ TrainerHill_Entrance_hns_Text_WhatSortOfTrainersAreAhead:
 #if GERMAN
 	.string "Wer weiß, welche Trainer und\n"
 	.string "Pokémon-Kombinationen warten?\p"
-	.string "Egal wer mir im Weg steht,\n"
-	.string "ich werde ihn besiegen!$"
+	.string "Egal wer mir im Weg steht, ich werde ihn\n"
+	.string "besiegen!$"
 #else
 	.string "Who knows what sort of TRAINERS\n"
 	.string "and POKéMON combos are ahead?\p"
@@ -488,8 +487,8 @@ TrainerHill_Entrance_hns_Text_CantWaitToTestTheWaters:
 #if GERMAN
 	.string "Starke Trainer aus aller Welt\n"
 	.string "kommen zum Trainerberg.\p"
-	.string "Ich kann es kaum erwarten,\n"
-	.string "mich mit ihnen zu messen!\p"
+	.string "Ich kann es kaum erwarten, mich mit\n"
+	.string "ihnen zu messen!\p"
 	.string "Niemand wird mich aufhalten!$"
 #else
 	.string "I heard tough TRAINERS come to this\n"
@@ -502,8 +501,8 @@ TrainerHill_Entrance_hns_Text_CantWaitToTestTheWaters:
 TrainerHill_Entrance_hns_Text_FriendsTryingToReachTimeBoardTop:
 #if GERMAN
 	.string "Siehst du dort die Rangtafel?\p"
-	.string "Meine Freunde und ich wollen\n"
-	.string "die schnellste Zeit schaffen.$"
+	.string "Meine Freunde und ich wollen die\n"
+	.string "schnellste Zeit schaffen.$"
 #else
 	.string "Do you see the Time Board over there?\p"
 	.string "My friends and I are trying to see who\n"
@@ -512,8 +511,7 @@ TrainerHill_Entrance_hns_Text_FriendsTryingToReachTimeBoardTop:
 
 TrainerHill_Entrance_hns_Text_DoYouKnowWhenTheyOpen:
 #if GERMAN
-	.string "Weißt du, wann hier eröffnet\n"
-	.string "wird?\p"
+	.string "Weißt du, wann hier eröffnet wird?\p"
 	.string "Ich warte darauf, der allererste\n"
 	.string "Herausforderer zu sein!$"
 #else

@@ -56,8 +56,8 @@ Trade_Text_ThisIsntMon::
 #if GERMAN
 	.string "Hm?\n"
 	.string "Das ist kein {STR_VAR_1}!\p"
-	.string "Denk an mich, wenn du eins\n"
-	.string "gefangen hast!$"
+	.string "Denk an mich, wenn du eins gefangen\n"
+	.string "hast!$"
 #else
 	.string "Hmmm?\n"
 	.string "This isn't a {STR_VAR_1}.\p"
@@ -79,8 +79,7 @@ Trade_Text_HasTradedMonGrownStronger::
 Trade_Text_DoYouHaveMonWantToTradeForMon::
 #if GERMAN
 	.string "Besitzt du ein {STR_VAR_1}?\p"
-	.string "Willst du es gegen {STR_VAR_2}\n"
-	.string "tauschen?$"
+	.string "Willst du es gegen {STR_VAR_2} tauschen?$"
 #else
 	.string "Hi!\n"
 	.string "Do you have a {STR_VAR_1}?\p"

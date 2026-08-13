@@ -62,8 +62,7 @@ CherryGrove_Pokecenter_Text_Lass:
 #if GERMAN
 	.string "Man sagt, ein Tunichtgut tut nichts\n"
 	.string "gut,\p"
-	.string "aber wer nichts tut,\n"
-	.string "tut sich nicht gut!$"
+	.string "aber wer nichts tut, tut sich nicht gut!$"
 #else
 	.string "They say a watched pot never\n"
 	.string "boils. But watching the clock\l"

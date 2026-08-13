@@ -70,8 +70,8 @@ Route110_TrickHousePuzzle1_Text_SallyDefeat:
 
 Route110_TrickHousePuzzle1_Text_SallyPostBattle:
 #if GERMAN
-	.string "Ich werde des Hackens und\n"
-	.string "Schneidens nie müde!$"
+	.string "Ich werde des Hackens und Schneidens\n"
+	.string "nie müde!$"
 #else
 	.string "I never get tired of hacking\n"
 	.string "and slashing!$"

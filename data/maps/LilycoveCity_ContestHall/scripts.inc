@@ -385,8 +385,7 @@ LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
 
 LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
 #if GERMAN
-	.string "Juror: Gefällt euch dieser\n"
-	.string "Wettbewerb?\p"
+	.string "Juror: Gefällt euch dieser Wettbewerb?\p"
 	.string "Komm mit drei Freunden wieder her, dann\n"
 	.string "könnt ihr alle gemeinsam am Wettbewerb\l"
 	.string "teilnehmen.$"
@@ -403,8 +402,8 @@ LilycoveCity_ContestHall_Text_EnteredWrongContest:
 	.string "teilgenommen. Hach…\p"
 	.string "Ich habe dieses starke Pokémon in\n"
 	.string "einen Klugheits-Wettbewerb geschickt.\p"
-	.string "Los, beeindrucke mit einem\n"
-	.string "klugen Zertrümmerer.$"
+	.string "Los, beeindrucke mit einem klugen\n"
+	.string "Zertrümmerer.$"
 #else
 	.string "Ayayayay…\n"
 	.string "I entered the wrong CONTEST.\p"

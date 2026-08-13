@@ -173,8 +173,7 @@ ViridianForest_Text_AnthonyIntro::
 
 ViridianForest_Text_AnthonyDefeat::
 #if GERMAN
-	.string "Oh, nein! Alles ist schief\n"
-	.string "gegangen!$"
+	.string "Oh, nein! Alles ist schief gegangen!$"
 #else
 	.string "Oh, boo.\n"
 	.string "Nothing went right.$"
@@ -182,16 +181,14 @@ ViridianForest_Text_AnthonyDefeat::
 
 ViridianForest_Text_AnthonyPostBattle::
 #if GERMAN
-	.string "Ich habe meinen Kredit\n"
-	.string "verspielt…$"
+	.string "Ich habe meinen Kredit verspielt…$"
 #else
 	.string "I lost some of my allowance…$"
 #endif
 
 ViridianForest_Text_CharlieIntro::
 #if GERMAN
-	.string "Weißt du, dass Pokémon sich\n"
-	.string "entwickeln?$"
+	.string "Weißt du, dass Pokémon sich entwickeln?$"
 #else
 	.string "Did you know that POKéMON evolve?$"
 #endif

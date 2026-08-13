@@ -351,8 +351,8 @@ MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
 
 MauvilleCity_BikeShop_Text_HandbooksAreInBack:
 #if GERMAN
-	.string "Ich lerne etwas über Räder,\n"
-	.string "während ich hier arbeite.\p"
+	.string "Ich lerne etwas über Räder, während ich\n"
+	.string "hier arbeite.\p"
 	.string "Wenn du eine Anleitung brauchst, wie\n"
 	.string "man Rad fährt - da vorne findest du\l"
 	.string "einige Handbücher.$"

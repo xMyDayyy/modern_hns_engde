@@ -702,13 +702,13 @@ RocketHideout_Text_LanceStepBack:
 
 RocketHideout_B2F_Text_LanceElectrodeFaint:
 #if GERMAN
-	.string "Diese Maschine verursacht\n"
-	.string "all die Probleme.\p"
+	.string "Diese Maschine verursacht all die\n"
+	.string "Probleme.\p"
 	.string "Ich sehe keinen Schalter daran…\p"
 	.string "Wir haben keine Wahl. Wir müssen\n"
 	.string "alle Lektrobal ohnmächtig machen.\p"
-	.string "Dann hört die Maschine auf,\n"
-	.string "dieses seltsame Signal zu senden.\p"
+	.string "Dann hört die Maschine auf, dieses\n"
+	.string "seltsame Signal zu senden.\p"
 	.string "Es ist nicht die Schuld der Pokémon,\n"
 	.string "also fühle ich mich schuldig.\p"
 	.string "{PLAYER}, lass uns die Arbeit teilen.$"
@@ -737,8 +737,8 @@ RocketHideout_B2F_Text_LanceElectrodeDone:
 #if GERMAN
 	.string "Siegfried: Das seltsame Signal\n"
 	.string "ist verschwunden.\p"
-	.string "Der See sollte sich wieder\n"
-	.string "normalisiert haben.\p"
+	.string "Der See sollte sich wieder normalisiert\n"
+	.string "haben.\p"
 	.string "Du bist ein Held! Ich danke dir\n"
 	.string "im Namen aller Pokémon.\p"
 	.string "Ja, du solltest es annehmen.\p"
@@ -777,8 +777,8 @@ RocketHideout_B2F_Text_LanceWhirlpool:
 RocketHideout_B2F_Text_LanceMonMaster:
 #if GERMAN
 	.string "{PLAYER}…\p"
-	.string "Der Weg zum Pokémon-Meister\n"
-	.string "ist lang und schwer.\p"
+	.string "Der Weg zum Pokémon-Meister ist lang\n"
+	.string "und schwer.\p"
 	.string "Weißt du das… wirst du weitergehen?\n"
 	.string "…\p"
 	.string "Ich verstehe. Nein, du hast recht.\p"
@@ -1016,8 +1016,8 @@ RocketHideout_B2F_Text_GruntM19Beaten:
 
 RocketHideout_B2F_Text_GruntM19After:
 #if GERMAN
-	.string "Heh, nur der Boss kennt das\n"
-	.string "Passwort für diese Tür.\p"
+	.string "Heh, nur der Boss kennt das Passwort\n"
+	.string "für diese Tür.\p"
 	.string "Wo der Boss ist? Wer weiß?\n"
 	.string "Such ihn doch.$"
 #else

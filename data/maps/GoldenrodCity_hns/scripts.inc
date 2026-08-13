@@ -406,10 +406,10 @@ GoldenrodCity_Text_CooltrainerF1_Cleared:
 
 GoldenrodCity_Text_CooltrainerF2:
 #if GERMAN
-	.string "Der Radioturm in\n"
-	.string "Dukatia City ist ein Wahrzeichen.\p"
-	.string "Zurzeit läuft ge-\n"
-	.string "rade eine Werbekampagne.\p"
+	.string "Der Radioturm in Dukatia City ist ein\n"
+	.string "Wahrzeichen.\p"
+	.string "Zurzeit läuft gerade eine\n"
+	.string "Werbekampagne.\p"
 	.string "Sie können deinen Com modifizieren, so\n"
 	.string "dass er auch als Radio\p"
 	.string "verwendet werden kann.$"
@@ -443,8 +443,8 @@ GoldenrodCity_Text_Youngster2:
 
 GoldenrodCity_Text_Lass:
 #if GERMAN
-	.string "Der Mann in diesem Haus\n"
-	.string "bewertet deine Pokémon-Namen.\p"
+	.string "Der Mann in diesem Haus bewertet deine\n"
+	.string "Pokémon-Namen.\p"
 	.string "Er kann deine Pokémon auch umbenennen.$"
 #else
 	.string "That man inside rates your\n"
@@ -524,8 +524,8 @@ GoldenrodCity_Text_Rocket5:
 
 GoldenrodCity_Text_Rocket6:
 #if GERMAN
-	.string "Komm und werde\n"
-	.string "Zeuge der Macht von Team Rocket!$"
+	.string "Komm und werde Zeuge der Macht von\n"
+	.string "Team Rocket!$"
 #else
 	.string "Come and taste the terror of\n"
 	.string "TEAM ROCKET!$"
@@ -661,8 +661,8 @@ GoldenrodCity_Text_MoveTutorWhich:
 
 GoldenrodCity_Text_MoveTutorNoCash:
 #if GERMAN
-	.string "Hm, Mist. Ich muss\n"
-	.string "noch Geld von zu Hause holen…$"
+	.string "Hm, Mist. Ich muss noch Geld von zu\n"
+	.string "Hause holen…$"
 #else
 	.string "Too bad. Guess I'll need to\n"
 	.string "get some cash from home…$"

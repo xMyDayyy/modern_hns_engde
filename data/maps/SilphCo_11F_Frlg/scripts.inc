@@ -141,8 +141,8 @@ SilphCo_11F_Text_ThanksForSavingMeDearBoy::
 	.string "gerettet hast!\p"
 	.string "Wie kann ich dir bloß meinen Dank\n"
 	.string "aussprechen?\p"
-	.string "Ich bin reich, ich könnte dir\n"
-	.string "alles geben!\p"
+	.string "Ich bin reich, ich könnte dir alles\n"
+	.string "geben!\p"
 	.string "Aber vielleicht ist das hier eher\n"
 	.string "etwas für dich!$"
 #else
@@ -165,8 +165,8 @@ SilphCo_11F_Text_ThanksForSavingMeDearGirl::
 	.string "gerettet hast!\p"
 	.string "Wie kann ich dir bloß meinen Dank\n"
 	.string "aussprechen?\p"
-	.string "Ich bin reich, ich könnte dir\n"
-	.string "alles geben!\p"
+	.string "Ich bin reich, ich könnte dir alles\n"
+	.string "geben!\p"
 	.string "Aber vielleicht ist das hier eher\n"
 	.string "etwas für dich!$"
 #else
@@ -182,8 +182,7 @@ SilphCo_11F_Text_ThanksForSavingMeDearGirl::
 
 SilphCo_11F_Text_ObtainedMasterBallFromPresident::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "Meisterball!$"
+	.string "{PLAYER} erhält Meisterball!$"
 #else
 	.string "{PLAYER} obtained a MASTER BALL\n"
 	.string "from the PRESIDENT!$"

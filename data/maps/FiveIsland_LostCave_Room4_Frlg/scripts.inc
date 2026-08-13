@@ -26,8 +26,8 @@ FiveIsland_LostCave_Room4_Text_LauraDefeat::
 
 FiveIsland_LostCave_Room4_Text_LauraPostBattle::
 #if GERMAN
-	.string "Vor kurzem ging eine Frau\n"
-	.string "in diese Höhlen.$"
+	.string "Vor kurzem ging eine Frau in diese\n"
+	.string "Höhlen.$"
 #else
 	.string "Earlier, a lady went into the caves\n"
 	.string "ahead.$"

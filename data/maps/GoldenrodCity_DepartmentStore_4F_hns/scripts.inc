@@ -64,8 +64,8 @@ GoldenrodDeptStore_Text_4FGameboyKid:
 	.string "Ich kenne einige der genannten\n"
 	.string "Pokémon: Maschock, Kadabra, Alpollo\l"
 	.string "und, äh, Georok.\p"
-	.string "Sie alle entwickeln sich aber\n"
-	.string "durch Levelaufstieg.$"
+	.string "Sie alle entwickeln sich aber durch\n"
+	.string "Levelaufstieg.$"
 #else
     .string "There were rumours that some\n"
     .string "POKéMON evolve only by\l"

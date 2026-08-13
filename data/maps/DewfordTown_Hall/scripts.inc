@@ -360,8 +360,7 @@ DewfordTown_Hall_Text_CollectTrendMerchandise:
 	.string "“{STR_VAR_1}”-Artikel.\p"
 	.string "Ich habe die offiziellen\n"
 	.string "“{STR_VAR_1}”-Puppen.\p"
-	.string "Offizielle “{STR_VAR_1}”-\n"
-	.string "Kleidung…\p"
+	.string "Offizielle “{STR_VAR_1}”-Kleidung…\p"
 	.string "Und die offiziellen\n"
 	.string "“{STR_VAR_1}”-Bilderbücher.\p"
 	.string "Hähähä, das besitze ich alles!\n"
@@ -423,8 +422,7 @@ DewfordTown_Hall_Text_TrendsSmile:
 
 DewfordTown_Hall_Text_LastTrend:
 #if GERMAN
-	.string "Es heißt “das Letzte\n"
-	.string "{STR_VAR_1}”.$"
+	.string "Es heißt “das Letzte {STR_VAR_1}”.$"
 #else
 	.string "It's titled “THE LAST\n"
 	.string "{STR_VAR_1}”.$"
@@ -432,8 +430,7 @@ DewfordTown_Hall_Text_LastTrend:
 
 DewfordTown_Hall_Text_BirthOfTrend:
 #if GERMAN
-	.string "Es heißt “die Geburt eines\n"
-	.string "{STR_VAR_1}”.$"
+	.string "Es heißt “die Geburt eines {STR_VAR_1}”.$"
 #else
 	.string "It's titled “THE BIRTH OF\n"
 	.string "{STR_VAR_1}”.$"
@@ -594,8 +591,7 @@ DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible:
 DewfordTown_Hall_Text_WellBeTrendDuo:
 #if GERMAN
 	.string "Licht an, mein Freund!\p"
-	.string "Wir sind das\n"
-	.string "“{STR_VAR_1}”-Duo!\p"
+	.string "Wir sind das “{STR_VAR_1}”-Duo!\p"
 	.string "Ist das nicht eine irre Vorstellung?\n"
 	.string "Hahahaha!$"
 #else

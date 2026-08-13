@@ -174,8 +174,8 @@ FiveIsland_RocketWarehouse_Movement_AdminWalkToSwitch::
 
 FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen::
 #if GERMAN
-	.string "Viele Pokémon sind in diesem\n"
-	.string "Schuppen eingesperrt…$"
+	.string "Viele Pokémon sind in diesem Schuppen\n"
+	.string "eingesperrt…$"
 #else
 	.string "There are many POKéMON locked\n"
 	.string "away in the pen…$"

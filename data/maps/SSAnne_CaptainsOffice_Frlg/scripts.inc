@@ -96,8 +96,7 @@ SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "VM01.$"
+	.string "{PLAYER} erhält VM01.$"
 #else
 	.string "{PLAYER} obtained HM01\n"
 	.string "from the CAPTAIN!$"

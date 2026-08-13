@@ -191,8 +191,8 @@ CeruleanCity_House1_Text_AnyInterestInBerries::
 
 CeruleanCity_House1_Text_HaveJustTheThing::
 #if GERMAN
-	.string "Schön! Dann habe ich genau\n"
-	.string "das Richtige für dich!$"
+	.string "Schön! Dann habe ich genau das Richtige\n"
+	.string "für dich!$"
 #else
 	.string "Ah, good! For you, then, I have\n"
 	.string "just the thing.$"
@@ -205,8 +205,8 @@ CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner::
 	.string "Der Drahtlose GBA-Adapter zum Beeren\l"
 	.string "mahlen wurde eingerichtet.\l"
 	.string "Da kommst du ins Spiel.\p"
-	.string "Du bist der Einzige, den ich\n"
-	.string "um diesen Gefallen bitten kann.\p"
+	.string "Du bist der Einzige, den ich um diesen\n"
+	.string "Gefallen bitten kann.\p"
 	.string "Kannst du mit dieser Maschine\n"
 	.string "Beerenpuder für mich herstellen?\l"
 	.string "Sie steht im Direktklub des\l"
@@ -257,8 +257,7 @@ CeruleanCity_House1_Text_TakeInterestInAllSortsOfThings::
 
 CeruleanCity_House1_Text_HaveYouBroughtBerryPowder::
 #if GERMAN
-	.string "Ähm! Hast du mir Beerenpuder\n"
-	.string "gebracht?$"
+	.string "Ähm! Hast du mir Beerenpuder gebracht?$"
 #else
 	.string "Er-hem! Have you brought me some\n"
 	.string "BERRY POWDER?$"

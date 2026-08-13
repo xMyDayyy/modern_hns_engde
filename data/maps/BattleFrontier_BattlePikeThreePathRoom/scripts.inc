@@ -263,8 +263,7 @@ BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverReturnToPos:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1:
 #if GERMAN
-	.string "Du befindest dich im\n"
-	.string "ersten Raum…$"
+	.string "Du befindest dich im ersten Raum…$"
 #else
 	.string "You are currently in\n"
 	.string "the 1st room…$"
@@ -272,8 +271,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3:
 #if GERMAN
-	.string "Du befindest dich im\n"
-	.string "dritten Raum…$"
+	.string "Du befindest dich im dritten Raum…$"
 #else
 	.string "You are currently in\n"
 	.string "the 3rd room…$"
@@ -281,8 +279,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5:
 #if GERMAN
-	.string "Du befindest dich im\n"
-	.string "fünften Raum…$"
+	.string "Du befindest dich im fünften Raum…$"
 #else
 	.string "You are currently in\n"
 	.string "the 5th room…$"
@@ -290,8 +287,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7:
 #if GERMAN
-	.string "Du befindest dich im\n"
-	.string "siebten Raum…$"
+	.string "Du befindest dich im siebten Raum…$"
 #else
 	.string "You are currently in\n"
 	.string "the 7th room…$"
@@ -299,8 +295,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9:
 #if GERMAN
-	.string "Du befindest dich im\n"
-	.string "neunten Raum…$"
+	.string "Du befindest dich im neunten Raum…$"
 #else
 	.string "You are currently in\n"
 	.string "the 9th room…$"
@@ -308,8 +303,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom11:
 #if GERMAN
-	.string "Du befindest dich im\n"
-	.string "11. Raum…$"
+	.string "Du befindest dich im 11. Raum…$"
 #else
 	.string "You are currently in\n"
 	.string "the 11th room…$"
@@ -317,8 +311,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom11:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom13:
 #if GERMAN
-	.string "Du befindest dich im\n"
-	.string "13. Raum…$"
+	.string "Du befindest dich im 13. Raum…$"
 #else
 	.string "You are currently in\n"
 	.string "the 13th room…$"
@@ -449,8 +442,8 @@ BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
 #if GERMAN
-	.string "Ist das ein… Trainer? Ich\n"
-	.string "spüre die Anwesenheit von Menschen…$"
+	.string "Ist das ein… Trainer? Ich spüre die\n"
+	.string "Anwesenheit von Menschen…$"
 #else
 	.string "Is it… A TRAINER?\n"
 	.string "I sense the presence of people…$"

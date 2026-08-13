@@ -57,8 +57,8 @@ Route20_Text_BarryPostBattle::
 
 Route20_Text_ShirleyIntro::
 #if GERMAN
-	.string "Die Seeschauminseln sind ein\n"
-	.string "stiller Zufluchtsort!$"
+	.string "Die Seeschauminseln sind ein stiller\n"
+	.string "Zufluchtsort!$"
 #else
 	.string "SEAFOAM is a quiet getaway.\n"
 	.string "I'm vacationing here.$"
@@ -82,8 +82,8 @@ Route20_Text_ShirleyPostBattle::
 
 Route20_Text_TiffanyIntro::
 #if GERMAN
-	.string "Ich lasse mich gerne mit den\n"
-	.string "Fischen treiben!$"
+	.string "Ich lasse mich gerne mit den Fischen\n"
+	.string "treiben!$"
 #else
 	.string "I love floating with the fishes\n"
 	.string "here among the waves.$"
@@ -178,8 +178,8 @@ Route20_Text_DarrinPostBattle::
 
 Route20_Text_RogerIntro::
 #if GERMAN
-	.string "Mein Vogel-Pokémon hat mich\n"
-	.string "hierher getragen!$"
+	.string "Mein Vogel-Pokémon hat mich hierher\n"
+	.string "getragen!$"
 #else
 	.string "I rode my bird POKéMON here.$"
 #endif
@@ -273,8 +273,8 @@ Route20_Text_MelissaDefeat::
 
 Route20_Text_MelissaPostBattle::
 #if GERMAN
-	.string "Die Zinnoberinsel ist ein\n"
-	.string "vulkanisches Eiland!$"
+	.string "Die Zinnoberinsel ist ein vulkanisches\n"
+	.string "Eiland!$"
 #else
 	.string "CINNABAR is a volcanic island.\p"
 	.string "I heard it rose out of the sea\n"
@@ -290,8 +290,8 @@ Route20_Text_SeafoamIslands::
 
 Route20_Text_MistyTrainsHere::
 #if GERMAN
-	.string "Starke Trainer und Wasser-\n"
-	.string "Pokémon sind hier weit verbreitet.\p"
+	.string "Starke Trainer und Wasser-Pokémon sind\n"
+	.string "hier weit verbreitet.\p"
 	.string "Man sagt, dass Misty aus der Arena von\n"
 	.string "Azuria City hier häufig trainiert.$"
 #else

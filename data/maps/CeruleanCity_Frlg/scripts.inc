@@ -363,8 +363,7 @@ CeruleanCity_Text_RivalIntro::
 	.string "Du bist also immer noch unterwegs!\p"
 	.string "Mir geht es bestens! Ich habe jede\n"
 	.string "Menge neue, starke Pokémon gefangen!\p"
-	.string "Zeig, was du gefangen hast,\n"
-	.string "{PLAYER}!$"
+	.string "Zeig, was du gefangen hast, {PLAYER}!$"
 #else
 	.string "{RIVAL}: Yo! {PLAYER}!\p"
 	.string "You're still struggling along back\n"
@@ -386,8 +385,7 @@ CeruleanCity_Text_RivalDefeat::
 
 CeruleanCity_Text_RivalPostBattle::
 #if GERMAN
-	.string "{RIVAL}: Soll ich dir was\n"
-	.string "verraten?\p"
+	.string "{RIVAL}: Soll ich dir was verraten?\p"
 	.string "Ich war bei Bill und habe mir seine\n"
 	.string "seltenen Pokémon zeigen lassen!\p"
 	.string "Das hat mir einige Einträge in\n"
@@ -396,8 +394,7 @@ CeruleanCity_Text_RivalPostBattle::
 	.string "bekannt!\p"
 	.string "Er hat das Pokémon-Lagerungs-\n"
 	.string "System für den PC entwickelt!\p"
-	.string "Du kannst dich bei ihm dafür\n"
-	.string "bedanken!\p"
+	.string "Du kannst dich bei ihm dafür bedanken!\p"
 	.string "Na ja, ich hau ab!\n"
 	.string "Mach es gut!$"
 #else
@@ -452,8 +449,8 @@ CeruleanCity_Text_GruntIntro::
 #if GERMAN
 	.string "He! Bleib draußen! Du hast hier\n"
 	.string "nichts zu suchen! Was ich hier tue?\p"
-	.string "Ich bin nur ein unschuldiger\n"
-	.string "Passant! Was?\p"
+	.string "Ich bin nur ein unschuldiger Passant!\n"
+	.string "Was?\p"
 	.string "Glaubst du mir etwa nicht?$"
 #else
 	.string "Hey! Stay out!\n"
@@ -484,8 +481,7 @@ CeruleanCity_Text_OkayIllReturnStolenTM::
 
 CeruleanCity_Text_RecoveredTM28FromGrunt::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM28!$"
+	.string "{PLAYER} erhält TM28!$"
 #else
 	.string "{PLAYER} recovered TM28 from\n"
 	.string "the TEAM ROCKET GRUNT.$"
@@ -525,8 +521,8 @@ CeruleanCity_Text_YouCanCutDownSmallTrees::
 #if GERMAN
 	.string "Pokémon können Büsche mit dem\n"
 	.string "Zerschneider klein hacken.\p"
-	.string "Auch der kleine Baum vor dem\n"
-	.string "Geschäft kann entfernt werden.\p"
+	.string "Auch der kleine Baum vor dem Geschäft\n"
+	.string "kann entfernt werden.\p"
 	.string "Aber es gibt auch einen anderen\n"
 	.string "Weg!$"
 #else

@@ -14,8 +14,8 @@ MysteryGiftScript_AlteringCave_:
 
 sText_MysteryGiftAlteringCave:
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast!\p"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast!\p"
 	.string "In letzter Zeit gab es Gerüchte, dass\n"
 	.string "seltene Pokémon plötzlich auftauchen.\p"
 	.string "Die Gerüchte beziehen sich auf\n"

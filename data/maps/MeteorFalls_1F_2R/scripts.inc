@@ -290,8 +290,7 @@ MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
 
 MeteorFalls_1F_2R_Text_JayRematchIntro:
 #if GERMAN
-	.string "Evi: Wir sind seit 50 Jahren\n"
-	.string "verheiratet.\p"
+	.string "Evi: Wir sind seit 50 Jahren verheiratet.\p"
 	.string "Wir haben uns immer gegenseitig unter-\n"
 	.string "stützt. Das hat uns stark gemacht.$"
 #else

@@ -57,8 +57,7 @@ Route11_Text_YoungsterOwenSeen:
 
 Route11_Text_YoungsterOwenBeaten:
 #if GERMAN
-	.string "Huch? Wie ist\n"
-	.string "das denn passiert?$"
+	.string "Huch? Wie ist das denn passiert?$"
 #else
 	.string "Huh? How did this happen?$"
 #endif

@@ -38,8 +38,8 @@ CeladonCity_House1_Text_ShippedMonsAsSlotPrizes::
 
 CeladonCity_House1_Text_DontTouchGameCornerPoster::
 #if GERMAN
-	.string "Schenke dem Poster in der\n"
-	.string "Spielhalle keine Beachtung.\p"
+	.string "Schenke dem Poster in der Spielhalle\n"
+	.string "keine Beachtung.\p"
 	.string "Dahinter ist kein versteckter\n"
 	.string "Schalter!$"
 #else

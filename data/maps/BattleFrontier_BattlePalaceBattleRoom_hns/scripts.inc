@@ -442,8 +442,8 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter_hns:
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons_hns:
 #if GERMAN
-	.string "Ausgezeichnet! … Deine\n"
-	.string "Pokémon sind gleich wieder topfit.$"
+	.string "Ausgezeichnet! … Deine Pokémon sind\n"
+	.string "gleich wieder topfit.$"
 #else
 	.string "Excellent…\n"
 	.string "Let me restore your POKéMON.$"
@@ -716,8 +716,8 @@ BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass_hns:
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine_hns:
 #if GERMAN
-	.string "Das Seelensymbol erscheint\n"
-	.string "in einem goldenen Glanz!$"
+	.string "Das Seelensymbol erscheint in einem\n"
+	.string "goldenen Glanz!$"
 #else
 	.string "The Spirits Symbol took on\n"
 	.string "a golden shine!$"

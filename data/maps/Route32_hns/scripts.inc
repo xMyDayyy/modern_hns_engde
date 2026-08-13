@@ -504,8 +504,8 @@ Route32_Text_FisherJustin_After:
 
 Route32_Text_FisherRalph1_Seen:
 #if GERMAN
-	.string "Ich beherrsche beides,\n"
-	.string "Angeln und Pokémon.\p"
+	.string "Ich beherrsche beides, Angeln und\n"
+	.string "Pokémon.\p"
 	.string "Darum werde ich nicht verlieren!$"
 #else
 	.string "I'm really good at both\n"
@@ -515,8 +515,7 @@ Route32_Text_FisherRalph1_Seen:
 
 Route32_Text_FisherRalph1_Beaten:
 #if GERMAN
-	.string "Tse! Ich war wohl\n"
-	.string "doch zu ungeduldig.$"
+	.string "Tse! Ich war wohl doch zu ungeduldig.$"
 #else
 	.string "Tch! I tried to rush\n"
 	.string "things…$"
@@ -544,8 +543,8 @@ Route32_Text_RalphRegister:
 
 Route32_Text_RalphRematchIntro:
 #if GERMAN
-    .string "Ich bin sowohl im Angeln als\n"
-    .string "auch mit Pokémon richtig gut.\p"
+    .string "Ich bin sowohl im Angeln als auch mit\n"
+    .string "Pokémon richtig gut.\p"
     .string "Gegen irgendein Kind verliere\n"
     .string "ich ganz bestimmt nicht!$"
 #else
@@ -661,8 +660,7 @@ Route32_Text_CamperRoland_Seen:
 
 Route32_Text_CamperRoland_Beaten:
 #if GERMAN
-	.string "Hm. Das war\n"
-	.string "enttäuschend.$"
+	.string "Hm. Das war enttäuschend.$"
 #else
 	.string "Hmmm. This is disappointing.$"
 #endif
@@ -704,8 +702,7 @@ Route32_Text_PicnickerLiz1_After:
 
 Route32_Text_LizRegister:
 #if GERMAN
-    .string "Ich war gerade so schön am\n"
-    .string "Plaudern.$"
+    .string "Ich war gerade so schön am Plaudern.$"
 #else
 	.string "I was having a nice chat too.$"
 #endif
@@ -724,8 +721,8 @@ Route32_Text_LizRematchIntro:
 
 Route32_Text_LizRematchDefeat:
 #if GERMAN
-    .string "Oh! Jetzt muss ich erst mal\n"
-    .string "meinen Ärger loswerden!$"
+    .string "Oh! Jetzt muss ich erst mal meinen Ärger\n"
+    .string "loswerden!$"
 #else
 	.string "Oh! I've got to relieve\n"
 	.string "my anger!$"
@@ -733,8 +730,7 @@ Route32_Text_LizRematchDefeat:
 
 Route32_Text_LizPostRematch:
 #if GERMAN
-    .string "Ich war gerade so schön am\n"
-    .string "Plaudern.$"
+    .string "Ich war gerade so schön am Plaudern.$"
 #else
 	.string "I was having a nice chat too.$"
 #endif
@@ -751,8 +747,7 @@ Route32_Text_BirdKeeperPeter_Seen:
 
 Route32_Text_BirdKeeperPeter_Beaten:
 #if GERMAN
-	.string "Ich kenne jetzt meine\n"
-	.string "Schwächen.$"
+	.string "Ich kenne jetzt meine Schwächen.$"
 #else
 	.string "I know what my weaknesses are.$"
 #endif

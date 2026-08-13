@@ -531,8 +531,8 @@ BattleFrontier_BattlePyramidLobby_EventScript_ExitRules::
 
 BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
 #if GERMAN
-	.string "Hier wird der Mut der Trainer\n"
-	.string "auf die Probe gestellt!\p"
+	.string "Hier wird der Mut der Trainer auf die\n"
+	.string "Probe gestellt!\p"
 	.string "Willkommen in der Kampfpyramide!\p"
 	.string "Ich begleite dich bei deinen\n"
 	.string "Herausforderungen.$"
@@ -872,8 +872,7 @@ BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis:
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
 #if GERMAN
-	.string "{PLAYER} gewinnt\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} gewinnt {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"

@@ -125,10 +125,10 @@ Route44_Text_FisherWilton1Beaten:
 
 Route44_Text_FisherWiltonHugePoliwag:
 #if GERMAN
-	.string "Dieses Quapsel,\n"
-	.string "das geflohen ist… Das war riesig.\p"
-	.string "Ich könnte\n"
-	.string "schwören, dass es 5 Meter lang war!$"
+	.string "Dieses Quapsel, das geflohen ist… Das\n"
+	.string "war riesig.\p"
+	.string "Ich könnte schwören, dass es 5 Meter\n"
+	.string "lang war!$"
 #else
     .string "That POLIWAG that got away…\n"
     .string "it was huge.\p"
@@ -140,8 +140,8 @@ Route44_Text_WiltonRegister:
 #if GERMAN
     .string "Das Quaputzi, das mir entkommen ist…\n"
     .string "es war riesig.\p"
-    .string "Ich schwöre, es muss über\n"
-    .string "5 Meter groß gewesen sein!$"
+    .string "Ich schwöre, es muss über 5 Meter groß\n"
+    .string "gewesen sein!$"
 #else
     .string "That POLIWAG that got away…\n"
     .string "it was huge.\p"
@@ -171,8 +171,8 @@ Route44_Text_WiltonPostRematch:
 #if GERMAN
     .string "Das Quaputzi, das mir entkommen ist…\n"
     .string "es war riesig.\p"
-    .string "Ich schwöre, es muss über\n"
-    .string "5 Meter groß gewesen sein!$"
+    .string "Ich schwöre, es muss über 5 Meter groß\n"
+    .string "gewesen sein!$"
 #else
     .string "That POLIWAG that got away…\n"
     .string "it was huge.\p"

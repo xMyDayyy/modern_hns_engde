@@ -22,8 +22,7 @@ Route11_Text_HugoDefeat::
 
 Route11_Text_HugoPostBattle::
 #if GERMAN
-	.string "Das ganze Leben ist ein\n"
-	.string "Glücksspiel!$"
+	.string "Das ganze Leben ist ein Glücksspiel!$"
 #else
 	.string "POKéMON is life!\n"
 	.string "And to live is to play games!$"
@@ -97,8 +96,7 @@ Route11_Text_BraxtonDefeat::
 
 Route11_Text_BraxtonPostBattle::
 #if GERMAN
-	.string "Schone die Umwelt und spare\n"
-	.string "Energie!$"
+	.string "Schone die Umwelt und spare Energie!$"
 #else
 	.string "Spread the word to save energy!$"
 #endif
@@ -186,8 +184,7 @@ Route11_Text_YasuIntro::
 
 Route11_Text_YasuDefeat::
 #if GERMAN
-	.string "Ich muss meine Pokémon mehr\n"
-	.string "trainieren!$"
+	.string "Ich muss meine Pokémon mehr trainieren!$"
 #else
 	.string "Darn!\n"
 	.string "My POKéMON need to be stronger!$"

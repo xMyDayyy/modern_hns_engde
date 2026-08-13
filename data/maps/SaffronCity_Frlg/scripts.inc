@@ -151,8 +151,7 @@ SaffronCity_Text_DontGetDefiantOrIllHurtYou::
 
 SaffronCity_Text_SaffronBelongsToTeamRocket::
 #if GERMAN
-	.string "Saffronia City\n"
-	.string "gehört dem Team Rocket!$"
+	.string "Saffronia City gehört dem Team Rocket!$"
 #else
 	.string "SAFFRON belongs to TEAM ROCKET!$"
 #endif

@@ -101,21 +101,20 @@ SaffronCity_Gym_Text_SabrinaWinLoss:
 
 SaffronCity_Gym_Text_ReceivedMarshBadge:
 #if GERMAN
-	.string "{PLAYER} erhielt den\n"
-	.string "Sumpforden.$"
+	.string "{PLAYER} erhielt den Sumpforden.$"
 #else
 	.string "{PLAYER} received MARSHBADGE.$"
 #endif
 
 SaffronCity_Gym_Text_MarshBadgeInfo:
 #if GERMAN
-	.string "Sabrina: Der Sumpforden\n"
-	.string "weckt deine verborgenen Kräfte…\p"
+	.string "Sabrina: Der Sumpforden weckt deine\n"
+	.string "verborgenen Kräfte…\p"
 	.string "Auch wenn ich deine Kraft nicht genau\n"
 	.string "vorhersehen konnte, das weiß ich mit\l"
 	.string "Sicherheit:\p"
-	.string "Du wirst ein gefeierter und\n"
-	.string "geliebter Champion!$"
+	.string "Du wirst ein gefeierter und geliebter\n"
+	.string "Champion!$"
 #else
 	.string "SABRINA: MARSHBADGE draws out\n"
 	.string "your subliminal powers…\p"
@@ -130,8 +129,8 @@ SaffronCity_Gym_Text_SabrinaPostBattle:
 #if GERMAN
 	.string "Sabrina: Deine Liebe zu deinen Pokémon\n"
 	.string "hat meine Psychokraft überwältigt…\p"
-	.string "Die Kraft der Liebe ist wohl\n"
-	.string "auch eine Art Psychokraft…$"
+	.string "Die Kraft der Liebe ist wohl auch eine\n"
+	.string "Art Psychokraft…$"
 #else
 	.string "SABRINA: Your love for your\n"
 	.string "POKéMON overwhelmed my psychic\l"
@@ -145,8 +144,7 @@ SaffronCity_Gym_Text_SabrinaRematch:
 	.string "Sabrina: Ah, der Kanto-champion.\p"
 	.string "Ich spürte deine Rückkehr.\p"
 	.string "Deine Kraft ist enorm gewachsen.\p"
-	.string "Selbst jetzt spüre ich\n"
-	.string "deine Aura.\p"
+	.string "Selbst jetzt spüre ich deine Aura.\p"
 	.string "Möchtest du einen Rückkampf?$"
 #else
 	.string "SABRINA: Ah, the KANTO CHAMPION.\p"
@@ -185,16 +183,15 @@ SaffronCity_Gym_Text_MediumRebeccaBeaten:
 
 SaffronCity_Gym_Text_MediumRebeccaAfter:
 #if GERMAN
-	.string "Sage es mir! Was ist die\n"
-	.string "Quelle deiner Kraft?$"
+	.string "Sage es mir! Was ist die Quelle deiner\n"
+	.string "Kraft?$"
 #else
 	.string "What is the source of your power?$"
 #endif
 
 SaffronCity_Gym_Text_PsychicFranklinSeen:
 #if GERMAN
-	.string "Psychokraft ist die Kraft\n"
-	.string "deiner Seele.$"
+	.string "Psychokraft ist die Kraft deiner Seele.$"
 #else
 	.string "Psychic power is the power of\n"
 	.string "your soul.$"
@@ -220,10 +217,9 @@ SaffronCity_Gym_Text_PsychicFranklinAfter:
 
 SaffronCity_Gym_Text_MediumDorisSeen:
 #if GERMAN
-	.string "Hehehehe… ich habe sie\n"
-	.string "deutlich vor mir.\p"
-	.string "Ich kann in die Tiefen\n"
-	.string "deiner Seele blicken!$"
+	.string "Hehehehe… ich habe sie deutlich vor mir.\p"
+	.string "Ich kann in die Tiefen deiner Seele\n"
+	.string "blicken!$"
 #else
 	.string "Fufufufu… I see it clearly.\p"
 	.string "I can see into your soul!$"
@@ -268,8 +264,8 @@ SaffronCity_Gym_Text_PsychicJaredAfter:
 #if GERMAN
 	.string "Selbst der Karate-Meister, der Leiter\n"
 	.string "des Karate Dojo persönlich,\p"
-	.string "musste eine ziemlich üble\n"
-	.string "Niederlage von Sabrina einstecken.$"
+	.string "musste eine ziemlich üble Niederlage\n"
+	.string "von Sabrina einstecken.$"
 #else
 	.string "KARATE KING, the master of the\n"
 	.string "FIGHTING DOJO, was just destroyed\l"

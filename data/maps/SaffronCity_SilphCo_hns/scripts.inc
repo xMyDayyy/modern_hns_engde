@@ -176,8 +176,7 @@ SilphCo_Text_Sign2:
 
 SilphCo_Text_Receptionist:
 #if GERMAN
-	.string "Willkommen im Bürogebäude\n"
-	.string "der Silph Co.!$"
+	.string "Willkommen im Bürogebäude der Silph Co.!$"
 #else
 	.string "Welcome. This is SILPH CO.'s HEAD\n"
 	.string "OFFICE BUILDING.$"
@@ -185,8 +184,8 @@ SilphCo_Text_Receptionist:
 
 SilphCo_Text_Officer:
 #if GERMAN
-	.string "Nur das Personal\n"
-	.string "hat Zutritt zu den oberen Geschossen.\p"
+	.string "Nur das Personal hat Zutritt zu den\n"
+	.string "oberen Geschossen.\p"
 	.string "Aber, da du nun schon mal da bist,\n"
 	.string "gebe ich dir dieses hübsche Souvenir.$"
 #else

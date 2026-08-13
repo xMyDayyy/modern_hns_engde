@@ -183,8 +183,8 @@ GoldenrodCity_DepartmentStoreBasement_Movement_Boulder3:
 
 GoldenrodDeptStore_Text_BlackBeltMove:
 #if GERMAN
-	.string "Maschock, hilf uns und greif\n"
-	.string "den Stein an!$"
+	.string "Maschock, hilf uns und greif den Stein\n"
+	.string "an!$"
 #else
 	.string "MACHOKE, help us move that boulder!$"
 #endif
@@ -202,8 +202,8 @@ GoldenrodDeptStore_Text_B1FBlackBelt1:
 
 GoldenrodDeptStore_Text_B1FBlackBelt2:
 #if GERMAN
-	.string "Ich verliere die Lust am\n"
-	.string "Arbeiten, wenn mir jemand zusieht.\p"
+	.string "Ich verliere die Lust am Arbeiten, wenn\n"
+	.string "mir jemand zusieht.\p"
 	.string "Hey, Gnom, zisch ab!$"
 #else
     .string "I lose my passion for work if\n"

@@ -982,8 +982,7 @@ BattleFrontier_BattleTowerLobby_Text_EarnedFabulousPrize:
 
 BattleFrontier_BattleTowerLobby_Text_ReceivedPrize:
 #if GERMAN
-	.string "{PLAYER} gewinnt\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} gewinnt {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"
@@ -1182,8 +1181,8 @@ BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins:
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_DoubleBattleRoomConstruction:
 #if GERMAN
-	.string "Willkommen im Bereich für\n"
-	.string "Doppelkämpfe des Duellturms!\p"
+	.string "Willkommen im Bereich für Doppelkämpfe\n"
+	.string "des Duellturms!\p"
 	.string "Leider sind die Kampfräume noch\n"
 	.string "im Bau.\p"
 	.string "Bitte komm wieder, wenn die Arbeiten\n"
@@ -1200,8 +1199,8 @@ BattleFrontier_BattleTowerLobby_Text_DoubleBattleRoomConstruction:
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_MultiBattleRoomConstruction:
 #if GERMAN
-	.string "Willkommen im Bereich für\n"
-	.string "Multikämpfe des Duellturms!\p"
+	.string "Willkommen im Bereich für Multikämpfe\n"
+	.string "des Duellturms!\p"
 	.string "Leider sind die Kampfräume noch\n"
 	.string "im Bau.\p"
 	.string "Bitte komm wieder, wenn die Arbeiten\n"

@@ -75,8 +75,7 @@ PalletTown_House2_Text_OfferGrooming:
 	.string "Sarah: Hallo! Gutes Timing.\n"
 	.string "Ich wollte gerade Tee trinken.\p"
 	.string "Möchtest du auch einen?\p"
-	.string "Oh, deine Pokémon sind etwas\n"
-	.string "schmutzig.\p"
+	.string "Oh, deine Pokémon sind etwas schmutzig.\p"
 	.string "Soll ich eines pflegen?$"
 #else
 	.string "DAISY: Hi! Good timing. I'm about\n"
@@ -88,16 +87,16 @@ PalletTown_House2_Text_OfferGrooming:
 
 PalletTown_House2_Text_WhichMon:
 #if GERMAN
-	.string "Sarah: Welches Pokémon\n"
-	.string "soll ich verschönern?$"
+	.string "Sarah: Welches Pokémon soll ich\n"
+	.string "verschönern?$"
 #else
 	.string "DAISY: Which one should I groom?$"
 #endif
 
 PalletTown_House2_Text_Alright:
 #if GERMAN
-	.string "Sarah: OK! Ich mache es im Nu\n"
-	.string "wieder hübsch.$"
+	.string "Sarah: OK! Ich mache es im Nu wieder\n"
+	.string "hübsch.$"
 #else
 	.string "DAISY: OK, I'll get it looking\n"
 	.string "nice in no time.$"

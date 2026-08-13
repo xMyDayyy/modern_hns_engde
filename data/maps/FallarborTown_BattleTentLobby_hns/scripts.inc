@@ -322,8 +322,7 @@ FallarborTown_BattleTentLobby_hns_Text_FallarborTentMyFavorite:
 #if GERMAN
 	.string "Das Kampfcamp hat verschiedene\n"
 	.string "Aktivitäten anzubieten.\p"
-	.string "Ich mag am liebsten das\n"
-	.string "rote Zelt.\p"
+	.string "Ich mag am liebsten das rote Zelt.\p"
 	.string "Ich finde es fantastisch, wie Trainer\n"
 	.string "mit aller Kraft gewinnen wollen,\l"
 	.string "zusammen mit ihren Pokémon.$"
@@ -341,10 +340,10 @@ FallarborTown_BattleTentLobby_hns_Text_CameToCampOut:
 #if GERMAN
 	.string "Ich hörte vom Kampfcamp als bin\n"
 	.string "ich hier angereist.\p"
-	.string "Ich wusste nicht das sie so\n"
-	.string "luxuriös sein würden!\p"
-	.string "Wenn ich nun schon hier bin,\n"
-	.string "versuche ich mein Glück!$"
+	.string "Ich wusste nicht das sie so luxuriös\n"
+	.string "sein würden!\p"
+	.string "Wenn ich nun schon hier bin, versuche\n"
+	.string "ich mein Glück!$"
 #else
 	.string "I heard something about some tent,\n"
 	.string "so I came to camp out.\p"

@@ -93,8 +93,7 @@ FiveIsland_WaterLabyrinth_Text_TreatMonRightHaveThis::
 #if GERMAN
 	.string "Ah, wirklich beeindruckend.\n"
 	.string "Du behandelst deine Pokémon gut.\p"
-	.string "Ich denke, ich kann dir das\n"
-	.string "überlassen.\p"
+	.string "Ich denke, ich kann dir das überlassen.\p"
 	.string "Bitte, nimm dies!$"
 #else
 	.string "Oh, impressive.\n"

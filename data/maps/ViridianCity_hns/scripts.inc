@@ -147,8 +147,8 @@ ViridianCity_Text_GrampsNearGym:
 
 ViridianCity_Text_GrampsNearGym_BlueReturned:
 #if GERMAN
-	.string "Wirst du den\n"
-	.string "Arenaleiter herausfordern?\p"
+	.string "Wirst du den Arenaleiter\n"
+	.string "herausfordern?\p"
 	.string "Viel Glück! Du wirst es brauchen.$"
 #else
 	.string "Are you going to battle the\n"

@@ -354,8 +354,7 @@ MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes:
 #if GERMAN
 	.string "Was ist?\n"
 	.string "Du… Du…\p"
-	.string "{STR_VAR_2}\n"
-	.string "{STR_VAR_1}-mal?\p"
+	.string "{STR_VAR_2} {STR_VAR_1}-mal?\p"
 	.string "Das ist einfach großartig!\n"
 	.string "Die Geburt einer neuen Legende!$"
 #else
@@ -627,8 +626,8 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory::
 #if GERMAN
 	.string "Dies ist die Geschichte eines Trainers\n"
 	.string "namens {STR_VAR_3}.\p"
-	.string "Dieser Trainer hat {STR_VAR_1}\n"
-	.string "Pokémon gefangen!\p"
+	.string "Dieser Trainer hat {STR_VAR_1} Pokémon\n"
+	.string "gefangen!\p"
 	.string "{STR_VAR_3} ist ein legendärer Fänger\n"
 	.string "von Pokémon!$"
 #else
@@ -658,8 +657,8 @@ MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory::
 #if GERMAN
 	.string "Dies ist die Geschichte eines Trainers\n"
 	.string "namens {STR_VAR_3}.\p"
-	.string "Dieser Trainer hat {STR_VAR_1}\n"
-	.string "Pokémon beim Angeln gefangen!\p"
+	.string "Dieser Trainer hat {STR_VAR_1} Pokémon\n"
+	.string "beim Angeln gefangen!\p"
 	.string "{STR_VAR_3} ist ein legendärer Angel-\n"
 	.string "experte!$"
 #else
@@ -721,8 +720,8 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory::
 #if GERMAN
 	.string "Dies ist die Geschichte eines Trainers\n"
 	.string "namens {STR_VAR_3}.\p"
-	.string "Dieser Trainer hat {STR_VAR_1}\n"
-	.string "Pokémon zur Entwicklung gebracht!\p"
+	.string "Dieser Trainer hat {STR_VAR_1} Pokémon\n"
+	.string "zur Entwicklung gebracht!\p"
 	.string "{STR_VAR_3} ist der ultimative Ent-\n"
 	.string "wickler von Pokémon!$"
 #else
@@ -1312,8 +1311,8 @@ MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsStory::
 #if GERMAN
 	.string "Dies ist die Geschichte eines Trainers\n"
 	.string "namens {STR_VAR_3}.\p"
-	.string "Dieser Trainer hat {STR_VAR_1}\n"
-	.string "Bänder erhalten!\p"
+	.string "Dieser Trainer hat {STR_VAR_1} Bänder\n"
+	.string "erhalten!\p"
 	.string "{STR_VAR_3} ist ein Trainer, der es\n"
 	.string "liebt, Bänder zu sammeln.$"
 #else
@@ -1808,8 +1807,7 @@ MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach:
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfWord:
 #if GERMAN
-	.string "Hast du schon von\n"
-	.string "“{STR_VAR_1}” gehört?\p"
+	.string "Hast du schon von “{STR_VAR_1}” gehört?\p"
 	.string "Was das heißt? Ähäm…\n"
 	.string "Frag mal deinen Papi oder deine Mami.$"
 #else

@@ -283,8 +283,7 @@ ViridianCity_Text_OhOkayThen::
 
 ViridianCity_Text_ExplainCaterpieWeedle::
 #if GERMAN
-	.string "Raupy ist nicht giftig, aber\n"
-	.string "Hornliu!\p"
+	.string "Raupy ist nicht giftig, aber Hornliu!\p"
 	.string "Achte auf seinen Giftstachel!$"
 #else
 	.string "CATERPIE has no poison,\n"
@@ -334,16 +333,14 @@ ViridianCity_Text_ShowYouHowToCatchMons::
 	.string "loszulegen!\l"
 	.string "Hmm?\l"
 	.string "Was ist das für eine rote Box?\p"
-	.string "Ah, du arbeitest an einem\n"
-	.string "Pokédex.\p"
+	.string "Ah, du arbeitest an einem Pokédex.\p"
 	.string "Dann will ich dir einen Ratschlag\n"
 	.string "geben.\p"
 	.string "Der Pokédex wird mit jedem neu\n"
 	.string "gefangenen Pokémon aktualisiert.\p"
-	.string "… du weißt nicht, wie man\n"
-	.string "Pokémon fängt?\p"
-	.string "Ich sollte es dir wohl besser\n"
-	.string "zeigen!$"
+	.string "… du weißt nicht, wie man Pokémon\n"
+	.string "fängt?\p"
+	.string "Ich sollte es dir wohl besser zeigen!$"
 #else
 	.string "Well, now, I've had my coffee, and\n"
 	.string "that's what I need to get going!\p"
@@ -410,8 +407,8 @@ ViridianCity_Text_WeakenMonsFirstToCatch::
 
 ViridianCity_Text_HowsTeachyTVHelping::
 #if GERMAN
-	.string "Ahh, ich habe endlich meinen\n"
-	.string "Kaffee bekommen!\p"
+	.string "Ahh, ich habe endlich meinen Kaffee\n"
+	.string "bekommen!\p"
 	.string "Aber er war zu stark. Jetzt habe\n"
 	.string "ich Kopfschmerzen…\p"
 	.string "Hilft dir mein Lehrkanal?$"
@@ -428,8 +425,8 @@ ViridianCity_Text_MyGrandsonOnTheShow::
 #if GERMAN
 	.string "Wahaha!\n"
 	.string "Mein Enkel ist im Fernsehen!\p"
-	.string "Da er den Unterricht leitet,\n"
-	.string "musst du lernen.$"
+	.string "Da er den Unterricht leitet, musst du\n"
+	.string "lernen.$"
 #else
 	.string "Wahaha!\n"
 	.string "It's my grandson on the show!\p"

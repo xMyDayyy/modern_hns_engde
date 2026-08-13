@@ -45,8 +45,8 @@ FiveIsland_ResortGorgeous_EventScript_SelphysHouseSign::
 
 FiveIsland_ResortGorgeous_Text_DaisyIntro::
 #if GERMAN
-	.string "Mit diesen Händen werde ich\n"
-	.string "den Sieg herbeiführen.$"
+	.string "Mit diesen Händen werde ich den Sieg\n"
+	.string "herbeiführen.$"
 #else
 	.string "With these hands, I will create\n"
 	.string "my victory!$"
@@ -63,8 +63,8 @@ FiveIsland_ResortGorgeous_Text_DaisyDefeat::
 
 FiveIsland_ResortGorgeous_Text_DaisyPostBattle::
 #if GERMAN
-	.string "Ugh! Meine Farbeimer sind\n"
-	.string "überall verstreut.$"
+	.string "Ugh! Meine Farbeimer sind überall\n"
+	.string "verstreut.$"
 #else
 	.string "Uh-oh, my paint tubes have\n"
 	.string "scattered everywhere!$"
@@ -177,8 +177,8 @@ FiveIsland_ResortGorgeous_Text_GillianDefeat::
 
 FiveIsland_ResortGorgeous_Text_GillianPostBattle::
 #if GERMAN
-	.string "Ein Pool wäre cool, aber ein\n"
-	.string "Solarium wäre noch besser.$"
+	.string "Ein Pool wäre cool, aber ein Solarium\n"
+	.string "wäre noch besser.$"
 #else
 	.string "A pool would be nice, but I must\n"
 	.string "say, a sun-room may be sublime.$"
@@ -213,8 +213,7 @@ FiveIsland_ResortGorgeous_Text_DestinPostBattle::
 
 FiveIsland_ResortGorgeous_Text_TobyIntro::
 #if GERMAN
-	.string "Das maritime Leben hier sagt\n"
-	.string "mir zu!$"
+	.string "Das maritime Leben hier sagt mir zu!$"
 #else
 	.string "I say, this marine life here at\n"
 	.string "this resort agrees with me.$"

@@ -114,8 +114,8 @@ SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne::
 #if GERMAN
 	.string "Ich möchte ein noch größeres\n"
 	.string "Skaraborn sehen.\p"
-	.string "Oh, wie ich sie verehre, die\n"
-	.string "großen Skaraborn.$"
+	.string "Oh, wie ich sie verehre, die großen\n"
+	.string "Skaraborn.$"
 #else
 	.string "I want to see a much, much bigger\n"
 	.string "HERACROSS than that one.\p"
@@ -149,8 +149,8 @@ SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest::
 SixIsland_WaterPath_House1_Text_ThisWontDo::
 #if GERMAN
 	.string "Oh, nein! Da ist etwas falsch!\p"
-	.string "Skaraborn ist mehr ein Macho\n"
-	.string "und cool dazu mit einem Horn!$"
+	.string "Skaraborn ist mehr ein Macho und cool\n"
+	.string "dazu mit einem Horn!$"
 #else
 	.string "Oh, no! This won't do!\p"
 	.string "HERACROSS looks much more macho\n"
@@ -168,8 +168,8 @@ SixIsland_WaterPath_House1_Text_YourBagIsFull::
 
 SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches::
 #if GERMAN
-	.string "Das größte Skaraborn, das\n"
-	.string "ich je sah war\p"
+	.string "Das größte Skaraborn, das ich je sah\n"
+	.string "war\p"
 	.string "{STR_VAR_3} cm groß!$"
 #else
 	.string "The biggest HERACROSS that I have\n"
@@ -180,8 +180,8 @@ SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches::
 SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort::
 #if GERMAN
 	.string "Es ist eine leere Tabelle!\p"
-	.string "Man kann darin irgendwelche\n"
-	.string "Rekorde auflisten!$"
+	.string "Man kann darin irgendwelche Rekorde\n"
+	.string "auflisten!$"
 #else
 	.string "It's a blank chart of some sort.\p"
 	.string "It has spaces for writing in\n"

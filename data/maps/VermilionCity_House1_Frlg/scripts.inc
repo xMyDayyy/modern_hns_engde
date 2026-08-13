@@ -57,8 +57,7 @@ VermilionCity_House1_Text_TakeThisAndFish::
 
 VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "eine Angel!$"
+	.string "{PLAYER} erhält eine Angel!$"
 #else
 	.string "{PLAYER} received an OLD ROD from\n"
 	.string "the FISHING GURU.$"

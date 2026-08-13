@@ -81,8 +81,7 @@ Route15_Text_EdwinDefeat::
 
 Route15_Text_EdwinPostBattle::
 #if GERMAN
-	.string "Vielleicht bin ich keine\n"
-	.string "Kämpfernatur...$"
+	.string "Vielleicht bin ich keine Kämpfernatur...$"
 #else
 	.string "Maybe I'm not cut out for battles.\n"
 	.string "I'm not the right type, I guess.$"
@@ -180,8 +179,7 @@ Route15_Text_ErnestIntro::
 
 Route15_Text_ErnestDefeat::
 #if GERMAN
-	.string "Voll\n"
-	.string "erwischt!$"
+	.string "Voll erwischt!$"
 #else
 	.string "Why not?$"
 #endif

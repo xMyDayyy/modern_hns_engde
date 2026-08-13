@@ -138,8 +138,7 @@ CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle::
 
 CeruleanCity_BikeShop_Text_MakeRoomForBicycle::
 #if GERMAN
-	.string "Du kannst es momentan nicht\n"
-	.string "mitnehmen!$"
+	.string "Du kannst es momentan nicht mitnehmen!$"
 #else
 	.string "You better make room for your\n"
 	.string "BICYCLE!$"

@@ -40,8 +40,8 @@ Route1_Text_WorkAtPokeMartTakeSample::
 	.string "Supermarkt.\p"
 	.string "Wir verkaufen viele praktische\n"
 	.string "Dinge!\p"
-	.string "Du findest unseren Laden in\n"
-	.string "Vertania City.\p"
+	.string "Du findest unseren Laden in Vertania\n"
+	.string "City.\p"
 	.string "Am besten gebe ich dir ein\n"
 	.string "Werbegeschenk! Hier, bitte!$"
 #else

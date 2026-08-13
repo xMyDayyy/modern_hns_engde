@@ -52,8 +52,8 @@ RadioTower1F_Text_Whitney1::
 	.string "Hier läuft gerade ein Quiz, bei dem man\n"
 	.string "ein Radio-Modul abstauben kann! Ich\l"
 	.string "selbst bin auch genau deswegen hier…\p"
-	.string "Aber dieses Quiz ist echt\n"
-	.string "unglaublich schwierig!$"
+	.string "Aber dieses Quiz ist echt unglaublich\n"
+	.string "schwierig!$"
 #else
 	.string "WHITNEY: Hi!\p"
 	.string "My name is WHITNEY!\p"
@@ -190,8 +190,8 @@ RadioTower1F_Text_ReceptionistWelcome:
 
 RadioTower1F_Text_ReceptionistNoTours:
 #if GERMAN
-	.string "Guten Tag! Leider\n"
-	.string "bieten wir heute keine Führungen an.$"
+	.string "Guten Tag! Leider bieten wir heute\n"
+	.string "keine Führungen an.$"
 #else
     .string "Hello. I'm sorry, but we're not\n"
     .string "offering any tours today.$"
@@ -199,8 +199,8 @@ RadioTower1F_Text_ReceptionistNoTours:
 
 RadioTower1F_Text_RadioCardWomanOfferQuiz:
 #if GERMAN
-	.string "Bei uns läuft momentan\n"
-	.string "ein besonderes Quiz.\p"
+	.string "Bei uns läuft momentan ein besonderes\n"
+	.string "Quiz.\p"
 	.string "Beantworte die fünf Fragen richtig, um\n"
 	.string "ein Radio-Modul zu gewinnen.\p"
 	.string "Stecke es in den Com, um überall und zu\n"
@@ -231,8 +231,7 @@ RadioTower1F_Text_QuizQuestion2:
 #if GERMAN
 	.string "Richtig! Frage 2:\p"
 	.string "Ist diese Aussage korrekt?\p"
-	.string "Man kann im Shop keine Beere\n"
-	.string "kaufen.$"
+	.string "Man kann im Shop keine Beere kaufen.$"
 #else
     .string "Correct!\n"
     .string "Question 2:\p"
@@ -243,8 +242,8 @@ RadioTower1F_Text_QuizQuestion2:
 RadioTower1F_Text_QuizQuestion3:
 #if GERMAN
 	.string "Volltreffer! Frage 3:\p"
-	.string "Benutzt Kurt, der Pokéball-\n"
-	.string "Erbauer, Aprikoko als Zutaten?$"
+	.string "Benutzt Kurt, der Pokéball-Erbauer,\n"
+	.string "Aprikoko als Zutaten?$"
 #else
     .string "Bull's-eye!\n"
     .string "Question 3:\p"
@@ -256,8 +255,8 @@ RadioTower1F_Text_QuizQuestion4:
 #if GERMAN
 	.string "Bis hierher gut!\n"
 	.string "Frage 4:\p"
-	.string "Ist Falk der Leiter von\n"
-	.string "Viola City, der Vogel-Pokémon nutzt?$"
+	.string "Ist Falk der Leiter von Viola City, der\n"
+	.string "Vogel-Pokémon nutzt?$"
 #else
     .string "So far so good!\n"
     .string "Question 4:\p"
@@ -291,8 +290,8 @@ RadioTower1F_Text_QuizWin:
 
 RadioTower1F_Text_PokegearRadio:
 #if GERMAN
-	.string "{PLAYER}s PokéCom\n"
-	.string "kann jetzt Radio empfangen!$"
+	.string "{PLAYER}s PokéCom kann jetzt Radio\n"
+	.string "empfangen!$"
 #else
     .string "{PLAYER}'s POKéGEAR can now double as\n"
     .string "a RADIO!$"
@@ -348,8 +347,8 @@ RadioTower1F_Text_Youngster:
 
 RadioTower1F_Text_GruntM3Seen:
 #if GERMAN
-	.string "Wir haben endlich den\n"
-	.string "Radioturm übernommen!\p"
+	.string "Wir haben endlich den Radioturm\n"
+	.string "übernommen!\p"
 	.string "Jetzt wird jeder die wahre Macht\n"
 	.string "von Team Rocket spüren!\p"
 	.string "Wir zeigen dir, wie furchtbar wir\n"
@@ -636,8 +635,8 @@ GoldenrodCity_RadioTower_1F_Text_AllFiveDigitsMatched:
 
 GoldenrodCity_RadioTower_1F_Text_NoRoomForThis:
 #if GERMAN
-	.string "Oh! Du scheinst keinen Platz\n"
-	.string "dafür zu haben.\p"
+	.string "Oh! Du scheinst keinen Platz dafür zu\n"
+	.string "haben.\p"
 	.string "Wenn du wieder Platz in deinem\n"
 	.string "Beutel hast, lass es mich wissen.$"
 #else

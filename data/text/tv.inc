@@ -117,8 +117,7 @@ gTVBravoTrainerText00::
 
 gTVBravoTrainerText01::
 #if GERMAN
-	.string "Begrüßt {STR_VAR_2},\n"
-	.string "das {STR_VAR_1}!\p"
+	.string "Begrüßt {STR_VAR_2}, das {STR_VAR_1}!\p"
 	.string "Der Kosename {STR_VAR_2}…\p"
 	.string "Selbst dieser Kosename strahlt die\n"
 	.string "Aura von “{STR_VAR_3}” aus!$"
@@ -1174,8 +1173,8 @@ gTVRecentHappeningsText01::
 
 gTVRecentHappeningsText02::
 #if GERMAN
-	.string "“{STR_VAR_3}.” Das gibt\n"
-	.string "der Geschichte Akzente und Tiefe.$"
+	.string "“{STR_VAR_3}.” Das gibt der Geschichte\n"
+	.string "Akzente und Tiefe.$"
 #else
 	.string "“{STR_VAR_3}.” That\n"
 	.string "accents the tale and gives it depth.$"
@@ -1194,8 +1193,8 @@ gTVRecentHappeningsText03::
 
 gTVRecentHappeningsText04::
 #if GERMAN
-	.string "“{STR_VAR_3}” war die\n"
-	.string "eindrucksvollste Stelle der Geschichte.$"
+	.string "“{STR_VAR_3}” war die eindrucksvollste\n"
+	.string "Stelle der Geschichte.$"
 #else
 	.string "The “{STR_VAR_3}”\n"
 	.string "section of the tale is very expressive.$"
@@ -1480,8 +1479,8 @@ gTVTrainerFanClubSpecialText01::
 #if GERMAN
 	.string "Sie liegt bei {STR_VAR_3}!\n"
 	.string "Eine sehr hohe Zahl!\p"
-	.string "{STR_VAR_2} scheint {STR_VAR_1}\n"
-	.string "sehr zu schätzen und zu bewundern.$"
+	.string "{STR_VAR_2} scheint {STR_VAR_1} sehr zu\n"
+	.string "schätzen und zu bewundern.$"
 #else
 	.string "The score was {STR_VAR_3} points!\n"
 	.string "That is a very high score indeed!\p"
@@ -1791,8 +1790,8 @@ gTVNameRaterText17::
 
 gTVNameRaterText18::
 #if GERMAN
-	.string "Aber ich gebe zu, {STR_VAR_1}\n"
-	.string "ist wirklich ein guter Kosename.\p"
+	.string "Aber ich gebe zu, {STR_VAR_1} ist wirklich\n"
+	.string "ein guter Kosename.\p"
 	.string "Und ich hoffe, dass der Trainer\n"
 	.string "{STR_VAR_1} weiter liebevoll behandelt.\p"
 	.string "Das war unsere heutige Show.\n"
@@ -2097,8 +2096,8 @@ gTVPokemonTodaySuccessfulText02::
 #if GERMAN
 	.string "Bruder: Und wie viele Bälle musste der\n"
 	.string "Trainer werfen, um es zu fangen? {STR_VAR_3}!\p"
-	.string "Ein {STR_VAR_2} brachte den\n"
-	.string "gewünschten Erfolg!$"
+	.string "Ein {STR_VAR_2} brachte den gewünschten\n"
+	.string "Erfolg!$"
 #else
 	.string "BIG BRO: The TRAINER had to throw this\n"
 	.string "many POKé BALLS to catch it: {STR_VAR_3}!\p"
@@ -2134,8 +2133,8 @@ gTVPokemonTodaySuccessfulText05::
 #if GERMAN
 	.string "Schwester: {STR_VAR_2} von {STR_VAR_1} ist\n"
 	.string "ein bemerkenswertes Pokémon, da\p"
-	.string "es nur mit dem unfehlbaren\n"
-	.string "Meisterball gefangen werden konnte!\p"
+	.string "es nur mit dem unfehlbaren Meisterball\n"
+	.string "gefangen werden konnte!\p"
 	.string "Bruder: Wow! Das ist\n"
 	.string "mega-beeindruckend!\p"
 	.string "Schwester: {STR_VAR_1} muss {STR_VAR_2} \n"
@@ -2558,10 +2557,9 @@ gTVTodaysRivalTrainerText00::
 
 gTVTodaysRivalTrainerText07::
 #if GERMAN
-	.string "Unser heutiger Rivale ist\n"
-	.string "Trainer {STR_VAR_1}. Er befindet sich\p"
-	.string "momentan in der Gegend\n"
-	.string "von {STR_VAR_3}.\p"
+	.string "Unser heutiger Rivale ist Trainer\n"
+	.string "{STR_VAR_1}. Er befindet sich\p"
+	.string "momentan in der Gegend von {STR_VAR_3}.\p"
 	.string "{STR_VAR_1} hat bis jetzt {STR_VAR_2} Pokémon\n"
 	.string "im Pokédex verzeichnet.$"
 #else
@@ -2587,8 +2585,8 @@ gTVTodaysRivalTrainerText08::
 
 gTVTodaysRivalTrainerText09::
 #if GERMAN
-	.string "Unser heutiger Rivale ist\n"
-	.string "Trainer {STR_VAR_1}. \p"
+	.string "Unser heutiger Rivale ist Trainer\n"
+	.string "{STR_VAR_1}.\p"
 	.string "{STR_VAR_1} hat bis jetzt {STR_VAR_2} Pokémon\n"
 	.string "im Pokédex verzeichnet.$"
 #else
@@ -2696,8 +2694,7 @@ TrendWatcher_Text_Intro::
 	.string "MC: Kommen wir gleich zur Sache.\p"
 	.string "Sag uns, was gerade angesagt ist in\n"
 	.string "Faustauhaven.\p"
-	.string "Alter Mann: {STR_VAR_1}\n"
-	.string "{STR_VAR_2}!\p"
+	.string "Alter Mann: {STR_VAR_1} {STR_VAR_2}!\p"
 	.string "MC: {STR_VAR_1} {STR_VAR_2}? \p"
 	.string "Alter Mann: Nein.\p"
 	.string "{STR_VAR_1} {STR_VAR_2} war bei den\n"
@@ -2759,8 +2756,8 @@ TrendWatcher_Text_PhraseWasHopeless::
 	.string "Und auch Wettbewerbe!\p"
 	.string "Ich versuchte, es jedem schmackhaft\n"
 	.string "zu machen…\p"
-	.string "Vielleicht passte {STR_VAR_1}\n"
-	.string "einfach nicht…\p"
+	.string "Vielleicht passte {STR_VAR_1} einfach\n"
+	.string "nicht…\p"
 	.string "MC: Äh, Entschuldigung… Aber wir\n"
 	.string "möchten wissen, was jetzt angesagt\l"
 	.string "ist…$"
@@ -2805,8 +2802,7 @@ TrendWatcher_Text_Outro::
 	.string "{STR_VAR_1} {STR_VAR_2}… Äh…\n"
 	.string "War in Faustauhaven ein Reinfall.\p"
 	.string "Unsere Zeit ist um! Macht’s gut!\p"
-	.string "Alter Mann: {STR_VAR_1}\n"
-	.string "{STR_VAR_2}!$"
+	.string "Alter Mann: {STR_VAR_1} {STR_VAR_2}!$"
 #else
 	.string "MC: …Uh… So, there you have it,\n"
 	.string "all you trendy, hep cats out there!\p"
@@ -2953,8 +2949,8 @@ gTVFindThatGamerText01::
 
 gTVFindThatGamerText02::
 #if GERMAN
-	.string "{STR_VAR_1} hat {STR_VAR_2}\n"
-	.string "gespielt und {STR_VAR_3} Münzen verloren.\p"
+	.string "{STR_VAR_1} hat {STR_VAR_2} gespielt und\n"
+	.string "{STR_VAR_3} Münzen verloren.\p"
 	.string "“Dank {STR_VAR_1} verkaufen wir viele\n"
 	.string "Münzen.”\p"
 	.string "Das sagen die Angestellten der\n"
@@ -2997,8 +2993,8 @@ gTVBreakingNewsText00::
 
 gTVBreakingNewsText01::
 #if GERMAN
-	.string "Seltenes {STR_VAR_2} wurde \n"
-	.string "von {STR_VAR_1} gefangen!\p"
+	.string "Seltenes {STR_VAR_2} wurde von {STR_VAR_1}\n"
+	.string "gefangen!\p"
 	.string "Wir berichten live aus der Gegend\n"
 	.string "von {STR_VAR_3}!\p"
 	.string "{STR_VAR_1} hat es geschafft, hier ein\n"
@@ -3088,8 +3084,8 @@ gTVBreakingNewsText06::
 
 gTVBreakingNewsText07::
 #if GERMAN
-	.string "{STR_VAR_2} sollte die Attacke\n"
-	.string "{STR_VAR_1} einsetzen.\p"
+	.string "{STR_VAR_2} sollte die Attacke {STR_VAR_1}\n"
+	.string "einsetzen.\p"
 	.string "Ohne es zu beabsichtigen, besiegte\n"
 	.string "der Trainer damit das seltene Pokémon…$"
 #else
@@ -3216,8 +3212,7 @@ gTVSecretBaseVisitText02::
 #if GERMAN
 	.string "Oh…\n"
 	.string "Einfach bemerkenswert!\p"
-	.string "Hier gibt es kein einziges\n"
-	.string "Möbelstück!\p"
+	.string "Hier gibt es kein einziges Möbelstück!\p"
 	.string "Normale Sterbliche werden diese\n"
 	.string "Kühnheit der Einrichtung nicht\l"
 	.string "nachahmen können!\p"
@@ -3270,8 +3265,7 @@ gTVSecretBaseVisitText04::
 gTVSecretBaseVisitText05::
 #if GERMAN
 	.string "Wuhuuu!\p"
-	.string "{STR_VAR_2} gepaart mit\n"
-	.string "{STR_VAR_3}!\p"
+	.string "{STR_VAR_2} gepaart mit {STR_VAR_3}!\p"
 	.string "Eine absolute Traumkombination!$"
 #else
 	.string "Wheeew!\p"
@@ -3331,8 +3325,7 @@ gTVSecretBaseVisitText09::
 	.string "Dies werde ich {STR_VAR_1} geben.\p"
 	.string "Die Pokémon dieses Trainers verdienen\n"
 	.string "wirklich den Titel Champ.\p"
-	.string "Sie beweisen die Stärke von\n"
-	.string "{STR_VAR_1}.\p"
+	.string "Sie beweisen die Stärke von {STR_VAR_1}.\p"
 	.string "Und dass {STR_VAR_2} die Attacke\n"
 	.string "{STR_VAR_3} kennt…\p"
 	.string "Das macht deutlich, welche Art von\n"
@@ -3549,8 +3542,7 @@ gTVThePokemonBattleSeminarText02::
 
 gTVThePokemonBattleSeminarText03::
 #if GERMAN
-	.string "{STR_VAR_1}, {STR_VAR_2}\n"
-	.string "und {STR_VAR_3}.$"
+	.string "{STR_VAR_1}, {STR_VAR_2} und {STR_VAR_3}.$"
 #else
 	.string "the moves {STR_VAR_1}, {STR_VAR_2},\n"
 	.string "and {STR_VAR_3}.$"
@@ -3608,8 +3600,8 @@ gTVTrainerFanClubText00::
 	.string "MC: Ich frage euch!\n"
 	.string "Wie findet ihr {STR_VAR_1}?!?\p"
 	.string "Fans: Wir lieben {STR_VAR_1}!!!\p"
-	.string "MC: Und was liebt ihr an dem\n"
-	.string "Trainer {STR_VAR_1}?!?$"
+	.string "MC: Und was liebt ihr an dem Trainer\n"
+	.string "{STR_VAR_1}?!?$"
 #else
 	.string "All together now!\n"
 	.string "TRAINER FAN CLUB!\p"
@@ -3695,8 +3687,8 @@ gTVTrainerFanClubText08::
 
 gTVTrainerFanClubText09::
 #if GERMAN
-	.string "Fans: Der Trainer hat seine\n"
-	.string "Geheimbasis total schick eingerichtet!$"
+	.string "Fans: Der Trainer hat seine Geheimbasis\n"
+	.string "total schick eingerichtet!$"
 #else
 	.string "FANS: The TRAINER's nifty style of\n"
 	.string "decorating a SECRET BASE!$"
@@ -3715,25 +3707,21 @@ gTVTrainerFanClubText11::
 	.string "MC: Ihr habt es mitbekommen, {STR_VAR_1}\n"
 	.string "ist heiß! Man könnte sich glatt\l"
 	.string "verbrennen!\p"
-	.string "Unter den Fans von {STR_VAR_1}\n"
-	.string "gibt es einen Schlachtruf!\p"
-	.string "MC: Ich sage {STR_VAR_1},\n"
-	.string "ihr sagt…\p"
+	.string "Unter den Fans von {STR_VAR_1} gibt es\n"
+	.string "einen Schlachtruf!\p"
+	.string "MC: Ich sage {STR_VAR_1}, ihr sagt…\p"
 	.string "Fans: {STR_VAR_2}!\p"
 	.string "Fans: {STR_VAR_3}!\p"
 	.string "Fans: {STR_VAR_2}!\p"
 	.string "Fans: {STR_VAR_3}!\p"
-	.string "MC: Richtig! Sagt jemand\n"
-	.string "“{STR_VAR_1}”…\p"
-	.string "Ruft ihr zurück “{STR_VAR_2}\n"
-	.string "{STR_VAR_3}!”\p"
+	.string "MC: Richtig! Sagt jemand “{STR_VAR_1}”…\p"
+	.string "Ruft ihr zurück “{STR_VAR_2} {STR_VAR_3}!”\p"
 	.string "Das klingt einfach einzigartig!\n"
 	.string "Ich kann verstehen, warum jemand Fan\l"
 	.string "von {STR_VAR_1} wird!\p"
 	.string "Okay, du da, vor dem Fernsehgerät!\n"
 	.string "Schließ dich uns an! Alle zusammen!\p"
-	.string "MC: Ich sage {STR_VAR_1},\n"
-	.string "ihr sagt…\p"
+	.string "MC: Ich sage {STR_VAR_1}, ihr sagt…\p"
 	.string "Fans: {STR_VAR_2}!\p"
 	.string "Fans: {STR_VAR_3}!\p"
 	.string "Fans: {STR_VAR_2}!\p"
@@ -3742,8 +3730,7 @@ gTVTrainerFanClubText11::
 	.string "den rasenden Fans von {STR_VAR_1}!\p"
 	.string "Das war unsere Show!\n"
 	.string "Bis zum nächsten Mal!\p"
-	.string "MC: Ich sage {STR_VAR_1},\n"
-	.string "ihr sagt…\p"
+	.string "MC: Ich sage {STR_VAR_1}, ihr sagt…\p"
 	.string "Fans: {STR_VAR_2}!\p"
 	.string "Fans: {STR_VAR_3}!$"
 #else
@@ -3809,8 +3796,8 @@ TVSpotTheCuties_Text_Intro::
 
 TVSpotTheCuties_Text_RibbonsLow::
 #if GERMAN
-	.string "Die Anzahl der Bänder,\n"
-	.string "die {STR_VAR_2} trägt, ist {STR_VAR_3}!\p"
+	.string "Die Anzahl der Bänder, die {STR_VAR_2}\n"
+	.string "trägt, ist {STR_VAR_3}!\p"
 	.string "Und das lässt erkennen, wie sehr\n"
 	.string "{STR_VAR_1} das Pokémon mag.$"
 #else
@@ -3991,8 +3978,8 @@ TVSpotTheCuties_Text_RibbonWinning::
 	.string "Duellturm.\p"
 	.string "Das Talent von {STR_VAR_2} wird so\n"
 	.string "noch mehr hervorgehoben.\p"
-	.string "{STR_VAR_2} und das Band des\n"
-	.string "Gewinners! Eine perfekte Kombination!$"
+	.string "{STR_VAR_2} und das Band des Gewinners!\n"
+	.string "Eine perfekte Kombination!$"
 #else
 	.string "The WINNING RIBBON is especially\n"
 	.string "fetching.\p"
@@ -4013,8 +4000,8 @@ TVSpotTheCuties_Text_RibbonVictory::
 	.string "Duellturm.\p"
 	.string "Das unglaubliche Talent von {STR_VAR_2}\n"
 	.string "wird so noch mehr hervorgehoben.\p"
-	.string "{STR_VAR_2} und das Band des\n"
-	.string "Sieges! Eine perfekte Kombination!$"
+	.string "{STR_VAR_2} und das Band des Sieges! Eine\n"
+	.string "perfekte Kombination!$"
 #else
 	.string "The VICTORY RIBBON is especially\n"
 	.string "fetching.\p"
@@ -4035,8 +4022,8 @@ TVSpotTheCuties_Text_RibbonArtist::
 	.string "für einen Künstler.\p"
 	.string "Der Charme von {STR_VAR_2} wird so\n"
 	.string "noch mehr hervorgehoben.\p"
-	.string "{STR_VAR_2} und das Band des\n"
-	.string "Künstlers! Eine perfekte Kombination!$"
+	.string "{STR_VAR_2} und das Band des Künstlers!\n"
+	.string "Eine perfekte Kombination!$"
 #else
 	.string "The ARTIST RIBBON is especially\n"
 	.string "fetching.\p"
@@ -4814,8 +4801,8 @@ TVSecretBaseSecrets_Text_HuggedCushion::
 
 TVSecretBaseSecrets_Text_BattledWon::
 #if GERMAN
-	.string "Der Besucher unterhält sich\n"
-	.string "mit {STR_VAR_1}.\p"
+	.string "Der Besucher unterhält sich mit\n"
+	.string "{STR_VAR_1}.\p"
 	.string "Es sieht so aus, als wollten sie\n"
 	.string "gegeneinander antreten!\p"
 	.string "Und…\n"
@@ -4837,8 +4824,8 @@ TVSecretBaseSecrets_Text_BattledWon::
 
 TVSecretBaseSecrets_Text_BattledLost::
 #if GERMAN
-	.string "Der Besucher unterhält sich\n"
-	.string "mit {STR_VAR_1}.\p"
+	.string "Der Besucher unterhält sich mit\n"
+	.string "{STR_VAR_1}.\p"
 	.string "Es sieht so aus, als wollten sie\n"
 	.string "gegeneinander antreten!\p"
 	.string "Und…\n"
@@ -4859,8 +4846,8 @@ TVSecretBaseSecrets_Text_BattledLost::
 
 TVSecretBaseSecrets_Text_DeclinedBattle::
 #if GERMAN
-	.string "Der Besucher unterhält sich\n"
-	.string "mit {STR_VAR_1}.\p"
+	.string "Der Besucher unterhält sich mit\n"
+	.string "{STR_VAR_1}.\p"
 	.string "Es sieht so aus, als wollten sie\n"
 	.string "gegeneinander antreten!\p"
 	.string "Und…\n"
@@ -4912,15 +4899,15 @@ TVSecretBaseSecrets_Text_UsedNoteMat::
 
 TVSecretBaseSecrets_Text_BattledDraw::
 #if GERMAN
-	.string "Der Besucher unterhält sich\n"
-	.string "mit {STR_VAR_1}.\p"
+	.string "Der Besucher unterhält sich mit\n"
+	.string "{STR_VAR_1}.\p"
 	.string "Es sieht so aus, als wollten sie\n"
 	.string "gegeneinander antreten!\p"
 	.string "Und…\n"
 	.string "Und?\p"
 	.string "Oh, ein Unentschieden!\p"
-	.string "Beide Trainer scheinen sehr\n"
-	.string "enttäuscht zu sein.$"
+	.string "Beide Trainer scheinen sehr enttäuscht\n"
+	.string "zu sein.$"
 #else
 	.string "The visitor is chatting with\n"
 	.string "{STR_VAR_1}!\p"
@@ -5814,8 +5801,8 @@ gTVPokemonBattleUpdateText04::
 	.string "Herzlichen Glückwunsch, {STR_VAR_1}!\p"
 	.string "Und {STR_VAR_2} wünschen wir für den\n"
 	.string "nächsten Kampf mehr Erfolg!\p"
-	.string "Und damit beenden wir\n"
-	.string "“Atemberaubende Pokémon-Kämpfe”$"
+	.string "Und damit beenden wir “Atemberaubende\n"
+	.string "Pokémon-Kämpfe”$"
 #else
 	.string "Congratulations on your victory,\n"
 	.string "{STR_VAR_1}!\p"
@@ -5858,8 +5845,8 @@ gTVPokemonBattleUpdateText07::
 	.string "{STR_VAR_1}!\p"
 	.string "Und dem Team von {STR_VAR_2} wünschen\n"
 	.string "wir, dass es bald gewinnen wird!\p"
-	.string "Und damit beenden wir\n"
-	.string "“Atemberaubende Pokémon-Kämpfe”$"
+	.string "Und damit beenden wir “Atemberaubende\n"
+	.string "Pokémon-Kämpfe”$"
 #else
 	.string "The weak showing by the {STR_VAR_3}\n"
 	.string "on {STR_VAR_2}'s team really hurt.\p"

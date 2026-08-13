@@ -19,8 +19,7 @@ ThreeIsland_House2_Text_CantMakeThisSpoonBend::
 	.string "Kiah!\p"
 	.string "… es ist unnütz! Ich kann diesen Löffel\n"
 	.string "nicht mit meiner Willenskraft verbiegen.\p"
-	.string "Vielleicht habe ich keine\n"
-	.string "Psychokräfte!$"
+	.string "Vielleicht habe ich keine Psychokräfte!$"
 #else
 	.string "Urrrrrrrrgggghhhh…\n"
 	.string "Kwaaaaah!\p"

@@ -381,8 +381,7 @@ BattlePyramid_Text_EightItemsRemaining1::
 BattlePyramid_Text_SevenItemsRemaining1::
 #if GERMAN
 	.string "Suchst du nach Items?\p"
-	.string "Hier sind noch sieben Items\n"
-	.string "versteckt.$"
+	.string "Hier sind noch sieben Items versteckt.$"
 #else
 	.string "Are you looking for items?\p"
 	.string "There are seven items left to\n"
@@ -392,8 +391,7 @@ BattlePyramid_Text_SevenItemsRemaining1::
 BattlePyramid_Text_SixItemsRemaining1::
 #if GERMAN
 	.string "Suchst du nach Items?\p"
-	.string "Hier sind noch sechs Items\n"
-	.string "versteckt.$"
+	.string "Hier sind noch sechs Items versteckt.$"
 #else
 	.string "Are you looking for items?\p"
 	.string "There are six items left to\n"
@@ -403,8 +401,7 @@ BattlePyramid_Text_SixItemsRemaining1::
 BattlePyramid_Text_FiveItemsRemaining1::
 #if GERMAN
 	.string "Suchst du nach Items?\p"
-	.string "Hier sind noch fünf Items\n"
-	.string "versteckt.$"
+	.string "Hier sind noch fünf Items versteckt.$"
 #else
 	.string "Are you looking for items?\p"
 	.string "There are five items left to\n"
@@ -414,8 +411,7 @@ BattlePyramid_Text_FiveItemsRemaining1::
 BattlePyramid_Text_FourItemsRemaining1::
 #if GERMAN
 	.string "Suchst du nach Items?\p"
-	.string "Hier sind noch vier Items\n"
-	.string "versteckt.$"
+	.string "Hier sind noch vier Items versteckt.$"
 #else
 	.string "Are you looking for items?\p"
 	.string "There are four items left to\n"
@@ -425,8 +421,7 @@ BattlePyramid_Text_FourItemsRemaining1::
 BattlePyramid_Text_ThreeItemsRemaining1::
 #if GERMAN
 	.string "Suchst du nach Items?\p"
-	.string "Hier sind noch drei Items\n"
-	.string "versteckt.$"
+	.string "Hier sind noch drei Items versteckt.$"
 #else
 	.string "Are you looking for items?\p"
 	.string "There are three items left to\n"
@@ -436,8 +431,7 @@ BattlePyramid_Text_ThreeItemsRemaining1::
 BattlePyramid_Text_TwoItemsRemaining1::
 #if GERMAN
 	.string "Suchst du nach Items?\p"
-	.string "Hier sind noch zwei Items\n"
-	.string "versteckt.$"
+	.string "Hier sind noch zwei Items versteckt.$"
 #else
 	.string "Are you looking for items?\p"
 	.string "There are two items left to\n"
@@ -447,8 +441,7 @@ BattlePyramid_Text_TwoItemsRemaining1::
 BattlePyramid_Text_OneItemRemaining1::
 #if GERMAN
 	.string "Suchst du nach Items?\p"
-	.string "Hier ist noch ein Item\n"
-	.string "versteckt.$"
+	.string "Hier ist noch ein Item versteckt.$"
 #else
 	.string "Are you looking for items?\p"
 	.string "There is one item left to\n"
@@ -560,8 +553,7 @@ BattlePyramid_Text_OneItemRemaining2::
 #if GERMAN
 	.string "Du hast gewonnen, daher verrate ich\n"
 	.string "dir ein Geheimnis!\p"
-	.string "Hier ist irgendwo ein Item\n"
-	.string "versteckt.$"
+	.string "Hier ist irgendwo ein Item versteckt.$"
 #else
 	.string "Because you won, I'll tell you\n"
 	.string "a little secret!\p"
@@ -972,8 +964,8 @@ BattlePyramid_Text_ZeroItemsRemaining6::
 BattlePyramid_Text_SevenTrainersRemaining1::
 #if GERMAN
 	.string "Du warst wirklich unglaublich gut!\p"
-	.string "Aber es warten noch sieben\n"
-	.string "weitere starke Trainer auf dich!$"
+	.string "Aber es warten noch sieben weitere\n"
+	.string "starke Trainer auf dich!$"
 #else
 	.string "You were really awesome!\p"
 	.string "But there are still seven tough\n"
@@ -983,8 +975,8 @@ BattlePyramid_Text_SevenTrainersRemaining1::
 BattlePyramid_Text_SixTrainersRemaining1::
 #if GERMAN
 	.string "Du warst wirklich unglaublich gut!\p"
-	.string "Aber es warten noch sechs\n"
-	.string "weitere starke Trainer auf dich!$"
+	.string "Aber es warten noch sechs weitere\n"
+	.string "starke Trainer auf dich!$"
 #else
 	.string "You were really awesome!\p"
 	.string "But there are still six tough\n"
@@ -994,8 +986,8 @@ BattlePyramid_Text_SixTrainersRemaining1::
 BattlePyramid_Text_FiveTrainersRemaining1::
 #if GERMAN
 	.string "Du warst wirklich unglaublich gut!\p"
-	.string "Aber es warten noch fünf\n"
-	.string "weitere starke Trainer auf dich!$"
+	.string "Aber es warten noch fünf weitere\n"
+	.string "starke Trainer auf dich!$"
 #else
 	.string "You were really awesome!\p"
 	.string "But there are still five tough\n"
@@ -1005,8 +997,8 @@ BattlePyramid_Text_FiveTrainersRemaining1::
 BattlePyramid_Text_FourTrainersRemaining1::
 #if GERMAN
 	.string "Du warst wirklich unglaublich gut!\p"
-	.string "Aber es warten noch vier\n"
-	.string "weitere starke Trainer auf dich!$"
+	.string "Aber es warten noch vier weitere starke\n"
+	.string "Trainer auf dich!$"
 #else
 	.string "You were really awesome!\p"
 	.string "But there are still four tough\n"
@@ -1016,8 +1008,8 @@ BattlePyramid_Text_FourTrainersRemaining1::
 BattlePyramid_Text_ThreeTrainersRemaining1::
 #if GERMAN
 	.string "Du warst wirklich unglaublich gut!\p"
-	.string "Aber es warten noch drei\n"
-	.string "weitere starke Trainer auf dich!$"
+	.string "Aber es warten noch drei weitere starke\n"
+	.string "Trainer auf dich!$"
 #else
 	.string "You were really awesome!\p"
 	.string "But there are still three tough\n"
@@ -1027,8 +1019,8 @@ BattlePyramid_Text_ThreeTrainersRemaining1::
 BattlePyramid_Text_TwoTrainersRemaining1::
 #if GERMAN
 	.string "Du warst wirklich unglaublich gut!\p"
-	.string "Aber es warten noch zwei\n"
-	.string "weitere starke Trainer auf dich!$"
+	.string "Aber es warten noch zwei weitere starke\n"
+	.string "Trainer auf dich!$"
 #else
 	.string "You were really awesome!\p"
 	.string "But there are still two tough\n"
@@ -1038,8 +1030,8 @@ BattlePyramid_Text_TwoTrainersRemaining1::
 BattlePyramid_Text_OneTrainersRemaining1::
 #if GERMAN
 	.string "Du warst wirklich unglaublich gut!\p"
-	.string "Aber es wartet noch ein\n"
-	.string "weiterer starker Trainer auf dich!$"
+	.string "Aber es wartet noch ein weiterer\n"
+	.string "starker Trainer auf dich!$"
 #else
 	.string "You were really awesome!\p"
 	.string "But there's still one tough\n"
@@ -1399,8 +1391,8 @@ BattlePyramid_Text_SixTrainersRemaining6::
 
 BattlePyramid_Text_FiveTrainersRemaining6::
 #if GERMAN
-	.string "Schaffst du es, die fünf\n"
-	.string "verbleibenden Trainer zu besiegen?$"
+	.string "Schaffst du es, die fünf verbleibenden\n"
+	.string "Trainer zu besiegen?$"
 #else
 	.string "Can you keep winning against\n"
 	.string "the five remaining TRAINERS?$"
@@ -1408,8 +1400,8 @@ BattlePyramid_Text_FiveTrainersRemaining6::
 
 BattlePyramid_Text_FourTrainersRemaining6::
 #if GERMAN
-	.string "Schaffst du es, die vier\n"
-	.string "verbleibenden Trainer zu besiegen?$"
+	.string "Schaffst du es, die vier verbleibenden\n"
+	.string "Trainer zu besiegen?$"
 #else
 	.string "Can you keep winning against\n"
 	.string "the four remaining TRAINERS?$"
@@ -1417,8 +1409,8 @@ BattlePyramid_Text_FourTrainersRemaining6::
 
 BattlePyramid_Text_ThreeTrainersRemaining6::
 #if GERMAN
-	.string "Schaffst du es, die drei\n"
-	.string "verbleibenden Trainer zu besiegen?$"
+	.string "Schaffst du es, die drei verbleibenden\n"
+	.string "Trainer zu besiegen?$"
 #else
 	.string "Can you keep winning against\n"
 	.string "the three remaining TRAINERS?$"
@@ -1426,8 +1418,8 @@ BattlePyramid_Text_ThreeTrainersRemaining6::
 
 BattlePyramid_Text_TwoTrainersRemaining6::
 #if GERMAN
-	.string "Schaffst du es, die zwei\n"
-	.string "verbleibenden Trainer zu besiegen?$"
+	.string "Schaffst du es, die zwei verbleibenden\n"
+	.string "Trainer zu besiegen?$"
 #else
 	.string "Can you keep winning against\n"
 	.string "the two remaining TRAINERS?$"
@@ -1435,8 +1427,8 @@ BattlePyramid_Text_TwoTrainersRemaining6::
 
 BattlePyramid_Text_OneTrainersRemaining6::
 #if GERMAN
-	.string "Schaffst du es, den\n"
-	.string "verbleibenden Trainer zu besiegen?$"
+	.string "Schaffst du es, den verbleibenden\n"
+	.string "Trainer zu besiegen?$"
 #else
 	.string "Can you keep winning against\n"
 	.string "the last remaining TRAINER?$"

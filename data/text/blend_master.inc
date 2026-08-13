@@ -88,8 +88,8 @@ BerryBlender_Text_BlendMasterLetsBerryBlender:
 #if GERMAN
 	.string "Sehr schön!\p"
 	.string "Dann lass uns loslegen!\p"
-	.string "Lass uns zusammen mit dem\n"
-	.string "Mixmeister Beeren Mixen!$"
+	.string "Lass uns zusammen mit dem Mixmeister\n"
+	.string "Beeren Mixen!$"
 #else
 	.string "Fine!\p"
 	.string "Let's get started, then!\p"

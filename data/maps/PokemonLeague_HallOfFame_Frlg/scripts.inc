@@ -57,8 +57,7 @@ PokemonLeague_HallOfFame_Text_OakCongratulations::
 #if GERMAN
 	.string "Eich: Herzlichen Glückwunsch,\n"
 	.string "{PLAYER}!\p"
-	.string "Das hier ist die Pokémon-\n"
-	.string "Ruhmeshalle!\p"
+	.string "Das hier ist die Pokémon-Ruhmeshalle!\p"
 	.string "Alle Champions der Pokémon Liga werden\n"
 	.string "hier für ihre Heldentaten\l"
 	.string "ausgezeichnet!\p"

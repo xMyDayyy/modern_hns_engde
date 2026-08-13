@@ -706,8 +706,7 @@ MauvilleCity_GameCorner_Text_WhichPrize:
 
 MauvilleCity_GameCorner_Text_SoYourChoiceIsTheTMX:
 #if GERMAN
-	.string "Du möchtest also\n"
-	.string "{STR_VAR_1} {STR_VAR_2}?$"
+	.string "Du möchtest also {STR_VAR_1} {STR_VAR_2}?$"
 #else
 	.string "So your choice is\n"
 	.string "the {STR_VAR_1} {STR_VAR_2}?$"

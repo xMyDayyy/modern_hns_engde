@@ -204,8 +204,8 @@ NewSinjoh_KimonoHideout_EventScript_MiharuAfter::
 
 NewSinjoh_KimonoHideout_Text_MiharuBeforeBattle:
 #if GERMAN
-	.string "Miharu: Genau wie wir es\n"
-	.string "vorausgesehen haben.\p"
+	.string "Miharu: Genau wie wir es vorausgesehen\n"
+	.string "haben.\p"
 	.string "Der Champ der Steine hat dich\n"
 	.string "geschickt, die Tafeln zu sammeln.\p"
 	.string "Unser Orden hütet diese Tafeln\n"

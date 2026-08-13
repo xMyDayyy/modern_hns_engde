@@ -224,8 +224,8 @@ FortreeCity_Gym_Text_EdwardoDefeat:
 
 FortreeCity_Gym_Text_EdwardoPostBattle:
 #if GERMAN
-	.string "Die Welt ist groß und es gibt\n"
-	.string "zahlreiche starke Trainer.\p"
+	.string "Die Welt ist groß und es gibt zahlreiche\n"
+	.string "starke Trainer.\p"
 	.string "Ich werde weiter trainieren und so\n"
 	.string "immer stärker werden!$"
 #else

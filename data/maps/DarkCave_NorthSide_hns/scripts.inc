@@ -54,8 +54,8 @@ DarkCave2_Text_Nerd:
 
 DarkCave2_Text_Nerd2:
 #if GERMAN
-	.string "Schattenbrille erhöht die\n"
-	.string "Stärke von Unlicht-Attacken.$"
+	.string "Schattenbrille erhöht die Stärke von\n"
+	.string "Unlicht-Attacken.$"
 #else
     .string "BLACK-GLASSES ups the power of\n"
     .string "DARK-type moves.$"

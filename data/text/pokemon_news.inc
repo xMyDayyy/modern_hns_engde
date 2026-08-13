@@ -10,8 +10,8 @@ gPokeNewsTextSlateport_Upcoming::
 	.string "ins Zeug legen werde.\p"
 	.string "Er wollte uns nicht verraten, wofür er\n"
 	.string "sich ins Zeug legt. Stattdessen gab\p"
-	.string "er uns den Rat: “Spart euer\n"
-	.string "Geld. Das wäre gut…”\p"
+	.string "er uns den Rat: “Spart euer Geld. Das\n"
+	.string "wäre gut…”\p"
 	.string "Graphitport City ist eine Reise wert!\p"
 	.string "Das waren die Pokémon Nachrichten.$"
 #else

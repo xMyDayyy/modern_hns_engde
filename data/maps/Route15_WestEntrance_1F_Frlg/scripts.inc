@@ -8,8 +8,8 @@ Route15_WestEntrance_1F_EventScript_Guard::
 Route15_WestEntrance_1F_Text_OaksAideCameByHere::
 #if GERMAN
 	.string "Arbeitest du an einem Pokédex?\p"
-	.string "Prof. Eichs Assistent ist\n"
-	.string "kürzlich hier vorbeigekommen!$"
+	.string "Prof. Eichs Assistent ist kürzlich hier\n"
+	.string "vorbeigekommen!$"
 #else
 	.string "Are you the kid who's working on\n"
 	.string "a POKéDEX?\p"

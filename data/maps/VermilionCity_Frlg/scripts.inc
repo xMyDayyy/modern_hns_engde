@@ -446,8 +446,7 @@ VermilionCity_Text_BoardSeagallopTriPass::
 VermilionCity_Text_Seagallop7Departing::
 #if GERMAN
 	.string "O.K.! Alles klar!\p"
-	.string "Seesprint Tempo 7 wird in\n"
-	.string "Kürze ablegen.$"
+	.string "Seesprint Tempo 7 wird in Kürze ablegen.$"
 #else
 	.string "Okay, everything's in order.\p"
 	.string "SEAGALLOP HI-SPEED 7 will be\n"
@@ -469,8 +468,7 @@ VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
 #if GERMAN
 	.string "Oh! Das ist das Geheimticket!\n"
 	.string "Das ist selten.\p"
-	.string "Wir bringen dich gerne zum\n"
-	.string "Nabelfels.$"
+	.string "Wir bringen dich gerne zum Nabelfels.$"
 #else
 	.string "Oh! That's a MYSTICTICKET!\n"
 	.string "Now that is rare.\p"
@@ -504,8 +502,7 @@ VermilionCity_Text_Seagallop10Departing::
 #if GERMAN
 	.string "O.K.! Alles klar! Du kannst an Bord\n"
 	.string "der Spezialfähre.\p"
-	.string "Seesprint Tempo 10 wird \n"
-	.string "sofort ablegen.$"
+	.string "Seesprint Tempo 10 wird sofort ablegen.$"
 #else
 	.string "Okay, everything's in order for you\n"
 	.string "to board a special ferry.\p"
@@ -517,8 +514,7 @@ VermilionCity_Text_Seagallop12Departing::
 #if GERMAN
 	.string "O.K.! Alles klar! Du kannst an Bord\n"
 	.string "der Spezialfähre.\p"
-	.string "Seesprint Tempo 12 wird \n"
-	.string "sofort ablegen.$"
+	.string "Seesprint Tempo 12 wird sofort ablegen.$"
 #else
 	.string "Okay, everything's in order for you\n"
 	.string "to board a special ferry.\p"
@@ -536,10 +532,10 @@ VermilionCity_Text_Route2AideHasPackageForYou::
 	.string "Assistenten getroffen?\p"
 	.string "Er hatte ein Paket von Prof. Eich\n"
 	.string "für dich, {PLAYER}.\p"
-	.string "Er sagte, er sucht dich bei\n"
-	.string "Route 2, {PLAYER}.\p"
-	.string "Wenn du bei Route 2 bist, \n"
-	.string "halte nach ihm Ausschau.$"
+	.string "Er sagte, er sucht dich bei Route 2,\n"
+	.string "{PLAYER}.\p"
+	.string "Wenn du bei Route 2 bist, halte nach ihm\n"
+	.string "Ausschau.$"
 #else
 	.string "Oh, hello, {PLAYER}!\n"
 	.string "How are you doing?\p"

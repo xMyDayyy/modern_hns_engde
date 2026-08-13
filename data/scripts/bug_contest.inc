@@ -179,8 +179,8 @@ BugContest_Text_TimesUp:
 
 BugContest_Text_WhiteOut:
 #if GERMAN
-	.string "{PLAYER} hat kein\n"
-	.string "kampffähiges Pokémon mehr!\p"
+	.string "{PLAYER} hat kein kampffähiges\n"
+	.string "Pokémon mehr!\p"
 	.string "Das Käferturnier ist vorbei.$"
 #else
 	.string "{PLAYER} is out of useable POKéMON.\n"
@@ -203,8 +203,8 @@ BugContest_Text_First2:
 
 BugContest_Text_First3:
 #if GERMAN
-	.string "Und! Der 1. Platz beim\n"
-	.string "Käferturnier geht aaan…\p"
+	.string "Und! Der 1. Platz beim Käferturnier geht\n"
+	.string "aaan…\p"
 	.string "{PLAYER} mit einem {STR_VAR_1}!$"
 #else
 	.string "This Bug-Catching Contest Winner\n"
@@ -229,10 +229,9 @@ BugContest_Text_Second2:
 
 BugContest_Text_Second3:
 #if GERMAN
-	.string "Und! Der 1. Platz beim\n"
-	.string "Käferturnier geht aaan…\p"
-	.string "Käfersammler Shaun mit\n"
-	.string "einem Pinsir!$"
+	.string "Und! Der 1. Platz beim Käferturnier geht\n"
+	.string "aaan…\p"
+	.string "Käfersammler Shaun mit einem Pinsir!$"
 #else
 	.string "This Bug-Catching Contest Winner\n"
 	.string "is...\p"
@@ -255,10 +254,9 @@ BugContest_Text_Third2:
 
 BugContest_Text_Third3:
 #if GERMAN
-	.string "Und! Der 1. Platz beim\n"
-	.string "Käferturnier geht aaan…\p"
-	.string "Käfersammler Shaun mit\n"
-	.string "einem Pinsir!$"
+	.string "Und! Der 1. Platz beim Käferturnier geht\n"
+	.string "aaan…\p"
+	.string "Käfersammler Shaun mit einem Pinsir!$"
 #else
 	.string "This Bug-Catching Contest Winner\n"
 	.string "is...\p"

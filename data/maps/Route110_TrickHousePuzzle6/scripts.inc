@@ -132,8 +132,8 @@ Route110_TrickHousePuzzle6_Text_SebastianDefeat:
 
 Route110_TrickHousePuzzle6_Text_SebastianPostBattle:
 #if GERMAN
-	.string "Dir scheint das gar nichts\n"
-	.string "auszumachen. Oder ist das nur Show?$"
+	.string "Dir scheint das gar nichts auszumachen.\n"
+	.string "Oder ist das nur Show?$"
 #else
 	.string "You don't seem to be affected at all.\n"
 	.string "Or do you have your poker face on?$"

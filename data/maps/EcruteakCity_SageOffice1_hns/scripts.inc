@@ -109,8 +109,8 @@ EcruteakTinTowerEntrance_Text_SageWithBadge:
 	.string "Wenn du nicht im Besitz des Ordens von\n"
 	.string "Teak City bist, darfst du den Zinnturm\l"
 	.string "nicht betreten.\p"
-	.string "Ah! Das ist der Orden\n"
-	.string "von Teak City! Du darfst passieren.$"
+	.string "Ah! Das ist der Orden von Teak City! Du\n"
+	.string "darfst passieren.$"
 #else
 	.string "TIN TOWER is off limits to anyone\n"
 	.string "without ECRUTEAK GYM's BADGE.\p"
@@ -122,12 +122,12 @@ EcruteakTinTowerEntrance_Text_SageWithBadge:
 EcruteakTinTowerEntrance_Text_SageNoClearBell:
 #if GERMAN
 	.string "Ein denkwürdiger Augenblick.\p"
-	.string "Entschuldigung,\n"
-	.string "aber ich muss dich bitten zu gehen.\p"
+	.string "Entschuldigung, aber ich muss dich\n"
+	.string "bitten zu gehen.\p"
 	.string "…Was lindert Seelenschmerzen…\p"
 	.string "Das Trio der Weisen sagt stets\p"
-	.string "Dinge, die sehr schwierig\n"
-	.string "zu verstehen sind…$"
+	.string "Dinge, die sehr schwierig zu verstehen\n"
+	.string "sind…$"
 #else
 	.string "A momentous event has occurred.\p"
 	.string "I beg your pardon, but I must ask\n"
@@ -140,8 +140,8 @@ EcruteakTinTowerEntrance_Text_SageNoClearBell:
 EcruteakTinTowerEntrance_Text_SageHearsClearBell1:
 #if GERMAN
 	.string "Ein denkwürdiger Augenblick.\p"
-	.string "Entschuldigung,\n"
-	.string "aber ich muss dich bitten zu gehen.\p"
+	.string "Entschuldigung, aber ich muss dich\n"
+	.string "bitten zu gehen.\p"
 	.string ".........$"
 #else
 	.string "A momentous event has occurred.\p"
@@ -186,8 +186,8 @@ EcruteakTinTowerEntrance_Text_WanderingSage:
 	.string "Der Zinnturm da vorne ist ein\n"
 	.string "8-stöckiger Turm von göttlicher\l"
 	.string "Schönheit.\p"
-	.string "Er beruhigt die Seelen derer,\n"
-	.string "die ihn betrachten.$"
+	.string "Er beruhigt die Seelen derer, die ihn\n"
+	.string "betrachten.$"
 #else
 	.string "The TIN TOWER ahead is a nine-\n"
 	.string "tier tower of divine beauty.\p"

@@ -53,16 +53,15 @@ PokemonLeague_BrunosRoom_EventScript_BrunoDefeated::
 
 PokemonLeague_BrunosRoom_Text_RematchBefore:
 #if GERMAN
-	.string "Bruno: Willkommen zurück,\n"
-	.string "junger Krieger.\p"
+	.string "Bruno: Willkommen zurück, junger\n"
+	.string "Krieger.\p"
 	.string "Durch hartes Training sind wir\n"
 	.string "noch stärker geworden.\p"
-	.string "Mein steinharter Wille ist\n"
-	.string "nun noch fester und unbeugsamer.\p"
-	.string "Bist du bereit, dich einer\n"
-	.string "noch größeren Prüfung zu stellen?\p"
-	.string "Zeig mir die Früchte deines\n"
-	.string "Trainings.\p"
+	.string "Mein steinharter Wille ist nun noch\n"
+	.string "fester und unbeugsamer.\p"
+	.string "Bist du bereit, dich einer noch größeren\n"
+	.string "Prüfung zu stellen?\p"
+	.string "Zeig mir die Früchte deines Trainings.\p"
 	.string "Hoo hah!$"
 #else
     .string "BRUNO: Welcome back, young\n"
@@ -80,10 +79,9 @@ PokemonLeague_BrunosRoom_Text_RematchBefore:
 
 PokemonLeague_BrunosRoom_Text_Before:
 #if GERMAN
-	.string "Ich bin Bruno von den\n"
-	.string "Top Vier.\p"
-	.string "Ich trainiere bis ans Limit,\n"
-	.string "denn ich glaube an unser Potenzial.\p"
+	.string "Ich bin Bruno von den Top Vier.\p"
+	.string "Ich trainiere bis ans Limit, denn ich\n"
+	.string "glaube an unser Potenzial.\p"
 	.string "So sind wir stark geworden.\p"
 	.string "Hältst du unserer Kraft stand?\p"
 	.string "Hm? Keine Angst in deinen Augen.\n"

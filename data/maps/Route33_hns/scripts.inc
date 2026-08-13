@@ -47,8 +47,8 @@ Route33_Text_HikerAnthony2Seen:
 
 Route33_Text_HikerAnthony2Beaten:
 #if GERMAN
-	.string "Oho! Scheint, als hättest du\n"
-	.string "noch mehr Energie als ich!$"
+	.string "Oho! Scheint, als hättest du noch mehr\n"
+	.string "Energie als ich!$"
 #else
 	.string "Whoa! You've got more zip\n"
 	.string "than me!$"
@@ -117,8 +117,8 @@ Route33_Text_HikerAnthonyDunsparce:
 Route33_Text_Lass:
 #if GERMAN
 	.string "Hechel, keuch…\p"
-	.string "Endlich habe ich\n"
-	.string "es durch diese Höhle geschafft!\p"
+	.string "Endlich habe ich es durch diese Höhle\n"
+	.string "geschafft!\p"
 	.string "Sie war größer, als ich annahm.\p"
 	.string "Ich war zu erschöpft, um alles zu\n"
 	.string "erkunden, also habe ich sie verlassen.$"

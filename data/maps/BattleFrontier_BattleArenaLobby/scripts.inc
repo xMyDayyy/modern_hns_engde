@@ -362,8 +362,7 @@ BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
 	.string "Hier wird der Kampfgeist der Trainer\n"
 	.string "auf die Probe gestellt!\p"
 	.string "Willkommen im Kampfring!\p"
-	.string "Ich begleite dich beim\n"
-	.string "K.O.-Teamturnier!$"
+	.string "Ich begleite dich beim K.O.-Teamturnier!$"
 #else
 	.string "Where the battling spirit of TRAINERS\n"
 	.string "is put to the test!\p"
@@ -391,8 +390,8 @@ BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 #if GERMAN
-	.string "Im Kampfring fechten\n"
-	.string "wir K.O.-Teamturniere aus.\p"
+	.string "Im Kampfring fechten wir\n"
+	.string "K.O.-Teamturniere aus.\p"
 	.string "Jeder Teilnehmer nimmt drei Pokémon\n"
 	.string "mit in den Wettkampf.\p"
 	.string "Die Pokémon müssen in der Reihenfolge\n"
@@ -572,8 +571,7 @@ BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
 #if GERMAN
-	.string "{PLAYER} gewinnt\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} gewinnt {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"

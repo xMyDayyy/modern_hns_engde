@@ -237,8 +237,8 @@ MahoganyTown_Shop_Text_Granny:
 
 MahoganyMart1F_Text_Pharmacist_Lance:
 #if GERMAN
-	.string "Arrgh… Du hast\n"
-	.string "die Geheimtreppe gefunden…$"
+	.string "Arrgh… Du hast die Geheimtreppe\n"
+	.string "gefunden…$"
 #else
     .string "ROCKETS have hijacked my basement!$"
 #endif

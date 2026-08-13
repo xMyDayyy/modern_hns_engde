@@ -561,8 +561,8 @@ BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
 #if GERMAN
 	.string "Entschuldige, aber…\p"
-	.string "Unser Kampfkoloss ist\n"
-	.string "gerade auf dem Weg hierher.\p"
+	.string "Unser Kampfkoloss ist gerade auf dem\n"
+	.string "Weg hierher.\p"
 	.string "Sie hofft auf einen Kampf.\n"
 	.string "Sie sollte bald hier sein.$"
 #else

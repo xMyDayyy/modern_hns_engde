@@ -19,8 +19,8 @@ GoldenrodCity_House2_EventScript_Woman::
 
 GoldenrodPPSpeechHouse_Text_Man:
 #if GERMAN
-	.string "Einmal im Kampf konnte mein\n"
-	.string "Pokémon keinen Zug ausführen.\p"
+	.string "Einmal im Kampf konnte mein Pokémon\n"
+	.string "keinen Zug ausführen.\p"
 	.string "Die Power Points, oder AP, aller\n"
 	.string "Attacken waren aufgebraucht.$"
 #else

@@ -155,8 +155,8 @@ Route42_Text_EusineJealous:
     .string "Weitem…\p"
     .string "Mein Großvater war…\n"
     .string "sehr von Legenden begeistert.\p"
-    .string "Ich habe von ihm unzählige\n"
-    .string "Geschichten über Suicune gehört.$"
+    .string "Ich habe von ihm unzählige Geschichten\n"
+    .string "über Suicune gehört.$"
 #else
 	.string "{PLAYER}!\p"
 	.string "You seem to be around where\n"
@@ -320,8 +320,8 @@ Route42_Text_PokemaniacShaneSeen:
 
 Route42_Text_PokemaniacShaneBeaten:
 #if GERMAN
-	.string "Ich hätte meinen\n"
-	.string "Mondstein verwenden sollen…$"
+	.string "Ich hätte meinen Mondstein verwenden\n"
+	.string "sollen…$"
 #else
 	.string "I should have used my\n"
 	.string "MOON STONE…$"
@@ -392,8 +392,8 @@ Route42_Text_TullyPostRematch:
 
 Route42_Text_TullyHasItem:
 #if GERMAN
-    .string "Hey! Ich habe beim Angeln\n"
-    .string "etwas gefunden!\p"
+    .string "Hey! Ich habe beim Angeln etwas\n"
+    .string "gefunden!\p"
     .string "Hier, du kannst es haben!$"
 #else
 	.string "Hey! I found something\n"
@@ -403,8 +403,8 @@ Route42_Text_TullyHasItem:
 
 Route42_Text_TullyGaveItem:
 #if GERMAN
-    .string "Ich sage dir Bescheid, wenn\n"
-    .string "ich noch etwas an Land ziehe!$"
+    .string "Ich sage dir Bescheid, wenn ich noch\n"
+    .string "etwas an Land ziehe!$"
 #else
 	.string "I'll let you know if I\n"
 	.string "reel in anything else!$"

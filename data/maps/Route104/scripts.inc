@@ -1280,8 +1280,7 @@ Route104_Text_MayPostBattle:
 	.string "Umgang mit Pokémon.\p"
 	.string "Aber anstatt sie nur kämpfen zu lassen,\n"
 	.string "solltest du dir ein Beispiel an Mr.\p"
-	.string "Brack\n"
-	.string "nehmen.\p"
+	.string "Brack nehmen.\p"
 	.string "Es ist wichtig, dass man sich mit den\n"
 	.string "Pokémon anfreundet.$"
 #else

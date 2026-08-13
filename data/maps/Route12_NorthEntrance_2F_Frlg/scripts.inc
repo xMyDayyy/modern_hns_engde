@@ -47,8 +47,8 @@ Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale::
 #if GERMAN
 	.string "Meine Pokémon wurden im Pokémon-\n"
 	.string "turm zur letzten Ruhe gebettet.\p"
-	.string "Ich gebe dir diese TM. Ich\n"
-	.string "benötige sie nicht länger...$"
+	.string "Ich gebe dir diese TM. Ich benötige sie\n"
+	.string "nicht länger...$"
 #else
 	.string "My POKéMON's ashes are stored in\n"
 	.string "POKéMON TOWER.\p"
@@ -60,8 +60,8 @@ Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale::
 #if GERMAN
 	.string "Meine Pokémon wurden im Pokémon-\n"
 	.string "turm zur letzten Ruhe gebettet.\p"
-	.string "Ich gebe dir diese TM. Ich\n"
-	.string "benötige sie nicht länger...$"
+	.string "Ich gebe dir diese TM. Ich benötige sie\n"
+	.string "nicht länger...$"
 #else
 	.string "My POKéMON's ashes are stored in\n"
 	.string "POKéMON TOWER.\p"
@@ -71,8 +71,7 @@ Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale::
 
 Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM27!$"
+	.string "{PLAYER} erhält TM27!$"
 #else
 	.string "{PLAYER} received TM27\n"
 	.string "from the little girl.$"

@@ -62,8 +62,8 @@ VioletCity_TrainerSchool_EventScript_BlackBoard::
 
 VioletCity_TrainerSchool_Text_Twin:
 #if GERMAN
-	.string "Ich bin kein GBA-Kind, aber\n"
-	.string "ich liebe Pokémon-Spiele!\p"
+	.string "Ich bin kein GBA-Kind, aber ich liebe\n"
+	.string "Pokémon-Spiele!\p"
 	.string "In alten Spielen musstest du gegen\n"
 	.string "viele wilde Pokémon kämpfen, um genug\l"
 	.string "EP zu bekommen.\p"
@@ -104,8 +104,8 @@ VioletCity_TrainerSchool_Text_EarlIntro:
 #if GERMAN
 	.string "Ich bin Earl!\p"
 	.string "Pokémon sind wundervoll, ja!\p"
-	.string "Ich lehre dich, ein besserer\n"
-	.string "Trainer zu werden!$"
+	.string "Ich lehre dich, ein besserer Trainer zu\n"
+	.string "werden!$"
 #else
 	.string "EARL, I am!\p"
 	.string "Wonderful are POKéMON, yes!\p"
@@ -193,8 +193,8 @@ VioletCity_TrainerSchool_Text_NoMoreToTeach:
 #if GERMAN
 	.string "Oh! Kluger Schüler!\n"
 	.string "Mehr lehre ich nicht!\p"
-	.string "Wenn du mehr willst, rede mit\n"
-	.string "anderen Schülern!$"
+	.string "Wenn du mehr willst, rede mit anderen\n"
+	.string "Schülern!$"
 #else
 	.string "Oh! Smart student you are!\n"
 	.string "Nothing more do I teach!\p"
@@ -231,8 +231,7 @@ VioletCity_TrainerSchool_Text_GameboyKid1:
 #if GERMAN
 	.string "Bemerkenswerte Pokémon in einem Gebiet\n"
 	.string "kann man in der Overworld sehen!\p"
-	.string "Schaue die Routen bei Tag\n"
-	.string "und Nacht an!$"
+	.string "Schaue die Routen bei Tag und Nacht an!$"
 #else
 	.string "Notable POKéMON available in an\n"
 	.string "area can be seen in the overworld!\p"
@@ -242,10 +241,10 @@ VioletCity_TrainerSchool_Text_GameboyKid1:
 
 VioletCity_TrainerSchool_Text_GameboyKid2:
 #if GERMAN
-	.string "Beeren in Johto heilen oder\n"
-	.string "machen Pokébälle.\p"
-	.string "Beeren in Kanto senken\n"
-	.string "Statuswerte eines Pokémon.\p"
+	.string "Beeren in Johto heilen oder machen\n"
+	.string "Pokébälle.\p"
+	.string "Beeren in Kanto senken Statuswerte\n"
+	.string "eines Pokémon.\p"
 	.string "Das Dojo in Kanto hilft Pokémon,\n"
 	.string "perfekte Statuswerte zu erlangen.$"
 #else
@@ -354,8 +353,8 @@ VioletCity_TrainerSchool_Text_Notebook3:
 
 VioletCity_TrainerSchool_Text_StickerMachine:
 #if GERMAN
-	.string "Diese Maschine druckt Daten\n"
-	.string "als Sticker aus!$"
+	.string "Diese Maschine druckt Daten als\n"
+	.string "Sticker aus!$"
 #else
 	.string "This super machine prints data\n"
 	.string "out as stickers!$"

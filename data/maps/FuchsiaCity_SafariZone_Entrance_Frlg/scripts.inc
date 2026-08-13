@@ -228,8 +228,7 @@ FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500::
 FuchsiaCity_SafariZone_Entrance_Text_ThatllBe500WeOnlyUseSpecialBalls::
 #if GERMAN
 	.string "Das kostet 500¥!\p"
-	.string "Wir verwenden hier spezielle\n"
-	.string "Pokébälle.$"
+	.string "Wir verwenden hier spezielle Pokébälle.$"
 #else
 	.string "That'll be ¥500, please!\p"
 	.string "We only use a special kind of \n"
@@ -238,8 +237,7 @@ FuchsiaCity_SafariZone_Entrance_Text_ThatllBe500WeOnlyUseSpecialBalls::
 
 FuchsiaCity_SafariZone_Entrance_Text_PlayerReceived30SafariBalls::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "30 Safaribälle!$"
+	.string "{PLAYER} erhält 30 Safaribälle!$"
 #else
 	.string "{PLAYER} received 30 SAFARI BALLS\n"
 	.string "from the attendant.$"
@@ -286,8 +284,8 @@ FuchsiaCity_SafariZone_Entrance_Text_GoingToLeaveSafariZoneEarly::
 
 FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls::
 #if GERMAN
-	.string "Gib bitte die restlichen\n"
-	.string "Safaribälle zurück.$"
+	.string "Gib bitte die restlichen Safaribälle\n"
+	.string "zurück.$"
 #else
 	.string "Please return any SAFARI BALLS\n"
 	.string "you may have left.$"
@@ -325,8 +323,8 @@ FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
 	.string "In jedem Abschnitt findet man\n"
 	.string "verschiedene Pokémon. Versuche, sie mit\l"
 	.string "Safaribällen zu fangen.\p"
-	.string "Du kannst auch Köder oder\n"
-	.string "Steine werfen.\p"
+	.string "Du kannst auch Köder oder Steine\n"
+	.string "werfen.\p"
 	.string "Bei einem Köder flieht das Pokémon\n"
 	.string "nicht so schnell, ist aber schwieriger\l"
 	.string "zu fangen.\p"

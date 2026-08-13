@@ -70,8 +70,8 @@ CeladonCity_Condominiums_1F_Text_Meowth::
 
 CeladonCity_Condominiums_1F_Text_TryThisDrinkInstead::
 #if GERMAN
-	.string "Du solltest dein ganzes Geld\n"
-	.string "nicht für Getränke ausgeben!\p"
+	.string "Du solltest dein ganzes Geld nicht für\n"
+	.string "Getränke ausgeben!\p"
 	.string "Versuch das hier!$"
 #else
 	.string "You shouldn't spend all your money\n"

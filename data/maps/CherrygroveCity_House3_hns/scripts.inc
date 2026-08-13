@@ -29,8 +29,8 @@ CherrygroveCity_EvolutionHouse_Text_Youngster:
 CherrygroveCity_EvolutionHouse_Text_Lass:
 #if GERMAN
 	.string "Pokémon verändern sich?\p"
-	.string "Ich wäre schockiert, wenn\n"
-	.string "das plötzlich passieren würde!$"
+	.string "Ich wäre schockiert, wenn das plötzlich\n"
+	.string "passieren würde!$"
 #else
 	.string "POKéMON change?\p"
 	.string "I would be shocked if one did\n"

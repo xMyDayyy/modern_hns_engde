@@ -36,8 +36,7 @@ SaffronCity_MrPsychicsHouse_Text_YouWantedThis::
 
 SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM29!$"
+	.string "{PLAYER} erhält TM29!$"
 #else
 	.string "{PLAYER} received TM29\n"
 	.string "from MR. PSYCHIC.$"
@@ -46,8 +45,8 @@ SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic::
 SaffronCity_MrPsychicsHouse_Text_ExplainTM29::
 #if GERMAN
 	.string "TM29 ist Psychokinese!\p"
-	.string "Sie vermindert die Spezial-\n"
-	.string "Fähigkeiten des Gegners.$"
+	.string "Sie vermindert die Spezial-Fähigkeiten\n"
+	.string "des Gegners.$"
 #else
 	.string "You already know, don't you?\n"
 	.string "TM29 is PSYCHIC.\p"

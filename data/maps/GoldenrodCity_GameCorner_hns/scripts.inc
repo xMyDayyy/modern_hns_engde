@@ -536,8 +536,7 @@ GoldenrodCity_GameCorner_PrizeRoom_Text_Cancel:
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_SoYourChoiceIsTM:
 #if GERMAN
-	.string "Du möchtest also\n"
-	.string "{STR_VAR_1} {STR_VAR_2}?$"
+	.string "Du möchtest also {STR_VAR_1} {STR_VAR_2}?$"
 #else
 	.string "So your choice is\n"
 	.string "the {STR_VAR_1} {STR_VAR_2}?$"
@@ -663,8 +662,8 @@ GoldenrodCity_GameCorner_Text_PrizeVendorHereYouGo:
 
 GoldenrodCity_GameCorner_Text_PrizeVendorNeedMoreCoins:
 #if GERMAN
-	.string "Tut mir Leid, aber\n"
-	.string "du brauchst mehr Münzen.$"
+	.string "Tut mir Leid, aber du brauchst mehr\n"
+	.string "Münzen.$"
 #else
     .string "Sorry! You need more coins.$"
 #endif
@@ -755,8 +754,8 @@ GoldenrodCity_GameCorner_Text_CooltrainerF:
 
 GoldenrodCity_GameCorner_Text_Gentleman:
 #if GERMAN
-	.string "Ich habe meinen\n"
-	.string "Pokémon Eisstrahl beigebracht.\p"
+	.string "Ich habe meinen Pokémon Eisstrahl\n"
+	.string "beigebracht.\p"
 	.string "Es hat zwar gedauert, bis ich genug\n"
 	.string "Münzen hatte, aber es hat sich gelohnt.$"
 #else
@@ -1008,8 +1007,8 @@ GoldenrodCity_GameCorner_Text_VF_PlayLevel:
 GoldenrodCity_GameCorner_Text_VF_GameClear:
 #if GERMAN
 	.string "Geschafft!\p"
-	.string "Du hast alle versteckten\n"
-	.string "x2- und x3-Karten gefunden!$"
+	.string "Du hast alle versteckten x2- und\n"
+	.string "x3-Karten gefunden!$"
 #else
 	.string "Game clear!\p"
 	.string "You've found all the hidden\n"
@@ -1018,8 +1017,7 @@ GoldenrodCity_GameCorner_Text_VF_GameClear:
 
 GoldenrodCity_GameCorner_Text_VF_ReceivedCoins:
 #if GERMAN
-	.string "Du hast {STR_VAR_1}\n"
-	.string "Münze(n) erhalten!$"
+	.string "Du hast {STR_VAR_1} Münze(n) erhalten!$"
 #else
 	.string "You have received\n"
 	.string "{STR_VAR_1} Coin(s)!$"
@@ -1070,18 +1068,18 @@ GoldenrodCity_GameCorner_Text_VF_HowToPlay:
 	.string "mit versteckten Zahlen auf.\p"
 	.string "Unter ihnen liegen die Zahlen\n"
 	.string "1 bis 3 und Voltoball.\p"
-	.string "Die erste Zahl bringt dir\n"
-	.string "entsprechend viele Münzen.\p"
+	.string "Die erste Zahl bringt dir entsprechend\n"
+	.string "viele Münzen.\p"
 	.string "Jede weitere Zahl vervielfacht\n"
 	.string "deinen bisherigen Gewinn.\p"
-	.string "Eine 2 verdoppelt, eine 3\n"
-	.string "verdreifacht ihn.\p"
-	.string "Triffst du Voltoball,\n"
-	.string "ist das Spiel vorbei.\p"
+	.string "Eine 2 verdoppelt, eine 3 verdreifacht\n"
+	.string "ihn.\p"
+	.string "Triffst du Voltoball, ist das Spiel\n"
+	.string "vorbei.\p"
 	.string "Alle in der Runde gesammelten\n"
 	.string "Münzen gehen verloren!\p"
-	.string "Mit Aufgeben sicherst du dir\n"
-	.string "deine bisherigen Münzen.\p"
+	.string "Mit Aufgeben sicherst du dir deine\n"
+	.string "bisherigen Münzen.\p"
 	.string "Finde alle x2- und x3-Karten,\n"
 	.string "um die nächste Stufe zu erreichen!$"
 #else
@@ -1103,16 +1101,16 @@ GoldenrodCity_GameCorner_Text_VF_HowToPlay:
 
 GoldenrodCity_GameCorner_Text_VF_HintText:
 #if GERMAN
-	.string "Die Zahlen am Rand geben dir\n"
-	.string "Hinweise auf die Felder.\p"
-	.string "Sie beziehen sich auf die\n"
-	.string "jeweilige Reihe oder Spalte.\p"
+	.string "Die Zahlen am Rand geben dir Hinweise\n"
+	.string "auf die Felder.\p"
+	.string "Sie beziehen sich auf die jeweilige\n"
+	.string "Reihe oder Spalte.\p"
 	.string "Je höher die Zahl, desto mehr\n"
 	.string "wertvolle Karten gibt es dort.\p"
-	.string "Die Voltoball-Anzahl zeigt,\n"
-	.string "wie viele sich dort verstecken.\p"
-	.string "Nutze beide Hinweise, um\n"
-	.string "sichere Karten zu finden!$"
+	.string "Die Voltoball-Anzahl zeigt, wie viele\n"
+	.string "sich dort verstecken.\p"
+	.string "Nutze beide Hinweise, um sichere Karten\n"
+	.string "zu finden!$"
 #else
 	.string "The numbers on the sides of the board\n"
 	.string "are hints about the numbers…\p"
@@ -1127,13 +1125,13 @@ GoldenrodCity_GameCorner_Text_VF_HintText:
 
 GoldenrodCity_GameCorner_Text_VF_AboutNotes:
 #if GERMAN
-	.string "Mit dem Notizmodus\n"
-	.string "({L_BUTTON} & {R_BUTTON}) markierst du\p"
+	.string "Mit dem Notizmodus ({L_BUTTON} &\n"
+	.string "{R_BUTTON}) markierst du\p"
 	.string "Karten mit 1-3 oder Voltoball.\p"
 	.string "Markiere vermutete Felder und\n"
 	.string "decke sie später auf.\p"
-	.string "Eine weitere Markierung\n"
-	.string "entfernt die Notiz.$"
+	.string "Eine weitere Markierung entfernt die\n"
+	.string "Notiz.$"
 #else
 	.string "Use the notes mode ({L_BUTTON} & {R_BUTTON}) to mark\n"
 	.string "cards with numbers 1-3 or a VOLTORB.\p"
@@ -1162,8 +1160,8 @@ GoldenrodCity_GameCorner_Text_VFAttendant1:
 
 GoldenrodCity_GameCorner_Text_VFAttendant2:
 #if GERMAN
-	.string "Versuch es auf der anderen\n"
-	.string "Seite des Tisches, Freund.$"
+	.string "Versuch es auf der anderen Seite des\n"
+	.string "Tisches, Freund.$"
 #else
 	.string "Try the other side of\n"
 	.string "the table, pal.$"

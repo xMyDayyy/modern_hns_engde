@@ -120,8 +120,8 @@ PokemonLeague_LoreleisRoom_Text_Intro::
 PokemonLeague_LoreleisRoom_Text_RematchIntro::
 #if GERMAN
 	.string "Willkommen in der Pokémon Liga!\p"
-	.string "Ich, Lorelei von den Top\n"
-	.string "Vier, bin zurückgekehrt!\p"
+	.string "Ich, Lorelei von den Top Vier, bin\n"
+	.string "zurückgekehrt!\p"
 	.string "Du weißt ja Bescheid! Niemand kann sich\n"
 	.string "mit mir messen, wenn es um Eis-Pokémon\l"
 	.string "geht!\l"

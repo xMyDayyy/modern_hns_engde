@@ -80,8 +80,8 @@ RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay::
 
 RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp:
 #if GERMAN
-	.string "Hallo und Willkommen in der\n"
-	.string "Devon Corporation.\p"
+	.string "Hallo und Willkommen in der Devon\n"
+	.string "Corporation.\p"
 	.string "Wir sind die stolzen Entwickler von\n"
 	.string "Medizin und Items, die das Leben\l"
 	.string "bereichern.$"

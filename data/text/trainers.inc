@@ -512,8 +512,8 @@ Route103_Text_IsabellePostBattle:
 
 Route103_Text_RhettIntro:
 #if GERMAN
-	.string "Whoa! Wie kannst du nur in so\n"
-	.string "etwas Kleines hineinpassen?$"
+	.string "Whoa! Wie kannst du nur in so etwas\n"
+	.string "Kleines hineinpassen?$"
 #else
 	.string "Whoa!\n"
 	.string "How'd you get into a space this small?$"
@@ -1132,8 +1132,8 @@ Route105_Text_AndresIntro:
 
 Route105_Text_AndresDefeated:
 #if GERMAN
-	.string "Ja… Ich bin nicht sonderlich\n"
-	.string "gut im Kämpfen…$"
+	.string "Ja… Ich bin nicht sonderlich gut im\n"
+	.string "Kämpfen…$"
 #else
 	.string "Yes…\n"
 	.string "I am no good at battling…$"
@@ -8396,8 +8396,8 @@ Route124_Text_LilaDefeat:
 Route124_Text_LilaPostBattle:
 #if GERMAN
 	.string "Maria: Seufz…\p"
-	.string "Wenn anstelle meines kleinen\n"
-	.string "Bruders ein hübscher Freund hier wäre…$"
+	.string "Wenn anstelle meines kleinen Bruders\n"
+	.string "ein hübscher Freund hier wäre…$"
 #else
 	.string "LILA: Sigh…\p"
 	.string "If only it wasn't my little brother\n"
@@ -8676,8 +8676,8 @@ Route125_Text_TanyaDefeat:
 
 Route125_Text_TanyaPostBattle:
 #if GERMAN
-	.string "Huuh… Wo geht es denn hier\n"
-	.string "nach Moosbach City?$"
+	.string "Huuh… Wo geht es denn hier nach\n"
+	.string "Moosbach City?$"
 #else
 	.string "Whew…\n"
 	.string "Which way is it to MOSSDEEP CITY?$"
@@ -9665,8 +9665,8 @@ Route128_Text_HarrisonIntro:
 
 Route128_Text_HarrisonDefeat:
 #if GERMAN
-	.string "Aua! Dich zu besiegen zu\n"
-	.string "wollen war aussichtslos.$"
+	.string "Aua! Dich zu besiegen zu wollen war\n"
+	.string "aussichtslos.$"
 #else
 	.string "Ouch!\n"
 	.string "I guess it was impossible to win.$"
@@ -10303,8 +10303,8 @@ Route132_Text_KiyoPostBattle:
 #if GERMAN
 	.string "Aargh…\n"
 	.string "Du bist ein Pokémon-Fanatiker, oder?\p"
-	.string "Du widmest dich den Pokémon\n"
-	.string "24 Stunden am Tag, oder?$"
+	.string "Du widmest dich den Pokémon 24 Stunden\n"
+	.string "am Tag, oder?$"
 #else
 	.string "Urggh…\n"
 	.string "You're a POKéMON fanatic, aren't you?\p"
@@ -10881,8 +10881,8 @@ VSSeeker_Text_BatteryNotChargedNeedXSteps::
 
 VSSeeker_Text_NoTrainersWithinRange::
 #if GERMAN
-	.string "Keine Trainer in Reichweite\n"
-	.string "die kämpfen könnten…\p"
+	.string "Keine Trainer in Reichweite die kämpfen\n"
+	.string "könnten…\p"
 	.string "Kampffahnder ausgeschaltet.{PAUSE_UNTIL_PRESS}$"
 #else
 	.string "There are no Trainers within range\n"
@@ -10892,8 +10892,8 @@ VSSeeker_Text_NoTrainersWithinRange::
 
 VSSeeker_Text_TrainersNotReady::
 #if GERMAN
-	.string "Die anderen Trainer sind\n"
-	.string "nicht bereit zu kämpfen.\p"
+	.string "Die anderen Trainer sind nicht bereit zu\n"
+	.string "kämpfen.\p"
 	.string "Ich muss eine Weile warten.{PAUSE_UNTIL_PRESS}$"
 #else
 	.string "The other Trainers don't appear\n"

@@ -313,8 +313,7 @@ CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis::
 
 Text_ReceivedItemFromLittleGirl::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "{STR_VAR_2}!$"
+	.string "{PLAYER} erhält {STR_VAR_2}!$"
 #else
 	.string "{PLAYER} received a {STR_VAR_2}\n"
 	.string "from the little girl.$"
@@ -371,8 +370,8 @@ CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM33::
 #if GERMAN
 	.string "TM33 ist Reflektor!\p"
-	.string "Diese Attacke schwächt\n"
-	.string "physische Angriffe des Gegners.$"
+	.string "Diese Attacke schwächt physische\n"
+	.string "Angriffe des Gegners.$"
 #else
 	.string "TM33 contains REFLECT.\p"
 	.string "It's a move that weakens the power\n"

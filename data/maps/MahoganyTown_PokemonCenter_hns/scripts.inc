@@ -21,8 +21,8 @@ MahoganyTown_PokemonCenter_EventScript_Girl::
 MahoganyTown_PokemonCenter_Text_PokefanM:
 #if GERMAN
 	.string "Wie? Team Rocket ist wieder da?\p"
-	.string "Ich sah einige Männer in\n"
-	.string "Schwarz am See des Zorns…$"
+	.string "Ich sah einige Männer in Schwarz am See\n"
+	.string "des Zorns…$"
 #else
     .string "What's this? TEAM ROCKET has come\n"
     .string "back?\p"

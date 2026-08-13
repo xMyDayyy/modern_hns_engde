@@ -62,8 +62,7 @@ SafariZoneFuchsia_Approved::
 
 SafariZoneFuchsia_Text_Attendant1:
 #if GERMAN
-	.string "Areal benötigt\n"
-	.string "Safari Level 2.$"
+	.string "Areal benötigt Safari Level 2.$"
 #else
 	.string "This area requires\n"
 	.string "SAFARI LEVEL 2.$"
@@ -71,8 +70,7 @@ SafariZoneFuchsia_Text_Attendant1:
 
 SafariZoneFuchsia_Text_Attendant2:
 #if GERMAN
-	.string "Areal benötigt\n"
-	.string "Safari Level 3.$"
+	.string "Areal benötigt Safari Level 3.$"
 #else
 	.string "This area requires\n"
 	.string "SAFARI LEVEL 3.$"
@@ -80,8 +78,7 @@ SafariZoneFuchsia_Text_Attendant2:
 
 SafariZoneFuchsia_Text_Attendant3:
 #if GERMAN
-	.string "Areal benötigt\n"
-	.string "Safari Level 4.$"
+	.string "Areal benötigt Safari Level 4.$"
 #else
 	.string "This area requires\n"
 	.string "SAFARI LEVEL 4.$"

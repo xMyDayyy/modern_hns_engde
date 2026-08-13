@@ -97,8 +97,7 @@ Route17_Text_BikerRileyAfterBattle:
 
 Route17_Text_BikerJoelSeen:
 #if GERMAN
-	.string "Wow! Das ist aber\n"
-	.string "ein tolles Fahrrad!$"
+	.string "Wow! Das ist aber ein tolles Fahrrad!$"
 #else
 	.string "Wow. That's a cool BICYCLE!$"
 #endif
@@ -130,16 +129,16 @@ Route17_Text_BikerGlennSeen:
 
 Route17_Text_BikerGlennBeaten:
 #if GERMAN
-	.string "Wow! Du bist aber ganz\n"
-	.string "schön flott unterwegs!$"
+	.string "Wow! Du bist aber ganz schön flott\n"
+	.string "unterwegs!$"
 #else
 	.string "Yikes! You've got awesome torque!$"
 #endif
 
 Route17_Text_BikerGlennAfterBattle:
 #if GERMAN
-	.string "Freihändig fahren gilt als\n"
-	.string "cool auf dem Radweg.$"
+	.string "Freihändig fahren gilt als cool auf dem\n"
+	.string "Radweg.$"
 #else
 	.string "Hands-free riding is considered\n"
 	.string "cool on CYCLING ROAD.$"
@@ -147,8 +146,8 @@ Route17_Text_BikerGlennAfterBattle:
 
 Route17_Text_BikerCharlesSeen:
 #if GERMAN
-	.string "Wir sind die furchtlosen\n"
-	.string "Helden des Radwegs!$"
+	.string "Wir sind die furchtlosen Helden des\n"
+	.string "Radwegs!$"
 #else
 	.string "We're fearless highway stars!$"
 #endif
@@ -227,8 +226,8 @@ Route17_Text_JoelRematchDefeat:
 
 Route17_Text_JoelPostRematch:
 #if GERMAN
-	.string "Ich trainiere weiter, bis ich\n"
-	.string "so cool bin wie du!$"
+	.string "Ich trainiere weiter, bis ich so cool bin\n"
+	.string "wie du!$"
 #else
 	.string "I'll keep training to be as cool\n"
 	.string "as you, kid!$"

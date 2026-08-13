@@ -21,8 +21,8 @@ Route43MahoganyGate_Text_Officer:
 
 Route43MahoganyGate_Text_Officer_RocketsCleared:
 #if GERMAN
-	.string "In letzter Zeit geht niemand\n"
-	.string "mehr zum See des Zorns.$"
+	.string "In letzter Zeit geht niemand mehr zum\n"
+	.string "See des Zorns.$"
 #else
     .string "Nobody goes up to LAKE OF RAGE\n"
     .string "these days.$"

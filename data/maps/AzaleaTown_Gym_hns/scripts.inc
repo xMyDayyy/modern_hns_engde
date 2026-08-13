@@ -718,8 +718,7 @@ AzaleaTown_Gym_Text_BugsyBeaten:
 
 AzaleaTown_Gym_Text_ReceivedHiveBadge:
 #if GERMAN
-	.string "{PLAYER} erhält den\n"
-	.string "Insektorden!$"
+	.string "{PLAYER} erhält den Insektorden!$"
 #else
 	.string "{PLAYER} received HIVEBADGE.$"
 #endif
@@ -822,8 +821,8 @@ AzaleaTown_Gym_Text_BugCatcherBennyBeaten:
 
 AzaleaTown_Gym_Text_BugCatcherBennyAfter:
 #if GERMAN
-	.string "Pokémon werden stärker,\n"
-	.string "wenn sie sich entwickeln. Wirklich!$"
+	.string "Pokémon werden stärker, wenn sie sich\n"
+	.string "entwickeln. Wirklich!$"
 #else
 	.string "POKéMON become stronger\n"
 	.string "if they evolve. Really!$"
@@ -840,8 +839,7 @@ AzaleaTown_Gym_Text_BugCatcherAlSeen:
 
 AzaleaTown_Gym_Text_BugCatcherAlBeaten:
 #if GERMAN
-	.string "Du hast bewiesen,\n"
-	.string "wie zäh du bist.$"
+	.string "Du hast bewiesen, wie zäh du bist.$"
 #else
 	.string "You proved how tough you are…$"
 #endif
@@ -879,8 +877,8 @@ AzaleaTown_Gym_Text_BugCatcherJoshBeaten:
 
 AzaleaTown_Gym_Text_BugCatcherJoshAfter:
 #if GERMAN
-	.string "Vielleicht sollte ich sie\n"
-	.string "ein wenig besser trainieren…$"
+	.string "Vielleicht sollte ich sie ein wenig\n"
+	.string "besser trainieren…$"
 #else
 	.string "I guess I should teach them\n"
 	.string "better moves…$"
@@ -897,8 +895,7 @@ AzaleaTown_Gym_Text_TwinsAmyMay1Seen:
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Beaten:
 #if GERMAN
-	.string "Eva & Ute: Oh, um Himmels\n"
-	.string "willen!$"
+	.string "Eva & Ute: Oh, um Himmels willen!$"
 #else
 	.string "AMY & MAY: Oh, double\n"
 	.string "goodness!$"
@@ -919,8 +916,8 @@ AzaleaTown_Gym_Text_TwinsAmyMay1After:
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Seen:
 #if GERMAN
-	.string "Ute: Du willst den Leiter\n"
-	.string "sehen? Viel Glück!\p"
+	.string "Ute: Du willst den Leiter sehen? Viel\n"
+	.string "Glück!\p"
 	.string "Kai ist so stark!\n"
 	.string "Der Zerschneider seines Sichlor trifft\l"
 	.string "fast immer kritisch!$"
@@ -934,8 +931,7 @@ AzaleaTown_Gym_Text_TwinsAmyMay2Seen:
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Beaten:
 #if GERMAN
-	.string "Eva & Ute: Oh, um\n"
-	.string "Himmels willen!$"
+	.string "Eva & Ute: Oh, um Himmels willen!$"
 #else
 	.string "AMY & MAY: Oh, double\n"
 	.string "goodness!$"
@@ -969,8 +965,8 @@ AzaleaTown_Gym_Text_GymGuide:
 	.string "Er hat außerdem eine neue Form des\n"
 	.string "Zerschneider entwickelt, als\l"
 	.string "Käfer-Attacke.\p"
-	.string "Oh, vergiss nicht diese\n"
-	.string "kritischen Treffer. Viel Glück!$"
+	.string "Oh, vergiss nicht diese kritischen\n"
+	.string "Treffer. Viel Glück!$"
 #else
 	.string "Yo, challenger!\p"
 	.string "BUGSY's young, but his knowledge\n"

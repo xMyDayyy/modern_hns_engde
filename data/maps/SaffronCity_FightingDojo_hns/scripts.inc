@@ -343,8 +343,8 @@ SaffronCity_FightingDojo_Ability_Text1:
 	.string "Fähigkeiten-Experte!\l"
 	.string "Ich tausche Fähigkeiten\p"
 	.string "für nur 25.000¥!\p"
-	.string "Möchtest du eine Fähigkeit\n"
-	.string "eines Pokémon tauschen?$"
+	.string "Möchtest du eine Fähigkeit eines\n"
+	.string "Pokémon tauschen?$"
 #else
 	.string "Welcome! I'm the ABILITY EXPERT!\p"
 	.string "I can swap POKéMON's abilities in\n"
@@ -355,8 +355,8 @@ SaffronCity_FightingDojo_Ability_Text1:
 
 SaffronCity_FightingDojo_Ability_Text_No:
 #if GERMAN
-	.string "Kein Problem. Ich bin hier,\n"
-	.string "wenn du mich brauchst.$"
+	.string "Kein Problem. Ich bin hier, wenn du mich\n"
+	.string "brauchst.$"
 #else
 	.string "Sure. I'll be here if you need me.$"
 #endif

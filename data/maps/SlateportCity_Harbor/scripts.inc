@@ -585,8 +585,8 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "Menschen unmöglich.\p"
 	.string "Du benötigst ein Pokémon, das weiß,\n"
 	.string "wie man Taucher ausführt…\p"
-	.string "Vielleicht, wenn du dich nach\n"
-	.string "Moosbach City begibst…\p"
+	.string "Vielleicht, wenn du dich nach Moosbach\n"
+	.string "City begibst…\p"
 	.string "Dort trifft man auf viele Taucher.\n"
 	.string "Vielleicht kann dir einer das\l"
 	.string "beibringen…$"
@@ -612,8 +612,8 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "aufzuhalten… Das ist unmöglich.\p"
 	.string "Du benötigst ein Pokémon, das weiß,\n"
 	.string "wie man Taucher ausführt…\p"
-	.string "Vielleicht, wenn du dich nach\n"
-	.string "Moosbach City begibst…\p"
+	.string "Vielleicht, wenn du dich nach Moosbach\n"
+	.string "City begibst…\p"
 	.string "Dort trifft man auf viele Taucher,\n"
 	.string "vielleicht kann dir einer das\l"
 	.string "beibringen…$"
@@ -698,8 +698,8 @@ SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
 
 SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
 #if GERMAN
-	.string "Kapt. Brigg: Du möchtest den\n"
-	.string "Abysszahn dafür haben?$"
+	.string "Kapt. Brigg: Du möchtest den Abysszahn\n"
+	.string "dafür haben?$"
 #else
 	.string "CAPT. STERN: So you'll trade it for\n"
 	.string "my DEEPSEATOOTH?$"

@@ -139,8 +139,8 @@ LilycoveCity_DepartmentStore_1F_Text_AllFiveDigitsMatched:
 
 LilycoveCity_DepartmentStore_1F_Text_NoRoomForThis:
 #if GERMAN
-	.string "Oh! Du scheinst keinen Platz\n"
-	.string "dafür zu haben.\p"
+	.string "Oh! Du scheinst keinen Platz dafür zu\n"
+	.string "haben.\p"
 	.string "Wenn du wieder Platz in deinem Beutel\n"
 	.string "hast, lass es mich wissen.$"
 #else

@@ -60,8 +60,8 @@ BlackthornCity_Text_BaobaCall:
 BlackthornCity_Text_ElmCall:
 #if GERMAN
 	.string "Hallo, {PLAYER}?\p"
-	.string "Professor Eich hat mir etwas\n"
-	.string "für dich mitgegeben.\p"
+	.string "Professor Eich hat mir etwas für dich\n"
+	.string "mitgegeben.\p"
 	.string "Komm doch mal im Labor vorbei.\n"
 	.string "Ich zähle auf dich!$"
 #else

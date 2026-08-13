@@ -54,8 +54,8 @@ MountMortar2_Text_PokemaniacMillerSeen:
 
 MountMortar2_Text_PokemaniacMillerBeaten:
 #if GERMAN
-	.string "Verloren… und das auch noch\n"
-	.string "gegen ein Kind!$"
+	.string "Verloren… und das auch noch gegen ein\n"
+	.string "Kind!$"
 #else
 	.string "I lost to some kid...?$"
 #endif

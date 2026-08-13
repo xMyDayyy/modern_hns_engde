@@ -129,8 +129,7 @@ TinTower_1F_Sage4_Text2:
 	.string "drei Kräfte verkörpern…\p"
 	.string "Den Blitz, der den Turm traf.\n"
 	.string "Das Feuer, das den Turm verbrannte.\p"
-	.string "Und den Regen, der das Feuer\n"
-	.string "löschte…$"
+	.string "Und den Regen, der das Feuer löschte…$"
 #else
 	.string "The legendary POKéMON are said\n"
 	.string "to embody three powers…\p"

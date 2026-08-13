@@ -85,8 +85,8 @@ SilphCo_9F_Text_Grunt1Defeat::
 
 SilphCo_9F_Text_Grunt1PostBattle::
 #if GERMAN
-	.string "Hätte ich doch auch schon in\n"
-	.string "deinem Alter als Trainer begonnen!$"
+	.string "Hätte ich doch auch schon in deinem\n"
+	.string "Alter als Trainer begonnen!$"
 #else
 	.string "If I had started as a TRAINER at\n"
 	.string "your age…$"

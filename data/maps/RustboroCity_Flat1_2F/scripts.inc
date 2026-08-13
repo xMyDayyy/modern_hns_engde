@@ -249,8 +249,8 @@ RustboroCity_Flat1_2F_Text_OhYouDontKnowAny:
 RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 #if GERMAN
 	.string "Vielen Dank!\p"
-	.string "Dank dir hat meine Tapetra\n"
-	.string "für mich gelacht!\p"
+	.string "Dank dir hat meine Tapetra für mich\n"
+	.string "gelacht!\p"
 	.string "Ich mag vielleicht nicht so aussehen,\n"
 	.string "aber ich bin einer der Topforscher der\l"
 	.string "Devon Corporation.\p"

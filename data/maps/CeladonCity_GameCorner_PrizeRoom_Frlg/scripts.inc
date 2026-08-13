@@ -391,8 +391,7 @@ CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon::
 
 CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday::
 #if GERMAN
-	.string "Ich hatte heute eine\n"
-	.string "Glückssträhne!$"
+	.string "Ich hatte heute eine Glückssträhne!$"
 #else
 	.string "Gahaha! I raked it in today!\n"
 	.string "If only every day were like this…$"
@@ -425,16 +424,14 @@ CeladonCity_GameCorner_PrizeRoom_Text_HereYouGo::
 
 CeladonCity_GameCorner_PrizeRoom_Text_YouWantPrize::
 #if GERMAN
-	.string "Du möchtest also {STR_VAR_1}\n"
-	.string "haben?$"
+	.string "Du möchtest also {STR_VAR_1} haben?$"
 #else
 	.string "So, you want the {STR_VAR_1}?$"
 #endif
 
 CeladonCity_GameCorner_PrizeRoom_Text_YouWantTM::
 #if GERMAN
-	.string "O.K.! Du willst eine\n"
-	.string "TM von {STR_VAR_2}?$"
+	.string "O.K.! Du willst eine TM von {STR_VAR_2}?$"
 #else
 	.string "Okay, a TM of {STR_VAR_2}\n"
 	.string "is what you want?$"

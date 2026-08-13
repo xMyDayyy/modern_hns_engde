@@ -260,8 +260,7 @@ MeteorFalls_1F_1R_Text_HoldItRightThereMagma:
 	.string "Bleibt sofort stehen, Team Magma!\p"
 	.string "Ihr irrt euch gewaltig, wenn ihr meint,\n"
 	.string "ihr könntet mit der Welt machen, was\p"
-	.string "ihr\n"
-	.string "wollt!$"
+	.string "ihr wollt!$"
 #else
 	.string "Hold it right there, TEAM MAGMA!\p"
 	.string "You're badly mistaken if you think you\n"
@@ -322,8 +321,7 @@ MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
 
 MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma:
 #if GERMAN
-	.string "Boss, wir sollten Team Magma\n"
-	.string "verfolgen…$"
+	.string "Boss, wir sollten Team Magma verfolgen…$"
 #else
 	.string "BOSS, we should give chase to\n"
 	.string "TEAM MAGMA…$"

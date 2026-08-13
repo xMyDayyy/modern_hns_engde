@@ -824,8 +824,7 @@ Route110_Text_MayExplainItemfinder:
 	.string "Bis zum nächsten Mal, {PLAYER}{KUN}.\p"
 	.string "Es hört sich aus meinem Munde zwar blöd\n"
 	.string "an, aber bis dahin solltest du viel\p"
-	.string "mehr\n"
-	.string "trainiert haben.$"
+	.string "mehr trainiert haben.$"
 #else
 	.string "MAY: That's an ITEMFINDER.\p"
 	.string "Try it out. If there is an item that's\n"

@@ -314,8 +314,8 @@ CianwoodGym_EventScript_Lao::
 
 CianwoodGym_Text_BlackbeltLaoSeen:
 #if GERMAN
-	.string "Wir Meister der Kampfkunst\n"
-	.string "kennen keine Angst!$"
+	.string "Wir Meister der Kampfkunst kennen\n"
+	.string "keine Angst!$"
 #else
 	.string "We martial artists fear nothing!$"
 #endif

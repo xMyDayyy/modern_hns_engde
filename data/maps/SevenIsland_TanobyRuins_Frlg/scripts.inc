@@ -12,8 +12,8 @@ SevenIsland_TanobyRuins_Text_BrandonIntro::
 
 SevenIsland_TanobyRuins_Text_BrandonDefeat::
 #if GERMAN
-	.string "Das war überraschend. Du\n"
-	.string "hättest nicht so grob sein müssen.$"
+	.string "Das war überraschend. Du hättest nicht\n"
+	.string "so grob sein müssen.$"
 #else
 	.string "That was uncalled for.\n"
 	.string "You didn't have to be so rough.$"
@@ -82,8 +82,7 @@ SevenIsland_TanobyRuins_Text_EdnaPostBattle::
 #if GERMAN
 	.string "Ich sagte, dass ich ein altes\n"
 	.string "Gebäude malen wollte.\p"
-	.string "Also hat Tom mich hierher\n"
-	.string "gebracht.$"
+	.string "Also hat Tom mich hierher gebracht.$"
 #else
 	.string "I said that I wanted to paint an\n"
 	.string "old building.\p"

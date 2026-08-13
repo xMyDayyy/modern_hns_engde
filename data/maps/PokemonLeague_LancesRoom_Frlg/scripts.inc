@@ -243,8 +243,8 @@ PokemonLeague_LancesRoom_Text_PostBattle::
 #if GERMAN
 	.string "Es ist kaum zu glauben! Meine Drachen\n"
 	.string "sind an dir gescheitert, {PLAYER}!\p"
-	.string "Nun bist du der Champion der\n"
-	.string "Pokémon Liga!\p"
+	.string "Nun bist du der Champion der Pokémon\n"
+	.string "Liga!\p"
 	.string "Mmh, eigentlich wärst du es! Aber du\n"
 	.string "musst noch eine Herausforderung\l"
 	.string "bestehen!\p"

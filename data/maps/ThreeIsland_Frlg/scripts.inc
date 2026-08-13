@@ -397,8 +397,7 @@ ThreeIsland_Text_IslandSign::
 ThreeIsland_Text_IslandBelongsToUs::
 #if GERMAN
 	.string "Yippie!\p"
-	.string "Von diesem Tag an gehört die\n"
-	.string "Insel uns!$"
+	.string "Von diesem Tag an gehört die Insel uns!$"
 #else
 	.string "Hyahoo!\p"
 	.string "From this day on, this island\n"
@@ -520,8 +519,7 @@ ThreeIsland_Text_WannaMakeSomethingOfYourStaring::
 #if GERMAN
 	.string "Was glotzt du so?\n"
 	.string "Das ist aber nicht sehr höflich!\p"
-	.string "Hast du mir vielleicht etwas\n"
-	.string "zu sagen?$"
+	.string "Hast du mir vielleicht etwas zu sagen?$"
 #else
 	.string "You, what are you staring at?\n"
 	.string "Don't you know it's not polite?\p"
@@ -583,8 +581,8 @@ ThreeIsland_Text_Biker2Defeat::
 
 ThreeIsland_Text_Biker2PostBattle::
 #if GERMAN
-	.string "Was ist los mit dir? Worüber\n"
-	.string "regst du dich so auf?\p"
+	.string "Was ist los mit dir? Worüber regst du\n"
+	.string "dich so auf?\p"
 	.string "Du bist so was von uncool!$"
 #else
 	.string "What's the matter with you,\n"
@@ -646,8 +644,8 @@ ThreeIsland_Text_PaxtonDefeat::
 
 ThreeIsland_Text_PaxtonPostBattle::
 #if GERMAN
-	.string "Humpf! Geh nur und häng mit\n"
-	.string "diesen Typen ab.$"
+	.string "Humpf! Geh nur und häng mit diesen\n"
+	.string "Typen ab.$"
 #else
 	.string "Humph! Yeah, go right on hanging\n"
 	.string "around with these hayseeds!$"
@@ -655,10 +653,10 @@ ThreeIsland_Text_PaxtonPostBattle::
 
 ThreeIsland_Text_ThankYouOhYourMonGotHurt::
 #if GERMAN
-	.string "Danke! Diese Typen haben\n"
-	.string "nur Ärger gemacht.\p"
-	.string "Oh, deine Pokémon wurden\n"
-	.string "wegen mir verletzt.$"
+	.string "Danke! Diese Typen haben nur Ärger\n"
+	.string "gemacht.\p"
+	.string "Oh, deine Pokémon wurden wegen mir\n"
+	.string "verletzt.$"
 #else
 	.string "Thank you! Those goons were\n"
 	.string "nothing but bad trouble.\p"
@@ -668,8 +666,7 @@ ThreeIsland_Text_ThankYouOhYourMonGotHurt::
 
 ThreeIsland_Text_GivenFullRestore::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "Top-Genesung.$"
+	.string "{PLAYER} erhält Top-Genesung.$"
 #else
 	.string "{PLAYER} was given\n"
 	.string "a FULL RESTORE.$"
@@ -732,8 +729,7 @@ ThreeIsland_Text_WouldntWantToSeeBikersHereAgain::
 
 ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame::
 #if GERMAN
-	.string "Ich trainiere mein Dodu im\n"
-	.string "Beerenforst.\p"
+	.string "Ich trainiere mein Dodu im Beerenforst.\p"
 	.string "Sobald es sich entwickelt, spiele\n"
 	.string "ich auf Eiland Zwei.$"
 #else

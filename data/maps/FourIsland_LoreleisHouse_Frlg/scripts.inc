@@ -55,14 +55,13 @@ FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland::
 
 FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile::
 #if GERMAN
-	.string "Lorelei: Du hast hier also\n"
-	.string "alle Probleme lösen können?\p"
+	.string "Lorelei: Du hast hier also alle Probleme\n"
+	.string "lösen können?\p"
 	.string "Das ist großartig!\p"
 	.string "Das bedeutet, dass ich mich nicht\n"
 	.string "ständig hier aufhalten muss.\p"
 	.string "Danke…\p"
-	.string "Ich kehre bald zur Pokémon\n"
-	.string "Liga zurück!$"
+	.string "Ich kehre bald zur Pokémon Liga zurück!$"
 #else
 	.string "LORELEI: So, you managed to solve\n"
 	.string "all the problems here?\p"

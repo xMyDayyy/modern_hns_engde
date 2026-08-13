@@ -416,8 +416,8 @@ PetalburgWoods_Text_YouveGotSomeNerve:
 PetalburgWoods_Text_ThatWasAwfullyClose:
 #if GERMAN
 	.string "Huuuh… Das war aber mehr als knapp!\p"
-	.string "Dank dir konnte er mir diese\n"
-	.string "wichtigen Papiere nicht rauben.\p"
+	.string "Dank dir konnte er mir diese wichtigen\n"
+	.string "Papiere nicht rauben.\p"
 	.string "Ich weiß! Ich gebe dir diesen\n"
 	.string "Superball als Dankeschön!$"
 #else

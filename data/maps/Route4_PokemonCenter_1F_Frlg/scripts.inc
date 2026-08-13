@@ -176,10 +176,10 @@ Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
 
 Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500::
 #if GERMAN
-	.string "Mann: Hallo! Möchtest du ein\n"
-	.string "Geschäft machen?\p"
-	.string "Ich gebe dir ein exzellentes\n"
-	.string "Karpador für läppische 500¥!\p"
+	.string "Mann: Hallo! Möchtest du ein Geschäft\n"
+	.string "machen?\p"
+	.string "Ich gebe dir ein exzellentes Karpador\n"
+	.string "für läppische 500¥!\p"
 	.string "Interessiert?$"
 #else
 	.string "MAN: Hello there, laddie!\n"
@@ -191,10 +191,10 @@ Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500::
 
 Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500::
 #if GERMAN
-	.string "Mann: Hallo! Möchtest du ein\n"
-	.string "Geschäft machen?\p"
-	.string "Ich gebe dir ein exzellentes\n"
-	.string "Karpador für läppische 500¥!\p"
+	.string "Mann: Hallo! Möchtest du ein Geschäft\n"
+	.string "machen?\p"
+	.string "Ich gebe dir ein exzellentes Karpador\n"
+	.string "für läppische 500¥!\p"
 	.string "Interessiert?$"
 #else
 	.string "MAN: Hello there, sweetie pie!\n"
@@ -224,8 +224,8 @@ Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou::
 
 Route4_PokemonCenter_1F_Text_NoRoomForMorePokemon::
 #if GERMAN
-	.string "Du hast keinen Platz mehr\n"
-	.string "für weitere Pokémon!$"
+	.string "Du hast keinen Platz mehr für weitere\n"
+	.string "Pokémon!$"
 #else
 	.string "There's no more room for any more\n"
 	.string "POKéMON, it looks like.$"
@@ -240,8 +240,7 @@ Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney::
 
 Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
 #if GERMAN
-	.string "Mann: Der Umtausch ist\n"
-	.string "ausgeschlossen!$"
+	.string "Mann: Der Umtausch ist ausgeschlossen!$"
 #else
 	.string "MAN: Well, I don't give refunds.\n"
 	.string "You knew what you were getting!$"

@@ -22,8 +22,7 @@ CeladonDeptStore_Text_1FReceptionist:
 #if GERMAN
 	.string "Hallo! Willkommen im Prismania City\n"
 	.string "Kaufhaus!\p"
-	.string "Das Verzeichnis findest du\n"
-	.string "an der Wand.$"
+	.string "Das Verzeichnis findest du an der Wand.$"
 #else
     .string "Hello! Welcome to CELADON DEPT.\n"
     .string "STORE!\p"

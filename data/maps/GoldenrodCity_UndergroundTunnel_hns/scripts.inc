@@ -340,8 +340,8 @@ GoldenrodCity_UndergroundTunnel_EventScript_Item_Antidote::
 GoldenrodUnderground_Text_YoungerBrotherOffer:
 #if GERMAN
 	.string "Willkommen im Pokémon-Salon!\p"
-	.string "Ich bin der jüngere und\n"
-	.string "preiswertere Coiffeur-Bruder.\p"
+	.string "Ich bin der jüngere und preiswertere\n"
+	.string "Coiffeur-Bruder.\p"
 	.string "Ich verschönere dein Pokémon\n"
 	.string "für nur ¥300.\p"
 	.string "Also? Wie wär’s?$"
@@ -421,8 +421,8 @@ GoldenrodUnderground_Text_OlderBrotherOffer:
 
 GoldenrodUnderground_Text_OlderBrotherAskWhich:
 #if GERMAN
-	.string "Bei welchem Pokémon soll ich\n"
-	.string "Hand anlegen?$"
+	.string "Bei welchem Pokémon soll ich Hand\n"
+	.string "anlegen?$"
 #else
     .string "Which POKéMON should I work on?$"
 #endif
@@ -467,8 +467,7 @@ GoldenrodUnderground_Text_OlderBrotherOnePerDay:
 
 GoldenrodUnderground_Text_SupernerdEricSeen:
 #if GERMAN
-	.string "Ich wurde aus der Spielhalle\n"
-	.string "geworfen.\p"
+	.string "Ich wurde aus der Spielhalle geworfen.\p"
 	.string "Ich wollte mit Pokémon betrügen…$"
 #else
     .string "I got booted out of the GAME CORNER.\p"
@@ -578,8 +577,8 @@ GoldenrodUnderground_Text_PokemaniacDonaldAfterBattleOld:
 	.string "Sammelst du für den Pokédex?\p"
 	.string "Tipp: Der Wanderer auf Route 33,\n"
 	.string "Tom, ist nett.\p"
-	.string "Er ruft dich, wenn er seltene\n"
-	.string "Pokémon sieht.$"
+	.string "Er ruft dich, wenn er seltene Pokémon\n"
+	.string "sieht.$"
 #else
     .string "Are you making a POKéDEX? Here's a\n"
     .string "hot tip.\p"

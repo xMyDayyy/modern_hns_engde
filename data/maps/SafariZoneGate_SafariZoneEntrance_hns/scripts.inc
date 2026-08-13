@@ -312,8 +312,8 @@ SafariZoneGate_SafariZoneEntrance_Text_BaobaDeclined:
 
 SafariZoneGate_SafariZoneEntrance_Text_BaobaLastMon:
 #if GERMAN
-	.string "Ich kann nicht dein letztes\n"
-	.string "Pokémon nehmen!$"
+	.string "Ich kann nicht dein letztes Pokémon\n"
+	.string "nehmen!$"
 #else
 	.string "I can't take your last POKéMON!$"
 #endif
@@ -321,8 +321,7 @@ SafariZoneGate_SafariZoneEntrance_Text_BaobaLastMon:
 SafariZoneGate_SafariZoneEntrance_Text_BaobaDone:
 #if GERMAN
 	.string "Ah, {PLAYER}!\p"
-	.string "Dank dir floriert die\n"
-	.string "Safarizone!\p"
+	.string "Dank dir floriert die Safarizone!\p"
 	.string "Vielleicht sollte ich dich zum\n"
 	.string "Besitzer ernennen…\p"
 	.string "Nein, das wäre absurd.\n"
@@ -448,11 +447,11 @@ SafariZoneGate_SafariZoneEntrance_Text_BaobaWelcome:
 	.string "Hallo {PLAYER}!\n"
 	.string "Ich hab auf dich gewartet.\l"
 	.string "Na, was sagst du?\p"
-	.string "Das hier ist übrigens eine\n"
-	.string "brandneue Safarizone…\p"
+	.string "Das hier ist übrigens eine brandneue\n"
+	.string "Safarizone…\p"
 	.string "Und sie wächst noch!\p"
-	.string "Bisher sind zwei Zonen offen\n"
-	.string "und 4 weitere in Planung!\p"
+	.string "Bisher sind zwei Zonen offen und 4\n"
+	.string "weitere in Planung!\p"
 	.string "Viel Spaß in der Safarizone!\n"
 	.string "Ich ruf dich, wenn die anderen Zonen\l"
 	.string "fertig sind!$"
@@ -486,8 +485,7 @@ SafariZoneGate_SafariZoneEntrance_Text_BaobaPokeblocks:
 SafariZoneGate_SafariZoneEntrance_Text_Baoba:
 #if GERMAN
 	.string "Hallo {PLAYER}!\p"
-	.string "Wie gefällt dir die\n"
-	.string "Safarizone?$"
+	.string "Wie gefällt dir die Safarizone?$"
 #else
 	.string "Hi {PLAYER}!\p"
 	.string "How are you enjoying the SAFARI\n"

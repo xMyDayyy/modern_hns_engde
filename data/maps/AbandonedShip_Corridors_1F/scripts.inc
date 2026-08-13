@@ -21,8 +21,7 @@ AbandonedShip_Corridors_1F_Text_CharlieIntro:
 
 AbandonedShip_Corridors_1F_Text_CharlieDefeat:
 #if GERMAN
-	.string "Hui, du hast mir die Luft\n"
-	.string "rausgelassen!$"
+	.string "Hui, du hast mir die Luft rausgelassen!$"
 #else
 	.string "Whoa, you overwhelmed me!$"
 #endif

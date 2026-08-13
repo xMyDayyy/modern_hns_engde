@@ -516,8 +516,7 @@ BattleFrontier_BattleFactoryLobby_Text_WellReturnMons:
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
 #if GERMAN
-	.string "{PLAYER} gewinnt\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} gewinnt {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"

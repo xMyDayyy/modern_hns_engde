@@ -318,8 +318,8 @@ GoldenrodMagnetTrainStation_Text_OfficerRightThisWay:
 
 GoldenrodMagnetTrainStation_Text_OfficerNoRailPass:
 #if GERMAN
-	.string "Verzeihung, aber\n"
-	.string "du hast keinen Fahrschein.$"
+	.string "Verzeihung, aber du hast keinen\n"
+	.string "Fahrschein.$"
 #else
     .string "Sorry. You don't have a rail PASS.$"
 #endif

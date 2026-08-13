@@ -57,8 +57,7 @@ Route21_Text_SwimmerfNikkiSeen:
 
 Route21_Text_SwimmerfNikkiBeaten:
 #if GERMAN
-	.string "Ich habe Angst vor\n"
-	.string "einem Sonnenbrand…$"
+	.string "Ich habe Angst vor einem Sonnenbrand…$"
 #else
 	.string "I'm worried about sunburn…$"
 #endif
@@ -90,8 +89,7 @@ Route21_Text_FisherArnoldBeaten:
 
 Route21_Text_FisherArnoldAfterBattle:
 #if GERMAN
-	.string "Ich gehe zurück\n"
-	.string "zum Angeln…$"
+	.string "Ich gehe zurück zum Angeln…$"
 #else
 	.string "I'll just go back to fishing…$"
 #endif

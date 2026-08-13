@@ -718,8 +718,8 @@ DewfordTown_Text_BrineyLandedInDewford:
 #if GERMAN
 	.string "Mr. Brack: Ahoi! Wir haben in\n"
 	.string "Faustauhaven Anker geworfen!\p"
-	.string "Komm, wenn wir wieder Segel\n"
-	.string "setzen sollen.$"
+	.string "Komm, wenn wir wieder Segel setzen\n"
+	.string "sollen.$"
 #else
 	.string "MR. BRINEY: Ahoy!\n"
 	.string "We've hit land in DEWFORD!\p"
@@ -928,8 +928,8 @@ DewfordTown_Text_OfCourseIKnowAboutThat:
 	.string "“{STR_VAR_1}”…\n"
 	.string "Das ist doch schon uralt und unmodern.\l"
 	.string "\p"
-	.string "“{STR_VAR_2}” ist das,\n"
-	.string "was vital und zeitgemäß ist!$"
+	.string "“{STR_VAR_2}” ist das, was vital und\n"
+	.string "zeitgemäß ist!$"
 #else
 	.string "Hunh?\n"
 	.string "“{STR_VAR_2}”?\p"
@@ -975,8 +975,7 @@ DewfordTown_Text_HearOfAnyTrendsComeShareWithMe:
 DewfordTown_Text_YeahDefinitionOfInRightNow:
 #if GERMAN
 	.string "Yeah, absolut richtig!\p"
-	.string "“{STR_VAR_1}” ist die\n"
-	.string "Definition von “in”.$"
+	.string "“{STR_VAR_1}” ist die Definition von “in”.$"
 #else
 	.string "Yeah, absolutely right!\p"
 	.string "“{STR_VAR_1}” is the\n"

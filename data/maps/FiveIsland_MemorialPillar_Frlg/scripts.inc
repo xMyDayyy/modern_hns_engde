@@ -83,8 +83,7 @@ FiveIsland_MemorialPillar_EventScript_MemorialLemonadeAlreadyPlaced::
 
 FiveIsland_MemorialPillar_Text_MiloIntro::
 #if GERMAN
-	.string "Ich bin der älteste der\n"
-	.string "Vogel-brüder.\p"
+	.string "Ich bin der älteste der Vogel-brüder.\p"
 	.string "Das Beste an Vögeln…\n"
 	.string "Das muss der Schnabel sein.$"
 #else
@@ -132,8 +131,8 @@ FiveIsland_MemorialPillar_Text_ChazDefeat::
 
 FiveIsland_MemorialPillar_Text_ChazPostBattle::
 #if GERMAN
-	.string "Da entlang war ein wahrhaft\n"
-	.string "ernster Typ.$"
+	.string "Da entlang war ein wahrhaft ernster\n"
+	.string "Typ.$"
 #else
 	.string "There was a really somber guy\n"
 	.string "over that way.$"
@@ -141,8 +140,7 @@ FiveIsland_MemorialPillar_Text_ChazPostBattle::
 
 FiveIsland_MemorialPillar_Text_HaroldIntro::
 #if GERMAN
-	.string "Ich bin der jüngste der\n"
-	.string "Vogel-brüder.\p"
+	.string "Ich bin der jüngste der Vogel-brüder.\p"
 	.string "Das Beste an Vögeln…\n"
 	.string "Das muss das Gefieder sein.$"
 #else

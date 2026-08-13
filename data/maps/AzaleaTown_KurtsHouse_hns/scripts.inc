@@ -325,8 +325,8 @@ KurtsHouse_Text_KurtHonoredToMakeBalls:
 
 KurtsHouse_Text_KurtBallsFromApricorns:
 #if GERMAN
-	.string "Kurt: Ich kann aus Beeren\n"
-	.string "Spezialbälle anfertigen!\p"
+	.string "Kurt: Ich kann aus Beeren Spezialbälle\n"
+	.string "anfertigen!\p"
 	.string "Pflücke überall fleißig Beeren von den\n"
 	.string "Bäumen und bringe sie zu mir.\l"
 	.string "Ich verarbeite sie dann zu Bällen.$"
@@ -359,8 +359,7 @@ KurtsHouse_Text_KurtFinishedPlural:
 #if GERMAN
 	.string "Kurt: {PLAYER}!\n"
 	.string "Deine {STR_VAR_1}e sind fertig. Hier!\p"
-	.string "{PLAYER} erhält\n"
-	.string "{STR_VAR_2} {STR_VAR_1}e!$"
+	.string "{PLAYER} erhält {STR_VAR_2} {STR_VAR_1}e!$"
 #else
 	.string "KURT: {PLAYER}!\n"
 	.string "Your {STR_VAR_1}s are done. Here!\p"
@@ -376,8 +375,7 @@ KurtsHouse_Text_KurtFinishedSingular:
 #if GERMAN
 	.string "Kurt: {PLAYER}!\n"
 	.string "Dein {STR_VAR_1} ist fertig. Hier!\p"
-	.string "{PLAYER} erhält\n"
-	.string "den {STR_VAR_1}!$"
+	.string "{PLAYER} erhält den {STR_VAR_1}!$"
 #else
 	.string "KURT: {PLAYER}!\n"
 	.string "Your {STR_VAR_1} is done. Here!\p"
@@ -432,8 +430,8 @@ KurtsHouse_Text_KurtAhHaISee:
 KurtsHouse_Text_KurtThisBallStartedToShake:
 #if GERMAN
 	.string "{PLAYER}!\p"
-	.string "Dieser Ball hat sich bewegt,\n"
-	.string "als ich ihn überprüfen wollte.\p"
+	.string "Dieser Ball hat sich bewegt, als ich ihn\n"
+	.string "überprüfen wollte.\p"
 	.string "Da geht etwas vor sich!$"
 #else
 	.string "{PLAYER}!\p"

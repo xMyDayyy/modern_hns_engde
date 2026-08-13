@@ -120,8 +120,8 @@ IndigoPlateau_PokemonCenter_1F_Text_LoreleiIsAbsentClosedForTimeBeing::
 
 IndigoPlateau_PokemonCenter_1F_Text_AgathaWhuppedUs::
 #if GERMAN
-	.string "Agathes Geist-Pokémon\n"
-	.string "sind erschreckend hartnäckig.\p"
+	.string "Agathes Geist-Pokémon sind\n"
+	.string "erschreckend hartnäckig.\p"
 	.string "Ich habe meine Kampf-Pokémon\n"
 	.string "bis zum Äußersten trainiert.\p"
 	.string "Ich bin selbstbewusst zu Agathe\n"

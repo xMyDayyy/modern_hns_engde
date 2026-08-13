@@ -99,8 +99,8 @@ VioletCity_PokemonCenter_Text_BookshelfWoman::
 VioletCity_PokeCenter_Text_ElmsAideFavor:
 #if GERMAN
 	.string "{PLAYER}, lange nicht gesehen.\p"
-	.string "Prof. Lind hat mich gebeten,\n"
-	.string "nach dir zu suchen.\p"
+	.string "Prof. Lind hat mich gebeten, nach dir zu\n"
+	.string "suchen.\p"
 	.string "Er hat noch eine Bitte an dich.\p"
 	.string "Nimm bitte das Pokémon-Ei!$"
 #else
@@ -113,8 +113,8 @@ VioletCity_PokeCenter_Text_ElmsAideFavor:
 VioletCity_PokeCenter_Text_ElmsAideNoRoom:
 #if GERMAN
 	.string "{PLAYER}, lange nicht gesehen.\p"
-	.string "Prof. Lind hat mich gebeten,\n"
-	.string "nach dir zu suchen.\p"
+	.string "Prof. Lind hat mich gebeten, nach dir zu\n"
+	.string "suchen.\p"
 	.string "Er hat noch eine Bitte an dich.\p"
 	.string "Nimm bitte das Pokémon-Ei!\p"
 	.string "Oh, du hast keinen Platz mehr\n"
@@ -138,10 +138,10 @@ VioletCity_PokeCenter_Text_ElmsAideGiveEgg:
 	.string "Außerdem muss es sich in der Nähe\n"
 	.string "anderer Pokémon befinden, um zu\l"
 	.string "schlüpfen.\p"
-	.string "Du bist die einzige Person,\n"
-	.string "auf die wir uns verlassen können.\p"
-	.string "Bitte ruf Prof. Lind an,\n"
-	.string "wenn das Ei so weit ist!$"
+	.string "Du bist die einzige Person, auf die wir\n"
+	.string "uns verlassen können.\p"
+	.string "Bitte ruf Prof. Lind an, wenn das Ei so\n"
+	.string "weit ist!$"
 #else
 	.string "We discovered that a POKéMON won't\n"
 	.string "hatch until it grows in the EGG.\p"
@@ -153,16 +153,16 @@ VioletCity_PokeCenter_Text_ElmsAideGiveEgg:
 
 VioletCity_PokeCenter_Text_ElmsAideGiveItem:
 #if GERMAN
-	.string "Oh, das hier könnte helfen,\n"
-	.string "wenn es geschlüpft ist.$"
+	.string "Oh, das hier könnte helfen, wenn es\n"
+	.string "geschlüpft ist.$"
 #else
 	.string "Oh, and this might help when it hatches.$"
 #endif
 
 VioletCity_PokeCenter_Text_ElmsAideFullParty:
 #if GERMAN
-	.string "Oh, du hast keinen Platz\n"
-	.string "mehr für ein weiteres Pokémon.\p"
+	.string "Oh, du hast keinen Platz mehr für ein\n"
+	.string "weiteres Pokémon.\p"
 	.string "Ich warte hier, bis du Platz für das Ei\n"
 	.string "geschaffen hast.$"
 #else
@@ -174,8 +174,8 @@ VioletCity_PokeCenter_Text_ElmsAideFullParty:
 
 VioletCity_PokeCenter_Text_ElmsAideRefuse:
 #if GERMAN
-	.string "A-Aber… Prof. Lind hat\n"
-	.string "nach dir gefragt…$"
+	.string "A-Aber… Prof. Lind hat nach dir\n"
+	.string "gefragt…$"
 #else
 	.string "B-but… PROF.ELM asked for you…$"
 #endif
@@ -191,8 +191,7 @@ VioletCity_PokeCenter_Text_BooksAreGreat:
 
 VioletCity_PokeCenter_Text_MobileAdapter:
 #if GERMAN
-	.string "Woran denkst du,\n"
-	.string "wenn du versuchst,\p"
+	.string "Woran denkst du, wenn du versuchst,\p"
 	.string "daran zu denken, nicht daran zu denken,\n"
 	.string "dass du denkst, dass du dumm bist,\p"
 	.string "obwohl du nicht dumm bist?\n"
@@ -217,8 +216,8 @@ VioletCity_PokeCenter_Text_GameboyKid:
 VioletCity_PokeCenter_Text_Gentleman:
 #if GERMAN
 	.string "Es war vor etwa drei Jahren.\p"
-	.string "Team Rocket hatte\n"
-	.string "etwas Übles mit den Pokémon vor.\p"
+	.string "Team Rocket hatte etwas Übles mit den\n"
+	.string "Pokémon vor.\p"
 	.string "Aber die Gerechtigkeit hat gesiegt! Ein\n"
 	.string "junger Trainer hat sie zerschlagen.$"
 #else

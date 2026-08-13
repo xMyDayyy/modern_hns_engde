@@ -214,8 +214,8 @@ DragonsDen_Shrine_Text_Question2:
 
 DragonsDen_Shrine_Text_Question3:
 #if GERMAN
-	.string "Gegen welche Art\n"
-	.string "Trainer möchtest du kämpfen?$"
+	.string "Gegen welche Art Trainer möchtest du\n"
+	.string "kämpfen?$"
 #else
     .string "What kind of trainer do you wish\n"
     .string "to battle?$"
@@ -223,8 +223,8 @@ DragonsDen_Shrine_Text_Question3:
 
 DragonsDen_Shrine_Text_Question4:
 #if GERMAN
-	.string "Was ist beim\n"
-	.string "Trainieren von Pokémon am wichtigsten?$"
+	.string "Was ist beim Trainieren von Pokémon am\n"
+	.string "wichtigsten?$"
 #else
     .string "What is most important for\n"
     .string "raising POKéMON?$"
@@ -264,13 +264,13 @@ DragonsDen_Shrine_Text_RightAnswer:
 DragonsDen_Shrine_Text_PassedTest:
 #if GERMAN
 	.string "Hm… Ich verstehe…\p"
-	.string "Du kümmerst dich\n"
-	.string "von Herzen um Pokémon.\p"
+	.string "Du kümmerst dich von Herzen um\n"
+	.string "Pokémon.\p"
 	.string "Sehr löblich.\p"
 	.string "Überzeugung ist wichtig!\p"
 	.string "{PLAYER}, mach weiter so.\p"
-	.string "Ich treffe dich\n"
-	.string "dann bei der Pokémon Liga.$"
+	.string "Ich treffe dich dann bei der Pokémon\n"
+	.string "Liga.$"
 #else
     .string "Hm… I see…\p"
     .string "You care deeply for POKéMON.\p"
@@ -599,8 +599,8 @@ DragonsDen_Shrine_Text_TakeThisDratini:
 	.string "Hm… Schön, dass du hier bist.\p"
 	.string "Du kommst zur richtigen Zeit.\p"
 	.string "Ich habe etwas für dich.\p"
-	.string "Nimm dieses Dratini als\n"
-	.string "Zeichen meiner Wertschätzung.$"
+	.string "Nimm dieses Dratini als Zeichen meiner\n"
+	.string "Wertschätzung.$"
 #else
     .string "Hm… Good to see you here.\p"
     .string "Your arrival is most fortunate.\p"

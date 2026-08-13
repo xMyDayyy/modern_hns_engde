@@ -9,8 +9,8 @@ FiveIsland_House1_Text_HusbandWentOffFishing::
 #if GERMAN
 	.string "Du brauchst für das Abendessen\n"
 	.string "heute nichts einkaufen!\p"
-	.string "… das hat mein Gatte gesagt,\n"
-	.string "als er heute zum Angeln ging.\p"
+	.string "… das hat mein Gatte gesagt, als er\n"
+	.string "heute zum Angeln ging.\p"
 	.string "Ich weiß nicht, ob ich mich auf seine\n"
 	.string "große Ankündigung verlassen kann.$"
 #else

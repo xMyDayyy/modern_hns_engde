@@ -36,8 +36,8 @@ AuroraTicket_Obtained:
 
 sText_AuroraTicketForYou:
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast.\p"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast.\p"
 	.string "Du musst {PLAYER} sein.\n"
 	.string "Hier ist ein Ticket für dich!$"
 #else
@@ -49,10 +49,10 @@ sText_AuroraTicketForYou:
 
 sText_AuroraTicketUseAtPort:
 #if GERMAN
-	.string "Du kannst es am Hafen von\n"
-	.string "Seegrasulb City einsetzen.\p"
-	.string "Warum probierst du es nicht\n"
-	.string "einfach aus?$"
+	.string "Du kannst es am Hafen von Seegrasulb\n"
+	.string "City einsetzen.\p"
+	.string "Warum probierst du es nicht einfach\n"
+	.string "aus?$"
 #else
 	.string "It appears to be for use at the\n"
 	.string "LILYCOVE CITY port.\p"
@@ -62,8 +62,8 @@ sText_AuroraTicketUseAtPort:
 
 sText_AuroraTicketThankYou:
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast!$"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast!$"
 #else
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.$"

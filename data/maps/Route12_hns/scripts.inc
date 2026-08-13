@@ -66,8 +66,8 @@ Route12_EventScript_Tentacruel::
 
 Route12_Text_NewFisher:
 #if GERMAN
-	.string "Vorsicht, in diesem Gewässer\n"
-	.string "lebt etwas Bösartiges.$"
+	.string "Vorsicht, in diesem Gewässer lebt etwas\n"
+	.string "Bösartiges.$"
 #else
 	.string "Careful, something vicious lives in\n"
 	.string "these waters.$"
@@ -138,8 +138,8 @@ Route12_Text_FisherBarneySeen:
 
 Route12_Text_FisherBarneyBeaten:
 #if GERMAN
-	.string "Meine Antwort hörst du, wenn\n"
-	.string "wir hier fertig sind!$"
+	.string "Meine Antwort hörst du, wenn wir hier\n"
+	.string "fertig sind!$"
 #else
 	.string "The answer is coming up next!$"
 #endif

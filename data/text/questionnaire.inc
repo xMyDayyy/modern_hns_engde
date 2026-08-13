@@ -26,8 +26,8 @@ Questionnaire_Text_YouKnowThoseWordsGift::
 	.string "Kennst du diese Worte?\p"
 	.string "Das bedeutet, du weißt über die\n"
 	.string "Geheimgeschehen Bescheid.\p"
-	.string "Von nun an kannst du\n"
-	.string "Geheimgeschehen empfangen.$"
+	.string "Von nun an kannst du Geheimgeschehen\n"
+	.string "empfangen.$"
 #else
 	.string "Oh, hello!\n"
 	.string "You know those words?\p"
@@ -70,8 +70,8 @@ Questionnaire_Text_YouCanAccessMysteryEvent::
 
 MysteryGift_Text_TheresATicketForYou::
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast.\p"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast.\p"
 	.string "Du musst {PLAYER} sein.\n"
 	.string "Hier ist ein Ticket für dich!$"
 #else
@@ -83,10 +83,10 @@ MysteryGift_Text_TheresATicketForYou::
 
 MysteryGift_Text_TryUsingItAtLilycovePort::
 #if GERMAN
-	.string "Du kannst es am Hafen von\n"
-	.string "Seegrasulb City einsetzen.\p"
-	.string "Warum probierst du es nicht\n"
-	.string "einfach aus?$"
+	.string "Du kannst es am Hafen von Seegrasulb\n"
+	.string "City einsetzen.\p"
+	.string "Warum probierst du es nicht einfach\n"
+	.string "aus?$"
 #else
 	.string "It appears to be for use at\n"
 	.string "the LILYCOVE CITY port.\p"

@@ -203,8 +203,8 @@ PacifidlogTown_House2_Text_Rururi:
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
 #if GERMAN
-	.string "Es scheint den Trainer nicht\n"
-	.string "sonderlich zu mögen.$"
+	.string "Es scheint den Trainer nicht sonderlich\n"
+	.string "zu mögen.$"
 #else
 	.string "It doesn't appear to like the TRAINER\n"
 	.string "very much.$"

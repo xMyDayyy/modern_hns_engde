@@ -79,8 +79,8 @@ Route8_Text_BikerHarrisBeaten:
 
 Route8_Text_BikerHarrisAfter:
 #if GERMAN
-	.string "In die Schranken gewiesen\n"
-	.string "von einem Rowdy aus Johto…$"
+	.string "In die Schranken gewiesen von einem\n"
+	.string "Rowdy aus Johto…$"
 #else
 	.string "Wiped out by some punk from\n"
 	.string "JOHTO…$"
@@ -131,16 +131,15 @@ Route8_Text_SupernerdSamBeaten:
 
 Route8_Text_SupernerdSamAfter:
 #if GERMAN
-	.string "Die Kraft von Magneten\n"
-	.string "ist schon beeindruckend!$"
+	.string "Die Kraft von Magneten ist schon\n"
+	.string "beeindruckend!$"
 #else
 	.string "The power of magnets is awesome!$"
 #endif
 
 Route8_Text_SupernerdTomSeen:
 #if GERMAN
-	.string "Toll… du hast aber\n"
-	.string "viele Orden!$"
+	.string "Toll… du hast aber viele Orden!$"
 #else
 	.string "Hm… You've got many GYM BADGES.$"
 #endif

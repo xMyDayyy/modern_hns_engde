@@ -162,8 +162,8 @@ FourIsland_House2_Text_WowHoFHighest::
 
 FourIsland_House2_Text_HoFStickerApplied::
 #if GERMAN
-	.string "Der Sticker der Ruhmeshalle\n"
-	.string "ist auf deinem Trainerpass.$"
+	.string "Der Sticker der Ruhmeshalle ist auf\n"
+	.string "deinem Trainerpass.$"
 #else
 	.string "The HALL OF FAME STICKER was\n"
 	.string "applied to the TRAINER CARD.$"
@@ -248,8 +248,8 @@ FourIsland_House2_Text_WowEggsHighest::
 
 FourIsland_House2_Text_EggStickerApplied::
 #if GERMAN
-	.string "Der Eier-Sticker ist auf\n"
-	.string "deinem Trainerpass.$"
+	.string "Der Eier-Sticker ist auf deinem\n"
+	.string "Trainerpass.$"
 #else
 	.string "The EGG STICKER was applied\n"
 	.string "to the TRAINER CARD.$"
@@ -279,8 +279,8 @@ FourIsland_House2_Text_LivingLegendEggs::
 
 FourIsland_House2_Text_WowLinkWinsLowest::
 #if GERMAN
-	.string "Oh, du hast erfolgreich via\n"
-	.string "Link-Kabel gekämpft.\p"
+	.string "Oh, du hast erfolgreich via Link-Kabel\n"
+	.string "gekämpft.\p"
 	.string "Du bist echt stark!\n"
 	.string "Ich gebe dir dies!$"
 #else
@@ -292,8 +292,8 @@ FourIsland_House2_Text_WowLinkWinsLowest::
 
 FourIsland_House2_Text_WowLinkWinsLow::
 #if GERMAN
-	.string "Du hast oft erfolgreich via\n"
-	.string "Link-Kabel gekämpft.\p"
+	.string "Du hast oft erfolgreich via Link-Kabel\n"
+	.string "gekämpft.\p"
 	.string "Du bist beeindruckend stark!\n"
 	.string "Ich gebe dir dies!$"
 #else
@@ -320,8 +320,8 @@ FourIsland_House2_Text_WowLinkWinsHighest::
 #if GERMAN
 	.string "Was?!? Das ist umwerfend! Du hast\n"
 	.string "wahnsinnig oft gewonnen!\p"
-	.string "Es haut mich um, wenn ich mir\n"
-	.string "vorstelle, wie stark du bist!\p"
+	.string "Es haut mich um, wenn ich mir vorstelle,\n"
+	.string "wie stark du bist!\p"
 	.string "Du bist mein schlimmster Alptraum!\n"
 	.string "Ich gebe dir dies!$"
 #else
@@ -335,8 +335,8 @@ FourIsland_House2_Text_WowLinkWinsHighest::
 
 FourIsland_House2_Text_VictoryStickerApplied::
 #if GERMAN
-	.string "Der Siegessticker ist auf\n"
-	.string "dem Trainerpass.$"
+	.string "Der Siegessticker ist auf dem\n"
+	.string "Trainerpass.$"
 #else
 	.string "The VICTORY STICKER was applied\n"
 	.string "to the TRAINER CARD.$"

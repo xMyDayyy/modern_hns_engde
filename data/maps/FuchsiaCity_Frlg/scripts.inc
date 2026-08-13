@@ -318,14 +318,14 @@ FuchsiaCity_Text_Ellipsis::
 
 Text_SubstituteTeach::
 #if GERMAN
-	.string "Argh, ich wünschte, ich wäre\n"
-	.string "ein Kangama-Baby.\p"
+	.string "Argh, ich wünschte, ich wäre ein\n"
+	.string "Kangama-Baby.\p"
 	.string "Ich wäre so gerne an Stelle des\n"
 	.string "Babys…\p"
 	.string "Und würde mich in den Beutel der\n"
 	.string "Mutter Kangama kuscheln.\p"
-	.string "Aber nur Pokémon können\n"
-	.string "Delegator anwenden…\p"
+	.string "Aber nur Pokémon können Delegator\n"
+	.string "anwenden…\p"
 	.string "Soll ich Delegator einem deiner\n"
 	.string "Pokémon beibringen?$"
 #else
@@ -352,8 +352,8 @@ Text_SubstituteDeclined::
 
 Text_SubstituteWhichMon::
 #if GERMAN
-	.string "Welches Pokémon soll\n"
-	.string "Delegator erlernen?$"
+	.string "Welches Pokémon soll Delegator\n"
+	.string "erlernen?$"
 #else
 	.string "Which POKéMON wants to learn\n"
 	.string "SUBSTITUTE?$"

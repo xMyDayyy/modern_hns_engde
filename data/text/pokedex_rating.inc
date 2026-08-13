@@ -118,8 +118,7 @@ gBirchDexRatingText_LessThan90::
 
 gBirchDexRatingText_LessThan100::
 #if GERMAN
-	.string "Warst du schon mal in der\n"
-	.string "Safari-Zone?\p"
+	.string "Warst du schon mal in der Safari-Zone?\p"
 	.string "Ich habe gehört, es gibt Pokémon,\n"
 	.string "die man nur dort finden kann.$"
 #else
@@ -130,10 +129,8 @@ gBirchDexRatingText_LessThan100::
 
 gBirchDexRatingText_LessThan110::
 #if GERMAN
-	.string "Du hast die 100er-Marke\n"
-	.string "überschritten!\p"
-	.string "Das ist ein beeindruckender\n"
-	.string "Pokédex!$"
+	.string "Du hast die 100er-Marke überschritten!\p"
+	.string "Das ist ein beeindruckender Pokédex!$"
 #else
 	.string "You've finally reached\n"
 	.string "the 100-kind mark.\p"
@@ -182,8 +179,8 @@ gBirchDexRatingText_LessThan150::
 
 gBirchDexRatingText_LessThan160::
 #if GERMAN
-	.string "Manchmal erscheinen einige\n"
-	.string "Pokémon in großer Anzahl\p"
+	.string "Manchmal erscheinen einige Pokémon in\n"
+	.string "großer Anzahl\p"
 	.string "wie bei einem Ausbruch.\n"
 	.string "Das solltest du nicht verpassen!$"
 #else
@@ -272,8 +269,8 @@ PokedexRating_Text_HowIsPokedexComingAlong::
 PokedexRating_Text_SeenXOwnedY::
 #if GERMAN
 	.string "In deinem Pokédex steht:\p"
-	.string "Gesehen: {STR_VAR_1} Pokémon\n"
-	.string "  Besitz: {STR_VAR_2} Pokémon\p"
+	.string "Gesehen: {STR_VAR_1} Pokémon Besitz:\n"
+	.string "{STR_VAR_2} Pokémon\p"
 	.string "Prof. Eichs Bewertung:$"
 #else
 	.string "The amount of progress you've made\n"
@@ -449,8 +446,8 @@ PokedexRating_Text_NationalDexSeenXOwnedY::
 #if GERMAN
 	.string "In deinem Nationalen Pokédex\n"
 	.string "steht:\p"
-	.string "Gesehen: {STR_VAR_1} Pokémon\n"
-	.string "Besitz: {STR_VAR_2} Pokémon.$"
+	.string "Gesehen: {STR_VAR_1} Pokémon Besitz:\n"
+	.string "{STR_VAR_2} Pokémon.$"
 #else
 	.string "And your NATIONAL POKéDEX is:\p"
 	.string "{STR_VAR_1} POKéMON seen and\n"
@@ -459,8 +456,8 @@ PokedexRating_Text_NationalDexSeenXOwnedY::
 
 PokedexRating_Text_LookForwardToFilledNationalDex::
 #if GERMAN
-	.string "Ich bin gespannt, ob du den\n"
-	.string "Nationalen Pokédex füllen kannst.$"
+	.string "Ich bin gespannt, ob du den Nationalen\n"
+	.string "Pokédex füllen kannst.$"
 #else
 	.string "I'll be looking forward to seeing\n"
 	.string "you fill the NATIONAL POKéDEX!$"
@@ -497,8 +494,7 @@ PokedexRating_Text_ThankYouMadeDreamReality::
 PokedexRating_Text_LoveSeeingYourPokedex::
 #if GERMAN
 	.string "Eich: Ah, willkommen!\p"
-	.string "Wie ist es um deinen Pokédex\n"
-	.string "bestellt?\p"
+	.string "Wie ist es um deinen Pokédex bestellt?\p"
 	.string "Wow!\p"
 	.string "Ich weiß es natürlich, aber ich\n"
 	.string "liebe es trotzdem!\p"
@@ -615,10 +611,8 @@ gJohtoDexRatingText_LessThan95::
 
 gJohtoDexRatingText_LessThan110::
 #if GERMAN
-	.string "Du hast die 100er-Marke\n"
-	.string "überschritten!\p"
-	.string "Das ist ein beeindruckender\n"
-	.string "Pokédex!$"
+	.string "Du hast die 100er-Marke überschritten!\p"
+	.string "Das ist ein beeindruckender Pokédex!$"
 #else
 	.string "Excellent! You seem to be good at\n"
 	.string "collecting things!$"
@@ -700,8 +694,7 @@ gJohtoDexRatingText_LessThan215::
 @ Taken from Platinum
 gJohtoDexRatingText_LessThan230::
 #if GERMAN
-	.string "Schon über 225,\n"
-	.string "weiter so.$"
+	.string "Schon über 225, weiter so.$"
 #else
 	.string "You've proven yourself capable.\n"
     .string "There's nothing to worry about.\p"
@@ -712,8 +705,7 @@ gJohtoDexRatingText_LessThan230::
 @ Taken from Platinum
 gJohtoDexRatingText_LessThan245::
 #if GERMAN
-	.string "Schon über 240,\n"
-	.string "weiter so.$"
+	.string "Schon über 240, weiter so.$"
 #else
 	.string "Your POKéDEX is well on the way to\n"
 	.string "being filled up.\p"

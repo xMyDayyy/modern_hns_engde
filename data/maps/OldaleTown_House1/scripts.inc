@@ -11,8 +11,7 @@ OldaleTown_House1_Text_LeftPokemonGoesOutFirst:
 	.string "Liste tritt im Kampf als Erstes an.\p"
 	.string "Hast du mehrere Pokémon in deinem Team,\n"
 	.string "stelle sie so der Reihe nach auf, wie\p"
-	.string "es\n"
-	.string "für den Kampf am günstigsten ist.\p"
+	.string "es für den Kampf am günstigsten ist.\p"
 	.string "Das kann ein Vorteil für dich sein.$"
 #else
 	.string "When a POKéMON battle starts, the one\n"

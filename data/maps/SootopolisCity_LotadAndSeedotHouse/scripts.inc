@@ -164,8 +164,8 @@ SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1:
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot:
 #if GERMAN
 	.string "{STR_VAR_2} cm, nicht wahr?\p"
-	.string "Hmm… Ich habe schon größere\n"
-	.string "Samurzel als dieses gesehen.$"
+	.string "Hmm… Ich habe schon größere Samurzel\n"
+	.string "als dieses gesehen.$"
 #else
 	.string "{STR_VAR_2}, is it?\p"
 	.string "Hmm… I've seen a bigger SEEDOT\n"
@@ -198,8 +198,8 @@ SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
 #if GERMAN
 	.string "Das größte Samurzel aller Zeiten!\n"
 	.string "Der {STR_VAR_3} cm-Gigant von {STR_VAR_2}!\p"
-	.string "Ein Samurzel, so groß, wie ein\n"
-	.string "Loturzel gerne sein würde!$"
+	.string "Ein Samurzel, so groß, wie ein Loturzel\n"
+	.string "gerne sein würde!$"
 #else
 	.string "The biggest SEEDOT in history!\n"
 	.string "{STR_VAR_2}'s {STR_VAR_3} giant!\p"
@@ -301,8 +301,8 @@ SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
 #if GERMAN
 	.string "Das größte Loturzel aller Zeiten!\n"
 	.string "Der {STR_VAR_3} cm-Koloss von {STR_VAR_2}!\p"
-	.string "Ein Loturzel, so groß, wie ein\n"
-	.string "Samurzel gerne sein würde.$"
+	.string "Ein Loturzel, so groß, wie ein Samurzel\n"
+	.string "gerne sein würde.$"
 #else
 	.string "The biggest LOTAD in history!\n"
 	.string "{STR_VAR_2}'s {STR_VAR_3} colossus!\p"

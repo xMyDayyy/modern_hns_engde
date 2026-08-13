@@ -19,8 +19,8 @@ ThreeIsland_House5_Text_ImNotLostelle::
 	.string "Ich?\n"
 	.string "Ich bin nicht Irrma!\p"
 	.string "Sie ist vermutlich im Beerenforst!\p"
-	.string "Sie sammelt dort Beeren, um\n"
-	.string "das Mittagessen zuzubereiten!$"
+	.string "Sie sammelt dort Beeren, um das\n"
+	.string "Mittagessen zuzubereiten!$"
 #else
 	.string "Me?\n"
 	.string "I'm not LOSTELLE.\p"

@@ -57,8 +57,8 @@ Route5_PokemonDayCare_Text_ComeSeeMeInAWhile::
 Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime::
 #if GERMAN
 	.string "Du bist schon wieder zurück?\p"
-	.string "{STR_VAR_1} sollte noch ein\n"
-	.string "bisschen bei mir bleiben.$"
+	.string "{STR_VAR_1} sollte noch ein bisschen bei\n"
+	.string "mir bleiben.$"
 #else
 	.string "You're back already?\p"
 	.string "Your {STR_VAR_1} needs to spend\n"
@@ -85,8 +85,7 @@ Route5_PokemonDayCare_Text_ThankYouHeresMon::
 
 Route5_PokemonDayCare_Text_PlayerGotMonBack::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "{STR_VAR_1} zurück!$"
+	.string "{PLAYER} erhält {STR_VAR_1} zurück!$"
 #else
 	.string "{PLAYER} got {STR_VAR_1} back\n"
 	.string "from the DAY-CARE MAN.$"
@@ -102,8 +101,8 @@ Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou::
 
 Route5_PokemonDayCare_Text_WhatWillYouBattleWith::
 #if GERMAN
-	.string "Wenn du mir dieses Pokémon\n"
-	.string "überlässt, womit willst du kämpfen?$"
+	.string "Wenn du mir dieses Pokémon überlässt,\n"
+	.string "womit willst du kämpfen?$"
 #else
 	.string "If you leave me that POKéMON,\n"
 	.string "what will you battle with?$"
@@ -111,8 +110,7 @@ Route5_PokemonDayCare_Text_WhatWillYouBattleWith::
 
 Route5_PokemonDayCare_Text_MonHasGrownByXLevels::
 #if GERMAN
-	.string "{STR_VAR_1} hat sich toll \n"
-	.string "entwickelt!\p"
+	.string "{STR_VAR_1} hat sich toll entwickelt!\p"
 	.string "Es ist um {STR_VAR_2} Level gestiegen!\p"
 	.string "Das habe ich gut gemacht, oder?$"
 #else

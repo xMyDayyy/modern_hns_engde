@@ -84,8 +84,8 @@ LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere::
 #if GERMAN
 	.string "Ich bin erst vor kurzem in diese\n"
 	.string "Stadt gezogen!\p"
-	.string "Ich hörte, dass Mr. Fuji auch\n"
-	.string "nicht von hier stammt!$"
+	.string "Ich hörte, dass Mr. Fuji auch nicht von\n"
+	.string "hier stammt!$"
 #else
 	.string "I recently moved to this town.\p"
 	.string "I hear that MR. FUJI's not from\n"
@@ -167,8 +167,7 @@ LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis::
 
 LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "eine Pokéflöte!$"
+	.string "{PLAYER} erhält eine Pokéflöte!$"
 #else
 	.string "{PLAYER} received a POKé FLUTE\n"
 	.string "from MR. FUJI.$"

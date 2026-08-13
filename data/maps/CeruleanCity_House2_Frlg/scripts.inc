@@ -25,8 +25,8 @@ CeruleanCity_House2_EventScript_WallHole::
 CeruleanCity_House2_Text_RocketsStoleTMForDig::
 #if GERMAN
 	.string "Dieses gemeine Team Rocket!\p"
-	.string "Hör dir an, was sie wieder\n"
-	.string "verbrochen haben!\p"
+	.string "Hör dir an, was sie wieder verbrochen\n"
+	.string "haben!\p"
 	.string "Sie haben den Schaufler gestohlen, eine\n"
 	.string "TM, mit der Pokémon Löcher graben\l"
 	.string "können!\p"

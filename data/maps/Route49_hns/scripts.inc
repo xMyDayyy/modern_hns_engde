@@ -42,8 +42,8 @@ Route49_Text_SkylarDefeat:
 
 Route49_Text_SkylarAfter:
 #if GERMAN
-	.string "So cool die Tafel auch ist -\n"
-	.string "du hast sie dir ehrlich verdient.\p"
+	.string "So cool die Tafel auch ist - du hast sie\n"
+	.string "dir ehrlich verdient.\p"
 	.string "Dann kaufe ich mir eben etwas im\n"
 	.string "Souvenirladen.$"
 #else

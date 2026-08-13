@@ -188,8 +188,7 @@ ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
 
 ViridianCity_Gym_Text_ReceivedTM26FromGiovanni::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM26!$"
+	.string "{PLAYER} erhält TM26!$"
 #else
 	.string "{PLAYER} received TM26\n"
 	.string "from GIOVANNI.$"
@@ -247,8 +246,8 @@ ViridianCity_Gym_Text_YujiPostBattle::
 
 ViridianCity_Gym_Text_AtsushiIntro::
 #if GERMAN
-	.string "Kiai! Mit diesem Kampfschrei\n"
-	.string "mobilisiere ich meine Kräfte!$"
+	.string "Kiai! Mit diesem Kampfschrei mobilisiere\n"
+	.string "ich meine Kräfte!$"
 #else
 	.string "Rrrroar!\n"
 	.string "I'm working myself into a rage!$"

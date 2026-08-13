@@ -144,8 +144,8 @@ GoldenrodCity_RadioTower_5F_Text_FakeDirector2:
 #if GERMAN
 	.string "Hast du das etwa erwartet?\p"
 	.string "Falsch! Ich bin ein Betrüger!\p"
-	.string "Willst du wissen, wo wir den\n"
-	.string "echten Direktor versteckt haben?\p"
+	.string "Willst du wissen, wo wir den echten\n"
+	.string "Direktor versteckt haben?\p"
 	.string "Schon gut, ich sag es dir. Aber\n"
 	.string "nur, wenn du mich besiegst!$"
 #else
@@ -171,12 +171,11 @@ GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter:
 #if GERMAN
 	.string "Der Boss hat den Direktor im\n"
 	.string "Untergrund-Lager versteckt.\p"
-	.string "Es liegt ganz am Ende des\n"
-	.string "Untergrunds.\p"
+	.string "Es liegt ganz am Ende des Untergrunds.\p"
 	.string "Ich bin nett und gebe dir den\n"
 	.string "Kelleröffner für das Untergrund-Lager.\p"
-	.string "Aber ich bezweifle, dass du\n"
-	.string "so weit kommst.$"
+	.string "Aber ich bezweifle, dass du so weit\n"
+	.string "kommst.$"
 #else
 	.string "The boss stashed the DIRECTOR in\n"
 	.string "the UNDERGROUND WAREHOUSE.\p"
@@ -192,12 +191,11 @@ GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter2:
 #if GERMAN
 	.string "Der Boss hat den Direktor im\n"
 	.string "Untergrund-Lager versteckt.\p"
-	.string "Es liegt ganz am Ende des\n"
-	.string "Untergrunds.\p"
+	.string "Es liegt ganz am Ende des Untergrunds.\p"
 	.string "Ich bin nett und gebe dir den\n"
 	.string "Kelleröffner für das Untergrund-Lager.\p"
-	.string "Aber ich bezweifle, dass du\n"
-	.string "so weit kommst.$"
+	.string "Aber ich bezweifle, dass du so weit\n"
+	.string "kommst.$"
 #else
 	.string "The boss stashed the DIRECTOR in\n"
 	.string "the UNDERGROUND WAREHOUSE.\p"
@@ -517,8 +515,7 @@ GoldenrodCity_RadioTower_5F_Text_DirectorThanks:
 	.string "Intendant: {PLAYER}, danke!\p"
 	.string "Dein Mut hat Pokémon im ganzen\n"
 	.string "Land gerettet.\p"
-	.string "Es ist nicht viel, aber bitte,\n"
-	.string "nimm dies.$"
+	.string "Es ist nicht viel, aber bitte, nimm dies.$"
 #else
 	.string "DIRECTOR: {PLAYER}, thank you!\p"
 	.string "Your courageous actions have saved\n"
@@ -597,8 +594,8 @@ GoldenrodCity_RadioTower_5F_Text_DirectorTidalWingExplanation:
 	.string "Früher lebten viele Pokémon in\n"
 	.string "Dukatia City.\p"
 	.string "Vielleicht…\p"
-	.string "Hat sie etwas mit den\n"
-	.string "Strudelinseln bei Anemonia City zu tun…\p"
+	.string "Hat sie etwas mit den Strudelinseln bei\n"
+	.string "Anemonia City zu tun…\p"
 	.string "Ich gehe nun in mein Büro.$"
 #else
 	.string "There used to be a tower right here\n"
@@ -627,8 +624,8 @@ GoldenrodCity_RadioTower_5F_Text_DirectorTidalWingExplanation2:
 	.string "Früher lebten viele Pokémon in\n"
 	.string "Dukatia City.\p"
 	.string "Vielleicht…\p"
-	.string "Hat sie etwas mit den\n"
-	.string "Strudelinseln bei Anemonia City zu tun…\p"
+	.string "Hat sie etwas mit den Strudelinseln bei\n"
+	.string "Anemonia City zu tun…\p"
 	.string "Ich gehe nun in mein Büro.$"
 #else
 	.string "There used to be a tower right here\n"
@@ -653,8 +650,8 @@ GoldenrodCity_RadioTower_5F_Text_DirectorLegendary:
 	.string "Sie soll mit den legendären Pokémon zu\l"
 	.string "tun haben.\p"
 	.string "Aber! Allein die Feder reicht nicht…\p"
-	.string "Man braucht noch etwas\n"
-	.string "anderes… oder so.\p"
+	.string "Man braucht noch etwas anderes… oder\n"
+	.string "so.\p"
 	.string "Was war das nur…?\p"
 	.string "Ich erinnere mich nicht.$"
 #else

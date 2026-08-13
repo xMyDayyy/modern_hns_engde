@@ -281,8 +281,8 @@ LakeOfRage_Text_LanceIntro1:
 LakeOfRage_Text_LanceIntro2:
 #if GERMAN
 	.string "Ich hörte einige Gerüchte.\p"
-	.string "Also kam ich hierher, um\n"
-	.string "einige Nachforschungen anzustellen…$"
+	.string "Also kam ich hierher, um einige\n"
+	.string "Nachforschungen anzustellen…$"
 #else
     .string "This man here informed me of\n"
     .string "some rumors.\p"
@@ -291,8 +291,8 @@ LakeOfRage_Text_LanceIntro2:
 
 LakeOfRage_Text_LanceIntro3:
 #if GERMAN
-	.string "Ich habe gesehen,\n"
-	.string "wie du kämpfst, {PLAYER}.\p"
+	.string "Ich habe gesehen, wie du kämpfst,\n"
+	.string "{PLAYER}.\p"
 	.string "Man kann sagen, dass du ein Trainer von\n"
 	.string "bemerkenswertem Format bist.\p"
 	.string "Würdest du mir bei meinen\n"
@@ -443,8 +443,8 @@ LakeOfRage_Text_FisherRaymondBeaten:
 
 LakeOfRage_Text_FisherRaymondAfter:
 #if GERMAN
-	.string "Warum kann ich keine guten\n"
-	.string "Pokémon fangen?$"
+	.string "Warum kann ich keine guten Pokémon\n"
+	.string "fangen?$"
 #else
     .string "Why can't I catch any good\n"
     .string "POKéMON?$"
@@ -483,8 +483,7 @@ LakeOfRage_Text_CooltrainerfLoisSeen:
 	.string "Was ist mit dem roten Garados\n"
 	.string "passiert?\p"
 	.string "Es ist weg?\p"
-	.string "So ein Mist. War ich etwa\n"
-	.string "umsonst hier?\p"
+	.string "So ein Mist. War ich etwa umsonst hier?\p"
 	.string "Ich weiß… kämpfen wir!$"
 #else
     .string "What happened to the red\n"

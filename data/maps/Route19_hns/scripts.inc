@@ -69,8 +69,8 @@ Route19_EventScript_Item_Brine::
 
 Route19_Text_SwimmermHaroldSeen:
 #if GERMAN
-	.string "Bist du schon einmal nachts\n"
-	.string "im Meer geschwommen?$"
+	.string "Bist du schon einmal nachts im Meer\n"
+	.string "geschwommen?$"
 #else
 	.string "Have you ever gone swimming in the\n"
 	.string "sea at night?$"
@@ -120,8 +120,7 @@ Route19_Text_SwimmermTuckerAfterBattle:
 
 Route19_Text_SwimmerfDawnSeen:
 #if GERMAN
-	.string "Schwächlinge\n"
-	.string "widern mich an!$"
+	.string "Schwächlinge widern mich an!$"
 #else
 	.string "I'm disgusted by wimpy people!$"
 #endif
@@ -206,8 +205,8 @@ Route19_Text_Fisher1_RocksCleared:
 
 Route19_Text_Fisher2:
 #if GERMAN
-	.string "Es würde zu lange\n"
-	.string "dauern, diesen Felsen zu bewegen…$"
+	.string "Es würde zu lange dauern, diesen Felsen\n"
+	.string "zu bewegen…$"
 #else
 	.string "Aw man, KINGLER is blocking the\n"
 	.string "beach.$"
@@ -215,8 +214,7 @@ Route19_Text_Fisher2:
 
 Route19_Text_FisherBefore:
 #if GERMAN
-	.string "Kein Angeln, solange Kingler\n"
-	.string "hier sind.$"
+	.string "Kein Angeln, solange Kingler hier sind.$"
 #else
 	.string "No fishing until these KINGLER\n"
 	.string "clear out.$"

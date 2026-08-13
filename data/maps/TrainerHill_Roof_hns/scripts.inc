@@ -75,8 +75,7 @@ TrainerHill_Roof_hns_Text_YouFinallyCameBravo:
 	.string "gekommen bist!\p"
 	.string "Du wolltest mich sehen, den Besitzer\n"
 	.string "des Trainerbergs, weil…\p"
-	.string "Du willst mit mir ein\n"
-	.string "Doppelteam bilden!\p"
+	.string "Du willst mit mir ein Doppelteam bilden!\p"
 	.string "Wa-hoo!\p"
 	.string "…Wie?\n"
 	.string "Das ist es nicht?\p"
@@ -114,8 +113,8 @@ TrainerHill_Roof_hns_Text_HaveTheMostMarvelousGift:
 
 TrainerHill_Roof_hns_Text_FullUpBeBackLaterForThis:
 #if GERMAN
-	.string "Oh nein, du trägst bereits\n"
-	.string "zu viele Dinge bei dir!\p"
+	.string "Oh nein, du trägst bereits zu viele\n"
+	.string "Dinge bei dir!\p"
 	.string "Komm später wieder dafür!$"
 #else
 	.string "Oh, no, full up with things!\n"
@@ -154,10 +153,9 @@ TrainerHill_Roof_hns_Text_ArriveZippierNextTime:
 #if GERMAN
 	.string "Vielleicht erfreust du mich beim\n"
 	.string "nächsten Mal mit einer schnelleren Zeit.\p"
-	.string "Dann bilde ich gern ein\n"
-	.string "Doppelteam mit dir!\p"
-	.string "Bis wir uns wiedersehen,\n"
-	.string "Amigo!$"
+	.string "Dann bilde ich gern ein Doppelteam mit\n"
+	.string "dir!\p"
+	.string "Bis wir uns wiedersehen, Amigo!$"
 #else
 	.string "Perhaps it would please me more if you\n"
 	.string "arrived zippier next time.\p"

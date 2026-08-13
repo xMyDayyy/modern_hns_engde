@@ -716,8 +716,8 @@ gText_ApprenticePleaseTeach7::
 	.string "…\p"
 	.string "Wenn es dir nicht zu viel ausmacht,\n"
 	.string "würde ich dich gerne um etwas bitten…\p"
-	.string "Darf ich deine Schülerin\n"
-	.string "werden, {PLAYER}?$"
+	.string "Darf ich deine Schülerin werden,\n"
+	.string "{PLAYER}?$"
 #else
 	.string "I beg your pardon, but…\n"
 	.string "Are you {PLAYER}?\p"
@@ -1046,8 +1046,8 @@ gText_ApprenticePleaseTeach11::
 	.string "Aha, aha!\n"
 	.string "{PLAYER}{KUN} bist du, und Pokémon\l"
 	.string "gehören auch dazu.\p"
-	.string "Wird die Welt dir zur Bühne,\n"
-	.string "musst du sein der starke Kühne.\p"
+	.string "Wird die Welt dir zur Bühne, musst du\n"
+	.string "sein der starke Kühne.\p"
 	.string "Was ich dir damit eigentlich sage, du\n"
 	.string "bist der zehnte Trainer, den ich heut\l"
 	.string "frage.\p"
@@ -1089,8 +1089,8 @@ gText_ApprenticeWhichLevelMode11::
 #if GERMAN
 	.string "{PLAYER}, das ist die richtige\n"
 	.string "Einstellung!\p"
-	.string "Ich habe eine Frage, die\n"
-	.string "wird dir zur Plage!\p"
+	.string "Ich habe eine Frage, die wird dir zur\n"
+	.string "Plage!\p"
 	.string "Der Duellturm, da komm ich mir\n"
 	.string "vor wie ein Wurm.\p"
 	.string "Level 50 oder Offene Kämpfe, was soll\n"
@@ -1175,8 +1175,8 @@ gText_ApprenticeWhichLevelMode12::
 #if GERMAN
 	.string "Ich bade im Glück, hähähä!\n"
 	.string "Und schon habe ich eine Frage!\p"
-	.string "Da wir hier im Duellturm\n"
-	.string "sind, drängt sich mir diese Frage auf!\p"
+	.string "Da wir hier im Duellturm sind, drängt\n"
+	.string "sich mir diese Frage auf!\p"
 	.string "Welche Kämpfe soll ich hier bestreiten?$"
 #else
 	.string "Lucky, yeah, woohoo!\n"
@@ -1893,8 +1893,8 @@ gText_ApprenticeWhatHeldItem6::
 	.string "Äh, deinen Rat!\p"
 	.string "Trommelwirbel, bitte!\n"
 	.string "Ich habe folgende Frage…\p"
-	.string "Welches Item soll ich meinem\n"
-	.string "{STR_VAR_1} zum Tragen geben?$"
+	.string "Welches Item soll ich meinem {STR_VAR_1}\n"
+	.string "zum Tragen geben?$"
 #else
 	.string "Hiya, {PLAYER}! It's me!\n"
 	.string "I need to tap your mind again today.\l"
@@ -2292,8 +2292,8 @@ gText_ApprenticeWhatHeldItem11::
 	.string "Ich bin ein Matrose!\n"
 	.string "Ich habe eine Frage, die wird dir zur\l"
 	.string "Plage!\p"
-	.string "Ein Problem mit einem Item,\n"
-	.string "die Lösung kenn ich nicht bei weitem.\p"
+	.string "Ein Problem mit einem Item, die Lösung\n"
+	.string "kenn ich nicht bei weitem.\p"
 	.string "Mein {STR_VAR_1} braucht etwas zu tragen,\n"
 	.string "daher muss ich dich jetzt fragen.$"
 #else
@@ -2553,8 +2553,8 @@ gText_ApprenticeWhatHeldItem14::
 
 gText_ApprenticeHoldNothing14::
 #if GERMAN
-	.string "Oh… Du meinst, mein {STR_VAR_1}\n"
-	.string "braucht kein Item zu tragen?$"
+	.string "Oh… Du meinst, mein {STR_VAR_1} braucht\n"
+	.string "kein Item zu tragen?$"
 #else
 	.string "Oh… Then, you think it would be better\n"
 	.string "if my {STR_VAR_1} didn't have an item?$"
@@ -3779,8 +3779,8 @@ gText_ApprenticeWhichMon11::
 	.string "Das heißt Ahoi!\p"
 	.string "Ich bin ein Matrose!\n"
 	.string "Du erinnerst dich an mich?\p"
-	.string "Ich habe eine Frage, die\n"
-	.string "wird dir zur Plage!\p"
+	.string "Ich habe eine Frage, die wird dir zur\n"
+	.string "Plage!\p"
 	.string "{STR_VAR_1} oder {STR_VAR_2}?\n"
 	.string "Welches ist das richtige?$"
 #else
@@ -3937,8 +3937,8 @@ gText_ApprenticeWhichMon15::
 	.string "fragen.\p"
 	.string "Es geht um Pokémon, die ich aufziehen\n"
 	.string "möchte.\p"
-	.string "Wäre ein {STR_VAR_1} oder ein\n"
-	.string "{STR_VAR_2} besser für mich?$"
+	.string "Wäre ein {STR_VAR_1} oder ein {STR_VAR_2}\n"
+	.string "besser für mich?$"
 #else
 	.string "Hm? You appear to be {PLAYER}{KUN}…\n"
 	.string "But are you really real?\p"
@@ -4093,8 +4093,8 @@ gText_ApprenticeWhichMove3::
 	.string "Aber für mich schon…\p"
 	.string "Bitte, {PLAYER}, kannst du nicht eine\n"
 	.string "Attacke für mein {STR_VAR_1} aussuchen?\p"
-	.string "Wir haben die Wahl zwischen\n"
-	.string "{STR_VAR_2} und {STR_VAR_3}…$"
+	.string "Wir haben die Wahl zwischen {STR_VAR_2}\n"
+	.string "und {STR_VAR_3}…$"
 #else
 	.string "Ohhh, {PLAYER}…\n"
 	.string "I'm hopeless, no, really!\p"
@@ -4296,8 +4296,7 @@ gText_ApprenticeWhichMove8::
 	.string "helfen!\p"
 	.string "Ich will eine für mein {STR_VAR_1}\n"
 	.string "auswählen.\p"
-	.string "Aber welche? {STR_VAR_2} oder\n"
-	.string "{STR_VAR_3}?$"
+	.string "Aber welche? {STR_VAR_2} oder {STR_VAR_3}?$"
 #else
 	.string "Eek! {PLAYER}! I met you again!\n"
 	.string "I… I'm overjoyed!\p"
@@ -4335,8 +4334,7 @@ gText_ApprenticeWhichMove9::
 	.string "{STR_VAR_1}?\p"
 	.string "Ich will doch immer newinneg…\n"
 	.string "Äh… gewinnen!\p"
-	.string "Also? {STR_VAR_2} oder\n"
-	.string "{STR_VAR_3}?$"
+	.string "Also? {STR_VAR_2} oder {STR_VAR_3}?$"
 #else
 	.string "Hola, {PLAYER}{KUN}, bueno!\n"
 	.string "I'm hoping for some more of\l"
@@ -4418,8 +4416,8 @@ gText_ApprenticeWhichMove11::
 	.string "Ich bin ein Matrose.\n"
 	.string "Habe ein Problem, das an mir klebt wie\l"
 	.string "Lehm.\p"
-	.string "Ich habe eine Frage, die\n"
-	.string "wird dir zur Plage!\p"
+	.string "Ich habe eine Frage, die wird dir zur\n"
+	.string "Plage!\p"
 	.string "{STR_VAR_2} oder {STR_VAR_3}?\n"
 	.string "Welche Attacke ist gut für mein\l"
 	.string "{STR_VAR_1}?$"
@@ -4473,8 +4471,7 @@ gText_ApprenticeWhichMove12::
 
 gText_ApprenticeMoveThanks12::
 #if GERMAN
-	.string "{STR_VAR_1} ist also die beste\n"
-	.string "Attacke.\p"
+	.string "{STR_VAR_1} ist also die beste Attacke.\p"
 	.string "Nun, {PLAYER}, dann vergiss mich nicht!\p"
 	.string "Man sieht sich.$"
 #else
@@ -4580,8 +4577,8 @@ gText_ApprenticeWhichMove15::
 	.string "werden.\p"
 	.string "Ich brauche nämlich wieder deinen Rat.\n"
 	.string "Es geht um mein {STR_VAR_1}.\p"
-	.string "Soll ich ihm {STR_VAR_2} oder\n"
-	.string "{STR_VAR_3} beibringen?$"
+	.string "Soll ich ihm {STR_VAR_2} oder {STR_VAR_3}\n"
+	.string "beibringen?$"
 #else
 	.string "Hm? You appear to be {PLAYER}{KUN}…\n"
 	.string "But are you really real?\p"
@@ -5208,8 +5205,8 @@ gText_ApprenticeWinSpeechThanks11::
 	.string "Und nun, das ist die beste Weise,\n"
 	.string "begebe ich mich auf die Reise.\p"
 	.string "Vielen Dank für alles!\p"
-	.string "Ich grüße dich zum Abschied,\n"
-	.string "hoffe, dass man sich mal sieht.$"
+	.string "Ich grüße dich zum Abschied, hoffe,\n"
+	.string "dass man sich mal sieht.$"
 #else
 	.string "{STR_VAR_1}\p"
 	.string "Perfect! That's what I'll use.\n"
@@ -5255,8 +5252,8 @@ gText_ApprenticeWinSpeechThanks12::
 	.string "{STR_VAR_1}\p"
 	.string "Sehr gut! Sehr gut!\n"
 	.string "Das ist wirklich supergut!\p"
-	.string "Und nun heißt es für uns\n"
-	.string "Abschied nehmen.\p"
+	.string "Und nun heißt es für uns Abschied\n"
+	.string "nehmen.\p"
 	.string "Sollten wir uns eines Tages\n"
 	.string "wiedersehen, werde ich dich um einen\l"
 	.string "Kampf bitten.\p"

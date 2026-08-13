@@ -224,8 +224,8 @@ Text_RockSlideDeclined::
 
 Text_RockSlideWhichMon::
 #if GERMAN
-	.string "Welches Pokémon soll\n"
-	.string "Steinhagel erlernen?$"
+	.string "Welches Pokémon soll Steinhagel\n"
+	.string "erlernen?$"
 #else
 	.string "Which POKéMON should I teach\n"
 	.string "ROCK SLIDE?$"
@@ -233,8 +233,8 @@ Text_RockSlideWhichMon::
 
 Text_RockSlideTaught::
 #if GERMAN
-	.string "Es wäre sehr gruselig, das in\n"
-	.string "diesem Tunnel einzusetzen…$"
+	.string "Es wäre sehr gruselig, das in diesem\n"
+	.string "Tunnel einzusetzen…$"
 #else
 	.string "It might be scary to use it in this\n"
 	.string "tunnel…$"

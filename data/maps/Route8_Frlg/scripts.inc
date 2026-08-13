@@ -126,8 +126,8 @@ Route8_Text_LeslieDefeat::
 
 Route8_Text_LesliePostBattle::
 #if GERMAN
-	.string "Wir sitzen hier fest, weil\n"
-	.string "Saffronia City abgeriegelt wird.$"
+	.string "Wir sitzen hier fest, weil Saffronia City\n"
+	.string "abgeriegelt wird.$"
 #else
 	.string "I was planning on getting some\n"
 	.string "fresh air for a change, but…\p"
@@ -291,8 +291,8 @@ Route8_Text_EliNotEnoughMons::
 
 Route8_Text_AnneIntro::
 #if GERMAN
-	.string "Jo: Wir überrumpeln dich mit\n"
-	.string "unserer Zwillings-Kraft.$"
+	.string "Jo: Wir überrumpeln dich mit unserer\n"
+	.string "Zwillings-Kraft.$"
 #else
 	.string "ANNE: We'll shock you with our twin\n"
 	.string "power!$"
@@ -341,8 +341,7 @@ Route8_Text_RicardoDefeat::
 
 Route8_Text_RicardoPostBattle::
 #if GERMAN
-	.string "Mir ist Gras in die Speichen\n"
-	.string "gekommen.$"
+	.string "Mir ist Gras in die Speichen gekommen.$"
 #else
 	.string "I got grass caught up in my\n"
 	.string "spokes, man.$"

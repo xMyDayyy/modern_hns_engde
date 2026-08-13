@@ -49,8 +49,7 @@ CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons::
 
 CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac::
 #if GERMAN
-	.string "Hat man dir schon von Bill\n"
-	.string "erzählt?\p"
+	.string "Hat man dir schon von Bill erzählt?\p"
 	.string "Jeder nennt ihn den Pokémaniac!\p"
 	.string "Aber ich glaube, die Leute sind\n"
 	.string "bloß neidisch auf Bill.\p"
@@ -68,8 +67,8 @@ CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac::
 CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons::
 #if GERMAN
 	.string "Bill besitzt viele Pokémon!\p"
-	.string "Er hat einige sehr seltene in\n"
-	.string "seiner Sammlung!$"
+	.string "Er hat einige sehr seltene in seiner\n"
+	.string "Sammlung!$"
 #else
 	.string "BILL has lots of POKéMON!\n"
 	.string "He collects rare ones, too!$"

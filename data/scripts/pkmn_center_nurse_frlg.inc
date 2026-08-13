@@ -99,8 +99,8 @@ Movement_Bow::
 Text_WelcomeWantToHealPkmn_Frlg::
 #if GERMAN
 	.string "Willkommen im Pokémon-Center!\p"
-	.string "Wir heilen deine Pokémon und\n"
-	.string "machen sie wieder fit!$"
+	.string "Wir heilen deine Pokémon und machen sie\n"
+	.string "wieder fit!$"
 #else
 	.string "Welcome to our POKéMON CENTER!\p"
 	.string "Would you like me to heal your\n"

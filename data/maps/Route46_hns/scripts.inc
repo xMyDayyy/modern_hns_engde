@@ -69,8 +69,8 @@ Route46_Text_HikerBaileyBeaten:
 
 Route46_Text_HikerBaileyAfterBattle:
 #if GERMAN
-	.string "Es ist vorbei. Auch gut. Wir\n"
-	.string "Wanderer sehen niemals zurück.$"
+	.string "Es ist vorbei. Auch gut. Wir Wanderer\n"
+	.string "sehen niemals zurück.$"
 #else
 	.string "It's over. I don't mind.\n"
 	.string "We HIKERS are like that.$"
@@ -176,8 +176,7 @@ Route46_Text_PicnickerErin2Beaten:
 	.string "muss es noch härter probieren!\p"
 	.string "Egal, danke, dass du immer wieder\n"
 	.string "gegen mich kämpfst.\p"
-	.string "Hier ist das Geschenk vom\n"
-	.string "letzten Mal.$"
+	.string "Hier ist das Geschenk vom letzten Mal.$"
 #else
 	.string "Aww… I keep losing all the time!\p"
 	.string "I'll just have to try harder!\n"

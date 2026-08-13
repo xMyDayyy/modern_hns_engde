@@ -129,8 +129,7 @@ FuchsiaCity_Gym_Text_KogaPostBattle::
 	.string "Wirkt das Toxin erst einmal, leiden\n"
 	.string "Pokémon umso mehr, je länger der Kampf\l"
 	.string "dauert!\p"
-	.string "Ein wahrer Alptraum für den\n"
-	.string "Gegner!$"
+	.string "Ein wahrer Alptraum für den Gegner!$"
 #else
 	.string "When afflicted by TOXIC, a POKéMON\n"
 	.string "suffers more and more.\p"
@@ -158,8 +157,7 @@ FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
 
 FuchsiaCity_Gym_Text_ReceivedTM06FromKoga::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM06!$"
+	.string "{PLAYER} erhält TM06!$"
 #else
 	.string "{PLAYER} received TM06\n"
 	.string "from KOGA.$"

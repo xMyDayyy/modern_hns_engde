@@ -232,8 +232,7 @@ VermilionCity_PokemonFanClub_Text_ChairmansStory::
 
 VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "einen Rad-Coupon!$"
+	.string "{PLAYER} erhält einen Rad-Coupon!$"
 #else
 	.string "{PLAYER} received a BIKE VOUCHER\n"
 	.string "from the CHAIRMAN.$"
@@ -241,8 +240,8 @@ VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
 
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
 #if GERMAN
-	.string "Zeige den Rad-Coupon im\n"
-	.string "Fahrradladen von Azuria City.\p"
+	.string "Zeige den Rad-Coupon im Fahrradladen\n"
+	.string "von Azuria City.\p"
 	.string "Du erhältst dafür ein Fahrrad!\p"
 	.string "Sorge dich nicht um mich, ich kann\n"
 	.string "mit meinem Ibitak Fliegen!\p"

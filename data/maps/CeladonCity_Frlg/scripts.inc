@@ -104,8 +104,8 @@ CeladonCity_EventScript_GameCornerSign::
 
 CeladonCity_Text_GotMyKoffingInCinnabar::
 #if GERMAN
-	.string "Ich habe Smogon auf der\n"
-	.string "Zinnoberinsel gefangen!\p"
+	.string "Ich habe Smogon auf der Zinnoberinsel\n"
+	.string "gefangen!\p"
 	.string "Es ist nett, doch wenn man es\n"
 	.string "ärgert, atmet es Gift aus!$"
 #else
@@ -325,8 +325,8 @@ Text_SoftboiledDeclined::
 
 Text_SoftboiledWhichMon::
 #if GERMAN
-	.string "Also, wie heißt das Pokémon,\n"
-	.string "das Weichei erlernen soll?$"
+	.string "Also, wie heißt das Pokémon, das Weichei\n"
+	.string "erlernen soll?$"
 #else
 	.string "So, who's the POKéMON that gets\n"
 	.string "the chance to learn SOFTBOILED?$"

@@ -75,8 +75,7 @@ Route2_EastBuilding_Text_GreatHereYouGo::
 
 Route2_EastBuilding_Text_ReceivedHM05FromAide::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "VM05!$"
+	.string "{PLAYER} erhält VM05!$"
 #else
 	.string "{PLAYER} received HM05\n"
 	.string "from the AIDE.$"

@@ -21,8 +21,8 @@ VermilionMart_Text_SuperNerd:
 
 VermilionMart_Text_Beauty:
 #if GERMAN
-	.string "Ich habe vor, in\n"
-	.string "Saffronia City einkaufen zu gehen.$"
+	.string "Ich habe vor, in Saffronia City\n"
+	.string "einkaufen zu gehen.$"
 #else
 	.string "I'm thinking about going shopping\n"
 	.string "in SAFFRON.$"

@@ -98,8 +98,7 @@ FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
 	.string "vorgestellt. Ich bin Lanette.\p"
 	.string "Ich bin ehrlich erfreut, dich kennen zu\n"
 	.string "lernen. Und ich freue mich, dass du\p"
-	.string "das\n"
-	.string "Lagerungs-System benutzt.\p"
+	.string "das Lagerungs-System benutzt.\p"
 	.string "Wenn du magst, besuche mich doch mal.\n"
 	.string "Ich wohne an der Route 114.$"
 #else

@@ -124,8 +124,8 @@ TwoIsland_House_Text_TeachMonMoveForMushroom::
 	.string "Ich kenne jede Attacke, die Pokémon\n"
 	.string "beim Levelanstieg erlernen.\l"
 	.string "Ich bin auch ein Pilzsammler.\p"
-	.string "Gib mir zwei Minipilze oder\n"
-	.string "einen Riesenpilz.\p"
+	.string "Gib mir zwei Minipilze oder einen\n"
+	.string "Riesenpilz.\p"
 	.string "Dafür bringe ich einem deiner\n"
 	.string "Pokémon eine Attacke bei.$"
 #else
@@ -188,8 +188,7 @@ TwoIsland_House_Text_IllNeedMushroomOrTwo::
 
 TwoIsland_House_Text_HandedOverTwoTinyMushrooms::
 #if GERMAN
-	.string "{PLAYER} übergibt zwei\n"
-	.string "Minipilze.$"
+	.string "{PLAYER} übergibt zwei Minipilze.$"
 #else
 	.string "{PLAYER} handed over two\n"
 	.string "TINYMUSHROOMS in exchange.$"
@@ -197,8 +196,7 @@ TwoIsland_House_Text_HandedOverTwoTinyMushrooms::
 
 TwoIsland_House_Text_HandedOverOneBigMushroom::
 #if GERMAN
-	.string "{PLAYER} übergibt einen\n"
-	.string "Riesenpilz.$"
+	.string "{PLAYER} übergibt einen Riesenpilz.$"
 #else
 	.string "{PLAYER} handed over one\n"
 	.string "BIG MUSHROOM in exchange.$"

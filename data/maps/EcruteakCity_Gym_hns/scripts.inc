@@ -105,14 +105,14 @@ MortyIntroText:
 	.string "würdigen Trainer.\p"
 	.string "Ich glaubte diese Legende und\n"
 	.string "trainierte hier im Verborgenen.\p"
-	.string "Nun kann ich Dinge sehen,\n"
-	.string "die anderen verborgen bleiben.\p"
+	.string "Nun kann ich Dinge sehen, die anderen\n"
+	.string "verborgen bleiben.\p"
 	.string "Nur noch ein kleines Stück…\p"
 	.string "Mit etwas mehr könnte ich die Zukunft\n"
 	.string "sehen, in der ich dem\l"
 	.string "Regenbogen-Pokémon begegne.\p"
-	.string "Du wirst mir helfen,\n"
-	.string "dieses Ziel zu erreichen!$"
+	.string "Du wirst mir helfen, dieses Ziel zu\n"
+	.string "erreichen!$"
 #else
 	.string "Good of you to have come.\p"
 	.string "Here in ECRUTEAK, POKéMON have\n"
@@ -181,10 +181,9 @@ MortyText_ShadowBallSpeech:
 MortyFightDoneText:
 #if GERMAN
 	.string "Ich verstehe…\p"
-	.string "Deine Reise führte dich an\n"
-	.string "ferne Orte.\p"
-	.string "Du hast mehr gesehen,\n"
-	.string "als ich je erleben werde.\p"
+	.string "Deine Reise führte dich an ferne Orte.\p"
+	.string "Du hast mehr gesehen, als ich je erleben\n"
+	.string "werde.\p"
 	.string "Darum beneide ich dich…$"
 #else
 	.string "I see...\p"
@@ -222,8 +221,8 @@ MortyRematchText:
 Morty_RematchDefeatText:
 #if GERMAN
 	.string "Ich bin noch nicht gut genug…\p"
-	.string "Du hast mehr gesehen,\n"
-	.string "als ich je erleben werde.\p"
+	.string "Du hast mehr gesehen, als ich je erleben\n"
+	.string "werde.\p"
 	.string "Darum beneide ich dich…$"
 #else
 	.string "I'm not good enough yet...\p"
@@ -306,8 +305,8 @@ MediumMarthaBeatenText:
 
 MediumMarthaAfterBattleText:
 #if GERMAN
-	.string "Wer am meisten gewinnen will,\n"
-	.string "wird auch siegen!$"
+	.string "Wer am meisten gewinnen will, wird auch\n"
+	.string "siegen!$"
 #else
 	.string "The one who wants to win the\n"
 	.string "most is the one who will!$"
@@ -315,8 +314,8 @@ MediumMarthaAfterBattleText:
 
 MediumGraceSeenText:
 #if GERMAN
-	.string "Verirrst du dich in unseren\n"
-	.string "dunklen Gängen?\p"
+	.string "Verirrst du dich in unseren dunklen\n"
+	.string "Gängen?\p"
 	.string "Besiege mich für einen Tipp!$"
 #else
 	.string "Stumped by our dark corridors?\n"
@@ -332,10 +331,9 @@ MediumGraceBeatenText:
 
 MediumGraceAfterBattleText:
 #if GERMAN
-	.string "Gut. Ich verrate dir das\n"
-	.string "Geheimnis der Schatten.\p"
-	.string "Der Weg liegt direkt vor\n"
-	.string "deinen Augen!$"
+	.string "Gut. Ich verrate dir das Geheimnis der\n"
+	.string "Schatten.\p"
+	.string "Der Weg liegt direkt vor deinen Augen!$"
 #else
 	.string "Fine. I'll tell you the secret\n"
 	.string "of the shadows.\p"
@@ -345,15 +343,15 @@ MediumGraceAfterBattleText:
 
 EcruteakCity_GymGuideText:
 #if GERMAN
-	.string "Hey Champ! Fast die Hälfte\n"
-	.string "ist geschafft!\p"
+	.string "Hey Champ! Fast die Hälfte ist\n"
+	.string "geschafft!\p"
 	.string "Die Trainer hier nutzen Geist-\n"
 	.string "und Unlicht-Pokémon.\p"
 	.string "Jens ist ein Meister der Geist-Pokémon,\n"
 	.string "doch hüte dich vor seinem mystischen\l"
 	.string "Hirsch.\p"
-	.string "Man sagt, er verursacht\n"
-	.string "schreckliche Albträume…$"
+	.string "Man sagt, er verursacht schreckliche\n"
+	.string "Albträume…$"
 #else
 	.string "Hey CHAMP! You're almost\n"
 	.string "halfway there!\p"
@@ -381,10 +379,8 @@ EcruteakCity_GymGuideWinText:
 
 EcruteakCity_GymClosedText:
 #if GERMAN
-	.string "Jens, der Arenaleiter,\n"
-	.string "ist nicht da.\p"
-	.string "Tut mir leid,\n"
-	.string "du musst wieder gehen.\p"
+	.string "Jens, der Arenaleiter, ist nicht da.\p"
+	.string "Tut mir leid, du musst wieder gehen.\p"
 	.string "Hohohoho.$"
 #else
 	.string "MORTY, the GYM LEADER, is\n"

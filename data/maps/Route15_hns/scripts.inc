@@ -159,8 +159,8 @@ Route15_Text_HillaryPostRematch:
 
 Route15_Text_SchoolboyKippSeen:
 #if GERMAN
-	.string "Warte! Ich muss kurz meine\n"
-	.string "Mutter anrufen.$"
+	.string "Warte! Ich muss kurz meine Mutter\n"
+	.string "anrufen.$"
 #else
 	.string "Hang on. I have to phone my mom.$"
 #endif
@@ -192,8 +192,8 @@ Route15_Text_SchoolboyTommySeen:
 
 Route15_Text_SchoolboyTommyBeaten:
 #if GERMAN
-	.string "Argh! Ich muss ja noch\n"
-	.string "Hausaufgaben machen!$"
+	.string "Argh! Ich muss ja noch Hausaufgaben\n"
+	.string "machen!$"
 #else
 	.string "I forgot to do my homework!$"
 #endif

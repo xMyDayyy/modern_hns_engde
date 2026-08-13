@@ -117,8 +117,8 @@ BlackthornCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
 BlackthornCity_MoveDeletersHouse_Text_MonHasForgottenMove:
 #if GERMAN
 	.string "Perfekt gelungen!\p"
-	.string "{STR_VAR_1} hat\n"
-	.string "{STR_VAR_2} komplett vergessen.$"
+	.string "{STR_VAR_1} hat {STR_VAR_2} komplett\n"
+	.string "vergessen.$"
 #else
 	.string "It worked to perfection!\p"
 	.string "{STR_VAR_1} has forgotten\n"
@@ -252,8 +252,8 @@ BlackthornCity_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
 	.string "Oh! Das ist es! Das ist ehrlich und\n"
 	.string "wahrhaftig eine Herzschuppe!\l"
 	.string "Lass mich raten…\p"
-	.string "Ich soll einem Pokémon eine\n"
-	.string "alte Attacke beibringen?!?$"
+	.string "Ich soll einem Pokémon eine alte\n"
+	.string "Attacke beibringen?!?$"
 #else
 	.string "Oh! That's it! That's an honest to\n"
 	.string "goodness HEART SCALE!\p"
@@ -263,8 +263,8 @@ BlackthornCity_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
 
 BlackthornCity_MoveRelearnersHouse_Text_TutorWhichMon:
 #if GERMAN
-	.string "Welches Pokémon soll sich an\n"
-	.string "eine alte Attacke erinnern?$"
+	.string "Welches Pokémon soll sich an eine alte\n"
+	.string "Attacke erinnern?$"
 #else
 	.string "Which POKéMON needs tutoring?$"
 #endif

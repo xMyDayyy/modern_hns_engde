@@ -216,14 +216,14 @@ Route14_Text_Eusine:
 	.string "Eigentlich würde ich mein Wissen ja für\n"
 	.string "mich behalten, aber vor Suicune will ich\l"
 	.string "ganz offen sein.\p"
-	.string "Daher will ich dir einen\n"
-	.string "kleinen Hinweis geben!\p"
+	.string "Daher will ich dir einen kleinen Hinweis\n"
+	.string "geben!\p"
 	.string "Suicune bevorzugt nördliche Ufer…\n"
 	.string "und luftige Höhen…\l"
 	.string "Dort soll man diesem Pokémon angeblich\l"
 	.string "begegnen können!\p"
-	.string "Wo genau das sein soll, weiß\n"
-	.string "ich selbst auch noch nicht.\p"
+	.string "Wo genau das sein soll, weiß ich selbst\n"
+	.string "auch noch nicht.\p"
 	.string "Es wird also ein Wettlauf zwischen\n"
 	.string "uns beiden, wer es zuerst herausfindet!$"
 #else
@@ -289,8 +289,8 @@ Route14_Text_TrevorRegister:
 
 Route14_Text_TrevorRematchIntro:
 #if GERMAN
-	.string "Ich habe mit meinen Pokémon\n"
-	.string "an verschiedenen Orten trainiert!$"
+	.string "Ich habe mit meinen Pokémon an\n"
+	.string "verschiedenen Orten trainiert!$"
 #else
 	.string "I've been training with my\n"
 	.string "POKéMON in familiar places!$"
@@ -305,8 +305,8 @@ Route14_Text_TrevorRematchDefeat:
 
 Route14_Text_TrevorPostRematch:
 #if GERMAN
-	.string "Freundschaft macht Pokémon\n"
-	.string "stärker. Ich bin sicher!$"
+	.string "Freundschaft macht Pokémon stärker.\n"
+	.string "Ich bin sicher!$"
 #else
 	.string "Friendship makes POKéMON\n"
 	.string "stronger. I'm sure of it!$"
@@ -331,8 +331,8 @@ Route14_Text_PokefanmCarterBeaten:
 Route14_Text_PokefanmCarterAfterBattle:
 #if GERMAN
 	.string "Schiggy, Glumanda und Bisasam…\p"
-	.string "Ich denke, das ist\n"
-	.string "ein ausgeglichenes Team.$"
+	.string "Ich denke, das ist ein ausgeglichenes\n"
+	.string "Team.$"
 #else
 	.string "TOTODILE, CYNDAQUIL, CHIKORITA…\p"
 	.string "I think that's a well-balanced mix.$"
@@ -365,8 +365,8 @@ Route14_Text_CarterRematchDefeat:
 
 Route14_Text_CarterPostRematch:
 #if GERMAN
-	.string "Es gibt so viele Starter\n"
-	.string "aus verschiedenen Regionen!$"
+	.string "Es gibt so viele Starter aus\n"
+	.string "verschiedenen Regionen!$"
 #else
 	.string "There are so many starters from\n"
 	.string "different regions to collect!$"

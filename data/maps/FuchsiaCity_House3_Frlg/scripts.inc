@@ -106,8 +106,8 @@ FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten::
 FuchsiaCity_House3_Text_MonHasForgottenMoveCompletely::
 #if GERMAN
 	.string "Das klappte doch perfekt!\p"
-	.string "{STR_VAR_1} hat {STR_VAR_2}\n"
-	.string "komplett vergessen.$"
+	.string "{STR_VAR_1} hat {STR_VAR_2} komplett\n"
+	.string "vergessen.$"
 #else
 	.string "It worked to perfection!\p"
 	.string "{STR_VAR_1} has forgotten\n"

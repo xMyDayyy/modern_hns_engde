@@ -47,8 +47,8 @@ Route9_EventScript_Item_Flash_Cannon::
 
 Route9_Text_CamperDeanSeen:
 #if GERMAN
-	.string "Ich bin hier, um den\n"
-	.string "Felstunnel zu erforschen.$"
+	.string "Ich bin hier, um den Felstunnel zu\n"
+	.string "erforschen.$"
 #else
 	.string "I came to explore ROCK TUNNEL.$"
 #endif
@@ -109,8 +109,8 @@ Route9_Text_CamperSidSeen:
 
 Route9_Text_CamperSidBeaten:
 #if GERMAN
-	.string "Ich wollte dich doch nur\n"
-	.string "darauf hinweisen…$"
+	.string "Ich wollte dich doch nur darauf\n"
+	.string "hinweisen…$"
 #else
 	.string "I was just pointing out…$"
 #endif
@@ -163,8 +163,7 @@ Route9_Text_HikerTimSeen:
 
 Route9_Text_HikerTimBeaten:
 #if GERMAN
-	.string "Ich war zu sehr\n"
-	.string "mit Singen beschäftigt…$"
+	.string "Ich war zu sehr mit Singen beschäftigt…$"
 #else
 	.string "I was too busy singing…$"
 #endif
@@ -195,8 +194,8 @@ Route9_Text_HikerSidneyBeaten:
 
 Route9_Text_HikerSidneyAfter:
 #if GERMAN
-	.string "Jenseits dieses Flüssleins\n"
-	.string "liegt ein gigantisches Kraftwerk!$"
+	.string "Jenseits dieses Flüssleins liegt ein\n"
+	.string "gigantisches Kraftwerk!$"
 #else
 	.string "The POWER PLANT is across a small\n"
 	.string "river.$"

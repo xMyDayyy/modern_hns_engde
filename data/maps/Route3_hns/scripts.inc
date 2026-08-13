@@ -33,24 +33,23 @@ Route3_EventScript_Sign::
 
 Route3_Text_FirebreatherOtis_Seen:
 #if GERMAN
-	.string "Ah! Das Wetter ist so\n"
-	.string "schön wie immer.$"
+	.string "Ah! Das Wetter ist so schön wie immer.$"
 #else
 	.string "Ah! The weather's as fine as ever.$"
 #endif
 
 Route3_Text_FirebreatherOtis_Beaten:
 #if GERMAN
-	.string "Die Sonne scheint,\n"
-	.string "dennoch bin ich nass…$"
+	.string "Die Sonne scheint, dennoch bin ich\n"
+	.string "nass…$"
 #else
 	.string "It's sunny, but I'm all wet…$"
 #endif
 
 Route3_Text_FirebreatherOtis_AfterBattle:
 #if GERMAN
-	.string "Bei Regen ist\n"
-	.string "eine Zündung sehr schwierig…$"
+	.string "Bei Regen ist eine Zündung sehr\n"
+	.string "schwierig…$"
 #else
 	.string "When it rains, it's hard to get\n"
 	.string "ignition…$"
@@ -58,8 +57,7 @@ Route3_Text_FirebreatherOtis_AfterBattle:
 
 Route3_Text_YoungsterWarren_Seen:
 #if GERMAN
-	.string "Hmmm… ich weiß nicht,\n"
-	.string "was ich tun soll…$"
+	.string "Hmmm… ich weiß nicht, was ich tun soll…$"
 #else
 	.string "Hmmm… I don't know what to do…$"
 #endif
@@ -82,8 +80,7 @@ Route3_Text_YoungsterWarren_AfterBattle:
 
 Route3_Text_YoungsterJimmy_Seen:
 #if GERMAN
-	.string "Ich bin schnell\n"
-	.string "wie der Wind!$"
+	.string "Ich bin schnell wie der Wind!$"
 #else
 	.string "I can run like the wind!$"
 #endif

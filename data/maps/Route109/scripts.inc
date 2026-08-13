@@ -478,8 +478,8 @@ Route109_EventScript_Elijah::
 
 DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
 #if GERMAN
-	.string "Mr. Brack: Ahoi! Wir haben in\n"
-	.string "Graphitport City angelegt.\p"
+	.string "Mr. Brack: Ahoi! Wir haben in Graphitport\n"
+	.string "City angelegt.\p"
 	.string "Ich vermute, du gehst jetzt zu Kapt.\n"
 	.string "Brigg und bringst ihm die Devonwaren?$"
 #else
@@ -504,8 +504,7 @@ Route109_Text_BrineySailToDewfordQuestion:
 
 Route109_Text_BrineyDewfordItIs:
 #if GERMAN
-	.string "Mr. Brack: Also, auf nach\n"
-	.string "Faustauhaven! \p"
+	.string "Mr. Brack: Also, auf nach Faustauhaven!\p"
 	.string "Anker gelichtet!\n"
 	.string "Pecko, wir setzen Segel, mein Liebling!$"
 #else
@@ -525,8 +524,8 @@ Route109_Text_BrineyDeliverDevonGoods:
 
 DewfordTown_Text_BrineyLandedInSlateport:
 #if GERMAN
-	.string "Mr. Brack: Ahoi! Wir haben in\n"
-	.string "Graphitport City angelegt!\p"
+	.string "Mr. Brack: Ahoi! Wir haben in Graphitport\n"
+	.string "City angelegt!\p"
 	.string "Wann immer du magst, können wir wieder\n"
 	.string "die Segel setzen.$"
 #else

@@ -38,8 +38,7 @@ VermilionCity_House2_EventScript_AlreadyTraded::
 VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon::
 #if GERMAN
 	.string "Besitzt du ein {STR_VAR_1}?\p"
-	.string "Willst du es gegen {STR_VAR_2}\n"
-	.string "tauschen?$"
+	.string "Willst du es gegen {STR_VAR_2} tauschen?$"
 #else
 	.string "Hi!\n"
 	.string "Do you have a {STR_VAR_1}?\p"

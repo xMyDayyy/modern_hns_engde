@@ -180,8 +180,8 @@ GoldenrodCity_RadioTower_3F_Text_SuperNerd:
 
 GoldenrodCity_RadioTower_3F_Text_GymGuideRockets:
 #if GERMAN
-	.string "Als Partner sind Pokémon für\n"
-	.string "einen Trainer unabdingbar!\p"
+	.string "Als Partner sind Pokémon für einen\n"
+	.string "Trainer unabdingbar!\p"
 	.string "Es tut mir in der Seele weh, wenn\n"
 	.string "sie jemand so herumkommandiert.$"
 #else

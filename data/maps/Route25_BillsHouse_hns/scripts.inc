@@ -630,8 +630,7 @@ Route25_BillsHouse_Text_GrampsMeowth:
 	.string "Mein Enkel Bill erzählte mir von einem\n"
 	.string "Pokémon mit scharfen Krallen, einer\l"
 	.string "Münze auf dem\p"
-	.string "Kopf und dem Ruf,\n"
-	.string "Glück zu bringen.$"
+	.string "Kopf und dem Ruf, Glück zu bringen.$"
 #else
 	.string "My grandson BILL told me about\n"
 	.string "a POKéMON that has sharp claws,\l"
@@ -641,10 +640,9 @@ Route25_BillsHouse_Text_GrampsMeowth:
 
 Route25_BillsHouse_Text_GrampsZigzagoon:
 #if GERMAN
-	.string "Bill erwähnte ein Pokémon,\n"
-	.string "das im Zickzack umherläuft.\p"
-	.string "Es soll ein echter kleiner\n"
-	.string "Sammler sein.$"
+	.string "Bill erwähnte ein Pokémon, das im\n"
+	.string "Zickzack umherläuft.\p"
+	.string "Es soll ein echter kleiner Sammler sein.$"
 #else
 	.string "BILL mentioned a POKéMON that\n"
 	.string "runs around in a zigzag\l"
@@ -657,8 +655,8 @@ Route25_BillsHouse_Text_GrampsPonyta:
 #if GERMAN
 	.string "Kennst du das Pokémon mit der\n"
 	.string "feurigen Mähne?\p"
-	.string "Es soll schneller laufen als\n"
-	.string "die meisten Züge.$"
+	.string "Es soll schneller laufen als die meisten\n"
+	.string "Züge.$"
 #else
 	.string "Do you know of a POKéMON with\n"
 	.string "a fiery mane?\p"
@@ -680,8 +678,8 @@ Route25_BillsHouse_Text_GrampsFarfetchd:
 
 Route25_BillsHouse_Text_GrampsSlowpoke:
 #if GERMAN
-	.string "Kennst du das Pokémon, das\n"
-	.string "ständig ins Leere starrt?\p"
+	.string "Kennst du das Pokémon, das ständig ins\n"
+	.string "Leere starrt?\p"
 	.string "Sein Schweif wird oft auf dem\n"
 	.string "Schwarzmarkt verkauft.$"
 #else
@@ -697,8 +695,8 @@ Route25_BillsHouse_Text_TeleporterUnlocked:
 	.string "Bill hat eine Notiz hinterlassen. Falls\n"
 	.string "ich jemanden finde, der Pokémon\l"
 	.string "wirklich\p"
-	.string "schätzt, soll ich ihn seine\n"
-	.string "Maschine nutzen lassen.\p"
+	.string "schätzt, soll ich ihn seine Maschine\n"
+	.string "nutzen lassen.\p"
 	.string "Benutz ihn jederzeit!\p"
 	.string "Nimm einfach den Computer dort.$"
 #else
@@ -751,8 +749,8 @@ Route25_BillsHouse_Text_ShownPokemon:
 Route25_BillsHouse_Text_Appreciation:
 #if GERMAN
 	.string "Danke!\p"
-	.string "Bitte nimm dies als Zeichen\n"
-	.string "meiner Dankbarkeit.$"
+	.string "Bitte nimm dies als Zeichen meiner\n"
+	.string "Dankbarkeit.$"
 #else
 	.string "Thanks!\p"
 	.string "This is a token of my\n"

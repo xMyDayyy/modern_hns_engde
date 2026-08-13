@@ -531,8 +531,8 @@ BattleFrontier_BattlePyramidLobby_EventScript_ExitRules_hns::
 
 BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid_hns:
 #if GERMAN
-	.string "Hier wird der Mut der Trainer\n"
-	.string "auf die Probe gestellt!\p"
+	.string "Hier wird der Mut der Trainer auf die\n"
+	.string "Probe gestellt!\p"
 	.string "Willkommen in der Kampfpyramide!\p"
 	.string "Ich begleite dich bei deinen\n"
 	.string "Herausforderungen.$"
@@ -669,8 +669,8 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50_hns:
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsEnd_hns:
 #if GERMAN
-	.string "Sobald du fertig bist, bitte\n"
-	.string "sprich mit mir.$"
+	.string "Sobald du fertig bist, bitte sprich mit\n"
+	.string "mir.$"
 #else
 	.string "When you are ready, please have\n"
 	.string "a word with me.$"
@@ -879,8 +879,7 @@ BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis_hns:
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem_hns:
 #if GERMAN
-	.string "{PLAYER} gewinnt\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} gewinnt {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"

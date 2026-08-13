@@ -36,8 +36,8 @@ OldSeaMap_Obtained:
 
 sText_MysteryGiftOldSeaMapForYou:
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast.\p"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast.\p"
 	.string "Du musst {PLAYER} sein.\n"
 	.string "Hier ist eine alte Karte für dich!$"
 #else
@@ -50,10 +50,10 @@ sText_MysteryGiftOldSeaMapForYou:
 
 sText_MysteryGiftOldSeaMapUseAtPort:
 #if GERMAN
-	.string "Du kannst sie am Hafen von\n"
-	.string "Seegrasulb City einsetzen.\p"
-	.string "Warum probierst du es nicht\n"
-	.string "einfach aus?$"
+	.string "Du kannst sie am Hafen von Seegrasulb\n"
+	.string "City einsetzen.\p"
+	.string "Warum probierst du es nicht einfach\n"
+	.string "aus?$"
 #else
 	.string "It appears to be for use at the\n"
 	.string "LILYCOVE CITY port.\p"
@@ -63,8 +63,8 @@ sText_MysteryGiftOldSeaMapUseAtPort:
 
 sText_MysteryGiftOldSeaMapThankYou:
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast!$"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast!$"
 #else
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.$"

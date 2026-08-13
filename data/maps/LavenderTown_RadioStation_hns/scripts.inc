@@ -130,8 +130,7 @@ LavenderTown_RadioStation_Text_Gentleman_ReturnedMachinePart:
 
 LavendertownRadioStation_Text_Upgraded_Radio:
 #if GERMAN
-	.string "{PLAYER} erhielt das\n"
-	.string "Radio-Up-Grade!$"
+	.string "{PLAYER} erhielt das Radio-Up-Grade!$"
 #else
 	.string "{PLAYER} obtained the\n"
 	.string "RADIO UPGRADE!$"

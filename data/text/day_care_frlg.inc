@@ -206,8 +206,8 @@ DayCare_Text_TakeBackWhichMon::
 
 DayCare_Text_ItWillCostX::
 #if GERMAN
-	.string "Wenn du dein {STR_VAR_1}\n"
-	.string "mitnehmen willst, kostet das ¥{STR_VAR_2}.$"
+	.string "Wenn du dein {STR_VAR_1} mitnehmen willst,\n"
+	.string "kostet das ¥{STR_VAR_2}.$"
 #else
 	.string "If you want your {STR_VAR_1} back,\n"
 	.string "it will cost ¥{STR_VAR_2}.$"

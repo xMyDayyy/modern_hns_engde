@@ -17,8 +17,8 @@ OlivineCity_Cafe_EventScript_Jasmine::
 OlivineCity_Cafe_Text_Jasmine:
 #if GERMAN
 	.string "Oh… Hallo, {PLAYER}.\p"
-	.string "Diese Teller vor mir gehören\n"
-	.string "nicht alle mir…\p"
+	.string "Diese Teller vor mir gehören nicht alle\n"
+	.string "mir…\p"
 	.string "Ähm…\p"
 	.string "Eigentlich hat die Person, die\n"
 	.string "vor mir saß, viel gegessen…\p"
@@ -70,10 +70,9 @@ OlivineCity_Text_CafeSailorStrength:
 #if GERMAN
 	.string "Hah! Deine Pokémon sehen echt\n"
 	.string "schwächlich aus!\p"
-	.string "Sie haben nicht die Kraft,\n"
-	.string "Felsen wegzustoßen.\p"
-	.string "Hier, nimm das und lehre sie\n"
-	.string "Stärke!$"
+	.string "Sie haben nicht die Kraft, Felsen\n"
+	.string "wegzustoßen.\p"
+	.string "Hier, nimm das und lehre sie Stärke!$"
 #else
 	.string "Hah! Your POKéMON sure look like\n"
 	.string "lightweights!\p"

@@ -381,8 +381,8 @@ BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge_hns:
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge_hns:
 #if GERMAN
-	.string "Wir freuen uns auf deine\n"
-	.string "nächste Herausforderung!$"
+	.string "Wir freuen uns auf deine nächste\n"
+	.string "Herausforderung!$"
 #else
 	.string "We await your challenge on\n"
 	.string "another occasion!$"
@@ -390,8 +390,8 @@ BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge_hns:
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge_hns:
 #if GERMAN
-	.string "Im Kampfring fechten\n"
-	.string "wir K.O.-Teamturniere aus.\p"
+	.string "Im Kampfring fechten wir\n"
+	.string "K.O.-Teamturniere aus.\p"
 	.string "Jeder Teilnehmer nimmt drei Pokémon\n"
 	.string "mit in den Wettkampf.\p"
 	.string "Die Pokémon müssen in der Reihenfolge\n"
@@ -463,8 +463,8 @@ BattleFrontier_BattleArenaLobby_Text_SelectThreeMons_hns:
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen_hns:
 #if GERMAN
 	.string "Lieber Herausforderer!\p"
-	.string "Du hast nicht die 3 Pokémon,\n"
-	.string "die für den Eintritt nötig sind.\p"
+	.string "Du hast nicht die 3 Pokémon, die für den\n"
+	.string "Eintritt nötig sind.\p"
 	.string "Du brauchst 3 verschiedene\n"
 	.string "Pokémon-Arten.\p"
 	.string "Sie dürfen auch nicht dasselbe\n"
@@ -492,12 +492,12 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsEnd_hns:
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50_hns:
 #if GERMAN
 	.string "Lieber Herausforderer!\p"
-	.string "Du hast nicht die 3 Pokémon,\n"
-	.string "die für den Eintritt nötig sind.\p"
+	.string "Du hast nicht die 3 Pokémon, die für den\n"
+	.string "Eintritt nötig sind.\p"
 	.string "Du brauchst 3 verschiedene\n"
 	.string "Pokémon-Arten.\p"
-	.string "Alle 3 müssen Level 50\n"
-	.string "oder niedriger sein.\p"
+	.string "Alle 3 müssen Level 50 oder niedriger\n"
+	.string "sein.\p"
 	.string "Sie dürfen auch nicht dasselbe\n"
 	.string "Item halten.\p"
 	.string "Eier{STR_VAR_1}.$"
@@ -574,8 +574,7 @@ BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize_hns:
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize_hns:
 #if GERMAN
-	.string "{PLAYER} gewinnt\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} gewinnt {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"
@@ -586,8 +585,8 @@ BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize_hns:
 #if GERMAN
 	.string "Oh?\n"
 	.string "Dein Rucksack ist voll.\p"
-	.string "Schaff Platz und komm dann\n"
-	.string "für deinen Preis zurück.$"
+	.string "Schaff Platz und komm dann für deinen\n"
+	.string "Preis zurück.$"
 #else
 	.string "Oh?\n"
 	.string "Your BAG seems to be full.\p"
@@ -607,8 +606,8 @@ BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave_hns:
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge_hns2_hns:
 #if GERMAN
-	.string "Wir freuen uns auf deine\n"
-	.string "nächste Herausforderung!$"
+	.string "Wir freuen uns auf deine nächste\n"
+	.string "Herausforderung!$"
 #else
 	.string "We await your challenge on\n"
 	.string "another occasion!$"

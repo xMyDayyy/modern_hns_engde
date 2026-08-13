@@ -35,8 +35,8 @@ ViridianCity_PokemonCenter_Text_1FCooltrainerM:
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerM_BlueReturned:
 #if GERMAN
-	.string "In der Pokémon-Arena\n"
-	.string "von Vertania City gibt es keine Trainer.\p"
+	.string "In der Pokémon-Arena von Vertania City\n"
+	.string "gibt es keine Trainer.\p"
 	.string "Der Arenaleiter vertritt den Grundsatz,\n"
 	.string "auch ohne die Hilfe von Untergebenen\l"
 	.string "gewinnen zu können.$"
@@ -62,8 +62,8 @@ ViridianCity_PokemonCenter_Text_1FCooltrainerF:
 
 ViridianCity_PokemonCenter_Text_1FBugCatcher:
 #if GERMAN
-	.string "Mein großer Traum ist es,\n"
-	.string "Arenaleiter zu werden!$"
+	.string "Mein großer Traum ist es, Arenaleiter zu\n"
+	.string "werden!$"
 #else
 	.string "My dream is to become a GYM LEADER.$"
 #endif

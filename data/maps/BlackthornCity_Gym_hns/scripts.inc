@@ -327,8 +327,7 @@ BlackthornGym_Text_ClairText_DescribeTM:
 BlackthornGym_Text_ClairText_League:
 #if GERMAN
 	.string "Was ist los?\p"
-	.string "Gehst du nicht zur Pokémon\n"
-	.string "Liga?\p"
+	.string "Gehst du nicht zur Pokémon Liga?\p"
 	.string "Kennst du den Weg nicht?\p"
 	.string "Gehe von hier nach Neuborkia.\p"
 	.string "Surfe dann nach Osten. Der Weg\n"
@@ -387,8 +386,8 @@ BlackthornGym_Text_ClairRematchDefeatText:
 #if GERMAN
 	.string "Ich habe verloren?\p"
 	.string "Wieder?\p"
-	.string "Ich glaube es nicht,\n"
-	.string "das muss ein Fehler sein…$"
+	.string "Ich glaube es nicht, das muss ein Fehler\n"
+	.string "sein…$"
 #else
     .string "I lost?\p"
     .string "Again?\p"
@@ -466,8 +465,8 @@ BlackthornGym_Text_CooltrainermPaulBeatenText:
 
 BlackthornGym_Text_CooltrainermPaulAfterBattleText:
 #if GERMAN
-	.string "Siegfried sagte dir, dass\n"
-	.string "er dich noch einmal sehen will?\p"
+	.string "Siegfried sagte dir, dass er dich noch\n"
+	.string "einmal sehen will?\p"
 	.string "Das kann nicht sein!$"
 #else
     .string "LANCE told you that he'd like to\n"
@@ -552,8 +551,8 @@ BlackthornGym_EventScript_GymGuy3::
 BlackthornGym_Text_GuideText:
 #if GERMAN
 	.string "Yo! Champ in spe!\p"
-	.string "Es war eine lange Reise, aber\n"
-	.string "bald sind wir da! Zähle auf mich!\p"
+	.string "Es war eine lange Reise, aber bald sind\n"
+	.string "wir da! Zähle auf mich!\p"
 	.string "Während Sandra zum Drachenmeister\n"
 	.string "Siegfried aufsieht, hat sie es doch\l"
 	.string "geschafft, ihre eigene Identität zu\l"
@@ -583,8 +582,7 @@ BlackthornGym_Text_GuideText:
 BlackthornGym_Text_GuideGotoDragonsDen:
 #if GERMAN
 	.string "Du warst super gegen Sandra!\p"
-	.string "Sie ist leider keine gute\n"
-	.string "Verliererin.\p"
+	.string "Sie ist leider keine gute Verliererin.\p"
 	.string "Schätze, du musst zur Drachenhöhle,\n"
 	.string "wenn du den Orden bekommen willst!$"
 #else

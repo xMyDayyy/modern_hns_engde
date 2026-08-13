@@ -25,8 +25,7 @@ VermilionPokeCenter_EventScript_Bugcatcher::
 
 VermilionCity_PokemonCenter1F_Text_FishingGuru:
 #if GERMAN
-	.string "Vor Digdas\n"
-	.string "Höhle liegt ein schlafendes.\p"
+	.string "Vor Digdas Höhle liegt ein schlafendes.\p"
 	.string "Pokémon Das wäre eine fantastische\n"
 	.string "Gelegenheit, es zu fangen! Aber wie\l"
 	.string "weckt man es auf?$"
@@ -39,10 +38,10 @@ VermilionCity_PokemonCenter1F_Text_FishingGuru:
 
 VermilionCity_PokemonCenter1F_Text_FishingGuru_FoughtSnorlax:
 #if GERMAN
-	.string "Vor Digdas Höhle lag ein\n"
-	.string "schlafendes Pokémon.\p"
-	.string "Aber jetzt scheint\n"
-	.string "es verschwunden zu sein.$"
+	.string "Vor Digdas Höhle lag ein schlafendes\n"
+	.string "Pokémon.\p"
+	.string "Aber jetzt scheint es verschwunden zu\n"
+	.string "sein.$"
 #else
 	.string "There used to be a sleeping\n"
 	.string "POKéMON lying in front of\l"
@@ -61,8 +60,8 @@ VermilionCity_PokemonCenter1F_Text_Sailor:
 
 VermilionCity_PokemonCenter1F_Text_BugCatcher:
 #if GERMAN
-	.string "Oh, diese Orden habe ich ja\n"
-	.string "noch nie gesehen!\p"
+	.string "Oh, diese Orden habe ich ja noch nie\n"
+	.string "gesehen!\p"
 	.string "Oh, aber ja! Dann bist du also ein\n"
 	.string "Einwohner von Johto!$"
 #else

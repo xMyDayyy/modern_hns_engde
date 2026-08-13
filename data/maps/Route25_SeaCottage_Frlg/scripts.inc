@@ -437,8 +437,7 @@ Route25_SeaCottage_Text_ThanksLadyTakeThis::
 
 Route25_SeaCottage_Text_ReceivedSSTicketFromBill::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "ein Bootsticket!$"
+	.string "{PLAYER} erhält ein Bootsticket!$"
 #else
 	.string "{PLAYER} received an S.S. TICKET\n"
 	.string "from BILL.$"
@@ -493,8 +492,8 @@ Route25_SeaCottage_Text_TeleporterIsDisplayed::
 
 Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator::
 #if GERMAN
-	.string "{PLAYER} hat den\n"
-	.string "Zell-Separator in Gang gesetzt!$"
+	.string "{PLAYER} hat den Zell-Separator in\n"
+	.string "Gang gesetzt!$"
 #else
 	.string "{PLAYER} initiated the TELEPORTER's\n"
 	.string "Cell Separator.$"

@@ -634,8 +634,7 @@ BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge:
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
 #if GERMAN
-	.string "{PLAYER} gewinnt\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} gewinnt {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"

@@ -579,8 +579,7 @@ BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo_hns:
 	.string "hier nichts. Nur Ödnis.\p"
 	.string "Und nun schau sich einer diesen Ort an!\n"
 	.string "Unglaublich! Ich werde meine Mutter\p"
-	.string "mal\n"
-	.string "hierher bringen, damit sie das sieht.$"
+	.string "mal hierher bringen, damit sie das sieht.$"
 #else
 	.string "There used to be nothing here not all\n"
 	.string "that long ago.\p"

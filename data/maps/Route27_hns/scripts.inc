@@ -263,8 +263,8 @@ Route27_Text_CooltrainerfReenaBeaten:
 
 Route27_Text_CooltrainerfReenaAfter:
 #if GERMAN
-	.string "Du bist nur ein Kind, aber\n"
-	.string "ich unterschätze dich nicht.$"
+	.string "Du bist nur ein Kind, aber ich\n"
+	.string "unterschätze dich nicht.$"
 #else
     .string "You're just a kid, but you're not\n"
     .string "to be underestimated either.$"
@@ -360,8 +360,8 @@ Route27_Text_PsychicGilbertBeaten:
 
 Route27_Text_PsychicGilbertAfter:
 #if GERMAN
-	.string "Mit deinen Fähigkeiten wirst\n"
-	.string "du in der Liga bestehen.\p"
+	.string "Mit deinen Fähigkeiten wirst du in der\n"
+	.string "Liga bestehen.\p"
 	.string "Das sagt meine Vorahnung.$"
 #else
     .string "With your skills, you'll do well at\n"

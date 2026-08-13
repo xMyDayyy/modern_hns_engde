@@ -209,8 +209,7 @@ ThreeIsland_BondBridge_Text_MegPostBattle::
 
 ThreeIsland_BondBridge_Text_MegNotEnoughMons::
 #if GERMAN
-	.string "Ida: Ich möchte mit Ute\n"
-	.string "kämpfen.\p"
+	.string "Ida: Ich möchte mit Ute kämpfen.\p"
 	.string "Ein Pokémon ist nicht genug.$"
 #else
 	.string "MEG: I want to battle together\n"

@@ -445,8 +445,8 @@ VioletCity_Text_HereTeacherIAm:
 
 VioletCity_Text_Lass:
 #if GERMAN
-	.string "Man sagt, dass im\n"
-	.string "Knofensa-Turm Geister umgehen.\p"
+	.string "Man sagt, dass im Knofensa-Turm\n"
+	.string "Geister umgehen.\p"
 	.string "Pokémon-Attacken des Typs Normal\n"
 	.string "zeigen bei Geistern keine Wirkung.$"
 #else
@@ -486,8 +486,8 @@ VioletCity_Text_Gramps:
 
 VioletCity_Text_Youngster:
 #if GERMAN
-	.string "Ich habe einen\n"
-	.string "wackeligen Baum gesehen!\p"
+	.string "Ich habe einen wackeligen Baum\n"
+	.string "gesehen!\p"
 	.string "Wenn du ihn berührst, windet er sich und\n"
 	.string "tanzt!\l"
 	.string "So Cool!$"
@@ -588,8 +588,8 @@ VioletCity_Text_Kimono_Girl1:
 VioletCity_Text_Kimono_Girl2:
 #if GERMAN
 	.string "Ich verstehe…\p"
-	.string "Es ging von Mr. Pokémon\n"
-	.string "zu Prof. Lind, dann zu dir.\p"
+	.string "Es ging von Mr. Pokémon zu Prof. Lind,\n"
+	.string "dann zu dir.\p"
 	.string "Jetzt kapiere ich es…$"
 #else
 .string "I see...\p"

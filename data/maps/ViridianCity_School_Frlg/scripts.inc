@@ -224,8 +224,7 @@ ViridianCity_School_Text_ExplainSleep::
 	.string "nicht angreifen!\p"
 	.string "Ein schlafendes Pokémon wacht auch\n"
 	.string "nach dem Kampf nicht auf.\p"
-	.string "Benutze Aufwecker, damit es\n"
-	.string "aufwacht.$"
+	.string "Benutze Aufwecker, damit es aufwacht.$"
 #else
 	.string "A POKéMON can't attack if it's\n"
 	.string "asleep.\p"

@@ -733,8 +733,8 @@ CinnabarIsland_Gym_Text_BlaineIntro::
 CinnabarIsland_Gym_Text_BlaineDefeat::
 #if GERMAN
 	.string "Mein Feuer ist erloschen!\p"
-	.string "Du hast dir den Vulkanorden\n"
-	.string "redlich verdient.$"
+	.string "Du hast dir den Vulkanorden redlich\n"
+	.string "verdient.$"
 #else
 	.string "I have burned down to nothing!\n"
 	.string "Not even ashes remain!\p"
@@ -768,8 +768,7 @@ CinnabarIsland_Gym_Text_ExplainVolcanoBadge::
 
 CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM38!$"
+	.string "{PLAYER} erhält TM38!$"
 #else
 	.string "{PLAYER} received TM38\n"
 	.string "from BLAINE.$"
@@ -816,8 +815,7 @@ CinnabarIsland_Gym_Text_ErikDefeat::
 
 CinnabarIsland_Gym_Text_ErikPostBattle::
 #if GERMAN
-	.string "Feuer, oder präziser, die\n"
-	.string "Verbrennung...\p"
+	.string "Feuer, oder präziser, die Verbrennung...\p"
 	.string "Bla, bla, bla, bla...$"
 #else
 	.string "Fire, or to be more precise,\n"

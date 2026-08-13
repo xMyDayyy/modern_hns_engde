@@ -60,13 +60,13 @@ Route10_PowerPlantBackRoom_EventScript_Engineer::
 
 Route10_PowerPlantBackRoom_Text_ManagerWhoWouldRuinMyGenerator:
 #if GERMAN
-	.string "Direktor: Ich, ich\n"
-	.string "werde ihm nie verzeihen!\p"
-	.string "Wer wagt es,\n"
-	.string "meinen Generator zu demolieren?\p"
+	.string "Direktor: Ich, ich werde ihm nie\n"
+	.string "verzeihen!\p"
+	.string "Wer wagt es, meinen Generator zu\n"
+	.string "demolieren?\p"
 	.string "Ich habe so lange daran gearbeitet!\p"
-	.string "Wenn ich den erwische, dann\n"
-	.string "lernt er meine Blitzkanone kennen!$"
+	.string "Wenn ich den erwische, dann lernt er\n"
+	.string "meine Blitzkanone kennen!$"
 #else
 	.string "MANAGER: I, I, I'm ready to blast\n"
 	.string "someone!\p"
@@ -79,11 +79,11 @@ Route10_PowerPlantBackRoom_Text_ManagerWhoWouldRuinMyGenerator:
 
 Route10_PowerPlantBackRoom_Text_ManagerIWontForgiveCulprit:
 #if GERMAN
-	.string "Direktor: Das kann\n"
-	.string "ich ihm nicht verzeihen!\p"
+	.string "Direktor: Das kann ich ihm nicht\n"
+	.string "verzeihen!\p"
 	.string "Der Schurke kann weinen und sich\p"
-	.string "entschuldigen, ich\n"
-	.string "werde ihn trotzdem bestrafen!\p"
+	.string "entschuldigen, ich werde ihn trotzdem\n"
+	.string "bestrafen!\p"
 	.string "Uahahaha!$"
 #else
 	.string "MANAGER: I won't forgive him!\p"
@@ -117,8 +117,8 @@ Route10_PowerPlantBackRoom_Text_ManagerTakeThisTM:
 
 Route10_PowerPlantBackRoom_Text_ManagerTM07IsZapCannon:
 #if GERMAN
-	.string "Direktor: TM25\n"
-	.string "enthält Donner. Eine sehr\p"
+	.string "Direktor: TM25 enthält Donner. Eine\n"
+	.string "sehr\p"
 	.string "starke Attacke! Sie ist nicht sehr\n"
 	.string "präzise, aber du kannst jemanden damit\l"
 	.string "ordentlich schmoren!$"

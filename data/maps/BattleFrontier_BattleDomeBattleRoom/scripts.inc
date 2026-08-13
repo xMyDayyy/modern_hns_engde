@@ -1054,8 +1054,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
 #if GERMAN
-	.string "Wird dieser Trainer der neue\n"
-	.string "Meister werden?\p"
+	.string "Wird dieser Trainer der neue Meister\n"
+	.string "werden?\p"
 	.string "$"
 #else
 	.string "Will this TRAINER race to\n"
@@ -1466,8 +1466,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
 #if GERMAN
-	.string "Der Referee ist zu einer\n"
-	.string "Entscheidung gekommen!\p"
+	.string "Der Referee ist zu einer Entscheidung\n"
+	.string "gekommen!\p"
 	.string "Der Gewinner heißt…\n"
 	.string "Oh, fantastisch!!!\l"
 	.string "Der Gewinner ist unser Stadionstar!\l"

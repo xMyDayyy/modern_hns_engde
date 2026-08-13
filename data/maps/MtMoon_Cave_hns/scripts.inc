@@ -120,8 +120,8 @@ MtMoon_Cave_Text_Rival_After:
 #if GERMAN
 	.string "… … …\p"
 	.string "…Du hast mich fair besiegt.\p"
-	.string "Das muss ich dir\n"
-	.string "lassen. Wir werden uns wiedersehen.\p"
+	.string "Das muss ich dir lassen. Wir werden uns\n"
+	.string "wiedersehen.\p"
 	.string "Ich werde der beste PokémonTrainer\n"
 	.string "aller Zeiten sein.\p"
 	.string "Und sie werden mir dabei helfen.\p"
@@ -143,8 +143,8 @@ MtMoon_Cave_Text_Rival_After:
 MtMoon_Cave_Text_Rival_Loss:
 #if GERMAN
 	.string "… … …\p"
-	.string "Ich habe meine\n"
-	.string "Schuld bei dir abgegolten.\p"
+	.string "Ich habe meine Schuld bei dir\n"
+	.string "abgegolten.\p"
 	.string "Mit meinen Pokémon werde ich den Champ\n"
 	.string "besiegen und weltbester Trainer\l"
 	.string "werden.$"

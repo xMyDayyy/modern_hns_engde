@@ -191,8 +191,8 @@ TwoIsland_JoyfulGameCorner_EventScript_Lostelle::
 TwoIsland_JoyfulGameCorner_Text_WhereHasLostelleGottenTo::
 #if GERMAN
 	.string "Wo ist Irrma heute?\p"
-	.string "Genau um diese Zeit bringt\n"
-	.string "sie mir immer mein Mittagessen…$"
+	.string "Genau um diese Zeit bringt sie mir immer\n"
+	.string "mein Mittagessen…$"
 #else
 	.string "Now, where's LOSTELLE gotten to\n"
 	.string "today?\p"
@@ -210,8 +210,8 @@ TwoIsland_JoyfulGameCorner_Text_PleaseHelpFindLostelle::
 	.string "sein.\l"
 	.string "Irrma ist süß - sie sieht mir ähnlich -\l"
 	.string "was ist, wenn…\p"
-	.string "Was wäre, wenn meiner Irrma\n"
-	.string "etwas zugestoßen ist?!?\p"
+	.string "Was wäre, wenn meiner Irrma etwas\n"
+	.string "zugestoßen ist?!?\p"
 	.string "Bitte hilf mir, sie zu finden!\n"
 	.string "Bitte suche auf Eiland Drei nach ihr!$"
 #else
@@ -289,8 +289,7 @@ TwoIsland_JoyfulGameCorner_Text_PleaseGoToThreeIsland::
 #if GERMAN
 	.string "Heh! Hör zu! Ich flehe dich an!\n"
 	.string "Geh nach Eiland Drei!\p"
-	.string "Falls meiner Irrma etwas\n"
-	.string "zustößt…\p"
+	.string "Falls meiner Irrma etwas zustößt…\p"
 	.string "Mein Haus auf Eiland Drei hat\n"
 	.string "ein rotes Dach!\p"
 	.string "Vielleicht taucht sie hier noch\n"
@@ -320,8 +319,8 @@ TwoIsland_JoyfulGameCorner_Text_NotRunningAnyGamesToday::
 
 TwoIsland_JoyfulGameCorner_Text_GetGamesGoingSoon::
 #if GERMAN
-	.string "Wir haben aber bald einige\n"
-	.string "Spielchen für dich!$"
+	.string "Wir haben aber bald einige Spielchen für\n"
+	.string "dich!$"
 #else
 	.string "We'll get the games going soon\n"
 	.string "for you!$"
@@ -358,8 +357,8 @@ TwoIsland_JoyfulGameCorner_Text_ThisIsForMe::
 	.string "Das ist für mich?\p"
 	.string "Woher wusstest du, dass ich seltene\n"
 	.string "Gesteine liebe?\p"
-	.string "Du weißt, wie man einen Kerl\n"
-	.string "glücklich macht!$"
+	.string "Du weißt, wie man einen Kerl glücklich\n"
+	.string "macht!$"
 #else
 	.string "Oh, what's that?\n"
 	.string "You're saying that this is for me?\p"
@@ -371,8 +370,8 @@ TwoIsland_JoyfulGameCorner_Text_ThisIsForMe::
 
 TwoIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy::
 #if GERMAN
-	.string "{PLAYER} gibt dem Vater von\n"
-	.string "Irrma den Meteoriten!$"
+	.string "{PLAYER} gibt dem Vater von Irrma den\n"
+	.string "Meteoriten!$"
 #else
 	.string "{PLAYER} handed the METEORITE\n"
 	.string "to LOSTELLE's daddy.$"
@@ -402,8 +401,8 @@ TwoIsland_JoyfulGameCorner_Text_ReceivedMoonStoneFromLostellesDaddy::
 
 TwoIsland_JoyfulGameCorner_Text_NotGoingToFitInBag::
 #if GERMAN
-	.string "In deinem Beutel ist leider\n"
-	.string "kein Platz mehr…$"
+	.string "In deinem Beutel ist leider kein Platz\n"
+	.string "mehr…$"
 #else
 	.string "Your BAG's not going to fit another\n"
 	.string "thing…$"
@@ -411,10 +410,8 @@ TwoIsland_JoyfulGameCorner_Text_NotGoingToFitInBag::
 
 TwoIsland_JoyfulGameCorner_Text_IllGetGameCornerRunning::
 #if GERMAN
-	.string "O.K. Die Spielhalle ist gleich\n"
-	.string "geöffnet.\p"
-	.string "Bringe einen Freund zum\n"
-	.string "Spielen mit!$"
+	.string "O.K. Die Spielhalle ist gleich geöffnet.\p"
+	.string "Bringe einen Freund zum Spielen mit!$"
 #else
 	.string "All right, I'll get the GAME CORNER\n"
 	.string "running right away.\p"

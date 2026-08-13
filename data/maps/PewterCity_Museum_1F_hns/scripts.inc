@@ -76,8 +76,8 @@ PewterCity_Museum_1F_Text_FossilWoman:
 
 PewterCity_Museum_1F_Text_FossilWomanAfter:
 #if GERMAN
-	.string "Wir teilen oft Forschung mit\n"
-	.string "den Forschern der Alph-Ruinen.\p"
+	.string "Wir teilen oft Forschung mit den\n"
+	.string "Forschern der Alph-Ruinen.\p"
 	.string "Sogar Fossilien senden wir ihnen\n"
 	.string "über den PC!$"
 #else

@@ -555,8 +555,8 @@ LilycoveCity_PokemonCenter_1F_Text_PlayerGaveMeBadThing:
 #if GERMAN
 	.string "Ich dachte, es wäre {STR_VAR_3}\n"
 	.string "gewesen…\p"
-	.string "{STR_VAR_3} hat mir 1 {STR_VAR_2}\n"
-	.string "geschenkt und gesagt, es wäre\p"
+	.string "{STR_VAR_3} hat mir 1 {STR_VAR_2} geschenkt\n"
+	.string "und gesagt, es wäre\p"
 	.string "{STR_VAR_1}. Aber das stimmte gar nicht!\n"
 	.string "Überhaupt nicht!$"
 #else
@@ -634,8 +634,7 @@ LilycoveCity_PokemonCenter_1F_Text_IllTryToCherishIt:
 LilycoveCity_PokemonCenter_1F_Text_IWillCherishThis:
 #if GERMAN
 	.string "Oh…\p"
-	.string "{STR_VAR_2} ist schon ganz\n"
-	.string "{STR_VAR_1}…\p"
+	.string "{STR_VAR_2} ist schon ganz {STR_VAR_1}…\p"
 	.string "Ist das nicht toll?\n"
 	.string "Einfach traumhaft…\p"
 	.string "Vielen Dank…\n"
@@ -655,8 +654,8 @@ LilycoveCity_PokemonCenter_1F_Text_IWillTreasureThis:
 	.string "Uih… Oh…\p"
 	.string "Das ist fan-tas-tisch!!!\n"
 	.string "Das ist wirklich {STR_VAR_1}!!!\p"
-	.string "Ich hätte nie gedacht, dass\n"
-	.string "{STR_VAR_2} so {STR_VAR_1} sein\p"
+	.string "Ich hätte nie gedacht, dass {STR_VAR_2}\n"
+	.string "so {STR_VAR_1} sein\p"
 	.string "könnte! Vielen Dank!\p"
 	.string "Ich werde das bis an mein Lebensende\n"
 	.string "bewahren und beschützen!$"
@@ -795,8 +794,7 @@ LilycoveCity_PokemonCenter_1F_Text_YouGotItRightYouveWonPersonsPrize:
 @ Unused
 LilycoveCity_PokemonCenter_1F_Text_XReceivedOneY:
 #if GERMAN
-	.string "{STR_VAR_1} erhält\n"
-	.string "{STR_VAR_2}!$"
+	.string "{STR_VAR_1} erhält {STR_VAR_2}!$"
 #else
 	.string "{STR_VAR_1} received\n"
 	.string "one {STR_VAR_2}!$"
@@ -823,8 +821,8 @@ LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs:
 LilycoveCity_PokemonCenter_1F_Text_IGetToKeepPrize:
 #if GERMAN
 	.string "Wie schade!\p"
-	.string "Nun muss ich den Preis\n"
-	.string "{STR_VAR_1} selbst behalten.$"
+	.string "Nun muss ich den Preis {STR_VAR_1} selbst\n"
+	.string "behalten.$"
 #else
 	.string "Too bad!\p"
 	.string "I get to keep the quiz prize\n"

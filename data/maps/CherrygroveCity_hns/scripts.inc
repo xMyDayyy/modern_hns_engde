@@ -358,12 +358,12 @@ CherrygroveCity_Text_GuideGentSea:
 CherrygroveCity_Text_GuideGentMap:
 #if GERMAN
 	.string "Hier…\p"
-	.string "Das ist mein Haus! Danke für\n"
-	.string "deine Gesellschaft.\p"
-	.string "Wenn du dich mal verirrst,\n"
-	.string "sieh auf deine Karte!\p"
-	.string "Ich wünsche dir viel Glück\n"
-	.string "auf deiner Reise!$"
+	.string "Das ist mein Haus! Danke für deine\n"
+	.string "Gesellschaft.\p"
+	.string "Wenn du dich mal verirrst, sieh auf\n"
+	.string "deine Karte!\p"
+	.string "Ich wünsche dir viel Glück auf deiner\n"
+	.string "Reise!$"
 #else
 	.string "Here…\p"
 	.string "It's my house! Thanks for\n"
@@ -375,10 +375,8 @@ CherrygroveCity_Text_GuideGentMap:
 
 CherrygroveCity_Text_GuideGentDecline:
 #if GERMAN
-	.string "Oh… Dabei mache ich das so\n"
-	.string "gern…\p"
-	.string "Gut. Komm zu mir,\n"
-	.string "wann immer du willst.$"
+	.string "Oh… Dabei mache ich das so gern…\p"
+	.string "Gut. Komm zu mir, wann immer du willst.$"
 #else
 	.string "Oh… It's something I enjoy\n"
 	.string "doing…\p"
@@ -458,8 +456,8 @@ CherrygroveCity_Text_TeacherHaveMapCard:
 
 CherrygroveCity_Text_YoungsterNoPokedex:
 #if GERMAN
-	.string "Mr. Pokémons Haus liegt noch\n"
-	.string "weiter vorne.$"
+	.string "Mr. Pokémons Haus liegt noch weiter\n"
+	.string "vorne.$"
 #else
 	.string "MR. POKéMON's house is still\n"
 	.string "farther up ahead.$"

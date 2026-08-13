@@ -376,8 +376,7 @@ CeruleanGym_Text_SwimmerfDianaSeen:
 
 CeruleanGym_Text_SwimmerfDianaBeaten:
 #if GERMAN
-	.string "Ich gebe auf! Du\n"
-	.string "hast gewonnen!$"
+	.string "Ich gebe auf! Du hast gewonnen!$"
 #else
 	.string "I give up! You're the winner!$"
 #endif
@@ -431,8 +430,7 @@ CeruleanGym_Text_SwimmermParkerSeen:
 
 CeruleanGym_Text_SwimmermParkerBeaten:
 #if GERMAN
-	.string "Das darf doch nicht\n"
-	.string "wahr sein…$"
+	.string "Das darf doch nicht wahr sein…$"
 #else
 	.string "This can't be…$"
 #endif

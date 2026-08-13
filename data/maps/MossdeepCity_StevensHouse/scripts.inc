@@ -206,8 +206,7 @@ MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
 #if GERMAN
 	.string "{PLAYER} überprüft den Pokéball.\p"
-	.string "Er enthält das Pokémon\n"
-	.string "Tanhel.\p"
+	.string "Er enthält das Pokémon Tanhel.\p"
 	.string "Den Pokéball nehmen?$"
 #else
 	.string "{PLAYER} checked the POKé BALL.\p"

@@ -388,8 +388,7 @@ SlateportCity_ContestHall_Text_GetUrgeToMoveWithMon:
 @ Unused
 SlateportCity_ContestHall_Text_HyperRankStage:
 #if GERMAN
-	.string "Pokémon Contests\n"
-	.string "Hyper Rank Stage!$"
+	.string "Pokémon Contests Hyper Rank Stage!$"
 #else
 	.string "POKéMON CONTESTS\n"
 	.string "HYPER RANK STAGE!$"

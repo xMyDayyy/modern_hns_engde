@@ -149,8 +149,8 @@ SecretBase_Text_Trainer1Intro:
 
 SecretBase_Text_Trainer1AcceptBattle:
 #if GERMAN
-	.string "Okay! Ich werde meine\n"
-	.string "Geheimbasis verteidigen!$"
+	.string "Okay! Ich werde meine Geheimbasis\n"
+	.string "verteidigen!$"
 #else
 	.string "Okay!\n"
 	.string "I'm going to defend my SECRET BASE!$"
@@ -523,8 +523,8 @@ SecretBase_Text_Trainer4Intro:
 
 SecretBase_Text_Trainer4AcceptBattle:
 #if GERMAN
-	.string "Zeig mir, aus welchem Holz du\n"
-	.string "geschnitzt bist.$"
+	.string "Zeig mir, aus welchem Holz du geschnitzt\n"
+	.string "bist.$"
 #else
 	.string "Show me what you're made of!$"
 #endif

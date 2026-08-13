@@ -20,8 +20,8 @@ SixIsland_WaterPath_Text_RoseIntro::
 
 SixIsland_WaterPath_Text_RoseDefeat::
 #if GERMAN
-	.string "Kicher… du bist süß, wenn\n"
-	.string "du so entschlossen bist.$"
+	.string "Kicher… du bist süß, wenn du so\n"
+	.string "entschlossen bist.$"
 #else
 	.string "Giggle… You're so cute when you're\n"
 	.string "determined.$"
@@ -51,8 +51,8 @@ SixIsland_WaterPath_Text_EdwardIntro::
 
 SixIsland_WaterPath_Text_EdwardDefeat::
 #if GERMAN
-	.string "Niemand hat gesehen, wie ich\n"
-	.string "verloren habe, oder?$"
+	.string "Niemand hat gesehen, wie ich verloren\n"
+	.string "habe, oder?$"
 #else
 	.string "Nobody saw me losing, right?$"
 #endif

@@ -38,8 +38,7 @@ CeladonDeptStore_Text_5FReceptionistOhYourMon:
 
 CeladonDeptStore_Text_5FReceptionistWait:
 #if GERMAN
-    .string "Warte, die TM hab ich dir\n"
-    .string "schon gegeben!$"
+    .string "Warte, die TM hab ich dir schon gegeben!$"
 #else
     .string "Wait, I already gave you that TM!$"
 #endif
@@ -48,8 +47,8 @@ CeladonDeptStore_Text_5FReceptionistPutInSomeMoreEffort:
 #if GERMAN
 	.string "Hmm…\n"
 	.string "Nicht besonders gut oder schlecht.\p"
-	.string "Du als Trainer musst dich\n"
-	.string "etwas mehr anstrengen.$"
+	.string "Du als Trainer musst dich etwas mehr\n"
+	.string "anstrengen.$"
 #else
 	.string "Hmm…\n"
 	.string "It's not bad, but it's also not good.\p"

@@ -319,8 +319,8 @@ Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
 #if GERMAN
-	.string "Oh, hey! Das… Das ist eine\n"
-	.string "Scherbe! Genau die suche ich!\p"
+	.string "Oh, hey! Das… Das ist eine Scherbe!\n"
+	.string "Genau die suche ich!\p"
 	.string "Oh, du musst unbedingt mit mir\n"
 	.string "tauschen! Ich gebe dir etwas Gutes\l"
 	.string "dafür!$"

@@ -77,8 +77,7 @@ ApricornTree_Text_Empty:
 ApricornTree_Text_WantToPick:
 #if GERMAN
 	.string "{STR_VAR_2} {STR_VAR_1}!\p"
-	.string "Möchtest du die {STR_VAR_1}\n"
-	.string "pflücken?$"
+	.string "Möchtest du die {STR_VAR_1} pflücken?$"
 #else
 	.string "…It's {STR_VAR_2} {STR_VAR_1}!\n"
 	.string "Do you want to pick the\l"
@@ -107,8 +106,8 @@ ApricornTree_Text_PutAwayApricorn:
 ApricornTree_Text_PocketFull:
 #if GERMAN
 	.string "Die {STR_VAR_3}-Tasche ist voll.\p"
-	.string "{PLAYER} kann die {STR_VAR_1}\n"
-	.string "nicht pflücken…$"
+	.string "{PLAYER} kann die {STR_VAR_1} nicht\n"
+	.string "pflücken…$"
 #else
 	.string "The BAG's {STR_VAR_3} POCKET is full.\p"
 	.string "{PLAYER} gave up on the\n"
@@ -117,8 +116,7 @@ ApricornTree_Text_PocketFull:
 
 ApricornTree_Text_ApricornLeftUnpicked:
 #if GERMAN
-	.string "{PLAYER} pflückt keine\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} pflückt keine {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} gave up on the\n"
 	.string "{STR_VAR_1}…$"

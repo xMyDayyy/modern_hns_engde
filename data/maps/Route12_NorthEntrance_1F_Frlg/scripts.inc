@@ -7,8 +7,8 @@ Route12_NorthEntrance_1F_EventScript_Guard::
 
 Route12_NorthEntrance_1F_Text_LookoutSpotUpstairs::
 #if GERMAN
-	.string "Oberhalb der Treppe ist ein\n"
-	.string "Ausguck! Die Aussicht ist toll!$"
+	.string "Oberhalb der Treppe ist ein Ausguck!\n"
+	.string "Die Aussicht ist toll!$"
 #else
 	.string "There's a lookout spot upstairs.\n"
 	.string "The view is magnificent.$"

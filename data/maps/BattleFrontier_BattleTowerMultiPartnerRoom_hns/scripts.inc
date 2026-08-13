@@ -287,8 +287,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner_hns:
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner_hns:
 #if GERMAN
-	.string "{PLAYER}, du hast noch\n"
-	.string "keinen Partner gefunden.\p"
+	.string "{PLAYER}, du hast noch keinen Partner\n"
+	.string "gefunden.\p"
 	.string "Möchtest du die Suche aufgeben und\n"
 	.string "zurück zur Rezeption gehen?$"
 #else
@@ -309,8 +309,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner_hns2_hns:
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner_hns::
 #if GERMAN
 	.string "Vielen Dank!\p"
-	.string "Nun werde ich dir den Raum\n"
-	.string "für die Multikämpfe zeigen.$"
+	.string "Nun werde ich dir den Raum für die\n"
+	.string "Multikämpfe zeigen.$"
 #else
 	.string "Thank you for choosing a partner.\p"
 	.string "I will now show you to your\n"
@@ -531,8 +531,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Intro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon1_hns::
 #if GERMAN
-	.string "Ich habe mich an den Rat von\n"
-	.string "{STR_VAR_3} gehalten.\p"
+	.string "Ich habe mich an den Rat von {STR_VAR_3}\n"
+	.string "gehalten.\p"
 	.string "Mein {STR_VAR_2} kann {STR_VAR_1}$"
 #else
 	.string "I looked to {STR_VAR_3} for advice.\n"
@@ -541,8 +541,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon2Ask_hns::
 #if GERMAN
-	.string "und mein {STR_VAR_2} kann\n"
-	.string "{STR_VAR_1}. Das ist mein Pärchen.\p"
+	.string "und mein {STR_VAR_2} kann {STR_VAR_1}. Das\n"
+	.string "ist mein Pärchen.\p"
 	.string "Bitte bilde ein Team mit uns.$"
 #else
 	.string "and one {STR_VAR_2} with {STR_VAR_1},\n"
@@ -597,8 +597,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Mon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Mon2Ask_hns::
 #if GERMAN
-	.string "ein {STR_VAR_2}, das {STR_VAR_1}\n"
-	.string "kann. Ich weiß, ich verlange viel, aber…\p"
+	.string "ein {STR_VAR_2}, das {STR_VAR_1} kann. Ich\n"
+	.string "weiß, ich verlange viel, aber…\p"
 	.string "Würdest du ein Team mit mir bilden?$"
 #else
 	.string "one {STR_VAR_2} with {STR_VAR_1}.\n"
@@ -825,8 +825,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon2Ask_hns::
 #if GERMAN
-	.string "und ein {STR_VAR_2}, das\n"
-	.string "{STR_VAR_1} kann.\p"
+	.string "und ein {STR_VAR_2}, das {STR_VAR_1} kann.\p"
 	.string "Bitte nimm uns als Partner.$"
 #else
 	.string "and one {STR_VAR_2} with {STR_VAR_1}.\p"
@@ -879,8 +878,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon2Ask_hns::
 #if GERMAN
-	.string "kann, und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann.\p"
+	.string "kann, und ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann.\p"
 	.string "Erfüllst du mir einen Wunsch?\n"
 	.string "Bilde mit mir ein Team.$"
 #else
@@ -932,8 +931,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon2Ask_hns::
 #if GERMAN
-	.string "kann, und zu einem {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann.\p"
+	.string "kann, und zu einem {STR_VAR_2}, das\n"
+	.string "{STR_VAR_1} kann.\p"
 	.string "Gut, nicht wahr? Du wählst mich als\n"
 	.string "deinen Partner, ja?$"
 #else
@@ -954,8 +953,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Accept_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Reject_hns::
 #if GERMAN
-	.string "Uuuuuh! Du bist ganz schön\n"
-	.string "berechnend, {PLAYER}.$"
+	.string "Uuuuuh! Du bist ganz schön berechnend,\n"
+	.string "{PLAYER}.$"
 #else
 	.string "Gwaaah!\n"
 	.string "You're a calculating one, {PLAYER}!$"
@@ -1007,8 +1006,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon2Ask_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Accept_hns::
 #if GERMAN
-	.string "Juhuu! Ich schenke dir zum\n"
-	.string "Dank ein Pokémon!\p"
+	.string "Juhuu! Ich schenke dir zum Dank ein\n"
+	.string "Pokémon!\p"
 	.string "War ein Witz! Aber ich werde mich\n"
 	.string "jetzt tatsächlich registrieren, okay?$"
 #else
@@ -1112,8 +1111,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon2Ask_hns::
 #if GERMAN
-	.string "kann, und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann.\p"
+	.string "kann, und ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann.\p"
 	.string "Was bleibt da noch zu sagen?\n"
 	.string "Los, komm! Mach schon!\p"
 	.string "Bitte! Ich flehe dich an!\n"
@@ -1239,8 +1238,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon2Ask_hns::
 #if GERMAN
-	.string "kann, und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann.\p"
+	.string "kann, und ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann.\p"
 	.string "Ich bin sehr zufrieden und zu-\n"
 	.string "versichtlich. Bilden wir ein Team?$"
 #else
@@ -1333,8 +1332,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassIntro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon1_hns::
 #if GERMAN
-	.string "Ich habe ein {STR_VAR_2}, das\n"
-	.string "{STR_VAR_1} kann, und ein$"
+	.string "Ich habe ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann, und ein$"
 #else
 	.string "What I have are one {STR_VAR_2}\n"
 	.string "that uses {STR_VAR_1} and one$"
@@ -1437,8 +1436,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon2Ask_hns::
 #if GERMAN
-	.string "kann, und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann!\p"
+	.string "kann, und ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann!\p"
 	.string "Na, hört sich das gut an? Sollen wir\n"
 	.string "mit dir ein Team bilden?$"
 #else
@@ -1467,8 +1466,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerReject_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyIntro_hns::
 #if GERMAN
-	.string "Hallo! Ich bin {STR_VAR_1},\n"
-	.string "eine wahre Schönheit!$"
+	.string "Hallo! Ich bin {STR_VAR_1}, eine wahre\n"
+	.string "Schönheit!$"
 #else
 	.string "Hello!\n"
 	.string "I'm {STR_VAR_1}, and I'm a BEAUTY!$"
@@ -1485,8 +1484,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon2Ask_hns::
 #if GERMAN
-	.string "kann, und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann!\p"
+	.string "kann, und ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann!\p"
 	.string "Was meinst du? Möchtest du mit mir ein\n"
 	.string "Team bilden?$"
 #else
@@ -1528,8 +1527,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanIntro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon1_hns::
 #if GERMAN
-	.string "Mein Team: ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann, und$"
+	.string "Mein Team: ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann, und$"
 #else
 	.string "I've got with me a team of one\n"
 	.string "{STR_VAR_1}-using {STR_VAR_2} and$"
@@ -1537,8 +1536,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon2Ask_hns::
 #if GERMAN
-	.string "ein {STR_VAR_2}, das {STR_VAR_1}\n"
-	.string "kann!\p"
+	.string "ein {STR_VAR_2}, das {STR_VAR_1} kann!\p"
 	.string "Wie sieht’s aus? Interesse, mit\n"
 	.string "uns ein Team zu bilden?$"
 #else
@@ -1577,8 +1575,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyIntro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon1_hns::
 #if GERMAN
-	.string "Mich begleitet ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann, und$"
+	.string "Mich begleitet ein {STR_VAR_2}, das\n"
+	.string "{STR_VAR_1} kann, und$"
 #else
 	.string "I am accompanied by a team of\n"
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
@@ -1586,8 +1584,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon2Ask_hns::
 #if GERMAN
-	.string "ein {STR_VAR_2}, das {STR_VAR_1}\n"
-	.string "kann. Ich hoffe, wir erfüllen deine\p"
+	.string "ein {STR_VAR_2}, das {STR_VAR_1} kann. Ich\n"
+	.string "hoffe, wir erfüllen deine\p"
 	.string "Erwartungen, denn ich würde gerne\n"
 	.string "an deiner Seite kämpfen.$"
 #else
@@ -1742,8 +1740,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon2Ask_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMAccept_hns::
 #if GERMAN
-	.string "Vielen Dank! Ich werde mich\n"
-	.string "um die Registrierung kümmern.$"
+	.string "Vielen Dank! Ich werde mich um die\n"
+	.string "Registrierung kümmern.$"
 #else
 	.string "Thank you very much!\n"
 	.string "I'll get done with the registration.$"
@@ -1842,8 +1840,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon2Ask_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltAccept_hns::
 #if GERMAN
-	.string "Kiyaii! Ich werde mich um\n"
-	.string "die Registrierung kümmern.$"
+	.string "Kiyaii! Ich werde mich um die\n"
+	.string "Registrierung kümmern.$"
 #else
 	.string "Hiyah!\n"
 	.string "I will go register forthwith!$"
@@ -1943,8 +1941,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacAccept_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacReject_hns::
 #if GERMAN
-	.string "Und wir wären so gerne deine\n"
-	.string "Partner geworden…$"
+	.string "Und wir wären so gerne deine Partner\n"
+	.string "geworden…$"
 #else
 	.string "I so longed to join you…$"
 #endif
@@ -2019,8 +2017,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon2Ask_hns::
 #if GERMAN
-	.string "und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann!\p"
+	.string "und ein {STR_VAR_2}, das {STR_VAR_1} kann!\p"
 	.string "Nun?\n"
 	.string "Sollen wir ein Team mit dir bilden?$"
 #else
@@ -2069,8 +2066,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon2Ask_hns::
 #if GERMAN
-	.string "und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann.\p"
+	.string "und ein {STR_VAR_2}, das {STR_VAR_1} kann.\p"
 	.string "Nicht gerade unterste Schublade, nicht\n"
 	.string "wahr? Wir sollten ein Team bilden!$"
 #else
@@ -2106,8 +2102,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlIntro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon1_hns::
 #if GERMAN
-	.string "Ich habe ein {STR_VAR_2}, das\n"
-	.string "{STR_VAR_1} kann, und ein$"
+	.string "Ich habe ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann, und ein$"
 #else
 	.string "I've been toughening up one\n"
 	.string "{STR_VAR_1}-using {STR_VAR_2} and$"
@@ -2192,8 +2188,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMReject_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMIntro_hns::
 #if GERMAN
-	.string "Meinst du mich? Ich bin ein\n"
-	.string "Planscher und heiße {STR_VAR_1}!$"
+	.string "Meinst du mich? Ich bin ein Planscher\n"
+	.string "und heiße {STR_VAR_1}!$"
 #else
 	.string "Me?\n"
 	.string "I'm TUBER {STR_VAR_1}!$"
@@ -2210,8 +2206,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon2Ask_hns::
 #if GERMAN
-	.string "kann, und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann…\p"
+	.string "kann, und ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann…\p"
 	.string "Hey? Du und ich - wir bilden ein\n"
 	.string "Team, okay?$"
 #else
@@ -2308,8 +2304,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon2Ask_hns::
 #if GERMAN
-	.string "und meinem treuen {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann.\p"
+	.string "und meinem treuen {STR_VAR_2}, das\n"
+	.string "{STR_VAR_1} kann.\p"
 	.string "Darf ich dich fragen, ob wir mit dir im\n"
 	.string "Team Seite an Seite kämpfen dürfen?$"
 #else
@@ -2340,8 +2336,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanReject_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMIntro_hns::
 #if GERMAN
-	.string "Hallo! Ich bin {STR_VAR_1},\n"
-	.string "ein großer Pokéfan.$"
+	.string "Hallo! Ich bin {STR_VAR_1}, ein großer\n"
+	.string "Pokéfan.$"
 #else
 	.string "Hello, I'm {STR_VAR_1},\n"
 	.string "and I'm a POKéFAN.$"
@@ -2452,8 +2448,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon2Ask_hns::
 #if GERMAN
-	.string "kann, und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann.\p"
+	.string "kann, und ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann.\p"
 	.string "Möchtest du mit uns ein Team bilden?$"
 #else
 	.string "one {STR_VAR_2} with {STR_VAR_1}--\n"
@@ -2496,8 +2492,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon2Ask_hns::
 #if GERMAN
-	.string "ein {STR_VAR_2}, das {STR_VAR_1}\n"
-	.string "kann!\p"
+	.string "ein {STR_VAR_2}, das {STR_VAR_1} kann!\p"
 	.string "Was meinst du? Möchtest du mit uns\n"
 	.string "ein Team bilden?$"
 #else
@@ -2682,8 +2677,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon2Ask_hns::
 #if GERMAN
-	.string "kann, und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann.\p"
+	.string "kann, und ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann.\p"
 	.string "Alle selbst gefunden!!! Möchtest du mit\n"
 	.string "uns ein Team bilden?$"
 #else
@@ -2733,8 +2728,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon2Ask_hns::
 #if GERMAN
-	.string "kann, und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann!\p"
+	.string "kann, und ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann!\p"
 	.string "Natürlich kannst du so nicht Nein\n"
 	.string "sagen! Also? Sind wir ein Team?$"
 #else
@@ -2772,8 +2767,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorIntro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon1_hns::
 #if GERMAN
-	.string "Meine Juwelen! Ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann, und$"
+	.string "Meine Juwelen! Ein {STR_VAR_2}, das\n"
+	.string "{STR_VAR_1} kann, und$"
 #else
 	.string "The jewels in my collection are\n"
 	.string "my {STR_VAR_2} with {STR_VAR_1} and$"
@@ -2821,8 +2816,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMIntro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon1_hns::
 #if GERMAN
-	.string "Ich habe ein {STR_VAR_2}, das\n"
-	.string "{STR_VAR_1} kann, und ein$"
+	.string "Ich habe ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann, und ein$"
 #else
 	.string "Keeping me company are one\n"
 	.string "{STR_VAR_1}-using {STR_VAR_2} and$"
@@ -2964,8 +2959,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacIntro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon1_hns::
 #if GERMAN
-	.string "Ich habe ein {STR_VAR_2}, das\n"
-	.string "{STR_VAR_1} kann, und ein$"
+	.string "Ich habe ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann, und ein$"
 #else
 	.string "The POKéMON that I have with me are\n"
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
@@ -2993,8 +2988,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacAccept_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject_hns::
 #if GERMAN
-	.string "Hmm… Ich bin überzeugt,\n"
-	.string "meine Pokémon sind stark…$"
+	.string "Hmm… Ich bin überzeugt, meine Pokémon\n"
+	.string "sind stark…$"
 #else
 	.string "Hmm…\n"
 	.string "I think my POKéMON are tough…$"
@@ -3009,8 +3004,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1_hns::
 #if GERMAN
-	.string "Ich habe ein {STR_VAR_2}, das\n"
-	.string "{STR_VAR_1} kann, und ein$"
+	.string "Ich habe ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann, und ein$"
 #else
 	.string "The POKéMON I have right now are one\n"
 	.string "{STR_VAR_2} with {STR_VAR_1} and$"
@@ -3161,8 +3156,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon2Ask_hns::
 #if GERMAN
-	.string "kennt, und einem\n"
-	.string "{STR_VAR_2}, das {STR_VAR_1} kennt!\p"
+	.string "kennt, und einem {STR_VAR_2}, das\n"
+	.string "{STR_VAR_1} kennt!\p"
 	.string "Und was sagst du?\n"
 	.string "Sollen wir ein Team bilden?$"
 #else
@@ -3289,8 +3284,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMIntro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon1_hns::
 #if GERMAN
-	.string "Ich habe ein {STR_VAR_2}, das\n"
-	.string "{STR_VAR_1} kann, und ein$"
+	.string "Ich habe ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann, und ein$"
 #else
 	.string "The twosome I've been raising are\n"
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
@@ -3575,8 +3570,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask_hns::
 #if GERMAN
-	.string "kann, und ein {STR_VAR_2},\n"
-	.string "das {STR_VAR_1} kann.\p"
+	.string "kann, und ein {STR_VAR_2}, das {STR_VAR_1}\n"
+	.string "kann.\p"
 	.string "Und du und ich würden auch ein ganz\n"
 	.string "anständiges Team abgeben. Oder?$"
 #else
@@ -3612,8 +3607,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFIntro_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon1_hns::
 #if GERMAN
-	.string "Ein {STR_VAR_2}, das {STR_VAR_1}\n"
-	.string "kann, und ein$"
+	.string "Ein {STR_VAR_2}, das {STR_VAR_1} kann, und\n"
+	.string "ein$"
 #else
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 #endif
@@ -3651,8 +3646,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFReject_hns::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMIntro_hns::
 #if GERMAN
-	.string "Hallo! Ich bin {STR_VAR_1},\n"
-	.string "ein Schwimmer.$"
+	.string "Hallo! Ich bin {STR_VAR_1}, ein Schwimmer.$"
 #else
 	.string "Hi, there! Hello!\n"
 	.string "I'm {STR_VAR_1}, and I'm a SWIMMER!$"

@@ -224,8 +224,7 @@ OlivineCity_Gym_Text_GymGuideText:
 #if GERMAN
 	.string "Jasmin setzt den neu entdeckten\n"
 	.string "Typ Stahl ein.\p"
-	.string "Sie ist für gleich zwei Asse\n"
-	.string "bekannt.\p"
+	.string "Sie ist für gleich zwei Asse bekannt.\p"
 	.string "Das erste ist ein Metallkäfer, der\n"
 	.string "seinen Angriff steigern kann.\p"
 	.string "Feuer setzt ihm zu, doch manchmal\n"
@@ -256,8 +255,8 @@ OlivineCity_Gym_Text_GymGuideWinText:
 #if GERMAN
 	.string "Das war großartig!\p"
 	.string "Der Typ Stahl, was?\p"
-	.string "Das war eine unheimliche\n"
-	.string "Begegnung der unbekannten Art.$"
+	.string "Das war eine unheimliche Begegnung der\n"
+	.string "unbekannten Art.$"
 #else
 	.string "That was awesome.\p"
 	.string "The STEEL-type, huh?\p"
@@ -337,8 +336,7 @@ OlivineCity_Gym_EventScript_Jasmine_Defeated::
 
 OlivineCity_Gym_Text_JasmineSteelTypeIntro:
 #if GERMAN
-	.string "…Danke für deine Hilfe am\n"
-	.string "Leuchtturm…\p"
+	.string "…Danke für deine Hilfe am Leuchtturm…\p"
 	.string "Aber das hier ist anders.\n"
 	.string "Darf ich mich vorstellen?\p"
 	.string "Ich bin Jasmin, Arenaleiterin.\p"
@@ -415,8 +413,8 @@ OlivineCity_Gym_Text_JasmineRematchText:
 #if GERMAN
 	.string "…Glückwunsch, Johto Champion.\p"
 	.string "Du bist so stark geworden…\p"
-	.string "Ich frage mich, ob ich mich\n"
-	.string "verbessert habe.\p"
+	.string "Ich frage mich, ob ich mich verbessert\n"
+	.string "habe.\p"
 	.string "Willst du es testen?\p"
 	.string "Willst du ein Rematch mit mir?$"
 #else

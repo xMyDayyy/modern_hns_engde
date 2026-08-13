@@ -60,8 +60,8 @@ CeladonCity_Restaurant_Text_OftenGoToDrugstore::
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
 #if GERMAN
-	.string "Pst! Unter der Spielhalle\n"
-	.string "befindet sich ein Keller!$"
+	.string "Pst! Unter der Spielhalle befindet sich\n"
+	.string "ein Keller!$"
 #else
 	.string "Psst! There's a basement under the\n"
 	.string "GAME CORNER, I hear.$"
@@ -97,8 +97,7 @@ CeladonCity_Restaurant_Text_TakeThisImBusted::
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "einen Münzkorb!$"
+	.string "{PLAYER} erhält einen Münzkorb!$"
 #else
 	.string "{PLAYER} received a COIN CASE\n"
 	.string "from the man.$"

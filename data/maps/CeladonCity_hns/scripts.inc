@@ -135,8 +135,8 @@ CeladonCity_Text_Gramps2:
 CeladonCity_Text_Youngster1:
 #if GERMAN
 	.string "Willst du ein Geheimnis wissen?\p"
-	.string "Die Prismania-Villa hat eine\n"
-	.string "versteckte Hintertür.$"
+	.string "Die Prismania-Villa hat eine versteckte\n"
+	.string "Hintertür.$"
 #else
 	.string "Want to know a secret?\p"
 	.string "CELADON MANSION has a hidden back\n"

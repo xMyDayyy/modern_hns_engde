@@ -61,8 +61,8 @@ PewterCity_PokemonCenter_EventScript_TradeCompleted::
 
 PewterCity_PokemonCenter_Text_WantToTrade:
 #if GERMAN
-	.string "Ich suche auf meinen Reisen\n"
-	.string "ein gutes {STR_VAR_1}.\p"
+	.string "Ich suche auf meinen Reisen ein gutes\n"
+	.string "{STR_VAR_1}.\p"
 	.string "Möchtest du tauschen für ein\n"
 	.string "{STR_VAR_2}?$"
 #else

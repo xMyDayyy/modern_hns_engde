@@ -989,8 +989,8 @@ BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass_hns:
 
 BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine_hns:
 #if GERMAN
-	.string "Das Lossymbol erscheint\n"
-	.string "in einem goldenen Glanz!$"
+	.string "Das Lossymbol erscheint in einem\n"
+	.string "goldenen Glanz!$"
 #else
 	.string "The Luck Symbol took on\n"
 	.string "a golden shine!$"
@@ -1008,8 +1008,8 @@ BattleFrontier_BattlePikeRoomNormal_Text_IWontForget_hns:
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal_hns:
 #if GERMAN
 	.string "Ich heiße dich willkommen…\p"
-	.string "Kicher… Dein Glück scheint\n"
-	.string "dich verlassen zu haben…\p"
+	.string "Kicher… Dein Glück scheint dich\n"
+	.string "verlassen zu haben…\p"
 	.string "Hättest du dich nicht für diesen Raum\n"
 	.string "entschieden, wären deine Pokémon schon\l"
 	.string "längst wieder topfit…$"

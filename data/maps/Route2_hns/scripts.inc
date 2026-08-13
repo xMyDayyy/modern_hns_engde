@@ -55,8 +55,7 @@ Route2_EventScript_Nugget::
 
 Route2_Text_RobRegister:
 #if GERMAN
-    .string "Lass mich deine Nummer\n"
-    .string "eintragen!$"
+    .string "Lass mich deine Nummer eintragen!$"
 #else
 	.string "Let me get your number!$"
 #endif
@@ -81,8 +80,8 @@ Route2_Text_RobPostRematch:
 #if GERMAN
 	.string "Ich habe jedes Käfer-Pokémon in\n"
 	.string "Vertania City gefangen.\p"
-	.string "Gibt es irgendwo einen noch\n"
-	.string "besseren Wald?$"
+	.string "Gibt es irgendwo einen noch besseren\n"
+	.string "Wald?$"
 #else
 	.string "I caught every bug in VIRIDIAN.\n"
 	.string "Is there a better FOREST somewhere?$"
@@ -106,8 +105,8 @@ Route2_Text_BugCatcherRob_Beaten:
 
 Route2_Text_BugCatcherRob_AfterBattle:
 #if GERMAN
-	.string "Ich werde mir stärkere\n"
-	.string "Käfer-Pokémon suchen!$"
+	.string "Ich werde mir stärkere Käfer-Pokémon\n"
+	.string "suchen!$"
 #else
 	.string "I'm going to look for stronger bug\n"
 	.string "POKéMON.$"
@@ -140,8 +139,8 @@ Route2_Text_BugCatcherEd_AfterBattle:
 
 Route2_Text_BugCatcherDoug_Seen:
 #if GERMAN
-	.string "Warum mögen Mädchen\n"
-	.string "keine Käfer-Pokémon?$"
+	.string "Warum mögen Mädchen keine\n"
+	.string "Käfer-Pokémon?$"
 #else
 	.string "Why don't girls like bug POKéMON?$"
 #endif

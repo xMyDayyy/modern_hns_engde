@@ -124,8 +124,7 @@ Route12_FishingHouse_Text_TakeThisAndFish::
 
 Route12_FishingHouse_Text_ReceivedSuperRod::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "eine Superangel!$"
+	.string "{PLAYER} erhält eine Superangel!$"
 #else
 	.string "{PLAYER} received a SUPER ROD from\n"
 	.string "the FISHING GURU's brother.$"
@@ -249,8 +248,8 @@ Route12_FishingHouse_Text_HmmXInchesDoesntMeasureUp::
 
 Route12_FishingHouse_Text_DoesntLookLikeMagikarp::
 #if GERMAN
-	.string "Uh… das sieht gar nicht\n"
-	.string "wie ein Karpador aus!$"
+	.string "Uh… das sieht gar nicht wie ein Karpador\n"
+	.string "aus!$"
 #else
 	.string "Uh… That doesn't look much like\n"
 	.string "a MAGIKARP.$"
@@ -269,8 +268,8 @@ Route12_FishingHouse_Text_NoRoomForGift::
 
 Route12_FishingHouse_Text_MostGiganticMagikarpXInches::
 #if GERMAN
-	.string "Das größte Karpador, das\n"
-	.string "ich je sah, hatte…\p"
+	.string "Das größte Karpador, das ich je sah,\n"
+	.string "hatte…\p"
 	.string "{STR_VAR_3} cm!$"
 #else
 	.string "The most gigantic MAGIKARP\n"
@@ -281,8 +280,8 @@ Route12_FishingHouse_Text_MostGiganticMagikarpXInches::
 Route12_FishingHouse_Text_BlankChartOfSomeSort::
 #if GERMAN
 	.string "Es ist eine leere Tabelle!\p"
-	.string "Man kann darin irgendwelche\n"
-	.string "Rekorde auflisten!$"
+	.string "Man kann darin irgendwelche Rekorde\n"
+	.string "auflisten!$"
 #else
 	.string "It's a blank chart of some sort.\p"
 	.string "It has spaces for writing in\n"

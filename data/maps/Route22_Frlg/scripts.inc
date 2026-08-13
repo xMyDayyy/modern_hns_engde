@@ -242,8 +242,8 @@ Route22_Text_EarlyRivalIntro::
 	.string "einmal einen Orden!\p"
 	.string "Die Wache wird dich gar nicht erst\n"
 	.string "durchlassen!\p"
-	.string "Ach, sind deine Pokémon\n"
-	.string "eigentlich stärker geworden?$"
+	.string "Ach, sind deine Pokémon eigentlich\n"
+	.string "stärker geworden?$"
 #else
 	.string "{RIVAL}: Hey! {PLAYER}!\p"
 	.string "You're off to the POKéMON LEAGUE?\n"

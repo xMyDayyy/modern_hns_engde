@@ -519,8 +519,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer:
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent:
 #if GERMAN
-	.string "Referee: Der Sieger heißt\n"
-	.string "{STR_VAR_1}!$"
+	.string "Referee: Der Sieger heißt {STR_VAR_1}!$"
 #else
 	.string "REFEREE: The winner is {STR_VAR_1}!$"
 #endif
@@ -628,8 +627,8 @@ BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
 	.string "Verehrter Herausforderer!\p"
 	.string "Deine Fähigkeiten sind einfach\n"
 	.string "atemberaubend!\p"
-	.string "Wir möchten dir nun unseren\n"
-	.string "Ringmeister vorstellen!$"
+	.string "Wir möchten dir nun unseren Ringmeister\n"
+	.string "vorstellen!$"
 #else
 	.string "My dear challenger!\p"
 	.string "Your skill level is truly astounding!\p"
@@ -659,8 +658,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger:
 #if GERMAN
 	.string "Greta: Hey!\n"
 	.string "Wie geht’s?\p"
-	.string "Warte mal… Bist du mein\n"
-	.string "Herausforderer?$"
+	.string "Warte mal… Bist du mein Herausforderer?$"
 #else
 	.string "GRETA: Hey!\n"
 	.string "Howdy!\p"
@@ -681,8 +679,8 @@ BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
 	.string "Wie soll ich sagen…\n"
 	.string "Ich bin mal direkt: Du machst einen\l"
 	.string "ziemlich schwachen Eindruck!\p"
-	.string "Du willst wirklich gegen mich\n"
-	.string "antreten? Hmmm…\p"
+	.string "Du willst wirklich gegen mich antreten?\n"
+	.string "Hmmm…\p"
 	.string "Okay, na gut!\n"
 	.string "Wir können es ja langsam angehen.$"
 #else

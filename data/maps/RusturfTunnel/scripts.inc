@@ -485,8 +485,8 @@ RusturfTunnel_Text_GruntTakePackage:
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
 #if GERMAN
-	.string "Pecko! Bin ich froh, dass du\n"
-	.string "unversehrt wieder bei mir bist.$"
+	.string "Pecko! Bin ich froh, dass du unversehrt\n"
+	.string "wieder bei mir bist.$"
 #else
 	.string "PEEKO!\n"
 	.string "Am I glad to see you're safe!$"

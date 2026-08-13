@@ -567,8 +567,7 @@ Route111_EventScript_TrainerHillSign::
 
 Route111_Text_BattleOurFamily:
 #if GERMAN
-	.string "Hallo! Ich hab’s, du bist ein\n"
-	.string "Reisender. \p"
+	.string "Hallo! Ich hab’s, du bist ein Reisender.\p"
 	.string "Was hältst du davon? Du trittst mit\n"
 	.string "deinen Pokémon gegen alle vier\l"
 	.string "Familienmitglieder hintereinander an?$"
@@ -864,8 +863,7 @@ Route111_Text_MirageTowerHasntBeenSeenSince:
 
 Route111_Text_ClawFossilDisappeared:
 #if GERMAN
-	.string "Das Klauenfossil ist im Sand\n"
-	.string "versunken…$"
+	.string "Das Klauenfossil ist im Sand versunken…$"
 #else
 	.string "The CLAW FOSSIL disappeared into\n"
 	.string "the sand…$"
@@ -873,8 +871,7 @@ Route111_Text_ClawFossilDisappeared:
 
 Route111_Text_RootFossilDisappeared:
 #if GERMAN
-	.string "Das Wurzelfossil ist im Sand\n"
-	.string "versunken…$"
+	.string "Das Wurzelfossil ist im Sand versunken…$"
 #else
 	.string "The ROOT FOSSIL disappeared into\n"
 	.string "the sand…$"

@@ -875,8 +875,8 @@ Text_DreamEaterDeclined::
 
 Text_DreamEaterWhichMon::
 #if GERMAN
-	.string "Welches Pokémon soll\n"
-	.string "Traumfresser erlernen?$"
+	.string "Welches Pokémon soll Traumfresser\n"
+	.string "erlernen?$"
 #else
 	.string "Which POKéMON wants to learn\n"
 	.string "DREAM EATER?$"
@@ -1095,8 +1095,8 @@ PewterCity_Text_SwitchedShoesWithRunningShoes::
 
 PewterCity_Text_ExplainRunningShoes::
 #if GERMAN
-	.string "Drücke den B-Knopf, um zu\n"
-	.string "rennen. Aber nur, wenn Platz ist!$"
+	.string "Drücke den B-Knopf, um zu rennen. Aber\n"
+	.string "nur, wenn Platz ist!$"
 #else
 	.string "Press the B Button to run.\n"
 	.string "But only where there's room to run!$"

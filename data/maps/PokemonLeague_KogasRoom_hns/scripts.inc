@@ -54,8 +54,7 @@ PokemonLeague_KogasRoom_EventScript_KogaDefeated::
 PokemonLeague_KogasRoom_Text_RematchBefore:
 #if GERMAN
 	.string "Koga: Fwahahahaha!\p"
-	.string "Du bist zurück, mutiger\n"
-	.string "Herausforderer.\p"
+	.string "Du bist zurück, mutiger Herausforderer.\p"
 	.string "Meine Ninja-Fähigkeiten haben sich\n"
 	.string "weiter geschärft.\p"
 	.string "Neue heimtückische Fallen erwarten\n"

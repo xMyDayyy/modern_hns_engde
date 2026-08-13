@@ -12,8 +12,8 @@ Route3_EventScript_RouteSign::
 Route3_Text_TunnelFromCeruleanTiring::
 #if GERMAN
 	.string "Puh! Ich muss eine Pause machen!\p"
-	.string "Der Weg durch den Tunnel aus\n"
-	.string "Azuria City ist sehr beschwerlich!$"
+	.string "Der Weg durch den Tunnel aus Azuria\n"
+	.string "City ist sehr beschwerlich!$"
 #else
 	.string "Whew… I better take a rest…\n"
 	.string "Groan…\p"
@@ -184,8 +184,7 @@ Route3_Text_CalvinPostBattle::
 
 Route3_Text_JamesIntro::
 #if GERMAN
-	.string "Meine neuen Pokémon wollen\n"
-	.string "kämpfen!$"
+	.string "Meine neuen Pokémon wollen kämpfen!$"
 #else
 	.string "I'll battle you with the POKéMON\n"
 	.string "I just caught.$"

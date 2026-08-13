@@ -263,8 +263,7 @@ Route128_Text_ArchieIOnlyWanted:
 
 Route128_Text_MaxieDoYouUnderstandNow:
 #if GERMAN
-	.string "Marc: Begreifst du es nun,\n"
-	.string "Adrian?\p"
+	.string "Marc: Begreifst du es nun, Adrian?\p"
 	.string "Begreifst du nun die schrecklichen\n"
 	.string "Folgen deines katastrophalen Traums?\p"
 	.string "Wir müssen uns beeilen! Wir müssen\n"
@@ -340,8 +339,8 @@ Route128_Text_StevenWholeWorldWillDrown:
 	.string "Was in aller Welt passiert da nur?\p"
 	.string "Aber wir sollten hier nicht die Zeit\n"
 	.string "mit Reden vertun…\p"
-	.string "In Xeneroville bekommen wir\n"
-	.string "hoffentlich Antworten…$"
+	.string "In Xeneroville bekommen wir hoffentlich\n"
+	.string "Antworten…$"
 #else
 	.string "This is terrible…\p"
 	.string "After the scorching heat wave ended,\n"

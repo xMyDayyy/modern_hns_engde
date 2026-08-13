@@ -117,8 +117,7 @@ MtPyre_2F_Text_LukePostBattle:
 #if GERMAN
 	.string "Leif: Wir haben verloren, aber das macht\n"
 	.string "nichts! Solange ich nur bei ihr bin.\p"
-	.string "Wir\n"
-	.string "werden diese Mutprobe bestehen!$"
+	.string "Wir werden diese Mutprobe bestehen!$"
 #else
 	.string "LUKE: Well, we lost but that's okay!\n"
 	.string "I'm right here by your side.\l"

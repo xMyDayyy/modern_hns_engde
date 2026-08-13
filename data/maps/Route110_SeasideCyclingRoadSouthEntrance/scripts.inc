@@ -38,8 +38,8 @@ Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad::
 
 Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad:
 #if GERMAN
-	.string "Auf dem Radweg kannst du so\n"
-	.string "schnell fahren, wie du willst.\p"
+	.string "Auf dem Radweg kannst du so schnell\n"
+	.string "fahren, wie du willst.\p"
 	.string "Schnell fahren macht Spaß, pass aber\n"
 	.string "auf, dass du mit niemandem\l"
 	.string "zusammenstößt.$"

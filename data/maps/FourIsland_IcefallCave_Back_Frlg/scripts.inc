@@ -291,8 +291,8 @@ FourIsland_IcefallCave_Back_Text_NotTellingYouThat::
 
 FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou::
 #if GERMAN
-	.string "Lorelei: Falls du es mir nicht\n"
-	.string "sagst, werden wir dich einfrieren.\p"
+	.string "Lorelei: Falls du es mir nicht sagst,\n"
+	.string "werden wir dich einfrieren.\p"
 	.string "Mein Lapras ist außer sich für das, was\n"
 	.string "ihr seinen Artgenossen angetan habt!\l"
 	.string "Los, Lapras!\l"

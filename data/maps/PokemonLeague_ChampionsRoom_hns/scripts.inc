@@ -313,8 +313,8 @@ PokemonLeague_ChampionsRoom_Text_RematchBattleIntro:
 #if GERMAN
 	.string "Siegfried: Willkommen zurück!\p"
 	.string "Du hast dich in Johto bewährt\p"
-	.string "und alle 8 Orden errungen,\n"
-	.string "sogar mich einst besiegt.\p"
+	.string "und alle 8 Orden errungen, sogar mich\n"
+	.string "einst besiegt.\p"
 	.string "Doch jetzt spielst du ganz oben.\p"
 	.string "In der großen Liga.\p"
 	.string "Der Kanto-liga!\p"
@@ -327,8 +327,8 @@ PokemonLeague_ChampionsRoom_Text_RematchBattleIntro:
 	.string "Bist du bereit für diese neue\n"
 	.string "Herausforderung?\p"
 	.string "Willst du dich erneut beweisen?\p"
-	.string "Zeig mir die Stärke,\n"
-	.string "die Johto erobert hat,\p"
+	.string "Zeig mir die Stärke, die Johto erobert\n"
+	.string "hat,\p"
 	.string "Champion.$"
 #else
     .string "LANCE: Welcome back!\p"
@@ -355,16 +355,15 @@ PokemonLeague_ChampionsRoom_Text_RematchBattleIntro:
 
 PokemonLeague_ChampionsRoom_Text_BattleIntro:
 #if GERMAN
-	.string "Siegfried: Ich habe auf dich\n"
-	.string "gewartet.\p"
+	.string "Siegfried: Ich habe auf dich gewartet.\p"
 	.string "{PLAYER}!\p"
 	.string "Ich wusste, dass du mit deinem\n"
 	.string "Können eines Tages hier stehst.\p"
 	.string "Jetzt braucht es keine Worte.\p"
-	.string "Wir kämpfen um zu sehen,\n"
-	.string "wer von uns der Stärkere ist.\p"
-	.string "Als mächtigster Trainer und\n"
-	.string "als Champion der Pokémon-Liga…\p"
+	.string "Wir kämpfen um zu sehen, wer von uns der\n"
+	.string "Stärkere ist.\p"
+	.string "Als mächtigster Trainer und als\n"
+	.string "Champion der Pokémon-Liga…\p"
 	.string "ich, Siegfried, der Drachenmeister,\n"
 	.string "nehme deine Herausforderung an!$"
 #else
@@ -431,8 +430,8 @@ PokemonLeague_ChampionsRoom_Text_OakCongratulations:
 	.string "Prof. Eich: Ah, {PLAYER}!\p"
 	.string "Es ist lange her.\p"
 	.string "Du wirkst sehr beeindruckend.\p"
-	.string "Dein Sieg in der Johto-Liga\n"
-	.string "ist wirklich fantastisch!\p"
+	.string "Dein Sieg in der Johto-Liga ist wirklich\n"
+	.string "fantastisch!\p"
 	.string "Dein Einsatz, Vertrauen und deine Liebe\n"
 	.string "zu Pokémon haben das möglich gemacht.\p"
 	.string "Auch deine Pokémon waren großartig.\p"
@@ -461,8 +460,8 @@ PokemonLeague_ChampionsRoom_Text_RematchOakCongratulations:
 	.string "seit Prof. Lind dich losschickte.\p"
 	.string "Du bist noch beeindruckender\n"
 	.string "geworden.\p"
-	.string "Johto und nun auch Kanto zu\n"
-	.string "bezwingen ist keine Kleinigkeit.\p"
+	.string "Johto und nun auch Kanto zu bezwingen\n"
+	.string "ist keine Kleinigkeit.\p"
 	.string "Du hast dich selbst übertroffen!\p"
 	.string "Deine Pokémon vertrauen dir sehr, und\n"
 	.string "dieses Vertrauen ist die Grundlage\l"
@@ -471,8 +470,7 @@ PokemonLeague_ChampionsRoom_Text_RematchOakCongratulations:
 	.string "Die Reise eines Trainers endet nie.\p"
 	.string "Wenn du Zeit hast, besuche mich\n"
 	.string "in meinem Labor.\p"
-	.string "Ich möchte etwas mit dir\n"
-	.string "besprechen.\p"
+	.string "Ich möchte etwas mit dir besprechen.\p"
 	.string "Glückwunsch zu deinem Sieg,\p"
 	.string "{PLAYER}!$"
 #else
@@ -515,8 +513,7 @@ PokemonLeague_ChampionsRoom_Text_RematchMaryInterview:
 
 PokemonLeague_ChampionsRoom_Text_Noisy:
 #if GERMAN
-	.string "Siegfried: Es wird mir etwas\n"
-	.string "zu laut…\p"
+	.string "Siegfried: Es wird mir etwas zu laut…\p"
 	.string "{PLAYER}, komm bitte mit mir.$"
 #else
     .string "LANCE: This is getting to be a bit\n"

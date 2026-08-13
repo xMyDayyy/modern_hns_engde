@@ -313,8 +313,8 @@ NewSinjoh_EventScript_OldLady2Steven::
 
 NewSinjoh_Text_OldLady2:
 #if GERMAN
-	.string "Na toll, jetzt belegen diese\n"
-	.string "Touristen unsere heißen Quellen!\p"
+	.string "Na toll, jetzt belegen diese Touristen\n"
+	.string "unsere heißen Quellen!\p"
 	.string "In letzter Zeit kommt wirklich eine\n"
 	.string "Plage nach der anderen!$"
 #else
@@ -338,10 +338,10 @@ NewSinjoh_EventScript_OldLady3After::
 
 NewSinjoh_Text_OldLady3:
 #if GERMAN
-	.string "Wie kann diese Frau nur so\n"
-	.string "unhöflich zu unseren Gästen sein?\p"
-	.string "Sie sollte selbst mal in den\n"
-	.string "Quellen baden.\p"
+	.string "Wie kann diese Frau nur so unhöflich zu\n"
+	.string "unseren Gästen sein?\p"
+	.string "Sie sollte selbst mal in den Quellen\n"
+	.string "baden.\p"
 	.string "Es ist doch genug Platz für alle da.$"
 #else
 	.string "How can that woman\n"
@@ -431,8 +431,8 @@ NewSinjoh_EventScript_Mother::
 
 NewSinjoh_Text_Mother:
 #if GERMAN
-	.string "Sieh nur, wie süß mein Schatz\n"
-	.string "seine Runden dreht!\p"
+	.string "Sieh nur, wie süß mein Schatz seine\n"
+	.string "Runden dreht!\p"
 	.string "Diese Eisbahn gibt es seit\n"
 	.string "Generationen, aber die Kinder haben sie\l"
 	.string "nie genutzt, bis die Neuankömmlinge\l"

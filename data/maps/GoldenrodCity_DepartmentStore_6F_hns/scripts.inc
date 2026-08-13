@@ -58,8 +58,8 @@ GoldenrodCity_DepartmentStore_6F_Text_YouWillTradeWontYou:
 #if GERMAN
 	.string "Ich sammele Pokémon!\n"
 	.string "Hast du ein {STR_VAR_1}?\p"
-	.string "Möchtest du es gegen\n"
-	.string "mein {STR_VAR_2} tauschen?$"
+	.string "Möchtest du es gegen mein {STR_VAR_2}\n"
+	.string "tauschen?$"
 #else
 	.string "I collect POKéMON!\n"
 	.string "Do you have a {STR_VAR_1}?\p"
@@ -129,8 +129,8 @@ GoldenrodDeptStore6_EventScript_Sign::
 GoldenrodDeptStore_Text_6FLass:
 #if GERMAN
 	.string "Hörst du den Glückskanal?\p"
-	.string "Möchtest du gewinnen,\n"
-	.string "tausche Pokémon mit so vielen\p"
+	.string "Möchtest du gewinnen, tausche Pokémon\n"
+	.string "mit so vielen\p"
 	.string "Leuten wie möglich, um verschiedene\n"
 	.string "ID-Nummern zu erhalten.$"
 #else

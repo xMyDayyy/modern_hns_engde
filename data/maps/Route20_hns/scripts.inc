@@ -92,8 +92,8 @@ Route20_Text_Dennis:
 
 Route20_Text_Headlocker:
 #if GERMAN
-	.string "Auf dieser Route gibt es ein\n"
-	.string "seltenes Pokémon.\p"
+	.string "Auf dieser Route gibt es ein seltenes\n"
+	.string "Pokémon.\p"
 	.string "Manchmal trägt es auch einen\n"
 	.string "seltenen Entwicklungsstein.\p"
 	.string "Doppelt selten also!\p"
@@ -166,8 +166,8 @@ Route20_Text_NicolePostRematch:
 
 Route20_Text_SwimmerfNicoleSeen:
 #if GERMAN
-	.string "Im Wasser fühle ich mich so\n"
-	.string "wunderbar leicht.$"
+	.string "Im Wasser fühle ich mich so wunderbar\n"
+	.string "leicht.$"
 #else
 	.string "I feel so much lighter in water.$"
 #endif

@@ -533,8 +533,8 @@ MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
 #if GERMAN
 	.string "Heiko: Oh… Wenn du nicht gegen mich\n"
 	.string "antreten willst, {PLAYER}, wird mein\p"
-	.string "Onkel\n"
-	.string "nie erkennen, wie stark ich schon bin.$"
+	.string "Onkel nie erkennen, wie stark ich schon\n"
+	.string "bin.$"
 #else
 	.string "WALLY: Oh… If you won't battle me,\n"
 	.string "{PLAYER}, my UNCLE won't know that I've\l"
@@ -751,8 +751,8 @@ MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "Der Eingang zu neu Malvenfroh ist eine\n"
 	.string "kurze Surf-Strecke von Route 110\l"
 	.string "entfernt.\p"
-	.string "Das ist alles. Du kannst mir\n"
-	.string "vertrauen! Wahahahahahaha!$"
+	.string "Das ist alles. Du kannst mir vertrauen!\n"
+	.string "Wahahahahahaha!$"
 #else
 	.string "WATTSON: Don't you worry about it.\n"
 	.string "It won't be a challenge to you.\p"
@@ -770,8 +770,7 @@ MauvilleCity_Text_WattsonThanksTakeTM:
 	.string "herausgepickt!\p"
 	.string "Hier, das ist mein Dankeschön - eine\n"
 	.string "TM, die Donnerblitz enthält!\p"
-	.string "Nimm! Du hast sie dir wirklich\n"
-	.string "verdient!$"
+	.string "Nimm! Du hast sie dir wirklich verdient!$"
 #else
 	.string "WATTSON: Wahahahaha!\p"
 	.string "I knew it, {PLAYER}{KUN}! I knew I'd made\n"

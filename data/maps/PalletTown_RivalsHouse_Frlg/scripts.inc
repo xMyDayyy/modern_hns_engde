@@ -200,8 +200,7 @@ PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "eine Karte!$"
+	.string "{PLAYER} erhält eine Karte!$"
 #else
 	.string "{PLAYER} received a TOWN MAP\n"
 	.string "from DAISY.$"
@@ -218,8 +217,8 @@ PalletTown_RivalsHouse_Text_DontHaveSpaceForThis::
 
 PalletTown_RivalsHouse_Text_ExplainTownMap::
 #if GERMAN
-	.string "Benutze die Karte, um deinen\n"
-	.string "Standort zu bestimmen.$"
+	.string "Benutze die Karte, um deinen Standort\n"
+	.string "zu bestimmen.$"
 #else
 	.string "You can use the TOWN MAP to find\n"
 	.string "out where you are, or check the\l"
@@ -228,10 +227,10 @@ PalletTown_RivalsHouse_Text_ExplainTownMap::
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
 #if GERMAN
-	.string "Sarah: Wie Menschen sind\n"
-	.string "Pokémon Lebewesen!\p"
-	.string "Wenn sie erschöpft sind,\n"
-	.string "brauchen sie eine Pause!$"
+	.string "Sarah: Wie Menschen sind Pokémon\n"
+	.string "Lebewesen!\p"
+	.string "Wenn sie erschöpft sind, brauchen sie\n"
+	.string "eine Pause!$"
 #else
 	.string "DAISY: Just like people, POKéMON\n"
 	.string "are living things.\p"
@@ -263,8 +262,8 @@ PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
 	.string "gerade dabei, Tee zu machen.\p"
 	.string "Hättest du auch gern eine Tasse\n"
 	.string "Tee?\p"
-	.string "Oh, deine Pokémon sehen ein\n"
-	.string "bisschen mitgenommen aus.\p"
+	.string "Oh, deine Pokémon sehen ein bisschen\n"
+	.string "mitgenommen aus.\p"
 	.string "Möchtest du, dass ich eines für\n"
 	.string "dich verschönere?$"
 #else
@@ -341,8 +340,8 @@ PalletTown_RivalsHouse_Text_CouldntLoveYouMore::
 #if GERMAN
 	.string "Es liebt dich über alles! Das ist\n"
 	.string "so wunderbar und toll!\p"
-	.string "Dein Pokémon könnte nicht\n"
-	.string "glücklicher sein!$"
+	.string "Dein Pokémon könnte nicht glücklicher\n"
+	.string "sein!$"
 #else
 	.string "It couldn't possibly love you\n"
 	.string "any more than it does now.\p"
@@ -407,8 +406,8 @@ PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou::
 
 PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch::
 #if GERMAN
-	.string "… äh, ich weiß nicht wie ich\n"
-	.string "es sagen soll, aber…\p"
+	.string "… äh, ich weiß nicht wie ich es sagen\n"
+	.string "soll, aber…\p"
 	.string "Gibt es einen Grund, warum dich\n"
 	.string "dein Pokémon so abgrundtief hasst?$"
 #else

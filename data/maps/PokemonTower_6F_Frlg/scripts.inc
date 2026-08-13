@@ -137,8 +137,7 @@ PokemonTower_6F_Text_GhostWasCubonesMother::
 PokemonTower_6F_Text_MothersSpiritWasCalmed::
 #if GERMAN
 	.string "Ihre Seele hat Frieden gefunden.\p"
-	.string "Sie ist in das Jenseits\n"
-	.string "eingekehrt...$"
+	.string "Sie ist in das Jenseits eingekehrt...$"
 #else
 	.string "The mother's spirit was calmed.\p"
 	.string "It departed to the afterlife…$"

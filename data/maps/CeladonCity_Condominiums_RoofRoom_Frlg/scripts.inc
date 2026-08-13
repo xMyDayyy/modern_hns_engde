@@ -183,8 +183,8 @@ CeladonCity_Condominiums_RoofRoom_Text_ExplainUnionRoom::
 	.string "kannst du in den Konnex-Klub gehen.\l"
 	.string "Das ist der linke Schalter im Pokémon\l"
 	.string "Drahtlosklub.\p"
-	.string "Im Konnex-Klub triffst\n"
-	.string "du andere Trainer.$"
+	.string "Im Konnex-Klub triffst du andere\n"
+	.string "Trainer.$"
 #else
 	.string "To link and communicate with\n"
 	.string "anyone, go to the UNION ROOM.\p"

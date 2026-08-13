@@ -105,8 +105,7 @@ ViridianCity_Mart_Text_TakeThisToProfOak::
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "Eichs Paket!$"
+	.string "{PLAYER} erhält Eichs Paket!$"
 #else
 	.string "{PLAYER} received OAK'S PARCEL\n"
 	.string "from the POKéMON MART clerk.$"
@@ -122,8 +121,7 @@ ViridianCity_Mart_Text_SayHiToOakForMe::
 
 ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
 #if GERMAN
-	.string "Dieser Laden führt viele\n"
-	.string "Gegengifte.$"
+	.string "Dieser Laden führt viele Gegengifte.$"
 #else
 	.string "This shop does good business in\n"
 	.string "ANTIDOTES, I've heard.$"

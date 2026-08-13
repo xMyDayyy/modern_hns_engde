@@ -52,8 +52,8 @@ SSAqua_B1F_Text_BarfCan:
 
 SSAqua_B1F_Text_FastShipOnDutySailor:
 #if GERMAN
-	.string "Hey, Kind. Kannst du nach\n"
-	.string "meinem Kumpel sehen?\p"
+	.string "Hey, Kind. Kannst du nach meinem Kumpel\n"
+	.string "sehen?\p"
 	.string "Er hängt irgendwo faul herum,\n"
 	.string "dieser faule Sack!\p"
 	.string "Ich würde ihn suchen, aber ich\n"
@@ -98,8 +98,8 @@ SSAqua_B1F_Text_FastShipOnDutySailorSawGirl:
 SSAqua_B1F_Text_FastShipOnDutySailorDirections:
 #if GERMAN
 	.string "Der Speisesaal ist geradeaus.\p"
-	.string "Die Treppen am\n"
-	.string "Ende führen in die Kapitänskajüte.$"
+	.string "Die Treppen am Ende führen in die\n"
+	.string "Kapitänskajüte.$"
 #else
 	.string "The dining room is up ahead.\p"
 	.string "The stairs at the end lead to\n"
@@ -122,8 +122,8 @@ SSAqua_B1F_Text_SailorJeffSeen:
 
 SSAqua_B1F_Text_SailorJeffBeaten:
 #if GERMAN
-	.string "Sieg oder Niederlage,\n"
-	.string "meine Pause ist vorüber!$"
+	.string "Sieg oder Niederlage, meine Pause ist\n"
+	.string "vorüber!$"
 #else
 	.string "Win or lose, my break's over!$"
 #endif
@@ -183,8 +183,7 @@ SSAqua_B1F_Text_JugglerFritzSeen:
 
 SSAqua_B1F_Text_JugglerFritzBeaten:
 #if GERMAN
-	.string "Ich kann mich\n"
-	.string "nicht mehr bewegen…$"
+	.string "Ich kann mich nicht mehr bewegen…$"
 #else
 	.string "I can't move anymore…$"
 #endif
@@ -206,8 +205,7 @@ SSAqua_B1F_EventScript_Garrett::
 
 SSAqua_B1F_Text_SailorGarrettSeen:
 #if GERMAN
-	.string "Hier arbeiten wir\n"
-	.string "Matrosen!$"
+	.string "Hier arbeiten wir Matrosen!$"
 #else
 	.string "This is where we sailors work!$"
 #endif
@@ -254,8 +252,7 @@ SSAqua_B1F_Text_FisherJonahBeaten:
 
 SSAqua_B1F_Text_FisherJonahAfter:
 #if GERMAN
-	.string "Ich werde am Kai von\n"
-	.string "Orania City angeln.$"
+	.string "Ich werde am Kai von Orania City angeln.$"
 #else
 	.string "I plan to fish off\n"
 	.string "VERMILION's pier.$"
@@ -289,8 +286,8 @@ SSAqua_B1F_Text_BlackbeltWaiAfter:
 #if GERMAN
 	.string "Ich konnte den Karate-Meister in\n"
 	.string "Johto nicht finden.\p"
-	.string "Er soll irgendwo in einer\n"
-	.string "Höhle trainieren…$"
+	.string "Er soll irgendwo in einer Höhle\n"
+	.string "trainieren…$"
 #else
 	.string "I couldn't find the KARATE KING\n"
 	.string "in JOHTO.\p"
@@ -316,16 +313,16 @@ SSAqua_B1F_Text_SailorKennethSeen:
 
 SSAqua_B1F_Text_SailorKennethBeaten:
 #if GERMAN
-	.string "Mein Trainingsrückstand\n"
-	.string "ist offensichtlich…$"
+	.string "Mein Trainingsrückstand ist\n"
+	.string "offensichtlich…$"
 #else
 	.string "My lack of training is obvious…$"
 #endif
 
 SSAqua_B1F_Text_SailorKennethAfter:
 #if GERMAN
-	.string "Acht Orden! Sie zeigen, dass\n"
-	.string "du die Arena-Leiter besiegt hast.\p"
+	.string "Acht Orden! Sie zeigen, dass du die\n"
+	.string "Arena-Leiter besiegt hast.\p"
 	.string "Kein Wunder, dass du so gut bist!$"
 #else
 	.string "Eight BADGES! They must prove\n"
@@ -341,8 +338,7 @@ SSAqua_B1F_EventScript_Shirley::
 
 SSAqua_B1F_Text_TeacherShirleySeen:
 #if GERMAN
-	.string "Lass die Finger\n"
-	.string "von meinen Schülern!$"
+	.string "Lass die Finger von meinen Schülern!$"
 #else
 	.string "Don't lay a finger on my\n"
 	.string "students!$"
@@ -399,8 +395,8 @@ SSAqua_B1F_EventScript_Ricky::
 
 SSAqua_B1F_Text_SchoolboyRickySeen:
 #if GERMAN
-	.string "In den Alph-Ruinen gibt es\n"
-	.string "mysteriöse Steinplatten.$"
+	.string "In den Alph-Ruinen gibt es mysteriöse\n"
+	.string "Steinplatten.$"
 #else
 	.string "There are some odd stone panels\n"
 	.string "in the RUINS OF ALPH.$"

@@ -80,11 +80,11 @@ VioletGym_Text_Falkner_Intro:
 
 VioletGym_Text_Falkner_WinLoss:
 #if GERMAN
-	.string "…Mist! Das wertvolle Vogel-\n"
-	.string "Pokémon meines Vaters…\p"
+	.string "…Mist! Das wertvolle Vogel-Pokémon\n"
+	.string "meines Vaters…\p"
 	.string "Hier, nimm das.\p"
-	.string "Es ist der offizielle\n"
-	.string "Flügelorden der Pokémon Liga.$"
+	.string "Es ist der offizielle Flügelorden der\n"
+	.string "Pokémon Liga.$"
 #else
 	.string "…Darn! My dad's cherished bird\n"
 	.string "POKéMON…\p"
@@ -159,8 +159,8 @@ VioletGym_Text_Falkner_Rematch:
 	.string "Top-vier!\p"
 	.string "Ich habe meine Vogel-Pokémon\n"
 	.string "noch härter trainiert.\p"
-	.string "Denkst du, du kannst erneut\n"
-	.string "die Kraft der Lüfte meistern?$"
+	.string "Denkst du, du kannst erneut die Kraft\n"
+	.string "der Lüfte meistern?$"
 #else
 	.string "Congratulations on defeating\n"
 	.string "the ELITE 4!\p"
@@ -173,8 +173,8 @@ VioletGym_Text_Falkner_Rematch:
 VioletGym_Text_Falkner_RematchLoss:
 #if GERMAN
 	.string "Wow… Du hast mich wieder geschlagen.\p"
-	.string "Ich werde härter trainieren,\n"
-	.string "um der beste Vogel-Meister zu werden!$"
+	.string "Ich werde härter trainieren, um der\n"
+	.string "beste Vogel-Meister zu werden!$"
 #else
 	.string "Wow… You beat me again.\p"
 	.string "I'm going to train harder to\n"
@@ -204,8 +204,8 @@ VioletGym_Text_BirdKeeperRod_Beaten:
 VioletGym_Text_BirdKeeperRod_After:
 #if GERMAN
 	.string "Falkners Können ist groß!\p"
-	.string "Sei nicht überheblich,\n"
-	.string "nur weil du mich geschlagen hast!$"
+	.string "Sei nicht überheblich, nur weil du mich\n"
+	.string "geschlagen hast!$"
 #else
 	.string "FALKNER's skills are for real!\p"
 	.string "Don't get cocky just because\n"
@@ -245,10 +245,10 @@ VioletGym_Text_GymGuide_Intro:
 	.string "Dann pass auf.\p"
 	.string "Falkners Trumpf ist eine kräftige\n"
 	.string "Eule, die gern Beeren frisst.\p"
-	.string "Sie ist nicht die stärkste,\n"
-	.string "aber kann viel einstecken.\p"
-	.string "Wenn du mehr Tipps willst,\n"
-	.string "geh zur Pokémon-Akademie.\p"
+	.string "Sie ist nicht die stärkste, aber kann\n"
+	.string "viel einstecken.\p"
+	.string "Wenn du mehr Tipps willst, geh zur\n"
+	.string "Pokémon-Akademie.\p"
 	.string "Die Schüler dort kennen sich richtig\n"
 	.string "gut aus!$"
 #else

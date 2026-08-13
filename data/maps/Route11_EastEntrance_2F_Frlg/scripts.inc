@@ -122,8 +122,7 @@ Route11_EastEntrance_2F_Text_GreatHereYouGo::
 
 Route11_EastEntrance_2F_Text_ReceivedItemfinderFromAide::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "{STR_VAR_2}!$"
+	.string "{PLAYER} erhält {STR_VAR_2}!$"
 #else
 	.string "{PLAYER} received the {STR_VAR_2}\n"
 	.string "from the AIDE.$"
@@ -135,8 +134,8 @@ Route11_EastEntrance_2F_Text_ExplainItemfinder::
 	.string "die man nicht sehen kann.\p"
 	.string "Der Detektor spürt Items in deiner\n"
 	.string "Nähe auf!\p"
-	.string "Allerdings ortet er nicht die\n"
-	.string "exakte Position!\p"
+	.string "Allerdings ortet er nicht die exakte\n"
+	.string "Position!\p"
 	.string "Er zeigt nur in die Richtung, wo\n"
 	.string "das Item liegt.\p"
 	.string "Benutze ihn, um dich zu orientieren\n"

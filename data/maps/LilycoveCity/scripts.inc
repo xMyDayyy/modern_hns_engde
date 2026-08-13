@@ -788,8 +788,7 @@ LilycoveCity_Text_ContestHallInTown:
 	.string "Und das bedeutet, dass gut\n"
 	.string "aufgezogene Pokémon aus dem ganzen\l"
 	.string "Land zu sehen sind.\p"
-	.string "Mein Herz strömt über vor\n"
-	.string "Begeisterung!$"
+	.string "Mein Herz strömt über vor Begeisterung!$"
 #else
 	.string "There's a POKéMON CONTEST HALL\n"
 	.string "right in this here town. \p"
@@ -1171,8 +1170,7 @@ LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "Daher waren wir auch total glücklich,\n"
 	.string "als wir gleich nach unserer Ankunft\l"
 	.string "dieses Pokémon zu Gesicht bekamen.\p"
-	.string "Ich meine, wir waren wirklich\n"
-	.string "glücklich!$"
+	.string "Ich meine, wir waren wirklich glücklich!$"
 #else
 	.string "On our honeymoon, we vowed to see as\n"
 	.string "many rare POKéMON as we can.\p"

@@ -615,8 +615,8 @@ Alola_MeleMele_TapuKoko_Flyover_Movement_0:
 Alola_Melemele_GetOffBoat_Text_0:
 #if GERMAN
 	.string "Willkommen zurück auf den Inseln!\p"
-	.string "Komm wieder her, wenn du zum\n"
-	.string "Festland nach Kanto reisen willst!$"
+	.string "Komm wieder her, wenn du zum Festland\n"
+	.string "nach Kanto reisen willst!$"
 #else
 	.string "Welcome back to the Isles!\p"
 	.string "Come back if you'd like to take a trip\n"
@@ -937,8 +937,8 @@ Alola_Melemele_Picnicker_Text_0:
 #if GERMAN
 	.string "Diese Inseln stecken voller\n"
 	.string "einzigartiger Pokémon!\p"
-	.string "Ich muss mich mit Pokébällen\n"
-	.string "eindecken, um sie alle zu fangen!$"
+	.string "Ich muss mich mit Pokébällen eindecken,\n"
+	.string "um sie alle zu fangen!$"
 #else
 	.string "These Isles are chock full of unique\n"
 	.string "Pokémon!\p"

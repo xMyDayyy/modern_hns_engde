@@ -281,8 +281,8 @@ PokemonTower_7F_Text_Grunt2PostBattle::
 #if GERMAN
 	.string "Pokémon sind nur zum Geldverdienen\n"
 	.string "gut!\p"
-	.string "Halte dich aus unseren\n"
-	.string "Angelegenheiten heraus!$"
+	.string "Halte dich aus unseren Angelegenheiten\n"
+	.string "heraus!$"
 #else
 	.string "POKéMON are only good for making\n"
 	.string "money. Why not use them?\p"
@@ -306,8 +306,7 @@ PokemonTower_7F_Text_Grunt3Defeat::
 
 PokemonTower_7F_Text_Grunt3PostBattle::
 #if GERMAN
-	.string "Du wirst nicht ungestraft\n"
-	.string "davonkommen!$"
+	.string "Du wirst nicht ungestraft davonkommen!$"
 #else
 	.string "You're not getting away with this!$"
 #endif
@@ -318,8 +317,8 @@ PokemonTower_7F_Text_MrFujiThankYouFollowMe::
 	.string "Du kommst, um mich zu retten?\p"
 	.string "Vielen Dank!\n"
 	.string "Aber ich bin freiwillig hier.\p"
-	.string "Ich kam her, um die Seele von\n"
-	.string "Tragossos Mutter zu beruhigen!\p"
+	.string "Ich kam her, um die Seele von Tragossos\n"
+	.string "Mutter zu beruhigen!\p"
 	.string "Die Seele des Knogga sollte nun in die\n"
 	.string "ewigen Jagdgründe eingekehrt sein.\p"
 	.string "Trotzdem danke ich dir für deine\n"

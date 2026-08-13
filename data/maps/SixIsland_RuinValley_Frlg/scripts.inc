@@ -53,8 +53,7 @@ SixIsland_RuinValley_Text_CantFigureOutHowToGetInside::
 
 SixIsland_RuinValley_Text_IFoundThisPlace::
 #if GERMAN
-	.string "Ich war es, der diesen Ort\n"
-	.string "entdeckt hat.\p"
+	.string "Ich war es, der diesen Ort entdeckt hat.\p"
 	.string "Guck nicht so neidisch!$"
 #else
 	.string "Let me tell you, I found this\n"
@@ -142,10 +141,9 @@ SixIsland_RuinValley_Text_FosterDefeat::
 
 SixIsland_RuinValley_Text_FosterPostBattle::
 #if GERMAN
-	.string "Es gibt einige Ruinen auf\n"
-	.string "Sevii Eiland.\p"
-	.string "Der Großteil von ihnen ist\n"
-	.string "vor langer Zeit entstanden.$"
+	.string "Es gibt einige Ruinen auf Sevii Eiland.\p"
+	.string "Der Großteil von ihnen ist vor langer\n"
+	.string "Zeit entstanden.$"
 #else
 	.string "There are several ruins on the\n"
 	.string "SEVII ISLANDS.\p"

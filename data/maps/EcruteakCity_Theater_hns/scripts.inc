@@ -468,8 +468,8 @@ EcruteakCity_Theater_Text_SurfGuyRocket:
 #if GERMAN
 	.string "Was bildet sich dieser Kerl von\n"
 	.string "Team Rocket eigentlich ein?!?\p"
-	.string "Meinem Kimono-Girl solchen\n"
-	.string "Ärger zu bereiten!\p"
+	.string "Meinem Kimono-Girl solchen Ärger zu\n"
+	.string "bereiten!\p"
 	.string "Du bist doch ein Trainer, oder?\n"
 	.string "Dann rette sie gefälligst!$"
 #else
@@ -637,8 +637,8 @@ EcruteakCity_Theater_Text_GirlBefore:
 
 EcruteakCity_Theater_Text_FancyPanel:
 #if GERMAN
-	.string "Das ist ein schickes Panel,\n"
-	.string "das mit Blumen verziert ist.$"
+	.string "Das ist ein schickes Panel, das mit\n"
+	.string "Blumen verziert ist.$"
 #else
 	.string "It's a fancy panel that's\n"
 	.string "decorated with flowers.$"
@@ -1194,15 +1194,15 @@ EcruteakCity_Theater_Text_ZukiNo:
 
 EcruteakCity_Theater_Text_NaokoSeen:
 #if GERMAN
-	.string "Du bist sehr stark. Du hast\n"
-	.string "mir im Steineichenwald geholfen.\p"
+	.string "Du bist sehr stark. Du hast mir im\n"
+	.string "Steineichenwald geholfen.\p"
 	.string "Ich heiße Edith. Ich habe keine\n"
 	.string "so gute Orientierung.\p"
 	.string "Ich sah, wie du Team Rocket besiegt\n"
 	.string "hast, als Kurt am Flegmon-Brunnen in\l"
 	.string "Not war.\p"
-	.string "Lass mich dich und deine\n"
-	.string "Pokémon herausfordern!$"
+	.string "Lass mich dich und deine Pokémon\n"
+	.string "herausfordern!$"
 #else
 	.string "You are quite strong. You helped\n"
 	.string "me in the ILEX FOREST.\p"
@@ -1246,8 +1246,8 @@ EcruteakCity_Theater_Text_SayoSeen:
 	.string "Ich bin Keiko, das Kimono-Girl!\p"
 	.string "Ich hörte zu in der Drachenhöhle, als du\n"
 	.string "den Test des Ältesten bestanden hast.\p"
-	.string "Lass mich dich und deine\n"
-	.string "Pokémon herausfordern!$"
+	.string "Lass mich dich und deine Pokémon\n"
+	.string "herausfordern!$"
 #else
 	.string "Excellent spirit! You got me\n"
 	.string "off the ice by pushing me.\p"
@@ -1262,8 +1262,7 @@ EcruteakCity_Theater_Text_SayoSeen:
 EcruteakCity_Theater_Text_KuniSeen:
 #if GERMAN
 	.string "Ich bin die Letzte.\p"
-	.string "Du warst zuverlässig im\n"
-	.string "Dukatia-Tunnel.\p"
+	.string "Du warst zuverlässig im Dukatia-Tunnel.\p"
 	.string "Ich tanze auch unterirdisch…\n"
 	.string "Hussa!\p"
 	.string "Ich sah, wie du Rocket am\n"

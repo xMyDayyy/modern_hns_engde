@@ -139,8 +139,8 @@ GoldenrodCity_Gym_Text_WhitneyBefore:
 	.string "Alle mochten Pokémon, also hab\n"
 	.string "ich auch angefangen!\p"
 	.string "Pokémon sind so niedlich!\p"
-	.string "Willst du kämpfen? Pass auf,\n"
-	.string "ich bin echt gut!$"
+	.string "Willst du kämpfen? Pass auf, ich bin\n"
+	.string "echt gut!$"
 #else
     .string "Hi! I'm WHITNEY!\p"
     .string "Everyone was into POKéMON, so I got\n"

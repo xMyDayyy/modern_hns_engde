@@ -234,8 +234,8 @@ SSAnne_2F_Corridor_Text_RivalPostBattle::
 	.string "alter Mann!\p"
 	.string "Der Zerschneider ist äußerst\n"
 	.string "nützlich!\p"
-	.string "Du solltest den alten Mann\n"
-	.string "besuchen! Ciao!$"
+	.string "Du solltest den alten Mann besuchen!\n"
+	.string "Ciao!$"
 #else
 	.string "{RIVAL}: I heard there was a CUT\n"
 	.string "master on board.\p"

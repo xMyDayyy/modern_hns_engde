@@ -2214,8 +2214,8 @@ PokemonJournal_Text_SpecialFeatureMisty::
 	.string "Pokémon Journal\p"
 	.string "Sonderreportage: Arenaleiterin\n"
 	.string "Misty aus Azuria City!\p"
-	.string "Misty vergöttert angeblich\n"
-	.string "Lorelei von den Top Vier.$"
+	.string "Misty vergöttert angeblich Lorelei von\n"
+	.string "den Top Vier.$"
 #else
 	.string "POKéMON JOURNAL\p"
 	.string "Special Feature: CERULEAN GYM\n"

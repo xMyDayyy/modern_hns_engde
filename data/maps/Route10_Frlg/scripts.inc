@@ -36,8 +36,8 @@ Route10_Text_MarkDefeat::
 
 Route10_Text_MarkPostBattle::
 #if GERMAN
-	.string "Zu Hause habe ich noch mehr\n"
-	.string "seltene Pokémon!$"
+	.string "Zu Hause habe ich noch mehr seltene\n"
+	.string "Pokémon!$"
 #else
 	.string "I have more rare POKéMON at home!$"
 #endif

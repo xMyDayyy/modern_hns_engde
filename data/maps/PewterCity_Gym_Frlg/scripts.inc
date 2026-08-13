@@ -88,8 +88,7 @@ PewterCity_Gym_Text_BrockIntro::
 	.string "Meine Devise ist eine steinharte\n"
 	.string "Verteidigung und felsenfeste\l"
 	.string "Entschlossenheit!\p"
-	.string "Deshalb trainiere ich Stein-\n"
-	.string "Pokémon!\p"
+	.string "Deshalb trainiere ich Stein-Pokémon!\p"
 	.string "Willst du es noch immer mit mir\n"
 	.string "aufnehmen?\p"
 	.string "O.k.! Zeige mir, wie gut du bist!{PLAY_BGM}?À$"
@@ -123,8 +122,8 @@ PewterCity_Gym_Text_BrockDefeat::
 	.string "Orden trägt, werden stärker!\p"
 	.string "Von nun an können deine Pokémon\n"
 	.string "jederzeit Blitz einsetzen!\p"
-	.string "Natürlich muss die Attacke\n"
-	.string "beherrscht werden.$"
+	.string "Natürlich muss die Attacke beherrscht\n"
+	.string "werden.$"
 #else
 	.string "I took you for granted, and so\n"
 	.string "I lost.\p"
@@ -152,8 +151,7 @@ PewterCity_Gym_Text_TakeThisWithYou::
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM39!$"
+	.string "{PLAYER} erhält TM39!$"
 #else
 	.string "{PLAYER} received TM39\n"
 	.string "from BROCK.$"

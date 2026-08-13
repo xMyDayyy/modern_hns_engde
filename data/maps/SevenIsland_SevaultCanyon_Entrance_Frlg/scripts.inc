@@ -132,8 +132,7 @@ SevenIsland_SevaultCanyon_Entrance_Text_EveIntro::
 
 SevenIsland_SevaultCanyon_Entrance_Text_EveDefeat::
 #if GERMAN
-	.string "Tizia: Till und ich haben\n"
-	.string "verloren. Hehe!$"
+	.string "Tizia: Till und ich haben verloren. Hehe!$"
 #else
 	.string "EVE: Me and JON, we lost.\n"
 	.string "Ehehe.$"
@@ -150,8 +149,8 @@ SevenIsland_SevaultCanyon_Entrance_Text_EvePostBattle::
 
 SevenIsland_SevaultCanyon_Entrance_Text_EveNotEnoughMons::
 #if GERMAN
-	.string "Tizia: Ich möchte gemeinsam\n"
-	.string "mit Till gegen dich antreten.\p"
+	.string "Tizia: Ich möchte gemeinsam mit Till\n"
+	.string "gegen dich antreten.\p"
 	.string "Komme mit zwei Pokémon wieder!$"
 #else
 	.string "EVE: I want to team up with JON\n"
@@ -192,8 +191,8 @@ SevenIsland_SevaultCanyon_Entrance_Text_JonPostBattle::
 
 SevenIsland_SevaultCanyon_Entrance_Text_JonNotEnoughMons::
 #if GERMAN
-	.string "Till: Wenn ich mit Tizia gegen\n"
-	.string "dich kämpfe, bin ich glücklich.\p"
+	.string "Till: Wenn ich mit Tizia gegen dich\n"
+	.string "kämpfe, bin ich glücklich.\p"
 	.string "Ich möchte also einen Zwei-gegen-\n"
 	.string "Zwei-Kampf mit dir austragen.$"
 #else

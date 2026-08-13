@@ -158,8 +158,8 @@ BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight_hns::
 BattleFrontier_Lounge2_Text_FacilityIsHottest_hns::
 #if GERMAN
 	.string "Mal sehen…\p"
-	.string "Scheinbar ist {STR_VAR_1}\n"
-	.string "im Moment der angesagteste Ort.$"
+	.string "Scheinbar ist {STR_VAR_1} im Moment der\n"
+	.string "angesagteste Ort.$"
 #else
 	.string "Let's see now…\p"
 	.string "It sounds like the {STR_VAR_1}\n"
@@ -200,8 +200,8 @@ BattleFrontier_Lounge2_Text_SalonMaidenSilverMons_hns::
 	.string "die folgenden drei Pokémon ein:\p"
 	.string "Ein PSI-Pokémon, Typ Psycho.\n"
 	.string "Ein Vulkan-Pokémon, Typ Feuer.\p"
-	.string "Und ein Tagträumer-Pokémon,\n"
-	.string "Typ Normal.$"
+	.string "Und ein Tagträumer-Pokémon, Typ\n"
+	.string "Normal.$"
 #else
 	.string "Have you battled the SALON MAIDEN?\p"
 	.string "When she's measuring up her opponent,\n"
@@ -255,8 +255,8 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons_hns::
 	.string "Ein Drache-Pokémon, Typ Drache & Flug.\n"
 	.string "Ein Lehmhüpfer-Pokémon, Typ Wasser &\l"
 	.string "Boden.\p"
-	.string "Und ein Flamme-Pokémon, Typ\n"
-	.string "Feuer & Flug.$"
+	.string "Und ein Flamme-Pokémon, Typ Feuer &\n"
+	.string "Flug.$"
 #else
 	.string "Have you battled the DOME ACE?\p"
 	.string "When he's treating the opponent\n"
@@ -355,8 +355,8 @@ BattleFrontier_Lounge2_Text_PikeQueenIsThere_hns::
 
 BattleFrontier_Lounge2_Text_PikeQueenSilverMons_hns::
 #if GERMAN
-	.string "Bist du schon mal gegen die\n"
-	.string "Pfipitistin angetreten?\p"
+	.string "Bist du schon mal gegen die Pfipitistin\n"
+	.string "angetreten?\p"
 	.string "Wenn sie gute Laune hat, dann setzt sie\n"
 	.string "die folgenden drei Pokémon ein:\p"
 	.string "Ein Reißzahn-Pokémon, Typ Gift.\n"
@@ -411,8 +411,8 @@ BattleFrontier_Lounge2_Text_ArenaTycoonIsThere_hns::
 
 BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons_hns::
 #if GERMAN
-	.string "Bist du schon mal gegen den\n"
-	.string "Ringmeister angetreten?\p"
+	.string "Bist du schon mal gegen den Ringmeister\n"
+	.string "angetreten?\p"
 	.string "Wenn er seinen Gegner abschätzen will,\n"
 	.string "setzt er diese drei Pokémon ein:\p"
 	.string "Ein Einzelhorn-Pokémon, Typ Käfer &\n"
@@ -531,8 +531,7 @@ BattleFrontier_Lounge2_Text_PyramidKingSilverMons_hns::
 	.string "Pokémon ein:\p"
 	.string "Ein Steingipfel-Pokémon, Typ Gestein.\n"
 	.string "Ein Eisberg-Pokémon, Typ\p"
-	.string "Eis sowie ein Eisen-Pokémon,\n"
-	.string "Typ Stahl.$"
+	.string "Eis sowie ein Eisen-Pokémon, Typ Stahl.$"
 #else
 	.string "Have you battled the PYRAMID KING\n"
 	.string "before?\p"
@@ -569,8 +568,8 @@ BattleFrontier_Lounge2_Text_DoubleBattleAdvice1_hns::
 	.string "Natürlich gibt es verschiedene Orte, an\n"
 	.string "denen du Doppelkämpfe austragen\l"
 	.string "kannst.\p"
-	.string "Aber die Doppelkämpfe des\n"
-	.string "Duellturms sind klasse!\p"
+	.string "Aber die Doppelkämpfe des Duellturms\n"
+	.string "sind klasse!\p"
 	.string "Dort kannst du lernen, wie die\n"
 	.string "Doppel-Kämpfe hier in der Kampfzone\l"
 	.string "ausgetragen werden.$"

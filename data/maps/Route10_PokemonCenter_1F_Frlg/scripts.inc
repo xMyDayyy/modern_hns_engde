@@ -133,8 +133,7 @@ Route10_PokemonCenter_1F_Text_GreatHereYouGo::
 
 Route10_PokemonCenter_1F_Text_ReceivedEverstoneFromAide::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "Ewigstein!$"
+	.string "{PLAYER} erhält Ewigstein!$"
 #else
 	.string "{PLAYER} received the EVERSTONE\n"
 	.string "from the AIDE.$"

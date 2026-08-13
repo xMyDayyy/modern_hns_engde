@@ -51,8 +51,8 @@ RuinsOfAlph_Lab_Text_Scientist2:
 
 RuinsOfAlph_Lab_Text_Fossils:
 #if GERMAN
-    .string "Fossilien, die in den Ruinen\n"
-    .string "gefunden wurden.\p"
+    .string "Fossilien, die in den Ruinen gefunden\n"
+    .string "wurden.\p"
     .string "Vielleicht gibt es noch mehr irgendwo…$"
 #else
 	.string "Fossils found within the RUINS.\n"
@@ -647,8 +647,7 @@ RuinsOfAlph_Lab_Text_DevelopingNewBalls:
 #if GERMAN
     .string "Ich entwickle neue Arten von\n"
     .string "Pokéballs…\p"
-    .string "Aber ich komme nicht richtig\n"
-    .string "voran…$"
+    .string "Aber ich komme nicht richtig voran…$"
 #else
 	.string "I'm developing new kinds of\n"
 	.string "POKé BALLS…\p"

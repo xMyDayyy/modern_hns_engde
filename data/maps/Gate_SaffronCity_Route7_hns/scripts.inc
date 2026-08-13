@@ -15,8 +15,8 @@ Route7_Text_SaffronGuard_PowerPlant:
 #if GERMAN
 	.string "Anscheinend hat es im Kraftwerk\n"
 	.string "einen Unfall gegeben.\p"
-	.string "Es liegt östlich von hier,\n"
-	.string "in der Nähe von Lavandia.$"
+	.string "Es liegt östlich von hier, in der Nähe\n"
+	.string "von Lavandia.$"
 #else
 	.string "Did you hear about the accident\n"
 	.string "at the POWER PLANT?\p"
@@ -26,8 +26,8 @@ Route7_Text_SaffronGuard_PowerPlant:
 
 Route7_Text_SaffronGuard_Serious:
 #if GERMAN
-	.string "Ich nehme meinen Posten\n"
-	.string "als Wache ernst.\p"
+	.string "Ich nehme meinen Posten als Wache\n"
+	.string "ernst.\p"
 	.string "Hey! Du hast einen Pokédex!\n"
 	.string "Alles klar, du darfst passieren!$"
 #else

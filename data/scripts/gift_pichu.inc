@@ -60,8 +60,8 @@ SurfPichu_Slot5:
 
 sText_MysteryGiftEgg:
 #if GERMAN
-	.string "Danke, dass du das Geheim-\n"
-	.string "geschehen benutzt hast.\p"
+	.string "Danke, dass du das Geheimgeschehen\n"
+	.string "benutzt hast.\p"
 	.string "Im Pokémon-Center wartet ein Geschenk\n"
 	.string "auf dich. Ein Pokémon-Ei!\l"
 	.string "Bitte trainiere das Pokémon mit Liebe\l"

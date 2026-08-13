@@ -134,8 +134,8 @@ SilphCo_6F_Text_ThatManIsSuchACoward::
 
 SilphCo_6F_Text_NeedsMeToLookAfterHim::
 #if GERMAN
-	.string "Ich glaube, ich werde ihn aus\n"
-	.string "Mitleid heiraten!$"
+	.string "Ich glaube, ich werde ihn aus Mitleid\n"
+	.string "heiraten!$"
 #else
 	.string "He's so helpless, he needed\n"
 	.string "someone like me to look after him.$"
@@ -236,8 +236,8 @@ SilphCo_6F_Text_TaylorPostBattle::
 
 SilphCo_6F_Text_Grunt2Intro::
 #if GERMAN
-	.string "Du wagst es, dich dem Team\n"
-	.string "Rocket zu widersetzen?$"
+	.string "Du wagst es, dich dem Team Rocket zu\n"
+	.string "widersetzen?$"
 #else
 	.string "You dare betray TEAM ROCKET?$"
 #endif

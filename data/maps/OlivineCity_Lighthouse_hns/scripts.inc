@@ -39,8 +39,8 @@ OlivineLighthouse_EventScript_1FPokefanF::
 
 OlivineLighthouse_Text_1FSailor:
 #if GERMAN
-	.string "Die Leute kommen zum\n"
-	.string "Leuchtturm, um zu trainieren.\p"
+	.string "Die Leute kommen zum Leuchtturm, um zu\n"
+	.string "trainieren.\p"
 	.string "Aufgrund der vielen Trainer ist es nicht\n"
 	.string "einfach, sich bis ganz nach oben\l"
 	.string "vorzukämpfen.$"
@@ -92,8 +92,8 @@ OlivineLighthouse_EventScript_GentlemanAlfred::
 
 OlivineLighthouse_Text_SailorHueySeen:
 #if GERMAN
-	.string "Seefahrer sind immer\n"
-	.string "wild auf einen guten Kampf!$"
+	.string "Seefahrer sind immer wild auf einen\n"
+	.string "guten Kampf!$"
 #else
 	.string "Men of the sea are always\n"
 	.string "spoiling for a good fight!$"
@@ -128,8 +128,8 @@ OlivineLighthouse_Text_HueyRegister:
 
 OlivineLighthouse_Text_HueyRematchIntro:
 #if GERMAN
-	.string "Seefahrer sind immer\n"
-	.string "wild auf einen guten Kampf!$"
+	.string "Seefahrer sind immer wild auf einen\n"
+	.string "guten Kampf!$"
 #else
 	.string "Men of the sea are always\n"
 	.string "spoiling for a good fight!$"
@@ -164,8 +164,7 @@ OlivineLighthouse_Text_GentlemanAlfredSeen:
 
 OlivineLighthouse_Text_GentlemanAlfredBeaten:
 #if GERMAN
-	.string "Ah! Ich sehe,\n"
-	.string "du meinst es ernst.$"
+	.string "Ah! Ich sehe, du meinst es ernst.$"
 #else
 	.string "Ah! I can see that you're\n"
 	.string "serious.$"
@@ -173,10 +172,10 @@ OlivineLighthouse_Text_GentlemanAlfredBeaten:
 
 OlivineLighthouse_Text_GentlemanAlfredAfter:
 #if GERMAN
-	.string "Oben ist ein Pokémon, das\n"
-	.string "den Leuchtturm erhellt.\p"
-	.string "Doch es ist nun krank und\n"
-	.string "lässt sich nicht normal heilen.$"
+	.string "Oben ist ein Pokémon, das den\n"
+	.string "Leuchtturm erhellt.\p"
+	.string "Doch es ist nun krank und lässt sich\n"
+	.string "nicht normal heilen.$"
 #else
 	.string "Up top is a POKéMON that keeps\n"
 	.string "the LIGHTHOUSE lit.\p"
@@ -204,8 +203,8 @@ OlivineLighthouse_EventScript_GentlemanPreston::
 
 OlivineLighthouse_Text_BirdKeeperTheoSeen:
 #if GERMAN
-	.string "Warum bist du hier? Willst du\n"
-	.string "nur glotzen? Geh besser weg!$"
+	.string "Warum bist du hier? Willst du nur\n"
+	.string "glotzen? Geh besser weg!$"
 #else
 	.string "Why are you here? Are you just\n"
 	.string "going to gawk? I suggest you leave!$"
@@ -213,8 +212,8 @@ OlivineLighthouse_Text_BirdKeeperTheoSeen:
 
 OlivineLighthouse_Text_BirdKeeperTheoBeaten:
 #if GERMAN
-	.string "Du sorgst dich wirklich um\n"
-	.string "das kranke Pokémon…$"
+	.string "Du sorgst dich wirklich um das kranke\n"
+	.string "Pokémon…$"
 #else
 	.string "You really are concerned about\n"
 	.string "the sick POKéMON…$"
@@ -243,8 +242,8 @@ OlivineLighthouse_Text_SailorTerrellSeen:
 
 OlivineLighthouse_Text_SailorTerrellBeaten:
 #if GERMAN
-	.string "Aaah, du gehörst also auch\n"
-	.string "zu den Harten und den Zarten.$"
+	.string "Aaah, du gehörst also auch zu den\n"
+	.string "Harten und den Zarten.$"
 #else
 	.string "You are both kind and strong…$"
 #endif
@@ -333,8 +332,8 @@ OlivineLighthouse_Text_SailorKentAfter:
 
 OlivineLighthouse_Text_LassConnieSeen:
 #if GERMAN
-	.string "Jasmin leitet die Arena hier\n"
-	.string "in dieser Stadt.\p"
+	.string "Jasmin leitet die Arena hier in dieser\n"
+	.string "Stadt.\p"
 	.string "Ich werde sie zurückholen. Besser,\n"
 	.string "du stellst dich mir nicht in den Weg!$"
 #else
@@ -345,8 +344,8 @@ OlivineLighthouse_Text_LassConnieSeen:
 
 OlivineLighthouse_Text_LassConnieBeaten:
 #if GERMAN
-	.string "Aaah! Was machst du da\n"
-	.string "mit meinem Pokémon?$"
+	.string "Aaah! Was machst du da mit meinem\n"
+	.string "Pokémon?$"
 #else
 	.string "Aaack! My POKéMON!$"
 #endif
@@ -389,8 +388,7 @@ OlivineLighthouse_Text_SailorErnestSeen:
 
 OlivineLighthouse_Text_SailorErnestBeaten:
 #if GERMAN
-	.string "Wow, du hast mich\n"
-	.string "überwältigt!$"
+	.string "Wow, du hast mich überwältigt!$"
 #else
 	.string "Whoa, whoa. You're overwhelming!$"
 #endif
@@ -617,8 +615,8 @@ OlivineLighthouse_Text_PlayerHandedSecretpotion:
 
 OlivineLighthouse_Text_JasmineDontBeOffended:
 #if GERMAN
-	.string "Jasmin: Ni-nimm mir das\n"
-	.string "bitte nicht übel, ja?\p"
+	.string "Jasmin: Ni-nimm mir das bitte nicht übel,\n"
+	.string "ja?\p"
 	.string "Amphi lässt sich bloß von niemand\n"
 	.string "anderem als mir füttern…$"
 #else
@@ -643,8 +641,8 @@ OlivineLighthouse_Text_JasmineThankYou:
 	.string "Es hat wirklich geklappt!\p"
 	.string "Ich bin dir ja so dankbar!\n"
 	.string "Das ist alles dein Verdienst!\p"
-	.string "…In Ordnung! Dann gehe\n"
-	.string "ich jetzt zurück in die Arena!$"
+	.string "…In Ordnung! Dann gehe ich jetzt\n"
+	.string "zurück in die Arena!$"
 #else
 	.string "JASMINE: …Oh, I'm so relieved…\p"
 	.string "This is just so wonderful…\p"

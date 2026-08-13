@@ -238,8 +238,8 @@ LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown:
 LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown:
 #if GERMAN
 	.string "Deng!\p"
-	.string "Treffer! Eine weitere Dose\n"
-	.string "{STR_VAR_1} fällt heraus!$"
+	.string "Treffer! Eine weitere Dose {STR_VAR_1}\n"
+	.string "fällt heraus!$"
 #else
 	.string "Clang!\p"
 	.string "Score! An extra can of {STR_VAR_1}\n"

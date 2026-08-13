@@ -3,8 +3,8 @@ gText_Birch_Welcome::
 	.string "Sorry, dass du warten musstest.\p"
 	.string "Willkommen in der Welt der Pokémon!\p"
 	.string "Mein Name ist Birk.\p"
-	.string "Aber jeder nennt mich nur\n"
-	.string "Professor Pokémon.\p"
+	.string "Aber jeder nennt mich nur Professor\n"
+	.string "Pokémon.\p"
 	.string "$"
 #else
 	.string "Hi! Sorry to keep you waiting!\p"
@@ -28,8 +28,8 @@ gText_Birch_Pokemon::
 
 gText_Birch_MainSpeech::
 #if GERMAN
-	.string "Auf dieser Welt leben Wesen,\n"
-	.string "die uns als Pokémon bekannt sind.\p"
+	.string "Auf dieser Welt leben Wesen, die uns als\n"
+	.string "Pokémon bekannt sind.\p"
 	.string "Wir Menschen leben Seite an Seite mit\n"
 	.string "ihnen, als Freunde oder als\l"
 	.string "Arbeitskollegen.\p"
@@ -113,8 +113,8 @@ gText_Birch_YourePlayer::
 gText_Birch_AreYouReady::
 #if GERMAN
 	.string "Gut, bist du bereit?\p"
-	.string "Dein eigenes Abenteuer wird\n"
-	.string "nun beginnen.\p"
+	.string "Dein eigenes Abenteuer wird nun\n"
+	.string "beginnen.\p"
 	.string "Hab nur Mut und stürze dich in die Welt\n"
 	.string "der Pokémon, wo Abenteuer, Träume und\l"
 	.string "Freundschaft warten.\p"

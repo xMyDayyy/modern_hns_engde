@@ -84,8 +84,8 @@ Route47_Text_Couple1Seen::
 	.string "Thomas: Eins plus eins ist zwei.\p"
 	.string "Aber wir zwei zusammen sind viel\n"
 	.string "stärker!\p"
-	.string "Katja: Wir zwei sind kein\n"
-	.string "langweiliges Gespann!$"
+	.string "Katja: Wir zwei sind kein langweiliges\n"
+	.string "Gespann!$"
 #else
 	.string "THOM: One plus one is two. But the\n"
 	.string "two of us together is much\l"
@@ -96,8 +96,8 @@ Route47_Text_Couple1Seen::
 
 Route47_Text_Couple1Beaten::
 #if GERMAN
-	.string "Uwe: Damit hatte ich jetzt\n"
-	.string "nicht gerechnet…$"
+	.string "Uwe: Damit hatte ich jetzt nicht\n"
+	.string "gerechnet…$"
 #else
 	.string "THOM: That wasn't what I expected.\l"
 	.string "KAE: You're unusual too!$"
@@ -105,8 +105,8 @@ Route47_Text_Couple1Beaten::
 
 Route47_Text_Couple1After1::
 #if GERMAN
-	.string "Uwe: Dass du so stark bist,\n"
-	.string "hätte niemand ahnen können!$"
+	.string "Uwe: Dass du so stark bist, hätte\n"
+	.string "niemand ahnen können!$"
 #else
 	.string "THOM: It seems your power is\n"
 	.string "impossible to predict!$"

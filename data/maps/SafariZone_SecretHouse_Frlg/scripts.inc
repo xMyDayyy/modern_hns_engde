@@ -27,8 +27,8 @@ SafariZone_SecretHouse_EventScript_ExplainSurf::
 SafariZone_SecretHouse_Text_CongratsYouveWon::
 #if GERMAN
 	.string "Ah! Endlich!\p"
-	.string "Du bist der Erste, der das\n"
-	.string "Geheime Haus gefunden hat!\p"
+	.string "Du bist der Erste, der das Geheime Haus\n"
+	.string "gefunden hat!\p"
 	.string "Ich dachte schon, niemand würde\n"
 	.string "den großen Preis jemals gewinnen!\p"
 	.string "Glückwunsch!\n"
@@ -47,8 +47,7 @@ SafariZone_SecretHouse_Text_CongratsYouveWon::
 
 SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "VM03!$"
+	.string "{PLAYER} erhält VM03!$"
 #else
 	.string "{PLAYER} received HM03\n"
 	.string "from the attendant!$"

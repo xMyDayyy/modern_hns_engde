@@ -70,8 +70,8 @@ FuchsiaCity_SafariZoneEntrance_EventScript_StevenGiveCase::
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenGiveCase:
 #if GERMAN
-	.string "Ach ja, das hier könntest du\n"
-	.string "noch gebrauchen.$"
+	.string "Ach ja, das hier könntest du noch\n"
+	.string "gebrauchen.$"
 #else
 	.string "Oh and you might need this.$"
 #endif
@@ -459,8 +459,8 @@ FuchsiaCity_SafariZoneEntrance_Text_StevenTradeCompleted:
 #if GERMAN
 	.string "Wie geht es Eisen?\n"
 	.string "Tanhel sind faszinierende Pokémon.\p"
-	.string "Sie kommunizieren mit\n"
-	.string "magnetischen Impulsen.$"
+	.string "Sie kommunizieren mit magnetischen\n"
+	.string "Impulsen.$"
 #else
 	.string "How is IRON doing?\n"
 	.string "BELDUM are fascinating POKéMON.\p"

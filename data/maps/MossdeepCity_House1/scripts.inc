@@ -31,8 +31,7 @@ MossdeepCity_House1_Text_HmmYourPokemon:
 
 MossdeepCity_House1_Text_ItLikesXPokeblocks:
 #if GERMAN
-	.string "Es mag {STR_VAR_1},\n"
-	.string "nicht wahr?\p"
+	.string "Es mag {STR_VAR_1}, nicht wahr?\p"
 	.string "Nein, ich bin mir sicher. Es mag mit\n"
 	.string "Sicherheit {STR_VAR_1}!$"
 #else
@@ -44,8 +43,8 @@ MossdeepCity_House1_Text_ItLikesXPokeblocks:
 
 MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks:
 #if GERMAN
-	.string "Es scheint {POKEBLOCK}\n"
-	.string "weder zu lieben noch abzulehnen.$"
+	.string "Es scheint {POKEBLOCK} weder zu lieben\n"
+	.string "noch abzulehnen.$"
 #else
 	.string "It doesn't appear to like or dislike\n"
 	.string "any {POKEBLOCK}S.$"

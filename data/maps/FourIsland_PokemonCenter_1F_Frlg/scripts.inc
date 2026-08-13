@@ -59,8 +59,8 @@ Text_BodySlamDeclined::
 
 Text_BodySlamWhichMon::
 #if GERMAN
-	.string "Welches Pokémon soll\n"
-	.string "Bodyslam erlernen?$"
+	.string "Welches Pokémon soll Bodyslam\n"
+	.string "erlernen?$"
 #else
 	.string "Which POKéMON wants to learn how\n"
 	.string "to BODY SLAM?$"
@@ -81,8 +81,8 @@ FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave::
 #if GERMAN
 	.string "Dort gibt es eine seltene Art\n"
 	.string "Eis-Pokémon in der Höhle.\p"
-	.string "Viele Besucher kommen nur,\n"
-	.string "um dieses Pokémon zu sehen.$"
+	.string "Viele Besucher kommen nur, um dieses\n"
+	.string "Pokémon zu sehen.$"
 #else
 	.string "There's a rare kind of ICE POKéMON\n"
 	.string "that lives in the cave.\p"

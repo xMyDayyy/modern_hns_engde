@@ -2,8 +2,7 @@ gText_PkmnTransferredSomeonesPC::
 #if GERMAN
 	.string "{STR_VAR_2} wurde auf Jemandes PC\n"
 	.string "übertragen.\p"
-	.string "Es wurde in Box\n"
-	.string "“{STR_VAR_1}” abgelegt.$"
+	.string "Es wurde in Box “{STR_VAR_1}” abgelegt.$"
 #else
 	.string "{STR_VAR_2} was transferred to\n"
 	.string "SOMEONE'S PC.\p"
@@ -23,10 +22,9 @@ gText_PkmnTransferredLanettesPC::
 
 gText_PkmnTransferredSomeonesPCBoxFull::
 #if GERMAN
-	.string "Box “{STR_VAR_3}” in\n"
-	.string "Jemandes PC ist voll.\p"
-	.string "{STR_VAR_2} wurde in Box\n"
-	.string "“{STR_VAR_1}” übertragen.$"
+	.string "Box “{STR_VAR_3}” in Jemandes PC ist voll.\p"
+	.string "{STR_VAR_2} wurde in Box “{STR_VAR_1}”\n"
+	.string "übertragen.$"
 #else
 	.string "BOX “{STR_VAR_3}” on\n"
 	.string "SOMEONE'S PC was full.\p"
@@ -50,10 +48,9 @@ gText_PkmnTransferredLanettesPCBoxFull::
 
 gText_PkmnSentToPCAfterCatch::
 #if GERMAN
-	.string "{STR_VAR_2} wurde auf\n"
-	.string "{B_PC_CREATOR_NAME} PC übertragen.\p"
-	.string "Es wurde in Box\n"
-	.string "“{STR_VAR_1}” abgelegt.$"
+	.string "{STR_VAR_2} wurde auf {B_PC_CREATOR_NAME} PC\n"
+	.string "übertragen.\p"
+	.string "Es wurde in Box “{STR_VAR_1}” abgelegt.$"
 #else
 	.string "{STR_VAR_2} was sent to\n"
 	.string "{B_PC_CREATOR_NAME} PC.\p"
@@ -63,8 +60,7 @@ gText_PkmnSentToPCAfterCatch::
 
 gText_PlayerObtainedTheMon::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "das {STR_VAR_1}!$"
+	.string "{PLAYER} erhält das {STR_VAR_1}!$"
 #else
 	.string "{PLAYER} obtained\n"
 	.string "the {STR_VAR_1}!$"
@@ -84,8 +80,8 @@ gText_NoMoreRoomForPokemon::
 
 gText_NicknameThisPokemon::
 #if GERMAN
-	.string "Möchtest du {STR_VAR_1} einen\n"
-	.string "Spitznamen geben?$"
+	.string "Möchtest du {STR_VAR_1} einen Spitznamen\n"
+	.string "geben?$"
 #else
 	.string "Do you want to give a nickname to\n"
 	.string "this {STR_VAR_1}?$"

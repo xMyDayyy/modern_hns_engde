@@ -432,8 +432,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound2:
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInSemifinals:
 #if GERMAN
-	.string "Das Turnier befindet sich im\n"
-	.string "Halbfinale.$"
+	.string "Das Turnier befindet sich im Halbfinale.$"
 #else
 	.string "The tournament is in the semifinals.$"
 #endif

@@ -467,8 +467,8 @@ CeladonCity_GameCorner_EventScript_UnusableSlotMachine3::
 CeladonCity_GameCorner_Text_CanExchangeCoinsNextDoor::
 #if GERMAN
 	.string "Willkommen!\p"
-	.string "Nebenan kannst du deine\n"
-	.string "Münzen gegen Preise tauschen.$"
+	.string "Nebenan kannst du deine Münzen gegen\n"
+	.string "Preise tauschen.$"
 #else
 	.string "Welcome!\p"
 	.string "You can exchange your COINS for\n"
@@ -477,8 +477,7 @@ CeladonCity_GameCorner_Text_CanExchangeCoinsNextDoor::
 
 CeladonCity_GameCorner_Text_WelcomeBuySomeCoins::
 #if GERMAN
-	.string "Willkommen in der Rocket\n"
-	.string "Spielhalle!\p"
+	.string "Willkommen in der Rocket Spielhalle!\p"
 	.string "Benötigst du Spiel-Münzen?$"
 #else
 	.string "Welcome to ROCKET GAME CORNER!\p"
@@ -556,8 +555,7 @@ CeladonCity_GameCorner_Text_DoYouWantToPlay::
 
 CeladonCity_GameCorner_Text_Received10CoinsFromMan::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "10 Münzen!$"
+	.string "{PLAYER} erhält 10 Münzen!$"
 #else
 	.string "{PLAYER} received 10 COINS\n"
 	.string "from the man.$"
@@ -590,8 +588,8 @@ CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck::
 CeladonCity_GameCorner_Text_GymGuyAdvice::
 #if GERMAN
 	.string "Heh!\p"
-	.string "Du hast Wichtigeres zu tun,\n"
-	.string "Champion in spe!\p"
+	.string "Du hast Wichtigeres zu tun, Champion in\n"
+	.string "spe!\p"
 	.string "Die Arenaleiterin von Prismania\n"
 	.string "City heißt Erika.\p"
 	.string "Sie trainiert Pflanzen-Pokémon!\p"
@@ -641,8 +639,7 @@ CeladonCity_GameCorner_Text_WantSomeCoins::
 
 CeladonCity_GameCorner_Text_Received20CoinsFromNiceGuy::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "20 Münzen!$"
+	.string "{PLAYER} erhält 20 Münzen!$"
 #else
 	.string "{PLAYER} received 20 COINS\n"
 	.string "from the nice guy.$"
@@ -675,8 +672,7 @@ CeladonCity_GameCorner_Text_HereAreSomeCoinsShoo::
 
 CeladonCity_GameCorner_Text_Received20CoinsFromMan::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "20 Münzen!$"
+	.string "{PLAYER} erhält 20 Münzen!$"
 #else
 	.string "{PLAYER} received 20 COINS\n"
 	.string "from the man.$"

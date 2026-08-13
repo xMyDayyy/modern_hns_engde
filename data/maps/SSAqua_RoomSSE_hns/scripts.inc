@@ -75,10 +75,10 @@ SSAqua_RoomSSE_Movement_PlayerEnter:
 SSAqua_RoomSSE_Text_CantFindGranddaughter:
 #if GERMAN
 	.string "Oh, hallo…\p"
-	.string "Ich kann meine\n"
-	.string "Enkelin nirgendwo finden.\p"
-	.string "Wenn sie an Bord\n"
-	.string "ist, ist alles in Ordnung.\p"
+	.string "Ich kann meine Enkelin nirgendwo\n"
+	.string "finden.\p"
+	.string "Wenn sie an Bord ist, ist alles in\n"
+	.string "Ordnung.\p"
 	.string "Sie ist ein Energiebündel und\p"
 	.string "könnte jemanden nerven. Ich mache mir\n"
 	.string "ernsthaft Sorgen…$"

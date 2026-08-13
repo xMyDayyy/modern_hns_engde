@@ -116,8 +116,8 @@ LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
 LilycoveCity_MoveDeletersHouse_Text_MonHasForgottenMove:
 #if GERMAN
 	.string "Das klappte doch perfekt!\p"
-	.string "{STR_VAR_1} hat {STR_VAR_2}\n"
-	.string "komplett vergessen.$"
+	.string "{STR_VAR_1} hat {STR_VAR_2} komplett\n"
+	.string "vergessen.$"
 #else
 	.string "It worked to perfection!\p"
 	.string "{STR_VAR_1} has forgotten\n"

@@ -48,8 +48,7 @@ FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland::
 
 FourIsland_Mart_Text_IcefallCaveIsFrigid::
 #if GERMAN
-	.string "Sevii Eiland liegt in \n"
-	.string "warmen Gefilden.\p"
+	.string "Sevii Eiland liegt in warmen Gefilden.\p"
 	.string "Aber es gibt eine Ausnahme, die\n"
 	.string "du kennen solltest.\p"
 	.string "Die Eiskaskadenhöhle ist aufgrund der\n"

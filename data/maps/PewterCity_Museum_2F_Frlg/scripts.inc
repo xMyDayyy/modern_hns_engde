@@ -64,8 +64,8 @@ Text_SeismicTossDeclined::
 
 Text_SeismicTossWhichMon::
 #if GERMAN
-	.string "Welches Pokémon soll die\n"
-	.string "Attacke erlernen?$"
+	.string "Welches Pokémon soll die Attacke\n"
+	.string "erlernen?$"
 #else
 	.string "Which POKéMON wants to learn\n"
 	.string "SEISMIC TOSS?$"

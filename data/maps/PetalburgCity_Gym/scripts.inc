@@ -1278,8 +1278,8 @@ PetalburgCity_Gym_Text_DadHmISee:
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 #if GERMAN
 	.string "Vater: {PLAYER}, hast du das gehört?\p"
-	.string "Hilf doch bitte Heiko dabei,\n"
-	.string "ein Pokémon zu fangen.$"
+	.string "Hilf doch bitte Heiko dabei, ein Pokémon\n"
+	.string "zu fangen.$"
 #else
 	.string "DAD: {PLAYER}, you heard that,\n"
 	.string "right?\p"
@@ -1289,8 +1289,7 @@ PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 #if GERMAN
-	.string "Heiko, hier, ich leihe dir mein\n"
-	.string "Pokémon.\p"
+	.string "Heiko, hier, ich leihe dir mein Pokémon.\p"
 	.string "Heiko hat ein Zigzachs erhalten.$"
 #else
 	.string "WALLY, here, I'll loan you my POKéMON.\p"
@@ -1434,8 +1433,7 @@ PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "Wenn du das Meer überquerst, kommst du\n"
 	.string "nach Faustauhaven. Dort triffst du auf\l"
 	.string "den Arenaleiter Kamillo.\p"
-	.string "Du solltest ihn wirklich\n"
-	.string "herausfordern…$"
+	.string "Du solltest ihn wirklich herausfordern…$"
 #else
 	.string "DAD: I see… So, you've beaten\n"
 	.string "the GYM LEADER in RUSTBORO CITY.\p"
@@ -2081,8 +2079,7 @@ PetalburgCity_Gym_Text_EnterRecoveryRoom:
 
 PetalburgCity_Gym_Text_EnterStrengthRoom:
 #if GERMAN
-	.string "“Raum der Stärke” steht auf\n"
-	.string "dem Schild.\p"
+	.string "“Raum der Stärke” steht auf dem Schild.\p"
 	.string "Möchtest du die Tür öffnen?$"
 #else
 	.string "“STRENGTH ROOM,” the sign says.\p"

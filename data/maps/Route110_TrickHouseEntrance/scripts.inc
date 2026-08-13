@@ -919,8 +919,8 @@ Route110_TrickHouseEntrance_Text_MechadollWhichTent:
 	.string "Robopuppe 5 bin ich!\n"
 	.string "Holst du die Belohnung nicht ab, Dann\l"
 	.string "Kannst du Rätselmeister nicht folgen!\p"
-	.string "Rotes Zelt oder blaues Zelt,\n"
-	.string "Wofür entscheidest du dich?$"
+	.string "Rotes Zelt oder blaues Zelt, Wofür\n"
+	.string "entscheidest du dich?$"
 #else
 	.string "MECHADOLL 5 I AM!\n"
 	.string "IF REWARD IS NOT TAKEN BY YOU,\l"

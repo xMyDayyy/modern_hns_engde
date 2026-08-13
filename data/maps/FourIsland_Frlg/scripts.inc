@@ -172,8 +172,8 @@ FourIsland_Text_IslandSign::
 FourIsland_Text_LoreleiHasReturned::
 #if GERMAN
 	.string "Lorelei ist zurückgekehrt.\p"
-	.string "War das Leben in der Stadt\n"
-	.string "etwa zu stressig?$"
+	.string "War das Leben in der Stadt etwa zu\n"
+	.string "stressig?$"
 #else
 	.string "LORELEI has returned.\p"
 	.string "Did she find the city life too\n"
@@ -203,8 +203,7 @@ FourIsland_Text_RivalAlreadyGotEggBeSmellingYa::
 #if GERMAN
 	.string "{RIVAL}: Heh!\n"
 	.string "{PLAYER}!\p"
-	.string "Was machst du hier auf\n"
-	.string "Sevii Eiland?\p"
+	.string "Was machst du hier auf Sevii Eiland?\p"
 	.string "Du solltest aufhören, mich\n"
 	.string "nachzuahmen!\p"
 	.string "Egal, ich habe mein Pokémon-Ei bereits,\n"
@@ -217,8 +216,7 @@ FourIsland_Text_RivalAlreadyGotEggBeSmellingYa::
 	.string "dieser Insel, den wir beide kennen.\p"
 	.string "Warum siehst du dich nicht um, wenn\n"
 	.string "ich dich neugierig gemacht habe?\p"
-	.string "Ich? Ich habe keine Zeit zu\n"
-	.string "verlieren!\p"
+	.string "Ich? Ich habe keine Zeit zu verlieren!\p"
 	.string "Wir sehen uns!$"
 #else
 	.string "{RIVAL}: Hey!\n"

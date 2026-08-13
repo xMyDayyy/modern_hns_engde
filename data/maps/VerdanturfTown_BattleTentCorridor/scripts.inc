@@ -98,8 +98,7 @@ VerdanturfTown_ContestHall_Text_MyMonRules:
 @ Unused
 VerdanturfTown_ContestHall_Text_NormalRankStage:
 #if GERMAN
-	.string "Pokémon Contests\n"
-	.string "Normal Rank Stage!$"
+	.string "Pokémon Contests Normal Rank Stage!$"
 #else
 	.string "POKéMON CONTESTS\n"
 	.string "NORMAL RANK STAGE!$"

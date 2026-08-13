@@ -55,8 +55,8 @@ IndigoPlateau_Text_ShigyNinja:
 
 IndigoPlateau_Text_Blackbelt:
 #if GERMAN
-	.string "Die Pokémon Liga akzeptiert\n"
-	.string "momentan keine neuen Herausforderer.\p"
+	.string "Die Pokémon Liga akzeptiert momentan\n"
+	.string "keine neuen Herausforderer.\p"
 	.string "Bitte komm später wieder.$"
 #else
 	.string "The POKéMON LEAGUE is not taking\n"

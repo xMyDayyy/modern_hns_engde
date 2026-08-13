@@ -15,8 +15,8 @@ CherrygroveCity_GuideHouse_Text_GuideGent:
 	.string "war, war ich ein Spitzentrainer!\p"
 	.string "Hier ein guter Rat:\n"
 	.string "Fang viele Pokémon!\p"
-	.string "Behandle sie alle mit\n"
-	.string "Respekt und Freundschaftlichkeit!$"
+	.string "Behandle sie alle mit Respekt und\n"
+	.string "Freundschaftlichkeit!$"
 #else
 	.string "When I was a wee lad, I was a\n"
 	.string "hotshot trainer!\p"

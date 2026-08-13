@@ -205,8 +205,7 @@ FallarborTown_BattleTentLobby_Text_PresentYouWithPrize:
 
 FallarborTown_BattleTentLobby_Text_ReceivedPrize:
 #if GERMAN
-	.string "{PLAYER} gewinnt\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} gewinnt {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"
@@ -258,8 +257,7 @@ FallarborTown_BattleTentLobby_Text_LookingForwardToArrival:
 
 VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent:
 #if GERMAN
-	.string "Willkommen im Kampfcamp von\n"
-	.string "Wiesenflur!\p"
+	.string "Willkommen im Kampfcamp von Wiesenflur!\p"
 	.string "Hier wird das Vertrauen der Trainer in\n"
 	.string "ihre Pokémon getestet.$"
 #else

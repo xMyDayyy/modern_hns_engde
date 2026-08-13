@@ -36,8 +36,8 @@ Route16_House_EventScript_Fearow::
 
 Route16_House_Text_FoundMySecretRetreat::
 #if GERMAN
-	.string "Du hast meinen geheimen\n"
-	.string "Unterschlupf gefunden!\p"
+	.string "Du hast meinen geheimen Unterschlupf\n"
+	.string "gefunden!\p"
 	.string "Bitte erzähle niemandem davon.\n"
 	.string "Du bekommst auch etwas von mir!$"
 #else
@@ -49,8 +49,7 @@ Route16_House_Text_FoundMySecretRetreat::
 
 Route16_House_Text_ReceivedHM02FromGirl::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "VM02!$"
+	.string "{PLAYER} erhält VM02!$"
 #else
 	.string "{PLAYER} received HM02\n"
 	.string "from the girl.$"

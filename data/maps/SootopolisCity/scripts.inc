@@ -1437,8 +1437,8 @@ SootopolisCity_Text_GiantPokemonSuddenlyAppeared:
 	.string "Pokémon mitten im Ort auf!\p"
 	.string "Ich habe sie noch nie vorher gesehen!\n"
 	.string "\p"
-	.string "Warum greifen sie sich wohl\n"
-	.string "gegenseitig an?\p"
+	.string "Warum greifen sie sich wohl gegenseitig\n"
+	.string "an?\p"
 	.string "Warum können diese Pokémon nicht\n"
 	.string "einfach Freunde sein?$"
 #else

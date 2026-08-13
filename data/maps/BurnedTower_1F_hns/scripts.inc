@@ -51,8 +51,8 @@ BurnedTower_Movement_Eusine2:
 BurnedTower_1FEusineIntroText:
 #if GERMAN
 	.string "Eusin: Mein Name ist Eusin.\p"
-	.string "Ich bin auf der Spur eines\n"
-	.string "Pokémon namens Suicune.\p"
+	.string "Ich bin auf der Spur eines Pokémon\n"
+	.string "namens Suicune.\p"
 	.string "Und du bist…?\p"
 	.string "{PLAYER}? Schön dich kennenzulernen!\p"
 	.string "Ich habe gehört, Suicune könnte in\n"
@@ -182,8 +182,8 @@ BurnedTowerSilver_BeforeText:
 #if GERMAN
 	.string "..............................\p"
 	.string "…Oh, du bist es.\p"
-	.string "Ich suchte nach legendären\n"
-	.string "Pokémon, die angeblich hier leben.\p"
+	.string "Ich suchte nach legendären Pokémon,\n"
+	.string "die angeblich hier leben.\p"
 	.string "Aber hier ist nichts!\p"
 	.string "Nichts, was den Aufwand hierher zu\n"
 	.string "kommen rechtfertigt, absolut?\l"
@@ -205,8 +205,8 @@ BurnedTowerSilver_BeforeText:
 BurnedTowerSilver_WinText:
 #if GERMAN
 	.string "…Humph!\p"
-	.string "Darum hasse ich es,\n"
-	.string "gegen Schwächlinge anzutreten.\p"
+	.string "Darum hasse ich es, gegen Schwächlinge\n"
+	.string "anzutreten.\p"
 	.string "Wie armselig.$"
 #else
 	.string "...Humph!\p"
@@ -275,10 +275,10 @@ BurnedTower_Text_NardBeaten:
 	.string "Danke für den heißen Kampf.$"
 BurnedTower_Text_NardAfter:
 #if GERMAN
-	.string "Dieser Turm ist durch einen\n"
-	.string "Blitzschlag abgebrannt.\p"
-	.string "Dagegen sind unsere Flammen\n"
-	.string "bloß heiße Luft…$"
+	.string "Dieser Turm ist durch einen Blitzschlag\n"
+	.string "abgebrannt.\p"
+	.string "Dagegen sind unsere Flammen bloß heiße\n"
+	.string "Luft…$"
 #else
 	.string "The reason this tower's burned is\n"
 	.string "that it was hit by lightning.\p"
@@ -300,8 +300,8 @@ BurnedTower_Text_RichardoBeaten:
 	.string "Pfffffffffffffff.$"
 BurnedTower_Text_RichardoAfter:
 #if GERMAN
-	.string "Vielleicht ist ein Leben als\n"
-	.string "Verbrecher doch nichts für mich…$"
+	.string "Vielleicht ist ein Leben als Verbrecher\n"
+	.string "doch nichts für mich…$"
 #else
 	.string "Maybe a life of crime isn't for\n"
 	.string "me...$"

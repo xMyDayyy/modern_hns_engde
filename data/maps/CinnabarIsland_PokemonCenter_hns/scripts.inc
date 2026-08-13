@@ -27,8 +27,8 @@ CinnabarIsland_PokemonCenter1F_Text_CooltrainerF:
 
 CinnabarIsland_PokemonCenter1F_Text_Fisher:
 #if GERMAN
-	.string "Es ist ein Jahr her,\n"
-	.string "seit dem Vulkanausbruch.$"
+	.string "Es ist ein Jahr her, seit dem\n"
+	.string "Vulkanausbruch.$"
 #else
 	.string "It's been a year since the volcano\n"
 	.string "erupted.$"

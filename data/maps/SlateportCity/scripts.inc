@@ -1702,8 +1702,8 @@ SlateportCity_Text_ExplainBerryPowder:
 	.string "Ich habe vor kurzem in den\n"
 	.string "Pokémon-Centern Maschinen installiert,\l"
 	.string "mit denen man Beeren mahlen kann.\p"
-	.string "Du findest sie im Direktklub\n"
-	.string "im oberen Stockwerk.\p"
+	.string "Du findest sie im Direktklub im oberen\n"
+	.string "Stockwerk.\p"
 	.string "Wusstest du das?\p"
 	.string "Kannst du mit dieser Maschine\n"
 	.string "Beerenpuder für mich\lherstellen?\p"
@@ -1739,8 +1739,8 @@ SlateportCity_Text_ExchangeWhatWithIt:
 
 SlateportCity_Text_ExchangeBerryPowderForItem:
 #if GERMAN
-	.string "Gut, ich gebe dir {STR_VAR_1} im\n"
-	.string "Austausch für deinen\lBeerenpuder!$"
+	.string "Gut, ich gebe dir {STR_VAR_1} im Austausch\n"
+	.string "für deinen\lBeerenpuder!$"
 #else
 	.string "Okay, you want to exchange your\n"
 	.string "BERRY POWDER for one {STR_VAR_1}?$"

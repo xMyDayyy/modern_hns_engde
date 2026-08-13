@@ -42,8 +42,8 @@ NewBarkTown_House1_Text_NeighborsDaughter:
 
 NewBarkTown_House1_Text_Neighbor:
 #if GERMAN
-	.string "Meine Tochter will unbedingt\n"
-	.string "Prof. Linds Assistentin werden.\p"
+	.string "Meine Tochter will unbedingt Prof. Linds\n"
+	.string "Assistentin werden.\p"
 	.string "Sie liebt Pokémon wirklich sehr!\p"
 	.string "Aber ich ja schließlich auch!$"
 #else

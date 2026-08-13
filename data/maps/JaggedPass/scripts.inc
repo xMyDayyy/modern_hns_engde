@@ -376,8 +376,8 @@ JaggedPass_Text_JulioIntro:
 
 JaggedPass_Text_JulioDefeat:
 #if GERMAN
-	.string "Ich fühle mich, als würde ich\n"
-	.string "zu Sand zerbröseln…$"
+	.string "Ich fühle mich, als würde ich zu Sand\n"
+	.string "zerbröseln…$"
 #else
 	.string "I feel like I'm falling apart…$"
 #endif

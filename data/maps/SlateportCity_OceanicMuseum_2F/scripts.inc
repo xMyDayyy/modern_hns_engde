@@ -382,8 +382,7 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 #if GERMAN
 	.string "Wir sind Team Aqua und lieben\n"
 	.string "das Meer!\p"
-	.string "Und ich bin Team Aquas Boss,\n"
-	.string "Adrian!\p"
+	.string "Und ich bin Team Aquas Boss, Adrian!\p"
 	.string "Wieso mischst du dich in unsere\n"
 	.string "Angelegenheiten ein?\p"
 	.string "Nein… Das kann nicht sein!\n"

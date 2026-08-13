@@ -549,8 +549,8 @@ LavaridgeTown_Gym_1F_Text_ExplainOverheat:
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
 #if GERMAN
-	.string "Arenaleiterin Flavia wurde\n"
-	.string "im PokéCom eingetragen.$"
+	.string "Arenaleiterin Flavia wurde im PokéCom\n"
+	.string "eingetragen.$"
 #else
 	.string "Registered GYM LEADER FLANNERY\n"
 	.string "in the POKéGEAR.$"

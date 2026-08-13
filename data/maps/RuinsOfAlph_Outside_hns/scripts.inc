@@ -20,8 +20,8 @@ RuinsOfAlph_Outside_EventScript_Quagsire::
 RuinsOfAlph_Outside_Text_Quagsire:
 #if GERMAN
 	.string "Es gibt viele unterschiedliche\p"
-	.string "Icognito, die wir\n"
-	.string "für unsere Geheimcodes benötigen.$"
+	.string "Icognito, die wir für unsere\n"
+	.string "Geheimcodes benötigen.$"
 #else
 	.string "QUAGSIRE: Quag Quag$"
 #endif
@@ -174,8 +174,8 @@ RuinsOfAlph_Outside_Text_PsychicNathan_Beaten:
 
 RuinsOfAlph_Outside_Text_PsychicNathan_After:
 #if GERMAN
-	.string "Ich komme oft hierher,\n"
-	.string "um nachzudenken.$"
+	.string "Ich komme oft hierher, um\n"
+	.string "nachzudenken.$"
 #else
 	.string "I like thinking here.$"
 #endif
@@ -210,8 +210,8 @@ RuinsOfAlph_Outside_Text_ResearchSign:
 RuinsOfAlph_Outside_Text_Fisher1:
 #if GERMAN
 	.string "Beim Erkunden der Ruinen haben wir\p"
-	.string "plötzlich eine seltsame\n"
-	.string "Gegenwart gespürt.\p"
+	.string "plötzlich eine seltsame Gegenwart\n"
+	.string "gespürt.\p"
 	.string "Alle hatten Angst und liefen davon.\p"
 	.string "Du solltest auch vorsichtig sein.$"
 #else
@@ -223,8 +223,8 @@ RuinsOfAlph_Outside_Text_Fisher1:
 
 RuinsOfAlph_Outside_Text_Fisher2:
 #if GERMAN
-	.string "Den Ruinen wohnt\n"
-	.string "ein großes Geheimnis inne!\p"
+	.string "Den Ruinen wohnt ein großes Geheimnis\n"
+	.string "inne!\p"
 	.string "…Ich denke…$"
 #else
 	.string "The RUINS hide a huge secret!\p"

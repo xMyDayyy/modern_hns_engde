@@ -45,8 +45,7 @@ Route4_Text_CrissyPostBattle::
 #if GERMAN
 	.string "Es dürfte hier keine Pilz-Pokémon\n"
 	.string "mehr geben.\p"
-	.string "Ich glaube, ich habe alle\n"
-	.string "gefangen.$"
+	.string "Ich glaube, ich habe alle gefangen.$"
 #else
 	.string "There might not be any more\n"
 	.string "mushrooms here.\p"
@@ -131,8 +130,8 @@ Text_MegaKickTeach::
 	.string "Ein Tritt von brutaler Energie!\p"
 	.string "Mit zerstörerischer, verheerender\n"
 	.string "Wirkung.\p"
-	.string "Wenn es darauf ankommt, ist \n"
-	.string "Megakick die ultimative Attacke!\p"
+	.string "Wenn es darauf ankommt, ist Megakick\n"
+	.string "die ultimative Attacke!\p"
 	.string "O.K.!\n"
 	.string "Ich werde Megakick einem Pokémon\l"
 	.string "beibringen.$"

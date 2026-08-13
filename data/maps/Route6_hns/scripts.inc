@@ -50,8 +50,8 @@ Route6_Text_UndergroundPathSign:
 
 PokefanM_Text_RexSeen:
 #if GERMAN
-	.string "Mein Damhirplex ist\n"
-	.string "das niedlichste der ganzen Welt.$"
+	.string "Mein Damhirplex ist das niedlichste der\n"
+	.string "ganzen Welt.$"
 #else
 	.string "My STANTLER is the cutest in the\n"
 	.string "world.$"
@@ -66,10 +66,9 @@ PokefanM_Text_RexBeaten:
 
 PokefanM_Text_RexAfter:
 #if GERMAN
-	.string "Sieh nur, wie süß mein\n"
-	.string "Damhirplex sich verhält!\p"
-	.string "Mein Herz\n"
-	.string "schmilzt dahin!$"
+	.string "Sieh nur, wie süß mein Damhirplex sich\n"
+	.string "verhält!\p"
+	.string "Mein Herz schmilzt dahin!$"
 #else
 	.string "Look how adorable my STANTLER\n"
 	.string "acts!\p"
@@ -79,8 +78,8 @@ PokefanM_Text_RexAfter:
 
 PokefanM_Text_AllanSeen:
 #if GERMAN
-	.string "Mein Granbull ist\n"
-	.string "das niedlichste der ganzen Welt.$"
+	.string "Mein Granbull ist das niedlichste der\n"
+	.string "ganzen Welt.$"
 #else
 	.string "My GRANBULL is the cutest in the\n"
 	.string "world.$"
@@ -95,10 +94,9 @@ PokefanM_Text_AllanBeaten:
 
 PokefanM_Text_AllanAfter:
 #if GERMAN
-	.string "Sieh nur, wie süß mein\n"
-	.string "Granbull sich verhält!\p"
-	.string "Mein Herz\n"
-	.string "schmilzt dahin!$"
+	.string "Sieh nur, wie süß mein Granbull sich\n"
+	.string "verhält!\p"
+	.string "Mein Herz schmilzt dahin!$"
 #else
 	.string "Look how adorable my GRANBULL\n"
 	.string "acts!\p"

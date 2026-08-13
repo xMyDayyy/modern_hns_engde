@@ -17,8 +17,8 @@ BellchimeTrail_EventScript_Morty::
 
 BellchimeTrail_Text_Morty:
 #if GERMAN
-	.string "Jens: Das Legendäre Pokémon\n"
-	.string "hat mich nicht auserwählt…\p"
+	.string "Jens: Das Legendäre Pokémon hat mich\n"
+	.string "nicht auserwählt…\p"
 	.string "Aber deshalb muss ich ja nicht\n"
 	.string "sofort das Handtuch werfen.\p"
 	.string "Ich trainiere einfach weiter, bis\n"

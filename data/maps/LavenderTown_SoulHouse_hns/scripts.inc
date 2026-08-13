@@ -24,8 +24,7 @@ MrFuji_Text_Main:
 	.string "zollen.\p"
 	.string "Bitte erweise den Seelen der\n"
 	.string "verstorbenen Pokémon dein Mitgefühl.\p"
-	.string "Ich bin sicher, das macht sie\n"
-	.string "glücklich.$"
+	.string "Ich bin sicher, das macht sie glücklich.$"
 #else
 	.string "MR.FUJI: Welcome.\p"
 	.string "Hmm… You appear to be raising\n"

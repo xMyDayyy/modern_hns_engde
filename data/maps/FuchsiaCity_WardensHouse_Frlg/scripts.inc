@@ -141,8 +141,7 @@ FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething::
 
 FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "VM04!$"
+	.string "{PLAYER} erhält VM04!$"
 #else
 	.string "{PLAYER} received HM04\n"
 	.string "from the WARDEN.$"

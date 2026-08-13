@@ -100,8 +100,8 @@ Route38_EventScript_Item_LaxIncense::
 
 Route38_Text_BirdKeeperTobySeen:
 #if GERMAN
-	.string "Fliegt hoch hinaus, meine\n"
-	.string "herrlichen Vogel-Pokémon!$"
+	.string "Fliegt hoch hinaus, meine herrlichen\n"
+	.string "Vogel-Pokémon!$"
 #else
 	.string "Fly high into the sky,\n"
 	.string "my beloved bird POKéMON!$"
@@ -206,10 +206,9 @@ Route38_Text_ChadPostRematch:
 
 Route38_Text_LassDana1Seen:
 #if GERMAN
-	.string "Du scheinst gut mit\n"
-	.string "Pokémon umgehen zu können.\p"
-	.string "Wenn ja, gibst du mir\n"
-	.string "ein paar Tipps?$"
+	.string "Du scheinst gut mit Pokémon umgehen zu\n"
+	.string "können.\p"
+	.string "Wenn ja, gibst du mir ein paar Tipps?$"
 #else
 	.string "You seem to be good at\n"
 	.string "POKéMON.\p"
@@ -250,8 +249,8 @@ Route38_Text_BeautyValerieSeen:
 
 Route38_Text_BeautyValerieBeaten:
 #if GERMAN
-	.string "Ich bin froh, dass ich\n"
-	.string "dein Pokémon-Team sehen durfte!$"
+	.string "Ich bin froh, dass ich dein\n"
+	.string "Pokémon-Team sehen durfte!$"
 #else
 	.string "I'm glad I got to see\n"
 	.string "your POKéMON!$"
@@ -279,8 +278,7 @@ Route38_Text_SailorHarrySeen:
 
 Route38_Text_SailorHarryBeaten:
 #if GERMAN
-	.string "Deine Fähigkeiten\n"
-	.string "sind Weltklasse!$"
+	.string "Deine Fähigkeiten sind Weltklasse!$"
 #else
 	.string "Your skill is world class!$"
 #endif
@@ -298,8 +296,8 @@ Route38_Text_SailorHarryAfter:
 
 Route38_Text_BeautyOliviaSeen:
 #if GERMAN
-	.string "Meine Pokémon und Ich\n"
-	.string "sind wunderschön, nicht wahr?$"
+	.string "Meine Pokémon und Ich sind\n"
+	.string "wunderschön, nicht wahr?$"
 #else
 	.string "Don't you think my POKéMON\n"
 	.string "and I are beautiful?$"
@@ -315,10 +313,10 @@ Route38_Text_BeautyOliviaBeaten:
 
 Route38_Text_BeautyOliviaAfter:
 #if GERMAN
-	.string "Kuhmuh-Milch ist gut für\n"
-	.string "Schönheit und Gesundheit.\p"
-	.string "Doch leider wird sie nur\n"
-	.string "flaschenweise verkauft.$"
+	.string "Kuhmuh-Milch ist gut für Schönheit und\n"
+	.string "Gesundheit.\p"
+	.string "Doch leider wird sie nur flaschenweise\n"
+	.string "verkauft.$"
 #else
 	.string "MOOMOO MILK is good for\n"
 	.string "beauty and health,\p"
@@ -379,10 +377,10 @@ Route38_Text_DanaRegister:
 
 Route38_Text_DanaRematchIntro:
 #if GERMAN
-    .string "Du scheinst dich gut mit\n"
-    .string "Pokémon auszukennen.\p"
-    .string "Wenn das so ist, könntest du\n"
-    .string "mir vielleicht ein paar Tipps geben?$"
+    .string "Du scheinst dich gut mit Pokémon\n"
+    .string "auszukennen.\p"
+    .string "Wenn das so ist, könntest du mir\n"
+    .string "vielleicht ein paar Tipps geben?$"
 #else
 	.string "You seem to be good at\n"
 	.string "POKéMON.\p"
@@ -411,8 +409,8 @@ Route38_Text_DanaPostRematch:
 
 Route38_Text_DanaHasItem:
 #if GERMAN
-    .string "Hey! Ich habe etwas\n"
-    .string "Interessantes gefunden!\p"
+    .string "Hey! Ich habe etwas Interessantes\n"
+    .string "gefunden!\p"
     .string "Hier, du kannst es haben!$"
 #else
 	.string "Hey! I found something\n"

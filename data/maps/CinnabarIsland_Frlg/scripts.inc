@@ -462,8 +462,8 @@ CinnabarIsland_Text_IllBeWaitingInPokeCenter::
 	.string "Das Schiff hat noch nicht angelegt.\p"
 	.string "Ich warte am Pokémon-Center\n"
 	.string "dort drüben auf dich.\p"
-	.string "Hol mich ab, wenn du deine\n"
-	.string "Geschäfte erledigt hast.$"
+	.string "Hol mich ab, wenn du deine Geschäfte\n"
+	.string "erledigt hast.$"
 #else
 	.string "What, are you too busy?\p"
 	.string "Well, all right.\n"

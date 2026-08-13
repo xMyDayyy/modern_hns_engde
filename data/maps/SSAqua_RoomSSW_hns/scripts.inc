@@ -55,8 +55,8 @@ SSAqua_RoomSSW_Text_BugCatcherKenBeaten:
 
 SSAqua_RoomSSW_Text_BugCatcherKenAfterBattle:
 #if GERMAN
-	.string "Viele Pokémon kannst du in\n"
-	.string "den Bäumen von Johto finden!$"
+	.string "Viele Pokémon kannst du in den Bäumen\n"
+	.string "von Johto finden!$"
 #else
     .string "You can find lots of POKéMON\n"
     .string "in the trees of JOHTO!$"

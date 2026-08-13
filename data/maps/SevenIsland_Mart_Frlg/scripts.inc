@@ -40,8 +40,8 @@ SevenIsland_Mart_EventScript_Fisher::
 
 SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn::
 #if GERMAN
-	.string "Pokémon haben genau wie\n"
-	.string "Menschen ihre eigene Persönlichkeit.\p"
+	.string "Pokémon haben genau wie Menschen ihre\n"
+	.string "eigene Persönlichkeit.\p"
 	.string "Mein Pikachu hat ein Hastiges Wesen,\n"
 	.string "also ist es ein schnelles Pokémon.$"
 #else
@@ -63,8 +63,8 @@ SevenIsland_Mart_Text_PreparationsCompleteForRuins::
 
 SevenIsland_Mart_Text_NeedToFishOnSevenIsland::
 #if GERMAN
-	.string "Ahh, ich habe endlich meinen\n"
-	.string "Kaffee bekommen!\p"
+	.string "Ahh, ich habe endlich meinen Kaffee\n"
+	.string "bekommen!\p"
 	.string "Aber er war zu stark. Jetzt habe\n"
 	.string "ich Kopfschmerzen…\p"
 	.string "Hilft dir mein Lehrkanal?$"

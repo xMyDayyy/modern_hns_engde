@@ -28,8 +28,8 @@ gText_Oak_Pokemon::
 
 gText_Oak_MainSpeech::
 #if GERMAN
-	.string "Menschen und Pokémon leben\n"
-	.string "zusammen und helfen einander.\p"
+	.string "Menschen und Pokémon leben zusammen\n"
+	.string "und helfen einander.\p"
 	.string "Für manche Leute sind Pokémon\n"
 	.string "Haustiere, andere tragen Kämpfe mit\l"
 	.string "ihnen aus.\p"
@@ -37,8 +37,8 @@ gText_Oak_MainSpeech::
 	.string "über Pokémon.\p"
 	.string "Es gibt noch viele Geheimnisse\n"
 	.string "zu lüften.\p"
-	.string "Darum studiere ich Pokémon\n"
-	.string "tagaus, tagein!\p"
+	.string "Darum studiere ich Pokémon tagaus,\n"
+	.string "tagein!\p"
 	.string "$"
 #else
 	.string "This world is widely inhabited by\n"
@@ -74,8 +74,8 @@ gText_Oak_BoyOrGirl::
 gText_Oak_WhatChallenge::
 #if GERMAN
 	.string "Aha…\p"
-	.string "Und… wie, denkst du,\n"
-	.string "wird das Abenteuer werden?$"
+	.string "Und… wie, denkst du, wird das Abenteuer\n"
+	.string "werden?$"
 #else
 	.string "What challenge are you\n"
 	.string "expecting?$"
@@ -83,8 +83,8 @@ gText_Oak_WhatChallenge::
 
 gText_Oak_ChallengeSelected::
 #if GERMAN
-	.string "Hört sich gut an,\n"
-	.string "eine nette Herausforderung!$"
+	.string "Hört sich gut an, eine nette\n"
+	.string "Herausforderung!$"
 #else
 	.string "That sounds like the right\n"
 #endif
@@ -122,8 +122,8 @@ gText_Oak_AreYouReady::
 	.string "{PLAYER}{KUN}, bist du bereit?\p"
 	.string "Dein eigenes Pokémon-Abenteuer\n"
 	.string "erwartet dich.\p"
-	.string "Dich erwarten tolle Dinge,\n"
-	.string "aber auch harte Zeiten.\p"
+	.string "Dich erwarten tolle Dinge, aber auch\n"
+	.string "harte Zeiten.\p"
 	.string "Eine Welt voller Träume und aufregender\n"
 	.string "Pokémon-Abenteuer erwartet dich! Mach\l"
 	.string "dich bereit!\p"

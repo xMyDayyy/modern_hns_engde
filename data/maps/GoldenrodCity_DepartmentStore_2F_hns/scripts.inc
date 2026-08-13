@@ -36,8 +36,8 @@ GoldenrodDeptStore2_EventScript_Sign::
 
 GoldenrodDeptStore_Text_2FYoungster:
 #if GERMAN
-	.string "Der PokéCom kann bis zu\n"
-	.string "25 Nummern speichern.\p"
+	.string "Der PokéCom kann bis zu 25 Nummern\n"
+	.string "speichern.\p"
 	.string "Es ist schwer zu entscheiden,\n"
 	.string "welche Nummern man behält.$"
 #else

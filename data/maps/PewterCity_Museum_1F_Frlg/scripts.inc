@@ -256,8 +256,7 @@ PewterCity_Museum_1F_Text_AmberContainsGeneticMatter::
 
 PewterCity_Museum_1F_Text_AmberIsFossilizedSap::
 #if GERMAN
-	.string "Bernstein ist versteinertes\n"
-	.string "Baumharz.$"
+	.string "Bernstein ist versteinertes Baumharz.$"
 #else
 	.string "AMBER is actually sap, that gooey\n"
 	.string "stuff that oozes from trees.\p"
@@ -289,8 +288,7 @@ PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
 	.string "könnte!\p"
 	.string "Doch meine Kollegen nehmen mich\n"
 	.string "nicht ernst!\p"
-	.string "Könntest du etwas für mich\n"
-	.string "erledigen?\p"
+	.string "Könntest du etwas für mich erledigen?\p"
 	.string "Lass das im Pokémon-Labor\n"
 	.string "untersuchen!$"
 #else
@@ -310,8 +308,7 @@ PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
 
 PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "einen Altbernstein!$"
+	.string "{PLAYER} erhält einen Altbernstein!$"
 #else
 	.string "{PLAYER} received the OLD AMBER\n"
 	.string "from the man.$"

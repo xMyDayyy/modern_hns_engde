@@ -65,8 +65,7 @@ Route50_EventScript_WesselAfter::
 Route50_Text_WesselBefore:
 #if GERMAN
 	.string "Unglaublich, ein Voltobal!\p"
-	.string "Aber es scheint aus… Holz zu\n"
-	.string "bestehen?\p"
+	.string "Aber es scheint aus… Holz zu bestehen?\p"
 	.string "Meine Hypothese, dass es auf dieser\n"
 	.string "Route viele Stahl-Pokémon gibt, ist\l"
 	.string "damit erneut widerlegt.\p"
@@ -142,15 +141,14 @@ Route50_EventScript_FinleyAfter::
 
 Route50_Text_FinleyBefore:
 #if GERMAN
-	.string "Wie behandeln dich die\n"
-	.string "Dorfbewohner?\p"
+	.string "Wie behandeln dich die Dorfbewohner?\p"
 	.string "Fremden gegenüber können sie sehr\n"
 	.string "abweisend sein.\p"
 	.string "Dabei ist es eine der größten Freuden\n"
 	.string "des Lebens, neue Menschen\l"
 	.string "kennenzulernen.\p"
-	.string "Eines Tages hoffe ich, Champ\n"
-	.string "Siegfried zu begegnen.\p"
+	.string "Eines Tages hoffe ich, Champ Siegfried\n"
+	.string "zu begegnen.\p"
 	.string "Er ist ein legendärer Drachen-Bändiger,\n"
 	.string "ganz wie ich.\l"
 	.string "Wer ich bin?\p"
@@ -188,8 +186,7 @@ Route50_Text_FinleyBeforeBattle:
 
 Route50_Text_FinleyDefeat:
 #if GERMAN
-	.string "Meine Drachen haben tapfer\n"
-	.string "gekämpft.$"
+	.string "Meine Drachen haben tapfer gekämpft.$"
 #else
 	.string "My dragons fought well.$"
 #endif

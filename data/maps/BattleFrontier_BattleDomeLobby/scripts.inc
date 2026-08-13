@@ -632,8 +632,7 @@ BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize:
 @ Used by Verdanturf Tent
 BattleFrontier_BattleDomeLobby_Text_ReceivedPrize:
 #if GERMAN
-	.string "{PLAYER} gewinnt\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} gewinnt {STR_VAR_1}.$"
 #else
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"
@@ -792,8 +791,8 @@ BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
 #if GERMAN
 	.string "Hast du es gesehen?\n"
 	.string "Ich meine, das letzte Kampfturnier?\p"
-	.string "Der Gewinner, {STR_VAR_1}, war\n"
-	.string "wirklich äußerst stark.\p"
+	.string "Der Gewinner, {STR_VAR_1}, war wirklich\n"
+	.string "äußerst stark.\p"
 	.string "Du solltest dir die Ergebnisse mal an-\n"
 	.string "schauen, auf dem Monitor neben dem PC.$"
 #else

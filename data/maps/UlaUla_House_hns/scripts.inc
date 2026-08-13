@@ -191,8 +191,7 @@ Alola_Ulaula_House_Phant_Text_3:
 
 Alola_Ulaula_House_Phant_Text_4:
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "ein Ei von Phantonomy!$"
+	.string "{PLAYER} erhält ein Ei von Phantonomy!$"
 #else
 	.string "You received an Egg from PHANTONOMY!$"
 #endif

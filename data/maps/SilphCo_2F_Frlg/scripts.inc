@@ -166,8 +166,8 @@ Text_ThunderWaveDeclined::
 
 Text_ThunderWaveWhichMon::
 #if GERMAN
-	.string "Welches Pokémon soll\n"
-	.string "Donnerwelle erlernen?$"
+	.string "Welches Pokémon soll Donnerwelle\n"
+	.string "erlernen?$"
 #else
 	.string "Which POKéMON should I teach\n"
 	.string "THUNDER WAVE?$"
@@ -175,8 +175,8 @@ Text_ThunderWaveWhichMon::
 
 Text_ThunderWaveTaught::
 #if GERMAN
-	.string "Donnerwelle verursacht\n"
-	.string "Paralyse beim Gegner.\p"
+	.string "Donnerwelle verursacht Paralyse beim\n"
+	.string "Gegner.\p"
 	.string "Ein paralysiertes Pokémon kann\n"
 	.string "sich im Kampf evtl. nicht bewegen.\p"
 	.string "Da es eine Attacke der Elementklasse\n"

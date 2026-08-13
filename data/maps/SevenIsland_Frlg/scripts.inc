@@ -45,8 +45,8 @@ Text_SwordsDanceDeclined::
 
 Text_SwordsDanceWhichMon::
 #if GERMAN
-	.string "In Ordnung, welchem Pokémon\n"
-	.string "soll ich die Attacke beibringen?$"
+	.string "In Ordnung, welchem Pokémon soll ich die\n"
+	.string "Attacke beibringen?$"
 #else
 	.string "All right, pick which POKéMON\n"
 	.string "I should teach it to.$"
@@ -54,8 +54,8 @@ Text_SwordsDanceWhichMon::
 
 Text_SwordsDanceTaught::
 #if GERMAN
-	.string "Wenn wir doch auch immer\n"
-	.string "stärker werden könnten!$"
+	.string "Wenn wir doch auch immer stärker werden\n"
+	.string "könnten!$"
 #else
 	.string "If only we could keep getting\n"
 	.string "stronger and stronger, eh?$"
@@ -74,8 +74,8 @@ SevenIsland_Text_IslandsMadeInSevenDays::
 #if GERMAN
 	.string "Diese Eilande werden Sevii Eiland\n"
 	.string "genannt, weil es sieben sind.\p"
-	.string "… das glauben zumindest die\n"
-	.string "jungen Leute.\p"
+	.string "… das glauben zumindest die jungen\n"
+	.string "Leute.\p"
 	.string "Die Wahrheit ist, dass die Eilande so\n"
 	.string "heißen, weil sie in sieben Tagen\l"
 	.string "geschaffen wurden.$"

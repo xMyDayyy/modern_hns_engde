@@ -49,8 +49,8 @@ LavenderTown_Text_PokefanM:
 
 LavenderTown_Text_Teacher:
 #if GERMAN
-	.string "In Kanto laufen viele gute\n"
-	.string "Sendungen im Radio!$"
+	.string "In Kanto laufen viele gute Sendungen im\n"
+	.string "Radio!$"
 #else
 	.string "KANTO has many good radio shows.$"
 #endif

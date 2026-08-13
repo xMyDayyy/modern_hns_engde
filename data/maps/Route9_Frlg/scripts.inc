@@ -81,8 +81,7 @@ Route9_Text_DrewPostBattle::
 
 Route9_Text_CaitlinIntro::
 #if GERMAN
-	.string "Trau dich ruhig, mit mir zu\n"
-	.string "kämpfen!$"
+	.string "Trau dich ruhig, mit mir zu kämpfen!$"
 #else
 	.string "Don't you dare patronize me!$"
 #endif
@@ -170,8 +169,7 @@ Route9_Text_BrentIntro::
 Route9_Text_BrentDefeat::
 #if GERMAN
 	.string "Was?\p"
-	.string "Das war die reinste\n"
-	.string "Zeitverschwendung!$"
+	.string "Das war die reinste Zeitverschwendung!$"
 #else
 	.string "WHAT?\p"
 	.string "What a total waste of time!$"

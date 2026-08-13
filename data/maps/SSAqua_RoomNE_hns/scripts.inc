@@ -54,10 +54,9 @@ SSAqua_RoomNE_Text_PokemaniacEthanBeaten:
 
 SSAqua_RoomNE_Text_PokemaniacEthanAfterBattle:
 #if GERMAN
-	.string "Lilly ist gut,\n"
-	.string "aber Margit ist die Beste!\p"
-	.string "Ich möchte gerne\n"
-	.string "alle Radiosender von Johto anhören!$"
+	.string "Lilly ist gut, aber Margit ist die Beste!\p"
+	.string "Ich möchte gerne alle Radiosender von\n"
+	.string "Johto anhören!$"
 #else
     .string "LILY's nice, but\n"
     .string "MARY's the best!\n"

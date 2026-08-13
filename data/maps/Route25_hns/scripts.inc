@@ -29,8 +29,8 @@ Route25_Text_Misty:
 #if GERMAN
 	.string "Misty: Ich liebe den Sonnenuntergang\n"
 	.string "hier!\p"
-	.string "Er gibt mir den Mut,\n"
-	.string "weiterzumachen, weißt du?\p"
+	.string "Er gibt mir den Mut, weiterzumachen,\n"
+	.string "weißt du?\p"
 	.string "Richtig!\p"
 	.string "Wenn du bereit bist, Welle zu machen,\n"
 	.string "triff mich im Kampf-Dojo!$"
@@ -675,8 +675,7 @@ Route25_Text_CooltrainerKevinSeen:
 
 Route25_Text_CooltrainerKevinBeaten:
 #if GERMAN
-	.string "Das war der beste\n"
-	.string "Kampf meines Lebens!$"
+	.string "Das war der beste Kampf meines Lebens!$"
 #else
 	.string "I've never had a battle this\n"
 	.string "good!$"

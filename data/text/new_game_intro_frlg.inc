@@ -332,8 +332,7 @@ gControlsGuide_Text_BButton::
 
 gControlsGuide_Text_StartButton::
 #if GERMAN
-	.string "Drücke START, um das Menü\n"
-	.string "aufzurufen!$"
+	.string "Drücke START, um das Menü aufzurufen!$"
 #else
 	.string "Press this button to open the\n"
 	.string "MENU.$"
@@ -341,8 +340,8 @@ gControlsGuide_Text_StartButton::
 
 gControlsGuide_Text_SelectButton::
 #if GERMAN
-	.string "Items bewegen und SELECT\n"
-	.string "zugewiesene Items benutzen.$"
+	.string "Items bewegen und SELECT zugewiesene\n"
+	.string "Items benutzen.$"
 #else
 	.string "Used to shift items and to use\n"
 	.string "a registered item.$"
@@ -361,8 +360,8 @@ gControlsGuide_Text_LRButtons::
 
 gOakSpeech_Text_AskPlayerGender::
 #if GERMAN
-	.string "Verrätst du mir, ob du ein\n"
-	.string "Junge oder ein Mädchen bist?$"
+	.string "Verrätst du mir, ob du ein Junge oder\n"
+	.string "ein Mädchen bist?$"
 #else
 	.string "Now tell me. Are you a boy?\n"
 	.string "Or are you a girl?$"
@@ -433,8 +432,7 @@ gOakSpeech_Text_WelcomeToTheWorld::
 	.string "Herzlich willkommen in der Welt der\n"
 	.string "Pokémon!\p"
 	.string "Mein Name ist Eich!\p"
-	.string "Man nennt mich den Pokémon-\n"
-	.string "Professor!\p$"
+	.string "Man nennt mich den Pokémon-Professor!$"
 #else
 	.string "Hello, there!\n"
 	.string "Glad to meet you!\p"
@@ -466,8 +464,8 @@ gOakSpeech_Text_IStudyPokemon::
 	.string "Haustiere, andere tragen Kämpfe mit\l"
 	.string "ihnen aus.\p"
 	.string "Ich selbst...\p"
-	.string "... habe mein Hobby zum Beruf\n"
-	.string "gemacht und studiere Pokémon.\p$"
+	.string "... habe mein Hobby zum Beruf gemacht\n"
+	.string "und studiere Pokémon.$"
 #else
 	.string "For some people, POKéMON are pets.\n"
 	.string "Others use them for battling.\p"
@@ -507,8 +505,7 @@ gOakSpeech_Text_WhatWasHisName::
 	.string "Dies ist mein Enkel.\p"
 	.string "Von jeher wollt ihr einander\n"
 	.string "übertrumpfen!\p"
-	.string "Hmm, wie war noch gleich sein\n"
-	.string "Name?$"
+	.string "Hmm, wie war noch gleich sein Name?$"
 #else
 	.string "This is my grandson.\p"
 	.string "He's been your rival since you both\n"

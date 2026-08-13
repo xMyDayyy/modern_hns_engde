@@ -110,8 +110,7 @@ Route24_Text_JustEarnedFabulousPrize::
 
 Route24_Text_ReceivedNuggetFromMysteryTrainer::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "ein Nugget!$"
+	.string "{PLAYER} erhält ein Nugget!$"
 #else
 	.string "{PLAYER} received a NUGGET\n"
 	.string "from the mystery TRAINER!$"
@@ -167,8 +166,8 @@ Route24_Text_YoudBecomeTopRocketLeader::
 #if GERMAN
 	.string "Bei deinem Können wärst du im Team\n"
 	.string "Rocket leicht die rechte Hand vom Boss!\p"
-	.string "Denke darüber nach! Lass dir\n"
-	.string "diese Chance nicht entgehen!$"
+	.string "Denke darüber nach! Lass dir diese\n"
+	.string "Chance nicht entgehen!$"
 #else
 	.string "With your ability, you'd become\n"
 	.string "a top leader in TEAM ROCKET.\p"

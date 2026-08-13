@@ -91,8 +91,8 @@ CianwoodGym_EventScript_GymGuideAfter::
 
 CianwoodCity_Text_GymGuide:
 #if GERMAN
-	.string "Die Arena-Trainer hier sind\n"
-	.string "richtige Machos.\p"
+	.string "Die Arena-Trainer hier sind richtige\n"
+	.string "Machos.\p"
 	.string "Wenn ich länger bleibe, könnten\n"
 	.string "sie hinter mir her sein.\p"
 	.string "Ein Tipp: Der Arena-Leiter nutzt\n"

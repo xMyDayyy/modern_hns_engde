@@ -172,8 +172,8 @@ Route30_Text_YoungsterJoey1After:
 #if GERMAN
 	.string "Benötige ich noch mehr Pokémon,\n"
 	.string "um noch besser zu kämpfen?\p"
-	.string "Nein! Ich behalte dieses,\n"
-	.string "egal was passiert!$"
+	.string "Nein! Ich behalte dieses, egal was\n"
+	.string "passiert!$"
 #else
 	.string "Do I have to have more POKéMON\n"
 	.string "in order to battle better?\p"
@@ -215,8 +215,8 @@ Route30_Text_YoungsterMikeyAfter:
 
 Route30_Text_BugCatcherDonSeen:
 #if GERMAN
-	.string "Ich suchte Käfer-Pokémon,\n"
-	.string "doch ich fand einen Trainer!$"
+	.string "Ich suchte Käfer-Pokémon, doch ich\n"
+	.string "fand einen Trainer!$"
 #else
 	.string "Instead of a bug POKéMON,\n"
 	.string "I found a trainer!$"
@@ -224,8 +224,7 @@ Route30_Text_BugCatcherDonSeen:
 
 Route30_Text_BugCatcherDonBeaten:
 #if GERMAN
-	.string "Argh! Du bist\n"
-	.string "zu stark!$"
+	.string "Argh! Du bist zu stark!$"
 #else
 	.string "Argh! You're too strong!$"
 #endif
@@ -243,8 +242,8 @@ Route30_Text_BugCatcherDonAfter:
 
 Route30_Text_YoungsterDirectionsToMrPokemon:
 #if GERMAN
-	.string "Das Haus von Mr. Pokémon\n"
-	.string "ist gleich da vorne!$"
+	.string "Das Haus von Mr. Pokémon ist gleich da\n"
+	.string "vorne!$"
 #else
 	.string "MR. POKéMON's house?\n"
 	.string "It's a bit farther ahead.$"
@@ -314,13 +313,12 @@ Route30_Text_TrainerTips:
 Route30_Text_JoeyRegister:
 #if GERMAN
     .string "Du bist ziemlich gut!\p"
-    .string "Mein Rattfratz will wie immer\n"
-    .string "sofort loslegen.\p"
+    .string "Mein Rattfratz will wie immer sofort\n"
+    .string "loslegen.\p"
     .string "Es ist mein einziges Pokémon.\n"
     .string "Mit ihm werde ich ein großer Trainer\l"
     .string "werden!\p"
-    .string "Lass uns irgendwann wieder\n"
-    .string "kämpfen!$"
+    .string "Lass uns irgendwann wieder kämpfen!$"
 #else
 	.string "You're pretty good!\p"
 	.string "My RATTATA's raring to go,\n"
@@ -354,8 +352,8 @@ Route30_Text_JoeyPostRematch:
     .string "Ich überprüfe die Attacken meines\n"
     .string "Rattfratz und tüftele an neuen\l"
     .string "Strategien.\p"
-    .string "Wenn ich eine gute gefunden\n"
-    .string "habe, kämpfen wir wieder!$"
+    .string "Wenn ich eine gute gefunden habe,\n"
+    .string "kämpfen wir wieder!$"
 #else
 	.string "I'm checking out my\n"
 	.string "RATTATA's moves and devising\l"

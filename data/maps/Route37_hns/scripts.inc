@@ -82,8 +82,7 @@ Route37_EventScript_Sign::
 
 Route37_Text_TwinsAnnAndAnne1_Seen:
 #if GERMAN
-	.string "Wir arbeiten immer\n"
-	.string "zusammen!$"
+	.string "Wir arbeiten immer zusammen!$"
 #else
 	.string "ANN: ANNE and I are in this\n"
 	.string "together!$"
@@ -99,8 +98,8 @@ Route37_Text_TwinsAnnAndAnne1_Beaten:
 
 Route37_Text_TwinsAnnAndAnne1_After:
 #if GERMAN
-	.string "Ich weiß genau, was meine\n"
-	.string "Schwester und Pokémon denken.$"
+	.string "Ich weiß genau, was meine Schwester und\n"
+	.string "Pokémon denken.$"
 #else
 	.string "ANN: I can tell what my sister and\n"
 	.string "my POKéMON are thinking.$"
@@ -108,8 +107,7 @@ Route37_Text_TwinsAnnAndAnne1_After:
 
 Route37_Text_TwinsAnnAndAnne2_Seen:
 #if GERMAN
-	.string "Wir arbeiten immer\n"
-	.string "zusammen!$"
+	.string "Wir arbeiten immer zusammen!$"
 #else
 	.string "ANNE: ANN and I are in this\n"
 	.string "together!$"
@@ -125,8 +123,7 @@ Route37_Text_TwinsAnnAndAnne2_Beaten:
 
 Route37_Text_TwinsAnnAndAnne2_After:
 #if GERMAN
-	.string "Wir fühlen genau wie\n"
-	.string "unsere Pokémon.$"
+	.string "Wir fühlen genau wie unsere Pokémon.$"
 #else
 	.string "ANNE: We share the same feelings as\n"
 	.string "our POKéMON.$"

@@ -354,8 +354,8 @@ Text_WantToHeadbutt:
 
 Text_CantHeadbutt:
 #if GERMAN
-	.string "Es ist ein kleiner Baum, aber\n"
-	.string "ein Pokémon könnte darin leben.$"
+	.string "Es ist ein kleiner Baum, aber ein\n"
+	.string "Pokémon könnte darin leben.$"
 #else
 	.string "It's a small tree, but a wild\n"
 	.string "POKéMON may be living within.$"
@@ -610,8 +610,8 @@ Movement_WhirlpoolWest:
 
 Text_CantWhirlpool:
 #if GERMAN
-	.string "Ein strömender Strudel,\n"
-	.string "laut und kräftig.$"
+	.string "Ein strömender Strudel, laut und\n"
+	.string "kräftig.$"
 #else
 	.string "The water is swirling and spinning\n"
 	.string "around with a mighty roar.$"

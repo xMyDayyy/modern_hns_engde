@@ -132,8 +132,7 @@ Route39_Text_FarmerMNoMoney:
 
 Route39_Text_FarmerMNoRoom:
 #if GERMAN
-	.string "Hm, dein Beutel ist wohl\n"
-	.string "schon voll.$"
+	.string "Hm, dein Beutel ist wohl schon voll.$"
 #else
 	.string "I reckon yer PACK's full.$"
 #endif
@@ -156,8 +155,7 @@ Route39FarmHouse_Text_WouldYouLikeAnother:
 
 Route39_Text_GotMilk:
 #if GERMAN
-	.string "{PLAYER} erhielt\n"
-	.string "Kuhmuh-Milch.$"
+	.string "{PLAYER} erhielt Kuhmuh-Milch.$"
 #else
 	.string "{PLAYER} got MOOMOO MILK.$"
 #endif
@@ -205,8 +203,7 @@ Route39_Text_FarmerFSnatchSpeech:
 	.string "einsetzen, stiehlt nur das langsamste\l"
 	.string "die Attacke\p"
 	.string "Setz sie klug ein.\p"
-	.string "Timing ist alles,\n"
-	.string "mein Lieber.$"
+	.string "Timing ist alles, mein Lieber.$"
 #else
 	.string "That there's SNATCH.\p"
 	.string "It's a tricky move that lets\n"

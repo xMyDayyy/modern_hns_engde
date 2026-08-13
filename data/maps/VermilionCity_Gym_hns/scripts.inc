@@ -314,8 +314,8 @@ VermilionGym_Text_LtSurgeIntro:
 VermilionGym_Text_LtSurgeWinLoss:
 #if GERMAN
 	.string "Bob: Arrrgh! Du bist stark!\p"
-	.string "Okay, Kleiner. Du bekommst\n"
-	.string "den Donnerorden!$"
+	.string "Okay, Kleiner. Du bekommst den\n"
+	.string "Donnerorden!$"
 #else
 	.string "SURGE: Arrrgh! You are strong!\p"
 	.string "OK, kid. You get THUNDERBADGE!$"
@@ -332,8 +332,8 @@ VermilionGym_Text_ThunderBadgeInfo:
 #if GERMAN
 	.string "Bob: Donnerorden erhöht die\n"
 	.string "Geschwindigkeit der Pokémon.\p"
-	.string "Betrachte ihn als Beweis,\n"
-	.string "dass du mich besiegt hast.\p"
+	.string "Betrachte ihn als Beweis, dass du mich\n"
+	.string "besiegt hast.\p"
 	.string "Trage ihn stolz, klar?$"
 #else
 	.string "SURGE: THUNDERBADGE increases\n"
@@ -354,8 +354,8 @@ VermilionGym_Text_LtSurgeTm:
 
 VermilionGym_Text_LtSurgeThunderstone:
 #if GERMAN
-	.string "Und nimm diesen Stein. Er hat\n"
-	.string "echte Donnerkraft!$"
+	.string "Und nimm diesen Stein. Er hat echte\n"
+	.string "Donnerkraft!$"
 #else
 	.string "And take this stone. It has real\n"
 	.string "thunder power!$"
@@ -364,10 +364,10 @@ VermilionGym_Text_LtSurgeThunderstone:
 
 VermilionGym_Text_LtSurgePostBattle:
 #if GERMAN
-	.string "Bob: Hey, Kleiner! Immer noch\n"
-	.string "am Trainieren?\p"
-	.string "Meine Pokémon und ich sind\n"
-	.string "immer noch dabei!$"
+	.string "Bob: Hey, Kleiner! Immer noch am\n"
+	.string "Trainieren?\p"
+	.string "Meine Pokémon und ich sind immer noch\n"
+	.string "dabei!$"
 #else
 	.string "SURGE: Hey, kid! Still slugging\n"
 	.string "and chugging away?\p"
@@ -472,8 +472,8 @@ VermilionGym_Text_JugglerHortonBeaten:
 
 VermilionGym_Text_JugglerHortonAfter:
 #if GERMAN
-	.string "Machs dir nicht zu bequem,\n"
-	.string "weil du mich besiegt hast…\p"
+	.string "Machs dir nicht zu bequem, weil du mich\n"
+	.string "besiegt hast…\p"
 	.string "Major Bob ist wirklich hart.$"
 #else
 	.string "Don't get too comfortable about\n"
@@ -560,10 +560,10 @@ VermilionCity_Gym_Text_NopeOnlyTrashHere::
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
 #if GERMAN
-	.string "Hey! Unter dem Müll ist ein\n"
-	.string "Schalter! Drück ihn!\p"
-	.string "Das erste Elektroschloss\n"
-	.string "wurde geöffnet!$"
+	.string "Hey! Unter dem Müll ist ein Schalter!\n"
+	.string "Drück ihn!\p"
+	.string "Das erste Elektroschloss wurde\n"
+	.string "geöffnet!$"
 #else
     .string "Hey! There's a switch under the\n"
     .string "trash! Turn it on!\p"

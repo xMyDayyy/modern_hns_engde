@@ -35,8 +35,8 @@ SSAnne_1F_Room6_Text_TakeAShortRest::
 
 SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed::
 #if GERMAN
-	.string "Schön, dass alle erholt und\n"
-	.string "erfrischt aussehen.$"
+	.string "Schön, dass alle erholt und erfrischt\n"
+	.string "aussehen.$"
 #else
 	.string "I'm glad to see that everyone is\n"
 	.string "looking refreshed and chipper.$"

@@ -234,8 +234,8 @@ LilycoveCity_House3_Text_LikeMixingAtRecordCorner:
 
 LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender:
 #if GERMAN
-	.string "Wir wollen super {POKEBLOCK}\n"
-	.string "im Beerenmixer machen!$"
+	.string "Wir wollen super {POKEBLOCK} im\n"
+	.string "Beerenmixer machen!$"
 #else
 	.string "We're going to make super {POKEBLOCK}S\n"
 	.string "with a BERRY BLENDER!$"

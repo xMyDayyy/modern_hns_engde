@@ -134,8 +134,8 @@ MahoganyTown_Gym_Text_PryceIntro:
 	.string "so wie wir Menschen.\p"
 	.string "Auch ich habe viel erlebt und\n"
 	.string "gelitten.\p"
-	.string "Da ich älter bin, will ich dir\n"
-	.string "zeigen, was ich meine.\p"
+	.string "Da ich älter bin, will ich dir zeigen, was\n"
+	.string "ich meine.\p"
 	.string "Ich kenne Pokémon schon seit\n"
 	.string "vor deiner Geburt.\p"
 	.string "Ich verliere nicht leicht.\p"
@@ -157,8 +157,8 @@ MahoganyTown_Gym_Text_PryceIntro:
 
 MahoganyTown_Gym_Text_PryceImpressed:
 #if GERMAN
-	.string "Ah, ich bin beeindruckt von\n"
-	.string "deiner Stärke.\p"
+	.string "Ah, ich bin beeindruckt von deiner\n"
+	.string "Stärke.\p"
 	.string "Mit deinem starken Willen wirst\n"
 	.string "du alle Hindernisse überwinden.\p"
 	.string "Du verdienst diesen Orden!$"
@@ -225,8 +225,8 @@ MahoganyTown_Gym_Text_CherishPokemon:
 MahoganyTown_Gym_Text_PryceRematch:
 #if GERMAN
 	.string "Ah, Johto Champion!\p"
-	.string "Deine Fähigkeiten sind\n"
-	.string "wirklich bemerkenswert.\p"
+	.string "Deine Fähigkeiten sind wirklich\n"
+	.string "bemerkenswert.\p"
 	.string "Ich bin beeindruckt.\p"
 	.string "Doch noch können wir voneinander\n"
 	.string "lernen.\p"
@@ -277,10 +277,9 @@ MahoganyTown_Gym_Text_Guide:
 
 MahoganyTown_Gym_Text_GuideWin:
 #if GERMAN
-	.string "Norbert ist stark,\n"
-	.string "aber du bist besser!\p"
-	.string "Ein heißer Kampf, der die\n"
-	.string "Generationen überbrückt hat.$"
+	.string "Norbert ist stark, aber du bist besser!\p"
+	.string "Ein heißer Kampf, der die Generationen\n"
+	.string "überbrückt hat.$"
 #else
     .string "PRYCE is something, but you're\n"
     .string "something else!\p"

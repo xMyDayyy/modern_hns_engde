@@ -179,16 +179,15 @@ RocketHideout_B4F_Text_Grunt2Intro::
 
 RocketHideout_B4F_Text_Grunt2Defeat::
 #if GERMAN
-	.string "Dieses Kind ist einfach\n"
-	.string "unschlagbar!!!$"
+	.string "Dieses Kind ist einfach unschlagbar!!!$"
 #else
 	.string "Burned again!$"
 #endif
 
 RocketHideout_B4F_Text_Grunt2PostBattle::
 #if GERMAN
-	.string "Willst du das Team Rocket zu\n"
-	.string "Grunde richten?$"
+	.string "Willst du das Team Rocket zu Grunde\n"
+	.string "richten?$"
 #else
 	.string "Do you have something against TEAM\n"
 	.string "ROCKET?$"
@@ -221,8 +220,8 @@ RocketHideout_B4F_Text_Grunt3PostBattle::
 
 RocketHideout_B4F_Text_Grunt1Intro::
 #if GERMAN
-	.string "Ich werde dir den Liftöffner\n"
-	.string "niemals geben!$"
+	.string "Ich werde dir den Liftöffner niemals\n"
+	.string "geben!$"
 #else
 	.string "The elevator doesn't work?\n"
 	.string "Who has the LIFT KEY?$"

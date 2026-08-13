@@ -384,8 +384,8 @@ BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
 #if GERMAN
-	.string "Was… Du hast ja gar\n"
-	.string "nicht genug Gewinnpunkte!$"
+	.string "Was… Du hast ja gar nicht genug\n"
+	.string "Gewinnpunkte!$"
 #else
 	.string "What the…\n"
 	.string "You haven't got enough Battle Points!$"
@@ -535,8 +535,7 @@ BattleFrontier_Lounge7_Text_DreamEaterDesc::
 
 BattleFrontier_Lounge7_Text_MegaPunchDesc::
 #if GERMAN
-	.string "Ein unglaublich\n"
-	.string "kräftiger Hieb.$"
+	.string "Ein unglaublich kräftiger Hieb.$"
 #else
 	.string "A strong punch\n"
 	.string "thrown with\n"
@@ -545,8 +544,7 @@ BattleFrontier_Lounge7_Text_MegaPunchDesc::
 
 BattleFrontier_Lounge7_Text_MegaKickDesc::
 #if GERMAN
-	.string "Ein extrem\n"
-	.string "heftiger Tritt.$"
+	.string "Ein extrem heftiger Tritt.$"
 #else
 	.string "An extremely\n"
 	.string "powerful kick with\n"

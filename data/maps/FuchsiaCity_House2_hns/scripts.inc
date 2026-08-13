@@ -17,8 +17,7 @@ FuchsiaCity_House2_EventScript_Photo::
 
 FuchsiaCity_House2_Text_WardensGranddaughter1:
 #if GERMAN
-	.string "Mein Opa ist der Leiter der\n"
-	.string "Safari-Zone.\p"
+	.string "Mein Opa ist der Leiter der Safari-Zone.\p"
 	.string "Zumindest war er das…\p"
 	.string "Er beschloss, Urlaub zu machen\n"
 	.string "und reiste ganz allein ins Ausland.\p"

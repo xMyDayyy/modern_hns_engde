@@ -140,8 +140,8 @@ SixIsland_PatternBush_Text_AllisonPostBattle::
 
 SixIsland_PatternBush_Text_GarretIntro::
 #if GERMAN
-	.string "Ich habe ein Käfer-Pokémon\n"
-	.string "gefangen, das nur hier vorkommt.$"
+	.string "Ich habe ein Käfer-Pokémon gefangen,\n"
+	.string "das nur hier vorkommt.$"
 #else
 	.string "I caught a BUG POKéMON that lives\n"
 	.string "only around here!$"
@@ -216,8 +216,8 @@ SixIsland_PatternBush_Text_VanceDefeat::
 
 SixIsland_PatternBush_Text_VancePostBattle::
 #if GERMAN
-	.string "Beim nächsten Mal nehme ich\n"
-	.string "meinen kleinen Bruder mit.$"
+	.string "Beim nächsten Mal nehme ich meinen\n"
+	.string "kleinen Bruder mit.$"
 #else
 	.string "I'm going to bring my little brother\n"
 	.string "here next time.$"
@@ -253,8 +253,8 @@ SixIsland_PatternBush_Text_NashPostBattle::
 
 SixIsland_PatternBush_Text_CordellIntro::
 #if GERMAN
-	.string "Ich wette, du denkst, ich sei\n"
-	.string "irgend so ein Kerl, oder?$"
+	.string "Ich wette, du denkst, ich sei irgend so\n"
+	.string "ein Kerl, oder?$"
 #else
 	.string "I bet you think I'm just some guy,\n"
 	.string "don't you, eh?$"
@@ -262,8 +262,8 @@ SixIsland_PatternBush_Text_CordellIntro::
 
 SixIsland_PatternBush_Text_CordellDefeat::
 #if GERMAN
-	.string "Ich wette, du denkst, ich sei\n"
-	.string "schwach, oder?$"
+	.string "Ich wette, du denkst, ich sei schwach,\n"
+	.string "oder?$"
 #else
 	.string "I bet you think I'm weak,\n"
 	.string "don't you, eh?$"

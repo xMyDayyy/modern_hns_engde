@@ -47,8 +47,8 @@ SandstormHouse_Text_Woman1:
 #if GERMAN
 	.string "Wohin möchtest du mit den Pokémon?\p"
 	.string "Zur Pokémon Liga?\p"
-	.string "Sind deine Pokémon\n"
-	.string "loyal genug, um zu gewinnen?\p"
+	.string "Sind deine Pokémon loyal genug, um zu\n"
+	.string "gewinnen?\p"
 	.string "Ich werde das überprüfen…$"
 #else
     .string "Where are you off to with\n"
@@ -75,12 +75,12 @@ SandstormHouse_Text_LoyalMon:
 SandstormHouse_Text_TM37Description:
 #if GERMAN
 	.string "TM37 enthält Sandsturm.\p"
-	.string "Diese Attacke fügt\n"
-	.string "beiden Kämpfern Schaden zu.\p"
-	.string "Nur erfahrene Trainer\n"
-	.string "sollten sie einsetzen.\p"
-	.string "Setze sie ein,\n"
-	.string "wenn du dich traust! Viel Glück!$"
+	.string "Diese Attacke fügt beiden Kämpfern\n"
+	.string "Schaden zu.\p"
+	.string "Nur erfahrene Trainer sollten sie\n"
+	.string "einsetzen.\p"
+	.string "Setze sie ein, wenn du dich traust! Viel\n"
+	.string "Glück!$"
 #else
     .string "TM37 happens to be SANDSTORM.\p"
     .string "It's a move that inflicts damage\n"

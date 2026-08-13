@@ -151,8 +151,8 @@ RockTunnel_B1F_Text_StevePostBattle::
 
 RockTunnel_B1F_Text_AllenIntro::
 #if GERMAN
-	.string "Mein Pokémon wird dich das\n"
-	.string "Fürchten lehren!$"
+	.string "Mein Pokémon wird dich das Fürchten\n"
+	.string "lehren!$"
 #else
 	.string "My POKéMON techniques will leave\n"
 	.string "you crying!$"

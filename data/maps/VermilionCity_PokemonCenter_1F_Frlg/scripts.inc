@@ -92,8 +92,8 @@ VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain::
 	.string "zu kämpfen…\p"
 	.string "Hast du diesen Zwang je verspürt?\n"
 	.string "Ich bin sicher, dass du hast!\p"
-	.string "Gegen gewisse Trainer wollte\n"
-	.string "ich immer wieder antreten!\p"
+	.string "Gegen gewisse Trainer wollte ich immer\n"
+	.string "wieder antreten!\p"
 	.string "Also hab ich dies weggegeben.\n"
 	.string "Nimm bitte auch eines!$"
 #else

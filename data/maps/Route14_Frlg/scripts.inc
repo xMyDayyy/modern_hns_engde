@@ -90,8 +90,8 @@ Route14_Text_BeckPostBattle::
 
 Route14_Text_MarlonIntro::
 #if GERMAN
-	.string "Hast du einem Vogel-Pokémon\n"
-	.string "schon das Fliegen beigebracht?$"
+	.string "Hast du einem Vogel-Pokémon schon das\n"
+	.string "Fliegen beigebracht?$"
 #else
 	.string "Have you taught your bird POKéMON\n"
 	.string "how to FLY?\p"
@@ -117,8 +117,8 @@ Route14_Text_MarlonPostBattle::
 
 Route14_Text_DonaldIntro::
 #if GERMAN
-	.string "Hast du die Legende von den\n"
-	.string "Illusionen mit Flügeln gehört?$"
+	.string "Hast du die Legende von den Illusionen\n"
+	.string "mit Flügeln gehört?$"
 #else
 	.string "Have you heard the legend of the\n"
 	.string "winged mirages?$"
@@ -136,8 +136,8 @@ Route14_Text_DonaldPostBattle::
 #if GERMAN
 	.string "Nun, die Illusionen mit Flügeln sind\n"
 	.string "die legendären Vogel-Pokémon.\p"
-	.string "Es gibt drei: Arktos, Zapdos\n"
-	.string "und Lavados.$"
+	.string "Es gibt drei: Arktos, Zapdos und\n"
+	.string "Lavados.$"
 #else
 	.string "Well, the winged mirages are the\n"
 	.string "legendary bird POKéMON.\p"
@@ -217,8 +217,8 @@ Route14_Text_IsaacDefeat::
 
 Route14_Text_IsaacPostBattle::
 #if GERMAN
-	.string "Es ist ganz schön mühselig,\n"
-	.string "Pokémon zu trainieren!$"
+	.string "Es ist ganz schön mühselig, Pokémon zu\n"
+	.string "trainieren!$"
 #else
 	.string "Raising POKéMON is a drag, man.$"
 #endif
@@ -288,8 +288,8 @@ Route14_Text_RouteSign::
 
 Route14_Text_KiriIntro::
 #if GERMAN
-	.string "Berta: Enke, lass es uns\n"
-	.string "wirklich zusammen versuchen.$"
+	.string "Berta: Enke, lass es uns wirklich\n"
+	.string "zusammen versuchen.$"
 #else
 	.string "KIRI: JAN, let's try really,\n"
 	.string "really hard together.$"
@@ -306,8 +306,7 @@ Route14_Text_KiriDefeat::
 
 Route14_Text_KiriPostBattle::
 #if GERMAN
-	.string "Berta: Haben wir\n"
-	.string "meinetwegen verloren?$"
+	.string "Berta: Haben wir meinetwegen verloren?$"
 #else
 	.string "KIRI: Did we lose because of me?$"
 #endif

@@ -126,8 +126,7 @@ CeruleanCity_Gym_Text_ExplainCascadeBadge::
 
 CeruleanCity_Gym_Text_ReceivedTM03FromMisty::
 #if GERMAN
-	.string "{PLAYER} erhält\n"
-	.string "TM03!$"
+	.string "{PLAYER} erhält TM03!$"
 #else
 	.string "{PLAYER} received TM03\n"
 	.string "from MISTY.$"
@@ -160,8 +159,7 @@ CeruleanCity_Gym_Text_DianaIntro::
 #if GERMAN
 	.string "Wie? Du?\n"
 	.string "Ich bin schon zu gut für dich!\p"
-	.string "Misty muss sich nicht mit dir\n"
-	.string "abgeben!$"
+	.string "Misty muss sich nicht mit dir abgeben!$"
 #else
 	.string "What? You?\n"
 	.string "I'm more than good enough for you!\p"

@@ -76,8 +76,8 @@ UnionCave_B1F_Text_HikerLeonardBeaten:
 UnionCave_B1F_Text_HikerLeonardAfter:
 #if GERMAN
 	.string "Ich lebe hier unten.\p"
-	.string "Du kannst auch hier wohnen,\n"
-	.string "es ist genug Platz für alle.$"
+	.string "Du kannst auch hier wohnen, es ist\n"
+	.string "genug Platz für alle.$"
 #else
 	.string "I live down here.\p"
 	.string "You can, too, if you'd like.\p"

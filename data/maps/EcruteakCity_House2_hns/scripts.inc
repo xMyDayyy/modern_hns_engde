@@ -29,8 +29,8 @@ Ecruteak_Text_ItemfinderTrueSpirit:
 
 Ecruteak_Text_ItemfinderExplanation:
 #if GERMAN
-	.string "Manchmal liegen Items herum,\n"
-	.string "die man leicht übersieht.\p"
+	.string "Manchmal liegen Items herum, die man\n"
+	.string "leicht übersieht.\p"
 	.string "Setze den Detektor ein, um Items\n"
 	.string "aufzuspüren, die sich in der Nähe\l"
 	.string "befinden.\p"

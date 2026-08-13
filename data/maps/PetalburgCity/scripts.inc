@@ -56,13 +56,12 @@ PetalburgCity_Text_WallyGymClosed:
 	.string "Die Arena ist leider geschlossen.\p"
 	.string "Oh! Dein Pokémon… es läuft dir\n"
 	.string "einfach so hinterher!\p"
-	.string "Du musst ein richtig guter\n"
-	.string "Trainer sein…\p"
+	.string "Du musst ein richtig guter Trainer sein…\p"
 	.string "Ich… ich hätte eine Bitte: Papa hat mir\n"
 	.string "ein Pokémon gegeben, damit ich im hohen\l"
 	.string "Gras selbst eins fangen kann.\p"
-	.string "Kannst du mir zeigen,\n"
-	.string "wie man das macht?$"
+	.string "Kannst du mir zeigen, wie man das\n"
+	.string "macht?$"
 #else
 	.string "WALLY: Um… Excuse me!\n"
 	.string "The GYM is closed, I'm afraid.\p"
@@ -110,8 +109,7 @@ PetalburgCity_EventScript_WallyTutorial::
 
 PetalburgCity_Text_WallyThanksGoesHome:
 #if GERMAN
-	.string "Heiko: Danke! Das vergesse\n"
-	.string "ich dir nie!\p"
+	.string "Heiko: Danke! Das vergesse ich dir nie!\p"
 	.string "Ich laufe gleich zu Papa und zeige es\n"
 	.string "ihm! Eines Tages werde ich ein Trainer\l"
 	.string "wie du!$"
@@ -777,8 +775,7 @@ PetalburgCity_Text_WhereIsWally:
 
 PetalburgCity_Text_AreYouRookieTrainer:
 #if GERMAN
-	.string "He da! Du bist neu in der\n"
-	.string "Stadt, oder?\p"
+	.string "He da! Du bist neu in der Stadt, oder?\p"
 	.string "Weißt du, was Pokémon-Trainer machen,\n"
 	.string "wenn sie in einen neuen Ort kommen?\p"
 	.string "Sie sehen sich als Erstes die Arena\n"
@@ -794,8 +791,8 @@ PetalburgCity_Text_AreYouRookieTrainer:
 
 PetalburgCity_Text_ThisIsPetalburgGym:
 #if GERMAN
-	.string "Schau. Das ist die Arena von\n"
-	.string "Blütenburg City.$"
+	.string "Schau. Das ist die Arena von Blütenburg\n"
+	.string "City.$"
 #else
 	.string "See? This is PETALBURG CITY's GYM.$"
 #endif
@@ -900,8 +897,8 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 #if GERMAN
 	.string "Ich reise durch das Land, immer auf der\n"
 	.string "Suche nach talentierten Trainern.\p"
-	.string "Tut mir Leid, wenn ich dich\n"
-	.string "aufgehalten habe.$"
+	.string "Tut mir Leid, wenn ich dich aufgehalten\n"
+	.string "habe.$"
 #else
 	.string "I'm roaming the land in search of\n"
 	.string "talented TRAINERS.\p"

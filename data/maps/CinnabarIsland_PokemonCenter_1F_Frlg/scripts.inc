@@ -147,8 +147,8 @@ CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked::
 	.string "Es muss irgendwo einen Schlüssel geben.\p"
 	.string "Vielleicht in dieser abgebrannten\n"
 	.string "Villa?\p"
-	.string "Der Freund des Arenaleiters\n"
-	.string "hat dort gewohnt.$"
+	.string "Der Freund des Arenaleiters hat dort\n"
+	.string "gewohnt.$"
 #else
 	.string "I came to visit the CINNABAR GYM,\n"
 	.string "but the door is locked tight.\p"
