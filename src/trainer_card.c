@@ -1328,16 +1328,17 @@ static void PrintRegionLabelsOnBack(void)
     // Bildschirm-y 55, 71, 87, 103, 119; jede Ordenreihe fuellt das Band
     // darueber, das Label sitzt unmittelbar unter der Linie:
     //   56- 71  Kanto-Ordenreihe   (Kachelzeile  7/8)
-    //   72- 80  Label "Kanto"      (Fenster-y 60)
+    //   73- 81  Label "Kanto"      (Fenster-y 61)
     //   88-103  Hoenn-Ordenreihe   (Kachelzeile 11/12)
-    //  104-112  Label "Hoenn"      (Fenster-y 92) - Teamsymbole beginnen bei 117
+    //  105-113  Label "Hoenn"      (Fenster-y 93) - Teamsymbole beginnen bei 117
     // Umrechnung: Bildschirm-y = Fenster-y + 8 (Fensterursprung), die Glyphen
-    // der Kleinschrift setzen nochmals 4 px tiefer auf. Fenster-y 60 ergibt
-    // also Glyphen ab Bildschirm-y 72, direkt unter der Linie bei 71.
-    // Waagerecht: Fenster-x 24 = Bildschirm-x 32, buendig mit der Ordenkante.
-    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 24, 60, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
+    // der Kleinschrift setzen nochmals 4 px tiefer auf -- Glyphenoberkante ist
+    // also Fenster-y + 12.
+    // Waagerecht: Fenster-x 17 = Bildschirm-x 25, sieben Pixel links der
+    // Ordenkante (Kachel 4 = 32).
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 17, 61, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 24, 92, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 17, 93, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
 }
 #endif
 
