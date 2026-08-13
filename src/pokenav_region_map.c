@@ -603,7 +603,11 @@ static void TryMoveMapSecInfoWindow(struct Pokenav_RegionMapGfx *state)
         u32 left = GetWindowAttribute(state->infoWindowId, WINDOW_TILEMAP_LEFT);
         u32 top  = GetWindowAttribute(state->infoWindowId, WINDOW_TILEMAP_TOP);
         ClearWindowTilemap(state->infoWindowId);
-        FillBgTilemapBufferRect(1, 0x1041, left - 1, top - 1, 14, 15, 17);
+        // 0x1041 ist die deckende Fuellkachel des Fensterinneren - an der
+        // alten Stelle bliebe damit ein weisser Balken stehen. 0x1040 ist
+        // die durchsichtige Kachel, mit der der Tilemap-Puffer initialisiert
+        // wird (siehe LoadPokenavRegionMapGfx).
+        FillBgTilemapBufferRect(1, 0x1040, left - 1, top - 1, 14, 15, 17);
     }
     RemoveWindow(state->infoWindowId);
 
