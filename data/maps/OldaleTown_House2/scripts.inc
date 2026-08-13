@@ -11,22 +11,23 @@ OldaleTown_House2_EventScript_Man::
 
 OldaleTown_House2_Text_PokemonLevelUp:
 #if GERMAN
-	.string "Während eines Kampfes können Pokémon\n"
-	.string "manchmal einen Level dazugewinnen und\l"
-	.string "stärker werden.$"
+	.string "Frag mich nicht nach dem Weg. Ich bin\n"
+	.string "selbst erst letzten Monat hergezogen.$"
 #else
-	.string "When POKéMON battle, they eventually\n"
-	.string "level up and become stronger.$"
+	.string "Don't ask me for directions. I only\n"
+	.string "moved here last month myself.$"
 #endif
 
 OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon:
 #if GERMAN
-	.string "Sobald deine Team-Pokémon stärker\n"
-	.string "geworden sind, kannst du auch andere\l"
-	.string "Orte bereisen.$"
+	.string "Bist du auch wegen der Ruhe hier?\p"
+	.string "Früher habe ich Pokémon gefangen,\n"
+	.string "heute fange ich nur noch Fische.\p"
+	.string "Beides braucht Geduld.$"
 #else
-	.string "If the POKéMON with you become\n"
-	.string "stronger, you'll be able to go farther\l"
-	.string "away from here.$"
+	.string "Are you here for the quiet, too?\p"
+	.string "I used to catch POKéMON. These days\n"
+	.string "I only catch fish.\p"
+	.string "Both take patience.$"
 #endif
 

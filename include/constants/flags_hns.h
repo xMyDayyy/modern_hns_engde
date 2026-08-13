@@ -1185,6 +1185,9 @@
 #define HNS_EXTENDED_CONTENT_END                    (HNS_EXTENDED_CONTENT_START + HNS_EXTENDED_CONTENT_COUNT - 1)
 // 0x496 folgt der Match-Call-Registrierungsblock (siehe unten), 0x4F0–0x4FF frei
 
+// Freie Einzelflags im Fenster 0x4F0-0x4FF (siehe Registrierungsblock unten)
+#define FLAG_HIDE_OLDALE_TOWN_MART_EMPLOYEE          0x4F0
+
 // Trainer registered (match call) flags — one per rematchable trainer
 //
 // ACHTUNG: Dieser Block darf NICHT auf 0x310 zurueckgesetzt werden. Die Adressen

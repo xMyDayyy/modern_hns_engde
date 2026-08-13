@@ -64,23 +64,25 @@ OldaleTown_Mart_Text_PokeBallsAreSoldOut:
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls:
 #if GERMAN
-	.string "Ich will mir viele Pokébälle kaufen und\n"
-	.string "damit genauso viele Pokémon fangen!$"
+	.string "Ich warte hier auf meine Schwester.\p"
+	.string "Sie sagt seit einer Stunde, sie sei\n"
+	.string "gleich fertig.$"
 #else
-	.string "I'm going to buy a bunch of POKé BALLS\n"
-	.string "and catch a bunch of POKéMON!$"
+	.string "I'm waiting for my sister.\p"
+	.string "She's been saying she's nearly done\n"
+	.string "for an hour now.$"
 #endif
 
 OldaleTown_Mart_Text_RestoreHPWithPotion:
 #if GERMAN
-	.string "Wird ein Pokémon verletzt und verliert\n"
-	.string "alle KP, so ist es kampfunfähig.\p"
-	.string "Um das zu vermeiden, solltest du die KP\n"
-	.string "bei Bedarf mit einem Trank auffüllen.$"
+	.string "Der Supermarkt hier hat weniger im\n"
+	.string "Regal als der in Metarost City.\p"
+	.string "Dafür kennt einen die Verkäuferin\n"
+	.string "beim Namen.$"
 #else
-	.string "If a POKéMON gets hurt and loses its HP\n"
-	.string "and faints, it won't be able to battle.\p"
-	.string "To prevent your POKéMON from fainting,\n"
-	.string "restore its HP with a POTION.$"
+	.string "This MART carries less than the one\n"
+	.string "in RUSTBORO CITY.\p"
+	.string "But the clerk here knows you by\n"
+	.string "name.$"
 #endif
 

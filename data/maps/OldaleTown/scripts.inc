@@ -6,7 +6,14 @@ OldaleTown_OnTransition:
 	call Common_EventScript_SetupRivalGfxId
 	setflag FLAG_VISITED_OLDALE_TOWN
 	call_if_unset FLAG_ADVENTURE_STARTED, OldaleTown_EventScript_BlockWestEntrance
+#if IS_HNS
+	@ HnS: Die Supermarkt-Fuehrung entfaellt - der Spieler kommt als Champion
+	@ nach Hoenn und braucht keine Anfaengererklaerung. Der Angestellte wird
+	@ ueber sein Hide-Flag dauerhaft ausgeblendet.
+	setflag FLAG_HIDE_OLDALE_TOWN_MART_EMPLOYEE
+#else
 	call_if_unset FLAG_RECEIVED_POTION_OLDALE, OldaleTown_EventScript_MoveMartEmployee
+#endif
 	call_if_set FLAG_ADVENTURE_STARTED, OldaleTown_EventScript_SetOldaleState
 	end
 
@@ -36,6 +43,11 @@ OldaleTown_EventScript_Girl::
 OldaleTown_EventScript_MartEmployee::
 	lock
 	faceplayer
+#if IS_HNS
+	@ Nur noch Rueckfallebene, falls das Objekt doch einmal sichtbar ist.
+	release
+	end
+#endif
 	goto_if_set FLAG_RECEIVED_POTION_OLDALE, OldaleTown_EventScript_ExplainPotion
 	goto_if_set FLAG_TEMP_1, OldaleTown_EventScript_ExplainPotion
 	setflag FLAG_TEMP_1
@@ -341,11 +353,13 @@ OldaleTown_Movement_ReturnToOriginalPosition:
 
 OldaleTown_Text_SavingMyProgress:
 #if GERMAN
-	.string "Ich möchte eine Pause einlegen, daher\n"
-	.string "speichere ich mein Spiel.$"
+	.string "Riechst du das? Salz und Blüten.\p"
+	.string "So riecht es hier immer, egal welche\n"
+	.string "Jahreszeit.$"
 #else
-	.string "I want to take a rest, so I'm saving my\n"
-	.string "progress.$"
+	.string "Do you smell that? Salt and blossoms.\p"
+	.string "That's how it smells here all year\n"
+	.string "round.$"
 #endif
 
 OldaleTown_Text_IWorkAtPokemonMart:
@@ -362,20 +376,15 @@ OldaleTown_Text_IWorkAtPokemonMart:
 
 OldaleTown_Text_ThisIsAPokemonMart:
 #if GERMAN
-	.string "Dies ist ein Pkmn-Supermarkt.\n"
-	.string "Er ist an dem blauen Dach erkennbar.\p"
-	.string "Wir verkaufen eine Menge nützlicher\n"
-	.string "Dinge, wie Pokébälle, mit denen man\l"
-	.string "Pokémon fängt.\p"
-	.string "Hier, dies ist ein Item, quasi als\n"
-	.string "Werbe- geschenk für dich.$"
+	.string "Bei uns pflücken die Leute Beeren, kaum\n"
+	.string "dass sie reif sind.\p"
+	.string "Die Pokémon kommen dann von allein\n"
+	.string "vorbei und betteln.$"
 #else
-	.string "This is a POKéMON MART.\n"
-	.string "Just look for our blue roof.\p"
-	.string "We sell a variety of goods including\n"
-	.string "POKé BALLS for catching POKéMON.\p"
-	.string "Here, I'd like you to have this as\n"
-	.string "a promotional item.$"
+	.string "Folks here pick the BERRIES the moment\n"
+	.string "they ripen.\p"
+	.string "Then the POKéMON come round on their\n"
+	.string "own and beg for them.$"
 #endif
 
 OldaleTown_Text_PotionExplanation:

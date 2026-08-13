@@ -39,29 +39,26 @@ OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable::
 
 OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
 #if GERMAN
-	.string "Der PC dort in der Ecke ist für alle\n"
-	.string "Pokémon-Trainer.\p"
-	.string "Das heißt, dass auch du ihn benutzen\n"
-	.string "darfst.$"
+	.string "In Hoenn gibt es Wettbewerbe, bei\n"
+	.string "denen nicht gekämpft wird.\p"
+	.string "Da zählt nur, wie schön ein Pokémon\n"
+	.string "sich zeigt.$"
 #else
-	.string "That PC in the corner there is\n"
-	.string "for any POKéMON TRAINER to use.\p"
-	.string "Naturally, that means you're welcome\n"
-	.string "to use it, too.$"
+	.string "In HOENN there are CONTESTS where\n"
+	.string "nobody battles at all.\p"
+	.string "All that counts is how well a POKéMON\n"
+	.string "shows itself off.$"
 #endif
 
 OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
 #if GERMAN
-	.string "Pokémon-Center sind eine großartige\n"
-	.string "Einrichtung!\p"
-	.string "Du kannst ihren Service sooft du willst\n"
-	.string "in Anspruch nehmen - kostenlos! Daher\l"
-	.string "kannst du unbeschwert umherreisen.$"
+	.string "Die Schwester hier hat schon meiner\n"
+	.string "Mutter die Pokémon geheilt.\p"
+	.string "Und die war damals in meinem Alter.$"
 #else
-	.string "POKéMON CENTERS are great!\p"
-	.string "You can use their services as much\n"
-	.string "as you like, and it's all for free.\l"
-	.string "You never have to worry!$"
+	.string "The nurse here used to heal my\n"
+	.string "mother's POKéMON.\p"
+	.string "And back then she was my age.$"
 #endif
 
 OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable:
