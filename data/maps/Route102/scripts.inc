@@ -125,10 +125,14 @@ Route102_Text_ImNotVeryTall:
 
 Route102_Text_CatchWholeBunchOfPokemon:
 #if GERMAN
-	.string "Ich werde jede Menge Pokémon fangen!$"
+	.string "Im Frühjahr steht das Gras hier so\n"
+	.string "hoch, dass man die Blumen nicht\l"
+	.string "mehr sieht.\p"
+	.string "Den Pokémon gefällt das.$"
 #else
-	.string "I'm going to catch a whole bunch of\n"
-	.string "POKéMON!$"
+	.string "In spring the grass here grows so tall\n"
+	.string "you can no longer see the flowers.\p"
+	.string "The POKéMON like it that way.$"
 #endif
 
 Route102_Text_RouteSignOldale:

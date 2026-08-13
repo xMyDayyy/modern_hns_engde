@@ -1800,5 +1800,15 @@ void SetMatchCallRegisteredFlag(void)
 {
     int index = GetRematchIdxByTrainerIdx(gSpecialVar_0x8004);
     if (index >= 0)
+    {
         FlagSet(TRAINER_REGISTERED_FLAGS_START + index);
+        gSpecialVar_Result = TRUE;
+    }
+    else
+    {
+        // Kein Tabellenplatz - die Eintragung ist nicht moeglich. Der
+        // Bestaetigungstext in Std_RegisteredInMatchCall wird dann
+        // uebersprungen, statt eine Eintragung zu behaupten.
+        gSpecialVar_Result = FALSE;
+    }
 }

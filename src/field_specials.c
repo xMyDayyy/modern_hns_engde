@@ -3816,6 +3816,16 @@ bool32 IsTrainerRegistered(void)
         if (FlagGet(TRAINER_REGISTERED_FLAGS_START + index) == TRUE)
             return TRUE;
     }
+#if IS_HNS
+    // Trainer ohne Platz in der Rematch-Tabelle lassen sich gar nicht
+    // eintragen. Wuerde hier FALSE stehen, boeten ihre Skripte die
+    // Eintragung bei jedem Ansprechen erneut an - und sie schluege
+    // jedes Mal still fehl.
+    else
+    {
+        return TRUE;
+    }
+#endif
     return FALSE;
 }
 

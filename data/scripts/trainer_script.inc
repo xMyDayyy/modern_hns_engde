@@ -1,4 +1,10 @@
 Std_RegisteredInMatchCall::
+#if IS_HNS
+	@ SetMatchCallRegisteredFlag meldet ueber VAR_RESULT, ob die Eintragung
+	@ ueberhaupt moeglich war. Sonst behauptete die Fanfare eine Eintragung,
+	@ die nie stattfand.
+	goto_if_eq VAR_RESULT, FALSE, Std_RegisteredInMatchCall_Skip
+#endif
 	buffertrainerclassname STR_VAR_1, VAR_0x8000
 	buffertrainername STR_VAR_2, VAR_0x8000
 	closemessage
@@ -8,6 +14,9 @@ Std_RegisteredInMatchCall::
 	waitfanfare
 	closemessage
 	delay 30
+#if IS_HNS
+Std_RegisteredInMatchCall_Skip:
+#endif
 	return
 
 EventScript_TryGetTrainerScript::
