@@ -2310,13 +2310,13 @@ const u8 gText_MenuOptionBag[] = _("BAG");
 #endif
 #if IS_HNS
 #if GERMAN
-const u8 gText_MenuOptionPokenav[] = _("Pokécom");
+const u8 gText_MenuOptionPokenav[] = _("PokéCom");
 #else
 const u8 gText_MenuOptionPokenav[] = _("POKéNAV");
 #endif
 #else
 #if GERMAN
-const u8 gText_MenuOptionPokenav[] = _("Pokécom");
+const u8 gText_MenuOptionPokenav[] = _("PokéCom");
 #else
 const u8 gText_MenuOptionPokenav[] = _("POKéNAV");
 #endif

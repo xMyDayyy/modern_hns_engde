@@ -1544,11 +1544,11 @@ gText_MomExplainHPGetPotions::
 #if IS_HNS
 gText_RegisteredTrainerinPokeNav::
 	.string "{STR_VAR_1} {STR_VAR_2} wurde\n"
-	.string "im POKéCOM registriert.$"
+	.string "im PokéCom registriert.$"
 #else
 gText_RegisteredTrainerinPokeNav::
 	.string "{STR_VAR_1} {STR_VAR_2} wurde\n"
-	.string "im POKéNAV registriert.$"
+	.string "im PokéNav registriert.$"
 #endif
 
 gText_ComeBackWithSecretPower::
