@@ -312,6 +312,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_HoennWelcome::
 	closemessage
 	setvar VAR_HOENN_ARRIVAL_STATE, 3
 	setflag FLAG_SYS_HOENN_DEX_GET
+	@ Prof. Birk steht ab jetzt im PokéCom - eigener Kontakt neben Prof. Lind.
+	setflag FLAG_ENABLE_PROF_BIRK_MATCH_CALL
 	setflag FLAG_HIDE_ROUTE104_HOENN_BIRCH
 	setflag FLAG_VISITED_LITTLEROOT_TOWN
 	setflag FLAG_LANDMARK_POKEMON_LEAGUE

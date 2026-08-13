@@ -38,6 +38,10 @@ ProfBirch_EventScript_RatePokedexOrRegister::
 #if IS_HNS
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 3, ProfBirch_EventScript_GoFindMrPokemon
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 4, ProfBirch_EventScript_Robbery
+	@ Ohne diesen Sprung fiel die Ausfuehrung in die beiden Bloecke darunter und
+	@ Prof. Birk gab Prof. Linds Text aus. Birk ist eine eigene Figur und macht
+	@ hier seine eigene Pokédex-Bewertung.
+	goto ProfBirch_EventScript_AskRatePokedex
 #else
 	goto_if_unset FLAG_HAS_MATCH_CALL, ProfBirch_EventScript_AskRatePokedex
 	goto_if_unset FLAG_ENABLE_PROF_BIRCH_MATCH_CALL, EventScript_RegisterProfBirch

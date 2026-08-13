@@ -239,6 +239,18 @@ static const struct MatchCallBirch sProfBirchMatchCallHeader =
     .name = COMPOUND_STRING("Prof. Lind")
 };
 
+// HnS: Prof. Birk ist eine eigene Figur neben Prof. Lind (Johto) und
+// Prof. Eich (Kanto). Er wird nach dem Laborbesuch in Wurzelheim
+// eingetragen - siehe FLAG_ENABLE_PROF_BIRK_MATCH_CALL.
+static const struct MatchCallBirch sProfBirkMatchCallHeader =
+{
+    .type = MC_TYPE_BIRCH,
+    .mapSec = MAPSEC_LITTLEROOT_TOWN,
+    .flag = FLAG_ENABLE_PROF_BIRK_MATCH_CALL,
+    .desc = COMPOUND_STRING("{PKMN}-Prof."),
+    .name = COMPOUND_STRING("Prof. Birk")
+};
+
 static const match_call_text_data_t sMomTextScripts[] = {
     { MatchCall_Text_Mom3, ALWAYS_AVAILABLE,            NO_FLAG_TO_SET },
     { MatchCall_Text_Mom3, FLAG_DEFEATED_CIANWOOD_GYM,  NO_FLAG_TO_SET },
@@ -647,6 +659,7 @@ static const struct MatchCallStructTrainer sWallaceMatchCallHeader =
 static const match_call_t sMatchCallHeaders[] = {
     [MC_HEADER_MR_STONE]   = {.npc    = &sMrStoneMatchCallHeader},
     [MC_HEADER_PROF_BIRCH] = {.birch  = &sProfBirchMatchCallHeader},
+    [MC_HEADER_PROF_BIRK]  = {.birch  = &sProfBirkMatchCallHeader},
     [MC_HEADER_BRENDAN]    = {.rival  = &sBrendanMatchCallHeader},
     [MC_HEADER_MAY]        = {.rival  = &sMayMatchCallHeader},
     [MC_HEADER_WALLY]      = {.wally  = &sWallyMatchCallHeader},
@@ -1720,7 +1733,9 @@ static void MatchCall_GetNameAndDesc_Rival(match_call_t matchCall, const u8 **de
 {
     *desc = matchCall.rival->desc;
 #if IS_HNS
-    *name = gSaveBlock2Ptr->rivalName;
+    // HnS: Der PokéCom-Kontakt ist Maike (Birks Tochter), eine eigenstaendige
+    // Figur - nicht der vom Spieler benannte Johto-Rivale aus dem Speicher.
+    *name = gText_ExpandedPlaceholder_May;
 #else
     *name = matchCall.rival->name;
 #endif

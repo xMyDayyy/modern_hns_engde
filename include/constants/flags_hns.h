@@ -1187,6 +1187,7 @@
 
 // Freie Einzelflags im Fenster 0x4F0-0x4FF (siehe Registrierungsblock unten)
 #define FLAG_HIDE_OLDALE_TOWN_MART_EMPLOYEE          0x4F0
+#define FLAG_ENABLE_PROF_BIRK_MATCH_CALL             0x4F1
 
 // Trainer registered (match call) flags — one per rematchable trainer
 //
