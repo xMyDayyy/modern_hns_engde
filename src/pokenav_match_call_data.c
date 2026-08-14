@@ -202,16 +202,15 @@ static const struct MatchCallStructNPC sMrStoneMatchCallHeader =
     .textData = sMrStoneTextScripts
 };
 
+// HnS: Norman meldet sich so oft wie jeder andere Arenaleiter, nicht wie ein
+// Bekannter. Vier Eintraege, gleiche Form wie sRoxanneTextScripts. Die
+// Vanilla-Texte Norman4, 5, 6, 8 und 9 bleiben stehen - sie haengen weiter
+// am Emerald-Zweig weiter unten in dieser Datei.
 static const match_call_text_data_t sNormanTextScripts[] = {
-    { MatchCall_Text_Norman1, FLAG_ENABLE_NORMAN_MATCH_CALL,   NO_FLAG_TO_SET },
-    { MatchCall_Text_Norman2, FLAG_DEFEATED_DEWFORD_GYM,   NO_FLAG_TO_SET },
+    { MatchCall_Text_Norman1, 0xFFFE,                       NO_FLAG_TO_SET },
+    { MatchCall_Text_Norman2, ALWAYS_AVAILABLE,             NO_FLAG_TO_SET },
     { MatchCall_Text_Norman3, FLAG_DEFEATED_LAVARIDGE_GYM,  NO_FLAG_TO_SET },
-    { MatchCall_Text_Norman4, FLAG_DEFEATED_PETALBURG_GYM,       NO_FLAG_TO_SET },
-    { MatchCall_Text_Norman5, FLAG_RECEIVED_RED_OR_BLUE_ORB,    NO_FLAG_TO_SET },
-    { MatchCall_Text_Norman6, 0xFFFE,                           NO_FLAG_TO_SET },
-    { MatchCall_Text_Norman7, FLAG_IS_HOENN_CHAMPION,              NO_FLAG_TO_SET },
-    { MatchCall_Text_Norman8, FLAG_IS_HOENN_CHAMPION,              NO_FLAG_TO_SET },
-    { MatchCall_Text_Norman9, FLAG_IS_HOENN_CHAMPION,              NO_FLAG_TO_SET },
+    { MatchCall_Text_Norman7, FLAG_IS_HOENN_CHAMPION,       NO_FLAG_TO_SET },
     MATCH_CALL_TEXT_END
 };
 
@@ -256,9 +255,13 @@ static const struct MatchCallBirch sProfBirkMatchCallHeader =
 };
 
 static const match_call_text_data_t sMomTextScripts[] = {
-    { MatchCall_Text_Mom3, ALWAYS_AVAILABLE,            NO_FLAG_TO_SET },
-    { MatchCall_Text_Mom3, FLAG_DEFEATED_CIANWOOD_GYM,  NO_FLAG_TO_SET },
-    { MatchCall_Text_Mom3, FLAG_SYS_GAME_CLEAR,         NO_FLAG_TO_SET },
+    // HnS: Alle drei Zeilen zeigten auf Mom3 - Mama hatte damit nur einen
+    // einzigen Anruftext fuers ganze Spiel, und der Neuborkia-Text aus 0108
+    // (Mom2) war gar nicht erreichbar. Die Staffelung haengt jetzt an
+    // Hoenn-Meilensteinen, weil Johto beim Betreten von Hoenn durch ist.
+    { MatchCall_Text_Mom1, ALWAYS_AVAILABLE,            NO_FLAG_TO_SET },
+    { MatchCall_Text_Mom2, FLAG_DEFEATED_PETALBURG_GYM, NO_FLAG_TO_SET },
+    { MatchCall_Text_Mom3, FLAG_IS_HOENN_CHAMPION,      NO_FLAG_TO_SET },
     MATCH_CALL_TEXT_END
 };
 

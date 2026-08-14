@@ -492,20 +492,16 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	special DrawWholeMapView
 	call PetalburgCity_Gym_EventScript_GiveFacade
 #if IS_HNS
-	@ HnS: Norman haendigt die Surflizenz gleich hier aus. Die Vanilla-Uebergabe
-	@ liegt in Heikos Haus hinter VAR_PETALBURG_CITY_STATE == 4 - und den Wert
-	@ setzt nur die Begleitszene von Heikos Vater, die unter HnS nicht laeuft.
-	delay 30
+	@ HnS: Der Balanceorden ist zugleich die Erlaubnis fuer Surfer - das steht
+	@ im Ordentext, eine eigene Uebergabe braucht es nicht (Muster 0121).
+	@ Die Vanilla-Uebergabe liegt in Heikos Haus hinter
+	@ VAR_PETALBURG_CITY_STATE == 4 - und den Wert setzt nur die Begleitszene
+	@ von Heikos Vater, die unter HnS nicht laeuft.
 	setvar VAR_0x8004, LIC_SURF
 	special SetHoennLicense
-	playfanfare MUS_OBTAIN_ITEM
-	message PetalburgCity_Gym_Text_HnsSurfLicense
-	waitmessage
-	waitfanfare
-	closemessage
 #endif
 	delay 30
-	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_NormanAfterDefeat, MSGBOX_DEFAULT
 	closemessage
 #if IS_HNS
 	@ HnS: Die Begleitszene von Heikos Vater diente allein dazu, in seinem
@@ -1578,11 +1574,15 @@ PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
 #if GERMAN
 	.string "Mit diesem Orden erhöht sich\n"
 	.string "die Verteidigung all deiner Pokémon.\p"
+	.string "In Hoenn gilt er außerdem als\n"
+	.string "Erlaubnis, Surfer einzusetzen.\p"
 	.string "Nimm auch das hier. Ich bin sicher,\n"
 	.string "du wirst es gut nutzen.$"
 #else
 	.string "This BADGE raises the\n"
 	.string "DEFENSE of all your POKéMON.\p"
+	.string "In HOENN it also serves as your\n"
+	.string "permission to use SURF.\p"
 	.string "Take this as well. I am sure you\n"
 	.string "will put it to good use.$"
 #endif
@@ -1605,7 +1605,7 @@ PetalburgCity_Gym_Text_ExplainFacade:
 	.string "situation into an advantage.$"
 #endif
 
-PetalburgCity_Gym_Text_DadHappyAndSad:
+PetalburgCity_Gym_Text_NormanAfterDefeat:
 #if GERMAN
 	.string "Als Arenaleiter ärgert mich\n"
 	.string "diese Niederlage.\p"
@@ -2237,6 +2237,8 @@ PetalburgCity_Gym_Text_HnsRegisteredNorman:
 	.string "in the POKéNAV.$"
 #endif
 
+@ Nicht mehr angesprungen, seit die Erlaubnis am Balanceorden haengt.
+@ Bleibt stehen, damit nichts geloescht wird.
 PetalburgCity_Gym_Text_HnsSurfLicense:
 #if GERMAN
 	.string "Und hier ist die Surflizenz.\p"

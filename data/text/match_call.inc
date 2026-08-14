@@ -4346,20 +4346,17 @@ MatchCall_BattlePyramidText14::
 
 MatchCall_Text_Mom1::
 #if GERMAN
-	.string "Mutter: Du und die Pokémon…\n"
-	.string "Beide seid ihr nicht zu bremsen.\p"
-	.string "Was macht den Charme der Pokémon\n"
-	.string "aus?\p"
-	.string "Was mit mir ist? Ich liebe die Pokémon,\n"
-	.string "die mir bei der täglichen Arbeit\l"
-	.string "helfen.$"
+	.string "Mutter: Hoenn also.\p"
+	.string "Ich musste erst auf der Karte\n"
+	.string "nachsehen, wo das überhaupt liegt.\p"
+	.string "Iss ordentlich und ruh dich aus.\n"
+	.string "Auch ein Champ braucht Schlaf.$"
 #else
-	.string "MOM: You and POKéMON…\n"
-	.string "There is no stopping either of you.\p"
-	.string "What is the charm of POKéMON?\p"
-	.string "Me?\n"
-	.string "I adore POKéMON that help me with\l"
-	.string "my daily work.$"
+	.string "MOM: HOENN, then.\p"
+	.string "I had to look it up on a map to see\n"
+	.string "where it even is.\p"
+	.string "Eat properly and get some rest.\n"
+	.string "Even a CHAMPION needs sleep.$"
 #endif
 
 MatchCall_Text_Mom2::
@@ -4379,16 +4376,19 @@ MatchCall_Text_Mom2::
 
 MatchCall_Text_Mom3::
 #if GERMAN
-	.string "Mutter: {PLAYER}…\n"
-	.string "Mach dir keine Sorgen um mich und das\l"
-	.string "Haus.\p"
-	.string "Nimm deine Turbotreter und lauf,\n"
-	.string "bis sie auseinander fallen.$"
+	.string "Mutter: {PLAYER}…\p"
+	.string "Zwei Ligen. In deinem Alter.\p"
+	.string "Prof. Lind hat vorhin angerufen und\n"
+	.string "wollte es gar nicht glauben.\p"
+	.string "Komm irgendwann heim und erzähl\n"
+	.string "es ihm selbst.$"
 #else
-	.string "MOM: {PLAYER}…\n"
-	.string "Don't worry about me or the house.\p"
-	.string "Wear those RUNNING SHOES until\n"
-	.string "they fall apart, honey!$"
+	.string "MOM: {PLAYER}…\p"
+	.string "Two LEAGUES. At your age.\p"
+	.string "PROF. ELM called earlier and simply\n"
+	.string "refused to believe it.\p"
+	.string "Come home sometime and tell him\n"
+	.string "yourself.$"
 #endif
 
 MatchCall_Text_Baoba1::
@@ -5869,51 +5869,54 @@ MatchCall_Text_Scott7::
 
 MatchCall_Text_Norman1::
 #if GERMAN
-	.string "Norman: Hier ist Norman aus der\n"
-	.string "Arena von Blütenburg City.\p"
-	.string "Ich habe deine Nummer eingespeichert.\p"
-	.string "Melde dich, wenn du wieder Lust auf\n"
-	.string "einen Kampf hast.$"
+	.string "Norman: Hier ist Norman aus\n"
+	.string "Blütenburg City.\p"
+	.string "Man erzählt sich hier einiges über\n"
+	.string "dich und das Festland.\p"
+	.string "Von Gerüchten halte ich wenig. Ich\n"
+	.string "sehe mir so etwas lieber selbst an.\p"
+	.string "Nur ist meine Arena noch\n"
+	.string "geschlossen.$"
 #else
-	.string "NORMAN: This is NORMAN from the\n"
-	.string "PETALBURG CITY GYM.\p"
-	.string "I've saved your number.\p"
-	.string "Call me whenever you feel like\n"
-	.string "another battle.$"
+	.string "NORMAN: This is NORMAN from\n"
+	.string "PETALBURG CITY.\p"
+	.string "People here tell all sorts of stories\n"
+	.string "about you and the mainland.\p"
+	.string "I don't think much of rumours. I\n"
+	.string "prefer to see for myself.\p"
+	.string "Only my GYM is still closed.$"
 #endif
 
 MatchCall_Text_Norman2::
 #if GERMAN
-	.string "Norman: Hm… Langsam aber sicher\n"
-	.string "wirst du immer stärker, {PLAYER}.\p"
-	.string "Man merkt dir an, dass du das\n"
-	.string "Festland schon hinter dir hast.\p"
-	.string "Hier in Hoenn ist das ein seltener\n"
-	.string "Anblick.$"
+	.string "Norman: {PLAYER}?\p"
+	.string "Auch hier spricht man inzwischen\n"
+	.string "über deine Kämpfe.\p"
+	.string "Gehört habe ich genug. Sobald meine\n"
+	.string "Arena öffnet, erwarte ich dich.$"
 #else
-	.string "NORMAN: Hm… Little by little, but also\n"
-	.string "very surely, you're getting\l"
-	.string "tougher, {PLAYER}.\p"
-	.string "One can tell you've already left\n"
-	.string "the mainland behind you.\p"
-	.string "That is a rare sight here in HOENN.$"
+	.string "NORMAN: {PLAYER}?\p"
+	.string "People here are talking about your\n"
+	.string "battles now, too.\p"
+	.string "I've heard enough. The moment my\n"
+	.string "GYM opens, I'll be expecting you.$"
 #endif
 
 MatchCall_Text_Norman3::
 #if GERMAN
-	.string "Norman: Verstehe…\n"
-	.string "Du hast vier Orden zusammen…\p"
-	.string "Dann steht unserem Kampf nichts\n"
-	.string "mehr im Weg.\p"
-	.string "Komm nach Blütenburg, wann immer\n"
-	.string "du magst.$"
+	.string "Norman: {PLAYER}!\n"
+	.string "Meine Arena ist wieder offen.\p"
+	.string "Vier Orden hast du also schon.\n"
+	.string "Dann komm nach Blütenburg City.\p"
+	.string "Ich will endlich selbst sehen, was an\n"
+	.string "den Gerüchten dran ist.$"
 #else
-	.string "NORMAN: I see…\n"
-	.string "You've collected four GYM BADGES…\p"
-	.string "Then nothing stands in the way of\n"
-	.string "our battle.\p"
-	.string "Come to PETALBURG anytime\n"
-	.string "you like.$"
+	.string "NORMAN: {PLAYER}!\n"
+	.string "My GYM is open again.\p"
+	.string "Four BADGES already, is it?\n"
+	.string "Then come to PETALBURG CITY.\p"
+	.string "I want to see for myself what those\n"
+	.string "rumours are worth.$"
 #endif
 
 MatchCall_Text_Norman4::
@@ -5962,18 +5965,14 @@ MatchCall_Text_Norman6::
 
 MatchCall_Text_Norman7::
 #if GERMAN
-	.string "Norman: {PLAYER}!\p"
-	.string "Erst das Festland, jetzt Hoenn…\p"
-	.string "Du sammelst Ligen wie andere Leute\n"
-	.string "Orden.\p"
-	.string "Okay! Ich werde dir in nichts\n"
-	.string "nachstehen!$"
+	.string "Norman: {PLAYER}…\p"
+	.string "Die Gerüchte waren untertrieben.\p"
+	.string "Erst das Festland, jetzt Hoenn.\n"
+	.string "Ich werde dir in nichts nachstehen!$"
 #else
-	.string "NORMAN: {PLAYER}!\p"
-	.string "First the mainland, now HOENN…\p"
-	.string "You collect LEAGUES the way others\n"
-	.string "collect BADGES.\p"
-	.string "Okay!\n"
+	.string "NORMAN: {PLAYER}…\p"
+	.string "Those rumours fell short.\p"
+	.string "First the mainland, now HOENN.\n"
 	.string "I won't be left behind!$"
 #endif
 
