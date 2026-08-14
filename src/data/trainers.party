@@ -1864,20 +1864,27 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Trapinch
+Furret
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Agility
+- Headbutt
 
-Swellow
+Dodrio
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Agility
+- Drill Peck
+- Pursuit
 
-Carvanha
+Swellow
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
-- Agility
 - Wing Attack
+- Double Team
+
 
 === TRAINER_PARKER ===
 Name: Patrick
@@ -1892,17 +1899,24 @@ AI: Basic Trainer
 Spinda
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Teeter Dance
+- Psybeam
+- Faint Attack
 
-Wailmer
+Loudred
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Uproar
+- Stomp
+- Howl
 
-Wingull
+Delcatty
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Dizzy Punch
-- Focus Punch
+- Sing
+- Attract
+- Double Slap
+
 
 === TRAINER_GEORGE ===
 Name: Nils
@@ -1914,20 +1928,27 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
+Chansey
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Softboiled
+- Double Slap
+- Growl
 
-Numel
+Miltank
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Milk Drink
+- Rollout
+- Stomp
 
-Slakoth @ Sitrus Berry
+Blissey
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Slack Off
-- Counter
-- Shadow Ball
+- Softboiled
+- Double Slap
+- Sing
+
 
 === TRAINER_BERKE ===
 Name: Christian
@@ -1939,19 +1960,27 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Wailmer
+Raticate
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Super Fang
+- Focus Energy
+- Hyper Fang
 
-Makuhita
+Fearow
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Drill Peck
+- Pursuit
+- Fury Attack
 
-Vigoroth
+Ursaring
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Energy
-- Slash
+- Fury Swipes
+- Faint Attack
+- Scary Face
+
 
 === TRAINER_BRAXTON ===
 Name: Dennis
@@ -2367,19 +2396,27 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Makuhita
+Aipom
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swift
+- Agility
+- Fury Swipes
 
-Delcatty
+Persian
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swift
+- Faint Attack
+- Screech
 
-Numel
+Pidgeot
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Feint Attack
-- Shock Wave
+- Swift
+- Wing Attack
+- Quick Attack
+
 
 === TRAINER_ALEXIA ===
 Name: Doris
@@ -2394,17 +2431,24 @@ AI: Basic Trainer
 Wigglytuff
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Sing
+- Double Slap
 
-Electrike
+Kangaskhan
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Mega Punch
+- Tail Whip
 
-Roselia
+Snorlax
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Defense Curl
-- Double Edge
-- Shadow Ball
+- Body Slam
+- Rest
+- Amnesia
+
 
 === TRAINER_JODY ===
 Name: Roswita
@@ -2419,16 +2463,24 @@ AI: Check Bad Move / Try To Faint / Force Setup First Turn
 Zangoose
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Crush Claw
+- Swords Dance
 
-Geodude
+Farfetch'd
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Swords Dance
+- Fury Attack
 
-Lotad
+Tauros
 Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Slash
+- Horn Attack
+- Rage
+- Tail Whip
+
 
 === TRAINER_WENDY ===
 Name: Viola
