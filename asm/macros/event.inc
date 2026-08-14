@@ -2170,6 +2170,26 @@
 	callstd STD_OBTAIN_ITEM
 	.endm
 
+	@ HnS: giveitem fuer Uebergaben, die es in Johto/Kanto UND in Hoenn gibt.
+	@ Liegt der Gegenstand schon im Beutel, verfaellt die Uebergabe mit einem
+	@ Hinweis; wer ihn in Johto/Kanto verpasst hat, bekommt ihn hier trotzdem.
+	@ VAR_RESULT bleibt dabei TRUE, damit ein nachfolgendes
+	@ "goto_if_eq VAR_RESULT, FALSE, ...BagIsFull" nicht faelschlich anspringt.
+	.macro giveitem_unless_owned item:req, amount=1
+#if IS_HNS
+	checkitem \item
+	goto_if_eq VAR_RESULT, FALSE, HnsGiveItem_\@
+	bufferitemname STR_VAR_2, \item
+	msgbox gText_HnsItemAlreadyOwned, MSGBOX_DEFAULT
+	goto HnsItemDone_\@
+HnsGiveItem_\@:
+	giveitem \item, \amount
+HnsItemDone_\@:
+#else
+	giveitem \item, \amount
+#endif
+	.endm
+
 	@ For picking up items in the overworld. Similar to giveitem, but with different language and
 	@ sets the flag of the last-talked to object (the item the player picked up).
 	.macro finditem item:req, amount=1

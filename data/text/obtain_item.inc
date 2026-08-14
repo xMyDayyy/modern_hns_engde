@@ -28,6 +28,18 @@ gText_PlayerFoundOneItem::
 	.string "{PLAYER} found one {STR_VAR_2}!$"
 #endif
 
+#if IS_HNS
+@ HnS: Hinweis, wenn eine doppelte Uebergabe verfaellt (giveitem_unless_owned).
+gText_HnsItemAlreadyOwned::
+#if GERMAN
+	.string "{PLAYER} hat {STR_VAR_2}\n"
+	.string "bereits dabei.$"
+#else
+	.string "{PLAYER} already has\n"
+	.string "the {STR_VAR_2}.$"
+#endif
+#endif
+
 gText_TooBadBagIsFull::
 #if GERMAN
 	.string "Zu schade!\n"
