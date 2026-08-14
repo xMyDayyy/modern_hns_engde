@@ -16,16 +16,10 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox RustboroCity_Gym_Text_StoneBadgeInfoTakeThis, MSGBOX_DEFAULT
 #if IS_HNS
-	@ HnS: Die Erlaubnis fuer Zerschneider kommt von der Arenaleiterin,
-	@ nicht mehr aus dem Haus nebenan.
-	delay 30
+	@ HnS: Der Steinorden ist zugleich die Erlaubnis fuer Zerschneider -
+	@ das steht im Ordentext, eine eigene Uebergabe braucht es nicht.
 	setvar VAR_0x8004, LIC_CUT
 	special SetHoennLicense
-	playfanfare MUS_OBTAIN_ITEM
-	message RustboroCity_Gym_Text_HnsCutLicense
-	waitmessage
-	waitfanfare
-	closemessage
 #endif
 	setflag FLAG_DEFEATED_RUSTBORO_GYM
 	setflag FLAG_BADGE01_GET
@@ -352,10 +346,14 @@ RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
 #if GERMAN
 	.string "Der Steinorden erhöht die Kraft der\n"
 	.string "Attacken deiner Pokémon.\p"
+	.string "In Hoenn gilt er außerdem als\n"
+	.string "Erlaubnis, Zerschneider einzusetzen.\p"
 	.string "Dies möchte ich dir auch noch geben.$"
 #else
 	.string "The STONE BADGE raises the power of\n"
 	.string "your POKéMON's moves.\p"
+	.string "In HOENN it also serves as your\n"
+	.string "permission to use CUT.\p"
 	.string "I would like you to have this, too.$"
 #endif
 
@@ -364,21 +362,11 @@ RustboroCity_Gym_Text_ExplainRockTomb:
 	.string "Diese TM39 enthält Felsgrab.\p"
 	.string "Sie richtet nicht nur durch das Fallen\n"
 	.string "von Steinen Schaden an, sondern\l"
-	.string "reduziert auch die Initiative.\p"
-	.string "Sobald du eine TM aktivierst, wird die\n"
-	.string "Attacke einem Pokémon beigebracht.\p"
-	.string "Aber vergiss nicht, dass eine TM nur\n"
-	.string "einmal beigebracht werden kann. Ihr\l"
-	.string "Einsatz will also überlegt sein.$"
+	.string "reduziert auch die Initiative.$"
 #else
-	.string "That TECHNICAL MACHINE, TM39,\n"
-	.string "contains ROCK TOMB.\p"
-	.string "It not only inflicts damage by dropping\n"
-	.string "rocks, it also lowers SPEED.\p"
-	.string "If you use a TM, it instantly teaches\n"
-	.string "the move to a POKéMON.\p"
-	.string "Remember, a TM can be used only once,\n"
-	.string "so think before you use it.$"
+	.string "That TM39 contains ROCK TOMB.\p"
+	.string "It does damage with falling rocks and\n"
+	.string "lowers the target's SPEED as well.$"
 #endif
 
 RustboroCity_Gym_Text_RoxannePostBattle:
@@ -528,17 +516,3 @@ RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
 	.string "POKéMON.$"
 #endif
 
-#if IS_HNS
-RustboroCity_Gym_Text_HnsCutLicense:
-#if GERMAN
-	.string "Felizia: Und die Erlaubnis für\n"
-	.string "Zerschneider gehört auch dazu.\p"
-	.string "{PLAYER} erhält die Lizenz für\n"
-	.string "Zerschneider!$"
-#else
-	.string "ROXANNE: And the permit for CUT\n"
-	.string "goes with it.\p"
-	.string "{PLAYER} received the licence for\n"
-	.string "CUT!$"
-#endif
-#endif

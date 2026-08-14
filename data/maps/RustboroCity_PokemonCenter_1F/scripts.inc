@@ -52,11 +52,11 @@ RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon:
 
 RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
 #if GERMAN
-	.string "Im Steinbruch hinter der Stadt hört\n"
-	.string "man nachts die Pokémon graben.\p"
+	.string "Im Tunnel hinter der Stadt hört man\n"
+	.string "nachts die Pokémon graben.\p"
 	.string "Zumindest sagt das mein Nachbar.$"
 #else
-	.string "At the quarry behind town you can\n"
+	.string "In the tunnel behind town you can\n"
 	.string "hear POKéMON digging at night.\p"
 	.string "At least that is what my neighbour\n"
 	.string "says.$"

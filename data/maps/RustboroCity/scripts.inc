@@ -855,6 +855,11 @@ RustboroCity_EventScript_MayEncounter::
 	goto_if_set FLAG_DEFEATED_RIVAL_RUSTBORO, RustboroCity_EventScript_MayBrineyHint
 	goto_if_set FLAG_MET_RIVAL_RUSTBORO, RustboroCity_EventScript_MayAskToBattle
 	setflag FLAG_MET_RIVAL_RUSTBORO
+#if IS_HNS
+	@ HnS: Maike traegt sich schon auf Route 103 selbst ein - hier laeuft
+	@ kein Eintragungsereignis mehr, das Gespraech geht direkt weiter.
+	msgbox RustboroCity_Text_MayHiLetsRegister, MSGBOX_DEFAULT
+#else
 	msgbox RustboroCity_Text_MayHiLetsRegister, MSGBOX_DEFAULT
 	closemessage
 	delay 30
@@ -863,6 +868,7 @@ RustboroCity_EventScript_MayEncounter::
 	waitfanfare
 	closemessage
 	delay 30
+#endif
 	setflag FLAG_ENABLE_RIVAL_MATCH_CALL
 	setvar VAR_RUSTBORO_CITY_STATE, 8
 	setvar VAR_ROUTE104_STATE, 2
@@ -1298,16 +1304,13 @@ RustboroCity_Text_MayHiLetsRegister:
 	.string "Ich habe gehört, du warst schon in der\n"
 	.string "Arena.\p"
 	.string "Ich bin noch nicht so weit… aber ich\n"
-	.string "arbeite dran!\p"
-	.string "… … … … …\n"
-	.string "…$"
+	.string "arbeite dran!$"
 #else
 	.string "MAY: Oh, hi, {PLAYER}!\p"
 	.string "I heard you have already been to the\n"
 	.string "GYM.\p"
 	.string "I'm not that far yet… but I'm working\n"
-	.string "on it!\p"
-	.string "… … … … … …$"
+	.string "on it!$"
 #endif
 
 RustboroCity_Text_RegisteredMay:
@@ -1325,35 +1328,26 @@ RustboroCity_Text_MayPassedBrineyWantToBattle:
 	.string "Brack im Blütenburgwald gesehen.\p"
 	.string "Ich glaube, er ist auf dem Weg zu\n"
 	.string "seiner Hütte am Meer.\p"
-	.string "Wie geht es mit deinem Pokédex voran?\n"
-	.string "Meiner sieht schon ganz anständig aus.\l"
-	.string "\p"
-	.string "Daher…\n"
-	.string "Wie wäre es mit einem kleinen Kampf?$"
+	.string "Und du siehst aus, als hättest du\n"
+	.string "Zeit für einen Kampf.$"
 #else
-	.string "MAY: Oh, by the way, I passed\n"
-	.string "MR. BRINEY in PETALBURG WOODS.\p"
-	.string "I guess he's on his way home to his\n"
-	.string "cottage by the sea.\p"
-	.string "How's your POKéDEX coming along,\n"
-	.string "{PLAYER}{KUN}? Mine's looking pretty decent!\p"
-	.string "So…\n"
-	.string "How about a little battle?$"
+	.string "MAY: Oh, by the way. I saw MR. BRINEY\n"
+	.string "in PETALBURG WOODS.\p"
+	.string "I think he was heading for his cottage\n"
+	.string "by the sea.\p"
+	.string "And you look like you have time for\n"
+	.string "a battle.$"
 #endif
 
 RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
 #if GERMAN
-	.string "Maike: Oh, was ist das?\p"
-	.string "Du hast dich aber nicht um deine\n"
-	.string "Pokémon gekümmert? Und auch nicht\l"
-	.string "viele gefangen?\p"
-	.string "Als Trainer machst du wirklich keinen\n"
-	.string "guten Eindruck!$"
+	.string "Maike: Schade!\p"
+	.string "Dann eben beim nächsten Mal.\n"
+	.string "Ich gebe nicht auf, das weißt du.$"
 #else
-	.string "MAY: Oh, what's the matter?\p"
-	.string "Haven't you caught or raised your\n"
-	.string "POKéMON very much?\p"
-	.string "That's not very good for a TRAINER!$"
+	.string "MAY: Too bad!\p"
+	.string "Next time, then.\n"
+	.string "I won't give up, you know that.$"
 #endif
 
 RustboroCity_Text_MayWantToBattle:
