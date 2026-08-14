@@ -269,6 +269,7 @@ static void DebugAction_Util_Weather_SelectId(u8 taskId);
 static void DebugAction_Util_WatchCredits(u8 taskId);
 static void DebugAction_Util_CheatStart(u8 taskId);
 static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId);
+static void DebugAction_Util_HnsTogglePetalburgGym(u8 taskId);
 
 static void DebugAction_TimeMenu_ChangeTimeOfDay(u8 taskId);
 static void DebugAction_TimeMenu_ChangeWeekdays(u8 taskId);
@@ -573,6 +574,7 @@ static const struct DebugMenuOption sDebugMenu_Actions_Utilities[] =
     { COMPOUND_STRING("Watch credits…"),    DebugAction_Util_WatchCredits },
     { COMPOUND_STRING("Cheat start"),       DebugAction_Util_CheatStart },
     { COMPOUND_STRING("HnS: Finish Johto+Kanto"), DebugAction_Util_HnsFinishJohtoKanto },
+    { COMPOUND_STRING("HnS: Petalburg Gym open/close"), DebugAction_Util_HnsTogglePetalburgGym },
     { COMPOUND_STRING("Berry Functions…"),  DebugAction_OpenSubMenu, sDebugMenu_Actions_BerryFunctions },
     { COMPOUND_STRING("EWRAM Counters…"),   DebugAction_ExecuteScript, Debug_EventScript_EWRAMCounters },
     { COMPOUND_STRING("Follower NPC…"),     DebugAction_OpenSubMenu, sDebugMenu_Actions_FollowerNPCMenu },
@@ -1895,7 +1897,29 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
     ScriptContext_Enable();
 }
 
+// Testwerkzeug: schaltet die Arena von Bluetenburg zwischen "geschlossen"
+// (VAR_PETALBURG_GYM_STATE 2, wirft den Spieler wieder hinaus) und "offen"
+// (Zustand 3, wie nach dem vierten Hoenn-Orden) hin und her. Nur zum Pruefen
+// der Texte gedacht - ein zweiter Aufruf sperrt wieder zu.
+static void DebugAction_Util_HnsTogglePetalburgGym(u8 taskId)
+{
+    if (VarGet(VAR_PETALBURG_GYM_STATE) < 3)
+        VarSet(VAR_PETALBURG_GYM_STATE, 3);
+    else
+        VarSet(VAR_PETALBURG_GYM_STATE, 2);
+
+    PlaySE(SE_PC_LOGIN);
+    Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
+}
+
 #else
+static void DebugAction_Util_HnsTogglePetalburgGym(u8 taskId)
+{
+    Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
+}
+
 static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
 {
     Debug_DestroyMenu_Full(taskId);

@@ -28,6 +28,12 @@ PetalburgCity_PokemonCenter_1F_EventScript_Woman::
 	lock
 	faceplayer
 	msgbox PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon, MSGBOX_DEFAULT
+#if IS_HNS
+	@ Der angehaengte Typen-Vortrag ueber das Starterpokemon ist ein
+	@ Anfaengertext und entfaellt - die Frau erzaehlt nur ihr Geruecht.
+	release
+	end
+#endif
 	specialvar VAR_RESULT, IsStarterInParty
 	goto_if_eq VAR_RESULT, TRUE, PetalburgCity_PokemonCenter_1F_EventScript_SayStarterTypeInfo
 	release
@@ -66,28 +72,26 @@ PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem:
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP:
 #if GERMAN
-	.string "Ich warte hier auf den Bus nach\n"
-	.string "Metarost City.\p"
-	.string "Der fährt hier nur zweimal am Tag.$"
+	.string "Hier im Pokémon-Center kümmert man\n"
+	.string "sich wirklich gut um die Pokémon.\p"
+	.string "Ich komme extra aus Wiesenflur her.$"
 #else
-	.string "I am waiting for the bus to\n"
-	.string "RUSTBORO CITY.\p"
-	.string "It only runs twice a day here.$"
+	.string "They really do take good care of\n"
+	.string "POKéMON here at the CENTER.\p"
+	.string "I come all the way from VERDANTURF\n"
+	.string "TOWN for it.$"
 #endif
 
 PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon:
 #if GERMAN
-	.string "Es gibt viele Typen von Pokémon.\p"
-	.string "Jeder Typ hat seine Stärken und\n"
-	.string "Schwächen gegenüber anderen Typen.\p"
-	.string "Je nach Typ des Pokémon kann der\n"
-	.string "Kampf leicht oder schwer sein.$"
+	.string "Ich habe gehört, Prof. Birk sei am\n"
+	.string "Strand mit einer fremden Person\l"
+	.string "gesehen worden.\p"
+	.string "Wer das wohl war?$"
 #else
-	.string "There are many types of POKéMON.\p"
-	.string "All types have their strengths and\n"
-	.string "weaknesses against other types.\p"
-	.string "Depending on the types of POKéMON,\n"
-	.string "a battle could be easy or hard.$"
+	.string "I heard PROF. BIRCH was seen down\n"
+	.string "at the beach with a stranger.\p"
+	.string "I wonder who that was?$"
 #endif
 
 PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType:
