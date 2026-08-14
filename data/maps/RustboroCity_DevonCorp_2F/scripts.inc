@@ -335,22 +335,13 @@ RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "Das ist ein PokéCom!\p"
 	.string "Er ist das Resultat der Wissbegierde\n"
 	.string "unseres Präsidenten, der etwas über\l"
-	.string "die Gefühle der Pokémon lernen möchte.\l"
-	.string "\p"
-	.string "Soll ich dir die Funktionen im\n"
-	.string "Einzelnen erklären?\p"
-	.string "Ach was, du findest sie schon ganz\n"
-	.string "alleine heraus.$"
+	.string "die Gefühle der Pokémon lernen möchte.$"
 #else
 	.string "Oh, wow!\n"
-	.string "That's a POKéGEAR!\p"
+	.string "That's a POKéCOM!\p"
 	.string "It came about as a result of our\n"
 	.string "PRESIDENT's desire to learn about\l"
-	.string "the feelings of POKéMON.\p"
-	.string "Would you like me to describe its\n"
-	.string "features in detail?\p"
-	.string "No, no. I think you'll find out just by\n"
-	.string "trying the POKéGEAR out.$"
+	.string "the feelings of POKéMON.$"
 #endif
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
