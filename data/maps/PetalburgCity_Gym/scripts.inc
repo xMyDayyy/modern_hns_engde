@@ -498,6 +498,16 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	delay 30
 	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT
 	closemessage
+#if IS_HNS
+	@ HnS: Die Begleitszene von Heikos Vater diente allein dazu, in seinem
+	@ Haus die VM Surfer zu uebergeben. Die Surflizenz kommt jetzt direkt
+	@ von Norman (siehe oben), die Szene entfaellt deshalb ersatzlos.
+	@ Zustand 5 ist der Endwert, den sonst die Uebergabe in Heikos Haus
+	@ setzt - so wartet spaeter nichts mehr auf Zustand 4.
+	setvar VAR_PETALBURG_CITY_STATE, 5
+	releaseall
+	end
+#endif
 	delay 40
 	playse SE_DOOR
 	delay 10
@@ -1314,11 +1324,22 @@ PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 #if GERMAN
+#if IS_HNS
+	@ Heiko tritt unter HnS mit Geradaks an (siehe LoadWallyZigzagoon).
+	.string "Heiko, hier, ich leihe dir mein Pokémon.\p"
+	.string "Heiko hat ein Geradaks erhalten.$"
+#else
 	.string "Heiko, hier, ich leihe dir mein Pokémon.\p"
 	.string "Heiko hat ein Zigzachs erhalten.$"
+#endif
+#else
+#if IS_HNS
+	.string "WALLY, here, I'll loan you my POKéMON.\p"
+	.string "WALLY received a LINOONE!$"
 #else
 	.string "WALLY, here, I'll loan you my POKéMON.\p"
 	.string "WALLY received a ZIGZAGOON!$"
+#endif
 #endif
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
