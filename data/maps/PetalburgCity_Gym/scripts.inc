@@ -130,12 +130,23 @@ PetalburgCity_Gym_EventScript_Norman::
 	lock
 	faceplayer
 	switch VAR_PETALBURG_GYM_STATE
+#if IS_HNS
+	@ Solange umgebaut wird, gibt es keine gestaffelten Vorgespraeche:
+	@ Norman verweist bis Zustand 5 durchgehend auf die geschlossene Arena.
+	case 0, PetalburgCity_Gym_EventScript_NormanHnsClosed
+	case 1, PetalburgCity_Gym_EventScript_NormanHnsClosed
+	case 2, PetalburgCity_Gym_EventScript_NormanHnsClosed
+	case 3, PetalburgCity_Gym_EventScript_NormanHnsClosed
+	case 4, PetalburgCity_Gym_EventScript_NormanHnsClosed
+	case 5, PetalburgCity_Gym_EventScript_NormanHnsClosed
+#else
 	case 0, PetalburgCity_Gym_EventScript_NormanHnsClosed
 	case 1, PetalburgCity_Gym_EventScript_NormanHnsClosed
 	case 2, PetalburgCity_Gym_EventScript_NormanNoBadges
 	case 3, PetalburgCity_Gym_EventScript_NormanOneBadge
 	case 4, PetalburgCity_Gym_EventScript_NormanTwoBadges
 	case 5, PetalburgCity_Gym_EventScript_NormanThreeBadges
+#endif
 	case 6, PetalburgCity_Gym_EventScript_NormanBattle
 	case 7, PetalburgCity_Gym_EventScript_NormanPostBattle
 	case 8, PetalburgCity_Gym_EventScript_NormanRematch
@@ -1495,23 +1506,22 @@ PetalburgCity_Gym_Text_YouHaveGottenStronger:
 
 PetalburgCity_Gym_Text_NormanIntro:
 #if GERMAN
-	.string "Norman: Hm…\n"
-	.string "Du besitzt vier Orden.\p"
-	.string "Gut. Wie versprochen kämpfen wir jetzt.\p"
-	.string "{PLAYER}…\p"
-	.string "Man erzählt sich, du hättest jenseits\n"
-	.string "des Meeres schon einiges erreicht.\p"
+	.string "Norman: Der Umbau ist abgeschlossen.\p"
+	.string "Die Arena von Blütenburg City ist\n"
+	.string "wieder geöffnet.\p"
+	.string "{PLAYER}… Man erzählt sich, du hättest\n"
+	.string "jenseits des Meeres schon einiges\l"
+	.string "erreicht.\p"
 	.string "Umso besser. Kampf ist Kampf!\p"
 	.string "Ich werde als Arenaleiter alles tun,\n"
 	.string "um zu gewinnen!\p"
 	.string "Gib ebenfalls dein Bestes!$"
 #else
-	.string "NORMAN: Hmm…\n"
-	.string "You have four BADGES.\p"
-	.string "Good. As promised, we battle now.\p"
-	.string "{PLAYER}…\p"
-	.string "They say you achieved a great deal\n"
-	.string "beyond the sea.\p"
+	.string "NORMAN: The rebuilding is finished.\p"
+	.string "The PETALBURG CITY GYM is open\n"
+	.string "again.\p"
+	.string "{PLAYER}… They say you achieved a\n"
+	.string "great deal beyond the sea.\p"
 	.string "All the better. A battle is a battle!\p"
 	.string "As a GYM LEADER I will do everything\n"
 	.string "I can to win!\p"
@@ -1548,17 +1558,11 @@ PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
 #if GERMAN
 	.string "Norman: Mit diesem Orden erhöht sich\n"
 	.string "die Verteidigung all deiner Pokémon.\p"
-	.string "Pokémon, die die VM Surfer erlernt\n"
-	.string "haben, können diese auch zum Reisen\l"
-	.string "über das Wasser einsetzen.\p"
 	.string "Nimm auch das hier. Ich bin sicher,\n"
 	.string "du wirst es gut nutzen.$"
 #else
 	.string "NORMAN: This BADGE raises the\n"
 	.string "DEFENSE of all your POKéMON.\p"
-	.string "POKéMON that have learned the HM\n"
-	.string "SURF can also use it to travel\l"
-	.string "across water.\p"
 	.string "Take this as well. I am sure you\n"
 	.string "will put it to good use.$"
 #endif
