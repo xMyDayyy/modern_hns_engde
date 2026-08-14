@@ -1045,17 +1045,14 @@ Route104_Text_OnlyThrowBallAtWildPokemon:
 Route104_Text_ImNotATrainer:
 #if GERMAN
 	.string "Oh, nein, ich bin kein Trainer.\p"
-	.string "Aber es stimmt schon, wenn Trainer sich\n"
-	.string "in die Augen schauen, ist das eine\l"
-	.string "Herausforderung zum Kampf.\p"
-	.string "Willst du nicht kämpfen, weiche ihren\n"
-	.string "Blicken aus.$"
+	.string "Ich sammle nur Muscheln.\p"
+	.string "Nach einem Sturm liegen die schönsten\n"
+	.string "hier am Strand.$"
 #else
 	.string "Oh, no, I'm not a TRAINER.\p"
-	.string "But that's right, if TRAINERS lock eyes,\n"
-	.string "it's a challenge to battle.\p"
-	.string "If you don't want to battle, stay out\n"
-	.string "of their sight.$"
+	.string "I only collect shells.\p"
+	.string "After a storm the finest ones wash\n"
+	.string "up here on the beach.$"
 #endif
 
 Route104_Text_LikeFillingMouthWithSeedsTakeThis:
