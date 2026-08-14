@@ -200,27 +200,25 @@ PetalburgCity_Gym_EventScript_NormanHnsClosed::
 
 PetalburgCity_Gym_Text_NormanHnsClosed:
 #if GERMAN
-	.string "Norman: Willkommen! Ich bin Norman,\n"
+	.string "Norman: Willkommen. Ich bin Norman,\n"
 	.string "der Arenaleiter von Blütenburg City.\p"
-	.string "Die Arena ist zurzeit geschlossen.\n"
-	.string "Hier finden vorerst keine Kämpfe statt.\p"
-	.string "Versuch es zuerst in Metarost City im\n"
-	.string "Norden - dort wartet die erste Arena\l"
-	.string "von Hoenn auf dich.\p"
-	.string "Meine Familie wohnt übrigens in\n"
-	.string "Wurzelheim. Grüß sie von mir, wenn du\l"
-	.string "vorbeikommst!$"
+	.string "Die Arena wird zurzeit umgebaut.\n"
+	.string "Kämpfe finden hier vorerst nicht statt.\p"
+	.string "Wende dich zuerst an Metarost City im\n"
+	.string "Norden - dort steht die erste Arena\l"
+	.string "von Hoenn.\p"
+	.string "Meine Familie wohnt in Wurzelheim,\n"
+	.string "falls du dort vorbeikommst.$"
 #else
-	.string "NORMAN: Welcome! I'm NORMAN,\n"
-	.string "the GYM LEADER of PETALBURG CITY.\p"
-	.string "The GYM is closed at the moment.\n"
+	.string "NORMAN: Welcome. I am NORMAN, the\n"
+	.string "GYM LEADER of PETALBURG CITY.\p"
+	.string "The GYM is being rebuilt at present.\n"
 	.string "No battles are held here for now.\p"
-	.string "Try RUSTBORO CITY to the north\n"
+	.string "Go to RUSTBORO CITY in the north\n"
 	.string "first - the first GYM of HOENN\l"
-	.string "awaits you there.\p"
-	.string "My family lives in LITTLEROOT\n"
-	.string "TOWN, by the way. Give them my\l"
-	.string "regards if you drop by!$"
+	.string "stands there.\p"
+	.string "My family lives in LITTLEROOT TOWN,\n"
+	.string "should you pass through.$"
 #endif
 
 PetalburgCity_Gym_EventScript_BeginWallyTutorialSouth::
@@ -1531,18 +1529,14 @@ PetalburgCity_Gym_Text_NormanIntro:
 PetalburgCity_Gym_Text_NormanDefeat:
 #if GERMAN
 	.string "…\p"
-	.string "Ich… Ich kann es nicht…\p"
-	.string "Ich kann es nicht glauben, {PLAYER}…\p"
-	.string "Ich habe gegen {PLAYER} verloren?\p"
-	.string "Nun, Regeln sind Regeln!\n"
-	.string "Hier, das ist für dich.$"
+	.string "Sauber gekämpft.\p"
+	.string "Die Regeln der Liga sind eindeutig -\n"
+	.string "der Orden gehört dir.$"
 #else
 	.string "…\p"
-	.string "I… I can't…\p"
-	.string "I can't believe it. {PLAYER}…\p"
-	.string "I lost to {PLAYER}?\p"
-	.string "But, rules are rules!\n"
-	.string "Here, take this.$"
+	.string "Well fought.\p"
+	.string "The rules of the LEAGUE are clear -\n"
+	.string "the BADGE is yours.$"
 #endif
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
@@ -1587,15 +1581,15 @@ PetalburgCity_Gym_Text_ExplainFacade:
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
 #if GERMAN
-	.string "Norman: Als Arenaleiter kann ich gar\n"
-	.string "nicht sagen, wie bestürzt ich bin…\p"
-	.string "Aber ein solcher Kampf kommt selten\n"
-	.string "vor. Ich habe ihn genossen.$"
+	.string "Norman: Als Arenaleiter ärgert mich\n"
+	.string "diese Niederlage.\p"
+	.string "Als Trainer hat sie mir gezeigt, woran\n"
+	.string "ich noch arbeiten muss.$"
 #else
-	.string "NORMAN: As the GYM LEADER I cannot\n"
-	.string "say how dismayed I am…\p"
-	.string "But a battle like that is rare.\n"
-	.string "I enjoyed it.$"
+	.string "NORMAN: As the GYM LEADER this\n"
+	.string "defeat annoys me.\p"
+	.string "As a TRAINER it showed me what I\n"
+	.string "still have to work on.$"
 #endif
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
@@ -1622,29 +1616,27 @@ PetalburgCity_Gym_Text_LetMeBorrowPlayer:
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
 #if GERMAN
-	.string "Norman: Ich bleibe hier und werde mein\n"
-	.string "Training verdoppeln.\p"
-	.string "Als Trainer lässt es mir keine Ruhe.\n"
-	.string "Ich möchte irgendwann gegen dich\l"
-	.string "gewinnen.$"
+	.string "Norman: Ich bleibe hier und nehme das\n"
+	.string "Training wieder auf.\p"
+	.string "Kommst du wieder nach Blütenburg\n"
+	.string "City, stehe ich anders da.$"
 #else
-	.string "NORMAN: I will stay here and redouble\n"
-	.string "my training.\p"
-	.string "As a TRAINER it will not let me rest.\n"
-	.string "One day I mean to beat you.$"
+	.string "NORMAN: I will stay here and take up\n"
+	.string "my training again.\p"
+	.string "Come back to PETALBURG CITY and\n"
+	.string "you will find me a different match.$"
 #endif
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
 #if GERMAN
-	.string "Norman: {PLAYER}! Wie geht es dir?\p"
-	.string "Die Welt der Pokémon ist vielfältig.\p"
+	.string "Norman: Die Welt der Pokémon ist\n"
+	.string "vielfältig.\p"
 	.string "Ich bin überzeugt, dass selbst das\n"
 	.string "härteste Training dieser Vielfalt nicht\l"
 	.string "gerecht wird.$"
 #else
-	.string "NORMAN: {PLAYER}, how are things\n"
-	.string "going?\p"
-	.string "The world of POKéMON is deep.\p"
+	.string "NORMAN: The world of POKéMON is\n"
+	.string "deep.\p"
 	.string "I honestly think that no amount of\n"
 	.string "training would ever be enough.$"
 #endif
@@ -2160,21 +2152,18 @@ PetalburgCity_Gym_Text_GymStatueCertified:
 
 PetalburgCity_Gym_Text_NormanPreRematch:
 #if GERMAN
-	.string "Norman: {PLAYER}…\n"
-	.string "Ich wusste, du würdest kommen.\p"
-	.string "Niemals würde ich eine Herausforderung\n"
-	.string "von dir ablehnen!\p"
-	.string "In einer Arena zählt nur eines:\n"
-	.string "dass beide ihr Bestes geben.\p"
-	.string "Meinst du nicht auch, {PLAYER}?$"
+	.string "Norman: Du willst es noch einmal\n"
+	.string "wissen?\p"
+	.string "Eine Herausforderung schlage ich nicht\n"
+	.string "aus - dafür bin ich Arenaleiter.\p"
+	.string "In einer Arena zählt nur eines: dass\n"
+	.string "beide ihr Bestes geben.$"
 #else
-	.string "NORMAN: {PLAYER}…\n"
-	.string "I knew you would come.\p"
-	.string "I would never turn down a challenge\n"
-	.string "from you!\p"
+	.string "NORMAN: You want another go?\p"
+	.string "I never turn down a challenge -\n"
+	.string "that is what a GYM LEADER is for.\p"
 	.string "In a GYM only one thing counts:\n"
-	.string "that both sides give their best.\p"
-	.string "Don't you agree, {PLAYER}?$"
+	.string "that both sides give their best.$"
 #endif
 
 PetalburgCity_Gym_Text_NormanRematchDefeat:
@@ -2188,36 +2177,33 @@ PetalburgCity_Gym_Text_NormanRematchDefeat:
 
 PetalburgCity_Gym_Text_NormanPostRematch:
 #if GERMAN
-	.string "Norman: {PLAYER}…\n"
-	.string "Was ist dein Traum?\p"
-	.string "Mein Traum…\n"
-	.string "Hahaha…\l"
-	.string "Er wurde bereits Wirklichkeit.$"
+	.string "Norman: Wieder verloren.\p"
+	.string "Aber ein Kampf gegen einen Trainer\n"
+	.string "deines Formats bringt mich weiter.\p"
+	.string "Komm ruhig wieder vorbei.$"
 #else
-	.string "NORMAN: {PLAYER}…\n"
-	.string "What is your dream?\p"
-	.string "My dream…\n"
-	.string "Hahaha…\l"
-	.string "It has already come true.$"
+	.string "NORMAN: Beaten again.\p"
+	.string "But a battle against a TRAINER of\n"
+	.string "your calibre moves me forward.\p"
+	.string "Do come by again.$"
 #endif
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 #if GERMAN
-	.string "Norman: {PLAYER}…\n"
-	.string "Ich wusste, du würdest kommen.\p"
-	.string "Niemals würde ich eine Herausforderung\n"
-	.string "von dir ablehnen!\p"
-	.string "Hm? Warte mal, {PLAYER}.\p"
+	.string "Norman: Du willst es noch einmal\n"
+	.string "wissen?\p"
+	.string "Eine Herausforderung schlage ich nicht\n"
+	.string "aus - dafür bin ich Arenaleiter.\p"
+	.string "Hm? Warte.\p"
 	.string "Du hast nur ein Pokémon, das kämpfen\n"
 	.string "kann?\p"
 	.string "Tut mir Leid, aber du brauchst\n"
 	.string "mindestens zwei Pokémon.$"
 #else
-	.string "NORMAN: {PLAYER}…\n"
-	.string "I knew you would come.\p"
-	.string "I would never turn down a challenge\n"
-	.string "from you!\p"
-	.string "Hmm? Wait a moment, {PLAYER}.\p"
+	.string "NORMAN: You want another go?\p"
+	.string "I never turn down a challenge -\n"
+	.string "that is what a GYM LEADER is for.\p"
+	.string "Hmm? Wait a moment.\p"
 	.string "You have only one POKéMON able to\n"
 	.string "battle?\p"
 	.string "I am sorry, but you need at least\n"
@@ -2227,13 +2213,15 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 #if IS_HNS
 PetalburgCity_Gym_Text_HnsSurfLicense:
 #if GERMAN
-	.string "Norman: Und damit du hier auch\n"
-	.string "vorankommst - deine Surflizenz.\p"
+	.string "Norman: Hier ist noch die Surflizenz.\p"
+	.string "Damit darfst du in Hoenn auch Surfer\n"
+	.string "einsetzen.\p"
 	.string "{PLAYER} erhält die Lizenz für\n"
 	.string "Surfer!$"
 #else
-	.string "NORMAN: And so you can get around -\n"
-	.string "your SURF LICENCE.\p"
+	.string "NORMAN: Here is the SURF LICENCE\n"
+	.string "as well.\p"
+	.string "With it you may use SURF in HOENN.\p"
 	.string "{PLAYER} received the licence for\n"
 	.string "SURF!$"
 #endif
