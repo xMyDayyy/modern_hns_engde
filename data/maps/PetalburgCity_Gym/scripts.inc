@@ -2213,15 +2213,15 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 #if IS_HNS
 PetalburgCity_Gym_Text_HnsSurfLicense:
 #if GERMAN
-	.string "Norman: Hier ist noch die Surflizenz.\p"
-	.string "Damit darfst du in Hoenn auch Surfer\n"
-	.string "einsetzen.\p"
+	.string "Norman: Und hier ist die Surflizenz.\p"
+	.string "Sie berechtigt dich, Surfer überall in\n"
+	.string "Hoenn einzusetzen.\p"
 	.string "{PLAYER} erhält die Lizenz für\n"
 	.string "Surfer!$"
 #else
-	.string "NORMAN: Here is the SURF LICENCE\n"
-	.string "as well.\p"
-	.string "With it you may use SURF in HOENN.\p"
+	.string "NORMAN: And here is the SURF LICENCE.\p"
+	.string "It entitles you to use SURF anywhere\n"
+	.string "in HOENN.\p"
 	.string "{PLAYER} received the licence for\n"
 	.string "SURF!$"
 #endif
