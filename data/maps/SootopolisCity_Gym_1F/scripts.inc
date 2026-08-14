@@ -102,6 +102,12 @@ SootopolisCity_Gym_1F_EventScript_JuanDefeated::
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: Der Schauerorden ist zugleich die Erlaubnis fuer Kaskade -
+	@ das steht im Ordentext, eine eigene Uebergabe braucht es nicht.
+	setvar VAR_0x8004, LIC_WATERFALL
+	special SetHoennLicense
+#endif
 	setflag FLAG_DEFEATED_SOOTOPOLIS_GYM
 	setflag FLAG_BADGE08_GET
 	setvar VAR_0x8004, 7
@@ -334,18 +340,16 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 #if GERMAN
 	.string "Dieser Orden sorgt dafür, dass dir\n"
 	.string "alle deine Pokémon gehorchen.\p"
-	.string "Der Orden befähigt dich außerdem dazu,\n"
-	.string "mit der VM Kaskade Wasserfälle in jede\l"
-	.string "Richtung zu passieren.\p"
+	.string "In Hoenn gilt er außerdem als\n"
+	.string "Erlaubnis, Kaskade einzusetzen.\p"
 	.string "Und damit du unseren Kampf stets in\n"
 	.string "Erinnerung behältst, gebe ich dir dies…$"
 #else
 	.string "Having the RAIN BADGE shall assure you\n"
 	.string "the full obedience of all your POKéMON\l"
 	.string "to your every command.\p"
-	.string "The RAIN BADGE also allows the use\n"
-	.string "of the HM move WATERFALL to scale\l"
-	.string "walls of cascading water.\p"
+	.string "In HOENN it also serves as your\n"
+	.string "permission to use WATERFALL.\p"
 	.string "And, so that you never forget the\n"
 	.string "battle we shared, take this…$"
 #endif

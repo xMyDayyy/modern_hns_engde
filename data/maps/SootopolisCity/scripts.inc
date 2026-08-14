@@ -1290,22 +1290,20 @@ SootopolisCity_EventScript_Wallace::
 	end
 
 SootopolisCity_EventScript_GiveWaterfall::
-	msgbox SootopolisCity_Text_ThankYouForHelpAcceptThis, MSGBOX_DEFAULT
 #if IS_HNS
-	@ HnS: Statt der VM (die der Spieler laengst besitzt) wird die
-	@ Hoenn-Lizenz erteilt - siehe src/hoenn_licenses.c.
-	setvar VAR_0x8004, LIC_WATERFALL
-	special SetHoennLicense
-	playfanfare MUS_OBTAIN_ITEM
-	message Text_HnsWaterfallLicense
-	waitmessage
-	waitfanfare
-	closemessage
+	@ HnS: Die Erlaubnis fuer Kaskade erteilt allein Juan mit dem
+	@ Schauerorden (siehe SootopolisCity_Gym_1F). Wassili uebergibt nichts mehr.
+	msgbox Text_HnsWallaceNoWaterfallHandover, MSGBOX_DEFAULT
 #else
+	msgbox SootopolisCity_Text_ThankYouForHelpAcceptThis, MSGBOX_DEFAULT
 	giveitem ITEM_HM_WATERFALL
 #endif
 	setflag FLAG_RECEIVED_HM_WATERFALL
+#if IS_HNS
+	msgbox Text_HnsWallaceWaterfallGoToGym, MSGBOX_DEFAULT
+#else
 	msgbox SootopolisCity_Text_ExplainWaterfallGoToGym, MSGBOX_DEFAULT
+#endif
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, SootopolisCity_EventScript_WallaceMoveFromGym
 	call_if_eq VAR_FACING, DIR_EAST, SootopolisCity_EventScript_WallaceMoveFromGym
@@ -2109,6 +2107,8 @@ SootopolisCity_Text_DazzledByMentor:
 #endif
 
 #if IS_HNS
+@ Nicht mehr angesprungen, seit die Erlaubnis am Schauerorden haengt.
+@ Bleibt stehen, damit nichts geloescht wird.
 Text_HnsWaterfallLicense:
 #if GERMAN
 	.string "{PLAYER} erhält die Lizenz für\n"
@@ -2116,5 +2116,49 @@ Text_HnsWaterfallLicense:
 #else
 	.string "{PLAYER} received the licence for\n"
 	.string "WATERFALL!$"
+#endif
+
+Text_HnsWallaceNoWaterfallHandover:
+#if GERMAN
+	.string "Wassili: {PLAYER}{KUN}…\n"
+	.string "Meine Augen haben mir also doch keinen\l"
+	.string "Streich gespielt.\p"
+	.string "Dank deiner Hilfe wurde Xeneroville…\n"
+	.string "Nein! Ganz Hoenn wurde gerettet.\p"
+	.string "Im Namen aller Menschen danke ich dir.\p"
+	.string "Schenken kann ich dir nichts, was ein\n"
+	.string "Champ nicht schon hätte.$"
+#else
+	.string "WALLACE: {PLAYER}{KUN}…\n"
+	.string "My eyes didn't deceive me.\p"
+	.string "Thanks to your help, SOOTOPOLIS…\n"
+	.string "No, all of HOENN was saved.\p"
+	.string "On behalf of the people, I thank you.\p"
+	.string "There is nothing I could give you\n"
+	.string "that a CHAMPION wouldn't have.$"
+#endif
+
+Text_HnsWallaceWaterfallGoToGym:
+#if GERMAN
+	.string "Kaskade beherrschst du längst.\p"
+	.string "In Hoenn brauchst du dafür aber den\n"
+	.string "Schauerorden.\p"
+	.string "Und wo bekommt man den Schauerorden?\n"
+	.string "Das weißt du doch, oder etwa nicht?\p"
+	.string "Richtig! Du musst den Arenaleiter in\n"
+	.string "Xeneroville besiegen.\p"
+	.string "Wenn du bereit bist, tritt durch diese\n"
+	.string "Tür.$"
+#else
+	.string "You've long known how to use\n"
+	.string "WATERFALL.\p"
+	.string "In HOENN, though, you need the\n"
+	.string "RAIN BADGE for it.\p"
+	.string "And where does one get the RAIN BADGE?\n"
+	.string "You know, don't you?\p"
+	.string "That's right! You have to beat\n"
+	.string "the SOOTOPOLIS GYM LEADER.\p"
+	.string "When you're all set to go, step through\n"
+	.string "that door.$"
 #endif
 #endif

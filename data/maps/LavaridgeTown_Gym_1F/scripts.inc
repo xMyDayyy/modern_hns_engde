@@ -57,6 +57,12 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: Der Hitzeorden ist zugleich die Erlaubnis fuer Staerke -
+	@ das steht im Ordentext, eine eigene Uebergabe braucht es nicht.
+	setvar VAR_0x8004, LIC_STRENGTH
+	special SetHoennLicense
+#endif
 	setflag FLAG_WHITEOUT_TO_LAVARIDGE
 	setflag FLAG_DEFEATED_LAVARIDGE_GYM
 	setflag FLAG_BADGE04_GET
@@ -530,8 +536,8 @@ LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
 	.string "Mit dem Hitzeorden gehorchen dir alle\n"
 	.string "Pokémon bis Level 50, auch die, die du\l"
 	.string "durch Tausch erhalten hast.\p"
-	.string "Und du kannst ab sofort Stärke auch\n"
-	.string "außerhalb eines Kampfes einsetzen.\p"
+	.string "In Hoenn gilt er außerdem als\n"
+	.string "Erlaubnis, Stärke einzusetzen.\p"
 	.string "Dies ist das Zeichen meiner\n"
 	.string "Anerkennung. Nimm es ruhig an!$"
 #else
@@ -539,8 +545,8 @@ LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
 	.string "up to Level 50, even those you get in\l"
 	.string "trades from other people, will obey\l"
 	.string "you completely.\p"
-	.string "And, it lets POKéMON use the HM move\n"
-	.string "STRENGTH outside of battle.\p"
+	.string "In HOENN it also serves as your\n"
+	.string "permission to use STRENGTH.\p"
 	.string "This is a token of my appreciation.\n"
 	.string "Don't be shy about taking it!$"
 #endif

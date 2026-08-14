@@ -67,6 +67,12 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: Der Mentalorden ist zugleich die Erlaubnis fuer Taucher -
+	@ das steht im Ordentext, eine eigene Uebergabe braucht es nicht.
+	setvar VAR_0x8004, LIC_DIVE
+	special SetHoennLicense
+#endif
 	setflag FLAG_DEFEATED_MOSSDEEP_GYM
 	setflag FLAG_BADGE07_GET
 	setvar VAR_0x8004, 6
@@ -852,15 +858,14 @@ MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
 #if GERMAN
 	.string "Ben: Der Mentalorden erhöht den SP.\n"
 	.string "ANG. und die SP. Ver. von Pokémon.\p"
-	.string "Svenja: Und du kannst damit die VM\n"
-	.string "Taucher außerhalb eines Kampfes\l"
-	.string "einsetzen.\p"
+	.string "Svenja: In Hoenn gilt er außerdem als\n"
+	.string "Erlaubnis, Taucher einzusetzen.\p"
 	.string "Ben: Dies ist ebenfalls für dich.$"
 #else
 	.string "TATE: The MIND BADGE enhances the\n"
 	.string "SP. ATK and SP. DEF of POKéMON.\p"
-	.string "LIZA: It also lets you use the HM move\n"
-	.string "DIVE outside of battle.\p"
+	.string "LIZA: In HOENN it also serves as your\n"
+	.string "permission to use DIVE.\p"
 	.string "TATE: You should also take this, too.$"
 #endif
 

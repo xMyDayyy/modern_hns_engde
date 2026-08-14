@@ -5,23 +5,19 @@ MauvilleCity_House1_EventScript_RockSmashDude::
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_HM_ROCK_SMASH, MauvilleCity_House1_EventScript_ReceivedRockSmash
-	msgbox MauvilleCity_House1_Text_ImRockSmashDudeTakeThis, MSGBOX_DEFAULT
 #if IS_HNS
-	@ HnS: Statt der VM (die der Spieler laengst besitzt) wird die
-	@ Hoenn-Lizenz erteilt - siehe src/hoenn_licenses.c.
-	setvar VAR_0x8004, LIC_ROCK_SMASH
-	special SetHoennLicense
-	playfanfare MUS_OBTAIN_ITEM
-	message Text_HnsRockSmashLicense
-	waitmessage
-	waitfanfare
-	closemessage
+	@ HnS: Die Erlaubnis fuer Zertruemmerer erteilt allein Walter mit dem
+	@ Dynamo-Orden (siehe MauvilleCity_Gym). Dieser NPC uebergibt nichts mehr.
+	msgbox Text_HnsRockSmashDudeNoHandover, MSGBOX_DEFAULT
 #else
+	msgbox MauvilleCity_House1_Text_ImRockSmashDudeTakeThis, MSGBOX_DEFAULT
 	giveitem ITEM_HM_ROCK_SMASH
 #endif
 	setflag FLAG_RECEIVED_HM_ROCK_SMASH
 	setflag FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY
+#if !IS_HNS
 	msgbox MauvilleCity_House1_Text_ExplainRockSmash, MSGBOX_DEFAULT
+#endif
 	release
 	end
 
@@ -88,6 +84,8 @@ MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock:
 #endif
 
 #if IS_HNS
+@ Nicht mehr angesprungen, seit die Erlaubnis am Dynamo-Orden haengt.
+@ Bleibt stehen, damit nichts geloescht wird.
 Text_HnsRockSmashLicense:
 #if GERMAN
 	.string "{PLAYER} erhält die Lizenz für\n"
@@ -95,5 +93,33 @@ Text_HnsRockSmashLicense:
 #else
 	.string "{PLAYER} received the licence for\n"
 	.string "ROCK SMASH!$"
+#endif
+
+Text_HnsRockSmashDudeNoHandover:
+#if GERMAN
+	.string "Woohoo!\p"
+	.string "Die Leute nennen mich den Zertrümmerer,\n"
+	.string "aber ich finde den Namen unter meinem\l"
+	.string "Niveau!\p"
+	.string "Ich verdiene doch wohl etwas mehr\n"
+	.string "Respekt! Man sollte mich\l"
+	.string "Zertrümmerer-Meister nennen!\p"
+	.string "Woohoo, deine Pokémon sehen wirklich\n"
+	.string "sehr stark aus.\p"
+	.string "Aber in Hoenn zählt der Orden.\n"
+	.string "Ohne Walters Dynamo-Orden rührt hier\l"
+	.string "niemand einen Felsen an. Woohoo!$"
+#else
+	.string "Woohoo!\p"
+	.string "I hear people call me the ROCK SMASH\n"
+	.string "GUY, but I find that sort of degrading.\p"
+	.string "I think I deserve a bit more respect,\n"
+	.string "like maybe the ROCK SMASH DUDE.\p"
+	.string "Woohoo!\p"
+	.string "Anyways, your POKéMON look pretty\n"
+	.string "strong.\p"
+	.string "But in HOENN the badge is what counts.\n"
+	.string "Without WATTSON's DYNAMO BADGE nobody\l"
+	.string "here touches a boulder. Woohoo!$"
 #endif
 #endif

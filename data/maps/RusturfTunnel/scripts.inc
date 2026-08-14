@@ -53,24 +53,22 @@ RusturfTunnel_EventScript_ClearTunnelScene::
 	call_if_eq VAR_TEMP_1, 2, RusturfTunnel_EventScript_FaceWandasBoyfriend2
 	call_if_eq VAR_TEMP_1, 3, RusturfTunnel_EventScript_FaceWandasBoyfriend3
 	call RusturfTunnel_EventScript_WandasBoyfriendNotice
+#if IS_HNS
+	@ HnS: Die Erlaubnis fuer Staerke erteilt allein Flavia mit dem
+	@ Hitzeorden (siehe LavaridgeTown_Gym_1F). Hier gibt es nichts mehr.
+	msgbox Text_HnsShatteredBoulderNoHandover, MSGBOX_DEFAULT
+#else
 	msgbox RusturfTunnel_Text_YouShatteredBoulderTakeHM, MSGBOX_DEFAULT
+#endif
 	call_if_eq VAR_TEMP_1, 2, RusturfTunnel_EventScript_WandasBoyfriendApproachPlayer
 	call_if_eq VAR_TEMP_1, 3, RusturfTunnel_EventScript_WandasBoyfriendApproachPlayer
-#if IS_HNS
-	@ HnS: Statt der VM (die der Spieler laengst besitzt) wird die
-	@ Hoenn-Lizenz erteilt - siehe src/hoenn_licenses.c.
-	setvar VAR_0x8004, LIC_STRENGTH
-	special SetHoennLicense
-	playfanfare MUS_OBTAIN_ITEM
-	message Text_HnsStrengthLicense
-	waitmessage
-	waitfanfare
-	closemessage
-#else
+#if !IS_HNS
 	giveitem ITEM_HM_STRENGTH
 #endif
 	setflag FLAG_RECEIVED_HM_STRENGTH
+#if !IS_HNS
 	msgbox RusturfTunnel_Text_ExplainStrength, MSGBOX_DEFAULT
+#endif
 	closemessage
 	call_if_eq VAR_TEMP_1, 1, RusturfTunnel_EventScript_BoyfriendApproachWanda1
 	call_if_eq VAR_TEMP_1, 2, RusturfTunnel_EventScript_BoyfriendApproachWanda2
@@ -667,6 +665,8 @@ RusturfTunnel_Text_MikePostBattle:
 #endif
 
 #if IS_HNS
+@ Nicht mehr angesprungen, seit die Erlaubnis am Hitzeorden haengt.
+@ Bleibt stehen, damit nichts geloescht wird.
 Text_HnsStrengthLicense:
 #if GERMAN
 	.string "{PLAYER} erhält die Lizenz für\n"
@@ -674,5 +674,21 @@ Text_HnsStrengthLicense:
 #else
 	.string "{PLAYER} received the licence for\n"
 	.string "STRENGTH!$"
+#endif
+
+Text_HnsShatteredBoulderNoHandover:
+#if GERMAN
+	.string "Wow! Du hast den Felsen, der den Weg\n"
+	.string "blockierte, einfach zertrümmert.\p"
+	.string "Darüber bin ich überglücklich!\p"
+	.string "Schenken kann ich dir leider nichts,\n"
+	.string "was du nicht längst besitzt.$"
+#else
+	.string "Wow! You shattered that boulder\n"
+	.string "blocking the way.\p"
+	.string "I can't tell you how happy that\n"
+	.string "makes me!\p"
+	.string "I'm afraid I have nothing to give you\n"
+	.string "that you don't already own.$"
 #endif
 #endif

@@ -88,6 +88,12 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: Der Dynamo-Orden ist zugleich die Erlaubnis fuer Zertruemmerer -
+	@ das steht im Ordentext, eine eigene Uebergabe braucht es nicht.
+	setvar VAR_0x8004, LIC_ROCK_SMASH
+	special SetHoennLicense
+#endif
 	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 3
 	clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
@@ -500,18 +506,17 @@ MauvilleCity_Gym_Text_ReceivedDynamoBadge:
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
 #if GERMAN
-	.string "Mit dem Dynamo-Orden können Pokémon\n"
-	.string "Zertrümmerer auch außerhalb eines\l"
-	.string "Kampfes einsetzen.\p"
-	.string "Und außerdem werden deine Pokémon ein\n"
-	.string "kleines bisschen schneller.\p"
+	.string "Der Dynamo-Orden macht deine Pokémon\n"
+	.string "ein kleines bisschen schneller.\p"
+	.string "In Hoenn gilt er außerdem als\n"
+	.string "Erlaubnis, Zertrümmerer einzusetzen.\p"
 	.string "Hmm…\n"
 	.string "Dies hier solltest du auch nehmen!$"
 #else
-	.string "With the DYNAMO BADGE, POKéMON can\n"
-	.string "use ROCK SMASH out of battle.\p"
-	.string "And, it will make your POKéMON a little\n"
-	.string "bit faster, too.\p"
+	.string "The DYNAMO BADGE will make your\n"
+	.string "POKéMON a little bit faster.\p"
+	.string "In HOENN it also serves as your\n"
+	.string "permission to use ROCK SMASH.\p"
 	.string "Hmm…\n"
 	.string "You should take this, too!$"
 #endif

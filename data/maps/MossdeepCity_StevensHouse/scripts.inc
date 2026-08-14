@@ -36,23 +36,19 @@ MossdeepCity_StevensHouse_EventScript_StevenGivesDive::
 	waitmovement 0
 	applymovement LOCALID_STEVENS_HOUSE_STEVEN, MossdeepCity_StevensHouse_Movement_StevenApproachPlayer
 	waitmovement 0
-	msgbox MossdeepCity_StevensHouse_Text_YouveEarnedHMDive, MSGBOX_DEFAULT
 #if IS_HNS
-	@ HnS: Statt der VM (die der Spieler laengst besitzt) wird die
-	@ Hoenn-Lizenz erteilt - siehe src/hoenn_licenses.c.
-	setvar VAR_0x8004, LIC_DIVE
-	special SetHoennLicense
-	playfanfare MUS_OBTAIN_ITEM
-	message Text_HnsDiveLicense
-	waitmessage
-	waitfanfare
-	closemessage
+	@ HnS: Die Erlaubnis fuer Taucher erteilen allein Ben und Svenja mit dem
+	@ Mentalorden (siehe MossdeepCity_Gym). Troy uebergibt nichts mehr.
+	msgbox Text_HnsStevenNoDiveHandover, MSGBOX_DEFAULT
 #else
+	msgbox MossdeepCity_StevensHouse_Text_YouveEarnedHMDive, MSGBOX_DEFAULT
 	giveitem ITEM_HM_DIVE
 #endif
 	setflag FLAG_RECEIVED_HM_DIVE
 	setflag FLAG_OMIT_DIVE_FROM_STEVEN_LETTER
+#if !IS_HNS
 	msgbox MossdeepCity_StevensHouse_Text_ExplainDive, MSGBOX_DEFAULT
+#endif
 	closemessage
 	delay 20
 	applymovement LOCALID_STEVENS_HOUSE_STEVEN, MossdeepCity_StevensHouse_Movement_StevenReturn
@@ -300,6 +296,8 @@ MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
 #endif
 
 #if IS_HNS
+@ Nicht mehr angesprungen, seit die Erlaubnis am Mentalorden haengt.
+@ Bleibt stehen, damit nichts geloescht wird.
 Text_HnsDiveLicense:
 #if GERMAN
 	.string "{PLAYER} erhält die Lizenz für\n"
@@ -307,5 +305,26 @@ Text_HnsDiveLicense:
 #else
 	.string "{PLAYER} received the licence for\n"
 	.string "DIVE!$"
+#endif
+
+Text_HnsStevenNoDiveHandover:
+#if GERMAN
+	.string "Troy: {PLAYER}{KUN}?\p"
+	.string "Ja, das ist mein Zuhause. Peinlich,\n"
+	.string "wie kahl die Räume hier sind.\p"
+	.string "Taucher beherrschst du längst.\n"
+	.string "Einsetzen darfst du es in Hoenn aber\l"
+	.string "erst mit dem Mentalorden.\p"
+	.string "Die Arena hier in Moosbach wartet\n"
+	.string "schon auf dich.$"
+#else
+	.string "STEVEN: {PLAYER}{KUN}…\p"
+	.string "As you can see, there's not much here,\n"
+	.string "but this is my home.\p"
+	.string "You've long known how to use DIVE.\n"
+	.string "In HOENN, though, you may only use it\l"
+	.string "once you hold the MIND BADGE.\p"
+	.string "The GYM here in MOSSDEEP is already\n"
+	.string "waiting for you.$"
 #endif
 #endif
