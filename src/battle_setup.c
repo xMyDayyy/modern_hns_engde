@@ -3,6 +3,7 @@
 #include "bug_contest.h"
 #include "load_save.h"
 #include "battle_setup.h"
+#include "hoenn_level_scaling.h"
 #include "battle_tower.h"
 #include "battle_transition.h"
 #include "main.h"
@@ -622,7 +623,10 @@ static void DoBattlePyramidTrainerHillBattle(void)
 // Initiates battle where Wally catches Ralts
 void StartWallyTutorialBattle(void)
 {
-    CreateMaleMon(&gEnemyParty[0], SPECIES_RALTS, 5);
+    // HnS: Level 5 passt nicht zu einem Spieler, der Hoenn als Champion
+    // betritt. Das Ralts wird deshalb wie ein wildes Pokemon auf das
+    // Hoenn-Niveau hochgezogen (Anker = staerkstes Teammitglied).
+    CreateMaleMon(&gEnemyParty[0], SPECIES_RALTS, IS_HNS ? HoennScaleWildMonLevel(5) : 5);
     LockPlayerFieldControls();
     gMain.savedCallback = CB2_ReturnToFieldContinueScriptPlayMapMusic;
     gBattleTypeFlags = BATTLE_TYPE_CATCH_TUTORIAL;
