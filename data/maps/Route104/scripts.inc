@@ -1152,13 +1152,18 @@ Route104_Text_PrettyPetalFlowShop:
 
 Route104_Text_TrainerTipsDoubleBattles:
 #if GERMAN
-	.string "“Der Blütenburgwald liegt im Süden.\p"
-	.string "Nach Norden geht es weiter nach\n"
-	.string "Metarost City.”$"
+	.string "Tipps für Trainer\p"
+	.string "In Johto und Kanto tragen die\n"
+	.string "Beerenbäume von allein nach.\p"
+	.string "In Hoenn pflanzt man Beeren selbst\n"
+	.string "und gießt sie, bis der Strauch trägt.$"
 #else
-	.string "“PETALBURG WOODS lie to the south.\p"
-	.string "North from here it continues on to\n"
-	.string "RUSTBORO CITY.”$"
+	.string "TRAINER TIPS\p"
+	.string "In JOHTO and KANTO the BERRY trees\n"
+	.string "bear fruit again on their own.\p"
+	.string "In HOENN you plant BERRIES yourself\n"
+	.string "and water them until the bush bears\l"
+	.string "fruit.$"
 #endif
 
 Route104_Text_MayWeShouldRegister:
