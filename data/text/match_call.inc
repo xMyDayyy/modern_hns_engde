@@ -4346,40 +4346,35 @@ MatchCall_BattlePyramidText14::
 
 MatchCall_Text_Mom1::
 #if GERMAN
-	.string "Mutter: Dein Vater und du…\n"
-	.string "Beide seid ihr mit Pokémon beschäftigt.\p"
+	.string "Mutter: Du und die Pokémon…\n"
+	.string "Beide seid ihr nicht zu bremsen.\p"
 	.string "Was macht den Charme der Pokémon\n"
 	.string "aus?\p"
 	.string "Was mit mir ist? Ich liebe die Pokémon,\n"
-	.string "die mir bei der täglichen Arbeit helfen.$"
+	.string "die mir bei der täglichen Arbeit\l"
+	.string "helfen.$"
 #else
-	.string "MOM: Your father and you…\n"
-	.string "Everyone is captivated by POKéMON.\p"
+	.string "MOM: You and POKéMON…\n"
+	.string "There is no stopping either of you.\p"
 	.string "What is the charm of POKéMON?\p"
 	.string "Me?\n"
 	.string "I adore POKéMON that help me with\l"
-	.string "my everyday chores.$"
+	.string "my daily work.$"
 #endif
 
 MatchCall_Text_Mom2::
 #if GERMAN
-	.string "Mutter: Hallo {PLAYER}!\n"
-	.string "Dein Vater hat sich in der Arena von\l"
-	.string "Blütenburg City verkrochen.\p"
-	.string "Er kommt zwar oft nach Hause, aber kaum\n"
-	.string "ist er da, geht er auch schon wieder\l"
-	.string "zurück in seine Arena.\p"
-	.string "Ich glaube, dass du ihn besiegt\n"
-	.string "hast, hat seinen Stolz verletzt.$"
+	.string "Mutter: Hallo {PLAYER}!\p"
+	.string "In Neuborkia ist es still, seit du\n"
+	.string "unterwegs bist.\p"
+	.string "Aber ich höre ja von deinen Erfolgen -\n"
+	.string "das ganze Dorf redet darüber.$"
 #else
-	.string "MOM: Hi, {PLAYER}!\n"
-	.string "Your father keeps himself locked\l"
-	.string "away in the PETALBURG GYM.\p"
-	.string "He comes home every so often.\n"
-	.string "But he goes back to the GYM when\l"
-	.string "he's eaten everything he can.\p"
-	.string "I'm guessing that losing to you\n"
-	.string "was a big blow to his pride!$"
+	.string "MOM: Hi, {PLAYER}!\p"
+	.string "NEW BARK TOWN is quiet since you\n"
+	.string "set out.\p"
+	.string "But I hear of your successes - the\n"
+	.string "whole town is talking about them.$"
 #endif
 
 MatchCall_Text_Mom3::

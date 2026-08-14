@@ -1811,8 +1811,8 @@ PetalburgCity_Gym_Text_GeorgeDefeat:
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
 #if GERMAN
-	.string "Ich hatte vom Kind unseres Arena-\n"
-	.string "leiters nichts anderes erwartet!\p"
+	.string "Von einem Trainer aus Übersee hatte\n"
+	.string "ich nichts anderes erwartet!\p"
 	.string "Nein! Die Fähigkeiten eines Trainers\n"
 	.string "entwickeln sich mit dem Training.\p"
 	.string "Ich habe mich offensichtlich nicht\n"
@@ -1821,12 +1821,12 @@ PetalburgCity_Gym_Text_GeorgePostBattle:
 	.string "Treffer-Raum.$"
 #else
 	.string "I should have expected no less from\n"
-	.string "our LEADER's kid.\p"
+	.string "a TRAINER from overseas!\p"
 	.string "No, wait! A TRAINER's abilities are\n"
 	.string "earned only through effort.\p"
-	.string "I lost because my own efforts\n"
-	.string "weren't enough.\p"
-	.string "Go on! The ONE-HIT KO ROOM is next.$"
+	.string "I clearly did not work hard enough.\p"
+	.string "Go on! The next room is the OHKO\n"
+	.string "ROOM.$"
 #endif
 
 PetalburgCity_Gym_Text_GeorgePostBadge:
@@ -1841,14 +1841,13 @@ PetalburgCity_Gym_Text_GeorgePostBadge:
 PetalburgCity_Gym_Text_BerkeIntro:
 #if GERMAN
 	.string "Ich werde es dir nicht leicht machen,\n"
-	.string "nur weil du das Kind unseres Leiters\l"
-	.string "bist.\p"
+	.string "nur weil man sich über dich erzählt.\p"
 	.string "Ich werde dir beibringen, was es für ein\n"
 	.string "Pokémon bedeutet, einen Volltreffer zu\l"
 	.string "erhalten.$"
 #else
 	.string "I'm not going to take it easy just\n"
-	.string "because you're our LEADER's kid.\p"
+	.string "because people talk about you.\p"
 	.string "I'll show you how horrid it is for\n"
 	.string "a POKéMON to take a critical hit!$"
 #endif
@@ -1989,13 +1988,11 @@ PetalburgCity_Gym_Text_JodyIntro:
 #if GERMAN
 	.string "Unser Arenaleiter hat uns angewiesen,\n"
 	.string "alles zu geben und dich zu besiegen.\p"
-	.string "Auch wenn du das Kind des Leiters\n"
-	.string "bist!$"
+	.string "Auch wenn du von weit her kommst!$"
 #else
 	.string "Our GYM LEADER told us to go all out\n"
 	.string "and beat you.\p"
-	.string "Even if you happen to be the\n"
-	.string "LEADER's kid!$"
+	.string "Even if you have come a long way!$"
 #endif
 
 PetalburgCity_Gym_Text_JodyDefeat:
