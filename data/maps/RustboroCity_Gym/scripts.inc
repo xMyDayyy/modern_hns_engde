@@ -82,13 +82,29 @@ RustboroCity_Gym_EventScript_GymGuidePostVictory::
 
 RustboroCity_Gym_EventScript_LeftGymStatue::
 	lockall
+#if IS_HNS
+	@ HnS: FLAG_BADGE01_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 0
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_Gym_EventScript_GymStatueCertified
+#else
 	goto_if_set FLAG_BADGE01_GET, RustboroCity_Gym_EventScript_GymStatueCertified
+#endif
 	goto RustboroCity_Gym_EventScript_GymStatue
 	end
 
 RustboroCity_Gym_EventScript_RightGymStatue::
 	lockall
+#if IS_HNS
+	@ HnS: FLAG_BADGE01_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 0
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_Gym_EventScript_GymStatueCertified
+#else
 	goto_if_set FLAG_BADGE01_GET, RustboroCity_Gym_EventScript_GymStatueCertified
+#endif
 	goto RustboroCity_Gym_EventScript_GymStatue
 	end
 

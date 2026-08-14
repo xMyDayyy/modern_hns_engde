@@ -20,7 +20,15 @@ Route104_OnTransition:
 
 Route104_EventScript_ShowOrHideWhiteHerbFlorist::
 	goto_if_unset FLAG_MET_PRETTY_PETAL_SHOP_OWNER, Route104_EventScript_HideWhiteHerbFlorist
+#if IS_HNS
+	@ HnS: FLAG_BADGE03_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 2
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, FALSE, Route104_EventScript_HideWhiteHerbFlorist
+#else
 	goto_if_unset FLAG_BADGE03_GET, Route104_EventScript_HideWhiteHerbFlorist
+#endif
 	clearflag FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST
 	return
 

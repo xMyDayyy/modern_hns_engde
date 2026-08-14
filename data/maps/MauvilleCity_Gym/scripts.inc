@@ -238,13 +238,29 @@ MauvilleCity_Gym_EventScript_GymGuidePostVictory::
 
 MauvilleCity_Gym_EventScript_LeftGymStatue::
 	lockall
+#if IS_HNS
+	@ HnS: FLAG_BADGE03_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 2
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, MauvilleCity_Gym_EventScript_GymStatueCertified
+#else
 	goto_if_set FLAG_BADGE03_GET, MauvilleCity_Gym_EventScript_GymStatueCertified
+#endif
 	goto MauvilleCity_Gym_EventScript_GymStatue
 	end
 
 MauvilleCity_Gym_EventScript_RightGymStatue::
 	lockall
+#if IS_HNS
+	@ HnS: FLAG_BADGE03_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 2
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, MauvilleCity_Gym_EventScript_GymStatueCertified
+#else
 	goto_if_set FLAG_BADGE03_GET, MauvilleCity_Gym_EventScript_GymStatueCertified
+#endif
 	goto MauvilleCity_Gym_EventScript_GymStatue
 	end
 

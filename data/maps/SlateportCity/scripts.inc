@@ -261,7 +261,15 @@ SlateportCity_EventScript_BattleTentSign::
 SlateportCity_EventScript_SternsShipyardSign::
 	lockall
 	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_EventScript_SternsShipyardFerryComplete
+#if IS_HNS
+	@ HnS: FLAG_BADGE07_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 6
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, SlateportCity_EventScript_SternsShipyardNearsCompletion
+#else
 	goto_if_set FLAG_BADGE07_GET, SlateportCity_EventScript_SternsShipyardNearsCompletion
+#endif
 	msgbox SlateportCity_Text_SternsShipyardWantedSign, MSGBOX_DEFAULT
 	releaseall
 	end

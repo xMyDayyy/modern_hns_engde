@@ -291,13 +291,29 @@ MossdeepCity_Gym_Movement_WaitAfterSwitchUse:
 
 MossdeepCity_Gym_EventScript_LeftGymStatue::
 	lockall
+#if IS_HNS
+	@ HnS: FLAG_BADGE07_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 6
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, MossdeepCity_Gym_EventScript_GymStatueCertified
+#else
 	goto_if_set FLAG_BADGE07_GET, MossdeepCity_Gym_EventScript_GymStatueCertified
+#endif
 	goto MossdeepCity_Gym_EventScript_GymStatue
 	end
 
 MossdeepCity_Gym_EventScript_RightGymStatue::
 	lockall
+#if IS_HNS
+	@ HnS: FLAG_BADGE07_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 6
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, MossdeepCity_Gym_EventScript_GymStatueCertified
+#else
 	goto_if_set FLAG_BADGE07_GET, MossdeepCity_Gym_EventScript_GymStatueCertified
+#endif
 	goto MossdeepCity_Gym_EventScript_GymStatue
 	end
 

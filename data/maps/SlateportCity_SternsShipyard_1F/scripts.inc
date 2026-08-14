@@ -4,7 +4,15 @@ SlateportCity_SternsShipyard_1F_MapScripts::
 SlateportCity_SternsShipyard_1F_EventScript_Dock::
 	lockall
 	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_SternsShipyard_1F_EventScript_FerryReady
+#if IS_HNS
+	@ HnS: FLAG_BADGE07_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 6
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, SlateportCity_SternsShipyard_1F_EventScript_BrineyJoined
+#else
 	goto_if_set FLAG_BADGE07_GET, SlateportCity_SternsShipyard_1F_EventScript_BrineyJoined
+#endif
 	goto_if_set FLAG_DELIVERED_DEVON_GOODS, SlateportCity_SternsShipyard_1F_EventScript_NeedVeteran
 	goto_if_set FLAG_DOCK_REJECTED_DEVON_GOODS, SlateportCity_SternsShipyard_1F_EventScript_GoFindStern
 	msgbox SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails, MSGBOX_DEFAULT

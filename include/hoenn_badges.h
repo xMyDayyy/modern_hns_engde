@@ -5,5 +5,6 @@ u32 GetHoennBadgeCount(void);
 bool32 HasHoennBadge(u32 index);
 void SetHoennBadge(void);      // Special: Index in gSpecialVar_0x8004
 void CountHoennBadges(void);   // Special: Anzahl nach gSpecialVar_Result
+void CheckHoennBadge(void);    // Special: Index in gSpecialVar_0x8004, Ergebnis nach gSpecialVar_Result
 
 #endif // GUARD_HOENN_BADGES_H

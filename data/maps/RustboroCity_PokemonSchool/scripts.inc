@@ -165,7 +165,15 @@ RustboroCity_PokemonSchool_EventScript_Scott::
 	faceplayer
 	goto_if_set FLAG_MET_SCOTT_AFTER_OBTAINING_STONE_BADGE, RustboroCity_PokemonSchool_EventScript_ScottWatchStudents
 	goto_if_set FLAG_MET_SCOTT_RUSTBORO, RustboroCity_PokemonSchool_EventScript_ScottSpokeAlready
+#if IS_HNS
+	@ HnS: FLAG_BADGE01_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 0
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_PokemonSchool_EventScript_ScottGreetHasBadge
+#else
 	goto_if_set FLAG_BADGE01_GET, RustboroCity_PokemonSchool_EventScript_ScottGreetHasBadge
+#endif
 	msgbox RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut, MSGBOX_DEFAULT
 	addvar VAR_SCOTT_STATE, 1
 	setflag FLAG_MET_SCOTT_RUSTBORO
@@ -173,7 +181,15 @@ RustboroCity_PokemonSchool_EventScript_Scott::
 	end
 
 RustboroCity_PokemonSchool_EventScript_ScottSpokeAlready::
+#if IS_HNS
+	@ HnS: FLAG_BADGE01_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 0
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_PokemonSchool_EventScript_ScottNoticeBadge
+#else
 	goto_if_set FLAG_BADGE01_GET, RustboroCity_PokemonSchool_EventScript_ScottNoticeBadge
+#endif
 	msgbox RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown, MSGBOX_DEFAULT
 	release
 	end
@@ -422,20 +438,22 @@ RustboroCity_PokemonSchool_Text_StudentsNotes:
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 #if GERMAN
-	.string "Scott: Hallo!\p"
-	.string "Wir kennen uns nicht, aber ich sehe\n"
-	.string "einem Trainer an, was in ihm steckt.\p"
-	.string "Mein Name ist Scott.\p"
+	.string "Hallo! In Blütenburg sind wir uns\n"
+	.string "schon über den Weg gelaufen.\p"
+	.string "Vorgestellt habe ich mich da nicht -\n"
+	.string "das hole ich nach. Mein Name ist\l"
+	.string "Scott.\p"
 	.string "Ich reise durch die Lande, auf der\n"
 	.string "Suche nach herausragenden Trainern.\p"
 	.string "Und du…\n"
 	.string "du bist keiner von den Anfängern hier.\p"
 	.string "Wir sehen uns wieder.$"
 #else
-	.string "SCOTT: Hello!\p"
-	.string "We haven't met, but I can see what\n"
-	.string "a TRAINER is made of.\p"
-	.string "My name is SCOTT.\p"
+	.string "Hello! We crossed paths in PETALBURG\n"
+	.string "already.\p"
+	.string "I didn't introduce myself then -\n"
+	.string "let me do that now. My name is\l"
+	.string "SCOTT.\p"
 	.string "I travel the land looking for\n"
 	.string "outstanding TRAINERS.\p"
 	.string "And you…\n"
@@ -478,10 +496,11 @@ RustboroCity_PokemonSchool_Text_ScottStoneBadge:
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 #if GERMAN
-	.string "Scott: Hallo!\p"
-	.string "Wir kennen uns nicht, aber ich sehe\n"
-	.string "einem Trainer an, was in ihm steckt.\p"
-	.string "Mein Name ist Scott.\p"
+	.string "Hallo! In Blütenburg sind wir uns\n"
+	.string "schon über den Weg gelaufen.\p"
+	.string "Vorgestellt habe ich mich da nicht -\n"
+	.string "das hole ich nach. Mein Name ist\l"
+	.string "Scott.\p"
 	.string "Ich reise durch die Lande, auf der\n"
 	.string "Suche nach herausragenden Trainern.\p"
 	.string "Was ist das?\n"
@@ -489,10 +508,11 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 	.string "Ich würde dich liebend gerne mal in\n"
 	.string "einem Kampf beobachten.$"
 #else
-	.string "SCOTT: Hello!\p"
-	.string "We haven't met, but I can see what\n"
-	.string "a TRAINER is made of.\p"
-	.string "My name is SCOTT.\p"
+	.string "Hello! We crossed paths in PETALBURG\n"
+	.string "already.\p"
+	.string "I didn't introduce myself then -\n"
+	.string "let me do that now. My name is\l"
+	.string "SCOTT.\p"
 	.string "I travel the land looking for\n"
 	.string "outstanding TRAINERS.\p"
 	.string "What's that?\n"

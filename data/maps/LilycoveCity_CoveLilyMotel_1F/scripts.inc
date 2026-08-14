@@ -4,7 +4,15 @@ LilycoveCity_CoveLilyMotel_1F_MapScripts::
 LilycoveCity_CoveLilyMotel_1F_EventScript_MotelOwner::
 	lockall
 	goto_if_set FLAG_SYS_GAME_CLEAR, LilycoveCity_CoveLilyMotel_1F_EventScript_GameClear
+#if IS_HNS
+	@ HnS: FLAG_BADGE07_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 6
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_CoveLilyMotel_1F_EventScript_AquaHideoutBusted
+#else
 	goto_if_set FLAG_BADGE07_GET, LilycoveCity_CoveLilyMotel_1F_EventScript_AquaHideoutBusted
+#endif
 	msgbox LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot, MSGBOX_DEFAULT
 	applymovement LOCALID_MOTEL_OWNER, Common_Movement_FacePlayer
 	waitmovement 0

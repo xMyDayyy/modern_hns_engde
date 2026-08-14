@@ -57,7 +57,15 @@ LilycoveCity_EventScript_Man3::
 LilycoveCity_EventScript_Girl::
 	lock
 	faceplayer
+#if IS_HNS
+	@ HnS: FLAG_BADGE07_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 6
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_GirlAquaGone
+#else
 	goto_if_set FLAG_BADGE07_GET, LilycoveCity_EventScript_GirlAquaGone
+#endif
 	msgbox LilycoveCity_Text_StrangeCaveInCove, MSGBOX_DEFAULT
 	release
 	end
@@ -112,7 +120,15 @@ LilycoveCity_EventScript_ExpertF::
 LilycoveCity_EventScript_ExpertM2::
 	lock
 	faceplayer
+#if IS_HNS
+	@ HnS: FLAG_BADGE07_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 6
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_ExpertM2AquaGone
+#else
 	goto_if_set FLAG_BADGE07_GET, LilycoveCity_EventScript_ExpertM2AquaGone
+#endif
 	msgbox LilycoveCity_Text_TeamAquaRenovatedCavern, MSGBOX_DEFAULT
 	release
 	end
@@ -323,7 +339,15 @@ LilycoveCity_EventScript_BattleBrendanMudkip::
 LilycoveCity_EventScript_DefeatedMay::
 	msgbox LilycoveCity_Text_MayGoingBackToLittleroot, MSGBOX_DEFAULT
 	setvar VAR_RESULT, FALSE
+#if IS_HNS
+	@ HnS: FLAG_BADGE06_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 5
+	special CheckHoennBadge
+	call_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_CheckFinalBadge
+#else
 	call_if_set FLAG_BADGE06_GET, LilycoveCity_EventScript_CheckFinalBadge
+#endif
 	call_if_eq VAR_RESULT, FALSE, LilycoveCity_EventScript_MayCollectBadges
 	call_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_MayPokemonLeague
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
@@ -332,7 +356,15 @@ LilycoveCity_EventScript_DefeatedMay::
 	end
 
 LilycoveCity_EventScript_CheckFinalBadge::
+#if IS_HNS
+	@ HnS: FLAG_BADGE08_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 7
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_HasFinalBadge
+#else
 	goto_if_set FLAG_BADGE08_GET, LilycoveCity_EventScript_HasFinalBadge
+#endif
 	return
 
 LilycoveCity_EventScript_HasFinalBadge::
@@ -355,7 +387,15 @@ LilycoveCity_EventScript_MayBattleFrontier::
 LilycoveCity_EventScript_DefeatedBrendan::
 	msgbox LilycoveCity_Text_BrendanGoingBackToLittleroot, MSGBOX_DEFAULT
 	setvar VAR_RESULT, FALSE
+#if IS_HNS
+	@ HnS: FLAG_BADGE06_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 5
+	special CheckHoennBadge
+	call_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_CheckFinalBadge
+#else
 	call_if_set FLAG_BADGE06_GET, LilycoveCity_EventScript_CheckFinalBadge
+#endif
 	call_if_eq VAR_RESULT, FALSE, LilycoveCity_EventScript_BrendanCollectBadges
 	call_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_BrendanPokemonLeague
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM

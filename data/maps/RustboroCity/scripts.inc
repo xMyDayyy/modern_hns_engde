@@ -174,7 +174,15 @@ RustboroCity_EventScript_Woman::
 RustboroCity_EventScript_Man1::
 	lock
 	faceplayer
+#if IS_HNS
+	@ HnS: FLAG_BADGE01_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 0
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, RustboroCity_EventScript_Man1HaveBadge
+#else
 	goto_if_set FLAG_BADGE01_GET, RustboroCity_EventScript_Man1HaveBadge
+#endif
 	msgbox RustboroCity_Text_HaveYouChallengedGym, MSGBOX_DEFAULT
 	release
 	end

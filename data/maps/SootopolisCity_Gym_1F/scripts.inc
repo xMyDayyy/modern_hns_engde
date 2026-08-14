@@ -84,7 +84,15 @@ SootopolisCity_Gym_1F_EventScript_Juan::
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, SootopolisCity_Gym_1F_EventScript_JuanRematch
 	goto_if_unset FLAG_RECEIVED_TM_WATER_PULSE, SootopolisCity_Gym_1F_EventScript_GiveWaterPulse2
+#if IS_HNS
+	@ HnS: FLAG_BADGE06_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 5
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, FALSE, SootopolisCity_Gym_1F_EventScript_GoGetFortreeBadge
+#else
 	goto_if_unset FLAG_BADGE06_GET, SootopolisCity_Gym_1F_EventScript_GoGetFortreeBadge
+#endif
 	msgbox SootopolisCity_Gym_1F_Text_JuanPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -157,13 +165,29 @@ SootopolisCity_Gym_1F_EventScript_GymGuidePostVictory::
 
 SootopolisCity_Gym_1F_EventScript_LeftGymStatue::
 	lockall
+#if IS_HNS
+	@ HnS: FLAG_BADGE08_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 7
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, SootopolisCity_Gym_1F_EventScript_GymStatueCertified
+#else
 	goto_if_set FLAG_BADGE08_GET, SootopolisCity_Gym_1F_EventScript_GymStatueCertified
+#endif
 	goto SootopolisCity_Gym_1F_EventScript_GymStatue
 	end
 
 SootopolisCity_Gym_1F_EventScript_RightGymStatue::
 	lockall
+#if IS_HNS
+	@ HnS: FLAG_BADGE08_GET gehoert zu den Johto/Kanto-Orden und ist
+	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.
+	setvar VAR_0x8004, 7
+	special CheckHoennBadge
+	goto_if_eq VAR_RESULT, TRUE, SootopolisCity_Gym_1F_EventScript_GymStatueCertified
+#else
 	goto_if_set FLAG_BADGE08_GET, SootopolisCity_Gym_1F_EventScript_GymStatueCertified
+#endif
 	goto SootopolisCity_Gym_1F_EventScript_GymStatue
 	end
 

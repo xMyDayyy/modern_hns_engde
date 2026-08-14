@@ -710,5 +710,6 @@ gSpecials::
 	def_special GetMaxPartySize
 	def_special SetHoennBadge
 	def_special CountHoennBadges
+	def_special CheckHoennBadge
 	def_special SetHoennLicense
 	def_special CheckHoennLicense
