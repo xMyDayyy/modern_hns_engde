@@ -1219,13 +1219,15 @@ Route104_Text_MayMinesDecentLetsBattle:
 
 Route104_Text_MayHaventRaisedPokemon:
 #if GERMAN
-	.string "Maike: Schade!\p"
-	.string "Dann eben beim nächsten Mal.\n"
-	.string "Ich gebe nicht auf, das weißt du.$"
+	.string "Maike: Ah, gerade keine Zeit?\n"
+	.string "Nicht schlimm.\p"
+	.string "Wenn du doch Lust hast - ich bin\n"
+	.string "jederzeit bereit.$"
 #else
-	.string "MAY: Too bad!\p"
-	.string "Next time, then.\n"
-	.string "I won't give up, you know that.$"
+	.string "MAY: Ah, no time right now?\n"
+	.string "No problem.\p"
+	.string "If you feel like it after all - I am\n"
+	.string "ready any time.$"
 #endif
 
 Route104_Text_MayLetsBattle:
