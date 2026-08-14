@@ -1152,26 +1152,13 @@ Route104_Text_PrettyPetalFlowShop:
 
 Route104_Text_TrainerTipsDoubleBattles:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "In der Hoenn-Region gibt es Paare von\n"
-	.string "Trainern, die andere zu einem\l"
-	.string "2-gegen-2-Pokémon-Kampf, einem\l"
-	.string "Doppelkampf, herausfordern.\p"
-	.string "In einem Doppelkampf muss der Trainer\n"
-	.string "zwei Pokémon antreten lassen. Das\l"
-	.string "Pokémon links neben der Liste und das\l"
-	.string "an der Spitze der Liste. Achte also auf\l"
-	.string "die Reihenfolge der Pokémon.$"
+	.string "“Der Blütenburgwald liegt im Süden.\p"
+	.string "Nach Norden geht es weiter nach\n"
+	.string "Metarost City.”$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "In the HOENN region there are pairs\n"
-	.string "of TRAINERS who challenge others\l"
-	.string "for 2-on-2 POKéMON battles called\l"
-	.string "DOUBLE BATTLES.\p"
-	.string "In a DOUBLE BATTLE, the TRAINER must\n"
-	.string "send out two POKéMON, the one at the\l"
-	.string "left of the list and the top one.\l"
-	.string "Watch how POKéMON are lined up.$"
+	.string "“PETALBURG WOODS lie to the south.\p"
+	.string "North from here it continues on to\n"
+	.string "RUSTBORO CITY.”$"
 #endif
 
 Route104_Text_MayWeShouldRegister:

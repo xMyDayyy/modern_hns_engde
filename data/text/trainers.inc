@@ -816,27 +816,29 @@ Route104_Text_WinstonPostBattle:
 Route104_Text_WinstonRegister1:
 #if GERMAN
 	.string "Hm?\n"
-	.string "Oh, du hast einen PokéCom erhalten.\p"
+	.string "Du hast also auch einen PokéCom.\p"
 	.string "Ich werde dich sofort eintragen.\n"
 	.string "Schließlich habe ich sehr viel Geld.$"
 #else
-	.string "Hm?\n"
-	.string "Ah, you've obtained a POKéGEAR.\p"
-	.string "I will gladly register you.\n"
-	.string "After all, I have plenty of money.$"
+	.string "Hmm?\n"
+	.string "So you have a POKéCOM too.\p"
+	.string "I'll register you right away.\n"
+	.string "After all, I have a great deal of\l"
+	.string "money.$"
 #endif
 
 Route104_Text_WinstonRegister2:
 #if GERMAN
 	.string "Hm?\n"
-	.string "Oh, du hast einen PokéCom erhalten.\p"
+	.string "Du hast also auch einen PokéCom.\p"
 	.string "Ich werde dich sofort eintragen.\n"
 	.string "Schließlich habe ich sehr viel Geld.$"
 #else
-	.string "Hm?\n"
-	.string "Ah, you've obtained a POKéGEAR.\p"
-	.string "I will gladly register you.\n"
-	.string "After all, I have plenty of money.$"
+	.string "Hmm?\n"
+	.string "So you have a POKéCOM too.\p"
+	.string "I'll register you right away.\n"
+	.string "After all, I have a great deal of\l"
+	.string "money.$"
 #endif
 
 Route104_Text_WinstonRematchIntro:
