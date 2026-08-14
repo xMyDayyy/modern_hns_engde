@@ -948,15 +948,15 @@ Route104_Text_CindyPostRematch:
 
 Route104_Text_DarianIntro:
 #if GERMAN
-	.string "Ich habe mir ein stark aussehendes\n"
-	.string "Pokémon geangelt!\p"
-	.string "Es besitzt magische Fähigkeiten!\n"
-	.string "Aber es sieht sehr stark aus.\l"
-	.string "Ja wirklich!$"
+	.string "Ich habe mir ein prächtiges Pokémon\n"
+	.string "geangelt!\p"
+	.string "Erst hat es kaum an der Angel\n"
+	.string "gezuckt - heute zieht es mein Boot\l"
+	.string "mit.$"
 #else
-	.string "I fished up a tough-looking POKéMON!\p"
-	.string "It has this magical quality to it!\n"
-	.string "It surely looks tough, yes it does!$"
+	.string "I fished up a magnificent POKéMON!\p"
+	.string "At first it barely tugged at the line -\n"
+	.string "now it tows my boat.$"
 #endif
 
 Route104_Text_DarianDefeat:
@@ -968,11 +968,11 @@ Route104_Text_DarianDefeat:
 
 Route104_Text_DarianPostBattle:
 #if GERMAN
-	.string "Hey, Karpador, du wirst deinem Namen\n"
-	.string "doch nicht gerecht?$"
+	.string "Wer hätte gedacht, dass aus meinem\n"
+	.string "Fang einmal so etwas wird?$"
 #else
-	.string "Hey, MAGIKARP, you sure don't live up\n"
-	.string "to your name, do you?$"
+	.string "Who would have thought my catch\n"
+	.string "would turn into that?$"
 #endif
 
 Route105_Text_FosterIntro:

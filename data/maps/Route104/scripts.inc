@@ -1020,30 +1020,26 @@ Route104_Text_WhatsItLikeAtBottomOfSea:
 
 Route104_Text_ThrowBallAtWeakenedPokemon:
 #if GERMAN
-	.string "Bevor du einen Pokéball wirfst,\n"
-	.string "schwäche das Pokémon erst.\p"
-	.string "Wenn es vergiftet ist, eine Verbrennung\n"
-	.string "hat oder schläft, kann es leichter\l"
-	.string "gefangen werden.$"
+	.string "Nach Norden geht es in den\n"
+	.string "Blütenburgwald.\p"
+	.string "Dort ist es selbst mittags so dunkel,\n"
+	.string "dass man kaum die Hand sieht.$"
 #else
-	.string "If you're going to throw a POKé BALL,\n"
-	.string "weaken the wild POKéMON first.\p"
-	.string "It will be easier to catch if it's been\n"
-	.string "poisoned, burned, or lulled to sleep.$"
+	.string "The PETALBURG WOODS lie to the\n"
+	.string "north.\p"
+	.string "Even at midday it is so dark in there\n"
+	.string "you can barely see your hand.$"
 #endif
 
 Route104_Text_OnlyThrowBallAtWildPokemon:
 #if GERMAN
-	.string "Du bist ein gemeiner Dieb, wenn du\n"
-	.string "versuchst, das Pokémon eines anderen\l"
-	.string "zu stehlen.\p"
-	.string "Du solltest deine Pokébälle nur auf\n"
-	.string "wilde Pokémon werfen.$"
+	.string "Schau dir die Blumen an!\p"
+	.string "Wie schön sie aussehen - und wie sie\n"
+	.string "duften. Herrlich!$"
 #else
-	.string "You're a thief if you try to steal\n"
-	.string "someone else's POKéMON.\p"
-	.string "You should throw POKé BALLS only at\n"
-	.string "wild POKéMON.$"
+	.string "Just look at these flowers!\p"
+	.string "How lovely they look - and how they\n"
+	.string "smell. Wonderful!$"
 #endif
 
 Route104_Text_ImNotATrainer:
