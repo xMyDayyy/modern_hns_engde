@@ -1854,6 +1854,15 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
     // Champion + Systeme
     FlagSet(FLAG_SYS_GAME_CLEAR);
     FlagSet(FLAG_SYS_POKEDEX_GET);
+    // Ohne diese Flags fehlen die Startmenue-Eintraege: FLAG_SYS_POKEMON_GET
+    // setzt sonst erst die Starter-Uebergabe bei Prof. Lind, FLAG_SYS_POKENAV_GET
+    // der PokeCom zu Hause. FLAG_ADVENTURE_STARTED gibt die Ortsausgaenge frei,
+    // die Laufschuhe erspart das Schleichen.
+    FlagSet(FLAG_SYS_POKEMON_GET);
+    FlagSet(FLAG_SYS_POKENAV_GET);
+    FlagSet(FLAG_ADVENTURE_STARTED);
+    FlagSet(FLAG_RECEIVED_RUNNING_SHOES);
+    FlagSet(FLAG_SYS_B_DASH);
     FlagSet(FLAG_VISITED_KANTO);
     FlagSet(FLAG_IS_CHAMPION);
     FlagSet(FLAG_IS_KANTO_CHAMPION);
