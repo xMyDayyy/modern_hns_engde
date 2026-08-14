@@ -2173,14 +2173,19 @@
 	@ HnS: giveitem fuer Uebergaben, die es in Johto/Kanto UND in Hoenn gibt.
 	@ Liegt der Gegenstand schon im Beutel, verfaellt die Uebergabe mit einem
 	@ Hinweis; wer ihn in Johto/Kanto verpasst hat, bekommt ihn hier trotzdem.
-	@ NUR fuer Gegenstaende mit importance = 1 (Schluesselitems, VMs) gedacht.
-	@ TMs sind bei I_REUSABLE_TMS == FALSE verbrauchbar und stapelbar --
-	@ dort ist die zweite Uebergabe erwuenscht und bleibt ein blankes giveitem.
-	@ VAR_RESULT bleibt dabei TRUE, damit ein nachfolgendes
+	@ Ob eine zweite Kopie nutzlos ist, entscheidet CheckItemHandoverPointless
+	@ zur Laufzeit: Schluesselitems und VMs sind immer unstapelbar, TMs nur dann,
+	@ wenn der Spieler im Herausforderungsmenue "TMs wiederverw." eingeschaltet
+	@ hat. Steht die Option auf AUS, sind TMs Verbrauchsgueter und die zweite
+	@ Uebergabe findet statt.
+	@ Der Gegenstand wird ueber VAR_0x8000 uebergeben -- die belegt giveitem
+	@ ohnehin selbst, es geht also keine Skriptvariable zusaetzlich verloren.
+	@ VAR_RESULT bleibt beim Ueberspringen TRUE, damit ein nachfolgendes
 	@ "goto_if_eq VAR_RESULT, FALSE, ...BagIsFull" nicht faelschlich anspringt.
 	.macro giveitem_unless_owned item:req, amount=1
 #if IS_HNS
-	checkitem \item
+	setvar VAR_0x8000, \item
+	special CheckItemHandoverPointless
 	goto_if_eq VAR_RESULT, FALSE, HnsGiveItem_\@
 	bufferitemname STR_VAR_2, \item
 	msgbox gText_HnsItemAlreadyOwned, MSGBOX_DEFAULT

@@ -880,6 +880,23 @@ u8 GetItemImportance(enum Item itemId)
     return gItemsInfo[SanitizeItemId(itemId)].importance;
 }
 
+// HnS-Special: TRUE, wenn eine Uebergabe verpuffen wuerde -- der Gegenstand
+// liegt schon im Beutel UND laesst sich nicht stapeln. Gegenstand in
+// VAR_0x8000 (den giveitem ohnehin belegt), Ergebnis in VAR_RESULT.
+//
+// Wichtig: GetItemImportance() liest die Spielerwahl "TMs wiederverw." aus dem
+// Herausforderungsmenue mit (challengeSettings.tx_Mode_InfiniteTMs). Steht sie
+// auf AN, sind TMs unverbrauchbar und eine zweite Kopie nutzlos; steht sie auf
+// AUS, sind TMs Verbrauchsgueter und die zweite Kopie ist erwuenscht. Die
+// Entscheidung faellt deshalb hier zur Laufzeit und nicht im Skript.
+void CheckItemHandoverPointless(void)
+{
+    enum Item itemId = gSpecialVar_0x8000;
+
+    gSpecialVar_Result = (GetItemImportance(itemId) == 1
+                       && CheckBagHasItem(itemId, 1));
+}
+
 u8 GetItemConsumability(enum Item itemId)
 {
     return !gItemsInfo[SanitizeItemId(itemId)].notConsumed;
