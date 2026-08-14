@@ -25,7 +25,12 @@ NewMauville_Entrance_EventScript_Door::
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox NewMauville_Entrance_Text_DoorIsLocked, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: eigener Schluessel, siehe include/constants/items.h
+	checkitem ITEM_NEW_MAUVILLE_KEY
+#else
 	checkitem ITEM_BASEMENT_KEY
+#endif
 	goto_if_eq VAR_RESULT, FALSE, NewMauville_Entrance_EventScript_DontOpenDoor
 	msgbox NewMauville_Entrance_Text_UseBasementKey, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, NewMauville_Entrance_EventScript_DontOpenDoor
@@ -55,14 +60,22 @@ NewMauville_Entrance_Text_DoorIsLocked:
 
 NewMauville_Entrance_Text_UseBasementKey:
 #if GERMAN
+#if IS_HNS
+	.string "Den Werkschlüssel benutzen?$"
+#else
 	.string "Den Kelleröffner benutzen?$"
+#endif
 #else
 	.string "Use the BASEMENT KEY?$"
 #endif
 
 NewMauville_Entrance_Text_UsedBasementKey:
 #if GERMAN
+#if IS_HNS
+	.string "{PLAYER} benutzt den Werkschlüssel.\p"
+#else
 	.string "{PLAYER} benutzt den Kelleröffner.\p"
+#endif
 	.string "Die Tür öffnet sich.$"
 #else
 	.string "{PLAYER} used the BASEMENT KEY.\p"

@@ -1081,6 +1081,11 @@ enum __attribute__((packed)) Item
     ITEM_UNUSED_BERRY_3,
     ITEM_AZURE_FLUTE,
 
+    // HnS: Eigener Schluessel fuer Neu-Malvenfroh. ITEM_BASEMENT_KEY wird
+    // unter HnS bereits im Funkturm Dukatia vergeben und nie eingezogen -
+    // ohne eigene ID stuende Neu-Malvenfroh von Anfang an offen.
+    ITEM_NEW_MAUVILLE_KEY,
+
     ITEMS_COUNT,
     ITEM_FIELD_ARROW = ITEMS_COUNT,
 };

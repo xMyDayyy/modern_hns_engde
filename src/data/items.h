@@ -14938,6 +14938,32 @@ const struct ItemInfo gItemsInfo[] =
     {
         .name = ITEM_NAME("Kelleröffner"),
         .price = 0,
+#if IS_HNS
+        // HnS: Dieses Item wird nur noch im Funkturm Dukatia vergeben und
+        // oeffnet die Tuer in der Dukatia-Passage. Neu-Malvenfroh haengt an
+        // ITEM_NEW_MAUVILLE_KEY. Beschreibung nach HGSS, gekuerzt (Stil A).
+        .description = COMPOUND_STRING(
+            "Schlüssel für eine\n"
+            "Tür in der Dukatia-\n"
+            "Passage."),
+#else
+        .description = COMPOUND_STRING(
+            "Schlüssel für Neu\n"
+            "Malvenfroh unter\n"
+            "Malvenfroh City."),
+#endif
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_BasementKey,
+        .iconPalette = gItemIconPalette_OldKey,
+    },
+
+    [ITEM_NEW_MAUVILLE_KEY] =
+    {
+        .name = ITEM_NAME("Werkschlüssel"),
+        .price = 0,
         .description = COMPOUND_STRING(
             "Schlüssel für Neu\n"
             "Malvenfroh unter\n"
