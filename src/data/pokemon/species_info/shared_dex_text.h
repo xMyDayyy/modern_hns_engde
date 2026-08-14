@@ -1,7 +1,7 @@
 // fallback
 #if GERMAN
 const u8 gFallbackPokedexText[] = _(
-    "Dieses POKéMON wurde erst kürzlich\n"
+    "Dieses Pokémon wurde erst kürzlich\n"
     "entdeckt und wird noch erforscht.\n"
     "Zurzeit liegen noch keine genauen\n"
     "Informationen vor.");

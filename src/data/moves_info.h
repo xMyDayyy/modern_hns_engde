@@ -6947,7 +6947,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Prügler"),
         .description = COMPOUND_STRING(
-            "Ruft POKéMON hinzu, um an\n"
+            "Ruft Pokémon hinzu, um an\n"
             "dem Angriff teilzuhaben."),
         .effect = EFFECT_BEAT_UP,
         .power = B_UPDATED_MOVE_DATA >= GEN_5 ? 1 : 10,
@@ -7847,7 +7847,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Wertewechsel"),
         .description = COMPOUND_STRING(
             "Anw. tauscht Spezial-\n"
-            "fähigkeit mit POKéMON."),
+            "fähigkeit mit Pokémon."),
         .effect = EFFECT_SKILL_SWAP,
         .power = 0,
         .type = TYPE_PSYCHIC,
@@ -8058,7 +8058,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Tarnung"),
         .description = COMPOUND_STRING(
             "Die Elementklasse des\n"
-            "POKéMON hängt vom Ort ab."),
+            "Pokémon hängt vom Ort ab."),
         .effect = EFFECT_CAMOUFLAGE,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -8192,7 +8192,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Taumeltanz"),
         .description = COMPOUND_STRING(
-            "Verwirrt alle POKéMON im \n"
+            "Verwirrt alle Pokémon im \n"
             "Kampf."),
         .effect = EFFECT_CONFUSE,
         .power = 0,

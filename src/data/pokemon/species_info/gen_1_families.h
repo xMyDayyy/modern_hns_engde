@@ -4994,7 +4994,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .description = COMPOUND_STRING(
         "Es ist sehr geschickt darin, Gegner\n"
         "mit starken Attacken wegzuschleudern.\n"
-        "Dieses POKéMON entwickelt am meisten\n"
+        "Dieses Pokémon entwickelt am meisten\n"
         "Kraft, wenn es seine Jungen verteidigt."),
         .pokemonScale = 293,
         .pokemonOffset = 4,

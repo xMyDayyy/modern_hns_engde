@@ -3642,7 +3642,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .height = 4,
         .weight = 110,
         .description = COMPOUND_STRING(
-        "Dieses POKéMON lebt in Eiswasser. Wird es\n"
+        "Dieses Pokémon lebt in Eiswasser. Wird es\n"
         "an Land kalt, verlässt es das Wasser und\n"
         "sucht nach Futter."),
         .pokemonScale = 479,

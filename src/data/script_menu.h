@@ -607,11 +607,11 @@ static const struct MenuAction MultichoiceList_Fossil[] =
 
 static const struct MenuAction MultichoiceList_FossilHns[] =
 {
-    {COMPOUND_STRING("CLAW FOSSIL")},
-    {COMPOUND_STRING("ROOT FOSSIL")},
-    {COMPOUND_STRING("HELIX FOSSIL")},
-    {COMPOUND_STRING("DOME FOSSIL")},
-    {COMPOUND_STRING("OLD AMBER")},
+    {COMPOUND_STRING("Klauenfossil")},
+    {COMPOUND_STRING("Wurzelfossil")},
+    {COMPOUND_STRING("Helixfossil")},
+    {COMPOUND_STRING("Domfossil")},
+    {COMPOUND_STRING("Altbernstein")},
     {gText_Exit},
 };
 
