@@ -360,8 +360,16 @@ Route104_EventScript_SailToDewford::
 	waitmovement 0
 	hideobjectat LOCALID_PLAYER, MAP_ROUTE104
 	call Common_EventScript_PlayBrineysBoatMusic
+#if IS_HNS
+	@ HnS: Der Vater-Anruf entfaellt. Norman ist nicht der Vater des Spielers,
+	@ und die Familie wohnt in Neuborkia. Norman traegt sich stattdessen nach
+	@ seiner Arenaniederlage selbst ins PokeCom ein (PetalburgCity_Gym).
+	@ Der Uebergabezweig bleibt fuer den Nicht-HnS-Build erhalten.
+	goto Route104_EventScript_SailToDewfordNoCall
+#else
 	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordNoCall
 	goto_if_unset FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordDadCalls
+#endif
 	end
 
 Route104_EventScript_SailToDewfordNoCall::

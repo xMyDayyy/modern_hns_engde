@@ -514,6 +514,16 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	@ Zustand 5 ist der Endwert, den sonst die Uebergabe in Heikos Haus
 	@ setzt - so wartet spaeter nichts mehr auf Zustand 4.
 	setvar VAR_PETALBURG_CITY_STATE, 5
+	@ HnS: Norman wird wie jeder andere Arenaleiter nach seiner Niederlage
+	@ ins PokeCom eingetragen. Vanilla erledigte das der Vater-Anruf auf
+	@ Route 104 - den gibt es unter HnS nicht mehr.
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox PetalburgCity_Gym_Text_HnsRegisteredNorman, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
 	releaseall
 	end
 #endif
@@ -2218,6 +2228,15 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 #endif
 
 #if IS_HNS
+PetalburgCity_Gym_Text_HnsRegisteredNorman:
+#if GERMAN
+	.string "Normans Nummer wurde im PokéCom-\n"
+	.string "Verzeichnis eingetragen.$"
+#else
+	.string "Registered NORMAN\n"
+	.string "in the POKéNAV.$"
+#endif
+
 PetalburgCity_Gym_Text_HnsSurfLicense:
 #if GERMAN
 	.string "Und hier ist die Surflizenz.\p"

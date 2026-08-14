@@ -5869,65 +5869,62 @@ MatchCall_Text_Scott7::
 
 MatchCall_Text_Norman1::
 #if GERMAN
-	.string "Vater: In Metarost City gibt es einen\n"
-	.string "Mann, der auf den komischen Namen\l"
-	.string "Zerschneider hört.\p"
-	.string "Wenn du dort in der Nähe bist,\n"
-	.string "solltest du ihn mal besuchen.$"
+	.string "Norman: Hier ist Norman aus der\n"
+	.string "Arena von Blütenburg City.\p"
+	.string "Ich habe deine Nummer eingespeichert.\p"
+	.string "Melde dich, wenn du wieder Lust auf\n"
+	.string "einen Kampf hast.$"
 #else
-	.string "DAD: In RUSTBORO, there's a man\n"
-	.string "that goes by the odd name of\l"
-	.string "the CUTTER.\p"
-	.string "If you're in the area, you should\n"
-	.string "pay him a visit.$"
+	.string "NORMAN: This is NORMAN from the\n"
+	.string "PETALBURG CITY GYM.\p"
+	.string "I've saved your number.\p"
+	.string "Call me whenever you feel like\n"
+	.string "another battle.$"
 #endif
 
 MatchCall_Text_Norman2::
 #if GERMAN
-	.string "Vater: Hm… Langsam aber sicher\n"
+	.string "Norman: Hm… Langsam aber sicher\n"
 	.string "wirst du immer stärker, {PLAYER}.\p"
-	.string "Je stärker du wirst, desto mehr nabelst\n"
-	.string "du dich von mir und Mutter ab…\p"
-	.string "Das Gefühl ist schwer zu beschreiben…$"
+	.string "Man merkt dir an, dass du das\n"
+	.string "Festland schon hinter dir hast.\p"
+	.string "Hier in Hoenn ist das ein seltener\n"
+	.string "Anblick.$"
 #else
-	.string "DAD: Hm… Little by little, but also\n"
+	.string "NORMAN: Hm… Little by little, but also\n"
 	.string "very surely, you're getting\l"
 	.string "tougher, {PLAYER}.\p"
-	.string "The stronger you get, the farther\n"
-	.string "and higher you soar from Mother\l"
-	.string "and me…\p"
-	.string "This feeling is hard to explain.$"
+	.string "One can tell you've already left\n"
+	.string "the mainland behind you.\p"
+	.string "That is a rare sight here in HOENN.$"
 #endif
 
 MatchCall_Text_Norman3::
 #if GERMAN
-	.string "Vater: Verstehe…\n"
+	.string "Norman: Verstehe…\n"
 	.string "Du hast vier Orden zusammen…\p"
-	.string "Nun gibt es kein Zurück mehr. Wie\n"
-	.string "versprochen werden wir gegeneinander\l"
-	.string "antreten.\p"
-	.string "Komm, wann immer du magst.\n"
-	.string "Wir warten hier alle auf dich.$"
+	.string "Dann steht unserem Kampf nichts\n"
+	.string "mehr im Weg.\p"
+	.string "Komm nach Blütenburg, wann immer\n"
+	.string "du magst.$"
 #else
-	.string "DAD: I see…\n"
+	.string "NORMAN: I see…\n"
 	.string "You've collected four GYM BADGES…\p"
-	.string "There's no avoiding it now.\n"
-	.string "We will battle like I promised.\p"
-	.string "Come anytime.\n"
-	.string "We'll all be waiting for you!$"
+	.string "Then nothing stands in the way of\n"
+	.string "our battle.\p"
+	.string "Come to PETALBURG anytime\n"
+	.string "you like.$"
 #endif
 
 MatchCall_Text_Norman4::
 #if GERMAN
-	.string "Vater: {PLAYER}! Du solltest Mutter\n"
-	.string "ab und zu besuchen.\p"
-	.string "Ich werde hier bleiben und mein \n"
-	.string "Training verdoppeln.\p"
+	.string "Norman: {PLAYER}!\p"
+	.string "Ich bleibe hier und verdopple mein\n"
+	.string "Training.\p"
 	.string "Die Art des Trainings ist intensiv\n"
 	.string "und unbarmherzig.$"
 #else
-	.string "DAD: {PLAYER}! You'd better go visit\n"
-	.string "Mother every so often.\p"
+	.string "NORMAN: {PLAYER}!\p"
 	.string "I'm going to remain here and\n"
 	.string "redouble my training.\p"
 	.string "The way of battling is deep\n"
@@ -5936,14 +5933,14 @@ MatchCall_Text_Norman4::
 
 MatchCall_Text_Norman5::
 #if GERMAN
-	.string "Vater: Oh, hi {PLAYER}!\p"
+	.string "Norman: Oh, hallo {PLAYER}!\p"
 	.string "Was sagst du da? Magmaemblem?\n"
 	.string "Davon habe ich noch nie was gehört.\p"
 	.string "Aber aufgrund des Namens vermute ich,\n"
 	.string "dass es in Beziehung zu einem Vulkan\l"
 	.string "steht.$"
 #else
-	.string "DAD: Oh, hi, {PLAYER}!\p"
+	.string "NORMAN: Oh, hi, {PLAYER}!\p"
 	.string "What's that? MAGMA EMBLEM?\n"
 	.string "I don't know what that's about.\p"
 	.string "But with a name like that, it may\n"
@@ -5952,12 +5949,12 @@ MatchCall_Text_Norman5::
 
 MatchCall_Text_Norman6::
 #if GERMAN
-	.string "Vater: Hiyaa! Haah! Kyaaaiii!\p"
+	.string "Norman: Hiyaa! Haah! Kyaaaiii!\p"
 	.string "Oh… {PLAYER}!\p"
 	.string "Du hast mich mitten im Training mit\n"
 	.string "meinen Pokémon erwischt.$"
 #else
-	.string "DAD: Hiyah! Haah! Dwah!\p"
+	.string "NORMAN: Hiyah! Haah! Dwah!\p"
 	.string "…Oh? {PLAYER}!\p"
 	.string "You caught me right in the middle\n"
 	.string "of a POKéMON training session!$"
@@ -5965,30 +5962,31 @@ MatchCall_Text_Norman6::
 
 MatchCall_Text_Norman7::
 #if GERMAN
-	.string "Vater: {PLAYER}!\p"
-	.string "Wer hätte gedacht, dass du eines Tages\n"
-	.string "der Champ der Pokémon Liga werden\l"
-	.string "würdest…\p"
+	.string "Norman: {PLAYER}!\p"
+	.string "Erst das Festland, jetzt Hoenn…\p"
+	.string "Du sammelst Ligen wie andere Leute\n"
+	.string "Orden.\p"
 	.string "Okay! Ich werde dir in nichts\n"
 	.string "nachstehen!$"
 #else
-	.string "DAD: {PLAYER}!\p"
-	.string "Who would've thought you'd become\n"
-	.string "the POKéMON LEAGUE CHAMPION…\p"
+	.string "NORMAN: {PLAYER}!\p"
+	.string "First the mainland, now HOENN…\p"
+	.string "You collect LEAGUES the way others\n"
+	.string "collect BADGES.\p"
 	.string "Okay!\n"
 	.string "I won't be left behind!$"
 #endif
 
 MatchCall_Text_Norman8::
 #if GERMAN
-	.string "Vater: Hm? {PLAYER}?\p"
+	.string "Norman: Hm? {PLAYER}?\p"
 	.string "Dieses Mal werde ich dich zu einem\n"
 	.string "Kampf herausfordern.\p"
 	.string "Ich warte in der Arena von Blütenburg\n"
 	.string "City auf dich. Du kannst jederzeit\l"
 	.string "vorbeikommen.$"
 #else
-	.string "DAD: Hm? {PLAYER}?\n"
+	.string "NORMAN: Hm? {PLAYER}?\n"
 	.string "What good timing!\p"
 	.string "This time, I'm going to challenge\n"
 	.string "you to battle.\p"
@@ -5998,10 +5996,10 @@ MatchCall_Text_Norman8::
 
 MatchCall_Text_Norman9::
 #if GERMAN
-	.string "Vater: {PLAYER}… Du erstaunst mich!\n"
+	.string "Norman: {PLAYER}… Du erstaunst mich!\n"
 	.string "Wie hoch wirst du noch fliegen?$"
 #else
-	.string "DAD: …You amaze me, {PLAYER}.\n"
+	.string "NORMAN: …You amaze me, {PLAYER}.\n"
 	.string "How much higher will you soar?$"
 #endif
 

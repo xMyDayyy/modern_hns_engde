@@ -1792,7 +1792,14 @@
 #undef  TRAINER_REGISTERED_FLAGS_START
 #define TRAINER_REGISTERED_FLAGS_START HNS_REMATCH_FLAGS_START
 
+// HnS: Der Spieler hat Mr. Trumm in Metarost getroffen. Vorher hing sein
+// PokeCom-Kontakt an FLAG_ENABLE_NORMAN_MATCH_CALL - zwei Eintraege an einer
+// Flag. Das Flag liegt hinter dem Rueckkampfblock; FLAGS_COUNT waechst von
+// 3921 auf 3922, die Byte-Zahl (DIV_ROUND_UP(.., 8) = 491) bleibt gleich,
+// alte Spielstaende bleiben damit gueltig.
+#define FLAG_MET_MR_STONE (HNS_REMATCH_FLAGS_START + HNS_REMATCH_FLAGS_COUNT)
+
 #undef  HOENN_FLAGS_END
-#define HOENN_FLAGS_END (HNS_REMATCH_FLAGS_START + HNS_REMATCH_FLAGS_COUNT - 1)
+#define HOENN_FLAGS_END FLAG_MET_MR_STONE
 
 #endif // GUARD_CONSTANTS_FLAGS_HOENN_DE_H
