@@ -1266,7 +1266,7 @@
     },
     {
       "id": "MAPSEC_ONE_ISLAND",
-      "name": "EILAND EINS",
+      "name": "Eiland Eins",
       "x": 1,
       "y": 8,
       "width": 1,
@@ -1274,7 +1274,7 @@
     },
     {
       "id": "MAPSEC_TWO_ISLAND",
-      "name": "EILAND ZWEI",
+      "name": "Eiland Zwei",
       "x": 9,
       "y": 9,
       "width": 1,
@@ -1282,7 +1282,7 @@
     },
     {
       "id": "MAPSEC_THREE_ISLAND",
-      "name": "EILAND DREI",
+      "name": "Eiland Drei",
       "x": 18,
       "y": 12,
       "width": 1,
@@ -1290,7 +1290,7 @@
     },
     {
       "id": "MAPSEC_FOUR_ISLAND",
-      "name": "EILAND VIER",
+      "name": "Eiland Vier",
       "x": 3,
       "y": 4,
       "width": 1,
@@ -1298,7 +1298,7 @@
     },
     {
       "id": "MAPSEC_FIVE_ISLAND",
-      "name": "EILAND FÜNF",
+      "name": "Eiland Fünf",
       "x": 16,
       "y": 11,
       "width": 1,
@@ -1306,7 +1306,7 @@
     },
     {
       "id": "MAPSEC_SEVEN_ISLAND",
-      "name": "EILAND SIEBEN",
+      "name": "Eiland Sieben",
       "x": 5,
       "y": 8,
       "width": 1,
@@ -1314,7 +1314,7 @@
     },
     {
       "id": "MAPSEC_SIX_ISLAND",
-      "name": "EILAND SECHS",
+      "name": "Eiland Sechs",
       "x": 17,
       "y": 5,
       "width": 1,
@@ -1322,7 +1322,7 @@
     },
     {
       "id": "MAPSEC_KINDLE_ROAD",
-      "name": "KINDLE ROAD",
+      "name": "Glühweg",
       "x": 2,
       "y": 3,
       "width": 1,
@@ -1330,7 +1330,7 @@
     },
     {
       "id": "MAPSEC_TREASURE_BEACH",
-      "name": "TREASURE BEACH",
+      "name": "Schatzgestade",
       "x": 1,
       "y": 9,
       "width": 1,
@@ -1338,7 +1338,7 @@
     },
     {
       "id": "MAPSEC_CAPE_BRINK",
-      "name": "CAPE BRINK",
+      "name": "Kap Kante",
       "x": 9,
       "y": 7,
       "width": 1,
@@ -1346,7 +1346,7 @@
     },
     {
       "id": "MAPSEC_BOND_BRIDGE",
-      "name": "BOND BRIDGE",
+      "name": "Bundbrücke",
       "x": 13,
       "y": 12,
       "width": 4,
@@ -1354,7 +1354,7 @@
     },
     {
       "id": "MAPSEC_THREE_ISLE_PORT",
-      "name": "THREE ISLE PORT",
+      "name": "Tri-Eiland Hafen",
       "x": 18,
       "y": 13,
       "width": 2,
@@ -1362,7 +1362,7 @@
     },
     {
       "id": "MAPSEC_RESORT_GORGEOUS",
-      "name": "RESORT GORGEOUS",
+      "name": "Ferienparadies",
       "x": 16,
       "y": 9,
       "width": 3,
@@ -1370,7 +1370,7 @@
     },
     {
       "id": "MAPSEC_WATER_LABYRINTH",
-      "name": "WATER LABYRINTH",
+      "name": "Wasserirrgarten",
       "x": 14,
       "y": 10,
       "width": 3,
@@ -1378,7 +1378,7 @@
     },
     {
       "id": "MAPSEC_FIVE_ISLE_MEADOW",
-      "name": "FIVE ISLE MEADOW",
+      "name": "Eiland 5-Weide",
       "x": 17,
       "y": 10,
       "width": 1,
@@ -1386,7 +1386,7 @@
     },
     {
       "id": "MAPSEC_MEMORIAL_PILLAR",
-      "name": "MEMORIAL PILLAR",
+      "name": "Gedenksäule",
       "x": 18,
       "y": 12,
       "width": 1,
@@ -1394,7 +1394,7 @@
     },
     {
       "id": "MAPSEC_OUTCAST_ISLAND",
-      "name": "OUTCAST ISLAND",
+      "name": "Fern-Eiland",
       "x": 15,
       "y": 0,
       "width": 1,
@@ -1402,7 +1402,7 @@
     },
     {
       "id": "MAPSEC_GREEN_PATH",
-      "name": "GREEN PATH",
+      "name": "Grüner Pfad",
       "x": 15,
       "y": 3,
       "width": 3,
@@ -1410,7 +1410,7 @@
     },
     {
       "id": "MAPSEC_WATER_PATH",
-      "name": "WATER PATH",
+      "name": "Wasserweg",
       "x": 18,
       "y": 3,
       "width": 1,
@@ -1418,7 +1418,7 @@
     },
     {
       "id": "MAPSEC_RUIN_VALLEY",
-      "name": "RUIN VALLEY",
+      "name": "Ruinental",
       "x": 16,
       "y": 7,
       "width": 2,
@@ -1426,7 +1426,7 @@
     },
     {
       "id": "MAPSEC_TRAINER_TOWER",
-      "name": "TRAINER TOWER",
+      "name": "Trainerturm",
       "x": 5,
       "y": 6,
       "width": 1,
@@ -1434,7 +1434,7 @@
     },
     {
       "id": "MAPSEC_CANYON_ENTRANCE",
-      "name": "CANYON ENTRANCE",
+      "name": "Schluchteingang",
       "x": 5,
       "y": 9,
       "width": 1,
@@ -1442,7 +1442,7 @@
     },
     {
       "id": "MAPSEC_SEVAULT_CANYON",
-      "name": "SEVAULT CANYON",
+      "name": "7-Schatzschlucht",
       "x": 6,
       "y": 9,
       "width": 1,
@@ -1450,7 +1450,7 @@
     },
     {
       "id": "MAPSEC_TANOBY_RUINS",
-      "name": "TANOBY RUINS",
+      "name": "Tanibo-Ruinen",
       "x": 3,
       "y": 12,
       "width": 7,
@@ -1458,7 +1458,7 @@
     },
     {
       "id": "MAPSEC_SEVII_ISLE_22",
-      "name": "SEVII ISLE 22",
+      "name": "Sevii Eiland 22",
       "x": 9,
       "y": 12,
       "width": 1,
@@ -1467,7 +1467,7 @@
     },
     {
       "id": "MAPSEC_SEVII_ISLE_23",
-      "name": "SEVII ISLE 23",
+      "name": "Sevii Eiland 23",
       "x": 3,
       "y": 14,
       "width": 6,
@@ -1476,7 +1476,7 @@
     },
     {
       "id": "MAPSEC_SEVII_ISLE_24",
-      "name": "SEVII ISLE 24",
+      "name": "Sevii Eiland 24",
       "x": 2,
       "y": 12,
       "width": 1,
@@ -1485,7 +1485,7 @@
     },
     {
       "id": "MAPSEC_NAVEL_ROCK_FRLG",
-      "name": "NAVEL ROCK",
+      "name": "Nabelfels",
       "x": 10,
       "y": 8,
       "width": 1,
@@ -1493,7 +1493,7 @@
     },
     {
       "id": "MAPSEC_MT_EMBER",
-      "name": "MT. EMBER",
+      "name": "Glutberg",
       "x": 2,
       "y": 3,
       "width": 1,
@@ -1501,7 +1501,7 @@
     },
     {
       "id": "MAPSEC_BERRY_FOREST",
-      "name": "BERRY FOREST",
+      "name": "Beerenforst",
       "x": 14,
       "y": 12,
       "width": 1,
@@ -1509,7 +1509,7 @@
     },
     {
       "id": "MAPSEC_ICEFALL_CAVE",
-      "name": "ICEFALL CAVE",
+      "name": "Eiskaskadenhöhle",
       "x": 3,
       "y": 4,
       "width": 1,
@@ -1517,7 +1517,7 @@
     },
     {
       "id": "MAPSEC_ROCKET_WAREHOUSE",
-      "name": "ROCKET WAREHOUSE",
+      "name": "Rocket-Lager",
       "x": 17,
       "y": 11,
       "width": 1,
@@ -1525,7 +1525,7 @@
     },
     {
       "id": "MAPSEC_TRAINER_TOWER_2",
-      "name": "TRAINER TOWER",
+      "name": "Trainerturm",
       "x": 5,
       "y": 6,
       "width": 1,
@@ -1533,7 +1533,7 @@
     },
     {
       "id": "MAPSEC_DOTTED_HOLE",
-      "name": "DOTTED HOLE",
+      "name": "Punktloch",
       "x": 16,
       "y": 8,
       "width": 1,
@@ -1541,7 +1541,7 @@
     },
     {
       "id": "MAPSEC_LOST_CAVE",
-      "name": "LOST CAVE",
+      "name": "Verlorene Höhle",
       "x": 18,
       "y": 9,
       "width": 1,
@@ -1549,7 +1549,7 @@
     },
     {
       "id": "MAPSEC_PATTERN_BUSH",
-      "name": "PATTERN BUSH",
+      "name": "Musterbuschwald",
       "x": 17,
       "y": 3,
       "width": 1,
@@ -1557,7 +1557,7 @@
     },
     {
       "id": "MAPSEC_ALTERING_CAVE_FRLG",
-      "name": "ALTERING CAVE",
+      "name": "Wandelhöhle",
       "x": 15,
       "y": 0,
       "width": 1,
@@ -1565,7 +1565,7 @@
     },
     {
       "id": "MAPSEC_TANOBY_CHAMBERS",
-      "name": "TANOBY CHAMBERS",
+      "name": "Tanibo-Kammer",
       "x": 9,
       "y": 12,
       "width": 1,
@@ -1574,7 +1574,7 @@
     },
     {
       "id": "MAPSEC_THREE_ISLE_PATH",
-      "name": "THREE ISLE PATH",
+      "name": "Tri-Eiland-Pfad",
       "x": 18,
       "y": 13,
       "width": 1,
@@ -1582,7 +1582,7 @@
     },
     {
       "id": "MAPSEC_TANOBY_KEY",
-      "name": "TANOBY KEY",
+      "name": "Tanibo-Schlüssel",
       "x": 6,
       "y": 9,
       "width": 1,
@@ -1590,7 +1590,7 @@
     },
     {
       "id": "MAPSEC_BIRTH_ISLAND_FRLG",
-      "name": "BIRTH ISLAND",
+      "name": "Entstehungsinsel",
       "x": 18,
       "y": 13,
       "width": 1,
@@ -1598,7 +1598,7 @@
     },
     {
       "id": "MAPSEC_MONEAN_CHAMBER",
-      "name": "MONEAN CHAMBER",
+      "name": "Einamon-Kammer",
       "x": 9,
       "y": 12,
       "width": 1,
@@ -1606,7 +1606,7 @@
     },
     {
       "id": "MAPSEC_LIPTOO_CHAMBER",
-      "name": "LIPTOO CHAMBER",
+      "name": "Pezwulp-Kammer",
       "x": 9,
       "y": 12,
       "width": 1,
@@ -1614,7 +1614,7 @@
     },
     {
       "id": "MAPSEC_WEEPTH_CHAMBER",
-      "name": "WEEPTH CHAMBER",
+      "name": "Dreicke-Kammer",
       "x": 9,
       "y": 12,
       "width": 1,
@@ -1622,7 +1622,7 @@
     },
     {
       "id": "MAPSEC_DILFORD_CHAMBER",
-      "name": "DILFORD CHAMBER",
+      "name": "Vierzisse-Kammer",
       "x": 9,
       "y": 12,
       "width": 1,
@@ -1630,7 +1630,7 @@
     },
     {
       "id": "MAPSEC_SCUFIB_CHAMBER",
-      "name": "SCUFIB CHAMBER",
+      "name": "Fünibisku-Kammer",
       "x": 9,
       "y": 12,
       "width": 1,
@@ -1638,7 +1638,7 @@
     },
     {
       "id": "MAPSEC_RIXY_CHAMBER",
-      "name": "RIXY CHAMBER",
+      "name": "Lilechs-Kammer",
       "x": 9,
       "y": 12,
       "width": 1,
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "MAPSEC_VIAPOIS_CHAMBER",
-      "name": "VIAPOIS CHAMBER",
+      "name": "Sieborbia-Kammer",
       "x": 9,
       "y": 12,
       "width": 1,
@@ -1654,7 +1654,7 @@
     },
     {
       "id": "MAPSEC_EMBER_SPA",
-      "name": "EMBER SPA"
+      "name": "Gluttherme"
     },
     {
       "id": "MAPSEC_SPECIAL_AREA",
@@ -2629,7 +2629,7 @@
     {
       "height": 1,
       "id": "MAPSEC_ROCKET_HIDEOUT_HNS",
-      "name": "ROCKET HIDEOUT",
+      "name": "Rocket HQ",
       "width": 1,
       "x": 15,
       "y": 2
@@ -2637,7 +2637,7 @@
     {
       "height": 4,
       "id": "MAPSEC_VICTORY_ROAD_HNS",
-      "name": "VICTORY ROAD",
+      "name": "Siegesstraße",
       "width": 1,
       "x": 16,
       "y": 4
@@ -3456,7 +3456,7 @@
     {
       "height": 3,
       "id": "MAPSEC_SEVII_ISLE_22",
-      "name": "SEVII ISLE 22",
+      "name": "Sevii Eiland 22",
       "width": 1,
       "x": 9,
       "y": 12
@@ -3464,7 +3464,7 @@
     {
       "height": 1,
       "id": "MAPSEC_SEVII_ISLE_23",
-      "name": "SEVII ISLE 23",
+      "name": "Sevii Eiland 23",
       "width": 6,
       "x": 3,
       "y": 14
@@ -3472,7 +3472,7 @@
     {
       "height": 3,
       "id": "MAPSEC_SEVII_ISLE_24",
-      "name": "SEVII ISLE 24",
+      "name": "Sevii Eiland 24",
       "width": 1,
       "x": 2,
       "y": 12
@@ -3480,7 +3480,7 @@
     {
       "height": 1,
       "id": "MAPSEC_TANOBY_CHAMBERS",
-      "name": "TANOBY CHAMBERS",
+      "name": "Tanibo-Kammer",
       "width": 1,
       "x": 9,
       "y": 12
