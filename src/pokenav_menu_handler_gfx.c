@@ -351,10 +351,10 @@ static const u8 *const sPageDescriptions[] =
 #if IS_HNS
     [POKENAV_MENUITEM_RADIO]                   = COMPOUND_STRING("Höre Radio."),
     [POKENAV_MENUITEM_SWITCH_OFF]              = COMPOUND_STRING("PokéCom weglegen."),
-    [POKENAV_MENUITEM_CONDITION_CANCEL]        = COMPOUND_STRING("Zurück zum PokéNav Menü."),
+    [POKENAV_MENUITEM_CONDITION_CANCEL]        = COMPOUND_STRING("Zurück zum PokéCom-Menü."),
 #else
     [POKENAV_MENUITEM_SWITCH_OFF]              = COMPOUND_STRING("PokéCom weglegen."),
-    [POKENAV_MENUITEM_CONDITION_CANCEL]        = COMPOUND_STRING("Zurück zum PokéCom Menü."),
+    [POKENAV_MENUITEM_CONDITION_CANCEL]        = COMPOUND_STRING("Zurück zum PokéCom-Menü."),
 #endif
     [POKENAV_MENUITEM_CONDITION_PARTY]         = COMPOUND_STRING("Untersuche Pokémon im Detail."),
     [POKENAV_MENUITEM_CONDITION_SEARCH]        = COMPOUND_STRING("Untersuche alle Pokémon im Detail."),

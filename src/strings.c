@@ -4389,7 +4389,7 @@ const u8 gText_MenuBag[] = _("BAG");
 #endif
 #if IS_HNS
 #if GERMAN
-const u8 gText_MenuPokenav[] = _("{POKE}Com");
+const u8 gText_MenuPokenav[] = _("PokéCom");
 #else
 const u8 gText_MenuPokenav[] = _("POKéNAV");
 #endif

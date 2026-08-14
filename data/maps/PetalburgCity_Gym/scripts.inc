@@ -101,7 +101,7 @@ PetalburgCity_Gym_OnFrame:
 
 PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	lockall
-	msgbox PetalburgCity_Gym_Text_DadSoDidItWorkOut, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_NormanSoDidItWorkOut, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_WallyThankYouBye, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
@@ -113,7 +113,7 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	delay 30
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_NormanGoCollectBadges, MSGBOX_DEFAULT
 	setvar VAR_PETALBURG_GYM_STATE, 2
 	releaseall
 	end
@@ -150,7 +150,7 @@ PetalburgCity_Gym_EventScript_Norman::
 	case 6, PetalburgCity_Gym_EventScript_NormanBattle
 	case 7, PetalburgCity_Gym_EventScript_NormanPostBattle
 	case 8, PetalburgCity_Gym_EventScript_NormanRematch
-	msgbox PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_NormanYoureHereWithYourPokemon, MSGBOX_DEFAULT
 	closemessage
 	switch VAR_FACING
 	case DIR_SOUTH, PetalburgCity_Gym_EventScript_BeginWallyTutorialSouth
@@ -255,20 +255,20 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_WallyArriveWestEast
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_WallyArriveWestEast
 	msgbox PetalburgCity_Gym_Text_WallyIdLikeAPokemon, MSGBOX_DEFAULT
-	msgbox PetalburgCity_Gym_Text_DadOhYoureWallyRight, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_NormanOhYoureWallyRight, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon, MSGBOX_DEFAULT
-	msgbox PetalburgCity_Gym_Text_DadHmISee, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_NormanHmISee, MSGBOX_DEFAULT
 	call_if_eq VAR_0x8008, 0, PetalburgCity_Gym_EventScript_NormanAddressPlayerSouth
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_NormanAddressPlayerNorth
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_NormanAddressPlayerWest
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_NormanAddressPlayerEast
-	msgbox PetalburgCity_Gym_Text_DadPlayerGoWithWally, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_NormanPlayerGoWithWally, MSGBOX_DEFAULT
 	call_if_eq VAR_0x8008, 0, PetalburgCity_Gym_EventScript_NormanAddressWallySouth
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_NormanAddressWallyNorth
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_NormanAddressWallyWest
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_NormanAddressWallyEast
 	msgbox PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon, MSGBOX_DEFAULT
-	msgbox PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_WallyThankYouAndNormanGivesPokeBall, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_WallyOhWowThankYou, MSGBOX_DEFAULT
 	call_if_eq VAR_0x8008, 0, PetalburgCity_Gym_EventScript_NormanFaceDoorSouth
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_NormanFaceDoorNorth
@@ -438,7 +438,7 @@ PetalburgCity_Gym_EventScript_NormanPostBattle::
 	goto_if_eq VAR_RESULT, TRUE, PetalburgCity_Gym_EventScript_GiveEnigmaBerry
 	goto_if_unset FLAG_RECEIVED_TM_FACADE, PetalburgCity_Gym_EventScript_GiveFacade2
 	goto_if_set FLAG_SYS_GAME_CLEAR, PetalburgCity_Gym_EventScript_NoAmountOfTrainingIsEnough
-	msgbox PetalburgCity_Gym_Text_DadGoingToKeepTraining, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_NormanGoingToKeepTraining, MSGBOX_DEFAULT
 	release
 	end
 
@@ -858,7 +858,7 @@ PetalburgCity_Gym_Movement_PlayerExitWithWallyEast:
 	step_end
 
 PetalburgCity_Gym_EventScript_NoAmountOfTrainingIsEnough::
-	msgbox PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_NormanNoAmountOfTrainingIsEnough, MSGBOX_DEFAULT
 	release
 	end
 
@@ -1285,7 +1285,7 @@ PetalburgCity_Gym_EventScript_GymStatue::
 	releaseall
 	end
 
-PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
+PetalburgCity_Gym_Text_NormanYoureHereWithYourPokemon:
 #if GERMAN
 	.string "Hm?\p"
 	.string "Ein fremdes Gesicht in meiner Arena.\p"
@@ -1309,7 +1309,7 @@ PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
 	.string "I'd like to get a POKéMON, please…$"
 #endif
 
-PetalburgCity_Gym_Text_DadOhYoureWallyRight:
+PetalburgCity_Gym_Text_NormanOhYoureWallyRight:
 #if GERMAN
 	.string "Wie? Du… Ach… Gut.\n"
 	.string "Du bist Heiko, nicht wahr?$"
@@ -1336,14 +1336,14 @@ PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "I don't know how…$"
 #endif
 
-PetalburgCity_Gym_Text_DadHmISee:
+PetalburgCity_Gym_Text_NormanHmISee:
 #if GERMAN
 	.string "Oh, ich verstehe…$"
 #else
 	.string "Oh, I see…$"
 #endif
 
-PetalburgCity_Gym_Text_DadPlayerGoWithWally:
+PetalburgCity_Gym_Text_NormanPlayerGoWithWally:
 #if GERMAN
 	.string "Und du - hilfst du Heiko dabei,\n"
 	.string "ein Pokémon zu fangen?$"
@@ -1372,7 +1372,7 @@ PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 #endif
 #endif
 
-PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
+PetalburgCity_Gym_Text_WallyThankYouAndNormanGivesPokeBall:
 #if GERMAN
 	.string "Heiko: Oh, wow!!!\n"
 	.string "Ein Pokémon!\p"
@@ -1405,7 +1405,7 @@ PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
 	.string "with me?$"
 #endif
 
-PetalburgCity_Gym_Text_DadSoDidItWorkOut:
+PetalburgCity_Gym_Text_NormanSoDidItWorkOut:
 #if GERMAN
 	.string "Und? Hat es geklappt?$"
 #else
@@ -1440,7 +1440,7 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "Bye, {PLAYER}!$"
 #endif
 
-PetalburgCity_Gym_Text_DadGoCollectBadges:
+PetalburgCity_Gym_Text_NormanGoCollectBadges:
 #if GERMAN
 	.string "Nun…\p"
 	.string "Wenn du in Hoenn etwas erreichen\n"
@@ -1639,7 +1639,7 @@ PetalburgCity_Gym_Text_LetMeBorrowPlayer:
 	.string "a minute or two.$"
 #endif
 
-PetalburgCity_Gym_Text_DadGoingToKeepTraining:
+PetalburgCity_Gym_Text_NormanGoingToKeepTraining:
 #if GERMAN
 	.string "Ich bleibe hier und nehme das\n"
 	.string "Training wieder auf.\p"
@@ -1652,7 +1652,7 @@ PetalburgCity_Gym_Text_DadGoingToKeepTraining:
 	.string "you will find me a different match.$"
 #endif
 
-PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
+PetalburgCity_Gym_Text_NormanNoAmountOfTrainingIsEnough:
 #if GERMAN
 	.string "Die Welt der Pokémon ist\n"
 	.string "vielfältig.\p"
