@@ -1903,8 +1903,9 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
 // der Texte gedacht - ein zweiter Aufruf sperrt wieder zu.
 static void DebugAction_Util_HnsTogglePetalburgGym(u8 taskId)
 {
-    if (VarGet(VAR_PETALBURG_GYM_STATE) < 3)
-        VarSet(VAR_PETALBURG_GYM_STATE, 3);
+    // 6 = kampfbereit (Innentueren offen, Norman herausforderbar), 2 = zu.
+    if (VarGet(VAR_PETALBURG_GYM_STATE) < 6)
+        VarSet(VAR_PETALBURG_GYM_STATE, 6);
     else
         VarSet(VAR_PETALBURG_GYM_STATE, 2);
 

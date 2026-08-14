@@ -142,7 +142,13 @@ PetalburgCity_Gym_EventScript_ClosedEject::
 	end
 
 PetalburgCity_Gym_EventScript_OpensWithBadges::
-	setvar VAR_PETALBURG_GYM_STATE, 3
+	@ Regulaer klettert VAR_PETALBURG_GYM_STATE ueber addvar von 2 auf 6 -
+	@ je ein Schritt nach Metarost, Faustauhaven, Malvenfroh und Rosaltstadt.
+	@ Wer die vier Orden auf anderem Weg hat, landete hier bisher auf 3: Arena
+	@ offen, aber Innentueren (>= 6) verriegelt und kein Kampf gegen Norman.
+	@ Deshalb direkt auf 6 und die Begruessung freischalten.
+	setvar VAR_PETALBURG_GYM_STATE, 6
+	call Common_EventScript_ReadyPetalburgGymForBattle
 	end
 
 PetalburgCity_Gym_Text_GymIsClosed:
