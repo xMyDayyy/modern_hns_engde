@@ -1179,18 +1179,15 @@ Route104_Text_TrainerTipsDoubleBattles:
 
 Route104_Text_MayWeShouldRegister:
 #if GERMAN
-	.string "Maike: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "Devon hat deinen PokéCom mit einem\n"
-	.string "Trainer/Ruf-System ausgestattet?\p"
-	.string "Wir sollten uns gegenseitig eintragen,\n"
-	.string "dann können wir jederzeit miteinander\l"
-	.string "reden.$"
+	.string "Maike: Oh, da bist du ja!\p"
+	.string "Ich habe mich gleich in deinem PokéCom\n"
+	.string "eingetragen - falls du das noch nicht\l"
+	.string "gemerkt hast.$"
 #else
-	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "DEVON upgraded your POKéGEAR with\n"
-	.string "the MATCH CALL system, huh?\p"
-	.string "We should register each other so we\n"
-	.string "can get in contact anytime.$"
+	.string "MAY: Oh, there you are!\p"
+	.string "I've already put myself in your\n"
+	.string "POKéCOM - in case you had not\l"
+	.string "noticed.$"
 #endif
 
 Route104_Text_RegisteredMay:
@@ -1204,55 +1201,50 @@ Route104_Text_RegisteredMay:
 
 Route104_Text_MayHowsYourPokedex:
 #if GERMAN
-	.string "Maike: Und, {PLAYER}{KUN}?\n"
-	.string "Wie geht es mit deinem Pokédex voran?$"
+	.string "Maike: Na, {PLAYER}? Kommst du in\n"
+	.string "Hoenn voran?$"
 #else
-	.string "MAY: Oh, by the way, {PLAYER}{KUN},\n"
-	.string "how's your POKéDEX coming along?$"
+	.string "MAY: Well, {PLAYER}? Are you making\n"
+	.string "headway in HOENN?$"
 #endif
 
 Route104_Text_MayMinesDecentLetsBattle:
 #if GERMAN
-	.string "Meiner sieht schon ganz anständig aus.\n"
-	.string "Daher…\l"
-	.string "Wie wäre es mit einem kleinen Kampf?$"
+	.string "Ich habe seit unserem Kampf hart\n"
+	.string "trainiert.\p"
+	.string "Zeit für die nächste Messung -\n"
+	.string "kämpfst du mit mir?$"
 #else
-	.string "Mine's looking pretty decent.\n"
-	.string "So…\l"
-	.string "How about a little battle?$"
+	.string "I've trained hard since our battle.\p"
+	.string "Time for the next measurement -\n"
+	.string "will you battle me?$"
 #endif
 
 Route104_Text_MayHaventRaisedPokemon:
 #if GERMAN
-	.string "Maike: Oh, was ist das?\p"
-	.string "Du hast dich aber nicht um deine\n"
-	.string "Pokémon gekümmert? Und auch nicht\l"
-	.string "viele gefangen?\p"
-	.string "Als Trainer machst du wirklich keinen\n"
-	.string "guten Eindruck!$"
+	.string "Maike: Schade!\p"
+	.string "Dann eben beim nächsten Mal.\n"
+	.string "Ich gebe nicht auf, das weißt du.$"
 #else
-	.string "MAY: Oh, what's the matter?\p"
-	.string "Haven't you caught or raised your\n"
-	.string "POKéMON very much?\p"
-	.string "That's not very good for a TRAINER!$"
+	.string "MAY: Too bad!\p"
+	.string "Next time, then.\n"
+	.string "I won't give up, you know that.$"
 #endif
 
 Route104_Text_MayLetsBattle:
 #if GERMAN
-	.string "Maike: Was hältst du von einem Kampf?$"
+	.string "Maike: Kämpfst du mit mir?$"
 #else
-	.string "MAY: So, what do you think?\n"
-	.string "How about a little battle here?$"
+	.string "MAY: Will you battle me?$"
 #endif
 
 Route104_Text_MayIntro:
 #if GERMAN
-	.string "Maike: Du bist gerade erst Trainer\n"
-	.string "geworden, {PLAYER}{KUN}. Ich werde\l"
-	.string "nicht verlieren.$"
+	.string "Maike: Diesmal komme ich näher ran.\n"
+	.string "Pass auf!$"
 #else
-	.string "MAY: You just became a TRAINER,\n"
-	.string "{PLAYER}{KUN}. I'm not going to lose!$"
+	.string "MAY: This time I will get closer.\n"
+	.string "Watch out!$"
 #endif
 
 Route104_Text_MayDefeat:
@@ -1266,20 +1258,15 @@ Route104_Text_MayDefeat:
 
 Route104_Text_MayPostBattle:
 #if GERMAN
-	.string "Maike: Du bist wirklich sehr gut im\n"
-	.string "Umgang mit Pokémon.\p"
-	.string "Aber anstatt sie nur kämpfen zu lassen,\n"
-	.string "solltest du dir ein Beispiel an Mr.\p"
-	.string "Brack nehmen.\p"
-	.string "Es ist wichtig, dass man sich mit den\n"
-	.string "Pokémon anfreundet.$"
+	.string "Maike: Wieder verloren…\p"
+	.string "Aber näher dran als beim letzten Mal!\p"
+	.string "Ich messe mich weiter an dir,\n"
+	.string "{PLAYER}.$"
 #else
-	.string "MAY: I can tell you've gotten pretty\n"
-	.string "good with the way you handle POKéMON.\p"
-	.string "But instead of only making them\n"
-	.string "battle, you should be like MR. BRINEY.\p"
-	.string "It's important to become friends with\n"
-	.string "POKéMON, too.$"
+	.string "MAY: Beaten again…\p"
+	.string "But closer than last time!\p"
+	.string "I will keep measuring myself against\n"
+	.string "you, {PLAYER}.$"
 #endif
 
 Route104_Text_BrendanWeShouldRegister:
