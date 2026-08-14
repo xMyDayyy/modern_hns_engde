@@ -2173,6 +2173,9 @@
 	@ HnS: giveitem fuer Uebergaben, die es in Johto/Kanto UND in Hoenn gibt.
 	@ Liegt der Gegenstand schon im Beutel, verfaellt die Uebergabe mit einem
 	@ Hinweis; wer ihn in Johto/Kanto verpasst hat, bekommt ihn hier trotzdem.
+	@ NUR fuer Gegenstaende mit importance = 1 (Schluesselitems, VMs) gedacht.
+	@ TMs sind bei I_REUSABLE_TMS == FALSE verbrauchbar und stapelbar --
+	@ dort ist die zweite Uebergabe erwuenscht und bleibt ein blankes giveitem.
 	@ VAR_RESULT bleibt dabei TRUE, damit ein nachfolgendes
 	@ "goto_if_eq VAR_RESULT, FALSE, ...BagIsFull" nicht faelschlich anspringt.
 	.macro giveitem_unless_owned item:req, amount=1
