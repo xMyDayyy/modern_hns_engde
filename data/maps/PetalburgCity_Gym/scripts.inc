@@ -40,6 +40,10 @@ PetalburgCity_Gym_OnTransition:
 #if IS_HNS
 	@ HnS: Kein Empfang am Eingang. Norman ist neu in der Stadt, die Arena
 	@ wird umgebaut - er bleibt an seinem Platz im hinteren Raum.
+	@ Ausdruecklich zurueckgesetzt, weil setobjectxyperm die Position im
+	@ Spielstand ablegt - so werden auch Saves geheilt, in denen er schon
+	@ vorn stand.
+	call PetalburgCity_Gym_EventScript_MoveNormanToBackRoom
 #else
 	call_if_lt VAR_PETALBURG_GYM_STATE, 6, PetalburgCity_Gym_EventScript_MoveNormanToEntrance
 #endif
@@ -54,7 +58,21 @@ PetalburgCity_Gym_EventScript_MoveNormanToEntrance::
 	setobjectxyperm LOCALID_PETALBURG_GYM_NORMAN, 4, 107
 	return
 
+#if IS_HNS
+PetalburgCity_Gym_EventScript_MoveNormanToBackRoom::
+	setobjectxyperm LOCALID_PETALBURG_GYM_NORMAN, 4, 2
+	return
+#endif
+
 PetalburgCity_Gym_EventScript_CheckNormanForRematch::
+#if IS_HNS
+	@ Das war die eigentliche Ursache: Diese Pruefung laeuft ueber
+	@ call_if_set FLAG_SYS_GAME_CLEAR - und das Flag ist unter HnS von
+	@ Anfang an gesetzt (Johto-Champion). Sie hat Norman deshalb bei jedem
+	@ Betreten wieder nach vorn auf (4,107) gestellt und dabei den Rueckweg
+	@ aus OnTransition ueberschrieben. Unter HnS bleibt er immer hinten.
+	return
+#endif
 	setorcopyvar VAR_TRAINER_BATTLE_OPPONENT_A, TRAINER_NORMAN_1
 	specialvar VAR_RESULT, IsTrainerReadyForRematch
 	goto_if_eq VAR_RESULT, TRUE, PetalburgCity_Gym_EventScript_DontMoveNormanToFront

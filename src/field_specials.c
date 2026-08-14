@@ -18,6 +18,7 @@
 #include "field_player_avatar.h"
 #include "field_screen_effect.h"
 #include "field_specials.h"
+#include "hoenn_level_scaling.h"
 #include "field_weather.h"
 #include "graphics.h"
 #include "international_string_util.h"
@@ -1591,7 +1592,14 @@ void SetShoalItemFlag(u16 unused)
 void LoadWallyZigzagoon(void)
 {
     u16 monData;
+#if IS_HNS
+    // Der Fangkurs steht in Hoenn spaet im Spiel. Heiko tritt deshalb mit
+    // der Entwicklungsstufe an (Geradaks statt Zigzachs) und auf dem
+    // Niveau des Routenkorridors - so wie die uebrigen Trainer auch.
+    CreateRandomMon(&gPlayerParty[0], SPECIES_LINOONE, HoennScaleWildMonLevel(7));
+#else
     CreateRandomMon(&gPlayerParty[0], SPECIES_ZIGZAGOON, 7);
+#endif
     monData = TRUE;
     SetMonData(&gPlayerParty[0], MON_DATA_ABILITY_NUM, &monData);
     monData = MOVE_TACKLE;
