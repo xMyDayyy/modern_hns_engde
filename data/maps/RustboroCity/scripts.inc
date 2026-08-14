@@ -1362,36 +1362,33 @@ RustboroCity_Text_MayWantToBattle:
 
 RustboroCity_Text_MayImNotGoingToLose:
 #if GERMAN
-	.string "Maike: Du bist gerade erst Trainer\n"
-	.string "geworden, {PLAYER}{KUN}. Ich werde\l"
-	.string "nicht verlieren.$"
+	.string "Maike: Diesmal komme ich näher ran.\n"
+	.string "Pass auf!$"
 #else
-	.string "MAY: You just became a TRAINER,\n"
-	.string "{PLAYER}{KUN}. I'm not going to lose!$"
+	.string "MAY: This time I will get closer.\n"
+	.string "Watch out!$"
 #endif
 
 RustboroCity_Text_MayDefeat:
 #if GERMAN
-	.string "AchDuSchande!\n"
-	.string "Du bist besser, als ich gedacht habe.$"
+	.string "Ach du Schande!\n"
+	.string "Du bist noch besser, als ich dachte.$"
 #else
 	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "You're even better than I thought.$"
 #endif
 
 RustboroCity_Text_MayMrBrineyHint:
 #if GERMAN
 	.string "Maike: Ach, übrigens. Ich habe Mr.\n"
 	.string "Brack im Blütenburgwald gesehen.\p"
-	.string "{PLAYER}{KUN}, du bist gerade hierher\n"
-	.string "gezogen, daher kannst du das nicht\l"
-	.string "wissen, aber Mr. Brack war Seefahrer.$"
+	.string "Er war früher Seefahrer, erzählt man\n"
+	.string "sich hier.$"
 #else
-	.string "MAY: Oh, by the way, MR. BRINEY, who\n"
-	.string "I just passed…\p"
-	.string "{PLAYER}{KUN}, you just moved here so you\n"
-	.string "might not know this, but MR. BRINEY\l"
-	.string "was once a revered seafarer.$"
+	.string "MAY: Oh, by the way. I saw MR. BRINEY\n"
+	.string "in PETALBURG WOODS.\p"
+	.string "He used to be a sailor, so they say\n"
+	.string "around here.$"
 #endif
 
 RustboroCity_Text_BrendanHiLetsRegister:
