@@ -15,6 +15,18 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox RustboroCity_Gym_Text_StoneBadgeInfoTakeThis, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: Die Erlaubnis fuer Zerschneider kommt von der Arenaleiterin,
+	@ nicht mehr aus dem Haus nebenan.
+	delay 30
+	setvar VAR_0x8004, LIC_CUT
+	special SetHoennLicense
+	playfanfare MUS_OBTAIN_ITEM
+	message RustboroCity_Gym_Text_HnsCutLicense
+	waitmessage
+	waitfanfare
+	closemessage
+#endif
 	setflag FLAG_DEFEATED_RUSTBORO_GYM
 	setflag FLAG_BADGE01_GET
 	setvar VAR_0x8004, 0
@@ -324,16 +336,11 @@ RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
 #if GERMAN
 	.string "Der Steinorden erhöht die Kraft der\n"
 	.string "Attacken deiner Pokémon.\p"
-	.string "Außerdem sind sie nun in der Lage, die\n"
-	.string "VM Zerschneider auch außerhalb eines\l"
-	.string "Kampfes einzusetzen.\p"
 	.string "Dies möchte ich dir auch noch geben.$"
 #else
-	.string "The STONE BADGE heightens the ATTACK\n"
-	.string "power of your POKéMON.\p"
-	.string "It also enables them to use the HM move\n"
-	.string "CUT outside of battle.\p"
-	.string "Please take this with you, too.$"
+	.string "The STONE BADGE raises the power of\n"
+	.string "your POKéMON's moves.\p"
+	.string "I would like you to have this, too.$"
 #endif
 
 RustboroCity_Gym_Text_ExplainRockTomb:
@@ -503,4 +510,19 @@ RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
 	.string "You only have one POKéMON with you?\p"
 	.string "Please return with at least one more\n"
 	.string "POKéMON.$"
+#endif
+
+#if IS_HNS
+RustboroCity_Gym_Text_HnsCutLicense:
+#if GERMAN
+	.string "Felizia: Und die Erlaubnis für\n"
+	.string "Zerschneider gehört auch dazu.\p"
+	.string "{PLAYER} erhält die Lizenz für\n"
+	.string "Zerschneider!$"
+#else
+	.string "ROXANNE: And the permit for CUT\n"
+	.string "goes with it.\p"
+	.string "{PLAYER} received the licence for\n"
+	.string "CUT!$"
+#endif
 #endif

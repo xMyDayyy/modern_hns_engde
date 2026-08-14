@@ -30,40 +30,35 @@ RustboroCity_PokemonCenter_1F_EventScript_Girl::
 
 RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities:
 #if GERMAN
-	.string "Mein Pokémon hat ein Naives Wesen und\n"
-	.string "das meines Freundes ein Fröhliches.\p"
-	.string "Es ist faszinierend, dass Pokémon\n"
-	.string "unterschiedliche Persönlichkeiten\l"
-	.string "haben.$"
+	.string "Hier bringt man dir bei, wie man\n"
+	.string "kämpft - und wie man verliert.\p"
+	.string "Beides braucht man.$"
 #else
-	.string "My POKéMON has a NAIVE nature, and my\n"
-	.string "friend's has a JOLLY nature.\p"
-	.string "It's fascinating how POKéMON have\n"
-	.string "personalities!$"
+	.string "They teach you how to battle here -\n"
+	.string "and how to lose.\p"
+	.string "You need both.$"
 #endif
 
 RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon:
 #if GERMAN
-	.string "Es gibt männliche und weibliche\n"
-	.string "Pokémon.\p"
-	.string "Aber niemand kann sagen, worin der\n"
-	.string "eigentliche Unterschied liegt.$"
+	.string "Die Arena hier ist berüchtigt.\p"
+	.string "Gestein-Pokémon halten mehr aus, als\n"
+	.string "man denkt.$"
 #else
-	.string "Just like people, there are male and\n"
-	.string "female POKéMON.\p"
-	.string "But no one seems to have any idea how\n"
-	.string "they're different.$"
+	.string "The GYM here has a reputation.\p"
+	.string "ROCK POKéMON take more punishment\n"
+	.string "than you would think.$"
 #endif
 
 RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
 #if GERMAN
-	.string "Der Mann nebenan hat mir eine VM\n"
-	.string "gegeben!\p"
-	.string "Ich habe meinem Pokémon beigebracht,\n"
-	.string "damit kleinere Bäume zu Zerschneiden.$"
+	.string "Im Steinbruch hinter der Stadt hört\n"
+	.string "man nachts die Pokémon graben.\p"
+	.string "Zumindest sagt das mein Nachbar.$"
 #else
-	.string "The man next door gave me an HM!\p"
-	.string "I used it to teach my POKéMON how to\n"
-	.string "CUT down skinny trees.$"
+	.string "At the quarry behind town you can\n"
+	.string "hear POKéMON digging at night.\p"
+	.string "At least that is what my neighbour\n"
+	.string "says.$"
 #endif
 

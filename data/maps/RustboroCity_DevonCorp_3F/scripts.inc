@@ -255,7 +255,7 @@ RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 #if GERMAN
 	.string "Mr. Trumm: Ich habe übrigens gehört,\n"
-	.string "dass zwei fiese Kriminelle - Magma und\l"
+	.string "dass zwei fiese kriminelle Teams -\l"
 	.string "Aqua heißen sie, glaube ich - überall nur\l"
 	.string "Ärger bereiten.\p"
 	.string "Vielleicht solltest du eine Pause\n"

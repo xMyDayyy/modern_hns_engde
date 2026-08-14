@@ -1191,16 +1191,13 @@ RustboroCity_Text_PokemonChangeShape:
 
 RustboroCity_Text_TradePokemonGrowFast:
 #if GERMAN
-	.string "Ein Pokémon, das du durch Tausch\n"
-	.string "erhältst, wächst schnell.\p"
-	.string "Aber wenn dir Orden von bestimmten\n"
-	.string "Arenen fehlen, wird es dir eventuell\l"
-	.string "nicht gehorchen.$"
+	.string "Ich habe mein bestes Pokémon von\n"
+	.string "einem Freund aus Johto bekommen.\p"
+	.string "Manchmal denke ich, es vermisst ihn.$"
 #else
-	.string "A POKéMON you get in a trade from\n"
-	.string "someone grows fast.\p"
-	.string "But if you don't have certain GYM\n"
-	.string "BADGES, it may not obey you…$"
+	.string "I got my best POKéMON from a friend\n"
+	.string "in JOHTO.\p"
+	.string "Sometimes I think it misses him.$"
 #endif
 
 RustboroCity_Text_OutOfTheWay:
@@ -1289,19 +1286,19 @@ RustboroCity_Text_PleaseComeWithMe:
 
 RustboroCity_Text_MayHiLetsRegister:
 #if GERMAN
-	.string "Maike: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "Dein PokéCom besitzt die Trainer/Ruf-\n"
-	.string "Funktion!\p"
-	.string "Wir tragen uns gegenseitig ein, so\n"
-	.string "bleiben wir in Kontakt.\p"
+	.string "Maike: Oh, hi, {PLAYER}!\p"
+	.string "Ich habe gehört, du warst schon in der\n"
+	.string "Arena.\p"
+	.string "Ich bin noch nicht so weit… aber ich\n"
+	.string "arbeite dran!\p"
 	.string "… … … … …\n"
 	.string "…$"
 #else
-	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "You had a MATCH CALL feature put\n"
-	.string "on your POKéGEAR!\p"
-	.string "Let's register each other so we can\n"
-	.string "contact one another anytime!\p"
+	.string "MAY: Oh, hi, {PLAYER}!\p"
+	.string "I heard you have already been to the\n"
+	.string "GYM.\p"
+	.string "I'm not that far yet… but I'm working\n"
+	.string "on it!\p"
 	.string "… … … … … …$"
 #endif
 
@@ -1633,22 +1630,12 @@ RustboroCity_Text_IdBetterGetBackToWork:
 
 RustboroCity_Text_YouCanHave2On2Battle:
 #if GERMAN
-	.string "Weißt du das schon?\p"
-	.string "Du kannst auch an 2-gegen-2-Kämpfen\n"
-	.string "teilnehmen, wenn du allein unterwegs\l"
-	.string "bist.\p"
-	.string "Triffst du auf zwei Trainer und hast\n"
-	.string "mindestens zwei Pokémon dabei, werden\l"
-	.string "sie dich beide herausfordern.\p"
-	.string "Ich finde es total cool, wenn man allein\n"
-	.string "zwei Trainer besiegt. Meinst du nicht?$"
+	.string "Die Devon Corporation hat halb\n"
+	.string "Metarost gebaut.\p"
+	.string "Ohne sie wäre die Stadt halb so groß.$"
 #else
-	.string "Did you know this?\p"
-	.string "You can have a 2-on-2 battle even\n"
-	.string "if you're not with another TRAINER.\p"
-	.string "If you catch the eyes of two TRAINERS\n"
-	.string "when you have two or more POKéMON,\l"
-	.string "they'll both challenge you.\p"
-	.string "Don't you think it'd be cool if you\n"
-	.string "could beat two TRAINERS by yourself?$"
+	.string "DEVON CORPORATION built half of\n"
+	.string "RUSTBORO.\p"
+	.string "Without them the city would be half\n"
+	.string "the size.$"
 #endif

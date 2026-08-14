@@ -4,6 +4,13 @@ RustboroCity_CuttersHouse_MapScripts::
 RustboroCity_CuttersHouse_EventScript_Cutter::
 	lock
 	faceplayer
+#if IS_HNS
+	@ HnS: Die Lizenz fuer Zerschneider gibt es bei der Arenaleiterin.
+	@ Hier bleibt nur das Lob stehen - keine Uebergabe, keine Erklaerung.
+	msgbox RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse, MSGBOX_DEFAULT
+	release
+	end
+#endif
 	goto_if_set FLAG_RECEIVED_HM_CUT, RustboroCity_CuttersHouse_EventScript_ExplainCut
 	msgbox RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse, MSGBOX_DEFAULT
 #if IS_HNS
@@ -41,22 +48,14 @@ RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
 	.string "Du bist wirklich ein talentierter\n"
 	.string "Trainer!\p"
 	.string "Nein, warte. Sag jetzt nichts.\n"
-	.string "Ich brauche dich nur anzuschauen.\p"
-	.string "Ich bin mir sicher, dass du mit dieser\n"
-	.string "VM sehr gut umgehen wirst.\p"
-	.string "Kein Grund, so schüchtern zu sein.\n"
-	.string "Hier, nimm sie!$"
+	.string "Ich brauche dich nur anzuschauen.$"
 #else
 	.string "That determined expression…\n"
 	.string "That limber way you move…\l"
 	.string "And your well-trained POKéMON…\p"
 	.string "You're obviously a skilled TRAINER!\p"
 	.string "No, wait, don't say a word.\n"
-	.string "I can tell just by looking at you.\p"
-	.string "I'm sure that you can put this\n"
-	.string "HIDDEN MACHINE to good use.\p"
-	.string "No need to be modest or shy.\n"
-	.string "Go on, take it!$"
+	.string "I can tell just by looking at you.$"
 #endif
 
 RustboroCity_CuttersHouse_Text_ExplainCut:
