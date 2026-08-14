@@ -109,21 +109,19 @@ Route103_Text_MayHnsMusing:
 
 Route103_Text_MayHnsLetsBattle:
 #if GERMAN
-	.string "Oh! Du bist {PLAYER}, stimmt's?\p"
-	.string "Papa hat mir von dir erzählt - der\n"
-	.string "Champion aus Johto und Kanto, hier bei\l"
-	.string "uns in Hoenn!\p"
-	.string "Ich bin Maike, Prof. Birks Tochter.\n"
-	.string "Und ich will wissen, wo ich stehe: Kämpf\l"
-	.string "mit mir!$"
+	.string "Ah, du musst {PLAYER} sein!\p"
+	.string "Mein Vater sagt, du seist Champion in\n"
+	.string "deiner Heimat.\p"
+	.string "Ich bin Maike, seine Tochter.\p"
+	.string "Lass uns kämpfen - ich will wissen, wie\n"
+	.string "gut du bist!$"
 #else
-	.string "Oh! You're {PLAYER}, right?\p"
-	.string "Dad told me about you - the\n"
-	.string "CHAMPION of JOHTO and KANTO,\l"
-	.string "here in HOENN!\p"
-	.string "I'm MAY, PROF. BIRCH's daughter.\n"
-	.string "And I want to know where I stand:\l"
-	.string "Battle me!$"
+	.string "Ah, you must be {PLAYER}!\p"
+	.string "My father says you are the CHAMPION\n"
+	.string "back home.\p"
+	.string "I'm MAY, his daughter.\p"
+	.string "Let's battle - I want to see how good\n"
+	.string "you are!$"
 #endif
 
 Route103_Text_MayHnsDefeated:
@@ -137,32 +135,29 @@ Route103_Text_MayHnsDefeated:
 
 Route103_Text_MayHnsAfterBattle:
 #if GERMAN
-	.string "Maike: Gegen den Champion zu verlieren\n"
-	.string "ist keine Schande!\p"
-	.string "Weißt du was? Du bist ab jetzt\n"
-	.string "meine Messlatte.\p"
+	.string "Maike: Verloren! Aber jetzt weiß ich,\n"
+	.string "wo ich stehe.\p"
+	.string "Du bist ab jetzt meine Messlatte.\p"
 	.string "Jedes Mal, wenn wir uns wiedersehen,\n"
-	.string "fordere ich dich heraus - dann sehe ich\l"
-	.string "genau, wie viel stärker ich geworden\l"
-	.string "bin!\p"
+	.string "fordere ich dich heraus - und beim\l"
+	.string "nächsten Mal komme ich näher ran.\p"
+	.string "Das nehme ich mir fest vor!\p"
 	.string "Warte, ich trage mich in deinem PokéCom\n"
 	.string "ein - dann findest du mich jederzeit!\p"
 	.string "Ich gehe zurück ins Labor.\n"
 	.string "Bis bald, {PLAYER}!$"
 #else
-	.string "MAY: Losing to the CHAMPION\n"
-	.string "is nothing to be ashamed of!\p"
-	.string "You know what? From now on,\n"
-	.string "you're my measuring stick.\p"
-	.string "Every time we meet, I'll\n"
-	.string "challenge you - that way I'll\l"
-	.string "know exactly how much stronger\l"
-	.string "I've become!\p"
-	.string "Wait, let me register myself in\n"
-	.string "your POKéGEAR - that way you\l"
-	.string "can always find me!\p"
+	.string "MAY: I lost! But now I know where\n"
+	.string "I stand.\p"
+	.string "From now on you're my benchmark.\p"
+	.string "Every time we meet I will challenge\n"
+	.string "you - and next time I will get\l"
+	.string "closer.\p"
+	.string "That's a promise to myself!\p"
+	.string "Wait, I'll put myself in your POKéCOM\n"
+	.string "- then you can find me any time!\p"
 	.string "I'm heading back to the LAB.\n"
-	.string "See you around, {PLAYER}!$"
+	.string "See you soon, {PLAYER}!$"
 #endif
 #endif
 
@@ -577,4 +572,3 @@ Route103_Text_RouteSign:
 	.string "ROUTE 103\n"
 	.string "{DOWN_ARROW} OLDALE TOWN$"
 #endif
-
