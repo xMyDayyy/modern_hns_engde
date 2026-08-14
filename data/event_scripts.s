@@ -1194,6 +1194,25 @@ Common_ShowEasyChatScreen::
 Common_EventScript_ReadyPetalburgGymForBattle::
 	clearflag FLAG_HIDE_PETALBURG_GYM_GREETER
 	setflag FLAG_PETALBURG_MART_EXPANDED_ITEMS
+#if IS_HNS
+	@ HnS: Norman meldet sich genau dann, wenn seine Arena wieder oeffnet -
+	@ vorher hat er keinen Grund, den Spieler anzurufen. Alle vier Aufrufer
+	@ dieses Skripts sind Ordenuebergaben, der Spieler ist dort gesperrt.
+	@ Die Reparaturweiche PetalburgCity_Gym_EventScript_OpensWithBadges setzt
+	@ die Flag vorher selbst und ueberspringt den Anruf deshalb.
+	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Common_EventScript_PetalburgGymAlreadyAnnounced
+	delay 30
+	pokenavcall Common_Text_HnsNormanGymOpen
+	waitmessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox Common_Text_HnsRegisteredNorman, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
+Common_EventScript_PetalburgGymAlreadyAnnounced::
+#endif
 	return
 
 Common_EventScript_BufferTrendyPhrase::
@@ -1423,7 +1442,50 @@ Common_Text_ReceivedMon:
 
 Common_Text_PartyIsFull:
 	.string "Whoa, warte. Du kannst nicht\n"
-	.string "mehr POKéMON mitnehmen.$"	
+	.string "mehr Pokémon mitnehmen.$"	
+
+#if IS_HNS
+@ HnS: Norman meldet sich, sobald der Umbau seiner Arena fertig ist.
+Common_Text_HnsNormanGymOpen:
+#if GERMAN
+	.string "… … … … …\n"
+	.string "…\l"
+	.string "… … … … …\l"
+	.string "Piep!\p"
+	.string "Norman: Hier ist Norman, Arenaleiter\n"
+	.string "von Blütenburg City.\p"
+	.string "Man erzählt sich, jemand vom Festland\n"
+	.string "mische gerade ganz Hoenn auf.\p"
+	.string "Der Umbau meiner Arena ist fertig.\p"
+	.string "Komm vorbei und zeig mir, ob an den\n"
+	.string "Gerüchten etwas dran ist.\p"
+	.string "… … … … …\n"
+	.string "…\l"
+	.string "… … … … …\l"
+	.string "Klick!$"
+#else
+	.string "… … … … … …\n"
+	.string "… … … … … Beep!\p"
+	.string "NORMAN: This is NORMAN, GYM LEADER\n"
+	.string "of PETALBURG CITY.\p"
+	.string "They say someone from the mainland\n"
+	.string "is shaking up all of HOENN.\p"
+	.string "My GYM has finished rebuilding.\p"
+	.string "Come by and show me whether those\n"
+	.string "rumours are worth anything.\p"
+	.string "… … … … … …\n"
+	.string "… … … … … Click!$"
+#endif
+
+Common_Text_HnsRegisteredNorman:
+#if GERMAN
+	.string "Norman wurde im PokéCom-\n"
+	.string "Verzeichnis eingetragen.$"
+#else
+	.string "Registered NORMAN\n"
+	.string "in the POKéNAV.$"
+#endif
+#endif
 
 Common_EventScript_PlayerHandedOverTheItem::
 	bufferitemname STR_VAR_1, VAR_0x8004

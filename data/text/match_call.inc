@@ -5869,54 +5869,49 @@ MatchCall_Text_Scott7::
 
 MatchCall_Text_Norman1::
 #if GERMAN
-	.string "Norman: Hier ist Norman aus\n"
-	.string "Blütenburg City.\p"
-	.string "Man erzählt sich hier einiges über\n"
-	.string "dich und das Festland.\p"
+	.string "Norman: {PLAYER}?\p"
+	.string "Meine Arena in Blütenburg City ist\n"
+	.string "offen, und ich warte immer noch.\p"
 	.string "Von Gerüchten halte ich wenig. Ich\n"
-	.string "sehe mir so etwas lieber selbst an.\p"
-	.string "Nur ist meine Arena noch\n"
-	.string "geschlossen.$"
+	.string "sehe mir so etwas lieber selbst an.$"
 #else
-	.string "NORMAN: This is NORMAN from\n"
-	.string "PETALBURG CITY.\p"
-	.string "People here tell all sorts of stories\n"
-	.string "about you and the mainland.\p"
+	.string "NORMAN: {PLAYER}?\p"
+	.string "My GYM in PETALBURG CITY is open,\n"
+	.string "and I am still waiting.\p"
 	.string "I don't think much of rumours. I\n"
-	.string "prefer to see for myself.\p"
-	.string "Only my GYM is still closed.$"
+	.string "prefer to see for myself.$"
 #endif
 
 MatchCall_Text_Norman2::
 #if GERMAN
-	.string "Norman: {PLAYER}?\p"
-	.string "Auch hier spricht man inzwischen\n"
-	.string "über deine Kämpfe.\p"
-	.string "Gehört habe ich genug. Sobald meine\n"
-	.string "Arena öffnet, erwarte ich dich.$"
+	.string "Norman: {PLAYER}!\p"
+	.string "Gehört habe ich inzwischen genug\n"
+	.string "über dich.\p"
+	.string "Blütenburg City. Meine Arena.\n"
+	.string "Ich erwarte dich.$"
 #else
-	.string "NORMAN: {PLAYER}?\p"
-	.string "People here are talking about your\n"
-	.string "battles now, too.\p"
-	.string "I've heard enough. The moment my\n"
-	.string "GYM opens, I'll be expecting you.$"
+	.string "NORMAN: {PLAYER}!\p"
+	.string "By now I have heard quite enough\n"
+	.string "about you.\p"
+	.string "PETALBURG CITY. My GYM.\n"
+	.string "I'll be expecting you.$"
 #endif
 
 MatchCall_Text_Norman3::
 #if GERMAN
-	.string "Norman: {PLAYER}!\n"
-	.string "Meine Arena ist wieder offen.\p"
-	.string "Vier Orden hast du also schon.\n"
-	.string "Dann komm nach Blütenburg City.\p"
-	.string "Ich will endlich selbst sehen, was an\n"
-	.string "den Gerüchten dran ist.$"
+	.string "Norman: {PLAYER}.\p"
+	.string "Die Gerüchte stimmten also.\p"
+	.string "Ich bleibe hier und verdopple mein\n"
+	.string "Training.\p"
+	.string "Beim nächsten Mal sieht es anders\n"
+	.string "aus.$"
 #else
-	.string "NORMAN: {PLAYER}!\n"
-	.string "My GYM is open again.\p"
-	.string "Four BADGES already, is it?\n"
-	.string "Then come to PETALBURG CITY.\p"
-	.string "I want to see for myself what those\n"
-	.string "rumours are worth.$"
+	.string "NORMAN: {PLAYER}.\p"
+	.string "So the rumours were true.\p"
+	.string "I'm going to remain here and\n"
+	.string "redouble my training.\p"
+	.string "Next time things will look\n"
+	.string "different.$"
 #endif
 
 MatchCall_Text_Norman4::

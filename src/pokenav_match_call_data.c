@@ -209,7 +209,7 @@ static const struct MatchCallStructNPC sMrStoneMatchCallHeader =
 static const match_call_text_data_t sNormanTextScripts[] = {
     { MatchCall_Text_Norman1, 0xFFFE,                       NO_FLAG_TO_SET },
     { MatchCall_Text_Norman2, ALWAYS_AVAILABLE,             NO_FLAG_TO_SET },
-    { MatchCall_Text_Norman3, FLAG_DEFEATED_LAVARIDGE_GYM,  NO_FLAG_TO_SET },
+    { MatchCall_Text_Norman3, FLAG_DEFEATED_PETALBURG_GYM,  NO_FLAG_TO_SET },
     { MatchCall_Text_Norman7, FLAG_IS_HOENN_CHAMPION,       NO_FLAG_TO_SET },
     MATCH_CALL_TEXT_END
 };

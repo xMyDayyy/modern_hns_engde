@@ -171,6 +171,12 @@ PetalburgCity_Gym_EventScript_ClosedEject::
 	end
 
 PetalburgCity_Gym_EventScript_OpensWithBadges::
+#if IS_HNS
+	@ HnS: Diese Weiche laeuft aus einem ON_FRAME-Skript ohne Spielersperre.
+	@ Hier darf kein Anruf laufen - die Flag wird still gesetzt, damit
+	@ Common_EventScript_ReadyPetalburgGymForBattle den Anruf ueberspringt.
+	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
+#endif
 	@ Regulaer klettert VAR_PETALBURG_GYM_STATE ueber addvar von 2 auf 6 -
 	@ je ein Schritt nach Metarost, Faustauhaven, Malvenfroh und Rosaltstadt.
 	@ Wer die vier Orden auf anderem Weg hat, landete hier bisher auf 3: Arena
@@ -510,16 +516,9 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	@ Zustand 5 ist der Endwert, den sonst die Uebergabe in Heikos Haus
 	@ setzt - so wartet spaeter nichts mehr auf Zustand 4.
 	setvar VAR_PETALBURG_CITY_STATE, 5
-	@ HnS: Norman wird wie jeder andere Arenaleiter nach seiner Niederlage
-	@ ins PokeCom eingetragen. Vanilla erledigte das der Vater-Anruf auf
-	@ Route 104 - den gibt es unter HnS nicht mehr.
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox PetalburgCity_Gym_Text_HnsRegisteredNorman, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	delay 30
-	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
+	@ HnS: Die PokeCom-Eintragung liegt nicht hier, sondern bei der
+	@ Arenaoeffnung (Common_EventScript_ReadyPetalburgGymForBattle) - dort
+	@ ruft Norman den Spieler an und fordert ihn heraus.
 	releaseall
 	end
 #endif
@@ -2228,6 +2227,8 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 #endif
 
 #if IS_HNS
+@ Nicht mehr angesprungen - der Registriertext liegt jetzt bei
+@ Common_Text_HnsRegisteredNorman. Bleibt stehen, damit nichts geloescht wird.
 PetalburgCity_Gym_Text_HnsRegisteredNorman:
 #if GERMAN
 	.string "Normans Nummer wurde im PokéCom-\n"
