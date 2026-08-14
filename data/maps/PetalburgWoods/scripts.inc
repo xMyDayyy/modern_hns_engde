@@ -566,17 +566,17 @@ PetalburgWoods_Text_IveBeenTrainingHard:
 
 PetalburgWoods_Text_StayOutOfTallGrass:
 #if GERMAN
-	.string "Hey, du!\n"
-	.string "Geht es deinen Pokémon gut?\p"
-	.string "Wenn deine Pokémon schwach sind und du\n"
-	.string "Kämpfe vermeiden willst, solltest du\l"
-	.string "dich von hohem Gras fernhalten.$"
+	.string "Hey, du!\p"
+	.string "Hör mal - wenn der Wind durch die\n"
+	.string "Wipfel geht, klingt der ganze Wald wie\l"
+	.string "ein einziges Pokémon.\p"
+	.string "Ich könnte hier stundenlang stehen.$"
 #else
-	.string "Yo, there!\n"
-	.string "Your POKéMON doing okay?\p"
-	.string "If your POKéMON are weak and you want\n"
-	.string "to avoid battles, you should stay out\l"
-	.string "of tall grass.$"
+	.string "Yo, there!\p"
+	.string "Listen - when the wind moves through\n"
+	.string "the treetops, the whole forest sounds\l"
+	.string "like one big POKéMON.\p"
+	.string "I could stand here for hours.$"
 #endif
 
 PetalburgWoods_Text_HiddenItemsExplanation:
@@ -625,42 +625,19 @@ PetalburgWoods_Text_MiracleSeedExplanation:
 
 PetalburgWoods_Text_TrainerTipsExperience:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Jedes Pokémon, das am Kampf teilnimmt,\n"
-	.string "erhält Erfahrungspunkte, auch wenn es\l"
-	.string "nur ganz kurz dabei ist.\p"
-	.string "Setze eines deiner schwachen Pokémon\n"
-	.string "daher an die Spitze der Liste.\p"
-	.string "Sobald der Kampf beginnt, wechselst du\n"
-	.string "es aus. Es wird E-Punkte bekommen und\l"
-	.string "bleibt trotzdem immer unbeschadet.$"
+	.string "“Blütenburgwald\p"
+	.string "Wer hier den Weg verliert, findet ihn\n"
+	.string "erst im Frühling wieder.”$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "Any POKéMON that appears even once\n"
-	.string "in a battle is awarded EXP Points.\p"
-	.string "To raise a weak POKéMON, put it at the\n"
-	.string "left of the team list.\p"
-	.string "As soon as a battle starts, switch it\n"
-	.string "out. It will earn EXP Points without\l"
-	.string "being exposed to any harm.$"
+	.string "“PETALBURG WOODS\p"
+	.string "Lose your way in here and you will\n"
+	.string "find it again come spring.”$"
 #endif
 
 PetalburgWoods_Text_TrainerTipsPP:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Neben den Kraftpunkten (KP) besitzt\n"
-	.string "ein Pokémon auch Angriffspunkte (AP),\l"
-	.string "die für die Attacken im Kampf gebraucht\l"
-	.string "werden.\p"
-	.string "Wenn ein Pokémon keine AP mehr besitzt,\n"
-	.string "muss es in ein Pokémon-Center gebracht\l"
-	.string "werden.$"
+	.string "“Hier entlang nach Metarost City.”$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "In addition to Hit Points (HP), POKéMON\n"
-	.string "have Power Points (PP) that are used to\l"
-	.string "make moves during battle.\p"
-	.string "If a POKéMON runs out of PP, it must be\n"
-	.string "taken to a POKéMON CENTER.$"
+	.string "“This way to RUSTBORO CITY.”$"
 #endif
 
