@@ -30,8 +30,8 @@ FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge:
 
 FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
 #if GERMAN
-	.string "Im Kampfcamp von Laubwechselfeld\n"
-	.string "findet das K.O.-Teamturnier statt.\p"
+	.string "Im Arena-Kampfcamp findet das\n"
+	.string "K.O.-Teamturnier statt.\p"
 	.string "Jeder Teilnehmer darf drei Pokémon\n"
 	.string "in den Kampf mitnehmen.\p"
 	.string "Diese müssen in der Reihenfolge\n"
@@ -52,7 +52,11 @@ FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
 	.string "Besiegst du drei Trainer in Folge,\n"
 	.string "gewinnst du einen fantastischen Preis.$"
 #else
+#if IS_HNS
+	.string "In the ARENA BATTLE TENT,\n"
+#else
 	.string "In the FALLARBOR BATTLE TENT,\n"
+#endif
 	.string "we undertake the Set KO Tourney.\p"
 	.string "All participants enter with a team of\n"
 	.string "three POKéMON.\p"
@@ -277,8 +281,8 @@ VerdanturfTown_BattleTentLobby_Text_TakeChallenge:
 
 VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
 #if GERMAN
-	.string "Im Kampfcamp von Wiesenflur gibt es\n"
-	.string "eine entscheidende Regel, die beachtet\l"
+	.string "Im Palast-Kampfcamp gibt es eine\n"
+	.string "entscheidende Regel, die beachtet\l"
 	.string "werden muss.\p"
 	.string "Trainer dürfen ihre Pokémon lediglich\n"
 	.string "in den Kampf rufen und zurückziehen.\p"
@@ -297,7 +301,11 @@ VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
 	.string "Brichst du die Herausforderung ohne zu\n"
 	.string "speichern ab, wirst du disqualifiziert.$"
 #else
+#if IS_HNS
+	.string "In the PALACE BATTLE TENT,\n"
+#else
 	.string "In the VERDANTURF BATTLE TENT,\n"
+#endif
 	.string "there is one crucial rule that must\l"
 	.string "be obeyed.\p"
 	.string "TRAINERS are permitted only to switch\n"
@@ -477,9 +485,9 @@ SlateportCity_BattleTentLobby_Text_TakeChallenge:
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
 #if GERMAN
-	.string "Hier im Kampfcamp von Graphitport City\n"
-	.string "halten wir Wechselkampf-Turniere ab,\l"
-	.string "die mit Leih-Pkmn ausgetragen werden.\p"
+	.string "Hier im Fabrik-Kampfcamp halten wir\n"
+	.string "Wechselkampf-Turniere ab, die mit\l"
+	.string "Leih-Pkmn ausgetragen werden.\p"
 	.string "Als Erstes leihst du dir drei Pokémon.\p"
 	.string "Mit diesen kannst du an einem\n"
 	.string "Einzelkampf teilnehmen.\p"
@@ -493,7 +501,11 @@ SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
 	.string "Wenn du ohne zu speichern abbrichst,\n"
 	.string "wirst du disqualifiziert.$"
 #else
+#if IS_HNS
+	.string "Here at the FACTORY BATTLE TENT,\n"
+#else
 	.string "Here at the SLATEPORT BATTLE TENT,\n"
+#endif
 	.string "we hold Battle Swap events\l"
 	.string "using rental POKéMON.\p"
 	.string "First, you will be loaned three\n"

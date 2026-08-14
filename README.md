@@ -1,6 +1,8 @@
 # Über `hns_de`
 <img width="465" height="600" alt="HnSDeutschLogo" src="https://github.com/user-attachments/assets/fdcb84cd-7b60-4df8-bc1d-efa2d4d0cc50" />
 
+> **THIS REPOSITORY IS A WORK IN PROGRESS, DO NOT SHARE, DO NOT RELEASE** (Hinweis aus dem Upstream)
+
 **`hns_de`** hierbei handelt es sich um eine Basis für Deutsche Romhacks, aufbauend auf pokeemerald-expansion. Es lässt sich Pokémon Heart&Soul (Johto), aber später auch Smaragd und Feuerrot daraus bauen (in Arbeit).
 
 # About `pokeemerald-expansion`
