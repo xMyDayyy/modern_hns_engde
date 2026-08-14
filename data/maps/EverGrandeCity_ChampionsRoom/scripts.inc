@@ -131,6 +131,18 @@ EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF::
 	applymovement LOCALID_PLAYER, EverGrandeCity_ChampionsRoom_Movement_PlayerExit
 	waitmovement 0
 	setflag FLAG_HIDE_PETALBURG_GYM_GREETER
+#if IS_HNS
+	@ HnS: Abschluss der Hoenn-Liga. FLAG_IS_HOENN_CHAMPION wird von der
+	@ Trainerkarte gelesen (GetHnSTrainerStars), war aber bisher von keinem
+	@ Skript gesetzt. Die fuenf FLAG_REGISTERED_*-Flags tragen die Top Vier
+	@ in die PokeCom-Kontaktliste ein - auch sie setzte bisher niemand.
+	setflag FLAG_IS_HOENN_CHAMPION
+	setflag FLAG_REGISTERED_SIDNEY
+	setflag FLAG_REGISTERED_PHOEBE
+	setflag FLAG_REGISTERED_GLACIA
+	setflag FLAG_REGISTERED_DRAKE
+	setflag FLAG_REGISTERED_WALLACE
+#endif
 	warp MAP_EVER_GRANDE_CITY_HALL_OF_FAME, 7, 16
 	waitstate
 	releaseall
