@@ -4,7 +4,7 @@ GraniteCave_StevensRoom_MapScripts::
 GraniteCave_StevensRoom_EventScript_Steven::
 	lock
 	faceplayer
-	msgbox GraniteCave_StevensRoom_Text_ImStevenLetterForMe, MSGBOX_DEFAULT
+	msgbox GraniteCave_StevensRoom_Text_GoodToSeeYouLetterForMe, MSGBOX_DEFAULT
 	setvar VAR_0x8004, ITEM_LETTER
 	call Common_EventScript_PlayerHandedOverTheItem
 	setflag FLAG_DELIVERED_STEVEN_LETTER
@@ -86,16 +86,22 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 	delay_8
 	step_end
 
-GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
+GraniteCave_StevensRoom_Text_GoodToSeeYouLetterForMe:
 #if GERMAN
-	.string "Troy: Du hier unten?\p"
-	.string "Ich sammle seltene Steine, daher gehe\n"
-	.string "ich immer mal wieder auf Reisen.\p"
+	.string "Troy: Hi, {PLAYER}!\n"
+	.string "Schön, dich wiederzusehen.\p"
+	.string "Was ich hier so tief unten in der\n"
+	.string "Grotte mache?\p"
+	.string "Ich sammle seltene Steine. Deswegen\n"
+	.string "bin ich auch viel auf Reisen.\p"
 	.string "Oh? Ein Brief? Für mich?$"
 #else
-	.string "TROY: You, down here?\p"
-	.string "I'm interested in rare stones,\n"
-	.string "so I travel here and there.\p"
+	.string "TROY: Hi, {PLAYER}!\n"
+	.string "Good to see you again.\p"
+	.string "What am I doing this deep inside\n"
+	.string "the cave?\p"
+	.string "I collect rare stones. That's why\n"
+	.string "I travel here and there.\p"
 	.string "Oh?\n"
 	.string "A LETTER for me?$"
 #endif
