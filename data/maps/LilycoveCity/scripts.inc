@@ -245,9 +245,15 @@ LilycoveCity_EventScript_AquaGrunt4::
 LilycoveCity_EventScript_Rival::
 	lock
 	faceplayer
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto LilycoveCity_EventScript_May
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, LilycoveCity_EventScript_May
 	goto_if_eq VAR_RESULT, FEMALE, LilycoveCity_EventScript_Brendan
+#endif
 	end
 
 LilycoveCity_EventScript_May::

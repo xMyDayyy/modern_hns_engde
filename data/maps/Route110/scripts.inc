@@ -383,9 +383,15 @@ Route110_EventScript_RivalScene::
 	call_if_eq VAR_0x8008, 1, Route110_EventScript_RivalApproachPlayer1
 	call_if_eq VAR_0x8008, 2, Route110_EventScript_RivalApproachPlayer2
 	call_if_eq VAR_0x8008, 3, Route110_EventScript_RivalApproachPlayer3
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto Route110_EventScript_MayBattle
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route110_EventScript_MayBattle
 	goto_if_eq VAR_RESULT, FEMALE, Route110_EventScript_BrendanBattle
+#endif
 	releaseall
 	end
 

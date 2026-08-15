@@ -236,9 +236,15 @@ LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMayEast:
 RivalsHouse_2F_EventScript_Rival::
 	lockall
 	goto_if_set FLAG_MET_RIVAL_LILYCOVE, RivalsHouse_2F_EventScript_RivalPostLilycove
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto RivalsHouse_2F_EventScript_May
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, RivalsHouse_2F_EventScript_May
 	goto_if_eq VAR_RESULT, FEMALE, RivalsHouse_2F_EventScript_Brendan
+#endif
 	end
 
 RivalsHouse_2F_EventScript_May::

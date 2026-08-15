@@ -57,9 +57,15 @@ EverGrandeCity_ChampionsRoom_EventScript_Defeated::
 	call_if_eq VAR_RESULT, FEMALE, EverGrandeCity_ChampionsRoom_EventScript_PlayBrendanMusic
 	addobject LOCALID_CHAMPIONS_ROOM_RIVAL
 	call EverGrandeCity_ChampionsRoom_EventScript_RivalApproachPlayer
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto EverGrandeCity_ChampionsRoom_EventScript_MayAdvice
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, EverGrandeCity_ChampionsRoom_EventScript_MayAdvice
 	goto_if_eq VAR_RESULT, FEMALE, EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice
+#endif
 	end
 
 EverGrandeCity_ChampionsRoom_EventScript_PlayMayMusic::

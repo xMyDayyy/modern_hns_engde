@@ -79,9 +79,15 @@ Route104_EventScript_RivalTrigger::
 
 @ Unused, shares script with Rustboro encounter instead
 Route104_EventScript_PlayRivalMusic::
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto Route104_EventScript_PlayMayMusic
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route104_EventScript_PlayMayMusic
 	goto_if_eq VAR_RESULT, FEMALE, Route104_EventScript_PlayBrendanMusic
+#endif
 	return
 
 Route104_EventScript_PlayMayMusic::
@@ -93,9 +99,15 @@ Route104_EventScript_PlayBrendanMusic::
 	return
 
 Route104_EventScript_RivalEncounter::
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto Route104_EventScript_MayEncounter
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route104_EventScript_MayEncounter
 	goto_if_eq VAR_RESULT, FEMALE, Route104_EventScript_BrendanEncounter
+#endif
 	end
 
 Route104_EventScript_MayEncounter::

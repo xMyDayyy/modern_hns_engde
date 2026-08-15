@@ -266,9 +266,15 @@ OldaleTown_EventScript_RivalTrigger3::
 	end
 
 OldaleTown_EventScript_ShowRivalMessage::
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto OldaleTown_EventScript_ShowMayMessage
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, OldaleTown_EventScript_ShowMayMessage
 	goto_if_eq VAR_RESULT, FEMALE, OldaleTown_EventScript_ShowBrendanMessage
+#endif
 	end
 
 OldaleTown_EventScript_ShowMayMessage::

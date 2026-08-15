@@ -25,9 +25,15 @@ Route103_EventScript_Rival::
 	@ (Labor-Pokedex-Event, Oldale-/Labor-Respawn) entfaellt.
 	goto Route103_EventScript_RivalMayHns
 #endif
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto Route103_EventScript_RivalMay
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route103_EventScript_RivalMay
 	goto_if_eq VAR_RESULT, FEMALE, Route103_EventScript_RivalBrendan
+#endif
 	end
 
 #if defined(POKEMON_HNS)

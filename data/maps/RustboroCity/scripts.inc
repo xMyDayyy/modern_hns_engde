@@ -704,9 +704,15 @@ RustboroCity_EventScript_Rival::
 	goto RustboroCity_EventScript_RivalEncounter
 
 RustboroCity_EventScript_PlayRivalMusic::
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto RustboroCity_EventScript_PlayMayMusic
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, RustboroCity_EventScript_PlayMayMusic
 	goto_if_eq VAR_RESULT, FEMALE, RustboroCity_EventScript_PlayBrendanMusic
+#endif
 	return
 
 RustboroCity_EventScript_PlayMayMusic::
@@ -846,9 +852,15 @@ RustboroCity_EventScript_RivalTrigger7::
 	goto RustboroCity_EventScript_RivalEncounter
 
 RustboroCity_EventScript_RivalEncounter::
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto RustboroCity_EventScript_MayEncounter
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, RustboroCity_EventScript_MayEncounter
 	goto_if_eq VAR_RESULT, FEMALE, RustboroCity_EventScript_BrendanEncounter
+#endif
 	end
 
 RustboroCity_EventScript_MayEncounter::

@@ -53,9 +53,15 @@ Route119_EventScript_RivalEncounter::
 	removeobject LOCALID_ROUTE119_RIVAL_ON_BIKE
 	addobject LOCALID_ROUTE119_RIVAL
 	delay 30
+#if IS_HNS
+	@ HnS-Kanon: Die Rivalin ist immer Maike, unabhaengig vom Geschlecht
+	@ der Spielfigur. Brix bleibt als eigenstaendige Figur frei.
+	goto Route119_EventScript_BattleMay
+#else
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route119_EventScript_BattleMay
 	goto_if_eq VAR_RESULT, FEMALE, Route119_EventScript_BattleBrendan
+#endif
 	releaseall
 	end
 
