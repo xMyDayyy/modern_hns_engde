@@ -1318,7 +1318,7 @@ static void PokeballGlowEffect_PlaceBalls(struct Sprite *sprite)
     {
         sprite->sTimer = 25;
         spriteId = CreateSpriteAtEnd(&sSpriteTemplate_PokeballGlow, sPokeballCoordOffsets[sprite->sCounter].x + sprite->x2, sPokeballCoordOffsets[sprite->sCounter].y + sprite->y2, 0);
-        gSprites[spriteId].oam.priority = 2;
+        gSprites[spriteId].oam.priority = 3;
         gSprites[spriteId].sEffectSpriteId = sprite->sSpriteId;
         sprite->sCounter++;
         sprite->sNumMons--;
@@ -2131,8 +2131,12 @@ static bool8 WaterfallFieldEffect_ShowMon(struct Task *task, struct ObjectEvent 
     if (!ObjectEventIsMovementOverridden(objectEvent))
     {
         ObjectEventClearHeldMovementIfFinished(objectEvent);
-        gFieldEffectArguments[0] = task->tMonId;
-        FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
+        if (!IS_HNS)
+        {
+            // HnS has no field move show-mon banner
+            gFieldEffectArguments[0] = task->tMonId;
+            FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
+        }
         task->tState++;
     }
     return FALSE;
@@ -3442,8 +3446,12 @@ static void SurfFieldEffect_ShowMon(struct Task *task)
     objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
     if (ObjectEventCheckHeldMovementStatus(objectEvent))
     {
-        gFieldEffectArguments[0] = task->tMonId | SHOW_MON_CRY_NO_DUCKING;
-        FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
+        if (!IS_HNS)
+        {
+            // HnS has no field move show-mon banner
+            gFieldEffectArguments[0] = task->tMonId | SHOW_MON_CRY_NO_DUCKING;
+            FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
+        }
         task->tState++;
     }
 }

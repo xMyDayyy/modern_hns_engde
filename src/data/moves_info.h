@@ -21004,6 +21004,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .chance = 30,
         }),
         .battleAnimScript = gBattleAnimMove_BlazingTorque,
+        .randomizerInvalid = TRUE,
     },
 
     [MOVE_WICKED_TORQUE] =
@@ -21035,6 +21036,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .chance = 10,
         }),
         .battleAnimScript = gBattleAnimMove_WickedTorque,
+        .randomizerInvalid = TRUE,
     },
 
     [MOVE_NOXIOUS_TORQUE] =
@@ -21066,6 +21068,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .chance = 30,
         }),
         .battleAnimScript = gBattleAnimMove_NoxiousTorque,
+        .randomizerInvalid = TRUE,
     },
 
     [MOVE_COMBAT_TORQUE] =
@@ -21097,6 +21100,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .chance = 30,
         }),
         .battleAnimScript = gBattleAnimMove_CombatTorque,
+        .randomizerInvalid = TRUE,
     },
 
     [MOVE_MAGICAL_TORQUE] =
@@ -21128,6 +21132,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .chance = 30,
         }),
         .battleAnimScript = gBattleAnimMove_MagicalTorque,
+        .randomizerInvalid = TRUE,
     },
 
     [MOVE_PSYBLADE] =

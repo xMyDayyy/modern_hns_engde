@@ -1240,6 +1240,13 @@ Common_EventScript_ShowBagIsFull::
 	release
 	end
 
+Common_EventScript_NoOp::
+	end
+
+Common_EventScript_ReleaseNoOp::
+	release
+	end
+
 Common_EventScript_BagIsFull::
 	msgbox gText_TooBadBagIsFull, MSGBOX_DEFAULT
 	return

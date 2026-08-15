@@ -29,9 +29,18 @@ FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge:
 #endif
 
 FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
+<<<<<<< HEAD
 #if GERMAN
 	.string "Im Arena-Kampfcamp findet das\n"
 	.string "K.O.-Teamturnier statt.\p"
+=======
+#if IS_HNS
+	.string "Im Arena-Kampfcamp\n"
+#else
+	.string "Im Kampfcamp von Laubwechselfeld\n"
+#endif
+	.string "findet das K.O.-Teamturnier statt.\p"
+>>>>>>> hns_de/master
 	.string "Jeder Teilnehmer darf drei Pokémon\n"
 	.string "in den Kampf mitnehmen.\p"
 	.string "Diese müssen in der Reihenfolge\n"
@@ -51,6 +60,7 @@ FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
 	.string "ist die Herausforderung beendet.\p"
 	.string "Besiegst du drei Trainer in Folge,\n"
 	.string "gewinnst du einen fantastischen Preis.$"
+<<<<<<< HEAD
 #else
 #if IS_HNS
 	.string "In the ARENA BATTLE TENT,\n"
@@ -76,6 +86,8 @@ FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
 	.string "three TRAINERS in succession,\l"
 	.string "we will present you with a fine prize.$"
 #endif
+=======
+>>>>>>> hns_de/master
 
 FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge:
 #if GERMAN
@@ -280,9 +292,18 @@ VerdanturfTown_BattleTentLobby_Text_TakeChallenge:
 #endif
 
 VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
+<<<<<<< HEAD
 #if GERMAN
 	.string "Im Palast-Kampfcamp gibt es eine\n"
 	.string "entscheidende Regel, die beachtet\l"
+=======
+#if IS_HNS
+	.string "Im Palast-Kampfcamp gibt es\n"
+#else
+	.string "Im Kampfcamp von Wiesenflur gibt es\n"
+#endif
+	.string "eine entscheidende Regel, die beachtet\l"
+>>>>>>> hns_de/master
 	.string "werden muss.\p"
 	.string "Trainer dürfen ihre Pokémon lediglich\n"
 	.string "in den Kampf rufen und zurückziehen.\p"
@@ -300,6 +321,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
 	.string "dein Spiel.\p"
 	.string "Brichst du die Herausforderung ohne zu\n"
 	.string "speichern ab, wirst du disqualifiziert.$"
+<<<<<<< HEAD
 #else
 #if IS_HNS
 	.string "In the PALACE BATTLE TENT,\n"
@@ -324,6 +346,8 @@ VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
 	.string "If you don't save before interrupting,\n"
 	.string "you will be disqualified.$"
 #endif
+=======
+>>>>>>> hns_de/master
 
 VerdanturfTown_BattleTentLobby_Text_ReturnFortified:
 #if GERMAN
@@ -484,10 +508,20 @@ SlateportCity_BattleTentLobby_Text_TakeChallenge:
 #endif
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
+<<<<<<< HEAD
 #if GERMAN
 	.string "Hier im Fabrik-Kampfcamp halten wir\n"
 	.string "Wechselkampf-Turniere ab, die mit\l"
 	.string "Leih-Pkmn ausgetragen werden.\p"
+=======
+#if IS_HNS
+	.string "Hier im Fabrik-Kampfcamp\n"
+#else
+	.string "Hier im Kampfcamp von Graphitport City\n"
+#endif
+	.string "halten wir Wechselkampf-Turniere ab,\l"
+	.string "die mit Leih-Pkmn ausgetragen werden.\p"
+>>>>>>> hns_de/master
 	.string "Als Erstes leihst du dir drei Pokémon.\p"
 	.string "Mit diesen kannst du an einem\n"
 	.string "Einzelkampf teilnehmen.\p"
@@ -500,6 +534,7 @@ SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
 	.string "willst, speichere dein Spiel.\p"
 	.string "Wenn du ohne zu speichern abbrichst,\n"
 	.string "wirst du disqualifiziert.$"
+<<<<<<< HEAD
 #else
 #if IS_HNS
 	.string "Here at the FACTORY BATTLE TENT,\n"
@@ -522,6 +557,8 @@ SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
 	.string "If you don't save before interrupting,\n"
 	.string "you will be disqualified.$"
 #endif
+=======
+>>>>>>> hns_de/master
 
 SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit:
 #if GERMAN
