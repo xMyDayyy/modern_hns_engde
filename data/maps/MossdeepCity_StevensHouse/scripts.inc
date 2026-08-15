@@ -36,16 +36,12 @@ MossdeepCity_StevensHouse_EventScript_StevenGivesDive::
 	waitmovement 0
 	applymovement LOCALID_STEVENS_HOUSE_STEVEN, MossdeepCity_StevensHouse_Movement_StevenApproachPlayer
 	waitmovement 0
-#if IS_HNS
-	@ HnS: Taucher gibt es in Johto/Kanto nicht - die VM kommt also von Troy.
-	@ Die Erlaubnis, sie ausserhalb des Kampfes einzusetzen, erteilen dagegen
-	@ Ben und Svenja mit dem Mentalorden (siehe MossdeepCity_Gym).
-	msgbox Text_HnsStevenGiveDive, MSGBOX_DEFAULT
-	giveitem ITEM_HM_DIVE
-#else
+	@ Taucher gibt es in Johto/Kanto nicht - die VM kommt also von Troy,
+	@ genau wie im Original. Die Erlaubnis, sie ausserhalb des Kampfes
+	@ einzusetzen, erteilen Ben und Svenja mit dem Mentalorden; das muss
+	@ Troy dem Spieler an dieser Stelle nicht mehr erklaeren.
 	msgbox MossdeepCity_StevensHouse_Text_YouveEarnedHMDive, MSGBOX_DEFAULT
 	giveitem ITEM_HM_DIVE
-#endif
 	setflag FLAG_RECEIVED_HM_DIVE
 	setflag FLAG_OMIT_DIVE_FROM_STEVEN_LETTER
 #if !IS_HNS
@@ -309,6 +305,9 @@ Text_HnsDiveLicense:
 	.string "DIVE!$"
 #endif
 
+@ Nicht mehr angesprungen - die Uebergabe laeuft wieder ueber den
+@ Ursprungstext MossdeepCity_StevensHouse_Text_YouveEarnedHMDive.
+@ Bleibt stehen, damit nichts geloescht wird.
 Text_HnsStevenGiveDive:
 #if GERMAN
 	.string "Troy: {PLAYER}?\p"
