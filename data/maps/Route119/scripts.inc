@@ -140,9 +140,16 @@ Route119_EventScript_DefeatedBrendan::
 	end
 
 Route119_EventScript_GiveFlyHM::
+#if IS_HNS
+	@ HnS: Fliegen stammt aus Johto und braucht in Hoenn keine Erlaubnis.
+	@ Die VM wird hier deshalb gar nicht mehr uebergeben.
+	setflag FLAG_RECEIVED_HM_FLY
+	return
+#else
 	giveitem_unless_owned ITEM_HM_FLY
 	setflag FLAG_RECEIVED_HM_FLY
 	return
+#endif
 
 Route119_EventScript_RivalExitScottArrive::
 	closemessage
@@ -516,36 +523,20 @@ Route119_Text_MayDefeat:
 
 Route119_Text_MayPresentForYou:
 #if GERMAN
-	.string "Maike: Das hier ist für dich.\p"
-	.string "Du bist der Grund, warum ich so weit\n"
-	.string "gekommen bin.$"
+	.string "Maike: Du bist der Grund, warum ich\n"
+	.string "so weit gekommen bin.$"
 #else
-	.string "MAY: But I had absolutely nothing to\n"
-	.string "worry about! Keep it up!\p"
-	.string "And, here! I have a present for you.$"
+	.string "MAY: You're the reason I've come\n"
+	.string "this far.$"
 #endif
 
 Route119_Text_MayExplainFly:
 #if GERMAN
-	.string "Maike: Mit Fliegen bringen dich deine\n"
-	.string "Pokémon an jeden Ort, an dem du\l"
-	.string "schon einmal warst.\p"
-	.string "Einsetzen darfst du es in Hoenn aber\n"
-	.string "erst mit dem Federorden aus\l"
-	.string "Baumhausen City.\p"
+	.string "Maike: Ich trainiere weiter.\p"
 	.string "Wir sehen uns wieder, {PLAYER}.$"
 #else
-	.string "MAY: Use FLY, and your POKéMON will\n"
-	.string "instantly carry you to any town you've\l"
-	.string "already visited.\p"
-	.string "But, to use FLY, you have to get\n"
-	.string "the GYM BADGE from FORTREE CITY.\l"
-	.string "That's important, so don't forget.\p"
-	.string "You should FLY home and visit\n"
-	.string "LITTLEROOT for a change.\p"
-	.string "I bet your mom's worried about you,\n"
-	.string "{PLAYER}{KUN}.\p"
-	.string "Well, let's meet again somewhere!$"
+	.string "MAY: I'll keep training.\p"
+	.string "We'll meet again, {PLAYER}.$"
 #endif
 
 Route119_Text_BrendanIntro:
