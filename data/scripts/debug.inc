@@ -8,6 +8,13 @@ Debug_ShowFieldMessageStringVar4::
 	special ShowFieldMessageStringVar4
 	goto Debug_MessageEnd
 
+@ HnS-Testwerkzeug: springt direkt in das Hafengebaeude von Oliviana City.
+Debug_EventScript_HnsWarpOlivinePort::
+	setvar VAR_OLIVINE_CITY_STATE, 5
+	warp MAP_OLIVINE_CITY_PORT_INSIDE_HNS, 8, 9
+	waitstate
+	end
+
 Debug_CheatStart::
 	setflag FLAG_SYS_POKEMON_GET
 	setflag FLAG_RESCUED_BIRCH

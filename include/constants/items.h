@@ -1086,6 +1086,10 @@ enum __attribute__((packed)) Item
     // ohne eigene ID stuende Neu-Malvenfroh von Anfang an offen.
     ITEM_NEW_MAUVILLE_KEY,
 
+    // HnS: Fahrkarte fuer die Ueberfahrt nach Hoenn. Troy uebergibt sie in
+    // der Silph Co., nachdem der Spieler auch die Liga von Kanto gewonnen hat.
+    ITEM_HOENN_TICKET,
+
     ITEMS_COUNT,
     ITEM_FIELD_ARROW = ITEMS_COUNT,
 };

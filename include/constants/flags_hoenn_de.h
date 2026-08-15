@@ -1798,8 +1798,11 @@
 // 3921 auf 3922, die Byte-Zahl (DIV_ROUND_UP(.., 8) = 491) bleibt gleich,
 // alte Spielstaende bleiben damit gueltig.
 #define FLAG_MET_MR_STONE (HNS_REMATCH_FLAGS_START + HNS_REMATCH_FLAGS_COUNT)
+// Versteckt Troy in der Silph Co. Er erscheint erst nach seinem Anruf und
+// verschwindet nach der Uebergabe des Hoennticket wieder.
+#define FLAG_HIDE_SILPHCO_TROY (HNS_REMATCH_FLAGS_START + HNS_REMATCH_FLAGS_COUNT + 1)
 
 #undef  HOENN_FLAGS_END
-#define HOENN_FLAGS_END FLAG_MET_MR_STONE
+#define HOENN_FLAGS_END FLAG_HIDE_SILPHCO_TROY
 
 #endif // GUARD_CONSTANTS_FLAGS_HOENN_DE_H

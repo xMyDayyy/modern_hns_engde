@@ -14960,6 +14960,22 @@ const struct ItemInfo gItemsInfo[] =
         .iconPalette = gItemIconPalette_OldKey,
     },
 
+    [ITEM_HOENN_TICKET] =
+    {
+        .name = ITEM_NAME("Hoennticket"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Fahrkarte für die\n"
+            "Überfahrt in die\n"
+            "Hoenn-Region."),
+        .importance = 1,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_SSTicket,
+        .iconPalette = gItemIconPalette_SSTicket,
+    },
+
     [ITEM_NEW_MAUVILLE_KEY] =
     {
         .name = ITEM_NAME("Werkschlüssel"),

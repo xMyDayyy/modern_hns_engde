@@ -200,6 +200,10 @@
 // VM-Lizenzen als Bitmaske (siehe include/hoenn_licenses.h). Nur innerhalb
 // von Hoenn wirksam; Fliegen und Blitz sind bewusst nicht enthalten.
 #define VAR_HOENN_LICENSES 0x415B
+// Stand der Troy-Ticketkette: 0 = nichts, 1 = Versprechen in Orania gegeben,
+// 2 = Anruf nach der Kanto-Liga erfolgt (Troy wartet in der Silph Co.),
+// 3 = Hoennticket uebergeben.
+#define VAR_HOENN_TICKET_STATE 0x415C
 
 #define HOENN_VARS_END 0x4176
 

@@ -369,6 +369,7 @@ extern const u8 Debug_FlagsNotSetBattleConfigMessage[];
 extern const u8 Debug_VarsNotSetBattleConfigMessage[];
 extern const u8 Debug_FlagsAndVarNotSetBattleConfigMessage[];
 extern const u8 Debug_EventScript_FontTest[];
+extern const u8 Debug_EventScript_HnsWarpOlivinePort[];
 extern const u8 Debug_EventScript_CheckEVs[];
 extern const u8 Debug_EventScript_CheckIVs[];
 extern const u8 Debug_EventScript_GivePokerus[];
@@ -1874,6 +1875,11 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
         FlagSet(sJkVisitedFlags[i]);
     // S.S. Aqua: Kanto-Route abgeschlossen -> Hoenn-Option im Hafen
     VarSet(VAR_SSAQUA_STATE, 7);
+    // Troys Ticketkette gilt als erledigt, das Hoennticket liegt im Beutel -
+    // sonst laesst der Matrose die Ueberfahrt nicht zu.
+    VarSet(VAR_HOENN_TICKET_STATE, 3);
+    FlagSet(FLAG_HIDE_SILPHCO_TROY);
+    AddBagItem(ITEM_HOENN_TICKET, 1);
     // Testteam auf Level 100
     ZeroPlayerPartyMons();
     for (i = 0; i < ARRAY_COUNT(sTeamSpecies); i++)
@@ -1893,8 +1899,8 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
     }
 
     PlaySE(SE_EXP_MAX);
-    Debug_DestroyMenu_Full(taskId);
-    ScriptContext_Enable();
+    // Direkt in den Hafen von Oliviana - von dort geht das Schiff nach Hoenn.
+    Debug_DestroyMenu_Full_Script(taskId, Debug_EventScript_HnsWarpOlivinePort);
 }
 
 // Testwerkzeug: schaltet die Arena von Bluetenburg zwischen "geschlossen"

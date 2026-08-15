@@ -4,6 +4,10 @@
 
 @ Wird von beiden Haefen aufgerufen, sobald der Spieler Hoenn waehlt.
 Common_EventScript_SailToHoenn::
+	@ HnS: Die Ueberfahrt haengt am Hoennticket, das Troy in der Silph Co.
+	@ uebergibt - nicht mehr allein am Championtitel.
+	checkitem ITEM_HOENN_TICKET
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_HoennNoTicket
 	closemessage
 	delay 20
 	msgbox Common_Text_HoennSetSail, MSGBOX_DEFAULT
@@ -16,6 +20,27 @@ Common_EventScript_SailToHoenn::
 	waitstate
 	release
 	end
+
+Common_EventScript_HoennNoTicket::
+	closemessage
+	delay 20
+	msgbox Common_Text_HoennNeedTicket, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+Common_Text_HoennNeedTicket:
+#if GERMAN
+	.string "Für die Überfahrt nach Hoenn brauchst\n"
+	.string "du ein Ticket.\p"
+	.string "Ohne das kann ich dich nicht\n"
+	.string "mitnehmen. Tut mir leid!$"
+#else
+	.string "You need a ticket for the crossing\n"
+	.string "to HOENN.\p"
+	.string "Without one I can't take you\n"
+	.string "along. Sorry!$"
+#endif
 
 @ Hoenn wird per Schiff betreten, nicht ueber die Umzugsszene aus Smaragd.
 @ Deren Endzustand wird hier einmalig hergestellt: Kulissenfiguren der
