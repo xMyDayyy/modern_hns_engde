@@ -483,12 +483,10 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 
 Route119_Text_MayIntro:
 #if GERMAN
-	.string "Maike: {PLAYER}{KUN}! Wo warst du?\n"
-	.string "Ich habe dich schon gesucht!\p"
-	.string "Wie stark bist du geworden?\n"
-	.string "Lass mich das für dich herausfinden!\p"
-	.string "Bereit? Du und deine Pokémon?\n"
-	.string "Natürlich seid ihr das! Los!$"
+	.string "Maike: {PLAYER}! Sechs Pokémon.\n"
+	.string "Mein Team ist endlich vollzählig.\p"
+	.string "Darauf habe ich lange hingearbeitet.\p"
+	.string "Sehen wir nach, ob es reicht!$"
 #else
 	.string "MAY: {PLAYER}{KUN}!\n"
 	.string "Where were you? I was looking for you!\p"
@@ -500,9 +498,9 @@ Route119_Text_MayIntro:
 
 Route119_Text_MayDefeat:
 #if GERMAN
-	.string "Achah! {PLAYER}{KUN}, du bist stark!\p"
-	.string "Ich hatte schon befürchtet, du\n"
-	.string "hättest im Training nachgelassen.$"
+	.string "Noch nicht.\p"
+	.string "Aber du hast es gemerkt, oder?\n"
+	.string "Ich bin nicht mehr die von Route 103.$"
 #else
 	.string "Achah!\n"
 	.string "{PLAYER}{KUN}, you're strong!\p"
@@ -512,11 +510,9 @@ Route119_Text_MayDefeat:
 
 Route119_Text_MayPresentForYou:
 #if GERMAN
-	.string "Maike: Aber ich hätte mir absolut keine\n"
-	.string "Sorgen zu machen brauchen! Weiter so!\p"
-	.string "\p"
-	.string "Und hier!\n"
-	.string "Dies ist ein Geschenk für dich!$"
+	.string "Maike: Das hier ist für dich.\p"
+	.string "Du bist der Grund, warum ich so weit\n"
+	.string "gekommen bin.$"
 #else
 	.string "MAY: But I had absolutely nothing to\n"
 	.string "worry about! Keep it up!\p"
@@ -525,19 +521,13 @@ Route119_Text_MayPresentForYou:
 
 Route119_Text_MayExplainFly:
 #if GERMAN
-	.string "Maike: Setze Fliegen ein und deine\n"
-	.string "Pokémon bringen dich an jeden Ort, an\l"
-	.string "dem du schon einmal warst.\p"
-	.string "Aber um Fliegen einsetzen zu können,\n"
-	.string "brauchst du erst den Orden der Arena\l"
-	.string "von Baumhausen City.\l"
-	.string "Vergiss das nicht!\p"
-	.string "Du solltest mal nach Wurzelheim\n"
-	.string "Fliegen.\p"
-	.string "Ich wette, deine Mutter macht sich\n"
-	.string "schon Sorgen um dich, {PLAYER}{KUN}.\p"
-	.string "Nun, wir treffen uns sicher bald\n"
-	.string "wieder!$"
+	.string "Maike: Mit Fliegen bringen dich deine\n"
+	.string "Pokémon an jeden Ort, an dem du\l"
+	.string "schon einmal warst.\p"
+	.string "Einsetzen darfst du es in Hoenn aber\n"
+	.string "erst mit dem Federorden aus\l"
+	.string "Baumhausen City.\p"
+	.string "Wir sehen uns wieder, {PLAYER}.$"
 #else
 	.string "MAY: Use FLY, and your POKéMON will\n"
 	.string "instantly carry you to any town you've\l"

@@ -1368,20 +1368,20 @@ RustboroCity_Text_MayWantToBattle:
 
 RustboroCity_Text_MayImNotGoingToLose:
 #if GERMAN
-	.string "Maike: Diesmal komme ich näher ran.\n"
-	.string "Pass auf!$"
+	.string "Maike: Diesmal habe ich trainiert.\p"
+	.string "Zeig mir, wie weit ich noch weg bin!$"
 #else
-	.string "MAY: This time I will get closer.\n"
-	.string "Watch out!$"
+	.string "MAY: This time I've trained.\p"
+	.string "Show me how far off I still am!$"
 #endif
 
 RustboroCity_Text_MayDefeat:
 #if GERMAN
-	.string "Ach du Schande!\n"
-	.string "Du bist noch besser, als ich dachte.$"
+	.string "Näher dran als beim letzten Mal.\p"
+	.string "Aber eben nur näher.$"
 #else
-	.string "Yikes!\n"
-	.string "You're even better than I thought.$"
+	.string "Closer than last time.\p"
+	.string "But only closer.$"
 #endif
 
 RustboroCity_Text_MayMrBrineyHint:

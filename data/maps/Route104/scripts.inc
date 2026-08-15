@@ -1262,8 +1262,8 @@ Route104_Text_MayIntro:
 
 Route104_Text_MayDefeat:
 #if GERMAN
-	.string "AchDuSchande!\n"
-	.string "Du bist besser als ich gedacht habe.$"
+	.string "Näher dran als beim letzten Mal.\p"
+	.string "Aber eben nur näher.$"
 #else
 	.string "Yikes!\n"
 	.string "You're better than I expected!$"

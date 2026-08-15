@@ -457,19 +457,13 @@ LilycoveCity_EventScript_DontKnowAboutBerryBlender::
 
 LilycoveCity_Text_MayShoppingLetsBattle:
 #if GERMAN
-	.string "Maike: Oh, hey?\n"
-	.string "{PLAYER}{KUN}, bist du auch am\l"
-	.string "Einkaufen? \p"
-	.string "Ich habe eine Menge Puppen und Poster\n"
-	.string "gekauft.\p"
-	.string "Natürlich habe ich auch Pokémon\n"
-	.string "gefangen und die ziehe ich geradezu\l"
-	.string "vorbildlich auf.\p"
-	.string "Ich habe eher Bedenken, dass du dich um\n"
-	.string "deine Pokémon nicht richtig kümmerst.\p"
-	.string "\p"
-	.string "Ich werde gegen dich kämpfen, dann\n"
-	.string "sehe ich, ob du sie gut behandelst.$"
+	.string "Maike: {PLAYER}!\p"
+	.string "Ich habe hier alles zusammen, was mein\n"
+	.string "Team noch gebraucht hat.\p"
+	.string "Sechs Pokémon, jedes einzelne von mir\n"
+	.string "großgezogen.\p"
+	.string "Irgendwann schlage ich einen Champion.\n"
+	.string "Und du bist der, den ich meine.$"
 #else
 	.string "MAY: Oh, hey?\n"
 	.string "{PLAYER}{KUN}, are you shopping, too?\p"
@@ -486,11 +480,9 @@ LilycoveCity_Text_MayShoppingLetsBattle:
 
 LilycoveCity_Text_MayNotRaisingPokemon:
 #if GERMAN
-	.string "Maike: Oh, hui. Hast du dich denn nicht\n"
-	.string "um deine Pokémon gekümmert,\l"
-	.string "{PLAYER}{KUN}?\p"
-	.string "Als Trainer machst du wirklich keinen\n"
-	.string "guten Eindruck!$"
+	.string "Maike: Jetzt nicht?\p"
+	.string "Dann eben später. Ich laufe dir nicht\n"
+	.string "weg, {PLAYER}.$"
 #else
 	.string "MAY: Oh, why? {PLAYER}{KUN}, haven't you\n"
 	.string "been raising your POKéMON?\p"
@@ -500,8 +492,7 @@ LilycoveCity_Text_MayNotRaisingPokemon:
 
 LilycoveCity_Text_MayBattleMe:
 #if GERMAN
-	.string "Maike: Komm, kämpfe mit mir, dann kann\n"
-	.string "ich deine Pokémon beurteilen.$"
+	.string "Maike: Komm schon. Einmal noch.$"
 #else
 	.string "MAY: Come on, battle with me, so I can\n"
 	.string "check out your POKéMON!$"
@@ -509,8 +500,8 @@ LilycoveCity_Text_MayBattleMe:
 
 LilycoveCity_Text_MayWontBeBeaten:
 #if GERMAN
-	.string "Maike: Die Pokémon, die ich aufgezogen\n"
-	.string "habe, sind mit Sicherheit unbesiegbar.$"
+	.string "Maike: Diesmal gebe ich nichts her.\n"
+	.string "Nicht eines.$"
 #else
 	.string "MAY: The POKéMON I raised won't be\n"
 	.string "beaten by your POKéMON, {PLAYER}{KUN}!$"
@@ -519,11 +510,10 @@ LilycoveCity_Text_MayWontBeBeaten:
 LilycoveCity_Text_MayDefeat:
 #if GERMAN
 	.string "… … … … … … … …\p"
-	.string "Ich kann mich noch gut an unseren\n"
-	.string "Kampf auf der Route 103 erinnern,\l"
-	.string "{PLAYER}{KUN}.\p"
-	.string "Dieser Kampf hat dir enorm geholfen,\n"
-	.string "stärker zu werden, oder?$"
+	.string "Auf Route 103 warst du eine Wand.\p"
+	.string "Heute warst du eine Tür, die sich\n"
+	.string "einen Spalt geöffnet hat.\p"
+	.string "Beim nächsten Mal reiße ich sie auf.$"
 #else
 	.string "… … … … … … … …\p"
 	.string "I remember the battle I had with you,\n"
@@ -534,12 +524,10 @@ LilycoveCity_Text_MayDefeat:
 
 LilycoveCity_Text_MayGoingBackToLittleroot:
 #if GERMAN
-	.string "Maike: Ich überlege, ob ich bald nach\n"
-	.string "Wurzelheim zurückgehe.\p"
-	.string "Ich habe eine anständige Gruppe von\n"
-	.string "Pokémon gefangen und mein Pokédex\p"
-	.string "sieht immer besser aus. Ich gehe nach\n"
-	.string "Hause und zeige das meinem Papa.$"
+	.string "Maike: Ich fahre kurz nach Wurzelheim\n"
+	.string "und zeige meinem Vater den Pokédex.\p"
+	.string "Danach trainiere ich weiter.\p"
+	.string "Ich habe schließlich noch etwas vor.$"
 #else
 	.string "MAY: I'm thinking of going back to\n"
 	.string "LITTLEROOT soon.\p"

@@ -784,53 +784,47 @@ Route110_Text_AquaActionsBringSmiles:
 
 Route110_Text_MayLetsBattle:
 #if GERMAN
-	.string "Maike: Hi, {PLAYER}{KUN}, wir haben\n"
-	.string "uns ja lange nicht gesehen!\p"
-	.string "Während ich auf der Suche nach\n"
-	.string "weiteren Pokémon war, sind meine\l"
-	.string "Pokémon stärker geworden.\p"
-	.string "Daher…\n"
-	.string "Wie wäre es mit einem kleinen Kampf?$"
+	.string "Maike: {PLAYER}! Seit Metarost habe\n"
+	.string "ich keinen Tag ausgelassen.\p"
+	.string "Mein Team ist gewachsen - und ich\n"
+	.string "bin es auch.\p"
+	.string "Noch einmal. Bitte!$"
 #else
-	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
-	.string "While I was searching for other\n"
-	.string "POKéMON, my POKéMON grew stronger.\p"
-	.string "So…\n"
-	.string "How about a little battle?$"
+	.string "MAY: {PLAYER}! I haven't skipped a\n"
+	.string "single day since RUSTBORO.\p"
+	.string "My team has grown - and so have I.\p"
+	.string "One more time. Please!$"
 #endif
 
 Route110_Text_MayDefeated:
 #if GERMAN
-	.string "AchDuSchande!\n"
-	.string "Du bist besser, als ich gedacht habe.$"
+	.string "Wieder nicht.\p"
+	.string "Aber diesmal hast du länger gebraucht.\n"
+	.string "Das zählt für mich.$"
 #else
-	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "Not this time either.\p"
+	.string "But you needed longer today.\n"
+	.string "That counts for me.$"
 #endif
 
 Route110_Text_MayTakeThis:
 #if GERMAN
-	.string "Maike: {PLAYER}{KUN}, du hast auch\n"
-	.string "fleißig trainiert, nicht wahr?\p"
-	.string "Ich denke, du verdienst eine Belohnung!\n"
-	.string "Hier, dies ist von mir für dich!$"
+	.string "Maike: Das hier hilft dir beim Suchen.\p"
+	.string "Ich will dich in Bestform, wenn ich\n"
+	.string "dich endlich schlage.$"
 #else
-	.string "MAY: {PLAYER}{KUN}, you've been busy\n"
-	.string "training, too, haven't you?\p"
-	.string "I think you deserve a reward!\n"
-	.string "This is from me!$"
+	.string "MAY: This will help you search.\p"
+	.string "I want you at your best when I\n"
+	.string "finally beat you.$"
 #endif
 
 Route110_Text_MayExplainItemfinder:
 #if GERMAN
-	.string "Maike: Das ist ein Detektor.\p"
-	.string "Probier ihn mal aus. Wenn irgendwo ein\n"
-	.string "Item versteckt ist, gibt er ein\l"
-	.string "Geräusch von sich.\p"
-	.string "Bis zum nächsten Mal, {PLAYER}{KUN}.\p"
-	.string "Es hört sich aus meinem Munde zwar blöd\n"
-	.string "an, aber bis dahin solltest du viel\p"
-	.string "mehr trainiert haben.$"
+	.string "Maike: Das ist ein Itemradar.\p"
+	.string "Wenn irgendwo etwas versteckt liegt,\n"
+	.string "gibt er ein Geräusch von sich.\p"
+	.string "Bis zum nächsten Mal, {PLAYER}.\p"
+	.string "Beim nächsten Mal wird es knapp.$"
 #else
 	.string "MAY: That's an ITEMFINDER.\p"
 	.string "Try it out. If there is an item that's\n"
