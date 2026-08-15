@@ -127,7 +127,13 @@ static const struct MenuAction MultichoiceList_Mechadoll1_Q3[] =
 static const struct MenuAction MultichoiceList_Mechadoll2_Q1[] =
 {
     {COMPOUND_STRING("Trasla")},
+#if IS_HNS
+    // HnS: Der Fangkurs steht spaet im Spiel, Heiko tritt deshalb mit der
+    // Entwicklungsstufe an (LoadWallyZigzagoon in src/field_specials.c).
+    {COMPOUND_STRING("Geradaks")},
+#else
     {COMPOUND_STRING("Zigzachs")},
+#endif
     {COMPOUND_STRING("Bummelz")},
 };
 
