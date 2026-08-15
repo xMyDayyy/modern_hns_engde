@@ -3,6 +3,7 @@
 #include "text.h"
 #include "strings.h"
 #include "union_room_chat.h"
+#include "hoenn_level_scaling.h"
 #include "event_data.h"
 
 EWRAM_DATA u8 gStringVar1[0x100] = {0};
@@ -483,15 +484,20 @@ static const u8 *ExpandPlaceholder_RivalName(void)
 #if IS_FRLG
     if (gSaveBlock1Ptr->rivalName[0] != EOS)
         return gSaveBlock1Ptr->rivalName;
-#elif IS_HNS
-    if (gSaveBlock2Ptr->rivalName[0] != EOS)
-        return gSaveBlock2Ptr->rivalName;
 #endif
 
 #if IS_HNS
-    // HnS-Kanon: Die Hoenn-Rivalin ist immer Maike (Birks Tochter) -
-    // unabhaengig vom Geschlecht der Spielfigur. Brix bleibt als
-    // eigenstaendige Figur fuer spaetere Verwendung frei.
+    // HnS-Kanon: In Hoenn ist die Rivalin immer Maike (Birks Tochter) -
+    // unabhaengig vom Geschlecht der Spielfigur. In Johto und Kanto meint
+    // derselbe Platzhalter dagegen den dort benannten Rivalen (Silber),
+    // der beim Spielstart im Speicher landet. Ohne diese Weiche gaebe
+    // {RIVAL} auch in Prof. Birks Labor "Silber" aus.
+    if (IsHoennMapsec(gMapHeader.regionMapSectionId))
+        return gText_ExpandedPlaceholder_May;
+
+    if (gSaveBlock2Ptr->rivalName[0] != EOS)
+        return gSaveBlock2Ptr->rivalName;
+
     return gText_ExpandedPlaceholder_May;
 #else
     if (gSaveBlock2Ptr->playerGender == MALE)

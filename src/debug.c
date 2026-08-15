@@ -1863,6 +1863,14 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
     // die Laufschuhe erspart das Schleichen.
     FlagSet(FLAG_SYS_POKEMON_GET);
     FlagSet(FLAG_SYS_POKENAV_GET);
+    // PokeCom-Menue vollstaendig: ohne diese vier Flags fehlen im Geraet der
+    // Trainerruf (beide noetig), das Radio und der Zustands-Eintrag.
+    // Regulaer setzt sie das Spielerhaus in Neuborkia, der Funkturm Dukatia
+    // und Prof. Linds Labor - alles Stationen, die der Testsprung ueberspringt.
+    FlagSet(FLAG_HAS_MATCH_CALL);
+    FlagSet(FLAG_ADDED_MATCH_CALL_TO_POKENAV);
+    FlagSet(FLAG_ENABLE_RADIO);
+    FlagSet(FLAG_ENABLE_CONDITION);
     FlagSet(FLAG_ADVENTURE_STARTED);
     FlagSet(FLAG_RECEIVED_RUNNING_SHOES);
     FlagSet(FLAG_SYS_B_DASH);
