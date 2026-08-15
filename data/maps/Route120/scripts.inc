@@ -361,7 +361,8 @@ Route120_EventScript_Callie::
 
 Route120_Text_StevenGreeting:
 #if GERMAN
-	.string "Troy: {PLAYER}. Pünktlich wie immer.\p"
+	.string "Troy: Hm? {PLAYER}{KUN}, hi.\n"
+	.string "Es ist lange her…\p"
 	.string "Hier ist etwas, das du nicht sehen\n"
 	.string "kannst, richtig?\p"
 	.string "Also, wenn ich dieses Gerät bei einem\n"
@@ -428,16 +429,19 @@ Route120_Text_StevenUsedDevonScope:
 
 Route120_Text_StevenGiveDevonScope:
 #if GERMAN
-	.string "Troy: Bemerkenswert.\p"
-	.string "Ich hatte recht damit, dich zu holen.\p"
-	.string "Nimm das Devon-Scope.\p"
-	.string "Es gibt in Hoenn mehr Verborgenes,\n"
-	.string "als dir lieb sein wird.$"
+	.string "Troy: Bemerkenswert… Dein\n"
+	.string "Kampfstil ist wirklich bemerkenswert.\p"
+	.string "Du bist noch einmal stärker geworden,\n"
+	.string "seit du der Champ bist.\p"
+	.string "Ich möchte dir dieses Devon-Scope\n"
+	.string "geben.\p"
+	.string "Wer weiß, es gibt bestimmt noch andere\n"
+	.string "verborgene Pokémon.$"
 #else
 	.string "STEVEN: I see…\n"
 	.string "Your battle style is intriguing.\p"
-	.string "Your POKéMON have obviously grown\n"
-	.string "since I first met you in DEWFORD.\p"
+	.string "You've grown stronger still since\n"
+	.string "you became CHAMPION.\p"
 	.string "I'd like you to have this\n"
 	.string "DEVON SCOPE.\p"
 	.string "Who knows, there may be other\n"
@@ -446,11 +450,11 @@ Route120_Text_StevenGiveDevonScope:
 
 Route120_Text_StevenGoodbye:
 #if GERMAN
-	.string "Troy: {PLAYER}.\p"
-	.string "Trainer und Pokémon, die fest\n"
-	.string "zusammenhalten - das sehe ich gern.\p"
-	.string "Ich habe noch etwas zu erledigen.\p"
-	.string "Wir sehen uns. Früher, als du denkst.$"
+	.string "Troy: {PLAYER}{KUN}.\p"
+	.string "Ich liebe es, Trainer und Pokémon zu\n"
+	.string "sehen, die fest zusammenhalten.\p"
+	.string "Ich finde, du machst das großartig.\p"
+	.string "Nun, mach’s gut. Wir sehen uns!$"
 #else
 	.string "STEVEN: {PLAYER}{KUN}.\p"
 	.string "I enjoy seeing POKéMON and TRAINERS\n"
