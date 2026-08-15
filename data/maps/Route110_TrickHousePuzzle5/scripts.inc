@@ -1008,11 +1008,11 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
 #if GERMAN
 	.string "Robopuppe 2 Quiz.\p"
 	.string "Welches Pokémon leiht Heiko sich von\n"
-	.string "deinem Vater aus?$"
+	.string "Norman aus?$"
 #else
 	.string "MECHADOLL 2 QUIZ.\p"
 	.string "Which of these POKéMON did WALLY\n"
-	.string "borrow from your father?$"
+	.string "borrow from NORMAN?$"
 #endif
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:

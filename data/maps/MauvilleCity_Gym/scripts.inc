@@ -361,13 +361,13 @@ MauvilleCity_Gym_Text_ShawnPostBattle:
 #if GERMAN
 	.string "Walter, unser Arenaleiter, ist schon\n"
 	.string "sehr, sehr lange hier ansässig.\p"
-	.string "Er kämpfte schon, da war dein Vater\n"
+	.string "Er kämpfte schon, da waren wir alle\n"
 	.string "noch nicht geboren.$"
 #else
 	.string "WATTSON, our GYM LEADER, has been\n"
 	.string "around for a long, long time.\p"
-	.string "He was battling even before your\n"
-	.string "daddy was born, that tough coot.$"
+	.string "He was battling before any of us\n"
+	.string "were born, that tough coot.$"
 #endif
 
 MauvilleCity_Gym_Text_BenIntro:

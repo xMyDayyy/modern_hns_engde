@@ -313,7 +313,7 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "du nicht gegen mich verlieren willst!\p"
 	.string "\p"
 	.string "{PLAYER}{KUN}, ich glaube, ich\n"
-	.string "sollte deinen Vater in der Arena von\l"
+	.string "sollte Norman in der Arena von\l"
 	.string "Blütenburg City herausfordern.\p"
 	.string "{PLAYER}{KUN}, man sieht sich!$"
 #else
@@ -325,7 +325,7 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "You're trying hard because you don't\n"
 	.string "want to lose to me, I bet!\p"
 	.string "{PLAYER}{KUN}, I think I should challenge\n"
-	.string "your dad in PETALBURG GYM.\p"
+	.string "NORMAN in PETALBURG GYM.\p"
 	.string "See you again!$"
 #endif
 

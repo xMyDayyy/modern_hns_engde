@@ -730,13 +730,13 @@ LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly:
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:
 #if GERMAN
-	.string "Du hast deinen Vater in jeder Hinsicht\n"
+	.string "Du hast Norman in jeder Hinsicht\n"
 	.string "übertroffen!\p"
 	.string "Das sag ich dir. Und da gibt es\n"
 	.string "überhaupt keinen Zweifel dran!$"
 #else
-	.string "You've surpassed your own father in\n"
-	.string "every regard!\p"
+	.string "You've surpassed NORMAN in every\n"
+	.string "regard!\p"
 	.string "I'm telling you, so there's no question\n"
 	.string "about it at all!$"
 #endif
@@ -744,14 +744,14 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:
 LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling:
 #if GERMAN
 	.string "Selbst in scheinbar aussichtslosen\n"
-	.string "Situationen gibt dein Vater nicht auf.\l"
+	.string "Situationen gibt Norman nicht auf.\l"
 	.string "\p"
 	.string "Ich weiß, dass das stimmt!\p"
 	.string "Und du verhältst dich genauso.\n"
 	.string "Also, kämpfe fleißig weiter.$"
 #else
 	.string "Even when things turned bleak,\n"
-	.string "your father never gave up.\p"
+	.string "NORMAN never gave up.\p"
 	.string "This I know to be true.\p"
 	.string "You never give up even if you lose!\n"
 	.string "So keep on battling!$"
@@ -765,14 +765,14 @@ LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
 	.string "Auch wenn die Leute sagen, dass du\n"
 	.string "stark bist…\p"
 	.string "Du hast noch einen weiten Weg vor dir,\n"
-	.string "wenn du so werden willst wie dein Vater.$"
+	.string "wenn du so werden willst wie er.$"
 #else
 	.string "NORMAN battled with more power,\n"
 	.string "charisma, and showmanship than you.\p"
 	.string "Even though people may say that\n"
 	.string "you're strong…\p"
 	.string "You've still got a long way to go\n"
-	.string "compared to your father.$"
+	.string "compared to him.$"
 #endif
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent:
