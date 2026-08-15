@@ -37,9 +37,11 @@ MossdeepCity_StevensHouse_EventScript_StevenGivesDive::
 	applymovement LOCALID_STEVENS_HOUSE_STEVEN, MossdeepCity_StevensHouse_Movement_StevenApproachPlayer
 	waitmovement 0
 #if IS_HNS
-	@ HnS: Die Erlaubnis fuer Taucher erteilen allein Ben und Svenja mit dem
-	@ Mentalorden (siehe MossdeepCity_Gym). Troy uebergibt nichts mehr.
-	msgbox Text_HnsStevenNoDiveHandover, MSGBOX_DEFAULT
+	@ HnS: Taucher gibt es in Johto/Kanto nicht - die VM kommt also von Troy.
+	@ Die Erlaubnis, sie ausserhalb des Kampfes einzusetzen, erteilen dagegen
+	@ Ben und Svenja mit dem Mentalorden (siehe MossdeepCity_Gym).
+	msgbox Text_HnsStevenGiveDive, MSGBOX_DEFAULT
+	giveitem ITEM_HM_DIVE
 #else
 	msgbox MossdeepCity_StevensHouse_Text_YouveEarnedHMDive, MSGBOX_DEFAULT
 	giveitem ITEM_HM_DIVE
@@ -307,22 +309,24 @@ Text_HnsDiveLicense:
 	.string "DIVE!$"
 #endif
 
-Text_HnsStevenNoDiveHandover:
+Text_HnsStevenGiveDive:
 #if GERMAN
-	.string "Troy: {PLAYER}{KUN}?\p"
+	.string "Troy: {PLAYER}?\p"
 	.string "Ja, das ist mein Zuhause. Peinlich,\n"
 	.string "wie kahl die Räume hier sind.\p"
-	.string "Taucher beherrschst du längst.\n"
-	.string "Einsetzen darfst du es in Hoenn aber\l"
+	.string "Hier, nimm diese VM. Auf dem Festland\n"
+	.string "wirst du sie nie gebraucht haben.\p"
+	.string "Einsetzen darfst du sie in Hoenn aber\n"
 	.string "erst mit dem Mentalorden.\p"
 	.string "Die Arena hier in Moosbach wartet\n"
 	.string "schon auf dich.$"
 #else
-	.string "STEVEN: {PLAYER}{KUN}…\p"
+	.string "TROY: {PLAYER}?\p"
 	.string "As you can see, there's not much here,\n"
 	.string "but this is my home.\p"
-	.string "You've long known how to use DIVE.\n"
-	.string "In HOENN, though, you may only use it\l"
+	.string "Here, take this HM. You'll never have\n"
+	.string "needed it on the mainland.\p"
+	.string "In HOENN, though, you may only use it\n"
 	.string "once you hold the MIND BADGE.\p"
 	.string "The GYM here in MOSSDEEP is already\n"
 	.string "waiting for you.$"

@@ -11,13 +11,13 @@ GraniteCave_StevensRoom_EventScript_Steven::
 	msgbox GraniteCave_StevensRoom_Text_ThankYouTakeThis, MSGBOX_DEFAULT
 	giveitem_unless_owned ITEM_TM_STEEL_WING
 	call_if_eq VAR_RESULT, FALSE, GraniteCave_StevensRoom_EventScript_BagFull
-	msgbox GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister, MSGBOX_DEFAULT
 #if IS_HNS
-	@ HnS: Troy steht schon seit der Ankunft in der Kontaktliste
-	@ (data/scripts/hoenn_arrival.inc setzt FLAG_REGISTERED_STEVEN_POKENAV).
-	@ Ein zweiter Eintrag hier waere doppelt.
+	@ HnS: Beide Texte entfallen. Troy steht schon seit der Ankunft in der
+	@ Kontaktliste (hoenn_arrival.inc setzt FLAG_REGISTERED_STEVEN_POKENAV),
+	@ und ueber den Championtitel muss er dem Spieler nichts erzaehlen.
 	closemessage
 #else
+	msgbox GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister, MSGBOX_DEFAULT
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
@@ -90,18 +90,15 @@ GraniteCave_StevensRoom_Text_GoodToSeeYouLetterForMe:
 #if GERMAN
 	.string "Troy: Hi, {PLAYER}!\n"
 	.string "Schön, dich wiederzusehen.\p"
-	.string "Was ich hier so tief unten in der\n"
-	.string "Grotte mache?\p"
-	.string "Ich sammle seltene Steine. Deswegen\n"
-	.string "bin ich auch viel auf Reisen.\p"
+	.string "Was ich hier in der Grotte mache?\p"
+	.string "Ich bin auf der Suche nach seltenen\n"
+	.string "Steinen.\p"
 	.string "Oh? Ein Brief? Für mich?$"
 #else
 	.string "TROY: Hi, {PLAYER}!\n"
 	.string "Good to see you again.\p"
-	.string "What am I doing this deep inside\n"
-	.string "the cave?\p"
-	.string "I collect rare stones. That's why\n"
-	.string "I travel here and there.\p"
+	.string "What am I doing here in the cave?\p"
+	.string "I'm looking for rare stones.\p"
 	.string "Oh?\n"
 	.string "A LETTER for me?$"
 #endif
