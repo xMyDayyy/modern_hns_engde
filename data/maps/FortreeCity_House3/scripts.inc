@@ -16,6 +16,8 @@ FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
 	.string "Ich habe diesen Trainer, Troy,\n"
 	.string "getroffen, als ich seltene Steine\l"
 	.string "suchte.\p"
+	.string "Niemand hier weiß so recht, was der\n"
+	.string "Mann eigentlich treibt.\p"
 	.string "Oh Junge, der hatte vielleicht\n"
 	.string "interessante Pokémon bei sich!\p"
 	.string "Die waren nicht nur selten, sondern\n"

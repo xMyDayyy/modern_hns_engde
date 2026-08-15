@@ -81,14 +81,15 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
 #if GERMAN
-	.string "Mein Name ist Troy.\p"
-	.string "Ich sammle seltene Steine, daher gehe\n"
-	.string "ich immer mal wieder auf Reisen.\p"
+	.string "Troy: Du hier unten?\p"
+	.string "Ich habe dich nach Hoenn geholt, aber\n"
+	.string "so schnell hätte ich nicht mit dir\l"
+	.string "gerechnet.\p"
 	.string "Oh? Ein Brief? Für mich?$"
 #else
-	.string "My name is STEVEN.\p"
-	.string "I'm interested in rare stones,\n"
-	.string "so I travel here and there.\p"
+	.string "TROY: You, down here?\p"
+	.string "I'm the one who brought you to HOENN,\n"
+	.string "but I didn't expect you this soon.\p"
 	.string "Oh?\n"
 	.string "A LETTER for me?$"
 #endif
@@ -115,25 +116,23 @@ GraniteCave_StevensRoom_Text_ThankYouTakeThis:
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
 #if GERMAN
-	.string "Troy: Deine Pokémon sehen recht\n"
-	.string "talentiert aus.\p"
-	.string "Wenn du fleißig trainierst, wirst du\n"
-	.string "vielleicht eines Tages der Champ der\l"
-	.string "Pokémon Liga. Das ist meine Meinung.\p"
-	.string "Und da wir uns jetzt so gut kennen\n"
-	.string "gelernt haben, sollten wir uns in\l"
-	.string "unseren PokéComs eintragen.\p"
+	.string "Troy: Deine Pokémon sehen gut aus.\p"
+	.string "Genau deshalb habe ich dich gefragt,\n"
+	.string "ob du herkommen willst.\p"
+	.string "Warum ich hier unten stehe, erkläre\n"
+	.string "ich dir ein andermal.\p"
+	.string "Trag mich in deinen PokéCom ein.\n"
+	.string "Dann erreichst du mich.\p"
 	.string "… … … … …\n"
 	.string "…$"
 #else
-	.string "STEVEN: Your POKéMON appear quite\n"
-	.string "capable.\p"
-	.string "If you keep training, you could even\n"
-	.string "become the CHAMPION of the POKéMON\l"
-	.string "LEAGUE one day. That's what I think.\p"
-	.string "I know, since we've gotten to know each\n"
-	.string "other, let's register one another in\l"
-	.string "our POKéGEARS.\p"
+	.string "TROY: Your POKéMON look good.\p"
+	.string "That's exactly why I asked whether\n"
+	.string "you'd come over here.\p"
+	.string "Why I'm standing down here, I'll\n"
+	.string "explain another time.\p"
+	.string "Register me in your POKéCOM.\n"
+	.string "Then you can reach me.\p"
 	.string "… … … … … …$"
 #endif
 

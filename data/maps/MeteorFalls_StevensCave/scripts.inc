@@ -28,20 +28,15 @@ MeteorFalls_StevensCave_EventScript_Defeated::
 
 MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 #if GERMAN
-	.string "Troy: Oh, wow, {PLAYER}{KUN}!\n"
-	.string "Ich bin erstaunt, dass du mich gefunden\l"
-	.string "hast!\p"
-	.string "Du, äh… denkst bestimmt, ich bin nur\n"
-	.string "verrückt nach Steinen, nicht wahr?\p"
-	.string "Nein, das tust du bestimmt nicht.\p"
-	.string "Wir haben ja schon als Team im Moosbach\n"
-	.string "City Raumfahrtzentrum gekämpft.\p"
-	.string "Da hast du bestimmt einen Eindruck\n"
-	.string "davon gewonnen, wie gut ich bin.\p"
-	.string "Okay, {PLAYER}{KUN}, wenn du dich\n"
-	.string "auf eine ernsthafte Herausforderung\l"
-	.string "einlässt, sei auf das Schlimmste\l"
-	.string "gefasst!$"
+	.string "Troy: Du hast mich gefunden.\p"
+	.string "Damit hätte ich rechnen müssen.\p"
+	.string "Du fragst dich seit Faustauhaven,\n"
+	.string "was ich hier eigentlich tue.\p"
+	.string "Die Antwort bekommst du nicht von mir.\n"
+	.string "Du holst sie dir.\p"
+	.string "Im Raumfahrtzentrum hast du an meiner\n"
+	.string "Seite gekämpft. Jetzt gegen mich.\p"
+	.string "Und diesmal halte ich nichts zurück!$"
 #else
 	.string "STEVEN: Oh, wow, {PLAYER}{KUN}.\n"
 	.string "I'm amazed you knew where to find me.\p"
@@ -58,9 +53,9 @@ MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 
 MeteorFalls_StevensCave_Text_StevenDefeat:
 #if GERMAN
-	.string "Du…\n"
-	.string "Ich hätte nie gedacht, dass du so stark\l"
-	.string "werden würdest…$"
+	.string "Du…\p"
+	.string "Ich wusste, dass du stark bist.\n"
+	.string "So stark wusste ich nicht.$"
 #else
 	.string "You…\n"
 	.string "I had no idea you'd become so strong…$"
@@ -68,13 +63,12 @@ MeteorFalls_StevensCave_Text_StevenDefeat:
 
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 #if GERMAN
-	.string "Troy: Aber, wenn ich es recht bedenke…\n"
-	.string "Damals, als wir uns zum ersten Mal in der\p"
-	.string "Granithöhle von Faustauhaven\n"
-	.string "begegneten, hatte ich schon dieses\l"
-	.string "Gefühl.\p"
-	.string "Ich wusste, du würdest irgendwann der\n"
-	.string "Champ werden.\p"
+	.string "Troy: Ich habe dich nicht zufällig\n"
+	.string "nach Hoenn geholt.\p"
+	.string "Was ich hier suche, findet man nicht\n"
+	.string "allein.\p"
+	.string "Irgendwann erzähle ich dir davon.\n"
+	.string "Heute noch nicht.\p"
 	.string "Und mein Gefühl trügt mich nie!\p"
 	.string "Wohin wird dein Weg dich jetzt führen?\n"
 	.string "\p"

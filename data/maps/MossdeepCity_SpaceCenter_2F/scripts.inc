@@ -664,8 +664,8 @@ MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
 	.string "Dankeschön für deine Hilfe geben\l"
 	.string "möchte.\p"
 	.string "Komm mich bitte besuchen.\p"
-	.string "Ach so: Ich lebe nicht in Metarost\n"
-	.string "City. Ich lebe hier auf dieser Insel.$"
+	.string "Mein Haus steht hier auf der Insel.\n"
+	.string "Frag nicht, warum ausgerechnet hier.$"
 #else
 	.string "STEVEN: Whew, that was too tense.\n"
 	.string "{PLAYER}{KUN}, thank you.\p"

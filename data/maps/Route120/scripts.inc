@@ -361,8 +361,7 @@ Route120_EventScript_Callie::
 
 Route120_Text_StevenGreeting:
 #if GERMAN
-	.string "Troy: Hm? {PLAYER}{KUN}, hi.\n"
-	.string "Es ist lange her…\p"
+	.string "Troy: {PLAYER}. Pünktlich wie immer.\p"
 	.string "Hier ist etwas, das du nicht sehen\n"
 	.string "kannst, richtig?\p"
 	.string "Also, wenn ich dieses Gerät bei einem\n"
@@ -429,16 +428,11 @@ Route120_Text_StevenUsedDevonScope:
 
 Route120_Text_StevenGiveDevonScope:
 #if GERMAN
-	.string "Troy: Bemerkenswert… Dein\n"
-	.string "Kampfstil ist wirklich bemerkenswert.\l"
-	.string "\p"
-	.string "Deine Pokémon sind offensichtlich sehr\n"
-	.string "gewachsen, seit wir uns das erste Mal in\l"
-	.string "Faustauhaven getroffen haben.\p"
-	.string "Ich möchte dir dieses Devon-Scope\n"
-	.string "geben.\p"
-	.string "Wer weiß, es gibt bestimmt noch andere\n"
-	.string "verborgene Pokémon.$"
+	.string "Troy: Bemerkenswert.\p"
+	.string "Ich hatte recht damit, dich zu holen.\p"
+	.string "Nimm das Devon-Scope.\p"
+	.string "Es gibt in Hoenn mehr Verborgenes,\n"
+	.string "als dir lieb sein wird.$"
 #else
 	.string "STEVEN: I see…\n"
 	.string "Your battle style is intriguing.\p"
@@ -452,11 +446,11 @@ Route120_Text_StevenGiveDevonScope:
 
 Route120_Text_StevenGoodbye:
 #if GERMAN
-	.string "Troy: {PLAYER}{KUN}.\p"
-	.string "Ich liebe es, Trainer und Pokémon zu\n"
-	.string "sehen, die fest zusammenhalten.\p"
-	.string "Ich finde, du machst das großartig.\p"
-	.string "Nun, mach’s gut. Wir sehen uns!$"
+	.string "Troy: {PLAYER}.\p"
+	.string "Trainer und Pokémon, die fest\n"
+	.string "zusammenhalten - das sehe ich gern.\p"
+	.string "Ich habe noch etwas zu erledigen.\p"
+	.string "Wir sehen uns. Früher, als du denkst.$"
 #else
 	.string "STEVEN: {PLAYER}{KUN}.\p"
 	.string "I enjoy seeing POKéMON and TRAINERS\n"
