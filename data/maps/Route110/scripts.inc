@@ -399,10 +399,16 @@ Route110_EventScript_PlayBrendanMusic::
 
 Route110_EventScript_MayBattle::
 	msgbox Route110_Text_MayLetsBattle, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: VAR_STARTER_MON traegt hier den Johto-Starter. Maikes Starterlinie
+	@ steht seit Route 103 fest (Flemmli), deshalb immer das Treecko-Set.
+	goto Route110_EventScript_MayBattleTreecko
+#else
 	switch VAR_STARTER_MON
 	case 0, Route110_EventScript_MayBattleTreecko
 	case 1, Route110_EventScript_MayBattleTorchic
 	case 2, Route110_EventScript_MayBattleMudkip
+#endif
 	end
 
 Route110_EventScript_MayBattleTreecko::

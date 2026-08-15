@@ -256,10 +256,16 @@ LilycoveCity_EventScript_May::
 	call_if_unset FLAG_DECLINED_RIVAL_BATTLE_LILYCOVE, LilycoveCity_EventScript_MayAskToBattle
 	goto_if_eq VAR_RESULT, NO, LilycoveCity_EventScript_DeclineMayBattle
 	msgbox LilycoveCity_Text_MayWontBeBeaten, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: VAR_STARTER_MON traegt hier den Johto-Starter. Maikes Starterlinie
+	@ steht seit Route 103 fest (Flemmli), deshalb immer das Treecko-Set.
+	goto LilycoveCity_EventScript_BattleMayTreecko
+#else
 	switch VAR_STARTER_MON
 	case 0, LilycoveCity_EventScript_BattleMayTreecko
 	case 1, LilycoveCity_EventScript_BattleMayTorchic
 	case 2, LilycoveCity_EventScript_BattleMayMudkip
+#endif
 	end
 
 LilycoveCity_EventScript_MayAskToBattleAgain::

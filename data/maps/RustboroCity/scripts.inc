@@ -890,10 +890,16 @@ RustboroCity_EventScript_MayAskToBattle::
 
 RustboroCity_EventScript_BattleMay::
 	msgbox RustboroCity_Text_MayImNotGoingToLose, MSGBOX_DEFAULT
+#if IS_HNS
+	@ HnS: VAR_STARTER_MON traegt hier den Johto-Starter. Maikes Starterlinie
+	@ steht seit Route 103 fest (Flemmli), deshalb immer das Treecko-Set.
+	goto RustboroCity_EventScript_BattleMayTreecko
+#else
 	switch VAR_STARTER_MON
 	case 0, RustboroCity_EventScript_BattleMayTreecko
 	case 1, RustboroCity_EventScript_BattleMayTorchic
 	case 2, RustboroCity_EventScript_BattleMayMudkip
+#endif
 	end
 
 RustboroCity_EventScript_MayBrineyHint::
