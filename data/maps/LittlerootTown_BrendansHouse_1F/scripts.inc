@@ -652,7 +652,16 @@ BrendansHouse_1F_Text_ChampionVisit:
 @ Familie (siehe Normans Dialog in der Bluetenburg-Arena). Das
 @ Nachbarhaus (MaysHouse) bleibt die Familie von Prof. Birk.
 LittlerootTown_BrendansHouse_1F_EventScript_NormansFrau::
+	@ HnS: Sie kennt den Spieler nicht und meldet sich nie von sich aus.
+	@ Ihr Text wechselt genau einmal - wenn der Umbau der Arena fertig ist
+	@ (VAR_PETALBURG_GYM_STATE erreicht 6). Danach bleibt er, egal ob Norman
+	@ besiegt wurde oder nicht. Diese Familie hat mit dem Spieler nichts zu tun.
+	goto_if_ge VAR_PETALBURG_GYM_STATE, 6, LittlerootTown_BrendansHouse_1F_EventScript_NormansFrauGymOpen
 	msgbox LittlerootTown_BrendansHouse_1F_Text_NormansFrau, MSGBOX_NPC
+	end
+
+LittlerootTown_BrendansHouse_1F_EventScript_NormansFrauGymOpen::
+	msgbox LittlerootTown_BrendansHouse_1F_Text_NormansFrauGymOpen, MSGBOX_NPC
 	end
 
 LittlerootTown_BrendansHouse_1F_EventScript_NormansKind::
@@ -663,20 +672,35 @@ LittlerootTown_BrendansHouse_1F_Text_NormansFrau:
 #if GERMAN
 	.string "Ah, ein Besucher! Mein Mann Norman\n"
 	.string "leitet die Arena in Blütenburg City.\p"
-	.string "Unser Sohn Brix will in seine Fußstapfen\n"
-	.string "treten - er ist schon jetzt ein sehr\l"
-	.string "guter Trainer.\p"
-	.string "Wenn du Norman triffst: Sag ihm, er\n"
-	.string "soll sich nicht überarbeiten!$"
+	.string "Zurzeit ist sie geschlossen. Er baut\n"
+	.string "um und kommt kaum zur Ruhe.\p"
+	.string "Unser Sohn Brix ist auch mit seinen\n"
+	.string "Pokémon unterwegs.$"
 #else
 	.string "Ah, a visitor! My husband NORMAN\n"
 	.string "runs the GYM in PETALBURG CITY.\p"
-	.string "It's closed at the moment, but he\n"
-	.string "still hardly gets any rest.\p"
+	.string "It's closed at the moment. He's\n"
+	.string "rebuilding it and hardly rests.\p"
 	.string "Our son BRENDAN is traveling\n"
-	.string "with his POKéMON, too.\p"
-	.string "If you meet NORMAN, tell him not\n"
-	.string "to overwork himself!$"
+	.string "with his POKéMON, too.$"
+#endif
+
+@ HnS: Zweiter und letzter Zustand - ab der Wiedereroeffnung der Arena.
+LittlerootTown_BrendansHouse_1F_Text_NormansFrauGymOpen:
+#if GERMAN
+	.string "Ah, ein Besucher! Mein Mann Norman\n"
+	.string "leitet die Arena in Blütenburg City.\p"
+	.string "Der Umbau ist endlich fertig. Seitdem\n"
+	.string "ist er gar nicht mehr zu bremsen.\p"
+	.string "Wenn du ihn triffst: Sag ihm, er soll\n"
+	.string "sich nicht überarbeiten!$"
+#else
+	.string "Ah, a visitor! My husband NORMAN\n"
+	.string "runs the GYM in PETALBURG CITY.\p"
+	.string "The rebuilding is finally done. There's\n"
+	.string "been no stopping him since.\p"
+	.string "If you meet him, tell him not to\n"
+	.string "overwork himself!$"
 #endif
 
 LittlerootTown_BrendansHouse_1F_Text_NormansKind:
