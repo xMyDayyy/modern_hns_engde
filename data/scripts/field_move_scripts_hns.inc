@@ -29,22 +29,21 @@ EventScript_CutTree::
 	setvar VAR_0x8004, LIC_CUT
 	special CheckHoennLicense
 	goto_if_eq VAR_RESULT, FALSE, EventScript_NeedHoennLicense
-	goto_if_unset FLAG_RECEIVED_HM_CUT, EventScript_CheckTreeCantCut
-	goto_if_unset FLAG_BADGE02_GET, EventScript_CheckTreeCantCut
-	checkpartymove MOVE_CUT
+	@ HnS: die VM im Beutel genuegt, das Pokemon muss Zerschneider nicht koennen.
+	checkfieldmove FIELD_MOVE_CUT, TRUE
 	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CheckTreeCantCut
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
 	setfieldeffectargument 0, VAR_RESULT
 	buffermovename STR_VAR_2, MOVE_CUT
-	@msgbox Text_WantToCut, MSGBOX_YESNO
-	@goto_if_eq VAR_RESULT, NO, EventScript_CancelCut
+	msgbox Text_WantToCut, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_CancelCut
 	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
 	closemessage
 EventScript_CutTreeCommon:
 	isfollowerfieldmoveuser VAR_0x8004
-	@setfieldeffectargument 3, VAR_0x8004 @ skip pose if so
-	@dofieldeffect FLDEFF_USE_CUT_ON_TREE
-	@waitstate
+	setfieldeffectargument 3, VAR_0x8004 @ skip pose if so
+	dofieldeffect FLDEFF_USE_CUT_ON_TREE
+	waitstate
 EventScript_CutTreeDown:: @ fallthrough
 	setflag FLAG_SAFE_FOLLOWER_MOVEMENT
 	call_if_eq VAR_0x8004, TRUE, EventScript_FollowerFieldMove
@@ -114,24 +113,23 @@ EventScript_RockSmash::
 	setvar VAR_0x8004, LIC_ROCK_SMASH
 	special CheckHoennLicense
 	goto_if_eq VAR_RESULT, FALSE, EventScript_NeedHoennLicense
-	checkpartymove MOVE_ROCK_SMASH
-	goto_if_unset FLAG_BADGE01_GET, EventScript_CantSmashRock
-	goto_if_unset FLAG_RECEIVED_HM_ROCK_SMASH, EventScript_CantSmashRock
+	@ HnS: die VM im Beutel genuegt, das Pokemon muss Zertruemmerer nicht koennen.
+	checkfieldmove FIELD_MOVE_ROCK_SMASH, TRUE
 	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantSmashRock
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
 	setfieldeffectargument 0, VAR_RESULT
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
 	buffermovename STR_VAR_2, MOVE_ROCK_SMASH
-	@msgbox Text_WantToSmash, MSGBOX_YESNO
-	@goto_if_eq VAR_RESULT, NO, EventScript_CancelSmash
+	msgbox Text_WantToSmash, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_CancelSmash
 	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
 	closemessage
 EventScript_RockSmashCommon:
 	@ check if follower should use the field move
 	isfollowerfieldmoveuser VAR_0x8004
-	@setfieldeffectargument 3, VAR_0x8004 @ skip pose if so
-	@dofieldeffect FLDEFF_USE_ROCK_SMASH
-	@waitstate
+	setfieldeffectargument 3, VAR_0x8004 @ skip pose if so
+	dofieldeffect FLDEFF_USE_ROCK_SMASH
+	waitstate
 EventScript_SmashRock:: @ fallthrough
 	setflag FLAG_SAFE_FOLLOWER_MOVEMENT
 	call_if_eq VAR_0x8004, TRUE, EventScript_FollowerFieldMove
@@ -399,26 +397,26 @@ EventScript_StrengthBoulder::
 	setvar VAR_0x8004, LIC_STRENGTH
 	special CheckHoennLicense
 	goto_if_eq VAR_RESULT, FALSE, EventScript_NeedHoennLicense
-	goto_if_unset FLAG_BADGE03_GET, EventScript_CantStrength
+	@ HnS: Staerke haengt an der Hoenn-Erlaubnis, nicht am Johto-Orden.
 	checkitem ITEM_HM_STRENGTH
 	goto_if_eq VAR_RESULT, FALSE, EventScript_CantStrength
 	goto_if_set FLAG_SYS_USE_STRENGTH, EventScript_CheckActivatedBoulder
-	checkpartymove MOVE_STRENGTH
+	checkfieldmove FIELD_MOVE_STRENGTH, TRUE
 	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantStrength
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
 	setfieldeffectargument 0, VAR_RESULT
-	@msgbox Text_WantToStrength, MSGBOX_YESNO
-	@goto_if_eq VAR_RESULT, NO, EventScript_CancelStrength
+	msgbox Text_WantToStrength, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_CancelStrength
 	@closemessage
-	@dofieldeffect FLDEFF_USE_STRENGTH
-	@waitstate
+	dofieldeffect FLDEFF_USE_STRENGTH
+	waitstate
 	goto EventScript_ActivateStrength
 	end
 
 EventScript_UseStrength::
 	lockall
-	@dofieldeffect FLDEFF_USE_STRENGTH
-	@waitstate
+	dofieldeffect FLDEFF_USE_STRENGTH
+	waitstate
 	goto EventScript_ActivateStrength
 	end
 
@@ -483,13 +481,13 @@ Text_StrengthActivated:
 
 EventScript_UseWaterfall::
 	lockall
-	goto_if_unset FLAG_BADGE08_GET, EventScript_CantWaterfall
-	checkpartymove MOVE_WATERFALL
+	@ HnS: Kaskade haengt an der Hoenn-Erlaubnis, nicht am Johto-Orden.
+	checkfieldmove FIELD_MOVE_WATERFALL
 	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantWaterfall
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
 	setfieldeffectargument 0, VAR_RESULT
-	@msgbox Text_WantToWaterfall, MSGBOX_YESNO
-	@goto_if_eq VAR_RESULT, NO, EventScript_EndWaterfall
+	msgbox Text_WantToWaterfall, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_EndWaterfall
 	msgbox Text_MonUsedWaterfall, MSGBOX_DEFAULT
 	dofieldeffect FLDEFF_USE_WATERFALL
 	goto EventScript_EndWaterfall
@@ -535,7 +533,7 @@ Text_MonUsedWaterfall:
 
 EventScript_UseDive::
 	lockall
-	checkpartymove MOVE_DIVE
+	checkfieldmove FIELD_MOVE_DIVE
 	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantDive
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
 	setfieldeffectargument 0, VAR_RESULT
@@ -558,7 +556,7 @@ EventScript_EndDive::
 
 EventScript_UseDiveUnderwater::
 	lockall
-	checkpartymove MOVE_DIVE
+	checkfieldmove FIELD_MOVE_DIVE
 	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantSurface
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
 	setfieldeffectargument 0, VAR_RESULT
