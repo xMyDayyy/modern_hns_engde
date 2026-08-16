@@ -7,7 +7,6 @@
 #include "event_data.h"
 #include "constants/region_map_sections.h"
 #include "constants/trainers.h"
-#include "constants/pokedex.h"
 #include "config/hoenn_scaling.h"
 
 // =====================================================================
@@ -143,28 +142,11 @@ u16 HoennScaleTrainerMonSpecies(u16 species, u8 scaledLevel)
         for (i = 0; evos[i].method != EVOLUTIONS_END && count < ARRAY_COUNT(candidates); i++)
         {
             u16 threshold;
-
-            // Entwicklungen mit Zusatzbedingung (z. B. Rasaff -> Epitaff, das
-            // 20-mal Raubfaust verlangt) sind fuer ein Trainerpokemon nicht
-            // pruefbar. Sie tragen oft param = 0 und wuerden sonst blind
-            // zuenden - dann stuende bei Kamillo ploetzlich ein Epitaff.
-            if (evos[i].params != NULL)
-                continue;
-
-            // Nur bis Generation 4. Quergenerations-Entwicklungen aus
-            // spaeteren Generationen haengen an den Familien ihrer
-            // Vorstufen und waeren sonst ueber die Skalierung erreichbar,
-            // obwohl es die Generation im Spiel gar nicht gibt.
-            if (SpeciesToNationalPokedexNum(evos[i].targetSpecies) > NATIONAL_DEX_ARCEUS)
-                continue;
-
             switch (evos[i].method)
             {
             case EVO_LEVEL:
             case EVO_LEVEL_BATTLE_ONLY:
                 threshold = evos[i].param;
-                if (threshold == 0)
-                    continue;
                 break;
             case EVO_ITEM:
             case EVO_TRADE:
