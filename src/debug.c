@@ -574,7 +574,7 @@ static const struct DebugMenuOption sDebugMenu_Actions_Utilities[] =
     { COMPOUND_STRING("Time Functions…"),   DebugAction_OpenSubMenu, sDebugMenu_Actions_TimeMenu, },
     { COMPOUND_STRING("Watch credits…"),    DebugAction_Util_WatchCredits },
     { COMPOUND_STRING("Cheat start"),       DebugAction_Util_CheatStart },
-    { COMPOUND_STRING("HnS: Finish Johto+Kanto"), DebugAction_Util_HnsFinishJohtoKanto },
+    { COMPOUND_STRING("Hoenn Test"), DebugAction_Util_HnsFinishJohtoKanto },
     { COMPOUND_STRING("HnS: Petalburg Gym open/close"), DebugAction_Util_HnsTogglePetalburgGym },
     { COMPOUND_STRING("Berry Functions…"),  DebugAction_OpenSubMenu, sDebugMenu_Actions_BerryFunctions },
     { COMPOUND_STRING("EWRAM Counters…"),   DebugAction_ExecuteScript, Debug_EventScript_EWRAMCounters },
@@ -1888,6 +1888,9 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
     VarSet(VAR_HOENN_TICKET_STATE, 3);
     FlagSet(FLAG_HIDE_SILPHCO_TROY);
     AddBagItem(ITEM_HOENN_TICKET, 1);
+    // Sonderbonbons in Beutelmenge - damit sich frisch gefangene Hoenn-Arten
+    // sofort auf Korridorniveau bringen lassen, ohne dafuer zu trainieren.
+    AddBagItem(ITEM_RARE_CANDY, MAX_BAG_ITEM_CAPACITY);
     // Testteam auf Level 100
     ZeroPlayerPartyMons();
     for (i = 0; i < ARRAY_COUNT(sTeamSpecies); i++)
