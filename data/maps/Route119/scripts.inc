@@ -745,19 +745,13 @@ Route119_Text_WeatherInstitute:
 
 Route119_Text_TrainerTipsDecoration:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "In der Geheimbasis können bis zu 16\n"
-	.string "Dekorationen und Möbel untergebracht\l"
-	.string "werden.\p"
-	.string "Nimm deine Lieblingsitems und richte dir\n"
-	.string "deine Geheimbasis ganz nach deinem\l"
-	.string "Geschmack ein.$"
+	.string "Hier regnet es.\p"
+	.string "Immer.\p"
+	.string "Warum, weiß im Wetterinstitut\n"
+	.string "angeblich auch niemand.$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "Up to sixteen decorations and\n"
-	.string "furniture items can be placed in\l"
-	.string "a SECRET BASE.\p"
-	.string "Pick your favorite items and create\n"
-	.string "your very own SECRET BASE exactly the\l"
-	.string "way you want.$"
+	.string "It rains here.\p"
+	.string "Always.\p"
+	.string "Not even the WEATHER INSTITUTE\n"
+	.string "claims to know why.$"
 #endif

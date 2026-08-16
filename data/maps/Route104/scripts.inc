@@ -1186,18 +1186,15 @@ Route104_Text_PrettyPetalFlowShop:
 
 Route104_Text_TrainerTipsDoubleBattles:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "In Johto und Kanto tragen die\n"
-	.string "Beerenbäume von allein nach.\p"
-	.string "In Hoenn pflanzt man Beeren selbst\n"
-	.string "und gießt sie, bis der Strauch trägt.$"
+	.string "Nördlich der Blumenladen,\n"
+	.string "südlich das Meer.\p"
+	.string "Wer sich hier verläuft, hat es\n"
+	.string "vermutlich nicht eilig.$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "In JOHTO and KANTO the BERRY trees\n"
-	.string "bear fruit again on their own.\p"
-	.string "In HOENN you plant BERRIES yourself\n"
-	.string "and water them until the bush bears\l"
-	.string "fruit.$"
+	.string "The FLOWER SHOP to the north,\n"
+	.string "the sea to the south.\p"
+	.string "Anyone who gets lost here probably\n"
+	.string "isn't in a hurry.$"
 #endif
 
 Route104_Text_MayWeShouldRegister:

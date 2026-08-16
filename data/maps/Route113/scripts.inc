@@ -179,17 +179,13 @@ Route113_Text_RouteSignFallarbor:
 
 Route113_Text_TrainerTipsRegisterKeyItems:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Du kannst eines deiner Basis-Items in\n"
-	.string "deinem Beutel auf Select legen.\p"
-	.string "Durch Drücken von Select kannst du\n"
-	.string "so ganz bequem das Item einsetzen.$"
+	.string "Es regnet Asche.\p"
+	.string "Der Schlotberg lässt grüßen.\n"
+	.string "Tief einatmen ist keine gute Idee.$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "You may register one of the KEY ITEMS\n"
-	.string "in your BAG as SELECT.\p"
-	.string "Simply press SELECT to use\n"
-	.string "the registered item conveniently.$"
+	.string "It's raining ash.\p"
+	.string "MT. CHIMNEY says hello.\n"
+	.string "Breathing deeply is a bad idea.$"
 #endif
 
 Route113_Text_GlassWorkshopSign:

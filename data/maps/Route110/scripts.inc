@@ -1182,29 +1182,25 @@ Route110_Text_MauvilleCitySign:
 
 Route110_Text_TrainerTipsPrlzSleep:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Der Gegner kann paralysiert oder in\n"
-	.string "Schlaf versetzt werden und ist damit\l"
-	.string "wehrlos.\p"
-	.string "Das sind wichtige Techniken in einem\n"
-	.string "Pokémon-Kampf.$"
+	.string "Radweg voraus.\p"
+	.string "Bergab ist schneller.\n"
+	.string "Bergauf war es das noch nie.$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "The foe can be made helpless by\n"
-	.string "paralyzing it or causing it to sleep.\p"
-	.string "It is an important technique for\n"
-	.string "POKéMON battles.$"
+	.string "CYCLING ROAD ahead.\p"
+	.string "Downhill is faster.\n"
+	.string "Uphill never was.$"
 #endif
 
 Route110_Text_TrainerTipsRegisterItems:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Die Items in dem Beutel können mit\n"
-	.string "Select neu geordnet werden.$"
+	.string "Irgendwo hier steht ein Haus.\p"
+	.string "Genau hier, um genau zu sein.\n"
+	.string "Man sieht es nur nicht.$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "The items in the BAG can be reorganized\n"
-	.string "by pressing SELECT.$"
+	.string "There's a house around here\n"
+	.string "somewhere.\p"
+	.string "Right here, to be precise.\n"
+	.string "You just can't see it.$"
 #endif
 
 Route110_Text_TrickHouseSign:

@@ -778,19 +778,13 @@ Route111_Text_OldLadysRestStopSign:
 
 Route111_Text_TrainerTipsSpAtkSpDef:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Ein Indikator für die Stärke eines\n"
-	.string "Pokémon ist der SP. ANG. Das steht für\l"
-	.string "“Spezial Angriff”.\p"
-	.string "SP. Ver. steht für “Spezial\n"
-	.string "Verteidigung”.$"
+	.string "Wüste voraus.\p"
+	.string "Ohne Schutzbrille sieht man nichts.\n"
+	.string "Mit Schutzbrille sieht man Sand.$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "One of the indicators of a POKéMON's\n"
-	.string "powerfulness is SP. ATK. It stands for\l"
-	.string "“SPECIAL ATTACK.”\p"
-	.string "Likewise, SP. DEF stands for “SPECIAL\n"
-	.string "DEFENSE.”$"
+	.string "DESERT ahead.\p"
+	.string "Without GO-GOGGLES you see nothing.\n"
+	.string "With GO-GOGGLES you see sand.$"
 #endif
 
 Route111_Text_ShouldBeMirageTowerAroundHere:

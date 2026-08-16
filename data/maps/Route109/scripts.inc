@@ -654,16 +654,11 @@ Route109_Text_SeashoreHouseSign:
 
 Route109_Text_TrainerTipsSign:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Pokémon mit gleichem Level haben nicht\n"
-	.string "unbedingt identische Statuswerte.\p"
-	.string "Pokémon, die von Trainern aufgezogen\n"
-	.string "werden, wachsen schneller als wilde\l"
-	.string "Pokémon.$"
+	.string "Strand von Graphitport City.\p"
+	.string "Der Sand ist heiß, das Wasser kalt\n"
+	.string "und die Tentacha schlecht gelaunt.$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "POKéMON at the same level may not\n"
-	.string "always have identical stats.\p"
-	.string "POKéMON raised by TRAINERS are said\n"
-	.string "to grow stronger than wild POKéMON.$"
+	.string "SLATEPORT CITY BEACH.\p"
+	.string "The sand is hot, the water is cold\n"
+	.string "and the TENTACOOL are grumpy.$"
 #endif

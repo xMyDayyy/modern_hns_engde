@@ -43,12 +43,12 @@ Route106_EventScript_Ned::
 
 Route106_Text_TrainerTips:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Hinweis zum Fangen von Pokémon mit der\n"
-	.string "Angel: Drücke A, wenn eines anbeißt.$"
+	.string "Wer von hier nach Norden surft,\n"
+	.string "findet irgendwann wieder Land.\p"
+	.string "Hoffentlich.$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "Advice on catching POKéMON with a ROD:\n"
-	.string "Press the A Button if you get a bite.$"
+	.string "Surf north from here and you'll\n"
+	.string "reach land eventually.\p"
+	.string "Hopefully.$"
 #endif
 
