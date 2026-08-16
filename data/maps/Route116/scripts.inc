@@ -575,36 +575,21 @@ Route116_Text_TunnelersRestHouse:
 
 Route116_Text_TrainerTipsBToStopEvolution:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Wenn du die Entwicklung eines Pokémon\n"
-	.string "stoppen willst, musst du den B-Knopf\l"
-	.string "drücken, während es sich entwickeln\l"
-	.string "will.\p"
-	.string "Das Pokémon entwickelt sich dann nicht.\n"
-	.string "Das nennt man Entwicklungsstopp.$"
+	.string "Im Tunnel bräuchten die Arbeiter\n"
+	.string "Zertrümmerer, nicht Stärke.\p"
+	.string "Aber auf mich hört ja keiner.$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "If you want to stop a POKéMON from\n"
-	.string "evolving, press the B Button while it\l"
-	.string "is trying to evolve.\l"
-	.string "The startled POKéMON will stop.\p"
-	.string "This is called an evolution cancel.$"
+	.string "In the tunnel they'd need ROCK SMASH,\n"
+	.string "not STRENGTH.\p"
+	.string "But nobody ever listens to me.$"
 #endif
 
 Route116_Text_TrainerTipsBagHasPockets:
 #if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Dein Beutel hat mehrere Taschen.\p"
-	.string "Items werden automatisch in die dafür\n"
-	.string "vorgesehene Tasche gelegt.\p"
-	.string "Kein Trainer kann auf einen eigenen\n"
-	.string "Beutel verzichten.$"
+	.string "Das hier ist ein Labyrinth…\p"
+	.string "…oder auch nicht.$"
 #else
-	.string "TRAINER TIPS\p"
-	.string "Your BAG has several POCKETS.\p"
-	.string "Items you obtain are automatically\n"
-	.string "placed in the appropriate POCKETS.\p"
-	.string "No TRAINER can afford to be without\n"
-	.string "a BAG of their own.$"
+	.string "This here is a maze…\p"
+	.string "…or maybe not.$"
 #endif
 
