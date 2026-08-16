@@ -338,16 +338,15 @@ SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 #if GERMAN
-	.string "Dieser Orden sorgt dafür, dass dir\n"
-	.string "alle deine Pokémon gehorchen.\p"
+	.string "Dieser Orden ist der Beweis, dass du\n"
+	.string "mich geschlagen hast.\p"
 	.string "In Hoenn gilt er außerdem als\n"
 	.string "Erlaubnis, Kaskade einzusetzen.\p"
 	.string "Und damit du unseren Kampf stets in\n"
 	.string "Erinnerung behältst, gebe ich dir dies…$"
 #else
-	.string "Having the RAIN BADGE shall assure you\n"
-	.string "the full obedience of all your POKéMON\l"
-	.string "to your every command.\p"
+	.string "This BADGE is proof that you have\n"
+	.string "defeated me.\p"
 	.string "In HOENN it also serves as your\n"
 	.string "permission to use WATERFALL.\p"
 	.string "And, so that you never forget the\n"

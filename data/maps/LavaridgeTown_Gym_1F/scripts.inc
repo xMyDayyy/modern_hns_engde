@@ -533,18 +533,15 @@ LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
 #if GERMAN
-	.string "Mit dem Hitzeorden gehorchen dir alle\n"
-	.string "Pokémon bis Level 50, auch die, die du\l"
-	.string "durch Tausch erhalten hast.\p"
+	.string "Der Hitzeorden ist der Beweis, dass\n"
+	.string "du mich geschlagen hast.\p"
 	.string "In Hoenn gilt er außerdem als\n"
 	.string "Erlaubnis, Stärke einzusetzen.\p"
 	.string "Dies ist das Zeichen meiner\n"
 	.string "Anerkennung. Nimm es ruhig an!$"
 #else
-	.string "If you have a HEAT BADGE, all POKéMON\n"
-	.string "up to Level 50, even those you get in\l"
-	.string "trades from other people, will obey\l"
-	.string "you completely.\p"
+	.string "The HEAT BADGE is proof that you\n"
+	.string "defeated me.\p"
 	.string "In HOENN it also serves as your\n"
 	.string "permission to use STRENGTH.\p"
 	.string "This is a token of my appreciation.\n"

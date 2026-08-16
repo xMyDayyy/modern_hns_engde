@@ -564,19 +564,13 @@ DewfordTown_Gym_Text_ReceivedKnuckleBadge:
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 #if GERMAN
-	.string "Dank des Knöchelordens werden dir alle\n"
-	.string "Pokémon bis Level 30 gehorchen, auch\l"
-	.string "die, die du durch Tausch erhalten hast.\p"
-	.string "Und du kannst die VM Blitz auch\n"
-	.string "außerhalb eines Kampfes anwenden.\p"
+	.string "Der Knöchelorden ist der Beweis, dass\n"
+	.string "du mich geschlagen hast.\p"
 	.string "Und wenn du magst, kannst du auch\n"
 	.string "diese Technische Maschine anwenden.$"
 #else
-	.string "The KNUCKLE BADGE makes all POKéMON\n"
-	.string "up to Level 30, even those you get in\l"
-	.string "trades, obey without question.\p"
-	.string "And, you'll be able to use the HM move\n"
-	.string "FLASH outside of battle.\p"
+	.string "The KNUCKLE BADGE is proof that you\n"
+	.string "beat me.\p"
 	.string "If you'd like, use this TECHNICAL\n"
 	.string "MACHINE, too.$"
 #endif

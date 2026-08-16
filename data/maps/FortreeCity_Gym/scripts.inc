@@ -419,19 +419,13 @@ FortreeCity_Gym_Text_ReceivedFeatherBadge:
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
 #if GERMAN
-	.string "Mit dem Federorden gehorchen dir alle\n"
-	.string "Pokémon bis Lv. 70, auch die, die du\l"
-	.string "durch Tausch bekommen hast.\p"
-	.string "Außerdem kannst du nun die VM Fliegen\n"
-	.string "außerhalb eines Kampfes einsetzen.\p"
+	.string "Der Federorden ist der Beweis, dass\n"
+	.string "du mich geschlagen hast.\p"
 	.string "Und dies…\n"
 	.string "Dies ist ein Geschenk von mir.$"
 #else
-	.string "With the FEATHER BADGE, all POKéMON up\n"
-	.string "to LV 70, even those received through\l"
-	.string "trades, will obey your every command.\p"
-	.string "You will also be able to use\n"
-	.string "the HM move FLY outside of battle.\p"
+	.string "The FEATHER BADGE is proof that you\n"
+	.string "defeated me.\p"
 	.string "And this…\n"
 	.string "This is a gift from me.$"
 #endif
