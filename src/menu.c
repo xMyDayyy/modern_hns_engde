@@ -5,6 +5,7 @@
 #include "dma3.h"
 #include "event_data.h"
 #include "field_name_box.h"
+#include "hoenn_badges.h"
 #include "field_weather.h"
 #include "gpu_regs.h"
 #include "graphics.h"
@@ -1918,6 +1919,10 @@ void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
     case SAVE_MENU_BADGES:
 #if IS_HNS
     {
+        // Origin Jade: Gesamtkarriere zaehlen - Johto (01-08), Kanto (09-16)
+        // und die Hoenn-Orden aus VAR_HOENN_BADGES. Vorher wurden nur die
+        // Johto-Flags gezaehlt, Hoenn-Fortschritt blieb unsichtbar
+        // (Discord-Report "Orden werden nicht gezaehlt").
         u8 badgeCount = 0;
 
         for (curFlag = FLAG_BADGE01_GET; curFlag < FLAG_BADGE01_GET + NUM_BADGES; curFlag++)
@@ -1925,6 +1930,12 @@ void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
             if (FlagGet(curFlag))
                 badgeCount++;
         }
+        for (curFlag = FLAG_BADGE09_GET; curFlag <= FLAG_BADGE16_GET; curFlag++)
+        {
+            if (FlagGet(curFlag))
+                badgeCount++;
+        }
+        badgeCount += GetHoennBadgeCount();
 
         string = ConvertIntToDecimalStringN(string, badgeCount, STR_CONV_MODE_LEADING_ZEROS, 2);
         *string = EOS;
