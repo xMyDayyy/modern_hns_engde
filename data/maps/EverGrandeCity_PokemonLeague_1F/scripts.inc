@@ -4,6 +4,9 @@ EverGrandeCity_PokemonLeague_1F_MapScripts::
 	.byte 0
 
 EverGrandeCity_PokemonLeague_1F_OnTransition:
+	@ Origin Jade: Absicherung fuer Spielstaende, deren Ruhmeshalle vor
+	@ diesem Patch lief - setzt die Rueckkampfstufen vor dem Anlauf.
+	special UpdateEliteFourRematch
 	setrespawn HEAL_LOCATION_EVER_GRANDE_CITY_POKEMON_LEAGUE
 	setflag FLAG_LANDMARK_POKEMON_LEAGUE
 	call_if_unset FLAG_ENTERED_ELITE_FOUR, EverGrandeCity_PokemonLeague_1F_EventScript_GuardsBlockDoor

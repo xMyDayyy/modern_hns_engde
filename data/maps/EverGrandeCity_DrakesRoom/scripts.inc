@@ -41,9 +41,17 @@ EverGrandeCity_DrakesRoom_EventScript_Drake::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_ELITE_4_DRAKE, EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech
+	@ Origin Jade: Ab dem Ligasieg treten die Top Vier mit Rueckkampfteams an.
+	goto_if_set FLAG_SYS_GAME_CLEAR, EverGrandeCity_DrakesRoom_EventScript_Rematch
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_DrakesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_DRAKE, EverGrandeCity_DrakesRoom_Text_Defeat
+	goto EverGrandeCity_DrakesRoom_EventScript_Defeated
+	end
+
+EverGrandeCity_DrakesRoom_EventScript_Rematch::
+	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
+	trainerbattle_rematch TRAINER_DRAKE, EverGrandeCity_DrakesRoom_Text_RematchIntro, EverGrandeCity_DrakesRoom_Text_Defeat
 	goto EverGrandeCity_DrakesRoom_EventScript_Defeated
 	end
 
@@ -126,3 +134,19 @@ EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
 	.string "The CHAMPION is waiting!$"
 #endif
 
+EverGrandeCity_DrakesRoom_Text_RematchIntro:
+#if GERMAN
+	.string "Dragan: Du kehrst zurück, um dich\n"
+	.string "erneut den Drachen zu stellen?\p"
+	.string "Gut. Diesmal halte ich\n"
+	.string "nichts zurück.\p"
+	.string "Zeig mir die Stärke, die dich zum\n"
+	.string "Champion gemacht hat!$"
+#else
+	.string "DRAKE: You return to face\n"
+	.string "the dragons once more?\p"
+	.string "Good. This time, I will\n"
+	.string "hold nothing back.\p"
+	.string "Show me the strength that made\n"
+	.string "you a CHAMPION!$"
+#endif

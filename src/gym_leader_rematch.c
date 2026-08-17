@@ -31,6 +31,40 @@ static const u16 GymLeaderRematches_BeforeNewMauville[] = {
     REMATCH_JUAN
 };
 
+// Origin Jade: Vor jedem neuen Liga-Anlauf (Ruhmeshalle / Liga-Lobby) werden
+// alle fuenf Top-Vier-Eintraege auf ihre Rueckkampfstufe gesetzt, sobald der
+// Ligasieg (FLAG_SYS_GAME_CLEAR) vorliegt. Anders als bei den Arenaleitern
+// gibt es keine Zufallsfreischaltung: Die Liga wird immer als Ganzes
+// wiederholt. Nach jedem Kampf setzt HandleRematchVarsOnBattleEnd den
+// Eintrag zurueck, daher muss vor jedem Anlauf neu gesetzt werden.
+void UpdateEliteFourRematch(void)
+{
+#if FREE_MATCH_CALL == FALSE
+    static const u16 sEliteFourRematchIds[] = {
+        REMATCH_SIDNEY, REMATCH_PHOEBE, REMATCH_GLACIA, REMATCH_DRAKE, REMATCH_WALLACE
+    };
+    u32 i, j;
+
+    if (!FlagGet(FLAG_SYS_GAME_CLEAR))
+        return;
+
+    for (i = 0; i < ARRAY_COUNT(sEliteFourRematchIds); i++)
+    {
+        u16 idx = sEliteFourRematchIds[i];
+
+        for (j = 1; j < REMATCHES_COUNT; j++)
+        {
+            if (!HasTrainerBeenFought(gRematchTable[idx].trainerIds[j]))
+                break;
+        }
+        if (j >= REMATCHES_COUNT)
+            j = REMATCHES_COUNT - 1; // alle Stufen bekannt -> hoechste wiederholen
+
+        gSaveBlock1Ptr->trainerRematches[idx] = j;
+    }
+#endif //FREE_MATCH_CALL
+}
+
 void UpdateGymLeaderRematch(void)
 {
     if (FlagGet(FLAG_SYS_GAME_CLEAR) && (Random() % 100) <= 30)

@@ -46,9 +46,17 @@ EverGrandeCity_SidneysRoom_EventScript_Sidney::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_ELITE_4_SIDNEY, EverGrandeCity_SidneysRoom_EventScript_PostBattleSpeech
+	@ Origin Jade: Ab dem Ligasieg treten die Top Vier mit Rueckkampfteams an.
+	goto_if_set FLAG_SYS_GAME_CLEAR, EverGrandeCity_SidneysRoom_EventScript_Rematch
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_SidneysRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_SIDNEY, EverGrandeCity_SidneysRoom_Text_Defeat
+	goto EverGrandeCity_SidneysRoom_EventScript_Defeated
+	end
+
+EverGrandeCity_SidneysRoom_EventScript_Rematch::
+	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
+	trainerbattle_rematch TRAINER_SIDNEY, EverGrandeCity_SidneysRoom_Text_RematchIntro, EverGrandeCity_SidneysRoom_Text_Defeat
 	goto EverGrandeCity_SidneysRoom_EventScript_Defeated
 	end
 
@@ -109,3 +117,19 @@ EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
 	.string "your next battle!$"
 #endif
 
+EverGrandeCity_SidneysRoom_Text_RematchIntro:
+#if GERMAN
+	.string "Ulrich: Ha! Du schon wieder!\p"
+	.string "Seit unserem letzten Kampf habe ich\n"
+	.string "an nichts anderes gedacht.\p"
+	.string "Mein Team ist nicht mehr das alte…\n"
+	.string "Und ich will sehen, ob du noch\l"
+	.string "der Alte bist!$"
+#else
+	.string "SIDNEY: Ha! You again!\p"
+	.string "Since our last battle, I haven't been\n"
+	.string "able to think of anything else.\p"
+	.string "My team isn't what it used to be…\n"
+	.string "And I want to see if you are still\l"
+	.string "what you used to be!$"
+#endif

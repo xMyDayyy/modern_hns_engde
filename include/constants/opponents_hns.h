@@ -631,7 +631,18 @@
 #define TRAINER_SKYLAR_HNS                            616
 
 // 618 is TRAINER_TANYA_HNS, relocated out of the TRAINER_FRONTIER_BRAIN slot (330).
-#define TRAINERS_COUNT_HNS                       1473
+
+// Top-Vier-Rueckkaempfe (Origin Jade). Nur EINE Steigerungsstufe je Mitglied:
+// MAX_TRAINERS_COUNT_HNS laesst vor dem Trainerflag-Ueberlauf nur 7 freie
+// Slots - vier Stufen je Mitglied (20 IDs) braeuchten eine save-brechende
+// Flag-Verschiebung. Die Levelskalierung traegt die Schwierigkeit ohnehin.
+#define TRAINER_SIDNEY_2                         1473
+#define TRAINER_PHOEBE_2                         1474
+#define TRAINER_GLACIA_2                         1475
+#define TRAINER_DRAKE_2                          1476
+#define TRAINER_WALLACE_2                        1477
+
+#define TRAINERS_COUNT_HNS                       1478
 #define MAX_TRAINERS_COUNT_HNS                   1480
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_HNS_H

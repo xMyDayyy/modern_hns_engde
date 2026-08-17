@@ -40,9 +40,17 @@ EverGrandeCity_PhoebesRoom_EventScript_Phoebe::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_ELITE_4_PHOEBE, EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech
+	@ Origin Jade: Ab dem Ligasieg treten die Top Vier mit Rueckkampfteams an.
+	goto_if_set FLAG_SYS_GAME_CLEAR, EverGrandeCity_PhoebesRoom_EventScript_Rematch
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_PhoebesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_PHOEBE, EverGrandeCity_PhoebesRoom_Text_Defeat
+	goto EverGrandeCity_PhoebesRoom_EventScript_Defeated
+	end
+
+EverGrandeCity_PhoebesRoom_EventScript_Rematch::
+	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
+	trainerbattle_rematch TRAINER_PHOEBE, EverGrandeCity_PhoebesRoom_Text_RematchIntro, EverGrandeCity_PhoebesRoom_Text_Defeat
 	goto EverGrandeCity_PhoebesRoom_EventScript_Defeated
 	end
 
@@ -110,3 +118,17 @@ EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
 	.string "Go ahead, move on to the next room.$"
 #endif
 
+EverGrandeCity_PhoebesRoom_Text_RematchIntro:
+#if GERMAN
+	.string "Antonia: Willkommen zurück!\p"
+	.string "Auf dem Pyroberg habe ich seit deinem\n"
+	.string "letzten Besuch neue Freunde gewonnen.\p"
+	.string "Meine Pokémon brennen darauf,\n"
+	.string "dich wiederzusehen!$"
+#else
+	.string "PHOEBE: Welcome back!\p"
+	.string "I've made new friends at MT. PYRE\n"
+	.string "since your last visit.\p"
+	.string "My POKéMON are dying to\n"
+	.string "see you again!$"
+#endif

@@ -1143,6 +1143,8 @@ EventScript_MoveMrBrineyToRoute109::
 	end
 
 EverGrandeCity_HallOfFame_EventScript_ResetEliteFour::
+	@ Origin Jade: naechster Liga-Anlauf nutzt die Rueckkampfteams.
+	special UpdateEliteFourRematch
 	clearflag FLAG_DEFEATED_ELITE_4_SIDNEY
 	clearflag FLAG_DEFEATED_ELITE_4_PHOEBE
 	clearflag FLAG_DEFEATED_ELITE_4_GLACIA

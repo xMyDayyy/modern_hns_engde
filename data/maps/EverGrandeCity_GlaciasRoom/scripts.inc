@@ -40,9 +40,17 @@ EverGrandeCity_GlaciasRoom_EventScript_Glacia::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_ELITE_4_GLACIA, EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech
+	@ Origin Jade: Ab dem Ligasieg treten die Top Vier mit Rueckkampfteams an.
+	goto_if_set FLAG_SYS_GAME_CLEAR, EverGrandeCity_GlaciasRoom_EventScript_Rematch
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_GlaciasRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_GLACIA, EverGrandeCity_GlaciasRoom_Text_Defeat
+	goto EverGrandeCity_GlaciasRoom_EventScript_Defeated
+	end
+
+EverGrandeCity_GlaciasRoom_EventScript_Rematch::
+	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
+	trainerbattle_rematch TRAINER_GLACIA, EverGrandeCity_GlaciasRoom_Text_RematchIntro, EverGrandeCity_GlaciasRoom_Text_Defeat
 	goto EverGrandeCity_GlaciasRoom_EventScript_Defeated
 	end
 
@@ -108,3 +116,17 @@ EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech:
 	.string "side of the POKéMON LEAGUE.$"
 #endif
 
+EverGrandeCity_GlaciasRoom_Text_RematchIntro:
+#if GERMAN
+	.string "Frosina: Du bist zurückgekehrt…\p"
+	.string "Ich bin weit gereist, um Eis zu finden,\n"
+	.string "das niemals schmilzt.\p"
+	.string "Zeig mir, ob dein Kampfgeist noch\n"
+	.string "genauso heiß lodert wie damals!$"
+#else
+	.string "GLACIA: So you have returned…\p"
+	.string "I have traveled far in search of ice\n"
+	.string "that never melts.\p"
+	.string "Show me if your fighting spirit\n"
+	.string "still burns as hot as it did!$"
+#endif
