@@ -65,8 +65,10 @@ static void SpriteCB_PokemonLogoShine(struct Sprite *sprite);
 static const u16 sUnusedUnknownPal[] = INCBIN_U16("graphics/title_screen/unused.gbapal");
 
 #if IS_HNS
-static const u32 sTitleScreenRayquazaGfx[] = INCBIN_U32("graphics/title_screen/hns/rayquaza.4bpp.smol");
-static const u32 sTitleScreenRayquazaTilemap[] = INCBIN_U32("graphics/title_screen/hns/rayquaza.bin.smolTM");
+// Origin Jade: eigener Titelhintergrund - die Weltkarte aller drei Regionen.
+// Liegt in einem eigenen Ordner, die HnS-Grafiken bleiben unangetastet.
+static const u32 sTitleScreenRayquazaGfx[] = INCBIN_U32("graphics/title_screen/origin_jade/worldmap.4bpp.smol");
+static const u32 sTitleScreenRayquazaTilemap[] = INCBIN_U32("graphics/title_screen/origin_jade/worldmap.bin.smolTM");
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/hns/logo_shine.4bpp.smol");
 #else
 static const u32 sTitleScreenRayquazaGfx[] = INCBIN_U32("graphics/title_screen/rayquaza.4bpp.smol");
