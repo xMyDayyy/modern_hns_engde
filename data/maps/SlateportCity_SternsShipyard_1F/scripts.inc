@@ -24,7 +24,7 @@ SlateportCity_SternsShipyard_1F_EventScript_Dock::
 	end
 
 SlateportCity_SternsShipyard_1F_EventScript_DockAfterDelivery::
-	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_SternsShipyard_1F_EventScript_FerryReady
+	goto_if_set FLAG_IS_HOENN_CHAMPION, SlateportCity_SternsShipyard_1F_EventScript_FerryReady
 #if IS_HNS
 	@ HnS: FLAG_BADGE07_GET gehoert zu den Johto/Kanto-Orden und ist
 	@ hier laengst gesetzt - stattdessen den Hoenn-Orden pruefen.

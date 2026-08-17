@@ -6,7 +6,7 @@ SlateportCity_Harbor_OnTransition:
 	setescapewarp MAP_SLATEPORT_CITY, 28, 13
 	setvar VAR_TEMP_1, 0
 	call_if_eq VAR_SLATEPORT_HARBOR_STATE, 1, SlateportCity_Harbor_EventScript_ReadyAquaEscapeScene
-	call_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_ShowSSTidal
+	call_if_set FLAG_IS_HOENN_CHAMPION, SlateportCity_Harbor_EventScript_ShowSSTidal
 	end
 
 SlateportCity_Harbor_EventScript_ShowSSTidal::
@@ -157,7 +157,7 @@ SlateportCity_Harbor_Movement_PlayerWalkUp:
 SlateportCity_Harbor_EventScript_FerryAttendant::
 	lock
 	faceplayer
-	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_AskForTicket
+	goto_if_set FLAG_IS_HOENN_CHAMPION, SlateportCity_Harbor_EventScript_AskForTicket
 	msgbox SlateportCity_Harbor_Text_FerryServiceUnavailable, MSGBOX_DEFAULT
 	release
 	end
@@ -260,7 +260,7 @@ SlateportCity_Harbor_Movement_BoardFerryNorth:
 SlateportCity_Harbor_EventScript_Sailor::
 	lock
 	faceplayer
-	goto_if_unset FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_SailorNoAbnormalWeather
+	goto_if_unset FLAG_IS_HOENN_CHAMPION, SlateportCity_Harbor_EventScript_SailorNoAbnormalWeather
 	setvar VAR_0x8004, 0
 	call_if_set FLAG_DEFEATED_KYOGRE, SlateportCity_Harbor_EventScript_CountDefeatedLegendary
 	call_if_set FLAG_DEFEATED_GROUDON, SlateportCity_Harbor_EventScript_CountDefeatedLegendary
@@ -324,7 +324,7 @@ SlateportCity_Harbor_EventScript_CaptSternFerryOrScannerComment::
 	goto_if_eq VAR_TEMP_1, 1, SlateportCity_Harbor_EventScript_TradedScanner
 	checkitem ITEM_SCANNER
 	goto_if_eq VAR_RESULT, TRUE, SlateportCity_Harbor_EventScript_AskToTradeScanner
-	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_FerryFinished
+	goto_if_set FLAG_IS_HOENN_CHAMPION, SlateportCity_Harbor_EventScript_FerryFinished
 	msgbox SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry, MSGBOX_DEFAULT
 	release
 	end

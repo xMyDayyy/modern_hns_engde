@@ -33,7 +33,7 @@ static const u16 GymLeaderRematches_BeforeNewMauville[] = {
 
 // Origin Jade: Vor jedem neuen Liga-Anlauf (Ruhmeshalle / Liga-Lobby) werden
 // alle fuenf Top-Vier-Eintraege auf ihre Rueckkampfstufe gesetzt, sobald der
-// Ligasieg (FLAG_SYS_GAME_CLEAR) vorliegt. Anders als bei den Arenaleitern
+// HOENN-Ligasieg (FLAG_IS_HOENN_CHAMPION) vorliegt. Anders als bei den Arenaleitern
 // gibt es keine Zufallsfreischaltung: Die Liga wird immer als Ganzes
 // wiederholt. Nach jedem Kampf setzt HandleRematchVarsOnBattleEnd den
 // Eintrag zurueck, daher muss vor jedem Anlauf neu gesetzt werden.
@@ -45,7 +45,7 @@ void UpdateEliteFourRematch(void)
     };
     u32 i, j;
 
-    if (!FlagGet(FLAG_SYS_GAME_CLEAR))
+    if (!FlagGet(FLAG_IS_HOENN_CHAMPION))
         return;
 
     for (i = 0; i < ARRAY_COUNT(sEliteFourRematchIds); i++)
@@ -67,7 +67,8 @@ void UpdateEliteFourRematch(void)
 
 void UpdateGymLeaderRematch(void)
 {
-    if (FlagGet(FLAG_SYS_GAME_CLEAR) && (Random() % 100) <= 30)
+    // Origin Jade: erst nach dem Hoenn-Ligasieg (siehe IsRematchForbidden).
+    if (FlagGet(FLAG_IS_HOENN_CHAMPION) && (Random() % 100) <= 30)
     {
         if (FlagGet(FLAG_WATTSON_REMATCH_AVAILABLE))
             UpdateGymLeaderRematchFromArray(GymLeaderRematches_AfterNewMauville, ARRAY_COUNT(GymLeaderRematches_AfterNewMauville), 5);
@@ -80,7 +81,7 @@ s32 GetCurrentGymLeaderRematchLevel(void)
 {
     u32 i, j;
     u32 maxLevel = REMATCHES_COUNT;
-    if (!FlagGet(FLAG_SYS_GAME_CLEAR))
+    if (!FlagGet(FLAG_IS_HOENN_CHAMPION))
         return 0;
     for (i = REMATCH_SPECIAL_TRAINER_START; i < REMATCH_ELITE_FOUR_ENTRIES; i++)
     {

@@ -39,7 +39,7 @@ EverGrandeCity_ChampionsRoom_Movement_PlayerApproachWallace:
 
 EverGrandeCity_ChampionsRoom_EventScript_Wallace::
 	@ Origin Jade: Ab dem Ligasieg treten die Top Vier mit Rueckkampfteams an.
-	goto_if_set FLAG_SYS_GAME_CLEAR, EverGrandeCity_ChampionsRoom_EventScript_Rematch
+	goto_if_set FLAG_IS_HOENN_CHAMPION, EverGrandeCity_ChampionsRoom_EventScript_Rematch
 	playbgm MUS_ENCOUNTER_CHAMPION, FALSE
 	msgbox EverGrandeCity_ChampionsRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_WALLACE, EverGrandeCity_ChampionsRoom_Text_Defeat

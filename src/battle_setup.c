@@ -2128,7 +2128,10 @@ s32 TrainerIdToRematchTableId(const struct RematchTrainer *table, u16 trainerId)
 static inline bool32 IsRematchForbidden(s32 rematchTableId)
 {
     if (rematchTableId >= REMATCH_ELITE_FOUR_ENTRIES)
-        return !FlagGet(FLAG_SYS_GAME_CLEAR); // Origin Jade: Top-Vier-Rueckkaempfe nach dem Ligasieg
+        // Origin Jade: Top-Vier-Rueckkaempfe erst nach dem HOENN-Ligasieg.
+        // FLAG_SYS_GAME_CLEAR ist beim Champion-Spieler ab Ankunft gesetzt
+        // und haette schon den ersten Liga-Anlauf zum Rueckkampf gemacht.
+        return !FlagGet(FLAG_IS_HOENN_CHAMPION);
     else if (rematchTableId == REMATCH_WALLY_VR)
         return !FlagGet(FLAG_DEFEATED_WALLY_VICTORY_ROAD);
     else
