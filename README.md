@@ -3,8 +3,10 @@
 <!-- Logo hier einfügen -->
 
 **Pokémon Origin Jade** ist ein deutschsprachiger Romhack auf Basis von
-[`hns_de`](https://github.com/helikoptermann843/hns_de) und
-[`pokeemerald-expansion`](https://github.com/rh-hideout/pokeemerald-expansion).
+[Pokémon HnS](https://github.com/PokemonHnS-Development/pokehns-expansion),
+das seinerseits auf
+[`pokeemerald-expansion`](https://github.com/rh-hideout/pokeemerald-expansion)
+aufbaut.
 
 Die Idee: **eine durchgehende Reise durch drei Regionen.** Nach Johto und Kanto
 führt der Weg weiter nach **Hoenn** — nicht als neues Spiel, sondern als
@@ -76,7 +78,7 @@ make jade
 Das Ergebnis heißt `Pokemon_Origin_Jade.gba`.
 
 Voraussetzungen und Einrichtung stehen in [`INSTALL.md`](INSTALL.md). Wer die
-reine HnS-Fassung ohne Hoenn bauen will, benutzt weiterhin `make hns`.
+Fassung ohne Hoenn bauen will, benutzt weiterhin `make hns`.
 
 > ❗ Bitte **nicht** die „Download ZIP"-Schaltfläche von GitHub verwenden — der
 > Verlauf fehlt dann, und Aktualisierungen lassen sich nicht mehr einspielen.
@@ -103,8 +105,6 @@ Dieses Projekt wäre ohne die Vorarbeit anderer nicht möglich:
 
 - **[Pokémon HnS](https://github.com/PokemonHnS-Development/pokehns-expansion)**
   — die Johto- und Kanto-Grundlage, auf der alles aufbaut
-- **[`hns_de`](https://github.com/helikoptermann843/hns_de)** — die deutsche
-  Lokalisierung von HnS
 - **[RHH's `pokeemerald-expansion`](https://github.com/rh-hideout/pokeemerald-expansion)**
   — die Engine mit ihren hunderten Funktionen
 - **[pret's `pokeemerald`](https://github.com/pret/pokeemerald)** — das
