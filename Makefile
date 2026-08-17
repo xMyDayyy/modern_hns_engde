@@ -24,6 +24,16 @@ ifeq (hns, $(or $(BUILD), $(MAKECMDGOALS)))
 	GAME_CODE   	:= BPEE
 	BUILD_NAME  	:= hns
 	MAP_VERSION 	:= hns
+else
+# Origin Jade: dieselbe Codebasis wie hns, nur eigener Titel und Dateiname.
+# GAME_VERSION bleibt POKEMON_HNS, damit IS_HNS und alle Weichen greifen.
+ifeq (jade, $(or $(BUILD), $(MAKECMDGOALS)))
+	GAME_VERSION 	:= POKEMON_HNS
+	TITLE       	:= POKEMON JADE
+	GAME_CODE   	:= BPEE
+	BUILD_NAME  	:= jade
+	MAP_VERSION 	:= hns
+endif
 endif
 endif
 endif
@@ -34,7 +44,12 @@ REVISION    := 0
 KEEP_TEMPS  ?= 0
 
 # `File name`.gba
+# Origin Jade traegt den vollen Namen, die uebrigen Ziele bleiben bei poke<name>
+ifeq ($(BUILD_NAME),jade)
+FILE_NAME := Pokemon_Origin_Jade
+else
 FILE_NAME := poke$(BUILD_NAME)
+endif
 BUILD_DIR := build
 
 # Compares the ROM to a checksum of the original - only makes sense using when non-modern
@@ -291,7 +306,7 @@ MAKEFLAGS += --no-print-directory
 .DELETE_ON_ERROR:
 
 RULES_NO_SCAN += libagbsyscall clean clean-assets tidy tidymodern tidycheck tidyrelease generated clean-generated clean-teachables clean-teachables_intermediates
-.PHONY: all rom agbcc modern compare check debug release
+.PHONY: all rom agbcc modern compare check debug release emerald firered leafgreen hns jade
 .PHONY: $(RULES_NO_SCAN)
 
 infoshell = $(foreach line, $(shell $1 | sed "s/ /__SPACE__/g"), $(info $(subst __SPACE__, ,$(line))))
@@ -627,6 +642,7 @@ emerald: all
 firered: all
 leafgreen: all
 hns: all
+jade: all
 # Symbol file (`make syms`)
 $(SYM): $(ELF)
 	$(OBJDUMP) -t $< | sort -u | grep -E "^0[2389]" | $(PERL) -p -e 's/^(\w{8}) (\w).{6} \S+\t(\w{8}) (\S+)$$/\1 \2 \3 \4/g' > $@
