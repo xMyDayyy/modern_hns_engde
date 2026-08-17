@@ -359,6 +359,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_HoennWelcome::
 	closemessage
 	msgbox BirchsLab_Text_HoennDexExplain, MSGBOX_DEFAULT
 	closemessage
+	@ Ordensmappe: schaltet die Hoenn-Ordenreihe auf der Trainerkarte frei.
+	call Common_EventScript_HoennGiveBadgeBinder
 	setvar VAR_HOENN_ARRIVAL_STATE, 3
 	setflag FLAG_SYS_HOENN_DEX_GET
 	@ Prof. Birk steht ab jetzt im PokéCom - eigener Kontakt neben Prof. Lind.
@@ -497,6 +499,56 @@ BirchsLab_Text_HoennDexExplain:
 	.string "would mean a great deal to me.\p"
 	.string "Good luck on your journey,\n"
 	.string "{PLAYER}!$"
+#endif
+
+@ ------------------------------------------------------------
+@ Ordensmappe (FLAG_RECEIVED_PASS_BINDER)
+@ Schaltet die Hoenn-Ordenreihe auf der Trainerkarte frei
+@ (src/trainer_card.c). Wird in der Ankunftsszene uebergeben;
+@ Birks NPC-Skript im Labor reicht sie bei Bedarf nach.
+@ ------------------------------------------------------------
+Common_EventScript_HoennGiveBadgeBinder::
+	goto_if_set FLAG_RECEIVED_PASS_BINDER, Common_EventScript_HoennBinderDone
+	msgbox BirchsLab_Text_BinderIntro, MSGBOX_DEFAULT
+	closemessage
+	playfanfare MUS_OBTAIN_ITEM
+	message BirchsLab_Text_BinderObtained
+	waitmessage
+	waitfanfare
+	closemessage
+	msgbox BirchsLab_Text_BinderExplain, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_RECEIVED_PASS_BINDER
+Common_EventScript_HoennBinderDone::
+	return
+
+BirchsLab_Text_BinderIntro:
+#if GERMAN
+	.string "Prof. Birk: Ach ja, eines noch.\n"
+	.string "Das hier ist für dich.$"
+#else
+	.string "PROF. BIRCH: Oh, one more thing.\n"
+	.string "This is for you.$"
+#endif
+
+BirchsLab_Text_BinderObtained:
+#if GERMAN
+	.string "{PLAYER} erhält die Ordensmappe!$"
+#else
+	.string "{PLAYER} received the BADGE CASE!$"
+#endif
+
+BirchsLab_Text_BinderExplain:
+#if GERMAN
+	.string "Prof. Birk: Troy meinte, du sammelst\n"
+	.string "gern Beweise deiner Siege.\p"
+	.string "Die Mappe zeigt die Orden von Hoenn\n"
+	.string "auf deiner Trainerkarte.$"
+#else
+	.string "PROF. BIRCH: TROY said you like to\n"
+	.string "keep proof of your victories.\p"
+	.string "It will display your HOENN BADGES\n"
+	.string "on your TRAINER CARD.$"
 #endif
 
 BirchsLab_Text_HoennGoodLuck:
