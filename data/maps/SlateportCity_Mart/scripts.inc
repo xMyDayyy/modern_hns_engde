@@ -47,14 +47,18 @@ SlateportCity_Mart_Text_SomeItemsOnlyAtMart:
 
 SlateportCity_Mart_Text_GreatBallIsBetter:
 #if GERMAN
-	.string "Ein Superball eignet sich besser zum\n"
-	.string "Fangen von Pokémon als ein Pokéball.\p"
-	.string "Hiermit sollte ich in der Lage sein,\n"
-	.string "das begehrte Pokémon zu überlisten.$"
+	.string "Ein Hyperball fängt besser als ein\n"
+	.string "Superball…\p"
+	.string "Aber was erzähle ich das ausgerechnet\n"
+	.string "dir? Du bist doch der Champion!\p"
+	.string "Eigentlich könntest du MIR ein paar\n"
+	.string "Fangtipps geben…$"
 #else
-	.string "A GREAT BALL is better than a POKé BALL\n"
-	.string "at catching POKéMON.\p"
-	.string "With this, I should be able to get that\n"
-	.string "elusive POKéMON…$"
+	.string "An ULTRA BALL beats a GREAT BALL\n"
+	.string "at catching POKéMON…\p"
+	.string "But who am I telling? You're\n"
+	.string "the CHAMPION!\p"
+	.string "Really, you could be giving ME\n"
+	.string "some catching tips…$"
 #endif
 
