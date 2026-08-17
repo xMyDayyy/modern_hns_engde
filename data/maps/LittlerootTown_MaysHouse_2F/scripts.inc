@@ -287,6 +287,11 @@ RivalsHouse_2F_EventScript_BrendanWhereShouldIGoNext::
 
 LittlerootTown_MaysHouse_2F_EventScript_PC::
 	lockall
+#if IS_HNS
+	@ Origin Jade: Maike ist immer die Rivalin - dieses Haus gehoert ihr,
+	@ unabhaengig vom Spielergeschlecht. Der PC zeigt ihre E-Mail.
+	goto LittlerootTown_MaysHouse_2F_EventScript_CheckRivalsPC
+#endif
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, LittlerootTown_MaysHouse_2F_EventScript_CheckRivalsPC
 	goto_if_eq VAR_RESULT, FEMALE, LittlerootTown_MaysHouse_2F_EventScript_CheckPlayersPC
