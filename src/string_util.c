@@ -4,6 +4,7 @@
 #include "strings.h"
 #include "union_room_chat.h"
 #include "hoenn_level_scaling.h"
+#include "regions.h"
 #include "event_data.h"
 
 EWRAM_DATA u8 gStringVar1[0x100] = {0};
@@ -545,7 +546,14 @@ static const u8 *ExpandPlaceholder_Groudon(void)
 static const u8 *ExpandPlaceholder_Region(void)
 {
     if (IS_HNS)
+    {
+        // Origin Jade: {REGION} richtet sich nach dem Standort des Spielers.
+        // Die Wandkarte im Kinderzimmer von Wurzelheim sprach sonst von
+        // "Johto und Kanto" (Discord-Report).
+        if (GetCurrentRegion() == REGION_HOENN)
+            return gText_Hoenn;
         return FlagGet(FLAG_VISITED_KANTO) ? gText_JohtoKanto : gText_Johto;
+    }
     else if (IS_FRLG)
         return gText_Kanto;
     else
