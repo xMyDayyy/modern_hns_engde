@@ -75,9 +75,10 @@ EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
 	.string "Aber bisher haben mich nur lausige\n"
 	.string "Trainer mit noch lausigeren Pokémon\l"
 	.string "herausgefordert.\p"
-	.string "Wie sieht es mit dir aus?\p"
-	.string "Es würde mich überaus freuen, wenn du\n"
-	.string "mich zwingst, alles zu geben!$"
+	.string "Doch von dir habe ich gehört…\n"
+	.string "Champion zweier Regionen.\p"
+	.string "Endlich jemand, der mich zwingen\n"
+	.string "könnte, alles zu geben!$"
 #else
 	.string "Welcome, my name is GLACIA\n"
 	.string "of the ELITE FOUR.\p"
@@ -85,9 +86,10 @@ EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
 	.string "so that I may hone my ice skills.\p"
 	.string "But all I have seen are challenges by\n"
 	.string "weak TRAINERS and their POKéMON.\p"
-	.string "What about you?\p"
-	.string "It would please me to no end if I could\n"
-	.string "go all out against you!$"
+	.string "You, though… I have heard of you.\n"
+	.string "The CHAMPION of two regions.\p"
+	.string "At last, someone who might force me\n"
+	.string "to go all out!$"
 #endif
 
 EverGrandeCity_GlaciasRoom_Text_Defeat:

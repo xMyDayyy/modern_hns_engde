@@ -74,19 +74,19 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
 #if GERMAN
-	.string "Willkommen, Herausforderer!\n"
+	.string "Da bist du ja endlich!\n"
 	.string "Ich bin Ulrich von den Top Vier.\p"
-	.string "Ich mag deinen herausfordernden Blick.\n"
-	.string "Ich denke, das wird ein guter Kampf.\l"
+	.string "Der Champion von Johto und Kanto,\n"
+	.string "hier in unserer Liga…\l"
 	.string "Gut! Das sieht gut aus!\p"
 	.string "Schön! Dann lass uns beide einen Kampf\n"
 	.string "erleben, wie man ihn nur hier in der\l"
 	.string "Pokémon Liga erleben kann!$"
 #else
-	.string "Welcome, challenger!\n"
+	.string "So you finally made it!\n"
 	.string "I'm SIDNEY of the ELITE FOUR.\p"
-	.string "I like that look you're giving me.\n"
-	.string "I guess you'll give me a good match.\l"
+	.string "The CHAMPION of JOHTO and KANTO,\n"
+	.string "right here in our LEAGUE…\l"
 	.string "That's good! Looking real good!\p"
 	.string "All right! You and me, let's enjoy\n"
 	.string "a battle that can only be staged\l"
