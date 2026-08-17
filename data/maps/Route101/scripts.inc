@@ -232,7 +232,7 @@ Route101_Text_TroyLicenseCall:
 	.string "sie herbekommst.\p"
 	.string "Bis bald!$"
 #else
-	.string "TROY: Hello, {PLAYER}! PROF. BIRCH\n"
+	.string "STEVEN: Hello, {PLAYER}! PROF. BIRCH\n"
 	.string "told me you've arrived in HOENN.\p"
 	.string "One thing that matters on your\n"
 	.string "journey: to use HMs outside of\l"

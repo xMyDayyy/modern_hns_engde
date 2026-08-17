@@ -95,7 +95,7 @@ GraniteCave_StevensRoom_Text_GoodToSeeYouLetterForMe:
 	.string "Steinen.\p"
 	.string "Oh? Ein Brief? Für mich?$"
 #else
-	.string "TROY: Hi, {PLAYER}!\n"
+	.string "STEVEN: Hi, {PLAYER}!\n"
 	.string "Good to see you again.\p"
 	.string "What am I doing here in the cave?\p"
 	.string "I'm looking for rare stones.\p"
@@ -132,7 +132,7 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
 	.string "Du wirst auch hier Champ. Daran habe\n"
 	.string "ich keinen Zweifel.$"
 #else
-	.string "TROY: Your POKéMON appear quite\n"
+	.string "STEVEN: Your POKéMON appear quite\n"
 	.string "capable.\p"
 	.string "I know how good you are - that's why\n"
 	.string "I brought you to HOENN.\p"

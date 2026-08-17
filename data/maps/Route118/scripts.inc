@@ -254,7 +254,7 @@ Route118_Text_StevenQuestions:
 	.string "wird sich freuen.\p"
 	.string "Wir sehen uns, bis bald!$"
 #else
-	.string "TROY: Hi, {PLAYER}!\p"
+	.string "STEVEN: Hi, {PLAYER}!\p"
 	.string "So, how do you like HOENN\n"
 	.string "so far?\p"
 	.string "I imagine the variety of new POKéMON\n"

@@ -320,7 +320,7 @@ Text_HnsStevenGiveDive:
 	.string "Die Arena hier in Moosbach wartet\n"
 	.string "schon auf dich.$"
 #else
-	.string "TROY: {PLAYER}?\p"
+	.string "STEVEN: {PLAYER}?\p"
 	.string "As you can see, there's not much here,\n"
 	.string "but this is my home.\p"
 	.string "Here, take this HM. You'll never have\n"

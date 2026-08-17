@@ -84,7 +84,7 @@ MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 	.string "Hähähähä, das kann selbst ich dir\n"
 	.string "nicht sagen.$"
 #else
-	.string "TROY: Come to think of it…\p"
+	.string "STEVEN: Come to think of it…\p"
 	.string "The first time I ever saw you battle,\n"
 	.string "I knew you'd achieve great things.\p"
 	.string "My predictions usually come true.\p"

@@ -44,7 +44,7 @@ GraniteCave_1F_Text_HnsHikerDark:
 	.string "It gets awfully dark ahead.\l"
 	.string "It'll be tough trying to explore.\p"
 	.string "That guy who was here earlier…\n"
-	.string "TROY, I think his name was…\p"
+	.string "STEVEN, I think his name was…\p"
 	.string "He walked straight in like it was\n"
 	.string "broad daylight.\p"
 	.string "You look like you could do the same.\n"
