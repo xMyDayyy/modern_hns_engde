@@ -5040,7 +5040,7 @@ MatchCall_Text_BrendanRayquazaCall:
 #else
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "BRENDAN: Hey, {PLAYER}!\n"
+	.string "MAY: Hey, {PLAYER}!\n"
 	.string "I was in PACIFIDLOG just now.\p"
 	.string "I saw this huge green POKéMON\n"
 	.string "flying across the sky.\p"
@@ -5335,7 +5335,7 @@ MatchCall_Text_Brendan1::
 	.string "zur See hinaus.\n"
 	.string "Er muss das Meer sehr lieben.$"
 #else
-	.string "BRENDAN: Hey, {PLAYER}!\p"
+	.string "MAY: Hey, {PLAYER}!\p"
 	.string "MR. BRINEY retired as a SAILOR,\n"
 	.string "but I still see him out on the sea\l"
 	.string "with his pet PEEKO sometimes.\p"
@@ -5355,7 +5355,7 @@ MatchCall_Text_Brendan2::
 	.string "Arena bauen, werde ich mich als\l"
 	.string "Arenaleiter bewerben…$"
 #else
-	.string "BRENDAN: Hey, {PLAYER}!\p"
+	.string "MAY: Hey, {PLAYER}!\p"
 	.string "I don't get how little towns like\n"
 	.string "PETALBURG and DEWFORD have GYMS.\p"
 	.string "I mean, not when the big port of\n"
@@ -5379,7 +5379,7 @@ MatchCall_Text_Brendan3::
 	.string "…\p"
 	.string "Der Zertrümmerer!$"
 #else
-	.string "BRENDAN: Yo, {PLAYER}!\p"
+	.string "MAY: Yo, {PLAYER}!\p"
 	.string "Do you remember a guy named\n"
 	.string "the CUTTER in RUSTBORO?\l"
 	.string "He had a house there, right?\p"
@@ -5399,7 +5399,7 @@ MatchCall_Text_Brendan4::
 	.string "Der heißt so, weil er Metarost City und\l"
 	.string "Wiesenflur verbindet.$"
 #else
-	.string "BRENDAN: This voice… {PLAYER}?\p"
+	.string "MAY: This voice… {PLAYER}?\p"
 	.string "They gave RUSTURF TUNNEL its name\n"
 	.string "because it joins RUSTBORO and\l"
 	.string "VERDANTURF.\p"
@@ -5415,7 +5415,7 @@ MatchCall_Text_Brendan5::
 	.string "der man sich ausruhen kann.\p"
 	.string "Sie lebt nördlich der Wüste.$"
 #else
-	.string "BRENDAN: {PLAYER}, what's up?\p"
+	.string "MAY: {PLAYER}, what's up?\p"
 	.string "Hey, I'm out on ROUTE 111 now.\p"
 	.string "I'm going to rest up at an old\n"
 	.string "lady's house north of the desert.\p"
@@ -5432,7 +5432,7 @@ MatchCall_Text_Brendan6::
 	.string "sichtbar und dann wieder unsichtbar.\p"
 	.string "Ich würde ihn zu gerne mal sehen!$"
 #else
-	.string "BRENDAN: Hey, {PLAYER}!\p"
+	.string "MAY: Hey, {PLAYER}!\p"
 	.string "Did you know about the MIRAGE\n"
 	.string "TOWER in the desert?\p"
 	.string "They say, like a mirage, it can be\n"
@@ -5448,7 +5448,7 @@ MatchCall_Text_Brendan7::
 	.string "Und es regnet sehr oft.\p"
 	.string "Ich bin bis auf die Knochen nass.$"
 #else
-	.string "BRENDAN: Who's this? Oh, {PLAYER}?\n"
+	.string "MAY: Who's this? Oh, {PLAYER}?\n"
 	.string "Guess what? I'm on ROUTE 119 now.\p"
 	.string "There's a big river here, and\n"
 	.string "it rains all the time.\p"
@@ -5464,7 +5464,7 @@ MatchCall_Text_Brendan8::
 	.string "Daher gibt es dort sehr viele\n"
 	.string "Geist-Pokémon.$"
 #else
-	.string "BRENDAN: {PLAYER}!\p"
+	.string "MAY: {PLAYER}!\p"
 	.string "MT. PYRE is a memorial to POKéMON\n"
 	.string "whose lives have ended.\p"
 	.string "That's probably why it's infested\n"
@@ -5481,7 +5481,7 @@ MatchCall_Text_Brendan9::
 	.string "den Weg gelaufen.\p"
 	.string "Das war eine merkwürdige Situation…$"
 #else
-	.string "BRENDAN: Hey there, {PLAYER}.\p"
+	.string "MAY: Hey there, {PLAYER}.\p"
 	.string "I was on my way back to the hot\n"
 	.string "spring in LAVARIDGE.\p"
 	.string "But around JAGGED PASS, I ran into\n"
@@ -5498,7 +5498,7 @@ MatchCall_Text_Brendan10::
 	.string "Tiefseehöhle während einer Expedition\l"
 	.string "entdeckt hat.$"
 #else
-	.string "BRENDAN: Hi, {PLAYER}!\n"
+	.string "MAY: Hi, {PLAYER}!\n"
 	.string "Did you catch the news?\p"
 	.string "They say CAPT. STERN discovered\n"
 	.string "the SEAFLOOR CAVERN while on his\l"
@@ -5518,7 +5518,7 @@ MatchCall_Text_Brendan11::
 	.string "Mann, Pokémon können einfach\n"
 	.string "alles.$"
 #else
-	.string "BRENDAN: Hey there, {PLAYER}!\n"
+	.string "MAY: Hey there, {PLAYER}!\n"
 	.string "Don't you think it's awesome?\p"
 	.string "Even if you don't have a boat,\n"
 	.string "you can cross the sea using\l"
@@ -5540,7 +5540,7 @@ MatchCall_Text_Brendan12::
 	.string "hast, tauchst du einfach wieder auf.\l"
 	.string "Kinderleicht!$"
 #else
-	.string "BRENDAN: Howdy, {PLAYER}!\n"
+	.string "MAY: Howdy, {PLAYER}!\n"
 	.string "How are you holding up?\p"
 	.string "Ever found your way to the other\n"
 	.string "side blocked while on the sea?\p"
@@ -5561,7 +5561,7 @@ MatchCall_Text_Brendan13::
 	.string "Da würde ich mir echt gerne wenigstens\n"
 	.string "eins von fangen…$"
 #else
-	.string "BRENDAN: Hey there, {PLAYER}!\p"
+	.string "MAY: Hey there, {PLAYER}!\p"
 	.string "How's it going? Filling up your\n"
 	.string "POKéDEX successfully?\p"
 	.string "I heard a rumor that there are\n"
@@ -5579,7 +5579,7 @@ MatchCall_Text_Brendan14::
 	.string "Fantastisch!\p"
 	.string "Du bist dem Ziel sehr, sehr nah!$"
 #else
-	.string "BRENDAN: {PLAYER}!\n"
+	.string "MAY: {PLAYER}!\n"
 	.string "I heard the rumors!\p"
 	.string "You beat the SOOTOPOLIS GYM\n"
 	.string "LEADER? Awesome!\p"
@@ -5595,7 +5595,7 @@ MatchCall_Text_Brendan15::
 	.string "ich mit dir befreundet bin…\l"
 	.string "Dann sind sie alle neidisch!$"
 #else
-	.string "BRENDAN: There isn't a TRAINER in\n"
+	.string "MAY: There isn't a TRAINER in\n"
 	.string "all of HOENN who doesn't know who\l"
 	.string "you are, {PLAYER}!\p"
 	.string "When I tell people that I'm friends\n"
