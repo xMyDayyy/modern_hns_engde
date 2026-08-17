@@ -1,58 +1,126 @@
-# Über `hns_de`
-<img width="465" height="600" alt="HnSDeutschLogo" src="https://github.com/user-attachments/assets/fdcb84cd-7b60-4df8-bc1d-efa2d4d0cc50" />
+# Pokémon Origin Jade
 
-**`hns_de`** hierbei handelt es sich um eine Basis für deutsche Romhacks, aufbauend auf pokeemerald-expansion. Es lässt sich daraus aktuell Pokémon Heart&Soul (Johto) bauen. Das gesamte Archiv wurde anhand von deutschen Roms und viel Handarbeit komplett auf deutsch übersetzt. Man soll später auch Smaragd und Feuerrot mit demselben Archiv erstellen können (in Arbeit). Wir arbeiten aktuell an einer HnS-Version, welche Hoenn enthält. Diese befindet sich nicht hier, sondern in einem Fork.
+<!-- Logo hier einfügen -->
 
+**Pokémon Origin Jade** ist ein deutschsprachiger Romhack auf Basis von
+[`hns_de`](https://github.com/helikoptermann843/hns_de) und
+[`pokeemerald-expansion`](https://github.com/rh-hideout/pokeemerald-expansion).
 
-# About `pokeemerald-expansion`
-![Gif that shows debugging functionality that is unique to pokeemerald-expansion such as rerolling Trainer ID, Cheat Start, PC from Debug Menu, Debug PC Fill, Pokémon Sprite Visualizer, Debug Warp to Map, and Battle Debug Menu](https://github.com/user-attachments/assets/cf9dfbee-4c6b-4bca-8e0a-07f116ef891c) ![Gif that shows overworld functionality that is unique to pokeemerald-expansion such as indoor running, BW2 style map popups, overworld followers, DNA Splicers, Gen 1 style fishing, OW Item descriptions, Quick Run from Battle, Use Last Ball, Wild Double Battles, and Catch from EXP](https://github.com/user-attachments/assets/383af243-0904-4d41-bced-721492fbc48e) ![Gif that shows off a number of modern Pokémon battle mechanics happening in the pokeemerald-expansion engine: 2 vs 1 battles, modern Pokémon, items, moves, abilities, fully customizable opponents and partners, Trainer Slides, and generational gimmicks](https://github.com/user-attachments/assets/50c576bc-415e-4d66-a38f-ad712f3316be)
+Die Idee: **eine durchgehende Reise durch drei Regionen.** Nach Johto und Kanto
+führt der Weg weiter nach **Hoenn** — nicht als neues Spiel, sondern als
+Fortsetzung derselben Geschichte, mit demselben Team und demselben Spielstand.
 
-<!-- If you want to re-record or change these gifs, here are some notes that I used: https://files.catbox.moe/05001g.md -->
+<!-- Titelbildschirm hier einfügen -->
 
-**`pokeemerald-expansion`** is a GBA ROM hack base that equips developers with a comprehensive toolkit for creating Pokémon ROM hacks. **`pokeemerald-expansion`** is built on top of [pret's `pokeemerald`](https://github.com/pret/pokeemerald) decompilation project. **It is not a playable Pokémon game on its own.**
+---
 
-# [Features](FEATURES.md)
+## Der Ausgangspunkt
 
-**`pokeemerald-expansion`** offers hundreds of features from various [core series Pokémon games](https://bulbapedia.bulbagarden.net/wiki/Core_series), along with popular quality-of-life enhancements designed to streamline development and improve the player experience. A full list of those features can be found in [`FEATURES.md`](FEATURES.md).
+Du kommst als **Champion des Festlands** in Hoenn an, eingeladen von Troy Trumm.
+Das verändert alles gegenüber der Smaragd-Vorlage: Niemand erklärt dir, wie man
+ein Pokémon fängt. Niemand hält dich für einen Anfänger. Wer dich kennt, weiß,
+wen er vor sich hat — und wer dich nicht kennt, hat höchstens Gerüchte gehört.
 
-# [Credits](CREDITS.md)
+Die gesamte Anfangsstrecke wurde daraufhin umgebaut: kein Umzug, keine
+Starterwahl, keine Tutorials.
 
- [![](https://img.shields.io/github/all-contributors/rh-hideout/pokeemerald-expansion/upcoming)](CREDITS.md)
+---
 
-If you use **`pokeemerald-expansion`**, please credit **RHH (Rom Hacking Hideout)**. Optionally, include the version number for clarity.
+## Was anders ist
+
+### Feldattacken hängen an den Orden
+
+Deine VMs bringst du aus Johto und Kanto mit — einsetzen darfst du sie in Hoenn
+aber erst mit dem passenden Orden.
+
+| Orden | Arena | schaltet frei |
+|---|---|---|
+| Steinorden | Metarost City | Zerschneider |
+| Dynamo-Orden | Malvenfroh City | Zertrümmerer |
+| Hitzeorden | Bad Lavastadt | Stärke |
+| Balanceorden | Blütenburg City | Surfer |
+| Mentalorden | Moosbach City | Taucher |
+| Schauerorden | Xeneroville | Kaskade |
+
+**Blitz und Fliegen** brauchen keine Erlaubnis.
+
+### Ein Schwierigkeitsgrad, der zur Spielzeit passt
+
+Hoenn ist Endspiel-Inhalt, und das merkt man. Alle acht Arenaleiter treten mit
+**sechs Pokémon** an — in jedem Rückkampf ebenso —, tragen sechs Halteitems und
+haben Top-Genesungen dabei. Die Arenen sind typenrein. Wilde Pokémon und
+Trainer skalieren mit deinem Fortschritt.
+
+### Figuren mit Vorgeschichte
+
+**Troy** hat dich nach Hoenn geholt. Was er dort treibt, sagt er nicht.
+**Maike** nimmt dich als Messlatte und wird über fünf Begegnungen hinweg
+spürbar stärker — von drei Pokémon bis zum vollen Team. **Norman** ist
+Arenaleiter, nicht dein Vater, und meldet sich erst, wenn seine Arena
+wiedereröffnet.
+
+### Deutsch, durchgehend
+
+Alle Texte folgen belegten offiziellen Übersetzungen. Terminologie aus den
+Generationen 1 bis 7, Titelform statt Großbuchstaben, und jede Zeile auf die
+Pixelbreite des GBA-Zeichensatzes geprüft.
+
+---
+
+## Bauen
+
+```bash
+make jade
+```
+
+Das Ergebnis heißt `Pokemon_Origin_Jade.gba`.
+
+Voraussetzungen und Einrichtung stehen in [`INSTALL.md`](INSTALL.md). Wer die
+reine HnS-Fassung ohne Hoenn bauen will, benutzt weiterhin `make hns`.
+
+> ❗ Bitte **nicht** die „Download ZIP"-Schaltfläche von GitHub verwenden — der
+> Verlauf fehlt dann, und Aktualisierungen lassen sich nicht mehr einspielen.
+
+---
+
+## Stand der Dinge
+
+Hoenn ist spielbar und wird gerade durchgetestet. Was fertig ist und was noch
+aussteht, steht im [Änderungsverzeichnis](CHANGELOG.md); eine ausführliche
+Fassung für Testerinnen und Tester liegt unter
+[`CHANGELOG-ausfuehrlich.md`](CHANGELOG-ausfuehrlich.md).
+
+**In Planung:** Der Weg soll künftig in **Kanto** beginnen, in der Fassung der
+ersten Generation, und von dort über Johto nach Hoenn führen — eine Reise im
+Sinne des Anime. Die Vorarbeiten dazu stehen in
+[`PLANUNG-Gesamt.md`](PLANUNG-Gesamt.md).
+
+---
+
+## Danksagung
+
+Dieses Projekt wäre ohne die Vorarbeit anderer nicht möglich:
+
+- **[Pokémon HnS](https://github.com/PokemonHnS-Development/pokehns-expansion)**
+  — die Johto- und Kanto-Grundlage, auf der alles aufbaut
+- **[`hns_de`](https://github.com/helikoptermann843/hns_de)** — die deutsche
+  Lokalisierung von HnS
+- **[RHH's `pokeemerald-expansion`](https://github.com/rh-hideout/pokeemerald-expansion)**
+  — die Engine mit ihren hunderten Funktionen
+- **[pret's `pokeemerald`](https://github.com/pret/pokeemerald)** — das
+  Decompilation-Projekt, das den Anfang gemacht hat
 
 ```
-Based off RHH's pokeemerald-expansion 1.15.1 https://github.com/rh-hideout/pokeemerald-expansion/
+Based off RHH's pokeemerald-expansion https://github.com/rh-hideout/pokeemerald-expansion/
 ```
 
-Please consider [crediting all contributors](CREDITS.md) involved in the project!
+Alle Mitwirkenden der Engine sind in [`CREDITS.md`](CREDITS.md) aufgeführt.
 
-# Choosing `pokeemerald` or **`pokeemerald-expansion`**
+---
 
-- **`pokeemerald-expansion`** supports multiplayer functionality with other games built on **`pokeemerald-expansion`**. It is not compatible with official Pokémon games.
-- If compatibility with official games is important, use [`pokeemerald`](https://github.com/pret/pokeemerald). Otherwise, we recommend using **`pokeemerald-expansion`**.
-- **`pokeemerald-expansion`** incorporates regular updates from `pokeemerald`, including bug fixes and documentation improvements.
+## Rechtliches
 
-# [Getting Started](INSTALL.md)
-
-❗❗ **Important**: Do not use GitHub's "Download Zip" option as it will not include commit history. This is necessary if you want to update or merge other feature branches.
-
-If you're new to git and GitHub, [Team Aqua's Asset Repo](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/) has a [guide to forking and cloning the repository](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub). Then you can follow one of the following guides:
-
-## 📥 [Installing **`pokeemerald-expansion`**](INSTALL.md)
-## 🏗️ [Building **`pokeemerald-expansion`**](INSTALL.md#Building-pokeemerald-expansion)
-## 🚚 [Migrating from **`pokeemerald`**](INSTALL.md#Migrating-from-pokeemerald)
-## 🚀 [Updating **`pokeemerald-expansion`**](INSTALL.md#Updating-pokeemerald-expansion)
-
-# [Documentation](https://rh-hideout.github.io/pokeemerald-expansion/)
-
-For detailed documentation, visit the [pokeemerald-expansion documentation page](https://rh-hideout.github.io/pokeemerald-expansion/).
-
-# [Contributions](CONTRIBUTING.md)
-If you are looking to [report a bug](CONTRIBUTING.md#Bug-Report), [open a pull request](CONTRIBUTING.md#Pull-Requests), or [request a feature](CONTRIBUTING.md#Feature-Request), our [`CONTRIBUTING.md`](CONTRIBUTING.md) has guides for each.
-
-# [Community](https://discord.gg/6CzjAG6GZk)
-
-[![](https://dcbadge.limes.pink/api/server/6CzjAG6GZk)](https://discord.gg/6CzjAG6GZk)
-
-Our community uses the [ROM Hacking Hideout (RHH) Discord server](https://discord.gg/6CzjAG6GZk) to communicate and organize. Most of our discussions take place there, and we welcome anybody to join us!
+Pokémon ist eine eingetragene Marke von Nintendo, Game Freak und The Pokémon
+Company. Dieses Projekt ist ein nichtkommerzielles Fanprojekt und steht in
+keiner Verbindung zu den Rechteinhabern. Es wird **kein Spielabbild
+verbreitet** — zum Spielen wird der Quelltext selbst gebaut.
