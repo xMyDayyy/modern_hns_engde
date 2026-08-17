@@ -275,9 +275,11 @@ VermilionCity_Gym_EventScript_GiveThunderstone::
 	msgbox VermilionGym_Text_LtSurgeThunderstone, MSGBOX_DEFAULT
 	giveitem ITEM_THUNDER_STONE
 	return
+
 VermilionCity_Gym_EventScript_GiveTM::
-	msgbox VermilionGym_Text_LtSurgeTm, MSGBOX_DEFAULT
+	msgbox VermilionGym_Text_LtSurge_GiveTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM_SHOCK_WAVE
+	msgbox VermilionGym_Text_LtSurge_ExplainTM, MSGBOX_DEFAULT
 	return
 
 VermilionCity_Gym_EventScript_Surge_Defeated::
@@ -343,13 +345,24 @@ VermilionGym_Text_ThunderBadgeInfo:
 	.string "You wear it proudly, hear?$"
 #endif
 
-VermilionGym_Text_LtSurgeTm:
+VermilionGym_Text_LtSurge_GiveTM:
 #if GERMAN
-	.string "Und nimm diese VM. Sie hat mir\n"
+	.string "Und nimm diese TM. Sie hat mir\n"
 	.string "im Krieg gute Dienste geleistet!$"
 #else
 	.string "And take this TM. It served me\n"
 	.string "well in the war!$"
+#endif
+
+VermilionGym_Text_LtSurge_ExplainTM:
+#if GERMAN
+	.string "Das ist Schockwelle.\p"
+	.string "Eine schnelle Elektro-Attacke, die\n"
+	.string "ihr Ziel niemals verfehlt!$"
+#else
+	.string "It's SHOCK WAVE.\p"
+	.string "A shockingly accurate move\n"
+	.string "which hits every time!$"
 #endif
 
 VermilionGym_Text_LtSurgeThunderstone:

@@ -226,7 +226,7 @@ Debug_EventScript_Text_DefensiveIVs:
 #endif
 
 Debug_EventScript_Script_1::
-	clearflag FLAG_DAILY_FLOWER_SHOP_RECEIVED_BERRY_HNS
+	goto PokemonLeague_HallOfFame_EventScript_SetFirstGameClearFlags
 	release
 	end
 

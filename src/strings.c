@@ -5620,31 +5620,6 @@ const u8 gText_Olivine[] = _("Oliviana-City");
 const u8 gText_Olivine[] = _("OLIVINE");
 #endif
 #if GERMAN
-const u8 gText_Abra[] = _("Abra{CLEAR_TO 0x40}120 Münzen");
-#else
-const u8 gText_Abra[] = _("ABRA{CLEAR_TO 0x40}120 COINS");
-#endif
-#if GERMAN
-const u8 gText_Clefairy[] = _("Piepi{CLEAR_TO 0x40}500 Münzen");
-#else
-const u8 gText_Clefairy[] = _("CLEFAIRY{CLEAR_TO 0x40}500 COINS");
-#endif
-#if GERMAN
-const u8 gText_Munchlax[] = _("Mampfaxo{CLEAR_TO 0x40}2.800 Münzen");
-#else
-const u8 gText_Munchlax[] = _("MUNCHLAX{CLEAR_TO 0x40}2,800 COINS");
-#endif
-#if GERMAN
-const u8 gText_Dratini[] = _("Dratini{CLEAR_TO 0x40}5.500 Münzen");
-#else
-const u8 gText_Dratini[] = _("DRATINI{CLEAR_TO 0x40}5,500 COINS");
-#endif
-#if GERMAN
-const u8 gText_Porygon[] = _("Porygon{CLEAR_TO 0x40}6.500 Münzen");
-#else
-const u8 gText_Porygon[] = _("PORYGON{CLEAR_TO 0x40}6,500 COINS");
-#endif
-#if GERMAN
 const u8 gText_Floor0[] = _("Keller");
 #else
 const u8 gText_Floor0[] = _("Floor 0");

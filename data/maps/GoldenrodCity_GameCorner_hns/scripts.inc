@@ -240,14 +240,14 @@ GoldenrodCity_GameCorner_PrizeRoom_EventScript_ReturnToChooseTMPrize::
 	goto GoldenrodCity_GameCorner_PrizeRoom_EventScript_ChooseTMPrize
 
 GoldenrodCity_GameCorner_PrizeRoom_EventScript_ChooseTMPrize::
-	dynmultichoice 12, 0, FALSE, 7, 0, DYN_MULTICHOICE_CB_NONE, GoldenrodCity_GameCorner_PrizeRoom_Text_TM13, GoldenrodCity_GameCorner_PrizeRoom_Text_TM35, GoldenrodCity_GameCorner_PrizeRoom_Text_TM24, GoldenrodCity_GameCorner_PrizeRoom_Text_TM44, GoldenrodCity_GameCorner_PrizeRoom_Text_TM75, GoldenrodCity_GameCorner_PrizeRoom_Text_TM90, GoldenrodCity_GameCorner_PrizeRoom_Text_Cancel
+	dynmultichoice 12, 0, FALSE, 6, 0, DYN_MULTICHOICE_CB_NONE, GoldenrodCity_GameCorner_PrizeRoom_Text_TM44, GoldenrodCity_GameCorner_PrizeRoom_Text_TM90, GoldenrodCity_GameCorner_PrizeRoom_Text_TM75, GoldenrodCity_GameCorner_PrizeRoom_Text_TM13, GoldenrodCity_GameCorner_PrizeRoom_Text_TM24, GoldenrodCity_GameCorner_PrizeRoom_Text_TM35, GoldenrodCity_GameCorner_PrizeRoom_Text_Cancel
 	switch VAR_RESULT
-	case 0, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMIceBeam
-	case 1, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMFlamethrower
-	case 2, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMThunderbolt
-	case 3, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMRest
-	case 4, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMSwordsDance
-	case 5, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMSubstitute
+	case 0, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMRest
+	case 1, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMSubstitute
+	case 2, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMSwordsDance
+	case 3, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMIceBeam
+	case 4, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMThunderbolt
+	case 5, GoldenrodCity_GameCorner_PrizeRoom_EventScript_TMFlamethrower
 	case 6, GoldenrodCity_GameCorner_PrizeRoom_EventScript_CancelTMSelect
 	goto GoldenrodCity_GameCorner_PrizeRoom_EventScript_CancelTMSelect
 	end
@@ -489,49 +489,53 @@ GoldenrodCity_GameCorner_PrizeRoom_EventScript_CancelTMSelect::
 	release
 	end
 
-GoldenrodCity_GameCorner_PrizeRoom_Text_TM13:
-#if GERMAN
-	.string "Eisstrahl   4000$"
-#else
-	.string "Ice Beam   4000$"
-#endif
-
-GoldenrodCity_GameCorner_PrizeRoom_Text_TM35:
-#if GERMAN
-	.string "Flammenwurf 4000$"
-#else
-	.string "Flamethrower 4000$"
-#endif
-
-GoldenrodCity_GameCorner_PrizeRoom_Text_TM24:
-	.string "THUNDERBOLT  4000$"
-
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM44:
 #if GERMAN
-	.string "Erholung    2000$"
+	.string "Erholung{CLEAR_TO 0x58}2.000 M.$"
 #else
-	.string "Rest       2000$"
-#endif
-
-GoldenrodCity_GameCorner_PrizeRoom_Text_TM75:
-#if GERMAN
-	.string "Schwerttanz 3000$"
-#else
-	.string "Swords Dance 3000$"
+	.string "REST{CLEAR_TO 0x58}2,000 C.$"
 #endif
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_TM90:
 #if GERMAN
-	.string "Delegator  2000$"
+	.string "Delegator{CLEAR_TO 0x58}2.000 M.$"
 #else
-	.string "Substitute 2000$"
+	.string "SUBSTITUTE{CLEAR_TO 0x58}2,000 C.$"
+#endif
+
+GoldenrodCity_GameCorner_PrizeRoom_Text_TM75:
+#if GERMAN
+	.string "Schwerttanz{CLEAR_TO 0x58}3.000 M.$"
+#else
+	.string "SWORDS DANCE{CLEAR_TO 0x58}3,000 C.$"
+#endif
+
+GoldenrodCity_GameCorner_PrizeRoom_Text_TM13:
+#if GERMAN
+	.string "Eisstrahl{CLEAR_TO 0x58}4.000 M.$"
+#else
+	.string "ICE BEAM{CLEAR_TO 0x58}4,000 C.$"
+#endif
+
+GoldenrodCity_GameCorner_PrizeRoom_Text_TM24:
+#if GERMAN
+	.string "Donnerblitz{CLEAR_TO 0x58}4.000 M.$"
+#else
+	.string "THUNDERBOLT{CLEAR_TO 0x58}4,000 C.$"
+#endif
+
+GoldenrodCity_GameCorner_PrizeRoom_Text_TM35:
+#if GERMAN
+	.string "Flammenwurf{CLEAR_TO 0x58}4.000 M.$"
+#else
+	.string "FLAMETHROWER{CLEAR_TO 0x58}4,000 C.$"
 #endif
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_Cancel:
 #if GERMAN
 	.string "Abbruch$"
 #else
-	.string "Cancel$"
+	.string "EXIT$"
 #endif
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_SoYourChoiceIsTM:

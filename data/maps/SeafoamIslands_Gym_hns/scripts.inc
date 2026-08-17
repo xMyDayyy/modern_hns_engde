@@ -15,8 +15,9 @@ SeafoamIslands_Gym_EventScript_Blaine::
 	message SeafoamIslands_Gym_Text_ReceivedVolcanoBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
-	msgbox SeafoamIslands_Gym_Text_TM, MSGBOX_DEFAULT
+	msgbox SeafoamIslands_Gym_Text_Blaine_GiveTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM_OVERHEAT
+	msgbox SeafoamIslands_Gym_Text_Blaine_ExplainTM, MSGBOX_DEFAULT
 	setflag FLAG_BADGE15_GET
 	setflag FLAG_DEFEATED_CINNABAR_ISLAND_GYM
 	addvar VAR_NUM_BADGES, 1
@@ -80,15 +81,26 @@ SeafoamIslands_Gym_Text_GymStatuePlayerWon::
 	.string "BLUE, RED, {PLAYER}$"
 #endif
 
-SeafoamIslands_Gym_Text_TM:
+SeafoamIslands_Gym_Text_Blaine_GiveTM:
 #if GERMAN
-	.string "Nimm auch das hier. Diese TM enthält die\n"
-	.string "mächtige Hitzekoller.\p"
+	.string "Nimm auch das hier!$"
+#else
+	.string "Take this too!$"
+#endif
+
+SeafoamIslands_Gym_Text_Blaine_ExplainTM:
+#if GERMAN
+	.string "Diese TM enthält die mächtige\n"
+	.string "Hitzekoller!\p"
+	.string "Die gewaltige Hitze versengt deine\n"
+	.string "Gegner, senkt danach aber deine Kraft.\p"
 	.string "Ich hoffe, dein nächster Gegner\n"
 	.string "hat Feuerheiler dabei! Waaah!$"
 #else
-	.string "Take this too. This TM contains\n"
-	.string "the awesome OVERHEAT.\p"
+	.string "This TM contains\n"
+	.string "the awesome OVERHEAT!\p"
+	.string "The overwhelming heat scorches your\n"
+	.string "opponents, but then drops your power.\p"
 	.string "I hope your next opponent has an\n"
 	.string "extra BURN HEAL! Waaah!$"
 #endif

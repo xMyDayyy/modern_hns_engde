@@ -71,4 +71,5 @@ NewSinjoh_House2_Text_Bookshelf_South:
 #else
     .string "It's crammed full of POKéMON\n"
 	.string "books.\p"
+	.string "These look newer and more familiar.$"
 #endif

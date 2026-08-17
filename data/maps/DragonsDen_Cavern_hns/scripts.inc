@@ -88,12 +88,11 @@ DragonsDen_Cavern_Trigger_ClairRight::
 	release
 	end
 
-
 DragonsDen_Cavern_EventScript_Clair::
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_WEST
-	msgbox DragonsDen_Cavern_Text_ClairGiveDragonclaw, MSGBOX_DEFAULT
+	msgbox DragonsDen_Cavern_Text_Clair_GiveTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM_DRAGON_PULSE
-	msgbox DragonsDen_Cavern_Text_ClairDescribeDragonclaw, MSGBOX_DEFAULT
+	msgbox DragonsDen_Cavern_Text_Clair_ExplainTM, MSGBOX_DEFAULT
 	closemessage
 	delay 30
 	msgbox DragonsDen_Cavern_Text_ClairWhatsTheMatter, MSGBOX_DEFAULT
@@ -143,7 +142,7 @@ DragonsDen_Cavern_Movement_ClairLeaveRight:
 	walk_up
 	step_end
 
-DragonsDen_Cavern_Text_ClairGiveDragonclaw:
+DragonsDen_Cavern_Text_Clair_GiveTM:
 #if GERMAN
 	.string "Sandra: Warte!\p"
 	.string "Es tut mir leid.\n"
@@ -154,7 +153,7 @@ DragonsDen_Cavern_Text_ClairGiveDragonclaw:
     .string "Here, take this as my apology.$"
 #endif
 
-DragonsDen_Cavern_Text_ClairDescribeDragonclaw:
+DragonsDen_Cavern_Text_Clair_ExplainTM:
 #if GERMAN
 	.string "Das ist Drachenpuls.\p"
 	.string "So eine Art… ach, vergiss es!\p"

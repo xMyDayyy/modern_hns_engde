@@ -11,8 +11,9 @@ CeladonCity_Gym_EventScript_Erika::
 	message CeladonCity_Gym_Text_PlayerReceivedRainbowBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
-	msgbox CeladonCity_Gym_Text_ErikaExplainTM, MSGBOX_DEFAULT
+	msgbox CeladonCity_Gym_Text_Erika_GiveTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM_GIGA_DRAIN
+	msgbox CeladonCity_Gym_Text_Erika_ExplainTM, MSGBOX_DEFAULT
 	setflag FLAG_BADGE12_GET
 	setflag FLAG_DEFEATED_CELADON_GYM
 	addvar VAR_NUM_BADGES, 1
@@ -74,21 +75,27 @@ CeladonCity_Gym_Text_PlayerReceivedRainbowBadge:
 	.string "{PLAYER} received RAINBOWBADGE.$"
 #endif
 
-CeladonCity_Gym_Text_ErikaExplainTM:
+CeladonCity_Gym_Text_Erika_GiveTM:
 #if GERMAN
 	.string "Erika: Das war ein ganz ausgezeichneter\n"
 	.string "Kampf! Ich bin beeindruckt!\p"
 	.string "Dafür sollst du etwas ganz Besonderes\n"
-	.string "bekommen! Die TM19 Gigasauger!\p"
+	.string "bekommen!$"
+#else
+	.string "ERIKA: That was a delightful\n"
+	.string "match.\p"
+	.string "I felt inspired. Please, I wish\n"
+	.string "you to have this TM.$"
+#endif
+
+CeladonCity_Gym_Text_Erika_ExplainTM:
+#if GERMAN
+	.string "Die TM19 Gigasauger!\p"
 	.string "Wenn eins deiner Pokémon diese Attacke\n"
 	.string "einsetzt, erhält es selbst die Hälfte\l"
 	.string "des Schadens, den sie angerichtet hat.\l"
 	.string "Eine gar teuflische Attacke!$"
 #else
-	.string "ERIKA: That was a delightful\n"
-	.string "match.\p"
-	.string "I felt inspired. Please, I wish\n"
-	.string "you to have this TM.\p"
 	.string "It is GIGA DRAIN.\p"
 	.string "It is a wonderful move that\n"
 	.string "drains half the damage it inflicts\l"

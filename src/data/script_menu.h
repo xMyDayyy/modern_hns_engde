@@ -271,20 +271,65 @@ static const struct MenuAction MultichoiceList_GameCornerDolls[] =
     {gText_Exit},
 };
 
+static const struct MenuAction MultichoiceList_GameCornerDolls2[] =
+{
+    {COMPOUND_STRING("REGIROCK DOLL{CLEAR_TO 0x58}9,000 C.")},
+    {COMPOUND_STRING("REGICE DOLL{CLEAR_TO 0x58}9,000 C.")},
+    {COMPOUND_STRING("REGISTEEL DOLL{CLEAR_TO 0x58}9,000 C.")},
+    {gText_Exit},
+};
+
+static const struct MenuAction MultichoiceList_PrizeMons[] = 
+{
+#if GERMAN
+    {COMPOUND_STRING("Abra{CLEAR_TO 0x61}120 M.")},
+    {COMPOUND_STRING("Piepi{CLEAR_TO 0x61}500 M.")},
+    {COMPOUND_STRING("Mampfaxo{CLEAR_TO 0x58}2.800 M.")},
+    {COMPOUND_STRING("Dratini{CLEAR_TO 0x58}5.500 M.")},
+    {COMPOUND_STRING("Porygon{CLEAR_TO 0x58}6.500 M.")},
+#else
+    {COMPOUND_STRING("ABRA{CLEAR_TO 0x61}120 C.")},
+    {COMPOUND_STRING("CLEFAIRY{CLEAR_TO 0x61}500 C.")},
+    {COMPOUND_STRING("MUNCHLAX{CLEAR_TO 0x58}2,800 C.")},
+    {COMPOUND_STRING("DRATINI{CLEAR_TO 0x58}5,500 C.")},
+    {COMPOUND_STRING("PORYGON{CLEAR_TO 0x58}6,500 C.")},
+#endif
+    {gText_Exit},
+};
+
 static const struct MenuAction MultichoiceList_GameCornerTMs[] =
 {
-    {COMPOUND_STRING("TM32{CLEAR_TO 0x3F}1500 Münzen")},
-    {COMPOUND_STRING("TM29{CLEAR_TO 0x3F}3500 Münzen")},
-    {COMPOUND_STRING("TM35{CLEAR_TO 0x3F}4000 Münzen")},
-    {COMPOUND_STRING("TM24{CLEAR_TO 0x3F}4000 Münzen")},
-    {COMPOUND_STRING("TM13{CLEAR_TO 0x3F}4000 Münzen")},
+#if GERMAN
+    {COMPOUND_STRING("Doppelteam{CLEAR_TO 0x58}1.500 M.")},
+    {COMPOUND_STRING("Psychokinese{CLEAR_TO 0x58}3.500 M.")},
+    {COMPOUND_STRING("Eisstrahl{CLEAR_TO 0x58}4.000 M.")},
+    {COMPOUND_STRING("Donnerblitz{CLEAR_TO 0x58}4.000 M.")},
+    {COMPOUND_STRING("Flammenwurf{CLEAR_TO 0x58}4.000 M.")},
+#else
+    {COMPOUND_STRING("DOUBLE TEAM{CLEAR_TO 0x58}1,500 C.")},
+    {COMPOUND_STRING("PSYCHIC{CLEAR_TO 0x58}3,500 C.")},
+    {COMPOUND_STRING("ICE BEAM{CLEAR_TO 0x58}4,000 C.")},
+    {COMPOUND_STRING("THUNDERBOLT{CLEAR_TO 0x58}4,000 C.")},
+    {COMPOUND_STRING("FLAMETHROWER{CLEAR_TO 0x58}4,000 C.")},
+#endif
     {gText_Exit},
 };
 
 static const struct MenuAction MultichoiceList_GameCornerCoins[] =
 {
-    {COMPOUND_STRING(" 50 Münzen{CLEAR_TO 0x45}¥1.000")},
-    {COMPOUND_STRING("500 Münzen{CLEAR_TO 0x45}¥10.000")},
+#if GERMAN
+    {COMPOUND_STRING("50 Münzen{CLEAR_TO 0x48}¥500")},
+    {COMPOUND_STRING("500 Münzen{CLEAR_TO 0x48}¥5.000")},
+    {COMPOUND_STRING("1.000 Münzen{CLEAR_TO 0x48}¥10.000")},
+    {COMPOUND_STRING("2.500 Münzen{CLEAR_TO 0x48}¥25.000")},
+    {COMPOUND_STRING("5.000 Münzen{CLEAR_TO 0x48}¥50.000")},
+#else
+    {COMPOUND_STRING("50 COINS{CLEAR_TO 0x48}¥500")},
+    {COMPOUND_STRING("500 COINS{CLEAR_TO 0x48}¥5,000")},
+    {COMPOUND_STRING("1,000 COINS{CLEAR_TO 0x48}¥10,000")},
+    {COMPOUND_STRING("2,500 COINS{CLEAR_TO 0x48}¥25,000")},
+    {COMPOUND_STRING("5,000 COINS{CLEAR_TO 0x48}¥50,000")},
+#endif
     {gText_Exit},
 };
 
@@ -932,11 +977,19 @@ static const struct MenuAction sMultichoiceList_GameCornerPokemonPrizes[] = {
     { COMPOUND_STRING("Sichlor{CLEAR_TO 0x4B}{FONT_SMALL}5.500 Münzen") },
     { COMPOUND_STRING("Porygon{CLEAR_TO 0x4B}{FONT_SMALL}9.999 Münzen") },
 #else
-    { COMPOUND_STRING("Abra{CLEAR_TO 0x4B}{FONT_SMALL}120 Münzen") },
-    { COMPOUND_STRING("Piepi{CLEAR_TO 0x4B}{FONT_SMALL}750 Münzen") },
-    { COMPOUND_STRING("Pinsir{CLEAR_TO 0x4B}{FONT_SMALL}2.500 Münzen") },
-    { COMPOUND_STRING("Dratini{CLEAR_TO 0x4B}{FONT_SMALL}4.600 Münzen") },
-    { COMPOUND_STRING("Porygon{CLEAR_TO 0x4B}{FONT_SMALL}6.500 Münzen") },
+#if GERMAN
+    { COMPOUND_STRING("Abra{CLEAR_TO 0x55}{FONT_SMALL} 120") },
+    { COMPOUND_STRING("Piepi{CLEAR_TO 0x55}{FONT_SMALL} 750") },
+    { COMPOUND_STRING("Pinsir{CLEAR_TO 0x4B}{FONT_SMALL} 2.500") },
+    { COMPOUND_STRING("Dratini{CLEAR_TO 0x4B}{FONT_SMALL} 4.600") },
+    { COMPOUND_STRING("Porygon{CLEAR_TO 0x4B}{FONT_SMALL} 6.500") },
+#else
+    { COMPOUND_STRING("ABRA{CLEAR_TO 0x55}{FONT_SMALL} 120") },
+    { COMPOUND_STRING("CLEFAIRY{CLEAR_TO 0x55}{FONT_SMALL} 750") },
+    { COMPOUND_STRING("PINSIR{CLEAR_TO 0x4B}{FONT_SMALL} 2,500") },
+    { COMPOUND_STRING("DRATINI{CLEAR_TO 0x4B}{FONT_SMALL} 4,600") },
+    { COMPOUND_STRING("PORYGON{CLEAR_TO 0x4B}{FONT_SMALL} 6,500") },
+#endif
 #endif
     { sText_NoThanks }
 };
@@ -1217,15 +1270,6 @@ static const struct MenuAction MultichoiceList_VermilionHarbor[] =
     {gText_Exit},
 };
 
-static const struct MenuAction MultichoiceList_PrizeMons[] = 
-{
-    {gText_Abra},
-    {gText_Clefairy},
-    {gText_Munchlax},
-    {gText_Dratini},
-    {gText_Porygon},
-    {gText_Exit},
-};
 static const struct MenuAction MultichoiceList_7Floors[] = 
 {
     {gText_Floor6},
@@ -1506,7 +1550,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_LINK_SERVICES_HNS]          = MULTICHOICE(MultichoiceList_LinkServicesHns),
     [MULTI_BATTLE_MODE_HNS]            = MULTICHOICE(MultichoiceList_BattleModeHns),
     [MULTI_FOSSIL_HNS]                = MULTICHOICE(MultichoiceList_FossilHns),
-
+    [MULTI_GAME_CORNER_DOLLS2]         = MULTICHOICE(MultichoiceList_GameCornerDolls2),
 };
 
 const u8 *const gStdStrings[] =

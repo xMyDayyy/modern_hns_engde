@@ -50,8 +50,9 @@ FuchsiaCity_Gym_EventScript_Janine::
 	message FuchsiaCity_Gym_Text_ReceivedSoulBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
-	msgbox FuchsiaCity_Gym_Text_Janine_ToxicSpeech, MSGBOX_DEFAULT
+	msgbox FuchsiaCity_Gym_Text_Janine_GiveTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM_POISON_JAB
+	msgbox FuchsiaCity_Gym_Text_Janine_ExplainTM, MSGBOX_DEFAULT
 	setflag FLAG_BADGE14_GET
 	setflag FLAG_DEFEATED_FUCHSIA_GYM
 	addvar VAR_NUM_BADGES, 1
@@ -117,15 +118,20 @@ FuchsiaCity_Gym_Text_ReceivedSoulBadge:
 	.string "{PLAYER} received SOULBADGE.$"
 #endif
 
-FuchsiaCity_Gym_Text_Janine_ToxicSpeech:
+FuchsiaCity_Gym_Text_Janine_GiveTM:
 #if GERMAN
 	.string "Janina: Du bist stark! Ich habe hier ein\n"
-	.string "ganz besonderes Geschenk für dich!\p"
+	.string "ganz besonderes Geschenk für dich!$"
+#else
+	.string "JANINE: You're so tough! I have a\n"
+	.string "special gift!$"
+#endif
+
+FuchsiaCity_Gym_Text_Janine_ExplainTM:
+#if GERMAN
 	.string "Diese Attacke nennt sich Gifthieb und\n"
 	.string "kann deine Gegner vergiften!$"
 #else
-	.string "JANINE: You're so tough! I have a\n"
-	.string "special gift!\p"
 	.string "It's POISON JAB, a powerful Poison-type\n"
 	.string "move that may poison its victim.$"
 #endif
