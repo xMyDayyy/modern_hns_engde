@@ -99,6 +99,14 @@ without the Hoenn content, use `make hns`.
 
 ### Recently done
 
+- [x] Twins Irm & Ida field four Pokémon in every rematch tier (a double
+      battle with an odd-numbered team looked off), and the TV interviewers
+      Gabby & Ty now bring Plusle and Minun along — four Pokémon per tier
+      instead of two
+- [x] Wally's dialogue keeps up with his team — battle lines no longer name
+      Ralts as his current partner (level scaling evolves it), while the
+      story of catching it together stays untouched
+
 - [x] Nuzlocke works in Hoenn — the encounter-tracking table only covered
       Johto/Kanto in this build (every Hoenn route silently shared one bit
       with Johto's Route 1); all 102 Hoenn areas now have their own bits in
@@ -198,6 +206,11 @@ takes.
 - [ ] Steven's ticket chain, relocated onto the FRLG maps
 
 ### Under consideration
+
+- [ ] Bigger trainer teams from Route 110/111 onward (more than three
+      Pokémon per trainer) so the mid-game doesn't rush by — deliberately
+      parked until the HnS full release, because the final level curve
+      decides whether longer fights at equal level feel right
 
 - [ ] Randomizer fine-tuning — the hook inventory is done and came back
       clean (wild, trainer, gift, static and egg randomization all run
