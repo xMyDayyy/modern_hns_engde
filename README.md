@@ -99,6 +99,18 @@ without the Hoenn content, use `make hns`.
 
 ### Recently done
 
+- [x] Nuzlocke works in Hoenn — the encounter-tracking table only covered
+      Johto/Kanto in this build (every Hoenn route silently shared one bit
+      with Johto's Route 1); all 102 Hoenn areas now have their own bits in
+      a new save field, fully save-compatible
+- [x] Pre-emptive progression audit tool — a repeatable scan that flags
+      every Hoenn script checking a flag or variable the Champion already
+      carries from Johto/Kanto, and understands the build's #if branches;
+      first full run done, remaining findings triaged
+- [x] Rival scene polish — Route 103's first battle always uses May's fixed
+      team line, and the rival encounter theme on Routes 110/119 is always
+      May's (female players heard Brendan's)
+
 - [x] The Rock Smash Dude in Mauville speaks Champion — no more HM tutorial;
       he notes you already carry HM Rock Smash and reminds you that in
       Hoenn it takes Wattson's Dynamo Badge to use it
@@ -187,19 +199,11 @@ takes.
 
 ### Under consideration
 
-- [ ] Nuzlocke support for Hoenn — the encounter-tracking table currently
-      only covers Johto/Kanto in this build; extending it needs ~60 new
-      map-section entries and a wider bitfield in the save's challenge
-      settings (and will later cover the reworked Kanto too)
-- [ ] Randomizer audit for Hoenn — the randomizer itself is species-based
-      and region-neutral, but every Hoenn encounter path (wilds, gifts,
-      statics, the new Elite Four rematch trainers) needs to be verified
-      against its hooks
-- [ ] Pre-emptive progression audit — a repeatable scan that flags every
-      Hoenn script checking a flag or variable the Champion already
-      carries from Johto/Kanto (the game-clear bug class), so these get
-      caught before playtesting; first scan already found six maps still
-      checking old badge flags
+- [ ] Randomizer fine-tuning — the hook inventory is done and came back
+      clean (wild, trainer, gift, static and egg randomization all run
+      through central hooks, so Hoenn is covered); remaining checks are
+      whitelist coverage for species 252+ and the interaction order with
+      level scaling
 - [ ] Open sea routes between regions — custom surf routes with their own
       maps, trainers and encounters connecting Cinnabar↔Lilycove and
       Johto↔Hoenn, so the regions link up in the overworld instead of only

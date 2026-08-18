@@ -357,6 +357,12 @@ struct SaveBlock3
 #endif
     struct ChallengeSettings challengeSettings;
     u16 registeredItemHold;
+#if IS_HNS
+    // Origin Jade: Nuzlocke-Erstbegegnungs-Bits fuer Hoenn (LUT-IDs 0x80+).
+    // Ans Struct-Ende angehaengt = save-vertraeglich; das Budget sichert
+    // der STATIC_ASSERT in src/save.c.
+    u8 nuzlockeEncounterFlagsHoenn[16];
+#endif
 }; /* max size 1624 bytes */
 
 extern struct SaveBlock3 *gSaveBlock3Ptr;

@@ -151,6 +151,111 @@ static const u8 sNuzlockeLUT[] =
     // Max bit index: 0x6F (112 bits). nuzlockeEncounterFlags[16] supports up to 0x7F (128 bits).
     // If you exceed 0x7F, grow nuzlockeEncounterFlags in include/global.h.
 
+    // Origin Jade: Hoenn-Abschnitte (IDs 0x80+ -> zweites Bitfeld in
+    // SaveBlock3.nuzlockeEncounterFlagsHoenn). Werte = Vanilla-IDs + 0x80.
+    [MAPSEC_ROUTE_101] = 0x80,
+    [MAPSEC_ROUTE_102] = 0x81,
+    [MAPSEC_ROUTE_103] = 0x82,
+    [MAPSEC_ROUTE_104] = 0x83,
+    [MAPSEC_ROUTE_105] = 0x84,
+    [MAPSEC_ROUTE_106] = 0x85,
+    [MAPSEC_ROUTE_107] = 0x86,
+    [MAPSEC_ROUTE_108] = 0x87,
+    [MAPSEC_ROUTE_109] = 0x88,
+    [MAPSEC_ROUTE_110] = 0x89,
+    [MAPSEC_ROUTE_111] = 0x8A,
+    [MAPSEC_ROUTE_112] = 0x8B,
+    [MAPSEC_ROUTE_113] = 0x8C,
+    [MAPSEC_ROUTE_114] = 0x8D,
+    [MAPSEC_ROUTE_115] = 0x8E,
+    [MAPSEC_ROUTE_116] = 0x8F,
+    [MAPSEC_ROUTE_117] = 0x90,
+    [MAPSEC_ROUTE_118] = 0x91,
+    [MAPSEC_ROUTE_119] = 0x92,
+    [MAPSEC_ROUTE_120] = 0x93,
+    [MAPSEC_ROUTE_121] = 0x94,
+    [MAPSEC_ROUTE_122] = 0x95,
+    [MAPSEC_ROUTE_123] = 0x96,
+    [MAPSEC_ROUTE_124] = 0x97,
+    [MAPSEC_ROUTE_125] = 0x98,
+    [MAPSEC_ROUTE_126] = 0x99,
+    [MAPSEC_ROUTE_127] = 0x9A,
+    [MAPSEC_ROUTE_128] = 0x9B,
+    [MAPSEC_ROUTE_129] = 0x9C,
+    [MAPSEC_ROUTE_130] = 0x9D,
+    [MAPSEC_ROUTE_131] = 0x9E,
+    [MAPSEC_ROUTE_132] = 0x9F,
+    [MAPSEC_ROUTE_133] = 0xA0,
+    [MAPSEC_ROUTE_134] = 0xA1,
+    [MAPSEC_GRANITE_CAVE] = 0xA2,
+    [MAPSEC_MT_CHIMNEY] = 0xA3,
+    [MAPSEC_PETALBURG_WOODS] = 0xA4,
+    [MAPSEC_RUSTURF_TUNNEL] = 0xA5,
+    [MAPSEC_ABANDONED_SHIP] = 0xA6,
+    [MAPSEC_NEW_MAUVILLE] = 0xA7,
+    [MAPSEC_METEOR_FALLS] = 0xA8,
+    [MAPSEC_MT_PYRE] = 0xA9,
+    [MAPSEC_SHOAL_CAVE] = 0xAA,
+    [MAPSEC_SEAFLOOR_CAVERN] = 0xAB,
+    [MAPSEC_VICTORY_ROAD] = 0xAC,
+    [MAPSEC_CAVE_OF_ORIGIN] = 0xAD,
+    [MAPSEC_FIERY_PATH] = 0xAE,
+    [MAPSEC_JAGGED_PASS] = 0xAF,
+    [MAPSEC_SKY_PILLAR] = 0xB0,
+    [MAPSEC_SAFARI_ZONE] = 0xB1,
+    [MAPSEC_SCORCHED_SLAB] = 0xB2,
+    [MAPSEC_ISLAND_CAVE] = 0xB3,
+    [MAPSEC_DESERT_RUINS] = 0xB4,
+    [MAPSEC_ANCIENT_TOMB] = 0xB5,
+    [MAPSEC_MIRAGE_ISLAND] = 0xB6,
+    [MAPSEC_ARTISAN_CAVE] = 0xB7,
+    [MAPSEC_MARINE_CAVE] = 0xB8,
+    [MAPSEC_TERRA_CAVE] = 0xB9,
+    [MAPSEC_DESERT_UNDERPASS] = 0xBA,
+    [MAPSEC_ALTERING_CAVE] = 0xBB,
+    [MAPSEC_ROUTE_1] = 0xBC,
+    [MAPSEC_ROUTE_2] = 0xBD,
+    [MAPSEC_ROUTE_3] = 0xBE,
+    [MAPSEC_ROUTE_4] = 0xBF,
+    [MAPSEC_ROUTE_5] = 0xC0,
+    [MAPSEC_ROUTE_6] = 0xC1,
+    [MAPSEC_ROUTE_7] = 0xC2,
+    [MAPSEC_ROUTE_8] = 0xC3,
+    [MAPSEC_ROUTE_9] = 0xC4,
+    [MAPSEC_ROUTE_10] = 0xC5,
+    [MAPSEC_ROUTE_11] = 0xC6,
+    [MAPSEC_ROUTE_12] = 0xC7,
+    [MAPSEC_ROUTE_13] = 0xC8,
+    [MAPSEC_ROUTE_14] = 0xC9,
+    [MAPSEC_ROUTE_15] = 0xCA,
+    [MAPSEC_ROUTE_16] = 0xCB,
+    [MAPSEC_ROUTE_17] = 0xCC,
+    [MAPSEC_ROUTE_18] = 0xCD,
+    [MAPSEC_ROUTE_19] = 0xCE,
+    [MAPSEC_ROUTE_20] = 0xCF,
+    [MAPSEC_ROUTE_21] = 0xD0,
+    [MAPSEC_ROUTE_22] = 0xD1,
+    [MAPSEC_ROUTE_23] = 0xD2,
+    [MAPSEC_ROUTE_24] = 0xD3,
+    [MAPSEC_ROUTE_25] = 0xD4,
+    [MAPSEC_VIRIDIAN_FOREST] = 0xD5,
+    [MAPSEC_MT_MOON] = 0xD6,
+    [MAPSEC_DIGLETTS_CAVE] = 0xD7,
+    [MAPSEC_KANTO_VICTORY_ROAD] = 0xD8,
+    [MAPSEC_ROCK_TUNNEL] = 0xD9,
+    [MAPSEC_SEAFOAM_ISLANDS] = 0xDA,
+    [MAPSEC_CERULEAN_CAVE] = 0xDB,
+    [MAPSEC_POWER_PLANT] = 0xDC,
+    [MAPSEC_POKEMON_TOWER] = 0xDD,
+    [MAPSEC_POKEMON_MANSION] = 0xDE,
+    [MAPSEC_KANTO_SAFARI_ZONE] = 0xDF,
+    [MAPSEC_MT_EMBER] = 0xE0,
+    [MAPSEC_BERRY_FOREST] = 0xE1,
+    [MAPSEC_ICEFALL_CAVE] = 0xE2,
+    [MAPSEC_LOST_CAVE] = 0xE3,
+    [MAPSEC_PATTERN_BUSH] = 0xE4,
+    [MAPSEC_BATTLE_FRONTIER] = 0xE5,
+
 #else
     // Hoenn Routes
     [MAPSEC_ROUTE_101]        = 0x00,
@@ -302,10 +407,22 @@ bool8 IsNuzlockeNicknamingActive(void)
     return cs->tx_Nuzlocke_Nicknaming;
 }
 
+// Origin Jade: LUT-IDs < 0x80 liegen im alten Bitfeld (Johto/Kanto),
+// IDs ab 0x80 im neuen Hoenn-Bitfeld am SaveBlock3-Ende.
+static u8 *NuzlockeFlagPtr(u16 mapsec)
+{
+    u16 id = sNuzlockeLUT[mapsec];
+#if IS_HNS
+    if (id >= 0x80)
+        return &gSaveBlock3Ptr->nuzlockeEncounterFlagsHoenn[(id - 0x80) / 8];
+#endif
+    return &gSaveBlock3Ptr->challengeSettings.nuzlockeEncounterFlags[id / 8];
+}
+
 u8 NuzlockeFlagSet(u16 mapsec)
 {
     u16 id = sNuzlockeLUT[mapsec];
-    u8 *ptr = &gSaveBlock3Ptr->challengeSettings.nuzlockeEncounterFlags[id / 8];
+    u8 *ptr = NuzlockeFlagPtr(mapsec);
 
     *ptr |= 1 << (id & 7);
     return 0;
@@ -314,7 +431,7 @@ u8 NuzlockeFlagSet(u16 mapsec)
 u8 NuzlockeFlagClear(u16 mapsec)
 {
     u16 id = sNuzlockeLUT[mapsec];
-    u8 *ptr = &gSaveBlock3Ptr->challengeSettings.nuzlockeEncounterFlags[id / 8];
+    u8 *ptr = NuzlockeFlagPtr(mapsec);
 
     *ptr &= ~(1 << (id & 7));
     return 0;
@@ -323,7 +440,7 @@ u8 NuzlockeFlagClear(u16 mapsec)
 u8 NuzlockeFlagGet(u16 mapsec)
 {
     u16 id = sNuzlockeLUT[mapsec];
-    u8 *ptr = &gSaveBlock3Ptr->challengeSettings.nuzlockeEncounterFlags[id / 8];
+    u8 *ptr = NuzlockeFlagPtr(mapsec);
 
     if (!((*ptr >> (id & 7)) & 1))
         return 0;
