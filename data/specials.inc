@@ -715,3 +715,4 @@ gSpecials::
 	def_special CheckHoennLicense
 	def_special CheckItemHandoverPointless
 	def_special UpdateEliteFourRematch
+	def_special IsPlayerInHoenn

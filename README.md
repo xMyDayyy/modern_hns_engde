@@ -99,6 +99,12 @@ without the Hoenn content, use `make hns`.
 
 ### Recently done
 
+- [x] Hoenn berry system — Emerald's full berry cultivation is back in Hoenn
+      (soft loamy soil, planting your own berries, watering with the Wailmer
+      Pail from the Route 104 flower shop, per-berry growth times), while
+      Johto keeps its HGSS self-replanting trees; the two systems now
+      coexist through runtime region branches
+
 - [x] Prof. Birch handover scene — the Badge Case unlocks the Hoenn badge row
       on the Trainer Card, with a catch-up fallback for existing saves
 - [x] Elite Four rematches — after the Hoenn League win, every member fields a
@@ -132,10 +138,6 @@ without the Hoenn content, use `make hns`.
 ### In progress
 
 - [ ] Playtest pass through Hoenn — Dewford onward
-- [ ] Hoenn berry system — bring back Emerald's full berry cultivation
-      (planting, watering, per-berry growth times) inside Hoenn while Johto
-      keeps its HGSS self-replanting trees; needs region branches in
-      `berry.c` and a split berry-tree script
 - [ ] Origin Jade credits — the official German Emerald left its credits in
       English, so only the Origin Jade-specific credits remain to be decided
 

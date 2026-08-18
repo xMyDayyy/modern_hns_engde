@@ -44,6 +44,7 @@
 #include "random.h"
 #include "rayquaza_scene.h"
 #include "region_map.h"
+#include "regions.h"
 #include "rtc.h"
 #include "script.h"
 #include "script_menu.h"
@@ -6215,4 +6216,12 @@ void GivePartyMonNationalRibbon(void)
         if (GetRibbonCount(mon) > NUM_CUTIES_RIBBONS)
             TryPutSpotTheCutiesOnAir(mon, MON_DATA_NATIONAL_RIBBON);
     }
+}
+
+// Origin Jade: Regionsweiche fuer Skripte (u. a. Beerenbaeume) -
+// TRUE, wenn der Spieler in Hoenn steht.
+u16 IsPlayerInHoenn(void)
+{
+    gSpecialVar_Result = (GetCurrentRegion() == REGION_HOENN);
+    return gSpecialVar_Result;
 }

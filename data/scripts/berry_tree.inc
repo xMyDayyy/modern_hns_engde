@@ -1,6 +1,14 @@
 #if IS_HNS
 
+@ Origin Jade: Regionsweiche. In Hoenn gilt das Smaragd-Anbausystem
+@ (unterer Dateiteil), in Johto/Kanto das HGSS-Selbstversorger-System.
 BerryTreeScript::
+	specialvar VAR_RESULT, IsPlayerInHoenn
+	goto_if_eq VAR_RESULT, TRUE, BerryTreeScript_Emerald
+	goto BerryTreeScript_Hns
+	end
+
+BerryTreeScript_Hns::
 	special ObjectEventInteractionGetBerryTreeData
 	switch VAR_0x8004
 	case BERRY_STAGE_SPARKLING, BerryTree_EventScript_Hns_NotRipe
@@ -56,10 +64,12 @@ BerryTree_EventScript_Hns_Sprout::
 	release
 	end
 
-BerryTree_EventScript_ItemUsePlantBerry::
+@ Origin Jade: Die Item-Einstiege liegen jetzt im gemeinsamen Smaragd-Teil
+@ unten (mit Regionsschutz). Die alten Leer-Stubs bleiben umbenannt erhalten.
+BerryTree_EventScript_ItemUsePlantBerry_HnsUnused::
 	end
 
-BerryTree_EventScript_ItemUseWailmerPail::
+BerryTree_EventScript_ItemUseWailmerPail_HnsUnused::
 	end
 
 BerryTree_Text_Hns_NotRipe:
@@ -95,9 +105,10 @@ BerryTree_Text_Hns_Sprouted:
 	.string "The berry tree suddenly sprouted!$"
 #endif
 
+BerryTreeScript_Emerald::
 #else
-
 BerryTreeScript::
+#endif
 	special ObjectEventInteractionGetBerryTreeData
 	switch VAR_0x8004
 	case BERRY_STAGE_SPARKLING, BerryTree_EventScript_Sparkling
@@ -304,10 +315,21 @@ BerryTree_EventScript_CancelPickingBerry::
 
 BerryTree_EventScript_ItemUsePlantBerry::
 	lockall
+#if IS_HNS
+	@ Nur in Hoenn pflanzbar - in Johto/Kanto tragen die Baeume von selbst.
+	specialvar VAR_RESULT, IsPlayerInHoenn
+	goto_if_eq VAR_RESULT, FALSE, BerryTree_EventScript_ItemUseNoEffectHns
+#endif
 	special ObjectEventInteractionGetBerryTreeData
 	call BerryTree_EventScript_PlantBerry
 	releaseall
 	end
+
+#if IS_HNS
+BerryTree_EventScript_ItemUseNoEffectHns::
+	releaseall
+	end
+#endif
 
 BerryTree_EventScript_WantToWater::
 .if OW_BERRY_PESTS == TRUE
@@ -332,6 +354,11 @@ BerryTree_EventScript_DontWater::
 BerryTree_EventScript_ItemUseWailmerPail::
 	special ObjectEventInteractionGetBerryTreeData
 	lockall
+#if IS_HNS
+	@ Giessen nur im Hoenn-Anbausystem.
+	specialvar VAR_RESULT, IsPlayerInHoenn
+	goto_if_eq VAR_RESULT, FALSE, BerryTree_EventScript_ItemUseNoEffectHns
+#endif
 BerryTree_EventScript_WaterBerry::
 	special ObjectEventInteractionGetBerryName
 	message BerryTree_Text_WateredTheBerry
@@ -382,26 +409,50 @@ BerryTree_Text_PlantedOneBerry:
 
 BerryTree_Text_BerryGrowthStage1:
 .if OW_BERRY_SIX_STAGES == TRUE
+#if GERMAN
 	.string "Hier hast du die {STR_VAR_1}\n"
 	.string "gepflanzt!$"
+#else
+	.string "This is where you planted the\n{STR_VAR_1}!$"
+#endif
 .else
+#if GERMAN
 	.string "Eine {STR_VAR_1} wurde\n"
 	.string "hier gepflanzt.$"
+#else
+	.string "One {STR_VAR_1} was planted here.$"
+#endif
 .endif
 
 BerryTree_Text_BerryGrowthStage2:
 .if OW_BERRY_SIX_STAGES == TRUE
+#if GERMAN
 	.string "Die {STR_VAR_1} sprießt!$"
+#else
+	.string "The {STR_VAR_1} is sprouting!$"
+#endif
 .else
+#if GERMAN
 	.string "{STR_VAR_1} blüht auf.$"
+#else
+	.string "{STR_VAR_1} has sprouted.$"
+#endif
 .endif
 
 BerryTree_Text_BerryGrowthStage3:
 .if OW_BERRY_SIX_STAGES == TRUE
+#if GERMAN
 	.string "Der {STR_VAR_1}-Setzling\n"
 	.string "wächst gut!$"
+#else
+	.string "The {STR_VAR_1}'s seedling is growing well!$"
+#endif
 .else
+#if GERMAN
 	.string "Die {STR_VAR_1}-Pflanze wächst.$"
+#else
+	.string "This {STR_VAR_1} plant is growing taller.$"
+#endif
 .endif
 
 BerryTree_Text_BerryGrowthStageTrunk:
@@ -420,11 +471,20 @@ BerryTree_Text_BerryGrowthStageBudding:
 
 BerryTree_Text_BerryGrowthStage4:
 .if OW_BERRY_SIX_STAGES == TRUE
+#if GERMAN
 	.string "Der {STR_VAR_1}-Baum\n"
 	.string "steht in Blüte!$"
+#else
+	.string "The {STR_VAR_1} tree is in bloom!$"
+#endif
 .else
+#if GERMAN
 	.string "Diese {STR_VAR_1}-Blumen sind\n"
 	.string "{STR_VAR_2}.$"
+#else
+	.string "These {STR_VAR_1} flowers are blooming\n"
+	.string "{STR_VAR_2}.$"
+#endif
 .endif
 
 BerryTree_Text_CareAdverbGreat:
@@ -691,5 +751,3 @@ BerryTree_Text_APokemonAppeared:
 	.string "A Pokémon appeared!$"
 #endif
 .endif
-
-#endif

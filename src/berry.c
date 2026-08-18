@@ -21,6 +21,31 @@ static u8 GetNumStagesWateredByBerryTreeId(u8 id);
 
 #if IS_HNS
 static u8 sLastPickedBerryType = BERRY_NONE;
+
+// Origin Jade: In Hoenn gilt das Smaragd-Anbausystem (pflanzen, giessen,
+// artspezifische Reifezeiten), in Johto/Kanto das HGSS-Selbstversorger-
+// System (feste Reifezeiten, automatische Neupflanzung beim Pfluecken).
+// Interaktionen entscheiden ueber den Baum-Slot; Hintergrundwachstum
+// ebenso: Hoenn belegt die Save-Slots 0-89, Johto/Kanto ab 90.
+// Bekannter Kartendatenfehler: drei Johto-Baeume teilen sich die Slots
+// 2, 31 und 33 mit Hoenn (Fix erst nach dem HnS-Full-Release moeglich,
+// Planungsnote) - dort gilt uebergangsweise Hoenn-Wachstum.
+#define HNS_BERRY_TREE_FIRST_ID 90
+static bool32 BerryTreeIdIsHoenn(u8 id)
+{
+    return id < HNS_BERRY_TREE_FIRST_ID;
+}
+static bool32 BerryTreeIsHoenn(struct BerryTree *tree)
+{
+    return BerryTreeIdIsHoenn((u8)(tree - gSaveBlock1Ptr->berryTrees));
+}
+// HGSS-Reifezeit (frueher der IS_HNS-Zweig von GetStageDurationByBerryType)
+static u16 GetStageDurationHns(u8 berry)
+{
+    if (berry == ITEM_TO_BERRY(ITEM_LUM_BERRY) || berry == ITEM_TO_BERRY(ITEM_SITRUS_BERRY))
+        return 12 * 2;
+    return 3 * 2;
+}
 #endif
 static u8 CalcBerryYieldInternal(u16 max, u16 min, u8 water);
 static u8 CalcBerryYield(struct BerryTree *tree);
@@ -1831,21 +1856,31 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
     if (tree->stopGrowth)
         return FALSE;
 
+#if IS_HNS
+    // HGSS-Baum (Johto/Kanto): jede Stufe springt direkt zu reifen Beeren.
+    if (!BerryTreeIsHoenn(tree))
+    {
+        switch (tree->stage)
+        {
+        case BERRY_STAGE_NO_BERRY:
+            return FALSE;
+        case BERRY_STAGE_PLANTED:
+        case BERRY_STAGE_SPROUTED:
+        case BERRY_STAGE_TALLER:
+        case BERRY_STAGE_FLOWERING:
+            tree->berryYield = CalcBerryYield(tree);
+            tree->stage = BERRY_STAGE_BERRIES;
+            break;
+        case BERRY_STAGE_BERRIES:
+            break;
+        }
+        return TRUE;
+    }
+#endif
     switch (tree->stage)
     {
     case BERRY_STAGE_NO_BERRY:
         return FALSE;
-#if IS_HNS
-    case BERRY_STAGE_PLANTED:
-    case BERRY_STAGE_SPROUTED:
-    case BERRY_STAGE_TALLER:
-    case BERRY_STAGE_FLOWERING:
-        tree->berryYield = CalcBerryYield(tree);
-        tree->stage = BERRY_STAGE_BERRIES;
-        break;
-    case BERRY_STAGE_BERRIES:
-        break;
-#else
     case BERRY_STAGE_FLOWERING:
         tree->berryYield = CalcBerryYield(tree);
     case BERRY_STAGE_PLANTED:
@@ -1873,7 +1908,6 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
         if (++tree->regrowthCount == ((tree->mulch == ITEM_TO_MULCH(ITEM_GOOEY_MULCH)) ? 15 : 10))
             *tree = gBlankBerryTree;
         break;
-#endif
     }
     return TRUE;
 }
@@ -1899,26 +1933,31 @@ void BerryTreeTimeUpdate(s32 minutes)
         tree = &gSaveBlock1Ptr->berryTrees[i];
 
 #if IS_HNS
-        if (tree->berry && tree->stage && !tree->stopGrowth && tree->stage != BERRY_STAGE_BERRIES)
+        // HGSS-Baum (Johto/Kanto): einfacher Minutenzaehler, feste Reifezeit.
+        if (!BerryTreeIsHoenn(tree))
         {
-            s32 time = minutes;
-
-            while (time != 0)
+            if (tree->berry && tree->stage && !tree->stopGrowth && tree->stage != BERRY_STAGE_BERRIES)
             {
-                if (tree->minutesUntilNextStage > time)
+                s32 time = minutes;
+
+                while (time != 0)
                 {
-                    tree->minutesUntilNextStage -= time;
-                    break;
+                    if (tree->minutesUntilNextStage > time)
+                    {
+                        tree->minutesUntilNextStage -= time;
+                        break;
+                    }
+                    time -= tree->minutesUntilNextStage;
+                    tree->minutesUntilNextStage = GetStageDurationHns(tree->berry);
+                    if (!BerryTreeGrow(tree))
+                        break;
+                    if (tree->stage == BERRY_STAGE_BERRIES)
+                        tree->minutesUntilNextStage *= 4;
                 }
-                time -= tree->minutesUntilNextStage;
-                tree->minutesUntilNextStage = GetStageDurationByBerryType(tree->berry);
-                if (!BerryTreeGrow(tree))
-                    break;
-                if (tree->stage == BERRY_STAGE_BERRIES)
-                    tree->minutesUntilNextStage *= 4;
             }
+            continue;
         }
-#else
+#endif
         {
         u32 drainVal;
 
@@ -1994,7 +2033,6 @@ void BerryTreeTimeUpdate(s32 minutes)
             }
         }
         }
-#endif
     }
 }
 
@@ -2005,30 +2043,36 @@ void PlantBerryTree(u8 id, u8 berry, u8 stage, bool8 allowGrowth)
     tree->berry = berry;
     tree->stage = stage;
 #if IS_HNS
-    tree->minutesUntilNextStage = GetStageDurationByBerryType(berry);
-    if (stage == BERRY_STAGE_BERRIES)
+    if (!BerryTreeIdIsHoenn(id))
     {
-        tree->berryYield = CalcBerryYield(tree);
-        tree->minutesUntilNextStage *= 4;
+        // HGSS-Baum: feste Reifezeit, kein Mulch/Feuchtigkeitssystem.
+        tree->minutesUntilNextStage = GetStageDurationHns(berry);
+        if (stage == BERRY_STAGE_BERRIES)
+        {
+            tree->berryYield = CalcBerryYield(tree);
+            tree->minutesUntilNextStage *= 4;
+        }
     }
-#else
-    tree->minutesUntilNextStage = GetMulchAffectedGrowthRate(GetStageDurationByBerryType(berry), tree->mulch, stage);
-    tree->moistureLevel = 100;
-    if (OW_BERRY_ALWAYS_WATERABLE)
-    {
-        u32 berryTreeAge = GetBerryTreeAge(berry, stage);
-        if (GetBerryInfo(berry)->maxYield - berryTreeAge * GetBerryInfo(berry)->maxYield / 5 < GetBerryInfo(berry)->minYield)
-            tree->berryYield = GetBerryInfo(berry)->minYield;
-        else
-            tree->berryYield = GetBerryInfo(berry)->maxYield - berryTreeAge * GetBerryInfo(berry)->maxYield / 5;
-    }
-    else if (stage == BERRY_STAGE_BERRIES)
-    {
-        tree->berryYield = CalcBerryYield(tree);
-        tree->minutesUntilNextStage *= ((tree->mulch == ITEM_TO_MULCH(ITEM_STABLE_MULCH)) ? 6 : 4);
-    }
-    SetTreeMutations(id, berry);
+    else
 #endif
+    {
+        tree->minutesUntilNextStage = GetMulchAffectedGrowthRate(GetStageDurationByBerryType(berry), tree->mulch, stage);
+        tree->moistureLevel = 100;
+        if (OW_BERRY_ALWAYS_WATERABLE)
+        {
+            u32 berryTreeAge = GetBerryTreeAge(berry, stage);
+            if (GetBerryInfo(berry)->maxYield - berryTreeAge * GetBerryInfo(berry)->maxYield / 5 < GetBerryInfo(berry)->minYield)
+                tree->berryYield = GetBerryInfo(berry)->minYield;
+            else
+                tree->berryYield = GetBerryInfo(berry)->maxYield - berryTreeAge * GetBerryInfo(berry)->maxYield / 5;
+        }
+        else if (stage == BERRY_STAGE_BERRIES)
+        {
+            tree->berryYield = CalcBerryYield(tree);
+            tree->minutesUntilNextStage *= ((tree->mulch == ITEM_TO_MULCH(ITEM_STABLE_MULCH)) ? 6 : 4);
+        }
+        SetTreeMutations(id, berry);
+    }
 
     if (!allowGrowth)
         tree->stopGrowth = TRUE;
@@ -2170,13 +2214,8 @@ static u8 GetBerryCountByBerryTreeId(u8 id)
 
 static u16 GetStageDurationByBerryType(u8 berry)
 {
-#if IS_HNS
-    if (berry == ITEM_TO_BERRY(ITEM_LUM_BERRY) || berry == ITEM_TO_BERRY(ITEM_SITRUS_BERRY))
-        return 12 * 2;
-    return 3 * 2;
-#else
+    // Smaragd-Reifezeit; der HGSS-Zweig lebt in GetStageDurationHns().
     return GetBerryInfo(berry)->growthDuration * 60 / (OW_BERRY_SIX_STAGES ? 6 : 4);
-#endif
 }
 
 static u8 GetDrainRateByBerryType(u8 berry)
@@ -2273,15 +2312,24 @@ void Bag_ChooseMulch(void)
 
 void ObjectEventInteractionPlantBerryTree(void)
 {
+    u8 treeId = GetObjectEventBerryTreeId(gSelectedObjectEvent);
+    u8 berry;
+
 #if IS_HNS
-    u8 berry = sLastPickedBerryType;
-    if (berry == BERRY_NONE)
-        berry = ITEM_TO_BERRY(FIRST_BERRY_INDEX);
-    PlantBerryTree(GetObjectEventBerryTreeId(gSelectedObjectEvent), berry, BERRY_STAGE_SPROUTED, TRUE);
-#else
-    u8 berry = ItemIdToBerryType(gSpecialVar_ItemId);
-    PlantBerryTree(GetObjectEventBerryTreeId(gSelectedObjectEvent), berry, BERRY_STAGE_PLANTED, TRUE);
+    if (!BerryTreeIdIsHoenn(treeId))
+    {
+        // HGSS: automatische Neupflanzung der zuletzt gepflueckten Art.
+        berry = sLastPickedBerryType;
+        if (berry == BERRY_NONE)
+            berry = ITEM_TO_BERRY(FIRST_BERRY_INDEX);
+        PlantBerryTree(treeId, berry, BERRY_STAGE_SPROUTED, TRUE);
+        ObjectEventInteractionGetBerryTreeData();
+        return;
+    }
 #endif
+    // Smaragd: die im Beutel gewaehlte Beere wird gepflanzt.
+    berry = ItemIdToBerryType(gSpecialVar_ItemId);
+    PlantBerryTree(treeId, berry, BERRY_STAGE_PLANTED, TRUE);
     ObjectEventInteractionGetBerryTreeData();
 }
 
@@ -2297,12 +2345,18 @@ void ObjectEventInteractionPickBerryTree(void)
 {
     u8 id = GetObjectEventBerryTreeId(gSelectedObjectEvent);
     u8 berry = GetBerryTypeByBerryTreeId(id);
+    u8 mutation;
 
 #if IS_HNS
-    gSpecialVar_0x8004 = AddBagItem(BerryTypeToItemId(berry), GetBerryCountByBerryTreeId(id));
-    sLastPickedBerryType = berry;
-#else
-    u8 mutation = GetTreeMutationValue(id);
+    if (!BerryTreeIdIsHoenn(id))
+    {
+        // HGSS: einsammeln und Art fuer die Neupflanzung merken.
+        gSpecialVar_0x8004 = AddBagItem(BerryTypeToItemId(berry), GetBerryCountByBerryTreeId(id));
+        sLastPickedBerryType = berry;
+        return;
+    }
+#endif
+    mutation = GetTreeMutationValue(id);
 
     if (!OW_BERRY_MUTATIONS || mutation == 0)
     {
@@ -2315,7 +2369,6 @@ void ObjectEventInteractionPickBerryTree(void)
         AddBagItem(BerryTypeToItemId(berry), GetBerryCountByBerryTreeId(id));
         AddBagItem(BerryTypeToItemId(mutation), 1);
     }
-#endif
 }
 
 void ObjectEventInteractionRemoveBerryTree(void)
