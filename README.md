@@ -99,6 +99,11 @@ without the Hoenn content, use `make hns`.
 
 ### Recently done
 
+- [x] Rival consistency on Route 110 — May's bike sprite is now forced for
+      the rival's departure too (female players saw Brendan's bike), and the
+      Itemfinder handover is retired: the Champion has carried one since
+      Johto, and May's dialogue acknowledges exactly that
+
 - [x] Trainer payouts now scale with the endgame — prize money is calculated
       from the level you actually fought (the scaled team), not the low
       ROM-level from the party file; a routine trainer battle pays like the

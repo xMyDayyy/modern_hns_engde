@@ -470,6 +470,11 @@ Route110_EventScript_BrendanDefeated::
 	end
 
 Route110_EventScript_GiveItemfinder::
+#if IS_HNS
+	@ Origin Jade: Der Champion traegt den Itemradar seit Johto bei sich -
+	@ keine Uebergabe, die Texte nehmen stattdessen darauf Bezug.
+	return
+#endif
 	giveitem_unless_owned ITEM_DOWSING_MACHINE
 	return
 
@@ -837,30 +842,28 @@ Route110_Text_MayDefeated:
 
 Route110_Text_MayTakeThis:
 #if GERMAN
-	.string "Maike: Das hier hilft dir beim Suchen.\p"
-	.string "Ich will dich in Bestform, wenn ich\n"
-	.string "dich endlich schlage.$"
+	.string "Maike: Du hast doch bestimmt noch\n"
+	.string "deinen Itemradar aus Johto dabei?\p"
+	.string "Gut. Ich will dich in Bestform, wenn\n"
+	.string "ich dich endlich schlage.$"
 #else
-	.string "MAY: This will help you search.\p"
-	.string "I want you at your best when I\n"
-	.string "finally beat you.$"
+	.string "MAY: You still carry your ITEMFINDER\n"
+	.string "from JOHTO, right?\p"
+	.string "Good. I want you at your best when\n"
+	.string "I finally beat you.$"
 #endif
 
 Route110_Text_MayExplainItemfinder:
 #if GERMAN
-	.string "Maike: Das ist ein Itemradar.\p"
-	.string "Wenn irgendwo etwas versteckt liegt,\n"
-	.string "gibt er ein Geräusch von sich.\p"
+	.string "Maike: Hier in Hoenn liegt nämlich\n"
+	.string "so einiges versteckt herum.\p"
 	.string "Bis zum nächsten Mal, {PLAYER}.\p"
 	.string "Beim nächsten Mal wird es knapp.$"
 #else
-	.string "MAY: That's an ITEMFINDER.\p"
-	.string "Try it out. If there is an item that's\n"
-	.string "not visible, it emits a sound.\p"
+	.string "MAY: There's quite a lot hidden\n"
+	.string "around HOENN, you know.\p"
 	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
-	.string "I know it's a little silly coming from\n"
-	.string "me, but I think you should train a lot\l"
-	.string "harder for the next time.$"
+	.string "Next time, it'll be close.$"
 #endif
 
 Route110_Text_BrendanLetsBattle:

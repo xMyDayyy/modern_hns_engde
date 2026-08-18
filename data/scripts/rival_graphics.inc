@@ -19,6 +19,13 @@ EventScript_SetupRivalGfxIdMale::
 	return
 
 Common_EventScript_SetupRivalOnBikeGfxId::
+#if IS_HNS
+	@ HnS-Kanon: Auch auf dem Rad ist die Rivalin immer Maike. Ohne diese
+	@ Weiche bekam die weibliche Spielfigur nach dem Route-110-Kampf
+	@ Brix' Bike-Sprite zu sehen (Spieltest-Report).
+	setvar VAR_OBJ_GFX_ID_3, OBJ_EVENT_GFX_RIVAL_MAY_MACH_BIKE
+	end
+#endif
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, EventScript_SetupRivalOnBikeGfxIdFemale
 	goto_if_eq VAR_RESULT, FEMALE, EventScript_SetupRivalOnBikeGfxIdMale
