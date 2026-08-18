@@ -77,11 +77,49 @@ Route111_Text_DontHaveAnyRoom:
 Route111_EventScript_SecretPowerMan::
 	lock
 	faceplayer
+#if IS_HNS
+	@ Origin Jade: Der Champion traegt TM43 laengst bei sich (Johto) -
+	@ keine Doppelvergabe; er weist nur noch auf die Nutzung hin.
+	checkitem ITEM_TM_SECRET_POWER
+	goto_if_eq VAR_RESULT, TRUE, Route111_EventScript_AlreadyHasSecretPower
+#endif
 	msgbox Route111_Text_MakingRoomUseTMToMakeYourOwn, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, Route111_EventScript_GiveSecretPower
 	msgbox Route111_Text_DontWantThis, MSGBOX_DEFAULT
 	release
 	end
+
+#if IS_HNS
+Route111_EventScript_AlreadyHasSecretPower::
+	msgbox Route111_Text_AlreadyHaveSecretPowerHns, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_RECEIVED_SECRET_POWER
+	clearflag FLAG_HIDE_SLATEPORT_CITY_TM_SALESMAN
+	call_if_eq VAR_FACING, DIR_WEST, Route111_EventScript_SecretPowerManExit
+	call_if_eq VAR_FACING, DIR_EAST, Route111_EventScript_SecretPowerManExit
+	call_if_eq VAR_FACING, DIR_NORTH, Route111_EventScript_SecretPowerManExitNorth
+	removeobject VAR_LAST_TALKED
+	release
+	end
+
+Route111_Text_AlreadyHaveSecretPowerHns:
+#if GERMAN
+	.string "Oh! Du hast die TM43, Geheimpower,\n"
+	.string "ja selbst dabei!\p"
+	.string "Dann weißt du ja, was zu tun ist:\n"
+	.string "Setze sie an so einem Busch, einer\l"
+	.string "Einbuchtung oder einem großen Baum\l"
+	.string "ein - und du erhältst dein eigenes\l"
+	.string "Geheimversteck!$"
+#else
+	.string "Oh! You carry TM43, SECRET POWER,\n"
+	.string "yourself!\p"
+	.string "Then you know what to do: use it\n"
+	.string "on a clump like this, an indent, or\l"
+	.string "a large tree - and you'll get your\l"
+	.string "very own secret hideout!$"
+#endif
+#endif
 
 Route111_EventScript_GiveSecretPower::
 	giveitem ITEM_TM_SECRET_POWER

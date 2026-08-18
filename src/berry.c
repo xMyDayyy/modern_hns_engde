@@ -1868,9 +1868,18 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
         case BERRY_STAGE_SPROUTED:
         case BERRY_STAGE_TALLER:
         case BERRY_STAGE_FLOWERING:
-            tree->berryYield = CalcBerryYield(tree);
+        {
+            // Origin Jade: HGSS-Selbstversorger tragen zufaellig 1-5 Beeren
+            // (artgedeckelt) statt konstant Maximum (Spieltest-Report).
+            u8 cap = GetBerryInfo(tree->berry)->maxYield;
+            if (cap > 5)
+                cap = 5;
+            if (cap < 1)
+                cap = 1;
+            tree->berryYield = 1 + Random() % cap;
             tree->stage = BERRY_STAGE_BERRIES;
             break;
+        }
         case BERRY_STAGE_BERRIES:
             break;
         }
