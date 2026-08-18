@@ -5,9 +5,10 @@ FallarborTown_PokemonCenter_1F_MapScripts::
 
 FallarborTown_PokemonCenter_1F_OnTransition:
 #if IS_HNS
-	@ Origin Jade: Das Lagersystem gehoert hier Bill (HnS) - Lanettes
-	@ Vorstellungs-Event entfaellt, ihr Objekt bleibt dauerhaft versteckt.
-	setflag FLAG_HIDE_FALLARBOR_POKEMON_CENTER_LANETTE
+	@ Origin Jade: Lanette bleibt - ihr Text wuerdigt aber Bills System
+	@ (siehe Grusstext). Fuer Spielstaende, die sie per 0198 kurzzeitig
+	@ versteckt hatten, wird das Flag wieder geloescht.
+	clearflag FLAG_HIDE_FALLARBOR_POKEMON_CENTER_LANETTE
 #endif
 	setrespawn HEAL_LOCATION_FALLARBOR_TOWN
 	call Common_EventScript_UpdateBrineyLocation
@@ -30,10 +31,6 @@ FallarborTown_PokemonCenter_1F_EventScript_ExpertM::
 	end
 
 FallarborTown_PokemonCenter_1F_EventScript_Lanette::
-#if IS_HNS
-	release
-	end
-#endif
 	lock
 	faceplayer
 	msgbox FallarborTown_PokemonCenter_1F_Text_LanetteGreeting, MSGBOX_DEFAULT
@@ -96,9 +93,11 @@ FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
 	.string "Wer bist du?\p"
 	.string "Du heißt {PLAYER}{KUN}?\n"
 	.string "Ich sehe schon, du bist ein Trainer.\p"
-	.string "Und das bedeutet, du nutzt das\n"
-	.string "Pokémon-Lagerungs-System, das ich\l"
-	.string "entwickelt habe.\p"
+	.string "Und das bedeutet, du nutzt Bills\n"
+	.string "Pokémon-Lagerungs-System - an dessen\l"
+	.string "Entwicklung ich mitgewirkt habe.\p"
+	.string "Die hübschen Hintergründe für die\n"
+	.string "Boxen? Die stammen von mir.\p"
 	.string "Ich bin durch simple Deduktion zu\n"
 	.string "diesem Schluss gekommen.\p"
 	.string "Du hast mich angesprochen, weil du\n"
@@ -107,7 +106,7 @@ FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
 	.string "vorgestellt. Ich bin Lanette.\p"
 	.string "Ich bin ehrlich erfreut, dich kennen zu\n"
 	.string "lernen. Und ich freue mich, dass du\p"
-	.string "das Lagerungs-System benutzt.\p"
+	.string "Bills Lagerungs-System benutzt.\p"
 	.string "Wenn du magst, besuche mich doch mal.\n"
 	.string "Ich wohne an der Route 114.$"
 #else
@@ -115,8 +114,11 @@ FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
 	.string "You are?\p"
 	.string "Okay, your name's {PLAYER}{KUN}.\n"
 	.string "I can see that you're a TRAINER.\p"
-	.string "So that means you use the POKéMON\n"
-	.string "Storage System I developed.\p"
+	.string "So that means you use BILL's POKéMON\n"
+	.string "Storage System - which I helped\l"
+	.string "develop.\p"
+	.string "The pretty box wallpapers?\n"
+	.string "Those are mine.\p"
 	.string "How I arrived at that conclusion is\n"
 	.string "a simple deductive process.\p"
 	.string "You spoke to me because you wanted\n"

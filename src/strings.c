@@ -2223,6 +2223,17 @@ const u8 gText_Treasures[] = _("Schätze");
 const u8 gText_Treasures[] = _("TREASURES");
 #endif
 #endif
+#if IS_HNS
+// Origin Jade: Das Lagerungs-System gehoert Bill - der Champion weiss
+// das von Anfang an, also heisst der PC durchgaengig so.
+#if GERMAN
+const u8 gText_SomeonesPC[] = _("Bills PC");
+const u8 gText_LanettesPC[] = _("Bills PC");
+#else
+const u8 gText_SomeonesPC[] = _("BILL's PC");
+const u8 gText_LanettesPC[] = _("BILL's PC");
+#endif
+#else
 #if GERMAN
 const u8 gText_SomeonesPC[] = _("Jemandes PC");
 #else
@@ -2232,6 +2243,7 @@ const u8 gText_SomeonesPC[] = _("SOMEONE'S PC");
 const u8 gText_LanettesPC[] = _("Lanettes PC");
 #else
 const u8 gText_LanettesPC[] = _("LANETTE'S PC");
+#endif
 #endif
 #if GERMAN
 const u8 gText_BillsPc[] = _("Bills PC");

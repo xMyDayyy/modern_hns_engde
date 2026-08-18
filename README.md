@@ -107,8 +107,11 @@ without the Hoenn content, use `make hns`.
 - [x] The Secret Power man on Route 111 no longer hands out a duplicate
       TM43 — he recognises the Champion already carries it and just points
       out where to use it
-- [x] Lanette's Fallarbor introduction is retired — the storage system
-      belongs to Bill in this game
+- [x] The PC belongs to Bill, consistently — the storage box is labeled
+      "Bill's PC" everywhere from the start (menu, transfer messages,
+      catch screen), and Lanette stays in Fallarbor with a new role: she
+      helped develop Bill's system and contributed the pretty box
+      wallpapers
 
 - [x] Twins Irm & Ida field four Pokémon in every rematch tier (a double
       battle with an odd-numbered team looked off), and the TV interviewers
