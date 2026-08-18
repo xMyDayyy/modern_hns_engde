@@ -99,6 +99,15 @@ without the Hoenn content, use `make hns`.
 
 ### Recently done
 
+- [x] Engine update merged from the active HnS main repo (41 upstream
+      commits): no more dex softlocks (every species is catchable wild or
+      via repeatable statics), new fly locations with map icons, IVs from
+      1.2, the GS Ball / Celebi event, fixed evolution methods, Amulet
+      Coin and nurse-facing fixes, a rebalanced Arceus finale, party-limit
+      protections and a stack of crash fixes — while Origin Jade's own
+      badge-permission system for HMs remains fully in charge (the
+      upstream HM overhaul now routes Surf and Waterfall through it too)
+
 - [x] Secret base battles no longer crash — the special secret-base trainer
       ID hit two unguarded lookups ("invalid trainer: 65280", then a level-0
       glitch opponent); both now handle it the vanilla way
@@ -247,10 +256,6 @@ takes.
       because only seven free trainer IDs remain before the trainer-flag
       space overflows; a full ladder (20 IDs) needs a save-breaking flag
       relayout, so it waits for a deliberate save-break window
-- [ ] Next engine update from pokehns-expansion — upstream has moved on
-      (evolution-method fixes, Amulet Coin fix, nurse facing fix, GS Ball /
-      Celebi port, and an HM-requirements overhaul that will need careful
-      merging against Origin Jade's own badge-permission system)
 - [ ] Fifth badge-rematch tier colour on the Trainer Card (diamond palette)
 - [ ] Region name as a watermark in the map graphics
 - [ ] Default setting for the "Faster Joy" quick-heal option
