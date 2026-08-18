@@ -209,12 +209,6 @@ without the Hoenn content, use `make hns`.
 
 ### In progress
 
-- [ ] Player documentation (HnS-style) — a full game reference generated
-      straight from the game code: features explained, complete wild
-      encounter locations for Hoenn (already 6,000+ rows auto-generated),
-      with gifts/statics, item and TM locations, trainer teams, evolutions
-      and learnsets to follow; regenerated with every release so it never
-      goes stale
 
 - [ ] Playtest pass through Hoenn — Dewford onward
 - [ ] Origin Jade credits — the official German Emerald left its credits in
@@ -267,6 +261,14 @@ takes.
 - [ ] Fifth badge-rematch tier colour on the Trainer Card (diamond palette)
 - [ ] Region name as a watermark in the map graphics
 - [ ] Default setting for the "Faster Joy" quick-heal option
+
+### Release tasks (done once the three-region rework is final)
+
+- [ ] Player documentation (HnS-style) — generated straight from the final
+      game code so it can't go stale: gameplay mechanics first (everything
+      pokeemerald-expansion changes versus classic Emerald — battle
+      mechanics, evolutions, items, abilities), then complete encounter,
+      gift, TM and trainer references for all regions
 
 ### Held back until the HnS full release
 
