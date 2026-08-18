@@ -89,7 +89,7 @@ static void ClearPokeNews(void);
 static u8 GetTVGroupByShowId(u8);
 static u8 FindFirstActiveTVShowThatIsNotAMassOutbreak(void);
 static void SetTVMetatilesOnMap(int, int, u16);
-static u16 GetTVMetatileId(bool32);
+static u16 GetTVMetatileId(bool8 on);
 static u8 FindAnyPokeNewsOnTheAir(void);
 static void TakeGabbyAndTyOffTheAir(void);
 static bool8 BernoulliTrial(u16 ratio);
@@ -887,19 +887,14 @@ void UpdateTVScreensOnMap(int width, int height)
     }
 }
 
-// Die Fernseher-Kacheln liegen in zwei verschiedenen Haupt-Tilesets an
-// unterschiedlichen Stellen: Johto-Haeuser nutzen gTileset_Johto_Building_Hns,
-// Hoenn-Haeuser das Smaragd-gTileset_Building. Eine feste IS_HNS-Weiche waehlt
-// in Hoenn-Innenraeumen die Johto-Kachel und malt dort eine fremde Kachel
-// (sichtbar als bunter Block). Deshalb wird nach dem Tileset der Karte
-// entschieden, nicht nach dem Build.
-static u16 GetTVMetatileId(bool32 turnOn)
+// The TV metatile id depends on which tileset the current map's layout uses,
+// not on the build target; HnS-layout maps use the Johto building tileset.
+static u16 GetTVMetatileId(bool8 on)
 {
-    if (gMapHeader.mapLayout != NULL
-     && gMapHeader.mapLayout->primaryTileset == &gTileset_Johto_Building_Hns)
-        return turnOn ? METATILE_JohtoBuildingHns_TV_On : METATILE_JohtoBuildingHns_TV_Off;
+    if (gMapHeader.mapLayout->layoutVersion == LAYOUT_VERSION_HNS)
+        return on ? METATILE_JohtoBuildingHns_TV_On : METATILE_JohtoBuildingHns_TV_Off;
 
-    return turnOn ? METATILE_Building_TV_On : METATILE_Building_TV_Off;
+    return on ? METATILE_Building_TV_On : METATILE_Building_TV_Off;
 }
 
 static void SetTVMetatilesOnMap(int width, int height, u16 metatileId)

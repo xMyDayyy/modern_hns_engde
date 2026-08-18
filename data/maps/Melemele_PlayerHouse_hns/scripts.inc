@@ -42,7 +42,7 @@ Alola_Melemele_SamsonOakVilla_Dialogue_14:
 	compare VAR_RESULT, 2
 	goto_if_eq Alola_Melemele_SamsonOakVilla_Dialogue_33
 	compare VAR_RESULT, 3
-	goto_if_eq Alola_Melemele_SamsonOakVilla_Dialogue_34
+	goto_if_eq Alola_Melemele_SamsonOakVilla_Dialogue_53
 	msgbox Alola_Melemele_SamsonOakVilla_Dialogue_Text_34, MSGBOX_AUTOCLOSE
 	release
 	end
@@ -149,7 +149,10 @@ Alola_Melemele_SamsonOakVilla_Dialogue_49:
 Alola_Melemele_SamsonOakVilla_Dialogue_34:
 	getcaughtmon SPECIES_RAICHU
 	compare VAR_RESULT, 1
-	goto_if_eq Alola_Melemele_SamsonOakVilla_Dialogue_53
+	goto_if_eq Alola_Melemele_SamsonOakVilla_Dialogue_68
+	goto Alola_Melemele_SamsonOakVilla_Dialogue_46
+	end
+
 Alola_Melemele_SamsonOakVilla_Dialogue_52:
 	msgbox Alola_Melemele_SamsonOakVilla_Dialogue_Text_33, MSGBOX_AUTOCLOSE
 	release
@@ -211,7 +214,7 @@ Alola_Melemele_SamsonOakVilla_Dialogue_58:
 Alola_Melemele_SamsonOakVilla_Dialogue_60:
 	getcaughtmon SPECIES_DUGTRIO
 	compare VAR_RESULT, 1
-	goto_if_eq Alola_Melemele_SamsonOakVilla_Dialogue_68
+	goto_if_eq Alola_Melemele_SamsonOakVilla_Dialogue_34
 	goto Alola_Melemele_SamsonOakVilla_Dialogue_46
 
 Alola_Melemele_SamsonOakVilla_Dialogue_62:
@@ -950,9 +953,9 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_27:
 	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Akala gefunden.\p"
-	.string "Auf Akala soll es 3 Alola-Formen\n"
+	.string "Auf Akala soll es {COLOR RED}4 {COLOR DARK_GRAY}Alola-Formen\n"
 	.string "zu entdecken geben…\p"
-	.string "Knogga, Digda und Digdri.\p"
+	.string "{COLOR RED}Raichu{COLOR DARK_GRAY}, {COLOR RED}Knogga{COLOR DARK_GRAY}, {COLOR RED}Digda{COLOR DARK_GRAY} und {COLOR RED}Digdri{COLOR DARK_GRAY}.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
 #else
@@ -960,9 +963,9 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_27:
 	.string "It seems you haven't quite found all of\n"
 	.string "the Alolan variants on Akala Isle\l"
 	.string "just yet.\p"
-	.string "I've heard Akala Isle has 3 Alolan\n"
+	.string "I've heard Akala Isle has {COLOR RED}4 {COLOR DARK_GRAY}Alolan\n"
 	.string "variants for you to find…\p"
-	.string "Marowak, Diglett, and Dugtrio.\p"
+	.string "{COLOR RED}Raichu{COLOR DARK_GRAY}, {COLOR RED}Marowak{COLOR DARK_GRAY}, {COLOR RED}Diglett{COLOR DARK_GRAY}, and {COLOR RED}Dugtrio{COLOR DARK_GRAY}.\p"
 	.string "Keep on searching and come back when\n"
 	.string "you've caught them all!$"
 #endif
@@ -1044,10 +1047,10 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_33:
 	.string "Zeig mir mal deinen Pokédex{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\p"
 	.string "Es scheint, du hast noch nicht alle\n"
 	.string "Alola-Formen auf Poni gefunden.\p"
-	.string "Auf Poni soll es 5 Alola-Formen\n"
+	.string "Auf Poni soll es {COLOR RED}4 {COLOR DARK_GRAY}Alola-Formen\n"
 	.string "zu entdecken geben…\p"
-	.string "Raichu, Kleinstein, Georok, Geowaz und\n"
-	.string "Kokowei.\p"
+	.string "{COLOR RED}Kleinstein{COLOR DARK_GRAY}, {COLOR RED}Georok{COLOR DARK_GRAY}, {COLOR RED}Geowaz{COLOR DARK_GRAY} und\n"
+	.string "{COLOR RED}Kokowei{COLOR DARK_GRAY}.\p"
 	.string "Such weiter und komm wieder, wenn\n"
 	.string "du sie alle gefangen hast!$"
 #else
@@ -1055,10 +1058,10 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_33:
 	.string "It seems you haven't quite found all of\n"
 	.string "the Alolan variants on Poni Isle\l"
 	.string "just yet.\p"
-	.string "I've heard Poni Isle has 5 Alolan\n"
+	.string "I've heard Poni Isle has {COLOR RED}4 {COLOR DARK_GRAY}Alolan\n"
 	.string "variants for you to find…\p"
-	.string "Raichu, Geodude, Graveler, Golem,\n"
-	.string "and Exeggutor.\p"
+	.string "{COLOR RED}Geodude{COLOR DARK_GRAY}, {COLOR RED}Graveler{COLOR DARK_GRAY}, {COLOR RED}Golem{COLOR DARK_GRAY}, and\n"
+	.string "{COLOR RED}Exeggutor{COLOR DARK_GRAY}.\p"
 	.string "Keep on searching and come back when\n"
 	.string "you've caught them all!$"
 #endif

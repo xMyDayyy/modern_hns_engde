@@ -96,7 +96,7 @@ Alola_Poni_TotemBattle::
 	playmoncry SPECIES_ELECTIVIRE, 0
 	msgbox Alola_Poni_TotemBattle_Text_0, MSGBOX_AUTOCLOSE
 	waitmoncry
-	setwildbattle SPECIES_ELECTABUZZ, 60, ITEM_NONE, SPECIES_ELECTIVIRE, 60, ITEM_OCCA_BERRY
+	setwildbattle SPECIES_ELECTABUZZ, 60, ITEM_NONE, SPECIES_ELECTIVIRE, 60, ITEM_SHUCA_BERRY
 	settotemboost B_POSITION_OPPONENT_RIGHT, 1, 1, 1, 1, 1, 1
 	setflag FLAG_NO_WILD_CATCHING
 	setflag FLAG_NO_WILD_RUNNING
@@ -327,10 +327,10 @@ Alola_Poni_TotemBattle_Text_0:
 
 Alola_Poni_TotemBattle_Text_1:
 #if GERMAN
-	.string "Herrscher-Tropius wurde besiegt!\n"
+	.string "Herrscher-Elevoltek wurde besiegt!\n"
 	.string "Es ist irgendwohin davongehuscht…$"
 #else
-	.string "Totem Tropius was defeated!\n"
+	.string "Totem Electivire was defeated!\n"
 	.string "It scampered off somewhere…$"
 #endif
 

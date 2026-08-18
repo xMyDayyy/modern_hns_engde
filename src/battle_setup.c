@@ -967,9 +967,7 @@ static const struct {
     {MAP_SAFARI_ZONE_LOW_RIGHT_HNS,              BATTLE_ENVIRONMENT_GRAY_CAVE},
     {MAP_FUCHSIA_CITY_SAFARI_ZONE_CAVE_HNS,      BATTLE_ENVIRONMENT_GRAY_CAVE},
     {MAP_RUINS_OF_ALPH_B1F_HNS,                  BATTLE_ENVIRONMENT_GRAY_CAVE},
-    {MAP_ULA_ULA_CAVE_HNS,                       BATTLE_ENVIRONMENT_GRAY_CAVE},
     {MAP_ULA_ULA_CAVE_2_HNS,                     BATTLE_ENVIRONMENT_GRAY_CAVE},
-    {MAP_AKALA_CAVE_HNS,                         BATTLE_ENVIRONMENT_GRAY_CAVE},
     // BLUE_BUILDING 
     {MAP_ROCKET_HIDEOUT_B1F_HNS,                  BATTLE_ENVIRONMENT_BLUE_BUILDING},
     {MAP_ROCKET_HIDEOUT_B2F_HNS,                  BATTLE_ENVIRONMENT_BLUE_BUILDING},
@@ -1097,7 +1095,9 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
         return BATTLE_ENVIRONMENT_GRASS;
     if (MetatileBehavior_IsLongGrass(tileBehavior))
         return BATTLE_ENVIRONMENT_LONG_GRASS;
-    if (MetatileBehavior_IsSandOrDeepSand(tileBehavior))
+    // Cave floors frequently use MB_SAND/MB_DEEP_SAND, so skip the sand background
+    // underground and let the map type decide below.
+    if (gMapHeader.mapType != MAP_TYPE_UNDERGROUND && MetatileBehavior_IsSandOrDeepSand(tileBehavior))
         return BATTLE_ENVIRONMENT_SAND;
 
     switch (gMapHeader.mapType)

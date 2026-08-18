@@ -716,3 +716,4 @@ gSpecials::
 	def_special CheckItemHandoverPointless
 	def_special UpdateEliteFourRematch
 	def_special IsPlayerInHoenn
+	def_special IsPartyLimitChallengeActive

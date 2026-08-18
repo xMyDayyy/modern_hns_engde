@@ -46,6 +46,12 @@ EventTicket_Text_ShowEonTicket:
 	.string "All aboard!$"
 #endif
 
+#if IS_HNS
+EventTicket_Text_SouthernIslandSailBack:
+	.string "Aye, mate, there's nothing here to\n"
+	.string "see or do on this forgettable island.\p"
+	.string "What say we sail back to OLIVINE?$"
+#else
 EventTicket_Text_SouthernIslandSailBack:
 #if GERMAN
 	.string "Aye, Maat, auf dieser gottverlassenen\n"
@@ -56,6 +62,7 @@ EventTicket_Text_SouthernIslandSailBack:
 	.string "Aye, mate, there's nothing here to\n"
 	.string "see or do on this forgettable island.\p"
 	.string "What say we sail back to LILYCOVE?$"
+#endif
 #endif
 
 EventTicket_Text_SailHome:

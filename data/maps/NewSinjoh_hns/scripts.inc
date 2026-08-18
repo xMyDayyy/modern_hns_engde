@@ -179,10 +179,10 @@ MilkMan_Battle_text:
 
 NewSinjoh_MilkMan_text_Lose:
 #if GERMAN
-	.string "Diese Welt ist perfekt.\p"
+	.string "Diese Welt ist perfekt.\n"
 	.string "Nicht wahr?$"
 #else
-	.string "This world is perfect.\p"
+	.string "This world is perfect.\n"
 	.string "isn't it?$"
 #endif
 

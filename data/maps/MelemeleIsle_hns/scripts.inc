@@ -184,7 +184,6 @@ Alola_Melemele_SamsonOak_Trigger_Beginning::
 	fadedefaultbgm
 	setvar VAR_ALOLA_STATE, 1
 	removeobject SamsonOakMelemeleIntro
-	setflag FLAG_VISITED_ALOLA
 	release
 	end
 
@@ -926,11 +925,12 @@ Alola_Melemele_Bugcatcher_Text_0:
 Alola_Melemele_camper_Text_0:
 #if GERMAN
 	.string "Ich bin extra aus Kanto angereist, um\n"
-	.string "mein Lieblings-Vogel-Pokémon Plaudagei\l"
-	.string "zu sehen!$"
+	.string "eine Variante meines Lieblings-Katzen-\l"
+	.string "Pokémon Mauzi zu sehen!$"
 #else
 	.string "I traveled all the way from Kanto to see\n"
-	.string "my favorite bird Pokémon, Chatot!$"
+	.string "a variant of my favorite cat Pokémon,\n"
+	.string "Meowth!$"
 #endif
 
 Alola_Melemele_Picnicker_Text_0:
