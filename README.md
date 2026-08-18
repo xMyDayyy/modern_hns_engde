@@ -116,10 +116,11 @@ without the Hoenn content, use `make hns`.
 - [x] The Secret Power man on Route 111 no longer hands out a duplicate
       TM43 — he recognises the Champion already carries it and just points
       out where to use it
-- [x] The PC belongs to Bill, consistently — the storage box is labeled
-      "Bill's PC" everywhere from the start (menu, transfer messages,
-      catch screen), and Lanette stays in Fallarbor with a new role: she
-      helped develop Bill's system and contributed the pretty box
+- [x] The PC belongs to Bill — once you've met him at the Sea Cottage,
+      the storage box is labeled "Bill's PC" everywhere (menu, transfer
+      messages, catch screen); before that it stays "Someone's PC", just
+      like the classic logic. Lanette stays in Fallarbor with a new role:
+      she helped develop Bill's system and contributed the pretty box
       wallpapers
 
 - [x] Twins Irm & Ida field four Pokémon in every rematch tier (a double

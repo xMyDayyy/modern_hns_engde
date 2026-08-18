@@ -2224,13 +2224,14 @@ const u8 gText_Treasures[] = _("TREASURES");
 #endif
 #endif
 #if IS_HNS
-// Origin Jade: Das Lagerungs-System gehoert Bill - der Champion weiss
-// das von Anfang an, also heisst der PC durchgaengig so.
+// Origin Jade: Vor der Begegnung mit Bill (Sea Cottage) heisst der PC
+// "Jemandes PC"; das Kennenlernen setzt FLAG_SYS_PC_LANETTE, danach
+// traegt er Bills Namen (statt Lanettes).
 #if GERMAN
-const u8 gText_SomeonesPC[] = _("Bills PC");
+const u8 gText_SomeonesPC[] = _("Jemandes PC");
 const u8 gText_LanettesPC[] = _("Bills PC");
 #else
-const u8 gText_SomeonesPC[] = _("BILL's PC");
+const u8 gText_SomeonesPC[] = _("SOMEONE'S PC");
 const u8 gText_LanettesPC[] = _("BILL's PC");
 #endif
 #else

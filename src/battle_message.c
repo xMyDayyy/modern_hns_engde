@@ -4057,13 +4057,8 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                 toCpy = text;
                 break;
             case B_TXT_PC_CREATOR_NAME: // lanette pc
-                // Origin Jade: Der Champion kennt Bill von Anfang an -
-                // unter HnS/FRLG heisst der PC durchgaengig nach ihm,
-                // unabhaengig vom Lanette-Flag.
-                if (IS_FRLG || IS_HNS)
-                    toCpy = sText_Bills;
-                else if (FlagGet(FLAG_SYS_PC_LANETTE))
-                    toCpy = sText_Lanettes;
+                if (FlagGet(FLAG_SYS_PC_LANETTE))
+                    toCpy = (IS_FRLG || IS_HNS) ? sText_Bills : sText_Lanettes;
                 else
                     toCpy = sText_Someones;
                 break;

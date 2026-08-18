@@ -76,7 +76,8 @@ gText_NoRoomLeftForAnother::
 
 gText_TheDecorWasTransferredToThePC::
 #if GERMAN
-	.string "{STR_VAR_2} wurde auf den PC übertragen.$"
+	.string "{STR_VAR_2} wurde auf den PC\n"
+	.string "übertragen.$"
 #else
 	.string "The {STR_VAR_2} was transferred\n"
 	.string "to the PC.$"
