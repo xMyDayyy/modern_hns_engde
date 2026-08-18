@@ -1920,17 +1920,13 @@ void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
 #if IS_HNS
     {
         // Origin Jade: Gesamtkarriere zaehlen - Johto (01-08), Kanto (09-16)
-        // und die Hoenn-Orden aus VAR_HOENN_BADGES. Vorher wurden nur die
-        // Johto-Flags gezaehlt, Hoenn-Fortschritt blieb unsichtbar
-        // (Discord-Report "Orden werden nicht gezaehlt").
+        // und die Hoenn-Orden aus VAR_HOENN_BADGES. Achtung: NUM_BADGES ist
+        // unter HnS bereits 16 (flags_hns.h) - der erste Wurf zaehlte damit
+        // die Kanto-Flags doppelt (Discord-Report "26 statt 18"). Daher eine
+        // Schleife mit expliziten Grenzen.
         u8 badgeCount = 0;
 
-        for (curFlag = FLAG_BADGE01_GET; curFlag < FLAG_BADGE01_GET + NUM_BADGES; curFlag++)
-        {
-            if (FlagGet(curFlag))
-                badgeCount++;
-        }
-        for (curFlag = FLAG_BADGE09_GET; curFlag <= FLAG_BADGE16_GET; curFlag++)
+        for (curFlag = FLAG_BADGE01_GET; curFlag <= FLAG_BADGE16_GET; curFlag++)
         {
             if (FlagGet(curFlag))
                 badgeCount++;
