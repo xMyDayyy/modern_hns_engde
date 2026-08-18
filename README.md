@@ -97,14 +97,47 @@ without the Hoenn content, use `make hns`.
 
 ## Roadmap
 
+### Recently done
+
+- [x] Prof. Birch handover scene — the Badge Case unlocks the Hoenn badge row
+      on the Trainer Card, with a catch-up fallback for existing saves
+- [x] Elite Four rematches — after the Hoenn League win, every member fields a
+      rematch team with evolved rosters (Weavile, Dusknoir, Mismagius,
+      Froslass, Dragonite …); the engine locks were removed
+- [x] Hoenn Elite Four as a standalone Elite Four — first-battle intros now
+      recognise the two-region Champion instead of greeting a rookie
+- [x] PokéCom call texts (Steven, May, Wally, Scott, Mr. Stone) — canon pass
+      (no more "Norman's child", no move tutorials for a Champion) and a full
+      reflow of every call to the app window's real 192 px text width
+- [x] Gen 3 starters placed in the wild — Mudkip (Route 102), Treecko
+      (Petalburg Woods), Torchic (Route 113), each as a 1 % encounter
+- [x] Post-game gating rebuilt — "story complete" checks now use a dedicated
+      Hoenn Champion flag instead of the game-clear flag the player already
+      carries from Johto/Kanto (fixes the Devon Goods dead end, the S.S. Tidal
+      running from day one, Trainer Hill, Altering Cave, Trick House finale
+      and 30+ more spots)
+- [x] All Hoenn city marts stock the endgame lineup (Ultra Balls, Hyper/Max
+      Potions, Full Restores …) — you arrive as a Champion, shops act like it
+- [x] Pokémon Center heal animation restored in Hoenn (a sprite priority bug
+      hid the balls behind the map — Johto was unaffected)
+- [x] Badge count on the save screen now sums the whole career: Johto + Kanto
+      + Hoenn
+- [x] The bedroom wall map (and every {REGION} text) is location-aware — it
+      says Hoenn in Hoenn
+- [x] English branches repaired: STEVEN instead of TROY, MAY instead of
+      BRENDAN, ready for the English build
+- [x] Held-item parity: all Gym Leader rematch tiers and the Elite Four carry
+      six held items
+
 ### In progress
 
 - [ ] Playtest pass through Hoenn — Dewford onward
-- [ ] Steven, May, Wally, Scott and Mr. Stone: PokéCom call text wording
-- [ ] Hoenn Elite Four as a standalone Elite Four (dialogue)
-- [ ] Elite Four rematches — currently blocked by the engine in two places
-- [ ] Credits and Union Room translation
-- [ ] Prof. Birch handover scene, unlocking the Hoenn badge row on the Trainer Card
+- [ ] Hoenn berry system — bring back Emerald's full berry cultivation
+      (planting, watering, per-berry growth times) inside Hoenn while Johto
+      keeps its HGSS self-replanting trees; needs region branches in
+      `berry.c` and a split berry-tree script
+- [ ] Origin Jade credits — the official German Emerald left its credits in
+      English, so only the Origin Jade-specific credits remain to be decided
 
 ### Planned: the full journey
 
@@ -121,6 +154,20 @@ takes.
 - [ ] Prof. Elm's starter scene, rewritten for an arriving Kanto Champion
 - [ ] Raise Johto's level curve and team sizes to match
 - [ ] Steven's ticket chain, relocated onto the FRLG maps
+
+### Under consideration
+
+- [ ] Four-tier Elite Four rematch ladders — currently one tier per member,
+      because only seven free trainer IDs remain before the trainer-flag
+      space overflows; a full ladder (20 IDs) needs a save-breaking flag
+      relayout, so it waits for a deliberate save-break window
+- [ ] Next engine update from pokehns-expansion — upstream has moved on
+      (evolution-method fixes, Amulet Coin fix, nurse facing fix, GS Ball /
+      Celebi port, and an HM-requirements overhaul that will need careful
+      merging against Origin Jade's own badge-permission system)
+- [ ] Fifth badge-rematch tier colour on the Trainer Card (diamond palette)
+- [ ] Region name as a watermark in the map graphics
+- [ ] Default setting for the "Faster Joy" quick-heal option
 
 ### Held back until the HnS full release
 
