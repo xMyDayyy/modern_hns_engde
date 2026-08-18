@@ -584,21 +584,43 @@ Route110_Movement_RivalExit3:
 
 Route110_EventScript_BirchScene1::
 	lockall
+#if IS_HNS
+	@ Origin Jade: Szene stillgelegt (Birk seit der Ankunft registriert).
+	@ Fallback fuer Spielstaende, deren VAR bereits auf 1 stand.
+	setvar VAR_REGISTER_BIRCH_STATE, 2
+	releaseall
+	end
+#endif
 	setvar VAR_0x8008, 1
 	goto Route110_EventScript_BirchScene
 
 Route110_EventScript_BirchScene2::
 	lockall
+#if IS_HNS
+	setvar VAR_REGISTER_BIRCH_STATE, 2
+	releaseall
+	end
+#endif
 	setvar VAR_0x8008, 2
 	goto Route110_EventScript_BirchScene
 
 Route110_EventScript_BirchScene3::
 	lockall
+#if IS_HNS
+	setvar VAR_REGISTER_BIRCH_STATE, 2
+	releaseall
+	end
+#endif
 	setvar VAR_0x8008, 3
 	goto Route110_EventScript_BirchScene
 
 Route110_EventScript_BirchScene4::
 	lockall
+#if IS_HNS
+	setvar VAR_REGISTER_BIRCH_STATE, 2
+	releaseall
+	end
+#endif
 	setvar VAR_0x8008, 4
 	goto Route110_EventScript_BirchScene
 
