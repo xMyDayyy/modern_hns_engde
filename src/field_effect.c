@@ -1318,7 +1318,12 @@ static void PokeballGlowEffect_PlaceBalls(struct Sprite *sprite)
     {
         sprite->sTimer = 25;
         spriteId = CreateSpriteAtEnd(&sSpriteTemplate_PokeballGlow, sPokeballCoordOffsets[sprite->sCounter].x + sprite->x2, sPokeballCoordOffsets[sprite->sCounter].y + sprite->y2, 0);
-        gSprites[spriteId].oam.priority = 3;
+        // Origin Jade: Vanilla-Smaragd zeichnet die Heilungs-Baelle mit
+        // OAM-Prioritaet 2. Der Fork setzte pauschal 3 - im Emerald-Center
+        // liegt die Maschinenflaeche aber auf BG2 (Prio 2), die Baelle
+        // verschwanden dahinter (Sounds liefen, nichts sichtbar). In den
+        // HGSS-Layouts liegt die Flaeche auf BG3, dort passt 3.
+        gSprites[spriteId].oam.priority = (gMapHeader.mapLayout->layoutVersion == LAYOUT_VERSION_EMERALD) ? 2 : 3;
         gSprites[spriteId].sEffectSpriteId = sprite->sSpriteId;
         sprite->sCounter++;
         sprite->sNumMons--;
