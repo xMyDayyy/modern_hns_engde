@@ -1222,9 +1222,11 @@ enum BattleTransition GetTrainerBattleTransition(void)
 
     // Origin Jade: Geheimbasis-Kaempfe nutzen die Sonder-ID 0xFF00 - vor dem
     // SanitizeTrainerId abfangen, sonst Assert "invalid trainer: 65280"
-    // (Spieltest-Report, Vanilla-Verhalten: Champion-Uebergang).
+    // (Spieltest-Report). Vanillas Champion-Uebergang ist in der Expansion
+    // im Mugshot-System aufgegangen; die Engine waehlt fuer Geheimbasen
+    // selbst B_TRANSITION_BIG_POKEBALL (siehe GetSpecialBattleTransition).
     if (TRAINER_BATTLE_PARAM.opponentA == TRAINER_SECRET_BASE)
-        return B_TRANSITION_CHAMPION;
+        return B_TRANSITION_BIG_POKEBALL;
 
     trainerId = SanitizeTrainerId(TRAINER_BATTLE_PARAM.opponentA);
     trainerClass = GetTrainerClassFromId(TRAINER_BATTLE_PARAM.opponentA);
