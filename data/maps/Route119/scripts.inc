@@ -39,9 +39,14 @@ Route119_EventScript_RivalTrigger2::
 Route119_EventScript_RivalEncounter::
 	lockall
 	addobject LOCALID_ROUTE119_RIVAL_ON_BIKE
+#if IS_HNS
+	@ HnS: Die Rivalin ist immer Maike - immer ihr Begegnungsthema.
+	call Route119_EventScript_PlayMayMusic
+#else
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, Route119_EventScript_PlayMayMusic
 	call_if_eq VAR_RESULT, FEMALE, Route119_EventScript_PlayBrendanMusic
+#endif
 	delay 65
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_RivalEnter1
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_RivalEnter2
