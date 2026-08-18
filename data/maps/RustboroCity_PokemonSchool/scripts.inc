@@ -441,8 +441,7 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 	.string "Hallo! In Blütenburg sind wir uns\n"
 	.string "schon über den Weg gelaufen.\p"
 	.string "Vorgestellt habe ich mich da nicht -\n"
-	.string "das hole ich nach. Mein Name ist\l"
-	.string "Scott.\p"
+	.string "und dabei belasse ich es fürs Erste.\p"
 	.string "Ich reise durch die Lande, auf der\n"
 	.string "Suche nach herausragenden Trainern.\p"
 	.string "Und du…\n"
@@ -452,8 +451,7 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 	.string "Hello! We crossed paths in PETALBURG\n"
 	.string "already.\p"
 	.string "I didn't introduce myself then -\n"
-	.string "let me do that now. My name is\l"
-	.string "SCOTT.\p"
+	.string "and I'll keep it that way for now.\p"
 	.string "I travel the land looking for\n"
 	.string "outstanding TRAINERS.\p"
 	.string "And you…\n"
@@ -463,19 +461,19 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 
 RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown:
 #if GERMAN
-	.string "Scott: Hmm…\p"
+	.string "???: Hmm…\p"
 	.string "Ich frage mich, welches Talent-Niveau\n"
 	.string "die Schüler hier haben. Das ist völlig\l"
 	.string "unbekannt.$"
 #else
-	.string "SCOTT: Hmm…\p"
+	.string "???: Hmm…\p"
 	.string "The talent levels of the students here\n"
 	.string "are unknown. The potential's there.$"
 #endif
 
 RustboroCity_PokemonSchool_Text_ScottStoneBadge:
 #if GERMAN
-	.string "Scott: Hmm…\p"
+	.string "???: Hmm…\p"
 	.string "Das ist der Steinorden, oder?!?\n"
 	.string "Wirklich beeindruckend, muss ich schon\l"
 	.string "sagen.\p"
@@ -499,8 +497,7 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 	.string "Hallo! In Blütenburg sind wir uns\n"
 	.string "schon über den Weg gelaufen.\p"
 	.string "Vorgestellt habe ich mich da nicht -\n"
-	.string "das hole ich nach. Mein Name ist\l"
-	.string "Scott.\p"
+	.string "und dabei belasse ich es fürs Erste.\p"
 	.string "Ich reise durch die Lande, auf der\n"
 	.string "Suche nach herausragenden Trainern.\p"
 	.string "Was ist das?\n"
@@ -511,8 +508,7 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 	.string "Hello! We crossed paths in PETALBURG\n"
 	.string "already.\p"
 	.string "I didn't introduce myself then -\n"
-	.string "let me do that now. My name is\l"
-	.string "SCOTT.\p"
+	.string "and I'll keep it that way for now.\p"
 	.string "I travel the land looking for\n"
 	.string "outstanding TRAINERS.\p"
 	.string "What's that?\n"

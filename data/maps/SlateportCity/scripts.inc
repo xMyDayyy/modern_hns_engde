@@ -1802,20 +1802,19 @@ SlateportCity_Text_ComeBackToTradeBerryPowder:
 
 SlateportCity_Text_YouDroveTeamAquaAway:
 #if GERMAN
-	.string "Scott: Wie?\n"
-	.string "Ich bin mir sicher, dich irgendwo schon\l"
-	.string "mal gesehen zu haben.\p"
-	.string "Habe ich mich eigentlich schon\n"
-	.string "vorgestellt? Ich bin Scott.\p"
+	.string "???: Wie?\n"
+	.string "Dich habe ich doch schon mal gesehen…\p"
+	.string "Ach ja! Blütenburg - und die\n"
+	.string "Trainerschule in Metarost.\p"
 	.string "Eben ist Team Aqua von hier geflohen,\n"
 	.string "als sei eine Horde Hornissen hinter\l"
 	.string "ihnen her.\p"
 	.string "Lass mich raten - du hast sie verjagt?$"
 #else
-	.string "SCOTT: Huh?\n"
-	.string "I'm sure I met you somewhere before.\p"
-	.string "Have I introduced myself to you?\n"
-	.string "If not, my name's SCOTT.\p"
+	.string "???: Huh?\n"
+	.string "I'm sure I've seen you before…\p"
+	.string "Oh, right! PETALBURG - and the\n"
+	.string "TRAINERS' SCHOOL in RUSTBORO.\p"
 	.string "I just saw TEAM AQUA run away from\n"
 	.string "here like they were stung.\p"
 	.string "Let me guess--you drove them away?$"
@@ -1823,23 +1822,25 @@ SlateportCity_Text_YouDroveTeamAquaAway:
 
 SlateportCity_Text_MaybeThisTrainer:
 #if GERMAN
-	.string "Scott: Hmm…\n"
+	.string "???: Hmm…\n"
 	.string "Vielleicht, vielleicht dieser Trainer…$"
 #else
-	.string "SCOTT: Hmm…\n"
+	.string "???: Hmm…\n"
 	.string "Maybe, just maybe, this TRAINER…$"
 #endif
 
 SlateportCity_Text_LetsRegisterEachOther:
 #if GERMAN
-	.string "Scott: Sehr gut! Ich denke, wir werden\n"
-	.string "gute Freunde werden. \p"
+	.string "???: Sehr gut! Ich denke, wir werden\n"
+	.string "gute Freunde werden.\p"
+	.string "Ach ja - Scott. So heiße ich.\p"
 	.string "Wir sollten uns in unseren PokéComs\n"
 	.string "eintragen. \p"
 	.string "… … … … …\n…$"
 #else
-	.string "SCOTT: All right! I think you're going\n"
+	.string "???: All right! I think you're going\n"
 	.string "to become a good friend.\p"
+	.string "Oh, right - SCOTT. That's my name.\p"
 	.string "So, let's register each other in our\n"
 	.string "POKéGEARS.\p"
 	.string "… … … … … …$"

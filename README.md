@@ -99,6 +99,18 @@ without the Hoenn content, use `make hns`.
 
 ### Recently done
 
+- [x] Call-window text width fixed for real — the field call popup draws the
+      wait arrow after the last character, so every call line (match calls
+      AND scripted pokenavcalls in map scripts) is now wrapped to 182 px;
+      no more clipped letters or missing arrows
+- [x] Scott stays a mystery — he is "???" at the Trainers' School and on the
+      Slateport docks, and only gives his name the moment he registers
+      himself in your PokéCom (no more introducing himself twice)
+- [x] Flying to Littleroot now lands in front of Prof. Birch's lab instead
+      of inside the player's old bedroom
+- [x] The obsolete Route 110 PokéCom registration scene with Prof. Birch is
+      retired — he has been registered since the arrival scene
+
 - [x] Hoenn berry system — Emerald's full berry cultivation is back in Hoenn
       (soft loamy soil, planting your own berries, watering with the Wailmer
       Pail from the Route 104 flower shop, per-berry growth times), while
