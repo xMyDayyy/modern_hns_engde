@@ -1217,8 +1217,17 @@ enum BattleTransition GetTrainerBattleTransition(void)
     u8 transitionType;
     u8 enemyLevel;
     u8 playerLevel;
-    u32 trainerId = SanitizeTrainerId(TRAINER_BATTLE_PARAM.opponentA);
-    enum TrainerClassID trainerClass = GetTrainerClassFromId(TRAINER_BATTLE_PARAM.opponentA);
+    u32 trainerId;
+    enum TrainerClassID trainerClass;
+
+    // Origin Jade: Geheimbasis-Kaempfe nutzen die Sonder-ID 0xFF00 - vor dem
+    // SanitizeTrainerId abfangen, sonst Assert "invalid trainer: 65280"
+    // (Spieltest-Report, Vanilla-Verhalten: Champion-Uebergang).
+    if (TRAINER_BATTLE_PARAM.opponentA == TRAINER_SECRET_BASE)
+        return B_TRANSITION_CHAMPION;
+
+    trainerId = SanitizeTrainerId(TRAINER_BATTLE_PARAM.opponentA);
+    trainerClass = GetTrainerClassFromId(TRAINER_BATTLE_PARAM.opponentA);
 
     if (DoesTrainerHaveMugshot(trainerId))
         return B_TRANSITION_MUGSHOT;

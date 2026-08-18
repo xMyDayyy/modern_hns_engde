@@ -8890,7 +8890,15 @@ s32 GetBattlerMultiplayerId(u16 id)
 
 u8 GetTrainerEncounterMusicId(u16 trainerOpponentId)
 {
-    u32 sanitizedTrainerId = SanitizeTrainerId(trainerOpponentId);
+    u32 sanitizedTrainerId;
+
+    // Origin Jade: Geheimbasis-Sonder-ID vor SanitizeTrainerId abfangen
+    // (Assert "invalid trainer: 65280", Spieltest-Report). Vanilla nutzt
+    // fuer Geheimbasen die maennliche Standard-Begegnungsmusik.
+    if (trainerOpponentId == TRAINER_SECRET_BASE)
+        return TRAINER_ENCOUNTER_MUSIC_MALE;
+
+    sanitizedTrainerId = SanitizeTrainerId(trainerOpponentId);
     enum DifficultyLevel difficulty = GetTrainerDifficultyLevel(sanitizedTrainerId);
 
     if (CurrentBattlePyramidLocation() != PYRAMID_LOCATION_NONE)
