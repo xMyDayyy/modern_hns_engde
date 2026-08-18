@@ -99,6 +99,10 @@ without the Hoenn content, use `make hns`.
 
 ### Recently done
 
+- [x] The Rock Smash Dude in Mauville speaks Champion — no more HM tutorial;
+      he notes you already carry HM Rock Smash and reminds you that in
+      Hoenn it takes Wattson's Dynamo Badge to use it
+
 - [x] Rival consistency on Route 110 — May's bike sprite is now forced for
       the rival's departure too (female players saw Brendan's bike), and the
       Itemfinder handover is retired: the Champion has carried one since
@@ -182,6 +186,31 @@ takes.
 - [ ] Steven's ticket chain, relocated onto the FRLG maps
 
 ### Under consideration
+
+- [ ] Nuzlocke support for Hoenn — the encounter-tracking table currently
+      only covers Johto/Kanto in this build; extending it needs ~60 new
+      map-section entries and a wider bitfield in the save's challenge
+      settings (and will later cover the reworked Kanto too)
+- [ ] Randomizer audit for Hoenn — the randomizer itself is species-based
+      and region-neutral, but every Hoenn encounter path (wilds, gifts,
+      statics, the new Elite Four rematch trainers) needs to be verified
+      against its hooks
+- [ ] Pre-emptive progression audit — a repeatable scan that flags every
+      Hoenn script checking a flag or variable the Champion already
+      carries from Johto/Kanto (the game-clear bug class), so these get
+      caught before playtesting; first scan already found six maps still
+      checking old badge flags
+- [ ] Open sea routes between regions — custom surf routes with their own
+      maps, trainers and encounters connecting Cinnabar↔Lilycove and
+      Johto↔Hoenn, so the regions link up in the overworld instead of only
+      by ferry (prototype planned after the HnS full release)
+- [ ] More Gen 4 Pokémon — the engine already carries all Gen 4+ species
+      data; step one is enabling the remaining Gen 4 evolutions of older
+      lines (items + dex visibility), step two grows the Neu-Sinjoh area
+      with Sinnoh species; a full Platinum integration is out of scope
+- [ ] Trainer-defeat flags moved to spare save space — would lift the
+      7-free-trainer-ID limit and unlock full four-tier Elite Four ladders
+      without breaking saves by relayout
 
 - [ ] Four-tier Elite Four rematch ladders — currently one tier per member,
       because only seven free trainer IDs remain before the trainer-flag
