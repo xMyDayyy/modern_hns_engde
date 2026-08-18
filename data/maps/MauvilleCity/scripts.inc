@@ -655,15 +655,14 @@ MauvilleCity_Text_UncleVisitUsSometime:
 
 MauvilleCity_Text_WallyPokenavCall:
 #if GERMAN
-	.string "… … … … …\n"
-	.string "…\l… … … … …\l…\p"
+	.string "… … … … … … … … … … … …\p"
 	.string "Heiko: Oh, hallo {PLAYER}!\p"
-	.string "Ich muss dir was erzählen! Mein Onkel\n"
-	.string "hat mir einen PokéCom gegeben.\p"
+	.string "Ich muss dir was erzählen! Mein\n"
+	.string "Onkel hat mir einen PokéCom\l"
+	.string "gegeben.\p"
 	.string "Nun kann ich mit dir reden, wann\n"
 	.string "immer ich möchte, {PLAYER}!\p"
-	.string "… … … … …\n"
-	.string "…\l… … … … …\lKlick!$"
+	.string "… … … … … … … … … … … Klick!$"
 #else
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
