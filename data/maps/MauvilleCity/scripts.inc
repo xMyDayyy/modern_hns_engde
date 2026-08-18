@@ -506,11 +506,11 @@ MauvilleCity_Text_UncleYourePushingIt:
 MauvilleCity_Text_WallyWeCanBeatAnyone:
 #if GERMAN
 	.string "Heiko: Ich bin nicht überfordert!\p"
-	.string "Wenn ich die Kräfte von Trasla\n"
-	.string "kombiniere, besiege ich jeden!$"
+	.string "Wenn ich mich mit meinem Pokémon\n"
+	.string "zusammentue, besiege ich jeden!$"
 #else
 	.string "WALLY: I'm not pushing it.\p"
-	.string "If I combine forces with RALTS,\n"
+	.string "If I combine forces with my POKéMON,\n"
 	.string "we can beat anyone!$"
 #endif
 
