@@ -4,6 +4,11 @@ FallarborTown_PokemonCenter_1F_MapScripts::
 	.byte 0
 
 FallarborTown_PokemonCenter_1F_OnTransition:
+#if IS_HNS
+	@ Origin Jade: Das Lagersystem gehoert hier Bill (HnS) - Lanettes
+	@ Vorstellungs-Event entfaellt, ihr Objekt bleibt dauerhaft versteckt.
+	setflag FLAG_HIDE_FALLARBOR_POKEMON_CENTER_LANETTE
+#endif
 	setrespawn HEAL_LOCATION_FALLARBOR_TOWN
 	call Common_EventScript_UpdateBrineyLocation
 	end
@@ -25,6 +30,10 @@ FallarborTown_PokemonCenter_1F_EventScript_ExpertM::
 	end
 
 FallarborTown_PokemonCenter_1F_EventScript_Lanette::
+#if IS_HNS
+	release
+	end
+#endif
 	lock
 	faceplayer
 	msgbox FallarborTown_PokemonCenter_1F_Text_LanetteGreeting, MSGBOX_DEFAULT

@@ -99,6 +99,17 @@ without the Hoenn content, use `make hns`.
 
 ### Recently done
 
+- [x] Secret base battles no longer crash — the special secret-base trainer
+      ID hit two unguarded lookups ("invalid trainer: 65280", then a level-0
+      glitch opponent); both now handle it the vanilla way
+- [x] HGSS berry trees yield a random 1-5 berries per harvest instead of a
+      constant maximum
+- [x] The Secret Power man on Route 111 no longer hands out a duplicate
+      TM43 — he recognises the Champion already carries it and just points
+      out where to use it
+- [x] Lanette's Fallarbor introduction is retired — the storage system
+      belongs to Bill in this game
+
 - [x] Twins Irm & Ida field four Pokémon in every rematch tier (a double
       battle with an odd-numbered team looked off), and the TV interviewers
       Gabby & Ty now bring Plusle and Minun along — four Pokémon per tier
