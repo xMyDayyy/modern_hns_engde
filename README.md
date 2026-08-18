@@ -99,6 +99,13 @@ without the Hoenn content, use `make hns`.
 
 ### Recently done
 
+- [x] Trainer payouts now scale with the endgame — prize money is calculated
+      from the level you actually fought (the scaled team), not the low
+      ROM-level from the party file; a routine trainer battle pays like the
+      endgame fight it is
+- [x] Save-screen badge counter fixed for real (Johto 8 + Kanto 8 + Hoenn,
+      no more double-counted Kanto badges)
+
 - [x] Call-window text width fixed for real — the field call popup draws the
       wait arrow after the last character, so every call line (match calls
       AND scripted pokenavcalls in map scripts) is now wrapped to 182 px;

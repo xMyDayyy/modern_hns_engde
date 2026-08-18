@@ -6199,6 +6199,30 @@ static void Cmd_hitanimation(void)
     gBattlescriptCurrInstr = cmd->nextInstr;
 }
 
+// Origin Jade: Preisgeld nach dem tatsaechlich bekaempften Level. Die
+// Party-Datei liefert nur das ROM-Level (Hoenn-Korridore 13-58), gekaempft
+// wird aber gegen das skalierte Team (~70). Zum Auszahlungszeitpunkt steht
+// das skalierte Team in gEnemyParty - dort lesen wir das Level des letzten
+// Mons des jeweiligen Gegners. Johto/Superbosse: RAM == ROM, unveraendert.
+static u32 GetLastMonLevelFromEnemyParty(u16 trainerId)
+{
+    s32 i, first = 0, last = PARTY_SIZE - 1;
+
+    if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
+    {
+        if (trainerId == TRAINER_BATTLE_PARAM.opponentB)
+            first = MULTI_PARTY_SIZE;
+        else
+            last = MULTI_PARTY_SIZE - 1;
+    }
+    for (i = last; i >= first; i--)
+    {
+        if (GetMonData(&gEnemyParty[i], MON_DATA_SPECIES) != SPECIES_NONE)
+            return GetMonData(&gEnemyParty[i], MON_DATA_LEVEL);
+    }
+    return 0;
+}
+
 static u32 GetTrainerMoneyToGive(u16 trainerId)
 {
     u32 lastMonLevel = 0;
@@ -6212,9 +6236,13 @@ static u32 GetTrainerMoneyToGive(u16 trainerId)
     else
     {
         const struct TrainerMon *party = GetTrainerPartyFromId(trainerId);
+        u32 foughtLevel;
         if (party == NULL)
             return 20;
         lastMonLevel = party[GetTrainerPartySizeFromId(trainerId) - 1].lvl;
+        foughtLevel = GetLastMonLevelFromEnemyParty(trainerId);
+        if (foughtLevel != 0)
+            lastMonLevel = foughtLevel;
         trainerMoney = gTrainerClasses[GetTrainerClassFromId(trainerId)].money ?: 5;
 
         if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
