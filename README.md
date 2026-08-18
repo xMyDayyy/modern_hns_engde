@@ -209,6 +209,13 @@ without the Hoenn content, use `make hns`.
 
 ### In progress
 
+- [ ] Player documentation (HnS-style) — a full game reference generated
+      straight from the game code: features explained, complete wild
+      encounter locations for Hoenn (already 6,000+ rows auto-generated),
+      with gifts/statics, item and TM locations, trainer teams, evolutions
+      and learnsets to follow; regenerated with every release so it never
+      goes stale
+
 - [ ] Playtest pass through Hoenn — Dewford onward
 - [ ] Origin Jade credits — the official German Emerald left its credits in
       English, so only the Origin Jade-specific credits remain to be decided
