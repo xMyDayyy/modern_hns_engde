@@ -5,14 +5,21 @@ FallarborTown_PokemonCenter_1F_MapScripts::
 
 FallarborTown_PokemonCenter_1F_OnTransition:
 #if IS_HNS
-	@ Origin Jade: Lanette bleibt - ihr Text wuerdigt aber Bills System
-	@ (siehe Grusstext). Fuer Spielstaende, die sie per 0198 kurzzeitig
-	@ versteckt hatten, wird das Flag wieder geloescht.
-	clearflag FLAG_HIDE_FALLARBOR_POKEMON_CENTER_LANETTE
+	@ Origin Jade: Reparatur nur fuer den 0198-Zwischenstand - und NUR,
+	@ solange ihre Abgangsszene noch nicht lief (removeobject setzt ihr
+	@ Versteck-Flag automatisch; ein bedingungsloses clearflag holte sie
+	@ nach der Szene bei jedem Betreten zurueck, Spieltest-Report).
+	call_if_set FLAG_HIDE_LANETTES_HOUSE_LANETTE, FallarborTown_PokemonCenter_1F_EventScript_RepairLanetteHidden
 #endif
 	setrespawn HEAL_LOCATION_FALLARBOR_TOWN
 	call Common_EventScript_UpdateBrineyLocation
 	end
+
+#if IS_HNS
+FallarborTown_PokemonCenter_1F_EventScript_RepairLanetteHidden::
+	clearflag FLAG_HIDE_FALLARBOR_POKEMON_CENTER_LANETTE
+	return
+#endif
 
 FallarborTown_PokemonCenter_1F_EventScript_Nurse::
 	setvar VAR_0x800B, LOCALID_FALLARBOR_NURSE
