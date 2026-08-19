@@ -101,8 +101,10 @@ without the Hoenn content, use `make hns`.
 
 - [x] New title screen — the key art (Ho-Oh, Lugia, Mewtwo and Rayquaza
       around the storm vortex) stands in full glory behind the logo as a
-      static backdrop; the palette-animation groundwork (lightning
-      strikes) is built in but switched off after playtesting
+      static backdrop — now at full quality: the logo palette was
+      compacted further so the artwork gets eight palettes (120 colors),
+      restoring the smooth gradients of the original preview; the
+      palette-animation groundwork stays built in but switched off
 
 - [x] Engine update merged from the active HnS main repo (41 upstream
       commits): no more dex softlocks (every species is catchable wild or

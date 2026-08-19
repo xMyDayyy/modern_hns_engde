@@ -68,7 +68,7 @@ static const u16 sUnusedUnknownPal[] = INCBIN_U16("graphics/title_screen/unused.
 // Origin Jade: eigener Titelhintergrund - die Weltkarte aller drei Regionen.
 // Liegt in einem eigenen Ordner, die HnS-Grafiken bleiben unangetastet.
 // Origin Jade: Titelbild (Legendaeren-Artwork) als Rohdaten - 4bpp-Kacheln
-// mit Paletten 9-15 (das Logo belegt kompakt 0-143). Erzeugt vom
+// mit Paletten 8-15 (das Logo belegt kompakt 0-127). Erzeugt vom
 // Fitting-Werkzeug, siehe src/data/title_screen_jade_anim.h.
 static const u16 sTitelbildTiles[] = INCBIN_U16("graphics/title_screen/origin_jade/titelbild_tiles.bin");
 static const u16 sTitelbildMap[] = INCBIN_U16("graphics/title_screen/origin_jade/titelbild_map.bin");
@@ -620,10 +620,10 @@ void CB2_InitTitleScreen(void)
         DecompressDataWithHeaderVram(gTitleScreenPokemonLogoGfx, (void *)(BG_CHAR_ADDR(0)));
         DecompressDataWithHeaderVram(gTitleScreenPokemonLogoTilemap, (void *)(BG_SCREEN_ADDR(9)));
 #if IS_HNS
-        // Origin Jade: Logo-Palette kompakt (9 Paletten), dahinter die
-        // 7 Bildpaletten des Titelbilds.
-        LoadPalette(gTitleScreenBgPalettes, BG_PLTT_ID(0), 9 * PLTT_SIZE_4BPP);
-        LoadPalette(sTitelbildPal, BG_PLTT_ID(9), 7 * PLTT_SIZE_4BPP);
+        // Origin Jade: Logo-Palette kompakt (8 Paletten), dahinter die
+        // 8 Bildpaletten des Titelbilds (Qualitaetsausbau: 120 Farben).
+        LoadPalette(gTitleScreenBgPalettes, BG_PLTT_ID(0), 8 * PLTT_SIZE_4BPP);
+        LoadPalette(sTitelbildPal, BG_PLTT_ID(8), 8 * PLTT_SIZE_4BPP);
         // bg3: Titelbild als Rohdaten (unkomprimiert)
         DmaCopy16(3, sTitelbildTiles, (void *)(BG_CHAR_ADDR(2)), sizeof(sTitelbildTiles));
         DmaCopy16(3, sTitelbildMap, (void *)(BG_SCREEN_ADDR(26)), sizeof(sTitelbildMap));
