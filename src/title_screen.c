@@ -39,12 +39,16 @@ enum {
 #define VERSION_BANNER_RIGHT_X 152
 #define VERSION_BANNER_Y 54
 #define VERSION_BANNER_Y_GOAL 54
-// Origin Jade: Startversatz des Plaketten-Einschubs (von links).
-// JADE_BANNER_DELAY zaehlt ab Sprite-Erzeugung (Intro-Beginn), die
-// Plakette kommt also deutlich nach dem Schriftzug.
-#define JADE_BANNER_START_DX 140
-#define JADE_BANNER_SPEED 4
-#define JADE_BANNER_DELAY 106
+// Origin Jade: Ablauf des Titelbildschirms
+//   Frame 240: der Schriftzug schiebt sich von oben herein
+//   Frame 200: die Plakette zoomt "von hinten" auf ihren Ankerpunkt
+//   Frame 176/64: der Lichtreflex streicht ueber das fertige Bild
+#define JADE_LOGO_SLIDE_FRAME 240
+#define JADE_LOGO_SPEED 2
+#define JADE_ZOOM_FRAME 200
+#define JADE_ZOOM_FRAMES 28
+#define JADE_ZOOM_START 40      // Anfangsgroesse (256 = volle Groesse)
+#define JADE_ZOOM_MATRIX 0
 // Hoehe, auf der der Logo-Glanz durchstreicht
 #define JADE_SHINE_Y 28
 #else
@@ -128,7 +132,7 @@ static void SpriteCB_JadeLogoPiece(struct Sprite *sprite)
         return;
     if (sprite->y < sprite->data[0])
     {
-        sprite->y += 2;
+        sprite->y += JADE_LOGO_SPEED;
         if (sprite->y > sprite->data[0])
             sprite->y = sprite->data[0];
     }
@@ -154,36 +158,65 @@ static void CreateJadeLogoSprites(void)
     // Vier 64x64-Teile nebeneinander (Zentren 21/85/149/213) ergeben das
     // 256x64-Canvas ab x = -11; Ziel-Y 28 setzt die Oberkante auf 8.
     // Die 3 px Linksversatz sind Marcs bewusste optische Korrektur.
-    // Der Schriftzug steht von Anfang an an seinem Platz, damit der
-    // Logo-Glanz wie im Original darueber streichen kann.
+    // Der Schriftzug wartet oberhalb des Bildschirms und schiebt sich
+    // auf Signal (JadeStartLogoSlide) auf seinen Platz.
     for (i = 0; i < 4; i++)
     {
-        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 21 + i * 64, 28, 0);
+        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 21 + i * 64, -40, 0);
         sJadeLogoSpriteIds[i] = id;
         if (id != MAX_SPRITES)
         {
             gSprites[id].oam.tileNum += i * 128;   // 64x64 in 8bpp = 128 Kachelplaetze
             gSprites[id].data[0] = 28;
-            gSprites[id].data[1] = 1;
-            gSprites[id].invisible = TRUE;
+            gSprites[id].data[1] = 0;
         }
     }
 }
 
-// Der Schriftzug wartet unsichtbar an seinem Platz und erscheint erst,
-// wenn der Titelbildschirm steht - dann streicht der Glanz darueber.
-static void JadeRevealLogo(void)
+// Der Schriftzug wartet oberhalb des Bildes und schiebt sich auf Signal
+// herein; die Plakette zoomt danach von hinten heran.
+static u8 sJadeBannerSpriteIds[2];
+
+static void JadeStartLogoSlide(void)
 {
     u32 i;
 
     for (i = 0; i < 4; i++)
     {
         if (sJadeLogoSpriteIds[i] != MAX_SPRITES)
-        {
-            gSprites[sJadeLogoSpriteIds[i]].invisible = FALSE;
             gSprites[sJadeLogoSpriteIds[i]].data[1] = 1;
+    }
+}
+
+static void JadeStartBannerZoom(void)
+{
+    u32 i;
+
+    for (i = 0; i < 2; i++)
+    {
+        if (sJadeBannerSpriteIds[i] != MAX_SPRITES)
+        {
+            gSprites[sJadeBannerSpriteIds[i]].invisible = FALSE;
+            gSprites[sJadeBannerSpriteIds[i]].data[2] = 0;
+            gSprites[sJadeBannerSpriteIds[i]].data[3] = 1;
         }
     }
+}
+
+// Gemeinsame Zoomstufe: beide Haelften skalieren um die Bildmitte (120),
+// damit die Plakette als ein Stueck waechst statt auseinanderzulaufen.
+static s32 JadeZoomStep(struct Sprite *sprite)
+{
+    s32 scale;
+    u32 t = sprite->data[2];
+
+    if (t < JADE_ZOOM_FRAMES)
+        sprite->data[2] = ++t;
+    scale = JADE_ZOOM_START + (((256 - JADE_ZOOM_START) * (s32)t) / JADE_ZOOM_FRAMES);
+    if (scale > 256)
+        scale = 256;
+    SetOamMatrix(JADE_ZOOM_MATRIX, 0x10000 / scale, 0, 0, 0x10000 / scale);
+    return (32 * scale) >> 8;
 }
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/hns/logo_shine.4bpp.smol");
 #else
@@ -498,25 +531,20 @@ static void SpriteCB_VersionBannerLeft(struct Sprite *sprite)
         sprite->oam.objMode = ST_OAM_OBJ_NORMAL;
         sprite->y = VERSION_BANNER_Y_GOAL;
 #if IS_HNS
+        sprite->invisible = FALSE;
+        sprite->data[2] = JADE_ZOOM_FRAMES;
+        sprite->data[3] = 1;
+        SetOamMatrix(JADE_ZOOM_MATRIX, 0x100, 0, 0, 0x100);
         sprite->x = VERSION_BANNER_LEFT_X;
 #endif
     }
     else
     {
 #if IS_HNS
-        // Origin Jade: Der Schriftzug steht von Anfang an (der Glanz
-        // streicht darueber wie im Original) - die Plakette schiebt sich
-        // kurz danach von links herein und bleibt stehen. Kein Alphablend.
-        if (sprite->data[2] != 0)
-        {
-            sprite->data[2]--;
-        }
-        else if (sprite->x < VERSION_BANNER_LEFT_X)
-        {
-            sprite->x += JADE_BANNER_SPEED;
-            if (sprite->x > VERSION_BANNER_LEFT_X)
-                sprite->x = VERSION_BANNER_LEFT_X;
-        }
+        // Origin Jade: Die Plakette waechst aus der Tiefe heran, bis sie
+        // an ihrem Ankerpunkt steht. Kein Alphablend - danach bleibt sie.
+        if (sprite->data[3] != 0)
+            sprite->x = 120 - JadeZoomStep(sprite);
 #else
         if (sprite->y != VERSION_BANNER_Y_GOAL)
             sprite->y++;
@@ -534,22 +562,17 @@ static void SpriteCB_VersionBannerRight(struct Sprite *sprite)
         sprite->oam.objMode = ST_OAM_OBJ_NORMAL;
         sprite->y = VERSION_BANNER_Y_GOAL;
 #if IS_HNS
+        sprite->invisible = FALSE;
+        sprite->data[2] = JADE_ZOOM_FRAMES;
+        sprite->data[3] = 1;
         sprite->x = VERSION_BANNER_RIGHT_X;
 #endif
     }
     else
     {
 #if IS_HNS
-        if (sprite->data[2] != 0)
-        {
-            sprite->data[2]--;
-        }
-        else if (sprite->x < VERSION_BANNER_RIGHT_X)
-        {
-            sprite->x += JADE_BANNER_SPEED;
-            if (sprite->x > VERSION_BANNER_RIGHT_X)
-                sprite->x = VERSION_BANNER_RIGHT_X;
-        }
+        if (sprite->data[3] != 0)
+            sprite->x = 120 + JadeZoomStep(sprite);
 #else
         if (sprite->y != VERSION_BANNER_Y_GOAL)
             sprite->y++;
@@ -821,28 +844,30 @@ void CB2_InitTitleScreen(void)
             // herein und bleiben danach einfach stehen.
             u8 spriteId;
 
-            spriteId = CreateSprite(&sVersionBannerLeftSpriteTemplate, VERSION_BANNER_LEFT_X - JADE_BANNER_START_DX, VERSION_BANNER_Y, 0);
+            SetOamMatrix(JADE_ZOOM_MATRIX, 0x10000 / JADE_ZOOM_START, 0, 0, 0x10000 / JADE_ZOOM_START);
+            spriteId = CreateSprite(&sVersionBannerLeftSpriteTemplate, VERSION_BANNER_LEFT_X, VERSION_BANNER_Y, 0);
+            sJadeBannerSpriteIds[0] = spriteId;
             gSprites[spriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
+            gSprites[spriteId].oam.affineMode = ST_OAM_AFFINE_NORMAL;
+            gSprites[spriteId].oam.matrixNum = JADE_ZOOM_MATRIX;
+            gSprites[spriteId].invisible = TRUE;
             gSprites[spriteId].sAlphaBlendIdx = 0;
             gSprites[spriteId].sParentTaskId = taskId;
-            gSprites[spriteId].data[2] = JADE_BANNER_DELAY;
-            spriteId = CreateSprite(&sVersionBannerRightSpriteTemplate, VERSION_BANNER_RIGHT_X - JADE_BANNER_START_DX, VERSION_BANNER_Y, 0);
+            spriteId = CreateSprite(&sVersionBannerRightSpriteTemplate, VERSION_BANNER_RIGHT_X, VERSION_BANNER_Y, 0);
+            sJadeBannerSpriteIds[1] = spriteId;
             gSprites[spriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
+            gSprites[spriteId].oam.affineMode = ST_OAM_AFFINE_NORMAL;
+            gSprites[spriteId].oam.matrixNum = JADE_ZOOM_MATRIX;
+            gSprites[spriteId].invisible = TRUE;
             gSprites[spriteId].sParentTaskId = taskId;
-            gSprites[spriteId].data[2] = JADE_BANNER_DELAY;
         }
 #endif
         gMain.state = 3;
         break;
     }
     case 3:
-#if IS_HNS
-        // Origin Jade: aus Schwarz aufblenden statt aus Weiss - der
-        // Titelbildschirm faehrt so ruhig hoch, ohne Blitz.
-        BeginNormalPaletteFade(PALETTES_ALL, 1, 16, 0, RGB_BLACK);
-#else
+        // Ein einmaliges Weissaufblitzen, danach steht der Titelbildschirm.
         BeginNormalPaletteFade(PALETTES_ALL, 1, 16, 0, RGB_WHITEALPHA);
-#endif
         SetVBlankCallback(VBlankCB);
         gMain.state = 4;
         break;
@@ -927,15 +952,12 @@ static void Task_TitleScreenPhase1(u8 taskId)
         // farbe auf - das war der weisse Vollbildblitz (bei Vanilla sieht
         // man dort nur den leeren Hintergrund hinter dem Logo). Wir nehmen
         // die Fassung ohne Farbwechsel: nur der Lichtreflex wandert.
-        if (frameNum == 176)
-        {
-            JadeRevealLogo();                       // Schriftzug erscheint
+        if (frameNum == JADE_LOGO_SLIDE_FRAME)
+            JadeStartLogoSlide();                   // Schriftzug von oben
+        else if (frameNum == JADE_ZOOM_FRAME)
+            JadeStartBannerZoom();                  // Plakette von hinten
+        else if (frameNum == 176 || frameNum == 64)
             StartPokemonLogoShine(SHINE_MODE_SINGLE_NO_BG_COLOR);
-        }
-        else if (frameNum == 64)
-        {
-            StartPokemonLogoShine(SHINE_MODE_SINGLE_NO_BG_COLOR);
-        }
 #else
         if (frameNum == 176)
             StartPokemonLogoShine(SHINE_MODE_DOUBLE);
