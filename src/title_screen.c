@@ -956,7 +956,12 @@ static void UpdateJadeTitleAnimation(u8 frameNum)
 static void UpdateLegendaryMarkingColor(u8 frameNum)
 {
 #if IS_HNS
-    UpdateJadeTitleAnimation(frameNum);
+    // Origin Jade: Blitz-Animation nach Spieltest vorerst deaktiviert -
+    // das statische Vollbild wirkt fuer sich. Zum Reaktivieren TRUE
+    // setzen; Stellschrauben siehe UpdateJadeTitleAnimation.
+    #define JADE_TITEL_ANIMATION FALSE
+    if (JADE_TITEL_ANIMATION)
+        UpdateJadeTitleAnimation(frameNum);
     return;
 #endif
     if ((frameNum % 4) == 0) // Change color every 4th frame
