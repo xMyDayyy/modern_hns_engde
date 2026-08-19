@@ -70,7 +70,10 @@
     /* Stufe 1: Einstieg (40-65) */ \
     { MAPSEC_LITTLEROOT_TOWN,   40,  65 }, \
     { MAPSEC_OLDALE_TOWN,       40,  65 }, \
-    { MAPSEC_PETALBURG_CITY,    40,  65 }, \
+    /* Bluetenburg ist zwar frueh erreichbar, die Arena ist aber der \
+       fuenfte Orden - und ausserhalb der Arena stehen dort keine \
+       Trainer. Deshalb Stufe 3. */ \
+    { MAPSEC_PETALBURG_CITY,    50,  85 }, \
     { MAPSEC_ROUTE_101,         40,  65 }, \
     { MAPSEC_ROUTE_102,         40,  65 }, \
     { MAPSEC_ROUTE_103,         40,  65 }, \
