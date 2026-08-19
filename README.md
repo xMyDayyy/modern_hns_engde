@@ -101,9 +101,11 @@ without the Hoenn content, use `make hns`.
 
 - [x] New title screen — the key art (Ho-Oh, Lugia, Mewtwo and Rayquaza
       around the storm vortex) stands in full glory behind the logo as a
-      static backdrop — now at full quality: the logo palette was
-      compacted further so the artwork gets eight palettes (120 colors),
-      restoring the smooth gradients of the original preview; the
+      static backdrop — rebuilt cleanly from the original sources in one
+      pass (logo quantized once from the untouched original, artwork
+      fitted fresh at 120 colors), and the subtitle plaque got a new
+      look: a sweeping jade-green "Origin" over "JADE" in white with a
+      black outline, styled after the official game logos; the
       palette-animation groundwork stays built in but switched off
 
 - [x] Engine update merged from the active HnS main repo (41 upstream
