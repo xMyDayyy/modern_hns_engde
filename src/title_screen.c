@@ -32,12 +32,13 @@ enum {
 #define VERSION_BANNER_RIGHT_TILEOFFSET 64
 #if IS_HNS
 // Origin Jade: Die Plakette steht mittig (Zentren 88/152 = 120) direkt
-// unter dem auf 70 % verkleinerten Schriftzug. Start-Y = Ziel-Y, damit
-// sie nur einblendet statt von oben zuzulaufen.
+// unter dem auf 70 % verkleinerten Schriftzug (dessen Unterkante bei 47
+// liegt). Start-Y = Ziel-Y, damit sie nur einblendet statt von oben
+// zuzulaufen.
 #define VERSION_BANNER_LEFT_X 88
 #define VERSION_BANNER_RIGHT_X 152
-#define VERSION_BANNER_Y 72
-#define VERSION_BANNER_Y_GOAL 72
+#define VERSION_BANNER_Y 64
+#define VERSION_BANNER_Y_GOAL 64
 #else
 #define VERSION_BANNER_LEFT_X 98
 #define VERSION_BANNER_RIGHT_X 162
@@ -127,11 +128,11 @@ static void CreateJadeLogoSprites(void)
     u32 i;
 
     // Vier 64x64-Teile nebeneinander (Zentren 24/88/152/216) ergeben das
-    // 256x64-Canvas ab x = -8; y = 36 setzt die Oberkante auf 4.
+    // 256x64-Canvas ab x = -8; y = 28 setzt die Schriftzug-Oberkante auf 8.
     // Statisch - kein Einflug (Marcs Vorgabe).
     for (i = 0; i < 4; i++)
     {
-        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 24 + i * 64, 36, 0);
+        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 24 + i * 64, 28, 0);
         if (id != MAX_SPRITES)
             gSprites[id].oam.tileNum += i * 128;   // 64x64 in 8bpp = 128 Kachelplaetze
     }
