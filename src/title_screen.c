@@ -39,15 +39,20 @@ enum {
 #define VERSION_BANNER_RIGHT_X 152
 #define VERSION_BANNER_Y 54
 #define VERSION_BANNER_Y_GOAL 54
-// Origin Jade: Startversatz des Plaketten-Einschubs (von links)
+// Origin Jade: Startversatz des Plaketten-Einschubs (von links).
+// JADE_BANNER_DELAY zaehlt ab Sprite-Erzeugung (Intro-Beginn), die
+// Plakette kommt also deutlich nach dem Schriftzug.
 #define JADE_BANNER_START_DX 140
 #define JADE_BANNER_SPEED 4
-#define JADE_BANNER_DELAY 2
+#define JADE_BANNER_DELAY 106
+// Hoehe, auf der der Logo-Glanz durchstreicht
+#define JADE_SHINE_Y 28
 #else
 #define VERSION_BANNER_LEFT_X 98
 #define VERSION_BANNER_RIGHT_X 162
 #define VERSION_BANNER_Y 2
 #define VERSION_BANNER_Y_GOAL 66
+#define JADE_SHINE_Y 68
 #endif
 #define START_BANNER_X 128
 
@@ -160,18 +165,24 @@ static void CreateJadeLogoSprites(void)
             gSprites[id].oam.tileNum += i * 128;   // 64x64 in 8bpp = 128 Kachelplaetze
             gSprites[id].data[0] = 28;
             gSprites[id].data[1] = 1;
+            gSprites[id].invisible = TRUE;
         }
     }
 }
 
-static void StartJadeLogoEntry(void)
+// Der Schriftzug wartet unsichtbar an seinem Platz und erscheint erst,
+// wenn der Titelbildschirm steht - dann streicht der Glanz darueber.
+static void JadeRevealLogo(void)
 {
     u32 i;
 
     for (i = 0; i < 4; i++)
     {
         if (sJadeLogoSpriteIds[i] != MAX_SPRITES)
+        {
+            gSprites[sJadeLogoSpriteIds[i]].invisible = FALSE;
             gSprites[sJadeLogoSpriteIds[i]].data[1] = 1;
+        }
     }
 }
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/hns/logo_shine.4bpp.smol");
@@ -683,7 +694,9 @@ static void StartPokemonLogoShine(u8 mode)
     case SHINE_MODE_SINGLE:
         // Create one regular shine sprite.
         // If mode is SHINE_MODE_SINGLE it will also change the background color.
-        spriteId = CreateSprite(&sPokemonLogoShineSpriteTemplate, 0, 68, 0);
+        // Origin Jade: auf Logohoehe statt 68 - der Schriftzug sitzt hoeher,
+        // sonst streicht der Reflex unter ihm durch.
+        spriteId = CreateSprite(&sPokemonLogoShineSpriteTemplate, 0, JADE_SHINE_Y, 0);
         gSprites[spriteId].oam.objMode = ST_OAM_OBJ_WINDOW;
         gSprites[spriteId].sMode = mode;
         break;
@@ -808,9 +821,6 @@ void CB2_InitTitleScreen(void)
             // herein und bleiben danach einfach stehen.
             u8 spriteId;
 
-            // Schriftzug steht bereits - Signal setzen, damit die
-            // Einschub-Mechanik der Logo-Sprites definiert bleibt.
-            StartJadeLogoEntry();
             spriteId = CreateSprite(&sVersionBannerLeftSpriteTemplate, VERSION_BANNER_LEFT_X - JADE_BANNER_START_DX, VERSION_BANNER_Y, 0);
             gSprites[spriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
             gSprites[spriteId].sAlphaBlendIdx = 0;
@@ -826,7 +836,13 @@ void CB2_InitTitleScreen(void)
         break;
     }
     case 3:
+#if IS_HNS
+        // Origin Jade: aus Schwarz aufblenden statt aus Weiss - der
+        // Titelbildschirm faehrt so ruhig hoch, ohne Blitz.
+        BeginNormalPaletteFade(PALETTES_ALL, 1, 16, 0, RGB_BLACK);
+#else
         BeginNormalPaletteFade(PALETTES_ALL, 1, 16, 0, RGB_WHITEALPHA);
+#endif
         SetVBlankCallback(VBlankCB);
         gMain.state = 4;
         break;
@@ -858,6 +874,11 @@ void CB2_InitTitleScreen(void)
         EnableInterrupts(INTR_FLAG_VBLANK);
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_1
                                     | DISPCNT_OBJ_1D_MAP
+#if IS_HNS
+                                    // Origin Jade: Das Artwork ist von
+                                    // Anfang an da und blendet mit auf.
+                                    | DISPCNT_BG0_ON
+#endif
                                     | DISPCNT_BG2_ON
                                     | DISPCNT_OBJ_ON
                                     | DISPCNT_WIN0_ON
@@ -901,16 +922,36 @@ static void Task_TitleScreenPhase1(u8 taskId)
     if (gTasks[taskId].tCounter != 0)
     {
         u16 frameNum = gTasks[taskId].tCounter;
+#if IS_HNS
+        // Origin Jade: SHINE_MODE_DOUBLE/_SINGLE hellen die Hintergrund-
+        // farbe auf - das war der weisse Vollbildblitz (bei Vanilla sieht
+        // man dort nur den leeren Hintergrund hinter dem Logo). Wir nehmen
+        // die Fassung ohne Farbwechsel: nur der Lichtreflex wandert.
+        if (frameNum == 176)
+        {
+            JadeRevealLogo();                       // Schriftzug erscheint
+            StartPokemonLogoShine(SHINE_MODE_SINGLE_NO_BG_COLOR);
+        }
+        else if (frameNum == 64)
+        {
+            StartPokemonLogoShine(SHINE_MODE_SINGLE_NO_BG_COLOR);
+        }
+#else
         if (frameNum == 176)
             StartPokemonLogoShine(SHINE_MODE_DOUBLE);
         else if (frameNum == 64)
             StartPokemonLogoShine(SHINE_MODE_SINGLE);
+#endif
 
         gTasks[taskId].tCounter--;
     }
     else
     {
+#if IS_HNS
+        SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_1 | DISPCNT_OBJ_1D_MAP | DISPCNT_BG0_ON | DISPCNT_BG2_ON | DISPCNT_OBJ_ON);
+#else
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_1 | DISPCNT_OBJ_1D_MAP | DISPCNT_BG2_ON | DISPCNT_OBJ_ON);
+#endif
         SetGpuReg(REG_OFFSET_WININ, 0);
         SetGpuReg(REG_OFFSET_WINOUT, 0);
         SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT1_OBJ | BLDCNT_EFFECT_BLEND | BLDCNT_TGT2_ALL);
