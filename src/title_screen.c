@@ -37,8 +37,12 @@ enum {
 // zuzulaufen.
 #define VERSION_BANNER_LEFT_X 88
 #define VERSION_BANNER_RIGHT_X 152
-#define VERSION_BANNER_Y (-16)
+#define VERSION_BANNER_Y 54
 #define VERSION_BANNER_Y_GOAL 54
+// Origin Jade: Startversatz des Plaketten-Einschubs (von links)
+#define JADE_BANNER_START_DX 140
+#define JADE_BANNER_SPEED 4
+#define JADE_BANNER_DELAY 2
 #else
 #define VERSION_BANNER_LEFT_X 98
 #define VERSION_BANNER_RIGHT_X 162
@@ -145,17 +149,17 @@ static void CreateJadeLogoSprites(void)
     // Vier 64x64-Teile nebeneinander (Zentren 21/85/149/213) ergeben das
     // 256x64-Canvas ab x = -11; Ziel-Y 28 setzt die Oberkante auf 8.
     // Die 3 px Linksversatz sind Marcs bewusste optische Korrektur.
-    // Start oberhalb des Bildschirms: der Einschub laeuft erst los,
-    // wenn der Titelbildschirm steht (StartJadeLogoEntry).
+    // Der Schriftzug steht von Anfang an an seinem Platz, damit der
+    // Logo-Glanz wie im Original darueber streichen kann.
     for (i = 0; i < 4; i++)
     {
-        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 21 + i * 64, -40, 0);
+        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 21 + i * 64, 28, 0);
         sJadeLogoSpriteIds[i] = id;
         if (id != MAX_SPRITES)
         {
             gSprites[id].oam.tileNum += i * 128;   // 64x64 in 8bpp = 128 Kachelplaetze
             gSprites[id].data[0] = 28;
-            gSprites[id].data[1] = 0;
+            gSprites[id].data[1] = 1;
         }
     }
 }
@@ -482,18 +486,25 @@ static void SpriteCB_VersionBannerLeft(struct Sprite *sprite)
     {
         sprite->oam.objMode = ST_OAM_OBJ_NORMAL;
         sprite->y = VERSION_BANNER_Y_GOAL;
+#if IS_HNS
+        sprite->x = VERSION_BANNER_LEFT_X;
+#endif
     }
     else
     {
 #if IS_HNS
-        // Origin Jade: Einschub von oben mit doppeltem Tempo, damit
-        // Plakette und Logo-Sprites gemeinsam ankommen. Kein Alphablend -
-        // die Plakette bleibt nach dem Einschub einfach stehen.
-        if (sprite->y < VERSION_BANNER_Y_GOAL)
+        // Origin Jade: Der Schriftzug steht von Anfang an (der Glanz
+        // streicht darueber wie im Original) - die Plakette schiebt sich
+        // kurz danach von links herein und bleibt stehen. Kein Alphablend.
+        if (sprite->data[2] != 0)
         {
-            sprite->y += 2;
-            if (sprite->y > VERSION_BANNER_Y_GOAL)
-                sprite->y = VERSION_BANNER_Y_GOAL;
+            sprite->data[2]--;
+        }
+        else if (sprite->x < VERSION_BANNER_LEFT_X)
+        {
+            sprite->x += JADE_BANNER_SPEED;
+            if (sprite->x > VERSION_BANNER_LEFT_X)
+                sprite->x = VERSION_BANNER_LEFT_X;
         }
 #else
         if (sprite->y != VERSION_BANNER_Y_GOAL)
@@ -511,15 +522,22 @@ static void SpriteCB_VersionBannerRight(struct Sprite *sprite)
     {
         sprite->oam.objMode = ST_OAM_OBJ_NORMAL;
         sprite->y = VERSION_BANNER_Y_GOAL;
+#if IS_HNS
+        sprite->x = VERSION_BANNER_RIGHT_X;
+#endif
     }
     else
     {
 #if IS_HNS
-        if (sprite->y < VERSION_BANNER_Y_GOAL)
+        if (sprite->data[2] != 0)
         {
-            sprite->y += 2;
-            if (sprite->y > VERSION_BANNER_Y_GOAL)
-                sprite->y = VERSION_BANNER_Y_GOAL;
+            sprite->data[2]--;
+        }
+        else if (sprite->x < VERSION_BANNER_RIGHT_X)
+        {
+            sprite->x += JADE_BANNER_SPEED;
+            if (sprite->x > VERSION_BANNER_RIGHT_X)
+                sprite->x = VERSION_BANNER_RIGHT_X;
         }
 #else
         if (sprite->y != VERSION_BANNER_Y_GOAL)
@@ -790,14 +808,18 @@ void CB2_InitTitleScreen(void)
             // herein und bleiben danach einfach stehen.
             u8 spriteId;
 
+            // Schriftzug steht bereits - Signal setzen, damit die
+            // Einschub-Mechanik der Logo-Sprites definiert bleibt.
             StartJadeLogoEntry();
-            spriteId = CreateSprite(&sVersionBannerLeftSpriteTemplate, VERSION_BANNER_LEFT_X, VERSION_BANNER_Y, 0);
+            spriteId = CreateSprite(&sVersionBannerLeftSpriteTemplate, VERSION_BANNER_LEFT_X - JADE_BANNER_START_DX, VERSION_BANNER_Y, 0);
             gSprites[spriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
             gSprites[spriteId].sAlphaBlendIdx = 0;
             gSprites[spriteId].sParentTaskId = taskId;
-            spriteId = CreateSprite(&sVersionBannerRightSpriteTemplate, VERSION_BANNER_RIGHT_X, VERSION_BANNER_Y, 0);
+            gSprites[spriteId].data[2] = JADE_BANNER_DELAY;
+            spriteId = CreateSprite(&sVersionBannerRightSpriteTemplate, VERSION_BANNER_RIGHT_X - JADE_BANNER_START_DX, VERSION_BANNER_Y, 0);
             gSprites[spriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
             gSprites[spriteId].sParentTaskId = taskId;
+            gSprites[spriteId].data[2] = JADE_BANNER_DELAY;
         }
 #endif
         gMain.state = 3;
@@ -820,7 +842,14 @@ void CB2_InitTitleScreen(void)
         SetGpuReg(REG_OFFSET_WIN1V, 0);
         SetGpuReg(REG_OFFSET_WININ, WININ_WIN0_BG_ALL | WININ_WIN0_OBJ | WININ_WIN1_BG_ALL | WININ_WIN1_OBJ);
         SetGpuReg(REG_OFFSET_WINOUT, WINOUT_WIN01_BG_ALL | WINOUT_WIN01_OBJ | WINOUT_WINOBJ_ALL);
+#if IS_HNS
+        // Origin Jade: Der Schriftzug ist ein Sprite, kein BG2 mehr -
+        // der Glanz muss deshalb Objekte aufhellen, sonst leuchtet er
+        // ins Leere (das war das "Flackern" auf schwarzem Grund).
+        SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT1_OBJ | BLDCNT_EFFECT_LIGHTEN);
+#else
         SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT1_BG2 | BLDCNT_EFFECT_LIGHTEN);
+#endif
         SetGpuReg(REG_OFFSET_BLDALPHA, 0);
         SetGpuReg(REG_OFFSET_BLDY, 12);
         SetGpuReg(REG_OFFSET_BG0CNT, BGCNT_PRIORITY(3) | BGCNT_CHARBASE(2) | BGCNT_SCREENBASE(26) | BGCNT_16COLOR | BGCNT_TXT256x256);
