@@ -37,7 +37,7 @@ enum {
 // zuzulaufen.
 #define VERSION_BANNER_LEFT_X 88
 #define VERSION_BANNER_RIGHT_X 152
-#define VERSION_BANNER_Y 54
+#define VERSION_BANNER_Y (-16)
 #define VERSION_BANNER_Y_GOAL 54
 #else
 #define VERSION_BANNER_LEFT_X 98
@@ -112,6 +112,19 @@ static const struct OamData sJadeLogoOamData =
     .paletteNum = 0,
 };
 
+// data[0] = Ziel-Y, data[1] = Startsignal (0 = wartet oberhalb des Bildes)
+static void SpriteCB_JadeLogoPiece(struct Sprite *sprite)
+{
+    if (sprite->data[1] == 0)
+        return;
+    if (sprite->y < sprite->data[0])
+    {
+        sprite->y += 2;
+        if (sprite->y > sprite->data[0])
+            sprite->y = sprite->data[0];
+    }
+}
+
 static const struct SpriteTemplate sJadeLogoSpriteTemplate =
 {
     .tileTag = TAG_JADE_LOGO,
@@ -120,22 +133,41 @@ static const struct SpriteTemplate sJadeLogoSpriteTemplate =
     .anims = gDummySpriteAnimTable,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCallbackDummy,
+    .callback = SpriteCB_JadeLogoPiece,
 };
+
+static u8 sJadeLogoSpriteIds[4];
 
 static void CreateJadeLogoSprites(void)
 {
     u32 i;
 
     // Vier 64x64-Teile nebeneinander (Zentren 21/85/149/213) ergeben das
-    // 256x64-Canvas ab x = -11; y = 28 setzt die Oberkante auf 8.
+    // 256x64-Canvas ab x = -11; Ziel-Y 28 setzt die Oberkante auf 8.
     // Die 3 px Linksversatz sind Marcs bewusste optische Korrektur.
-    // Statisch - kein Einflug (Marcs Vorgabe).
+    // Start oberhalb des Bildschirms: der Einschub laeuft erst los,
+    // wenn der Titelbildschirm steht (StartJadeLogoEntry).
     for (i = 0; i < 4; i++)
     {
-        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 21 + i * 64, 28, 0);
+        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 21 + i * 64, -40, 0);
+        sJadeLogoSpriteIds[i] = id;
         if (id != MAX_SPRITES)
+        {
             gSprites[id].oam.tileNum += i * 128;   // 64x64 in 8bpp = 128 Kachelplaetze
+            gSprites[id].data[0] = 28;
+            gSprites[id].data[1] = 0;
+        }
+    }
+}
+
+static void StartJadeLogoEntry(void)
+{
+    u32 i;
+
+    for (i = 0; i < 4; i++)
+    {
+        if (sJadeLogoSpriteIds[i] != MAX_SPRITES)
+            gSprites[sJadeLogoSpriteIds[i]].data[1] = 1;
     }
 }
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/hns/logo_shine.4bpp.smol");
@@ -453,8 +485,19 @@ static void SpriteCB_VersionBannerLeft(struct Sprite *sprite)
     }
     else
     {
+#if IS_HNS
+        // Origin Jade: Einschub von oben mit doppeltem Tempo, damit
+        // Plakette und Logo-Sprites gemeinsam ankommen.
+        if (sprite->y < VERSION_BANNER_Y_GOAL)
+        {
+            sprite->y += 2;
+            if (sprite->y > VERSION_BANNER_Y_GOAL)
+                sprite->y = VERSION_BANNER_Y_GOAL;
+        }
+#else
         if (sprite->y != VERSION_BANNER_Y_GOAL)
             sprite->y++;
+#endif
         if (sprite->sAlphaBlendIdx != 0)
             sprite->sAlphaBlendIdx--;
         SetGpuReg(REG_OFFSET_BLDALPHA, gTitleScreenAlphaBlend[sprite->sAlphaBlendIdx]);
@@ -470,8 +513,17 @@ static void SpriteCB_VersionBannerRight(struct Sprite *sprite)
     }
     else
     {
+#if IS_HNS
+        if (sprite->y < VERSION_BANNER_Y_GOAL)
+        {
+            sprite->y += 2;
+            if (sprite->y > VERSION_BANNER_Y_GOAL)
+                sprite->y = VERSION_BANNER_Y_GOAL;
+        }
+#else
         if (sprite->y != VERSION_BANNER_Y_GOAL)
             sprite->y++;
+#endif
     }
 }
 
@@ -820,6 +872,11 @@ static void Task_TitleScreenPhase1(u8 taskId)
         SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(16, 0));
         SetGpuReg(REG_OFFSET_BLDY, 0);
 
+#if IS_HNS
+        // Origin Jade: Jetzt steht der Titelbildschirm - Logo und
+        // Plakette schieben sich gemeinsam von oben herein.
+        StartJadeLogoEntry();
+#endif
         // Create left side of version banner
         spriteId = CreateSprite(&sVersionBannerLeftSpriteTemplate, VERSION_BANNER_LEFT_X, VERSION_BANNER_Y, 0);
         gSprites[spriteId].sAlphaBlendIdx = ARRAY_COUNT(gTitleScreenAlphaBlend);
