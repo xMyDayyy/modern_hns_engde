@@ -487,7 +487,8 @@ static void SpriteCB_VersionBannerLeft(struct Sprite *sprite)
     {
 #if IS_HNS
         // Origin Jade: Einschub von oben mit doppeltem Tempo, damit
-        // Plakette und Logo-Sprites gemeinsam ankommen.
+        // Plakette und Logo-Sprites gemeinsam ankommen. Kein Alphablend -
+        // die Plakette bleibt nach dem Einschub einfach stehen.
         if (sprite->y < VERSION_BANNER_Y_GOAL)
         {
             sprite->y += 2;
@@ -497,10 +498,10 @@ static void SpriteCB_VersionBannerLeft(struct Sprite *sprite)
 #else
         if (sprite->y != VERSION_BANNER_Y_GOAL)
             sprite->y++;
-#endif
         if (sprite->sAlphaBlendIdx != 0)
             sprite->sAlphaBlendIdx--;
         SetGpuReg(REG_OFFSET_BLDALPHA, gTitleScreenAlphaBlend[sprite->sAlphaBlendIdx]);
+#endif
     }
 }
 
@@ -782,6 +783,23 @@ void CB2_InitTitleScreen(void)
         gTasks[taskId].tSkipToNext = FALSE;
         gTasks[taskId].tPointless = -16;
         gTasks[taskId].tBg2Y = -32;
+#if IS_HNS
+        {
+            // Origin Jade: Schriftzug und Plakette schieben sich schon
+            // waehrend der Intro-Phase (Aufblenden + Glanz) von oben
+            // herein und bleiben danach einfach stehen.
+            u8 spriteId;
+
+            StartJadeLogoEntry();
+            spriteId = CreateSprite(&sVersionBannerLeftSpriteTemplate, VERSION_BANNER_LEFT_X, VERSION_BANNER_Y, 0);
+            gSprites[spriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
+            gSprites[spriteId].sAlphaBlendIdx = 0;
+            gSprites[spriteId].sParentTaskId = taskId;
+            spriteId = CreateSprite(&sVersionBannerRightSpriteTemplate, VERSION_BANNER_RIGHT_X, VERSION_BANNER_Y, 0);
+            gSprites[spriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
+            gSprites[spriteId].sParentTaskId = taskId;
+        }
+#endif
         gMain.state = 3;
         break;
     }
@@ -863,8 +881,6 @@ static void Task_TitleScreenPhase1(u8 taskId)
     }
     else
     {
-        u8 spriteId;
-
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_1 | DISPCNT_OBJ_1D_MAP | DISPCNT_BG2_ON | DISPCNT_OBJ_ON);
         SetGpuReg(REG_OFFSET_WININ, 0);
         SetGpuReg(REG_OFFSET_WINOUT, 0);
@@ -872,11 +888,11 @@ static void Task_TitleScreenPhase1(u8 taskId)
         SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(16, 0));
         SetGpuReg(REG_OFFSET_BLDY, 0);
 
-#if IS_HNS
-        // Origin Jade: Jetzt steht der Titelbildschirm - Logo und
-        // Plakette schieben sich gemeinsam von oben herein.
-        StartJadeLogoEntry();
-#endif
+#if !IS_HNS
+        // Origin Jade: Die Plakette entsteht schon in der Intro-Phase
+        // (CB2_InitTitleScreen, case 2) - hier bleibt nur der Vanilla-Weg.
+        u8 spriteId;
+
         // Create left side of version banner
         spriteId = CreateSprite(&sVersionBannerLeftSpriteTemplate, VERSION_BANNER_LEFT_X, VERSION_BANNER_Y, 0);
         gSprites[spriteId].sAlphaBlendIdx = ARRAY_COUNT(gTitleScreenAlphaBlend);
@@ -885,6 +901,7 @@ static void Task_TitleScreenPhase1(u8 taskId)
         // Create right side of version banner
         spriteId = CreateSprite(&sVersionBannerRightSpriteTemplate, VERSION_BANNER_RIGHT_X, VERSION_BANNER_Y, 0);
         gSprites[spriteId].sParentTaskId = taskId;
+#endif
 
         gTasks[taskId].tCounter = 144;
         gTasks[taskId].func = Task_TitleScreenPhase2;
