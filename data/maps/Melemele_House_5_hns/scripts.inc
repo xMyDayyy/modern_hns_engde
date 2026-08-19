@@ -42,31 +42,16 @@ Melemele_House5_Son_Movement:
 	step_end
 
 Melemele_House5_Mom_Text_0:
-#if GERMAN
-	.string "Ich überlege, mit meinem Sohn Elio\n"
-	.string "in die Alola-Region zu ziehen.\p"
-	.string "Hier auf den Inseln holen wir uns schon\n"
-	.string "mal einen kleinen Vorgeschmack!$"
-#else
-	.string "I'm thinking of moving to the Alola\n"
-	.string "Region with my son, Elio.\p"
+	.string "I'm thinking of moving to the ALOLA\n"
+	.string "region with my son, ELIO.\p"
 	.string "We're just getting a little taste here\n"
-	.string "on the Isles!$"
-#endif
+	.string "on the ISLES!$"
 
 Melemele_House5_Son_Text_0:
-#if GERMAN
-	.string "Hihi, Fangen macht so viel Spaß!$"
-#else
-	.string "Hehe tag is so fun!$"
-#endif
+	.string "Hehe... tag is so fun!$"
 
 Melemele_House5_Son_Text_1:
-#if GERMAN
-	.string "Fang mich doch, Mauzi!$"
-#else
-	.string "Try to catch me meowth!$"
-#endif
+	.string "Try to catch me MEOWTH!$"
 
 Melemele_House5_Cat_Text_0:
 	.string "Mwaaawwwrrrrrrrr!!!$"

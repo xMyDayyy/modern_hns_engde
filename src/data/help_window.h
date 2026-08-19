@@ -45,8 +45,18 @@ const struct HelpWindow gHelpWindowInfo[] =
     },
     [HELP_TELEPORTER_WINDOW] =
     {
-        .header = COMPOUND_STRING("Optionaler Bonus-Inhalt: Maschine"),
-        .desc = COMPOUND_STRING("Diese Maschine verwandelt Pokémon\ndauerhaft in ihre Galar-Formen.\nGalar-Formen werden für die\nVervollständigung des Nationalen\nPokédex nicht benötigt.\n"),
+        .header = COMPOUND_STRING("Optionaler Bonus-Inhalt: Teleporter"),
+        .desc = COMPOUND_STRING("Der Teleporter verwandelt Pokémon
+"
+                                "dauerhaft in ihre Galar-Formen.
+"
+                                "Galar-Formen werden weder für die
+"
+                                "Story noch für die Vervollständigung
+"
+                                "des Nationalen Pokédex benötigt.
+"
+                            ),
         .headerFont = FONT_NORMAL,
         .descFont = FONT_NORMAL,
         .headerColor = {0, 8, 3},

@@ -30,10 +30,10 @@ Alola_Akala_BattleRaichu::
 	lock
 	faceplayer
 	setflag FLAG_BATTLED_RAICHU
-	playmoncry SPECIES_RAICHU, 0
+	playmoncry SPECIES_RAICHU_ALOLA, 0
 	msgbox Alola_Akala_BattleRaichu_Text_0, MSGBOX_AUTOCLOSE
 	waitmoncry
-	setwildbattle SPECIES_RAICHU, 45
+	setwildbattle SPECIES_RAICHU_ALOLA, 45
 	dowildbattle
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
@@ -60,63 +60,29 @@ Alola_Akala_BattleRaichu_3:
 
 
 Alola_AkalaForest_TrainerBattleBugCatcher1_Text_0:
-#if GERMAN
-	.string "Sieh dir all die coolen Käfer hier\nauf den Inseln an!$"
-#else
-	.string "Look at all the cool bugs here on the \nIsles!$"
-#endif
+	.string "Look at all the cool bugs here on the \nISLES!$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher1_Text_1:
-#if GERMAN
-	.string "Autsch, das hat gestochen!$"
-#else
 	.string "Ouch, that stung!$"
-#endif
 
 Alola_AkalaForest_TrainerBattleBugCatcher1_Text_2:
-#if GERMAN
-	.string "Die Inseln liegen weit entfernt vom\n"
-	.string "Festland. Die Käfer-Pokémon hier\l"
-	.string "mussten sich wohl an die Umgebung\l"
-	.string "anpassen.$"
-#else
-	.string "The Isles are far away from other land,\n"
-	.string "so Bug-type Pokémon here must have\l"
+	.string "The ISLES are far away from other land,\n"
+	.string "so Bug-type POKéMON here must have\l"
 	.string "adapted to the environment.$"
-#endif
 
 Alola_AkalaForest_TrainerBattleBugCatcher2_Text_0:
-#if GERMAN
-	.string "Sieh mal, was ich gefangen habe!$"
-#else
 	.string "Look at what I caught!$"
-#endif
 
 Alola_AkalaForest_TrainerBattleBugCatcher2_Text_1:
-#if GERMAN
-	.string "Aua, das beißt ja!$"
-#else
 	.string "Awh, that bites!$"
-#endif
 
 Alola_AkalaForest_TrainerBattleBugCatcher2_Text_2:
-#if GERMAN
-	.string "Das Klima auf den Alola-Inseln ist\n"
-	.string "ein wenig anders…\p"
-	.string "Bestimmt gibt es deshalb hier so\n"
-	.string "einzigartige Käfer-Pokémon.$"
-#else
 	.string "The climate is a bit different on the\n"
-	.string "Alola Isles…\p"
+	.string "ALOLA ISLES…\p"
 	.string "I'm sure that's why there are some\n"
-	.string "unique Bug-type Pokémon here.$"
-#endif
+	.string "unique Bug-type POKéMON here.$"
 
 
 Alola_Akala_BattleRaichu_Text_0:
-#if GERMAN
-	.string "Urgs!$"
-#else
 	.string "Gaaah!$"
-#endif
 

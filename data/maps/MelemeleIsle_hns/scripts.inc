@@ -184,6 +184,7 @@ Alola_Melemele_SamsonOak_Trigger_Beginning::
 	fadedefaultbgm
 	setvar VAR_ALOLA_STATE, 1
 	removeobject SamsonOakMelemeleIntro
+	setflag FLAG_VISITED_ALOLA
 	release
 	end
 
@@ -223,7 +224,7 @@ Alola_Melemele_TotemBattle_Trigger_4:
 	goto_if_eq Alola_Melemele_TotemBattle_Trigger_14
 	compare VAR_0x8000, TIME_DAY
 	goto_if_eq Alola_Melemele_TotemBattle_Trigger_14
-	playmoncry SPECIES_RATICATE, 0
+	playmoncry SPECIES_RATICATE_ALOLA, 0
 	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_SPECIES ( RATICATE_ALOLA )
 	clearflag FLAG_MELEMELE_TOTEM_DAY
 	addobject Melemele_Totem
@@ -238,7 +239,7 @@ Alola_Melemele_TotemBattle_Trigger_13:
 	goto_if_eq Alola_Melemele_TotemBattle_Trigger_20
 	compare VAR_0x8000, TIME_DAY
 	goto_if_eq Alola_Melemele_TotemBattle_Trigger_20
-	playmoncry SPECIES_RATICATE, 0
+	playmoncry SPECIES_RATICATE_ALOLA, 0
 	applymovement Melemele_Totem, Alola_Melemele_SamsonOak_Trigger_Beginning_Movement_2
 	waitmovement 0
 	waitmoncry
@@ -279,10 +280,10 @@ Alola_Melemele_TotemBattle::
 	lock
 	faceplayer
 	goto_if_set FLAG_MELEMELE_TOTEM_DAY, Alola_Melemele_TotemBattle_1
-	playmoncry SPECIES_RATICATE, 0
+	playmoncry SPECIES_RATICATE_ALOLA, 0
 	msgbox Alola_Melemele_TotemBattle_Text_2, MSGBOX_AUTOCLOSE
 	waitmoncry
-	setwildbattle SPECIES_RATTATA, 60, ITEM_NONE, SPECIES_RATICATE_ALOLA_TOTEM, 60, ITEM_PECHA_BERRY
+	setwildbattle SPECIES_RATTATA_ALOLA, 60, ITEM_NONE, SPECIES_RATICATE_ALOLA_TOTEM, 60, ITEM_PECHA_BERRY
 	settotemboost B_POSITION_OPPONENT_RIGHT, 0, 1, 0
 	setflag FLAG_NO_WILD_CATCHING
 	setflag FLAG_NO_WILD_RUNNING
@@ -385,7 +386,7 @@ Alola_Melemele_Totem_sign_12:
 	end
 
 Alola_Melemele_Totem_sign_15:
-	warp MAP_AKALA_ISLE_HNS, 9, 10
+	warp MAP_AKALA_ISLE_HNS, 9, 11
 	waitstate
 	end
 
@@ -420,11 +421,11 @@ Alola_MeleMele_TapuKoko_Flyover_2:
 Alola_Melemele_BattleVsTapuKoko::
 	lock
 	faceplayer
-	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_TAPU_KOKO, CRY_MODE_ENCOUNTER
 	msgbox Alola_Melemele_BattleVsTapuKoko_Text_0
 	waitmovement 0
 	waitmoncry
-	seteventmon SPECIES_MEW, 60
+	seteventmon SPECIES_TAPU_KOKO, 60
 	special BattleSetup_StartLegendaryBattle
 	waitstate
 	specialvar VAR_RESULT, GetBattleOutcome
@@ -612,336 +613,155 @@ Alola_MeleMele_TapuKoko_Flyover_Movement_0:
 	step_end
 
 Alola_Melemele_GetOffBoat_Text_0:
-#if GERMAN
-	.string "Willkommen zurück auf den Inseln!\p"
-	.string "Komm wieder her, wenn du zum Festland\n"
-	.string "nach Kanto reisen willst!$"
-#else
-	.string "Welcome back to the Isles!\p"
+	.string "Welcome back to the ISLES!\p"
 	.string "Come back if you'd like to take a trip\n"
-	.string "to mainland Kanto!$"
-#endif
+	.string "to mainland KANTO!$"
 
 Alola_Melemele_TravelToKanto_Text_0:
-#if GERMAN
-	.string "Ahoi!\p"
-	.string "Möchtest du zum Festland nach\n"
-	.string "Kanto reisen?$"
-#else
 	.string "Ahoy!\p"
 	.string "Would you like to travel to mainland\n"
-	.string "Kanto?$"
-#endif
+	.string "KANTO?$"
 
 Alola_Melemele_TravelToKanto_Text_1:
-#if GERMAN
-	.string "Ahoi! Dann mal an Bord mit dir!$"
-#else
 	.string "Ahoy! Let's get you on board!$"
-#endif
 
 Alola_Melemele_TravelToKanto_Text_2:
-#if GERMAN
-	.string "Ahoi!\n"
-	.string "Komm wieder, wenn du in See stechen\l"
-	.string "möchtest.$"
-#else
 	.string "Ahoy!\n"
 	.string "Come back when you'd like to set sail.$"
-#endif
 
 Alola_Melemele_Mailbox_Text_0:
-#if GERMAN
-	.string "Samson Eichs Villa$"
-#else
-	.string "Samson Oak's Villa$"
-#endif
+	.string "SAMSON OAK's VILLA$"
 
 Alola_Melemele_Melemele_Sign_Text_0:
-#if GERMAN
-	.string "Willkommen auf Mele-Mele!$"
-#else
-	.string "Welcome to Melemele Isle!$"
-#endif
+	.string "Welcome to MELEMELE ISLE!$"
 
 Alola_Melemele_Pokecenter_Sign_Text_0:
-#if GERMAN
-	.string "Willkommen im Pokémon-Center\n"
-	.string "von Mele-Mele!\p"
-	.string "Es ist das einzige Pokémon-Center der\n"
-	.string "Alola-Inseln, aber du kannst dich\l"
-	.string "überall auf den Bänken der Inseln\l"
-	.string "ausruhen.$"
-#else
-	.string "Welcome to the Melemele Isle\n"
-	.string "Pokémon Center!\p"
-	.string "This is the only Pokémon Center on the\n"
-	.string "Alola Isles but you can rest on benches\l"
-	.string "around the Isles.$"
-#endif
+	.string "Welcome to the MELEMELE ISLE\n"
+	.string "POKéMON CENTER!\p"
+	.string "This is the only POKéMON CENTER on the\n"
+	.string "ALOLA ISLES but you can rest on\l"
+	.string "benches around the ISLES.$"
 
 Alola_Melemele_MelemeleMart_Sign_Text_0:
-#if GERMAN
-	.string "Mele-Mele-Markt$"
-#else
-	.string "Melemele Isle Mart$"
-#endif
+	.string "MELEMELE ISLE MART$"
 
 Alola_Melemele_BattleSandygast_Text_0:
 	.string "Coorr!$"
 
 Alola_Melemele_SamsonOak_Trigger_Beginning_Text_0:
-#if GERMAN
-	.string "Alola!$"
-#else
 	.string "ALOLA!$"
-#endif
 
 Alola_Melemele_SamsonOak_Trigger_Beginning_Text_1:
-#if GERMAN
-	.string "Willkommen auf den Alola-Inseln!$"
-#else
-	.string "Welcome to the Alola Isles!$"
-#endif
+	.string "Welcome to the ALOLA ISLES!$"
 
 Alola_Melemele_SamsonOak_Trigger_Beginning_Text_2:
-#if GERMAN
-	.string "Mein Name ist Samson Eich!\n"
-	.string "Ich bin Pokémon-Professor.\p"
-	.string "Wie heißt du denn?$"
-#else
-	.string "My name is Samson Oak!\n"
-	.string "I'm a Pokémon Professor.\p"
+	.string "My name is SAMSON OAK!\n"
+	.string "I'm a POKéMON PROFESSOR.\p"
 	.string "What's your name?$"
-#endif
 
 Alola_Melemele_SamsonOak_Trigger_Beginning_Text_3:
-#if GERMAN
-	.string "Ah, {PLAYER}.\n"
-	.string "Ein schöner Name!\p"
-	.string "Du kennst vielleicht meinen Cousin,\n"
-	.string "Professor Eich aus der Kanto-Region.\p"
-	.string "Komm, ich zeige dir den Ort!$"
-#else
 	.string "Ah, {PLAYER}.\n"
 	.string "A fine name!\p"
-	.string "You may know my cousin, Professor Oak,\n"
-	.string "from the Kanto region.\p"
+	.string "You may know my cousin, PROFESSOR OAK,\n"
+	.string "from the KANTO region.\p"
 	.string "Let me show you to town!$"
-#endif
 
 Alola_Melemele_SamsonOak_Trigger_Beginning_Text_4:
-#if GERMAN
-	.string "Dies ist der Hauptort dieser\nInseln.\p"
-	.string "Er ähnelt Hauholi City in Alola\n"
-	.string "auf unheimliche Weise…\p{PAUSE 30}"
-	.string "Und wenn ich so darüber nachdenke…\p"
-	.string "Diese ganze Insel erinnert mich an\n"
-	.string "Mele-Mele…$"
-#else
-	.string "This is the main town on these Islands.\p"
-	.string "It's eerily similar to Hau'oli City in\n"
-	.string "Alola… {PAUSE 30}And when I think about it…\p"
-	.string "This whole island reminds me of Melemele\n"
-	.string "Island…$"
-#endif
+	.string "This is the main town on these islands.\p"
+	.string "It's eerily similar to HAU'OLI CITY in\n"
+	.string "ALOLA… {PAUSE 30}And when I think about it…\p"
+	.string "This whole island reminds me of MELEMELE\n"
+	.string "ISLAND…$"
 
 Alola_Melemele_SamsonOak_Trigger_Beginning_Text_5:
-#if GERMAN
-	.string "Aber nun gut!\p"
-	.string "Ich erforsche Varianten von Pokémon,\n"
-	.string "die in verschiedenen Regionen\l"
-	.string "vorkommen!\p"
-	.string "Auf dem Rückweg aus der Alola-Region\n"
-	.string "bin ich auf diese Inseln gestoßen…\p"
-	.string "Erstaunlicherweise leben viele der\n"
-	.string "Pokémon, die ich in Alola sah, auch hier.\l"
-	.string "Deshalb nenne ich diesen Ort…\p"
-	.string "{PAUSE 30}die Alola-Inseln!$"
-#else
 	.string "Well, anyways!\p"
-	.string "I research variations of Pokémon that \n"
+	.string "I research variations of POKéMON that \n"
 	.string "can be found in different regions!\p"
-	.string "On my way back from the Alola region,\n"
+	.string "On my way back from the ALOLA region,\n"
 	.string "I stumbled across these isles…\p"
-	.string "Surprisingly, many of the Pokémon I saw\n"
-	.string "in Alola were here as well, so I've called\l"
-	.string "this place… {PAUSE 30}the Alola Isles!$"
-#endif
+	.string "Surprisingly, many of the POKéMON I saw\n"
+	.string "in ALOLA were here as well, so I've\l"
+	.string "called this place… {PAUSE 30}the ALOLA ISLES!$"
 
 Alola_Melemele_SamsonOak_Trigger_Beginning_Text_6:
-#if GERMAN
-	.string "Ich habe die Inseln noch nicht ganz\n"
-	.string "erkundet… {PAUSE 30}Ich bin selbst gerade\l"
-	.string "erst angekommen.\p"
-	.string "Ich möchte wissen, ob alle in Alola\n"
-	.string "heimischen Regionalformen auch hier\l"
-	.string "vorkommen.\p"
-	.string "Solltest du welche entdecken, komm in\n"
-	.string "meine Villa im Osten der Insel und zeig\l"
-	.string "sie mir!\p"
-	.string "Oh! Und erkunde unterwegs ruhig\n"
-	.string "die Insel!\p"
-	.string "Wir sehen uns dort!$"
-#else
 	.string "Now I haven't completely explored the\n"
-	.string "Isles yet… {PAUSE 30}I just landed here myself.\p"
+	.string "ISLES yet… {PAUSE 30}I just landed here myself.\p"
 	.string "I'd like to know if all of the variants\n"
-	.string "native to Alola are here.\p"
+	.string "native to ALOLA are here.\p"
 	.string "If you happen to come across any,\n"
 	.string "please come by my villa on the east side\l"
-	.string "of the Isle and show them to me!\p"
-	.string "Oh. And feel free to explore the Isle\n"
+	.string "of the ISLE and show them to me!\p"
+	.string "Oh. And feel free to explore the ISLE\n"
 	.string "while on your way!\p"
 	.string "See you there!$"
-#endif
 
 Alola_Melemele_NeedToTalkToSamsonOak_Text_0:
-#if GERMAN
-	.string "Samson wartet in seiner Villa auf\n"
-	.string "dich… {PAUSE 30}Lass ihn besser nicht zu\l"
-	.string "lange warten!$"
-#else
-	.string "Samson is waiting for you at his villa…\n"
+	.string "SAMSON is waiting for you at his villa…\n"
 	.string "{PAUSE 30}best not make him wait too long!$"
-#endif
 
 Alola_Melemele_TotemBattle_Text_0:
 	.string "Leee!$"
 
 Alola_Melemele_TotemBattle_Text_1:
-#if GERMAN
-	.string "Herrscher-Folipurba wurde besiegt!\n"
-	.string "Es ist irgendwohin davongehuscht…$"
-#else
-	.string "Totem Leafeon was defeated!\n"
+	.string "Totem LEAFEON was defeated!\n"
 	.string "It scampered off somewhere…$"
-#endif
 
 Alola_Melemele_TotemBattle_Text_2:
 	.string "Thhhh!$"
 
 Alola_Melemele_TotemBattle_Text_3:
-#if GERMAN
-	.string "Herrscher-Rattikarl wurde besiegt!\n"
-	.string "Es ist irgendwohin davongehuscht…$"
-#else
-	.string "Totem Raticate was defeated!\n"
+	.string "Totem RATICATE was defeated!\n"
 	.string "It scampered off somewhere…$"
-#endif
 
 Alola_Melemele_Totem_sign_Text_0:
-#if GERMAN
-	.string "Das Totem strahlt eine starke\n"
-	.string "Energie aus…\p"
-	.string "Möchtest du es berühren und zu\n"
-	.string "einer anderen Insel reisen?$"
-#else
 	.string "The totem is emanating a strong\n"
 	.string "energy…\p"
 	.string "Touch the totem to teleport to another\n"
 	.string "Isle?$"
-#endif
 
 Alola_Melemele_Totem_sign_Text_1:
-#if GERMAN
-	.string "Mele-Mele$"
-#else
-	.string "Melemele Isle$"
-#endif
+	.string "MELEMELE ISLE$"
 
 Alola_Melemele_Totem_sign_Text_2:
-#if GERMAN
-	.string "Akala$"
-#else
-	.string "Akala Isle$"
-#endif
+	.string "AKALA ISLE$"
 
 Alola_Melemele_Totem_sign_Text_3:
-#if GERMAN
-	.string "Ula-Ula$"
-#else
-	.string "Ula'ula Isle$"
-#endif
+	.string "ULA'ULA ISLE$"
 
 Alola_Melemele_Totem_sign_Text_4:
-#if GERMAN
-	.string "Poni$"
-#else
-	.string "Poni Isle$"
-#endif
+	.string "PONI ISLE$"
 
 Alola_Melemele_Totem_sign_Text_5:
-#if GERMAN
-	.string "Zurück$"
-#else
 	.string "Cancel$"
-#endif
 
 Alola_Melemele_Totem_sign_Text_6:
-#if GERMAN
-	.string "Ein seltsames Totem steht hier.\n"
-	.string "Es strahlt eine gewaltige Kraft aus…$"
-#else
 	.string "A strange totem stands here,\n"
 	.string "power is emanating from it…$"
-#endif
 
 Alola_Melemele_BattleVsTapuKoko_Text_0:
 	.string "Ko-Ko-Kooo!$"
 
 Alola_Melemele_TrainerBattleSwimmer_Text_0:
-#if GERMAN
-	.string "Das Wasser hier bei den Inseln\nist schön warm!$"
-#else
-	.string "The waters are warm here by the Isles!$"
-#endif
+	.string "The waters are warm here by the ISLES!$"
 
 Alola_Melemele_TrainerBattleSwimmer_Text_1:
-#if GERMAN
-	.string "Vielleicht sollte ich mich an Land\netwas abtrocknen…$"
-#else
 	.string "Maybe I should dry off on land for\na bit…$"
-#endif
 
 Alola_Melemele_TrainerBattleSwimmer_Text_2:
-#if GERMAN
-	.string "Im Wasser leben viele tolle Pokémon.\n"
-	.string "Probiere all deine Angeln aus!$"
-#else
-	.string "There are plenty of neat Pokémon in\n"
+	.string "There are plenty of neat POKéMON in\n"
 	.string "the water, try all your fishing rods!$"
-#endif
 
 Alola_Melemele_Bugcatcher_Text_0:
-#if GERMAN
-	.string "Die Käfer-Pokémon der Alola-Inseln\n"
-	.string "sind viel größer als die in Kanto!$"
-#else
-	.string "The bug Pokémon on the Alola Isles\n"
-	.string "are much bigger than those in Kanto!$"
-#endif
+	.string "The bug POKéMON on the ALOLA ISLES\n"
+	.string "are much bigger than those in KANTO!$"
 
 Alola_Melemele_camper_Text_0:
-#if GERMAN
-	.string "Ich bin extra aus Kanto angereist, um\n"
-	.string "eine Variante meines Lieblings-Katzen-\l"
-	.string "Pokémon Mauzi zu sehen!$"
-#else
-	.string "I traveled all the way from Kanto to see\n"
-	.string "a variant of my favorite cat Pokémon,\n"
-	.string "Meowth!$"
-#endif
+	.string "I traveled all the way from KANTO to see\n"
+	.string "a variant of my favorite cat POKéMON,\l"
+	.string "MEOWTH!$"
 
 Alola_Melemele_Picnicker_Text_0:
-#if GERMAN
-	.string "Diese Inseln stecken voller\n"
-	.string "einzigartiger Pokémon!\p"
-	.string "Ich muss mich mit Pokébällen eindecken,\n"
-	.string "um sie alle zu fangen!$"
-#else
-	.string "These Isles are chock full of unique\n"
-	.string "Pokémon!\p"
-	.string "I need to stock up on Poké Balls so I\n"
+	.string "These ISLES are chock full of unique\n"
+	.string "POKéMON!\p"
+	.string "I need to stock up on POKé BALLS so I\n"
 	.string "can catch them all!$"
-#endif

@@ -250,7 +250,7 @@ Alola_Akala_Totem_sign_12:
 	end
 
 Alola_Akala_Totem_sign_15:
-	warp MAP_AKALA_ISLE_HNS, 9, 10
+	warp MAP_AKALA_ISLE_HNS, 9, 11
 	waitstate
 	end
 
@@ -285,10 +285,10 @@ Alola_Akala_TapuLele_Flyover_2:
 Alola_Akala_BattleVsTapuLele::
 	lock
 	faceplayer
-	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_TAPU_LELE, CRY_MODE_ENCOUNTER
 	msgbox Alola_Akala_BattleVsTapuLele_Text_0
 	waitmoncry
-	seteventmon SPECIES_MEW, 60
+	seteventmon SPECIES_TAPU_LELE, 60
 	special BattleSetup_StartLegendaryBattle
 	waitstate
 	specialvar VAR_RESULT, GetBattleOutcome
@@ -359,7 +359,22 @@ Alola_Akala_TrainerBattleSwimmerWaterM::
 	end
 
 
-Alola_Akala_Bench_Heal::
+Alola_Akala_Bench_Heal_Right::
+	specialvar VAR_RESULT, GetPlayerFacingDirection
+	compare VAR_RESULT, DIR_EAST
+	goto_if_eq Alola_Akala_Bench_Heal_Skip
+	goto Alola_Akala_Bench_Heal
+
+Alola_Akala_Bench_Heal_Left::
+	specialvar VAR_RESULT, GetPlayerFacingDirection
+	compare VAR_RESULT, DIR_WEST
+	goto_if_eq Alola_Akala_Bench_Heal_Skip
+	goto Alola_Akala_Bench_Heal
+
+Alola_Akala_Bench_Heal_Skip:
+	end
+
+Alola_Akala_Bench_Heal:
 	lock
 	faceplayer
 	msgbox Alola_Akala_Bench_Heal_Text_0, MSGBOX_YESNO
@@ -415,270 +430,122 @@ Alola_Akala_BattleSandygast_Text_0:
 	.string "Coorr!$"
 
 Alola_Akala_Sign_Text_0:
-#if GERMAN
-	.string "Akala$"
-#else
-	.string "Akala Isle$"
-#endif
+	.string "AKALA ISLE$"
 
 Alola_Akala_House_Sign_Text_0:
-#if GERMAN
-	.string "Die Akala-Villa.\p"
-	.string "Eine Unterkunft für Besucher\n"
-	.string "der Insel Akala.$"
-#else
-	.string "The Akala Villa.\p"
+	.string "AKALA VILLA\p"
 	.string "A place for visitors to stay while\n"
-	.string "on Akala Isle.$"
-#endif
+	.string "on AKALA ISLE.$"
 
 Alola_Akala_Natu_Text_0:
-#if GERMAN
-	.string "Natu: Tuuuuu!$"
-#else
 	.string "NATU: TUUUUU!$"
-#endif
 
 Alola_Akala_OldManOnBench_Text_0:
-#if GERMAN
-	.string "Ah, das Wetter ist heute wieder\n"
-	.string "herrlich, nicht wahr?\p"
-	.string "Ich habe gerade die Natu gefüttert und\n"
-	.string "dieses hier leistet mir nun auf meiner\l"
-	.string "Bank Gesellschaft!$"
-#else
 	.string "Ah the weather is so nice today,\n"
 	.string "isn't it?\p"
 	.string "I was just feeding the NATU and this\n"
 	.string "one decided to join me on my bench!$"
-#endif
 
 Alola_Akala_TotemBattle_Text_0:
 	.string "Mortaar!$"
 
 Alola_Akala_TotemBattle_Text_1:
-#if GERMAN
-	.string "Herrscher-Magbrant wurde besiegt!\n"
-	.string "Es ist irgendwohin davongehuscht…$"
-#else
-	.string "Totem Magmortar was defeated!\n"
+	.string "Totem MAGMORTAR was defeated!\n"
 	.string "It scampered off somewhere…$"
-#endif
 
 Alola_Akala_TotemBattle_Text_2:
-	.string "Salaa!$"
+	.string "Prrrob!$"
 
 Alola_Akala_TotemBattle_Text_3:
-#if GERMAN
-	.string "Herrscher-Voluminas wurde besiegt!\n"
-	.string "Es ist irgendwohin davongehuscht…$"
-#else
-	.string "Totem Probopass was defeated!\n"
+	.string "Totem PROBOPASS was defeated!\n"
 	.string "It scampered off somewhere…$"
-#endif
 
 Alola_Akala_Totem_sign_Text_0:
-#if GERMAN
-	.string "Das Totem strahlt eine starke\n"
-	.string "Energie aus…\p"
-	.string "Möchtest du es berühren und zu\n"
-	.string "einer anderen Insel reisen?$"
-#else
 	.string "The totem is emanating a strong\n"
 	.string "energy…\p"
 	.string "Touch the totem to teleport to another\n"
 	.string "Isle?$"
-#endif
 
 Alola_Akala_Totem_sign_Text_1:
-#if GERMAN
-	.string "Mele-Mele$"
-#else
-	.string "Melemele Isle$"
-#endif
+	.string "MELEMELE ISLE$"
 
 Alola_Akala_Totem_sign_Text_2:
-#if GERMAN
-	.string "Ula-Ula$"
-#else
-	.string "Ula'ula Isle$"
-#endif
+	.string "ULA'ULA ISLE$"
 
 Alola_Akala_Totem_sign_Text_3:
-#if GERMAN
-	.string "Poni$"
-#else
-	.string "Poni Isle$"
-#endif
+	.string "PONI ISLE$"
 
 Alola_Akala_Totem_sign_Text_4:
-#if GERMAN
-	.string "Zurück$"
-#else
-	.string "Cancel$"
-#endif
+	.string "CANCEL$"
 
 Alola_Akala_Totem_sign_Text_5:
-#if GERMAN
-	.string "Ein seltsames Totem steht hier.\n"
-	.string "Es strahlt eine gewaltige Kraft aus…$"
-#else
 	.string "A strange totem stands here,\n"
 	.string "power is emanating from it…$"
-#endif
 
 Alola_Akala_BattleVsTapuLele_Text_0:
 	.string "Le-Lele!$"
 
 Alola_Akala_TrainerBattleHiker_Text_0:
-#if GERMAN
-	.string "Ich bin auf die Inseln gekommen,\num die Berge zu erklimmen!$"
-#else
-	.string "I came to the Isles to hike the\nmountains!$"
-#endif
+	.string "I came to the ISLES to hike the\nmountains!$"
 
 Alola_Akala_TrainerBattleHiker_Text_1:
-#if GERMAN
-	.string "Und schon purzle ich hinab…$"
-#else
 	.string "And down I tumble…$"
-#endif
 
 Alola_Akala_TrainerBattleHiker_Text_2:
-#if GERMAN
-	.string "Auf Akala wandert es sich am besten!\n"
-	.string "Üppige Wälder und wilde Pfade!$"
-#else
-	.string "Akala Isle has the best hiking!\n"
+	.string "AKALA ISLE has the best hiking!\n"
 	.string "It's got lush forests and rugged trails!$"
-#endif
 
 Alola_Akala_TrainerBattlePicnicker_Text_0:
-#if GERMAN
-	.string "Ha! Du hast mich nicht gesehen,\nstimmt’s?$"
-#else
 	.string "Ha! Didn't see me, did you?$"
-#endif
 
 Alola_Akala_TrainerBattlePicnicker_Text_1:
-#if GERMAN
-	.string "Der Überraschungseffekt ist wohl\nnicht immer sehr effektiv…$"
-#else
 	.string "I guess the element of surprise isn't\nalways super effective…$"
-#endif
 
 Alola_Akala_TrainerBattlePicnicker_Text_2:
-#if GERMAN
-	.string "Akala ist so grün, dass ich mich mühelos\n"
-	.string "in den Bäumen verstecken kann!$"
-#else
-	.string "It's so lush on Akala Isle,\n"
+	.string "It's so lush on AKALA ISLE,\n"
 	.string "I can easily hide in the trees!$"
-#endif
 
 Alola_Akala_TrainerBattleCamper_Text_0:
-#if GERMAN
-	.string "Ich will mich als Erster den\nHerrscher-Pokémon beweisen!$"
-#else
-	.string "I want to be the first to prove myself\nto the Totem Pokémon!$"
-#endif
+	.string "I want to be the first to prove myself\nto the Totem POKéMON!$"
 
 Alola_Akala_TrainerBattleCamper_Text_1:
-#if GERMAN
-	.string "Mist, das hilft meiner Sache\nnicht gerade weiter.$"
-#else
 	.string "Drat,\nthat's not going to help my case.$"
-#endif
 
 Alola_Akala_TrainerBattleCamper_Text_2:
-#if GERMAN
-	.string "Vorne steht ein seltsames Totem, aber\n"
-	.string "ein Herrscher-Pokémon habe ich nicht\l"
-	.string "gesehen.$"
-#else
 	.string "There's a weird Totem further ahead but\n"
-	.string "I haven't seen a Totem Pokémon.$"
-#endif
+	.string "I haven't seen a Totem POKéMON.$"
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_0:
-#if GERMAN
-	.string "Hey! Keine Schuhe am Strand!$"
-#else
 	.string "Hey! No shoes on the beach!$"
-#endif
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_1:
-#if GERMAN
-	.string "Autsch! Wo ist ein Rettungs-\nschwimmer, wenn man ihn braucht…$"
-#else
 	.string "Ouch,\nwhere's a lifeguard when you need one…$"
-#endif
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_2:
-#if GERMAN
-	.string "Akala hat die schönsten Strände!\n"
-	.string "Weicher Sand und klares Wasser!$"
-#else
-	.string "Akala Isle has the best beaches!\n"
+	.string "AKALA ISLE has the best beaches!\n"
 	.string "It's got soft sand and clear waters!$"
-#endif
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_0:
-#if GERMAN
-	.string "Aus dem Weg!\nIch ziehe hier meine Bahnen!$"
-#else
 	.string "Out of my way!\nI'm swimming laps!$"
-#endif
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_1:
-#if GERMAN
-	.string "Diese Pause hatte ich mir anders\nvorgestellt…$"
-#else
 	.string "Not the break I was looking for…$"
-#endif
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_2:
-#if GERMAN
-	.string "Ula-Ula hat die schönsten Strände!\n"
-	.string "Glaub niemandem, der etwas anderes\l"
-	.string "behauptet!$"
-#else
-	.string "Ula'ula Isle has the best beaches!\n"
+	.string "ULA'ULA ISLE has the best beaches!\n"
 	.string "Ignore anyone who says otherwise!$"
-#endif
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_0:
-#if GERMAN
-	.string "Hah! Du brauchst ein Pokémon,\num zu surfen?$"
-#else
-	.string "Hah!\nYou need to ride a Pokémon to surf?$"
-#endif
+	.string "Hah!\nYou need to ride a POKéMON to surf?$"
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_1:
-#if GERMAN
-	.string "Wäre ich nicht selbst geschwommen,\n"
-	.string "hätte ich vielleicht noch Kraft zum\l"
-	.string "Siegen gehabt…$"
-#else
 	.string "If I hadn't swam myself\nmaybe I would've had the energy to win…$"
-#endif
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_2:
-#if GERMAN
-	.string "Die Strömung hier draußen ist stark!\n"
-	.string "Ein Pokémon muss schon sehr kräftig\l"
-	.string "sein, um bis zu den Inseln zu wandern!$"
-#else
 	.string "The current out here is strong!\n"
-	.string "A Pokémon must be really powerful to\l"
-	.string "migrate all the way out to the Isles!$"
-#endif
+	.string "A POKéMON must be really powerful to\l"
+	.string "migrate all the way out to the ISLES!$"
 
 Alola_Akala_Bench_Heal_Text_0:
-#if GERMAN
-	.string "Möchtest du auf dieser Bank eine\n"
-	.string "Pause einlegen?$"
-#else
 	.string "Would you like to take a rest on this\n"
 	.string "bench?$"
-#endif

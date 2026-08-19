@@ -6,33 +6,19 @@ Route50_EventScript_BlackBelt1::
 	end
 
 Route50_Text_BlackBelt1::
-#if GERMAN
-	.string "Der Körper muss gestählt und der Geist\n"
-	.string "gefestigt werden - unter den härtesten\l"
-	.string "Bedingungen!$"
-#else
 	.string "The body must be hardened\n"
     .string "and the mind strengthened\l"
     .string "in the harshest of conditions!$"
-#endif
 
 Route50_EventScript_BlackBelt2::
 	msgbox Route50_Text_BlackBelt2, MSGBOX_NPC
 	end
 
 Route50_Text_BlackBelt2::
-#if GERMAN
-	.string "Puh!\p"
-	.string "Ich bin nicht so hart im Nehmen\n"
-	.string "wie er.\p"
-	.string "Hier gibt es aber auch wirklich\n"
-	.string "nichts anderes zu tun als Training.$"
-#else
     .string "Phew!\p"
     .string "I'm not as hardcore as he is.\p"
 	.string "There's really not much else\n"
     .string "to do here but train.$"
-#endif
   
 
 Route50_EventScript_Wessel::
@@ -63,16 +49,6 @@ Route50_EventScript_WesselAfter::
 	end
 
 Route50_Text_WesselBefore:
-#if GERMAN
-	.string "Unglaublich, ein Voltobal!\p"
-	.string "Aber es scheint aus… Holz zu bestehen?\p"
-	.string "Meine Hypothese, dass es auf dieser\n"
-	.string "Route viele Stahl-Pokémon gibt, ist\l"
-	.string "damit erneut widerlegt.\p"
-	.string "Aber warum sonst hätte ich hier\n"
-	.string "diese Eisentafel finden sollen?\p"
-	.string "Ich muss mehr Daten sammeln!$"
-#else
 	.string "Incredible, A VOLTORB!\p"
     .string "But it appears to be made\n"
     .string "of... Wood?\p"
@@ -82,35 +58,18 @@ Route50_Text_WesselBefore:
     .string "But why else would I have found\n"
     .string "this STEEL PLATE here?\p"
     .string "I must collect more data!$"
-#endif
 
 Route50_Text_WesselBeforeBattle:
-#if GERMAN
-	.string "Du willst diese Tafel haben?\n"
-	.string "Aber ich habe sie noch gar nicht\l"
-	.string "analysiert!\p"
-	.string "Na schön, kämpfen wir darum.$"
-#else
 	.string "You want this PLATE?\n"
 	.string "But I haven't analyzed it yet!\p"
 	.string "Fine, we will battle for it.$"
-#endif
 
 Route50_Text_WesselDefeat:
-#if GERMAN
-	.string "Meine Hypothese war falsch…$"
-#else
 	.string "My hypothesis was wrong...$"
-#endif
 
 Route50_Text_WesselAfter:
-#if GERMAN
-	.string "Nimm die Tafel. Ich möchte nicht\n"
-	.string "darüber reden.$"
-#else
-	.string "Take it the PLATE. I don't want to\n"
+	.string "Take the PLATE. I don't want to\n"
 	.string "talk about it.$"
-#endif
 
 Route50_EventScript_Finley::
 	goto_if_defeated TRAINER_FINLEY_HNS, Route50_EventScript_FinleyAfter
@@ -140,21 +99,6 @@ Route50_EventScript_FinleyAfter::
 	end
 
 Route50_Text_FinleyBefore:
-#if GERMAN
-	.string "Wie behandeln dich die Dorfbewohner?\p"
-	.string "Fremden gegenüber können sie sehr\n"
-	.string "abweisend sein.\p"
-	.string "Dabei ist es eine der größten Freuden\n"
-	.string "des Lebens, neue Menschen\l"
-	.string "kennenzulernen.\p"
-	.string "Eines Tages hoffe ich, Champ Siegfried\n"
-	.string "zu begegnen.\p"
-	.string "Er ist ein legendärer Drachen-Bändiger,\n"
-	.string "ganz wie ich.\l"
-	.string "Wer ich bin?\p"
-	.string "Nun, ich bin Finley, Hüter der\n"
-	.string "Dracotafel.$"
-#else
 	.string "How are the villagers treating\n"
     .string "you?\p"
     .string "They can be very unwelcoming to\n"
@@ -168,37 +112,19 @@ Route50_Text_FinleyBefore:
     .string "Who am I?\p"
     .string "Well, I am FINLEY, keeper of the\n"
     .string "DRACO PLATE.$"
-#endif
 
 Route50_Text_FinleyBeforeBattle:
-#if GERMAN
-	.string "Ich weiß, dass die Kimono-Girls dich\n"
-	.string "geschickt haben, um die Tafeln zu\l"
-	.string "sammeln.\p"
-	.string "Sie sagen, du seist würdig…\n"
-	.string "Doch bezwingst du auch meine Drachen?$"
-#else
 	.string "I know the KIMONO's have sent you\n"
 	.string "to collect these PLATES.\p"
 	.string "They say you are worthy...\n"
 	.string "But can you conquer my dragons?$"
-#endif
 
 Route50_Text_FinleyDefeat:
-#if GERMAN
-	.string "Meine Drachen haben tapfer gekämpft.$"
-#else
 	.string "My dragons fought well.$"
-#endif
 
 Route50_Text_FinleyAfter:
-#if GERMAN
-	.string "Vielleicht bist du sogar stark genug,\n"
-	.string "um Siegfried zu schlagen…$"
-#else
 	.string "Perhaps you are even strong enough\n"
 	.string "to beat LANCE...$"
-#endif
 
 Route50_EventScript_Item_ULtraBall::
     finditem ITEM_ULTRA_BALL
@@ -327,9 +253,9 @@ Route50_EventScript_ActivateElectrode::
     clearflag FLAG_HIDE_ROUTE50_NOBLE_ELECTRODE
     applymovement2 LOCALID_ROUTE50_NOBLE_ELECTRODE, Route50_Movement_ElectrodeEntrance1
     delay 10
-    playmoncry SPECIES_ELECTRODE, CRY_MODE_NORMAL
+    playmoncry SPECIES_ELECTRODE_HISUI, CRY_MODE_NORMAL
     waitmoncry
-    playmoncry SPECIES_ELECTRODE, CRY_MODE_NORMAL
+    playmoncry SPECIES_ELECTRODE_HISUI, CRY_MODE_NORMAL
     waitmoncry
     waitmovement 0
     applymovement2 LOCALID_ROUTE50_NOBLE_ELECTRODE, Route50_Movement_ElectrodeEntrance2
@@ -378,7 +304,7 @@ Route50_Movement_ElectrodeEntrance3:
 Route50_EventScript_Electrode::
 	lock
 	faceplayer
-	playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_ELECTRODE_HISUI, CRY_MODE_ENCOUNTER
 	waitmoncry
 	setwildbossbattle species=SPECIES_ELECTRODE_HISUI, level=80, item=ITEM_BRIGHT_POWDER, move1_1=MOVE_FOUL_PLAY, move1_2=MOVE_ELECTRO_BALL, move1_3=MOVE_ENERGY_BALL move1_4=MOVE_CHLOROBLAST
 	settotemboost B_POSITION_OPPONENT_LEFT, 0, 3, 1, 0, 3, 0
@@ -389,7 +315,7 @@ Route50_EventScript_Electrode::
     dowildbattle
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, Route50_EventScript_ElectrodeRan
-    bufferspeciesname STR_VAR_1, SPECIES_ELECTRODE
+    bufferspeciesname STR_VAR_1, SPECIES_ELECTRODE_HISUI
     msgbox SinjohRuins_Lab_Text_DropedItem, MSGBOX_DEFAULT
     giveitem ITEM_ZAP_PLATE
     addvar VAR_PLATECOUNTER, 1

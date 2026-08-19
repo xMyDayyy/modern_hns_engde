@@ -14964,6 +14964,12 @@ const struct ItemInfo gItemsInfo[] =
     {
         .name = ITEM_NAME("Hoennticket"),
         .price = 0,
+#if IS_HNS
+        .description = COMPOUND_STRING(
+            "The key for the\n"
+            "GOLDENROD\n"
+            "UNDERGROUND."),
+#else
         .description = COMPOUND_STRING(
             "Fahrkarte für die\n"
             "Überfahrt in die\n"
@@ -15196,6 +15202,12 @@ const struct ItemInfo gItemsInfo[] =
     {
         .name = ITEM_NAME("Türöffner"),
         .price = 0,
+#if IS_HNS
+        .description = COMPOUND_STRING(
+            "A card-type door\n"
+            "key used in RADIO\n"
+            "TOWER."),
+#else
         .description = COMPOUND_STRING(
             "Schlüsselkarte für\n"
             "HQ der Silph Co. in\n"

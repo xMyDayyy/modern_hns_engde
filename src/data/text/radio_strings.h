@@ -647,54 +647,6 @@ static const u8 sRadioText_Buena6[] = _("Rosalias Rundfunkturm!");
 static const u8 sRadioText_Buena6[] = _("GOLDENROD's RADIO TOWER!");
 #endif
 
-// Buena midnight shutdown
-#if GERMAN
-static const u8 sRadioText_BuenaMidnight1[] = _("Buena: Oh je…");
-#else
-static const u8 sRadioText_BuenaMidnight1[] = _("BUENA: Oh my…");
-#endif
-#if GERMAN
-static const u8 sRadioText_BuenaMidnight2[] = _("Es ist Mitternacht! Ich");
-#else
-static const u8 sRadioText_BuenaMidnight2[] = _("It's midnight! I");
-#endif
-#if GERMAN
-static const u8 sRadioText_BuenaMidnight3[] = _("muss jetzt aufhören!");
-#else
-static const u8 sRadioText_BuenaMidnight3[] = _("have to shut down!");
-#endif
-#if GERMAN
-static const u8 sRadioText_BuenaMidnight4[] = _("Danke fürs Einschalten");
-#else
-static const u8 sRadioText_BuenaMidnight4[] = _("Thanks for tuning");
-#endif
-#if GERMAN
-static const u8 sRadioText_BuenaMidnight5[] = _("bis zum Schluss! Aber");
-#else
-static const u8 sRadioText_BuenaMidnight5[] = _("in to the end! But");
-#endif
-#if GERMAN
-static const u8 sRadioText_BuenaMidnight6[] = _("bleibt nicht zu lange");
-#else
-static const u8 sRadioText_BuenaMidnight6[] = _("don't stay up too");
-#endif
-#if GERMAN
-static const u8 sRadioText_BuenaMidnight7[] = _("wach! Präsentiert von");
-#else
-static const u8 sRadioText_BuenaMidnight7[] = _("late! Presented to");
-#endif
-#if GERMAN
-static const u8 sRadioText_BuenaMidnight8[] = _("Dj Buena!");
-#else
-static const u8 sRadioText_BuenaMidnight8[] = _("you by DJ BUENA!");
-#endif
-#if GERMAN
-static const u8 sRadioText_BuenaMidnight9[] = _("Ich bin dann mal weg!");
-#else
-static const u8 sRadioText_BuenaMidnight9[] = _("I'm outta here!");
-#endif
-static const u8 sRadioText_BuenaMidnight10[] = _("…");
-static const u8 sRadioText_BuenaOffAir[] = _("");
 
 // ==========================================================
 // Buena's Password Categories & Options

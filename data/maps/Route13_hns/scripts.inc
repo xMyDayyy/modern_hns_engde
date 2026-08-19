@@ -123,233 +123,104 @@ Route13_EventScript_DirectionsSign::
 	end
 
 Route13_Text_PokefanmAlexSeen:
-#if GERMAN
-	.string "Verneige dich vor meinen erhabenen\n"
-	.string "Pokémon!$"
-#else
 	.string "Bow down before my regal POKéMON!$"
-#endif
 
 Route13_Text_PokefanmAlexBeaten:
-#if GERMAN
-	.string "Wie… wie kannst du es wagen, die\n"
-	.string "Monarchie zu verspotten?$"
-#else
 	.string "How… How dare you mock royalty!$"
-#endif
 
 Route13_Text_PokefanmAlexAfterBattle:
-#if GERMAN
-	.string "Möchte nicht jeder eines Tages\n"
-	.string "einmal König sein?$"
-#else
 	.string "Doesn't everyone wish to someday\n"
 	.string "be a king?$"
-#endif
 
 Route13_Text_AlexRegister:
-#if GERMAN
-	.string "Nicht blaublütig, aber nicht schlecht.\n"
-	.string "Gib mir deine Nummer.$"
-#else
 	.string "You're not royalty but you're good.\n"
 	.string "Let me get your number.$"
-#endif
 
 Route13_Text_AlexRematchIntro:
-#if GERMAN
-	.string "Ich habe nun Ritter an meiner\n"
-	.string "Tafel, lass uns kämpfen!$"
-#else
 	.string "I've added knights to my court!\n"
 	.string "Let's battle!$"
-#endif
 
 Route13_Text_AlexRematchDefeat:
-#if GERMAN
-	.string "Wieder Entthront…$"
-#else
 	.string "Dethroned again…$"
-#endif
 
 Route13_Text_AlexPostRematch:
-#if GERMAN
-	.string "Vielleicht bin ich nur ein Bauer…$"
-#else
 	.string "Maybe I'm just a pawn after all.$"
-#endif
 
 Route13_Text_PokefanmJoshuaSeen:
-#if GERMAN
-	.string "Hihi! Möchtest du gegen mein\n"
-	.string "Pikachu-Team antreten?$"
-#else
 	.string "Nihihi! Would you like to battle\n"
 	.string "my PIKACHU gang?$"
-#endif
 
 Route13_Text_PokefanmJoshuaBeaten:
-#if GERMAN
-	.string "Pi-Pikachu!$"
-#else
 	.string "PI-PIKACHU!$"
-#endif
 
 Route13_Text_PokefanmJoshuaAfterBattle:
-#if GERMAN
-	.string "Kann ja sein, dass du viele\n"
-	.string "verschiedene Pokémon hast, aber\l"
-	.string "Pikachu ist immer noch das Beste.$"
-#else
 	.string "You look like you have many\n"
 	.string "POKéMON, but PIKACHU\l"
 	.string "is still the best.$"
-#endif
 
 Route13_Text_BirdKeeperPerrySeen:
-#if GERMAN
-	.string "Initiative ist die wichtigste\n"
-	.string "Eigenschaft von Vogel-Pokémon.$"
-#else
 	.string "Agility is the key attribute of\n"
 	.string "bird POKéMON.$"
-#endif
 
 Route13_Text_BirdKeeperPerryBeaten:
-#if GERMAN
-	.string "Du warst schneller als ich?\n"
-	.string "Völlig ausgeschlossen!$"
-#else
 	.string "You beat me with your speed…$"
-#endif
 
 Route13_Text_BirdKeeperPerryAfterBattle:
-#if GERMAN
-	.string "Dein Pokémon-Team ist in der Tat sehr\n"
-	.string "gut trainiert.$"
-#else
 	.string "Your POKéMON are remarkably well-\n"
 	.string "trained.$"
-#endif
 
 Route13_Text_BirdKeeperBretSeen:
-#if GERMAN
-	.string "Schau dir meine Pokémon an. Sieh nur,\n"
-	.string "diese Farben und dieses Gefieder!$"
-#else
 	.string "Check out my POKéMON. Just look\n"
 	.string "at their coloring and their\l"
 	.string "plumage.$"
-#endif
 
 Route13_Text_BirdKeeperBretBeaten:
-#if GERMAN
-	.string "Verflixt!\n"
-	.string "Mit dir kann ich nicht mithalten!$"
-#else
 	.string "Shoot! Not good enough!$"
-#endif
 
 Route13_Text_BirdKeeperBretAfterBattle:
-#if GERMAN
-	.string "Behandele deine Pokémon immer\n"
-	.string "pfleglich. Sie werden es dir danken.$"
-#else
 	.string "If you groom them, POKéMON get\n"
 	.string "happy.$"
-#endif
 
 Route13_Text_HikerKennySeen:
-#if GERMAN
-	.string "Ich sollte zum Felstunnel gehen\n"
-	.string "und mir ein Onix fangen.$"
-#else
 	.string "I should go to ROCK TUNNEL to get\n"
 	.string "myself an ONIX.$"
-#endif
 
 Route13_Text_HikerKennyBeaten:
-#if GERMAN
-	.string "Du hast mich besiegt!$"
-#else
 	.string "I lost…$"
-#endif
 
 Route13_Text_HikerKennyAfterBattle:
-#if GERMAN
-	.string "Auf den ersten Blick ändern sich\n"
-	.string "geologische Gegebenheiten nie.\p"
-	.string "Aber sie tun es eben doch! Nur\n"
-	.string "sehr langsam eben! Ganz langsam!$"
-#else
 	.string "Geological features don't appear\n"
 	.string "to change.\p"
 	.string "But they actually change, little\n"
 	.string "by little.$"
-#endif
 
 Route13_Text_KennyRegister:
-#if GERMAN
-	.string "Pokémon ändern sich mit der Zeit.\n"
-	.string "Lass uns irgendwann wieder kämpfen!$"
-#else
 	.string "Maybe POKéMON change over time too.\n"
 	.string "Let's battle again sometime!$"
-#endif
 
 Route13_Text_KennyRematchIntro:
-#if GERMAN
-	.string "Ich habe von der Geologie gelernt!\n"
-	.string "Lass uns loslegen!$"
-#else
 	.string "I've learned from geology!\n"
 	.string "Let's go!$"
-#endif
 
 Route13_Text_KennyRematchDefeat:
-#if GERMAN
-	.string "Nicht genug…$"
-#else
 	.string "Still not enough…$"
-#endif
 
 Route13_Text_KennyPostRematch:
-#if GERMAN
-	.string "Die Kraft der Pokémon ist wie\n"
-	.string "Rost. Wir werden bestehen!$"
-#else
 	.string "The power of POKéMON is like\n"
 	.string "erosion. We will persevere!$"
-#endif
 
 Route13_Text_TrainerTips:
-#if GERMAN
-	.string "Tipps für Trainer\p"
-	.string "Hier geht’s lang!\n"
-	.string "Immer der Nase nach!$"
-#else
 	.string "TRAINER TIPS\p"
 	.string "Look! Right there, at the left\n"
 	.string "side of the post.$"
-#endif
 
 Route13_Text_Sign:
-#if GERMAN
-	.string "Route 13\n"
-	.string "Nördlich zur Schweigebrücke$"
-#else
 	.string "ROUTE 13\p"
 	.string "NORTH TO SILENCE BRIDGE$"
-#endif
 
 Route13_Text_DirectionsSign:
-#if GERMAN
-	.string "Nördlich nach Lavandia\n"
-	.string "Westlich nach Fuchsania City$"
-#else
 	.string "NORTH TO LAVENDER TOWN\p"
 	.string "WEST TO FUCHSIA CITY$"
-#endif
 
 Route13_GetOffBoat::
 	lock
@@ -448,7 +319,6 @@ Route13_TravelToAlola_13:
 	setflag FLAG_HIDE_FLYOVER
 	setflag FLAG_HIDE_PHANT_OUTSIDE
 	setflag FLAG_HIDE_PHANT_INSIDE
-	setflag FLAG_VISITED_ALOLA
 	delay 90
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject LOCALID_ROUTE13_BOAT
@@ -553,73 +423,33 @@ Route13_Movement_BoatArrive:
 	step_end
 
 Route13_GetOffBoat_Text_0:
-#if GERMAN
-	.string "Willkommen zurück auf dem Festland von\n"
-	.string "Kanto!\p"
-	.string "Komm wieder, wenn du zu den\n"
-	.string "Alola-Inseln reisen möchtest!$"
-#else
 	.string "Welcome back to mainland Kanto!\p"
 	.string "Come back if you'd like to take a trip\n"
-	.string "to the Alola Isles!$"
-#endif
+	.string "to the ALOLA ISLES!$"
 
 Route13_TravelToAlola_Text_0:
-#if GERMAN
-	.string "Ahoi!\p"
-	.string "Das ist ja ein seltsames Souvenir.\p"
-	.string "Du musst von den Alola-Inseln stammen!$"
-#else
 	.string "Ahoy there!\p"
 	.string "That's one strange souvenir.\n"
-	.string "You must be from the Isles!$"
-#endif
-
+	.string "You must be from the ISLES!$"
 Route13_TravelToAlola_Text_0_5:
-	.string "Möchtest du das nächste Schiff\n"
-	.string "nehmen?\p"
-	.string "Es legt schon bald ab!$"
+	.string "Would you like to take the next ship?\n"
+	.string "It departs shortly!$"
 
 Route13_TravelToAlola_Text_1:
-#if GERMAN
-	.string "Ahoi!\n"
-	.string "Dann geh an Bord!$"
-#else
 	.string "Ahoy! Let's get you on board!$"
-#endif
 
 Route13_TravelToAlola_Text_2:
-#if GERMAN
-	.string "Ahoi!\n"
-	.string "Komm wieder, wenn du in See stechen\l"
-	.string "willst.$"
-#else
 	.string "Ahoy!\n"
 	.string "Come back when you'd like to set sail.$"
-#endif
 
 Route13_TravelToAlola_Text_3:
-#if GERMAN
-	.string "Ah, du schon wieder!\n"
-	.string "Willst du zu den Alola-Inseln?$"
-#else
-	.string "Ah, its you again!\n"
-	.string "Do you want to go to the Alola Isles?$"
-#endif
+	.string "Ah, it's you again!\n"
+	.string "Do you want to go to the ALOLA ISLES?$"
 
 Route13_TravelToAlola_Text_4:
-#if GERMAN
-	.string "Ahoi!\n"
-	.string "Dieser Hafen ist nur für Einheimische.\p"
-	.string "Alle Bewohner dieser Inseln\n"
-	.string "tragen… {PAUSE 30}seltsame Souvenirs.\p"
-	.string "So erkenne ich sie sofort, ganz ohne\n"
-	.string "Fahrkarte!$"
-#else
 	.string "Ahoy!\n"
 	.string "This port is for residents only.\p"
-	.string "All of the residents of these Isles\n"
+	.string "All of the residents of these ISLES\n"
 	.string "carry some… {PAUSE 30}strange souvenirs.\p"
 	.string "It makes them so easy to identify,\n"
 	.string "I don't even need to check tickets!$"
-#endif

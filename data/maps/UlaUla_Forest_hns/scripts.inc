@@ -221,7 +221,7 @@ Alola_Ulaula_Totem_sign_12:
 	end
 
 Alola_Ulaula_Totem_sign_15:
-	warp MAP_AKALA_ISLE_HNS, 9, 10
+	warp MAP_AKALA_ISLE_HNS, 9, 11
 	waitstate
 	end
 
@@ -239,10 +239,10 @@ Alola_Ulaula_Totem_sign_20:
 Alola_Ulaula_BattleVsTapuBulu::
 	lock
 	faceplayer
-	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_TAPU_BULU, CRY_MODE_ENCOUNTER
 	msgbox Alola_Ulaula_BattleVsTapuBulu_Text_0
 	waitmoncry
-	seteventmon SPECIES_MEW, 60
+	seteventmon SPECIES_TAPU_BULU, 60
 	special BattleSetup_StartLegendaryBattle
 	waitstate
 	specialvar VAR_RESULT, GetBattleOutcome
@@ -280,82 +280,40 @@ Alola_Ulaula_TotemBattle_Text_0:
 	.string "Graah!$"
 
 Alola_Ulaula_TotemBattle_Text_1:
-#if GERMAN
-	.string "Herrscher-Tangoloss wurde besiegt!\n"
-	.string "Es ist irgendwohin davongehuscht…$"
-#else
-	.string "Totem Tangrowth was defeated!\n"
+	.string "Totem TANGROWTH was defeated!\n"
 	.string "It scampered off somewhere…$"
-#endif
 
 Alola_Ulaula_TotemBattle_Text_2:
 	.string "Graah!$"
 
 Alola_Ulaula_TotemBattle_Text_3:
-#if GERMAN
-	.string "Herrscher-Rasaff wurde besiegt!\n"
-	.string "Es ist irgendwohin davongehuscht…$"
-#else
-	.string "Totem Primeape was defeated!\n"
+	.string "Totem PRIMEAPE was defeated!\n"
 	.string "It scampered off somewhere…$"
-#endif
 
 Alola_Ulaula_Totem_sign_Text_0:
-#if GERMAN
-	.string "Das Totem strahlt eine starke\n"
-	.string "Energie aus…\p"
-	.string "Möchtest du es berühren und zu\n"
-	.string "einer anderen Insel reisen?$"
-#else
 	.string "The totem is emanating a strong\n"
 	.string "energy…\p"
 	.string "Touch the totem to teleport to another\n"
 	.string "Isle?$"
-#endif
 
 Alola_Ulaula_Totem_sign_Text_1:
-#if GERMAN
-	.string "Mele-Mele$"
-#else
-	.string "Melemele Isle$"
-#endif
+	.string "MELEMELE ISLE$"
 
 Alola_Ulaula_Totem_sign_Text_2:
-#if GERMAN
-	.string "Akala$"
-#else
-	.string "Akala Isle$"
-#endif
+	.string "AKALA ISLE$"
 
 Alola_Ulaula_Totem_sign_Text_3:
-#if GERMAN
-	.string "Ula-Ula$"
-#else
-	.string "Ula'ula Isle$"
-#endif
+	.string "ULA'ULA ISLE$"
 
 Alola_Ulaula_Totem_sign_Text_4:
-#if GERMAN
-	.string "Poni$"
-#else
-	.string "Poni Isle$"
-#endif
+	.string "PONI ISLE$"
 
 Alola_Ulaula_Totem_sign_Text_5:
-#if GERMAN
-	.string "Zurück$"
-#else
-	.string "Cancel$"
-#endif
+	.string "CANCEL$"
 
 Alola_Ulaula_Totem_sign_Text_6:
-#if GERMAN
-	.string "Ein seltsames Totem steht hier.\n"
-	.string "Es strahlt eine gewaltige Kraft aus…$"
-#else
 	.string "A strange totem stands here,\n"
 	.string "power is emanating from it…$"
-#endif
 
 Alola_Ulaula_BattleVsTapuBulu_Text_0:
 	.string "Bu-Bulu!$"

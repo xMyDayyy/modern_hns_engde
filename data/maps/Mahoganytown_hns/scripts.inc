@@ -13,17 +13,12 @@ MahoganyTown_EventScript_FixTree::
 	end
 
 Mahoganytown_OnFrame::
-	map_script_2 VAR_MAHOGANY_TOWN_STATE, 15, Mahoganytown_EventScript_DefeatedGym
+	map_script_2 VAR_TRIGGER_ELM_ROCKET_CALL, 1, Mahoganytown_EventScript_RocketTrigger
 	.2byte 0
-
-Mahoganytown_EventScript_DefeatedGym::
-	call_if_eq VAR_LUGIA_OR_HOOH, 0, Mahoganytown_EventScript_LegendaryTrigger
-	call_if_ge VAR_LUGIA_OR_HOOH, 1, Mahoganytown_EventScript_RocketTrigger
-	end
 
 Mahoganytown_EventScript_RocketTrigger::
 	lock
-	setspeaker Mahoganytown_Text_ElmName
+	setspeaker Route30_Text_ElmName
 	pokenavcall ElmPhoneRadioTowerRocketTakeoverText
 	waitmessage
 	setvar VAR_GOLDENROD_CITY_STATE, 6
@@ -32,16 +27,7 @@ Mahoganytown_EventScript_RocketTrigger::
 	setflag FLAG_HIDE_GOLDENROD_NPCS
 	clearflag FLAG_HIDE_ROCKET_GOLDENROD_RADIOTOWER_1
 	setvar VAR_MAHOGANY_TOWN_STATE, 16
-	delay 10
-	release
-	end
-
-Mahoganytown_EventScript_LegendaryTrigger::
-	lock
-	setspeaker Mahoganytown_Text_ElmName
-	pokenavcall ElmPhoneRoute39LegendaryText
-	waitmessage
-	setvar VAR_MAHOGANY_TOWN_STATE, 18
+	setvar VAR_TRIGGER_ELM_ROCKET_CALL, 2
 	delay 10
 	release
 	end
@@ -57,12 +43,12 @@ MahoganyTown_EventScript_TownTrigger::
 	clearflag FLAG_HIDE_ROCKETHIDEOUT2_GATE
 	clearflag FLAG_HIDE_ROCKETHIDEOUT3_GATE
 	clearflag FLAG_GOT_PASSWORD_FROM_ETO
-	clearflag FLAG_GOT_PASSWORD_FROM_GRUNTF
+	clearflag FLAG_GOT_PASSWORD_FROM_GRUNTF 
 	clearflag FLAG_HIDE_ROCKETHIDEOUT3_MURKROW
 	clearflag FLAG_HIDE_ROCKETHIDEOUT3_GIOVANNI
-	clearflag FLAG_HIDE_ROCKETHIDEOUT_ELECTRODE1
+	clearflag FLAG_HIDE_ROCKETHIDEOUT_ELECTRODE1 
 	clearflag FLAG_HIDE_ROCKETHIDEOUT_ELECTRODE2
-	clearflag FLAG_HIDE_ROCKETHIDEOUT_ELECTRODE3
+	clearflag FLAG_HIDE_ROCKETHIDEOUT_ELECTRODE3 
 	clearflag FLAG_GOT_HIDDEN_POWER
 	clearflag FLAG_HIDE_ICE_PATH_KIMONO
 
@@ -77,10 +63,6 @@ MahoganyTown_EventScript_TownTrigger::
 	setflag FLAG_HIDE_ROCKETHIDEOUT2_MURKROWGATE
 	setflag FLAG_HIDE_ROCKETHIDEOUT3_MURKROWSTAIRS
 	setflag FLAG_HIDE_ROCKETHIDEOUT2_ARIANA_AND_GRUNT
-	setflag FLAG_HIDE_ICEPATH_B2F_BOULDER1
-	setflag FLAG_HIDE_ICEPATH_B2F_BOULDER2
-	setflag FLAG_HIDE_ICEPATH_B2F_BOULDER3
-	setflag FLAG_HIDE_ICEPATH_B2F_BOULDER4
 
 	setvar VAR_ROCKET_HIDEOUT_STATUE_1, 0
 	setvar VAR_ROCKET_HIDEOUT_STATUE_2, 0
@@ -112,8 +94,7 @@ MahoganyTown_EventScript_MerchantTrigger::
 	turnobject LOCALID_MAHOGANY_MERCHANT, DIR_SOUTH
 	playse SE_PIN
 	applymovement LOCALID_MAHOGANY_MERCHANT, Common_Movement_ExclamationMark
-	delay 55
-	waitmovement LOCALID_MAHOGANY_MERCHANT
+	delay 60
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 	getplayerxy VAR_TEMP_0, VAR_TEMP_1
 	call_if_eq VAR_TEMP_1, 14, MahoganyTown_EventScript_WalkUp2
@@ -267,151 +248,61 @@ MahoganyTown_Movement_PlayerMerchant2:
 	step_end
 
 MahoganyTown_Text_RageCandyBarMerchantTryOne:
-#if GERMAN
-	.string "Hey, du! Komm doch mal eben her!\p"
-	.string "Wenn du schon mal in Mahagonia City\n"
-	.string "bist, solltest du unbedingt einen\l"
-	.string "Wutkeks kaufen!\p"
-	.string "Ich hätte einen für 300 $ für dich im\n"
-	.string "Angebot. Na, was sagst du?$"
-#else
 	.string "Hiya, kid!\p"
 	.string "I see you're new in MAHOGANY TOWN.\p"
 	.string "Since you're new, you should try a\n"
 	.string "yummy RAGECANDYBAR!\p"
 	.string "Right now, it can be yours for just\n"
 	.string "¥300! Want one?$"
-#endif
 
 MahoganyTown_Text_RageCandyBarMerchantSavorIt:
-#if GERMAN
-	.string "Gut! Genieße ihn!$"
-#else
     .string "Good! Savor it!$"
-#endif
 
 MahoganyTown_Text_RageCandyBarMerchantNotEnoughMoney:
-#if GERMAN
-	.string "Du hast nicht genug Geld.$"
-#else
     .string "You don't have enough money.$"
-#endif
 
 MahoganyTown_Text_RageCandyBarMerchantRefused:
-#if GERMAN
-	.string "Dann eben nicht…$"
-#else
     .string "Oh, fine then…$"
-#endif
 
 MahoganyTown_Text_RageCandyBarMerchantSoldOut:
-#if GERMAN
-	.string "Die Wutkekse sind ausverkauft.\p"
-	.string "Ich verschwinde.\n"
-	.string "Stör mich nicht, Kind.$"
-#else
     .string "RAGECANDYBAR's sold out.\p"
     .string "I'm packing up. Don't bother me,\n"
     .string "kiddo.$"
-#endif
 
 MahoganyTown_Text_Gramps:
-#if GERMAN
-	.string "Willst du auch zum See und dir das\n"
-	.string "Garados ansehen?$"
-#else
     .string "Are you off to see the GYARADOS\n"
     .string "rampage at the LAKE?$"
-#endif
 
 MahoganyTown_Text_GrampsClearedRocketHideout:
-#if GERMAN
-	.string "Die Karpador sind zum See des Zorns\n"
-	.string "zurückgekehrt.\p"
-	.string "Das sind gute Neuigkeiten für die\n"
-	.string "Angler.$"
-#else
     .string "MAGIKARP have returned to LAKE\n"
     .string "OF RAGE.\p"
     .string "That should be good news for the\n"
     .string "anglers there.$"
-#endif
 
 MahoganyTown_Text_Fisher:
-#if GERMAN
-	.string "Wenn du schon so weit gekommen bist,\n"
-	.string "solltest du dir die Zeit nehmen, um\l"
-	.string "etwas\p"
-	.string "die Gegend zu besichtigen.\p"
-	.string "Geh nach Norden und sieh dir den\n"
-	.string "See des Zorns an.$"
-#else
     .string "Since you came this far, take the\n"
     .string "time to do some sightseeing.\p"
     .string "You should head north and check\n"
     .string "out LAKE OF RAGE right now.$"
-#endif
 
 MahoganyTown_Text_Lass:
-#if GERMAN
-	.string "Besuche Großmutters Laden.\p"
-	.string "Sie verkauft Artikel, die du sonst\n"
-	.string "nirgends bekommen kannst.$"
-#else
     .string "Visit Grandma's shop. She sells\n"
     .string "stuff that nobody else has.$"
-#endif
 
 MahoganyTown_Text_Sign:
-#if GERMAN
-	.string "Mahagonia City\p"
-	.string "Willkommen in der Stadt der Ninja.$"
-#else
     .string "MAHOGANY TOWN\p"
     .string "Welcome to the Home of the Ninja$"
-#endif
 
 MahoganyTown_Text_RagecandybarSign:
-#if GERMAN
-	.string "Versuchen Sie den leckeren Wutkeks!$"
-#else
     .string "While visiting MAHOGANY TOWN, try\n"
     .string "a RAGECANDYBAR!$"
-#endif
 
 MahoganyTown_Text_GymSign:
-#if GERMAN
-	.string "Pokémon-Arena von Mahagonia City\n"
-	.string "Leiter: Norbert Er wird dir beibringen,\l"
-	.string "was ein harter Winter ist!$"
-#else
     .string "MAHOGANY TOWN POKéMON GYM\p"
     .string "LEADER: PRYCE\p"
     .string "The Teacher of Winter's Harshness$"
-#endif
-
-Mahoganytown_Text_ElmName:
-#if GERMAN
-	.string "Lind$"
-#else
-	.string "PROF.ELM$"
-#endif
 
 ElmPhoneRadioTowerRocketTakeoverText:
-#if GERMAN
-	.string "He, {PLAYER}!\n"
-	.string "Wie stehen die Dinge?\p"
-	.string "Hör mal, im Radio geschieht gerade\n"
-	.string "irgendetwas Merkwürdiges.\l"
-	.string "Ich höre immer bloß “Team Rocket”…\p"
-	.string "Da dachte ich, ich rufe mal an.\n"
-	.string "{PLAYER}, weißt du, was da los ist?\p"
-	.string "Team Rocket feiert doch nicht etwa ein\n"
-	.string "Comeback?\l"
-	.string "Nein… das wäre doch zu abwegig.\p"
-	.string "Entschuldige, ich wollte dich nicht\n"
-	.string "beunruhigen. Pass auf dich auf!$"
-#else
 	.string "PROF.ELM: {PLAYER}, how are\n"
 	.string "things going?\p"
 	.string "I called because something weird\n"
@@ -425,32 +316,4 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	.string "No, that just can't be true.\p"
 	.string "Sorry to bug you.\n"
 	.string "Take care!$"
-#endif
 
-ElmPhoneRoute39LegendaryText:
-#if GERMAN
-	.string "Prof. Lind: Wow!\n"
-	.string "{PLAYER}, hast du das gesehen?!\p"
-	.string "Ein riesiges Pokémon flog über\n"
-	.string "Teak City hinweg!\p"
-	.string "Ich konnte es sogar von meinem\n"
-	.string "Labor aus sehen!\p"
-	.string "War es eines der legendären Pokémon??\p"
-	.string "Es flog nach Westen, Richtung Route 39.\p"
-	.string "{PLAYER}!\n"
-	.string "Das könnte eine seltene Chance zur\l"
-	.string "Verfolgung sein!$"
-#else
-	.string "PROF.ELM: WOAH!\n"
-	.string "{PLAYER}, did you see that?!\p"
-	.string "A massive POKéMON just flew over\n"
-	.string "ECRUTEAK CITY!\l"
-	.string "I could see it from my LAB!\p"
-	.string "Could it be one of the legendary\n"
-	.string "POKéMON??\p"
-	.string "It looked like it was headed West,\n"
-	.string "toward ROUTE 39.\p"
-	.string "{PLAYER}!\n"
-	.string "This may be a rare opportunity\l"
-	.string "to give chase!$"
-#endif

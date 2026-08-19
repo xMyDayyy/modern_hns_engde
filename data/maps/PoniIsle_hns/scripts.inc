@@ -6,10 +6,10 @@ Alola_Poni_BattleExeggutor::
 	lock
 	faceplayer
 	setflag FLAG_BATTLED_EXEGGUTOR
-	playmoncry SPECIES_EXEGGUTOR, 0
+	playmoncry SPECIES_EXEGGUTOR_ALOLA, 0
 	msgbox Alola_Poni_BattleExeggutor_Text_0, MSGBOX_AUTOCLOSE
 	waitmoncry
-	setwildbattle SPECIES_EXEGGUTOR, 45
+	setwildbattle SPECIES_EXEGGUTOR_ALOLA, 45
 	dowildbattle
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
@@ -171,7 +171,7 @@ Alola_Poni_Totem_sign_12:
 	end
 
 Alola_Poni_Totem_sign_15:
-	warp MAP_AKALA_ISLE_HNS, 9, 10
+	warp MAP_AKALA_ISLE_HNS, 9, 11
 	waitstate
 	end
 
@@ -206,10 +206,10 @@ Alola_Poni_TapuFini_Flyover_2:
 Alola_Poni_BattleVsTapuFini::
 	lock
 	faceplayer
-	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_TAPU_FINI, CRY_MODE_ENCOUNTER
 	msgbox Alola_Poni_BattleVsTapuFini_Text_0
 	waitmoncry
-	seteventmon SPECIES_MEW, 60
+	seteventmon SPECIES_TAPU_FINI, 60
 	special BattleSetup_StartLegendaryBattle
 	waitstate
 	specialvar VAR_RESULT, GetBattleOutcome
@@ -260,13 +260,29 @@ Alola_Poni_NPC_girl::
 	end
 
 
-Alola_Poni_Bench_Heal::
+Alola_Poni_Bench_Heal_Right::
+	specialvar VAR_RESULT, GetPlayerFacingDirection
+	compare VAR_RESULT, DIR_EAST
+	goto_if_eq Alola_Poni_Bench_Heal_Skip
+	goto Alola_Poni_Bench_Heal
+
+Alola_Poni_Bench_Heal_Left::
+	specialvar VAR_RESULT, GetPlayerFacingDirection
+	compare VAR_RESULT, DIR_WEST
+	goto_if_eq Alola_Poni_Bench_Heal_Skip
+	goto Alola_Poni_Bench_Heal
+
+Alola_Poni_Bench_Heal_Skip:
+	end
+
+Alola_Poni_Bench_Heal:
 	lock
 	faceplayer
 	msgbox Alola_Poni_Bench_Heal_Text_0, MSGBOX_YESNO
 	compare VAR_RESULT, YES
 	goto_if_eq Alola_Poni_Bench_Heal_2
 Alola_Poni_Bench_Heal_1:
+	callnative UpdateFollowingPokemon
 	release
 	end
 
@@ -316,139 +332,64 @@ Alola_Poni_BattleExeggutor_Text_0:
 	.string "Gaah-aah!$"
 
 Alola_Poni_Island_Sign_Text_0:
-#if GERMAN
-	.string "Poni$"
-#else
-	.string "Poni Isle$"
-#endif
+	.string "PONI ISLE$"
 
 Alola_Poni_TotemBattle_Text_0:
 	.string "Buzz!!$"
 
 Alola_Poni_TotemBattle_Text_1:
-#if GERMAN
-	.string "Herrscher-Elevoltek wurde besiegt!\n"
-	.string "Es ist irgendwohin davongehuscht…$"
-#else
-	.string "Totem Electivire was defeated!\n"
+	.string "Totem ELECTIVIRE was defeated!\n"
 	.string "It scampered off somewhere…$"
-#endif
 
 Alola_Poni_Totem_sign_Text_0:
-#if GERMAN
-	.string "Das Totem strahlt eine starke\n"
-	.string "Energie aus…\p"
-	.string "Möchtest du es berühren und zu\n"
-	.string "einer anderen Insel reisen?$"
-#else
 	.string "The totem is emanating a strong\n"
 	.string "energy…\p"
 	.string "Touch the totem to teleport to another\n"
 	.string "Isle?$"
-#endif
 
 Alola_Poni_Totem_sign_Text_1:
-#if GERMAN
-	.string "Mele-Mele$"
-#else
-	.string "Melemele Isle$"
-#endif
+	.string "MELEMELE ISLE$"
 
 Alola_Poni_Totem_sign_Text_2:
-#if GERMAN
-	.string "Akala$"
-#else
-	.string "Akala Isle$"
-#endif
+	.string "AKALA ISLE$"
 
 Alola_Poni_Totem_sign_Text_3:
-#if GERMAN
-	.string "Ula-Ula$"
-#else
-	.string "Ula'ula Isle$"
-#endif
+	.string "ULA'ULA ISLE$"
 
 Alola_Poni_Totem_sign_Text_4:
-#if GERMAN
-	.string "Zurück$"
-#else
-	.string "Cancel$"
-#endif
+	.string "CANCEL$"
 
 Alola_Poni_Totem_sign_Text_5:
-#if GERMAN
-	.string "Ein seltsames Totem steht hier.\n"
-	.string "Es strahlt eine gewaltige Kraft aus…$"
-#else
 	.string "A strange totem stands here,\n"
 	.string "power is emanating from it…$"
-#endif
 
 Alola_Poni_BattleVsTapuFini_Text_0:
 	.string "Fiiin!$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_0:
-#if GERMAN
-	.string "Warmes Wasser? Kein Problem!$"
-#else
 	.string "Warmer water, no problem!$"
-#endif
 
 Alola_Poni_TrainerBattleSwimmer1_Text_1:
-#if GERMAN
-	.string "Mist, ich habe meine Sonnencreme\nvergessen…$"
-#else
 	.string "Gah, I forgot my sunscreen…$"
-#endif
 
 Alola_Poni_TrainerBattleSwimmer1_Text_2:
-#if GERMAN
-	.string "Beim Schwimmen bin ich schon so vielen\n"
-	.string "coolen Pokémon begegnet!\l"
-	.string "Es muss am Wasser liegen.$"
-#else
-	.string "I've swam into so many cool Pokémon!\n"
+	.string "I've swam into so many cool POKéMON!\n"
 	.string "It must be something in the water.$"
-#endif
 
 Alola_Poni_TrainerBattleSwimmer2_Text_0:
-#if GERMAN
-	.string "Hey, blockier nicht meine\nStrömung!$"
-#else
 	.string "Hey, don't block my current!$"
-#endif
 
 Alola_Poni_TrainerBattleSwimmer2_Text_1:
-#if GERMAN
-	.string "Na schön,\nlass mich einfach schwimmen…$"
-#else
 	.string "Ugh, fine,\njust let me swim…$"
-#endif
 
 Alola_Poni_TrainerBattleSwimmer2_Text_2:
-#if GERMAN
-	.string "Die Strömung eignet sich super zum\n"
-	.string "Reifen-Treiben. Woanders mache ich das\l"
-	.string "nie wieder!$"
-#else
 	.string "The current is great for tubing.\n"
 	.string "I don't think I'll tube anywhere else!$"
-#endif
 
 Alola_Poni_NPC_girl_Text_0:
-#if GERMAN
-	.string "Poni ist meine Lieblingsinsel.\n"
-	.string "Diese Wildnis spricht für sich!$"
-#else
-	.string "Poni Isle is my favorite.\n"
+	.string "PONI ISLE is my favorite.\n"
 	.string "The wilderness just speaks for itself!$"
-#endif
 
 Alola_Poni_Bench_Heal_Text_0:
-#if GERMAN
-	.string "Möchtest du auf dieser Bank eine\n"
-	.string "Pause einlegen?$"
-#else
 	.string "Would you like to take a rest on this\n"
 	.string "bench?$"
-#endif
