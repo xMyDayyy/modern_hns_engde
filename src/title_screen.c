@@ -919,25 +919,17 @@ static void JadeApplyPulse(const struct JadeAnimColor *tab, u32 n, u8 phase, s16
 
 static void UpdateJadeTitleAnimation(u8 frameNum)
 {
-    u32 i;
-
     if (gPaletteFade.active)
         return;
     if ((frameNum % 2) == 0)
     {
         JadeApplyPulse(sJadeGlowGold,    ARRAY_COUNT(sJadeGlowGold),    frameNum,       80);
         JadeApplyPulse(sJadeGlowCyan,    ARRAY_COUNT(sJadeGlowCyan),    frameNum + 85,  80);
-        JadeApplyPulse(sJadeGlowMagenta, ARRAY_COUNT(sJadeGlowMagenta), frameNum + 170, 44);
-    }
-    if ((frameNum % 6) == 0)
-    {
-        // Wirbel: Basisfarben durchrotieren (Sog zum Zentrum)
-        u32 off = (frameNum / 6) % ARRAY_COUNT(sJadeWirbel);
-        for (i = 0; i < ARRAY_COUNT(sJadeWirbel); i++)
-        {
-            u16 farbe = sJadeWirbel[(i + off) % ARRAY_COUNT(sJadeWirbel)].farbe;
-            LoadPalette(&farbe, sJadeWirbel[i].slot, sizeof(farbe));
-        }
+        JadeApplyPulse(sJadeGlowMagenta, ARRAY_COUNT(sJadeGlowMagenta), frameNum + 170, 36);
+        // Sturmzentrum: langsames Wetterleuchten (halbe Frequenz,
+        // eigene Phase) - dieselben Palettenfarben tauchen vereinzelt
+        // auch ausserhalb auf, ein sanfter Puls faellt dort nicht auf.
+        JadeApplyPulse(sJadeWirbel,      ARRAY_COUNT(sJadeWirbel),      (frameNum >> 1) + 64, 48);
     }
 }
 #endif
