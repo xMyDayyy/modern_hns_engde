@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Pokémon Origin Jade" width="480">
+  <img src="logo.png?v=2" alt="Pokémon Origin Jade" width="480">
 </p>
 
 <!-- Title screen goes here -->
