@@ -600,10 +600,6 @@ void CB2_InitTitleScreen(void)
         SetGpuReg(REG_OFFSET_BLDY, 0);
         *((u16 *)PLTT) = RGB_WHITE;
         SetGpuReg(REG_OFFSET_DISPCNT, 0);
-#if IS_HNS
-        sJadePhase = JADE_PHASE_DUNKEL;
-        sJadeTimer = 0;
-#endif
         SetGpuReg(REG_OFFSET_BG2CNT, 0);
         SetGpuReg(REG_OFFSET_BG1CNT, 0);
         SetGpuReg(REG_OFFSET_BG0CNT, 0);
@@ -916,102 +912,44 @@ static void CB2_GoToBerryFixScreen(void)
 }
 
 #if IS_HNS
-// Origin Jade: Blitzzyklus (Marcs Konzept) - im Dunkelzustand sind nur
-// die Pokemon-Outlines sichtbar und die Strahlen funkeln schwach; ein
-// Blitz enthuellt das ganze Bild, es klingt wieder ab, dann von vorne.
-// Reine Palettenanimation ueber die 7 Bildpaletten (Slots 144-255).
-enum
+// Origin Jade: Blitzeinschlaege - das Bild steht dauerhaft in voller
+// Pracht, die (verbreiterten) Strahlen schlagen gestaffelt als grelle
+// Blitze ein: je Farbslot ein eigener Zyklus (Einschlag -> schnelles
+// Abklingen -> Ruhe), sodass staendig irgendwo etwas aufflackert, aber
+// nie alles zugleich. Der Blitz mischt die Basisfarbe Richtung Weiss.
+static u16 JadeZuWeiss(u16 basis, u32 wQ8)
 {
-    JADE_PHASE_DUNKEL,
-    JADE_PHASE_BLITZ,
-    JADE_PHASE_HELL,
-    JADE_PHASE_ABKLINGEN,
-};
-
-#define JADE_DAUER_DUNKEL     96
-#define JADE_DAUER_BLITZ       5
-#define JADE_DAUER_HELL       34
-#define JADE_DAUER_ABKLINGEN  64
-
-static u8 sJadePhase;
-static u16 sJadeTimer;
-
-static u16 JadeSkaliere(u16 basis, u32 faktorQ8)
-{
-    u32 r = ((basis & 31)         * faktorQ8) >> 8;
-    u32 g = (((basis >> 5) & 31)  * faktorQ8) >> 8;
-    u32 b = (((basis >> 10) & 31) * faktorQ8) >> 8;
-    if (r > 31) r = 31;
-    if (g > 31) g = 31;
-    if (b > 31) b = 31;
+    u32 r = (basis & 31);
+    u32 g = ((basis >> 5) & 31);
+    u32 b = ((basis >> 10) & 31);
+    r += ((31 - r) * wQ8) >> 8;
+    g += ((31 - g) * wQ8) >> 8;
+    b += ((31 - b) * wQ8) >> 8;
     return RGB(r, g, b);
 }
 
 static void UpdateJadeTitleAnimation(u8 frameNum)
 {
-    // Faktoren (Q8) je Klasse im Dunkel- bzw. Hellzustand
-    static const u16 dunkelF[3] = { 30, 244, 76 };
-    static const u16 hellF[3]   = { 256, 256, 256 };
-    u16 buf[112];
-    u32 i, t, dauer;
-    u32 fRest, fOut, fRay;
+    u32 i;
 
     if (gPaletteFade.active)
         return;
     if ((frameNum % 2) != 0)
         return;
-
-    switch (sJadePhase)
+    for (i = 0; i < ARRAY_COUNT(sJadeStrahlen); i++)
     {
-    case JADE_PHASE_DUNKEL:    dauer = JADE_DAUER_DUNKEL;    break;
-    case JADE_PHASE_BLITZ:     dauer = JADE_DAUER_BLITZ;     break;
-    case JADE_PHASE_HELL:      dauer = JADE_DAUER_HELL;      break;
-    default:                   dauer = JADE_DAUER_ABKLINGEN; break;
+        u32 phase = ((u32)frameNum + i * 53) % 112;
+        u32 w;
+        u16 farbe;
+        if (phase < 4)
+            w = 255;                       // Einschlag: grell weiss
+        else if (phase < 22)
+            w = 255 - (phase - 4) * 14;    // schnelles Abklingen
+        else
+            w = 0;                         // Ruhe: Basisfarbe
+        farbe = JadeZuWeiss(sJadeStrahlen[i].farbe, w);
+        LoadPalette(&farbe, sJadeStrahlen[i].slot, sizeof(farbe));
     }
-    if (++sJadeTimer >= dauer)
-    {
-        sJadeTimer = 0;
-        sJadePhase = (sJadePhase + 1) % 4;
-    }
-    t = sJadeTimer;
-
-    switch (sJadePhase)
-    {
-    case JADE_PHASE_DUNKEL:
-        fRest = dunkelF[0]; fOut = dunkelF[1]; fRay = dunkelF[2];
-        break;
-    case JADE_PHASE_BLITZ:
-        fRest = dunkelF[0] + ((hellF[0] - dunkelF[0]) * t) / JADE_DAUER_BLITZ;
-        fOut  = dunkelF[1] + ((hellF[1] - dunkelF[1]) * t) / JADE_DAUER_BLITZ;
-        fRay  = dunkelF[2] + ((hellF[2] - dunkelF[2]) * t) / JADE_DAUER_BLITZ;
-        break;
-    case JADE_PHASE_HELL:
-        fRest = hellF[0]; fOut = hellF[1]; fRay = hellF[2];
-        break;
-    default: // ABKLINGEN
-        fRest = hellF[0] - ((hellF[0] - dunkelF[0]) * t) / JADE_DAUER_ABKLINGEN;
-        fOut  = hellF[1] - ((hellF[1] - dunkelF[1]) * t) / JADE_DAUER_ABKLINGEN;
-        fRay  = hellF[2] - ((hellF[2] - dunkelF[2]) * t) / JADE_DAUER_ABKLINGEN;
-        break;
-    }
-
-    for (i = 0; i < 112; i++)
-    {
-        u32 f;
-        switch (sJadeKlasse[i])
-        {
-        case 1:  f = fOut; break;
-        case 2:
-            f = fRay;
-            // Strahlen funkeln im Dunkel- und Abklingzustand leicht
-            if (sJadePhase == JADE_PHASE_DUNKEL || sJadePhase == JADE_PHASE_ABKLINGEN)
-                f += Sin((u8)(frameNum * 3 + i * 67), 40) + 40;
-            break;
-        default: f = fRest; break;
-        }
-        buf[i] = JadeSkaliere(sTitelbildPal[i], f);
-    }
-    LoadPalette(buf, BG_PLTT_ID(9), 7 * PLTT_SIZE_4BPP);
 }
 #endif
 

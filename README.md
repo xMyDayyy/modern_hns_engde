@@ -100,11 +100,10 @@ without the Hoenn content, use `make hns`.
 ### Recently done
 
 - [x] Animated title screen — the new key art (Ho-Oh, Lugia, Mewtwo and
-      Rayquaza around the storm vortex) backs the title logo with a
-      lightning cycle: in the dark the four legendaries are visible only
-      as glowing outlines while stray sparks flicker, then a flash
-      reveals the full artwork before it fades back to darkness; all
-      pure palette animation
+      Rayquaza around the storm vortex) stands in full glory behind the
+      logo while widened lightning beams strike through the background in
+      staggered flashes — bright bolts constantly flicker somewhere
+      without ever touching the legendaries; all pure palette animation
 
 - [x] Engine update merged from the active HnS main repo (41 upstream
       commits): no more dex softlocks (every species is catchable wild or
