@@ -2244,8 +2244,8 @@ const u16 gMonIconPalettes[][16] =
 };
 
 #if IS_HNS
-// Origin Jade: Logo-Palette kompakt auf 128 Eintraege (Paletten 0-7);
-// die Bildpaletten 8-15 laedt title_screen.c separat (titelbild_pal.bin).
+// Origin Jade: Logo auf 15 Farben verdichtet (nur Palette 0);
+// die Bildpaletten 1-15 laedt title_screen.c separat (titelbild_pal.bin).
 const u16 gTitleScreenBgPalettes[]         = INCBIN_U16("graphics/title_screen/hns/pokemon_logo.gbapal");
 const u16 gTitleScreenEmeraldVersionPal[]  = INCBIN_U16("graphics/title_screen/origin_jade/emerald_version.gbapal");
 const u32 gTitleScreenCloudsTilemap[]      = INCBIN_U32("graphics/title_screen/clouds.bin.smolTM");

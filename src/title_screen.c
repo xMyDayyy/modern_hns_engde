@@ -68,12 +68,79 @@ static const u16 sUnusedUnknownPal[] = INCBIN_U16("graphics/title_screen/unused.
 // Origin Jade: eigener Titelhintergrund - die Weltkarte aller drei Regionen.
 // Liegt in einem eigenen Ordner, die HnS-Grafiken bleiben unangetastet.
 // Origin Jade: Titelbild (Legendaeren-Artwork) als Rohdaten - 4bpp-Kacheln
-// mit Paletten 8-15 (das Logo belegt kompakt 0-127). Erzeugt vom
+// mit Paletten 1-15 (das Logo belegt nur Palette 0). Erzeugt vom
 // Fitting-Werkzeug, siehe src/data/title_screen_jade_anim.h.
 static const u16 sTitelbildTiles[] = INCBIN_U16("graphics/title_screen/origin_jade/titelbild_tiles.bin");
 static const u16 sTitelbildMap[] = INCBIN_U16("graphics/title_screen/origin_jade/titelbild_map.bin");
 static const u16 sTitelbildPal[] = INCBIN_U16("graphics/title_screen/origin_jade/titelbild_pal.bin");
 #include "data/title_screen_jade_anim.h"
+
+// Origin Jade: Der Pokemon-Schriftzug als 4x 64x64-8bpp-Sprites.
+// Farben liegen an den OBJ-Eintraegen 16-143 (Paletten 1-8, reserviert
+// via gReservedSpritePaletteCount); Eintraege 0-15 gehoeren der Plakette.
+#define TAG_JADE_LOGO 1005
+static const u8 sJadeLogoObjGfx[] = INCBIN_U8("graphics/title_screen/hns/pokemon_logo_obj.bin");
+static const u16 sJadeLogoObjPal[] = INCBIN_U16("graphics/title_screen/hns/pokemon_logo_obj_pal.bin");
+
+static const struct SpriteSheet sJadeLogoSpriteSheet =
+{
+    .data = sJadeLogoObjGfx,
+    .size = sizeof(sJadeLogoObjGfx),
+    .tag = TAG_JADE_LOGO,
+};
+
+static const struct OamData sJadeLogoOamData =
+{
+    .y = DISPLAY_HEIGHT,
+    .affineMode = ST_OAM_AFFINE_OFF,
+    .objMode = ST_OAM_OBJ_NORMAL,
+    .mosaic = FALSE,
+    .bpp = ST_OAM_8BPP,
+    .shape = SPRITE_SHAPE(64x64),
+    .x = 0,
+    .matrixNum = 0,
+    .size = SPRITE_SIZE(64x64),
+    .tileNum = 0,
+    .priority = 0,
+    .paletteNum = 0,
+};
+
+static void SpriteCB_JadeLogoPiece(struct Sprite *sprite)
+{
+    // Einflug von oben bis zur Zielhoehe
+    if (sprite->y < sprite->data[0])
+    {
+        sprite->y += 4;
+        if (sprite->y > sprite->data[0])
+            sprite->y = sprite->data[0];
+    }
+}
+
+static const struct SpriteTemplate sJadeLogoSpriteTemplate =
+{
+    .tileTag = TAG_JADE_LOGO,
+    .paletteTag = TAG_NONE,
+    .oam = &sJadeLogoOamData,
+    .anims = gDummySpriteAnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCB_JadeLogoPiece,
+};
+
+static void CreateJadeLogoSprites(void)
+{
+    u32 i;
+
+    for (i = 0; i < 4; i++)
+    {
+        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 24 + i * 64, -40, 0);
+        if (id != MAX_SPRITES)
+        {
+            gSprites[id].oam.tileNum += i * 128;   // 64x64 in 8bpp = 128 Kachelplaetze
+            gSprites[id].data[0] = 36;             // Ziel-Y (Logo-Oberkante ~4)
+        }
+    }
+}
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/hns/logo_shine.4bpp.smol");
 #else
 static const u32 sTitleScreenRayquazaGfx[] = INCBIN_U32("graphics/title_screen/rayquaza.4bpp.smol");
@@ -617,13 +684,16 @@ void CB2_InitTitleScreen(void)
         break;
     case 1:
         // bg2
+#if !IS_HNS
         DecompressDataWithHeaderVram(gTitleScreenPokemonLogoGfx, (void *)(BG_CHAR_ADDR(0)));
         DecompressDataWithHeaderVram(gTitleScreenPokemonLogoTilemap, (void *)(BG_SCREEN_ADDR(9)));
+#endif
 #if IS_HNS
-        // Origin Jade: Logo-Palette kompakt (8 Paletten), dahinter die
-        // 8 Bildpaletten des Titelbilds (Qualitaetsausbau: 120 Farben).
-        LoadPalette(gTitleScreenBgPalettes, BG_PLTT_ID(0), 8 * PLTT_SIZE_4BPP);
-        LoadPalette(sTitelbildPal, BG_PLTT_ID(8), 8 * PLTT_SIZE_4BPP);
+        // Origin Jade: Der Pokemon-Schriftzug ist jetzt ein Sprite-Paket
+        // (siehe CreateJadeLogoSprites) - BG2 bleibt leer, und die
+        // KOMPLETTE BG-Palette gehoert dem Titelbild: 15 Paletten ab
+        // Slot 1 (225 Farben), Palette 0 bleibt Backdrop/frei.
+        LoadPalette(sTitelbildPal, BG_PLTT_ID(1), 15 * PLTT_SIZE_4BPP);
         // bg3: Titelbild als Rohdaten (unkomprimiert)
         DmaCopy16(3, sTitelbildTiles, (void *)(BG_CHAR_ADDR(2)), sizeof(sTitelbildTiles));
         DmaCopy16(3, sTitelbildMap, (void *)(BG_SCREEN_ADDR(26)), sizeof(sTitelbildMap));
@@ -646,6 +716,11 @@ void CB2_InitTitleScreen(void)
         LoadCompressedSpriteSheet(&sSpriteSheet_EmeraldVersion[0]);
         LoadCompressedSpriteSheet(&sSpriteSheet_PressStart[0]);
         LoadCompressedSpriteSheet(&sPokemonLogoShineSpriteSheet[0]);
+#if IS_HNS
+        LoadSpriteSheet(&sJadeLogoSpriteSheet);
+        LoadPalette(sJadeLogoObjPal, OBJ_PLTT_ID(1), 8 * PLTT_SIZE_4BPP);
+        CreateJadeLogoSprites();
+#endif
         LoadPalette(gTitleScreenEmeraldVersionPal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP);
         LoadSpritePalette(&sSpritePalette_PressStart[0]);
         gMain.state = 2;

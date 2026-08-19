@@ -105,8 +105,11 @@ without the Hoenn content, use `make hns`.
       pass (logo quantized once from the untouched original, artwork
       fitted fresh at 120 colors), and the subtitle plaque got a new
       look: a sweeping jade-green "Origin" over "JADE" in white with a
-      black outline, styled after the official game logos; the
-      palette-animation groundwork stays built in but switched off
+      black outline, styled after the official game logos. The Pokémon
+      logo itself now rides in as sprites from the top of the screen,
+      freeing the entire background palette for the artwork — 225 colors,
+      effectively preview quality; the palette-animation groundwork stays
+      built in but switched off
 
 - [x] Engine update merged from the active HnS main repo (41 upstream
       commits): no more dex softlocks (every species is catchable wild or
