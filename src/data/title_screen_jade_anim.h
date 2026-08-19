@@ -30,3 +30,18 @@ static const struct JadeAnimColor sJadeStrahlen[] =
     { 0x0FE, 0x4F6E },
     { 0x0FF, 0x4B0E },
 };
+
+// Klassen je Bildpaletteneintrag (Index = Slot - 144):
+// 0 = Rest (im Dunkelzustand stark abgedunkelt),
+// 1 = Pokemon-Outline/Aura (bleibt im Dunkeln sichtbar),
+// 2 = Strahl/Blitz (exklusive Farben, funkeln + Blitztraeger).
+static const u8 sJadeKlasse[112] =
+{
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2,
+    0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2,
+    0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 2, 2, 2,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 2, 2, 2,
+    0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2
+};
