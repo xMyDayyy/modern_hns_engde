@@ -40,13 +40,15 @@ enum {
 #define VERSION_BANNER_Y 54
 #define VERSION_BANNER_Y_GOAL 54
 // Origin Jade: Ablauf des Titelbildschirms
-//   Frame 240: der Schriftzug schiebt sich von oben herein
-//   Frame 200: die Plakette zoomt "von hinten" auf ihren Ankerpunkt
-//   Frame 176/64: der Lichtreflex streicht ueber das fertige Bild
-#define JADE_LOGO_SLIDE_FRAME 240
-#define JADE_LOGO_SPEED 2
-#define JADE_ZOOM_FRAME 200
-#define JADE_ZOOM_FRAMES 28
+//   Frame 250: der Schriftzug schiebt sich von oben herein (68 Frames)
+//   Frame 176: die Plakette zoomt "von hinten" heran (44 Frames)
+//   Frame 120/56: der Lichtreflex streicht ueber das fertige Bild
+// Phase 1 zaehlt von 256 herunter; ein Tastendruck springt ans Ende,
+// deshalb setzt JadeFinishIntro() dort alles auf die Endlage.
+#define JADE_LOGO_SLIDE_FRAME 250
+#define JADE_LOGO_SPEED 1
+#define JADE_ZOOM_FRAME 176
+#define JADE_ZOOM_FRAMES 44
 #define JADE_ZOOM_START 40      // Anfangsgroesse (256 = volle Groesse)
 #define JADE_ZOOM_MATRIX 0
 // Hoehe, auf der der Logo-Glanz durchstreicht
@@ -199,6 +201,35 @@ static void JadeStartBannerZoom(void)
             gSprites[sJadeBannerSpriteIds[i]].invisible = FALSE;
             gSprites[sJadeBannerSpriteIds[i]].data[2] = 0;
             gSprites[sJadeBannerSpriteIds[i]].data[3] = 1;
+        }
+    }
+}
+
+// Setzt Schriftzug und Plakette sofort in die Endlage - wird am Ende
+// von Phase 1 aufgerufen, also auch dann, wenn der Spieler die Sequenz
+// per Tastendruck ueberspringt (sonst bliebe der Schriftzug oberhalb
+// des Bildschirms haengen).
+static void JadeFinishIntro(void)
+{
+    u32 i;
+
+    for (i = 0; i < 4; i++)
+    {
+        if (sJadeLogoSpriteIds[i] != MAX_SPRITES)
+        {
+            gSprites[sJadeLogoSpriteIds[i]].data[1] = 1;
+            gSprites[sJadeLogoSpriteIds[i]].y = gSprites[sJadeLogoSpriteIds[i]].data[0];
+        }
+    }
+    SetOamMatrix(JADE_ZOOM_MATRIX, 0x100, 0, 0, 0x100);
+    for (i = 0; i < 2; i++)
+    {
+        if (sJadeBannerSpriteIds[i] != MAX_SPRITES)
+        {
+            gSprites[sJadeBannerSpriteIds[i]].invisible = FALSE;
+            gSprites[sJadeBannerSpriteIds[i]].data[2] = JADE_ZOOM_FRAMES;
+            gSprites[sJadeBannerSpriteIds[i]].data[3] = 1;
+            gSprites[sJadeBannerSpriteIds[i]].x = (i == 0) ? VERSION_BANNER_LEFT_X : VERSION_BANNER_RIGHT_X;
         }
     }
 }
@@ -956,7 +987,7 @@ static void Task_TitleScreenPhase1(u8 taskId)
             JadeStartLogoSlide();                   // Schriftzug von oben
         else if (frameNum == JADE_ZOOM_FRAME)
             JadeStartBannerZoom();                  // Plakette von hinten
-        else if (frameNum == 176 || frameNum == 64)
+        else if (frameNum == 120 || frameNum == 56)
             StartPokemonLogoShine(SHINE_MODE_SINGLE_NO_BG_COLOR);
 #else
         if (frameNum == 176)
@@ -970,6 +1001,7 @@ static void Task_TitleScreenPhase1(u8 taskId)
     else
     {
 #if IS_HNS
+        JadeFinishIntro();
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_1 | DISPCNT_OBJ_1D_MAP | DISPCNT_BG0_ON | DISPCNT_BG2_ON | DISPCNT_OBJ_ON);
 #else
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_1 | DISPCNT_OBJ_1D_MAP | DISPCNT_BG2_ON | DISPCNT_OBJ_ON);
