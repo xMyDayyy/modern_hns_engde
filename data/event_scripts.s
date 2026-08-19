@@ -1203,6 +1203,9 @@ Common_EventScript_ReadyPetalburgGymForBattle::
 	@ Die Reparaturweiche PetalburgCity_Gym_EventScript_OpensWithBadges setzt
 	@ die Flag vorher selbst und ueberspringt den Anruf deshalb.
 	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Common_EventScript_PetalburgGymAlreadyAnnounced
+	@ HnS: Sicherheitsnetz - der Anruf braucht eine geschlossene Textbox,
+	@ sonst wird er neben der Box gezeichnet statt darin.
+	closemessage
 	delay 30
 	pokenavcall Common_Text_HnsNormanGymOpen
 	waitmessage

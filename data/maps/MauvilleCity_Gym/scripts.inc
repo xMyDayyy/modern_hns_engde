@@ -101,7 +101,6 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	setvar VAR_0x8004, 2
 	special SetHoennBadge
 	addvar VAR_PETALBURG_GYM_STATE, 1
-	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 3
 	call Common_EventScript_SetGymTrainers
 	special MauvilleGymDeactivatePuzzle
@@ -116,6 +115,9 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	closemessage
 	delay 30
 	setflag FLAG_ENABLE_WATTSON_MATCH_CALL
+	@ HnS: Normans Anruf kommt ganz zum Schluss - vorher lief er mitten
+	@ in die Szene der Arenaleiterin hinein und die Textbox war noch offen.
+	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	release
 	end
 

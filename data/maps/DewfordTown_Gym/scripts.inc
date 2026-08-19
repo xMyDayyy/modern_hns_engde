@@ -152,7 +152,6 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	setvar VAR_0x8004, 1
 	special SetHoennBadge
 	addvar VAR_PETALBURG_GYM_STATE, 1
-	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 2
 	call Common_EventScript_SetGymTrainers
 	call DewfordTown_Gym_EventScript_GiveBulkUp
@@ -166,6 +165,9 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	setflag FLAG_ENABLE_BRAWLY_MATCH_CALL
 	setvar VAR_ROXANNE_CALL_STEP_COUNTER, 0
 	setflag FLAG_ENABLE_ROXANNE_FIRST_CALL
+	@ HnS: Normans Anruf kommt ganz zum Schluss - vorher lief er mitten
+	@ in die Szene der Arenaleiterin hinein und die Textbox war noch offen.
+	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	release
 	end
 
