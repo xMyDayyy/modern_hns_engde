@@ -80,12 +80,15 @@
     { MAPSEC_RUSTURF_TUNNEL,    40,  65 }, \
     { MAPSEC_RUSTBORO_CITY,     40,  65 }, \
     { MAPSEC_DEWFORD_TOWN,      40,  65 }, \
-    { MAPSEC_ROUTE_105,         40,  65 }, \
+    { MAPSEC_ROUTE_105,         50,  85 }, \
     { MAPSEC_ROUTE_106,         40,  65 }, \
-    { MAPSEC_ROUTE_107,         40,  65 }, \
-    { MAPSEC_ROUTE_108,         40,  65 }, \
+    { MAPSEC_ROUTE_107,         50,  85 }, \
+    { MAPSEC_ROUTE_108,         50,  85 }, \
     { MAPSEC_GRANITE_CAVE,      40,  65 }, \
-    { MAPSEC_ABANDONED_SHIP,    40,  65 }, \
+    /* Routen 105/107/108 und das Wrack sind erst mit dem Surfer \
+       erreichbar (nach Normans Arena) - sie stehen deshalb in \
+       Stufe 3, nicht beim fruehen Dewford-Block. */ \
+    { MAPSEC_ABANDONED_SHIP,    50,  85 }, \
     /* Stufe 2: fruehe Mitte (45-75) */ \
     { MAPSEC_SLATEPORT_CITY,    45,  75 }, \
     { MAPSEC_ROUTE_109,         45,  75 }, \
@@ -94,13 +97,13 @@
     { MAPSEC_VERDANTURF_TOWN,   45,  75 }, \
     { MAPSEC_ROUTE_117,         45,  75 }, \
     { MAPSEC_ROUTE_118,         45,  75 }, \
-    { MAPSEC_ROUTE_111,         45,  75 }, \
-    { MAPSEC_ROUTE_112,         45,  75 }, \
+    { MAPSEC_ROUTE_111,         50,  85 }, \
+    { MAPSEC_ROUTE_112,         50,  85 }, \
     { MAPSEC_ROUTE_113,         45,  75 }, \
-    { MAPSEC_FIERY_PATH,        45,  75 }, \
-    { MAPSEC_FIERY_PATH2,       45,  75 }, \
-    { MAPSEC_JAGGED_PASS,       45,  75 }, \
-    { MAPSEC_JAGGED_PASS2,      45,  75 }, \
+    { MAPSEC_FIERY_PATH,        50,  85 }, \
+    { MAPSEC_FIERY_PATH2,       50,  85 }, \
+    { MAPSEC_JAGGED_PASS,       50,  85 }, \
+    { MAPSEC_JAGGED_PASS2,      50,  85 }, \
     { MAPSEC_NEW_MAUVILLE,      45,  75 }, \
     { MAPSEC_MIRAGE_TOWER,      45,  75 }, \
     /* Stufe 3: spaete Mitte (50-85) */ \
