@@ -896,15 +896,21 @@ static void CB2_GoToBerryFixScreen(void)
 }
 
 #if IS_HNS
-// Origin Jade: Puls der Legendaeren-Auren (drei Gruppen, phasenversetzt)
-// plus Wirbelrotation - reine Palettenanimation, keine Kacheln.
-static void JadeApplyPulse(const struct JadeAnimColor *tab, u32 n, u8 phase, s16 amp)
+// Origin Jade: Nur die Lichtstrahlen/Blitze im Hintergrund funkeln -
+// jeder Strahl-Farbeintrag pulsiert mit eigenem Phasenversatz, die
+// Pokemon selbst bleiben statisch. Reine Palettenanimation.
+static void UpdateJadeTitleAnimation(u8 frameNum)
 {
     u32 i;
-    s16 sinv = Sin(phase, amp);
-    for (i = 0; i < n; i++)
+
+    if (gPaletteFade.active)
+        return;
+    if ((frameNum % 2) != 0)
+        return;
+    for (i = 0; i < ARRAY_COUNT(sJadeStrahlen); i++)
     {
-        u16 basis = tab[i].farbe;
+        u16 basis = sJadeStrahlen[i].farbe;
+        s16 sinv = Sin((u8)(frameNum * 2 + i * 85), 72);
         s32 r = (basis & 31)         + (((basis & 31)         * sinv) >> 8);
         s32 g = ((basis >> 5) & 31)  + ((((basis >> 5) & 31)  * sinv) >> 8);
         s32 b = ((basis >> 10) & 31) + ((((basis >> 10) & 31) * sinv) >> 8);
@@ -913,23 +919,7 @@ static void JadeApplyPulse(const struct JadeAnimColor *tab, u32 n, u8 phase, s16
         if (g < 0) g = 0; if (g > 31) g = 31;
         if (b < 0) b = 0; if (b > 31) b = 31;
         farbe = RGB(r, g, b);
-        LoadPalette(&farbe, tab[i].slot, sizeof(farbe));
-    }
-}
-
-static void UpdateJadeTitleAnimation(u8 frameNum)
-{
-    if (gPaletteFade.active)
-        return;
-    if ((frameNum % 2) == 0)
-    {
-        JadeApplyPulse(sJadeGlowGold,    ARRAY_COUNT(sJadeGlowGold),    frameNum,       80);
-        JadeApplyPulse(sJadeGlowCyan,    ARRAY_COUNT(sJadeGlowCyan),    frameNum + 85,  80);
-        JadeApplyPulse(sJadeGlowMagenta, ARRAY_COUNT(sJadeGlowMagenta), frameNum + 170, 36);
-        // Sturmzentrum: langsames Wetterleuchten (halbe Frequenz,
-        // eigene Phase) - dieselben Palettenfarben tauchen vereinzelt
-        // auch ausserhalb auf, ein sanfter Puls faellt dort nicht auf.
-        JadeApplyPulse(sJadeWirbel,      ARRAY_COUNT(sJadeWirbel),      (frameNum >> 1) + 64, 48);
+        LoadPalette(&farbe, sJadeStrahlen[i].slot, sizeof(farbe));
     }
 }
 #endif
