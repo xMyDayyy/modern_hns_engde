@@ -784,6 +784,21 @@ static void Task_TitleScreenPhase2(u8 taskId)
     else
     {
         gTasks[taskId].tSkipToNext = TRUE;
+#if IS_HNS
+        // Origin Jade: KEIN Wolken-BG1 und KEIN Blend - der Vanilla-Effekt
+        // mischt BG1 halbtransparent ueber BG0. HnS laedt keine Wolken;
+        // BG1 (Charbase 3) laege mitten in unseren Titelbild-Kacheln und
+        // legte sie als Muster uebers ganze Bild (Spieltest: "Rauschen",
+        // roter Block beim Einblenden).
+        SetGpuReg(REG_OFFSET_BLDCNT, 0);
+        SetGpuReg(REG_OFFSET_BLDALPHA, 0);
+        SetGpuReg(REG_OFFSET_BLDY, 0);
+        SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_1
+                                    | DISPCNT_OBJ_1D_MAP
+                                    | DISPCNT_BG0_ON
+                                    | DISPCNT_BG2_ON
+                                    | DISPCNT_OBJ_ON);
+#else
         SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT1_BG1 | BLDCNT_EFFECT_BLEND | BLDCNT_TGT2_BG0 | BLDCNT_TGT2_BD);
         SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(6, 15));
         SetGpuReg(REG_OFFSET_BLDY, 0);
@@ -793,6 +808,7 @@ static void Task_TitleScreenPhase2(u8 taskId)
                                     | DISPCNT_BG1_ON
                                     | DISPCNT_BG2_ON
                                     | DISPCNT_OBJ_ON);
+#endif
         #if IS_HNS
         CreatePressStartBanner(START_BANNER_X, 138);
         #else
