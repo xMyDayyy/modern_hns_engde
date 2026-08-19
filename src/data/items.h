@@ -15083,7 +15083,7 @@ const struct ItemInfo gItemsInfo[] =
 #if GERMAN
         .description = COMPOUND_STRING(
             "Meteorit. Fundort:\n"
-            "Entstehungsinsel."),
+            "Meteorfälle."),
 #else
         .description = COMPOUND_STRING(
             "A meteorite found\n"
