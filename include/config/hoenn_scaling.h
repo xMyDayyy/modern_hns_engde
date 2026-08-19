@@ -99,7 +99,7 @@
     { MAPSEC_MAUVILLE_CITY,     45,  75 }, \
     { MAPSEC_VERDANTURF_TOWN,   45,  75 }, \
     { MAPSEC_ROUTE_117,         45,  75 }, \
-    { MAPSEC_ROUTE_118,         45,  75 }, \
+    { MAPSEC_ROUTE_118,         50,  85 }, \
     { MAPSEC_ROUTE_111,         50,  85 }, \
     { MAPSEC_ROUTE_112,         50,  85 }, \
     { MAPSEC_ROUTE_113,         45,  75 }, \
@@ -107,7 +107,9 @@
     { MAPSEC_FIERY_PATH2,       50,  85 }, \
     { MAPSEC_JAGGED_PASS,       50,  85 }, \
     { MAPSEC_JAGGED_PASS2,      50,  85 }, \
-    { MAPSEC_NEW_MAUVILLE,      45,  75 }, \
+    /* Neu-Malvenfroh liegt hinter dem Wasser auf Route 110 - \
+       ohne Surfer kommt man nicht hinein. */ \
+    { MAPSEC_NEW_MAUVILLE,      50,  85 }, \
     { MAPSEC_MIRAGE_TOWER,      45,  75 }, \
     /* Stufe 3: spaete Mitte (50-85) */ \
     { MAPSEC_FALLARBOR_TOWN,    50,  85 }, \
