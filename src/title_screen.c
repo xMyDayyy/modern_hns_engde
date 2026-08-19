@@ -67,8 +67,13 @@ static const u16 sUnusedUnknownPal[] = INCBIN_U16("graphics/title_screen/unused.
 #if IS_HNS
 // Origin Jade: eigener Titelhintergrund - die Weltkarte aller drei Regionen.
 // Liegt in einem eigenen Ordner, die HnS-Grafiken bleiben unangetastet.
-static const u32 sTitleScreenRayquazaGfx[] = INCBIN_U32("graphics/title_screen/origin_jade/worldmap.4bpp.smol");
-static const u32 sTitleScreenRayquazaTilemap[] = INCBIN_U32("graphics/title_screen/origin_jade/worldmap.bin.smolTM");
+// Origin Jade: Titelbild (Legendaeren-Artwork) als Rohdaten - 4bpp-Kacheln
+// mit Paletten 9-15 (das Logo belegt kompakt 0-143). Erzeugt vom
+// Fitting-Werkzeug, siehe src/data/title_screen_jade_anim.h.
+static const u16 sTitelbildTiles[] = INCBIN_U16("graphics/title_screen/origin_jade/titelbild_tiles.bin");
+static const u16 sTitelbildMap[] = INCBIN_U16("graphics/title_screen/origin_jade/titelbild_map.bin");
+static const u16 sTitelbildPal[] = INCBIN_U16("graphics/title_screen/origin_jade/titelbild_pal.bin");
+#include "data/title_screen_jade_anim.h"
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/hns/logo_shine.4bpp.smol");
 #else
 static const u32 sTitleScreenRayquazaGfx[] = INCBIN_U32("graphics/title_screen/rayquaza.4bpp.smol");
@@ -614,10 +619,20 @@ void CB2_InitTitleScreen(void)
         // bg2
         DecompressDataWithHeaderVram(gTitleScreenPokemonLogoGfx, (void *)(BG_CHAR_ADDR(0)));
         DecompressDataWithHeaderVram(gTitleScreenPokemonLogoTilemap, (void *)(BG_SCREEN_ADDR(9)));
+#if IS_HNS
+        // Origin Jade: Logo-Palette kompakt (9 Paletten), dahinter die
+        // 7 Bildpaletten des Titelbilds.
+        LoadPalette(gTitleScreenBgPalettes, BG_PLTT_ID(0), 9 * PLTT_SIZE_4BPP);
+        LoadPalette(sTitelbildPal, BG_PLTT_ID(9), 7 * PLTT_SIZE_4BPP);
+        // bg3: Titelbild als Rohdaten (unkomprimiert)
+        DmaCopy16(3, sTitelbildTiles, (void *)(BG_CHAR_ADDR(2)), sizeof(sTitelbildTiles));
+        DmaCopy16(3, sTitelbildMap, (void *)(BG_SCREEN_ADDR(26)), sizeof(sTitelbildMap));
+#else
         LoadPalette(gTitleScreenBgPalettes, BG_PLTT_ID(0), 15 * PLTT_SIZE_4BPP);
         // bg3
         DecompressDataWithHeaderVram(sTitleScreenRayquazaGfx, (void *)(BG_CHAR_ADDR(2)));
         DecompressDataWithHeaderVram(sTitleScreenRayquazaTilemap, (void *)(BG_SCREEN_ADDR(26)));
+#endif
         // bg1 - HnS doesn't use clouds
         #if !IS_HNS
         DecompressDataWithHeaderVram(sTitleScreenCloudsGfx, (void *)(BG_CHAR_ADDR(3)));
@@ -880,9 +895,57 @@ static void CB2_GoToBerryFixScreen(void)
     }
 }
 
+#if IS_HNS
+// Origin Jade: Puls der Legendaeren-Auren (drei Gruppen, phasenversetzt)
+// plus Wirbelrotation - reine Palettenanimation, keine Kacheln.
+static void JadeApplyPulse(const struct JadeAnimColor *tab, u32 n, u8 phase, s16 amp)
+{
+    u32 i;
+    s16 sinv = Sin(phase, amp);
+    for (i = 0; i < n; i++)
+    {
+        u16 basis = tab[i].farbe;
+        s32 r = (basis & 31)         + (((basis & 31)         * sinv) >> 8);
+        s32 g = ((basis >> 5) & 31)  + ((((basis >> 5) & 31)  * sinv) >> 8);
+        s32 b = ((basis >> 10) & 31) + ((((basis >> 10) & 31) * sinv) >> 8);
+        u16 farbe;
+        if (r < 0) r = 0; if (r > 31) r = 31;
+        if (g < 0) g = 0; if (g > 31) g = 31;
+        if (b < 0) b = 0; if (b > 31) b = 31;
+        farbe = RGB(r, g, b);
+        LoadPalette(&farbe, tab[i].slot, sizeof(farbe));
+    }
+}
+
+static void UpdateJadeTitleAnimation(u8 frameNum)
+{
+    u32 i;
+
+    if (gPaletteFade.active)
+        return;
+    if ((frameNum % 2) == 0)
+    {
+        JadeApplyPulse(sJadeGlowGold,    ARRAY_COUNT(sJadeGlowGold),    frameNum,       80);
+        JadeApplyPulse(sJadeGlowCyan,    ARRAY_COUNT(sJadeGlowCyan),    frameNum + 85,  80);
+        JadeApplyPulse(sJadeGlowMagenta, ARRAY_COUNT(sJadeGlowMagenta), frameNum + 170, 44);
+    }
+    if ((frameNum % 6) == 0)
+    {
+        // Wirbel: Basisfarben durchrotieren (Sog zum Zentrum)
+        u32 off = (frameNum / 6) % ARRAY_COUNT(sJadeWirbel);
+        for (i = 0; i < ARRAY_COUNT(sJadeWirbel); i++)
+        {
+            u16 farbe = sJadeWirbel[(i + off) % ARRAY_COUNT(sJadeWirbel)].farbe;
+            LoadPalette(&farbe, sJadeWirbel[i].slot, sizeof(farbe));
+        }
+    }
+}
+#endif
+
 static void UpdateLegendaryMarkingColor(u8 frameNum)
 {
 #if IS_HNS
+    UpdateJadeTitleAnimation(frameNum);
     return;
 #endif
     if ((frameNum % 4) == 0) // Change color every 4th frame

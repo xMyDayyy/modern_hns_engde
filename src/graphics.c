@@ -2244,10 +2244,9 @@ const u16 gMonIconPalettes[][16] =
 };
 
 #if IS_HNS
-// Origin Jade: Palette 14 gehoert der Weltkarte, der Versionsschriftzug
-// kommt ebenfalls aus dem eigenen Ordner.
-const u16 gTitleScreenBgPalettes[]         = INCBIN_U16("graphics/title_screen/hns/pokemon_logo.gbapal",
-                                                        "graphics/title_screen/origin_jade/worldmap.gbapal");
+// Origin Jade: Logo-Palette kompakt auf 144 Eintraege (Paletten 0-8);
+// die Bildpaletten 9-15 laedt title_screen.c separat (titelbild_pal.bin).
+const u16 gTitleScreenBgPalettes[]         = INCBIN_U16("graphics/title_screen/hns/pokemon_logo.gbapal");
 const u16 gTitleScreenEmeraldVersionPal[]  = INCBIN_U16("graphics/title_screen/origin_jade/emerald_version.gbapal");
 const u32 gTitleScreenCloudsTilemap[]      = INCBIN_U32("graphics/title_screen/clouds.bin.smolTM");
 const u32 gTitleScreenPokemonLogoGfx[]     = INCBIN_U32("graphics/title_screen/hns/pokemon_logo.8bpp.smol");

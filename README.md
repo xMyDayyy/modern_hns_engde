@@ -99,6 +99,12 @@ without the Hoenn content, use `make hns`.
 
 ### Recently done
 
+- [x] Animated title screen — the new key art (Ho-Oh, Lugia, Mewtwo and
+      Rayquaza around the storm vortex) now backs the title logo, with the
+      legendaries' auras pulsing in offset phases and the vortex slowly
+      swirling toward its center; all pure palette animation, fitted into
+      seven background palettes alongside the compacted logo
+
 - [x] Engine update merged from the active HnS main repo (41 upstream
       commits): no more dex softlocks (every species is catchable wild or
       via repeatable statics), new fly locations with map icons, IVs from
