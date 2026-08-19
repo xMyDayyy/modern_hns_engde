@@ -6,11 +6,26 @@ PetalburgCity_Gym_MapScripts::
 	.byte 0
 
 PetalburgCity_Gym_OnLoad:
+#if IS_HNS
+	@ HnS: Wer die Arena selbst erreicht, braucht den Hinweisanruf nicht mehr -
+	@ sonst meldet sich Norman noch, wenn man laengst bei ihm steht.
+	call PetalburgCity_Gym_EventScript_HnsCancelNormanCall
+#endif
 	goto_if_eq VAR_PETALBURG_GYM_STATE, 6, PetalburgCity_Gym_EventScript_OpenUnlockedDoors
 	call_if_ge VAR_PETALBURG_GYM_STATE, 7, PetalburgCity_Gym_EventScript_UnlockAllDoors
 	end
 
 @ NOTE: Strength and OHKO rooms are misleading. Both are more accurately Critical-Hit
+#if IS_HNS
+PetalburgCity_Gym_EventScript_HnsCancelNormanCall::
+	goto_if_unset FLAG_HNS_NORMAN_CALL_PENDING, PetalburgCity_Gym_EventScript_HnsCancelDone
+	clearflag FLAG_HNS_NORMAN_CALL_PENDING
+	setvar VAR_HNS_NORMAN_CALL_STEPS, 0
+	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
+PetalburgCity_Gym_EventScript_HnsCancelDone::
+	return
+#endif
+
 PetalburgCity_Gym_EventScript_OpenUnlockedDoors::
 	setvar VAR_0x8005, 1
 	call PetalburgCity_Gym_EventScript_OpenGymEntranceDoors

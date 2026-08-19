@@ -861,6 +861,13 @@ static bool8 TryStartStepCountScript(u16 metatileBehavior)
             ScriptContext_SetupScript(RustboroCity_Gym_EventScript_RegisterRoxanne);
             return TRUE;
         }
+#if IS_HNS
+        if (ShouldDoNormanCall() == TRUE)
+        {
+            ScriptContext_SetupScript(Common_EventScript_HnsNormanCall);
+            return TRUE;
+        }
+#endif
         if (ShouldDoRivalRayquazaCall() == TRUE)
         {
             ScriptContext_SetupScript(MossdeepCity_SpaceCenter_2F_EventScript_RivalRayquazaCall);

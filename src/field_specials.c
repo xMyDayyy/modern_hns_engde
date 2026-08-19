@@ -551,6 +551,33 @@ bool32 ShouldDoRoxanneCall(void)
     return TRUE;
 }
 
+// HnS: Normans Anruf nach einer Ordenuebergabe. Er kommt nicht sofort
+// (dort unterbrach er die Szene der Arenaleiterin), sondern nach
+// HNS_NORMAN_CALL_STEPS Schritten unter freiem Himmel - der Spieler ist
+// dann unterwegs und der Hinweis kommt zum passenden Zeitpunkt.
+#define HNS_NORMAN_CALL_STEPS 50
+
+bool32 ShouldDoNormanCall(void)
+{
+    if (!FlagGet(FLAG_HNS_NORMAN_CALL_PENDING))
+        return FALSE;
+
+    switch (gMapHeader.mapType)
+    {
+    case MAP_TYPE_TOWN:
+    case MAP_TYPE_CITY:
+    case MAP_TYPE_ROUTE:
+    case MAP_TYPE_OCEAN_ROUTE:
+        if (++(*GetVarPointer(VAR_HNS_NORMAN_CALL_STEPS)) < HNS_NORMAN_CALL_STEPS)
+            return FALSE;
+        break;
+    default:
+        return FALSE;
+    }
+
+    return TRUE;
+}
+
 bool32 ShouldDoRivalRayquazaCall(void)
 {
     if (FlagGet(FLAG_DEFEATED_MAGMA_SPACE_CENTER))

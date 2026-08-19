@@ -204,6 +204,8 @@
 // 2 = Anruf nach der Kanto-Liga erfolgt (Troy wartet in der Silph Co.),
 // 3 = Hoennticket uebergeben.
 #define VAR_HOENN_TICKET_STATE 0x415C
+// Schrittzaehler fuer Normans Anruf nach einer Ordenuebergabe.
+#define VAR_HNS_NORMAN_CALL_STEPS 0x415D
 
 #define HOENN_VARS_END 0x4176
 

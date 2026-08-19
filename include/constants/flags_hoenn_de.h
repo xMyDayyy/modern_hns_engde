@@ -1801,8 +1801,13 @@
 // Versteckt Troy in der Silph Co. Er erscheint erst nach seinem Anruf und
 // verschwindet nach der Uebergabe des Hoennticket wieder.
 #define FLAG_HIDE_SILPHCO_TROY (HNS_REMATCH_FLAGS_START + HNS_REMATCH_FLAGS_COUNT + 1)
+// HnS: Normans Anruf steht aus. Er kommt nicht mehr direkt nach der
+// Ordenuebergabe (dort lief er der Arenaleiterin ins Wort), sondern nach
+// VAR_HNS_NORMAN_CALL_STEPS Schritten unter freiem Himmel - wie Felizias
+// Erstanruf. Wer die Arena vorher erreicht, verliert die Flag wieder.
+#define FLAG_HNS_NORMAN_CALL_PENDING (HNS_REMATCH_FLAGS_START + HNS_REMATCH_FLAGS_COUNT + 2)
 
 #undef  HOENN_FLAGS_END
-#define HOENN_FLAGS_END FLAG_HIDE_SILPHCO_TROY
+#define HOENN_FLAGS_END FLAG_HNS_NORMAN_CALL_PENDING
 
 #endif // GUARD_CONSTANTS_FLAGS_HOENN_DE_H

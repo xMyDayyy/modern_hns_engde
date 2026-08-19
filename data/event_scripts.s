@@ -1203,10 +1203,22 @@ Common_EventScript_ReadyPetalburgGymForBattle::
 	@ Die Reparaturweiche PetalburgCity_Gym_EventScript_OpensWithBadges setzt
 	@ die Flag vorher selbst und ueberspringt den Anruf deshalb.
 	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Common_EventScript_PetalburgGymAlreadyAnnounced
-	@ HnS: Sicherheitsnetz - der Anruf braucht eine geschlossene Textbox,
-	@ sonst wird er neben der Box gezeichnet statt darin.
-	closemessage
-	delay 30
+	@ HnS: Der Anruf laeuft nicht mehr hier - er unterbrach sonst die Szene
+	@ der Arenaleiterin. Stattdessen wird er vorgemerkt und meldet sich nach
+	@ 50 Schritten unter freiem Himmel (ShouldDoNormanCall).
+	setvar VAR_HNS_NORMAN_CALL_STEPS, 0
+	setflag FLAG_HNS_NORMAN_CALL_PENDING
+Common_EventScript_PetalburgGymAlreadyAnnounced::
+#endif
+	return
+
+#if IS_HNS
+@ HnS: Normans Anruf, ausgeloest ueber ShouldDoNormanCall nach 50 Schritten.
+Common_EventScript_HnsNormanCall::
+	lockall
+	clearflag FLAG_HNS_NORMAN_CALL_PENDING
+	setvar VAR_HNS_NORMAN_CALL_STEPS, 0
+	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Common_EventScript_HnsNormanCallDone
 	pokenavcall Common_Text_HnsNormanGymOpen
 	waitmessage
 	delay 30
@@ -1216,9 +1228,10 @@ Common_EventScript_ReadyPetalburgGymForBattle::
 	closemessage
 	delay 30
 	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
-Common_EventScript_PetalburgGymAlreadyAnnounced::
+Common_EventScript_HnsNormanCallDone::
+	releaseall
+	end
 #endif
-	return
 
 Common_EventScript_BufferTrendyPhrase::
 	dotimebasedevents
