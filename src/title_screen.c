@@ -37,8 +37,8 @@ enum {
 // zuzulaufen.
 #define VERSION_BANNER_LEFT_X 88
 #define VERSION_BANNER_RIGHT_X 152
-#define VERSION_BANNER_Y 64
-#define VERSION_BANNER_Y_GOAL 64
+#define VERSION_BANNER_Y 60
+#define VERSION_BANNER_Y_GOAL 60
 #else
 #define VERSION_BANNER_LEFT_X 98
 #define VERSION_BANNER_RIGHT_X 162
@@ -127,12 +127,13 @@ static void CreateJadeLogoSprites(void)
 {
     u32 i;
 
-    // Vier 64x64-Teile nebeneinander (Zentren 24/88/152/216) ergeben das
-    // 256x64-Canvas ab x = -8; y = 28 setzt die Schriftzug-Oberkante auf 8.
+    // Vier 64x64-Teile nebeneinander (Zentren 21/85/149/213) ergeben das
+    // 256x64-Canvas ab x = -11; y = 28 setzt die Oberkante auf 8.
+    // Die 3 px Linksversatz sind Marcs bewusste optische Korrektur.
     // Statisch - kein Einflug (Marcs Vorgabe).
     for (i = 0; i < 4; i++)
     {
-        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 24 + i * 64, 28, 0);
+        u8 id = CreateSprite(&sJadeLogoSpriteTemplate, 21 + i * 64, 28, 0);
         if (id != MAX_SPRITES)
             gSprites[id].oam.tileNum += i * 128;   // 64x64 in 8bpp = 128 Kachelplaetze
     }
