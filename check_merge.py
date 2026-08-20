@@ -511,10 +511,47 @@ def check_warp_reciprocity(maps, active_names, rep):
                          f"Warp #{wid} nach {back[wid].get('dest_map')}")
 
 
+
+RELATIVE_VALUE_RE = re.compile(
+    r"#define\s+(\w+)\s+\((\w+)\+0x([0-9A-Fa-f]+)\)")
+
+
+def check_generated_headers(rep):
+    """Doppelt vergebene Slots in den generierten Kanto-Headern.
+
+    Die Header werden schrittweise erweitert. Wer dabei die Basis falsch
+    ermittelt, vergibt eine Nummer zweimal - beide Namen zeigen dann auf
+    dasselbe Bit bzw. dieselbe Var, ohne dass der Compiler mahnt.
+    """
+    for path in ("include/constants/flags_frlg_hns.h",
+                 "include/constants/vars_frlg_hns.h",
+                 "include/constants/opponents_frlg_hns.h"):
+        if not os.path.exists(path):
+            continue
+        by_value = defaultdict(list)
+        ends = 0
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            for line in fh:
+                if "_END (" in line and line.startswith("#define"):
+                    ends += 1
+                m = RELATIVE_VALUE_RE.match(line.strip())
+                if m and not m.group(1).endswith("_END"):
+                    by_value[(m.group(2), int(m.group(3), 16))].append(m.group(1))
+        for (base, val), names in sorted(by_value.items()):
+            if len(names) > 1:
+                rep.error("header-slots",
+                          f"{os.path.basename(path)}: {base}+{hex(val)} ist "
+                          f"{len(names)}x vergeben - {', '.join(names)}")
+        if ends > 1:
+            rep.error("header-slots",
+                      f"{os.path.basename(path)}: {ends} Definitionen von "
+                      f"*_END - nur die letzte gilt, die anderen taeuschen")
+
+
 # ---------------------------------------------------------------- main
 
 ALL_CHECKS = ["layouts", "warps", "connections", "mapsecs", "flags",
-              "vars", "wild", "includes", "symbols", "tilesets", "reciprocity"]
+              "vars", "wild", "includes", "symbols", "tilesets", "reciprocity", "headers"]
 
 
 def main():
@@ -562,6 +599,8 @@ def main():
         check_wild(maps, active, rep)
     if "tilesets" in wanted:
         check_tilesets(maps, active, rep)
+    if "headers" in wanted:
+        check_generated_headers(rep)
 
     if {"flags", "vars"} & wanted:
         used_flags, used_vars = collect_script_symbols(active, maps)

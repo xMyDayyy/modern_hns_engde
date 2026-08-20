@@ -882,7 +882,6 @@
 #undef  FLAG_RIVAL_NAMED_BY_MOM
 #define FLAG_RIVAL_NAMED_BY_MOM                                  (FRLG_FLAGS_START+0x1B2)
 
-#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B2)
 
 
 // Kanto-Merge: FRLG-Verstecke. flags_hns.h weist ihnen samt und sonders
@@ -1272,54 +1271,44 @@
 #undef  FLAG_HIDDEN_ITEM_VIRIDIAN_FOREST_POTION
 #define FLAG_HIDDEN_ITEM_VIRIDIAN_FOREST_POTION                          (FRLG_FLAGS_START+0x271)
 
-#undef  FRLG_FLAGS_END
-#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x271)
 
 
 // Kanto-Merge: Restliche Festland-Flags, die flags_hns.h auf 0 stubbt.
 
 #undef  FLAG_SYS_GOT_BERRY_POUCH
-#define FLAG_SYS_GOT_BERRY_POUCH                                         (FRLG_FLAGS_START+0x1B3)
+#define FLAG_SYS_GOT_BERRY_POUCH                       (FRLG_FLAGS_START+0x272)
 #undef  FLAG_WORLD_MAP_POKEMON_LEAGUE_LORELEIS_ROOM
-#define FLAG_WORLD_MAP_POKEMON_LEAGUE_LORELEIS_ROOM                      (FRLG_FLAGS_START+0x1B4)
+#define FLAG_WORLD_MAP_POKEMON_LEAGUE_LORELEIS_ROOM    (FRLG_FLAGS_START+0x273)
 #undef  FLAG_WORLD_MAP_SSANNE_EXTERIOR
-#define FLAG_WORLD_MAP_SSANNE_EXTERIOR                                   (FRLG_FLAGS_START+0x1B5)
+#define FLAG_WORLD_MAP_SSANNE_EXTERIOR                 (FRLG_FLAGS_START+0x274)
 #undef  FLAG_WORLD_MAP_UNDERGROUND_PATH_EAST_WEST_TUNNEL
-#define FLAG_WORLD_MAP_UNDERGROUND_PATH_EAST_WEST_TUNNEL                 (FRLG_FLAGS_START+0x1B6)
+#define FLAG_WORLD_MAP_UNDERGROUND_PATH_EAST_WEST_TUNNEL (FRLG_FLAGS_START+0x275)
 #undef  FLAG_WORLD_MAP_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL
-#define FLAG_WORLD_MAP_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL               (FRLG_FLAGS_START+0x1B7)
-
-#undef  FRLG_FLAGS_END
-#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B7)
+#define FLAG_WORLD_MAP_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL (FRLG_FLAGS_START+0x276)
 
 
-// Kanto-Merge: Daisys Uebergabe und der darauf folgende Anruf der Mutter.
 
-#undef  FLAG_HIDE_PALLET_DAISY
-#define FLAG_HIDE_PALLET_DAISY                   (FRLG_FLAGS_START+0x1B3)
+// Kanto-Merge: Anruf der Mutter nach ihrer PokeCom-Uebergabe.
+
 #undef  FLAG_HNS_MOM_CALL_PENDING
-#define FLAG_HNS_MOM_CALL_PENDING                (FRLG_FLAGS_START+0x1B4)
+#define FLAG_HNS_MOM_CALL_PENDING                      (FRLG_FLAGS_START+0x278)
 
-#undef  FRLG_FLAGS_END
-#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B4)
 
 
 // Kanto-Merge: Mamas PokeCom-Kontakt (in flags_hns.h auf 0 gestubbt).
 
 #undef  FLAG_ENABLE_MOM_MATCH_CALL
-#define FLAG_ENABLE_MOM_MATCH_CALL               (FRLG_FLAGS_START+0x1B3)
+#define FLAG_ENABLE_MOM_MATCH_CALL                     (FRLG_FLAGS_START+0x279)
 
-#undef  FRLG_FLAGS_END
-#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B3)
 
 
 // Kanto-Merge: Wird beim ersten Betreten von Route 26 Nord gesetzt und
 // schaltet die Regionskarte von Kanto auf die kombinierte JK-Karte um.
 
-#define FLAG_VISITED_JOHTO                       (FRLG_FLAGS_START+0x1B3)
+#define FLAG_VISITED_JOHTO                             (FRLG_FLAGS_START+0x27A)
 
-#undef  FRLG_FLAGS_END
-#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B3)
+
+#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x27A)
 
 #define FRLG_NUM_FLAG_BYTES (((FRLG_FLAGS_END - FRLG_FLAGS_START + 1) + 7) / 8)
 
