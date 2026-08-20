@@ -480,10 +480,41 @@ def check_tilesets(maps, active_names, rep):
                       f"fuer layout_version {sorted(versions)} (z.B. {sample[0]})")
 
 
+
+def check_warp_reciprocity(maps, active_names, rep):
+    """Meldet Warps, deren Zielwarp nicht zurueckfuehrt.
+
+    Faengt vertauschte Karten-IDs: MAP_VICTORY_ROAD_1F ist Hoenns
+    Siegesstrasse, FRLGs heisst MAP_VICTORY_ROAD_1F_FRLG. Ein Warp dorthin
+    kompiliert und laedt - man landet nur in der falschen Region.
+    """
+    id_to_name = {m["id"]: n for n, m in maps.items() if "id" in m}
+    active_ids = {maps[n]["id"] for n in active_names if "id" in maps[n]}
+    for name in sorted(active_names):
+        m = maps[name]
+        my_id = m.get("id")
+        for i, warp in enumerate(m.get("warp_events") or []):
+            dest = warp.get("dest_map")
+            if dest in (None, "MAP_NONE", "MAP_DYNAMIC") or dest not in active_ids:
+                continue
+            target = maps[id_to_name[dest]]
+            try:
+                wid = int(warp.get("dest_warp_id", 0))
+            except (TypeError, ValueError):
+                continue
+            back = (target.get("warp_events") or [])
+            if wid >= len(back):
+                continue
+            if back[wid].get("dest_map") != my_id:
+                rep.warn("warp-einbahn",
+                         f"{name} Warp #{i} -> {dest}#{wid}, aber dort fuehrt "
+                         f"Warp #{wid} nach {back[wid].get('dest_map')}")
+
+
 # ---------------------------------------------------------------- main
 
 ALL_CHECKS = ["layouts", "warps", "connections", "mapsecs", "flags",
-              "vars", "wild", "includes", "symbols", "tilesets"]
+              "vars", "wild", "includes", "symbols", "tilesets", "reciprocity"]
 
 
 def main():
@@ -517,6 +548,8 @@ def main():
         check_layouts(maps, active, args.version, rep)
     if "warps" in wanted:
         check_warps(maps, active, rep)
+    if "reciprocity" in wanted:
+        check_warp_reciprocity(maps, active, rep)
     if "connections" in wanted:
         check_connections(maps, active, rep)
     if "mapsecs" in wanted:
