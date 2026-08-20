@@ -1303,6 +1303,15 @@
 #undef  FRLG_FLAGS_END
 #define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B4)
 
+
+// Kanto-Merge: Mamas PokeCom-Kontakt (in flags_hns.h auf 0 gestubbt).
+
+#undef  FLAG_ENABLE_MOM_MATCH_CALL
+#define FLAG_ENABLE_MOM_MATCH_CALL               (FRLG_FLAGS_START+0x1B3)
+
+#undef  FRLG_FLAGS_END
+#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B3)
+
 #define FRLG_NUM_FLAG_BYTES (((FRLG_FLAGS_END - FRLG_FLAGS_START + 1) + 7) / 8)
 
 #endif // GUARD_CONSTANTS_FLAGS_FRLG_HNS_H

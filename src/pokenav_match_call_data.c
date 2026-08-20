@@ -268,8 +268,11 @@ static const match_call_text_data_t sMomTextScripts[] = {
 static const struct MatchCallStructNPC sMomMatchCallHeader =
 {
     .type = MC_TYPE_NPC,
-    .mapSec = MAPSEC_NEW_BARK_TOWN,
-    .flag = ALWAYS_AVAILABLE,
+    // Kanto-Merge: Mama wohnt jetzt in Alabastia. Der Kontakt wird erst
+    // freigeschaltet, wenn sie nach Daisys PokeGear-Uebergabe anruft -
+    // vorher hat der Spieler noch kein Telefon.
+    .mapSec = MAPSEC_PALLET_TOWN,
+    .flag = FLAG_ENABLE_MOM_MATCH_CALL,
     .desc = COMPOUND_STRING("Ruhig&Nett"),
     .name = COMPOUND_STRING("Mama"),
     .textData = sMomTextScripts

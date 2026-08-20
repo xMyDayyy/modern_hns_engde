@@ -1241,10 +1241,23 @@ Common_EventScript_HnsMomCall::
 	pokenavcall Common_Text_HnsMomParcelCall
 	waitmessage
 	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox Common_Text_HnsRegisteredMom, MSGBOX_DEFAULT
+	waitfanfare
+	setflag FLAG_ENABLE_MOM_MATCH_CALL
 	closemessage
 	delay 30
 	releaseall
 	end
+
+Common_Text_HnsRegisteredMom:
+#if GERMAN
+	.string "Mama wurde im PokéGear\n"
+	.string "eingetragen.$"
+#else
+	.string "Registered MOM\n"
+	.string "in the POKéGEAR.$"
+#endif
 
 Common_Text_HnsMomParcelCall:
 #if GERMAN
@@ -1255,8 +1268,9 @@ Common_Text_HnsMomParcelCall:
 	.string "Professor Eich hat angerufen: Im Laden\n"
 	.string "in Vertania liegt eine Bestellung für\l"
 	.string "ihn bereit.\p"
-	.string "Bring sie ihm doch mit, ja? Pass auf\n"
-	.string "dich auf!$"
+	.string "Bring sie ihm doch mit, ja?\p"
+	.string "So, jetzt hast du auch meine Nummer.\n"
+	.string "Pass auf dich auf!$"
 #else
 	.string "MOM: Hi, {PLAYER}!\p"
 	.string "DAISY told me you've got a POKéGEAR\n"
@@ -1264,8 +1278,9 @@ Common_Text_HnsMomParcelCall:
 	.string "PROF. OAK called: there's an order\n"
 	.string "waiting for him at the shop in\l"
 	.string "VIRIDIAN CITY.\p"
-	.string "Would you bring it to him? Take care\n"
-	.string "of yourself!$"
+	.string "Would you bring it to him?\p"
+	.string "There, now you have my number too.\n"
+	.string "Take care of yourself!$"
 #endif
 #endif
 
