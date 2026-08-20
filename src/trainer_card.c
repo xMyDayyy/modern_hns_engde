@@ -25,6 +25,7 @@
 #include "pokemon_icon.h"
 #include "graphics.h"
 #include "hoenn_badges.h"
+#include "johto_badges.h"
 #include "pokemon_icon.h"
 #include "trainer_pokemon_sprites.h"
 #include "contest_util.h"
@@ -215,6 +216,7 @@ static const u16 sHnsTrainerCardBadges_Pal[]     = INCBIN_U16("graphics/trainer_
 static const u16 sHoennTrainerCardBadges_Pal[]   = INCBIN_U16("graphics/trainer_card/badges.gbapal");
 static const u16 sKantoTrainerCardBadges_Pal[]   = INCBIN_U16("graphics/trainer_card/frlg/badges.gbapal");
 static const u8 sText_RegionLabelKanto[] = _("Kanto");
+static const u8 sText_RegionLabelJohto[] = _("Johto");
 static const u8 sText_RegionLabelHoenn[] = _("Hoenn");
 static const u16 sTrainerCardStar_Pal[]          = INCBIN_U16("graphics/trainer_card/star.gbapal");
 static const u16 sTrainerCardSticker1_Pal[]      = INCBIN_U16("graphics/trainer_card/frlg/stickers1.gbapal");
@@ -1336,7 +1338,7 @@ static void PrintRegionLabelsOnBack(void)
     // also Fenster-y + 12.
     // Waagerecht: Fenster-x 17 = Bildschirm-x 25, sieben Pixel links der
     // Ordenkante (Kachel 4 = 32).
-    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 17, 61, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelKanto);
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 17, 61, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelJohto);
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
         AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 17, 93, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
 }
@@ -1687,8 +1689,11 @@ static void DrawStarsAndBadgesOnCard(void)
     static const u8 yOffsets[] = {7, 7};
 
     s16 i, x, y;
-    u16 tileNum = 192;
-    u8 palNum = 3;
+    // Kanto-Merge: Vorderseite zeigt jetzt die Kanto-Orden. Ihre Symbole
+    // liegen in der zweiten Haelfte von combined_badges (Kachel 192+32) und
+    // gehoeren zur FRLG-Palette 6.
+    u16 tileNum = IS_HNS ? 192 + 32 : 192;
+    u8 palNum = IS_HNS ? 6 : 3;
 
     FillBgTilemapBufferRect(3, 143, 15, yOffsets[sData->isHoenn], sData->trainerCard.stars, 1, 4);
     if (!sData->isLink)
@@ -1718,13 +1723,16 @@ static void DrawExtraBadgesOnBack(void)
 {
     // Kanto-Reihe auf Kachelzeile 7/8, Hoenn-Reihe auf 11/12; beide beginnen
     // bei Kachel 4 (Bildschirm-x 32). Siehe PrintRegionLabelsOnBack.
+    // Kanto-Merge: erste Reihe zeigt Johto (Symbole in der ersten Haelfte von
+    // combined_badges, Palette 3), gespeist aus VAR_JOHTO_BADGES. Die
+    // Vanilla-Flags FLAG_BADGE01-08 gehoeren jetzt Kanto und stehen vorne.
     u8 i, x = 4;
-    u8 palNum = 6;
-    u16 tileNum = 192 + 32;
+    u8 palNum = 3;
+    u16 tileNum = 192;
 
     for (i = 0; i < NUM_BADGES_EXTRA; i++, tileNum += 2, x += 3)
     {
-        if (sData->badgeCount[NUM_BADGES_FRONT + i])
+        if (HasJohtoBadge(i))
         {
             FillBgTilemapBufferRect(3, tileNum,      x,     7, 1, 1, palNum);
             FillBgTilemapBufferRect(3, tileNum + 1,  x + 1, 7, 1, 1, palNum);
