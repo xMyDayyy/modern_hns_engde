@@ -14,11 +14,6 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_VIRIDIAN_CITY",
-      "offset": -6,
-      "direction": "right"
-    },
-    {
       "map": "MAP_ROUTE26NORTH_HNS",
       "offset": 28,
       "direction": "left"
