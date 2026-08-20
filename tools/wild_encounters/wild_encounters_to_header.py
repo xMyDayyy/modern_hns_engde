@@ -173,8 +173,11 @@ class WildEncounterAssembler:
 
             # Hoenn-Tabellen sollen auch im HnS-Build vorhanden sein,
             # da dessen Karten die Emerald-Begegnungen weiterverwenden.
+            # Kanto-Merge: FRLG-Tabellen ebenfalls, Kanto ist jetzt die Startwelt.
             if version == "EMERALD":
                 self.WriteLine("#if defined(EMERALD) || defined(POKEMON_HNS)")
+            elif version == "FIRERED":
+                self.WriteLine("#if defined(FIRERED) || defined(POKEMON_HNS)")
             else:
                 self.WriteLine(f"#ifdef {version}")
 
@@ -254,6 +257,8 @@ class WildEncounterAssembler:
                 # da dessen Karten die Emerald-Begegnungen weiterverwenden.
                 if version == "EMERALD":
                     self.WriteLine("#if defined(EMERALD) || defined(POKEMON_HNS)")
+                elif version == "FIRERED":
+                    self.WriteLine("#if defined(FIRERED) || defined(POKEMON_HNS)")
                 else:
                     self.WriteLine(f"#ifdef {version}")
                 for mon_type in self.config.mon_types:
