@@ -889,6 +889,14 @@ u8 GetItemImportance(enum Item itemId)
 // auf AN, sind TMs unverbrauchbar und eine zweite Kopie nutzlos; steht sie auf
 // AUS, sind TMs Verbrauchsgueter und die zweite Kopie ist erwuenscht. Die
 // Entscheidung faellt deshalb hier zur Laufzeit und nicht im Skript.
+// Kanto-Merge: TRUE, wenn TMs unverbrauchbar sind (Herausforderungsmenue,
+// "TMs wiederverw."). Damit koennen Skripte ihre Texte anpassen, statt
+// pauschal "nur einmal verwendbar" zu behaupten.
+void CheckTMsReusable(void)
+{
+    gSpecialVar_Result = (gSaveBlock3Ptr->challengeSettings.tx_Mode_InfiniteTMs == 1);
+}
+
 void CheckItemHandoverPointless(void)
 {
     enum Item itemId = gSpecialVar_0x8000;

@@ -26,6 +26,10 @@ PewterCity_Gym_EventScript_GiveTM39::
 	goto_if_eq VAR_RESULT, FALSE, PewterCity_Gym_EventScript_NoRoomForTM39
 	giveitem_msg PewterCity_Gym_Text_ReceivedTM39FromBrock, ITEM_TM39
 	setflag FLAG_GOT_TM39_FROM_BROCK
+	@ Kanto-Merge: Der Vanilla-Text behauptet, TMs seien Einwegware. Steht im
+	@ Herausforderungsmenue "TMs wiederverw." auf AN, stimmt das nicht.
+	special CheckTMsReusable
+	goto_if_eq VAR_RESULT, TRUE, PewterCity_Gym_EventScript_ExplainTM39Reusable
 	msgbox PewterCity_Gym_Text_ExplainTM39
 	release
 	end
@@ -331,4 +335,10 @@ PewterCity_Gym_Text_GymStatuePlayerWon::
 	.string "WINNING TRAINERS:\n"
 	.string "{RIVAL}, {PLAYER}$"
 #endif
+
+@ Kanto-Merge: Bei unverbrauchbaren TMs entfaellt die Erklaerung ersatzlos -
+@ die Einweg-Warnung waere falsch, ein Ersatztext ohne Informationswert.
+PewterCity_Gym_EventScript_ExplainTM39Reusable::
+	release
+	end
 
