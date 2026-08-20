@@ -657,3 +657,92 @@ PalletTown_Text_PressStartToOpenMenuCopy::
 #endif
 
 
+
+@ ============================================================================
+@ Kanto-Merge: Daisy faengt den Spieler am Nordausgang ab und uebergibt den
+@ PokeGear. Vorlage ist Birks Abfangszene in Hoenn. Ausgeloest ueber
+@ VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE == 1, das der Rivalenkampf setzt.
+@ Danach laeuft ueber FLAG_HNS_MOM_CALL_PENDING der Anruf der Mutter an.
+@ ============================================================================
+
+PalletTown_EventScript_DaisyGearTrigger::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkDown1
+	waitmovement 0
+	addobject LOCALID_PALLET_DAISY
+	applymovement LOCALID_PALLET_DAISY, PalletTown_Movement_DaisyRunUp
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_PALLET_DAISY, Common_Movement_ExclamationMark
+	waitmovement 0
+	msgbox PalletTown_Text_DaisyWaitTakeThis
+	playfanfare MUS_OBTAIN_ITEM
+	message PalletTown_Text_DaisyObtainedPokeGear
+	waitfanfare
+	setflag FLAG_SYS_POKENAV_GET
+	setflag FLAG_HAS_MATCH_CALL
+	setflag FLAG_RECEIVED_POKENAV
+	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
+	setflag FLAG_REGISTER_RIVAL_POKENAV
+	msgbox PalletTown_Text_DaisyExplainPokeGear
+	closemessage
+	setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2
+	@ Anruf der Mutter vorbereiten (kommt nach 50 Schritten im Freien)
+	setvar VAR_HNS_MOM_CALL_STEPS, 0
+	setflag FLAG_HNS_MOM_CALL_PENDING
+	applymovement LOCALID_PALLET_DAISY, PalletTown_Movement_DaisyReturn
+	waitmovement 0
+	removeobject LOCALID_PALLET_DAISY
+	releaseall
+	end
+
+PalletTown_Movement_DaisyRunUp::
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	step_end
+
+PalletTown_Movement_DaisyReturn::
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	step_end
+
+PalletTown_Text_DaisyWaitTakeThis:
+#if GERMAN
+	.string "Daisy: Warte, warte!\p"
+	.string "Du ziehst also auch los. Hier, nimm\n"
+	.string "das mit - mein Bruder wollte es nicht.$"
+#else
+	.string "DAISY: Wait, wait!\p"
+	.string "So you're heading out too. Here, take\n"
+	.string "this - my brother didn't want it.$"
+#endif
+
+PalletTown_Text_DaisyObtainedPokeGear:
+#if GERMAN
+	.string "{PLAYER} erhält den\n"
+	.string "PokéGear!$"
+#else
+	.string "{PLAYER} received the\n"
+	.string "POKéGEAR!$"
+#endif
+
+PalletTown_Text_DaisyExplainPokeGear:
+#if GERMAN
+	.string "Da ist eine Karte drin, ein Radio und\n"
+	.string "ein Telefon.\p"
+	.string "Trainer, die du unterwegs triffst,\n"
+	.string "kannst du eintragen und später\l"
+	.string "anrufen.\p"
+	.string "Viel Glück, {PLAYER}!$"
+#else
+	.string "It has a map, a radio and a phone.\p"
+	.string "You can register trainers you meet\n"
+	.string "and call them later on.\p"
+	.string "Good luck, {PLAYER}!$"
+#endif

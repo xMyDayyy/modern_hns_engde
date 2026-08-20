@@ -1292,6 +1292,17 @@
 #undef  FRLG_FLAGS_END
 #define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B7)
 
+
+// Kanto-Merge: Daisys Uebergabe und der darauf folgende Anruf der Mutter.
+
+#undef  FLAG_HIDE_PALLET_DAISY
+#define FLAG_HIDE_PALLET_DAISY                   (FRLG_FLAGS_START+0x1B3)
+#undef  FLAG_HNS_MOM_CALL_PENDING
+#define FLAG_HNS_MOM_CALL_PENDING                (FRLG_FLAGS_START+0x1B4)
+
+#undef  FRLG_FLAGS_END
+#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B4)
+
 #define FRLG_NUM_FLAG_BYTES (((FRLG_FLAGS_END - FRLG_FLAGS_START + 1) + 7) / 8)
 
 #endif // GUARD_CONSTANTS_FLAGS_FRLG_HNS_H
