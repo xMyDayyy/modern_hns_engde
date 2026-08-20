@@ -170,10 +170,10 @@ PalletTown_PlayersHouse_1F_Text_MomRunningShoes:
 PalletTown_PlayersHouse_1F_Text_ReceivedRunningShoes:
 #if GERMAN
 	.string "{PLAYER} erhält die\n"
-	.string "TURBOTRETER!$"
+	.string "Turbotreter!$"
 #else
 	.string "{PLAYER} received the\n"
-	.string "RUNNING SHOES!$"
+	.string "Running Shoes!$"
 #endif
 
 PalletTown_PlayersHouse_1F_Text_MomExplainRunningShoes:
@@ -217,4 +217,33 @@ PalletTown_PlayersHouse_1F_Text_MomRivalNameConfirm:
 #else
 	.string "{RIVAL}, of course! You two have been\n"
 	.string "inseparable since you were toddlers.$"
+#endif
+
+@ Kanto-Merge: Die Mutter vergibt Rivalennamen und Turbotreter. Beides ist
+@ Voraussetzung fuer den weiteren Ablauf, deshalb haelt sie den Spieler
+@ zurueck, bis das Gespraech gelaufen ist. Der Trigger liegt vor der Tuer.
+PalletTown_PlayersHouse_1F_EventScript_BlockExit::
+	lock
+	goto_if_set FLAG_SYS_B_DASH, PalletTown_PlayersHouse_1F_EventScript_ExitAllowed
+	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, Common_Movement_ExclamationMark
+	waitmovement 0
+	msgbox PalletTown_PlayersHouse_1F_Text_MomWaitAMoment
+	closemessage
+	release
+	end
+
+PalletTown_PlayersHouse_1F_EventScript_ExitAllowed::
+	setvar VAR_TEMP_5, 1
+	release
+	end
+
+PalletTown_PlayersHouse_1F_Text_MomWaitAMoment:
+#if GERMAN
+	.string "Mutter: Warte kurz, {PLAYER}!\p"
+	.string "Ich muss dir noch etwas mitgeben,\n"
+	.string "bevor du losziehst.$"
+#else
+	.string "MOM: Hold on a second, {PLAYER}!\p"
+	.string "There's something I need to give you\n"
+	.string "before you head out.$"
 #endif
