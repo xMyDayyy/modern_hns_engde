@@ -532,6 +532,8 @@ AzaleaTown_Gym_EventScript_Bugsy::
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox AzaleaTown_Gym_Text_HiveBadgeSpeech, MSGBOX_DEFAULT
+	setvar VAR_0x8004, 1
+	special SetJohtoBadge
 	setflag FLAG_BADGE02_GET
 	setflag FLAG_DEFEATED_AZALEA_TOWN_GYM
 	addvar VAR_NUM_BADGES, 1

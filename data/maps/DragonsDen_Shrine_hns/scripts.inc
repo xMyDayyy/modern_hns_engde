@@ -319,6 +319,8 @@ DragonsDen_Shrine_EventScript_ClairEnter::
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox DragonsDen_Shrine_Text_RisingBadgeExplanation, MSGBOX_DEFAULT
+	setvar VAR_0x8004, 7
+	special SetJohtoBadge
 	setflag FLAG_BADGE08_GET
 	addvar VAR_NUM_BADGES, 1
 

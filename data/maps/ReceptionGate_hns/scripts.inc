@@ -141,3 +141,100 @@ VictoryRoadGate_Text_RightBlackBelt:
     .string "The ELITE FOUR are so strong it's\n"
     .string "scary, and they're ready for you!$"
 #endif
+
+@ ============================================================================
+@ Kanto-Merge (test/kanto-start): Torlogik fuer den Vierwege-Knoten.
+@ Der Spieler kommt aus Kanto (Osten). Norden = Liga, Sueden = Johto,
+@ Westen = Silberberg. Johto und Silberberg oeffnen erst nach den Top 4.
+@ ============================================================================
+
+ReceptionGate_EventScript_BlockJohto::
+	lock
+	goto_if_set FLAG_SYS_GAME_CLEAR, ReceptionGate_EventScript_PassJohto
+	applymovement LOCALID_INDIGOJUNCTION_POLICEMAN, Common_Movement_ExclamationMark
+	waitmovement 0
+	msgbox ReceptionGate_Text_JohtoClosed, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkUp1
+	waitmovement 0
+	release
+	end
+
+ReceptionGate_EventScript_PassJohto::
+	setvar VAR_TEMP_5, 1
+	release
+	end
+
+ReceptionGate_EventScript_BlockMtSilver::
+	lock
+	goto_if_set FLAG_SYS_GAME_CLEAR, ReceptionGate_EventScript_PassMtSilver
+	msgbox ReceptionGate_Text_MtSilverClosed, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkRight1
+	waitmovement 0
+	release
+	end
+
+ReceptionGate_EventScript_PassMtSilver::
+	setvar VAR_TEMP_5, 1
+	release
+	end
+
+ReceptionGate_Text_JohtoClosed:
+#if GERMAN
+	.string "Halt! Hinter diesem Tor beginnt Johto.\p"
+	.string "Der Weg ist gesperrt, solange die\n"
+	.string "Top Vier nicht besiegt sind.\p"
+	.string "Erst musst du dich hier beweisen.$"
+#else
+	.string "Hold it! Beyond this gate lies JOHTO.\p"
+	.string "The road stays closed until the\n"
+	.string "ELITE FOUR have been defeated.\p"
+	.string "Prove yourself here first.$"
+#endif
+
+ReceptionGate_Text_MtSilverClosed:
+#if GERMAN
+	.string "Der Weg zum Silberberg ist gesperrt.\p"
+	.string "Dort draussen hausen Pokémon, gegen\n"
+	.string "die selbst die Top Vier alt aussehen.\p"
+	.string "Komm wieder, wenn du Champ bist.$"
+#else
+	.string "The road to MT.SILVER is closed.\p"
+	.string "The POKéMON out there would make\n"
+	.string "even the ELITE FOUR look tame.\p"
+	.string "Come back when you're CHAMPION.$"
+#endif
+
+ReceptionGate_EventScript_LeagueCheck::
+	lock
+	goto_if_unset FLAG_BADGE01_GET, ReceptionGate_EventScript_LeagueDenied
+	goto_if_unset FLAG_BADGE02_GET, ReceptionGate_EventScript_LeagueDenied
+	goto_if_unset FLAG_BADGE03_GET, ReceptionGate_EventScript_LeagueDenied
+	goto_if_unset FLAG_BADGE04_GET, ReceptionGate_EventScript_LeagueDenied
+	goto_if_unset FLAG_BADGE05_GET, ReceptionGate_EventScript_LeagueDenied
+	goto_if_unset FLAG_BADGE06_GET, ReceptionGate_EventScript_LeagueDenied
+	goto_if_unset FLAG_BADGE07_GET, ReceptionGate_EventScript_LeagueDenied
+	goto_if_unset FLAG_BADGE08_GET, ReceptionGate_EventScript_LeagueDenied
+	setvar VAR_TEMP_5, 1
+	release
+	end
+
+ReceptionGate_EventScript_LeagueDenied::
+	msgbox ReceptionGate_Text_LeagueDenied, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkDown1
+	waitmovement 0
+	release
+	end
+
+ReceptionGate_Text_LeagueDenied:
+#if GERMAN
+	.string "Nur Trainer mit allen acht Orden von\n"
+	.string "Kanto duerfen zur Siegesstrasse.\p"
+	.string "Komm wieder, wenn du so weit bist.$"
+#else
+	.string "Only trainers with all eight BADGES\n"
+	.string "of KANTO may enter VICTORY ROAD.\p"
+	.string "Come back when you're ready.$"
+#endif

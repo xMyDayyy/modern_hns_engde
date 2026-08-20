@@ -115,6 +115,42 @@
       "var": "VAR_ROUTE27_STATE",
       "var_value": "1",
       "script": "ReceptionGate_Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 18,
+      "elevation": 3,
+      "var": "VAR_TEMP_5",
+      "var_value": "0",
+      "script": "ReceptionGate_EventScript_BlockJohto"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 9,
+      "elevation": 3,
+      "var": "VAR_TEMP_5",
+      "var_value": "0",
+      "script": "ReceptionGate_EventScript_BlockMtSilver"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 2,
+      "elevation": 3,
+      "var": "VAR_TEMP_5",
+      "var_value": "0",
+      "script": "ReceptionGate_EventScript_LeagueCheck"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 2,
+      "elevation": 3,
+      "var": "VAR_TEMP_5",
+      "var_value": "0",
+      "script": "ReceptionGate_EventScript_LeagueCheck"
     }
   ],
   "bg_events": [],

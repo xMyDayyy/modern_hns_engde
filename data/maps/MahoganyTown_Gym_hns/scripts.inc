@@ -89,6 +89,8 @@ MahoganyTown_Gym_EventScript_PryceVictory::
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox MahoganyTown_Gym_Text_GlacierBadgeSpeech, MSGBOX_DEFAULT
+	setvar VAR_0x8004, 6
+	special SetJohtoBadge
 	setflag FLAG_BADGE07_GET
 	setflag FLAG_DEFEATED_MAHOGANY_TOWN_GYM
     addvar VAR_NUM_BADGES, 1

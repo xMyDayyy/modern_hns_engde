@@ -711,6 +711,9 @@ gSpecials::
 	def_special SetHoennBadge
 	def_special CountHoennBadges
 	def_special CheckHoennBadge
+	def_special SetJohtoBadge
+	def_special CountJohtoBadges
+	def_special CheckJohtoBadge
 	def_special SetHoennLicense
 	def_special CheckHoennLicense
 	def_special CheckItemHandoverPointless
