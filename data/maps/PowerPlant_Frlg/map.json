@@ -1,7 +1,7 @@
 {
   "id": "MAP_POWER_PLANT",
   "name": "PowerPlant_Frlg",
-  "game_version": "frlg",
+  "game_version": "hns",
   "layout": "LAYOUT_POWER_PLANT",
   "music": "MUS_RG_POKE_MANSION",
   "region": "REGION_KANTO",

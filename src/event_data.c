@@ -53,6 +53,8 @@ void InitEventData(void)
 {
     memset(gSaveBlock1Ptr->flags, 0, sizeof(gSaveBlock1Ptr->flags));
     memset(gSaveBlock1Ptr->vars, 0, sizeof(gSaveBlock1Ptr->vars));
+    memset(gSaveBlock3Ptr->varsFrlg, 0, sizeof(gSaveBlock3Ptr->varsFrlg));
+    memset(gSaveBlock3Ptr->flagsFrlg, 0, sizeof(gSaveBlock3Ptr->flagsFrlg));
     memset(sSpecialFlags, 0, sizeof(sSpecialFlags));
 }
 
@@ -191,6 +193,8 @@ u16 *GetVarPointer(u16 id)
 {
     if (id < VARS_START)
         return NULL;
+    else if (id >= FRLG_VARS_START && id <= FRLG_VARS_END)
+        return &gSaveBlock3Ptr->varsFrlg[id - FRLG_VARS_START];
     else if (id < SPECIAL_VARS_START)
         return &gSaveBlock1Ptr->vars[id - VARS_START];
 #if TESTING
@@ -235,6 +239,8 @@ u8 *GetFlagPointer(u16 id)
 {
     if (id == 0)
         return NULL;
+    else if (id >= FRLG_FLAGS_START && id <= FRLG_FLAGS_END)
+        return &gSaveBlock3Ptr->flagsFrlg[(id - FRLG_FLAGS_START) / 8];
     else if (id < SPECIAL_FLAGS_START)
         return &gSaveBlock1Ptr->flags[id / 8];
 #if TESTING

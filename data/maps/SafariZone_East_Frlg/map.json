@@ -1,7 +1,7 @@
 {
   "id": "MAP_SAFARI_ZONE_EAST",
   "name": "SafariZone_East_Frlg",
-  "game_version": "frlg",
+  "game_version": "hns",
   "layout": "LAYOUT_SAFARI_ZONE_EAST",
   "music": "MUS_EVOLUTION",
   "region": "REGION_KANTO",

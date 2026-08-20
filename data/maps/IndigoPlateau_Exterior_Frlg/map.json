@@ -12,13 +12,7 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [
-    {
-      "map": "MAP_ROUTE23",
-      "offset": 0,
-      "direction": "down"
-    }
-  ],
+  "connections": [],
   "object_events": [
     {
       "local_id": "LOCALID_CREDITS_RIVAL",
@@ -61,6 +55,6 @@
   "coord_events": [],
   "bg_events": [],
   "floor_number": 0,
-  "game_version": "frlg",
+  "game_version": "hns",
   "region": "REGION_KANTO"
 }

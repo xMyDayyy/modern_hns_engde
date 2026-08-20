@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE24",
   "name": "Route24_Frlg",
-  "game_version": "frlg",
+  "game_version": "hns",
   "layout": "LAYOUT_ROUTE24",
   "music": "MUS_RG_ROUTE24",
   "region": "REGION_KANTO",

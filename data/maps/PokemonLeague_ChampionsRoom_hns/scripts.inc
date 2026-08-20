@@ -1,9 +1,9 @@
 PokemonLeague_ChampionsRoom_hns_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, ChampionRoom_OnFrame
-	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_ChampionsRoom_OnResume
+	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_ChampionsRoom_OnResume_Hns
 	.byte 0
 
-PokemonLeague_ChampionsRoom_OnResume::
+PokemonLeague_ChampionsRoom_OnResume_Hns::
 	setvar VAR_0x8004, 4
 	special DoPokemonLeagueLightingEffect
 	end
@@ -87,12 +87,12 @@ PokemonLeague_WillsRoom_EventScript_LanceOnDefeatJohto::
 	waitmovement 0
 	msgbox PokemonLeague_ChampionsRoom_Text_MaryOhNoOak, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_LEAGUE_OAK, PokemonLeague_ChampionsRoom_Movement_OakEnter
+	applymovement LOCALID_LEAGUE_OAK, PokemonLeague_ChampionsRoom_Movement_OakEnter_Hns
 	delay 60
 	applymovement LOCALID_LEAGUE_MARY, PokemonLeague_ChampionsRoom_Movement_MaryMoveOver
 	waitmovement LOCALID_LEAGUE_MARY
 	waitmovement LOCALID_LEAGUE_OAK
-	msgbox PokemonLeague_ChampionsRoom_Text_OakCongratulations, MSGBOX_DEFAULT
+	msgbox PokemonLeague_ChampionsRoom_Text_OakCongratulations_Hns, MSGBOX_DEFAULT
 	applymovement LOCALID_LEAGUE_MARY, PokemonLeague_ChampionsRoom_Movement_MaryInterview
 	waitmovement 0
 	msgbox PokemonLeague_ChampionsRoom_Text_MaryInterview, MSGBOX_DEFAULT
@@ -157,7 +157,7 @@ PokemonLeague_WillsRoom_EventScript_LanceOnDefeatKanto::
 	waitmovement 0
 	msgbox PokemonLeague_ChampionsRoom_Text_MaryOhNoOak, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_LEAGUE_OAK, PokemonLeague_ChampionsRoom_Movement_OakEnter
+	applymovement LOCALID_LEAGUE_OAK, PokemonLeague_ChampionsRoom_Movement_OakEnter_Hns
 	delay 60
 	applymovement LOCALID_LEAGUE_MARY, PokemonLeague_ChampionsRoom_Movement_MaryMoveOver
 	waitmovement LOCALID_LEAGUE_MARY
@@ -257,7 +257,7 @@ PokemonLeague_ChampionsRoom_Movement_MaryMoveOver:
 	face_right
 	step_end
 
-PokemonLeague_ChampionsRoom_Movement_OakEnter:
+PokemonLeague_ChampionsRoom_Movement_OakEnter_Hns:
 	walk_up
 	walk_up
 	walk_up
@@ -425,7 +425,7 @@ PokemonLeague_ChampionsRoom_Text_MaryOhNoOak:
     .string "PROF.OAK, if you weren't so slow…$"
 #endif
 
-PokemonLeague_ChampionsRoom_Text_OakCongratulations:
+PokemonLeague_ChampionsRoom_Text_OakCongratulations_Hns:
 #if GERMAN
 	.string "Prof. Eich: Ah, {PLAYER}!\p"
 	.string "Es ist lange her.\p"

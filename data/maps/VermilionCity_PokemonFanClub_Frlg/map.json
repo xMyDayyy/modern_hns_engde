@@ -1,7 +1,7 @@
 {
   "id": "MAP_VERMILION_CITY_POKEMON_FAN_CLUB",
   "name": "VermilionCity_PokemonFanClub_Frlg",
-  "game_version": "frlg",
+  "game_version": "hns",
   "layout": "LAYOUT_VERMILION_CITY_POKEMON_FAN_CLUB",
   "music": "MUS_RG_VERMILLION",
   "region": "REGION_KANTO",

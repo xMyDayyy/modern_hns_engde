@@ -1,8 +1,8 @@
 PokemonLeague_HallOfFame_hns_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_HallOfFame_OnFrame
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_HallOfFame_OnFrame_Hns
 	.byte 0
 
-PokemonLeague_HallOfFame_OnFrame::
+PokemonLeague_HallOfFame_OnFrame_Hns::
 	map_script_2 VAR_LEAGUE_STATE, 6, PokemonLeague_HallOfFame_EventScript_Cutscene
 	.2byte 0
 

@@ -362,6 +362,9 @@ struct SaveBlock3
     // Ans Struct-Ende angehaengt = save-vertraeglich; das Budget sichert
     // der STATIC_ASSERT in src/save.c.
     u8 nuzlockeEncounterFlagsHoenn[16];
+    // Kanto-Merge: FRLG-Vars liegen hier, weil SaveBlock1 voll ist.
+    u16 varsFrlg[FRLG_VARS_COUNT];
+    u8 flagsFrlg[FRLG_NUM_FLAG_BYTES];
 #endif
 }; /* max size 1624 bytes */
 

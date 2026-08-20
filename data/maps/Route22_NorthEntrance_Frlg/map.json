@@ -1,7 +1,7 @@
 {
   "id": "MAP_ROUTE22_NORTH_ENTRANCE",
   "name": "Route22_NorthEntrance_Frlg",
-  "game_version": "frlg",
+  "game_version": "hns",
   "layout": "LAYOUT_ROUTE22_NORTH_ENTRANCE",
   "music": "MUS_RG_VIRIDIAN_FOREST",
   "region": "REGION_KANTO",
@@ -37,29 +37,29 @@
       "x": 7,
       "y": 1,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE23",
-      "dest_warp_id": "2"
+      "dest_map": "MAP_RECEPTION_GATE_HNS",
+      "dest_warp_id": "1"
     },
     {
       "x": 6,
       "y": 10,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE22",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_RECEPTION_GATE_HNS",
+      "dest_warp_id": "1"
     },
     {
       "x": 7,
       "y": 10,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE22",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_RECEPTION_GATE_HNS",
+      "dest_warp_id": "1"
     },
     {
       "x": 8,
       "y": 10,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE22",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_RECEPTION_GATE_HNS",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

@@ -1,7 +1,7 @@
 {
   "id": "MAP_SAFFRON_CITY",
   "name": "SaffronCity_Frlg",
-  "game_version": "frlg",
+  "game_version": "hns",
   "layout": "LAYOUT_SAFFRON_CITY",
   "music": "MUS_RG_PEWTER",
   "region": "REGION_KANTO",

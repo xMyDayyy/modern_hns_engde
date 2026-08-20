@@ -329,6 +329,7 @@
 
 #if defined(POKEMON_HNS)
 #include "constants/vars_hoenn_de.h"
+#include "constants/vars_frlg_hns.h"
 #endif
 
 #if TESTING

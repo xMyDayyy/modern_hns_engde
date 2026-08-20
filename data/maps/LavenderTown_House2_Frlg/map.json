@@ -1,7 +1,7 @@
 {
   "id": "MAP_LAVENDER_TOWN_HOUSE2",
   "name": "LavenderTown_House2_Frlg",
-  "game_version": "frlg",
+  "game_version": "hns",
   "layout": "LAYOUT_HOUSE5_FRLG",
   "music": "MUS_RG_FUCHSIA",
   "region": "REGION_KANTO",

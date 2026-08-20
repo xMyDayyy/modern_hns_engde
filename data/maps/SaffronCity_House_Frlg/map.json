@@ -1,7 +1,7 @@
 {
   "id": "MAP_SAFFRON_CITY_HOUSE",
   "name": "SaffronCity_House_Frlg",
-  "game_version": "frlg",
+  "game_version": "hns",
   "layout": "LAYOUT_HOUSE5_FRLG",
   "music": "MUS_RG_PEWTER",
   "region": "REGION_KANTO",

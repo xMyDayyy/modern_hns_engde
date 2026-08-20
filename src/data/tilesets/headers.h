@@ -844,7 +844,8 @@ const struct Tileset gTileset_UnionRoom =
     .callback = NULL,
 };
 
-#elif IS_FRLG
+#endif
+#if IS_FRLG || IS_HNS
 
 // FRLG tilesets
 const struct Tileset gTileset_BuildingFrlg =

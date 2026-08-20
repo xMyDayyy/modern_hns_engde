@@ -24,8 +24,8 @@
       "direction": "down"
     },
     {
-      "map": "MAP_ROUTE22",
-      "offset": 10,
+      "map": "MAP_ROUTE22_HNS",
+      "offset": 6,
       "direction": "left"
     }
   ],
@@ -270,6 +270,6 @@
     }
   ],
   "floor_number": 0,
-  "game_version": "frlg",
+  "game_version": "hns",
   "region": "REGION_KANTO"
 }

@@ -1,15 +1,15 @@
 PokemonLeague_BrunosRoom_hns_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, EliteFourRoom_OnFrame
-	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_BrunosRoom_OnResume
+	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_BrunosRoom_OnResume_Hns
 	map_script MAP_SCRIPT_ON_LOAD, EliteFourRoom_OnLoad
 	.byte 0
 
-PokemonLeague_BrunosRoom_OnResume::
+PokemonLeague_BrunosRoom_OnResume_Hns::
 	setvar VAR_0x8004, 2
 	special DoPokemonLeagueLightingEffect
 	end
 
-PokemonLeague_BrunosRoom_EventScript_Bruno::
+PokemonLeague_BrunosRoom_EventScript_Bruno_Hns::
 	lock
 	faceplayer
 	goto_if_ge VAR_LEAGUE_STATE, 4, PokemonLeague_BrunosRoom_EventScript_BrunoDefeated
@@ -29,7 +29,7 @@ PokemonLeague_BrunosRoom_EventScript_BrunoRematch::
 
 PokemonLeague_BrunosRoom_EventScript_BrunoOnDefeat::
 	clearflag FLAG_TEMP_5
-	msgbox PokemonLeague_BrunosRoom_Text_Defeat, MSGBOX_DEFAULT
+	msgbox PokemonLeague_BrunosRoom_Text_Defeat_Hns, MSGBOX_DEFAULT
 	closemessage
 	setmetatile 6, 1, 0x28E, FALSE
 	setmetatile 6, 2, 0x296, FALSE
@@ -46,7 +46,7 @@ PokemonLeague_BrunosRoom_EventScript_BrunoOnDefeat::
 	end
 
 PokemonLeague_BrunosRoom_EventScript_BrunoDefeated::
-	msgbox PokemonLeague_BrunosRoom_Text_Defeat, MSGBOX_DEFAULT
+	msgbox PokemonLeague_BrunosRoom_Text_Defeat_Hns, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
@@ -110,7 +110,7 @@ PokemonLeague_BrunosRoom_Text_Beaten:
     .string "Why? How could we lose?$"
 #endif
 
-PokemonLeague_BrunosRoom_Text_Defeat:
+PokemonLeague_BrunosRoom_Text_Defeat_Hns:
 #if GERMAN
 	.string "Nach dieser Niederlage habe ich\n"
 	.string "kein Recht mehr zu reden…\p"

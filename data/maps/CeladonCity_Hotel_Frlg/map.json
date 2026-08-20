@@ -1,7 +1,7 @@
 {
   "id": "MAP_CELADON_CITY_HOTEL",
   "name": "CeladonCity_Hotel_Frlg",
-  "game_version": "frlg",
+  "game_version": "hns",
   "layout": "LAYOUT_CELADON_CITY_HOTEL",
   "music": "MUS_RG_CELADON",
   "region": "REGION_KANTO",
