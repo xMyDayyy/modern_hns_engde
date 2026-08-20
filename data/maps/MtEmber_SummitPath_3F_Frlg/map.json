@@ -1,7 +1,7 @@
 {
   "id": "MAP_MT_EMBER_SUMMIT_PATH_3F",
   "name": "MtEmber_SummitPath_3F_Frlg",
-  "game_version": "hns",
+  "game_version": "frlg_sevii_retired",
   "layout": "LAYOUT_MT_EMBER_SUMMIT_PATH_3F",
   "music": "MUS_RG_SEVII_CAVE",
   "region": "REGION_KANTO",

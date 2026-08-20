@@ -5502,7 +5502,7 @@
       "blockdata_filepath": "data/layouts/House3_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -5572,7 +5572,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_ResortGorgeous_House_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -5670,7 +5670,7 @@
       "blockdata_filepath": "data/layouts/FourIsland_LoreleisHouse_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -5684,7 +5684,7 @@
       "blockdata_filepath": "data/layouts/ThreeIsland_House1_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8036,7 +8036,7 @@
       "blockdata_filepath": "data/layouts/OneIsland_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8050,7 +8050,7 @@
       "blockdata_filepath": "data/layouts/TwoIsland_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8064,7 +8064,7 @@
       "blockdata_filepath": "data/layouts/ThreeIsland_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8078,7 +8078,7 @@
       "blockdata_filepath": "data/layouts/FourIsland_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8092,7 +8092,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8106,7 +8106,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8120,7 +8120,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8134,7 +8134,7 @@
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8148,7 +8148,7 @@
       "blockdata_filepath": "data/layouts/OneIsland_TreasureBeach_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8162,7 +8162,7 @@
       "blockdata_filepath": "data/layouts/TwoIsland_CapeBrink_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8176,7 +8176,7 @@
       "blockdata_filepath": "data/layouts/ThreeIsland_BondBridge_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8190,7 +8190,7 @@
       "blockdata_filepath": "data/layouts/ThreeIsland_Port_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8260,7 +8260,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_ResortGorgeous_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8274,7 +8274,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_WaterLabyrinth_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8288,7 +8288,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_Meadow_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8302,7 +8302,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_MemorialPillar_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8316,7 +8316,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_OutcastIsland_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8330,7 +8330,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_GreenPath_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8344,7 +8344,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_WaterPath_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8358,7 +8358,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_RuinValley_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8372,7 +8372,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_TrainerTower_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8386,7 +8386,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_SevaultCanyon_Entrance_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8400,7 +8400,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_SevaultCanyon_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8414,7 +8414,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_TanobyRuins_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8526,7 +8526,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_House_Room2_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8582,7 +8582,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_RubyPath_B4F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8596,7 +8596,7 @@
       "blockdata_filepath": "data/layouts/ThreeIsland_BerryForest_Frlg/map.bin",
       "border_height": 2,
       "border_width": 3,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8610,7 +8610,7 @@
       "blockdata_filepath": "data/layouts/OneIsland_PokemonCenter_1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8624,7 +8624,7 @@
       "blockdata_filepath": "data/layouts/TwoIsland_JoyfulGameCorner_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8694,7 +8694,7 @@
       "blockdata_filepath": "data/layouts/FourIsland_PokemonDayCare_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8736,7 +8736,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_Exterior_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8750,7 +8750,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_Summit_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8764,7 +8764,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_SummitPath_1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8778,7 +8778,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_SummitPath_2F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8792,7 +8792,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_SummitPath_3F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8806,7 +8806,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_RubyPath_1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8820,7 +8820,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_RubyPath_B1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8834,7 +8834,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_RubyPath_B2F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8848,7 +8848,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_RubyPath_B3F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8862,7 +8862,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_RubyPath_B1F_Stairs_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8876,7 +8876,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_RubyPath_B2F_Stairs_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8890,7 +8890,7 @@
       "blockdata_filepath": "data/layouts/MtEmber_RubyPath_B5F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8904,7 +8904,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_RocketWarehouse_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8918,7 +8918,7 @@
       "blockdata_filepath": "data/layouts/FourIsland_IcefallCave_Entrance_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8932,7 +8932,7 @@
       "blockdata_filepath": "data/layouts/FourIsland_IcefallCave_1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8946,7 +8946,7 @@
       "blockdata_filepath": "data/layouts/FourIsland_IcefallCave_B1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8960,7 +8960,7 @@
       "blockdata_filepath": "data/layouts/FourIsland_IcefallCave_Back_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8974,7 +8974,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_Lobby_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -8988,7 +8988,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9002,7 +9002,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_2F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9016,7 +9016,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_3F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9030,7 +9030,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_4F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9044,7 +9044,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_5F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9058,7 +9058,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_6F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9072,7 +9072,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_7F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9086,7 +9086,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_8F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9100,7 +9100,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_Roof_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9114,7 +9114,7 @@
       "blockdata_filepath": "data/layouts/TrainerTower_Elevator_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9142,7 +9142,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_DottedHole_1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9156,7 +9156,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_DottedHole_B1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9170,7 +9170,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_DottedHole_B2F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9184,7 +9184,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_DottedHole_B3F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9198,7 +9198,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_DottedHole_B4F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9212,7 +9212,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_DottedHole_SapphireRoom_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9226,7 +9226,7 @@
       "blockdata_filepath": "data/layouts/Island_Harbor_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9240,7 +9240,7 @@
       "blockdata_filepath": "data/layouts/OneIsland_PokemonCenter_2F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9254,7 +9254,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_PatternBush_Frlg/map.bin",
       "border_height": 2,
       "border_width": 3,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9268,7 +9268,7 @@
       "blockdata_filepath": "data/layouts/ThreeIsland_DunsparceTunnel_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9296,7 +9296,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Entrance_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9310,7 +9310,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room1_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9324,7 +9324,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room2_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9338,7 +9338,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room3_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9352,7 +9352,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room4_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9366,7 +9366,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room5_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9380,7 +9380,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room6_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9394,7 +9394,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room7_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9408,7 +9408,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room8_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9422,7 +9422,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room9_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9436,7 +9436,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room10_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9450,7 +9450,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room11_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9464,7 +9464,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room12_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9478,7 +9478,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room13_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9492,7 +9492,7 @@
       "blockdata_filepath": "data/layouts/FiveIsland_LostCave_Room14_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9506,7 +9506,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_TanobyRuins_MoneanChamber_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9520,7 +9520,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_TanobyRuins_LiptooChamber_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9534,7 +9534,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_TanobyRuins_WeepthChamber_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9548,7 +9548,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_TanobyRuins_DilfordChamber_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9562,7 +9562,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_TanobyRuins_ScufibChamber_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9576,7 +9576,7 @@
       "blockdata_filepath": "data/layouts/SixIsland_AlteringCave_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9590,7 +9590,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_SevaultCanyon_TanobyKey_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9604,7 +9604,7 @@
       "blockdata_filepath": "data/layouts/BirthIsland_Exterior_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9618,7 +9618,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_Exterior_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9632,7 +9632,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9646,7 +9646,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_Summit_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9660,7 +9660,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_Base_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9674,7 +9674,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_SummitPath_2F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9688,7 +9688,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_SummitPath_3F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9702,7 +9702,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_SummitPath_4F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9716,7 +9716,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_SummitPath_5F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9730,7 +9730,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9744,7 +9744,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B2F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9758,7 +9758,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B3F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9772,7 +9772,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B4F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9786,7 +9786,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B5F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9800,7 +9800,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B6F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9814,7 +9814,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B7F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9828,7 +9828,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B8F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9842,7 +9842,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B9F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9856,7 +9856,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B10F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9870,7 +9870,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_BasePath_B11F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9884,7 +9884,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_TanobyRuins_RixyChamber_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9898,7 +9898,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_TanobyRuins_ViapoisChamber_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9912,7 +9912,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_B1F_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -9926,7 +9926,7 @@
       "blockdata_filepath": "data/layouts/NavelRock_Fork_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -10164,7 +10164,7 @@
       "blockdata_filepath": "data/layouts/SevenIsland_House_Room1_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
@@ -10178,7 +10178,7 @@
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/map.bin",
       "border_height": 2,
       "border_width": 2,
-      "game_version": "hns",
+      "game_version": "frlg_sevii_retired",
       "layout_version": "frlg"
     },
     {
