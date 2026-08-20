@@ -681,6 +681,7 @@ PewterCity_EventScript_RunningShoesAideTriggerBottom::
 	end
 
 PewterCity_EventScript_AideGiveRunningShoes::
+	goto_if_set FLAG_SYS_B_DASH, PewterCity_EventScript_AideAlreadyHasShoes
 	textcolor NPC_TEXT_COLOR_MALE
 	call_if_eq VAR_TEMP_1, 1, PewterCity_EventScript_AideNoticePlayer
 	call_if_eq VAR_TEMP_1, 2, PewterCity_EventScript_AideNoticePlayer
@@ -1131,3 +1132,8 @@ PewterCity_Text_RunningShoesLetterFromMom::
 	.string "From Mom$"
 #endif
 
+@ Kanto-Merge: Die Turbotreter kommen bereits von der Mutter in Alabastia.
+PewterCity_EventScript_AideAlreadyHasShoes::
+	setflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
+	removeobject LOCALID_PEWTER_AIDE
+	return

@@ -4,6 +4,7 @@ PalletTown_PlayersHouse_1F_Frlg_MapScripts::
 PalletTown_PlayersHouse_1F_EventScript_Mom::
 	lock
 	faceplayer
+	goto_if_unset FLAG_SYS_B_DASH, PalletTown_PlayersHouse_1F_EventScript_MomGiveRunningShoes
 	goto_if_set FLAG_BEAT_RIVAL_IN_OAKS_LAB, PalletTown_PlayersHouse_1F_EventScript_MomHeal
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouMale
@@ -135,4 +136,51 @@ PalletTown_PlayersHouse_1F_Text_OopsWrongSide::
 	.string "Ups, falsche Richtung!$"
 #else
 	.string "Oops, wrong side…$"
+#endif
+
+@ Kanto-Merge: Turbotreter kommen von der Mutter statt vom Eich-Assistenten
+@ in Marmoria. Der Assistent dort prueft ebenfalls FLAG_SYS_B_DASH und
+@ ueberspringt sich damit selbst.
+PalletTown_PlayersHouse_1F_EventScript_MomGiveRunningShoes::
+	msgbox PalletTown_PlayersHouse_1F_Text_MomRunningShoes
+	playfanfare MUS_RG_OBTAIN_KEY_ITEM
+	message PalletTown_PlayersHouse_1F_Text_ReceivedRunningShoes
+	waitmessage
+	waitfanfare
+	setflag FLAG_SYS_B_DASH
+	msgbox PalletTown_PlayersHouse_1F_Text_MomExplainRunningShoes
+	closemessage
+	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+PalletTown_PlayersHouse_1F_Text_MomRunningShoes:
+#if GERMAN
+	.string "Warte, {PLAYER}! Bevor du losziehst …\p"
+	.string "Hier, nimm die mit. Damit kommst du\n"
+	.string "schneller voran.$"
+#else
+	.string "Wait, {PLAYER}! Before you go…\p"
+	.string "Here, take these. They'll get you\n"
+	.string "around a lot faster.$"
+#endif
+
+PalletTown_PlayersHouse_1F_Text_ReceivedRunningShoes:
+#if GERMAN
+	.string "{PLAYER} erhält die\n"
+	.string "TURBOTRETER!$"
+#else
+	.string "{PLAYER} received the\n"
+	.string "RUNNING SHOES!$"
+#endif
+
+PalletTown_PlayersHouse_1F_Text_MomExplainRunningShoes:
+#if GERMAN
+	.string "Halt einfach B gedrückt, während du\n"
+	.string "läufst.\p"
+	.string "Und pass auf dich auf, hörst du?$"
+#else
+	.string "Just hold down B while you walk.\p"
+	.string "And do take care of yourself, hear?$"
 #endif
