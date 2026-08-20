@@ -450,6 +450,12 @@
 
 #define FRLG_FLAGS_END (FRLG_FLAGS_START + 0xDA)
 
+// Kanto-Merge: Mutter hat nach dem Rivalennamen gefragt.
+#define FLAG_RIVAL_NAMED_BY_MOM (FRLG_FLAGS_START + 0xDB)
+
+#undef  FRLG_FLAGS_END
+#define FRLG_FLAGS_END (FRLG_FLAGS_START + 0xDB)
+
 #define FRLG_NUM_FLAG_BYTES (((FRLG_FLAGS_END - FRLG_FLAGS_START + 1) + 7) / 8)
 
 #endif // GUARD_CONSTANTS_FLAGS_FRLG_HNS_H

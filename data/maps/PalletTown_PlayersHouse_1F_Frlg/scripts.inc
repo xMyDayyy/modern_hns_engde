@@ -4,6 +4,7 @@ PalletTown_PlayersHouse_1F_Frlg_MapScripts::
 PalletTown_PlayersHouse_1F_EventScript_Mom::
 	lock
 	faceplayer
+	goto_if_unset FLAG_RIVAL_NAMED_BY_MOM, PalletTown_PlayersHouse_1F_EventScript_MomAskRivalName
 	goto_if_unset FLAG_SYS_B_DASH, PalletTown_PlayersHouse_1F_EventScript_MomGiveRunningShoes
 	goto_if_set FLAG_BEAT_RIVAL_IN_OAKS_LAB, PalletTown_PlayersHouse_1F_EventScript_MomHeal
 	checkplayergender
@@ -183,4 +184,37 @@ PalletTown_PlayersHouse_1F_Text_MomExplainRunningShoes:
 #else
 	.string "Just hold down B while you walk.\p"
 	.string "And do take care of yourself, hear?$"
+#endif
+
+@ Kanto-Merge: Der Rivale wird sonst nirgends benannt (das passierte in FRLG
+@ in Eichs Eroeffnungsrede, die unter HnS nicht laeuft). Die Mutter fragt
+@ danach, dann kommen die Turbotreter.
+PalletTown_PlayersHouse_1F_EventScript_MomAskRivalName::
+	msgbox PalletTown_PlayersHouse_1F_Text_MomAskRivalName
+	closemessage
+	special NameRival
+	waitstate
+	setflag FLAG_RIVAL_NAMED_BY_MOM
+	msgbox PalletTown_PlayersHouse_1F_Text_MomRivalNameConfirm
+	goto PalletTown_PlayersHouse_1F_EventScript_MomGiveRunningShoes
+	end
+
+PalletTown_PlayersHouse_1F_Text_MomAskRivalName:
+#if GERMAN
+	.string "Ach richtig, Professor Eichs Enkel\n"
+	.string "war doch vorhin schon hier.\p"
+	.string "Wie hieß der Nachbarsjunge nochmal?$"
+#else
+	.string "Oh right, PROF. OAK's grandson\n"
+	.string "stopped by earlier.\p"
+	.string "What was that boy's name again?$"
+#endif
+
+PalletTown_PlayersHouse_1F_Text_MomRivalNameConfirm:
+#if GERMAN
+	.string "{RIVAL}, natürlich! Ihr zwei wart\n"
+	.string "schon als Kleinkinder unzertrennlich.$"
+#else
+	.string "{RIVAL}, of course! You two have been\n"
+	.string "inseparable since you were toddlers.$"
 #endif
