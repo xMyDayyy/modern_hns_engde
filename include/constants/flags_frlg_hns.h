@@ -1312,6 +1312,15 @@
 #undef  FRLG_FLAGS_END
 #define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B3)
 
+
+// Kanto-Merge: Wird beim ersten Betreten von Route 26 Nord gesetzt und
+// schaltet die Regionskarte von Kanto auf die kombinierte JK-Karte um.
+
+#define FLAG_VISITED_JOHTO                       (FRLG_FLAGS_START+0x1B3)
+
+#undef  FRLG_FLAGS_END
+#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B3)
+
 #define FRLG_NUM_FLAG_BYTES (((FRLG_FLAGS_END - FRLG_FLAGS_START + 1) + 7) / 8)
 
 #endif // GUARD_CONSTANTS_FLAGS_FRLG_HNS_H

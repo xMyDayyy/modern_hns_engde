@@ -582,7 +582,8 @@ static bool32 TryFreeTempTileDataBuffers(void)
 
 static const struct WindowTemplate *GetMapSecInfoWindowTemplate(u32 region)
 {
-    if (FlagGet(FLAG_VISITED_KANTO) && region != REGION_MAP_HOENN)
+    // Kanto-Merge: Das rechte Infofenster gehoert zur breiten JK-Karte.
+    if (FlagGet(FLAG_VISITED_JOHTO) && region != REGION_MAP_HOENN)
         return &sMapSecInfoWindowTemplate_Right;
     return &sMapSecInfoWindowTemplate;
 }

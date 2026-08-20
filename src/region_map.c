@@ -1226,14 +1226,14 @@ static u8 ProcessRegionMapInput_Full(void)
 
         if (hoennKnown && JOY_NEW(SELECT_BUTTON))
             return StartRegionMapViewSwitch(viewingHoenn
-                ? (FlagGet(FLAG_VISITED_KANTO) ? REGION_MAP_JK : REGION_MAP_JOHTO)
+                ? (FlagGet(FLAG_VISITED_JOHTO) ? REGION_MAP_JK : REGION_MAP_KANTO)
                 : REGION_MAP_HOENN);
         if (hoennKnown && !viewingHoenn
          && JOY_HELD(DPAD_DOWN) && sRegionMap->cursorPosY >= MAPCURSOR_Y_MAX)
             return StartRegionMapViewSwitch(REGION_MAP_HOENN);
         if (viewingHoenn
          && JOY_HELD(DPAD_UP) && sRegionMap->cursorPosY <= MAPCURSOR_Y_MIN)
-            return StartRegionMapViewSwitch(FlagGet(FLAG_VISITED_KANTO) ? REGION_MAP_JK : REGION_MAP_JOHTO);
+            return StartRegionMapViewSwitch(FlagGet(FLAG_VISITED_JOHTO) ? REGION_MAP_JK : REGION_MAP_KANTO);
     }
 #endif
     u8 input;
@@ -1558,9 +1558,11 @@ enum RegionMapType GetRegionMapType(u32 mapSecId)
     // Cursor-Koordinaten und Fly-Ziele sind bereits verdrahtet).
     if (IsHoennMapsec(mapSecId))
         return REGION_MAP_HOENN;
-    if (FlagGet(FLAG_VISITED_KANTO))
+    // Kanto-Merge: Kanto ist die Startregion. Erst wenn der Spieler Johto
+    // betreten hat, wird auf die kombinierte Karte umgeschaltet.
+    if (FlagGet(FLAG_VISITED_JOHTO))
         return REGION_MAP_JK;
-    return REGION_MAP_JOHTO;
+    return REGION_MAP_KANTO;
 #else
     switch (GetRegionForSectionId(mapSecId))
     {
@@ -1699,9 +1701,9 @@ static mapsec_u16_t GetMapSecIdAt(u16 x, u16 y)
 #if IS_HNS
     if (GetViewedRegionMapType() == REGION_MAP_HOENN)
         return sRegionMap_MapSectionLayout[y][x];
-    if (FlagGet(FLAG_VISITED_KANTO))
+    if (FlagGet(FLAG_VISITED_JOHTO))
         return sRegionMapSections_JK[y][x];
-    return sRegionMapSections_Johto[y][x];
+    return sRegionMapSections_Kanto[y][x];
 #else
     switch (GetCurrentRegion())
     {
