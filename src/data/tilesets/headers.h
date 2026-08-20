@@ -281,6 +281,19 @@ const struct Tileset gTileset_Lab_Frlg =
     .callback = NULL,
 };
 
+// Kanto-Merge: Fassung mit FRLG-Attributen fuer die FRLG-Karten.
+// Gleiche Tiles/Paletten/Metatiles, nur andere Attributtabelle.
+const struct Tileset gTileset_Lab_Frlg_V4 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Lab_Frlg,
+    .palettes = gTilesetPalettes_Lab_Frlg,
+    .metatiles = gMetatiles_Lab_Frlg,
+    .metatileAttributes = gMetatileAttributes_Lab_Frlg_V4,
+    .callback = NULL,
+};
+
 #if !IS_FRLG
 
 const struct Tileset gTileset_Petalburg =
