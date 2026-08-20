@@ -17,6 +17,7 @@
 #include "constants/rgb.h"
 #include "constants/metatile_behaviors.h"
 #include "constants/metatile_behaviors_frlg.h"
+#include "metatile_behavior_frlg.h"
 #include "wild_encounter.h"
 
 struct ConnectionFlags
@@ -473,7 +474,14 @@ u32 MapGridGetMetatileAttributeAt(s16 x, s16 y, u8 attributeType)
 
 u32 MapGridGetMetatileBehaviorAt(int x, int y)
 {
-    return MapGridGetMetatileAttributeAt(x, y, METATILE_ATTRIBUTE_BEHAVIOR);
+    u32 behavior = MapGridGetMetatileAttributeAt(x, y, METATILE_ATTRIBUTE_BEHAVIOR);
+
+    // Kanto-Merge: FRLG-Tilesets nutzen eine andere Verhaltensnummerierung.
+    // Ohne Uebersetzung waere z.B. Eis ein Staerke-Schalter.
+    if (gMapHeader.mapLayout->layoutVersion == LAYOUT_VERSION_FRLG && behavior < 256)
+        behavior = gFrlgToEmeraldMetatileBehavior[behavior];
+
+    return behavior;
 }
 
 u8 MapGridGetMetatileLayerTypeAt(int x, int y)
