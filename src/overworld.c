@@ -422,7 +422,7 @@ void Overworld_ResetStateAfterFly(void)
     FlagClear(FLAG_SYS_CYCLING_ROAD);
     FlagClear(FLAG_SYS_CRUISE_MODE);
     FlagClear(FLAG_SYS_SAFARI_MODE);
-#if IS_FRLG
+#if IS_FRLG || IS_HNS
     VarSet(VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE, 0);
 #endif
     FlagClear(FLAG_SYS_USE_STRENGTH);
@@ -435,7 +435,7 @@ void Overworld_ResetStateAfterTeleport(void)
     FlagClear(FLAG_SYS_CYCLING_ROAD);
     FlagClear(FLAG_SYS_CRUISE_MODE);
     FlagClear(FLAG_SYS_SAFARI_MODE);
-#if IS_FRLG
+#if IS_FRLG || IS_HNS
     VarSet(VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE, 0);
 #endif
     FlagClear(FLAG_SYS_USE_STRENGTH);
@@ -449,7 +449,7 @@ void Overworld_ResetStateAfterDigEscRope(void)
     FlagClear(FLAG_SYS_CYCLING_ROAD);
     FlagClear(FLAG_SYS_CRUISE_MODE);
     FlagClear(FLAG_SYS_SAFARI_MODE);
-#if IS_FRLG
+#if IS_FRLG || IS_HNS
     VarSet(VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE, 0);
 #endif
     FlagClear(FLAG_SYS_USE_STRENGTH);
@@ -486,7 +486,7 @@ static void Overworld_ResetStateAfterWhiteOut(void)
     FlagClear(FLAG_SYS_CYCLING_ROAD);
     FlagClear(FLAG_SYS_CRUISE_MODE);
     FlagClear(FLAG_SYS_SAFARI_MODE);
-#if IS_FRLG
+#if IS_FRLG || IS_HNS
     VarSet(VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE, 0);
 #endif
     FlagClear(FLAG_SYS_USE_STRENGTH);
@@ -506,7 +506,7 @@ static void Overworld_ResetStateAfterWhiteOut(void)
 static void UpdateMiscOverworldStates(void)
 {
     FlagClear(FLAG_SYS_SAFARI_MODE);
-#if IS_FRLG
+#if IS_FRLG || IS_HNS
     VarSet(VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE, 0);
 #endif
     ChooseAmbientCrySpecies();

@@ -867,12 +867,17 @@
 #define TRAINERS_COUNT_EMERALD     855
 #define MAX_TRAINERS_COUNT_EMERALD 864
 
+#if defined(POKEMON_HNS)
+#include "constants/opponents_frlg_hns.h"
+#endif
+
 #if IS_FRLG
 #define TRAINERS_COUNT                      TRAINERS_COUNT_FRLG
 #define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_FRLG
 #elif IS_HNS
-#define TRAINERS_COUNT                      TRAINERS_COUNT_HNS
-#define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_HNS
+// Kanto-Merge: FRLG-Trainer liegen hinter den HnS/Hoenn-Trainern.
+#define TRAINERS_COUNT                      (FRLG_TRAINERS_END + 1)
+#define MAX_TRAINERS_COUNT                  (FRLG_TRAINERS_END + 3)
 #else
 #define TRAINERS_COUNT                      TRAINERS_COUNT_EMERALD
 #define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_EMERALD

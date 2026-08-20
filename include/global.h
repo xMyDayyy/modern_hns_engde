@@ -365,6 +365,7 @@ struct SaveBlock3
     // Kanto-Merge: FRLG-Vars liegen hier, weil SaveBlock1 voll ist.
     u16 varsFrlg[FRLG_VARS_COUNT];
     u8 flagsFrlg[FRLG_NUM_FLAG_BYTES];
+    u8 flagsFrlgTrainers[FRLG_TRAINER_FLAG_BYTES];
 #endif
 }; /* max size 1624 bytes */
 

@@ -12,877 +12,877 @@
 #define FRLG_FLAGS_START 0x3000
 
 #undef  FLAG_BEAT_RIVAL_IN_OAKS_LAB
-#define FLAG_BEAT_RIVAL_IN_OAKS_LAB                              (FRLG_FLAGS_START + 0x0)
+#define FLAG_BEAT_RIVAL_IN_OAKS_LAB                              (FRLG_FLAGS_START+0x0)
 #undef  FLAG_BOUGHT_MAGIKARP
-#define FLAG_BOUGHT_MAGIKARP                                     (FRLG_FLAGS_START + 0x1)
+#define FLAG_BOUGHT_MAGIKARP                                     (FRLG_FLAGS_START+0x1)
 #undef  FLAG_CAN_USE_ROCKET_HIDEOUT_LIFT
-#define FLAG_CAN_USE_ROCKET_HIDEOUT_LIFT                         (FRLG_FLAGS_START + 0x2)
+#define FLAG_CAN_USE_ROCKET_HIDEOUT_LIFT                         (FRLG_FLAGS_START+0x2)
 #undef  FLAG_CINNABAR_GYM_QUIZ_1
-#define FLAG_CINNABAR_GYM_QUIZ_1                                 (FRLG_FLAGS_START + 0x3)
+#define FLAG_CINNABAR_GYM_QUIZ_1                                 (FRLG_FLAGS_START+0x3)
 #undef  FLAG_CINNABAR_GYM_QUIZ_2
-#define FLAG_CINNABAR_GYM_QUIZ_2                                 (FRLG_FLAGS_START + 0x4)
+#define FLAG_CINNABAR_GYM_QUIZ_2                                 (FRLG_FLAGS_START+0x4)
 #undef  FLAG_CINNABAR_GYM_QUIZ_3
-#define FLAG_CINNABAR_GYM_QUIZ_3                                 (FRLG_FLAGS_START + 0x5)
+#define FLAG_CINNABAR_GYM_QUIZ_3                                 (FRLG_FLAGS_START+0x5)
 #undef  FLAG_CINNABAR_GYM_QUIZ_4
-#define FLAG_CINNABAR_GYM_QUIZ_4                                 (FRLG_FLAGS_START + 0x6)
+#define FLAG_CINNABAR_GYM_QUIZ_4                                 (FRLG_FLAGS_START+0x6)
 #undef  FLAG_CINNABAR_GYM_QUIZ_5
-#define FLAG_CINNABAR_GYM_QUIZ_5                                 (FRLG_FLAGS_START + 0x7)
+#define FLAG_CINNABAR_GYM_QUIZ_5                                 (FRLG_FLAGS_START+0x7)
 #undef  FLAG_CINNABAR_GYM_QUIZ_6
-#define FLAG_CINNABAR_GYM_QUIZ_6                                 (FRLG_FLAGS_START + 0x8)
+#define FLAG_CINNABAR_GYM_QUIZ_6                                 (FRLG_FLAGS_START+0x8)
 #undef  FLAG_DEFEATED_AGATHA
-#define FLAG_DEFEATED_AGATHA                                     (FRLG_FLAGS_START + 0x9)
+#define FLAG_DEFEATED_AGATHA                                     (FRLG_FLAGS_START+0x9)
 #undef  FLAG_DEFEATED_BLAINE
-#define FLAG_DEFEATED_BLAINE                                     (FRLG_FLAGS_START + 0xA)
+#define FLAG_DEFEATED_BLAINE                                     (FRLG_FLAGS_START+0xA)
 #undef  FLAG_DEFEATED_BROCK
-#define FLAG_DEFEATED_BROCK                                      (FRLG_FLAGS_START + 0xB)
+#define FLAG_DEFEATED_BROCK                                      (FRLG_FLAGS_START+0xB)
 #undef  FLAG_DEFEATED_BRUNO
-#define FLAG_DEFEATED_BRUNO                                      (FRLG_FLAGS_START + 0xC)
+#define FLAG_DEFEATED_BRUNO                                      (FRLG_FLAGS_START+0xC)
 #undef  FLAG_DEFEATED_CHAMP
-#define FLAG_DEFEATED_CHAMP                                      (FRLG_FLAGS_START + 0xD)
+#define FLAG_DEFEATED_CHAMP                                      (FRLG_FLAGS_START+0xD)
 #undef  FLAG_DEFEATED_ERIKA
-#define FLAG_DEFEATED_ERIKA                                      (FRLG_FLAGS_START + 0xE)
+#define FLAG_DEFEATED_ERIKA                                      (FRLG_FLAGS_START+0xE)
 #undef  FLAG_DEFEATED_KOGA
-#define FLAG_DEFEATED_KOGA                                       (FRLG_FLAGS_START + 0xF)
+#define FLAG_DEFEATED_KOGA                                       (FRLG_FLAGS_START+0xF)
 #undef  FLAG_DEFEATED_LANCE
-#define FLAG_DEFEATED_LANCE                                      (FRLG_FLAGS_START + 0x10)
+#define FLAG_DEFEATED_LANCE                                      (FRLG_FLAGS_START+0x10)
 #undef  FLAG_DEFEATED_LEADER_GIOVANNI
-#define FLAG_DEFEATED_LEADER_GIOVANNI                            (FRLG_FLAGS_START + 0x11)
+#define FLAG_DEFEATED_LEADER_GIOVANNI                            (FRLG_FLAGS_START+0x11)
 #undef  FLAG_DEFEATED_LORELEI
-#define FLAG_DEFEATED_LORELEI                                    (FRLG_FLAGS_START + 0x12)
+#define FLAG_DEFEATED_LORELEI                                    (FRLG_FLAGS_START+0x12)
 #undef  FLAG_DEFEATED_LT_SURGE
-#define FLAG_DEFEATED_LT_SURGE                                   (FRLG_FLAGS_START + 0x13)
+#define FLAG_DEFEATED_LT_SURGE                                   (FRLG_FLAGS_START+0x13)
 #undef  FLAG_DEFEATED_MISTY
-#define FLAG_DEFEATED_MISTY                                      (FRLG_FLAGS_START + 0x14)
+#define FLAG_DEFEATED_MISTY                                      (FRLG_FLAGS_START+0x14)
 #undef  FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE
-#define FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE                       (FRLG_FLAGS_START + 0x15)
+#define FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE                       (FRLG_FLAGS_START+0x15)
 #undef  FLAG_DEFEATED_SABRINA
-#define FLAG_DEFEATED_SABRINA                                    (FRLG_FLAGS_START + 0x16)
+#define FLAG_DEFEATED_SABRINA                                    (FRLG_FLAGS_START+0x16)
 #undef  FLAG_DID_CH_DING_TRADE
-#define FLAG_DID_CH_DING_TRADE                                   (FRLG_FLAGS_START + 0x17)
+#define FLAG_DID_CH_DING_TRADE                                   (FRLG_FLAGS_START+0x17)
 #undef  FLAG_DID_ESPHERE_TRADE
-#define FLAG_DID_ESPHERE_TRADE                                   (FRLG_FLAGS_START + 0x18)
+#define FLAG_DID_ESPHERE_TRADE                                   (FRLG_FLAGS_START+0x18)
 #undef  FLAG_DID_MARC_TRADE
-#define FLAG_DID_MARC_TRADE                                      (FRLG_FLAGS_START + 0x19)
+#define FLAG_DID_MARC_TRADE                                      (FRLG_FLAGS_START+0x19)
 #undef  FLAG_DID_MIMIEN_TRADE
-#define FLAG_DID_MIMIEN_TRADE                                    (FRLG_FLAGS_START + 0x1A)
+#define FLAG_DID_MIMIEN_TRADE                                    (FRLG_FLAGS_START+0x1A)
 #undef  FLAG_DID_MS_NIDO_TRADE
-#define FLAG_DID_MS_NIDO_TRADE                                   (FRLG_FLAGS_START + 0x1B)
+#define FLAG_DID_MS_NIDO_TRADE                                   (FRLG_FLAGS_START+0x1B)
 #undef  FLAG_DID_NINA_TRADE
-#define FLAG_DID_NINA_TRADE                                      (FRLG_FLAGS_START + 0x1C)
+#define FLAG_DID_NINA_TRADE                                      (FRLG_FLAGS_START+0x1C)
 #undef  FLAG_DID_SEELOR_TRADE
-#define FLAG_DID_SEELOR_TRADE                                    (FRLG_FLAGS_START + 0x1D)
+#define FLAG_DID_SEELOR_TRADE                                    (FRLG_FLAGS_START+0x1D)
 #undef  FLAG_DID_TANGENY_TRADE
-#define FLAG_DID_TANGENY_TRADE                                   (FRLG_FLAGS_START + 0x1E)
+#define FLAG_DID_TANGENY_TRADE                                   (FRLG_FLAGS_START+0x1E)
 #undef  FLAG_DID_ZYNX_TRADE
-#define FLAG_DID_ZYNX_TRADE                                      (FRLG_FLAGS_START + 0x1F)
+#define FLAG_DID_ZYNX_TRADE                                      (FRLG_FLAGS_START+0x1F)
 #undef  FLAG_FOUGHT_ARTICUNO
-#define FLAG_FOUGHT_ARTICUNO                                     (FRLG_FLAGS_START + 0x20)
+#define FLAG_FOUGHT_ARTICUNO                                     (FRLG_FLAGS_START+0x20)
 #undef  FLAG_FOUGHT_HO_OH
-#define FLAG_FOUGHT_HO_OH                                        (FRLG_FLAGS_START + 0x21)
+#define FLAG_FOUGHT_HO_OH                                        (FRLG_FLAGS_START+0x21)
 #undef  FLAG_FOUGHT_LUGIA
-#define FLAG_FOUGHT_LUGIA                                        (FRLG_FLAGS_START + 0x22)
+#define FLAG_FOUGHT_LUGIA                                        (FRLG_FLAGS_START+0x22)
 #undef  FLAG_FOUGHT_MEWTWO
-#define FLAG_FOUGHT_MEWTWO                                       (FRLG_FLAGS_START + 0x23)
+#define FLAG_FOUGHT_MEWTWO                                       (FRLG_FLAGS_START+0x23)
 #undef  FLAG_FOUGHT_MOLTRES
-#define FLAG_FOUGHT_MOLTRES                                      (FRLG_FLAGS_START + 0x24)
+#define FLAG_FOUGHT_MOLTRES                                      (FRLG_FLAGS_START+0x24)
 #undef  FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1
-#define FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1                      (FRLG_FLAGS_START + 0x25)
+#define FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1                      (FRLG_FLAGS_START+0x25)
 #undef  FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2
-#define FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2                      (FRLG_FLAGS_START + 0x26)
+#define FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2                      (FRLG_FLAGS_START+0x26)
 #undef  FLAG_FOUGHT_ZAPDOS
-#define FLAG_FOUGHT_ZAPDOS                                       (FRLG_FLAGS_START + 0x27)
+#define FLAG_FOUGHT_ZAPDOS                                       (FRLG_FLAGS_START+0x27)
 #undef  FLAG_GOT_10_COINS_FROM_GAMBLER
-#define FLAG_GOT_10_COINS_FROM_GAMBLER                           (FRLG_FLAGS_START + 0x28)
+#define FLAG_GOT_10_COINS_FROM_GAMBLER                           (FRLG_FLAGS_START+0x28)
 #undef  FLAG_GOT_20_COINS_FROM_GAMBLER
-#define FLAG_GOT_20_COINS_FROM_GAMBLER                           (FRLG_FLAGS_START + 0x29)
+#define FLAG_GOT_20_COINS_FROM_GAMBLER                           (FRLG_FLAGS_START+0x29)
 #undef  FLAG_GOT_20_COINS_FROM_GAMBLER_2
-#define FLAG_GOT_20_COINS_FROM_GAMBLER_2                         (FRLG_FLAGS_START + 0x2A)
+#define FLAG_GOT_20_COINS_FROM_GAMBLER_2                         (FRLG_FLAGS_START+0x2A)
 #undef  FLAG_GOT_AMULET_COIN_FROM_OAKS_AIDE
-#define FLAG_GOT_AMULET_COIN_FROM_OAKS_AIDE                      (FRLG_FLAGS_START + 0x2B)
+#define FLAG_GOT_AMULET_COIN_FROM_OAKS_AIDE                      (FRLG_FLAGS_START+0x2B)
 #undef  FLAG_GOT_BICYCLE
-#define FLAG_GOT_BICYCLE                                         (FRLG_FLAGS_START + 0x2C)
+#define FLAG_GOT_BICYCLE                                         (FRLG_FLAGS_START+0x2C)
 #undef  FLAG_GOT_BIKE_VOUCHER
-#define FLAG_GOT_BIKE_VOUCHER                                    (FRLG_FLAGS_START + 0x2D)
+#define FLAG_GOT_BIKE_VOUCHER                                    (FRLG_FLAGS_START+0x2D)
 #undef  FLAG_GOT_COIN_CASE
-#define FLAG_GOT_COIN_CASE                                       (FRLG_FLAGS_START + 0x2E)
+#define FLAG_GOT_COIN_CASE                                       (FRLG_FLAGS_START+0x2E)
 #undef  FLAG_GOT_DOME_FOSSIL
-#define FLAG_GOT_DOME_FOSSIL                                     (FRLG_FLAGS_START + 0x2F)
+#define FLAG_GOT_DOME_FOSSIL                                     (FRLG_FLAGS_START+0x2F)
 #undef  FLAG_GOT_EVERSTONE_FROM_OAKS_AIDE
-#define FLAG_GOT_EVERSTONE_FROM_OAKS_AIDE                        (FRLG_FLAGS_START + 0x30)
+#define FLAG_GOT_EVERSTONE_FROM_OAKS_AIDE                        (FRLG_FLAGS_START+0x30)
 #undef  FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE
-#define FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE                        (FRLG_FLAGS_START + 0x31)
+#define FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE                        (FRLG_FLAGS_START+0x31)
 #undef  FLAG_GOT_FAME_CHECKER
-#define FLAG_GOT_FAME_CHECKER                                    (FRLG_FLAGS_START + 0x32)
+#define FLAG_GOT_FAME_CHECKER                                    (FRLG_FLAGS_START+0x32)
 #undef  FLAG_GOT_FOSSIL_FROM_MT_MOON
-#define FLAG_GOT_FOSSIL_FROM_MT_MOON                             (FRLG_FLAGS_START + 0x33)
+#define FLAG_GOT_FOSSIL_FROM_MT_MOON                             (FRLG_FLAGS_START+0x33)
 #undef  FLAG_GOT_FULL_RESTORE_FROM_THREE_ISLAND_DEFENDER
-#define FLAG_GOT_FULL_RESTORE_FROM_THREE_ISLAND_DEFENDER         (FRLG_FLAGS_START + 0x34)
+#define FLAG_GOT_FULL_RESTORE_FROM_THREE_ISLAND_DEFENDER         (FRLG_FLAGS_START+0x34)
 #undef  FLAG_GOT_GOOD_ROD
-#define FLAG_GOT_GOOD_ROD                                        (FRLG_FLAGS_START + 0x35)
+#define FLAG_GOT_GOOD_ROD                                        (FRLG_FLAGS_START+0x35)
 #undef  FLAG_GOT_HELIX_FOSSIL
-#define FLAG_GOT_HELIX_FOSSIL                                    (FRLG_FLAGS_START + 0x36)
+#define FLAG_GOT_HELIX_FOSSIL                                    (FRLG_FLAGS_START+0x36)
 #undef  FLAG_GOT_HITMON_FROM_DOJO
-#define FLAG_GOT_HITMON_FROM_DOJO                                (FRLG_FLAGS_START + 0x37)
+#define FLAG_GOT_HITMON_FROM_DOJO                                (FRLG_FLAGS_START+0x37)
 #undef  FLAG_GOT_HM01
-#define FLAG_GOT_HM01                                            (FRLG_FLAGS_START + 0x38)
+#define FLAG_GOT_HM01                                            (FRLG_FLAGS_START+0x38)
 #undef  FLAG_GOT_HM02
-#define FLAG_GOT_HM02                                            (FRLG_FLAGS_START + 0x39)
+#define FLAG_GOT_HM02                                            (FRLG_FLAGS_START+0x39)
 #undef  FLAG_GOT_HM03
-#define FLAG_GOT_HM03                                            (FRLG_FLAGS_START + 0x3A)
+#define FLAG_GOT_HM03                                            (FRLG_FLAGS_START+0x3A)
 #undef  FLAG_GOT_HM04
-#define FLAG_GOT_HM04                                            (FRLG_FLAGS_START + 0x3B)
+#define FLAG_GOT_HM04                                            (FRLG_FLAGS_START+0x3B)
 #undef  FLAG_GOT_HM05
-#define FLAG_GOT_HM05                                            (FRLG_FLAGS_START + 0x3C)
+#define FLAG_GOT_HM05                                            (FRLG_FLAGS_START+0x3C)
 #undef  FLAG_GOT_HM06
-#define FLAG_GOT_HM06                                            (FRLG_FLAGS_START + 0x3D)
+#define FLAG_GOT_HM06                                            (FRLG_FLAGS_START+0x3D)
 #undef  FLAG_GOT_ITEMFINDER
-#define FLAG_GOT_ITEMFINDER                                      (FRLG_FLAGS_START + 0x3E)
+#define FLAG_GOT_ITEMFINDER                                      (FRLG_FLAGS_START+0x3E)
 #undef  FLAG_GOT_LAPRAS_FROM_SILPH
-#define FLAG_GOT_LAPRAS_FROM_SILPH                               (FRLG_FLAGS_START + 0x3F)
+#define FLAG_GOT_LAPRAS_FROM_SILPH                               (FRLG_FLAGS_START+0x3F)
 #undef  FLAG_GOT_MASTER_BALL_FROM_SILPH
-#define FLAG_GOT_MASTER_BALL_FROM_SILPH                          (FRLG_FLAGS_START + 0x40)
+#define FLAG_GOT_MASTER_BALL_FROM_SILPH                          (FRLG_FLAGS_START+0x40)
 #undef  FLAG_GOT_MOON_STONE_FROM_JOYFUL_GAME_CORNER
-#define FLAG_GOT_MOON_STONE_FROM_JOYFUL_GAME_CORNER              (FRLG_FLAGS_START + 0x41)
+#define FLAG_GOT_MOON_STONE_FROM_JOYFUL_GAME_CORNER              (FRLG_FLAGS_START+0x41)
 #undef  FLAG_GOT_NEST_BALL_FROM_WATER_PATH_HOUSE_1
-#define FLAG_GOT_NEST_BALL_FROM_WATER_PATH_HOUSE_1               (FRLG_FLAGS_START + 0x42)
+#define FLAG_GOT_NEST_BALL_FROM_WATER_PATH_HOUSE_1               (FRLG_FLAGS_START+0x42)
 #undef  FLAG_GOT_NUGGET_FROM_DUNSPARCE_TUNNEL
-#define FLAG_GOT_NUGGET_FROM_DUNSPARCE_TUNNEL                    (FRLG_FLAGS_START + 0x43)
+#define FLAG_GOT_NUGGET_FROM_DUNSPARCE_TUNNEL                    (FRLG_FLAGS_START+0x43)
 #undef  FLAG_GOT_OLD_AMBER
-#define FLAG_GOT_OLD_AMBER                                       (FRLG_FLAGS_START + 0x44)
+#define FLAG_GOT_OLD_AMBER                                       (FRLG_FLAGS_START+0x44)
 #undef  FLAG_GOT_OLD_ROD
-#define FLAG_GOT_OLD_ROD                                         (FRLG_FLAGS_START + 0x45)
+#define FLAG_GOT_OLD_ROD                                         (FRLG_FLAGS_START+0x45)
 #undef  FLAG_GOT_POKEBALLS_FROM_OAK_AFTER_22_RIVAL
-#define FLAG_GOT_POKEBALLS_FROM_OAK_AFTER_22_RIVAL               (FRLG_FLAGS_START + 0x46)
+#define FLAG_GOT_POKEBALLS_FROM_OAK_AFTER_22_RIVAL               (FRLG_FLAGS_START+0x46)
 #undef  FLAG_GOT_POKE_FLUTE
-#define FLAG_GOT_POKE_FLUTE                                      (FRLG_FLAGS_START + 0x47)
+#define FLAG_GOT_POKE_FLUTE                                      (FRLG_FLAGS_START+0x47)
 #undef  FLAG_GOT_POTION_ON_ROUTE_1
-#define FLAG_GOT_POTION_ON_ROUTE_1                               (FRLG_FLAGS_START + 0x48)
+#define FLAG_GOT_POTION_ON_ROUTE_1                               (FRLG_FLAGS_START+0x48)
 #undef  FLAG_GOT_POWDER_JAR
-#define FLAG_GOT_POWDER_JAR                                      (FRLG_FLAGS_START + 0x49)
+#define FLAG_GOT_POWDER_JAR                                      (FRLG_FLAGS_START+0x49)
 #undef  FLAG_GOT_RECORD_SETTING_MAGIKARP
-#define FLAG_GOT_RECORD_SETTING_MAGIKARP                         (FRLG_FLAGS_START + 0x4A)
+#define FLAG_GOT_RECORD_SETTING_MAGIKARP                         (FRLG_FLAGS_START+0x4A)
 #undef  FLAG_GOT_RUBY
-#define FLAG_GOT_RUBY                                            (FRLG_FLAGS_START + 0x4B)
+#define FLAG_GOT_RUBY                                            (FRLG_FLAGS_START+0x4B)
 #undef  FLAG_GOT_SS_TICKET
-#define FLAG_GOT_SS_TICKET                                       (FRLG_FLAGS_START + 0x4C)
+#define FLAG_GOT_SS_TICKET                                       (FRLG_FLAGS_START+0x4C)
 #undef  FLAG_GOT_SS_TICKET_DUP
-#define FLAG_GOT_SS_TICKET_DUP                                   (FRLG_FLAGS_START + 0x4D)
+#define FLAG_GOT_SS_TICKET_DUP                                   (FRLG_FLAGS_START+0x4D)
 #undef  FLAG_GOT_TEA
-#define FLAG_GOT_TEA                                             (FRLG_FLAGS_START + 0x4E)
+#define FLAG_GOT_TEA                                             (FRLG_FLAGS_START+0x4E)
 #undef  FLAG_GOT_TM03_FROM_MISTY
-#define FLAG_GOT_TM03_FROM_MISTY                                 (FRLG_FLAGS_START + 0x4F)
+#define FLAG_GOT_TM03_FROM_MISTY                                 (FRLG_FLAGS_START+0x4F)
 #undef  FLAG_GOT_TM04_FROM_SABRINA
-#define FLAG_GOT_TM04_FROM_SABRINA                               (FRLG_FLAGS_START + 0x50)
+#define FLAG_GOT_TM04_FROM_SABRINA                               (FRLG_FLAGS_START+0x50)
 #undef  FLAG_GOT_TM06_FROM_KOGA
-#define FLAG_GOT_TM06_FROM_KOGA                                  (FRLG_FLAGS_START + 0x51)
+#define FLAG_GOT_TM06_FROM_KOGA                                  (FRLG_FLAGS_START+0x51)
 #undef  FLAG_GOT_TM16_FROM_THIRSTY_GIRL
-#define FLAG_GOT_TM16_FROM_THIRSTY_GIRL                          (FRLG_FLAGS_START + 0x52)
+#define FLAG_GOT_TM16_FROM_THIRSTY_GIRL                          (FRLG_FLAGS_START+0x52)
 #undef  FLAG_GOT_TM19_FROM_ERIKA
-#define FLAG_GOT_TM19_FROM_ERIKA                                 (FRLG_FLAGS_START + 0x53)
+#define FLAG_GOT_TM19_FROM_ERIKA                                 (FRLG_FLAGS_START+0x53)
 #undef  FLAG_GOT_TM20_FROM_THIRSTY_GIRL
-#define FLAG_GOT_TM20_FROM_THIRSTY_GIRL                          (FRLG_FLAGS_START + 0x54)
+#define FLAG_GOT_TM20_FROM_THIRSTY_GIRL                          (FRLG_FLAGS_START+0x54)
 #undef  FLAG_GOT_TM26_FROM_GIOVANNI
-#define FLAG_GOT_TM26_FROM_GIOVANNI                              (FRLG_FLAGS_START + 0x55)
+#define FLAG_GOT_TM26_FROM_GIOVANNI                              (FRLG_FLAGS_START+0x55)
 #undef  FLAG_GOT_TM27
-#define FLAG_GOT_TM27                                            (FRLG_FLAGS_START + 0x56)
+#define FLAG_GOT_TM27                                            (FRLG_FLAGS_START+0x56)
 #undef  FLAG_GOT_TM28_FROM_ROCKET
-#define FLAG_GOT_TM28_FROM_ROCKET                                (FRLG_FLAGS_START + 0x57)
+#define FLAG_GOT_TM28_FROM_ROCKET                                (FRLG_FLAGS_START+0x57)
 #undef  FLAG_GOT_TM29_FROM_MR_PSYCHIC
-#define FLAG_GOT_TM29_FROM_MR_PSYCHIC                            (FRLG_FLAGS_START + 0x58)
+#define FLAG_GOT_TM29_FROM_MR_PSYCHIC                            (FRLG_FLAGS_START+0x58)
 #undef  FLAG_GOT_TM33_FROM_THIRSTY_GIRL
-#define FLAG_GOT_TM33_FROM_THIRSTY_GIRL                          (FRLG_FLAGS_START + 0x59)
+#define FLAG_GOT_TM33_FROM_THIRSTY_GIRL                          (FRLG_FLAGS_START+0x59)
 #undef  FLAG_GOT_TM34_FROM_SURGE
-#define FLAG_GOT_TM34_FROM_SURGE                                 (FRLG_FLAGS_START + 0x5A)
+#define FLAG_GOT_TM34_FROM_SURGE                                 (FRLG_FLAGS_START+0x5A)
 #undef  FLAG_GOT_TM38_FROM_BLAINE
-#define FLAG_GOT_TM38_FROM_BLAINE                                (FRLG_FLAGS_START + 0x5B)
+#define FLAG_GOT_TM38_FROM_BLAINE                                (FRLG_FLAGS_START+0x5B)
 #undef  FLAG_GOT_TM39_FROM_BROCK
-#define FLAG_GOT_TM39_FROM_BROCK                                 (FRLG_FLAGS_START + 0x5C)
+#define FLAG_GOT_TM39_FROM_BROCK                                 (FRLG_FLAGS_START+0x5C)
 #undef  FLAG_GOT_TM42_AT_MEMORIAL_PILLAR
-#define FLAG_GOT_TM42_AT_MEMORIAL_PILLAR                         (FRLG_FLAGS_START + 0x5D)
+#define FLAG_GOT_TM42_AT_MEMORIAL_PILLAR                         (FRLG_FLAGS_START+0x5D)
 #undef  FLAG_GOT_TOGEPI_EGG
-#define FLAG_GOT_TOGEPI_EGG                                      (FRLG_FLAGS_START + 0x5E)
+#define FLAG_GOT_TOGEPI_EGG                                      (FRLG_FLAGS_START+0x5E)
 #undef  FLAG_GOT_VS_SEEKER
-#define FLAG_GOT_VS_SEEKER                                       (FRLG_FLAGS_START + 0x5F)
+#define FLAG_GOT_VS_SEEKER                                       (FRLG_FLAGS_START+0x5F)
 #undef  FLAG_HELPED_BILL_IN_SEA_COTTAGE
-#define FLAG_HELPED_BILL_IN_SEA_COTTAGE                          (FRLG_FLAGS_START + 0x60)
+#define FLAG_HELPED_BILL_IN_SEA_COTTAGE                          (FRLG_FLAGS_START+0x60)
 #undef  FLAG_HIDE_BILL_CLEFAIRY
-#define FLAG_HIDE_BILL_CLEFAIRY                                  (FRLG_FLAGS_START + 0x61)
+#define FLAG_HIDE_BILL_CLEFAIRY                                  (FRLG_FLAGS_START+0x61)
 #undef  FLAG_HIDE_BILL_HUMAN_SEA_COTTAGE
-#define FLAG_HIDE_BILL_HUMAN_SEA_COTTAGE                         (FRLG_FLAGS_START + 0x62)
+#define FLAG_HIDE_BILL_HUMAN_SEA_COTTAGE                         (FRLG_FLAGS_START+0x62)
 #undef  FLAG_HIDE_BIRTH_ISLAND_METEORITE
-#define FLAG_HIDE_BIRTH_ISLAND_METEORITE                         (FRLG_FLAGS_START + 0x63)
+#define FLAG_HIDE_BIRTH_ISLAND_METEORITE                         (FRLG_FLAGS_START+0x63)
 #undef  FLAG_HIDE_BULBASAUR_BALL
-#define FLAG_HIDE_BULBASAUR_BALL                                 (FRLG_FLAGS_START + 0x64)
+#define FLAG_HIDE_BULBASAUR_BALL                                 (FRLG_FLAGS_START+0x64)
 #undef  FLAG_HIDE_CELADON_CITY_ETHER
-#define FLAG_HIDE_CELADON_CITY_ETHER                             (FRLG_FLAGS_START + 0x65)
+#define FLAG_HIDE_CELADON_CITY_ETHER                             (FRLG_FLAGS_START+0x65)
 #undef  FLAG_HIDE_CELADON_ROCKETS
-#define FLAG_HIDE_CELADON_ROCKETS                                (FRLG_FLAGS_START + 0x66)
+#define FLAG_HIDE_CELADON_ROCKETS                                (FRLG_FLAGS_START+0x66)
 #undef  FLAG_HIDE_CERULEAN_CAVE_1F_FULL_RESTORE
-#define FLAG_HIDE_CERULEAN_CAVE_1F_FULL_RESTORE                  (FRLG_FLAGS_START + 0x67)
+#define FLAG_HIDE_CERULEAN_CAVE_1F_FULL_RESTORE                  (FRLG_FLAGS_START+0x67)
 #undef  FLAG_HIDE_CERULEAN_CAVE_1F_MAX_ELIXIR
-#define FLAG_HIDE_CERULEAN_CAVE_1F_MAX_ELIXIR                    (FRLG_FLAGS_START + 0x68)
+#define FLAG_HIDE_CERULEAN_CAVE_1F_MAX_ELIXIR                    (FRLG_FLAGS_START+0x68)
 #undef  FLAG_HIDE_CERULEAN_CAVE_1F_NUGGET
-#define FLAG_HIDE_CERULEAN_CAVE_1F_NUGGET                        (FRLG_FLAGS_START + 0x69)
+#define FLAG_HIDE_CERULEAN_CAVE_1F_NUGGET                        (FRLG_FLAGS_START+0x69)
 #undef  FLAG_HIDE_CERULEAN_CAVE_2F_FULL_RESTORE
-#define FLAG_HIDE_CERULEAN_CAVE_2F_FULL_RESTORE                  (FRLG_FLAGS_START + 0x6A)
+#define FLAG_HIDE_CERULEAN_CAVE_2F_FULL_RESTORE                  (FRLG_FLAGS_START+0x6A)
 #undef  FLAG_HIDE_CERULEAN_CAVE_2F_PP_UP
-#define FLAG_HIDE_CERULEAN_CAVE_2F_PP_UP                         (FRLG_FLAGS_START + 0x6B)
+#define FLAG_HIDE_CERULEAN_CAVE_2F_PP_UP                         (FRLG_FLAGS_START+0x6B)
 #undef  FLAG_HIDE_CERULEAN_CAVE_2F_ULTRA_BALL
-#define FLAG_HIDE_CERULEAN_CAVE_2F_ULTRA_BALL                    (FRLG_FLAGS_START + 0x6C)
+#define FLAG_HIDE_CERULEAN_CAVE_2F_ULTRA_BALL                    (FRLG_FLAGS_START+0x6C)
 #undef  FLAG_HIDE_CERULEAN_CAVE_B1F_MAX_REVIVE
-#define FLAG_HIDE_CERULEAN_CAVE_B1F_MAX_REVIVE                   (FRLG_FLAGS_START + 0x6D)
+#define FLAG_HIDE_CERULEAN_CAVE_B1F_MAX_REVIVE                   (FRLG_FLAGS_START+0x6D)
 #undef  FLAG_HIDE_CERULEAN_CAVE_B1F_ULTRA_BALL
-#define FLAG_HIDE_CERULEAN_CAVE_B1F_ULTRA_BALL                   (FRLG_FLAGS_START + 0x6E)
+#define FLAG_HIDE_CERULEAN_CAVE_B1F_ULTRA_BALL                   (FRLG_FLAGS_START+0x6E)
 #undef  FLAG_HIDE_CERULEAN_CAVE_GUARD
-#define FLAG_HIDE_CERULEAN_CAVE_GUARD                            (FRLG_FLAGS_START + 0x6F)
+#define FLAG_HIDE_CERULEAN_CAVE_GUARD                            (FRLG_FLAGS_START+0x6F)
 #undef  FLAG_HIDE_CERULEAN_RIVAL
-#define FLAG_HIDE_CERULEAN_RIVAL                                 (FRLG_FLAGS_START + 0x70)
+#define FLAG_HIDE_CERULEAN_RIVAL                                 (FRLG_FLAGS_START+0x70)
 #undef  FLAG_HIDE_CERULEAN_ROCKET
-#define FLAG_HIDE_CERULEAN_ROCKET                                (FRLG_FLAGS_START + 0x71)
+#define FLAG_HIDE_CERULEAN_ROCKET                                (FRLG_FLAGS_START+0x71)
 #undef  FLAG_HIDE_CHARMANDER_BALL
-#define FLAG_HIDE_CHARMANDER_BALL                                (FRLG_FLAGS_START + 0x72)
+#define FLAG_HIDE_CHARMANDER_BALL                                (FRLG_FLAGS_START+0x72)
 #undef  FLAG_HIDE_CINNABAR_BILL
-#define FLAG_HIDE_CINNABAR_BILL                                  (FRLG_FLAGS_START + 0x73)
+#define FLAG_HIDE_CINNABAR_BILL                                  (FRLG_FLAGS_START+0x73)
 #undef  FLAG_HIDE_CINNABAR_POKECENTER_BILL
-#define FLAG_HIDE_CINNABAR_POKECENTER_BILL                       (FRLG_FLAGS_START + 0x74)
+#define FLAG_HIDE_CINNABAR_POKECENTER_BILL                       (FRLG_FLAGS_START+0x74)
 #undef  FLAG_HIDE_CINNABAR_SEAGALLOP
-#define FLAG_HIDE_CINNABAR_SEAGALLOP                             (FRLG_FLAGS_START + 0x75)
+#define FLAG_HIDE_CINNABAR_SEAGALLOP                             (FRLG_FLAGS_START+0x75)
 #undef  FLAG_HIDE_CREDITS_OAK
-#define FLAG_HIDE_CREDITS_OAK                                    (FRLG_FLAGS_START + 0x76)
+#define FLAG_HIDE_CREDITS_OAK                                    (FRLG_FLAGS_START+0x76)
 #undef  FLAG_HIDE_CREDITS_RIVAL
-#define FLAG_HIDE_CREDITS_RIVAL                                  (FRLG_FLAGS_START + 0x77)
+#define FLAG_HIDE_CREDITS_RIVAL                                  (FRLG_FLAGS_START+0x77)
 #undef  FLAG_HIDE_DOJO_HITMONCHAN_BALL
-#define FLAG_HIDE_DOJO_HITMONCHAN_BALL                           (FRLG_FLAGS_START + 0x78)
+#define FLAG_HIDE_DOJO_HITMONCHAN_BALL                           (FRLG_FLAGS_START+0x78)
 #undef  FLAG_HIDE_DOJO_HITMONLEE_BALL
-#define FLAG_HIDE_DOJO_HITMONLEE_BALL                            (FRLG_FLAGS_START + 0x79)
+#define FLAG_HIDE_DOJO_HITMONLEE_BALL                            (FRLG_FLAGS_START+0x79)
 #undef  FLAG_HIDE_DOME_FOSSIL
-#define FLAG_HIDE_DOME_FOSSIL                                    (FRLG_FLAGS_START + 0x7A)
+#define FLAG_HIDE_DOME_FOSSIL                                    (FRLG_FLAGS_START+0x7A)
 #undef  FLAG_HIDE_DOTTED_HOLE_SCIENTIST
-#define FLAG_HIDE_DOTTED_HOLE_SCIENTIST                          (FRLG_FLAGS_START + 0x7B)
+#define FLAG_HIDE_DOTTED_HOLE_SCIENTIST                          (FRLG_FLAGS_START+0x7B)
 #undef  FLAG_HIDE_EEVEE_BALL
-#define FLAG_HIDE_EEVEE_BALL                                     (FRLG_FLAGS_START + 0x7C)
+#define FLAG_HIDE_EEVEE_BALL                                     (FRLG_FLAGS_START+0x7C)
 #undef  FLAG_HIDE_FAME_CHECKER_ERIKA_JOURNALS
-#define FLAG_HIDE_FAME_CHECKER_ERIKA_JOURNALS                    (FRLG_FLAGS_START + 0x7D)
+#define FLAG_HIDE_FAME_CHECKER_ERIKA_JOURNALS                    (FRLG_FLAGS_START+0x7D)
 #undef  FLAG_HIDE_FAME_CHECKER_KOGA_JOURNAL
-#define FLAG_HIDE_FAME_CHECKER_KOGA_JOURNAL                      (FRLG_FLAGS_START + 0x7E)
+#define FLAG_HIDE_FAME_CHECKER_KOGA_JOURNAL                      (FRLG_FLAGS_START+0x7E)
 #undef  FLAG_HIDE_FAME_CHECKER_LT_SURGE_JOURNAL
-#define FLAG_HIDE_FAME_CHECKER_LT_SURGE_JOURNAL                  (FRLG_FLAGS_START + 0x7F)
+#define FLAG_HIDE_FAME_CHECKER_LT_SURGE_JOURNAL                  (FRLG_FLAGS_START+0x7F)
 #undef  FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM10_SILK_SCARF
-#define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM10_SILK_SCARF        (FRLG_FLAGS_START + 0x80)
+#define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM10_SILK_SCARF        (FRLG_FLAGS_START+0x80)
 #undef  FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM11_LAX_INCENSE
-#define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM11_LAX_INCENSE       (FRLG_FLAGS_START + 0x81)
+#define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM11_LAX_INCENSE       (FRLG_FLAGS_START+0x81)
 #undef  FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM12_SEA_INCENSE
-#define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM12_SEA_INCENSE       (FRLG_FLAGS_START + 0x82)
+#define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM12_SEA_INCENSE       (FRLG_FLAGS_START+0x82)
 #undef  FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM13_MAX_REVIVE
-#define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM13_MAX_REVIVE        (FRLG_FLAGS_START + 0x83)
+#define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM13_MAX_REVIVE        (FRLG_FLAGS_START+0x83)
 #undef  FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM14_RARE_CANDY
-#define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM14_RARE_CANDY        (FRLG_FLAGS_START + 0x84)
+#define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM14_RARE_CANDY        (FRLG_FLAGS_START+0x84)
 #undef  FLAG_HIDE_FIVE_ISLAND_MEADOW_MAX_POTION
-#define FLAG_HIDE_FIVE_ISLAND_MEADOW_MAX_POTION                  (FRLG_FLAGS_START + 0x85)
+#define FLAG_HIDE_FIVE_ISLAND_MEADOW_MAX_POTION                  (FRLG_FLAGS_START+0x85)
 #undef  FLAG_HIDE_FIVE_ISLAND_MEADOW_PP_UP
-#define FLAG_HIDE_FIVE_ISLAND_MEADOW_PP_UP                       (FRLG_FLAGS_START + 0x86)
+#define FLAG_HIDE_FIVE_ISLAND_MEADOW_PP_UP                       (FRLG_FLAGS_START+0x86)
 #undef  FLAG_HIDE_FIVE_ISLAND_MEMORIAL_PILLAR_METAL_COAT
-#define FLAG_HIDE_FIVE_ISLAND_MEMORIAL_PILLAR_METAL_COAT         (FRLG_FLAGS_START + 0x87)
+#define FLAG_HIDE_FIVE_ISLAND_MEMORIAL_PILLAR_METAL_COAT         (FRLG_FLAGS_START+0x87)
 #undef  FLAG_HIDE_FIVE_ISLAND_ROCKETS
-#define FLAG_HIDE_FIVE_ISLAND_ROCKETS                            (FRLG_FLAGS_START + 0x88)
+#define FLAG_HIDE_FIVE_ISLAND_ROCKETS                            (FRLG_FLAGS_START+0x88)
 #undef  FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_BIG_PEARL
-#define FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_BIG_PEARL         (FRLG_FLAGS_START + 0x89)
+#define FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_BIG_PEARL         (FRLG_FLAGS_START+0x89)
 #undef  FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_PEARL
-#define FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_PEARL             (FRLG_FLAGS_START + 0x8A)
+#define FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_PEARL             (FRLG_FLAGS_START+0x8A)
 #undef  FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_TM36
-#define FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_TM36              (FRLG_FLAGS_START + 0x8B)
+#define FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_TM36              (FRLG_FLAGS_START+0x8B)
 #undef  FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_UP_GRADE
-#define FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_UP_GRADE          (FRLG_FLAGS_START + 0x8C)
+#define FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_UP_GRADE          (FRLG_FLAGS_START+0x8C)
 #undef  FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_HM07
-#define FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_HM07               (FRLG_FLAGS_START + 0x8D)
+#define FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_HM07               (FRLG_FLAGS_START+0x8D)
 #undef  FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_ULTRA_BALL
-#define FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_ULTRA_BALL         (FRLG_FLAGS_START + 0x8E)
+#define FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_ULTRA_BALL         (FRLG_FLAGS_START+0x8E)
 #undef  FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_FULL_RESTORE
-#define FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_FULL_RESTORE      (FRLG_FLAGS_START + 0x8F)
+#define FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_FULL_RESTORE      (FRLG_FLAGS_START+0x8F)
 #undef  FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_NEVER_MELT_ICE
-#define FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_NEVER_MELT_ICE    (FRLG_FLAGS_START + 0x90)
+#define FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_NEVER_MELT_ICE    (FRLG_FLAGS_START+0x90)
 #undef  FLAG_HIDE_FOUR_ISLAND_RIVAL
-#define FLAG_HIDE_FOUR_ISLAND_RIVAL                              (FRLG_FLAGS_START + 0x91)
+#define FLAG_HIDE_FOUR_ISLAND_RIVAL                              (FRLG_FLAGS_START+0x91)
 #undef  FLAG_HIDE_FOUR_ISLAND_STARDUST
-#define FLAG_HIDE_FOUR_ISLAND_STARDUST                           (FRLG_FLAGS_START + 0x92)
+#define FLAG_HIDE_FOUR_ISLAND_STARDUST                           (FRLG_FLAGS_START+0x92)
 #undef  FLAG_HIDE_FOUR_ISLAND_STAR_PIECE
-#define FLAG_HIDE_FOUR_ISLAND_STAR_PIECE                         (FRLG_FLAGS_START + 0x93)
+#define FLAG_HIDE_FOUR_ISLAND_STAR_PIECE                         (FRLG_FLAGS_START+0x93)
 #undef  FLAG_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_RARE_CANDY
-#define FLAG_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_RARE_CANDY          (FRLG_FLAGS_START + 0x94)
+#define FLAG_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_RARE_CANDY          (FRLG_FLAGS_START+0x94)
 #undef  FLAG_HIDE_GAME_CORNER_ROCKET
-#define FLAG_HIDE_GAME_CORNER_ROCKET                             (FRLG_FLAGS_START + 0x95)
+#define FLAG_HIDE_GAME_CORNER_ROCKET                             (FRLG_FLAGS_START+0x95)
 #undef  FLAG_HIDE_HELIX_FOSSIL
-#define FLAG_HIDE_HELIX_FOSSIL                                   (FRLG_FLAGS_START + 0x96)
+#define FLAG_HIDE_HELIX_FOSSIL                                   (FRLG_FLAGS_START+0x96)
 #undef  FLAG_HIDE_HIDEOUT_GIOVANNI
-#define FLAG_HIDE_HIDEOUT_GIOVANNI                               (FRLG_FLAGS_START + 0x97)
+#define FLAG_HIDE_HIDEOUT_GIOVANNI                               (FRLG_FLAGS_START+0x97)
 #undef  FLAG_HIDE_ICEFALL_CAVE_LORELEI
-#define FLAG_HIDE_ICEFALL_CAVE_LORELEI                           (FRLG_FLAGS_START + 0x98)
+#define FLAG_HIDE_ICEFALL_CAVE_LORELEI                           (FRLG_FLAGS_START+0x98)
 #undef  FLAG_HIDE_ICEFALL_CAVE_ROCKETS
-#define FLAG_HIDE_ICEFALL_CAVE_ROCKETS                           (FRLG_FLAGS_START + 0x99)
+#define FLAG_HIDE_ICEFALL_CAVE_ROCKETS                           (FRLG_FLAGS_START+0x99)
 #undef  FLAG_HIDE_LIFT_KEY
-#define FLAG_HIDE_LIFT_KEY                                       (FRLG_FLAGS_START + 0x9A)
+#define FLAG_HIDE_LIFT_KEY                                       (FRLG_FLAGS_START+0x9A)
 #undef  FLAG_HIDE_LORELEIS_HOUSE_FEAROW_DOLL
-#define FLAG_HIDE_LORELEIS_HOUSE_FEAROW_DOLL                     (FRLG_FLAGS_START + 0x9B)
+#define FLAG_HIDE_LORELEIS_HOUSE_FEAROW_DOLL                     (FRLG_FLAGS_START+0x9B)
 #undef  FLAG_HIDE_LORELEIS_HOUSE_LAPRAS_DOLL
-#define FLAG_HIDE_LORELEIS_HOUSE_LAPRAS_DOLL                     (FRLG_FLAGS_START + 0x9C)
+#define FLAG_HIDE_LORELEIS_HOUSE_LAPRAS_DOLL                     (FRLG_FLAGS_START+0x9C)
 #undef  FLAG_HIDE_LORELEIS_HOUSE_NIDORAN_F_DOLL
-#define FLAG_HIDE_LORELEIS_HOUSE_NIDORAN_F_DOLL                  (FRLG_FLAGS_START + 0x9D)
+#define FLAG_HIDE_LORELEIS_HOUSE_NIDORAN_F_DOLL                  (FRLG_FLAGS_START+0x9D)
 #undef  FLAG_HIDE_LORELEIS_HOUSE_NIDORAN_M_DOLL
-#define FLAG_HIDE_LORELEIS_HOUSE_NIDORAN_M_DOLL                  (FRLG_FLAGS_START + 0x9E)
+#define FLAG_HIDE_LORELEIS_HOUSE_NIDORAN_M_DOLL                  (FRLG_FLAGS_START+0x9E)
 #undef  FLAG_HIDE_LORELEIS_HOUSE_PIDGEOT_DOLL
-#define FLAG_HIDE_LORELEIS_HOUSE_PIDGEOT_DOLL                    (FRLG_FLAGS_START + 0x9F)
+#define FLAG_HIDE_LORELEIS_HOUSE_PIDGEOT_DOLL                    (FRLG_FLAGS_START+0x9F)
 #undef  FLAG_HIDE_LORELEI_HOUSE_CHANSEY_DOLL
-#define FLAG_HIDE_LORELEI_HOUSE_CHANSEY_DOLL                     (FRLG_FLAGS_START + 0xA0)
+#define FLAG_HIDE_LORELEI_HOUSE_CHANSEY_DOLL                     (FRLG_FLAGS_START+0xA0)
 #undef  FLAG_HIDE_LORELEI_HOUSE_JIGGLYPUFF_DOLL
-#define FLAG_HIDE_LORELEI_HOUSE_JIGGLYPUFF_DOLL                  (FRLG_FLAGS_START + 0xA1)
+#define FLAG_HIDE_LORELEI_HOUSE_JIGGLYPUFF_DOLL                  (FRLG_FLAGS_START+0xA1)
 #undef  FLAG_HIDE_LORELEI_HOUSE_MEOWTH_DOLL
-#define FLAG_HIDE_LORELEI_HOUSE_MEOWTH_DOLL                      (FRLG_FLAGS_START + 0xA2)
+#define FLAG_HIDE_LORELEI_HOUSE_MEOWTH_DOLL                      (FRLG_FLAGS_START+0xA2)
 #undef  FLAG_HIDE_LORELEI_IN_HER_HOUSE
-#define FLAG_HIDE_LORELEI_IN_HER_HOUSE                           (FRLG_FLAGS_START + 0xA3)
+#define FLAG_HIDE_LORELEI_IN_HER_HOUSE                           (FRLG_FLAGS_START+0xA3)
 #undef  FLAG_HIDE_LOSTELLE_IN_BERRY_FOREST
-#define FLAG_HIDE_LOSTELLE_IN_BERRY_FOREST                       (FRLG_FLAGS_START + 0xA4)
+#define FLAG_HIDE_LOSTELLE_IN_BERRY_FOREST                       (FRLG_FLAGS_START+0xA4)
 #undef  FLAG_HIDE_LOSTELLE_IN_HER_HOME
-#define FLAG_HIDE_LOSTELLE_IN_HER_HOME                           (FRLG_FLAGS_START + 0xA5)
+#define FLAG_HIDE_LOSTELLE_IN_HER_HOME                           (FRLG_FLAGS_START+0xA5)
 #undef  FLAG_HIDE_LOST_CAVE_SELPHY
-#define FLAG_HIDE_LOST_CAVE_SELPHY                               (FRLG_FLAGS_START + 0xA6)
+#define FLAG_HIDE_LOST_CAVE_SELPHY                               (FRLG_FLAGS_START+0xA6)
 #undef  FLAG_HIDE_MG_DELIVERYMEN
-#define FLAG_HIDE_MG_DELIVERYMEN                                 (FRLG_FLAGS_START + 0xA7)
+#define FLAG_HIDE_MG_DELIVERYMEN                                 (FRLG_FLAGS_START+0xA7)
 #undef  FLAG_HIDE_MISC_KANTO_ROCKETS
-#define FLAG_HIDE_MISC_KANTO_ROCKETS                             (FRLG_FLAGS_START + 0xA8)
+#define FLAG_HIDE_MISC_KANTO_ROCKETS                             (FRLG_FLAGS_START+0xA8)
 #undef  FLAG_HIDE_MT_EMBER_EXTERIOR_DIRE_HIT
-#define FLAG_HIDE_MT_EMBER_EXTERIOR_DIRE_HIT                     (FRLG_FLAGS_START + 0xA9)
+#define FLAG_HIDE_MT_EMBER_EXTERIOR_DIRE_HIT                     (FRLG_FLAGS_START+0xA9)
 #undef  FLAG_HIDE_MT_EMBER_EXTERIOR_FIRE_STONE
-#define FLAG_HIDE_MT_EMBER_EXTERIOR_FIRE_STONE                   (FRLG_FLAGS_START + 0xAA)
+#define FLAG_HIDE_MT_EMBER_EXTERIOR_FIRE_STONE                   (FRLG_FLAGS_START+0xAA)
 #undef  FLAG_HIDE_MT_EMBER_EXTERIOR_ROCKETS
-#define FLAG_HIDE_MT_EMBER_EXTERIOR_ROCKETS                      (FRLG_FLAGS_START + 0xAB)
+#define FLAG_HIDE_MT_EMBER_EXTERIOR_ROCKETS                      (FRLG_FLAGS_START+0xAB)
 #undef  FLAG_HIDE_MT_EMBER_EXTERIOR_ULTRA_BALL
-#define FLAG_HIDE_MT_EMBER_EXTERIOR_ULTRA_BALL                   (FRLG_FLAGS_START + 0xAC)
+#define FLAG_HIDE_MT_EMBER_EXTERIOR_ULTRA_BALL                   (FRLG_FLAGS_START+0xAC)
 #undef  FLAG_HIDE_MT_MOON_1F_ESCAPE_ROPE
-#define FLAG_HIDE_MT_MOON_1F_ESCAPE_ROPE                         (FRLG_FLAGS_START + 0xAD)
+#define FLAG_HIDE_MT_MOON_1F_ESCAPE_ROPE                         (FRLG_FLAGS_START+0xAD)
 #undef  FLAG_HIDE_MT_MOON_1F_MOON_STONE
-#define FLAG_HIDE_MT_MOON_1F_MOON_STONE                          (FRLG_FLAGS_START + 0xAE)
+#define FLAG_HIDE_MT_MOON_1F_MOON_STONE                          (FRLG_FLAGS_START+0xAE)
 #undef  FLAG_HIDE_MT_MOON_1F_PARALYZE_HEAL
-#define FLAG_HIDE_MT_MOON_1F_PARALYZE_HEAL                       (FRLG_FLAGS_START + 0xAF)
+#define FLAG_HIDE_MT_MOON_1F_PARALYZE_HEAL                       (FRLG_FLAGS_START+0xAF)
 #undef  FLAG_HIDE_MT_MOON_1F_POTION
-#define FLAG_HIDE_MT_MOON_1F_POTION                              (FRLG_FLAGS_START + 0xB0)
+#define FLAG_HIDE_MT_MOON_1F_POTION                              (FRLG_FLAGS_START+0xB0)
 #undef  FLAG_HIDE_MT_MOON_1F_RARE_CANDY
-#define FLAG_HIDE_MT_MOON_1F_RARE_CANDY                          (FRLG_FLAGS_START + 0xB1)
+#define FLAG_HIDE_MT_MOON_1F_RARE_CANDY                          (FRLG_FLAGS_START+0xB1)
 #undef  FLAG_HIDE_MT_MOON_1F_TM09
-#define FLAG_HIDE_MT_MOON_1F_TM09                                (FRLG_FLAGS_START + 0xB2)
+#define FLAG_HIDE_MT_MOON_1F_TM09                                (FRLG_FLAGS_START+0xB2)
 #undef  FLAG_HIDE_MT_MOON_B2F_ANTIDOTE
-#define FLAG_HIDE_MT_MOON_B2F_ANTIDOTE                           (FRLG_FLAGS_START + 0xB3)
+#define FLAG_HIDE_MT_MOON_B2F_ANTIDOTE                           (FRLG_FLAGS_START+0xB3)
 #undef  FLAG_HIDE_MT_MOON_B2F_REVIVE
-#define FLAG_HIDE_MT_MOON_B2F_REVIVE                             (FRLG_FLAGS_START + 0xB4)
+#define FLAG_HIDE_MT_MOON_B2F_REVIVE                             (FRLG_FLAGS_START+0xB4)
 #undef  FLAG_HIDE_MT_MOON_B2F_STAR_PIECE
-#define FLAG_HIDE_MT_MOON_B2F_STAR_PIECE                         (FRLG_FLAGS_START + 0xB5)
+#define FLAG_HIDE_MT_MOON_B2F_STAR_PIECE                         (FRLG_FLAGS_START+0xB5)
 #undef  FLAG_HIDE_MT_MOON_B2F_TM46
-#define FLAG_HIDE_MT_MOON_B2F_TM46                               (FRLG_FLAGS_START + 0xB6)
+#define FLAG_HIDE_MT_MOON_B2F_TM46                               (FRLG_FLAGS_START+0xB6)
 #undef  FLAG_HIDE_NUGGET_BRIDGE_ROCKET
-#define FLAG_HIDE_NUGGET_BRIDGE_ROCKET                           (FRLG_FLAGS_START + 0xB7)
+#define FLAG_HIDE_NUGGET_BRIDGE_ROCKET                           (FRLG_FLAGS_START+0xB7)
 #undef  FLAG_HIDE_OAK_IN_CHAMP_ROOM
-#define FLAG_HIDE_OAK_IN_CHAMP_ROOM                              (FRLG_FLAGS_START + 0xB8)
+#define FLAG_HIDE_OAK_IN_CHAMP_ROOM                              (FRLG_FLAGS_START+0xB8)
 #undef  FLAG_HIDE_OAK_IN_HIS_LAB
-#define FLAG_HIDE_OAK_IN_HIS_LAB                                 (FRLG_FLAGS_START + 0xB9)
+#define FLAG_HIDE_OAK_IN_HIS_LAB                                 (FRLG_FLAGS_START+0xB9)
 #undef  FLAG_HIDE_OAK_IN_PALLET_TOWN
-#define FLAG_HIDE_OAK_IN_PALLET_TOWN                             (FRLG_FLAGS_START + 0xBA)
+#define FLAG_HIDE_OAK_IN_PALLET_TOWN                             (FRLG_FLAGS_START+0xBA)
 #undef  FLAG_HIDE_OLD_AMBER
-#define FLAG_HIDE_OLD_AMBER                                      (FRLG_FLAGS_START + 0xBB)
+#define FLAG_HIDE_OLD_AMBER                                      (FRLG_FLAGS_START+0xBB)
 #undef  FLAG_HIDE_ONE_ISLAND_BILL
-#define FLAG_HIDE_ONE_ISLAND_BILL                                (FRLG_FLAGS_START + 0xBC)
+#define FLAG_HIDE_ONE_ISLAND_BILL                                (FRLG_FLAGS_START+0xBC)
 #undef  FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_CARBOS
-#define FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_CARBOS                  (FRLG_FLAGS_START + 0xBD)
+#define FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_CARBOS                  (FRLG_FLAGS_START+0xBD)
 #undef  FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_ETHER
-#define FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_ETHER                   (FRLG_FLAGS_START + 0xBE)
+#define FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_ETHER                   (FRLG_FLAGS_START+0xBE)
 #undef  FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_MAX_REPEL
-#define FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_MAX_REPEL               (FRLG_FLAGS_START + 0xBF)
+#define FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_MAX_REPEL               (FRLG_FLAGS_START+0xBF)
 #undef  FLAG_HIDE_ONE_ISLAND_POKECENTER_BILL
-#define FLAG_HIDE_ONE_ISLAND_POKECENTER_BILL                     (FRLG_FLAGS_START + 0xC0)
+#define FLAG_HIDE_ONE_ISLAND_POKECENTER_BILL                     (FRLG_FLAGS_START+0xC0)
 #undef  FLAG_HIDE_ONE_ISLAND_POKECENTER_CELIO
-#define FLAG_HIDE_ONE_ISLAND_POKECENTER_CELIO                    (FRLG_FLAGS_START + 0xC1)
+#define FLAG_HIDE_ONE_ISLAND_POKECENTER_CELIO                    (FRLG_FLAGS_START+0xC1)
 #undef  FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
-#define FLAG_HIDE_PEWTER_CITY_GYM_GUIDE                          (FRLG_FLAGS_START + 0xC2)
+#define FLAG_HIDE_PEWTER_CITY_GYM_GUIDE                          (FRLG_FLAGS_START+0xC2)
 #undef  FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
-#define FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY                  (FRLG_FLAGS_START + 0xC3)
+#define FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY                  (FRLG_FLAGS_START+0xC3)
 #undef  FLAG_HIDE_PEWTER_MUSEUM_GUIDE
-#define FLAG_HIDE_PEWTER_MUSEUM_GUIDE                            (FRLG_FLAGS_START + 0xC4)
+#define FLAG_HIDE_PEWTER_MUSEUM_GUIDE                            (FRLG_FLAGS_START+0xC4)
 #undef  FLAG_HIDE_POKEDEX
-#define FLAG_HIDE_POKEDEX                                        (FRLG_FLAGS_START + 0xC5)
+#define FLAG_HIDE_POKEDEX                                        (FRLG_FLAGS_START+0xC5)
 #undef  FLAG_HIDE_POKEHOUSE_FUJI
-#define FLAG_HIDE_POKEHOUSE_FUJI                                 (FRLG_FLAGS_START + 0xC6)
+#define FLAG_HIDE_POKEHOUSE_FUJI                                 (FRLG_FLAGS_START+0xC6)
 #undef  FLAG_HIDE_POKEMON_MANSION_1F_CARBOS
-#define FLAG_HIDE_POKEMON_MANSION_1F_CARBOS                      (FRLG_FLAGS_START + 0xC7)
+#define FLAG_HIDE_POKEMON_MANSION_1F_CARBOS                      (FRLG_FLAGS_START+0xC7)
 #undef  FLAG_HIDE_POKEMON_MANSION_1F_ESCAPE_ROPE
-#define FLAG_HIDE_POKEMON_MANSION_1F_ESCAPE_ROPE                 (FRLG_FLAGS_START + 0xC8)
+#define FLAG_HIDE_POKEMON_MANSION_1F_ESCAPE_ROPE                 (FRLG_FLAGS_START+0xC8)
 #undef  FLAG_HIDE_POKEMON_MANSION_1F_PROTEIN
-#define FLAG_HIDE_POKEMON_MANSION_1F_PROTEIN                     (FRLG_FLAGS_START + 0xC9)
+#define FLAG_HIDE_POKEMON_MANSION_1F_PROTEIN                     (FRLG_FLAGS_START+0xC9)
 #undef  FLAG_HIDE_POKEMON_MANSION_2F_CALCIUM
-#define FLAG_HIDE_POKEMON_MANSION_2F_CALCIUM                     (FRLG_FLAGS_START + 0xCA)
+#define FLAG_HIDE_POKEMON_MANSION_2F_CALCIUM                     (FRLG_FLAGS_START+0xCA)
 #undef  FLAG_HIDE_POKEMON_MANSION_2F_HP_UP
-#define FLAG_HIDE_POKEMON_MANSION_2F_HP_UP                       (FRLG_FLAGS_START + 0xCB)
+#define FLAG_HIDE_POKEMON_MANSION_2F_HP_UP                       (FRLG_FLAGS_START+0xCB)
 #undef  FLAG_HIDE_POKEMON_MANSION_2F_ZINC
-#define FLAG_HIDE_POKEMON_MANSION_2F_ZINC                        (FRLG_FLAGS_START + 0xCC)
+#define FLAG_HIDE_POKEMON_MANSION_2F_ZINC                        (FRLG_FLAGS_START+0xCC)
 #undef  FLAG_HIDE_POKEMON_MANSION_3F_IRON
-#define FLAG_HIDE_POKEMON_MANSION_3F_IRON                        (FRLG_FLAGS_START + 0xCD)
+#define FLAG_HIDE_POKEMON_MANSION_3F_IRON                        (FRLG_FLAGS_START+0xCD)
 #undef  FLAG_HIDE_POKEMON_MANSION_3F_MAX_POTION
-#define FLAG_HIDE_POKEMON_MANSION_3F_MAX_POTION                  (FRLG_FLAGS_START + 0xCE)
+#define FLAG_HIDE_POKEMON_MANSION_3F_MAX_POTION                  (FRLG_FLAGS_START+0xCE)
 #undef  FLAG_HIDE_POKEMON_MANSION_B1F_FULL_RESTORE
-#define FLAG_HIDE_POKEMON_MANSION_B1F_FULL_RESTORE               (FRLG_FLAGS_START + 0xCF)
+#define FLAG_HIDE_POKEMON_MANSION_B1F_FULL_RESTORE               (FRLG_FLAGS_START+0xCF)
 #undef  FLAG_HIDE_POKEMON_MANSION_B1F_SECRET_KEY
-#define FLAG_HIDE_POKEMON_MANSION_B1F_SECRET_KEY                 (FRLG_FLAGS_START + 0xD0)
+#define FLAG_HIDE_POKEMON_MANSION_B1F_SECRET_KEY                 (FRLG_FLAGS_START+0xD0)
 #undef  FLAG_HIDE_POKEMON_MANSION_B1F_TM14
-#define FLAG_HIDE_POKEMON_MANSION_B1F_TM14                       (FRLG_FLAGS_START + 0xD1)
+#define FLAG_HIDE_POKEMON_MANSION_B1F_TM14                       (FRLG_FLAGS_START+0xD1)
 #undef  FLAG_HIDE_POKEMON_MANSION_B1F_TM22
-#define FLAG_HIDE_POKEMON_MANSION_B1F_TM22                       (FRLG_FLAGS_START + 0xD2)
+#define FLAG_HIDE_POKEMON_MANSION_B1F_TM22                       (FRLG_FLAGS_START+0xD2)
 #undef  FLAG_HIDE_POKEMON_TOWER_3F_ESCAPE_ROPE
-#define FLAG_HIDE_POKEMON_TOWER_3F_ESCAPE_ROPE                   (FRLG_FLAGS_START + 0xD3)
+#define FLAG_HIDE_POKEMON_TOWER_3F_ESCAPE_ROPE                   (FRLG_FLAGS_START+0xD3)
 #undef  FLAG_HIDE_POKEMON_TOWER_4F_AWAKENING
-#define FLAG_HIDE_POKEMON_TOWER_4F_AWAKENING                     (FRLG_FLAGS_START + 0xD4)
+#define FLAG_HIDE_POKEMON_TOWER_4F_AWAKENING                     (FRLG_FLAGS_START+0xD4)
 #undef  FLAG_HIDE_POKEMON_TOWER_4F_ELIXIR
-#define FLAG_HIDE_POKEMON_TOWER_4F_ELIXIR                        (FRLG_FLAGS_START + 0xD5)
+#define FLAG_HIDE_POKEMON_TOWER_4F_ELIXIR                        (FRLG_FLAGS_START+0xD5)
 #undef  FLAG_HIDE_POKEMON_TOWER_4F_GREAT_BALL
-#define FLAG_HIDE_POKEMON_TOWER_4F_GREAT_BALL                    (FRLG_FLAGS_START + 0xD6)
+#define FLAG_HIDE_POKEMON_TOWER_4F_GREAT_BALL                    (FRLG_FLAGS_START+0xD6)
 #undef  FLAG_HIDE_POKEMON_TOWER_5F_CLEANSE_TAG
-#define FLAG_HIDE_POKEMON_TOWER_5F_CLEANSE_TAG                   (FRLG_FLAGS_START + 0xD7)
+#define FLAG_HIDE_POKEMON_TOWER_5F_CLEANSE_TAG                   (FRLG_FLAGS_START+0xD7)
 #undef  FLAG_HIDE_POKEMON_TOWER_5F_NUGGET
-#define FLAG_HIDE_POKEMON_TOWER_5F_NUGGET                        (FRLG_FLAGS_START + 0xD8)
+#define FLAG_HIDE_POKEMON_TOWER_5F_NUGGET                        (FRLG_FLAGS_START+0xD8)
 #undef  FLAG_HIDE_POKEMON_TOWER_6F_RARE_CANDY
-#define FLAG_HIDE_POKEMON_TOWER_6F_RARE_CANDY                    (FRLG_FLAGS_START + 0xD9)
+#define FLAG_HIDE_POKEMON_TOWER_6F_RARE_CANDY                    (FRLG_FLAGS_START+0xD9)
 #undef  FLAG_HIDE_POKEMON_TOWER_6F_X_ACCURACY
-#define FLAG_HIDE_POKEMON_TOWER_6F_X_ACCURACY                    (FRLG_FLAGS_START + 0xDA)
+#define FLAG_HIDE_POKEMON_TOWER_6F_X_ACCURACY                    (FRLG_FLAGS_START+0xDA)
 #undef  FLAG_HIDE_POSTGAME_GOSSIPERS
-#define FLAG_HIDE_POSTGAME_GOSSIPERS                             (FRLG_FLAGS_START + 0xDB)
+#define FLAG_HIDE_POSTGAME_GOSSIPERS                             (FRLG_FLAGS_START+0xDB)
 #undef  FLAG_HIDE_POWER_PLANT_ELECTRODE_1
-#define FLAG_HIDE_POWER_PLANT_ELECTRODE_1                        (FRLG_FLAGS_START + 0xDC)
+#define FLAG_HIDE_POWER_PLANT_ELECTRODE_1                        (FRLG_FLAGS_START+0xDC)
 #undef  FLAG_HIDE_POWER_PLANT_ELECTRODE_2
-#define FLAG_HIDE_POWER_PLANT_ELECTRODE_2                        (FRLG_FLAGS_START + 0xDD)
+#define FLAG_HIDE_POWER_PLANT_ELECTRODE_2                        (FRLG_FLAGS_START+0xDD)
 #undef  FLAG_HIDE_POWER_PLANT_ELIXIR
-#define FLAG_HIDE_POWER_PLANT_ELIXIR                             (FRLG_FLAGS_START + 0xDE)
+#define FLAG_HIDE_POWER_PLANT_ELIXIR                             (FRLG_FLAGS_START+0xDE)
 #undef  FLAG_HIDE_POWER_PLANT_MAX_POTION
-#define FLAG_HIDE_POWER_PLANT_MAX_POTION                         (FRLG_FLAGS_START + 0xDF)
+#define FLAG_HIDE_POWER_PLANT_MAX_POTION                         (FRLG_FLAGS_START+0xDF)
 #undef  FLAG_HIDE_POWER_PLANT_THUNDER_STONE
-#define FLAG_HIDE_POWER_PLANT_THUNDER_STONE                      (FRLG_FLAGS_START + 0xE0)
+#define FLAG_HIDE_POWER_PLANT_THUNDER_STONE                      (FRLG_FLAGS_START+0xE0)
 #undef  FLAG_HIDE_POWER_PLANT_TM17
-#define FLAG_HIDE_POWER_PLANT_TM17                               (FRLG_FLAGS_START + 0xE1)
+#define FLAG_HIDE_POWER_PLANT_TM17                               (FRLG_FLAGS_START+0xE1)
 #undef  FLAG_HIDE_POWER_PLANT_TM25
-#define FLAG_HIDE_POWER_PLANT_TM25                               (FRLG_FLAGS_START + 0xE2)
+#define FLAG_HIDE_POWER_PLANT_TM25                               (FRLG_FLAGS_START+0xE2)
 #undef  FLAG_HIDE_RESORT_GORGEOUS_INSIDE_SELPHY
-#define FLAG_HIDE_RESORT_GORGEOUS_INSIDE_SELPHY                  (FRLG_FLAGS_START + 0xE3)
+#define FLAG_HIDE_RESORT_GORGEOUS_INSIDE_SELPHY                  (FRLG_FLAGS_START+0xE3)
 #undef  FLAG_HIDE_RESORT_GORGEOUS_SELPHY
-#define FLAG_HIDE_RESORT_GORGEOUS_SELPHY                         (FRLG_FLAGS_START + 0xE4)
+#define FLAG_HIDE_RESORT_GORGEOUS_SELPHY                         (FRLG_FLAGS_START+0xE4)
 #undef  FLAG_HIDE_RIVAL_IN_LAB
-#define FLAG_HIDE_RIVAL_IN_LAB                                   (FRLG_FLAGS_START + 0xE5)
+#define FLAG_HIDE_RIVAL_IN_LAB                                   (FRLG_FLAGS_START+0xE5)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B1F_ESCAPE_ROPE
-#define FLAG_HIDE_ROCKET_HIDEOUT_B1F_ESCAPE_ROPE                 (FRLG_FLAGS_START + 0xE6)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B1F_ESCAPE_ROPE                 (FRLG_FLAGS_START+0xE6)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B1F_HYPER_POTION
-#define FLAG_HIDE_ROCKET_HIDEOUT_B1F_HYPER_POTION                (FRLG_FLAGS_START + 0xE7)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B1F_HYPER_POTION                (FRLG_FLAGS_START+0xE7)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B2F_MOON_STONE
-#define FLAG_HIDE_ROCKET_HIDEOUT_B2F_MOON_STONE                  (FRLG_FLAGS_START + 0xE8)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B2F_MOON_STONE                  (FRLG_FLAGS_START+0xE8)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B2F_SUPER_POTION
-#define FLAG_HIDE_ROCKET_HIDEOUT_B2F_SUPER_POTION                (FRLG_FLAGS_START + 0xE9)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B2F_SUPER_POTION                (FRLG_FLAGS_START+0xE9)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B2F_TM12
-#define FLAG_HIDE_ROCKET_HIDEOUT_B2F_TM12                        (FRLG_FLAGS_START + 0xEA)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B2F_TM12                        (FRLG_FLAGS_START+0xEA)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B2F_X_SPEED
-#define FLAG_HIDE_ROCKET_HIDEOUT_B2F_X_SPEED                     (FRLG_FLAGS_START + 0xEB)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B2F_X_SPEED                     (FRLG_FLAGS_START+0xEB)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B3F_BLACK_GLASSES
-#define FLAG_HIDE_ROCKET_HIDEOUT_B3F_BLACK_GLASSES               (FRLG_FLAGS_START + 0xEC)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B3F_BLACK_GLASSES               (FRLG_FLAGS_START+0xEC)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B3F_RARE_CANDY
-#define FLAG_HIDE_ROCKET_HIDEOUT_B3F_RARE_CANDY                  (FRLG_FLAGS_START + 0xED)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B3F_RARE_CANDY                  (FRLG_FLAGS_START+0xED)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B3F_TM21
-#define FLAG_HIDE_ROCKET_HIDEOUT_B3F_TM21                        (FRLG_FLAGS_START + 0xEE)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B3F_TM21                        (FRLG_FLAGS_START+0xEE)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B4F_CALCIUM
-#define FLAG_HIDE_ROCKET_HIDEOUT_B4F_CALCIUM                     (FRLG_FLAGS_START + 0xEF)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B4F_CALCIUM                     (FRLG_FLAGS_START+0xEF)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B4F_MAX_ETHER
-#define FLAG_HIDE_ROCKET_HIDEOUT_B4F_MAX_ETHER                   (FRLG_FLAGS_START + 0xF0)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B4F_MAX_ETHER                   (FRLG_FLAGS_START+0xF0)
 #undef  FLAG_HIDE_ROCKET_HIDEOUT_B4F_TM49
-#define FLAG_HIDE_ROCKET_HIDEOUT_B4F_TM49                        (FRLG_FLAGS_START + 0xF1)
+#define FLAG_HIDE_ROCKET_HIDEOUT_B4F_TM49                        (FRLG_FLAGS_START+0xF1)
 #undef  FLAG_HIDE_ROCK_TUNNEL_1F_ESCAPE_ROPE
-#define FLAG_HIDE_ROCK_TUNNEL_1F_ESCAPE_ROPE                     (FRLG_FLAGS_START + 0xF2)
+#define FLAG_HIDE_ROCK_TUNNEL_1F_ESCAPE_ROPE                     (FRLG_FLAGS_START+0xF2)
 #undef  FLAG_HIDE_ROCK_TUNNEL_1F_PEARL
-#define FLAG_HIDE_ROCK_TUNNEL_1F_PEARL                           (FRLG_FLAGS_START + 0xF3)
+#define FLAG_HIDE_ROCK_TUNNEL_1F_PEARL                           (FRLG_FLAGS_START+0xF3)
 #undef  FLAG_HIDE_ROCK_TUNNEL_1F_REPEL
-#define FLAG_HIDE_ROCK_TUNNEL_1F_REPEL                           (FRLG_FLAGS_START + 0xF4)
+#define FLAG_HIDE_ROCK_TUNNEL_1F_REPEL                           (FRLG_FLAGS_START+0xF4)
 #undef  FLAG_HIDE_ROCK_TUNNEL_B1F_MAX_ETHER
-#define FLAG_HIDE_ROCK_TUNNEL_B1F_MAX_ETHER                      (FRLG_FLAGS_START + 0xF5)
+#define FLAG_HIDE_ROCK_TUNNEL_B1F_MAX_ETHER                      (FRLG_FLAGS_START+0xF5)
 #undef  FLAG_HIDE_ROCK_TUNNEL_B1F_REVIVE
-#define FLAG_HIDE_ROCK_TUNNEL_B1F_REVIVE                         (FRLG_FLAGS_START + 0xF6)
+#define FLAG_HIDE_ROCK_TUNNEL_B1F_REVIVE                         (FRLG_FLAGS_START+0xF6)
 #undef  FLAG_HIDE_ROUTE11_AWAKENING
-#define FLAG_HIDE_ROUTE11_AWAKENING                              (FRLG_FLAGS_START + 0xF7)
+#define FLAG_HIDE_ROUTE11_AWAKENING                              (FRLG_FLAGS_START+0xF7)
 #undef  FLAG_HIDE_ROUTE11_GREAT_BALL
-#define FLAG_HIDE_ROUTE11_GREAT_BALL                             (FRLG_FLAGS_START + 0xF8)
+#define FLAG_HIDE_ROUTE11_GREAT_BALL                             (FRLG_FLAGS_START+0xF8)
 #undef  FLAG_HIDE_ROUTE11_X_DEFEND
-#define FLAG_HIDE_ROUTE11_X_DEFEND                               (FRLG_FLAGS_START + 0xF9)
+#define FLAG_HIDE_ROUTE11_X_DEFEND                               (FRLG_FLAGS_START+0xF9)
 #undef  FLAG_HIDE_ROUTE12_IRON
-#define FLAG_HIDE_ROUTE12_IRON                                   (FRLG_FLAGS_START + 0xFA)
+#define FLAG_HIDE_ROUTE12_IRON                                   (FRLG_FLAGS_START+0xFA)
 #undef  FLAG_HIDE_ROUTE12_TM48
-#define FLAG_HIDE_ROUTE12_TM48                                   (FRLG_FLAGS_START + 0xFB)
+#define FLAG_HIDE_ROUTE12_TM48                                   (FRLG_FLAGS_START+0xFB)
 #undef  FLAG_HIDE_ROUTE15_TM18
-#define FLAG_HIDE_ROUTE15_TM18                                   (FRLG_FLAGS_START + 0xFC)
+#define FLAG_HIDE_ROUTE15_TM18                                   (FRLG_FLAGS_START+0xFC)
 #undef  FLAG_HIDE_ROUTE24_TM45
-#define FLAG_HIDE_ROUTE24_TM45                                   (FRLG_FLAGS_START + 0xFD)
+#define FLAG_HIDE_ROUTE24_TM45                                   (FRLG_FLAGS_START+0xFD)
 #undef  FLAG_HIDE_ROUTE25_TM43
-#define FLAG_HIDE_ROUTE25_TM43                                   (FRLG_FLAGS_START + 0xFE)
+#define FLAG_HIDE_ROUTE25_TM43                                   (FRLG_FLAGS_START+0xFE)
 #undef  FLAG_HIDE_ROUTE2_ETHER
-#define FLAG_HIDE_ROUTE2_ETHER                                   (FRLG_FLAGS_START + 0xFF)
+#define FLAG_HIDE_ROUTE2_ETHER                                   (FRLG_FLAGS_START+0xFF)
 #undef  FLAG_HIDE_ROUTE2_PARALYZE_HEAL
-#define FLAG_HIDE_ROUTE2_PARALYZE_HEAL                           (FRLG_FLAGS_START + 0x100)
+#define FLAG_HIDE_ROUTE2_PARALYZE_HEAL                           (FRLG_FLAGS_START+0x100)
 #undef  FLAG_HIDE_ROUTE4_TM05
-#define FLAG_HIDE_ROUTE4_TM05                                    (FRLG_FLAGS_START + 0x101)
+#define FLAG_HIDE_ROUTE4_TM05                                    (FRLG_FLAGS_START+0x101)
 #undef  FLAG_HIDE_ROUTE9_BURN_HEAL
-#define FLAG_HIDE_ROUTE9_BURN_HEAL                               (FRLG_FLAGS_START + 0x102)
+#define FLAG_HIDE_ROUTE9_BURN_HEAL                               (FRLG_FLAGS_START+0x102)
 #undef  FLAG_HIDE_ROUTE9_TM40
-#define FLAG_HIDE_ROUTE9_TM40                                    (FRLG_FLAGS_START + 0x103)
+#define FLAG_HIDE_ROUTE9_TM40                                    (FRLG_FLAGS_START+0x103)
 #undef  FLAG_HIDE_ROUTE_12_SNORLAX
-#define FLAG_HIDE_ROUTE_12_SNORLAX                               (FRLG_FLAGS_START + 0x104)
+#define FLAG_HIDE_ROUTE_12_SNORLAX                               (FRLG_FLAGS_START+0x104)
 #undef  FLAG_HIDE_ROUTE_16_SNORLAX
-#define FLAG_HIDE_ROUTE_16_SNORLAX                               (FRLG_FLAGS_START + 0x105)
+#define FLAG_HIDE_ROUTE_16_SNORLAX                               (FRLG_FLAGS_START+0x105)
 #undef  FLAG_HIDE_ROUTE_22_RIVAL
-#define FLAG_HIDE_ROUTE_22_RIVAL                                 (FRLG_FLAGS_START + 0x106)
+#define FLAG_HIDE_ROUTE_22_RIVAL                                 (FRLG_FLAGS_START+0x106)
 #undef  FLAG_HIDE_RUBY
-#define FLAG_HIDE_RUBY                                           (FRLG_FLAGS_START + 0x107)
+#define FLAG_HIDE_RUBY                                           (FRLG_FLAGS_START+0x107)
 #undef  FLAG_HIDE_RUIN_VALLEY_SCIENTIST
-#define FLAG_HIDE_RUIN_VALLEY_SCIENTIST                          (FRLG_FLAGS_START + 0x108)
+#define FLAG_HIDE_RUIN_VALLEY_SCIENTIST                          (FRLG_FLAGS_START+0x108)
 #undef  FLAG_HIDE_SAFARI_ZONE_CENTER_NUGGET
-#define FLAG_HIDE_SAFARI_ZONE_CENTER_NUGGET                      (FRLG_FLAGS_START + 0x109)
+#define FLAG_HIDE_SAFARI_ZONE_CENTER_NUGGET                      (FRLG_FLAGS_START+0x109)
 #undef  FLAG_HIDE_SAFARI_ZONE_EAST_FULL_RESTORE
-#define FLAG_HIDE_SAFARI_ZONE_EAST_FULL_RESTORE                  (FRLG_FLAGS_START + 0x10A)
+#define FLAG_HIDE_SAFARI_ZONE_EAST_FULL_RESTORE                  (FRLG_FLAGS_START+0x10A)
 #undef  FLAG_HIDE_SAFARI_ZONE_EAST_LEAF_STONE
-#define FLAG_HIDE_SAFARI_ZONE_EAST_LEAF_STONE                    (FRLG_FLAGS_START + 0x10B)
+#define FLAG_HIDE_SAFARI_ZONE_EAST_LEAF_STONE                    (FRLG_FLAGS_START+0x10B)
 #undef  FLAG_HIDE_SAFARI_ZONE_EAST_MAX_POTION
-#define FLAG_HIDE_SAFARI_ZONE_EAST_MAX_POTION                    (FRLG_FLAGS_START + 0x10C)
+#define FLAG_HIDE_SAFARI_ZONE_EAST_MAX_POTION                    (FRLG_FLAGS_START+0x10C)
 #undef  FLAG_HIDE_SAFARI_ZONE_EAST_TM11
-#define FLAG_HIDE_SAFARI_ZONE_EAST_TM11                          (FRLG_FLAGS_START + 0x10D)
+#define FLAG_HIDE_SAFARI_ZONE_EAST_TM11                          (FRLG_FLAGS_START+0x10D)
 #undef  FLAG_HIDE_SAFARI_ZONE_NORTH_PROTEIN
-#define FLAG_HIDE_SAFARI_ZONE_NORTH_PROTEIN                      (FRLG_FLAGS_START + 0x10E)
+#define FLAG_HIDE_SAFARI_ZONE_NORTH_PROTEIN                      (FRLG_FLAGS_START+0x10E)
 #undef  FLAG_HIDE_SAFARI_ZONE_NORTH_QUICK_CLAW
-#define FLAG_HIDE_SAFARI_ZONE_NORTH_QUICK_CLAW                   (FRLG_FLAGS_START + 0x10F)
+#define FLAG_HIDE_SAFARI_ZONE_NORTH_QUICK_CLAW                   (FRLG_FLAGS_START+0x10F)
 #undef  FLAG_HIDE_SAFARI_ZONE_NORTH_TM47
-#define FLAG_HIDE_SAFARI_ZONE_NORTH_TM47                         (FRLG_FLAGS_START + 0x110)
+#define FLAG_HIDE_SAFARI_ZONE_NORTH_TM47                         (FRLG_FLAGS_START+0x110)
 #undef  FLAG_HIDE_SAFARI_ZONE_WEST_GOLD_TEETH
-#define FLAG_HIDE_SAFARI_ZONE_WEST_GOLD_TEETH                    (FRLG_FLAGS_START + 0x111)
+#define FLAG_HIDE_SAFARI_ZONE_WEST_GOLD_TEETH                    (FRLG_FLAGS_START+0x111)
 #undef  FLAG_HIDE_SAFARI_ZONE_WEST_MAX_POTION
-#define FLAG_HIDE_SAFARI_ZONE_WEST_MAX_POTION                    (FRLG_FLAGS_START + 0x112)
+#define FLAG_HIDE_SAFARI_ZONE_WEST_MAX_POTION                    (FRLG_FLAGS_START+0x112)
 #undef  FLAG_HIDE_SAFARI_ZONE_WEST_MAX_REVIVE
-#define FLAG_HIDE_SAFARI_ZONE_WEST_MAX_REVIVE                    (FRLG_FLAGS_START + 0x113)
+#define FLAG_HIDE_SAFARI_ZONE_WEST_MAX_REVIVE                    (FRLG_FLAGS_START+0x113)
 #undef  FLAG_HIDE_SAFARI_ZONE_WEST_TM32
-#define FLAG_HIDE_SAFARI_ZONE_WEST_TM32                          (FRLG_FLAGS_START + 0x114)
+#define FLAG_HIDE_SAFARI_ZONE_WEST_TM32                          (FRLG_FLAGS_START+0x114)
 #undef  FLAG_HIDE_SAFFRON_CITY_POKECENTER_SABRINA_JOURNALS
-#define FLAG_HIDE_SAFFRON_CITY_POKECENTER_SABRINA_JOURNALS       (FRLG_FLAGS_START + 0x115)
+#define FLAG_HIDE_SAFFRON_CITY_POKECENTER_SABRINA_JOURNALS       (FRLG_FLAGS_START+0x115)
 #undef  FLAG_HIDE_SAFFRON_CIVILIANS
-#define FLAG_HIDE_SAFFRON_CIVILIANS                              (FRLG_FLAGS_START + 0x116)
+#define FLAG_HIDE_SAFFRON_CIVILIANS                              (FRLG_FLAGS_START+0x116)
 #undef  FLAG_HIDE_SAFFRON_FAN_CLUB_BEAUTY
-#define FLAG_HIDE_SAFFRON_FAN_CLUB_BEAUTY                        (FRLG_FLAGS_START + 0x117)
+#define FLAG_HIDE_SAFFRON_FAN_CLUB_BEAUTY                        (FRLG_FLAGS_START+0x117)
 #undef  FLAG_HIDE_SAFFRON_FAN_CLUB_BLACKBELT
-#define FLAG_HIDE_SAFFRON_FAN_CLUB_BLACKBELT                     (FRLG_FLAGS_START + 0x118)
+#define FLAG_HIDE_SAFFRON_FAN_CLUB_BLACKBELT                     (FRLG_FLAGS_START+0x118)
 #undef  FLAG_HIDE_SAFFRON_FAN_CLUB_ROCKER
-#define FLAG_HIDE_SAFFRON_FAN_CLUB_ROCKER                        (FRLG_FLAGS_START + 0x119)
+#define FLAG_HIDE_SAFFRON_FAN_CLUB_ROCKER                        (FRLG_FLAGS_START+0x119)
 #undef  FLAG_HIDE_SAFFRON_FAN_CLUB_WOMAN
-#define FLAG_HIDE_SAFFRON_FAN_CLUB_WOMAN                         (FRLG_FLAGS_START + 0x11A)
+#define FLAG_HIDE_SAFFRON_FAN_CLUB_WOMAN                         (FRLG_FLAGS_START+0x11A)
 #undef  FLAG_HIDE_SAFFRON_ROCKETS
-#define FLAG_HIDE_SAFFRON_ROCKETS                                (FRLG_FLAGS_START + 0x11B)
+#define FLAG_HIDE_SAFFRON_ROCKETS                                (FRLG_FLAGS_START+0x11B)
 #undef  FLAG_HIDE_SAPPHIRE
-#define FLAG_HIDE_SAPPHIRE                                       (FRLG_FLAGS_START + 0x11C)
+#define FLAG_HIDE_SAPPHIRE                                       (FRLG_FLAGS_START+0x11C)
 #undef  FLAG_HIDE_SEAFOAM_1F_BOULDER_1
-#define FLAG_HIDE_SEAFOAM_1F_BOULDER_1                           (FRLG_FLAGS_START + 0x11D)
+#define FLAG_HIDE_SEAFOAM_1F_BOULDER_1                           (FRLG_FLAGS_START+0x11D)
 #undef  FLAG_HIDE_SEAFOAM_1F_BOULDER_2
-#define FLAG_HIDE_SEAFOAM_1F_BOULDER_2                           (FRLG_FLAGS_START + 0x11E)
+#define FLAG_HIDE_SEAFOAM_1F_BOULDER_2                           (FRLG_FLAGS_START+0x11E)
 #undef  FLAG_HIDE_SEAFOAM_B1F_BOULDER_1
-#define FLAG_HIDE_SEAFOAM_B1F_BOULDER_1                          (FRLG_FLAGS_START + 0x11F)
+#define FLAG_HIDE_SEAFOAM_B1F_BOULDER_1                          (FRLG_FLAGS_START+0x11F)
 #undef  FLAG_HIDE_SEAFOAM_B1F_BOULDER_2
-#define FLAG_HIDE_SEAFOAM_B1F_BOULDER_2                          (FRLG_FLAGS_START + 0x120)
+#define FLAG_HIDE_SEAFOAM_B1F_BOULDER_2                          (FRLG_FLAGS_START+0x120)
 #undef  FLAG_HIDE_SEAFOAM_B2F_BOULDER_1
-#define FLAG_HIDE_SEAFOAM_B2F_BOULDER_1                          (FRLG_FLAGS_START + 0x121)
+#define FLAG_HIDE_SEAFOAM_B2F_BOULDER_1                          (FRLG_FLAGS_START+0x121)
 #undef  FLAG_HIDE_SEAFOAM_B2F_BOULDER_2
-#define FLAG_HIDE_SEAFOAM_B2F_BOULDER_2                          (FRLG_FLAGS_START + 0x122)
+#define FLAG_HIDE_SEAFOAM_B2F_BOULDER_2                          (FRLG_FLAGS_START+0x122)
 #undef  FLAG_HIDE_SEAFOAM_B3F_BOULDER_1
-#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_1                          (FRLG_FLAGS_START + 0x123)
+#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_1                          (FRLG_FLAGS_START+0x123)
 #undef  FLAG_HIDE_SEAFOAM_B3F_BOULDER_2
-#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_2                          (FRLG_FLAGS_START + 0x124)
+#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_2                          (FRLG_FLAGS_START+0x124)
 #undef  FLAG_HIDE_SEAFOAM_B3F_BOULDER_3
-#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_3                          (FRLG_FLAGS_START + 0x125)
+#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_3                          (FRLG_FLAGS_START+0x125)
 #undef  FLAG_HIDE_SEAFOAM_B3F_BOULDER_4
-#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_4                          (FRLG_FLAGS_START + 0x126)
+#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_4                          (FRLG_FLAGS_START+0x126)
 #undef  FLAG_HIDE_SEAFOAM_B3F_BOULDER_5
-#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_5                          (FRLG_FLAGS_START + 0x127)
+#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_5                          (FRLG_FLAGS_START+0x127)
 #undef  FLAG_HIDE_SEAFOAM_B3F_BOULDER_6
-#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_6                          (FRLG_FLAGS_START + 0x128)
+#define FLAG_HIDE_SEAFOAM_B3F_BOULDER_6                          (FRLG_FLAGS_START+0x128)
 #undef  FLAG_HIDE_SEAFOAM_B4F_BOULDER_1
-#define FLAG_HIDE_SEAFOAM_B4F_BOULDER_1                          (FRLG_FLAGS_START + 0x129)
+#define FLAG_HIDE_SEAFOAM_B4F_BOULDER_1                          (FRLG_FLAGS_START+0x129)
 #undef  FLAG_HIDE_SEAFOAM_B4F_BOULDER_2
-#define FLAG_HIDE_SEAFOAM_B4F_BOULDER_2                          (FRLG_FLAGS_START + 0x12A)
+#define FLAG_HIDE_SEAFOAM_B4F_BOULDER_2                          (FRLG_FLAGS_START+0x12A)
 #undef  FLAG_HIDE_SEAFOAM_ISLANDS_1F_ICE_HEAL
-#define FLAG_HIDE_SEAFOAM_ISLANDS_1F_ICE_HEAL                    (FRLG_FLAGS_START + 0x12B)
+#define FLAG_HIDE_SEAFOAM_ISLANDS_1F_ICE_HEAL                    (FRLG_FLAGS_START+0x12B)
 #undef  FLAG_HIDE_SEAFOAM_ISLANDS_B1F_REVIVE
-#define FLAG_HIDE_SEAFOAM_ISLANDS_B1F_REVIVE                     (FRLG_FLAGS_START + 0x12C)
+#define FLAG_HIDE_SEAFOAM_ISLANDS_B1F_REVIVE                     (FRLG_FLAGS_START+0x12C)
 #undef  FLAG_HIDE_SEAFOAM_ISLANDS_B1F_WATER_STONE
-#define FLAG_HIDE_SEAFOAM_ISLANDS_B1F_WATER_STONE                (FRLG_FLAGS_START + 0x12D)
+#define FLAG_HIDE_SEAFOAM_ISLANDS_B1F_WATER_STONE                (FRLG_FLAGS_START+0x12D)
 #undef  FLAG_HIDE_SEAFOAM_ISLANDS_B2F_BIG_PEARL
-#define FLAG_HIDE_SEAFOAM_ISLANDS_B2F_BIG_PEARL                  (FRLG_FLAGS_START + 0x12E)
+#define FLAG_HIDE_SEAFOAM_ISLANDS_B2F_BIG_PEARL                  (FRLG_FLAGS_START+0x12E)
 #undef  FLAG_HIDE_SEAFOAM_ISLANDS_B4F_ULTRA_BALL
-#define FLAG_HIDE_SEAFOAM_ISLANDS_B4F_ULTRA_BALL                 (FRLG_FLAGS_START + 0x12F)
+#define FLAG_HIDE_SEAFOAM_ISLANDS_B4F_ULTRA_BALL                 (FRLG_FLAGS_START+0x12F)
 #undef  FLAG_HIDE_SELPHYS_BUTLER
-#define FLAG_HIDE_SELPHYS_BUTLER                                 (FRLG_FLAGS_START + 0x130)
+#define FLAG_HIDE_SELPHYS_BUTLER                                 (FRLG_FLAGS_START+0x130)
 #undef  FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_HOUSE_LUCKY_PUNCH
-#define FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_HOUSE_LUCKY_PUNCH  (FRLG_FLAGS_START + 0x131)
+#define FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_HOUSE_LUCKY_PUNCH  (FRLG_FLAGS_START+0x131)
 #undef  FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_KINGS_ROCK
-#define FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_KINGS_ROCK         (FRLG_FLAGS_START + 0x132)
+#define FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_KINGS_ROCK         (FRLG_FLAGS_START+0x132)
 #undef  FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_MAX_ELIXIR
-#define FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_MAX_ELIXIR         (FRLG_FLAGS_START + 0x133)
+#define FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_MAX_ELIXIR         (FRLG_FLAGS_START+0x133)
 #undef  FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_NUGGET
-#define FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_NUGGET             (FRLG_FLAGS_START + 0x134)
+#define FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_NUGGET             (FRLG_FLAGS_START+0x134)
 #undef  FLAG_HIDE_SILPH_CO_10F_CARBOS
-#define FLAG_HIDE_SILPH_CO_10F_CARBOS                            (FRLG_FLAGS_START + 0x135)
+#define FLAG_HIDE_SILPH_CO_10F_CARBOS                            (FRLG_FLAGS_START+0x135)
 #undef  FLAG_HIDE_SILPH_CO_10F_RARE_CANDY
-#define FLAG_HIDE_SILPH_CO_10F_RARE_CANDY                        (FRLG_FLAGS_START + 0x136)
+#define FLAG_HIDE_SILPH_CO_10F_RARE_CANDY                        (FRLG_FLAGS_START+0x136)
 #undef  FLAG_HIDE_SILPH_CO_10F_ULTRA_BALL
-#define FLAG_HIDE_SILPH_CO_10F_ULTRA_BALL                        (FRLG_FLAGS_START + 0x137)
+#define FLAG_HIDE_SILPH_CO_10F_ULTRA_BALL                        (FRLG_FLAGS_START+0x137)
 #undef  FLAG_HIDE_SILPH_CO_11F_ZINC
-#define FLAG_HIDE_SILPH_CO_11F_ZINC                              (FRLG_FLAGS_START + 0x138)
+#define FLAG_HIDE_SILPH_CO_11F_ZINC                              (FRLG_FLAGS_START+0x138)
 #undef  FLAG_HIDE_SILPH_CO_3F_HYPER_POTION
-#define FLAG_HIDE_SILPH_CO_3F_HYPER_POTION                       (FRLG_FLAGS_START + 0x139)
+#define FLAG_HIDE_SILPH_CO_3F_HYPER_POTION                       (FRLG_FLAGS_START+0x139)
 #undef  FLAG_HIDE_SILPH_CO_4F_ESCAPE_ROPE
-#define FLAG_HIDE_SILPH_CO_4F_ESCAPE_ROPE                        (FRLG_FLAGS_START + 0x13A)
+#define FLAG_HIDE_SILPH_CO_4F_ESCAPE_ROPE                        (FRLG_FLAGS_START+0x13A)
 #undef  FLAG_HIDE_SILPH_CO_4F_FULL_HEAL
-#define FLAG_HIDE_SILPH_CO_4F_FULL_HEAL                          (FRLG_FLAGS_START + 0x13B)
+#define FLAG_HIDE_SILPH_CO_4F_FULL_HEAL                          (FRLG_FLAGS_START+0x13B)
 #undef  FLAG_HIDE_SILPH_CO_4F_MAX_REVIVE
-#define FLAG_HIDE_SILPH_CO_4F_MAX_REVIVE                         (FRLG_FLAGS_START + 0x13C)
+#define FLAG_HIDE_SILPH_CO_4F_MAX_REVIVE                         (FRLG_FLAGS_START+0x13C)
 #undef  FLAG_HIDE_SILPH_CO_4F_TM41
-#define FLAG_HIDE_SILPH_CO_4F_TM41                               (FRLG_FLAGS_START + 0x13D)
+#define FLAG_HIDE_SILPH_CO_4F_TM41                               (FRLG_FLAGS_START+0x13D)
 #undef  FLAG_HIDE_SILPH_CO_5F_CARD_KEY
-#define FLAG_HIDE_SILPH_CO_5F_CARD_KEY                           (FRLG_FLAGS_START + 0x13E)
+#define FLAG_HIDE_SILPH_CO_5F_CARD_KEY                           (FRLG_FLAGS_START+0x13E)
 #undef  FLAG_HIDE_SILPH_CO_5F_PROTEIN
-#define FLAG_HIDE_SILPH_CO_5F_PROTEIN                            (FRLG_FLAGS_START + 0x13F)
+#define FLAG_HIDE_SILPH_CO_5F_PROTEIN                            (FRLG_FLAGS_START+0x13F)
 #undef  FLAG_HIDE_SILPH_CO_5F_TM01
-#define FLAG_HIDE_SILPH_CO_5F_TM01                               (FRLG_FLAGS_START + 0x140)
+#define FLAG_HIDE_SILPH_CO_5F_TM01                               (FRLG_FLAGS_START+0x140)
 #undef  FLAG_HIDE_SILPH_CO_6F_HP_UP
-#define FLAG_HIDE_SILPH_CO_6F_HP_UP                              (FRLG_FLAGS_START + 0x141)
+#define FLAG_HIDE_SILPH_CO_6F_HP_UP                              (FRLG_FLAGS_START+0x141)
 #undef  FLAG_HIDE_SILPH_CO_6F_X_SPECIAL
-#define FLAG_HIDE_SILPH_CO_6F_X_SPECIAL                          (FRLG_FLAGS_START + 0x142)
+#define FLAG_HIDE_SILPH_CO_6F_X_SPECIAL                          (FRLG_FLAGS_START+0x142)
 #undef  FLAG_HIDE_SILPH_CO_7F_CALCIUM
-#define FLAG_HIDE_SILPH_CO_7F_CALCIUM                            (FRLG_FLAGS_START + 0x143)
+#define FLAG_HIDE_SILPH_CO_7F_CALCIUM                            (FRLG_FLAGS_START+0x143)
 #undef  FLAG_HIDE_SILPH_CO_7F_TM08
-#define FLAG_HIDE_SILPH_CO_7F_TM08                               (FRLG_FLAGS_START + 0x144)
+#define FLAG_HIDE_SILPH_CO_7F_TM08                               (FRLG_FLAGS_START+0x144)
 #undef  FLAG_HIDE_SILPH_CO_8F_IRON
-#define FLAG_HIDE_SILPH_CO_8F_IRON                               (FRLG_FLAGS_START + 0x145)
+#define FLAG_HIDE_SILPH_CO_8F_IRON                               (FRLG_FLAGS_START+0x145)
 #undef  FLAG_HIDE_SILPH_RIVAL
-#define FLAG_HIDE_SILPH_RIVAL                                    (FRLG_FLAGS_START + 0x146)
+#define FLAG_HIDE_SILPH_RIVAL                                    (FRLG_FLAGS_START+0x146)
 #undef  FLAG_HIDE_SILPH_ROCKETS
-#define FLAG_HIDE_SILPH_ROCKETS                                  (FRLG_FLAGS_START + 0x147)
+#define FLAG_HIDE_SILPH_ROCKETS                                  (FRLG_FLAGS_START+0x147)
 #undef  FLAG_HIDE_SILPH_SCOPE
-#define FLAG_HIDE_SILPH_SCOPE                                    (FRLG_FLAGS_START + 0x148)
+#define FLAG_HIDE_SILPH_SCOPE                                    (FRLG_FLAGS_START+0x148)
 #undef  FLAG_HIDE_SIX_ISLAND_OUTCAST_ISLAND_PP_UP
-#define FLAG_HIDE_SIX_ISLAND_OUTCAST_ISLAND_PP_UP                (FRLG_FLAGS_START + 0x149)
+#define FLAG_HIDE_SIX_ISLAND_OUTCAST_ISLAND_PP_UP                (FRLG_FLAGS_START+0x149)
 #undef  FLAG_HIDE_SIX_ISLAND_POKECENTER_RIVAL
-#define FLAG_HIDE_SIX_ISLAND_POKECENTER_RIVAL                    (FRLG_FLAGS_START + 0x14A)
+#define FLAG_HIDE_SIX_ISLAND_POKECENTER_RIVAL                    (FRLG_FLAGS_START+0x14A)
 #undef  FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_FULL_RESTORE
-#define FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_FULL_RESTORE            (FRLG_FLAGS_START + 0x14B)
+#define FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_FULL_RESTORE            (FRLG_FLAGS_START+0x14B)
 #undef  FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_HP_UP
-#define FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_HP_UP                   (FRLG_FLAGS_START + 0x14C)
+#define FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_HP_UP                   (FRLG_FLAGS_START+0x14C)
 #undef  FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_SUN_STONE
-#define FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_SUN_STONE               (FRLG_FLAGS_START + 0x14D)
+#define FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_SUN_STONE               (FRLG_FLAGS_START+0x14D)
 #undef  FLAG_HIDE_SIX_ISLAND_WATER_PATH_DRAGON_SCALE
-#define FLAG_HIDE_SIX_ISLAND_WATER_PATH_DRAGON_SCALE             (FRLG_FLAGS_START + 0x14E)
+#define FLAG_HIDE_SIX_ISLAND_WATER_PATH_DRAGON_SCALE             (FRLG_FLAGS_START+0x14E)
 #undef  FLAG_HIDE_SIX_ISLAND_WATER_PATH_ELIXIR
-#define FLAG_HIDE_SIX_ISLAND_WATER_PATH_ELIXIR                   (FRLG_FLAGS_START + 0x14F)
+#define FLAG_HIDE_SIX_ISLAND_WATER_PATH_ELIXIR                   (FRLG_FLAGS_START+0x14F)
 #undef  FLAG_HIDE_SQUIRTLE_BALL
-#define FLAG_HIDE_SQUIRTLE_BALL                                  (FRLG_FLAGS_START + 0x150)
+#define FLAG_HIDE_SQUIRTLE_BALL                                  (FRLG_FLAGS_START+0x150)
 #undef  FLAG_HIDE_SSANNE_1F_ROOM2_TM31
-#define FLAG_HIDE_SSANNE_1F_ROOM2_TM31                           (FRLG_FLAGS_START + 0x151)
+#define FLAG_HIDE_SSANNE_1F_ROOM2_TM31                           (FRLG_FLAGS_START+0x151)
 #undef  FLAG_HIDE_SSANNE_2F_ROOM2_STARDUST
-#define FLAG_HIDE_SSANNE_2F_ROOM2_STARDUST                       (FRLG_FLAGS_START + 0x152)
+#define FLAG_HIDE_SSANNE_2F_ROOM2_STARDUST                       (FRLG_FLAGS_START+0x152)
 #undef  FLAG_HIDE_SSANNE_2F_ROOM4_X_ATTACK
-#define FLAG_HIDE_SSANNE_2F_ROOM4_X_ATTACK                       (FRLG_FLAGS_START + 0x153)
+#define FLAG_HIDE_SSANNE_2F_ROOM4_X_ATTACK                       (FRLG_FLAGS_START+0x153)
 #undef  FLAG_HIDE_SSANNE_B1F_ROOM2_TM44
-#define FLAG_HIDE_SSANNE_B1F_ROOM2_TM44                          (FRLG_FLAGS_START + 0x154)
+#define FLAG_HIDE_SSANNE_B1F_ROOM2_TM44                          (FRLG_FLAGS_START+0x154)
 #undef  FLAG_HIDE_SSANNE_B1F_ROOM3_ETHER
-#define FLAG_HIDE_SSANNE_B1F_ROOM3_ETHER                         (FRLG_FLAGS_START + 0x155)
+#define FLAG_HIDE_SSANNE_B1F_ROOM3_ETHER                         (FRLG_FLAGS_START+0x155)
 #undef  FLAG_HIDE_SSANNE_B1F_ROOM5_SUPER_POTION
-#define FLAG_HIDE_SSANNE_B1F_ROOM5_SUPER_POTION                  (FRLG_FLAGS_START + 0x156)
+#define FLAG_HIDE_SSANNE_B1F_ROOM5_SUPER_POTION                  (FRLG_FLAGS_START+0x156)
 #undef  FLAG_HIDE_SSANNE_KITCHEN_GREAT_BALL
-#define FLAG_HIDE_SSANNE_KITCHEN_GREAT_BALL                      (FRLG_FLAGS_START + 0x157)
+#define FLAG_HIDE_SSANNE_KITCHEN_GREAT_BALL                      (FRLG_FLAGS_START+0x157)
 #undef  FLAG_HIDE_SS_ANNE
-#define FLAG_HIDE_SS_ANNE                                        (FRLG_FLAGS_START + 0x158)
+#define FLAG_HIDE_SS_ANNE                                        (FRLG_FLAGS_START+0x158)
 #undef  FLAG_HIDE_SS_ANNE_RIVAL
-#define FLAG_HIDE_SS_ANNE_RIVAL                                  (FRLG_FLAGS_START + 0x159)
+#define FLAG_HIDE_SS_ANNE_RIVAL                                  (FRLG_FLAGS_START+0x159)
 #undef  FLAG_HIDE_THREE_ISLAND_ANTIBIKERS
-#define FLAG_HIDE_THREE_ISLAND_ANTIBIKERS                        (FRLG_FLAGS_START + 0x15A)
+#define FLAG_HIDE_THREE_ISLAND_ANTIBIKERS                        (FRLG_FLAGS_START+0x15A)
 #undef  FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_FULL_HEAL
-#define FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_FULL_HEAL            (FRLG_FLAGS_START + 0x15B)
+#define FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_FULL_HEAL            (FRLG_FLAGS_START+0x15B)
 #undef  FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_MAX_ELIXIR
-#define FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_MAX_ELIXIR           (FRLG_FLAGS_START + 0x15C)
+#define FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_MAX_ELIXIR           (FRLG_FLAGS_START+0x15C)
 #undef  FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_MAX_ETHER
-#define FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_MAX_ETHER            (FRLG_FLAGS_START + 0x15D)
+#define FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_MAX_ETHER            (FRLG_FLAGS_START+0x15D)
 #undef  FLAG_HIDE_THREE_ISLAND_BIKERS
-#define FLAG_HIDE_THREE_ISLAND_BIKERS                            (FRLG_FLAGS_START + 0x15E)
+#define FLAG_HIDE_THREE_ISLAND_BIKERS                            (FRLG_FLAGS_START+0x15E)
 #undef  FLAG_HIDE_THREE_ISLAND_LONE_BIKER
-#define FLAG_HIDE_THREE_ISLAND_LONE_BIKER                        (FRLG_FLAGS_START + 0x15F)
+#define FLAG_HIDE_THREE_ISLAND_LONE_BIKER                        (FRLG_FLAGS_START+0x15F)
 #undef  FLAG_HIDE_THREE_ISLAND_ZINC
-#define FLAG_HIDE_THREE_ISLAND_ZINC                              (FRLG_FLAGS_START + 0x160)
+#define FLAG_HIDE_THREE_ISLAND_ZINC                              (FRLG_FLAGS_START+0x160)
 #undef  FLAG_HIDE_TOWER_FUJI
-#define FLAG_HIDE_TOWER_FUJI                                     (FRLG_FLAGS_START + 0x161)
+#define FLAG_HIDE_TOWER_FUJI                                     (FRLG_FLAGS_START+0x161)
 #undef  FLAG_HIDE_TOWER_RIVAL
-#define FLAG_HIDE_TOWER_RIVAL                                    (FRLG_FLAGS_START + 0x162)
+#define FLAG_HIDE_TOWER_RIVAL                                    (FRLG_FLAGS_START+0x162)
 #undef  FLAG_HIDE_TOWER_ROCKET_1
-#define FLAG_HIDE_TOWER_ROCKET_1                                 (FRLG_FLAGS_START + 0x163)
+#define FLAG_HIDE_TOWER_ROCKET_1                                 (FRLG_FLAGS_START+0x163)
 #undef  FLAG_HIDE_TOWER_ROCKET_2
-#define FLAG_HIDE_TOWER_ROCKET_2                                 (FRLG_FLAGS_START + 0x164)
+#define FLAG_HIDE_TOWER_ROCKET_2                                 (FRLG_FLAGS_START+0x164)
 #undef  FLAG_HIDE_TOWER_ROCKET_3
-#define FLAG_HIDE_TOWER_ROCKET_3                                 (FRLG_FLAGS_START + 0x165)
+#define FLAG_HIDE_TOWER_ROCKET_3                                 (FRLG_FLAGS_START+0x165)
 #undef  FLAG_HIDE_TOWN_MAP
-#define FLAG_HIDE_TOWN_MAP                                       (FRLG_FLAGS_START + 0x166)
+#define FLAG_HIDE_TOWN_MAP                                       (FRLG_FLAGS_START+0x166)
 #undef  FLAG_HIDE_TWO_ISLAND_BEAUTY
-#define FLAG_HIDE_TWO_ISLAND_BEAUTY                              (FRLG_FLAGS_START + 0x167)
+#define FLAG_HIDE_TWO_ISLAND_BEAUTY                              (FRLG_FLAGS_START+0x167)
 #undef  FLAG_HIDE_TWO_ISLAND_GAME_CORNER_BIKER
-#define FLAG_HIDE_TWO_ISLAND_GAME_CORNER_BIKER                   (FRLG_FLAGS_START + 0x168)
+#define FLAG_HIDE_TWO_ISLAND_GAME_CORNER_BIKER                   (FRLG_FLAGS_START+0x168)
 #undef  FLAG_HIDE_TWO_ISLAND_GAME_CORNER_LOSTELLE
-#define FLAG_HIDE_TWO_ISLAND_GAME_CORNER_LOSTELLE                (FRLG_FLAGS_START + 0x169)
+#define FLAG_HIDE_TWO_ISLAND_GAME_CORNER_LOSTELLE                (FRLG_FLAGS_START+0x169)
 #undef  FLAG_HIDE_TWO_ISLAND_REVIVE
-#define FLAG_HIDE_TWO_ISLAND_REVIVE                              (FRLG_FLAGS_START + 0x16A)
+#define FLAG_HIDE_TWO_ISLAND_REVIVE                              (FRLG_FLAGS_START+0x16A)
 #undef  FLAG_HIDE_TWO_ISLAND_SUPER_NERD
-#define FLAG_HIDE_TWO_ISLAND_SUPER_NERD                          (FRLG_FLAGS_START + 0x16B)
+#define FLAG_HIDE_TWO_ISLAND_SUPER_NERD                          (FRLG_FLAGS_START+0x16B)
 #undef  FLAG_HIDE_TWO_ISLAND_WOMAN
-#define FLAG_HIDE_TWO_ISLAND_WOMAN                               (FRLG_FLAGS_START + 0x16C)
+#define FLAG_HIDE_TWO_ISLAND_WOMAN                               (FRLG_FLAGS_START+0x16C)
 #undef  FLAG_HIDE_VERMILION_CITY_OAKS_AIDE
-#define FLAG_HIDE_VERMILION_CITY_OAKS_AIDE                       (FRLG_FLAGS_START + 0x16D)
+#define FLAG_HIDE_VERMILION_CITY_OAKS_AIDE                       (FRLG_FLAGS_START+0x16D)
 #undef  FLAG_HIDE_VICTORY_ROAD_1F_RARE_CANDY
-#define FLAG_HIDE_VICTORY_ROAD_1F_RARE_CANDY                     (FRLG_FLAGS_START + 0x16E)
+#define FLAG_HIDE_VICTORY_ROAD_1F_RARE_CANDY                     (FRLG_FLAGS_START+0x16E)
 #undef  FLAG_HIDE_VICTORY_ROAD_1F_TM02
-#define FLAG_HIDE_VICTORY_ROAD_1F_TM02                           (FRLG_FLAGS_START + 0x16F)
+#define FLAG_HIDE_VICTORY_ROAD_1F_TM02                           (FRLG_FLAGS_START+0x16F)
 #undef  FLAG_HIDE_VICTORY_ROAD_2F_BOULDER
-#define FLAG_HIDE_VICTORY_ROAD_2F_BOULDER                        (FRLG_FLAGS_START + 0x170)
+#define FLAG_HIDE_VICTORY_ROAD_2F_BOULDER                        (FRLG_FLAGS_START+0x170)
 #undef  FLAG_HIDE_VICTORY_ROAD_2F_FULL_HEAL
-#define FLAG_HIDE_VICTORY_ROAD_2F_FULL_HEAL                      (FRLG_FLAGS_START + 0x171)
+#define FLAG_HIDE_VICTORY_ROAD_2F_FULL_HEAL                      (FRLG_FLAGS_START+0x171)
 #undef  FLAG_HIDE_VICTORY_ROAD_2F_GUARD_SPEC
-#define FLAG_HIDE_VICTORY_ROAD_2F_GUARD_SPEC                     (FRLG_FLAGS_START + 0x172)
+#define FLAG_HIDE_VICTORY_ROAD_2F_GUARD_SPEC                     (FRLG_FLAGS_START+0x172)
 #undef  FLAG_HIDE_VICTORY_ROAD_2F_TM07
-#define FLAG_HIDE_VICTORY_ROAD_2F_TM07                           (FRLG_FLAGS_START + 0x173)
+#define FLAG_HIDE_VICTORY_ROAD_2F_TM07                           (FRLG_FLAGS_START+0x173)
 #undef  FLAG_HIDE_VICTORY_ROAD_2F_TM37
-#define FLAG_HIDE_VICTORY_ROAD_2F_TM37                           (FRLG_FLAGS_START + 0x174)
+#define FLAG_HIDE_VICTORY_ROAD_2F_TM37                           (FRLG_FLAGS_START+0x174)
 #undef  FLAG_HIDE_VICTORY_ROAD_3F_BOULDER
-#define FLAG_HIDE_VICTORY_ROAD_3F_BOULDER                        (FRLG_FLAGS_START + 0x175)
+#define FLAG_HIDE_VICTORY_ROAD_3F_BOULDER                        (FRLG_FLAGS_START+0x175)
 #undef  FLAG_HIDE_VICTORY_ROAD_3F_MAX_REVIVE
-#define FLAG_HIDE_VICTORY_ROAD_3F_MAX_REVIVE                     (FRLG_FLAGS_START + 0x176)
+#define FLAG_HIDE_VICTORY_ROAD_3F_MAX_REVIVE                     (FRLG_FLAGS_START+0x176)
 #undef  FLAG_HIDE_VICTORY_ROAD_3F_TM50
-#define FLAG_HIDE_VICTORY_ROAD_3F_TM50                           (FRLG_FLAGS_START + 0x177)
+#define FLAG_HIDE_VICTORY_ROAD_3F_TM50                           (FRLG_FLAGS_START+0x177)
 #undef  FLAG_HIDE_VIRIDIAN_CITY_POTION
-#define FLAG_HIDE_VIRIDIAN_CITY_POTION                           (FRLG_FLAGS_START + 0x178)
+#define FLAG_HIDE_VIRIDIAN_CITY_POTION                           (FRLG_FLAGS_START+0x178)
 #undef  FLAG_HIDE_VIRIDIAN_FOREST_ANTIDOTE
-#define FLAG_HIDE_VIRIDIAN_FOREST_ANTIDOTE                       (FRLG_FLAGS_START + 0x179)
+#define FLAG_HIDE_VIRIDIAN_FOREST_ANTIDOTE                       (FRLG_FLAGS_START+0x179)
 #undef  FLAG_HIDE_VIRIDIAN_FOREST_POKE_BALL
-#define FLAG_HIDE_VIRIDIAN_FOREST_POKE_BALL                      (FRLG_FLAGS_START + 0x17A)
+#define FLAG_HIDE_VIRIDIAN_FOREST_POKE_BALL                      (FRLG_FLAGS_START+0x17A)
 #undef  FLAG_HIDE_VIRIDIAN_FOREST_POTION
-#define FLAG_HIDE_VIRIDIAN_FOREST_POTION                         (FRLG_FLAGS_START + 0x17B)
+#define FLAG_HIDE_VIRIDIAN_FOREST_POTION                         (FRLG_FLAGS_START+0x17B)
 #undef  FLAG_HIDE_VIRIDIAN_FOREST_POTION_2
-#define FLAG_HIDE_VIRIDIAN_FOREST_POTION_2                       (FRLG_FLAGS_START + 0x17C)
+#define FLAG_HIDE_VIRIDIAN_FOREST_POTION_2                       (FRLG_FLAGS_START+0x17C)
 #undef  FLAG_HIDE_VIRIDIAN_GIOVANNI
-#define FLAG_HIDE_VIRIDIAN_GIOVANNI                              (FRLG_FLAGS_START + 0x17D)
+#define FLAG_HIDE_VIRIDIAN_GIOVANNI                              (FRLG_FLAGS_START+0x17D)
 #undef  FLAG_HO_OH_FLEW_AWAY
-#define FLAG_HO_OH_FLEW_AWAY                                     (FRLG_FLAGS_START + 0x17E)
+#define FLAG_HO_OH_FLEW_AWAY                                     (FRLG_FLAGS_START+0x17E)
 #undef  FLAG_LEARNED_YES_NAH_CHANSEY
-#define FLAG_LEARNED_YES_NAH_CHANSEY                             (FRLG_FLAGS_START + 0x17F)
+#define FLAG_LEARNED_YES_NAH_CHANSEY                             (FRLG_FLAGS_START+0x17F)
 #undef  FLAG_LUGIA_FLEW_AWAY
-#define FLAG_LUGIA_FLEW_AWAY                                     (FRLG_FLAGS_START + 0x180)
+#define FLAG_LUGIA_FLEW_AWAY                                     (FRLG_FLAGS_START+0x180)
 #undef  FLAG_NO_ROOM_FOR_JOYFUL_GAME_CORNER_MOON_STONE
-#define FLAG_NO_ROOM_FOR_JOYFUL_GAME_CORNER_MOON_STONE           (FRLG_FLAGS_START + 0x181)
+#define FLAG_NO_ROOM_FOR_JOYFUL_GAME_CORNER_MOON_STONE           (FRLG_FLAGS_START+0x181)
 #undef  FLAG_NO_ROOM_FOR_TM42_AT_MEMORIAL_PILLAR
-#define FLAG_NO_ROOM_FOR_TM42_AT_MEMORIAL_PILLAR                 (FRLG_FLAGS_START + 0x182)
+#define FLAG_NO_ROOM_FOR_TM42_AT_MEMORIAL_PILLAR                 (FRLG_FLAGS_START+0x182)
 #undef  FLAG_NO_ROOM_FOR_TOGEPI_EGG
-#define FLAG_NO_ROOM_FOR_TOGEPI_EGG                              (FRLG_FLAGS_START + 0x183)
+#define FLAG_NO_ROOM_FOR_TOGEPI_EGG                              (FRLG_FLAGS_START+0x183)
 #undef  FLAG_OAK_SAW_DEX_COMPLETION
-#define FLAG_OAK_SAW_DEX_COMPLETION                              (FRLG_FLAGS_START + 0x184)
+#define FLAG_OAK_SAW_DEX_COMPLETION                              (FRLG_FLAGS_START+0x184)
 #undef  FLAG_OAK_SKIP_22_RIVAL_CHECK
-#define FLAG_OAK_SKIP_22_RIVAL_CHECK                             (FRLG_FLAGS_START + 0x185)
+#define FLAG_OAK_SKIP_22_RIVAL_CHECK                             (FRLG_FLAGS_START+0x185)
 #undef  FLAG_OPENED_ROCKET_HIDEOUT
-#define FLAG_OPENED_ROCKET_HIDEOUT                               (FRLG_FLAGS_START + 0x186)
+#define FLAG_OPENED_ROCKET_HIDEOUT                               (FRLG_FLAGS_START+0x186)
 #undef  FLAG_PALLET_LADY_NOT_BLOCKING_SIGN
-#define FLAG_PALLET_LADY_NOT_BLOCKING_SIGN                       (FRLG_FLAGS_START + 0x187)
+#define FLAG_PALLET_LADY_NOT_BLOCKING_SIGN                       (FRLG_FLAGS_START+0x187)
 #undef  FLAG_POKEMON_MANSION_SWITCH_STATE
-#define FLAG_POKEMON_MANSION_SWITCH_STATE                        (FRLG_FLAGS_START + 0x188)
+#define FLAG_POKEMON_MANSION_SWITCH_STATE                        (FRLG_FLAGS_START+0x188)
 #undef  FLAG_RECOVERED_SAPPHIRE
-#define FLAG_RECOVERED_SAPPHIRE                                  (FRLG_FLAGS_START + 0x189)
+#define FLAG_RECOVERED_SAPPHIRE                                  (FRLG_FLAGS_START+0x189)
 #undef  FLAG_RESCUED_LOSTELLE
-#define FLAG_RESCUED_LOSTELLE                                    (FRLG_FLAGS_START + 0x18A)
+#define FLAG_RESCUED_LOSTELLE                                    (FRLG_FLAGS_START+0x18A)
 #undef  FLAG_RESCUED_MR_FUJI
-#define FLAG_RESCUED_MR_FUJI                                     (FRLG_FLAGS_START + 0x18B)
+#define FLAG_RESCUED_MR_FUJI                                     (FRLG_FLAGS_START+0x18B)
 #undef  FLAG_REVIVED_AMBER
-#define FLAG_REVIVED_AMBER                                       (FRLG_FLAGS_START + 0x18C)
+#define FLAG_REVIVED_AMBER                                       (FRLG_FLAGS_START+0x18C)
 #undef  FLAG_REVIVED_DOME
-#define FLAG_REVIVED_DOME                                        (FRLG_FLAGS_START + 0x18D)
+#define FLAG_REVIVED_DOME                                        (FRLG_FLAGS_START+0x18D)
 #undef  FLAG_REVIVED_HELIX
-#define FLAG_REVIVED_HELIX                                       (FRLG_FLAGS_START + 0x18E)
+#define FLAG_REVIVED_HELIX                                       (FRLG_FLAGS_START+0x18E)
 #undef  FLAG_SEVII_DETOUR_FINISHED
-#define FLAG_SEVII_DETOUR_FINISHED                               (FRLG_FLAGS_START + 0x18F)
+#define FLAG_SEVII_DETOUR_FINISHED                               (FRLG_FLAGS_START+0x18F)
 #undef  FLAG_SILPH_10F_DOOR
-#define FLAG_SILPH_10F_DOOR                                      (FRLG_FLAGS_START + 0x190)
+#define FLAG_SILPH_10F_DOOR                                      (FRLG_FLAGS_START+0x190)
 #undef  FLAG_SILPH_11F_DOOR
-#define FLAG_SILPH_11F_DOOR                                      (FRLG_FLAGS_START + 0x191)
+#define FLAG_SILPH_11F_DOOR                                      (FRLG_FLAGS_START+0x191)
 #undef  FLAG_SILPH_2F_DOOR_1
-#define FLAG_SILPH_2F_DOOR_1                                     (FRLG_FLAGS_START + 0x192)
+#define FLAG_SILPH_2F_DOOR_1                                     (FRLG_FLAGS_START+0x192)
 #undef  FLAG_SILPH_2F_DOOR_2
-#define FLAG_SILPH_2F_DOOR_2                                     (FRLG_FLAGS_START + 0x193)
+#define FLAG_SILPH_2F_DOOR_2                                     (FRLG_FLAGS_START+0x193)
 #undef  FLAG_SILPH_3F_DOOR_1
-#define FLAG_SILPH_3F_DOOR_1                                     (FRLG_FLAGS_START + 0x194)
+#define FLAG_SILPH_3F_DOOR_1                                     (FRLG_FLAGS_START+0x194)
 #undef  FLAG_SILPH_3F_DOOR_2
-#define FLAG_SILPH_3F_DOOR_2                                     (FRLG_FLAGS_START + 0x195)
+#define FLAG_SILPH_3F_DOOR_2                                     (FRLG_FLAGS_START+0x195)
 #undef  FLAG_SILPH_4F_DOOR_1
-#define FLAG_SILPH_4F_DOOR_1                                     (FRLG_FLAGS_START + 0x196)
+#define FLAG_SILPH_4F_DOOR_1                                     (FRLG_FLAGS_START+0x196)
 #undef  FLAG_SILPH_4F_DOOR_2
-#define FLAG_SILPH_4F_DOOR_2                                     (FRLG_FLAGS_START + 0x197)
+#define FLAG_SILPH_4F_DOOR_2                                     (FRLG_FLAGS_START+0x197)
 #undef  FLAG_SILPH_5F_DOOR_1
-#define FLAG_SILPH_5F_DOOR_1                                     (FRLG_FLAGS_START + 0x198)
+#define FLAG_SILPH_5F_DOOR_1                                     (FRLG_FLAGS_START+0x198)
 #undef  FLAG_SILPH_5F_DOOR_2
-#define FLAG_SILPH_5F_DOOR_2                                     (FRLG_FLAGS_START + 0x199)
+#define FLAG_SILPH_5F_DOOR_2                                     (FRLG_FLAGS_START+0x199)
 #undef  FLAG_SILPH_5F_DOOR_3
-#define FLAG_SILPH_5F_DOOR_3                                     (FRLG_FLAGS_START + 0x19A)
+#define FLAG_SILPH_5F_DOOR_3                                     (FRLG_FLAGS_START+0x19A)
 #undef  FLAG_SILPH_6F_DOOR
-#define FLAG_SILPH_6F_DOOR                                       (FRLG_FLAGS_START + 0x19B)
+#define FLAG_SILPH_6F_DOOR                                       (FRLG_FLAGS_START+0x19B)
 #undef  FLAG_SILPH_7F_DOOR_1
-#define FLAG_SILPH_7F_DOOR_1                                     (FRLG_FLAGS_START + 0x19C)
+#define FLAG_SILPH_7F_DOOR_1                                     (FRLG_FLAGS_START+0x19C)
 #undef  FLAG_SILPH_7F_DOOR_2
-#define FLAG_SILPH_7F_DOOR_2                                     (FRLG_FLAGS_START + 0x19D)
+#define FLAG_SILPH_7F_DOOR_2                                     (FRLG_FLAGS_START+0x19D)
 #undef  FLAG_SILPH_7F_DOOR_3
-#define FLAG_SILPH_7F_DOOR_3                                     (FRLG_FLAGS_START + 0x19E)
+#define FLAG_SILPH_7F_DOOR_3                                     (FRLG_FLAGS_START+0x19E)
 #undef  FLAG_SILPH_8F_DOOR
-#define FLAG_SILPH_8F_DOOR                                       (FRLG_FLAGS_START + 0x19F)
+#define FLAG_SILPH_8F_DOOR                                       (FRLG_FLAGS_START+0x19F)
 #undef  FLAG_SILPH_9F_DOOR_1
-#define FLAG_SILPH_9F_DOOR_1                                     (FRLG_FLAGS_START + 0x1A0)
+#define FLAG_SILPH_9F_DOOR_1                                     (FRLG_FLAGS_START+0x1A0)
 #undef  FLAG_SILPH_9F_DOOR_2
-#define FLAG_SILPH_9F_DOOR_2                                     (FRLG_FLAGS_START + 0x1A1)
+#define FLAG_SILPH_9F_DOOR_2                                     (FRLG_FLAGS_START+0x1A1)
 #undef  FLAG_SILPH_9F_DOOR_3
-#define FLAG_SILPH_9F_DOOR_3                                     (FRLG_FLAGS_START + 0x1A2)
+#define FLAG_SILPH_9F_DOOR_3                                     (FRLG_FLAGS_START+0x1A2)
 #undef  FLAG_SILPH_9F_DOOR_4
-#define FLAG_SILPH_9F_DOOR_4                                     (FRLG_FLAGS_START + 0x1A3)
+#define FLAG_SILPH_9F_DOOR_4                                     (FRLG_FLAGS_START+0x1A3)
 #undef  FLAG_STOPPED_SEAFOAM_B3F_CURRENT
-#define FLAG_STOPPED_SEAFOAM_B3F_CURRENT                         (FRLG_FLAGS_START + 0x1A4)
+#define FLAG_STOPPED_SEAFOAM_B3F_CURRENT                         (FRLG_FLAGS_START+0x1A4)
 #undef  FLAG_STOPPED_SEAFOAM_B4F_CURRENT
-#define FLAG_STOPPED_SEAFOAM_B4F_CURRENT                         (FRLG_FLAGS_START + 0x1A5)
+#define FLAG_STOPPED_SEAFOAM_B4F_CURRENT                         (FRLG_FLAGS_START+0x1A5)
 #undef  FLAG_TALKED_TO_LORELEI_AFTER_WAREHOUSE
-#define FLAG_TALKED_TO_LORELEI_AFTER_WAREHOUSE                   (FRLG_FLAGS_START + 0x1A6)
+#define FLAG_TALKED_TO_LORELEI_AFTER_WAREHOUSE                   (FRLG_FLAGS_START+0x1A6)
 #undef  FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION
-#define FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION                    (FRLG_FLAGS_START + 0x1A7)
+#define FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION                    (FRLG_FLAGS_START+0x1A7)
 #undef  FLAG_TALKED_TO_TEA_LADY_AFTER_HOF
-#define FLAG_TALKED_TO_TEA_LADY_AFTER_HOF                        (FRLG_FLAGS_START + 0x1A8)
+#define FLAG_TALKED_TO_TEA_LADY_AFTER_HOF                        (FRLG_FLAGS_START+0x1A8)
 #undef  FLAG_TWO_ISLAND_SHOP_EXPANDED_1
-#define FLAG_TWO_ISLAND_SHOP_EXPANDED_1                          (FRLG_FLAGS_START + 0x1A9)
+#define FLAG_TWO_ISLAND_SHOP_EXPANDED_1                          (FRLG_FLAGS_START+0x1A9)
 #undef  FLAG_TWO_ISLAND_SHOP_EXPANDED_2
-#define FLAG_TWO_ISLAND_SHOP_EXPANDED_2                          (FRLG_FLAGS_START + 0x1AA)
+#define FLAG_TWO_ISLAND_SHOP_EXPANDED_2                          (FRLG_FLAGS_START+0x1AA)
 #undef  FLAG_TWO_ISLAND_SHOP_EXPANDED_3
-#define FLAG_TWO_ISLAND_SHOP_EXPANDED_3                          (FRLG_FLAGS_START + 0x1AB)
+#define FLAG_TWO_ISLAND_SHOP_EXPANDED_3                          (FRLG_FLAGS_START+0x1AB)
 #undef  FLAG_TWO_ISLAND_SHOP_INTRODUCED
-#define FLAG_TWO_ISLAND_SHOP_INTRODUCED                          (FRLG_FLAGS_START + 0x1AC)
+#define FLAG_TWO_ISLAND_SHOP_INTRODUCED                          (FRLG_FLAGS_START+0x1AC)
 #undef  FLAG_UNLOCKED_ROCKET_WAREHOUSE
-#define FLAG_UNLOCKED_ROCKET_WAREHOUSE                           (FRLG_FLAGS_START + 0x1AD)
+#define FLAG_UNLOCKED_ROCKET_WAREHOUSE                           (FRLG_FLAGS_START+0x1AD)
 #undef  FLAG_USED_CUT_ON_RUIN_VALLEY_BRAILLE
-#define FLAG_USED_CUT_ON_RUIN_VALLEY_BRAILLE                     (FRLG_FLAGS_START + 0x1AE)
+#define FLAG_USED_CUT_ON_RUIN_VALLEY_BRAILLE                     (FRLG_FLAGS_START+0x1AE)
 #undef  FLAG_VISITED_OAKS_LAB
-#define FLAG_VISITED_OAKS_LAB                                    (FRLG_FLAGS_START + 0x1AF)
+#define FLAG_VISITED_OAKS_LAB                                    (FRLG_FLAGS_START+0x1AF)
 #undef  FLAG_VISITED_TWO_ISLAND
-#define FLAG_VISITED_TWO_ISLAND                                  (FRLG_FLAGS_START + 0x1B0)
+#define FLAG_VISITED_TWO_ISLAND                                  (FRLG_FLAGS_START+0x1B0)
 #undef  FLAG_WOKE_UP_ROUTE_12_SNORLAX
-#define FLAG_WOKE_UP_ROUTE_12_SNORLAX                            (FRLG_FLAGS_START + 0x1B1)
+#define FLAG_WOKE_UP_ROUTE_12_SNORLAX                            (FRLG_FLAGS_START+0x1B1)
 #undef  FLAG_RIVAL_NAMED_BY_MOM
-#define FLAG_RIVAL_NAMED_BY_MOM                                  (FRLG_FLAGS_START + 0x1B2)
+#define FLAG_RIVAL_NAMED_BY_MOM                                  (FRLG_FLAGS_START+0x1B2)
 
-#define FRLG_FLAGS_END (FRLG_FLAGS_START + 0x1B2)
+#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x1B2)
 
 #define FRLG_NUM_FLAG_BYTES (((FRLG_FLAGS_END - FRLG_FLAGS_START + 1) + 7) / 8)
 

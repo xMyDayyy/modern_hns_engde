@@ -55,6 +55,7 @@ void InitEventData(void)
     memset(gSaveBlock1Ptr->vars, 0, sizeof(gSaveBlock1Ptr->vars));
     memset(gSaveBlock3Ptr->varsFrlg, 0, sizeof(gSaveBlock3Ptr->varsFrlg));
     memset(gSaveBlock3Ptr->flagsFrlg, 0, sizeof(gSaveBlock3Ptr->flagsFrlg));
+    memset(gSaveBlock3Ptr->flagsFrlgTrainers, 0, sizeof(gSaveBlock3Ptr->flagsFrlgTrainers));
     memset(sSpecialFlags, 0, sizeof(sSpecialFlags));
 }
 
@@ -241,6 +242,10 @@ u8 *GetFlagPointer(u16 id)
         return NULL;
     else if (id >= FRLG_FLAGS_START && id <= FRLG_FLAGS_END)
         return &gSaveBlock3Ptr->flagsFrlg[(id - FRLG_FLAGS_START) / 8];
+    // Kanto-Merge: Trainerflags der FRLG-Trainer. Ihre IDs liegen hinter den
+    // HnS/Hoenn-Trainern, TRAINER_FLAGS_START + id waere sonst in SYS_FLAGS.
+    else if (id >= FRLG_TRAINER_FLAGS_START && id <= FRLG_TRAINER_FLAGS_END)
+        return &gSaveBlock3Ptr->flagsFrlgTrainers[(id - FRLG_TRAINER_FLAGS_START) / 8];
     else if (id < SPECIAL_FLAGS_START)
         return &gSaveBlock1Ptr->flags[id / 8];
 #if TESTING
