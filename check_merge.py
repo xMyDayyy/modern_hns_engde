@@ -95,6 +95,10 @@ def parse_defines(path):
 
 RELATIVE_RE = re.compile(r"^\s*#define\s+(\w+)\s+\((\w+)\s*\+")
 
+# Platzhalterwert fuer relativ definierte Flags: echt, aber nicht auswertbar.
+# Muss ausserhalb des TEMP-Bereichs (0x00-0x1F) liegen.
+RELATIVE_MARKER = 0x2000
+
 
 def parse_relative_defines(path):
     """Namen aus Headern der Form '#define X (BASIS+0x1)'.
@@ -270,11 +274,13 @@ def collect_script_symbols(active_names, maps):
     used_vars = defaultdict(set)
     token = re.compile(r"\b(FLAG_[A-Z0-9_]+|VAR_[A-Z0-9_]+)\b")
     for name in active_names:
+        # Objekt-, Coord- und BG-Events verweisen in der map.json auf Flags und
+        # Vars. Wer nur scripts.inc liest, haelt sie faelschlich fuer ungenutzt.
+        text = json.dumps(maps[name])
         path = os.path.join(MAPS_DIR, maps[name]["_dir"], "scripts.inc")
-        if not os.path.exists(path):
-            continue
-        with open(path, encoding="utf-8", errors="replace") as fh:
-            text = fh.read()
+        if os.path.exists(path):
+            with open(path, encoding="utf-8", errors="replace") as fh:
+                text += fh.read()
         for tok in token.findall(text):
             if tok.startswith("FLAG_"):
                 used_flags[tok].add(name)
@@ -297,11 +303,16 @@ def check_flags(used_flags, version, rep):
         for key, val in parse_defines(src).items():
             if val != 0 or key not in defines:
                 defines[key] = val
+        # Viele Flags sind relativ definiert, z.B. (SYS_FLAGS + 0x93).
+        # parse_defines() sieht nur nackte Zahlen und wuerde sie sonst mit
+        # der 0-Attrappe aus flags.h verwechseln.
+        for key in parse_relative_defines(src):
+            defines[key] = RELATIVE_MARKER
     # Kanto-Merge: flags_frlg_hns.h macht #undef und weist echte Slots zu.
     # Ohne diese Datei meldet der Check die remappten Flags faelschlich als
     # "auf 0 gestubbt".
     for key in parse_relative_defines("include/constants/flags_frlg_hns.h"):
-        defines[key] = 0x3000  # Platzhalter: echter Slot in SaveBlock3
+        defines[key] = 0x3000  # echter Slot in SaveBlock3
     for flag in sorted(used_flags):
         val = defines.get(flag)
         if val is None:
@@ -318,35 +329,39 @@ def check_flags(used_flags, version, rep):
 
 
 def check_var_collisions(used_vars, rep):
-    frlg = parse_defines("include/constants/vars_frlg.h")
-    hns = parse_defines("include/constants/vars_hns.h")
-    hoenn = parse_defines("include/constants/vars_hoenn_de.h")
-    # Kanto-Merge: diese FRLG-Vars sind nach SaveBlock3 umgezogen und
-    # kollidieren nicht mehr.
-    for key in parse_relative_defines("include/constants/vars_frlg_hns.h"):
-        frlg.pop(key, None)
-    combined_hns = dict(hns)
-    combined_hns.update({k: v for k, v in hoenn.items() if v})
+    """Kollisionen anhand der EFFEKTIVEN Werte.
 
-    by_value = defaultdict(set)
-    for src, table in (("frlg", frlg), ("hns", combined_hns)):
-        for name, val in table.items():
-            if 0x4020 <= val <= 0x4FFF:
-                by_value[val].add((src, name))
+    vars.h inkludiert vars_frlg.h, vars_hns.h, vars_hoenn_de.h und
+    vars_frlg_hns.h nacheinander - die spaetere Definition gewinnt. Wer nur
+    vars_frlg.h gegen vars_hns.h haelt, meldet Kollisionen, die durch eine
+    spaetere Neudefinition laengst aufgeloest sind.
+    """
+    order = ["include/constants/vars_frlg.h",
+             "include/constants/vars_hns.h",
+             "include/constants/vars_hoenn_de.h"]
+    effective = {}
+    for src in order:
+        effective.update(parse_defines(src))
+    for name in parse_relative_defines("include/constants/vars_frlg_hns.h"):
+        effective[name] = -1  # eigener Bereich in SaveBlock3, kollisionsfrei
 
-    for val, entries in sorted(by_value.items()):
-        srcs = {s for s, _ in entries}
-        if len(srcs) < 2:
+    by_value = defaultdict(list)
+    for name, val in effective.items():
+        if val == -1 or not (0x4020 <= val <= 0x41FF):
             continue
-        names = {n for _, n in entries}
-        active = names & set(used_vars)
-        if active:
+        by_value[val].append(name)
+
+    for val, names in sorted(by_value.items()):
+        if len(names) < 2:
+            continue
+        active = sorted(n for n in names if n in used_vars)
+        if len(active) > 1:
             rep.error("var-kollision",
-                      f"{hex(val)}: {' | '.join(sorted(names))} "
-                      f"-- aktiv benutzt: {', '.join(sorted(active))}")
-        else:
+                      f"{hex(val)}: {' | '.join(active)} -- beide aktiv benutzt")
+        elif len(names) > 1:
             rep.note("var-kollision",
-                     f"{hex(val)}: {' | '.join(sorted(names))} (derzeit ungenutzt)")
+                     f"{hex(val)}: {' | '.join(sorted(names))} "
+                     f"(hoechstens eine Seite benutzt)")
 
 
 def check_wild(maps, active_names, rep):
