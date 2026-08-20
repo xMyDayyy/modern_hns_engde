@@ -269,6 +269,7 @@ static void DebugAction_Util_Weather_SelectId(u8 taskId);
 static void DebugAction_Util_WatchCredits(u8 taskId);
 static void DebugAction_Util_CheatStart(u8 taskId);
 static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId);
+static void DebugAction_Util_KantoTest(u8 taskId);
 
 static void DebugAction_TimeMenu_ChangeTimeOfDay(u8 taskId);
 static void DebugAction_TimeMenu_ChangeWeekdays(u8 taskId);
@@ -574,6 +575,7 @@ static const struct DebugMenuOption sDebugMenu_Actions_Utilities[] =
     { COMPOUND_STRING("Watch credits…"),    DebugAction_Util_WatchCredits },
     { COMPOUND_STRING("Cheat start"),       DebugAction_Util_CheatStart },
     { COMPOUND_STRING("Hoenn Test"), DebugAction_Util_HnsFinishJohtoKanto },
+    { COMPOUND_STRING("Kanto Test"), DebugAction_Util_KantoTest },
     { COMPOUND_STRING("Berry Functions…"),  DebugAction_OpenSubMenu, sDebugMenu_Actions_BerryFunctions },
     { COMPOUND_STRING("EWRAM Counters…"),   DebugAction_ExecuteScript, Debug_EventScript_EWRAMCounters },
     { COMPOUND_STRING("Follower NPC…"),     DebugAction_OpenSubMenu, sDebugMenu_Actions_FollowerNPCMenu },
@@ -1923,6 +1925,45 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
     ScriptContext_Enable();
 }
 #endif
+
+#if IS_HNS
+// Kanto-Merge: Testwerkzeug fuer den Kanto-Durchlauf. Gibt ein Team auf
+// Level 100 und alle TMs/VMs, laesst die Story aber unangetastet - anders
+// als der Hoenn-Test, der Johto und Kanto als abgeschlossen markiert.
+static void DebugAction_Util_KantoTest(u8 taskId)
+{
+    static const u16 sTeamSpecies[] =
+    {
+        SPECIES_CHARIZARD, SPECIES_GENGAR,   SPECIES_LAPRAS,
+        SPECIES_ALAKAZAM,  SPECIES_SANDSLASH, SPECIES_ZAPDOS,
+    };
+    u32 i;
+
+    ZeroPlayerPartyMons();
+    for (i = 0; i < ARRAY_COUNT(sTeamSpecies); i++)
+        ScriptGiveMon(sTeamSpecies[i], MAX_LEVEL, ITEM_NONE);
+    CalculatePlayerPartyCount();
+
+    // Alle belegten TMs und die acht VMs je einmal. Der Bereich
+    // ITEM_TM01..ITEM_TM100 ist unter HnS nur bis ITEM_TM_TRICK_ROOM belegt.
+    for (i = ITEM_TM01; i <= ITEM_TM_TRICK_ROOM; i++)
+        AddBagItem(i, 1);
+    for (i = ITEM_HM01; i <= ITEM_HM08; i++)
+        AddBagItem(i, 1);
+
+    PlaySE(SE_EXP_MAX);
+    Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
+}
+#else
+static void DebugAction_Util_KantoTest(u8 taskId)
+{
+    Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
+}
+#endif
+
+
 
 void BufferExpansionVersion(struct ScriptContext *ctx)
 {
