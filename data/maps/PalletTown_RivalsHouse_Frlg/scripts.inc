@@ -23,9 +23,11 @@ PalletTown_RivalsHouse_EventScript_Daisy::
 	faceplayer
 	famechecker FAMECHECKER_DAISY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_RivalsHouse_EventScript_GroomMon
+	@ Kanto-Merge: Die Stadtkarte entfaellt - das PokeCom der Mutter enthaelt
+	@ sie bereits. Daisy wuenscht stattdessen viel Glueck.
 	goto_if_eq RECEIVED_TOWN_MAP, TRUE, PalletTown_RivalsHouse_EventScript_PleaseGiveMonsRest
-	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2, PalletTown_RivalsHouse_EventScript_ExplainTownMap
-	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1, PalletTown_RivalsHouse_EventScript_GiveTownMap
+	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2, PalletTown_RivalsHouse_EventScript_PleaseGiveMonsRest
+	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1, PalletTown_RivalsHouse_EventScript_DaisyGoodLuck
 	goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1, PalletTown_RivalsHouse_EventScript_HeardBattledRival
 	msgbox PalletTown_RivalsHouse_Text_HiBrothersAtLab
 	closemessage
@@ -126,7 +128,40 @@ PalletTown_RivalsHouse_EventScript_PleaseGiveMonsRest::
 	release
 	end
 
-PalletTown_RivalsHouse_EventScript_GiveTownMap::
+@ Kanto-Merge: Ersetzt die Stadtkarten-Uebergabe. Das Kartensymbol auf dem
+@ Tisch verschwindet trotzdem, damit der Raum nicht auf eine Uebergabe
+@ wartet, die nie kommt.
+PalletTown_RivalsHouse_EventScript_DaisyGoodLuck::
+	msgbox PalletTown_RivalsHouse_Text_DaisyGoodLuck
+	closemessage
+	applymovement LOCALID_DAISY, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	removeobject LOCALID_TOWN_MAP
+	setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2
+	delay 15
+	applymovement LOCALID_DAISY, Common_Movement_FacePlayer
+	waitmovement 0
+	release
+	end
+
+PalletTown_RivalsHouse_Text_DaisyGoodLuck:
+#if GERMAN
+	.string "Daisy: Du hilfst also meinem Opa?\p"
+	.string "Dann hast du sicher schon ein\n"
+	.string "PokéCom von deiner Mutter, oder?\p"
+	.string "Da ist eine Karte drin - damit\n"
+	.string "verlaufen kannst du dich nicht.\p"
+	.string "Viel Glück, {PLAYER}!$"
+#else
+	.string "DAISY: So you're helping GRANDPA?\p"
+	.string "Then your MOM must have given you\n"
+	.string "a POKéGEAR already, right?\p"
+	.string "It has a map built in, so you\n"
+	.string "won't get lost.\p"
+	.string "Good luck, {PLAYER}!$"
+#endif
+
+PalletTown_RivalsHouse_EventScript_GiveTownMapUnused::
 	msgbox PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp
 	closemessage
 	checkitemspace ITEM_TOWN_MAP
