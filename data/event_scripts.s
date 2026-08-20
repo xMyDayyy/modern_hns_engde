@@ -1233,7 +1233,7 @@ Common_EventScript_HnsNormanCallDone::
 	releaseall
 	end
 
-@ Kanto-Merge: Anruf der Mutter nach Daisys PokeGear-Uebergabe.
+@ Kanto-Merge: Anruf der Mutter nach ihrer PokeCom-Uebergabe.
 Common_EventScript_HnsMomCall::
 	lockall
 	clearflag FLAG_HNS_MOM_CALL_PENDING
@@ -1267,9 +1267,8 @@ Common_Text_HnsRegisteredMom:
 Common_Text_HnsMomParcelCall:
 #if GERMAN
 	.string "Hallo, {PLAYER}!\p"
-	.string "Daisy sagt, du hast jetzt einen\n"
-	.string "PokéGear. Das probiere ich gleich\l"
-	.string "aus.\p"
+	.string "Ich probiere das PokéCom gleich\n"
+	.string "mal aus!\p"
 	.string "Prof. Eich hat angerufen: Im\n"
 	.string "Laden in Vertania liegt eine\l"
 	.string "Bestellung für ihn.\p"
@@ -1277,8 +1276,8 @@ Common_Text_HnsMomParcelCall:
 	.string "hast du meine Nummer!$"
 #else
 	.string "Hi, {PLAYER}!\p"
-	.string "DAISY says you've got a POKéGEAR\n"
-	.string "now. Let me try it out!\p"
+	.string "Let me try out the POKéGEAR\n"
+	.string "right away!\p"
 	.string "PROF. OAK called: there's an\n"
 	.string "order waiting for him in VIRIDIAN\l"
 	.string "CITY.\p"

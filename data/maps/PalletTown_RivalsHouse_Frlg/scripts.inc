@@ -25,7 +25,7 @@ PalletTown_RivalsHouse_EventScript_Daisy::
 	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_RivalsHouse_EventScript_GroomMon
 	goto_if_eq RECEIVED_TOWN_MAP, TRUE, PalletTown_RivalsHouse_EventScript_PleaseGiveMonsRest
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2, PalletTown_RivalsHouse_EventScript_ExplainTownMap
-	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1, PalletTown_RivalsHouse_EventScript_GivePokeGear
+	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1, PalletTown_RivalsHouse_EventScript_GiveTownMap
 	goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1, PalletTown_RivalsHouse_EventScript_HeardBattledRival
 	msgbox PalletTown_RivalsHouse_Text_HiBrothersAtLab
 	closemessage
@@ -126,58 +126,7 @@ PalletTown_RivalsHouse_EventScript_PleaseGiveMonsRest::
 	release
 	end
 
-@ Kanto-Merge: Statt der Stadtkarte gibt es hier den PokeGear. Er buendelt
-@ Karte, Telefon und Radio; eine zusaetzliche Stadtkarte waere doppelt.
-@ Flagsatz identisch zu NewBarkTown_PlayersHouse_1F_EventScript_GivePokeGear.
-PalletTown_RivalsHouse_EventScript_GivePokeGear::
-	msgbox PalletTown_RivalsHouse_Text_DaisyOffersPokeGear
-	playfanfare MUS_OBTAIN_ITEM
-	message PalletTown_RivalsHouse_Text_ObtainedPokeGear
-	waitfanfare
-	setflag FLAG_SYS_POKENAV_GET
-	setflag FLAG_HAS_MATCH_CALL
-	setflag FLAG_RECEIVED_POKENAV
-	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
-	setflag FLAG_REGISTER_RIVAL_POKENAV
-	msgbox PalletTown_RivalsHouse_Text_DaisyExplainPokeGear
-	setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2
-	setvar RECEIVED_TOWN_MAP, TRUE
-	release
-	end
-
-PalletTown_RivalsHouse_Text_DaisyOffersPokeGear:
-#if GERMAN
-	.string "Daisy: Du ziehst also auch los?\p"
-	.string "Warte, ich habe hier noch etwas für\n"
-	.string "dich. Mein Bruder wollte es nicht.$"
-#else
-	.string "DAISY: So you're heading out too?\p"
-	.string "Hold on, I've got something for you.\n"
-	.string "My brother didn't want it.$"
-#endif
-
-PalletTown_RivalsHouse_Text_ObtainedPokeGear:
-#if GERMAN
-	.string "{PLAYER} erhält den\n"
-	.string "PokéGear!$"
-#else
-	.string "{PLAYER} received the\n"
-	.string "POKéGEAR!$"
-#endif
-
-PalletTown_RivalsHouse_Text_DaisyExplainPokeGear:
-#if GERMAN
-	.string "Da ist eine Karte drin, ein Radio und\n"
-	.string "ein Telefon.\p"
-	.string "Trainer, die du triffst, kannst du\n"
-	.string "darin eintragen und später anrufen.$"
-#else
-	.string "It has a map, a radio and a phone.\p"
-	.string "You can register trainers you meet\n"
-	.string "and call them later on.$"
-#endif
-
-PalletTown_RivalsHouse_EventScript_GiveTownMapUnused::
+PalletTown_RivalsHouse_EventScript_GiveTownMap::
 	msgbox PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp
 	closemessage
 	checkitemspace ITEM_TOWN_MAP

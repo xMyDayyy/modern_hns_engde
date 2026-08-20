@@ -5,7 +5,7 @@ PalletTown_PlayersHouse_1F_EventScript_Mom::
 	lock
 	faceplayer
 	goto_if_unset FLAG_RIVAL_NAMED_BY_MOM, PalletTown_PlayersHouse_1F_EventScript_MomAskRivalName
-	goto_if_unset FLAG_SYS_B_DASH, PalletTown_PlayersHouse_1F_EventScript_MomGiveRunningShoes
+	goto_if_unset FLAG_SYS_B_DASH, PalletTown_PlayersHouse_1F_EventScript_MomGivePokeGear
 	goto_if_set FLAG_BEAT_RIVAL_IN_OAKS_LAB, PalletTown_PlayersHouse_1F_EventScript_MomHeal
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouMale
@@ -142,6 +142,59 @@ PalletTown_PlayersHouse_1F_Text_OopsWrongSide::
 @ Kanto-Merge: Turbotreter kommen von der Mutter statt vom Eich-Assistenten
 @ in Marmoria. Der Assistent dort prueft ebenfalls FLAG_SYS_B_DASH und
 @ ueberspringt sich damit selbst.
+@ Kanto-Merge: Reihenfolge wie bei der HnS-Mutter in Neuborkia -
+@ erst das PokeCom, dann die Turbotreter, alles in einem Gespraech.
+PalletTown_PlayersHouse_1F_EventScript_MomGivePokeGear::
+	msgbox PalletTown_PlayersHouse_1F_Text_MomOffersPokeGear
+	playfanfare MUS_OBTAIN_ITEM
+	message PalletTown_PlayersHouse_1F_Text_ObtainedPokeGear
+	waitfanfare
+	setflag FLAG_SYS_POKENAV_GET
+	setflag FLAG_HAS_MATCH_CALL
+	setflag FLAG_RECEIVED_POKENAV
+	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
+	setflag FLAG_REGISTER_RIVAL_POKENAV
+	msgbox PalletTown_PlayersHouse_1F_Text_ExplainPokeGear
+	closemessage
+	delay 30
+	@ Anruf der Mutter vorbereiten - sie probiert das Geraet gleich aus.
+	setvar VAR_HNS_MOM_CALL_STEPS, 0
+	setflag FLAG_HNS_MOM_CALL_PENDING
+	goto PalletTown_PlayersHouse_1F_EventScript_MomGiveRunningShoes
+	end
+
+PalletTown_PlayersHouse_1F_Text_MomOffersPokeGear:
+#if GERMAN
+	.string "Mutter: Warte, {PLAYER}!\p"
+	.string "Bevor du losziehst - das hier\n"
+	.string "solltest du mitnehmen.$"
+#else
+	.string "MOM: Wait, {PLAYER}!\p"
+	.string "Before you go - you should\n"
+	.string "take this with you.$"
+#endif
+
+PalletTown_PlayersHouse_1F_Text_ObtainedPokeGear:
+#if GERMAN
+	.string "{PLAYER} erhielt das PokéCom.$"
+#else
+	.string "{PLAYER} obtained the POKéGEAR.$"
+#endif
+
+PalletTown_PlayersHouse_1F_Text_ExplainPokeGear:
+#if GERMAN
+	.string "Mutter: Telefonnummern befinden\n"
+	.string "sich im Speicher.\p"
+	.string "Wähle einfach einen Namen aus,\n"
+	.string "um anzurufen.\p"
+	.string "Wie praktisch!$"
+#else
+	.string "MOM: Phone numbers are stored\n"
+	.string "in memory.\p"
+	.string "Just choose a name you want to call.\p"
+	.string "Gee, isn't that convenient?$"
+#endif
+
 PalletTown_PlayersHouse_1F_EventScript_MomGiveRunningShoes::
 	msgbox PalletTown_PlayersHouse_1F_Text_MomRunningShoes
 	playfanfare MUS_RG_OBTAIN_KEY_ITEM
@@ -196,7 +249,7 @@ PalletTown_PlayersHouse_1F_EventScript_MomAskRivalName::
 	waitstate
 	setflag FLAG_RIVAL_NAMED_BY_MOM
 	msgbox PalletTown_PlayersHouse_1F_Text_MomRivalNameConfirm
-	goto PalletTown_PlayersHouse_1F_EventScript_MomGiveRunningShoes
+	goto PalletTown_PlayersHouse_1F_EventScript_MomGivePokeGear
 	end
 
 PalletTown_PlayersHouse_1F_Text_MomAskRivalName:
