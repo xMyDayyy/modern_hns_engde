@@ -54,7 +54,7 @@
 #include "follower_npc.h"
 
 extern const u8 EventScript_ResetAllMapFlags[];
-#if IS_FRLG
+#if IS_FRLG || IS_HNS
 extern const u8 EventScript_ResetAllMapFlagsFrlg[];
 #endif
 #if IS_HNS
@@ -275,6 +275,9 @@ void NewGameInitData(void)
     RunScriptImmediately(EventScript_ResetAllMapFlagsFrlg);
 #elif IS_HNS
     RunScriptImmediately(EventScript_ResetAllMapFlagsHnS);
+    // Kanto-Merge: Kanto liefert jetzt die Startwelt, also muessen auch die
+    // FRLG-Startflags gesetzt werden (Eich versteckt, Rivale versteckt ...).
+    RunScriptImmediately(EventScript_ResetAllMapFlagsFrlg);
 #else
     RunScriptImmediately(EventScript_ResetAllMapFlags);
 #endif

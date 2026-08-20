@@ -4,6 +4,8 @@
 // Auto-generiert fuer den Kanto-Merge (test/kanto-start).
 // SaveBlock1 hat nur noch 4 Byte frei, deshalb liegen diese Vars in
 // SaveBlock3 (dort sind ~1.5 KB frei). Zugriff via GetVarPointer().
+//
+// Quellen: FRLG-Kartenskripte und Coord-/Objekt-Vars aus den map.json.
 
 #define FRLG_VARS_START 0x4200
 #define FRLG_VARS_COUNT 128
@@ -104,9 +106,9 @@
 #undef  VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER
 #define VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER                          (FRLG_VARS_START + 0x2E)
 
-// Belegt: 0x2F von 0x80
-
 // Kanto-Merge: Johto-Orden als eigene Bitmaske (Kanto behaelt FLAG_BADGE0X_GET).
 #define VAR_JOHTO_BADGES (FRLG_VARS_START + 0x7F)
+
+// Belegt: 0x2F von 0x80
 
 #endif // GUARD_CONSTANTS_VARS_FRLG_HNS_H

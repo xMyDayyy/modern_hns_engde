@@ -455,7 +455,7 @@ EventScript_ResetAllMapFlagsHnS::
 	end
 #endif
 
-#if IS_FRLG
+#if IS_FRLG || IS_HNS
 EventScript_ResetAllMapFlagsFrlg::
 	setflag FLAG_HIDE_OAK_IN_HIS_LAB
 	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
