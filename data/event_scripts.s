@@ -1238,6 +1238,8 @@ Common_EventScript_HnsMomCall::
 	lockall
 	clearflag FLAG_HNS_MOM_CALL_PENDING
 	setvar VAR_HNS_MOM_CALL_STEPS, 0
+	@ Ohne setspeaker bleibt der Name in der Anrufbox leer.
+	setspeaker Common_Text_HnsMomName
 	pokenavcall Common_Text_HnsMomParcelCall
 	waitmessage
 	delay 30
@@ -1249,6 +1251,9 @@ Common_EventScript_HnsMomCall::
 	delay 30
 	releaseall
 	end
+
+Common_Text_HnsMomName:
+	.string "Mama$"
 
 Common_Text_HnsRegisteredMom:
 #if GERMAN
