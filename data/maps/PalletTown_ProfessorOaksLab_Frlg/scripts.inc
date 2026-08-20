@@ -477,6 +477,9 @@ PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle::
 	fadedefaultbgm
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 4
 	setflag FLAG_BEAT_RIVAL_IN_OAKS_LAB
+	@ Kanto-Merge: Daisy gibt den PokeGear schon jetzt, nicht erst nach dem
+	@ Paket - sonst haette man das Telefon zu spaet fuer die Paketkette.
+	setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1
 	releaseall
 	end
 
