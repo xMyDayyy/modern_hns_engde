@@ -46,22 +46,23 @@ BlackthornCity_Text_BaobaCall:
 #if GERMAN
 	.string "Aufseher Baoba: {PLAYER}!\p"
 	.string "Hier ist Aufseher Baoba.\p"
-	.string "Ich rufe dich an, um dir mitzuteilen,\n"
-	.string "dass die Safari-Zone vergrößert wurde!\p"
+	.string "Ich rufe dich an, um dir\n"
+	.string "mitzuteilen, dass die\l"
+	.string "Safari-Zone vergrößert wurde!\p"
 	.string "Bitte komm vorbei!$"
 #else
 	.string "WARDEN BAOBA: {PLAYER}!\p"
 	.string "This is WARDEN BAOBA.\p"
-	.string "I'm calling to tell you that\n"
-	.string "the SAFARI ZONE has expanded!\p"
+	.string "I'm calling to tell you that the\n"
+	.string "SAFARI ZONE has expanded!\p"
 	.string "Please come visit!$"
 #endif
 
 BlackthornCity_Text_ElmCall:
 #if GERMAN
 	.string "Hallo, {PLAYER}?\p"
-	.string "Professor Eich hat mir etwas für dich\n"
-	.string "mitgegeben.\p"
+	.string "Professor Eich hat mir etwas für\n"
+	.string "dich mitgegeben.\p"
 	.string "Komm doch mal im Labor vorbei.\n"
 	.string "Ich zähle auf dich!$"
 #else

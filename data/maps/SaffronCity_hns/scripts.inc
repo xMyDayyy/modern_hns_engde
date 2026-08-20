@@ -32,13 +32,14 @@ SaffronCity_Text_Baoba:
 #if GERMAN
 	.string "Wärter Baoba: {PLAYER}!\p"
 	.string "Hier ist Wärter Baoba.\p"
-	.string "Ich ruf an, um dir zu sagen, dass die\n"
-	.string "Safarizone wieder gewachsen ist!\p"
+	.string "Ich ruf an, um dir zu sagen,\n"
+	.string "dass die Safarizone wieder\l"
+	.string "gewachsen ist!\p"
 	.string "Endlich ist meine Safarizone\n"
 	.string "vollständig!\p"
 	.string "Du weißt noch, wo sie ist, oder?\p"
-	.string "Direkt westlich von Anemonia City!\n"
-	.string "Bis bald!$"
+	.string "Direkt westlich von Anemonia\n"
+	.string "City! Bis bald!$"
 #else
 	.string "WARDEN BAOBA: {PLAYER}!\p"
 	.string "This is WARDEN BAOBA.\p"
@@ -47,8 +48,8 @@ SaffronCity_Text_Baoba:
 	.string "Finally, my SAFARI ZONE has been\n"
 	.string "fully realized!\p"
 	.string "You remember where it is, right?\p"
-	.string "Just west of CIANWOOD CITY!\n"
-	.string "see you soon!$"
+	.string "Just west of CIANWOOD CITY! see\n"
+	.string "you soon!$"
 #endif
 
 SaffronCity_EventScript_Lass1A::

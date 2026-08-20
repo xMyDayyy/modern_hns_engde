@@ -563,15 +563,16 @@ VioletCity_Text_ElmName:
 
 VioletCity_Text_Elm_Call:
 #if GERMAN
-	.string "Lind: Hallo, {PLAYER}?\n"
-	.string "Ich habe Neuigkeiten über das Ei!\p"
+	.string "Lind: Hallo, {PLAYER}? Ich habe\n"
+	.string "Neuigkeiten über das Ei!\p"
 	.string "Im Pokémon-Center von Viola City\n"
-	.string "solltest du einen meiner Assistenten\l"
-	.string "antreffen.\l"
-	.string "Lass dir von ihm alles erklären!$"
+	.string "solltest du einen meiner\l"
+	.string "Assistenten antreffen. Lass dir\l"
+	.string "von ihm alles erklären!$"
 #else
 	.string "PROF.ELM: Hello, {PLAYER}? We\n"
-	.string "discovered something about the EGG!\p"
+	.string "discovered something about the\l"
+	.string "EGG!\p"
 	.string "My assistant is at the POKéMON\n"
 	.string "CENTER in VIOLET CITY.\p"
 	.string "Could you talk to him?$"

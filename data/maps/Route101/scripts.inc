@@ -221,15 +221,15 @@ Route101_EventScript_TroyLicenseCall::
 
 Route101_Text_TroyLicenseCall:
 #if GERMAN
-	.string "Troy: Hallo, {PLAYER}! Prof. Birk hat\n"
-	.string "mir gesagt, dass du in Hoenn\l"
+	.string "Troy: Hallo, {PLAYER}! Prof. Birk\n"
+	.string "hat mir gesagt, dass du in Hoenn\l"
 	.string "angekommen bist.\p"
 	.string "Eine Sache, die für deine Reise\n"
 	.string "wichtig ist: Um VMs draußen\l"
 	.string "einsetzen zu können, brauchst du\l"
 	.string "die jeweilige Erlaubnis dazu.\p"
-	.string "Du wirst schon herausfinden, wo du\n"
-	.string "sie herbekommst.\p"
+	.string "Du wirst schon herausfinden, wo\n"
+	.string "du sie herbekommst.\p"
 	.string "Bis bald!$"
 #else
 	.string "STEVEN: Hello, {PLAYER}! PROF.\n"

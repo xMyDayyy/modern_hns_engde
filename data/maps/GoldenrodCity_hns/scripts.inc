@@ -350,14 +350,14 @@ GoldenrodCity_Text_ElmName:
 
 GoldenrodCity_Text_ElmCall:
 #if GERMAN
-	.string "Lind: Hallo, {PLAYER}?\n"
-	.string "Ist das Ei schon geschlüpft?\p"
-	.string "Falls das passiert, vergiss nicht,\n"
-	.string "es zum Labor zu bringen.\p"
+	.string "Lind: Hallo, {PLAYER}? Ist das Ei\n"
+	.string "schon geschlüpft?\p"
+	.string "Falls das passiert, vergiss\n"
+	.string "nicht, es zum Labor zu bringen.\p"
 	.string "Ich muss es untersuchen!$"
 #else
-	.string "PROF.ELM: Hello, {PLAYER}?\n"
-	.string "Has that EGG hatched yet?\p"
+	.string "PROF.ELM: Hello, {PLAYER}? Has\n"
+	.string "that EGG hatched yet?\p"
 	.string "Once it hatches, don't forget to\n"
 	.string "bring it by the lab! I need to\l"
 	.string "see it!$"

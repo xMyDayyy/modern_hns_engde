@@ -405,10 +405,10 @@ RustboroCity_Gym_Text_GymStatueCertified:
 RustboroCity_Gym_Text_RoxanneRegisterCall:
 #if GERMAN
 	.string "… … … … … … … … … … … … Piep!\p"
-	.string "Felizia: Oh, hallo {PLAYER}. Hier ist\n"
-	.string "Felizia aus Metarost City.\p"
-	.string "Kamillo hat mir erzählt, dass du die\n"
-	.string "Trainer in atemberaubender\l"
+	.string "Felizia: Oh, hallo {PLAYER}. Hier\n"
+	.string "ist Felizia aus Metarost City.\p"
+	.string "Kamillo hat mir erzählt, dass du\n"
+	.string "die Trainer in atemberaubender\l"
 	.string "Geschwindigkeit aussuchst und\l"
 	.string "besiegst.\p"
 	.string "Ich denke aber nicht, dass ich\n"
@@ -429,10 +429,11 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "TRAINERS at an incredible clip.\p"
 	.string "Well, I'd rather not think that I\n"
 	.string "can't beat you.\p"
-	.string "I promise, I will shape up my GYM so\n"
-	.string "that you may challenge us again.\p"
-	.string "I hope you'll be looking forward to\n"
-	.string "that occasion as much as me!\p"
+	.string "I promise, I will shape up my\n"
+	.string "GYM so that you may challenge us\l"
+	.string "again.\p"
+	.string "I hope you'll be looking forward\n"
+	.string "to that occasion as much as me!\p"
 	.string "… … … … … … … … … … … Click!$"
 #endif
 

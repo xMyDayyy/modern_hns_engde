@@ -390,18 +390,18 @@ Route30_Text_ElmName:
 
 Route30_Text_Elm_Disaster:
 #if GERMAN
-	.string "H-hallo, {PLAYER}?\n"
-	.string "Es ist schrecklich!\l"
-	.string "Äh… uhm… wie soll ich das erklären?\p"
+	.string "H-hallo, {PLAYER}? Es ist\n"
+	.string "schrecklich! Äh… uhm… wie soll ich\l"
+	.string "das erklären?\p"
 	.string "Ich weiß ja selbst nicht, wie…\n"
-	.string "Jedenfalls ist es ganz schrecklich!\p"
+	.string "Jedenfalls ist es ganz\l"
+	.string "schrecklich!\p"
 	.string "Bitte, komm schnell zurück!$"
 #else
 	.string "PROF.ELM: H-hello? {PLAYER}? It's\n"
 	.string "a disaster!\p"
 	.string "Uh, um, it's just terrible!\p"
-	.string "What should I do? It…\n"
-	.string "Oh, no…\p"
+	.string "What should I do? It… Oh, no…\p"
 	.string "Please get back here now!$"
 #endif
 
