@@ -92,6 +92,26 @@ def parse_defines(path):
     return out
 
 
+
+RELATIVE_RE = re.compile(r"^\s*#define\s+(\w+)\s+\((\w+)\s*\+")
+
+
+def parse_relative_defines(path):
+    """Namen aus Headern der Form '#define X (BASIS+0x1)'.
+
+    parse_defines() erkennt nur nackte Zahlen; die generierten Kanto-Header
+    rechnen aber relativ zu einer Basis.
+    """
+    out = set()
+    if not os.path.exists(path):
+        return out
+    with open(path, encoding="utf-8", errors="replace") as fh:
+        for line in fh:
+            m = RELATIVE_RE.match(line)
+            if m:
+                out.add(m.group(1))
+    return out
+
 def load_maps():
     maps = {}
     for entry in sorted(os.listdir(MAPS_DIR)):
@@ -266,12 +286,22 @@ def collect_script_symbols(active_names, maps):
 def check_flags(used_flags, version, rep):
     header = ("include/constants/flags_hns.h" if version == "hns"
               else "include/constants/flags_frlg.h")
-    defines = parse_defines(header)
-    defines.update(parse_defines("include/constants/flags.h"))
-    extra = parse_defines("include/constants/flags_hoenn_de.h")
-    for key, val in extra.items():
-        if val != 0:
-            defines[key] = val
+    # parse_defines() sieht keine #if-Zweige. flags.h enthaelt fuer viele
+    # Namen sowohl den echten Wert als auch eine 0-Attrappe aus einem
+    # inaktiven Zweig. Ein Flag gilt deshalb nur dann als gestubbt, wenn
+    # KEINE Quelle einen echten Wert liefert.
+    defines = {}
+    for src in (header,
+                "include/constants/flags.h",
+                "include/constants/flags_hoenn_de.h"):
+        for key, val in parse_defines(src).items():
+            if val != 0 or key not in defines:
+                defines[key] = val
+    # Kanto-Merge: flags_frlg_hns.h macht #undef und weist echte Slots zu.
+    # Ohne diese Datei meldet der Check die remappten Flags faelschlich als
+    # "auf 0 gestubbt".
+    for key in parse_relative_defines("include/constants/flags_frlg_hns.h"):
+        defines[key] = 0x3000  # Platzhalter: echter Slot in SaveBlock3
     for flag in sorted(used_flags):
         val = defines.get(flag)
         if val is None:
@@ -291,6 +321,10 @@ def check_var_collisions(used_vars, rep):
     frlg = parse_defines("include/constants/vars_frlg.h")
     hns = parse_defines("include/constants/vars_hns.h")
     hoenn = parse_defines("include/constants/vars_hoenn_de.h")
+    # Kanto-Merge: diese FRLG-Vars sind nach SaveBlock3 umgezogen und
+    # kollidieren nicht mehr.
+    for key in parse_relative_defines("include/constants/vars_frlg_hns.h"):
+        frlg.pop(key, None)
     combined_hns = dict(hns)
     combined_hns.update({k: v for k, v in hoenn.items() if v})
 
@@ -362,10 +396,10 @@ def check_duplicate_symbols(maps, active_names, rep):
         if not os.path.exists(path):
             continue
         with open(path, encoding="utf-8", errors="replace") as fh:
-            for sym in label.findall(fh.read()):
+            for sym in set(label.findall(fh.read())):
                 owners[sym].append(name)
     for sym, names in sorted(owners.items()):
-        if len(names) > 1:
+        if len(set(names)) > 1:
             rep.error("symbol-dubletten",
                       f"{sym} definiert in: {', '.join(sorted(names))}")
 
