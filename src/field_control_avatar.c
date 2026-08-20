@@ -1343,6 +1343,13 @@ static bool32 TrySetUpWalkIntoSignpostScript(struct MapPosition *position, u32 m
 {
     const u8 *script;
 
+    // Kanto-Merge: FRLG oeffnet Schilder schon beim Dagegenlaufen. Das stoert
+    // beim Durchqueren, deshalb hier abgeschaltet - Schilder reagieren wie in
+    // Emerald/HnS nur noch auf A.
+#if IS_HNS
+    return FALSE;
+#endif
+
     if ((JOY_HELD(DPAD_LEFT | DPAD_RIGHT)) || (playerDirection != DIR_NORTH))
         return FALSE;
 

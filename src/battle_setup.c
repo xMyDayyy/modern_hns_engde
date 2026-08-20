@@ -97,6 +97,10 @@ static const u8 *GetTrainerCantBattleSpeech(void);
 
 EWRAM_DATA TrainerBattleParameter gTrainerBattleParameter = {0};
 EWRAM_DATA u16 gPartnerTrainerId = 0;
+// Kanto-Merge: Merkt, welches Fang-Tutorial laeuft. Die Controllerwahl in
+// battle_controllers.c haing bisher an IS_FRLG - im HnS-Build lief deshalb
+// auch in Vertania Heikos Ralts-Tutorial statt dem des alten Mannes.
+EWRAM_DATA bool8 gIsOldManTutorialBattle = FALSE;
 EWRAM_DATA static u8 *sTrainerBattleEndScript = NULL;
 EWRAM_DATA static bool8 sShouldCheckTrainerBScript = FALSE;
 EWRAM_DATA static u8 sNoOfPossibleTrainerRetScripts = 0;
@@ -635,6 +639,7 @@ static void DoBattlePyramidTrainerHillBattle(void)
 // Initiates battle where Wally catches Ralts
 void StartWallyTutorialBattle(void)
 {
+    gIsOldManTutorialBattle = FALSE;
     // HnS: Level 5 passt nicht zu einem Spieler, der Hoenn als Champion
     // betritt. Das Ralts wird deshalb wie ein wildes Pokemon auf das
     // Hoenn-Niveau hochgezogen (Anker = staerkstes Teammitglied).
@@ -647,6 +652,7 @@ void StartWallyTutorialBattle(void)
 
 void StartOldManTutorialBattle(void)
 {
+    gIsOldManTutorialBattle = TRUE;
     CreateMaleMon(&gEnemyParty[0], SPECIES_WEEDLE, 5);
     LockPlayerFieldControls();
     gMain.savedCallback = CB2_ReturnToFieldContinueScriptPlayMapMusic;

@@ -180,10 +180,18 @@ PalletTown_PlayersHouse_1F_Text_MomExplainRunningShoes:
 #if GERMAN
 	.string "Halt einfach B gedrückt, während du\n"
 	.string "läufst.\p"
-	.string "Und pass auf dich auf, hörst du?$"
+	.string "Ach, und der Professor hat vorhin\n"
+	.string "angerufen: Im Laden in Vertania\l"
+	.string "liegt eine Bestellung für ihn bereit.\p"
+	.string "Schau doch mal vorbei, wenn du in der\n"
+	.string "Stadt bist. Und pass auf dich auf!$"
 #else
 	.string "Just hold down B while you walk.\p"
-	.string "And do take care of yourself, hear?$"
+	.string "Oh, and the PROFESSOR called earlier:\n"
+	.string "there's an order waiting for him at\l"
+	.string "the shop in VIRIDIAN CITY.\p"
+	.string "Do stop by when you're in town.\n"
+	.string "And take care of yourself!$"
 #endif
 
 @ Kanto-Merge: Der Rivale wird sonst nirgends benannt (das passierte in FRLG

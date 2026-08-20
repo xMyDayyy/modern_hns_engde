@@ -121,9 +121,43 @@ ViridianCity_EventScript_TutorialCompleted::
 	end
 
 ViridianCity_EventScript_TutorialStart::
+	msgbox ViridianCity_Text_AskShowCatching, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, ViridianCity_EventScript_TutorialDeclined
 	call ViridianCity_EventScript_DoTutorialBattle
 	release
 	end
+
+@ Kanto-Merge: Erfahrene Spieler koennen das Tutorial ueberspringen. Der
+@ Weg wird trotzdem frei und das Lehr-TV gibt es auch.
+ViridianCity_EventScript_TutorialDeclined::
+	msgbox ViridianCity_Text_TutorialDeclined
+	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 2
+	giveitem ITEM_TEACHY_TV
+	msgbox ViridianCity_Text_WatchThatToLearnBasics
+	release
+	end
+
+ViridianCity_Text_AskShowCatching:
+#if GERMAN
+	.string "Du siehst aus, als koenntest du eine\n"
+	.string "Vorfuehrung gebrauchen.\p"
+	.string "Soll ich dir zeigen, wie man Pokémon\n"
+	.string "faengt?$"
+#else
+	.string "You look like you could use a\n"
+	.string "demonstration.\p"
+	.string "Shall I show you how to catch\n"
+	.string "POKéMON?$"
+#endif
+
+ViridianCity_Text_TutorialDeclined:
+#if GERMAN
+	.string "Oh, du kennst dich also schon aus.\p"
+	.string "Dann geh nur, der Weg ist frei.$"
+#else
+	.string "Oh, you know your way around already.\p"
+	.string "Go right ahead then, the road is clear.$"
+#endif
 
 @ Unused
 ViridianCity_EventScript_WatchToLearnBasics::
