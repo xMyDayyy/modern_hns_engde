@@ -1257,7 +1257,7 @@ Common_Text_HnsMomName:
 
 Common_Text_HnsRegisteredMom:
 #if GERMAN
-	.string "Mama wurde im PokéGear\n"
+	.string "Mama wurde im PokéCom\n"
 	.string "eingetragen.$"
 #else
 	.string "Registered MOM\n"
