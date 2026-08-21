@@ -37,7 +37,7 @@ PalletTown_PlayersHouse_1F_EventScript_Intro::
 	@ nicht erst beim Betreten einer bestimmten Kachel.
 	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_PlayersHouse_1F_Movement_ToMom
 	waitmovement 0
-	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, Common_Movement_FaceLeft
+	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox PalletTown_PlayersHouse_1F_Text_IntroVisitor, MSGBOX_DEFAULT
 	closemessage
@@ -78,6 +78,7 @@ PalletTown_PlayersHouse_1F_EventScript_Intro::
 	end
 
 PalletTown_PlayersHouse_1F_Movement_ToMom::
+	walk_down
 	walk_down
 	walk_left
 	face_left
