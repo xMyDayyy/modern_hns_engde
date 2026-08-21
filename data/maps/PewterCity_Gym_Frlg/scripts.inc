@@ -26,8 +26,8 @@ PewterCity_Gym_EventScript_GiveTM39::
 	goto_if_eq VAR_RESULT, FALSE, PewterCity_Gym_EventScript_NoRoomForTM39
 	giveitem_msg PewterCity_Gym_Text_ReceivedTM39FromBrock, ITEM_TM39
 	setflag FLAG_GOT_TM39_FROM_BROCK
-	@ Kanto-Merge: Der Vanilla-Text behauptet, TMs seien Einwegware. Steht im
-	@ Herausforderungsmenue "TMs wiederverw." auf AN, stimmt das nicht.
+	@ Kanto-Merge: Bei unverbrauchbaren TMs faellt nur die Einweg-Warnung weg,
+	@ der Rest des Textes bleibt.
 	special CheckTMsReusable
 	goto_if_eq VAR_RESULT, TRUE, PewterCity_Gym_EventScript_ExplainTM39Reusable
 	msgbox PewterCity_Gym_Text_ExplainTM39
@@ -336,9 +336,30 @@ PewterCity_Gym_Text_GymStatuePlayerWon::
 	.string "{RIVAL}, {PLAYER}$"
 #endif
 
-@ Kanto-Merge: Bei unverbrauchbaren TMs entfaellt die Erklaerung ersatzlos -
-@ die Einweg-Warnung waere falsch, ein Ersatztext ohne Informationswert.
 PewterCity_Gym_EventScript_ExplainTM39Reusable::
+	msgbox PewterCity_Gym_Text_ExplainTM39NoLimit
 	release
 	end
+
+@ Wortgleich mit PewterCity_Gym_Text_ExplainTM39, nur ohne den Absatz
+@ "Man kann eine TM nur ein einziges Mal verwenden".
+PewterCity_Gym_Text_ExplainTM39NoLimit::
+#if GERMAN
+	.string "Eine TM enthält Attacken, die\n"
+	.string "Pokémon erlernen können!\p"
+	.string "TM39 ist Felsgrab!\p"
+	.string "Der Gegner wird mit Felsen beworfen und\n"
+	.string "unter ihnen begraben.\l"
+	.string "Der INIT.-Wert des Gegners wird\l"
+	.string "zugleich gesenkt!$"
+#else
+	.string "A TM, Technical Machine, contains a\n"
+	.string "technique for POKéMON.\p"
+	.string "Using a TM teaches the move it\n"
+	.string "contains to a POKéMON.\p"
+	.string "Anyways…\n"
+	.string "TM39 contains ROCK TOMB.\p"
+	.string "It hurls boulders at the foe and\n"
+	.string "lowers their SPEED!$"
+#endif
 
