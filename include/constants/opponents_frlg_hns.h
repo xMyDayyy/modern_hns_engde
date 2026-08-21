@@ -12,7 +12,11 @@
 // TRAINERS_COUNT_HNS verschoben sind: FRLG bekommt hier seinen eigenen Block
 // dahinter.
 
-#define FRLG_TRAINER_OFFSET 1478
+// Kanto-Merge: Der Offset bestimmt zugleich, wo die Trainerflags landen
+// (TRAINER_FLAGS_START + id). Mit 1478 lagen sie ab 0xAC7 und damit mitten
+// in SYS_FLAGS - besiegte Trainer setzten dort Ordensbits. Der Block liegt
+// jetzt komplett oberhalb von HOENN_FLAGS_END (0xB72).
+#define FRLG_TRAINER_OFFSET 1700
 
 #undef  TRAINER_YOUNGSTER_BEN
 #define TRAINER_YOUNGSTER_BEN                                (FRLG_TRAINER_OFFSET+1)

@@ -6,6 +6,7 @@
 #include "event_data.h"
 #include "field_name_box.h"
 #include "hoenn_badges.h"
+#include "johto_badges.h"
 #include "field_weather.h"
 #include "gpu_regs.h"
 #include "graphics.h"
@@ -1931,6 +1932,7 @@ void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
             if (FlagGet(curFlag))
                 badgeCount++;
         }
+        badgeCount += GetJohtoBadgeCount();
         badgeCount += GetHoennBadgeCount();
 
         string = ConvertIntToDecimalStringN(string, badgeCount, STR_CONV_MODE_LEADING_ZEROS, 2);
