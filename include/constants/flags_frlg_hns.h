@@ -1313,7 +1313,12 @@
 // Spieler seinen Starter hat.
 #define FLAG_HIDE_PALLET_HOUSE_DAISY                   (FRLG_FLAGS_START+0x27B)
 
-#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x27B)
+
+// Kanto-Merge: Sarah ist zu Beginn bei uns zu Besuch und deshalb nicht
+// zu Hause. Das Flag faellt, sobald der Starter vergeben ist.
+#define FLAG_HIDE_RIVALS_HOUSE_DAISY                   (FRLG_FLAGS_START+0x27C)
+
+#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x27C)
 
 #define FRLG_NUM_FLAG_BYTES (((FRLG_FLAGS_END - FRLG_FLAGS_START + 1) + 7) / 8)
 

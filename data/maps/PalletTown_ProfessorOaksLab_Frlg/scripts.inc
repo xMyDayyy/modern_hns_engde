@@ -1175,6 +1175,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalTakesStarter::
 	waitfanfare
 	@ Kanto-Merge: Sarah geht nach Hause, sobald der Starter vergeben ist.
 	setflag FLAG_HIDE_PALLET_HOUSE_DAISY
+	clearflag FLAG_HIDE_RIVALS_HOUSE_DAISY
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3
 	call_if_set FLAG_OPENED_START_MENU, PalletTown_ProfessorOaksLab_EventScript_ReadyEndSignLadyScene
 	release
@@ -1440,19 +1441,13 @@ PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
 #if GERMAN
 	.string "{PLAYER}, es tut mir Leid, aber ich\n"
 	.string "brauche deine Hilfe nicht!\p"
-	.string "Genau! Ich leihe mir von meiner\n"
-	.string "Schwester eine Karte!\p"
-	.string "Und dir soll sie keine geben, {PLAYER}!\n"
+	.string "Ich schaffe das schon allein!\n"
 	.string "Hahaha!$"
 #else
 	.string "{PLAYER}, I hate to say it, but you\n"
 	.string "won't be necessary for this.\p"
-	.string "I know! I'll borrow a TOWN MAP\n"
-	.string "from my sis!\p"
-	.string "I'll tell her not to lend you one,\n"
-	.string "{PLAYER}! Hahaha!\p"
-	.string "Don't bother coming around to\n"
-	.string "my place after this!$"
+	.string "I'll manage on my own!\n"
+	.string "Hahaha!$"
 #endif
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::

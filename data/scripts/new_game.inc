@@ -457,6 +457,8 @@ EventScript_ResetAllMapFlagsHnS::
 
 #if IS_FRLG || IS_HNS
 EventScript_ResetAllMapFlagsFrlg::
+	@ Kanto-Merge: Sarah sitzt zu Beginn bei uns im Haus, nicht bei sich.
+	setflag FLAG_HIDE_RIVALS_HOUSE_DAISY
 	setflag FLAG_HIDE_OAK_IN_HIS_LAB
 	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
 	setflag FLAG_HIDE_BILL_HUMAN_SEA_COTTAGE

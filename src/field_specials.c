@@ -581,7 +581,7 @@ bool32 ShouldDoNormanCall(void)
 // Kanto-Merge: Anruf der Mutter, nachdem Daisy den PokeGear uebergeben hat.
 // Gleiches Muster wie ShouldDoNormanCall - der Anruf kommt nicht sofort,
 // sondern nach HNS_MOM_CALL_STEPS Schritten unter freiem Himmel.
-#define HNS_MOM_CALL_STEPS 50
+#define HNS_MOM_CALL_STEPS 100
 
 bool32 ShouldDoMomCall(void)
 {

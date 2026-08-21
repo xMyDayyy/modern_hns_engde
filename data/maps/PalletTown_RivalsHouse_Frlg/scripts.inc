@@ -133,50 +133,24 @@ PalletTown_RivalsHouse_EventScript_PleaseGiveMonsRest::
 @ wartet, die nie kommt.
 PalletTown_RivalsHouse_EventScript_DaisyGoodLuck::
 	msgbox PalletTown_RivalsHouse_Text_DaisyGoodLuck
-	closemessage
-	applymovement LOCALID_DAISY, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	removeobject LOCALID_TOWN_MAP
 	setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2
-	delay 15
-	applymovement LOCALID_DAISY, Common_Movement_FacePlayer
-	waitmovement 0
 	release
 	end
 
 PalletTown_RivalsHouse_Text_DaisyGoodLuck:
 #if GERMAN
-	.string "Daisy: Du hilfst also meinem Opa?\p"
-	.string "Dann hast du sicher schon ein\n"
-	.string "PokéCom von deiner Mutter, oder?\p"
-	.string "Da ist eine Karte drin - damit\n"
-	.string "verlaufen kannst du dich nicht.\p"
-	.string "Viel Glück, {PLAYER}!$"
+	.string "Sarah: Oh, wie schön!\p"
+	.string "Du hast ein Pokémon von meinem\n"
+	.string "Opa bekommen.\p"
+	.string "Dann wird es ja Zeit, dass du\n"
+	.string "losziehst. Viel Spaß, {PLAYER}!$"
 #else
-	.string "DAISY: So you're helping GRANDPA?\p"
-	.string "Then your MOM must have given you\n"
-	.string "a POKéGEAR already, right?\p"
-	.string "It has a map built in, so you\n"
-	.string "won't get lost.\p"
-	.string "Good luck, {PLAYER}!$"
+	.string "DAISY: Oh, how nice!\p"
+	.string "You got a POKéMON from my\n"
+	.string "GRANDPA.\p"
+	.string "Time for you to set off, then.\n"
+	.string "Have fun, {PLAYER}!$"
 #endif
-
-PalletTown_RivalsHouse_EventScript_GiveTownMapUnused::
-	msgbox PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp
-	closemessage
-	checkitemspace ITEM_TOWN_MAP
-	goto_if_eq VAR_RESULT, FALSE, PalletTown_RivalsHouse_EventScript_NoRoomForTownMap
-	applymovement LOCALID_DAISY, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	removeobject LOCALID_TOWN_MAP
-	setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2
-	delay 15
-	applymovement LOCALID_DAISY, Common_Movement_FacePlayer
-	waitmovement 0
-	delay 12
-	giveitem_msg PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy, ITEM_TOWN_MAP, 1, MUS_RG_OBTAIN_KEY_ITEM
-	release
-	end
 
 PalletTown_RivalsHouse_EventScript_NoRoomForTownMap::
 	msgbox PalletTown_RivalsHouse_Text_DontHaveSpaceForThis
