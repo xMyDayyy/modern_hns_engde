@@ -121,8 +121,6 @@ ViridianCity_EventScript_TutorialCompleted::
 	end
 
 ViridianCity_EventScript_TutorialStart::
-	msgbox ViridianCity_Text_AskShowCatching, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, ViridianCity_EventScript_TutorialDeclined
 	call ViridianCity_EventScript_DoTutorialBattle
 	release
 	end
@@ -134,8 +132,7 @@ ViridianCity_EventScript_TutorialDeclined::
 	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 2
 	giveitem ITEM_TEACHY_TV
 	msgbox ViridianCity_Text_WatchThatToLearnBasics
-	release
-	end
+	return
 
 ViridianCity_Text_AskShowCatching:
 #if GERMAN
@@ -254,6 +251,11 @@ ViridianCity_EventScript_TutorialTriggerRight::
 	end
 
 ViridianCity_EventScript_DoTutorialBattle::
+	@ Kanto-Merge: Die Abfrage sitzt hier statt in TutorialStart - der Kampf
+	@ hat drei Einstiege (Ansprechen und zwei Lauftrigger), und die beiden
+	@ Trigger haetten sie sonst uebersprungen.
+	msgbox ViridianCity_Text_AskShowCatching, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, ViridianCity_EventScript_TutorialDeclined
 	msgbox ViridianCity_Text_ShowYouHowToCatchMons
 	closemessage
 	special StartOldManTutorialBattle

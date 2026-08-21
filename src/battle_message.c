@@ -795,6 +795,8 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_BUTNOPPLEFT]                          = COMPOUND_STRING("Aber es waren keine AP mehr\nfür diese Attacke übrig!"),
     [STRINGID_PLAYERUSEDITEM]                       = COMPOUND_STRING("{B_PLAYER_NAME} setzt\n{B_LAST_ITEM} ein!"),
     [STRINGID_WALLYUSEDITEM]                        = COMPOUND_STRING("Heiko setzt\n{B_LAST_ITEM} ein!"), //no decapitalize until it is everywhere
+    // Kanto-Merge: In Vertania fuehrt der alte Mann das Fangen vor, nicht Heiko.
+    [STRINGID_OLDMANUSEDITEM]                       = COMPOUND_STRING("Der alte Mann setzt\n{B_LAST_ITEM} ein!"),
     [STRINGID_TRAINERBLOCKEDBALL]                   = COMPOUND_STRING("Der Trainer hat den ball\nabgeblockt!"),
     [STRINGID_DONTBEATHIEF]                         = COMPOUND_STRING("Sei kein Dieb!"),
     [STRINGID_ITDODGEDBALL]                         = COMPOUND_STRING("Es ist dem Ball ausgewichen! Dieses\nPokémon kann nicht gefangen werden!"),
