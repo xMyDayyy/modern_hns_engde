@@ -273,6 +273,7 @@ static void DebugAction_Util_WatchCredits(u8 taskId);
 static void DebugAction_Util_CheatStart(u8 taskId);
 static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId);
 static void DebugAction_Util_KantoTest(u8 taskId);
+static void DebugAction_Util_KantoRepair(u8 taskId);
 
 static void DebugAction_TimeMenu_ChangeTimeOfDay(u8 taskId);
 static void DebugAction_TimeMenu_ChangeWeekdays(u8 taskId);
@@ -581,6 +582,7 @@ static const struct DebugMenuOption sDebugMenu_Actions_Utilities[] =
     { COMPOUND_STRING("Cheat start"),       DebugAction_Util_CheatStart },
     { COMPOUND_STRING("Hoenn Test"), DebugAction_Util_HnsFinishJohtoKanto },
     { COMPOUND_STRING("Kanto Test"), DebugAction_Util_KantoTest },
+    { COMPOUND_STRING("Kanto Flag-Reparatur"), DebugAction_Util_KantoRepair },
     { COMPOUND_STRING("Berry Functions…"),  DebugAction_OpenSubMenu, sDebugMenu_Actions_BerryFunctions },
     { COMPOUND_STRING("EWRAM Counters…"),   DebugAction_ExecuteScript, Debug_EventScript_EWRAMCounters },
     { COMPOUND_STRING("Follower NPC…"),     DebugAction_OpenSubMenu, sDebugMenu_Actions_FollowerNPCMenu },
@@ -1984,13 +1986,6 @@ static void DebugAction_Util_KantoTest(u8 taskId)
         ScriptGiveMon(sTeamSpecies[i], MAX_LEVEL, ITEM_NONE);
     CalculatePlayerPartyCount();
 
-    // Alle belegten TMs und die acht VMs je einmal. Der Bereich
-    // ITEM_TM01..ITEM_TM100 ist unter HnS nur bis ITEM_TM_TRICK_ROOM belegt.
-    for (i = ITEM_TM01; i <= ITEM_TM_TRICK_ROOM; i++)
-        AddBagItem(i, 1);
-    for (i = ITEM_HM01; i <= ITEM_HM08; i++)
-        AddBagItem(i, 1);
-
     PlaySE(SE_EXP_MAX);
     Debug_DestroyMenu_Full(taskId);
     ScriptContext_Enable();
@@ -2002,6 +1997,37 @@ static void DebugAction_Util_KantoTest(u8 taskId)
     ScriptContext_Enable();
 }
 #endif
+
+#if IS_HNS
+// Kanto-Merge: Reparatur fuer Spielstaende aus der Zeit vor der Verschiebung
+// der FRLG-Trainerflags. Damals lagen diese ab 0xAC7 und damit ueber den
+// SYS_FLAGS: Besiegte Trainer setzten dort Bits, die als Orden 09-16 und als
+// Systemzustaende gelesen wurden. Nach der Verschiebung stehen die alten
+// Werte an der falschen Stelle.
+//
+// Geraeumt wird nur, was nachweislich Muell ist - die acht Ordensflags, die
+// in diesem Aufbau niemand mehr setzt. Alles andere bleibt unangetastet,
+// damit kein echter Fortschritt verloren geht.
+static void DebugAction_Util_KantoRepair(u8 taskId)
+{
+    u32 flag;
+
+    for (flag = FLAG_BADGE09_GET; flag <= FLAG_BADGE16_GET; flag++)
+        FlagClear(flag);
+
+    PlaySE(SE_SAVE);
+    Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
+}
+#else
+static void DebugAction_Util_KantoRepair(u8 taskId)
+{
+    Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
+}
+#endif
+
+
 
 
 
