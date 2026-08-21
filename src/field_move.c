@@ -5,12 +5,27 @@
 #include "fldeff_misc.h"
 #include "party_menu.h"
 #include "hoenn_licenses.h"
+#include "constants/region_map_sections.h"
 #include "constants/field_move.h"
 #include "constants/moves.h"
 #include "constants/party_menu.h"
 
+
+// Kanto-Merge: In Kanto gelten FRLGs Regeln. Die Orden dort vergibt seit dem
+// Merge FRLG selbst, also muessen auch die Schwellen die von FRLG sein - nicht
+// die von Johto. Gleiche Bauart wie HoennLicensesApply().
+static bool32 KantoRulesApply(void)
+{
+    u32 mapSec = gMapHeader.regionMapSectionId;
+
+    return IS_HNS && mapSec >= KANTO_MAPSEC_START && mapSec <= KANTO_MAPSEC_END;
+}
+
 static bool32 IsFieldMoveUnlocked_Cut(void)
 {
+    if (KantoRulesApply())
+        return FlagGet(FLAG_BADGE02_GET);
+
     if (IS_HNS)
     {
         // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
@@ -26,6 +41,9 @@ static bool32 IsFieldMoveUnlocked_Cut(void)
 
 static bool32 IsFieldMoveUnlocked_Flash(void)
 {
+    if (KantoRulesApply())
+        return FlagGet(FLAG_BADGE01_GET);
+
     if (IS_HNS)
         return FlagGet(FLAG_BADGE01_GET);
     if (IS_FRLG)
@@ -36,6 +54,9 @@ static bool32 IsFieldMoveUnlocked_Flash(void)
 
 static bool32 IsFieldMoveUnlocked_RockSmash(void)
 {
+    if (KantoRulesApply())
+        return FlagGet(FLAG_BADGE06_GET);
+
     if (IS_HNS)
     {
         // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
@@ -51,6 +72,9 @@ static bool32 IsFieldMoveUnlocked_RockSmash(void)
 
 static bool32 IsFieldMoveUnlocked_Strength(void)
 {
+    if (KantoRulesApply())
+        return FlagGet(FLAG_BADGE03_GET);
+
     if (IS_HNS)
     {
         // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
@@ -64,6 +88,9 @@ static bool32 IsFieldMoveUnlocked_Strength(void)
 
 static bool32 IsFieldMoveUnlocked_Surf(void)
 {
+    if (KantoRulesApply())
+        return FlagGet(FLAG_BADGE04_GET);
+
     if (IS_HNS)
     {
         // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
@@ -77,6 +104,9 @@ static bool32 IsFieldMoveUnlocked_Surf(void)
 
 static bool32 IsFieldMoveUnlocked_Fly(void)
 {
+    if (KantoRulesApply())
+        return FlagGet(FLAG_BADGE03_GET);
+
     if (IS_HNS)
         return FlagGet(FLAG_BADGE05_GET);
     if (IS_FRLG)
@@ -100,6 +130,9 @@ static bool32 IsFieldMoveUnlocked_Dive(void)
 
 static bool32 IsFieldMoveUnlocked_Waterfall(void)
 {
+    if (KantoRulesApply())
+        return FlagGet(FLAG_BADGE07_GET);
+
     if (IS_HNS)
     {
         // In Hoenn zaehlt die Lizenz, ausserhalb weiterhin der Johto-Orden.
