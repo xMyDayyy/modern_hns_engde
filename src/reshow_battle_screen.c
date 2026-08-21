@@ -9,6 +9,7 @@
 #include "gpu_regs.h"
 #include "bg.h"
 #include "battle_controllers.h"
+#include "battle_setup.h"
 #include "link.h"
 #include "sprite.h"
 #include "constants/trainers.h"
@@ -24,7 +25,9 @@ static void CreateHealthboxSprite(enum BattlerId battler);
 static void ClearBattleBgCntBaseBlocks(void);
 static void CreateCaughtMonSprite(void);
 
-#define CATCH_TUTORIAL_TRAINER_PIC_BACK (IS_FRLG ? TRAINER_PIC_BACK_OLD_MAN : TRAINER_PIC_BACK_WALLY)
+// Kanto-Merge: In Vertania fuehrt der alte Mann das Fangen vor, in Hoenn
+// weiterhin Heiko. Die Weichenstellung haengt am Tutorial, nicht am Build.
+#define CATCH_TUTORIAL_TRAINER_PIC_BACK ((IS_FRLG || gIsOldManTutorialBattle) ? TRAINER_PIC_BACK_OLD_MAN : TRAINER_PIC_BACK_WALLY)
 
 void ReshowBattleScreenDummy(void)
 {

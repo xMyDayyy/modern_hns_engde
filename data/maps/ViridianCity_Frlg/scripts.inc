@@ -130,9 +130,45 @@ ViridianCity_EventScript_TutorialStart::
 ViridianCity_EventScript_TutorialDeclined::
 	msgbox ViridianCity_Text_TutorialDeclined
 	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 2
-	giveitem ITEM_TEACHY_TV
-	msgbox ViridianCity_Text_WatchThatToLearnBasics
+	goto ViridianCity_EventScript_GiveRadio
+
+@ Kanto-Merge: Statt des Lehrkanals gibt es das Radiomodul fuer das PokeCom.
+@ Der Lehrkanal existiert in diesem Aufbau nicht - die Radiosender stehen in
+@ sRadioChannels (pokenav_radio.c), und Eichs Pokemon-Talk ist der Sender mit
+@ den Tipps.
+ViridianCity_EventScript_GiveRadio::
+	goto_if_set FLAG_ENABLE_RADIO, ViridianCity_EventScript_RadioDone
+	playfanfare MUS_OBTAIN_ITEM
+	message ViridianCity_Text_ReceivedRadio
+	waitfanfare
+	setflag FLAG_ENABLE_RADIO
+	msgbox ViridianCity_Text_ExplainRadio
+ViridianCity_EventScript_RadioDone::
 	return
+
+ViridianCity_Text_ReceivedRadio:
+#if GERMAN
+	.string "{PLAYER} erhielt das Radiomodul\n"
+	.string "für das PokéCom!$"
+#else
+	.string "{PLAYER} received the RADIO CARD\n"
+	.string "for the POKéGEAR!$"
+#endif
+
+ViridianCity_Text_ExplainRadio:
+#if GERMAN
+	.string "Steck das in dein PokéCom, dann\n"
+	.string "hast du unterwegs Radio.\p"
+	.string "Bei Professor Eichs Pokémon-Talk\n"
+	.string "gibt es jede Menge Tipps.\p"
+	.string "Hör da ruhig mal rein!$"
+#else
+	.string "Put that in your POKéGEAR and\n"
+	.string "you'll have radio on the road.\p"
+	.string "PROF. OAK's POKéMON TALK is full\n"
+	.string "of useful tips.\p"
+	.string "Give it a listen!$"
+#endif
 
 ViridianCity_Text_AskShowCatching:
 #if GERMAN
@@ -251,12 +287,12 @@ ViridianCity_EventScript_TutorialTriggerRight::
 	end
 
 ViridianCity_EventScript_DoTutorialBattle::
-	@ Kanto-Merge: Die Abfrage sitzt hier statt in TutorialStart - der Kampf
-	@ hat drei Einstiege (Ansprechen und zwei Lauftrigger), und die beiden
-	@ Trigger haetten sie sonst uebersprungen.
+	@ Kanto-Merge: Er haelt erst seine uebliche Ansprache, danach kommt die
+	@ Frage. Sie sitzt hier statt in TutorialStart, weil der Kampf drei
+	@ Einstiege hat - Ansprechen und zwei Lauftrigger.
+	msgbox ViridianCity_Text_ShowYouHowToCatchMons
 	msgbox ViridianCity_Text_AskShowCatching, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, ViridianCity_EventScript_TutorialDeclined
-	msgbox ViridianCity_Text_ShowYouHowToCatchMons
 	closemessage
 	special StartOldManTutorialBattle
 	waitstate
@@ -264,9 +300,7 @@ ViridianCity_EventScript_DoTutorialBattle::
 	faceplayer
 	msgbox ViridianCity_Text_ThatWasEducationalTakeThis
 	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 2
-	giveitem ITEM_TEACHY_TV
-	msgbox ViridianCity_Text_WatchThatToLearnBasics
-	return
+	goto ViridianCity_EventScript_GiveRadio
 
 ViridianCity_Text_CanCarryMonsAnywhere::
 #if GERMAN
