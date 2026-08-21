@@ -1895,14 +1895,16 @@ static void DebugAction_Util_HnsFinishJohtoKanto(u8 taskId)
         ScriptGiveMon(sTeamSpecies[i], MAX_LEVEL, ITEM_NONE);
     CalculatePlayerPartyCount();
     SetMoney(&gSaveBlock1Ptr->money, 200000);
-    // Alle belegten TMs und die acht VMs je einmal in den Beutel.
+    // Alle belegten TMs und alle VMs je einmal in den Beutel.
     // Achtung: Der Bereich ITEM_TM01..ITEM_TM100 ist unter HnS nur bis TM92
     // belegt - die acht Nummern danach haben keinen Namen und landeten
     // frueher als "-" im Beutel.
     for (i = ITEM_TM01; i <= ITEM_TM_TRICK_ROOM; i++)
         AddBagItem(i, 1);
-    for (i = ITEM_HM01; i <= ITEM_HM08; i++)
-        AddBagItem(i, 1);
+    // Ueber den VM-Index statt ueber den ID-Bereich: ITEM_HM09 (Taucher)
+    // haengt am Ende der Item-Liste und liegt nicht hinter ITEM_HM08.
+    for (i = NUM_TECHNICAL_MACHINES + 1; i <= NUM_ALL_MACHINES; i++)
+        AddBagItem(GetTMHMItemId(i), 1);
     // Pokedex Kanto + Johto vollstaendig (1-251). Hoenn bleibt bewusst offen,
     // damit sich die Freischaltung bei der Ankunft pruefen laesst.
     for (i = 1; i <= NATIONAL_DEX_CELEBI; i++)
