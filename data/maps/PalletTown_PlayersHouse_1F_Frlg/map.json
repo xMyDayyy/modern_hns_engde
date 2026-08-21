@@ -77,17 +77,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-    {
-      "type": "trigger",
-      "x": 10,
-      "y": 3,
-      "elevation": 3,
-      "var": "VAR_PALLET_HOUSE_INTRO",
-      "var_value": "0",
-      "script": "PalletTown_PlayersHouse_1F_EventScript_Intro"
-    }
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",

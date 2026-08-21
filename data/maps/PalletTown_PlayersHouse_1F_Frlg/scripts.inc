@@ -1,5 +1,10 @@
 PalletTown_PlayersHouse_1F_Frlg_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PalletTown_PlayersHouse_1F_OnFrame
 	.byte 0
+
+PalletTown_PlayersHouse_1F_OnFrame::
+	map_script_2 VAR_PALLET_HOUSE_INTRO, 0, PalletTown_PlayersHouse_1F_EventScript_Intro
+	.2byte 0
 
 PalletTown_PlayersHouse_1F_EventScript_Mom::
 	lock
@@ -26,6 +31,12 @@ PalletTown_PlayersHouse_1F_Text_MomGoSeeOak:
 
 PalletTown_PlayersHouse_1F_EventScript_Intro::
 	lockall
+	delay 20
+	@ Kanto-Merge: Der Spieler geht selbst zur Mutter hinueber. Der Ablauf
+	@ haengt an der Kartenskript-Tabelle und startet direkt nach dem Warp,
+	@ nicht erst beim Betreten einer bestimmten Kachel.
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_PlayersHouse_1F_Movement_ToMom
+	waitmovement 0
 	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, Common_Movement_FaceLeft
 	waitmovement 0
 	msgbox PalletTown_PlayersHouse_1F_Text_IntroVisitor, MSGBOX_DEFAULT
@@ -65,6 +76,12 @@ PalletTown_PlayersHouse_1F_EventScript_Intro::
 	setflag FLAG_HNS_MOM_CALL_PENDING
 	releaseall
 	end
+
+PalletTown_PlayersHouse_1F_Movement_ToMom::
+	walk_down
+	walk_left
+	face_left
+	step_end
 
 PalletTown_PlayersHouse_1F_EventScript_Daisy::
 	lock
