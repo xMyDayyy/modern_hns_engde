@@ -142,10 +142,9 @@ PalletTown_PlayersHouse_1F_Text_OopsWrongSide::
 @ Kanto-Merge: Turbotreter kommen von der Mutter statt vom Eich-Assistenten
 @ in Marmoria. Der Assistent dort prueft ebenfalls FLAG_SYS_B_DASH und
 @ ueberspringt sich damit selbst.
-@ Kanto-Merge: Reihenfolge wie bei der HnS-Mutter in Neuborkia -
-@ erst das PokeCom, dann die Turbotreter, alles in einem Gespraech.
+@ Kanto-Merge: Wortlaut und Ablauf 1:1 von der HnS-Mutter in Neuborkia
+@ uebernommen (NewBarkTown_PlayersHouse_1F_EventScript_MomsIntro).
 PalletTown_PlayersHouse_1F_EventScript_MomGivePokeGear::
-	msgbox PalletTown_PlayersHouse_1F_Text_MomOffersPokeGear
 	playfanfare MUS_OBTAIN_ITEM
 	message PalletTown_PlayersHouse_1F_Text_ObtainedPokeGear
 	waitfanfare
@@ -154,7 +153,7 @@ PalletTown_PlayersHouse_1F_EventScript_MomGivePokeGear::
 	setflag FLAG_RECEIVED_POKENAV
 	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
 	setflag FLAG_REGISTER_RIVAL_POKENAV
-	msgbox PalletTown_PlayersHouse_1F_Text_ExplainPokeGear
+	msgbox PalletTown_PlayersHouse_1F_Text_ExplainPokeGear, MSGBOX_DEFAULT
 	closemessage
 	delay 30
 	@ Anruf der Mutter vorbereiten - sie probiert das Geraet gleich aus.
@@ -162,17 +161,6 @@ PalletTown_PlayersHouse_1F_EventScript_MomGivePokeGear::
 	setflag FLAG_HNS_MOM_CALL_PENDING
 	goto PalletTown_PlayersHouse_1F_EventScript_MomGiveRunningShoes
 	end
-
-PalletTown_PlayersHouse_1F_Text_MomOffersPokeGear:
-#if GERMAN
-	.string "Mutter: Warte, {PLAYER}!\p"
-	.string "Bevor du losziehst - das hier\n"
-	.string "solltest du mitnehmen.$"
-#else
-	.string "MOM: Wait, {PLAYER}!\p"
-	.string "Before you go - you should\n"
-	.string "take this with you.$"
-#endif
 
 PalletTown_PlayersHouse_1F_Text_ObtainedPokeGear:
 #if GERMAN
@@ -183,7 +171,7 @@ PalletTown_PlayersHouse_1F_Text_ObtainedPokeGear:
 
 PalletTown_PlayersHouse_1F_Text_ExplainPokeGear:
 #if GERMAN
-	.string "Mutter: Telefonnummern befinden\n"
+	.string "Mama: Telefonnummern befinden\n"
 	.string "sich im Speicher.\p"
 	.string "Wähle einfach einen Namen aus,\n"
 	.string "um anzurufen.\p"
@@ -196,52 +184,50 @@ PalletTown_PlayersHouse_1F_Text_ExplainPokeGear:
 #endif
 
 PalletTown_PlayersHouse_1F_EventScript_MomGiveRunningShoes::
-	msgbox PalletTown_PlayersHouse_1F_Text_MomRunningShoes
-	playfanfare MUS_RG_OBTAIN_KEY_ITEM
-	message PalletTown_PlayersHouse_1F_Text_ReceivedRunningShoes
+	msgbox PalletTown_PlayersHouse_1F_Text_WearTheseRunningShoes, MSGBOX_DEFAULT
 	waitmessage
-	waitfanfare
-	setflag FLAG_SYS_B_DASH
-	msgbox PalletTown_PlayersHouse_1F_Text_MomExplainRunningShoes
 	closemessage
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox PalletTown_PlayersHouse_1F_Text_SwitchShoesWithRunningShoes, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	setflag FLAG_RECEIVED_RUNNING_SHOES
+	setflag FLAG_SYS_B_DASH
+	msgbox PalletTown_PlayersHouse_1F_Text_ExplainRunningShoes, MSGBOX_DEFAULT
+	closemessage
+	delay 30
 	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	release
 	end
 
-PalletTown_PlayersHouse_1F_Text_MomRunningShoes:
+PalletTown_PlayersHouse_1F_Text_WearTheseRunningShoes:
 #if GERMAN
-	.string "Warte, {PLAYER}! Bevor du losziehst …\p"
-	.string "Hier, nimm die mit. Damit kommst du\n"
-	.string "schneller voran.$"
-#else
-	.string "Wait, {PLAYER}! Before you go…\p"
-	.string "Here, take these. They'll get you\n"
-	.string "around a lot faster.$"
-#endif
-
-PalletTown_PlayersHouse_1F_Text_ReceivedRunningShoes:
-#if GERMAN
-	.string "{PLAYER} erhält die\n"
+	.string "Oh, und vergiss nicht deine\n"
 	.string "Turbotreter!$"
 #else
-	.string "{PLAYER} received the\n"
-	.string "Running Shoes!$"
+	.string "Oh, and don't forget your\n"
+	.string "RUNNING SHOES!$"
 #endif
 
-PalletTown_PlayersHouse_1F_Text_MomExplainRunningShoes:
+PalletTown_PlayersHouse_1F_Text_SwitchShoesWithRunningShoes:
 #if GERMAN
-	.string "Halt einfach B gedrückt, während du\n"
-	.string "läufst.\p"
-	.string "Und pass auf dich auf, hörst du?$"
+	.string "{PLAYER} tauschte Schuhe gegen\n"
+	.string "die Turbotreter.$"
 #else
-	.string "Just hold down B while you walk.\p"
-	.string "And do take care of yourself, hear?$"
+	.string "{PLAYER} switched shoes with the\n"
+	.string "RUNNING SHOES.$"
 #endif
 
-@ Kanto-Merge: Der Rivale wird sonst nirgends benannt (das passierte in FRLG
-@ in Eichs Eroeffnungsrede, die unter HnS nicht laeuft). Die Mutter fragt
-@ danach, dann kommen die Turbotreter.
+PalletTown_PlayersHouse_1F_Text_ExplainRunningShoes:
+#if GERMAN
+	.string "Mama: {PLAYER}, halte B gedrückt,\n"
+	.string "um mit diesen Schuhen zu laufen!$"
+#else
+	.string "MOM: {PLAYER}, press the B Button\n"
+	.string "while wearing these to run fast!$"
+#endif
+
 PalletTown_PlayersHouse_1F_EventScript_MomAskRivalName::
 	msgbox PalletTown_PlayersHouse_1F_Text_MomAskRivalName
 	closemessage
