@@ -154,6 +154,32 @@ def check_layouts(maps, active_names, version, rep):
             if path and not os.path.exists(path):
                 rep.warn("layouts",
                          f"{lay['id']}: {key} fehlt auf der Platte ({path})")
+        # Groesse gegen die deklarierten Masse pruefen. Eine zu kurze
+        # border.bin laesst die Engine ueber das Dateiende hinaus lesen -
+        # am Kartenrand erscheinen dann fremde Kacheln.
+        border = lay.get("border_filepath")
+        if border and os.path.exists(border):
+            need = lay.get("border_width", 2) * lay.get("border_height", 2) * 2
+            have = os.path.getsize(border)
+            if have < need:
+                rep.error("layouts",
+                          f"{lay['id']}: border.bin ist {have} Byte, "
+                          f"{lay.get('border_width', 2)}x{lay.get('border_height', 2)} "
+                          f"braucht {need}")
+        blocks = lay.get("blockdata_filepath")
+        if blocks and os.path.exists(blocks):
+            need = lay.get("width", 0) * lay.get("height", 0) * 2
+            have = os.path.getsize(blocks)
+            # Zu klein ist gefaehrlich - die Engine liest darueber hinaus.
+            # Zu gross ist nur ungenutzter Platz.
+            if have < need:
+                rep.error("layouts",
+                          f"{lay['id']}: map.bin ist {have} Byte, "
+                          f"{lay.get('width')}x{lay.get('height')} braucht {need}")
+            elif have > need:
+                rep.note("layouts",
+                         f"{lay['id']}: map.bin ist {have} Byte, "
+                         f"noetig waeren {need}")
     for name in sorted(active_names):
         layout = maps[name].get("layout")
         if not layout:
