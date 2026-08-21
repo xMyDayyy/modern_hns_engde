@@ -1,6 +1,11 @@
 #ifndef GUARD_CONSTANTS_TMS_HMS_H
 #define GUARD_CONSTANTS_TMS_HMS_H
 
+// Ohne diesen Include faellt IS_HNS auf 0 zurueck, sobald dieser Header
+// isoliert eingebunden wird - die VM-Liste waere dann eine andere als im
+// restlichen Build. Seit VM09 haengt auch ITEMS_COUNT daran.
+#include "constants/global.h"
+
 #if IS_HNS
 
 #define FOREACH_TM(F) \
@@ -97,6 +102,9 @@
     F(FLASH_CANNON) \
     F(TRICK_ROOM)
 
+// Origin Jade: Unter HnS belegt der Strudel die VM08, weil er in Johto
+// gebraucht wird. Taucher wird in Hoenn von Troy vergeben und bekommt
+// deshalb die VM09. Die zugehoerige Item-ID steht am Ende von enum Item.
 #define FOREACH_HM(F) \
     F(CUT) \
     F(FLY) \
@@ -105,7 +113,8 @@
     F(FLASH) \
     F(ROCK_SMASH) \
     F(WATERFALL) \
-    F(WHIRLPOOL)
+    F(WHIRLPOOL) \
+    F(DIVE)
 
 #else
 

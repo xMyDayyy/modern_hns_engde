@@ -824,17 +824,16 @@ enum __attribute__((packed)) Item
 
     /* Expands to:
      *   ITEM_TM_FOCUS_PUNCH = ITEM_TM01,
-     *   ...
-     *   ITEM_HM_CUT = ITM_HM01,
      *   ... */
     #define ENUM_TM(n, id) CAT(ITEM_TM_, id) = CAT(ITEM_TM, n),
     #define ENUM_HM(n, id) CAT(ITEM_HM_, id) = CAT(ITEM_HM, n),
     #define TO_TMHM_NUMS(a, ...) (__VA_ARGS__)
     RECURSIVELY(R_ZIP(ENUM_TM, TO_TMHM_NUMS NUMBERS_256, (FOREACH_TM(APPEND_COMMA))))
-    RECURSIVELY(R_ZIP(ENUM_HM, TO_TMHM_NUMS NUMBERS_256, (FOREACH_HM(APPEND_COMMA))))
     #undef ENUM_TM
-    #undef ENUM_HM
-    #undef TO_TMHM_NUMS
+    // ENUM_HM und TO_TMHM_NUMS werden erst am Ende der Liste aufgeloest.
+    // Grund: ITEM_HM09 (Taucher) haengt unter HnS am Listenende, damit sich
+    // keine bestehende Item-ID verschiebt - der Alias ITEM_HM_DIVE kann sie
+    // also erst dort referenzieren.
 
     // Charms
     ITEM_OVAL_CHARM = 690,
@@ -1090,7 +1089,26 @@ enum __attribute__((packed)) Item
     // der Silph Co., nachdem der Spieler auch die Liga von Kanto gewonnen hat.
     ITEM_HOENN_TICKET,
 
+#if IS_HNS
+    // HnS: Der Strudel belegt die VM08 (Johto), Taucher bekommt die VM09.
+    // Die ID haengt bewusst am Listenende statt hinter ITEM_HM08 - so
+    // verschiebt sich keine bestehende Item-ID und Speicherstaende mit
+    // gefuelltem Beutel bleiben gueltig.
+    ITEM_HM09,
+#endif
+
+    // Muss vor dem Alias-Block stehen: dessen letzte Zeile ist eine explizite
+    // Zuweisung (ITEM_HM_DIVE = ITEM_HMxx). Stuende ITEMS_COUNT danach, wuerde
+    // es von dort weiterzaehlen statt von der letzten echten Item-ID.
     ITEMS_COUNT,
+
+    /* Expands to:
+     *   ITEM_HM_CUT = ITEM_HM01,
+     *   ... */
+    RECURSIVELY(R_ZIP(ENUM_HM, TO_TMHM_NUMS NUMBERS_256, (FOREACH_HM(APPEND_COMMA))))
+    #undef ENUM_HM
+    #undef TO_TMHM_NUMS
+
     ITEM_FIELD_ARROW = ITEMS_COUNT,
 };
 

@@ -14164,6 +14164,21 @@ const struct ItemInfo gItemsInfo[] =
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
+
+    // Der Strudel belegt unter HnS die VM08, Taucher rueckt auf die VM09.
+    [ITEM_HM_DIVE] =
+    {
+        .name = ITEM_NAME("VM09"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Pokémon taucht ab,\n"
+            "dann erfolgt An-\n"
+            "griff aus der Tiefe."),
+        .importance = 1,
+        .pocket = POCKET_TM_HM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
+    },
 #else
     [ITEM_HM_DIVE] =
     {
