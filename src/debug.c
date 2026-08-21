@@ -261,6 +261,9 @@ static void DebugTask_HandleMenuInput_General(u8 taskId);
 
 static void DebugAction_Util_Fly(u8 taskId);
 static void DebugAction_Util_Warp_Warp(u8 taskId);
+static void DebugAction_Util_Warp_Kanto(u8 taskId);
+static void DebugAction_Util_Warp_Johto(u8 taskId);
+static void DebugAction_Util_Warp_Hoenn(u8 taskId);
 static void DebugAction_Util_Warp_SelectMapGroup(u8 taskId);
 static void DebugAction_Util_Warp_SelectMap(u8 taskId);
 static void DebugAction_Util_Warp_SelectWarp(u8 taskId);
@@ -568,7 +571,9 @@ static const struct DebugMenuOption sDebugMenu_Actions_FollowerNPCMenu[] =
 static const struct DebugMenuOption sDebugMenu_Actions_Utilities[] =
 {
     { COMPOUND_STRING("Fly to map…"),       DebugAction_Util_Fly },
-    { COMPOUND_STRING("Warp to map warp…"), DebugAction_Util_Warp_Warp },
+    { COMPOUND_STRING("Warp Kanto…"), DebugAction_Util_Warp_Kanto },
+    { COMPOUND_STRING("Warp Johto…"), DebugAction_Util_Warp_Johto },
+    { COMPOUND_STRING("Warp Hoenn…"), DebugAction_Util_Warp_Hoenn },
     { COMPOUND_STRING("Set weather…"),      DebugAction_Util_Weather },
     { COMPOUND_STRING("Font Test…"),        DebugAction_ExecuteScript, Debug_EventScript_FontTest },
     { COMPOUND_STRING("Time Functions…"),   DebugAction_OpenSubMenu, sDebugMenu_Actions_TimeMenu, },
@@ -1476,6 +1481,19 @@ static void DebugAction_Util_Fly(u8 taskId)
     SetMainCallback2(CB2_OpenFlyMap);
 }
 
+// Kanto-Merge: Der Warp-Dialog laeuft jetzt regionsweise. tRegionBase ist die
+// erste Kartengruppe der gewaehlten Region, tRegionLast die letzte; die
+// Eingabe zaehlt ab 0 innerhalb der Region.
+#define REGION_JOHTO_FIRST_GROUP  0
+#define REGION_JOHTO_LAST_GROUP   30
+#define REGION_HOENN_FIRST_GROUP  31
+#define REGION_HOENN_LAST_GROUP   64
+#define REGION_KANTO_FIRST_GROUP  65
+#define REGION_KANTO_LAST_GROUP   93
+
+#define tRegionBase data[8]
+#define tRegionLast data[9]
+
 #define tMapGroup  data[5]
 #define tMapNum    data[6]
 #define tWarp      data[7]
@@ -1512,15 +1530,37 @@ static void DebugAction_Util_Warp_Warp(u8 taskId)
     gTasks[taskId].tWarp = 0;
 }
 
+static void DebugAction_Util_Warp_Region(u8 taskId, u32 first, u32 last)
+{
+    DebugAction_Util_Warp_Warp(taskId);
+    gTasks[taskId].tRegionBase = first;
+    gTasks[taskId].tRegionLast = last;
+}
+
+static void DebugAction_Util_Warp_Kanto(u8 taskId)
+{
+    DebugAction_Util_Warp_Region(taskId, REGION_KANTO_FIRST_GROUP, REGION_KANTO_LAST_GROUP);
+}
+
+static void DebugAction_Util_Warp_Johto(u8 taskId)
+{
+    DebugAction_Util_Warp_Region(taskId, REGION_JOHTO_FIRST_GROUP, REGION_JOHTO_LAST_GROUP);
+}
+
+static void DebugAction_Util_Warp_Hoenn(u8 taskId)
+{
+    DebugAction_Util_Warp_Region(taskId, REGION_HOENN_FIRST_GROUP, REGION_HOENN_LAST_GROUP);
+}
+
 static void DebugAction_Util_Warp_SelectMapGroup(u8 taskId)
 {
     if (JOY_NEW(DPAD_ANY))
     {
         PlaySE(SE_SELECT);
-        Debug_HandleInput_Numeric(taskId, 0, LAST_MAP_GROUP, 3);
+        Debug_HandleInput_Numeric(taskId, 0, gTasks[taskId].tRegionLast - gTasks[taskId].tRegionBase, 3);
 
         ConvertIntToDecimalStringN(gStringVar1, gTasks[taskId].tInput, STR_CONV_MODE_LEADING_ZEROS, 3);
-        ConvertIntToDecimalStringN(gStringVar2, LAST_MAP_GROUP, STR_CONV_MODE_LEADING_ZEROS, 3);
+        ConvertIntToDecimalStringN(gStringVar2, gTasks[taskId].tRegionLast - gTasks[taskId].tRegionBase, STR_CONV_MODE_LEADING_ZEROS, 3);
         StringExpandPlaceholders(gStringVar1, sDebugText_Util_WarpToMap_SelMax);
         StringCopy(gStringVar3, gText_DigitIndicator[gTasks[taskId].tDigit]);
         StringExpandPlaceholders(gStringVar4, sDebugText_Util_WarpToMap_SelectMapGroup);
@@ -1529,7 +1569,7 @@ static void DebugAction_Util_Warp_SelectMapGroup(u8 taskId)
 
     if (JOY_NEW(A_BUTTON))
     {
-        gTasks[taskId].tMapGroup = gTasks[taskId].tInput;
+        gTasks[taskId].tMapGroup = gTasks[taskId].tRegionBase + gTasks[taskId].tInput;
         gTasks[taskId].tInput = 0;
         gTasks[taskId].tDigit = 0;
 
