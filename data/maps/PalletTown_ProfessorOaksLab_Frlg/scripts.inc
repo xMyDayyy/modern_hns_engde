@@ -1173,6 +1173,8 @@ PalletTown_ProfessorOaksLab_EventScript_RivalTakesStarter::
 	waitmessage
 	playfanfare MUS_RG_OBTAIN_KEY_ITEM
 	waitfanfare
+	@ Kanto-Merge: Sarah geht nach Hause, sobald der Starter vergeben ist.
+	setflag FLAG_HIDE_PALLET_HOUSE_DAISY
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3
 	call_if_set FLAG_OPENED_START_MENU, PalletTown_ProfessorOaksLab_EventScript_ReadyEndSignLadyScene
 	release

@@ -31,6 +31,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_PlayersHouse_1F_EventScript_Mom",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DAISY",
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PalletTown_PlayersHouse_1F_EventScript_Daisy",
+      "flag": "FLAG_HIDE_PALLET_HOUSE_DAISY",
+      "local_id": "LOCALID_PLAYERS_HOUSE_1F_DAISY"
     }
   ],
   "warp_events": [
@@ -66,39 +80,12 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 4,
-      "y": 7,
+      "x": 10,
+      "y": 3,
       "elevation": 3,
-      "var": "VAR_TEMP_5",
+      "var": "VAR_PALLET_HOUSE_INTRO",
       "var_value": "0",
-      "script": "PalletTown_PlayersHouse_1F_EventScript_BlockExit"
-    },
-    {
-      "type": "trigger",
-      "x": 5,
-      "y": 7,
-      "elevation": 3,
-      "var": "VAR_TEMP_5",
-      "var_value": "0",
-      "script": "PalletTown_PlayersHouse_1F_EventScript_BlockExit"
-    },
-    {
-      "type": "trigger",
-      "x": 3,
-      "y": 8,
-      "elevation": 3,
-      "var": "VAR_TEMP_5",
-      "var_value": "0",
-      "script": "PalletTown_PlayersHouse_1F_EventScript_BlockExit"
-    },
-    {
-      "type": "trigger",
-      "x": 6,
-      "y": 8,
-      "elevation": 3,
-      "var": "VAR_TEMP_5",
-      "var_value": "0",
-      "script": "PalletTown_PlayersHouse_1F_EventScript_BlockExit"
+      "script": "PalletTown_PlayersHouse_1F_EventScript_Intro"
     }
   ],
   "bg_events": [

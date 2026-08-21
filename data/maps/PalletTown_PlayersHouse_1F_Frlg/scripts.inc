@@ -4,17 +4,120 @@ PalletTown_PlayersHouse_1F_Frlg_MapScripts::
 PalletTown_PlayersHouse_1F_EventScript_Mom::
 	lock
 	faceplayer
-	goto_if_unset FLAG_RIVAL_NAMED_BY_MOM, PalletTown_PlayersHouse_1F_EventScript_MomAskRivalName
-	goto_if_unset FLAG_SYS_B_DASH, PalletTown_PlayersHouse_1F_EventScript_MomGivePokeGear
 	goto_if_set FLAG_BEAT_RIVAL_IN_OAKS_LAB, PalletTown_PlayersHouse_1F_EventScript_MomHeal
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouMale
-	call_if_eq VAR_RESULT, FEMALE, PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouFemale
-	closemessage
-	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, Common_Movement_FaceOriginalDirection
-	waitmovement 0
+	msgbox PalletTown_PlayersHouse_1F_Text_MomGoSeeOak
 	release
 	end
+
+PalletTown_PlayersHouse_1F_Text_MomGoSeeOak:
+#if GERMAN
+	.string "Mama: Prof. Eich hat nach dir\n"
+	.string "gefragt. Geh doch mal zu ihm!$"
+#else
+	.string "MOM: PROF. OAK was asking for you.\n"
+	.string "Why don't you go and see him?$"
+#endif
+
+@ ============================================================================
+@ Kanto-Merge: Startgespraech am Treppenfuss. Faengt Rivalennamen, PokeCom
+@ und Turbotreter in einer Szene ab; die alte Sperre an der Haustuer
+@ entfaellt dadurch. Wortlaut der Uebergaben von der HnS-Mutter.
+@ ============================================================================
+
+PalletTown_PlayersHouse_1F_EventScript_Intro::
+	lockall
+	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, Common_Movement_FaceLeft
+	waitmovement 0
+	msgbox PalletTown_PlayersHouse_1F_Text_IntroVisitor, MSGBOX_DEFAULT
+	closemessage
+	special NameRival
+	waitstate
+	setflag FLAG_RIVAL_NAMED_BY_MOM
+	msgbox PalletTown_PlayersHouse_1F_Text_IntroRivalThere, MSGBOX_DEFAULT
+	playfanfare MUS_OBTAIN_ITEM
+	message PalletTown_PlayersHouse_1F_Text_ObtainedPokeGear
+	waitfanfare
+	setflag FLAG_SYS_POKENAV_GET
+	setflag FLAG_HAS_MATCH_CALL
+	setflag FLAG_RECEIVED_POKENAV
+	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
+	setflag FLAG_REGISTER_RIVAL_POKENAV
+	msgbox PalletTown_PlayersHouse_1F_Text_ExplainPokeGear, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	msgbox PalletTown_PlayersHouse_1F_Text_WearTheseRunningShoes, MSGBOX_DEFAULT
+	waitmessage
+	closemessage
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox PalletTown_PlayersHouse_1F_Text_SwitchShoesWithRunningShoes, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	setflag FLAG_RECEIVED_RUNNING_SHOES
+	setflag FLAG_SYS_B_DASH
+	msgbox PalletTown_PlayersHouse_1F_Text_ExplainRunningShoes, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	setvar VAR_PALLET_HOUSE_INTRO, 1
+	@ Anruf der Mutter vorbereiten - sie probiert das Geraet gleich aus.
+	setvar VAR_HNS_MOM_CALL_STEPS, 0
+	setflag FLAG_HNS_MOM_CALL_PENDING
+	releaseall
+	end
+
+PalletTown_PlayersHouse_1F_EventScript_Daisy::
+	lock
+	faceplayer
+	msgbox PalletTown_PlayersHouse_1F_Text_DaisyVisiting
+	release
+	end
+
+PalletTown_PlayersHouse_1F_Text_IntroVisitor:
+#if GERMAN
+	.string "Mama: Oh, {PLAYER}!\p"
+	.string "Wir haben gerade Besuch von\n"
+	.string "Prof. Eichs Enkelin Sarah.\p"
+	.string "Er hat nach dir gefragt.\n"
+	.string "Geh doch mal zu ihm!\p"
+	.string "Sein Enkel$"
+#else
+	.string "MOM: Oh, {PLAYER}!\p"
+	.string "We've got a visitor - PROF. OAK's\n"
+	.string "granddaughter DAISY.\p"
+	.string "He was asking for you.\n"
+	.string "Why don't you go and see him?\p"
+	.string "His grandson$"
+#endif
+
+PalletTown_PlayersHouse_1F_Text_IntroRivalThere:
+#if GERMAN
+	.string "Sein Enkel {RIVAL} ist bestimmt\n"
+	.string "auch dort.\p"
+	.string "Ach, bevor ich es vergesse:\n"
+	.string "Dein PokéCom kam aus der\l"
+	.string "Werkstatt.\p"
+	.string "Hier, nimm es!$"
+#else
+	.string "His grandson {RIVAL} is bound to\n"
+	.string "be there.\p"
+	.string "Oh, before I forget:\n"
+	.string "your POKéGEAR is back from\l"
+	.string "the repair shop.\p"
+	.string "Here, take it!$"
+#endif
+
+PalletTown_PlayersHouse_1F_Text_DaisyVisiting:
+#if GERMAN
+	.string "Sarah: Hallo, {PLAYER}!\p"
+	.string "Mein Opa ist im Labor und\n"
+	.string "wartet schon auf dich.$"
+#else
+	.string "DAISY: Hi, {PLAYER}!\p"
+	.string "GRANDPA's at the lab, and he's\n"
+	.string "waiting for you.$"
+#endif
+
 
 PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouMale::
 	msgbox PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou

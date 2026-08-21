@@ -109,6 +109,9 @@
 // Kanto-Merge: Johto-Orden als eigene Bitmaske (Kanto behaelt FLAG_BADGE0X_GET).
 #define VAR_JOHTO_BADGES (FRLG_VARS_START+0x7F)
 
+// Kanto-Merge: 0 = Startgespraech steht noch aus, 1 = gelaufen.
+#define VAR_PALLET_HOUSE_INTRO (FRLG_VARS_START+0x7D)
+
 // Kanto-Merge: Schrittzaehler fuer den Anruf der Mutter.
 #define VAR_HNS_MOM_CALL_STEPS (FRLG_VARS_START+0x7E)
 

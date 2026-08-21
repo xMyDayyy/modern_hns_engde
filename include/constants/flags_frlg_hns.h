@@ -1308,7 +1308,12 @@
 #define FLAG_VISITED_JOHTO                             (FRLG_FLAGS_START+0x27A)
 
 
-#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x27A)
+
+// Kanto-Merge: Sarah sitzt zu Beginn bei der Mutter und geht, sobald der
+// Spieler seinen Starter hat.
+#define FLAG_HIDE_PALLET_HOUSE_DAISY                   (FRLG_FLAGS_START+0x27B)
+
+#define FRLG_FLAGS_END (FRLG_FLAGS_START+0x27B)
 
 #define FRLG_NUM_FLAG_BYTES (((FRLG_FLAGS_END - FRLG_FLAGS_START + 1) + 7) / 8)
 
