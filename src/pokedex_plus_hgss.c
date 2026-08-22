@@ -768,6 +768,7 @@ static void Task_LoadInfoScreen(u8);
 static void Task_HandleInfoScreenInput(u8);
 static void Task_SwitchScreensFromInfoScreen(u8);
 static void Task_LoadInfoScreenWaitForFade(u8);
+static void Task_WaitForFadeFromEvoFormsScreen(u8);
 static void Task_ExitInfoScreen(u8);
 static void Task_LoadAreaScreen(u8 taskId);
 static void Task_ReloadAreaScreen(u8 taskId);
@@ -846,7 +847,7 @@ static void Task_LoadEvolutionScreen(u8 taskId);
 static void Task_HandleEvolutionScreenInput(u8 taskId);
 static void Task_SwitchScreensFromEvolutionScreen(u8 taskId);
 static void Task_ExitEvolutionScreen(u8 taskId);
-static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 depth, u32 *depth_i, u32 alreadyPrintedIcons[], u32 *icon_depth_i, u32 numLines);
+static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 depth, u32 *depth_i, u32 alreadyPrintedIcons[], u32 *icon_depth_i, u32 numLines, u32 *totalLines, u16 baseSpecies);
 static u8 PrintPreEvolutions(u8 taskId, u16 species);
 //Stat bars on scrolling screens
 static void TryDestroyStatBars(void);
@@ -4206,6 +4207,24 @@ static void Task_LoadInfoScreenWaitForFade(u8 taskId)
     }
 }
 
+// Like Task_LoadInfoScreenWaitForFade, but the source screen was the evo/forms
+// screen, where data[4]/data[5..] hold mon icon sprites
+static void Task_WaitForFadeFromEvoFormsScreen(u8 taskId)
+{
+    if (!gPaletteFade.active)
+    {
+        u8 i;
+        FreeMonIconPalettes();
+        FreeAndDestroyMonIconSprite(&gSprites[gTasks[taskId].data[4]]);
+        for (i = 1; i <= gTasks[taskId].data[3]; i++)
+        {
+            FreeAndDestroyMonIconSprite(&gSprites[gTasks[taskId].data[4+i]]);
+        }
+        FreeAndDestroyMonPicSprite(gTasks[taskId].tMonSpriteId);
+        gTasks[taskId].func = Task_LoadInfoScreen;
+    }
+}
+
 static void Task_ExitInfoScreen(u8 taskId)
 {
     if (!gPaletteFade.active)
@@ -6352,9 +6371,11 @@ static void Task_LoadEvolutionScreen(u8 taskId)
         u32 alreadyPrintedIcons[MAX_EVOLUTION_ICONS] = {0};
         u32 depth = sPokedexView->numPreEvolutions;
         u32 iconDepth = depth;
+        u32 totalLines = sPokedexView->numPreEvolutions;
+        u16 baseSpecies = NationalPokedexNumToSpeciesHGSS(sPokedexListItem->dexNum);
         //Print evo info and icons
-        gTasks[taskId].data[3] = 0;
-        PrintEvolutionTargetSpeciesAndMethod(taskId, NationalPokedexNumToSpeciesHGSS(sPokedexListItem->dexNum), 0, &depth, alreadyPrintedIcons, &iconDepth, 0);
+        gTasks[taskId].data[3] = sPokedexView->numPreEvolutions;
+        PrintEvolutionTargetSpeciesAndMethod(taskId, baseSpecies, 0, &depth, alreadyPrintedIcons, &iconDepth, 0, &totalLines, baseSpecies);
         LoadSpritePalette(&gSpritePalette_Arrow);
         TryLoadDarkModeArrowPalette();
         GetSeenFlagTargetSpecies();
@@ -6475,7 +6496,7 @@ static void Task_HandleEvolutionScreenInput(u8 taskId)
             sPokedexView->sEvoScreenData.fromEvoPage = TRUE;
             PlaySE(SE_PIN);
             BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-            gTasks[taskId].func = Task_LoadInfoScreenWaitForFade;
+            gTasks[taskId].func = Task_WaitForFadeFromEvoFormsScreen;
         }
     }
 
@@ -6529,11 +6550,15 @@ static void HandleTargetSpeciesPrintIcon(u8 taskId, u16 targetSpecies, u8 base_i
 {
     u32 personality = GetPokedexMonPersonality(targetSpecies);
     LoadMonIconPalettePersonality(targetSpecies, personality); //Loads pallete for current mon
+#if RANDOMIZER_AVAILABLE
+    if (iterations > 6 || RandomizerFeatureEnabled(RANDOMIZE_EVO_METHODS) || RandomizerFeatureEnabled(RANDOMIZE_EVOLUTIONS)) // Print icons closer to each other if there are many evolutions
+#else
     if (iterations > 6) // Print icons closer to each other if there are many evolutions
-        gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 45 + 26*base_i, 31, 4, personality);
+#endif
+        gTasks[taskId].data[5+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 45 + 26*base_i, 31, 4, personality);
     else
-        gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, personality);
-    gSprites[gTasks[taskId].data[4+base_i]].oam.priority = 0;
+        gTasks[taskId].data[5+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, personality);
+    gSprites[gTasks[taskId].data[5+base_i]].oam.priority = 0;
 }
 
 static void CreateCaughtBallEvolutionScreen(u16 targetSpecies, u8 x, u8 y, u16 unused)
@@ -6574,8 +6599,8 @@ static void HandlePreEvolutionSpeciesPrint(u8 taskId, u16 preSpecies, u16 specie
     {
         u32 personality = GetPokedexMonPersonality(preSpecies);
         LoadMonIconPalettePersonality(preSpecies, personality); //Loads pallete for current mon
-        gTasks[taskId].data[4+base_i] = CreateMonIcon(preSpecies, SpriteCB_MonIcon, 18 + 32*base_i, 31, 4, personality); //Create pokemon sprite
-        gSprites[gTasks[taskId].data[4+base_i]].oam.priority = 0;
+        gTasks[taskId].data[5+base_i] = CreateMonIcon(preSpecies, SpriteCB_MonIcon, 18 + 32*base_i, 31, 4, personality); //Create pokemon sprite
+        gSprites[gTasks[taskId].data[5+base_i]].oam.priority = 0;
     }
 }
 
@@ -6767,7 +6792,7 @@ bool32 IsItemSweet(enum Item item)
     return item >= ITEM_STRAWBERRY_SWEET && item <= ITEM_RIBBON_SWEET;
 }
 
-static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 depth, u32 *depth_i, u32 alreadyPrintedIcons[], u32 *icon_depth_i, u32 numLines)
+static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 depth, u32 *depth_i, u32 alreadyPrintedIcons[], u32 *icon_depth_i, u32 numLines, u32 *totalLines, u16 baseSpecies)
 {
     int i;
     u32 depth_x = 4;
@@ -6781,6 +6806,7 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
     u32 times = 0;
     u32 arg; // shorthand for some of the more mathy evolutions
     const struct Evolution *evolutions;
+    u32 lineBreaks = 0;
 
     if (sPokedexView->sEvoScreenData.isMega)
         return;
@@ -6794,7 +6820,8 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
 
     evolutions = GetSpeciesEvolutions(species);
 
-    sPokedexView->sEvoScreenData.arrowSpriteDist[*depth_i] = numLines;
+    if (*depth_i < 10)
+        sPokedexView->sEvoScreenData.arrowSpriteDist[*depth_i] = numLines;
 
     //If there are no evolutions print text and return
     if (evolutions == NULL)
@@ -6813,11 +6840,6 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
 
     if (times > 9 && species == SPECIES_MILCERY)
         times = 9;
-    else if (times > 10)
-        times = 10;
-
-    gTasks[taskId].data[3] = times;
-    sPokedexView->sEvoScreenData.numAllEvolutions += times;
 
     //If there are evolutions find out which and print them 1 by 1
     for (i = 0; i < times; i++)
@@ -6831,6 +6853,9 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
             targetSpecies = RandomizeEvolution(targetSpecies, species);
 #endif
 
+        if (targetSpecies == baseSpecies)
+            continue;
+
         left = !left;
 
         bool32 isAlcremie = IsSpeciesAlcremie(targetSpecies);
@@ -6842,10 +6867,6 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
         u32 base_x_offset = speciesNameWidth + base_x + depth_offset; // for evo method info
         u32 maxScreenWidth = 230 - base_x_offset;
 
-        sPokedexView->sEvoScreenData.targetSpecies[*depth_i] = targetSpecies;
-        CreateCaughtBallEvolutionScreen(targetSpecies, base_x + depth_x*depth-9, base_y + base_y_offset*(*depth_i) + numLines, 0);
-        HandleTargetSpeciesPrintText(targetSpecies, base_x + depth_x*depth, base_y, base_y_offset, *depth_i, numLines); //evolution mon name
-
         for (u32 j = 0; j < MAX_EVOLUTION_ICONS; j++)
         {
             if (alreadyPrintedIcons[j] == targetSpecies)
@@ -6855,9 +6876,19 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                 HandleTargetSpeciesPrintIcon(taskId, targetSpecies, *icon_depth_i, times);
                 alreadyPrintedIcons[j] = targetSpecies;
                 (*icon_depth_i)++;
+                gTasks[taskId].data[3] += 1;
                 break;
             }
         }
+
+        if (*totalLines >= MAX_EVO_METHOD_LINES || sPokedexView->sEvoScreenData.numAllEvolutions >= 10)
+            continue;
+
+        sPokedexView->sEvoScreenData.targetSpecies[*depth_i] = targetSpecies;
+        sPokedexView->sEvoScreenData.numAllEvolutions += 1;
+
+        CreateCaughtBallEvolutionScreen(targetSpecies, base_x + depth_x*depth-9, base_y + base_y_offset*(*depth_i) + numLines, 0);
+        HandleTargetSpeciesPrintText(targetSpecies, base_x + depth_x*depth, base_y, base_y_offset, *depth_i, numLines); //evolution mon name
 
         bool32 caught = GetSetPokedexFlag(SpeciesToNationalPokedexNum(targetSpecies), FLAG_GET_CAUGHT);
         if (HGSS_HIDE_UNOWNED_EVOLUTION_METHODS == TRUE && !caught)
@@ -7166,11 +7197,16 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
         PrintInfoScreenTextSmall(gStringVar4, fontId, base_x_offset, base_y + base_y_offset*(*depth_i) + numLines); //Print actual instructions
         (*depth_i)++;
 
-        numLines = CountLineBreaks(gStringVar4) * fontHeight;
+        lineBreaks = CountLineBreaks(gStringVar4);
+        numLines = lineBreaks * fontHeight;
 
-        sPokedexView->sEvoScreenData.arrowSpriteDist[*depth_i + 1] = numLines;
+        if (*depth_i + 1 < 10)
+            sPokedexView->sEvoScreenData.arrowSpriteDist[*depth_i + 1] = numLines;
 
-        PrintEvolutionTargetSpeciesAndMethod(taskId, targetSpecies, depth+1, depth_i, alreadyPrintedIcons, icon_depth_i, numLines);
+        *totalLines += lineBreaks + 1;
+
+        if (depth < 3)
+            PrintEvolutionTargetSpeciesAndMethod(taskId, targetSpecies, depth+1, depth_i, alreadyPrintedIcons, icon_depth_i, numLines, totalLines, baseSpecies);
     }//For loop end
 }
 
@@ -7418,7 +7454,7 @@ static void Task_HandleFormsScreenInput(u8 taskId)
             sPokedexView->sFormScreenData.inSubmenu = FALSE;
             PlaySE(SE_PIN);
             BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-            gTasks[taskId].func = Task_LoadInfoScreenWaitForFade;
+            gTasks[taskId].func = Task_WaitForFadeFromEvoFormsScreen;
         }
 
         if (JOY_NEW(B_BUTTON))
