@@ -4019,6 +4019,26 @@ static void DebugAction_TimeMenu_ChangeWeekdays(u8 taskId)
 // *******************************
 // Actions PCBag
 
+
+// Kanto-Merge: Die Fuell-Aktionen liefen stumpf von SPECIES_BULBASAUR
+// aufwaerts und landeten dabei auch auf Nummern, die in diesem Aufbau nicht
+// belegt sind - das gab Fehler im Lagersystem. Diese Hilfe springt zur
+// naechsten Art mit hinterlegtem Namen und faengt am Ende wieder von vorn an.
+static u16 Debug_NextUsableSpecies(u16 species)
+{
+    u32 tries;
+
+    for (tries = 0; tries < NUM_SPECIES; tries++)
+    {
+        if (species >= NUM_SPECIES)
+            species = SPECIES_BULBASAUR;
+        if (gSpeciesInfo[species].speciesName[0] != 0)
+            return species;
+        species++;
+    }
+    return SPECIES_BULBASAUR;
+}
+
 static void DebugAction_PCBag_Fill_PCBoxes_Fast(u8 taskId) //Credit: Sierraffinity
 {
     int boxId, boxPosition;
@@ -4035,6 +4055,7 @@ static void DebugAction_PCBag_Fill_PCBoxes_Fast(u8 taskId) //Credit: Sierraffini
         {
             if (!GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SANITY_HAS_SPECIES))
             {
+                species = Debug_NextUsableSpecies(species);
                 StringCopy(speciesName, GetSpeciesName(species));
                 SetBoxMonData(&boxMon, MON_DATA_NICKNAME, &speciesName);
                 SetBoxMonData(&boxMon, MON_DATA_SPECIES, &species);
@@ -4065,6 +4086,7 @@ static void DebugAction_PCBag_Fill_PCBoxes_Slow(u8 taskId)
             {
                 if (!spaceAvailable)
                     PlayBGM(MUS_RG_MYSTERY_GIFT);
+                species = Debug_NextUsableSpecies(species);
                 CreateBoxMon(&boxMon, species, 100, Random32(), OTID_STRUCT_PLAYER_ID);
                 SetBoxMonIVs(&boxMon, USE_RANDOM_IVS);
                 GiveBoxMonInitialMoveset(&boxMon);
