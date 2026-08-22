@@ -3443,27 +3443,20 @@ static void CreateInterfaceSprites(u8 page)
         u8 counterX1s    = LIST_RIGHT_SIDE_TEXT_X + LIST_RIGHT_SIDE_TEXT_X_OFFSET + 14;
         u8 counterX10s   = counterX1s - counterXDist;
         u8 counterX100s  = counterX10s - counterXDist;
-        u8 counterX1000s = counterX100s - counterXDist;
 
-        // Hoenn text
+        // Kanto-Merge: Es gibt nur noch eine Zaehlung, deshalb steht oben
+        // 'Pokémon' statt einer Region, und der zweite Block entfaellt.
+        // Die Beschriftung sitzt an Kachel 160 in tileset_interface_hns.png,
+        // wo vorher 'Johto' stand.
         CreateSprite(&sHoennNationalTextSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X, 40 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET - 6, 1);
-        // Hoenn seen
+        // Gesehen
         CreateSprite(&sSeenOwnTextSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X, 45 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET + 6, 1);
-        // Hoenn own
+        // Gefangen
         spriteId = CreateSprite(&sSeenOwnTextSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X, 55 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET + 7, 1);
         StartSpriteAnim(&gSprites[spriteId], 1);
 
-        // National text
-        spriteId = CreateSprite(&sHoennNationalTextSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X, 73 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET - 6, 1);
-        StartSpriteAnim(&gSprites[spriteId], 1);
-        // National seen
-        CreateSprite(&sSeenOwnTextSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X, 78 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET + 6, 1);
-        // National own
-        spriteId = CreateSprite(&sSeenOwnTextSpriteTemplate, LIST_RIGHT_SIDE_TEXT_X, 88 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET + 6, 1);
-        StartSpriteAnim(&gSprites[spriteId], 1);
-
         // Hoenn seen value - 100s
-        seenOwnedCount = GetRegionalPokedexCount(FLAG_GET_SEEN);
+        seenOwnedCount = GetNationalPokedexCount(FLAG_GET_SEEN);
         drawNextDigit = FALSE;
         spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX100s, 45 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 3);
         digitNum = seenOwnedCount / 100;
@@ -3486,7 +3479,7 @@ static void CreateInterfaceSprites(u8 page)
         digitNum = (seenOwnedCount % 100) % 10;
         StartSpriteAnim(&gSprites[spriteId], digitNum);
 
-        seenOwnedCount = GetRegionalPokedexCount(FLAG_GET_CAUGHT);
+        seenOwnedCount = GetNationalPokedexCount(FLAG_GET_CAUGHT);
         // Hoenn owned value - 100s
         drawNextDigit = FALSE;
         spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX100s, 55 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 3);
@@ -3509,77 +3502,9 @@ static void CreateInterfaceSprites(u8 page)
         spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX1s, 55 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 1);
         digitNum = (seenOwnedCount % 100) % 10;
         StartSpriteAnim(&gSprites[spriteId], digitNum);
-
-        //****************************
-        // National seen value - 1000s
-        drawNextDigit = FALSE;
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX1000s, 78 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 4);
-        digitNum = sPokedexView->seenCount / 1000;
-        StartSpriteAnim(&gSprites[spriteId], digitNum);
-        if (digitNum != 0)
-            drawNextDigit = TRUE;
-        else
-            gSprites[spriteId].invisible = TRUE;
-
-        // National seen value - 100s
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX100s, 78 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 3);
-        digitNum = (sPokedexView->seenCount % 1000) / 100;
-        if (digitNum != 0 || drawNextDigit)
-        {
-            drawNextDigit = TRUE;
-            StartSpriteAnim(&gSprites[spriteId], digitNum);
-        }
-        else
-            gSprites[spriteId].invisible = TRUE;
-
-        // National seen value - 10s
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX10s, 78 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 2);
-        digitNum = ((sPokedexView->seenCount % 1000) % 100) / 10;
-        if (digitNum != 0 || drawNextDigit)
-            StartSpriteAnim(&gSprites[spriteId], digitNum);
-        else
-            gSprites[spriteId].invisible = TRUE;
-
-        // National seen value - 1s
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX1s, 78 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 1);
-        digitNum = ((sPokedexView->seenCount % 1000) % 100) % 10;
-        StartSpriteAnim(&gSprites[spriteId], digitNum);
-
-        // National owned value - 1000s
-        drawNextDigit = FALSE;
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX1000s, 88 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 4);
-        digitNum = sPokedexView->ownCount / 1000;
-        StartSpriteAnim(&gSprites[spriteId], digitNum);
-        if (digitNum != 0)
-            drawNextDigit = TRUE;
-        else
-            gSprites[spriteId].invisible = TRUE;
-
-        // National owned value - 100s
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX100s, 88 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 3);
-        digitNum = (sPokedexView->ownCount % 1000) / 100;
-        if (digitNum != 0 || drawNextDigit)
-        {
-            drawNextDigit = TRUE;
-            StartSpriteAnim(&gSprites[spriteId], digitNum);
-        }
-        else
-            gSprites[spriteId].invisible = TRUE;
-
-        // National owned value - 10s
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX10s, 88 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 2);
-        digitNum = ((sPokedexView->ownCount % 1000) % 100) / 10;
-        if (digitNum != 0 || drawNextDigit)
-            StartSpriteAnim(&gSprites[spriteId], digitNum);
-        else
-            gSprites[spriteId].invisible = TRUE;
-
-        // National owned value - 1s
-        spriteId = CreateSprite(&sNationalDexSeenOwnNumberSpriteTemplate, counterX1s, 88 - LIST_RIGHT_SIDE_TEXT_Y_OFFSET, 1);
-        digitNum = ((sPokedexView->ownCount % 1000) % 100) % 10;
-        StartSpriteAnim(&gSprites[spriteId], digitNum);
     }
 
+    //****************************
     if (page == PAGE_MAIN)
     {
         spriteId = CreateSprite(&sDexListStartMenuCursorSpriteTemplate, 136, 96, 1);
