@@ -1243,10 +1243,6 @@ Common_EventScript_HnsMomCall::
 	pokenavcall Common_Text_HnsMomParcelCall
 	waitmessage
 	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox Common_Text_HnsRegisteredMom, MSGBOX_DEFAULT
-	waitfanfare
-	setflag FLAG_ENABLE_MOM_MATCH_CALL
 	closemessage
 	delay 30
 	releaseall
@@ -1272,8 +1268,8 @@ Common_Text_HnsMomParcelCall:
 	.string "Prof. Eich hat angerufen: Im\n"
 	.string "Laden in Vertania liegt eine\l"
 	.string "Bestellung für ihn.\p"
-	.string "Bringst du sie ihm mit? Jetzt\n"
-	.string "hast du meine Nummer!$"
+	.string "Bringst du sie ihm mit?\n"
+	.string "Pass auf dich auf!$"
 #else
 	.string "Hi, {PLAYER}!\p"
 	.string "Let me try out the POKéGEAR\n"

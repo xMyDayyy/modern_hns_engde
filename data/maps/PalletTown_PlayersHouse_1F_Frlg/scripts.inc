@@ -53,6 +53,9 @@ PalletTown_PlayersHouse_1F_EventScript_Intro::
 	setflag FLAG_RECEIVED_POKENAV
 	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
 	setflag FLAG_REGISTER_RIVAL_POKENAV
+	@ Kanto-Merge: Mama traegt sich gleich mit ein - sie sagt im naechsten
+	@ Satz ohnehin, dass Nummern im Speicher stehen.
+	setflag FLAG_ENABLE_MOM_MATCH_CALL
 	msgbox PalletTown_PlayersHouse_1F_Text_ExplainPokeGear, MSGBOX_DEFAULT
 	closemessage
 	delay 30

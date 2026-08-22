@@ -1338,7 +1338,10 @@ static void PrintRegionLabelsOnBack(void)
     // also Fenster-y + 12.
     // Waagerecht: Fenster-x 17 = Bildschirm-x 25, sieben Pixel links der
     // Ordenkante (Kachel 4 = 32).
-    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 17, 61, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelJohto);
+    // Kanto-Merge: Das Johto-Label erscheint erst, wenn der Spieler Johto
+    // betreten hat - vorher steht dort eine leere Ordensreihe.
+    if (FlagGet(FLAG_VISITED_JOHTO))
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 17, 61, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelJohto);
     if (FlagGet(FLAG_RECEIVED_PASS_BINDER))
         AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_SMALL, 17, 93, sTrainerCardTextColors, TEXT_SKIP_DRAW, sText_RegionLabelHoenn);
 }

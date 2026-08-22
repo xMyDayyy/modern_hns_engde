@@ -172,10 +172,9 @@ ViridianCity_Text_ExplainRadio:
 
 ViridianCity_Text_AskShowCatching:
 #if GERMAN
-	.string "Du siehst aus, als koenntest du eine\n"
-	.string "Vorfuehrung gebrauchen.\p"
-	.string "Soll ich dir zeigen, wie man Pokémon\n"
-	.string "faengt?$"
+	.string "Dann sollte ich es dir wohl besser\n"
+	.string "zeigen!\p"
+	.string "Soll ich?$"
 #else
 	.string "You look like you could use a\n"
 	.string "demonstration.\p"
@@ -409,8 +408,7 @@ ViridianCity_Text_ShowYouHowToCatchMons::
 	.string "Der Pokédex wird mit jedem neu\n"
 	.string "gefangenen Pokémon aktualisiert.\p"
 	.string "… du weißt nicht, wie man Pokémon\n"
-	.string "fängt?\p"
-	.string "Ich sollte es dir wohl besser zeigen!$"
+	.string "fängt?$"
 #else
 	.string "Well, now, I've had my coffee, and\n"
 	.string "that's what I need to get going!\p"
