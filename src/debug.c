@@ -90,6 +90,8 @@ enum FlagsVarsDebugMenu
 {
     DEBUG_FLAGVAR_MENU_ITEM_FLAGS,
     DEBUG_FLAGVAR_MENU_ITEM_VARS,
+    DEBUG_FLAGVAR_MENU_ITEM_DEXFLAGS_KANTO,
+    DEBUG_FLAGVAR_MENU_ITEM_DEXFLAGS_JOHTO,
     DEBUG_FLAGVAR_MENU_ITEM_DEXFLAGS_ALL,
     DEBUG_FLAGVAR_MENU_ITEM_DEXFLAGS_RESET,
     DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_POKEDEX,
@@ -311,6 +313,8 @@ static void DebugAction_FlagsVars_FlagsSelect(u8 taskId);
 static void DebugAction_FlagsVars_Vars(u8 taskId);
 static void DebugAction_FlagsVars_Select(u8 taskId);
 static void DebugAction_FlagsVars_SetValue(u8 taskId);
+static void DebugAction_FlagsVars_PokedexFlags_Kanto(u8 taskId);
+static void DebugAction_FlagsVars_PokedexFlags_Johto(u8 taskId);
 static void DebugAction_FlagsVars_PokedexFlags_All(u8 taskId);
 static void DebugAction_FlagsVars_PokedexFlags_Reset(u8 taskId);
 static void DebugAction_FlagsVars_SwitchDex(u8 taskId);
@@ -709,7 +713,9 @@ static const struct DebugMenuOption sDebugMenu_Actions_Flags[] =
 {
     [DEBUG_FLAGVAR_MENU_ITEM_FLAGS]                = { COMPOUND_STRING("Set Flag XYZ…"),                     DebugAction_FlagsVars_Flags },
     [DEBUG_FLAGVAR_MENU_ITEM_VARS]                 = { COMPOUND_STRING("Set Var XYZ…"),                      DebugAction_FlagsVars_Vars },
-    [DEBUG_FLAGVAR_MENU_ITEM_DEXFLAGS_ALL]         = { COMPOUND_STRING("Pokédex Flags All"),                 DebugAction_FlagsVars_PokedexFlags_All },
+    [DEBUG_FLAGVAR_MENU_ITEM_DEXFLAGS_KANTO]       = { COMPOUND_STRING("Pokédex Flags Kanto"),               DebugAction_FlagsVars_PokedexFlags_Kanto },
+    [DEBUG_FLAGVAR_MENU_ITEM_DEXFLAGS_JOHTO]       = { COMPOUND_STRING("Pokédex Flags Johto"),               DebugAction_FlagsVars_PokedexFlags_Johto },
+    [DEBUG_FLAGVAR_MENU_ITEM_DEXFLAGS_ALL]         = { COMPOUND_STRING("Pokédex Flags Alles"),               DebugAction_FlagsVars_PokedexFlags_All },
     [DEBUG_FLAGVAR_MENU_ITEM_DEXFLAGS_RESET]       = { COMPOUND_STRING("Pokédex Flags Reset"),               DebugAction_FlagsVars_PokedexFlags_Reset },
     [DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_POKEDEX]       = { COMPOUND_STRING("Toggle {STR_VAR_1}Pokédex"),         DebugAction_ToggleFlag, DebugAction_FlagsVars_SwitchDex },
     [DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_NATDEX]        = { COMPOUND_STRING("Toggle {STR_VAR_1}National Dex"),    DebugAction_ToggleFlag, DebugAction_FlagsVars_SwitchNatDex },
@@ -2666,6 +2672,37 @@ static void DebugAction_FlagsVars_SetValue(u8 taskId)
 }
 
 #undef tVarValue
+
+// Kanto-Merge: Der Dex laeuft im Nationalmodus, zeigt aber nur bis zur
+// hoechsten gesehenen Nummer. Zum Testen braucht es deshalb Stufen statt
+// eines Alles-Schalters - sonst springt die Anzeige sofort bis Gen 4.
+// Der Dex laeuft in der Obtainable-Reihenfolge, deshalb wird auch nach ihr
+// gefuellt - sonst passt der Fuellstand nicht zur Anzeige.
+static void DebugAction_FlagsVars_PokedexFlags_Range(u8 taskId, u32 lastObtainable)
+{
+    u32 i;
+
+    for (i = 1; i <= lastObtainable && i < OBTAINABLE_DEX_COUNT; i++)
+    {
+        u32 nationalNum = ObtainableToNationalOrder(i);
+
+        GetSetPokedexFlag(nationalNum, FLAG_SET_CAUGHT);
+        GetSetPokedexFlag(nationalNum, FLAG_SET_SEEN);
+    }
+
+    Debug_DestroyMenu_Full(taskId);
+    ScriptContext_Enable();
+}
+
+static void DebugAction_FlagsVars_PokedexFlags_Kanto(u8 taskId)
+{
+    DebugAction_FlagsVars_PokedexFlags_Range(taskId, NationalToObtainableOrder(NATIONAL_DEX_MEW));
+}
+
+static void DebugAction_FlagsVars_PokedexFlags_Johto(u8 taskId)
+{
+    DebugAction_FlagsVars_PokedexFlags_Range(taskId, NationalToObtainableOrder(NATIONAL_DEX_CELEBI));
+}
 
 static void DebugAction_FlagsVars_PokedexFlags_All(u8 taskId)
 {
