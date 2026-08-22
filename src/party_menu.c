@@ -2962,9 +2962,13 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
                 }
             }
         }
-        if (CheckBagHasItem(ITEM_HM02, 1) && sPartyMenuInternal->numActions < 5 && !hasFlyAlready)
+        // Kanto-Merge: Ohne Orden erscheint der Eintrag gar nicht erst. Vorher
+        // liess er sich anwaehlen, die Karte ging auf und nichts passierte.
+        if (CheckBagHasItem(ITEM_HM02, 1) && IsFieldMoveUnlocked(FIELD_MOVE_FLY)
+         && sPartyMenuInternal->numActions < 5 && !hasFlyAlready)
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLY + MENU_FIELD_MOVES);
-        if (CheckBagHasItem(ITEM_HM05, 1) && sPartyMenuInternal->numActions < 5 && !hasFlashAlready)
+        if (CheckBagHasItem(ITEM_HM05, 1) && IsFieldMoveUnlocked(FIELD_MOVE_FLASH)
+         && sPartyMenuInternal->numActions < 5 && !hasFlashAlready)
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLASH + MENU_FIELD_MOVES);
     }
     else
