@@ -2228,9 +2228,13 @@ static void CreatePokedexList(u8 dexMode, u8 order)
             s16 r5, r10;
             // Kanto-Merge: Die Liste folgt der Obtainable-Reihenfolge, damit
             // Nachzuegler wie Epitaff hinter Rasaff stehen statt bei 979.
+            // Abgeschaltete Arten - in diesem Aufbau die 50 Regionalformen -
+            // werden uebersprungen, sonst bleiben leere Zeilen stehen.
             for (i = 0, r5 = 0, r10 = 0; i < temp_dexCount; i++)
             {
                 temp_dexNum = ObtainableToNationalOrder(i + 1);
+                if (!IsSpeciesEnabled(NationalPokedexNumToSpecies(temp_dexNum)))
+                    continue;
                 if (GetSetPokedexFlag(temp_dexNum, FLAG_GET_SEEN))
                     r10 = 1;
                 if (r10)
@@ -4550,14 +4554,20 @@ u16 GetNationalPokedexCount(u8 caseID)
 
     for (i = 0; i < OBTAINABLE_DEX_COUNT - 1; i++)
     {
+        enum NationalDexOrder nationalNum = ObtainableToNationalOrder(i + 1);
+
+        // Kanto-Merge: Abgeschaltete Arten zaehlen nicht mit.
+        if (!IsSpeciesEnabled(NationalPokedexNumToSpecies(nationalNum)))
+            continue;
+
         switch (caseID)
         {
         case FLAG_GET_SEEN:
-            if (GetSetPokedexFlag(ObtainableToNationalOrder(i + 1), FLAG_GET_SEEN))
+            if (GetSetPokedexFlag(nationalNum, FLAG_GET_SEEN))
                 count++;
             break;
         case FLAG_GET_CAUGHT:
-            if (GetSetPokedexFlag(ObtainableToNationalOrder(i + 1), FLAG_GET_CAUGHT))
+            if (GetSetPokedexFlag(nationalNum, FLAG_GET_CAUGHT))
                 count++;
             break;
         }

@@ -2688,6 +2688,11 @@ static void DebugAction_FlagsVars_PokedexFlags_Range(u8 taskId, u32 lastObtainab
     {
         u32 nationalNum = ObtainableToNationalOrder(i);
 
+        // Abgeschaltete Arten auslassen - sonst zaehlt der Dex Eintraege
+        // mit, die es im Spiel nicht gibt.
+        if (!IsSpeciesEnabled(NationalPokedexNumToSpecies(nationalNum)))
+            continue;
+
         GetSetPokedexFlag(nationalNum, FLAG_SET_CAUGHT);
         GetSetPokedexFlag(nationalNum, FLAG_SET_SEEN);
     }

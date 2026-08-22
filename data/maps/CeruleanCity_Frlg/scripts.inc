@@ -53,11 +53,10 @@ CeruleanCity_EventScript_Rival::
 	call_if_eq VAR_TEMP_1, 1, CeruleanCity_EventScript_RivalStartExit
 	call_if_eq VAR_TEMP_1, 2, CeruleanCity_EventScript_RivalStartExitRight
 	@ Kanto-Merge: Die Ruhmesdatei entfaellt - das PokeCom fuehrt die
-	@ Kontakte, ein zweites Verzeichnis waere doppelt.
+	@ Kontakte. Damit faellt auch das Umdrehen weg: der Rivale geht in einem
+	@ Zug, statt stehenzubleiben und noch einmal das Wort zu ergreifen.
 	setvar VAR_MAP_SCENE_CERULEAN_CITY_RIVAL, 1
 	setflag FLAG_GOT_FAME_CHECKER
-	msgbox CeruleanCity_Text_RivalSmellYaLater
-	closemessage
 	applymovement LOCALID_CERULEAN_RIVAL, CeruleanCity_Movement_RivalExit
 	waitmovement 0
 	fadedefaultbgm
@@ -734,11 +733,3 @@ CeruleanCity_Text_GymSign::
 	.string "The Tomboyish Mermaid!$"
 #endif
 
-CeruleanCity_Text_RivalSmellYaLater:
-#if GERMAN
-	.string "Ich muss weiter. Bis dann,\n"
-	.string "{PLAYER}!$"
-#else
-	.string "I'm off. Smell ya later,\n"
-	.string "{PLAYER}!$"
-#endif
